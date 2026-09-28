@@ -1,5 +1,23 @@
 # Changelog
 
+## B1395 — the free cusp is charge-blind at finite energy: no finite-energy field at a free cusp knows the sign of the charge, so the charge-odd datum must be an input of the completion (a flux on a capped cusp torus, or non-normalizable sources)
+
+The owner's question after B1393: what physical ingredient at a free cusp knows the sign of the charge?
+- **What can flip.** In 7d SYM only the Higgs field (qφ) and gauge flux (qF) tell q from −q. Flat unitary Wilson lines cannot.
+- **(a)** A Higgs class alive on a cusp torus has L² norm A(a² + b²) log(H/h₀), which diverges. Sealed classes are fixed boundary
+  data, and the dynamical Higgs vevs are cuspidal, free at every cusp.
+- **(b)** A free cusp's modes are L².
+- **(c)** A gauge flux through a hyperbolic cusp torus has energy Aφ²(H² − h₀²)/2, which diverges.
+- **(d)** A condition uniform over the torus adds −χ(T²) = 0. The only charge-odd integers a torus end can carry are χ of a sign
+  partition and the degree of a line bundle.
+- **So** every finite-energy datum at a free cusp is charge-blind except the decaying Higgs tail, which is not a physical count. A
+  completion giving normalizable chiral matter must cap the cusp with a flux, or bring non-normalizable sources (the lane's R28).
+- **Named for sealed tests, not chosen.** The flux-capped Eisenstein cusp (B1396), and a Hořava–Witten E₈ wall as the cap's M-theory
+  reading (speculative).
+
+B1394 (the regular three) is sealed at a4712e8d. The fast lane on B1393's corrected tree (b7fbf7f3): 9 failed (the known baseline,
+unchanged), 6 326 passed, 52 skipped. No physics crossed. 0 of 19.
+
 ## B1393 scope narrowed (E71 instance, self-caught): the charge-blind vanishing is for the rank-one Higgs twist
 
 The lemma's part (c) joins q to −q through the trivial twist along the real coupling, which the Higgs twist has. A general flat system

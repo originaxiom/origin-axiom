@@ -782,3 +782,10 @@ left it.
 >   the C₃-fixed arcs, its three is the regular representation (R32).
 >
 > 0 of 19 (`frontier/B1393_the_charge_flip`).
+
+> **Currency note (2026-09-28, B1395): nothing at a free cusp knows the sign of the charge at finite energy.**
+> - Only the Higgs field and gauge flux flip with the charge.
+> - A Higgs class alive on a cusp torus has a log-divergent norm, and a flux through a hyperbolic cusp torus has divergent energy.
+> - So the charge-odd integer is an input of the completion: a flux on a capped cusp torus, or a non-normalizable source.
+>
+> 0 of 19 (`frontier/B1395_the_free_cusp_is_charge_blind`).

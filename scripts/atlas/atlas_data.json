@@ -8206,6 +8206,22 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1395": {
+   "slug": "the free cusp is charge blind",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B460"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B139": {
    "slug": "firewall cartography",
    "motifs": [

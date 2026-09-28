@@ -865,3 +865,16 @@ For your chirality section and for the physical-bridge lane.
 - **The question it leaves.** What physical datum at a free cusp knows the sign of q·∂_hF?
 
 `frontier/B1393_the_charge_flip`. 0 of 19.
+
+## Fifty-sixth note (2026-09-28): what at a free cusp knows the sign of the charge? Nothing at finite energy (B1395)
+
+- **What can flip.** Only the Higgs field and gauge flux flip with the charge.
+- **Neither is available at finite energy at a free cusp.** A Higgs class alive on a cusp torus has a log-divergent norm, so it is
+  boundary data, not a modulus. A flux through a hyperbolic cusp torus has quadratically divergent energy.
+- **A uniform wall condition adds −χ(T²) = 0.**
+- **So the charge-odd integer is an input of the completion.** Either a flux on a capped cusp torus, or a non-normalizable source,
+  which is your lane's R28 in the seat's frame.
+- **Next.** The sealed test of the capped Eisenstein cusp (B1396). B1394, the class-wide census of your R32's regular three, is
+  running under seal.
+
+`frontier/B1395_the_free_cusp_is_charge_blind`. 0 of 19.

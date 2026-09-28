@@ -3247,5 +3247,16 @@ This job is not optional, whichever answers the first two questions get. `fronti
     into the sources' inflow (R23), or into a gap from interactions (open).
   - Each is to be sealed before it is computed. `frontier/B1393_the_charge_flip`.
 
+**Status (2026-09-28, B1395): inside the frame, nothing at a free cusp knows the sign of the charge.**
+- Only the Higgs field and gauge flux flip with the charge. At a free cusp the Higgs field decays.
+- A Higgs class alive on the torus has a log-divergent norm (fixed boundary data), and a flux through a hyperbolic cusp torus has
+  quadratically divergent energy.
+- A uniform torus condition adds −χ(T²) = 0.
+- So question 1 has only two answers: cap the cusp and carry a flux on its torus (the charge-odd integer is the flux degree, the only
+  finite-energy one), or bring non-normalizable sources (R24/R28).
+- Next is the sealed test of the first: at a rotated Eisenstein cusp, a flux respecting the order-3 rotation has its degree fixed
+  mod 3 by the weights at the rotation's three fixed points (B1396, after B1394's census).
+- The Hořava–Witten E₈ wall is a speculative M-theory reading of the cap. `frontier/B1395_the_free_cusp_is_charge_blind`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

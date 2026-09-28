@@ -339,6 +339,10 @@ emitted value. The structure is the object's; the values are the observer's.
 > own twist, a completion that treats both charges alike gives zero, and on the showcase member exactly zero at every real coupling. So whatever completes
 > the ends has to know the sign of the charge. The one computed candidate is a sourced end, and its three is a regular
 > representation, not a protected three.*
+>
+> *And (B1395), the answer inside the frame to what knows that sign: nothing at finite energy. A Higgs field that stays alive at a
+> cusp, or a magnetic flux through it, costs infinite energy there. So the sign must be put in by whatever caps the cusp: a flux on
+> the capped torus, or a source. That is an input, not something the geometry produces.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

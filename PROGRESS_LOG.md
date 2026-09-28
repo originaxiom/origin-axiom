@@ -15763,3 +15763,25 @@ not of a general flat system and its dual.
 *Record of an exception.* This morning's kill-tests commit (89221dde) reworded two lines of this log's history to take out a private
 term, on the owner's instruction: the B1388 heading and one status line in B1386's entry. This log is append-only (GOVERNANCE §9), and
 rewording its history is an owner decision. The owner made it. No other history line was changed, and this correction is appended.
+
+**The fast lane on B1393's corrected tree (b7fbf7f3):** 9 failed, 6 326 passed, 52 skipped in 54 m. The nine are exactly the known
+baseline.
+
+## 2026-09-28 — B1394 sealed (the regular three), and B1395: the free cusp is charge-blind at finite energy
+
+**B1394 sealed (a4712e8d).**
+- The question: can sources on the fixed arcs of an order-3 isometry, anywhere in m004's class, give a three that is not three times
+  one?
+- The theorem is sealed with the census. It is the lane's R32 Hopf-trace argument, generalised.
+- The banked identity is m202, which reproduces R32.
+
+**B1395 answers the owner's question inside the frame.** What at a free cusp knows the sign of the charge? Nothing at finite energy.
+- Only the Higgs field and gauge flux can flip with the charge.
+- A Higgs class alive on a cusp torus has a log-divergent norm, so it is fixed boundary data. The dynamical Higgs vevs are cuspidal.
+- A flux through a hyperbolic cusp torus has quadratically divergent energy.
+- A uniform condition on the torus adds −χ(T²) = 0.
+- So the charge-odd integer is an input of the completion: a flux on a capped cusp torus (B1396 next), or a non-normalizable source
+  (the lane's R28).
+- The Hořava–Witten E₈ wall is recorded as a speculative M-theory reading of the cap, not a result.
+
+Lock: `tests/test_b1395_the_free_cusp_is_charge_blind.py`. 0 of 19.
