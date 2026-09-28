@@ -1,0 +1,23 @@
+{
+ "fried_hypotheses": [
+  "acyclic",
+  "unitary"
+ ],
+ "source_read_at_source": "Dang-Guillarmou-Riviere-Shen arXiv:1807.01189v3",
+ "fried_himself": "CITED-UNREAD (quoted through DGRS)",
+ "loci_h1_values": {
+  "t12835": [
+   1
+  ],
+  "m004": [
+   1
+  ]
+ },
+ "loci_count": {
+  "t12835": 55,
+  "m004": 1
+ },
+ "acyclic_loci": 0,
+ "unitary_loci": 0,
+ "sealed_prediction": "CONFIRMED, and stronger: unitarity is a second hypothesis"
+}

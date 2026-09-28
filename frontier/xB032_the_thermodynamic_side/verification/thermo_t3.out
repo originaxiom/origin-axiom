@@ -1,0 +1,59 @@
+T3       FRIED'S THEOREM -- hypotheses, quoted
+         Source read at source: N. V. Dang, C. Guillarmou, G. Riviere, S. Shen,
+         'The Fried conjecture in small dimensions', arXiv:1807.01189v3, Invent. Math.
+         Fried himself (Invent. Math. 84 (1986) 523-540) is NOT read here; his theorem is
+         quoted THROUGH DGRS, so his row stays CITED-UNREAD and DGRS becomes READ-AT-SOURCE.
+
+         DEFINITION, verbatim: "We say that the complex (or rho) is ACYCLIC if
+         H^k(M; rho) = 0 for each k."
+         FRIED'S FORMULA, verbatim (their eq. 1.2, dim(M) = 2n_0 + 1):
+           "|zeta_{X,rho}(0)^{(-1)^{n_0}}| = tau_rho(M),
+            where rho is the lift to pi_1(M) of an ACYCLIC and UNITARY representation
+            rho_0 : pi_1(M) -> U(C^r)."
+         And: "If rho is unitary and acyclic and if X is the geodesic vector field on the
+         unit tangent bundle ... of a hyperbolic manifold M, Fried showed that zeta_{X,rho}
+         extends meromorphically ... Then he proved [Fr2] the remarkable formula".
+
+         SO THE HYPOTHESES ARE TWO: ACYCLIC and UNITARY.  The seal predicted acyclicity;
+         unitarity is a SECOND hypothesis the seal did not name.
+
+T3       DO THE RECORD'S OWN MODULES SATISFY THEM?  Measured, not asserted.
+         t12835: 55 reducible non-split loci; h^1(chi^2) values [1]; minimum 1
+           ACYCLIC requires H^k = 0 for EVERY k, in particular h^1 = 0.
+           Every locus has h^1 >= 1 BY CONSTRUCTION -- nonsplit_cocycle() returns a
+           cocycle only when h^1(chi^2) > 0.  So ZERO of 55 loci are acyclic.
+         m004: 1 reducible non-split loci; h^1(chi^2) values [1]; minimum 1
+           ACYCLIC requires H^k = 0 for EVERY k, in particular h^1 = 0.
+           Every locus has h^1 >= 1 BY CONSTRUCTION -- nonsplit_cocycle() returns a
+           cocycle only when h^1(chi^2) > 0.  So ZERO of 1 loci are acyclic.
+
+         UNITARY?  A unitary representation is completely reducible (semisimple).
+         The record's modules are REDUCIBLE NON-SPLIT by construction -- rho_chi =
+         [[chi, c],[0, chi^-1]] with c a NON-coboundary cocycle, i.e. the extension does
+         NOT split, i.e. rho_chi is NOT semisimple.  Hence NOT unitary.  And B1418's own
+         FINDINGS say so: 'not the geometric holonomy, not unitary'.
+         Independent corroboration from the record's own numbers: I^ss = 0 EVERYWHERE in
+         B1418's table -- the semisimplification, which is what a unitary rep would be,
+         gives index zero at every locus.  The index exists ONLY off the semisimple set.
+
+         RESULT: loci examined 56; satisfying ACYCLIC: 0; satisfying UNITARY: 0 (non-split by construction)
+         *** THE SEALED PREDICTION HOLDS, AND IS STRONGER THAN SEALED.
+         Fried needs ACYCLIC + UNITARY.  The record's chirality mechanism is defined on
+         the locus h^1 != 0 and fires only on NON-semisimple modules.  It lives exactly on
+         the set BOTH hypotheses exclude.  The thermodynamic route does not go around the
+         wall -- it requires STRICTLY MORE than the topological one.
+
+T4       THE HONEST READING, AND ITS LIMITS
+         (a) T1 established log|Tor H_1(X_n)| = n * h_top(monodromy).  So Friedmann-Witten's
+             T_O term is an ENTROPY and their condition P_eff = 84 is an ENTROPY
+             REQUIREMENT on the three-cycle: 84 nats, i.e. n = 88 levels of this tower.
+             THIS IS A REFRAMING.  It changes no number and derives nothing.
+         (b) It does NOT make a hyperbolic Qhat admissible.  xB029 Addendum 1 stands:
+             FW assume FINITE pi_1 and the zero modes are real.
+         (c) DO NOT SLIDE BETWEEN THE TWO ENTROPIES.  h_top of the GEODESIC FLOW of any
+             hyperbolic 3-manifold is 2, universally -- it discriminates nothing.  The
+             entropy that carries information here is the MONODROMY's, log lambda, which
+             is a fibration datum and not a metric one.
+         (d) Gate 5 absolute.  No value.  Nothing to CLAIMS.md.
+
+T3/T4 PASS  (content is the verdict above)

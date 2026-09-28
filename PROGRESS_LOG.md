@@ -17733,3 +17733,61 @@ hyperbolic manifolds fall outside FW (xB029 Addendum 1).
 the quantitative half REFUTED · U4 correct.**
 
 **Gate 5 absolute. No value. No generation count claimed. Nothing to `CLAIMS.md`.**
+
+## xB032 (2026-09-18) — the thermodynamic side: the torsion growth rate IS the monodromy's entropy, and the Fried step B803 named and never took is blocked on hypotheses
+
+**PREREGISTRATION sealed at `988ca30d`.** Owner's direction: *"the object had a thermodynamical side
+we never account for, which plays a crucial role for physics ambitions."*
+
+**Reconnaissance constrained the claim before the first cell.** The record already holds the
+dilatation `φ²` and its **minimality** (xB014 ADDENDUM 1's *"extremal three ways"*, the minimum
+**forced** by trace 3 being the smallest possible in `SL(2,ℤ)`), `THE_UNIQUENESS_ATLAS`'s *"SMALLEST
+dilatation … 4₁'s monodromy realizes it [classical]"*, and B207's *"golden has the smallest regulator
+(`log φ`)"*. **The gap was never the vocabulary. It was the JOIN.**
+
+**T1 — THE SIXTH NAME.** m004 is the once-punctured-torus bundle with monodromy `RL = [[2,1],[1,1]]`,
+trace 3; its characteristic polynomial is **`t² − 3t + 1`, IDENTICAL to the Alexander polynomial**;
+its dilatation is `α = φ²`; and **`h_top = log α = 0.9624236501 = 2 log φ`** is, to `10⁻⁹`,
+**xB029's MEASURED tower torsion growth per level** (re-read from its banked JSON, not recalled).
+> **`log|Tor H₁(Xₙ)| = n·h_top(monodromy)`. The tower's torsion is an ENTROPY, and Friedmann–Witten's
+> `T_O` term — the `P_eff` Acharya et al. need to reach 84 — is on this tower `n·h_top`.**
+**Fence:** for a fibred knot the Alexander polynomial **is** the monodromy's characteristic
+polynomial — **classical**. The content is that three arcs carried the number without the join.
+
+**T2 — THE EXTREMALITY, JOINED.** On eight `RL`-words: dilatation vs measured `log|Tor|/n` at `n=60`
+agree **8 of 8 at 6 DISTINCT dilatations** (the binding control of ≥ 4 distinct values, so the match
+is not an artefact of testing only the minimum). Minimum entropy and minimum volume both at `RL`.
+> **The dilatation column and the torsion-growth column are ONE column. xB014's "extremal three ways"
+> therefore says something it did not say: the object MINIMISES THE ENTROPY — it is the slowest
+> torsion producer in its class.**
+
+**T3 — THE STEP B803 NAMED AND NEVER TOOK.** B803 filed *"The analytic-torsion join (needs the cusped
+Cheeger–Müller/**Fried** literature step first — a literature step, not a computation)"* under **"Not
+verified here."** Taken now, through **Dang–Guillarmou–Rivière–Shen arXiv:1807.01189v3**
+(READ-AT-SOURCE; **Fried himself NOT read, quoted through them**): *"`|ζ_{X,ρ}(0)^{(−1)^{n₀}}| =
+τ_ρ(M)`, where `ρ` is the lift to `π₁(M)` of an **acyclic and unitary** representation."*
+**The sealed prediction — that Fried needs ACYCLICITY, the same `h¹ = 0` FW buy with finite `π₁` —
+HOLDS, and the seal UNDERSTATED it: there is a second hypothesis, UNITARITY.** Measured on the
+record's own objects: **0 of 56 reducible non-split loci are acyclic** (`h¹ ≥ 1` **by construction** —
+`nonsplit_cocycle()` returns a cocycle only when `h¹(χ²) > 0`) and **0 are unitary** (non-split ⇒ not
+semisimple; B1418 says so itself). The record's own `I^ss = 0` column corroborates from inside: **the
+index exists only off the semisimple set.**
+> **ONE WALL, THREE COATS.** FW need `h¹ = 0`, bought with finite `π₁`. Fried needs **acyclic AND
+> unitary**. The record's chirality index is *defined* on `h¹ ≠ 0` and fires *only* on non-semisimple
+> modules. **The thermodynamic route does not go around the wall — it requires STRICTLY MORE.**
+> **B803's step is now taken far enough to know that obtaining Fried's own paper would not change the
+> outcome: it fails on HYPOTHESES, not on access.**
+
+**T4 — THE HONEST READING.** `P_eff` is an **entropy**, so `P_eff = 84` is an **entropy requirement**
+on the three-cycle (84 nats, `n = 88` levels) and the Λ-tuning is entropy-matching rather than
+geometric. **This is a REFRAMING: it changes no number and derives nothing.** It does **not** make a
+hyperbolic `Q̂` admissible (xB029 Addendum 1 stands). It does **not** cross B1012's wall — an entropy
+is still dimensionless where the wall needs a dimensionful quantity. **And it must not slide between
+the two entropies: `h_top` of the GEODESIC FLOW is `2` for every hyperbolic 3-manifold and
+discriminates nothing; the informative one is the MONODROMY's, a fibration datum, not a metric one.**
+
+**Prior: T1 correct · T2 correct with the control satisfied · T3 correct and UNDERSTATED by the seal ·
+T4 held to.**
+
+**Gate 5 absolute. No value. Nothing to `CLAIMS.md`. The record now carries one number under six
+names instead of six numbers.**

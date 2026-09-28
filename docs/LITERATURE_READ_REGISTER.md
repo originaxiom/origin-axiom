@@ -253,3 +253,24 @@ FW's own recipe in general and mentions `π₁` nowhere.
 > written down, the row was filed correctly, and the step was taken anyway. **The hypothesis lived in
 > the CITED paper, not the citing one — and reading only the citing paper is what hid it.** *Filing a
 > source as unread is not the same as not using it.*
+
+## AMENDMENT 9 (2026-09-18, xB032) — the thermodynamic route to the torsion, and it fails on hypotheses rather than on access
+
+| source | grade | what it says, at source |
+|---|---|---|
+| **N. V. Dang, C. Guillarmou, G. Rivière, S. Shen**, *The Fried conjecture in small dimensions*, **arXiv:1807.01189v3** (Invent. Math.) | **CITED-UNREAD → READ-AT-SOURCE** (xB032 T3) | **Definition, verbatim:** *"We say that the complex (or `ρ`) is **acyclic** if `H^k(M; ρ) = 0` for each `k`."* **Fried's formula, verbatim (their eq. 1.2, `dim M = 2n₀+1`):** *"`\|ζ_{X,ρ}(0)^{(−1)^{n₀}}\| = τ_ρ(M)`, where `ρ` is the lift to `π₁(M)` of an **acyclic and unitary** representation `ρ₀ : π₁(M) → U(ℂʳ)`."* Obtained from arXiv, **freely available, no gate.** |
+| **D. Fried**, *Analytic torsion and closed geodesics on hyperbolic manifolds*, Invent. Math. **84** (1986) 523–540 | **CITED-UNREAD — and deliberately left there** | Quoted **through** DGRS above, not read. **This row is not a debt:** xB032 establishes that the step fails on **hypotheses** (acyclicity and unitarity), and **obtaining Fried's own paper would not change that.** Reading it would refine the statement, not the outcome. |
+
+**What the read did.** **B803 filed *"The analytic-torsion join (needs the cusped Cheeger–Müller/Fried
+literature step first — a literature step, not a computation)"* under "Not verified here" and it has
+sat there since.** xB032 takes it. Fried's theorem needs the flat bundle **acyclic and unitary**;
+measured on the record's own objects, **0 of 56 reducible non-split loci satisfy either** — acyclicity
+fails **by construction** (the loci are *defined* by `h¹(χ²) > 0`) and unitarity fails because a
+non-split extension is not semisimple. **The record's own `I^ss = 0` column says the same thing from
+inside: the index exists only off the semisimple set.**
+
+> **The lesson this amendment adds.** A named-but-untaken literature step can be **worth taking just
+> to learn it is shut.** The register has carried Fried as a missing ingredient; he is not missing —
+> **the hypotheses are.** **One wall, three coats: Friedmann–Witten's `h¹ = 0` bought with finite
+> `π₁`, Fried's acyclic-and-unitary, and the record's chirality index which requires `h¹ ≠ 0` and a
+> non-semisimple module. The thermodynamic route requires STRICTLY MORE than the topological one.**

@@ -1,5 +1,29 @@
 # Changelog
 
+## xB032 — the thermodynamic side: the torsion growth rate is the monodromy's entropy, and the Fried step fails on hypotheses
+
+**The sixth name.** m004's monodromy is `RL = [[2,1],[1,1]]`; its characteristic polynomial **is** the
+Alexander polynomial `t² − 3t + 1`; its dilatation is `φ²`; and **`h_top = log φ² = 0.9624236501` is,
+to `10⁻⁹`, xB029's measured tower torsion growth per level.** So `log|Tor H₁(Xₙ)| = n·h_top` and
+**Friedmann–Witten's `P_eff` is an ENTROPY.**
+
+**The extremality, joined.** Dilatation and measured torsion growth agree **8 of 8 at 6 distinct
+dilatations**. The two columns are one column, so xB014's *"extremal three ways"* means the object
+**minimises the entropy** — the slowest torsion producer in its class.
+
+**B803's never-taken step, taken.** Fried's theorem (quoted through **DGRS arXiv:1807.01189v3**,
+READ-AT-SOURCE; Fried himself deliberately left CITED-UNREAD) requires the flat bundle **acyclic AND
+unitary**. **0 of 56 of the record's reducible non-split loci satisfy either** — acyclicity fails *by
+construction*, unitarity because a non-split extension is not semisimple.
+
+> **One wall, three coats:** FW's `h¹ = 0` bought with finite `π₁`, Fried's acyclic-and-unitary, and
+> the record's index which needs `h¹ ≠ 0` and a non-semisimple module. **The thermodynamic route
+> requires strictly more than the topological one, and obtaining Fried's own paper would not change
+> that — the step fails on hypotheses, not on access.**
+
+**The reframing is declared as one:** `P_eff = 84` becomes an entropy requirement; it derives nothing,
+admits no hyperbolic `Q̂`, and does not cross B1012's wall. **Gate 5 absolute.**
+
 ## xB030 — the four buried results dug up, and the one route to three generations that is still open
 
 **U1.** `α = (3+√5)/2 = φ²` is at once the **Alexander root** of the figure-eight, **B1418's golden

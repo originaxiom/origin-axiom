@@ -1,0 +1,46 @@
+
+T1       THE SIXTH NAME -- and it is thermodynamic
+         m004 = the once-punctured-torus bundle with monodromy RL
+         RL = [[1,1],[0,1]]*[[1,0],[1,1]] = [[2, 1], [1, 1]]   trace = 3  det = 1
+         characteristic polynomial = t**2 - 3*t + 1
+         Alexander polynomial of 4_1 = t**2 - 3*t + 1    IDENTICAL: True
+         eigenvalues [sqrt(5)/2 + 3/2, 3/2 - sqrt(5)/2]; spectral radius = dilatation lambda = sqrt(5)/2 + 3/2
+         lambda == alpha = (3+sqrt5)/2 : True      alpha == phi^2 : True
+         topological entropy of the monodromy h_top = log lambda = 0.9624236501
+                                                   = 2 log phi  = 0.9624236501
+         xB029's MEASURED torsion growth per level (re-read) = 0.9624236501192069
+         equals h_top to 1e-9 : True
+         *** THE JOIN:  log|Tor H_1(X_n)| = n * h_top(monodromy) + o(1).
+         The tower's torsion IS an ENTROPY, growing at exactly the entropy rate of
+         the object's own monodromy.  So Friedmann-Witten's T_O term,
+         P_eff = log|Tor H_1|, is on this tower  n * h_top.
+         FENCE: for a FIBRED knot the Alexander polynomial IS the characteristic
+         polynomial of the monodromy -- CLASSICAL.  The content is that three arcs
+         carried the same number without the join, not that the number is new.
+T1 PASS
+
+T2       THE EXTREMALITY, JOINED -- is the dilatation column the torsion column?
+         CONTROL, binding: the identity must be tested where lambda is NOT phi^2.
+         At least four distinct dilatations required.
+         word     trace   dilatation   h=log lam     volume  measured log|Tor|/n
+         RL           3   2.61803399  0.96242365   2.029883  n=60: 0.9624236501   match True
+         RRL          4   3.73205081  1.31695790   2.666745  n=60: 1.3169578969   match True
+         RLL          4   3.73205081  1.31695790   2.666745  n=60: 1.3169578969   match True
+         RRLL         6   5.82842712  1.76274717   3.663862  n=60: 1.7627471740   match True
+         RLRRL       10   9.89897949  2.29243167   4.751702  n=60: 2.2924316696   match True
+         RRRL         5   4.79128785  1.56679924   2.989120  n=60: 1.5667992370   match True
+         RLRL         7   6.85410197  1.92484730   4.059766  n=60: 1.9248473002   match True
+         RRLRL       10   9.89897949  2.29243167   4.751702  n=60: 2.2924316696   match True
+         distinct dilatations tested: 6  (>= 4 required by the control)
+         the two columns agree on 8 of 8
+         minimum entropy at ['RL']; minimum volume at ['RL']
+         *** THE DILATATION COLUMN AND THE TORSION-GROWTH COLUMN ARE THE SAME
+         COLUMN, at four or more distinct values.  xB014's 'extremal three ways'
+         therefore says something it did not say: the object is the SLOWEST
+         TORSION PRODUCER in its class -- it minimises the entropy.
+         FENCE: minimal dilatation is a KNOWN THEOREM; minimal volume is
+         Cao-Meyerhoff.  The join is the content, not the mathematics.
+T2 PASS
+
+==============================================================================
+ALL CELLS PASSED
