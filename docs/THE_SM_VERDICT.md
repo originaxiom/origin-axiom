@@ -799,3 +799,11 @@ left it.
 > - For acyclic characters, one versus three is the level question (sL-5). The flux and the cap remain inputs (B1395).
 >
 > 0 of 19 (`frontier/B1394_the_regular_three`, `frontier/B1396_the_capped_eisenstein_cusp`).
+
+> **Currency note (2026-09-28, B1397): in the record's E₆ frame, flux caps cannot give three generations.**
+> - A flux cap's chirality is linear in the charges, so its spectrum is anomaly-free exactly when the flux is orthogonal to hypercharge
+>   (E₆, E₇ and E₈ have no quartic Casimir). A cap cannot cancel the frame's anomaly; it replaces the frame's count.
+> - In every E₆ frame the net number of generations it gives is even. In the E₇ frame, a flux along E₇'s own U(1) gives any number,
+>   three included, as an input. The E₈ frame gives none.
+>
+> 0 of 19 (`frontier/B1397_the_caps_generations`).

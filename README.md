@@ -349,6 +349,10 @@ emitted value. The structure is the object's; the values are the observer's.
 > threefold cover produces, not a protected three, and it holds whenever the bulk is clean. A sealed census across the class found
 > other patterns only where the Wilson line cannot see the rotated cusps, and a theorem explains why. Those cases always carry extra
 > massless matter.*
+>
+> *And (B1397), how many families a capped cusp can give. A magnetic flux on the cap gives each kind of matter a number of states
+> proportional to its charge. That keeps the theory consistent, but in the record's own symmetry group, E₆, the number of families it
+> gives is always even. Three would need the larger group E₇, and even there the number three is put in by hand.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

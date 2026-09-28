@@ -15819,3 +15819,20 @@ non-regular three over an acyclic bulk? While checking the draft's theorem, I ap
 and the cap's own structure remain inputs (B1395), and one versus three is the level question.
 
 Lock: `tests/test_b1396_the_capped_eisenstein_cusp.py`. 0 of 19.
+
+## 2026-09-28 — B1397: what a flux cap gives, and why the E₆ frame cannot make three with it
+
+B1395 left the completion one finite-energy charge-odd datum: a flux on a capped cusp torus. B1396 settled its ℤ/3 content. This arc
+asks what spectrum a flux cap gives in the seat's frames.
+- **The cap's chirality is linear in the charges:** ⟨F, μ⟩·n per sector, doublets included. Linear spectra are anomaly-free in E₆, E₇
+  and E₈ exactly when F ⊥ Y (no quartic Casimir). B1389's frames failed because sign(·) is not linear. A cap cannot cancel that
+  anomaly, only replace the count.
+- **The count is even in every E₆ frame.** The 78's 10s sit in SL(2)_β doublets, and once the 27 is present its flux quantum is 3.
+  E₇'s U(1) gives any number: n chiral 27s. E₈ gives none, because a flux commuting with SU(5) lies in SU(5)′.
+- **So if caps complete the cusps, three needs E₇'s U(1),** and the number is put in by the flux degree.
+
+*Process.* Not sealed: I derived the outcome by hand, then a probe with B1389's vectors confirmed it before the instrument existed. A
+fast-lane run started on B1396's tree was stopped at 54% with no failure to that point, because I was editing the tree while it ran.
+The fast lane is rerun on B1397's commit with no edits during the run.
+
+Lock: `tests/test_b1397_the_caps_generations.py`. 0 of 19.

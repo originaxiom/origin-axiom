@@ -1,0 +1,17 @@
+{
+ "id": "B1397",
+ "verdict": "NEGATIVE",
+ "instrument": true,
+ "depends_on": [
+  "B1396",
+  "B1395",
+  "B1389",
+  "B1368"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE CAP'S GENERATIONS (after B1396; B1395's one finite-energy charge-odd datum is a flux on a capped cusp torus, and B1389's third job is the frame's anomaly): on a capped cusp torus carrying a U(1) flux F of degree n, every charged sector mu has net chirality <F, mu> n (Riemann-Roch on the torus; SL(2)_beta doublets count, rank 2), so the cap's spectrum is LINEAR in the charges where the frame's bulk rule was sign(<H, mu>) N. E6, E7 and E8 have no independent quartic Casimir, so every Standard-Model anomaly of a linear spectrum is proportional to tr(F Y): the cap is anomaly-free exactly when F is orthogonal to hypercharge (otherwise the X,Y partners are chiral), it cannot cancel B1389's anomaly, and a capped completion must replace the frame's count. With F orthogonal to Y (F commutes with SL(2)_beta's parabolic cusp holonomy and the SM: F in span(gamma), plus E7's t, plus E8's SU(3) Cartan) the net generations are g = 2dn (F78), -2dn/3 with dn in 3Z (F27), 4dn/3 (F27+78): EVEN in every E6 frame, so three generations cannot come from flux caps in the record's own frame; g = (4d/3 + e) n, every integer, in the E7 frame (n chiral 27s along t: three is the flux degree, an input); g = 0 in the E8 frame. Under B1396's continuity at a rotated cusp every flux degree is a multiple of 3 (E7: g in 3Z, smallest three). Verified exactly with B1389's vectors: 625 flux directions x 3 degrees = 1875 rows, 0 failures (anomaly-free iff F orthogonal to Y; the hand formula for g; no exotic at F orthogonal to Y). Not sealed (derived by hand, then a probe, then the instrument). Standard rules (flux-induced chirality, anomaly freedom without quartic Casimirs, E7 > E6 x U(1)); the parity reading for the seat's E6 frame is this branch's. No physics crossed. 0 of 19."
+}

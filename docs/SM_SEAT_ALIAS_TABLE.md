@@ -184,3 +184,7 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-28 (later still):* B1394 run as sealed (d5d6a4a1: P1 holds on all 96 acyclic pairs, P2 = 1/2, P3 SOME with 54
 non-acyclic pairs unbalanced) and B1396 used (the capped Eisenstein cusp: the cusp's Hopf trace, half lives half dies, and the capped
 cusp's (n/3)·Reg; not sealed, since its drafted kill test is a theorem); next arc B1397.
+
+*Update 2026-09-28 (B1397):* B1397 used (the cap's generations: a flux cap's chirality is linear in the charges, anomaly-free exactly
+for a flux orthogonal to hypercharge; net generations even in every E₆ frame, any integer in the E₇ frame, zero in the E₈ frame); next
+arc B1398.

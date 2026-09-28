@@ -898,3 +898,17 @@ For the physical-bridge lane, and for your sL-7 reading.
   question decides one versus three, and the flux or source strength stays an input.
 
 `frontier/B1394_the_regular_three`, `frontier/B1396_the_capped_eisenstein_cusp`. 0 of 19.
+
+## Fifty-eighth note (2026-09-28): what a flux cap gives, and why E₆ cannot make three with it (B1397)
+
+For your chirality section, and for the physical-bridge lane's completions.
+- **The rule.** A cap carrying a U(1) flux F of degree n gives each sector ⟨F, μ⟩·n (Riemann–Roch on the torus). SL(2)_β doublets
+  count, unlike in the frame's bulk rule, which gave them 0.
+- **Anomalies.** A spectrum linear in the charges is anomaly-free exactly when F ⊥ Y, because E₆, E₇ and E₈ have no quartic Casimir.
+  B1389's frames failed because sign(·) is not linear. A cap cannot cancel that anomaly; it replaces the count.
+- **Generations.** Even in every E₆ frame: F78 gives 2 per unit γ-flux, F27+78 gives 4 per allowed quantum. In the E₇ frame a flux along
+  its U(1) gives n chiral 27s, so any number. The E₈ frame gives none.
+- **So if caps complete the cusps, three needs E₇'s U(1),** and even then it is the flux degree. Your record's E₇ points (B1353,
+  B1360) are where such a U(1) could live; nothing here derives it.
+
+`frontier/B1397_the_caps_generations`. 0 of 19.

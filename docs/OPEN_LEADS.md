@@ -3193,6 +3193,11 @@ characters.
 - **So, for acyclic characters,** one versus three is the level question (sL-5), whichever symmetric completion is used.
   `frontier/B1394_the_regular_three`, `frontier/B1396_the_capped_eisenstein_cusp`.
 
+**Status (2026-09-28, B1397): flux caps give three only in the E₇ frame.** In every E₆ frame a flux cap's net generations are even:
+the 78's 10s sit in SL(2)_β doublets, and the 27's flux quantum is 3. In the E₇ frame a flux along its U(1) gives any number, three
+included, as an input. At a rotated cusp under B1396's continuity the smallest symmetric E₇ cap gives exactly three. The E₈ frame gives
+none. `frontier/B1397_the_caps_generations`.
+
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
 **Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.
@@ -3277,6 +3282,17 @@ This job is not optional, whichever answers the first two questions get. `fronti
   (n/3)·Reg. A non-regular content, (2, 0, 1) at n = 3, needs a character trivial on the cusp.
 - **What stays open.** The flux degree and the cap's own ℤ/3 structure remain inputs of the completion (B1395). Question 1 is
   unchanged: what physics supplies them. `frontier/B1396_the_capped_eisenstein_cusp`.
+
+**Status (2026-09-28, B1397): a flux cap replaces the frame's count, and in E₆ it cannot give three.**
+- **The cap's chirality is linear.** A cap carrying a U(1) flux F of degree n gives each sector ⟨F, μ⟩·n, SL(2)_β doublets included
+  (Riemann–Roch on the torus).
+- **Linear is anomaly-free exactly for F ⊥ Y.** E₆, E₇ and E₈ have no quartic Casimir. So a cap cannot cancel B1389's anomaly; a
+  capped completion must replace the frame's count, and B1389's third job is then met.
+- **Net generations with F ⊥ Y.**
+  - E₆ frames: even. F78 gives 2dn, F27 −2dn/3, F27+78 4dn/3, with dn a multiple of 3 once the 27 is present.
+  - E₇ frame (E₆ × U(1)_t): every integer. Along t, n chiral 27s.
+  - E₈ frame: zero.
+- **So three from caps needs E₇'s U(1),** where it is the flux degree, an input. `frontier/B1397_the_caps_generations`.
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

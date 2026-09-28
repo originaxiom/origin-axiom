@@ -8267,6 +8267,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1397": {
+   "slug": "the caps generations",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B864"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 21,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B139": {
    "slug": "firewall cartography",
    "motifs": [

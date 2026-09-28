@@ -1,5 +1,24 @@
 # Changelog
 
+## B1397 — the cap's generations: a flux cap's chirality is linear in the charges, anomaly-free exactly for a flux orthogonal to hypercharge; its net generations are even in every E₆ frame, any integer in the E₇ frame, zero in the E₈ frame
+
+- **The rule.** On a capped cusp torus carrying a U(1) flux F of degree n, every charged sector μ has net chirality ⟨F, μ⟩·n.
+  - This is Riemann–Roch on the torus. The bulk's flat bundle has degree 0, and SL(2)_β doublets count with rank 2.
+  - The frame's bulk rule was sign(⟨H, μ⟩)·N with doublets 0. The cap's rule is linear.
+- **Anomalies.** E₆, E₇ and E₈ have no independent quartic Casimir. So every Standard-Model anomaly of a linear spectrum is
+  ∝ tr(F·Y), and the cap is anomaly-free exactly when F ⊥ Y; otherwise the X,Y partners turn chiral.
+  - A cap cannot cancel B1389's anomaly. A capped completion replaces the frame's count.
+- **Generations (F ⊥ Y, F commuting with SL(2)_β's parabolic cusp holonomy).**
+  - F78: g = 2dn. F27: g = −2dn/3, with dn a multiple of 3. F27+78: g = 4dn/3. All even.
+  - F133 (E₇ ⊃ E₆ × U(1)_t): g = (4d/3 + e)n, every integer. Along t it is n chiral 27s.
+  - F248: g = 0.
+- **So three generations cannot come from flux caps in the record's own E₆ frame.** In the E₇ frame three is the flux degree, an input.
+  At a rotated cusp under B1396's continuity the smallest symmetric E₇ cap gives exactly three.
+- **Verified exactly** with B1389's vectors: 625 flux directions at three degrees each, 1 875 rows, 0 failures.
+
+Not sealed: derived by hand, then checked by a probe, then the instrument. Lock: `tests/test_b1397_the_caps_generations.py`. No physics
+crossed. 0 of 19.
+
 ## B1396 — the capped Eisenstein cusp: a rotated cusp's three fixed-point weights are balanced exactly when the Wilson line sees the cusp, an acyclic character sees every cusp, so a symmetric flux cap over a clean bulk is three times one; B1394's 54 non-regular pairs are the characters blind to the rotated cusps
 
 - **(A) The cusp's Hopf trace.** At a cusp rotated by an order-3 isometry, the lift's weights at the rotation's three fixed points sum
