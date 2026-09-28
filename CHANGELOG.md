@@ -1,5 +1,14 @@
 # Changelog
 
+## The fast lane on 61651089, at the baseline
+
+- **The fast lane on 61651089** (B1398 banked, B1399 sealed with its findings document, B1384 S5): 9 failed, 6 344 passed, 52 skipped
+  in 58 min.
+- **The nine are the known baseline:** B1062, B1063, B1137, B511, B565, B616, B646, B887 and the repo gates (relay debt).
+- **The four failures of the previous lane** (B1399's missing findings document; an E50 instance) are gone.
+
+The report went to the owner before any of B1399 runs. 0 of 19.
+
 ## The fast lane on B1398's commit; B1399's findings document; B1398 read as one structure's verdict, its escape list scoped (E54), and the non-split three's stall point re-derived with own code (B1384 S5)
 
 - **The fast lane on b2985b42:** 13 failed, 6 339 passed, 52 skipped in 57 min. That is the known nine, plus four with one cause.

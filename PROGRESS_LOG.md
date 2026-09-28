@@ -15914,3 +15914,12 @@ asked whether it helps. It does, in two ways.
   on non-cyclic covers, and the two routes use different parts of the architecture.
 
 The lane is re-run on this record commit before the owner's report. 0 of 19.
+
+## 2026-09-28 — the fast lane on 61651089
+
+9 failed, 6 344 passed, 52 skipped in 58 min: exactly the known nine. The four failures from B1399's missing findings document are
+gone. So the goal's done-conditions hold:
+- B1398 is banked, with its lock, surfaces, gates at the relay-debt baseline and the fast lane at the nine-failure baseline, pushed.
+- B1399 is sealed.
+
+The report went to the owner before any of B1399 runs. 0 of 19.
