@@ -3016,6 +3016,13 @@ deletion.
 Compute its index. Fence: the index is not a physical generation count (the deck's physical status, sL-5). Tools: B1384's
 covers and `index_lib.py`; the handoff's ℚ(ζ₁₅) engine. ★★
 
+**Status (2026-09-28, B1384 S5, B1398): this seat's gate, and where it stalls.** The web seats' reports are read for insight; the
+computations are this seat's. Re-derived with own code (B1384 S5, three primes, four generation-shaped M₆ backgrounds):
+- every coupling that binds the triplet's three blocks is boundary-active: 30 of 30 arrows have h¹ = 1, restriction rank 1, interior 0;
+- the rank-2 completion loses the cusp-fixed vector.
+So any static-flat parent found here still needs the cusp/end law of sL-8 before its index is physics. The route is also a
+different-frame escape from B1398's verdict (B1398 §3's scope note).
+
 ## sL-5 — TRANSITION SEMANTICS: WHAT THE GENERATED ARROWS MEAN (registered 2026-09-27, B1384; the foundation lane)
 
 The generated architecture is kinematic. The questions to answer:
@@ -3314,7 +3321,8 @@ This job is not optional, whichever answers the first two questions get. `fronti
   - caps give 10s in pairs, and every exotic-free, anomaly-free combination has g = 2d: even, zero for a bulk flux.
 - **The escape.** With 27 matter (F27+78, or F133 with the Higgs field in the (Y, γ) plane) the anomaly matrix has rank 5 on six
   classes, leaving one family: g generations at N = g(1, 0, −1, 0, 1, −2). It takes two absolute values, so it needs a rank-two
-  Higgs field. The other escapes need the 27 too, plus non-abelian data or independent walls.
+  Higgs field. Within the E₆ and E₇ frames the other escapes need the 27 too, plus non-abelian data or independent walls. The E₈
+  route of sL-4 is a different-frame escape, and it stalls at the same cusp/end law (B1398 §3's scope note; B1384 S5).
 - **Its test, B1399, is sealed.** Two independent cuspidal classes on the degree-2 and degree-3 covers of the class's arithmetic
   members, 109 up to isometry; prior NONE ~85% at g = 3. `frontier/B1398_the_frame_verdict_on_three`,
   `frontier/B1399_the_rank_two_higgs`.

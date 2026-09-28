@@ -107,6 +107,20 @@ pattern.
     27 and non-abelian data.
   - Caps with independent fields are even in every E₆ frame (B1397), so they would need E₇ as well as walls.
 
+**Scope, the same day (an E54 instance, self-caught on re-reading the corrective handoff of 2026-09-27 at the owner's prompt).** The
+comparison above is within the E₆ and E₇ frames. It left out a different-frame escape already on the record, sL-4 (B1384):
+- **The E₈ frame.** There the Standard Model's commutant is SL₅ = sl2_β + sl3_family + 12 mixed roots, not SL(2)_β alone (B1384 S1).
+  The 248 carries the 27s itself, as a family triplet (27, 3).
+- **Its three.** Non-split backgrounds give an exact three as the M₆ deck orbit of one induced M₂ object, I = −1 on M₂ and −3 on M₆
+  (B1384 S3). Whether that is one or three is the deck's semantic type (sL-5).
+- **Where it stalls.** Every coupling that binds its three blocks is boundary-active, and the rank-2 completion loses the cusp-fixed
+  vector (B1384 S5, re-derived here with own code). So it stalls where this frame's count stalls: at a cusp/end law derived from one
+  action (sL-8).
+- **Where it lives.** It uses the cyclic tower, which has no cuspidal classes (b₁ = 1 and one cusp on every Mₙ; checked for n ≤ 12).
+  The rank-two escape lives only on the non-cyclic covers. The two routes use different parts of the architecture.
+
+B1399 remains the smallest change to the seat's frame. It is not the only live escape.
+
 **The test.** B1399, sealed with this arc: does a member of m004's class carry two cuspidal classes whose count function realises the
 pattern?
 
@@ -137,6 +151,15 @@ indices on the 27, and truncating them would corrupt the linear algebra. That bu
 - **Whether any member realises the pattern.** That is B1399, sealed and not run.
 - **Where the 27 matter comes from.** The E₇ points or the E₇ frame are not derived.
 - **The count's physical reading,** which still needs sL-8's completion.
+
+**How to read it (added 2026-09-28, after banking, on the owner's reminder; P022, and the mandate in WORKING_RULES).**
+- This is a verdict on one generated structure, m004's commensurability class, in one frame. The programme does not expect any one
+  structure to carry the Standard Model, so this is the expected verdict. It is not a verdict on the architecture.
+- B1399's census is the class's covers: states reached from the root by the one relation whose transport is derived. Its per-member
+  read-outs map what those states permit, and the three-generation pattern is the final check.
+- The escape's 27 matter is assumed. Where it comes from is a question about relations between generated structures. In the E₈
+  frame the 248 carries it (§3's scope note); the record's other candidates are the E₇ points (B1353, B1360). A SOME from B1399 would
+  be a fitted existence result, not a derivation.
 
 0 of 19.
 

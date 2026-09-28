@@ -7960,6 +7960,7 @@
     "z3_generation",
     "amphichiral_cp",
     "torsion",
+    "symplectic",
     "lorentzian"
    ],
    "refs": [
@@ -7967,7 +7968,8 @@
     "S1",
     "S2",
     "S3",
-    "S4"
+    "S4",
+    "S5"
    ],
    "obstacle": "selector",
    "obstacle_conf": 7,
@@ -8293,8 +8295,10 @@
    "slug": "the frame verdict on three",
    "motifs": [
     "closing",
+    "coupling",
     "figure_eight",
     "trace_map",
+    "metallic",
     "eisenstein",
     "golden",
     "z3_generation",
@@ -8302,6 +8306,10 @@
     "wrt_quantum"
    ],
    "refs": [
+    "P022",
+    "S1",
+    "S3",
+    "S5",
     "V1",
     "V2",
     "V3",
@@ -8310,9 +8318,32 @@
     "V6"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 27,
+   "obstacle_conf": 29,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
+  },
+  "B1399": {
+   "slug": "the rank two higgs",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B810",
+    "B817",
+    "P022",
+    "P1",
+    "P2",
+    "P3",
+    "S5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B139": {
    "slug": "firewall cartography",

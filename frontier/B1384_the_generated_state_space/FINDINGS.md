@@ -175,10 +175,34 @@ generated-state-space convention the fork is therefore a question about P's sema
 
 Both states are in the architecture in either reading; only P's type is undecided. Registered in OPEN_LEADS sL-3 and sL-5.
 
+## Addendum (2026-09-28): the M₆ physical gate, re-derived with own code — S5
+
+The web seats' M₆ physical-gate report (read for insight only) says that the three blocks of the M₆ triplet cannot be bound without
+touching the cusp, and that the ordinary rank-2 completion loses the index. Both claims are re-derived here with this branch's own
+tools only:
+- B1384's Reidemeister–Schreier cover of m004, with the deck as conjugation by a (M₆ → M₂ has deck group ⟨a²⟩);
+- B1374's index library;
+- B1375's generation-shaped selection.
+
+The selection found four generation-shaped backgrounds on two loci of M₆ (N = 120; 639 non-split loci, as in B1375). Each was checked
+in its five charged sectors, over p = 601, 1201 and 1321: 60 of 60 sector-backgrounds pass every check
+(`verification/s5_m6_gate.py`, record `s5_m6_gate_run.txt`).
+- **The triplet.** The three deck translates V∘σ^{2a} are distinct and carry the same index (−1, −1, −1 or +1, +1, +1).
+- **The cusp.** The six diagonal characters (χ^{±1}ψ_s)∘σ^{2a} are trivial on both peripheral curves.
+- **Every binding is boundary-active.** For all 30 ordered pairs i ≠ j, the character L_i/L_j has h¹ = 1 and restriction rank 1 to the
+  cusp torus. The interior part is 0, so there is no first-order coupling between the blocks that leaves the cusp alone.
+- **The rank-2 completion loses the cusp-fixed vector.** The upper (χ²) and lower (χ⁻²) extension cocycles have a non-zero product
+  on both peripheral curves. Turning on both directions moves the longitude's eigenvalues off 1 at first order.
+
+**So the non-split three stalls where this branch's count stalls: at a cusp/end law derived from one action (sL-8).** The
+Heusener–Porti half of the report (a simple Alexander zero, so irreducible deformations exist) is not re-derived here. It bears only
+on the existence of the deformations, not on their loss of the cusp-fixed vector.
+
 ## Verification
 
 - `verification/handoff_checks.py` (S0–S4, about 35 s); record `handoff_checks_run.txt`.
 - `verification/rerun_record.txt` (the handoff's 13 verifiers, unchanged, with the path mapping).
+- `verification/s5_m6_gate.py` (S5, the M₆ physical gate; about two minutes for three primes); record `s5_m6_gate_run.txt`.
 - Lock: `tests/test_b1384_the_generated_state_space.py`.
 
 **Sources.** The handoff's 00–08 documents and seven post-checkpoint audit packages (the cross-seat synthesis; the

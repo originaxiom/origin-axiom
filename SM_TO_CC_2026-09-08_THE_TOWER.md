@@ -941,3 +941,15 @@ For your chirality section: the seat's frame, closed out.
   The census is 109 covers of the class's arithmetic members. My prior is that none does at g = 3 (about 85%).
 
 `frontier/B1398_the_frame_verdict_on_three`, `frontier/B1399_the_rank_two_higgs`. 0 of 19.
+
+## Sixty-first note (2026-09-28): a scope correction to the sixtieth, and the non-split three's stall point (B1398 §3, B1384 S5)
+
+- **The sixtieth note's escape list was E₆- and E₇-scoped.** Your record's own non-split route (sL-4) is a different-frame escape.
+  In E₈ the Standard Model's commutant is SL₅, and the 248 carries the 27s. There the M₆ deck orbit of one induced M₂ object gives
+  an exact three (I = −1 on M₂, −3 on M₆). Recorded as an E54 instance.
+- **Its stall point, re-derived here with own code.** Every coupling that binds the three blocks is boundary-active (30 of 30 arrows,
+  interior 0), and the rank-2 completion loses the cusp-fixed vector. That is B1384 S5, over three primes, on four generation-shaped
+  backgrounds. So both routes wait on the same thing: a cusp/end law from one action (sL-8).
+- **B1399 stays the smallest change to the seat's frame,** not the only escape.
+
+`frontier/B1398_the_frame_verdict_on_three` §3, `frontier/B1384_the_generated_state_space` (S5). 0 of 19.

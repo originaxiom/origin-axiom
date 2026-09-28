@@ -1,5 +1,34 @@
 # Changelog
 
+## The fast lane on B1398's commit; B1399's findings document; B1398 read as one structure's verdict, its escape list scoped (E54), and the non-split three's stall point re-derived with own code (B1384 S5)
+
+- **The fast lane on b2985b42:** 13 failed, 6 339 passed, 52 skipped in 57 min. That is the known nine, plus four with one cause.
+  - The cause: B1399, sealed, carried a verdict and no findings document. The locks of B810, B817, B1152 and B1207 require one.
+  - This branch's seal commits since B1388 had the same gap. No lane had run on a seal-only tree before: an E50 instance.
+  - The fix: B1399 now carries a findings document saying it is sealed and not run, with no outcome. The four locks pass.
+- **How B1398 is read (the owner's reminder).** m004 is one generated structure inside the total architecture. B1398 is a verdict on
+  one structure, m004's commensurability class, in one frame: the expected one, not a verdict on the architecture. A framing
+  paragraph is added to its §5.
+- **Its escape list, scoped: an E54 instance.** It was self-caught on re-reading the corrective handoff at the owner's prompt.
+  - B1398 §3 compared escapes only within the E₆ and E₇ frames. The record's sL-4 is a different-frame escape.
+  - In E₈ the Standard Model's commutant is SL₅, and the 248 carries the 27s.
+  - There, non-split backgrounds give an exact three as the M₆ deck orbit of one induced M₂ object: I = −1 on M₂, −3 on M₆.
+  - B1399 stays the smallest change to the seat's frame, but it is not the only escape.
+- **The non-split three's stall point, re-derived with own code (B1384 S5).** The web seats' reports are read for insight; this seat
+  does the computations. On four generation-shaped M₆ backgrounds, in five charged sectors and over three primes, 60 of 60 pass:
+  - the triplet's three blocks are distinct deck translates with one index;
+  - their six diagonal characters are cusp-trivial;
+  - all 30 cross-block couplings are boundary-active (h¹ = 1, restriction rank 1, interior 0);
+  - the rank-2 completion loses the cusp-fixed vector.
+  So both routes wait on the same cusp/end law (sL-8).
+- **Where it is recorded.**
+  - B1398 §3, §5 and its verdict line.
+  - B1399's findings document.
+  - B1384's addendum S5, with its script, run record and lock.
+  - The ERROR_LEDGER (E54 and E50 instances), OPEN_LEADS sL-4 and sL-8, and the letter's sixty-first note.
+
+0 of 19.
+
 ## B1398 — the frame's verdict on three: the seat's frame cannot give three generations with any completion on the record's menu; B1399 sealed: the rank-two Higgs, the one escape the frame's rule leaves
 
 - **The verdict (NEGATIVE; proved, and computed exactly with B1389's vectors).** In 7d E₆ super-Yang–Mills on m004's class, with the

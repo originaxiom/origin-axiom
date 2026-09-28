@@ -1,7 +1,9 @@
 """B1384 lock -- THE GENERATED STATE SPACE: the corrective handoff's load-bearing mathematics re-derived with own code.
 S0 the signed state (-I = (L^2 R^-1)^2); S1 the common SL5 in E8 (the SM centraliser is exactly the structure A4 + u1_Y);
 S2 the parabolic lemma; S3 one versus three is Shapiro plus Mackey on Gamma6 normal in Gamma2; S4 the Sym^4 control and its
-order-5 twists on M2 (one prime here; the run record has three)."""
+order-5 twists on M2 (one prime here; the run record has three); S5 the M6 physical gate (added 2026-09-28): on a generation-
+shaped background every cross-block coupling is boundary-active and the rank-2 completion loses the cusp-fixed vector (one prime and
+one background here; the run record has three primes and four backgrounds)."""
 import importlib.util
 from pathlib import Path
 
@@ -34,3 +36,18 @@ def test_sym4_order5_twists_have_index_zero():
     rows = H.s4_sym4_twists()
     assert rows[601]["Sym4 untwisted I"] == 0
     assert rows[601]["twists"] == [((0, 1, 1, 2, 1), (0, 1, 1, 2, 1), 0)]
+
+
+def test_m6_gate_every_cross_block_coupling_moves_the_cusp():
+    spec = importlib.util.spec_from_file_location("b1384_s5_m6_gate", VER / "s5_m6_gate.py")
+    S5 = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(S5)
+    out = S5.run(601, per_locus=1, want_loci=1)
+    assert out["loci"] == 639 and out["backgrounds"]
+    rows = out["rows"]
+    assert len(rows) == 5                                          # one background, its five charged sectors
+    for r in rows:
+        assert r["deck_indices"] == [r["I"]] * 3 and r["I"] in (1, -1) and r["distinct_blocks"]
+        assert r["six_cusp_trivial"]
+        assert r["arrows"] == {"(1, 1, 0)": 30}                    # h1 = 1, restriction rank 1, interior 0, for all 30 arrows
+        assert r["lam_product"] not in (0, None) and r["upper"][0] * r["lower"][0] % 601 != 0

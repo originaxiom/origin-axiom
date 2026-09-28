@@ -15881,3 +15881,36 @@ completion on the record's menu, then name the smallest escape and seal its test
   and the error is an E5 instance in the ledger.
 
 Lock: `tests/test_b1398_the_frame_verdict_on_three.py`. The run of B1399 waits for the owner. 0 of 19.
+
+## 2026-09-28 — the fast lane on B1398's commit, the owner's reminder, the handoff re-read, and the non-split three's stall point
+
+**The fast lane on b2985b42:** 13 failed, 6 339 passed, 52 skipped in 57 min. Nine are the known baseline. The other four had one
+cause of mine.
+- B1399 was sealed with a verdict and no findings document, and four locks require one.
+- The same gap was in every seal commit of this branch since B1388. It never showed, because no lane ran on a seal-only tree: the
+  arcs gained findings with their runs.
+- B1399 now carries a findings document that says it is sealed and not run, and holds no outcome. Recorded as an E50 instance.
+
+**The owner's reminder, while the lane ran.** Expecting the Standard Model, or a full theory, to emerge from m004 alone is wrong. m004
+is one generated structure inside the total architecture. The programme is about the totality of what existence permits and relates.
+The record already holds this (P022; the mandate in WORKING_RULES). Checked against it:
+- B1398 is a verdict on one structure in one frame, the one the stance expects.
+- B1399 looks at the class's covers, related to the root by the one relation whose transport is derived. Its read-outs map what they
+  permit, and the Standard Model is the final check.
+- Where the line drifts: the 27 matter is assumed rather than supplied by a relation. A SOME from B1399 would be fitted, not derived.
+- A framing paragraph is added to B1398 §5.
+
+**The handoff re-read.** The owner re-uploaded the corrective handoff of 2026-09-27 (byte-identical to the package B1384 adopted) and
+asked whether it helps. It does, in two ways.
+- **It exposed a gap in B1398.** Its escape comparison was E₆- and E₇-scoped. The record's own sL-4 route is a different frame:
+  - in E₈ the commutant is SL₅, and the 248 carries the 27s;
+  - the three is a deck orbit, M₂'s induced object becoming three on M₆.
+  This is an E54 instance. B1398 §3 and its verdict are scoped.
+- **Both routes stall at one point.** The owner's rule applied: the web seats are insight, and this seat does the work. So I re-derived
+  their physical-gate claims with this branch's own code before using them (B1384 S5). Every coupling that binds the triplet's
+  blocks moves the cusp, and the rank-2 completion loses the cusp-fixed vector. So both routes need a cusp/end law from one action.
+  This seat's next gates are sL-8's law, sL-5's deck semantics and sL-4's search.
+- I also checked that the cyclic tower has no cuspidal classes (b₁ = 1 and one cusp for n ≤ 12). So the rank-two escape can live only
+  on non-cyclic covers, and the two routes use different parts of the architecture.
+
+The lane is re-run on this record commit before the owner's report. 0 of 19.
