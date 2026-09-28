@@ -1,10 +1,18 @@
 # Changelog
 
-## B1393 — the charge flip: the seat's count is an index only because the frame's end condition flips with the charge; with one condition for both charges the net chirality is zero away from isolated couplings, and on cube~3.24's cuspidal twist exactly zero at every real coupling
+## B1393 scope narrowed (E71 instance, self-caught): the charge-blind vanishing is for the rank-one Higgs twist
+
+The lemma's part (c) joins q to −q through the trivial twist along the real coupling, which the Higgs twist has. A general flat system
+and its dual are not so joined, and main's R27 and B1418 (B1374 here) are non-zero charge-blind indices on non-semisimple modules.
+Every surface line that said "charge-blind completions are vector-like" now names the Higgs twist, B1393 carries a scope bullet and a
+fence, and ERROR_LEDGER has the row. No verdict changed; the cube~3.24 computation is untouched.
+
+## B1393 — the charge flip: the seat's count is an index only because the frame's end condition flips with the charge; for the Higgs twist, with one condition for both charges the net chirality is zero away from isolated couplings, and on cube~3.24's cuspidal twist exactly zero at every real coupling
 
 - **The lemma.** Duality gives h^k(X, A; L_q) = h^{3−k}(X, B; L_{−q}). If the charge −q sees the complementary condition (the flip),
   the net chirality is h¹ − h² of one pair, −χ(X, A_q): B1351's count. If both charges see the same condition, it is one Betti number
-  at q and −q, zero off a discrete set of couplings. Main's interior-image index (B1297) is of that kind.
+  at q and −q, zero off a discrete set of couplings for the rank-one Higgs twist. Main's interior-image index (B1297) is of that kind;
+  non-semisimple flat systems evade the vanishing (main's R27 and B1418; B1374).
 - **Computed on cube~3.24's cuspidal twist** (Fox calculus, two presentations). a₁ = r₁ = 4 and n = 0 at every sampled coupling. The
   Fox matrix drops rank only at the primitive cube roots of unity (9(t² + t + 1)²), so at every real coupling no twisted class is
   interior and the charge-blind count is 0. On one disc: flip 1, blind 0.

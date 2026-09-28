@@ -8202,7 +8202,7 @@
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 8,
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "topology"
   },

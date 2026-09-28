@@ -335,8 +335,8 @@ emitted value. The structure is the object's; the values are the observer's.
 > Those are exactly the ends where the problem is not well-posed. A Higgs field that stays alive at every end gives a clean
 > answer, and the answer is zero. So the physics must come from what completes those ends.*
 >
-> *And (B1393), what makes the count: the boundary condition at those ends flips with the sign of the charge. A completion that
-> treats both charges alike gives zero, and on the showcase member exactly zero at every real coupling. So whatever completes
+> *And (B1393), what makes the count: the boundary condition at those ends flips with the sign of the charge. For the Higgs field's
+> own twist, a completion that treats both charges alike gives zero, and on the showcase member exactly zero at every real coupling. So whatever completes
 > the ends has to know the sign of the charge. The one computed candidate is a sourced end, and its three is a regular
 > representation, not a protected three.*
 

@@ -774,8 +774,8 @@ left it.
 > cusps, sealed one at a time). 0 of 19.
 
 > **Currency note (2026-09-28, B1393): the count is made by the charge flip.**
-> - An index computes net chirality only for an end condition that flips with the charge. With one condition for both charges the net
->   chirality is zero away from isolated couplings.
+> - An index computes net chirality only for an end condition that flips with the charge. For the Higgs twist, with one condition for
+>   both charges the net chirality is zero away from isolated couplings (non-semisimple flat systems evade this: R27, B1418).
 > - On cube~3.24's cuspidal twist it is exactly zero at every real coupling (no twisted class is interior), so B1387's +2 is made by the
 >   flip at the free cusps.
 > - The one computed completion that keeps a count carries a charge-odd datum at the ends (the physical-bridge lane's R24). Placed on

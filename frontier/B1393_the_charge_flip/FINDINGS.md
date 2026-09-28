@@ -1,4 +1,4 @@
-# B1393 — THE CHARGE FLIP: the seat's count is an index only because the frame's end condition flips with the charge. When both charges see the same condition, the net chirality is one Betti number taken at q and at −q, and it is zero except at isolated couplings. On cube~3.24's cuspidal twist it is exactly zero at every real coupling: every twisted class restricts injectively to the cusps, and the Fox matrix drops rank only at the primitive cube roots of unity. So B1387's +2 is made entirely by the flip at the free cusps. The physical-bridge rounds say the same from the source side. The one computed completion that keeps a count carries a boundary flux sign(q)·k (R24). A free wall is its mirror (R25). Smoothed cores leave light pairs (R30–R31). sL-8's question becomes: what at a free cusp knows the sign of q·∂_hF?
+# B1393 — THE CHARGE FLIP: the seat's count is an index only because the frame's end condition flips with the charge. For the Higgs field's own (rank-one) twist, when both charges see the same condition, the net chirality is one Betti number taken at q and at −q, and it is zero except at isolated couplings. On cube~3.24's cuspidal twist it is exactly zero at every real coupling: every twisted class restricts injectively to the cusps, and the Fox matrix drops rank only at the primitive cube roots of unity. So B1387's +2 is made entirely by the flip at the free cusps. The physical-bridge rounds say the same from the source side. The one computed completion that keeps a count carries a boundary flux sign(q)·k (R24). A free wall is its mirror (R25). Smoothed cores leave light pairs (R30–R31). sL-8's question becomes: what at a free cusp knows the sign of q·∂_hF?
 
 **Date:** 2026-09-28 · **Seat:** cc (the SM-derivation branch) · **Occasion:** sL-8's completion question after B1392, and the
 harvest, by citation, of the physical-bridge rounds: R23–R26 and R30–R31 as main's B1413 grades them, and R32–R34 and R54 as the
@@ -17,8 +17,9 @@ problem, which B1392 treats. · **Price:** unchanged, 0 of 19 · **Numbering:** 
 B1351 takes the net count of a charged sector from Pantev–Wijnholt: N_q = χ(M, ∂⁺M; L_q). Here ∂⁺ is the part of the boundary where
 q·f increases outward, so for the opposite charge it is the complement. B1392 showed that the count lives at the free cusps and needs
 a completion there. This arc asks what that flip does, and finds that it does everything.
-- **The lemma.** An index formula computes net chirality only when the condition flips with the charge. Otherwise the net chirality
-  is the same Betti number at q and −q, zero away from isolated couplings, however large the Euler characteristic of the pair.
+- **The lemma.** An index formula computes net chirality only when the condition flips with the charge. Otherwise, for the Higgs
+  twist, the net chirality is the same Betti number at q and −q, zero away from isolated couplings, however large the Euler
+  characteristic of the pair.
 - **The computation.** On cube~3.24's cuspidal twist, the seat's showcase, the charge-blind count is exactly zero at every real
   coupling. No twisted class is interior. B1387's +2 therefore comes from the flip alone.
 - **The physical-bridge rounds.** They reach the same place from the other side. The only completion computed to keep a count supplies a
@@ -48,8 +49,12 @@ a completion there. This arc asks what that flip does, and finds that it does ev
     minors. That set is real-analytic in s, so it is discrete unless it is all of ℝ. Hence h¹(X, A; L_s) is one constant off a
     discrete set, the same for s > 0 and s < 0.
   - So ν_q = 0 except on a discrete set of couplings, whatever χ(X, A) is.
-  - The same holds for any condition the two charges share, in particular main's interior-image count (B1297). Its identity
-    I(V*) = −I(V) (T1) is (a) in that setting.
+  - The same holds for any condition the two charges share, in particular main's interior-image count (B1297) applied to the
+    Higgs twist. Its identity I(V*) = −I(V) (T1) is (a) in that setting.
+  - **Scope.** The argument joins q to −q through the trivial twist along the real coupling, which a rank-one Higgs twist has. A
+    general flat system V and its dual V* are not so joined. There the charge-blind count can be non-zero: main's R27 exact witness
+    (I = +1 on a non-semisimple module of m010) and the class index on reducible non-split modules (main's B1418, verified here as
+    B1374). Non-semisimple extension data are a second way past (c), and a different one from the flip.
 - **(d) Sealed ends.** These are the case with nothing to flip (B1392): the Higgs field is tangent to the far cusp tori, and the end
   contributes 0.
 
@@ -60,8 +65,8 @@ a completion there. This arc asks what that flip does, and finds that it does ev
 - (c) is the semicontinuity stated: h¹ = dim X¹ − rank δ¹ − rank δ⁰ on a cochain model whose matrices are analytic in s. ∎
 
 **What it means.** An index formula computes net chirality only for a condition that flips with the charge. The frame's partition
-flips (∂⁺_{−q} = ∂⁻_q), which is why B1351's χ is the frame's count. A completion that treats the two charges alike is vector-like
-away from isolated couplings.
+flips (∂⁺_{−q} = ∂⁻_q), which is why B1351's χ is the frame's count. For the Higgs twist, a completion that treats the two charges
+alike is vector-like away from isolated couplings.
 
 ## 2. Computed: cube~3.24's cuspidal twist (`verification/charge_flip.py`, about 20 s; record `charge_flip_run.txt`)
 
@@ -133,8 +138,9 @@ smooth, free or filled completion is vector-like or mirrored.
 **Settled.**
 1. The flip lemma.
 2. On cube~3.24 the cuspidal twist has no interior class at any real coupling. So the +2 is made by the flip.
-3. Charge-blind completions are vector-like away from isolated couplings, and exactly so on cube~3.24's twist. These are the Dehn
-   filling (B1351 (i)), a wall with a fixed condition, and the L² or interior-image count.
+3. For the Higgs twist, charge-blind completions are vector-like away from isolated couplings, and exactly so on cube~3.24's twist.
+   These are the Dehn filling (B1351 (i)), a wall with a fixed condition, and the L² or interior-image count. For non-semisimple
+   flat systems the charge-blind count can be non-zero (R27; B1418, B1374).
 
 **Not settled: what physical datum at a free cusp knows sign(q·∂_hF).**
 - The computed candidates are the lane's sources (R24). There the count is k, not selected to three, and conditional on R18/R19.
@@ -151,6 +157,8 @@ smooth, free or filled completion is vector-like or mirrored.
 ## 5. Fences
 
 - **The frame's.** Spin-0; the abelian Higgs twist; flat-twist cohomology, not the spectral problem.
+- **Part (c) of the lemma** needs the real family through the trivial twist, which the rank-one Higgs twist has. It is not a
+  statement about a general flat system and its dual. Non-semisimple modules evade it (main's R27 and B1418; B1374 here).
 - **The L² reading.** The remark in §2 is cited in kind.
 - **Part E.** Computed over three primes. The characteristic-zero value over ℚ(ω) agrees except at finitely many primes, and three
   agree.

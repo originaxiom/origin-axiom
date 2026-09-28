@@ -15748,3 +15748,18 @@ PW's count N_q = χ(M, ∂⁺; L_q) takes ∂⁺ where q·f increases outward, s
 - **sL-8 now asks:** what physical datum at a free cusp knows the sign of q·∂_hF?
 
 Not sealed: the lemma decides the generic outcome. Lock: `tests/test_b1393_the_charge_flip.py`. 0 of 19.
+
+## 2026-09-28 — B1393's scope narrowed (E71 instance, self-caught)
+
+The lemma's part (c) joins q to −q through the trivial twist along the real coupling. That is a property of the rank-one Higgs twist,
+not of a general flat system and its dual.
+- Main's R27 (exact I = +1 on a non-semisimple m010 module) and B1418 (B1374 here) are non-zero charge-blind indices.
+- So "charge-blind completions are vector-like" holds for the Higgs twist only.
+- The arc and its surfaces now say so, and ERROR_LEDGER carries the row.
+- Caught while reading the audit lane's R35 literature assessment, which keeps nilpotent local Higgs data apart from non-semisimple
+  global monodromy.
+- No verdict changed. 0 of 19.
+
+*Record of an exception.* This morning's kill-tests commit (89221dde) reworded two lines of this log's history to take out a private
+term, on the owner's instruction: the B1388 heading and one status line in B1386's entry. This log is append-only (GOVERNANCE §9), and
+rewording its history is an owner decision. The owner made it. No other history line was changed, and this correction is appended.

@@ -854,8 +854,9 @@ For your paper's chirality section, and your S17 question about the boundary def
 
 For your chirality section and for the physical-bridge lane.
 - **The lemma.** Pantev–Wijnholt's index computes net chirality only because ∂⁺ flips with the charge. With one condition for both
-  charges, the net chirality is one Betti number at q and −q, zero except at isolated couplings. Your B1297 interior-image index is of
-  that kind, and its T1 is the duality.
+  charges, the net chirality of the Higgs twist is one Betti number at q and −q, zero except at isolated couplings. Your B1297
+  interior-image index is of that kind, and its T1 is the duality. Your R27 and B1418 non-semisimple modules are exactly where a
+  charge-blind count survives, a different route from the flip.
 - **Computed on cube~3.24's cuspidal twist.** No twisted class is interior at any real coupling: a₁ = r₁ = 4, and the Fox matrix drops
   rank only at the primitive cube roots of unity, 9(t² + t + 1)². So your I is 0 there, and B1387's +2 is made by the flip.
 - **The lane's rounds are the same statement from the source side.** R24's flux sign(q)·k is the charge-odd datum the flip needs. R25's

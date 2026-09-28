@@ -3227,11 +3227,11 @@ This job is not optional, whichever answers the first two questions get. `fronti
 
 **Status (2026-09-28, B1393): the count is made by the charge flip, and the physical-bridge rounds place the completions.**
 - **The lemma.** An index formula computes net chirality only for an end condition that flips with the charge: relative on ∂⁺_q and
-  absolute on ∂⁻_q, and the reverse for −q. With one condition for both charges the net chirality is one Betti number at q and −q,
-  zero except at isolated couplings.
+  absolute on ∂⁻_q, and the reverse for −q. For the Higgs twist, with one condition for both charges the net chirality is one Betti
+  number at q and −q, zero except at isolated couplings. (Non-semisimple flat systems evade this: main's R27 and B1418; B1374.)
 - **On cube~3.24's cuspidal twist** this charge-blind count is exactly 0 at every real coupling, because every twisted class
   restricts injectively to the cusps. So B1387's +2 is made by the flip at the free cusps.
-- **Charge-blind completions are vector-like:** a Dehn filling (B1351 (i)), a wall with a fixed condition, and the L²/interior-image
+- **For the Higgs twist, charge-blind completions are vector-like:** a Dehn filling (B1351 (i)), a wall with a fixed condition, and the L²/interior-image
   count (main's B1297).
 - **The rounds.**
   - A physical wall that realizes the flip carries the mirror (R25: −k against +k).
