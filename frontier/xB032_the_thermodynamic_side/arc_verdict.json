@@ -1,5 +1,6 @@
 {
   "arc": "xB032_the_thermodynamic_side",
+  "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-18",
@@ -10,10 +11,22 @@
   "identifications": [],
   "owner_direction": "the object had a thermodynamical side we never account for, which plays a crucial role for physics ambitions",
   "cells": {
-    "T1": {"result": "PASS", "content": "m004's monodromy RL = [[2,1],[1,1]]; charpoly = t^2-3t+1 = the Alexander polynomial; dilatation = alpha = phi^2; h_top = log alpha = 0.9624236501 = xB029's MEASURED torsion growth per level. So log|Tor H_1(X_n)| = n*h_top and FW's T_O term P_eff is an ENTROPY."},
-    "T2": {"result": "PASS", "content": "The dilatation column and the torsion-growth column are the same column: 8 of 8 agreements at 6 DISTINCT dilatations (binding control >= 4 satisfied). Minimum entropy and minimum volume both at RL. So xB014's 'extremal three ways' means the object MINIMISES THE ENTROPY."},
-    "T3": {"result": "PASS -- sealed prediction CONFIRMED and understated", "content": "Fried's theorem (quoted through DGRS arXiv:1807.01189v3, READ-AT-SOURCE) requires the flat bundle to be ACYCLIC *and* UNITARY. The seal predicted acyclicity only. Measured on the record's own objects: 0 of 56 reducible non-split loci are acyclic (h^1 >= 1 by construction) and 0 are unitary (non-split => non-semisimple). ONE WALL, THREE COATS: FW's h^1=0, Fried's acyclic+unitary, and the record's index which needs h^1 != 0 and non-semisimple."},
-    "T4": {"result": "PASS", "content": "P_eff as entropy is a REFRAMING, declared as one. Does not make hyperbolic Qhat admissible; does not cross B1012's wall; and the geodesic-flow entropy is 2 universally, so any discriminating entropy must be the MONODROMY's."}
+    "T1": {
+      "result": "PASS",
+      "content": "m004's monodromy RL = [[2,1],[1,1]]; charpoly = t^2-3t+1 = the Alexander polynomial; dilatation = alpha = phi^2; h_top = log alpha = 0.9624236501 = xB029's MEASURED torsion growth per level. So log|Tor H_1(X_n)| = n*h_top and FW's T_O term P_eff is an ENTROPY."
+    },
+    "T2": {
+      "result": "PASS",
+      "content": "The dilatation column and the torsion-growth column are the same column: 8 of 8 agreements at 6 DISTINCT dilatations (binding control >= 4 satisfied). Minimum entropy and minimum volume both at RL. So xB014's 'extremal three ways' means the object MINIMISES THE ENTROPY."
+    },
+    "T3": {
+      "result": "PASS -- sealed prediction CONFIRMED and understated",
+      "content": "Fried's theorem (quoted through DGRS arXiv:1807.01189v3, READ-AT-SOURCE) requires the flat bundle to be ACYCLIC *and* UNITARY. The seal predicted acyclicity only. Measured on the record's own objects: 0 of 56 reducible non-split loci are acyclic (h^1 >= 1 by construction) and 0 are unitary (non-split => non-semisimple). ONE WALL, THREE COATS: FW's h^1=0, Fried's acyclic+unitary, and the record's index which needs h^1 != 0 and non-semisimple."
+    },
+    "T4": {
+      "result": "PASS",
+      "content": "P_eff as entropy is a REFRAMING, declared as one. Does not make hyperbolic Qhat admissible; does not cross B1012's wall; and the geodesic-flow entropy is 2 universally, so any discriminating entropy must be the MONODROMY's."
+    }
   },
   "literature": {
     "Dang-Guillarmou-Riviere-Shen arXiv:1807.01189v3": "CITED-UNREAD -> READ-AT-SOURCE",
@@ -24,12 +37,42 @@
     "L225's T_lambda half: the thermodynamic route to it is shut for the same reason the topological one is"
   ],
   "rederived": [
-    {"arc": "xB029", "what": "the measured tower torsion growth constant 0.9624236501", "outcome": "CONFIRMED", "why": "re-read from xB029's banked g2_mssm.json inside the cell and compared with log of the monodromy's spectral radius computed symbolically here"},
-    {"arc": "xB030", "what": "alpha = phi^2 = Alexander root = B1418's golden locus = exp(growth constant)", "outcome": "CONFIRMED", "why": "T1 re-derives the Alexander polynomial independently as the characteristic polynomial of RL and reaches the same alpha; this arc adds the sixth name rather than re-asserting the five"},
-    {"arc": "xB014 ADDENDUM 1", "what": "m004 extremal three ways (dilatation 1 of 40, volume 1 of 40, ratio minimal)", "outcome": "SCOPED", "why": "not re-run over its 40 manifolds; T2 re-derives the dilatation/volume minimality on an 8-word family and ADDS that the dilatation column IS the torsion-growth column, which xB014 did not state. Its ranking is inherited, not re-verified."},
-    {"arc": "B1418", "what": "the reducible non-split loci and I^ss = 0 everywhere", "outcome": "CONFIRMED", "why": "T3 re-enumerates the loci with B1418's own nonsplit_cocycle() and confirms every locus has h^1 >= 1; the I^ss = 0 column is read from B1418's banked table, not re-run"},
-    {"arc": "B803", "what": "the 'analytic-torsion join needs the Fried literature step' item", "outcome": "CONFIRMED", "why": "read at its source in B803's own FINDINGS 'Not verified here' section and quoted; this arc takes the step"},
-    {"arc": "xB029 Addendum 1", "what": "zero modes on 3 of 6 closed hyperbolic tower members", "outcome": "NOT_RERUN", "why": "cited in T4(b) as the reason the reframing does not make a hyperbolic Qhat admissible; it is a limitation ON this arc, not a support for it"}
+    {
+      "arc": "xB029",
+      "what": "the measured tower torsion growth constant 0.9624236501",
+      "outcome": "CONFIRMED",
+      "why": "re-read from xB029's banked g2_mssm.json inside the cell and compared with log of the monodromy's spectral radius computed symbolically here"
+    },
+    {
+      "arc": "xB030",
+      "what": "alpha = phi^2 = Alexander root = B1418's golden locus = exp(growth constant)",
+      "outcome": "CONFIRMED",
+      "why": "T1 re-derives the Alexander polynomial independently as the characteristic polynomial of RL and reaches the same alpha; this arc adds the sixth name rather than re-asserting the five"
+    },
+    {
+      "arc": "xB014 ADDENDUM 1",
+      "what": "m004 extremal three ways (dilatation 1 of 40, volume 1 of 40, ratio minimal)",
+      "outcome": "SCOPED",
+      "why": "not re-run over its 40 manifolds; T2 re-derives the dilatation/volume minimality on an 8-word family and ADDS that the dilatation column IS the torsion-growth column, which xB014 did not state. Its ranking is inherited, not re-verified."
+    },
+    {
+      "arc": "B1418",
+      "what": "the reducible non-split loci and I^ss = 0 everywhere",
+      "outcome": "CONFIRMED",
+      "why": "T3 re-enumerates the loci with B1418's own nonsplit_cocycle() and confirms every locus has h^1 >= 1; the I^ss = 0 column is read from B1418's banked table, not re-run"
+    },
+    {
+      "arc": "B803",
+      "what": "the 'analytic-torsion join needs the Fried literature step' item",
+      "outcome": "CONFIRMED",
+      "why": "read at its source in B803's own FINDINGS 'Not verified here' section and quoted; this arc takes the step"
+    },
+    {
+      "arc": "xB029 Addendum 1",
+      "what": "zero modes on 3 of 6 closed hyperbolic tower members",
+      "outcome": "NOT_RERUN",
+      "why": "cited in T4(b) as the reason the reframing does not make a hyperbolic Qhat admissible; it is a limitation ON this arc, not a support for it"
+    }
   ],
   "prior_score": "T1 correct; T2 correct with control satisfied; T3 correct and the seal UNDERSTATED it (unitarity unpredicted); T4 held to"
 }

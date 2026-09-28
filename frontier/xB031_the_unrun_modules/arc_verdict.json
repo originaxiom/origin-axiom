@@ -1,5 +1,6 @@
 {
   "arc": "xB031_the_unrun_modules",
+  "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-28",
@@ -10,10 +11,22 @@
   "identifications": [],
   "provenance": "c2_reducible_index.py and c2_run.py are BYTE-IDENTICAL copies of B1418's (sha256 d4468ef15b33f820a424ac5a0b1e66d4698bf5c983ffc062e5587dceb78bf9cc, d729b8b6ca8e98c100cffaaa72c67ceefa9ac92ee64e54134f56282eb1266869; diff empty). X2 calls B1418's own run(); X3 uses B1418's own run_module() with this arc's loop and m-range.",
   "cells": {
-    "X1": {"result": "PASS", "content": "B1418's own m010 witness through this copy: I = +1, I^ss = 0, CONTROL PASS."},
-    "X2": {"result": "PASS -- prediction held", "content": "6435 modules run, NOT RUN = 0 (B1418's 3325 unrun are now run), 432 nonzero against B1418's 177, I values {-2,-1,0,1}, max|I| = 2 unchanged, I^ss = 0 throughout. B1418's I value set is a subset of this run's."},
-    "X3": {"result": "SEALED PREDICTION REFUTED AT ALL THREE VALUES", "content": "m=4 max|I|=1, m=5 max|I|=1, m=6 max|I|=0, against the sealed ceil(m/2) = 2,3,3. The index PEAKS at m=3 and is identically zero by m=6 -- it shrinks with the symmetric power, the opposite of the sealed direction. I^ss = 0 on all 2808 modules."},
-    "X4": {"result": "PARTIAL -- necessary half confirmed, explanatory half REFUTED", "content": "Resonance count r: r=0 gives I=0 on 2040 of 2040, no exceptions, so r>=1 is NECESSARY. But r=1, r=3, r=7 give I=0 throughout, so it is NOT sufficient. And r does not shrink with m (m=4:{0,1,2,5}, m=5:{0,2,6}, m=6:{0,2,3,7}), so resonance does NOT explain the decay. The mechanism is left UNEXPLAINED rather than narrated."}
+    "X1": {
+      "result": "PASS",
+      "content": "B1418's own m010 witness through this copy: I = +1, I^ss = 0, CONTROL PASS."
+    },
+    "X2": {
+      "result": "PASS -- prediction held",
+      "content": "6435 modules run, NOT RUN = 0 (B1418's 3325 unrun are now run), 432 nonzero against B1418's 177, I values {-2,-1,0,1}, max|I| = 2 unchanged, I^ss = 0 throughout. B1418's I value set is a subset of this run's."
+    },
+    "X3": {
+      "result": "SEALED PREDICTION REFUTED AT ALL THREE VALUES",
+      "content": "m=4 max|I|=1, m=5 max|I|=1, m=6 max|I|=0, against the sealed ceil(m/2) = 2,3,3. The index PEAKS at m=3 and is identically zero by m=6 -- it shrinks with the symmetric power, the opposite of the sealed direction. I^ss = 0 on all 2808 modules."
+    },
+    "X4": {
+      "result": "PARTIAL -- necessary half confirmed, explanatory half REFUTED",
+      "content": "Resonance count r: r=0 gives I=0 on 2040 of 2040, no exceptions, so r>=1 is NECESSARY. But r=1, r=3, r=7 give I=0 throughout, so it is NOT sufficient. And r does not shrink with m (m=4:{0,1,2,5}, m=5:{0,2,6}, m=6:{0,2,3,7}), so resonance does NOT explain the decay. The mechanism is left UNEXPLAINED rather than narrated."
+    }
   },
   "closes": "Within the ranges tested, the last route this commensurability class had to an index of 3: the abelian route is capped at h^1 <= 1 (xB030, 506 informative manifolds) and the higher-Sym route peaks at 2 and decays to 0.",
   "scope_not_glossed": [
@@ -29,10 +42,30 @@
     "an index of 3 would not have been three generations"
   ],
   "rederived": [
-    {"arc": "B1418", "what": "the m010 witness I = +1 and the t12835 loci/index values", "outcome": "CONFIRMED", "why": "X1 reproduces the witness through the byte-identical copy; X2's I value set contains B1418's exactly, on a superset of its modules"},
-    {"arc": "B1418", "what": "the 3325 NOT RUN modules on t12835", "outcome": "CORRECTED", "why": "they are now RUN. NOT RUN goes 3325 -> 0 and nonzero goes 177 -> 432. B1418's ceiling of max|I| = 2 is unchanged by the completion."},
-    {"arc": "xB030", "what": "h^1 <= 1 capping the abelian route", "outcome": "NOT_RERUN", "why": "cited as the other half of the closure; measured there on 506 informative manifolds and not re-measured here"},
-    {"arc": "B1413 / Menal-Ferrer-Porti", "what": "the theorem-zero on the geometric finite-twist class", "outcome": "NOT_RERUN", "why": "carried as a fence ON this arc's result, not as support for it"}
+    {
+      "arc": "B1418",
+      "what": "the m010 witness I = +1 and the t12835 loci/index values",
+      "outcome": "CONFIRMED",
+      "why": "X1 reproduces the witness through the byte-identical copy; X2's I value set contains B1418's exactly, on a superset of its modules"
+    },
+    {
+      "arc": "B1418",
+      "what": "the 3325 NOT RUN modules on t12835",
+      "outcome": "CORRECTED",
+      "why": "they are now RUN. NOT RUN goes 3325 -> 0 and nonzero goes 177 -> 432. B1418's ceiling of max|I| = 2 is unchanged by the completion."
+    },
+    {
+      "arc": "xB030",
+      "what": "h^1 <= 1 capping the abelian route",
+      "outcome": "NOT_RERUN",
+      "why": "cited as the other half of the closure; measured there on 506 informative manifolds and not re-measured here"
+    },
+    {
+      "arc": "B1413 / Menal-Ferrer-Porti",
+      "what": "the theorem-zero on the geometric finite-twist class",
+      "outcome": "NOT_RERUN",
+      "why": "carried as a fence ON this arc's result, not as support for it"
+    }
   ],
   "prior_score": "X1 correct; X2 correct; X3 WRONG at all three values and wrong in direction; the seal's contingency for a 3 was never tested because no 3 arrived. Two of three, with the miss on the cell the arc existed for."
 }
