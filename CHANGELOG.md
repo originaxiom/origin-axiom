@@ -1,5 +1,25 @@
 # Changelog
 
+## xB031 — B1418's 3 325 unrun modules, run: the unrun set closes with no 3, and the index peaks at `m = 3` and dies
+
+**X2.** `t12835`: **6 435 modules run, NOT RUN 0**, nonzero `177 → 432`, **`max |I| = 2` unchanged**,
+`I^ss = 0` throughout, B1418's `I` set a subset of this run's. **Completing the unrun half moved the
+ceiling not at all.**
+
+**X3.** `m = 4, 5, 6` on the 24 loci where `|I| = 2` lives: **`1, 1, 0`** against this seat's sealed
+`⌈m/2⌉ = 2, 3, 3`. **REFUTED at all three values and in the opposite direction — the index peaks at
+`m = 3` and is identically zero by `m = 6`.**
+
+**X4.** Resonance `r = 0 ⟹ I = 0` on **2 040 of 2 040** — necessary. **Not sufficient**, and **`r` does
+not shrink with `m`**, so **the decay is UNEXPLAINED** and the cell's own hypothesis is refuted too.
+
+> **Within the ranges tested both routes to an index of 3 are shut** — the abelian one by xB030's
+> `h¹ ≤ 1` on 506 manifolds, the higher-`Sym` one by this decay. **Not folded into zero:** 31 of 55
+> loci at `m ≥ 4`, `m > 6`, and `t12833`'s 1 542 modules. **L222(iii) closed within its ranges.**
+
+**Fences unchanged:** `I^ss = 0` on all 9 243 modules; theorem-zero on the geometric class;
+`t12835` is not the object; an index of 3 would not have been three generations. **Gate 5 absolute.**
+
 ## xB032 — the thermodynamic side: the torsion growth rate is the monodromy's entropy, and the Fried step fails on hypotheses
 
 **The sixth name.** m004's monodromy is `RL = [[2,1],[1,1]]`; its characteristic polynomial **is** the

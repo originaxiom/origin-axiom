@@ -17791,3 +17791,46 @@ T4 held to.**
 
 **Gate 5 absolute. No value. Nothing to `CLAIMS.md`. The record now carries one number under six
 names instead of six numbers.**
+
+## xB031 (2026-09-28) — B1418's 3 325 unrun modules, run: the unrun set closes with no 3, and the higher-`Sym` route PEAKS AT `m = 3` AND DIES
+
+**PREREGISTRATION sealed at `19aa3866`.** The computation L222(iii) names and xB030 promoted to first.
+**Provenance: `c2_reducible_index.py` and `c2_run.py` BYTE-IDENTICAL to B1418's (`diff` empty); X2
+calls B1418's own `run()`, X3 its own `run_module()`.**
+
+**X1 CONTROL PASSED** — B1418's `m010` witness returns `I = +1`, `I^ss = 0` through this copy.
+
+**X2 — the unrun set is closed, and the prediction held.** `t12835`: **6 435 run, NOT RUN 0**, nonzero
+**177 → 432**, `I` values `{−2,−1,0,1}`, **`max|I| = 2` unchanged**, `I^ss = 0` throughout, and
+**B1418's `I` set is a subset of this run's**. **B1418's rule honoured: NOT RUN is 0 and is reported.**
+The unrun half was as productive as the run half — **and the ceiling did not move.**
+
+**X3 — THE SEALED LAW IS REFUTED AT EVERY VALUE AND IN THE OPPOSITE DIRECTION.** On the 24 loci with
+the four `|I| = 2` order-signatures, 2 808 modules: **`m=4 → 1`, `m=5 → 1`, `m=6 → 0`** against the
+sealed `⌈m/2⌉ = 2, 3, 3`. **The index peaks at `m = 3` and is identically zero by `m = 6`.** `I^ss = 0`
+on all 2 808 — the drift control holds, so the numbers are live rather than void.
+
+**X4 — the mechanism, and the half that mattered is refuted too.** `r = 0 ⟹ I = 0` on **2 040 of
+2 040, no exceptions** — resonance is **necessary**. **Not sufficient** (`r = 1, 3, 7` all give zero).
+And **`r` does not shrink with `m`** (`m=4:{0,1,2,5}`, `m=5:{0,2,6}`, `m=6:{0,2,3,7}`), so **the
+hypothesis written into the cell's own header — that the decay is weights spreading out of resonance —
+is REFUTED. The decay is UNEXPLAINED and left open rather than narrated.**
+
+**WHAT THIS CLOSES.** Within the ranges tested, **both routes to an index of 3 are shut**: the abelian
+one by xB030's cap (`h¹ ≤ 1` on 506 informative closed hyperbolic rational homology spheres), the
+higher-`Sym` one by this decay. **WHAT IT DOES NOT:** X3 ran **24 of 55 loci** — the other 31 at
+`m ≥ 4` are **NOT RUN, not zero**; `m > 6` untested; **`t12833`'s 1 542 unrun modules untouched**;
+other class members untouched; **and the decay's mechanism is now the more interesting question than
+the count**, because a reason would say whether `m = 3` is a ceiling for the class or an artefact of
+these loci.
+
+**Fences, which would have bound a 3 exactly as hard:** `I^ss = 0` on all 9 243 modules ·
+B1413/Menal-Ferrer–Porti make it a **theorem-zero on the geometric class**, so nonzero **requires
+leaving the geometric holonomy** · **`t12835` is a class member, NOT the object** (m004 gives 0 on
+every module B1418 ran) · **an index of 3 would not have been three generations.**
+
+**Prior: X1 correct · X2 correct · X3 WRONG at all three values and wrong in direction. Two of three,
+with the miss on the cell the arc existed for — this seat predicted growth from three points of a
+sequence, and three points are not a law.**
+
+**Gate 5 absolute. No value. Nothing to `CLAIMS.md`.**

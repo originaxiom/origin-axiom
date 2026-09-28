@@ -1,0 +1,4444 @@
+{
+ "x3_by_m": {
+  "4": [
+   -1,
+   0,
+   1
+  ],
+  "5": [
+   -1,
+   0
+  ],
+  "6": [
+   0
+  ]
+ },
+ "resonance_table": {
+  "5": {
+   "0": 16,
+   "1": 40
+  },
+  "0": {
+   "0": 2040
+  },
+  "6": {
+   "1": 8,
+   "0": 8
+  },
+  "7": {
+   "0": 56
+  },
+  "1": {
+   "0": 96
+  },
+  "2": {
+   "0": 352,
+   "1": 96
+  },
+  "3": {
+   "0": 96
+  }
+ },
+ "rows": [
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 5,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 5,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 5,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 5,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 5,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 5,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 5,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 6,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 6,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 5,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 5,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 5,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 5,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 5,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 5,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 5,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 6,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 6,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 7,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    12,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 3,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 3,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 3,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 3,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 3,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 3,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 6,
+   "orders": [
+    3,
+    4,
+    1
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 1,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 2,
+   "I": -1,
+   "I_ss": 0
+  },
+  {
+   "m": 4,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  },
+  {
+   "m": 5,
+   "orders": [
+    3,
+    4,
+    2
+   ],
+   "resonance": 0,
+   "I": 0,
+   "I_ss": 0
+  }
+ ]
+}

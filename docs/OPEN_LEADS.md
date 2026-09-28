@@ -2968,3 +2968,39 @@ already does it and stopped on a 1 800-second-per-member budget, not on a wall.
 `SL(2)`-module, not the geometric holonomy; Menal-Ferrer–Porti Theorem 0.1 (via B1413 R27) makes it a
 **theorem-zero** on the geometric finite-twist class. **Nothing here is a physics claim and `I^ss = 0`
 everywhere in B1418's table.**
+
+
+### L222(iii) — CLOSED WITHIN ITS RANGES (2026-09-28, xB031)
+
+xB030 promoted this item to first with a reason. **xB031 ran it.** B1418's `c2_reducible_index.py`,
+byte-identical, budget removed.
+
+**X2 — the unrun set is closed.** `t12835`: **6 435 modules run, NOT RUN 0** (B1418's 3 325 are now
+run), nonzero `I` **177 → 432**, and **`max |I| = 2` UNCHANGED**. B1418's `I` value set is a subset of
+this run's; `I^ss = 0` throughout. **No 3.**
+
+**X3 — the higher-`Sym` route does not open; it CLOSES.** On the 24 loci carrying the four
+order-signatures where `|I| = 2` lives, 2 808 modules: **`m=4 → max|I| = 1`, `m=5 → 1`, `m=6 → 0`**,
+against this seat's sealed `⌈m/2⌉` = 2, 3, 3. **The sealed law is REFUTED at all three values and in
+the opposite direction: the index PEAKS AT `m = 3` AND IS IDENTICALLY ZERO BY `m = 6`.** `I^ss = 0` on
+every module, so the drift control holds.
+
+**X4 — the mechanism, half of it.** The resonance count
+`r = #{ j ∈ [0,m] : χ^{m−2j}ψ(μ) = χ^{m−2j}ψ(λ) = 1 }` satisfies **`r = 0 ⟹ I = 0` on 2 040 of 2 040,
+no exceptions** — necessary. **Not sufficient** (`r = 1, 3, 7` give `I = 0` throughout). And **`r` does
+not shrink with `m`**, so **resonance does NOT explain the decay. The decay mechanism is UNEXPLAINED
+and left open rather than narrated.**
+
+> **Both routes to an index of 3 are now shut within the ranges tested** — the abelian one by xB030's
+> cap (`h¹ ≤ 1` on 506 informative manifolds), the higher-`Sym` one by this arc's decay.
+
+**WHAT REMAINS OPEN, and it is not folded into zero.** X3 ran **24 of 55 loci**; the other **31 at
+`m ≥ 4` are NOT RUN**. `m > 6` untested. **`t12833`'s 1 542 unrun modules untouched.** Other members of
+the class untouched. **The decay's mechanism unexplained** — and that is now the more interesting
+question than the count, because a reason would say whether `m = 3` is a ceiling for this class or an
+artefact of these loci.
+
+**Fences unchanged:** `I^ss = 0` on all 9 243 modules; B1413/Menal-Ferrer–Porti make the index a
+theorem-zero on the geometric class so a nonzero value requires leaving the geometric holonomy;
+**`t12835` is a class member, not the object** (`m004` gives 0 on every module B1418 ran); and an index
+of 3 would not have been three generations. Source: `frontier/xB031_the_unrun_modules/`.
