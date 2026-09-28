@@ -187,3 +187,7 @@ Swept before banking.
   - half lives, half dies;
   - line bundles on the (3, 3, 3) orbifold sphere T/ℤ₃, whose pullback degrees are fixed mod 3 by the local weights.
 - **This branch.** B1390 (the fixed sets are arcs), B1371 (the pairing), B1394 (the weights, the census), B1395 (the menu).
+
+*(Currency 2026-09-28, B1397 §7.)* Corollary C fixes the ℤ/3 content of one cap for a given degree n. The degrees are not free across
+cusps: for a bulk U(1) field they sum to zero over the cusp tori. A net count needs a source (B1397 §7). C's per-cap statement is
+unchanged.

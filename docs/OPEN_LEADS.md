@@ -3196,7 +3196,8 @@ characters.
 **Status (2026-09-28, B1397): flux caps give three only in the E₇ frame.** In every E₆ frame a flux cap's net generations are even:
 the 78's 10s sit in SL(2)_β doublets, and the 27's flux quantum is 3. In the E₇ frame a flux along its U(1) gives any number, three
 included, as an input. At a rotated cusp under B1396's continuity the smallest symmetric E₇ cap gives exactly three. The E₈ frame gives
-none. `frontier/B1397_the_caps_generations`.
+none. `frontier/B1397_the_caps_generations`. *(Same day, §7: that is per cap. For a bulk flux the caps' degrees sum to zero, so a net
+three needs a source for the flux, and the frame's own sources carry an anomalous count.)*
 
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
@@ -3293,6 +3294,10 @@ This job is not optional, whichever answers the first two questions get. `fronti
   - E₇ frame (E₆ × U(1)_t): every integer. Along t, n chiral 27s.
   - E₈ frame: zero.
 - **So three from caps needs E₇'s U(1),** where it is the flux degree, an input. `frontier/B1397_the_caps_generations`.
+- **Scope, the same day (B1397 §7).** The caps' fluxes are not independent. For a bulk U(1) field the degrees on the cusp tori sum to
+  zero, so bulk-flux caps give zero net chirality in total, and m004's single cusp carries none. A non-zero total needs monopole
+  points or non-abelian T-brane data in the bulk, or caps whose fields are independent of the bulk. In the frame the natural sources of an E₇ flux are t-direction Higgs
+  zeros, and those carry B1389's anomalous F133 count. So question 1 now reads: which source, and is it anomaly-free?
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

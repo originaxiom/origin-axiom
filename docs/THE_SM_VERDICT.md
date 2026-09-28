@@ -807,3 +807,8 @@ left it.
 >   three included, as an input. The E₈ frame gives none.
 >
 > 0 of 19 (`frontier/B1397_the_caps_generations`).
+
+> **Currency note (2026-09-28, B1397 §7, the same day): a bulk flux cannot give a net count by itself.** For a bulk U(1) field the flux
+> degrees on the cusp tori sum to zero, so caps carrying one bulk flux are vector-like in total, and m004's single cusp carries none. A
+> net count needs a source for the flux: monopole points or non-abelian T-brane data in the bulk, or caps with their own fields. The frame's natural sources carry
+> its anomalous count. In the E₆ frame the no-three statement stands, and is stronger. 0 of 19.

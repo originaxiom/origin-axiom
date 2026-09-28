@@ -1,5 +1,24 @@
 # Changelog
 
+## B1397 scope narrowed the same day (E65 instance, self-caught): a bulk flux sums to zero over the cusps; B1397 routed into the kill graph
+
+- **The constraint.** For a bulk U(1) field the flux degrees on the cusp tori sum to zero: the exact sequence of the pair ends in the
+  sum map, which for a connection is Stokes. So caps carrying one bulk flux give zero net chirality in total, in every frame, and m004's
+  single cusp carries none.
+- **What a net count needs.** A bulk that does not reduce to the flux's U(1) everywhere (monopole points, or non-abelian T-brane data),
+  or caps whose fields are independent of the bulk.
+- **What changes.**
+  - B1397's per-cap statements stand, and its E₆ no-three is stronger.
+  - Its E₇ reading needs a source. In the frame the natural source is a t-direction Higgs zero, which carries B1389's anomalous F133
+    count: 10 + 5 per unit, checked.
+- **Where it is recorded.** B1397 §7 and its verdict. Currency notes on B1395 (the menu) and B1396 (Corollary C). ERROR_LEDGER, as an
+  E65 instance. OPEN_LEADS sL-7/sL-8, THE_SM_VERDICT, the registry row, the README and the letter's fifty-ninth note.
+- **The fast lane on B1397's commit (3eaf09b4):** 10 failed, 6 338 passed, 52 skipped in 62 min. That is the known nine, plus
+  `test_b833_negative_routing`: B1397 is a NEGATIVE arc and had not been routed into the kill graph. It is now routed in B836's form,
+  judgement fields unset, and the test passes.
+
+0 of 19.
+
 ## B1397 — the cap's generations: a flux cap's chirality is linear in the charges, anomaly-free exactly for a flux orthogonal to hypercharge; its net generations are even in every E₆ frame, any integer in the E₇ frame, zero in the E₈ frame
 
 - **The rule.** On a capped cusp torus carrying a U(1) flux F of degree n, every charged sector μ has net chirality ⟨F, μ⟩·n.

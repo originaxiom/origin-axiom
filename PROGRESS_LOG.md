@@ -15836,3 +15836,28 @@ fast-lane run started on B1396's tree was stopped at 54% with no failure to that
 The fast lane is rerun on B1397's commit with no edits during the run.
 
 Lock: `tests/test_b1397_the_caps_generations.py`. 0 of 19.
+
+## 2026-09-28 — B1397's scope narrowed the same day (E65 instance), and the fast lane on its commit
+
+**The correction.** While checking B1372's Lemma A against B1397's cap rule, I found the constraint B1397 had omitted.
+- For a bulk U(1) field the flux degrees on the cusp tori sum to zero, so caps carrying one bulk flux are vector-like in total. That is
+  B1351's closed-manifold statement again, which this branch cites throughout.
+- On m004, with one cusp, a bulk flux through the cusp vanishes.
+- A net count needs a source: monopole points or non-abelian T-brane data in the bulk, or caps with fields independent of the bulk.
+- In the frame, the natural sources of an E₇ flux are t-direction Higgs zeros. On the pure t direction they carry B1389's F133 count,
+  10 + 5 per unit, which I checked is anomalous.
+- **What changes.** The per-cap statements stand, and the E₆ no-three is stronger. The E₇ reading needs a source, and the frame's own
+  sources are anomalous.
+- Recorded as an E65 instance, since the frame's own theorem said the capped total could not be chiral without a source.
+
+**The fast lane on 3eaf09b4:** 10 failed, 6 338 passed, 52 skipped in 62 min. That is the known nine plus one of mine: B1397 is
+NEGATIVE, and every NEGATIVE arc must be routed into the kill graph (B833's lock). It is routed now, and the lock passes.
+
+**Where the frame stands.** Within the seat's frame (E₆, the geometric SL(2)_β twist, abelian Higgs), every completion on the record's
+menu is either anomalous or gives an even or zero total:
+- the frame's own count and the flip walls: anomalous (B1389);
+- sources: anomalous (the lane's R22);
+- flux caps: even per cap in E₆, zero in total for a bulk flux (B1397).
+
+The escapes lie outside the frame's assumptions: non-abelian T-brane data at the cusps, or caps carrying fields independent of the bulk.
+0 of 19.

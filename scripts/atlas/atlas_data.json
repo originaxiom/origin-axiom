@@ -8230,8 +8230,10 @@
    "slug": "the free cusp is charge blind",
    "motifs": [
     "coupling",
+    "figure_eight",
     "eisenstein",
     "golden",
+    "amphichiral_cp",
     "wrt_quantum"
    ],
    "refs": [
@@ -8240,7 +8242,7 @@
    "obstacle": "gauge_dict",
    "obstacle_conf": 5,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B1396": {
    "slug": "the capped eisenstein cusp",
@@ -8270,6 +8272,7 @@
   "B1397": {
    "slug": "the caps generations",
    "motifs": [
+    "figure_eight",
     "trace_map",
     "kappa",
     "eisenstein",
@@ -8282,7 +8285,7 @@
     "B864"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 21,
+   "obstacle_conf": 23,
    "status": "banked",
    "domain": "arithmetic"
   },

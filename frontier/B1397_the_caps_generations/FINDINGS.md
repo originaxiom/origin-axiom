@@ -188,3 +188,41 @@ None states the cap's generation count or its anomaly.
 - E₇ → E₆ × U(1) with a U(1) flux giving n 27s (the heterotic and F-theory staple).
 
 The parity statement for the seat's E₆ frame, and its reading against B1389's anomaly, are this branch's.
+
+## 7. Scope, the same day: the caps' fluxes are not independent (self-caught after banking)
+
+(1)–(4) treat each cap's degree n_c as a free input and add the caps' counts. A bulk flux does not allow that.
+
+**(5) The degrees sum to zero.** For a U(1) bundle over the truncated manifold M_T, with ∂M_T the cusp tori, the exact sequence of the
+pair
+  H²(M_T; ℤ) → H²(∂M_T; ℤ) = ⊕_c ℤ → H³(M_T, ∂M_T; ℤ) ≅ ℤ
+ends in the sum map. So the degrees n_c of the restrictions to the cusp tori satisfy Σ_c n_c = 0. For a connection this is Stokes:
+Σ_c ∫_{T_c} F = ∫_{M_T} dF = 0.
+- **Consequence.** Caps whose fluxes are those of one bulk abelian field give zero net chirality in total, in every frame, by (1):
+  Σ_c ⟨F, μ⟩ n_c = 0.
+- **On a one-cusped member such as m004,** a bulk flux through the cusp torus vanishes.
+- **The same conclusion B1351 reached for closed manifolds.** Capping every cusp with a bulk flux leaves a spectrum that is
+  vector-like in total.
+
+**What a non-zero total needs.**
+- **A bulk that does not reduce to the flux's U(1) everywhere.** The two sources B1395 (c) named:
+  - points where the reduction fails, such as monopole cores or zeros of a reducing Higgs field, where Σ_c n_c is minus the total
+    local charge;
+  - a region where the Higgs field does not commute with itself (T-brane data, [φ, φ] ≠ 0), where the flux's Cartan component is not
+    a closed form.
+- **Caps whose fluxes are not the bulk field's.** Independent wall fields are an example, as in B1395 §3's Hořava–Witten reading.
+- Both are sources in B1395's sense, not properties of a cap.
+
+**What stands and what changes.**
+- **Per cap,** (1)–(4) stand: the index rule, the anomaly identity, and the per-cap generation counts and their parity.
+- **The E₆ statement is stronger than stated.** Bulk-flux caps give zero net generations, and sourced or independent caps give an even
+  number.
+- **The E₇ reading is narrower.** "Any integer, three included" holds for the total only when E₇'s U(1) flux has such a source. In
+  the frame the natural sources are the points where a t-direction Higgs field vanishes, the E₇ points of Acharya and Witten.
+- **The modes at those points follow the frame's own rule.** For H along t, every spin-0 weight of the 27 gets sign(c)·N, and the
+  SL(2)_β doublets are gapped by the geometric Higgs field (B1372's Lemma A). That is B1389's F133 count, which is anomalous (10 + 5 per
+  unit).
+- **So the E₇ route does not escape the anomaly question.** Three from the E₇ frame is tied to its sources, not to a free cap flux,
+  and the frame's own sources are anomalous. Only caps with fields independent of the bulk are free of both constraints.
+
+Recorded in ERROR_LEDGER. B1395 and B1396 carry currency notes, since their menus also treated the cap's flux as free.

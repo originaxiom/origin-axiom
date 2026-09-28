@@ -117,3 +117,8 @@ through".
   - B1393 (the flip lemma);
   - B1351 (ii) (the torus conventions).
 - **The literature.** The Riemann–Roch index on T² is standard; Hořava–Witten (Nucl. Phys. B460 (1996) 506) for the wall reading.
+
+*(Currency 2026-09-28, B1397 §7.)* §3's "cap the cusp and carry a flux on its torus" treated each cusp's flux as free. For a bulk U(1)
+field it is not: the degrees on the cusp tori sum to zero, so caps carrying one bulk flux give no net chirality in total, and on a
+one-cusped member such as m004 a bulk flux through the cusp vanishes. A non-zero total needs the (c) sources named above (monopole
+points or non-abelian T-brane data in the bulk), or cap fields independent of the bulk. Recorded as an E65 instance in ERROR_LEDGER.

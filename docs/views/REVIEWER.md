@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1245** |
-| words of findings prose | **973,426** |
+| words of findings prose | **974,073** |
 | test lock files referenced | **751** |
 | arcs carrying an authored verdict | **1245** (100.0 %) |
-| recorded closures | **794** (617 classified, 177 routed-only) |
+| recorded closures | **795** (617 classified, 178 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `other` | 359 |
-| `unrouted-unclassified` | 177 |
+| `unrouted-unclassified` | 178 |
 | `kind-mismatch` | 51 |
 | `genericity` | 38 |
 | `no-landing-site` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**532 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**533 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1396`** (2589 words, 0 locks)  
+**PROVED — `B1396`** (2640 words, 0 locks)  
 THE CAPPED EISENSTEIN CUSP (B1395's menu: the one finite-energy charge-odd datum is a flux on a capped cusp torus; and B1394's P3, which fired). (A) The cusp's Hopf trace: at a cusp rotated by an order-3 isometry g, the lift's weights at g's three fixed points on the cusp torus (the ends of B1390's arcs) sum to L(g^; T_c; L_chi), so they are balanced (1, w, w^2) when the invariant character chi is non-trivial on T_c and all equal (the lift's constant) when it is trivial. (B) Half lives, half dies: h^1(M; chi) >= t(chi), the number of cusps where chi is trivial; an acyclic chi sees every cusp. (C) A cap carrying a Z/3-equivariant line bundle of degree n whose fixed-point weights are the arc weights has n = 0 mod 3 and zero-mode content (n/3) Reg when chi|T_c != 1 (three times one), (n/3) Reg + (1, -1, 0) when trivial ((2, 0, 1) at n = 3); over an acyclic bulk always the first. (D) An arc returning to its cusp forces chi trivial there. (E) 2 counts(arcs) = sum of the rotated cusps' counts: B1394's weights are balanced whenever chi sees every rotated cusp; on k = 3 balanced iff chi sees the rotated cusps. The kill test drafted for this arc (does an acyclic character leave a rotated cusp unbalanced?) is decided by A and B, so it was withdrawn before sealing. Verification census (B1394's 100 members, 213 pairs, 444 rotated-cusp rows; the cusp's character computed from the cusp link, independently of arcs and lift): checks V0-V6 hold with 0 failures; 292 cusp rows balanced, 152 all equal; the 54 non-trivial pairs trivial on a rotated cusp are exactly B1394's 54 unbalanced pairs; no arc returns to its cusp; h^1 >= t everywhere, equality on 144 of 213. Standard tools (Lefschetz with local coefficients, Atiyah-Bott, half lives half dies); no novelty claimed for the mathematics. No physics crossed. 0 of 19.  
 `B1396_the_capped_eisenstein_cusp/FINDINGS.md`
 
-**NEGATIVE — `B1397`** (2442 words, 0 locks)  
-THE CAP'S GENERATIONS (after B1396; B1395's one finite-energy charge-odd datum is a flux on a capped cusp torus, and B1389's third job is the frame's anomaly): on a capped cusp torus carrying a U(1) flux F of degree n, every charged sector mu has net chirality <F, mu> n (Riemann-Roch on the torus; SL(2)_beta doublets count, rank 2), so the cap's spectrum is LINEAR in the charges where the frame's bulk rule was sign(<H, mu>) N. E6, E7 and E8 have no independent quartic Casimir, so every Standard-Model anomaly of a linear spectrum is proportional to tr(F Y): the cap is anomaly-free exactly when F is orthogonal to hypercharge (otherwise the X,Y partners are chiral), it cannot cancel B1389's anomaly, and a capped completion must replace the frame's count. With F orthogonal to Y (F commutes with SL(2)_beta's parabolic cusp holonomy and the SM: F in span(gamma), plus E7's t, plus E8's SU(3) Cartan) the net generations are g = 2dn (F78), -2dn/3 with dn in 3Z (F27), 4dn/3 (F27+78): EVEN in every E6 frame, so three generations cannot come from flux caps in the record's own frame; g = (4d/3 + e) n, every integer, in the E7 frame (n chiral 27s along t: three is the flux degree, an input); g = 0 in the E8 frame. Under B1396's continuity at a rotated cusp every flux degree is a multiple of 3 (E7: g in 3Z, smallest three). Verified exactly with B1389's vectors: 625 flux directions x 3 degrees = 1875 rows, 0 failures (anomaly-free iff F orthogonal to Y; the hand formula for g; no exotic at F orthogonal to Y). Not sealed (derived by hand, then a probe, then the instrument). Standard rules (flux-induced chirality, anomaly freedom without quartic Casimirs, E7 > E6 x U(1)); the parity reading for the seat's E6 frame is this branch's. No physics crossed. 0 of 19.  
+**NEGATIVE — `B1397`** (2941 words, 0 locks)  
+THE CAP'S GENERATIONS (after B1396; B1395's one finite-energy charge-odd datum is a flux on a capped cusp torus, and B1389's third job is the frame's anomaly): on a capped cusp torus carrying a U(1) flux F of degree n, every charged sector mu has net chirality <F, mu> n (Riemann-Roch on the torus; SL(2)_beta doublets count, rank 2), so the cap's spectrum is LINEAR in the charges where the frame's bulk rule was sign(<H, mu>) N. E6, E7 and E8 have no independent quartic Casimir, so every Standard-Model anomaly of a linear spectrum is proportional to tr(F Y): the cap is anomaly-free exactly when F is orthogonal to hypercharge (otherwise the X,Y partners are chiral), it cannot cancel B1389's anomaly, and a capped completion must replace the frame's count. With F orthogonal to Y (F commutes with SL(2)_beta's parabolic cusp holonomy and the SM: F in span(gamma), plus E7's t, plus E8's SU(3) Cartan) the net generations are g = 2dn (F78), -2dn/3 with dn in 3Z (F27), 4dn/3 (F27+78): EVEN in every E6 frame, so three generations cannot come from flux caps in the record's own frame; g = (4d/3 + e) n, every integer, in the E7 frame (n chiral 27s along t: three is the flux degree, an input); g = 0 in the E8 frame. Under B1396's continuity at a rotated cusp every flux degree is a multiple of 3 (E7: g in 3Z, smallest three). Verified exactly with B1389's vectors: 625 flux directions x 3 degrees = 1875 rows, 0 failures (anomaly-free iff F orthogonal to Y; the hand formula for g; no exotic at F orthogonal to Y). Not sealed (derived by hand, then a probe, then the instrument). Standard rules (flux-induced chirality, anomaly freedom without quartic Casimirs, E7 > E6 x U(1)); the parity reading for the seat's E6 frame is this branch's. SCOPE, the same day (E65 instance, self-caught): for a U(1) bundle over the truncated manifold the degrees on the cusp tori sum to zero (the pair's exact sequence; Stokes), so caps carrying one bulk flux give zero net chirality in total in every frame, and m004's single cusp carries no bulk flux; a non-zero total needs a bulk that does not reduce to the flux's U(1) everywhere (monopole points, or non-abelian T-brane data) or caps whose fields are independent of the bulk; the per-cap statements stand, the E6 statement is stronger (zero with bulk flux, even otherwise), and the E7 reading needs a source for its flux, whose natural candidates in the frame (t-direction Higgs zeros) carry B1389's anomalous F133 count. No physics crossed. 0 of 19.  
 `B1397_the_caps_generations/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

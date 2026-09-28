@@ -912,3 +912,16 @@ For your chirality section, and for the physical-bridge lane's completions.
   B1360) are where such a U(1) could live; nothing here derives it.
 
 `frontier/B1397_the_caps_generations`. 0 of 19.
+
+## Fifty-ninth note (2026-09-28): a correction to the fifty-eighth, the same day (B1397 §7)
+
+The fifty-eighth note treated each cap's flux as free. For a bulk U(1) field it is not.
+- **The fluxes sum to zero.** The degrees on the cusp tori add to zero (the pair's exact sequence; Stokes). So caps carrying one bulk
+  flux are vector-like in total, as B1351 found for closed manifolds, and m004's single cusp carries none.
+- **A net count needs a source.** That means monopole points or non-abelian T-brane data in the bulk, or caps whose fields are
+  independent of the bulk.
+- **The per-cap statements stand, and the E₆ no-three is stronger.**
+- **The E₇ route needs a source for its U(1) flux.** In the frame the natural sources are t-direction Higgs zeros, which carry B1389's
+  anomalous F133 count.
+
+Recorded as an E65 instance. `frontier/B1397_the_caps_generations` §7. 0 of 19.

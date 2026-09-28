@@ -12,13 +12,9 @@ view can quietly imply completeness it does not have.
 |---|---|---|---|
 | arcs with `FINDINGS.md` | **1245** | — | 100 % |
 | arcs with an authored verdict (W1) | **1245** | 1245 | 100.0 % |
-| classified in `kill_graph` | **794** | — | — |
-| kill records resolving to an arc | **747** | 794 | 94 % |
-| kill records with no arc directory | **47** | 794 | 6 % |
-
-## Negatives absent from `kill_graph`
-
-Found among the authored arcs: `B1397`.
+| classified in `kill_graph` | **795** | — | — |
+| kill records resolving to an arc | **748** | 795 | 94 % |
+| kill records with no arc directory | **47** | 795 | 6 % |
 
 ### Measured (B801), not merely flagged
 
