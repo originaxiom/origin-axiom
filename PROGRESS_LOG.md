@@ -15720,3 +15720,31 @@ One page for the owner on the four kill tests of the chirality mechanism (B1388�
 The occasion lines of B1388–B1391's FINDINGS, B1388's heading here and one line of the letter now name the kill tests plainly, and
 two check-in lines (B1387 §4, and B1386's entry here) now read as status lines. The sealed preregistrations are untouched: their
 digests are in the SEAL_LEDGER. 0 of 19.
+
+## 2026-09-28 — B1393: the charge flip (sL-8's completion question; the physical-bridge rounds placed)
+
+PW's count N_q = χ(M, ∂⁺; L_q) takes ∂⁺ where q·f increases outward, so for −q it is the complement. This arc asks what that flip does.
+- **The lemma.**
+  - Duality: h^k(X, A; L_q) = h^{3−k}(X, B; L_{−q}).
+  - With the flip, the net chirality n_q − n_{−q} is h¹ − h² of one pair: −χ(X, A_q), the frame's index.
+  - With one condition for both charges it is h¹(X, A; L_q) − h¹(X, A; L_{−q}): zero off a discrete set of couplings, however large
+    χ(X, A) is.
+  - An index formula therefore computes net chirality only for a condition that flips with the charge. This is the domain-wall rule
+    in the frame's language; no novelty is claimed for it.
+- **Computed on cube~3.24's cuspidal twist L_t (t = e^q).**
+  - a₁ = r₁ = 4 and n = 0 at six couplings and their inverses, on two presentations.
+  - The Fox matrix has rank 3 over ℚ(t) and the gcd of its maximal minors is 9(t² + t + 1)². It has no positive root, so at every real
+    coupling no twisted class is interior and main's I = 0.
+  - At the cube roots of unity a₁ = 6 and n = 2 for t and t⁻¹ alike.
+  - On one disc: flip 1 = −χ(M, D), blind 0.
+- **Reading.** B1387's +2 is made entirely by the flip at the free cusps.
+- **The physical-bridge rounds.** The one computed completion that keeps a count carries a charge-odd datum at the ends: R24's flux
+  sign(q)·k.
+  - A free wall is its mirror (R25).
+  - Smoothed cores leave pairs (R30–R31).
+  - The lane's three sources sit on the C₃-fixed arcs, and their three is the regular representation (R32), which is B1390's pullback
+    three.
+  - Allowed mirror interactions give no mirror-only gap (R33–R34, R54).
+- **sL-8 now asks:** what physical datum at a free cusp knows the sign of q·∂_hF?
+
+Not sealed: the lemma decides the generic outcome. Lock: `tests/test_b1393_the_charge_flip.py`. 0 of 19.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1240** |
-| words of findings prose | **962,250** |
+| research arcs with findings | **1241** |
+| words of findings prose | **964,827** |
 | test lock files referenced | **751** |
-| arcs carrying an authored verdict | **1240** (100.0 %) |
+| arcs carrying an authored verdict | **1241** (100.0 %) |
 | recorded closures | **794** (617 classified, 177 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 819 |
+| PROVED | 820 |
 | NEGATIVE | 322 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1392`** (1710 words, 0 locks)  
-THE ENDS CARRY THE CHIRALITY (sL-8's first question, sharpened): in the seat's frame the count lives only at cusps where the Higgs class vanishes. (i) Every class has exactly one harmonic representative with a bounded primitive in every cusp, omega = alpha_c + (exponentially small), alpha_c the flat form of v on the cusp torus (L^2 solve of Delta F = -delta omega_0; of the harmonic h^0, h^2 only h^0 is L^2). (ii) Sealed cusp (alpha_c != 0): |omega| = h|alpha_c| and |nabla omega| / |omega|^2 = sqrt2 / (h|alpha_c|), so the Witten potential T^2|omega|^2 -> oo (no essential spectrum from the end, Persson), no Higgs zero at large height and Phi_c = 0 in Morse's boundary formula: the end contributes nothing. (iii) Unsealed cusp (alpha_c = 0: B1369's free cusp): omega exponentially small, the deformation relatively compact (Weyl), and the undeformed 1-form continuum survives, from 0: Delta_H(h^s dx) = -s^2 h^s dx on the L^2 borderline Re s = 0 (B1388's premise, derived). (iv) The no-go: a class sealing every cusp gives a Fredholm problem whose index is the signed Higgs-zero count, which is 0; so N != 0 forces an unsealed end, where the problem is not Fredholm -- in this frame chirality and a well-posed problem on the complete manifold exclude each other. Computed: the cusp algebra exactly (sympy); on the 99 arithmetic census members and cube~3.24 every peripheral rank is >= 1 (a generic class seals every cusp), 86 free cusps on 35 members; cube~3.24's classes unsealed at all four cusps are the cuspidal line v+. Consequence: sL-8's 'which count' has no answer internal to the complete manifold; the count is a statement about what completes the free cusps -- the ends where the Higgs field dies off and the broken symmetry returns, where B1389's anomaly must be carried. Fences: the frame's, spin-0; the spectral steps (Persson, Weyl, Witten's localization with confining ends) cited in kind; Dai-Yan's theorem does not apply verbatim (no bounded geometry at cusps). No physics crossed. 0 of 19.  
-`B1392_the_ends_carry_the_chirality/FINDINGS.md`
+**PROVED — `B1393`** (2518 words, 0 locks)  
+THE CHARGE FLIP (sL-8, after B1392; main's physical-bridge rounds R23-R26, R30-R31 harvested by citation): an index formula computes net chirality only for an end condition that flips with the charge. Lemma: with relative conditions on A_q and absolute on B_q, duality gives h^k(X, A; L_q) = h^{3-k}(X, B; L_{-q}); if A_{-q} = B_q (the flip) the net chirality n_q - n_{-q} = h^1 - h^2 = -chi(X, A_q) (+ h^0 terms), minus B1351's N_q; if A_{-q} = A_q (blind) it is h^1(X, A; L_q) - h^1(X, A; L_{-q}), zero off a discrete set of couplings whatever chi(X, A) is; main's interior-image index (B1297) is blind. Computed exactly on cube~3.24's cuspidal twist L_t (t = e^q; Fox calculus, two presentations): a1 = r1 = 4 and n = 0 at every sampled t and 1/t (r1 + r1* = 8); the Fox matrix has rank 3 over Q(t) and the gcd of its maximal minors is 9(t^2 + t + 1)^2, with no positive root, so at every real coupling no twisted class is interior and main's I = 0; at the primitive cube roots of unity a1 = 6, n = 2 for t and 1/t (over three primes). On a disc: flip 1 = -chi(M, D), blind 0. So B1387's +2 is made entirely by the flip at the free cusps. The physical-bridge rounds agree from the source side: the one computed completion that keeps a count carries a boundary flux sign(q)*k (R24; main's grade), a free wall is its mirror (R25), smoothed cores leave light pairs (R30-R31); the lane's three sources sit on the C3-fixed arcs and their three is the regular C3 representation (R32, the lane's grade: B1390's pullback three), and allowed mirror interactions give no mirror-only gap (R33-R34, R54). sL-8's question becomes: what physical datum at a free cusp knows the sign of q*d_hF? The lemma is the domain-wall rule (Jackiw-Rebbi, Callan-Harvey, Kaplan) in the frame's language; no novelty claimed for it. Not sealed (the lemma decides the generic outcome). No physics crossed. 0 of 19.  
+`B1393_the_charge_flip/FINDINGS.md`
 
 **NEGATIVE — `B1391`** (1923 words, 0 locks)  
 THE GENERATIONS' FLAVOUR (test 4, structural; not sealed -- the outcome follows from banked theorems once the fixed sets are known): the frame's generations carry the action of the isometries fixing the Higgs class, with character the Lefschetz number L(g) = chi(Fix g, Fix g n d+M_T) of the pair (M_T, d+M_T) at an invariant cut. On cube~3.24 (Isom = D3): R fixes 3 arcs (ends 3 + 3 on the Eisenstein cusps), each disc d- there holds exactly one of R's fixed points (Kerekjarto), so L(R) = 3 - 4 = -1; each swap fixes 4 arcs (ends 4 + 4 on the annular cusps 1, 2), an orientation-preserving involution of an annulus fixes 0 or 2 points, so L(swap) = 4 - 4 = 0; L(e) = N = 2: the character (2, -1, 0) is E, D3's doublet (R-charges w, w^2; the swaps exchange them); B1388's zeros agree (the R-fixed zeros' Hopf indices +1, -1, +1). Schur: with one Higgs doublet of each type (a one-dimensional representation) the covariant Yukawas on E are [[0, y], [+-y, 0]], one singular value twice -- the two generations are exactly degenerate in every sector at the symmetric point; the symmetric 10 10 5_H coupling needs the Higgs in A1; a Higgs in E splits them only on a vacuum breaking D3 completely (a swap-invariant vacuum has |h+| = |h-|, an R-invariant one h = 0). The pullback three (B1390: Z/3's regular representation) with a Higgs of definite charge q: every symmetric covariant texture has a degenerate pair (B1362's circulant for q = 0, and for q = 1, 2), the 10 5bar texture a permutation; with a deck-inverting isometry the three are S3's 2 + 1, a structure present on 115 of B1386's 184 members (142 with a free order-3 isometry), so the binding condition is |N| = 1 on the quotient. NEGATIVE for Yukawa ratios as an output of the symmetric geometry: it supplies a flavour group (S3 on cube~3.24), not the ratios; every hierarchy between symmetry partners is a breaking effect of undetermined size. Fences: the seat's frame, spin-0 half, the 27-frame; tree level; the Higgs doublets' representations an input (index 0, B1372). Routed into the kill graph. 0 of 19.  

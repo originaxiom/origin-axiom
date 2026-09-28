@@ -849,3 +849,18 @@ For your paper's chirality section, and your S17 question about the boundary def
   broken symmetry returns, and the ones that must carry the 78's anomaly.
 
 `frontier/B1392_the_ends_carry_the_chirality`. 0 of 19.
+
+## Fifty-fifth note (2026-09-28): the count is made by the charge flip (B1393)
+
+For your chirality section and for the physical-bridge lane.
+- **The lemma.** Pantev–Wijnholt's index computes net chirality only because ∂⁺ flips with the charge. With one condition for both
+  charges, the net chirality is one Betti number at q and −q, zero except at isolated couplings. Your B1297 interior-image index is of
+  that kind, and its T1 is the duality.
+- **Computed on cube~3.24's cuspidal twist.** No twisted class is interior at any real coupling: a₁ = r₁ = 4, and the Fox matrix drops
+  rank only at the primitive cube roots of unity, 9(t² + t + 1)². So your I is 0 there, and B1387's +2 is made by the flip.
+- **The lane's rounds are the same statement from the source side.** R24's flux sign(q)·k is the charge-odd datum the flip needs. R25's
+  free wall is the mirror. R30–R31's smoothed cores are blind. R32's three sources sit on the C₃-fixed arcs, and their three is the
+  regular representation, which is B1390's pullback three.
+- **The question it leaves.** What physical datum at a free cusp knows the sign of q·∂_hF?
+
+`frontier/B1393_the_charge_flip`. 0 of 19.

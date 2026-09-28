@@ -83,3 +83,7 @@ is where the owner's steer would help most.
 
 Open leads: sL-8 (the completion), sL-7 (the route to three, with its flavour), sL-5 (the level). The letter to main carries the
 fiftieth to fifty-fourth notes.
+
+*(Currency 2026-09-28, B1393.) The CPT requirement above is now a lemma. An index computes net chirality only for an end condition
+that flips with the charge. On cube~3.24's cuspidal twist the charge-blind count is exactly zero, so the +2 is made by the flip at the
+free cusps.*

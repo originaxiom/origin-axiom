@@ -772,3 +772,13 @@ left it.
 > **Currency note (2026-09-28): the kill tests, written up.** `docs/THE_KILL_TESTS_2026-09-27.md` puts B1388–B1392 on one page for
 > the owner: the four outcomes, what joins them, where physics has to enter, and the next step (candidate completions of the free
 > cusps, sealed one at a time). 0 of 19.
+
+> **Currency note (2026-09-28, B1393): the count is made by the charge flip.**
+> - An index computes net chirality only for an end condition that flips with the charge. With one condition for both charges the net
+>   chirality is zero away from isolated couplings.
+> - On cube~3.24's cuspidal twist it is exactly zero at every real coupling (no twisted class is interior), so B1387's +2 is made by the
+>   flip at the free cusps.
+> - The one computed completion that keeps a count carries a charge-odd datum at the ends (the physical-bridge lane's R24). Placed on
+>   the C₃-fixed arcs, its three is the regular representation (R32).
+>
+> 0 of 19 (`frontier/B1393_the_charge_flip`).

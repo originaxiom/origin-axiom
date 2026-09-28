@@ -1,5 +1,19 @@
 # Changelog
 
+## B1393 — the charge flip: the seat's count is an index only because the frame's end condition flips with the charge; with one condition for both charges the net chirality is zero away from isolated couplings, and on cube~3.24's cuspidal twist exactly zero at every real coupling
+
+- **The lemma.** Duality gives h^k(X, A; L_q) = h^{3−k}(X, B; L_{−q}). If the charge −q sees the complementary condition (the flip),
+  the net chirality is h¹ − h² of one pair, −χ(X, A_q): B1351's count. If both charges see the same condition, it is one Betti number
+  at q and −q, zero off a discrete set of couplings. Main's interior-image index (B1297) is of that kind.
+- **Computed on cube~3.24's cuspidal twist** (Fox calculus, two presentations). a₁ = r₁ = 4 and n = 0 at every sampled coupling. The
+  Fox matrix drops rank only at the primitive cube roots of unity (9(t² + t + 1)²), so at every real coupling no twisted class is
+  interior and the charge-blind count is 0. On one disc: flip 1, blind 0.
+- **So B1387's +2 is made entirely by the flip at the free cusps.**
+- **The physical-bridge rounds agree from the source side.** R24: sourced flux sign(q)·k. R25: a free wall is the mirror. R30–R31:
+  smoothed cores give pairs. R32: the three sources sit on the C₃-fixed arcs and their three is the regular representation (B1390's
+  pullback three). R33–R34, R54: no mirror-only gap from interactions.
+- **For sL-8.** What physical datum at a free cusp knows the sign of q·∂_hF? No physics crossed. 0 of 19.
+
 ## The kill tests written up — `docs/THE_KILL_TESTS_2026-09-27.md`, the four tests on the chirality mechanism and what joins them, for the owner
 
 - **The page.** The four outcomes (cutoff UNSTABLE; full spectrum MIXED; no protected, non-pullback three in m004's class; NEGATIVE

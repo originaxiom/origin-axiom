@@ -8175,6 +8175,7 @@
    "slug": "the ends carry the chirality",
    "motifs": [
     "closing",
+    "coupling",
     "trace_map",
     "eisenstein",
     "golden",
@@ -8188,6 +8189,22 @@
    "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1393": {
+   "slug": "the charge flip",
+   "motifs": [
+    "closing",
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
   },
   "B139": {
    "slug": "firewall cartography",

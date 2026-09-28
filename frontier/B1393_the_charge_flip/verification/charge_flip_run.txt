@@ -1,0 +1,18 @@
+# B1393 charge_flip.py -- run 2026-09-28T06:05Z, python-flint 0.9.0, SnapPy 3.3.2
+A. cube~3.24: presentation with 8 generators, 7 relators; b1 = 5; cuspidal line v+ = [1, -1, 0, 1, 0, -1, 1, -1]
+   t =     2: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+   t =     3: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+   t =     5: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+   t =   3/2: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+   t =   7/3: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+   t =  11/4: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+B. the Fox matrix has rank 3 over Q(t) (every 4-minor vanishes identically), so a1 = 4 generically;
+   the gcd of its 1960 maximal-rank minors, up to units t^k: 9*x^4 + 18*x^3 + 27*x^2 + 18*x + 9 = (9, [(x^2 + x + 1, 2)])
+   its real roots, exactly: []; positive ones: [] -- so no real coupling q != 0 (t = e^q) is a jump point
+C. one disc D in cusp 0, t = 2: charge-flip nu = h^1(M, D; L_t) - h^1(M, dM - D; L_1/t) = 5 - 4 = 1 (lemma: -chi(M, D) = 1); charge-blind nu = h^1(M, D; L_t) - h^1(M, D; L_1/t) = 5 - 5 = 0
+D. second method, SnapPy's unsimplified presentation (49 generators, 48 relators; b1 = 5):
+   cube~3.24: presentation with 49 generators, 48 relators; b1 = 5; cuspidal line v+ = [1, -1, 0, 0, -2, -1, -1, 2, -1, 0, 0, 1, 2, 1, -1, 0, 0, -1, -1, -1, 0, -1, 0, 1, 1, 0, 0, -2, -1, -1, -1, 0, -1, -1, 1, -1, -1, -1, -1, 1, -1, -2, 0, 0, -1, 0, 1, 0, 0]
+   t =     2: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+   t =   3/2: a1 = 4, a2 = 4, r1 = 4, n = 0 | 1/t: a1 = 4, r1 = 4, n = 0 | r1 + r1* = 8 = t1 | I = n - n* = 0
+E. at the jump points, t a primitive cube root of unity (over F_p): p = 7, t = 2: a1 = 6, r1 = 4, n = 2; p = 7, t = 4: a1 = 6, r1 = 4, n = 2; p = 13, t = 3: a1 = 6, r1 = 4, n = 2; p = 13, t = 9: a1 = 6, r1 = 4, n = 2; p = 19, t = 7: a1 = 6, r1 = 4, n = 2; p = 19, t = 11: a1 = 6, r1 = 4, n = 2
+(21 s)

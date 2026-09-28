@@ -3225,5 +3225,27 @@ This job is not optional, whichever answers the first two questions get. `fronti
 - **The candidates to seal and test.** A conical point at each free cusp, where the Higgs field also vanishes, as at its zeros. A
   physical wall at a cut. A Dehn filling, which kills the count (B1351). `frontier/B1392_the_ends_carry_the_chirality`.
 
+**Status (2026-09-28, B1393): the count is made by the charge flip, and the physical-bridge rounds place the completions.**
+- **The lemma.** An index formula computes net chirality only for an end condition that flips with the charge: relative on ∂⁺_q and
+  absolute on ∂⁻_q, and the reverse for −q. With one condition for both charges the net chirality is one Betti number at q and −q,
+  zero except at isolated couplings.
+- **On cube~3.24's cuspidal twist** this charge-blind count is exactly 0 at every real coupling, because every twisted class
+  restricts injectively to the cusps. So B1387's +2 is made by the flip at the free cusps.
+- **Charge-blind completions are vector-like:** a Dehn filling (B1351 (i)), a wall with a fixed condition, and the L²/interior-image
+  count (main's B1297).
+- **The rounds.**
+  - A physical wall that realizes the flip carries the mirror (R25: −k against +k).
+  - Smoothed sources leave light pairs (R30–R31).
+  - Allowed interactions give no mirror-only gap (R33–R34, R54; the lane's grade).
+- **The one computed completion with a surviving count is sourced.**
+  - It carries a boundary flux sign(q)·k (R24; conditional on R18/R19, stable under R26's perturbations). That datum is odd in q,
+    which is what the flip needs.
+  - It does not select three. Placed on the C₃-fixed arcs, its three is the regular representation (R32), which is B1390's pullback
+    three.
+- **So question 1 becomes: what physical datum at a free cusp knows the sign of q·∂_hF?**
+  - The mirror and the anomaly must go to one of four places: to infinity (the cusp left open, B1392's continuum), into a wall (R25),
+    into the sources' inflow (R23), or into a gap from interactions (open).
+  - Each is to be sealed before it is computed. `frontier/B1393_the_charge_flip`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

@@ -134,3 +134,7 @@ spectrum", "essential spectrum", "Persson", "sealed" and "unsealed" (the last tw
   - Golénia–Moroianu (Trans. AMS 364, 2012; the essential spectrum of form Laplacians on conformally cusp manifolds);
   - Mazzeo–Phillips (Duke 60, 1990; Hodge theory on hyperbolic manifolds);
   - Helffer–Nier and Le Peutrec (the Witten Laplacian with boundary).
+
+*(Currency 2026-09-28, B1393.) The sealed ends are the flat-twist form of main's B1297 T5 (only cusp-invariant local systems can be
+chiral), a parallel this section missed. B1393 shows the count at the free cusps is made by the charge flip. With one condition for
+both charges it vanishes, and on cube~3.24's cuspidal twist it vanishes at every real coupling.*
