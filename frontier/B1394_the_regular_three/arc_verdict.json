@@ -1,0 +1,19 @@
+{
+ "id": "B1394",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1393",
+  "B1390",
+  "B1391",
+  "B1384",
+  "B1371",
+  "B1369"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE REGULAR THREE, SEALED (not yet run; sL-7/sL-8 after B1393): can a symmetric source placement in m004's class give a three that is not three times one? Theorem (proved at seal; the physical-bridge lane's R32 Hopf-trace argument generalised): for an order-3 rotation with k = 3m fixed arcs and a g-invariant rank-one flat L with lift, sum of the arc weights = L(g^; Q); if H*(Q; L) = 0 the weights are balanced (m of each cube root of unity), the source-mode module H^1(Q, N; L) is m copies of the regular representation and each lift keeps m invariant modes. Census: the 99 arithmetic census members of B1390 and cube~3.24, every rotation subgroup of order 3, every g-invariant character to mu_3 (torsion included), twisted Betti numbers over F_7 and F_13, lift weights per arc; control m202 (R32). Sealed: P1 acyclic => balanced (instrument check); P2 the acyclic fraction (read); P3 any non-acyclic non-trivial unbalanced case? NONE / SOME, prior NONE ~60%. PREREGISTRATION.md sha256 recorded in docs/SEAL_LEDGER.md."
+}
