@@ -1,5 +1,22 @@
 # Changelog
 
+## `relay-debt` repaired — the gate's fourth invisibility, and the first fix that is not a wider pattern
+
+Escalating 29 stale relay debts exposed **three silent holes in the gate**: a disposition outside
+`{BANKED, DECLINED, OPEN}` made a row **vanish entirely** (4 rows: `BANKED-AS-LEADS` ×2, `LOGGED`,
+`HARVESTED`); the note was read only up to the first **internal pipe**, which is **how an `ESCALATED`
+marker was invisible to the gate that demanded it**; and rows were keyed by name in a dict, so
+**3 duplicates silently dropped their earlier row** from every check.
+
+**B1004, B1172 and B1307 each widened a pattern. This adds a COMPLETENESS CHECK** — every ledger row
+whose first cell is a `.md` name must parse or the gate fails and names the line — so the next
+vocabulary drift reports itself. The summary now prints every disposition, not three.
+
+**Verified:** counts `400/1/67 → 402 banked, 1 declined, 68 open, 2 banked-as-leads, 1 logged,
+1 harvested`; positive control at a forward clock still reports 18 stale debts; lock test 6/6;
+gates 35/35. **No debt was hidden by the four invisible rows — all name arcs — but the gate could not
+have told us that.**
+
 ## xB031 — B1418's 3 325 unrun modules, run: the unrun set closes with no 3, and the index peaks at `m = 3` and dies
 
 **X2.** `t12835`: **6 435 modules run, NOT RUN 0**, nonzero `177 → 432`, **`max |I| = 2` unchanged**,

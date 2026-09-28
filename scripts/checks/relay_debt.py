@@ -75,9 +75,27 @@ RELAY_RE = re.compile(
     r"|[A-Za-z0-9_.\-]*_HANDOFF\.md|HANDOFF_[A-Za-z0-9_.\-]*\.md)")
 # B1307: the first cell may carry text after the name -- "(on the seat's branch @ pin)", a zip's contents -- and three
 # BANKED rows (SM x2, cloud) plus the chat1 row were silently unparsed, so the chat1 relay archived on main read as INVISIBLE.
+# xB032/xB033 (2026-09-28), the FOURTH invisibility repair on this gate -- and the first that does not
+# widen a pattern. B1004, B1172 and B1307 each widened RELAY_RE after a lane turned out to be
+# structurally invisible; none added a check that the LEDGER ITSELF parses. Three holes were found at
+# once, all silent:
+#   (1) a disposition outside {BANKED, DECLINED, OPEN} made the row vanish ENTIRELY -- not counted,
+#       not aged, not failed. Four rows were invisible this way: BANKED-AS-LEADS x2, LOGGED, HARVESTED.
+#   (2) the note was captured as [^|]*, so a note containing an internal pipe (e.g. \|Cl/Cl²\|,
+#       \|Vub\|) had its TAIL UNREAD -- which is how an ESCALATED marker appended to such a row was
+#       invisible to the gate that demanded it.
+#   (3) rows were collected into a dict keyed by name, so a DUPLICATE name silently dropped the
+#       earlier row from every check.
+# The repair: recognise the vocabulary actually in use, read the whole note, check EVERY occurrence,
+# and -- the part that generalises -- FAIL LOUDLY on any ledger row this regex cannot parse, so the
+# next vocabulary drift reports itself instead of disappearing.
+DISPOSITIONS = ("BANKED-AS-LEADS", "BANKED", "DECLINED", "OPEN", "LOGGED", "HARVESTED")
+CLOSED_WITH_ARC = ("BANKED", "BANKED-AS-LEADS", "HARVESTED")   # must name an arc
 ROW_RE = re.compile(
-    r"^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?[^|]*\|\s*(?P<disp>BANKED|DECLINED|OPEN)\s*\|"
-    r"\s*(?P<date>[0-9]{4}-[0-9]{2}-[0-9]{2}|—|-)\s*\|\s*(?P<note>[^|]*)\|", re.M)
+    r"^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?[^|]*\|\s*(?P<disp>" + "|".join(DISPOSITIONS) + r")\s*\|"
+    r"\s*(?P<date>[0-9]{4}-[0-9]{2}-[0-9]{2}|—|-)\s*\|\s*(?P<note>.*)\|\s*$", re.M)
+# any ledger line whose first cell is a .md name -- the population ROW_RE must cover completely
+NAMEROW_RE = re.compile(r"^\|\s*`?[A-Za-z0-9_.\-]+\.md`?\s*\|", re.M)
 
 
 def _today() -> datetime.date:
@@ -120,19 +138,42 @@ def check() -> tuple[list[str], list[str], dict]:
     if not LEDGER.is_file():
         return ([f"{LEDGER.relative_to(ROOT)} is MISSING — the register is constitutive"], [], {})
     text = _read(LEDGER)
-    rows = {m.group("name"): m for m in ROW_RE.finditer(text)}
+    matches = list(ROW_RE.finditer(text))
     fails, stale = [], []
-    counts = {"BANKED": 0, "DECLINED": 0, "OPEN": 0}
+    counts = {d: 0 for d in DISPOSITIONS}
     today = _today()
 
-    for name, m in rows.items():
+    # xB033 repair (3): check EVERY occurrence, so a duplicate name cannot shadow an earlier row.
+    rows = {m.group("name"): m for m in matches}
+    seen = {}
+    for m in matches:
+        seen[m.group("name")] = seen.get(m.group("name"), 0) + 1
+    dups = sorted(n for n, c in seen.items() if c > 1)
+
+    # xB033 repair (1), and the part that generalises: every ledger row must PARSE.
+    lines = text.split("\n")
+    parsed_lines = set()
+    for m in matches:
+        parsed_lines.add(text.count("\n", 0, m.start()) + 1)
+    unparsed = []
+    for i, ln in enumerate(lines, 1):
+        if NAMEROW_RE.match(ln) and i not in parsed_lines:
+            cell = [c.strip() for c in ln.split("|")]
+            unparsed.append(f"line {i}: disposition {cell[2]!r} is not one of {DISPOSITIONS}")
+    for u in unparsed:
+        fails.append(f"UNPARSED LEDGER ROW — invisible to every check below — {u}")
+
+    for m in matches:
+        name = m.group("name")
         d = m.group("disp")
         counts[d] += 1
         note = m.group("note").strip()
-        if d == "BANKED" and not re.search(r"\bB\d{1,4}\b", note):
-            fails.append(f"{name}: BANKED but the note names no arc — unverifiable")
+        if d in CLOSED_WITH_ARC and not re.search(r"\bB\d{1,4}\b", note):
+            fails.append(f"{name}: {d} but the note names no arc — unverifiable")
         if d == "DECLINED" and len(note) < 12:
             fails.append(f"{name}: DECLINED with no reason given")
+        if d == "LOGGED" and len(note) < 12:
+            fails.append(f"{name}: LOGGED with no content")
         if d == "OPEN":
             escalated = bool(ESCALATED_RE.search(note))
             if m.group("date") in ("—", "-"):
@@ -153,8 +194,18 @@ def check() -> tuple[list[str], list[str], dict]:
 def main() -> int:
     fails, stale, counts = check()
     if counts:
-        print(f"  relay-debt: {counts['BANKED']} banked, {counts['DECLINED']} declined, "
-              f"{counts['OPEN']} open")
+        # xB033: report EVERY disposition present. The old line printed only three, so the four
+        # rows this repair made visible would have stayed invisible in the summary -- the same
+        # class of blindness one layer up.
+        shown = ", ".join(f"{v} {k.lower()}" for k, v in counts.items() if v)
+        print(f"  relay-debt: {shown}")
+        # recomputed here rather than returned, so check()'s 3-tuple signature stays intact
+        # for tests/test_relay_debt_gate.py which imports this module.
+        _names = [m.group("name") for m in ROW_RE.finditer(_read(LEDGER))]
+        _dups = sorted({n for n in _names if _names.count(n) > 1})
+        if _dups:
+            print(f"  relay-debt: {len(_dups)} DUPLICATE ledger name(s), all occurrences now "
+                  f"checked (previously the earlier row was silently dropped): {', '.join(_dups)}")
     if stale:
         print(f"  relay-debt: {len(stale)} UNESCALATED STALE DEBT(S) — escalate by name or close --")
         for s in stale:

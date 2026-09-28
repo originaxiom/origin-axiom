@@ -17834,3 +17834,52 @@ with the miss on the cell the arc existed for — this seat predicted growth fro
 sequence, and three points are not a law.**
 
 **Gate 5 absolute. No value. Nothing to `CLAIMS.md`.**
+
+## INSTRUMENT REPAIR (2026-09-28, seat `xb`) — `relay-debt`'s FOURTH invisibility, and the first repair that does not widen a pattern
+
+**Found while banking xB031/xB032.** The calendar advanced 10 days mid-session, 29 OPEN relay debts
+crossed the 21-day threshold, and `relay-debt` went red. Escalating them by name exposed **three
+silent holes in the gate itself**, all found by the escalation failing to take.
+
+**(1) A disposition outside `{BANKED, DECLINED, OPEN}` made the row VANISH ENTIRELY** — not counted,
+not aged, not failed. **Four rows were invisible this way:** `BANKED-AS-LEADS` ×2
+(`CC3_TO_CC_2026-08-19_BOTH_ROUTES_OUT_OF_B990`, `…_ONE_SLOT_AND_THE_SELECTOR`), `LOGGED`
+(`CC3_TO_CC_2026-08-19_THE_PAPER_STATE`), `HARVESTED`
+(`CODEX_TO_CC_2026-08-29_LEPTON_CHARACTER_DATUM`). **All four are closed states naming arcs
+(B8085, B8087, B1212) — no debt was hidden — but the gate could not have told us that.**
+
+**(2) The note was captured as `[^|]*`, so a note containing an internal pipe had its TAIL UNREAD.**
+6 of 452 rows contain one (`\|Cl/Cl²\|`, `\|Vub\|`). **This is how an `ESCALATED(…)` marker appended to
+such a row was invisible to the gate that demanded it** — the escalation of
+`CC_TO_CLOUD_2026-08-30_VNEG_…` had to be moved to the front of the note before the gate could see it.
+**The marker was correct and well-formed and the gate read past it.**
+
+**(3) Rows were collected into a dict keyed by name, so a DUPLICATE name silently dropped the earlier
+row from every check.** **3 duplicates** — `CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION`,
+`CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH`, `CORPUS_ADOPTION_AUDIT` *(the third found by the
+repaired gate, not by the hand count that preceded it — my own tally missed it)*.
+
+**THE REPAIR, and why it is different in kind from the three before it.** `relay-debt` has been
+widened **three times** for structural invisibility — **B1004** (an unadopted artifact),
+**B1172** (the codex/cloud lanes), **B1307** (`SM_TO_CC`, `FC_TO_CC`, `FAB5_TO_CC`, `CHAT1_TO_CC`) —
+and **each time the fix was a wider pattern.** A wider pattern cannot catch the next word nobody
+thought of. So this repair adds, alongside the vocabulary and the note fix and per-occurrence
+checking, **a COMPLETENESS CHECK: every ledger row whose first cell is a `.md` name MUST parse, or the
+gate FAILS and names the line.** Vocabulary drift now reports itself instead of disappearing.
+
+**And a fourth fix, one layer up:** the summary printed only three dispositions, so the four rows this
+repair made visible **would have stayed invisible in the summary** — the same blindness one level
+higher. It now prints every disposition present and the duplicate names.
+
+**Verification.** `python3 scripts/checks/relay_debt.py` → `2 banked-as-leads, 402 banked, 1 declined,
+68 open, 1 logged, 1 harvested` *(counts rose from 400/1/67 because the invisible rows are now
+counted)*. **Positive control: with `OA_RELAY_TODAY=2026-12-01` the gate still reports 18 newly stale
+debts** — aging survived the regex change. **Lock `tests/test_relay_debt_gate.py`: 6 passed**
+(`check()`'s 3-tuple signature deliberately preserved for it). **Gates 35/35.**
+
+**Separately, the escalation itself.** 29 stale debts escalated **by name**, each carrying its own
+marker, age and owed seat, with an explicit statement that this seat **did not send them and has not
+read their contents** and that **escalation is not closure**. Counterparties: `cloud`, `cc3`, `codex`,
+`zai`, `fab5cloud`, `fc`, `all_seats`; **oldest 31 days.** **That seven lanes have gone 22–31 days
+without reply is a fact about the lane, not the memos, and it belongs in the decadal review — which
+is itself 116 merges overdue. The two facts are probably the same fact.**
