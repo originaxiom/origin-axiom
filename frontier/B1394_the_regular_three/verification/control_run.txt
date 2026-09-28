@@ -1,0 +1,7 @@
+# B1394 regular_three.py census -- run 2026-09-28T07:15Z after the seal a4712e8d; python-flint 0.9.0, SnapPy 3.3.2
+## the banked identity first: m202 (R32)
+m202: tets 9 faces 18 edges 9, finite vertices 0, b1 2, |Aut| 12
+{'member': 'm202', 'k': 3, 'dim_inv': 1, 'trivial': True, 'h': (1, 2, 1), 'acyclic': False, 'counts': (3, 0, 0), 'balanced': False}
+{'member': 'm202', 'k': 3, 'dim_inv': 1, 'trivial': False, 'h': (0, 0, 0), 'acyclic': True, 'counts': (1, 1, 1), 'balanced': True}
+{'member': 'm202', 'k': 3, 'dim_inv': 1, 'trivial': False, 'h': (0, 0, 0), 'acyclic': True, 'counts': (1, 1, 1), 'balanced': True}
+(0 s)
