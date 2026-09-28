@@ -768,3 +768,7 @@ left it.
 >   anomaly.
 >
 > 0 of 19 (`frontier/B1392_the_ends_carry_the_chirality`).
+
+> **Currency note (2026-09-28): the kill tests, written up.** `docs/THE_KILL_TESTS_2026-09-27.md` puts B1388–B1392 on one page for
+> the owner: the four outcomes, what joins them, where physics has to enter, and the next step (candidate completions of the free
+> cusps, sealed one at a time). 0 of 19.

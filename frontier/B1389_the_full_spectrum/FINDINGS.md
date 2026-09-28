@@ -1,6 +1,6 @@
 # B1389 — THE FULL SPECTRUM (kill test 2, sealed): MIXED. On a member with a cuspidal Higgs class, the 27's spin-0 sector alone gives whole, anomaly-free Standard-Model generations. The Higgs direction must lie in the cone −1 < a/b < 2/3 round γ; there the 5 of the 15 has the opposite γ-charge to the 10 and enters as the 5̄. On cube~3.24 that is two generations in the frame. But the gauge multiplet's own broken roots, which 7d E₆ super-Yang–Mills always carries, make the local spectrum anomalous for every direction and in every frame that includes them. On the pure γ direction the 78's own 5̄ cancels the generation's 5̄ exactly and leaves a lone 10.
 
-**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** the owner's "how do we continue bravely"; test 2 of
+**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** the owner's question of how to continue; test 2 of
 the kill tests, decidable before sL-8 because the pattern multiplies the count N · **Seal:** `PREREGISTRATION.md`, committed and
 pushed at 8d9498d2 before any direction was read; sha256 in `docs/SEAL_LEDGER.md` · **Status:** MIXED, as sealed. Both halves are
 exact (rational arithmetic, every cone visited). · **Fence:** the seat's frame; generations in the frame are not generations in

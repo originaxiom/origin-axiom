@@ -1,6 +1,6 @@
 # B1391 — THE GENERATIONS' FLAVOUR (test 4, in structural form): the frame's two generations on cube~3.24 are the doublet of its isometry group D₃ ≅ S₃. The order-3 isometry gives them the charges ω and ω², and the swaps exchange them. So with one Higgs doublet of each type they are exactly degenerate in every sector at the symmetric point, and any hierarchy between them is D₃ breaking. The pullback three of B1390 carries ℤ/3's regular representation: at the symmetric point B1362's circulant degeneracy (a degenerate up-type pair for a Higgs of any definite charge), or S₃'s "2 + 1" when a symmetry inverts the deck. The symmetric geometry supplies a flavour group, not the Yukawa ratios.
 
-**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** test 4 of the owner's "how do we continue bravely"
+**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** test 4 of the kill tests on the chirality mechanism
 (the Yukawas), after test 3 was decided by B1390. · **Status:**
 - PROVED: the equivariant index; the representation, exact from banked data and B1390's fixed sets; the textures, symbolic.
 - NEGATIVE: for Yukawa ratios as an output of the symmetric geometry.

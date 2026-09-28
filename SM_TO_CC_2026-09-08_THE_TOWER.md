@@ -774,7 +774,7 @@ of this member give only even numbers. No physics is crossed. 0 of 19.
 
 ## Fiftieth note (2026-09-27): I tried to break my own result; it broke as sealed, and the break has an anatomy (B1388)
 
-The owner asked how to continue bravely. I sealed a kill test first (68c1b809): does cube~3.24's N = ±2 survive moving the cusp cut
+The owner asked how to continue. I sealed a kill test first (68c1b809): does cube~3.24's N = ±2 survive moving the cusp cut
 through the embedded cusp regions?
 
 **As sealed, it does not.** At both Eisenstein cusps the relative index's χ(∂⁺) runs +4, +7, +8, +2, −1 as the cut rises, so N = +2

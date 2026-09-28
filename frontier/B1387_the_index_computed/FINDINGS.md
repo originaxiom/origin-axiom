@@ -145,7 +145,7 @@ class's orbit when the other cusps are annular. Three needs an orbit of three th
 
 ## 4. What it means
 
-**For the question the owner asked today, "did we cross physics at any level?":** still no. This is the frame's count of net
+**Where this stands.** This is the frame's count of net
 chirality in one charged spin-0 sector, on one member of m004's class, for the one Higgs class the member itself selects. The frame
 remains assumed: M-theory's local model on a G₂ space along the 3-manifold, with the sign partition as boundary condition (R23). The
 spin-½ half (B1372, B1373) and every Standard-Model value are untouched.

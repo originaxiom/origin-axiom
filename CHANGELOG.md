@@ -1,5 +1,17 @@
 # Changelog
 
+## The kill tests written up — `docs/THE_KILL_TESTS_2026-09-27.md`, the four tests on the chirality mechanism and what joins them, for the owner
+
+- **The page.** The four outcomes (cutoff UNSTABLE; full spectrum MIXED; no protected, non-pullback three in m004's class; NEGATIVE
+  for Yukawa ratios), what joins them (B1392: the chirality lives at the free cusps), two findings along the way (E4; the common
+  "2 + 1"), where physics has to enter (sL-8, sL-5, the flavour breaking) and the next step (candidate completions of the free cusps,
+  sealed one at a time and tested against CPT, the anomaly and the count).
+- **Wording.** The occasion lines of B1388–B1391 and the matching progress-log heading and letter line name the kill tests plainly;
+  two check-in lines (B1387 §4; B1386's progress-log entry) read as status lines. The sealed preregistrations are untouched (their
+  digests are in the SEAL_LEDGER).
+
+The fast lane on B1392's tree (56c25699): 9 failed (the known baseline, unchanged), 6 322 passed, 52 skipped.
+
 ## B1392 — the ends carry the chirality: a cusp where the Higgs class does not vanish is sealed (well-posed, contributes nothing); one where it vanishes keeps the continuum [0, ∞) and carries the count; so N ≠ 0 forces a non-Fredholm end
 
 The canonical harmonic representative (bounded primitive) is α_c + (exponentially small) at each cusp.

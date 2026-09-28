@@ -15491,7 +15491,7 @@ was avoided by running on the covering path's own labelling, pinned by its decor
 registry rows T-FIXED-POINT-CONGRUENCE and T-OPEN-EISENSTEIN-CUSP; the SM_VERDICT currency note; the README pointer; the alias table
 (next B1387).
 
-**The owner asked "did we cross physics on any level yet?"** No. Everything is mathematics, some of it computed inside a physics
+**Where this stands.** Everything is mathematics, some of it computed inside a physics
 frame that is assumed, not derived. B1386 is the frame's first symmetry-protected chiral index: spin-0 half, conditional on one
 coefficient, not three. 0 of 19.
 
@@ -15524,7 +15524,7 @@ one each. It is not three, and no physics is crossed. 0 of 19.
 
 ---
 
-## 2026-09-27 — B1388: the cutoff test (owner: "how do we continue bravely")
+## 2026-09-27 — B1388: the cutoff test (the first kill test on the chirality mechanism)
 
 **The stance.** Try to break the one positive result before building on it, with the kill criterion sealed first. The first of
 three tests (the cutoff, the full spectrum, the level) was sealed at 68c1b809, before any computation, with a prior of STABLE
@@ -15702,3 +15702,21 @@ thing.
   Higgs field dies off and the broken symmetry returns, and a definite count is a statement about their completion.
 
 Lock: `tests/test_b1392_the_ends_carry_the_chirality.py`. 0 of 19.
+
+**The fast lane on B1392's tree (56c25699):** 9 failed, 6 322 passed, 52 skipped in 54 m. The nine are exactly the known baseline
+(B1390's run); nothing new.
+
+## 2026-09-28 — The kill tests written up (`docs/THE_KILL_TESTS_2026-09-27.md`)
+
+One page for the owner on the four kill tests of the chirality mechanism (B1388–B1391) and what joins them (B1392).
+- **The outcomes.** The cutoff: UNSTABLE. The full spectrum: MIXED. The three: no protected, non-pullback three in m004's class. The
+  Yukawas: NEGATIVE for ratios; the geometry gives a flavour group.
+- **What joins them.** The chirality lives at the free cusps, where the problem is not Fredholm; a class alive at every cusp counts 0.
+- **Along the way.** The family is not the class (E4), and the "2 + 1" symmetry is common (115 of 184).
+- **Where physics has to enter.** The completion of the free cusps (sL-8), the level (sL-5), the Higgs sector's breaking of the flavour
+  group.
+- **The next step.** Candidate completions of the free cusps, each sealed and tested against CPT, the anomaly (B1389 §7) and the count.
+
+The occasion lines of B1388–B1391's FINDINGS, B1388's heading here and one line of the letter now name the kill tests plainly, and
+two check-in lines (B1387 §4, and B1386's entry here) now read as status lines. The sealed preregistrations are untouched: their
+digests are in the SEAL_LEDGER. 0 of 19.

@@ -8141,6 +8141,7 @@
     "trace_map",
     "eisenstein",
     "z3_generation",
+    "amphichiral_cp",
     "torsion"
    ],
    "refs": [
@@ -8153,7 +8154,7 @@
    "obstacle": "cancellation",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B1391": {
    "slug": "the generations flavour",
@@ -8161,7 +8162,8 @@
     "coupling",
     "eisenstein",
     "golden",
-    "z3_generation"
+    "z3_generation",
+    "amphichiral_cp"
    ],
    "refs": [],
    "obstacle": "particle_dict",

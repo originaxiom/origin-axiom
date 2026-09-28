@@ -1,6 +1,6 @@
 # B1390 — THE EISENSTEIN AXES: in m004's commensurability class, an isometry of order 3 or 6 fixes only arcs running from cusp to cusp. So an order-3 symmetry that rotates no cusp acts freely, and sL-7's clean target (an order-3 symmetry whose fixed geodesics are all closed) does not exist in the class. Every three there is a pullback of a one, or rests on rotation residues that cancel mod 3. Order 4 fixes only closed geodesics, and every other order above 2 acts freely. The instrument that checks this on 283 arithmetic members finds the one exception in B1186's family on a non-arithmetic member. 13 of B1186's 112 are non-arithmetic, so B1186's family is not the commensurability class (a correction of record).
 
-**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** test 3 of the owner's "how do we continue bravely".
+**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** test 3 of the kill tests on the chirality mechanism.
 sL-7's re-posing (7fc93d95) named the clean target, "an order-3 symmetry whose fixed geodesics are all closed", as the next computable
 step toward three. Designing its search, the target was found to be excluded by arithmetic. · **Status:** PROVED (the theorem; exact)
 · COMPUTED (the fixed sets on 283 arithmetic members and 13 non-arithmetic ones; exact combinatorics on SnapPy's canonical

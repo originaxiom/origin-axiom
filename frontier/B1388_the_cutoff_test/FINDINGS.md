@@ -1,6 +1,6 @@
 # B1388 — THE CUTOFF TEST (kill test 1, sealed): UNSTABLE. The sealed count on cube~3.24 depends on where the cusps are cut, so, as sealed, the physical reading of B1386/B1387 is retired. After the seal, the anatomy: the sealed count (a relative index at the cut) and the signed number of Higgs zeros are different things that agree only far up the cusps. B1387's +2 is exactly minus the signed number of Higgs zeros on the whole manifold. All six zeros near the Eisenstein cusps lie on the surface equidistant from them, three of them exactly where the two cusp neighbourhoods first touch. So on every cut that respects the manifold's symmetry no zero is lost and the zero count stays +2, while the relative index still dips to −4 in a thin window.
 
-**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** the owner's "how do we continue bravely"; the answer
+**Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** the owner's question of how to continue; the answer
 adopted was to try to break the one positive result before building on it · **Seal:** `PREREGISTRATION.md`, committed and pushed
 at 68c1b809 before any height-dependent partition was computed; sha256 in `docs/SEAL_LEDGER.md` · **Status:** NEGATIVE, as sealed,
 for the physical reading; the mathematics of B1386/B1387 unchanged; the post-seal anatomy (§3) is unsealed and banked as computation,
@@ -236,7 +236,7 @@ relative index is −4 in [0.1791, 0.1867). Asymmetric cuts move both.
 
 ## 5. What it means
 
-- **The brave test came back negative, and the negative is banked as sealed.** The seat's count, a relative index at the cut, moves
+- **The kill test came back negative, and the negative is banked as sealed.** The seat's count, a relative index at the cut, moves
   with the cut. The physical reading of B1386/B1387 is retired as sealed.
 - **The negative has an anatomy, and it is informative.**
   - Far up the cusps the relative index and the zero count agree. There B1387's +2 is intrinsic: two more index-1 than index-2
@@ -273,7 +273,7 @@ relative index is −4 in [0.1791, 0.1867). Asymmetric cuts move both.
   the total.
 - **Admissibility.** Computed from SnapPy's cusp neighbourhoods. The joint constraint is between cusps 0 and 3, with cusps 1 and 2
   shrunk. Cusps 1 and 2 contribute nothing at any height.
-- **The motivation.** The owner's "continue bravely". Nothing rests on a philosophical premise.
+- **The motivation.** The owner's request for kill tests. Nothing rests on a philosophical premise.
 
 ## 7. Files
 
