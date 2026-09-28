@@ -3215,5 +3215,15 @@ component of dF there. The natural suspect is a hidden symmetry.
 
 This job is not optional, whichever answers the first two questions get. `frontier/B1389_the_full_spectrum`.
 
+**Status (2026-09-27, B1392): question 1 has no answer on the complete manifold.**
+- **Sealed ends.** A cusp where the Higgs class does not vanish is sealed. There |ω| grows like h, the deformed problem is well-posed,
+  and the end adds nothing to either count.
+- **Free ends.** A cusp where the class vanishes (B1369's free cusp) keeps the 1-form continuum [0, ∞) (Δ(hˢ dx) = −s² hˢ dx) and
+  carries the whole count.
+- **The no-go.** A class sealing every cusp is Fredholm with N = 0. So N ≠ 0 forces a non-Fredholm end, and "which count" is a
+  question about what completes the free cusps.
+- **The candidates to seal and test.** A conical point at each free cusp, where the Higgs field also vanishes, as at its zeros. A
+  physical wall at a cut. A Dehn filling, which kills the count (B1351). `frontier/B1392_the_ends_carry_the_chirality`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

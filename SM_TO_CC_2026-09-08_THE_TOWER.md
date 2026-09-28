@@ -837,3 +837,15 @@ isometries act on the generations with Lefschetz numbers as characters.
 
 So the geometry gives a flavour group, S₃, and nothing about the ratios. For your paper's list of what the object does not fix, this
 adds that the Yukawa hierarchy is, at best, a symmetry-breaking effect of undetermined size. 0 of 19.
+
+## Fifty-fourth note (2026-09-27): why the count moved with the cut (B1392)
+
+For your paper's chirality section, and your S17 question about the boundary definition.
+- **Where the chirality lives.** In this frame it lives only at cusps where the Higgs class vanishes. At every other cusp the Higgs
+  field grows like the height, the problem is well-posed there, and the end contributes nothing.
+- **The consequence.** A Higgs class that seals every cusp gives a clean, Fredholm answer, and the answer is zero. A non-zero count
+  forces an end whose continuum starts at 0 (Δ(hˢ dx) = −s² hˢ dx), so on the complete manifold the question has no answer.
+- **Where the definition must come from.** From what completes those ends. They are the ends where the Higgs field dies away and the
+  broken symmetry returns, and the ones that must carry the 78's anomaly.
+
+`frontier/B1392_the_ends_carry_the_chirality`. 0 of 19.

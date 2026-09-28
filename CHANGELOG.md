@@ -1,5 +1,17 @@
 # Changelog
 
+## B1392 — the ends carry the chirality: a cusp where the Higgs class does not vanish is sealed (well-posed, contributes nothing); one where it vanishes keeps the continuum [0, ∞) and carries the count; so N ≠ 0 forces a non-Fredholm end
+
+The canonical harmonic representative (bounded primitive) is α_c + (exponentially small) at each cusp.
+- **Sealed cusps** (α_c ≠ 0). |ω| = h|α_c| and |∇ω|/|ω|² = √2/(h|α_c|). The Witten potential grows like h², so the end adds no essential
+  spectrum and no Higgs zero (Φ_c = 0).
+- **Unsealed cusps** (B1369's free ones). The perturbation decays there, and the 1-form continuum survives. It starts at 0:
+  Δ(hˢ dx) = −s² hˢ dx, which derives B1388's premise.
+- **The no-go.** A class sealing every cusp is Fredholm with N = 0. Chirality needs a free cusp, and there the problem is not Fredholm.
+- **Members.** On the 99 arithmetic members plus cube~3.24, every peripheral rank is ≥ 1, so a generic class seals everything. There
+  are 86 free cusps on 35 members.
+- **For sL-8.** "Which count" has no answer internal to the complete manifold: it is the completion of the free cusps. 0 of 19.
+
 ## B1391 — the generations' flavour (test 4, structural): on cube~3.24 the frame's two generations are D₃'s doublet, so at the symmetric point they are exactly degenerate; the pullback three carries B1362's circulant degeneracy; the geometry supplies a flavour group, not the Yukawa ratios
 
 The frame's generations carry the isometries' action, with character given by Lefschetz numbers of the pair (M_T, ∂⁺M_T). On

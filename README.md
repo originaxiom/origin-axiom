@@ -330,6 +330,10 @@ emitted value. The structure is the object's; the values are the observer's.
 > *And (B1391), the Yukawas at the level of symmetry: the member's two generations form a doublet of its symmetry group, so at the
 > symmetric point they have exactly equal masses. The geometry supplies a flavour symmetry, S₃, but not the mass ratios. Those need
 > the symmetry broken, and nothing here says by how much.*
+>
+> *And (B1392), why the count moved with the cut: in this frame chirality lives only at the ends where the Higgs field dies away.
+> Those are exactly the ends where the problem is not well-posed. A Higgs field that stays alive at every end gives a clean
+> answer, and the answer is zero. So the physics must come from what completes those ends.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

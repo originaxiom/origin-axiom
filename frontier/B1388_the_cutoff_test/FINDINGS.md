@@ -254,6 +254,12 @@ relative index is −4 in [0.1791, 0.1867). Asymmetric cuts move both.
 - **The other two tests come after the definition.** Until sL-8 says which count is physical, a spectrum per completion (test 2) or a
   level (test 3) cannot be read.
 
+> **Currency (2026-09-27, B1392): the premise derived and generalised.**
+> - The 1-form continuum at a cusp starts at 0 (Δ(hˢ dx) = −s² hˢ dx on the L² borderline). The count is carried only by cusps where
+>   the Higgs class vanishes, which are exactly the ends that keep this continuum.
+> - A class sealing every cusp is Fredholm with N = 0.
+> - So the cut dependence found here is the general situation, not a feature of cube~3.24. `frontier/B1392_the_ends_carry_the_chirality`.
+
 ## 6. Fences
 
 - **The frame.** The seat's, spin-0 half. The sealed test concerns the relative index. The zero count is a second definition,

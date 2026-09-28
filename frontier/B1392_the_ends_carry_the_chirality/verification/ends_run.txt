@@ -1,0 +1,20 @@
+=== (A) the cusp, symbolically: g = (dx^2 + dy^2 + dh^2)/h^2 ===
+  closed                       True
+  coclosed                     True
+  norm^2                       h**2*(a**2 + b**2)
+  coclosed dh-forms            C1*h
+  Delta h^s / h^s              -s*(s - 2)
+  harmonic exponents           [0, 2]
+  L2 exponents                 [0]
+  |nabla omega|^2              2*h**2*(a**2 + b**2)
+  |nabla omega| / |omega|^2    sqrt(2)/(h*sqrt(a**2 + b**2))
+  Delta_H(h^s dx) / (h^s dx)   -s**2
+  continuum: -s^2 at s = i nu  nu**2
+  -> an unsealed cusp keeps the undeformed 1-form continuum [0, oo): Delta_H(h^s dx) = -s^2 h^s dx on the L^2 borderline Re s = 0 -- the problem is not Fredholm there (B1388's premise, derived).
+  -> a sealed cusp (alpha_c != 0): |omega| = h |alpha_c|, and the Hessian term is O(1/h) of the potential: T^2|omega|^2 -> oo.
+
+=== (C) the members: per cusp, the rank of its peripheral image (unsealed classes: dimension b_1 - rank) ===
+  100 members (99 arithmetic census members + cube~3.24): 169 cusps; minimum peripheral rank 1, so a generic class seals every cusp; free cusps (a class can leave them unsealed) 86, on 35 members
+  cube~3.24: b_1 5, ranks [2, 1, 1, 2] -> the classes unsealed at every cusp: dimension b_1 - (the joint rank) = the cuspidal line (v+, B1386)
+DONE
+EXIT 0

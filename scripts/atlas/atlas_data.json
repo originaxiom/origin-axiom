@@ -8068,7 +8068,8 @@
    "motifs": [
     "choice",
     "eisenstein",
-    "golden"
+    "golden",
+    "amphichiral_cp"
    ],
    "refs": [
     "L4",
@@ -8165,6 +8166,24 @@
    "refs": [],
    "obstacle": "particle_dict",
    "obstacle_conf": 33,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1392": {
+   "slug": "the ends carry the chirality",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
   },

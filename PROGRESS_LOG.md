@@ -15683,3 +15683,22 @@ So the symmetric geometry supplies a flavour group, not ratios. Test 4, as posed
 
 **The fast lane on B1390's tree (57d2bcdf):** 9 failed, 6 315 passed, 52 skipped in 1 h 02 m. The nine are exactly the known baseline
 (B1389's run, less B833's routing failure, which the routing of B1388 fixed); nothing new.
+
+## 2026-09-27 — B1392: the ends carry the chirality (sL-8's first question, sharpened)
+
+B1388 blamed the cut dependence on the continuum at the cusps. B1369 found that a generation needs a free cusp. They are the same
+thing.
+- **The representative.** Every Higgs class has one harmonic representative with a bounded primitive in every cusp,
+  ω = α_c + (exponentially small).
+- **Sealed cusps** (α_c ≠ 0). |ω| grows like h|α_c| while the Hessian term is smaller by √2/(h|α_c|). So the deformed Laplacian's
+  potential seals the end: no essential spectrum, no Higgs zero, nothing in the count.
+- **Unsealed cusps** (α_c = 0). The Higgs field decays, the perturbation is relatively compact, and the 1-form continuum survives. It
+  starts at 0: Δ(hˢ dx) = −s² hˢ dx on the L² borderline Re s = 0, so B1388's premise is now derived.
+- **The no-go.** A class that seals every cusp gives a Fredholm problem with N = 0 (Witten's localization, then Morse's boundary
+  formula). So N ≠ 0 needs a free cusp, where the problem is not Fredholm: chirality and a well-posed problem exclude each other.
+- **Members.** On the 99 arithmetic members plus cube~3.24, every peripheral rank is ≥ 1, so a generic class seals every cusp. There
+  are 86 free cusps on 35 members.
+- **The consequence for sL-8.** Its first question has no answer on the complete manifold: the count lives at the ends where the
+  Higgs field dies off and the broken symmetry returns, and a definite count is a statement about their completion.
+
+Lock: `tests/test_b1392_the_ends_carry_the_chirality.py`. 0 of 19.

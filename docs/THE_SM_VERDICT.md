@@ -758,3 +758,13 @@ left it.
 >   size the geometry does not give.
 >
 > 0 of 19 (`frontier/B1391_the_generations_flavour`).
+
+> **Currency note (2026-09-27, B1392): the chirality is an end effect.**
+> - A cusp where the Higgs class does not vanish is sealed: the Higgs field grows like the height, the problem is well-posed there, and
+>   the end contributes nothing.
+> - The count lives only at free cusps, where the Higgs field dies off. There the continuum survives, from 0 (Δ(hˢ dx) = −s² hˢ dx),
+>   so N ≠ 0 forces a non-Fredholm end.
+> - sL-8's "which count" is therefore a question about what completes the free cusps, the same ends that must carry B1389's
+>   anomaly.
+>
+> 0 of 19 (`frontier/B1392_the_ends_carry_the_chirality`).
