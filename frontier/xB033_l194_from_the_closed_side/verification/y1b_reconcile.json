@@ -1,0 +1,17 @@
+{
+ "n_loose": 37,
+ "n_strict": 36,
+ "off_zero_loose": [],
+ "off_zero_strict": [],
+ "extra_rows": [
+  [
+   "v2678(2,1)",
+   0.0,
+   "zero",
+   false
+  ]
+ ],
+ "max_abs_folded": 3.7982270983039195e-64,
+ "b1239_reported": 37,
+ "reconciled": true
+}

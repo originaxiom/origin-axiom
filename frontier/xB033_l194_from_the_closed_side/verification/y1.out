@@ -1,0 +1,26 @@
+
+Y1       CLOSED, AMPHICHIRAL -> cs = 0 (mod 1/2)?   THE QUARTER CLASS SHOULD BE EMPTY
+           ... 100 scanned, amph 1, control 99
+           ... 200 scanned, amph 3, control 197
+           ... 300 scanned, amph 7, control 293
+           ... 400 scanned, amph 8, control 392
+         scanned 11031 closed census manifolds; errors 0; non-amphichiral CONTROL SAMPLE capped at N_CONTROL=400 (declared, not silent)
+         AMPHICHIRAL     : 36  class distribution {'zero': 36}
+         NON-amphichiral : 400  class distribution {'other': 395, 'zero': 5}
+         amphichiral members with cs != 0 (mod 1/2): 0  []
+         first amphichiral rows (name, cs, folded, class):
+           m034(-4,1)       cs=-0.0000000000  folded=+0.0000000000  zero
+           m082(1,3)        cs=-0.0000000000  folded=+0.0000000000  zero
+           m078(5,1)        cs=-0.0000000000  folded=+0.0000000000  zero
+           m168(2,3)        cs=-0.0000000000  folded=+0.0000000000  zero
+           m100(2,3)        cs=-0.0000000000  folded=+0.0000000000  zero
+           m188(2,3)        cs=-0.0000000000  folded=+0.0000000000  zero
+         NEGATIVE CONTROL -- non-amphichiral cs values SPREAD off zero: True
+         VACUITY CONTROL -- at least 20 amphichiral members: True (36)
+         *** THE PREDICTION HOLDS: every closed amphichiral member is at class ZERO,
+         and the QUARTER CLASS IS EMPTY -- while the non-amphichiral ones spread.
+         The derivation needed NO eta and NO APS: only the modulus and cs(M*) = -cs(M).
+Y1 PASS  (content is the verdict above)
+
+==============================================================================
+ALL CELLS PASSED

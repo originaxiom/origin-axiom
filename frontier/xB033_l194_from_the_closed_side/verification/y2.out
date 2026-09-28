@@ -1,0 +1,10 @@
+
+Y2       THE CUSPED CONTRAST, re-measured (xB023 banked 106 zero / 75 quarter / 0 other)
+         amphichiral one-cusped: {'zero': 106, 'quarter': 75, 'other': 0}; errors 0
+         xB023 banked           : {'zero': 106, 'quarter': 75, 'other': 0}
+         reproduces xB023 exactly: True
+         THE QUARTER CLASS IS NON-EMPTY IN THE CUSPED CASE: True
+Y2 PASS
+
+==============================================================================
+ALL CELLS PASSED

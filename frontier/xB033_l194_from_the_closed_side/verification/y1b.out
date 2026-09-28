@@ -1,0 +1,13 @@
+Y1b      scanned 11031 closed census manifolds; errors 0
+         B1239's predicate  is_amphicheiral()                     : 37
+         Y1's predicate     is_full_group() AND is_amphicheiral() : 36
+         at class ZERO -- B1239's set: 37/37   Y1's set: 36/36
+         off zero: B1239's set []   Y1's set []
+         in B1239's set but NOT in Y1's (is_full_group() False): 1 -> [('v2678(2,1)', 'zero')]
+         Y1's 36 is a SUBSET of B1239's 37: True
+         max |folded cs| over B1239's set: 3.798e-64  (B1239 reported 7.8e-16)
+
+         *** RECONCILED EXACTLY: B1239's 37 amphichiral / 37 zero REPRODUCES on this
+         bench 26 days later, and Y1's 36 is the same set minus the one manifold whose
+         symmetry group is not certified full.  NO DISCREPANCY -- a predicate difference,
+         and B1239's predicate was the better one.

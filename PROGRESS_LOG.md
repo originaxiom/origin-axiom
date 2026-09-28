@@ -17883,3 +17883,58 @@ read their contents** and that **escalation is not closure**. Counterparties: `c
 `zai`, `fab5cloud`, `fc`, `all_seats`; **oldest 31 days.** **That seven lanes have gone 22–31 days
 without reply is a fact about the lane, not the memos, and it belongs in the decadal review — which
 is itself 116 merges overdue. The two facts are probably the same fact.**
+
+## xB033 (2026-09-28) — the headline is this arc's own process failure: the claim was banked 26 days earlier, in the very lead it was reading, one line past where it stopped reading
+
+**PREREGISTRATION sealed at `0721f678`.** Picking up the closed-side move this seat proposed after
+xB023 Addendum 2 and never ran.
+
+**WHAT WENT WRONG.** The seal derived and set out to test *"for a closed amphichiral hyperbolic
+3-manifold `cs ≡ 0 (mod ½)`; the quarter class cannot occur."* **B1239 banked exactly that on
+2026-09-02**, and it is written into **`L194` itself** as the *"Refined 2026-09-02 (B1239)"* paragraph.
+**This seat read `L194` with a fixed 15-line window that ended ONE LINE BEFORE that paragraph.**
+`already_banked.py` exists on this bench and the seal did not run it. **Second failure of this shape
+in the session** — xB029 leaned on Friedmann–Witten while filing them CITED-UNREAD in the same commit.
+**Both are: the information needed was present and not looked at. A fixed-line window is not reading a
+lead.**
+
+**WHAT SURVIVES, and it is modest.**
+
+**(1) Reproduction, 26 days later, 48 orders tighter.** 11 031 closed census manifolds, 0 errors;
+under B1239's own predicate **37 amphichiral / 37 zero**, reproducing it exactly, at
+**`max |folded cs| = 3.8 × 10⁻⁶⁴`** against B1239's reported **`7.8 × 10⁻¹⁶`**. The tightening is
+`ManifoldHP`, not an idea.
+
+**(2) A predicate correction, against this arc and in B1239's favour.** Y1 required
+`is_full_group() AND is_amphicheiral()` → **36**; B1239 required only `is_amphicheiral()` → **37**.
+**B1239 was right.** `is_full_group() == False` permits a **false negative**, so requiring it can
+**exclude a genuinely amphichiral manifold** and tests a **weaker** statement. The manifold at issue is
+**`v2678(2,1)`**, at class zero; Y1's 36 ⊂ the 37.
+
+**(3) Two more inputs stripped.** B1239 reached the statement through **APS** (`3η ≡ 2cs + τ mod 2`)
+with `η = 0`, having already stripped Kawauchi and freeness. **It needs neither APS nor `η` either:**
+`cs` mod 1 for closed (CGHN §5A) plus `cs(M*) = −cs(M)` gives `cs ≡ −cs (mod 1)` ⟹ `2cs ≡ 0 (mod 1)` ⟹
+`cs ∈ {0, ½}` ⟹ **`cs ≡ 0 (mod ½)`**. **No `η`, no APS, no `τ`.**
+**THE WEAKEST LINK, NAMED:** `cs(M*) = −cs(M)` is **USED-NOT-READ** — xB021 (A6/A7) and xB023 (W0) rely
+on it and **no arc quotes a source.** The derivation rests on it entirely, and B1239's rests on the `η`
+analogue; **neither is read at source.**
+
+**(4) The contrast, quantified — the MODULUS does the work.** Closed: `cs` mod **1** ⟹ `{0, ½}` ⟹
+**quarter class EMPTY, 0 of 37.** Cusped: `cs` mod **½** ⟹ `{0, ¼}` ⟹ **quarter class NON-EMPTY, 75 of
+181** (Y2 reproduces xB023 exactly: `{zero: 106, quarter: 75, other: 0}`, 0 errors). **B1239 already
+called the ¼ class "cusp-local"; this adds the reason — `π²` versus `2π²`.**
+
+**(5) The negative control that makes the closed number mean something.** Of **400** non-amphichiral
+closed manifolds (a **declared** bounded sample), **395 at class "other", 5 at zero** — base rate
+**1.25 %**. Against that, 37 of 37 is not something the census produces by accident.
+
+**L194 is unchanged and still open** — it concerns **cusped** manifolds with a **free** deck, where
+amphichirality alone permits `¼`, and B1239 already localised it to *"an orientation-reversing isometry
+acting freely on every cusp it preserves."* **Nothing here touches that.**
+
+**Prior: Y1, Y2, Y3 all correct and all beside the point. The prior missed the only question that
+mattered — whether the arc was necessary at all. Its stated best outcome was "that the record stops
+treating the ¼ class as a phenomenon about manifolds when it is a fact about a modulus"; the record had
+stopped 26 days ago.**
+
+**Gate 5 absolute. No value. Nothing to `CLAIMS.md`.**

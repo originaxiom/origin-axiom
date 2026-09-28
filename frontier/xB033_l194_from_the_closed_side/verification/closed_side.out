@@ -1,0 +1,31 @@
+
+Y1       CLOSED, AMPHICHIRAL -> cs = 0 (mod 1/2)?   THE QUARTER CLASS SHOULD BE EMPTY
+Traceback (most recent call last):
+  File "/home/user/origin-axiom/frontier/xB033_l194_from_the_closed_side/verification/closed_side.py", line 152, in <module>
+    res[k] = bool(f())
+                  ^^^
+  File "/home/user/origin-axiom/frontier/xB033_l194_from_the_closed_side/verification/closed_side.py", line 68, in Y1
+    k = klass(cs)
+        ^^^^^^^^^
+  File "/home/user/origin-axiom/frontier/xB033_l194_from_the_closed_side/verification/closed_side.py", line 26, in klass
+    y = fold_half(x)
+        ^^^^^^^^^^^^
+  File "/home/user/origin-axiom/frontier/xB033_l194_from_the_closed_side/verification/closed_side.py", line 19, in fold_half
+    y = mp.mpf(x) - h * mp.floor(mp.mpf(x) / h)
+        ^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/mpmath/ctx_mp_python.py", line 79, in __new__
+    v._mpf_ = mpf_pos(cls.mpf_convert_arg(val, prec, rounding), prec, rounding)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/mpmath/ctx_mp_python.py", line 98, in mpf_convert_arg
+    raise TypeError("cannot create mpf from " + repr(x))
+TypeError: cannot create mpf from 0.06004306668
+
+Y2       THE CUSPED CONTRAST, re-measured (xB023 banked 106 zero / 75 quarter / 0 other)
+         amphichiral one-cusped: {'zero': 106, 'quarter': 75, 'other': 0}; errors 0
+         xB023 banked           : {'zero': 106, 'quarter': 75, 'other': 0}
+         reproduces xB023 exactly: True
+         THE QUARTER CLASS IS NON-EMPTY IN THE CUSPED CASE: True
+Y2 PASS
+
+==============================================================================
+NOT ALL CELLS PASSED

@@ -1,5 +1,26 @@
 # Changelog
 
+## xB033 — an arc whose claim was already banked, and the reading failure that produced it
+
+The seal set out to prove that a closed amphichiral hyperbolic 3-manifold has `cs ≡ 0 (mod ½)`.
+**B1239 banked that on 2026-09-02, and it sits inside `L194` as its own refinement paragraph — one line
+past where this seat's 15-line read window stopped.** `already_banked.py` was not run. **A fixed-line
+window is not reading a lead**, and this is the session's second instance of the same shape.
+
+**What survives.** Reproduction of B1239's **37 amphichiral / 37 zero** on the full closed census, at
+**3.8 × 10⁻⁶⁴** against its reported **7.8 × 10⁻¹⁶** (`ManifoldHP`, not an idea). A **predicate
+correction against this arc**: requiring `is_full_group()` gave 36 and was over-strict — it can exclude
+a genuinely amphichiral manifold (`v2678(2,1)`) and tests a weaker statement; B1239's looser predicate
+was the right one. And **two inputs stripped**: the closed statement needs **neither APS nor `η`** —
+`cs` mod 1 plus `cs(M*) = −cs(M)` gives it directly. **That law is USED-NOT-READ in this record and is
+named as the weakest link.**
+
+**The contrast, quantified:** closed `cs` is mod 1 so `¼` **cannot** occur (0 of 37); cusped `cs` is
+mod ½ so it **can** (75 of 181, reproducing xB023 exactly). **The dichotomy is the modulus — `π²` vs
+`2π²`.** Negative control: 395 of 400 non-amphichiral closed manifolds sit off zero.
+
+**L194 unchanged and still open. Gate 5 absolute.**
+
 ## `relay-debt` repaired — the gate's fourth invisibility, and the first fix that is not a wider pattern
 
 Escalating 29 stale relay debts exposed **three silent holes in the gate**: a disposition outside

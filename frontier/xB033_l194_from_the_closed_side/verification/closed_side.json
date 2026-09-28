@@ -1,0 +1,16 @@
+{
+ "cells": {
+  "Y2": true
+ },
+ "results": {
+  "Y2": {
+   "cusped_dist": {
+    "zero": 106,
+    "quarter": 75,
+    "other": 0
+   },
+   "errors": 0,
+   "reproduces_xB023": true
+  }
+ }
+}
