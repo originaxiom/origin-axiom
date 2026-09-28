@@ -1,5 +1,35 @@
 # Changelog
 
+## B1398 — the frame's verdict on three: the seat's frame cannot give three generations with any completion on the record's menu; B1399 sealed: the rank-two Higgs, the one escape the frame's rule leaves
+
+- **The verdict (NEGATIVE; proved, and computed exactly with B1389's vectors).** In 7d E₆ super-Yang–Mills on m004's class, with the
+  geometric SL(2)_β twist and an abelian Higgs field of any rank:
+  - every 10-type weight of the 78 is an SL(2)_β doublet (40 of 40), and the frame's rule gives doublets 0 (B1372's Lemma A), so its
+    count never holds a 10;
+  - the 78's spin-0 sectors form three (Y, γ) direction classes with an anomaly matrix of rank 3, so the count is anomaly-free only
+    when it vanishes, for any rank;
+  - caps give 10s in pairs, and every exotic-free, anomaly-free combination has g = 2d, twice the caps' γ-flux: even, and zero for a
+    bulk flux (B1397 §7).
+- **The escape.** With 27 matter (F27+78, or F133 with the Higgs field in the (Y, γ) plane) there are six classes and the anomaly matrix
+  has rank 5. Exactly one family remains: g complete generations at N = g(1, 0, −1, 0, 1, −2). It takes two absolute values, so no
+  rank-one Higgs field gives it. The other escapes need the 27 as well, plus non-abelian data or independent walls.
+- **B1399, sealed before any harmonic form of its census is computed.** Do two independent cuspidal classes on a member of m004's class
+  give the pattern stably?
+  - Proved at seal: on a circle of directions the count changes only at the critical values of each cusp's angle map, one step at a
+    time, so three generations need at least 36 breakpoints. In cuspidal dimension 2 the question is a finite union of exact linear
+    programs. The breakpoint rule was checked on synthetic shells: no mismatch in 720 directions.
+  - The census: the covers of degree 2 and 3 of B1186's 99 arithmetic members with cuspidal dimension at least 2, 109 up to isometry.
+    Banked identity: cube~3.24's count of +2.
+  - P1, three generations on any member: prior NONE, about 85%. P2, any number of generations: prior NONE, about 60%. The run waits for
+    the owner.
+- **Self-caught, recorded.**
+  - The instrument's first draft truncated fractional counts before the linear algebra. It was fixed before any result was read, and
+    is logged as an E5 instance.
+  - The preregistration's first draft sampled 3 600 directions per circle, which the dimension-3 planes could not afford. It was
+    replaced before sealing by the exact breakpoints.
+
+Lock: `tests/test_b1398_the_frame_verdict_on_three.py`. B1398 routed into the kill graph. No physics crossed. 0 of 19.
+
 ## B1397 scope narrowed the same day (E65 instance, self-caught): a bulk flux sums to zero over the cusps; B1397 routed into the kill graph
 
 - **The constraint.** For a bulk U(1) field the flux degrees on the cusp tori sum to zero: the exact sequence of the pair ends in the

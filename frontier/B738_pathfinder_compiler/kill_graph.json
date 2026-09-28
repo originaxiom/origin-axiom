@@ -11015,5 +11015,17 @@
   "revival_score": null,
   "note": "ROUTED at banking time (2026-09-28, with the same-day scope of §7), in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading (three generations from flux caps in the E6 frame): a cap whose chirality is not linear in the charges yet anomaly-free, or a net flux sourced without the frame's anomalous count -- for example non-abelian T-brane Higgs data at the cusps, or caps carrying fields independent of the bulk in a frame with E7's U(1).",
   "routed_from": "sm-branch-2026-09-28-banking"
+ },
+ {
+  "id": "B1398",
+  "claim_killed": "THE FRAME'S VERDICT ON THREE (the owner's goal, 2026-09-28): in the seat's frame -- 7d E6 super-Yang-Mills on m004's class, SL(2)_beta's geometric representation, an abelian Higgs field phi = Y (x) w1 + gamma (x) w2 of any rank -- no completion on the record's menu (the frame's rule: free-cusp ends, flip walls, the lane's sources, Higgs zeros; caps; charge-blind ends and fillings; any combination) gives an anomaly-free chiral spectrum with three generations. (1) Every 10-type weight of the 78 is an SL(2)_beta doublet (40 of 40), and the frame's rule gives doublets 0 (B1372 Lemma A), so the frame's count never contains a 10. (2) The 78's spin-0 non-SM sectors form three (Y, gamma)-direction classes and the anomaly matrix has rank 3: for any odd count function N (any rank) the frame's count is anomaly-free only if zero. (3) Caps give 10s in pairs (two generations per unit gamma-flux). (4) Every combination of frame-rule counts and caps with flux cY + d gamma that is exotic-free and anomaly-free has c = 0, frame-rule counts zero and g = 2d: even, and zero for a bulk flux (B1397 section 7). The escape, located: with 27 matter (F27+78; the E7 frame with the Higgs in the (Y, gamma) plane) the frame's rule has six direction classes (parallels Q(27) || H_u(78), D(27) || L(78)), the anomaly matrix rank 5, and exactly one anomaly-free family, g complete generations with N = (3, 0, -3, 0, 3, -6) at g = 3 on the classes ((1,-4), (1,0), (1,1), (1,6), (3,-2), (3,8)); it takes two absolute values, so no rank-one Higgs gives it. The smallest escape is therefore 27 matter with a rank-two abelian Higgs (the other escapes need 27 matter too, plus non-abelian data or independent walls); its test is B1399, sealed. Exact, with the record's vectors; the content taken linearly in rational counts (a truncation bug caught before use). No physics crossed. 0 of 19.",
+  "kill_form": "unrouted-unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": null,
+  "priority": "UNTRIAGED",
+  "revival_score": null,
+  "note": "ROUTED at banking time (2026-09-28), in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading (three generations in the seat's own frame): a completion outside the record's menu, or a count rule that makes SL(2)_beta doublets chiral (B1372's door 2); within the menu, the escape is 27 matter with a rank-two abelian Higgs field, tested by B1399.",
+  "routed_from": "sm-branch-2026-09-28-banking"
  }
 ]

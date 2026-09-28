@@ -812,3 +812,14 @@ left it.
 > degrees on the cusp tori sum to zero, so caps carrying one bulk flux are vector-like in total, and m004's single cusp carries none. A
 > net count needs a source for the flux: monopole points or non-abelian T-brane data in the bulk, or caps with their own fields. The frame's natural sources carry
 > its anomalous count. In the E₆ frame the no-three statement stands, and is stronger. 0 of 19.
+
+> **Currency note (2026-09-28, B1398, B1399): the seat's frame cannot give three generations; the one escape its rule leaves is
+> sealed.**
+> - In 7d E₆ super-Yang–Mills with the geometric SL(2)_β twist and an abelian Higgs field of any rank, no completion on the record's
+>   menu, alone or combined, gives an anomaly-free chiral spectrum with three generations. The 78's 10s are all SL(2)_β doublets, which
+>   the frame's rule never makes chiral; its count is anomaly-free only when zero; every anomaly-free combination with caps has an even
+>   number of generations, zero for a bulk flux.
+> - With 27 matter the rule admits one anomaly-free family, g generations at N = g(1, 0, −1, 0, 1, −2) on six direction classes, which
+>   needs a rank-two Higgs field. B1399 tests whether a member of m004's class gives it, sealed and not run.
+>
+> 0 of 19 (`frontier/B1398_the_frame_verdict_on_three`, `frontier/B1399_the_rank_two_higgs`).

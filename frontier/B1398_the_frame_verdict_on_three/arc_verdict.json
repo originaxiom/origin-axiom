@@ -1,0 +1,22 @@
+{
+ "id": "B1398",
+ "verdict": "NEGATIVE",
+ "instrument": true,
+ "depends_on": [
+  "B1397",
+  "B1396",
+  "B1395",
+  "B1393",
+  "B1389",
+  "B1388",
+  "B1372",
+  "B1368",
+  "B1351"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE FRAME'S VERDICT ON THREE (the owner's goal, 2026-09-28): in the seat's frame -- 7d E6 super-Yang-Mills on m004's class, SL(2)_beta's geometric representation, an abelian Higgs field phi = Y (x) w1 + gamma (x) w2 of any rank -- no completion on the record's menu (the frame's rule: free-cusp ends, flip walls, the lane's sources, Higgs zeros; caps; charge-blind ends and fillings; any combination) gives an anomaly-free chiral spectrum with three generations. (1) Every 10-type weight of the 78 is an SL(2)_beta doublet (40 of 40), and the frame's rule gives doublets 0 (B1372 Lemma A), so the frame's count never contains a 10. (2) The 78's spin-0 non-SM sectors form three (Y, gamma)-direction classes and the anomaly matrix has rank 3: for any odd count function N (any rank) the frame's count is anomaly-free only if zero. (3) Caps give 10s in pairs (two generations per unit gamma-flux). (4) Every combination of frame-rule counts and caps with flux cY + d gamma that is exotic-free and anomaly-free has c = 0, frame-rule counts zero and g = 2d: even, and zero for a bulk flux (B1397 section 7). The escape, located: with 27 matter (F27+78; the E7 frame with the Higgs in the (Y, gamma) plane) the frame's rule has six direction classes (parallels Q(27) || H_u(78), D(27) || L(78)), the anomaly matrix rank 5, and exactly one anomaly-free family, g complete generations with N = (3, 0, -3, 0, 3, -6) at g = 3 on the classes ((1,-4), (1,0), (1,1), (1,6), (3,-2), (3,8)); it takes two absolute values, so no rank-one Higgs gives it. The smallest escape is therefore 27 matter with a rank-two abelian Higgs (the other escapes need 27 matter too, plus non-abelian data or independent walls); its test is B1399, sealed. Exact, with the record's vectors; the content taken linearly in rational counts (a truncation bug caught before use). No physics crossed. 0 of 19."
+}

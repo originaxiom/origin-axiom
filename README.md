@@ -354,6 +354,12 @@ emitted value. The structure is the object's; the values are the observer's.
 > proportional to its charge. That keeps the theory consistent, but in the record's own symmetry group, E₆, the number of families it
 > gives is always even. Three would need the larger group E₇, and even there the number three is put in by hand. And a flux carried
 > by the bulk field cannot do it alone: its fluxes through the cusps add up to zero, so something else has to source it.*
+>
+> *And (B1398, B1399), the verdict on the seat's frame. With the record's own ingredients (E₆, the geometric twist, a Higgs field
+> that is abelian) no completion on the menu gives three families without an anomaly: the frame's count never holds the 10 a family
+> needs, and everything added to it gives an even number. One way out remains inside the frame's rule: extra matter in the 27, and a
+> Higgs field built from two independent harmonic forms rather than one. Whether any member of the class supports it is a sealed test,
+> not yet run.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

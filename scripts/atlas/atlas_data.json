@@ -8289,6 +8289,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1398": {
+   "slug": "the frame verdict on three",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 27,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B139": {
    "slug": "firewall cartography",
    "motifs": [

@@ -1,0 +1,22 @@
+{
+ "id": "B1399",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1398",
+  "B1395",
+  "B1389",
+  "B1388",
+  "B1387",
+  "B1386",
+  "B1372",
+  "B1370",
+  "B1186"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE RANK-TWO HIGGS, SEALED (not yet run; the escape named by B1398): with 27 matter (F27+78, or F133 with the Higgs field in the (Y, gamma) plane) the frame's rule admits one anomaly-free, exotic-free family, g complete generations at t = g(1, 0, -1, 0, 1, -2) on the direction classes ((1,-4), (1,0), (1,1), (1,6), (3,-2), (3,8)), which no rank-one Higgs gives. Question: do two independent cuspidal harmonic classes w1, w2 on a member of m004's class give C(a_k w1 + b_k w2) = t_k for all six classes, stably, at g = 3? Reduction proved at seal: C is odd; on a circle of directions C changes only at the breakpoints psi(x) +- pi/2, x a critical point of each cusp's angle map (a generic one moves C by 1; checked on synthetic shells); a realisation needs at least 12|g| breakpoints (36 at g = 3); in cuspidal dimension 2 realisability is a finite union of exact linear programs in L in GL(2). Census, pinned: the connected covers of degree 2 and 3 of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry (91 of dimension 2, 18 of dimension 3; dimension 3 scoped to 203 sampled planes); B1387's Hejhal solve generalised, with a fixed ladder, acceptance thresholds and two seeds; banked identity cube~3.24's C = +2 and leading shells. Sealed: P1 any member at g = 3? NONE / SOME, prior NONE ~85%; P2 any g != 0? prior NONE ~60%; P3 per-member max |C|, breakpoints, achievable g. PREREGISTRATION.md sha256 recorded in docs/SEAL_LEDGER.md. The run waits for the owner. 0 of 19."
+}

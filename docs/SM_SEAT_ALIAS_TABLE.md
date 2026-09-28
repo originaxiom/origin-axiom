@@ -188,3 +188,7 @@ cusp's (n/3)·Reg; not sealed, since its drafted kill test is a theorem); next a
 *Update 2026-09-28 (B1397):* B1397 used (the cap's generations: a flux cap's chirality is linear in the charges, anomaly-free exactly
 for a flux orthogonal to hypercharge; net generations even in every E₆ frame, any integer in the E₇ frame, zero in the E₈ frame); next
 arc B1398.
+
+*Update 2026-09-28 (B1398, B1399):* B1398 used (the frame's verdict on three: no completion on the menu gives an anomaly-free three in
+the seat's frame; the escape is 27 matter with a rank-two abelian Higgs field) and B1399 used (the rank-two Higgs: sealed, not run);
+next arc B1400.

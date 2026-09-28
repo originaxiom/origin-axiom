@@ -1,0 +1,1763 @@
+{
+ "note": "B1399 design-time census: homology and isometry signatures only",
+ "census": [
+  {
+   "parent": "s959",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 18,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "BvLvwvzLLLMwQPMQQQQdeginksumpotvqywyzswxAxvzAAzoffoqfqqoqoofoofoaffoaooaaaa",
+   "triangulation_isosig": "svvLAzvLPQQQQghhkpnopoqnprqnrqoruuaauappauappuauppp_BaabbabB",
+   "also_from": [
+    [
+     "s959",
+     3,
+     5
+    ],
+    [
+     "s959",
+     3,
+     9
+    ]
+   ]
+  },
+  {
+   "parent": "v2873",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 21,
+   "homology": "Z/2 + Z + Z + Z",
+   "isometry_signature": "BvLQvvLvwMAQLQAQLPQcefdhjpmlqtnrpusurvtxwzyAAzAnvqcvcxnvcqckcacavqqkvhxxvcn",
+   "triangulation_isosig": "vvLvzMzwzAAAQQQcigkhnqlnpmqortqursutunaaqnhhsmmmlwfkoxwnesi_BbaB",
+   "also_from": []
+  },
+  {
+   "parent": "t12833",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 24,
+   "homology": "Z/2 + Z + Z + Z",
+   "isometry_signature": "yLvLwAvLwMMPPAMQQaeeghpjkrqnnosutvstvuxwxxnxknknnvaanncqaaavvkcqavn",
+   "triangulation_isosig": "yLvLwAvLwMMPPAMQQaeeghpjkrqnnosutvstvuxwxxnxknknnvaanncqaaavvkcqavn_Baab",
+   "also_from": []
+  },
+  {
+   "parent": "t12833",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 24,
+   "homology": "Z/2 + Z + Z + Z",
+   "isometry_signature": "yvLvLzvQwPALQPMQQeglhjniqplmpurvsswsxuvxwxcmiwcaftmggrcfccfegtsgdac",
+   "triangulation_isosig": "yvLvLzvQwPALQPMQQeglhjniqplmpurvsswsxuvxwxcmiwcaftmggrcfccfegtsgdac_aBbB",
+   "also_from": []
+  },
+  {
+   "parent": "t12835",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 24,
+   "homology": "Z/2 + Z + Z + Z",
+   "isometry_signature": "yLvLvQzAvvQLMMQQQaefhhiljqspupsruwxxstxwvwnxwgkalieaiffrofpperkppke",
+   "triangulation_isosig": "yLvLvQzAvvQLMMQQQaefhhiljqspupsruwxxstxwvwnxwgkalieaiffrofpperkppke_Babb",
+   "also_from": []
+  },
+  {
+   "parent": "t12835",
+   "degree": 3,
+   "index": 8,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 24,
+   "homology": "Z/2 + Z + Z + Z",
+   "isometry_signature": "yvLvvvLLAMQwPQQQQclnposjqrpupwrtuvxtvxvwwxnnnakakmumalpalddannbongb",
+   "triangulation_isosig": "yvLvvvLLAMQwPQQQQclnposjqrpupwrtuvxtvxvwwxnnnakakmumalpalddannbongb_Bbba",
+   "also_from": []
+  },
+  {
+   "parent": "t12843",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 24,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "2vLLwLALwzvwAAPvzvzvLwQzQPQLzQPQAMQQQdfehgimjlporvqysuxOAHCPFEGQSGTIPWKLYMNZOPURZVU001WXY110oqfffoafooffqoqffoqfaoaoooqqoqofqffqffqffooaaoqqoffffff",
+   "triangulation_isosig": "yLvvLvvLQQAALQPQQcenmlmprsmqspvuuwxxvuwwvxqqqxxhhhhqahhhxaxxqhqqxqa_BbabbBBa",
+   "also_from": []
+  },
+  {
+   "parent": "t12843",
+   "degree": 3,
+   "index": 6,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 24,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "2vLvwvzLLLvwMzzwALwzQLzALwQwQPQQQPQQQdegiqkmxouqtsyvDxAIzMOCETFRHUJVKYX0NMR0OSWQSTUW1VZX0Z11offoqfoaooooffoqofqfqoffqffoaoqoqaqfffafaqoaqaooooofooo",
+   "triangulation_isosig": "yLLvLvLAMMMLAPQAQcefomnllmopstsutvvwvtuxxxiitihqluadaiuxalelheipptu_BaaBBaDB",
+   "also_from": [
+    [
+     "t12843",
+     3,
+     10
+    ],
+    [
+     "t12843",
+     3,
+     11
+    ],
+    [
+     "t12843",
+     3,
+     13
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150684",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLLLvvMALLzMwvPMLQvwPQQvAzMMzvPQwALvQQzPQALQPQQfagajapaoarataqaravasaAazaCaFaDaDaIaJaFaGaMaNaPaCaHaCaQaHaOaRaSaVaRaWaXaTaUa3a1aVa3aVa1a5a6a5a+a-a7aab8a-a9a7adbcb9a9acbdbfbgbfbebebgbhbhbgbebhbfbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "triangulation_isosig": "ELLLvvLMMMMzMLAAPMPAQcefolpmnnmmssstwxxwyzzABBCCzDDDiididdaidiqitdxahtdlxmampmqelex_bBBaBagb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150684",
+   "degree": 3,
+   "index": 10,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLLvvLLvzwMPzAvvvMMLMQALMPQvwzzQQvPQQAQMwzQPQQQhahaqapatasarawauaCayaEaCaHaQaGaLaJaLaPaHaMaKaMaIaMaLaSaXaTaZaYaUa0a3a4a8a4a7a1a5a2a6aabab5aab-a2a0a8a3a4abb6a9abb9afbdbgbdbebgbhbdbgbfbebhbhbfbebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "triangulation_isosig": "EvvLLLvvMLzMQQwLAQQQQgflqoruqxwvtssywzCBABDCADzCzDBAxxhqahqaxhaqaqhhxqhaxaxhhhaaxqq_BbBabBab",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150684",
+   "degree": 3,
+   "index": 17,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLLLvvMvLLPAwvvQALPQLwQQwvzzwMPPQzLMvAQAMQQQMPQfagajapaoaqaratawasaxaBaKaFaGaKaDaEaGaNaNaGaHaPaQaJaPaKaFaEaNaFaXaYaTa2aVa4aWaYaWa6aZa0aWa9a8a8acbabcb8a+a-adbeb+a9afbbb-afbcbabebdbbbgbhbhbhbgbgbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "triangulation_isosig": "ELLLLLzPPvLLMzwPQQPAQcefejlkkjjpvuwxyxBBAAAxyzCzBDDDiiupqieaeludapemihlahtmddtaadam_BbBaBaGB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150684",
+   "degree": 3,
+   "index": 18,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLLLvvMvLLLAwvvPPAwMwzPMzAvzLzMAAQPQLQQQQALPQQQfagajapaoaqarawasaxaBaGaHaLaEaJaIaFaOaHaIaTaKaUaLaQaMaRaXa2a0a7a4a6a5a9a2a3a6a7a-a5a5a6aab1a-adb1a0a8abbdbcb9a0a7a8abb8a+aebfbebgbhbfbhbgbhbebgbfbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "triangulation_isosig": "ELLvvvLAvAQAvMwQQQMMQceppmtnurllqywwBAAzzxvwvyCCDDDCiiheldapadpiduadidmelalattaadqm_BbBaBaGB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150685",
+   "degree": 3,
+   "index": 19,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "ELLvvvvwLQQAwLQQAPwQQcequuntotspsvzzyyxxywvvABCDDDCCiiipqapaaqaiipqpaqittuuaaaaidui",
+   "triangulation_isosig": "ELLvvvvwLQQAwLQQAPwQQcequuntotspsvzzyyxxywvvABCDDDCCiiipqapaaqaiipqpaqittuuaaaaidui_BbBaBbaBBaGB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150687",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "KLLLLAwPPvwwvwPPMvwAQQMQQceegihglkklpowxywvBuDGGAHHIIGDFFJFJJIlqulgvrairgarlaurnlruulvlmiurfvntvlts",
+   "triangulation_isosig": "ELLPLvAAvPwPwPwzPQwQQceefejijiopqsrtswtzBABABADCCDCDqlptqpaxtamtiauauetpuemiaxtxdam_BbcBBbdCBbab",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150688",
+   "degree": 2,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z/3 + Z + Z + Z",
+   "isometry_signature": "uLLPLvAAPPMvPQcceefejijimnmnopttsstsqlptqpaxtaaamtulqalxu",
+   "triangulation_isosig": "uLLPLvAAPPMvPQcceefejijimnmnopttsstsqlptqpaxtaaamtulqalxu_BbFe",
+   "also_from": [
+    [
+     "o10_150688",
+     2,
+     1
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150688",
+   "degree": 3,
+   "index": 0,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "ELLPLvAAPPMvzMwAQzvQQceefejijimnmnoptstswxxwyzDCDCCDqlptqpaxtaaamtulaxuueuuumhauumq",
+   "triangulation_isosig": "ELLPLvAAPPMvzMwAQzvQQceefejijimnmnoptstswxxwyzDCDCCDqlptqpaxtaaamtulaxuueuuumhauumq_BbHg",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150688",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 3,
+   "b1": 5,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "ELLPLvAAvPwPAALvPQwQQceefejijiopqsrtrsuxBzAyBADCDCDCqlptqpaxtamtiauxdutlqalxupaxttq",
+   "triangulation_isosig": "ELLPLvAAvPwPAALvPQwQQceefejijiopqsrtrsuxBzAyBADCDCDCqlptqpaxtamtiauxdutlqalxupaxttq_baBbFeBbCb",
+   "also_from": [
+    [
+     "o10_150688",
+     3,
+     13
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150689",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "-cSbvLvvvLzwwvwwzzwALzLwvLMwvMvPvwPLwLLzMzzvLQAAQwQQzQMAPLzAwMAQAQAQQQAQQQQQdajanapatavaAaraEaCaIazaMaBaFaDaQaXaVaRa3aQaJa8a9aWaLaYaWa+abbSa5akbTaVapbdbubwbdbcb1awbpbxbgbib6ayb-afbpbnbAbhbybxb-aibDbsbebkbfblbwbvbAbCbIbrbEbobHbObybvbHbPbMbtbPbQbFbGbDbNbFbxbBbKbQbEbKbObRbJbQbLbHbJbObJbLbNbRbNbRboffaaaaaaaaoaoooaaaaaaqaafofffafoafoqqaaqqoaaaqqfafaqaaaqaoqaaaoooffooaoofaaffqqafqafaoqfofqqoaaaaaafooffooff",
+   "triangulation_isosig": "EvvLvLwvPLMLQQwvQQQQQgfgopopqqsytqstrDDCBCBDzABzCAzAmlpamlhamhtpplpamimieditduluett_BbHgBbBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150689",
+   "degree": 3,
+   "index": 6,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "-cSbvLLvvLLwLvLzQPAMvQPMwMzPLvPLwvQvvPLvLwLvLLzwwPAwQvLMLAQQAAPQPLQPMQQQQQQQdaeaianamalauazataCavauaqayawataxaGayaAaDayaEaKaAaLaMaEaOaQaIaKaPaYaMaQa0aYaVa9a-abbYa2albobkbib7albpbqbxbvbzbfbnbEbhbjbibDbibHbEbsbtbCbFbCbGbmbKbMbubJbwbxbJbHbybObMbwbQbBbGbRbNbJbybObIbQbIbEbBbIbFbQbFbHbRbPbNbPbMbPbRboooaooaafaoffooooafoqfqafaofqaooqqofoffaaaffaaaoffooaaaooqfooaoaqaqaaaaoaaqqaaqqaaqfafoaofoofqffofoqooafofofa",
+   "triangulation_isosig": "ELLPLvAAvPwPwPwzPQwQQceefejijiopqsrttwszBABABADCCDCDqlptqpaxtamtiaududtxuexialtidam_BbHgBaaB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150689",
+   "degree": 3,
+   "index": 13,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "-cSbvLvvvLzwwvwwzzwALzvvvLMwvwvzzLvALwvwQvwPAPwwQQPPQQwPQQPPLQMMvQQQQQQQQQQQdajanapatavaAaraEaCaIazaMaBaQaZaXaTa5a7aabcbYaRa0abbdbgb5aUaSatbrb-aVaXa9aqbibybjbBbDbjbhb3aDbybEbnbpbsb+aFbeb8aCbmbHbrbsbobFbEblbebpbKbwbzbrbnbobMbNbGbIbMbzbRbsbPbCbvbybNbPbGbCbPbBbBbLbJbLbMbAbIbKbNbRbHbJbRbQbObQbObQboffaaaaaaaaoaoaaaaaaaafffffaffoaaffooaqqqaaqqoaaaqqafafoqaaaaaqaqoqaqaooooaofooaoafffaaofaffofoofofqqffaaqqaf",
+   "triangulation_isosig": "EvvLvLwvPLMQQQwPwQwQQgfgopopqrvqutwqstryxzBAABCDCDCDmlpamlhaulmtalplpaimipaleauidhe_BbHgBbBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150689",
+   "degree": 3,
+   "index": 15,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "-cSbvLvvvvAwwwwwvzwQzwzPLwLzLLLwwzLwQzzzzzPLQzwPzzAQPAAzQQzQvMQMMPMzQMQQQQQQdajarapatamavaqaDaBaIayauaxaAaKaHaFaRaPaKaXaGaZa3aQaRaOa7aab8aWa7aabcbdb2aVafblbfbdbebjb9a0aibtbjbabsbbbrbybrbhbrbcbpbqbnbebqbybxbebhbDbjbFbxbkbmbGbCbJbCbEbEbBbzbxbNbKbAbwbObLbIbMbBbPbKbRbGbFbQbHbObPbRbRbLbLbObNbQbNbQbofaaafaqaaaoffoqooaaqafaaqaffaafoqaaffqaqaaqqoaaqaaaqaqqaoffoffofooafaofoaaaaaaafoqaffqaaqaqffffffffffffoofoo",
+   "triangulation_isosig": "ELLvvvvwLAQAwLPQPQQAQceqpunptsoswAzzyzxwBwCACByxBDDDiiitqaxaqxiippaitplpuhqdpumdeap_aBbaBaDB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150690",
+   "degree": 3,
+   "index": 23,
+   "cuspidal_dim": 2,
+   "b1": 6,
+   "cusps": 4,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLLLvvMvLLvQwvvLQvwMALLQPvvzwzPzLQQQQQPQQQQQMPQfagajapaoaqarasaCawaBaMaGaLaEaFaQaSaHaIaVaKaWaLaQaMaZa4a6a9a+a4abb2abb8abbcb4a5adbcb9a6a+a9aabcb8a6a7a7aeb2aeb-aabfb7a3a2afb3a5a-a5adbgbhbgbhbhbgbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "triangulation_isosig": "ELLvvvvwLQQAwLQQAPwQQcequuntptsosvzzyyxxxwvAvBCDDDCCiiipqapxaqxiipqpaqiptuhlahaidui_BbabBbabBadbBadb",
+   "also_from": [
+    [
+     "o10_150690",
+     3,
+     51
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150691",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "-cydvLLvAvzvMvQLMPLQMzAvQvMPLzzPLvvvLAvwLwLMLAAMzzMMMvMvAAMQMAvAwLAMAvvAMzQMMzzQwzzAQLvwAwQzLvzwLMvQwMwPLMPAMAPLwLQwPzzvLzAAQvPvPPQLvPQQQQMzAAQQQQQQdagajaiahalaqanawanarasauasawaAatavauaBaxaEaDaFaBaKaEaHaNaGaPaIaKaQaNaPaOa7a8aUa-adbYahbcb1a5albfbnb4a6a6apb9abbpbsbbbabobebjbkbCbjbibmbEblbnbFbybzbwbvbsbIbMbLbKbwbJbRbzbJbDbUbZbFbTb2b1b0bTbKbRbPbObYbXbPbWbVb4b2bWb+bXbZb8b1bhcbc6bacdcgc9bpcocmcmcocecycpchckcjcHcHcscucvczcJcJcLcscOcDczcwcycNcRcTcCcBcCcQcHcFcGcPc0c2cLcVcUcPc6cRcWcYc1cUcXcedcdid4ckddd8c4c5c7cndjdidadmdbdjdlddd-cpdmdrdmdjdidpdudqdtdodhdudsdxdldwdodvdtdpdwdxdsdvdxdvdwdoqqaffqqfoffoffqoffafqffoaoqqfqooooffqaoaaoaqoqaaqoaofoooqofooofaoffqfoqqqaaoaqqqoaqoaoaaoqqaaaofffoooooaooaooaoqoffffoqqqaqfqqffoaqqffffofoaooofqaafofaoooaaaoffooooofooqaaoqqooooqaaaaaaafofofooofqfaooqoaoqfqqoqqoqqof",
+   "triangulation_isosig": "ELLPLvAAvPwPAAvzPQwQQceefejijiopqsrtrtuxByAzBACDCDDCqlptqpaxtamtiaupaullhaexuamlhhp_acbBbCbaBbBBbFe",
+   "also_from": [
+    [
+     "o10_150691",
+     3,
+     7
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150691",
+   "degree": 3,
+   "index": 6,
+   "cuspidal_dim": 3,
+   "b1": 5,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLQMQQwAwQwQQgfgopopuqvqswtqstrxyzBAABCDCDCDmlpamlhaatmhtpplpaammpaamauathe",
+   "triangulation_isosig": "EvvLvLwvPLQMQQwAwQwQQgfgopopuqvqswtqstrxyzBAABCDCDCDmlpamlhaatmhtpplpaammpaamauathe_baBbDcBbFe",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150691",
+   "degree": 3,
+   "index": 8,
+   "cuspidal_dim": 3,
+   "b1": 5,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLLLvvLQQAzQwvQQQAQhgiospsqorpovttuwyABzzCBCAByDDDlliaaiiulapphalxaiqxatlmautuhdp",
+   "triangulation_isosig": "EvvLLLvvLQQAzQwvQQQAQhgiospsqorpovttuwyABzzCBCAByDDDlliaaiiulapphalxaiqxatlmautuhdp_BbababbB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150691",
+   "degree": 3,
+   "index": 9,
+   "cuspidal_dim": 3,
+   "b1": 5,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "ELLPLvAAvPwPAAvzPQwQQceefejijiopqsrtrtuxBBAABACDCDCDqlptqpaxtamtiaupaulluahxuamhdlh",
+   "triangulation_isosig": "ELLPLvAAvPwPAAvzPQwQQceefejijiopqsrtrtuxBBAABACDCDCDqlptqpaxtamtiaupaulluahxuamhdlh_BbDcBbFe",
+   "also_from": [
+    [
+     "o10_150691",
+     3,
+     16
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150692",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "ELLPLvAAvPwPAAvzPQwQQceefejijiopqsrtrtuxBBAABACDCDCDuhuttpaxtamtiaupaullqalxuamualh",
+   "triangulation_isosig": "ELLPLvAAvPwPAAvzPQwQQceefejijiopqsrtrtuxBBAABACDCDCDuhuttpaxtamtiaupaullqalxuamualh_BbEdBbEd",
+   "also_from": [
+    [
+     "o10_150692",
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150692",
+   "degree": 3,
+   "index": 6,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMLQQwvQQQQQgfgopopqqsytqstrDCBDBDCzABzCAzAmlpamlhamhtpplpamammehaleeaaalh",
+   "triangulation_isosig": "EvvLvLwvPLMLQQwvQQQQQgfgopopqqsytqstrDCBDBDCzABzCAzAmlpamlhamhtpplpamammehaleeaaalh_BbEdBbEd",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150692",
+   "degree": 3,
+   "index": 14,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvvLLLvvLQQAPMwvQQQAQhgiospsqorpovutuwyCAzBCBAyzCDDDlliaaiiulapphuaxaiaqahlmpmueuai",
+   "triangulation_isosig": "EvvLLLvvLQQAPMwvQQQAQhgiospsqorpovutuwyCAzBCBAyzCDDDlliaaiiulapphuaxaiaqahlmpmueuai_BbbabaaB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150693",
+   "degree": 3,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/4 + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLLLLvMvQvQwMvQvMAAvMMvAQQMMwLPPPzvwwQQvPAMzQQQfagajakakaoalapaqaraxavawasavaDaCazaAaHaCaHaDaJaBaHaCaPaMaPaPaQaOaRaQaNaMaNaOaOaRaWaZaYaXaXaYaZaWa4a6a5a9a8a7a-a+abbabdbcbabcbbbdbfbhbebgbfbgbhbhbaaaooaoaaaaaaooaaaaaaaaaoooaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaoooooooo",
+   "triangulation_isosig": "ELLvvvLAPQAwLQQvLQAPQcejjhrrnpqoqswwvvuurAzBzzyDDCCDiiwnwpqaxqxiipqpaqirhharjjxiexj_baBaGBbBba",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150693",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/4 + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLLLLvMvQvQwMvQvMAAvMMvwMzLLAzzLPALQAPQzPQMQQMQfagajakakaoalapaqaraxavawasavaDaCazaAaHaCaHaDaJaBaHaCaPaMaTaOaVaXa0aRaUa2a4a6aZa9aUaVa3a-a+a5a-a1abb7a1a8a9acb+a5a+aebebcb8agbcbabdbdbfbgbhbhbgbhbaaaooaoaaaaaaooaaaaaaaaaoooaaaaaaaaoaaaoaooaaaaaoaaoaaaoooaaooaooooaaaooo",
+   "triangulation_isosig": "ELLvvvLAPAMAPzAzQPPPQcekkhrrnqqoomvvuuryzAvzBzCBDCDDiibkrpqapawnwpqqiwuatrkuktadajk_baBaGBBbBa",
+   "also_from": [
+    [
+     "o10_150693",
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150702",
+   "degree": 3,
+   "index": 16,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "KvLvvzvzAQvvMPwLAMMPQQQQQdjqnmnomyApAxDzEDBGvDGJCIJHCJEAIFHFIHoaafffafaaofoaoaafaoaaaqaaaqaqoaaofoo",
+   "triangulation_isosig": "EvvLLPvzPzQvQvPPPQQAQfgfinprrqonpswzyAByxzyxCBAzCDDDaaaaaaaaqaqaxaqqxaqaaaqxxaaxxaa_bacBaaBbBbaabBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150704",
+   "degree": 3,
+   "index": 19,
+   "cuspidal_dim": 2,
+   "b1": 6,
+   "cusps": 4,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "KvvLLzvLPPQzzQwLQvPAPMPQQhhhpoqtrsqouqovxwBAyzFECDHGGHIJJIIGJHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "triangulation_isosig": "ELLvvvLwLQQAvQQvQvQQQcellsrntostprwvxwxvyzABCDDCDBCBiiimiaaiaaaaiiaiaaiaaaaaamiimmi_BaaBbBcBaBbCabBb",
+   "also_from": [
+    [
+     "o10_150704",
+     3,
+     26
+    ],
+    [
+     "o10_150704",
+     3,
+     33
+    ],
+    [
+     "o10_150704",
+     3,
+     44
+    ],
+    [
+     "o10_150704",
+     3,
+     50
+    ],
+    [
+     "o10_150704",
+     3,
+     51
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150706",
+   "degree": 3,
+   "index": 13,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvvLvLPvzvPvPwAvvAAQwPzzAzzzzMwMMAzQQwLQQQQAAQQQjakaoakaqapaoaxaBataEazaHaFaCaJaCaNaDazaEaDaSaRaSaWaRaWaRa2aYaYaVaZaXaUaXa2a1aZaabWa0a0a0aVaUacbfbdbdb+aebbb5aeb-a+a6a9a7afb9afb+abbgbcbebhbhbgbhbavvvavvaaaavavvavavvvvaaaaaavavvvvvvvavvavvvvvvaaavvvvvvvvvvvvvvvvavvaaav",
+   "triangulation_isosig": "EvLvLzzLAvQwwAQAPAAQQejlgnqmsolpvxpztwtyBxzvCyDBCBDDkaakahvaakaaakavnkqaahvahavnkqh_BaaBBabB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150706",
+   "degree": 3,
+   "index": 23,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "-cibvvLvLvvLwPwwwAzvLLLPMvMMzzzMPwLzAQvAPQQQQAPQQQQQhajarapauawasaraBazavaDaHaKaPaNaNaQaIaSaQaNaHaLaWaUaRaWaLaPa2a6aSa-a1a7a6aTa1a0adb7aebdb5a4acbab0a8abbcb6abb+acb+a-a8adbfb-abbhbgbhbgbebfbababhbgbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaoaoaaoooaaaaooaaoaaaaaaaaaaaaaaaaoooooooo",
+   "triangulation_isosig": "EvvLLLvvMLMwQQLMLQQQQfgiooukqwvysxtyzqBADCDzxAwBCDCBaaeeaebauemamaaebuemmaanavaaanv_baaBBababB",
+   "also_from": [
+    [
+     "o10_150706",
+     3,
+     24
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150707",
+   "degree": 2,
+   "index": 5,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z + Z + Z",
+   "isometry_signature": "uvvLvLwvQQAQQQcgfgmopklopqqtnqsrrsttmlpwamfflhamtcplaccwf",
+   "triangulation_isosig": "uvvLvLwvQQAQQQcgfgmopklopqqtnqsrrsttmlpwamfflhamtcplaccwf_BbFe",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150707",
+   "degree": 3,
+   "index": 4,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/2 + Z/2 + Z + Z + Z",
+   "isometry_signature": "EvLLvvzLwvAMwQAQwQQQQdgnopkvruquxwtsAryvyzDCyzBDABCDjxjaxjxxqaahhjjosjossxxfoxashjj",
+   "triangulation_isosig": "EvLLvvzLwvAMwQAQwQQQQdgnopkvruquxwtsAryvyzDCyzBDABCDjxjaxjxxqaahhjjosjossxxfoxashjj_BbaB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150708",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLLAAPwwMMLPAwLwAPPQddgghfjjkjononrsrtsuxyxyCBBDCDDsktuqpuamultpuaamaelamlhtquptcc",
+   "triangulation_isosig": "EvLLAAPwwMMLPAwLwAPPQddgghfjjkjononrsrtsuxyxyCBBDCDDsktuqpuamultpuaamaelamlhtquptcc_BbFebBcB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150708",
+   "degree": 3,
+   "index": 13,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLLAvvQLPLAvvQPPQQPQddgglmnoqoonmwxyzAzAwBCwBCADzDDsktuamtamtukjamtaumqsssnwsvubuq",
+   "triangulation_isosig": "EvLLAvvQLPLAvvQPPQQPQddgglmnoqoonmwxyzAzAwBCwBCADzDDsktuamtamtukjamtaumqsssnwsvubuq_baBbEdBbDc",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150708",
+   "degree": 3,
+   "index": 14,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLLALvQLPAwLQLAzMLQQddggkklmnpnnpptuvttwxyyyCBDCBDDsktubbmtamtuvbamtsneaurjmiuqivv",
+   "triangulation_isosig": "EvLLALvQLPAwLQLAzMLQQddggkklmnpnnpptuvttwxyyyCBDCBDDsktubbmtamtuvbamtsneaurjmiuqivv_baBbEdBbDc",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150708",
+   "degree": 3,
+   "index": 24,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvvwvLAvQMMQQwQQQQggpqksrsuosvtyxtAvAwyxwzDCDCBDCmpamgaimigppadafgfsccooguximgpa",
+   "triangulation_isosig": "EvvLvvwvLAvQMMQQwQQQQggpqksrsuosvtyxtAvAwyxwzDCDCBDCmpamgaimigppadafgfsccooguximgpa_BbeDbBBa",
+   "also_from": [
+    [
+     "o10_150708",
+     3,
+     25
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150709",
+   "degree": 2,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z + Z + Z",
+   "isometry_signature": "uvvLvLwvQQAQQQcgfgmoplkopqqtnqsrsrttmlpramrklhamtnplawjgo",
+   "triangulation_isosig": "uvvLvLwvQQAQQQcgfgmoplkopqqtnqsrsrttmlpramrklhamtnplawjgo_BbfE",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150710",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLLAAPwwMMLPAwLwAzQQddggfhkjkknonorsrtsuyxyxBCDCBDDsktummemtemeididaaapiaqpmalpmnn",
+   "triangulation_isosig": "EvLLAAPwwMMLPAwLwAzQQddggfhkjkknonorsrtsuyxyxBCDCBDDsktummemtemeididaaapiaqpmalpmnn_BaEBBbCb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150710",
+   "degree": 3,
+   "index": 16,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLLALvQLPAwLQLALMPPQddggkklmnpnnpptuvvvwxzzzCBBCDDDsktuggmtamtucwamtrfeaucgamaaurn",
+   "triangulation_isosig": "EvLLALvQLPAwLQLALMPPQddggkklmnpnnpptuvvvwxzzzCBBCDDDsktuggmtamtucwamtrfeaucgamaaurn_baBbEdbBdC",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150710",
+   "degree": 3,
+   "index": 18,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLvvvAvLLQvMQPMPQQQQcgojrpvtsnqrvsuzAtxBAByDADCDzCCwrrrqqqahwaaahbgwrrrbrgxbhhhrhq",
+   "triangulation_isosig": "EvLvvvAvLLQvMQPMPQQQQcgojrpvtsnqrvsuzAtxBAByDADCDzCCwrrrqqqahwaaahbgwrrrbrgxbhhhrhq_aBBabBBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150710",
+   "degree": 3,
+   "index": 19,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLLAvvQLPLAvvQPPQQMQddgglmnoqoonmwxyzAzAyBCyBCzADDDsktuamtamtukjamtaumqrrnfnnjcuue",
+   "triangulation_isosig": "EvLLAvvQLPLAvvQPPQQMQddgglmnoqoonmwxyzAzAyBCyBCzADDDsktuamtamtukjamtaumqrrnfnnjcuue_baBbEdbBdC",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150710",
+   "degree": 3,
+   "index": 22,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLLPvLzzQwPzQPwPQQQhfifnnnpoutvwxxvwyzACBzyCBDDDCBuipldaliappeafgcgpdalalaiapggnj",
+   "triangulation_isosig": "EvvLLPvLzzQwPzQPwPQQQhfifnnnpoutvwxxvwyzACBzyCBDDDCBuipldaliappeafgcgpdalalaiapggnj_BbEdBabB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150710",
+   "degree": 3,
+   "index": 24,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvvwvLALLQMQQwQQQQggpqkssorusvtyxvAtAwyxwzCDCDBDCmpamwamjllppadawsnnccoowlhlejpa",
+   "triangulation_isosig": "EvvLvvwvLALLQMQQwQQQQggpqkssorusvtyxvAtAwyxwzCDCDBDCmpamwamjllppadawsnnccoowlhlejpa_BbEdBbBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150712",
+   "degree": 3,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLLLvzAvzLQAPvPQMQQQefgiknmvsorwqurBCxwCAzzyDDAABBDrpprwarhqaqagwkaxpcqxhqpxrgrwgr",
+   "triangulation_isosig": "EvLLLvzAvzLQAPvPQMQQQefgiknmvsorwqurBCxwCAzzyDDAABBDrpprwarhqaqagwkaxpcqxhqpxrgrwgr_baaBBbBaBb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150712",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "-cydvLvvvLLwLLvLvPzzvLvPMLLvvPPwzwQPwMvzwwLwPwPAMzMQMvPwMwQvvAALwLLvPMPAvvwAMQzwMvLMAMzQAQwLwzQPPMPQMMALzQQLPwvMAvvzPzQMAwPvAzMPQMMLPPLQzQAPQQQQQQQQdagapaianauaoaCaqayasayaIaxaOaUaBaCaLa6a4aGaKa8aKaXaMaab7abb1a0aQaSaTaUa9aYaYarblbwbdbub2a9axb5a+aebzbybdb+aqbqbbbqbAbzbHbibKbhbNbmblbtbUbobXbtbvbHbybAbybIbFb7b9bGbccJbbcIbacfcLbRbicRbQbkcpcdcWb5bYbVbZbccZbscZbtcwc5b3byc3bAcxcachc8bFc+bmcvcfcbcdcFcgcdcHcvcHchcKcqcrclcncocvcIcpcGcLcMcRctcTczcYczcWcEc3c7cQc+cJc+cKcQc-cMc6cScad5chdedYc3ckdedXcldfd0cYc4cjd2cndjd5c6c7c9cqdsdrd-cidgdtdtdwdddmdhdvdgdmdrdldidxdpdldsdpdqdodwdpdudvdtdvdxdxdofaofaoaooooaoaafoaaaoaafofqoqoooofoffoaaaaaofaooqqqaoqooffoqfaoaoooaoaooaofoqfqqoaqaoofooaooaaffofooffqoqaooaoaaoafaoaaoooafoqqqqfffoofofofqqaoaoaoqoaaqafaoaqoffafaqooqqoaqoffaoaaooofaaaoqofoaoofoofffoqoffofoqoooooao",
+   "triangulation_isosig": "EvLvAwQALAvvMQwPLQwQQeghgkglklmnorsvwsvxyxyzABCDDCCDftmuwwcwsmaelmqaiiamlhpauiammem_cbaaBBbbBCbBbeD",
+   "also_from": [
+    [
+     "o10_150712",
+     3,
+     7
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150712",
+   "degree": 3,
+   "index": 9,
+   "cuspidal_dim": 3,
+   "b1": 5,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvAwQwPwvQQQeghgkglklmnopqruvvuxywCAzDBDBCDftmuwwcwsmaefflmtfwlpamwwmitlsj",
+   "triangulation_isosig": "EvLvAwQALAvAwQwPwvQQQeghgkglklmnopqruvvuxywCAzDBDBCDftmuwwcwsmaefflmtfwlpamwwmitlsj_baBbdCBbeD",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150712",
+   "degree": 3,
+   "index": 14,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLvvvAvQvLQLQAwPQQQQeljlsnroputzqstrwyCwzxBDCBCADBDrfrfhwqrqaepaieorflsfsmqxmhqxbb",
+   "triangulation_isosig": "EvLvvvAvQvLQLQAwPQQQQeljlsnroputzqstrwyCwzxBDCBCADBDrfrfhwqrqaepaieorflsfsmqxmhqxbb_baBbabaBBb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 2,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z + Z + Z",
+   "isometry_signature": "uvLvAwQALAPLPQceghgkglklmnoqprstststftmuwwcwsmaejbtalaajv",
+   "triangulation_isosig": "uvLvAwQALAPLPQceghgkglklmnoqprstststftmuwwcwsmaejbtalaajv_BbfE",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 2,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z + Z + Z",
+   "isometry_signature": "uvLvAwQALAvAQQceghgkglklmnopqrststtsktmuskgsvmaekklaameks",
+   "triangulation_isosig": "uvLvAwQALAvAQQceghgkglklmnopqrststtsktmuskgsvmaekklaameks_BbfE",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvLzQwzQPwQQeghgkglklmnotuvuwvxyxyBzADCDCDCftmuwwcwsmaetalamatdamdiiqqimtq",
+   "triangulation_isosig": "EvLvAwQALAvLzQwzQPwQQeghgkglklmnotuvuwvxyxyBzADCDCDCftmuwwcwsmaetalamatdamdiiqqimtq_baBbcBbBFe",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvvLAwwwAwAAvAPAQvQQQghfigmmnmpopovuvuwxwxADCABABCDDmtqepqatdpaxtqduxlelhtaijmnhijj",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPAQvQQQghfigmmnmpopovuvuwxwxADCABABCDDmtqepqatdpaxtqduxlelhtaijmnhijj_BbIh",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvvAQwPLQwQQeghgkglklmnorsvswvxyxyzABDCDCCDktmuskgsvmaelaamaeamlhlmeqqtqut",
+   "triangulation_isosig": "EvLvAwQALAvvAQwPLQwQQeghgkglklmnorsvswvxyxyzABDCDCCDktmuskgsvmaelaamaeamlhlmeqqtqut_baBbcBbBFe",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvLvPQzQLMQQeghgkglklmnotwxyuvuvuvzABDCDCDCftmuwwcwsmaetamtjjbkjviipksovss",
+   "triangulation_isosig": "EvLvAwQALAvLvPQzQLMQQeghgkglklmnotwxyuvuvuvzABDCDCDCftmuwwcwsmaetamtjjbkjviipksovss_BbhG",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 4,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAPLvQwPwLMQQeghglgklkmnopqruvuvwyxzABCDCDCDrtmuvoovwmaebntaubstdabbilhttkf",
+   "triangulation_isosig": "EvLvAwQALAPLvQwPwLMQQeghglgklkmnopqruvuvwyxzABCDCDCDrtmuvoovwmaebntaubstdabbilhttkf_acbBbcBBbbaBbcB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 6,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMLLQwAQQQQQgfgopopqqwqstrAxzDyDxAxADBCBCBCmlpamlhamlplpakkwmfibsjgilelhtt",
+   "triangulation_isosig": "EvvLvLwvPLMLLQwAQQQQQgfgopopqqwqstrAxzDyDxAxADBCBCBCmlpamlhamlplpakkwmfibsjgilelhtt_BbIh",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 8,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z",
+   "isometry_signature": "EvLvLvvLAPMAzPvQPQQQQchkojlsqtpruovsxzAyBwDCzAyCBCDDfmfafsqqmxaamjkvvejesqxkqkhxmsk",
+   "triangulation_isosig": "EvLvLvvLAPMAzPvQPQQQQchkojlsqtpruovsxzAyBwDCzAyCBCDDfmfafsqqmxaamjkvvejesqxkqkhxmsk_BbBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150713",
+   "degree": 3,
+   "index": 9,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/6 + Z + Z + Z",
+   "isometry_signature": "EvLvLvzPvwPvQQLAQQAQQegjloqpnywqvzsuxvutBCvABACCzDDDrurwauurhqaqagwwjfsddjlllhqjxrn",
+   "triangulation_isosig": "EvLvLvzPvwPvQQLAQQAQQegjloqpnywqvzsuxvutBCvABACCzDDDrurwauurhqaqagwwjfsddjlllhqjxrn_Bbab",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150714",
+   "degree": 2,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z + Z + Z",
+   "isometry_signature": "uvLvAwQALAvAQQceghglgklkmnoqprststtsrtmuvoovwmaerrlatihww",
+   "triangulation_isosig": "uvLvAwQALAvAQQceghglgklkmnoqprststtsrtmuvoovwmaerrlatihww_BbfE",
+   "also_from": [
+    [
+     "o10_150714",
+     2,
+     2
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150714",
+   "degree": 3,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvvMQwPLQwQQeghglgklkmnorsvswvxyxyzABCDDCCDrtmuvoovwmaelatiahamlhaihlhhphh",
+   "triangulation_isosig": "EvLvAwQALAvvMQwPLQwQQeghglgklkmnorsvswvxyxyzABCDDCCDrtmuvoovwmaelatiahamlhaihlhhphh_baBbbabBFe",
+   "also_from": [
+    [
+     "o10_150714",
+     3,
+     7
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150714",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvvwPQQLAzQQeghglgklkmnorxwyvsutvvzABCDDCDCrtmuvoovwmaeliauwwwfwoihtrjnrrr",
+   "triangulation_isosig": "EvLvAwQALAvvwPQQLAzQQeghglgklkmnorxwyvsutvvzABCDDCDCrtmuvoovwmaeliauwwwfwoihtrjnrrr_BbhG",
+   "also_from": [
+    [
+     "o10_150714",
+     3,
+     8
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150714",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvAwQwPwAzQQeghglgklkmnoqpruvvuxywAzBCDCDDCrtmuvoovwmaerrliucwlparrmaithww",
+   "triangulation_isosig": "EvLvAwQALAvAwQwPwAzQQeghglgklkmnoqpruvvuxywAzBCDCDDCrtmuvoovwmaerrliucwlparrmaithww_bcaBbbabBCbBbcB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150714",
+   "degree": 3,
+   "index": 4,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z",
+   "isometry_signature": "EvLvvvLLAwLMMzMAQQQQQeijpmrnvroprpBABuyCxvzyDxzDACDCcrcarxchxrhahcgbrkqkvnkejntrxqh",
+   "triangulation_isosig": "EvLvvvLLAwLMMzMAQQQQQeijpmrnvroprpBABuyCxvzyDxzDACDCcrcarxchxrhahcgbrkqkvnkejntrxqh_aBBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150714",
+   "degree": 3,
+   "index": 5,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/6 + Z + Z + Z",
+   "isometry_signature": "EvLLLvzAvzLQAPvPQMQQQefgiknmwsovrqurCBxvBAzDzyDAACCDgppwgaghqahawrcxxpnqxhaqpwrggww",
+   "triangulation_isosig": "EvLLLvzAvzLQAPvPQMQQQefgiknmwsovrqurCBxvBAzDzyDAACCDgppwgaghqahawrcxxpnqxhaqpwrggww_BbBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150714",
+   "degree": 3,
+   "index": 9,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMLwQwAQQQQQgfgopopqqxqstrwyzDAywDwDyBCCBCBmlpamlhamtplpassrmnskmwhslellpa",
+   "triangulation_isosig": "EvvLvLwvPLMLwQwAQQQQQgfgopopqqxqstrwyzDAywDwDyBCCBCBmlpamlhamtplpassrmnskmwhslellpa_BbIh",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150715",
+   "degree": 3,
+   "index": 2,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAPLvQwPwLMQQeghgkglklmnoqpruvuvwyxzABCDDCDCftmuwwcwsmaejbtatjgtdajciaapajn",
+   "triangulation_isosig": "EvLvAwQALAPLvQwPwLMQQeghgkglklmnoqpruvuvwyxzABCDDCDCftmuwwcwsmaejbtatjgtdajciaapajn_baBbcBbBEd",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150715",
+   "degree": 3,
+   "index": 8,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAwwwAwAAvAPAQvQQQghifgmmnmpopouvuvxwxwADCABABCDDmtllpemthpaxtamlhupuxtaijmnhiss",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPAQvQQQghifgmmnmpopouvuvxwxwADCABABCDDmtllpemthpaxtamlhupuxtaijmnhiss_BbDcbBfE",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150715",
+   "degree": 3,
+   "index": 11,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvvwPQQLvQQQeghgkglklmnorwxyvstuvvCzADBBDCDktmuskgsvmaelmaeksnfkwtlakkfksw",
+   "triangulation_isosig": "EvLvAwQALAvvwPQQLvQQQeghgkglklmnorwxyvstuvvCzADBBDCDktmuskgsvmaelmaeksnfkwtlakkfksw_baBbDcBbFe",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150716",
+   "degree": 2,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z + Z + Z",
+   "isometry_signature": "uvLvAwQALAvAQQceghgkglklmnopqrststtsftmuwwcwsmaewclpapmww",
+   "triangulation_isosig": "uvLvAwQALAvAQQceghgkglklmnopqrststtsftmuwwcwsmaewclpapmww_bBFe",
+   "also_from": [
+    [
+     "o10_150716",
+     2,
+     2
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150716",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvvQPwPLQwQQeghgkglklmnorsvsvwxyxyzBACDDCCDftmuwwcwsmaelpapmtamlhaixlhqqeq",
+   "triangulation_isosig": "EvLvAwQALAvvQPwPLQwQQeghgkglklmnorsvsvwxyxyzBACDDCCDftmuwwcwsmaelpapmtamlhaixlhqqeq_baBbcBbBFe",
+   "also_from": [
+    [
+     "o10_150716",
+     3,
+     7
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150716",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvvwPQQLvQQQeghgkglklmnorwxyvsutvvCAzBDDBCDftmuwwcwsmaelamtwwwfwouixvbvvsb",
+   "triangulation_isosig": "EvLvAwQALAvvwPQQLvQQQeghgkglklmnorwxyvsutvvCAzBDDBCDftmuwwcwsmaelamtwwwfwouixvbvvsb_baHB",
+   "also_from": [
+    [
+     "o10_150716",
+     3,
+     8
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150716",
+   "degree": 3,
+   "index": 6,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z",
+   "isometry_signature": "EvvLAwwwAwAAvAPAQvQQQghifgmmnmpopovuvuxwxwADBACACBDDmtxipxamlpaxtueilqqqdtipjanpprs",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPAQvQQQghifgmmnmpopovuvuxwxwADBACACBDDmtxipxamlpaxtueilqqqdtipjanpprs_bBHg",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150717",
+   "degree": 3,
+   "index": 9,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLvvAMzvzPMMPvPQQAQQdfhmniqlsrvwpuxyzAtuBywAzCDDBCDsaasasasxxaasoaqaasjaxsxxoaqsjx",
+   "triangulation_isosig": "EvLvvAMzvzPMMPvPQQAQQdfhmniqlsrvwpuxyzAtuBywAzCDDBCDsaasasasxxaasoaqaasjaxsxxoaqsjx_BaBbBaabBbba",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150717",
+   "degree": 3,
+   "index": 18,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLLAvwQLPAzLAPALzQPQddggklkmnpnnpptuvuxuwyyyBCCDBDDsktusaktamtujwamtjlwapskaalpask",
+   "triangulation_isosig": "EvLLAvwQLPAzLAPALzQPQddggklkmnpnnpptuvuxuwyyyBCCDBDDsktusaktamtujwamtjlwapskaalpask_BbDcaBbBbBcB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150718",
+   "degree": 3,
+   "index": 12,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLLAvwQLPAzLAPALzQPQddggklkmnpnnpptuvuxuwyyyCBBDCDDsktuoactamtuobamtjlwapsktltptoc",
+   "triangulation_isosig": "EvLLAvwQLPAzLAPALzQPQddggklkmnpnnpptuvuxuwyyyCBBDCDDsktuoactamtuobamtjlwapsktltptoc_BbDcaBbBBbCb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150718",
+   "degree": 3,
+   "index": 18,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvvwvLALQwMQQwQQQQggpqmusrossvtyxtzvzwyxwADCBCDDCmpamfqaqfmppadavfbkccoofiifeqpa",
+   "triangulation_isosig": "EvvLvvwvLALQwMQQwQQQQggpqmusrossvtyxtzvzwyxwADCBCDDCmpamfqaqfmppadavfbkccoofiifeqpa_acbBbDcaBbBBbBa",
+   "also_from": [
+    [
+     "o10_150718",
+     3,
+     20
+    ],
+    [
+     "o10_150718",
+     3,
+     40
+    ],
+    [
+     "o10_150718",
+     3,
+     41
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150720",
+   "degree": 3,
+   "index": 12,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAvLvPQzQAzQQeghgkglklmnotwxyuvuvuvzABDCDCDCktmuskgsvmaetmaengjjnoaatssrvsk",
+   "triangulation_isosig": "EvLvAwQALAvLvPQzQAzQQeghgkglklmnotwxyuvuvuvzABDCDCDCktmuskgsvmaetmaengjjnoaatssrvsk_cabBbDcbBcBbBcB",
+   "also_from": [
+    [
+     "o10_150720",
+     3,
+     33
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150720",
+   "degree": 3,
+   "index": 13,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvLvAwQALAPLvQwPwAzQQeghgkglklmnoqpruvuvwyxAzBDCCDDCktmuskgsvmaenjtaenotdaskmedeenj",
+   "triangulation_isosig": "EvLvAwQALAPLvQwPwAzQQeghgkglklmnoqpruvuvwyxAzBDCCDDCktmuskgsvmaenjtaenotdaskmedeenj_cabBbDcbBcBBbCb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150721",
+   "degree": 3,
+   "index": 10,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "KvLvLAwwwwzwPPLzPzMAPQQQQdifjimlprsowxsACCuDxEBzABHIJFJFHIGJHIoaaaoaoaaaoaaoaaaoaaaoooooaaoaooaoaoa",
+   "triangulation_isosig": "EvvLvLwvPLMLQQwAzQQQQgfgopopqqxuvqstrzABCDDCBAzCDBAzmlpamlhamtlaplpalhmllqllxtthlll_aBBbbBEdBabb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150722",
+   "degree": 3,
+   "index": 31,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAwwwAwAAvAPPQvQQQghfigmmnmpopovuvuwxAwxDDBCBCDCBmtqepqatdpaxtqduxhiauuixlhttxxt",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPPQvQQQghfigmmnmpopovuvuwxAwxDDBCBCDCBmtqepqatdpaxtqduxhiauuixlhttxxt_cbaBbCbBaDBabBb",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150723",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/6 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAPwLQwwPwPwQwPwQQghhjkgolmnoostruwvyxxyABzDCDCDCmtqehpqamtmpuimtdahuauxmxpuxxpq",
+   "triangulation_isosig": "EvvLAPwLQwwPwPwQwPwQQghhjkgolmnoostruwvyxxyABzDCDCDCmtqehpqamtmpuimtdahuauxmxpuxxpq_baBbCbBbEd",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150723",
+   "degree": 3,
+   "index": 12,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/6 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAMMvQLwMMAvALQwQQgffijgllnlomstrstuxxyAByzCDCDCDmiqetpqaidpateiahtlidduaalepdhh",
+   "triangulation_isosig": "EvvLAMMvQLwMMAvALQwQQgffijgllnlomstrstuxxyAByzCDCDCDmiqetpqaidpateiahtlidduaalepdhh_baBbBabBeD",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150723",
+   "degree": 3,
+   "index": 14,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/6 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAPvLQzLAvQMQzLPQQhgiijopnmprstwxxvuxywzBBCDDCBDCupupehehaqueaueauqtilduaiiuqiup",
+   "triangulation_isosig": "EvvLAPvLQzLAvQMQzLPQQhgiijopnmprstwxxvuxywzBBCDDCBDCupupehehaqueaueauqtilduaiiuqiup_baBaBbbBEd",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150723",
+   "degree": 3,
+   "index": 15,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/6 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMLQQwLMQQQQgfgopopqqxvuqstrzABDCDCAzBDCAzBmlpamlhamtttplpaleiqduxqqmqqqdx",
+   "triangulation_isosig": "EvvLvLwvPLMLQQwLMQQQQgfgopopqqxvuqstrzABDCDCAzBDCAzBmlpamlhamtttplpaleiqduxqqmqqqdx_baBbDcbBeD",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150723",
+   "degree": 3,
+   "index": 17,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/6 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAwwwAwAAvAPPQvQQQghifgmmnmpopouvuvxwAxwDDBCBCDBCmtllpemthpaxtamlhxtalludlhttdeq",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPPQvQQQghifgmmnmpopouvuvxwAxwDDBCBCDBCmtllpemthpaxtamlhxtalludlhttdeq_baBbCbBbEd",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150723",
+   "degree": 3,
+   "index": 22,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLLvvvLAMAPQQAvQQQQgfpvsqurqsxztyuqwvsACBDDABCCBDAxxahhhqaqqhqaxahxaqqhqhxxhxxxqx",
+   "triangulation_isosig": "EvvLLvvvLAMAPQQAvQQQQgfpvsqurqsxztyuqwvsACBDDABCCBDAxxahhhqaqqhqaxahxaqqhqhxxhxxxqx_baBbBaabBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150724",
+   "degree": 2,
+   "index": 0,
+   "cuspidal_dim": 2,
+   "b1": 3,
+   "cusps": 1,
+   "tets": 20,
+   "homology": "Z/3 + Z + Z + Z",
+   "isometry_signature": "uvvLAPwLQwwPQQcghhjkgolmnoostrrtsrstmtqehpqamtmphuhddqhmd",
+   "triangulation_isosig": "uvvLAPwLQwwPQQcghhjkgolmnoostrrtsrstmtqehpqamtmphuhddqhmd_BbfE",
+   "also_from": [
+    [
+     "o10_150724",
+     2,
+     1
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150724",
+   "degree": 3,
+   "index": 0,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/3 + Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLLMvvwzPQQvwQQPQAQhgfgnpprovquwnzyxxyABzCBCBCADDDllipapaipqaqmiuqquepixeixlqedtx",
+   "triangulation_isosig": "EvvLLMvvwzPQQvwQQPQAQhgfgnpprovquwnzyxxyABzCBCBCADDDllipapaipqaqmiuqquepixeixlqedtx_BbBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150724",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAPwLQwwLPQwvQvQQQghhjkgolmnootrtsrstyzABCDDCBCBDmtqehpqamtmpuddqhmdueaueatiqaia",
+   "triangulation_isosig": "EvvLAPwLQwwLPQwvQvQQQghhjkgolmnootrtsrstyzABCDDCBCBDmtqehpqamtmpuddqhmdueaueatiqaia_BbhG",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150724",
+   "degree": 3,
+   "index": 3,
+   "cuspidal_dim": 2,
+   "b1": 4,
+   "cusps": 2,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAPwLQwwLzQwPPPwQQghhjkgolmnootvuvuwxyyxBAzCDCDCDmtqehpqamtmpulxauaueiaalxmataaa",
+   "triangulation_isosig": "EvvLAPwLQwwLzQwPPPwQQghhjkgolmnootvuvuwxyyxBAzCDCDCDmtqehpqamtmpulxauaueiaalxmataaa_BbcBbBEd",
+   "also_from": [
+    [
+     "o10_150724",
+     3,
+     7
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150724",
+   "degree": 3,
+   "index": 6,
+   "cuspidal_dim": 3,
+   "b1": 6,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMLQQwAzQQQQgfgopopqqxuvqstrzABCDDCBzADCBzAmlpamlhamtqdplpaammdhdduhixpuuu",
+   "triangulation_isosig": "EvvLvLwvPLMLQQwAzQQQQgfgopopqqxuvqstrzABCDDCBzADCBzAmlpamlhamtqdplpaammdhdduhixpuuu_BbcBbBCbBbcB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150724",
+   "degree": 3,
+   "index": 9,
+   "cuspidal_dim": 3,
+   "b1": 4,
+   "cusps": 1,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLvvLwAQQPQALPQQQhgptstsvxuwuyqrupxyACBBADCDDBACtpatpxalxtxlppuauiplxxllllhmhmd",
+   "triangulation_isosig": "EvvLvLvvLwAQQPQALPQQQhgptstsvxuwuyqrupxyACBBADCDDBACtpatpxalxtxlppuauiplxxllllhmhmd_Bbab",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150724",
+   "degree": 3,
+   "index": 10,
+   "cuspidal_dim": 3,
+   "b1": 6,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAwwwAwAAvAPAQvQQQghfignmnnpopouvuvwxwxADBDCDCBCBmtddpdmttpaxtdtpmaaamtudpdhxdqt",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPAQvQQQghfignmnnpopouvuvwxwxADBDCDCBCBmtddpdmttpaxtdtpmaaamtudpdhxdqt_BbcBBbcBbBBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150725",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z + Z",
+   "isometry_signature": "KvLLLMLwAwvPvMMPMPPMwAPQQdehigjmmnnnqtsrwxvuyzABECFDHGJIFGIHJJooaaooaaaaooaooaaooooooaaaaaaaaooaoao",
+   "triangulation_isosig": "EvvLAPwLQwwPwPwQwPwQQghhjkgolmnoostruwvxyxyABzDCDCDCmtqehpqamtmpuqqtdaehiuemdttqutl_bacaBBaBbeDaBBa",
+   "also_from": [
+    [
+     "o10_150725",
+     3,
+     19
+    ],
+    [
+     "o10_150725",
+     3,
+     32
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150725",
+   "degree": 3,
+   "index": 5,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z",
+   "isometry_signature": "KvLLvAvzvzQwLPLLQwQMMQPQQdgjiomrvpntqyyuEDBuCxzAHCIAFEJJHGGJIIoaaaaaaaaaooaaoaaaoaoaaaaaoooaaoooaaa",
+   "triangulation_isosig": "EvvLvAvLwAPMAAwvQQQQQgjkqroposrrutvvoBBCzDzDBADACCAzmluluampdamliaehaelqeedtqutdtth_bacaBBabBBaabba",
+   "also_from": [
+    [
+     "o10_150725",
+     3,
+     26
+    ],
+    [
+     "o10_150725",
+     3,
+     27
+    ],
+    [
+     "o10_150725",
+     3,
+     34
+    ],
+    [
+     "o10_150725",
+     3,
+     36
+    ],
+    [
+     "o10_150725",
+     3,
+     48
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150725",
+   "degree": 3,
+   "index": 8,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z + Z",
+   "isometry_signature": "KvLvvzvPvvwQAvPvQQwQQQQQQdjqnqoytyvCAyxBwCwFAFxHGCAEFDJIIHJGJIoaaoaaaaaaooooooooaoaoaaoooaoaaaaaaoo",
+   "triangulation_isosig": "EvvLvLwvPLMLQQwLMQQQQgfgopopqqxuvqstrAzBDCDCzABCDzABmlpamlhamteeplpaimiuxiitdmtdttx_bacBbCbBbFeaBbC",
+   "also_from": [
+    [
+     "o10_150725",
+     3,
+     11
+    ],
+    [
+     "o10_150725",
+     3,
+     40
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150725",
+   "degree": 3,
+   "index": 21,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/3 + Z + Z + Z + Z + Z",
+   "isometry_signature": "KvLLvwLAMzwvvPQAvLQQLQQQQdeijoljorrrwAxyxBCGFEFHAIBBJAGDIEHIJJooaoaooaaaoaaaaaaaaaaaaoaooaoooaooaaa",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPPQvQQQghfigmmnmpopovuvuwxAwxDDBCBCDBCmtqepqatdpaxtqduxuuaequlttamlhi_bacabBbbBfEabBb",
+   "also_from": [
+    [
+     "o10_150725",
+     3,
+     33
+    ],
+    [
+     "o10_150725",
+     3,
+     43
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150725",
+   "degree": 3,
+   "index": 24,
+   "cuspidal_dim": 2,
+   "b1": 6,
+   "cusps": 4,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLLLwvLwAQPvwPQQQQQgjkgnoqqspqtrzCAyBDDAyBCDyzAzCBmxupamuauuppauuuppiauxamaapaapa",
+   "triangulation_isosig": "EvvLLLwvLwAQPvwPQQQQQgjkgnoqqspqtrzCAyBDDAyBCDyzAzCBmxupamuauuppauuuppiauxamaapaapa_bcadBaBbbBDcbBBaabba",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150727",
+   "degree": 3,
+   "index": 1,
+   "cuspidal_dim": 2,
+   "b1": 6,
+   "cusps": 4,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAwwwAwAAvAPPQvQQQghifgmmnmpopouvuvxwAxwDDBCBCDCBmtllpemthpaxtamlhllapaiattamapa",
+   "triangulation_isosig": "EvvLAwwwAwAAvAPPQvQQQghifgmmnmpopouvuvxwAxwDDBCBCDCBmtllpemthpaxtamlhllapaiattamapa_dabcBbDcabBbaBbBabBb",
+   "also_from": [
+    [
+     "o10_150727",
+     3,
+     59
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150727",
+   "degree": 3,
+   "index": 13,
+   "cuspidal_dim": 2,
+   "b1": 6,
+   "cusps": 4,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLLPvLzzQwPvwPQQQQQhfifnnnpoutvwzyADBCzCBAyDCDBAzyuipldaliappeatueaueuxuppiqapxau",
+   "triangulation_isosig": "EvvLLPvLzzQwPvwPQQQQQhfifnnnpoutvwzyADBCzCBAyDCDBAzyuipldaliappeatueaueuxuppiqapxau_dbacBbDcbaababBbabBb",
+   "also_from": [
+    [
+     "o10_150727",
+     3,
+     63
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150727",
+   "degree": 3,
+   "index": 60,
+   "cuspidal_dim": 2,
+   "b1": 6,
+   "cusps": 4,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMPMQwLMQQQQgfgopopquqvwqstrzABCDCDCDzBABAzmlpamlhaamalplpaaailhttletldtxt",
+   "triangulation_isosig": "EvvLvLwvPLMPMQwLMQQQQgfgopopquqvwqstrzABCDCDCDzBABAzmlpamlhaamalplpaaailhttletldtxt_adbcBbDcBbCbabBcBaBB",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150727",
+   "degree": 3,
+   "index": 70,
+   "cuspidal_dim": 2,
+   "b1": 6,
+   "cusps": 4,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLLvvvLAMAPQQAvQQQQfgpvsrurqpzxtyurwvpDBCAADCBCBADaaahhqqaqhhqahaqqahhqhqahqaaqha",
+   "triangulation_isosig": "EvvLLvvvLAMAPQQAvQQQQfgpvsrurqpzxtyurwvpDBCAADCBCBADaaahhqqaqhhqahaqqahhqhqahqaaqha_BaBbbabBbabBaBBa",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150728",
+   "degree": 3,
+   "index": 20,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMPMQwLMQQQQgfgopopqvquwqstrAzBCDCDDCABzBzAmlpamlhaxmxlplpaqqilhttimilmthi",
+   "triangulation_isosig": "EvvLvLwvPLMPMQwLMQQQQgfgopopqvquwqstrAzBCDCDDCABzBzAmlpamlhaxmxlplpaqqilhttimilmthi_bacBbCbBbDcBbDc",
+   "also_from": []
+  },
+  {
+   "parent": "o10_150728",
+   "degree": 3,
+   "index": 26,
+   "cuspidal_dim": 2,
+   "b1": 5,
+   "cusps": 3,
+   "tets": 30,
+   "homology": "Z/2 + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLAPvLQzLAvQMMMLPQQhgiijnpomprstwxxvuwxyzBBDCDCBDCupupemetaqueaueauqaaqpuaeeexped",
+   "triangulation_isosig": "EvvLAPvLQzLAvQMMMLPQQhgiijnpomprstwxxvuwxyzBBDCDCBDCupupemetaqueaueauqaaqpuaeeexped_acbaBBaBaBbbBCb",
+   "also_from": [
+    [
+     "o10_150728",
+     3,
+     28
+    ],
+    [
+     "o10_150728",
+     3,
+     29
+    ],
+    [
+     "o10_150728",
+     3,
+     34
+    ]
+   ]
+  },
+  {
+   "parent": "o10_150729",
+   "degree": 3,
+   "index": 14,
+   "cuspidal_dim": 2,
+   "b1": 7,
+   "cusps": 5,
+   "tets": 30,
+   "homology": "Z + Z + Z + Z + Z + Z + Z",
+   "isometry_signature": "EvvLvLwvPLMPMQwLMQQQQgfgopopqvquwqstrAzBDCDCCDzBABAzmlpamlhaxmxlplpaqqiiiqdletmdext",
+   "triangulation_isosig": "EvvLvLwvPLMPMQwLMQQQQgfgopopqvquwqstrAzBDCDCCDzBABAzmlpamlhaxmxlplpaqqiiiqdletmdext_aecbdaBbCaBbBBbCbabBcbBcB",
+   "also_from": [
+    [
+     "o10_150729",
+     3,
+     28
+    ],
+    [
+     "o10_150729",
+     3,
+     30
+    ],
+    [
+     "o10_150729",
+     3,
+     70
+    ],
+    [
+     "o10_150729",
+     3,
+     77
+    ],
+    [
+     "o10_150729",
+     3,
+     104
+    ],
+    [
+     "o10_150729",
+     3,
+     107
+    ],
+    [
+     "o10_150729",
+     3,
+     122
+    ],
+    [
+     "o10_150729",
+     3,
+     130
+    ],
+    [
+     "o10_150729",
+     3,
+     150
+    ],
+    [
+     "o10_150729",
+     3,
+     151
+    ],
+    [
+     "o10_150729",
+     3,
+     161
+    ],
+    [
+     "o10_150729",
+     3,
+     163
+    ],
+    [
+     "o10_150729",
+     3,
+     168
+    ],
+    [
+     "o10_150729",
+     3,
+     170
+    ]
+   ]
+  }
+ ]
+}

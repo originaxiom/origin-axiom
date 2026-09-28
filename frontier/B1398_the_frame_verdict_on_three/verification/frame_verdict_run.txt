@@ -1,0 +1,15 @@
+# B1398 frame_verdict.py -- run 2026-09-28T16:20Z; python-flint unused; sympy 1.14.0
+V1 78 10-type weights by SL(2)_beta spin                   {1: 40}
+V2 F78 spin-0 classes                                      [((1, -4), 2), ((1, 0), 6), ((1, 6), 3)]
+V2 F78 anomaly matrix rank                                 (3, 3)
+V3 F78 cap, unit gamma-flux: net content                   {'u^c': 2, 'Q': 2, 'e^c': 2, 'd^c': 2, 'L': 2}
+V3 the 10-bearing sectors (spin, gamma)                    {(1, '1'): 14, (1, '-1'): 6}
+V4 F78 combination solutions                               [{'c': '0', 'd': 'g/2', 'n0': '0', 'n1': '0', 'n2': '0'}]
+V5 F27+78 classes                                          [((1, -4), 11, ['L', 'Q', 'd^c']), ((1, 0), 6, ["('3', '2', Fraction(-5, 6))"]), ((1, 1), 3, ['u^c']), ((1, 6), 3, ['d^c']), ((3, -2), 1, ['e^c']), ((3, 8), 2, ['L'])]
+V5 F27+78 anomaly matrix rank                              (5, 6)
+V5 the anomaly-free family at g = 3: N per class           {'(1, -4)': 3, '(1, 0)': 0, '(1, 1)': -3, '(1, 6)': 0, '(3, -2)': 3, '(3, 8)': -6}
+V5 its net content                                         {'Q': 3, 'd^c': 3, 'L': 3, 'u^c': 3, 'e^c': 3}
+V6 absolute values of the pattern                          [3, 6]
+V5' F27+78 frame rule + caps: solution family              [{'n0': '-c/2 - 4*d/3 + g', 'n1': '-5*c/6', 'n2': '-2*c + 4*d/3 - g', 'n3': '-5*c/6', 'n4': '-3*c - 4*d/3 + g', 'n5': '-3*c/2 + 8*d/3 - 2*g'}]
+V7 F133 with Higgs in (Y, gamma): classes as F27+78        True
+DONE

@@ -3199,6 +3199,14 @@ included, as an input. At a rotated cusp under B1396's continuity the smallest s
 none. `frontier/B1397_the_caps_generations`. *(Same day, §7: that is per cap. For a bulk flux the caps' degrees sum to zero, so a net
 three needs a source for the flux, and the frame's own sources carry an anomalous count.)*
 
+**Status (2026-09-28, B1398, B1399): the seat's frame cannot give three; the escape's test is sealed.** In the seat's frame (7d E₆
+super-Yang–Mills, the geometric SL(2)_β twist, an abelian Higgs field of any rank) no completion on the record's menu gives an
+anomaly-free chiral spectrum with three generations. The 78's 10s are all SL(2)_β doublets, which the frame's rule never makes
+chiral, and every anomaly-free combination gives twice the caps' γ-flux: even, and zero for a bulk flux. With 27 matter one
+anomaly-free family remains, g generations at N = g(1, 0, −1, 0, 1, −2) on six direction classes, and only a rank-two Higgs field
+can give it. B1399 asks whether a member of m004's class does, sealed before any harmonic form of its census is computed.
+`frontier/B1398_the_frame_verdict_on_three`, `frontier/B1399_the_rank_two_higgs`.
+
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
 **Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.
@@ -3298,6 +3306,18 @@ This job is not optional, whichever answers the first two questions get. `fronti
   zero, so bulk-flux caps give zero net chirality in total, and m004's single cusp carries none. A non-zero total needs monopole
   points or non-abelian T-brane data in the bulk, or caps whose fields are independent of the bulk. In the frame the natural sources of an E₇ flux are t-direction Higgs
   zeros, and those carry B1389's anomalous F133 count. So question 1 now reads: which source, and is it anomaly-free?
+
+**Status (2026-09-28, B1398): the frame's verdict, and the one escape left inside its rule.**
+- **The verdict.** With every completion on the menu, alone or combined, the seat's frame gives no anomaly-free three:
+  - the frame's count holds no 10, since every 10 of the 78 is an SL(2)_β doublet (40 of 40, Lemma A);
+  - its three direction classes have an anomaly matrix of full rank, so the count is anomaly-free only when it is zero, for any rank;
+  - caps give 10s in pairs, and every exotic-free, anomaly-free combination has g = 2d: even, zero for a bulk flux.
+- **The escape.** With 27 matter (F27+78, or F133 with the Higgs field in the (Y, γ) plane) the anomaly matrix has rank 5 on six
+  classes, leaving one family: g generations at N = g(1, 0, −1, 0, 1, −2). It takes two absolute values, so it needs a rank-two
+  Higgs field. The other escapes need the 27 too, plus non-abelian data or independent walls.
+- **Its test, B1399, is sealed.** Two independent cuspidal classes on the degree-2 and degree-3 covers of the class's arithmetic
+  members, 109 up to isometry; prior NONE ~85% at g = 3. `frontier/B1398_the_frame_verdict_on_three`,
+  `frontier/B1399_the_rank_two_higgs`.
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

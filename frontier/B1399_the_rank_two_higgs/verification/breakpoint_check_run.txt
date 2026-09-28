@@ -1,0 +1,11 @@
+shell of 3 directions, rep 0: 8 breakpoints, index sum 0, 4 common zeros, 64 seeds per side, net jump 0; grid of 720: 0 mismatches [] (13 s)
+shell of 3 directions, rep 1: 4 breakpoints, index sum 0, 2 common zeros, 64 seeds per side, net jump 0; grid of 720: 0 mismatches [] (14 s)
+shell of 2 directions, rep 0: chi over 720 directions takes [0] (the two-direction rule: [0])
+shell of 2 directions, rep 1: chi over 720 directions takes [0] (the two-direction rule: [0])
+shell of 6 directions, rep 0: 48 breakpoints, index sum 0, 24 common zeros, 64 seeds per side, net jump 0; grid of 720: 0 mismatches [] (26 s)
+shell of 6 directions, rep 1: 36 breakpoints, index sum 0, 12 common zeros, 64 seeds per side, net jump 0; grid of 720: 0 mismatches [] (26 s)
+TOTAL FAILURES 0
+
+real	1m39.035s
+user	4m22.313s
+sys	0m4.176s

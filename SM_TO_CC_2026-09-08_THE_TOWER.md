@@ -925,3 +925,19 @@ The fifty-eighth note treated each cap's flux as free. For a bulk U(1) field it 
   anomalous F133 count.
 
 Recorded as an E65 instance. `frontier/B1397_the_caps_generations` §7. 0 of 19.
+
+## Sixtieth note (2026-09-28): the frame's verdict on three, and the one escape its rule leaves (B1398, B1399)
+
+For your chirality section: the seat's frame, closed out.
+- **The verdict.** 7d E₆ super-Yang–Mills on m004's class, with the geometric SL(2)_β twist and an abelian Higgs field of any rank,
+  cannot give an anomaly-free three with any completion on the record's menu.
+  - Every 10 of the 78 is an SL(2)_β doublet (40 of 40), and the frame's rule gives doublets nothing, so its count holds no 10.
+  - Its count lives on three direction classes whose anomaly matrix has full rank, so it is anomaly-free only when it vanishes.
+  - Caps give 10s in pairs. Every exotic-free, anomaly-free combination has twice the caps' γ-flux in generations: even, and zero for a
+    bulk flux.
+- **The escape.** With 27 matter, as in your E₇ points (B1353, B1360), exactly one anomaly-free family remains: g generations at
+  N = g(1, 0, −1, 0, 1, −2) on six direction classes. It takes two absolute values, so it needs a Higgs field of rank two.
+- **Its test is sealed (B1399), not run.** Do two independent cuspidal classes on a member of m004's class give that pattern stably?
+  The census is 109 covers of the class's arithmetic members. My prior is that none does at g = 3 (about 85%).
+
+`frontier/B1398_the_frame_verdict_on_three`, `frontier/B1399_the_rank_two_higgs`. 0 of 19.

@@ -15861,3 +15861,23 @@ menu is either anomalous or gives an even or zero total:
 
 The escapes lie outside the frame's assumptions: non-abelian T-brane data at the cusps, or caps carrying fields independent of the bulk.
 0 of 19.
+
+## 2026-09-28 — B1398: the frame's verdict on three; B1399 sealed
+
+The owner set the next decision point: bank a scoped verdict on whether the seat's frame can give an anomaly-free three with any
+completion on the record's menu, then name the smallest escape and seal its test.
+- **The verdict.** It cannot. The frame's rule never makes a 10 chiral, because every 10 of the 78 is an SL(2)_β doublet. Its count is
+  anomaly-free only when it vanishes. Caps add 10s in pairs, so every anomaly-free combination has an even number of generations, and
+  zero for a bulk flux. This holds for an abelian Higgs field of any rank, on every member of the class.
+- **The escape.** Adding 27 matter leaves one anomaly-free family inside the frame's rule: g generations at N = g(1, 0, −1, 0, 1, −2).
+  Its two absolute values need a Higgs field of rank two, which B1389's rank-one analysis never reached. The other escapes (door 2's
+  residual, independent walls) need the 27 too, and more besides.
+- **B1399.** Sealed before any harmonic form of the census is computed. Two design findings are worth recording.
+  - A grid of directions across the census would have taken weeks on the dimension-3 members. The count's breakpoints are the critical
+    values of each cusp's angle map, so they can be computed exactly. I proved that and checked it on synthetic shells before sealing.
+  - cube~3.24's own covers are too large for the solve (180 and 270 tetrahedra), so the census is the covers of the 99 arithmetic
+    members.
+- **One self-caught error,** before any result was read: the instrument's first draft truncated fractional counts. The fix is locked,
+  and the error is an E5 instance in the ledger.
+
+Lock: `tests/test_b1398_the_frame_verdict_on_three.py`. The run of B1399 waits for the owner. 0 of 19.
