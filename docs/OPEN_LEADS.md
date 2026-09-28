@@ -3181,6 +3181,18 @@ characters.
   hierarchy would still be a breaking effect. `frontier/B1391_the_generations_flavour`.
 `frontier/B1390_the_eisenstein_axes`.
 
+**Status (2026-09-28, B1394 and B1396): over a clean bulk, a symmetric three is three times one.**
+- **Sources on the fixed arcs (B1394, sealed).** Every acyclic invariant order-3 character gives balanced arc weights, so the source
+  three is ℤ/3's regular representation: 96 of 96 pairs in the class. The kill test fired: 54 non-acyclic pairs on five members are
+  unbalanced.
+- **A flux cap at the rotated cusps (B1396, a theorem).** The three fixed-point weights on a rotated cusp are balanced exactly when the
+  Wilson line sees the cusp, and an acyclic character sees every cusp. So a symmetric cap over a clean bulk carries n ≡ 0 mod 3 and
+  (n/3)·Reg.
+- **The non-regular threes.** They are exactly the characters that do not see the rotated cusps (B1394's 54). Each carries massless
+  bulk modes: h¹ is at least the number of cusps it does not see.
+- **So, for acyclic characters,** one versus three is the level question (sL-5), whichever symmetric completion is used.
+  `frontier/B1394_the_regular_three`, `frontier/B1396_the_capped_eisenstein_cusp`.
+
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
 **Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.
@@ -3257,6 +3269,14 @@ This job is not optional, whichever answers the first two questions get. `fronti
 - Next is the sealed test of the first: at a rotated Eisenstein cusp, a flux respecting the order-3 rotation has its degree fixed
   mod 3 by the weights at the rotation's three fixed points (B1396, after B1394's census).
 - The Hořava–Witten E₈ wall is a speculative M-theory reading of the cap. `frontier/B1395_the_free_cusp_is_charge_blind`.
+
+**Status (2026-09-28, B1396): the capped cusp is decided without a seal.**
+- **The drafted test.** After B1395 a test was drafted: can a symmetric flux cap at a rotated Eisenstein cusp give a non-regular three
+  over an acyclic bulk? The cusp's own Hopf trace, and half lives, half dies, answer no, so the draft was withdrawn before sealing.
+- **Under continuity of the charged sector into the cap,** the flux degree is n ≡ 0 mod 3, and over an acyclic bulk the zero modes are
+  (n/3)·Reg. A non-regular content, (2, 0, 1) at n = 3, needs a character trivial on the cusp.
+- **What stays open.** The flux degree and the cap's own ℤ/3 structure remain inputs of the completion (B1395). Question 1 is
+  unchanged: what physics supplies them. `frontier/B1396_the_capped_eisenstein_cusp`.
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

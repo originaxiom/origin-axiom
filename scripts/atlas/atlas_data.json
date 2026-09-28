@@ -8242,6 +8242,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1396": {
+   "slug": "the capped eisenstein cusp",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P2",
+    "P3",
+    "V0",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B139": {
    "slug": "firewall cartography",
    "motifs": [

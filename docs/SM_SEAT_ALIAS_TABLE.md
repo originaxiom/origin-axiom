@@ -180,3 +180,7 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-28:* B1393 used (the charge flip: an index computes net chirality only for an end condition that flips with the charge; on cube~3.24's cuspidal twist the charge-blind count is exactly 0 at every real coupling, so B1387's +2 is made by the flip; the physical-bridge rounds R23–R34 and R54 placed by citation); next arc B1394.
 
 *Update 2026-09-28 (later):* B1394 sealed (the regular three: sources on order-3 fixed arcs across m004's class, a4712e8d, census running) and B1395 used (the free cusp is charge-blind at finite energy: no finite-energy field at a free cusp knows the sign of the charge; the charge-odd datum is an input of the completion, a flux on a capped cusp torus or a non-normalizable source); next arc B1396.
+
+*Update 2026-09-28 (later still):* B1394 run as sealed (d5d6a4a1: P1 holds on all 96 acyclic pairs, P2 = 1/2, P3 SOME with 54
+non-acyclic pairs unbalanced) and B1396 used (the capped Eisenstein cusp: the cusp's Hopf trace, half lives half dies, and the capped
+cusp's (n/3)·Reg; not sealed, since its drafted kill test is a theorem); next arc B1397.

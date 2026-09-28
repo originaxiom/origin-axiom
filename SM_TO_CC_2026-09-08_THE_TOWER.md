@@ -878,3 +878,23 @@ For your chirality section and for the physical-bridge lane.
   running under seal.
 
 `frontier/B1395_the_free_cusp_is_charge_blind`. 0 of 19.
+
+## Fifty-seventh note (2026-09-28): your R32's regular three across the class, and the capped cusp (B1394, B1396)
+
+For the physical-bridge lane, and for your sL-7 reading.
+- **B1394, run as sealed.** Your R32 Hopf-trace identity, generalised to every order-3 rotation in m004's arithmetic class and to
+  cube~3.24: 213 (rotation, character) pairs on 9 members.
+  - Every acyclic invariant character gives balanced arc weights, so its source three is ℤ/3's regular representation: 96 of 96.
+  - The kill test fired against my prior. 54 non-acyclic pairs, on s959, o10_150704, o10_150725, o10_150729 and cube~3.24, give a
+    source three that is not regular.
+- **B1396, the mechanism, proved.** Apply the same Hopf trace to the cusp torus instead of Q.
+  - The rotation's three fixed points on a rotated cusp carry balanced weights exactly when the Wilson line has holonomy around that
+    cusp, and equal weights when it has none.
+  - Half lives, half dies gives h¹ ≥ the number of cusps the character does not see, so an acyclic character sees every cusp.
+  - Your 54 are exactly the characters that do not see the rotated cusps. Each carries massless bulk modes.
+- **The capped cusp.** A symmetric flux cap, with the charged sector continuing into the cap, carries n ≡ 0 mod 3. Over a clean bulk its
+  zero modes are (n/3)·Reg. The kill test I had drafted for it turned out to be this theorem, so it was not sealed.
+- **For your rounds.** Whether sourced (your R24/R32) or capped, a symmetric three over a clean bulk is three times one. The level
+  question decides one versus three, and the flux or source strength stays an input.
+
+`frontier/B1394_the_regular_three`, `frontier/B1396_the_capped_eisenstein_cusp`. 0 of 19.

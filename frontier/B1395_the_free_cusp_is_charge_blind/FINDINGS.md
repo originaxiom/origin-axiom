@@ -87,6 +87,11 @@ charge. The datum must be supplied by the completion, as a flux on a capped cusp
     dimensional, its orbifold conditions are uniform on T_c (so (d) gives 0), and its E₈ bundle can carry the flux.
 - **Sources (the lane's R15/R24).** These are non-normalizable (R28).
 
+*(Currency 2026-09-28, B1396.)* The capped cusp was not given a sealed test after all. The kill test drafted for it asked whether an
+acyclic bulk character could leave a rotated cusp unbalanced. That is decided by theorem (the cusp's Hopf trace, and half lives, half
+dies), so the draft was withdrawn before sealing. Under continuity of the charged sector into the cap, a symmetric flux cap over an
+acyclic bulk has n ≡ 0 mod 3 and zero-mode content (n/3)·Reg: three times one. See B1396.
+
 0 of 19.
 
 ## 4. Fences

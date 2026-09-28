@@ -789,3 +789,13 @@ left it.
 > - So the charge-odd integer is an input of the completion: a flux on a capped cusp torus, or a non-normalizable source.
 >
 > 0 of 19 (`frontier/B1395_the_free_cusp_is_charge_blind`).
+
+> **Currency note (2026-09-28, B1394 and B1396): over a clean bulk, a symmetric three is three times one.**
+> - **B1394 (sealed).** Sources on the fixed arcs of an order-3 rotation give the regular representation for every acyclic character
+>   in m004's class (96 of 96 pairs). The kill test fired: 54 non-acyclic pairs are not regular.
+> - **B1396 (a theorem).** At a rotated cusp the three fixed-point weights are balanced exactly when the Wilson line sees the cusp, and
+>   an acyclic character sees every cusp. So a symmetric flux cap over a clean bulk carries n ≡ 0 mod 3 and (n/3)·Reg. B1394's 54 are
+>   exactly the characters that do not see the rotated cusps, and each carries massless bulk modes.
+> - For acyclic characters, one versus three is the level question (sL-5). The flux and the cap remain inputs (B1395).
+>
+> 0 of 19 (`frontier/B1394_the_regular_three`, `frontier/B1396_the_capped_eisenstein_cusp`).

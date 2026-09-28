@@ -343,6 +343,12 @@ emitted value. The structure is the object's; the values are the observer's.
 > *And (B1395), the answer inside the frame to what knows that sign: nothing at finite energy. A Higgs field that stays alive at a
 > cusp, or a magnetic flux through it, costs infinite energy there. So the sign must be put in by whatever caps the cusp: a flux on
 > the capped torus, or a source. That is an input, not something the geometry produces.*
+>
+> *And (B1394, B1396), what symmetry can do with that input. Placed symmetrically, on the fixed arcs of a threefold symmetry or as a
+> flux on the cusps it rotates, it gives three states carrying the symmetry's three charges once each. That is the regular pattern a
+> threefold cover produces, not a protected three, and it holds whenever the bulk is clean. A sealed census across the class found
+> other patterns only where the Wilson line cannot see the rotated cusps, and a theorem explains why. Those cases always carry extra
+> massless matter.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

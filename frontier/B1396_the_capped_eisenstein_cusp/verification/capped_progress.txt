@@ -1,0 +1,10 @@
+member   3/100 m202         pairs   3  cusp rows    6  0.3 s
+member  19/100 s959         pairs   3  cusp rows    6  0.4 s
+member  24/100 v3551        pairs   3  cusp rows    6  1.2 s
+member  40/100 o9_40999     pairs   3  cusp rows    6  0.9 s
+member  74/100 o10_150704   pairs   9  cusp rows   36  0.4 s
+member  95/100 o10_150725   pairs   9  cusp rows   18  0.6 s
+member  96/100 o10_150726   pairs  12  cusp rows   24  2.1 s
+member  99/100 o10_150729   pairs  90  cusp rows  180  0.3 s
+member 100/100 cube~3.24    pairs  81  cusp rows  162  2.8 s
+EXIT 0

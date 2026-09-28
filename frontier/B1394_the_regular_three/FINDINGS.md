@@ -144,3 +144,10 @@ The design-time sweep is in PREREGISTRATION.md.
 - **The lane.** R32 on m202, this arc's control.
 
 Main (`987c0c8f`) and the audit lane (`aff8a569`) were fetched again at banking. Neither has moved since the last harvest.
+
+*(Currency 2026-09-28, B1396.)* §3's open mechanism is now proved in B1396. The rotation's three fixed points on a rotated cusp carry
+balanced weights when the character is non-trivial on that cusp, and equal weights when it is trivial (the cusp's own Hopf trace).
+Twice the arc counts is the sum of the rotated cusps' counts. So a pair is unbalanced only if the character is trivial on a rotated
+cusp, and on k = 3 exactly then. B1396's census finds the 54 pairs above to be exactly the non-trivial characters trivial on a rotated
+cusp. Half lives, half dies then gives h¹ ≥ t, the number of cusps the character does not see, which is where the bulk modes come from.
+This explains the P3 outcome after the fact; it was not a sealed prediction.

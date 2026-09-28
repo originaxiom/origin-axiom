@@ -1,5 +1,26 @@
 # Changelog
 
+## B1396 — the capped Eisenstein cusp: a rotated cusp's three fixed-point weights are balanced exactly when the Wilson line sees the cusp, an acyclic character sees every cusp, so a symmetric flux cap over a clean bulk is three times one; B1394's 54 non-regular pairs are the characters blind to the rotated cusps
+
+- **(A) The cusp's Hopf trace.** At a cusp rotated by an order-3 isometry, the lift's weights at the rotation's three fixed points sum
+  to L(ĝ; T_c; L_χ). They are balanced when χ is non-trivial on T_c, and all equal (the lift's constant) when it is trivial.
+- **(B) Half lives, half dies.** h¹(M; χ) ≥ t(χ), the number of cusps χ does not see. An acyclic χ sees every cusp.
+- **(C) The capped cusp.** Continue the charged sector into a cap carrying a ℤ/3-equivariant line bundle of degree n. Then n ≡ 0 mod 3,
+  and the zero modes are (n/3)·Reg when χ sees the cusp and (n/3)·Reg + (1, −1, 0) when it does not: (2, 0, 1) at n = 3.
+- **(D)** An arc returning to its own cusp forces χ trivial there.
+- **(E)** Twice the arc counts is the sum of the rotated cusps' counts. So B1394's weights are balanced whenever χ sees every rotated
+  cusp, and on k = 3 exactly then.
+- **Not sealed.** The kill test drafted after B1395 (can an acyclic bulk leave a rotated cusp unbalanced?) is decided by A and B, so it
+  was withdrawn before sealing.
+- **The verification census.** B1394's 100 members, 213 pairs and 444 rotated-cusp rows. The cusp's character is computed from the cusp
+  link, independently of the arcs and the lift.
+  - Checks V0–V6 hold with 0 failures: 292 rows balanced, 152 all equal.
+  - The 54 non-trivial pairs trivial on a rotated cusp are exactly B1394's 54 unbalanced pairs.
+  - No arc returns to its cusp. h¹ ≥ t everywhere, with equality on 144 of 213.
+
+Currency notes on B1394 (the mechanism) and B1395 (the capped cusp was not sealed). Registry rows T-REGULAR-THREE and
+T-CUSP-HOPF-TRACE. Lock: `tests/test_b1396_the_capped_eisenstein_cusp.py`. No physics crossed. 0 of 19.
+
 ## B1394 — the regular three, run as sealed: every acyclic invariant order-3 character gives a regular source three (P1, 96 of 96); half the non-trivial characters are acyclic (P2); the kill test P3 came out SOME, against the prior
 
 - **The census.**

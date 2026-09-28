@@ -15799,3 +15799,23 @@ The sealed census ran after the seal (a4712e8d) and answered all three predictio
   now. Rows are written member by member, and the record keeps all three attempts.
 
 Lock: `tests/test_b1394_the_regular_three.py`. 0 of 19.
+
+## 2026-09-28 — B1396: the capped Eisenstein cusp, and the mechanism of B1394's kill test
+
+**Why this arc was not sealed.** After B1395 a preregistration was drafted: can a symmetric flux cap at a rotated Eisenstein cusp give a
+non-regular three over an acyclic bulk? While checking the draft's theorem, I applied the Hopf trace to the cusp torus itself.
+- The three fixed-point weights are balanced exactly when the Wilson line sees the cusp.
+- Half lives, half dies makes an acyclic character see every cusp.
+- So the draft's kill test was a theorem, and it was withdrawn uncommitted. Only the banked identity (the arithmetic and m202) had been
+  computed.
+
+**What it explains.** Theorems A and B were derived before B1394's census summary was read.
+- Twice the arc counts is the sum of the rotated cusps' counts. So an unbalanced source three needs a character blind to a rotated
+  cusp, and on k = 3 that is also enough.
+- B1396's census confirms it: the 54 pairs are exactly those characters, found from the cusp link independently of the arcs.
+- This is an explanation after the fact, not a sealed prediction.
+
+**For the programme.** Over a clean bulk every symmetric three in m004's class, sourced or capped, is three times one. The flux degree
+and the cap's own structure remain inputs (B1395), and one versus three is the level question.
+
+Lock: `tests/test_b1396_the_capped_eisenstein_cusp.py`. 0 of 19.

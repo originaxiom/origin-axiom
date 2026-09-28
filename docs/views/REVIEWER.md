@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1243** |
-| words of findings prose | **968,175** |
+| research arcs with findings | **1244** |
+| words of findings prose | **970,984** |
 | test lock files referenced | **751** |
-| arcs carrying an authored verdict | **1243** (100.0 %) |
+| arcs carrying an authored verdict | **1244** (100.0 %) |
 | recorded closures | **794** (617 classified, 177 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 822 |
+| PROVED | 823 |
 | NEGATIVE | 322 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1395`** (1314 words, 0 locks)  
-THE FREE CUSP IS CHARGE-BLIND AT FINITE ENERGY (the owner's question after B1393: what physical ingredient at a free cusp knows the sign of the charge?): in 7d SYM only the Higgs field (q phi) and gauge flux (q F) tell q from -q; flat unitary Wilson lines cannot (charge -q is the complex conjugate of charge q). (a) A Higgs class alive on a cusp torus has L^2 norm A(a^2 + b^2) log(H/h0), divergent: sealed classes are fixed boundary data, and the dynamical (normalizable) Higgs vevs are cuspidal, free at every cusp; (b) a free cusp's modes are L^2 (one computed: 2.84e-6); (c) a gauge flux through a hyperbolic cusp torus has energy A phi^2 (H^2 - h0^2)/2, divergent, whatever sources it; (d) a condition uniform over the torus adds -chi(T^2) = 0 (orbifold and charge-conjugating walls included), and the only charge-odd integers a torus end can carry are chi of a sign partition and the degree of a line bundle (Riemann-Roch: index = degree). Hence every finite-energy normalizable datum at a free cusp is charge-blind except the decaying Higgs tail, which is not a physical count (B1388, B1392, B1393): a completion giving normalizable chiral matter must cap the cusp and carry a flux on its torus, or bring non-normalizable sources (the lane's R28). The charge-odd integer is an input of the completion, not an output of the dynamics. Named for sealed tests, not chosen: the flux-capped Eisenstein cusp (B1396); a Horava-Witten E8 wall as the cap's M-theory reading (speculative). Prior art: the lane's R28 and its canonical-cusp non-normalizability, in its setting. 0 of 19.  
-`B1395_the_free_cusp_is_charge_blind/FINDINGS.md`
+**PROVED — `B1396`** (2589 words, 0 locks)  
+THE CAPPED EISENSTEIN CUSP (B1395's menu: the one finite-energy charge-odd datum is a flux on a capped cusp torus; and B1394's P3, which fired). (A) The cusp's Hopf trace: at a cusp rotated by an order-3 isometry g, the lift's weights at g's three fixed points on the cusp torus (the ends of B1390's arcs) sum to L(g^; T_c; L_chi), so they are balanced (1, w, w^2) when the invariant character chi is non-trivial on T_c and all equal (the lift's constant) when it is trivial. (B) Half lives, half dies: h^1(M; chi) >= t(chi), the number of cusps where chi is trivial; an acyclic chi sees every cusp. (C) A cap carrying a Z/3-equivariant line bundle of degree n whose fixed-point weights are the arc weights has n = 0 mod 3 and zero-mode content (n/3) Reg when chi|T_c != 1 (three times one), (n/3) Reg + (1, -1, 0) when trivial ((2, 0, 1) at n = 3); over an acyclic bulk always the first. (D) An arc returning to its cusp forces chi trivial there. (E) 2 counts(arcs) = sum of the rotated cusps' counts: B1394's weights are balanced whenever chi sees every rotated cusp; on k = 3 balanced iff chi sees the rotated cusps. The kill test drafted for this arc (does an acyclic character leave a rotated cusp unbalanced?) is decided by A and B, so it was withdrawn before sealing. Verification census (B1394's 100 members, 213 pairs, 444 rotated-cusp rows; the cusp's character computed from the cusp link, independently of arcs and lift): checks V0-V6 hold with 0 failures; 292 cusp rows balanced, 152 all equal; the 54 non-trivial pairs trivial on a rotated cusp are exactly B1394's 54 unbalanced pairs; no arc returns to its cusp; h^1 >= t everywhere, equality on 144 of 213. Standard tools (Lefschetz with local coefficients, Atiyah-Bott, half lives half dies); no novelty claimed for the mathematics. No physics crossed. 0 of 19.  
+`B1396_the_capped_eisenstein_cusp/FINDINGS.md`
 
 **NEGATIVE — `B1391`** (1923 words, 0 locks)  
 THE GENERATIONS' FLAVOUR (test 4, structural; not sealed -- the outcome follows from banked theorems once the fixed sets are known): the frame's generations carry the action of the isometries fixing the Higgs class, with character the Lefschetz number L(g) = chi(Fix g, Fix g n d+M_T) of the pair (M_T, d+M_T) at an invariant cut. On cube~3.24 (Isom = D3): R fixes 3 arcs (ends 3 + 3 on the Eisenstein cusps), each disc d- there holds exactly one of R's fixed points (Kerekjarto), so L(R) = 3 - 4 = -1; each swap fixes 4 arcs (ends 4 + 4 on the annular cusps 1, 2), an orientation-preserving involution of an annulus fixes 0 or 2 points, so L(swap) = 4 - 4 = 0; L(e) = N = 2: the character (2, -1, 0) is E, D3's doublet (R-charges w, w^2; the swaps exchange them); B1388's zeros agree (the R-fixed zeros' Hopf indices +1, -1, +1). Schur: with one Higgs doublet of each type (a one-dimensional representation) the covariant Yukawas on E are [[0, y], [+-y, 0]], one singular value twice -- the two generations are exactly degenerate in every sector at the symmetric point; the symmetric 10 10 5_H coupling needs the Higgs in A1; a Higgs in E splits them only on a vacuum breaking D3 completely (a swap-invariant vacuum has |h+| = |h-|, an R-invariant one h = 0). The pullback three (B1390: Z/3's regular representation) with a Higgs of definite charge q: every symmetric covariant texture has a degenerate pair (B1362's circulant for q = 0, and for q = 1, 2), the 10 5bar texture a permutation; with a deck-inverting isometry the three are S3's 2 + 1, a structure present on 115 of B1386's 184 members (142 with a free order-3 isometry), so the binding condition is |N| = 1 on the quotient. NEGATIVE for Yukawa ratios as an output of the symmetric geometry: it supplies a flavour group (S3 on cube~3.24), not the ratios; every hierarchy between symmetry partners is a breaking effect of undetermined size. Fences: the seat's frame, spin-0 half, the 27-frame; tree level; the Higgs doublets' representations an input (index 0, B1372). Routed into the kill graph. 0 of 19.  

@@ -1,0 +1,2 @@
+# B1396 capped_cusp.py census -- run 2026-09-28T10:53Z (not sealed: the drafted kill test is a theorem, FINDINGS section 1); python-flint 0.9.0, SnapPy 3.3.2
+EXIT 0 (206 s): identity passed; summary in capped_stdout.txt, members with rotations in capped_progress.txt, every pair and cusp row in capped_census.json
