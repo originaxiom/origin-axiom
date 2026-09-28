@@ -8206,6 +8206,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1394": {
+   "slug": "the regular three",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B325",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1395": {
    "slug": "the free cusp is charge blind",
    "motifs": [

@@ -285,11 +285,31 @@ class Member:
         return Counter(lam), phi
 
 
+class LightStateMember(EC.StateMember):
+    """B1385's StateMember without its sympy H_1(M; Q) and cusp analysis (_homology, _cusps), which this instrument never reads.
+    On the 90-tetrahedron cube~3.24 that step exhausted memory: the first census run was killed there (exit 137)."""
+
+    def __init__(self, M, label):
+        self.name, self.M = label, M
+        self.T = M.canonical_retriangulation()
+        self.mc = EC.t3mlite.Mcomplex(self.T)
+        self.cusp_idx = self.T._get_cusp_indices_and_peripheral_curve_data()[0]
+        self.tets = self.mc.Tetrahedra
+        self.n = len(self.tets)
+        self.faces, self.edges = self.mc.Faces, self.mc.Edges
+        self.nf, self.ne = len(self.faces), len(self.edges)
+        self.num_cusps = self.T.num_cusps()
+        self._dual_complex()
+        self.auts = self.mc.isomorphisms_to(self.mc)
+        for a in self.auts:
+            self._check_aut(a)
+
+
 def member_from(name_or_manifold, label):
     if isinstance(name_or_manifold, str):
         FM = FI.FamilyMember(name_or_manifold)
     else:
-        FM = EC.StateMember(name_or_manifold, label)
+        FM = LightStateMember(name_or_manifold, label)
     return Member(FM, label)
 
 
@@ -359,23 +379,35 @@ def census_members():
     return arith
 
 
-def census(out_json=None):
+def census(out_json=None, partial=None):
+    """partial: a JSON-lines file written member by member, so that a killed run loses nothing; members already in it are read back"""
     t0 = time.time()
     arith = census_members()
     RP = _load("b1386_the_open_cusp", "frontier/B1386_the_open_eisenstein_cusp/verification/the_open_cusp.py")
     todo = [(n, n) for n in arith] + [("cube~3.24", RP.member())]
+    done = {}
+    if partial and Path(partial).exists():
+        for line in open(partial):
+            d = json.loads(line)
+            done[d["label"]] = d
     all_rows, xcheck_bad = [], []
     for i, (label, src) in enumerate(todo):
-        t1 = time.time()
-        M = member_from(src, label)
-        Ms = src if not isinstance(src, str) else snappy.Manifold(src)
-        mine, theirs = own_arcs(M), b1390_arcs(Ms, label)
-        if mine != theirs:
-            xcheck_bad.append((label, dict(mine), dict(theirs)))
-        got = analyse(M)
-        all_rows += got
-        print("progress %3d/%d %-12s tets %4d  rows %4d  %.1f s" % (i + 1, len(todo), label, M.nt, len(got), time.time() - t1),
-              file=sys.stderr, flush=True)
+        if label not in done:
+            t1 = time.time()
+            M = member_from(src, label)
+            Ms = src if not isinstance(src, str) else snappy.Manifold(src)
+            mine, theirs = own_arcs(M), b1390_arcs(Ms, label)
+            d = json.loads(json.dumps(dict(label=label, rows=analyse(M),
+                                           xcheck=None if mine == theirs else [label, dict(mine), dict(theirs)])))
+            if partial:
+                with open(partial, "a") as fh:
+                    fh.write(json.dumps(d) + "\n")
+            print("progress %3d/%d %-12s tets %4d  rows %4d  %.1f s" % (i + 1, len(todo), label, M.nt, len(d["rows"]),
+                                                                       time.time() - t1), file=sys.stderr, flush=True)
+            done[label] = d
+        all_rows += done[label]["rows"]
+        if done[label]["xcheck"]:
+            xcheck_bad.append(done[label]["xcheck"])
     rows = [r for r in all_rows if "anomalies" not in r]
     anomalies = [r for r in all_rows if "anomalies" in r]
     members_rot = sorted({r["member"] for r in rows})
@@ -402,7 +434,7 @@ if __name__ == "__main__":
         for r in analyse(M):
             print(r)
     if mode == "census":
-        summary, rows, p3, p1_fail = census(out_json=str(HERE / "census.json"))
+        summary, rows, p3, p1_fail = census(out_json=str(HERE / "census.json"), partial=str(HERE / "census_partial.jsonl"))
         for k, v in summary.items():
             print("%-28s %s" % (k, v))
         print("P1 failures:", p1_fail[:5])

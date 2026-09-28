@@ -15785,3 +15785,17 @@ baseline.
 - The Hořava–Witten E₈ wall is recorded as a speculative M-theory reading of the cap, not a result.
 
 Lock: `tests/test_b1395_the_free_cusp_is_charge_blind.py`. 0 of 19.
+
+## 2026-09-28 — B1394 run as sealed: P1 holds, P2 = 1/2, P3 SOME
+
+The sealed census ran after the seal (a4712e8d) and answered all three predictions.
+- **P1.** Every one of the 96 acyclic non-trivial (rotation, character) pairs has balanced arc weights, so the source three is regular.
+- **P2.** Half of the 192 non-trivial pairs are acyclic.
+- **P3, the kill test: SOME, against my sealed prior (NONE, about 60%).**
+  - 54 non-acyclic pairs on five members carry unbalanced weights. On k = 3, all three arcs carry the same weight.
+  - Each has h¹ = h² ≥ 2.
+  - The prior's reasoning, that a non-acyclic character's extra classes come in g-orbits that keep the balance, was wrong.
+- **Engineering.** The second attempt died at cube~3.24 for lack of memory, in a sympy H₁ the instrument does not use. It is skipped
+  now. Rows are written member by member, and the record keeps all three attempts.
+
+Lock: `tests/test_b1394_the_regular_three.py`. 0 of 19.

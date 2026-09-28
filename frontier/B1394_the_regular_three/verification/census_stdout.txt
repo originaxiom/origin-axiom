@@ -1,0 +1,68 @@
+members                      100
+members_with_rotations       9
+pairs                        213
+nontrivial                   192
+acyclic_nontrivial           96
+P1_failures                  0
+P3_unbalanced_nonacyclic     54
+arc_crosscheck_failures      []
+anomalies                    0
+k_values                     {3: 204, 6: 9}
+seconds                      190
+P1 failures: []
+P3 (non-acyclic, non-trivial, unbalanced):
+    {'member': 's959', 'k': 3, 'dim_inv': 1, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [0, 0, 3], 'balanced': False}
+    {'member': 's959', 'k': 3, 'dim_inv': 1, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [0, 3, 0], 'balanced': False}
+    {'member': 'o10_150704', 'k': 6, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [4, 1, 1], 'balanced': False}
+    {'member': 'o10_150704', 'k': 6, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [1, 1, 4], 'balanced': False}
+    {'member': 'o10_150704', 'k': 6, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [1, 4, 1], 'balanced': False}
+    {'member': 'o10_150704', 'k': 6, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [4, 1, 1], 'balanced': False}
+    {'member': 'o10_150725', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 3, 3], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150725', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 3, 3], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'o10_150729', 'k': 3, 'dim_inv': 2, 'trivial': False, 'h': [0, 2, 2], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 7, 7], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 7, 7], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 5, 5], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 7, 7], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 6, 6], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+    {'member': 'cube~3.24', 'k': 3, 'dim_inv': 4, 'trivial': False, 'h': [0, 7, 7], 'acyclic': False, 'counts': [3, 0, 0], 'balanced': False}
+(190 s)

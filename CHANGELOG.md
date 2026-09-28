@@ -1,5 +1,25 @@
 # Changelog
 
+## B1394 — the regular three, run as sealed: every acyclic invariant order-3 character gives a regular source three (P1, 96 of 96); half the non-trivial characters are acyclic (P2); the kill test P3 came out SOME, against the prior
+
+- **The census.**
+  - Members: the 99 arithmetic census members and cube~3.24. Nine have an order-3 rotation.
+  - 213 (rotation, character) pairs, 21 of them trivial.
+  - Twisted Betti numbers over F₇ and F₁₃, which agree on every pair.
+  - Arc counts agree with B1390's instrument on all 100 members.
+- **P1, the theorem.** All 96 acyclic non-trivial pairs carry balanced weights, so sources on the fixed arcs are m copies of the
+  regular representation: three times one.
+- **P2.** 96 of 192 non-trivial pairs are acyclic.
+- **P3, the kill test: SOME.** The sealed prior was NONE, about 60%.
+  - 54 non-acyclic non-trivial pairs carry unbalanced weights: s959 2, o10_150704 4, o10_150725 2, o10_150729 20, cube~3.24 26.
+  - On k = 3, all three arcs carry one weight.
+  - Every one has h¹ = h² ≥ 2, i.e. massless bulk modes of the same charge.
+  - They are registered as the only places in the class where a symmetric source three is not regular.
+- **The run.** Two earlier attempts wrote no census number. The second was killed at cube~3.24 for lack of memory, in a sympy H₁ that
+  B1385's `StateMember` builds and this instrument never reads. The third skips it, and nothing computed changed.
+
+Lock: `tests/test_b1394_the_regular_three.py`. No physics crossed. 0 of 19.
+
 ## B1395 — the free cusp is charge-blind at finite energy: no finite-energy field at a free cusp knows the sign of the charge, so the charge-odd datum must be an input of the completion (a flux on a capped cusp torus, or non-normalizable sources)
 
 The owner's question after B1393: what physical ingredient at a free cusp knows the sign of the charge?

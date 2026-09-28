@@ -1,7 +1,7 @@
 {
  "id": "B1394",
- "verdict": "OPEN",
- "instrument": false,
+ "verdict": "PROVED",
+ "instrument": true,
  "depends_on": [
   "B1393",
   "B1390",
@@ -15,5 +15,5 @@
  "authored_by": "cc",
  "creates_law": false,
  "identifications": [],
- "claim_one_line": "THE REGULAR THREE, SEALED (not yet run; sL-7/sL-8 after B1393): can a symmetric source placement in m004's class give a three that is not three times one? Theorem (proved at seal; the physical-bridge lane's R32 Hopf-trace argument generalised): for an order-3 rotation with k = 3m fixed arcs and a g-invariant rank-one flat L with lift, sum of the arc weights = L(g^; Q); if H*(Q; L) = 0 the weights are balanced (m of each cube root of unity), the source-mode module H^1(Q, N; L) is m copies of the regular representation and each lift keeps m invariant modes. Census: the 99 arithmetic census members of B1390 and cube~3.24, every rotation subgroup of order 3, every g-invariant character to mu_3 (torsion included), twisted Betti numbers over F_7 and F_13, lift weights per arc; control m202 (R32). Sealed: P1 acyclic => balanced (instrument check); P2 the acyclic fraction (read); P3 any non-acyclic non-trivial unbalanced case? NONE / SOME, prior NONE ~60%. PREREGISTRATION.md sha256 recorded in docs/SEAL_LEDGER.md."
+ "claim_one_line": "THE REGULAR THREE, run as sealed (a4712e8d; sL-7/sL-8 after B1393): theorem (the physical-bridge lane's R32 Hopf-trace argument generalised): for an order-3 rotation with k = 3m fixed arcs and a g-invariant rank-one flat L with lift, the sum of the arc weights is L(g^; Q); if H*(Q; L) = 0 the weights are balanced and the source-mode module is m copies of the regular representation. Census (the 99 arithmetic census members and cube~3.24; every order-3 rotation subgroup; every invariant character to mu_3; twisted Betti numbers over F_7 and F_13; arc counts cross-checked with B1390's instrument on all 100): 9 members with rotations, 213 pairs (21 trivial). P1 holds (96 of 96 acyclic non-trivial pairs balanced). P2: 96 of 192 non-trivial pairs acyclic. P3 SOME, against the sealed prior (NONE ~60%): 54 non-acyclic non-trivial pairs are unbalanced (s959 2, o10_150704 4, o10_150725 2, o10_150729 20, cube~3.24 26); on k = 3 all three arcs carry one weight, on o10_150704 (k = 6) the counts are (4, 1, 1); every one has h1 = h2 >= 2, massless bulk modes of the same charge. They are the only places in the class where a symmetric source three is not regular, registered as a lead for the lane and sL-7. Two earlier attempts wrote no census number (the second killed at cube~3.24 for memory: B1385's StateMember builds a sympy H_1 this instrument never reads); the third skips it, nothing computed changed. No physics crossed. 0 of 19."
 }
