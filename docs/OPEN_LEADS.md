@@ -3171,6 +3171,14 @@ The search for such members is the next computable step toward three. It is not 
 - Verified on 283 arithmetic members: 508 order-3 elements, 0 closed fixed curves. The one exception in B1186's family is the
   non-arithmetic o10_143602.
 - The clean structure does exist outside the class, over ℚ(i) and ℚ(√−7), but those classes have no hexagonal cusps.
+
+**Status (2026-09-27, B1391): the flavour of the three.** The generations carry the isometries' action, with Lefschetz numbers as
+characters.
+- **cube~3.24.** Its two generations are D₃'s doublet, so they are degenerate at the symmetric point.
+- **The pullback three.** It is ℤ/3's regular representation. With a Higgs of any definite charge the up-type pair is degenerate
+  (B1362's circulant). If an isometry of the cover inverts the deck, the three are S₃'s "2 + 1".
+- **The next target toward three.** A member Q with |N(Q)| = 1 whose free ℤ/3 cover carries a deck-inverting isometry. Its
+  hierarchy would still be a breaking effect. `frontier/B1391_the_generations_flavour`.
 `frontier/B1390_the_eisenstein_axes`.
 
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)

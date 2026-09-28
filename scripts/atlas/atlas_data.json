@@ -8058,9 +8058,9 @@
     "L1",
     "L4"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 3,
-   "status": "open",
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B1388": {
@@ -8151,6 +8151,20 @@
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1391": {
+   "slug": "the generations flavour",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 33,
    "status": "banked",
    "domain": "arithmetic"
   },

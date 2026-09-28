@@ -10991,5 +10991,17 @@
   "revival_score": null,
   "note": "ROUTED at banking time's follow-up (2026-09-27): the whole-suite fast lane on fefb938a found B1388 (NEGATIVE as sealed: the physical reading of B1386/B1387's chirality retired because the seat's finite-cut count moves with the cusp cut) absent from the kill graph. Routed in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed asserts the kill's discriminating computation is in the repository and must be set by the provenance pass, not mechanically. The arc's post-seal anatomy (the Higgs-zero count, the zeros on the Eisenstein bisector) is recorded in its FINDINGS as unsealed computation; it does not revive the killed reading.",
   "routed_from": "sm-branch-2026-09-27-banking"
+ },
+ {
+  "id": "B1391",
+  "claim_killed": "THE YUKAWA TEST AT THE LEVEL OF SYMMETRY (kill test 4 on the chirality mechanism, structural; not sealed because banked theorems decide it): the Yukawa hierarchy is not an output of the frame's symmetric geometry. The generations carry the isometries' action with Lefschetz characters L(g) = chi(Fix g, Fix g n d+) at an invariant cut. On cube~3.24 L(e) = 2, L(R) = 3 - 4 = -1 (3 fixed arcs; each disc d- at the Eisenstein cusps holds one of R's fixed points), L(swap) = 4 - 4 = 0 (4 fixed arcs; an annulus involution fixes 0 or 2), so the two generations are D3's doublet E; with a Higgs in a one-dimensional representation the covariant Yukawas are [[0, y], [+-y, 0]], degenerate, and a Higgs in E splits them only on a vacuum breaking D3 completely. The pullback three (Z/3's regular representation, B1390) has a degenerate up-type pair for a Higgs of every definite charge (B1362's circulant), or S3's 2 + 1 with a deck-inverting isometry. The geometry supplies a flavour group, not the ratios. 0 of 19.",
+  "kill_form": "unrouted-unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": null,
+  "priority": "UNTRIAGED",
+  "revival_score": null,
+  "note": "ROUTED at banking time (2026-09-27), in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading: a member whose generations carry distinct one-dimensional characters with a Higgs sector that allows a full-rank non-degenerate covariant texture, or a derived symmetry-breaking vacuum with its size.",
+  "routed_from": "sm-branch-2026-09-27-banking"
  }
 ]

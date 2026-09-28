@@ -826,3 +826,14 @@ t06828, t06829, t11365, o9_41000, o9_41003–41006, o9_41008 and o10_143600–14
   commensurability class" stands.
 
 `frontier/B1390_the_eisenstein_axes`; the lock reproduces the 13 in seconds. 0 of 19.
+
+## Fifty-third note (2026-09-27): the fourth test, at the level of symmetry (B1391)
+
+Before computing any Yukawa overlap I asked what symmetry allows. The frame's count is an Euler characteristic of a pair, so the
+isometries act on the generations with Lefschetz numbers as characters.
+- **cube~3.24.** The two generations are D₃'s doublet: the order-3 isometry gives them ω and ω², and the swaps exchange them. With one
+  Higgs doublet of each type they have identical masses.
+- **The pullback three.** It carries our B1362 circulant degeneracy, or S₃'s "2 + 1" if a symmetry inverts the deck.
+
+So the geometry gives a flavour group, S₃, and nothing about the ratios. For your paper's list of what the object does not fix, this
+adds that the Yukawa hierarchy is, at best, a symmetry-breaking effect of undetermined size. 0 of 19.

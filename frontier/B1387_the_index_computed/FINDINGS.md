@@ -1,5 +1,9 @@
 # B1387 — THE INDEX COMPUTED: the harmonic cusp form of cube~3.24's self-selected class, solved numerically, gives N(v₊) = ±2. The first Fourier coefficient at both Eisenstein cusps is non-zero (|c|·√covol = 1.00695, equal at the two, as the swap demands). Its triple phase has cosine 0.37, so each Eisenstein cusp is disc-type with χ = −1 (L1). The two other cusps are annular. B1386's hypothesis holds, and the record's first symmetry-protected chiral index, computed rather than conditioned, is two: not zero and not three. The instrument is the one B1370 said the record lacked.
 
+> **Currency (2026-09-27, B1391): the two are a doublet.** In the 27-frame (B1389) this N = ±2 is two generations. Under the member's
+> D₃ they form the two-dimensional irreducible representation (Lefschetz character (2, −1, 0)), so at the symmetric point they are
+> exactly degenerate. `frontier/B1391_the_generations_flavour`.
+
 > **Currency (2026-09-27, B1388, sealed kill test 1): the physical reading is retired as sealed.** The seat's count, a relative
 > index at the cut, moves with the cut. At both Eisenstein cusps χ(∂⁺) runs +4, +7, +8, +2, −1 as the cut rises (tangencies at
 > τ = 0.0986, 0.1053, 0.1867; the Higgs zeros on the rotation axes at 0.1034). *After the seal:* the asymptotic count here equals

@@ -15654,3 +15654,32 @@ not m004's commensurability class, whose census part is 99.
 - a sum of rotated cusps whose residues cancel mod 3, which no symmetry forces.
 
 No order-3 symmetry in the class forces |N| = 3. Lock: `tests/test_b1390_the_eisenstein_axes.py` (4 tests, 9 s). 0 of 19.
+
+## 2026-09-27 — B1391: the generations' flavour (test 4, structural)
+
+The fourth test was the Yukawas. Before any overlap integral, symmetry decides what a Yukawa coupling can be. The frame's count is the
+Euler characteristic of the pair (M_T, ∂⁺M_T) at an invariant cut. So the isometries fixing the Higgs class act on the generations,
+with Lefschetz numbers χ(Fix g, Fix g ∩ ∂⁺) as characters.
+
+On cube~3.24 (Isom = D₃):
+- **R.** B1390's instrument gives 3 fixed arcs (ends 3 + 3 on the Eisenstein cusps). Each ∂⁻ there is one disc, and a periodic map
+  of a disc has exactly one fixed point, so 4 ends lie in ∂⁺ and L(R) = −1.
+- **Each swap.** 4 fixed arcs with ends on the annular cusps 1 and 2. An involution of an annulus has 0 or 2 fixed points, so the ends
+  split 2 / 2 and L(swap) = 0.
+- **The identity.** L(e) = N = 2.
+- **The character** (2, −1, 0) is D₃'s doublet E. B1388's zeros agree: R fixes three zeros with Hopf indices +1, −1, +1, so
+  tr R = −1.
+
+Schur's lemma then gives:
+- **One Higgs doublet of each type.** Degenerate generations in every sector (covariant forms [[0, y], [±y, 0]]).
+- **A Higgs in E.** A splitting only through a vacuum breaking D₃ completely.
+- **The pullback three** (ℤ/3's regular representation). A degenerate up-type pair for a Higgs of every definite charge, which extends
+  B1362's circulant. If an isometry inverts the deck, the generations form S₃'s "2 + 1".
+
+So the symmetric geometry supplies a flavour group, not ratios. Test 4, as posed, is NEGATIVE; it is routed into the kill graph.
+- Not sealed: the outcome follows from banked theorems once the fixed sets are known.
+- Lock: `tests/test_b1391_the_generations_flavour.py`.
+- 0 of 19.
+
+**The fast lane on B1390's tree (57d2bcdf):** 9 failed, 6 315 passed, 52 skipped in 1 h 02 m. The nine are exactly the known baseline
+(B1389's run, less B833's routing failure, which the routing of B1388 fixed); nothing new.

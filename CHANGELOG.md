@@ -1,5 +1,20 @@
 # Changelog
 
+## B1391 — the generations' flavour (test 4, structural): on cube~3.24 the frame's two generations are D₃'s doublet, so at the symmetric point they are exactly degenerate; the pullback three carries B1362's circulant degeneracy; the geometry supplies a flavour group, not the Yukawa ratios
+
+The frame's generations carry the isometries' action, with character given by Lefschetz numbers of the pair (M_T, ∂⁺M_T). On
+cube~3.24 the character is L(e) = 2, L(R) = 3 − 4 = −1 and L(swap) = 4 − 4 = 0: that is E, D₃'s two-dimensional irreducible
+representation.
+- **The fixed-point placements are exact.** R's fixed arcs and the swaps' fixed arcs come from B1390's instrument. Where their ends fall
+  follows from two lemmas: a periodic map of a disc has exactly one fixed point, and an involution of an annulus has 0 or 2.
+- **Yukawas at the symmetric point.** With one Higgs doublet of each type, Schur makes the two generations degenerate in every sector.
+  A Higgs in E splits them only through a vacuum that breaks D₃ completely.
+- **The pullback three (ℤ/3 regular).** A degenerate up-type pair for a Higgs of any definite charge (B1362's circulant). If an
+  isometry inverts the deck, the generations form S₃'s "2 + 1".
+- **Verdict.** NEGATIVE for Yukawa ratios from the symmetric geometry. No seal: the outcome follows from banked theorems. 0 of 19.
+
+The fast lane on B1390's tree (57d2bcdf): 9 failed (the known baseline, unchanged), 6 315 passed, 52 skipped.
+
 ## B1390 — the Eisenstein axes: in m004's commensurability class an order-3 or order-6 isometry fixes only cusp-to-cusp arcs, so an order-3 symmetry that rotates no cusp acts freely and sL-7's clean target does not exist; 13 of B1186's 112 are non-arithmetic, so the family is not the class
 
 Test 3's clean target is decided by arithmetic, not by a search. Every symmetry lies in PGL(2, ℚ(√−3)) (Skolem–Noether), where an order-3

@@ -326,6 +326,10 @@ emitted value. The structure is the object's; the values are the observer's.
 > *And (B1390): the third test's clean target, a three that is not a pullback, is excluded by the field ℚ(√−3) itself. In m004's
 > class an order-3 symmetry either rotates cusps or acts freely, so every three there is three times a one, or rests on cancelling
 > residues that no symmetry forces. The check also showed that 13 members of the family are not in the class at all.*
+>
+> *And (B1391), the Yukawas at the level of symmetry: the member's two generations form a doublet of its symmetry group, so at the
+> symmetric point they have exactly equal masses. The geometry supplies a flavour symmetry, S₃, but not the mass ratios. Those need
+> the symmetry broken, and nothing here says by how much.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

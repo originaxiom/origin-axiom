@@ -749,3 +749,12 @@ left it.
 > - The check found that 13 of B1186's 112 are non-arithmetic, so the family is not the class (E4 instance; no verdict changes).
 >
 > 0 of 19 (`frontier/B1390_the_eisenstein_axes`).
+
+> **Currency note (2026-09-27, B1391): test 4 at the level of symmetry.**
+> - The frame's generations carry the isometries' action, with Lefschetz numbers as characters. On cube~3.24 its two generations are
+>   D₃'s doublet, so with one Higgs doublet of each type they are exactly degenerate.
+> - The pullback three carries B1362's circulant degeneracy, or S₃'s "2 + 1" if an isometry inverts the deck.
+> - The geometry supplies a flavour group, not the Yukawa ratios. Every hierarchy between symmetry partners is a breaking effect of a
+>   size the geometry does not give.
+>
+> 0 of 19 (`frontier/B1391_the_generations_flavour`).
