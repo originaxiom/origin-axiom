@@ -138,7 +138,8 @@ built from SnapPy's gluing rows only.
   independent of which edge weight is pinned.
 - **The retriangulation control is weak and I do not count it:** all 40 randomise-and-simplify runs
   returned to two-tetrahedron triangulations, so it tests relabelling, not genuinely different
-  triangulations. The author's 30-of-30 claim is not verified here.
+  triangulations. Invariance is instead settled by theorem for the triangulations actually used —
+  they are the canonical Epstein–Penner ones (§7.1).
 
 ### 3.2 A sign error in the literature, and what "reproduces exactly" means
 
@@ -211,9 +212,8 @@ membership of the 112, and the eight outside twelfths.
 From the Cartan matrix by reflection closure: 72 roots, all norm 2; **|W(E₆)| = 51 840**; **120**
 A₂ subsystems in a **single** Weyl orbit, stabiliser **432**; **720** commuting (A₂, A₁) pairs, six
 partners each, in a single orbit, stabiliser **72**. This closes the consolidated report's
-"B1366 'all one orbit' — not verified". **Not re-run:** the three hypercharge directions among
-28 513, and the 8 177 branchings — so the conclusion that uniqueness returns only with the
-16 + 10 + 1 branching rests on the author's scan, not on mine.
+"B1366 'all one orbit' — not verified". The three hypercharge directions are verified and made
+exhaustive in §7.2; the 8 177 branchings depend on the author's scan box and are not reproduced.
 
 ---
 
@@ -230,7 +230,7 @@ record now holds a second.
 
 ## 5. What this round did not do
 
-The author's retriangulation claim (30 of 30); the three hypercharge directions; the 8 177
+The author's retriangulation claim (30 of 30) — no longer load-bearing, §7.1; the 8 177
 branchings; the full 112-member family; the journal printing of GHHR; S22's extension to level 7 and
 its two torsion-missed loci per level; the 24 order-sensitive sites of lead L222; the 15 silent
 receipts of L223.
@@ -259,3 +259,65 @@ L222) is the right instrument for the rest, and I have not re-run it.
 `r12b_separation.py`. The E83 reproduction, the mutation test, the manifest audit, and the S24/S25
 checks were run inline and are recorded above with their outputs. Primary sources read at source:
 GHHR arXiv:1604.02688 (LaTeX e-print); Celoria–Hodgson–Rubinstein arXiv:2509.09886.*
+
+---
+
+## 7. Addendum — the two gaps left open above, closed
+
+### 7.1 B1431's separation is a statement about the manifolds
+
+§3.4 verified the separation on SnapPy's triangulations, and my own retriangulation control could not
+test invariance. That matters, because F1 recommends putting B1431 into the paper's §2 — which is only
+right if the index is a manifold invariant, and the record's own lead L225 says *"The 1-efficiency
+condition is a hypothesis this bench has **not** checked … Until it is, the invariance claim is
+imported rather than verified here."*
+
+Read at source (Garoufalidis–Hodgson–Rubinstein–Segerman, arXiv:1303.5278, LaTeX e-print):
+
+- **Thm 1.2:** a triangulation admits an index structure — the index is well-defined — **iff** it is
+  1-efficient.
+- **Thm 1.3:** a triangulation of an atoroidal cusped manifold with a **semi-angle structure** is
+  1-efficient; strict angle structures are semi-angle structures.
+- **Thm 1.4:** for T in 𝒳_M^EP — the regular ideal triangulations of the **Epstein–Penner canonical
+  decomposition** — I_M := I_T is well-defined: a topological invariant.
+- **Remark 1.5**, which is why canonicity matters: for other triangulations with strict angle
+  structures, *"it is not known if they can be connected by 2–3 and 0–2 moves within the class of
+  1-efficient triangulations."*
+
+Checked on the triangulations used, for m004, m003 and 4_1:
+
+```
+all shapes = the regular ideal tetrahedron 1/2 + i sqrt(3)/2        -> strict angle structure
+canonize() leaves the isomorphism signature unchanged               -> this IS the Epstein-Penner triangulation
+canonical retriangulation: 2 tetrahedra, no finite vertices          -> the canonical cells are these tetrahedra
+```
+
+So by Thm 1.3 they are 1-efficient, by Thm 1.2 the index is defined, and by Thm 1.4 — the canonical
+cells being exactly these tetrahedra, with nothing to subdivide and no bridges — **I_T = I_M**.
+B1431's separation, on honest classes, is a separation of **the manifolds**, and F1's §2
+recommendation stands on verified ground. This also answers the record's L225 question 3 without
+Regina. The author's 32-of-32 random-retriangulation agreement remains unverified here, and is no
+longer load-bearing: random triangulations are not in 𝒳_M^EP, so that agreement was never the
+theorem anyway.
+
+### 7.2 B1430's "exactly three hypercharges" — verified, and made exhaustive (`r13_s25_hypercharge.py`)
+
+B1430 reached "exactly 3" by scanning a box of 28 513 rational directions and says so: *"not an
+exhaustive proof over all of them."* The box is unnecessary. For one commuting (A₂, A₁) pair, the 27
+(the Weyl orbit of ω₁, minuscule) splits into eleven irreducible pieces of exactly the Standard-Model
+shape — one (3,2), one triplet of Q's colour type, three of the conjugate type, three doublets, three
+singlets. A hypercharge lies in the 3-dimensional commutant and is constant on each piece; fixing Q's
+charge at 1/6 fixes its scale and sign; which conjugate triplet takes −2/3, which doublet +1/2 and
+which singlet 1 gives **27 overdetermined linear systems**, each solved exactly.
+
+```
+solutions over the WHOLE commutant (rational or not):   3 directions
+each re-checked against the multiset on all 27 weights: yes
+|W(E6)| = 51 840;  stabiliser of the (A2, A1) pair: 72
+the 3 directions under that stabiliser:                 ONE orbit
+```
+
+Since all 720 pairs are one Weyl orbit (§3.6), the statement holds for every pair. **B1430's count is
+right, and it is now a theorem-grade enumeration rather than a scan.** Its other two caveats stand
+and I have not addressed them: regular embeddings only (no S-subalgebras), and Weyl-conjugacy rather
+than group-conjugacy. The 8 177 branchings depend on the box and are not reproduced.

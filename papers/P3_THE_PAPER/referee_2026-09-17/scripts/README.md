@@ -113,3 +113,14 @@ Three traps these scripts document rather than hide:
 - **Truncating a running product at the target order loses terms** when a factor still to come has
   negative degree — the bug the project's B1428 found in its own first implementation. `r12` keeps the
   running product through the target order minus the remaining factors' lower bounds.
+
+Added after round 5:
+
+| script | what it checks | result |
+|---|---|---|
+| `r13_s25_hypercharge.py` | B1430's "exactly three hypercharges give the 27 the Standard-Model multiset", **exhaustively**: the 27 as the Weyl orbit of ω₁, its eleven A₂ × A₁ pieces, and 27 exact linear systems over the whole 3-dimensional commutant | exactly **3** directions, one orbit under the pair's stabiliser (order 72) — replacing the arc's 28 513-direction box |
+
+The 3d index's invariance for B1431 needed no new script: SnapPy's `canonize()` leaves the m004, m003
+and 4_1 triangulations unchanged and their shapes are all regular, so they are the canonical
+Epstein–Penner triangulations with strict angle structures, and Garoufalidis–Hodgson–Rubinstein–Segerman
+Thms 1.2–1.4 (arXiv:1303.5278) make the index computed on them the manifold invariant.

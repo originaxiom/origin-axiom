@@ -74,9 +74,10 @@ own method and its own limits.
 | the DGG **3d index of m004**, rotated (0,0) entry | computed and matched to the published coefficients (§6) |
 | the 3d index at **every** boundary class (GHHR eq. 16) | all eight published figure-eight classes reproduce — see §6 on one printed sign |
 | m004 and m003 share the trivial-class index (B1428) | verified: identical through q⁸ |
-| the full collection of classes separates m004 from m003 (B1431) | verified, complete over every class that could compete — with two corrections to its wording (§4) |
+| the full collection of classes separates m004 from m003 (B1431) | verified, complete over every class that could compete — with two corrections to its wording (§4) — and **a manifold invariant**: the triangulations used are the canonical Epstein–Penner ones with strict angle structures, so I_T = I_M by Garoufalidis–Hodgson–Rubinstein–Segerman Thms 1.2–1.4 |
 | CS(m003) = ¼; the orientation/order bits act trivially on the sister orbit (B1429) | verified; the 104 listed family classes and their counts reproduce exactly |
 | E₆: 120 A₂ in **one** Weyl orbit (stabiliser 432); 720 commuting (A₂, A₁) pairs in one orbit (stabiliser 72); \|W\| = 51 840 | verified from the Cartan matrix |
+| exactly three hypercharges give the 27 the Standard-Model multiset, in one orbit (B1430) | verified **exhaustively** — 27 exact linear systems over the whole 3-dimensional commutant, not a box: exactly 3 directions, one orbit under the pair's stabiliser (order 72) |
 | the fixes to F2, F3, F4 and the seed-dependent lock | verified — mutation test, behavioural run, exhaustive manifest audit, package run under the failing seed (§3) |
 
 ### 2.2 Not verified — and no part of this report endorses these
@@ -91,10 +92,11 @@ t12835/o10_150701/t12839, the 61 + 12 vanishing sectors, the 38 070 multi-cusped
 verified the *theorem* behind the vanishing and the *lemma* (symplectic self-duality), not the runs.
 The ledger rows σ, λ, ℙ(B₀); the seven crossings; the 352-pair period scan; the 216-cell regulator
 grid; the G₂ orbifold with b₂ = 0; the genesis uniqueness theorem (144 candidates to one). The
-80 800 count, the one-per-background law, the exact ℚ(ζ) runs; B1351, B1367, B1368. From B1366 /
-the embedding claim, the three hypercharge directions among 28 513 and the 8 177 branchings (its
-orbit facts *are* verified). The 3d index's retriangulation invariance (my own control only
-exercised relabelled two-tetrahedron triangulations), and the membership of B1429's 112-member family.
+80 800 count, the one-per-background law, the exact ℚ(ζ) runs; B1351, B1367, B1368. From B1430, the
+8 177 branchings (they depend on its scan box) and its two remaining caveats — regular embeddings only,
+and Weyl- rather than group-conjugacy. The author's random-retriangulation agreement for the 3d index
+(no longer load-bearing: invariance holds by theorem for the canonical triangulations actually used).
+The membership of B1429's 112-member family.
 
 For these I confirmed only that a lock exists and, with the exceptions in §3, that it passes. The
 paper's own appendix is right that *"a lock is traceability, not re-derivation"*, and it should keep
@@ -122,7 +124,7 @@ manuscript:
 | every Sym^n of SL(2) is self-dual ⟹ net chirality ≡ 0 (error class E65, cost four arcs) | B1260 / E65 | **no** |
 | the DGG lane: T[4₁] = U(1) + 2 chirals from the NZ datum; abelian at all K, adversarially sourced | B488 / B528 | **no** |
 | *added round 5:* the 3d index of the object, computed; m004 and m003 share the trivial-class series | B1428 | **no** |
-| *added round 5:* **the full collection of classes separates m004 from m003** — a second separator besides Chern–Simons, which §2 presents as the only one | B1431 | **no** |
+| *added round 5:* **the full collection of classes separates m004 from m003** — a second separator besides Chern–Simons, which §2 presents as the only one; a manifold invariant, since the triangulations used are canonical | B1431 | **no** |
 | *added round 5:* the orientation and order bits act trivially on the whole sister orbit; the information lives on the family | B1429 | **no** |
 
 **Status (round 5): not addressed, and wider.** The manuscript changed by two lines since round 2; the
@@ -300,7 +302,9 @@ does not bear on the paper's negative, which stands.
 **It does bear on the paper's §2**, which I had wrongly said it did not. Computed at every boundary
 class (GHHR eq. 16, all eight published figure-eight classes reproduced), the trivial class of m004
 and m003 agree — but the full collection separates them, with witnesses in both directions, complete
-over every class that could compete (B1431, verified here with two corrections to its wording). §2
+over every class that could compete (B1431, verified here with two corrections to its wording). And
+it separates the *manifolds*, not just two triangulations: the triangulations used are the canonical
+Epstein–Penner ones, so the index computed is the topological invariant. §2
 presents the Chern–Simons invariant as the one thing the construction uses that tells the object
 from its sibling. There is now a second.
 
@@ -328,7 +332,11 @@ verdict and the seed-dependent lock (F3); the manifest's commit (F4); the sin²�
 
 **For the record rather than the paper:** B1428 should say which printing of GHHR its targets came
 from, since the arXiv printing's I(μ) differs in sign at q¹; and B1431 should name which longitude of
-m003 it means, since at the homological longitude the claim fails.
+m003 it means, since at the homological longitude the claim fails. Two of the record's own open
+caveats are closed here and can be marked so: L225's question 3 (1-efficiency, "not checked … for
+want of Regina") follows from the strict angle structure by Garoufalidis–Hodgson–Rubinstein–Segerman
+Thm 1.3, and the triangulations are the canonical ones, so Thm 1.4 applies; and B1430's "not an
+exhaustive proof" is replaced by an exact enumeration (`r13_s25_hypercharge.py`).
 
 Everything small is done. Item 1 is the report.
 
@@ -337,8 +345,10 @@ Everything small is done. Item 1 is the report.
 *Reproductions: `referee_2026-09-17/scripts/`. Round 1: `v1`–`v28`. Round 2: `r2_chain_table_drift`,
 `r2_lock_data_tracked`. Round 3: `r3_i26_euler`, `r3_m010_index`, `r4_r30_check`, `r5_tower_loci`,
 `r6_h1_three`, `r7_corank_bound`, `r8_enrichment_budget`, `r9_enrich_coefficients`. Round 4:
-`r10_controls`, `r11_3d_index`. Round 5: `r12_3d_index_classes`, `r12b_separation`, plus the E83
+`r10_controls`, `r11_3d_index`. Round 5: `r12_3d_index_classes`, `r12b_separation`,
+`r13_s25_hypercharge`, plus the E83
 reproduction, the gate mutation test, the manifest audit and the S24/S25 checks recorded in
 `REFEREE_REPORT_ROUND5_2026-09-29.md`. Primary sources read at source: Menal-Ferrer–Porti; DGG
 1108.4389 and 1112.5179; Garoufalidis 1208.1663; Garoufalidis–Gu–Mariño 2301.00098; Gang–Yonekura
-1803.04009; GHHR 1604.02688 (LaTeX e-print); Celoria–Hodgson–Rubinstein 2509.09886.*
+1803.04009; GHHR 1604.02688 (LaTeX e-print); Celoria–Hodgson–Rubinstein 2509.09886;
+Garoufalidis–Hodgson–Rubinstein–Segerman 1303.5278 (LaTeX e-print).*
