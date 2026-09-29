@@ -8806,7 +8806,7 @@
    ],
    "refs": [],
    "obstacle": "cancellation",
-   "obstacle_conf": 3,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "topology"
   },

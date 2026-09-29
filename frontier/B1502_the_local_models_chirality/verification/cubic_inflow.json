@@ -1,0 +1,1332 @@
+{
+ "positive control (QWZ Chern numbers)": {
+  "-3.0": 0.0,
+  "-1.0": -1.0,
+  "1.0": 1.0,
+  "3.0": 0.0
+ },
+ "classes": [
+  {
+   "class": "S3xS3 L(1/6,1/6,1/6)",
+   "order": 3,
+   "transverse Z_N": 3,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -2.094395102,
+      -2.094395102,
+      2.094395102,
+      2.094395102
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 4.509747244882934e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -2.094395102,
+      -2.094395102,
+      2.094395102,
+      2.094395102
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 5.266250202865052e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 5.417672226377439e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/8,1/8,1/8)",
+   "order": 4,
+   "transverse Z_N": 4,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.0,
+      1.0
+     ],
+     "normal eigenvalues": [
+      -1.570796327,
+      -1.570796327,
+      1.570796327,
+      1.570796327
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 3.925231146709438e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.0,
+      1.0
+     ],
+     "normal eigenvalues": [
+      -1.570796327,
+      -1.570796327,
+      1.570796327,
+      1.570796327
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 6.080941944488118e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.63089947318573e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/10,1/10,1/10)",
+   "order": 5,
+   "transverse Z_N": 5,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.309016994375,
+      0.951056516295
+     ],
+     "normal eigenvalues": [
+      -1.256637061,
+      -1.256637061,
+      1.256637061,
+      1.256637061
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 4.775249788392736e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.309016994375,
+      0.951056516295
+     ],
+     "normal eigenvalues": [
+      -1.256637061,
+      -1.256637061,
+      1.256637061,
+      1.256637061
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 5.102800490722269e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 3.692639165456277e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/5,1/5,1/5)",
+   "order": 5,
+   "transverse Z_N": 5,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.809016994375,
+      0.587785252292
+     ],
+     "normal eigenvalues": [
+      -2.513274123,
+      -2.513274123,
+      2.513274123,
+      2.513274123
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 3.847560047865944e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.809016994375,
+      0.587785252292
+     ],
+     "normal eigenvalues": [
+      -2.513274123,
+      -2.513274123,
+      2.513274123,
+      2.513274123
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 4.1540741810552243e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.735763317817875e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/12,1/12,1/12)",
+   "order": 6,
+   "transverse Z_N": 6,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -1.047197551,
+      -1.047197551,
+      1.047197551,
+      1.047197551
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.207867098017398e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -1.047197551,
+      -1.047197551,
+      1.047197551,
+      1.047197551
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 5.20754611223283e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.483110825743219e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/14,1/14,1/14)",
+   "order": 7,
+   "transverse Z_N": 7,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.623489801859,
+      0.781831482468
+     ],
+     "normal eigenvalues": [
+      -0.897597901,
+      -0.897597901,
+      0.897597901,
+      0.897597901
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 3.597533769998862e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.623489801859,
+      0.781831482468
+     ],
+     "normal eigenvalues": [
+      -0.897597901,
+      -0.897597901,
+      0.897597901,
+      0.897597901
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 3.597533769998862e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.4104299607080356e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/7,1/7,1/7)",
+   "order": 7,
+   "transverse Z_N": 7,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.222520933956,
+      0.974927912182
+     ],
+     "normal eigenvalues": [
+      -1.795195802,
+      -1.795195802,
+      1.795195802,
+      1.795195802
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.223150937794937e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.222520933956,
+      0.974927912182
+     ],
+     "normal eigenvalues": [
+      -1.795195802,
+      -1.795195802,
+      1.795195802,
+      1.795195802
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 6.6637101164777e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 5.453105385130469e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(3/14,3/14,3/14)",
+   "order": 7,
+   "transverse Z_N": 7,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.900968867902,
+      0.433883739118
+     ],
+     "normal eigenvalues": [
+      -2.692793703,
+      -2.692793703,
+      2.692793703,
+      2.692793703
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.874914122086836e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.900968867902,
+      0.433883739118
+     ],
+     "normal eigenvalues": [
+      -2.692793703,
+      -2.692793703,
+      2.692793703,
+      2.692793703
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 3.7238012298709097e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.69184177742026e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/16,1/16,1/16)",
+   "order": 8,
+   "transverse Z_N": 8,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.707106781187,
+      0.707106781187
+     ],
+     "normal eigenvalues": [
+      -0.785398163,
+      -0.785398163,
+      0.785398163,
+      0.785398163
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 3.6278191479449143e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.707106781187,
+      0.707106781187
+     ],
+     "normal eigenvalues": [
+      -0.785398163,
+      -0.785398163,
+      0.785398163,
+      0.785398163
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 5.000862780198044e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 2.9373740229761033e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(3/16,3/16,3/16)",
+   "order": 8,
+   "transverse Z_N": 8,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.707106781187,
+      0.707106781187
+     ],
+     "normal eigenvalues": [
+      -2.35619449,
+      -2.35619449,
+      2.35619449,
+      2.35619449
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 3.7257720599527483e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.707106781187,
+      0.707106781187
+     ],
+     "normal eigenvalues": [
+      -2.35619449,
+      -2.35619449,
+      2.35619449,
+      2.35619449
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 3.925231146709438e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.755547536505877e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/18,1/18,1/18)",
+   "order": 9,
+   "transverse Z_N": 9,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.766044443119,
+      0.642787609687
+     ],
+     "normal eigenvalues": [
+      -0.698131701,
+      -0.698131701,
+      0.698131701,
+      0.698131701
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.212599628240489e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.766044443119,
+      0.642787609687
+     ],
+     "normal eigenvalues": [
+      -0.698131701,
+      -0.698131701,
+      0.698131701,
+      0.698131701
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 4.566132342783142e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 5.647424180903416e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/9,1/9,1/9)",
+   "order": 9,
+   "transverse Z_N": 9,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.173648177667,
+      0.984807753012
+     ],
+     "normal eigenvalues": [
+      -1.396263402,
+      -1.396263402,
+      1.396263402,
+      1.396263402
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.926969055564841e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.173648177667,
+      0.984807753012
+     ],
+     "normal eigenvalues": [
+      -1.396263402,
+      -1.396263402,
+      1.396263402,
+      1.396263402
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 6.955527313080394e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.083643704580871e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(2/9,2/9,2/9)",
+   "order": 9,
+   "transverse Z_N": 9,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.939692620786,
+      0.342020143326
+     ],
+     "normal eigenvalues": [
+      -2.792526803,
+      -2.792526803,
+      2.792526803,
+      2.792526803
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.874748045952207e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.939692620786,
+      0.342020143326
+     ],
+     "normal eigenvalues": [
+      -2.792526803,
+      -2.792526803,
+      2.792526803,
+      2.792526803
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 4.1540741810552243e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 2.7894008272968645e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/20,1/20,1/20)",
+   "order": 10,
+   "transverse Z_N": 10,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.809016994375,
+      0.587785252292
+     ],
+     "normal eigenvalues": [
+      -0.628318531,
+      -0.628318531,
+      0.628318531,
+      0.628318531
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 3.925231146709438e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.809016994375,
+      0.587785252292
+     ],
+     "normal eigenvalues": [
+      -0.628318531,
+      -0.628318531,
+      0.628318531,
+      0.628318531
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 4.967302607124421e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 5.01907996276061e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(3/20,3/20,3/20)",
+   "order": 10,
+   "transverse Z_N": 10,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.309016994375,
+      0.951056516295
+     ],
+     "normal eigenvalues": [
+      -1.884955592,
+      -1.884955592,
+      1.884955592,
+      1.884955592
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 7.20266955653883e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.309016994375,
+      0.951056516295
+     ],
+     "normal eigenvalues": [
+      -1.884955592,
+      -1.884955592,
+      1.884955592,
+      1.884955592
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 4.966618992544258e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 5.177735492072797e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/22,1/22,1/22)",
+   "order": 11,
+   "transverse Z_N": 11,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.841253532831,
+      0.540640817456
+     ],
+     "normal eigenvalues": [
+      -0.571198664,
+      -0.571198664,
+      0.571198664,
+      0.571198664
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 4.775249788392736e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.841253532831,
+      0.540640817456
+     ],
+     "normal eigenvalues": [
+      -0.571198664,
+      -0.571198664,
+      0.571198664,
+      0.571198664
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 3.925231146709438e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.1284960951691644e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/11,1/11,1/11)",
+   "order": 11,
+   "transverse Z_N": 11,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.415415013002,
+      0.909631995355
+     ],
+     "normal eigenvalues": [
+      -1.142397329,
+      -1.142397329,
+      1.142397329,
+      1.142397329
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 3.925231146709438e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.415415013002,
+      0.909631995355
+     ],
+     "normal eigenvalues": [
+      -1.142397329,
+      -1.142397329,
+      1.142397329,
+      1.142397329
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 3.7853558335037716e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.1004107616799284e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(3/22,3/22,3/22)",
+   "order": 11,
+   "transverse Z_N": 11,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.142314838273,
+      0.989821441881
+     ],
+     "normal eigenvalues": [
+      -1.713595993,
+      -1.713595993,
+      1.713595993,
+      1.713595993
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.008516967684196e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.142314838273,
+      0.989821441881
+     ],
+     "normal eigenvalues": [
+      -1.713595993,
+      -1.713595993,
+      1.713595993,
+      1.713595993
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 5.438959822042073e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 5.389157964038493e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(2/11,2/11,2/11)",
+   "order": 11,
+   "transverse Z_N": 11,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.654860733945,
+      0.755749574354
+     ],
+     "normal eigenvalues": [
+      -2.284794657,
+      -2.284794657,
+      2.284794657,
+      2.284794657
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 4.775249788392736e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.654860733945,
+      0.755749574354
+     ],
+     "normal eigenvalues": [
+      -2.284794657,
+      -2.284794657,
+      2.284794657,
+      2.284794657
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 5.668222562614796e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.194813373814306e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(5/22,5/22,5/22)",
+   "order": 11,
+   "transverse Z_N": 11,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.959492973614,
+      0.281732556841
+     ],
+     "normal eigenvalues": [
+      -2.855993321,
+      -2.855993321,
+      2.855993321,
+      2.855993321
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 4.996804324105255e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.959492973614,
+      0.281732556841
+     ],
+     "normal eigenvalues": [
+      -2.855993321,
+      -2.855993321,
+      2.855993321,
+      2.855993321
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 4.976470689774204e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 5.578801654593729e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(1/24,1/24,1/24)",
+   "order": 12,
+   "transverse Z_N": 12,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      0.866025403784,
+      0.5
+     ],
+     "normal eigenvalues": [
+      -0.523598776,
+      -0.523598776,
+      0.523598776,
+      0.523598776
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 4.079673249131892e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      0.866025403784,
+      0.5
+     ],
+     "normal eigenvalues": [
+      -0.523598776,
+      -0.523598776,
+      0.523598776,
+      0.523598776
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 7.065665165419766e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.08865160135725e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "S3xS3 L(5/24,5/24,5/24)",
+   "order": 12,
+   "transverse Z_N": 12,
+   "sweep covers F": 1,
+   "runs": [
+    {
+     "zeta": [
+      -0.866025403784,
+      0.5
+     ],
+     "normal eigenvalues": [
+      -2.617993878,
+      -2.617993878,
+      2.617993878,
+      2.617993878
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 5.030499189747663e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    },
+    {
+     "zeta": [
+      -0.866025403784,
+      0.5
+     ],
+     "normal eigenvalues": [
+      -2.617993878,
+      -2.617993878,
+      2.617993878,
+      2.617993878
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 3.545902117263134e-16,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 1.0
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 4.648541058872642e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "F12 L(0,1/3) o R_P",
+   "order": 3,
+   "transverse Z_N": 3,
+   "sweep covers F": 3,
+   "runs": [
+    {
+     "zeta": [
+      -0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -2.094395102,
+      -2.094395102,
+      2.094395102,
+      2.094395102
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 1.690473278757449e-15,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 0.88873
+    },
+    {
+     "zeta": [
+      -0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -2.094395102,
+      -2.094395102,
+      2.094395102,
+      2.094395102
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 1.663321972043526e-15,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 0.962707
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 6.510714109760616e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  },
+  {
+   "class": "F12 L(0,1/3) o R_P^2",
+   "order": 3,
+   "transverse Z_N": 3,
+   "sweep covers F": 3,
+   "runs": [
+    {
+     "zeta": [
+      -0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -2.094395102,
+      -2.094395102,
+      2.094395102,
+      2.094395102
+     ],
+     "grid": 16,
+     "worst fixed-point residual on the grid": 1.9014342001572774e-15,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 0.88873
+    },
+    {
+     "zeta": [
+      -0.5,
+      0.866025403784
+     ],
+     "normal eigenvalues": [
+      -2.094395102,
+      -2.094395102,
+      2.094395102,
+      2.094395102
+     ],
+     "grid": 28,
+     "worst fixed-point residual on the grid": 1.9466858245785203e-15,
+     "dim E_zeta": [
+      2
+     ],
+     "dim T F (+1-eigenspace)": [
+      2
+     ],
+     "lattice c_1 over the sweep": 0.0,
+     "smallest link overlap": 0.962707
+    }
+   ],
+   "acting torus commutes with gamma (worst)": 9.891538630469618e-16,
+   "c_1(E_zeta) = 0": true,
+   "deg L = (N/2) c_1(E_zeta) / cover": 0
+  }
+ ],
+ "n_P = 0 on every torus class": true,
+ "all checks pass": true
+}

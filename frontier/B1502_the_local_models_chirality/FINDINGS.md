@@ -1,9 +1,10 @@
-# B1502 — THE LOCAL MODELS' CHIRALITY: B1501's two torus models force no chirality at a cusp point. Whenever a torus-linked ADE locus exists in these cones, the link has no C-field U(1) and no rational flux (b₂ = b₄ = 0), and the torus is null-homologous, so the anomaly argument has nothing to act on. The S³ × S³ model's cusp point is a Dehn filling (along a shortest vector) in each of its three smooth phases. The flag-manifold model has no smooth phase at all.
+# B1502 — THE LOCAL MODELS' CHIRALITY: B1501's two torus models force no chirality at a cusp point. Whenever a torus-linked ADE locus exists in these cones, the link has no C-field U(1) and no rational flux (b₂ = b₄ = 0), the torus is null-homologous, and the locus's normal twist over the torus is trivial (§5), so neither half of the anomaly argument has anything to act on. The S³ × S³ model's cusp point is a Dehn filling (along a shortest vector) in each of its three smooth phases. The flag-manifold model has no smooth phase at all.
 
 **Date:** 2026-09-29 · **Seat:** cc (the SM-derivation branch) · **Occasion:** after B1501. The owner said to take the next step I
 recommended: what chirality the two torus models put at a cusp point. · **Status:** PROVED, not sealed. Designing the seal, I found the
 question decided at design time by standard theorems, so there was no open outcome to seal (B1396's precedent). Own-code verification:
-`verification/local_models_chirality.py`, 6.1 s, all checks pass. · **Price:** unchanged, 0 of 19 · **Numbering:** B1502.
+`verification/local_models_chirality.py`, 6.1 s, all checks pass. §5 (the cubic half of the anomaly criterion) was added the same
+day, after a self-caught gap (an E71 instance): `verification/cubic_inflow.py`, 18.3 s. · **Price:** unchanged, 0 of 19 · **Numbering:** B1502.
 
 ## 0. Seen from above
 
@@ -13,14 +14,17 @@ models, G₂ cones over the four homogeneous nearly Kähler 6-manifolds, have to
 - M2: SU(3) over the flag manifold's Coxeter torus.
 
 This arc asks what those two models put at the point.
-- **What forces chirality at a cone point.** The record already uses the criterion (B1353, B1360; Witten, hep-th/0108165;
-  Acharya–Witten, hep-th/0109152). Chiral fermions at a conical singularity are charged under a U(1) coming from the C-field on a
-  harmonic 2-form of the link. Their mixed anomaly with the ADE group forces and detects them, through the pairing of the locus's link
-  with that 2-form.
-- **Neither model has that U(1).**
+- **What forces chirality at a cone point.** The criterion has two halves (Witten, hep-th/0108165; Acharya–Witten, hep-th/0109152).
+  - *The mixed half,* which the record already uses (B1353, B1360). Chiral fermions at a conical singularity are charged under a U(1)
+    coming from the C-field on a harmonic 2-form of the link. Their mixed anomaly with the ADE group forces and detects them, through
+    the pairing of the locus's link with that 2-form.
+  - *The cubic half,* for SU(N) loci only (§5). The locus's normal space can be twisted by a U(1). The degree n_P of that twist on the
+    link of the point forces fields with SU(N)³ anomaly n_P there.
+- **Neither model has either.**
   - Any finite quotient of these cones with a torus-linked locus has b₂ = b₄ = 0 on its link. There is no C-field U(1) and no rational
     flux.
   - The torus itself is null-homologous in the link, so it would pair to zero with any such U(1) anyway.
+  - The normal twist over the torus is trivial, so n_P = 0 (§5).
   - So nothing forces chirality at the point. Any chiral content there would have to be anomaly-free on its own, and the anomaly argument
     cannot see it.
 - **The S³ × S³ model has three smooth phases,** the three Bryant–Salamon smoothings. The model's symmetry acts on each. In each, the
@@ -58,8 +62,8 @@ C(Y)/Γ has an ADE locus that is a cone over a torus F. Then:
   - The Coxeter torus is an orbit of the maximal torus T of SU(3), and T has fixed points on F₁,₂ (the six Weyl points). So its orbit
     map is homotopic to a constant.
 - **(c) Nothing at the apex is forced.** By (a) there is no U(1) whose mixed anomaly with the ADE group could force or detect chiral
-  fields at the point. By (b) the locus's link would pair to zero with one even if it existed. Any content at the apex is anomaly-free on
-  its own.
+  fields at the point. By (b) the locus's link would pair to zero with one even if it existed. By (f) the cubic SU(N)³ inflow vanishes
+  too. Any content at the apex is anomaly-free on its own.
 - **(d) M1's phases.**
   - The three Bryant–Salamon smoothings X_k of C(S³ × S³) (the spinor bundle of S³, three ways) are SU(2)³-equivariant.
     - Model: X_k = S³ × ℍ, with (a₁, a₂, a₃) acting by (a_i q a_j⁻¹, a_k p a_j⁻¹) for (i, j, k) cyclic.
@@ -74,6 +78,8 @@ C(Y)/Γ has an ADE locus that is a cone over a torus F. Then:
     three ways).
   - A right action R_n extends to X_j only if n U(2)_j n⁻¹ = U(2)_j. R_P and R_P² permute the three U(2)_j and preserve none.
   - So no torus-fixing element of F₁,₂ acts on any X_j. (The excluded transposition preserves one.)
+- **(f) The cubic half: n_P = 0 (§5).** A torus commuting with Γ acts transitively on F, so the locus's normal U(1) twist L is a
+  homogeneous line bundle over a torus, and it is trivial.
 
 ## 2. Verification (`verification/local_models_chirality.py`, record `local_models_chirality_run.txt`)
 
@@ -101,7 +107,8 @@ C(Y)/Γ has an ADE locus that is a cone over a torus F. Then:
 **Settled.**
 - **Neither model supplies the end law's chirality.**
   - M1 is a filling in each of its smooth phases (ε = 0 there).
-  - At its singular point, and at M2's rigid apex, no C-field U(1) or rational flux exists to force or detect a chiral spectrum.
+  - At its singular point, and at M2's rigid apex, no C-field U(1) or rational flux exists to force or detect a chiral spectrum, and
+    the normal twist is trivial (n_P = 0), so neither half of the anomaly criterion forces one.
 - **The same holds for any finite quotient** of these cones that has a torus-linked locus, whatever other loci it has.
 
 **Not settled.**
@@ -128,12 +135,46 @@ C(Y)/Γ has an ADE locus that is a cone over a torus F. Then:
   - Atiyah–Witten (hep-th/0107177), the three phases;
   - Witten (hep-th/0108165) and Acharya–Witten (hep-th/0109152), chirality at conical singularities;
   - Chevalley–Eilenberg, H*(G/K) = H*(𝔤, 𝔨);
-  - Borel, the Weyl group on H*(G/T).
+  - Borel, the Weyl group on H*(G/T);
+  - Fukui–Hatsugai–Suzuki (2005), the lattice Chern number, and Qi–Wu–Zhang (2006), the control model (§5).
 - **No novelty is claimed.**
-- **Fences.** Only the Bryant–Salamon smoothings; rational cohomology; the anomaly criterion as the record states it. No physics is
-  crossed. 0 of 19.
+- **Fences.** Only the Bryant–Salamon smoothings; rational cohomology; the anomaly criterion as Witten states it (both halves, §5). No
+  physics is crossed. 0 of 19.
+
+## 5. The cubic inflow (added the same day; an E71 instance, self-caught)
+
+§0–§1 as first banked used one half of the anomaly criterion: the mixed U(1)·SU(N)² inflow, which needs a C-field U(1). B1355 and
+B1360 used that half for E₆ loci, and for E₆ it is the whole criterion, because E₆ has no cubic anomaly. B1501's loci are A-type
+(SU(n) on S³ × S³, SU(3) on F₁,₂). For SU(N), Witten has a second, independent half (hep-th/0108165 §3, (3.5)–(3.8)), and B1355 §3
+had noted that for SU(N) the cubic anomaly forces by itself.
+- **The mechanism.**
+  - On an A_{N−1} locus the normal space ℂ²/ℤ_N can be twisted by Λ′ = U(1), the centraliser of ℤ_N in the SU(2) that contains it.
+    The invariants x = a^N and y = b^N are then sections of L and L⁻¹, for a line bundle L on the locus.
+  - The long-wavelength theory carries ∫_B (K/2π) ∧ ω₅(A), where K is the curvature of L. At a point P where the normal singularity is
+    worse, dK = 2π n_P δ_P, and P must carry charged fields with SU(N)³ anomaly n_P.
+  - n_P is the degree of L on a small surface around P in the locus. At a cusp point that surface is the torus link F.
+- **Theorem (f): n_P = deg(L|_F) = 0 in both models.**
+  - A torus acts transitively on F and commutes with γ. On S³ × S³ it is T³, the maximal torus of SU(2)³, with the diagonal U(1) as
+    stabiliser. On F₁,₂ it is SU(3)'s maximal torus, acting on the Coxeter torus.
+  - So L is a homogeneous line bundle T ×_H ℂ_χ over the torus F = T/H. Every character of a closed subgroup of a torus extends to the
+    torus (Pontryagin duality), so L is trivial.
+  - It stays trivial on any finite quotient whose torus link is covered by such an F, since degree multiplies under covers.
+- **Checked** (`verification/cubic_inflow.py`, record `cubic_inflow_run.txt`, 18.3 s).
+  - On F, the normal bundle with the complex structure in which dγ acts as the scalar ζ is E_ζ, the ζ-eigenbundle of dγ on ν ⊗ ℂ. It is
+    a U(2) = (SU(2) × Λ′)/ℤ₂ bundle with det E_ζ = L^{2/N}, so deg L = (N/2) c₁(E_ζ).
+  - c₁(E_ζ) is computed as a lattice Chern number (Fukui–Hatsugai–Suzuki), with E_ζ carried into the ambient space of the link's
+    embedding so that the frame is global.
+  - This is done for every torus class of B1501's census with transverse order N ≥ 3: 22 on S³ × S³ (N = 3 to 12) and 2 on F₁,₂ (N = 3),
+    each on grids of 16 and 28. Every value is 0.
+  - The acting torus commutes with γ to 10⁻¹⁵ on every class.
+  - Positive control: the same routine gives the Qi–Wu–Zhang lower band's Chern numbers, ±1 at |m| = 1 and 0 at |m| = 3.
+  - On S³ × S³, E_ζ is a constant subspace of the ambient space and the torus acts on it by a character, which is the theorem's mechanism
+    made visible. On F₁,₂ it moves (smallest overlap between neighbouring grid points 0.89), and the lattice sum is still 0.
+- **What changes.** Nothing in the verdict. The conclusion that nothing at the apex is forced now rests on both halves of the criterion.
+  (c) is completed by (f), and the surfaces that said "the anomaly criterion forces nothing" now name both halves.
 
 ## Files
 
 - `verification/local_models_chirality.py`: the checks. It writes `local_models_chirality.json` and `local_models_chirality_run.txt`.
+- `verification/cubic_inflow.py`: §5's check. It writes `cubic_inflow.json` and `cubic_inflow_run.txt`.
 - Lock: `tests/test_b1502_the_local_models_chirality.py`.

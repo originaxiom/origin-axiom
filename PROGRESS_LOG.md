@@ -16040,3 +16040,19 @@ with my own code.
   that treats a charge and its opposite differently.
 
 Lock: `tests/test_b1502_the_local_models_chirality.py`. 0 of 19.
+
+## 2026-09-29 — B1502 §5: the cubic half of the anomaly criterion (a gap closed)
+
+While choosing the next step I read Witten's anomaly paper in full, and found that B1502 had used only half of the rule it cites.
+- **The gap.** B1502 checked the half that needs an extra U(1) field at the point. The record used that half for E₆, where it is the
+  whole rule, because E₆ has no cubic anomaly. B1501's loci are SU(n) and SU(3). For those the paper has a second half: a twist in how
+  the singular locus wraps around the point forces charged fields by itself.
+- **The answer is unchanged.** In both models a torus that commutes with the symmetry carries every point of the link torus to every
+  other, so the twist is the same everywhere, and its degree is 0.
+  - I checked it with my own code on all 24 cases with N ≥ 3.
+  - A standard model serves as a control that the method detects non-zero values.
+- **Logged** as an instance of E71: a criterion built for one class of objects, applied to another. The arc, its verdict line and the
+  surfaces now name both halves.
+- **The fast lane** on 68c9d8b4 (B1502 banked): 9 failures, exactly the nine of the baseline (the same tests as the d780b639 lane), 6365 passed, 52 skipped, 61 min; no failure touches B1501 or B1502.
+
+Lock: `tests/test_b1502_the_local_models_chirality.py` (5 tests). 0 of 19.

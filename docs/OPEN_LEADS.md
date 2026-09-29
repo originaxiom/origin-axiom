@@ -3369,7 +3369,9 @@ This job is not optional, whichever answers the first two questions get. `fronti
 
 **Status (2026-09-29, B1502): the simplest local models force no chirality at a cusp point.**
 - Whenever these cones have a torus-linked locus, the link has no C-field U(1) and no rational flux (b₂ = b₄ = 0), and the torus is
-  null-homologous. The anomaly criterion (B1353, B1360) therefore forces nothing at the point.
+  null-homologous. The locus's normal twist over the torus is trivial too (§5, added the same day).
+- So neither half of the anomaly criterion forces anything at the point: not the mixed U(1)·SU(N)² inflow (B1353, B1360), and not
+  Witten's cubic SU(N)³ inflow.
 - S³ × S³'s model is a Dehn filling along a shortest vector in each of its three smooth phases. The flag manifold's model has no smooth
   phase.
 - At a cone point the frame's SL(2)_β doublets have acyclic cusp local systems and carry no choice (B1368, B1372's Lemma A; checked

@@ -3,17 +3,20 @@
 B1501's two torus models force no chirality at a cusp point.  Whenever a finite quotient of the cones over the four homogeneous
 nearly Kaehler 6-manifolds has a torus-linked ADE locus, the link has H^2 = H^4 = 0 rationally (no C-field U(1), no rational flux) and the
 torus is null-homologous; S3 x S3's model is a Dehn filling along a shortest vector (an A2 root) in each of its three Bryant-Salamon
-phases; the flag manifold's model has no equivariant phase (R_P permutes the three U(2) containing T)."""
+phases; the flag manifold's model has no equivariant phase (R_P permutes the three U(2) containing T).  Section 5: Witten's cubic
+SU(N)^3 inflow vanishes too -- n_P = deg(L|_F) = 0, the normal U(1) twist over the torus link being homogeneous under a torus that commutes
+with Gamma."""
 import importlib.util
 import json
+from fractions import Fraction
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VER = ROOT / "frontier" / "B1502_the_local_models_chirality" / "verification"
 
 
-def _load():
-    spec = importlib.util.spec_from_file_location("b1502_local_models", VER / "local_models_chirality.py")
+def _load(name="local_models_chirality"):
+    spec = importlib.util.spec_from_file_location(f"b1502_{name}", VER / f"{name}.py")
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
@@ -71,3 +74,21 @@ def test_m1_fills_along_a_root():
     assert c["collapsing circle (q-vector)"] == [0, 1, 0] and c["shortest"]
     ot = M.m1_orbit_types()
     assert ot["principal stabiliser dim (orbit dim 9 - s)"] == 3 and ot["zero-section stabiliser dim"] == 6
+
+
+def test_the_cubic_inflow_vanishes():
+    """section 5: n_P = deg(L|_F) = 0 on every torus class of order >= 3 (the recorded run), and live on one class of each link"""
+    r = json.load(open(VER / "cubic_inflow.json"))
+    assert r["all checks pass"] and len(r["classes"]) == 24
+    assert sorted({c["transverse Z_N"] for c in r["classes"]}) == list(range(3, 13))
+    assert all(run["lattice c_1 over the sweep"] == 0 for c in r["classes"] for run in c["runs"])
+    assert all(c["acting torus commutes with gamma (worst)"] < 1e-12 for c in r["classes"])
+    ctrl = r["positive control (QWZ Chern numbers)"]
+    assert abs(ctrl["1.0"]) == 1 and abs(ctrl["-1.0"]) == 1 and ctrl["3.0"] == 0 and ctrl["-3.0"] == 0
+    C = _load("cubic_inflow")
+    for setup in (C.s3xs3_setup(Fraction(1, 6)), C.f12_setup("R_P")):
+        link, gam, point, cover = setup
+        res = C.chern_over_f(link, gam, point, 12)
+        assert abs(res["lattice c_1 over the sweep"]) < 1e-9 and res["dim E_zeta"] == [2] and res["dim T F (+1-eigenspace)"] == [2]
+    c1 = C.lattice_chern(C.qwz_frames(1.0, 16))[0]
+    assert abs(abs(c1) - 1) < 1e-9                                            # the routine sees a non-zero Chern number

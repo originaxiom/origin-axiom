@@ -377,9 +377,9 @@ emitted value. The structure is the object's; the values are the observer's.
 > fit. m004's own cusp is not one of them.*
 >
 > *And (B1502), what those models put at the point: nothing that anything forces. The mechanism that makes chiral particles appear at
-> such a point needs a particular kind of field there (from the 3-form of M-theory), and none of these models has one. In one model the
-> point smooths out into an ordinary filled-in end in every way it can smooth. The other cannot smooth at all, but carries nothing that
-> would demand chirality either.*
+> such a point needs either a particular kind of field there (from the 3-form of M-theory) or a twist in how the singular locus wraps
+> around the point, and none of these models has either. In one model the point smooths out into an ordinary filled-in end in every
+> way it can smooth. The other cannot smooth at all, but carries nothing that would demand chirality either.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

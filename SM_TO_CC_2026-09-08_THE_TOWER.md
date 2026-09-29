@@ -1017,6 +1017,9 @@ What B1501's two models put at a cusp point.
   of the link. Their mixed anomaly with the ADE group forces them.
 - **Neither model has one.** Any finite quotient of these cones with a torus-linked locus has b₂ = b₄ = 0 on its link. On F₁,₂ the
   torus-fixing elements carry the 3-cycle, which kills H² and H⁴. The torus is null-homologous as well.
+- **Nor the cubic half** (§5, added the same day after a self-caught gap). For SU(N) loci Witten has a second inflow (hep-th/0108165
+  (3.5)–(3.8)): the degree n_P of the locus's normal U(1) twist on the link of the point forces SU(N)³ anomaly n_P. In both models a
+  torus commuting with Γ acts transitively on the link torus, so the twist is trivial and n_P = 0 (lattice Chern numbers, all 24 classes).
 - **The phases.**
   - S³ × S³'s model has three smooth phases (Bryant–Salamon). In each the locus is filled along a shortest vector, so the cusp point is a
     filling.

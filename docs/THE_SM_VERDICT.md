@@ -860,7 +860,9 @@ left it.
 
 > **Currency note (2026-09-29, B1502): those local models force no chirality.**
 > - In every finite quotient of these cones with a torus-linked locus, the link has no C-field U(1) and no rational flux, and the
->   torus is null-homologous. So the anomaly argument that forces chiral fermions at a conical point has nothing to act on.
+>   torus is null-homologous. The locus's normal twist over the torus is trivial as well.
+> - So neither half of the anomaly argument that forces chiral fermions at a conical point (the mixed U(1)·SU(N)² inflow, the cubic
+>   SU(N)³ inflow) has anything to act on.
 > - S³ × S³'s model is a Dehn filling (no chirality) in each of its smooth phases. The flag manifold's model has none.
 > - The cusp point's chirality is therefore not supplied by the simplest local physics.
 >

@@ -1,5 +1,26 @@
 # Changelog
 
+## B1502 §5 — the cubic half of the anomaly criterion: n_P = 0 in both torus models (a self-caught gap, E71 instance)
+
+- **The gap.** B1502 checked only the mixed U(1)·SU(N)² half of the anomaly criterion. That is the half B1355 and B1360 used for E₆
+  loci, and it is complete there because E₆ has no cubic anomaly. For SU(N) loci Witten's §3 (hep-th/0108165, (3.5)–(3.8)) has a
+  second, independent half: the U(1) twist L of the locus's normal space forces fields with SU(N)³ anomaly n_P = deg(L) on the link of
+  the point.
+- **Theorem (f).** n_P = deg(L|_F) = 0 in both models.
+  - A torus commuting with Γ acts transitively on the link torus F: T³ on S³ × S³'s diagonal torus, SU(3)'s maximal torus on the
+    Coxeter torus.
+  - So L is a homogeneous line bundle over a torus, and such bundles are trivial.
+- **Checked** (`cubic_inflow.py`, 18.3 s).
+  - deg L = (N/2) c₁(E_ζ), where E_ζ is the ζ-eigenbundle of dγ on the normal bundle.
+  - The lattice Chern number (Fukui–Hatsugai–Suzuki) is 0 on all 24 torus classes of B1501's census with N ≥ 3, on grids of 16 and 28.
+  - Control: Qi–Wu–Zhang gives ±1 and 0.
+- **Unchanged: the verdict.** B1502's conclusion now rests on both halves. These now say so: the title, §0, §1(c), §3, §4, the verdict
+  line, the registry row, OPEN_LEADS, THE_SM_VERDICT, README, the letter's 65th note and the kill-graph entry. ERROR_LEDGER: E71
+  instance.
+- **Fast lane** on 68c9d8b4 (B1502 banked; c4eb0d2b's lane was lost to a container restart): 9 failures, exactly the nine of the baseline (the same tests as the d780b639 lane), 6365 passed, 52 skipped, 61 min; no failure touches B1501 or B1502.
+
+Lock: `tests/test_b1502_the_local_models_chirality.py` (5 tests). 0 of 19.
+
 ## B1502 — the local models' chirality: B1501's two torus models force no chirality at a cusp point (PROVED, not sealed)
 
 - **The occasion.** The owner's go on the next step: what chirality do the two torus models put at a cusp point? Designing the seal, I
@@ -8,7 +29,8 @@
   - Every finite quotient of these cones with a torus-linked locus has H²(Y/Γ; ℚ) = H⁴(Y/Γ; ℚ) = 0: no C-field U(1), no rational
     flux. On F₁,₂ this is because R_P acts on H² and H⁴ as the reflection representation, with no invariants.
   - The torus link is null-homologous.
-  - So the anomaly criterion the record uses (B1353, B1360; Witten; Acharya–Witten) forces nothing at the apex.
+  - So the anomaly criterion (B1353, B1360; Witten; Acharya–Witten) forces nothing at the apex: its mixed half here, its cubic half
+    in §5 (added the same day).
   - S³ × S³'s model is a Dehn filling along a shortest vector (an A₂ root) in each of its three Bryant–Salamon phases.
   - The flag manifold's model has no equivariant phase, since R_P permutes the three U(2) ⊃ T.
 - **Checked** (`local_models_chirality.py`, 6.1 s):
