@@ -1,5 +1,13 @@
 # Changelog
 
+## The fast lane on b0847a32 (B1399 banked), at the baseline
+
+- **The fast lane on b0847a32:** 9 failed, 6 349 passed, 52 skipped in 53 min.
+- **The nine are the known baseline:** B1062, B1063, B1137, B511, B565, B616, B646, B887 and the repo gates (relay debt).
+- B1399's lock adds five tests, and all five pass.
+
+0 of 19.
+
 ## B1399 — the rank-two Higgs, run as sealed: no generations on the census, because the count is even; odd counts live at hexagonal cusps, on four unresolved members
 
 - **Run at the owner's word.** The seal is b2985b42; the instrument and banked identity are 6fe28a6b. The banked identity passed first:
