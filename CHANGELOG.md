@@ -1,5 +1,32 @@
 # Changelog
 
+## B1501 — the torus-link census, run as sealed: in the simplest G₂ cones every torus-linked ADE locus is A-type and every such torus is hexagonal
+
+- **The question** (sealed at d780b639). Which cones over the four homogeneous nearly Kähler 6-manifolds, modulo finite automorphism
+  groups, have an ADE locus that is a cone over a torus? Of what type, and what shape?
+- **The run.** At the owner's word.
+  - The banked identity passed first (7dc86418): the J-checks of all four structures, S⁶ against the octonion cross product, and
+    B1500's S³ × S³ torus on an order-13 control.
+  - Then all 694 classes of order ≤ 12 ran, in 847 s.
+- **The outcome: P1 YES, P2 YES.**
+  - S³ × S³: the 23 classes L_(q,q,q) fix the diagonal torus U(1)³/U(1). Its isotropy is U(1), so every finite quotient gives SU(n).
+  - F₁,₂: L_{diag(1,ω,ω²)} ∘ R_P and its square fix Kostant's Coxeter torus. Its isotropy is ℤ₃, acting by (ω, ω²), which gives A₂,
+    i.e. SU(3).
+  - S⁶ and ℂP³ give points and spheres only (the lemma).
+  - Every torus is hexagonal.
+- **Checked.**
+  - The fixed sets of all 694 classes agree with criteria derived by hand.
+  - χ(Fix) equals the Lefschetz number on all 694.
+  - The flag-manifold torus matches its closed form.
+  - The torus classes and a sample of the others were re-run in a fresh process.
+- **What it means.**
+  - In these models the frame's E₆ cannot end unbroken at a cusp point.
+  - Only hexagonal cusps fit, and m004's own cusp is not one of them.
+  - The killed reading is routed into the kill graph from this PROVED arc.
+- **Two slips of mine,** both caught before any census number was read (E52 instance).
+
+Lock: `tests/test_b1501_the_torus_link_census.py`. 0 of 19.
+
 ## The fast lane on d780b639 (B1501 sealed), at the baseline; B1500's count corrected
 
 - **The fast lane on d780b639:** 9 failed, 6 355 passed, 52 skipped in 65 min.

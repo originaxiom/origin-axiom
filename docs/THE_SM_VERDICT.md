@@ -847,3 +847,13 @@ left it.
 >   question about the local physics at the point.
 >
 > 0 of 19 (`frontier/B1500_the_cone_points_choice`).
+
+> **Currency note (2026-09-29, B1501): the local models at a cusp point are SU(n) or SU(3), and hexagonal.**
+> - Among the simplest G₂ cone singularities, a singular locus that ends on a cone point along a torus is always of A-type:
+>   - SU(n) over S³ × S³'s diagonal torus;
+>   - SU(3) over the flag manifold's Coxeter torus, with a ℤ₃ isotropy.
+> - The torus is always hexagonal.
+> - So these models cannot close a cusp of the frame's E₆ locus without breaking E₆ there, and they fit only hexagonal cusps, not
+>   m004's own. Sealed census, P1 and P2 YES as the priors said.
+>
+> 0 of 19 (`frontier/B1501_the_torus_link_census`).

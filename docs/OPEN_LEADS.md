@@ -3355,5 +3355,17 @@ This job is not optional, whichever answers the first two questions get. `fronti
 - The two such models checked (Harvey–Lawson's cone; the A-type locus of a cyclic quotient of the G₂ cone over S³ × S³) have
   hexagonal links. Their census is B1501. `frontier/B1500_the_cone_points_choice`.
 
+**Status (2026-09-29, B1501): the simplest local models are classified.**
+- The census of G₂ cones over the four homogeneous nearly Kähler 6-manifolds, modulo finite automorphism groups, ran as sealed.
+- An ADE locus coned over a torus exists in exactly two kinds:
+  - SU(n)-type over S³ × S³'s diagonal torus, with isotropy U(1);
+  - SU(3)-type (A₂) over the flag manifold's Coxeter torus, with isotropy ℤ₃.
+- Every such torus is hexagonal. S⁶ and ℂP³ give none.
+- So in these models the frame's E₆ cannot end unbroken at a cusp point, and only hexagonal cusps match (not m004's own). Question 1
+  now needs:
+  - the chirality those two models put at the point, from their local gauge and C-field data;
+  - or a model outside the census.
+  `frontier/B1501_the_torus_link_census`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

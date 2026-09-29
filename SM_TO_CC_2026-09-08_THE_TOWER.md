@@ -990,3 +990,22 @@ The cusp/end law, one candidate worked out.
   sealed next (B1501).
 
 `frontier/B1500_the_cone_points_choice`. Numbering: B1500 onward (main holds B1400–B1431). 0 of 19.
+
+## Sixty-fourth note (2026-09-29): the torus-link census (B1501, run as sealed)
+
+The local models B1500 asked for, classified in the simplest case.
+- **The question.** In M-theory the physics at a cusp point would be a G₂ cone singularity whose ADE locus is a cone over the cusp
+  torus. Which of the cones over S⁶, S³ × S³, ℂP³ and the flag manifold F₁,₂, modulo finite automorphism groups, have one, of what
+  type, and what shape?
+- **The answer, as sealed (P1 YES, P2 YES).** Exactly two kinds exist, both A-type and both hexagonal.
+  - S³ × S³: the diagonal torus U(1)³/U(1). Its pointwise stabiliser is U(1), so every finite quotient gives A_{n−1}.
+  - F₁,₂: Kostant's Coxeter torus, fixed by L_{diag(1,ω,ω²)} ∘ R_P. Its pointwise stabiliser is ℤ₃, acting by (ω, ω²), so A₂.
+  - S⁶ and ℂP³ give points and spheres only.
+- **Checked.**
+  - All 694 classes of order ≤ 12, by Newton from 400 seeds each.
+  - Every fixed set also derived by hand (694/694), with χ(Fix) equal to the Lefschetz number on every class.
+  - The flag-manifold torus in closed form.
+- **For your chirality section.** In these models E₆ cannot end unbroken at a cusp point, and only hexagonal cusps fit, not m004's
+  own. What the two models put at the point, B1500's choice, is the next computation. It needs their local gauge and C-field data.
+
+`frontier/B1501_the_torus_link_census`. 0 of 19.

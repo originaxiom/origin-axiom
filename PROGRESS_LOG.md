@@ -16000,3 +16000,24 @@ cover) keeps two vector-like pairs, which the same paragraph listed. I had count
 - A new lock computes it from the run's own record.
 - It is logged as an E11 instance.
 Nothing else moves: the theorem and every χ stand. 0 of 19.
+
+## 2026-09-29 — B1501 run: the torus-link census
+
+The owner said "run it". I built the instrument as sealed and passed the banked identity before reading any census number (7dc86418).
+Then the census ran: all 694 classes of order ≤ 12 on the four links.
+- **What it found.** In the simplest G₂ cones, a singular locus that ends on the cone point along a torus comes in exactly two kinds:
+  - SU(n) over the diagonal torus of S³ × S³;
+  - SU(3) over the flag manifold's Coxeter torus, with a ℤ₃ isotropy.
+
+  Both tori are hexagonal. S⁶ and ℂP³ give none. Both sealed predictions came true: A-type only, and hexagonal only.
+- **What it means.** Near a cusp point modelled this way, E₆ must break to SU(n) or SU(3), and the cusp must be hexagonal. m004's own
+  cusp is not, although its hexagonal covers are.
+- **How it was checked.**
+  - Every fixed set also follows from a short argument, and all 694 agree.
+  - χ(Fix) equals the Lefschetz number on every class.
+  - The flag-manifold torus matches its closed form.
+  - The torus classes re-run in a fresh process.
+- **Two slips of mine** were caught before the census: a Python `sum` that collapsed a lattice vector, and a wrong coweight generator
+  in a closed-form check. Both are logged (E52).
+
+Lock: `tests/test_b1501_the_torus_link_census.py`. The fast lane runs on the banked tree. 0 of 19.

@@ -1,0 +1,6 @@
+(1) fixed sets against the independent criteria: 694 of 694 classes agree
+(2) Lefschetz: sigma* on H^3(S3 x S3) = [[-1, 1], [-1, 0]], L(sigma) = 3; chi(Fix) = L(gamma) on 694 of 694 classes
+(3) F12 Coxeter torus in closed form: Ad_{g^-1} t is orthogonal to t (to 3.2e-16); Gram [[0.333333333333, -0.166666666667], [-0.166666666667, 0.333333333333]] (2 pi)^2, tau = -0.500000000000 + 0.866025403784 i; the census's 2 F12 torus components agree: True
+(3) S3xS3: all 23 torus components have the Gram of U(1)^3/U(1) in the normal metric, [[2/3, -1/3], [-1/3, 2/3]]: True
+(4) reproducibility: 25 torus classes and 12 others re-run in a fresh process; all records agree
+POST-RUN CHECKS: ALL PASS

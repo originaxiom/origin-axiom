@@ -370,6 +370,11 @@ emitted value. The structure is the object's; the values are the observer's.
 > choice, the same choice a filling makes. With that choice made, each point adds one unit of chirality or none, whatever the Higgs
 > field does, and a choice that ignores the sign of the charge adds nothing. The geometry does not make the choice; whatever sits
 > at the point must.*
+>
+> *And (B1501), which local models could sit at such a point. Among the simplest ones (cones over the four most symmetric
+> six-dimensional spaces of their kind), a singular line that ends on the point along a torus is always of the SU(n) kind, never of
+> E₆'s kind, and the torus is always the hexagonal one. So E₆ would have to break at the point, and only the most symmetric cusps
+> fit. m004's own cusp is not one of them.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

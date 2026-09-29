@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1249** |
-| words of findings prose | **983,188** |
-| test lock files referenced | **752** |
+| words of findings prose | **985,355** |
+| test lock files referenced | **753** |
 | arcs carrying an authored verdict | **1249** (100.0 %) |
-| recorded closures | **797** (617 classified, 180 routed-only) |
+| recorded closures | **798** (617 classified, 181 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 824 |
+| PROVED | 825 |
 | NEGATIVE | 325 |
-| OPEN | 89 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `other` | 359 |
-| `unrouted-unclassified` | 180 |
+| `unrouted-unclassified` | 181 |
 | `kind-mismatch` | 51 |
 | `genericity` | 38 |
 | `no-landing-site` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**535 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**536 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1500`** (2920 words, 0 locks)  
-THE CONE POINT'S CHOICE (the owner's go on the sL-8 pass): completing the cusps of a member of m004's class as cone points (the one-point compactification, B1392's first candidate) does not remove the end's choice. The cusp point's link is the cusp torus, whose H_1 is Z^2, so the point is not Witt: a Fredholm, self-dual L^2 count needs a Lagrangian line in H_1(T) at each point (Cheeger's ideal boundary conditions; Albin-Leichtnam-Mazzeo-Piazza; Banagl), the same datum as a Dehn-filling slope. Theorem: choosing lower middle (eps = -1), upper middle (+1) or a Lagrangian line (0) at each cusp point, chi(IH(Q^; L_qT)) = sum eps for every cuspidal Higgs class and coupling (the twist enters only faces opposite the cusp points, so the constraints and dim IC_i do not see it); lower everywhere IH = (1, b1, b1 - k, 1), upper (1, b1 - k, b1, 1); the conjugate sector takes the dual choice, so a charge-blind choice is self-dual and gives 0 and a chiral completion gives one unit per point. Net chirality on the completed space = -sum eps, independent of the Higgs field, which only decides where modes sit; B1399's single-cusp +-3 pointer cannot be one cone point's content; the frame's far-up count is the open cusp's. Verified with own code (simplicial intersection homology by allowable chains on the barycentric subdivision of SnapPy's ideal triangulation, over F_p, p = 2^31 - 1) on ten members (m004, m003, cube~3.24, seven B1399 census covers, 1-5 cusps, 2-90 tetrahedra): every lower/upper/mixed/Lagrangian chi as predicted; twisted by random cuspidal classes (cube~3.24 by v+) chi unchanged while the groups change (a generic twist puts lower = (0, k, 0, 0), one mode per cusp point, on 7 of the 8 members with cuspidal classes; the o10_150688 cover keeps two vector-like pairs, lower = (0, 3, 2, 0); corrected the same day from '8 of 9', E11 instance); cuspidal dimension b1 - k matches B1399's solver; the second subdivision agrees on m004 and m003. sL-8 made precise: the end law is the choice per charged sector per cusp point, which only the local physics can make. Local models with a torus link point at hexagonal cusps (Harvey-Lawson's cone; the A-type locus of a cyclic quotient of the G2 cone over S^3 x S^3), checked with own code, not used. Numbering: this branch's B1350-B1399 is used up and main holds B1400-B1431; this arc takes B1500 (E54 instance). No physics crossed. 0 of 19.  
-`B1500_the_cone_points_choice/FINDINGS.md`
+**PROVED — `B1501`** (2502 words, 1 locks)  
+THE TORUS-LINK CENSUS, run as sealed (d780b639; the owner's go; after B1500): in the simplest G2 cone singularities -- cones over the four homogeneous nearly Kaehler 6-manifolds S^6, S^3 x S^3, CP^3 and F_{1,2}, modulo finite groups of their listed automorphisms (left translations; sigma^{+-1} on S^3 x S^3; the 3-cycle's right action on F_{1,2}) -- an ADE locus that is a cone over a torus is always A-type and the torus always hexagonal: P1 YES and P2 YES (priors ~90%, ~80%). Census: all 694 automorphism classes of order <= 12; fixed sets by damped Newton from 400 seeds; components by minimising the distance over C(gamma)^0 (1e-6); dimensions at three points; topology from the centraliser orbit; period lattices; full pointwise stabilisers and their normal action. Exactly two kinds of torus: (i) S^3 x S^3, the left translations L_(q,q,q) (23 classes, orders 2-12) fix U(1)^3/U(1), Gram [[2/3, -1/3], [-1/3, 2/3]] (2 pi)^2, pointwise stabiliser the diagonal U(1) and nothing else, so every finite quotient gives A_{n-1}; (ii) F_{1,2}, gamma = L_{diag(1,w,w^2)} R_P and its square (order 3) fix Kostant's Coxeter torus, period lattice the coweight lattice (index 3), Gram [[1/3, -1/6], [-1/6, 1/3]], H_F = <gamma> = Z/3 acting on the normal plane by (w, w^2): A2 (SU(3)). P3: S^6 and CP^3 give points and spheres only (the lemma proved at seal, checked on the census's own elements); F_{1,2} carries one torus locus per generator of its Z/3 (prior ~70%). Every torus hexagonal, tau = e^{2 pi i/3} to 1e-15. For the frame: E6 cannot end unbroken on such a point (near it the group is SU(n) or SU(3)); only hexagonal cusps match these cones under the prereg's conformal reading -- not m004's own cusp (2 sqrt-3); B1399's odd counts are also possible only at hexagonal cusps. Banked identity first (the J-checks of all four structures, S^6 against the octonion cross product, B1500's S^3 x S^3 torus on an order-13 control). Post-run: the fixed sets of all 694 classes against independent criteria; chi(Fix) = the Lefschetz number on all 694 (chi(Y) for left translations; L(sigma) = 3; L(R_P) = 0); the F_{1,2} torus in closed form; the torus classes and a sample re-run in a fresh process. Two instrument slips self-caught before any census number (E52 instance). Not computed: the chirality at such a point (B1500's choice), non-homogeneous links, automorphisms outside the sealed list. Standard ingredients (Gray, Butruille, Hopf-Samelson, Kostant, McKay); no novelty claimed. No physics crossed. 0 of 19.  
+`B1501_the_torus_link_census/FINDINGS.md`
 
 **NEGATIVE — `B1399`** (3342 words, 1 locks)  
 THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  
