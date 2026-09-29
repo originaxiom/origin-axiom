@@ -1,0 +1,26 @@
+=== E6 ROOT SYSTEM CHECKS ===
+ambient dimension of the coordinates: 8
+number of roots produced by reflection-closure: 72
+distinct squared lengths among the roots: ['2']
+rank (exact Q-rank of the span of all roots): 6
+rank of the simple system: 6
+reduced (no root is a non-trivial multiple of another): True
+closed under every root reflection: True
+Cartan matrix (rows i, cols j, A_ij = 2(ai,aj)/(aj,aj)):
+    [2, 0, -1, 0, 0, 0]
+    [0, 2, 0, -1, 0, 0]
+    [-1, 0, 2, -1, 0, 0]
+    [0, -1, -1, 2, -1, 0]
+    [0, 0, 0, -1, 2, -1]
+    [0, 0, 0, 0, -1, 2]
+Dynkin edges (i,j, A_ij*A_ji): [(0, 2, Fraction(1, 1)), (1, 3, Fraction(1, 1)), (2, 3, Fraction(1, 1)), (3, 4, Fraction(1, 1)), (4, 5, Fraction(1, 1))]
+degree sequence: [1, 1, 1, 2, 2, 3]
+all bonds single (simply laced): True
+is a tree (n-1 edges, connected): True
+trivalent nodes: [3]
+branch lengths from the trivalent node: [1, 2, 2] -> D/E shape (1,2,2) is E6
+|W| by BFS closure of the permutation group on the 72 roots: 51840
+|W| == 51840: True
+W-orbit of one root has size: 72 (transitive on roots: True )
+multiset of (a,b) for fixed root a: {'2': 1, '1': 20, '0': 30, '-1': 20, '-2': 1}
+wrote e6_roots.json

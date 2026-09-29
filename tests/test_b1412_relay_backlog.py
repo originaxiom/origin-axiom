@@ -15,10 +15,21 @@ def test_every_triaged_relay_has_a_row():
     assert not missing, missing[:10]
 
 def test_the_residue_is_fifteen_open_rows_escalated_by_name():
+    """B1412 left 15 of its 342 relays OPEN and escalated each by name on 2026-09-15.
+
+    REWRITTEN 2026-09-18 (B1425). The original form asserted those 15 are *still* OPEN, which pinned a
+    TRANSIENT state: the backlog was then paid, and by today all 342 rows read BANKED or DECLINED, so the
+    lock went red for the arc having succeeded. The durable facts are the two below -- the escalation
+    happened and is still recorded, and no relay from that window is left open -- and a lock should hold
+    those, not a snapshot of the queue on one day.
+    """
     tri = json.load(open(os.path.join(V, "relay_triage.json"), encoding="utf-8"))
-    names = [r["name"] for r in tri]
-    opens = [n for n in names if re.search(r"^\|\s*`" + re.escape(n) + r"`\s*\|\s*OPEN\s*\|", LEDGER, re.M)]
-    assert len(opens) == 15, (len(opens), opens[:5])
-    for n in opens:
-        row = re.search(r"^\|\s*`" + re.escape(n) + r"`[^\n]*$", LEDGER, re.M).group(0)
-        assert "ESCALATED(2026-09-15)" in row, n
+    rows = {}
+    for r in tri:
+        m = re.search(r"^\|\s*`" + re.escape(r["name"]) + r"`\s*\|\s*(\w+)\s*\|[^\n]*$", LEDGER, re.M)
+        assert m, "triaged relay has no ledger row: %s" % r["name"]
+        rows[r["name"]] = m.group(0)
+    escalated = [n for n, row in rows.items() if "ESCALATED(2026-09-15)" in row]
+    assert len(escalated) == 15, (len(escalated), escalated[:5])
+    still_open = [n for n, row in rows.items() if re.match(r"^\|[^|]*\|\s*OPEN\s*\|", row)]
+    assert not still_open, "relays from B1412's window left open: %s" % still_open[:5]

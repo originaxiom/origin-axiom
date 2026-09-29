@@ -8618,6 +8618,83 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1425": {
+   "slug": "the flaky lock and the hollow green",
+   "motifs": [
+    "measurement",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L223"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B1426": {
+   "slug": "the unwatched seat",
+   "motifs": [
+    "coupling",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1427": {
+   "slug": "the towers generation count verified",
+   "motifs": [
+    "measurement",
+    "closing",
+    "figure_eight",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1428": {
+   "slug": "the 3d index computed",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1429": {
+   "slug": "the stabiliser verified",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B142": {
    "slug": "klein4 and magic cartography",
    "motifs": [
@@ -8650,6 +8727,34 @@
    "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1430": {
+   "slug": "the embedding verified",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1431": {
+   "slug": "the index separates the sibling",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B143": {
    "slug": "interaction feasibility",

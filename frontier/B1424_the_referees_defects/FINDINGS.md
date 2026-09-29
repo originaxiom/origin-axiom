@@ -55,8 +55,8 @@ the same day in the typesetting pass, before their report arrived.)
 Seals **21/21**. Locks, after the fixes: the failure the referee could not name turns out to be **two** —
 `test_b1306_the_older_debt` firing correctly on **six genuinely unrowed audit-seat documents** (six pre-execution
 proof candidates the seat pushed after its pin), now rowed as received-and-not-read with their own fences, since a red
-test with no name is worse than a named debt and nothing in the paper cites them; and one subprocess lock that passes
-alone and failed once under the load of a 146-file run, whose timeout was tuned to an idle machine and is raised.
+test with no name is worse than a named debt and nothing in the paper cites them; and one subprocess lock whose failure this arc attributed to load.
+**That attribution is WRONG and is corrected in `ADDENDUM_2026-09-18_THE_DIAGNOSIS_WAS_WRONG.md`:** the lock is hash-order dependent (E83), not load-sensitive, and raising its timeout fixed nothing.
 
 ## What the referee verified that we should not forget
 About fifty claims re-derived from the manuscript's prose alone: the census counts cell by cell including the tie

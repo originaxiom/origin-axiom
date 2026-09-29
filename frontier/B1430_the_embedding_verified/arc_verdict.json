@@ -1,0 +1,15 @@
+{
+ "id": "B1430",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1429",
+  "B1426"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE SM-IN-E6 EMBEDDING CLAIM VERIFIED FROM SCRATCH, AND THE PAPER'S HEDGE IS VINDICATED RATHER THAN REFUTED. A review seat relayed that the SM lane's B1366 proves the Standard Model sits in E6 in exactly one way up to conjugacy, resting on '120 A2 subsystems, all one orbit', and that the paper therefore hedges against a question its own project had answered. Computed here with no Lie-theory library, exact rational arithmetic, the root system built by reflection closure and the diagram identified intrinsically (72 roots, one length, rank 6, closed under all 72 reflections, |W| = 51840 by explicit closure): B1366's THREE numbers all reproduce -- 120 A2 subsystems as sets of six roots in a SINGLE orbit with setwise stabiliser 432 and 51840/432 = 120; 720 commuting (A2, A1) pairs, six orthogonal A1 per A2, in a single orbit with stabiliser 72 and 51840/72 = 720; and EXACTLY THREE hypercharge directions giving the 27 the Standard Model multiset, out of 28513 primitive rational directions scanned, those three forming one orbit. THE QUALIFICATION IS THE POINT: the A2 orbit fact ALONE does not carry the uniqueness, because the u(1) is a free line in a 3-dimensional space with only a finite (order 72) residual symmetry, so there are uncountably many conjugacy classes of su(3)+su(2)+u(1) -- measured, the same scan yields 8177 distinct branchings of the 27. Uniqueness returns ONLY when the 27 is required to branch as one SM generation plus a 10 and a 1. That is exactly the condition B1366's own claim line states and exactly the input the paper lists on its weakest reading ('the selection rests on the colour frame and the Standard-Model shaping ... what is determined is the quotient GIVEN that frame'). SO THE ARC AND THE PAPER AGREE and the reviewer's charge was a lossy compression of the arc, not a finding about the paper. One thing neither claims and is true: the su(3)+su(2) pair alone, before any hypercharge, is already unique up to conjugacy. Controls: F4 gives 2 A2-orbits (16 long + 16 short) as it must, A2+A2 gives two orbits of size 1, and the closure test rejects G2's short-root hexagon, so the routine does not return 'one orbit' for everything. NOT COVERED: regular embeddings only, no S-subalgebras; the u(1) scan is a box not an exhaustive proof; G-conjugacy to W-conjugacy assumed."
+}

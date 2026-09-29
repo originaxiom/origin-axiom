@@ -1,0 +1,17 @@
+{
+ "id": "B1426",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1425",
+  "B1413",
+  "B1415",
+  "B1412"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "TWO LANES WERE OUTSIDE EVERY GATE ON MAIN, and one of them had asked in writing to be registered. harvest_debt.py walks a hard-coded list of nine seats, so a branch absent from that list is not unread but INVISIBLE, and no amount of attention finds it -- which is why a completeness sweep run over main on 2026-09-17 could report the paper complete while missing them. (1) origin/sep16-branch: 60 unique commits, arcs xB001-xB024, each with a preregistration SEALED AND PUSHED before its verification directory existed; it relayed XB_TO_CC_2026-09-16_SEAT_OPENED_AND_TWO_DEBTS_PAID.md containing a filled-in proposed SEAT_REGISTER row and the sentence 'the fix must be checkable by a gate, not by attention' -- and was then not rowed, not registered and not watched, by attention. Its xB021 computes that the stabiliser of the object's Chern-Simons value is exactly the two bits the paper calls withheld and relational, orbit times stabiliser closing as 4 = 2 x 2, under a binding kill condition that did not fire. (2) <remote>/paper-review-verification-kaz3f5: 13 unique commits holding the three referee reports the paper is currently being revised against -- the review lane itself was ungated. Both mirrors also diverge on these branches (origin ahead by 16 and 7). (3) THE WATCHED LANES WERE NOT BURIED BUT REPORTED AND UNREAD: with --fetch the gate lists the sm seat at +17 commits with 11 unrowed items including B1374/B1375 and THE_VERDICT_OF_THE_OBJECT, and the audit seat at +5 with 4, all two days old, and it PASSES because its failure threshold is 21 days -- a gate that reports a debt and passes is read as a gate that found nothing. (4) The outside claim that main is a 101-commit curated line with lanes sharing no history is FALSE, measured: main is 3457 commits identical on both mirrors, all ten same-repository lanes share main's root and have a merge base, their '~3000' totals include main's own history, and the one lane with genuinely unrelated history is the hostile seat in a DIFFERENT repository. FIXED: both lanes registered in the gate with their item grammars, pinned (sep16 at its merge base so the whole lane reads as debt), rowed in the seat register, the seat-opening relay rowed, and the survey made a script that walks every remote-tracking ref and names any lane the gate does not list -- it printed two, it now prints none. NOT FIXED, and the real work: reading them."
+}

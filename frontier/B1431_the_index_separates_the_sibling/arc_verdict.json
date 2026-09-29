@@ -1,0 +1,14 @@
+{
+ "id": "B1431",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1428"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE 3D INDEX DOES SEPARATE THE OBJECT FROM ITS SIBLING, and B1428's headline had the (0,0) class standing in for the invariant. Run as the collection over boundary classes rather than one class: m004's own PUBLISHED MERIDIAN series occurs at NO class of H_1(boundary m003), and m003's longitude series occurs at NO class of H_1(boundary m004); both differ from every competitor already at q^1, and among classes of minimal degree at most 8 there are 20 classes of m004 (6 distinct series) absent from m003 and 16 of m003 (4 distinct) absent from m004. Exhaustive rather than sampled: an exact per-term degree bound makes {gamma : minD(gamma) <= 8} finite and it is fully enumerated over |x|,|y| <= 40, with an independent 841-class brute force finding neither series anywhere. WHY THE COLLAPSE LOOKED TOTAL, proved not observed: relabelling m003's slots gives an EXACT identity of the two state sums, I_m003(gamma) = I_m004(A gamma) with A(x,y) = (-(2x+y), -y/2) of determinant 1 and no edge-row correction, confirmed 169 of 169 classes to q^30 -- but A does NOT carry H_1(boundary m003) onto H_1(boundary m004): it identifies the SATURATED lattices, each of index 2 over its H_1, and the two H_1's land on different index-2 sublattices. For y even the identity is honest and that half contains (0,0), which is why B1428's collapse is real; for y odd m003's honest classes equal m004's HALF-classes, which are not boundary classes of m004, and that is the separation. THE INSTRUMENT IS STRICTLY SHARPER THAN (0,0): it separates m006/m007, m015/m016, m015/m017 and m016/m017, four pairs with IDENTICAL (0,0) series, so B1428's volume-grouping of the census is an artefact of looking at one class. BASIS CAVEAT HANDLED: the comparison is on SETS of series so no basis enters; the indexing is validated by reproducing each manifold's cusp symmetry group exactly (m004's D4, m003's non-obvious shear), the canonical marking does NOT separate, and the basis-artefact false positive is exhibited rather than silently avoided. The gluing rule was DERIVED from SnapPy's own cusp rows, and all eight published m004 classes reproduce from those rows alone. Controls: must-separate pairs do; 32/32 random retriangulations agree per manifold and 12/12 on each separating class. One real triangulation-dependence recorded: the saturated lattice can shrink under retriangulation, so the half-class extension is triangulation-level and the result rests only on honest H_1 classes. It does not mean the index sees chirality, supplies a value or bridges to physics."
+}

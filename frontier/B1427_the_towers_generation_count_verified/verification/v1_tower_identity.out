@@ -1,0 +1,35 @@
+snappy 3.3.2
+m004: solution_type=all tetrahedra positively oriented  oriented=True  H1=Z  vol=2.029883212819
+
+Y_2  deg=2  H1(Y_2) = Z/5 + Z
+     claimed m206         H1 = Z/5 + Z
+     vol(Y)= 4.059766425639   vol(m206)= 4.059766425639   diff=0.00e+00
+     complex vol Y = 4.059766426 + 2.22044605 E-15*I ;  m206 = 4.059766426 + 8.43769499 E-15*I
+     is_isometric_to(m206)          -> True   (cusp-map dets [1, -1, 1, -1, -1, 1, 1, -1, -1, -1, 1, 1, -1, 1, 1, -1])
+     is_isometric_to(mirror m206)   -> True
+     num_cusps Y=1  C=1 ;  Y.identify() = [m206(0,0), otet04_00002(0,0)]
+
+Y_3  deg=3  H1(Y_3) = Z/4 + Z/4 + Z
+     claimed s961         H1 = Z/4 + Z/4 + Z
+     vol(Y)= 6.089649638458   vol(s961)= 6.089649638458   diff=8.88e-16
+     complex vol Y = 6.089649638 - 1.77635684 E-15*I ;  s961 = 6.08964964 + 1.9539925 E-14*I
+     is_isometric_to(s961)          -> True   (cusp-map dets [-1, 1, 1, -1, -1, -1, 1, 1, -1, 1, 1, -1, -1, 1, -1, 1, -1, -1, 1, 1, -1, 1, -1, 1])
+     is_isometric_to(mirror s961)   -> True
+     num_cusps Y=1  C=1 ;  Y.identify() = [s961(0,0), otet06_00003(0,0)]
+
+Y_4  deg=4  H1(Y_4) = Z/3 + Z/15 + Z
+     claimed t12839       H1 = Z/3 + Z/15 + Z
+     vol(Y)= 8.119532851277   vol(t12839)= 8.119532851277   diff=1.78e-15
+     complex vol Y = 8.11953285 - 2.6201263 E-14*I ;  t12839 = 8.11953285 - 7.5495166 E-15*I
+     is_isometric_to(t12839)          -> True   (cusp-map dets [1, -1, 1, -1, 1, 1, -1, -1, -1, -1, 1, 1, -1, 1, -1, 1, -1, 1, 1, -1, -1, 1, -1, 1, -1, 1, 1, -1, -1, -1, 1, 1])
+     is_isometric_to(mirror t12839)   -> True
+     num_cusps Y=1  C=1 ;  Y.identify() = [t12839(0,0), otet08_00007(0,0)]
+
+Y_5  deg=5  H1(Y_5) = Z/11 + Z/11 + Z
+     claimed o10_150696   H1 = Z/11 + Z/11 + Z
+     vol(Y)= 10.149416064097   vol(o10_150696)= 10.149416064097   diff=0.00e+00
+     complex vol Y = 10.14941606 - 8.8817842 E-16*I ;  o10_150696 = 10.14941606 - 2.8865799 E-15*I
+     is_isometric_to(o10_150696)          -> True   (cusp-map dets [1, 1, -1, -1, 1, 1, -1, -1, 1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, -1, -1, 1, -1, 1, -1, -1, 1, 1, -1, -1, 1, 1, 1, -1, -1, 1, 1, -1, -1, 1])
+     is_isometric_to(mirror o10_150696)   -> True
+     num_cusps Y=1  C=1 ;  Y.identify() = [o10_150696(0,0), otet10_00019(0,0)]
+

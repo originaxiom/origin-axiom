@@ -1,0 +1,47 @@
+================================================================================
+STEP 14: can the class-indexed comparison FAIL?  and does it succeed where it must?
+   series to q^20, classes |i|,|j| <= 4 in the SATURATED basis, A entries <= 2
+================================================================================
+  m004: 81 classes computed in 0.7s   basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 2)) covol 1/2
+  m003: 81 classes computed in 0.7s   basis (Fraction(1, 2), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 1)) covol 1/2
+  m015: 81 classes computed in 21.8s   basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 1)) covol 1
+  m006: 81 classes computed in 21.4s   basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 1)) covol 1
+  m007: 81 classes computed in 21.9s   basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 1)) covol 1
+  m016: 81 classes computed in 23.0s   basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 2)) covol 1/2
+  m017: 81 classes computed in 22.7s   basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 1)) covol 1
+
+  --- (0,0) alone ---
+    m004: +1 -2*q -3*q^2 +2*q^3 +8*q^4 +18*q^5 +18*q^6 +14*q^7 -12*q^8 -52*q^9 -106*q^10
+    m003: +1 -2*q -3*q^2 +2*q^3 +8*q^4 +18*q^5 +18*q^6 +14*q^7 -12*q^8 -52*q^9 -106*q^10
+    m015: +1 -4*q -1*q^2 +16*q^3 +26*q^4 +23*q^5 -34*q^6 -122*q^7 -239*q^8 -312*q^9 -221*q^10
+    m006: +1 -3*q -2*q^2 +9*q^3 +19*q^4 +25*q^5 -48*q^7 -132*q^8 -219*q^9 -255*q^10
+    m007: +1 -3*q -2*q^2 +9*q^3 +19*q^4 +25*q^5 -48*q^7 -132*q^8 -219*q^9 -255*q^10
+    m016: +1 -4*q -1*q^2 +16*q^3 +26*q^4 +23*q^5 -34*q^6 -122*q^7 -239*q^8 -312*q^9 -221*q^10
+    m017: +1 -4*q -1*q^2 +16*q^3 +26*q^4 +23*q^5 -34*q^6 -122*q^7 -239*q^8 -312*q^9 -221*q^10
+
+  --- pairwise GL_2(Z) matching ---
+    m004 vs m003 : I(0,0) equal: True    matching A's found: 4  [(-1, -1, 0, 1), (-1, 1, 0, -1), (1, -1, 0, 1), (1, 1, 0, -1)]   [MUST MATCH (step 12 theorem)]
+    m004 vs m015 : I(0,0) equal: False   matching A's found: 0  []   [MUST FAIL (different volume)]
+    m004 vs m006 : I(0,0) equal: False   matching A's found: 0  []   [MUST FAIL (different volume)]
+    m006 vs m007 : I(0,0) equal: True    matching A's found: 0  []   [same I(0,0) -- do classes separate?]
+    m015 vs m016 : I(0,0) equal: True    matching A's found: 0  []   [same I(0,0) -- do classes separate?]
+    m015 vs m017 : I(0,0) equal: True    matching A's found: 0  []   [same I(0,0) -- do classes separate?]
+    m016 vs m017 : I(0,0) equal: True    matching A's found: 0  []   [same I(0,0) -- do classes separate?]
+
+  --- a separating class, exhibited, for each pair with equal I(0,0) but no matching A ---
+    m006 vs m007: 41 vs 37 distinct series; 27 occur for m006 and for no class of m007 in the box
+       m006 at class (0, -1): -1*q +1*q^2 +5*q^3 +11*q^4 +6*q^5 -10*q^6 -47*q^7 -94*q^8 -132*q^9 -129*q^10
+       m006 at class (-1, 0): -2*q +8*q^3 +14*q^4 +15*q^5 -8*q^6 -50*q^7 -115*q^8 -176*q^9 -187*q^10
+    m015 vs m016: 39 vs 41 distinct series; 16 occur for m015 and for no class of m016 in the box
+       m015 at class (-4, -3): +1*q^8 +4*q^9 +4*q^10
+       m015 at class (-4, 3): +1*q^8 +5*q^9 +6*q^10
+    m015 vs m017: 39 vs 41 distinct series; 26 occur for m015 and for no class of m017 in the box
+       m015 at class (-1, 0): -3*q +14*q^3 +22*q^4 +16*q^5 -36*q^6 -116*q^7 -215*q^8 -268*q^9 -168*q^10
+       m015 at class (-1, 1): +2*q^2 +2*q^3 -12*q^5 -28*q^6 -46*q^7 -48*q^8 -4*q^9 +101*q^10
+    m016 vs m017: 41 vs 41 distinct series; 18 occur for m016 and for no class of m017 in the box
+       m016 at class (-1, 1): -1*q^(1/2) -1*q^(3/2) +6*q^(5/2) +14*q^(7/2) +13*q^(9/2) -12*q^(11/2) -69*q^(13/2) -140*q^(15/2) -197*q^(17/2) -159*q^(19/2)
+       m016 at class (-1, -1): -1*q^(1/2) +5*q^(5/2) +12*q^(7/2) +10*q^(9/2) -15*q^(11/2) -64*q^(13/2) -130*q^(15/2) -169*q^(17/2) -129*q^(19/2)
+
+  --- retriangulation: identical manifold must match with A = identity ---
+    m004 vs randomized (2 tets): saturated basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 2)) covol 1/2;  all 25 classes identical: True
+    m003 vs randomized (2 tets): saturated basis (Fraction(1, 1), Fraction(0, 1)),(Fraction(0, 1), Fraction(1, 1)) covol 1;  all 25 classes identical: False

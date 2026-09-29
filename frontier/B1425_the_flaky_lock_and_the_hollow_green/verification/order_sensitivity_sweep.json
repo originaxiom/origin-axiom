@@ -1,0 +1,546 @@
+{
+ "files_scanned": 3872,
+ "sites": [
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 69,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 94,
+   "why": "iteration over free_symbols",
+   "text": "c = c.subs({s: 0 for s in c.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 154,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 179,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1098_nonabelian_hatch/b1098_sl2_strata.py",
+   "line": 61,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1098_nonabelian_hatch/b1098_sl2_strata.py",
+   "line": 77,
+   "why": "iteration over free_symbols",
+   "text": "c = c.subs({s: 0 for s in c.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_exact_table.py",
+   "line": 30,
+   "why": "iteration over free_symbols",
+   "text": "cols.append(sol.subs({q:0 for q in sol.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_exact_table.py",
+   "line": 58,
+   "why": "list(set(...)) -- order lost",
+   "text": "spectra.append(list(set(sp.simplify(r) for r in roots)))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_exact_table.py",
+   "line": 104,
+   "why": "iteration over free_symbols",
+   "text": "sol=sol.subs({q:0 for q in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_hypercharge.py",
+   "line": 31,
+   "why": "iteration over free_symbols",
+   "text": "cols.append(sol.subs({q:0 for q in sol.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1102_exact_hypercharge_solve/b1102_adapted_basis.py",
+   "line": 292,
+   "why": "list(set(...)) -- order lost",
+   "text": "spectra.append(list(set(sp.simplify(r) for r in roots)))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1112_projective_hatch/parity_sweep.py",
+   "line": 61,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1112_projective_hatch/parity_sweep.py",
+   "line": 77,
+   "why": "iteration over free_symbols",
+   "text": "c = c.subs({s: 0 for s in c.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1248_norm_classification/verification/norm_classification.py",
+   "line": 151,
+   "why": "iteration over free_symbols",
+   "text": "free = sorted({t for e in sol.values() for t in e.free_symbols} - {a, b, c, d, p, q, r, s}, key=str)",
+   "sorted_at_use": true,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1295_the_caveat_closed_by_computation/verification/census_fixed_points.py",
+   "line": 352,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B155_golden_phase_bridge/golden_phase_bridge.py",
+   "line": 124,
+   "why": "iteration over free_symbols",
+   "text": "free = sorted({str(s) for v in sol.values() for s in v.free_symbols}, key=str)",
+   "sorted_at_use": true,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B155_golden_phase_bridge/golden_phase_bridge.py",
+   "line": 129,
+   "why": "iteration over free_symbols",
+   "text": "Gc = sp.Matrix(Gc.subs({r: 1 for r in Gc.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B448_heartbeat_adjudication/orbit_fields.py",
+   "line": 95,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "fs = list(fac.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B469_breath_campaign/br3_orbit_fields.py",
+   "line": 33,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "var = list(g.free_symbols)[0]",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B533_coupling_invariance/probe1_coupling_invariance.py",
+   "line": 316,
+   "why": "list(set(...)) -- order lost",
+   "text": "distinct_gaps = list(set(gap_sets))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B675_hcusp_sweep/bronze_certification.py",
+   "line": 439,
+   "why": "iteration over free_symbols",
+   "text": "cs.append(eval_expr(c, {k: env[k] for k in c.free_symbols}, F)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B675_hcusp_sweep/bronze_certification.py",
+   "line": 524,
+   "why": "iteration over free_symbols",
+   "text": "env[v] = eval_expr(e, {k: env[k] for k in e.free_symbols}, F)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B742_negatives_hunt_p1/recompute/TOMB-L339/recompute.py",
+   "line": 93,
+   "why": "iteration over free_symbols",
+   "text": "subs = {sym: lam*sym for X in A_syms for sym in X.free_symbols if sym != s_sym}",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W4-017r/compute.py",
+   "line": 664,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "fs = list(e2.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W5-017r/compute.py",
+   "line": 660,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "fs = list(e2.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B904_barton_sudbery/stage2c_final.py",
+   "line": 246,
+   "why": "iteration over free_symbols",
+   "text": "for fs in v.free_symbols:",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "tests/test_b155_golden_phase_bridge.py",
+   "line": 82,
+   "why": "iteration over free_symbols",
+   "text": "free = sorted({str(s) for v in sol.values() for s in v.free_symbols}, key=str)",
+   "sorted_at_use": true,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b155_golden_phase_bridge.py",
+   "line": 87,
+   "why": "iteration over free_symbols",
+   "text": "Gc = sp.Matrix(Gc.subs({r: 1 for r in Gc.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b156_omega_strict_full_cone.py",
+   "line": 84,
+   "why": "iteration over free_symbols",
+   "text": "free = sorted({s for v in sol.values() for s in v.free_symbols}, key=str)",
+   "sorted_at_use": true,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b514.py",
+   "line": 8,
+   "why": "free_symbols indexed directly",
+   "text": "lam = list(M.charpoly().gen.free_symbols)[0] if False else sp.symbols('lambda')",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b514.py",
+   "line": 10,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "x = list(cp.free_symbols)[0]",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b568_persistence.py",
+   "line": 27,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "cp = sp.expand(M.charpoly().as_expr()); x = list(cp.free_symbols)[0]",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b638_b639.py",
+   "line": 76,
+   "why": "list(set(...)) -- order lost",
+   "text": "sol = sp.solve(eqs, list(set(B)), dict=True)",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b638_b639.py",
+   "line": 79,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "free = list(Bs.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": true
+  }
+ ],
+ "site_count": 34,
+ "unsorted_sites": [
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 69,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 94,
+   "why": "iteration over free_symbols",
+   "text": "c = c.subs({s: 0 for s in c.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 154,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1087_charge_grading/b1087_grading.py",
+   "line": 179,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1098_nonabelian_hatch/b1098_sl2_strata.py",
+   "line": 61,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1098_nonabelian_hatch/b1098_sl2_strata.py",
+   "line": 77,
+   "why": "iteration over free_symbols",
+   "text": "c = c.subs({s: 0 for s in c.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_exact_table.py",
+   "line": 30,
+   "why": "iteration over free_symbols",
+   "text": "cols.append(sol.subs({q:0 for q in sol.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_exact_table.py",
+   "line": 58,
+   "why": "list(set(...)) -- order lost",
+   "text": "spectra.append(list(set(sp.simplify(r) for r in roots)))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_exact_table.py",
+   "line": 104,
+   "why": "iteration over free_symbols",
+   "text": "sol=sol.subs({q:0 for q in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1100_landing_content/b1100_hypercharge.py",
+   "line": 31,
+   "why": "iteration over free_symbols",
+   "text": "cols.append(sol.subs({q:0 for q in sol.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1102_exact_hypercharge_solve/b1102_adapted_basis.py",
+   "line": 292,
+   "why": "list(set(...)) -- order lost",
+   "text": "spectra.append(list(set(sp.simplify(r) for r in roots)))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1112_projective_hatch/parity_sweep.py",
+   "line": 61,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1112_projective_hatch/parity_sweep.py",
+   "line": 77,
+   "why": "iteration over free_symbols",
+   "text": "c = c.subs({s: 0 for s in c.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B1295_the_caveat_closed_by_computation/verification/census_fixed_points.py",
+   "line": 352,
+   "why": "iteration over free_symbols",
+   "text": "sol = sol.subs({s: 0 for s in sol.free_symbols})",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B155_golden_phase_bridge/golden_phase_bridge.py",
+   "line": 129,
+   "why": "iteration over free_symbols",
+   "text": "Gc = sp.Matrix(Gc.subs({r: 1 for r in Gc.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B448_heartbeat_adjudication/orbit_fields.py",
+   "line": 95,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "fs = list(fac.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B469_breath_campaign/br3_orbit_fields.py",
+   "line": 33,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "var = list(g.free_symbols)[0]",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B533_coupling_invariance/probe1_coupling_invariance.py",
+   "line": 316,
+   "why": "list(set(...)) -- order lost",
+   "text": "distinct_gaps = list(set(gap_sets))",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B675_hcusp_sweep/bronze_certification.py",
+   "line": 439,
+   "why": "iteration over free_symbols",
+   "text": "cs.append(eval_expr(c, {k: env[k] for k in c.free_symbols}, F)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B675_hcusp_sweep/bronze_certification.py",
+   "line": 524,
+   "why": "iteration over free_symbols",
+   "text": "env[v] = eval_expr(e, {k: env[k] for k in e.free_symbols}, F)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B742_negatives_hunt_p1/recompute/TOMB-L339/recompute.py",
+   "line": 93,
+   "why": "iteration over free_symbols",
+   "text": "subs = {sym: lam*sym for X in A_syms for sym in X.free_symbols if sym != s_sym}",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W4-017r/compute.py",
+   "line": 664,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "fs = list(e2.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W5-017r/compute.py",
+   "line": 660,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "fs = list(e2.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "frontier/B904_barton_sudbery/stage2c_final.py",
+   "line": 246,
+   "why": "iteration over free_symbols",
+   "text": "for fs in v.free_symbols:",
+   "sorted_at_use": false,
+   "is_lock": false
+  },
+  {
+   "file": "tests/test_b155_golden_phase_bridge.py",
+   "line": 87,
+   "why": "iteration over free_symbols",
+   "text": "Gc = sp.Matrix(Gc.subs({r: 1 for r in Gc.free_symbols}))",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b514.py",
+   "line": 8,
+   "why": "free_symbols indexed directly",
+   "text": "lam = list(M.charpoly().gen.free_symbols)[0] if False else sp.symbols('lambda')",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b514.py",
+   "line": 10,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "x = list(cp.free_symbols)[0]",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b568_persistence.py",
+   "line": 27,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "cp = sp.expand(M.charpoly().as_expr()); x = list(cp.free_symbols)[0]",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b638_b639.py",
+   "line": 76,
+   "why": "list(set(...)) -- order lost",
+   "text": "sol = sp.solve(eqs, list(set(B)), dict=True)",
+   "sorted_at_use": false,
+   "is_lock": true
+  },
+  {
+   "file": "tests/test_b638_b639.py",
+   "line": 79,
+   "why": "list(free_symbols) -- unordered unknowns",
+   "text": "free = list(Bs.free_symbols)",
+   "sorted_at_use": false,
+   "is_lock": true
+  }
+ ],
+ "locks_touched": [
+  "tests/test_b155_golden_phase_bridge.py",
+  "tests/test_b156_omega_strict_full_cone.py",
+  "tests/test_b514.py",
+  "tests/test_b568_persistence.py",
+  "tests/test_b638_b639.py"
+ ],
+ "unsorted_count": 30,
+ "seed_checked_locks": {
+  "locks": [
+   "tests/test_b155_golden_phase_bridge.py",
+   "tests/test_b156_omega_strict_full_cone.py",
+   "tests/test_b514.py",
+   "tests/test_b568_persistence.py",
+   "tests/test_b638_b639.py"
+  ],
+  "seeds": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "result": "28 passed on every seed",
+  "stable": true
+ }
+}

@@ -1,0 +1,512 @@
+{
+ "tracked_text_receipts_scanned": 1458,
+ "receipts_carrying_a_failure": 47,
+ "hits": [
+  {
+   "file": "frontier/B1062_bridge_cell/b1062_a2_m5_fricke.log",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 29,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B1302_the_sibling_m202/verification/sm_b1282_sibling_germ_rerun.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 11,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B1304_the_audit_seats_4d_model/verification/audit_focused_suite_rerun.txt",
+   "marks": [
+    "AssertionError",
+    "FAILED"
+   ],
+   "lines": 1187,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B1305_the_cloud_156_178/verification/b1305_sense_census_main.out",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 11,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B1305_the_cloud_156_178/verification/sliceB/b1305_sense_census_main_excluded.out",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 11,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B1305_the_cloud_156_178/verification/sliceB/cloud_park_52_blocks_rerun.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 7,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1355_geometry_run.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 7,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B455_ethogram_e3_response/run_log.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 8,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B469_breath_campaign/octic_log.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 19,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B477_sterile_classes/context_log.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 8,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B485_metallic_apoly_family/conj_log.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 31,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B498_mixed_monoid_dynamics/wild_hunt_results.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 29,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B590_revival_remainders/r1_output.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError",
+    "FAILED"
+   ],
+   "lines": 19,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B612_pairing_chirality/output.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 14,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B632_cubic_route/FAILED_RUN_1.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 27,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B637_corrected_cell3/part2b_stage2_output.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError",
+    "FAILED"
+   ],
+   "lines": 26,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B639_conjtheta_cubic/b639_output.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 17,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B639_conjtheta_cubic/b639_stage2_output.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 14,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B643_flip_symmetry/b643_output.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 111,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B649_silver_holonomy/b649_stage2a_run1_FAILED.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 12,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B662_successor_campaign/cellH/cellH_output_run1_controlfail.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 37,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cell5/cell5_output_2.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 23,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cell5/repro_unfixed_full.txt",
+   "marks": [
+    "AssertionError",
+    "FAILED"
+   ],
+   "lines": 33,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cell9/taskA_output_run1_FAILED.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 69,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cell9/taskA_verify2_run1_FAILED.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 23,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cell9/taskB_discrete_id_run1_FAILED.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 34,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cellA2/a2_phase1_output.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 47,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cellA2/a2_phase2_output_crash1.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 71,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B666_leads_campaign/cellW33/cellW33_output_run1.txt",
+   "marks": [
+    "Traceback (most recent call last)",
+    "AssertionError"
+   ],
+   "lines": 32,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "frontier/B670_anatomy_full/packet/loop2/b2_massey/b2_run_log.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 109,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B737_candidate_zero/p2_cover_out_run1_FAILED.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 90,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": false,
+   "silent": false
+  },
+  {
+   "file": "frontier/B739_character_rigidity/b739_probe_out.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 338,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B739_character_rigidity/b739_probe_out_run1_FAILED.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 30,
+   "filename_declares_failure": true,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B754_p2_spectral/cells/TOMB-L247/output.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 126,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B764_c19_comparator/output.txt",
+   "marks": [
+    "Traceback (most recent call last)"
+   ],
+   "lines": 55,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/OI-150/output.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 139,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W2-270/output.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 64,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W3-084/output.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 50,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W3-149r/output.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 55,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B771_phase1_wave1/cells/W4-084r/output.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 50,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": false,
+   "silent": true
+  },
+  {
+   "file": "frontier/B775_phase2_wave1/cells/P2W5-LSCHAAR/output.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 85,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B905_kim_litgate/panel_report.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 2396,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/cell2_hecke_gate.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 44,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": true,
+   "silent": false
+  },
+  {
+   "file": "outside_bench/outputs/p3_hostile_read_out.txt",
+   "marks": [
+    "ERROR:"
+   ],
+   "lines": 228,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "outside_bench/outputs/require_and_test_cell4_out.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 112,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "outside_bench/outputs/shadow_pairing_out.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 69,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  },
+  {
+   "file": "outside_bench/outputs/the_mirror_and_the_bulk.txt",
+   "marks": [
+    "FAILED"
+   ],
+   "lines": 159,
+   "filename_declares_failure": false,
+   "arc_findings_mentions_a_failure": null,
+   "silent": false
+  }
+ ],
+ "silent_count": 15,
+ "silent": [
+  "frontier/B1302_the_sibling_m202/verification/sm_b1282_sibling_germ_rerun.txt",
+  "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1355_geometry_run.txt",
+  "frontier/B469_breath_campaign/octic_log.txt",
+  "frontier/B477_sterile_classes/context_log.txt",
+  "frontier/B485_metallic_apoly_family/conj_log.txt",
+  "frontier/B498_mixed_monoid_dynamics/wild_hunt_results.txt",
+  "frontier/B639_conjtheta_cubic/b639_output.txt",
+  "frontier/B639_conjtheta_cubic/b639_stage2_output.txt",
+  "frontier/B670_anatomy_full/packet/loop2/b2_massey/b2_run_log.txt",
+  "frontier/B764_c19_comparator/output.txt",
+  "frontier/B771_phase1_wave1/cells/OI-150/output.txt",
+  "frontier/B771_phase1_wave1/cells/W2-270/output.txt",
+  "frontier/B771_phase1_wave1/cells/W3-084/output.txt",
+  "frontier/B771_phase1_wave1/cells/W3-149r/output.txt",
+  "frontier/B771_phase1_wave1/cells/W4-084r/output.txt"
+ ],
+ "note": "A receipt carrying a failure marker is not itself a defect: this record deliberately preserves failed runs (B632's FAILED_RUN_1.txt is named for it). The defect is a receipt that records a failure while its arc's FINDINGS never mentions one. B1411 was exactly that and is repaired in B1425."
+}

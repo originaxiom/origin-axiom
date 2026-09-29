@@ -1,0 +1,69 @@
+==============================================================
+A3
+  roots: 12  rank: 3  |W|: 24
+  Cartan: [['2', '-1', '0'], ['-1', '2', '-1'], ['0', '-1', '2']]
+  distinct squared root lengths: ['2']
+  A2 subsystems (sets of 6 roots): 4
+  W-orbits on them: 1  sizes: [4]
+     orbit size 4 : root length^2 in the subsystem {'2'}
+     orbit-stabiliser check: |W|/|stab| = 24/6 = 4
+  A2+A1 subsystems (8 roots, A1 orthogonal to the A2): 0
+==============================================================
+D4
+  roots: 24  rank: 4  |W|: 192
+  Cartan: [['2', '-1', '0', '0'], ['-1', '2', '-1', '-1'], ['0', '-1', '2', '0'], ['0', '-1', '0', '2']]
+  distinct squared root lengths: ['2']
+  A2 subsystems (sets of 6 roots): 16
+  W-orbits on them: 1  sizes: [16]
+     orbit size 16 : root length^2 in the subsystem {'2'}
+     orbit-stabiliser check: |W|/|stab| = 192/12 = 16
+  A2+A1 subsystems (8 roots, A1 orthogonal to the A2): 0
+==============================================================
+B3
+  roots: 18  rank: 3  |W|: 48
+  Cartan: [['2', '-1', '0'], ['-1', '2', '-2'], ['0', '-1', '2']]
+  distinct squared root lengths: ['1', '2']
+  A2 subsystems (sets of 6 roots): 4
+  W-orbits on them: 1  sizes: [4]
+     orbit size 4 : root length^2 in the subsystem {'2'}
+     orbit-stabiliser check: |W|/|stab| = 48/12 = 4
+  A2+A1 subsystems (8 roots, A1 orthogonal to the A2): 0
+==============================================================
+F4
+  roots: 48  rank: 4  |W|: 1152
+  Cartan: [['2', '-1', '0', '0'], ['-1', '2', '-2', '0'], ['0', '-1', '2', '-1'], ['0', '0', '-1', '2']]
+  distinct squared root lengths: ['1', '2']
+  A2 subsystems (sets of 6 roots): 32
+  W-orbits on them: 2  sizes: [16, 16]
+     orbit size 16 : root length^2 in the subsystem {'2'}
+     orbit size 16 : root length^2 in the subsystem {'1'}
+     orbit-stabiliser check: |W|/|stab| = 1152/72 = 16
+  A2+A1 subsystems (8 roots, A1 orthogonal to the A2): 96
+  W-orbits on them: 2  sizes: [48, 48]
+     orbit size 48 : length^2 multiset {'1': 2, '2': 6}
+     orbit size 48 : length^2 multiset {'1': 6, '2': 2}
+==============================================================
+G2
+  roots: 12  rank: 2  |W|: 12
+  Cartan: [['2', '-1'], ['-3', '2']]
+  distinct squared root lengths: ['2', '6']
+  A2 subsystems (sets of 6 roots): 1
+  W-orbits on them: 1  sizes: [1]
+     orbit size 1 : root length^2 in the subsystem {'6'}
+     orbit-stabiliser check: |W|/|stab| = 12/12 = 1
+  A2+A1 subsystems (8 roots, A1 orthogonal to the A2): 0
+==============================================================
+A2+A2 (reducible)
+  roots: 12  rank: 4  |W|: 36
+  Cartan: [['2', '-1', '0', '0'], ['-1', '2', '0', '0'], ['0', '0', '2', '-1'], ['0', '0', '-1', '2']]
+  distinct squared root lengths: ['2']
+  A2 subsystems (sets of 6 roots): 2
+  W-orbits on them: 2  sizes: [1, 1]
+     orbit size 1 : root length^2 in the subsystem {'2'}
+     orbit size 1 : root length^2 in the subsystem {'2'}
+     orbit-stabiliser check: |W|/|stab| = 36/36 = 1
+  A2+A1 subsystems (8 roots, A1 orthogonal to the A2): 6
+  W-orbits on them: 2  sizes: [3, 3]
+     orbit size 3 : length^2 multiset {'2': 8}
+     orbit size 3 : length^2 multiset {'2': 8}
+==============================================================

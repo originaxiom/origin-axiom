@@ -1,0 +1,140 @@
+{
+ "script": "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1355_geometry.py",
+ "seeds": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "pre_fix_hands_a_set_to_the_solver": true,
+ "pre_fix": [
+  {
+   "seed": "0",
+   "returncode": 1,
+   "verified": false,
+   "tail": "AssertionError"
+  },
+  {
+   "seed": "1",
+   "returncode": 1,
+   "verified": false,
+   "tail": "AssertionError"
+  },
+  {
+   "seed": "2",
+   "returncode": 1,
+   "verified": false,
+   "tail": "AssertionError"
+  },
+  {
+   "seed": "3",
+   "returncode": 1,
+   "verified": false,
+   "tail": "AssertionError"
+  },
+  {
+   "seed": "4",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "5",
+   "returncode": 1,
+   "verified": false,
+   "tail": "AssertionError"
+  },
+  {
+   "seed": "6",
+   "returncode": 1,
+   "verified": false,
+   "tail": "AssertionError"
+  },
+  {
+   "seed": "7",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  }
+ ],
+ "post_fix": [
+  {
+   "seed": "0",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "1",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "2",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "3",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "4",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "5",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "6",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  },
+  {
+   "seed": "7",
+   "returncode": 0,
+   "verified": true,
+   "tail": "VERIFIED"
+  }
+ ],
+ "post_fix_sorts_the_unknowns": true,
+ "pre_fix_pass_seeds": [
+  "4",
+  "7"
+ ],
+ "pre_fix_fail_seeds": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "5",
+  "6"
+ ],
+ "post_fix_pass_seeds": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "pre_fix_is_seed_dependent": true,
+ "post_fix_is_seed_independent": true,
+ "verdict": "E83 CONFIRMED and FIXED"
+}

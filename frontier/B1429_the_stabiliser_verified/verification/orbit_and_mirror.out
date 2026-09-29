@@ -1,0 +1,8 @@
+m004   CS=+0.0000000000  mirror CS=-0.0000000000  sum=+6.75e-17  |  mod 1/2: 0.000000 vs 0.500000
+m003   CS=+0.2500000000  mirror CS=+0.2500000000  sum=+5.00e-01  |  mod 1/2: 0.250000 vs 0.250000
+
+fixed points of x -> -x on R/(1/2)Z (i.e. 2x = 0 mod 1/2):
+   x=0.000   -x mod 1/2 = 0.000   fixed = True
+   x=0.125   -x mod 1/2 = 0.375   fixed = False
+   x=0.250   -x mod 1/2 = 0.250   fixed = True
+   x=0.375   -x mod 1/2 = 0.125   fixed = False

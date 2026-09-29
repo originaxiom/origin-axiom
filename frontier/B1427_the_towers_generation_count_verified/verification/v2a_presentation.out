@@ -1,0 +1,7 @@
+H1 = Z/3 + Z/15 + Z
+gens = ['a', 'b', 'c']
+rels = ['aCCaCaCCBcacaab', 'acaacaabcAccABc']
+peripheral = [('cACa', 'CB')]
+mu = cACa  lam = CB
+abelianized relators: [[6, 0, -3], [3, 0, 6]]
+ab(mu) = [0, 0, 0]  ab(lam) = [0, -1, -1]

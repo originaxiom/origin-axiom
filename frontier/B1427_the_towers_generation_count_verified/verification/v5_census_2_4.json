@@ -1,0 +1,97 @@
+{
+ "Y2": {
+  "n": 2,
+  "N": 60,
+  "H1": "Z/5 + Z",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCabbcB",
+   "abcAAbC"
+  ],
+  "mu": "aCa",
+  "lam": "AbaB",
+  "primes": [
+   1021,
+   1201,
+   1321
+  ],
+  "n_chars": 300,
+  "loci": 9,
+  "h1_multiset": {
+   "1": 9
+  },
+  "modules_computed": 2700,
+  "firing": 16,
+  "rechecked": 32,
+  "differing": 0,
+  "firing_signatures": {
+   "((0, 1, 1, 0), (0, 2, 1, 2))": 8,
+   "((0, 2, 1, 2), (0, 1, 1, 0))": 8
+  },
+  "generation_backgrounds": 0,
+  "loci_carrying": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {},
+  "cusp_exponents": {
+   "(0, 0)": 4,
+   "(30, 0)": 5
+  },
+  "seconds": 2.0
+ },
+ "Y4": {
+  "n": 4,
+  "N": 60,
+  "H1": "Z/3 + Z/15 + Z",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCCaCaCCBcacaab",
+   "acaacaabcAccABc"
+  ],
+  "mu": "cACa",
+  "lam": "CB",
+  "primes": [
+   1021,
+   1201,
+   1321
+  ],
+  "n_chars": 2700,
+  "loci": 89,
+  "h1_multiset": {
+   "1": 89
+  },
+  "modules_computed": 240300,
+  "firing": 976,
+  "rechecked": 1952,
+  "differing": 0,
+  "firing_signatures": {
+   "((0, 1, 1, 0), (0, 2, 1, 2))": 488,
+   "((0, 2, 1, 2), (0, 1, 1, 0))": 488
+  },
+  "generation_backgrounds": 12800,
+  "loci_carrying": 64,
+  "signs": {
+   "1": 6400,
+   "-1": 6400
+  },
+  "abs_counts": {
+   "1": 12800
+  },
+  "nuc": {
+   "0": 12800
+  },
+  "cusp_exponents": {
+   "(0, 0)": 44,
+   "(0, 30)": 45
+  },
+  "seconds": 221.1
+ }
+}

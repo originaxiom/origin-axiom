@@ -1,0 +1,57 @@
+{
+ "n": 5,
+ "N": 132,
+ "H1": "Z/11 + Z/11 + Z",
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "aCCaCaCCBcacaacacaacaab",
+  "acaacaabccAcAccAcAccABc"
+ ],
+ "mu": "aCAc",
+ "lam": "CACAACACbaC",
+ "ab_mu": [
+  0,
+  0,
+  0
+ ],
+ "ab_lam": [
+  -3,
+  1,
+  -5
+ ],
+ "primes": [
+  1321,
+  1453,
+  2113
+ ],
+ "n_chars": 15972,
+ "loci_per_prime": [
+  241,
+  241,
+  241
+ ],
+ "loci_union": 241,
+ "loci_inter": 241,
+ "exact_h1_multiset_on_union": {
+  "1": 241
+ },
+ "loci_exact": 241,
+ "exact_h1_multiset_on_loci": {
+  "1": 241
+ },
+ "max_h1": 1,
+ "cusp_exponents": {
+  "(0, 0)": 120,
+  "(0, 66)": 121
+ },
+ "order_of_chi": {
+  "22": 120,
+  "11": 120,
+  "2": 1
+ },
+ "seconds": 2.8
+}

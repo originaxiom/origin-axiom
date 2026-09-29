@@ -1,0 +1,18 @@
+conditions: [[0, -1, 0, 0, 0, 0], [0, 1, 0, 1, 0, 0], [1, 1, 1, 2, 2, 1]]
+primitive coweight LINES orthogonal to the A2+A1 in the box |n_1|,|n_3|,|n_5| <= 20 : 28513
+branchings that my minuscule peeling could not identify: 0
+DISTINCT branching signatures of the 27 (up to scale and sign): 8177
+-> at least that many pairwise NON-CONJUGATE su(3)+su(2)+u(1)
+   subalgebras of E6 with this same regular su(3)+su(2).
+
+lines reproducing EXACTLY the Standard-Model branching: 3
+    [(-3, 0, -1, 0, -1, 6), (-3, 0, -1, 0, 5, -6), (-3, 0, 5, 0, -1, 0)]
+Stab_W(A2+A1)-orbits among them: 1
+=> number of W(E6)-conjugacy classes of REGULAR su(3)+su(2)+u(1)
+   with exactly the SM branching of the 27, found in this box: 1
+
+=== THE CONTINUUM STATEMENT ===
+dim V (Cartan directions commuting with the A2+A1) = 3
+|Stab_W(A2+A1)| = 72
+the set of u(1)'s = lines in V = RP^2 (uncountable);
+every Stab-orbit has size at most 72 -> UNCOUNTABLY many W-orbits of su(3)+su(2)+u(1) subalgebras.

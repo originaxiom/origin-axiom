@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+<env>/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 control: m004 surjects onto 2T -> True
 full orientable cusped len=212641  depth 0      34.25% (n=800, skipped 0)  depth 20000  29.38% (n=800, skipped 0)  depth 80000  21.12% (n=800, skipped 0)

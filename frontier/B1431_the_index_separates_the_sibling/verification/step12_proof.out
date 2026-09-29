@@ -1,0 +1,20 @@
+m003  E: [[2, 0, 1, 2, 0, 1], [0, 2, 1, 0, 2, 1]]  Mr: [0, -2, 0, 2, 0, 0]  Ln: [0, -1, 0, 2, -1, 0]
+m004  E: [[2, 1, 0, 1, 0, 2], [0, 1, 2, 1, 2, 0]]  Mr: [1, 0, 0, 0, -1, 0]  Ln: [0, 0, 0, 0, -2, 2]
+
+--- search: a relabelling P of m003's slots carrying its EDGE rows onto m004's ---
+   P = ((0, 1), (1, 2), (1, 0))
+   P = ((1, 0), (1, 2), (1, 0))
+
+--- with that P, solve for A on the boundary lattice ---
+   P(v3) = [2*x + y, 0, 0, 0, -2*x - 2*y, y]
+   v4(X,Y)+n(E0-E1) = [-X + 2*n, 0, -2*n, 0, X + 2*Y - 2*n, -2*Y + 2*n]
+   SOLUTION: [{X: -2*x - y, Y: -y/2, n: 0}]
+
+   ==> A : (x,y)_m003  |-->  (X,Y)_m004 = (-2*x - y, -y/2),  n = 0
+
+--- the same map in SATURATED-lattice coordinates ---
+   Lambda(m003) = <mu/2, lam>   (x=c/2, y=d);   Lambda(m004) = <mu, lam/2>   (X=a, Y=b/2)
+   (c,d) |--> (a,b) = (-c - d, -d)   determinant of the matrix: 1
+
+--- numerical confirmation of the theorem over a wide range, to q^30 ---
+   classes checked: 169 agree, 0 disagree.   failures: []

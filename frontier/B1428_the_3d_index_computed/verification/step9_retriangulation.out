@@ -1,0 +1,15 @@
+==============================================================================
+STEP 9: retriangulation stability (to q^10)
+==============================================================================
+
+  m004: base = +1 -2*q -3*q^2 +2*q^3 +8*q^4 +18*q^5 +18*q^6 +14*q^7 -12*q^8 -52*q^9 -106*q^10
+     30 random retriangulations computed, sizes {2: 30}
+     agreeing with the base: 30 / 30
+
+  m009: base = +1 -1*q -1*q^2 +6*q^3 +9*q^4 +12*q^5 -5*q^6 -34*q^7 -79*q^8 -118*q^9 -118*q^10
+     30 random retriangulations computed, sizes {3: 30}
+     agreeing with the base: 30 / 30
+
+  m015: base = +1 -4*q -1*q^2 +16*q^3 +26*q^4 +23*q^5 -34*q^6 -122*q^7 -239*q^8 -312*q^9 -221*q^10
+     30 random retriangulations computed, sizes {3: 30}
+     agreeing with the base: 30 / 30

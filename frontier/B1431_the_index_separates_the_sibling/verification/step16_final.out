@@ -1,0 +1,65 @@
+========================================================================================
+(1) EXHAUSTIVENESS: all integer classes with minD <= 8, over |x|,|y| <= 40
+========================================================================================
+  m004: 51 classes with minD<=8; farthest is at |.|=16 (box 40) -> the set is bounded and fully inside the box
+      minD=0: 1 classes, max |.| = 0
+      minD=2: 8 classes, max |.| = 4
+      minD=4: 8 classes, max |.| = 8
+      minD=6: 22 classes, max |.| = 12
+      minD=8: 12 classes, max |.| = 16
+  m003: 47 classes with minD<=8; farthest is at |.|=12 (box 40) -> the set is bounded and fully inside the box
+      minD=0: 1 classes, max |.| = 0
+      minD=2: 10 classes, max |.| = 3
+      minD=4: 8 classes, max |.| = 6
+      minD=6: 16 classes, max |.| = 9
+      minD=8: 12 classes, max |.| = 12
+
+========================================================================================
+(2) BOTH DIRECTIONS: an integer class of one whose series occurs at NO integer class of the other
+========================================================================================
+
+  --- classes of m004 absent from m003 ---
+    20 classes, 6 distinct series
+      e.g. m004(-1, 0) (leading x^2; only 11 classes of m003 can compete, all checked):
+           -2*q -2*q^2 +2*q^3 +8*q^4 +16*q^5 +16*q^6 +10*q^7 -14*q^8 -52*q^9 -102*q^10 -154*q^11 -192*q^12 -188*q^13 -116*q^14 +42*q^15
+           attained on m004 at [(-1, 0), (1, 0)]
+      e.g. m004(-3, -1) (leading x^4; only 19 classes of m003 can compete, all checked):
+           +1*q^2 +1*q^3 +1*q^4 -1*q^5 -4*q^6 -10*q^7 -16*q^8 -22*q^9 -25*q^10 -19*q^11 +40*q^13 +100*q^14 +189*q^15
+           attained on m004 at [(-3, -1), (-3, 1), (3, -1), (3, 1)]
+      e.g. m004(-5, -1) (leading x^6; only 35 classes of m003 can compete, all checked):
+           -1*q^3 -1*q^4 -2*q^5 -3*q^6 -3*q^7 -3*q^8 +6*q^10 +18*q^11 +33*q^12 +56*q^13 +80*q^14 +106*q^15
+           attained on m004 at [(-5, -1), (-5, 1), (5, -1), (5, 1)]
+      e.g. m004(-3, 0) (leading x^6; only 35 classes of m003 can compete, all checked):
+           +2*q^3 +4*q^4 +6*q^5 +2*q^6 -4*q^7 -20*q^8 -42*q^9 -64*q^10 -82*q^11 -84*q^12 -52*q^13 +28*q^14 +158*q^15
+           attained on m004 at [(-3, 0), (3, 0)]
+
+  --- classes of m003 absent from m004 ---
+    16 classes, 4 distinct series
+      e.g. m003(-1, 1) (leading x^2; only 9 classes of m004 can compete, all checked):
+           -1*q -1*q^2 +2*q^3 +7*q^4 +11*q^5 +11*q^6 +3*q^7 -17*q^8 -49*q^9 -88*q^10 -126*q^11 -148*q^12 -132*q^13 -57*q^14 +96*q^15
+           attained on m003 at [(-1, 1), (0, -1), (0, 1), (1, -1)]
+      e.g. m003(-2, 1) (leading x^4; only 17 classes of m004 can compete, all checked):
+           +1*q^2 +2*q^3 +3*q^4 +3*q^5 -8*q^7 -21*q^8 -37*q^9 -54*q^10 -63*q^11 -54*q^12 -18*q^13 +58*q^14 +184*q^15
+           attained on m003 at [(-2, 1), (-1, -1), (1, 1), (2, -1)]
+      e.g. m003(-4, 3) (leading x^6; only 39 classes of m004 can compete, all checked):
+           -1*q^3 -1*q^4 -1*q^5 -1*q^6 +1*q^7 +3*q^8 +7*q^9 +13*q^10 +20*q^11 +27*q^12 +34*q^13 +37*q^14 +32*q^15
+           attained on m003 at [(-4, 3), (-1, -3), (1, 3), (4, -3)]
+      e.g. m003(-5, 3) (leading x^8; only 51 classes of m004 can compete, all checked):
+           +1*q^4 +1*q^5 +1*q^6 +2*q^7 +3*q^8 +3*q^9 +3*q^10 +2*q^11 -1*q^12 -7*q^13 -17*q^14 -31*q^15
+           attained on m003 at [(-5, 3), (-2, -3), (2, 3), (5, -3)]
+
+========================================================================================
+(3) RETRIANGULATION INVARIANCE OF THE SEPARATING CLASSES
+========================================================================================
+  m004 class (1, 0): 12 retriangulations agree, 0 disagree
+  m004 class (3, 1): 12 retriangulations agree, 0 disagree
+  m003 class (0, 1): 12 retriangulations agree, 0 disagree
+  m003 class (1, 1): 12 retriangulations agree, 0 disagree
+
+========================================================================================
+(4) THE ISOMETRY GROUP MUST ACT ON THE COLLECTION  (independent check of the rule)
+========================================================================================
+  m004: symmetry group D4; distinct cusp maps [((-1, 0), (0, -1)), ((-1, 0), (0, 1)), ((1, 0), (0, -1)), ((1, 0), (0, 1))]
+     index collection invariant under every cusp map, 49 classes each: True
+  m003: symmetry group Z/2 + Z/4; distinct cusp maps [((-1, -1), (0, 1)), ((-1, 0), (0, -1)), ((1, 0), (0, 1)), ((1, 1), (0, -1))]
+     index collection invariant under every cusp map, 49 classes each: True

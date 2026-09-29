@@ -68,4 +68,23 @@ stronger certificate, and the manifest's lock set is a subset of it.
 - The ledgers the paper's surfaces are generated from: `docs/THEOREM_LEDGER.md` (the chain; the paper's chain table and
   its forcedness tally are generated from it and gated against drift), `docs/THEOREM_REGISTRY.md`,
   `docs/IDENTIFICATION_LEDGER.md` (the priced identifications), `docs/FALSIFIER_REGISTER.md`, `docs/ERROR_LEDGER.md`.
-- Mirrors: `github.com/originaxiom/origin-axiom` and `codeberg.org/originaxiom/origin-axiom`.
+- Mirrors: `github.com/originaxiom/origin-axiom` and `codeberg.org/originaxiom/origin-axiom`. Both carry the same
+  tip and the same complete history.
+
+## Clone the whole history, and check that you did
+
+This record's evidence is chronological as well as textual: which commit a result landed in, and in what order design
+and result were written, are part of what a reader can audit. **A depth-limited clone silently destroys that**, and it
+has already misled one careful reader, who reported this repository as a hundred-commit project and reasoned about its
+structure from that number.
+
+```sh
+git clone https://github.com/originaxiom/origin-axiom      # no --depth
+cd origin-axiom && git rev-list --count HEAD               # expect about 3457 on main
+```
+
+If you already have a shallow clone: `git fetch --unshallow`. `MANIFEST.json` records the history length the manifest
+was built on (`environment.git_commits`) and whether the checkout was shallow, and `run_package.py` prints a warning,
+into its report as well as the terminal, when the clone it is running in is shorter than that. Two checks depend on
+it directly: whether the recorded commit is published, and whether it is an ancestor of your `HEAD`. **Both answer
+wrongly, and quietly, on a truncated clone.**

@@ -1,6 +1,6 @@
-# THE VERIFICATION PACKAGE — report (2026-09-17T17:39:49Z)
+# THE VERIFICATION PACKAGE — report (2026-09-18T02:34:48Z)
 
-Manifest built 2026-09-17T17:39:48Z at commit `ddff9c63`; {'claims': 67, 'records': 95, 'seals': 21, 'locks': 147, 'records_with_a_primary_lock': 95}.
+Manifest built 2026-09-18T02:11:50Z at commit `07c0b604`; {'claims': 67, 'records': 95, 'seals': 21, 'locks': 148, 'records_with_a_primary_lock': 95}.
 
 ## Seals — PASS (21/21 match)
 
@@ -26,4 +26,8 @@ Manifest built 2026-09-17T17:39:48Z at commit `ddff9c63`; {'claims': 67, 'record
 - `B1323` frontier/B1323_the_genesis_upgrades/DESIGN.sha256: ok
 - `B1418` frontier/B1418_the_family_as_the_object/DESIGN.sha256: ok
 
-**Overall: PASS.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.
+## Test locks — PASS
+
+- 148 lock files: 744 passed, 13 skipped in 852.53s (0:14:12)
+
+**Overall: PASS (seals, locks); the scripts step was not run -- pass --scripts for it.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.

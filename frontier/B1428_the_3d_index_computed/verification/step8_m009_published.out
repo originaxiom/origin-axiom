@@ -1,0 +1,18 @@
+==============================================================================
+STEP 8: m009 against GHRS Section 11.5
+==============================================================================
+
+[A] GHRS closed form  sum_{k1,k2} q^{k1+k2} J(0,2k1,2k2) J(0,k2,2k1) J(0,k2,2k1):
+    44 lattice points, outermost |k|=15 (box +-40)
+    closed form : +1 -1*q -1*q^2 +6*q^3 +9*q^4 +12*q^5 -5*q^6 -34*q^7 -79*q^8 -118*q^9 -118*q^10 -56*q^11 +127*q^12
+    matches the published I_even(0,0) through q^10: True
+
+[B] my general driver on snappy's m009 (all three edge choices):
+    zero_edge=0 (44 pts): matches published: True
+       +1 -1*q -1*q^2 +6*q^3 +9*q^4 +12*q^5 -5*q^6 -34*q^7 -79*q^8 -118*q^9 -118*q^10 -56*q^11 +127*q^12
+    zero_edge=1 (44 pts): matches published: True
+       +1 -1*q -1*q^2 +6*q^3 +9*q^4 +12*q^5 -5*q^6 -34*q^7 -79*q^8 -118*q^9 -118*q^10 -56*q^11 +127*q^12
+    zero_edge=2 (44 pts): matches published: True
+       +1 -1*q -1*q^2 +6*q^3 +9*q^4 +12*q^5 -5*q^6 -34*q^7 -79*q^8 -118*q^9 -118*q^10 -56*q^11 +127*q^12
+    all three agree with each other: True
+    driver == GHRS closed form: True

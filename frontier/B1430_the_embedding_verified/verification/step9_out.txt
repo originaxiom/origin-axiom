@@ -1,0 +1,3 @@
+E6: candidate A2-shaped 6-sets 120, surviving the closure/rank/length test 120, rejected 0
+F4: candidate A2-shaped 6-sets 32, surviving the closure/rank/length test 32, rejected 0
+G2: candidate A2-shaped 6-sets 2, surviving the closure/rank/length test 1, rejected 1

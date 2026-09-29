@@ -1,0 +1,15 @@
+{
+ "id": "B1429",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1186",
+  "B1426"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE RELAYED STABILISER RESULT (xB021, seat xb on sep16-branch) VERIFIED ON THIS BENCH AND SHARPENED AGAINST ITSELF. Computed here: CS(m004) = 0 to 1e-16 and CS(m003) = exactly 1/4, so the orbit {0, 1/4} IS {CS(object), CS(sibling)}; both are fixed by the mirror. The orbit-stabiliser arithmetic is correct: with the knot-ness bit acting by x -> x + 1/4 and the order and orientation bits both by x -> -x on R/(1/2)Z, the group is Z/2 x Z/2 of order 4, the stabiliser of 0 has order 2 and the orbit has size 2. THE SHARPENING, computed: on R/(1/2)Z the map x -> -x has fixed points exactly where 2x = 0, which is exactly {0, 1/4} -- the sister orbit itself. So the orientation and order bits are not a point stabiliser but the KERNEL of the action: they act trivially on the WHOLE sister orbit, and the arc's own proposed mechanism of moving from the object to its sibling therefore buys nothing for these two bits. WHERE THEY DO BECOME VISIBLE, measured on B1186's 112-member family: 104 of 112 have CS a multiple of 1/12, and as classes they hit all six of Z/6 with counts {0:47, 1:5, 2:11, 3:29, 4:7, 5:5}, against a control in which only 2 of 600 non-family one-cusped census manifolds have CS in twelfths (0.33 per cent) and both land on the two fixed classes. The bit acts as r -> -r on Z/6 fixing exactly {0, 3}, which are the object and its sibling, so four of the six classes the family realises are moved. NORMALISATION RESTATED, not refuted: for a cusped manifold CS is defined mod 1/2, so twelfths live in Z/6 and not Z/12; read as bare representatives mod 12 the family hits 7 of 12 and looks non-surjective, read as classes it is surjective onto Z/6. Nothing the arc concludes depends on which is written. No value is derived and the arc's declared limit stands; what changes is the DIRECTION -- work the family, not the sibling, if the target is the two bits."
+}
