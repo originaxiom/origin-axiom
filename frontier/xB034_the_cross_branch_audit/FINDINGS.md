@@ -10,11 +10,11 @@ Seven remote branches; full history after unshallowing. **121 commits since this
 | branch | not in `sep16-branch` | of which since 09-18 | merge-base |
 |---|---|---|---|
 | `main` | 16 | 7 | `c052c857` 09-16 |
-| `claude/standard-model-derivation-0qt6ao` (the SM seat) | 132 | 40 | `44c75c36` 09-06 |
+| `<remote>/standard-model-derivation-0qt6ao` (the SM seat) | 132 | 40 | `44c75c36` 09-06 |
 | `audit/physical-bridge-2026-09-05` | 166 | 56 | `8f83b5c8` 09-05 |
-| `claude/outside-bench` | 25 | 16 | `c052c857` 09-16 |
-| `claude/paper-review-verification-kaz3f5` | 26 | 2 | `c052c857` 09-16 |
-| `claude/physics-seat-evaluation-8dkbrl` | 165 | 0 | `a5138424` 09-01 |
+| `<remote>/outside-bench` | 25 | 16 | `c052c857` 09-16 |
+| `<remote>/paper-review-verification-kaz3f5` | 26 | 2 | `c052c857` 09-16 |
+| `<remote>/physics-seat-evaluation-8dkbrl` | 165 | 0 | `a5138424` 09-01 |
 
 **The SM seat advanced while the fetch was running** (`ac4f8a82 → 6fe28a6b`). The lanes are live.
 
