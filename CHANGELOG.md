@@ -1,5 +1,26 @@
 # Changelog
 
+## B1501 sealed: the torus-link census, before any fixed set is computed
+
+- **The question (after B1500).** Closing a cusp by a point makes its chirality a local datum. In M-theory the local physics at the
+  point is a G₂ conical singularity, whose ADE locus must, at a cusp point, be a cone over the cusp torus. Which of the simplest G₂ cones
+  have such a locus, and of what ADE type and torus shape? The cones are those over S⁶, S³ × S³, ℂP³ and the flag manifold F₁,₂, modulo
+  finite groups of automorphisms.
+- **Proved at seal.**
+  - A non-trivial automorphism fixes only points or surfaces of the link.
+  - Single elements find every torus locus.
+  - On the three equal-rank links no left translation fixes a torus: every fixed component has positive Euler characteristic
+    (Hopf–Samelson).
+  - So tori can come only from S³ × S³ and from the flag manifold's order-3 twisted automorphisms.
+- **The census.** Every automorphism class of order at most 12. Fixed sets by Newton from 400 seeds; topology from the centraliser orbit;
+  torus shapes from the period lattice in the normal metric; full pointwise stabilisers. Banked identity: B1500's hexagonal S³ × S³
+  torus, S⁶'s great spheres, the J-checks of every automorphism used, and the lemma on the census's own elements.
+- **The predictions.**
+  - P1: every torus locus is A-type (prior about 90%). If so, the frame's E₆ cannot end on such a point unbroken.
+  - P2: every torus is hexagonal (prior about 80%). If so, only hexagonal cusps match; m004's own cusp does not.
+  - P3: per-link read-outs. Prior about 70% that F₁,₂ carries a torus locus.
+- The sha256 is in SEAL_LEDGER. The findings document says sealed, not run, and holds no outcome. The run waits for the owner. 0 of 19.
+
 ## B1500 — the cone point's choice: closing a cusp by a point needs a choice, and then gives one unit of chirality or none, whatever the Higgs field
 
 - **The occasion.** The owner's go on the sL-8 pass. B1392's first candidate completion, a conical point at each free cusp, had never

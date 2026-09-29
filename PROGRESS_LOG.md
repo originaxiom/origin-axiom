@@ -15976,3 +15976,15 @@ The owner asked whether I needed more insight before the cusp/end law (sL-8). I 
   B1500, and the range is recorded (E54).
 
 Lock: `tests/test_b1500_the_cone_points_choice.py`. 0 of 19.
+
+## 2026-09-29 — B1501 sealed: the torus-link census
+
+B1500 turned the end law into a question about the local physics at each cusp point. In M-theory that physics is a G₂ conical
+singularity, and at a cusp point its ADE locus would have to be a cone over the cusp torus. So I sealed a census of the simplest such
+cones: those over the four homogeneous nearly Kähler 6-manifolds, modulo finite automorphism groups.
+- **The design narrowed it a lot.** On three of the four links an old theorem (Hopf–Samelson) rules out every torus from ordinary
+  symmetries. Only S³ × S³ and the flag manifold's order-3 twisted symmetries can give tori.
+- **My expectations, written down before computing:**
+  - the tori are all A-type, so E₆ could not reach such a point unbroken (about 90%);
+  - they are all hexagonal, so only hexagonal cusps would fit, and m004's own cusp would not (about 80%).
+- Nothing in the census has been computed. The run waits for the owner. 0 of 19.

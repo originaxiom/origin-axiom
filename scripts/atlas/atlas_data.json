@@ -8771,6 +8771,24 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1501": {
+   "slug": "the torus link census",
+   "motifs": [
+    "trace_map",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B810",
+    "B817",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B150": {
    "slug": "class s coincidence",
    "motifs": [

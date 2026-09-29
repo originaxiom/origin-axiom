@@ -197,3 +197,5 @@ next arc B1400.
 even on every resolved member; the census's hexagonal cusps sit on four members, all unresolved); next arc B1400.
 
 *Update 2026-09-29 (B1500): a correction and a new range.* The two entries above that say "next arc B1400" were wrong: this branch's reserved range was B1350–B1399, and main had already banked **B1400–B1431** (B1400_the_six_sweeps_intaken onward) by 2026-09-18. No arc on this branch was numbered B14xx (an E54 instance, self-caught). **New request: this branch's next arcs number from B1500; main is asked to reserve B1500–B1599.** B1500 used (the cone point's choice: on the one-point compactification a charged sector's net chirality is a sum over cusp points of −1, 0 or +1 set by an ideal boundary condition, whatever the Higgs field; charge-blind choices give zero); next arc B1501.
+
+*Update 2026-09-29 (later):* B1501 sealed (the torus-link census: which cones over the four homogeneous nearly Kähler 6-manifolds, modulo finite automorphism groups, have an ADE locus coned over a torus, of what type and shape; not run); next arc B1502.

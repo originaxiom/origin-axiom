@@ -1,0 +1,20 @@
+{
+ "id": "B1501",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1500",
+  "B1399",
+  "B1392",
+  "B1084",
+  "B1353",
+  "B1360",
+  "B1222"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE TORUS-LINK CENSUS, SEALED (not yet run; after B1500): which of the simplest G2 cone singularities -- cones over the four homogeneous nearly Kaehler 6-manifolds S^6, S^3 x S^3, CP^3 and the flag manifold F_{1,2}, modulo finite automorphism groups -- have an ADE singular locus that is a cone over a torus, of what ADE type and what shape? Reduction proved at seal: a non-trivial automorphism fixes points or surfaces of the link; single elements find every torus locus; on the equal-rank links (S^6, CP^3, F_{1,2}) no left translation fixes a torus (every fixed component is a maximal-rank orbit with positive Euler characteristic), so tori can come only from S^3 x S^3 and the flag manifold's order-3 twisted automorphisms. Census pinned: every automorphism class of order <= 12 (left translations and their compositions with the J-preserving outer elements), fixed sets by Newton from 400 seeds, topology from the centraliser orbit, torus shapes from the period lattice in the normal metric, full pointwise stabilisers. Banked identity: B1500's hexagonal S^3 x S^3 torus, S^6's great spheres, the structures' J-checks, the lemma on the census's own elements. Sealed: P1 every torus locus A-type (prior ~90%); P2 every torus hexagonal (~80%); P3 per-link read-outs, F_{1,2} carrying one (~70%). PREREGISTRATION.md sha256 51b6730bd362e346... recorded in docs/SEAL_LEDGER.md. The run waits for the owner. 0 of 19."
+}
