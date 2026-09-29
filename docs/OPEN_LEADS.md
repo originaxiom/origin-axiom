@@ -3025,3 +3025,5 @@ created a new collision.**
 xB016, xB023 and xB029.** No renumbering is done here: the fix is a scheme that binds every seat —
 seat-namespaced leads (as `xB` namespaces this seat's arcs), or a reservation plus a uniqueness gate —
 and **that is the owner's decision.**
+
+**OWNER: the BANKING SEAT** (owner's assignment, 2026-09-29: *"banking seat will take care of it"*). This seat makes **no** renumbering of leads or error classes and mints **no** new E-number until that scheme lands — which also holds **R58-1/R58-2** (E84/E85) behind it.
