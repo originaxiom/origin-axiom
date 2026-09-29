@@ -1,5 +1,41 @@
 # Changelog
 
+## B1500 — the cone point's choice: closing a cusp by a point needs a choice, and then gives one unit of chirality or none, whatever the Higgs field
+
+- **The occasion.** The owner's go on the sL-8 pass. B1392's first candidate completion, a conical point at each free cusp, had never
+  been worked out.
+- **Not Witt.** The cusp point's link is the cusp torus, with H₁ = ℤ². A self-dual, Fredholm count there needs an ideal boundary
+  condition: lower perversity, upper perversity, or a Lagrangian line in H₁(T), which is a slope, the Dehn-filling datum (Cheeger;
+  Albin–Leichtnam–Mazzeo–Piazza; Banagl).
+- **The theorem (PROVED, not sealed).**
+  - On the completed space, a charged sector's net chirality is a sum over cusp points of −1, 0 or +1.
+  - It holds for every cuspidal Higgs class and coupling. The twist only touches faces opposite the cusp points, so the allowability
+    constraints never see it.
+  - Lower everywhere gives IH = (1, b₁, b₁ − k, 1) and upper gives (1, b₁ − k, b₁, 1).
+  - The conjugate sector takes the dual choice. So a charge-blind choice gives zero, and a chiral completion gives one unit per point.
+- **Checked with own code.**
+  - The instrument: simplicial intersection homology by allowable chains on the barycentric subdivision of SnapPy's ideal
+    triangulation, whose ideal vertices are the cusp points.
+  - Ten members: m004, m003, cube~3.24, and seven of B1399's covers (1–5 cusps, 2–90 tetrahedra).
+  - Every lower, upper, mixed and Lagrangian χ comes out as predicted.
+  - Twisted by random cuspidal classes (cube~3.24 by v₊), the groups move and χ does not. On 8 of the 9 members with cuspidal classes
+    a generic twist puts one mode per cusp point in a single degree.
+  - The cuspidal dimension b₁ − k matches B1399's solver. The second subdivision agrees on m004 and m003.
+- **What it means.**
+  - The frame's count (B1387–B1399) is the open cusp's. A closed cusp point carries one unit or none, by a choice the geometry does not
+    make.
+  - B1399's single-cusp ±3 pointer cannot be one point's content.
+  - sL-8 is now precise: which choice each charged sector gets at each cusp point, a question about the local physics there.
+  - Local models with a torus link (Harvey–Lawson's cone; the A-type locus of a cyclic quotient of the G₂ cone over S³ × S³) are
+    hexagonal, checked with own code. Their census is B1501, to be sealed.
+- **Numbering (E54 instance, self-caught).** This branch's B1350–B1399 is used up, and main already holds B1400–B1431. The alias
+  table's "next arc B1400" was never checked against main, and no arc used it. This arc takes B1500, and main is asked to reserve
+  B1500–B1599.
+- **Recorded.** B1500 FINDINGS and verdict (PROVED); T-CONE-POINT-CHOICE in the theorem registry; OPEN_LEADS sL-8; THE_SM_VERDICT;
+  the README; the letter's sixty-third note; the alias table; the ERROR_LEDGER.
+
+Lock: `tests/test_b1500_the_cone_points_choice.py`. No physics crossed. 0 of 19.
+
 ## The fast lane on b0847a32 (B1399 banked), at the baseline
 
 - **The fast lane on b0847a32:** 9 failed, 6 349 passed, 52 skipped in 53 min.

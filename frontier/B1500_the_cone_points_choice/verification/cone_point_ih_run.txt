@@ -1,0 +1,15 @@
+m004                                                       tets   2  k 1  b1 1  H(Q^) [1, 0, 1, 1]  cuspidal 0 | lower [1, 1, 0, 1]  upper [1, 0, 1, 1] | mixed 2/2 | Lagrangian 2/2 | twisted 0 | K'' agrees  (0.7s)
+m003                                                       tets   2  k 1  b1 1  H(Q^) [1, 0, 1, 1]  cuspidal 0 | lower [1, 1, 0, 1]  upper [1, 0, 1, 1] | mixed 2/2 | Lagrangian 2/2 | twisted 0 | K'' agrees  (0.6s)
+v2873 cover (dim 2, 1 cusps)                               tets  27  k 1  b1 3  H(Q^) [1, 2, 3, 1]  cuspidal 2 | lower [1, 3, 2, 1]  upper [1, 2, 3, 1] | mixed 2/2 | Lagrangian 2/2 | twisted 2  (2.8s)
+s959 cover (dim 2, 2 cusps)                                tets  27  k 2  b1 4  H(Q^) [1, 2, 4, 1]  cuspidal 2 | lower [1, 4, 2, 1]  upper [1, 2, 4, 1] | mixed 4/4 | Lagrangian 4/4 | twisted 2  (2.0s)
+o10_150685 cover (dim 2, 3 cusps)                          tets  30  k 3  b1 5  H(Q^) [1, 2, 5, 1]  cuspidal 2 | lower [1, 5, 2, 1]  upper [1, 2, 5, 1] | mixed 8/8 | Lagrangian 4/4 | twisted 2  (2.3s)
+o10_150688 cover (dim 3, 1 cusps)                          tets  30  k 1  b1 4  H(Q^) [1, 3, 4, 1]  cuspidal 3 | lower [1, 4, 3, 1]  upper [1, 3, 4, 1] | mixed 2/2 | Lagrangian 2/2 | twisted 2  (4.9s)
+o10_150729 cover (dim 2, 5 cusps)                          tets  30  k 5  b1 7  H(Q^) [1, 2, 7, 1]  cuspidal 2 | lower [1, 7, 2, 1]  upper [1, 2, 7, 1] | mixed 3/3 | Lagrangian 4/4 | twisted 2  (1.8s)
+o10_150724 cover (dim 3, 3 cusps)                          tets  30  k 3  b1 6  H(Q^) [1, 3, 6, 1]  cuspidal 3 | lower [1, 6, 3, 1]  upper [1, 3, 6, 1] | mixed 8/8 | Lagrangian 4/4 | twisted 2  (2.6s)
+o10_150704 cover (hexagonal, 4 cusps, unresolved in B1399) tets  36  k 4  b1 6  H(Q^) [1, 2, 6, 1]  cuspidal 2 | lower [1, 6, 2, 1]  upper [1, 2, 6, 1] | mixed 3/3 | Lagrangian 4/4 | twisted 2  (2.2s)
+cube~3.24 (B1386's member; its cuspidal line is B1387's v+ tets  90  k 4  b1 5  H(Q^) [1, 1, 5, 1]  cuspidal 1 | lower [1, 5, 1, 1]  upper [1, 1, 5, 1] | mixed 3/3 | Lagrangian 4/4 | twisted 2  (15.4s)
+ALL CHECKS PASS
+
+real	0m36.193s
+user	0m31.681s
+sys	0m1.075s

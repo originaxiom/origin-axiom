@@ -365,6 +365,11 @@ emitted value. The structure is the object's; the values are the observer's.
 > count at a cusp is read from the first pattern of waves that survives there, and on every member the search could settle, that
 > pattern gives an even number, never three. Odd numbers need the most symmetric (hexagonal) cusps, and the few members that have them
 > are exactly the ones the numerics could not settle.*
+>
+> *And (B1500), what happens if each cusp is closed off by a single point. The point is not an ordinary one, so closing it needs a
+> choice, the same choice a filling makes. With that choice made, each point adds one unit of chirality or none, whatever the Higgs
+> field does, and a choice that ignores the sign of the charge adds nothing. The geometry does not make the choice; whatever sits
+> at the point must.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

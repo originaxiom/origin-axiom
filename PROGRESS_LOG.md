@@ -15956,3 +15956,23 @@ before the owner's report. 0 of 19.
 
 9 failed, 6 349 passed, 52 skipped in 53 min: exactly the known nine. B1399's five new locks pass. B1399 is banked: verdict, lock,
 surfaces, gates at the relay-debt baseline, the fast lane at the nine-failure baseline, pushed. 0 of 19.
+
+## 2026-09-29 — B1500: the cone point's choice
+
+The owner asked whether I needed more insight before the cusp/end law (sL-8). I said yes, and the pass led here.
+- **The question.** Every completion of a free cusp on the record either kills the count or makes it an input. The one never worked
+  out was the plainest: close each cusp with a single point.
+- **What I found.** The point is not ordinary. Its neighbourhood is a cone over the cusp torus, and the torus has two independent
+  loops, so the point is "not Witt". A well-defined count there needs a choice of a line of loops. That is exactly the datum a Dehn
+  filling takes, so the cone point and the filling are one choice seen two ways.
+- **The theorem.** With the choice made, each point adds −1, 0 or +1 to a charged sector's net chirality, whatever the Higgs field. A
+  choice that ignores the sign of the charge adds nothing.
+- **The check.** I wrote an intersection-homology instrument on SnapPy's ideal triangulations and ran it on ten members, twisted and
+  untwisted. Everything came out as the theorem says, and the twist really does move the groups while leaving the count alone.
+- **What it changes.** The count the frame's rule gives is the open cusp's. Closing the cusps leaves a choice at each point that the
+  geometry cannot make. So the end law is a question about the local physics at the point. The two local models with a torus link that
+  I checked are hexagonal, which is where B1399 found the odd counts. Their census is next, sealed first.
+- **One slip of mine.** I had written "next arc B1400" without checking main, which holds B1400–B1431. No arc used it. This one is
+  B1500, and the range is recorded (E54).
+
+Lock: `tests/test_b1500_the_cone_points_choice.py`. 0 of 19.

@@ -3343,5 +3343,17 @@ This job is not optional, whichever answers the first two questions get. `fronti
   count, and which completion, one action gives. With sL-5's deck question it is this seat's next gate.
   `frontier/B1399_the_rank_two_higgs`.
 
+**Status (2026-09-29, B1500): the cone point is decided, and the law is now a precise question.**
+- B1392's first candidate, a conical point at each free cusp, was worked out. The cusp point's link is the cusp torus, so the point
+  is not Witt, and a self-dual count needs an ideal boundary condition there: lower perversity, upper perversity or a Lagrangian line
+  (a slope, the Dehn-filling datum).
+- **Theorem:** on the completed space a charged sector's net chirality is a sum over cusp points of −1, 0 or +1, whatever the Higgs
+  field. Charge-blind choices give zero, like every other charge-blind completion. A chiral completion flips the choice with the
+  charge and gives one unit per point. Verified by own code on ten members.
+- So question 1 now reads: which choice does each charged sector get at each cusp point? Only the local physics at the point can make
+  it, via a local G₂ model whose ADE locus is a cone over the cusp torus. The record has none.
+- The two such models checked (Harvey–Lawson's cone; the A-type locus of a cyclic quotient of the G₂ cone over S³ × S³) have
+  hexagonal links. Their census is B1501. `frontier/B1500_the_cone_points_choice`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

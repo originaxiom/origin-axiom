@@ -836,3 +836,14 @@ left it.
 >   and sL-4 in another frame) all wait on sL-8's cusp/end law.
 >
 > 0 of 19 (`frontier/B1399_the_rank_two_higgs`).
+
+> **Currency note (2026-09-29, B1500): completing the cusps as points gives one unit per point, and the choice is not the
+> geometry's.**
+> - Add one point at the end of each cusp. The point is not Witt (its link is the cusp torus), so a well-defined count needs a
+>   choice there: lower perversity, upper perversity or a Lagrangian line, the same datum as a Dehn-filling slope.
+> - Then a charged sector's net chirality is a sum over cusp points of −1, 0 or +1, whatever the Higgs field. A choice blind to the
+>   charge's sign gives zero. Verified by own code on ten members.
+> - So on this completion three would need three chiral cusp points, and the choice at each is an input: the end law (sL-8) is a
+>   question about the local physics at the point.
+>
+> 0 of 19 (`frontier/B1500_the_cone_points_choice`).

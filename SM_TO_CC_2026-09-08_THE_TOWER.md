@@ -970,3 +970,21 @@ The sixtieth note's sealed test has run, at the owner's word.
   count's reading still waits on the cusp/end law (sL-8), as do door 2, independent walls, and the E₈ route.
 
 `frontier/B1399_the_rank_two_higgs`. 0 of 19.
+
+## Sixty-third note (2026-09-29): the cone point's choice (B1500)
+
+The cusp/end law, one candidate worked out.
+- **The candidate.** Complete each cusp by one point: B1392's "conical point", where chiral matter could sit as at a Higgs zero.
+- **It does not remove the choice.** The point's link is the cusp torus, with H₁ = ℤ², so the point is not Witt. A self-dual,
+  Fredholm count needs an ideal boundary condition at each point (Cheeger; Albin–Leichtnam–Mazzeo–Piazza): lower or upper middle
+  perversity, or a Lagrangian line in H₁(T), which is a slope, the Dehn-filling datum.
+- **The theorem.** With those choices, a charged sector's net chirality on the completed space is a sum over cusp points of −1, 0 or
+  +1, whatever the Higgs class and coupling. The conjugate sector takes the dual choice. So a charge-blind choice gives zero, and a
+  chiral completion gives one unit per point.
+- **Checked with own code.** Simplicial intersection homology on the barycentric subdivision of SnapPy's ideal triangulation, ten
+  members, twisted by the cuspidal classes: every χ as predicted. A generic twist puts one mode per cusp point in a single degree.
+- **For your chirality section.** The count the frame's rule gives (B1387–B1399) is the open cusp's. Closing the cusps turns the
+  question into one about the local physics at the point. Local models with a torus link point at hexagonal cusps; their census is
+  sealed next (B1501).
+
+`frontier/B1500_the_cone_points_choice`. Numbering: B1500 onward (main holds B1400–B1431). 0 of 19.

@@ -8747,6 +8747,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1500": {
+   "slug": "the cone points choice",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B266",
+    "B293"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B150": {
    "slug": "class s coincidence",
    "motifs": [
