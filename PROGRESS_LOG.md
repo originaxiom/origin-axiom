@@ -15988,3 +15988,15 @@ cones: those over the four homogeneous nearly Kähler 6-manifolds, modulo finite
   - the tori are all A-type, so E₆ could not reach such a point unbroken (about 90%);
   - they are all hexagonal, so only hexagonal cusps would fit, and m004's own cusp would not (about 80%).
 - Nothing in the census has been computed. The run waits for the owner. 0 of 19.
+
+## 2026-09-29 — the fast lane on d780b639, and a count of mine corrected
+
+9 failed, 6 355 passed, 52 skipped in 65 min: exactly the known nine. B1500's four locks pass.
+
+Re-reading B1500's recorded run after banking, I found I had written that a generic twist puts all of the homology in one degree on
+"eight of the nine" members with cuspidal classes. There are eight such members, and it happens on seven. The eighth (the o10_150688
+cover) keeps two vector-like pairs, which the same paragraph listed. I had counted by eye.
+- The count is corrected in place on B1500 and its surfaces.
+- A new lock computes it from the run's own record.
+- It is logged as an E11 instance.
+Nothing else moves: the theorem and every χ stand. 0 of 19.

@@ -1,5 +1,19 @@
 # Changelog
 
+## The fast lane on d780b639 (B1501 sealed), at the baseline; B1500's count corrected
+
+- **The fast lane on d780b639:** 9 failed, 6 355 passed, 52 skipped in 65 min.
+- **The nine are the known baseline:** B1062, B1063, B1137, B511, B565, B616, B646, B887 and the repo gates (relay debt). B1500's four
+  locks pass.
+- **A count corrected (self-caught, E11 instance).** B1500 said a generic twist puts all of the homology in one degree on "eight of the
+  nine" members with cuspidal classes. The run has eight such members, and the twist concentrates the homology on seven. The eighth,
+  the o10_150688 cover, keeps two vector-like pairs, lower = (0, 3, 2, 0), as B1500 §4 already listed. The count had been written by eye.
+  - Corrected in place: B1500 §2 and §4, its verdict line, the B1500 entry below, the letter's 63rd note and the lock's docstring.
+  - A fifth lock computes the count from the recorded run and checks that the verdict line and the findings state it.
+  - χ, the theorem and every other number are unchanged.
+
+0 of 19.
+
 ## B1501 sealed: the torus-link census, before any fixed set is computed
 
 - **The question (after B1500).** Closing a cusp by a point makes its chirality a local datum. In M-theory the local physics at the
@@ -39,8 +53,9 @@
     triangulation, whose ideal vertices are the cusp points.
   - Ten members: m004, m003, cube~3.24, and seven of B1399's covers (1–5 cusps, 2–90 tetrahedra).
   - Every lower, upper, mixed and Lagrangian χ comes out as predicted.
-  - Twisted by random cuspidal classes (cube~3.24 by v₊), the groups move and χ does not. On 8 of the 9 members with cuspidal classes
-    a generic twist puts one mode per cusp point in a single degree.
+  - Twisted by random cuspidal classes (cube~3.24 by v₊), the groups move and χ does not. On 7 of the 8 members with cuspidal classes
+    a generic twist puts one mode per cusp point in a single degree. The o10_150688 cover keeps two vector-like pairs beside its one.
+    *(Corrected the same day from "8 of the 9"; see the entry for the fast lane on d780b639.)*
   - The cuspidal dimension b₁ − k matches B1399's solver. The second subdivision agrees on m004 and m003.
 - **What it means.**
   - The frame's count (B1387–B1399) is the open cusp's. A closed cusp point carries one unit or none, by a choice the geometry does not

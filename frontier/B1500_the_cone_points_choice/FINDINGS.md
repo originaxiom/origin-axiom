@@ -89,8 +89,10 @@ cuspidal Higgs class ω and every coupling qT:
 **The physical reading** (Pantev–Wijnholt: N_χ = h¹, N_χ̄ = h² of the charged complex; the net chirality is the index). On the
 cone-completed space a charged sector's net chirality is −Σ_c ε_c.
 - It is independent of the Higgs field, which decides only where the modes sit: at its zeros in the bulk, or at the cusp points.
-- For a generic twist the homology sits in one degree (§4). With lower perversity at every point there are exactly k chiral modes,
-  one per cusp point, and the conjugate sector has k of the other chirality.
+- A generic twist can put all of the homology in one degree, and does on seven of the eight members with cuspidal classes (§4).
+  There, with lower perversity at every point, there are exactly k chiral modes, one per cusp point, and the conjugate sector has k
+  of the other chirality. On the eighth, vector-like pairs remain beside them. *(Corrected 2026-09-29, the same day: this item first
+  said every generic twist puts the homology in one degree. ERROR_LEDGER, E11 instance.)*
 
 ## 3. What it settles, and what it does not
 
@@ -142,11 +144,14 @@ cone-completed space a charged sector's net chirality is −Σ_c ε_c.
     gives Σε with that point counting 0.
   - Twisted by two random cuspidal classes each, the lower, upper and mixed χ are unchanged on every member that has cuspidal
     classes.
-- **The twist is not vacuous.** It changes the groups completely. On eight of the nine members with cuspidal classes a generic twist
-  puts all of the homology in one degree:
+- **The twist is not vacuous.** It changes the groups completely. Eight of the ten members have cuspidal classes (m004 and m003 have
+  none). On seven of the eight a generic twist puts all of the homology in one degree:
   - lower = (0, k, 0, 0) and upper = (0, 0, k, 0): one mode per cusp point;
-  - on cube~3.24, twisted by B1387's class v₊, lower = (0, 4, 0, 0);
-  - on the o10_150688 cover the twisted groups keep two vector-like pairs, with lower = (0, 3, 2, 0). χ is unchanged there too.
+  - on cube~3.24, twisted by B1387's class v₊, lower = (0, 4, 0, 0).
+- **The eighth.** On the o10_150688 cover (one cusp) both random twists keep two vector-like pairs beside the one mode: lower =
+  (0, 3, 2, 0) and upper = (0, 2, 3, 0). χ is unchanged there too. Why that cover keeps them is not examined here.
+- The lock computes both counts from the recorded run. *(Corrected 2026-09-29, the same day: this item first said "eight of the
+  nine", a count written by eye and never computed. ERROR_LEDGER, E11 instance.)*
 - **Triangulation independence.** On m004 and m003 the second barycentric subdivision K'' (1 152 tetrahedra for m004) gives the same
   groups as K'.
 - **The run.** About 36 s for all ten.

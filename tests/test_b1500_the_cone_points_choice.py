@@ -3,7 +3,8 @@
 On the one-point compactification of a cusped hyperbolic 3-manifold every cusp point is not Witt (its link is the cusp torus). With
 lower middle perversity (eps = -1), upper (+1) or a Lagrangian line (0) chosen at each point, the Euler characteristic of the
 intersection homology is sum eps -- for every cuspidal Higgs twist.  Lower everywhere: IH = (1, b1, b1 - k, 1); upper: (1, b1 - k,
-b1, 1).  A generic twist moves the groups (one mode per cusp point in a single degree) and never chi."""
+b1, 1).  A generic twist moves the groups and never chi; on 7 of the 8 members with cuspidal classes it leaves one mode per cusp
+point in a single degree, and the o10_150688 cover keeps two vector-like pairs (the count is computed below, not read off)."""
 import importlib.util
 import json
 import random
@@ -63,6 +64,22 @@ def test_the_recorded_run_on_ten_members():
     cube = [r for r in reps if r["label"].startswith("cube~3.24")][0]
     assert (cube["cusps"], cube["b1"], cube["cuspidal dimension (H^1(Q^))"]) == (4, 5, 1)
     assert all(t["IH_lower"] == [0, 4, 0, 0] for t in cube["results"]["twisted"])     # one mode per cusp point
+
+
+def test_the_concentration_count_is_computed():
+    """the findings' count, computed from the record: 8 members with cuspidal classes, the twist concentrates on 7 (E11 instance)"""
+    reps = json.load(open(VER / "cone_point_ih.json"))
+    with_classes = [r for r in reps if r["cuspidal dimension (H^1(Q^))"] > 0]
+    concentrated = [r["label"] for r in with_classes
+                    if all(t["IH_lower"] == [0, r["cusps"], 0, 0] and t["IH_upper"] == [0, 0, r["cusps"], 0]
+                           for t in r["results"]["twisted"])]
+    assert (len(reps), len(with_classes), len(concentrated)) == (10, 8, 7)
+    (other,) = [r for r in with_classes if r["label"] not in concentrated]
+    assert other["label"].startswith("o10_150688") and other["cusps"] == 1
+    assert all(t["IH_lower"] == [0, 3, 2, 0] and t["IH_upper"] == [0, 2, 3, 0] for t in other["results"]["twisted"])
+    claim = json.load(open(VER.parent / "arc_verdict.json"))["claim_one_line"]       # the text says what the data says
+    assert "on 7 of the 8 members with cuspidal classes" in claim
+    assert "seven of the eight" in (VER.parent / "FINDINGS.md").read_text()
 
 
 def test_the_harvey_lawson_link_is_the_hexagonal_torus():

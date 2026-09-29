@@ -982,7 +982,9 @@ The cusp/end law, one candidate worked out.
   +1, whatever the Higgs class and coupling. The conjugate sector takes the dual choice. So a charge-blind choice gives zero, and a
   chiral completion gives one unit per point.
 - **Checked with own code.** Simplicial intersection homology on the barycentric subdivision of SnapPy's ideal triangulation, ten
-  members, twisted by the cuspidal classes: every χ as predicted. A generic twist puts one mode per cusp point in a single degree.
+  members, twisted by the cuspidal classes: every χ as predicted. On seven of the eight members with cuspidal classes a generic twist
+  puts one mode per cusp point in a single degree; on the eighth two vector-like pairs remain beside it. *(Corrected the same day:
+  this line first said it of every generic twist.)*
 - **For your chirality section.** The count the frame's rule gives (B1387–B1399) is the open cusp's. Closing the cusps turns the
   question into one about the local physics at the point. Local models with a torus link point at hexagonal cusps; their census is
   sealed next (B1501).
