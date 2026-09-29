@@ -1,11 +1,15 @@
 {
+  "id": "xB030",
+  "verdict": "NEGATIVE",
+  "claim_one_line": "h1 IN {0,1} ON 506 INFORMATIVE CLOSED RATIONAL HOMOLOGY SPHERES BUILT TO BREAK IT: THE ABELIAN ROUTE TO THREE GENERATIONS IS CAPPED AT ONE -- BENEATH B307/B1381, AND ITS 'UNMADE JOIN' WAS B1260's (ADDENDUM 1)",
+  "instrument": false,
   "arc": "xB030_the_buried_four",
   "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-18",
   "preregistration_seal": "3340135e",
-  "verdict": "VERIFIED",
+  "verdict_detail": "VERIFIED",
   "gate5_crossed": false,
   "claims_md_touched": false,
   "identifications": [],
@@ -64,5 +68,6 @@
       "why": "quoted in U4 from the same source read at source one commit earlier; no new measurement needed"
     }
   ],
-  "prior_score": "U1 correct; U2 correct (predicted against the programme's interest); U3 half right, quantitative half REFUTED; U4 correct"
+  "prior_score": "U1 correct; U2 correct (predicted against the programme's interest); U3 half right, quantitative half REFUTED; U4 correct",
+  "creates_law": false
 }

@@ -1,11 +1,15 @@
 {
+  "id": "xB031",
+  "verdict": "NEGATIVE",
+  "claim_one_line": "B1418's 3325 UNRUN MODULES RUN WITH NO 3, AND THE SEALED GROWTH LAW REFUTED: THE INDEX PEAKS AT m = 3 AND IS ZERO BY m = 6 -- A PSI-TWIST EFFECT THAT E65 ALREADY BOUNDS (ADDENDUM 1)",
+  "instrument": false,
   "arc": "xB031_the_unrun_modules",
   "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-28",
   "preregistration_seal": "19aa3866",
-  "verdict": "VERIFIED",
+  "verdict_detail": "VERIFIED",
   "gate5_crossed": false,
   "claims_md_touched": false,
   "identifications": [],
@@ -67,5 +71,6 @@
       "why": "carried as a fence ON this arc's result, not as support for it"
     }
   ],
-  "prior_score": "X1 correct; X2 correct; X3 WRONG at all three values and wrong in direction; the seal's contingency for a 3 was never tested because no 3 arrived. Two of three, with the miss on the cell the arc existed for."
+  "prior_score": "X1 correct; X2 correct; X3 WRONG at all three values and wrong in direction; the seal's contingency for a 3 was never tested because no 3 arrived. Two of three, with the miss on the cell the arc existed for.",
+  "creates_law": false
 }

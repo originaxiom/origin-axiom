@@ -1,11 +1,15 @@
 {
+  "id": "xB029",
+  "verdict": "PROVED",
+  "claim_one_line": "THE G2-MSSM READ AT SOURCE: ITS ARITHMETIC REPRODUCES, ITS VISIBLE SECTOR IS ASSUMED NOT DERIVED, AND T_O = -log|Tor H1| IS EXACT ON THE OBJECT'S TOWER -- WITH THE PHYSICS-FACING HALF OF L225 RETRACTED BY ITS OWN ADDENDUM (FRIEDMANN-WITTEN ASSUME FINITE pi_1)",
+  "instrument": false,
   "arc": "xB029_the_g2_mssm_read",
   "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-18",
   "preregistration_seal": "9150fe94",
-  "verdict": "VERIFIED",
+  "verdict_detail": "VERIFIED",
   "gate5_crossed": false,
   "claims_md_touched": false,
   "source": "Acharya, Bobkov, Kane, Kumar, Shao, arXiv:0801.0478v2, The G2-MSSM",
@@ -99,5 +103,7 @@
   },
   "retractions": [
     "L225 physics-facing half: carrying the G2 threshold framework to a hyperbolic three-cycle. Friedmann-Witten assume FINITE pi_1 (sec 3) and hyperbolic 3-manifolds violate it; the violation is measured to be non-benign."
-  ]
+  ],
+  "creates_law": false,
+  "identifications": []
 }

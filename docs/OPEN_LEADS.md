@@ -3027,3 +3027,5 @@ seat-namespaced leads (as `xB` namespaces this seat's arcs), or a reservation pl
 and **that is the owner's decision.**
 
 **OWNER: the BANKING SEAT** (owner's assignment, 2026-09-29: *"banking seat will take care of it"*). This seat makes **no** renumbering of leads or error classes and mints **no** new E-number until that scheme lands — which also holds **R58-1/R58-2** (E84/E85) behind it.
+
+**Same scheme, a third surface (added 2026-09-29):** the verdict-schema lock's arc-number thresholds (`creates_law` from B1103, `identifications` from B1231) strip the seat prefix, so **all 34 `xB` arcs count as 1–34 and are exempt from both** — 6 had drifted without `creates_law`, 1 without `identifications`, and the lock could not see it. Any seat-namespaced scheme the banking seat adopts should make these thresholds namespace-aware.

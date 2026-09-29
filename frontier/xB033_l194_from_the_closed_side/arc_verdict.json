@@ -1,11 +1,15 @@
 {
+  "id": "xB033",
+  "verdict": "PROVED",
+  "claim_one_line": "B1239's 37 AMPHICHIRAL / 37 ZERO REPRODUCED ON THE FULL CLOSED CENSUS AT 3.8e-64, WITH THE DERIVATION STRIPPED OF APS AND ETA -- THE ARC'S MAIN CLAIM WAS ALREADY BANKED, WHICH IS ITS HEADLINE",
+  "instrument": false,
   "arc": "xB033_l194_from_the_closed_side",
   "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-28",
   "preregistration_seal": "0721f678",
-  "verdict": "VERIFIED -- BUT THE MAIN CLAIM WAS ALREADY BANKED (B1239, 2026-09-02). This arc reproduces it and adds only precision, a predicate correction against itself, and two stripped inputs.",
+  "verdict_detail": "VERIFIED -- BUT THE MAIN CLAIM WAS ALREADY BANKED (B1239, 2026-09-02). This arc reproduces it and adds only precision, a predicate correction against itself, and two stripped inputs.",
   "gate5_crossed": false,
   "claims_md_touched": false,
   "identifications": [],
@@ -56,5 +60,6 @@
       "why": "used as input and GRADED USED-NOT-READ rather than assumed silently; not verified here and named as the derivation's weakest link"
     }
   ],
-  "prior_score": "Y1, Y2, Y3 all correct and all beside the point. The prior missed the only question that mattered -- whether the arc was necessary at all."
+  "prior_score": "Y1, Y2, Y3 all correct and all beside the point. The prior missed the only question that mattered -- whether the arc was necessary at all.",
+  "creates_law": false
 }

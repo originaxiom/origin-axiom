@@ -1,5 +1,15 @@
 # Changelog
 
+## Schema repair — this seat's six recent arcs were failing the verdict lock unseen
+
+xB029–xB034 carried `"verdict": "VERIFIED"` (not in the lock's enum) and no `id`, `claim_one_line` or
+`instrument`; the gates don't run the test suite, so 35/35 was reported while all six failed. **Fixed by
+this seat's own earlier convention** (xB030/xB031 `NEGATIVE`, the rest `PROVED`), prior verdict text kept as
+`verdict_detail`, and the dropped `creates_law`/`identifications` restored. Lock: 1276 passed, the seven
+failures are cc's B1411–B1417. **The drift got through a hole:** the lock strips the seat prefix, so `xB034`
+counts as arc 34 and no seat-prefixed arc ever meets a number threshold — recorded with the banking seat's
+numbering scheme. **A green gate run is not a green suite.**
+
 ## xB034 — the cross-branch audit: four of this seat's claims corrected, and the physics map redrawn
 
 All seven branches read, **after unshallowing** (the shallow clone's *"no common ancestor"* was an

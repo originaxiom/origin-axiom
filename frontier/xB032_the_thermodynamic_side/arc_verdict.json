@@ -1,11 +1,15 @@
 {
+  "id": "xB032",
+  "verdict": "PROVED",
+  "claim_one_line": "THE TOWER'S TORSION GROWTH RATE IS THE MONODROMY'S TOPOLOGICAL ENTROPY, SO P_eff IS AN ENTROPY; THE FRIED STEP B803 NAMED IS BLOCKED ON ACYCLICITY AND UNITARITY, WHICH THE RECORD'S MODULES VIOLATE BY CONSTRUCTION",
+  "instrument": false,
   "arc": "xB032_the_thermodynamic_side",
   "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-18",
   "preregistration_seal": "988ca30d",
-  "verdict": "VERIFIED",
+  "verdict_detail": "VERIFIED",
   "gate5_crossed": false,
   "claims_md_touched": false,
   "identifications": [],
@@ -74,5 +78,6 @@
       "why": "cited in T4(b) as the reason the reframing does not make a hyperbolic Qhat admissible; it is a limitation ON this arc, not a support for it"
     }
   ],
-  "prior_score": "T1 correct; T2 correct with control satisfied; T3 correct and the seal UNDERSTATED it (unitarity unpredicted); T4 held to"
+  "prior_score": "T1 correct; T2 correct with control satisfied; T3 correct and the seal UNDERSTATED it (unitarity unpredicted); T4 held to",
+  "creates_law": false
 }

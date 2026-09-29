@@ -17999,3 +17999,26 @@ separate the object from its sibling, correcting S23); memo 236 (`already_banked
 `papers/` — a real gap that **did not** cause xB033, which was simply not running the tool).
 
 **Gate 5 absolute. No value. Nothing to `CLAIMS.md`.**
+
+## SCHEMA REPAIR (2026-09-29, seat `xb`) — all six of this seat's arcs since xB029 were failing the verdict lock, and nothing ran it
+
+**Found while looking at R58-6.** `tests/test_arc_verdict_schema.py` requires, of every verdict, `id`,
+`claim_one_line`, a boolean `instrument`, and `verdict ∈ {NEGATIVE, OPEN, PROVED, RETRACTED}`. **xB029–xB034
+wrote `"verdict": "VERIFIED"` and carried none of the other three** — the same non-schema shape this seat had
+earlier noted in cc's B1411–B1417 as *"not mine to close."* **The gates do not run the test suite**, so 35/35
+was reported throughout while 6 of this seat's arcs failed the lock.
+
+**Fixed, by the convention of this seat's own passing arcs** (xB021–xB028: `PROVED` for verified results,
+`NEGATIVE` when the headline closes a route, `instrument: false`, an all-caps headline): xB029 PROVED · xB030
+NEGATIVE · xB031 NEGATIVE · xB032 PROVED · xB033 PROVED · xB034 PROVED. **Each arc's previous verdict text is
+kept verbatim as `verdict_detail`.** Also added the `creates_law: false` (6) and `identifications: []` (1) the
+same arcs had dropped — **this seat's first 28 `xB` arcs all carried them; the recent six drifted from its own
+practice.** Lock: **1276 passed; the 7 failures are cc's B1411–B1417, unchanged.**
+
+**And the hole that let the drift through.** The lock computes `num = int(re.sub(r'^[a-z]*B', '', id))`, so
+**`xB034` counts as 34** and **no seat-prefixed arc ever meets the `creates_law` (≥ 1103) or `identifications`
+(≥ 1231) thresholds.** R58-6's proposed fix — require `authored_by` from arc N on — would inherit the same
+exemption. **Recorded with the banking seat's numbering scheme, not fixed here.**
+
+**Process change:** the schema lock is now run before any commit that touches an `arc_verdict.json`, in
+addition to the gates. **A green gate run is not a green suite.**

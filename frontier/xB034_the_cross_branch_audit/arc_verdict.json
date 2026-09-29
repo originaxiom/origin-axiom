@@ -1,11 +1,15 @@
 {
+  "id": "xB034",
+  "verdict": "PROVED",
+  "claim_one_line": "THE CROSS-BRANCH AUDIT: FOUR OF THIS SEAT'S CLAIMS CORRECTED, POSITIVE ENTROPY SHOWN SUFFICIENT FOR B1381's GENERATION CAP, E65 CONFIRMED ON ALL 9243 OF xB031's MODULES, AND THE CROSS-BRANCH LEAD-NUMBER COLLISION RECORDED",
+  "instrument": false,
   "arc": "xB034_the_cross_branch_audit",
   "authored_by": "xb",
   "seat": "xb",
   "branch": "sep16-branch",
   "date": "2026-09-29",
   "preregistration_seal": "NONE -- a cross-branch audit; the reading came first, declared in PREREGISTRATION.md (the xB025 convention). The two computed cells state their kill conditions and controls in-script.",
-  "verdict": "VERIFIED",
+  "verdict_detail": "VERIFIED",
   "gate5_crossed": false,
   "claims_md_touched": false,
   "identifications": [],
@@ -17,8 +21,14 @@
     "xB021": "main's S24/B1429: A6/A7 are the KERNEL on the sister orbit, not a point stabiliser; twelfths mod 1/2 form a group of SIX, not twelve"
   },
   "cells": {
-    "C1": {"result": "PASS", "content": "Positive topological entropy is SUFFICIENT for B1381's cap mechanism (M^n never scalar): 8 hyperbolic monodromies never scalar to n=40; elliptic controls hit +-I at n=2,3,3 (the test discriminates); parabolic is entropy-zero and never scalar (converse FALSE). The generation cap and the thermodynamic side share one root -- the monodromy is pseudo-Anosov -- and it is the POSITIVITY of the entropy, not its golden value or minimality."},
-    "C2": {"result": "PASS", "content": "E65 on xB031's 9243 banked modules: 1059 self-dual (psi^2 = 1), all at I = 0, kill fired 0 times; all 576 nonzero modules carry psi^2 != 1. xB031's index is a TWIST effect, not a Sym^m effect."}
+    "C1": {
+      "result": "PASS",
+      "content": "Positive topological entropy is SUFFICIENT for B1381's cap mechanism (M^n never scalar): 8 hyperbolic monodromies never scalar to n=40; elliptic controls hit +-I at n=2,3,3 (the test discriminates); parabolic is entropy-zero and never scalar (converse FALSE). The generation cap and the thermodynamic side share one root -- the monodromy is pseudo-Anosov -- and it is the POSITIVITY of the entropy, not its golden value or minimality."
+    },
+    "C2": {
+      "result": "PASS",
+      "content": "E65 on xB031's 9243 banked modules: 1059 self-dual (psi^2 = 1), all at I = 0, kill fired 0 times; all 576 nonzero modules carry psi^2 != 1. xB031's index is a TWIST effect, not a Sym^m effect."
+    }
   },
   "integration_hazards": [
     "LEAD NUMBERS: no uniqueness check on OPEN_LEADS on any branch. On merge L223 and L224 would each exist 3 times and L225 twice. Main already has duplicate L160/L222/L223/L224; main's renumbering of the fork's duplicate L220 to L223 created a new collision. Scheme decision is the owner's.",
@@ -33,10 +43,36 @@
     "cs(M*) = -cs(M) now load-bearing on TWO branches (main's S24 relies on it too)"
   ],
   "rederived": [
-    {"arc": "xB031", "what": "the 9243 banked modules", "outcome": "CONFIRMED", "why": "C2 re-aligns every module to its (locus, m, twist) from B1418's byte-identical instrument and tests each against E65"},
-    {"arc": "xB032", "what": "the monodromy entropies of eight RL-words", "outcome": "CONFIRMED", "why": "C1 recomputes them from the matrices and reproduces xB032 T2's h values"},
-    {"arc": "B1381 (SM branch)", "what": "rank-one h1 != 2 on every level because M^n is never scalar", "outcome": "SCOPED", "why": "not re-proved; its mechanism's premise (M^n never scalar) is checked and shown to follow from positive entropy, with controls"},
-    {"arc": "B1260", "what": "Alexander roots phi^{+-2}, the h1 jump, the golden pair", "outcome": "NOT_RERUN", "why": "read at source in this tree and quoted; it corrects xB030 rather than being corrected"},
-    {"arc": "main S24 / B1429", "what": "xB021 verified and sharpened", "outcome": "NOT_RERUN", "why": "read at source on main and quoted; recorded as an addendum on xB021"}
-  ]
+    {
+      "arc": "xB031",
+      "what": "the 9243 banked modules",
+      "outcome": "CONFIRMED",
+      "why": "C2 re-aligns every module to its (locus, m, twist) from B1418's byte-identical instrument and tests each against E65"
+    },
+    {
+      "arc": "xB032",
+      "what": "the monodromy entropies of eight RL-words",
+      "outcome": "CONFIRMED",
+      "why": "C1 recomputes them from the matrices and reproduces xB032 T2's h values"
+    },
+    {
+      "arc": "B1381 (SM branch)",
+      "what": "rank-one h1 != 2 on every level because M^n is never scalar",
+      "outcome": "SCOPED",
+      "why": "not re-proved; its mechanism's premise (M^n never scalar) is checked and shown to follow from positive entropy, with controls"
+    },
+    {
+      "arc": "B1260",
+      "what": "Alexander roots phi^{+-2}, the h1 jump, the golden pair",
+      "outcome": "NOT_RERUN",
+      "why": "read at source in this tree and quoted; it corrects xB030 rather than being corrected"
+    },
+    {
+      "arc": "main S24 / B1429",
+      "what": "xB021 verified and sharpened",
+      "outcome": "NOT_RERUN",
+      "why": "read at source on main and quoted; recorded as an addendum on xB021"
+    }
+  ],
+  "creates_law": false
 }
