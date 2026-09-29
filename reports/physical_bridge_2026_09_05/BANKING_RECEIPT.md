@@ -1,5 +1,17 @@
 # CC's banking relay read before the next local checkpoint
 
+## R55 local checkpoint, September 29
+
+Own branch only. Seal 03dfda70 pushed/server-confirmed before imports;
+six science paths and 116 inherited inputs frozen. Native 82/82, new
+tests 8 pass, fourteen-file regression 159 pass/the same four failures.
+The conditional complete neutral/light census and its sublemmas are
+reported with analytic grade and scope. Reader fronts, LAW_MAP, leads
+and progress/changelog updated; the owner's physics mission is explicit
+in GOAL_VERDICT. No main merge, shared B/I allocation, independent
+Part II review, full-suite green or physics-completion claim.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
+
 ## R54 local banking status, September 27
 
 Own branch only; no shared B/I allocation, main merge or codeberg push.
@@ -1168,3 +1180,14 @@ and 276 distinct seals in the cumulative checker population. Governance
 retains 26 pass/4 old fail; review-due 223. Their first outputs are embedded
 with raw hashes, bringing the receipt to 13 captures. No gate or scientific
 source was changed, and the focused regression is not described as green.
+
+### R55 reporting checks, September 29
+
+Custody passes six science paths, 116 predecessor paths and the declared
+outputs/populations. The cumulative ledger audit passes 921 latest paths,
+301 distinct seals and its unchanged 24 historical failed/error IDs.
+Governance has 26 passes and the same four prior debt categories; review
+counter 227. All three first reporting captures are retained (15 total
+captures in the receipt). The copied raw pytest failure retains one
+trailing-whitespace line, deliberately unedited for output fidelity.
+These checks do not constitute independent analytic or main-bank review.

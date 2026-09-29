@@ -1,0 +1,371 @@
+{
+  "cases": [
+    {
+      "middle": 14,
+      "embedding": 1,
+      "q": "4*sqrt(3) + 7",
+      "ordinary_H1": 3,
+      "meridian_rank": 10,
+      "joined_rank": 12,
+      "restriction_rank": 2,
+      "kernel_dimension": 1,
+      "restriction_matrix": [
+        [
+          "0",
+          "-773/4 + 893*sqrt(3)/8",
+          "399/2 - 461*sqrt(3)/4"
+        ],
+        [
+          "0",
+          "29/4 - 33*sqrt(3)/8",
+          "-15/2 + 17*sqrt(3)/4"
+        ],
+        [
+          "0",
+          "-8349/16 + 1205*sqrt(3)/4",
+          "4325/8 - 312*sqrt(3)"
+        ],
+        [
+          "0",
+          "-17893/32 + 5163*sqrt(3)/16",
+          "9237/16 - 2665*sqrt(3)/8"
+        ],
+        [
+          "0",
+          "-331/32 + 95*sqrt(3)/16",
+          "171/16 - 49*sqrt(3)/8"
+        ]
+      ],
+      "trace_matrix": [
+        [
+          "0",
+          "-185/2 + 54*sqrt(3)",
+          "97 - 56*sqrt(3)"
+        ],
+        [
+          "0",
+          "-568 + 332*sqrt(3)",
+          "592 - 344*sqrt(3)"
+        ],
+        [
+          "0",
+          "-3447/2 + 1008*sqrt(3)",
+          "1791 - 1044*sqrt(3)"
+        ]
+      ],
+      "kernel_in_received_basis": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "checks": {
+        "ordinary_H1_three": true,
+        "actual_relator_differential": true,
+        "chain_and_closed_basis": true,
+        "meridian_rank_ten": true,
+        "restriction_rank_two": true,
+        "q_restriction_zero": true,
+        "q_closed_nonboundary": true,
+        "one_kernel_spanned_by_q": true,
+        "restriction_gauge_invariant": true,
+        "trace_detector_gauge_invariant": true,
+        "independent_trace_rank_two": true,
+        "trace_and_meridian_kernel_agree": true,
+        "q_has_zero_trace_derivatives": true,
+        "nonzero_restriction_rejected": true
+      }
+    },
+    {
+      "middle": 14,
+      "embedding": -1,
+      "q": "7 - 4*sqrt(3)",
+      "ordinary_H1": 3,
+      "meridian_rank": 10,
+      "joined_rank": 12,
+      "restriction_rank": 2,
+      "kernel_dimension": 1,
+      "restriction_matrix": [
+        [
+          "0",
+          "-893*sqrt(3)/8 - 773/4",
+          "399/2 + 461*sqrt(3)/4"
+        ],
+        [
+          "0",
+          "33*sqrt(3)/8 + 29/4",
+          "-15/2 - 17*sqrt(3)/4"
+        ],
+        [
+          "0",
+          "-8349/16 - 1205*sqrt(3)/4",
+          "312*sqrt(3) + 4325/8"
+        ],
+        [
+          "0",
+          "-17893/32 - 5163*sqrt(3)/16",
+          "2665*sqrt(3)/8 + 9237/16"
+        ],
+        [
+          "0",
+          "-331/32 - 95*sqrt(3)/16",
+          "49*sqrt(3)/8 + 171/16"
+        ]
+      ],
+      "trace_matrix": [
+        [
+          "0",
+          "-54*sqrt(3) - 185/2",
+          "56*sqrt(3) + 97"
+        ],
+        [
+          "0",
+          "-332*sqrt(3) - 568",
+          "592 + 344*sqrt(3)"
+        ],
+        [
+          "0",
+          "-1008*sqrt(3) - 3447/2",
+          "1791 + 1044*sqrt(3)"
+        ]
+      ],
+      "kernel_in_received_basis": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "checks": {
+        "ordinary_H1_three": true,
+        "actual_relator_differential": true,
+        "chain_and_closed_basis": true,
+        "meridian_rank_ten": true,
+        "restriction_rank_two": true,
+        "q_restriction_zero": true,
+        "q_closed_nonboundary": true,
+        "one_kernel_spanned_by_q": true,
+        "restriction_gauge_invariant": true,
+        "trace_detector_gauge_invariant": true,
+        "independent_trace_rank_two": true,
+        "trace_and_meridian_kernel_agree": true,
+        "q_has_zero_trace_derivatives": true,
+        "nonzero_restriction_rejected": true
+      }
+    },
+    {
+      "middle": 34,
+      "embedding": 1,
+      "q": "12*sqrt(2) + 17",
+      "ordinary_H1": 3,
+      "meridian_rank": 10,
+      "joined_rank": 12,
+      "restriction_rank": 2,
+      "kernel_dimension": 1,
+      "restriction_matrix": [
+        [
+          "0",
+          "-4613/4 + 1631*sqrt(2)/2",
+          "2339/2 - 827*sqrt(2)"
+        ],
+        [
+          "0",
+          "69/4 - 73*sqrt(2)/6",
+          "-35/2 + 37*sqrt(2)/3"
+        ],
+        [
+          "0",
+          "-119219/36 + 7025*sqrt(2)/3",
+          "60485/18 - 2376*sqrt(2)"
+        ],
+        [
+          "0",
+          "-3404 + 28883*sqrt(2)/12",
+          "3452 - 14645*sqrt(2)/6"
+        ],
+        [
+          "0",
+          "-913/36 + 215*sqrt(2)/12",
+          "463/18 - 109*sqrt(2)/6"
+        ]
+      ],
+      "trace_matrix": [
+        [
+          "0",
+          "-1135/2 + 402*sqrt(2)",
+          "577 - 408*sqrt(2)"
+        ],
+        [
+          "0",
+          "-3438 + 2436*sqrt(2)",
+          "3492 - 2472*sqrt(2)"
+        ],
+        [
+          "0",
+          "-20727/2 + 7344*sqrt(2)",
+          "10521 - 7452*sqrt(2)"
+        ]
+      ],
+      "kernel_in_received_basis": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "checks": {
+        "ordinary_H1_three": true,
+        "actual_relator_differential": true,
+        "chain_and_closed_basis": true,
+        "meridian_rank_ten": true,
+        "restriction_rank_two": true,
+        "q_restriction_zero": true,
+        "q_closed_nonboundary": true,
+        "one_kernel_spanned_by_q": true,
+        "restriction_gauge_invariant": true,
+        "trace_detector_gauge_invariant": true,
+        "independent_trace_rank_two": true,
+        "trace_and_meridian_kernel_agree": true,
+        "q_has_zero_trace_derivatives": true,
+        "nonzero_restriction_rejected": true
+      }
+    },
+    {
+      "middle": 34,
+      "embedding": -1,
+      "q": "17 - 12*sqrt(2)",
+      "ordinary_H1": 3,
+      "meridian_rank": 10,
+      "joined_rank": 12,
+      "restriction_rank": 2,
+      "kernel_dimension": 1,
+      "restriction_matrix": [
+        [
+          "0",
+          "-1631*sqrt(2)/2 - 4613/4",
+          "2339/2 + 827*sqrt(2)"
+        ],
+        [
+          "0",
+          "73*sqrt(2)/6 + 69/4",
+          "-35/2 - 37*sqrt(2)/3"
+        ],
+        [
+          "0",
+          "-119219/36 - 7025*sqrt(2)/3",
+          "2376*sqrt(2) + 60485/18"
+        ],
+        [
+          "0",
+          "-3404 - 28883*sqrt(2)/12",
+          "14645*sqrt(2)/6 + 3452"
+        ],
+        [
+          "0",
+          "-913/36 - 215*sqrt(2)/12",
+          "109*sqrt(2)/6 + 463/18"
+        ]
+      ],
+      "trace_matrix": [
+        [
+          "0",
+          "-402*sqrt(2) - 1135/2",
+          "408*sqrt(2) + 577"
+        ],
+        [
+          "0",
+          "-2436*sqrt(2) - 3438",
+          "3492 + 2472*sqrt(2)"
+        ],
+        [
+          "0",
+          "-7344*sqrt(2) - 20727/2",
+          "10521 + 7452*sqrt(2)"
+        ]
+      ],
+      "kernel_in_received_basis": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "checks": {
+        "ordinary_H1_three": true,
+        "actual_relator_differential": true,
+        "chain_and_closed_basis": true,
+        "meridian_rank_ten": true,
+        "restriction_rank_two": true,
+        "q_restriction_zero": true,
+        "q_closed_nonboundary": true,
+        "one_kernel_spanned_by_q": true,
+        "restriction_gauge_invariant": true,
+        "trace_detector_gauge_invariant": true,
+        "independent_trace_rank_two": true,
+        "trace_and_meridian_kernel_agree": true,
+        "q_has_zero_trace_derivatives": true,
+        "nonzero_restriction_rejected": true
+      }
+    }
+  ],
+  "controls": {
+    "cusp": {
+      "zero_sector_dimension_nine": true,
+      "positive_Gram": true,
+      "A_selfadjoint": true,
+      "B_adjoint_literal": true,
+      "kernel_basis_and_rank": true,
+      "cokernel_basis_and_rank": true,
+      "kernel_weights_012": true,
+      "cokernel_weights_0_minus1_minus2": true,
+      "flat_radial_B": true,
+      "flat_radial_C": true,
+      "commuting_tangent_logs": true,
+      "adjoint_nilpotency_five": true,
+      "log_exp_images_agree": true,
+      "longitude_image_in_meridian_image": true,
+      "ad_N_squared_is_not_ad_N2": true
+    },
+    "scalar": {
+      "Fox_equals_abelianization": true,
+      "ordinary_H1_one": true,
+      "meridian_restriction_injective": true,
+      "actual_cocycle_equal_generators": true
+    },
+    "weights": {
+      "Hardy_conjugation_sign": true,
+      "kernel_homogeneous_sections_integrable": true,
+      "meridian_cokernel_periods_nonintegrable": true,
+      "Hardy_rates_strictly_positive": true,
+      "threshold_equality_not_integrable": true,
+      "longitude_and_meridian_not_equivalent": true,
+      "wrong_negative_kernel_weight_would_fail": true
+    }
+  },
+  "passed": 82,
+  "total": 82,
+  "all_checks_pass": true,
+  "conditional_neutral_H1": 1,
+  "conditional_parent_H1": 33,
+  "global_analytic_proof_machine_verified": false,
+  "all_ordinary_classes_normalizable": false,
+  "full_EFT_or_numerical_gap_derived": false,
+  "physical_chirality_derived": false
+}

@@ -1,4 +1,42 @@
-# Verdict toward the full physical-theory goal - R54, updated 2026-09-27
+# Verdict toward the full physical-theory goal - R55, updated 2026-09-29
+
+## Authoritative mission - reaffirmed by the owner, September 29
+
+Develop and rigorously test Origin Axiom from its mathematical programme
+toward a complete physical theory of everything: derive a common,
+consistent account of spacetime/gravity, quantum dynamics, matter,
+chirality and interactions, and obtain falsifiable observables compatible
+with measured reality. Verify every load-bearing step; separate derived
+results from supplied assumptions and chosen inputs. Search the existing
+record and all relevant branches before declaring an absence or no-go.
+Preserve and regularly commit/push reproducible positive and negative work.
+
+"Resume" and "continue" are continuation instructions, NOT replacement
+objectives or completion criteria. A narrower conditional mathematical
+model is a research step, never permission to declare this mission done.
+The active interface label was observed as "resume"; this records the
+owner's actual objective, not a claim that the interface was renamed.
+Completion requires the physical joins and empirical tests below, not
+merely more calculations, matching dimensions, passed unit tests or a
+finished audit. No guarantee of scientific success is asserted.
+
+**Current path-local result, R55 (September 29): complete neutral/light census.**
+For each exceptional canonical q background, exact meridian restriction
+has rank two on ordinary adjoint H1 of dimension three. The authored
+complete-domain injection and period-vanishing argument leave exactly
+one L2 neutral line, spanned by q. Scalar H1_L2 vanishes. The supplied
+parent's internal harmonic dimensions are (45,33,33,45), with degree one
+one singlet + 16 + 16*. Grade: conditional authored analysis, not
+independent global proof acceptance, physical chirality or a full EFT.
+Native 82/82; new tests 8 pass; fixed fourteen-file regression 159 pass /
+the same four retained failures. Seal 03dfda70 pushed/server-confirmed
+before execution; six science and 116 predecessor paths unchanged.
+Next: surviving normalized interaction tensors, controlled complement
+and quantum selection, while separately auditing source/end/component
+chirality mechanisms. Physical SM content, anomalies, scales and gravity
+remain mission duties. No automatic pairing of different seats' models.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
+Earlier dated entries below are historical checkpoints, not current gaps.
 
 **Current path-local result, R54 (September 27): nonzero paired interaction.**
 At EACH exceptional canonical q background and its admitted characters,
@@ -148,8 +186,15 @@ completion of the corresponding physical-theory requirements.
   is R47's harmonic alpha. Its quadratic kinetic coefficient is finite
   and positive in the supplied action. The global integral is NOT
   numerically evaluated and g7/metric/parent remain supplied inputs.
-- [ ] **Canonical follow-through:** full neutral census and actual
-  normalized mode profiles/interactions; establish higher/neighborhood
+- [x] R54, conditional authored grade: the actual neutral field couples
+  nontrivially to the charged pair in the SAME supplied action; raw Fox
+  coefficients are not normalized numerical Yukawas.
+- [x] R55, conditional authored grade: complete one-form kernel census
+  at all four exceptional canonical backgrounds: one neutral singlet
+  plus 16 and 16*. Exact restriction ranks pass; the analytic comparison
+  remains authored, not independently accepted or physical chirality.
+- [ ] **Canonical follow-through:** actual normalized mode profiles and
+  interaction tensors; establish higher/neighborhood
   regularity wherever a finite-amplitude effective action needs it.
   Whole-interval C1/C2 and agreement with R50's SECOND derivative are
   not consequences of differentiability at the center. Do not replace

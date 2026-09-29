@@ -796,3 +796,17 @@ below is a numerical coupling, selected vacuum or physical chirality.
 | Mixed neutral--charged curvature cannot be canceled by second-order exact relaxation | At the specified exceptional background, the harmonic E curvature component of epsilon(a alpha+b beta)+epsilon^2 u2 is epsilon^2 ab h for any admissible u2; the order-four potential has the positive lower bound (2/g7^2)abs(ab)^2 norm(h)^2_parent. No cubic scalar potential, full nonlinear EFT or mirror-only mass follows. | B1138 supplied action context; R54 proof section 4; tests/test_physical_bridge_neutral_matter.py::test_exact_relaxation_and_normalization_controls; test_rank_jump_is_not_first_order_obstruction |
 
 R54 report: reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.
+
+## September 29, 2026 - R55 finite-norm census sublemmas
+
+Conditional authored end/domain analysis; finite ranks alone do not
+certify the global proof. No physical chirality or model-independent kill.
+
+| law (scoped statement) | content and limitation | provenance / control |
+|---|---|---|
+| Exact L2 one-forms have L2 ordinary primitives in the canonical adjoint/trivial coefficient | Bounded nonzero-frequency inverses and radial kernel rates j+1/2 for j=0,1,2 prove injection of harmonic H1 into ordinary H1. Only this fixed complete end/norm. | B1138 supplied-parent context; reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_PROOF.md section 2; tests/test_physical_bridge_neutral_census.py::test_positive_metric_kernel_and_cokernel_weights and test_weight_and_endpoint_controls support finite inputs, not PDE review |
+| Complete L2 closed classes have zero shrinking-meridian restriction | Quotient weights 0,-1,-2 force nonzero period norms to diverge; nonzero longitude sectors are torus-acyclic. No general ordinary/L2 equality is assumed. | B1138 context only; R55 proof section 3; same finite end controls |
+| At all four exceptional canonical points the meridian-preserving adjoint tangent is exactly the q line | Ordinary H1=3 is inherited F15; rank(Ad M-I)=10, augmented rank=12 and independent trace derivative kernels agree. Together with the authored injection and R47/R53 lower bound this gives dim H1_L2(End0 E)=1. | B1138 actual model; R55 proof section 4; tests/test_physical_bridge_neutral_census.py::test_actual_global_meridian_kernel |
+| The complete canonical parent internal harmonic dimensions are (45,33,33,45) at these admitted backgrounds | Scalar H1_L2=0 by injective meridian restriction; actual branching and inherited charged/six comparison give degree one singlet+16+16*. Complex internal dimensions, not physical generations or full EFT. | B1138 branching; R55 proof sections 4--5; tests/test_physical_bridge_neutral_census.py::test_scalar_ordinary_class_does_not_survive_meridian and test_conditional_parent_count_not_three_neutral_moduli |
+
+R55 report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.

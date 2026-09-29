@@ -1,5 +1,15 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+September 29 R55 completes the conditional canonical light-mode census:
+one neutral line, plus 16 and 16*, not three normalizable neutral classes.
+The physics mission is reaffirmed explicitly in
+reports/physical_bridge_2026_09_05/GOAL_VERDICT.md: continuation commands
+do not replace it. Next derive normalized same-action interactions and
+controlled complementary-mode reduction, alongside separately verified
+source/end/component routes to chirality. Counts and a paired interaction
+do not yet earn physical SM content, quantum consistency, scales or gravity.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
+
 September 27 R54 spends F15's EXISTING obstruction on R53's actual
 neutral field: conditional nonzero finite paired Yukawa interaction
 on the same canonical background, with uncancellable mixed harmonic

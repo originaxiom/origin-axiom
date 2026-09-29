@@ -1,5 +1,23 @@
 # One-model audit: which positive results actually compose?
 
+**Current path-local result, R55 (September 29): complete neutral/light census.**
+For each exceptional canonical q background, exact meridian restriction
+has rank two on ordinary adjoint H1 of dimension three. The authored
+complete-domain injection and period-vanishing argument leave exactly
+one L2 neutral line, spanned by q. Scalar H1_L2 vanishes. The supplied
+parent's internal harmonic dimensions are (45,33,33,45), with degree one
+one singlet + 16 + 16*. Grade: conditional authored analysis, not
+independent global proof acceptance, physical chirality or a full EFT.
+Native 82/82; new tests 8 pass; fixed fourteen-file regression 159 pass /
+the same four retained failures. Seal 03dfda70 pushed/server-confirmed
+before execution; six science and 116 predecessor paths unchanged.
+Next: surviving normalized interaction tensors, controlled complement
+and quantum selection, while separately auditing source/end/component
+chirality mechanisms. Physical SM content, anomalies, scales and gravity
+remain mission duties. No automatic pairing of different seats' models.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
+Earlier dated entries below are historical checkpoints, not current gaps.
+
 **Current path-local result, R54 (September 27): nonzero paired interaction.**
 At EACH exceptional canonical q background and its admitted characters,
 F15's already banked matter obstruction is reproduced and joined to

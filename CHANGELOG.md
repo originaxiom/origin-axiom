@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-29 - R55 one normalizable neutral mode; physics mission reaffirmed
+
+Exact meridian restriction has rank two on all four ordinary adjoint
+three-dimensional tangent spaces; q spans its kernel. The conditional
+authored domain proof gives exactly one L2 neutral mode and zero scalar
+H1, completing the internal parent count (45,33,33,45). Native 82/82,
+dedicated 8 pass; fourteen-file regression 159 pass/the same four failures.
+Science seal 03dfda70 pushed/server-confirmed before execution. No physical
+chirality, normalized numerical coupling, full EFT or TOE claim. The
+owner reaffirmed the goal as physics, not the interface's "resume" label;
+GOAL_VERDICT now states the authoritative mission and completion tests.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
+
 ## 2026-09-27 - R54 nonzero dynamical neutral--matter interaction
 
 Reproduce the EXISTING F15 obstruction rather than rediscover it: all

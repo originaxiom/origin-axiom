@@ -15731,3 +15731,20 @@ Next: complete light/neutral spectrum and normalized tensors before
 controlled quantum selection. Physical chiral/SM spectrum, anomalies,
 scales, gravity, empirical tests and independent analytic review remain.
 Report: reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.
+
+## 2026-09-29 - R55: complete canonical light census, with the physics goal intact
+
+On audit/physical-bridge-2026-09-05, seal 03dfda70 was committed/pushed/
+server-confirmed before science. All four points give ordinary adjoint
+H1=3, meridian restriction rank=2 and a one-dimensional kernel spanned
+by q. Authored complete-domain injection and period estimates give one
+L2 neutral mode; scalar H1_L2=0. Full internal dimensions (45,33,33,45),
+with singlet+16+16* in degree one, at conditional analytic grade.
+Native 82/82; new tests 8 pass; unchanged thirteen-file predecessor plus
+new file gives 159 pass/the same four failures. Six science paths and
+116 inputs stay frozen. No chirality, full EFT, normalized numerical
+coupling, physical vacuum or TOE completion is claimed. Reader fronts,
+laws/sublemmas and open duties updated. Owner reaffirmed the mission as
+physics, not "resume"; authoritative objective restored in GOAL_VERDICT.
+No independent banking/analytic acceptance or full-suite green claimed.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
