@@ -90,3 +90,26 @@ all field arithmetic are the scripts' own.
 A trap `r6` documents rather than hides: a raw scan reports 32 loci at h¹ = 3 on the degree-7
 covers. Those χ have order 2, so χ² is trivial and h¹(χ²) = b₁ = 3 for free on a three-cusped
 cover. Filtering to χ² non-trivial — the genuine extension loci — removes all 32.
+
+## Rounds 4 and 5 (the 3d index, and the revision of 2026-09-18)
+
+| script | what it checks | result |
+|---|---|---|
+| `r8_enrichment_budget.py` | parameter room each enrichment of the first step supplies; the length spectrum's fitting freedom | superseded in part by B1409 — see the consolidated report |
+| `r9_enrich_coefficients.py` | dim H¹(m004; Sym^m), m = 1…14, from a parabolic representation found by search and filtered by its Alexander polynomial | 0 for odd m, 1 for even m (reproduces the record's banked result) |
+| `r10_controls.py` | the load-bearing assertions of round 3: a **trefoil positive control** for the h¹ instrument; b₁ = number of cusps; the cusp restriction | trefoil fires at exactly its two order-6 characters, m004 at none; b₁ = cusps on all 57; t₁ = 2a₁ |
+| `r11_3d_index.py` | the rotated (0,0) entry of the 3d index of m004, from Garoufalidis's tetrahedron index | matches Garoufalidis–Gu–Mariño §4.3 exactly, one term further |
+| `r12_3d_index_classes.py` | the 3d index at **every** boundary class (GHHR eq. 16), with per-factor precision budgets from the exact degree of I_Δ | all eight published figure-eight classes reproduce; I_m004(0) = I_m003(0) |
+| `r12b_separation.py` | whether the full collection of classes separates m004 from m003, compared as sets | yes, with two corrections to B1431's wording |
+
+Three traps these scripts document rather than hide:
+
+- **The printed I(μ) in GHHR's arXiv source has the wrong sign at q¹.** The same example's explicit
+  formula gives −2q and reproduces all seven other printed series exactly. `r12`'s target uses the
+  formula-consistent value and says why.
+- **The per-summand degree bound on I_Δ is valid but useless** — summands carry very negative degrees
+  that cancel — so `r12` uses Garoufalidis's closed-form degree, checked against direct computation on
+  361 pairs and asserted at runtime on every value used.
+- **Truncating a running product at the target order loses terms** when a factor still to come has
+  negative degree — the bug the project's B1428 found in its own first implementation. `r12` keeps the
+  running product through the target order minus the remaining factors' lower bounds.

@@ -3,11 +3,14 @@
 *On:* **Standard-Model structure from the figure-eight knot complement: what is forced, what is
 withheld, and what must be supplied**
 
-**This report supersedes the three round reports** (`REFEREE_REPORT_2026-09-17.md`,
-`…ROUND2_2026-09-17.md`, `…ROUND3_2026-09-18.md`), which remain in the directory as the working
-record. Corrections issued in later rounds are **applied here**, not appended: nothing in this
-document requires the reader to hold an erratum in mind while reading an earlier section. That is
-the standard I am holding the manuscript to, so it is the standard this report meets.
+**This report supersedes the round reports** (`REFEREE_REPORT_2026-09-17.md`,
+`…ROUND2_2026-09-17.md`, `…ROUND3_2026-09-18.md`, `…ROUND5_2026-09-29.md`), which remain in the
+directory as the working record. Corrections issued in later rounds are **applied here**, not
+appended: nothing in this document requires the reader to hold an erratum in mind while reading an
+earlier section. That is the standard I am holding the manuscript to, so it is the standard this
+report meets.
+
+*Current as of round 5 (2026-09-29), against `main` at `987c0c8f`.*
 
 ---
 
@@ -15,14 +18,17 @@ the standard I am holding the manuscript to, so it is the standard this report m
 
 **Minor revision on the mathematics. Major revision on what the paper reports.**
 
-Every mathematical claim I could independently re-derive came out correct — roughly sixty of them,
-including several that cut against the paper's own thesis. The defects I found are in packaging and
-in scope: machinery that asserts more than it evidences, one stale table row that ships in the PDF,
-and, most importantly, **a manuscript that does not report its own project.**
+Every mathematical claim I could independently re-derive came out correct — now roughly seventy,
+including several that cut against the paper's own thesis. The packaging defects I reported —
+a drift gate that sampled, a runner that certified more than it ran, a manifest whose commit did not
+resolve, a lock that failed on most hash seeds — **are fixed, and each fix was verified here**
+(mutation test, behavioural run, exhaustive manifest audit, package run under the failing seed).
 
-That last finding is not a matter of emphasis. It is demonstrable, and it has now misled three
-independent readers — this referee twice, and an outside agent once (§5, §6). A paper whose thesis
-is auditability cannot also be a poor index of the work it audits.
+What is not fixed is the finding that matters most: **a manuscript that does not report its own
+project.** It is demonstrable, it has misled three independent readers — this referee twice, and an
+outside agent once (§5, §6) — and it got **worse** in round 5: the record gained four verified results,
+the manuscript changed by two lines. A paper whose thesis is auditability cannot also be a poor index
+of the work it audits.
 
 ---
 
@@ -65,7 +71,13 @@ own method and its own limits.
 | b₁ = number of cusps | verified on **all 57** manifolds used, no exceptions |
 | Δ(m004) = t² − 3t + 1 from the Fox Jacobian, discriminant 5, separable | verified, no Sage |
 | dim H¹(m004; Sym^m), m = 1…14 | 0 for odd m, 1 for even m; t₁ = 2a₁ at m = 2, 4, 6 |
-| the DGG **3d index of m004** | computed and matched to the published coefficients (§6.3) |
+| the DGG **3d index of m004**, rotated (0,0) entry | computed and matched to the published coefficients (§6) |
+| the 3d index at **every** boundary class (GHHR eq. 16) | all eight published figure-eight classes reproduce — see §6 on one printed sign |
+| m004 and m003 share the trivial-class index (B1428) | verified: identical through q⁸ |
+| the full collection of classes separates m004 from m003 (B1431) | verified, complete over every class that could compete — with two corrections to its wording (§4) |
+| CS(m003) = ¼; the orientation/order bits act trivially on the sister orbit (B1429) | verified; the 104 listed family classes and their counts reproduce exactly |
+| E₆: 120 A₂ in **one** Weyl orbit (stabiliser 432); 720 commuting (A₂, A₁) pairs in one orbit (stabiliser 72); \|W\| = 51 840 | verified from the Cartan matrix |
+| the fixes to F2, F3, F4 and the seed-dependent lock | verified — mutation test, behavioural run, exhaustive manifest audit, package run under the failing seed (§3) |
 
 ### 2.2 Not verified — and no part of this report endorses these
 
@@ -79,7 +91,10 @@ t12835/o10_150701/t12839, the 61 + 12 vanishing sectors, the 38 070 multi-cusped
 verified the *theorem* behind the vanishing and the *lemma* (symplectic self-duality), not the runs.
 The ledger rows σ, λ, ℙ(B₀); the seven crossings; the 352-pair period scan; the 216-cell regulator
 grid; the G₂ orbifold with b₂ = 0; the genesis uniqueness theorem (144 candidates to one). The
-80 800 count, the one-per-background law, the exact ℚ(ζ) runs; B1366, B1351, B1367, B1368.
+80 800 count, the one-per-background law, the exact ℚ(ζ) runs; B1351, B1367, B1368. From B1366 /
+the embedding claim, the three hypercharge directions among 28 513 and the 8 177 branchings (its
+orbit facts *are* verified). The 3d index's retriangulation invariance (my own control only
+exercised relabelled two-tetrahedron triangulations), and the membership of B1429's 112-member family.
 
 For these I confirmed only that a lock exists and, with the exceptions in §3, that it passes. The
 paper's own appendix is right that *"a lock is traceability, not re-derivation"*, and it should keep
@@ -106,6 +121,14 @@ manuscript:
 | no hyperbolic knot has a cyclic-cubic trace field | B307 | **no** |
 | every Sym^n of SL(2) is self-dual ⟹ net chirality ≡ 0 (error class E65, cost four arcs) | B1260 / E65 | **no** |
 | the DGG lane: T[4₁] = U(1) + 2 chirals from the NZ datum; abelian at all K, adversarially sourced | B488 / B528 | **no** |
+| *added round 5:* the 3d index of the object, computed; m004 and m003 share the trivial-class series | B1428 | **no** |
+| *added round 5:* **the full collection of classes separates m004 from m003** — a second separator besides Chern–Simons, which §2 presents as the only one | B1431 | **no** |
+| *added round 5:* the orientation and order bits act trivially on the whole sister orbit; the information lives on the family | B1429 | **no** |
+
+**Status (round 5): not addressed, and wider.** The manuscript changed by two lines since round 2; the
+record gained the last three rows, each verified here. The author has said so explicitly (*"Nothing
+about what belongs in the paper is decided here"*, S22), so this is a deferral, not an oversight — but
+it is the finding the verdict turns on.
 
 **Evidence that this misleads.** Round 2 of this review answered several of the author's questions
 from the manuscript alone and got them wrong — "seven routes, all negative" is false, the tower
@@ -115,9 +138,10 @@ on which it has 176 files, a 99-agent adversarial deep research, and a computed 
 independent readers, the same error, from the same cause.
 
 **Requested:** bring the manuscript level with the record. At minimum the tower's generation, the
-stabiliser diagnosis, B1409's budget-and-boundary result, and B1261's price belong in it.
+stabiliser diagnosis, B1409's budget-and-boundary result, B1261's price — and, in §2, B1431's second
+separator of the object from its sibling.
 
-### F2 — The chain table ships a stale row, and its gate samples 9 of 57
+### F2 — The chain table ships a stale row, and its gate samples 9 of 57 — **FIXED**
 
 Row-by-row comparison of the generator's 57 rows against both `main.tex` copies: **exactly one row
 is stale** (link 43 — generator 0.8 %, paper 0.9 %). It sits in the unchecked middle, and it is
@@ -126,23 +150,32 @@ present in the repository tex, the arXiv bundle tex, **and the submitted PDF**. 
 
 **Requested:** fix the row; make the gate read all 57.
 
-### F3 — The machinery asserts more than it evidences
+**Status (round 5): fixed, and verified by mutation.** 0 of 57 rows stale on `main`; a drift planted
+in row 30 — outside the old `rows[:6] + rows[-3:]` sample — makes the gate fail; restored, it passes.
 
-- `anc/REPORT.md` certifies **PASS** on a seals-only run, discarding a green the locks would have
-  given. It states a verdict broader than the run behind it.
+### F3 — The machinery asserts more than it evidences — **FIXED**
+
+- `anc/REPORT.md` certified **PASS** on a seals-only run. It stated a verdict broader than the run
+  behind it.
 - `verification_package/run_package.py`: `all_ok` initialises **True** and is `&=`-ed only by steps
   that actually ran. A skipped step cannot turn it false.
+- *Found by the author, not by me, and worse than either:* a lock that failed on six of eight hash
+  seeds (E83). My own round-2 "clean green" was a lucky draw on it (§5).
 
-**Requested:** the package should refuse to print PASS for a step it did not run.
+**Status (round 5): fixed, and verified by running it.** A seals-only run now reports
+`PASS (partial: only seals ran)`; a default run names its steps. The package passes end to end under
+**both** seeds that broke the pre-fix lock (`PYTHONHASHSEED` 0 and 1): seals 21/21, 148 lock files,
+743 passed, 14 skipped, 0 failed, each. Two seeds show the known failure is gone, not that no other
+exists; the author's own order-sensitivity sweep (E83, L222) is the instrument for that.
 
-### F4 — The manifest's recorded commit still does not resolve
+### F4 — The manifest's recorded commit does not resolve — **FIXED**
 
-Reported in round 1, unfixed in round 2. `git_head` names a commit that does not contain the
-artefacts the manifest lists, because the manifest was rebuilt mid-session before that session's
-commit existed.
+Reported in round 1, unfixed in round 2. `git_head` named a commit that did not contain the
+artefacts the manifest lists.
 
-**Requested:** rebuild from a clean checkout; adopt the stated recipe (commit → rebuild manifest and
-report → amend).
+**Status (round 5): fixed, and verified exhaustively.** The manifest records `07c0b604`, published,
+clean tree, 3 458 commits, not shallow — each true. That commit contains **all 442** listed artefact
+paths and **all 80** record directories, and **all 21** seals hash to their recorded values there.
 
 ### F5 — Framing
 
@@ -156,14 +189,17 @@ is read as what it is — a carefully drawn boundary — or as what its title su
 The object is the canonical worked example of the 3d-3d correspondence (Dimofte–Gaiotto–Gukov
 1108.4389 §2.4 derives its A-polynomial as the theory's Lagrangian), the project's own record
 engaged that literature years ago, and the manuscript cites none of it: Dimofte 0, Gaiotto 0,
-Gukov 0, 3d-3d 0, 3D index 0, chiral multiplet 0, A-polynomial 0.
+Gukov 0, 3d-3d 0, 3D index 0, chiral multiplet 0, A-polynomial 0. **Status (round 5): unchanged** —
+while the record now computes the index itself (B1428) and uses it to separate the object from its
+sibling (B1431).
 
-### F7 — Smaller corrections
+### F7 — Smaller corrections — **FIXED**
 
-Figure 1 caption (52 → 53); sin²θ_W stated as 0.9 % where it is 0.822 % — one of three sites
-survived the revision; the manifest's "records"/"pairs" wording. Round 1's items 1 (`.gitignore` /
-the B1419 census) and 4 (census-drift population) are **properly fixed**, the first generalised to a
-sweep and locked.
+Figure 1 caption (52 → 53); sin²θ_W stated as 0.9 % where it is 0.822 % — one of three sites had
+survived; the manifest's "records"/"pairs" wording. **Status (round 5):** sin²θ_W reads 0.8 % at all
+three sites; the caption reads fifty-seven links. The author also found and fixed, unprompted, the
+retraction count the paper cites (27 → 29). Round 1's items 1 (`.gitignore` / the B1419 census) and 4
+(census-drift population) were properly fixed in round 2, the first generalised to a sweep and locked.
 
 ---
 
@@ -226,11 +262,19 @@ I praised this paper for documenting where it fell over. The same standard appli
 | longitude search required both exponent sums zero when only their sum must | the control returned "no longitude" | a silent false negative |
 | asserted a bare triality for the tetrahedron index | the control **fired** — false on 38 of 49 pairs | caught before publication; true relation derived and verified on all 49 |
 | compared the 3d index against the wrong published series | reading which object each series is | a false mismatch report |
-| claimed B307+B1161 subsume the h¹ = 3 question | this round | **corrected in §4 above** |
+| claimed B307+B1161 subsume the h¹ = 3 question | re-reading the records | **corrected in §4 above** |
+| **"`main` is 101 commits — a curated line"; two lanes "share no history with `main`"** | **the author** (S20/S21) | my clone was shallow; `main` was 3 457 commits and every lane shares root `517783f2`. The structural framing is withdrawn; the substance — lane results absent from the paper — was read, not counted, and the author confirmed it |
+| **round 2's "clean green … a green you had earned"** | **the author** (E83) | one run of a suite containing a lock that fails on six of eight hash seeds; I drew a passing one. A correction "in the author's favour" rested on luck |
+| graded the relay's "proven Dehn-filling law" as overstated | the author's lead L225 | I read one abstract; Celoria–Hodgson–Rubinstein (arXiv:2509.09886) prove it |
+| called the author's 3d index an "independent convergence" with mine | reading their commit | they computed the un-rotated index, I the rotated (0,0) entry: different series |
+| wrote S23's truncation bug into my own general implementation (the running product) | reading my code before the first run | none |
 
-The pattern is consistent and worth naming: **every error that mattered was caught by a control, and
-every control that mattered was written before the answer was known.** That is the paper's own
-methodology, and it works.
+The pattern is worth naming, and it changed this round. Most errors were caught by a control written
+before the answer was known — the paper's own method. **The two that mattered most in round 5 were
+not: the author caught them.** Both have the shape the author named in S20 — *"a check satisfied by
+an incomplete view of its own evidence is not a check"* — a depth-limited clone read as the history,
+and a single run of a seed-dependent suite read as a green. A referee is not exempt from the
+methodology being checked.
 
 ---
 
@@ -251,27 +295,50 @@ paper's index is an integer difference of twisted-cohomology dimensions on M. To
 than assert it I computed the 3d index of m004 from Garoufalidis's tetrahedron index and the
 two-tetrahedron state sum — **1 − 8q − 9q² + 18q³ + 46q⁴ + 90q⁵ + 62q⁶ + 10q⁷ − 170q⁸**, matching
 every coefficient Garoufalidis–Gu–Mariño print, with one term further. It is non-trivial, and it
-bears on nothing the paper claims. The paper's negative stands.
+does not bear on the paper's negative, which stands.
+
+**It does bear on the paper's §2**, which I had wrongly said it did not. Computed at every boundary
+class (GHHR eq. 16, all eight published figure-eight classes reproduced), the trivial class of m004
+and m003 agree — but the full collection separates them, with witnesses in both directions, complete
+over every class that could compete (B1431, verified here with two corrections to its wording). §2
+presents the Chern–Simons invariant as the one thing the construction uses that tells the object
+from its sibling. There is now a second.
+
+*A note on the literature, since the check depended on it:* the arXiv source of GHHR (1604.02688,
+Example 4.1) prints I(μ) = **+2q** − 2q² + …; the same example's explicit formula gives **−2q**, and
+reproduces all seven of its other printed series exactly. The printed sign is a typo. The project's
+B1428 targets −2q, citing the journal version, which I could not access to see whether it was
+corrected there.
 
 ---
 
 ## 7. Requested changes
 
-1. **Bring the manuscript level with its record** (F1) — the tower's generation, the stabiliser
-   diagnosis, B1409's budget-and-boundary result, B1261's price.
-2. Fix the stale chain-table row; make the drift gate read all 57 (F2).
-3. Make the package refuse to print PASS for a step it did not run (F3).
-4. Rebuild the manifest from a clean checkout so `git_head` resolves (F4).
-5. Title, abstract, the 53/57 ratio, and the index wording (F5).
-6. Cite the 3d-3d literature the object is the canonical example of (F6).
-7. Figure 1 caption; the surviving sin²θ_W site; manifest wording (F7).
+**Open:**
 
-Items 2–7 are small. Item 1 is the report.
+1. **Bring the manuscript level with its record** (F1) — the tower's generation, the stabiliser
+   diagnosis, B1409's budget-and-boundary result, B1261's price, and in §2 B1431's second separator of
+   the object from its sibling.
+2. Title, abstract, the 53/57 ratio, and the index wording (F5).
+3. Cite the 3d-3d literature the object is the canonical example of (F6).
+
+**Done, and verified in round 5:** the stale chain-table row and the sampling gate (F2); the runner's
+verdict and the seed-dependent lock (F3); the manifest's commit (F4); the sin²θ_W site and the caption
+(F7).
+
+**For the record rather than the paper:** B1428 should say which printing of GHHR its targets came
+from, since the arXiv printing's I(μ) differs in sign at q¹; and B1431 should name which longitude of
+m003 it means, since at the homological longitude the claim fails.
+
+Everything small is done. Item 1 is the report.
 
 ---
 
 *Reproductions: `referee_2026-09-17/scripts/`. Round 1: `v1`–`v28`. Round 2: `r2_chain_table_drift`,
 `r2_lock_data_tracked`. Round 3: `r3_i26_euler`, `r3_m010_index`, `r4_r30_check`, `r5_tower_loci`,
 `r6_h1_three`, `r7_corank_bound`, `r8_enrichment_budget`, `r9_enrich_coefficients`. Round 4:
-`r10_controls`, `r11_3d_index`. Primary sources read at source: Menal-Ferrer–Porti; DGG 1108.4389
-and 1112.5179; Garoufalidis 1208.1663; Garoufalidis–Gu–Mariño 2301.00098; Gang–Yonekura 1803.04009.*
+`r10_controls`, `r11_3d_index`. Round 5: `r12_3d_index_classes`, `r12b_separation`, plus the E83
+reproduction, the gate mutation test, the manifest audit and the S24/S25 checks recorded in
+`REFEREE_REPORT_ROUND5_2026-09-29.md`. Primary sources read at source: Menal-Ferrer–Porti; DGG
+1108.4389 and 1112.5179; Garoufalidis 1208.1663; Garoufalidis–Gu–Mariño 2301.00098; Gang–Yonekura
+1803.04009; GHHR 1604.02688 (LaTeX e-print); Celoria–Hodgson–Rubinstein 2509.09886.*
