@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1247** |
-| words of findings prose | **977,115** |
-| test lock files referenced | **751** |
+| words of findings prose | **979,933** |
+| test lock files referenced | **752** |
 | arcs carrying an authored verdict | **1247** (100.0 %) |
-| recorded closures | **796** (617 classified, 179 routed-only) |
+| recorded closures | **797** (617 classified, 180 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,8 +34,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 823 |
-| NEGATIVE | 324 |
-| OPEN | 89 |
+| NEGATIVE | 325 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `other` | 359 |
-| `unrouted-unclassified` | 179 |
+| `unrouted-unclassified` | 180 |
 | `kind-mismatch` | 51 |
 | `genericity` | 38 |
 | `no-landing-site` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**534 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**535 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE CAPPED EISENSTEIN CUSP (B1395's menu: the one finite-energy charge-odd datum is a flux on a capped cusp torus; and B1394's P3, which fired). (A) The cusp's Hopf trace: at a cusp rotated by an order-3 isometry g, the lift's weights at g's three fixed points on the cusp torus (the ends of B1390's arcs) sum to L(g^; T_c; L_chi), so they are balanced (1, w, w^2) when the invariant character chi is non-trivial on T_c and all equal (the lift's constant) when it is trivial. (B) Half lives, half dies: h^1(M; chi) >= t(chi), the number of cusps where chi is trivial; an acyclic chi sees every cusp. (C) A cap carrying a Z/3-equivariant line bundle of degree n whose fixed-point weights are the arc weights has n = 0 mod 3 and zero-mode content (n/3) Reg when chi|T_c != 1 (three times one), (n/3) Reg + (1, -1, 0) when trivial ((2, 0, 1) at n = 3); over an acyclic bulk always the first. (D) An arc returning to its cusp forces chi trivial there. (E) 2 counts(arcs) = sum of the rotated cusps' counts: B1394's weights are balanced whenever chi sees every rotated cusp; on k = 3 balanced iff chi sees the rotated cusps. The kill test drafted for this arc (does an acyclic character leave a rotated cusp unbalanced?) is decided by A and B, so it was withdrawn before sealing. Verification census (B1394's 100 members, 213 pairs, 444 rotated-cusp rows; the cusp's character computed from the cusp link, independently of arcs and lift): checks V0-V6 hold with 0 failures; 292 cusp rows balanced, 152 all equal; the 54 non-trivial pairs trivial on a rotated cusp are exactly B1394's 54 unbalanced pairs; no arc returns to its cusp; h^1 >= t everywhere, equality on 144 of 213. Standard tools (Lefschetz with local coefficients, Atiyah-Bott, half lives half dies); no novelty claimed for the mathematics. No physics crossed. 0 of 19.  
 `B1396_the_capped_eisenstein_cusp/FINDINGS.md`
 
-**NEGATIVE — `B1398`** (2197 words, 0 locks)  
-THE FRAME'S VERDICT ON THREE (the owner's goal, 2026-09-28): in the seat's frame -- 7d E6 super-Yang-Mills on m004's class, SL(2)_beta's geometric representation, an abelian Higgs field phi = Y (x) w1 + gamma (x) w2 of any rank -- no completion on the record's menu (the frame's rule: free-cusp ends, flip walls, the lane's sources, Higgs zeros; caps; charge-blind ends and fillings; any combination) gives an anomaly-free chiral spectrum with three generations. (1) Every 10-type weight of the 78 is an SL(2)_beta doublet (40 of 40), and the frame's rule gives doublets 0 (B1372 Lemma A), so the frame's count never contains a 10. (2) The 78's spin-0 non-SM sectors form three (Y, gamma)-direction classes and the anomaly matrix has rank 3: for any odd count function N (any rank) the frame's count is anomaly-free only if zero. (3) Caps give 10s in pairs (two generations per unit gamma-flux). (4) Every combination of frame-rule counts and caps with flux cY + d gamma that is exotic-free and anomaly-free has c = 0, frame-rule counts zero and g = 2d: even, and zero for a bulk flux (B1397 section 7). The escape, located: with 27 matter (F27+78; the E7 frame with the Higgs in the (Y, gamma) plane) the frame's rule has six direction classes (parallels Q(27) || H_u(78), D(27) || L(78)), the anomaly matrix rank 5, and exactly one anomaly-free family, g complete generations with N = (3, 0, -3, 0, 3, -6) at g = 3 on the classes ((1,-4), (1,0), (1,1), (1,6), (3,-2), (3,8)); it takes two absolute values, so no rank-one Higgs gives it. The smallest escape is therefore 27 matter with a rank-two abelian Higgs (within the E6 and E7 frames the other escapes need 27 matter too, plus non-abelian data or independent walls); its test is B1399, sealed. Scope, the same day (E54 instance, self-caught): the escape comparison was E6/E7-scoped; the record's sL-4 is a different-frame escape (E8, commutant SL5, the 248 carrying the 27s; non-split backgrounds whose M6 deck orbit gives an exact three, I = -1 on M2 and -3 on M6), stalled at the same cusp/end law (B1384 S5, own code: every cross-block coupling boundary-active). B1399 stays the smallest change to the seat's frame, not the only escape. Read as one generated structure's verdict in one frame (P022), not a verdict on the architecture. Exact, with the record's vectors; the content taken linearly in rational counts (a truncation bug caught before use). No physics crossed. 0 of 19.  
-`B1398_the_frame_verdict_on_three/FINDINGS.md`
+**NEGATIVE — `B1399`** (3342 words, 1 locks)  
+THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  
+`B1399_the_rank_two_higgs/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

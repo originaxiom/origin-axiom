@@ -15923,3 +15923,31 @@ gone. So the goal's done-conditions hold:
 - B1399 is sealed.
 
 The report went to the owner before any of B1399 runs. 0 of 19.
+
+## 2026-09-29 — B1399 run as sealed: the rank-two Higgs finds nothing, and the reason is parity
+
+The owner read the verdict and the seal, and said to run it.
+- **The run.** The banked identity passed first. Then the census: 109 covers, 102 resolved and 7 unresolved. P1 and P2 came out NONE on
+  the resolved members, as I expected at the seal. What I did not expect was why.
+- **Why.** On 101 of the 102 the count is zero in every direction, and on the last it takes only 0 and ±2. The lattices explain it.
+  - A shell whose vectors span a sublattice of index m gives a cusp term that is a multiple of m, because its functions are invariant
+    under a free ℤ/m of torus translations.
+  - Every resolved cusp leads with a one-direction shell (a band) or with the third shell of a √−3 cusp (index 2). So the count is
+    even everywhere, and three is odd.
+  - I checked the lemma directly on random shell functions with B1387's Morse count, and checked the pipeline's leading shells against
+    lattices built from SnapPy's cusp shapes at every resolved cusp.
+- **Where the count could be odd.** Only at hexagonal cusps, whose first shell spans the whole lattice. The census has eight, on four
+  four-cusped members, and those four are exactly the members whose two seeds disagree on every rung. Read seed by seed after the seal,
+  they reach |C| = 2 at most. They stay unresolved and outside the verdict.
+- **A pointer, not a result.** A hexagonal cusp that leads with its √3 shell (index 3) gives 0 or ±3 by itself. cube~3.24's cusp 2 is
+  one. Its covers are too large for this instrument.
+- **Two faults of mine,** both caught on non-census controls before the census ran:
+  - SnapPy picks its presentation at random, so the solved basis changed between builds. It is now seeded, and five fresh re-runs
+    reproduce the census records exactly (E1).
+  - I had coded the seeds' agreement as a final test, when the seal makes it part of each rung's acceptance (E2).
+- **Where it leaves the seat.** The one escape inside the frame's rule finds no support where it could be tested. The next escapes all
+  wait on the cusp/end law (sL-8), with the deck question (sL-5). In the architecture's terms: small covers of m004's class carry the
+  frame's count only at Eisenstein cusps, and odd values only at hexagonal ones.
+
+Lock: `tests/test_b1399_the_rank_two_higgs.py`. B1399 is NEGATIVE and routed into the kill graph. The fast lane runs on this commit
+before the owner's report. 0 of 19.

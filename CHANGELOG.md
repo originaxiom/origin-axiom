@@ -1,5 +1,42 @@
 # Changelog
 
+## B1399 — the rank-two Higgs, run as sealed: no generations on the census, because the count is even; odd counts live at hexagonal cusps, on four unresolved members
+
+- **Run at the owner's word.** The seal is b2985b42; the instrument and banked identity are 6fe28a6b. The banked identity passed first:
+  cube~3.24's C = ±2 and B1387's leading shells, the breakpoint machinery, the linear programs, and B1398's pattern.
+- **The census.** 109 covers of degree 2 and 3 of the class's arithmetic members.
+  - 102 resolved: 84 of cuspidal dimension 2, and 18 of dimension 3 on all 203 sealed planes. 88 resolved on rung 1, 13 on rung 2 and
+    1 on rung 3.
+  - 7 unresolved, listed with the verdict.
+- **P1 NONE and P2 NONE on the resolved,** as the priors said (about 85% and 60%). P3: max |C| = 0 on 101 members, and 2 on one (a
+  degree-3 cover of o10_150708, values 0 and ±2 only, 12 breakpoints). No member realises any g.
+- **Why: parity.** If a Fourier shell's vectors span a sublattice of index m, its functions are invariant under a free ℤ/m of torus
+  translations, so a cusp's term is a multiple of m.
+  - On the resolved set, 204 of 207 cusps lead with a one-direction shell (a band, 0). The other 3 lead with the third shell of a
+    √−3 cusp, which spans index 2. So C is even everywhere, which excludes g = 1 and g = 3; and |C| ≤ 2 excludes g = 2.
+  - Checked directly with B1387's Morse count on random shell functions: index 2 gives 0 and ±2, index 1 gives 0 and ±1, index 3 gives
+    0 and ±3.
+- **Where odd counts live.** The census has 8 hexagonal cusps (first shell of index 1), two each on the four-cusped covers of
+  o10_150704, o10_150725 and o10_150727 (two covers). These are exactly the four members whose seeds disagree on every rung.
+  - Read seed by seed after the seal, outside the verdict: max |C| ≤ 2 and at most 24 breakpoints; g = 3 needs 6 and 36. No g.
+  - The other three unresolved: two ambiguous kills (ratios 0.041 and 0.078, the same on every rung) and one non-terminating walk.
+- **A pointer.** cube~3.24 has three hexagonal cusps. Its cusp 2 leads with its √3 shell (index 3), so that cusp's term is 0 or ±3
+  on its own. Its covers are outside this census by size.
+- **Next, per the sealed NONE branch.** B1372's door-2 residual or independent walls, each with 27 matter. The different-frame escape
+  is sL-4. All wait on sL-8's cusp/end law, with sL-5's deck question.
+- **Verification.**
+  - Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps.
+  - Five members re-run in a fresh process reproduce every recorded field.
+- **Self-caught before the census, on non-census controls.**
+  - SnapPy's random presentation gave different solved bases between builds; it is now seeded (an E1 instance).
+  - The seeds' agreement was coded as a final test instead of part of each rung's acceptance; it is now part of acceptance (an E2
+    instance). No outcome in the census depends on it.
+- **Recorded.** B1399 FINDINGS and verdict (NEGATIVE, routed into the kill graph); the seal ledger's verdict row; T-SHELL-PARITY in
+  the theorem registry; OPEN_LEADS sL-7 and sL-8; THE_SM_VERDICT; the kill-tests synthesis; the README; the letter's sixty-second
+  note.
+
+Lock: `tests/test_b1399_the_rank_two_higgs.py`. No physics crossed. 0 of 19.
+
 ## The fast lane on 61651089, at the baseline
 
 - **The fast lane on 61651089** (B1398 banked, B1399 sealed with its findings document, B1384 S5): 9 failed, 6 344 passed, 52 skipped

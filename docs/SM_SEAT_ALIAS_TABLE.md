@@ -192,3 +192,6 @@ arc B1398.
 *Update 2026-09-28 (B1398, B1399):* B1398 used (the frame's verdict on three: no completion on the menu gives an anomaly-free three in
 the seat's frame; the escape is 27 matter with a rank-two abelian Higgs field) and B1399 used (the rank-two Higgs: sealed, not run);
 next arc B1400.
+
+*Update 2026-09-29 (B1399):* B1399 run as sealed (NONE on the 102 resolved of its 109 covers: no generations, because the count is
+even on every resolved member; the census's hexagonal cusps sit on four members, all unresolved); next arc B1400.

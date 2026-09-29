@@ -823,3 +823,16 @@ left it.
 >   needs a rank-two Higgs field. B1399 tests whether a member of m004's class gives it, sealed and not run.
 >
 > 0 of 19 (`frontier/B1398_the_frame_verdict_on_three`, `frontier/B1399_the_rank_two_higgs`).
+
+> **Currency note (2026-09-29, B1399): the rank-two escape, run as sealed, gives no generations on its census.**
+> - On the 102 resolved members of 109 covers of degree 2 and 3 of the class's arithmetic members, no pair of cuspidal classes gives
+>   any number of generations: P1 and P2 NONE, as the priors said.
+> - The reason is parity. A cusp's term is read from its leading Fourier shell, and a shell whose vectors span a sublattice of index m
+>   gives a multiple of m. On the resolved set every leading shell has one direction (a band, 0) or three spanning index 2, so the
+>   count is even and never 3.
+> - Odd terms need hexagonal cusps. The census has 8, on four members, and those four are unresolved: their two seeds disagree on every
+>   rung. Read seed by seed, none reaches |C| = 3.
+> - So the one escape inside the frame's rule finds no support on the census. The next escapes (door 2's residual, independent walls,
+>   and sL-4 in another frame) all wait on sL-8's cusp/end law.
+>
+> 0 of 19 (`frontier/B1399_the_rank_two_higgs`).

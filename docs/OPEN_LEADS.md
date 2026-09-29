@@ -3214,6 +3214,14 @@ anomaly-free family remains, g generations at N = g(1, 0, −1, 0, 1, −2) on s
 can give it. B1399 asks whether a member of m004's class does, sealed before any harmonic form of its census is computed.
 `frontier/B1398_the_frame_verdict_on_three`, `frontier/B1399_the_rank_two_higgs`.
 
+**Status (2026-09-29, B1399): the rank-two escape finds nothing, and the reason is parity.** On the 102 resolved members of B1399's 109
+covers, no pair of cuspidal classes gives any number of generations. A Fourier shell whose vectors span a sublattice of index m makes
+a cusp's term a multiple of m. On the resolved set every leading shell has one direction or index 2, so the count is even.
+- Odd terms need a hexagonal cusp's first shell (index 1). The census has 8 such cusps, on four members, all unresolved.
+- A hexagonal cusp that leads with its √3 shell (index 3) gives a term of 0 or ±3 by itself. cube~3.24's cusp 2 does.
+- That is a new place a three can appear in the frame's count: a lead for this entry, with the same caveats (the level, sL-5; the
+  count's reading, sL-8). `frontier/B1399_the_rank_two_higgs`.
+
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
 **Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.
@@ -3325,6 +3333,14 @@ This job is not optional, whichever answers the first two questions get. `fronti
   route of sL-4 is a different-frame escape, and it stalls at the same cusp/end law (B1398 §3's scope note; B1384 S5).
 - **Its test, B1399, is sealed.** Two independent cuspidal classes on the degree-2 and degree-3 covers of the class's arithmetic
   members, 109 up to isometry; prior NONE ~85% at g = 3. `frontier/B1398_the_frame_verdict_on_three`,
+  `frontier/B1399_the_rank_two_higgs`.
+
+**Status (2026-09-29, B1399): the escape ran and found nothing; this law is the next gate.**
+- B1399 ran as sealed: NONE at g = 3 and at every g on the 102 resolved of 109 members. The count is even on each of them (a leading
+  shell of one direction or of index 2), and the census's hexagonal cusps are on four unresolved members.
+- The sealed NONE branch names the next escapes: B1372's door-2 residual, or independent walls, each with 27 matter. The different-frame
+  escape is sL-4 (E₈, SL₅). All of them, and any count found on hexagonal cusps or cube~3.24's covers, wait on this entry's law: which
+  count, and which completion, one action gives. With sL-5's deck question it is this seat's next gate.
   `frontier/B1399_the_rank_two_higgs`.
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the

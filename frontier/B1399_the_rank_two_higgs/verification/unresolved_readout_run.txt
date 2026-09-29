@@ -1,0 +1,12 @@
+-cibvvLLLLvMvQvQwMvQvMAAvM (parent o10_150693, 2 cusps): no rung passes acceptance with both seeds | per seed and reading (maxC, TV, g): []
+EvvLAMMvQLwMMAvALQwQQgffij (parent o10_150723, 2 cusps): shell 0 at ratio 4.10e-02: ambiguous kill | per seed and reading (maxC, TV, g): [(0, 0, []), (None, None, None), (0, 0, []), (None, None, None), (0, 0, []), (None, None, None), (0, 0, []), (None, None, None), (0, 0, []), (None, None, None), (0, 0, []), (None, None, None)]
+EvvLLLwvLwAQPvwPQQQQQgjkgn (parent o10_150725, 4 cusps): no rung passes acceptance with both seeds | per seed and reading (maxC, TV, g): [(2, 24, []), (2, 24, []), (2, 24, []), (2, 24, []), (2, 24, []), (2, 24, [])]
+EvvLLPvLzzQwPvwPQQQQQhfifn (parent o10_150727, 4 cusps): no rung passes acceptance with both seeds | per seed and reading (maxC, TV, g): [(2, 12, []), (2, 20, []), (1, 8, []), (2, 8, []), (1, 4, []), (1, 4, [])]
+EvvLLPvLzzQwPzQPwPQQQhfifn (parent o10_150710, 2 cusps): shell 2 at ratio 7.80e-02: ambiguous kill | per seed and reading (maxC, TV, g): [(2, 24, []), (0, 0, []), (2, 24, []), (0, 0, []), (2, 24, []), (0, 0, []), (2, 24, []), (0, 0, []), (2, 24, []), (0, 0, []), (2, 24, []), (0, 0, [])]
+EvvLLvvvLAMAPQQAvQQQQfgpvs (parent o10_150727, 4 cusps): no rung passes acceptance with both seeds | per seed and reading (maxC, TV, g): [(2, 24, []), (2, 24, []), (2, 16, []), (2, 24, []), (2, 24, []), (2, 24, [])]
+KvvLLzvLPPQzzQwLQvPAPMPQQh (parent o10_150704, 4 cusps): no rung passes acceptance with both seeds | per seed and reading (maxC, TV, g): [(2, 24, []), (2, 24, []), (2, 20, []), (2, 16, []), (2, 24, []), (2, 24, [])]
+DONE
+
+real	2m32.434s
+user	5m24.223s
+sys	0m7.312s

@@ -91,3 +91,9 @@ free cusps.*
 *(Currency 2026-09-28, B1394 and B1396.) A further sealed kill test (B1394's P3) fired: 54 non-acyclic pairs in m004's class give a
 source three that is not regular, against a prior of NONE. B1396 proves the mechanism: they are exactly the characters that do not see
 the rotated cusps. Over a clean bulk every symmetric three, sourced or capped, is three times one.*
+
+*(Currency 2026-09-29, B1398 and B1399.) B1398 closed the seat's frame: no completion on the menu gives an anomaly-free three, and
+with 27 matter only a rank-two Higgs field could. B1399, that escape's sealed kill test, found NONE on the 102 resolved of its 109
+covers, for a structural reason: a leading shell whose vectors span a sublattice of index m gives a cusp term in multiples of m, and
+every resolved leading shell has one direction or index 2, so the count is even. Odd terms need hexagonal cusps; the census's eight
+sit on four unresolved members. The next escapes wait on sL-8.*

@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-09-28 from 1244 frontier probes.
+> Last generated: 2026-09-29 from 1244 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -71,8 +71,8 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | measure | 117 | eisenstein | eisenstein(62), golden(61), firewall(57), measurement(50) |
 | units_scale | 115 | firewall | firewall(77), golden(67), eisenstein(62), metallic(54) |
 | gauge_dict | 72 | eisenstein | eisenstein(47), golden(37), amphichiral_cp(37), figure_eight(37) |
-| particle_dict | 124 | eisenstein | eisenstein(93), z3_generation(90), golden(80), firewall(63) |
-| spacetime_3p1 | 153 | eisenstein | eisenstein(95), golden(88), figure_eight(84), trace_map(76) |
+| particle_dict | 123 | eisenstein | eisenstein(92), z3_generation(89), golden(79), firewall(63) |
+| spacetime_3p1 | 154 | eisenstein | eisenstein(96), golden(89), figure_eight(85), trace_map(76) |
 | observable | 45 | golden | golden(33), coupling(25), measurement(22), metallic(20) |
 | numerology | 26 | eisenstein | eisenstein(19), golden(18), firewall(16), metallic(15) |
 | bridge_construction | 10 | golden | golden(8), firewall(7), eisenstein(6), coupling(5) |
@@ -125,7 +125,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | selector | 21/33 |
 | gauge_dict | 72/113 |
 | numerology | 26/40 |
-| spacetime_3p1 | 153/230 |
+| spacetime_3p1 | 154/231 |
 | units_scale | 115/170 |
 
 ---

@@ -360,6 +360,11 @@ emitted value. The structure is the object's; the values are the observer's.
 > needs, and everything added to it gives an even number. One way out remains inside the frame's rule: extra matter in the 27, and a
 > Higgs field built from two independent harmonic forms rather than one. Whether any member of the class supports it is a sealed test,
 > not yet run.*
+>
+> *And (B1399), that test, run. On the covers searched, the two-form Higgs field gives no families at all. The reason is parity: the
+> count at a cusp is read from the first pattern of waves that survives there, and on every member the search could settle, that
+> pattern gives an even number, never three. Odd numbers need the most symmetric (hexagonal) cusps, and the few members that have them
+> are exactly the ones the numerics could not settle.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

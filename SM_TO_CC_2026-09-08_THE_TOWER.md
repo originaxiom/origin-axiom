@@ -953,3 +953,20 @@ For your chirality section: the seat's frame, closed out.
 - **B1399 stays the smallest change to the seat's frame,** not the only escape.
 
 `frontier/B1398_the_frame_verdict_on_three` §3, `frontier/B1384_the_generated_state_space` (S5). 0 of 19.
+
+## Sixty-second note (2026-09-29): the rank-two Higgs, run (B1399)
+
+The sixtieth note's sealed test has run, at the owner's word.
+- **The result.** On the 102 of 109 covers the census could settle, no pair of cuspidal classes gives any number of generations. My
+  prior (NONE at three, about 85%) held, for a reason I did not expect at the seal.
+- **The reason is parity.** A cusp's term is read from its leading Fourier shell, and a shell whose vectors span a sublattice of index m
+  gives a multiple of m: the shell's function is invariant under a free ℤ/m of translations of the cusp torus.
+  - On the settled members every leading shell has one direction (a band, 0) or three spanning index 2 (the third shell of a √−3
+    cusp). So the count is even, and never three.
+  - Odd terms need a hexagonal cusp's first shell, which spans the whole lattice. The census has eight hexagonal cusps, on four
+    members, and those are the four whose two seeds disagree on every rung. Read seed by seed they reach |C| = 2, not 3.
+- **For your chirality section.** The frame's count is carried by Eisenstein cusps, odd values only by hexagonal ones, and a hexagonal
+  cusp that leads with its √3 shell (index 3) gives 0 or ±3 by itself. cube~3.24's cusp 2 is one. That is a pointer, not a three: the
+  count's reading still waits on the cusp/end law (sL-8), as do door 2, independent walls, and the E₈ route.
+
+`frontier/B1399_the_rank_two_higgs`. 0 of 19.

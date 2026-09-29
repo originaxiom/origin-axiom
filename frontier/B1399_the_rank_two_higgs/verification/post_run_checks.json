@@ -1,0 +1,10342 @@
+{
+ "members": [
+  {
+   "label": "BvLvwvzLLLMwQPMQQQQdeginksumpotvqywyzswxAxvzAAzoffoqfqqoqoofoofoaffoaooaaaa",
+   "parent": "s959",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9285714285714286,
+      0.37115374447904564
+     ],
+     "reduced": [
+      0.4999999999999985,
+      2.598076211353313
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.9285714285714282,
+      0.3711537444790475
+     ],
+     "reduced": [
+      0.4999999999999966,
+      2.5980762113532996
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "BvLQvvLvwMAQLQAQLPQcefdhjpmlqtnrpusurvtxwzyAAzAnvqcvcxnvcqckcacavqqkvhxxvcn",
+   "parent": "v2873",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.6666666666666643,
+      0.5773502691896218
+     ],
+     "reduced": [
+      -0.24999999999998967,
+      1.2990381056766578
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "yLvLwAvLwMMPPAMQQaeeghpjkrqnnosutvstvuxwxxnxknknnvaanncqaaavvkcqavn",
+   "parent": "t12833",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -0.2857142857142879,
+      1.97948663722159
+     ],
+     "reduced": [
+      -0.2857142857142879,
+      1.97948663722159
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-2/7 + 8/7*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.104417,
+      2.360387,
+      2.618615,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "yvLvLzvQwPALQPMQQeglhjniqplmpurvsswsxuvxwxcmiwcaftmggrcfccfegtsgdac",
+   "parent": "t12833",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.1612903225806447,
+      0.4469808535661625
+     ],
+     "reduced": [
+      0.28571428571428903,
+      1.9794866372215731
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "2/7 + 8/7*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.104417,
+      2.360387,
+      2.618615,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "yLvLvQzAvvQLMMQQQaefhhiljqspupsruwxxstxwvwnxwgkalieaiffrofpperkppke",
+   "parent": "t12835",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -1.1428571428572056,
+      5.93845991166484
+     ],
+     "reduced": [
+      -0.14285714285720563,
+      5.93845991166484
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/7 + 24/7*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.940178
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "yvLvvvLLAMQwPQQQQclnposjqrpupwrtuvxtvxvwwxnnnakakmumalpalddannbongb",
+   "parent": "t12835",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0040485829959498,
+      0.1682964347435351
+     ],
+     "reduced": [
+      -0.14285714285708473,
+      5.938459911664708
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/7 + 24/7*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.940178
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "2vLLwLALwzvwAAPvzvzvLwQzQPQLzQPQAMQQQdfehgimjlporvqysuxOAHCPFEGQSGTIPWKLYMNZOPURZVU001WXY110oqfffoafooffqoqffoqfaoaoooqqoqofqffqffqffooaaoqqoffffff",
+   "parent": "t12843",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.25,
+      0.43301270189221946
+     ],
+     "reduced": [
+      3.3306690738754696e-16,
+      1.732050807568877
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      3.2566542055671364e-15,
+      1.732050807568868
+     ],
+     "reduced": [
+      3.2566542055671364e-15,
+      1.732050807568868
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "2vLvwvzLLLvwMzzwALwzQLzALwQwQPQQQPQQQdegiqkmxouqtsyvDxAIzMOCETFRHUJVKYX0NMR0OSWQSTUW1VZX0Z11offoqfoaooooffoqofqfqoffqffoaoqoqaqfffafaqoaqaooooofooo",
+   "parent": "t12843",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.14285714285714338,
+      0.7423074889580906
+     ],
+     "reduced": [
+      -0.2500000000000006,
+      1.299038105676657
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0645161290322582,
+      0.16761782008730972
+     ],
+     "reduced": [
+      -2.4424906541753444e-14,
+      5.196152422706652
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cibvvLLLvvMALLzMwvPMLQvwPQQvAzMMzvPQwALvQQzPQALQPQQfagajapaoarataqaravasaAazaCaFaDaDaIaJaFaGaMaNaPaCaHaCaQaHaOaRaSaVaRaWaXaTaUa3a1aVa3aVa1a5a6a5a+a-a7aab8a-a9a7adbcb9a9acbdbfbgbfbebebgbhbhbgbebhbfbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "parent": "o10_150684",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9999999999999999,
+      0.38490017945975
+     ],
+     "reduced": [
+      7.494005416219825e-16,
+      2.598076211353319
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      5.073300194416808e-16,
+      0.09622504486493759
+     ],
+     "reduced": [
+      -5.4791642099701574e-14,
+      10.392304845413268
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cibvvLLvvLLvzwMPzAvvvMMLMQALMPQvwzzQQvPQQAQMwzQPQQQhahaqapatasarawauaCayaEaCaHaQaGaLaJaLaPaHaMaKaMaIaMaLaSaXaTaZaYaUa0a3a4a8a4a7a1a5a2a6aabab5aab-a2a0a8a3a4abb6a9abb9afbdbgbdbebgbhbdbgbfbebhbhbfbebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "parent": "o10_150684",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9999999999999991,
+      0.8660254037844395
+     ],
+     "reduced": [
+      1.1842378929334979e-15,
+      1.1547005383792504
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2/3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      1,
+      3,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      1.154701,
+      1.527525,
+      2.0,
+      2.309401,
+      2.516611
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      0,
+      4,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0769230769230786,
+      0.2664693550105964
+     ],
+     "reduced": [
+      -1.9761969838327786e-14,
+      3.464101615137744
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cibvvLLLvvMvLLPAwvvQALPQLwQQwvzzwMPPQzLMvAQAMQQQMPQfagajapaoaqaratawasaxaBaKaFaGaKaDaEaGaNaNaGaHaPaQaJaPaKaFaEaNaFaXaYaTa2aVa4aWaYaWa6aZa0aWa9a8a8acbabcb8a+a-adbeb+a9afbbb-afbcbabebdbbbgbhbhbhbgbgbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "parent": "o10_150684",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9999999999999999,
+      0.38490017945975114
+     ],
+     "reduced": [
+      7.494005416219782e-16,
+      2.5980762113533116
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      3.7829821579820095e-16,
+      0.09622504486493741
+     ],
+     "reduced": [
+      -4.085620730620589e-14,
+      10.392304845413287
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cibvvLLLvvMvLLLAwvvPPAwMwzPMzAvzLzMAAQPQLQQQQALPQQQfagajapaoaqarawasaxaBaGaHaLaEaJaIaFaOaHaIaTaKaUaLaQaMaRaXa2a0a7a4a6a5a9a2a3a6a7a-a5a5a6aab1a-adb1a0a8abbdbcb9a0a7a8abb8a+aebfbebgbhbfbhbgbhbebgbfbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "parent": "o10_150684",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0,
+      0.3849001794597505
+     ],
+     "reduced": [
+      0.0,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      -4.769847068759917e-16,
+      0.09622504486493738
+     ],
+     "reduced": [
+      5.151434834260737e-14,
+      10.39230484541329
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "ELLvvvvwLQQAwLQQAPwQQcequuntotspsvzzyyxxywvvABCDDDCCiiipqapaaqaiipqpaqittuuaaaaidui",
+   "parent": "o10_150685",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.8571428571428554,
+      0.7423074889580898
+     ],
+     "reduced": [
+      0.25000000000000305,
+      1.2990381056766576
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.6666666666666661,
+      0.5773502691896261
+     ],
+     "reduced": [
+      -0.2499999999999999,
+      1.2990381056766565
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      -6.000000000000003,
+      10.392304845413278
+     ],
+     "reduced": [
+      -2.6645352591003757e-15,
+      10.392304845413278
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KLLLLAwPPvwwvwPPMvwAQQMQQceegihglkklpowxywvBuDGGAHHIIGDFFJFJJIlqulgvrairgarlaurnlruulvlmiurfvntvlts",
+   "parent": "o10_150687",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9714285714285713,
+      0.14846149779161985
+     ],
+     "reduced": [
+      0.2499999999999758,
+      6.495190528383215
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 15/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.018348623853211017,
+      0.19068449257639022
+     ],
+     "reduced": [
+      -0.49999999999999983,
+      5.19615242270663
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.220153
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      -0.14285714285714315,
+      0.7423074889580901
+     ],
+     "reduced": [
+      0.2500000000000006,
+      1.299038105676658
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "uLLPLvAAPPMvPQcceefejijimnmnopttsstsqlptqpaxtaaamtulqalxu",
+   "parent": "o10_150688",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560438,
+      0.09516762678949384
+     ],
+     "reduced": [
+      -3.312905505481467e-13,
+      8.660254037844688
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "ELLPLvAAPPMvzMwAQzvQQceefejijimnmnoptstswxxwyzDCDCCDqlptqpaxtaaamtulaxuueuuumhauumq",
+   "parent": "o10_150688",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0293040293040292,
+      0.06344508452633385
+     ],
+     "reduced": [
+      2.2470914018413168e-13,
+      12.990381056766417
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "ELLPLvAAvPwPAALvPQwQQceefejijiopqsrtrsuxBzAyBADCDCDCqlptqpaxtamtiauxdutlqalxupaxttq",
+   "parent": "o10_150688",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0506329113924053,
+      0.21924693766694675
+     ],
+     "reduced": [
+      -2.4424906541753444e-15,
+      4.330127018922186
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.330127,
+      4.444097
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.043956043956045,
+      0.0951676267894993
+     ],
+     "reduced": [
+      -1.865174681370263e-14,
+      8.660254037844288
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cSbvLvvvLzwwvwwzzwALzLwvLMwvMvPvwPLwLLzMzzvLQAAQwQQzQMAPLzAwMAQAQAQQQAQQQQQdajanapatavaAaraEaCaIazaMaBaFaDaQaXaVaRa3aQaJa8a9aWaLaYaWa+abbSa5akbTaVapbdbubwbdbcb1awbpbxbgbib6ayb-afbpbnbAbhbybxb-aibDbsbebkbfblbwbvbAbCbIbrbEbobHbObybvbHbPbMbtbPbQbFbGbDbNbFbxbBbKbQbEbKbObRbJbQbLbHbJbObJbLbNbRbNbRboffaaaaaaaaoaoooaaaaaaqaafofffafoafoqqaaqqoaaaqqfafaqaaaqaoqaaaoooffooaoofaaffqqafqafaoqfofqqoaaaaaafooffooff",
+   "parent": "o10_150689",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.6666666666666669,
+      0.5773502691896257
+     ],
+     "reduced": [
+      -0.2500000000000001,
+      1.2990381056766582
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.994535519125684,
+      0.08518282660174774
+     ],
+     "reduced": [
+      -0.25000000000012945,
+      11.691342951089984
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/4 + 27/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cSbvLLvvLLwLvLzQPAMvQPMwMzPLvPLwvQvvPLvLwLvLLzwwPAwQvLMLAQQAAPQPLQPMQQQQQQQdaeaianamalauazataCavauaqayawataxaGayaAaDayaEaKaAaLaMaEaOaQaIaKaPaYaMaQa0aYaVa9a-abbYa2albobkbib7albpbqbxbvbzbfbnbEbhbjbibDbibHbEbsbtbCbFbCbGbmbKbMbubJbwbxbJbHbybObMbwbQbBbGbRbNbJbybObIbQbIbEbBbIbFbQbFbHbRbPbNbPbMbPbRboooaooaafaoffooooafoqfqafaofqaooqqofoffaaaffaaaoffooaaaooqfooaoaqaqaaaaoaaqqaaqqaaqfafoaofoofqffofoqooafofofa",
+   "parent": "o10_150689",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0054644808743183,
+      0.08518282660174904
+     ],
+     "reduced": [
+      0.24999999999983513,
+      11.691342951089764
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 27/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.33333333333333326,
+      0.5773502691896254
+     ],
+     "reduced": [
+      0.24999999999999933,
+      1.2990381056766587
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cSbvLvvvLzwwvwwzzwALzvvvLMwvwvzzLvALwvwQvwPAPwwQQPPQQwPQQPPLQMMvQQQQQQQQQQQdajanapatavaAaraEaCaIazaMaBaQaZaXaTa5a7aabcbYaRa0abbdbgb5aUaSatbrb-aVaXa9aqbibybjbBbDbjbhb3aDbybEbnbpbsb+aFbeb8aCbmbHbrbsbobFbEblbebpbKbwbzbrbnbobMbNbGbIbMbzbRbsbPbCbvbybNbPbGbCbPbBbBbLbJbLbMbAbIbKbNbRbHbJbRbQbObQbObQboffaaaaaaaaoaoaaaaaaaafffffaffoaaffooaqqqaaqqoaaaqqafafoqaaaaaqaqoqaqaooooaofooaoafffaaofaffofoofofqqffaaqqaf",
+   "parent": "o10_150689",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.8571428571428563,
+      0.7423074889580904
+     ],
+     "reduced": [
+      0.2500000000000013,
+      1.2990381056766571
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      -1.7500000000000904,
+      11.69134295108995
+     ],
+     "reduced": [
+      0.24999999999990963,
+      11.69134295108995
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 27/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cSbvLvvvvAwwwwwvzwQzwzPLwLzLLLwwzLwQzzzzzPLQzwPzzAQPAAzQQzQvMQMMPMzQMQQQQQQdajarapatamavaqaDaBaIayauaxaAaKaHaFaRaPaKaXaGaZa3aQaRaOa7aab8aWa7aabcbdb2aVafblbfbdbebjb9a0aibtbjbabsbbbrbybrbhbrbcbpbqbnbebqbybxbebhbDbjbFbxbkbmbGbCbJbCbEbEbBbzbxbNbKbAbwbObLbIbMbBbPbKbRbGbFbQbHbObPbRbRbLbLbObNbQbNbQbofaaafaqaaaoffoqooaaqafaaqaffaafoqaaffqaqaaqqoaaqaaaqaqqaoffoffofooafaofoaaaaaaafoqaffqaaqaqffffffffffffoofoo",
+   "parent": "o10_150689",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.7761194029850712,
+      0.6979906239456665
+     ],
+     "reduced": [
+      0.4166666666666724,
+      1.299038105676655
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "5/12 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.364225,
+      1.424001,
+      1.922094,
+      2.0,
+      2.048034
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      3.0000000000000036,
+      5.196152422706632
+     ],
+     "reduced": [
+      3.552713678800501e-15,
+      5.196152422706632
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cibvvLLLvvMvLLvQwvvLQvwMALLQPvvzwzPzLQQQQQPQQQQQMPQfagajapaoaqarasaCawaBaMaGaLaEaFaQaSaHaIaVaKaWaLaQaMaZa4a6a9a+a4abb2abb8abbcb4a5adbcb9a6a+a9aabcb8a6a7a7aeb2aeb-aabfb7a3a2afb3a5a-a5adbgbhbgbhbhbgbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "parent": "o10_150690",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.33333333333333254,
+      0.5773502691896256
+     ],
+     "reduced": [
+      0.25000000000000056,
+      1.2990381056766598
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0000000000000053,
+      5.196152422706623
+     ],
+     "reduced": [
+      5.329070518200751e-15,
+      5.196152422706623
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      -0.7499999999999996,
+      1.2990381056766565
+     ],
+     "reduced": [
+      0.25000000000000044,
+      1.2990381056766565
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      -2.353672812205335e-14,
+      5.196152422706658
+     ],
+     "reduced": [
+      -2.353672812205335e-14,
+      5.196152422706658
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cydvLLvAvzvMvQLMPLQMzAvQvMPLzzPLvvvLAvwLwLMLAAMzzMMMvMvAAMQMAvAwLAMAvvAMzQMMzzQwzzAQLvwAwQzLvzwLMvQwMwPLMPAMAPLwLQwPzzvLzAAQvPvPPQLvPQQQQMzAAQQQQQQdagajaiahalaqanawanarasauasawaAatavauaBaxaEaDaFaBaKaEaHaNaGaPaIaKaQaNaPaOa7a8aUa-adbYahbcb1a5albfbnb4a6a6apb9abbpbsbbbabobebjbkbCbjbibmbEblbnbFbybzbwbvbsbIbMbLbKbwbJbRbzbJbDbUbZbFbTb2b1b0bTbKbRbPbObYbXbPbWbVb4b2bWb+bXbZb8b1bhcbc6bacdcgc9bpcocmcmcocecycpchckcjcHcHcscucvczcJcJcLcscOcDczcwcycNcRcTcCcBcCcQcHcFcGcPc0c2cLcVcUcPc6cRcWcYc1cUcXcedcdid4ckddd8c4c5c7cndjdidadmdbdjdlddd-cpdmdrdmdjdidpdudqdtdodhdudsdxdldwdodvdtdpdwdxdsdvdxdvdwdoqqaffqqfoffoffqoffafqffoaoqqfqooooffqaoaaoaqoqaaqoaofoooqofooofaoffqfoqqqaaoaqqqoaqoaoaaoqqaaaofffoooooaooaooaoqoffffoqqqaqfqqffoaqqffffofoaooofqaafofaoooaaaoffooooofooqaaoqqooooqaaaaaaafofofooofqfaooqoaoqfqqoqqoqqof",
+   "parent": "o10_150691",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9761904761904759,
+      0.12371791482634867
+     ],
+     "reduced": [
+      -0.49999999999999223,
+      7.794228634059925
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      -4.440892098500621e-15,
+      3.4641016151377575
+     ],
+     "reduced": [
+      -4.440892098500621e-15,
+      3.4641016151377575
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.7500000000000001,
+      0.4330127018922195
+     ],
+     "reduced": [
+      -7.771561172376096e-16,
+      1.7320508075688774
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLwvPLQMQQwAwQwQQgfgopopuqvqswtqstrxyzBAABCDCDCDmlpamlhaatmhtpplpaammpaamauathe",
+   "parent": "o10_150691",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0479452054794511,
+      0.10677025526109786
+     ],
+     "reduced": [
+      -0.49999999999980904,
+      7.794228634059868
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0645161290322573,
+      0.16761782008730944
+     ],
+     "reduced": [
+      -9.325873406851315e-15,
+      5.1961524227066755
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLLvvLQQAzQwvQQQAQhgiospsqorpovttuwyABzzCBCAByDDDlliaaiiulapphalxaiqxatlmautuhdp",
+   "parent": "o10_150691",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.6666666666666663,
+      0.5773502691896265
+     ],
+     "reduced": [
+      -0.2500000000000011,
+      1.2990381056766565
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.4230769230769229,
+      0.5995560487738412
+     ],
+     "reduced": [
+      0.21428571428571264,
+      1.1134612334371363
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "3/14 + 9/14*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.133893,
+      1.36277,
+      1.647509,
+      2.0,
+      2.104417
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "ELLPLvAAvPwPAAvzPQwQQceefejijiopqsrtrtuxBBAABACDCDCDqlptqpaxtamtiaupaulluahxuamhdlh",
+   "parent": "o10_150691",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0645161290322585,
+      0.167617820087309
+     ],
+     "reduced": [
+      -4.440892098500626e-14,
+      5.196152422706663
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0479452054794522,
+      0.10677025526109457
+     ],
+     "reduced": [
+      0.4999999999999578,
+      7.794228634059968
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "ELLPLvAAvPwPAAvzPQwQQceefejijiopqsrtrtuxBBAABACDCDCDuhuttpaxtamtiaupaullqalxuamualh",
+   "parent": "o10_150692",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0552763819095485,
+      0.1305565935353392
+     ],
+     "reduced": [
+      0.2499999999998539,
+      6.495190528383377
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 15/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.055276381909547,
+      0.13055659353534002
+     ],
+     "reduced": [
+      0.24999999999993738,
+      6.495190528383404
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 15/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLwvPLMLQQwvQQQQQgfgopopqqsytqstrDCBDBDCzABzCAzAmlpamlhamhtpplpamammehaleeaaalh",
+   "parent": "o10_150692",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.055276381909548,
+      0.1305565935353426
+     ],
+     "reduced": [
+      0.24999999999999156,
+      6.495190528383274
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 15/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0552763819095476,
+      0.13055659353534066
+     ],
+     "reduced": [
+      0.24999999999993738,
+      6.495190528383357
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 15/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLLvvLQQAPMwvQQQAQhgiospsqorpovutuwyCAzBCBAyzCDDDlliaaiiulapphuaxaiaqahlmpmueuai",
+   "parent": "o10_150692",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.7499999999999978,
+      0.7216878364870332
+     ],
+     "reduced": [
+      0.42857142857143055,
+      1.2371791482634802
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "3/7 + 5/7*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.309307,
+      1.36277,
+      1.889822,
+      2.0,
+      2.478479
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.4285714285714238,
+      1.2371791482634817
+     ],
+     "reduced": [
+      0.4285714285714238,
+      1.2371791482634817
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "3/7 + 5/7*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.309307,
+      1.36277,
+      1.889822,
+      2.0,
+      2.478479
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cibvvLLLLvMvQvQwMvQvMAAvMMvAQQMMwLPPPzvwwQQvPAMzQQQfagajakakaoalapaqaraxavawasavaDaCazaAaHaCaHaDaJaBaHaCaPaMaPaPaQaOaRaQaNaMaNaOaOaRaWaZaYaXaXaYaZaWa4a6a5a9a8a7a-a+abbabdbcbabcbbbdbfbhbebgbfbgbhbhbaaaooaoaaaaaaooaaaaaaaaaoooaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaoooooooo",
+   "parent": "o10_150693",
+   "degree": 3,
+   "status": "unresolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0000000000000002,
+      0.3849001794597505
+     ],
+     "reduced": [
+      -1.4988010832439613e-15,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      3.4540271877227157e-16,
+      0.09622504486493769
+     ],
+     "reduced": [
+      -3.730349362740528e-14,
+      10.392304845413257
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "reason": "no rung passes acceptance with both seeds"
+  },
+  {
+   "label": "-cibvvLLLLvMvQvQwMvQvMAAvMMvwMzLLAzzLPALQAPQzPQMQQMQfagajakakaoalapaqaraxavawasavaDaCazaAaHaCaHaDaJaBaHaCaPaMaTaOaVaXa0aRaUa2a4a6aZa9aUaVa3a-a+a5a-a1abb7a1a8a9acb+a5a+aebebcb8agbcbabdbdbfbgbhbhbgbhbaaaooaoaaaaaaooaaaaaaaaaoooaaaaaaaaoaaaoaooaaaaaoaaoaaaoooaaooaooooaaaooo",
+   "parent": "o10_150693",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9999999999999994,
+      0.3849001794597509
+     ],
+     "reduced": [
+      3.7470027081098954e-15,
+      2.5980762113533133
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      7.894919286223468e-16,
+      0.09622504486493838
+     ],
+     "reduced": [
+      -8.526512829121212e-14,
+      10.392304845413182
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KvLvvzvzAQvvMPwLAMMPQQQQQdjqnmnomyApAxDzEDBGvDGJCIJHCJEAIFHFIHoaafffafaaofoaoaafaoaaaqaaaqaqoaaofoo",
+   "parent": "o10_150702",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0769230769230758,
+      0.26646935501059693
+     ],
+     "reduced": [
+      1.5765166949677223e-14,
+      3.464101615137758
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0,
+      0.2886751345948118
+     ],
+     "reduced": [
+      0.0,
+      3.4641016151377673
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      -7.99360577730112e-15,
+      3.46410161513775
+     ],
+     "reduced": [
+      -7.99360577730112e-15,
+      3.46410161513775
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KvvLLzvLPPQzzQwLQvPAPMPQQhhhpoqtrsqouqovxwBAyzFECDHGGHIJJIIGJHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "parent": "o10_150704",
+   "degree": 3,
+   "status": "unresolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.4999999999999995,
+      0.8660254037844375
+     ],
+     "reduced": [
+      0.4999999999999995,
+      0.8660254037844375
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.5000000000000004,
+      0.8660254037844384
+     ],
+     "reduced": [
+      -0.49999999999999956,
+      0.8660254037844384
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      -0.49999999999998646,
+      2.5980762113532996
+     ],
+     "reduced": [
+      -0.49999999999998646,
+      2.5980762113532996
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      -0.49999999999999356,
+      2.598076211353303
+     ],
+     "reduced": [
+      -0.49999999999999356,
+      2.598076211353303
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [
+    0,
+    1
+   ],
+   "first_shell_3plus": [
+    0,
+    1
+   ],
+   "reason": "no rung passes acceptance with both seeds"
+  },
+  {
+   "label": "-cibvvvLvLPvzvPvPwAvvAAQwPzzAzzzzMwMMAzQQwLQQQQAAQQQjakaoakaqapaoaxaBataEazaHaFaCaJaCaNaDazaEaDaSaRaSaWaRaWaRa2aYaYaVaZaXaUaXa2a1aZaabWa0a0a0aVaUacbfbdbdb+aebbb5aeb-a+a6a9a7afb9afb+abbgbcbebhbhbgbhbavvvavvaaaavavvavavvvvaaaaaavavvvvvvvavvavvvvvvaaavvvvvvvvvvvvvvvvavvaaav",
+   "parent": "o10_150706",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0,
+      0.28867513459481325
+     ],
+     "reduced": [
+      0.0,
+      3.46410161513775
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0769230769230758,
+      0.2664693550105948
+     ],
+     "reduced": [
+      9.992007221626409e-16,
+      3.4641016151377815
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cibvvLvLvvLwPwwwAzvLLLPMvMMzzzMPwLzAQvAPQQQQAPQQQQQhajarapauawasaraBazavaDaHaKaPaNaNaQaIaSaQaNaHaLaWaUaRaWaLaPa2a6aSa-a1a7a6aTa1a0adb7aebdb5a4acbab0a8abbcb6abb+acb+a-a8adbfb-abbhbgbhbgbebfbababhbgbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaoaoaaoooaaaaooaaoaaaaaaaaaaaaaaaaoooooooo",
+   "parent": "o10_150706",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0000000000000007,
+      0.2886751345948135
+     ],
+     "reduced": [
+      -7.993605777301094e-15,
+      3.4641016151377473
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0769230769230789,
+      0.2664693550105996
+     ],
+     "reduced": [
+      0.0,
+      3.464101615137707
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "uvvLvLwvQQAQQQcgfgmopklopqqtnqsrrsttmlpwamfflhamtcplaccwf",
+   "parent": "o10_150707",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.043956043956046,
+      0.09516762678950097
+     ],
+     "reduced": [
+      3.1530333899354446e-14,
+      8.660254037844114
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLvvzLwvAMwQAQwQQQQdgnopkvruquxwtsAryvyzDCyzBDABCDjxjaxjxxqaahhjjosjossxxfoxashjj",
+   "parent": "o10_150707",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.6756756756756748,
+      0.46812183988348316
+     ],
+     "reduced": [
+      -7.105427357601002e-15,
+      1.4433756729740588
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5/6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      1,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.443376,
+      1.755942,
+      2.0,
+      2.466441,
+      2.886751
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      0,
+      4,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLAAPwwMMLPAwLwAPPQddgghfjjkjononrsrtsuxyxyCBBDCDDsktuqpuamultpuaamaelamlhtquptcc",
+   "parent": "o10_150708",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0479452054794531,
+      0.10677025526109579
+     ],
+     "reduced": [
+      0.4999999999999809,
+      7.794228634059859
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.035714285714287,
+      0.18557687223952052
+     ],
+     "reduced": [
+      -5.262457136723242e-14,
+      5.196152422706673
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLAvvQLPLAvvQPPQQPQddgglmnoqoonmwxyzAzAwBCwBCADzDDsktuamtamtukjamtaumqsssnwsvubuq",
+   "parent": "o10_150708",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0645161290322582,
+      0.1676178200873121
+     ],
+     "reduced": [
+      2.5091040356528538e-14,
+      5.1961524227065965
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0373134328358216,
+      0.116331770657613
+     ],
+     "reduced": [
+      -0.4999999999999645,
+      7.794228634059822
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLALvQLPAwLQLAzMLQQddggkklmnpnnpptuvttwxyyyCBDCBDDsktubbmtamtuvbamtsneaurjmiuqivv",
+   "parent": "o10_150708",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0645161290322567,
+      0.16761782008731269
+     ],
+     "reduced": [
+      7.327471962526033e-14,
+      5.196152422706615
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0373134328358207,
+      0.11633177065761224
+     ],
+     "reduced": [
+      -0.4999999999999454,
+      7.794228634059898
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvvwvLAvQMMQQwQQQQggpqksrsuosvtyxtAvAwyxwzDCDCBDCmpamgaimigppadafgfsccooguximgpa",
+   "parent": "o10_150708",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0479452054794525,
+      0.10677025526109318
+     ],
+     "reduced": [
+      0.49999999999987077,
+      7.794228634060023
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0000000000000018,
+      0.5773502691896237
+     ],
+     "reduced": [
+      -5.329070518200789e-15,
+      1.7320508075688834
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 2,
+   "leading_3plus": [
+    1
+   ]
+  },
+  {
+   "label": "uvvLvLwvQQAQQQcgfgmoplkopqqtnqsrsrttmlpramrklhamtnplawjgo",
+   "parent": "o10_150709",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560431,
+      0.09516762678949942
+     ],
+     "reduced": [
+      9.414691248821327e-14,
+      8.660254037844405
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLAAPwwMMLPAwLwAzQQddggfhkjkknonorsrtsuyxyxBCDCBDDsktummemtemeididaaapiaqpmalpmnn",
+   "parent": "o10_150710",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -4.000000000000047,
+      7.79422863405997
+     ],
+     "reduced": [
+      -4.707345624410664e-14,
+      7.79422863405997
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.035714285714287,
+      0.18557687223952082
+     ],
+     "reduced": [
+      -4.951594689828198e-14,
+      5.196152422706665
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLALvQLPAwLQLALMPPQddggkklmnpnnpptuvvvwxzzzCBBCDDDsktuggmtamtucwamtrfeaucgamaaurn",
+   "parent": "o10_150710",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.064516129032257,
+      0.16761782008731219
+     ],
+     "reduced": [
+      5.773159728050814e-14,
+      5.196152422706622
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.043010752688172,
+      0.11174521339154077
+     ],
+     "reduced": [
+      1.554312234475219e-14,
+      7.794228634059936
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvvvAvLLQvMQPMPQQQQcgojrpvtsnqrvsuzAtxBAByDADCDzCCwrrrqqqahwaaahbgwrrrbrgxbhhhrhq",
+   "parent": "o10_150710",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.5789838572446668e-15,
+      0.866025403784437
+     ],
+     "reduced": [
+      -2.1053118096595635e-15,
+      1.1547005383792537
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2/3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      1,
+      3,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      1.154701,
+      1.527525,
+      2.0,
+      2.309401,
+      2.516611
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      0,
+      4,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0000000000000009,
+      0.5773502691896251
+     ],
+     "reduced": [
+      -2.664535259100382e-15,
+      1.7320508075688794
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLAvvQLPLAvvQPPQQMQddgglmnoqoonmwxyzAzAyBCyBCzADDDsktuamtamtukjamtaumqrrnfnnjcuue",
+   "parent": "o10_150710",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.064516129032259,
+      0.16761782008731013
+     ],
+     "reduced": [
+      -3.108624468950438e-14,
+      5.196152422706628
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0430107526881716,
+      0.11174521339154339
+     ],
+     "reduced": [
+      1.616484723854228e-13,
+      7.794228634059819
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLPvLzzQwPzQPwPQQQhfifnnnpoutvwxxvwyzACBzyCBDDDCBuipldaliappeafgcgpdalalaiapggnj",
+   "parent": "o10_150710",
+   "degree": 3,
+   "status": "unresolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0430107526881722,
+      0.11174521339154052
+     ],
+     "reduced": [
+      -7.105427357601002e-15,
+      7.7942286340599365
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0000000000000093,
+      1.7320508075688852
+     ],
+     "reduced": [
+      9.325873406851315e-15,
+      1.7320508075688852
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "reason": "shell 2 at ratio 7.80e-02: ambiguous kill"
+  },
+  {
+   "label": "EvvLvvwvLALLQMQQwQQQQggpqkssorusvtyxvAtAwyxwzCDCDBDCmpamwamjllppadawsnnccoowlhlejpa",
+   "parent": "o10_150710",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.043010752688172,
+      0.11174521339153966
+     ],
+     "reduced": [
+      -3.6415315207705135e-14,
+      7.7942286340599924
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.9999999999999994,
+      0.5773502691896257
+     ],
+     "reduced": [
+      1.665334536937735e-15,
+      1.7320508075688774
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": [
+    1
+   ]
+  },
+  {
+   "label": "EvLLLvzAvzLQAPvPQMQQQefgiknmvsorwqurBCxwCAzzyDDAABBDrpprwarhqaqagwkaxpcqxhqpxrgrwgr",
+   "parent": "o10_150712",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.7857142857142781,
+      1.1134612334371357
+     ],
+     "reduced": [
+      -0.21428571428572185,
+      1.1134612334371357
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-3/14 + 9/14*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.133893,
+      1.36277,
+      1.647509,
+      2.0,
+      2.104417
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.33333333333333387,
+      0.5773502691896263
+     ],
+     "reduced": [
+      0.25000000000000033,
+      1.2990381056766565
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "-cydvLvvvLLwLLvLvPzzvLvPMLLvvPPwzwQPwMvzwwLwPwPAMzMQMvPwMwQvvAALwLLvPMPAvvwAMQzwMvLMAMzQAQwLwzQPPMPQMMALzQQLPwvMAvvzPzQMAwPvAzMPQMMLPPLQzQAPQQQQQQQQdagapaianauaoaCaqayasayaIaxaOaUaBaCaLa6a4aGaKa8aKaXaMaab7abb1a0aQaSaTaUa9aYaYarblbwbdbub2a9axb5a+aebzbybdb+aqbqbbbqbAbzbHbibKbhbNbmblbtbUbobXbtbvbHbybAbybIbFb7b9bGbccJbbcIbacfcLbRbicRbQbkcpcdcWb5bYbVbZbccZbscZbtcwc5b3byc3bAcxcachc8bFc+bmcvcfcbcdcFcgcdcHcvcHchcKcqcrclcncocvcIcpcGcLcMcRctcTczcYczcWcEc3c7cQc+cJc+cKcQc-cMc6cScad5chdedYc3ckdedXcldfd0cYc4cjd2cndjd5c6c7c9cqdsdrd-cidgdtdtdwdddmdhdvdgdmdrdldidxdpdldsdpdqdodwdpdudvdtdvdxdxdofaofaoaooooaoaafoaaaoaafofqoqoooofoffoaaaaaofaooqqqaoqooffoqfaoaoooaoaooaofoqfqqoaqaoofooaooaaffofooffqoqaooaoaaoafaoaaoooafoqqqqfffoofofofqqaoaoaoqoaaqafaoaqoffafaqooqqoaqoffaoaaooofaaaoqofoaoofoofffoqoffofoqoooooao",
+   "parent": "o10_150712",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0,
+      0.288675134594812
+     ],
+     "reduced": [
+      0.0,
+      3.4641016151377655
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.9761904761904777,
+      0.12371791482634843
+     ],
+     "reduced": [
+      0.4999999999999094,
+      7.794228634059981
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.8503717077085933e-16,
+      0.5773502691896258
+     ],
+     "reduced": [
+      -5.551115123125778e-16,
+      1.732050807568877
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvAwQwPwvQQQeghgkglklmnopqruvvuxywCAzDBDBCDftmuwwcwsmaefflmtfwlpamwwmitlsj",
+   "parent": "o10_150712",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0479452054794525,
+      0.10677025526109452
+     ],
+     "reduced": [
+      0.49999999999994404,
+      7.794228634059957
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0645161290322593,
+      0.16761782008731033
+     ],
+     "reduced": [
+      -3.730349362740526e-14,
+      5.196152422706614
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvvvAvQvLQLQAwPQQQQeljlsnroputzqstrwyCwzxBDCBCADBDrfrfhwqrqaepaieorflsfsmqxmhqxbb",
+   "parent": "o10_150712",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.4230769230769244,
+      0.5995560487738448
+     ],
+     "reduced": [
+      0.2142857142857182,
+      1.1134612334371314
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "3/14 + 9/14*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.133893,
+      1.36277,
+      1.647509,
+      2.0,
+      2.104417
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.6666666666666661,
+      0.577350269189626
+     ],
+     "reduced": [
+      -0.24999999999999967,
+      1.2990381056766567
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/4 + 3/4*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.322876,
+      1.5,
+      1.802776,
+      2.0,
+      2.179449
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "uvLvAwQALAPLPQceghgkglklmnoqprstststftmuwwcwsmaejbtalaajv",
+   "parent": "o10_150713",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560445,
+      0.09516762678950048
+     ],
+     "reduced": [
+      8.970602038971265e-14,
+      8.660254037844249
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "uvLvAwQALAvAQQceghgkglklmnopqrststtsktmuskgsvmaekklaameks",
+   "parent": "o10_150713",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560445,
+      0.09516762678949797
+     ],
+     "reduced": [
+      -8.43769498715119e-14,
+      8.660254037844398
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvLzQwzQPwQQeghgkglklmnotuvuwvxyxyBzADCDCDCftmuwwcwsmaetalamatdamdiiqqimtq",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560442,
+      0.09516762678950029
+     ],
+     "reduced": [
+      8.970602038971265e-14,
+      8.660254037844275
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0714285714285725,
+      0.20619652471058061
+     ],
+     "reduced": [
+      0.499999999999982,
+      4.330127018922179
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAwwwAwAAvAPAQvQQQghfigmmnmpopovuvuwxwxADCABABCDDmtqepqatdpaxtqduxlelhtaijmnhijj",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0308056872037885,
+      0.06156578699889523
+     ],
+     "reduced": [
+      -0.4999999999993747,
+      12.990381056766891
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvvAQwPLQwQQeghgkglklmnorsvswvxyxyzABDCDCCDktmuskgsvmaelaamaeamlhlmeqqtqut",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560445,
+      0.09516762678949856
+     ],
+     "reduced": [
+      -4.3520742565306136e-14,
+      8.660254037844362
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0714285714285712,
+      0.20619652471058073
+     ],
+     "reduced": [
+      -0.49999999999999467,
+      4.3301270189221945
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvLvPQzQLMQQeghgkglklmnotwxyuvuvuvzABDCDCDCftmuwwcwsmaetamtjjbkjviipksovss",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0308056872037934,
+      0.06156578699888974
+     ],
+     "reduced": [
+      0.49999999999907985,
+      12.990381056766761
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAPLvQwPwLMQQeghglgklkmnopqruvuvwyxzABCDCDCDrtmuvoovwmaebntaubstdabbilhttkf",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0714285714285723,
+      0.20619652471057967
+     ],
+     "reduced": [
+      0.49999999999997335,
+      4.330127018922198
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0714285714285714,
+      0.20619652471058214
+     ],
+     "reduced": [
+      -0.4999999999999798,
+      4.330127018922169
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0263157894736845,
+      0.22790142204853503
+     ],
+     "reduced": [
+      0.499999999999988,
+      4.3301270189222185
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLwvPLMLLQwAQQQQQgfgopopqqwqstrAxzDyDxAxADBCBCBCmlpamlhamlplpakkwmfibsjgilelhtt",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0308056872037925,
+      0.06156578699889506
+     ],
+     "reduced": [
+      -0.4999999999999094,
+      12.990381056766239
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvLvvLAPMAzPvQPQQQQchkojlsqtpruovsxzAyBwDCzAyCBCDDfmfafsqqmxaamjkvvejesqxkqkhxmsk",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.7857142857142869,
+      0.6185895741317408
+     ],
+     "reduced": [
+      0.49999999999999933,
+      1.443375672974068
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.527525,
+      2.0,
+      2.081666,
+      2.886751,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      1,
+      0,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvLvzPvwPvQQLAQQAQQegjloqpnywqvzsuxvutBCvABACCzDDDrurwauurhqaqagwwjfsddjlllhqjxrn",
+   "parent": "o10_150713",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.7857142857142863,
+      0.6185895741317432
+     ],
+     "reduced": [
+      0.4999999999999971,
+      1.4433756729740628
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.527525,
+      2.0,
+      2.081666,
+      2.886751,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      1,
+      0,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "uvLvAwQALAvAQQceghglgklkmnoqprststtsrtmuvoovwmaerrlatihww",
+   "parent": "o10_150714",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560438,
+      0.09516762678949674
+     ],
+     "reduced": [
+      -1.305622276959184e-13,
+      8.660254037844515
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvvMQwPLQwQQeghglgklkmnorsvswvxyxyzABCDDCCDrtmuvoovwmaelatiahamlhaihlhhphh",
+   "parent": "o10_150714",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560436,
+      0.09516762678949972
+     ],
+     "reduced": [
+      8.926193117986259e-14,
+      8.660254037844355
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0263157894736838,
+      0.22790142204853694
+     ],
+     "reduced": [
+      -0.4999999999999913,
+      4.330127018922186
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvvwPQQLAzQQeghglgklkmnorxwyvsutvvzABCDDCDCrtmuvoovwmaeliauwwwfwoihtrjnrrr",
+   "parent": "o10_150714",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.030805687203791,
+      0.06156578699889273
+     ],
+     "reduced": [
+      0.4999999999998943,
+      12.990381056766795
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvAwQwPwAzQQeghglgklkmnoqpruvvuxywAzBCDCDDCrtmuvoovwmaerrliucwlparrmaithww",
+   "parent": "o10_150714",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.07142857142857,
+      0.20619652471058086
+     ],
+     "reduced": [
+      -0.49999999999997446,
+      4.330127018922207
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.071428571428572,
+      0.20619652471057917
+     ],
+     "reduced": [
+      0.49999999999997047,
+      4.330127018922209
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0263157894736845,
+      0.22790142204853617
+     ],
+     "reduced": [
+      0.499999999999993,
+      4.330127018922198
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvvvLLAwLMMzMAQQQQQeijpmrnvroprpBABuyCxvzyDxzDACDCcrcarxchxrhahcgbrkqkvnkejntrxqh",
+   "parent": "o10_150714",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.21428571428571394,
+      0.6185895741317413
+     ],
+     "reduced": [
+      0.4999999999999998,
+      1.443375672974066
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.527525,
+      2.0,
+      2.081666,
+      2.886751,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      1,
+      0,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLLvzAvzLQAPvPQMQQQefgiknmwsovrqurCBxvBAzDzyDAACCDgppwgaghqahawrcxxpnqxhaqpwrggww",
+   "parent": "o10_150714",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.7857142857142826,
+      0.6185895741317419
+     ],
+     "reduced": [
+      -0.4999999999999942,
+      1.44337567297406
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.527525,
+      2.0,
+      2.081666,
+      2.886751,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      1,
+      0,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLwvPLMLwQwAQQQQQgfgopopqqxqstrwyzDAywDwDyBCCBCBmlpamlhamtplpassrmnskmwhslellpa",
+   "parent": "o10_150714",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0308056872037894,
+      0.06156578699889887
+     ],
+     "reduced": [
+      -0.499999999998872,
+      12.99038105676628
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAPLvQwPwLMQQeghgkglklmnoqpruvuvwyxzABCDDCDCftmuwwcwsmaejbtatjgtdajciaapajn",
+   "parent": "o10_150715",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0479452054794518,
+      0.1067702552610947
+     ],
+     "reduced": [
+      0.4999999999999858,
+      7.794228634059985
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0512820512820529,
+      0.17764623667373108
+     ],
+     "reduced": [
+      0.4999999999999618,
+      5.1961524227066045
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.220153
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAwwwAwAAvAPAQvQQQghifgmmnmpopouvuvxwxwADCABABCDDmtllpemthpaxtamlhupuxtaijmnhiss",
+   "parent": "o10_150715",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.051282051282051,
+      0.1776462366737306
+     ],
+     "reduced": [
+      0.49999999999999845,
+      5.1961524227066445
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.220153
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0479452054794527,
+      0.10677025526109318
+     ],
+     "reduced": [
+      0.49999999999986056,
+      7.794228634060009
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvvwPQQLvQQQeghgkglklmnorwxyvstuvvCzADBBDCDktmuskgsvmaelmaeksnfkwtlakkfksw",
+   "parent": "o10_150715",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.047945205479451,
+      0.10677025526109575
+     ],
+     "reduced": [
+      -0.4999999999999134,
+      7.794228634059983
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.051282051282052,
+      0.17764623667372983
+     ],
+     "reduced": [
+      0.4999999999999645,
+      5.19615242270665
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.220153
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "uvLvAwQALAvAQQceghgkglklmnopqrststtsftmuwwcwsmaewclpapmww",
+   "parent": "o10_150716",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560442,
+      0.09516762678949788
+     ],
+     "reduced": [
+      -7.72715225139109e-14,
+      8.660254037844417
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvvQPwPLQwQQeghgkglklmnorsvsvwxyxyzBACDDCCDftmuwwcwsmaelpapmtamlhaixlhqqeq",
+   "parent": "o10_150716",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560431,
+      0.0951676267894982
+     ],
+     "reduced": [
+      1.021405182655144e-14,
+      8.660254037844476
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.050632911392406,
+      0.21924693766694478
+     ],
+     "reduced": [
+      -3.1530333899354446e-14,
+      4.330127018922216
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.330127,
+      4.444097
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAvvwPQQLvQQQeghgkglklmnorwxyvsutvvCAzBDDBCDftmuwwcwsmaelamtwwwfwouixvbvvsb",
+   "parent": "o10_150716",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -6.999999999999905,
+      12.990381056766761
+     ],
+     "reduced": [
+      9.50350909079134e-14,
+      12.990381056766761
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAwwwAwAAvAPAQvQQQghifgmmnmpopovuvuxwxwADBACACBDDmtxipxamlpaxtueilqqqdtipjanpprs",
+   "parent": "o10_150716",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0293040293040276,
+      0.06344508452633488
+     ],
+     "reduced": [
+      5.897504706808832e-13,
+      12.990381056766523
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvvAMzvzPMMPvPQQAQQdfhmniqlsrvwpuxyzAtuBywAzCDDBCDsaasasasxxaasoaqaasjaxsxxoaqsjx",
+   "parent": "o10_150717",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0000000000000036,
+      1.7320508075688803
+     ],
+     "reduced": [
+      3.552713678800501e-15,
+      1.7320508075688803
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.7763568394002524e-15,
+      3.4641016151377557
+     ],
+     "reduced": [
+      1.7763568394002524e-15,
+      3.4641016151377557
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0,
+      0.5773502691896243
+     ],
+     "reduced": [
+      0.0,
+      1.7320508075688816
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLAvwQLPAzLAPALzQPQddggklkmnpnnpptuvuxuwyyyBCCDBDDsktusaktamtujwamtjlwapskaalpask",
+   "parent": "o10_150717",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0645161290322582,
+      0.16761782008731016
+     ],
+     "reduced": [
+      -1.509903313490213e-14,
+      5.196152422706641
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.12903225806451593,
+      0.3352356401746218
+     ],
+     "reduced": [
+      3.219646771412954e-15,
+      2.5980762113533147
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0357142857142871,
+      0.1855768722395219
+     ],
+     "reduced": [
+      -4.39648317751562e-14,
+      5.196152422706634
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLLAvwQLPAzLAPALzQPQddggklkmnpnnpptuvuxuwyyyCBBDCDDsktuoactamtuobamtjlwapsktltptoc",
+   "parent": "o10_150718",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.064516129032259,
+      0.16761782008730933
+     ],
+     "reduced": [
+      -4.796163466380676e-14,
+      5.196152422706646
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.07142857142857147,
+      0.37115374447904526
+     ],
+     "reduced": [
+      -0.49999999999999994,
+      2.598076211353315
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0357142857142845,
+      0.18557687223952396
+     ],
+     "reduced": [
+      4.6629367034256575e-14,
+      5.196152422706608
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvvwvLALQwMQQwQQQQggpqmusrossvtyxtzvzwyxwADCBCDDCmpamfqaqfmppadavfbkccoofiifeqpa",
+   "parent": "o10_150718",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.064516129032259,
+      0.16761782008730977
+     ],
+     "reduced": [
+      -3.863576125695545e-14,
+      5.1961524227066365
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.9999999999999992,
+      0.5773502691896275
+     ],
+     "reduced": [
+      2.331468351712815e-15,
+      1.732050807568872
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.07142857142857133,
+      0.3711537444790457
+     ],
+     "reduced": [
+      -0.49999999999999784,
+      2.5980762113533125
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": [
+    1
+   ]
+  },
+  {
+   "label": "EvLvAwQALAvLvPQzQAzQQeghgkglklmnotwxyuvuvuvzABDCDCDCktmuskgsvmaetmaengjjnoaatssrvsk",
+   "parent": "o10_150720",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.071428571428571,
+      0.3711537444790459
+     ],
+     "reduced": [
+      -0.4999999999999949,
+      2.598076211353312
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0645161290322578,
+      0.167617820087311
+     ],
+     "reduced": [
+      1.2434497875801753e-14,
+      5.196152422706631
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.035714285714286,
+      0.1855768722395211
+     ],
+     "reduced": [
+      -2.353672812205332e-14,
+      5.196152422706667
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvLvAwQALAPLvQwPwAzQQeghgkglklmnoqpruvuvwyxAzBDCCDDCktmuskgsvmaenjtaenotdaskmedeenj",
+   "parent": "o10_150720",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0714285714285707,
+      0.3711537444790452
+     ],
+     "reduced": [
+      -0.49999999999999534,
+      2.5980762113533173
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0645161290322578,
+      0.16761782008731232
+     ],
+     "reduced": [
+      4.0190073491430667e-14,
+      5.1961524227066
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0357142857142865,
+      0.18557687223952213
+     ],
+     "reduced": [
+      -2.4424906541753444e-14,
+      5.196152422706636
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KvLvLAwwwwzwPPLzPzMAPQQQQdifjimlprsowxsACCuDxEBzABHIJFJFHIGJHIoaaaoaoaaaoaaoaaaoaaaoooooaaoaooaoaoa",
+   "parent": "o10_150721",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -1.4999999999999893,
+      7.794228634060006
+     ],
+     "reduced": [
+      -0.49999999999998934,
+      7.794228634060006
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0000000000000002,
+      0.38490017945975047
+     ],
+     "reduced": [
+      -1.4988010832439615e-15,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.9999999999999996,
+      0.38490017945975136
+     ],
+     "reduced": [
+      2.9976021664879096e-15,
+      2.5980762113533102
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAwwwAwAAvAPPQvQQQghfigmmnmpopovuvuwxAwxDDBCBCDCBmtqepqatdpaxtqduxhiauuixlhttxxt",
+   "parent": "o10_150722",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.129032258064516,
+      0.3352356401746214
+     ],
+     "reduced": [
+      5.551115123125783e-16,
+      2.598076211353317
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      -2.5000000000000133,
+      5.1961524227066365
+     ],
+     "reduced": [
+      0.4999999999999867,
+      5.1961524227066365
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.220153
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0357142857142858,
+      0.1855768722395219
+     ],
+     "reduced": [
+      -9.325873406851315e-15,
+      5.196152422706648
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAPwLQwwPwPwQwPwQQghhjkgolmnoostruwvyxxyABzDCDCDCmtqehpqamtmpuimtdahuauxmxpuxxpq",
+   "parent": "o10_150723",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0430107526881733,
+      0.11174521339153655
+     ],
+     "reduced": [
+      -2.504663143554353e-13,
+      7.79422863406009
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0357142857142856,
+      0.18557687223952274
+     ],
+     "reduced": [
+      4.9960036108132044e-15,
+      5.1961524227066285
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAMMvQLwMMAvALQwQQgffijgllnlomstrstuxxyAByzCDCDCDmiqetpqaidpateiahtlidduaalepdhh",
+   "parent": "o10_150723",
+   "degree": 3,
+   "status": "unresolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0430107526881727,
+      0.1117452133915389
+     ],
+     "reduced": [
+      -1.0613732115416497e-13,
+      7.7942286340599995
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.9999999999999994,
+      0.5773502691896273
+     ],
+     "reduced": [
+      1.6653345369377261e-15,
+      1.7320508075688728
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "reason": "shell 0 at ratio 4.10e-02: ambiguous kill"
+  },
+  {
+   "label": "EvvLAPvLQzLAvQMQzLPQQhgiijopnmprstwxxvuxywzBBCDDCBDCupupehehaqueaueauqtilduaiiuqiup",
+   "parent": "o10_150723",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0430107526881711,
+      0.11174521339154114
+     ],
+     "reduced": [
+      7.949196856316121e-14,
+      7.794228634059955
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.000000000000002,
+      1.732050807568876
+     ],
+     "reduced": [
+      1.9984014443252818e-15,
+      1.732050807568876
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLwvPLMLQQwLMQQQQgfgopopqqxvuqstrzABDCDCAzBDCAzBmlpamlhamtttplpaleiqduxqqmqqqdx",
+   "parent": "o10_150723",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.043010752688171,
+      0.11174521339153921
+     ],
+     "reduced": [
+      4.440892098500626e-16,
+      7.794228634060067
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0645161290322582,
+      0.16761782008731038
+     ],
+     "reduced": [
+      -1.0658141036401503e-14,
+      5.1961524227066365
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAwwwAwAAvAPPQvQQQghifgmmnmpopouvuvxwAxwDDBCBCDBCmtllpemthpaxtamlhxtalludlhttdeq",
+   "parent": "o10_150723",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0430107526881727,
+      0.11174521339153975
+     ],
+     "reduced": [
+      -6.572520305780927e-14,
+      7.794228634059955
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0357142857142865,
+      0.18557687223952204
+     ],
+     "reduced": [
+      -2.531308496145357e-14,
+      5.196152422706637
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLvvvLAMAPQQAvQQQQgfpvsqurqsxztyuqwvsACBDDABCCBDAxxahhhqaqqhqaxahxaqqhqhxxhxxxqx",
+   "parent": "o10_150723",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -1.5296406117057749e-15,
+      0.8660254037844325
+     ],
+     "reduced": [
+      2.039520815607729e-15,
+      1.1547005383792597
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2/3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      1,
+      3,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      1.154701,
+      1.527525,
+      2.0,
+      2.309401,
+      2.516611
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      0,
+      4,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0,
+      0.5773502691896248
+     ],
+     "reduced": [
+      0.0,
+      1.73205080756888
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "uvvLAPwLQwwPQQcghhjkgolmnoostrrtsrstmtqehpqamtmphuhddqhmd",
+   "parent": "o10_150724",
+   "degree": 2,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0439560439560451,
+      0.09516762678949528
+     ],
+     "reduced": [
+      -3.099742684753437e-13,
+      8.66025403784451
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLMvvwzPQQvwQQPQAQhgfgnpprovquwnzyxxyABzCBCBCADDDllipapaipqaqmiuqquepixeixlqedtx",
+   "parent": "o10_150724",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.7857142857142869,
+      0.6185895741317395
+     ],
+     "reduced": [
+      -0.4999999999999988,
+      1.4433756729740703
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.527525,
+      2.0,
+      2.081666,
+      2.886751,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      1,
+      0,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAPwLQwwLPQwvQvQQQghhjkgolmnootrtsrstyzABCDDCBCBDmtqehpqamtmpuddqhmdueaueatiqaia",
+   "parent": "o10_150724",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.030805687203792,
+      0.061565786998892424
+     ],
+     "reduced": [
+      0.49999999999970246,
+      12.990381056766646
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 15/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAPwLQwwLzQwPPPwQQghhjkgolmnootvuvuwxyyxBAzCDCDCDmtqehpqamtmpulxauaueiaalxmataaa",
+   "parent": "o10_150724",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0714285714285712,
+      0.20619652471058134
+     ],
+     "reduced": [
+      -0.4999999999999867,
+      4.330127018922185
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0357142857142856,
+      0.10309826235528806
+     ],
+     "reduced": [
+      -1.0880185641326534e-13,
+      8.660254037844542
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 5*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLwvPLMLQQwAzQQQQgfgopopqqxuvqstrzABCDDCBzADCBzAmlpamlhamtqdplpaammdhdduhixpuuu",
+   "parent": "o10_150724",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.071428571428572,
+      0.20619652471057937
+     ],
+     "reduced": [
+      0.4999999999999729,
+      4.330127018922206
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0714285714285723,
+      0.20619652471057912
+     ],
+     "reduced": [
+      0.49999999999996625,
+      4.330127018922207
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0714285714285705,
+      0.20619652471058061
+     ],
+     "reduced": [
+      -0.4999999999999849,
+      4.330127018922205
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLvvLwAQQPQALPQQQhgptstsvxuwuyqrupxyACBBADCDDBACtpatpxalxtxlppuauiplxxllllhmhmd",
+   "parent": "o10_150724",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.785714285714285,
+      0.6185895741317433
+     ],
+     "reduced": [
+      0.4999999999999991,
+      1.4433756729740608
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/6*sqrt(-3)",
+     "shell_directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.527525,
+      2.0,
+      2.081666,
+      2.886751,
+      3.0
+     ],
+     "shell_span_index": [
+      0,
+      1,
+      0,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAwwwAwAAvAPAQvQQQghfignmnnpopouvuvwxwxADBDCDCBCBmtddpdmttpaxtdtpmaaamtudpdhxdqt",
+   "parent": "o10_150724",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.071428571428572,
+      0.20619652471058023
+     ],
+     "reduced": [
+      0.49999999999998423,
+      4.330127018922192
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.071428571428571,
+      0.20619652471058095
+     ],
+     "reduced": [
+      -0.499999999999988,
+      4.330127018922194
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0263157894736843,
+      0.22790142204853617
+     ],
+     "reduced": [
+      0.4999999999999971,
+      4.330127018922199
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 5/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      4.358899,
+      4.582576
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KvLLLMLwAwvPvMMPMPPMwAPQQdehigjmmnnnqtsrwxvuyzABECFDHGJIFGIHJJooaaooaaaaooaooaaooooooaaaaaaaaooaoao",
+   "parent": "o10_150725",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -0.49999999999998584,
+      7.794228634059708
+     ],
+     "reduced": [
+      -0.49999999999998584,
+      7.794228634059708
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0714285714285685,
+      0.37115374447904864
+     ],
+     "reduced": [
+      -0.49999999999997197,
+      2.598076211353301
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.1666666666666663,
+      0.28867513459481314
+     ],
+     "reduced": [
+      -0.4999999999999962,
+      2.598076211353318
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KvLLvAvzvzQwLPLLQwQMMQPQQdgjiomrvpntqyyuEDBuCxzAHCIAFEJJHGGJIIoaaaaaaaaaooaaoaaaoaoaaaaaoooaaoooaaa",
+   "parent": "o10_150725",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.16666666666666613,
+      0.866025403784438
+     ],
+     "reduced": [
+      -0.21428571428571394,
+      1.1134612334371363
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-3/14 + 9/14*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      1.133893,
+      1.36277,
+      1.647509,
+      2.0,
+      2.104417
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.16666666666666663,
+      0.2886751345948129
+     ],
+     "reduced": [
+      -0.49999999999999956,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.16666666666666663,
+      0.2886751345948128
+     ],
+     "reduced": [
+      0.4999999999999998,
+      2.5980762113533165
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KvLvvzvPvvwQAvPvQQwQQQQQQdjqnqoytyvCAyxBwCwFAFxHGCAEFDJIIHJGJIoaaoaaaaaaooooooooaoaoaaoooaoaaaaaaoo",
+   "parent": "o10_150725",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -0.49999999999998757,
+      7.794228634059862
+     ],
+     "reduced": [
+      -0.49999999999998757,
+      7.794228634059862
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.07142857142857102,
+      0.3711537444790453
+     ],
+     "reduced": [
+      -0.4999999999999969,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.16666666666666693,
+      0.2886751345948118
+     ],
+     "reduced": [
+      0.49999999999999023,
+      2.5980762113533187
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "KvLLvwLAMzwvvPQAvLQQLQQQQdeijoljorrrwAxyxBCGFEFHAIBBJAGDIEHIJJooaoaooaaaoaaaaaaaaaaaaoaooaoooaooaaa",
+   "parent": "o10_150725",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      -0.4999999999999893,
+      7.794228634059929
+     ],
+     "reduced": [
+      -0.4999999999999893,
+      7.794228634059929
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 9/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.07142857142857145,
+      0.37115374447904526
+     ],
+     "reduced": [
+      -0.49999999999999983,
+      2.598076211353315
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.07142857142857123,
+      0.37115374447904503
+     ],
+     "reduced": [
+      -0.49999999999999895,
+      2.598076211353317
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLLwvLwAQPvwPQQQQQgjkgnoqqspqtrzCAyBDDAyBCDyzAzCBmxupamuauuppauuuppiauxamaapaapa",
+   "parent": "o10_150725",
+   "degree": 3,
+   "status": "unresolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0645161290322587,
+      0.1676178200873119
+     ],
+     "reduced": [
+      1.1324274851176597e-14,
+      5.196152422706591
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.071428571428571,
+      0.3711537444790457
+     ],
+     "reduced": [
+      -0.49999999999999545,
+      2.598076211353314
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.5000000000000019,
+      0.8660254037844402
+     ],
+     "reduced": [
+      -0.4999999999999981,
+      0.8660254037844402
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      -0.5000000000000008,
+      0.8660254037844392
+     ],
+     "reduced": [
+      0.4999999999999992,
+      0.8660254037844392
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    }
+   ],
+   "hexagonal": [
+    2,
+    3
+   ],
+   "first_shell_3plus": [
+    2,
+    3
+   ],
+   "reason": "no rung passes acceptance with both seeds"
+  },
+  {
+   "label": "EvvLAwwwAwAAvAPPQvQQQghifgmmnmpopouvuvxwAxwDDBCBCDCBmtllpemthpaxtamlhllapaiattamapa",
+   "parent": "o10_150727",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.12903225806451601,
+      0.33523564017462154
+     ],
+     "reduced": [
+      1.3322676295501878e-15,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0645161290322582,
+      0.1676178200873108
+     ],
+     "reduced": [
+      -2.220446049250313e-15,
+      5.196152422706627
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.07142857142857141,
+      0.3711537444790451
+     ],
+     "reduced": [
+      -0.5,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      -0.07142857142857152,
+      0.3711537444790449
+     ],
+     "reduced": [
+      -0.4999999999999989,
+      2.598076211353317
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLPvLzzQwPvwPQQQQQhfifnnnpoutvwzyADBCzCBAyDCDBAzyuipldaliappeatueaueuxuppiqapxau",
+   "parent": "o10_150727",
+   "degree": 3,
+   "status": "unresolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.12903225806451563,
+      0.3352356401746212
+     ],
+     "reduced": [
+      1.887379141862766e-15,
+      2.5980762113533196
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.4999999999999993,
+      0.8660254037844384
+     ],
+     "reduced": [
+      0.4999999999999993,
+      0.8660254037844384
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0645161290322578,
+      0.16761782008730858
+     ],
+     "reduced": [
+      -3.774758283725532e-14,
+      5.196152422706686
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      -0.5000000000000026,
+      0.8660254037844395
+     ],
+     "reduced": [
+      0.49999999999999745,
+      0.8660254037844395
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    }
+   ],
+   "hexagonal": [
+    1,
+    3
+   ],
+   "first_shell_3plus": [
+    1,
+    3
+   ],
+   "reason": "no rung passes acceptance with both seeds"
+  },
+  {
+   "label": "EvvLvLwvPLMPMQwLMQQQQgfgopopquqvwqstrzABCDCDCDzBABAzmlpamlhaamalplpaaailhttletldtxt",
+   "parent": "o10_150727",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.0645161290322585,
+      0.16761782008730983
+     ],
+     "reduced": [
+      -2.708944180085382e-14,
+      5.196152422706644
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      -0.9999999999999961,
+      2.5980762113533102
+     ],
+     "reduced": [
+      3.885780586188048e-15,
+      2.5980762113533102
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.598076,
+      2.783882,
+      3.0,
+      3.278719
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0714285714285705,
+      0.37115374447904537
+     ],
+     "reduced": [
+      -0.49999999999999345,
+      2.598076211353317
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      -1.0714285714285714,
+      0.3711537444790455
+     ],
+     "reduced": [
+      0.49999999999999895,
+      2.598076211353314
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLLvvvLAMAPQQAvQQQQfgpvsrurqpzxtyurwvpDBCAADCBCBADaaahhqqaqhhqahaqqahhqhqahqaaqha",
+   "parent": "o10_150727",
+   "degree": 3,
+   "status": "unresolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.9999999999999963,
+      1.7320508075688767
+     ],
+     "reduced": [
+      -3.6637359812630166e-15,
+      1.7320508075688767
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      0.5000000000000003,
+      0.8660254037844378
+     ],
+     "reduced": [
+      -0.49999999999999967,
+      0.8660254037844378
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.4999999999999998,
+      0.8660254037844385
+     ],
+     "reduced": [
+      0.4999999999999998,
+      0.8660254037844385
+     ],
+     "cls": "hexagonal",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 1/2*sqrt(-3)",
+     "shell_directions": [
+      3,
+      3,
+      3,
+      6,
+      3,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      1,
+      3,
+      4,
+      1,
+      9,
+      12
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      4.9343245538895905e-17,
+      0.28867513459481314
+     ],
+     "reduced": [
+      -5.921189464667498e-16,
+      3.4641016151377513
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      3.464102,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      4
+     ]
+    }
+   ],
+   "hexagonal": [
+    1,
+    2
+   ],
+   "first_shell_3plus": [
+    1,
+    2
+   ],
+   "reason": "no rung passes acceptance with both seeds"
+  },
+  {
+   "label": "EvvLvLwvPLMPMQwLMQQQQgfgopopqvquwqstrAzBCDCDDCABzBzAmlpamlhaxmxlplpaqqilhttimilmthi",
+   "parent": "o10_150728",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      1.064516129032258,
+      0.1676178200873124
+     ],
+     "reduced": [
+      3.6637359812630166e-14,
+      5.196152422706594
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.071428571428571,
+      0.37115374447904537
+     ],
+     "reduced": [
+      -0.49999999999999634,
+      2.598076211353316
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0645161290322576,
+      0.16761782008731188
+     ],
+     "reduced": [
+      3.597122599785507e-14,
+      5.196152422706615
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLAPvLQzLAvQMMMLPQQhgiijnpomprstwxxvuwxyzBBDCDCBDCupupemetaqueaueauqaaqpuaeeexped",
+   "parent": "o10_150728",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.07142857142857154,
+      0.37115374447904453
+     ],
+     "reduced": [
+      0.4999999999999978,
+      2.5980762113533196
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0357142857142865,
+      0.18557687223952168
+     ],
+     "reduced": [
+      -2.90878432451791e-14,
+      5.196152422706646
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 3*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.196152
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      0.9999999999999999,
+      1.7320508075688787
+     ],
+     "reduced": [
+      -1.1102230246251565e-16,
+      1.7320508075688787
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "0 + 1*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+     ],
+     "shell_ratios": [
+      1.0,
+      1.732051,
+      2.0,
+      2.645751,
+      3.0,
+      3.464102
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      6
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  },
+  {
+   "label": "EvvLvLwvPLMPMQwLMQQQQgfgopopqvquwqstrAzBDCDCCDzBABAzmlpamlhaxmxlplpaqqiiiqdletmdext",
+   "parent": "o10_150729",
+   "degree": 3,
+   "status": "resolved",
+   "cusps": [
+    {
+     "cusp": 0,
+     "shape": [
+      0.16666666666666663,
+      0.28867513459481403
+     ],
+     "reduced": [
+      -0.4999999999999909,
+      2.598076211353311
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 1,
+     "shape": [
+      1.0714285714285732,
+      0.3711537444790423
+     ],
+     "reduced": [
+      0.49999999999998135,
+      2.59807621135333
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 2,
+     "shape": [
+      1.0714285714285705,
+      0.3711537444790463
+     ],
+     "reduced": [
+      -0.4999999999999909,
+      2.5980762113533107
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 3,
+     "shape": [
+      0.07142857142857138,
+      0.37115374447904526
+     ],
+     "reduced": [
+      -0.49999999999999933,
+      2.598076211353315
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    },
+    {
+     "cusp": 4,
+     "shape": [
+      -1.0714285714285723,
+      0.3711537444790442
+     ],
+     "reduced": [
+      -0.499999999999992,
+      2.59807621135332
+     ],
+     "cls": "other",
+     "in_Q_sqrt_minus_3": true,
+     "form": "-1/2 + 3/2*sqrt(-3)",
+     "shell_directions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+     ],
+     "shell_ratios": [
+      1.0,
+      2.0,
+      2.645751,
+      3.0,
+      3.605551,
+      4.0
+     ],
+     "shell_span_index": [
+      0,
+      0,
+      1,
+      3,
+      5,
+      0
+     ]
+    }
+   ],
+   "hexagonal": [],
+   "first_shell_3plus": [],
+   "maxC": 0,
+   "leading_3plus": []
+  }
+ ],
+ "summary": {
+  "cusps_by_status_and_class": {
+   "resolved/other": 207,
+   "unresolved/hexagonal": 8,
+   "unresolved/other": 14
+  },
+  "every_shape_in_Q_sqrt_minus_3": true,
+  "leading_shell_directions_match_the_lattice": true,
+  "mismatches": [],
+  "members_by_status_and_number_of_hexagonal_cusps": {
+   "resolved/0": 102,
+   "unresolved/0": 3,
+   "unresolved/2": 4
+  },
+  "resolved_cusps_leading_with_3plus_directions": {
+   "other/shell 2/span index 2": 3
+  },
+  "hexagonal_first_shell_span_index": [
+   1
+  ],
+  "resolved_members_with_a_3plus_leading_shell": [
+   [
+    "EvvLvvwvLAvQMMQQwQQQQggp",
+    "o10_150708",
+    [
+     1
+    ],
+    2
+   ],
+   [
+    "EvvLvvwvLALLQMQQwQQQQggp",
+    "o10_150710",
+    [
+     1
+    ],
+    0
+   ],
+   [
+    "EvvLvvwvLALQwMQQwQQQQggp",
+    "o10_150718",
+    [
+     1
+    ],
+    0
+   ]
+  ],
+  "resolved_nonzero": [
+   [
+    "EvvLvvwvLAvQMMQQwQQQQggp",
+    "o10_150708",
+    2
+   ]
+  ],
+  "members_with_hexagonal_cusps": [
+   [
+    "KvvLLzvLPPQzzQwLQvPAPMPQ",
+    "o10_150704",
+    "unresolved",
+    [
+     0,
+     1
+    ],
+    null,
+    "no rung passes acceptance with both seeds"
+   ],
+   [
+    "EvvLLLwvLwAQPvwPQQQQQgjk",
+    "o10_150725",
+    "unresolved",
+    [
+     2,
+     3
+    ],
+    null,
+    "no rung passes acceptance with both seeds"
+   ],
+   [
+    "EvvLLPvLzzQwPvwPQQQQQhfi",
+    "o10_150727",
+    "unresolved",
+    [
+     1,
+     3
+    ],
+    null,
+    "no rung passes acceptance with both seeds"
+   ],
+   [
+    "EvvLLvvvLAMAPQQAvQQQQfgp",
+    "o10_150727",
+    "unresolved",
+    [
+     1,
+     2
+    ],
+    null,
+    "no rung passes acceptance with both seeds"
+   ]
+  ],
+  "parity lemma: chi values over 40 random shell functions": {
+   "sqrt(-3) third shell, index 2": {
+    "-2": 11,
+    "0": 21,
+    "2": 8
+   },
+   "hexagonal first shell, index 1": {
+    "-1": 6,
+    "0": 25,
+    "1": 9
+   },
+   "hexagonal sqrt(3) shell, index 3": {
+    "-3": 13,
+    "0": 19,
+    "3": 8
+   }
+  },
+  "cube~3.24 (outside the census)": [
+   {
+    "cusp": 0,
+    "cls": "hexagonal",
+    "form": "-1/2 + 1/2*sqrt(-3)",
+    "shell_directions": [
+     3,
+     3,
+     3,
+     6,
+     3,
+     3
+    ],
+    "shell_span_index": [
+     1,
+     3,
+     4,
+     1,
+     9,
+     12
+    ]
+   },
+   {
+    "cusp": 1,
+    "cls": "other",
+    "form": "0 + 1*sqrt(-3)",
+    "shell_directions": [
+     1,
+     1,
+     3,
+     2,
+     1,
+     3
+    ],
+    "shell_span_index": [
+     0,
+     0,
+     2,
+     4,
+     0,
+     6
+    ]
+   },
+   {
+    "cusp": 2,
+    "cls": "hexagonal",
+    "form": "-1/2 + 1/2*sqrt(-3)",
+    "shell_directions": [
+     3,
+     3,
+     3,
+     6,
+     3,
+     3
+    ],
+    "shell_span_index": [
+     1,
+     3,
+     4,
+     1,
+     9,
+     12
+    ]
+   },
+   {
+    "cusp": 3,
+    "cls": "hexagonal",
+    "form": "1/2 + 1/2*sqrt(-3)",
+    "shell_directions": [
+     3,
+     3,
+     3,
+     6,
+     3,
+     3
+    ],
+    "shell_span_index": [
+     1,
+     3,
+     4,
+     1,
+     9,
+     12
+    ]
+   }
+  ],
+  "reproduced": [
+   {
+    "label": "EvvLvvwvLAvQMMQQwQQQQggp",
+    "parent": "o10_150708",
+    "dim": 2,
+    "cusps": 2,
+    "identical": true,
+    "fields": {
+     "status": true,
+     "dim": true,
+     "maxC": true,
+     "achievable_g": true,
+     "g3": true,
+     "leading": true,
+     "circles": true,
+     "V_circle": true,
+     "positive": true
+    },
+    "maxC": 2,
+    "seconds": 28
+   },
+   {
+    "label": "BvLQvvLvwMAQLQAQLPQcefdh",
+    "parent": "v2873",
+    "dim": 2,
+    "cusps": 1,
+    "identical": true,
+    "fields": {
+     "status": true,
+     "dim": true,
+     "maxC": true,
+     "achievable_g": true,
+     "g3": true,
+     "leading": true,
+     "circles": true,
+     "V_circle": true,
+     "positive": true
+    },
+    "maxC": 0,
+    "seconds": 0
+   },
+   {
+    "label": "yLvLwAvLwMMPPAMQQaeeghpj",
+    "parent": "t12833",
+    "dim": 2,
+    "cusps": 1,
+    "identical": true,
+    "fields": {
+     "status": true,
+     "dim": true,
+     "maxC": true,
+     "achievable_g": true,
+     "g3": true,
+     "leading": true,
+     "circles": true,
+     "V_circle": true,
+     "positive": true
+    },
+    "maxC": 0,
+    "seconds": 0
+   },
+   {
+    "label": "ELLvvvvwLQQAwLQQAPwQQceq",
+    "parent": "o10_150685",
+    "dim": 2,
+    "cusps": 3,
+    "identical": true,
+    "fields": {
+     "status": true,
+     "dim": true,
+     "maxC": true,
+     "achievable_g": true,
+     "g3": true,
+     "leading": true,
+     "circles": true,
+     "V_circle": true,
+     "positive": true
+    },
+    "maxC": 0,
+    "seconds": 2
+   },
+   {
+    "label": "ELLPLvAAPPMvzMwAQzvQQcee",
+    "parent": "o10_150688",
+    "dim": 3,
+    "cusps": 1,
+    "identical": true,
+    "fields": {
+     "status": true,
+     "dim": true,
+     "maxC": true,
+     "achievable_g": true,
+     "g3": true,
+     "leading": true,
+     "circles": true,
+     "V_circle": true,
+     "positive": true
+    },
+    "maxC": 0,
+    "seconds": 2
+   }
+  ]
+ }
+}
