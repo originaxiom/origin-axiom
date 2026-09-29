@@ -1,0 +1,12 @@
+X2 (m=1..3, all 55 loci): matched 6435 of 6435 modules
+   psi^2 = 1 (SELF-DUAL):     I = 0 on 771,  I != 0 on 0
+   psi^2 != 1 (not forced):   I = 0 on 5232,  I != 0 on 432
+   KILL (self-dual with I != 0): 0 []
+X3 (m=4..6, 24 loci): matched 2808 of 2808 modules
+   psi^2 = 1 (SELF-DUAL):     I = 0 on 288,  I != 0 on 0
+   psi^2 != 1 (not forced):   I = 0 on 2376,  I != 0 on 144
+   KILL (self-dual with I != 0): 0 []
+
+ALIGNMENT complete on both: True
+E65 CONSISTENCY: 1059 self-dual modules, every one at I = 0; kill fired 0 times
+=> ALL 576 nonzero-I modules have a psi with psi^2 != 1: the twist is what breaks self-duality.

@@ -1,0 +1,42 @@
+{
+  "arc": "xB034_the_cross_branch_audit",
+  "authored_by": "xb",
+  "seat": "xb",
+  "branch": "sep16-branch",
+  "date": "2026-09-29",
+  "preregistration_seal": "NONE -- a cross-branch audit; the reading came first, declared in PREREGISTRATION.md (the xB025 convention). The two computed cells state their kill conditions and controls in-script.",
+  "verdict": "VERIFIED",
+  "gate5_crossed": false,
+  "claims_md_touched": false,
+  "identifications": [],
+  "scope": "7 remote branches, full history after unshallowing; 121 commits since this seat's last sync (2026-09-18). The shallow clone's 'no common ancestor' and ~3000-commit counts were artefacts and were not used.",
+  "corrections_to_own_claims": {
+    "xB030_U1_and_xB032_T1": "'none of which saw the other two' is FALSE -- B1260 (2026-09-06, in this tree) had already joined the Alexander roots phi^{+-2} to the locus where h1 jumps and called them 'the object's own golden pair'",
+    "xB030_U4": "'cannot simply be composed' is INCOMPLETE -- true of the h1-index route only; B1355 (SM branch) builds the literature's conical-singularity mechanism for E6, and the outside bench identified the G2-MSSM's Assumption 2 as B1355's open problem",
+    "xB030_xB031_both_routes_shut": "correct about the INDEX, but beneath stronger banked theorems (B307, B1381, B1398) and it does NOT reach B1355's apex route",
+    "xB021": "main's S24/B1429: A6/A7 are the KERNEL on the sister orbit, not a point stabiliser; twelfths mod 1/2 form a group of SIX, not twelve"
+  },
+  "cells": {
+    "C1": {"result": "PASS", "content": "Positive topological entropy is SUFFICIENT for B1381's cap mechanism (M^n never scalar): 8 hyperbolic monodromies never scalar to n=40; elliptic controls hit +-I at n=2,3,3 (the test discriminates); parabolic is entropy-zero and never scalar (converse FALSE). The generation cap and the thermodynamic side share one root -- the monodromy is pseudo-Anosov -- and it is the POSITIVITY of the entropy, not its golden value or minimality."},
+    "C2": {"result": "PASS", "content": "E65 on xB031's 9243 banked modules: 1059 self-dual (psi^2 = 1), all at I = 0, kill fired 0 times; all 576 nonzero modules carry psi^2 != 1. xB031's index is a TWIST effect, not a Sym^m effect."}
+  },
+  "integration_hazards": [
+    "LEAD NUMBERS: no uniqueness check on OPEN_LEADS on any branch. On merge L223 and L224 would each exist 3 times and L225 twice. Main already has duplicate L160/L222/L223/L224; main's renumbering of the fork's duplicate L220 to L223 created a new collision. Scheme decision is the owner's.",
+    "ERROR CLASSES: main at E83, this branch at E82; R58-1 must mint as E84+. Both carry a duplicate E58.",
+    "DUPLICATE ARCS: B288's withdrawal is banked as B1419 on main and B1376 on the SM branch."
+  ],
+  "roadmap_changes": [
+    "R58-3 RESOLVED BY PORT (main's S12 fix, byte-identical; 4 passed) -- a debt paid the day it was filed",
+    "R58-1/R58-2 UNBLOCKED (B1376 landed); mint as E84/E85 after syncing with main",
+    "physics priority reordered: the h1-index route is structurally exhausted; B1355's apex route is the live bridge to the literature, conditional on L221's 27-bar sector",
+    "xB031's declared remainder demoted",
+    "cs(M*) = -cs(M) now load-bearing on TWO branches (main's S24 relies on it too)"
+  ],
+  "rederived": [
+    {"arc": "xB031", "what": "the 9243 banked modules", "outcome": "CONFIRMED", "why": "C2 re-aligns every module to its (locus, m, twist) from B1418's byte-identical instrument and tests each against E65"},
+    {"arc": "xB032", "what": "the monodromy entropies of eight RL-words", "outcome": "CONFIRMED", "why": "C1 recomputes them from the matrices and reproduces xB032 T2's h values"},
+    {"arc": "B1381 (SM branch)", "what": "rank-one h1 != 2 on every level because M^n is never scalar", "outcome": "SCOPED", "why": "not re-proved; its mechanism's premise (M^n never scalar) is checked and shown to follow from positive entropy, with controls"},
+    {"arc": "B1260", "what": "Alexander roots phi^{+-2}, the h1 jump, the golden pair", "outcome": "NOT_RERUN", "why": "read at source in this tree and quoted; it corrects xB030 rather than being corrected"},
+    {"arc": "main S24 / B1429", "what": "xB021 verified and sharpened", "outcome": "NOT_RERUN", "why": "read at source on main and quoted; recorded as an addendum on xB021"}
+  ]
+}

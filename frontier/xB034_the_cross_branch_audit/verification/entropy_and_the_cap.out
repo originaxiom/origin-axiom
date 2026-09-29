@@ -1,0 +1,22 @@
+monodromy                    type        |tr|     h_top  first scalar power (n <= 40)
+RL = m004                    hyperbolic     3  0.962424  NEVER
+RRL                          hyperbolic     4  1.316958  NEVER
+RLL                          hyperbolic     4  1.316958  NEVER
+RRLL                         hyperbolic     6  1.762747  NEVER
+RLRRL                        hyperbolic    10  2.292432  NEVER
+RRRL                         hyperbolic     5  1.566799  NEVER
+RLRL                         hyperbolic     7  1.924847  NEVER
+RRLRL                        hyperbolic    10  2.292432  NEVER
+R (parabolic)                parabolic      2  0.000000  NEVER
+[[0,1],[-1,0]] (order 4)     elliptic       0  0.000000  n=2: [[-1, 0], [0, -1]]
+[[1,1],[-1,0]] (order 6)     elliptic       1  0.000000  n=3: [[-1, 0], [0, -1]]
+[[0,1],[-1,-1]] (order 3)    elliptic       1  0.000000  n=3: [[1, 0], [0, 1]]
+
+  hyperbolic (h_top > 0): M^n never scalar     -- B1381's mechanism HOLDS
+  elliptic   (h_top = 0): M^n hits +-I         -- B1381's mechanism FAILS  (control fires)
+  parabolic  (h_top = 0): M^n never scalar     -- so the CONVERSE is false
+
+C1 PASS: positive entropy is SUFFICIENT for B1381's non-scalarity, and NOT necessary.
+  READING, stated at its width: the generation cap and the thermodynamic side share a
+  root -- the monodromy is pseudo-Anosov.  It is the POSITIVITY of the entropy that does the
+  work, NOT its golden value and NOT its minimality: every hyperbolic word above caps too.

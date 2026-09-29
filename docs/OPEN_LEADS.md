@@ -3004,3 +3004,24 @@ artefact of these loci.
 theorem-zero on the geometric class so a nonzero value requires leaving the geometric holonomy;
 **`t12835` is a class member, not the object** (`m004` gives 0 on every module B1418 ran); and an index
 of 3 would not have been three generations. Source: `frontier/xB031_the_unrun_modules/`.
+
+### INTEGRATION HAZARD — LEAD NUMBERS COLLIDE ACROSS BRANCHES (recorded 2026-09-29, xB034 §4.1)
+
+**Not a lead; a warning that sits above them.** `OPEN_LEADS.md` has **no uniqueness check** on any
+branch. After the 2026-09-16 fork, main and `sep16-branch` each allocated L222–L225 independently:
+
+| | main | `sep16-branch` |
+|---|---|---|
+| L223 | *Silent receipts* **and** *Level mismatch* (renumbered from the fork's duplicate L220) | *k-coupling normalisation* (xB016) |
+| L224 | *Harvest gate is blind* — **the same entry twice** | *Amphichiral knot `cs ≡ 0`* (xB023) |
+| L225 | *3D index under Dehn filling* (B1428) | *Ray–Singer torsion term of `P_eff`* (xB029) |
+
+Main additionally carries **two L222s**; both branches carry **two L160s**; this branch carries the
+fork's **two L220s**. **On merge, L223 and L224 would each exist three times and L225 twice**, and every
+citation of them would resolve to the wrong entry. **Main's renumbering of the duplicate L220 to L223
+created a new collision.**
+
+**In this branch, references to L223, L224 and L225 mean the entries in THIS file, registered by
+xB016, xB023 and xB029.** No renumbering is done here: the fix is a scheme that binds every seat —
+seat-namespaced leads (as `xB` namespaces this seat's arcs), or a reservation plus a uniqueness gate —
+and **that is the owner's decision.**

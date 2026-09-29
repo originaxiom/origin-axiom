@@ -1,5 +1,26 @@
 # Changelog
 
+## xB034 — the cross-branch audit: four of this seat's claims corrected, and the physics map redrawn
+
+All seven branches read, **after unshallowing** (the shallow clone's *"no common ancestor"* was an
+artefact). **121 commits since this seat's last sync.**
+
+**Corrected, against itself:** xB030's *"none of which saw the other two"* — **B1260 had made the
+Alexander-root/golden-locus join twelve days earlier, in this tree**; xB030's *"the programmes cannot
+be composed"* — **B1355** (SM branch) builds the literature's own conical-singularity mechanism for
+E₆, and the G₂-MSSM's Assumption 2 **is** B1355's open problem; *"both routes to three are shut"* —
+true of the index, beneath **B307/B1381/B1398**, and **silent on B1355's apex route**; xB021 — main
+showed A6/A7 are the **kernel** on the sister orbit, and twelfths mod ½ are a group of **six**.
+
+**Computed:** positive topological entropy is **sufficient** (not necessary) for B1381's generation cap
+— elliptic controls fire, parabolic breaks the converse — so **the cap and the thermodynamic side share
+one root**; and **E65 holds on all 9 243 of xB031's modules**: 1 059 self-dual, every one at `I = 0`,
+so **xB031's index is a twist effect, not a `Sym^m` effect.**
+
+**R58-3 resolved by porting main's fix** (made the day this branch forked). **R58-1/2 unblocked — mint
+as E84/E85.** **Integration hazard for the owner:** lead numbers collide across branches — on merge
+L223 and L224 would each exist three times — with no uniqueness check anywhere. **Gate 5 absolute.**
+
 ## xB033 — an arc whose claim was already banked, and the reading failure that produced it
 
 The seal set out to prove that a closed amphichiral hyperbolic 3-manifold has `cs ≡ 0 (mod ½)`.

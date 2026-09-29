@@ -17938,3 +17938,64 @@ treating the ¼ class as a phenomenon about manifolds when it is a fact about a 
 stopped 26 days ago.**
 
 **Gate 5 absolute. No value. Nothing to `CLAIMS.md`.**
+
+## xB034 (2026-09-29) — the cross-branch audit: four of this seat's own claims corrected, one strengthened, and the physics map redrawn around a route this seat did not know existed
+
+**Owner: *"fetch the work from all branches in the repo, analyze and audit them well, see whether the
+findings change your report, enriches your insight, and enlightens your path forward."*** Not a sealed
+prediction — the reading came first, declared in the preregistration (xB025's convention).
+
+**Method, and a trap avoided.** The clone was **shallow**: the first pass reported three branches with
+*no common ancestor* and ~3 000 foreign commits each. **Those were artefacts of truncated history.**
+Unshallowed, the real picture: **121 commits since this seat's last sync** — main 7, the SM seat 40,
+the audit seat 56, the outside bench 16, paper-review 2. **The SM seat advanced while the fetch ran.**
+
+**CORRECTIONS TO THIS SEAT'S OWN CLAIMS.**
+**(1) xB030 U1 / xB032 T1 — *"none of which saw the other two"* is FALSE.** B1260 (2026-09-06, **in
+this tree**) had written *"Δ(t) = t² − 3t + 1, roots φ² and φ⁻²"*, *"the Alexander root where h¹
+jumps"*, and *"Note the object's own golden pair appearing unbidden."* **Third instance this session
+of claiming novelty for something already in the tree.**
+**(2) xB030 U4 — *"cannot simply be composed"* is INCOMPLETE.** **B1355** (SM branch only) builds the
+literature's own conical-singularity mechanism for E₆ — *"the E₆ analogue of Acharya–Witten's U(N)
+point"*, one 27 per apex. The outside bench, reading the G₂-MSSM **the same day, independently**, found
+what this seat missed: *"**Assumption 2 is B1355's open problem, assumed**."* **The programmes CAN be
+composed — along B1355.**
+**(3) *"Both routes to an index of 3 are shut"*** is right about the index but sits beneath **B307**
+(no hyperbolic knot has a C₃ trace field), **B1381** (SM, PROVED: rank-one `h¹ ≠ 2` on every level),
+**B1398** (every menu completion gives an even count) — **and does not reach B1355's apex route.**
+**(4) xB021** — main's **S24/B1429** verified it and sharpened it against itself: A6/A7 are the
+**kernel** on the sister orbit, not a point stabiliser, so moving to the sibling recovers nothing; and
+twelfths mod ½ are a group of **six**.
+
+**TWO CELLS COMPUTED.**
+**C1 — the generation cap and the thermodynamic side share a root.** B1381's mechanism is `Mⁿ` never
+scalar. **Positive entropy is SUFFICIENT for it:** 8 hyperbolic monodromies never scalar to `n = 40`;
+elliptic controls hit `±I` at `n = 2, 3, 3` (the test discriminates); parabolic is entropy-zero and
+never scalar (**the converse is false**). **It is the POSITIVITY of the entropy — not the golden value,
+not the minimality — that caps the count.**
+**C2 — E65 on xB031's 9 243 banked modules:** **1 059 self-dual modules (`ψ² = 1`), every one at
+`I = 0`, kill fired 0 times; all 576 nonzero modules carry `ψ² ≠ 1`.** **xB031's index is a TWIST
+effect, not a `Sym^m` effect.**
+
+**INTEGRATION HAZARDS — the owner's decision.**
+**Lead numbers collide:** no uniqueness check on `OPEN_LEADS` anywhere. **On merge, L223 and L224 would
+each exist three times and L225 twice**; main already carries duplicate L160/L222/L223/L224, and **its
+renumbering of the fork's duplicate L220 to L223 created a new collision.** Recorded as a hazard, **not
+renumbered** — the fix is a scheme binding every seat. **Error classes diverge:** main at E83, this
+branch at E82. **The same withdrawal is banked twice:** B1419 on main, B1376 on the SM seat.
+
+**ROADMAP.** **R58-3 RESOLVED BY PORT** — main fixed `test_b288` on **2026-09-16, one commit after this
+branch forked**; ported byte-identically, 4 passed. **A debt paid the day it was filed.** **R58-1/R58-2
+UNBLOCKED** — mint as **E84/E85**. **The physics priority is reordered: the `h¹`-index route is
+structurally exhausted; B1355's apex route is the live bridge to the literature**, conditional on
+L221's 27̄ sector. xB031's remainder demoted. **`cs(M*) = −cs(M)`** is now load-bearing on **two**
+branches.
+
+**Also read, not adopted here:** the audit seat's R34–R54 physical-bridge sequence (heavily fenced:
+*"Not a numerical coupling, selected q, pole-mass law, mirror-only mechanism or physical chirality"*);
+the SM seat's B1387 (`N = ±2`), B1388 (*"UNSTABLE; physical reading retired as sealed"*), B1389
+(*"whole generations from the 27, anomalies from the 78"*); main's S26/B1431 (the 3d index **does**
+separate the object from its sibling, correcting S23); memo 236 (`already_banked.py` does not read
+`papers/` — a real gap that **did not** cause xB033, which was simply not running the tool).
+
+**Gate 5 absolute. No value. Nothing to `CLAIMS.md`.**
