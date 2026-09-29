@@ -274,3 +274,13 @@ inside: the index exists only off the semisimple set.**
 > **the hypotheses are.** **One wall, three coats: Friedmann–Witten's `h¹ = 0` bought with finite
 > `π₁`, Fried's acyclic-and-unitary, and the record's chirality index which requires `h¹ ≠ 0` and a
 > non-semisimple module. The thermodynamic route requires STRICTLY MORE than the topological one.**
+
+## AMENDMENT 10 (2026-09-29) — a load-bearing statement with NO source anywhere in the record: recorded, not pursued
+
+| statement | grade | load-bearing for | what would discharge it |
+|---|---|---|---|
+| **`cs(M*) = −cs(M)`** — the Chern–Simons invariant changes sign under orientation reversal | **USED-NOT-READ** — relied on repeatedly, **quoted from no source in any arc on any branch** | xB021 (A6/A7 act by negation), xB023 W0, **xB033's entire derivation** (`cs ≡ −cs (mod 1)` ⟹ `cs ∈ {0, ½}`), and **main's S24 / B1429** (*"both are fixed by the mirror"*) — **load-bearing on two branches** | a quotation from a primary source (Neumann's CS papers or Meyerhoff's cusped definition are the natural candidates), read at source, with its hypotheses transcribed — in particular whether it holds **exactly**, or only modulo the stated indeterminacy (`½` cusped, `1` closed) |
+
+**Recorded on the owner's instruction (*"just record"*); not pursued in this pass.** The analogous
+`η(M*) = −η(M)` that B1239's route uses is in the same state. **Until read, the register's rule applies:
+it may motivate, it may not carry a load-bearing step alone — and at present it carries several.**
