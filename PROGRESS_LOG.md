@@ -16021,3 +16021,22 @@ Then the census ran: all 694 classes of order ≤ 12 on the four links.
   in a closed-form check. Both are logged (E52).
 
 Lock: `tests/test_b1501_the_torus_link_census.py`. The fast lane runs on the banked tree. 0 of 19.
+
+## 2026-09-29 — B1502: the local models' chirality
+
+The owner said to take the next step I recommended: what chirality do B1501's two torus models put at a cusp point? When I sat down to
+seal it, the answer turned out to follow from standard theorems, so there was nothing open to seal. I banked it as proved and checked it
+with my own code.
+- **What forces chirality at a cone point.** The record already uses the rule (B1353, B1360). A particular kind of field is needed at
+  the point, a U(1) coming from M-theory's 3-form on a 2-cycle of the link. Neither model has one: whenever a torus-linked locus exists,
+  the link has no such 2-cycles rationally. The torus itself is null-homologous too.
+- **The phases.**
+  - The S³ × S³ model smooths out in three ways, and in each the torus end is simply filled in along one of its three shortest
+    directions. A filling contributes nothing.
+  - The flag manifold's model cannot smooth, because its symmetry permutes the three smoothings.
+- **Where the choice sits.** It turned out to be settled by earlier work plus a small check. At a cusp point the frame's doublet sectors
+  have no choice at all. Only the spin-0 sectors do, and those are the ones that carry the frame's count.
+- **So** the simplest local physics does not supply the chirality, and the frame's own SL(2)_β data cannot either. It stays an input
+  that treats a charge and its opposite differently.
+
+Lock: `tests/test_b1502_the_local_models_chirality.py`. 0 of 19.

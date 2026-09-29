@@ -1,0 +1,312 @@
+{
+ "cohomology": {
+  "S6": {
+   "Betti": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "d^2 on invariant forms": 1.577702161086713e-15,
+   "outer": {}
+  },
+  "S3xS3": {
+   "Betti": [
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1
+   ],
+   "d^2 on invariant forms": 4.440892098500623e-16,
+   "outer": {
+    "sigma": {
+     "2": {
+      "dim": 0,
+      "trace": 0.0,
+      "invariants": 0
+     },
+     "3": {
+      "dim": 2,
+      "trace": -1.0,
+      "invariants": 0,
+      "eigenvalues": [
+       "(-0.5+0.8660254038j)",
+       "(-0.5-0.8660254038j)"
+      ]
+     },
+     "4": {
+      "dim": 0,
+      "trace": 0.0,
+      "invariants": 0
+     }
+    },
+    "sigma^2": {
+     "2": {
+      "dim": 0,
+      "trace": 0.0,
+      "invariants": 0
+     },
+     "3": {
+      "dim": 2,
+      "trace": -1.0,
+      "invariants": 0,
+      "eigenvalues": [
+       "(-0.5+0.8660254038j)",
+       "(-0.5-0.8660254038j)"
+      ]
+     },
+     "4": {
+      "dim": 0,
+      "trace": 0.0,
+      "invariants": 0
+     }
+    }
+   }
+  },
+  "CP3": {
+   "Betti": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "d^2 on invariant forms": 2.03848008417741e-15,
+   "outer": {}
+  },
+  "F12": {
+   "Betti": [
+    1,
+    0,
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "d^2 on invariant forms": 5.4609684230742655e-18,
+   "outer": {
+    "R_P": {
+     "2": {
+      "dim": 2,
+      "trace": -1.0,
+      "invariants": 0,
+      "eigenvalues": [
+       "(-0.5+0.8660254038j)",
+       "(-0.5-0.8660254038j)"
+      ]
+     },
+     "3": {
+      "dim": 0,
+      "trace": 0.0,
+      "invariants": 0
+     },
+     "4": {
+      "dim": 2,
+      "trace": -1.0,
+      "invariants": 0,
+      "eigenvalues": [
+       "(-0.5+0.8660254038j)",
+       "(-0.5-0.8660254038j)"
+      ]
+     }
+    },
+    "R_P^2": {
+     "2": {
+      "dim": 2,
+      "trace": -1.0,
+      "invariants": 0,
+      "eigenvalues": [
+       "(-0.5+0.8660254038j)",
+       "(-0.5-0.8660254038j)"
+      ]
+     },
+     "3": {
+      "dim": 0,
+      "trace": 0.0,
+      "invariants": 0
+     },
+     "4": {
+      "dim": 2,
+      "trace": -1.0,
+      "invariants": 0,
+      "eigenvalues": [
+       "(-0.5+0.8660254038j)",
+       "(-0.5-0.8660254038j)"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "M1 phases": [
+  {
+   "phase": 1,
+   "t angle": 0.7853981633974483,
+   "fixed seeds": 199,
+   "largest off-diagonal part": 3.0954729259585204e-32,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 1,
+   "t angle": 0.6283185307179586,
+   "fixed seeds": 200,
+   "largest off-diagonal part": 5.066107660933973e-32,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 1,
+   "t angle": 0.8975979010256552,
+   "fixed seeds": 199,
+   "largest off-diagonal part": 2.010157130808511e-31,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 2,
+   "t angle": 0.7853981633974483,
+   "fixed seeds": 197,
+   "largest off-diagonal part": 5.195933372044212e-32,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 2,
+   "t angle": 0.6283185307179586,
+   "fixed seeds": 200,
+   "largest off-diagonal part": 1.0800948935458474e-31,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 2,
+   "t angle": 0.8975979010256552,
+   "fixed seeds": 200,
+   "largest off-diagonal part": 4.100226230303351e-32,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 3,
+   "t angle": 0.7853981633974483,
+   "fixed seeds": 200,
+   "largest off-diagonal part": 4.2931406489600986e-32,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 3,
+   "t angle": 0.6283185307179586,
+   "fixed seeds": 200,
+   "largest off-diagonal part": 1.2913540381713617e-31,
+   "tangent dimension": 3
+  },
+  {
+   "phase": 3,
+   "t angle": 0.8975979010256552,
+   "fixed seeds": 200,
+   "largest off-diagonal part": 4.930380657631326e-32,
+   "tangent dimension": 3
+  }
+ ],
+ "M1 collapsing circles": [
+  {
+   "phase": 1,
+   "collapsing circle (q-vector)": [
+    1,
+    0,
+    0
+   ],
+   "norm (2 pi)^2": 0.666666666667,
+   "lattice minimum": 0.666666666667,
+   "shortest": true
+  },
+  {
+   "phase": 2,
+   "collapsing circle (q-vector)": [
+    0,
+    1,
+    0
+   ],
+   "norm (2 pi)^2": 0.666666666667,
+   "lattice minimum": 0.666666666667,
+   "shortest": true
+  },
+  {
+   "phase": 3,
+   "collapsing circle (q-vector)": [
+    0,
+    0,
+    1
+   ],
+   "norm (2 pi)^2": 0.666666666667,
+   "lattice minimum": 0.666666666667,
+   "shortest": true
+  }
+ ],
+ "M2 phases": {
+  "R_P": {
+   "U(2)_j -> n U(2)_j n^-1": {
+    "(0, 1)": "(1, 2)",
+    "(0, 2)": "(0, 1)",
+    "(1, 2)": "(0, 2)"
+   },
+   "preserved": []
+  },
+  "R_P^2": {
+   "U(2)_j -> n U(2)_j n^-1": {
+    "(0, 1)": "(0, 2)",
+    "(0, 2)": "(1, 2)",
+    "(1, 2)": "(0, 1)"
+   },
+   "preserved": []
+  },
+  "transposition (12), excluded": {
+   "U(2)_j -> n U(2)_j n^-1": {
+    "(0, 1)": "(0, 1)",
+    "(0, 2)": "(1, 2)",
+    "(1, 2)": "(0, 2)"
+   },
+   "preserved": [
+    "(0, 1)"
+   ]
+  }
+ },
+ "no C-field U(1) and no rational flux at the apex": true,
+ "torus links": {
+  "S3xS3": "H_2 = 0 (Betti above)",
+  "F12": {
+   "Weyl points": 6,
+   "worst |t.p - p| over the torus": 1.5830122721932667e-16
+  }
+ },
+ "M1 orbit types": {
+  "principal stabiliser dim (orbit dim 9 - s)": 3,
+  "zero-section stabiliser dim": 6
+ },
+ "frame sectors at a cone point": {
+  "spin 1/2 link cohomology (all z sampled)": [
+   [
+    0,
+    0,
+    0
+   ]
+  ],
+  "spin 0 link cohomology at z = 1": [
+   1,
+   2,
+   1
+  ],
+  "spin 0 link cohomology at z != 1": [
+   [
+    0,
+    0,
+    0
+   ]
+  ]
+ },
+ "all checks pass": true
+}

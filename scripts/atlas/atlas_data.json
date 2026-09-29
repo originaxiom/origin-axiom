@@ -8792,6 +8792,24 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1502": {
+   "slug": "the local models chirality",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B150": {
    "slug": "class s coincidence",
    "motifs": [

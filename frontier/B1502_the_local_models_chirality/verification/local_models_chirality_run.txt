@@ -1,0 +1,18 @@
+B1502 THE LOCAL MODELS' CHIRALITY -- own-code verification
+(1) S6     Betti [1, 0, 0, 0, 0, 0, 1] (d^2 = 1.6e-15 on invariant forms)
+(1) S3xS3  Betti [1, 0, 0, 2, 0, 0, 1] (d^2 = 4.4e-16 on invariant forms); sigma on H^2, H^3, H^4: traces [0.0, -1.0, 0.0], invariants [0, 0, 0]; sigma^2 on H^2, H^3, H^4: traces [0.0, -1.0, 0.0], invariants [0, 0, 0]
+(1) CP3    Betti [1, 0, 1, 0, 1, 0, 1] (d^2 = 2.0e-15 on invariant forms)
+(1) F12    Betti [1, 0, 2, 0, 2, 0, 1] (d^2 = 5.5e-18 on invariant forms); R_P on H^2, H^3, H^4: traces [-1.0, 0.0, -1.0], invariants [0, 0, 0]; R_P^2 on H^2, H^3, H^4: traces [-1.0, 0.0, -1.0], invariants [0, 0, 0]
+    => M2 (every torus-fixing element is L_a R_P^{+-1}): H^2(Y/Gamma; Q) = H^4(Y/Gamma; Q) = 0 for every finite Gamma containing one: True
+    => M1: H^2(S3 x S3) = H^4 = 0, so H^2(Y/Gamma; Q) = H^4(Y/Gamma; Q) = 0 for every finite Gamma; sigma on H^3: trace -1.0 (L(sigma) = 1 - (-1.0) + 1 = 3, B1501's Lefschetz number)
+(2) torus links: S3 x S3 has H_2 = 0; on F12 the maximal torus fixes the 6 Weyl points (|t.p - p| <= 1.6e-16), so its orbit the Coxeter torus is null-homologous
+(3) M1: SU(2)^3 on X_k = S3 x H: stabiliser dimension 3 at a principal point (orbit S3 x S3), 6 on the zero section (orbit S3)
+    phase X_1: fixed set of (t, t, t) found from [199, 200, 199] seeds per element, off-diagonal part <= 2.0e-31, tangent dimension [3]; the circle collapsing at p = 0 is [1, 0, 0], norm 0.666666666667 (2 pi)^2 = the lattice minimum: True
+    phase X_2: fixed set of (t, t, t) found from [197, 200, 200] seeds per element, off-diagonal part <= 1.1e-31, tangent dimension [3]; the circle collapsing at p = 0 is [0, 1, 0], norm 0.666666666667 (2 pi)^2 = the lattice minimum: True
+    phase X_3: fixed set of (t, t, t) found from [200, 200, 200] seeds per element, off-diagonal part <= 1.3e-31, tangent dimension [3]; the circle collapsing at p = 0 is [0, 0, 1], norm 0.666666666667 (2 pi)^2 = the lattice minimum: True
+(4) M2: R_P maps the U(2)_j containing T as {'(0, 1)': '(1, 2)', '(0, 2)': '(0, 1)', '(1, 2)': '(0, 2)'}; preserved: none
+(4) M2: R_P^2 maps the U(2)_j containing T as {'(0, 1)': '(0, 2)', '(0, 2)': '(1, 2)', '(1, 2)': '(0, 1)'}; preserved: none
+(4) M2: transposition (12), excluded maps the U(2)_j containing T as {'(0, 1)': '(0, 1)', '(0, 2)': '(1, 2)', '(1, 2)': '(0, 2)'}; preserved: ['(0, 1)']
+(5) the frame's sectors on the cusp torus (geometric representation, B1368): spin 1/2 link cohomology [(0, 0, 0)] for every z sampled (acyclic: at a cone point the doublets carry no choice); spin 0: [1, 2, 1] at z = 1 (the choice, B1500), [(0, 0, 0)] otherwise
+ALL CHECKS PASS
+6.1 s

@@ -5,8 +5,8 @@
 
 # The closed-door map (generated)
 
-**798 recorded closures — of which 617 are CLASSIFIED by mechanism and
-181 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
+**799 recorded closures — of which 617 are CLASSIFIED by mechanism and
+182 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
 number. A programme whose firewall works is mostly negatives; this is the shape of them.
@@ -14,7 +14,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | mechanism | doors | facts not computed |
 |---|---|---|
 | `other` | 359 | 343 |
-| `unrouted-unclassified` | 181 | 181 |
+| `unrouted-unclassified` | 182 | 182 |
 | `kind-mismatch` | 51 | 4 |
 | `genericity` | 38 | 1 |
 | `no-landing-site` | 30 | 1 |
@@ -68,7 +68,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).` | 1 |  |
 | `Killed by exhaustion and then by theorem. All 706 464 SM lines of Y_9 re-enumerated with every component's survival in every generation recorded: 0 split lines, and D kept in all three generations on every line (Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines). Theorem: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; the alphabet's letters have order 1, 19 or 38, their squares have odd order and are never family characters, and the family characters are the only characters that project anything (B1278's support theorem). An exact structural model built from the support theorem and the weight table reproduces every count of B1278.` | 1 |  |
 
-## Closures whose discriminating fact was not computed (536)
+## Closures whose discriminating fact was not computed (537)
 
 The standing rule is that a negative is only as sound as the in-sandbox computation of
 its discriminating fact. **B799 resolved all of these** — see `frontier/B799_uncomputed_doors/`.
@@ -611,3 +611,4 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B1398` | THE FRAME'S VERDICT ON THREE (the owner's goal, 2026-09-28): in the seat's frame -- 7d E6 super-Yang-Mills on  | `unrouted-unclassified` |
 | `B1399` | THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matt | `unrouted-unclassified` |
 | `B1501` | THE TORUS-LINK CENSUS, run as sealed (d780b639; the owner's go; after B1500): in the simplest G2 cone singular | `unrouted-unclassified` |
+| `B1502` | THE LOCAL MODELS' CHIRALITY (after B1501; the owner's go on the next step): B1501's two torus models force no  | `unrouted-unclassified` |

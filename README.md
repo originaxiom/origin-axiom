@@ -375,6 +375,11 @@ emitted value. The structure is the object's; the values are the observer's.
 > six-dimensional spaces of their kind), a singular line that ends on the point along a torus is always of the SU(n) kind, never of
 > E₆'s kind, and the torus is always the hexagonal one. So E₆ would have to break at the point, and only the most symmetric cusps
 > fit. m004's own cusp is not one of them.*
+>
+> *And (B1502), what those models put at the point: nothing that anything forces. The mechanism that makes chiral particles appear at
+> such a point needs a particular kind of field there (from the 3-form of M-theory), and none of these models has one. In one model the
+> point smooths out into an ordinary filled-in end in every way it can smooth. The other cannot smooth at all, but carries nothing that
+> would demand chirality either.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

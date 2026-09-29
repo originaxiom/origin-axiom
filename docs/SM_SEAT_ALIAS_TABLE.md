@@ -201,3 +201,5 @@ even on every resolved member; the census's hexagonal cusps sit on four members,
 *Update 2026-09-29 (later):* B1501 sealed (the torus-link census: which cones over the four homogeneous nearly Kähler 6-manifolds, modulo finite automorphism groups, have an ADE locus coned over a torus, of what type and shape; not run); next arc B1502.
 
 *Update 2026-09-29 (B1501 run):* B1501 run as sealed at the owner's word (PROVED: in the cones over the four homogeneous nearly Kähler 6-manifolds a torus-linked ADE locus is always A-type and hexagonal: SU(n) over S³ × S³'s diagonal torus, SU(3) over the flag manifold's Coxeter torus). Next arc B1502; main is asked, as before, to reserve B1500–B1599 for this branch.
+
+*Update 2026-09-29 (B1502):* B1502 used (PROVED, not sealed: the two torus models force no chirality at a cusp point: b₂ = b₄ = 0 on every quotient's link with a torus locus, the torus null-homologous; S³ × S³'s smooth phases are fillings, the flag manifold's model has none). Next arc B1503.

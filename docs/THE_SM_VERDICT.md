@@ -857,3 +857,11 @@ left it.
 >   m004's own. Sealed census, P1 and P2 YES as the priors said.
 >
 > 0 of 19 (`frontier/B1501_the_torus_link_census`).
+
+> **Currency note (2026-09-29, B1502): those local models force no chirality.**
+> - In every finite quotient of these cones with a torus-linked locus, the link has no C-field U(1) and no rational flux, and the
+>   torus is null-homologous. So the anomaly argument that forces chiral fermions at a conical point has nothing to act on.
+> - S³ × S³'s model is a Dehn filling (no chirality) in each of its smooth phases. The flag manifold's model has none.
+> - The cusp point's chirality is therefore not supplied by the simplest local physics.
+>
+> 0 of 19 (`frontier/B1502_the_local_models_chirality`).

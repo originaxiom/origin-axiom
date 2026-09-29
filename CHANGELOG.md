@@ -1,5 +1,29 @@
 # Changelog
 
+## B1502 — the local models' chirality: B1501's two torus models force no chirality at a cusp point (PROVED, not sealed)
+
+- **The occasion.** The owner's go on the next step: what chirality do the two torus models put at a cusp point? Designing the seal, I
+  found it decided at design time, so it is banked as PROVED with own-code verification (B1396's precedent).
+- **The theorem.**
+  - Every finite quotient of these cones with a torus-linked locus has H²(Y/Γ; ℚ) = H⁴(Y/Γ; ℚ) = 0: no C-field U(1), no rational
+    flux. On F₁,₂ this is because R_P acts on H² and H⁴ as the reflection representation, with no invariants.
+  - The torus link is null-homologous.
+  - So the anomaly criterion the record uses (B1353, B1360; Witten; Acharya–Witten) forces nothing at the apex.
+  - S³ × S³'s model is a Dehn filling along a shortest vector (an A₂ root) in each of its three Bryant–Salamon phases.
+  - The flag manifold's model has no equivariant phase, since R_P permutes the three U(2) ⊃ T.
+- **Checked** (`local_models_chirality.py`, 6.1 s):
+  - relative Lie algebra cohomology of all four links, with the outer elements' traces (σ on H³ −1, giving L(σ) = 3 as in B1501);
+  - the Weyl points fixed by T;
+  - the fixed sets in M1's smoothings, by Newton;
+  - the U(2)_j permutation.
+- **Where the choice lives.** At a cone point the frame's SL(2)_β doublets are acyclic on the cusp torus (Koszul complex, every z
+  sampled), so they carry no choice. The choice sits on the spin-0 sectors with trivial cusp character, where the frame's count lives.
+- **What it means.** The simplest local physics does not supply the cusp point's chirality. It stays a charge-odd input, which SL(2)_β
+  data cannot provide.
+- **Routed.** The killed reading goes into the kill graph.
+
+Lock: `tests/test_b1502_the_local_models_chirality.py`. 0 of 19.
+
 ## B1501 — the torus-link census, run as sealed: in the simplest G₂ cones every torus-linked ADE locus is A-type and every such torus is hexagonal
 
 - **The question** (sealed at d780b639). Which cones over the four homogeneous nearly Kähler 6-manifolds, modulo finite automorphism

@@ -3367,5 +3367,15 @@ This job is not optional, whichever answers the first two questions get. `fronti
   - or a model outside the census.
   `frontier/B1501_the_torus_link_census`.
 
+**Status (2026-09-29, B1502): the simplest local models force no chirality at a cusp point.**
+- Whenever these cones have a torus-linked locus, the link has no C-field U(1) and no rational flux (b₂ = b₄ = 0), and the torus is
+  null-homologous. The anomaly criterion (B1353, B1360) therefore forces nothing at the point.
+- S³ × S³'s model is a Dehn filling along a shortest vector in each of its three smooth phases. The flag manifold's model has no smooth
+  phase.
+- At a cone point the frame's SL(2)_β doublets have acyclic cusp local systems and carry no choice (B1368, B1372's Lemma A; checked
+  here). The choice lives on the spin-0 sectors with trivial cusp character, which are the ones that carry the frame's count.
+- So question 1 is a charge-odd datum these models do not carry. It is not supplied by SL(2)_β data either, which are charge-blind.
+  `frontier/B1502_the_local_models_chirality`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

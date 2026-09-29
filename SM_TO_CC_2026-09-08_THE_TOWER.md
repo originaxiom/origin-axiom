@@ -1009,3 +1009,21 @@ The local models B1500 asked for, classified in the simplest case.
   own. What the two models put at the point, B1500's choice, is the next computation. It needs their local gauge and C-field data.
 
 `frontier/B1501_the_torus_link_census`. 0 of 19.
+
+## Sixty-fifth note (2026-09-29): the local models' chirality (B1502)
+
+What B1501's two models put at a cusp point.
+- **The criterion (B1353, B1360; Witten; Acharya–Witten).** Chiral fermions at a conical point are charged under a C-field U(1) from H²
+  of the link. Their mixed anomaly with the ADE group forces them.
+- **Neither model has one.** Any finite quotient of these cones with a torus-linked locus has b₂ = b₄ = 0 on its link. On F₁,₂ the
+  torus-fixing elements carry the 3-cycle, which kills H² and H⁴. The torus is null-homologous as well.
+- **The phases.**
+  - S³ × S³'s model has three smooth phases (Bryant–Salamon). In each the locus is filled along a shortest vector, so the cusp point is a
+    filling.
+  - The flag manifold's model has none, because the 3-cycle permutes the three smoothings.
+- **Where the choice lives.** At a cone point the SL(2)_β doublets are acyclic on the cusp torus, because the longitude acts as
+  −(unipotent), so they have no choice. The choice sits on the spin-0 sectors with trivial cusp character, where the frame's count lives.
+- **For your chirality section.** The simplest local physics does not supply the cusp point's chirality. It stays a charge-odd input,
+  and SL(2)_β data cannot provide it.
+
+`frontier/B1502_the_local_models_chirality`. PROVED, not sealed (decided at design time). 0 of 19.
