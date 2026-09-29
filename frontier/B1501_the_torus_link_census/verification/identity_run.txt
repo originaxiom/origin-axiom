@@ -1,0 +1,12 @@
+B1501 THE TORUS-LINK CENSUS, run as sealed. PREREGISTRATION sha256 51b6730bd362e34656d3dfb2697e46af91a9f6c95739986bb7885997e5ac345d (matches SEAL_LEDGER)
+BANKED IDENTITY
+  S6     J^2 = -1 to 1.3e-15, J orthogonal to 1.3e-15, Ad(K) commutes with J to 5.6e-15; listed outer elements preserve J: none listed; excluded reverse J: ['antipodal map (right N(SU(3))/SU(3))']
+  S3xS3  J^2 = -1 to 1.3e-16, J orthogonal to 2.2e-16, Ad(K) commutes with J to 2.9e-15; listed outer elements preserve J: ['sigma', 'sigma^2']; excluded reverse J: ['transposition (12)', 'transposition (23)']
+  CP3    J^2 = -1 to 6.7e-16, J orthogonal to 7.8e-16, Ad(K) commutes with J to 4.9e-15; listed outer elements preserve J: none listed; excluded reverse J: ['real structure (right N(K)/K)']
+  F12    J^2 = -1 to 7.7e-16, J orthogonal to 4.4e-16, Ad(K) commutes with J to 4.4e-16; listed outer elements preserve J: ['R_P', 'R_P^2']; excluded reverse J: ['right transposition (12)', 'right transposition (23)']
+  S6: G2 preserves the octonion cross product to 3.6e-14; coset J = +1 x (x cross .) to 5.9e-15
+  S6 control S6 L(1/13,3/13) (order 13, not in the census): two antipodal points; census pipeline agrees
+  S6 control S6 L(1/13,12/13) (order 13, not in the census): a great 2-sphere; census pipeline agrees
+  S6 control S6 L(2/13,5/13) (order 13, not in the census): two antipodal points; census pipeline agrees
+  S3xS3 diagonal-conjugation torus (order-13 control): Gram [[0.666666666667, -0.333333333333], [-0.333333333333, 0.666666666667]] (2 pi)^2, hexagonal True; the diagonal U(1) fixes it pointwise (vector field 6.7e-15); H_F continuous: U(1)
+  banked identity: PASS
