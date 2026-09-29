@@ -1105,3 +1105,18 @@ Commit/push/server confirmation precedes scientific imports and runs.
 | `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/verify.py` | `0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805` |
 | `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/verify_v2.py` | `226834120941e3c6d041e93794d366a020dd10ab3a563d2b67ce2615398a34ec` |
 | `reports/physical_bridge_2026_09_05/received_r54/reports/projective_escape_2026_09_21/verify.py` | `603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18` |
+
+## R55 finite-norm neutral census, September 29, 2026
+
+Drafted September 28; sealed before first scientific execution.
+Conditional authored domain comparison plus exact restriction tests;
+not a numerical gap, physical chirality or independent analytic review.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_DESIGN.md` | `8ad78c127c865a51411da8313e6163d447396b523e806d902cc1d587aeff3c89` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_PROOF.md` | `6c4013920390a5835af30eff49b79caf399baa9f5ca160a42351bc745b0df421` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_PRIOR.md` | `8907f94d51992f28085824d80b15337ca18312f14481e15d0a24f5f59767139c` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_INPUTS.json` | `235c236071c68a0503189248f8d5ea73fc219ea511a6e7179921264ae988a969` |
+| `reports/physical_bridge_2026_09_05/neutral_census.py` | `515692c4076a3bcb627fd49567a28935369f846264dd7b9cd251b35e7662a5a5` |
+| `tests/test_physical_bridge_neutral_census.py` | `f9518296b77f284f317222240e70ec27e79ab2d7c97a5a3bc715b3cb6c4baddf` |
