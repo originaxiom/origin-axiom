@@ -1,0 +1,75 @@
+{
+  "scope": "Pinned inputs; foreign parent mathematics will be replayed separately, global harmonic/source claims are read only",
+  "source_paths": [
+    {
+      "repo": "own",
+      "pin": "e94abeb1aaef0b6b5f11dff255429375fd3b8e57",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "repo": "own",
+      "pin": "e94abeb1aaef0b6b5f11dff255429375fd3b8e57",
+      "path": "reports/physical_bridge_2026_09_05/COVER_ACTION_DESIGN.md",
+      "sha256": "c7a40c44ae5c454418a27c7b89dec428532270d963a822c229b0a2a923a89651",
+      "bytes": 8694
+    },
+    {
+      "repo": "own",
+      "pin": "e94abeb1aaef0b6b5f11dff255429375fd3b8e57",
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2",
+      "bytes": 6559
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/m6_parent_admission_2026_09_27/FINDINGS.md",
+      "sha256": "5db98752aa2be9472a7fc059629ad7445c1938b07825afa2c4d0fcec27eb3416",
+      "bytes": 6545
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/m6_parent_admission_2026_09_27/PROOF.md",
+      "sha256": "9578bca602f20324a8a108b030d581d4b4954517484a8842fc9c1f3a99ae35f3",
+      "bytes": 6964
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/m6_parent_admission_2026_09_27/DESIGN.md",
+      "sha256": "f3745c6f6456b2638ec5b5496852626131e85885a0160d5bf6e464f30f6004f4",
+      "bytes": 5151
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/m6_parent_admission_2026_09_27/verify_parent_admission.py",
+      "sha256": "edd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f",
+      "bytes": 6441
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+      "sha256": "ee6e685e648b9f8e86286457d021bd1b5618222ef2b1091f3face5f858f5fbf2",
+      "bytes": 2351
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/m6_parent_admission_2026_09_27/INPUTS.json",
+      "sha256": "2294dd33621abab56e777555bf90b32c39654d624dc7bbef89066a7acda6d8ec",
+      "bytes": 766
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/m6_parent_admission_2026_09_27/SEAL.json",
+      "sha256": "823ab98c7450fe7a967ff49e2e795f9fa126bd6f70d7a6e37e3a831adca0e319",
+      "bytes": 1531
+    }
+  ]
+}

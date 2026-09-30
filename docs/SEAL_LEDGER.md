@@ -1177,3 +1177,15 @@ Original files/runs preserved; no scientific failure or physical claim.
 | `reports/physical_bridge_2026_09_05/COVER_ACTION_CUBIC_DESIGN.md` | `3020fd5f5bdb0dbc3a23931fb64138188ccd8598ed493d818aa27483dbb3b44e` |
 | `reports/physical_bridge_2026_09_05/cover_action_cubic_control.py` | `29a4515367c6a7190bb7711f7bb605b43e5577a1d498ed5bf4d2be1037c13937` |
 | `tests/test_physical_bridge_cover_action_cubic.py` | `62a3683adb51f8dd9f24780c022e85ea58e5a1dba3035e5c9e29a26ea3e0134d` |
+
+## R59 actual parent tensors, September 30, 2026
+
+Pre-execution parent dictionary and nonzero cubic support checks. No physical
+spectrum, normalized coupling, selected background or end law.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/PARENT_TENSORS_DESIGN.md` | `ceac4498c65663eceada2bacfead9826bf3492f6d8b885ec0084dabd843ca92d` |
+| `reports/physical_bridge_2026_09_05/PARENT_TENSORS_INPUTS.json` | `7cc8fb655eb96b6666dc5ea28cf808dc730360b3a1e7c61c14e65b367effab73` |
+| `reports/physical_bridge_2026_09_05/parent_tensors.py` | `6bc0c5a1a6f39090308e24804ef19b7937155fcb02c9af3d2190387768f6f891` |
+| `tests/test_physical_bridge_parent_tensors.py` | `b604d8eef98b7a78ea698b50c244aa401110d350daf9210608172f4a5db79717` |
