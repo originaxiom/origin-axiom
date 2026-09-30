@@ -1305,3 +1305,17 @@ Pre-execution population clarification of the same revision note:
 | path | SHA-256 |
 |---|---|
 | `reports/physical_bridge_2026_09_05/CONE_MATCH_PREEXEC_REVISION.md` | `0b48e3e03da521bc9613d0aff1f711645fbf1e731d9433bd4da8552168b9b53d` |
+
+## R66 nilpotent cone pre-execution seal September 30 2026
+
+Actual canonical peripheral pair, changed rectangular cone end, both full
+field equations and the separate old-domain admission test. No scientific
+import or execution precedes this seal.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NILPOTENT_CONE_DESIGN.md` | `eb76c132b4145138ab7afddb31719de491fa7df43b0a61d25298324ff44e9e23` |
+| `reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md` | `d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756` |
+| `reports/physical_bridge_2026_09_05/NILPOTENT_CONE_INPUTS.json` | `cdd35d7a35099fe024b41832e8b9eb66fd83c23f1503e9f009d5b170d48566ba` |
+| `reports/physical_bridge_2026_09_05/nilpotent_cone.py` | `820bd1e6cf820e6806086300a0712b4f352c9e575db26764bf3d3ecb2daf55a9` |
+| `tests/test_physical_bridge_nilpotent_cone.py` | `5b7d99cb697ebaed21d955465e95e79cf1bc923623240cdd9d28d996016a3503` |

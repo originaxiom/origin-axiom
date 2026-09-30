@@ -1,0 +1,67 @@
+{
+  "scope": "Own fixed mathematical inputs; external theorem metadata, not a physical-domain certificate",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/canonical_cusp.py",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "a8e5dd6a8d71dfe534c97f48812b91afc67c5946ccc404e7b8540c567105dd70",
+      "bytes": 4884
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932",
+      "bytes": 7880
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "93836bfe7ca0be900caa37d2f9dee45435a881c29fff2b461458bc37bd8982a7",
+      "bytes": 17847
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_GAUGE_PROOF.md",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "72a2d08198ae46c2cc32ce4817fb33e1d6e0c89156e7943ba9ff3857a3768b15",
+      "bytes": 8062
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_INTERACTION_DESIGN.md",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "0e17fbd86dc5db2fb00b6c397d70e5bac89d5f7095757b820fdf3935b8622b4d",
+      "bytes": 9115
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_MATCH_PROOF.md",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "7e412809894736a63e3ffb00f817650fedf883f2f91ebc51fea3177c843171d1",
+      "bytes": 8081
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_MATCH_RECEIPTS.json",
+      "commit": "de3a7a6f102669bf201adbea3faf53ca8d786d87",
+      "sha256": "495166a4fe6b0df5fafb0e57a474dfbb5b909258aa3bf2854bedf0d77890e9a0",
+      "bytes": 38583
+    }
+  ],
+  "literature": [
+    {
+      "author": "Thomas C. Sideris",
+      "title": "Ordinary Differential Equations and Dynamical Systems",
+      "year": 2013,
+      "url": "https://web.math.ucsb.edu/~sideris/pdffiles/BookPublishedComplete.pdf",
+      "doi": "10.2991/978-94-6239-021-8",
+      "accessed": "2026-09-30",
+      "sha256": "f6195abed6890814f5d7973296f285219aacad4106d31774e47455734977d431",
+      "bytes": 2860518,
+      "read": "Full section 9.1, printed pages 155-163, PDF pages 162-170; rendered theorem pages visually verified",
+      "used": "Local Corollary 9.1 and approximation Theorem 9.2; original Carr proof not read; not the full book"
+    }
+  ]
+}
