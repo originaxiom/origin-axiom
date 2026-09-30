@@ -1,0 +1,15 @@
+{
+  "base_relator": [1, 2, -1, -2, 1, -2, -1, 2, 1, -2],
+  "base_longitude": [2, -1, -2, 1, 1, -2, -1, 2],
+  "M2_relators": [[3, -1, -2, -2, -1, 3, -2], [1, 2, -3, 1, -3, 2, 1, -3]],
+  "M2_meridian": [1],
+  "M2_longitude": [2, -3, 1, -2, -1, 3],
+  "M6_generators_in_M2": [[1, 1, 1], [2], [3, -1], [1, 2, -1], [1, 3, -1, -1], [1, 1, 2, -1, -1], [1, 1, 3]],
+  "M2_to_C3": [1, 0, 1],
+  "chi_exponents_mod5": [0, 1, -1],
+  "central_twists_mod5": [0, 1, 2, 3, 4],
+  "regular_C3": [[0, 0, 1], [1, 0, 0], [0, 1, 0]],
+  "diagram": "4_1",
+  "source_archive_sha256": "138d4b0623a51d2491570075f59472faad084a314b8acc8f37f1929db6acc4af",
+  "source_scope": "Literal word and seed definitions, not imported numerical answers."
+}

@@ -1274,3 +1274,18 @@ Original five files, unknown sign inference and failed tests stay frozen.
 | `reports/physical_bridge_2026_09_05/CONE_GAUGE_CONTROL_DESIGN.md` | `d51ec935b00a2ef5a582266517391a9ca0800aae262f2f4801547b73e6d45b0a` |
 | `reports/physical_bridge_2026_09_05/cone_gauge_control.py` | `14e88ee44f2e39378235581b17f7185d7124a909dcae27218cde8b11953bf34b` |
 | `tests/test_physical_bridge_cone_gauge_control.py` | `9bb3eea2fa5c624a60daf6853b9ab879c599a36c4a1d72a5ca992da827959e5e` |
+
+## R65 global peripheral cone matching, September 30, 2026
+
+Pre-execution necessary matching test with a positive abelian control.
+No whole-architecture exclusion or global harmonic existence claim.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_MATCH_DESIGN.md` | `da055989d8f77833b852691ebae24e47f2d4a6cc4f1093d6bfb7de568c02677e` |
+| `reports/physical_bridge_2026_09_05/CONE_MATCH_PROOF.md` | `7e412809894736a63e3ffb00f817650fedf883f2f91ebc51fea3177c843171d1` |
+| `reports/physical_bridge_2026_09_05/CONE_MATCH_INPUTS.json` | `5a409c11fb24f7f7d66972fbd77fc608a999e51872457608bd93221c57e5fb75` |
+| `reports/physical_bridge_2026_09_05/CONE_MATCH_TOPOLOGY.json` | `2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc` |
+| `reports/physical_bridge_2026_09_05/CONE_MATCH_SEEDS.json` | `a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0` |
+| `reports/physical_bridge_2026_09_05/cone_match.py` | `87a20844324a883d0c5bd7e24ac20e85209b09e1fb1bda32817bcfa59d1b615c` |
+| `tests/test_physical_bridge_cone_match.py` | `afc70b73b05dff49fd22380e7a954d3ff7232b953bf2d722879683d03bfc30c2` |
