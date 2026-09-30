@@ -1,5 +1,29 @@
 # Changelog
 
+## B1506 sealed: the level, before the complete census of s961 and M₆ is run
+
+- **The question (sL-5, the owner's first choice).** Is a count taken on a cover or on its quotient? What does the genesis's own
+  tower, with m004 as the base of every cover and its deck acting on every level, decide?
+- **Computed before the seal, and disclosed there.**
+  - m004 has one connected cover of degree 2 (m206) and one of degree 3 (s961), both cyclic.
+  - B1375's census is reproduced on B1381's mapping-torus presentation (M₁–M₄).
+  - B1378's deck word map is wrong for its own generators (y₅ = a⁵b). The deck is conjugation by a, in closed form.
+  - The seed of B1378's triplet has three members in its orbit under the root's deck ℤ/6, not six. τ³ acts by the ℤ/2 kernel of
+    SL(2) × SU(6) → E₆.
+- **Proved at seal.**
+  - Every finite-order locus is trivial on the cusp, on every level.
+  - A pullback keeps a single background's index.
+  - A background lifts to SL(2)_β × U(1)² iff its extension character is a square.
+  - m004's census is the unipotent alone, with index 0.
+  - The triplet descends to s961 as the deck orbit of one generation-shaped background D₀, with (−1)⁶, that does not lift.
+  - Ind D₀ on the root has count −gcd(n, 3) on Mₙ.
+  - The triplet's blocks are three distinct vacua (their extension characters differ by an order-4 character).
+- **Sealed.**
+  - s961: P1 |count| = 1 (~85%), P2 signs balanced (~80%), P3 all 12 non-square loci fire (~60%).
+  - M₆: P4 336 lifted backgrounds (~85%), P5 some but not all fixed by τ³ (~75%), P6 non-lifted ones exist (~70%), P7 the converse
+    of the s961 → M₆ correspondence (~75%), P8 no orbit of size 2 on M₄ or M₆ (~80%).
+- The sha256 is in SEAL_LEDGER. The findings document says sealed, not run. 0 of 19.
+
 ## B1505 — the orbifold links: no known G₂ cone over an orbifold link that is not a global quotient can model a cusp point (PROVED, not sealed)
 
 - **The question** (the owner's approved step): B1503's rule stops at finite quotients of smooth nearly Kähler links, and outside them

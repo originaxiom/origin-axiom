@@ -8875,6 +8875,29 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1506": {
+   "slug": "the level",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B150": {
    "slug": "class s coincidence",
    "motifs": [

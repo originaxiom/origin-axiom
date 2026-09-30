@@ -1,0 +1,21 @@
+{
+ "id": "B1506",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1384",
+  "B1378",
+  "B1375",
+  "B1381",
+  "B1377",
+  "B1374",
+  "B1371",
+  "B1368"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE LEVEL, SEALED (not yet run; sL-5 at the owner's 'lets do 1 first': is a count taken on a cover or on its quotient, and what does the genesis's tower fix?). Computed before the seal and disclosed: m004 has one connected 2-fold (m206) and one 3-fold (s961) cover, both cyclic; B1375's census reproduced on B1381's mapping torus; B1378's deck word map is wrong for its own generators and the deck is conjugation by a; the seed of B1378's triplet has an orbit of THREE under the root's whole deck Z/6, tau^3 acting by the Z/2 kernel of SL(2) x SU(6) -> E6. Proved at seal: every finite-order locus is trivial on the cusp (every level); a pullback keeps a single background's index; a background lifts to SL(2)_beta x U(1)^2 iff its extension character is a square; m004's census is the unipotent alone (I = 0); the triplet descends to s961 as the deck orbit of one generation-shaped background D0 with (-1)^6 that does not lift; Ind D0 on the root has count -gcd(n,3) on M_n; the triplet's blocks are three distinct vacua. Sealed: P1 |count| = 1 on s961 (~85%), P2 signs balanced (~80%), P3 all 12 non-square loci fire (~60%), P4 336 lifted backgrounds on M6 (~85%), P5 some but not all fixed by tau^3 (~75%), P6 non-lifted ones on M6 (~70%), P7 the converse of the s961 -> M6 correspondence (~75%), P8 no orbit of size 2 on M4 or M6 (~80%). No physics crossed. 0 of 19."
+}

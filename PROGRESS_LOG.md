@@ -16154,3 +16154,22 @@ be decidable by proof before any census could come out differently, so I did not
 - The fast lane on the previous commit (B1504) is at its baseline: the same nine known failures.
 
 `frontier/B1505_the_orbifold_links`. 0 of 19.
+
+## 2026-09-30 — B1506 sealed: the level
+
+The owner chose sL-5 first: is a count taken on a cover or on its quotient, one family or three? I set out to show that nothing the
+root's whole deck fixes can have a count of three. The check of that argument came back the other way, before any seal.
+- **What was computed first.** B1378's triplet is the orbit of its seed under the whole deck of m004, not half of a six-orbit. The
+  deck's cube changes the seed's SL(2) × U(1)² data only by the ℤ/2 that E₆ ⊃ (SU(2) × SU(6))/ℤ₂ quotients out.
+- **What the argument got wrong.** It relied on B1375's "s961 fires nowhere". That holds only for backgrounds that lift to
+  SL(2)_β × ℂ*², and s961's first homology has 2-torsion, so some backgrounds there do not lift.
+- **What is now proved.**
+  - A single background has the same count on every level.
+  - The triplet descends to s961, the root's only 3-fold cover, as the deck orbit of one generation-shaped background that does not
+    lift.
+  - So it is one on the root and three on s961. The one question left is whether the deck is gauged or kept.
+  - The three blocks are three different vacua, not three families of one vacuum.
+- **What is sealed.** The complete census of s961 and M₆, including the backgrounds that do not lift, with eight predictions and
+  priors. The one pre-seal result is disclosed in the seal.
+
+`frontier/B1506_the_level`. 0 of 19.
