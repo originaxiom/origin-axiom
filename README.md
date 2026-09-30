@@ -400,6 +400,14 @@ emitted value. The structure is the object's; the values are the observer's.
 > Their singular pieces are spheres, never tori, and folding them up by their symmetries adds no torus of the kind a cusp needs: the
 > only torus-shaped pieces run into other singular places. If a torus piece did exist, it would come with a twin of the opposite
 > chirality. So no known model supplies a chiral cusp point, and the model that would is now described exactly.*
+>
+> *And (B1506), the number: is a count taken on a cover or on its quotient? For one background it does not matter, because the count
+> is the same on every level. The three-generation-shaped triplet the record found on the six-fold cover turns out to be the orbit of
+> the starting space's own symmetries. It lives on the starting space's only three-fold cover, as three copies of one background that
+> the earlier census had missed, because it counted only backgrounds of a simpler kind. On the starting space itself it is one object
+> with a count of one, and on the six-fold cover every other such orbit has six members, not three. So "one or three" has become a
+> single choice between two spaces the construction itself singles out. And the three copies are three separate vacua, not three
+> families in one.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

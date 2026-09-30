@@ -7,6 +7,16 @@
 > V ⊕ τV ⊕ τ²V has −3 — Shapiro plus Mackey, checked with own code on 30 seeds. The deck's cube closes on ρ(μ₆), unipotent
 > for the non-split seed. One versus three is a cover-resolution question (sL-5). `frontier/B1384_the_generated_state_space`.
 
+> **Where the triplet lives (2026-09-30, B1506).** The triplet is the orbit of its seed under the root's whole deck ℤ/6, not half of
+> a six-orbit. τ³ changes the seed's lift only by the ℤ/2 that E₆ quotients out, and τ² multiplies χ by a character of order 8. It
+> descends to s961, the root's unique 3-fold cover, as the deck orbit of one generation-shaped background with (−1)⁶ there, and that
+> background does not lift to SL(2)_β × ℂ*². On M₆ the only root-deck orbits of three are s961's sixteen, pulled back.
+>
+> §3's "instrument limit" was a convention slip. The rewriting's last generator is a⁵b, not a⁵ba⁻⁶, so conjugation by a sends
+> y₄ ↦ y₅z⁻¹ and y₅ ↦ zy₀. That map and its square are homomorphisms on the holonomy-type representation. TAU and TAU2 as written in
+> §3 are not. `deck()` agrees with the correct map on every character this arc used (χ(z) = 0), so the index results stand. Verified
+> in `frontier/B1506_the_level`.
+
 **Date:** 2026-09-26 · **Seat:** cc (the SM-derivation branch) · **Occasion:** an uploaded seat-checkpoint archive's audit
 package, verified with this branch's own code · **Status:** PROVED (the index computation, two independent methods, three
 primes and exact) · CONFIRMED (the semisimplification control) · CORRECTION FOUND in the source's own automorphism check

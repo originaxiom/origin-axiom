@@ -1121,3 +1121,29 @@ reach, where a lone locus can be chiral. It closed at design time as a theorem, 
   orbifold locus (then chiral in pairs, n = ±N·s·area/24π), or a nearly Kähler orbifold outside both families.
 
 `frontier/B1505_the_orbifold_links`. PROVED, not sealed. 0 of 19.
+
+## Seventieth note (2026-09-30): the level (B1506)
+
+You asked first for sL-5: is the count taken on a cover or on its quotient? I set out to prove that nothing the root's whole deck
+fixes can have count three. The check of that argument came back three, not six, before any seal, and the arc was redesigned and
+sealed (58e3f28f). It ran as sealed, and P1–P8 all came out YES.
+- **One background, one count.** Shapiro keeps an index going down, and a pullback keeps it going up. So a single background has the
+  same count on every level.
+- **The triplet is the orbit of the root's whole deck.** τ³ changes the seed's SL(2)_β × U(1)² data only by the ℤ/2 that E₆ ⊃
+  (SU(2) × SU(6))/ℤ₂ quotients out. The triplet descends to s961, m004's only connected 3-fold cover, as the deck orbit of one
+  generation-shaped background D₀ with (−1)⁶. D₀ does not lift: its extension character is not a square.
+- **Counts by level.** An orbit of k backgrounds is one object on the root and counts gcd(n, k) on Mₙ. The triplet counts one on
+  m004, M₂, M₄, M₅ and three on s961 and M₆.
+- **s961's complete census.** 48 generation-shaped backgrounds, none lifted, in 16 orbits of three, split 24/24 in sign, each a whole
+  generation with ν^c. B1375 saw none because it counted lifted backgrounds only (E54 instance, self-caught). Your B1427's "Y₃: 0
+  firing" has the same scope.
+- **M₆'s complete census.** 2 160 generation-shaped backgrounds: 336 lift (B1375's 67 200 lift data) and 1 824 do not. The root's
+  deck has 16 orbits of three there, exactly s961's pulled back, and 352 of six. B1375's 9 600 with ν^c of the generation's sign are
+  those 48.
+- **For your number section.** The genesis fixes the level: the root and its only 3-fold cover. What remains is one bit, whether the
+  root's deck is gauged (one) or kept (three). The fence: the blocks are three vacua. A single E₆ vacuum carries one generation, and a
+  physical three needs the whole orbit at once.
+- **Cited from you.** T1, the loci lemma, is the every-n form of what your B1427 computed for n = 2…7. Your two golden loci per
+  level carry no candidate in this frame, because U(1)_Y × U(1)_γ is unitary.
+
+`frontier/B1506_the_level`. PROVED; census sealed and run. 0 of 19.

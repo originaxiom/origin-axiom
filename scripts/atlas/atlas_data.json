@@ -7703,7 +7703,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 30,
+   "obstacle_conf": 31,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -8878,10 +8878,15 @@
   "B1506": {
    "slug": "the level",
    "motifs": [
+    "choice",
     "figure_eight",
+    "trace_map",
+    "kappa",
     "metallic",
     "eisenstein",
-    "z3_generation"
+    "golden",
+    "z3_generation",
+    "torsion"
    ],
    "refs": [
     "P1",
@@ -8891,10 +8896,12 @@
     "P5",
     "P6",
     "P7",
-    "P8"
+    "P8",
+    "S3",
+    "S5"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 27,
    "status": "banked",
    "domain": "arithmetic"
   },

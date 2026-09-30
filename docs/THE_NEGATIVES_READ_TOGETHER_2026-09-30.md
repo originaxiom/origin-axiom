@@ -168,3 +168,15 @@ by family and by name. B1504 takes up the remainder on the genesis side.
   - The end's chirality is an input. What is left is physical: whether the completion carries a G₂ orientation (sL-8).
 - **Its record.** B1504 is in the kill graph as `symmetry-cannot-select`, with `end-datum-input` as its conclusion. It was routed at
   banking (`routed_from` `sm-branch-2026-09-30-banking`), not by this pass, so the table and tally above are unchanged.
+
+## Currency (2026-09-30, later): B1506
+
+- **Sealed and run.** B1506 took up the number (sL-5). It was sealed at 58e3f28f and its census run; P1–P8 all came out YES.
+- **Its answer, on the number.**
+  - One background has one count on every level: Shapiro takes the index down, and a pullback takes it up.
+  - B1378's M₆ triplet is the orbit of the root's whole deck. It lives on s961, the root's only 3-fold cover, as the deck orbit of
+    one background that does not lift, and on the root it is one object. An orbit of k backgrounds counts gcd(n, k) on Mₙ.
+  - The three blocks are three distinct vacua. So an orbit is three copies of one generation, never three families of one vacuum.
+  - What remains is one bit: is the root's deck gauged (one) or kept (three, on s961)?
+- **Its record.** B1506 is in the kill graph as `symmetry-cannot-select` ("n copies of one"). It was routed at banking
+  (`routed_from` `sm-branch-2026-09-30-banking`), not by this pass, so the table and tally above are unchanged.

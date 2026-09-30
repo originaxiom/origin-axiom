@@ -1,5 +1,49 @@
 # Changelog
 
+## B1506 — the level: one background has one count on every level; the M₆ triplet is the orbit of the root's whole deck and lives on s961, the root's only 3-fold cover (PROVED; census sealed and run, P1–P8 all YES)
+
+- **The question (sL-5, the owner's first choice).** Is a count taken on a cover or on its quotient? Sealed at 58e3f28f after one
+  pre-seal result, disclosed there: the seed's orbit of three.
+- **Proved at seal.**
+  - Every finite-order locus is trivial on the cusp (T1; main's B1427 computed the loci for n = 2…7).
+  - A pullback keeps a single background's index (T2).
+  - A background lifts to SL(2)_β × U(1)² iff its extension character is a square (T3).
+  - E₆ ⊃ (SU(2) × SU(6))/ℤ₂ makes (−1, 1, e^{iπQ_γ}) trivial (T4).
+  - m004's census is the unipotent alone (T5).
+  - The triplet is the seed's root-deck orbit and descends to s961 as the orbit of one generation-shaped background D₀ with (−1)⁶
+    that does not lift (T6).
+  - Ind D₀ has count −gcd(n, 3) on Mₙ (T7). The same proof gives gcd(n, k) for an orbit of size k.
+- **Run as sealed.**
+  - Covers: m004's only 2- and 3-fold covers are cyclic (m206, s961).
+  - The deck: B1378's word map fails (its generator is a⁵b); conjugation by a in closed form passes.
+  - The loci lemma is exact on M₁–M₄ and holds on M₅ and M₆ at three primes.
+  - The complete census on B1384's RS covers M₁–M₆ and the mapping torus M₁–M₄:
+    - s961: 72 firing modules, all on non-square loci; 48 generation-shaped backgrounds, none lifted, in 16 orbits of three, signs
+      24/24, whole generations with ν^c.
+    - M₄: B1375's 12 800 recovered as 256 backgrounds × 50 lifts; M₅: its 800 as 400 × 2.
+    - M₆: 2 160 generation-shaped backgrounds, 336 lifted (B1375's 67 200 exactly) and 1 824 not; 16 root-deck orbits of three
+      (s961's, pulled back and lifted on M₆) and 352 of six.
+  - D1–D8 all as proved: four descents, one all-candidate with (−1)⁶, counts (−1, −1, −3, −1, −1, −3) on M₁…M₆.
+- **Checked after the run.** The fence: each s961 orbit's extension characters differ pairwise by characters of order 4. B1375's M₆
+  singlet split is the orbit split: its 9 600 are the 48 in orbits of three. The level law holds on s961, M₄, M₅ and M₆.
+- **Self-caught.**
+  - The loci check read M₅ at one prime and saw two mod-661 coincidences of the golden locus. It now needs all three primes, and the
+    whole instrument was rerun (E52 instance). The first run's log is kept.
+  - The draft's completeness reason ("every locus has trivial meridian value") missed B1427's golden loci. They carry no candidate,
+    because U(1)_Y × U(1)_γ is unitary (E54 instance, item 2).
+- **Corrections.**
+  - B1375's "s961 fires nowhere" holds for lifted backgrounds only, and so does main's B1427 "Y₃: 0 firing" (relayed) (ERROR_LEDGER,
+    E54 instance).
+  - B1378 §3's instrument limit was the word-map convention.
+  - B1384 S3's one-versus-three is also the root against s961.
+- **The fence.** An orbit's three blocks are three vacua: λ differs by characters of order 4. One bit remains: gauge the root's deck
+  (one) or keep it (three). 0 of 19.
+- **Surfaces.** Registry row T-THE-LEVEL, OPEN_LEADS (sL-5 status, sL-2 note), THE_SM_VERDICT, CHIRALITY_MAP, the negatives
+  document, README, the letter's 70th note, notes on B1375, B1378 and B1384, ERROR_LEDGER (E54, E52), SEAL_LEDGER, the alias table
+  (next arc B1507), the kill graph (with content), logs, atlas, views.
+- **Checks at banking.** The lock: 7 passed. Gates: every gate passes but relay-debt, the standing baseline. The affected selection
+  (70 files): 1 637 passed, 2 skipped and 2 failed, both reading that same relay-debt gate.
+
 ## B1506 sealed: the level, before the complete census of s961 and M₆ is run
 
 - **The question (sL-5, the owner's first choice).** Is a count taken on a cover or on its quotient? What does the genesis's own

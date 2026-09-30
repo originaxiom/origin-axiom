@@ -1,5 +1,9 @@
 # B1384 — THE GENERATED STATE SPACE: the web seat's corrective handoff (2026-09-27) is adopted. m004 is the distinguished root of the architecture its native operations generate, not the whole of it; the chain's selectors stay conditional until derived; the post-checkpoint mathematics re-runs 13 of 13 on this bench, and its load-bearing claims are re-derived with own code
 
+> **The level (2026-09-30, B1506).** S3's "one versus three" (M₂ against M₆) sharpens. The triplet is also the pullback of an orbit
+> of the root's own deck, on s961, the root's only 3-fold cover. There one background D₀ and its two translates carry (−1)⁶ each, and
+> the root object Ind D₀ has count one on m004 and three on s961 and M₆. `frontier/B1506_the_level`.
+
 **Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** the owner forwarded the web seats' *corrective
 cumulative handoff* (`ORIGIN_AXIOM_CORRECTIVE_HANDOFF_TO_STANDARD_MODEL_SEAT_2026-09-27.zip`, sha256 `138d4b06…6acc4af`, internal
 manifest 20/20). Its audit of this branch at `8a064442`: *"it understood 'no unforced collapse' locally, but did not propagate the

@@ -16173,3 +16173,23 @@ root's whole deck fixes can have a count of three. The check of that argument ca
   priors. The one pre-seal result is disclosed in the seal.
 
 `frontier/B1506_the_level`. 0 of 19.
+
+## 2026-09-30 — B1506: the level (run)
+
+The seal said what would be read. It has been read: P1–P8 all YES.
+- **One background, one count.** Its index is the same on every level.
+- **The triplet lives on s961.** B1378's M₆ triplet is the orbit of the root's whole deck. It lives on s961, m004's only 3-fold
+  cover, as three translates of one background that does not lift. On the root it is one object with count one.
+- **s961's complete census.** 48 such backgrounds, none of which lift, in 16 orbits of three. Each is a whole generation with its
+  right-handed neutrino. B1375 missed them because it counted only backgrounds that lift.
+- **M₆'s complete census.** 2 160 generation-shaped backgrounds: 336 lift (B1375's 67 200) and 1 824 do not. The root's deck has 16
+  orbits of three there, exactly s961's pulled back, and 352 of six. B1375's 9 600 with ν^c of the generation's sign are those 48.
+- **An orbit counts gcd(level, size).** It is one object on the root and counts gcd(n, k) on Mₙ.
+- **Two slips caught.** A check read at one prime (E52), and a completeness reason written before the sweep found main's B1427
+  (E54).
+- **What is left of sL-5** is whether the root's deck is gauged or kept. An orbit's three blocks are three vacua, not three families
+  of one.
+- **Checks.** The lock passes (7 tests). Every gate passes but relay-debt, the standing baseline. The affected selection: 1 637
+  passed, and its 2 failures both read that same gate.
+
+`frontier/B1506_the_level`. 0 of 19.

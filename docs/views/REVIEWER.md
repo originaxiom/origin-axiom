@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1254** |
-| words of findings prose | **997,471** |
-| test lock files referenced | **757** |
+| words of findings prose | **1,002,088** |
+| test lock files referenced | **758** |
 | arcs carrying an authored verdict | **1254** (100.0 %) |
-| recorded closures | **812** (645 classified, 167 routed-only) |
+| recorded closures | **813** (646 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 829 |
+| PROVED | 830 |
 | NEGATIVE | 325 |
-| OPEN | 89 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 82 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 83 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1505`** (3233 words, 1 locks)  
-THE ORBIFOLD LINKS (the owner's approved B1505, 2026-09-30: the census of G2 cones whose links are orbifolds but not global quotients of smooth nearly Kaehler manifolds -- the class where B1503's rule does not apply and a lone locus can be chiral). Decided at design time, so not sealed (the record's rule for theorems, as B1396, B1500, B1502, B1504). The known class: AW section 2 (cones over WCP^3_{n,n,m,m}/Z_r, metrics argued by duality), AW section 3 (cones over twistor spaces of compact positive selfdual Einstein 4-orbifolds M: every toric one, by Calderbank-Singer Theorem A a quaternion-Kaehler torus quotient, and Hitchin's SO(3) family) and quotients by orientation-preserving isometries of M. T1: every locus through the apex is a cone over a twistor fibre (a sphere) or over one of the two sections above a surface of M fixed by an isometry or a local group (Anguelova-Lazaroiu's horizontal and vertical spheres in the toric case). T2: a totally geodesic F in a selfdual Einstein orbifold has e_orb(N_F) = chi_orb(F) - s area_orb(F)/24pi (Gauss, Ricci, Gauss-Bonnet; CS's inequality e < chi_orb follows), so a totally geodesic torus in positive curvature has e < 0. T3: an orientation-preserving isometry of a compact positive toric selfdual Einstein orbifold fixes pointwise only exceptional spheres, one or two spheres over a reflection line (a torus would need two edges on one line of RP^1), or a real locus (identity on the orbit polygon, -1 on the torus; chi = 4 - k) that crosses every exceptional surface and vertex, hence (k >= 4 is never smooth, Hitchin) the orbifold locus; a rotation would fix a principal orbit, whose trivial normal bundle T2 forbids. So no 2-stratum of constant type is a closed torus. T4: the two sections over a fixed surface carry opposite cubic inflows +-(N/2)(2e - chi) (B1503's CP^3 pair (-2,0), (0,-2) reproduced); a torus section would carry +-N e, never alone. T5: AW section 2's strata are two coordinate lines (spheres) and points; Hitchin's family fixes 2-spheres and has an RP^2 stratum. Computed (own code): the census of CS data k = 3..6 (606, 3295, 13009, 40078 data; 320511 exceptional surfaces with e < chi_orb; smooth only at k = 3, all CP^2; no rotation fixes a principal orbit; no reflection fixes a torus; every real locus with k >= 4 meets the orbifold locus); the Calderbank-Pedersen metric selfdual Einstein with s = 12 from the full curvature tensor (Einstein and Lambda^- residuals <= 1e-24) and T2 exact on 15 exceptional surfaces (area_orb/2pi = chi_orb - e to 1e-16) and on CP^2's RP^2 (4e-10); the pairing; Hitchin; 140 AW section-2 cones. Reading: no known G2 cone over an orbifold link that is not a global quotient can model a cusp point; with B1501-B1503, no known local model supplies a chiral cusp point. The positive's shape: a (non-toric) positive selfdual Einstein 4-orbifold with a torus fixed by an isometry away from its orbifold locus -- its two sections would be oppositely chiral, n = +-N s area/24pi -- or a nearly Kaehler orbifold outside the twistor and AW families. No physics crossed. 0 of 19.  
-`B1505_the_orbifold_links/FINDINGS.md`
+**PROVED — `B1506`** (4638 words, 1 locks)  
+THE LEVEL, run as sealed (58e3f28f; sL-5 at the owner's 'lets do 1 first': is a count taken on a cover or on its quotient?). One background has one count on every level: Shapiro keeps the index going down and a pullback keeps it going up (T2). B1378's M6 triplet is the orbit of its seed under the root's whole deck Z/6 (tau^3 acts by the Z/2 kernel of SL(2) x SU(6) -> E6) and descends to s961, m004's only 3-fold cover, as the deck orbit of one generation-shaped background D0 with (-1)^6 that does not lift to SL(2)_beta x C*^2 (its extension character is not a square). The root object Ind D0 counts -gcd(n,3) on M_n; an orbit of size k counts gcd(n,k) (T7's proof, checked after the run on s961, M4, M5, M6). Complete Standard-Model-frame census on M1-M6 (every finite-order locus, square or not; the two golden loci per level carry no candidate since U(1)_Y x U(1)_gamma is unitary), three primes: s961 has 72 firing modules, all on its 12 non-square loci, and 48 generation-shaped backgrounds, none lifted, in 16 orbits of three, signs 24/24, nu^c with the generation's sign on all; M6 has 2160 (336 lifted = B1375's 67 200 lift data, 1824 not), in 16 orbits of three (exactly s961's, pulled back, lifted on M6; B1375's 9 600 with nu^c) and 352 of six, none of size 1 or 2; |count| = 1 on every background of every level. Predictions P1-P8 all YES (priors 60-85%). Corrections of record: B1375's 's961 fires nowhere' and main's B1427 'Y3: 0 firing' hold for lifted backgrounds only (E54 instance); B1378's deck word map was a convention slip (the deck is conjugation by a); B1384 S3's one-versus-three is also the root against s961. A check of T1 read at one prime (661 puts the golden locus's roots among the 22nd roots of unity on M5) was fixed and the instrument rerun (E52 instance). The fence: an orbit's blocks are distinct vacua (on s961 their extension characters differ by characters of order 4), so what remains of sL-5 is one bit, whether the root's deck is gauged (one, on m004) or kept (three, on s961). Standard ingredients (Shapiro-Mackey, the Wang sequence, E6's (SU(2) x SU(6))/Z2; T1 computed for n = 2-7 by main's B1427). No physics crossed. 0 of 19.  
+`B1506_the_level/FINDINGS.md`
 
 **NEGATIVE — `B1399`** (3342 words, 1 locks)  
 THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  

@@ -442,6 +442,11 @@ M₄'s 89 non-split loci is trivial on the filled curve; the M₆ triplet's exte
 members). So W-closed below stands untouched — consistent with B1351, a closed manifold's index vanishes — and the cusped covers'
 index is a statement about the open manifolds only. `frontier/B1379_the_genesis_and_m004_links`.
 
+*Addendum (B1506, 2026-09-30).* The B1375 addendum's "Y₂ and Y₃ carry no generation-shaped background" holds for backgrounds that
+lift to SL(2)_β × ℂ*². On M₃ = s961 the backgrounds that do not lift fire: 48 generation-shaped ones, in 16 orbits of three under the
+root's deck, each a whole generation with ν^c. B1378's M₆ triplet is one of these orbits pulled back. Every background still carries
+one generation, never two or three: three is an orbit, not a background. `frontier/B1506_the_level`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

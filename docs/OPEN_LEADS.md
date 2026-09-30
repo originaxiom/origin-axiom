@@ -2928,6 +2928,13 @@ h¹ = 2, for any n (the Fox Jacobian's t-column forces fibre-triviality; there t
 |I| ≤ 2 in one doublet sector holds on every level. Still open: |I| = 1 exactly beyond level seven (the firing signature),
 (ii) the deck-symmetry prediction of the firing loci, (iii) the physics reading. `frontier/B1381_the_rank_one_bound_on_every_level`.
 
+**sL-2, 2026-09-30, B1506 — the census completed on the backgrounds that do not lift.** Every status above counted backgrounds
+through a lift (χ, ψ_Y, ψ_γ), so it saw square extension characters only. On levels whose H₁ has 2-torsion the frame also has E₆
+backgrounds that do not lift (E₆ ⊃ (SU(2) × SU(6))/ℤ₂). M₃ = s961 carries 48 generation-shaped backgrounds, none lifted, in 16
+root-deck orbits of three. M₆ carries 2 160, of which the lift saw 336. The count is ±1 on every one of them, on every level, so this
+lead's law stands. The status of 2026-09-16 ("Y₃ = s961 carr[ies] no generation-shaped background") holds for lifted backgrounds
+only (ERROR_LEDGER, E54 instance of 2026-09-30). `frontier/B1506_the_level`.
+
 ## sL-3 — THE WEAKEST LINK AS THE DOOR: WHAT DOES ORIENTATION (A6/C5) BUY, AND WHAT DOES IT COST? (registered 2026-09-26, the owner's rule; B1234, B1380)
 
 **Why this is a lead, not a wall.** The owner, 2026-09-26: *"our weakest spots are the cornerstone of next big breakthroughs,
@@ -3063,6 +3070,30 @@ Until this is decided, no arrow is time and no multiplicity is a generation coun
 **sL-5, 2026-09-30 — the negatives read together.** The number half of the chain's remainder is this lead's one-versus-three
 question. B1384 S3 (Shapiro), B1390 (every three is a pullback of a one), B1396 and B1500 (one unit per cusp point) each end on whether
 the cover or the quotient is physical. No entry between registration (2026-09-27) and now.
+
+**Status (2026-09-30, B1506): the level is fixed; one bit remains.** Sealed at 58e3f28f and run; P1–P8 all YES.
+- **One background has one count on every level.** Shapiro keeps a background's index going down (B1384 S3), and a pullback keeps
+  it going up (T2: the deck-character twists all fail T5, because every finite-order locus is trivial on the cusp, T1).
+- **The M₆ triplet is the orbit of the root's whole deck, not only of M₆'s deck over M₂.** τ³ changes the seed's SL(2)_β × U(1)² data
+  only by the ℤ/2 that E₆ ⊃ (SU(2) × SU(6))/ℤ₂ quotients out. So the triplet descends to s961, m004's only connected 3-fold cover, as
+  the deck orbit of one generation-shaped background D₀ with counts (−1)⁶ there. D₀ does not lift to SL(2)_β × ℂ*², since its
+  extension character is not a square.
+- **Counts by level.** An orbit of k backgrounds is one object on the root and counts gcd(n, k) on Mₙ. The triplet counts one on
+  m004, M₂, M₄, M₅ and three on s961 and M₆, computed in all six sectors over three primes.
+- **The complete censuses.**
+  - s961: 72 firing doublet modules, all on its 12 non-square loci; 48 generation-shaped backgrounds, none lifted, in 16 root-deck
+    orbits of three. The signs split 24/24, and every background carries ν^c with the generation's sign: whole generations.
+  - M₆: 2 160 generation-shaped backgrounds, 336 lifted (B1375's 67 200 lift data) and 1 824 not. The root's deck has 16 orbits of
+    three there (s961's, pulled back) and 352 of six.
+  - B1375 saw none on s961 and 336 of 2 160 on M₆, because it counted lifted backgrounds only (ERROR_LEDGER, E54 instance of
+    2026-09-30).
+- **What remains of this lead.** The level question has become one bit: is the root's deck gauged (one, on m004) or kept (three, on
+  s961)? The two levels are the genesis's own, the root and its unique 3-fold cover. And the fence: the three blocks of an orbit are
+  three distinct vacua (their extension characters differ by characters of order 4). A single E₆ vacuum carries one generation, so
+  reading an orbit as three generations needs the whole orbit in one configuration. That is the handoff's "all generated states
+  simultaneously physical", which B1384 lists as not derived.
+
+`frontier/B1506_the_level`.
 
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 

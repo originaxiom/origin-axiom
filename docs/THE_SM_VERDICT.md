@@ -913,3 +913,17 @@ left it.
 > - With B1501–B1503, no known local model supplies a chiral cusp point. Decided at design time as a theorem, so not sealed.
 >
 > 0 of 19 (`frontier/B1505_the_orbifold_links`).
+
+> **Currency note (2026-09-30, B1506): three lives on the root's only 3-fold cover.**
+> - One background has one count on every level (Shapiro, and a pullback keeps the index).
+> - B1378's M₆ triplet is the orbit of the root's whole deck. It descends to s961, m004's unique 3-fold cover, as the deck orbit of
+>   one generation-shaped background that does not lift to SL(2)_β × ℂ*². An orbit of k backgrounds is one object on the root and
+>   counts gcd(n, k) on Mₙ: the triplet counts one on the root, three on s961 and M₆.
+> - The currency note of 2026-09-16 ("Y₂, Y₃: no generation-shaped background") holds for lifted backgrounds only. s961 carries 48
+>   generation-shaped backgrounds that do not lift, in 16 orbits of three, each a whole generation with ν^c. On M₆ these are the only
+>   root-deck orbits of three among 2 160 (336 lifted, 1 824 not); the rest come in sixes.
+> - What remains is whether the root's deck is gauged (one) or kept (three). The three blocks are three vacua, not three families of
+>   one vacuum.
+> - Sealed at 58e3f28f and run; P1–P8 all YES. No verdict of this ledger changes.
+>
+> 0 of 19 (`frontier/B1506_the_level`).

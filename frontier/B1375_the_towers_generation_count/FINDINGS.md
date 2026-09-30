@@ -15,6 +15,17 @@
 > representatives, 11 200 unweighted) — exactly this arc's M₆ count, computed independently here on 2026-09-16.
 > `frontier/B1384_the_generated_state_space`.
 
+> **Currency note (2026-09-30, B1506): this census counts backgrounds that lift.** Its parametrisation (χ, ψ_Y, ψ_γ) covers the
+> Standard-Model-frame backgrounds whose extension character λ = χ² is a square. On levels whose H₁ has 2-torsion, the frame also
+> has E₆ backgrounds that do not lift, because E₆ ⊃ (SU(2) × SU(6))/ℤ₂: here s961 ((ℤ/4)²) and M₆ (ℤ/8 ⊕ ℤ/40).
+> - On s961 they fire: 72 modules and 48 generation-shaped backgrounds, in 16 orbits of three under the root's deck. So "Y₃ is
+>   empty" (§2 item 3) holds for lifted backgrounds only (ERROR_LEDGER, E54 instance of 2026-09-30).
+> - On M₆ the complete census has 2 160; this arc's 67 200 are the 336 that lift. Its singlet split is the orbit split: the 9 600
+>   are the 48 backgrounds in orbits of three (s961's, pulled back), the 57 600 the 288 lifted ones in orbits of six.
+> - On M₂, M₄ and M₅ every locus is a square, and the counts here are complete. B1506 reproduces them on two further presentations.
+> - The law stands on the complete census: every background has count ±1, on every level.
+> `frontier/B1506_the_level`.
+
 **Date:** 2026-09-16 · **Seat:** cc (the SM-derivation branch) · **Status:** PROVED (the computations; the one-per-background law on the levels computed) · **Fence:** main's index on a non-semisimple background, main's fence — no physics reading, no value, no three · **Price: unchanged** · **Numbering:** B1375 (sL-2).
 
 ## 0. Seen from above
