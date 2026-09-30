@@ -15782,3 +15782,17 @@ corrections do not refute same-domain chirality results. Reader fronts,
 scoped law entries and next duties updated. No independent Part II,
 full-suite green or physical-theory completion claimed.
 Report: reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md.
+
+## 2026-09-30 - Approved physics mission locked for execution
+
+The owner approved all recommendations and requested a durable goal and
+execution. PHYSICS_MISSION.md now records the overarching physical theory
+objective, explicit premises, Standard Model/quantum/gravity/empirical
+completion criteria and the first operational/action-level milestone.
+Continuation words do not replace the mission. The interface still has
+an unfinished usage-limited goal labelled resume; no false completion or
+tracker rename is claimed. Reader fronts point to the approved charter.
+No new scientific theorem or independent review is claimed by adoption.
+Next: read prior producers, write the operational contract and seal the
+first action-level transport test before execution. R56/R57 and the
+partial-filling witness retain their scopes and outstanding debts.

@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Owner-approved mission, September 30:**
+reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md fixes the physics goal,
+completion criteria and next milestone. Execute the operational contract
+and action-level cover/induction audit, then the marking-to-boundary duty.
+Preserve existing conditional models and the partial-filling comparison.
+This is an execution decision, not a new science result or full-bank claim.
+
+
 **Current priority, R57 (September 30): root and architecture scope audit.**
 The positive mixed minimum survives, but m004 is not thereby a universal
 physical root. A no-selector theorem does not forbid natural quotients;

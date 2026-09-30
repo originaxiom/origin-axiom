@@ -1,5 +1,13 @@
 # Physical bridge audit — 2026-09-05
 
+**Current mission, approved September 30:**
+[Physics mission and execution criteria](PHYSICS_MISSION.md).
+Start with the operational contract and action-level relation audit.
+The latest scientific scope audit is [R57](ROOT_SCOPE_AUDIT.md); the
+canonical [R56 cubic](LIGHT_CUBIC.md) is preserved as conditional progress.
+The older dated entries below are historical, not today's priority list.
+
+
 **Current path-local result, R50 (September 27): neutral second-order relaxation.**
 On the SAME fixed canonical q0>0,q0!=1 background, R47's harmonic
 q tangent admits a complete-domain/L4 second-order correction to BOTH

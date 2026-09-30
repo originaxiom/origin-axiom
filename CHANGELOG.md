@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-09-30 - Owner approves and locks the physical theory mission
+
+Record the approved goal, completion criteria, continuation semantics and
+first execution milestone in reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md.
+Operational foundations and physical relation maps take priority; R56/R57
+and partial-filling positives remain scoped. This is a mission decision,
+not a new mathematical result, tracker rename or completed physical theory.
+
+
 ## 2026-09-30 - R57 conditional root and limits of the architecture claim
 
 The positive mixed LR minimum survives an exact proof/scope audit.

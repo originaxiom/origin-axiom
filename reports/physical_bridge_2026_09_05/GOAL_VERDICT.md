@@ -1,5 +1,13 @@
 # Verdict toward the full physical-theory goal - R57, updated 2026-09-30
 
+**Approved execution charter, September 30:** the owner approved the
+[physics mission and acceptance criteria](PHYSICS_MISSION.md). This is
+the controlling objective, not the interface label "resume". Execute the
+operational contract and action-level relation audit first; preserve the
+canonical model and partial filling as scoped controls. The full Standard
+Model, quantum dynamics, gravity and predictive tests remain the goal.
+The charter itself is not a scientific result or completion certificate.
+
 **Current priority, R57 (September 30): root and architecture scope audit.**
 The positive mixed minimum survives, but m004 is not thereby a universal
 physical root. A no-selector theorem does not forbid natural quotients;
@@ -25,7 +33,7 @@ and completion criteria below are unchanged; no smaller success target
 has been substituted. The resulting scope audit is not a finding that
 every other branch lacks a result or that this candidate is invalid.
 
-## Authoritative mission - reaffirmed by the owner, September 29
+## Authoritative mission - reaffirmed September 29 and locked September 30
 
 Develop and rigorously test Origin Axiom from its mathematical programme
 toward a complete physical theory of everything: derive a common,
