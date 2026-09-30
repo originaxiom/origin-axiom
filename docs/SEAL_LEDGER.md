@@ -1134,3 +1134,15 @@ No numerical physical coupling, full EFT, chirality or independent review.
 | `reports/physical_bridge_2026_09_05/LIGHT_CUBIC_INPUTS.json` | `c3d61a477a6dfb4c1bb3443d50f71479e51aeb458e03bebe369010bbe09902b8` |
 | `reports/physical_bridge_2026_09_05/light_cubic.py` | `e3296fb6fdaf0b804900445d2f410870062f6a8e91549ed79cae45dd504c4a31` |
 | `tests/test_physical_bridge_light_cubic.py` | `8c003c771c09a9714c41d9359417e8cb3b3fbfa68ea1969764e45219d76921d3` |
+
+## R57 root and generated architecture scope audit, September 30, 2026
+
+Pre-execution design, explicit proofs/counterexamples and finite safeguards.
+No physical root, full architecture, spectrum or global no-go is asserted.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/ROOT_SCOPE_DESIGN.md` | `06593825a87479f62c85ee4b422146a23a226edfa4370a997c8aaa6c5680a391` |
+| `reports/physical_bridge_2026_09_05/ROOT_SCOPE_INPUTS.json` | `7574ff625cf9f627a7aed4483b0548d2c203ff154f43d13d5bbd3eaaa83dd263` |
+| `reports/physical_bridge_2026_09_05/root_scope.py` | `7ebe0a16ff1946527d7f09641252a7941230df42ea5801741c79f8326ccdd2fc` |
+| `tests/test_physical_bridge_root_scope.py` | `5069db6c90b7097980677141a15a2849f97bb6a6323a2fc2c8927941eabd657a` |

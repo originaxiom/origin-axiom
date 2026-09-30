@@ -1,0 +1,167 @@
+{
+  "scope": "Pinned texts and legacy inputs, no other-seat spectrum adopted and no universal root premise",
+  "own_input_pin": "7a121db33f654dc801adeab6668db212a15becb2",
+  "source_paths": [
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "docs/UNIQUENESS_THEOREM.md",
+      "bytes": 9074,
+      "sha256": "aa72590db6d4ef023c6deea1166736814f41a6c9b0981cff767a0577390334c1",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "docs/COMPUTE_THE_PROGRAM.md",
+      "bytes": 20288,
+      "sha256": "847e104ee7532d16074851971189cc57c2884fb5b7a24592a78474e95cae0dd3",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "philosophy/P019_the_genesis_axiom_chain.md",
+      "bytes": 10279,
+      "sha256": "9fab1ea1db5d784c61a5cc5802aeb7e8d8005dc498b80ca59b76c3b3e2f1b32d",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md",
+      "bytes": 13152,
+      "sha256": "e5d0aceb87a165b0a11c7cb07b340d9c1d99ded2c2b8570bcfc72157ca98158e",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "reports/physical_bridge_2026_09_05/PARTIAL_FILLING.md",
+      "bytes": 7513,
+      "sha256": "5a55c1b99282361703a31b797b2d56b218c116a7389a43b0971c25333ec6dc08",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "tests/test_uniqueness_theorem.py",
+      "bytes": 4678,
+      "sha256": "6c14ee5fb89727c6f028b514f763ca30788bbea661eff2e8d3a09d7d5632bad1",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "tests/conftest.py",
+      "bytes": 2534,
+      "sha256": "6b69984b2144d2b89d82248aaa30d9a43516d5903f65ddb1faf464e9bc8da6c9",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "src/origin_axiom/algebra.py",
+      "bytes": 2713,
+      "sha256": "e5b55aa990a94fe5fc064b94a8dffc6a4dc7ca126263e4ceb820a13d3376d836",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "src/origin_axiom/constants.py",
+      "bytes": 1068,
+      "sha256": "7a7cdf491e51c3f1d8332355056caa48a791dadc9591f16e2dc0fe4c507805b5",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "src/origin_axiom/__init__.py",
+      "bytes": 308,
+      "sha256": "c74254aaf43767b65dedf6b3b1b848dc324236ca151ec203c13b339fae497214",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "7a121db33f654dc801adeab6668db212a15becb2",
+      "path": "pyproject.toml",
+      "bytes": 759,
+      "sha256": "07ca74a9695f24299e1e3cdb0dc68c08ad605a5fd6540bdc357ede3b9ba46766",
+      "role": "own source or unchanged legacy test dependency"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "philosophy/P022_the_generated_state_space.md",
+      "bytes": 12832,
+      "sha256": "5e2ef4b000fec9a384c7da8b95c9b3ca93cd9a94e5e8ffe12656b8dd6ab50fc2",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1379_the_genesis_and_m004_links/FINDINGS.md",
+      "bytes": 16684,
+      "sha256": "027d6763c70dc40d09cf52d5b4d7e48518a286681867e4e7355284b7b11ba30a",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1380_the_puncture_is_the_words/FINDINGS.md",
+      "bytes": 14390,
+      "sha256": "7bbd9d22721d90e2eed7f2130b9605e21347366fed8ec34bed55688ca51ed3cc",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1384_the_generated_state_space/FINDINGS.md",
+      "bytes": 18414,
+      "sha256": "aaf8cf783f6a29d68d9707acb39328fe1d93c2cc21d23b6295cbe62be31dc777",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1385_the_states_together/FINDINGS.md",
+      "bytes": 26873,
+      "sha256": "52c82c1703a933285f206605ff594564cc72fb1c74aa819b195b3d9496bc0707",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1390_the_eisenstein_axes/FINDINGS.md",
+      "bytes": 20068,
+      "sha256": "ac70c91702852f217eff61fd88d278dda70fe88a3bf295bcce6daeb6cf8428da",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md",
+      "bytes": 11433,
+      "sha256": "76b8c9cfe75b5ddab0da8750f6e2a86e6c452f20c651198f564468e24dc75a68",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1379_the_genesis_and_m004_links/verification/genesis_audit.py",
+      "bytes": 12583,
+      "sha256": "f8238afd91315883588d5576b3e6e36cbcf3d6e6aff54f83b967b1b041e27e69",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1384_the_generated_state_space/verification/handoff_checks.py",
+      "bytes": 19731,
+      "sha256": "450e190a4246f427a50734a5d75c357659b01d627845da6e7e206cadc3abe3a7",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B34_goldman_wp_quotient_naturality/FINDINGS.md",
+      "bytes": 576,
+      "sha256": "0087858ed2f842ad4d5f18d2c62a755c8978579300030efcb618a30eb214b515",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1323_the_genesis_upgrades/FINDINGS.md",
+      "bytes": 16949,
+      "sha256": "40ab4c20e29bcb9fb8b0dfa374f7863aefb91d9febd1a316c07a4518848f2146",
+      "role": "source under audit, not scientific authority"
+    },
+    {
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B749_genesis_forks/FINDINGS.md",
+      "bytes": 8191,
+      "sha256": "b3ff684ede7839b0c16ade12e48866c7df81e06c19c374bf7694953bbfd558ef",
+      "role": "source under audit, not scientific authority"
+    }
+  ]
+}
