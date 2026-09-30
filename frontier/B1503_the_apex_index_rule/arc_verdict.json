@@ -1,0 +1,18 @@
+{
+ "id": "B1503",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1502",
+  "B1501",
+  "B1500",
+  "B1355",
+  "B1360"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE APEX INDEX RULE, SEALED (not yet run; after B1502 section 5 and the owner's go): at a G2 cone point over a finite quotient of a nearly Kaehler manifold, what do the singular loci through the point owe each other? The rule, proved at seal: the link has positive scalar curvature, so the equivariant Dirac index vanishes, and the Lefschetz formula gives, for every element gamma, sum over isolated fixed points of prod_j (1 - e^{-i theta_j})^{-1} plus sum over fixed curves of (i/8) cot(theta/2) sin^{-2}(theta/2) (d_1 - d_2) = 0, each curve entering through Witten's cubic inflow n = (N/2)(d_1 - d_2). Consequences proved at seal: a lone locus forces nothing on any nearly Kaehler link; a cusp point is chiral through the cubic half only where its locus meets another fixed locus or point of the same element. Decided at design time from B1501's banked components: S^6's single-sphere classes and all torus classes have n = 0; S^3 x S^3's 3-symmetry has a sphere with n = +-3 balanced by an isolated fixed point. Sealed: P1 CP^3's two-sphere classes pair at one angle with n = +-N (~65%); P2 CP^3's one-sphere classes have n = 0 (~75%); P3 F_{1,2}'s spheres all have n = 0 (~80%); P4 the table. The instrument recomputes B1501's fixed sets, the J-angles, sphere degrees by isotropy weights and independently by lattice Chern numbers; the rule must hold on every class to 1e-8 or the run stops. No physics crossed. 0 of 19."
+}

@@ -203,3 +203,5 @@ even on every resolved member; the census's hexagonal cusps sit on four members,
 *Update 2026-09-29 (B1501 run):* B1501 run as sealed at the owner's word (PROVED: in the cones over the four homogeneous nearly Kähler 6-manifolds a torus-linked ADE locus is always A-type and hexagonal: SU(n) over S³ × S³'s diagonal torus, SU(3) over the flag manifold's Coxeter torus). Next arc B1502; main is asked, as before, to reserve B1500–B1599 for this branch.
 
 *Update 2026-09-29 (B1502):* B1502 used (PROVED, not sealed: the two torus models force no chirality at a cusp point: b₂ = b₄ = 0 on every quotient's link with a torus locus, the torus null-homologous; S³ × S³'s smooth phases are fillings, the flag manifold's model has none). Next arc B1503.
+
+*Update 2026-09-30 (B1503 sealed):* B1503 sealed (the apex index rule: the loci through a G₂ cone point over a finite quotient of a nearly Kähler manifold, tied by the link's equivariant Dirac index; the rule and its consequences proved at seal; the census table sealed with P1–P4; not run); next arc B1504.

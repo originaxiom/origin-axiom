@@ -16056,3 +16056,19 @@ While choosing the next step I read Witten's anomaly paper in full, and found th
 - **The fast lane** on 68c9d8b4 (B1502 banked): 9 failures, exactly the nine of the baseline (the same tests as the d780b639 lane), 6365 passed, 52 skipped, 61 min; no failure touches B1501 or B1502.
 
 Lock: `tests/test_b1502_the_local_models_chirality.py` (5 tests). 0 of 19.
+
+## 2026-09-30 — B1503 sealed: the apex index rule
+
+The owner said go on the step I recommended after B1502. I swept the literature and the record first. Witten, Acharya–Witten,
+Bilal–Metzger and Berglund–Brandhuber all treat the chirality at a cone point, but none ties the loci's inflows together at one point.
+The record's "sum rule" (B1356) is Witten's global one over many points.
+- **The rule, proved.** The link of a G₂ cone point has positive curvature, so an index vanishes for every symmetry. The fixed-point
+  formula turns that into a rule: the forced inflows of all the loci one symmetry fixes, plus its isolated fixed points, cancel.
+- **What it settles in general.** A lone locus forces nothing. A cusp point can be chiral only where its locus meets something else the
+  same symmetry fixes.
+- **What B1501's census already decides.** Most of the census follows from the rule and the banked list of fixed components. S³ × S³'s
+  3-symmetry is the striking case: a sphere whose SU(3) locus is forced to carry inflow 3, balanced by a single isolated fixed point.
+- **What is sealed.** The individual inflows in the classes with two or three fixed spheres, with priors, and the full table. A scratch
+  prototype had seen 19 classes before the seal; the seal says so.
+
+0 of 19.

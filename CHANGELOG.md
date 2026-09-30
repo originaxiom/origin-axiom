@@ -1,5 +1,29 @@
 # Changelog
 
+## B1503 sealed: the apex index rule, before the census is evaluated
+
+- **The question (after B1502 §5, at the owner's go).** Witten's cubic inflow n = deg(L) forces charged fields at a point of an SU(N)
+  locus. What does the link's geometry say about the n's of all the loci one symmetry fixes at a G₂ cone point?
+- **Proved at seal.**
+  - The nearly Kähler link has positive scalar curvature, so its Dirac operator has no kernel and every equivariant index vanishes.
+  - Atiyah–Singer's Lefschetz formula then gives, for each element, a sum rule over its isolated fixed points and fixed curves.
+  - Each curve enters through its inflow n = (N/2)(d₁ − d₂), weighted by its rotation angle.
+  - A lone locus forces nothing, on any nearly Kähler link.
+  - A cusp point is chiral through the cubic half only where its locus meets another fixed locus or point of the same element.
+- **Decided at design time from B1501's banked components.**
+  - S⁶'s single-sphere classes and all torus classes have n = 0.
+  - S³ × S³'s 3-symmetry has a sphere with n = ±3 (an SU(3) locus), balanced by an isolated fixed point.
+- **The predictions.**
+  - P1: ℂP³'s two-sphere classes pair at one angle with n = ±N (prior about 65%).
+  - P2: ℂP³'s one-sphere classes have n = 0 (about 75%).
+  - P3: F₁,₂'s spheres all have n = 0 (about 80%).
+  - P4: the table, read.
+- **The instrument.** B1501's fixed sets recomputed, J-angles, sphere degrees by isotropy weights and independently by lattice Chern
+  numbers. The rule must hold on every class to 10⁻⁸ or the run stops. Banked identity: ℂP¹ and ℂP² Lefschetz controls, Qi–Wu–Zhang,
+  B1501's structures, S⁶'s antipodal pairs.
+- **Disclosed.** A scratch prototype saw 19 classes before the seal; the preregistration lists them.
+- The sha256 is in SEAL_LEDGER. The findings document says sealed, not run. 0 of 19.
+
 ## B1502 §5 — the cubic half of the anomaly criterion: n_P = 0 in both torus models (a self-caught gap, E71 instance)
 
 - **The gap.** B1502 checked only the mixed U(1)·SU(N)² half of the anomaly criterion. That is the half B1355 and B1360 used for E₆
