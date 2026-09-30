@@ -1,0 +1,16 @@
+B1503 THE APEX INDEX RULE, run as sealed. PREREGISTRATION sha256 d42607502486ef75759bb807912b9f4bd8c09965429080d04a237357885a1719 (matches SEAL_LEDGER)
+BANKED IDENTITY
+  the terms: CP^1 (z -> lam z) and CP^2 (diag(1, 1, lam): a line with normal O(1) and a point) give Lefschetz number 1 to 1.8e-15
+  the closed curve term equals the general Todd form (chi terms cancel when d1 + d2 = -chi) to 1.4e-14
+  the lattice routine: Qi-Wu-Zhang lower band {-3.0: 0.0, -1.0: -1.0, 1.0: 1.0, 3.0: 0.0}
+  S6     J^2 = -1 to 1.3e-15, J orthogonal to 1.3e-15, Ad(K) commutes with J to 5.1e-15, listed automorphisms preserve J
+  S3xS3  J^2 = -1 to 1.3e-16, J orthogonal to 2.2e-16, Ad(K) commutes with J to 2.9e-15, listed automorphisms preserve J
+  CP3    J^2 = -1 to 6.7e-16, J orthogonal to 7.8e-16, Ad(K) commutes with J to 4.2e-15, listed automorphisms preserve J
+  F12    J^2 = -1 to 7.7e-16, J orthogonal to 4.4e-16, Ad(K) commutes with J to 6.7e-16, listed automorphisms preserve J
+  control S6 L(0,1/13)         (order 13, not in the census): {'sphere': 1}, |S| = 0.0e+00, curve degrees [[-1, -1]]: PASS
+  control S6 L(1/13,3/13)      (order 13, not in the census): {'point': 2}, |S| = 1.3e-14, curve degrees []: PASS
+  control CP3 L(0,1/13)        (order 13, not in the census): {'sphere': 1, 'point': 2}, |S| = 4.9e-14, curve degrees [[-1, -1]]: PASS
+  control CP3 L(3/26,3/26)     (order 13, not in the census): {'sphere': 2}, |S| = 3.3e-16, curve degrees [[0, -2], [-2, 0]]: PASS
+  control F12 L(1/13,1/13)     (order 13, not in the census): {'sphere': 3}, |S| = 0.0e+00, curve degrees [[-1, -1], [-1, -1], [-1, -1]]: PASS
+  control S3xS3 L(1/26,1/26,1/26) (order 13, not in the census): {'torus': 1}, |S| = 0.0e+00, curve degrees [[0, 0]]: PASS
+THE BANKED IDENTITY PASSES (formula, lattice, structures, controls); S6's pairs are checked at the start of the run
