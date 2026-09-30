@@ -1,5 +1,27 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+Direction checkpoint, September 30: preserve R56 and audit the supplied
+physical inputs/competing live routes before another automatic technical
+extension. The full physics goal is unchanged. See GOAL_VERDICT's current
+mission and direction checkpoint; this is not a whole-corpus absence claim.
+
+**Current path-local result, R56 (September 30): complete direct light cubic.**
+In the SAME exceptional canonical model, R55's light kernel has the
+direct classical holomorphic cubic W3=lambda S Q.Qtilde. The neutral S^3
+term vanishes by R50's complete-domain primitive and an explicit L2-tail
+boundary estimate; R54 supplies the surviving nonzero paired coefficient.
+Canonical normalization is basis invariant and finite, but lambda is
+numerically UNEVALUATED. Grade: conditional authored analysis, not
+independent global acceptance, full EFT, nearby pole-mass law or chirality.
+Native 35/35; dedicated 10 pass; fifteen-file regression 169 pass / the
+same four retained failures. Seal 0b3f062a pushed/server-confirmed before
+execution; six science paths and 125 inherited paths unchanged.
+Next: complementary-mode/domain and scale control, actual normalized
+profile integrals, then controlled quantum selection. Separate source/end/
+component chirality, SM breaking, anomalies and gravity remain duties.
+Report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+Earlier dated entries below are historical checkpoints, not current gaps.
+
 **Current path-local result, R55 (September 29): complete neutral/light census.**
 For each exceptional canonical q background, exact meridian restriction
 has rank two on ordinary adjoint H1 of dimension three. The authored

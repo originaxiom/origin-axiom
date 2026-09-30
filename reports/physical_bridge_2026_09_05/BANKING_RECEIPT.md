@@ -1,5 +1,17 @@
 # CC's banking relay read before the next local checkpoint
 
+## R56 local checkpoint, September 30
+
+Own branch only. Seal 0b3f062a pushed/server-confirmed before science;
+six science paths and 125 inherited inputs unchanged. Native 35/35,
+dedicated 10 pass, fifteen-file regression 169 pass/the same four IDs.
+The direct classical light cubic, its domain exactness and normalization
+are reported with conditional analytic grade. All current reader fronts,
+law/sublemma rows and open duties are updated. No full-suite green,
+independent Part II/analytic review, shared allocation, main merge or
+codeberg push is claimed. Four inherited governance debt categories remain.
+Report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+
 ## R55 local checkpoint, September 29
 
 Own branch only. Seal 03dfda70 pushed/server-confirmed before imports;

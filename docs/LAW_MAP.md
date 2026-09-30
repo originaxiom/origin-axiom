@@ -1,5 +1,11 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+Current local result R56: the direct canonical light cubic and its
+conditional complete-domain zero/normalization sublemmas are at EOF.
+Earlier dated entries below are historical. No numerical coupling,
+full EFT or physical chirality is asserted. Report:
+reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+
 Current path-local R51: fixed-base finite-energy harmonic existence,
 anchored-distance uniqueness and compact-set continuity, at conditional
 authored analytic grade. Exact model radial correction is NOT a global
@@ -810,3 +816,17 @@ certify the global proof. No physical chirality or model-independent kill.
 | The complete canonical parent internal harmonic dimensions are (45,33,33,45) at these admitted backgrounds | Scalar H1_L2=0 by injective meridian restriction; actual branching and inherited charged/six comparison give degree one singlet+16+16*. Complex internal dimensions, not physical generations or full EFT. | B1138 branching; R55 proof sections 4--5; tests/test_physical_bridge_neutral_census.py::test_scalar_ordinary_class_does_not_survive_meridian and test_conditional_parent_count_not_three_neutral_moduli |
 
 R55 report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
+
+## September 30, 2026 - R56 direct light-cubic sublemmas
+
+Conditional authored argument on the exceptional canonical backgrounds;
+finite controls are not independent acceptance of the global analytic chain.
+
+| law (scoped statement) | content and limitation | provenance / control |
+|---|---|---|
+| Only S^3 and the unique S times spinor--dual pairing are gauge-allowed on this light kernel | Actual E8 weights identify 1+16+16*. Exhaustive degree-three coordinate weights leave 17 entries; distinct Cartan weights and a connected 45-generator graph force one invariant charged pairing. No added vector-10 zero mode. | B1138 supplied-parent context; reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md section 2; tests/test_physical_bridge_light_cubic.py::test_actual_parent_weight_population_and_unique_pairing and test_pairing_requires_all_generators_not_only_weights |
+| The canonical neutral direct self-cubic has zero integral | R50's b in L2 satisfies D b=-alpha^2; the complete cutoff boundary contribution is bounded by two L2 tail norms. This is integrated exactness, not pointwise commutativity or a theorem for other ends. | B1138 context only; R56 proof section 3; tests/test_physical_bridge_light_cubic.py::test_graded_primitive_and_its_mutations and test_zero_integral_is_not_pointwise_zero support finite identities, not PDE acceptance |
+| The complete direct classical light cubic is a nonzero paired tensor with finite invariant normalization | R54 supplies y!=0; positive kinetic norms give lambda=y/sqrt(K_S K_Q K_Qtilde). Its magnitude survives coordinate changes carrying the kinetic Gram; all sixteen charged singular values agree. No numerical lambda, physical generation count or full EFT. | B1138 supplied-action context; R56 proof section 4; tests/test_physical_bridge_light_cubic.py::test_profile_phase_and_positive_metric_normalization and test_oblique_coordinates_cannot_change_physical_magnitude |
+| The formal charged Hessian of this cubic is paired and full rank away from S=0 | Mixed block lambda S I16 has rank16 and combined charged block rank32 when lambda S!=0. This polynomial statement is NOT a full nearby pole-mass law or mirror-only mechanism. | B1138 context only; R56 proof section 5; tests/test_physical_bridge_light_cubic.py::test_formal_tensor_pairs_both_charged_sides |
+
+R56 report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.

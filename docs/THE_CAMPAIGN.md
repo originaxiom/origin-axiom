@@ -1,5 +1,18 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+Priority checkpoint, September 30: after recording R56, audit remaining
+supplied physical inputs and compare live routes before automatically
+starting the next refinement. Keep the full goal; see GOAL_VERDICT.
+
+September 30 R56 completes the DIRECT CLASSICAL light cubic at conditional
+authored grade: only lambda S Q.Qtilde survives; S^3 vanishes in the
+complete domain. Its normalization is basis invariant, not numerically
+evaluated. Do not repeat the kernel census or the Fox obstruction.
+Next audit complementary-mode/domain control and actual overlap integrals
+before quantum selection. Source/end/component chirality, SM breaking,
+anomalies, scales and gravity remain distinct mission duties. Report:
+reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+
 September 29 R55 completes the conditional canonical light-mode census:
 one neutral line, plus 16 and 16*, not three normalizable neutral classes.
 The physics mission is reaffirmed explicitly in

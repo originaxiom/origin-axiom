@@ -15748,3 +15748,20 @@ laws/sublemmas and open duties updated. Owner reaffirmed the mission as
 physics, not "resume"; authoritative objective restored in GOAL_VERDICT.
 No independent banking/analytic acceptance or full-suite green claimed.
 Report: reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS.md.
+
+## 2026-09-30 - R56: complete direct classical light cubic
+
+On audit/physical-bridge-2026-09-05, science seal 0b3f062a was pushed and
+server-confirmed before scientific imports. The conditional complete light
+tensor is W3=lambda S Q.Qtilde, with S^3 zero by R50's admissible primitive
+and an explicit L2-tail estimate. R54 already owns nonvanishing of the
+paired overlap. The normalization formula is basis invariant and finite,
+not a numerical evaluation. Exact 35/35 controls, 10 dedicated passes;
+unchanged fourteen-file predecessor plus new test gives 169 passes and
+the same four failed IDs. Six science and 125 input paths stay unchanged.
+Full-suite green, independent PDE/banking acceptance, nearby pole masses,
+chirality, quantum selection, gravity and a completed TOE are not claimed.
+Current reader fronts, scoped sublemmas and lead dispositions updated.
+The owner's direction question prompts a dependency/mission audit before
+another automatic technical extension; no smaller completion goal adopted.
+Report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.

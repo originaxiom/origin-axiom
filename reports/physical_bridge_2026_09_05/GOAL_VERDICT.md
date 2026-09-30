@@ -1,4 +1,15 @@
-# Verdict toward the full physical-theory goal - R55, updated 2026-09-29
+# Verdict toward the full physical-theory goal - R56, updated 2026-09-30
+
+## Direction checkpoint - September 30
+
+The owner asked whether the work had drifted from physics. The recent
+results strengthen a conditional candidate model, but do not derive its
+supplied parent/action/geometry or settle the physical joins. Preserve
+R56, then audit those dependencies and competing live routes before
+automatically extending the canonical calculation. The ultimate mission
+and completion criteria below are unchanged; no smaller success target
+has been substituted. A priority audit is next, not a finding that every
+other branch lacks a result or that this candidate is invalid.
 
 ## Authoritative mission - reaffirmed by the owner, September 29
 
@@ -19,6 +30,23 @@ owner's actual objective, not a claim that the interface was renamed.
 Completion requires the physical joins and empirical tests below, not
 merely more calculations, matching dimensions, passed unit tests or a
 finished audit. No guarantee of scientific success is asserted.
+
+**Current path-local result, R56 (September 30): complete direct light cubic.**
+In the SAME exceptional canonical model, R55's light kernel has the
+direct classical holomorphic cubic W3=lambda S Q.Qtilde. The neutral S^3
+term vanishes by R50's complete-domain primitive and an explicit L2-tail
+boundary estimate; R54 supplies the surviving nonzero paired coefficient.
+Canonical normalization is basis invariant and finite, but lambda is
+numerically UNEVALUATED. Grade: conditional authored analysis, not
+independent global acceptance, full EFT, nearby pole-mass law or chirality.
+Native 35/35; dedicated 10 pass; fifteen-file regression 169 pass / the
+same four retained failures. Seal 0b3f062a pushed/server-confirmed before
+execution; six science paths and 125 inherited paths unchanged.
+Next: complementary-mode/domain and scale control, actual normalized
+profile integrals, then controlled quantum selection. Separate source/end/
+component chirality, SM breaking, anomalies and gravity remain duties.
+Report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+Earlier dated entries below are historical checkpoints, not current gaps.
 
 **Current path-local result, R55 (September 29): complete neutral/light census.**
 For each exceptional canonical q background, exact meridian restriction
@@ -193,6 +221,10 @@ completion of the corresponding physical-theory requirements.
   at all four exceptional canonical backgrounds: one neutral singlet
   plus 16 and 16*. Exact restriction ranks pass; the analytic comparison
   remains authored, not independently accepted or physical chirality.
+- [x] R56, conditional authored grade: the complete direct classical
+  light cubic is lambda S Q.Qtilde, with zero S^3. Its finite-positive
+  kinetic normalization is basis invariant but numerically unevaluated.
+  This is not a full EFT, pole-mass calculation or chirality mechanism.
 - [ ] **Canonical follow-through:** actual normalized mode profiles and
   interaction tensors; establish higher/neighborhood
   regularity wherever a finite-amplitude effective action needs it.

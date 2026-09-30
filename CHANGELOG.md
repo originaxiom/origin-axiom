@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-30 - R56 complete direct light cubic: nonzero pairing, zero S^3
+
+Join R50's complete-domain primitive, R54's nonzero matter overlap and
+R55's light census. Conditional authored result W3=lambda S Q.Qtilde;
+the S^3 integral vanishes with an explicit L2-tail estimate. Finite-positive
+normalization is basis invariant, but no numerical lambda is computed.
+35/35 controls, 10 new tests; fixed fifteen-file regression 169 pass /
+the same four failures. Science seal 0b3f062a pushed/server-confirmed before
+execution; six science and 125 input paths unchanged. No physical chirality,
+full EFT, nearby pole-mass law or quantum selection. Other-seat cubic and
+B1502/B1503 findings read with different-model/reception grades explicit.
+Report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+
 ## 2026-09-29 - R55 one normalizable neutral mode; physics mission reaffirmed
 
 Exact meridian restriction has rank two on all four ordinary adjoint

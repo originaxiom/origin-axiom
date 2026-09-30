@@ -1,5 +1,11 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+Current R56 disposition and direction checkpoint are at EOF: the direct
+light tensor is conditionally established; its numerical profile integral
+and physical completion remain separate duties. A dependency/priority
+audit precedes another automatic extension. Older dated lead summaries
+are historical, not permission to repeat discharged calculations.
+
 Current R51 (September 27): exact finite-energy harmonic completions on
 the fixed canonical base, unique and continuous on compact subsets, at
 authored grade. The next duty is membership/differentiability in the SAME
@@ -3740,3 +3746,30 @@ reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
   physical TOE objective. "Resume" is not the goal. See GOAL_VERDICT's
   explicit objective and completion conditions. Independent analytic
   review, anomalies, scales, gravity and empirical tests remain duties.
+
+## September 30, 2026 - R56 disposition and direction checkpoint
+
+- **Scoped direct-cubic duty advanced:** "The complete direct classical
+  light cubic is lambda S Q.Qtilde, with zero S^3," conditional authored
+  argument at reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md.
+  The earlier nonzero overlap and light census are credited, not repeated
+  as new discoveries. No general interaction or chirality route is closed.
+- **Normalization duty split:** the invariant formula and nonvanishing
+  are earned within the supplied model; actual profile integrals and a
+  numerical normalized coefficient are not computed by this result.
+- **Complement duty retained:** an interaction on the kernel is not a
+  controlled EFT. Establish the needed complement/domain and scale
+  bounds before higher/quantum claims; inspect the existing channel
+  estimates before asserting their absence.
+- **Direction checkpoint:** the owner asked whether the path had drifted.
+  Before another automatic technical extension, audit which supplied
+  action, geometry, parent and end choices the current construction
+  actually reduces, and compare live routes against that dependency map.
+  This is a research-priority review, not a reduced completion criterion.
+- **Other-seat work received:** full B1502 and B1503 findings at af568744
+  and the fork's distinct-model cubic addendum were read, not independently
+  reproduced. B1502 does not exclude anomaly-free apex matter; B1503 is
+  sealed/not-run at that pin. No universal chirality-negative is inferred.
+- **Mission duties retained:** physical chiral/SM spectrum, parent/action
+  origin, anomaly/end completion, scales, quantum dynamics, gravitational
+  dynamics, empirical predictions and independent analytic scrutiny.
