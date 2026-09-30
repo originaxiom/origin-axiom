@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Current execution, R61, September 30:** local complex fermion boundary
+reality/current checks pass, including rotation-invariant helicity lines.
+50 exact controls and 20 tests; seal 7427a24d confirmed before execution.
+Next: the same-parent differential supersymmetry, boundary gauge law,
+nonlinear residuals and complete indicial/domain analysis. No physical
+chirality, full-suite green or full-bank certificate. Report:
+reports/physical_bridge_2026_09_05/FERMION_END.md.
+
 **Current execution, R60, September 30:** boundary variation checked;
 B1504's conditional self-dual symmetry theorem retained, broader readings
 scoped. Native 30/30 and 15 tests pass; foreign lattice lemma reproduced.

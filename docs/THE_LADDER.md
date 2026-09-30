@@ -1,5 +1,12 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**Current execution, R61 (September 30):** PB-BOUNDARY now has an explicit
+critical-channel reality map. Complex helicity domains pass its combined
+star/conjugation and current tests, not each condition separately.
+50 controls and 20 tests pass. The full supersymmetric gauge/interacting
+domain remains a duty; no physical grade or chirality closure. Report:
+reports/physical_bridge_2026_09_05/FERMION_END.md.
+
 **Current execution, R60 (September 30):** the same-action boundary
 variation and scoped B1504 reception advance PB-BOUNDARY, not physical
 chirality. Thirty exact controls and 15 tests pass. Self-adjointness,

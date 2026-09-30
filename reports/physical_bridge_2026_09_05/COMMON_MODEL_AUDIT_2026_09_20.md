@@ -1,5 +1,13 @@
 # One-model audit: which positive results actually compose?
 
+**Current approved execution, R61, September 30:** the actual local
+fermion map combines Hodge duality and conjugation. Complex cone-link
+lines pass this reality/current test and admit rotations; requiring a
+real line is an additional restriction. 50 controls and 20 tests pass.
+No full physical end domain is derived: gauge/supercharge derivative
+conditions and same-parent interaction admission must still compose.
+[Result](FERMION_END.md).
+
 **Current approved execution, R60, September 30:** the adopted action's
 boundary term is explicit, but an admissible end law remains to be earned.
 Self-adjointness and Poincare self-duality are not interchangeable;

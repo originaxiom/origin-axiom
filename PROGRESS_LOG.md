@@ -15857,3 +15857,19 @@ These alternatives are not certified physical domains. Next derive the
 actual fermion reality/supercharge map and test the same-parent
 interaction domains. No new physical chirality, global census verification
 or full-bank claim. Report: reports/physical_bridge_2026_09_05/END_LAW.md.
+
+## 2026-09-30 - R61 complex critical-channel fermion reality
+
+Seal 7427a24d was pushed and server-confirmed before the first runs.
+Fifty exact controls and 20 focused tests pass. The existing R23
+Clifford map is reused and cross-checked, not rediscovered. Its local
+Hodge/conjugation map admits complex cone-link domains that cancel
+Hermitian current and preserve rotations. This is outside B1504's real
+line category, not a refutation of that theorem. Bare star, bare
+conjugation and the wrong complement controls distinguish the claims.
+Gauge and supersymmetry derivative terms and opposite-line boundary
+pairings show why this is not yet a physical end law. Next solve the
+same-parent full variational/domain and nonlinear admission problem;
+physical chirality and the full mission remain open. Historical four
+governance failure categories persist, no full-bank certificate.
+Report: reports/physical_bridge_2026_09_05/FERMION_END.md.

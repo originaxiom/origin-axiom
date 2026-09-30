@@ -1,5 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Current execution, R61 (September 30):** the neutral cone critical
+channel admits complex rotation-invariant domains under the combined
+fermion reality/current test. This is outside B1504's real-line category,
+not a refutation within it. 50 exact controls and 20 tests pass; derivative
+and opposite-line pairing controls identify additional physical duties.
+No full physical domain, spectrum or selected handedness. Report:
+reports/physical_bridge_2026_09_05/FERMION_END.md.
+
 **Current execution, R60 (September 30):** the supplied complex
 Chern-Simons superpotential now has an explicit checked boundary variation.
 B1504's invariant-line obstruction is retained under its self-dual-domain

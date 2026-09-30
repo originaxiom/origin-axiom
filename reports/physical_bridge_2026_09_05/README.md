@@ -1,5 +1,12 @@
 # Physical bridge audit — 2026-09-05
 
+**Current result, R61 (September 30):** [complex fermion end controls](FERMION_END.md)
+verify the combined reality/current map and rotation-invariant complex
+lines on the cone's harmonic critical channel. Fifty controls and 20
+focused tests pass. The full supersymmetry/gauge/interacting end law,
+all indicial modes and physical chirality remain to be established.
+The [physics mission](PHYSICS_MISSION.md) remains the autonomous goal.
+
 **Current mission, approved September 30:**
 [Physics mission and execution criteria](PHYSICS_MISSION.md).
 The [operational contract](OPERATIONAL_CONTRACT.md) is written and

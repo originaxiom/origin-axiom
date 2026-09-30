@@ -1,4 +1,13 @@
-# Verdict toward the full physical-theory goal - R60, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R61, updated 2026-09-30
+
+**Current execution, R61:** 50 exact controls and 20 tests verify the
+local complex fermion reality/current map. Rotation-invariant complex
+lines survive where real lines do not. This prevents applying B1504's
+real-category theorem as a universal physical exclusion, but does not
+supply chirality. Differential supersymmetry, boundary gauge conditions,
+nonlinear action admission and complete cone domains remain the next
+same-parent test. [Result](FERMION_END.md). The autonomous physics goal
+remains active; no completed TOE or guaranteed outcome is claimed.
 
 **Current execution, R60:** boundary variation of the adopted action is
 checked, with 30 exact controls and 15 tests passing. B1504's finite

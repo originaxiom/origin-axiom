@@ -1,5 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current execution, R61 (September 30):** complex torus-link critical
+domains preserve the transported anti-linear fermion reality map and
+Hermitian current while admitting rotations. Fifty exact controls and
+20 tests pass. This does not establish a full physical end law: next
+test differential supersymmetry, gauge restrictions, actual nonlinear
+residuals and all indicial modes in the same parent. Preserve B1504's
+REAL-line theorem; no chirality or handedness is selected. Report:
+reports/physical_bridge_2026_09_05/FERMION_END.md.
+
 **Current execution, R60 (September 30):** the adopted superpotential's
 boundary variation is checked. B1504's lattice obstruction is conditional
 on Poincare-self-dual neutral domains; self-adjointness alone is weaker.

@@ -3858,3 +3858,29 @@ neutral-domain hypothesis. No lead is closed at the physical level.
   and physical scrutiny. The B1504 209-member census was not rerun.
 - PB-PHYSICS: preserve the full mission's physical spectrum, normalized
   interactions, quantum consistency, gravity and empirical obligations.
+
+## Complex fermion end data September 30 2026
+
+R61 FERMION_END.md closes the local critical-channel reality-map
+sub-duty at authored/finite-control grade. It does not close PB-BOUNDARY.
+The combined star/conjugation condition admits rotation-invariant
+complex lines; the real B1504 obstruction retains its declared category.
+The self-adjoint extremes W=0,V fail the neutral reality test and are
+not physical neutral-sector alternatives in this calculation.
+
+- PB-ACTION / PB-BOUNDARY: construct the full SAME-parent boundary
+  variational and supersymmetry problem. Include the covariant gaugino
+  derivative, justified boundary gauge transformations, all indicial
+  modes, and the nonlinear residuals with R59's actual tensors. Test
+  finite interaction action directly; neither L2 norm nor a rough-energy
+  argument settles it. Do not independently choose each sector's line.
+- PB-BOUNDARY: determine the actual parity/G2 lift before treating a
+  linear reflection or its anti-linear model as the physical operation.
+  The local complex domains are not the real filling slopes or B1502's
+  selected smoothings, and no physical handedness was chosen.
+- PB-REVIEW: independently review the complex-domain transport and
+  global analytic extension. No census replay, full-suite green or
+  full-bank certificate is asserted; earlier review debts remain.
+- PB-PHYSICS: physical chirality, generations, normalized interactions,
+  quantum consistency, gravity and testable observables remain the full
+  mission, not replaced by these local boundary checks.

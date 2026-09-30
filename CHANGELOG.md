@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-30 - R61 complex fermion boundary reality
+
+The transported star/conjugation map admits complex critical-channel
+domains that cancel current and preserve rotations; bare star and bare
+conjugation separately do not. Preserve B1504's real-category theorem.
+Fifty exact controls and 20 tests pass after remote-confirmed seal
+7427a24d. Gauge/supersymmetry derivative and opposite-line interaction
+controls prevent promotion to a full physical end law or chirality.
+Next test the same parent's complete nonlinear variational domain.
+Report: reports/physical_bridge_2026_09_05/FERMION_END.md.
+
 ## 2026-09-30 - R60 boundary variation and cone completion scope
 
 The supplied complex Chern-Simons superpotential's boundary variation
