@@ -1263,3 +1263,14 @@ No global particle count or changed physical end law is claimed.
 | `reports/physical_bridge_2026_09_05/cone_gauge.py` | `cc25011930fd387b1ad37cbd76c6bd40fe11d79c1871dfcdcc3704fc733d2bee` |
 | `tests/test_physical_bridge_cone_gauge.py` | `6f4918258b81c896d8f75ab4888fe2cc328bbc888ea3c493f463e829d69761b3` |
 | `reports/physical_bridge_2026_09_05/CONE_GAUGE_INPUTS.json` | `ced146432e4b2f15ed476bedeecf21ac2ce8f1520ac57eefc1f4cd9e92c086f3` |
+
+## R64 kernel sign certificate repair, September 30, 2026
+
+Pre-execution monotonicity certificate for the unchanged kernel expression.
+Original five files, unknown sign inference and failed tests stay frozen.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_GAUGE_CONTROL_DESIGN.md` | `d51ec935b00a2ef5a582266517391a9ca0800aae262f2f4801547b73e6d45b0a` |
+| `reports/physical_bridge_2026_09_05/cone_gauge_control.py` | `14e88ee44f2e39378235581b17f7185d7124a909dcae27218cde8b11953bf34b` |
+| `tests/test_physical_bridge_cone_gauge_control.py` | `9bb3eea2fa5c624a60daf6853b9ab879c599a36c4a1d72a5ca992da827959e5e` |
