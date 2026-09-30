@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-30 - R65 literal global peripheral admission of cone ends
+
+Two exact arithmetic routes verify both monomial families on M2/M6.
+Their unitary periods exclude nonzero normal helicity coefficients;
+the canonical projective meridian has a distinct Jordan obstruction
+under bounded radial transport. A global abelian matched end is a
+positive control; its charged modes miss the fixed-scale critical
+window. Log-singular flat transport remains outside the obstruction,
+with its physical admission unproved. 117 controls/eight tests pass;
+combined 48 pass/four retained original failures. The initial static
+helper-assertion gate flag and pre-execution orchestration error are
+preserved; the explicit-assertion revision preceded all science.
+No universal cone exclusion, global PDE or physical chirality claim.
+Report: reports/physical_bridge_2026_09_05/CONE_MATCH.md.
+
 ## 2026-09-30 - R64 local nonlinear cone continuation and gauge distinction
 
 The paired decaying modes split into compact and Hermitian primitives.

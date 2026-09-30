@@ -1,4 +1,17 @@
-# Verdict toward the full physical-theory goal - R64, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R65, updated 2026-09-30
+
+**Current execution, path-local R65:** local existence now faces its
+actual global holonomy test. The existing rank-five monomial and
+rank-four projective families do not admit R64's nonzero cone end
+under the tested bounded asymptotics. A nonzero abelian matched control
+survives, outside the charged critical window at fixed scale. Singular
+logarithmic transport prevents promoting this to a universal no-go.
+117 exact checks/eight tests pass; combined 48 pass/four old failures.
+[Result](CONE_MATCH.md). Next construct or exclude the actual
+nilpotent/logarithmic and finite-unitary ends in the same physical
+action and common domains, not more unmatched local mode counts.
+The full mission remains active; this is necessary mathematical
+admission progress, not a derived chiral Standard Model or gravity.
 
 **Current execution, path-local R64:** the decaying cone candidates have
 an actual compact/Hermitian split and an authored exact local nonlinear

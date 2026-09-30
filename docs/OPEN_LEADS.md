@@ -3959,3 +3959,32 @@ compact gauge; constant stabilizers, domain and outer data remain essential.
   due. All first failures and their separate repair stay in the record.
 - PB-PHYSICS: chiral generations, normalized interactions, quantum
   consistency, gravity and predictions remain full-mission requirements.
+
+## Global cone peripheral admission September 30 2026
+
+Path-local R65 CONE_MATCH.md resolves the necessary matching question
+for the named normal-helicity end and tested global families, not all
+of PB-BOUNDARY. Closing sentence: the two rank-five monomial families
+exclude nonzero normal X by unitary periods, and the canonical projective
+family excludes a normal end under bounded radial transport by its
+Jordan part. Neither original complete-metric model is refuted.
+
+- PB-BOUNDARY / PB-ACTION: test nilpotent or logarithmic end fields
+  against BOTH full residual equations, actual action norms and a common
+  boson/fermion domain. The exact flat logarithmic control is not an
+  admitted physical solution; derive the needed correction before using it.
+- PB-HANDOFF-M6 / PB-TRANSITIONS: retain the actual nontrivial finite
+  unitary peripheral local system for the monomial families. Zero leading
+  X does not remove interior fields. Reuse their global construction and
+  rederive the end-domain comparison if the metric changes; do not borrow
+  R64's charged modes or untwisted integer Fourier conditions.
+- PB-ACTION: the positive abelian matched representation is a comparator,
+  not a global harmonic extension, selected vacuum or irreducible matter
+  model. Its fixed-scale charged gap must not be promoted to all link
+  scales or neutral sectors.
+- PB-REVIEW: independently review the bounded-transport argument and the
+  complete same-model domain; the eight tests are not a global PDE proof.
+  Preserve the initial gate flag and pre-execution sequencing correction.
+- PB-PHYSICS: the architecture must still earn or price its parent,
+  metric and end law; physical chirality, normalized interactions,
+  quantum consistency, gravity and observable predictions remain duties.

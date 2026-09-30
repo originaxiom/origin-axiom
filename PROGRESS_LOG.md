@@ -15929,3 +15929,30 @@ paths and nineteen input pins stay frozen. Both seals preceded runs
 and were pushed/server-confirmed. Next match the actual peripheral
 holonomy, outer data and global physical domain in one parent bundle.
 Report: reports/physical_bridge_2026_09_05/CONE_GAUGE.md.
+
+## 2026-09-30 - R65 actual global cone matching
+
+The two rank-five monomial families have exact pairs (P,P) and
+(P,P inverse) on M2, and (I,P) and (I,P inverse) on their actual M6
+pullbacks. P has order three. Both exponent/permutation arithmetic and
+dense Laurent matrices reproduce all relators and marked periods.
+Two independent complex periods force a normal helicity X to zero
+against unit-modulus spectra, including log branches and compatible
+unitary twists. The canonical projective meridian retains its index-three
+Jordan part under nonzero powers, duality and bounded radial transport.
+These exclude proposed joins, not the original complete-metric models.
+A global abelian rank-five representation matches a nonzero normal
+cone end; all its nonzero root channels lie outside the fixed-scale
+critical window, with neutral channels retained. Explicit unbounded
+logarithmic transport erases a Jordan LIMIT without erasing holonomy;
+flatness alone is not moment-flatness or finite physical action.
+117 exact checks and eight new tests pass; combined 48 pass/four
+unchanged failed IDs. First seal 22d99b1f had a static helper-assertion
+flag and was mistakenly committed after a failed baseline comparison.
+No science had run. Pre-execution revision fd72b0eb exposes direct
+assertions and corrects the old-file count; it was remotely confirmed
+before execution. All outputs remain. Six original plus two revision
+science files and sixteen source pins are checked. Next test actual
+nilpotent/logarithmic or finite-unitary ends with common gauge and
+boson/fermion domains. Full physics mission unchanged and active.
+Report: reports/physical_bridge_2026_09_05/CONE_MATCH.md.

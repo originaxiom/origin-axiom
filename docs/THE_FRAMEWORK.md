@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Current execution, path-local R65 (September 30):** actual peripheral
+words prevent joining the nonzero normal-helicity cone background to
+the two rank-five monomial families or the canonical projective family
+under the declared bounded radial hypotheses. A global abelian
+representation positively matches a nonzero cone end, but its charged
+modes miss the critical window at the fixed scale. Logarithmically
+singular transport is an explicit outside-domain control, not an
+admitted harmonic solution. 117 exact controls/eight tests pass;
+combined 48 pass/four original failures retained. Next test actual
+nilpotent/logarithmic or finite-unitary end data in the SAME action
+and common physical domain. No universal exclusion or physical chirality.
+Report: reports/physical_bridge_2026_09_05/CONE_MATCH.md.
+Earlier dated entries below are historical checkpoints.
+
 **Current execution, path-local R64 (September 30):** paired cone modes
 now have an explicit compact/Hermitian split and an authored exact local
 nonlinear continuation. A nonzero radial Higgs excludes compact gauge
