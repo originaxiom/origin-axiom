@@ -1,5 +1,17 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**Current execution, path-local R66 (September 30):** the actual canonical
+peripheral pair admits an authored local logarithmic solution of BOTH
+supplied field equations on a declared rectangular cone. Unbounded radial
+transport preserves holonomy at every positive radius; R65's bounded
+obstruction is not contradicted. The solution is L2 but outside the old
+graph-plus-L4 space about its limiting reference. 86 exact checks and
+eight tests pass; combined 56 pass/four original failures retained.
+Next earn a background-relative variational and fermion domain, boundary
+terms and global core extension. No physical chirality or selected metric.
+Report: reports/physical_bridge_2026_09_05/NILPOTENT_CONE.md.
+Earlier dated entries below are historical checkpoints.
+
 **Current execution, path-local R65 (September 30):** actual peripheral
 words prevent joining the nonzero normal-helicity cone background to
 the two rank-five monomial families or the canonical projective family

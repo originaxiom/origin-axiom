@@ -1,0 +1,128 @@
+{
+  "seal": "28c4aa3ec20fc112a45971777fe603530bf80f85",
+  "scope": "First exact and focused executions with retained historical failures; no independent analytic or physical certificate",
+  "runs": {
+    "native_first": {
+      "raw_basename": "r66_native_first",
+      "raw_receipt_sha256": "070333a5276f425cbcf5a22639ac81ef2aafcd82e5d181a8cbeb3dc8a4f0da91",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/nilpotent_cone.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.606629000045359,
+        "log_bytes": 5814,
+        "log_sha256": "ef4f62312c368b22dfaee0fcfa5043728af10f62ea388ce1651b69083b4266fc"
+      },
+      "stdout": "{\"all_checks_pass\": true, \"checks\": {\"center/center_eigenvalue\": true, \"center/cubic_residual_order\": true, \"center/equilibrium\": true, \"center/generic_graph_not_exact\": true, \"center/graph_tangent\": true, \"center/h_logarithmic_coefficient\": true, \"center/linearization\": true, \"center/logarithmic_coefficient\": true, \"center/logarithmic_derivative\": true, \"center/positive_comparison\": true, \"center/quadratic_residual\": true, \"center/reciprocal_equation\": true, \"center/u_center_equation\": true, \"center/unstable_eigenvalue\": true, \"center/z_center_equation\": true, \"comparator/comparator_beta_minus\": true, \"comparator/comparator_beta_plus\": true, \"comparator/comparator_inverse_pair\": true, \"comparator/comparator_positive\": true, \"comparator/exact_parameter_surface\": true, \"comparator/exact_u_equation\": true, \"comparator/exact_v_equation\": true, \"comparator/generic_density_diverges\": true, \"comparator/generic_leading_log_fails\": true, \"comparator/generic_residual\": true, \"comparator/wrong_log_action\": true, \"domain/L2_comparison\": true, \"domain/L4_divergence\": true, \"domain/L4_leading\": true, \"domain/adjoint_density\": true, \"domain/adjoint_divergence\": true, \"domain/adjoint_leading\": true, \"domain/curvature_cancellation\": true, \"domain/derivative_density\": true, \"domain/derivative_divergence\": true, \"domain/differential_leading\": true, \"domain/exact_Higgs_pairing\": true, \"domain/exact_full_pairing\": true, \"domain/exact_pairing\": true, \"domain/limiting_reference_flat\": true, \"domain/limiting_reference_moment\": true, \"domain/on_shell_adjoint\": true, \"domain/pairing_leading\": true, \"domain/separate_derivative_nonzero\": true, \"equations/G_determinant_one\": true, \"equations/G_radial\": true, \"equations/G_x\": true, \"equations/G_y\": true, \"equations/all_curvature_zero\": true, \"equations/block_curvature\": true, \"equations/block_moment\": true, \"equations/cross_term\": true, \"equations/moment_equation\": true, \"equations/nonrectangular_transfer_fails\": true, \"equations/on_shell_moment_zero\": true, \"equations/product_metric_transfer_fails\": true, \"equations/radial_omission_fails\": true, \"equations/radial_reversal_fails\": true, \"holonomy/actual_longitude_conjugation\": true, \"holonomy/actual_meridian_conjugation\": true, \"holonomy/condition_asymptotic\": true, \"holonomy/finite_radius_Jordan_cube\": true, \"holonomy/finite_radius_Jordan_square\": true, \"holonomy/limit_longitude\": true, \"holonomy/limit_meridian\": true, \"holonomy/logarithmic_radial_integral\": true, \"holonomy/not_positive_power_error\": true, \"holonomy/preserved_commutation\": true, \"holonomy/preserved_determinants\": true, \"holonomy/radial_coefficient_tends_zero\": true, \"holonomy/unbounded_transport\": true, \"source/D_commutes\": true, \"source/N_P_commute\": true, \"source/N_grade\": true, \"source/N_moment\": true, \"source/P_grade\": true, \"source/P_moment\": true, \"source/P_square_zero\": true, \"source/actual_basis_invertible\": true, \"source/actual_longitude\": true, \"source/actual_meridian\": true, \"source/all_traceless\": true, \"source/determinant_one\": true, \"source/nilpotent_index_three\": true, \"source/peripheral_commutation\": true, \"source/trace_norms\": true}, \"groups\": {\"center\": {\"gamma\": \"(-alpha**3 + beta**2)/(2*alpha)\", \"graph2_residual\": \"u**3*(alpha**6*u - 3*alpha**5/2 - 2*alpha**3*beta**2*u + 3*alpha**2*beta**2/2 + beta**4*u)/alpha**2\", \"graph3_residual\": \"u**4*(27*alpha**8*u**2 - 15*alpha**7*u + 14*alpha**6 - 54*alpha**5*beta**2*u**2 + 30*alpha**4*beta**2*u - 16*alpha**3*beta**2 + 27*alpha**2*beta**4*u**2 - 15*alpha*beta**4*u + 2*beta**4)/(2*alpha**2)\", \"vector_field\": \"Matrix([[-u*(alpha*u + 2*z)], [(alpha*(alpha*u*(alpha*u + 2*z) + 2*z) - beta**2*u**2)/(2*alpha)]])\"}, \"comparator\": {\"q_comparators\": \"(3 + sqrt(10), -3 + sqrt(10))\", \"scalar_residual\": \"(-alpha**3 + beta**2)/(alpha**3*(c + tau)**2)\"}, \"domain\": {\"Higgs_density\": \"(alpha*(alpha*u + 2*v**2) + beta**2*u**2/2 + 12*k**2)/alpha\", \"adjoint_density\": \"u**2*(alpha**2 + beta**2*u)**2/(2*alpha**2*r**2)\", \"differential_density\": \"2*u*v**2*(alpha**2 + 2*beta**2*u)/(alpha*r**2)\", \"full_density\": \"(2*alpha*(alpha*u + v**2) + beta**2*u**2 + 12*k**2)/alpha\", \"pairing_density\": \"(2*alpha*(alpha*u + v**2) + beta**2*u**2)/alpha\"}, \"equations\": {\"cross_matrix\": \"Matrix([[0, 0, 1, 0], [0, 0, 0, 0], [1, 0, 0, -1], [0, 0, -1, 0]])\", \"curvature\": \"{(0, 0): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (0, 1): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (0, 2): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (1, 0): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (1, 1): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (1, 2): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (2, 0): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (2, 1): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]]), (2, 2): Matrix([\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0],\\n[0, 0, 0, 0]])}\", \"moment\": \"Matrix([[alpha*exp(-2*h)/r**2 + 4*hp/r + 2*hpp + beta**2*exp(-4*h)/(alpha*r**2), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, -alpha*exp(-2*h)/r**2 - 4*hp/r - 2*hpp - beta**2*exp(-4*h)/(alpha*r**2)]])\"}, \"holonomy\": {\"longitude\": \"Matrix([[q, 0, 0, beta*q*exp(-2*h)], [0, q**(-3), 0, 0], [0, 0, q, 0], [0, 0, 0, q]])\", \"meridian\": \"Matrix([[1, 0, exp(-h), exp(-2*h)/2], [0, 1, 0, 0], [0, 0, 1, exp(-h)], [0, 0, 0, 1]])\"}, \"source\": {\"basis_determinant\": \"-(q + 1)**2/4\", \"longitude\": \"Matrix([[q, 0, 0, 6*q**2/((q - 1)*(q + 1))], [0, q**(-3), 0, 0], [0, 0, q, 0], [0, 0, 0, q]])\", \"meridian\": \"Matrix([[1, 0, 1, 1/2], [0, 1, 0, 0], [0, 0, 1, 1], [0, 0, 0, 1]])\"}}, \"scope\": \"Exact local identities; authored external-theorem existence proof; no global or physical certificate\"}\n"
+    },
+    "focused_first": {
+      "raw_basename": "r66_focused_first",
+      "raw_receipt_sha256": "84e8e33102e83136f5d0b5ca7abd795104c02b137dde12922cd2f29aadf1b6c1",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_nilpotent_cone.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 5.502421000041068,
+        "log_bytes": 98,
+        "log_sha256": "c1c8d8099103e275c67e02500801d0b59fe3237387249ae2621758ef7dd639be"
+      },
+      "stdout": "........                                                                 [100%]\n8 passed in 4.94s\n"
+    },
+    "combined_first": {
+      "raw_basename": "r66_combined_first",
+      "raw_receipt_sha256": "afefa4e1761a8b438f4561c214234481aea6709a0d540462765bb757c0269ba3",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_spectrum.py",
+          "tests/test_physical_bridge_cone_interaction.py",
+          "tests/test_physical_bridge_fermion_end.py",
+          "tests/test_physical_bridge_cone_spectrum_control.py",
+          "tests/test_physical_bridge_cone_gauge.py",
+          "tests/test_physical_bridge_cone_gauge_control.py",
+          "tests/test_physical_bridge_cone_match.py",
+          "tests/test_physical_bridge_nilpotent_cone.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 77.81043800001498,
+        "log_bytes": 3402,
+        "log_sha256": "5f119fb63a77c6caa348257583d26d17d4d32548c9b2bb85603deeee00347b0b"
+      },
+      "stdout": ".F.......F..........................F...F...................             [100%]\n=================================== FAILURES ===================================\n______________ test_generic_symbol_and_complex_unitary_reduction _______________\n\n    def test_generic_symbol_and_complex_unitary_reduction():\n>       assert all(C.spectrum_controls()['checks'].values())\nE       AssertionError: assert False\nE        +  where False = all(dict_values([True, True, True, True, False, True, True, True]))\nE        +    where dict_values([True, True, True, True, False, True, True, True]) = <built-in method values of dict object at 0x10a05b900>()\nE        +      where <built-in method values of dict object at 0x10a05b900> = {'angular_hermitian': True, 'characteristic_polynomial': False, 'complex_unitary_reduction': True, 'gamma_skew_unitary': True, ...}.values\n\ntests/test_physical_bridge_cone_spectrum.py:18: AssertionError\n______________________ test_scope_and_all_control_groups _______________________\n\n    def test_scope_and_all_control_groups():\n        with pytest.raises(ValueError):\n            C.eigenvalues(-1)\n        with pytest.raises(ValueError):\n            C.fourier_controls('complete cusp')\n        data = C.run()\n>       assert data['all_checks_pass'] and len(data['checks'])==69\nE       assert (False)\n\ntests/test_physical_bridge_cone_spectrum.py:69: AssertionError\n______________ test_volterra_inverse_cubic_and_strict_contraction ______________\n\n    def test_volterra_inverse_cubic_and_strict_contraction():\n        d = C.volterra_controls()\n        assert d['cubic_coefficient'] == 4*(C.eta+1)/(3*(4*C.eta+1))\n        assert d['correction_bound'] == s.Rational(1, 12)\n        assert d['lipschitz_bound'] == s.Rational(1, 8)\n>       assert all(d['checks'].values())\nE       AssertionError: assert False\nE        +  where False = all(dict_values([True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True]))\nE        +    where dict_values([True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True]) = <built-in method values of dict object at 0x10a0c7340>()\nE        +      where <built-in method values of dict object at 0x10a0c7340> = {'ball_bound': True, 'contraction_bound': True, 'cubic_correction': True, 'cubic_source': True, ...}.values\n\ntests/test_physical_bridge_cone_gauge.py:49: AssertionError\n____________________ test_all_groups_and_invalid_link_scope ____________________\n\n    def test_all_groups_and_invalid_link_scope():\n        with pytest.raises(ValueError):\n            C.geometry('complete hyperbolic cusp')\n        d = C.run()\n        assert set(d['groups']) == {'square', 'hexagonal', 'pair', 'volterra', 'thresholds', 'boundary'}\n        assert len(d['checks']) == 95\n>       assert d['all_checks_pass']\nE       assert False\n\ntests/test_physical_bridge_cone_gauge.py:81: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_physical_bridge_cone_spectrum.py::test_generic_symbol_and_complex_unitary_reduction\nFAILED tests/test_physical_bridge_cone_spectrum.py::test_scope_and_all_control_groups\nFAILED tests/test_physical_bridge_cone_gauge.py::test_volterra_inverse_cubic_and_strict_contraction\nFAILED tests/test_physical_bridge_cone_gauge.py::test_all_groups_and_invalid_link_scope\n4 failed, 56 passed in 76.62s (0:01:16)\n"
+    }
+  },
+  "audit_runs": {
+    "gates_seal": {
+      "raw_basename": "r66_gates_seal",
+      "raw_receipt_sha256": "526cfae22f3ed2c07ff7b6e023b3063aa4cc41e7cb5fc044b4ec2e9e03789712",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 12.584379000007175,
+        "log_bytes": 2189,
+        "log_sha256": "48fbd77dee41138d27b014c12ae1dd4708fe62f1688d111eafb1905b5a5c8283"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 35 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 253 merges since last review (DUE — run the decadal review)\n"
+    },
+    "gates_precommit": {
+      "raw_basename": "r66_gates_precommit",
+      "raw_receipt_sha256": "050a9b19a4bd73da2a1a16f4bf8ad579253c38049536fbefae736752d23f44c0",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 16.608107000007294,
+        "log_bytes": 2189,
+        "log_sha256": "7679a40e5e747be19a871e5afc6f780cd42b9fefd60c3491c45a8647564d229a"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 35 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 254 merges since last review (DUE — run the decadal review)\n"
+    },
+    "cumulative_first": {
+      "raw_basename": "r66_cumulative_first",
+      "raw_receipt_sha256": "a53f755baaae252ad5cb463b51a06e1ea87f3b83044423d8044748c24e380908",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.4449819999863394,
+        "log_bytes": 617,
+        "log_sha256": "ff2eedbdc53b4a0b5f6d6aaf7f520c2dbd5ae6981718e97a6de2857006adeff9"
+      },
+      "stdout": "{\"old_custody\":{\"artifacts\":1029,\"latest_distinct_seals\":369,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":198,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    }
+  }
+}

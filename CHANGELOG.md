@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-30 - R66 actual canonical holonomy on a logarithmic cone
+
+Both supplied field equations admit an authored local singular branch
+for every fixed q>0, q!=1 and rectangular unit-area link shape alpha>0.
+The actual peripheral pair is preserved at positive radius, outside
+R65's bounded transport assumptions. The branch is L2 but outside the
+old reference graph-plus-L4 fluctuation space; zero full residual is not
+a physical-domain certificate. An exact elementary comparator and a
+failed generic leading-log truncation are both retained. 86 exact checks
+and eight tests pass; combined 56 pass/four original failures retained.
+Seal 28c4aa3e was pushed and confirmed before scientific execution.
+Next: end boundary terms, background-relative coupled domains and global
+core extension. No derived chirality, physical metric or TOE.
+Report: reports/physical_bridge_2026_09_05/NILPOTENT_CONE.md.
+
 ## 2026-09-30 - R65 literal global peripheral admission of cone ends
 
 Two exact arithmetic routes verify both monomial families on M2/M6.

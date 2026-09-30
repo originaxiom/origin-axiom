@@ -1,4 +1,16 @@
-# Verdict toward the full physical-theory goal - R65, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R66, updated 2026-09-30
+
+**Current execution, path-local R66:** the actual canonical peripheral
+pair has an authored exact local logarithmic solution of both equations
+on a supplied rectangular cone. This realizes the singular route left
+open by R65. The same branch fails the old graph-plus-L4 fluctuation
+admission test; a new background-relative domain is not supplied for free.
+86 exact controls/eight tests pass; combined 56 pass/four old failures.
+[Result](NILPOTENT_CONE.md). Next derive the end variational law and
+compatible boson/fermion domain, then test global core extension.
+This is necessary mathematical connection progress, not chiral matter,
+a selected action/metric or a complete physical theory. The mission is
+active. Earlier dated entries below preserve their historical scopes.
 
 **Current execution, path-local R65:** local existence now faces its
 actual global holonomy test. The existing rank-five monomial and

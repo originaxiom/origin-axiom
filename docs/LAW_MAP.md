@@ -1,5 +1,12 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+Current path-local R66: the actual canonical peripheral pair admits an
+authored local logarithmic solution of both equations on a supplied
+rectangular cone. Its old-reference graph-plus-L4 admission fails.
+Six scoped sublemma rows are at EOF; no global physical phase or chirality.
+Report: reports/physical_bridge_2026_09_05/NILPOTENT_CONE.md.
+Earlier dated entries below retain their historical scopes.
+
 Current local result R56: the direct canonical light cubic and its
 conditional complete-domain zero/normalization sublemmas are at EOF.
 Earlier dated entries below are historical. No numerical coupling,
@@ -949,3 +956,18 @@ these matching statements. Analytic statements have authored grade.
 | Unbounded logarithmic flat transport can have zero limiting trace and nontrivial unipotent holonomy at every positive radius | G=diag(s^(-1/4),s^(1/4)), s=-log r; radial norm not integrable and errors not any positive power. Neither moment equation nor finite physical action is asserted. | B1504 scope context only; R65 CONE_MATCH_PROOF.md; tests/test_physical_bridge_cone_match.py::test_bounded_transport_and_singular_countercontrols |
 | A declared global abelian rank-five representation matches a nonzero normal cone end | X=2pi i diag(1,0,-1,0,0), both knot generators exp(w1 X), preferred longitude I. Necessary matching positive, not global harmonic extension or physical selection. | B1504 cone context only; R65 CONE_MATCH_PROOF.md; tests/test_physical_bridge_cone_match.py::test_positive_global_abelian_control_and_charged_window |
 | All nonzero root channels in the positive abelian control miss the charged critical window at the declared unit-area scales | Zero-Fourier lower bounds 8pi squared and 4sqrt(3)pi squared; full nonzero-Fourier bound also exceeds 3/4. Neutral sectors and other scales remain. | B1504 physical-domain context only; R65 CONE_MATCH_PROOF.md; tests/test_physical_bridge_cone_match.py::test_positive_global_abelian_control_and_charged_window |
+
+## Canonical logarithmic cone end September 30 2026
+
+Path-local R66. B1504 supplies audited end-domain context, not this proof.
+Existence and improper-integral statements have conditional authored
+analytic grade; finite controls are not independent proof acceptance.
+
+| law (scoped statement) | scope and limits | evidence |
+|---|---|---|
+| The actual canonical peripheral pair reduces both rectangular cone equations to one radial scalar equation | q>0, q!=1; inverse link diag(alpha,1/alpha), alpha>0; fixed positive trace adjoint. C_r=h' H, C_x=exp(-h)N, C_y=log(q)D+beta exp(-2h)P. No other-link or physical selection claim. | B1504 end context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_actual_canonical_pair_and_grading and test_both_equations_and_wrong_input_controls |
+| For each fixed allowed parameter pair there is an exact local logarithmic branch satisfying both full residual equations | Center-manifold application with eigenvalues zero and one, smooth polynomial nonlinearity and positive-u comparison. exp(2h)=alpha s+(beta squared-alpha cubed)/alpha squared log(s)+O(1), s=-log(r). Authored local existence, not a global core extension or convergent formal series. | B1504 continuation context only; R66 NILPOTENT_CONE_PROOF.md and external Sideris Corollary 9.1 and Theorem 9.2; tests/test_physical_bridge_nilpotent_cone.py::test_center_coordinates_and_invariance_residuals checks algebra only |
+| The elementary leading-log branch is exact only on beta squared=alpha cubed within this ansatz | Off that surface it leaves nonzero moment and divergent residual-square action. Square q values 3+sqrt(10) and sqrt(10)-3 are comparators, not selected physical vacua. | B1504 admission context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_exact_comparator_and_failed_generic_truncation |
+| The logarithmic branch retains the actual peripheral similarity class at every positive radius despite a normal limiting pair | Meridian Jordan index three; transport condition number asymptotic to alpha times negative log(r). Not covered by the bounded radial transport hypothesis and not a compact gauge identification. | B1504 end context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_full_peripheral_holonomy_and_singular_transport |
+| The branch is locally L2 but not in the old graph-plus-L4 space about its limiting reference | Positive trace norms give divergent L4, separate differential and adjoint densities. Full residual-square action is zero; this does not authorize dropping boundary terms or admitting a physical singular background. | B1504 domain context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_L2_and_separate_graph_and_L4_failures |
+| A nonrectangular cross term obstructs the one-scalar radial ansatz, while a reducible SL5 block inclusion preserves its equations | Fixed peripheral marking and this ansatz only; not all nonrectangular solutions. E4 plus 1 is not the distinct monomial rank-five local system. | B1504 identification context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_both_equations_and_wrong_input_controls |

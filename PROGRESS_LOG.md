@@ -15956,3 +15956,26 @@ science files and sixteen source pins are checked. Next test actual
 nilpotent/logarithmic or finite-unitary ends with common gauge and
 boson/fermion domains. Full physics mission unchanged and active.
 Report: reports/physical_bridge_2026_09_05/CONE_MATCH.md.
+
+## 2026-09-30 - R66 logarithmic cone branch with actual canonical periods
+
+The flat-only singular route now has an authored local existence proof
+for BOTH supplied field equations, with the actual rank-four meridian
+and longitude. The changed metric has rectangular unit-area torus link,
+alpha>0; q>0, q!=1 is fixed. A center-manifold theorem applied to the
+exact polynomial radial system produces the required logarithmic branch.
+Sideris section 9.1 was personally read; finite algebraic checks are not
+independent analytic review. The exact beta squared=alpha cubed family
+is a comparator, not a selected parameter. For generic parameters the
+leading logarithm alone has divergent residual action, so its nonlinear
+correction cannot be dropped. Holonomy is preserved at every positive
+radius while transport is unbounded. The exact solution is L2, but its
+L4 and separate old-reference graph norms diverge. This is a new local
+background candidate, not an admitted fluctuation in the old domain.
+Seal 28c4aa3e was remotely confirmed before execution; 86/86 exact checks
+and all eight new tests pass. Combined 56 pass with the same four
+original R63/R64 failures. Five frozen science paths and eight input
+pins are retained. No global core extension or physical chirality is
+derived. Next test boundary terms and compatible background-relative
+boson/fermion domains in the same action; the full mission stays active.
+Report: reports/physical_bridge_2026_09_05/NILPOTENT_CONE.md.

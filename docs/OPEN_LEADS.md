@@ -3988,3 +3988,32 @@ Jordan part. Neither original complete-metric model is refuted.
 - PB-PHYSICS: the architecture must still earn or price its parent,
   metric and end law; physical chirality, normalized interactions,
   quantum consistency, gravity and observable predictions remain duties.
+
+## R66 canonical logarithmic end disposition September 30 2026
+
+The previous flat-only candidate is advanced, not globally closed:
+"The actual canonical peripheral pair has an authored exact local
+solution of both supplied equations on a declared rectangular cone."
+Source: reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md.
+86 exact controls and eight tests pass; no independent analytic or
+physical completion certificate is claimed.
+
+- PB-BOUNDARY / PB-ACTION: derive end variational boundary terms and
+  coupled boson/fermion domains about this singular background. The
+  graph-plus-L4 space about its limiting reference excludes its
+  difference; zero full residual does not override that restriction.
+  Compare background-relative admission without silently enlarging it.
+- PB-ACTION / PB-TRANSITIONS: test global extension through the compact
+  core with the actual canonical holonomy and the changed cone metric.
+  The local center-manifold construction is not that global proof.
+- PB-BOUNDARY: determine whether any principle earns the rectangular
+  link geometry and singular asymptotics. The nonrectangular cross-term
+  failure concerns this scalar ansatz only; no all-link exclusion.
+- PB-HANDOFF-M6: preserve the distinct finite-unitary monomial route.
+  Embedding the canonical rank-four block in SL5 does not transfer its
+  construction or domain to the monomial rank-five family.
+- PB-REVIEW: independently review the center-manifold application and
+  singular-domain argument. Preserve the exact comparator, generic
+  truncation failure and original four older test failures.
+- PB-PHYSICS: physical chirality, normalized observables, quantum
+  consistency and gravity remain duties of the full architecture.
