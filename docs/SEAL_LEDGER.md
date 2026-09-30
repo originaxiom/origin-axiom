@@ -1333,3 +1333,16 @@ precedes this seal.
 | `reports/physical_bridge_2026_09_05/CONE_FLUX_INPUTS.json` | `9b0135f974348303eb68d31c96b9798f9f91a4139080e990369e51558750d377` |
 | `reports/physical_bridge_2026_09_05/cone_flux.py` | `e53b428198e0fecba213a8a6a9ca23c2e1abae5363651dbae5d57e84624e0692` |
 | `tests/test_physical_bridge_cone_flux.py` | `9043e2829e3f5ce1c5a889dc0c3383c2b59f4277ad0a5aab105717857906202a` |
+
+## September 30 2026 R68 actual cone fermion and neutral domain seal
+
+Exact matrix operator, reducing coefficient and endpoint/current controls.
+No new scientific import or execution precedes this seal.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_FERMION_DESIGN.md` | `d24ab34f561f5505344f2a1df7ee237ee6e4a9f33e00f07ea9e1191161f6fb5d` |
+| `reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md` | `e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404` |
+| `reports/physical_bridge_2026_09_05/CONE_FERMION_INPUTS.json` | `9cf4d5c3f62de283f06958aad31a3142be2dfa0816e669c2078e672c61e68a4d` |
+| `reports/physical_bridge_2026_09_05/cone_fermion.py` | `535f6d00f3af7a942997e05ce3d65ca429d2410f99013cf2f0dbd978aa16f0a3` |
+| `tests/test_physical_bridge_cone_fermion.py` | `735bcdb5aff36369930bd5398c42f125d34f372bad06a6de6e1197e6ba2d8542` |

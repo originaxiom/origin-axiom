@@ -1,0 +1,93 @@
+{
+  "scope": "Pinned actual fields, normalized metric calculus and previous-domain controls; not physical input derivation",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756",
+      "bytes": 7864
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/nilpotent_cone.py",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "820bd1e6cf820e6806086300a0712b4f352c9e575db26764bf3d3ecb2daf55a9",
+      "bytes": 12726
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/canonical_cusp.py",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "a8e5dd6a8d71dfe534c97f48812b91afc67c5946ccc404e7b8540c567105dd70",
+      "bytes": 4884
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932",
+      "bytes": 7880
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/charged_domain.py",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "0b66fc227ebc94d25077e01d621d190e8f64d6749ac72f26e7d470cff122df5c",
+      "bytes": 12200
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END_DESIGN.md",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "56da61e3e09c2969cebedf458c68a7287a86e96fcdbf555b12aef9476cb335c0",
+      "bytes": 8385
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/fermion_end.py",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964",
+      "bytes": 6170
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_SPECTRUM_DESIGN.md",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "4f3dbf78bafaf4e8914a916909e6d2b7fe44e415a62f47ee5b017a5c1de1caf1",
+      "bytes": 8642
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_spectrum.py",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "2cb1b0bbcb14810e9748c492190669281d6c2d8d5baf6bc0c1e2dbd739ab2bdd",
+      "bytes": 11840
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "713f2e8068a712e1ed44b43f2a173c5fd1b3e3ac481252044efd97f5be113731",
+      "bytes": 7930
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_FLUX_RECEIPTS.json",
+      "commit": "edd753fc190283b596de4f3ba209ef2c02b9d90d",
+      "sha256": "9c019bb401534214800227afa04f048557a88d7137e50ebfd75b96c182a66a53",
+      "bytes": 18027
+    }
+  ],
+  "literature": [
+    {
+      "title": "Higgs Bundles for M-theory on G2-manifolds",
+      "url": "https://arxiv.org/html/1812.06072v2",
+      "accessed": "2026-09-30",
+      "read": "Section 2.3 equations 2.34-2.42 and Appendix C",
+      "used": "Supplied fermion interpretation and need for domains; no singular-end transfer of the smooth boundary proof"
+    },
+    {
+      "title": "Hodge theory on Cheeger spaces",
+      "url": "https://arxiv.org/html/1307.5473v3",
+      "accessed": "2026-09-30",
+      "read": "Section 3.1 through the indicial decomposition",
+      "used": "Untwisted indicial analysis motivates deriving the actual coefficient operator; full theorem not applied to the logarithmic connection"
+    }
+  ]
+}
