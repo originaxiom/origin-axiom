@@ -4017,3 +4017,31 @@ physical completion certificate is claimed.
   truncation failure and original four older test failures.
 - PB-PHYSICS: physical chirality, normalized observables, quantum
   consistency and gravity remain duties of the full architecture.
+
+## R67 logarithmic action and radial profile disposition September 30 2026
+
+"The expanded bulk divergence cancels against the actual regulated
+boundary current; a sufficient affine bosonic variational class exists."
+Source: reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md. This is
+conditional action/domain progress, not closure of the physical end law.
+
+- PB-BOUNDARY / PB-ACTION: keep the derived boundary current whenever
+  rewriting the residual-square action. Determine the compatible
+  fermionic boundary terms and full supersymmetry conditions; the
+  bosonic affine class alone does not provide them.
+- PB-BOUNDARY: derive the actual first-order fermion, reality and
+  compact gauge domains about the logarithmic background. A second-order
+  bosonic realization is not that identification. Do not import the
+  trivial-coefficient harmonic-link answer unchanged.
+- PB-ACTION / PB-TRANSITIONS: test global core and outer matching. The
+  formal radial Jacobi profile has finite L2 norm but divergent L4
+  norm and nonzero outer flux. It is not a counted particle or a
+  universal exclusion of other justified nonlinear domains.
+- PB-HANDOFF-M6: the monomial finite-unitary route remains distinct;
+  the rank-four cone calculation does not transport to it by rank.
+- PB-REVIEW: independently review the affine-domain argument and
+  regulated boundary identity. Preserve the original four test failures
+  and the L2-but-not-graph boundary countercontrol.
+- PB-PHYSICS: selection or justification of action, metric and end law,
+  chiral matter, normalized observables, quantum consistency and gravity
+  remain duties. No ingredient-list or local-action completion claim.

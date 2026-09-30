@@ -1,4 +1,16 @@
-# Verdict toward the full physical-theory goal - R66, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R67, updated 2026-09-30
+
+**Current execution, path-local R67:** the actual logarithmic cone
+retains zero residual action when the regulated boundary current is
+kept. The apparent divergent bulk obstruction alone is invalid; R28's
+prior warning is now instantiated nonabelianly. A sufficient affine
+bosonic variational class exists. The formal L2 radial zero profile
+fails its L4 condition and requires outer data, so no particle is counted.
+52 exact controls/eight new tests pass; combined 64 pass/four old failures.
+[Result](CONE_FLUX.md). Next derive the first-order fermion, reality,
+supercharge and gauge domains, including core/outer matching. This is
+conditional action/domain progress, not derived physical chirality,
+quantum gravity or a TOE. The mission remains active.
 
 **Current execution, path-local R66:** the actual canonical peripheral
 pair has an authored exact local logarithmic solution of both equations

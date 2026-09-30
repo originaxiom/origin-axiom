@@ -1,0 +1,134 @@
+{
+  "seal": "8c46c279bb702a1ac69421928eebc73a6203109c",
+  "scope": "First regulated action and radial checks; focused populations retain old failures; no complete fermion or physical certificate",
+  "runs": {
+    "native_first": {
+      "raw_basename": "r67_native_first",
+      "raw_receipt_sha256": "fa39a2bfc6f26aa310a058ae27d757a40c37fa503e12fb769404eecf2656c91e",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/cone_flux.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 18.151868999993894,
+        "log_bytes": 4347,
+        "log_sha256": "d7d82ef76d07d7093b16e0bb861b17e8452c2e24a96f270de2defa4a334d5074"
+      },
+      "stdout": "{\"all_checks_pass\": true, \"checks\": {\"boundary/lower_control_L2\": true, \"boundary/lower_control_angular_not_flat\": true, \"boundary/lower_control_boundary_nonzero\": true, \"boundary/lower_control_graph\": true, \"boundary/lower_control_graph_diverges\": true, \"boundary/lower_control_kinetic\": true, \"boundary/lower_control_radial_flat\": true, \"boundary/triangular_family_boundary_zero\": true, \"flux/Hermitian_Higgs\": true, \"flux/actual_boundary_current\": true, \"flux/covariant_Bochner\": true, \"flux/curvature_decomposition\": true, \"flux/exact_on_shell_zero\": true, \"flux/full_off_shell_boundary_identity\": true, \"flux/inverse_metric\": true, \"flux/metric_Ricci\": true, \"flux/moment_is_twice_divergence\": true, \"flux/nonabelian_cross_not_zero\": true, \"flux/omitted_Ricci_fails\": true, \"flux/omitted_nonabelian_energy_fails\": true, \"flux/on_shell_expanded_is_boundary\": true, \"flux/radial_Christoffel\": true, \"flux/unitary_connection\": true, \"flux/volume_density\": true, \"flux/wrong_boundary_sign_fails\": true, \"jacobi/L2_comparison\": true, \"jacobi/L4_divergence\": true, \"jacobi/actual_radial_projection\": true, \"jacobi/apex_flux_vanishes\": true, \"jacobi/autonomous_translation_solves\": true, \"jacobi/compact_projection_zero\": true, \"jacobi/derivative_asymptotic\": true, \"jacobi/exact_covariant_primitive\": true, \"jacobi/kinetic_leading\": true, \"jacobi/kinetic_metric\": true, \"jacobi/positive_Jacobi_coefficient\": true, \"jacobi/quartic_leading\": true, \"jacobi/radial_energy_identity\": true, \"jacobi/tangent_flatness\": true, \"jacobi/tangent_formal_adjoint\": true, \"jacobi/wrong_Jacobi_sign_fails\": true, \"limits/comparator_reference_not_enough\": true, \"limits/exact_comparator_boundary\": true, \"limits/full_leading_constant\": true, \"limits/logarithmic_flux_polynomial\": true, \"limits/outward_sign_retained\": true, \"limits/reference_Ricci\": true, \"limits/reference_boundary_identity\": true, \"limits/reference_flux_derived\": true, \"limits/reference_rough\": true, \"limits/reference_subtraction_leaves_log\": true, \"limits/remaining_flux_diverges\": true}, \"groups\": {\"boundary\": {\"lower_boundary\": \"-2\", \"lower_graph_density\": \"2/r**2\", \"lower_kinetic_density\": \"2*exp(2*h)/alpha\", \"triangular_boundary\": \"0\"}, \"flux\": {\"Ricci_density\": \"(-alpha**2*exp(2*h) - beta**2/2 - 12*k**2*exp(4*h))*exp(-4*h)/(alpha*r**2)\", \"boundary\": \"2*alpha*hp*exp(-2*h) + alpha*exp(-2*h)/r + 4*hp**2*r + 2*beta**2*hp*exp(-4*h)/alpha + beta**2*exp(-4*h)/(2*alpha*r) + 12*k**2/(alpha*r)\", \"expanded_density\": \"alpha**2*exp(-4*h)/(2*r**2) + 4*alpha*hp**2*exp(-2*h) + 6*alpha*hp*exp(-2*h)/r + alpha*exp(-2*h)/r**2 + beta**2*exp(-6*h)/r**2 + 4*hp**2 + 2*hpp**2*r**2 + 8*beta**2*hp**2*exp(-4*h)/alpha + 6*beta**2*hp*exp(-4*h)/(alpha*r) + beta**2*exp(-4*h)/(2*alpha*r**2) + 12*k**2/(alpha*r**2) + beta**4*exp(-8*h)/(2*alpha**2*r**2)\", \"on_shell\": \"{hpp: -2*hp/r - (alpha*exp(-2*h) + beta**2*exp(-4*h)/alpha)/(2*r**2)}\", \"residual_density\": \"(alpha**2*exp(2*h) + 4*alpha*hp*r*exp(4*h) + 2*alpha*hpp*r**2*exp(4*h) + beta**2)**2*exp(-8*h)/(2*alpha**2*r**2)\", \"rough_density\": \"2*alpha*(hp*r + 1)**2*exp(-2*h)/r**2 + beta**2*exp(-6*h)/(2*r**2) + 2*hpp**2*r**2 + (alpha + 2*hp*r*exp(2*h))**2*exp(-4*h)/(2*r**2) + beta**2*(2*hp*r + 1)**2*exp(-4*h)/(alpha*r**2) + 24*k**2/(alpha*r**2) + (2*alpha*hp*r*exp(4*h) + beta**2)**2*exp(-8*h)/(2*alpha**2*r**2)\"}, \"jacobi\": {\"formal_adjoint\": \"Matrix([[alpha*f*exp(-2*h)/r**2 - 2*fp/r - fpp + 2*beta**2*f*exp(-4*h)/(alpha*r**2), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, -alpha*f*exp(-2*h)/r**2 + 2*fp/r + fpp - 2*beta**2*f*exp(-4*h)/(alpha*r**2)]])\", \"kinetic_density\": \"2*alpha*f**2*exp(-2*h) + 2*fp**2*r**2 + 4*beta**2*f**2*exp(-4*h)/alpha\", \"radial_derivative\": \"-alpha*u/2 + v - beta**2*u**2/(2*alpha)\", \"translation_equation\": \"0\"}, \"limits\": {\"exact_boundary\": \"(alpha*(c + tau)**2 + alpha*(c + tau)/2 - alpha + 12*k**2*(c + tau)**3)/(alpha*r*(c + tau)**3)\", \"exact_expanded_density\": \"(alpha*(c + tau)**5 - alpha*(c + tau)**4 - alpha*(c + tau)**3 + 5*alpha*(c + tau)**2/2 + alpha*(-c - tau + (c + tau)**2)**2/2 + 12*k**2*(c + tau)**6)/(alpha*r**2*(c + tau)**6)\", \"flux_polynomial\": \"(alpha*(-2*alpha*u*v + alpha*u + 4*v**2) - 2*beta**2*u**2*v + beta**2*u**2/2 + 12*k**2)/alpha\", \"reference_boundary\": \"12*k**2/(alpha*r)\"}}, \"scope\": \"Exact local boundary and profile identities; no full fermion domain, global mode or physical completion\"}\n"
+    },
+    "focused_first": {
+      "raw_basename": "r67_focused_first",
+      "raw_receipt_sha256": "246f42ce511aee94d18de96b2b06caacc89dd4e3bbe938a466ce55b3d281fe42",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_flux.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 21.4733530000085,
+        "log_bytes": 99,
+        "log_sha256": "e8df713f9911f745fe87d11eff727eccc77106a324bab4d3a97dd73584c13b87"
+      },
+      "stdout": "........                                                                 [100%]\n8 passed in 20.42s\n"
+    },
+    "combined_first": {
+      "raw_basename": "r67_combined_first",
+      "raw_receipt_sha256": "14cc6f4c6465808f549f58559594fa3330ae023f0e24a3f3d73925728ef86b5f",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_spectrum.py",
+          "tests/test_physical_bridge_cone_interaction.py",
+          "tests/test_physical_bridge_fermion_end.py",
+          "tests/test_physical_bridge_cone_spectrum_control.py",
+          "tests/test_physical_bridge_cone_gauge.py",
+          "tests/test_physical_bridge_cone_gauge_control.py",
+          "tests/test_physical_bridge_cone_match.py",
+          "tests/test_physical_bridge_nilpotent_cone.py",
+          "tests/test_physical_bridge_cone_flux.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 321.02825999999186,
+        "log_bytes": 3403,
+        "log_sha256": "b38ed623fbdd2e5cd15883b52ac98af7049009b0f86ff8bdb01a767c0e8e6e96"
+      },
+      "stdout": ".F.......F..........................F...F...........................     [100%]\n=================================== FAILURES ===================================\n______________ test_generic_symbol_and_complex_unitary_reduction _______________\n\n    def test_generic_symbol_and_complex_unitary_reduction():\n>       assert all(C.spectrum_controls()['checks'].values())\nE       AssertionError: assert False\nE        +  where False = all(dict_values([True, True, True, True, False, True, True, True]))\nE        +    where dict_values([True, True, True, True, False, True, True, True]) = <built-in method values of dict object at 0x111763ac0>()\nE        +      where <built-in method values of dict object at 0x111763ac0> = {'angular_hermitian': True, 'characteristic_polynomial': False, 'complex_unitary_reduction': True, 'gamma_skew_unitary': True, ...}.values\n\ntests/test_physical_bridge_cone_spectrum.py:18: AssertionError\n______________________ test_scope_and_all_control_groups _______________________\n\n    def test_scope_and_all_control_groups():\n        with pytest.raises(ValueError):\n            C.eigenvalues(-1)\n        with pytest.raises(ValueError):\n            C.fourier_controls('complete cusp')\n        data = C.run()\n>       assert data['all_checks_pass'] and len(data['checks'])==69\nE       assert (False)\n\ntests/test_physical_bridge_cone_spectrum.py:69: AssertionError\n______________ test_volterra_inverse_cubic_and_strict_contraction ______________\n\n    def test_volterra_inverse_cubic_and_strict_contraction():\n        d = C.volterra_controls()\n        assert d['cubic_coefficient'] == 4*(C.eta+1)/(3*(4*C.eta+1))\n        assert d['correction_bound'] == s.Rational(1, 12)\n        assert d['lipschitz_bound'] == s.Rational(1, 8)\n>       assert all(d['checks'].values())\nE       AssertionError: assert False\nE        +  where False = all(dict_values([True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True]))\nE        +    where dict_values([True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True]) = <built-in method values of dict object at 0x11204bcc0>()\nE        +      where <built-in method values of dict object at 0x11204bcc0> = {'ball_bound': True, 'contraction_bound': True, 'cubic_correction': True, 'cubic_source': True, ...}.values\n\ntests/test_physical_bridge_cone_gauge.py:49: AssertionError\n____________________ test_all_groups_and_invalid_link_scope ____________________\n\n    def test_all_groups_and_invalid_link_scope():\n        with pytest.raises(ValueError):\n            C.geometry('complete hyperbolic cusp')\n        d = C.run()\n        assert set(d['groups']) == {'square', 'hexagonal', 'pair', 'volterra', 'thresholds', 'boundary'}\n        assert len(d['checks']) == 95\n>       assert d['all_checks_pass']\nE       assert False\n\ntests/test_physical_bridge_cone_gauge.py:81: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_physical_bridge_cone_spectrum.py::test_generic_symbol_and_complex_unitary_reduction\nFAILED tests/test_physical_bridge_cone_spectrum.py::test_scope_and_all_control_groups\nFAILED tests/test_physical_bridge_cone_gauge.py::test_volterra_inverse_cubic_and_strict_contraction\nFAILED tests/test_physical_bridge_cone_gauge.py::test_all_groups_and_invalid_link_scope\n4 failed, 64 passed in 318.07s (0:05:18)\n"
+    }
+  },
+  "audit_runs": {
+    "gates_seal": {
+      "raw_basename": "r67_gates_seal",
+      "raw_receipt_sha256": "4bed3a8cb875bda8ad202c3bd2311c2805f7fe9684be9767aad58d250da7d669",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 23.961659999971744,
+        "log_bytes": 2189,
+        "log_sha256": "f65804d02e352485bb84dc8cca750e04fc638ffd4a65016b9ecd05c3a3038e56"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 35 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 255 merges since last review (DUE — run the decadal review)\n"
+    },
+    "gates_precommit": {
+      "raw_basename": "r67_gates_precommit",
+      "raw_receipt_sha256": "c966c3620ae2833fdd8fc0a1b0153772ab3b090a82ee4f06af2cc900af00745c",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 74.45024500001455,
+        "log_bytes": 2189,
+        "log_sha256": "c6483f55d234bff970eef1a24ea22020dd442779a5ed7c5c03d04ae17eb6dc0d"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 35 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 256 merges since last review (DUE — run the decadal review)\n"
+    },
+    "cumulative_first": {
+      "raw_basename": "r67_cumulative_first",
+      "raw_receipt_sha256": "ea296098123bc0862f34687848496cf398655248d25b1fd56cc6c491d3186324",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.541956999979448,
+        "log_bytes": 617,
+        "log_sha256": "eebb9f5073862dc6ffbb85f04aed8819942b900a0edba074e2a5ddf076080f40"
+      },
+      "stdout": "{\"old_custody\":{\"artifacts\":1037,\"latest_distinct_seals\":374,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":199,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    }
+  },
+  "orchestration_note": {
+    "evidence": "Tool transcript, not a separately captured command log",
+    "event": "A provisional baseline comparison read the governance output before its process was terminal and printed FAIL rows changed.",
+    "disposition": "No dependent write or commit followed. The same live handle was resumed to terminal exit 1, then the completed output matched the four historical FAIL rows exactly. The provisional message is not a terminal governance outcome."
+  }
+}

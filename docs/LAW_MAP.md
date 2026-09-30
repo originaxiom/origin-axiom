@@ -1,5 +1,12 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+Current path-local R67: six scoped boundary/action and radial-profile
+sublemmas are at EOF. The actual cone's expanded divergence is cancelled
+by its current; a sufficient bosonic class exists, not a full physical
+domain. A local L2 Jacobi profile is not admitted by its L4 condition.
+Report: reports/physical_bridge_2026_09_05/CONE_FLUX.md.
+Earlier dated entries below retain their historical scopes.
+
 Current path-local R66: the actual canonical peripheral pair admits an
 authored local logarithmic solution of both equations on a supplied
 rectangular cone. Its old-reference graph-plus-L4 admission fails.
@@ -971,3 +978,19 @@ analytic grade; finite controls are not independent proof acceptance.
 | The logarithmic branch retains the actual peripheral similarity class at every positive radius despite a normal limiting pair | Meridian Jordan index three; transport condition number asymptotic to alpha times negative log(r). Not covered by the bounded radial transport hypothesis and not a compact gauge identification. | B1504 end context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_full_peripheral_holonomy_and_singular_transport |
 | The branch is locally L2 but not in the old graph-plus-L4 space about its limiting reference | Positive trace norms give divergent L4, separate differential and adjoint densities. Full residual-square action is zero; this does not authorize dropping boundary terms or admitting a physical singular background. | B1504 domain context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_L2_and_separate_graph_and_L4_failures |
 | A nonrectangular cross term obstructs the one-scalar radial ansatz, while a reducible SL5 block inclusion preserves its equations | Fixed peripheral marking and this ansatz only; not all nonrectangular solutions. E4 plus 1 is not the distinct monomial rank-five local system. | B1504 identification context only; R66 NILPOTENT_CONE_PROOF.md; tests/test_physical_bridge_nilpotent_cone.py::test_both_equations_and_wrong_input_controls |
+
+## Logarithmic cone boundary and radial admission September 30 2026
+
+Path-local R67. The general boundary principle was already present in
+R28; the new instance uses the actual R66 nonabelian cone. B1504 is
+end-domain context only. Analytic statements remain authored, not
+independently reviewed by these finite checks.
+
+| law (scoped statement) | scope and limits | evidence |
+|---|---|---|
+| The actual cone residual potential equals its expanded covariant energy plus a signed boundary current | Off-shell h,h',h''; rectangular metric-derived Ricci and all nonabelian curvature terms retained. Standard covariant Bochner identity, not novelty or a complete physical boundary action. | B1504 end context only; R28 SOURCE_ACTION_PROOF.md prior principle; R67 CONE_FLUX_PROOF.md section 1; tests/test_physical_bridge_cone_flux.py::test_metric_and_covariant_boundary_identity |
+| The exact branch's divergent expanded bulk integral is cancelled by its regulated boundary contribution | B=[12k squared/alpha+1/s+O(log(s)/s squared)]/r, s=-log(r). Subtracting only C_infinity leaves 1/(r s). Does not justify dropping boundary terms or select a physical end law. | B1504 domain context only; R67 CONE_FLUX_PROOF.md section 2; tests/test_physical_bridge_cone_flux.py::test_on_shell_bulk_cost_keeps_boundary_flux and test_reference_subtraction_and_exact_comparator |
+| A sufficient affine fixed-background bosonic variational class admits the exact background as a stationary zero | Compact-support closure in L2, separate differential and adjoint graph norms and L4; Holder bounds the quadratic brackets. Authored Banach-space argument, not a self-adjoint fermion domain, full supersymmetry certificate or physical selection. | B1504 domain context only; R46 CANONICAL_INTERACTION_PROOF.md section 4; R67 CONE_FLUX_PROOF.md section 3; finite residual identities in tests/test_physical_bridge_cone_flux.py::test_on_shell_bulk_cost_keeps_boundary_flux do not prove domain selection |
+| The actual radial translation tangent solves both formal linear equations and is L2 but not L4 | a_f=d_C(fH), f=h_s; kinetic density asymptotic to 1/(2s cubed), quartic density 1/(4r squared s^6). Its Hermitian radial projection excludes compact gauge removal. Not an admitted global physical zero mode. | B1504 admission context only; R67 CONE_FLUX_PROOF.md section 4; tests/test_physical_bridge_cone_flux.py::test_actual_radial_Jacobi_profile and test_kinetic_and_quartic_admission_are_different |
+| The radial Jacobi norm is supported by outer data when its apex flux vanishes | Norm equals 2[r squared f f']; A_h>0. Zero outer Dirichlet or Neumann datum forces zero within this radial class. Not a theorem against all global extension. | B1504 end context only; R67 CONE_FLUX_PROOF.md section 4; tests/test_physical_bridge_cone_flux.py::test_kinetic_and_quartic_admission_are_different checks the identity and endpoint limit |
+| Zero Chern-Simons boundary variation on the triangular background family does not hold for every L2 fluctuation | Explicit lower-triangular a_y=exp(h)N dagger has nonzero boundary pairing and divergent differential graph norm. It is a countercontrol, not an admitted physical fluctuation. | B1504 domain context only; R60 END_LAW_DESIGN.md prior boundary variation; R67 CONE_FLUX_PROOF.md section 5; tests/test_physical_bridge_cone_flux.py::test_triangular_CS_variation_and_L2_countercontrol |

@@ -1,5 +1,17 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current execution, path-local R67 (September 30):** the actual logarithmic
+cone passes its regulated action audit. The divergent expanded bulk term
+is cancelled by its explicit boundary current; subtracting only the
+commuting reference is insufficient. A sufficient affine bosonic
+variational class exists, but the formal L2 radial Jacobi profile fails
+its L4 condition and depends on outer data. 52 exact checks/eight new
+tests pass; combined 64 pass/four original failures retained. Next earn
+the actual first-order fermion, reality, supercharge and gauge domains,
+with global core matching. No physical chiral spectrum or selected metric.
+Report: reports/physical_bridge_2026_09_05/CONE_FLUX.md.
+Earlier dated entries below retain their historical scopes.
+
 **Current execution, path-local R66 (September 30):** the actual canonical
 peripheral pair admits an authored local logarithmic solution of BOTH
 supplied field equations on a declared rectangular cone. Unbounded radial

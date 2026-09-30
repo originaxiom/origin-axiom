@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-30 - R67 logarithmic cone boundary current and radial admission
+
+The actual nonabelian cone's expanded bulk divergence is cancelled by
+its regulated boundary current. Subtracting only the commuting reference
+leaves a logarithmic divergence; dropping the current is a false action
+obstruction. This reuses R28's earlier boundary lesson. A sufficient
+affine bosonic variational class exists, without selecting the full
+physical domain. The actual radial Jacobi profile is L2 and formally
+annihilated by both linear operators, but fails L4 and needs outer data.
+52 exact checks/eight new tests pass; combined 64 pass/four old failures.
+Seal 8c46c279 was pushed and confirmed before scientific execution.
+Next: coupled first-order fermion, reality, supercharge and gauge
+domains, with global matching. No new physical particle or chirality.
+Report: reports/physical_bridge_2026_09_05/CONE_FLUX.md.
+
 ## 2026-09-30 - R66 actual canonical holonomy on a logarithmic cone
 
 Both supplied field equations admit an authored local singular branch

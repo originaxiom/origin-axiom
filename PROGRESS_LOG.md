@@ -15979,3 +15979,28 @@ pins are retained. No global core extension or physical chirality is
 derived. Next test boundary terms and compatible background-relative
 boson/fermion domains in the same action; the full mission stays active.
 Report: reports/physical_bridge_2026_09_05/NILPOTENT_CONE.md.
+
+## 2026-09-30 - R67 regulated nonabelian cone action and radial domain
+
+R28 already warned against deleting a Bochner boundary contribution.
+The actual R66 logarithmic cone now has a metric-derived nonabelian
+identity with its full current: expanded bulk plus B(R)-B(epsilon)
+equals the supplied residual potential. On the solution the current
+has leading terms 12k squared/(alpha r)+1/(r s), s=-log(r).
+The bulk divergence cancels exactly; reference subtraction alone does
+not suffice. A nonempty sufficient affine bosonic variational class
+admits the background, but does not supply a full physical end law.
+The actual radial translation tangent solves both formal linear
+equations and is L2, not L4. Its nonzero norm needs outer data and its
+radial Hermitian projection cannot be removed by compact gauge. The
+triangular family has zero Chern-Simons boundary variation; an L2
+lower-triangular countercontrol has nonzero pairing but fails graph
+admission. These distinctions prevent both a false background rejection
+and a false physical mode count. Seal 8c46c279 was remotely confirmed
+before the first science run. 52/52 exact controls and all eight new
+tests pass; combined 64 pass/four original failures retained. Five
+frozen science paths and twelve input pins are checked. Next derive
+compatible fermion, reality, supercharge and gauge domains, including
+the global core, without changing the supplied model silently.
+The full physics mission remains active and uncompleted.
+Report: reports/physical_bridge_2026_09_05/CONE_FLUX.md.
