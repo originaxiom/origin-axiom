@@ -1189,3 +1189,15 @@ spectrum, normalized coupling, selected background or end law.
 | `reports/physical_bridge_2026_09_05/PARENT_TENSORS_INPUTS.json` | `7cc8fb655eb96b6666dc5ea28cf808dc730360b3a1e7c61c14e65b367effab73` |
 | `reports/physical_bridge_2026_09_05/parent_tensors.py` | `6bc0c5a1a6f39090308e24804ef19b7937155fcb02c9af3d2190387768f6f891` |
 | `tests/test_physical_bridge_parent_tensors.py` | `b604d8eef98b7a78ea698b50c244aa401110d350daf9210608172f4a5db79717` |
+
+## R60 boundary law audit, September 30, 2026
+
+Pre-execution cone/marking/domain distinctions and actual superpotential variation.
+No physical boundary law, fermion reality condition or spectrum is certified.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/END_LAW_DESIGN.md` | `60fa130f348866ba784eec3e53930cc4f9c6bb57bcb781f0007820815e4988b2` |
+| `reports/physical_bridge_2026_09_05/END_LAW_INPUTS.json` | `9b78bd6b3d5f919580ec1e8a72532560ba98ac843ff1d9b819fc497513bcb3fd` |
+| `reports/physical_bridge_2026_09_05/end_law.py` | `b55367a24a82670cf7ca82820f87fc5140f0bd046cc5aa79c3ab18ee034617cd` |
+| `tests/test_physical_bridge_end_law.py` | `f43cfaa86c5dcadd04d31d43bdb7d0b3772b02c07d9cd693984fa6f1cb858f39` |

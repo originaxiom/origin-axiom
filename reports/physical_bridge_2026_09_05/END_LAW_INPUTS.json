@@ -1,0 +1,50 @@
+{
+  "scope": "Pinned reading inputs and one foreign lemma replay; no census verification",
+  "inputs": [
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1504_the_ends_choice/FINDINGS.md",
+      "sha256": "6a1f105831fdec69de8198f15da1e715aca9d94933c89422bf8e02a5a141f3ff"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1504_the_ends_choice/verification/end_choice.py",
+      "sha256": "3e241a6591b405eb1b18e441796671e400f17670a3295ca62cb661e1a77f590d"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "tests/test_b1504_the_ends_choice.py",
+      "sha256": "5a4038cffa7f32272140156eb60c441f7c4117aee5538e18bcf54a0421020076"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1500_the_cone_points_choice/FINDINGS.md",
+      "sha256": "8273d1c7c9b9bd54b2af60041faf1df9147370168fd089e94f816ac957837fa0"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1500_the_cone_points_choice/verification/cone_point_ih.py",
+      "sha256": "374a90986b782e16a88af42509a460a6c8a414d192f6bacacf6e5528946771ee"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1502_the_local_models_chirality/FINDINGS.md",
+      "sha256": "65cc9d4f700670fce819bcc313eb2863eeb37ddae0f0a0158ac0cff37c800bad"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1396_the_capped_eisenstein_cusp/FINDINGS.md",
+      "sha256": "ffe14cbda415f246e9f0839b6f1fe18d0bf13f1e9eb7273e98238ca29648c449"
+    },
+    {
+      "commit": "90ef18b9beef0af8e44594de09e275c4443ac96f",
+      "path": "reports/physical_bridge_2026_09_05/ROOT_SCOPE_DESIGN.md",
+      "sha256": "06593825a87479f62c85ee4b422146a23a226edfa4370a997c8aaa6c5680a391"
+    },
+    {
+      "commit": "90ef18b9beef0af8e44594de09e275c4443ac96f",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    }
+  ]
+}
