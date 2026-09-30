@@ -1120,3 +1120,17 @@ not a numerical gap, physical chirality or independent analytic review.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_INPUTS.json` | `235c236071c68a0503189248f8d5ea73fc219ea511a6e7179921264ae988a969` |
 | `reports/physical_bridge_2026_09_05/neutral_census.py` | `515692c4076a3bcb627fd49567a28935369f846264dd7b9cd251b35e7662a5a5` |
 | `tests/test_physical_bridge_neutral_census.py` | `f9518296b77f284f317222240e70ec27e79ab2d7c97a5a3bc715b3cb6c4baddf` |
+
+## R56 complete direct light cubic, September 30, 2026
+
+Pre-execution conditional authored domain argument and finite tensor controls.
+No numerical physical coupling, full EFT, chirality or independent review.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/LIGHT_CUBIC_DESIGN.md` | `0987b5f54de81cc60d8057c246a8687b72a2d71c27f6f8840d61b6bcebb76c02` |
+| `reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md` | `9a32acbdcd725403447f258290f8f8c15efee0e734ba0eb536fdf2e87e718723` |
+| `reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PRIOR.md` | `e9459737ecbc9b8f797942f4d2172e2bb15195d876e5a9535fc2d05515542de9` |
+| `reports/physical_bridge_2026_09_05/LIGHT_CUBIC_INPUTS.json` | `c3d61a477a6dfb4c1bb3443d50f71479e51aeb458e03bebe369010bbe09902b8` |
+| `reports/physical_bridge_2026_09_05/light_cubic.py` | `e3296fb6fdaf0b804900445d2f410870062f6a8e91549ed79cae45dd504c4a31` |
+| `tests/test_physical_bridge_light_cubic.py` | `8c003c771c09a9714c41d9359417e8cb3b3fbfa68ea1969764e45219d76921d3` |
