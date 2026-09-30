@@ -1,5 +1,14 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Current execution, R63 (September 30):** the same normal-background
+cone has an explicit eight-component charged radial operator. Small
+charged eigenvalues retain critical data even with zero link cohomology.
+Two decaying homogeneous modes survive separate differential tests;
+their gauge, nonlinear and global admission remains unearned.
+Separately sealed repair: 73 checks and four new tests pass; combined
+30 passes/two original instrument failures. No particle count or chirality.
+Report: reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md.
+
 **Current execution, R62 (September 30):** the supplied cone action
 admits nonzero normal constant-helicity coefficients, with commuting
 anti-Hermitian radial simple poles. The full residual test excludes

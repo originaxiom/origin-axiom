@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-30 - R63 charged cone operator and differential domains
+
+The full metric-derived cone operator has small charged critical modes
+even when link cohomology vanishes. An all-Fourier bound leaves only
+the zero Fourier mode critical on the declared unit-area links.
+Two decaying modes pass separate differential/adjoint tests; two growing
+ones only cancel in their sum. Local exactness and the radial gauge
+limit prevent particle or gauge-equivalence overclaims. First run:
+68/69, 26 passes/two failures from mismatched polynomial generators.
+Separately sealed repair: 73/73 and four new tests pass; combined
+30 passes/two original failures retained. Next actual compact gauge
+quotient and nonlinear/global admission, not a physical mode census.
+Report: reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md.
+
 ## 2026-09-30 - R62 nonlinear cone interaction admission
 
 For a constant complex helicity trace and general radial simple pole,

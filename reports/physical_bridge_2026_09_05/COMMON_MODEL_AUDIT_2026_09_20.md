@@ -1,5 +1,14 @@
 # One-model audit: which positive results actually compose?
 
+**Current approved execution, R63, September 30:** the normal R62
+background is joined to its actual eight-component charged cone
+operator. Decaying critical modes pass separate differential/adjoint
+tests despite zero link cohomology. Their local primitive does not
+settle compact gauge equivalence or global particle admission.
+Next test that quotient and the nonlinear continuation, not count
+the local modes as matter. Repaired 73 controls/four tests pass;
+combined 30 passes/two original comparison failures. [Result](CONE_SPECTRUM.md).
+
 **Current approved execution, R62, September 30:** R61's linear complex
 end data now face the SAME action's nonlinear residual test. Normal
 constant tangential coefficients survive with commuting anti-Hermitian

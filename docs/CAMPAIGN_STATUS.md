@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Current execution, R63, September 30:** full charged cone/Fourier
+operator checked; vanishing link cohomology does not remove small radial
+data. Two decaying modes pass the separate graph test, but are not
+physical particles. A separately sealed generator repair passes 73
+effective controls and four new tests; combined 30 pass/two original
+failures retained. Next compact gauge quotient, nonlinear extension
+and global common-domain admission. No full-bank or chirality claim.
+Report: reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md.
+
 **Current execution, R62, September 30:** the actual nonlinear cone
 action restricts constant helicity traces to normal coefficients with
 commuting anti-Hermitian radial simple poles. Nonzero positives survive.

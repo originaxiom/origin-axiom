@@ -1,5 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current execution, R63 (September 30):** full charged radial symbol
+and all-Fourier bounds replace a harmonic-link-only shortcut. Decaying
+critical modes pass separate differential tests; growing cancellation
+modes do not. Next test the actual compact gauge quotient and nonlinear
+extension of the survivors, then global common-domain supersymmetry.
+Local exactness is not a particle or gauge-removal verdict. Repair:
+73 controls, four new tests pass; combined 30 pass/two retained failures.
+Report: reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md.
+
 **Current execution, R62 (September 30):** finite interaction action
 restricts the constant helicity trace/radial simple-pole class. The
 positive surviving normal coefficients form a nonlinear set; do not

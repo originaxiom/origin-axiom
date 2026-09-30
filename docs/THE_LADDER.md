@@ -1,5 +1,13 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**Current execution, R63 (September 30):** PB-BOUNDARY now has the full
+charged cone symbol and all-Fourier bound for the declared normal
+background/unit-area links. Surviving decaying local modes require
+actual compact gauge, nonlinear and global admission before counting.
+No physical completion grade changes. Repaired 73 controls and four
+tests pass; fixed combined run 30 passes/two retained original failures.
+Report: reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md.
+
 **Current execution, R62 (September 30):** PB-BOUNDARY's nonlinear
 admission test is resolved for the declared constant helicity trace
 and radial simple pole, not all ends. Finite action requires normal

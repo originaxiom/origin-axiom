@@ -15888,3 +15888,21 @@ nonabelian or chirality kill, full suite or independent bank acceptance.
 Next: coupled boundary law and gauge quotient, supersymmetry and all
 relevant indicial modes, preserving vanishing-trace bulk modes.
 Report: reports/physical_bridge_2026_09_05/CONE_INTERACTION.md.
+
+## 2026-09-30 - R63 charged cone spectrum and graph conditions
+
+The metric-derived eight-component charged operator agrees with the
+independent block formula. Its generic polynomial, explicit complex
+unitary reduction and whole Fourier bound identify the critical range.
+Two decaying local modes pass the separate differential/adjoint test;
+two growing modes only cancel in the sum. The local primitive and
+radial gauge map keep physical gauge equivalence and particle counting
+unearned. No full nonlinear/global/supersymmetric domain is claimed.
+Original seal a7b91671 precedes 68/69 controls and 26 passes/two failures.
+The printed-equivalent polynomial used different symbolic generators.
+Separate repair seal 6933cee1 precedes 73/73 effective controls and four
+new passing tests; combined 30 passes/the same two original failures.
+All seven frozen paths, first failures and thirteen input pins survive.
+Next actual compact gauge quotient and nonlinear extension of these
+candidates, then the global physical domain. Full mission unchanged.
+Report: reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md.

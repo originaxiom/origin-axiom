@@ -3909,3 +3909,29 @@ nonnormal constant leading data. This does not close PB-BOUNDARY.
 - PB-PHYSICS: the same-model chiral spectrum, generations, normalized
   interactions, quantum consistency, gravity and observables remain
   requirements of the full mission.
+
+## Charged cone spectrum September 30 2026
+
+R63 CONE_SPECTRUM.md resolves the full local radial/Fourier symbol for
+the declared normal background and unit-area links. It does not close
+PB-BOUNDARY, supersymmetry or physical chirality. Two decaying modes
+pass the separate graph test; link acyclicity does not exclude them.
+
+- PB-BOUNDARY / PB-ACTION: test the decaying degree-one candidates and
+  their conjugate partners in the ACTUAL compact gauge quotient and
+  nonlinear equations. Their local scalar primitive is not a global
+  gauge-removal theorem; zero linear residual does not prove finite
+  nonlinear action at small decay exponent.
+- PB-BOUNDARY: build a common bosonic/fermionic variational domain and
+  verify full supercharge closure. Keep the growing cancellation modes
+  out of a separate differential graph domain, without claiming that
+  this alone classifies all possible physical completions.
+- PB-TRANSITIONS: determine whether the permitted gauge transformations
+  must extend to the tip. A punctured-cone unitary map with no apex
+  limit cannot settle physical equivalence without that convention.
+  Derive the link/background/end law from the architecture or price it.
+- PB-REVIEW: review the charged cone extension and infinite-mode bound,
+  not just the finite implementation. Both original failed IDs and
+  the separately sealed comparison repair remain part of the evidence.
+- PB-PHYSICS: global chiral spectrum, generations, normalized couplings,
+  quantum consistency, gravity and observables remain full-goal duties.

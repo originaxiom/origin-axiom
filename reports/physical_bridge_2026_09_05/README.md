@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+**Current result, R63 (September 30):** [charged cone spectrum](CONE_SPECTRUM.md)
+derives the full operator and Fourier bounds. Vanishing link cohomology
+does not exclude small radial modes; two decaying candidates survive
+separate differential tests. They are not yet physical matter.
+A separately sealed symbolic repair passes 73 checks and four new
+tests; combined 30 pass/two original failures retained. Next compact
+gauge quotient, nonlinear extension and a global common physical domain.
+The [full physics mission](PHYSICS_MISSION.md) remains active.
+
 **Current result, R62 (September 30):** [cone interaction admission](CONE_INTERACTION.md)
 checks the actual nonlinear action of the candidate end data. Normal
 leading coefficients with commuting anti-Hermitian radial poles survive;

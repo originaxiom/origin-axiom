@@ -1,4 +1,14 @@
-# Verdict toward the full physical-theory goal - R62, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R63, updated 2026-09-30
+
+**Current execution, R63:** full charged cone operator and all-Fourier
+bounds checked. Two decaying critical modes pass separate differential
+tests even when link cohomology vanishes; they are not yet particles.
+The local primitive and singular radial gauge map leave compact gauge,
+nonlinear and global admission as explicit next tests. A separately
+sealed comparison repair passes 73 effective controls and four new
+tests; combined 30 passes/two original failures retained. [Result](CONE_SPECTRUM.md).
+The full physical-theory mission remains active, not completed by this
+local operator calculation.
 
 **Current execution, R62:** 70 exact controls and 25 tests pass for the
 actual nonlinear cone action. Finite action forces normal constant
