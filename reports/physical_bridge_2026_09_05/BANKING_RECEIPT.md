@@ -1203,3 +1203,14 @@ counter 227. All three first reporting captures are retained (15 total
 captures in the receipt). The copied raw pytest failure retains one
 trailing-whitespace line, deliberately unedited for output fidelity.
 These checks do not constitute independent analytic or main-bank review.
+
+## R57 September 30 root scope audit
+
+Science seal d497e7d9 pushed/server-confirmed before execution. Exact
+23/23 controls and 16 tests on the fixed core-plus-scope selection.
+Four science paths and 23 pinned sources/dependencies checked; no other
+seat's geometry or physical index promoted. Original corrective source
+read personally after execution, 20 manifest payloads verified for byte
+custody. Proof/counterexample scope is in ROOT_SCOPE_AUDIT.md.
+This is own-branch preservation, not independent Part II completion,
+full-suite green, a main merge, shared B/I allocation or a TOE claim.

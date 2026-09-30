@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-30 - R57 conditional root and limits of the architecture claim
+
+The positive mixed LR minimum survives an exact proof/scope audit.
+The natural-selector obstruction does not prohibit abelianization, and
+cover transport does not prove that all physical relations are covers.
+Preserve the original handoff's narrower scope, the conditional surface
+theorem, and all same-domain chirality results. Seal d497e7d9 was pushed
+and server-confirmed before 23/23 controls and 16 fixed-selection tests.
+No universal root, complete physical architecture or chirality is claimed.
+Report: reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md.
+
 ## 2026-09-30 - R56 complete direct light cubic: nonzero pairing, zero S^3
 
 Join R50's complete-domain primitive, R54's nonzero matter overlap and

@@ -1,5 +1,18 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current priority, R57 (September 30): root and architecture scope audit.**
+The positive mixed minimum survives, but m004 is not thereby a universal
+physical root. A no-selector theorem does not forbid natural quotients;
+cover cohomology transport does not establish cover-only physics. Keep
+inverse legality, carrier, equivalences and operator/end domains explicit.
+23/23 exact safeguards and 16 tests pass under seal d497e7d9; no foreign
+geometry/index census or full physics theory is certified. R56 is preserved
+at 7a121db3. Next: operational contract and action-level relation maps,
+not automatic refinement of a selected manifold. No alternative is proved
+physical and no same-domain chirality theorem is refuted by this audit.
+Report: reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md.
+
+
 Priority checkpoint, September 30: after recording R56, audit remaining
 supplied physical inputs and compare live routes before automatically
 starting the next refinement. Keep the full goal; see GOAL_VERDICT.

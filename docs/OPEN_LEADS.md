@@ -3773,3 +3773,18 @@ reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
 - **Mission duties retained:** physical chiral/SM spectrum, parent/action
   origin, anomaly/end completion, scales, quantum dynamics, gravitational
   dynamics, empirical predictions and independent analytic scrutiny.
+
+## Root and architecture audit, September 30, 2026
+
+R57 preserves the conditional positive root and rejects its promotion to
+an unconditional physical origin. No closure of the physics mission.
+Before using the architecture to exclude a state, declare its primitive
+moves, inverse legality, state domain, carrier and retained markings.
+A no-selector theorem does not prohibit a natural quotient; a cover
+cohomology identity does not classify all possible physical transports.
+Next physical join: on the existing cover/induction candidate, verify
+nonlinear products, kinetic forms and operator/end-domain transport;
+retain conditional filling descent as a distinct comparison. No new
+census and no unqualified revival of a same-domain no-go.
+Report and proof: reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md;
+reports/physical_bridge_2026_09_05/ROOT_SCOPE_DESIGN.md.

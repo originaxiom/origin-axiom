@@ -1,15 +1,29 @@
-# Verdict toward the full physical-theory goal - R56, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R57, updated 2026-09-30
 
-## Direction checkpoint - September 30
+**Current priority, R57 (September 30): root and architecture scope audit.**
+The positive mixed minimum survives, but m004 is not thereby a universal
+physical root. A no-selector theorem does not forbid natural quotients;
+cover cohomology transport does not establish cover-only physics. Keep
+inverse legality, carrier, equivalences and operator/end domains explicit.
+23/23 exact safeguards and 16 tests pass under seal d497e7d9; no foreign
+geometry/index census or full physics theory is certified. R56 is preserved
+at 7a121db3. Next: operational contract and action-level relation maps,
+not automatic refinement of a selected manifold. No alternative is proved
+physical and no same-domain chirality theorem is refuted by this audit.
+Report: reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md.
 
-The owner asked whether the work had drifted from physics. The recent
+
+## Original direction checkpoint - September 30
+
+This checkpoint initiated the R57 audit reported above. The owner asked
+whether the work had drifted from physics. The recent
 results strengthen a conditional candidate model, but do not derive its
 supplied parent/action/geometry or settle the physical joins. Preserve
 R56, then audit those dependencies and competing live routes before
 automatically extending the canonical calculation. The ultimate mission
 and completion criteria below are unchanged; no smaller success target
-has been substituted. A priority audit is next, not a finding that every
-other branch lacks a result or that this candidate is invalid.
+has been substituted. The resulting scope audit is not a finding that
+every other branch lacks a result or that this candidate is invalid.
 
 ## Authoritative mission - reaffirmed by the owner, September 29
 

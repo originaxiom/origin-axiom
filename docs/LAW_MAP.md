@@ -830,3 +830,11 @@ finite controls are not independent acceptance of the global analytic chain.
 | The formal charged Hessian of this cubic is paired and full rank away from S=0 | Mixed block lambda S I16 has rank16 and combined charged block rank32 when lambda S!=0. This polynomial statement is NOT a full nearby pole-mass law or mirror-only mechanism. | B1138 context only; R56 proof section 5; tests/test_physical_bridge_light_cubic.py::test_formal_tensor_pairs_both_charged_sides |
 
 R56 report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+
+## Root scope audit, September 30, 2026
+
+| law (scoped statement) | scope and limits | evidence |
+|---|---|---|
+| LR is the strict mixed positive trace minimum | Supplied positive unit shears on two records; cyclic words. Not a universal physical root or a derivation of the carrier. | B979 and UNIQUENESS context; R57 ROOT_SCOPE_DESIGN.md supplies the all-length argument; tests/test_physical_bridge_root_scope.py |
+| No invariant representative does not forbid a natural quotient | The explicit F2 abelianization is equivariant under substitution and swap, but not injective. This does not select a physical quotient or refute the conditional surface theorem. | B34 already distinguishes natural quotient from selector; R57 ROOT_SCOPE_AUDIT.md supplies the F2 counterexample to B1380 section 3; tests/test_physical_bridge_root_scope.py |
+| Flat descent through a filled slope is conditional | A representation descends through pi1(M)/normal-closure(s) iff rho(s)=1. Not a preserved index, action or physical chirality theorem; the finite control is group-only. | B1379 uses this same descent condition (source at 93c7b428); R57 ROOT_SCOPE_DESIGN.md supplies the proof scope; tests/test_physical_bridge_root_scope.py |

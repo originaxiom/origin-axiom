@@ -1,0 +1,36 @@
+{
+  "archive_sha256": "138d4b0623a51d2491570075f59472faad084a314b8acc8f37f1929db6acc4af",
+  "manifest_entries": 20,
+  "manifest_matches": true,
+  "outer_CRC_ok": true,
+  "nested_CRC_ok": true,
+  "read_after_science_execution": true,
+  "supplied_code_executed": false,
+  "read_files": [
+    {
+      "path": "01_BRANCH_AUDIT.md",
+      "sha256": "69377784ad9e72640e7ab6e4cd0de560a0bffff72eb6c487606ee5ad69046ed4",
+      "read": "full"
+    },
+    {
+      "path": "02_GENESIS_ONTOLOGY_SHIFT.md",
+      "sha256": "f9f3a08081f7fc87f5d1b7b8052206e254deb503e516acf5236dd65ca4eff029",
+      "read": "full"
+    },
+    {
+      "path": "03_TRANSITION_SEMANTICS.md",
+      "sha256": "41dd898cde6808c22f561e85e0df68bea0a4b0e6b542b8f50b3132f6e6d1406b",
+      "read": "full"
+    },
+    {
+      "path": "post_checkpoint_artifacts/no_unforced_collapse_audit.zip::no_unforced_collapse_audit/REPORT.md",
+      "sha256": "43070392f34639ddbb8dbf20168a80f7fd1747eb5f24fe2959f0332e9d1273d8",
+      "read": "full"
+    },
+    {
+      "path": "post_checkpoint_artifacts/no_unforced_collapse_audit.zip::no_unforced_collapse_audit/verify.py",
+      "sha256": "355e6b1e60edf695737a2fa662939caedc6455eeddd812587e93552fb4653458",
+      "read": "full"
+    }
+  ]
+}

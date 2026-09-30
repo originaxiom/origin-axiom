@@ -15765,3 +15765,20 @@ Current reader fronts, scoped sublemmas and lead dispositions updated.
 The owner's direction question prompts a dependency/mission audit before
 another automatic technical extension; no smaller completion goal adopted.
 Report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
+
+## 2026-09-30 - R57 root and architecture scope audit
+
+Preserved R56 at 7a121db3; sealed root-scope controls at d497e7d9 and
+server-confirmed before execution. Conditional positive LR minimum
+survives. No-selector does not imply no natural quotient; B1380's use
+of that inference is invalid without an additional faithful-realization
+premise. Cover transport is not a universal exclusivity theorem; partial
+filling and conditional flat descent retain their separate scopes.
+Exact safeguards 23/23, fixed core-plus-new selection 16 pass. Original
+corrective handoff read personally, 20 manifest payloads matched; it
+already permits a quotient and retains inverse-legality qualifications.
+No physical alternative or universal architecture is certified. Scope
+corrections do not refute same-domain chirality results. Reader fronts,
+scoped law entries and next duties updated. No independent Part II,
+full-suite green or physical-theory completion claimed.
+Report: reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md.
