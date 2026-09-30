@@ -1250,3 +1250,16 @@ failed tests and first native failure remain frozen; no criterion change.
 | `reports/physical_bridge_2026_09_05/CONE_SPECTRUM_CONTROL_DESIGN.md` | `ac5a8d980812ab8a4f57d3181b8f7c9237d29be95db80ce9b0fd6f54340f2a4f` |
 | `reports/physical_bridge_2026_09_05/cone_spectrum_control.py` | `4ef2988073643da971036f8496d9c7e632036bf9c599e8025a874fbdd014ded6` |
 | `tests/test_physical_bridge_cone_spectrum_control.py` | `5cf99853b8b98f464f01cf60f52f5ff54773065bd0f9b89e00c58472c33d47a3` |
+
+## R64 compact gauge and local nonlinear cone, September 30, 2026
+
+Pre-execution design, authored local existence argument and controls.
+No global particle count or changed physical end law is claimed.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_GAUGE_DESIGN.md` | `c49205bd737d12a49fadd0cc526665abc4df14f99c9fe839e329e0109470a36d` |
+| `reports/physical_bridge_2026_09_05/CONE_GAUGE_PROOF.md` | `72a2d08198ae46c2cc32ce4817fb33e1d6e0c89156e7943ba9ff3857a3768b15` |
+| `reports/physical_bridge_2026_09_05/cone_gauge.py` | `cc25011930fd387b1ad37cbd76c6bd40fe11d79c1871dfcdcc3704fc733d2bee` |
+| `tests/test_physical_bridge_cone_gauge.py` | `6f4918258b81c896d8f75ab4888fe2cc328bbc888ea3c493f463e829d69761b3` |
+| `reports/physical_bridge_2026_09_05/CONE_GAUGE_INPUTS.json` | `ced146432e4b2f15ed476bedeecf21ac2ce8f1520ac57eefc1f4cd9e92c086f3` |

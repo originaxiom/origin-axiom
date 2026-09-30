@@ -1,0 +1,100 @@
+{
+  "scope": "R64 local cone inputs; existing scientific contents are frozen",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_SPECTRUM_DESIGN.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "4f3dbf78bafaf4e8914a916909e6d2b7fe44e415a62f47ee5b017a5c1de1caf1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "f8f4b2c73fbb25c56cd8d14f58a6cb083ff511d5123f7ac502442c11866afff1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_spectrum.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "2cb1b0bbcb14810e9748c492190669281d6c2d8d5baf6bc0c1e2dbd739ab2bdd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/charged_domain.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "0b66fc227ebc94d25077e01d621d190e8f64d6749ac72f26e7d470cff122df5c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_interaction.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "d7d94b8b02951507b05493e1b5ca4f41463e8ae2469d455b71d725214bb81d1a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_INTERACTION_DESIGN.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "0e17fbd86dc5db2fb00b6c397d70e5bac89d5f7095757b820fdf3935b8622b4d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END_DESIGN.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "56da61e3e09c2969cebedf458c68a7287a86e96fcdbf555b12aef9476cb335c0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/fermion_end.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "936f3110797e8a27e9522c2d29f601e32215bf5a3c1bd1a37b34614fe1de64c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_velocity.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "e90c147afc2f8b88dd6b9b12a33b7871ed15cd53ddfe0437d074eec340c488dd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_SPECTRUM_CONTROL_DESIGN.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "ac5a8d980812ab8a4f57d3181b8f7c9237d29be95db80ce9b0fd6f54340f2a4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_spectrum_control.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "4ef2988073643da971036f8496d9c7e632036bf9c599e8025a874fbdd014ded6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/PROOF.md",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "78cad2ebdfcd9e3b065dfaaf3eb7c545dd9348b7e7a6bcc3846ae17a23b34cd0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/verify.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "1654da39f5be1803502fee3afc86c2faa949e7480638151898c88662fe3a101b"
+    },
+    {
+      "path": "tests/test_physical_bridge_cone_spectrum.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "95282300549a000123303a9399b9b726f7104a879a24bdfac622dc48f58b959e"
+    },
+    {
+      "path": "tests/test_physical_bridge_cone_interaction.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "2c47910099769a62c59c358f7dbdd32ec27744141335a8e82a5ca2045aa18cc9"
+    },
+    {
+      "path": "tests/test_physical_bridge_fermion_end.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "3dfb3f2369ead95578c2306f4b14a43c84afd70347a3fbcabc7a9249a4ca6e56"
+    },
+    {
+      "path": "tests/test_physical_bridge_cone_spectrum_control.py",
+      "commit": "863cf8bfb1443e7d30d1909abf1477aac4523b8c",
+      "sha256": "5cf99853b8b98f464f01cf60f52f5ff54773065bd0f9b89e00c58472c33d47a3"
+    }
+  ]
+}
