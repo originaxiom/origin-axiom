@@ -3,8 +3,10 @@
 **First approved execution, R58:** the operational contract is written.
 Finite-cover transport preserves a supplied sheetwise action with its
 algebra, metric, tensors and domains; replacing these can change the
-theory. Authored conditional proof, 28 exact controls and 23 selected
-tests pass under pre-execution seal 3adce05c. Not an instantiated M6
+theory. Authored conditional proof, 28 first controls plus five separately
+sealed nonzero-cubic safeguards; final 25 selected tests pass. Seals
+3adce05c and 572340f0 precede their runs; the original zero-only cubic
+fixture is retained. Not an instantiated M6
 physical model, derived end law or chirality. Next: actual parent/bundle
 map and same-action end law, not another index census. See
 [COVER_ACTION](COVER_ACTION.md) and [OPERATIONAL_CONTRACT](OPERATIONAL_CONTRACT.md).

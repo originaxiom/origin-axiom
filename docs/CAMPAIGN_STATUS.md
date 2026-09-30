@@ -1,8 +1,10 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
 **First execution, R58, September 30:** operational contract written;
-conditional finite-cover action transport verified with 28/28 exact
-controls and 23 selected tests. The transported algebra/metric/tensor/
+conditional finite-cover action transport verified with 28/28 first
+controls, 5/5 separately sealed cubic safeguards and 25 selected tests.
+The original zero-only cubic fixture is preserved and supplemented.
+The transported algebra/metric/tensor/
 domain must be retained. No physical M6 parent or end law supplied.
 Next instantiate that parent/bundle map and its source/end action;
 do not repeat the index census. Authored proof, not independent acceptance.

@@ -12,12 +12,17 @@ connection when the algebra, metric, local interaction tensors and
 operator domain travel together. It does not by itself select any of
 those data, or license replacing the transported theory by a larger one.
 
-All **28 exact controls pass**. The fixed three-file test selection gives
+The first **28 exact controls pass**. The fixed three-file test selection gives
 **23 passed**, comprising nine unchanged uniqueness tests, seven unchanged
 root-scope tests and seven new transport tests. The global smooth-bundle
 and domain argument is authored analysis, not independent acceptance and
 not a consequence of finite matrices alone. No physical model of M6 was
 solved and no index or generation census was rerun.
+
+The separately sealed nonzero cubic safeguard subsequently passes **5/5**
+controls; the final four-file selection gives **25 passed**. The original
+zero-only cubic fixture and its first outputs remain preserved. See the
+dated safeguard disposition below; no physical coupling is predicted.
 
 ## The positive connection
 
@@ -134,4 +139,13 @@ discriminate transport of a nonzero cubic. The general block-product
 proof is unaffected. Preserve that original run and add the separately
 sealed COVER_ACTION_CUBIC_DESIGN.md control with three distinct matrix
 coefficients, its nonzero wedge tensor and a wrong-sheet-merge opposite.
-This paragraph records its pre-execution status, not a passing outcome.
+That was the status recorded before the follow-on execution.
+
+**Disposition:** seal **572340f000679ec9d2849dcd9d6a797b204d0038** was
+pushed and server-confirmed before the new producer/tests. All five
+controls pass: a nonzero sheetwise cubic and its transported tensor agree,
+the deliberately wrong sheet merge disagrees, and the alternating
+three-form coefficient is nonzero with the correct sign under exchange.
+The old fixture's zero is explicitly confirmed. The combined selection
+now gives 25 passed, with the original files unchanged. This strengthens
+the instrument, not the physical content claimed by the theorem.

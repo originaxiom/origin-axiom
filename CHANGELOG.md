@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-30 - R58 nonzero cubic safeguard passes without replacing the first run
+
+Author review caught a zero-only trace-cubic fixture. Preserve it and
+seal an independent nonzero three-coefficient tensor, alternating wedge
+control and deliberately wrong sheet merge at 572340f0 before execution.
+All five controls and the final fixed 25-test selection pass. This is
+instrument strengthening, not a predicted coupling or a physical model.
+Disposition: reports/physical_bridge_2026_09_05/COVER_ACTION.md.
+
+
 ## 2026-09-30 - R58 finite cover action transport and the operational contract
 
 Execute the first approved milestone: conditional sheetwise action,

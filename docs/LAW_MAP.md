@@ -844,6 +844,11 @@ R56 report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
 Authored conditional analysis; finite safeguards do not provide independent
 acceptance of the global domain argument or an actual M6 physical theory.
 
+The trace-cubic fixture initially compared zeros. R58's separately sealed
+nonzero safeguard now supplements it without changing the original:
+tests/test_physical_bridge_cover_action_cubic.py. It checks a nonzero
+alternating tensor and a wrong-sheet-merge opposite, not an SM coupling.
+
 | law (scoped statement) | scope and limits | evidence |
 |---|---|---|
 | Finite direct image transports the sheetwise algebra and supplied action | Pulled-back base metric, direct-sum positive bundle metric, transported tensors and domains; products, adjoints, L2 norms and minimal/maximal domains agree. No selection of these data or quantum completion. | B1384 induction context; R58 COVER_ACTION_DESIGN.md supplies the smooth proof; tests/test_physical_bridge_cover_action.py::test_metric_derivative_and_variation_transport |

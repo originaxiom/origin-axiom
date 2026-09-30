@@ -2,8 +2,9 @@
 
 **Current execution, R58 (September 30):** the operational contract and
 conditional finite-cover action transport advance PB-TRANSITIONS and
-PB-HANDOFF-M6, not the physical completion grades. 28 exact controls and
-23 selected tests pass; the global proof is authored. Next instantiate
+PB-HANDOFF-M6, not the physical completion grades. 28 first controls,
+five nonzero-cubic safeguards and 25 selected tests pass; the global
+proof is authored. The original zero-only fixture stays. Next instantiate
 the actual parent/bundle/end law. Source:
 reports/physical_bridge_2026_09_05/COVER_ACTION.md.
 
