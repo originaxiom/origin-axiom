@@ -16193,3 +16193,16 @@ The seal said what would be read. It has been read: P1–P8 all YES.
   passed, and its 2 failures both read that same gate.
 
 `frontier/B1506_the_level`. 0 of 19.
+
+## 2026-09-30 — B1506 §9: the level read against the record's earlier three
+
+On the owner's reminder to read the record's work on three generations and chirality before going on.
+- **The same ℤ/3.** Every three the record found at the 3-fold level uses B1506's deck: B1273/B1274's family 3, B1356's apexes,
+  B1364's line and B1506's orbits. s961's 16 loci are exactly the characters of H₁(Y₃) = (ℤ/4)², in five deck orbits of three (own
+  code, locked).
+- **A novelty sentence withdrawn.** B1274 had the level law's pattern for the family 3 (E54 instance, self-caught).
+- **The one bit, priced.** On Y₃ only the cover reaches the Standard Model (B1363, B1364), and a kept deck must be broken at order one
+  (B1273, B1361, B1362).
+- **Fast lane on 12055f37.** The nine baseline failures, 6 397 passed.
+
+`frontier/B1506_the_level` §9. 0 of 19.

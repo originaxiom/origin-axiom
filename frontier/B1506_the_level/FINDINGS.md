@@ -270,7 +270,8 @@ or does not lift; (SU(2) × SU(6))/ℤ₂; τ³; word map; quotient/cover.
     also asks for no fresh index census without a changed premise. This census's premise is the backgrounds that do not lift (T3),
     which no earlier census enumerated.
 - **Not found anywhere:** the triplet's orbit under the root's whole deck, its descent to s961, the non-lifted census, or the
-  gcd level law.
+  gcd level law. *(Qualified the same day, §9: the level law and the placing of the three at the 3-fold level have a precedent in
+  B1273/B1274, which this sweep missed.)*
 
 The ingredients are standard: Shapiro–Mackey, the Wang sequence, E₆'s (SU(2) × SU(6))/ℤ₂. What is claimed new is their application
 here.
@@ -301,6 +302,37 @@ here.
    already required all three primes. The check now does too, and it records what passes at the first prime only (2 on M₅, 0 on
    M₆). The whole instrument was rerun. The first run's log is kept (`the_level_run_first.txt`), and it agrees with the second on
    every other number. T1 was proved at seal and no prediction's reading changed.
+
+## 9. Read against the record's earlier three (2026-09-30, later; on the owner's reminder to read the record's work on three generations and chirality)
+
+- **The same ℤ/3 at the same level.** m004 has exactly one index-3 subgroup (Part A), so every three the record found at the 3-fold
+  level uses this arc's deck:
+  - B1273/B1274's family 3. The object's 2T holonomy maps onto A₄; π₁(s961) is the preimage of V₄, and the deck is A₄/V₄.
+  - B1356's three apexes on the closed Y₃.
+  - B1364's twelve order-4 characters.
+  - This arc's orbits.
+
+  Checked with own code: Y₃ is s961 with its meridian filled, H₁(Y₃) = (ℤ/4)² (and H₁(Y₆) = ℤ/8 ⊕ ℤ/40), and s961's 16 loci are
+  exactly the 16 characters of H₁(Y₃). The deck permutes them in five orbits of three plus the trivial character. B1273's "three
+  generations = the three flat directions" is the orbit of the three order-2 characters. This arc's generation-shaped backgrounds sit
+  on the other four orbits, the twelve order-4 characters that B1364 combines with Q₈ ⊂ SU(2)_β to reach SM × U(1)′ on Y₃.
+- **The level law had a precedent.** B1274 found, for the family 3, one class on Mₙ when 3 ∤ n and three characters when 3 | n
+  (h¹ = 1, 1, 3, 1, 1, 3 for n = 1…6). It also found that n = 3 is "the minimal closing that carries the object's holonomy at all".
+  T7's −gcd(n, 3) is the same Mackey pattern in the index frame. §7's "not found anywhere … the gcd level law" is withdrawn in that
+  form. What this arc adds is the law for induced index objects of any orbit size, the non-lifted census, and the triplet's place in
+  it (ERROR_LEDGER, E54 instance, later the same day).
+- **What the earlier work says about the one bit.**
+  - On the closed Y₃ the cover carries three and the descent one. The descent's single apex 27 is neutral, and the cover's three
+    are told apart by two U(1)s (B1356). The descent's abelian lines cannot reach the Standard Model (B1363), while the cover's
+    line can (B1364). This is the same one-versus-three one level down.
+  - Keeping the deck unbroken is priced. With the three in one E₆, a deck-symmetric complex symmetric Yukawa is circulant with a
+    degenerate pair (B1362), and a hollow deck-orbit texture has σ₁ = σ₂ + σ₃ (B1273, B1361). The data refute both, so a kept deck
+    must be broken at order one: at least a third of the third generation's Yukawa (B1362).
+  - Point-localised versions of the three cannot split the Higgs doublets from the exotic triplets (B1367), and the three-apex
+    closing needs a 27̄ sector (B1365).
+- **Closed against cusped.** On Y₃ every count is vector-like (B1351): B1273's three 27s come with three 27̄s. This arc's three is
+  chiral-shaped only because s961 is cusped. D₀ does not extend over the filling, since its meridian holonomy squares to a non-trivial
+  unipotent (T6).
 
 ## Verification
 

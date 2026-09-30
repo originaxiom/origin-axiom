@@ -3095,6 +3095,13 @@ the cover or the quotient is physical. No entry between registration (2026-09-27
 
 `frontier/B1506_the_level`.
 
+**sL-5, 2026-09-30 (later) — the one bit read against the record's Y₃ work.** The three at the 3-fold level is the record's recurring
+one: B1273/B1274's family 3, B1356's apexes and B1364's line use the same deck and the same characters of H₁(Y₃) = (ℤ/4)² (B1506 §9).
+The earlier work prices both sides of the bit:
+- On the closed Y₃ the descent (one) cannot reach the Standard Model, while the cover (three) can (B1363, B1364).
+- A kept, unbroken deck gives the three a circulant or hollow texture that the data refute (B1273, B1361, B1362), so the deck must be
+  broken at order one.
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

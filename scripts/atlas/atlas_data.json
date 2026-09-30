@@ -8878,6 +8878,7 @@
   "B1506": {
    "slug": "the level",
    "motifs": [
+    "closing",
     "choice",
     "figure_eight",
     "trace_map",
@@ -8886,6 +8887,7 @@
     "eisenstein",
     "golden",
     "z3_generation",
+    "amphichiral_cp",
     "torsion"
    ],
    "refs": [
@@ -8901,7 +8903,7 @@
     "S5"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 27,
+   "obstacle_conf": 33,
    "status": "banked",
    "domain": "arithmetic"
   },

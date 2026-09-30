@@ -1,5 +1,23 @@
 # Changelog
 
+## B1506 §9 — the level read against the record's earlier three (the owner's reminder); the fast lane on 12055f37
+
+- **The same ℤ/3 at the same level.** m004 has one index-3 subgroup, so every three the record found at the 3-fold level uses
+  B1506's deck: B1273/B1274's family 3 (π₁(s961) is the preimage of V₄, the deck is A₄/V₄), B1356's apexes and B1364's line on the
+  closed Y₃, and B1506's orbits.
+- **Checked with own code, and locked.** Y₃ is s961 with its meridian filled, H₁(Y₃) = (ℤ/4)². s961's 16 loci are exactly the
+  characters of H₁(Y₃), in five deck orbits of three plus the trivial one. B1273's three flat directions are the orbit of order-2
+  characters. B1506's generation-shaped backgrounds sit on the four orbits of order-4 characters, which B1364 uses to reach
+  SM × U(1)′.
+- **Correction (E54 instance, self-caught on the owner's reminder).** B1506 §7's "not found anywhere … the gcd level law" is withdrawn
+  in that form. B1274 had the same pattern for the family 3: one class on Mₙ for 3 ∤ n, three characters for 3 | n.
+- **The one bit, priced by the earlier work (OPEN_LEADS sL-5).**
+  - On Y₃ the descent (one) cannot reach the Standard Model, while the cover (three) can (B1363, B1364).
+  - A kept, unbroken deck gives a circulant or hollow texture that the data refute (B1273, B1361, B1362), so it must be broken at
+    order one.
+- **Fast lane on 12055f37** (B1506 banked): 9 failures, the known nine of the baseline, with 6 397 passed and 52 skipped, in a separate
+  worktree (E46).
+
 ## B1506 — the level: one background has one count on every level; the M₆ triplet is the orbit of the root's whole deck and lives on s961, the root's only 3-fold cover (PROVED; census sealed and run, P1–P8 all YES)
 
 - **The question (sL-5, the owner's first choice).** Is a count taken on a cover or on its quotient? Sealed at 58e3f28f after one

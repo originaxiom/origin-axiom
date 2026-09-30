@@ -80,6 +80,22 @@ def test_s961_complete_census_live():
     assert out[0]["module_orbit_sizes"] == out[1]["module_orbit_sizes"] == {"3": 72}
 
 
+def test_the_loci_are_the_characters_of_y3_live():
+    """section 9: Y3 is s961 with its meridian filled, H1(Y3) = (Z/4)^2 (B1273); s961's 16 loci are exactly the characters of
+    H1(Y3); the deck permutes them in five orbits of three and the trivial character (B1273's three sign characters are one orbit,
+    B1364's twelve order-4 characters the other four)"""
+    T = _load()
+    gens, words, rewrite, rels, mu, lam = T.rs_cover(3)
+    assert T.h1_of(gens, rels + [mu]) == ([4, 4], 0)
+    P = T.Pres("RS", 3, N=T.N6)
+    C = T.Census(P, primes=T.primes_for(P.N, k=2), verbose=False)
+    assert set(C.loci) == {c for c in P.chars if P.val(c, P.mu_ex) == 0}
+    orbits = {frozenset(P.pull(c, j) for j in range(3)) for c in C.loci}
+    assert sorted(len(o) for o in orbits) == [1, 3, 3, 3, 3, 3]
+    order = lambda c: P.N // math.gcd(P.N, *c) if any(c) else 1
+    assert sorted(order(c) for c in C.loci) == [1] + [2] * 3 + [4] * 12
+
+
 def test_the_seed_descends_to_s961_live():
     """T6 and D1-D3, D5 on one prime: the seed's root-deck orbit has three members; four descents to s961, exactly one with every
     sector a T5-candidate, and it is (-1)^6; it does not lift; its orbit pulls back to the triplet; the root object's counts on
