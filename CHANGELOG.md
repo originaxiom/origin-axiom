@@ -1,5 +1,31 @@
 # Changelog
 
+## B1503 — the apex index rule: the forced inflows of the loci through a G₂ cone point cancel; a lone locus forces nothing (PROVED; the census run as sealed, P1–P3 YES)
+
+- **The theorem.**
+  - For a finite quotient of a compact nearly Kähler cone and every automorphism γ of the SU(3)-structure:
+    Σ_points Π_j (1 − e^{−iθ_j})⁻¹ + Σ_curves (i/8) cot(θ/2) sin^{−2}(θ/2)(d₁ − d₂) = 0.
+  - The reason: the link is spin with positive scalar curvature, so its Dirac index vanishes (Lichnerowicz), and Atiyah–Singer's
+    Lefschetz formula in Todd form gives the terms.
+  - Each curve enters through Witten's cubic inflow n = (N/2)(d₁ − d₂).
+- **Consequences.**
+  - A lone locus forces nothing, on any nearly Kähler link.
+  - A cusp point is chiral through the cubic half only where its locus meets another locus or isolated point of the same symmetry.
+- **The census** (seal af568744, instrument fafbf975, run 876 s).
+  - B1501's components are reproduced on all 694 classes, and the rule holds on all 306 with fixed points (worst 1.2 · 10⁻¹³).
+  - 222 sphere degrees agree between the isotropy weights and the lattice Chern numbers.
+  - D1–D3, decided at design time, are confirmed. S³ × S³'s 3-symmetry has an SU(3) locus with n = ±3, balanced by an isolated point.
+  - **P1 YES:** ℂP³'s 22 two-sphere classes pair at one angle with n = ±N, N = 3 to 12.
+  - **P2 YES:** ℂP³'s 22 one-sphere classes have n = 0.
+  - **P3 YES:** F₁,₂'s 132 spheres all have n = 0.
+  - **P4:** forced inflow occurs only on ℂP³ and on the 3-symmetry, never on S⁶, F₁,₂ or any torus.
+- **For question 1.** The cusp point's chirality needs a partner locus of the same symmetry at the point. None exists in the census. The
+  first place to look is Foscolo–Haskins' S⁶, where every automorphism has Lefschetz number 2.
+- **Surfaces.** Registry row T-APEX-INDEX-RULE, OPEN_LEADS, THE_SM_VERDICT, README, the letter's 66th note, the alias table (next arc
+  B1504), the seal ledger's verdict row, the kill graph (routed), logs, atlas, views.
+
+Lock: `tests/test_b1503_the_apex_index_rule.py` (3 tests). 0 of 19.
+
 ## B1503 sealed: the apex index rule, before the census is evaluated
 
 - **The question (after B1502 §5, at the owner's go).** Witten's cubic inflow n = deg(L) forces charged fields at a point of an SU(N)

@@ -16072,3 +16072,18 @@ The record's "sum rule" (B1356) is Witten's global one over many points.
   prototype had seen 19 classes before the seal; the seal says so.
 
 0 of 19.
+
+## 2026-09-30 — B1503 run: the apex index rule holds, and the predictions came out as sealed
+
+I built the instrument as sealed and checked it on six classes outside the census. Then I ran it on all of B1501's 694 classes.
+- **The rule held everywhere.** On all 306 classes with fixed points the sum vanished to 10⁻¹³, and every sphere's degrees agreed between
+  two independent methods.
+- **Where chirality is forced.** Only in two kinds of cone. In ℂP³'s, two SU(N) loci always meet at the point with opposite demands. In
+  S³ × S³'s 3-symmetry cone, one SU(3) locus demands chirality 3, and a single isolated point balances it. The 3-symmetry case was worked
+  out before the run and came out as worked out.
+- **Where it is not.** S⁶, the flag manifold, and every torus locus. All three sealed predictions held.
+- **What it means for the cusp point.** A locus alone never demands chirality. A cusp point can only be chiral where its locus meets
+  another one that the same symmetry fixes. The simplest models never provide that for a torus. The first place where a torus cannot be
+  alone is Foscolo–Haskins' S⁶, because every symmetry there has Lefschetz number 2.
+
+Lock: `tests/test_b1503_the_apex_index_rule.py`. 0 of 19.

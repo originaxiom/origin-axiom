@@ -205,3 +205,5 @@ even on every resolved member; the census's hexagonal cusps sit on four members,
 *Update 2026-09-29 (B1502):* B1502 used (PROVED, not sealed: the two torus models force no chirality at a cusp point: b₂ = b₄ = 0 on every quotient's link with a torus locus, the torus null-homologous; S³ × S³'s smooth phases are fillings, the flag manifold's model has none). Next arc B1503.
 
 *Update 2026-09-30 (B1503 sealed):* B1503 sealed (the apex index rule: the loci through a G₂ cone point over a finite quotient of a nearly Kähler manifold, tied by the link's equivariant Dirac index; the rule and its consequences proved at seal; the census table sealed with P1–P4; not run); next arc B1504.
+
+*Update 2026-09-30 (B1503 run):* B1503 run as sealed (PROVED: the apex index rule — at a G₂ cone point over a finite quotient of a nearly Kähler manifold the forced inflows of the loci one symmetry fixes cancel against each other and its isolated points; a lone locus forces nothing, a cusp point needs a partner; on the census the rule holds on all 306 classes, P1–P3 YES, forced inflow only on ℂP³'s paired loci and S³ × S³'s 3-symmetry). Next arc B1504.

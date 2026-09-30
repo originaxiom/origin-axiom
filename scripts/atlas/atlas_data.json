@@ -8813,18 +8813,20 @@
   "B1503": {
    "slug": "the apex index rule",
    "motifs": [
+    "closing",
+    "trace_map",
+    "eisenstein",
     "amphichiral_cp",
+    "torsion",
     "wrt_quantum"
    ],
    "refs": [
-    "B810",
-    "B817",
     "P1",
     "P2",
     "P3",
     "P4"
    ],
-   "obstacle": "measure",
+   "obstacle": "cancellation",
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "topology"

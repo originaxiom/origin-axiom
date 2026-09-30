@@ -1,0 +1,33 @@
+B1503 THE APEX INDEX RULE, run as sealed. PREREGISTRATION sha256 d42607502486ef75759bb807912b9f4bd8c09965429080d04a237357885a1719 (matches SEAL_LEDGER)
+BANKED IDENTITY
+  the terms: CP^1 (z -> lam z) and CP^2 (diag(1, 1, lam): a line with normal O(1) and a point) give Lefschetz number 1 to 1.8e-15
+  the closed curve term equals the general Todd form (chi terms cancel when d1 + d2 = -chi) to 1.4e-14
+  the lattice routine: Qi-Wu-Zhang lower band {-3.0: 0.0, -1.0: -1.0, 1.0: 1.0, 3.0: 0.0}
+  S6     J^2 = -1 to 1.3e-15, J orthogonal to 1.3e-15, Ad(K) commutes with J to 5.1e-15, listed automorphisms preserve J
+  S3xS3  J^2 = -1 to 1.3e-16, J orthogonal to 2.2e-16, Ad(K) commutes with J to 2.9e-15, listed automorphisms preserve J
+  CP3    J^2 = -1 to 6.7e-16, J orthogonal to 7.8e-16, Ad(K) commutes with J to 4.2e-15, listed automorphisms preserve J
+  F12    J^2 = -1 to 7.7e-16, J orthogonal to 4.4e-16, Ad(K) commutes with J to 6.7e-16, listed automorphisms preserve J
+  control S6 L(0,1/13)         (order 13, not in the census): {'sphere': 1}, |S| = 0.0e+00, curve degrees [[-1, -1]]: PASS
+  control S6 L(1/13,3/13)      (order 13, not in the census): {'point': 2}, |S| = 1.3e-14, curve degrees []: PASS
+  control CP3 L(0,1/13)        (order 13, not in the census): {'sphere': 1, 'point': 2}, |S| = 4.9e-14, curve degrees [[-1, -1]]: PASS
+  control CP3 L(3/26,3/26)     (order 13, not in the census): {'sphere': 2}, |S| = 3.3e-16, curve degrees [[0, -2], [-2, 0]]: PASS
+  control F12 L(1/13,1/13)     (order 13, not in the census): {'sphere': 3}, |S| = 0.0e+00, curve degrees [[-1, -1], [-1, -1], [-1, -1]]: PASS
+  control S3xS3 L(1/26,1/26,1/26) (order 13, not in the census): {'torus': 1}, |S| = 0.0e+00, curve degrees [[0, 0]]: PASS
+classes: 694 (B1501's census)
+  S6's pairs: 44 two-point classes, the two terms opposite to 4.8e-14
+THE BANKED IDENTITY PASSES
+census evaluated in 876 s
+components against census.json: all 694 classes agree
+internal checks (T10 invariant, det 1 at points, integral degrees, d1 + d2 = -2, weights = lattice): all pass
+THE RULE on 306 classes with fixed points: worst |S| = 1.2e-13 -> HOLDS
+DECIDED AT DESIGN TIME, CHECKED: D1 (S6's 23 single spheres Delta = 0) YES; D2 (25 torus classes n = 0) YES; D3 (the 3-symmetry) YES
+   S3xS3 L(0,0,0) o sigma: point angles [2.094395, 2.094395, 2.094395], term -0.19245009j; sphere theta 2.094395, (d1, d2) = [0, -2], Delta 2, N 3, n = 3.0
+   S3xS3 L(0,0,0) o sigma^2: point angles [-2.094395, -2.094395, -2.094395], term 0.19245009j; sphere theta 2.094395, (d1, d2) = [-2, 0], Delta -2, N 3, n = -3.0
+P1 (CP3's two-sphere classes of order >= 3: one angle, Delta = +-2 opposite): YES -- 22 evaluated, 0 with theta = pi listed
+P2 (CP3's one-sphere classes: the points cancel, Delta = 0): YES -- 22 evaluated, 0 with theta = pi listed
+P3 (F12's spheres all Delta = 0): YES -- 132 spheres evaluated in 45 classes, 3 with theta = pi; exceptions []
+P4 S6      67 classes with fixed points;  22 curves with degrees, (d1, d2) met [(-1, -1)]; 0 classes with n != 0 (largest |n| 0.0); curves balanced against points in 0 classes []
+P4 S3xS3   31 classes with fixed points;  24 curves with degrees, (d1, d2) met [(-2, 0), (0, -2), (0, 0)]; 2 classes with n != 0 (largest |n| 3.0); curves balanced against points in 2 classes ['S3xS3 L(0,0,0) o sigma', 'S3xS3 L(0,0,0) o sigma^2']
+P4 CP3     95 classes with fixed points;  66 curves with degrees, (d1, d2) met [(-2, 0), (-1, -1), (0, -2)]; 22 classes with n != 0 (largest |n| 12.0); curves balanced against points in 0 classes []
+P4 F12    113 classes with fixed points; 134 curves with degrees, (d1, d2) met [(-1, -1), (0, 0)]; 0 classes with n != 0 (largest |n| 0.0); curves balanced against points in 0 classes []
+876 s in all

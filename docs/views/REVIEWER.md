@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1251** |
-| words of findings prose | **988,320** |
-| test lock files referenced | **754** |
+| words of findings prose | **989,822** |
+| test lock files referenced | **755** |
 | arcs carrying an authored verdict | **1251** (100.0 %) |
-| recorded closures | **799** (617 classified, 182 routed-only) |
+| recorded closures | **800** (617 classified, 183 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 826 |
+| PROVED | 827 |
 | NEGATIVE | 325 |
-| OPEN | 89 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `other` | 359 |
-| `unrouted-unclassified` | 182 |
+| `unrouted-unclassified` | 183 |
 | `kind-mismatch` | 51 |
 | `genericity` | 38 |
 | `no-landing-site` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**537 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**538 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1502`** (2540 words, 1 locks)  
-THE LOCAL MODELS' CHIRALITY (after B1501; the owner's go on the next step): B1501's two torus models force no chirality at a cusp point. For every finite quotient C(Y)/Gamma of the cones over the four homogeneous nearly Kaehler 6-manifolds that has a torus-linked ADE locus: (a) H^2(Y/Gamma; Q) = H^4(Y/Gamma; Q) = 0 -- no C-field U(1) and no rational flux at the apex (S^3 x S^3 has H^2 = H^4 = 0; on F_{1,2} every torus-fixing element is L_a R_P^{+-1}, and R_P acts on H^2 and H^4 as the Weyl group's reflection representation, trace -1, no invariants); (b) the torus link is null-homologous (S^3 x S^3 has H_2 = 0; the Coxeter torus is an orbit of the maximal torus, which fixes the six Weyl points); (c) so the mixed half of the anomaly criterion (B1353, B1360; Witten; Acharya-Witten: chiral fermions at a conical point are charged under a C-field U(1) whose mixed anomaly with the ADE group forces and detects them) forces nothing at the apex; (f) nor does the cubic half, for SU(N) loci (Witten hep-th/0108165 (3.5)-(3.8); section 5, added the same day after a self-caught gap, an E71 instance): the SU(N)^3 anomaly forced at P is n_P = deg(L|_F), L the U(1) twist of the locus's normal space, and n_P = 0 because a torus commuting with Gamma acts transitively on F (T^3 on S^3 x S^3's diagonal torus, SU(3)'s maximal torus on the Coxeter torus), so L is a homogeneous line bundle over a torus, hence trivial; verified as the lattice Chern number of the zeta-eigenbundle of d gamma on the normal bundle (deg L = (N/2) c_1(E_zeta)), 0 on all 24 torus classes of B1501's census with N >= 3 on two grids, against a Qi-Wu-Zhang control (+-1, 0) -- any content at the apex is anomaly-free on its own; (d) M1 = C(S^3 x S^3)/Gamma, Gamma in the diagonal U(1): its three Bryant-Salamon smoothings X_k = S^3 x H (SU(2)^3 by (a_i q a_j^-1, a_k p a_j^-1)) are equivariant, and in each the fixed set of (t, t, t) is S^1 x C, the Dehn filling of the cone over the torus along e_k, a shortest vector (norm 2/3 (2 pi)^2, an A2 root), the three phases filling the three roots -- so in a smooth phase the cusp point is a filling and contributes 0 (B1351; B1500's Lagrangian line is the slope); (e) M2 = C(F_{1,2})/<gamma>: R_P permutes the three U(2) containing T, so no torus-fixing element acts on any Bryant-Salamon smoothing (T < U(2)_j < SU(3)); M2 has no smooth phase, a rigid apex with no inflow datum. Verified with own code: relative Lie algebra cohomology H*(g, k) of all four links (Betti numbers as expected, d^2 = 0 to 1e-15), the outer elements' traces (sigma on H^3(S^3 x S^3) -1, giving L(sigma) = 3 as in B1501; R_P, R_P^2 on H^2, H^4 of F_{1,2} -1, no invariants), the Weyl points fixed to 1e-16, M1's fixed sets by Newton (197-200 of 200 seeds, off-diagonal parts < 1e-30, tangent dimension 3) and orbit types, the U(2)_j permutation; and where the choice lives at a cone point: under the geometric representation's cusp holonomy (meridian z [[1,1],[0,1]], longitude -[[1, 2 sqrt3 i],[0,1]]) the SL(2)_beta doublet sectors have acyclic link cohomology for every z (B1368, B1372's Lemma A), so they carry no choice, and the choice lives only on spin-0 sectors with trivial cusp character (H* = (1, 2, 1)), the sectors that carry the frame's count; SL(2)_beta data are charge-blind there, so a charge-odd choice needs data charged under the frame's U(1)s (the audit lane's R35 caution on T-branes). Not settled: M2's apex content (anomaly-free if any), torsion data, models outside the census. PROVED, not sealed: decided at design time (B1396's precedent). Standard ingredients (Bryant-Salamon, Atiyah-Witten, Witten, Acharya-Witten, Chevalley-Eilenberg, Borel, Fukui-Hatsugai-Suzuki); no novelty claimed. No physics crossed. 0 of 19.  
-`B1502_the_local_models_chirality/FINDINGS.md`
+**PROVED — `B1503`** (1927 words, 1 locks)  
+THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma of finite order of the SU(3)-structure, sum over isolated fixed points of prod_j (1 - e^{-i theta_j})^{-1} + sum over fixed J-holomorphic curves of (i/8) cot(theta/2) sin^{-2}(theta/2) (d_1 - d_2) = 0 (theta_j the J-angles of d gamma; e^{+-i theta} the normal eigenvalues of a curve, d_1, d_2 the degrees of its normal J-eigenlines), because the link is spin with positive scalar curvature (Lichnerowicz: the Dirac index vanishes for every lift) and Atiyah-Singer's Lefschetz formula in Todd form gives these terms (the chi(C) terms cancel since c_1 = 0). Each curve enters through Witten's cubic inflow n = (N/2)(d_1 - d_2) (N the transverse order). Consequences: (C1) a lone locus forces nothing, on any nearly Kaehler link; (C2) a cusp point is chiral through the cubic half only where its locus meets another locus or isolated fixed point of the same symmetry (else only the mixed half, needing [F] != 0 and a C-field U(1)); (C3) order two gives no condition. Run as sealed (seal af568744, sha256 d4260750..., instrument fafbf975) on B1501's 694 classes: components identical to the census on all 694; the rule holds on all 306 with fixed points (worst |S| 1.2e-13); 222 fixed spheres with integral degrees, isotropy weights = lattice Chern numbers on both grids; 9 curves with normal angle pi. Decided at design time and confirmed: D1 S^6's single spheres Delta = 0; D2 the 25 torus classes n = 0 (B1502 re-derived without homogeneity); D3 S^3 x S^3's 3-symmetry: the point e Delta with angles (2pi/3)^3, term -i/(3 sqrt 3), and a sphere (0, -2), an SU(3) locus with n = 3 (sigma^2: -3) balanced by the isolated point. Sealed predictions all YES: P1 CP^3's 22 two-sphere classes of order >= 3 pair at one angle with n = +-N, N = 3..12 (~65%); P2 CP^3's 22 one-sphere classes n = 0, the points cancelling (~75%); P3 F_{1,2}'s 132 spheres n = 0 (~80%); P4 forced inflow only on CP^3 (22 classes, largest |n| 12) and S^3 x S^3 (sigma, sigma^2; the only classes balancing a curve against points); none on S^6, F_{1,2} or any torus. Not settled: what the 3-symmetry's isolated point carries physically; links outside the census (Foscolo-Haskins' S^6, where every automorphism has Lefschetz number 2, so a fixed torus must have partners); torsion. Standard ingredients (Atiyah-Singer, Lichnerowicz, Witten, Acharya-Witten, Fukui-Hatsugai-Suzuki); no novelty claimed. No physics crossed. 0 of 19.  
+`B1503_the_apex_index_rule/FINDINGS.md`
 
 **NEGATIVE — `B1399`** (3342 words, 1 locks)  
 THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  

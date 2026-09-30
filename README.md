@@ -380,6 +380,12 @@ emitted value. The structure is the object's; the values are the observer's.
 > such a point needs either a particular kind of field there (from the 3-form of M-theory) or a twist in how the singular locus wraps
 > around the point, and none of these models has either. In one model the point smooths out into an ordinary filled-in end in every
 > way it can smooth. The other cannot smooth at all, but carries nothing that would demand chirality either.*
+>
+> *And (B1503), why: at such a point, the pieces of singular geometry that one symmetry creates must balance each other's demand for
+> chirality, because of a theorem about the curved space around the point. A piece that is alone demands nothing. So a cusp point can
+> only be chiral where its piece meets another one. In the simplest models that never happens for a cusp-shaped piece, though it does
+> happen elsewhere: in one model two pieces meet and demand opposite chiralities, and in another a single piece demanding chirality 3 is
+> balanced by an isolated point.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

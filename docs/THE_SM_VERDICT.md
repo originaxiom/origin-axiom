@@ -867,3 +867,11 @@ left it.
 > - The cusp point's chirality is therefore not supplied by the simplest local physics.
 >
 > 0 of 19 (`frontier/B1502_the_local_models_chirality`).
+
+> **Currency note (2026-09-30, B1503): a cusp point needs a partner.**
+> - At a G₂ cone point the forced inflows of the loci one symmetry fixes must cancel against each other and its isolated fixed points,
+>   because the link's Dirac index vanishes. So a lone locus forces nothing.
+> - On B1501's census, forced chirality comes only from ℂP³'s paired loci and S³ × S³'s 3-symmetry. No torus locus there has a partner.
+> - The cusp point's chirality therefore needs a local model in which its torus locus meets another locus or point of the same symmetry.
+>
+> 0 of 19 (`frontier/B1503_the_apex_index_rule`).

@@ -3379,5 +3379,16 @@ This job is not optional, whichever answers the first two questions get. `fronti
 - So question 1 is a charge-odd datum these models do not carry. It is not supplied by SL(2)_β data either, which are charge-blind.
   `frontier/B1502_the_local_models_chirality`.
 
+**Status (2026-09-30, B1503): the loci through a cone point owe each other, and a cusp point needs a partner.**
+- **The rule.** The link's Dirac index vanishes (positive curvature), so for every symmetry the forced inflows of its fixed loci cancel
+  against each other and its isolated fixed points (Lefschetz).
+- **What it settles.** A lone locus forces nothing, on any nearly Kähler link. So a cusp point is chiral through the cubic half only where
+  its torus locus meets another locus or point that the same symmetry fixes.
+- **On B1501's census** (run as sealed, every prediction YES), forced chirality occurs only in two ways. ℂP³'s cones pair two SU(N) loci
+  with inflows ±N. S³ × S³'s 3-symmetry puts inflow ±3 on one SU(3) locus, balanced by an isolated point. No torus locus in the census
+  has a partner.
+- **So question 1 now needs a model where a torus locus shares its symmetry with a partner.** Foscolo–Haskins' S⁶ is the first place to
+  look: there every automorphism has Lefschetz number 2, so a fixed torus cannot be alone. `frontier/B1503_the_apex_index_rule`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.
