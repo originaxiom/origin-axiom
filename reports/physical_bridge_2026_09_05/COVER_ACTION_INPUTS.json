@@ -1,0 +1,82 @@
+{
+  "scope": "Pinned reading dependencies, not certifications; no received producer is executed",
+  "own_input_pin": "1dcd4f11138b8f5536a90b8960bcc1fa02e755b8",
+  "source_paths": [
+    {
+      "repo": "origin-axiom",
+      "pin": "1dcd4f11138b8f5536a90b8960bcc1fa02e755b8",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "repo": "origin-axiom",
+      "pin": "1dcd4f11138b8f5536a90b8960bcc1fa02e755b8",
+      "path": "reports/physical_bridge_2026_09_05/ROOT_SCOPE_DESIGN.md",
+      "sha256": "06593825a87479f62c85ee4b422146a23a226edfa4370a997c8aaa6c5680a391",
+      "bytes": 9702
+    },
+    {
+      "repo": "origin-axiom",
+      "pin": "1dcd4f11138b8f5536a90b8960bcc1fa02e755b8",
+      "path": "reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md",
+      "sha256": "acca31056668ee421f9f2ded356c3d0c2b862069e5f8fd733d5c0c7c473fb193",
+      "bytes": 12670
+    },
+    {
+      "repo": "origin-axiom",
+      "pin": "1dcd4f11138b8f5536a90b8960bcc1fa02e755b8",
+      "path": "reports/physical_bridge_2026_09_05/FINITE_TWIST_PROOF.md",
+      "sha256": "114f788b34c3bc5843feeab260643f0f7048f7e14828260295cc9a47e91e935c",
+      "bytes": 8112
+    },
+    {
+      "repo": "origin-axiom",
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1384_the_generated_state_space/FINDINGS.md",
+      "snapshot": "reports/physical_bridge_2026_09_05/received_r58/B1384_FINDINGS.txt",
+      "sha256": "aaf8cf783f6a29d68d9707acb39328fe1d93c2cc21d23b6295cbe62be31dc777",
+      "bytes": 18414
+    },
+    {
+      "repo": "origin-axiom",
+      "pin": "93c7b428ef949f37fef1ca4e21591310db34c031",
+      "path": "frontier/B1384_the_generated_state_space/verification/handoff_checks.py",
+      "snapshot": "reports/physical_bridge_2026_09_05/received_r58/B1384_PRODUCER.txt",
+      "sha256": "450e190a4246f427a50734a5d75c357659b01d627845da6e7e206cadc3abe3a7",
+      "bytes": 19731
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/deck_descent_2026_09_27/PROOF.md",
+      "snapshot": "reports/physical_bridge_2026_09_05/received_r58/deck_descent_2026_09_27_PROOF.txt",
+      "sha256": "6bbbc5817b447bee4ce5dfb8e34ab482abcac6a4a500dad5381d829e2ec12d0d",
+      "bytes": 5364
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/deck_descent_2026_09_27/FINDINGS.md",
+      "snapshot": "reports/physical_bridge_2026_09_05/received_r58/deck_descent_2026_09_27_FINDINGS.txt",
+      "sha256": "aa453c705ff292cc1ed446d5ee237ea0d9b0edcf620d5062fd3e230d4d7817a6",
+      "bytes": 5413
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/coupled_boundary_gate_2026_09_27/DECK_PROOF.md",
+      "snapshot": "reports/physical_bridge_2026_09_05/received_r58/coupled_boundary_gate_2026_09_27_DECK_PROOF.txt",
+      "sha256": "0ff25f0f7f1a3aa48356bcd8a041d760a88a05b65f2bfeaaf4d7b84db258d4e2",
+      "bytes": 6008
+    },
+    {
+      "repo": "parallel_fork",
+      "pin": "490d77c47e7dbd04c954929d6690d2c82fa64205",
+      "path": "reports/coupled_boundary_gate_2026_09_27/DECK_FINDINGS.md",
+      "snapshot": "reports/physical_bridge_2026_09_05/received_r58/coupled_boundary_gate_2026_09_27_DECK_FINDINGS.txt",
+      "sha256": "cf33c8be7c934e6357b76c3b97c69bc4c3a942242728d329008b7ad2ddc74644",
+      "bytes": 4038
+    }
+  ]
+}

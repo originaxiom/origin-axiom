@@ -1146,3 +1146,23 @@ No physical root, full architecture, spectrum or global no-go is asserted.
 | `reports/physical_bridge_2026_09_05/ROOT_SCOPE_INPUTS.json` | `7574ff625cf9f627a7aed4483b0548d2c203ff154f43d13d5bbd3eaaa83dd263` |
 | `reports/physical_bridge_2026_09_05/root_scope.py` | `7ebe0a16ff1946527d7f09641252a7941230df42ea5801741c79f8326ccdd2fc` |
 | `tests/test_physical_bridge_root_scope.py` | `5069db6c90b7097980677141a15a2849f97bb6a6323a2fc2c8927941eabd657a` |
+
+## R58 finite cover action transport, September 30, 2026
+
+Pre-execution contract, authored conditional transport proof and exact
+opposite controls. No selected physical action, boundary law or M6 index.
+Received source snapshots are pinned reading inputs, not executed code.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/OPERATIONAL_CONTRACT.md` | `434e99f05f86efaafa57b2847dcc43963c0bf09771d9e6491e984e2cc303bd50` |
+| `reports/physical_bridge_2026_09_05/COVER_ACTION_DESIGN.md` | `c7a40c44ae5c454418a27c7b89dec428532270d963a822c229b0a2a923a89651` |
+| `reports/physical_bridge_2026_09_05/COVER_ACTION_INPUTS.json` | `d1e929beade496361752627b9365cedab5ae57a94eb0fdbf9a38f8aa94b8418f` |
+| `reports/physical_bridge_2026_09_05/cover_action.py` | `c88b73e5bd1632c8751001e0f844f513feb499e21fa1d0a93310a3ab8a08685e` |
+| `tests/test_physical_bridge_cover_action.py` | `96e00bf514f9243c776ef5d168ad0f5257a172fa0ba3168d485c75b4ef10742c` |
+| `reports/physical_bridge_2026_09_05/received_r58/B1384_FINDINGS.txt` | `aaf8cf783f6a29d68d9707acb39328fe1d93c2cc21d23b6295cbe62be31dc777` |
+| `reports/physical_bridge_2026_09_05/received_r58/B1384_PRODUCER.txt` | `450e190a4246f427a50734a5d75c357659b01d627845da6e7e206cadc3abe3a7` |
+| `reports/physical_bridge_2026_09_05/received_r58/deck_descent_2026_09_27_PROOF.txt` | `6bbbc5817b447bee4ce5dfb8e34ab482abcac6a4a500dad5381d829e2ec12d0d` |
+| `reports/physical_bridge_2026_09_05/received_r58/deck_descent_2026_09_27_FINDINGS.txt` | `aa453c705ff292cc1ed446d5ee237ea0d9b0edcf620d5062fd3e230d4d7817a6` |
+| `reports/physical_bridge_2026_09_05/received_r58/coupled_boundary_gate_2026_09_27_DECK_PROOF.txt` | `0ff25f0f7f1a3aa48356bcd8a041d760a88a05b65f2bfeaaf4d7b84db258d4e2` |
+| `reports/physical_bridge_2026_09_05/received_r58/coupled_boundary_gate_2026_09_27_DECK_FINDINGS.txt` | `cf33c8be7c934e6357b76c3b97c69bc4c3a942242728d329008b7ad2ddc74644` |
