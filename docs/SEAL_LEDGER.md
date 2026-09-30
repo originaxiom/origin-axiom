@@ -1239,3 +1239,14 @@ complete supercharge/gauge domain or nonlinear completion is certified.
 | `reports/physical_bridge_2026_09_05/CONE_SPECTRUM_INPUTS.json` | `9e9e390b4d5ffa741ceca33d88c2a3c7f4508a294cd5cfdca17d2a176f322564` |
 | `reports/physical_bridge_2026_09_05/cone_spectrum.py` | `2cb1b0bbcb14810e9748c492190669281d6c2d8d5baf6bc0c1e2dbd739ab2bdd` |
 | `tests/test_physical_bridge_cone_spectrum.py` | `95282300549a000123303a9399b9b726f7104a879a24bdfac622dc48f58b959e` |
+
+## R63 polynomial comparison repair, September 30, 2026
+
+Separate pre-execution generator-identity repair. Original source, two
+failed tests and first native failure remain frozen; no criterion change.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_SPECTRUM_CONTROL_DESIGN.md` | `ac5a8d980812ab8a4f57d3181b8f7c9237d29be95db80ce9b0fd6f54340f2a4f` |
+| `reports/physical_bridge_2026_09_05/cone_spectrum_control.py` | `4ef2988073643da971036f8496d9c7e632036bf9c599e8025a874fbdd014ded6` |
+| `tests/test_physical_bridge_cone_spectrum_control.py` | `5cf99853b8b98f464f01cf60f52f5ff54773065bd0f9b89e00c58472c33d47a3` |
