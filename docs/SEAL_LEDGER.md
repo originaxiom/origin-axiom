@@ -1289,3 +1289,19 @@ No whole-architecture exclusion or global harmonic existence claim.
 | `reports/physical_bridge_2026_09_05/CONE_MATCH_SEEDS.json` | `a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0` |
 | `reports/physical_bridge_2026_09_05/cone_match.py` | `87a20844324a883d0c5bd7e24ac20e85209b09e1fb1bda32817bcfa59d1b615c` |
 | `tests/test_physical_bridge_cone_match.py` | `afc70b73b05dff49fd22380e7a954d3ff7232b953bf2d722879683d03bfc30c2` |
+
+## R65 pre-execution assertion revision, September 30, 2026
+
+Direct assertions expose the existing helper checks to the static gate.
+No science execution preceded this revision; the first seal is retained.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_MATCH_PREEXEC_REVISION.md` | `d7613abb4178ce14d06f2c0722e10de694ca1e95b1da7de68810f67e47584453` |
+| `tests/test_physical_bridge_cone_match.py` | `6831194215cdab156eeccafdad8ffd0ba6858cb75fa16cc2fa262d2e06422086` |
+
+Pre-execution population clarification of the same revision note:
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_MATCH_PREEXEC_REVISION.md` | `0b48e3e03da521bc9613d0aff1f711645fbf1e731d9433bd4da8552168b9b53d` |

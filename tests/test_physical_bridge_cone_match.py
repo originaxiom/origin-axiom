@@ -45,7 +45,10 @@ def test_literal_projective_meridian_and_arbitrary_powers():
 
 
 def test_bounded_transport_and_singular_countercontrols():
-    assert_group(probe.transport_controls())
+    group = probe.transport_controls()
+    assert_group(group)
+    assert group['checks']['logarithmic_flatness']
+    assert group['checks']['logarithmic_not_power_error']
 
 
 def test_positive_global_abelian_control_and_charged_window():
