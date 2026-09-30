@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**811 recorded closures — of which 644 are CLASSIFIED by mechanism and
+**812 recorded closures — of which 645 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -94,6 +94,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `symmetry-cannot-select (the cusp's Hopf trace with half lives, half dies: over an acyclic bulk a Z/3-symmetric cap has flux divisible by 3 and zero modes (n/3) copies of the regular representation)` | 1 |  |
 | `end-datum-input (the cusp point is not Witt, so the count needs one choice per point -- lower, Lagrangian (a filling slope) or upper -- contributing -1, 0 or +1 whatever the Higgs field; choices blind to the charge give zero, and nothing in the geometry makes the choice)` | 1 |  |
 | `symmetry-cannot-select (the architecture's selectors cannot carry the end's chirality: the order bit is invisible to the oriented manifold, since an orientation-preserving change of marking swaps LR and RL; the isometries of the genesis's puncture fix only non-chiral lines; and where a rotation would force a charged end chiral it leaves the self-conjugate sector no symmetric completion, so symmetry permits a non-chiral completion or none; its conclusion is end-datum-input)` | 1 |  |
+| `no-landing-site (no known G2 cone over an orbifold link that is not a global quotient has an ADE locus coned over a torus of constant type: the twistor family's loci are spheres or sections over fixed surfaces of M, and the isometries of a positive toric selfdual Einstein orbifold fix only spheres or real loci that cross its orbifold locus; secondary: a torus section would carry a cubic inflow +-N e opposite to its partner's, T4)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

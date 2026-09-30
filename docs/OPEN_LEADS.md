@@ -3436,5 +3436,19 @@ This job is not optional, whichever answers the first two questions get. `fronti
   - Without one (the frame), orientation acts on nothing.
   `frontier/B1504_the_ends_choice`.
 
+**Status (2026-09-30, B1505): no known orbifold link models a cusp point.**
+- B1503's rule stops at finite quotients of smooth links, and outside them a lone locus can be chiral. B1505 took the known class
+  outside: AW's §2 cones over WCP³_{n,n,m,m}/ℤ_r, AW's §3 cones over twistor spaces of positive self-dual Einstein orbifolds (every
+  toric one, by Calderbank–Singer, and Hitchin's family), and their isometric quotients.
+- **None has an ADE locus coned over a torus of constant type.**
+  - The twistor family's loci are fibres (spheres) or sections over surfaces an isometry fixes.
+  - A toric self-dual Einstein orbifold's isometries fix only spheres or real loci. The χ = 0 ones (k = 4) cross the orbifold locus,
+    where the isotropy jumps.
+  - AW's §2 strata are spheres and points.
+- **A torus locus would not be alone.** Over a fixed surface F the two twistor sections carry opposite inflows ±(N/2)(2e − χ). For a
+  torus that is ±N·e, and e = −s·area/24π ≠ 0 by a curvature identity checked exactly on explicit metrics.
+- So question 1's model must be a non-toric positive self-dual Einstein orbifold with a torus fixed away from its orbifold locus, or a
+  nearly Kähler orbifold outside both families. None is known. `frontier/B1505_the_orbifold_links`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

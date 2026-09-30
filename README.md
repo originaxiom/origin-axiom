@@ -394,6 +394,12 @@ emitted value. The structure is the object's; the values are the observer's.
 > fills the puncture back in. And no symmetry of any space in the class forces a chiral choice: where a symmetry would force the
 > charged fields' ends to be chiral, it leaves the uncharged fields' ends no symmetric way to close at all. What remains is a physical
 > question: whether the seven-dimensional space around the point carries an orientation that the four-dimensional theory feels.*
+>
+> *And (B1505), whether any known local model outside the smooth ones could supply it. The spaces around such a point that are not
+> simply a smooth space folded up are all built, in the known cases, from four-dimensional spaces with a special kind of curvature.
+> Their singular pieces are spheres, never tori, and folding them up by their symmetries adds no torus of the kind a cusp needs: the
+> only torus-shaped pieces run into other singular places. If a torus piece did exist, it would come with a twin of the opposite
+> chirality. So no known model supplies a chiral cusp point, and the model that would is now described exactly.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

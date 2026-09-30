@@ -903,3 +903,13 @@ left it.
 > - Decided at design time as a theorem, so not sealed.
 >
 > 0 of 19 (`frontier/B1504_the_ends_choice`).
+
+> **Currency note (2026-09-30, B1505): no known orbifold link models a cusp point.**
+> - The class B1503's rule does not reach (links that are orbifolds but not global quotients) was taken as known: AW's two families
+>   and the isometric quotients of the twistor one.
+> - None has an ADE locus coned over a torus of constant type. The twistor family's loci are spheres or sections over fixed surfaces,
+>   and a toric self-dual Einstein orbifold's isometries fix only spheres or real loci that cross its orbifold locus.
+> - A torus section would come with an oppositely chiral partner, ±N·s·area/24π.
+> - With B1501–B1503, no known local model supplies a chiral cusp point. Decided at design time as a theorem, so not sealed.
+>
+> 0 of 19 (`frontier/B1505_the_orbifold_links`).

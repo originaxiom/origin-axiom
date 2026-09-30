@@ -1,0 +1,82 @@
+CENSUS
+  k=3 data: 606
+  k=3 exceptional surfaces (all e < chi_orb): 1818
+  k=3 real loci chi=1, meeting the orbifold locus=False: 6
+  k=3 real loci chi=1, meeting the orbifold locus=True: 600
+  k=3 reflections: sphere: 114
+  k=3 reflections: two spheres: 114
+  k=3 rotations: 48
+  k=3 rotations fixing a principal orbit: 0
+  k=3 smooth: 6
+  k=4 data: 3295
+  k=4 exceptional surfaces (all e < chi_orb): 13180
+  k=4 real loci chi=0, meeting the orbifold locus=True: 3295
+  k=4 reflections: sphere: 536
+  k=4 reflections: two spheres: 44
+  k=4 rotations: 10
+  k=4 rotations fixing a principal orbit: 0
+  k=4 smooth: 0
+  k=5 data: 13009
+  k=5 exceptional surfaces (all e < chi_orb): 65045
+  k=5 real loci chi=-1, meeting the orbifold locus=True: 13009
+  k=5 reflections: sphere: 261
+  k=5 reflections: two spheres: 261
+  k=5 smooth: 0
+  k=6 data: 40078
+  k=6 exceptional surfaces (all e < chi_orb): 240468
+  k=6 real loci chi=-2, meeting the orbifold locus=True: 40078
+  k=6 reflections: sphere: 1112
+  k=6 reflections: two spheres: 20
+  k=6 rotations: 20
+  k=6 rotations fixing a principal orbit: 0
+  k=6 smooth: 0
+
+IDENTITY (s = 12; area_orb/2pi against chi_orb - e)
+  CP2: v = [(-2, -1), (-1, -1), (1, 0), (2, 1)], closed forms 2.5e-16, s = [12.0, 12.0, 12.0], Einstein 1.1e-24, Lambda^- block 2.2e-24
+    edge 1 v=(-1, -1) label 1: 1.000000000000 vs 1 (dev 1.1e-16)
+    edge 2 v=(1, 0) label 1: 1.000000000000 vs 1 (dev 1.1e-16)
+    edge 3 v=(2, 1) label 1: 1.000000000000 vs 1 (dev 0.0e+00)
+  k3, labels (1,1,3): v = [(-3, -3), (-2, -3), (1, -1), (3, 3)], closed forms 4.1e-16, s = [12.0, 12.0, 12.0], Einstein 7.6e-28, Lambda^- block 4.6e-27
+    edge 1 v=(-2, -3) label 1: 0.133333333333 vs 2/15 (dev 2.8e-17)
+    edge 2 v=(1, -1) label 1: 0.266666666667 vs 4/15 (dev 5.6e-17)
+    edge 3 v=(3, 3) label 3: 0.222222222222 vs 2/9 (dev 0.0e+00)
+  k4 symmetric, labels (2,8,2,4): v = [(-4, 0), (-2, -6), (0, -8), (2, -6), (4, 0)], closed forms 4.7e-16, s = [12.0, 12.0, 12.0], Einstein 2.4e-27, Lambda^- block 3.1e-27
+    edge 1 v=(-2, -6) label 2: 0.020833333333 vs 1/48 (dev 0.0e+00)
+    edge 2 v=(0, -8) label 8: 0.031250000000 vs 1/32 (dev 0.0e+00)
+    edge 3 v=(2, -6) label 2: 0.020833333333 vs 1/48 (dev 0.0e+00)
+    edge 4 v=(4, 0) label 4: 0.041666666667 vs 1/24 (dev 0.0e+00)
+  k5: v = [(-3, -1), (-2, -3), (-1, -4), (0, -4), (2, -2), (3, 1)], closed forms 2.9e-16, s = [12.0, 12.0, 12.0], Einstein 2.3e-27, Lambda^- block 5.9e-27
+    edge 1 v=(-2, -3) label 1: 0.028571428571 vs 1/35 (dev 0.0e+00)
+    edge 2 v=(-1, -4) label 1: 0.050000000000 vs 1/20 (dev 0.0e+00)
+    edge 3 v=(0, -4) label 4: 0.062500000000 vs 1/16 (dev 0.0e+00)
+    edge 4 v=(2, -2) label 2: 0.062500000000 vs 1/16 (dev 6.9e-18)
+    edge 5 v=(3, 1) label 1: 0.089285714286 vs 5/56 (dev 1.4e-17)
+  CP2 real locus (RP^2: chi 1, e -1): area/4pi = 1.000000000422 (dev 4.2e-10)
+
+PAIRING
+  great sphere in S^4 (CP^3's pair, B1503 P1): {'plus': (-2, 0), 'minus': (0, -2), 'inflows_over_N': ['-1', '1']}
+  torus, e = -1: {'plus': (-1, 1), 'minus': (1, -1), 'inflows_over_N': ['-1', '1']}
+  torus, e = -2: {'plus': (-2, 2), 'minus': (2, -2), 'inflows_over_N': ['-2', '2']}
+  torus, e = -3: {'plus': (-3, 3), 'minus': (3, -3), 'inflows_over_N': ['-3', '3']}
+
+HITCHIN
+  order 2: 2-sphere
+  order 3: two points
+  order 4: two points
+  order 5: two points
+  order 6: two points
+  order 7: two points
+  order 8: two points
+  order 9: two points
+  order 10: two points
+  order 11: two points
+  order 12: two points
+  singular orbit: {'point': 'diag(1, 1, -2)', 'fixed_by_rotations_about_its_axis': True, 'fixed_by_the_half_turn_swapping_the_axis': True, 'orbit': 'SO(3)/O(2) = RP^2'}
+
+AW SECTION 2
+  0-dimensional strata: 520
+  2-dimensional strata: the line (0, 1) (a 2-sphere): 127
+  2-dimensional strata: the line (2, 3) (a 2-sphere): 133
+  cones (n, m, r): 140
+
+seconds 148.9

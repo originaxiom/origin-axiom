@@ -8858,6 +8858,23 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1505": {
+   "slug": "the orbifold links",
+   "motifs": [
+    "monoid",
+    "coupling",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B150": {
    "slug": "class s coincidence",
    "motifs": [

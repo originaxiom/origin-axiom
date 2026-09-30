@@ -1,0 +1,20 @@
+{
+ "id": "B1505",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1503",
+  "B1504",
+  "B1502",
+  "B1501",
+  "B1500",
+  "B1356",
+  "B1355"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE ORBIFOLD LINKS (the owner's approved B1505, 2026-09-30: the census of G2 cones whose links are orbifolds but not global quotients of smooth nearly Kaehler manifolds -- the class where B1503's rule does not apply and a lone locus can be chiral). Decided at design time, so not sealed (the record's rule for theorems, as B1396, B1500, B1502, B1504). The known class: AW section 2 (cones over WCP^3_{n,n,m,m}/Z_r, metrics argued by duality), AW section 3 (cones over twistor spaces of compact positive selfdual Einstein 4-orbifolds M: every toric one, by Calderbank-Singer Theorem A a quaternion-Kaehler torus quotient, and Hitchin's SO(3) family) and quotients by orientation-preserving isometries of M. T1: every locus through the apex is a cone over a twistor fibre (a sphere) or over one of the two sections above a surface of M fixed by an isometry or a local group (Anguelova-Lazaroiu's horizontal and vertical spheres in the toric case). T2: a totally geodesic F in a selfdual Einstein orbifold has e_orb(N_F) = chi_orb(F) - s area_orb(F)/24pi (Gauss, Ricci, Gauss-Bonnet; CS's inequality e < chi_orb follows), so a totally geodesic torus in positive curvature has e < 0. T3: an orientation-preserving isometry of a compact positive toric selfdual Einstein orbifold fixes pointwise only exceptional spheres, one or two spheres over a reflection line (a torus would need two edges on one line of RP^1), or a real locus (identity on the orbit polygon, -1 on the torus; chi = 4 - k) that crosses every exceptional surface and vertex, hence (k >= 4 is never smooth, Hitchin) the orbifold locus; a rotation would fix a principal orbit, whose trivial normal bundle T2 forbids. So no 2-stratum of constant type is a closed torus. T4: the two sections over a fixed surface carry opposite cubic inflows +-(N/2)(2e - chi) (B1503's CP^3 pair (-2,0), (0,-2) reproduced); a torus section would carry +-N e, never alone. T5: AW section 2's strata are two coordinate lines (spheres) and points; Hitchin's family fixes 2-spheres and has an RP^2 stratum. Computed (own code): the census of CS data k = 3..6 (606, 3295, 13009, 40078 data; 320511 exceptional surfaces with e < chi_orb; smooth only at k = 3, all CP^2; no rotation fixes a principal orbit; no reflection fixes a torus; every real locus with k >= 4 meets the orbifold locus); the Calderbank-Pedersen metric selfdual Einstein with s = 12 from the full curvature tensor (Einstein and Lambda^- residuals <= 1e-24) and T2 exact on 15 exceptional surfaces (area_orb/2pi = chi_orb - e to 1e-16) and on CP^2's RP^2 (4e-10); the pairing; Hitchin; 140 AW section-2 cones. Reading: no known G2 cone over an orbifold link that is not a global quotient can model a cusp point; with B1501-B1503, no known local model supplies a chiral cusp point. The positive's shape: a (non-toric) positive selfdual Einstein 4-orbifold with a torus fixed by an isometry away from its orbifold locus -- its two sections would be oppositely chiral, n = +-N s area/24pi -- or a nearly Kaehler orbifold outside the twistor and AW families. No physics crossed. 0 of 19."
+}

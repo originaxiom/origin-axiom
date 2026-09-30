@@ -1,5 +1,37 @@
 # Changelog
 
+## B1505 — the orbifold links: no known G₂ cone over an orbifold link that is not a global quotient can model a cusp point (PROVED, not sealed)
+
+- **The question** (the owner's approved step): B1503's rule stops at finite quotients of smooth nearly Kähler links, and outside them
+  a lone locus can be chiral. Does any known G₂ cone over such an orbifold link have an ADE locus coned over a torus, as a cusp point
+  needs? It closed at design time as a theorem, so it was not sealed.
+- **The class.** AW's §2 cones over WCP³_{n,n,m,m}/ℤ_r (metrics argued by duality), AW's §3 cones over twistor spaces of compact
+  positive self-dual Einstein orbifolds (every toric one, by Calderbank–Singer, and Hitchin's family), and their isometric quotients.
+- **T1.** Twistor-cone loci are fibres (spheres) or the two sections over a surface an isometry or local group fixes.
+- **T2.** A totally geodesic surface has e_orb(N) = χ_orb − s·area_orb/24π. This gives Calderbank–Singer's inequality and a twisted
+  normal bundle for any totally geodesic torus in positive curvature.
+- **T3.** A toric self-dual Einstein orbifold's isometries fix only spheres, or a real locus (χ = 4 − k) that crosses the orbifold
+  locus when k ≥ 4. So no torus of constant type exists.
+- **T4.** The two sections over a fixed surface carry opposite inflows ±(N/2)(2e − χ). B1503's ℂP³ pair is reproduced; a torus section
+  would carry ±N·e and never stand alone.
+- **T5.** AW's §2 strata are two coordinate lines and points; Hitchin's family fixes 2-spheres.
+- **Computed** (own code):
+  - the census of 57 k Calderbank–Singer data (k = 3–6) with every symmetry's fixed surfaces;
+  - the Calderbank–Pedersen metric self-dual Einstein (s = 12) from the full curvature tensor;
+  - T2 exact on 15 exceptional surfaces and ℂP²'s RP²;
+  - Hitchin's family and 140 AW §2 cones.
+  The orbifold form of T2 was fixed by the computation: the first form, weighted by the edge label, missed by exactly that label.
+- **The reading.** With B1501–B1503, no known local model supplies a chiral cusp point. What would: a non-toric positive self-dual
+  Einstein orbifold with a torus fixed away from its orbifold locus (chiral in pairs, n = ±N·s·area/24π), or a nearly Kähler orbifold
+  outside both families.
+- **Fast lane on ba41670b** (B1504 banked): 9 failures, exactly the nine of the baseline (the same tests as the 16c29b0b lane), 6 382
+  passed, 52 skipped. It ran as seven shards covering all 1 233 test files with the fast lane's own flags, in a separate worktree so the
+  main tree stayed free to change (E46).
+- **Surfaces.** Registry row T-ORBIFOLD-LINKS, OPEN_LEADS (sL-8), THE_SM_VERDICT, README, the letter's 69th note, the alias table
+  (next arc B1506), the kill graph (with content), logs, atlas, views.
+
+`frontier/B1505_the_orbifold_links`; lock `tests/test_b1505_the_orbifold_links.py`. 0 of 19.
+
 ## B1504 — the end's choice: nothing in the architecture supplies a chiral one (PROVED, not sealed)
 
 - **The question** (the owner's approved second step): does the swap P act on B1500's choice at a cusp point the way it acts on the

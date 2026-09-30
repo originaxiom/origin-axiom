@@ -16136,3 +16136,21 @@ an outcome that is still open.
 - One cross-check could not be completed: B1369's exact instrument on cube~3.24 ran out of memory. The geometric check covers it.
 
 `frontier/B1504_the_ends_choice`. 0 of 19.
+
+## 2026-09-30 — B1505: the orbifold links
+
+You approved the census of the local models B1503's rule does not cover: G₂ cones whose links are orbifolds, not smooth spaces
+folded up. Only there can a single singular piece be chiral on its own, and a cusp point needs a torus-shaped piece. It turned out to
+be decidable by proof before any census could come out differently, so I did not seal it.
+- **Where these models come from.** Every known one is built from a four-dimensional orbifold with a special curvature (self-dual
+  Einstein), or is one of Acharya and Witten's conjectured cones. Their singular pieces are spheres, never tori.
+- **Folding them further by their symmetries does not help.** I proved which surfaces a symmetry of such an orbifold can fix, and
+  checked it on 57 thousand examples. They are spheres, or torus-shaped surfaces that always run into other singular places, so they
+  are never the clean torus a cusp needs.
+- **Even a clean torus would come with a twin.** Its two lifts would carry opposite chirality. That uses a curvature identity I checked
+  exactly on explicit metrics, to 16 digits on 15 surfaces.
+- **What it means.** No known local model supplies a chiral cusp point. The one that would is now described exactly: a curved
+  four-dimensional orbifold, necessarily less symmetric than all the known ones, with a torus fixed by a symmetry.
+- The fast lane on the previous commit (B1504) is at its baseline: the same nine known failures.
+
+`frontier/B1505_the_orbifold_links`. 0 of 19.

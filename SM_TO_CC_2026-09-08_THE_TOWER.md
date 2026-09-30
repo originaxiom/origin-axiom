@@ -1100,3 +1100,24 @@ in the architecture fix that choice? It closed at design time as a theorem, so i
   orientation acts. The question left is physical: does the completion carry a G₂ orientation (sL-8)?
 
 `frontier/B1504_the_ends_choice`. PROVED, not sealed. 0 of 19.
+
+## Sixty-ninth note (2026-09-30): the orbifold links (B1505)
+
+The owner approved the census of G₂ cones whose links are orbifolds but not global quotients: the class B1503's rule does not
+reach, where a lone locus can be chiral. It closed at design time as a theorem, so it was not sealed.
+- **The class.** AW's §2 cones over WCP³_{n,n,m,m}/ℤ_r (metrics argued by duality) and AW's §3 cones over twistor spaces of positive
+  self-dual Einstein orbifolds. The known orbifolds are every toric one (Calderbank–Singer: quaternion-Kähler torus quotients) and
+  Hitchin's SO(3) family. Plus their quotients by isometries.
+- **T1.** Twistor-cone loci are fibres (spheres) or the two sections over a surface an isometry or local group fixes. In the toric case
+  this is Anguelova–Lazaroiu's list.
+- **T2.** A totally geodesic surface has e_orb(N) = χ_orb − s·area_orb/24π. This is exact on 15 exceptional surfaces of explicit
+  Calderbank–Pedersen metrics (own code, s = 12 from the full curvature) and gives Calderbank–Singer's inequality.
+- **T3.** A toric self-dual Einstein orbifold's isometries fix only spheres, or a real locus (identity on the orbit polygon, −1 on the
+  torus, χ = 4 − k) that crosses the orbifold locus when k ≥ 4. There is no torus of constant type. The census covers 57 k data.
+- **T4.** The two sections over a fixed surface carry opposite inflows ±(N/2)(2e − χ). Your B1503 ℂP³ pair (−2, 0), (0, −2) is
+  reproduced. A torus section would carry ±N·e and never stand alone.
+- **For your chirality section.** No known G₂ cone over an orbifold link can model a cusp point. With B1501–B1503, no known local
+  model supplies a chiral cusp point. What would: a non-toric positive self-dual Einstein orbifold with a torus fixed away from its
+  orbifold locus (then chiral in pairs, n = ±N·s·area/24π), or a nearly Kähler orbifold outside both families.
+
+`frontier/B1505_the_orbifold_links`. PROVED, not sealed. 0 of 19.

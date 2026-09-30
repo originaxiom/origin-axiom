@@ -1,0 +1,594 @@
+{
+ "note": "B1505 recorded run (orbifold_links.py record)",
+ "census": {
+  "tally": {
+   "k=3 data": 606,
+   "k=3 exceptional surfaces (all e < chi_orb)": 1818,
+   "k=3 real loci chi=1, meeting the orbifold locus=False": 6,
+   "k=3 real loci chi=1, meeting the orbifold locus=True": 600,
+   "k=3 reflections: sphere": 114,
+   "k=3 reflections: two spheres": 114,
+   "k=3 rotations": 48,
+   "k=3 rotations fixing a principal orbit": 0,
+   "k=3 smooth": 6,
+   "k=4 data": 3295,
+   "k=4 exceptional surfaces (all e < chi_orb)": 13180,
+   "k=4 real loci chi=0, meeting the orbifold locus=True": 3295,
+   "k=4 reflections: sphere": 536,
+   "k=4 reflections: two spheres": 44,
+   "k=4 rotations": 10,
+   "k=4 rotations fixing a principal orbit": 0,
+   "k=4 smooth": 0,
+   "k=5 data": 13009,
+   "k=5 exceptional surfaces (all e < chi_orb)": 65045,
+   "k=5 real loci chi=-1, meeting the orbifold locus=True": 13009,
+   "k=5 reflections: sphere": 261,
+   "k=5 reflections: two spheres": 261,
+   "k=5 smooth": 0,
+   "k=6 data": 40078,
+   "k=6 exceptional surfaces (all e < chi_orb)": 240468,
+   "k=6 real loci chi=-2, meeting the orbifold locus=True": 40078,
+   "k=6 reflections: sphere": 1112,
+   "k=6 reflections: two spheres": 20,
+   "k=6 rotations": 20,
+   "k=6 rotations fixing a principal orbit": 0,
+   "k=6 smooth": 0
+  },
+  "examples": {
+   "chi-0 real locus": [
+    "(Fraction(1, 2), Fraction(-3, 1))",
+    "(Fraction(1, 2), Fraction(-5, 2))",
+    "(Fraction(1, 2), Fraction(-2, 1))",
+    "(Fraction(1, 2), Fraction(-3, 2))"
+   ]
+  }
+ },
+ "identity": {
+  "CP2": {
+   "v": [
+    [
+     -2,
+     -1
+    ],
+    [
+     -1,
+     -1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "laplacian_residual": 0.0,
+   "curvature": [
+    {
+     "s": 12.0,
+     "einstein": 4.4965071597597673e-29,
+     "minus_block_minus_s_over_12": 7.013466485480558e-30,
+     "plus_block_minus_s_over_12": 1.9519049011443932,
+     "mixed_block": 2.0211856697692067e-29,
+     "sectional_rho_eta": 0.5
+    },
+    {
+     "s": 12.0,
+     "einstein": 1.3665437461143588e-26,
+     "minus_block_minus_s_over_12": 6.766331155016788e-27,
+     "plus_block_minus_s_over_12": 1.8655532848327483,
+     "mixed_block": 7.266541618553955e-27,
+     "sectional_rho_eta": 0.5
+    },
+    {
+     "s": 12.0,
+     "einstein": 1.0526457367351503e-24,
+     "minus_block_minus_s_over_12": 2.177926334356591e-24,
+     "plus_block_minus_s_over_12": 1.8862889178462,
+     "mixed_block": 8.266949947101543e-25,
+     "sectional_rho_eta": 0.5
+    }
+   ],
+   "closed_form_deviation": 2.501642553988972e-16,
+   "surfaces": [
+    {
+     "edge": 1,
+     "v": [
+      -1,
+      -1
+     ],
+     "label": 1,
+     "e": "1",
+     "chi_orb": "2",
+     "area_orb_over_2pi": 0.9999999999999999,
+     "predicted": "1",
+     "deviation": 1.1102230246251565e-16
+    },
+    {
+     "edge": 2,
+     "v": [
+      1,
+      0
+     ],
+     "label": 1,
+     "e": "1",
+     "chi_orb": "2",
+     "area_orb_over_2pi": 0.9999999999999999,
+     "predicted": "1",
+     "deviation": 1.1102230246251565e-16
+    },
+    {
+     "edge": 3,
+     "v": [
+      2,
+      1
+     ],
+     "label": 1,
+     "e": "1",
+     "chi_orb": "2",
+     "area_orb_over_2pi": 1.0,
+     "predicted": "1",
+     "deviation": 0.0
+    }
+   ],
+   "seconds": 9.0
+  },
+  "k3, labels (1,1,3)": {
+   "v": [
+    [
+     -3,
+     -3
+    ],
+    [
+     -2,
+     -3
+    ],
+    [
+     1,
+     -1
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "laplacian_residual": 0.0,
+   "curvature": [
+    {
+     "s": 12.0,
+     "einstein": 3.254051234036674e-30,
+     "minus_block_minus_s_over_12": 5.5220263365470826e-30,
+     "plus_block_minus_s_over_12": 2.1446759421241066,
+     "mixed_block": 8.576311768231564e-30,
+     "sectional_rho_eta": 0.379461612078783
+    },
+    {
+     "s": 12.0,
+     "einstein": 5.798127653374437e-29,
+     "minus_block_minus_s_over_12": 2.792444344965941e-28,
+     "plus_block_minus_s_over_12": 1.6012783813939278,
+     "mixed_block": 4.601226126712202e-28,
+     "sectional_rho_eta": 0.5867382295960044
+    },
+    {
+     "s": 12.0,
+     "einstein": 7.620396344434974e-28,
+     "minus_block_minus_s_over_12": 4.6100045224984404e-27,
+     "plus_block_minus_s_over_12": 0.33847440541162893,
+     "mixed_block": 1.9173286260392808e-27,
+     "sectional_rho_eta": 0.9045314587539798
+    }
+   ],
+   "closed_form_deviation": 4.0833556046395464e-16,
+   "surfaces": [
+    {
+     "edge": 1,
+     "v": [
+      -2,
+      -3
+     ],
+     "label": 1,
+     "e": "2/5",
+     "chi_orb": "8/15",
+     "area_orb_over_2pi": 0.1333333333333333,
+     "predicted": "2/15",
+     "deviation": 2.7755575615628914e-17
+    },
+    {
+     "edge": 2,
+     "v": [
+      1,
+      -1
+     ],
+     "label": 1,
+     "e": "1/10",
+     "chi_orb": "11/30",
+     "area_orb_over_2pi": 0.2666666666666667,
+     "predicted": "4/15",
+     "deviation": 5.551115123125783e-17
+    },
+    {
+     "edge": 3,
+     "v": [
+      3,
+      3
+     ],
+     "label": 3,
+     "e": "5/18",
+     "chi_orb": "1/2",
+     "area_orb_over_2pi": 0.2222222222222222,
+     "predicted": "2/9",
+     "deviation": 0.0
+    }
+   ],
+   "seconds": 9.4
+  },
+  "k4 symmetric, labels (2,8,2,4)": {
+   "v": [
+    [
+     -4,
+     0
+    ],
+    [
+     -2,
+     -6
+    ],
+    [
+     0,
+     -8
+    ],
+    [
+     2,
+     -6
+    ],
+    [
+     4,
+     0
+    ]
+   ],
+   "laplacian_residual": 1.5777218104420236e-30,
+   "curvature": [
+    {
+     "s": 12.0,
+     "einstein": 3.4512664603419266e-30,
+     "minus_block_minus_s_over_12": 4.930380657631324e-30,
+     "plus_block_minus_s_over_12": 1.4220438617442832,
+     "mixed_block": 6.554254522063145e-30,
+     "sectional_rho_eta": 0.42218533104093653
+    },
+    {
+     "s": 12.0,
+     "einstein": 1.6023737137301802e-31,
+     "minus_block_minus_s_over_12": 2.9582283945787943e-30,
+     "plus_block_minus_s_over_12": 1.2777822149121418,
+     "mixed_block": 2.2312355819789434e-30,
+     "sectional_rho_eta": 0.5521664341475749
+    },
+    {
+     "s": 12.0,
+     "einstein": 2.372499172452193e-27,
+     "minus_block_minus_s_over_12": 3.0798115815959827e-27,
+     "plus_block_minus_s_over_12": 4.5452246855080105,
+     "mixed_block": 3.504713290393425e-27,
+     "sectional_rho_eta": -0.13818717901450978
+    }
+   ],
+   "closed_form_deviation": 4.726508639071288e-16,
+   "surfaces": [
+    {
+     "edge": 1,
+     "v": [
+      -2,
+      -6
+     ],
+     "label": 2,
+     "e": "1/12",
+     "chi_orb": "5/48",
+     "area_orb_over_2pi": 0.020833333333333332,
+     "predicted": "1/48",
+     "deviation": 0.0
+    },
+    {
+     "edge": 2,
+     "v": [
+      0,
+      -8
+     ],
+     "label": 8,
+     "e": "3/32",
+     "chi_orb": "1/8",
+     "area_orb_over_2pi": 0.03125,
+     "predicted": "1/32",
+     "deviation": 0.0
+    },
+    {
+     "edge": 3,
+     "v": [
+      2,
+      -6
+     ],
+     "label": 2,
+     "e": "1/12",
+     "chi_orb": "5/48",
+     "area_orb_over_2pi": 0.020833333333333332,
+     "predicted": "1/48",
+     "deviation": 0.0
+    },
+    {
+     "edge": 4,
+     "v": [
+      4,
+      0
+     ],
+     "label": 4,
+     "e": "1/24",
+     "chi_orb": "1/12",
+     "area_orb_over_2pi": 0.041666666666666664,
+     "predicted": "1/24",
+     "deviation": 0.0
+    }
+   ],
+   "seconds": 9.7
+  },
+  "k5": {
+   "v": [
+    [
+     -3,
+     -1
+    ],
+    [
+     -2,
+     -3
+    ],
+    [
+     -1,
+     -4
+    ],
+    [
+     0,
+     -4
+    ],
+    [
+     2,
+     -2
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "laplacian_residual": 0.0,
+   "curvature": [
+    {
+     "s": 12.0,
+     "einstein": 3.944304526105059e-31,
+     "minus_block_minus_s_over_12": 3.6484816866471796e-30,
+     "plus_block_minus_s_over_12": 1.1458285781742685,
+     "mixed_block": 2.649592253599995e-30,
+     "sectional_rho_eta": 0.4270857109128657
+    },
+    {
+     "s": 12.0,
+     "einstein": 3.2047474274603605e-31,
+     "minus_block_minus_s_over_12": 1.1586394545433611e-30,
+     "plus_block_minus_s_over_12": 1.2199548676683272,
+     "mixed_block": 5.99644562656841e-30,
+     "sectional_rho_eta": 0.489978772943599
+    },
+    {
+     "s": 12.0,
+     "einstein": 2.258410164034604e-27,
+     "minus_block_minus_s_over_12": 5.8626170323762545e-27,
+     "plus_block_minus_s_over_12": 6.013961322993622,
+     "mixed_block": 3.735785625352119e-27,
+     "sectional_rho_eta": -0.5342939832230973
+    }
+   ],
+   "closed_form_deviation": 2.9100670969156206e-16,
+   "surfaces": [
+    {
+     "edge": 1,
+     "v": [
+      -2,
+      -3
+     ],
+     "label": 1,
+     "e": "11/35",
+     "chi_orb": "12/35",
+     "area_orb_over_2pi": 0.02857142857142857,
+     "predicted": "1/35",
+     "deviation": 0.0
+    },
+    {
+     "edge": 2,
+     "v": [
+      -1,
+      -4
+     ],
+     "label": 1,
+     "e": "2/5",
+     "chi_orb": "9/20",
+     "area_orb_over_2pi": 0.05,
+     "predicted": "1/20",
+     "deviation": 0.0
+    },
+    {
+     "edge": 3,
+     "v": [
+      0,
+      -4
+     ],
+     "label": 4,
+     "e": "5/16",
+     "chi_orb": "3/8",
+     "area_orb_over_2pi": 0.0625,
+     "predicted": "1/16",
+     "deviation": 0.0
+    },
+    {
+     "edge": 4,
+     "v": [
+      2,
+      -2
+     ],
+     "label": 2,
+     "e": "3/16",
+     "chi_orb": "1/4",
+     "area_orb_over_2pi": 0.06249999999999999,
+     "predicted": "1/16",
+     "deviation": 6.938893903907228e-18
+    },
+    {
+     "edge": 5,
+     "v": [
+      3,
+      1
+     ],
+     "label": 1,
+     "e": "5/28",
+     "chi_orb": "15/56",
+     "area_orb_over_2pi": 0.0892857142857143,
+     "predicted": "5/56",
+     "deviation": 1.3877787807814457e-17
+    }
+   ],
+   "seconds": 14.6
+  },
+  "CP2 real locus (RP^2: chi 1, e -1)": {
+   "area_over_4pi": 1.0000000004219565,
+   "predicted": 1.0,
+   "deviation": 4.2195646976495027e-10
+  }
+ },
+ "pairing": {
+  "great sphere in S^4 (CP^3's pair, B1503 P1)": {
+   "plus": [
+    -2,
+    0
+   ],
+   "minus": [
+    0,
+    -2
+   ],
+   "inflows_over_N": [
+    "-1",
+    "1"
+   ]
+  },
+  "torus, e = -1": {
+   "plus": [
+    -1,
+    1
+   ],
+   "minus": [
+    1,
+    -1
+   ],
+   "inflows_over_N": [
+    "-1",
+    "1"
+   ]
+  },
+  "torus, e = -2": {
+   "plus": [
+    -2,
+    2
+   ],
+   "minus": [
+    2,
+    -2
+   ],
+   "inflows_over_N": [
+    "-2",
+    "2"
+   ]
+  },
+  "torus, e = -3": {
+   "plus": [
+    -3,
+    3
+   ],
+   "minus": [
+    3,
+    -3
+   ],
+   "inflows_over_N": [
+    "-3",
+    "3"
+   ]
+  }
+ },
+ "hitchin": {
+  "rotations": [
+   {
+    "order": 2,
+    "fixed_subspace_of_R5": 3,
+    "fixed_set_in_S4": "2-sphere"
+   },
+   {
+    "order": 3,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 4,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 5,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 6,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 7,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 8,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 9,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 10,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 11,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   },
+   {
+    "order": 12,
+    "fixed_subspace_of_R5": 1,
+    "fixed_set_in_S4": "two points"
+   }
+  ],
+  "singular_orbit": {
+   "point": "diag(1, 1, -2)",
+   "fixed_by_rotations_about_its_axis": true,
+   "fixed_by_the_half_turn_swapping_the_axis": true,
+   "orbit": "SO(3)/O(2) = RP^2"
+  }
+ },
+ "aw2": {
+  "0-dimensional strata": 520,
+  "2-dimensional strata: the line (0, 1) (a 2-sphere)": 127,
+  "2-dimensional strata: the line (2, 3) (a 2-sphere)": 133,
+  "cones (n, m, r)": 140
+ },
+ "seconds": 148.9
+}
