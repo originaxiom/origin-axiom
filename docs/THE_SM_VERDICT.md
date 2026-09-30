@@ -877,3 +877,16 @@ left it.
 >   or a link outside the rule's class.
 >
 > 0 of 19 (`frontier/B1503_the_apex_index_rule`).
+
+> **Currency note (2026-09-30, the negatives read together): what killed each step.**
+> - The chirality chain's 26 kill records are classified by what killed them:
+>   - a symmetry that acts on the options (8);
+>   - a closed structure's global identity (4);
+>   - the frame's own arithmetic (9);
+>   - a datum the ends need and the object does not supply (3);
+>   - two core forms.
+> - The reading: a symmetric structure cannot choose chirality's sign, a closed one has nothing to choose, and an open one carries the
+>   choice only as an input at its ends.
+> - The remainder is the sign (sL-3) and the number (sL-5). No value moves.
+>
+> 0 of 19 (`docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`).

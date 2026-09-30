@@ -10887,193 +10887,400 @@
  {
   "id": "B1361",
   "claim_killed": "THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1), an equilateral triangle), the only invariant E6 cubic among the three 27s is 27_1 27_2 27_3, so with the Higgs in the apex 27s every tree-level charged-fermion mass matrix is complex symmetric with zero diagonal -- B1273's texture from the flat classes, by a second route -- and with a neutral Higgs there is no tree-level Yukawa at all. B1273's bound is an identity: for every hollow complex symmetric 3x3 matrix e_2(MM^dagger) = (tr MM^dagger / 2)^2 (symbolic), hence sigma_1 = sigma_2 + sigma_3 exactly, refuted by m_3/(m_2+m_1) = 273, 50, 17 (low scale; 136, 43, 17 at B1273's). The diagonal source B1273 named is, in the design, the U(1)^2-breaking sector (Witten's axionic mass, the charged instantons): a Froggatt-Nielsen-like structure with the deck's charges, registered as L213 (vii). 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "symmetry-cannot-select (the two C-field U(1)s born with the apexes give the three 27s the charges (1,-2), (1,1), (-2,1), so 27_1 27_2 27_3 is the only invariant cubic: every tree-level mass matrix is hollow, and a hollow complex symmetric 3x3 matrix obeys sigma_1 = sigma_2 + sigma_3 identically, which the measured masses refute)",
+  "faces_consulted": [
+   "being",
+   "value"
+  ],
+  "fact_computed": true,
+  "hatch": "A diagonal source that breaks the apexes' U(1)^2 -- Witten's axionic mass or the charged instantons, a Froggatt-Nielsen-like structure with the deck's charges (L213 (vii)). Revive only with a computed U(1)^2-breaking amplitude on the object's apexes that fills the diagonal with a derived size.",
+  "priority": "P3",
+  "revival_score": 1,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1361_the_decks_texture/verification/decks_texture.py (the invariant-cubic enumeration and the symbolic hollow identity) (lock tests/test_b1361_the_decks_texture.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1363",
   "claim_killed": "THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu^3>>; the crystallographic five-term sequence with coinvariants Z/2 agrees), and Kac's classification of the order-3 inner automorphisms of E6 -- six classes with fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contains no Standard-Model commutant (nor do the eleven order-4 classes, single elements); so the descent's abelian Wilson lines cannot break E6 to SU(3) x SU(2) x U(1)^2, as the cover's cannot (B1277, B1300): L214 (i) negative for abelian lines on both levels of the Z/3; the non-abelian half registered. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "frame-arithmetic (H_1 of the descent S^3(4_1; 2pi/3) is Z/3, and Kac's six order-3 inner classes of E6 -- fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contain no Standard-Model commutant, nor do the eleven order-4 classes)",
+  "faces_consulted": [
+   "children",
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "Non-abelian Wilson lines on the descent (the half registered with L214), or a closing whose H_1 carries an order with a Standard-Model commutant in Kac's list; revive with an explicit flat E6 connection whose commutant is exactly SU(3) x SU(2) x U(1).",
+  "priority": "P3",
+  "revival_score": 1,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1363_the_descents_wilson_lines/verification/descent_lines.py (H_1 of the orbifold group and the Kac coordinates of every order-3 and order-4 class) (lock tests/test_b1363_the_descents_wilson_lines.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1365",
   "claim_killed": "THE BULK OF THE LINE: B1364's unbroken U(1)' is the Cartan direction gamma orthogonal to the Standard Model, to Y and to beta; its charges on the eleven field types of the 27 are B1283's (beta, gamma) table exactly and gamma = (2 sqrt 15 / 3) Q_eta -- the eta model, the U(1) of Witten's rank-5 Wilson-line breaking (B1283's Z' was this direction plus a family part; here it is family-universal, with ATLAS's m_{Z'_eta} > 4.5 TeV applying directly). The torus exp(u(1)^2) has twelve order-4 elements, four of which reach exactly the Standard Model, and all four square to one triplet-type involution; by Fox calculus on F(2,6) (controls: b_1 = 0, the three sign characters h^1 = 1, the twelve order-4 characters 0) the bulk H^1(Y_3; 78_rho) of every SM-reaching line is three neutral exactly-flat moduli (Ad rho_{Q_8}, W = kappa phi_1 phi_2 phi_3, three explicit families of flat connections) plus one vector-like colour-triplet pair (3,1)_{-1/3} + conj with no tree-level mass source -- never a doublet, and the (2,20) sector is empty. The D-term sign theorem: the only E6-charged SM singlets are the apex 27s' N and nu^c, both with gamma = -5/3, so no tree-level VEV breaks U(1)_eta above the soft scale; since U(1)_eta charges nu^c (unlike U(1)_N), the Majorana mass is forbidden, there is no seesaw, and B1276's one coupling ties L nu^c H_u to Q u^c H_u: the three-apex design predicts neutrinos at the up-quark masses and is excluded as it stands. Remedy registered as L215 (a 27-bar sector: nine apexes, or the tower's h^1 pairs on an E7/E8 locus). The deck test: all 288 combined lines differ from their deck images in the 27-character (no E6-conjugacy): the deck is broken by the line alone. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "frame-arithmetic (the D-term sign theorem: the only E6-charged Standard-Model singlets of the 27, N and nu^c, both carry gamma = -5/3, so no tree-level VEV breaks U(1)_eta, the Majorana mass is forbidden, and B1276's one coupling ties the neutrino Yukawa to the up-quark one)",
+  "faces_consulted": [
+   "being",
+   "children",
+   "value"
+  ],
+  "fact_computed": true,
+  "hatch": "A 27-bar sector that can break U(1)_eta at tree level (L215: nine apexes, or the tower's h^1 pairs on an E7 or E8 locus); revive with a derived 27-bar VEV that gives a Majorana mass and a seesaw scale.",
+  "priority": "P3",
+  "revival_score": 1,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1365_the_bulk_of_the_line/verification/bulk_of_the_line.py (the eta charge table, the 4-torsion census and the Fox-calculus bulk cohomology) (lock tests/test_b1365_the_bulk_of_the_line.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1367",
   "claim_killed": "THE DOUBLET-TRIPLET PINCER: in trinification form the E6 cubic det L + det Q + det Q^c + Tr(Q L Q^c) pairs N with (H_u, H_d) and with (D, Dbar), and nu^c with (L, H_u) and with (D, d^c), each pair with equal magnitude (one invariant each); with n copies of the 27 and any symmetric coupling tensor the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) are G x S_D and G x S_T with the same generation matrices, so light up-Higgs doublets = light exotic triplets in every vacuum where only N and nu^c take VEVs -- checked in 9 300 configurations (n = 3, 4, 6; fifteen coupling patterns including the deck's hollow one; every VEV support at n = 3): zero violations, and every vacuum with a light Higgs has at least one light D. A light D carries the cubic's diquark and leptoquark couplings (B1276 par. 3) and proton decay needs it above 1e15 GeV. Only E6-breaking couplings acting on the matter can split the blocks; point-localised 27s never see them (full 27s; holonomy factors act as one E6 element per 27; the U(1)^2-breaking sector is E6-neutral), so every apex design of the object is excluded, with or without 27-bars and whatever the line. Bulk matter can be split by a line (B1302) but is vector-like on closed closings (B1351): the one door is chiral bulk matter on the cusped object through its ends -- L216. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "symmetry-cannot-select (the E6 cubic in trinification form gives the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) the same generation matrices, so light up-type doublets equal light exotic triplets in every vacuum where only N and nu^c take VEVs; only E6-breaking couplings acting on the matter split them, and point-localised 27s never see those)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "Chiral bulk matter on the cusped object through its ends (L216, then sL-1 and the cusp-end chain B1368-B1503), or an E6-breaking coupling that acts on localised matter; revive only with a derived coupling of that kind at an apex.",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1367_the_doublet_triplet_pincer/verification/pincer.py (the Hessian mass matrices in 9 300 configurations) (lock tests/test_b1367_the_doublet_triplet_pincer.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1368",
   "claim_killed": "THE OBJECT'S OWN STANDARD-MODEL CONNECTIONS: a flat E6(C) connection of m004 leaving the Standard Model unbroken has its non-abelian part in SL(2)_beta and a character on (Y, gamma); every bulk sector is an SL(2)_beta spin times a character. Spin-0 sectors are cusp-fixed only when trivial and carry no chiral index for any flat connection; the 10 and the 5bar of SU(5) never share a spin (27: the 10 is spin 0, the 5bar spin 1/2; 78: the reverse), so in either matter frame one half of every generation is never chiral -- no chiral generation from bulk matter with the SM unbroken. For the geometric (Riley) representation the longitude lifts with trace -2 (Calegari; computed exactly), so rho(lambda) = -(unipotent) has no fixed vector and no spin-1/2 sector is cusp-fixed either: the only cusp-fixed non-trivial sector is the neutral SL(2)_beta adjoint (h^1 = 1). The object's twisted cohomology is golden: the Alexander polynomial z^2 - 3z + 1 (roots phi^{+-2}) and the geometric representation's twisted Alexander polynomial z^2 - 4z + 1 (roots 2 +- sqrt 3) give the non-unitary characters at which SM-charged bulk pairs become massless, vector-like, with a doublet-triplet split available on the object itself (B1302's mechanism). The lambda-parabolic points of the character variety are eight: the four SU(2) dihedral representations (unitary) and the four golden reducible points, where at most half a generation could be cusp-fixed. L216 closed in the seat's frame (B1351 (ii), whole-torus/annular conventions; the disc-convention adjudication is the bridge lane's): with B1351 and B1367 the E6 route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "frame-arithmetic (on m004 the Standard-Model-reaching flat E6 connections put SL(2)_beta spins on the sectors, and the 10 and the 5bar of SU(5) never share a spin -- in the 27 the 10 is spin 0 and the 5bar spin 1/2, in the 78 the reverse -- while spin-0 sectors are cusp-fixed only when trivial and the geometric longitude (trace -2) fixes no spin-1/2 vector: no chiral generation from bulk matter with the Standard Model unbroken)",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "A member with a free cusp, where a spin-0 sector can be cusp-fixed without being trivial (sL-1: B1369 onward), or a frame whose two halves share a spin (door 2: B1372). Both were taken; the first is the live chain.",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1368_the_objects_own_sm_connections/verification/sm_connections_of_m004.py (exact over Q(omega): the Riley representation, the sector decomposition, the (twisted) Alexander polynomials) (lock tests/test_b1368_the_objects_own_sm_connections.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1369",
   "claim_killed": "THE FAMILY IN THE STANDARD-MODEL FRAME (sL-1, first arc): on a member of the figure-eight's commensurability class, a chiral generation from bulk matter with the Standard Model unbroken needs a FREE CUSP -- a cusp whose peripheral image in H_1(M; Q) has rank below b_1 -- because a spin-0 sector cusp-fixed on a cusp of full peripheral rank has a character of finite order, no Higgs field and no index, and the two halves of a generation never share a spin (B1368). 77 of B1186's 112 members have no free cusp (all 54 one-cusped members with b_1 = 1; 23 multi-cusped members with every peripheral rank equal to b_1, the two-cusped siblings m202 and s959 among them): closed for every flat connection. The 35 members with a free cusp carry 83 of them; the region-swap parity, run with the isometries' exact action on H_1 (the combinatorial automorphisms of the canonical retriangulation -- a new instrument, self-tested against SnapPy's isometry counts, b_1, peripheral ranks and cusp maps) and with fc R71's lemma in its general form (the torus action need not be -1: any isometry fixing the cusp and negating every free class swaps the two regions), closes 79 of the 83 (75 by an isometry acting on the torus by +-I, 4 by orientation-reversing isometries). Four cusps on four members remain -- o10_150688, o10_150708 (cusp 0), o10_150716, o10_150725 (cusp 1) -- where every isometry fixing the cusp acts by +1 on some free class and the partition itself must be computed; each has a unique shortest cusp mode. 108 of 112 members closed in the seat's frame; the residual is named as sL-1's remaining work. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "symmetry-cannot-select (the region-swap parity: on 79 of the 83 free cusps of B1186's family an isometry fixing the cusp negates every free class, so the two regions swap and N = 0 -- after a rank closure: 77 of 112 members have no free cusp, and a spin-0 sector cusp-fixed on a cusp of full peripheral rank has a finite-order character, no Higgs field and no index)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "The four residual cusps (o10_150688, o10_150708 cusp 0, o10_150716, o10_150725 cusp 1), where every fixing isometry keeps some free class, and covers of the class where no isometry negates the class (B1370, then B1385-B1387's Eisenstein route to cube~3.24, whose count B1388 found cut-dependent).",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1369_the_siblings_in_the_sm_frame/verification/siblings_in_the_sm_frame.py (with family_isometries.py: the isometries' exact action on H_1, self-tested by controls.py) (lock tests/test_b1369_the_siblings_in_the_sm_frame.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1372",
   "claim_killed": "THE DOUBLET HALVES (door 2): the third reading of a Standard-Model generation -- the 10 from the 78's SL(2)_beta doublets and the 5bar from the 27's, both halves carried by the non-abelian part of the flat E6(C) connection rather than by a character -- is closed by charge arithmetic at the cusp. A doublet sector is cusp-fixed when a joint eigenvector of the peripheral holonomy has total holonomy 1, so its character must equal an eigenvalue of rho(p)^{-+1}. Theorem B: with a non-unitary peripheral eigenvalue, the 10 of the 78 (gamma = 1, three Y-types) forces Im s = 0 and Im t = +-L while the 5bar of the 27 (gamma = 1/3) forces Im t = +-3L -- never both (0 of 32 sign patterns). Theorem C: with a unitary eigenvalue e^{2 pi i theta} the fifteen congruences have solutions only for theta in (1/4)Z, and at theta = +-1/4 the eigenvector choices are never uniform (Theorem C'): the 10 against the 5bar, or {Q, d^c} against {u^c, e^c, L}, so wherever the abelian Higgs field vanishes the pieces have opposite chirality. Parabolic cusp holonomy (the hyperbolic structure itself, on every member) and central holonomy make every doublet sector vector-like outright (Lemmas A, D). On m004 the order-4 points of the character variety are the four SU(2) dihedral representations (Riley's form, full relator check, an invariant definite Hermitian form): unitary, no Higgs field. Door 2 is closed on m004 and on the 77 members without a free cusp; it survives only at order-4 points with non-unitary global holonomy on the 35 free-cusp members, where the abelian Higgs field could reorder the partitions -- character-variety data the record does not have. The mixed frame itself (the 27 and the 78 both as bulk matter) is a reading the record had not adopted; it is closed regardless. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "frame-arithmetic (charge arithmetic at the cusp: with a non-unitary peripheral eigenvalue the 10 of the 78 forces Im t = +-L and the 5bar of the 27 forces Im t = +-3L, never both (0 of 32 sign patterns); with a unitary one only theta in Z/4 solves, with opposite chirality for the two halves; parabolic and central cusp holonomy make every doublet sector vector-like)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "Order-4 points of a free-cusp member's character variety with non-unitary global holonomy (Theorem C's residual). B1373 walked the real geometric path and found none; points off that path and other components need A-polynomials or full Ptolemy solutions.",
+  "priority": "P3",
+  "revival_score": 1,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1372_the_doublet_halves/verification/doublet_halves.py (the 32 sign patterns, the congruences of Theorem C, the dihedral representations of m004) (lock tests/test_b1372_the_doublet_halves.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1373",
   "claim_killed": "THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "sm-branch-2026-09-26-catchup"
+  "kill_form": "absence-at-depth (along the real cone-manifold path of every free cusp of the 35 candidates, wherever one curve reaches eigenvalue +-i the other is non-unitary (132 of 166 pairs), so B1372's Theorem B forbids both halves; the other 34 pairs degenerate before the point)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Deepen off the searched path: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (beyond the Ptolemy database).",
+  "priority": "P3",
+  "revival_score": 2,
+  "note": "ROUTED by the 2026-09-26 negative-routing catch-up on the SM-derivation branch (the whole-suite fast lane's test_b833 found these eight of this seat's NEGATIVE-verdict arcs unrouted), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1373_the_order_4_points_on_the_geometric_components/verification/order4_points.py (the continuation to the (2,0) and (0,2) points on every free cusp) (lock tests/test_b1373_the_order_4_points_on_the_geometric_components.py).",
+  "routed_from": "sm-branch-2026-09-26-catchup",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1388",
   "claim_killed": "THE CUTOFF TEST (kill test 1 on the chirality mechanism; sealed at 68c1b809 before computing, prior STABLE ~55%): UNSTABLE, so NEGATIVE as sealed for the physical reading of B1386/B1387. The seat's count on cube~3.24 (the relative index -chi(d+M_T), d+ = {dF/dh > 0} on the cut) moves with the cut: at both Eisenstein cusps chi = +4, +8, +2, -1 on the sealed grid as the cut rises through the embedded region (first changes bisected at tau = 0.0986, 0.1053, 0.1867; stable from mode cut-off 14 to 20; cusp 3 reproduces cusp 0 to 1e-4, the swap unimposed); cusps 1, 2 annular (cusp 2's high transition a killed shell's residue). A finer post-seal scan adds a +7 plateau on (0.0986, 0.1034). Admissible single-cusp cuts give N = -1, -7, -6 or -3 instead of +2. POST-SEAL ANATOMY (unsealed, computed): (i) Morse's boundary formula gives the signed Higgs-zero count of M_T exactly from the cut; it agrees with the relative index far up the cusps, so B1387's N = +2 is minus the signed number of Higgs zeros on the complete manifold (Theorem A, proved); (ii) the three bisected transitions are tangencies of the Higgs field with the cut, not zeros (|grad_x F| = 0.11-0.44 of max there), while at the zeros on the rotation axes tangency and zero coincide and both counts move; (iii) v+'s Higgs field has six zeros in the Eisenstein regions, all equidistant from cusps 0 and 3: three at the midpoints of the rotation axes (tau 0.1034; +1, -1, +1) and an R-orbit of three (index -1) exactly where the two cusp neighbourhoods, grown together, first touch (volume 9 sqrt3, tau_joint = 0.1790950; offset 6e-8 at K_n 20; not forced by Isom = D3, open); they sum to -N; (iv) so on every admissible cut respecting the isometries (cusps 0, 3 cut equally, >= tau_joint) no zero is lost and the zero count is +2, while the relative index is -4 on [0.1791, 0.1867); asymmetric cuts move both. Which count is physical, and whether the completion respects the symmetry, is registered as sL-8 (not decided by which survives). Mathematics of B1386/B1387 stands; sL-6/sL-7 physical readings withdrawn. No physics crossed. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time's follow-up (2026-09-27): the whole-suite fast lane on fefb938a found B1388 (NEGATIVE as sealed: the physical reading of B1386/B1387's chirality retired because the seat's finite-cut count moves with the cusp cut) absent from the kill graph. Routed in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed asserts the kill's discriminating computation is in the repository and must be set by the provenance pass, not mechanically. The arc's post-seal anatomy (the Higgs-zero count, the zeros on the Eisenstein bisector) is recorded in its FINDINGS as unsealed computation; it does not revive the killed reading.",
-  "routed_from": "sm-branch-2026-09-27-banking"
+  "kill_form": "end-datum-input (the relative index at a cut moves with the cut -- +4, +8, +2, -1 up the Eisenstein cusps -- because it sees the cut through tangencies; the asymptotic +2 is minus the signed number of Higgs zeros, and which count is physical is a statement about the completion of the free cusps, which the object does not supply)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "An end law derived from one action (sL-8): which count the physics uses (the index at a cut or the zeros) and which completion. A completion that respects the isometries keeps the zero count at +2 on symmetric cuts, so revive only with that completion derived, not chosen.",
+  "priority": "P1",
+  "revival_score": 3,
+  "note": "ROUTED at banking time's follow-up (2026-09-27): the whole-suite fast lane on fefb938a found B1388 (NEGATIVE as sealed: the physical reading of B1386/B1387's chirality retired because the seat's finite-cut count moves with the cusp cut) absent from the kill graph. Routed in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1388_the_cutoff_test/verification/cutoff_test.py (the sealed grid; fine_scan.py, higgs_zeros.py and cutoff_checks.py for the post-seal anatomy) (lock tests/test_b1388_the_cutoff_test.py). The arc's post-seal anatomy (the Higgs-zero count, the zeros on the Eisenstein bisector) is recorded in its FINDINGS as unsealed computation; it does not revive the killed reading.",
+  "routed_from": "sm-branch-2026-09-27-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1391",
   "claim_killed": "THE YUKAWA TEST AT THE LEVEL OF SYMMETRY (kill test 4 on the chirality mechanism, structural; not sealed because banked theorems decide it): the Yukawa hierarchy is not an output of the frame's symmetric geometry. The generations carry the isometries' action with Lefschetz characters L(g) = chi(Fix g, Fix g n d+) at an invariant cut. On cube~3.24 L(e) = 2, L(R) = 3 - 4 = -1 (3 fixed arcs; each disc d- at the Eisenstein cusps holds one of R's fixed points), L(swap) = 4 - 4 = 0 (4 fixed arcs; an annulus involution fixes 0 or 2), so the two generations are D3's doublet E; with a Higgs in a one-dimensional representation the covariant Yukawas are [[0, y], [+-y, 0]], degenerate, and a Higgs in E splits them only on a vacuum breaking D3 completely. The pullback three (Z/3's regular representation, B1390) has a degenerate up-type pair for a Higgs of every definite charge (B1362's circulant), or S3's 2 + 1 with a deck-inverting isometry. The geometry supplies a flavour group, not the ratios. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time (2026-09-27), in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading: a member whose generations carry distinct one-dimensional characters with a Higgs sector that allows a full-rank non-degenerate covariant texture, or a derived symmetry-breaking vacuum with its size.",
-  "routed_from": "sm-branch-2026-09-27-banking"
+  "kill_form": "symmetry-cannot-select (the isometries act on the generations with Lefschetz characters L(e) = 2, L(R) = -1, L(swap) = 0 on cube~3.24, the doublet of D3, so every D3-covariant Yukawa texture is degenerate at the symmetric point; the pullback three is Z/3's regular representation, with B1362's circulant degeneracy)",
+  "faces_consulted": [
+   "being",
+   "value"
+  ],
+  "fact_computed": true,
+  "hatch": "A member whose generations carry distinct one-dimensional characters, with a Higgs sector that allows a full-rank non-degenerate covariant texture; or a derived symmetry-breaking vacuum with its size (the hierarchy is D3 breaking).",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "ROUTED at banking time (2026-09-27), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1391_the_generations_flavour/verification/flavour.py (the equivariant index at an invariant cut and the covariant textures) (lock tests/test_b1391_the_generations_flavour.py).",
+  "routed_from": "sm-branch-2026-09-27-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1397",
   "claim_killed": "THE CAP'S GENERATIONS (after B1396; B1395's one finite-energy charge-odd datum is a flux on a capped cusp torus, and B1389's third job is the frame's anomaly): on a capped cusp torus carrying a U(1) flux F of degree n, every charged sector mu has net chirality <F, mu> n (Riemann-Roch on the torus; SL(2)_beta doublets count, rank 2), so the cap's spectrum is LINEAR in the charges where the frame's bulk rule was sign(<H, mu>) N. E6, E7 and E8 have no independent quartic Casimir, so every Standard-Model anomaly of a linear spectrum is proportional to tr(F Y): the cap is anomaly-free exactly when F is orthogonal to hypercharge (otherwise the X,Y partners are chiral), it cannot cancel B1389's anomaly, and a capped completion must replace the frame's count. With F orthogonal to Y (F commutes with SL(2)_beta's parabolic cusp holonomy and the SM: F in span(gamma), plus E7's t, plus E8's SU(3) Cartan) the net generations are g = 2dn (F78), -2dn/3 with dn in 3Z (F27), 4dn/3 (F27+78): EVEN in every E6 frame, so three generations cannot come from flux caps in the record's own frame; g = (4d/3 + e) n, every integer, in the E7 frame (n chiral 27s along t: three is the flux degree, an input); g = 0 in the E8 frame. Under B1396's continuity at a rotated cusp every flux degree is a multiple of 3 (E7: g in 3Z, smallest three). Verified exactly with B1389's vectors: 625 flux directions x 3 degrees = 1875 rows, 0 failures (anomaly-free iff F orthogonal to Y; the hand formula for g; no exotic at F orthogonal to Y). Not sealed (derived by hand, then a probe, then the instrument). Standard rules (flux-induced chirality, anomaly freedom without quartic Casimirs, E7 > E6 x U(1)); the parity reading for the seat's E6 frame is this branch's. SCOPE, the same day (E65 instance, self-caught): for a U(1) bundle over the truncated manifold the degrees on the cusp tori sum to zero (the pair's exact sequence; Stokes), so caps carrying one bulk flux give zero net chirality in total in every frame, and m004's single cusp carries no bulk flux; a non-zero total needs a bulk that does not reduce to the flux's U(1) everywhere (monopole points, or non-abelian T-brane data) or caps whose fields are independent of the bulk; the per-cap statements stand, the E6 statement is stronger (zero with bulk flux, even otherwise), and the E7 reading needs a source for its flux, whose natural candidates in the frame (t-direction Higgs zeros) carry B1389's anomalous F133 count. No physics crossed. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time (2026-09-28, with the same-day scope of §7), in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading (three generations from flux caps in the E6 frame): a cap whose chirality is not linear in the charges yet anomaly-free, or a net flux sourced without the frame's anomalous count -- for example non-abelian T-brane Higgs data at the cusps, or caps carrying fields independent of the bulk in a frame with E7's U(1).",
-  "routed_from": "sm-branch-2026-09-28-banking"
+  "kill_form": "frame-arithmetic (a flux cap's chirality is <F, mu> n, linear in the charges; E6, E7 and E8 have no independent quartic Casimir, so it is anomaly-free exactly for F orthogonal to Y, and then the net generations are even in every E6 frame (2dn, -2dn/3, 4dn/3) and zero in E8 -- with a closed-sum-zero scope, section 7: for one bulk U(1) the cap degrees sum to zero by Stokes)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "A cap whose chirality is not linear in the charges yet anomaly-free, or a net flux sourced without the frame's anomalous count -- non-abelian T-brane Higgs data at the cusps, monopole points, or caps carrying fields independent of the bulk in a frame with E7's U(1)_t (there three is the flux degree, an input).",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "ROUTED at banking time (2026-09-28, with the same-day scope of §7), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1397_the_caps_generations/verification/cap_generations.py (625 flux directions x 3 degrees with B1389's vectors) (lock tests/test_b1397_the_caps_generations.py).",
+  "routed_from": "sm-branch-2026-09-28-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1398",
   "claim_killed": "THE FRAME'S VERDICT ON THREE (the owner's goal, 2026-09-28): in the seat's frame -- 7d E6 super-Yang-Mills on m004's class, SL(2)_beta's geometric representation, an abelian Higgs field phi = Y (x) w1 + gamma (x) w2 of any rank -- no completion on the record's menu (the frame's rule: free-cusp ends, flip walls, the lane's sources, Higgs zeros; caps; charge-blind ends and fillings; any combination) gives an anomaly-free chiral spectrum with three generations. (1) Every 10-type weight of the 78 is an SL(2)_beta doublet (40 of 40), and the frame's rule gives doublets 0 (B1372 Lemma A), so the frame's count never contains a 10. (2) The 78's spin-0 non-SM sectors form three (Y, gamma)-direction classes and the anomaly matrix has rank 3: for any odd count function N (any rank) the frame's count is anomaly-free only if zero. (3) Caps give 10s in pairs (two generations per unit gamma-flux). (4) Every combination of frame-rule counts and caps with flux cY + d gamma that is exotic-free and anomaly-free has c = 0, frame-rule counts zero and g = 2d: even, and zero for a bulk flux (B1397 section 7). The escape, located: with 27 matter (F27+78; the E7 frame with the Higgs in the (Y, gamma) plane) the frame's rule has six direction classes (parallels Q(27) || H_u(78), D(27) || L(78)), the anomaly matrix rank 5, and exactly one anomaly-free family, g complete generations with N = (3, 0, -3, 0, 3, -6) at g = 3 on the classes ((1,-4), (1,0), (1,1), (1,6), (3,-2), (3,8)); it takes two absolute values, so no rank-one Higgs gives it. The smallest escape is therefore 27 matter with a rank-two abelian Higgs (the other escapes need 27 matter too, plus non-abelian data or independent walls); its test is B1399, sealed. Exact, with the record's vectors; the content taken linearly in rational counts (a truncation bug caught before use). No physics crossed. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time (2026-09-28), in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading (three generations in the seat's own frame): a completion outside the record's menu, or a count rule that makes SL(2)_beta doublets chiral (B1372's door 2); within the menu, the escape is 27 matter with a rank-two abelian Higgs field, tested by B1399.",
-  "routed_from": "sm-branch-2026-09-28-banking"
+  "kill_form": "frame-arithmetic (every 10-type weight of the 78 is an SL(2)_beta doublet, 40 of 40, which the frame's rule never makes chiral; the three (Y, gamma)-direction classes of the 78's spin-0 sectors have an anomaly matrix of rank 3, so the frame's count is anomaly-free only when it is zero; caps give 10s in pairs)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "A completion outside the record's menu, or a count rule that makes SL(2)_beta doublets chiral (B1372's door 2); within the menu, 27 matter with a rank-two abelian Higgs field, the one anomaly-free exotic-free family g(1, 0, -1, 0, 1, -2) -- run as B1399, NONE on the 102 resolved members.",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "ROUTED at banking time (2026-09-28), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1398_the_frame_verdict_on_three/verification/frame_verdict.py (exact linear algebra on the record's E6 vectors) (lock tests/test_b1398_the_frame_verdict_on_three.py).",
+  "routed_from": "sm-branch-2026-09-28-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1399",
   "claim_killed": "THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time (2026-09-29), in B836's form; the judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading (three generations from a rank-two abelian Higgs with 27 matter in the seat's frame): a member whose count-carrying cusps give odd terms -- hexagonal cusps leading with their first shell (index 1) or shells of odd index -- with enough of them to reach |C| = 6 over at least 36 breakpoints; the four unresolved four-cusped members (two hexagonal cusps each) once an exact treatment of hexagonal shells decides them, cube~3.24's covers, or larger covers. Outside the frame: B1372's door 2, independent walls, sL-4.",
-  "routed_from": "sm-branch-2026-09-29-banking"
+  "kill_form": "frame-arithmetic (lattice parity: a leading shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m; 204 of the 207 resolved cusps lead with a one-direction band and 3 with an index-2 shell, so every resolved count is even and |C| <= 2)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "A member whose count-carrying cusps give odd terms -- hexagonal cusps leading with their first shell (index 1) or shells of odd index -- with enough of them to reach |C| = 6 over at least 36 breakpoints: the four unresolved four-cusped members once an exact treatment of hexagonal shells decides them, cube~3.24's covers, or larger covers. Outside the frame: B1372's door 2, independent walls, sL-4.",
+  "priority": "P1",
+  "revival_score": 3,
+  "note": "ROUTED at banking time (2026-09-29), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1399_the_rank_two_higgs/verification/rank_two_higgs.py (the sealed census; breakpoint_check.py and post_run_checks.py for the read-out) (lock tests/test_b1399_the_rank_two_higgs.py).",
+  "routed_from": "sm-branch-2026-09-29-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1501",
   "claim_killed": "THE TORUS-LINK CENSUS, run as sealed (d780b639; the owner's go; after B1500): in the simplest G2 cone singularities -- cones over the four homogeneous nearly Kaehler 6-manifolds S^6, S^3 x S^3, CP^3 and F_{1,2}, modulo finite groups of their listed automorphisms (left translations; sigma^{+-1} on S^3 x S^3; the 3-cycle's right action on F_{1,2}) -- an ADE locus that is a cone over a torus is always A-type and the torus always hexagonal: P1 YES and P2 YES (priors ~90%, ~80%). Census: all 694 automorphism classes of order <= 12; fixed sets by damped Newton from 400 seeds; components by minimising the distance over C(gamma)^0 (1e-6); dimensions at three points; topology from the centraliser orbit; period lattices; full pointwise stabilisers and their normal action. Exactly two kinds of torus: (i) S^3 x S^3, the left translations L_(q,q,q) (23 classes, orders 2-12) fix U(1)^3/U(1), Gram [[2/3, -1/3], [-1/3, 2/3]] (2 pi)^2, pointwise stabiliser the diagonal U(1) and nothing else, so every finite quotient gives A_{n-1}; (ii) F_{1,2}, gamma = L_{diag(1,w,w^2)} R_P and its square (order 3) fix Kostant's Coxeter torus, period lattice the coweight lattice (index 3), Gram [[1/3, -1/6], [-1/6, 1/3]], H_F = <gamma> = Z/3 acting on the normal plane by (w, w^2): A2 (SU(3)). P3: S^6 and CP^3 give points and spheres only (the lemma proved at seal, checked on the census's own elements); F_{1,2} carries one torus locus per generator of its Z/3 (prior ~70%). Every torus hexagonal, tau = e^{2 pi i/3} to 1e-15. For the frame: E6 cannot end unbroken on such a point (near it the group is SU(n) or SU(3)); only hexagonal cusps match these cones under the prereg's conformal reading -- not m004's own cusp (2 sqrt-3); B1399's odd counts are also possible only at hexagonal cusps. Banked identity first (the J-checks of all four structures, S^6 against the octonion cross product, B1500's S^3 x S^3 torus on an order-13 control). Post-run: the fixed sets of all 694 classes against independent criteria; chi(Fix) = the Lefschetz number on all 694 (chi(Y) for left translations; L(sigma) = 3; L(R_P) = 0); the F_{1,2} torus in closed form; the torus classes and a sample re-run in a fresh process. Two instrument slips self-caught before any census number (E52 instance). Not computed: the chirality at such a point (B1500's choice), non-homogeneous links, automorphisms outside the sealed list. Standard ingredients (Gray, Butruille, Hopf-Samelson, Kostant, McKay); no novelty claimed. No physics crossed. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time (2026-09-29), in B836's form; the arc is PROVED (the census) and what it kills is a reading: that the frame's E6 locus can end unbroken on a cone point along a torus in the simplest G2 cones, and that m004's own cusp can be completed by them. The judgement fields are DELIBERATELY UNSET, as for this seat's earlier routings -- fact_computed must be set by the provenance pass, not mechanically. What would revive the killed reading: a G2 cone outside the census (non-homogeneous nearly Kaehler links, asymptotically conical models, automorphisms outside the sealed list) with a D- or E-type locus coned over a torus, or a non-hexagonal torus locus; or a completion of the cusp that is not conformal to the cone.",
-  "routed_from": "sm-branch-2026-09-29-banking"
+  "kill_form": "no-landing-site (in the cones over the four homogeneous nearly Kaehler 6-manifolds modulo their listed finite automorphisms, a torus-linked ADE locus is always A-type -- SU(n) over S^3 x S^3's diagonal torus or SU(3) over the flag manifold's Coxeter torus -- and always hexagonal: E6 cannot end unbroken at such a point, and m004's own cusp (shape 2 sqrt-3) matches none)",
+  "faces_consulted": [
+   "none"
+  ],
+  "fact_computed": true,
+  "hatch": "A G2 cone outside the census (non-homogeneous nearly Kaehler links, asymptotically conical models, automorphisms outside the sealed list) with a D- or E-type locus coned over a torus, or a non-hexagonal torus locus; or a completion of the cusp that is not conformal to the cone.",
+  "priority": "P3",
+  "revival_score": 1,
+  "note": "ROUTED at banking time (2026-09-29), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1501_the_torus_link_census/verification/torus_link_census.py (the sealed census of 694 classes; post_run_checks.py) (lock tests/test_b1501_the_torus_link_census.py). What it kills is a reading: that the frame's E6 locus can end unbroken on a cone point along a torus in the simplest G2 cones, and that m004's own cusp can be completed by them.",
+  "routed_from": "sm-branch-2026-09-29-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1502",
   "claim_killed": "THE LOCAL MODELS' CHIRALITY (after B1501; the owner's go on the next step): B1501's two torus models force no chirality at a cusp point. For every finite quotient C(Y)/Gamma of the cones over the four homogeneous nearly Kaehler 6-manifolds that has a torus-linked ADE locus: (a) H^2(Y/Gamma; Q) = H^4(Y/Gamma; Q) = 0 -- no C-field U(1) and no rational flux at the apex (S^3 x S^3 has H^2 = H^4 = 0; on F_{1,2} every torus-fixing element is L_a R_P^{+-1}, and R_P acts on H^2 and H^4 as the Weyl group's reflection representation, trace -1, no invariants); (b) the torus link is null-homologous (S^3 x S^3 has H_2 = 0; the Coxeter torus is an orbit of the maximal torus, which fixes the six Weyl points); (c) so the mixed half of the anomaly criterion (B1353, B1360; Witten; Acharya-Witten: chiral fermions at a conical point are charged under a C-field U(1) whose mixed anomaly with the ADE group forces and detects them) forces nothing at the apex; (f) nor does the cubic half, for SU(N) loci (Witten hep-th/0108165 (3.5)-(3.8); section 5, added the same day after a self-caught gap, an E71 instance): the SU(N)^3 anomaly forced at P is n_P = deg(L|_F), L the U(1) twist of the locus's normal space, and n_P = 0 because a torus commuting with Gamma acts transitively on F (T^3 on S^3 x S^3's diagonal torus, SU(3)'s maximal torus on the Coxeter torus), so L is a homogeneous line bundle over a torus, hence trivial; verified as the lattice Chern number of the zeta-eigenbundle of d gamma on the normal bundle (deg L = (N/2) c_1(E_zeta)), 0 on all 24 torus classes of B1501's census with N >= 3 on two grids, against a Qi-Wu-Zhang control (+-1, 0) -- any content at the apex is anomaly-free on its own; (d) M1 = C(S^3 x S^3)/Gamma, Gamma in the diagonal U(1): its three Bryant-Salamon smoothings X_k = S^3 x H (SU(2)^3 by (a_i q a_j^-1, a_k p a_j^-1)) are equivariant, and in each the fixed set of (t, t, t) is S^1 x C, the Dehn filling of the cone over the torus along e_k, a shortest vector (norm 2/3 (2 pi)^2, an A2 root), the three phases filling the three roots -- so in a smooth phase the cusp point is a filling and contributes 0 (B1351; B1500's Lagrangian line is the slope); (e) M2 = C(F_{1,2})/<gamma>: R_P permutes the three U(2) containing T, so no torus-fixing element acts on any Bryant-Salamon smoothing (T < U(2)_j < SU(3)); M2 has no smooth phase, a rigid apex with no inflow datum. Verified with own code: relative Lie algebra cohomology H*(g, k) of all four links (Betti numbers as expected, d^2 = 0 to 1e-15), the outer elements' traces (sigma on H^3(S^3 x S^3) -1, giving L(sigma) = 3 as in B1501; R_P, R_P^2 on H^2, H^4 of F_{1,2} -1, no invariants), the Weyl points fixed to 1e-16, M1's fixed sets by Newton (197-200 of 200 seeds, off-diagonal parts < 1e-30, tangent dimension 3) and orbit types, the U(2)_j permutation; and where the choice lives at a cone point: under the geometric representation's cusp holonomy (meridian z [[1,1],[0,1]], longitude -[[1, 2 sqrt3 i],[0,1]]) the SL(2)_beta doublet sectors have acyclic link cohomology for every z (B1368, B1372's Lemma A), so they carry no choice, and the choice lives only on spin-0 sectors with trivial cusp character (H* = (1, 2, 1)), the sectors that carry the frame's count; SL(2)_beta data are charge-blind there, so a charge-odd choice needs data charged under the frame's U(1)s (the audit lane's R35 caution on T-branes). Not settled: M2's apex content (anomaly-free if any), torsion data, models outside the census. PROVED, not sealed: decided at design time (B1396's precedent). Standard ingredients (Bryant-Salamon, Atiyah-Witten, Witten, Acharya-Witten, Chevalley-Eilenberg, Borel, Fukui-Hatsugai-Suzuki); no novelty claimed. No physics crossed. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time (2026-09-29), in B836's form; the arc is PROVED and what it kills is a reading: that the simplest G2 cone models of a cusp point (B1501's torus models) supply the end law's chirality. The judgement fields are DELIBERATELY UNSET -- fact_computed must be set by the provenance pass, not mechanically. What would revive it: a local model whose torus link is homologically non-trivial and pairs with a C-field U(1) (not an orbit of a torus action with a fixed point); torsion data at the apex that fixes a chirality; or non-abelian data on the locus near the cusp point that makes the choice charge-odd; or a locus whose normal U(1) twist has non-zero degree on the torus link (Witten's cubic SU(N)^3 inflow; zero in both models, B1502 section 5).",
-  "routed_from": "sm-branch-2026-09-29-banking"
+  "kill_form": "closed-sum-zero (whenever these cones carry a torus-linked locus, the link's rational H^2 and H^4 vanish (no C-field U(1), no flux), the torus is null-homologous, and a homogeneous line bundle over a torus is trivial, so deg L = 0: neither the mixed nor the cubic inflow has anything to act on, and the smooth phases are Dehn fillings)",
+  "faces_consulted": [
+   "none"
+  ],
+  "fact_computed": true,
+  "hatch": "A local model whose torus link is homologically non-trivial and pairs with a C-field U(1); torsion data at the apex that fixes a chirality; non-abelian data on the locus that makes the choice charge-odd; or a normal U(1) twist of non-zero degree over the torus link (Witten's cubic inflow). B1503 then showed a lone locus forces nothing on any finite quotient of a smooth nearly Kaehler manifold.",
+  "priority": "P2",
+  "revival_score": 2,
+  "note": "ROUTED at banking time (2026-09-29), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1502_the_local_models_chirality/verification/local_models_chirality.py (relative Lie algebra cohomology of the links) and cubic_inflow.py (the lattice Chern numbers) (lock tests/test_b1502_the_local_models_chirality.py). What it kills is a reading: that the simplest G2 cone models of a cusp point (B1501's torus models) supply the end law's chirality.",
+  "routed_from": "sm-branch-2026-09-29-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
  },
  {
   "id": "B1503",
   "claim_killed": "THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma of finite order of the SU(3)-structure, sum over isolated fixed points of prod_j (1 - e^{-i theta_j})^{-1} + sum over fixed J-holomorphic curves of (i/8) cot(theta/2) sin^{-2}(theta/2) (d_1 - d_2) = 0 (theta_j the J-angles of d gamma; e^{+-i theta} the normal eigenvalues of a curve, d_1, d_2 the degrees of its normal J-eigenlines), because the link is spin with positive scalar curvature (Lichnerowicz: the Dirac index vanishes for every lift) and Atiyah-Singer's Lefschetz formula in Todd form gives these terms (the chi(C) terms cancel since c_1 = 0). Each curve enters through Witten's cubic inflow n = (N/2)(d_1 - d_2) (N the transverse order). Consequences: (C1) a lone locus forces nothing, on every finite quotient of a smooth compact nearly Kaehler manifold (not beyond: Witten's cone over WCP^3_{N,N,1,1}, whose link is not such a quotient, has a lone SU(N) locus with n = 1 -- C4, section 6); (C2) a cusp point is chiral through the cubic half only where its locus meets another locus or isolated fixed point of the same symmetry (else only the mixed half, needing [F] != 0 and a C-field U(1)); (C3) order two gives no condition. Run as sealed (seal af568744, sha256 d4260750..., instrument fafbf975) on B1501's 694 classes: components identical to the census on all 694; the rule holds on all 306 with fixed points (worst |S| 1.2e-13); 222 fixed spheres with integral degrees, isotropy weights = lattice Chern numbers on both grids; 9 curves with normal angle pi. Decided at design time and confirmed: D1 S^6's single spheres Delta = 0; D2 the 25 torus classes n = 0 (B1502 re-derived without homogeneity); D3 S^3 x S^3's 3-symmetry: the point e Delta with angles (2pi/3)^3, term -i/(3 sqrt 3), and a sphere (0, -2), an SU(3) locus with n = 3 (sigma^2: -3) balanced by the isolated point. Sealed predictions all YES: P1 CP^3's 22 two-sphere classes of order >= 3 pair at one angle with n = +-N, N = 3..12 (~65%); P2 CP^3's 22 one-sphere classes n = 0, the points cancelling (~75%); P3 F_{1,2}'s 132 spheres n = 0 (~80%); P4 forced inflow only on CP^3 (22 classes, largest |n| 12) and S^3 x S^3 (sigma, sigma^2; the only classes balancing a curve against points); none on S^6, F_{1,2} or any torus. Not settled: what the 3-symmetry's isolated point carries physically; links outside the census (Foscolo-Haskins' S^6 carries the linear SU(2) x SU(2) action of the round S^6, whose elements fix only spheres, so it gives no torus locus -- section 6 withdrew the pointer; their S^3 x S^3, extra discrete automorphisms and orbifold links that are not global quotients remain); torsion. Standard ingredients (Atiyah-Singer, Lichnerowicz, Witten, Acharya-Witten, Fukui-Hatsugai-Suzuki); no novelty claimed. No physics crossed. 0 of 19.",
-  "kill_form": "unrouted-unclassified",
-  "faces_consulted": [],
-  "fact_computed": null,
-  "hatch": null,
-  "priority": "UNTRIAGED",
-  "revival_score": null,
-  "note": "ROUTED at banking time (2026-09-30), in B836's form; the arc is PROVED and what it kills is a reading: that a single A-type locus through a G2 cone point over a finite quotient of a nearly Kaehler manifold -- in particular a cusp point's torus locus -- could carry a forced cubic inflow by itself. The judgement fields are DELIBERATELY UNSET -- fact_computed must be set by the provenance pass, not mechanically. What would revive it: a link that is not a global quotient of a smooth nearly Kaehler manifold (the rule uses the smooth cover's Dirac operator); a partner locus or isolated fixed point of the same symmetry at the cusp point (then the rule fixes the torus's inflow by the partners, and it may be non-zero); or the mixed half with a homologically non-trivial torus.",
-  "routed_from": "sm-branch-2026-09-30-banking"
+  "kill_form": "closed-sum-zero (the link is spin with positive scalar curvature, so its Dirac index vanishes for every lift (Lichnerowicz), and the Atiyah-Singer Lefschetz formula makes the forced inflows of one symmetry's fixed loci and points sum to zero: a lone locus forces nothing)",
+  "faces_consulted": [
+   "none"
+  ],
+  "fact_computed": true,
+  "hatch": "A link that is not a global quotient of a smooth nearly Kaehler manifold (the rule uses the smooth cover's Dirac operator; Witten's cone over WCP^3_{N,N,1,1} has a lone chiral locus); a partner locus or isolated fixed point of the same symmetry at the cusp point (then the partners fix the torus's inflow, possibly non-zero); or the mixed half with a homologically non-trivial torus.",
+  "priority": "P1",
+  "revival_score": 3,
+  "note": "ROUTED at banking time (2026-09-30), in B836's form. CLASSIFIED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification), the provenance pass this record's routing asked for. The placeholder routing was an E45 instance: B1207's A3 made 'routed means routed WITH content' the house standard on 2026-08-29. fact_computed = true: the discriminating computation is frontier/B1503_the_apex_index_rule/verification/apex_index_rule.py (the sealed run on 306 classes) (lock tests/test_b1503_the_apex_index_rule.py). What it kills is a reading: that a single A-type locus through a G2 cone point over a finite quotient of a nearly Kaehler manifold -- in particular a cusp point's torus locus -- could carry a forced cubic inflow by itself.",
+  "routed_from": "sm-branch-2026-09-30-banking",
+  "depth_note": "Classified 2026-09-30 by the negatives-read-together pass; routed earlier without content (B836's placeholder form)."
+ },
+ {
+  "id": "B1351",
+  "claim_killed": "THE INDEX ON A THREE-MANIFOLD, its no-go half: that a closed closing of the object (the tower Y_n) could carry net chirality. Pantev-Wijnholt's count is chi(M, d+M; L) = chi(M; L) - chi(d+M; L); on a closed 3-manifold chi = 0 and h^1(Y_n; psi) = h^1(Y_n; psi-bar) for every character (Poincare duality), so every Wilson-line vacuum on the tower is vector-like exactly (9 321 characters, every level <= 9, two primes); on the cusped object a weight with non-trivial cusp holonomy has vanishing torus cohomology and N = 0. The arc is PROVED; what it kills is the closed-closing route to chirality.",
+  "kill_form": "closed-sum-zero (Poincare duality on a closed 3-manifold: chi = 0 and h^1(psi) = h^1(psi-bar) for every character, so every closing is vector-like)",
+  "faces_consulted": [
+   "children",
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "The cusped object itself, where N = -chi(d+M; L) can be non-zero on a cusp-fixed weight with a disc-type partition (B1268's bound): taken by the cusp-end chain (B1352, B1368-B1503).",
+  "priority": "P3",
+  "revival_score": 1,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1351_the_index_on_a_three_manifold/verification/pairs_on_the_closings.py (every character of every level <= 9, two primes) (lock tests/test_b1351_the_index_on_a_three_manifold.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1385",
+  "claim_killed": "THE STATES TOGETHER, its no-go half: that several generated states can together supply the free cusp m004 withholds through a native arrow. T1: every orientable word state has one cusp, b_1 = 1 and peripheral rank 1, so no free cusp, and the grammar's joins stay among word states (154/154 to length 8); T4: the invariant trace field is a commensurability invariant, so the only exact transport (the cover) never joins m004 to the chiral ladder (m010, Q(sqrt-7)); L3: an isometry negating the Higgs class kills the total index, which closed every rotated Eisenstein cusp of the pilot, ocube06_08812's locally open pair included. The arc is PROVED; B1386 then found an open member, cube~3.24.",
+  "kill_form": "symmetry-cannot-select (L3, the global parity: an isometry negating the Higgs class carries each cusp's partition onto the negated partition of its image, so the total index is zero -- the rule that closed every Eisenstein cusp of the pilot; the word states fall first to frame-arithmetic: b_1 = 1 and peripheral rank 1 on every word, so no free cusp)",
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "fact_computed": true,
+  "hatch": "A member of m004's class with a rotated hexagonal free cusp whose invariant class no isometry negates (sL-6: found by B1386 as cube~3.24), or a frame that does not need a free cusp, in which the word states' cheap 3-manifold chirality (124 of 154) could count.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1385_the_states_together/verification/states_together.py (S1-S6) with eisenstein_partition.py, eisenstein_cusps.py and eisenstein_candidate.py (S7-S9) (lock tests/test_b1385_the_states_together.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1389",
+  "claim_killed": "THE FULL SPECTRUM, its no-go half: that the frame's local chiral spectrum on a member with a cuspidal Higgs class is anomaly-free. The 27's spin-0 sector gives whole anomaly-free generations for Higgs directions in the cone -1 < a/b < 2/3 round gamma (two on cube~3.24), but the 78's broken roots, which 7d E6 super-Yang-Mills always carries, are chiral too, so F78, F27+78 and F133 are anomalous in every direction and every frame that includes them (a parity law, E8 included); on the pure gamma ray the 78's own 5bar cancels the generation's and leaves a lone 10. The arc is PROVED (MIXED, as sealed).",
+  "kill_form": "frame-arithmetic (a parity law of the 78: its broken roots are chiral under the frame's rule, and on the gamma-slice their 5bar makes the SU(5)^3 anomaly odd per unit N, so every frame containing the 78 is anomalous in every Higgs direction and the ends must carry the anomaly)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "Chiral matter at the cusps that carries the gauge sector's anomaly by inflow, minimally a 5 per unit N: the completion question (sL-8), which B1397 (caps cannot cancel it) and B1398 (the frame's verdict) narrowed.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1389_the_full_spectrum/verification/full_spectrum.py (the sealed spectrum on the record's E6 vectors, every cone visited) and e8_frame.py (the parity law, post-seal) (lock tests/test_b1389_the_full_spectrum.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1390",
+  "claim_killed": "THE EISENSTEIN AXES, its no-go half: that an order-3 symmetry of a member of m004's class can supply a clean, non-pullback three. An elliptic of order 3 or 6 in PGL(2, Q(sqrt-3)) has its fixed points in P^1(K), the cusp points, so it fixes only arcs running from cusp to cusp; an order-3 symmetry rotating no cusp acts freely, and every three is either a pullback of a one (the level question, sL-5) or rests on rotation residues that cancel mod 3. The arc is PROVED.",
+  "kill_form": "frame-arithmetic (Skolem-Noether puts every isometry in PGL(2, Q(sqrt-3)), where an order-3 or order-6 elliptic has t^2/det rational and its fixed points in P^1(K), the cusp points: its axes end at cusps, so an order-3 symmetry rotating no cusp acts freely)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "The level question (sL-5): whether the cover or the quotient is physical, which decides whether a pullback three counts as three; or a class other than m004's, where order-3 axes can close up, at the price of the Eisenstein face.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1390_the_eisenstein_axes/verification/eisenstein_axes.py (the fixed sets of every finite-order isometry on 283 arithmetic members and controls) (lock tests/test_b1390_the_eisenstein_axes.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1392",
+  "claim_killed": "THE ENDS CARRY THE CHIRALITY, its no-go half: that a well-posed (Fredholm) problem on the complete manifold carries net chirality. A cusp where the Higgs class is alive is sealed: |omega| grows like the height, the deformed problem is well-posed there and the end contributes nothing; a class sealing every cusp gives a Fredholm problem with N = 0. So N != 0 forces an unsealed end (a free cusp, whose continuum starts at 0) and a problem that is not Fredholm. The arc is PROVED.",
+  "kill_form": "closed-sum-zero (a Higgs class alive on every cusp seals every end, the deformed problem is Fredholm and its count is zero; the count survives only at free cusps, where the problem is not Fredholm -- end-datum-input there)",
+  "faces_consulted": [
+   "none"
+  ],
+  "fact_computed": true,
+  "hatch": "A completion of the free cusps derived from one action that keeps a count (sL-8). B1393-B1397 and B1500-B1503 tested the record's menu (fillings, walls, caps, sources, cone points, G2 local models); the choice at each end remains an input.",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1392_the_ends_carry_the_chirality/verification/ends.py (the cusp symbolically, the harmonic representative, the sealed and free ends) (lock tests/test_b1392_the_ends_carry_the_chirality.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1393",
+  "claim_killed": "THE CHARGE FLIP, its no-go half: that an end condition blind to the charge can give net chirality. With one condition for both charges the net chirality of the rank-one Higgs twist is one Betti number taken at q and at -q, zero except at isolated couplings; on cube~3.24's cuspidal twist it is exactly zero at every real coupling (every twisted class restricts injectively to the cusps; the Fox matrix drops rank only at the primitive cube roots of unity), so B1387's +2 is made entirely by the flip at the free cusps. The arc is PROVED; its scope is the rank-one twist (a non-semisimple V against V* evades it: main's R27, B1418, B1374).",
+  "kill_form": "symmetry-cannot-select (charge conjugation: an end condition that does not flip with the charge treats q and -q alike, so the net chirality is a difference of equal Betti numbers off isolated couplings; exactly zero on cube~3.24's cuspidal twist)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "A physical datum at a free cusp that knows the sign of q times d_h F (the flip): a wall carrying its mirror (R25), sources with a boundary flux sign(q) k (R24), a flux cap (B1395-B1397), a cone-point choice that flips with the charge (B1500); or a non-semisimple flat system, which evades the rank-one statement.",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1393_the_charge_flip/verification/charge_flip.py (Fox calculus on cube~3.24, exact over Q and Z[t]) (lock tests/test_b1393_the_charge_flip.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1394",
+  "claim_killed": "THE REGULAR THREE, its no-go half: that sources placed symmetrically on the fixed arcs of an order-3 rotation give a non-regular three over a clean bulk. The Hopf-trace theorem (the lane's R32 argument generalised): the arc weights sum to L(g; Q); for an acyclic invariant character they are balanced and the source modes are copies of Z/3's regular representation, three times one (P1: 96 of 96 on the class's arithmetic census and cube~3.24). The sealed P3 fired against its prior: 54 non-acyclic pairs carry unbalanced weights. The arc is PROVED.",
+  "kill_form": "symmetry-cannot-select (the Hopf trace: on an acyclic invariant character the rotation's arc weights are balanced, so a symmetric source three is Z/3's regular representation -- three copies of one -- and no symmetric choice breaks it)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "Characters that are not acyclic, in particular those trivial on the rotated cusps (B1396: exactly B1394's 54 non-regular pairs, each with massless bulk modes of the same charge), or a source that is not symmetric under the rotation (then the three is not protected).",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1394_the_regular_three/verification/regular_three.py (the sealed census over F_7 and F_13) (lock tests/test_b1394_the_regular_three.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1395",
+  "claim_killed": "THE FREE CUSP IS CHARGE-BLIND AT FINITE ENERGY: that a finite-energy, normalizable datum at a free cusp tells charge q from -q. In 7d SYM only the Higgs field and gauge flux flip with the charge; a Higgs class alive on the cusp torus has a logarithmically divergent norm (fixed boundary data, not a dynamical field), a gauge flux through a hyperbolic cusp torus has quadratically divergent energy, and a boundary condition uniform over the torus adds -chi(T^2) = 0; the decaying Higgs tail is not a physical count (B1388-B1393). The arc is PROVED.",
+  "kill_form": "end-datum-input (every finite-energy normalizable datum at a free cusp is charge-blind except the decaying Higgs tail: sealed Higgs classes have log-divergent norm, flux through a hyperbolic cusp torus quadratically divergent energy, uniform torus conditions add -chi(T^2) = 0 -- so the charge-odd datum must be put in: a capped flux or non-normalizable sources)",
+  "faces_consulted": [
+   "none"
+  ],
+  "fact_computed": true,
+  "hatch": "Cap the cusp and carry a flux on its torus (the charge-odd integer is the flux degree: B1396-B1397), or bring non-normalizable sources (the lane's R24, R28); revive with a derived source for either.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1395_the_free_cusp_is_charge_blind/verification/cusp_ends.py (the cusp algebra, exact) (lock tests/test_b1395_the_free_cusp_is_charge_blind.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1396",
+  "claim_killed": "THE CAPPED EISENSTEIN CUSP, its no-go half: that a symmetric flux cap at a rotated Eisenstein cusp gives a non-regular three over an acyclic bulk. The cusp's Hopf trace: at a cusp rotated by an order-3 isometry the lift's weights at the rotation's three fixed points are balanced when the bulk character is non-trivial on the cusp torus and all equal when it is trivial; an acyclic character is non-trivial on every cusp (half lives, half dies), so a symmetric cap has flux n = 0 mod 3 and zero modes (n/3) Reg: three times one. Checked on 213 pairs and 444 rotated-cusp rows. The arc is PROVED (its drafted kill test was a theorem and was not sealed).",
+  "kill_form": "symmetry-cannot-select (the cusp's Hopf trace with half lives, half dies: over an acyclic bulk a Z/3-symmetric cap has flux divisible by 3 and zero modes (n/3) copies of the regular representation)",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "A character trivial on the rotated cusp (non-acyclic, with massless bulk modes of the same charge: (2, 0, 1) at n = 3), or a cap whose Z/3 structure is not the bulk's continuation; the flux degree and the cap's structure remain inputs (B1395).",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1396_the_capped_eisenstein_cusp/verification/capped_cusp.py (213 pairs, 444 rotated-cusp rows) (lock tests/test_b1396_the_capped_eisenstein_cusp.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1500",
+  "claim_killed": "THE CONE POINT'S CHOICE, its no-go half: that completing the free cusps as cone points removes the end's choice. The cusp point's link is the cusp torus (H_1 = Z^2), so the point is not Witt; a self-dual L^2 count needs a Lagrangian line per point (Cheeger's ideal boundary conditions), the same datum as a Dehn-filling slope. A charged sector's net chirality on the completed space is the sum over cusp points of -1, 0 or +1 (lower middle, Lagrangian, upper middle), whatever the Higgs field; choices blind to the charge give zero. The arc is PROVED (own intersection-homology instrument on ten members).",
+  "kill_form": "end-datum-input (the cusp point is not Witt, so the count needs one choice per point -- lower, Lagrangian (a filling slope) or upper -- contributing -1, 0 or +1 whatever the Higgs field; choices blind to the charge give zero, and nothing in the geometry makes the choice)",
+  "faces_consulted": [
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "A local model of the cusp point that makes the choice flip with the charge -- a G2 cone whose ADE locus is a cone over the cusp torus with a C-field U(1) or a partner locus (B1501-B1503 found none in the homogeneous census) -- or a datum of the generated architecture that fixes the choice (the genesis-side question: sL-3 with sL-8).",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1500_the_cone_points_choice/verification/cone_point_ih.py (simplicial intersection homology of the compactification on ten members; local_models_check.py) (lock tests/test_b1500_the_cone_points_choice.py).",
+  "routed_from": "sm-branch-2026-09-30-read-together"
  }
 ]

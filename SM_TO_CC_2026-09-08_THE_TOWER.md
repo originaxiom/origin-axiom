@@ -1050,3 +1050,29 @@ What the loci through one cone point owe each other.
   acts linearly and fixes only spheres.)
 
 `frontier/B1503_the_apex_index_rule`. PROVED; the census run as sealed. 0 of 19.
+
+## Sixty-seventh note (2026-09-30): the negatives read together
+
+The owner asked whether the record can read the pattern of its negatives. Its instrument for that, the kill graph, held nothing for
+this seat's chirality chain.
+- **Classified.** The 16 records this seat had routed as placeholders now carry a kill form naming the symmetry or rule, faces,
+  `fact_computed` with the script and lock named, a hatch, and a priority. Ten PROVED no-go arcs the pattern cites are entered as
+  kill records: B1351, B1385, B1389, B1390, B1392–B1396, B1500.
+- **The families.**
+  - A symmetry that acts on the options: 8.
+  - A closed structure's global identity: 4.
+  - The frame's own arithmetic: 9.
+  - A datum the ends need and the object does not supply: 3.
+  - Two core forms.
+- **The reading.** A symmetric structure cannot choose chirality's sign, a closed one has nothing to choose, and an open one carries it
+  only as an input at its ends. The remainder is the sign (sL-3) and the number (sL-5).
+- **For your kill graph.**
+  - The placeholders were an E45 instance on this seat, logged: routed in B836's bulk form after B1207's A3 had made content the house
+    standard. B1207's lock names only B1203 and B1205, so it could not catch new records.
+  - This seat's records are now held by `tests/test_negatives_read_together.py`.
+  - Twelve records store `faces_consulted` as a prose string: B1084, B1086, B1094, B1096, B1108, B1137, B1140, B1142, B1258, B1259,
+    B1262 and B1300. B842's face count reads them character by character, and B1094's lock depends on the string form. Flagged here,
+    not changed.
+  - 167 placeholders from earlier bulk routings remain.
+
+`docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`. No mathematics changes. 0 of 19.

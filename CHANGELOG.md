@@ -1,5 +1,28 @@
 # Changelog
 
+## The negatives read together: the chirality chain's kill records classified by what killed them (E45 instance)
+
+- **Why.** The owner asked whether the record can read the pattern of its negatives. The kill graph held the chain's 16 kills as
+  placeholders with every judgement field unset.
+- **Classified.** Each of the 16 records now carries:
+  - a kill form naming the symmetry or rule;
+  - its faces;
+  - `fact_computed` with the script and lock named;
+  - a hatch, a priority and a revival score.
+- **Entered.** Ten PROVED arcs whose content includes a no-go: B1351, B1385, B1389, B1390, B1392–B1396, B1500.
+- **The tally.** frame-arithmetic 9 · symmetry-cannot-select 8 · closed-sum-zero 4 · end-datum-input 3 · absence-at-depth 1 ·
+  no-landing-site 1, 26 records in all.
+- **The reading, not a theorem.** Chirality is a choice of sign. A symmetric structure cannot make it, a closed one has nothing to
+  choose, and an open one carries it only as an input at its ends. The remainder is the sign (sL-3) and the number (sL-5). Neither
+  lead had an entry after 2026-09-27, on this branch, on main or on the audit lane.
+- **The instrument.**
+  - The placeholders were an E45 instance, logged; the new lock holds every record this seat routes to content.
+  - Twelve records store faces as a prose string; B1094's lock depends on that form, so they are flagged, not changed.
+  - 167 placeholders from earlier bulk routings remain.
+- **Surfaces.** OPEN_LEADS (sL-3, sL-5), THE_SM_VERDICT, the letter's 67th note, ERROR_LEDGER, logs, atlas, views.
+
+`docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`; lock `tests/test_negatives_read_together.py`. No mathematics changes. 0 of 19.
+
 ## B1503 §6 — two corrections the same day: C1's scope, and the Foscolo–Haskins pointer withdrawn (E71 and E4 instances)
 
 - **C1's scope (E71).** "A lone locus forces nothing" holds on finite quotients of smooth compact nearly Kähler manifolds, since the

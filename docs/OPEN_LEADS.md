@@ -2997,6 +2997,14 @@ Both are in the architecture either way. This is sL-5's question asked at the ge
 decide P's type — from the uniqueness axioms' own semantics (what "reversible record transfer" admits), not by pricing a
 deletion.
 
+**sL-3, 2026-09-30 — the negatives read together.** The chirality chain's 26 kill records are now classified by what killed them
+(`docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`). The remainder has two parts, and the sign is this lead's:
+- The sign of chirality is a selector of the same kind as orientation and the order bit.
+- Every orientation-odd datum the chain found was supplied at an end (B1388, B1393, B1395, B1500). That bears on this lead's second
+  closing condition, and it had not been tallied against it.
+- This lead had no entry between 2026-09-27 and now. Its next piece is a sealed genesis-side arc, B1504: the swap P and the choice at
+  a cusp point.
+
 ## sL-4 — THE RELATIVE SL₅ COMPONENT SEARCH ON M₂ (registered 2026-09-27, B1384; the web seats' next mathematical gate)
 
 **What is settled.**
@@ -3033,6 +3041,10 @@ The generated architecture is kinematic. The questions to answer:
 - Which internal dynamics, if any, selects a trajectory?
 
 Until this is decided, no arrow is time and no multiplicity is a generation count. ★★★ (the handoff ranks it primary).
+
+**sL-5, 2026-09-30 — the negatives read together.** The number half of the chain's remainder is this lead's one-versus-three
+question. B1384 S3 (Shapiro), B1390 (every three is a pullback of a one), B1396 and B1500 (one unit per cusp point) each end on whether
+the cover or the quotient is physical. No entry between registration (2026-09-27) and now.
 
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 

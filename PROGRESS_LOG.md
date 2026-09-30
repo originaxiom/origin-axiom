@@ -16101,3 +16101,19 @@ While the fast lane ran I read Foscolo–Haskins, to make the next-step pointer 
 - **The fast lane** on 16c29b0b: 9 failures, exactly the nine of the baseline (the same tests as the 68c9d8b4 lane), 6370 passed, 52 skipped. It ran as seven shards covering all 1231 test files with the fast lane's own flags; a single run was stopped at 77% by the new 30-minute limit on background tasks.
 
 0 of 19.
+
+## 2026-09-30 — The negatives read together
+
+You asked whether we can read the pattern of the negatives. The instrument built for that, the kill graph, held all sixteen of this
+chain's kills as blank placeholders, so I classified them by reading each arc. I also added the ten proved results whose content is a
+no-go.
+- **What killed each step** falls into four families. In some, a symmetry acts on the options and no natural choice exists. In others,
+  a closed structure's global rule forces a sum to zero. Some are the frame's own arithmetic. The rest need a datum at the ends that
+  the object does not supply.
+- **What it says.** Chirality is a choice of sign. A symmetric structure cannot make it, a closed one has nothing to choose, and an open
+  one carries it only as an input at its ends. What is left is the sign and the number. Those are the two genesis questions, P's type
+  and what the arrows mean, and nobody had touched either since 2026-09-27.
+- **A slip of mine.** The placeholders broke a house rule from August: a kill is recorded with its content. I had copied my own earlier
+  rows instead of the standard. It is logged, and a lock now holds the rule for this seat.
+
+`docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`. 0 of 19.

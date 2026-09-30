@@ -5,8 +5,8 @@
 
 # The closed-door map (generated)
 
-**800 recorded closures — of which 617 are CLASSIFIED by mechanism and
-183 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
+**810 recorded closures — of which 643 are CLASSIFIED by mechanism and
+167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
 number. A programme whose firewall works is mostly negatives; this is the shape of them.
@@ -14,7 +14,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | mechanism | doors | facts not computed |
 |---|---|---|
 | `other` | 359 | 343 |
-| `unrouted-unclassified` | 183 | 183 |
+| `unrouted-unclassified` | 167 | 167 |
 | `kind-mismatch` | 51 | 4 |
 | `genericity` | 38 | 1 |
 | `no-landing-site` | 30 | 1 |
@@ -67,8 +67,34 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Killed by a structural theorem that closes the entire class in one line. G2 < SO(7), so every element acts on R^7 with det = +1; and EVERY element of SO(2k+1) has eigenvalue +1 -- the characteristic polynomial is real of ODD degree hence has a real root, non-real eigenvalues occur in conjugate pairs of modulus 1 each contributing +1 to the determinant, the real eigenvalues are +-1 and their product must equal det = +1, and an ODD number of them multiplying to +1 forces at least one to be +1. Hence every nontrivial element of ANY flat G2 orbifold group fixes at least a LINE, and a 0-dimensional fixed set cannot occur for ANY G-hat. B1084's census {3d: 53, 1d: 42} was therefore FORCED by flatness in seven dimensions, not a property of |G-hat| = 96.` | 1 |  |
 | `Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).` | 1 |  |
 | `Killed by exhaustion and then by theorem. All 706 464 SM lines of Y_9 re-enumerated with every component's survival in every generation recorded: 0 split lines, and D kept in all three generations on every line (Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines). Theorem: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; the alphabet's letters have order 1, 19 or 38, their squares have odd order and are never family characters, and the family characters are the only characters that project anything (B1278's support theorem). An exact structural model built from the support theorem and the weight table reproduces every count of B1278.` | 1 |  |
+| `symmetry-cannot-select (the two C-field U(1)s born with the apexes give the three 27s the charges (1,-2), (1,1), (-2,1), so 27_1 27_2 27_3 is the only invariant cubic: every tree-level mass matrix is hollow, and a hollow complex symmetric 3x3 matrix obeys sigma_1 = sigma_2 + sigma_3 identically, which the measured masses refute)` | 1 |  |
+| `frame-arithmetic (H_1 of the descent S^3(4_1; 2pi/3) is Z/3, and Kac's six order-3 inner classes of E6 -- fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contain no Standard-Model commutant, nor do the eleven order-4 classes)` | 1 |  |
+| `frame-arithmetic (the D-term sign theorem: the only E6-charged Standard-Model singlets of the 27, N and nu^c, both carry gamma = -5/3, so no tree-level VEV breaks U(1)_eta, the Majorana mass is forbidden, and B1276's one coupling ties the neutrino Yukawa to the up-quark one)` | 1 |  |
+| `symmetry-cannot-select (the E6 cubic in trinification form gives the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) the same generation matrices, so light up-type doublets equal light exotic triplets in every vacuum where only N and nu^c take VEVs; only E6-breaking couplings acting on the matter split them, and point-localised 27s never see those)` | 1 |  |
+| `frame-arithmetic (on m004 the Standard-Model-reaching flat E6 connections put SL(2)_beta spins on the sectors, and the 10 and the 5bar of SU(5) never share a spin -- in the 27 the 10 is spin 0 and the 5bar spin 1/2, in the 78 the reverse -- while spin-0 sectors are cusp-fixed only when trivial and the geometric longitude (trace -2) fixes no spin-1/2 vector: no chiral generation from bulk matter with the Standard Model unbroken)` | 1 |  |
+| `symmetry-cannot-select (the region-swap parity: on 79 of the 83 free cusps of B1186's family an isometry fixing the cusp negates every free class, so the two regions swap and N = 0 -- after a rank closure: 77 of 112 members have no free cusp, and a spin-0 sector cusp-fixed on a cusp of full peripheral rank has a finite-order character, no Higgs field and no index)` | 1 |  |
+| `frame-arithmetic (charge arithmetic at the cusp: with a non-unitary peripheral eigenvalue the 10 of the 78 forces Im t = +-L and the 5bar of the 27 forces Im t = +-3L, never both (0 of 32 sign patterns); with a unitary one only theta in Z/4 solves, with opposite chirality for the two halves; parabolic and central cusp holonomy make every doublet sector vector-like)` | 1 |  |
+| `absence-at-depth (along the real cone-manifold path of every free cusp of the 35 candidates, wherever one curve reaches eigenvalue +-i the other is non-unitary (132 of 166 pairs), so B1372's Theorem B forbids both halves; the other 34 pairs degenerate before the point)` | 1 |  |
+| `end-datum-input (the relative index at a cut moves with the cut -- +4, +8, +2, -1 up the Eisenstein cusps -- because it sees the cut through tangencies; the asymptotic +2 is minus the signed number of Higgs zeros, and which count is physical is a statement about the completion of the free cusps, which the object does not supply)` | 1 |  |
+| `symmetry-cannot-select (the isometries act on the generations with Lefschetz characters L(e) = 2, L(R) = -1, L(swap) = 0 on cube~3.24, the doublet of D3, so every D3-covariant Yukawa texture is degenerate at the symmetric point; the pullback three is Z/3's regular representation, with B1362's circulant degeneracy)` | 1 |  |
+| `frame-arithmetic (a flux cap's chirality is <F, mu> n, linear in the charges; E6, E7 and E8 have no independent quartic Casimir, so it is anomaly-free exactly for F orthogonal to Y, and then the net generations are even in every E6 frame (2dn, -2dn/3, 4dn/3) and zero in E8 -- with a closed-sum-zero scope, section 7: for one bulk U(1) the cap degrees sum to zero by Stokes)` | 1 |  |
+| `frame-arithmetic (every 10-type weight of the 78 is an SL(2)_beta doublet, 40 of 40, which the frame's rule never makes chiral; the three (Y, gamma)-direction classes of the 78's spin-0 sectors have an anomaly matrix of rank 3, so the frame's count is anomaly-free only when it is zero; caps give 10s in pairs)` | 1 |  |
+| `frame-arithmetic (lattice parity: a leading shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m; 204 of the 207 resolved cusps lead with a one-direction band and 3 with an index-2 shell, so every resolved count is even and |C| <= 2)` | 1 |  |
+| `no-landing-site (in the cones over the four homogeneous nearly Kaehler 6-manifolds modulo their listed finite automorphisms, a torus-linked ADE locus is always A-type -- SU(n) over S^3 x S^3's diagonal torus or SU(3) over the flag manifold's Coxeter torus -- and always hexagonal: E6 cannot end unbroken at such a point, and m004's own cusp (shape 2 sqrt-3) matches none)` | 1 |  |
+| `closed-sum-zero (whenever these cones carry a torus-linked locus, the link's rational H^2 and H^4 vanish (no C-field U(1), no flux), the torus is null-homologous, and a homogeneous line bundle over a torus is trivial, so deg L = 0: neither the mixed nor the cubic inflow has anything to act on, and the smooth phases are Dehn fillings)` | 1 |  |
+| `closed-sum-zero (the link is spin with positive scalar curvature, so its Dirac index vanishes for every lift (Lichnerowicz), and the Atiyah-Singer Lefschetz formula makes the forced inflows of one symmetry's fixed loci and points sum to zero: a lone locus forces nothing)` | 1 |  |
+| `closed-sum-zero (Poincare duality on a closed 3-manifold: chi = 0 and h^1(psi) = h^1(psi-bar) for every character, so every closing is vector-like)` | 1 |  |
+| `symmetry-cannot-select (L3, the global parity: an isometry negating the Higgs class carries each cusp's partition onto the negated partition of its image, so the total index is zero -- the rule that closed every Eisenstein cusp of the pilot; the word states fall first to frame-arithmetic: b_1 = 1 and peripheral rank 1 on every word, so no free cusp)` | 1 |  |
+| `frame-arithmetic (a parity law of the 78: its broken roots are chiral under the frame's rule, and on the gamma-slice their 5bar makes the SU(5)^3 anomaly odd per unit N, so every frame containing the 78 is anomalous in every Higgs direction and the ends must carry the anomaly)` | 1 |  |
+| `frame-arithmetic (Skolem-Noether puts every isometry in PGL(2, Q(sqrt-3)), where an order-3 or order-6 elliptic has t^2/det rational and its fixed points in P^1(K), the cusp points: its axes end at cusps, so an order-3 symmetry rotating no cusp acts freely)` | 1 |  |
+| `closed-sum-zero (a Higgs class alive on every cusp seals every end, the deformed problem is Fredholm and its count is zero; the count survives only at free cusps, where the problem is not Fredholm -- end-datum-input there)` | 1 |  |
+| `symmetry-cannot-select (charge conjugation: an end condition that does not flip with the charge treats q and -q alike, so the net chirality is a difference of equal Betti numbers off isolated couplings; exactly zero on cube~3.24's cuspidal twist)` | 1 |  |
+| `symmetry-cannot-select (the Hopf trace: on an acyclic invariant character the rotation's arc weights are balanced, so a symmetric source three is Z/3's regular representation -- three copies of one -- and no symmetric choice breaks it)` | 1 |  |
+| `end-datum-input (every finite-energy normalizable datum at a free cusp is charge-blind except the decaying Higgs tail: sealed Higgs classes have log-divergent norm, flux through a hyperbolic cusp torus quadratically divergent energy, uniform torus conditions add -chi(T^2) = 0 -- so the charge-odd datum must be put in: a capped flux or non-normalizable sources)` | 1 |  |
+| `symmetry-cannot-select (the cusp's Hopf trace with half lives, half dies: over an acyclic bulk a Z/3-symmetric cap has flux divisible by 3 and zero modes (n/3) copies of the regular representation)` | 1 |  |
+| `end-datum-input (the cusp point is not Witt, so the count needs one choice per point -- lower, Lagrangian (a filling slope) or upper -- contributing -1, 0 or +1 whatever the Higgs field; choices blind to the charge give zero, and nothing in the geometry makes the choice)` | 1 |  |
 
-## Closures whose discriminating fact was not computed (538)
+## Closures whose discriminating fact was not computed (522)
 
 The standing rule is that a negative is only as sound as the in-sandbox computation of
 its discriminating fact. **B799 resolved all of these** — see `frontier/B799_uncomputed_doors/`.
@@ -597,19 +623,3 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B762` |  | `other` |
 | `B774` |  | `other` |
 | `B791` |  | `other` |
-| `B1361` | THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1) | `unrouted-unclassified` |
-| `B1363` | THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu | `unrouted-unclassified` |
-| `B1365` | THE BULK OF THE LINE: B1364's unbroken U(1)' is the Cartan direction gamma orthogonal to the Standard Model, t | `unrouted-unclassified` |
-| `B1367` | THE DOUBLET-TRIPLET PINCER: in trinification form the E6 cubic det L + det Q + det Q^c + Tr(Q L Q^c) pairs N w | `unrouted-unclassified` |
-| `B1368` | THE OBJECT'S OWN STANDARD-MODEL CONNECTIONS: a flat E6(C) connection of m004 leaving the Standard Model unbrok | `unrouted-unclassified` |
-| `B1369` | THE FAMILY IN THE STANDARD-MODEL FRAME (sL-1, first arc): on a member of the figure-eight's commensurability c | `unrouted-unclassified` |
-| `B1372` | THE DOUBLET HALVES (door 2): the third reading of a Standard-Model generation -- the 10 from the 78's SL(2)_be | `unrouted-unclassified` |
-| `B1373` | THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's char | `unrouted-unclassified` |
-| `B1388` | THE CUTOFF TEST (kill test 1 on the chirality mechanism; sealed at 68c1b809 before computing, prior STABLE ~55 | `unrouted-unclassified` |
-| `B1391` | THE YUKAWA TEST AT THE LEVEL OF SYMMETRY (kill test 4 on the chirality mechanism, structural; not sealed becau | `unrouted-unclassified` |
-| `B1397` | THE CAP'S GENERATIONS (after B1396; B1395's one finite-energy charge-odd datum is a flux on a capped cusp toru | `unrouted-unclassified` |
-| `B1398` | THE FRAME'S VERDICT ON THREE (the owner's goal, 2026-09-28): in the seat's frame -- 7d E6 super-Yang-Mills on  | `unrouted-unclassified` |
-| `B1399` | THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matt | `unrouted-unclassified` |
-| `B1501` | THE TORUS-LINK CENSUS, run as sealed (d780b639; the owner's go; after B1500): in the simplest G2 cone singular | `unrouted-unclassified` |
-| `B1502` | THE LOCAL MODELS' CHIRALITY (after B1501; the owner's go on the next step): B1501's two torus models force no  | `unrouted-unclassified` |
-| `B1503` | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a co | `unrouted-unclassified` |
