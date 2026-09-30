@@ -3935,3 +3935,27 @@ pass the separate graph test; link acyclicity does not exclude them.
   the separately sealed comparison repair remain part of the evidence.
 - PB-PHYSICS: global chiral spectrum, generations, normalized couplings,
   quantum consistency, gravity and observables remain full-goal duties.
+
+## Local nonlinear cone continuation September 30 2026
+
+Path-local R64 CONE_GAUGE.md resolves a conditional local continuation,
+not PB-BOUNDARY or physical chirality. The Hermitian branch is not
+compact gauge; constant stabilizers, domain and outer data remain essential.
+
+- PB-TRANSITIONS / PB-HANDOFF-M6: match ACTUAL peripheral holonomy and
+  outer data from an existing global parent bundle to the local cone
+  candidate. Use R59's same E, Lambda2(E), duals and tensor maps; do not
+  transfer another coefficient's index or infer a background from rank.
+  Fetch and read the existing branch results before designing this join.
+- PB-BOUNDARY: earn the common global bosonic/fermionic end domain and
+  allowed gauge group. Local graph-plus-L4 admits this family only for
+  eta>1/4; its zero-action slower branch is not permission to alter that
+  domain. Classify the stabilizer before counting physical parameters.
+- PB-ACTION: carry the nonzero outer flux into global matching. The
+  radial zero-Dirichlet/Neumann identity excludes only that ansatz;
+  different global fields or ends need their own equations and action.
+- PB-REVIEW: independent review of the Volterra existence/regularity
+  argument, gauge-domain preservation and sharp norm thresholds remains
+  due. All first failures and their separate repair stay in the record.
+- PB-PHYSICS: chiral generations, normalized interactions, quantum
+  consistency, gravity and predictions remain full-mission requirements.

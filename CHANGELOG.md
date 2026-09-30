@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-30 - R64 local nonlinear cone continuation and gauge distinction
+
+The paired decaying modes split into compact and Hermitian primitives.
+The latter continue to an exact local flat/moment-flat family with a
+nonzero radial Higgs, so are not compact gauge. Constant Cartan phases
+remain gauge-related. The supplied graph-plus-L4 class requires eta>1/4;
+zero outer Dirichlet/Neumann data force the radial solution to zero.
+Original 94/95, seven tests pass/two fail on UNKNOWN sign inference.
+Separately sealed monotonicity certificate: 99/99 and three tests pass.
+Combined 40 pass/four original failures retained. Authored local proof,
+not a global particle, chirality, full-suite or independent bank certificate.
+Next actual global bundle/peripheral and outer-domain matching.
+Report: reports/physical_bridge_2026_09_05/CONE_GAUGE.md.
+
 ## 2026-09-30 - R63 charged cone operator and differential domains
 
 The full metric-derived cone operator has small charged critical modes

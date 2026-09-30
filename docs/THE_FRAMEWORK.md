@@ -1,5 +1,16 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Current execution, path-local R64 (September 30):** paired cone modes
+now have an explicit compact/Hermitian split and an authored exact local
+nonlinear continuation. A nonzero radial Higgs excludes compact gauge
+equivalence; the constant stabilizer still identifies phases. Admission
+to the supplied graph-plus-L4 space requires eta>1/4, and outer data
+cannot be set to zero in the radial ansatz. No global particle or chirality
+claim. Repair: 99 effective controls and three tests pass; combined
+40 passes/four original failures retained. Next match actual global
+peripheral holonomy and outer data in the same parent bundle.
+Report: reports/physical_bridge_2026_09_05/CONE_GAUGE.md.
+
 **Current execution, R63 (September 30):** the same normal-background
 cone has an explicit eight-component charged radial operator. Small
 charged eigenvalues retain critical data even with zero link cohomology.

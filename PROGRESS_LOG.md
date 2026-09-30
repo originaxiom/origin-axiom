@@ -15906,3 +15906,26 @@ All seven frozen paths, first failures and thirteen input pins survive.
 Next actual compact gauge quotient and nonlinear extension of these
 candidates, then the global physical domain. Full mission unchanged.
 Report: reports/physical_bridge_2026_09_05/CONE_SPECTRUM.md.
+
+## 2026-09-30 - R64 local nonlinear cone continuation
+
+At the SAME supplied action and cone background, the paired decaying
+degree-one primitives split into compact and Hermitian parts. An exact
+local continuation of the latter solves curvature and moment equations;
+its radial Higgs excludes compact gauge equivalence. Constant Cartan
+stabilizers identify phases. This is not a count of physical moduli.
+The positive Volterra kernel gives an authored contraction proof and
+cubic correction. Finite controls verify its identities, not independent
+analytic acceptance. Graph-plus-L4 admission requires eta>1/4, despite
+zero full action on the more slowly decaying curved branch. Outer flux
+cannot be discarded; zero outer Dirichlet/Neumann data exclude this
+radial ansatz, not all global matchings.
+Original seal a9947791: 94/95 controls, seven tests pass/two fail.
+The sign engine returns UNKNOWN for a positive expression. Separate
+repair seal fde9a769 proves positivity by base value and derivative:
+99 effective controls and three new tests pass. Combined 40 passes,
+four original failures retained including R63's two. Eight science
+paths and nineteen input pins stay frozen. Both seals preceded runs
+and were pushed/server-confirmed. Next match the actual peripheral
+holonomy, outer data and global physical domain in one parent bundle.
+Report: reports/physical_bridge_2026_09_05/CONE_GAUGE.md.

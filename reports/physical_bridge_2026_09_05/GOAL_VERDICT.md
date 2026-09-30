@@ -1,4 +1,14 @@
-# Verdict toward the full physical-theory goal - R63, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R64, updated 2026-09-30
+
+**Current execution, path-local R64:** the decaying cone candidates have
+an actual compact/Hermitian split and an authored exact local nonlinear
+continuation. It is not compact gauge, but requires changed outer data.
+The graph-plus-L4 condition admits only eta>1/4 in this family.
+The constant stabilizer still identifies phases; no particle count or
+chirality follows. Corrected 99 controls and three tests pass; combined
+40 passes/four original failures retained. [Result](CONE_GAUGE.md).
+Next match actual global peripheral holonomy and outer data to the SAME
+parent bundle, then its full physical domain. The full mission is active.
 
 **Current execution, R63:** full charged cone operator and all-Fourier
 bounds checked. Two decaying critical modes pass separate differential
