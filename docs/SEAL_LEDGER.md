@@ -1226,3 +1226,16 @@ physical chirality or the full nonlinear supersymmetric domain.
 | `reports/physical_bridge_2026_09_05/CONE_INTERACTION_INPUTS.json` | `943209b6c8a4d52cac5c55c39e67f6e83326f441fb2db3ee6275e2d257306a5b` |
 | `reports/physical_bridge_2026_09_05/cone_interaction.py` | `d7d94b8b02951507b05493e1b5ca4f41463e8ae2469d455b71d725214bb81d1a` |
 | `tests/test_physical_bridge_cone_interaction.py` | `2c47910099769a62c59c358f7dbdd32ec27744141335a8e82a5ca2045aa18cc9` |
+
+## R63 charged cone spectrum, September 30, 2026
+
+Pre-execution full radial/Fourier operator and separate differential graph
+controls on the declared normal background. No physical particle census,
+complete supercharge/gauge domain or nonlinear completion is certified.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_SPECTRUM_DESIGN.md` | `4f3dbf78bafaf4e8914a916909e6d2b7fe44e415a62f47ee5b017a5c1de1caf1` |
+| `reports/physical_bridge_2026_09_05/CONE_SPECTRUM_INPUTS.json` | `9e9e390b4d5ffa741ceca33d88c2a3c7f4508a294cd5cfdca17d2a176f322564` |
+| `reports/physical_bridge_2026_09_05/cone_spectrum.py` | `2cb1b0bbcb14810e9748c492190669281d6c2d8d5baf6bc0c1e2dbd739ab2bdd` |
+| `tests/test_physical_bridge_cone_spectrum.py` | `95282300549a000123303a9399b9b726f7104a879a24bdfac622dc48f58b959e` |

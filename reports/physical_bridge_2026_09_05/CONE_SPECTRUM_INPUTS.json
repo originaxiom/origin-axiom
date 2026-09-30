@@ -1,0 +1,70 @@
+{
+  "scope": "Pinned reading and reused controls, not a complete dependency or physical certificate",
+  "inputs": [
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/CONE_INTERACTION.md",
+      "sha256": "038fad69710c9bbd19ddef0147e3461b54c4b029e058426213a5d7224a696bfc"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/CONE_INTERACTION_DESIGN.md",
+      "sha256": "0e17fbd86dc5db2fb00b6c397d70e5bac89d5f7095757b820fdf3935b8622b4d"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/cone_interaction.py",
+      "sha256": "d7d94b8b02951507b05493e1b5ca4f41463e8ae2469d455b71d725214bb81d1a"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END_DESIGN.md",
+      "sha256": "56da61e3e09c2969cebedf458c68a7287a86e96fcdbf555b12aef9476cb335c0"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/fermion_end.py",
+      "sha256": "f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/CHARGED_DOMAIN.md",
+      "sha256": "ac9ef5cffdc251d0c0591d340f3cd51225b731ed2dcc9a837768a4a025e88694"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/CHARGED_DOMAIN_DESIGN.md",
+      "sha256": "518648ef7db4d19e4d1125dd14441637c744fdf7771b548dfa9e2258561a530d"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/charged_domain.py",
+      "sha256": "0b66fc227ebc94d25077e01d621d190e8f64d6749ac72f26e7d470cff122df5c"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS.md",
+      "sha256": "caef6fe791721ca6b313f8fe478e60689d84992547ac6b95afaec1ed3e3f8f76"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "tests/test_physical_bridge_cone_interaction.py",
+      "sha256": "2c47910099769a62c59c358f7dbdd32ec27744141335a8e82a5ca2045aa18cc9"
+    },
+    {
+      "commit": "dead2cc9190987d023fcc9aac2573aac22b6b752",
+      "path": "tests/test_physical_bridge_fermion_end.py",
+      "sha256": "3dfb3f2369ead95578c2306f4b14a43c84afd70347a3fbcabc7a9249a4ca6e56"
+    }
+  ]
+}
