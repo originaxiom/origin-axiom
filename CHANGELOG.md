@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-30 - R62 nonlinear cone interaction admission
+
+For a constant complex helicity trace and general radial simple pole,
+the supplied cone action is finite exactly when the radial coefficient
+is anti-Hermitian and commutes with a normal tangential coefficient.
+Nonzero commuting controls survive; cancelling the moment map alone
+leaves curvature. Seventy exact controls and 25 tests pass under
+remote-confirmed seal 5cd4cbb3. Controlled remainders and nonlinear
+normality prevent confusing linearized modes with admitted deformations.
+Not a general nonabelian or chirality exclusion. Next: coupled boundary
+law, gauge quotient and supersymmetric/indicial domains in the same parent.
+Report: reports/physical_bridge_2026_09_05/CONE_INTERACTION.md.
+
 ## 2026-09-30 - R61 complex fermion boundary reality
 
 The transported star/conjugation map admits complex critical-channel

@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+**Current result, R62 (September 30):** [cone interaction admission](CONE_INTERACTION.md)
+checks the actual nonlinear action of the candidate end data. Normal
+leading coefficients with commuting anti-Hermitian radial poles survive;
+a radial pole cannot rescue a nonnormal constant trace. Seventy exact
+controls and 25 tests pass. This is a scoped nonlinear constraint,
+not physical chirality or a general nonabelian exclusion. Next: the
+coupled boundary law, gauge quotient and supersymmetric cone domains.
+The [full physics mission](PHYSICS_MISSION.md) remains active.
+
 **Current result, R61 (September 30):** [complex fermion end controls](FERMION_END.md)
 verify the combined reality/current map and rotation-invariant complex
 lines on the cone's harmonic critical channel. Fifty controls and 20

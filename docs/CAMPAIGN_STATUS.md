@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Current execution, R62, September 30:** the actual nonlinear cone
+action restricts constant helicity traces to normal coefficients with
+commuting anti-Hermitian radial simple poles. Nonzero positives survive.
+70 exact controls and 25 tests pass under confirmed seal 5cd4cbb3.
+Next: coupled nonlinear boundary law, gauge quotient and complete
+supersymmetric/indicial domains. Not a physical chirality result,
+universal nonabelian exclusion or full-bank certificate. Report:
+reports/physical_bridge_2026_09_05/CONE_INTERACTION.md.
+
 **Current execution, R61, September 30:** local complex fermion boundary
 reality/current checks pass, including rotation-invariant helicity lines.
 50 exact controls and 20 tests; seal 7427a24d confirmed before execution.

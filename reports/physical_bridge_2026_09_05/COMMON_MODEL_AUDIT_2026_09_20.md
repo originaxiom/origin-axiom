@@ -1,5 +1,14 @@
 # One-model audit: which positive results actually compose?
 
+**Current approved execution, R62, September 30:** R61's linear complex
+end data now face the SAME action's nonlinear residual test. Normal
+constant tangential coefficients survive with commuting anti-Hermitian
+radial simple poles; nonnormal traces do not in this asymptotic class.
+70 controls and 25 tests pass. Do not turn this boundary-trace result
+into a bulk nonabelian kill or count linearized modes as admitted
+finite-action deformations. Coupled gauge/supersymmetric domains remain.
+[Result](CONE_INTERACTION.md).
+
 **Current approved execution, R61, September 30:** the actual local
 fermion map combines Hodge duality and conjugation. Complex cone-link
 lines pass this reality/current test and admit rotations; requiring a

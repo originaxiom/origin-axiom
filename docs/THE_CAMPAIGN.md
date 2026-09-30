@@ -1,5 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current execution, R62 (September 30):** finite interaction action
+restricts the constant helicity trace/radial simple-pole class. The
+positive surviving normal coefficients form a nonlinear set; do not
+count all linearized modes as finite-action deformations. 70 controls
+and 25 tests pass. Next derive the coupled nonlinear boundary law,
+gauge quotient, supersymmetry and complete indicial domains; preserve
+vanishing-trace bulk modes and other asymptotics. No chirality closure.
+Report: reports/physical_bridge_2026_09_05/CONE_INTERACTION.md.
+
 **Current execution, R61 (September 30):** complex torus-link critical
 domains preserve the transported anti-linear fermion reality map and
 Hermitian current while admitting rotations. Fifty exact controls and

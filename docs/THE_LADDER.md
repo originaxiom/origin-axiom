@@ -1,5 +1,13 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**Current execution, R62 (September 30):** PB-BOUNDARY's nonlinear
+admission test is resolved for the declared constant helicity trace
+and radial simple pole, not all ends. Finite action requires normal
+tangential data and a commuting anti-Hermitian radial coefficient;
+nonzero positives remain. 70 controls and 25 tests pass. Full coupled
+gauge/supersymmetric domains and physical chirality stay open.
+Report: reports/physical_bridge_2026_09_05/CONE_INTERACTION.md.
+
 **Current execution, R61 (September 30):** PB-BOUNDARY now has an explicit
 critical-channel reality map. Complex helicity domains pass its combined
 star/conjugation and current tests, not each condition separately.

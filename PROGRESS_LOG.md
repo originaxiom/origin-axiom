@@ -15873,3 +15873,18 @@ same-parent full variational/domain and nonlinear admission problem;
 physical chirality and the full mission remain open. Historical four
 governance failure categories persist, no full-bank certificate.
 Report: reports/physical_bridge_2026_09_05/FERMION_END.md.
+
+## 2026-09-30 - R62 finite interaction action on the cone
+
+Sealed and server-confirmed 5cd4cbb3 before first science execution.
+Seventy exact controls and 25 focused tests pass. Independent metric
+residuals and the cyclic-trace identity support the all-dimension
+authored radial cancellation theorem: normal constant helicity data
+and a commuting anti-Hermitian radial simple pole are exactly the
+zero-leading-cost class. Nonzero controls survive; moment-only and
+curvature-only cancellations fail. Controlled radial remainders and
+the nonlinear normality constraint delimit the result. No general
+nonabelian or chirality kill, full suite or independent bank acceptance.
+Next: coupled boundary law and gauge quotient, supersymmetry and all
+relevant indicial modes, preserving vanishing-trace bulk modes.
+Report: reports/physical_bridge_2026_09_05/CONE_INTERACTION.md.

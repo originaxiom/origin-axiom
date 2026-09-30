@@ -3884,3 +3884,28 @@ not physical neutral-sector alternatives in this calculation.
 - PB-PHYSICS: physical chirality, generations, normalized interactions,
   quantum consistency, gravity and testable observables remain the full
   mission, not replaced by these local boundary checks.
+
+## Nonlinear cone interaction admission September 30 2026
+
+R62 CONE_INTERACTION.md resolves the finite-action sub-duty for constant
+helicity traces with a general radial simple pole, at authored/finite
+control grade. Normal coefficients survive; no such radial pole rescues
+nonnormal constant leading data. This does not close PB-BOUNDARY.
+
+- PB-ACTION / PB-BOUNDARY: construct an actual coupled nonlinear end law
+  and its gauge quotient. Do not replace the normal-matrix constraint by
+  a hand-selected Cartan or assume every linearized direction integrates.
+  Identify admissible gauge transformations at the tip before treating
+  an anti-Hermitian radial pole as removable or physical.
+- PB-BOUNDARY: include the supercharge/gaugino derivative conditions,
+  bosonic and fermionic variations, all relevant indicial modes, and
+  charged bulk modes whose boundary trace vanishes. A constant-trace
+  restriction is not an exclusion of these modes or other asymptotics.
+- PB-TRANSITIONS: retain the obligation to derive the marking/end law
+  from the architecture, not merely choose a helicity or supplied parent.
+- PB-REVIEW: obtain independent analytic and physical scrutiny of the
+  residual action domain and nonlinear constraint. No full suite or
+  complete main-bank certificate; historical debts remain.
+- PB-PHYSICS: the same-model chiral spectrum, generations, normalized
+  interactions, quantum consistency, gravity and observables remain
+  requirements of the full mission.

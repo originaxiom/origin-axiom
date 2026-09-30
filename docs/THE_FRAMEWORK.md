@@ -1,5 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Current execution, R62 (September 30):** the supplied cone action
+admits nonzero normal constant-helicity coefficients, with commuting
+anti-Hermitian radial simple poles. The full residual test excludes
+a rescue of nonnormal leading data by such a radial pole. 70 controls
+and 25 tests pass. The nonlinear constraint is not a universal
+nonabelian exclusion, a full physical end law or a chirality result.
+Report: reports/physical_bridge_2026_09_05/CONE_INTERACTION.md.
+
 **Current execution, R61 (September 30):** the neutral cone critical
 channel admits complex rotation-invariant domains under the combined
 fermion reality/current test. This is outside B1504's real-line category,

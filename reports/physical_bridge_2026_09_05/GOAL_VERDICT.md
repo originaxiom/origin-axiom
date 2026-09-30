@@ -1,4 +1,13 @@
-# Verdict toward the full physical-theory goal - R61, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R62, updated 2026-09-30
+
+**Current execution, R62:** 70 exact controls and 25 tests pass for the
+actual nonlinear cone action. Finite action forces normal constant
+helicity coefficients and commuting anti-Hermitian radial simple poles;
+nonzero commuting data survive. The radial field cannot rescue nonnormal
+leading data in this class. This is not a universal nonabelian or chiral
+exclusion. Next construct the coupled nonlinear boundary law, gauge
+quotient and complete supersymmetric/indicial domains in the same parent.
+[Result](CONE_INTERACTION.md). The full physics mission remains active.
 
 **Current execution, R61:** 50 exact controls and 20 tests verify the
 local complex fermion reality/current map. Rotation-invariant complex
