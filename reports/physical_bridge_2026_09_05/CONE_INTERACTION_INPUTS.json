@@ -1,0 +1,60 @@
+{
+  "scope": "Pinned reading and reused controls, not complete dependency certification",
+  "inputs": [
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END_DESIGN.md",
+      "sha256": "56da61e3e09c2969cebedf458c68a7287a86e96fcdbf555b12aef9476cb335c0"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/fermion_end.py",
+      "sha256": "f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/END_LAW.md",
+      "sha256": "d816d748f47ae2f0e93a16ffe693fec8db64725bdc7c5dd1c18c8a2a3cd12743"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md",
+      "sha256": "fd460f1360f6d6e55c9d78ccb37074bf4572b6c42e1400e6b660df84528a529e"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS.md",
+      "sha256": "caef6fe791721ca6b313f8fe478e60689d84992547ac6b95afaec1ed3e3f8f76"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "reports/physical_bridge_2026_09_05/parent_tensors.py",
+      "sha256": "6bc0c5a1a6f39090308e24804ef19b7937155fcb02c9af3d2190387768f6f891"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "tests/test_physical_bridge_fermion_end.py",
+      "sha256": "3dfb3f2369ead95578c2306f4b14a43c84afd70347a3fbcabc7a9249a4ca6e56"
+    },
+    {
+      "commit": "5eff8958d2cca98ec649ad83964e1e8f698ac936",
+      "path": "tests/test_physical_bridge_parent_tensors.py",
+      "sha256": "b604d8eef98b7a78ea698b50c244aa401110d350daf9210608172f4a5db79717"
+    }
+  ]
+}

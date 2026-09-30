@@ -1213,3 +1213,16 @@ end domain, selected handedness or particle count is certified.
 | `reports/physical_bridge_2026_09_05/FERMION_END_INPUTS.json` | `0c53d0697c70da40fa29794a3fff4029481337f5ed2cf2954c2a8b85af3f3a82` |
 | `reports/physical_bridge_2026_09_05/fermion_end.py` | `f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964` |
 | `tests/test_physical_bridge_fermion_end.py` | `3dfb3f2369ead95578c2306f4b14a43c84afd70347a3fbcabc7a9249a4ca6e56` |
+
+## R62 cone interaction admission, September 30, 2026
+
+Pre-execution actual curvature and moment-map tests with a general radial
+simple pole. Scope is the declared cone/asymptotic class, not all ends,
+physical chirality or the full nonlinear supersymmetric domain.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_INTERACTION_DESIGN.md` | `0e17fbd86dc5db2fb00b6c397d70e5bac89d5f7095757b820fdf3935b8622b4d` |
+| `reports/physical_bridge_2026_09_05/CONE_INTERACTION_INPUTS.json` | `943209b6c8a4d52cac5c55c39e67f6e83326f441fb2db3ee6275e2d257306a5b` |
+| `reports/physical_bridge_2026_09_05/cone_interaction.py` | `d7d94b8b02951507b05493e1b5ca4f41463e8ae2469d455b71d725214bb81d1a` |
+| `tests/test_physical_bridge_cone_interaction.py` | `2c47910099769a62c59c358f7dbdd32ec27744141335a8e82a5ca2045aa18cc9` |
