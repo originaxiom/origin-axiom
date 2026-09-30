@@ -11282,5 +11282,21 @@
   "depth_note": "Entered 2026-09-30 by the negatives-read-together pass: a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
   "note": "ENTERED 2026-09-30 by the negatives-read-together pass (docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; this seat, one reader, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1500_the_cone_points_choice/verification/cone_point_ih.py (simplicial intersection homology of the compactification on ten members; local_models_check.py) (lock tests/test_b1500_the_cone_points_choice.py).",
   "routed_from": "sm-branch-2026-09-30-read-together"
+ },
+ {
+  "id": "B1504",
+  "claim_killed": "THE END'S CHOICE, its no-go half: that the generated architecture fixes a chiral choice at a cusp point (B1500's choice: lower, a Lagrangian line, or upper). (T1) The order bit cannot: L^-1 (LR) L = RL with det L = +1, and four of the eight isometries between b++LR and b++RL (both m004) preserve orientation, so no datum of the oriented manifold depends on it; the swap P's isometry acts on an existing choice only through the mirror character s_m s_l (with a G2 orientation) or not at all (the frame). (T2) The genesis's own data pick non-chiral completions: the lines every isometry of m004 fixes are the meridian and the fibre's boundary (fillings S^3 and the Sol torus bundle). (T3) Symmetry never forces a chiral end: a finite group of lattice automorphisms fixes a line iff it has no rotation of order 3, 4 or 6, and at a rotated cusp point the self-conjugate (gauge) sector has no symmetric completion, so a completion preserved by every isometry exists iff no cusp point is rotated, and is then available non-chiral. Census: 209 members, 398 cusp points, 25 rotated points on 10 members (orders 3 and 6, all hexagonal). The arc is PROVED; decided at design time, so not sealed.",
+  "kill_form": "symmetry-cannot-select (the architecture's selectors cannot carry the end's chirality: the order bit is invisible to the oriented manifold, since an orientation-preserving change of marking swaps LR and RL; the isometries of the genesis's puncture fix only non-chiral lines; and where a rotation would force a charged end chiral it leaves the self-conjugate sector no symmetric completion, so symmetry permits a non-chiral completion or none; its conclusion is end-datum-input)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "A datum of the completion that is odd under orientation and supplied by physics rather than by the architecture: a G2 orientation on the completion (orientation-reversing isometries then act as parity; they forbid a net chirality at the ends of m004 and every amphichiral member and permit one on the 123 chiral unrotated members), a C-field or flux that flips with the charge (B1500's hatch), or a completion other than B1500's one-point completion (caps and walls, B1395-B1397).",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-09-30 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-09-30 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computation is frontier/B1504_the_ends_choice/verification/end_choice.py (the puncture of m004 and m003, the lattice lemma on all 26 subgroups of D4 and D6, the census of 209 members with every one of 3024 cusp-fixing maps checked as a similarity of its cusp lattice and B1369's instrument agreeing on 99) (lock tests/test_b1504_the_ends_choice.py). Family by the convention of docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md, which it postdates: symmetry-cannot-select, with end-datum-input as its conclusion (the end's chirality is an input: sL-3's second closing condition, at the ends).",
+  "routed_from": "sm-branch-2026-09-30-banking"
  }
 ]

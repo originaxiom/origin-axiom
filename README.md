@@ -387,6 +387,13 @@ emitted value. The structure is the object's; the values are the observer's.
 > only be chiral where its piece meets another one. In the simplest models that never happens for a cusp-shaped piece, though it does
 > happen elsewhere: in one model two pieces meet and demand opposite chiralities, and in another a single piece demanding chirality 3 is
 > balanced by an isolated point.*
+>
+> *And (B1504), whether the record's own starting point makes that choice. It makes no chiral one. The bit that orders the starting
+> word (LR or RL) cannot: a relabelling that keeps the orientation turns one order into the other, so the finished space does not
+> remember it. The starting space's own symmetries single out two ways to close its puncture, and neither is chiral; one of them just
+> fills the puncture back in. And no symmetry of any space in the class forces a chiral choice: where a symmetry would force the
+> charged fields' ends to be chiral, it leaves the uncharged fields' ends no symmetric way to close at all. What remains is a physical
+> question: whether the seven-dimensional space around the point carries an orientation that the four-dimensional theory feels.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

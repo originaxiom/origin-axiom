@@ -143,6 +143,24 @@ matter are therefore one question, asked three times: *where in the architecture
 unanswered (sL-6). The spin-½ half of a generation has its own record. The honest outcome of the first search, a candidate found and
 then closed by a symmetry, is itself evidence that the method follows the architecture rather than bending it toward the target.
 
+## Refinement (2026-09-30, B1504): the one question splits in two
+
+The addendum called the orientation fork, the order bit and the chirality of matter one question, asked three times. B1504 computed
+what each of them does at the one place the chirality chain left open, the choice at a cusp point, and the three come apart.
+- **The order bit is not part of the question.** An orientation-preserving change of marking carries LR to RL (B979), and four of the
+  eight isometries between b++LR and b++RL keep the orientation. So the order bit is a based datum: it lives on the marked record,
+  not on the oriented manifold, and nothing at a cusp point can depend on it. Chirality cannot see it.
+- **Orientation meets matter's chirality only where a G₂ orientation acts.** In the frame, orientation acts on nothing at the end
+  (the count is intersection homology, which uses no orientation). If the completion lives in a G₂ ambient, orientation-reversing
+  isometries act as parity and exchange the two chiral choices. At the genesis's own puncture they then forbid a chiral end.
+- **The addendum's principle holds, and gains a clause.** A symmetry forbids a selection it exchanges. Where a symmetry would force a
+  selection instead (a rotation at a hexagonal cusp, forcing a charged end chiral), it leaves the self-conjugate sector no symmetric
+  completion, so the completion itself must break the symmetry. The architecture forces an orbit there too: the three root lines.
+- **So the question now reads:** where in the architecture is the exchanging symmetry absent, *and* does an orientation act on the
+  four-dimensional theory there? The first half belongs to the architecture. The second belongs to physics (sL-8).
+
+No value moves: 0 of 19. `frontier/B1504_the_ends_choice`.
+
 ## What this does not license
 
 - No multiverse, measure, many-worlds or equal weighting.
@@ -154,4 +172,4 @@ then closed by a symmetry, is itself evidence that the method follows the archit
 Related: `METALLIC_FOUNDATIONS.md`, `P000`, `P001`, `P002`, `P005`, `P011`, `P012`, `P019` (corrected here), `P021`;
 `THE_ORIGIN_POSTULATE.md` (the four-part bar); the mathematics it cites: B1379 (the genesis links), B1380 (orientation against
 minimality), B1382–B1383 (the spin bit, the deck's square), B1384 (the handoff; S0b, the swap), B1385 (the states together; the Eisenstein cusp; the
-global parity).
+global parity), B1504 (the end's choice; the refinement).

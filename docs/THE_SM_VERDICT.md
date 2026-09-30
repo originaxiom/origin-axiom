@@ -890,3 +890,16 @@ left it.
 > - The remainder is the sign (sL-3) and the number (sL-5). No value moves.
 >
 > 0 of 19 (`docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`).
+
+> **Currency note (2026-09-30, B1504): the architecture does not choose the end's chirality.**
+> - The order bit cannot choose it. An orientation-preserving change of marking swaps LR and RL, so the bit is not a property of the
+>   oriented manifold (B979's finding, with the orientation made explicit).
+> - The genesis's own data choose non-chiral completions. m004's isometries fix only the meridian and the fibre's boundary; filling
+>   them gives S³ and the Sol torus bundle.
+> - Symmetry never forces a chiral end. Where a rotation would force a charged end chiral, it leaves the gauge sector's end no
+>   symmetric completion at all (25 such points on 10 of 209 members).
+> - So the end's chirality is an input (sL-3's second closing condition, at the ends). What is left is physical: whether the completion
+>   carries a G₂ orientation (sL-8). With one, the genesis's own puncture forbids a chiral end.
+> - Decided at design time as a theorem, so not sealed.
+>
+> 0 of 19 (`frontier/B1504_the_ends_choice`).

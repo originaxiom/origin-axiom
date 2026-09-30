@@ -1076,3 +1076,27 @@ this seat's chirality chain.
   - 167 placeholders from earlier bulk routings remain.
 
 `docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`. No mathematics changes. 0 of 19.
+
+## Sixty-eighth note (2026-09-30): the end's choice (B1504)
+
+The owner's second step: does the swap P act on B1500's choice at a cusp point the way it acts on the order bit, and does anything
+in the architecture fix that choice? It closed at design time as a theorem, so it was not sealed.
+- **The order bit cannot fix it.** L⁻¹(LR)L = RL with det L = +1, and four of the eight isometries between b++LR and b++RL (both
+  m004) preserve orientation. This is B979's finding with the orientation made explicit: the bit is not a property of the oriented
+  manifold. The swap's isometry is the fibre's reflection, and on an existing choice only the Higgs class's sign (the frame) or the
+  mirror s_m·s_l (your B1324's swap × arrow, with a G₂ orientation) acts, never the swap's sign alone.
+- **The genesis's own data pick non-chiral completions.** The lines every isometry of m004 fixes are the meridian and the fibre's
+  boundary, and filling them gives S³ and the Sol torus bundle. m003's are (1, 0) and its fibre boundary (1, −2).
+- **Symmetry never forces a chiral end.** A finite subgroup of GL(2, ℤ) fixes a line iff it has no rotation of order 3, 4 or 6. Where
+  a rotation would force a charged end chiral, the gauge sector's end has no symmetric completion, so a completion that every
+  isometry preserves exists iff no cusp point is rotated, and is then available non-chiral.
+- **The census** (own code; 209 members: B1186's 99, cube~3.24 and B1399's 109 covers; 398 cusp points; every one of 3 024
+  cusp-fixing maps checked as a similarity of its cusp lattice; B1369's instrument agreeing on the 99):
+  - 25 rotated points on 10 members, of orders 3 and 6 only, all hexagonal, with the three root lines permuted (B1502's phases);
+  - with a G₂ orientation, a chiral completion is allowed on the 123 chiral unrotated members and on none of the 76 amphichiral
+    ones, m004 and m003 among them.
+- **For your chirality section.** The end's chirality is an input, not supplied by the architecture. P022's "one question asked three
+  times" splits: the order bit is a based datum that chirality cannot see; orientation meets matter's chirality only where a G₂
+  orientation acts. The question left is physical: does the completion carry a G₂ orientation (sL-8)?
+
+`frontier/B1504_the_ends_choice`. PROVED, not sealed. 0 of 19.

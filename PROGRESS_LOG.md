@@ -16117,3 +16117,22 @@ no-go.
   rows instead of the standard. It is logged, and a lock now holds the rule for this seat.
 
 `docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md`. 0 of 19.
+
+## 2026-09-30 — B1504: the end's choice
+
+The second step you approved: does P act on the choice at a cusp point the way it acts on the order bit, and does anything in the
+architecture fix that choice? It turned out to be decidable by proof before any computation, so I did not seal it. A seal is for
+an outcome that is still open.
+- **The order bit cannot fix it.** Relabelling the starting word while keeping the orientation turns LR into RL. So the finished
+  space does not remember the order, and nothing at its ends can depend on it. This was already in the record (B979), with the
+  orientation now made explicit.
+- **The starting space's own symmetries pick non-chiral ends.** Only two ways of closing m004's puncture are respected by all its
+  symmetries: the meridian, and the fibre's boundary, which fills the puncture back in.
+- **No symmetry forces a chiral end, anywhere in the class.** Where a symmetry would force a charged end to be chiral, it leaves the
+  uncharged fields' end no symmetric way to close. Checked on 209 spaces and 398 cusp points; 25 points on 10 spaces are of that kind.
+- **What is left.** The end's chirality is an input. Whether a seven-dimensional orientation acts on it is the physical question now
+  (sL-8). With one, the genesis's own puncture forbids a chiral end.
+- **A slip of mine, caught before banking.** I drafted a sentence saying the order-bit point was new. The sweep found B979. Logged.
+- One cross-check could not be completed: B1369's exact instrument on cube~3.24 ran out of memory. The geometric check covers it.
+
+`frontier/B1504_the_ends_choice`. 0 of 19.

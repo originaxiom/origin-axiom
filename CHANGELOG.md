@@ -1,5 +1,31 @@
 # Changelog
 
+## B1504 — the end's choice: nothing in the architecture supplies a chiral one (PROVED, not sealed)
+
+- **The question** (the owner's approved second step): does the swap P act on B1500's choice at a cusp point the way it acts on the
+  order bit, and does anything in the architecture fix that choice? It closed at design time as a theorem, so it was not sealed.
+- **T1, the order bit.** L⁻¹(LR)L = RL with det L = +1, and four of the eight isometries between b++LR and b++RL (both m004)
+  preserve orientation. So the bit is not a property of the oriented manifold (B979's finding, with the orientation made explicit).
+  On an existing end choice, only the Higgs class's sign (the frame) or the mirror s_m·s_l (with a G₂ orientation) acts.
+- **T2, the puncture.** The lines every isometry of m004 fixes are the meridian and the fibre's boundary; the fillings are S³ and the
+  Sol torus bundle. m003's are (1, 0) and its fibre boundary (1, −2).
+- **T3, the rotation.** A finite subgroup of GL(2, ℤ) fixes a line iff it has no rotation of order 3, 4 or 6 (all 26 subgroups of D₄
+  and D₆ checked). At a rotated cusp point the gauge sector has no symmetric completion. So symmetry permits a non-chiral completion
+  or none, and never forces a chiral end.
+- **The census** (own code): 209 members, 398 cusp points, 2 034 isometries.
+  - Every one of the 3 024 cusp-fixing maps was checked as a similarity of its cusp lattice, and B1369's instrument agrees on 99 of 99.
+  - 25 points on 10 members are rotated, of orders 3 and 6 only, all hexagonal, with the three root lines permuted.
+  - With a G₂ orientation, a chiral completion is allowed on the 123 chiral unrotated members and on none of the 76 amphichiral ones.
+  - B1369's own-triangulation check on cube~3.24 ran out of memory (killed at about 14 GB). There the check rests on the geometric one.
+- **For sL-3.** The end's chirality is an input: the second closing condition, now at the ends. The question left is physical: whether
+  the completion carries a G₂ orientation (sL-8). P022 carries a dated refinement: the addendum's "one question asked three times"
+  splits in two.
+- **Self-caught (E54).** A draft novelty sentence for T1 (a) was written before the sweep, which found B979. It was never banked.
+- **Surfaces.** Registry row T-END-CHOICE, OPEN_LEADS (sL-3, sL-8), THE_SM_VERDICT, README, the letter's 68th note, the alias table
+  (next arc B1505), P022, the negatives note's currency section, the kill graph (with content), ERROR_LEDGER, logs, atlas, views.
+
+`frontier/B1504_the_ends_choice`; lock `tests/test_b1504_the_ends_choice.py`. 0 of 19.
+
 ## The negatives read together: the chirality chain's kill records classified by what killed them (E45 instance)
 
 - **Why.** The owner asked whether the record can read the pattern of its negatives. The kill graph held the chain's 16 kills as

@@ -1,0 +1,325 @@
+                                    m004  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    m003  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    m202  cusps 2  isometries  12  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                                    m203  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    m206  cusps 1  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    m207  cusps 1  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    m208  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    m410  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    m412  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    s118  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    s119  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    s594  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    s595  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    s596  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    s955  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    s956  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    s957  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    s958  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                    s959  cusps 2  isometries  12  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                                    s960  cusps 1  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                    s961  cusps 1  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                   v2873  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                   v2874  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                   v3551  cusps 2  isometries  12  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                                  t12833  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                  t12834  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                  t12835  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                  t12836  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                  t12837  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                  t12838  cusps 1  isometries  32  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                  t12839  cusps 1  isometries  32  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                  t12840  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                  t12841  cusps 2  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                  t12842  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                                  t12843  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                  t12844  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                  t12845  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                o9_27787  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                o9_40998  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                o9_40999  cusps 2  isometries  12  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                                o9_41001  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                o9_41002  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                o9_41007  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                o9_41009  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                                o9_44249  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_064767  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_107944  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_107945  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_107946  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_107947  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_107948  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_107949  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150683  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150684  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150685  cusps 3  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150686  cusps 2  isometries   1  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150687  cusps 3  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150688  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150689  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150690  cusps 4  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150691  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150692  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150693  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150694  cusps 1  isometries  10  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150695  cusps 1  isometries  40  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150696  cusps 1  isometries  40  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150697  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150698  cusps 1  isometries   1  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150699  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150700  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150701  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150702  cusps 3  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150703  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150704  cusps 4  isometries  48  rotated points 4  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150705  cusps 2  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150706  cusps 2  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150707  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150708  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150709  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150710  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150711  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150712  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150713  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150714  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150715  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150716  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150717  cusps 3  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150718  cusps 3  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150719  cusps 2  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150720  cusps 3  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150721  cusps 3  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150722  cusps 3  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150723  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150724  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck canonical/True  geometric True
+                              o10_150725  cusps 3  isometries  12  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150726  cusps 2  isometries  48  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150727  cusps 4  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150728  cusps 3  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck canonical/True  geometric True
+                              o10_150729  cusps 5  isometries 240  rotated points 5  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck canonical/True  geometric True
+                               cube~3.24  cusps 4  isometries   6  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck deferred/True  geometric True
+                          B1399:0:s959~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                         B1399:1:v2873~3  cusps 1  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                        B1399:2:t12833~3  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                        B1399:3:t12833~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                        B1399:4:t12835~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                        B1399:5:t12835~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                        B1399:6:t12843~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                        B1399:7:t12843~3  cusps 2  isometries   3  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                    B1399:8:o10_150684~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                    B1399:9:o10_150684~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:10:o10_150684~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:11:o10_150684~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:12:o10_150685~3  cusps 3  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:13:o10_150687~3  cusps 3  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:14:o10_150688~2  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:15:o10_150688~3  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:16:o10_150688~3  cusps 2  isometries   1  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:17:o10_150689~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:18:o10_150689~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:19:o10_150689~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:20:o10_150689~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:21:o10_150690~3  cusps 4  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:22:o10_150691~3  cusps 3  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:23:o10_150691~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:24:o10_150691~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:25:o10_150691~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:26:o10_150692~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:27:o10_150692~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:28:o10_150692~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:29:o10_150693~3  cusps 2  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:30:o10_150693~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:31:o10_150702~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:32:o10_150704~3  cusps 4  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:33:o10_150706~3  cusps 2  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:34:o10_150706~3  cusps 2  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:35:o10_150707~2  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:36:o10_150707~3  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:37:o10_150708~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:38:o10_150708~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:39:o10_150708~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:40:o10_150708~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:41:o10_150709~2  cusps 1  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:42:o10_150710~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:43:o10_150710~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:44:o10_150710~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:45:o10_150710~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:46:o10_150710~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:47:o10_150710~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:48:o10_150712~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:49:o10_150712~3  cusps 3  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:50:o10_150712~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:51:o10_150712~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:52:o10_150713~2  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:53:o10_150713~2  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:54:o10_150713~3  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:55:o10_150713~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:56:o10_150713~3  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:57:o10_150713~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:58:o10_150713~3  cusps 3  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:59:o10_150713~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:60:o10_150713~3  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:61:o10_150713~3  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:62:o10_150714~2  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:63:o10_150714~3  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:64:o10_150714~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:65:o10_150714~3  cusps 3  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:66:o10_150714~3  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:67:o10_150714~3  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:68:o10_150714~3  cusps 1  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:69:o10_150715~3  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:70:o10_150715~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:71:o10_150715~3  cusps 2  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:72:o10_150716~2  cusps 1  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:73:o10_150716~3  cusps 2  isometries   1  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:74:o10_150716~3  cusps 1  isometries   3  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:75:o10_150716~3  cusps 1  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:76:o10_150717~3  cusps 3  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:77:o10_150717~3  cusps 3  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:78:o10_150718~3  cusps 3  isometries  16  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:79:o10_150718~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:80:o10_150720~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:81:o10_150720~3  cusps 3  isometries   8  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:82:o10_150721~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:83:o10_150722~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:84:o10_150723~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:85:o10_150723~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:86:o10_150723~3  cusps 2  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:87:o10_150723~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:88:o10_150723~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:89:o10_150723~3  cusps 2  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:90:o10_150724~2  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:91:o10_150724~3  cusps 1  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:92:o10_150724~3  cusps 1  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:93:o10_150724~3  cusps 2  isometries   2  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:94:o10_150724~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:95:o10_150724~3  cusps 1  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:96:o10_150724~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:97:o10_150725~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                   B1399:98:o10_150725~3  cusps 3  isometries   6  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral True  xcheck deferred/True  geometric True
+                   B1399:99:o10_150725~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:100:o10_150725~3  cusps 3  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:101:o10_150725~3  cusps 4  isometries  12  rotated points 2  symmetric self-dual False  frame chiral False  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:102:o10_150727~3  cusps 4  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:103:o10_150727~3  cusps 4  isometries  12  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:104:o10_150727~3  cusps 4  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:105:o10_150727~3  cusps 4  isometries  24  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:106:o10_150728~3  cusps 3  isometries  48  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:107:o10_150728~3  cusps 3  isometries   4  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+                  B1399:108:o10_150729~3  cusps 5  isometries  48  rotated points 0  symmetric self-dual True  frame chiral True  G2 chiral False  xcheck deferred/True  geometric True
+
+LEMMA {"subgroups": 26, "with_rotation": 7, "violations": 0}
+
+SUMMARY
+{
+ "members": 209,
+ "arithmetic_family": 99,
+ "crosscheck_failures": [],
+ "crosscheck_methods": {
+  "canonical": 99,
+  "deferred": 110
+ },
+ "geometric_failures": [],
+ "with_rotated_points": [
+  "m202",
+  "s959",
+  "v3551",
+  "o9_40999",
+  "o10_150704",
+  "o10_150725",
+  "o10_150726",
+  "o10_150729",
+  "cube~3.24",
+  "B1399:101:o10_150725~3"
+ ],
+ "rotated_points": 25,
+ "rotation_orders_seen": [
+  3,
+  6
+ ],
+ "rotated_all_hexagonal": true,
+ "rotation_permutes_roots_everywhere": true,
+ "symmetric_self_dual_completion": 199,
+ "frame_chiral_allowed": 199,
+ "g2_chiral_allowed": 123,
+ "g2_forbids_where_frame_allows": [
+  "m004",
+  "m003",
+  "m203",
+  "m206",
+  "m207",
+  "s596",
+  "s955",
+  "s957",
+  "s960",
+  "s961",
+  "t12838",
+  "t12839",
+  "t12840",
+  "t12841",
+  "t12842",
+  "o10_150684",
+  "o10_150685",
+  "o10_150688",
+  "o10_150693",
+  "o10_150695",
+  "o10_150696",
+  "o10_150706",
+  "o10_150707",
+  "o10_150708",
+  "o10_150710",
+  "o10_150716",
+  "o10_150717",
+  "o10_150718",
+  "o10_150722",
+  "o10_150723",
+  "o10_150727",
+  "o10_150728",
+  "B1399:8:o10_150684~3",
+  "B1399:9:o10_150684~3",
+  "B1399:10:o10_150684~3",
+  "B1399:11:o10_150684~3",
+  "B1399:12:o10_150685~3",
+  "B1399:15:o10_150688~3",
+  "B1399:29:o10_150693~3",
+  "B1399:32:o10_150704~3",
+  "B1399:33:o10_150706~3",
+  "B1399:34:o10_150706~3",
+  "B1399:35:o10_150707~2",
+  "B1399:36:o10_150707~3",
+  "B1399:37:o10_150708~3",
+  "B1399:38:o10_150708~3",
+  "B1399:39:o10_150708~3",
+  "B1399:40:o10_150708~3",
+  "B1399:42:o10_150710~3",
+  "B1399:43:o10_150710~3",
+  "B1399:44:o10_150710~3",
+  "B1399:45:o10_150710~3",
+  "B1399:46:o10_150710~3",
+  "B1399:47:o10_150710~3",
+  "B1399:75:o10_150716~3",
+  "B1399:76:o10_150717~3",
+  "B1399:77:o10_150717~3",
+  "B1399:78:o10_150718~3",
+  "B1399:79:o10_150718~3",
+  "B1399:83:o10_150722~3",
+  "B1399:84:o10_150723~3",
+  "B1399:85:o10_150723~3",
+  "B1399:86:o10_150723~3",
+  "B1399:87:o10_150723~3",
+  "B1399:88:o10_150723~3",
+  "B1399:89:o10_150723~3",
+  "B1399:97:o10_150725~3",
+  "B1399:99:o10_150725~3",
+  "B1399:100:o10_150725~3",
+  "B1399:102:o10_150727~3",
+  "B1399:103:o10_150727~3",
+  "B1399:104:o10_150727~3",
+  "B1399:105:o10_150727~3",
+  "B1399:106:o10_150728~3",
+  "B1399:107:o10_150728~3",
+  "B1399:108:o10_150729~3"
+ ],
+ "lemma_violations": [],
+ "own_triangulation_crosschecks": []
+}

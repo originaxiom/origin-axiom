@@ -3003,7 +3003,25 @@ deletion.
 - Every orientation-odd datum the chain found was supplied at an end (B1388, B1393, B1395, B1500). That bears on this lead's second
   closing condition, and it had not been tallied against it.
 - This lead had no entry between 2026-09-27 and now. Its next piece is a sealed genesis-side arc, B1504: the swap P and the choice at
-  a cusp point.
+  a cusp point. (B1504 closed at design time as a theorem, so it was not sealed; see the next entry.)
+
+**sL-3, 2026-09-30, B1504 — the end's choice: nothing in the architecture supplies a chiral one.** Not sealed: the question closed
+at design time as a theorem (the record's rule, as for B1396, B1500 and B1502).
+- **The order bit cannot fix it.** An orientation-preserving change of marking (conjugation by L) carries LR to RL, and four of the
+  eight isometries between b++LR and b++RL preserve orientation. That is B979's finding with the orientation made explicit. The
+  swap's isometry is the fibre's reflection. The characters that act on an existing end choice are the Higgs class's sign (in the
+  frame) or the mirror s_m·s_l (with a G₂ orientation), never the swap's sign alone.
+- **The genesis's own data pick non-chiral completions.** The lines every isometry of m004 fixes are the meridian and the fibre's
+  boundary. Filling them gives S³ and the Sol torus bundle (P019's "no puncture" sibling).
+- **Symmetry never forces a chiral end.** Where a rotation (order 3 or 6, at a hexagonal cusp) would force a charged end chiral, it
+  leaves the gauge sector's end no symmetric completion. In a census of 209 members, 25 cusp points on 10 members are rotated; every
+  other member admits a symmetric non-chiral completion.
+- **For this lead.** The end's chirality is an input: the second closing condition, now at the ends.
+  - In the frame, orientation does not act on the end. With a G₂ orientation it does, and at the genesis's own puncture it forbids a
+    chiral end.
+  - P022's "one question asked three times" splits: the order bit is a based datum that chirality cannot see, and orientation meets
+    matter's chirality only where a G₂ orientation acts.
+  - What is left is physical: whether the completion carries a G₂ orientation (sL-8). `frontier/B1504_the_ends_choice`.
 
 ## sL-4 — THE RELATIVE SL₅ COMPONENT SEARCH ON M₂ (registered 2026-09-27, B1384; the web seats' next mathematical gate)
 
@@ -3405,6 +3423,18 @@ This job is not optional, whichever answers the first two questions get. `fronti
     was withdrawn the same day.
   - Open: their S³ × S³; extra discrete automorphisms; orbifold links that are not global quotients, where a lone locus can be chiral.
   `frontier/B1503_the_apex_index_rule`.
+
+**Status (2026-09-30, B1504): the architecture does not make the choice.**
+- B1504 asked whether the generated architecture itself fixes B1500's choice. It fixes no chiral one:
+  - the order bit is invisible to the oriented manifold;
+  - m004's isometries fix only the meridian and the fibre's boundary, which are non-chiral completions;
+  - a rotation that would force a charged end chiral leaves the gauge sector's end no symmetric completion.
+- So question 1 stays with the local physics, and one piece of it is now explicit: **does the completion carry a G₂ orientation?**
+  - With one, orientation-reversing isometries act as parity. On m004 and the other amphichiral unrotated members of the census
+    (76 in all), every completion they preserve has net chirality zero at the ends; on the 123 chiral ones a chiral completion is
+    allowed.
+  - Without one (the frame), orientation acts on nothing.
+  `frontier/B1504_the_ends_choice`.
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

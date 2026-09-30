@@ -8832,6 +8832,32 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1504": {
+   "slug": "the ends choice",
+   "motifs": [
+    "closing",
+    "choice",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B760",
+    "B775",
+    "B979",
+    "L1",
+    "P019",
+    "P022",
+    "S7"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B150": {
    "slug": "class s coincidence",
    "motifs": [

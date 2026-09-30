@@ -12,7 +12,8 @@ something whose effect is needed now?
 The seat's answer proposed two steps, and the owner approved them:
 1. **Classify the kills**, naming the symmetry or rule that killed each, and enter the PROVED no-go results too, so the pattern is
    something the record can check. This note is that step.
-2. **A sealed genesis-side arc** (B1504) on the remainder the pattern leaves.
+2. **A sealed genesis-side arc** (B1504) on the remainder the pattern leaves. (It closed at design time as a theorem, so it was not
+   sealed; see the currency note at the end.)
 
 ## What was done
 
@@ -154,3 +155,16 @@ on the audit lane (three commits since 2026-09-27, on a neutral-mode census).
 
 The mathematics does not change, and no value moves: 0 of 19. The kill graph can now say what killed each step of the chirality chain,
 by family and by name. B1504 takes up the remainder on the genesis side.
+
+## Currency (2026-09-30, later): B1504
+
+- **Not sealed.** B1504's question closed at design time as a theorem, so there was no open outcome to seal. The owner approved a
+  sealed arc; the record's rule for theorems (B1396, B1500, B1502) applied instead.
+- **Its answer, on the sign (sL-3).**
+  - The order bit is not a property of the oriented manifold, so no datum at a cusp point can depend on it.
+  - The genesis's own puncture has exactly two symmetric self-dual completions, and neither is chiral: the meridian and the
+    fibre's boundary.
+  - Symmetry never forces a chiral end, because where a rotation would force one it leaves the gauge sector no symmetric completion.
+  - The end's chirality is an input. What is left is physical: whether the completion carries a G₂ orientation (sL-8).
+- **Its record.** B1504 is in the kill graph as `symmetry-cannot-select`, with `end-datum-input` as its conclusion. It was routed at
+  banking (`routed_from` `sm-branch-2026-09-30-banking`), not by this pass, so the table and tally above are unchanged.
