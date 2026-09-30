@@ -1,6 +1,15 @@
-# Verdict toward the full physical-theory goal - R59, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R60, updated 2026-09-30
 
-**Current execution, R59:** the supplied E8 parent's actual E and
+**Current execution, R60:** boundary variation of the adopted action is
+checked, with 30 exact controls and 15 tests passing. B1504's finite
+lattice theorem survives independent verification; its physical use must
+retain the Poincare-self-dual-domain hypothesis, distinguish cone and
+complete-cusp norms, and not erase a retained marking by assumption.
+The next discriminator is the actual fermion reality/supersymmetry map
+and compatible interaction domains. Mathematical alternatives do not
+establish physical chirality. [Result](END_LAW.md). Full mission unchanged.
+
+**Preceding execution, R59:** the supplied E8 parent's actual E and
 Lambda2(E) matter dictionary and BOTH nonzero charged cubic maps are
 verified. Native 18/18, focused 16 tests and 15 unchanged foreign
 parent-admission tests pass. This is a same-parent coefficient/tensor

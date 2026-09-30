@@ -9,6 +9,10 @@ supplied E8 coefficient dictionary and both nonzero cubic maps. A global
 chiral background and its same-action end law remain next, not another
 bundle relabeling. [R57](ROOT_SCOPE_AUDIT.md) and the canonical
 [R56 cubic](LIGHT_CUBIC.md) remain preserved as conditional progress.
+The [R60 boundary audit](END_LAW.md) now checks the adopted action's
+boundary variation and retains B1504's conditional symmetry theorem.
+Next derive the actual fermion reality and supersymmetry maps before
+admitting a chiral end domain. No physical chirality is certified.
 The older dated entries below are historical, not today's priority list.
 
 

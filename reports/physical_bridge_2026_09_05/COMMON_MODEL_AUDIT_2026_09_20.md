@@ -1,6 +1,14 @@
 # One-model audit: which positive results actually compose?
 
-**Current approved execution, R59, September 30:** the actual E8 adjoint
+**Current approved execution, R60, September 30:** the adopted action's
+boundary term is explicit, but an admissible end law remains to be earned.
+Self-adjointness and Poincare self-duality are not interchangeable;
+the physical fermion map must determine which is required. Thirty exact
+controls and 15 tests pass. Preserve B1504's conditional theorem and the
+canonical complete-space model; do not transport a cone index across a
+metric/domain change. [Result](END_LAW.md).
+
+**Preceding approved execution, R59, September 30:** the actual E8 adjoint
 parent supplies E for Q,u,e, Lambda2(E) for d,L, their duals and two
 nonzero charged cubic tensor maps. Native 18/18, own 16 tests and foreign
 15-test reproduction pass. This does not insert the literal rank-six M6

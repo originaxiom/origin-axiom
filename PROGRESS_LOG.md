@@ -15841,3 +15841,19 @@ balances, including the distinction between harmonic-map energy and
 physical static action. Next test the same-action end law and genesis
 marking, retaining the full physics goal. No full-bank certificate.
 Report: reports/physical_bridge_2026_09_05/PARENT_TENSORS.md.
+
+## 2026-09-30 - R60 boundary variation and cone completion audit
+
+Remote-confirmed scientific seal 48c04785 precedes all runs. Thirty exact
+controls and 15 selected tests pass; the unchanged B1504 lattice lemma
+reproduces 26 subgroup entries and seven rotation-containing entries.
+The independent subset census preserves the finite-symmetry theorem.
+Countercontrols distinguish self-adjoint from Poincare-self-dual domains,
+marked equivariance from unmarked invariance, and arbitrary ideal lines
+from B1502's three selected smoothings. The full nonabelian classical
+superpotential variation retains its boundary term and cubic; local
+boundary potentials give different graph conditions in the same chart.
+These alternatives are not certified physical domains. Next derive the
+actual fermion reality/supercharge map and test the same-parent
+interaction domains. No new physical chirality, global census verification
+or full-bank claim. Report: reports/physical_bridge_2026_09_05/END_LAW.md.

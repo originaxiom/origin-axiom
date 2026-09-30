@@ -1,6 +1,15 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
-**Current execution, R59 (September 30):** the actual supplied E8
+**Current execution, R60 (September 30):** the adopted superpotential's
+boundary variation is checked. B1504's lattice obstruction is conditional
+on Poincare-self-dual neutral domains; self-adjointness alone is weaker.
+Next derive the actual twisted-fermion reality and supercharge maps and
+check compatible bosonic, fermionic and interaction domains. Do not select
+an index first. Marking, metric change and shortest-slope restrictions
+remain explicit inputs. Report:
+reports/physical_bridge_2026_09_05/END_LAW.md.
+
+**Preceding execution, R59 (September 30):** the actual supplied E8
 coefficient and cubic-tensor map is verified. Next inspect the actual
 source/end variations and test whether genesis data supply them. The
 finite-energy nonsplit obstruction and its physical-admissibility caveat

@@ -1,6 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**Current execution, R59 (September 30):** the actual supplied E8 parent
+**Current execution, R60 (September 30):** the supplied complex
+Chern-Simons superpotential now has an explicit checked boundary variation.
+B1504's invariant-line obstruction is retained under its self-dual-domain
+hypothesis, not promoted to all self-adjoint physical completions.
+Thirty controls and 15 tests pass; no physical chiral end law is derived.
+Report: reports/physical_bridge_2026_09_05/END_LAW.md.
+
+**Preceding execution, R59 (September 30):** the actual supplied E8 parent
 has verified E/Lambda2(E) charged coefficients and both nonzero cubic
 tensor maps. This advances the necessary common-model connection, not
 a physical spectrum or selected action. 18 exact controls, 16 own tests

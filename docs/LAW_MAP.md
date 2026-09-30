@@ -867,3 +867,17 @@ obstruction is reproduced, not newly discovered.
 |---|---|---|
 | The stated E8 adjoint parent has charged coefficients E and Lambda2(E) | Q,u,e use E5; d,L use Lambda2(E)10, with corresponding duals and consistently admitted line twists. No fibre-rank particle count or literal rank-six transfer. | B1384 embedding context; fork m6_parent_admission at 490d77c4; R59 PARENT_TENSORS_DESIGN.md; tests/test_physical_bridge_parent_tensors.py::test_branching_needs_duality_and_Cartans |
 | Both charged parent cubic channels are nonzero associated-bundle maps | E E Lambda2(E)* evaluation and E Lambda2(E) Lambda2(E) volume contraction; exact root support agrees for both. No Chevalley sign gauge, relative normalization, normalizable modes or overlap values computed. | B1384 embedding context, not a prior proof of this check; R59 PARENT_TENSORS_DESIGN.md; tests/test_physical_bridge_parent_tensors.py::test_up_tensor_matches_every_root_triple and test_down_tensor_matches_every_root_triple |
+
+## Boundary law scope and variation, September 30, 2026
+
+R60 is a conditional action and hypothesis audit, not a new physical
+chirality theorem. The cited analytic operator theorem is not certified
+by these finite controls.
+
+| law (scoped statement) | scope and limits | evidence |
+|---|---|---|
+| A finite torus-lattice symmetry group has a common real line exactly when it has no order 3, 4 or 6 rotation | Retains B1504's conditional invariant self-dual obstruction. Does not classify physical completions. | B1504 at ba41670b; R60 END_LAW_DESIGN.md; tests/test_physical_bridge_end_law.py::test_all_subsets_lattice_lemma |
+| Self-adjoint Green-form domains need not be Poincare-self-dual | W plus its positive orthogonal complement is maximal isotropic in doubled Cauchy data, including invariant W=0,V. Their physical fermion admissibility is NOT established. | B1500/B1504 hypothesis audit; Albin et al. 1307.5473 Theorems 1--2; tests/test_physical_bridge_end_law.py::test_self_adjoint_green_condition_is_not_poincare_self_duality |
+| A rotated ideal boundary line need not be a shortest lattice line | Primitive slope (1,3) has a separate three-orbit with squared length 14 for the declared hexagonal Gram matrix. B1502's three particular smoothings retain their root restriction. | B1504 broad reading scoped by R60 END_LAW_DESIGN.md; tests/test_physical_bridge_end_law.py::test_projective_orbit_does_not_require_shortest_lines |
+| The supplied complex Chern-Simons superpotential retains a boundary variation | delta W=2c integral tr(delta C wedge F)-c integral_boundary tr(C wedge delta C), on an oriented regulator. The abelian graph examples are local, not globally gauge/supersymmetry-certified boundary laws. | B1504 supplied-superpotential context; Pantev--Wijnholt 0905.1968 eq. 2.25; R60 END_LAW_DESIGN.md; tests/test_physical_bridge_end_law.py::test_actual_nonabelian_variation_has_boundary_and_cubic |
+| Changing a complete cusp to an incomplete cone changes tangential L2 admission | Constant tangential one-form radial densities d rho/rho versus d rho for the two declared metrics. Not a global mode or particle count. | B1500 completion context, fork F02 complete-domain contrast; R60 END_LAW_DESIGN.md; tests/test_physical_bridge_end_law.py::test_metric_change_changes_end_norms |

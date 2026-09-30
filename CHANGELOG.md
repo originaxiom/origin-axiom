@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-09-30 - R60 boundary variation and cone completion scope
+
+The supplied complex Chern-Simons superpotential's boundary variation
+is explicit. Independent lattice checks preserve B1504's conditional
+self-dual obstruction while separating it from self-adjointness,
+retained markings and the three selected smoothings. Native 30/30 and
+15 focused tests pass; the unchanged foreign lattice lemma reproduces.
+Seal 48c04785 was server-confirmed before execution. No physical end
+law or chirality is certified. Next derive the actual fermion reality
+and supersymmetry constraints on the SAME boundary data. Report:
+reports/physical_bridge_2026_09_05/END_LAW.md.
+
 ## 2026-09-30 - R59 actual parent coefficients and cubic maps
 
 Verify the supplied E8 adjoint matter dictionary and both charged cubic

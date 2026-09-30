@@ -1,6 +1,14 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
-**Current execution, R59 (September 30):** the actual supplied E8 parent
+**Current execution, R60 (September 30):** the same-action boundary
+variation and scoped B1504 reception advance PB-BOUNDARY, not physical
+chirality. Thirty exact controls and 15 tests pass. Self-adjointness,
+Poincare self-duality, metric completion and retained marking are separate
+conditions. Next earn their actual physical identification through the
+fermion reality/supercharge map. Report:
+reports/physical_bridge_2026_09_05/END_LAW.md.
+
+**Preceding execution, R59 (September 30):** the actual supplied E8 parent
 has verified E/Lambda2(E) charged coefficients and both nonzero cubic
 tensor maps. This advances the necessary common-model connection, not
 the physical chirality or completion grades. 18 exact controls, 16 own

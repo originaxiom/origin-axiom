@@ -1,6 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**Current execution, R59, September 30:** actual supplied-parent matter
+**Current execution, R60, September 30:** boundary variation checked;
+B1504's conditional self-dual symmetry theorem retained, broader readings
+scoped. Native 30/30 and 15 tests pass; foreign lattice lemma reproduced.
+The next physical test is the actual fermion reality/supercharge map,
+not a new census or a freely chosen desired index. No full-bank or
+physical completion certificate. Report:
+reports/physical_bridge_2026_09_05/END_LAW.md.
+
+**Preceding execution, R59, September 30:** actual supplied-parent matter
 bundles and both charged cubic maps verified. Native 18/18; 16 focused
 tests; 15 unchanged foreign tests. No physical chiral background or
 normalized coupling is claimed. Next: same-action source/end variation,

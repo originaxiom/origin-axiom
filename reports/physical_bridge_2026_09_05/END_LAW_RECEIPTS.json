@@ -1,0 +1,119 @@
+{
+  "seal": "48c04785b641d57b103ae21e2bc9d6c9426dfa1d",
+  "scope": "Original complete outputs; paths redacted, no mathematical output changed",
+  "runs": {
+    "native_first": {
+      "raw_basename": "native_first",
+      "raw_receipt_sha256": "fb31c29591d971ad1cbf855d28792dda9ea624578156d0d6021019290b0371fa",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/end_law.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7572719999589026,
+        "log_bytes": 4570,
+        "log_sha256": "ebdb3a51b42edf97ab5ed49731028df90c8856f86fb51f798e1961ea6ba80da3"
+      },
+      "stdout": "{\n  \"scope\": \"Exact local algebra and norm controls, not a physical completion\",\n  \"checks\": {\n    \"oriented_conjugacy\": true,\n    \"nonroot_orbit\": true,\n    \"nonroot_length\": true,\n    \"root_orbit\": true,\n    \"marking_changes_line\": true,\n    \"marking_equivariance\": true,\n    \"lattice_count\": true,\n    \"lattice_rotations\": true,\n    \"lattice_equivalence\": true,\n    \"doubled_domains_maximal_isotropic\": true,\n    \"extreme_domains_invariant\": true,\n    \"extremes_not_poincare_self_dual\": true,\n    \"line_poincare_self_dual\": true,\n    \"wrong_domain_rejected\": true,\n    \"hexagonal_metric_preserved\": true,\n    \"nonabelian_variation\": true,\n    \"wrong_boundary_sign_rejected\": true,\n    \"cubic_nonzero\": true,\n    \"omitted_cubic_rejected\": true,\n    \"boundary_symplectic\": true,\n    \"graph_stationarity\": true,\n    \"different_potentials_different_graphs\": true,\n    \"wrong_graph_rejected\": true,\n    \"cusp_density\": true,\n    \"cone_density\": true,\n    \"cone_constant_integrable\": true,\n    \"cusp_constant_not_integrable\": true,\n    \"cusp_distance_infinite\": true,\n    \"cone_distance_finite\": true,\n    \"norms_not_identified\": true\n  },\n  \"all_checks_pass\": true,\n  \"subgroup_entries\": [\n    {\n      \"ambient\": \"D4\",\n      \"size\": 1,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 4,\n      \"has_line\": false,\n      \"rotation\": true\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 4,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 4,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D4\",\n      \"size\": 8,\n      \"has_line\": false,\n      \"rotation\": true\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 1,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 3,\n      \"has_line\": false,\n      \"rotation\": true\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 4,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 4,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 6,\n      \"has_line\": false,\n      \"rotation\": true\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 6,\n      \"has_line\": false,\n      \"rotation\": true\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 2,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 4,\n      \"has_line\": true,\n      \"rotation\": false\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 6,\n      \"has_line\": false,\n      \"rotation\": true\n    },\n    {\n      \"ambient\": \"D6\",\n      \"size\": 12,\n      \"has_line\": false,\n      \"rotation\": true\n    }\n  ],\n  \"cauchy_domains\": [\n    {\n      \"dim_W\": 0,\n      \"boundary_dim\": 2,\n      \"isotropic\": true,\n      \"rotation_invariant\": true,\n      \"poincare_self_dual\": false\n    },\n    {\n      \"dim_W\": 2,\n      \"boundary_dim\": 2,\n      \"isotropic\": true,\n      \"rotation_invariant\": true,\n      \"poincare_self_dual\": false\n    },\n    {\n      \"dim_W\": 1,\n      \"boundary_dim\": 2,\n      \"isotropic\": true,\n      \"rotation_invariant\": false,\n      \"poincare_self_dual\": true\n    }\n  ],\n  \"nonroot_orbit\": [\n    [\n      1,\n      3\n    ],\n    [\n      2,\n      -1\n    ],\n    [\n      3,\n      2\n    ]\n  ],\n  \"action\": {\n    \"bulk_variation\": \"4*x*z + 2*x + 8*y\",\n    \"boundary_derivative\": \"-2*x\",\n    \"cubic\": \"6*x*y + 6*z\",\n    \"graph_equation\": \"2*k*u + 2*v\"\n  }\n}\n"
+    },
+    "focused_first": {
+      "raw_basename": "focused_first",
+      "raw_receipt_sha256": "c18495868f0a34c8ab6146df593cc37752496f6a87adaa8402976fd35867921c",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_end_law.py",
+          "tests/test_physical_bridge_parent_tensors.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.250083999999333,
+        "log_bytes": 99,
+        "log_sha256": "f327aa59ce871c01974e63dab80cf4064340356b05cbe25fb47af9174515cae1"
+      },
+      "stdout": "...............                                                          [100%]\n15 passed in 1.77s\n"
+    },
+    "foreign_lemma_first": {
+      "raw_basename": "foreign_lemma_first",
+      "raw_receipt_sha256": "ec12d5b7a5ccbd4b654ddef5c81575e0d5c6f15180fe641ef67e16364069e5bc",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/end_law.py",
+          "--foreign-lemma"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.6357289999723434,
+        "log_bytes": 140,
+        "log_sha256": "edcbcac01b50ea89db6f72b9899baf3a1ec64559d7bd835019593285b5691332"
+      },
+      "stdout": "{\n  \"scope\": \"Unchanged B1504 lattice lemma only, not its geometric census\",\n  \"entries\": 26,\n  \"rotations\": 7,\n  \"all_checks_pass\": true\n}\n"
+    }
+  },
+  "audit_runs": {
+    "custody_first": {
+      "raw_basename": "custody_first",
+      "raw_receipt_sha256": "e908d67df9b42a46e767c2afa2512c5904f54e7ba38889ff1d622464115afd54",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/end_law_receipt_check.rb",
+          "<raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.5990389999933541,
+        "log_bytes": 203,
+        "log_sha256": "f4239d071e1c81bb2ed15629cc60fea09b0e384889f1931e5af4b221f2df6e85"
+      },
+      "stdout": "{\"sealed_science_paths\":4,\"input_pins\":9,\"raw_captures\":3,\"native_checks\":30,\"focused_tests\":15,\"scope\":\"Byte custody and recorded outcomes, not an independent proof, full suite or physical completion\"}\n"
+    },
+    "cumulative_first": {
+      "raw_basename": "cumulative_first",
+      "raw_receipt_sha256": "32fd323143bb4b570d717d9ee4d3e140b0cadd10773bd5389cc58f5c969efed1",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "/Users/dri/Documents/temp001"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.1347630000091158,
+        "log_bytes": 616,
+        "log_sha256": "258ac20ff967a312afa3729a90ad0caeb1d1fbe291792b529a79074aa5aa222b"
+      },
+      "stdout": "{\"old_custody\":{\"artifacts\":975,\"latest_distinct_seals\":333,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":181,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "gates_first": {
+      "raw_basename": "gates_first",
+      "raw_receipt_sha256": "970c24014297f82f1b0b6f0f248d1eaacdd94c2b1d88033cb09e277930c5630a",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.170701999973971,
+        "log_bytes": 2189,
+        "log_sha256": "1a636a68d97ff116ec683cbe0a36d9503d444967a649ee089774c50beb3d8d56"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 35 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 239 merges since last review (DUE — run the decadal review)\n"
+    }
+  }
+}

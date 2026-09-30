@@ -3831,3 +3831,30 @@ is not a zero-mode count; the existing nonsplit mathematical index stays.
 - PB-REVIEW / PB-PHYSICS: independent analytic review, chiral physical
   modes, normalized couplings, quantum anomalies, gravity and empirical
   tests remain duties. The full goal is not replaced by this finite audit.
+
+## Boundary law and physical duality, September 30, 2026
+
+R60 END_LAW.md advances PB-BOUNDARY and PB-ACTION: the actual supplied
+superpotential variation and its local boundary two-form are explicit.
+The B1504 lattice obstruction survives under its Poincare-self-dual
+neutral-domain hypothesis. No lead is closed at the physical level.
+
+- PB-BOUNDARY: derive the twisted seven-dimensional fermion reality
+  operation on the cone Cauchy data. Does it require self-duality in
+  each neutral sector, or a paired/mixed domain? Test the actual map,
+  not bare coefficient conjugation or an assumed identification.
+  Pantev--Wijnholt 0905.1968 section 3.1 already supplies the Hodge-star
+  relation in the bulk form description; reuse it before inventing a
+  different fermion identification. Its singular-domain transport is
+  the next test, not a missing literature claim.
+- PB-ACTION: impose preserved supercharges and gauge/interaction closure
+  on the SAME bosonic and fermionic domains, using R59's tensor maps.
+  A local graph counterterm is not yet a globally admitted physical law.
+- PB-TRANSITIONS: prove whether the retained genesis marking is gauge
+  redundancy or physical input before requiring all end data to descend
+  to the unmarked manifold. No A7-to-chirality map was constructed here.
+- PB-REVIEW: the self-adjoint cone alternatives, the actual G2 parity
+  action and the physical interpretation of the IH count need analytic
+  and physical scrutiny. The B1504 209-member census was not rerun.
+- PB-PHYSICS: preserve the full mission's physical spectrum, normalized
+  interactions, quantum consistency, gravity and empirical obligations.
