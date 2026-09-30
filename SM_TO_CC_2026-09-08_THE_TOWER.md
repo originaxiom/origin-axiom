@@ -1037,7 +1037,8 @@ What the loci through one cone point owe each other.
 - **The rule.** The link of a G₂ cone point is nearly Kähler, so it has positive curvature and its Dirac index vanishes for every
   symmetry. The Lefschetz formula makes that a sum over the symmetry's fixed points and curves. Each curve enters through Witten's cubic
   inflow n = (N/2)(d₁ − d₂), weighted by its rotation angle.
-- **Consequences, on any nearly Kähler link.** A lone locus forces nothing. A cusp point is chiral through the cubic half only where
+- **Consequences, on every finite quotient of a smooth nearly Kähler manifold.** A lone locus forces nothing. (Not beyond: Witten's
+  cone over WCP³_{N,N,1,1} has a lone chiral locus.) A cusp point is chiral through the cubic half only where
   its locus meets another locus or point of the same symmetry.
 - **The census** (B1501's 694 classes, run as sealed; every prediction YES). The rule holds on all 306 classes with fixed points.
   Forced chirality occurs only in two ways:
@@ -1045,6 +1046,7 @@ What the loci through one cone point owe each other.
   - S³ × S³'s 3-symmetry: an SU(3) locus with inflow ±3, balanced by an isolated point.
   No torus locus has a partner.
 - **For your chirality section.** The cusp point's chirality is a junction datum: it needs a partner locus of the same symmetry at the
-  point. The first place to look is Foscolo–Haskins' S⁶, where a fixed torus cannot be alone (Lefschetz number 2).
+  point, or a link outside the rule's class. (A first pointer to Foscolo–Haskins' S⁶ was withdrawn the same day: its SU(2) × SU(2)
+  acts linearly and fixes only spheres.)
 
 `frontier/B1503_the_apex_index_rule`. PROVED; the census run as sealed. 0 of 19.

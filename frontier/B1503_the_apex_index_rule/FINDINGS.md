@@ -3,7 +3,7 @@
 **Date:** 2026-09-30 · **Seat:** cc (the SM-derivation branch) · **Occasion:** after B1502 §5, at the owner's go (2026-09-29). ·
 **Status:** PROVED. The rule and its consequences are theorems, proved at seal. The census ran as sealed; every sealed prediction came
 out YES. Seal `PREREGISTRATION.md` (sha256 `d4260750…`, SEAL_LEDGER), committed at af568744 before the instrument existed.
-Instrument and banked identity at fafbf975. · **Price:** unchanged, 0 of 19 · **Numbering:** B1503.
+Instrument and banked identity at fafbf975. §6 records two same-day corrections: C1's scope, and a withdrawn pointer. · **Price:** unchanged, 0 of 19 · **Numbering:** B1503.
 
 ## 0. Seen from above
 
@@ -15,8 +15,10 @@ says about those degrees, for all the loci one symmetry fixes at once.
     and its equivariant index vanishes for every symmetry.
   - The Lefschetz fixed-point formula turns this into a sum over the symmetry's isolated fixed points and fixed curves, which must
     vanish. Each curve enters through its cubic inflow n, with a weight set by its rotation angle.
-- **What it settles, on any nearly Kähler link.**
+- **What it settles, on every finite quotient of a smooth compact nearly Kähler manifold** (§6: not beyond).
   - A locus that is the only thing its symmetry fixes forces nothing.
+  - The hypothesis matters. Witten's own example, the cone over WCP³_{N,N,1,1}, has a single SU(N) locus with n = 1. Its link is not
+    such a quotient: ℂP³ → WCP³ is branched in real codimension 2. There a lone locus does force chirality.
   - A cusp point is chiral through the cubic half only where its locus meets another locus, or an isolated fixed point, of the same
     symmetry at the point. With B1502's mixed half, the only other way is a homologically non-trivial torus with a C-field U(1).
 - **What the census shows (B1501's 694 classes, run as sealed).**
@@ -67,6 +69,9 @@ n = (N/2)Δ. N₁ ⊗ N₂ carries the locus's spin connection, and N₁ ⊗ N�
 - **(C2) The cusp point.** A torus locus is chiral through the cubic half only if its symmetry also fixes isolated points or other
   curves, which are cones through the apex. Otherwise, only B1502's mixed half remains, which needs [F] ≠ 0 and a C-field U(1).
 - **(C3) Order two** gives no condition, as SU(2) has no cubic anomaly.
+- **(C4) The hypothesis is needed.** The proof uses the Dirac operator of the smooth cover Y. On an orbifold link that is not a finite
+  quotient of a smooth nearly Kähler manifold only Kawasaki's averaged index is available, and for a cyclic stratum its twisted terms
+  cancel in pairs (γ against γ⁻¹), so it constrains nothing. Witten's cone over WCP³_{N,N,1,1} has a lone locus with n = 1.
 
 ## 2. The census (`verification/apex_index_rule.py`, record `apex_index_rule_run.txt`, 876 s)
 
@@ -119,7 +124,8 @@ n = (N/2)Δ. N₁ ⊗ N₂ carries the locus's spin connection, and N₁ ⊗ N�
 ## 4. What it settles, and what it does not
 
 **Settled.**
-- **The rule, on every finite quotient of every compact nearly Kähler cone.** It needs neither homogeneity nor the census.
+- **The rule, on every finite quotient of the cone over a smooth compact nearly Kähler manifold.** It needs neither homogeneity nor
+  the census. It does not reach orbifold links that are not such quotients (C4).
 - **C1 and C2.** A lone locus forces nothing. A cusp point's chirality, through the cubic half, needs a partner locus or point of the
   same symmetry.
 - **The census's forced chirality.**
@@ -132,8 +138,10 @@ n = (N/2)Δ. N₁ ⊗ N₂ carries the locus's spin connection, and N₁ ⊗ N�
 - **What sits at the 3-symmetry's isolated point.** Acharya–Witten have no useful description of codimension-6 lines, and the rule
   is an identity, not an anomaly-cancellation argument. So what the point carries physically is open.
 - **Links outside the census.**
-  - Foscolo–Haskins' S⁶ is a candidate. Every automorphism of it has Lefschetz number 2, so a torus fixed there must come with
-    partner components.
+  - Foscolo–Haskins' S⁶ gives no torus locus from its SU(2) × SU(2): it is built equivariantly from the same two orbits as the round
+    S⁶ under SU(2) × SU(2) ⊂ G₂, whose elements fix only spheres (§6).
+  - Open: Foscolo–Haskins' S³ × S³; extra discrete automorphisms of either; orbifold links that are not global quotients, where the
+    rule does not apply and a lone locus can be chiral (C4).
   - Non-cyclic groups are covered only element by element.
 - **The mixed half's torsion refinements.**
 
@@ -155,6 +163,21 @@ n = (N/2)Δ. N₁ ⊗ N₂ carries the locus's spin connection, and N₁ ⊗ N�
   - Witten's n is read only for A-type loci with N ≥ 3.
   - The isolated points' terms have no physical reading here.
   - No physics is crossed. 0 of 19.
+
+## 6. Two corrections, the same day (an E71 instance and an E4 instance, self-caught before the owner's report)
+
+- **The scope of C1 (E71).** The banked text (16c29b0b) and the seal's (C1) said that a lone locus forces nothing "on any nearly Kähler
+  link". The theorem is proved for finite quotients of smooth compact nearly Kähler manifolds, since it uses the smooth cover's Dirac
+  operator. Witten's cone over WCP³_{N,N,1,1} is outside that class and has a lone chiral locus. The seal's wording is to be read with
+  that scope. §0, §1 (C4), §4, the verdict line and the surfaces now state it.
+- **The Foscolo–Haskins pointer (E4).** The banked text named Foscolo–Haskins' S⁶ as the first place where a fixed torus cannot be
+  alone, because every automorphism there has Lefschetz number 2. That is a necessary condition, read as a reason to look before
+  checking whether any automorphism there fixes a torus at all.
+  - Foscolo–Haskins build their S⁶ SU(2) × SU(2)-equivariantly from the small resolution and the smoothing of the conifold (their §1).
+    Those are the two orbit neighbourhoods of the round S⁶ under SU(2) × SU(2) ⊂ G₂.
+  - That action is linear on ℝ⁷ = ℝ³ ⊕ ℝ⁴. Its elements fix only great spheres, so no continuous symmetry there fixes a torus.
+  - The pointer is withdrawn. What remains is listed in §4.
+- **Nothing computed changes.** The rule, the census and P1–P4 stand.
 
 ## Files
 

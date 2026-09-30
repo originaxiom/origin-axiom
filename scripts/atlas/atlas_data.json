@@ -8813,6 +8813,7 @@
   "B1503": {
    "slug": "the apex index rule",
    "motifs": [
+    "monoid",
     "closing",
     "trace_map",
     "eisenstein",

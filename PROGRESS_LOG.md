@@ -16087,3 +16087,17 @@ I built the instrument as sealed and checked it on six classes outside the censu
   alone is Foscolo–Haskins' S⁶, because every symmetry there has Lefschetz number 2.
 
 Lock: `tests/test_b1503_the_apex_index_rule.py`. 0 of 19.
+
+## 2026-09-30 — B1503 §6: two corrections before the report
+
+While the fast lane ran I read Foscolo–Haskins, to make the next-step pointer concrete. It did not survive.
+- **The pointer.** I had named their S⁶ as the first place where a torus locus cannot be alone. That is true of any torus it fixes. But
+  their S⁶ is built from the same two pieces as the round S⁶, with the same symmetry group acting the same way, and that action fixes
+  only spheres. So it gives no torus at all from its continuous symmetries, and the pointer is withdrawn.
+- **The scope.** I had written that a lone locus forces nothing "on any nearly Kähler link". The proof needs the link to be a smooth
+  manifold divided by a finite symmetry. Witten's own example is outside that class, and there a lone locus does force chirality. The
+  statement is now scoped everywhere, with Witten's example as the boundary.
+- Both are logged (E71, E4). Nothing computed changes.
+- **The fast lane** on 16c29b0b: 9 failures, exactly the nine of the baseline (the same tests as the 68c9d8b4 lane), 6370 passed, 52 skipped. It ran as seven shards covering all 1231 test files with the fast lane's own flags; a single run was stopped at 77% by the new 30-minute limit on background tasks.
+
+0 of 19.

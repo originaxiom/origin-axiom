@@ -3382,13 +3382,17 @@ This job is not optional, whichever answers the first two questions get. `fronti
 **Status (2026-09-30, B1503): the loci through a cone point owe each other, and a cusp point needs a partner.**
 - **The rule.** The link's Dirac index vanishes (positive curvature), so for every symmetry the forced inflows of its fixed loci cancel
   against each other and its isolated fixed points (Lefschetz).
-- **What it settles.** A lone locus forces nothing, on any nearly Kähler link. So a cusp point is chiral through the cubic half only where
+- **What it settles.** A lone locus forces nothing, on every finite quotient of a smooth nearly Kähler manifold (not beyond: Witten's
+  cone over WCP³_{N,N,1,1} has a lone chiral locus). So in those models a cusp point is chiral through the cubic half only where
   its torus locus meets another locus or point that the same symmetry fixes.
 - **On B1501's census** (run as sealed, every prediction YES), forced chirality occurs only in two ways. ℂP³'s cones pair two SU(N) loci
   with inflows ±N. S³ × S³'s 3-symmetry puts inflow ±3 on one SU(3) locus, balanced by an isolated point. No torus locus in the census
   has a partner.
-- **So question 1 now needs a model where a torus locus shares its symmetry with a partner.** Foscolo–Haskins' S⁶ is the first place to
-  look: there every automorphism has Lefschetz number 2, so a fixed torus cannot be alone. `frontier/B1503_the_apex_index_rule`.
+- **So question 1 now needs a model where a torus locus shares its symmetry with a partner, or a link outside the rule.**
+  - Foscolo–Haskins' S⁶ gives no torus locus from its SU(2) × SU(2), which acts linearly and fixes only spheres. An E4 pointer to it
+    was withdrawn the same day.
+  - Open: their S³ × S³; extra discrete automorphisms; orbifold links that are not global quotients, where a lone locus can be chiral.
+  `frontier/B1503_the_apex_index_rule`.
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

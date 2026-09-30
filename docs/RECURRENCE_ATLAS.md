@@ -14,7 +14,7 @@ THE RECURRENCE ATLAS -- context card
   corpus: 1248 frontier probes; status {'open': 71, 'banked': 834, 'dead': 320, 'dormant': 23}
   the ONE conserved first integral: kappa (recurs 270x, 21%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(717), golden(701), firewall(632), figure_eight(546), amphichiral_cp(477), trace_map(462)
-  recurrence is: structural-invariant 4909 mentions | conserved-integral 270 | TOOL 462
+  recurrence is: structural-invariant 4910 mentions | conserved-integral 270 | TOOL 462
   the honest split: the trace-map TOOL is in 462 probes (37%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B156, B521, B309, B598, B1189
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -43,8 +43,8 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | lorentzian | 220 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | choice | 186 | 14% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |
 | symplectic | 130 | 10% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
+| monoid | 111 | 8% | question | structural | dynamics | End(F2) beyond the units: the four Hopfian-det strata, the non-invertible verbs the programme has never computed |
 | dickson_tower | 111 | 8% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
-| monoid | 110 | 8% | question | structural | dynamics | End(F2) beyond the units: the four Hopfian-det strata, the non-invertible verbs the programme has never computed |
 | apolynomial | 84 | 6% | structure | no | topology | the A-polynomial / Cooper-Long / AJ |
 | arrow | 79 | 6% | question | no | dynamics | time's direction and/or its irreversibility -- the two are NOT the same question (B766 = the direction bit, the golden branch; S063 = irreversibility, entering at det != +-1) |
 | markov_cubic | 76 | 6% | invariant | structural | topology | the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it |
@@ -56,7 +56,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **270** probes (21%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4909** mentions — invariants of the object's transforms.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4910** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **462** probes (37%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it

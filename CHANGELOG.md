@@ -1,5 +1,20 @@
 # Changelog
 
+## B1503 §6 — two corrections the same day: C1's scope, and the Foscolo–Haskins pointer withdrawn (E71 and E4 instances)
+
+- **C1's scope (E71).** "A lone locus forces nothing" holds on finite quotients of smooth compact nearly Kähler manifolds, since the
+  proof uses the smooth cover's Dirac operator. The banked surfaces said "on any nearly Kähler link". Witten's cone over
+  WCP³_{N,N,1,1} is outside the class and has a lone SU(N) locus with n = 1. On such orbifold links Kawasaki's averaged index
+  constrains nothing, because the twisted terms cancel in pairs. This is recorded as C4.
+- **The Foscolo–Haskins pointer (E4).** It is withdrawn. Their S⁶ is built SU(2) × SU(2)-equivariantly from the round S⁶'s two orbit
+  neighbourhoods. The action is the linear one inside G₂, whose elements fix only great spheres, so no continuous symmetry there fixes a
+  torus. Open: their S³ × S³; extra discrete automorphisms; non-global-quotient orbifold links.
+- **Nothing computed changes.** The rule, the census and P1–P4 stand. Recorded in B1503 §6, the verdict line, the registry row,
+  OPEN_LEADS, THE_SM_VERDICT, README, the letter's 66th note and the kill graph. ERROR_LEDGER: two rows.
+- **Fast lane** on 16c29b0b (B1503 banked): 9 failures, exactly the nine of the baseline (the same tests as the 68c9d8b4 lane), 6370 passed, 52 skipped. It ran as seven shards covering all 1231 test files with the fast lane's own flags; a single run was stopped at 77% by the new 30-minute limit on background tasks.
+
+Lock: `tests/test_b1503_the_apex_index_rule.py`. 0 of 19.
+
 ## B1503 — the apex index rule: the forced inflows of the loci through a G₂ cone point cancel; a lone locus forces nothing (PROVED; the census run as sealed, P1–P3 YES)
 
 - **The theorem.**
@@ -9,7 +24,7 @@
     Lefschetz formula in Todd form gives the terms.
   - Each curve enters through Witten's cubic inflow n = (N/2)(d₁ − d₂).
 - **Consequences.**
-  - A lone locus forces nothing, on any nearly Kähler link.
+  - A lone locus forces nothing, on every finite quotient of a smooth nearly Kähler manifold (§6).
   - A cusp point is chiral through the cubic half only where its locus meets another locus or isolated point of the same symmetry.
 - **The census** (seal af568744, instrument fafbf975, run 876 s).
   - B1501's components are reproduced on all 694 classes, and the rule holds on all 306 with fixed points (worst 1.2 · 10⁻¹³).
@@ -19,8 +34,8 @@
   - **P2 YES:** ℂP³'s 22 one-sphere classes have n = 0.
   - **P3 YES:** F₁,₂'s 132 spheres all have n = 0.
   - **P4:** forced inflow occurs only on ℂP³ and on the 3-symmetry, never on S⁶, F₁,₂ or any torus.
-- **For question 1.** The cusp point's chirality needs a partner locus of the same symmetry at the point. None exists in the census. The
-  first place to look is Foscolo–Haskins' S⁶, where every automorphism has Lefschetz number 2.
+- **For question 1.** The cusp point's chirality needs a partner locus of the same symmetry at the point. None exists in the census.
+  (A pointer to Foscolo–Haskins' S⁶ was withdrawn the same day, §6.)
 - **Surfaces.** Registry row T-APEX-INDEX-RULE, OPEN_LEADS, THE_SM_VERDICT, README, the letter's 66th note, the alias table (next arc
   B1504), the seal ledger's verdict row, the kill graph (routed), logs, atlas, views.
 
@@ -34,7 +49,7 @@ Lock: `tests/test_b1503_the_apex_index_rule.py` (3 tests). 0 of 19.
   - The nearly Kähler link has positive scalar curvature, so its Dirac operator has no kernel and every equivariant index vanishes.
   - Atiyah–Singer's Lefschetz formula then gives, for each element, a sum rule over its isolated fixed points and fixed curves.
   - Each curve enters through its inflow n = (N/2)(d₁ − d₂), weighted by its rotation angle.
-  - A lone locus forces nothing, on any nearly Kähler link.
+  - A lone locus forces nothing, on every finite quotient of a smooth nearly Kähler manifold (§6).
   - A cusp point is chiral through the cubic half only where its locus meets another fixed locus or point of the same element.
 - **Decided at design time from B1501's banked components.**
   - S⁶'s single-sphere classes and all torus classes have n = 0.
