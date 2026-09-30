@@ -1,4 +1,13 @@
-# Verdict toward the full physical-theory goal - R57, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R58, updated 2026-09-30
+
+**First approved execution, R58:** the operational contract is written.
+Finite-cover transport preserves a supplied sheetwise action with its
+algebra, metric, tensors and domains; replacing these can change the
+theory. Authored conditional proof, 28 exact controls and 23 selected
+tests pass under pre-execution seal 3adce05c. Not an instantiated M6
+physical model, derived end law or chirality. Next: actual parent/bundle
+map and same-action end law, not another index census. See
+[COVER_ACTION](COVER_ACTION.md) and [OPERATIONAL_CONTRACT](OPERATIONAL_CONTRACT.md).
 
 **Approved execution charter, September 30:** the owner approved the
 [physics mission and acceptance criteria](PHYSICS_MISSION.md). This is
@@ -8,7 +17,7 @@ canonical model and partial filling as scoped controls. The full Standard
 Model, quantum dynamics, gravity and predictive tests remain the goal.
 The charter itself is not a scientific result or completion certificate.
 
-**Current priority, R57 (September 30): root and architecture scope audit.**
+**Preceding scope audit, R57 (September 30): root and architecture.**
 The positive mixed minimum survives, but m004 is not thereby a universal
 physical root. A no-selector theorem does not forbid natural quotients;
 cover cohomology transport does not establish cover-only physics. Keep

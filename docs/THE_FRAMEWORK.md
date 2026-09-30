@@ -1,6 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**Current priority, R57 (September 30): root and architecture scope audit.**
+**Current execution, R58 (September 30):** finite direct image now has
+an explicit conditional action/metric/domain transport argument and
+28 exact safeguards. Retaining sheetwise tensors matters; full matrix
+parent enlargement and a changed quartic are different theories. The
+actual physical parent and end law remain to be earned. Report:
+reports/physical_bridge_2026_09_05/COVER_ACTION.md. No new physical rung.
+
+**Preceding priority, R57 (September 30): root and architecture scope audit.**
 The positive mixed minimum survives, but m004 is not thereby a universal
 physical root. A no-selector theorem does not forbid natural quotients;
 cover cohomology transport does not establish cover-only physics. Keep

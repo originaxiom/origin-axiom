@@ -1166,3 +1166,14 @@ Received source snapshots are pinned reading inputs, not executed code.
 | `reports/physical_bridge_2026_09_05/received_r58/deck_descent_2026_09_27_FINDINGS.txt` | `aa453c705ff292cc1ed446d5ee237ea0d9b0edcf620d5062fd3e230d4d7817a6` |
 | `reports/physical_bridge_2026_09_05/received_r58/coupled_boundary_gate_2026_09_27_DECK_PROOF.txt` | `0ff25f0f7f1a3aa48356bcd8a041d760a88a05b65f2bfeaaf4d7b84db258d4e2` |
 | `reports/physical_bridge_2026_09_05/received_r58/coupled_boundary_gate_2026_09_27_DECK_FINDINGS.txt` | `cf33c8be7c934e6357b76c3b97c69bc4c3a942242728d329008b7ad2ddc74644` |
+
+## R58 nonzero cubic safeguard, September 30, 2026
+
+Separate pre-execution control after a zero-only first fixture was found.
+Original files/runs preserved; no scientific failure or physical claim.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/COVER_ACTION_CUBIC_DESIGN.md` | `3020fd5f5bdb0dbc3a23931fb64138188ccd8598ed493d818aa27483dbb3b44e` |
+| `reports/physical_bridge_2026_09_05/cover_action_cubic_control.py` | `29a4515367c6a7190bb7711f7bb605b43e5577a1d498ed5bf4d2be1037c13937` |
+| `tests/test_physical_bridge_cover_action_cubic.py` | `62a3683adb51f8dd9f24780c022e85ea58e5a1dba3035e5c9e29a26ea3e0134d` |

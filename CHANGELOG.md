@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-30 - R58 finite cover action transport and the operational contract
+
+Execute the first approved milestone: conditional sheetwise action,
+metric and domain transport, with controls detecting enlarged field
+algebras, changed quartics and unselected boundary conditions. Native
+28/28 and the fixed root-plus-transport selection 23 pass. Seal 3adce05c
+pushed/server-confirmed before science. Global arguments remain authored;
+no M6 index, physical parent/end selection, chirality or TOE is claimed.
+Report: reports/physical_bridge_2026_09_05/COVER_ACTION.md.
+
+
 ## 2026-09-30 - Owner approves and locks the physical theory mission
 
 Record the approved goal, completion criteria, continuation semantics and

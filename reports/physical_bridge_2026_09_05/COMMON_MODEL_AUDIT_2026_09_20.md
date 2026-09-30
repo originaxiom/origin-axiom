@@ -1,5 +1,13 @@
 # One-model audit: which positive results actually compose?
 
+**Current approved execution, September 30:** R58 supplies a conditional
+finite-cover action connection, not an actual M6 physical model. Direct
+image preserves the sheetwise algebra, positive norms and transported
+domains; full matrix enlargement, an altered quartic tensor or another
+end law changes the theory. Keep these distinctions when testing the
+actual parent/bundle map. [Result](COVER_ACTION.md),
+[operational contract](OPERATIONAL_CONTRACT.md), [mission](PHYSICS_MISSION.md).
+
 **Current priority, R57 (September 30): root and architecture scope audit.**
 The positive mixed minimum survives, but m004 is not thereby a universal
 physical root. A no-selector theorem does not forbid natural quotients;

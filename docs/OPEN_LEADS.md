@@ -3788,3 +3788,26 @@ retain conditional filling descent as a distinct comparison. No new
 census and no unqualified revival of a same-domain no-go.
 Report and proof: reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md;
 reports/physical_bridge_2026_09_05/ROOT_SCOPE_DESIGN.md.
+
+## First approved physics execution, September 30, 2026
+
+PB-TRANSITIONS advances: OPERATIONAL_CONTRACT.md records the legal-move,
+equivalence and physical-role distinctions. No physical winner selected.
+R58's COVER_ACTION.md establishes the conditional sheetwise action-level
+transport with authored domain proof and 28 finite safeguards. Scope:
+"It is nevertheless a rewriting of a supplied theory, not a derivation
+of the action from genesis." The application duty remains OPEN.
+
+- PB-HANDOFF-M6: instantiate the actual parent/bundle map and its positive
+  metric, tensors, source/end law and admissible domain. Do not infer all
+  End(p_*E) fields from p_*End(E), or physical generations from rank.
+- PB-BOUNDARY: compare the latest genesis-side marking/order proposal
+  with an actual end action. Transporting a prescribed condition does not
+  select it; R58's invariant-domain counterexample is only an interval
+  comparator, not a global nonsplit no-go.
+- PB-REVIEW: independent analytic scrutiny remains required. The received
+  fork already distinguishes geometric deck descent from fibre holonomy;
+  do not duplicate or undo that correction without testing its map.
+- PB-PHYSICS: retain the canonical paired control, partial-filling route,
+  full SM spectrum/interactions, anomalies, quantum/gravity and empirical
+  obligations under PHYSICS_MISSION.md. The first milestone is not complete.

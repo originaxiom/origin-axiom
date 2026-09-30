@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**First execution, R58, September 30:** operational contract written;
+conditional finite-cover action transport verified with 28/28 exact
+controls and 23 selected tests. The transported algebra/metric/tensor/
+domain must be retained. No physical M6 parent or end law supplied.
+Next instantiate that parent/bundle map and its source/end action;
+do not repeat the index census. Authored proof, not independent acceptance.
+Report: reports/physical_bridge_2026_09_05/COVER_ACTION.md.
+
+
 **Owner-approved mission, September 30:**
 reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md fixes the physics goal,
 completion criteria and next milestone. Execute the operational contract

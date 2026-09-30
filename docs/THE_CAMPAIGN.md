@@ -1,6 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
-**Current priority, R57 (September 30): root and architecture scope audit.**
+**Current execution, R58 (September 30):** under the owner-approved
+PHYSICS_MISSION.md, the operational contract is written and conditional
+finite-cover action transport is checked. Next test the actual candidate's
+parent/bundle map and source/end law. Do not repeat the cohomology census
+or identify the transported block algebra with an enlarged parent. The
+canonical tensor and partial-filling controls remain. Report:
+reports/physical_bridge_2026_09_05/COVER_ACTION.md.
+
+**Preceding priority, R57 (September 30): root and architecture scope audit.**
 The positive mixed minimum survives, but m004 is not thereby a universal
 physical root. A no-selector theorem does not forbid natural quotients;
 cover cohomology transport does not establish cover-only physics. Keep

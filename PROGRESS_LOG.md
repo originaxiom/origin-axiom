@@ -15796,3 +15796,22 @@ No new scientific theorem or independent review is claimed by adoption.
 Next: read prior producers, write the operational contract and seal the
 first action-level transport test before execution. R56/R57 and the
 partial-filling witness retain their scopes and outstanding debts.
+
+## 2026-09-30 - R58 starts the locked mission with an action-level connection
+
+The operational contract preserves positive, reversible and swap-extended
+specifications, distinguishes mathematical arrows from physical roles,
+and records the coefficient/domain obligations. Existing B1384 and fork
+deck-descent/boundary-allocation work was read personally and pinned, not
+recounted or automatically certified. Eleven science/source paths sealed
+at 3adce05c and server-confirmed before native 28/28 and fixed 23-test pass.
+
+The conditional authored construction transports a sheetwise action with
+its positive metric, algebra and closed operator domain. Off-diagonal
+parent enlargement and squaring a summed norm change the theory; exact
+opposite controls detect both. A cyclic boundary comparator permits two
+distinct invariant domains, not a derived nonsplit-cusp boundary law.
+The actual physical parent/bundle/end-action application is next. No
+new M6 index, physical generations, chirality, quantum completion, full
+bank or TOE claimed; old results/failures remain scoped and preserved.
+Report: reports/physical_bridge_2026_09_05/COVER_ACTION.md.

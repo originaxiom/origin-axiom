@@ -1,6 +1,13 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
-**Current priority, R57 (September 30): root and architecture scope audit.**
+**Current execution, R58 (September 30):** the operational contract and
+conditional finite-cover action transport advance PB-TRANSITIONS and
+PB-HANDOFF-M6, not the physical completion grades. 28 exact controls and
+23 selected tests pass; the global proof is authored. Next instantiate
+the actual parent/bundle/end law. Source:
+reports/physical_bridge_2026_09_05/COVER_ACTION.md.
+
+**Preceding priority, R57 (September 30): root and architecture scope audit.**
 The positive mixed minimum survives, but m004 is not thereby a universal
 physical root. A no-selector theorem does not forbid natural quotients;
 cover cohomology transport does not establish cover-only physics. Keep

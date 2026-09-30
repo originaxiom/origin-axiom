@@ -838,3 +838,15 @@ R56 report: reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md.
 | LR is the strict mixed positive trace minimum | Supplied positive unit shears on two records; cyclic words. Not a universal physical root or a derivation of the carrier. | B979 and UNIQUENESS context; R57 ROOT_SCOPE_DESIGN.md supplies the all-length argument; tests/test_physical_bridge_root_scope.py |
 | No invariant representative does not forbid a natural quotient | The explicit F2 abelianization is equivariant under substitution and swap, but not injective. This does not select a physical quotient or refute the conditional surface theorem. | B34 already distinguishes natural quotient from selector; R57 ROOT_SCOPE_AUDIT.md supplies the F2 counterexample to B1380 section 3; tests/test_physical_bridge_root_scope.py |
 | Flat descent through a filled slope is conditional | A representation descends through pi1(M)/normal-closure(s) iff rho(s)=1. Not a preserved index, action or physical chirality theorem; the finite control is group-only. | B1379 uses this same descent condition (source at 93c7b428); R57 ROOT_SCOPE_DESIGN.md supplies the proof scope; tests/test_physical_bridge_root_scope.py |
+
+## Finite cover action transport, September 30, 2026
+
+Authored conditional analysis; finite safeguards do not provide independent
+acceptance of the global domain argument or an actual M6 physical theory.
+
+| law (scoped statement) | scope and limits | evidence |
+|---|---|---|
+| Finite direct image transports the sheetwise algebra and supplied action | Pulled-back base metric, direct-sum positive bundle metric, transported tensors and domains; products, adjoints, L2 norms and minimal/maximal domains agree. No selection of these data or quantum completion. | B1384 induction context; R58 COVER_ACTION_DESIGN.md supplies the smooth proof; tests/test_physical_bridge_cover_action.py::test_metric_derivative_and_variation_transport |
+| Induced endomorphisms are a proper subalgebra of all endomorphisms for degree greater than one | Ranks n*r^2 and n^2*r^2 for positive r; block projection is not a Lie map. A larger parent is a changed model, not forbidden universally. | B1384 coefficient context; R58 COVER_ACTION_DESIGN.md; tests/test_physical_bridge_cover_action.py::test_products_brackets_and_proper_algebra |
+| Finite-cover L4 norms can be equivalent while quartic actions differ | Sum x_i^2 versus (sum x_i)^2, with nonnegative x_i; exact cross terms and bounds. Retain the actual interaction tensor. | B1384 transport context; R58 COVER_ACTION_DESIGN.md; tests/test_physical_bridge_cover_action.py::test_quartic_tensor_is_not_replaced_by_a_norm |
+| Cyclic sheet symmetry need not select a boundary domain | The three-interval boundary comparator admits distinct invariant Dirichlet and Neumann maximal-isotropic subspaces. Not an actual nonsplit-cusp domain theorem. | B1384 end-law duty context; R58 COVER_ACTION_DESIGN.md; tests/test_physical_bridge_cover_action.py::test_symmetry_does_not_choose_one_boundary_domain |

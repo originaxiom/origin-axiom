@@ -2,9 +2,11 @@
 
 **Current mission, approved September 30:**
 [Physics mission and execution criteria](PHYSICS_MISSION.md).
-Start with the operational contract and action-level relation audit.
-The latest scientific scope audit is [R57](ROOT_SCOPE_AUDIT.md); the
-canonical [R56 cubic](LIGHT_CUBIC.md) is preserved as conditional progress.
+The [operational contract](OPERATIONAL_CONTRACT.md) is written and
+[R58](COVER_ACTION.md) verifies conditional finite-cover action transport
+with opposite controls. The actual parent/bundle/end-law application is
+next. [R57](ROOT_SCOPE_AUDIT.md) and the canonical
+[R56 cubic](LIGHT_CUBIC.md) remain preserved as conditional progress.
 The older dated entries below are historical, not today's priority list.
 
 
