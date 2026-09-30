@@ -1319,3 +1319,17 @@ import or execution precedes this seal.
 | `reports/physical_bridge_2026_09_05/NILPOTENT_CONE_INPUTS.json` | `cdd35d7a35099fe024b41832e8b9eb66fd83c23f1503e9f009d5b170d48566ba` |
 | `reports/physical_bridge_2026_09_05/nilpotent_cone.py` | `820bd1e6cf820e6806086300a0712b4f352c9e575db26764bf3d3ecb2daf55a9` |
 | `tests/test_physical_bridge_nilpotent_cone.py` | `5b7d99cb697ebaed21d955465e95e79cf1bc923623240cdd9d28d996016a3503` |
+
+## R67 cone boundary flux pre-execution seal September 30 2026
+
+Actual regulated nonabelian action identity, logarithmic flux, radial
+Jacobi admission and boundary countercontrol. No scientific import/run
+precedes this seal.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_FLUX_DESIGN.md` | `c955bafa2f0a18eb13e0cedd5b1c34ee4925ae9d77b02422ebe6328a0d4f821a` |
+| `reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md` | `713f2e8068a712e1ed44b43f2a173c5fd1b3e3ac481252044efd97f5be113731` |
+| `reports/physical_bridge_2026_09_05/CONE_FLUX_INPUTS.json` | `9b0135f974348303eb68d31c96b9798f9f91a4139080e990369e51558750d377` |
+| `reports/physical_bridge_2026_09_05/cone_flux.py` | `e53b428198e0fecba213a8a6a9ca23c2e1abae5363651dbae5d57e84624e0692` |
+| `tests/test_physical_bridge_cone_flux.py` | `9043e2829e3f5ce1c5a889dc0c3383c2b59f4277ad0a5aab105717857906202a` |

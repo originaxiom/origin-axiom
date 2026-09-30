@@ -1,0 +1,86 @@
+{
+  "scope": "Pinned prior fields, action, norms and receipt population; external physical model not derived",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_DESIGN.md",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "eb76c132b4145138ab7afddb31719de491fa7df43b0a61d25298324ff44e9e23",
+      "bytes": 5634
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756",
+      "bytes": 7864
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/nilpotent_cone.py",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "820bd1e6cf820e6806086300a0712b4f352c9e575db26764bf3d3ecb2daf55a9",
+      "bytes": 12726
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_RECEIPTS.json",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "008858fe00c2cce16aff48ed0ed679683a148f3baf166b07c1a241615a0041e7",
+      "bytes": 19060
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/canonical_cusp.py",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "a8e5dd6a8d71dfe534c97f48812b91afc67c5946ccc404e7b8540c567105dd70",
+      "bytes": 4884
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932",
+      "bytes": 7880
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/source_action.py",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "07fefdc1402a25dfdfe788e7762ff236ebfa8174cd3f2ce9c726517cbc9dbc94",
+      "bytes": 13432
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "bytes": 8962
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_PROOF.md",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "bdc2f85f720b353ff5babf0eaafd1c4acb70057a4dc3774a21975ed6b8b5654d",
+      "bytes": 9725
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/END_LAW_DESIGN.md",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "60fa130f348866ba784eec3e53930cc4f9c6bb57bcb781f0007820815e4988b2",
+      "bytes": 9602
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_INTERACTION_DESIGN.md",
+      "commit": "2cceb99598e58f74abb6a9f302bfd138b9daf0a7",
+      "sha256": "0e17fbd86dc5db2fb00b6c397d70e5bac89d5f7095757b820fdf3935b8622b4d",
+      "bytes": 9115
+    }
+  ],
+  "literature": [
+    {
+      "title": "Higgs Bundles for M-theory on G2-manifolds",
+      "url": "https://arxiv.org/html/1812.06072v2",
+      "accessed": "2026-09-30",
+      "read": "Section 2.1 equations 2.9-2.18, Appendix B.1 and Appendix C; not a whole-paper reread",
+      "used": "Supplied residual-square action and formal fermion variations; smooth boundary discussion not transferred to a singular endpoint"
+    }
+  ]
+}
