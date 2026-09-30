@@ -1,0 +1,55 @@
+{
+  "scope": "Pinned reading and reused controls, not complete dependency certification",
+  "inputs": [
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+      "sha256": "42431248d2622873acae6d6defabc503ff0d6e7dc5dd091c14e3d2789865f3a2"
+    },
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "reports/physical_bridge_2026_09_05/mass_inflow.py",
+      "sha256": "2880c32bce09596aefec0ceb4b4f770b357a09ead6b37bd682a991a5965cbd23"
+    },
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "reports/physical_bridge_2026_09_05/END_LAW.md",
+      "sha256": "d816d748f47ae2f0e93a16ffe693fec8db64725bdc7c5dd1c18c8a2a3cd12743"
+    },
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "reports/physical_bridge_2026_09_05/END_LAW_DESIGN.md",
+      "sha256": "60fa130f348866ba784eec3e53930cc4f9c6bb57bcb781f0007820815e4988b2"
+    },
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS.md",
+      "sha256": "caef6fe791721ca6b313f8fe478e60689d84992547ac6b95afaec1ed3e3f8f76"
+    },
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    },
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "tests/test_physical_bridge_mass_inflow.py",
+      "sha256": "bd8035a64695c8964d311b7a63c247b27c0126d6b3a88d41c1d144a8464d27eb"
+    },
+    {
+      "commit": "56f9ee1631620fe43182d805f0f169fc2b32d971",
+      "path": "tests/test_physical_bridge_end_law.py",
+      "sha256": "f43cfaa86c5dcadd04d31d43bdb7d0b3772b02c07d9cd693984fa6f1cb858f39"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1504_the_ends_choice/FINDINGS.md",
+      "sha256": "6a1f105831fdec69de8198f15da1e715aca9d94933c89422bf8e02a5a141f3ff"
+    },
+    {
+      "commit": "ba41670beeb05b64e680ec3a3f0f822f842820fc",
+      "path": "frontier/B1500_the_cone_points_choice/FINDINGS.md",
+      "sha256": "8273d1c7c9b9bd54b2af60041faf1df9147370168fd089e94f816ac957837fa0"
+    }
+  ]
+}

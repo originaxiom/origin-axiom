@@ -1201,3 +1201,15 @@ No physical boundary law, fermion reality condition or spectrum is certified.
 | `reports/physical_bridge_2026_09_05/END_LAW_INPUTS.json` | `9b78bd6b3d5f919580ec1e8a72532560ba98ac843ff1d9b819fc497513bcb3fd` |
 | `reports/physical_bridge_2026_09_05/end_law.py` | `b55367a24a82670cf7ca82820f87fc5140f0bd046cc5aa79c3ab18ee034617cd` |
 | `tests/test_physical_bridge_end_law.py` | `f43cfaa86c5dcadd04d31d43bdb7d0b3772b02c07d9cd693984fa6f1cb858f39` |
+
+## R61 complex fermion end controls, September 30, 2026
+
+Pre-execution local reality, current and rotation tests. No full physical
+end domain, selected handedness or particle count is certified.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/FERMION_END_DESIGN.md` | `56da61e3e09c2969cebedf458c68a7287a86e96fcdbf555b12aef9476cb335c0` |
+| `reports/physical_bridge_2026_09_05/FERMION_END_INPUTS.json` | `0c53d0697c70da40fa29794a3fff4029481337f5ed2cf2954c2a8b85af3f3a82` |
+| `reports/physical_bridge_2026_09_05/fermion_end.py` | `f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964` |
+| `tests/test_physical_bridge_fermion_end.py` | `3dfb3f2369ead95578c2306f4b14a43c84afd70347a3fbcabc7a9249a4ca6e56` |
