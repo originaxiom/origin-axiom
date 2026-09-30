@@ -1,6 +1,14 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**Current execution, R58 (September 30):** finite direct image now has
+**Current execution, R59 (September 30):** the actual supplied E8 parent
+has verified E/Lambda2(E) charged coefficients and both nonzero cubic
+tensor maps. This advances the necessary common-model connection, not
+a physical spectrum or selected action. 18 exact controls, 16 own tests
+and 15 foreign replay tests pass. A global background and end law with
+these same coefficients remain required. No normalized Yukawa computed.
+Report: reports/physical_bridge_2026_09_05/PARENT_TENSORS.md.
+
+**Preceding execution, R58 (September 30):** finite direct image now has
 an explicit conditional action/metric/domain transport argument and
 28 exact safeguards. Retaining sheetwise tensors matters; full matrix
 parent enlargement and a changed quartic are different theories. The

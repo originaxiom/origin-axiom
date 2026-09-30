@@ -4,8 +4,10 @@
 [Physics mission and execution criteria](PHYSICS_MISSION.md).
 The [operational contract](OPERATIONAL_CONTRACT.md) is written and
 [R58](COVER_ACTION.md) verifies conditional finite-cover action transport
-with opposite controls. The actual parent/bundle/end-law application is
-next. [R57](ROOT_SCOPE_AUDIT.md) and the canonical
+with opposite controls. [R59](PARENT_TENSORS.md) verifies the actual
+supplied E8 coefficient dictionary and both nonzero cubic maps. A global
+chiral background and its same-action end law remain next, not another
+bundle relabeling. [R57](ROOT_SCOPE_AUDIT.md) and the canonical
 [R56 cubic](LIGHT_CUBIC.md) remain preserved as conditional progress.
 The older dated entries below are historical, not today's priority list.
 

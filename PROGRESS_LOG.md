@@ -15826,3 +15826,18 @@ transport, an alternating three-form control and a deliberately wrong
 sheet merge pass 5/5; combined fixed four-file regression passes 25/25.
 No physical coupling, new M6 index or changed global-proof grade follows.
 The next parent/bundle and same-action end-law duties remain unchanged.
+
+## 2026-09-30 - R59 actual parent matter and interactions
+
+Scientific seal 6a504f94 was pushed and server-confirmed before execution.
+Independent E8 Weyl closure confirms all 248 weights and the actual
+E/Lambda2(E) charged dictionary. Both charged cubic supports match their
+bundle tensors exactly and have nonzero root brackets: 18/18 native
+controls and 16 focused tests. The unchanged foreign parent-admission
+producer and 15 tests also pass, without editing its branch or redoing
+the M6 index. These are tensor maps, not physical mode overlaps or
+normalized couplings. The prior-art pass recovered F01 and R41 source
+balances, including the distinction between harmonic-map energy and
+physical static action. Next test the same-action end law and genesis
+marking, retaining the full physics goal. No full-bank certificate.
+Report: reports/physical_bridge_2026_09_05/PARENT_TENSORS.md.

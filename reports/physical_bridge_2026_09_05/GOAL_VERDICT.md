@@ -1,6 +1,16 @@
-# Verdict toward the full physical-theory goal - R58, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R59, updated 2026-09-30
 
-**First approved execution, R58:** the operational contract is written.
+**Current execution, R59:** the supplied E8 parent's actual E and
+Lambda2(E) matter dictionary and BOTH nonzero charged cubic maps are
+verified. Native 18/18, focused 16 tests and 15 unchanged foreign
+parent-admission tests pass. This is a same-parent coefficient/tensor
+connection, not a global chiral background or normalized coupling.
+The finite-energy nonsplit obstruction was recovered as prior work,
+not rederived or promoted to all physical action domains. Next derive
+the source/end variations and test the genesis marking against them;
+do not substitute another index census. [Result](PARENT_TENSORS.md).
+
+**Preceding approved execution, R58:** the operational contract is written.
 Finite-cover transport preserves a supplied sheetwise action with its
 algebra, metric, tensors and domains; replacing these can change the
 theory. Authored conditional proof, 28 first controls plus five separately

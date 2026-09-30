@@ -1,6 +1,14 @@
 # One-model audit: which positive results actually compose?
 
-**Current approved execution, September 30:** R58 supplies a conditional
+**Current approved execution, R59, September 30:** the actual E8 adjoint
+parent supplies E for Q,u,e, Lambda2(E) for d,L, their duals and two
+nonzero charged cubic tensor maps. Native 18/18, own 16 tests and foreign
+15-test reproduction pass. This does not insert the literal rank-six M6
+orbit into those bundles or produce physical generations. Recover the
+already-proved finite-energy/source balance; now test the end law in the
+same action with its real admissibility conditions. [Result](PARENT_TENSORS.md).
+
+**Preceding approved execution, September 30:** R58 supplies a conditional
 finite-cover action connection, not an actual M6 physical model. Direct
 image preserves the sheetwise algebra, positive norms and transported
 domains; full matrix enlargement, an altered quartic tensor or another

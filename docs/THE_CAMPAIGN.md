@@ -1,6 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
-**Current execution, R58 (September 30):** under the owner-approved
+**Current execution, R59 (September 30):** the actual supplied E8
+coefficient and cubic-tensor map is verified. Next inspect the actual
+source/end variations and test whether genesis data supply them. The
+finite-energy nonsplit obstruction and its physical-admissibility caveat
+already exist; do not rederive either as a new result. No new character
+census until the changed physical premise is explicit. Report:
+reports/physical_bridge_2026_09_05/PARENT_TENSORS.md.
+
+**Preceding execution, R58 (September 30):** under the owner-approved
 PHYSICS_MISSION.md, the operational contract is written and conditional
 finite-cover action transport is checked. Next test the actual candidate's
 parent/bundle map and source/end law. Do not repeat the cohomology census

@@ -855,3 +855,15 @@ alternating tensor and a wrong-sheet-merge opposite, not an SM coupling.
 | Induced endomorphisms are a proper subalgebra of all endomorphisms for degree greater than one | Ranks n*r^2 and n^2*r^2 for positive r; block projection is not a Lie map. A larger parent is a changed model, not forbidden universally. | B1384 coefficient context; R58 COVER_ACTION_DESIGN.md; tests/test_physical_bridge_cover_action.py::test_products_brackets_and_proper_algebra |
 | Finite-cover L4 norms can be equivalent while quartic actions differ | Sum x_i^2 versus (sum x_i)^2, with nonnegative x_i; exact cross terms and bounds. Retain the actual interaction tensor. | B1384 transport context; R58 COVER_ACTION_DESIGN.md; tests/test_physical_bridge_cover_action.py::test_quartic_tensor_is_not_replaced_by_a_norm |
 | Cyclic sheet symmetry need not select a boundary domain | The three-interval boundary comparator admits distinct invariant Dirichlet and Neumann maximal-isotropic subspaces. Not an actual nonsplit-cusp domain theorem. | B1384 end-law duty context; R58 COVER_ACTION_DESIGN.md; tests/test_physical_bridge_cover_action.py::test_symmetry_does_not_choose_one_boundary_domain |
+
+## Actual supplied parent tensors, September 30, 2026
+
+R59 verifies standard representation maps in the specified regular parent;
+no new physical selection or literature novelty is claimed. The received
+fork's dictionary is independently checked; its literal character-grid
+obstruction is reproduced, not newly discovered.
+
+| law (scoped statement) | scope and limits | evidence |
+|---|---|---|
+| The stated E8 adjoint parent has charged coefficients E and Lambda2(E) | Q,u,e use E5; d,L use Lambda2(E)10, with corresponding duals and consistently admitted line twists. No fibre-rank particle count or literal rank-six transfer. | B1384 embedding context; fork m6_parent_admission at 490d77c4; R59 PARENT_TENSORS_DESIGN.md; tests/test_physical_bridge_parent_tensors.py::test_branching_needs_duality_and_Cartans |
+| Both charged parent cubic channels are nonzero associated-bundle maps | E E Lambda2(E)* evaluation and E Lambda2(E) Lambda2(E) volume contraction; exact root support agrees for both. No Chevalley sign gauge, relative normalization, normalizable modes or overlap values computed. | B1384 embedding context, not a prior proof of this check; R59 PARENT_TENSORS_DESIGN.md; tests/test_physical_bridge_parent_tensors.py::test_up_tensor_matches_every_root_triple and test_down_tensor_matches_every_root_triple |

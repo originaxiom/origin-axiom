@@ -1,6 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**First execution, R58, September 30:** operational contract written;
+**Current execution, R59, September 30:** actual supplied-parent matter
+bundles and both charged cubic maps verified. Native 18/18; 16 focused
+tests; 15 unchanged foreign tests. No physical chiral background or
+normalized coupling is claimed. Next: same-action source/end variation,
+not a fresh character census or transfer of the literal rank-six index.
+Report: reports/physical_bridge_2026_09_05/PARENT_TENSORS.md.
+
+**Preceding execution, R58, September 30:** operational contract written;
 conditional finite-cover action transport verified with 28/28 first
 controls, 5/5 separately sealed cubic safeguards and 25 selected tests.
 The original zero-only cubic fixture is preserved and supplemented.

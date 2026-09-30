@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-30 - R59 actual parent coefficients and cubic maps
+
+Verify the supplied E8 adjoint matter dictionary and both charged cubic
+maps by independent root closure and complete support comparisons.
+Native 18/18, focused 16 tests and unchanged foreign 15-test reproduction
+pass after remote-confirmed seal 6a504f94. No physical generations,
+normalized Yukawas, selected parent/background or end law follow.
+The intake recovered the existing finite-energy harmonic obstruction
+and its action-domain caveat rather than duplicating it. Report:
+reports/physical_bridge_2026_09_05/PARENT_TENSORS.md.
+
 ## 2026-09-30 - R58 nonzero cubic safeguard passes without replacing the first run
 
 Author review caught a zero-only trace-cubic fixture. Preserve it and

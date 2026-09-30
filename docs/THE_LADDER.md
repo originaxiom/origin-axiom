@@ -1,6 +1,14 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
-**Current execution, R58 (September 30):** the operational contract and
+**Current execution, R59 (September 30):** the actual supplied E8 parent
+has verified E/Lambda2(E) charged coefficients and both nonzero cubic
+tensor maps. This advances the necessary common-model connection, not
+the physical chirality or completion grades. 18 exact controls, 16 own
+tests and 15 foreign replay tests pass. A global background and end law
+with these same coefficients remain required. No index transfer by rank.
+Report: reports/physical_bridge_2026_09_05/PARENT_TENSORS.md.
+
+**Preceding execution, R58 (September 30):** the operational contract and
 conditional finite-cover action transport advance PB-TRANSITIONS and
 PB-HANDOFF-M6, not the physical completion grades. 28 first controls,
 five nonzero-cubic safeguards and 25 selected tests pass; the global

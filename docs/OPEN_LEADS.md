@@ -3811,3 +3811,23 @@ of the action from genesis." The application duty remains OPEN.
 - PB-PHYSICS: retain the canonical paired control, partial-filling route,
   full SM spectrum/interactions, anomalies, quantum/gravity and empirical
   obligations under PHYSICS_MISSION.md. The first milestone is not complete.
+
+## Actual parent connection, September 30, 2026
+
+R59 PARENT_TENSORS.md advances PB-HANDOFF-M6: the actual E8 coefficient
+map and both charged cubic maps are verified in the supplied parent.
+The rank-six orbit cannot be relabeled as the defining E5. Fibre rank
+is not a zero-mode count; the existing nonsplit mathematical index stays.
+
+- PB-ACTION / PB-BOUNDARY: derive the actual source/end variations and
+  distinguish background admissibility from finite harmonic-map energy.
+  F01 and R41 already give conditional cutoff/source balances; reuse them.
+- PB-TRANSITIONS: compare genesis marking/order data with that end law.
+  No selectable L2 extension is introduced on a complete smooth problem
+  by a marking alone. Changed singularities/domains require a new analysis.
+- PB-HANDOFF-M6: for ONE admitted E, compute E, Lambda2(E), dual, adjoint,
+  line twists and the actual tensor overlaps in the same action/domain.
+  No fresh index census without an explicit changed physical premise.
+- PB-REVIEW / PB-PHYSICS: independent analytic review, chiral physical
+  modes, normalized couplings, quantum anomalies, gravity and empirical
+  tests remain duties. The full goal is not replaced by this finite audit.
