@@ -1,5 +1,20 @@
 # Changelog
 
+## The path to the Standard Model, read from the record (docs/THE_PATH_TO_THE_SM_2026-10-01.md)
+
+The owner asked whether there is a genuine path to the full Standard Model. The seat answered from the record, and the answer is
+banked on the owner's "go for it".
+- **No path to the 19 values.** The object fixes priors, not points.
+- **A path to the qualitative content needs three bridges the record does not have:**
+  - a physical vacuum that carries a chiral generation (I-26);
+  - three families in one vacuum;
+  - the values.
+- **Three changes of premise could reopen it,** each with a decisive test: (A) make main's index the count of a physical boundary
+  problem, which is B1508, sealed next; (B) get a chiral end from geometry; (C) keep the deck, with the orbit in one configuration.
+- **Surfaces.** THE_SM_VERDICT and OPEN_LEADS carry pointers.
+
+0 of 19.
+
 ## B1507 — the record reread: July's three, Gate C as the fence, R64/R68 recomputed, s961's deck inversions, five scopes
 
 The owner asked for one more sweep for forgotten work. It covered this branch, main (987c0c8f), the audit lane (24356ebd), the physics

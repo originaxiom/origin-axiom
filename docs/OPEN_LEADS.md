@@ -3124,6 +3124,12 @@ The earlier work prices both sides of the bit:
 
 `frontier/B1507_the_record_reread`.
 
+**The path, 2026-10-01 (`docs/THE_PATH_TO_THE_SM_2026-10-01.md`).** Three changes of premise could reopen a path to the Standard
+Model's qualitative content. Each maps to a lead already open:
+- **A. Is main's index the count of a physical boundary problem?** This is I-26. Its test is B1508, sealed before computing.
+- **B. A chiral end from geometry.** This is sL-8 and B1505's exact description.
+- **C. The deck kept, with the orbit in one configuration.** This is this lead's one bit.
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

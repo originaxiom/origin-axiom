@@ -16222,3 +16222,13 @@ covered this branch, main, the audit lane, the physics seat, codex and outside-b
   files): 1 658 passed and 2 skipped; its 2 failures both read that same gate.
 
 `frontier/B1507_the_record_reread`. 0 of 19.
+
+## 2026-10-01 — The path to the Standard Model, read from the record
+
+The owner asked: "do u see any genuine path to full sm? i believe by now we have all ingredients".
+- **The answer.** There is no path to the 19 values. A path to the qualitative content needs three bridges the record does not have:
+  a physical vacuum with a chiral generation, three families in one vacuum, and the values.
+- **Three changes of premise** could reopen it, each with a decisive test. The first is B1508.
+- **Banked** as `docs/THE_PATH_TO_THE_SM_2026-10-01.md` on the owner's "go for it".
+
+0 of 19.

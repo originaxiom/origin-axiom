@@ -949,3 +949,10 @@ left it.
 > - No verdict of this ledger changes.
 >
 > 0 of 19 (`frontier/B1507_the_record_reread`).
+
+> **Currency note (2026-10-01): the path to the Standard Model, read from the record.** Asked whether there is a genuine path to the
+> full Standard Model, the seat answered from the record. There is no path to the 19 values: the object fixes priors, not points. There
+> is a path to the qualitative content (gauge group, three chiral generations, Higgs), but it needs three bridges the record does not
+> have. The three are a physical vacuum that carries a chiral generation (I-26), three families in one vacuum, and the values. Three
+> changes of premise could reopen a path, each with a decisive test; the first (is main's index the count of a physical boundary
+> problem?) is B1508, sealed before computing. `docs/THE_PATH_TO_THE_SM_2026-10-01.md`. No verdict of this ledger changes. 0 of 19.
