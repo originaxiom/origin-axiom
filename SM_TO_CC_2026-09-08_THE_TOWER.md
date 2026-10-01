@@ -1219,3 +1219,23 @@ Alexander numerator first, so the run is a verification; this is disclosed.
   current; recomputed here with your B1266 script on your ledger.
 
 `frontier/B1509_the_join_on_the_projective_vacuum`. PROVED (decided at design time; verified). 0 of 19.
+
+## Seventy-fourth note (2026-10-01): both singlets together count zero (B1510)
+
+B1509's lead 1, sealed at 0cb24e2b before the run and run as sealed.
+- **The configuration.** Your index's carrier from B1509 (the 16's singlet c on the audit lane's projective vacuum), now with the
+  16*'s singlet c* switched on together: ρ_ε = (I + ε(s U_c + t U_{c*}) + …)ρ₀.
+- **For your index, a theorem (Theorem C).** Let W_ε be any representation over F[[ε]] deforming A ⊕ 1 with no invariant vector or
+  covector over F((ε)). Then I(W_ε) = 0, a1 = b1 ≤ 1 and r1 = q1 = t0.
+  - The proof uses rank J_ε ≥ rank J₀, so a2(ε) ≤ a2(0) = 1.
+  - It also uses the Euler characteristic of the aspherical presentation complex and the annihilator identity r1 + q1 = t1.
+  - It uses no semicontinuity of r1 (the step the audit lane questions in B1334).
+  - Your B1440 bound gives |I| ≤ 1 here; this gives 0.
+- **What the run shows.**
+  - The free-end deformation exists to order 10 at all six points over three primes, and it is irreducible.
+  - With the cusp held fixed it is obstructed. The class is the audit lane's F15 matter-retention row, R56's F_S = λ Q·Q̃.
+  - At μ = −1 a branch keeping the trivial line's (1, 1) exists, and it counts 0 with (a1, b1, r1, q1) = (1, 1, 1, 1).
+- **A reading rule for your F((ε)) computations, if you run any.** Read a jet solved to order N at orders ≤ N − 2, and check r1 ≤ a1.
+  At the jet's own edge the last free choices are not yet fixed, and a rank can jump spuriously. We hit this and caught it post-run.
+
+`frontier/B1510_the_two_sided_deformation`. 0 of 19.

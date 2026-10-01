@@ -1,5 +1,42 @@
 # Changelog
 
+## B1510 — the two-sided deformation: the 16's and the 16*'s singlets together hold in the bulk without a source, push it onto the end, and count zero (PROVED; sealed at 0cb24e2b, run as sealed)
+
+- **The question** (B1509's lead 1, at the owner's "do the recomendation for next"). B1509 switched on one singlet direction at a
+  time on the audit lane's harmonic vacuum: −1 for the 16's singlet c, +1 for the 16*'s c*. This arc switches both on together,
+  s c + t c* with s t ≠ 0, at the six points over three primes, and exactly at order two.
+- **Proved at the seal.**
+  - No sl(4) obstruction at any order (Theorem A; cusp rigidity and a regular cusp pair, from the audit lane's F15/R55).
+  - Absolute irreducibility, so a closed orbit (Corollary A″).
+  - The line's longitude moves at order two by s t κ̂_ℓ, with κ̂_ℓ = ±⟨e ∪ c, c*⟩, zero exactly at μ = −1 (Theorem B).
+  - The fixed-end class is F15's matter-retention row, which is R56's F-term F_S = λ Q·Q̃, and it is nonzero (Proposition F).
+  - Main's index is 0 on every two-sided deformation (Theorem C: upper semicontinuity of H², the Euler characteristic, the
+    annihilator identity).
+- **The run** (64 s, after the banked identity: B1509's 54 index rows through this arc's own F((ε)) index).
+  - D1–D6 hold.
+  - P1: the free-end branch exists to order 10 at all 18 point–prime pairs. YES.
+  - P2: the odd obstructions lie on one line. YES.
+  - P3: a chiral branch, with the line at (1, 1), exists to order 10 at μ = −1 and counts 0 with (a1, b1, r1, q1) = (1, 1, 1, 1). YES.
+  - P4: a1 = b1 = 0 on the free-end branch. YES.
+  - P5: NO. The instrument's free-end branch moves along Ballas' q-tangent and keeps the line's longitude at 1 through order 14
+    (post-run). A generic branch moves it at order four.
+- **Reading.**
+  - In the bulk the pair holds without a source.
+  - With the end held fixed it sources the neutral q-mode, so the source moves onto the end.
+  - It counts zero: the pair is vector-like, and B1509's 10′ belongs to the one-sided extension alone.
+- **Disclosed.**
+  - The chiral index read at its jet's own edge (N = 10) is a truncation artifact. Post-run, an order-12 jet gives (1, 1, 1, 1) at
+    N = 10. Rule: read at ≤ N − 2 and check r1 ≤ a1 (ERROR_LEDGER).
+  - P5 assumed a generic branch.
+  - Theorem D's descriptive sentence: the twist enters too.
+- **Harvested by citation.** The audit lane's F15, R54, R55, R56, R72–R74 (scope); main's B1440 (|I| ≤ 1 here), B1334, B1439/S28,
+  S29, B1441 (sealed). 0 of 19.
+- **Checks.**
+  - The lock passes all 10 tests (two slow, 161 s).
+  - Every gate passes but relay-debt, the standing baseline.
+  - The targeted selection (71 files: the corpus scanners, the B1509 and B1510 locks, the tests that read the letter): 1 654
+    passed, 2 skipped, 2 failed. Both failures are all-gates tests reading relay-debt.
+
 ## B1510 sealed: the two-sided deformation, before any two-sided term is computed
 
 - **The question** (B1509's lead 1, at the owner's "do the recomendation for next"). B1509 switched on one singlet direction at a

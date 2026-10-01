@@ -11345,5 +11345,21 @@
   "depth_note": "Entered 2026-10-01 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
   "note": "ENTERED 2026-10-01 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1509_the_join_on_the_projective_vacuum/verification/extension_index.py (main's index exact and over three primes at all six points), wang_monodromy.py (the Jordan block), family_classification.py (Corollary C's inputs) and end_conditions.py (Proposition E on the run's data); locked by tests/test_b1509_the_join_on_the_projective_vacuum.py.",
   "routed_from": "sm-branch-2026-10-01-banking"
+ },
+ {
+  "id": "B1510",
+  "claim_killed": "THE TWO-SIDED DEFORMATION, its no-go half: that switching on both singlet directions of B1509's join (the 16's c and the 16*'s c* on the audit lane's harmonic vacuum A + 1, A = mu rho_q) can carry a chiral count. Theorem C: every representation W over F[[eps]] deforming A + 1 with no invariant vector or covector over F((eps)) has main's index 0, with a1 = b1 <= 1 and r1 = q1 = t0 (rank J_eps >= rank J_0 gives a2 <= a2(0) = 1; the Euler characteristic and the annihilator identity do the rest). The run confirms I = 0 on every branch at the six points over three primes, including the chiral branch at mu = -1 that keeps the trivial line's (1, 1). The arc is PROVED (sealed at 0cb24e2b; D1-D6 hold, P1-P4 YES, P5 NO).",
+  "kill_form": "semicontinuity-bound (the pair's index is bounded by the base point's H^2: a2 <= 1 forces r1 = q1 and a1 = b1, so the singlet and its conjugate partner pair up vector-like)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "A deformation from a base point with more H^2 (h2(A) >= 2, or a larger trivial block), a building block whose two-sided pair is not boundary-acyclic, or the end: B1509's one-sided extension keeps its end-determined count (0, 1 or 2) and needs a source; the fixed-end class o_rel (R56's F-term) must be absorbed by an end that moves (B1510 lead 3).",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-01 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-10-01 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1510_the_two_sided_deformation/verification/two_sided.py (the sealed run: the free-end and chiral branches to order 10 at six points over three primes, their index over F((eps)), the fixed-end class) and post_run_checks.py (the index from an order-12 jet; the q-direction branch); locked by tests/test_b1510_the_two_sided_deformation.py.",
+  "routed_from": "sm-branch-2026-10-01-banking"
  }
 ]

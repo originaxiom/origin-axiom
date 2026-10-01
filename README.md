@@ -434,6 +434,11 @@ emitted value. The structure is the object's; the values are the observer's.
 > handedness to attach to. The only thing that does is the extra plain direction, and it enters the 10's sector but not the 5-bar's.
 > How many 10s appear depends on the condition chosen at the space's open end (0, 1 or 2). So the missing 5-bar, and the source needed to hold the configuration in place, must come from that end or from
 > another space. The nineteen numbers are still not derived.*
+>
+> *And (B1510), the other singlet direction switched on together with the first: the pair holds in the bulk on its own. No outside
+> push is needed there, but the push moves to the space's open end, which has to shift. The pair also counts zero: a direction and
+> its mirror partner cancel each other's handedness. So the one 10 that B1509 found belongs to the lopsided direction alone. The
+> nineteen numbers are still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

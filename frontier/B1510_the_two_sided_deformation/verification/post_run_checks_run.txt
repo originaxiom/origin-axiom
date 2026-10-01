@@ -1,0 +1,1318 @@
+{
+ "a_chiral_index_at_the_edge": [
+  {
+   "exists_to_order": 12,
+   "index": {
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 8,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "10": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 10,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "12": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "last_pivot_V": 12,
+     "prec_left": 1,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    }
+   },
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "stopped": null,
+   "verify": {
+    "det_one_to_order_N": true,
+    "line_stays_(1,1)": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "exists_to_order": 12,
+   "index": {
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 8,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "10": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 10,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "12": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "last_pivot_V": 12,
+     "prec_left": 1,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    }
+   },
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "stopped": null,
+   "verify": {
+    "det_one_to_order_N": true,
+    "line_stays_(1,1)": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "exists_to_order": 12,
+   "index": {
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 8,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "10": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 10,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "12": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "last_pivot_V": 12,
+     "prec_left": 1,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    }
+   },
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "stopped": null,
+   "verify": {
+    "det_one_to_order_N": true,
+    "line_stays_(1,1)": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "exists_to_order": 12,
+   "index": {
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 8,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "10": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 10,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "12": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "last_pivot_V": 12,
+     "prec_left": 1,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    }
+   },
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "stopped": null,
+   "verify": {
+    "det_one_to_order_N": true,
+    "line_stays_(1,1)": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "exists_to_order": 12,
+   "index": {
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 8,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "10": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 10,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "12": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "last_pivot_V": 12,
+     "prec_left": 1,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    }
+   },
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "stopped": null,
+   "verify": {
+    "det_one_to_order_N": true,
+    "line_stays_(1,1)": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "exists_to_order": 12,
+   "index": {
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 8,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "10": {
+     "I": 0,
+     "a0": 0,
+     "a1": 1,
+     "b0": 0,
+     "b1": 1,
+     "last_pivot_V": 0,
+     "prec_left": 10,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    },
+    "12": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "last_pivot_V": 12,
+     "prec_left": 1,
+     "q1": 1,
+     "r1": 1,
+     "s0": 1,
+     "t0": 1
+    }
+   },
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "stopped": null,
+   "verify": {
+    "det_one_to_order_N": true,
+    "line_stays_(1,1)": true,
+    "relator_identity_to_order_N": true
+   }
+  }
+ ],
+ "b_longitude_columns_at_step_three": [
+  {
+   "base": {
+    "det": 519,
+    "lam_l_next": 267,
+    "lam_m": 0
+   },
+   "columns": {
+    "adj1": {
+     "det": 0,
+     "lam_l_next": 615,
+     "lam_m": 0
+    },
+    "adj2": {
+     "det": 0,
+     "lam_l_next": 599,
+     "lam_m": 0
+    },
+    "adj3": {
+     "det": 0,
+     "lam_l_next": 535,
+     "lam_m": 0
+    },
+    "c": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "c*": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "centre": {
+     "det": 5,
+     "lam_l_next": 0,
+     "lam_m": 1
+    },
+    "twist_T": {
+     "det": 0,
+     "lam_l_next": 987,
+     "lam_m": 1005
+    }
+   },
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "rank_[longitude; A obstruction]_on_adjoint_and_twist": 2,
+   "rank_[longitude; odd obstruction]_on_adjoint_and_base": {
+    "A": 2,
+    "A*": 2
+   }
+  },
+  {
+   "base": {
+    "det": 130,
+    "lam_l_next": 94,
+    "lam_m": 0
+   },
+   "columns": {
+    "adj1": {
+     "det": 0,
+     "lam_l_next": 788,
+     "lam_m": 0
+    },
+    "adj2": {
+     "det": 0,
+     "lam_l_next": 58,
+     "lam_m": 0
+    },
+    "adj3": {
+     "det": 0,
+     "lam_l_next": 95,
+     "lam_m": 0
+    },
+    "c": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "c*": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "centre": {
+     "det": 5,
+     "lam_l_next": 0,
+     "lam_m": 1
+    },
+    "twist_T": {
+     "det": 0,
+     "lam_l_next": 406,
+     "lam_m": 1005
+    }
+   },
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "rank_[longitude; A obstruction]_on_adjoint_and_twist": 2,
+   "rank_[longitude; odd obstruction]_on_adjoint_and_base": {
+    "A": 2,
+    "A*": 2
+   }
+  },
+  {
+   "base": {
+    "det": 996,
+    "lam_l_next": 97,
+    "lam_m": 0
+   },
+   "columns": {
+    "adj1": {
+     "det": 0,
+     "lam_l_next": 505,
+     "lam_m": 0
+    },
+    "adj2": {
+     "det": 0,
+     "lam_l_next": 672,
+     "lam_m": 0
+    },
+    "adj3": {
+     "det": 0,
+     "lam_l_next": 775,
+     "lam_m": 0
+    },
+    "c": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "c*": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "centre": {
+     "det": 5,
+     "lam_l_next": 0,
+     "lam_m": 1
+    },
+    "twist_T": {
+     "det": 0,
+     "lam_l_next": 182,
+     "lam_m": 1029
+    }
+   },
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "rank_[longitude; A obstruction]_on_adjoint_and_twist": 2,
+   "rank_[longitude; odd obstruction]_on_adjoint_and_base": {
+    "A": 2,
+    "A*": 2
+   }
+  },
+  {
+   "base": {
+    "det": 522,
+    "lam_l_next": 42,
+    "lam_m": 0
+   },
+   "columns": {
+    "adj1": {
+     "det": 0,
+     "lam_l_next": 211,
+     "lam_m": 0
+    },
+    "adj2": {
+     "det": 0,
+     "lam_l_next": 34,
+     "lam_m": 0
+    },
+    "adj3": {
+     "det": 0,
+     "lam_l_next": 342,
+     "lam_m": 0
+    },
+    "c": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "c*": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "centre": {
+     "det": 5,
+     "lam_l_next": 0,
+     "lam_m": 1
+    },
+    "twist_T": {
+     "det": 0,
+     "lam_l_next": 390,
+     "lam_m": 1029
+    }
+   },
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "rank_[longitude; A obstruction]_on_adjoint_and_twist": 2,
+   "rank_[longitude; odd obstruction]_on_adjoint_and_base": {
+    "A": 2,
+    "A*": 2
+   }
+  },
+  {
+   "base": {
+    "det": 961,
+    "lam_l_next": 101,
+    "lam_m": 0
+   },
+   "columns": {
+    "adj1": {
+     "det": 0,
+     "lam_l_next": 192,
+     "lam_m": 0
+    },
+    "adj2": {
+     "det": 0,
+     "lam_l_next": 400,
+     "lam_m": 0
+    },
+    "adj3": {
+     "det": 0,
+     "lam_l_next": 275,
+     "lam_m": 0
+    },
+    "c": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "c*": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "centre": {
+     "det": 5,
+     "lam_l_next": 0,
+     "lam_m": 1
+    },
+    "twist_T": {
+     "det": 0,
+     "lam_l_next": 41,
+     "lam_m": 1125
+    }
+   },
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "rank_[longitude; A obstruction]_on_adjoint_and_twist": 2,
+   "rank_[longitude; odd obstruction]_on_adjoint_and_base": {
+    "A": 2,
+    "A*": 2
+   }
+  },
+  {
+   "base": {
+    "det": 748,
+    "lam_l_next": 793,
+    "lam_m": 0
+   },
+   "columns": {
+    "adj1": {
+     "det": 0,
+     "lam_l_next": 478,
+     "lam_m": 0
+    },
+    "adj2": {
+     "det": 0,
+     "lam_l_next": 371,
+     "lam_m": 0
+    },
+    "adj3": {
+     "det": 0,
+     "lam_l_next": 341,
+     "lam_m": 0
+    },
+    "c": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "c*": {
+     "det": 0,
+     "lam_l_next": 0,
+     "lam_m": 0
+    },
+    "centre": {
+     "det": 5,
+     "lam_l_next": 0,
+     "lam_m": 1
+    },
+    "twist_T": {
+     "det": 0,
+     "lam_l_next": 532,
+     "lam_m": 1125
+    }
+   },
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "rank_[longitude; A obstruction]_on_adjoint_and_twist": 2,
+   "rank_[longitude; odd obstruction]_on_adjoint_and_base": {
+    "A": 2,
+    "A*": 2
+   }
+  }
+ ],
+ "c_free_end_to_order_14": [
+  {
+   "exists_to_order": 14,
+   "lam_l_series": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lam_m_series": [
+    1,
+    0,
+    98,
+    0,
+    7,
+    0,
+    314,
+    0,
+    463,
+    0,
+    721,
+    0,
+    883,
+    0,
+    945
+   ],
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "relator_identity_to_order_N": true,
+   "twist_ever_chosen": false
+  },
+  {
+   "exists_to_order": 14,
+   "lam_l_series": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lam_m_series": [
+    1,
+    0,
+    983,
+    0,
+    118,
+    0,
+    556,
+    0,
+    518,
+    0,
+    208,
+    0,
+    846,
+    0,
+    484
+   ],
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "relator_identity_to_order_N": true,
+   "twist_ever_chosen": false
+  },
+  {
+   "exists_to_order": 14,
+   "lam_l_series": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lam_m_series": [
+    1,
+    0,
+    214,
+    0,
+    800,
+    0,
+    460,
+    0,
+    605,
+    0,
+    911,
+    0,
+    846,
+    0,
+    276
+   ],
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "relator_identity_to_order_N": true,
+   "twist_ever_chosen": false
+  },
+  {
+   "exists_to_order": 14,
+   "lam_l_series": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lam_m_series": [
+    1,
+    0,
+    722,
+    0,
+    753,
+    0,
+    4,
+    0,
+    850,
+    0,
+    72,
+    0,
+    737,
+    0,
+    580
+   ],
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "relator_identity_to_order_N": true,
+   "twist_ever_chosen": false
+  },
+  {
+   "exists_to_order": 14,
+   "lam_l_series": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lam_m_series": [
+    1,
+    0,
+    711,
+    0,
+    1074,
+    0,
+    212,
+    0,
+    363,
+    0,
+    1032,
+    0,
+    922,
+    0,
+    577
+   ],
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "relator_identity_to_order_N": true,
+   "twist_ever_chosen": false
+  },
+  {
+   "exists_to_order": 14,
+   "lam_l_series": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lam_m_series": [
+    1,
+    0,
+    302,
+    0,
+    578,
+    0,
+    90,
+    0,
+    385,
+    0,
+    808,
+    0,
+    25,
+    0,
+    507
+   ],
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "relator_identity_to_order_N": true,
+   "twist_ever_chosen": false
+  }
+ ],
+ "d_adjoint_direction": [
+  {
+   "free_end_reordered": [
+    {
+     "adjoint_order": [
+      "adj2",
+      "adj3",
+      "adj1"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      98,
+      0,
+      1004,
+      0,
+      309,
+      0,
+      714
+     ]
+    },
+    {
+     "adjoint_order": [
+      "adj3",
+      "adj1",
+      "adj2"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      393,
+      0,
+      950,
+      0,
+      150
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      98,
+      0,
+      29,
+      0,
+      128,
+      0,
+      70
+     ]
+    }
+   ],
+   "minor_with_base_per_class": {
+    "adj1": 0,
+    "adj2": 0,
+    "adj3": 455,
+    "q_tangent": 0
+   },
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "q_tangent_in_adjoint_basis": {
+    "adj1": 510,
+    "adj2": 0,
+    "adj3": 0
+   },
+   "q_tangent_is_cocycle": true
+  },
+  {
+   "free_end_reordered": [
+    {
+     "adjoint_order": [
+      "adj2",
+      "adj3",
+      "adj1"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      983,
+      0,
+      866,
+      0,
+      147,
+      0,
+      301
+     ]
+    },
+    {
+     "adjoint_order": [
+      "adj3",
+      "adj1",
+      "adj2"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      550,
+      0,
+      1004,
+      0,
+      890
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      983,
+      0,
+      777,
+      0,
+      590,
+      0,
+      393
+     ]
+    }
+   ],
+   "minor_with_base_per_class": {
+    "adj1": 0,
+    "adj2": 0,
+    "adj3": 988,
+    "q_tangent": 0
+   },
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "q_tangent_in_adjoint_basis": {
+    "adj1": 435,
+    "adj2": 0,
+    "adj3": 0
+   },
+   "q_tangent_is_cocycle": true
+  },
+  {
+   "free_end_reordered": [
+    {
+     "adjoint_order": [
+      "adj2",
+      "adj3",
+      "adj1"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      214,
+      0,
+      253,
+      0,
+      214,
+      0,
+      50
+     ]
+    },
+    {
+     "adjoint_order": [
+      "adj3",
+      "adj1",
+      "adj2"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      645,
+      0,
+      175,
+      0,
+      367
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      214,
+      0,
+      1024,
+      0,
+      605,
+      0,
+      557
+     ]
+    }
+   ],
+   "minor_with_base_per_class": {
+    "adj1": 0,
+    "adj2": 0,
+    "adj3": 958,
+    "q_tangent": 0
+   },
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "q_tangent_in_adjoint_basis": {
+    "adj1": 824,
+    "adj2": 0,
+    "adj3": 0
+   },
+   "q_tangent_is_cocycle": true
+  },
+  {
+   "free_end_reordered": [
+    {
+     "adjoint_order": [
+      "adj2",
+      "adj3",
+      "adj1"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      722,
+      0,
+      822,
+      0,
+      257,
+      0,
+      649
+     ]
+    },
+    {
+     "adjoint_order": [
+      "adj3",
+      "adj1",
+      "adj2"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      694,
+      0,
+      451,
+      0,
+      395
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      722,
+      0,
+      423,
+      0,
+      167,
+      0,
+      973
+     ]
+    }
+   ],
+   "minor_with_base_per_class": {
+    "adj1": 0,
+    "adj2": 0,
+    "adj3": 599,
+    "q_tangent": 0
+   },
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "q_tangent_in_adjoint_basis": {
+    "adj1": 853,
+    "adj2": 0,
+    "adj3": 0
+   },
+   "q_tangent_is_cocycle": true
+  },
+  {
+   "free_end_reordered": [
+    {
+     "adjoint_order": [
+      "adj2",
+      "adj3",
+      "adj1"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      711,
+      0,
+      625,
+      0,
+      285,
+      0,
+      288
+     ]
+    },
+    {
+     "adjoint_order": [
+      "adj3",
+      "adj1",
+      "adj2"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      342,
+      0,
+      926,
+      0,
+      560
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      711,
+      0,
+      973,
+      0,
+      712,
+      0,
+      306
+     ]
+    }
+   ],
+   "minor_with_base_per_class": {
+    "adj1": 0,
+    "adj2": 0,
+    "adj3": 473,
+    "q_tangent": 0
+   },
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "q_tangent_in_adjoint_basis": {
+    "adj1": 259,
+    "adj2": 0,
+    "adj3": 0
+   },
+   "q_tangent_is_cocycle": true
+  },
+  {
+   "free_end_reordered": [
+    {
+     "adjoint_order": [
+      "adj2",
+      "adj3",
+      "adj1"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      302,
+      0,
+      942,
+      0,
+      596,
+      0,
+      100
+     ]
+    },
+    {
+     "adjoint_order": [
+      "adj3",
+      "adj1",
+      "adj2"
+     ],
+     "exists_to_order": 8,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      673,
+      0,
+      80,
+      0,
+      992
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      302,
+      0,
+      214,
+      0,
+      252,
+      0,
+      660
+     ]
+    }
+   ],
+   "minor_with_base_per_class": {
+    "adj1": 0,
+    "adj2": 0,
+    "adj3": 1023,
+    "q_tangent": 0
+   },
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "q_tangent_in_adjoint_basis": {
+    "adj1": 643,
+    "adj2": 0,
+    "adj3": 0
+   },
+   "q_tangent_is_cocycle": true
+  }
+ ]
+}

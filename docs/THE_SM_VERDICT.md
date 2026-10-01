@@ -998,3 +998,14 @@ left it.
 >   - The contrast: R40's rank-five enlargement on m010 cancels (+1, +1) but has no harmonic background.
 > - **Applied to this ledger.** I-26 stays UNEARNED and no verdict changes. The input count is 4 + 8 = 12 (main's live ledger; see
 >   the currency note under THE PRICE). 0 of 19. `frontier/B1509_the_join_on_the_projective_vacuum`.
+
+> **Currency note (2026-10-01, B1510): the two-sided deformation.** B1509's lead 1, sealed at 0cb24e2b before the run.
+> - **The configuration.** The 16's and the 16*'s singlets switched on together on the audit lane's harmonic vacuum.
+> - **In the bulk it holds without a source.** It is irreducible with a closed orbit, and it exists to order 10 at all six points over
+>   three primes.
+> - **With the end held fixed it is obstructed.** The class is F15's matter-retention row, R56's F_S = λ Q·Q̃. So the source moves onto
+>   the end.
+> - **It counts zero on every two-sided deformation** (Theorem C, upper semicontinuity of H²). This includes a branch at μ = −1 that
+>   keeps the trivial line's cusp eigenvalues (1, 1).
+> - **Applied to this ledger.** The pair is vector-like, and B1509's 10′ belongs to the one-sided extension alone. I-26 stays
+>   UNEARNED and no verdict changes. 0 of 19. `frontier/B1510_the_two_sided_deformation`.

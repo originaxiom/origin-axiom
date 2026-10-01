@@ -9066,7 +9066,14 @@
   "B1510": {
    "slug": "the two sided deformation",
    "motifs": [
-    "kappa"
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "amphichiral_cp"
    ],
    "refs": [
     "P1",
@@ -9076,9 +9083,9 @@
     "P5"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 1,
+   "obstacle_conf": 10,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B151": {
    "slug": "firewall confirmation",

@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1258** |
-| words of findings prose | **1,018,817** |
-| test lock files referenced | **761** |
+| words of findings prose | **1,021,146** |
+| test lock files referenced | **762** |
 | arcs carrying an authored verdict | **1258** (100.0 %) |
-| recorded closures | **814** (647 classified, 167 routed-only) |
+| recorded closures | **815** (648 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 833 |
+| PROVED | 834 |
 | NEGATIVE | 325 |
-| OPEN | 89 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 84 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 85 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1509`** (4720 words, 1 locks)  
-THE JOIN ON THE PROJECTIVE VACUUM (B1508 lead 1, on the owner's 'do as u recomend, u know the endgoal'; predictions D1-D6 committed and pushed at 3edaf1fa before the direct run; the control printed the twisted Alexander numerator before the seal, disclosed, so the arc is decided at design time and the run verifies). On the audit lane's (codex's second lane) harmonic vacuum family on m004's convex-projective deformation (R42-R56; light content 16 + 16*, vector-like), the minimal non-split SU(5) extension W1 = [[A, c], [0, 1]], A = mu rho_q, c generating H^1(A), carries main's index: I(W1) = -1 and the opposite order I(W2) = +1 at q = 17 +- 12 sqrt2 (mu = -1), 0 at q = 7 +- 4 sqrt3 (mu = +-i), I(Lambda^2 W) = 0 at all six points (exact over Q(sqrt2, sqrt3, i) and over GF(1009), GF(1033), GF(1129)). T1: the projective four, its dual and Lambda^2 have no boundary cohomology for q != 1, so the matter is vector-like in every count and only the trivial line counts. T2: I(W1) = -r1 = -1 iff e u c = 0. T3: e u c = 0 iff the fibre monodromy has a Jordan block at 1; its characteristic polynomial on H^1(F; rho_q) is the palindromic Q(q, s), so s = -1 is a double root at q = 17 +- 12 sqrt2 and +-i are simple (checked directly on the fibre F = <u0, u1>, phi(u1) = u1 u0^-1 u1^2). Proposition E: an end condition W gives N_W = dim W - h0(T;V) + h0(M;V) - h0(M;V*), so for W1 the 10' count is 0, 1 or 2 (main's interior index is the middle one) and the 5bar' count is 0 for every end condition. Corollary C: among determinant-one extensions of a character and mu rho_q on the whole family, the index is nonzero only for W1, W2 at the two mu = -1 points. Reading: the block is the light 16's SU(5)'-singlet direction (U(1)_T = U(1)_X charge 5); it is F-flat, not polystable; R41's balance for its one flag is integral tr(T S) = 5 integral |b|^2 > 0, met in sign by a U(1)_X source (T pairs to 20, R41's U to 0); the interior count, one 10' and no 5bar', is SU(5)'-anomalous, so a chiral generation needs one 5bar' from the end or another state, which the record has not derived. Contrast: R40's rank-five enlargement on m010 has a cancelling (+1, +1) but no harmonic background. I-26 stays UNEARNED. 0 of 19; price unchanged.  
-`B1509_the_join_on_the_projective_vacuum/FINDINGS.md`
+**PROVED — `B1510`** (2833 words, 1 locks)  
+THE TWO-SIDED DEFORMATION (B1509's lead 1, at the owner's 'do the recomendation for next'; sealed at 0cb24e2b before the run): the 16's and the 16*'s singlets c and c* switched on together on the audit lane's harmonic vacuum A + 1, A = mu rho_q, hold in the bulk without a source, push it onto the end, and count zero. Proved at seal: no sl(4) obstruction at any order (Theorem A, with cusp rigidity and a regular cusp pair from F15/R55); s t != 0 gives an absolutely irreducible deformation, a closed orbit; the line's longitude moves by s t kappa_l at order two, kappa_l = +-<e u c, c*>, zero exactly at mu = -1; the fixed-end class is F15's matter-retention row, R56's F-term F_S = lambda Q.Qtilde, nonzero; main's index is 0 on every two-sided deformation (Theorem C: upper semicontinuity of H^2). Sealed run at the six points over GF(1009), GF(1033), GF(1129) and exactly at order two: D1-D6 hold (the chiral index read at its jet's own edge is a truncation artifact, shown post-run); P1 the free-end branch exists to order 10 at all 18 pairs, P2 the odd obstructions lie on one line, P3 a chiral branch keeping the line's (1,1) exists to order 10 at mu = -1 and counts 0 with (a1,b1,r1,q1) = (1,1,1,1), P4 a1 = b1 = 0 on the free-end branch: YES; P5 NO, because the instrument's free-end branch moves along Ballas' q-tangent and keeps the line's longitude at 1 through order 14 (a generic branch moves it at order four). The pair is vector-like: B1509's 10' belongs to the one-sided extension alone. I-26 stays UNEARNED. 0 of 19.  
+`B1510_the_two_sided_deformation/FINDINGS.md`
 
 **NEGATIVE — `B1399`** (3342 words, 1 locks)  
 THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  

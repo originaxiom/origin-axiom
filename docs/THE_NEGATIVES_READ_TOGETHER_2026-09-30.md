@@ -221,3 +221,13 @@ q = 17 ± 12√2. Its no-go half is entered in the kill graph as `end-datum-inpu
 
 The hatch is one 5̄′ from the end or another state, or a building block whose Λ² meets the boundary. The table above keeps its 26
 records; this record is routed at banking time, as B1504–B1506's were. `frontier/B1509_the_join_on_the_projective_vacuum`.
+
+## Currency (2026-10-01, B1510): the two-sided pair is vector-like
+
+B1510 switches on both singlet directions of B1509's join and proves that every two-sided deformation of A ⊕ 1 counts zero
+(Theorem C). Its no-go half is entered in the kill graph as `semicontinuity-bound`.
+- The index of the pair is bounded by the base point's H², which forces r1 = q1 and a1 = b1.
+- The trivial line keeps its cusp eigenvalues at μ = −1, and the count is still 0.
+
+The hatch is a deformation from a base point with more H², a different block, or the end. The table above keeps its 26 records; this
+record is routed at banking time, as B1509's was. `frontier/B1510_the_two_sided_deformation`.

@@ -489,6 +489,14 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 >
 > `frontier/B1509_the_join_on_the_projective_vacuum`.
 
+> **Addendum (2026-10-01, B1510): both singlets together.**
+> - The two-sided deformation of the audit lane's vacuum (the 16's and the 16*'s singlets together) counts 0 on every branch,
+>   by a theorem (upper semicontinuity of H²).
+> - The pair is irreducible with a closed orbit, but with the end held fixed it is obstructed (R56's F-term). Chirality on this family
+>   stays with B1509's one-sided extension, whose count is the end's.
+>
+> `frontier/B1510_the_two_sided_deformation`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

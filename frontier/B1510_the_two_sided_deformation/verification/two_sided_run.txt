@@ -1,0 +1,7316 @@
+{
+ "banked_identity_B1509_reproduced": true,
+ "banked_identity_rows": 54,
+ "exact_order2": [
+  {
+   "kappa_l_hat": "0",
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17-12sqrt2, mu=-1 (exact)"
+  },
+  {
+   "kappa_l_hat": "0",
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17+12sqrt2, mu=-1 (exact)"
+  },
+  {
+   "kappa_l_hat": "1024 + 1024*sqrt(3) - 4096*sqrt(3)*I",
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7-4sqrt3, mu=i (exact)"
+  },
+  {
+   "kappa_l_hat": "-1024*sqrt(3) + 1024 + 4096*sqrt(3)*I",
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7+4sqrt3, mu=i (exact)"
+  },
+  {
+   "kappa_l_hat": "1024 + 1024*sqrt(3) + 4096*sqrt(3)*I",
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7-4sqrt3, mu=-i (exact)"
+  },
+  {
+   "kappa_l_hat": "-1024*sqrt(3) + 1024 - 4096*sqrt(3)*I",
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7+4sqrt3, mu=-i (exact)"
+  }
+ ],
+ "modp": [
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 6,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 8,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 792,
+       "centre": 98
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 99,
+       "centre": 7
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 543,
+       "centre": 314
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 215,
+       "centre": 463
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 721
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      98,
+      0,
+      7,
+      0,
+      314,
+      0,
+      463,
+      0,
+      721
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 1,
+      "b0": 0,
+      "b1": 1,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "prec_left": 8,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": -1,
+      "n_Vstar": -1,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "prec_left": 1,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "lam_l_2": 0,
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 476,
+       "adj3": 749,
+       "centre": 98,
+       "twist_T": 529
+      },
+      "order": 3,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 658,
+       "adj3": 513,
+       "centre": 328,
+       "twist_T": 82
+      },
+      "order": 5,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 170,
+       "adj3": 285,
+       "centre": 423,
+       "twist_T": 358
+      },
+      "order": 7,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 389,
+       "adj3": 796,
+       "centre": 924,
+       "twist_T": 231
+      },
+      "order": 9,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 8,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 3,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 2,
+      "free_choice": {
+       "centre": 922,
+       "twist_T": 735
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 2,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "line_stays_(1,1)": true,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 0,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 0,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 0,
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 6,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 8,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 110,
+       "centre": 983
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 176,
+       "centre": 118
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 378,
+       "centre": 556
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 226,
+       "centre": 518
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 208
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      983,
+      0,
+      118,
+      0,
+      556,
+      0,
+      518,
+      0,
+      208
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 1,
+      "b0": 0,
+      "b1": 1,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "prec_left": 8,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": -1,
+      "n_Vstar": -1,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "prec_left": 1,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "lam_l_2": 0,
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 793,
+       "adj3": 682,
+       "centre": 983,
+       "twist_T": 498
+      },
+      "order": 3,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 1006,
+       "adj3": 275,
+       "centre": 306,
+       "twist_T": 581
+      },
+      "order": 5,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 552,
+       "adj3": 743,
+       "centre": 479,
+       "twist_T": 372
+      },
+      "order": 7,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 36,
+       "adj3": 73,
+       "centre": 63,
+       "twist_T": 268
+      },
+      "order": 9,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 8,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 3,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 2,
+      "free_choice": {
+       "centre": 520,
+       "twist_T": 130
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 2,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "line_stays_(1,1)": true,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 0,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 0,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 0,
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 3,
+       "twist_T": 874
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 118,
+       "twist_T": 540
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 370,
+       "twist_T": 129
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 499,
+       "twist_T": 79
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 185
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      427,
+      0,
+      742,
+      0,
+      984,
+      0,
+      105,
+      0,
+      441
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      543,
+      0,
+      985,
+      0,
+      863,
+      0,
+      183,
+      0,
+      185
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 582,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 427,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 427,
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 543,
+       "twist_T": 27
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 283,
+       "twist_T": 257
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 469,
+       "twist_T": 784
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 893,
+       "twist_T": 722
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 121
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      406,
+      0,
+      121,
+      0,
+      641,
+      0,
+      703,
+      0,
+      499
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      435,
+      0,
+      264,
+      0,
+      360,
+      0,
+      23,
+      0,
+      121
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 603,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 406,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 406,
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=-i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 860,
+       "twist_T": 701
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 133,
+       "twist_T": 881
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 327,
+       "twist_T": 996
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 122,
+       "twist_T": 625
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 83
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      355,
+      0,
+      811,
+      0,
+      743,
+      0,
+      554,
+      0,
+      191
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      74,
+      0,
+      645,
+      0,
+      379,
+      0,
+      649,
+      0,
+      83
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 654,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 355,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 355,
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 552,
+       "twist_T": 396
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 927,
+       "twist_T": 203
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 863,
+       "twist_T": 157
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 968,
+       "twist_T": 373
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 836
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      875,
+      0,
+      987,
+      0,
+      526,
+      0,
+      533,
+      0,
+      411
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      986,
+      0,
+      115,
+      0,
+      235,
+      0,
+      485,
+      0,
+      836
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 134,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 875,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 875,
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=-i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 6,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 8,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 233,
+       "centre": 214
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 12,
+       "centre": 800
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 727,
+       "centre": 460
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 331,
+       "centre": 605
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 911
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      214,
+      0,
+      800,
+      0,
+      460,
+      0,
+      605,
+      0,
+      911
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 1,
+      "b0": 0,
+      "b1": 1,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "prec_left": 8,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": -1,
+      "n_Vstar": -1,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "prec_left": 1,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "lam_l_2": 0,
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 448,
+       "adj3": 899,
+       "centre": 214,
+       "twist_T": 570
+      },
+      "order": 3,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 756,
+       "adj3": 949,
+       "centre": 289,
+       "twist_T": 847
+      },
+      "order": 5,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 813,
+       "adj3": 918,
+       "centre": 725,
+       "twist_T": 956
+      },
+      "order": 7,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 261,
+       "adj3": 477,
+       "centre": 181,
+       "twist_T": 820
+      },
+      "order": 9,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 8,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 3,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 2,
+      "free_choice": {
+       "centre": 686,
+       "twist_T": 688
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 2,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "line_stays_(1,1)": true,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 0,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 0,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 0,
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 6,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 8,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 460,
+       "centre": 722
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 72,
+       "centre": 753
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 1008,
+       "centre": 4
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 40,
+       "centre": 850
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 72
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      722,
+      0,
+      753,
+      0,
+      4,
+      0,
+      850,
+      0,
+      72
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 1,
+      "b0": 0,
+      "b1": 1,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "prec_left": 8,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": -1,
+      "n_Vstar": -1,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "prec_left": 1,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "lam_l_2": 0,
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 313,
+       "adj3": 791,
+       "centre": 722,
+       "twist_T": 697
+      },
+      "order": 3,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 747,
+       "adj3": 572,
+       "centre": 299,
+       "twist_T": 333
+      },
+      "order": 5,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 260,
+       "adj3": 777,
+       "centre": 622,
+       "twist_T": 672
+      },
+      "order": 7,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 403,
+       "adj3": 547,
+       "centre": 219,
+       "twist_T": 313
+      },
+      "order": 9,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 8,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 3,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 2,
+      "free_choice": {
+       "centre": 738,
+       "twist_T": 701
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 2,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "line_stays_(1,1)": true,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 0,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 0,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 0,
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 196,
+       "twist_T": 176
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 465,
+       "twist_T": 648
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 279,
+       "twist_T": 636
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 651,
+       "twist_T": 97
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 564
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      42,
+      0,
+      436,
+      0,
+      96,
+      0,
+      805,
+      0,
+      561
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      525,
+      0,
+      972,
+      0,
+      834,
+      0,
+      263,
+      0,
+      564
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 991,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 42,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 42,
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 352,
+       "twist_T": 270
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 420,
+       "twist_T": 568
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 935,
+       "twist_T": 997
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 739,
+       "twist_T": 809
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 420
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      810,
+      0,
+      617,
+      0,
+      1028,
+      0,
+      799,
+      0,
+      306
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      305,
+      0,
+      214,
+      0,
+      46,
+      0,
+      602,
+      0,
+      420
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 223,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 810,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 810,
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=-i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 674,
+       "twist_T": 918
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 963,
+       "twist_T": 133
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 946,
+       "twist_T": 120
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 649,
+       "twist_T": 67
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 459
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      741,
+      0,
+      750,
+      0,
+      404,
+      0,
+      603,
+      0,
+      836
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      101,
+      0,
+      431,
+      0,
+      466,
+      0,
+      381,
+      0,
+      459
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 292,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 741,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 741,
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 499,
+       "twist_T": 773
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 104,
+       "twist_T": 859
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 438,
+       "twist_T": 999
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 906,
+       "twist_T": 652
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 216
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      771,
+      0,
+      682,
+      0,
+      121,
+      0,
+      2,
+      0,
+      10
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      506,
+      0,
+      800,
+      0,
+      574,
+      0,
+      364,
+      0,
+      216
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 262,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 771,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 771,
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=-i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 6,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 8,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 170,
+       "centre": 711
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 498,
+       "centre": 1074
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 153,
+       "centre": 212
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 912,
+       "centre": 363
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 1032
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      711,
+      0,
+      1074,
+      0,
+      212,
+      0,
+      363,
+      0,
+      1032
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 1,
+      "b0": 0,
+      "b1": 1,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "prec_left": 8,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": -1,
+      "n_Vstar": -1,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "prec_left": 1,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "lam_l_2": 0,
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 361,
+       "adj3": 652,
+       "centre": 711,
+       "twist_T": 460
+      },
+      "order": 3,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 594,
+       "adj3": 165,
+       "centre": 654,
+       "twist_T": 728
+      },
+      "order": 5,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 935,
+       "adj3": 449,
+       "centre": 652,
+       "twist_T": 163
+      },
+      "order": 7,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 689,
+       "adj3": 164,
+       "centre": 591,
+       "twist_T": 430
+      },
+      "order": 9,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 8,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 3,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 2,
+      "free_choice": {
+       "centre": 427,
+       "twist_T": 389
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 2,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "line_stays_(1,1)": true,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 0,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 0,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 0,
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 6,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3
+      ],
+      "prec_left": 8,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 218,
+       "centre": 302
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 712,
+       "centre": 578
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 291,
+       "centre": 90
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "adj1": 303,
+       "centre": 385
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 808
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      302,
+      0,
+      578,
+      0,
+      90,
+      0,
+      385,
+      0,
+      808
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 1,
+      "b0": 0,
+      "b1": 1,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "prec_left": 8,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": -1,
+      "n_Vstar": -1,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      "prec_left": 1,
+      "q1": 1,
+      "r1": 1,
+      "s0": 1,
+      "t0": 1
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "lam_l_2": 0,
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 397,
+       "adj3": 853,
+       "centre": 302,
+       "twist_T": 640
+      },
+      "order": 3,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 438,
+       "adj3": 585,
+       "centre": 65,
+       "twist_T": 863
+      },
+      "order": 5,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 893,
+       "adj3": 228,
+       "centre": 61,
+       "twist_T": 862
+      },
+      "order": 7,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 9,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 4,
+      "constraints": 9,
+      "free_choice": {
+       "adj1": 756,
+       "adj3": 1095,
+       "centre": 973,
+       "twist_T": 1090
+      },
+      "order": 9,
+      "rank_of_linear_map": 4,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 8,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 3,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 2,
+      "free_choice": {
+       "centre": 142,
+       "twist_T": 600
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 2,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "line_stays_(1,1)": true,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 0,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 0,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 0,
+   "kappa_l_zero": true,
+   "mu": "-1",
+   "order2_obstruction_zero": true,
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 581,
+       "twist_T": 346
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 103,
+       "twist_T": 798
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 1098,
+       "twist_T": 1048
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 957,
+       "twist_T": 341
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 43
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      852,
+      0,
+      459,
+      0,
+      673,
+      0,
+      859,
+      0,
+      970
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      326,
+      0,
+      298,
+      0,
+      293,
+      0,
+      722,
+      0,
+      43
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 277,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 852,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 852,
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 653,
+       "twist_T": 613
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 178,
+       "twist_T": 749
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 257,
+       "twist_T": 1019
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 283,
+       "twist_T": 578
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 170
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      562,
+      0,
+      585,
+      0,
+      85,
+      0,
+      241,
+      0,
+      1046
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      459,
+      0,
+      569,
+      0,
+      697,
+      0,
+      229,
+      0,
+      170
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 567,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 562,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 562,
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=-i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 393,
+       "twist_T": 835
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 154,
+       "twist_T": 481
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 329,
+       "twist_T": 565
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 301,
+       "twist_T": 830
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 105
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      850,
+      0,
+      1072,
+      0,
+      542,
+      0,
+      575,
+      0,
+      20
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      440,
+      0,
+      488,
+      0,
+      327,
+      0,
+      368,
+      0,
+      105
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 279,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 850,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 850,
+   "kappa_l_zero": false,
+   "mu": "i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 23,
+    "dim_Z1": 30,
+    "h1_gl": 7,
+    "h1_sl_adjoint": 3
+   },
+   "absolute": {
+    "exists_to_order": 10,
+    "index": {
+     "8": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 7,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     },
+     "10": {
+      "I": 0,
+      "a0": 0,
+      "a1": 0,
+      "b0": 0,
+      "b1": 0,
+      "n_V": 0,
+      "n_Vstar": 0,
+      "pivots_V": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "pivots_Vstar": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "prec_left": 9,
+      "q1": 0,
+      "r1": 0,
+      "s0": 0,
+      "t0": 0
+     }
+    },
+    "log": [
+     {
+      "coker_blocks": [
+       "block",
+       "block",
+       "block",
+       "A",
+       "A*"
+      ],
+      "obstruction_class_P2": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "obstruction_zero": true,
+      "order": 2
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 202,
+       "twist_T": 1074
+      },
+      "order": 3,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 4,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 231,
+       "twist_T": 837
+      },
+      "order": 5,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 6,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 117,
+       "twist_T": 761
+      },
+      "order": 7,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 8,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 1,
+      "base_A_nonzero": 1,
+      "base_block_nonzero": 0,
+      "base_nonzero": 3,
+      "constraints": 6,
+      "free_choice": {
+       "centre": 959,
+       "twist_T": 246
+      },
+      "order": 9,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_A*_nonzero": 0,
+      "base_A_nonzero": 0,
+      "base_block_nonzero": 0,
+      "base_nonzero": 0,
+      "constraints": 6,
+      "free_choice": {},
+      "order": 10,
+      "rank_of_linear_map": 2,
+      "rank_on_A*_rows": 1,
+      "rank_on_A_rows": 1,
+      "rank_on_block_rows": 0,
+      "solvable": true
+     },
+     {
+      "after_choice_all_zero": true,
+      "base_nonzero": 1,
+      "constraints": 1,
+      "free_choice": {
+       "centre": 678
+      },
+      "order": "final (det, lam_m at order N)",
+      "rank_of_linear_map": 1,
+      "solvable": true
+     }
+    ],
+    "stopped": null,
+    "verify": {
+     "det_one_to_order_N": true,
+     "lam_l_series": [
+      1,
+      0,
+      988,
+      0,
+      213,
+      0,
+      432,
+      0,
+      163,
+      0,
+      894
+     ],
+     "lam_m_series": [
+      1,
+      0,
+      422,
+      0,
+      270,
+      0,
+      460,
+      0,
+      1104,
+      0,
+      678
+     ],
+     "line_stays_(1,1)": false,
+     "parity_symmetric": true,
+     "relator_identity_to_order_N": true
+    }
+   },
+   "chiral": {
+    "exists_to_order": 1,
+    "stopped": "kappa_l_hat != 0 (Theorem B): the line's longitude eigenvalue moves at order two"
+   },
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 141,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 988,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "kappa_l_hat": 988,
+   "kappa_l_zero": false,
+   "mu": "-i",
+   "order2_obstruction_zero": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=-i)",
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 4,
+    "h1_adjoint": 3,
+    "restriction_injective": true,
+    "restriction_rank": 3
+   }
+  }
+ ]
+}

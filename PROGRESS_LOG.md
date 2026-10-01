@@ -16344,3 +16344,41 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   a1 = b1 = 0 on the free-end branch; P5 the longitude's first motion at order four at μ = −1.
 
 `frontier/B1510_the_two_sided_deformation`. 0 of 19.
+
+## 2026-10-01 — B1510 run as sealed: the two-sided deformation (PROVED)
+
+- **The seal.** PREREGISTRATION.md (sha256 60106494…) was committed and pushed at 0cb24e2b, with the instrument and the controls,
+  before any two-sided term was computed at the six points.
+- **The run** (64 s). The banked identity passed first: B1509's 54 index rows through the new F((ε)) index.
+  - D1: h¹(gl(5)) = 7 with h¹(sl(4)) = 3; the restriction is injective; h⁰(T; gl(4)) = 4.
+  - D2: the order-two obstruction is zero, also exactly.
+  - D3: κ̂_ℓ = 0 exactly at μ = −1.
+  - D4: o_rel,sl = 1, line part κ̂_ℓ, block trace −κ̂_ℓ.
+  - D5: no chiral branch at ±i.
+  - D6: I = 0 on every branch.
+
+  All 18 pairs and the six exact points. P1–P4 YES; P5 NO.
+- **Post-run** (post_run_checks.py, about 70 s, labelled).
+  - (a) The chiral index read at the jet's own edge is a truncation artifact: from an order-12 jet it is (1, 1, 1, 1) at N = 8 and
+    N = 10.
+  - (b) The longitude is moved by the adjoint classes and the twist, not by the centre, c or c*.
+  - (c) The free-end branch keeps λ_ℓ = 1 through order 14.
+  - (d) That branch moves along Ballas' q-tangent, the solver's first adjoint class. Started from the third class, the longitude
+    moves at order four.
+- **Reading.** The pair holds in the bulk without a source, puts the source on the end (R56's F-term), and counts zero.
+- **Surfaces.**
+  - FINDINGS, verdict PROVED, lock (10 tests, 2 slow; all pass, 161 s);
+  - ERROR_LEDGER (the edge reading, the sweep brief's branch, the recalled labels), RELAY_LEDGER (main S28/S29/B1441; the audit
+    lane R72–R74), SEAL_LEDGER (verdict row);
+  - THE_SM_VERDICT, OPEN_LEADS, LAW_MAP, THEOREM_REGISTRY, the alias table (next B1511), THE_PATH_TO_THE_SM, CHIRALITY_MAP,
+    THE_NEGATIVES_READ_TOGETHER;
+  - the kill graph (the no-go half: the two-sided direction counts zero);
+  - the letter's 74th note, README;
+  - B1509's lead 1 marked taken.
+- **Checks.**
+  - The lock passes all 10 tests (two slow, 161 s).
+  - Every gate passes but relay-debt, the standing baseline.
+  - The targeted selection (71 files: the corpus scanners, the B1509 and B1510 locks, the tests that read the letter): 1 654
+    passed, 2 skipped, 2 failed. Both failures are all-gates tests reading relay-debt.
+
+`frontier/B1510_the_two_sided_deformation`. 0 of 19.

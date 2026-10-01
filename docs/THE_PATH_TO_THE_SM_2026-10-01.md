@@ -141,4 +141,10 @@ index at two of its four backgrounds (q = 17 ± 12√2): one 10′ and no 5̄′
 5̄′ from the end or another state, and a U(1)_X source or the 16*'s partner direction to hold the extension at finite energy.
 `frontier/B1509_the_join_on_the_projective_vacuum`.
 
+**B1509's lead 1, run (B1510).** Switching on the 16*'s singlet together with the 16's gives an irreducible, closed-orbit
+deformation in the bulk to order 10 at all six points. It needs no bulk source, but with the end held fixed it is obstructed by R56's
+F-term, so the source moves onto the end. It counts zero (Theorem C), even on the branch at μ = −1 that keeps the trivial line's
+(1, 1). So the pair is vector-like, and the path's chirality on this family stays with B1509's one-sided extension and its end.
+`frontier/B1510_the_two_sided_deformation`.
+
 0 of 19.

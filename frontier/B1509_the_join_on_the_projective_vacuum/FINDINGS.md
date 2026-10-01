@@ -324,6 +324,8 @@ or several states (lead 4).
    open duty; for this flag the needed direction is T itself.
 4. **Three.** Pull W₁ back to the family's finite covers (R42 covers them) and read the index and the deck orbit in B1506's frame.
 
+> **Note (2026-10-01, B1510):** lead 1 above was taken and run as sealed. The two-sided pair holds in the bulk without a source, is obstructed with the end held fixed (R56's F-term), and counts zero on every two-sided deformation (Theorem C). `frontier/B1510_the_two_sided_deformation`.
+
 ## Verification
 
 - `verification/control_exceptional.py` → `control_exceptional_run.txt`: pre-seal; about 6 s.

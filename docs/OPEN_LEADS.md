@@ -3174,6 +3174,19 @@ Model's qualitative content. Each maps to a lead already open:
 
 `frontier/B1509_the_join_on_the_projective_vacuum`.
 
+**Lead 1 of B1509 taken, 2026-10-01, B1510 — the two-sided deformation.**
+- **The result.**
+  - The 16's and the 16*'s singlets switched on together hold in the bulk without a source: an irreducible branch to order 10 at
+    all six points.
+  - With the end held fixed they are obstructed (F15's row, R56's F-term).
+  - They count zero on every two-sided deformation (Theorem C). At μ = −1 a branch keeping the trivial line's (1, 1) exists, and it
+    also counts 0.
+- **New leads**, each to be sealed before computing (B1510 §8):
+  1. prove that the q-direction branch keeps the line's longitude at 1 to all orders at μ = −1;
+  2. all-orders existence at μ = −1 (the odd obstruction always on the τ-line);
+  3. which cusp data move to absorb the fixed-end class, and does an end model accept the move;
+  4. the 5̄′ (B1509 lead 2, unchanged).
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**
