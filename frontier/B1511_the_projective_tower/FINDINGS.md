@@ -273,3 +273,8 @@ The pullback and the triplet never fire at the same q, so no single background c
 > eight orbits of six, +1 per member at every real exceptional point. Part D's table is complete through level 6 (B1512 §3). Also
 > there: the dual family is the family at 1/q, and the strong inversion and the amphichiral map send q to 1/q. This explains §3's
 > O_A/Ō_B relation ("as O_A") and M₄'s two classes (class 10 is class 1 at 1/q). `frontier/B1512_the_self_coincident_orbits`.
+
+> **Lead 6 taken (2026-10-01, B1513; NEGATIVE).** Each member of the projective triplet carries exactly one 5′_H and one 5̄′_H, its own.
+> Λ²ρ_q has no cohomology on any cyclic cover. The chiral 10′'s up-type coupling to that 5′_H is zero exactly, and no form joins two
+> members. **Cross-bench:** the audit lane's R75 (60aeb7ea) independently re-verified Part A's triplet: P = Q(q³, s), nullities
+> (1, 2, 2, 2), I(W) = −1. `frontier/B1513_the_triplets_higgs_sector`.

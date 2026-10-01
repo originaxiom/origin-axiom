@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1261** |
-| words of findings prose | **1,028,838** |
-| test lock files referenced | **764** |
+| words of findings prose | **1,031,541** |
+| test lock files referenced | **765** |
 | arcs carrying an authored verdict | **1261** (100.0 %) |
-| recorded closures | **816** (649 classified, 167 routed-only) |
+| recorded closures | **817** (650 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,8 +34,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 836 |
-| NEGATIVE | 325 |
-| OPEN | 89 |
+| NEGATIVE | 326 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 86 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 87 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). m004's symmetries act on Ballas' family: the fibre's hyperelliptic involution fixes rho_q (so P_nu = P_nu^-1 on every level and every twisted polynomial is real, B1511 lead 3), the dual family is the family at 1/q (P(1/q, s) = s^4 P(q, 1/s); real exceptional points pair as q, 1/q; I(W2)(nu^-1, 1/q) = -I(W1)(nu, q)), and the strong inversion (the audit lane's F14 type) and the amphichiral map send q to 1/q (M5's four orbits share one palindromic polynomial, M6's four classes pair, B1511's O_A/O_B and M4 pairings explained). All 32 of B1511's unresolved case-(b) pairs fire: every member counts I(W1) = +1, I(W2) = -1, I(L2 W) = 0 at every positive real exceptional point -- M5's four orbits of five at w = q + 1/q = 7 (lam = 1, a double semisimple point, the same w as M4's), w ~ 2.2776 (lam = +-i) and w ~ 2.4999 (lam = -1, a Jordan point); M6's eight orbits of six at lam = +-1, eight values of w. Predictions: P1 NO (not Q(q^5, s)), P2-P5 YES, P6 NO (a double point and a Jordan point), P7 YES. The per-level table through level 6 is complete: case (b), the opposite sign, in orbits of four, five and six; three only from the projective triplet; no 5bar' anywhere. A design slip caught before the seal (eps first called amphichiral; ERROR_LEDGER). I-26 stays UNEARNED. 0 of 19.  
 `B1512_the_self_coincident_orbits/FINDINGS.md`
 
-**NEGATIVE — `B1399`** (3342 words, 1 locks)  
-THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  
-`B1399_the_rank_two_higgs/FINDINGS.md`
+**NEGATIVE — `B1513`** (3229 words, 1 locks)  
+THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) carries exactly one 5'_H and one 5bar'_H, both its own (h1(L2 W) = h1(L2 W*) = 1, the 5'_H onto c, the 5bar'_H = c*), but its chiral 10' does not couple to them: the up-type relative triple product Y_k = <h u a u a> is zero exactly for every member of both populations (and at all 16 prime-root pairs), and post-run the symmetric form B(a, a') = Y(h, a, a') vanishes on the whole of H^1(W*), so no 10' end condition gives a coupling; the mu-type pairing <h u e u hbar> is zero too. No invariant form joins two members (one form iff i = j = k). P1 YES (stronger), P2 YES, P3 YES, P4 NO, P5 YES. The banked identity first (the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3: the first chain-level check of B1510's Theorem B). The zero is not an artefact: at B1510's +-i points the same instrument gives Y(h, a, e f0) = -lam_h kappa != 0 and <h u e u hbar> = lam_h kappa, exactly. Post-run theorem T-HIGGS-BULK-ACYCLIC: P_L(q, s) = s^6 - 12 s^5 + 48 s^4 - (w^2 - w + 72) s^3 + 48 s^2 - 12 s + 1 (w = q + 1/q), so for every q > 0, q != 1, every unitary twist and every cyclic cover Lambda^2 rho_q has no cohomology (H^0 of the fibre zero for every q > 0). Post-run (d): the c*-lift's longitude boundary class equals kappa_l_hat (Stokes), so the interior 10' exists exactly where kappa = 0, where the coupling also vanishes. Read against the audit lane's R75 (an independent re-verification of B1511's triplet). Routed in the kill graph (jordan-decoupling). I-26 stays UNEARNED. 0 of 19.  
+`B1513_the_triplets_higgs_sector/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

@@ -515,6 +515,14 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 >
 > `frontier/B1512_the_self_coincident_orbits`.
 
+> **Addendum (2026-10-01, B1513): the triplet's Higgs sector.**
+> - Each member of the projective triplet, and B1509's join, carries one 5′_H and one 5̄′_H, its own. Λ²ρ_q has no cohomology on any
+>   cyclic cover for q ≠ 1 (T-HIGGS-BULK-ACYCLIC).
+> - The chiral 10′'s up-type coupling to its own 5′_H is zero exactly, and so is the whole 10′ sector's. The chirality and the coupling
+>   are exclusive here: the interior 10′ exists exactly where κ̂_ℓ = 0, and that is where the coupling vanishes.
+>
+> `frontier/B1513_the_triplets_higgs_sector`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

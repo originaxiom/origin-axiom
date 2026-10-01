@@ -159,4 +159,9 @@ remaining case-(b) pair fires, in orbits of five and six, with the opposite sign
 10′ by the pullback (one per level) and by the projective triplet (three); 10̄′ in orbits of four, five and six; no 5̄′. The path's open
 items are unchanged. `frontier/B1512_the_self_coincident_orbits`.
 
+**The triplet's Higgs sector (B1513).** Each member of the projective triplet carries one Higgs pair (5′_H, 5̄′_H), its own, and no
+other: the Λ² bulk is acyclic on every cyclic cover. But the chiral 10′'s up-type coupling to that pair is zero exactly, for every member
+and for B1509's join. The path's open items gain one: an up-type coupling needs a Higgs from outside the member's own sector, an end
+term, or a non-perturbative effect. The 5̄′ is unchanged. `frontier/B1513_the_triplets_higgs_sector`.
+
 0 of 19.

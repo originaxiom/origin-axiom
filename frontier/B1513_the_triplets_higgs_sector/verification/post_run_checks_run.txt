@@ -1,0 +1,261 @@
+{
+ "a_positive_control_at_B1510_points": {
+  "all agree": true,
+  "non-zero exactly at +-i": true,
+  "rows": [
+   {
+    "-lam_h kappa": "0",
+    "<h u e u hbar>": "0",
+    "<h u e u hbar> = lam_h kappa": true,
+    "Y(h, a, e f0)": "0",
+    "Y(h, a, e f0) = -lam_h kappa": true,
+    "h1(L2 W)": 1,
+    "h1(W*)": 2,
+    "lam_h": "174192480/97 - 129961440*sqrt(2)/97",
+    "nonzero": false,
+    "point": "17-12sqrt2, mu = -1"
+   },
+   {
+    "-lam_h kappa": "0",
+    "<h u e u hbar>": "0",
+    "<h u e u hbar> = lam_h kappa": true,
+    "Y(h, a, e f0)": "0",
+    "Y(h, a, e f0) = -lam_h kappa": true,
+    "h1(L2 W)": 1,
+    "h1(W*)": 2,
+    "lam_h": "174192480/97 + 129961440*sqrt(2)/97",
+    "nonzero": false,
+    "point": "17+12sqrt2, mu = -1"
+   },
+   {
+    "-lam_h kappa": "-197132288*sqrt(3) + 357302272 + 12320768*sqrt(3)*I + 295698432*I",
+    "<h u e u hbar>": "-357302272 + 197132288*sqrt(3) - 295698432*I - 12320768*sqrt(3)*I",
+    "<h u e u hbar> = lam_h kappa": true,
+    "Y(h, a, e f0)": "-197132288*sqrt(3) + 357302272 + 12320768*sqrt(3)*I + 295698432*I",
+    "Y(h, a, e f0) = -lam_h kappa": true,
+    "h1(L2 W)": 1,
+    "h1(W*)": 2,
+    "lam_h": "3350912/673 + 12796032*sqrt(3)/673 - 23047296*sqrt(3)*I/673 + 28353408*I/673",
+    "nonzero": true,
+    "point": "7-4sqrt3, mu = i"
+   },
+   {
+    "-lam_h kappa": "197132288*sqrt(3) + 357302272 - 12320768*sqrt(3)*I + 295698432*I",
+    "<h u e u hbar>": "-357302272 - 197132288*sqrt(3) - 295698432*I + 12320768*sqrt(3)*I",
+    "<h u e u hbar> = lam_h kappa": true,
+    "Y(h, a, e f0)": "197132288*sqrt(3) + 357302272 - 12320768*sqrt(3)*I + 295698432*I",
+    "Y(h, a, e f0) = -lam_h kappa": true,
+    "h1(L2 W)": 1,
+    "h1(W*)": 2,
+    "lam_h": "-12796032*sqrt(3)/673 + 3350912/673 + 28353408*I/673 + 23047296*sqrt(3)*I/673",
+    "nonzero": true,
+    "point": "7+4sqrt3, mu = i"
+   },
+   {
+    "-lam_h kappa": "-197132288*sqrt(3) + 357302272 - 295698432*I - 12320768*sqrt(3)*I",
+    "<h u e u hbar>": "-357302272 + 197132288*sqrt(3) + 12320768*sqrt(3)*I + 295698432*I",
+    "<h u e u hbar> = lam_h kappa": true,
+    "Y(h, a, e f0)": "-197132288*sqrt(3) + 357302272 - 295698432*I - 12320768*sqrt(3)*I",
+    "Y(h, a, e f0) = -lam_h kappa": true,
+    "h1(L2 W)": 1,
+    "h1(W*)": 2,
+    "lam_h": "3350912/673 + 12796032*sqrt(3)/673 - 28353408*I/673 + 23047296*sqrt(3)*I/673",
+    "nonzero": true,
+    "point": "7-4sqrt3, mu = -i"
+   },
+   {
+    "-lam_h kappa": "197132288*sqrt(3) + 357302272 - 295698432*I + 12320768*sqrt(3)*I",
+    "<h u e u hbar>": "-357302272 - 197132288*sqrt(3) - 12320768*sqrt(3)*I + 295698432*I",
+    "<h u e u hbar> = lam_h kappa": true,
+    "Y(h, a, e f0)": "197132288*sqrt(3) + 357302272 - 295698432*I + 12320768*sqrt(3)*I",
+    "Y(h, a, e f0) = -lam_h kappa": true,
+    "h1(L2 W)": 1,
+    "h1(W*)": 2,
+    "lam_h": "-12796032*sqrt(3)/673 + 3350912/673 - 23047296*sqrt(3)*I/673 - 28353408*I/673",
+    "nonzero": true,
+    "point": "7+4sqrt3, mu = -i"
+   }
+  ]
+ },
+ "b_c_the_whole_10prime_sector_and_the_mu_pairing": {
+  "I (the triplet, s961)": {
+   "(0, 2)": {
+    "<h u e u hbar>": "0",
+    "B identically zero": true,
+    "B(a, a') on the basis of H^1(W*)": [
+     [
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "0"
+     ]
+    ]
+   },
+   "(2, 0)": {
+    "<h u e u hbar>": "0",
+    "B identically zero": true,
+    "B(a, a') on the basis of H^1(W*)": [
+     [
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "0"
+     ]
+    ]
+   },
+   "(2, 2)": {
+    "<h u e u hbar>": "0",
+    "B identically zero": true,
+    "B(a, a') on the basis of H^1(W*)": [
+     [
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "0"
+     ]
+    ]
+   }
+  },
+  "II (B1509's join, m004)": {
+   "(0, 0)": {
+    "<h u e u hbar>": "0",
+    "B identically zero": true,
+    "B(a, a') on the basis of H^1(W*)": [
+     [
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "0"
+     ]
+    ]
+   }
+  }
+ },
+ "d_the_boundary_class_and_the_lift_dependence": {
+  "B1510 points": [
+   {
+    "Y at alpha = 0, 1, 2": [
+     "0",
+     "0",
+     "0"
+    ],
+    "Y zero for every lift": true,
+    "affine with slope -2 lam_h kappa": true,
+    "point": "17-12sqrt2, mu = -1",
+    "x_l": "0",
+    "x_l = kappa_l_hat": true,
+    "x_t": "0"
+   },
+   {
+    "Y at alpha = 0, 1, 2": [
+     "0",
+     "0",
+     "0"
+    ],
+    "Y zero for every lift": true,
+    "affine with slope -2 lam_h kappa": true,
+    "point": "17+12sqrt2, mu = -1",
+    "x_l": "0",
+    "x_l = kappa_l_hat": true,
+    "x_t": "0"
+   },
+   {
+    "Y at alpha = 0, 1, 2": [
+     "-881810472960*sqrt(3) + 1099243192320 - 28185722880*sqrt(3)*I + 1316675911680*I",
+     "-882204737536*sqrt(3) + 1099957796864 - 28161081344*sqrt(3)*I + 1317267308544*I",
+     "-882599002112*sqrt(3) + 1100672401408 - 28136439808*sqrt(3)*I + 1317858705408*I"
+    ],
+    "Y zero for every lift": false,
+    "affine with slope -2 lam_h kappa": true,
+    "point": "7-4sqrt3, mu = i",
+    "x_l": "1024 + 1024*sqrt(3) - 4096*sqrt(3)*I",
+    "x_l = kappa_l_hat": true,
+    "x_t": "0"
+   },
+   {
+    "Y at alpha = 0, 1, 2": [
+     "1099243192320 + 881810472960*sqrt(3) + 28185722880*sqrt(3)*I + 1316675911680*I",
+     "1099957796864 + 882204737536*sqrt(3) + 28161081344*sqrt(3)*I + 1317267308544*I",
+     "1100672401408 + 882599002112*sqrt(3) + 28136439808*sqrt(3)*I + 1317858705408*I"
+    ],
+    "Y zero for every lift": false,
+    "affine with slope -2 lam_h kappa": true,
+    "point": "7+4sqrt3, mu = i",
+    "x_l": "-1024*sqrt(3) + 1024 + 4096*sqrt(3)*I",
+    "x_l = kappa_l_hat": true,
+    "x_t": "0"
+   },
+   {
+    "Y at alpha = 0, 1, 2": [
+     "-881810472960*sqrt(3) + 1099243192320 - 1316675911680*I + 28185722880*sqrt(3)*I",
+     "-882204737536*sqrt(3) + 1099957796864 - 1317267308544*I + 28161081344*sqrt(3)*I",
+     "-882599002112*sqrt(3) + 1100672401408 - 1317858705408*I + 28136439808*sqrt(3)*I"
+    ],
+    "Y zero for every lift": false,
+    "affine with slope -2 lam_h kappa": true,
+    "point": "7-4sqrt3, mu = -i",
+    "x_l": "1024 + 1024*sqrt(3) + 4096*sqrt(3)*I",
+    "x_l = kappa_l_hat": true,
+    "x_t": "0"
+   },
+   {
+    "Y at alpha = 0, 1, 2": [
+     "1099243192320 + 881810472960*sqrt(3) - 1316675911680*I - 28185722880*sqrt(3)*I",
+     "1099957796864 + 882204737536*sqrt(3) - 1317267308544*I - 28161081344*sqrt(3)*I",
+     "1100672401408 + 882599002112*sqrt(3) - 1317858705408*I - 28136439808*sqrt(3)*I"
+    ],
+    "Y zero for every lift": false,
+    "affine with slope -2 lam_h kappa": true,
+    "point": "7+4sqrt3, mu = -i",
+    "x_l": "-1024*sqrt(3) + 1024 - 4096*sqrt(3)*I",
+    "x_l = kappa_l_hat": true,
+    "x_t": "0"
+   }
+  ],
+  "Y zero on every lift exactly at mu = -1": true,
+  "affine in the lift at all six points": true,
+  "populations": {
+   "I (the triplet, s961) (0, 2)": {
+    "interior classes": 1,
+    "x_l of a lift of c*": "0",
+    "x_l zero": true
+   },
+   "I (the triplet, s961) (2, 0)": {
+    "interior classes": 1,
+    "x_l of a lift of c*": "0",
+    "x_l zero": true
+   },
+   "I (the triplet, s961) (2, 2)": {
+    "interior classes": 1,
+    "x_l of a lift of c*": "0",
+    "x_l zero": true
+   },
+   "II (B1509's join, m004) (0, 0)": {
+    "interior classes": 1,
+    "x_l of a lift of c*": "0",
+    "x_l zero": true
+   }
+  },
+  "x_l = kappa_l_hat at all six points": true
+ },
+ "e_the_higgs_bulk_on_every_cyclic_cover": {
+  "H^0(F) = 0 for every q > 0": true,
+  "denominator": "4*q",
+  "f increasing on [-2, 2]": true,
+  "f'(u)": "3*(u - 5)*(u - 3)",
+  "f(2)": 2,
+  "gcd of 6x6 minors of the fibre coboundary (times its denominator)": "1024*q**3*(q + 1)**4",
+  "minors used": 12,
+  "positive roots of the gcd": [],
+  "reduction s^-3 P_L = f(u) - (w^2 - w)": true,
+  "theorem: H*(M_n; L2 rho_q) = 0 for all n, all q > 0, q != 1": true
+ }
+}

@@ -451,6 +451,11 @@ emitted value. The structure is the object's; the values are the observer's.
 > and paired. On the five-fold and six-fold covers every remaining case fires, in groups of five and six, always with the opposite
 > handedness. Three still comes only from the three-fold cover's triplet, and no level supplies a 5-bar. The nineteen numbers are
 > still not derived.*
+>
+> *And (B1513), the triplet's Higgs fields, found and then decoupled. Each of the three vacua carries exactly one Higgs pair, its own:
+> the pair is built from the vacuum's own deformation, and no other Higgs field exists on any level of the tower. But the cubic
+> coupling that would give the triplet's quarks of the up type their masses is exactly zero, for each vacuum and for the original
+> one. The same structure that makes the matter chiral removes the coupling. The nineteen numbers are still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

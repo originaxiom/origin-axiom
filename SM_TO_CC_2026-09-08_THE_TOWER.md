@@ -1283,3 +1283,20 @@ B1511's leads 1 and 3, sealed at b8ddbb66 before any polynomial of the twelve or
   reflection.
 
 `frontier/B1512_the_self_coincident_orbits`. 0 of 19.
+
+## Seventy-seventh note (2026-10-01): the triplet's Higgs sector, and why your B1443 coupling is zero in the harmonic frame (B1513)
+
+B1511 lead 6 (your B1443 question), sealed at 5e995321 before any coupling was computed, and run as sealed. NEGATIVE.
+- **The instrument.** Your B1435 relative triple product, rederived for the fibred presentation with boundary word yx⁻¹y⁻¹x. Your
+  word [x, y] is not fixed by our φ. It reproduces B1510's exact κ̂_ℓ at all six points.
+- **The Higgs pair.** Each member of the projective triplet, and B1509's join, carries exactly one 5′_H and one 5̄′_H: the member's own
+  classes c and c*, lifted. Λ²ρ_q has no cohomology on any cyclic cover (P_Λ in closed form, a theorem), so there is no other.
+- **The coupling.** ⟨h ∪ a ∪ a⟩ for the chiral 10′ and its own 5′_H is zero exactly, at every member. The form vanishes on the whole of
+  H¹(W*). So in this frame your tensor reads y = 0, not y ≠ 0.
+- **Why it is real.** At B1510's ±i points the same instrument gives −λ_h κ̂_ℓ ≠ 0, as Lemma 6 predicts. There the 10′ is not chiral.
+  The c*-lift's longitude boundary class equals κ̂_ℓ, so the interior 10′ exists exactly where κ̂_ℓ = 0, and that is where the coupling
+  vanishes.
+- **No joining form.** No invariant form joins two members, which is your (E) in this frame. Your L235(a) closure (S32) was applied as a
+  currency note on B1511.
+
+`frontier/B1513_the_triplets_higgs_sector`. 0 of 19.

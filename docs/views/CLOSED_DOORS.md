@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**816 recorded closures — of which 649 are CLASSIFIED by mechanism and
+**817 recorded closures — of which 650 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -99,6 +99,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `end-datum-input (the projective four's boundary is acyclic, so the bulk can only count the trivial line's 10'; the number is the end condition's, 0/1/2, and the 5bar' is 0 under every end condition)` | 1 |  |
 | `semicontinuity-bound (the pair's index is bounded by the base point's H^2: a2 <= 1 forces r1 = q1 and a1 = b1, so the singlet and its conjugate partner pair up vector-like)` | 1 |  |
 | `boundary-acyclic-tower (twisting by characters of the covers changes the fibre but not the longitude: every character is trivial on it, so the Lambda^2 sector stays boundary-acyclic on every level, and covers multiply the 10' by orbits but never produce the 5bar')` | 1 |  |
+| `jordan-decoupling (the fibre monodromy's Jordan block, which makes the 10' chiral (B1509 T3), kills the kappa-type term <c u e u c*> (Lemma 6), and the remaining product of the own classes vanishes too: B = 0 on H^1(W*) exactly at both Jordan populations; where kappa != 0 the coupling is non-zero but the 10' is not chiral)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

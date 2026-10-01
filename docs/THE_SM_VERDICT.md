@@ -1034,3 +1034,12 @@ left it.
 > - **Applied to this ledger.** Through level 6, three is still only the projective triplet. The opposite sign fills orbits of four,
 >   five and six, and no level supplies a 5̄′. No verdict changes. I-26 stays UNEARNED. 0 of 19.
 >   `frontier/B1512_the_self_coincident_orbits`.
+
+> **Currency note (2026-10-01, B1513): the triplet's Higgs sector.** B1511 lead 6, sealed at 5e995321 before the run; NEGATIVE.
+> - **The Higgs pair.** Each member of the projective triplet, and B1509's join, carries exactly one 5′_H and one 5̄′_H, its own.
+>   Λ²ρ_q has no cohomology on any cyclic cover.
+> - **The coupling.** The up-type coupling of the member's chiral 10′ to its own 5′_H is zero exactly. The tree-level up-type Yukawa of
+>   the triplet is the zero matrix, and no 10′ end condition changes it.
+> - **Applied to this ledger.** The harmonic frame's triplet has its Higgs pairs but no Yukawa from them. Main's B1443 (y ≠ 0) holds in
+>   the Standard-Model frame, not here. No verdict changes. I-26 stays UNEARNED. 0 of 19.
+>   `frontier/B1513_the_triplets_higgs_sector`.

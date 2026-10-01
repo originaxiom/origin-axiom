@@ -16520,3 +16520,33 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Sealed:** P1–P5.
 - **Currency.** Main's L235(a) was closed in S32 (B1444). Notes were added to B1511 lead 6 and B1511's harvest block, with a relay row.
 - Findings stub, verdict OPEN, SEAL_LEDGER row, alias table, atlas, views. 0 of 19.
+
+## 2026-10-01 — B1513 the triplet's Higgs sector: run as sealed and banked (NEGATIVE)
+
+- **Run as sealed** at 5e995321 (`higgs_census.py --record`, 35.6 s). The banked identity passed first: B1510's exact κ̂_ℓ at its six
+  points.
+- **Part A.** The fibre polynomial of Λ²ρ_q over ℚ(q), P_Λ = s⁶ − 12s⁵ + 48s⁴ − (w² − w + 72)s³ + 48s² − 12s + 1. Its loci at the roots
+  of unity of orders 1–6 have no positive real root other than q = 1, and miss both populations.
+- **Parts B and C (exact).** At both populations Λ²ρ_q is acyclic. Every member has exactly one 5′_H and one 5̄′_H, both its own.
+  - The interior 10′ is one class.
+  - The coupling Y = ⟨h ∪ a ∪ a⟩ is zero exactly for all four members.
+  - All instrument checks hold: the permutations, the coboundaries, the lift independence, and the cross term 0.
+- **Part D.** The same at 16 prime–root pairs.
+- **Part E.** Invariant forms only for i = j = k.
+- **Predictions.** P1–P3 and P5 YES; P4 NO.
+- **Post-run checks (a)–(e)** (`post_run_checks.py`):
+  - the positive control at B1510's ±i points, −λ_h κ̂_ℓ ≠ 0 exactly;
+  - B ≡ 0 on H¹(W*) and the μ-pairing zero at both populations;
+  - the c*-lift's boundary class, x_ℓ = κ̂_ℓ;
+  - T-HIGGS-BULK-ACYCLIC, with H⁰(F; Λ²ρ_q) = 0 for every q > 0 (the gcd of the minors is 1024q³(q + 1)⁴).
+- **Verdict NEGATIVE.** The triplet's 10′ does not couple to its own (and only) Higgs class. It is routed in the kill graph with its
+  hatch: a Higgs from outside the member, an end inflow, or a non-perturbative coupling.
+- **The audit lane's R75** (60aeb7ea) was read at banking. It re-verified B1511's triplet independently. Its type distinctions are
+  applied in FINDINGS §7, with a relay row.
+- **Fast lane on the banked tree** (before the commit, 58 minutes): 6 461 passed, 52 skipped, 10 failed.
+  - Nine failures are the baseline's.
+  - The tenth is `tests/test_b1035_receipts.py`. It is environmental: the lock reads its receipts through the remote-tracking
+    ref of an earlier audit branch (B775's), which is no longer on the remote and so absent from this container's clone.
+    Nothing in it touches this arc.
+  - The lock's dependence on a deleted branch is flagged, not changed here.
+- Surfaces as listed in the CHANGELOG entry; atlas and views regenerated. 0 of 19.

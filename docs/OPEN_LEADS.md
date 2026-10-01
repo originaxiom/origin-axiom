@@ -3223,6 +3223,22 @@ Model's qualitative content. Each maps to a lead already open:
   4. does the full symmetry action (deck, Galois, ι, ε, α, duality) account for every equality of twisted polynomials on levels ≤ 8?
   5. the 5̄′ (unchanged, decisive).
 
+**Lead 6 of B1511 taken, 2026-10-01, B1513 — the triplet's Higgs sector (NEGATIVE).**
+- **The result.**
+  - Each member of the projective triplet, and B1509's join, carries exactly one 5′_H and one 5̄′_H, both its own.
+  - Λ²ρ_q has no cohomology on any cyclic cover (T-HIGGS-BULK-ACYCLIC), so there is no other Higgs class.
+  - The up-type coupling of the member's chiral 10′ to its own 5′_H is zero exactly, and it vanishes on the whole 10′ sector.
+  - No invariant form joins two members.
+  - At non-Jordan points the instrument is non-zero (the positive control); there the 10′ is not chiral.
+- **New leads**, each to be sealed before computing (B1513 §8):
+  1. prove that the own coupling vanishes at every Jordan point, i.e. [a ∪_∧ a] = 0 in H²(M; Λ²W*) when κ̂_ℓ = 0. The boundary identity
+     x_ℓ = κ̂_ℓ is the first step. Test it first on B1511's case-(b) points (the opposite sign);
+  2. is "chiral 10′ ⟹ zero own up-type coupling" a law of the harmonic frame?
+  3. a Higgs from outside the member: another state or background, an end or apex inflow (B1509 lead 2), or a non-perturbative coupling;
+  4. the 5̄′ (unchanged, decisive);
+  5. one admitted configuration for the triplet, its source/end balance and the parent's interactions (the audit lane's R75
+     suggestion; B1511 lead 5).
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

@@ -1,5 +1,31 @@
 # Changelog
 
+## B1513 the triplet's Higgs sector: each member carries exactly one 5′_H and one 5̄′_H, its own, and its 10′ does not couple to them
+
+- **The question** (B1511 lead 6, sealed at 5e995321 before any Λ² cohomology at q ≠ 1 or any coupling was computed; run as sealed,
+  35.6 s). Main's B1443 found, in the Standard-Model frame, that each member of a deck orbit couples to its own Higgs class. Is that
+  so for B1511's projective triplet and B1509's join, in the harmonic frame?
+- **The banked identity first.** The arc's own relative triple product reproduces B1510's exact κ̂_ℓ at all six of its points, with
+  one sign, on levels 1–3. That is the first chain-level check of B1510's Theorem B.
+- **The result.**
+  - **The Higgs sector is exactly the own classes.** Every member has h¹(Λ²W) = h¹(Λ²W*) = 1, the 5′_H lifts its own class c, and
+    the 5̄′_H is c*.
+  - **The coupling is zero.** The up-type product ⟨h ∪ a ∪ a⟩ of the member's chiral 10′ with its own 5′_H is zero exactly for all
+    three members and the join. Post-run, the whole 10′ sector decouples, so no end condition helps.
+  - **No form joins two members.**
+  - **The zero is real.** At B1510's ±i points the same instrument gives −λ_h κ̂_ℓ ≠ 0, exactly as Lemma 6 predicts.
+- **Predictions.** P1 YES (stronger), P2 YES, P3 YES, **P4 NO**, P5 YES.
+- **Post-run theorem T-HIGGS-BULK-ACYCLIC.** The fibre polynomial of Λ²ρ_q is
+  s⁶ − 12s⁵ + 48s⁴ − (w² − w + 72)s³ + 48s² − 12s + 1, with w = q + 1/q. For every q > 0 with q ≠ 1, Λ²ρ_q has no cohomology on any
+  cyclic cover under any unitary twist.
+- **Post-run (d).** The c*-lift's longitude boundary class equals κ̂_ℓ (Stokes). So the interior 10′ exists exactly where κ̂_ℓ = 0,
+  and there the coupling vanishes.
+- **Routed** in the kill graph (`jordan-decoupling`).
+- **Read against the audit lane's R75,** which independently re-verified B1511's triplet: relay row, notes on B1511 and here.
+- **Surfaces.** Lock, ERROR_LEDGER (a vacuous check caught before the seal), THEOREM_REGISTRY T-HIGGS-BULK-ACYCLIC, LAW_MAP,
+  OPEN_LEADS (B1511 lead 6 taken; B1513 leads), letter (77th note), README, CHIRALITY_MAP, THE_PATH_TO_THE_SM, THE_SM_VERDICT,
+  SEAL_LEDGER verdict row, alias table, atlas and views. 0 of 19.
+
 ## B1513 sealed: the triplet's Higgs sector, before any Λ² cohomology or coupling is computed
 
 - **The question** (B1511 lead 6, at the owner's "go" after main's S32).
