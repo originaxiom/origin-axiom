@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Current path-local R70 (October 1):** the actual neutral superfield
+profile maps expose a mismatch between zero-trace bosons and bulk
+self-adjoint fermions under both adopted conjugate supercharges. H1
+commuting profiles supply finite-action positives outside L4, but change
+peripheral/end data. The affine holomorphic variation is retained.
+55 exact controls and all 24 R67/R68/R70 tests pass. This necessary local
+test does not select a physical end law or close full interacting domains.
+Next derive or price that law, test all coupled channels and match the core;
+keep the parameter-free physics objective intact. No universal chirality kill.
+Report: reports/physical_bridge_2026_09_05/CONE_MULTIPLET.md.
+Earlier dated entries below retain their historical scopes.
+
 **Current path-local R69 (October 1):** selected B1506 D0 doublets and
 their induced level counts are independently checked over Q(i), with
 actual sheet-algebra/metric controls. The final instrument passes 46

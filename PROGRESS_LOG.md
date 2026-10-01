@@ -16052,3 +16052,24 @@ Next connect admitted parent interactions and end law; continue R68's
 complementary-channel, gauge and superfield domains and core matching.
 The full physics mission remains unfinished.
 Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
+
+## 2026-10-01 - R70 same-action cone multiplet admission
+
+The two supplied conjugate superfield maps jointly constrain all four
+neutral apex traces. A zero-trace bosonic law therefore cannot simply
+be joined to a bulk self-adjoint fermion on the actual log cone.
+This is scoped to the supplied action/metric and preserved symmetry;
+it is not a universal chirality or physical-theory exclusion. An H1
+commuting neutral family has finite residual action outside L4, and a
+sufficient b/r weighted complementary class controls nonlinear products.
+The new profiles change peripheral/end data. The affine holomorphic
+boundary term survives on generic lines; its local cancellation is an
+ADDED end functional, not a selected global physical law.
+55 exact controls and 24 tests in three fixed files pass, eight new.
+Five scientific paths were sealed/pushed/server-confirmed at 69855eb4
+before execution; ten prior pins remain. Earlier failed scientific IDs
+remain outside this scoped regression, with no full-suite green claimed.
+Next test all coupled channel/gauge/superfield domains and core matching,
+and derive or price the end policy from the full principles. The
+parameter-free Standard Model and complete physical-theory goal is active.
+Report: reports/physical_bridge_2026_09_05/CONE_MULTIPLET.md.

@@ -1,0 +1,136 @@
+{
+  "seal": "69855eb4ba04fd8f3718565f5166ccce84fbb41d",
+  "scope": "Necessary local same-action multiplet maps and finite-action controls, not complete physical end selection",
+  "runs": {
+    "native_first": {
+      "raw_basename": "r70_native_first",
+      "raw_receipt_sha256": "89ccf7fee94835efa29daa1c3c01f519aa07c0a65f0a1ccc201f7b71aa28783b",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/cone_multiplet.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.345794000022579,
+        "log_bytes": 5009,
+        "log_sha256": "2d388b93d2e9868b137cc5044190aa25076f50954782ae5c4e9eb4ae9285fb0b"
+      },
+      "stdout": "{\"all_checks_pass\": true, \"checks\": {\"boson/actual_kinetic_density\": true, \"boson/actual_residual_density\": true, \"boson/bad_derivative_diverges\": true, \"boson/complementary_source_retained\": true, \"boson/full_moment_unchanged\": true, \"boson/full_radial_x\": true, \"boson/full_radial_y\": true, \"boson/full_tangential_zero\": true, \"boson/positive_H1_action\": true, \"boson/positive_H1_apex\": true, \"boson/positive_H1_kinetic\": true, \"boson/positive_outside_L4\": true, \"boson/products_not_automatically_zero\": true, \"boson/self_brackets_zero\": true, \"boson/weighted_cross_scaling\": true, \"boundary/background_k_not_removed\": true, \"boundary/both_helicities_same_affine_term\": true, \"boundary/boundary_two_form_unchanged\": true, \"boundary/fixed_x_variation_control\": true, \"boundary/full_affine_boundary\": true, \"boundary/helicity_background_term_survives\": true, \"boundary/line_quadratic_cancels\": true, \"boundary/longitude_line_passes\": true, \"boundary/specified_counterterm_cancels\": true, \"boundary/wrong_counterterm_sign_fails\": true, \"period/actual_longitude_Z\": true, \"period/actual_meridian_Z\": true, \"period/based_loop_control_is_not_flat\": true, \"period/complementary_projection_zero\": true, \"period/full_Duhamel_projection\": true, \"period/gauge_commutator_projection\": true, \"period/longitude_neutral_period\": true, \"period/meridian_neutral_period\": true, \"period/moving_Z_must_be_transported\": true, \"period/ordinary_trace_is_insufficient\": true, \"period/periodic_gauge_period\": true, \"period/radial_Z\": true, \"period/similarity_longitude_annihilator\": true, \"period/similarity_meridian_annihilator\": true, \"period/two_based_loops_not_average\": true, \"profile/Green_nonzero_rank\": true, \"profile/all_line_current\": true, \"profile/all_line_profiles\": true, \"profile/all_line_reality\": true, \"profile/banked_Green\": true, \"profile/banked_reality\": true, \"profile/both_helicities_survive\": true, \"profile/both_profile_constraints_full_rank\": true, \"profile/exact_neutral_Q\": true, \"profile/one_profile_plus_reality_full_rank\": true, \"profile/relative_fails_other_profile\": true, \"profile/relative_fails_reality\": true, \"profile/relative_maximal_current\": true, \"profile/relative_passes_one_profile\": true, \"profile/zero_trace_not_maximal\": true}, \"groups\": {\"boson\": {\"checks\": {\"actual_kinetic_density\": true, \"actual_residual_density\": true, \"bad_derivative_diverges\": true, \"complementary_source_retained\": true, \"full_moment_unchanged\": true, \"full_radial_x\": true, \"full_radial_y\": true, \"full_tangential_zero\": true, \"positive_H1_action\": true, \"positive_H1_apex\": true, \"positive_H1_kinetic\": true, \"positive_outside_L4\": true, \"products_not_automatically_zero\": true, \"self_brackets_zero\": true, \"weighted_cross_scaling\": true}, \"explicit_kinetic\": \"4*R*alpha\", \"explicit_potential_times_g7_squared\": \"24*alpha/R\", \"kinetic_density\": \"12*alpha*vx(r)*conjugate(vx(r)) + 12*vy(r)*conjugate(vy(r))/alpha\", \"residual_density\": \"12*alpha*conjugate(Derivative(vx(r), r))*Derivative(vx(r), r) + 12*conjugate(Derivative(vy(r), r))*Derivative(vy(r), r)/alpha\"}, \"boundary\": {\"affine_one_form\": \"12*dx*(k + y) - 12*dy*x\", \"checks\": {\"background_k_not_removed\": true, \"both_helicities_same_affine_term\": true, \"boundary_two_form_unchanged\": true, \"fixed_x_variation_control\": true, \"full_affine_boundary\": true, \"helicity_background_term_survives\": true, \"line_quadratic_cancels\": true, \"longitude_line_passes\": true, \"specified_counterterm_cancels\": true, \"wrong_counterterm_sign_fails\": true}, \"line_one_form\": \"12*dz*k*wx\", \"specified_linear_variation\": \"-12*dx*k\"}, \"period\": {\"checks\": {\"actual_longitude_Z\": true, \"actual_meridian_Z\": true, \"based_loop_control_is_not_flat\": true, \"complementary_projection_zero\": true, \"full_Duhamel_projection\": true, \"gauge_commutator_projection\": true, \"longitude_neutral_period\": true, \"meridian_neutral_period\": true, \"moving_Z_must_be_transported\": true, \"ordinary_trace_is_insufficient\": true, \"periodic_gauge_period\": true, \"radial_Z\": true, \"similarity_longitude_annihilator\": true, \"similarity_meridian_annihilator\": true, \"two_based_loops_not_average\": true}, \"matrix_dimension\": 4, \"period_norm\": 12, \"weighted_Duhamel\": \"x0 + x10 + x15 - 3*x5\"}, \"profile\": {\"checks\": {\"Green_nonzero_rank\": true, \"all_line_current\": true, \"all_line_profiles\": true, \"all_line_reality\": true, \"banked_Green\": true, \"banked_reality\": true, \"both_helicities_survive\": true, \"both_profile_constraints_full_rank\": true, \"exact_neutral_Q\": true, \"one_profile_plus_reality_full_rank\": true, \"relative_fails_other_profile\": true, \"relative_fails_reality\": true, \"relative_maximal_current\": true, \"relative_passes_one_profile\": true, \"zero_trace_not_maximal\": true}, \"constraints\": [[\"1\", \"0\", \"0\", \"0\"], [\"0\", \"1\", \"0\", \"0\"], [\"0\", \"0\", \"0\", \"1/alpha\"], [\"0\", \"0\", \"-alpha\", \"0\"]], \"required_maximal_dimension\": 2, \"tested_domains\": 3, \"trace_dimension\": 4}}, \"scope\": \"Necessary same-action local multiplet test and finite-action alternatives, not a selected physical end law\"}\n"
+    },
+    "combined_first": {
+      "raw_basename": "r70_combined_first",
+      "raw_receipt_sha256": "6e4000d8de64c2a8449a7e11b2613d2e0b2b105e7c75b9f102a9729d2737884f",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_flux.py",
+          "tests/test_physical_bridge_cone_fermion.py",
+          "tests/test_physical_bridge_cone_multiplet.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 17.120450999995228,
+        "log_bytes": 100,
+        "log_sha256": "d41a6f01ca8393e228e6129d38d8936bf66be4677974100f7b3d1c12e6197ec6"
+      },
+      "stdout": "........................                                                 [100%]\n24 passed in 16.22s\n"
+    }
+  },
+  "audit_runs": {
+    "gates_seal": {
+      "raw_basename": "r70_gates_seal",
+      "raw_receipt_sha256": "23db26f4c11b94f0adfb7daff05d462a119319331b07dc0c2d1a8022aab80aed",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 23.589347000001,
+        "log_bytes": 2189,
+        "log_sha256": "5818122e5e03475fe6bcbea512651ab1e004facf026d29b451bf813c5c2d6dfa"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 263 merges since last review (DUE — run the decadal review)\n"
+    },
+    "gates_seal_refined": {
+      "raw_basename": "r70_gates_seal_refined",
+      "raw_receipt_sha256": "6c0c62aff722d42024633263a68a4390f7d95bab1cd92c96414b996fbe3ce6a6",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 22.148632999975234,
+        "log_bytes": 2189,
+        "log_sha256": "5818122e5e03475fe6bcbea512651ab1e004facf026d29b451bf813c5c2d6dfa"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 263 merges since last review (DUE — run the decadal review)\n"
+    },
+    "cumulative_first": {
+      "raw_basename": "r70_cumulative_first",
+      "raw_receipt_sha256": "82f2cfc8dad19e9ede740bb9a22076f2b5f87f6c266bb6db0f027e18ea5403c9",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/resolved_fermion_receipt_check.rb",
+          "<prior-raw>/oa-resolved-fermion-audit.wHMzqS"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.7554769999696873,
+        "log_bytes": 583,
+        "log_sha256": "1901844d7de44535a552969d79e191883c85716d0d86a701aa06e63aa0c78a40"
+      },
+      "stdout": "reports/physical_bridge_2026_09_05/resolved_fermion_receipt_check.rb:19:in `read': No such file or directory - <prior-raw>/oa-resolved-fermion-audit.wHMzqS/oa_r30_native_first.log (Errno::ENOENT)\n\tfrom reports/physical_bridge_2026_09_05/resolved_fermion_receipt_check.rb:19:in `read_text'\n\tfrom reports/physical_bridge_2026_09_05/resolved_fermion_receipt_check.rb:46:in `block in <main>'\n\tfrom reports/physical_bridge_2026_09_05/resolved_fermion_receipt_check.rb:44:in `each'\n\tfrom reports/physical_bridge_2026_09_05/resolved_fermion_receipt_check.rb:44:in `<main>'\n"
+    },
+    "cumulative_path_control": {
+      "raw_basename": "r70_cumulative_path_control",
+      "raw_receipt_sha256": "03c3f33d5a7b27692f86621e25c74d3bedb6b6072046e0e11d0eed09954fe32c",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.2283290000050329,
+        "log_bytes": 617,
+        "log_sha256": "03040ef8b9bbcb7b059d50a56b251cb99a4bf98f77eb04c07d6b16fc31e11a1b"
+      },
+      "stdout": "{\"old_custody\":{\"artifacts\":1070,\"latest_distinct_seals\":398,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":199,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "gates_precommit": {
+      "raw_basename": "r70_gates_precommit",
+      "raw_receipt_sha256": "059cd96c7e29d203eff86e89d29687f82b6006303989c40e0b52c485e899c5f8",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 14.824709000007715,
+        "log_bytes": 2189,
+        "log_sha256": "cb473d6f05b96d73c581da5cba1edb71d6b8843cb55479c11515edd77fdf403f"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 264 merges since last review (DUE — run the decadal review)\n"
+    }
+  }
+}

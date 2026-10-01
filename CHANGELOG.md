@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-01 - R70 necessary cone multiplet admission
+
+Zero-trace neutral bosons and a bulk self-adjoint fermion cannot be
+joined under both supplied superfield profile maps on the actual cone.
+H1 commuting bosonic profiles have finite residual action outside L4;
+their peripheral/end data are changed, not selected by this calculation.
+The affine holomorphic boundary term is retained and a based-loop versus
+averaged-trace countercontrol prevents overbroad scope. 55 exact controls
+and all 24 R67/R68/R70 tests pass, including eight new tests. Five science
+paths were sealed and server-confirmed before execution at 69855eb4.
+Next earn the full coupled end law and core; no universal physics kill,
+parameter-free SM derivation, full-suite or independent-review certificate.
+Report: reports/physical_bridge_2026_09_05/CONE_MULTIPLET.md.
+
 ## 2026-10-01 - R69 exact descended level candidate and action-map audit
 
 Independent Q(i) arithmetic verifies the selected D0 index -1 and its

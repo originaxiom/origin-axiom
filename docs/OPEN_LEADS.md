@@ -4101,3 +4101,32 @@ Source: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
   the first archive citation failure and older scientific/governance debts.
 - PB-PHYSICS: realistic chiral matter, normalized interactions, quantum
   consistency, gravity and predictive contact remain full mission duties.
+
+## R70 same-action multiplet disposition October 1 2026
+
+The zero-trace bosonic class fails the necessary both-supercharge join
+to a bulk self-adjoint fermion; finite-action neutral alternatives exist
+with changed peripheral data. Source: CONE_MULTIPLET_PROOF.md in the
+physical bridge report lane. No all-architecture chirality closure.
+
+- PB-BOUNDARY / PB-ACTION: declare and justify the fixed versus dynamical
+  peripheral/end policy. Two based loops alone are not an averaged trace
+  law for arbitrary nonflat variations. A topological completion is not
+  an analytic domain selector. Do not join X0 to an unrelated Q domain.
+- PB-BOUNDARY: test complete complementary channels, compact gauge and
+  all superfield derivative maps in one class. The H1 plus b/r sufficient
+  bosonic estimate does not classify all physical fermion/product domains.
+- PB-ACTION: retain the affine superpotential variation. If a counterterm
+  is proposed, derive its global gauge/supersymmetry and quantum law; the
+  local linear term is a changed input, not a free rescue. The longitude
+  line is only a scoped neutral positive, not a selected physical phase.
+- PB-TRANSITIONS / PB-HANDOFF-M6: match the actual global core and parent.
+  The rank-two D0 candidate and rank-four log cone do not share a domain
+  by matching an index or choosing a level. Preserve R58/R59/R69 maps.
+- PB-REVIEW: independently review the neutral adjoint-domain witness and
+  weighted nonlinear estimate. Preserve historical scientific failures
+  and governance debts; focused tests are not a full main-bank certificate.
+- PB-PHYSICS: derive or explicitly price action, metric, ends and physical
+  realization. Chiral SM interactions and observables, quantum consistency
+  and gravity remain full mission duties; conditional progress is not
+  parameter-free completion. No universal repository absence is asserted.
