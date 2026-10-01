@@ -1,0 +1,619 @@
+{
+ "which": "control",
+ "files": [
+  "law_control_+LR_2.json",
+  "law_control_+LR_3.json"
+ ],
+ "totals": {
+  "levels": 2,
+  "backgrounds": 10,
+  "sectors": 96,
+  "matched": 56,
+  "matched_order_ge_2": 56,
+  "matched_order_2": 44,
+  "unmatched": 40,
+  "unmatched_first_order_ok": 40,
+  "slope_limit_tested": 10,
+  "slope_limit_ok": 10,
+  "filling_tested": 10,
+  "zero_type": 0,
+  "filling_type": 0,
+  "zero_iff_filling_ok": 10,
+  "matched_order_3": 12
+ },
+ "predictions": {
+  "P1": {
+   "statement": "every unmatched sector: order 1 with coefficient (s(alpha) - s(l)) (s(1/beta) - s(l))",
+   "holds": true,
+   "tested": 40,
+   "failures": 0
+  },
+  "P2": {
+   "statement": "every matched sector: order at least 2 (or identically zero); no unmatched sector is identically zero",
+   "holds": true,
+   "tested": 56,
+   "failures": 0
+  },
+  "P3": {
+   "statement": "the cusp shape of the curve tends to |s(l)| at the reducible end",
+   "holds": true,
+   "tested": 10,
+   "failures": 0
+  },
+  "P4": {
+   "statement": "matched sectors identically zero  <=>  the meridian is +-(longitude)^(+-s) along the curve",
+   "holds": true,
+   "tested": 10,
+   "failures": 0
+  },
+  "P5": {
+   "statement": "some background of the population is of filling type and some is not",
+   "holds": false,
+   "filling": 0,
+   "tested": 10
+  }
+ },
+ "failures": {},
+ "second_order_sample": [
+  [
+   "+LR level 2",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 2",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 2",
+   [
+    2,
+    4
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 2",
+   [
+    2,
+    4
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 2",
+   [
+    3,
+    1
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 2",
+   [
+    3,
+    1
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 2",
+   [
+    4,
+    3
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 2",
+   [
+    4,
+    3
+   ],
+   1,
+   2,
+   "-0.008"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    0,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    1,
+    2
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    2,
+    1
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    0
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   2,
+   3,
+   "0.5625"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   1,
+   2,
+   "0.75"
+  ],
+  [
+   "+LR level 3",
+   [
+    3,
+    2
+   ],
+   1,
+   2,
+   "0.5"
+  ]
+ ]
+}
