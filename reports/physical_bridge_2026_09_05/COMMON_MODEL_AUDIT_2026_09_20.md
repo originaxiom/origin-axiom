@@ -1,5 +1,17 @@
 # One-model audit: which positive results actually compose?
 
+**Current path-local R72 (October 1):** an explicit contraction constructs
+exact local Q solutions on the changing canonical cone. Conserved current
+and cutoff estimates give a 36-dimensional nondegenerate witnessed
+subspace in Dmax/Dmin, extending R68's four exact Z traces. This is not
+the whole quotient, a selected boundary law or a physical particle count.
+69 finite controls and all 23 R68/R71-control/R72 tests pass. The analytic
+proof is authored and conditional, not independently accepted by tests.
+Next earn common bosonic products, compact gauge and superfield domains,
+then the actual core/parent match. The full physics mission remains active.
+Report: reports/physical_bridge_2026_09_05/CONE_EXACT.md.
+Earlier dated entries retain their historical scopes.
+
 **Current path-local R71 (October 1):** the full sl4 coefficient splits
 exactly into charges0,+4,-4 of dimensions9,3,3. Other neutral coefficients
 have a nontrivial formal logarithmic critical generator; a frozen kernel

@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-01 - R72 exact local logarithmic cone graph witnesses
+
+An explicit contraction constructs exact solutions, without trusting
+finite log truncations. Their conserved Green pairing and cutoff norm
+give a 36-dimensional nondegenerate witnessed graph quotient on the
+supplied zero-Fourier neutral coefficient; not all domains or particles.
+69 controls and eight new tests pass; R68/R71-control/R72 total 23 pass.
+Five science paths were server-confirmed at 8e6598d3 before execution.
+No post-execution scientific repair, full-suite or independent-review
+certificate. Next common interacting end law and actual core matching.
+Report: reports/physical_bridge_2026_09_05/CONE_EXACT.md.
+
 ## 2026-10-01 - R71 full cone channels and logarithmic critical operator
 
 Exact coefficient dimensions9+3+3 and the formal critical Schur matrix

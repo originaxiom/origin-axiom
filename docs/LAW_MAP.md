@@ -1,5 +1,17 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+**Current path-local R72 (October 1):** an explicit contraction constructs
+exact local Q solutions on the changing canonical cone. Conserved current
+and cutoff estimates give a 36-dimensional nondegenerate witnessed
+subspace in Dmax/Dmin, extending R68's four exact Z traces. This is not
+the whole quotient, a selected boundary law or a physical particle count.
+69 finite controls and all 23 R68/R71-control/R72 tests pass. The analytic
+proof is authored and conditional, not independently accepted by tests.
+Next earn common bosonic products, compact gauge and superfield domains,
+then the actual core/parent match. The full physics mission remains active.
+Report: reports/physical_bridge_2026_09_05/CONE_EXACT.md.
+Earlier dated entries retain their historical scopes.
+
 **Current path-local R71 (October 1):** the full sl4 coefficient splits
 exactly into charges0,+4,-4 of dimensions9,3,3. Other neutral coefficients
 have a nontrivial formal logarithmic critical generator; a frozen kernel
@@ -1070,3 +1082,15 @@ Finite checks do not certify exact maximal/minimal domains or physics.
 | Every open-critical limiting Fourier tuple lies in a bounded ellipse for fixed alpha,k | lambda=4pi^2(alpha m^2+n^2/alpha)+c^2 k^2/alpha. No unrestricted-aspect zero-mode-only theorem or exact endpoint/domain count; threshold separate. | B1504 end context only; R63 scalar prior; R71 CONE_CHANNEL_PROOF.md section2; tests/test_physical_bridge_cone_channel_control.py::test_full_limiting_windows_depend_on_declared_metric and test_scalar_generator_control_and_independent_determinant |
 | The zero-Fourier neutral formal critical generator has four zero and32 paired nonzero eigenvalues | Actual log branch, formal second-order unitary Schur elimination. q,alpha independence applies to this leading coefficient only. Not an exact Cauchy-data theorem. | B1504 end context only; R71 CONE_CHANNEL_PROOF.md section3; tests/test_physical_bridge_cone_channel_control.py::test_actual_logarithmic_schur_matches_independent_blocks and test_logarithmic_spectrum_Green_pairing_and_exact_Z_scope |
 | Polynomial logarithmic L2 growth does not certify finite-order graph admission | dr=exp(-s)ds. A residual with nonzero polynomial-log lower bound after division by r has divergent exp(s) weighted square norm. Authored comparison, not exclusion of exact solutions with zero residual. | B1504 end context only; R71 CONE_CHANNEL_PROOF.md section4; tests/test_physical_bridge_cone_channel_control.py::test_L2_logarithmic_control_is_not_graph_admission |
+
+## Exact local cone graph witnesses October 1 2026
+
+R72 is authored conditional analysis, not independent analytic acceptance.
+B1504 supplies end-domain context, not the source of these new proofs.
+The R66 exact branch and R68/R71 actual coefficient operator are reused.
+
+| law | hypotheses and boundaries | source / lock |
+|---|---|---|
+| The changing neutral operator has a sufficiently small perturbation tail for every fixed allowed parameter pair | Trace-Hilbert bound 2|v|+4sqrt(alpha)t+4|beta|t^2/sqrt(alpha); t,v tend to zero on the actual branch. Tail size is not uniform or selected physics. | B1504 end context only; R72 CONE_EXACT_PROOF.md section 1; tests/test_physical_bridge_cone_exact.py::test_actual_changing_operator_has_conserved_Green_current and test_actual_tail_bound_has_positive_and_unsafe_controls |
+| Explicit weighted contractions construct exact local solution spaces of dimensions 54 and 18 | Zero-Fourier charge-zero coefficient; norm perturbation <=1/64, shifts 1/4,-3/4, rate 1/8. Banach contraction 1/7, not a finite asymptotic fit. No all-coefficient or global mode count. | B1504 domain context only; R72 CONE_EXACT_PROOF.md section 2; tests/test_physical_bridge_cone_exact.py::test_contraction_constants_inject_both_exact_solution_spaces |
+| The exact solution witnesses yield a 36-dimensional nondegenerate subspace of Dmax/Dmin | Conserved current, 18-dimensional annihilator and graph cutoff errors O(epsilon^(3/4)). Quotient signature (18,18). This is witnessed lower-bound data, not the entire quotient, chosen end law or particles. | B1504 domain context only; R72 CONE_EXACT_PROOF.md section 3; tests/test_physical_bridge_cone_exact.py::test_witnessed_quotient_rank_is_not_particle_count and test_fast_graph_cutoff_and_slow_L2_are_different |

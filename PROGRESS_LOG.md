@@ -16100,3 +16100,32 @@ domains, common nonlinear/gauge/superfield end law and core matching.
 Chiral SM interactions/values, quantum consistency and gravity remain
 the active unachieved parameter-free physics mission.
 Report: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.
+
+## 2026-10-01 R72 — exact solutions and additional Green witnesses
+
+The actual canonical cone's zero-Fourier charge-zero operator admits
+an explicit weighted contraction on a sufficiently late tail for every
+fixed supplied q, alpha. It constructs exact local solution spaces of
+dimensions 54 and 18, with contraction constant 1/7. The fast subspace
+is the conserved-current radical of the slower one. Outer cutoffs and
+vanishing fast graph errors give a 36-dimensional nondegenerate
+witnessed subspace of Dmax/Dmin, signature (18,18). This is an authored
+conditional analytic proof, not independently accepted by finite tests.
+No finite logarithmic residual is called an exact solution or particle.
+
+Five science paths were sealed, pushed and server-confirmed at
+8e6598d3da7e1bb810dc3cdc2a76b79f139a131e before import/execution.
+69 controls and eight new tests pass; R68/R71-control/R72 23 pass.
+No new scientific failure; older R63/R64/R69/R71 failures not rerun.
+Three EOF-only blank-line refinements occurred before the actual seal;
+all draft/final digests and gate captures remain. The unchanged four
+historical governance failures remain, without full-suite green.
+
+R68's four Z traces are reused; this is a stronger actual boundary
+witness, not a complete domain classification or physical generation
+count. Separate d/delta admission, nonlinear products, compact gauge,
+reality/full superfield laws and global core matching remain necessary.
+The action, metric and physical realization are still supplied inputs.
+Parameter-free SM interactions/values, quantum consistency, probabilities
+and gravity retain their full mission requirements. Goal active, unachieved.
+Report: reports/physical_bridge_2026_09_05/CONE_EXACT.md.

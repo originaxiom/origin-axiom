@@ -1,5 +1,17 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+**Current path-local R72 (October 1):** an explicit contraction constructs
+exact local Q solutions on the changing canonical cone. Conserved current
+and cutoff estimates give a 36-dimensional nondegenerate witnessed
+subspace in Dmax/Dmin, extending R68's four exact Z traces. This is not
+the whole quotient, a selected boundary law or a physical particle count.
+69 finite controls and all 23 R68/R71-control/R72 tests pass. The analytic
+proof is authored and conditional, not independently accepted by tests.
+Next earn common bosonic products, compact gauge and superfield domains,
+then the actual core/parent match. The full physics mission remains active.
+Report: reports/physical_bridge_2026_09_05/CONE_EXACT.md.
+Earlier dated entries retain their historical scopes.
+
 **Current path-local R71 (October 1):** the full sl4 coefficient splits
 exactly into charges0,+4,-4 of dimensions9,3,3. Other neutral coefficients
 have a nontrivial formal logarithmic critical generator; a frozen kernel
@@ -4163,3 +4175,26 @@ Source: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.
 - PB-PHYSICS: chiral matter, normalized SM interactions/values, quantum
   consistency and gravity remain mission duties. No blanket B1507
   certification, universal absence or physical no-go is asserted.
+
+## R72 exact cone witness disposition October 1 2026
+
+R72 supplies an authored exact local 36-dimensional witnessed boundary
+quotient. It does not close the full domain or select a physical end law.
+Source: reports/physical_bridge_2026_09_05/CONE_EXACT.md.
+
+- PB-BOUNDARY / PB-ACTION: join these exact Q traces to bosonic action,
+  nonlinear products, compact gauge and all superfield/derivative maps.
+  Q cancellation is not separate d/delta admission. Derive or price the
+  actual fixed/dynamical end policy and any extra end fields.
+- PB-BOUNDARY: classify the whole maximal/minimal quotient where needed;
+  charged, nonzero-Fourier and threshold domains are not supplied by
+  this zero-Fourier neutral witness. Do not count classes as particles.
+- PB-TRANSITIONS / PB-HANDOFF-M6: match the actual global core and parent.
+  Cutoff witnesses are local, not source-free global massless modes.
+  Retain rank-two D0 versus rank-four cone and R58 transition distinctions.
+- PB-REVIEW: independently review the continuous contraction and exact
+  graph-current construction. Preserve all older scientific/governance
+  failures; focused passes are not a full-main or physics certificate.
+- PB-PHYSICS: normalized chiral SM interactions/values, quantum
+  probabilities/consistency and gravity retain the mission's full scope.
+  No whole-architecture no-go, absence or physical completion is asserted.
