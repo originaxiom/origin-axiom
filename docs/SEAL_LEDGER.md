@@ -1424,3 +1424,15 @@ physical-particle count is inferred from a limiting spectrum.
 | `reports/physical_bridge_2026_09_05/CONE_CHANNEL_INPUTS.json` | `b129b19ecb968040686a74faec08b6cfacb915816b78dac96b32015d3d8bd79c` |
 | `reports/physical_bridge_2026_09_05/cone_channel.py` | `a9056c822bdf7c2fe368d2421e83649950fd6d2ab8e4d5dffbc00a0b9f651055` |
 | `tests/test_physical_bridge_cone_channel.py` | `3ffd00fa86ea0ba7057a621202b85738f6816d6aac0f4e685cf7740ef415a177` |
+
+## October 1 2026 R71 separately sealed scalar generator repair
+
+The original producer and two failed test IDs remain unchanged. Align
+only the requested polynomial variable to PurePoly.gen; retain wrong-mass
+and independent determinant controls. No repair import/run precedes this seal.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_CHANNEL_CONTROL_DESIGN.md` | `aa323f1b83a64326229afc9fe98403ac9b652ca6fcdf524feec42ddd67c79280` |
+| `reports/physical_bridge_2026_09_05/cone_channel_control.py` | `2a1a6c20bb8be716d00a843d45e34940bf52876033113063eb9bdc2755f9e032` |
+| `tests/test_physical_bridge_cone_channel_control.py` | `cdf6fd494a55cfbc1f178f2ef08df8b3165fc25cab1cb0edf6545a908f7bb05b` |
