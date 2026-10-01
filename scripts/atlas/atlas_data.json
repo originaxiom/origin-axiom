@@ -9087,6 +9087,30 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1511": {
+   "slug": "the projective tower",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B151": {
    "slug": "firewall confirmation",
    "motifs": [

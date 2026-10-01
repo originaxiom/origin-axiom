@@ -16382,3 +16382,29 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     passed, 2 skipped, 2 failed. Both failures are all-gates tests reading relay-debt.
 
 `frontier/B1510_the_two_sided_deformation`. 0 of 19.
+
+## 2026-10-01 — B1511 sealed: the projective tower (B1509's lead 4; not run)
+
+- **The occasion.** The owner's "aproved. next!", approving B1509's lead 4: carry W₁ to the family's finite covers and read the count
+  and the deck orbits in B1506's frame.
+- **The instrument.**
+  - `tower_lib.py` holds the twisted fibre monodromy: a one-step closed form, products around a level, and the characteristic
+    polynomial on H¹ of the fibre.
+  - It also holds the Reidemeister–Schreier covers M₁–M₆ with their deck, and main's index on any presentation, exact over ℚ(i)[q]/(g)
+    or ℚ(ζ₁₂)[q]/(g), and over GF(p) through B1374's index_lib.
+  - Finally it holds the GF(p) interpolation of the twisted polynomials.
+  - `tower_census.py` is the sealed run: Parts A–D.
+- **The controls, run before the seal** (C1–C10):
+  - B1509's Q and its rows are reproduced, and so are B1506's torsion, orbits, presentations and deck.
+  - The pullback's decided instances hold on s961 and M₆.
+  - The census code reproduces Theorem D on the trivial orbit.
+  - The case-(b) classification, by character arithmetic alone: M₄'s two 3-torsion orbits at λ = ±1 need exact treatment. 356
+    other pairs go to the gcd test.
+- **The design-time sweep** covered main (7f080e49), this branch, the audit lane (472a9595) and the paper-review lane, with the
+  others read-only. No ref computes ρ_q on any cover. The audit lane records the cover counts as owed (CANONICAL_CUSP_PROOF.md:314–315;
+  the received global-metric PROOF.md:184–186).
+- **The design reasoning** found case (b) before any twisted polynomial existed: a sign flip, and a coincidence that is automatic on
+  some orbits. It widened the census to levels 2, 4, 5 and 6.
+- **Sealed:** P1–P8.
+
+`frontier/B1511_the_projective_tower`. 0 of 19.

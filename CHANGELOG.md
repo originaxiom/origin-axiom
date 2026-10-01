@@ -1,5 +1,43 @@
 # Changelog
 
+## B1511 sealed: the projective tower, before any twisted polynomial of a non-trivial character is computed
+
+- **The question** (B1509's lead 4, at the owner's "aproved. next!"). B1509's W₁ counts −1 on m004: one 10′. This arc carries it to
+  m004's cyclic covers M₁–M₆ in B1506's frame. Backgrounds are ν ⊗ ρ_q for every character ν of the level, with the root's deck acting
+  on them. It reads the count by level and by deck orbit. Does an orbit of three count three?
+- **Computed before the seal, and disclosed there.** Controls C1–C10:
+  - B1509's monic Q and the cube relation;
+  - B1506's torsion, orbits, presentations and deck;
+  - B1509's index rows on the new general-presentation index, exactly and over GF(p);
+  - the pullback's decided instances on s961 and M₆;
+  - the closed form of the one-step monodromy, and the GF(p) interpolation at levels 1–6;
+  - a dry run of the census code on the trivial character;
+  - the case-(b) classification by character arithmetic.
+
+  No twisted polynomial of a non-trivial character was computed. Three instrument repairs were made before the seal (format-free
+  matrix equality, Gauss–Jordan over ℚ(i)[q]/(g), conversion into ℚ(ζ₁₂)).
+- **Proved at seal.**
+  - **Theorem A** (the count's shapes). Case (a), trivial line: −r1 ∈ {0, −1}, through the Jordan block. Case (b), a line
+    non-trivial on the fibre and trivial on the cusp: 1 − r1 ∈ {0, +1}, the opposite sign, needing a double coincidence. Λ²W counts
+    0 on every level, so the tower has no 5̄′.
+  - **Theorem B:** Wang on the covers; the one-step factorisation; deck invariance.
+  - **Theorem C:** which case occurs on which level.
+  - **Theorem D:** B1509's W₁ pulls back to −1 on every level, with a deck orbit of size one.
+  - **Theorem E:** three needs an orbit of size three, which is case (a); s961's five orbits decide three on every M_{3j}.
+  - **Theorem F:** case (b)'s coincidence is automatic on M₄'s 3-torsion, M₅'s eigenlines and M₆'s order-8 orbits, and real at
+    generic q only on M₄'s two 3-torsion orbits at λ = ±1.
+- **Decided at design time:** D1–D7.
+- **Sealed:**
+  - P1: the order-2 orbit's polynomial is palindromic (~80%);
+  - P2: it fires, a projective triplet on s961 (~40%);
+  - P3: no order-4 orbit fires (~85%);
+  - P4: some order-4 orbit is exceptional (~60%);
+  - P5: Shapiro holds on M₆ (~97%);
+  - P6: case (b) fires on M₄ (~35%);
+  - P7: no Part-C2 coincidence (~85%);
+  - P8: no orbit is identically exceptional (~90%).
+- The sha256 is in SEAL_LEDGER. The findings document says sealed, not run. 0 of 19.
+
 ## B1510 — the two-sided deformation: the 16's and the 16*'s singlets together hold in the bulk without a source, push it onto the end, and count zero (PROVED; sealed at 0cb24e2b, run as sealed)
 
 - **The question** (B1509's lead 1, at the owner's "do the recomendation for next"). B1509 switched on one singlet direction at a

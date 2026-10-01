@@ -1,0 +1,19 @@
+{
+ "id": "B1511",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1509",
+  "B1510",
+  "B1506",
+  "B1381",
+  "B1374",
+  "B1297"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE PROJECTIVE TOWER, SEALED (not yet run; B1509's lead 4 at the owner's 'aproved. next!': B1509's rank-five extension on the audit lane's harmonic family carried to m004's cyclic covers M1-M6 and twisted by their fibre torsion, read by level and by deck orbit in B1506's frame). Computed before the seal and disclosed: controls C1-C10 (B1509's Q and index rows on this arc's general-presentation index, exactly and over GF(p); B1506's torsion, orbits, presentations and deck; the pullback's decided instances on s961 and M6; the closed form of the one-step monodromy; the GF(p) interpolation; a dry run of the census code on the trivial character; the case-(b) classification by character arithmetic); no twisted polynomial of a non-trivial character. Proved at seal: Theorem A (case (a), trivial line: -r1 in {0,-1} through the Jordan block; case (b), a line non-trivial on the fibre and trivial on the cusp: 1 - r1 in {0,+1}, the opposite sign, needing a double coincidence; Lambda^2 W counts 0 on every level, no 5bar' in the tower); Theorem B (Wang on the covers, deck invariance); Theorem C (which case on which level); Theorem D (B1509's W1 pulls back to -1 on every level, deck orbit of size one); Theorem E (three needs an orbit of size three, case (a); s961's five orbits decide three on every M_3j); Theorem F (case (b)'s coincidence automatic on M4's 3-torsion, M5's eigenlines, M6's order-8 orbits; real and generic only on M4's two 3-torsion orbits at lam = +-1). Decided D1-D7. Sealed: P1 the order-2 orbit's polynomial palindromic (~80%), P2 it fires, a projective triplet on s961 (~40%), P3 no order-4 orbit fires (~85%), P4 some order-4 orbit exceptional (~60%), P5 Shapiro on M6 (~97%), P6 case (b) fires on M4 (~35%), P7 no Part-C2 coincidence (~85%), P8 no orbit identically exceptional (~90%). I-26 stays UNEARNED. 0 of 19."
+}
