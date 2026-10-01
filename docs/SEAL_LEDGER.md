@@ -1410,3 +1410,17 @@ are explicit in the actual seal inputs below. Earlier draft digests stay histori
 | `reports/physical_bridge_2026_09_05/CONE_MULTIPLET_INPUTS.json` | `1cbeff7c8e3f3430786a08a399f172c6f153e0d3a17822978544b528cb632f6c` |
 | `reports/physical_bridge_2026_09_05/cone_multiplet.py` | `53ab9b6c1317b3c5cb46c0538492084e766fd5e59c037e0b26178bba39af1c3c` |
 | `tests/test_physical_bridge_cone_multiplet.py` | `321fac736f3c3c05a83d15e6a7fb7a5b9e6f525dc0eebb7d6d25fa4a2dc9076b` |
+
+## October 1 2026 R71 complementary cone channel pre-execution seal
+
+Full trace-free charge split, limiting Fourier windows and formal logarithmic
+Schur coefficient. No scientific import/run precedes this seal; no domain or
+physical-particle count is inferred from a limiting spectrum.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_CHANNEL_DESIGN.md` | `2c41d49fb7b9d6d34a32152e9c7ec10f163356025d7ca93ea79bff8c6b3cf46b` |
+| `reports/physical_bridge_2026_09_05/CONE_CHANNEL_PROOF.md` | `f2658c840b56c4300637629167edd92dd4dc7f62b38c11d5b14b547f93e7ab85` |
+| `reports/physical_bridge_2026_09_05/CONE_CHANNEL_INPUTS.json` | `b129b19ecb968040686a74faec08b6cfacb915816b78dac96b32015d3d8bd79c` |
+| `reports/physical_bridge_2026_09_05/cone_channel.py` | `a9056c822bdf7c2fe368d2421e83649950fd6d2ab8e4d5dffbc00a0b9f651055` |
+| `tests/test_physical_bridge_cone_channel.py` | `3ffd00fa86ea0ba7057a621202b85738f6816d6aac0f4e685cf7740ef415a177` |

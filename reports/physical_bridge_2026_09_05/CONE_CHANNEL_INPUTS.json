@@ -1,0 +1,55 @@
+{
+  "scope": "Supplied canonical collar and adjoint trace metric; not genesis-selected physics",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "c17d8500b4058198c846f274833ff4f4a4e729a3",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "commit": "c17d8500b4058198c846f274833ff4f4a4e729a3",
+      "sha256": "d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756",
+      "bytes": 7864
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "commit": "c17d8500b4058198c846f274833ff4f4a4e729a3",
+      "sha256": "e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404",
+      "bytes": 8370
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_fermion.py",
+      "commit": "c17d8500b4058198c846f274833ff4f4a4e729a3",
+      "sha256": "535f6d00f3af7a942997e05ce3d65ca429d2410f99013cf2f0dbd978aa16f0a3",
+      "bytes": 13636
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_SPECTRUM_DESIGN.md",
+      "commit": "c17d8500b4058198c846f274833ff4f4a4e729a3",
+      "sha256": "4f3dbf78bafaf4e8914a916909e6d2b7fe44e415a62f47ee5b017a5c1de1caf1",
+      "bytes": 8642
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_SPECTRUM_CONTROL_DESIGN.md",
+      "commit": "c17d8500b4058198c846f274833ff4f4a4e729a3",
+      "sha256": "ac5a8d980812ab8a4f57d3181b8f7c9237d29be95db80ce9b0fd6f54340f2a4f",
+      "bytes": 2429
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md",
+      "commit": "c17d8500b4058198c846f274833ff4f4a4e729a3",
+      "sha256": "525ef354b906c4001f63dedb2e21ff0846744d2316f73ca10a3543c4212bf34e",
+      "bytes": 8866
+    }
+  ],
+  "received_context": {
+    "head": "76d98eba1581401193af39f9b969d6c767800882",
+    "paths": [
+      "docs/THE_PATH_TO_THE_SM_2026-10-01.md",
+      "frontier/B1507_the_record_reread/FINDINGS.md"
+    ],
+    "scope": "Personally read context, not a certified rerun or analytic input"
+  }
+}
