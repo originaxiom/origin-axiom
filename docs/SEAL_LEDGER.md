@@ -1482,3 +1482,16 @@ the exponential lower-bound comparison was set at s=16 before any import.
 | `reports/physical_bridge_2026_09_05/CONE_ORBIT_INPUTS.json` | `0f619e6389c21b5280652aa257715896fd04012f91d744bfa34f5dd4da17e79c` |
 | `reports/physical_bridge_2026_09_05/cone_orbit.py` | `e198f891a507d79e79c83e9d4d36f46fb4e727e0dfa90224a7379aa8b4e90fc6` |
 | `tests/test_physical_bridge_cone_orbit.py` | `209944cbfc075dbc5ca33f94a44d2348b5ab97890afe1070ab796c27a4943996` |
+
+## October 1 2026 R73 separately sealed algebra normalization
+
+Original 7feea9fa science,57/59 first controls and19-pass/3-fail tests
+remain immutable. New controls normalize two exact expressions against
+the same claimed targets and reject wrong values/columns; no physical
+criterion is changed. No new instrument imported before this seal.
+
+| separate repair science | sha256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_ORBIT_CONTROL_DESIGN.md` | `932ddb82b70f03105ec5c994dac02236f815ba1ac49855fca0874252f623f5ef` |
+| `reports/physical_bridge_2026_09_05/cone_orbit_control.py` | `fb26d163648b6519126d35ea4fc46a50dd0b00ee3e9fdfe2d07a6d4e6e27472d` |
+| `tests/test_physical_bridge_cone_orbit_control.py` | `a83b1e16edd20bfdf702922c78358123e65713b7d22fe51832f778295638049a` |
