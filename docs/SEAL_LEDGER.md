@@ -1362,3 +1362,14 @@ No new or received scientific code import/execution precedes this seal.
 | `reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/FINDINGS.txt` | `c51f8bffbc6b3c2372ef110b8d3a18becbffa4e63029ff02548731c769815653` |
 | `reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/verification/the_level.py` | `8f8534e89d493618f272492a972fb72d663f0fbd8171ec2293387f52a6417e50` |
 | `reports/physical_bridge_2026_09_05/received_r69/frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py` | `afa5b28ad555da01adcd93b901be25f45b64c2909ea3784f735a0c9ac82e06a0` |
+
+## October 1 2026 R69 separately sealed Gaussian normal-form repair
+
+The failed first producer and six failed tests are retained unchanged.
+This repair expands expressions before the existing exact rank engines.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/LEVEL_ACTION_CONTROL_DESIGN.md` | `db8c27061debe0453b7b2054197fcab06430cf391c4d89ba3cd4bcda93ea24fe` |
+| `reports/physical_bridge_2026_09_05/level_action_control.py` | `3f2f34562e132d05af9fa3fd803726a06d8d1d7c094f27c26d4dc0d21eb90134` |
+| `tests/test_physical_bridge_level_action_control.py` | `c1138387aadadc20240dcf37791e28868b8eba610eba2ea28bacd14daa669e02` |
