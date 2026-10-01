@@ -1,0 +1,17 @@
+{
+ "id": "B1446",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1297",
+  "B1443",
+  "B1444",
+  "B1445"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE PARABOLIC POINTS AND THE BRANCH POINTS, on the root's three-fold cover. The frame imposes unipotent peripheral holonomy at a background; on a periodic curve (B1444) only finitely many points have parabolic or trivial peripheral holonomy -- the reducible end and the points with kappa = -2 (two conjugate complete-cusp points on the rational quartic of a character of order four, the quaternion point on the line of a character of order two). Computed on all twelve curves: the torsion of the generation's sectors at the complete cusp is -sqrt5 +- sqrt(-3), of modulus 2 sqrt2 (exact; 336 sector torsions in five classes). Computed on all 96 couplings of the 48 backgrounds at every combination of parabolic points of the extension's curve and the Higgs character's (B1445): at the 288 doubly-parabolic points the bidoublet's cusp holonomy is unipotent and has invariants, and its class index is ZERO (singular values at 60 digits, gap 0.07 against 8e-60) -- only the classes the boundary forces; a hope refuted, that an irreducible background might carry the frame's index. With the extension at its end and the Higgs at its complete point the bidoublet is acyclic with torsion (sqrt5 +- sqrt(-3))^2 = 2 +- 2 sqrt(-15), modulus 8, for the up coupling and 16 for the down, lepton and neutrino couplings, the same in every background. The branch points: the three Higgs characters of a deck orbit have trivial product and equal slopes, and on the curve of one the doubly matched sectors are exactly those of the other two members; from B1444's exact record that sector has a class only at the reducible ends and at the six roots of the irreducible sextic u^6 - 8u^4 + 12u^3 + 4 (verified numerically), one of them real on the arc of real representations between the root's background and the sister's (w = 0.99037, kappa = 1.99046) with the frame's normalisation of the meridian. So a second member's Higgs can be switched on along the first's curve at exactly six algebraic points: the location where the members of an orbit can differ. Not computed: whether a branch of flat connections leaves there and what sits on it. One level; torsion is not a mass; the numbers do not resemble the observed masses; no value. 0 of 19."
+}

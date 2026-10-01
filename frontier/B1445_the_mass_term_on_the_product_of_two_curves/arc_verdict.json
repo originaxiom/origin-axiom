@@ -1,0 +1,16 @@
+{
+ "id": "B1445",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1432",
+  "B1438",
+  "B1444"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE MASS TERM ON THE PRODUCT OF TWO CURVES. The Higgs sectors of the frame are singlets of SL(2)_beta, so the SL(2) of a Higgs character eta commutes with it, and the tensor product of the periodic curves of the extension character l and of eta (B1444) is a two-parameter family of flat connections of the level, parameters e1 = 2 - kappa_l and e2 = 2 - kappa_eta. On it the rank-four bidoublet, which at the reducible point is the sum of the characters A1, A1/l, A1/eta, A1/(l eta), has torsion (e1 a2 a3 - e2 b2 b3)(e1 a1 a4 - e2 b1 b4) to second order, a_i and b_i the slope differences to l and to eta (Theorem C: the derivative of the monodromy on the fibre's cohomology is a hopping matrix on a bipartite square). For a coupling (A, B) of the frame with eta = alpha_A beta_B on a background of sign + this is Y^2 e2 (e2 b2 b3 - e1 a2 a3), Y = s(l) - s(eta) the coupling of B1438: the banked coupling is the coefficient of a mass term on actual flat connections -- coupling squared, times the Higgs value, times the extension parameter. Sealed before the run (seal d3b50c0f) and held on 24 untouched levels, 752 backgrounds, 405 cases, none dropped: Q1 the quadratic form 405 of 405; Q2 the frame structure 352 of 352; Q3 an up-type and a down-type coupling both reachable on 432 backgrounds; Q4 365 agreeing cases with slopes outside (1/60)Z. With the control 429 cases, no exception. On the root's three-fold cover: up Y^2 = 4 with mass term -16 e1 e2; down = lepton = neutrino Y^2 = 1 with -4 e1 e2 + e2^2. On several levels the backgrounds fall into two classes whose couplings differ by a power of the golden ratio (phi^4 on the root's four-fold cover). Not predicted on: on 624 couplings of eleven levels the Higgs character is the extension character or its inverse, and those are not tested. Uses characters of order two, which B1444 first took for nodes. Torsion is not a mass; the two parameters are positions nothing here selects; the members of a deck orbit are not distinguished; no value. 0 of 19."
+}

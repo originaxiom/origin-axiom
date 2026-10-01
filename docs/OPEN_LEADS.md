@@ -3080,6 +3080,9 @@ Open, in order of what would move the frame most:
   manner of the slope (a second-order slope: a Massey-type product read on the boundary) is not known.
 - **(b) The direction of the Higgs character η.** B1435's coupling s(ℓ) − s(η) is the obstruction to moving along
   ℓ's curve and η's at once. The joint deformation lives in a larger group than PSL(2); it has not been set up.
+  **Run 2026-10-01 (B1445):** set up and sealed. The Higgs character's SL(2) commutes with SL(2)_β, the joint
+  deformation is the tensor product of the two curves, and the bidoublet's torsion is Y²·e₂·(e₂b₂b₃ − e₁a₂a₃) to
+  second order (405 of 405). The couplings with η = ℓ^±1 are not covered (L237 (c)).
 - **(c) P4's proof**, and what the filled manifold of a filling-type background is (38 of 202 backgrounds; slopes
   0, ±1, −2).
 - **(d) WITHDRAWN in the arc:** characters of order two do not sit at nodes of κ = 2 (a node needs a trivial
@@ -3090,3 +3093,21 @@ Open, in order of what would move the frame most:
 - **(g) ANSWERED in the arc:** the SL(2)_β direction is not the electroweak one. SL(2)_β is the simple factor of the
   centraliser of the Standard Model's gauge algebra in E₆ (`e6_centraliser.py`), so the curve preserves the whole
   gauge group. Hence (b) is the electroweak question.
+
+## L237 — WHAT TELLS THE MEMBERS OF AN ORBIT APART: the branch off one member's Higgs curve (registered 2026-10-01, B1446)
+
+B1446: on the root's three-fold cover the positions on the curves stop being free at the parabolic points, where the
+torsions are exact (−√5 ± √−3 for the generation's sectors; (√5 ± √−3)² for the up coupling, 16 for the others) and
+equal for the three members; and a second member's Higgs can be switched on along the first's curve at exactly the
+six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owner on 2026-10-01:
+- **(a) The branch.** At a root of the sextic, does a family of flat connections of rank three with two members'
+  Higgs on leave the first member's curve; what are its boundary-parabolic points; what torsions sit on them. The
+  real root on the arc of real representations (κ = 1.99046) first.
+- **(b) Which group.** The branch presupposes a group in which two members' Higgs directions are non-commuting
+  roots (L235 (b)); the frame's E₆ assignments have to be read for it.
+- **(c) The couplings with η = ℓ^±1** (624 on eleven levels): one SL(2), not two; the mass term there.
+- **(d) Torsion to mass.** The pair of eigenvalues e, 1/e of the monodromy on the fibre's cohomology behind each
+  torsion, evaluated at the parabolic points.
+- **(e) The other levels:** the parabolic points on the four-fold and five-fold covers and on the states with every
+  coupling, where the slopes are not integers.
+- **(f) The three sector classes not in ℚ(√5, √−3)** at the complete cusp: their field.

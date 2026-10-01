@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1273** |
-| words of findings prose | **965,703** |
-| test lock files referenced | **751** |
-| arcs carrying an authored verdict | **1273** (100.0 %) |
+| research arcs with findings | **1275** |
+| words of findings prose | **968,741** |
+| test lock files referenced | **753** |
+| arcs carrying an authored verdict | **1275** (100.0 %) |
 | recorded closures | **799** (632 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 847 |
+| PROVED | 850 |
 | NEGATIVE | 323 |
-| OPEN | 92 |
+| OPEN | 91 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1444`** (3147 words, 1 locks)  
-THE BACKGROUNDS ARE THE REDUCIBLE ENDS OF THE TRACE MAP'S PERIODIC CURVES. A background of the Standard-Model frame carries a reducible non-split rank-two representation with extension character l; the square root of l on the fibre is a smooth torsion point of the surface kappa = 2, fixed by the level's trace map up to a sign twist, and exactly one smooth curve of twisted-periodic points passes through it, transverse to kappa = 2 (Theorem A, implicit function theorem). Its points are flat PSL(2) connections of the level, irreducible on the fibre, and the frame's extension class is its tangent. Theorem B (first-order deformation theory): the cusp shape of the curve tends to the slope s(l) at the end, and the torsion of the sector with characters alpha = l beta, beta is (s(alpha) - s(l))(s(beta) - s(l)) e + O(e^2), e = 2 - kappa: the slope law of B1438 is the first order of this curve, the banked coupling is the first-order torsion, and the firing condition is its vanishing. Off the end the cusp holonomy has no invariant vector in a doublet, so the class index is zero there by B1297's identity: the frame's index lives at the reducible end only. Sealed before the run (seal d88c220e) and held on 27 untouched levels, 146 backgrounds, 1 734 sectors: P1 first-order coefficient 1 223 of 1 223; P2 a match kills the first order 511 of 511; P3 slope = limit of cusp shape 146 of 146; P4 matched sectors identically zero iff the meridian is +-(longitude)^(+-s) along the curve, i.e. the curve lies in a Dehn filling, 146 of 146 (27 and 27); P5 both kinds occur. With the disclosed exploration: 2 155 unmatched sectors, no exception. Exact on the root: level one a conic through the sister's order-5 characters and the geometric representation; level two lines ending at B448's Q(sqrt -7) points; level three rational quartics with kappa - 2 = w(w - 1) and m + 1/m - 2 = -w(w^2 - w + 4), the root's backgrounds at w = 0, the sister's at w = 1, a complete cusp at w^2 - w + 4 = 0 with coordinates in Q(sqrt -3, sqrt 5). Per-sector second-order coefficients of the frame's backgrounds: 1/2 on s961 for all six sectors of all 48; 3/4 on the sister's three-fold cover; the ten's module 1/2 against the five-bar's (3 +- sqrt 5)/4 on +LLR 3; values in Q(sqrt 5) on the four-fold cover; identically zero on all 16 backgrounds of +LLRLRRLR. Also banked: an orbit's three Higgs classes have no bulk product (h^2(M; k) = 0, pairwise products vanish). Not proved: P4. Not computed: a formula for the second-order coefficients, the nodes, the direction of the Higgs character eta, what selects a point of the curve. The curve is not electroweak breaking: SL(2)_beta is the simple factor of the centraliser of the Standard Model's gauge algebra in E6 (recomputed on the root system), so the curve leaves the gauge group untouched; what it shows is that the frame's chirality requires the hidden SL(2)_beta holonomy to stay reducible. Torsion is not a mass; nothing here distinguishes the members of a deck orbit; no value. 0 of 19.  
-`B1444_the_backgrounds_are_ends_of_periodic_curves/FINDINGS.md`
+**PROVED — `B1446`** (1480 words, 1 locks)  
+THE PARABOLIC POINTS AND THE BRANCH POINTS, on the root's three-fold cover. The frame imposes unipotent peripheral holonomy at a background; on a periodic curve (B1444) only finitely many points have parabolic or trivial peripheral holonomy -- the reducible end and the points with kappa = -2 (two conjugate complete-cusp points on the rational quartic of a character of order four, the quaternion point on the line of a character of order two). Computed on all twelve curves: the torsion of the generation's sectors at the complete cusp is -sqrt5 +- sqrt(-3), of modulus 2 sqrt2 (exact; 336 sector torsions in five classes). Computed on all 96 couplings of the 48 backgrounds at every combination of parabolic points of the extension's curve and the Higgs character's (B1445): at the 288 doubly-parabolic points the bidoublet's cusp holonomy is unipotent and has invariants, and its class index is ZERO (singular values at 60 digits, gap 0.07 against 8e-60) -- only the classes the boundary forces; a hope refuted, that an irreducible background might carry the frame's index. With the extension at its end and the Higgs at its complete point the bidoublet is acyclic with torsion (sqrt5 +- sqrt(-3))^2 = 2 +- 2 sqrt(-15), modulus 8, for the up coupling and 16 for the down, lepton and neutrino couplings, the same in every background. The branch points: the three Higgs characters of a deck orbit have trivial product and equal slopes, and on the curve of one the doubly matched sectors are exactly those of the other two members; from B1444's exact record that sector has a class only at the reducible ends and at the six roots of the irreducible sextic u^6 - 8u^4 + 12u^3 + 4 (verified numerically), one of them real on the arc of real representations between the root's background and the sister's (w = 0.99037, kappa = 1.99046) with the frame's normalisation of the meridian. So a second member's Higgs can be switched on along the first's curve at exactly six algebraic points: the location where the members of an orbit can differ. Not computed: whether a branch of flat connections leaves there and what sits on it. One level; torsion is not a mass; the numbers do not resemble the observed masses; no value. 0 of 19.  
+`B1446_the_parabolic_points_and_the_branch_points/FINDINGS.md`
 
 **NEGATIVE — `B1442`** (728 words, 1 locks)  
 THE TWO-GENERATION BACKGROUNDS: NONE. Sealed at 7f080e49 before any background was assembled on a manifold with more than one cusp. On the seventeen several-cusped manifolds where one rank-two module of the frame has class index two (B1441), every background of B1432's frame was assembled -- every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W) -- with the six sector indices by B1333's several-cusp code. No background has its five charged sectors at index two, and on sixteen of the seventeen no generation-shaped background exists at all; the seventeenth (m009 deg 6 #25, two cusps, characters of order 8) has 32, all of count one. For the nine carriers with sign characters only the absence is forced: with a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite. Predictions: G5 YES; G1, G2, G3, G4 NO. The count per background stays at one on every manifold the record has computed, with one cusp or several: an index of two is a fact about a single sector that the frame's charge relations do not let five sectors share. Not excluded: covers above degree six, special classes not tried, three live cusps, another frame.  

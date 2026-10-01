@@ -67,6 +67,12 @@ escalation are the proof).
     backgrounds from slopes and tabulates their sectors. mpmath at 60 digits: **set `mpmath.mp.dps = 60` in a
     fixture, the suite resets it between tests.** Continuation in real e stops at a branch point of κ (e = 1/4 on
     s961); go round it in the complex plane.
+  - `frontier/B1445_the_mass_term_on_the_product_of_two_curves/verification/mass_term.py` — `Level(name, k)`: the
+    bidoublet on the product of two periodic curves (`.torsion(l, eta, A1, e1, e2)`, `.fit` for the quadratic form,
+    `.frame_cases()` for every coupling of every background); `torsion_n` is the torsion of a module of any rank.
+    `frontier/B1446_…/verification/parabolic.py::point(ell, 'end' | 'cusp+' | 'cusp-')` reaches the boundary-parabolic
+    points by continuation in the complex plane; `index_num.py::index` is the class index of a numerically given
+    module by singular values (report the gap). **Do not run these during a certifying suite: it doubles its time.**
   - `frontier/B1435_the_interaction_census/verification/relcup.py` — the relative triple product a ∪ b ∪ h on an
     explicit relative fundamental chain (`Bundle.fundamental()` asserts ∂C = z as integer chains); modules and
     cocycles over a prime field; `interaction_census.py` drives it; `exact_couplings.py` is the second

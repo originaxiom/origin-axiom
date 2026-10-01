@@ -543,6 +543,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1438` | PROVED | L | | THE SLOPE LAW. For a character chi of a level, trivial on the meridian and non-trivial on the fibre, let s(chi) be the value on the meridian of the class of H^1(M; chi) n… |
 | `B1440` | PROVED | L | | THE RANK BOUND. On a once-punctured-torus bundle, any finite-dimensional module V of the fundamental group with no invariants and no coinvariants on the fibre group has c… |
 | `B1444` | PROVED | L | | THE BACKGROUNDS ARE THE REDUCIBLE ENDS OF THE TRACE MAP'S PERIODIC CURVES. A background of the Standard-Model frame carries a reducible non-split rank-two representation … |
+| `B1445` | PROVED | L | | THE MASS TERM ON THE PRODUCT OF TWO CURVES. The Higgs sectors of the frame are singlets of SL(2)_beta, so the SL(2) of a Higgs character eta commutes with it, and the ten… |
 
 ## The exhibit that forced the rebuild
 

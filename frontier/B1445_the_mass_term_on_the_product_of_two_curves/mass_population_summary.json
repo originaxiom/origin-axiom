@@ -1,0 +1,231 @@
+{
+ "which": "population",
+ "files": [
+  "mass_frame_00.json",
+  "mass_frame_01.json",
+  "mass_frame_02.json",
+  "mass_frame_03.json",
+  "mass_frame_04.json",
+  "mass_frame_05.json",
+  "mass_frame_06.json",
+  "mass_frame_07.json",
+  "mass_frame_08.json",
+  "mass_frame_09.json",
+  "mass_frame_10.json",
+  "mass_frame_11.json",
+  "mass_frame_12.json",
+  "mass_frame_13.json",
+  "mass_frame_14.json",
+  "mass_frame_15.json",
+  "mass_free_00.json",
+  "mass_free_01.json",
+  "mass_free_02.json",
+  "mass_free_03.json",
+  "mass_free_04.json",
+  "mass_free_05.json",
+  "mass_free_06.json",
+  "mass_free_07.json"
+ ],
+ "totals": {
+  "levels": 24,
+  "levels_frame": 16,
+  "skipped: eta = l or 1/l": 624,
+  "skipped: neutrino sector does not fire": 720,
+  "backgrounds": 752,
+  "cases": 405,
+  "cases_frame": 352,
+  "tested": 405,
+  "agree": 405,
+  "cases_with_a_slope_outside_(1/60)Z": 365,
+  "frame_tested": 352,
+  "frame_structure_ok": 352,
+  "frame_mass_term_nonzero": 336,
+  "levels_free": 8,
+  "cases_free": 53
+ },
+ "reachable_types_per_background": {
+  "down,lepton": 48,
+  "up": 272,
+  "down,lepton,up": 432
+ },
+ "predictions": {
+  "Q1": {
+   "statement": "every case followed: the quadratic form of the bidoublet's torsion is the predicted one, to 1e-6",
+   "holds": true,
+   "tested": 405,
+   "failures": 0
+  },
+  "Q2": {
+   "statement": "every frame case: no e1^2 term; the e1 e2 coefficient is -Y^2 times the product of the two unmatched differences to l; the e2^2 coefficient is Y^2 times the product of the two other differences to eta",
+   "holds": true,
+   "tested": 352,
+   "failures": 0
+  },
+  "Q3": {
+   "statement": "some background has an up-type and a down-type (down or lepton) coupling both reachable",
+   "holds": true,
+   "backgrounds": 432
+  },
+  "Q4": {
+   "statement": "some case with a slope outside (1/60)Z agrees",
+   "holds": true,
+   "cases": 365
+  }
+ },
+ "failures": {},
+ "couplings": [
+  {
+   "level": "-LR level 3",
+   "couplings": {
+    "down | Y^2 = 3.2 | e1e2 coefficient = -8 | e2^2 coefficient = -0.96": 16,
+    "lepton | Y^2 = 3.2 | e1e2 coefficient = -8 | e2^2 coefficient = -0.96": 16,
+    "up | Y^2 = 3.2 | e1e2 coefficient = -4 | e2^2 coefficient = 1.44": 8
+   }
+  },
+  {
+   "level": "+LLR level 3",
+   "couplings": {
+    "up | Y^2 = 1.90983 | e1e2 coefficient = -25 | e2^2 coefficient = 9.54915": 12,
+    "up | Y^2 = 13.0902 | e1e2 coefficient = -25 | e2^2 coefficient = 65.4508": 12
+   }
+  },
+  {
+   "level": "+LRR level 3",
+   "couplings": {
+    "up | Y^2 = 1.90983 | e1e2 coefficient = -25 | e2^2 coefficient = 9.54915": 12,
+    "up | Y^2 = 13.0902 | e1e2 coefficient = -25 | e2^2 coefficient = 65.4508": 12
+   }
+  },
+  {
+   "level": "-LLRLR level 1",
+   "couplings": {
+    "down | Y^2 = 0 | e1e2 coefficient = 0 | e2^2 coefficient = 0": 8,
+    "lepton | Y^2 = 0 | e1e2 coefficient = 0 | e2^2 coefficient = 0": 8,
+    "up | Y^2 = 2.25 | e1e2 coefficient = -4 | e2^2 coefficient = 0.0625": 8
+   }
+  },
+  {
+   "level": "-LRLRR level 1",
+   "couplings": {
+    "down | Y^2 = 0 | e1e2 coefficient = 0 | e2^2 coefficient = 0": 8,
+    "lepton | Y^2 = 0 | e1e2 coefficient = 0 | e2^2 coefficient = 0": 8,
+    "up | Y^2 = 2.25 | e1e2 coefficient = -4 | e2^2 coefficient = 0.0625": 8
+   }
+  },
+  {
+   "level": "-LLLRLR level 1",
+   "couplings": {
+    "up | Y^2 = 0.687539 | e1e2 coefficient = -1.90983 | e2^2 coefficient = 0.482229": 8,
+    "up | Y^2 = 4.71246 | e1e2 coefficient = -13.0902 | e2^2 coefficient = 1.19777": 8
+   }
+  },
+  {
+   "level": "-LRLRRR level 1",
+   "couplings": {
+    "up | Y^2 = 0.687539 | e1e2 coefficient = -1.90983 | e2^2 coefficient = 0.482229": 8,
+    "up | Y^2 = 4.71246 | e1e2 coefficient = -13.0902 | e2^2 coefficient = 1.19777": 8
+   }
+  },
+  {
+   "level": "+LLLRR level 2",
+   "couplings": {
+    "down | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 6,
+    "down | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 6,
+    "lepton | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 6,
+    "lepton | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 6,
+    "up | Y^2 = 0.262616 | e1e2 coefficient = -1 | e2^2 coefficient = 0.543734": 6,
+    "up | Y^2 = 12.3374 | e1e2 coefficient = -1 | e2^2 coefficient = 128.536": 6
+   }
+  },
+  {
+   "level": "-LLLRR level 2",
+   "couplings": {
+    "down | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 6,
+    "down | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 6,
+    "lepton | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 6,
+    "lepton | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 6,
+    "up | Y^2 = 0.262616 | e1e2 coefficient = -1 | e2^2 coefficient = 0.543734": 6,
+    "up | Y^2 = 12.3374 | e1e2 coefficient = -1 | e2^2 coefficient = 128.536": 6
+   }
+  },
+  {
+   "level": "+LLRRR level 2",
+   "couplings": {
+    "down | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 8,
+    "down | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 4,
+    "lepton | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 8,
+    "lepton | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 4,
+    "up | Y^2 = 0.262616 | e1e2 coefficient = -1 | e2^2 coefficient = 0.543734": 8,
+    "up | Y^2 = 12.3374 | e1e2 coefficient = -1 | e2^2 coefficient = 128.536": 4
+   }
+  },
+  {
+   "level": "-LLRRR level 2",
+   "couplings": {
+    "down | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 8,
+    "down | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 4,
+    "lepton | Y^2 = 0.262616 | e1e2 coefficient = -1.1459 | e2^2 coefficient = 0.651317": 8,
+    "lepton | Y^2 = 12.3374 | e1e2 coefficient = -7.8541 | e2^2 coefficient = 50.8287": 4,
+    "up | Y^2 = 0.262616 | e1e2 coefficient = -1 | e2^2 coefficient = 0.543734": 8,
+    "up | Y^2 = 12.3374 | e1e2 coefficient = -1 | e2^2 coefficient = 128.536": 4
+   }
+  },
+  {
+   "level": "+LLLLLR level 2",
+   "couplings": {
+    "down | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 6,
+    "down | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 6,
+    "lepton | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 6,
+    "lepton | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 6,
+    "up | Y^2 = 0.687539 | e1e2 coefficient = -0.0557281 | e2^2 coefficient = 0.85305": 6,
+    "up | Y^2 = 4.71246 | e1e2 coefficient = -17.9443 | e2^2 coefficient = 0.22695": 6
+   }
+  },
+  {
+   "level": "-LLLLLR level 2",
+   "couplings": {
+    "down | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 6,
+    "down | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 6,
+    "lepton | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 6,
+    "lepton | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 6,
+    "up | Y^2 = 0.687539 | e1e2 coefficient = -0.0557281 | e2^2 coefficient = 0.85305": 6,
+    "up | Y^2 = 4.71246 | e1e2 coefficient = -17.9443 | e2^2 coefficient = 0.22695": 6
+   }
+  },
+  {
+   "level": "+LRRRRR level 2",
+   "couplings": {
+    "down | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 4,
+    "down | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 8,
+    "lepton | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 4,
+    "lepton | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 8,
+    "up | Y^2 = 0.687539 | e1e2 coefficient = -0.0557281 | e2^2 coefficient = 0.85305": 4,
+    "up | Y^2 = 4.71246 | e1e2 coefficient = -17.9443 | e2^2 coefficient = 0.22695": 8
+   }
+  },
+  {
+   "level": "-LRRRRR level 2",
+   "couplings": {
+    "down | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 4,
+    "down | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 8,
+    "lepton | Y^2 = 0.687539 | e1e2 coefficient = -0.437694 | e2^2 coefficient = 2.34748": 4,
+    "lepton | Y^2 = 4.71246 | e1e2 coefficient = -20.5623 | e2^2 coefficient = -0.0674767": 8,
+    "up | Y^2 = 0.687539 | e1e2 coefficient = -0.0557281 | e2^2 coefficient = 0.85305": 4,
+    "up | Y^2 = 4.71246 | e1e2 coefficient = -17.9443 | e2^2 coefficient = 0.22695": 8
+   }
+  },
+  {
+   "level": "+LR level 4",
+   "couplings": {
+    "down | Y^2 = 12.3374 | e1e2 coefficient = -99.8115 | e2^2 coefficient = -1.66249": 2,
+    "down | Y^2 = 9 | e1e2 coefficient = -170.498 | e2^2 coefficient = 12.4377": 4,
+    "down | Y^2 = 9 | e1e2 coefficient = -9.50155 | e2^2 coefficient = 32.5623": 6,
+    "lepton | Y^2 = 12.3374 | e1e2 coefficient = -99.8115 | e2^2 coefficient = -1.66249": 2,
+    "lepton | Y^2 = 9 | e1e2 coefficient = -170.498 | e2^2 coefficient = 12.4377": 4,
+    "lepton | Y^2 = 9 | e1e2 coefficient = -9.50155 | e2^2 coefficient = 32.5623": 6,
+    "up | Y^2 = 0.262616 | e1e2 coefficient = -0.501553 | e2^2 coefficient = 0.942492": 6,
+    "up | Y^2 = 12.3374 | e1e2 coefficient = -161.498 | e2^2 coefficient = 0.137508": 6
+   }
+  }
+ ]
+}

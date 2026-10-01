@@ -435,3 +435,46 @@ What the window adds to the specification, read from the records: **B1303** — 
 
 The seat's design for the destination's item 1 (THE CLOSING, sm:B1355–sm:B1365) now reads, in the seat's own words verified on main: a compact G₂ closing with three E₇-apexes in a deck orbit on the E₆ copy of Y₃ would carry three chiral 27s (by Witten's inflow, cited) and the E₆ → SU(3) × SU(2) × U(1)_Y × U(1)′ breaking by a non-abelian flat line (Q₈ ⊂ SU(2)_β times an order-4 character — the root-system facts recomputed here), with U(1)′ = U(1)_η; and it has **no seesaw** (both charged SM singlets share the η charge), so the neutrinos would be Dirac at the up-quark masses and **the design is excluded as it stands** unless a 27̄ sector is added (L221). Rows of this ledger that assume a Majorana ν^c are unaffected: the exclusion is of one design, conditional on sm:B1276's coupling; no row's grade changes.
 
+
+## Currency note — 2026-10-01, through B1446 (the frame as one function, its curves, and the mass term)
+
+What the window B1427–B1446 adds to the specification, read from the records. Nothing in it is a value of §A4;
+the count there is unchanged, **0 of 19**.
+
+**The frame.** A background is a flat connection with holonomy in the image of SL(2)_β × U(1)_Y × U(1)_γ in E₆,
+given by three characters of a level's fibre torsion; each Standard-Model sector is a non-split rank-two module
+(B1432). SL(2)_β is the simple factor of the centraliser of the Standard Model's gauge algebra in E₆ (sm:B1364,
+recomputed on the root system in B1444).
+
+**§A2, the matter content and the generation count.**
+- The index of every sector and every cubic coupling is read off one function on the characters, the slope s(χ),
+  the cusp shape of an affine representation (**B1438**). One generation per background is a theorem; a deck orbit
+  of three on a three-fold cover is three backgrounds with equal couplings and no mixing between them.
+- On a once-punctured-torus bundle no flat bundle of rank n has class index above ⌊n/2⌋ (**B1440**): a rank-five
+  bundle carries at most two, so the E₈ parent with a flat SU(5)_⊥ bundle cannot carry three in one vacuum there.
+- On manifolds with several cusps single modules count two on seventeen covers and no background does
+  (**B1441**, **B1442**).
+- Over 758 word states to length twelve, 95 carry a generation at their own level and 14 carry one with up, down,
+  lepton and neutrino couplings all non-zero (**B1439**).
+
+**§A3, the scalar sector.** Each member of a deck orbit couples to its own Higgs character with one strength
+(**B1443**); on the root's three-fold cover all 16 orbits have three distinct Higgs characters for each coupling
+type. The Higgs sectors are singlets of SL(2)_β.
+
+**§A4 rows 1–13 (masses and couplings), what now exists in place of a value.**
+- A background is the reducible end of a curve of flat connections of its level, a periodic curve of the trace
+  map; the slope is the cusp shape at the end and a coupling is the first-order torsion of a sector along it
+  (**B1444**, sealed; 1 223 of 1 223). The class index is zero off the end: the generation is chiral only where the
+  SL(2)_β holonomy is reducible. Moving along this curve does not break the Standard Model's gauge group.
+- The Higgs character has its own curve, and on the product of the two a coupled pair of sectors is lifted with
+  torsion Y²·e₂·(e₂b₂b₃ − e₁a₂a₃): the coupling squared, times the Higgs value, times the extension parameter
+  (**B1445**, sealed; 405 of 405). Down and lepton couplings are equal on every level.
+- Imposing the frame's boundary condition on the irreducible connections leaves finitely many points on each
+  curve. On the root's three-fold cover the torsions there are exact: −√5 ± √−3 for the generation's sectors,
+  (√5 ± √−3)² for the up coupling, 16 for down, lepton and neutrino, the same for the three members of an orbit;
+  the class index at the doubly-parabolic points is zero; and a second member's Higgs can be switched on along the
+  first's curve only at the six roots of u⁶ − 8u⁴ + 12u³ + 4 (**B1446**).
+
+**What this does not supply.** A rule from torsion to mass; anything distinguishing the three members of an orbit
+(lead L237); the values at levels other than the root's three-fold cover; the gauge couplings, the mixing angles,
+θ_QCD or the Higgs parameters. The numbers above do not resemble the observed masses.

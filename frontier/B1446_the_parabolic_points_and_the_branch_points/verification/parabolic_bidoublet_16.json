@@ -1,0 +1,2649 @@
+{
+ "level": "+LR 3",
+ "backgrounds": 48,
+ "cases": 96,
+ "first": 16,
+ "last": 32,
+ "records": [
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    3,
+    2
+   ],
+   "A1": [
+    0,
+    1
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": -1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "1.043",
+     "largest_dropped": "1.8194e-60",
+     "torsion": "(-5.041737361558840361421891e-58 - 2.336144405083342218296203e-59j)",
+     "abs": "5.047146850424734670495313e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.72613",
+     "largest_dropped": "1.548e-60",
+     "torsion": "(-7.212161269734942458596898e-58 - 1.148778236065047907518633e-58j)",
+     "abs": "7.303078913466666106179897e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.72613",
+     "largest_dropped": "1.3491e-60",
+     "torsion": "(5.258246079546641370484631e-59 - 9.19145626738722960164147e-58j)",
+     "abs": "9.206484662107609215390314e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "1.043",
+     "largest_dropped": "1.3705e-60",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.12348",
+     "largest_dropped": "1.1691e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.089735",
+     "largest_dropped": "1.853e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24203",
+     "largest_dropped": "1.6722e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.1673",
+     "largest_dropped": "2.1303e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    2,
+    0
+   ],
+   "A1": [
+    0,
+    1
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": -1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0246",
+     "largest_dropped": "1.0431e-60",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0537",
+     "largest_dropped": "1.2699e-60",
+     "torsion": "(1.399348647036080952516452e-118 + 5.519625187775976767287916e-119j)",
+     "abs": "1.5042736646292190343961e-118",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.3035",
+     "largest_dropped": "7.3376e-61",
+     "torsion": "(15.99999999999992 + 6.619192213829554793828687e-60j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.30395",
+     "largest_dropped": "1.6739e-60",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.23387",
+     "largest_dropped": "3.622e-60",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    2,
+    0
+   ],
+   "A1": [
+    3,
+    3
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": -1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0537",
+     "largest_dropped": "1.9881e-60",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0246",
+     "largest_dropped": "7.7213e-61",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.32787",
+     "largest_dropped": "1.1013e-60",
+     "torsion": "(15.99999999999992 - 2.050935207959625935441248e-59j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.32444",
+     "largest_dropped": "1.1656e-60",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.34248",
+     "largest_dropped": "2.2291e-60",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    1,
+    2
+   ],
+   "A1": [
+    1,
+    3
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": 1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "1.043",
+     "largest_dropped": "1.0378e-60",
+     "torsion": "(8.226904956895945178941707e-59 - 1.67447375906621335271891e-58j)",
+     "abs": "1.865658602611776306087375e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.72613",
+     "largest_dropped": "7.5944e-61",
+     "torsion": "(-6.493513118244290451287541e-58 - 8.903873279504448439564039e-59j)",
+     "abs": "6.554273583745602348517744e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.72613",
+     "largest_dropped": "1.4089e-60",
+     "torsion": "(-5.351177398924018346485517e-58 - 1.011064291946253246348548e-57j)",
+     "abs": "1.143941431191444627369205e-57",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "1.043",
+     "largest_dropped": "1.8321e-60",
+     "torsion": "(1.541472979442187008437773e-58 - 1.299443955427598684303416e-58j)",
+     "abs": "2.016108513857251724216813e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.12348",
+     "largest_dropped": "9.4307e-61",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.089735",
+     "largest_dropped": "1.3324e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.1673",
+     "largest_dropped": "2.2843e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24203",
+     "largest_dropped": "1.8991e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    2,
+    0
+   ],
+   "A1": [
+    1,
+    3
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": 1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0537",
+     "largest_dropped": "1.0875e-60",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0246",
+     "largest_dropped": "8.6232e-61",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.32787",
+     "largest_dropped": "7.6254e-61",
+     "torsion": "(15.99999999999992 - 7.783497656821856446290864e-60j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.23387",
+     "largest_dropped": "6.028e-60",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.30395",
+     "largest_dropped": "1.5584e-60",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    2,
+    0
+   ],
+   "A1": [
+    2,
+    1
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": 1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0246",
+     "largest_dropped": "9.8004e-61",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "1.0537",
+     "largest_dropped": "1.4971e-60",
+     "torsion": "(2.528442256252647509698681e-118 - 4.344426453884811688088118e-119j)",
+     "abs": "2.565494232177519516051254e-118",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.3035",
+     "largest_dropped": "4.8418e-61",
+     "torsion": "(15.99999999999992 + 3.123442932201966521052988e-60j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.34248",
+     "largest_dropped": "1.7803e-60",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.32444",
+     "largest_dropped": "1.1586e-60",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    3,
+    2
+   ],
+   "A1": [
+    2,
+    1
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": 1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.77103",
+     "largest_dropped": "2.2498e-60",
+     "torsion": "(4.458987375388029217424428e-58 + 8.231377639437344605693546e-59j)",
+     "abs": "4.534327314199992389403922e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.84992",
+     "largest_dropped": "1.2436e-60",
+     "torsion": "(-9.98630560684045550674473e-59 + 7.447207671812600798593613e-59j)",
+     "abs": "1.245741553374204405474523e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.84992",
+     "largest_dropped": "2.3242e-60",
+     "torsion": "(1.904409571492483626660848e-58 - 6.166595299951972558570919e-59j)",
+     "abs": "2.001760423209051930250528e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.77103",
+     "largest_dropped": "1.4592e-60",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.087713",
+     "largest_dropped": "8.8197e-61",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.099279",
+     "largest_dropped": "1.0622e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.19285",
+     "largest_dropped": "1.6607e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.14995",
+     "largest_dropped": "1.4049e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "eta": [
+    1,
+    2
+   ],
+   "A1": [
+    3,
+    3
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": -1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.77103",
+     "largest_dropped": "1.4328e-60",
+     "torsion": "(3.060783281862061842449743e-58 - 1.493250397653166834964069e-59j)",
+     "abs": "3.064423643367086299518456e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.84992",
+     "largest_dropped": "1.3578e-60",
+     "torsion": "(1.155277900396742441776072e-58 - 7.335483807615083337692123e-59j)",
+     "abs": "1.368488309801342935781275e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.84992",
+     "largest_dropped": "1.4586e-60",
+     "torsion": "(1.244409554730709037083288e-58 - 2.065704488885388042995154e-58j)",
+     "abs": "2.411574211030281312017097e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.77103",
+     "largest_dropped": "1.0955e-60",
+     "torsion": "(1.271270608762977233819337e-58 - 3.817049700805701311811483e-58j)",
+     "abs": "4.023182493887828179905738e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.087713",
+     "largest_dropped": "1.115e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.099279",
+     "largest_dropped": "2.2495e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.14995",
+     "largest_dropped": "1.7201e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.19285",
+     "largest_dropped": "1.2739e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    3,
+    1
+   ],
+   "A1": [
+    0,
+    1
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": 1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.98062",
+     "largest_dropped": "1.5372e-60",
+     "torsion": "(-3.917858733571897052388903e-58 + 1.843962685291969491005038e-58j)",
+     "abs": "4.330105707829170298131234e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.79017",
+     "largest_dropped": "1.3848e-60",
+     "torsion": "(-2.266659354256373290366996e-58 + 3.370437648531537917374522e-58j)",
+     "abs": "4.061723103668776911018105e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.79017",
+     "largest_dropped": "1.3574e-60",
+     "torsion": "(1.757312996165509266145113e-58 - 2.629736740497121189400822e-58j)",
+     "abs": "3.162856982351971996446847e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.98062",
+     "largest_dropped": "1.8505e-60",
+     "torsion": "(-3.077596569350133171503584e-58 + 2.060841369567269454903609e-58j)",
+     "abs": "3.703872000244555958883095e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.13498",
+     "largest_dropped": "6.7225e-61",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.13681",
+     "largest_dropped": "9.143e-61",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.45486",
+     "largest_dropped": "1.7407e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.45486",
+     "largest_dropped": "8.5493e-61",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    2,
+    2
+   ],
+   "A1": [
+    0,
+    1
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": 1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.88687",
+     "largest_dropped": "1.9684e-60",
+     "torsion": "(1.998197680053669003289904e-118 + 2.988593408932848711042147e-118j)",
+     "abs": "3.595063912156323603842507e-118",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.86246",
+     "largest_dropped": "1.3719e-60",
+     "torsion": "(-1.305498316181742964132226e-118 + 2.737178633824066621970933e-118j)",
+     "abs": "3.032568668145265579289532e-118",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24844",
+     "largest_dropped": "1.2939e-60",
+     "torsion": "(15.99999999999992 + 4.026362059338916110504211e-59j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.36046",
+     "largest_dropped": "1.1488e-60",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.54122",
+     "largest_dropped": "8.6886e-61",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    2,
+    2
+   ],
+   "A1": [
+    3,
+    2
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": 1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.86246",
+     "largest_dropped": "1.6846e-60",
+     "torsion": "(-1.512330343148686450127184e-118 - 2.595494305566050084037056e-118j)",
+     "abs": "3.003953021775476480380624e-118",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.88687",
+     "largest_dropped": "8.8337e-61",
+     "torsion": "(1.775376205839406222971029e-119 - 2.630703181227076880033105e-119j)",
+     "abs": "3.17372965136903054980354e-119",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.31503",
+     "largest_dropped": "8.9506e-61",
+     "torsion": "(15.99999999999992 - 6.793086622807689924120336e-60j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.54122",
+     "largest_dropped": "1.0592e-60",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.36046",
+     "largest_dropped": "4.4276e-61",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    1,
+    3
+   ],
+   "A1": [
+    1,
+    0
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": -1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.98062",
+     "largest_dropped": "2.2137e-60",
+     "torsion": "(-3.490093716168252881469427e-58 + 3.593624511970477423210323e-58j)",
+     "abs": "5.009480140760334158831917e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.79017",
+     "largest_dropped": "1.7951e-60",
+     "torsion": "(-3.807772889023188828315973e-58 + 8.637821080885121112940956e-59j)",
+     "abs": "3.904517115423344629078661e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.79017",
+     "largest_dropped": "1.3619e-60",
+     "torsion": "(2.129363607037803080737975e-58 - 1.253963652179398412075293e-58j)",
+     "abs": "2.471156452344557389757008e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.98062",
+     "largest_dropped": "1.6313e-60",
+     "torsion": "(3.514550631941845021426857e-59 + 2.901231393011856792001906e-58j)",
+     "abs": "2.922441489105016669548039e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.13498",
+     "largest_dropped": "7.6661e-61",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.13681",
+     "largest_dropped": "1.1685e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.45486",
+     "largest_dropped": "1.126e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.45486",
+     "largest_dropped": "6.2997e-61",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    2,
+    2
+   ],
+   "A1": [
+    1,
+    0
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": -1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.86246",
+     "largest_dropped": "2.416e-60",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.88687",
+     "largest_dropped": "1.4184e-60",
+     "torsion": "0",
+     "abs": "0",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.31503",
+     "largest_dropped": "1.0828e-60",
+     "torsion": "(15.99999999999992 + 9.411263352843021227375644e-60j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.54122",
+     "largest_dropped": "1.0343e-60",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.36046",
+     "largest_dropped": "1.1315e-60",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    2,
+    2
+   ],
+   "A1": [
+    2,
+    3
+   ],
+   "types": [
+    "down",
+    "lepton",
+    "neutrino"
+   ],
+   "sign": -1,
+   "eta_order": 2,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.88687",
+     "largest_dropped": "1.9137e-60",
+     "torsion": "(9.847887822776778990025851e-119 + 1.057709993573301928111504e-118j)",
+     "abs": "1.445184893432250796041396e-118",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 2,
+      "h1": 2,
+      "interior": 0
+     },
+     "smallest_kept": "0.86246",
+     "largest_dropped": "1.1012e-60",
+     "torsion": "(3.993828438271507017816419e-119 + 1.279599659926707876183457e-118j)",
+     "abs": "1.340478252575553235331278e-118",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24844",
+     "largest_dropped": "7.4485e-61",
+     "torsion": "(15.99999999999992 - 4.189632032138018054885625e-60j)",
+     "abs": "15.99999999999992",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.36046",
+     "largest_dropped": "9.9188e-61",
+     "torsion": "(1.999999999999958819660113 + 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.54122",
+     "largest_dropped": "7.992e-61",
+     "torsion": "(1.999999999999958819660113 - 7.745966692414786380271031j)",
+     "abs": "7.999999999999943819660113",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    3,
+    1
+   ],
+   "A1": [
+    2,
+    3
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": -1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.89346",
+     "largest_dropped": "2.7571e-60",
+     "torsion": "(3.222742269751832866887994e-58 + 4.766444780248692741596594e-59j)",
+     "abs": "3.257799517416133998628685e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.75558",
+     "largest_dropped": "2.2206e-60",
+     "torsion": "(-8.086452385733641951106467e-59 + 8.283955634874287121552479e-58j)",
+     "abs": "8.32333034802973721942201e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.75558",
+     "largest_dropped": "1.5303e-60",
+     "torsion": "(3.460736695701077546350865e-58 - 8.482866648298329469248915e-58j)",
+     "abs": "9.161644232875676706577337e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.89346",
+     "largest_dropped": "2.7991e-60",
+     "torsion": "(-4.308249187202693176220114e-58 - 1.827375952227493808884814e-58j)",
+     "abs": "4.679777123946396459155547e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.089658",
+     "largest_dropped": "2.8308e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.081794",
+     "largest_dropped": "1.9507e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24859",
+     "largest_dropped": "1.9107e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24859",
+     "largest_dropped": "9.7665e-61",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "eta": [
+    1,
+    3
+   ],
+   "A1": [
+    3,
+    2
+   ],
+   "types": [
+    "up"
+   ],
+   "sign": 1,
+   "eta_order": 4,
+   "points": [
+    {
+     "extension": "cusp+",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.89346",
+     "largest_dropped": "3.6284e-60",
+     "torsion": "(-2.867711209695066335542002e-58 + 2.237322218802320463479664e-58j)",
+     "abs": "3.637221232336201878670427e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.75558",
+     "largest_dropped": "2.199e-60",
+     "torsion": "(2.39563251936853783630155e-58 + 7.245905884720607474226709e-58j)",
+     "abs": "7.631658224664203156706582e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.75558",
+     "largest_dropped": "1.5705e-60",
+     "torsion": "(2.253354132475962532712636e-58 + 2.081982985108024941681491e-58j)",
+     "abs": "3.067940350891102333369604e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 1,
+      "h1": 1,
+      "interior": 0
+     },
+     "smallest_kept": "0.89346",
+     "largest_dropped": "2.419e-60",
+     "torsion": "(-3.874765750716530317292785e-58 + 8.082360839377571565140494e-60j)",
+     "abs": "3.875608607509229275759276e-58",
+     "exact": "0"
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp+",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.089658",
+     "largest_dropped": "1.5053e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "end",
+     "higgs": "cusp-",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.081794",
+     "largest_dropped": "2.295e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp+",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24859",
+     "largest_dropped": "1.8924e-60",
+     "torsion": "(1.99999999999973027864045 + 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    },
+    {
+     "extension": "cusp-",
+     "higgs": "end",
+     "index": 0,
+     "V": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "Vdual": {
+      "h0": 0,
+      "t0": 0,
+      "h1": 0,
+      "interior": 0
+     },
+     "smallest_kept": "0.24859",
+     "largest_dropped": "1.3867e-60",
+     "torsion": "(1.99999999999973027864045 - 7.745966692414702304758724j)",
+     "abs": "7.99999999999980527864045",
+     "exact": null
+    }
+   ]
+  }
+ ]
+}

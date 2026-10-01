@@ -1,0 +1,16 @@
+l=(3, 0) eta=(1, 2) A1=(0, 3) ['up'] done
+l=(3, 0) eta=(2, 0) A1=(0, 3) ['down', 'lepton', 'neutrino'] done
+l=(3, 0) eta=(2, 0) A1=(1, 1) ['down', 'lepton', 'neutrino'] done
+l=(3, 0) eta=(3, 2) A1=(1, 1) ['up'] done
+l=(3, 0) eta=(1, 2) A1=(2, 3) ['up'] done
+l=(3, 0) eta=(2, 0) A1=(2, 3) ['down', 'lepton', 'neutrino'] done
+l=(3, 0) eta=(2, 0) A1=(3, 1) ['down', 'lepton', 'neutrino'] done
+l=(3, 0) eta=(3, 2) A1=(3, 1) ['up'] done
+l=(3, 1) eta=(1, 1) A1=(0, 1) ['up'] done
+l=(3, 1) eta=(2, 2) A1=(0, 1) ['down', 'lepton', 'neutrino'] done
+l=(3, 1) eta=(2, 2) A1=(1, 2) ['down', 'lepton', 'neutrino'] done
+l=(3, 1) eta=(3, 3) A1=(1, 2) ['up'] done
+l=(3, 1) eta=(1, 1) A1=(2, 3) ['up'] done
+l=(3, 1) eta=(2, 2) A1=(2, 3) ['down', 'lepton', 'neutrino'] done
+l=(3, 1) eta=(2, 2) A1=(3, 0) ['down', 'lepton', 'neutrino'] done
+l=(3, 1) eta=(3, 3) A1=(3, 0) ['up'] done

@@ -9037,6 +9037,45 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1445": {
+   "slug": "the mass term on the product of two curves",
+   "motifs": [
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L237"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 18,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1446": {
+   "slug": "the parabolic points and the branch points",
+   "motifs": [
+    "closing",
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "L235",
+    "L237"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B144": {
    "slug": "interaction chirality",
    "motifs": [
