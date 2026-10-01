@@ -1463,3 +1463,22 @@ three extra EOF blank lines; all five latest seal inputs are below.
 | `reports/physical_bridge_2026_09_05/CONE_EXACT_INPUTS.json` | `8f2d63d2526c9ce83becfe629fb8a15af62564aaf4b1f3e6781810a665ae526f` |
 | `reports/physical_bridge_2026_09_05/cone_exact.py` | `23c33713ce1267fdccc8c356e267dee9beb875ac06c5ae9223940694b27dd5a1` |
 | `tests/test_physical_bridge_cone_exact.py` | `0d9e25cbe2fb798b3b9b8f49a719b0d6c8da25ea8dcc0a854a171ccf89b7a0fb` |
+
+## October 1 2026 R73 actual compact orbit pre-execution seal
+
+Path-local R73 tests compact gauge orbit, affine tangent comparison,
+interacting residual and exact fermion/domain transport. Classical gauge
+admission is a declared end input; no chiral matter or physical parameter
+is derived. The actual R66/R70/R72 inputs and received October 1 heads
+are pinned in CONE_ORBIT_INPUTS.json. Finite controls are verification of
+an authored conditional proof, not independent analytic acceptance.
+Pre-execution draft-only dead conditional expressions were removed and
+the exponential lower-bound comparison was set at s=16 before any import.
+
+| frozen science path | sha256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_ORBIT_DESIGN.md` | `5d701743de6587d7bf658f65becf6f9eb39126e1e7e9d07b1ce628b0b5329166` |
+| `reports/physical_bridge_2026_09_05/CONE_ORBIT_PROOF.md` | `be503be9635abd8f4406eaeeb8c2caf9f8ac94ed1b0300edda6af163b1ddad37` |
+| `reports/physical_bridge_2026_09_05/CONE_ORBIT_INPUTS.json` | `0f619e6389c21b5280652aa257715896fd04012f91d744bfa34f5dd4da17e79c` |
+| `reports/physical_bridge_2026_09_05/cone_orbit.py` | `e198f891a507d79e79c83e9d4d36f46fb4e727e0dfa90224a7379aa8b4e90fc6` |
+| `tests/test_physical_bridge_cone_orbit.py` | `209944cbfc075dbc5ca33f94a44d2348b5ab97890afe1070ab796c27a4943996` |

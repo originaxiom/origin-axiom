@@ -1,0 +1,53 @@
+{
+  "inputs": [
+    {
+      "commit": "b66ce7f5f4d5372ee084e2f29639784254a77902",
+      "path": "reports/physical_bridge_2026_09_05/nilpotent_cone.py",
+      "bytes": 12726,
+      "sha256": "820bd1e6cf820e6806086300a0712b4f352c9e575db26764bf3d3ecb2daf55a9"
+    },
+    {
+      "commit": "b66ce7f5f4d5372ee084e2f29639784254a77902",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "bytes": 8370,
+      "sha256": "e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404"
+    },
+    {
+      "commit": "b66ce7f5f4d5372ee084e2f29639784254a77902",
+      "path": "reports/physical_bridge_2026_09_05/cone_channel.py",
+      "bytes": 10487,
+      "sha256": "a9056c822bdf7c2fe368d2421e83649950fd6d2ab8e4d5dffbc00a0b9f651055"
+    },
+    {
+      "commit": "b66ce7f5f4d5372ee084e2f29639784254a77902",
+      "path": "reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md",
+      "bytes": 8866,
+      "sha256": "525ef354b906c4001f63dedb2e21ff0846744d2316f73ca10a3543c4212bf34e"
+    },
+    {
+      "commit": "b66ce7f5f4d5372ee084e2f29639784254a77902",
+      "path": "reports/physical_bridge_2026_09_05/CONE_EXACT_PROOF.md",
+      "bytes": 7286,
+      "sha256": "81246bb202f26c813a34c3321dd138c8de3e9e86c3804ffc7d407c3431c0a29e"
+    },
+    {
+      "commit": "b66ce7f5f4d5372ee084e2f29639784254a77902",
+      "path": "reports/physical_bridge_2026_09_05/CONE_GAUGE_PROOF.md",
+      "bytes": 8062,
+      "sha256": "72a2d08198ae46c2cc32ce4817fb33e1d6e0c89156e7943ba9ff3857a3768b15"
+    },
+    {
+      "commit": "b66ce7f5f4d5372ee084e2f29639784254a77902",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "bytes": 8158,
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    }
+  ],
+  "received_context": {
+    "main": "6093e23c",
+    "standard_model": "3edaf1fa",
+    "review": "5d58b935",
+    "scope": "Personally read named findings/preregistrations, not independently reproduced or imported as physics"
+  },
+  "scope": "Supplied local cone/action/metric and conditional prior proofs; no independently accepted physical end law"
+}
