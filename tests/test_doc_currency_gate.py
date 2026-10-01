@@ -33,8 +33,13 @@ def test_the_declared_debt_set_is_pinned():
     """A debt may be added or paid only by editing this list in the same commit: the set cannot grow unseen."""
     assert sorted(_dc().DECLARED_DEBT) == [
         "CLAIMS.md",
+        "WORKING_RULES.md",
+        "docs/COMPUTE_THE_PROGRAM.md",
         "docs/GUT_REQUIREMENTS_LEDGER.md",
         "docs/THEOREM_LEDGER.md",
+        "docs/THE_FRAMEWORK.md",
+        "docs/THE_LADDER.md",
+        "docs/THE_SM_VERDICT.md",
         "docs/TOOLBOX.md",
     ]
 
@@ -100,3 +105,27 @@ def test_one_metric(capsys):
     for rel in dc.DECLARED_DEBT:
         cited = dc.newest_arc_cited(dc.ROOT / rel)
         assert f"{rel}: B{cited} vs B{dc.newest_arc_in_repo()} (lag {dc.lag_of(cited, ids)} existing arcs)" in out
+
+
+def test_another_seats_arc_number_is_not_a_citation(tmp_path):
+    """the mask: a number larger than any arc here used to pin a document at lag zero"""
+    dc = _dc()
+    ids = dc.existing_arc_ids()
+    foreign = max(ids) + 5000
+    assert foreign < 10000 and foreign not in ids
+    old = ids[len(ids) // 2]
+    (tmp_path / "MASKED.md").write_text(f"# a living document\n\nsee B{foreign} (another seat's) and B{old}.\n")
+    assert dc.newest_arc_cited(tmp_path / "MASKED.md") == old
+    stale, _ = dc.check(living={"MASKED.md": 10}, root=tmp_path, debt={})
+    assert len(stale) == 1 and f"B{old}" in stale[0]
+    (tmp_path / "ONLY_FOREIGN.md").write_text(f"# a living document\n\nsee B{foreign}.\n")
+    assert dc.newest_arc_cited(tmp_path / "ONLY_FOREIGN.md") == 0
+
+
+def test_no_living_document_is_masked_today():
+    """every registered living document's citation is an arc that exists"""
+    dc = _dc()
+    ids = set(dc.existing_arc_ids())
+    for rel in dc.LIVING:
+        c = dc.newest_arc_cited(dc.ROOT / rel)
+        assert c == 0 or c in ids, (rel, c)

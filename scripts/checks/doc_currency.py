@@ -72,11 +72,18 @@ def newest_arc_in_repo() -> int:
 
 
 def newest_arc_cited(path: pathlib.Path) -> int:
+    """the newest arc OF THIS REPOSITORY the document cites.
+
+    Until 2026-10-01 this was the largest `B<number>` in the text, and another seat's arc numbers (the `B81xx`
+    range, cited bare on main) are larger than any arc here: ten living documents sat at lag zero whatever they
+    said, `docs/OPEN_LEADS.md` among them. A number counts as a citation only if an arc with that number exists
+    under frontier/. (B1437; ERROR_LEDGER E84.)"""
     try:
         text = path.read_text(encoding="utf-8", errors="ignore")
     except OSError:
         return -1
-    nums = [int(m.group(1)) for m in ARC_RE.finditer(text)]
+    existing = set(existing_arc_ids())
+    nums = [n for n in (int(m.group(1)) for m in ARC_RE.finditer(text)) if n in existing]
     return max(nums) if nums else 0
 
 
@@ -97,6 +104,19 @@ DECLARED_DEBT = {
     "docs/THEOREM_LEDGER.md": ("declared 2026-08-09 (B984): 63 arcs stale.", "2026-08-09"),
     "docs/GUT_REQUIREMENTS_LEDGER.md": ("declared 2026-08-09 (B984); Review 56 (R56-6, 2026-09-09): SUPERSEDED IN SUBSTANCE by docs/TOE_REQUIREMENTS_LEDGER.md (B1304) -- read that first; 31 arcs stale, just over "
                                         "tolerance.", "2026-08-09"),
+    # The five below were UNMASKED on 2026-10-01 (B1437), not newly stale: each cited another seat's arc number
+    # and so read as lag zero. The lags are the ones measured on the day the mask came off. The reads are lead L232.
+    "docs/COMPUTE_THE_PROGRAM.md": ("declared 2026-10-01 (B1437): newest own citation B1153, 202 arcs stale when "
+                                    "unmasked. The protocol document.", "2026-10-01"),
+    "docs/THE_FRAMEWORK.md": ("declared 2026-10-01 (B1437): newest own citation B1235, 120 arcs stale when unmasked. "
+                              "Still says 'no canonical arrow' against B1341; named in L231.", "2026-10-01"),
+    "docs/THE_LADDER.md": ("declared 2026-10-01 (B1437): newest own citation B1322, 63 arcs stale when unmasked.",
+                           "2026-10-01"),
+    "docs/THE_SM_VERDICT.md": ("declared 2026-10-01 (B1437): newest own citation B1322, 63 arcs stale when unmasked. "
+                               "Predates the tower's generation count (B1427), the non-lifted census (B1432) and the "
+                               "architecture census (B1434).", "2026-10-01"),
+    "WORKING_RULES.md": ("declared 2026-10-01 (B1437): newest own citation B1307, 66 arcs stale when unmasked. "
+                         "Binding for every seat.", "2026-10-01"),
 }
 
 
