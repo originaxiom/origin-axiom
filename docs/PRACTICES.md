@@ -572,7 +572,10 @@ on an audit that never named them:
 - **`frozen`** — an in-file marker `<!-- doc-currency: frozen -->` for records, dated snapshots and
   superseded files kept for provenance. **Reported on every run.**
 - **`DECLARED_DEBT`** — names *what* is owed and *when* it was declared. **Printed on every run**,
-  and the lock fails if the set grows. **A debt is not an exemption.**
+  and `tests/test_doc_currency_gate.py` fails if the set changes. **A debt is not an exemption.**
+  *(Corrected 2026-10-01, B1437: from 2026-08-09 this sentence, the checker's own comment and the
+  generated verdict view all cited a lock that did not exist. The lock was written on the day the
+  absence was found. ERROR_LEDGER E84.)*
 
 **Standing debts declared 2026-08-09:** `docs/TOOLBOX.md` (**613 arcs stale** — and the pre-compute
 protocol says read the toolset before any important probe, so this is the highest-priority debt on

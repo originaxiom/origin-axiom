@@ -83,7 +83,10 @@ def newest_arc_cited(path: pathlib.Path) -> int:
 # A DECLARED DEBT is not an exemption. B982 found seven gate exemptions resting on an audit
 # that never named them; the fix is that every pass-through must name WHAT is owed and WHEN it
 # was declared, and must be REPORTED LOUDLY on every run. Debts do not silence the gate -- they
-# appear in its output every time, and `test_b984_doc_currency.py` fails if the set grows.
+# appear in its output every time, and `tests/test_doc_currency_gate.py` pins the set: it fails if
+# the set changes without the lock being edited. (Until 2026-10-01 this comment named a lock,
+# `test_b984_doc_currency.py`, that did not exist and never had: nothing stopped the set from
+# growing. ERROR_LEDGER E84; B1437.)
 DECLARED_DEBT = {
     "docs/TOOLBOX.md": ("declared 2026-08-09 (B984); Review 56 (R56-7, 2026-09-09): the read-first toolset is docs/TOOLBOX_LIVE.md (its own currency gate) -- this file is the frozen historical toolbox; 613 arcs stale. The owner's own protocol "
                         "says read the toolset before any important probe, so this is the "
@@ -97,16 +100,30 @@ DECLARED_DEBT = {
 }
 
 
-def check() -> tuple[list[str], list[str]]:
-    head = newest_arc_in_repo()
-    existing_ids = sorted(
+def existing_arc_ids() -> list[int]:
+    return sorted(
         int(m.group(1))
         for d in FRONTIER.iterdir() if d.is_dir()
         for m in [re.match(r"B(\d{1,4})", d.name)] if m
     )
+
+
+def lag_of(cited: int, existing_ids: list[int]) -> int:
+    """the ONE metric, used by the check and by the debt report alike: existing arcs newer than the citation"""
+    return sum(1 for n in existing_ids if n > cited)
+
+
+def check(living: dict | None = None, root: pathlib.Path | None = None,
+          debt: dict | None = None) -> tuple[list[str], list[str]]:
+    """`living`, `root` and `debt` are seams for the lock's planted controls; the gate calls check()."""
+    living = LIVING if living is None else living
+    root = ROOT if root is None else root
+    debt = DECLARED_DEBT if debt is None else debt
+    head = newest_arc_in_repo()
+    existing_ids = existing_arc_ids()
     stale, frozen = [], []
-    for rel, tol in sorted(LIVING.items()):
-        p = ROOT / rel
+    for rel, tol in sorted(living.items()):
+        p = root / rel
         if not p.is_file():
             stale.append(f"{rel}: MISSING (a registered living document must exist)")
             continue
@@ -119,8 +136,8 @@ def check() -> tuple[list[str], list[str]]:
         # max-number lag count phantom arcs -- an E38 in this checker's own
         # threshold semantics, repaired 2026-08-13. "Owed a read" can only be
         # owed for arcs that exist.
-        lag = sum(1 for n in existing_ids if n > cited)
-        if lag > tol and rel not in DECLARED_DEBT:
+        lag = lag_of(cited, existing_ids)
+        if lag > tol and rel not in debt:
             stale.append(f"{rel}: newest citation B{cited}, corpus head B{head} "
                          f"(lag {lag} existing arcs > tolerance {tol})")
     return stale, frozen
@@ -131,9 +148,12 @@ def main() -> int:
     if DECLARED_DEBT:
         head = newest_arc_in_repo()
         print(f"  doc-currency: {len(DECLARED_DEBT)} DECLARED DEBTS (visible, never silent) --")
+        existing_ids = existing_arc_ids()
         for rel, (why, when) in sorted(DECLARED_DEBT.items()):
             cited = newest_arc_cited(ROOT / rel)
-            print(f"    {rel}: B{cited} vs B{head} (lag {head - cited}) -- {why}")
+            # the same metric as check(): this line printed numeric distance until 2026-10-01, the
+            # measure check() was repaired away from on 2026-08-13 (E38) -- two numbers for one debt
+            print(f"    {rel}: B{cited} vs B{head} (lag {lag_of(cited, existing_ids)} existing arcs) -- {why}")
     if frozen:
         print(f"  doc-currency: {len(frozen)} frozen (visible opt-out): {', '.join(frozen)}")
     if stale:
