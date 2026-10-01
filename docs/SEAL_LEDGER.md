@@ -1346,3 +1346,19 @@ No new scientific import or execution precedes this seal.
 | `reports/physical_bridge_2026_09_05/CONE_FERMION_INPUTS.json` | `9cf4d5c3f62de283f06958aad31a3142be2dfa0816e669c2078e672c61e68a4d` |
 | `reports/physical_bridge_2026_09_05/cone_fermion.py` | `535f6d00f3af7a942997e05ce3d65ca429d2410f99013cf2f0dbd978aa16f0a3` |
 | `tests/test_physical_bridge_cone_fermion.py` | `735bcdb5aff36369930bd5398c42f125d34f372bad06a6de6e1197e6ba2d8542` |
+
+## October 1 2026 R69 selected level coefficient and action seal
+
+Exact D0 doublets, induction/peripheral maps and supplied sheetwise tensors.
+No new or received scientific code import/execution precedes this seal.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/LEVEL_ACTION_DESIGN.md` | `5e0b7bd298a3bc09c4fe0a17934435498fddb6c0a0ae5cc805c0d06af989c99b` |
+| `reports/physical_bridge_2026_09_05/LEVEL_ACTION_INPUTS.json` | `d8b6118d958e320dcfa5ec60bd300d9ad56b85a083f830008a62d6492f19ed9f` |
+| `reports/physical_bridge_2026_09_05/level_action.py` | `ece762f5e2cd5b1d7f345959bfbbe79820afe9be6128dc12add7e2c66fbb34b5` |
+| `tests/test_physical_bridge_level_action.py` | `ac73d021a61a3b923997e7d163b54fa308c22a27441cb75cd406b887cd3faadf` |
+| `reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/PREREGISTRATION.txt` | `664f81927697eb3b9c177b1306b38130e18ab5d3e9f2bf8fde225bdc3a8ab684` |
+| `reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/FINDINGS.txt` | `c51f8bffbc6b3c2372ef110b8d3a18becbffa4e63029ff02548731c769815653` |
+| `reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/verification/the_level.py` | `8f8534e89d493618f272492a972fb72d663f0fbd8171ec2293387f52a6417e50` |
+| `reports/physical_bridge_2026_09_05/received_r69/frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py` | `afa5b28ad555da01adcd93b901be25f45b64c2909ea3784f735a0c9ac82e06a0` |

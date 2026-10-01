@@ -1,0 +1,82 @@
+{
+  "scope": "Selected D0/induction/action inputs; no accepted physical generation or end-law map",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "local_path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "232818fadf8c55b31ff52390159cb6fb59db9ebf",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/OPERATIONAL_CONTRACT.md",
+      "local_path": "reports/physical_bridge_2026_09_05/OPERATIONAL_CONTRACT.md",
+      "commit": "232818fadf8c55b31ff52390159cb6fb59db9ebf",
+      "sha256": "434e99f05f86efaafa57b2847dcc43963c0bf09771d9e6491e984e2cc303bd50",
+      "bytes": 6776
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COVER_ACTION_DESIGN.md",
+      "local_path": "reports/physical_bridge_2026_09_05/COVER_ACTION_DESIGN.md",
+      "commit": "232818fadf8c55b31ff52390159cb6fb59db9ebf",
+      "sha256": "c7a40c44ae5c454418a27c7b89dec428532270d963a822c229b0a2a923a89651",
+      "bytes": 8694
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cover_action.py",
+      "local_path": "reports/physical_bridge_2026_09_05/cover_action.py",
+      "commit": "232818fadf8c55b31ff52390159cb6fb59db9ebf",
+      "sha256": "c88b73e5bd1632c8751001e0f844f513feb499e21fa1d0a93310a3ab8a08685e",
+      "bytes": 5579
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS_DESIGN.md",
+      "local_path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS_DESIGN.md",
+      "commit": "232818fadf8c55b31ff52390159cb6fb59db9ebf",
+      "sha256": "ceac4498c65663eceada2bacfead9826bf3492f6d8b885ec0084dabd843ca92d",
+      "bytes": 8444
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "local_path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "commit": "232818fadf8c55b31ff52390159cb6fb59db9ebf",
+      "sha256": "e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404",
+      "bytes": 8370
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FINITE_TWIST_PROOF.md",
+      "local_path": "reports/physical_bridge_2026_09_05/FINITE_TWIST_PROOF.md",
+      "commit": "232818fadf8c55b31ff52390159cb6fb59db9ebf",
+      "sha256": "114f788b34c3bc5843feeab260643f0f7048f7e14828260295cc9a47e91e935c",
+      "bytes": 8112
+    },
+    {
+      "path": "frontier/B1506_the_level/PREREGISTRATION.md",
+      "local_path": "reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/PREREGISTRATION.txt",
+      "commit": "ad64b558b2e42f14e58347c6bef385114c66aaf0",
+      "sha256": "664f81927697eb3b9c177b1306b38130e18ab5d3e9f2bf8fde225bdc3a8ab684",
+      "bytes": 15023
+    },
+    {
+      "path": "frontier/B1506_the_level/FINDINGS.md",
+      "local_path": "reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/FINDINGS.txt",
+      "commit": "ad64b558b2e42f14e58347c6bef385114c66aaf0",
+      "sha256": "c51f8bffbc6b3c2372ef110b8d3a18becbffa4e63029ff02548731c769815653",
+      "bytes": 29190
+    },
+    {
+      "path": "frontier/B1506_the_level/verification/the_level.py",
+      "local_path": "reports/physical_bridge_2026_09_05/received_r69/frontier/B1506_the_level/verification/the_level.py",
+      "commit": "ad64b558b2e42f14e58347c6bef385114c66aaf0",
+      "sha256": "8f8534e89d493618f272492a972fb72d663f0fbd8171ec2293387f52a6417e50",
+      "bytes": 37365
+    },
+    {
+      "path": "frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py",
+      "local_path": "reports/physical_bridge_2026_09_05/received_r69/frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py",
+      "commit": "ad64b558b2e42f14e58347c6bef385114c66aaf0",
+      "sha256": "afa5b28ad555da01adcd93b901be25f45b64c2909ea3784f735a0c9ac82e06a0",
+      "bytes": 10511
+    }
+  ]
+}
