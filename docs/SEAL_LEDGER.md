@@ -1373,3 +1373,14 @@ This repair expands expressions before the existing exact rank engines.
 | `reports/physical_bridge_2026_09_05/LEVEL_ACTION_CONTROL_DESIGN.md` | `db8c27061debe0453b7b2054197fcab06430cf391c4d89ba3cd4bcda93ea24fe` |
 | `reports/physical_bridge_2026_09_05/level_action_control.py` | `3f2f34562e132d05af9fa3fd803726a06d8d1d7c094f27c26d4dc0d21eb90134` |
 | `tests/test_physical_bridge_level_action_control.py` | `c1138387aadadc20240dcf37791e28868b8eba610eba2ea28bacd14daa669e02` |
+
+## October 1 2026 R69 separately sealed canonical cocycle-equality repair
+
+Earlier instrument files and failed outcomes are retained unchanged.
+The mathematical cocycle equality is compared after exact expansion.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/LEVEL_ACTION_CONTROL2_DESIGN.md` | `13e8bae129def52e352c4fc5453d0d6b55ea4f32e4d614976f42fdcad4dcf974` |
+| `reports/physical_bridge_2026_09_05/level_action_control2.py` | `5c416df0a4d87429b85fdc72c00d3f41a264634ff82481104d3dbff3600e80ea` |
+| `tests/test_physical_bridge_level_action_control2.py` | `b254c373ebdea8c0523ed0a17c894216b56c7956b2110394f10f2327af81601c` |
