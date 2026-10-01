@@ -1,0 +1,3777 @@
+{
+ "AUDIT PASSES (the negative is not a bug)": true,
+ "bulk (T-HIGGS-BULK-ACYCLIC inputs)": {
+  "Lambda^2 rho_q on M_1..M_6 at five rational q (mod p)": {
+   "all acyclic": true,
+   "cases": 30
+  },
+  "P_Lambda verdict": true,
+  "P_Lambda's roots are the twists with cohomology (mod p)": [
+   {
+    "h1 at 5 non-roots": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "h1 at roots": [
+     1,
+     1
+    ],
+    "q": 2714383,
+    "roots": [
+     2956276,
+     3734583
+    ]
+   },
+   {
+    "h1 at 5 non-roots": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "h1 at roots": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "q": 810139,
+    "roots": [
+     42992,
+     1813604,
+     2705811,
+     3095472
+    ]
+   },
+   {
+    "h1 at 5 non-roots": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "h1 at roots": [
+     1,
+     1
+    ],
+    "q": 917992,
+    "roots": [
+     706303,
+     3651049
+    ]
+   },
+   {
+    "h1 at 5 non-roots": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "h1 at roots": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "q": 3458033,
+    "roots": [
+     623504,
+     1522676,
+     1915851,
+     2628893
+    ]
+   }
+  ],
+  "f' = 3(u - 3)(u - 5), f(2) = 2, w^2 - w - 2 = (q - 1)^2 (q^2 + q + 1) / q^2": [
+   true,
+   true,
+   true
+  ],
+  "gcd of 40 random 6x6 minors of 4q B": "1024*q**2*(q + 1)**3",
+  "no positive real root": true,
+  "s^-3 P = f(s + 1/s) - (w^2 - w)": true
+ },
+ "family": {
+  "charpoly of the longitude": "-(-lam + q)**3*(lam*q**3 - 1)/q**3",
+  "ell = yXYx is the longitude nMNmmNMn": true,
+  "longitude eigenvalues q, q, q, q^-3": true,
+  "m004 relator holds over Q(q)": true,
+  "meridian and longitude commute": true,
+  "phi is conjugation by m (x, y)": [
+   true,
+   true
+  ],
+  "q = 1: invariant symmetric forms (dimension)": 1,
+  "q = 1: signature": [
+   3,
+   1
+  ]
+ },
+ "route E": {
+  "population I": [
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "Lambda2 W, Lambda2 W* acyclic on the cusp (det(ell - 1) != 0)": [
+     true,
+     true
+    ],
+    "[a_i ^ a_j] in H^2(Lambda2 W*)": [
+     [
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ],
+     [
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ]
+    ],
+    "[a_i ^ e f0]": [
+     [
+      "0"
+     ],
+     [
+      "0"
+     ]
+    ],
+    "[hbar u e] in H^2(Lambda2 W*)": [
+     [
+      "0"
+     ]
+    ],
+    "a non-cocycle is caught": true,
+    "a random corner is caught": true,
+    "blocks check (all products)": true,
+    "blocks check (cocycles and N)": true,
+    "coboundary in either slot changes nothing": true,
+    "dim H^1(Lambda2 W*) (the 5bar'_H classes)": 1,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "e f0 is a cocycle": true,
+    "e f0 non-zero in H^1(W*)": true,
+    "ell commutes with t on W": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "h(V)": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "member": "I: nu = (0, 2), lam3 = -1",
+    "mu-type pairing == 0": true,
+    "relators hold on V": true,
+    "relators hold on W": true,
+    "seconds": 12.8
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "Lambda2 W, Lambda2 W* acyclic on the cusp (det(ell - 1) != 0)": [
+     true,
+     true
+    ],
+    "[a_i ^ a_j] in H^2(Lambda2 W*)": [
+     [
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ],
+     [
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ]
+    ],
+    "[a_i ^ e f0]": [
+     [
+      "0"
+     ],
+     [
+      "0"
+     ]
+    ],
+    "[hbar u e] in H^2(Lambda2 W*)": [
+     [
+      "0"
+     ]
+    ],
+    "a non-cocycle is caught": true,
+    "a random corner is caught": true,
+    "blocks check (all products)": true,
+    "blocks check (cocycles and N)": true,
+    "coboundary in either slot changes nothing": true,
+    "dim H^1(Lambda2 W*) (the 5bar'_H classes)": 1,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "e f0 is a cocycle": true,
+    "e f0 non-zero in H^1(W*)": true,
+    "ell commutes with t on W": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "h(V)": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "member": "I: nu = (2, 2), lam3 = -1",
+    "mu-type pairing == 0": true,
+    "relators hold on V": true,
+    "relators hold on W": true,
+    "seconds": 11.9
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "Lambda2 W, Lambda2 W* acyclic on the cusp (det(ell - 1) != 0)": [
+     true,
+     true
+    ],
+    "[a_i ^ a_j] in H^2(Lambda2 W*)": [
+     [
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ],
+     [
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ]
+    ],
+    "[a_i ^ e f0]": [
+     [
+      "0"
+     ],
+     [
+      "0"
+     ]
+    ],
+    "[hbar u e] in H^2(Lambda2 W*)": [
+     [
+      "0"
+     ]
+    ],
+    "a non-cocycle is caught": true,
+    "a random corner is caught": true,
+    "blocks check (all products)": true,
+    "blocks check (cocycles and N)": true,
+    "coboundary in either slot changes nothing": true,
+    "dim H^1(Lambda2 W*) (the 5bar'_H classes)": 1,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "e f0 is a cocycle": true,
+    "e f0 non-zero in H^1(W*)": true,
+    "ell commutes with t on W": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "h(V)": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "member": "I: nu = (2, 0), lam3 = -1",
+    "mu-type pairing == 0": true,
+    "relators hold on V": true,
+    "relators hold on W": true,
+    "seconds": 12.2
+   }
+  ],
+  "population II": {
+   "B == 0 on H^1(W*)": true,
+   "B symmetric": true,
+   "Lambda2 W, Lambda2 W* acyclic on the cusp (det(ell - 1) != 0)": [
+    true,
+    true
+   ],
+   "[a_i ^ a_j] in H^2(Lambda2 W*)": [
+    [
+     [
+      "0"
+     ],
+     [
+      "0"
+     ]
+    ],
+    [
+     [
+      "0"
+     ],
+     [
+      "0"
+     ]
+    ]
+   ],
+   "[a_i ^ e f0]": [
+    [
+     "0"
+    ],
+    [
+     "0"
+    ]
+   ],
+   "[hbar u e] in H^2(Lambda2 W*)": [
+    [
+     "0"
+    ]
+   ],
+   "a non-cocycle is caught": true,
+   "a random corner is caught": true,
+   "blocks check (all products)": true,
+   "blocks check (cocycles and N)": true,
+   "coboundary in either slot changes nothing": true,
+   "dim H^1(Lambda2 W*) (the 5bar'_H classes)": 1,
+   "dim H^1(W*), dim H^2(Lambda2 W*)": [
+    2,
+    1
+   ],
+   "e f0 is a cocycle": true,
+   "e f0 non-zero in H^1(W*)": true,
+   "ell commutes with t on W": true,
+   "h": {
+    "Lambda2 V": {
+     "h0": 0,
+     "h1": 0,
+     "h2": 0
+    },
+    "Lambda2 W": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "Lambda2 W*": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "V*": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "W": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "W*": {
+     "h0": 1,
+     "h1": 2,
+     "h2": 1
+    }
+   },
+   "h(V)": {
+    "h0": 0,
+    "h1": 1,
+    "h2": 1
+   },
+   "member": "II: q = 17 - 12 sqrt 2, mu = -1",
+   "mu-type pairing == 0": true,
+   "relators hold on V": true,
+   "relators hold on W": true,
+   "seconds": 3.0
+  },
+  "positive control (+-i)": {
+   "B == 0 on H^1(W*)": false,
+   "B symmetric": true,
+   "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+   "C2: dim H^2(M_3; Lambda2 W*)": 1,
+   "Lambda2 W, Lambda2 W* acyclic on the cusp (det(ell - 1) != 0)": [
+    true,
+    true
+   ],
+   "[a_i ^ a_j] in H^2(Lambda2 W*)": [
+    [
+     [
+      "-37847420474543308800 + 21851026869347942400*sqrt(3) - 33559840661962752000*I + 19375895192430182400*sqrt(3)*I"
+     ],
+     [
+      "-17635562500160225280 + 10182173289590292480*sqrt(3) - 1528768903910522880*sqrt(3)*I + 2648551345241456640*I"
+     ]
+    ],
+    [
+     [
+      "-17635562500160225280 + 10182173289590292480*sqrt(3) - 1528768903910522880*sqrt(3)*I + 2648551345241456640*I"
+     ],
+     [
+      "0"
+     ]
+    ]
+   ],
+   "[a_i ^ e f0]": [
+    [
+     "-266668862177280 + 153953540505600*sqrt(3) - 71899443363840*I + 41497370787840*sqrt(3)*I"
+    ],
+    [
+     "0"
+    ]
+   ],
+   "[hbar u e] in H^2(Lambda2 W*)": [
+    [
+     "-1787630700787138560 + 1033174413874298880*sqrt(3) - 171004413974937600*sqrt(3)*I + 295332144438312960*I"
+    ]
+   ],
+   "a non-cocycle is caught": true,
+   "a random corner is caught": true,
+   "blocks check (all products)": true,
+   "blocks check (cocycles and N)": true,
+   "coboundary in either slot changes nothing": true,
+   "dim H^1(Lambda2 W*) (the 5bar'_H classes)": 1,
+   "dim H^1(W*), dim H^2(Lambda2 W*)": [
+    2,
+    1
+   ],
+   "e f0 is a cocycle": true,
+   "e f0 non-zero in H^1(W*)": true,
+   "ell commutes with t on W": true,
+   "h": {
+    "Lambda2 V": {
+     "h0": 0,
+     "h1": 0,
+     "h2": 0
+    },
+    "Lambda2 W": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "Lambda2 W*": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "V*": {
+     "h0": 0,
+     "h1": 1,
+     "h2": 1
+    },
+    "W": {
+     "h0": 0,
+     "h1": 0,
+     "h2": 0
+    },
+    "W*": {
+     "h0": 1,
+     "h1": 2,
+     "h2": 1
+    }
+   },
+   "h(V)": {
+    "h0": 0,
+    "h1": 1,
+    "h2": 1
+   },
+   "member": "C1: q = 7 - 4 sqrt 3, mu = i",
+   "mu-type pairing == 0": false,
+   "relators hold on V": true,
+   "relators hold on W": true,
+   "seconds": 5.8
+  }
+ },
+ "route P": {
+  "C1": [
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188597, q = 654682, mu = 3524391",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188597, q = 654682, mu = 4664206",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188597, q = 7533929, mu = 3524391",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188597, q = 7533929, mu = 4664206",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188513, q = 1289627, mu = 4852117",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188513, q = 1289627, mu = 3336396",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188513, q = 6898900, mu = 4852117",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188513, q = 6898900, mu = 3336396",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188489, q = 83533, mu = 5346511",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188489, q = 83533, mu = 2841978",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188489, q = 8104970, mu = 5346511",
+    "mu-type pairing == 0": false
+   },
+   {
+    "B == 0 on H^1(W*)": false,
+    "B symmetric": true,
+    "C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "C1: p = 8188489, q = 8104970, mu = 2841978",
+    "mu-type pairing == 0": false
+   }
+  ],
+  "I": [
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 1402222, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 1402222, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 1402222, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 1410332, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 1410332, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 1410332, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5233413, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5233413, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5233413, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5574823, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5574823, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5574823, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5636731, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5636731, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5636731, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5904610, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5904610, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387377, q = 5904610, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 1425108, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 1425108, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 1425108, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 2317961, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 2317961, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 2317961, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 2456959, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 2456959, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 2456959, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 4505244, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 4505244, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 4505244, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 6898785, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 6898785, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 6898785, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 7557876, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 7557876, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387311, q = 7557876, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 248197, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 248197, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 248197, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 1829787, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 1829787, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 1829787, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 3966627, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 3966627, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 3966627, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 5695350, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 5695350, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 5695350, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 6309207, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 6309207, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 6309207, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 7112405, nu = (0, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 7112405, nu = (2, 2)",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "B symmetric": true,
+    "blocks check (all products)": true,
+    "dim H^1(W*), dim H^2(Lambda2 W*)": [
+     2,
+     1
+    ],
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "I: p = 8387191, q = 7112405, nu = (2, 0)",
+    "mu-type pairing == 0": true
+   }
+  ],
+  "II": [
+   {
+    "B == 0 on H^1(W*)": true,
+    "blocks check (all products)": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "II: p = 8288593, q = 2841010",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "blocks check (all products)": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "II: p = 8288593, q = 5447617",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "blocks check (all products)": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "II: p = 8288569, q = 5775",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "blocks check (all products)": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "II: p = 8288569, q = 8282828",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "blocks check (all products)": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "II: p = 8288543, q = 1189030",
+    "mu-type pairing == 0": true
+   },
+   {
+    "B == 0 on H^1(W*)": true,
+    "blocks check (all products)": true,
+    "h": {
+     "Lambda2 V": {
+      "h0": 0,
+      "h1": 0,
+      "h2": 0
+     },
+     "Lambda2 W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "Lambda2 W*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "V*": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W": {
+      "h0": 0,
+      "h1": 1,
+      "h2": 1
+     },
+     "W*": {
+      "h0": 1,
+      "h1": 2,
+      "h2": 1
+     }
+    },
+    "member": "II: p = 8288543, q = 7099547",
+    "mu-type pairing == 0": true
+   }
+  ],
+  "invariant forms": [
+   {
+    "dims": {
+     "(0, 0, 0)": 1,
+     "(0, 0, 1)": 0,
+     "(0, 0, 2)": 0,
+     "(0, 1, 0)": 0,
+     "(0, 1, 1)": 0,
+     "(0, 1, 2)": 0,
+     "(0, 2, 0)": 0,
+     "(0, 2, 1)": 0,
+     "(0, 2, 2)": 0,
+     "(1, 0, 0)": 0,
+     "(1, 0, 1)": 0,
+     "(1, 0, 2)": 0,
+     "(1, 1, 0)": 0,
+     "(1, 1, 1)": 1,
+     "(1, 1, 2)": 0,
+     "(1, 2, 0)": 0,
+     "(1, 2, 1)": 0,
+     "(1, 2, 2)": 0,
+     "(2, 0, 0)": 0,
+     "(2, 0, 1)": 0,
+     "(2, 0, 2)": 0,
+     "(2, 1, 0)": 0,
+     "(2, 1, 1)": 0,
+     "(2, 1, 2)": 0,
+     "(2, 2, 0)": 0,
+     "(2, 2, 1)": 0,
+     "(2, 2, 2)": 1
+    },
+    "one form iff i = j = k": true,
+    "p": 8387377,
+    "q": 1402222,
+    "the wedge form is invariant at i = j = k": true
+   },
+   {
+    "dims": {
+     "(0, 0, 0)": 1,
+     "(0, 0, 1)": 0,
+     "(0, 0, 2)": 0,
+     "(0, 1, 0)": 0,
+     "(0, 1, 1)": 0,
+     "(0, 1, 2)": 0,
+     "(0, 2, 0)": 0,
+     "(0, 2, 1)": 0,
+     "(0, 2, 2)": 0,
+     "(1, 0, 0)": 0,
+     "(1, 0, 1)": 0,
+     "(1, 0, 2)": 0,
+     "(1, 1, 0)": 0,
+     "(1, 1, 1)": 1,
+     "(1, 1, 2)": 0,
+     "(1, 2, 0)": 0,
+     "(1, 2, 1)": 0,
+     "(1, 2, 2)": 0,
+     "(2, 0, 0)": 0,
+     "(2, 0, 1)": 0,
+     "(2, 0, 2)": 0,
+     "(2, 1, 0)": 0,
+     "(2, 1, 1)": 0,
+     "(2, 1, 2)": 0,
+     "(2, 2, 0)": 0,
+     "(2, 2, 1)": 0,
+     "(2, 2, 2)": 1
+    },
+    "one form iff i = j = k": true,
+    "p": 8387377,
+    "q": 1410332,
+    "the wedge form is invariant at i = j = k": true
+   },
+   {
+    "dims": {
+     "(0, 0, 0)": 1,
+     "(0, 0, 1)": 0,
+     "(0, 0, 2)": 0,
+     "(0, 1, 0)": 0,
+     "(0, 1, 1)": 0,
+     "(0, 1, 2)": 0,
+     "(0, 2, 0)": 0,
+     "(0, 2, 1)": 0,
+     "(0, 2, 2)": 0,
+     "(1, 0, 0)": 0,
+     "(1, 0, 1)": 0,
+     "(1, 0, 2)": 0,
+     "(1, 1, 0)": 0,
+     "(1, 1, 1)": 1,
+     "(1, 1, 2)": 0,
+     "(1, 2, 0)": 0,
+     "(1, 2, 1)": 0,
+     "(1, 2, 2)": 0,
+     "(2, 0, 0)": 0,
+     "(2, 0, 1)": 0,
+     "(2, 0, 2)": 0,
+     "(2, 1, 0)": 0,
+     "(2, 1, 1)": 0,
+     "(2, 1, 2)": 0,
+     "(2, 2, 0)": 0,
+     "(2, 2, 1)": 0,
+     "(2, 2, 2)": 1
+    },
+    "one form iff i = j = k": true,
+    "p": 8387377,
+    "q": 5233413,
+    "the wedge form is invariant at i = j = k": true
+   },
+   {
+    "dims": {
+     "(0, 0, 0)": 1,
+     "(0, 0, 1)": 0,
+     "(0, 0, 2)": 0,
+     "(0, 1, 0)": 0,
+     "(0, 1, 1)": 0,
+     "(0, 1, 2)": 0,
+     "(0, 2, 0)": 0,
+     "(0, 2, 1)": 0,
+     "(0, 2, 2)": 0,
+     "(1, 0, 0)": 0,
+     "(1, 0, 1)": 0,
+     "(1, 0, 2)": 0,
+     "(1, 1, 0)": 0,
+     "(1, 1, 1)": 1,
+     "(1, 1, 2)": 0,
+     "(1, 2, 0)": 0,
+     "(1, 2, 1)": 0,
+     "(1, 2, 2)": 0,
+     "(2, 0, 0)": 0,
+     "(2, 0, 1)": 0,
+     "(2, 0, 2)": 0,
+     "(2, 1, 0)": 0,
+     "(2, 1, 1)": 0,
+     "(2, 1, 2)": 0,
+     "(2, 2, 0)": 0,
+     "(2, 2, 1)": 0,
+     "(2, 2, 2)": 1
+    },
+    "one form iff i = j = k": true,
+    "p": 8387377,
+    "q": 5574823,
+    "the wedge form is invariant at i = j = k": true
+   }
+  ]
+ },
+ "seconds": 273.0,
+ "shares code with the instrument": false,
+ "verdicts": {
+  "C1 exact: B != 0 and mu-type pairing != 0 at the +-i points": true,
+  "C2 exact: non-zero after pull-back to G_3": true,
+  "C3 exact: symmetric, coboundary-blind, catches a non-cocycle and a random corner": true,
+  "Z1 exact: B == 0 at every member of I and at II": true,
+  "Z2 exact: mu-type pairing == 0 at I and II": true,
+  "Z3 (route P, rigorous): one invariant form iff i = j = k, the wedge form": true,
+  "Z4 bulk theorem inputs": true,
+  "Z4 exact: h1(V) = h1(V*) = 1, h1(W*) = 2, h1(L2W) = h1(L2W*) = 1, L2V acyclic": true,
+  "cusp acyclic and blocks consistent everywhere (route E)": true,
+  "family: relator, phi, longitude, eigenvalues, hyperbolic at q = 1": true,
+  "route P agrees: C1, C2 at every prime, root and sign of i": true,
+  "route P agrees: Z1, Z2 at every prime and root": true
+ },
+ "what": "B1513 independent audit: the banked zeros re-derived by the obstruction method, with positive controls"
+}

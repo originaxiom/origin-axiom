@@ -353,3 +353,35 @@ It now reads:
 **How it composes with the standing rules.** The three claims stay apart: the state space is derived; one history is not; coexistence
 is not. The absence rule, the identification rule and the weakest-spot rule apply unchanged. Philosophy stays motivation, never
 premise (`philosophy/GOVERNANCE.md`).
+
+
+## Rule (2026-10-01, the owner's instruction — adopted): NO NEGATIVE FROM A BUG
+
+The owner, verbatim: **"aleays verify, make sure we dont hit negatives because of bugs"** — said after B1513 banked a NEGATIVE (the
+projective triplet's 10′ does not couple to its own Higgs class).
+
+**A NEGATIVE, and every zero or absence a verdict rests on, is banked only after an independent re-derivation with four properties.**
+1. **A different method.** Rerunning the instrument on other inputs does not count. The new route's correctness must not depend on
+   the instrument's formula: for example a lifting criterion for a cup product, a duality or exact-sequence argument for a
+   dimension, a second presentation, or a direct enumeration.
+2. **Separate code.** It imports nothing from the instrument or from the libraries the instrument is built on, and a lock asserts
+   this.
+3. **A live positive control through the new code, at the same kind of point.** The new route must return a non-zero where the
+   theory or the record says non-zero, on the code path the zero ran on. A route that cannot fail certifies nothing (E2, E52).
+4. **Exact arithmetic, or several primes and every conjugate.** A zero mod one prime is not a zero.
+
+**When the routes disagree,** the verdict is withheld, and the discrepancy goes to ERROR_LEDGER before anything else is banked.
+
+**Where it lives.**
+- The audit's script, record and lock live in the arc, and FINDINGS gets an "independent audit" section.
+- A sealed arc names its independent route in the preregistration. The route runs after the sealed run and before the bank.
+- A NEGATIVE banked before this rule is re-audited the first time a later arc leans on it.
+
+**First application, the same day (B1513 FINDINGS §9).** B1513 had been banked with only a same-instrument positive control. A
+separate script then re-derived every zero. It decides whether a block-unipotent lift exists along the relator words, a method with
+no fundamental class and no triple-product formula, and it ran exact over the number fields and at three primes per population. The
+zeros held, and the positive controls fired at B1510's ±i points and on level 3. The audit also caught one overstated log line (a
+subset's gcd logged as the gcd; ERROR_LEDGER E11 instance).
+
+**How it composes with the standing rules.** It is the negative-side twin of "verify the verifier" (E52). Rule 12's "an unearned
+negative is as bad as numerology" now has a procedure. It lowers no bar for positives.

@@ -16550,3 +16550,24 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     Nothing in it touches this arc.
   - The lock's dependence on a deleted branch is flagged, not changed here.
 - Surfaces as listed in the CHANGELOG entry; atlas and views regenerated. 0 of 19.
+
+## 2026-10-01 — B1513 audited independently (the owner's rule: no negative from a bug)
+
+- **The owner:** "aleays verify, make sure we dont hit negatives because of bugs". Adopted in WORKING_RULES as NO NEGATIVE FROM A BUG.
+- **The audit** (`frontier/B1513_the_triplets_higgs_sector/verification/independent_audit.py`, 273 s; record
+  `independent_audit_run.txt`). It shares no code with `higgs_lib.py`, `tower_lib.py` or `extension_index.py`.
+  - **Method.** [μ(a ∪ b)] = 0 iff the block map [[C, N_a, β], [0, B, b], [0, 0, 1]] is a homomorphism for some β, decided on the
+    relator words. The cusp is acyclic, so duality makes this equivalent to B ≡ 0, and to the μ-pairing's zero.
+  - **Route E (exact, sympy AlgebraicField):** B ≡ 0 and [h̄ ∪ e] = 0 at the three members of I and at II. The dimensions are as
+    banked: h¹(V) = 1, h¹(W*) = 2, h¹(Λ²W) = h¹(Λ²W*) = 1, and Λ²V acyclic.
+  - **Route P (GF(p), own elimination):** the same at 54 + 6 member–root readings. Invariant forms: one iff i = j = k, and it is the
+    wedge form.
+  - **Controls.** At B1510's ±i points, B ≠ 0 and [h̄ ∪ e] ≠ 0, exact and at 12 readings, and still non-zero pulled back to G₃. B is
+    symmetric there, coboundary-blind, and catches a non-cocycle and a random corner.
+  - **The family and the bulk theorem's inputs.** The relator, φ, the longitude and its eigenvalues q, q, q, q⁻³ all check, and q = 1
+    gives signature (3, 1). The reduction holds. The roots of P_Λ are exactly the twists with cohomology (mod p, four q), and Λ²ρ_q is
+    acyclic on M₁–M₆ at five rational q.
+- **Correction to the entry above** (append-only, so corrected here). "The gcd of the minors is 1024q³(q + 1)⁴" should read "the gcd
+  of twelve minors". Over 40 random minors the gcd is 1024q²(q + 1)³, and neither has a positive root. ERROR_LEDGER E11 instance.
+- **The lock:** B1513's tests are 15, two of them slow. The fast ones pass (13).
+- The verdict is unchanged: NEGATIVE. 0 of 19.

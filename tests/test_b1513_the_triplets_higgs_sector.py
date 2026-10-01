@@ -9,8 +9,11 @@ Locked here:
   - B1509's join: one own 5'_H, the coupling zero, and the positive control at a +-i point non-zero and equal to -lam_h kappa;
   - one triplet member's coupling zero;
 - the Higgs-bulk theorem's reduction identity, from the recorded P_L;
-- the kill-graph entry, the verdict, the findings' load-bearing sentences, and hygiene.
-The fibre polynomial's recomputation and the controls' rerun are marked slow. The sealed census (36 s) is not rerun by the lock."""
+- the kill-graph entry, the verdict, the findings' load-bearing sentences, and hygiene;
+- the post-bank independent audit (FINDINGS §9): its record, its independence from the instrument's code, and a live mod-p replay of
+  the zeros and the positive control.
+The fibre polynomial's recomputation, the controls' rerun and the full audit's rerun are marked slow. The sealed census (36 s) is not
+rerun by the lock."""
 import hashlib
 import importlib.util
 import json
@@ -225,3 +228,91 @@ def test_findings_verdict_and_hygiene():
     for path in list(ARC.glob("*.md")) + list(VER.glob("*.py")):
         assert term not in path.read_text(encoding="utf-8").lower(), path
     assert term not in v["claim_one_line"].lower()
+
+
+# ============================================================================================ the post-bank independent audit (§9)
+AUDIT_VERDICTS = (
+    "Z1 exact: B == 0 at every member of I and at II",
+    "Z2 exact: mu-type pairing == 0 at I and II",
+    "Z4 exact: h1(V) = h1(V*) = 1, h1(W*) = 2, h1(L2W) = h1(L2W*) = 1, L2V acyclic",
+    "cusp acyclic and blocks consistent everywhere (route E)",
+    "C1 exact: B != 0 and mu-type pairing != 0 at the +-i points",
+    "C2 exact: non-zero after pull-back to G_3",
+    "C3 exact: symmetric, coboundary-blind, catches a non-cocycle and a random corner",
+    "route P agrees: Z1, Z2 at every prime and root",
+    "route P agrees: C1, C2 at every prime, root and sign of i",
+    "Z3 (route P, rigorous): one invariant form iff i = j = k, the wedge form",
+    "family: relator, phi, longitude, eigenvalues, hyperbolic at q = 1",
+    "Z4 bulk theorem inputs",
+)
+
+
+def test_the_independent_audit_record():
+    """the audit passed: every zero re-derived exactly and mod p, every positive control fired, the counts as stated in §9"""
+    r = _record("independent_audit")
+    assert r["AUDIT PASSES (the negative is not a bug)"] is True
+    assert set(r["verdicts"]) == set(AUDIT_VERDICTS) and all(r["verdicts"][k] is True for k in AUDIT_VERDICTS)
+    P = r["route P"]
+    assert (len(P["I"]), len(P["II"]), len(P["C1"]), len(P["invariant forms"])) == (54, 6, 12, 4)
+    for row in r["route E"]["population I"] + [r["route E"]["population II"]]:
+        assert row["dim H^1(W*), dim H^2(Lambda2 W*)"] == [2, 1]
+        assert all(v == "0" for pair in row["[a_i ^ a_j] in H^2(Lambda2 W*)"] for cell in pair for v in cell)
+        assert row["[hbar u e] in H^2(Lambda2 W*)"] == [["0"]]
+    c = r["route E"]["positive control (+-i)"]
+    assert c["[a_i ^ e f0]"][0] != ["0"] and c["[hbar u e] in H^2(Lambda2 W*)"] != [["0"]]
+    assert r["bulk (T-HIGGS-BULK-ACYCLIC inputs)"]["gcd of 40 random 6x6 minors of 4q B"] == "1024*q**2*(q + 1)**3"
+
+
+def test_the_independent_audit_shares_no_code():
+    """the audit imports nothing from the instrument or the libraries it is built on"""
+    import ast
+    tree = ast.parse((VER / "independent_audit.py").read_text(encoding="utf-8"))
+    names = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            names |= {a.name for a in node.names}
+        elif isinstance(node, ast.ImportFrom):
+            names.add(node.module or "")
+    assert names <= {"json", "random", "sys", "time", "pathlib", "numpy", "sympy", "sympy.polys.matrices"}, names
+    calls = {n.func.attr if isinstance(n.func, ast.Attribute) else getattr(n.func, "id", "") for n in ast.walk(tree)
+             if isinstance(n, ast.Call)}
+    assert not calls & {"spec_from_file_location", "import_module", "__import__", "exec_module"}, calls
+    syspath = [n for n in ast.walk(tree) if isinstance(n, ast.Attribute) and n.attr == "path"
+               and isinstance(n.value, ast.Name) and n.value.id == "sys"]
+    assert not syspath, "the audit must not reach other code through sys.path"
+
+
+def test_the_independent_audit_live_mod_p():
+    """live, mod p at one recorded prime: the three members of I and B1509's join have B == 0 and the mu-pairing 0; at a +-i point
+    both are non-zero, B is symmetric, and the coupling survives the pull-back to G_3"""
+    A = _load("independent_audit")
+    Qs = A.Qs
+    p = 8387377                                                 # a prime of the record at which q^6 - 34 q^3 + 1 splits
+    F = A.ModP(p, "lock")
+    roots = A.gf_roots(Qs ** 6 - 34 * Qs ** 3 + 1, p)
+    assert len(roots) == 6
+    mn = A.mn_mats(F, roots[0])
+    for (a, b) in A.TRIPLET:
+        tw = (1 if a % 4 == 0 else p - 1, 1 if b % 4 == 0 else p - 1, p - 1)
+        r, _ = A.member(F, mn, 3, tw, f"I ({a}, {b})")
+        assert r["B == 0 on H^1(W*)"] and r["mu-type pairing == 0"] and r["blocks check (all products)"]
+        assert r["h"]["Lambda2 W"]["h1"] == r["h"]["Lambda2 W*"]["h1"] == 1 and r["h"]["W*"]["h1"] == 2
+    p2 = 8388593                                                # q^2 - 34 q + 1 splits
+    F2 = A.ModP(p2, "lock")
+    r, _ = A.member(F2, A.mn_mats(F2, A.gf_roots(Qs ** 2 - 34 * Qs + 1, p2)[0]), 1, (1, 1, p2 - 1), "II")
+    assert r["B == 0 on H^1(W*)"] and r["mu-type pairing == 0"]
+    p3 = 8188597                                                # p = 1 mod 4 and q^2 - 14 q + 1 splits
+    F3 = A.ModP(p3, "lock")
+    r, _ = A.member(F3, A.mn_mats(F3, A.gf_roots(Qs ** 2 - 14 * Qs + 1, p3)[0]), 1, (1, 1, A.sqrt_m1(p3)), "C1",
+                    extra=A.control_level3)
+    assert not r["B == 0 on H^1(W*)"] and not r["mu-type pairing == 0"] and r["B symmetric"]
+    assert r["C2: [a_i ^ e f0] pulled back to G_3 non-zero for some i"]
+
+
+@pytest.mark.slow
+def test_the_independent_audit_reruns():
+    """the full audit (exact and mod p, about five minutes) passes again with the recorded verdicts"""
+    A = _load("independent_audit")
+    res = A.main()
+    assert res["AUDIT PASSES (the negative is not a bug)"] is True
+    assert res["verdicts"] == _record("independent_audit")["verdicts"]

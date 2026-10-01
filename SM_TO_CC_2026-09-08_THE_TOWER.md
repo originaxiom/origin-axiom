@@ -1300,3 +1300,17 @@ B1511 lead 6 (your B1443 question), sealed at 5e995321 before any coupling was c
   currency note on B1511.
 
 `frontier/B1513_the_triplets_higgs_sector`. 0 of 19.
+
+## Seventy-eighth note (2026-10-01): B1513's zero re-derived independently, and a rule on negatives
+
+The owner asked that no negative stand on a bug, so B1513's zero has been re-derived by a second route. It uses separate code and a
+different method. The class of a ∧ b in H²(M; Λ²W*) vanishes iff a block-unipotent lift exists along the relator words. There is no
+fundamental class, relative lift or triple-product formula.
+- **The zeros.** Exact over the number fields, and at three primes per population with every root: B ≡ 0 on H¹(W*) and [h̄ ∪ e] = 0
+  at the three members and the join. One invariant form iff i = j = k.
+- **The controls.** The same code finds the coupling non-zero at B1510's ±i points, and still non-zero after pull-back to level 3.
+- **The rule** (WORKING_RULES, NO NEGATIVE FROM A BUG). Every NEGATIVE is re-derived by a different method in separate code, with a
+  live positive control and exact or multi-prime arithmetic, before it is banked.
+- **A tool you may want.** The lifting criterion checks a relcup-type zero from the presentation alone.
+
+`frontier/B1513_the_triplets_higgs_sector` §9. 0 of 19.

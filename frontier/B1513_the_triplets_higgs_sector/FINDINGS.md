@@ -36,6 +36,8 @@ G_n = ⟨x, y, t | t g t⁻¹ = φⁿ(g)⟩, with the boundary word yx⁻¹y⁻�
 - **No form joins two members.** Invariant forms on Λ²W_k ⊗ W_i* ⊗ W_j* exist only for i = j = k, one each.
 - **The zero is real, not an instrument artefact.** At B1510's four ±i points the same instrument gives Y(h, a, ef₀) = −λ_h κ̂_ℓ ≠ 0
   and ⟨h ∪ e ∪ h̄⟩ = λ_h κ̂_ℓ ≠ 0. Both are exactly Lemma 6's prediction, and both vanish exactly at μ = −1.
+  - Post-bank, an independent audit (§9) re-derived every zero by a different method, in code that shares nothing with the
+    instrument, exactly and mod p. Its positive controls fire at the same ±i points and on level 3.
 
 **Reading.**
 - In the harmonic frame, each member of the projective triplet has a Higgs pair of its own and nothing else. Its chiral 10′ has no
@@ -237,8 +239,66 @@ D1–D9 hold. One note on D7b: it was recorded as reported, not relied on, and i
    source/end balance and the parent's interactions on one positive-norm configuration, and recompute the spectrum and the couplings
    there rather than transporting labels.
 
+## 9. Independent audit (post-bank, 2026-10-01; the owner's rule)
+
+The owner, after the banking, verbatim: **"aleays verify, make sure we dont hit negatives because of bugs"** (adopted as a standing
+rule, WORKING_RULES "NO NEGATIVE FROM A BUG"). `verification/independent_audit.py` → `independent_audit_run.txt` (273 s). It shares
+no code with `higgs_lib.py`, B1511's `tower_lib.py` or B1509's `extension_index.py`. It has its own words, its own build of Ballas'
+matrices from their definition, and its own linear algebra mod p.
+
+**A different method.**
+- A cup product μ(a ∪ b) of 1-cocycles vanishes in H² iff the block map R(g) = [[C(g), N(g), β(g)], [0, B(g), b(g)], [0, 0, 1]],
+  with N(g)v = μ(a(g) ⊗ g·v), is a homomorphism for some cochain β.
+- On the relators that is one linear condition: the corners at β = 0 lie in the image of d¹.
+- Only products of block matrices along relator words enter. There is no bar chain, fundamental class, relative lift or
+  triple-product formula.
+- Λ²W is acyclic on the cusp (checked at every member). So, by duality, B ≡ 0 is equivalent to [a ∧ b] = 0 in H²(M; Λ²W*) for all
+  a, b in H¹(W*), and the μ-pairing's zero is equivalent to [h̄ ∪ e] = 0.
+
+**Arithmetic.**
+- **Exact,** over the number fields (sympy's AlgebraicField): ℚ(q) with q⁶ − 34q³ + 1 = 0, then ℚ(√2), then ℚ(√3, i). One
+  computation covers every conjugate point.
+- **Mod p,** at three primes per population and every root: 54 member–root readings for I, 6 for II, and 12 for the ±i points (both
+  signs of i).
+
+**Re-derived, all holding at every member, exactly and mod p:**
+- **Z1.** [a ∧ a′] = 0 for every pair from a basis of H¹(W*), at all three members of I and at II. So B ≡ 0, and P4's NO is not a
+  bug.
+- **Z2.** [h̄ ∪ e] = 0 at both populations.
+- **Z3.** Invariant forms on Λ²W_k ⊗ W_i* ⊗ W_j*: one iff i = j = k, and it is the wedge form (four roots mod p). This is rigorous
+  one way, since invariants can only gain dimension mod p.
+- **Z4.** h¹(V) = h¹(V*) = 1, h¹(W*) = 2 (ef₀ and a lift of c*), h¹(Λ²W) = h¹(Λ²W*) = 1, and Λ²V is acyclic.
+- **The bulk theorem's inputs.**
+  - The reduction s⁻³P_Λ = f(u) − (w² − w), with f′ = 3(u − 3)(u − 5) and f(2) = 2.
+  - Mod p, h¹(G₁; s ⊗ Λ²ρ_q) is 1 at each root s of P_Λ(q, ·) and 0 at random non-roots, for four values of q.
+  - Λ²ρ_q is acyclic on M₁–M₆ at five rational q > 0.
+- **The family.**
+  - The m004 relator holds, φ is conjugation by m, and ℓ = yx⁻¹y⁻¹x is the longitude, with eigenvalues q, q, q, q⁻³.
+  - At q = 1 there is an invariant form of signature (3, 1), the hyperbolic point.
+
+**Positive controls, all firing:**
+- **C1.** At B1510's ±i points the same code finds B ≠ 0 and [h̄ ∪ e] ≠ 0, exactly. These are post-run (a)'s −λ_h κ̂_ℓ and
+  λ_h κ̂_ℓ. B(ã, ef₀) ≠ 0 for every lift ã of c*, and B(ef₀, ef₀) = 0.
+- **C2.** Those classes, pulled back to G₃, stay non-zero. So the level-3 code path that population I runs on sees a coupling when
+  there is one.
+- **C3.** Further checks of the method:
+  - B is symmetric where it is non-zero;
+  - a coboundary in either slot changes nothing;
+  - a non-cocycle is caught, and so is a random corner.
+
+**One wording note.**
+- Over 40 random 6 × 6 minors of 4q·B the gcd is 1024q²(q + 1)³. That is a proper divisor of the twelve-minor gcd 1024q³(q + 1)⁴
+  quoted in §2.
+- The gcd of all the minors divides both, and has no positive root either. The theorem's step is unchanged.
+- The banking log's shorthand, "the gcd of the minors", overstated it (ERROR_LEDGER, E11 instance).
+
+**The audit's verdict.** The NEGATIVE is not an instrument artefact: two methods, two arithmetics and live positive controls agree.
+Its scope is unchanged (§6): tree-level cup products in B1509's frame.
+
 ## Verification
 
+- `verification/independent_audit.py` → `independent_audit_run.txt`: the post-bank independent audit (§9). It shares no code with
+  the instrument.
 - `verification/higgs_lib.py`:
   - the fibred presentation and its bar-complex chains;
   - modules, cocycles and the relative triple product;

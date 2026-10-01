@@ -1,5 +1,27 @@
 # Changelog
 
+## B1513 audited independently: the zero is not a bug; the owner's rule NO NEGATIVE FROM A BUG adopted
+
+- **The owner, after the banking:** "aleays verify, make sure we dont hit negatives because of bugs". Adopted as a binding rule
+  (WORKING_RULES): every NEGATIVE, and every zero a verdict rests on, needs four things before it is banked:
+  - a different method;
+  - separate code;
+  - a live positive control through the new code;
+  - exact or multi-prime arithmetic.
+- **B1513 audited** (`verification/independent_audit.py` → `independent_audit_run.txt`, 273 s, FINDINGS §9). The script shares no code
+  with the instrument. Its method: a cup product vanishes iff a block-unipotent lift exists along the relator words. That needs no
+  fundamental class, relative lift or triple-product formula.
+  - **Exact** over ℚ(q) (q⁶ − 34q³ + 1 = 0), ℚ(√2) and ℚ(√3, i). **Mod p** at three primes per population and every root (72
+    readings).
+  - **The zeros hold:** B ≡ 0 on H¹(W*) and the μ-pairing is 0 at all three members and the join. There is one invariant form iff
+    i = j = k, and the Higgs-sector dimensions and the bulk theorem's inputs are as banked.
+  - **The positive controls fire:** the coupling is non-zero at B1510's ±i points, and stays non-zero after pull-back to level 3. B is
+    symmetric there, a coboundary in either slot changes nothing, and a non-cocycle and a random corner are both caught.
+- **Self-caught:** the banking log called the twelve-minor gcd 1024q³(q + 1)⁴ "the gcd of the minors". Over 40 random minors it is
+  1024q²(q + 1)³. ERROR_LEDGER E11 instance; the theorem is unaffected.
+- **Surfaces.** Lock (four tests, one slow), FINDINGS §0 and §9, WORKING_RULES, ERROR_LEDGER, the kill-graph note, README, letter
+  (78th note). The verdict is unchanged: NEGATIVE, 0 of 19.
+
 ## B1513 the triplet's Higgs sector: each member carries exactly one 5′_H and one 5̄′_H, its own, and its 10′ does not couple to them
 
 - **The question** (B1511 lead 6, sealed at 5e995321 before any Λ² cohomology at q ≠ 1 or any coupling was computed; run as sealed,
