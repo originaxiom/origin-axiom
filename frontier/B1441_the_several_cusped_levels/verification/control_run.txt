@@ -1,0 +1,4 @@
+control M2: cusps 1 N 5 characters 25 modules 92 I-histogram {'-1': 4, '0': 84, '1': 4} max|I| 1
+control M3: cusps 1 N 4 characters 64 modules 930 I-histogram {'-1': 36, '0': 858, '1': 36} max|I| 1
+size: 79 entries; Counter({2: 54, 3: 15, 4: 3, 5: 1, 6: 1})
+CONTROL OK
