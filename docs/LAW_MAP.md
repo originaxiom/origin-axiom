@@ -1,5 +1,19 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+**Current path-local R73 (October 1):** the actual compact phase orbit
+preserves nonlinear residual action, peripheral conjugacy and transported
+Q graph/current data. Its finite-norm tangent has a divergent straight
+finite displacement; with its spacetime gauge compensator it is not an
+extra physical scalar if the apex gauge value is admitted. R70's neutral
+period obstruction remains.66 controls and22 R70/R72/R73-control tests
+pass after a separately sealed exact-equality normalization; the original
+57/59 checks and19-pass/3-fail tests remain unchanged. Conditional authored
+proof, not independent analytic acceptance or a selected physical end.
+Next earn the gauge-quotiented interacting/superfield end and core/parent
+join, including sources/anomalies. Full parameter-free physics goal active.
+Report: reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
+Earlier dated entries retain their historical scopes.
+
 **Current path-local R72 (October 1):** an explicit contraction constructs
 exact local Q solutions on the changing canonical cone. Conserved current
 and cutoff estimates give a 36-dimensional nondegenerate witnessed
@@ -1094,3 +1108,16 @@ The R66 exact branch and R68/R71 actual coefficient operator are reused.
 | The changing neutral operator has a sufficiently small perturbation tail for every fixed allowed parameter pair | Trace-Hilbert bound 2|v|+4sqrt(alpha)t+4|beta|t^2/sqrt(alpha); t,v tend to zero on the actual branch. Tail size is not uniform or selected physics. | B1504 end context only; R72 CONE_EXACT_PROOF.md section 1; tests/test_physical_bridge_cone_exact.py::test_actual_changing_operator_has_conserved_Green_current and test_actual_tail_bound_has_positive_and_unsafe_controls |
 | Explicit weighted contractions construct exact local solution spaces of dimensions 54 and 18 | Zero-Fourier charge-zero coefficient; norm perturbation <=1/64, shifts 1/4,-3/4, rate 1/8. Banach contraction 1/7, not a finite asymptotic fit. No all-coefficient or global mode count. | B1504 domain context only; R72 CONE_EXACT_PROOF.md section 2; tests/test_physical_bridge_cone_exact.py::test_contraction_constants_inject_both_exact_solution_spaces |
 | The exact solution witnesses yield a 36-dimensional nondegenerate subspace of Dmax/Dmin | Conserved current, 18-dimensional annihilator and graph cutoff errors O(epsilon^(3/4)). Quotient signature (18,18). This is witnessed lower-bound data, not the entire quotient, chosen end law or particles. | B1504 domain context only; R72 CONE_EXACT_PROOF.md section 3; tests/test_physical_bridge_cone_exact.py::test_witnessed_quotient_rank_is_not_particle_count and test_fast_graph_cutoff_and_slow_L2_are_different |
+
+
+## Actual compact orbit and common-action transport October 1 2026
+
+Path-local R73 is conditional authored analysis, not independently
+accepted physical theory. B1504 supplies context only, not these proofs.
+Original failed executions stay; separate normalized controls pass.
+
+| law | scope and boundaries | source / lock |
+|---|---|---|
+| An admitted compact phase preserves the actual cone residuals while its nonzero affine tangent displacement has infinite action | Actual R66 log branch, supplied metric/action; real phase constant at apex and identity in core. A sufficient affine X0 chart is not a physical exclusion rule for that gauge group. No end-gauge group is derived. | B1504 end context only; R73 CONE_ORBIT_PROOF.md sections1-3; tests/test_physical_bridge_cone_orbit_control.py::test_actual_compact_orbit_retains_radial_transport_and_boundary_data and test_finite_kinetic_tangent_normalizes_exact_leading_coefficient |
+| Compact transport preserves the full Q graph/current while angular Hermiticity is frame dependent | Actual unitary coefficient map; maximal/minimal and chosen end domains travel together. No classification of all36 R72 classes, full superfield domain or physical modes follows. | B1504 domain context only; R73 CONE_ORBIT_PROOF.md section4; tests/test_physical_bridge_cone_orbit_control.py::test_fermion_current_and_exact_Z_column_with_wrong_target_bite |
+| A spacetime-dependent pure phase has zero mixed curvature with its required gauge compensator | Same classical compact gauge configuration and admitted end-gauge values. Omitting A_mu creates apparent kinetics; boundary charges or quantum anomalies require their own theory. R70 Z-period mismatch persists. | B1504 physical-domain context only; R73 CONE_ORBIT_PROOF.md section5; tests/test_physical_bridge_cone_orbit_control.py::test_spacetime_gauge_compensator_removes_false_scalar_kinetics |

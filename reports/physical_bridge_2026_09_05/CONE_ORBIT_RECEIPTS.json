@@ -1,0 +1,178 @@
+{
+  "seal": "7feea9fad1f11654928f580963498cdb003cd86c",
+  "repair_seal": "48f17e470f07af8b555fe3ef48f5a210e902b7e1",
+  "scope": "Exact finite controls and byte custody of conditional classical compact transport; no independent analytic review or physical end selection",
+  "runs": {
+    "native_first": {
+      "raw_basename": "r73_native_first",
+      "raw_receipt_sha256": "a26864592354e024c0ac1a6ae00138bfa450dfc0790c09ccfa3462748a4e2267",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/cone_orbit.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 104.73664099996677,
+        "log_bytes": 7207,
+        "log_sha256": "6bac4573559c86ea28cb65f08927acd12a695b1e5a147d905ec02ee6eeffb62f"
+      },
+      "stdout": "{\n  \"all_checks_pass\": false,\n  \"checks\": {\n    \"compensator/full_radial_mixed_zero\": true,\n    \"compensator/full_x_mixed_zero\": true,\n    \"compensator/full_y_mixed_zero\": true,\n    \"compensator/gauge_field_antiHermitian\": true,\n    \"compensator/omitted_compensator_x_fails\": true,\n    \"compensator/omitted_compensator_y_fails\": true,\n    \"compensator/omitted_radial_mixed_derivative_fails\": true,\n    \"compensator/wrong_compensator_sign_fails\": true,\n    \"covariance/all_curvature_covariance\": true,\n    \"covariance/bounded_phase_preserves_Z\": true,\n    \"covariance/bracket_cross_not_erased\": true,\n    \"covariance/curvature_positive_norm_preserved\": true,\n    \"covariance/fixture_compact\": true,\n    \"covariance/fixture_radial_antiHermitian\": true,\n    \"covariance/full_moment_covariance\": true,\n    \"covariance/nonzero_interaction_control\": true,\n    \"covariance/omission_breaks_full_moment\": true,\n    \"covariance/positive_trace_norm_preserved\": true,\n    \"operator/Gamma_A_Hermitian\": true,\n    \"operator/actual_Green_conserved\": true,\n    \"operator/all_72_components\": true,\n    \"operator/angular_anticommutation_not_invariant\": true,\n    \"operator/boundary_current_unitary\": true,\n    \"operator/coefficient_unitary\": true,\n    \"operator/correct_radial_Q_transport\": true,\n    \"operator/derivative_omission_rejected\": true,\n    \"operator/exact_Z_trace_unchanged\": false,\n    \"operator/form_unitary\": true,\n    \"operator/nonHermitian_angular_allowed\": true,\n    \"operator/positive_and_negative_phases\": true,\n    \"operator/wrong_K_adjoint_breaks_current\": true,\n    \"orbit/Z_preserved\": true,\n    \"orbit/actual_radial\": true,\n    \"orbit/actual_x\": true,\n    \"orbit/actual_y\": true,\n    \"orbit/determinant_one\": true,\n    \"orbit/full_flatness\": true,\n    \"orbit/gauge_holomorphic_boundary_zero\": true,\n    \"orbit/neutral_affine_boundary_unchanged\": true,\n    \"orbit/neutral_profile_unchanged\": true,\n    \"orbit/nontrivial_phase_not_fixed_entries\": true,\n    \"orbit/offshell_moment_unchanged\": true,\n    \"orbit/radial_Higgs_unchanged\": true,\n    \"orbit/unitary\": true,\n    \"orbit/wrong_radial_omission_fails\": true,\n    \"tangent/L2_comparator_finite\": true,\n    \"tangent/action_leading\": true,\n    \"tangent/comparison_lower_bound\": true,\n    \"tangent/divergent_L4_comparator\": true,\n    \"tangent/exact_phase_has_different_quadratic_term\": true,\n    \"tangent/kinetic_density\": true,\n    \"tangent/kinetic_leading\": true,\n    \"tangent/orbit_difference_L4_leading_positive\": false,\n    \"tangent/orbit_difference_density\": true,\n    \"tangent/straight_exact_density\": true,\n    \"tangent/straight_moment_quadratic\": true,\n    \"tangent/tangent_full_flatness\": true,\n    \"tangent/tangent_linear_moment_zero\": true,\n    \"tangent/trivial_orbit_difference_zero\": true\n  },\n  \"groups\": {\n    \"compensator\": {\n      \"checks\": {\n        \"full_radial_mixed_zero\": true,\n        \"full_x_mixed_zero\": true,\n        \"full_y_mixed_zero\": true,\n        \"gauge_field_antiHermitian\": true,\n        \"omitted_compensator_x_fails\": true,\n        \"omitted_compensator_y_fails\": true,\n        \"omitted_radial_mixed_derivative_fails\": true,\n        \"wrong_compensator_sign_fails\": true\n      },\n      \"scope\": \"Spacetime-dependent pure compact gauge is not a new physical scalar\"\n    },\n    \"covariance\": {\n      \"checks\": {\n        \"all_curvature_covariance\": true,\n        \"bounded_phase_preserves_Z\": true,\n        \"bracket_cross_not_erased\": true,\n        \"curvature_positive_norm_preserved\": true,\n        \"fixture_compact\": true,\n        \"fixture_radial_antiHermitian\": true,\n        \"full_moment_covariance\": true,\n        \"nonzero_interaction_control\": true,\n        \"omission_breaks_full_moment\": true,\n        \"positive_trace_norm_preserved\": true\n      },\n      \"scope\": \"Nonzero off-shell fixture plus authored general covariance proof\"\n    },\n    \"operator\": {\n      \"checks\": {\n        \"Gamma_A_Hermitian\": true,\n        \"actual_Green_conserved\": true,\n        \"all_72_components\": true,\n        \"angular_anticommutation_not_invariant\": true,\n        \"boundary_current_unitary\": true,\n        \"coefficient_unitary\": true,\n        \"correct_radial_Q_transport\": true,\n        \"derivative_omission_rejected\": true,\n        \"exact_Z_trace_unchanged\": false,\n        \"form_unitary\": true,\n        \"nonHermitian_angular_allowed\": true,\n        \"positive_and_negative_phases\": true,\n        \"wrong_K_adjoint_breaks_current\": true\n      },\n      \"form_dimension\": 72,\n      \"scope\": \"Exact transported coefficient/current, not full boundary-domain classification\"\n    },\n    \"orbit\": {\n      \"checks\": {\n        \"Z_preserved\": true,\n        \"actual_radial\": true,\n        \"actual_x\": true,\n        \"actual_y\": true,\n        \"determinant_one\": true,\n        \"full_flatness\": true,\n        \"gauge_holomorphic_boundary_zero\": true,\n        \"neutral_affine_boundary_unchanged\": true,\n        \"neutral_profile_unchanged\": true,\n        \"nontrivial_phase_not_fixed_entries\": true,\n        \"offshell_moment_unchanged\": true,\n        \"radial_Higgs_unchanged\": true,\n        \"unitary\": true,\n        \"wrong_radial_omission_fails\": true\n      },\n      \"moment\": [\n        [\n          \"alpha*exp(-2*h)/r**2 + 4*hp/r + 2*hpp + beta**2*exp(-4*h)/(alpha*r**2)\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"-alpha*exp(-2*h)/r**2 - 4*hp/r - 2*hpp - beta**2*exp(-4*h)/(alpha*r**2)\"\n        ]\n      ],\n      \"scope\": \"All real smooth phases; local exact covariance, gauge admission declared\"\n    },\n    \"tangent\": {\n      \"checks\": {\n        \"L2_comparator_finite\": true,\n        \"action_leading\": true,\n        \"comparison_lower_bound\": \"True\",\n        \"divergent_L4_comparator\": true,\n        \"exact_phase_has_different_quadratic_term\": true,\n        \"kinetic_density\": true,\n        \"kinetic_leading\": true,\n        \"orbit_difference_L4_leading_positive\": false,\n        \"orbit_difference_density\": true,\n        \"straight_exact_density\": true,\n        \"straight_moment_quadratic\": true,\n        \"tangent_full_flatness\": true,\n        \"tangent_linear_moment_zero\": true,\n        \"trivial_orbit_difference_zero\": true\n      },\n      \"kinetic_density\": \"2*alpha*exp(-2*h) + 4*beta**2*exp(-4*h)/alpha\",\n      \"scope\": \"Actual asymptotic comparison, not cutoff fitting or particle count\",\n      \"straight_action_density\": \"epsilon**4*(alpha**2*exp(2*h) + 4*beta**2)**2*exp(-8*h)/(alpha**2*r**2)\",\n      \"straight_increment\": [\n        [\n          \"epsilon**2*(alpha**2*exp(2*h) + 4*beta**2)*exp(-4*h)/(alpha*r**2)\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"epsilon**2*(-alpha**2*exp(2*h) - 4*beta**2)*exp(-4*h)/(alpha*r**2)\"\n        ]\n      ]\n    }\n  },\n  \"scope\": \"Classical same-action compact transport; gauge/end admission supplied; not matter, chirality or TOE\"\n}\n"
+    },
+    "combined_first": {
+      "raw_basename": "r73_combined_first",
+      "raw_receipt_sha256": "feaf9f020be381705f0da56cab22a85857493adefaf586a414cf4686d5f8bb56",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_multiplet.py",
+          "tests/test_physical_bridge_cone_exact.py",
+          "tests/test_physical_bridge_cone_orbit.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 123.62159100000281,
+        "log_bytes": 2793,
+        "log_sha256": "23cc7c384dcdc32b57f06370883f40906e5a815fee57d9d4c6c35ccce1c1f3f0"
+      },
+      "stdout": ".................F.F.F                                                   [100%]\n=================================== FAILURES ===================================\n_____ test_finite_kinetic_tangent_does_not_admit_its_straight_displacement _____\n\n    def test_finite_kinetic_tangent_does_not_admit_its_straight_displacement():\n        out=C.tangent_controls()\n        assert C.zero(out['straight_increment'].diff(C.eps).subs(C.eps,0))\n>       assert all(out['checks'].values())\nE       AssertionError: assert False\nE        +  where False = all(dict_values([True, True, True, True, True, True, True, True, True, True, True, True, False, True]))\nE        +    where dict_values([True, True, True, True, True, True, True, True, True, True, True, True, False, True]) = <built-in method values of dict object at 0x112dd7e00>()\nE        +      where <built-in method values of dict object at 0x112dd7e00> = {'L2_comparator_finite': True, 'action_leading': True, 'comparison_lower_bound': True, 'divergent_L4_comparator': True, ...}.values\n\ntests/test_physical_bridge_cone_orbit.py:14: AssertionError\n________ test_fermion_current_transport_not_frozen_angular_Hermiticity _________\n\n    def test_fermion_current_transport_not_frozen_angular_Hermiticity():\n        out=C.operator_controls()\n>       assert out['form_dimension']==72 and all(out['checks'].values())\nE       AssertionError: assert (72 == 72 and False)\nE        +  where False = all(dict_values([True, True, True, True, True, True, True, True, True, True, True, False, True]))\nE        +    where dict_values([True, True, True, True, True, True, True, True, True, True, True, False, True]) = <built-in method values of dict object at 0x112b75400>()\nE        +      where <built-in method values of dict object at 0x112b75400> = {'Gamma_A_Hermitian': True, 'actual_Green_conserved': True, 'all_72_components': True, 'angular_anticommutation_not_invariant': True, ...}.values\n\ntests/test_physical_bridge_cone_orbit.py:21: AssertionError\n___________________ test_complete_frozen_control_population ____________________\n\n    def test_complete_frozen_control_population():\n        out=C.run()\n        assert set(out['groups'])=={'orbit','tangent','covariance','operator','compensator'}\n>       assert out['all_checks_pass']\nE       assert False\n\ntests/test_physical_bridge_cone_orbit.py:29: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_physical_bridge_cone_orbit.py::test_finite_kinetic_tangent_does_not_admit_its_straight_displacement\nFAILED tests/test_physical_bridge_cone_orbit.py::test_fermion_current_transport_not_frozen_angular_Hermiticity\nFAILED tests/test_physical_bridge_cone_orbit.py::test_complete_frozen_control_population\n3 failed, 19 passed in 120.60s (0:02:00)\n"
+    },
+    "repair_native": {
+      "raw_basename": "r73_repair_native",
+      "raw_receipt_sha256": "c82e068913bd2721ee911e1a6fd2f988f96ac44c3def2bbd74ab38249c595509",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/cone_orbit_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 104.92136400000891,
+        "log_bytes": 7922,
+        "log_sha256": "cc08c87ad510811b15023165fbe5af8dc55c39a2168b89d8cc6b64d7f4d06278"
+      },
+      "stdout": "{\n  \"all_checks_pass\": true,\n  \"checks\": {\n    \"compensator/full_radial_mixed_zero\": true,\n    \"compensator/full_x_mixed_zero\": true,\n    \"compensator/full_y_mixed_zero\": true,\n    \"compensator/gauge_field_antiHermitian\": true,\n    \"compensator/omitted_compensator_x_fails\": true,\n    \"compensator/omitted_compensator_y_fails\": true,\n    \"compensator/omitted_radial_mixed_derivative_fails\": true,\n    \"compensator/wrong_compensator_sign_fails\": true,\n    \"covariance/all_curvature_covariance\": true,\n    \"covariance/bounded_phase_preserves_Z\": true,\n    \"covariance/bracket_cross_not_erased\": true,\n    \"covariance/curvature_positive_norm_preserved\": true,\n    \"covariance/fixture_compact\": true,\n    \"covariance/fixture_radial_antiHermitian\": true,\n    \"covariance/full_moment_covariance\": true,\n    \"covariance/nonzero_interaction_control\": true,\n    \"covariance/omission_breaks_full_moment\": true,\n    \"covariance/positive_trace_norm_preserved\": true,\n    \"operator/Gamma_A_Hermitian\": true,\n    \"operator/actual_Green_conserved\": true,\n    \"operator/actual_matrix_Z_fixed\": true,\n    \"operator/all_72_components\": true,\n    \"operator/angular_anticommutation_not_invariant\": true,\n    \"operator/boundary_current_unitary\": true,\n    \"operator/charged_neutral_matrix_not_fixed\": true,\n    \"operator/coefficient_unitary\": true,\n    \"operator/correct_radial_Q_transport\": true,\n    \"operator/derivative_omission_rejected\": true,\n    \"operator/exact_Z_trace_unchanged\": true,\n    \"operator/form_unitary\": true,\n    \"operator/nonHermitian_angular_allowed\": true,\n    \"operator/original_matrix_failure_preserved\": true,\n    \"operator/positive_and_negative_phases\": true,\n    \"operator/wrong_K_adjoint_breaks_current\": true,\n    \"operator/wrong_Z_column_rejected\": true,\n    \"orbit/Z_preserved\": true,\n    \"orbit/actual_radial\": true,\n    \"orbit/actual_x\": true,\n    \"orbit/actual_y\": true,\n    \"orbit/determinant_one\": true,\n    \"orbit/full_flatness\": true,\n    \"orbit/gauge_holomorphic_boundary_zero\": true,\n    \"orbit/neutral_affine_boundary_unchanged\": true,\n    \"orbit/neutral_profile_unchanged\": true,\n    \"orbit/nontrivial_phase_not_fixed_entries\": true,\n    \"orbit/offshell_moment_unchanged\": true,\n    \"orbit/radial_Higgs_unchanged\": true,\n    \"orbit/unitary\": true,\n    \"orbit/wrong_radial_omission_fails\": true,\n    \"tangent/L2_comparator_finite\": true,\n    \"tangent/action_leading\": true,\n    \"tangent/comparison_lower_bound\": true,\n    \"tangent/divergent_L4_comparator\": true,\n    \"tangent/exact_phase_has_different_quadratic_term\": true,\n    \"tangent/kinetic_density\": true,\n    \"tangent/kinetic_leading\": true,\n    \"tangent/normalized_leading_strictly_positive\": true,\n    \"tangent/orbit_difference_L4_leading_positive\": true,\n    \"tangent/orbit_difference_density\": true,\n    \"tangent/original_scalar_failure_preserved\": true,\n    \"tangent/straight_exact_density\": true,\n    \"tangent/straight_moment_quadratic\": true,\n    \"tangent/tangent_full_flatness\": true,\n    \"tangent/tangent_linear_moment_zero\": true,\n    \"tangent/trivial_orbit_difference_zero\": true,\n    \"tangent/wrong_leading_value_rejected\": true\n  },\n  \"groups\": {\n    \"compensator\": {\n      \"checks\": {\n        \"full_radial_mixed_zero\": true,\n        \"full_x_mixed_zero\": true,\n        \"full_y_mixed_zero\": true,\n        \"gauge_field_antiHermitian\": true,\n        \"omitted_compensator_x_fails\": true,\n        \"omitted_compensator_y_fails\": true,\n        \"omitted_radial_mixed_derivative_fails\": true,\n        \"wrong_compensator_sign_fails\": true\n      },\n      \"scope\": \"Spacetime-dependent pure compact gauge is not a new physical scalar\"\n    },\n    \"covariance\": {\n      \"checks\": {\n        \"all_curvature_covariance\": true,\n        \"bounded_phase_preserves_Z\": true,\n        \"bracket_cross_not_erased\": true,\n        \"curvature_positive_norm_preserved\": true,\n        \"fixture_compact\": true,\n        \"fixture_radial_antiHermitian\": true,\n        \"full_moment_covariance\": true,\n        \"nonzero_interaction_control\": true,\n        \"omission_breaks_full_moment\": true,\n        \"positive_trace_norm_preserved\": true\n      },\n      \"scope\": \"Nonzero off-shell fixture plus authored general covariance proof\"\n    },\n    \"operator\": {\n      \"checks\": {\n        \"Gamma_A_Hermitian\": true,\n        \"actual_Green_conserved\": true,\n        \"actual_matrix_Z_fixed\": true,\n        \"all_72_components\": true,\n        \"angular_anticommutation_not_invariant\": true,\n        \"boundary_current_unitary\": true,\n        \"charged_neutral_matrix_not_fixed\": true,\n        \"coefficient_unitary\": true,\n        \"correct_radial_Q_transport\": true,\n        \"derivative_omission_rejected\": true,\n        \"exact_Z_trace_unchanged\": true,\n        \"form_unitary\": true,\n        \"nonHermitian_angular_allowed\": true,\n        \"original_matrix_failure_preserved\": true,\n        \"positive_and_negative_phases\": true,\n        \"wrong_K_adjoint_breaks_current\": true,\n        \"wrong_Z_column_rejected\": true\n      },\n      \"form_dimension\": 72,\n      \"scope\": \"Exact transported coefficient/current, not full boundary-domain classification\"\n    },\n    \"orbit\": {\n      \"checks\": {\n        \"Z_preserved\": true,\n        \"actual_radial\": true,\n        \"actual_x\": true,\n        \"actual_y\": true,\n        \"determinant_one\": true,\n        \"full_flatness\": true,\n        \"gauge_holomorphic_boundary_zero\": true,\n        \"neutral_affine_boundary_unchanged\": true,\n        \"neutral_profile_unchanged\": true,\n        \"nontrivial_phase_not_fixed_entries\": true,\n        \"offshell_moment_unchanged\": true,\n        \"radial_Higgs_unchanged\": true,\n        \"unitary\": true,\n        \"wrong_radial_omission_fails\": true\n      },\n      \"moment\": [\n        [\n          \"alpha*exp(-2*h)/r**2 + 4*hp/r + 2*hpp + beta**2*exp(-4*h)/(alpha*r**2)\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"-alpha*exp(-2*h)/r**2 - 4*hp/r - 2*hpp - beta**2*exp(-4*h)/(alpha*r**2)\"\n        ]\n      ],\n      \"scope\": \"All real smooth phases; local exact covariance, gauge admission declared\"\n    },\n    \"tangent\": {\n      \"checks\": {\n        \"L2_comparator_finite\": true,\n        \"action_leading\": true,\n        \"comparison_lower_bound\": \"True\",\n        \"divergent_L4_comparator\": true,\n        \"exact_phase_has_different_quadratic_term\": true,\n        \"kinetic_density\": true,\n        \"kinetic_leading\": true,\n        \"normalized_leading_strictly_positive\": true,\n        \"orbit_difference_L4_leading_positive\": true,\n        \"orbit_difference_density\": true,\n        \"original_scalar_failure_preserved\": true,\n        \"straight_exact_density\": true,\n        \"straight_moment_quadratic\": true,\n        \"tangent_full_flatness\": true,\n        \"tangent_linear_moment_zero\": true,\n        \"trivial_orbit_difference_zero\": true,\n        \"wrong_leading_value_rejected\": true\n      },\n      \"kinetic_density\": \"2*alpha*exp(-2*h) + 4*beta**2*exp(-4*h)/alpha\",\n      \"normalized_leading\": \"8/5\",\n      \"scope\": \"Actual asymptotic comparison, not cutoff fitting or particle count\",\n      \"straight_action_density\": \"epsilon**4*(alpha**2*exp(2*h) + 4*beta**2)**2*exp(-8*h)/(alpha**2*r**2)\",\n      \"straight_increment\": [\n        [\n          \"epsilon**2*(alpha**2*exp(2*h) + 4*beta**2)*exp(-4*h)/(alpha*r**2)\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"epsilon**2*(-alpha**2*exp(2*h) - 4*beta**2)*exp(-4*h)/(alpha*r**2)\"\n        ]\n      ]\n    }\n  },\n  \"scope\": \"Separate algebra normalization with original failures preserved; not independent physics\"\n}\n"
+    },
+    "repair_combined": {
+      "raw_basename": "r73_repair_combined",
+      "raw_receipt_sha256": "5ec5820b54f92bc3aca2ea8219c84f93bcd0a82b6abb3d32acabfa9f74656996",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_multiplet.py",
+          "tests/test_physical_bridge_cone_exact.py",
+          "tests/test_physical_bridge_cone_orbit_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 125.35016999999061,
+        "log_bytes": 111,
+        "log_sha256": "dde4c8e46fc566a2b00931e218d3008573a9bd8b5bf7c8c7c8ba279d049821f9"
+      },
+      "stdout": "......................                                                   [100%]\n22 passed in 122.63s (0:02:02)\n"
+    }
+  },
+  "audit_runs": {
+    "gates_seal": {
+      "raw_basename": "r73_gates_seal",
+      "raw_receipt_sha256": "07d59a09d4ae09fa0dada394fd322494c7b4881a8a63c168d41d77b3944789d2",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 73.13731200003531,
+        "log_bytes": 2189,
+        "log_sha256": "113c24fc040fe78346e29df54c310b679b0f415ec29d6a1f879d58532c3fd9eb"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 270 merges since last review (DUE — run the decadal review)\n"
+    },
+    "cumulative_precommit": {
+      "raw_basename": "r73_cumulative_precommit",
+      "raw_receipt_sha256": "0816bbec42e90b31e1e418bc154a6b7f1ef08785bf8b8fd98d87b2156e1266a9",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.633574999985285,
+        "log_bytes": 38,
+        "log_sha256": "42679e4513a3d14ace06956e543f992e871fd8ec9e86a18f17f6cdc26ce8ba14"
+      },
+      "stdout": "Artifact differs: docs/SEAL_LEDGER.md\n"
+    },
+    "gates_precommit": {
+      "raw_basename": "r73_gates_precommit",
+      "raw_receipt_sha256": "3a390439580a77dba5e2884b68d2fca10811cd2950f47d3c789887aad4e91ef2",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 90.26832099998137,
+        "log_bytes": 2189,
+        "log_sha256": "cce9bb2949fd34aeb95989fcd41a01964b1a695c5d2245f437486caab6e7d823"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 272 merges since last review (DUE — run the decadal review)\n"
+    },
+    "cumulative_repaired": {
+      "raw_basename": "r73_cumulative_repaired",
+      "raw_receipt_sha256": "f8e7a5bdc0c4c56fbbd56fe3b3fe8e538ded1faac03455de617a7082135d84a8",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 9.628062999981921,
+        "log_bytes": 615,
+        "log_sha256": "9371240b67d87824f73e0799d058739c03d53e4c04d04a85f2fe993edaecc2e9"
+      },
+      "stdout": "{\"old_custody\":{\"artifacts\":1100,\"latest_distinct_seals\":419,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":2,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    }
+  },
+  "first_failures": {
+    "controls": [
+      "operator/exact_Z_trace_unchanged",
+      "tangent/orbit_difference_L4_leading_positive"
+    ],
+    "native_checks": 59,
+    "native_passes": 57,
+    "focused_passes": 19,
+    "focused_failures": 3
+  },
+  "final_population": {
+    "controls": 66,
+    "focused_passes": 22,
+    "new_tests": 6
+  },
+  "not_rerun": "Older R63/R64/R69/R71 scientific failures; original R73 files preserved; no full suite or independent analytic review",
+  "metadata_failure": "First cumulative custody exited1: stale docs/SEAL_LEDGER.md digest after new seals. Captured, then latest digest refreshed without science changes."
+}

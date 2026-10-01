@@ -1,5 +1,19 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+**Current path-local R73 (October 1):** the actual compact phase orbit
+preserves nonlinear residual action, peripheral conjugacy and transported
+Q graph/current data. Its finite-norm tangent has a divergent straight
+finite displacement; with its spacetime gauge compensator it is not an
+extra physical scalar if the apex gauge value is admitted. R70's neutral
+period obstruction remains.66 controls and22 R70/R72/R73-control tests
+pass after a separately sealed exact-equality normalization; the original
+57/59 checks and19-pass/3-fail tests remain unchanged. Conditional authored
+proof, not independent analytic acceptance or a selected physical end.
+Next earn the gauge-quotiented interacting/superfield end and core/parent
+join, including sources/anomalies. Full parameter-free physics goal active.
+Report: reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
+Earlier dated entries retain their historical scopes.
+
 **Current path-local R72 (October 1):** an explicit contraction constructs
 exact local Q solutions on the changing canonical cone. Conserved current
 and cutoff estimates give a 36-dimensional nondegenerate witnessed
@@ -4198,3 +4212,29 @@ Source: reports/physical_bridge_2026_09_05/CONE_EXACT.md.
 - PB-PHYSICS: normalized chiral SM interactions/values, quantum
   probabilities/consistency and gravity retain the mission's full scope.
   No whole-architecture no-go, absence or physical completion is asserted.
+
+
+## R73 compact-orbit disposition October 1 2026
+
+The actual compact phase and nonlinear action/Q transport are established
+at conditional authored grade, with66 final controls and22 focused tests.
+First failures and old scientific/governance debt remain. Source:
+reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
+
+- PB-BOUNDARY / PB-ACTION: earn the gauge-quotiented interacting end and
+  all superfield/derivative maps. State which apex gauge values are
+  redundancy versus boundary charges; X0 alone is not invariant under
+  the tested orbit. Keep the actual action and transported domains.
+- PB-BOUNDARY: R70's neutral-period obstruction is not gauged away by
+  this phase. Derive/price an admitted end law or extra end fields.
+  The nonlinear saturated class is sufficient, not a full classification.
+- PB-TRANSITIONS: match the global core/parent and account for sources
+  and anomalies. R72 graph witnesses remain local boundary data, not
+  massless particles, and a formal class index is not an admitted vacuum.
+- PB-REVIEW: independently review the authored covariance/domain proofs.
+  Preserve original R73 two-control/three-test failures and all earlier
+  debt; normalized focused passes are not a full-main certificate.
+- PB-PHYSICS: normalized chiral SM interactions/values, quantum
+  consistency/probabilities and gravity remain the full mission.
+  The received architecture census and interaction design are scoped
+  instruments, not new physical inputs earned by this audit.

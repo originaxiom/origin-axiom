@@ -1,5 +1,20 @@
 # Changelog
 
+
+## 2026-10-01 — Path-local R73 actual compact orbit and same-action transport
+
+Exact compact gauge orbit and its required spacetime compensator preserve
+the supplied cone action; finite tangent norm is not matter, and divergent
+affine displacement does not kill the exact orbit. Q/current and graph
+domains travel with the background, not frozen angular Hermiticity.
+66 final controls and22 focused tests pass through separately sealed
+normalization; original57/59 controls and19-pass/3-fail tests stay.
+R70 neutral-period obstruction and physical end/core/anomaly duties remain.
+Fetched October1 main/SM/review work read for scope, not independently
+certified. Science7feea9fa, separate controls48f17e47; both pushed before
+execution. Conditional authored proof, no chiral SM, values or TOE.
+Report: reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
+
 ## 2026-10-01 - R72 exact local logarithmic cone graph witnesses
 
 An explicit contraction constructs exact solutions, without trusting

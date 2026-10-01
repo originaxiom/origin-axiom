@@ -1,4 +1,18 @@
-# Verdict toward the full physical-theory goal - R72, updated 2026-10-01
+# Verdict toward the full physical-theory goal - R73, updated 2026-10-01
+
+**Current path-local R73 (October 1):** the actual compact phase orbit
+preserves nonlinear residual action, peripheral conjugacy and transported
+Q graph/current data. Its finite-norm tangent has a divergent straight
+finite displacement; with its spacetime gauge compensator it is not an
+extra physical scalar if the apex gauge value is admitted. R70's neutral
+period obstruction remains.66 controls and22 R70/R72/R73-control tests
+pass after a separately sealed exact-equality normalization; the original
+57/59 checks and19-pass/3-fail tests remain unchanged. Conditional authored
+proof, not independent analytic acceptance or a selected physical end.
+Next earn the gauge-quotiented interacting/superfield end and core/parent
+join, including sources/anomalies. Full parameter-free physics goal active.
+Report: reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
+Earlier dated entries retain their historical scopes.
 
 **Current path-local R72 (October 1):** an explicit contraction constructs
 exact local Q solutions on the changing canonical cone. Conserved current

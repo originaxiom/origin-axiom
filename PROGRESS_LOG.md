@@ -16129,3 +16129,36 @@ The action, metric and physical realization are still supplied inputs.
 Parameter-free SM interactions/values, quantum consistency, probabilities
 and gravity retain their full mission requirements. Goal active, unachieved.
 Report: reports/physical_bridge_2026_09_05/CONE_EXACT.md.
+
+
+## 2026-10-01 — R73 actual compact orbit and common action map
+
+Science7feea9fa and separate normalization48f17e47 were pushed and
+server-confirmed before their executions. The actual logarithmic cone's
+compact phase preserves both residuals; nonzero interactions retain
+positive action covariance. Its finite kinetic tangent has infinite
+straight-displacement action, but its exact orbit has zero residuals.
+The full Q/Green/graph domain transforms unitarily, even when the angular
+matrix ceases to be Hermitian. Spacetime compensators remove false scalar
+kinetics. Gauge admission at the apex is still a declared end-law input.
+
+Native first57/59, exit1; focused first19 passed/3 failed. Two structural
+exact-equality comparisons were repaired only in a new sealed instrument.
+Original code/tests/captures remain. Final66 controls, including two
+original-defect custody checks, and22 focused R70/R72/R73-control tests
+pass;6 new tests. Native sha256 cc08c87ad510811b15023165fbe5af8dc55c39a2168b89d8cc6b64d7f4d06278;
+focused sha256 dde4c8e46fc566a2b00931e218d3008573a9bd8b5bf7c8c7c8ba279d049821f9.
+No full suite or independent analytic review; old scientific failures
+and exact4 historical governance debts are retained.
+
+Fetched/read main6093e23c B1434/B1435, SM3edaf1fa B1508/B1509, review
+5d58b935 October1 sweep for context only; no merge or reproduction claim.
+The compact orbit leaves R70's Z-period mismatch intact. Next earn the
+gauge-quotiented interacting/superfield end, actual core/parent join and
+anomaly/source account; no particle/chirality/SM value or TOE is derived.
+All reader surfaces updated; full approved physics mission unchanged.
+Report: reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
+
+R73 custody caught a stale seal-ledger digest after the new seal entries.
+The first cumulative failure is retained; latest metadata hashes were
+refreshed separately without changing any frozen scientific input.
