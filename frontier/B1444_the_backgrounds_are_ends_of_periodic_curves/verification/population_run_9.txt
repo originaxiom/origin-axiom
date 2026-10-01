@@ -1,0 +1,16 @@
+   -LLRR level 1 l = (1, 1) slope -1.0: 6 sectors, zero-type True, filling-type True
+   -LLRR level 1 l = (1, 3) slope 5.70996849712435e-62: 6 sectors, zero-type True, filling-type True
+   -LLRR level 1 l = (3, 1) slope 4.44165264921383e-122: 6 sectors, zero-type True, filling-type True
+   -LLRR level 1 l = (3, 3) slope -1.0: 6 sectors, zero-type True, filling-type True
+   +LLRR level 2 l = (0, 2) slope -1.0: 30 sectors, zero-type False, filling-type False
+   +LLRR level 2 l = (1, 5) slope -2.4142135623731: 30 sectors, zero-type False, filling-type False
+   +LLRR level 2 l = (2, 4) slope 1.0: 30 sectors, zero-type False, filling-type False
+   +LLRR level 2 l = (3, 5) slope -0.414213562373095: 30 sectors, zero-type False, filling-type False
+   +LLRR level 2 l = (5, 1) slope 0.414213562373095: 30 sectors, zero-type False, filling-type False
+   +LLRR level 2 l = (6, 0) slope 1.0: 30 sectors, zero-type False, filling-type False
+   -LLRR level 2 l = (0, 2) slope -2.0: 30 sectors, zero-type False, filling-type False
+   -LLRR level 2 l = (1, 5) slope -3.4142135623731: 30 sectors, zero-type False, filling-type False
+   -LLRR level 2 l = (2, 4) slope 6.61195373272746e-61: 30 sectors, zero-type False, filling-type False
+   -LLRR level 2 l = (3, 5) slope -1.4142135623731: 30 sectors, zero-type False, filling-type False
+   -LLRR level 2 l = (5, 1) slope -0.585786437626905: 30 sectors, zero-type False, filling-type False
+   -LLRR level 2 l = (6, 0) slope -4.4727922309627e-60: 30 sectors, zero-type False, filling-type False

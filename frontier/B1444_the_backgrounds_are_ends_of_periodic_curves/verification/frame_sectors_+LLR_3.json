@@ -1,0 +1,2815 @@
+{
+ "state": "+LLR",
+ "k": 3,
+ "backgrounds": 48,
+ "table": [
+  {
+   "l": [
+    2,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    6
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    6
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    6
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    6
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    8
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    8
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    8
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    8
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    6
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    6
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    6
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    4,
+    6
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    4
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    4
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    4
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    4
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    8
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    8
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    8
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    6,
+    8
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      0,
+      2
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      6,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4-1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 3,
+     "coeff": "9/20-1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    4
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      4
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      6,
+      6
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    4
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      6
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      0
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    4
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      4,
+      8
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      4,
+      4
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  },
+  {
+   "l": [
+    8,
+    4
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      8,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "L": {
+     "alpha": [
+      2,
+      8
+     ],
+     "order": 2,
+     "coeff": "3/4+1/4*sqrt(5)"
+    },
+    "nuc": {
+     "alpha": [
+      4,
+      2
+     ],
+     "order": 3,
+     "coeff": "9/20+1/5*sqrt(5)"
+    }
+   }
+  }
+ ],
+ "patterns": [
+  {
+   "count": 24,
+   "pattern": [
+    [
+     "Q",
+     2,
+     "1/2"
+    ],
+    [
+     "uc",
+     2,
+     "1/2"
+    ],
+    [
+     "ec",
+     2,
+     "1/2"
+    ],
+    [
+     "dc",
+     2,
+     "3/4+1/4*sqrt(5)"
+    ],
+    [
+     "L",
+     2,
+     "3/4+1/4*sqrt(5)"
+    ],
+    [
+     "nuc",
+     3,
+     "9/20+1/5*sqrt(5)"
+    ]
+   ]
+  },
+  {
+   "count": 24,
+   "pattern": [
+    [
+     "Q",
+     2,
+     "1/2"
+    ],
+    [
+     "uc",
+     2,
+     "1/2"
+    ],
+    [
+     "ec",
+     2,
+     "1/2"
+    ],
+    [
+     "dc",
+     2,
+     "3/4-1/4*sqrt(5)"
+    ],
+    [
+     "L",
+     2,
+     "3/4-1/4*sqrt(5)"
+    ],
+    [
+     "nuc",
+     3,
+     "9/20-1/5*sqrt(5)"
+    ]
+   ]
+  }
+ ]
+}

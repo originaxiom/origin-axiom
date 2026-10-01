@@ -1,0 +1,99 @@
+# record of the run of 2026-10-01 made with this script before the exact recognition of coefficients was added
+# (same computation; coefficients printed to 10 digits; the recognition step stalls on this level's degree-five slope field)
++LR level 5: 121 characters, 400 generation-shaped backgrounds (200 of sign +)
+   patterns (sector: order, coefficient) x count:
+      80 x  Q:2,1712.105147  uc:2,1712.105147  ec:2,1712.105147  dc:2,1710.542597  L:2,1710.542597  nuc:1,95.5297712
+      80 x  Q:2,10.5985743  uc:2,10.5985743  ec:2,10.5985743  dc:2,2.054920391  L:2,2.054920391  nuc:1,4.106706519
+   l = (1, 4) slope -0.4651863 analysed
+   l = (1, 5) slope 1.4329526 analysed
+   l = (1, 6) slope -0.4651863 analysed
+   l = (1, 8) slope -1.7784345 analysed
+   l = (1, 9) slope -6.9112145 analysed
+   l = (1, 10) slope 6.9112145 analysed
+   l = (2, 0) slope 1.4329526 analysed
+   l = (2, 1) slope 6.9112145 analysed
+   l = (2, 2) slope -1.4329526 analysed
+   l = (2, 4) slope -1.3425847 analysed
+   l = (2, 5) slope -1.3425847 analysed
+   l = (2, 7) slope -1.4329526 analysed
+   l = (2, 8) slope 6.9112145 analysed
+   l = (2, 9) slope 1.4329526 analysed
+   l = (2, 10) slope 1.7784345 analysed
+   l = (3, 0) slope 1.3425847 analysed
+   l = (3, 1) slope 1.7784345 analysed
+   l = (3, 2) slope -6.9112145 analysed
+   l = (3, 3) slope -1.3425847 analysed
+   l = (3, 4) slope -0.4651863 analysed
+   l = (3, 5) slope -1.3425847 analysed
+   l = (3, 6) slope -6.9112145 analysed
+   l = (3, 7) slope 1.7784345 analysed
+   l = (3, 8) slope 1.3425847 analysed
+   l = (4, 0) slope 1.7784345 analysed
+   l = (4, 2) slope 1.4329526 analysed
+   l = (4, 3) slope -1.7784345 analysed
+   l = (4, 4) slope -1.7784345 analysed
+   l = (4, 5) slope 1.4329526 analysed
+   l = (4, 7) slope 1.7784345 analysed
+   l = (4, 8) slope 0.4651863 analysed
+   l = (4, 9) slope 1.3425847 analysed
+   l = (4, 10) slope 0.4651863 analysed
+   l = (5, 0) slope -0.4651863 analysed
+   l = (5, 1) slope 0.4651863 analysed
+   l = (5, 3) slope 6.9112145 analysed
+   l = (5, 5) slope 0.4651863 analysed
+   l = (5, 6) slope -0.4651863 analysed
+   l = (5, 7) slope -1.4329526 analysed
+   l = (5, 8) slope 1.3425847 analysed
+   l = (5, 9) slope 1.3425847 analysed
+   l = (5, 10) slope -1.4329526 analysed
+   l = (6, 0) slope -0.4651863 analysed
+   l = (6, 1) slope -1.4329526 analysed
+   l = (6, 2) slope 1.3425847 analysed
+   l = (6, 3) slope 1.3425847 analysed
+   l = (6, 4) slope -1.4329526 analysed
+   l = (6, 5) slope -0.4651863 analysed
+   l = (6, 6) slope 0.4651863 analysed
+   l = (6, 8) slope 6.9112145 analysed
+   l = (6, 10) slope 0.4651863 analysed
+   l = (7, 0) slope 1.7784345 analysed
+   l = (7, 1) slope 0.4651863 analysed
+   l = (7, 2) slope 1.3425847 analysed
+   l = (7, 3) slope 0.4651863 analysed
+   l = (7, 4) slope 1.7784345 analysed
+   l = (7, 6) slope 1.4329526 analysed
+   l = (7, 7) slope -1.7784345 analysed
+   l = (7, 8) slope -1.7784345 analysed
+   l = (7, 9) slope 1.4329526 analysed
+   l = (8, 0) slope 1.3425847 analysed
+   l = (8, 3) slope 1.3425847 analysed
+   l = (8, 4) slope 1.7784345 analysed
+   l = (8, 5) slope -6.9112145 analysed
+   l = (8, 6) slope -1.3425847 analysed
+   l = (8, 7) slope -0.4651863 analysed
+   l = (8, 8) slope -1.3425847 analysed
+   l = (8, 9) slope -6.9112145 analysed
+   l = (8, 10) slope 1.7784345 analysed
+   l = (9, 0) slope 1.4329526 analysed
+   l = (9, 1) slope 1.7784345 analysed
+   l = (9, 2) slope 1.4329526 analysed
+   l = (9, 3) slope 6.9112145 analysed
+   l = (9, 4) slope -1.4329526 analysed
+   l = (9, 6) slope -1.3425847 analysed
+   l = (9, 7) slope -1.3425847 analysed
+   l = (9, 9) slope -1.4329526 analysed
+   l = (9, 10) slope 6.9112145 analysed
+   l = (10, 0) slope 6.9112145 analysed
+   l = (10, 1) slope 6.9112145 analysed
+   l = (10, 2) slope -6.9112145 analysed
+   l = (10, 3) slope -1.7784345 analysed
+   l = (10, 5) slope -0.4651863 analysed
+   l = (10, 6) slope 1.4329526 analysed
+   l = (10, 7) slope -0.4651863 analysed
+   l = (10, 9) slope -1.7784345 analysed
+   l = (10, 10) slope -6.9112145 analysed
+   patterns (sector: order, coefficient) x count:
+      80 x  Q:2,99290/153+93913/153*sqrt(3)  uc:2,99290/153+93913/153*sqrt(3)  ec:2,99290/153+93913/153*sqrt(3)  dc:2,1710.5425974713  L:2,1710.5425974713  nuc:1,95.529771198739
+      80 x  Q:2,84791/46397+88804/46397*sqrt(21)  uc:2,84791/46397+88804/46397*sqrt(21)  ec:2,84791/46397+88804/46397*sqrt(21)  dc:2,2.0549203913158  L:2,2.0549203913158  nuc:1,4.1067065191284
+      80 x  Q:2,1.096804913217  uc:2,1.096804913217  ec:2,1.096804913217  dc:2,0.3586207681376  L:2,0.3586207681376  nuc:1,-13872/563+67465/3378*sqrt(2)
+      80 x  Q:2,1.5253405316638  uc:2,1.5253405316638  ec:2,1.5253405316638  dc:2,3.2595128213207  L:2,3.2595128213207  nuc:1,6.3256582096154
+      80 x  Q:2,-0.32586675101148  uc:2,-0.32586675101148  ec:2,-0.32586675101148  dc:2,-0.21565145209946  L:2,-0.21565145209946  nuc:1,0.43279658124924

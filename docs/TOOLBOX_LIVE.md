@@ -60,6 +60,13 @@ escalation are the proof).
     gives s exactly over ℚ(ζ_N); `cot_formula.py` the letter-by-letter closed form.
   - `frontier/B1439_the_census_by_slope/verification/census_by_slope.py` — the same with the vanishing of every
     allowed coupling, and `population(maxlen, tmax)` for any range of signed word states.
+  - `frontier/B1444_the_backgrounds_are_ends_of_periodic_curves/verification/curve_engine.py` — the periodic curve of
+    the trace map through a background (`Background(eps, word, k, ell)`, `.point(e)` at κ = 2 − e by continuation),
+    the meridian as the intertwiner, `sector_torsion`, and `analyse` (order and leading coefficient of every
+    sector's torsion at the reducible end, against the slopes); `frame_sectors.py` assembles the frame's
+    backgrounds from slopes and tabulates their sectors. mpmath at 60 digits: **set `mpmath.mp.dps = 60` in a
+    fixture, the suite resets it between tests.** Continuation in real e stops at a branch point of κ (e = 1/4 on
+    s961); go round it in the complex plane.
   - `frontier/B1435_the_interaction_census/verification/relcup.py` — the relative triple product a ∪ b ∪ h on an
     explicit relative fundamental chain (`Bundle.fundamental()` asserts ∂C = z as integer chains); modules and
     cocycles over a prime field; `interaction_census.py` drives it; `exact_couplings.py` is the second

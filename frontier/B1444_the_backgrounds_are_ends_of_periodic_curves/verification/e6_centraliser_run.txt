@@ -1,0 +1,5 @@
+roots of E6 in the centraliser of su(3) + su(2)_L + u(1)_Y: 2 [(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(-1, 1))]
+roots of E6 orthogonal to beta (the centraliser of su(2)_beta): 30  -> su(6) has 30
+all Standard-Model roots commute with beta: True ; Y orthogonal to beta: True
+su(5) roots: 20 all orthogonal to beta: True
+dimension of the centraliser: 2 roots + rank 6 - 3 = 5

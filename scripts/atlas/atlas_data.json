@@ -9006,6 +9006,37 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1444": {
+   "slug": "the backgrounds are ends of periodic curves",
+   "motifs": [
+    "closing",
+    "coupling",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B448",
+    "L235",
+    "L236",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B144": {
    "slug": "interaction chirality",
    "motifs": [

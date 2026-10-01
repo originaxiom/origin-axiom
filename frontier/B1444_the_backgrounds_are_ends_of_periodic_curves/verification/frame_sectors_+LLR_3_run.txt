@@ -1,0 +1,16 @@
++LLR level 3: 50 characters, 48 generation-shaped backgrounds (24 of sign +)
+   l = (2, 0) slope 1.0 analysed
+   l = (2, 6) slope 1.0 analysed
+   l = (2, 8) slope 1.0 analysed
+   l = (4, 0) slope 1.0 analysed
+   l = (4, 2) slope 1.0 analysed
+   l = (4, 6) slope 1.0 analysed
+   l = (6, 0) slope 1.0 analysed
+   l = (6, 4) slope 1.0 analysed
+   l = (6, 8) slope 1.0 analysed
+   l = (8, 0) slope 1.0 analysed
+   l = (8, 2) slope 1.0 analysed
+   l = (8, 4) slope 1.0 analysed
+   patterns (sector: order, coefficient) x count:
+      24 x  Q:2,1/2  uc:2,1/2  ec:2,1/2  dc:2,3/4+1/4*sqrt(5)  L:2,3/4+1/4*sqrt(5)  nuc:3,9/20+1/5*sqrt(5)
+      24 x  Q:2,1/2  uc:2,1/2  ec:2,1/2  dc:2,3/4-1/4*sqrt(5)  L:2,3/4-1/4*sqrt(5)  nuc:3,9/20-1/5*sqrt(5)

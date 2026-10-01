@@ -1,0 +1,68 @@
+{
+ "state": "+LLLR",
+ "k": 1,
+ "torsion": 3,
+ "exponent": 3,
+ "backgrounds": [
+  {
+   "ell": [
+    1,
+    0
+   ],
+   "slope": "0.333333333333333",
+   "sigma": [
+    -1,
+    -1,
+    1
+   ],
+   "sectors": [
+    {
+     "beta": [
+      1,
+      0
+     ],
+     "index": 0,
+     "matches": 2,
+     "order": 3,
+     "predicted_first": "6.05092486695206e-123",
+     "coeff": "0.00548696844993141",
+     "coeff_imag": "1.14e-42"
+    }
+   ],
+   "zero_type": false,
+   "cusp_shape_limit": "0.333333333338272",
+   "slope_limit_ok": true,
+   "filling_type": false
+  },
+  {
+   "ell": [
+    2,
+    0
+   ],
+   "slope": "0.333333333333333",
+   "sigma": [
+    1,
+    1,
+    1
+   ],
+   "sectors": [
+    {
+     "beta": [
+      2,
+      0
+     ],
+     "index": 0,
+     "matches": 2,
+     "order": 3,
+     "predicted_first": "6.05092486695206e-123",
+     "coeff": "0.00548696844993141",
+     "coeff_imag": "1.3e-42"
+    }
+   ],
+   "zero_type": false,
+   "cusp_shape_limit": "0.333333333338272",
+   "slope_limit_ok": true,
+   "filling_type": false
+  }
+ ]
+}

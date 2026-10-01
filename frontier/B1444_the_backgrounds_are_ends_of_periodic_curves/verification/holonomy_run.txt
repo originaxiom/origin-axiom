@@ -1,0 +1,8 @@
+Phi^3(x) = xyxyxxyxyxxyxxyxyxxyx   Phi^3(y) = yxxyxxyxyxxyx
+check traces: tr Phi^3(x) / X = 1   tr Phi^3(y)/Y = -1   tr(Phi^3(x)Phi^3(y))/Z = -1
+dim of solutions T: 1
+kappa = (u^4 - u^3 + u + 1)/u^2
+m + 1/m + 2 = (-u^6 + u^5 - u^4 + 2*u^3 + u^2 + u + 1)/u^3
+kappa - 2 - w(w-1) = 0
+m + 1/m - 2 = (-u^6 + u^5 - u^4 - 2*u^3 + u^2 + u + 1)/u^3    norm: u^-6 * (u - 1)^2 * (u + 1)^2 * (u^4 - u^3 + 2*u^2 + u + 1)^2
+l + 1/l - 2 = (u^4 - u^3 - 2*u^2 + u + 1)/u^2

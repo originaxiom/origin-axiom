@@ -1,0 +1,7 @@
++LLRLRRLR level 1: 36 characters, 16 generation-shaped backgrounds (8 of sign +)
+   l = (1, 2) slope -1.0 analysed
+   l = (3, 1) slope 1.0 analysed
+   l = (3, 5) slope 1.0 analysed
+   l = (5, 4) slope -1.0 analysed
+   patterns (sector: order, coefficient) x count:
+      16 x  Q:None,None  uc:None,None  ec:None,None  dc:None,None  L:None,None  nuc:None,None

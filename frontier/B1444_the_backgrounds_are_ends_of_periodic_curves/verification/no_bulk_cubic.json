@@ -1,0 +1,41 @@
+[
+ {
+  "state": "+LR",
+  "k": 3,
+  "trivial_module": {
+   "a0": 1,
+   "a1": 1,
+   "h2": 0
+  },
+  "orbits": {
+   "down: pairwise products all zero": 16,
+   "up: pairwise products all zero": 16
+  }
+ },
+ {
+  "state": "-LLLR",
+  "k": 3,
+  "trivial_module": {
+   "a0": 1,
+   "a1": 1,
+   "h2": 0
+  },
+  "orbits": {
+   "down: pairwise products all zero": 16,
+   "up: pairwise products all zero": 16
+  }
+ },
+ {
+  "state": "+LR",
+  "k": 5,
+  "trivial_module": {
+   "a0": 1,
+   "a1": 1,
+   "h2": 0
+  },
+  "orbits": {
+   "down: pairwise products all zero": 80,
+   "up: pairwise products all zero": 80
+  }
+ }
+]

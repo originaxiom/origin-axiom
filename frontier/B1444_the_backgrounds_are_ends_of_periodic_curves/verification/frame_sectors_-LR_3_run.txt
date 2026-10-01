@@ -1,0 +1,15 @@
+-LR level 3: 20 characters, 96 generation-shaped backgrounds (48 of sign +)
+   l = (1, 2) slope -2.618034 analysed
+   l = (1, 7) slope -2.618034 analysed
+   l = (2, 9) slope -0.38196601 analysed
+   l = (3, 1) slope -0.38196601 analysed
+   l = (3, 6) slope -0.38196601 analysed
+   l = (4, 3) slope -2.618034 analysed
+   l = (6, 7) slope -2.618034 analysed
+   l = (7, 4) slope -0.38196601 analysed
+   l = (7, 9) slope -0.38196601 analysed
+   l = (8, 1) slope -0.38196601 analysed
+   l = (9, 3) slope -2.618034 analysed
+   l = (9, 8) slope -2.618034 analysed
+   patterns (sector: order, coefficient) x count:
+      96 x  Q:2,3/4  uc:2,3/4  ec:2,3/4  dc:2,3/4  L:2,3/4  nuc:1,5

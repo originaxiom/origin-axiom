@@ -1,0 +1,26 @@
+[
+ {
+  "sign": 1,
+  "u_minpoly": "x^4 - x^3 + 2*x^2 + x + 1",
+  "X_minpoly": "x^4 + 3*x^3 + 5*x^2 + 6*x + 4",
+  "Zsq_minpoly": "x^4 - x^3 + 5*x^2 - 8*x + 4",
+  "kappa": "-2",
+  "m_plus_inv_minus_2": "0",
+  "tau_tauprime_minpoly": "x^4 + 8*x^3 + 80*x^2 - 3584*x + 16384",
+  "E_squared_minpoly": "x^4 - 24*x^3 + 272*x^2 + 2304*x + 4096",
+  "E_squared_is_square_in_K": true,
+  "Zsq_is_square_in_K": false
+ },
+ {
+  "sign": -1,
+  "u_minpoly": "x^4 - x^3 + 2*x^2 + x + 1",
+  "X_minpoly": "x^4 + 3*x^3 + 5*x^2 + 6*x + 4",
+  "Zsq_minpoly": "x^4 - x^3 + 5*x^2 - 8*x + 4",
+  "kappa": "-2",
+  "m_plus_inv_minus_2": "0",
+  "tau_tauprime_minpoly": "x^4 + 8*x^3 + 80*x^2 - 3584*x + 16384",
+  "E_squared_minpoly": "x^4 - 24*x^3 + 272*x^2 + 2304*x + 4096",
+  "E_squared_is_square_in_K": true,
+  "Zsq_is_square_in_K": false
+ }
+]

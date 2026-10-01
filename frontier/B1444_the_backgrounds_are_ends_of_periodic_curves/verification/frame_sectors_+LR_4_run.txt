@@ -1,0 +1,40 @@
++LR level 4: 45 characters, 256 generation-shaped backgrounds (128 of sign +)
+   l = (1, 2) slope -2.618034 analysed
+   l = (1, 7) slope 0.38196601 analysed
+   l = (1, 12) slope -2.618034 analysed
+   l = (2, 4) slope -0.38196601 analysed
+   l = (2, 9) slope -0.38196601 analysed
+   l = (2, 14) slope 2.618034 analysed
+   l = (3, 1) slope 2.618034 analysed
+   l = (3, 11) slope 2.618034 analysed
+   l = (4, 3) slope -2.618034 analysed
+   l = (4, 8) slope -2.618034 analysed
+   l = (4, 13) slope 0.38196601 analysed
+   l = (6, 2) slope 0.38196601 analysed
+   l = (6, 7) slope 0.38196601 analysed
+   l = (7, 4) slope 2.618034 analysed
+   l = (7, 9) slope -0.38196601 analysed
+   l = (7, 14) slope -0.38196601 analysed
+   l = (8, 1) slope -0.38196601 analysed
+   l = (8, 6) slope -0.38196601 analysed
+   l = (8, 11) slope 2.618034 analysed
+   l = (9, 8) slope 0.38196601 analysed
+   l = (9, 13) slope 0.38196601 analysed
+   l = (11, 2) slope 0.38196601 analysed
+   l = (11, 7) slope -2.618034 analysed
+   l = (11, 12) slope -2.618034 analysed
+   l = (12, 4) slope 2.618034 analysed
+   l = (12, 14) slope 2.618034 analysed
+   l = (13, 1) slope 2.618034 analysed
+   l = (13, 6) slope -0.38196601 analysed
+   l = (13, 11) slope -0.38196601 analysed
+   l = (14, 3) slope -2.618034 analysed
+   l = (14, 8) slope 0.38196601 analysed
+   l = (14, 13) slope -2.618034 analysed
+   patterns (sector: order, coefficient) x count:
+      64 x  Q:2,69/4+15/2*sqrt(5)  uc:2,69/4+15/2*sqrt(5)  ec:2,69/4+15/2*sqrt(5)  dc:2,67/4+38/5*sqrt(5)  L:2,67/4+38/5*sqrt(5)  nuc:1,5+3*sqrt(5)
+      64 x  Q:2,69/4-15/2*sqrt(5)  uc:2,69/4-15/2*sqrt(5)  ec:2,69/4-15/2*sqrt(5)  dc:2,67/4-38/5*sqrt(5)  L:2,67/4-38/5*sqrt(5)  nuc:1,5-3*sqrt(5)
+      32 x  Q:2,69/4+15/2*sqrt(5)  uc:2,69/4+15/2*sqrt(5)  ec:2,69/4+15/2*sqrt(5)  dc:2,79/4+9*sqrt(5)  L:2,79/4+9*sqrt(5)  nuc:1,5
+      32 x  Q:2,69/4+15/2*sqrt(5)  uc:2,69/4+15/2*sqrt(5)  ec:2,69/4+15/2*sqrt(5)  dc:2,287/20+31/5*sqrt(5)  L:2,287/20+31/5*sqrt(5)  nuc:1,1/2+3/2*sqrt(5)
+      32 x  Q:2,69/4-15/2*sqrt(5)  uc:2,69/4-15/2*sqrt(5)  ec:2,69/4-15/2*sqrt(5)  dc:2,79/4-9*sqrt(5)  L:2,79/4-9*sqrt(5)  nuc:1,5
+      32 x  Q:2,69/4-15/2*sqrt(5)  uc:2,69/4-15/2*sqrt(5)  ec:2,69/4-15/2*sqrt(5)  dc:2,287/20-31/5*sqrt(5)  L:2,287/20-31/5*sqrt(5)  nuc:1,1/2-3/2*sqrt(5)

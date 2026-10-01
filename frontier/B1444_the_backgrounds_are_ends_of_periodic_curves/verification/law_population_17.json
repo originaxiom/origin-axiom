@@ -1,0 +1,92 @@
+{
+ "state": "+LLLLR",
+ "k": 1,
+ "torsion": 4,
+ "exponent": 4,
+ "backgrounds": [
+  {
+   "ell": [
+    1,
+    0
+   ],
+   "slope": "0.5",
+   "sigma": [
+    -1,
+    -1,
+    1
+   ],
+   "sectors": [
+    {
+     "beta": [
+      1,
+      0
+     ],
+     "index": -1,
+     "matches": 1,
+     "order": 2,
+     "predicted_first": "3.88938454866321e-62",
+     "coeff": "0.09375",
+     "coeff_imag": "5.86e-42"
+    },
+    {
+     "beta": [
+      2,
+      0
+     ],
+     "index": 1,
+     "matches": 1,
+     "order": 2,
+     "predicted_first": "3.88938454866321e-62",
+     "coeff": "0.09375",
+     "coeff_imag": "1.1e-51"
+    }
+   ],
+   "zero_type": false,
+   "cusp_shape_limit": "0.500000000025",
+   "slope_limit_ok": true,
+   "filling_type": false
+  },
+  {
+   "ell": [
+    3,
+    0
+   ],
+   "slope": "0.5",
+   "sigma": [
+    -1,
+    -1,
+    1
+   ],
+   "sectors": [
+    {
+     "beta": [
+      2,
+      0
+     ],
+     "index": 1,
+     "matches": 1,
+     "order": 2,
+     "predicted_first": "-3.88938454866321e-62",
+     "coeff": "0.09375",
+     "coeff_imag": "2.01e-41"
+    },
+    {
+     "beta": [
+      3,
+      0
+     ],
+     "index": -1,
+     "matches": 1,
+     "order": 2,
+     "predicted_first": "-3.88938454866321e-62",
+     "coeff": "0.09375",
+     "coeff_imag": "8.68e-52"
+    }
+   ],
+   "zero_type": false,
+   "cusp_shape_limit": "0.500000000025",
+   "slope_limit_ok": true,
+   "filling_type": false
+  }
+ ]
+}

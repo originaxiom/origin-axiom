@@ -542,6 +542,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1324` | PROVED | L | | PHASE 2 ARC B + THE DISCRETE-SYMMETRY DICTIONARY (DESIGN sealed 03d98827 before any computation). ARC B, the census before any index: of the 87 covers of m004 to degree 10 (B1295's list, 0 mismatches)… |
 | `B1438` | PROVED | L | | THE SLOPE LAW. For a character chi of a level, trivial on the meridian and non-trivial on the fibre, let s(chi) be the value on the meridian of the class of H^1(M; chi) n… |
 | `B1440` | PROVED | L | | THE RANK BOUND. On a once-punctured-torus bundle, any finite-dimensional module V of the fundamental group with no invariants and no coinvariants on the fibre group has c… |
+| `B1444` | PROVED | L | | THE BACKGROUNDS ARE THE REDUCIBLE ENDS OF THE TRACE MAP'S PERIODIC CURVES. A background of the Standard-Model frame carries a reducible non-split rank-two representation … |
 
 ## The exhibit that forced the rebuild
 

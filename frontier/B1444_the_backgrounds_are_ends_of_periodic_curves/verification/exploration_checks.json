@@ -1,0 +1,739 @@
+{
+ "totals": {
+  "backgrounds": 56,
+  "slope_limit_ok": 56,
+  "zero_type": 11,
+  "filling_type": 11,
+  "agree": 56
+ },
+ "backgrounds": [
+  {
+   "state": "+LR",
+   "k": 2,
+   "ell": [
+    1,
+    2
+   ],
+   "slope": "-0.4472135955",
+   "cusp_shape_limit": "0.447213595499",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 2,
+   "ell": [
+    2,
+    4
+   ],
+   "slope": "0.4472135955",
+   "cusp_shape_limit": "0.447213595499",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 2,
+   "ell": [
+    3,
+    1
+   ],
+   "slope": "0.4472135955",
+   "cusp_shape_limit": "0.447213595499",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 2,
+   "ell": [
+    4,
+    3
+   ],
+   "slope": "-0.4472135955",
+   "cusp_shape_limit": "0.447213595499",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 1,
+   "ell": [
+    1,
+    2
+   ],
+   "slope": "-0.72360679775",
+   "cusp_shape_limit": "0.72360679775",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 1,
+   "ell": [
+    2,
+    4
+   ],
+   "slope": "-0.27639320225",
+   "cusp_shape_limit": "0.27639320225",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 1,
+   "ell": [
+    3,
+    1
+   ],
+   "slope": "-0.27639320225",
+   "cusp_shape_limit": "0.27639320225",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 1,
+   "ell": [
+    4,
+    3
+   ],
+   "slope": "-0.72360679775",
+   "cusp_shape_limit": "0.72360679775",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 2,
+   "ell": [
+    1,
+    2
+   ],
+   "slope": "-1.4472135955",
+   "cusp_shape_limit": "1.4472135955",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 2,
+   "ell": [
+    2,
+    4
+   ],
+   "slope": "-0.5527864045",
+   "cusp_shape_limit": "0.552786404501",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 2,
+   "ell": [
+    3,
+    1
+   ],
+   "slope": "-0.5527864045",
+   "cusp_shape_limit": "0.552786404501",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 2,
+   "ell": [
+    4,
+    3
+   ],
+   "slope": "-1.4472135955",
+   "cusp_shape_limit": "1.4472135955",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    0,
+    4
+   ],
+   "slope": "-1.33333333333",
+   "cusp_shape_limit": "1.33333333334",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    0,
+    8
+   ],
+   "slope": "-1.33333333333",
+   "cusp_shape_limit": "1.33333333334",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    3,
+    3
+   ],
+   "slope": "-1.5",
+   "cusp_shape_limit": "1.50000000002",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    3,
+    7
+   ],
+   "slope": "2.49369552345e-61",
+   "cusp_shape_limit": "0.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    3,
+    11
+   ],
+   "slope": "-3.88938454866e-61",
+   "cusp_shape_limit": "0.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    6,
+    2
+   ],
+   "slope": "-5.83407682299e-62",
+   "cusp_shape_limit": "0.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    6,
+    10
+   ],
+   "slope": "5.2506691407e-61",
+   "cusp_shape_limit": "0.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    9,
+    1
+   ],
+   "slope": "1.01123998265e-60",
+   "cusp_shape_limit": "0.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    9,
+    5
+   ],
+   "slope": "-7.76380438965e-61",
+   "cusp_shape_limit": "0.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "ell": [
+    9,
+    9
+   ],
+   "slope": "-1.5",
+   "cusp_shape_limit": "1.50000000002",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LLR",
+   "k": 2,
+   "ell": [
+    1,
+    2
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "+LLR",
+   "k": 2,
+   "ell": [
+    2,
+    1
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.0000000001",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LLR",
+   "k": 2,
+   "ell": [
+    4,
+    2
+   ],
+   "slope": "0.333333333333",
+   "cusp_shape_limit": "0.333333333331",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LLR",
+   "k": 2,
+   "ell": [
+    5,
+    1
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.0000000001",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    0,
+    1
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    0,
+    3
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    1,
+    0
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    1,
+    1
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    1,
+    2
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    1,
+    3
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    2,
+    1
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    2,
+    3
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    3,
+    0
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    3,
+    1
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    3,
+    2
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "ell": [
+    3,
+    3
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLLR",
+   "k": 3,
+   "ell": [
+    0,
+    7
+   ],
+   "slope": "-3.0",
+   "cusp_shape_limit": "3.00000000045",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLLR",
+   "k": 3,
+   "ell": [
+    7,
+    7
+   ],
+   "slope": "-3.0",
+   "cusp_shape_limit": "3.00000000045",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLLR",
+   "k": 3,
+   "ell": [
+    14,
+    7
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000001",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LLLR",
+   "k": 3,
+   "ell": [
+    21,
+    7
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.00000000001",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LRR",
+   "k": 3,
+   "ell": [
+    0,
+    1
+   ],
+   "slope": "-4.2360679775",
+   "cusp_shape_limit": "4.2360679837",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LRR",
+   "k": 3,
+   "ell": [
+    2,
+    8
+   ],
+   "slope": "2.61803398875",
+   "cusp_shape_limit": "2.61803398944",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LRR",
+   "k": 3,
+   "ell": [
+    6,
+    4
+   ],
+   "slope": "0.38196601125",
+   "cusp_shape_limit": "0.381966011257",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 3,
+   "ell": [
+    1,
+    2
+   ],
+   "slope": "-2.61803398875",
+   "cusp_shape_limit": "2.6180339888",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 3,
+   "ell": [
+    3,
+    1
+   ],
+   "slope": "-0.38196601125",
+   "cusp_shape_limit": "0.381966011198",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 3,
+   "ell": [
+    6,
+    2
+   ],
+   "slope": "-0.82917960675",
+   "cusp_shape_limit": "0.829179606751",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "-LR",
+   "k": 3,
+   "ell": [
+    8,
+    1
+   ],
+   "slope": "-0.38196601125",
+   "cusp_shape_limit": "0.381966011198",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LR",
+   "k": 4,
+   "ell": [
+    0,
+    5
+   ],
+   "slope": "-1.0",
+   "cusp_shape_limit": "1.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "+LR",
+   "k": 4,
+   "ell": [
+    5,
+    0
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "+LR",
+   "k": 4,
+   "ell": [
+    9,
+    13
+   ],
+   "slope": "0.38196601125",
+   "cusp_shape_limit": "0.381966011261",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LLRLRRLR",
+   "k": 1,
+   "ell": [
+    0,
+    1
+   ],
+   "slope": "-3.0",
+   "cusp_shape_limit": "3.0000000018",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LLRLRRLR",
+   "k": 1,
+   "ell": [
+    1,
+    4
+   ],
+   "slope": "2.0",
+   "cusp_shape_limit": "2.0000000005",
+   "slope_limit_ok": true,
+   "zero_type": false,
+   "filling_type": false
+  },
+  {
+   "state": "+LLRLRRLR",
+   "k": 1,
+   "ell": [
+    3,
+    1
+   ],
+   "slope": "1.0",
+   "cusp_shape_limit": "1.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  },
+  {
+   "state": "+LLRLRRLR",
+   "k": 1,
+   "ell": [
+    4,
+    4
+   ],
+   "slope": "1.65540556842e-60",
+   "cusp_shape_limit": "0.0",
+   "slope_limit_ok": true,
+   "zero_type": true,
+   "filling_type": true
+  }
+ ]
+}

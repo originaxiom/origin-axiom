@@ -3064,3 +3064,29 @@ impossible). Open, in order:
 - **(c) The other invariant functions** of the Higgs classes, if (a) is zero.
 - **(d) The deck kept** (sm:sL-5) is presupposed by all of this.
 
+  **Run 2026-10-01 (B1444):** (a) CLOSED — the cubic has no group to live in: h²(M; k) = 0, the pairwise products of an
+  orbit's Higgs classes vanish (equal slopes), the triple product lands in H²(M; k) = 0. **The lead is restated:**
+  a Higgs value is a position on the periodic curve of the trace map through the background (B1444), a curve with
+  explicit functions on it (on s961: κ − 2 = w(w − 1), m + 1/m − 2 = −w(w² − w + 4)) and distinguished points (the
+  other reducible end; the complete cusp in ℚ(√−3, √5)). What selects a point is open, and is L236 (f).
+
+## L236 — WHAT THE PERIODIC CURVE LEAVES OPEN (registered 2026-10-01, B1444)
+
+B1444: every background is the reducible end of a curve of flat PSL(2) connections of its level; the slope is the
+cusp shape at the end and the coupling the first-order torsion of the sector along it; the index lives at the end.
+Open, in order of what would move the frame most:
+- **(a) The second-order coefficients.** The generation's sectors have torsion c·e² with c = 1/2 on s961, 3/4 on the
+  sister's three-fold cover, (3 ± √5)/4 for the five-bar on +LLR 3, values in ℚ(√5) on M₄. A formula for c in the
+  manner of the slope (a second-order slope: a Massey-type product read on the boundary) is not known.
+- **(b) The direction of the Higgs character η.** B1435's coupling s(ℓ) − s(η) is the obstruction to moving along
+  ℓ's curve and η's at once. The joint deformation lives in a larger group than PSL(2); it has not been set up.
+- **(c) P4's proof**, and what the filled manifold of a filling-type background is (38 of 202 backgrounds; slopes
+  0, ±1, −2).
+- **(d) WITHDRAWN in the arc:** characters of order two do not sit at nodes of κ = 2 (a node needs a trivial
+  character); they have curves — the lines of the decomposition — and the law holds on them (B1444 §10).
+- **(e) The complete-cusp point on s961**, coordinates in ℚ(√−3, √5): its volume and Chern–Simons invariant, and
+  the same point on other levels.
+- **(f) What selects a point of the curve**, if anything does.
+- **(g) ANSWERED in the arc:** the SL(2)_β direction is not the electroweak one. SL(2)_β is the simple factor of the
+  centraliser of the Standard Model's gauge algebra in E₆ (`e6_centraliser.py`), so the curve preserves the whole
+  gauge group. Hence (b) is the electroweak question.

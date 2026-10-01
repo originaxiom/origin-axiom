@@ -1,0 +1,2780 @@
+{
+ "state": "+LR",
+ "k": 3,
+ "backgrounds": 48,
+ "table": [
+  {
+   "l": [
+    0,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    0,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    0,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    0,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    0,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    0,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    0,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    0,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    1,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    2,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    0
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    0
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    1
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    1
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    2
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    2
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    3
+   ],
+   "sign": 1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      0,
+      3
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      1,
+      2
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  },
+  {
+   "l": [
+    3,
+    3
+   ],
+   "sign": -1,
+   "sectors": {
+    "Q": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "uc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "ec": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "dc": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "L": {
+     "alpha": [
+      2,
+      1
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    },
+    "nuc": {
+     "alpha": [
+      3,
+      0
+     ],
+     "order": 2,
+     "coeff": "1/2"
+    }
+   }
+  }
+ ],
+ "patterns": [
+  {
+   "count": 48,
+   "pattern": [
+    [
+     "Q",
+     2,
+     "1/2"
+    ],
+    [
+     "uc",
+     2,
+     "1/2"
+    ],
+    [
+     "ec",
+     2,
+     "1/2"
+    ],
+    [
+     "dc",
+     2,
+     "1/2"
+    ],
+    [
+     "L",
+     2,
+     "1/2"
+    ],
+    [
+     "nuc",
+     2,
+     "1/2"
+    ]
+   ]
+  }
+ ]
+}

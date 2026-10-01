@@ -1,0 +1,472 @@
+{
+ "+++": [
+  {
+   "dim": 1,
+   "gens": [
+    "Z",
+    "X"
+   ],
+   "degree": 1,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 2,
+    "gens": [
+     "Y^2 - 4",
+     "X",
+     "Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 1,
+    "gens": [
+     "X",
+     "Y",
+     "Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "Y",
+    "X"
+   ],
+   "degree": 1,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 2,
+    "gens": [
+     "Z^2 - 4",
+     "X",
+     "Y"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 1,
+    "gens": [
+     "X",
+     "Y",
+     "Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "Z",
+    "Y"
+   ],
+   "degree": 1,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 2,
+    "gens": [
+     "X^2 - 4",
+     "Y",
+     "Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 1,
+    "gens": [
+     "X",
+     "Y",
+     "Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "X*Z + X + Z",
+    "Y + Z"
+   ],
+   "degree": 2,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 + Z - 2",
+     "X*Z + X + Z",
+     "Z^2 + X - 2",
+     "Y + Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 + 2*X - Z",
+     "X*Z + X + Z",
+     "Z^2 - X + 2*Z",
+     "Y + Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "X*Z - X + Z",
+    "Y + Z"
+   ],
+   "degree": 2,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 - Z - 2",
+     "X*Z - X + Z",
+     "Z^2 + X - 2",
+     "Y + Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 + 2*X + Z",
+     "X*Z - X + Z",
+     "Z^2 - X - 2*Z",
+     "Y + Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "X*Z + X - Z",
+    "Y - Z"
+   ],
+   "degree": 2,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 + Z - 2",
+     "X*Z + X - Z",
+     "Z^2 - X - 2",
+     "Y - Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 - 2*X - Z",
+     "X*Z + X - Z",
+     "Z^2 + X + 2*Z",
+     "Y - Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "X*Z - X - Z",
+    "Y - Z"
+   ],
+   "degree": 2,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 - Z - 2",
+     "X*Z - X - Z",
+     "Z^2 - X - 2",
+     "Y - Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 3,
+    "gens": [
+     "X^2 - 2*X + Z",
+     "X*Z - X - Z",
+     "Z^2 + X - 2*Z",
+     "Y - Z"
+    ]
+   }
+  }
+ ],
+ "+--": [
+  {
+   "dim": 1,
+   "gens": [
+    "Z",
+    "Y"
+   ],
+   "degree": 1,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 2,
+    "gens": [
+     "X^2 - 4",
+     "Y",
+     "Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 1,
+    "gens": [
+     "X",
+     "Y",
+     "Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "X^2*Z^2 + 2*X*Z^2 - X^2 + Z^2 - 2*X - 2",
+    "Y + Z"
+   ],
+   "degree": 4,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 - X^2 - 6*Z^2 - 2*X + 8",
+     "X^3 + X^2 - Z^2 - 2*X + 2",
+     "X*Z^2 + X^2 + 2*Z^2 - 4",
+     "Y + Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 + 3*X^2 + 2*Z^2 + 2*X + 4",
+     "X^3 + X^2 - Z^2 + 2*X + 2",
+     "X*Z^2 + X^2 + 2*Z^2",
+     "Y + Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "X^2*Z^2 - 2*X*Z^2 - X^2 + Z^2 + 2*X - 2",
+    "Y - Z"
+   ],
+   "degree": 4,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 - X^2 - 6*Z^2 + 2*X + 8",
+     "X^3 - X^2 + Z^2 - 2*X - 2",
+     "X*Z^2 - X^2 - 2*Z^2 + 4",
+     "Y - Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 + 3*X^2 + 2*Z^2 - 2*X + 4",
+     "X^3 - X^2 + Z^2 + 2*X - 2",
+     "X*Z^2 - X^2 - 2*Z^2",
+     "Y - Z"
+    ]
+   }
+  }
+ ],
+ "-+-": [
+  {
+   "dim": 1,
+   "gens": [
+    "Z",
+    "X"
+   ],
+   "degree": 1,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 2,
+    "gens": [
+     "Y^2 - 4",
+     "X",
+     "Z"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 1,
+    "gens": [
+     "X",
+     "Y",
+     "Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "Y^2 - Z^2 + 2*Y + 2",
+    "X*Z^2 - Y*Z - X - Z",
+    "X*Y + X - Z"
+   ],
+   "degree": 4,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 + X*Z - 5*Z^2 - 2*Y + 4",
+     "X*Z^2 - Y*Z - X - Z",
+     "Y*Z^2 + X*Z - 4*Y - 2",
+     "X^2 + X*Z + Z^2 - 2*Y - 6",
+     "X*Y + X - Z",
+     "Y^2 - Z^2 + 2*Y + 2"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 + X*Z - Z^2 + 2*Y + 4",
+     "X*Z^2 - Y*Z - X - Z",
+     "Y*Z^2 + X*Z + 2",
+     "X^2 + X*Z + Z^2 - 2*Y - 2",
+     "X*Y + X - Z",
+     "Y^2 - Z^2 + 2*Y + 2"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "Y^2 - Z^2 - 2*Y + 2",
+    "X*Z^2 - Y*Z - X + Z",
+    "X*Y - X - Z"
+   ],
+   "degree": 4,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 - X*Z - 5*Z^2 + 2*Y + 4",
+     "X*Z^2 - Y*Z - X + Z",
+     "Y*Z^2 + X*Z - 4*Y + 2",
+     "X^2 - X*Z + Z^2 + 2*Y - 6",
+     "X*Y - X - Z",
+     "Y^2 - Z^2 - 2*Y + 2"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^4 - X*Z - Z^2 - 2*Y + 4",
+     "X*Z^2 - Y*Z - X + Z",
+     "Y*Z^2 + X*Z - 2",
+     "X^2 - X*Z + Z^2 + 2*Y - 2",
+     "X*Y - X - Z",
+     "Y^2 - Z^2 - 2*Y + 2"
+    ]
+   }
+  }
+ ],
+ "--+": [
+  {
+   "dim": 1,
+   "gens": [
+    "Y",
+    "X"
+   ],
+   "degree": 1,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 2,
+    "gens": [
+     "Z^2 - 4",
+     "X",
+     "Y"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 1,
+    "gens": [
+     "X",
+     "Y",
+     "Z"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "Y^2 - Z^2 - 2*Z - 2",
+    "X*Z + X - Y"
+   ],
+   "degree": 4,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^3 + X*Y + 2*Z^2 - 2*Z - 2",
+     "X^2 + X*Y + Z^2 - 4",
+     "Y^2 - Z^2 - 2*Z - 2",
+     "X*Z + X - Y"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^3 + X*Y + 2*Z^2 + 2*Z + 2",
+     "X^2 + X*Y + Z^2",
+     "Y^2 - Z^2 - 2*Z - 2",
+     "X*Z + X - Y"
+    ]
+   }
+  },
+  {
+   "dim": 1,
+   "gens": [
+    "Y^2 - Z^2 + 2*Z - 2",
+    "X*Z - X - Y"
+   ],
+   "degree": 4,
+   "genus": 0,
+   "at_kappa_2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^3 + X*Y - 2*Z^2 - 2*Z + 2",
+     "X^2 - X*Y + Z^2 - 4",
+     "Y^2 - Z^2 + 2*Z - 2",
+     "X*Z - X - Y"
+    ]
+   },
+   "at_kappa_m2": {
+    "dim": 0,
+    "points": 8,
+    "gens": [
+     "Z^3 + X*Y - 2*Z^2 + 2*Z - 2",
+     "X^2 - X*Y + Z^2",
+     "Y^2 - Z^2 + 2*Z - 2",
+     "X*Z - X - Y"
+    ]
+   }
+  }
+ ]
+}

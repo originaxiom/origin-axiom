@@ -1,0 +1,20 @@
+{
+ "id": "B1444",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B67",
+  "B448",
+  "B1297",
+  "B1415",
+  "B1432",
+  "B1438",
+  "B1443"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE BACKGROUNDS ARE THE REDUCIBLE ENDS OF THE TRACE MAP'S PERIODIC CURVES. A background of the Standard-Model frame carries a reducible non-split rank-two representation with extension character l; the square root of l on the fibre is a smooth torsion point of the surface kappa = 2, fixed by the level's trace map up to a sign twist, and exactly one smooth curve of twisted-periodic points passes through it, transverse to kappa = 2 (Theorem A, implicit function theorem). Its points are flat PSL(2) connections of the level, irreducible on the fibre, and the frame's extension class is its tangent. Theorem B (first-order deformation theory): the cusp shape of the curve tends to the slope s(l) at the end, and the torsion of the sector with characters alpha = l beta, beta is (s(alpha) - s(l))(s(beta) - s(l)) e + O(e^2), e = 2 - kappa: the slope law of B1438 is the first order of this curve, the banked coupling is the first-order torsion, and the firing condition is its vanishing. Off the end the cusp holonomy has no invariant vector in a doublet, so the class index is zero there by B1297's identity: the frame's index lives at the reducible end only. Sealed before the run (seal d88c220e) and held on 27 untouched levels, 146 backgrounds, 1 734 sectors: P1 first-order coefficient 1 223 of 1 223; P2 a match kills the first order 511 of 511; P3 slope = limit of cusp shape 146 of 146; P4 matched sectors identically zero iff the meridian is +-(longitude)^(+-s) along the curve, i.e. the curve lies in a Dehn filling, 146 of 146 (27 and 27); P5 both kinds occur. With the disclosed exploration: 2 155 unmatched sectors, no exception. Exact on the root: level one a conic through the sister's order-5 characters and the geometric representation; level two lines ending at B448's Q(sqrt -7) points; level three rational quartics with kappa - 2 = w(w - 1) and m + 1/m - 2 = -w(w^2 - w + 4), the root's backgrounds at w = 0, the sister's at w = 1, a complete cusp at w^2 - w + 4 = 0 with coordinates in Q(sqrt -3, sqrt 5). Per-sector second-order coefficients of the frame's backgrounds: 1/2 on s961 for all six sectors of all 48; 3/4 on the sister's three-fold cover; the ten's module 1/2 against the five-bar's (3 +- sqrt 5)/4 on +LLR 3; values in Q(sqrt 5) on the four-fold cover; identically zero on all 16 backgrounds of +LLRLRRLR. Also banked: an orbit's three Higgs classes have no bulk product (h^2(M; k) = 0, pairwise products vanish). Not proved: P4. Not computed: a formula for the second-order coefficients, the nodes, the direction of the Higgs character eta, what selects a point of the curve. The curve is not electroweak breaking: SL(2)_beta is the simple factor of the centraliser of the Standard Model's gauge algebra in E6 (recomputed on the root system), so the curve leaves the gauge group untouched; what it shows is that the frame's chirality requires the hidden SL(2)_beta holonomy to stay reducible. Torsion is not a mass; nothing here distinguishes the members of a deck orbit; no value. 0 of 19."
+}
