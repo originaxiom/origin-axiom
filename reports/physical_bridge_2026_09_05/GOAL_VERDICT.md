@@ -1,4 +1,14 @@
-# Verdict toward the full physical-theory goal - R67, updated 2026-09-30
+# Verdict toward the full physical-theory goal - R68, updated 2026-10-01
+
+**Current execution, path-local R68:** the actual cone operator retains
+four complex neutral apex traces. Its minimal first-order closure is
+not self-adjoint. Explicit reality-compatible linear domains exist in
+the neutral block, but complementary brackets source it and require
+coupled nonlinear boundary laws. 65 exact controls/eight new tests pass;
+combined 72 pass/four original failures retained. [Result](CONE_FERMION.md).
+Next earn full channel, gauge and superfield domains and core matching.
+The supplied action/metric and physical realization remain inputs.
+No global chiral Standard Model or gravity is established by this result.
 
 **Current execution, path-local R67:** the actual logarithmic cone
 retains zero residual action when the regulated boundary current is

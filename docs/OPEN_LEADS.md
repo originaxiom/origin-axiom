@@ -4045,3 +4045,31 @@ conditional action/domain progress, not closure of the physical end law.
 - PB-PHYSICS: selection or justification of action, metric and end law,
   chiral matter, normalized observables, quantum consistency and gravity
   remain duties. No ingredient-list or local-action completion claim.
+
+## R68 actual fermion block disposition October 1 2026
+
+"The actual logarithmic background retains four complex neutral apex
+traces and admits explicit reality-compatible linear domain choices."
+Source: reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md.
+This advances the first-order duty without closing the physical end law.
+
+- PB-BOUNDARY: solve the complementary coefficient channels with the
+  actual changing matrix operator. The exact neutral block supplies a
+  lower bound on traces; the limiting normal spectrum is not a full
+  trace classification.
+- PB-ACTION / PB-BOUNDARY: impose coupled product, compact gauge and
+  full superfield derivative conditions. Complementary brackets source
+  Z, so independent block choices do not certify nonlinear closure.
+- PB-TRANSITIONS: match the collar to the actual core, including any
+  physical treatment of holonomy variations. Its paired constant
+  collar solutions are not counted as global particles.
+- PB-GENESIS / PB-HANDOFF-M6: audit received B1506 at ad64b558 using
+  existing R58 action transport and R59 parent tensors. Keep index,
+  induced-object count and physical generations distinct; do not
+  repeat the complete census or adopt a level as physics by preference.
+- PB-REVIEW: independently review the minimal/maximal trace witness
+  and neutral block self-adjoint domain argument. Preserve the four
+  original scientific failures and historical governance debts.
+- PB-PHYSICS: derive or price the action, metric, end law and physical
+  realization; chiral matter, normalized observables, quantum
+  consistency and gravitational dynamics remain full mission duties.

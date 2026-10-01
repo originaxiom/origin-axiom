@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-01 - R68 actual cone fermion and neutral boundary domains
+
+The exact matrix operator on the logarithmic background retains a
+neutral reducing adjoint block. Its four complex apex traces require
+a self-adjoint boundary choice; reality-compatible linear choices and
+two internal linear supercharges exist in this block. Complementary
+matrix brackets source it, so nonlinear laws must be checked together.
+65 exact checks/eight new tests pass; combined 72 pass/four old failures.
+Science was sealed and server-confirmed at 24356ebd on September 30.
+Next derive coupled gauge/superfield domains and match the global core.
+Report: reports/physical_bridge_2026_09_05/CONE_FERMION.md.
+
 ## 2026-09-30 - R67 logarithmic cone boundary current and radial admission
 
 The actual nonabelian cone's expanded bulk divergence is cancelled by

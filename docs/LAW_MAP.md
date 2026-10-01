@@ -1,5 +1,11 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+Current path-local R68: six scoped operator/domain sublemmas are at EOF.
+The actual background retains a neutral boundary choice; consistent
+linear domains exist, with coupled nonlinear products still required.
+Report: reports/physical_bridge_2026_09_05/CONE_FERMION.md.
+Earlier dated entries below retain their historical scopes.
+
 Current path-local R67: six scoped boundary/action and radial-profile
 sublemmas are at EOF. The actual cone's expanded divergence is cancelled
 by its current; a sufficient bosonic class exists, not a full physical
@@ -994,3 +1000,19 @@ independently reviewed by these finite checks.
 | The actual radial translation tangent solves both formal linear equations and is L2 but not L4 | a_f=d_C(fH), f=h_s; kinetic density asymptotic to 1/(2s cubed), quartic density 1/(4r squared s^6). Its Hermitian radial projection excludes compact gauge removal. Not an admitted global physical zero mode. | B1504 admission context only; R67 CONE_FLUX_PROOF.md section 4; tests/test_physical_bridge_cone_flux.py::test_actual_radial_Jacobi_profile and test_kinetic_and_quartic_admission_are_different |
 | The radial Jacobi norm is supported by outer data when its apex flux vanishes | Norm equals 2[r squared f f']; A_h>0. Zero outer Dirichlet or Neumann datum forces zero within this radial class. Not a theorem against all global extension. | B1504 end context only; R67 CONE_FLUX_PROOF.md section 4; tests/test_physical_bridge_cone_flux.py::test_kinetic_and_quartic_admission_are_different checks the identity and endpoint limit |
 | Zero Chern-Simons boundary variation on the triangular background family does not hold for every L2 fluctuation | Explicit lower-triangular a_y=exp(h)N dagger has nonzero boundary pairing and divergent differential graph norm. It is a countercontrol, not an admitted physical fluctuation. | B1504 domain context only; R60 END_LAW_DESIGN.md prior boundary variation; R67 CONE_FLUX_PROOF.md section 5; tests/test_physical_bridge_cone_flux.py::test_triangular_CS_variation_and_L2_countercontrol |
+
+## Actual cone fermion and neutral domains October 1 2026
+
+Path-local R68, science sealed and executed September 30. The neutral
+reality algebra was already in R61; this instance is an exact reducing
+block of the actual R66 connection. Analytic domain statements remain
+authored and conditional, not independently accepted from finite checks.
+
+| law (scoped statement) | scope and limits | evidence |
+|---|---|---|
+| The actual matrix cone form operator includes both radial transport and the changing nilpotent coefficient | Q=Gamma(partial_r+A(r)/r); the representation formula retains K and its Hermitian adjoint. Coordinate metric calculus checks the 32-component fundamental realization and trace adjunction checks the adjoint transfer. No full physical parent spectrum. | B1504 domain context only; R66 NILPOTENT_CONE_PROOF.md; R68 CONE_FERMION_PROOF.md section 1; tests/test_physical_bridge_cone_fermion.py::test_actual_full_operator_from_coordinate_metric and test_variable_flatness_requires_radial_transport |
+| The logarithmic connection has exactly one constant traceless orthogonally reducing adjoint direction | Z=diag(1,-3,1,1), projection Z tr(Z X)/12. Holonomy-only centralizer has three traceless directions; N,P fail adjoint reduction. Local coefficient, not a globally identified unbroken gauge U(1). | B1504 end context only; R68 CONE_FERMION_PROOF.md section 2; tests/test_physical_bridge_cone_fermion.py::test_exact_reducing_coefficient_not_holonomy_centralizer |
+| Four complex neutral apex traces make the minimal first-order cone operator non-self-adjoint | Exact Z-valued harmonic-link block Q0=Gamma partial_r, H1 trace continuity and nondegenerate Green witnesses. A lower bound on boundary data, not all charged channels or physical particles. | B1504 domain context only; R68 CONE_FERMION_PROOF.md section 3; tests/test_physical_bridge_cone_fermion.py::test_actual_neutral_traces_have_nondegenerate_Green_form and test_kinetic_admission_does_not_imply_L4_or_minimal_trace support finite inputs to the argument |
+| Complex-line domains give self-adjoint and reality-compatible neutral block realizations | W plus its Hermitian complement at separated endpoints; combined anti-linear star/conjugation. Authored interval adjoint argument. The two linear internal supercharges share their square domain; full interacting gauge/superfield laws remain. | B1504 linear admission context only; R61 FERMION_END_DESIGN.md prior algebra; R68 CONE_FERMION_PROOF.md section 4; tests/test_physical_bridge_cone_fermion.py::test_reality_compatible_linear_domains_and_supercharge_pair |
+| Complementary parent brackets source the reducing neutral block | Pi(E01)=Pi(E10)=0 but Pi([E01,E10])=Z/3. Linear reduction is not a Lie ideal decomposition; boundary products require a coupled law. | B1504 interaction context only; R68 CONE_FERMION_PROOF.md section 5; tests/test_physical_bridge_cone_fermion.py::test_complementary_brackets_and_zero_action_holonomy_control |
+| A commuting deformation can keep zero residual action while failing L4 and changing the prescribed holonomy | c Z dx for real nonzero c is flat and moment-flat; L4 density 144 c^4 alpha^2/r^2. Meridian eigenvalues change. A control on sufficiency and fixed-holonomy scope, not an admitted rescue field. | B1504 admission context only; R68 CONE_FERMION_PROOF.md section 5; tests/test_physical_bridge_cone_fermion.py::test_complementary_brackets_and_zero_action_holonomy_control |

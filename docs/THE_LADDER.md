@@ -1,5 +1,16 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**Current execution, path-local R68 (record completed October 1):**
+the actual logarithmic cone retains a neutral adjoint block with four
+complex apex traces. The minimal first-order operator is not self-adjoint;
+explicit reality-compatible linear choices exist in that block.
+Complementary matrix brackets source it, so the full interacting end
+law remains a coupled problem. 65 exact checks/eight new tests pass;
+combined 72 pass/four original failures retained. Next earn the coupled
+channel, compact gauge and superfield domains, with core matching.
+Report: reports/physical_bridge_2026_09_05/CONE_FERMION.md.
+Earlier dated entries below retain their historical scopes.
+
 **Current execution, path-local R67 (September 30):** the actual logarithmic
 cone passes its regulated action audit. The divergent expanded bulk term
 is cancelled by its explicit boundary current; subtracting only the

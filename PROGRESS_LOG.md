@@ -16004,3 +16004,27 @@ compatible fermion, reality, supercharge and gauge domains, including
 the global core, without changing the supplied model silently.
 The full physics mission remains active and uncompleted.
 Report: reports/physical_bridge_2026_09_05/CONE_FLUX.md.
+
+## 2026-10-01 - R68 actual fermion operator and surviving neutral trace
+
+Science sealed and executed September 30; result recorded October 1.
+The actual radial matrix operator is derived from coordinate metric
+calculus, including its radial connection and changing nilpotent
+coefficient. The traceless orthogonally reducing coefficient is the
+one-dimensional Z line; the holonomy-only centralizer has dimension
+three. Its harmonic torus block carries four complex apex traces with
+nondegenerate Green pairing, so the minimal first-order closure is not
+self-adjoint. Explicit maximal-current complex-line domains preserve
+combined fermion reality and the two isolated linear supercharges.
+These are authored local domain arguments, supported by 65 exact
+checks and eight tests, not independent analytic acceptance or global
+particle modes. Complementary brackets project nontrivially into Z.
+A commuting zero-action deformation also shows L4 is sufficient rather
+than necessary, while its changed meridian bars it from a fixed-holonomy
+family. Ten-file combined run: 72 pass/four original failures retained.
+Five frozen science paths and twelve prior pins are checked. Next solve
+the full coupled gauge/superfield boundary law and core matching.
+The October 1 fetch received B1506 at ad64b558; its level/index work is
+being read and is not adopted as a physical generation theorem.
+The full physics mission remains unfinished.
+Report: reports/physical_bridge_2026_09_05/CONE_FERMION.md.
