@@ -1,5 +1,36 @@
 # Changelog
 
+## B1510 sealed: the two-sided deformation, before any two-sided term is computed
+
+- **The question** (B1509's lead 1, at the owner's "do the recomendation for next"). B1509 switched on one singlet direction at a
+  time on the audit lane's harmonic vacuum ρ₀ = A ⊕ 1, A = μρ_q: −1 for the 16's singlet c, +1 for the 16*'s singlet c*. This arc
+  switches both on together, s c + t c* with s t ≠ 0. Do they hold without a source? Can the trivial line keep its cusp eigenvalues
+  (1, 1)? What do they count?
+- **Computed before the seal, and disclosed there.**
+  - Controls C0–C6. B1509's indices are reproduced through this arc's own F((ε)) ranks-only index (54 rows). The GL(2) and GL(3)
+    analogues at simple roots exist to order 8 and count 0. C6 caught a transposed product in the adjoint-basis routine, fixed
+    before the seal.
+  - The meridian's Jordan type (3, 1) at the six points.
+  - No two-sided term or adjoint class was computed at the six points.
+- **Proved at seal.**
+  - **Theorem A:** given cusp rigidity and a regular cusp pair, no sl(4) obstruction at any order. **Lemmas R and C** establish both
+    here, from the audit lane's F15 and R55.
+  - **Corollary A″:** s t ≠ 0 gives an absolutely irreducible deformation, with a closed orbit.
+  - **Theorem B:** the line's longitude moves at order two by s t κ̂_ℓ, with κ̂_ℓ = ±⟨e ∪ c, c*⟩, zero exactly at the double root
+    μ = −1.
+  - **Proposition F:** the fixed-end class is F15's matter-retention row, R56's F-term F_S = λ Q·Q̃; it is nonzero.
+  - **Theorem C:** main's index is 0 on every two-sided deformation (upper semicontinuity of H², the Euler characteristic, the
+    annihilator identity).
+  - **Theorem D:** parity, and the shifted longitude condition at a double root.
+- **Decided at design time:** D1–D6.
+- **Sealed:**
+  - P1: the free-end branch to order 10 (±i ~90%, μ = −1 ~70%);
+  - P2: the odd obstructions on one line (~70%);
+  - P3: the chiral branch at μ = −1 (~65%);
+  - P4: a1 = b1 = 0 on the free-end branch (~65%);
+  - P5: at μ = −1 the line's longitude moves first at order four (~70%).
+- The sha256 is in SEAL_LEDGER. The findings document says sealed, not run. 0 of 19.
+
 ## B1509 — the join on the projective vacuum: main's index on the audit lane's harmonic vacuum
 
 This is B1508's lead 1, on the owner's "do as u recomend, u know the endgoal". Predictions D1–D6 were committed and pushed at 3edaf1fa

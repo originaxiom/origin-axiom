@@ -1,0 +1,19 @@
+{
+ "id": "B1510",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1509",
+  "B1508",
+  "B1384",
+  "B1374",
+  "B1354",
+  "B1297"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE TWO-SIDED DEFORMATION, SEALED (not yet run; B1509's lead 1 at the owner's 'do the recomendation for next': the 16's and the 16*'s singlets c and c* switched on together on the audit lane's harmonic vacuum A + 1, A = mu rho_q). Computed before the seal and disclosed: controls C0-C6 (B1509's indices reproduced through this arc's own F((eps)) ranks-only index, 54 rows; the GL(2) and GL(3) analogues at simple roots exist and count 0); the meridian's Jordan type (3,1). Proved at seal: Theorem A (cusp rigidity and a regular cusp pair kill every sl(4) obstruction at every order; Lemmas R and C establish both from the audit lane's F15/R55); Corollary A'' (s t != 0 gives an absolutely irreducible deformation, a closed orbit); Theorem B (the line's longitude moves at order two by s t kappa_l, kappa_l = +-<e u c, c*>, zero exactly at the double root mu = -1); Proposition F (the fixed-end class is F15's matter-retention row and R56's F-term F_S = lambda Q.Qtilde, nonzero); Theorem C (main's index is 0 on every two-sided deformation: upper semicontinuity of H^2, Euler characteristic, the annihilator identity); Theorem D (parity; the shifted longitude condition at a double root). Decided D1-D6. Sealed: P1 the free-end branch to order 10 (+-i ~90%, mu = -1 ~70%), P2 one line at the odd orders (~70%), P3 the chiral branch at mu = -1 (~65%), P4 a1 = b1 = 0 on the free-end branch (~65%), P5 the line's longitude moves first at order four at mu = -1 (~70%). I-26 stays UNEARNED. 0 of 19."
+}

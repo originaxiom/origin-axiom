@@ -16315,3 +16315,32 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     gates were rerun on the final tree.
 
 `frontier/B1509_the_join_on_the_projective_vacuum`. 0 of 19.
+
+## 2026-10-01 — B1510 sealed: the two-sided deformation (B1509's lead 1; not run)
+
+- **The occasion.** The owner's "do the recomendation for next". B1509 switched on one singlet direction at a time on the audit
+  lane's harmonic vacuum. This arc switches on both together, the 16's singlet c and the 16*'s singlet c*.
+- **The instrument.** `deform_lib.py` holds formal deformations and main's index over F((ε)), read from ranks alone by
+  minimal-valuation pivoting. `two_sided.py` holds the order-by-order solver:
+  - in the free-end mode, det = 1;
+  - in the chiral mode, the line's (1, 1) is kept by Theorem D's shifted longitude condition.
+
+  It also computes the H¹ basis, cusp rigidity and the fixed-end class.
+- **The controls, run before the seal** (C0–C6):
+  - B1509's 54 index rows are reproduced through the new index.
+  - The GL(2) and GL(3) analogues at simple roots exist to order 8, are parity-symmetric, and count 0 with a1 = b1 = 0.
+  - The odd obstructions in rank three lie on one line.
+  - C6 caught a transposed product in the adjoint-basis routine before the seal.
+- **The design-time sweep** covered main (6085218c), this branch, the audit lane (audit/physical-bridge-2026-09-05 at f7cdf281) and
+  the paper-review lane. It found:
+  - F15 (h¹(sl(4)) = 3; the matter-retention rows nonzero, proportional, of rank one);
+  - R55 (meridian restriction rank 2, kernel q);
+  - R56 (W₃ = λ S Q·Q̃).
+
+  These decide cusp rigidity (Lemma R) and the fixed end's obstruction (Proposition F), which an earlier draft had carried as open;
+  both moved to the decided list before the seal. Main's B1440 bounds |I| ≤ 1 here, and Theorem C gives 0. Main's B1334 argues by a
+  different semicontinuity, which the audit lane questions; Theorem C does not use it.
+- **Sealed.** P1 the free-end branch to order 10; P2 the odd obstructions on one line; P3 the chiral branch at μ = −1; P4
+  a1 = b1 = 0 on the free-end branch; P5 the longitude's first motion at order four at μ = −1.
+
+`frontier/B1510_the_two_sided_deformation`. 0 of 19.

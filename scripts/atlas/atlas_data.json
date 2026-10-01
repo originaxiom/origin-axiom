@@ -9063,6 +9063,23 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1510": {
+   "slug": "the two sided deformation",
+   "motifs": [
+    "kappa"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B151": {
    "slug": "firewall confirmation",
    "motifs": [

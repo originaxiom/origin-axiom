@@ -1,0 +1,1956 @@
+{
+ "C0_valuation_rank": {
+  "[[1,1],[1,1+eps^3]]": true,
+  "diag(eps, eps^2)": true,
+  "rank-one [[eps, eps^2], [1, eps]]": true,
+  "zero": true
+ },
+ "C1_C3_one_sided_and_split": [
+  {
+   "I": -1,
+   "exact_rep_to_order": 6,
+   "expected": -1,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 1,
+   "exact_rep_to_order": 6,
+   "expected": 1,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "prec_left": 7
+  },
+  {
+   "I": -1,
+   "exact_rep_to_order": 6,
+   "expected": -1,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 1,
+   "exact_rep_to_order": 6,
+   "expected": 1,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=603 mod 1009, mu=-i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=420 mod 1009, mu=-i)",
+   "prec_left": 7
+  },
+  {
+   "I": -1,
+   "exact_rep_to_order": 6,
+   "expected": -1,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 1,
+   "exact_rep_to_order": 6,
+   "expected": 1,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "prec_left": 7
+  },
+  {
+   "I": -1,
+   "exact_rep_to_order": 6,
+   "expected": -1,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 1,
+   "exact_rep_to_order": 6,
+   "expected": 1,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=506 mod 1033, mu=-i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=541 mod 1033, mu=-i)",
+   "prec_left": 7
+  },
+  {
+   "I": -1,
+   "exact_rep_to_order": 6,
+   "expected": -1,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 1,
+   "exact_rep_to_order": 6,
+   "expected": 1,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "prec_left": 7
+  },
+  {
+   "I": -1,
+   "exact_rep_to_order": 6,
+   "expected": -1,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 1,
+   "exact_rep_to_order": 6,
+   "expected": 1,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=338 mod 1129, mu=-i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=i)",
+   "prec_left": 7
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W1 (line quotient)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "W2 (line sub)",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=-i)",
+   "prec_left": 6
+  },
+  {
+   "I": 0,
+   "exact_rep_to_order": 6,
+   "expected": 0,
+   "family": "split A+1",
+   "line_(1,1)": true,
+   "point": "7+-4sqrt3 (q=805 mod 1129, mu=-i)",
+   "prec_left": 7
+  }
+ ],
+ "C4_gl2_heusener_porti_suarez": [
+  {
+   "absolute_exists_to_order": 8,
+   "index_N6": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 5,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "index_N8": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 7,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "line_stays_(1,1)": null,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "free_choice": {},
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 428
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 428
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    }
+   ],
+   "p": 1009,
+   "parity_symmetric": true,
+   "relator_identity": true,
+   "stopped": null,
+   "t0": 628
+  },
+  {
+   "absolute_exists_to_order": 8,
+   "index_N6": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 5,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "index_N8": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 7,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "line_stays_(1,1)": null,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "free_choice": {},
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 581
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 581
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    }
+   ],
+   "p": 1009,
+   "parity_symmetric": true,
+   "relator_identity": true,
+   "stopped": null,
+   "t0": 384
+  },
+  {
+   "p": 1033,
+   "skipped": "5 is not a square"
+  },
+  {
+   "absolute_exists_to_order": 8,
+   "index_N6": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 5,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "index_N8": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 7,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "line_stays_(1,1)": null,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "free_choice": {},
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 499
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 499
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    }
+   ],
+   "p": 1129,
+   "parity_symmetric": true,
+   "relator_identity": true,
+   "stopped": null,
+   "t0": 803
+  },
+  {
+   "absolute_exists_to_order": 8,
+   "index_N6": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 5,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "index_N8": {
+    "I": 0,
+    "a0": 0,
+    "a1": 0,
+    "b0": 0,
+    "b1": 0,
+    "n_V": 0,
+    "n_Vstar": 0,
+    "pivots_V": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "pivots_Vstar": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "prec_left": 7,
+    "q1": 0,
+    "r1": 0,
+    "s0": 0,
+    "t0": 0
+   },
+   "line_stays_(1,1)": null,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "free_choice": {},
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 630
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {
+      "twist_T": 630
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    },
+    {
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "solvable": true
+    }
+   ],
+   "p": 1129,
+   "parity_symmetric": true,
+   "relator_identity": true,
+   "stopped": null,
+   "t0": 329
+  }
+ ],
+ "C5_chiral_solver_on_the_one_sided_family": [
+  {
+   "I": -1,
+   "U_k_zero_for_k>=2": true,
+   "all_choices_zero": true,
+   "exists_to_order": 6,
+   "line_stays_(1,1)": true,
+   "point": "17+-12sqrt2 (q=240 mod 1009, mu=-1)",
+   "relator_identity": true
+  },
+  {
+   "I": -1,
+   "U_k_zero_for_k>=2": true,
+   "all_choices_zero": true,
+   "exists_to_order": 6,
+   "line_stays_(1,1)": true,
+   "point": "17+-12sqrt2 (q=803 mod 1009, mu=-1)",
+   "relator_identity": true
+  },
+  {
+   "I": -1,
+   "U_k_zero_for_k>=2": true,
+   "all_choices_zero": true,
+   "exists_to_order": 6,
+   "line_stays_(1,1)": true,
+   "point": "17+-12sqrt2 (q=733 mod 1033, mu=-1)",
+   "relator_identity": true
+  },
+  {
+   "I": -1,
+   "U_k_zero_for_k>=2": true,
+   "all_choices_zero": true,
+   "exists_to_order": 6,
+   "line_stays_(1,1)": true,
+   "point": "17+-12sqrt2 (q=334 mod 1033, mu=-1)",
+   "relator_identity": true
+  },
+  {
+   "I": -1,
+   "U_k_zero_for_k>=2": true,
+   "all_choices_zero": true,
+   "exists_to_order": 6,
+   "line_stays_(1,1)": true,
+   "point": "17+-12sqrt2 (q=373 mod 1129, mu=-1)",
+   "relator_identity": true
+  },
+  {
+   "I": -1,
+   "U_k_zero_for_k>=2": true,
+   "all_choices_zero": true,
+   "exists_to_order": 6,
+   "line_stays_(1,1)": true,
+   "point": "17+-12sqrt2 (q=790 mod 1129, mu=-1)",
+   "relator_identity": true
+  }
+ ],
+ "C6_gl3_adjoint_machinery": [
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 7,
+    "dim_Z1": 12,
+    "h1_gl": 5,
+    "h1_sl_adjoint": 1
+   },
+   "absolute_exists_to_order": 8,
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 59,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 950,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "index": {
+    "6": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 5,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    },
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 7,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    }
+   },
+   "kappa_l_hat": 950,
+   "order2_obstruction_zero": true,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 314
+     },
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 91
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 675
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    }
+   ],
+   "p": 1009,
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 2,
+    "h1_adjoint": 1,
+    "restriction_injective": true,
+    "restriction_rank": 1
+   },
+   "stopped": null,
+   "t": 151,
+   "verify": {
+    "line_stays_(1,1)": false,
+    "parity_symmetric": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 7,
+    "dim_Z1": 12,
+    "h1_gl": 5,
+    "h1_sl_adjoint": 1
+   },
+   "absolute_exists_to_order": 8,
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 428,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 581,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "index": {
+    "6": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 5,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    },
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 7,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    }
+   },
+   "kappa_l_hat": 581,
+   "order2_obstruction_zero": true,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 961
+     },
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 346
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 783
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    }
+   ],
+   "p": 1009,
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 2,
+    "h1_adjoint": 1,
+    "restriction_injective": true,
+    "restriction_rank": 1
+   },
+   "stopped": null,
+   "t": 862,
+   "verify": {
+    "line_stays_(1,1)": false,
+    "parity_symmetric": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 7,
+    "dim_Z1": 12,
+    "h1_gl": 5,
+    "h1_sl_adjoint": 1
+   },
+   "absolute_exists_to_order": 8,
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 362,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 671,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "index": {
+    "6": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 5,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    },
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 7,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    }
+   },
+   "kappa_l_hat": 671,
+   "order2_obstruction_zero": true,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 602
+     },
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 66
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 617
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    }
+   ],
+   "p": 1033,
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 2,
+    "h1_adjoint": 1,
+    "restriction_injective": true,
+    "restriction_rank": 1
+   },
+   "stopped": null,
+   "t": 385,
+   "verify": {
+    "line_stays_(1,1)": false,
+    "parity_symmetric": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 7,
+    "dim_Z1": 12,
+    "h1_gl": 5,
+    "h1_sl_adjoint": 1
+   },
+   "absolute_exists_to_order": 8,
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 418,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 615,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "index": {
+    "6": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 5,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    },
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 7,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    }
+   },
+   "kappa_l_hat": 615,
+   "order2_obstruction_zero": true,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 912
+     },
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 244
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 859
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    }
+   ],
+   "p": 1033,
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 2,
+    "h1_adjoint": 1,
+    "restriction_injective": true,
+    "restriction_rank": 1
+   },
+   "stopped": null,
+   "t": 652,
+   "verify": {
+    "line_stays_(1,1)": false,
+    "parity_symmetric": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 7,
+    "dim_Z1": 12,
+    "h1_gl": 5,
+    "h1_sl_adjoint": 1
+   },
+   "absolute_exists_to_order": 8,
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 577,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 552,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "index": {
+    "6": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 5,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    },
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 7,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    }
+   },
+   "kappa_l_hat": 552,
+   "order2_obstruction_zero": true,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 217
+     },
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 1037
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 1011
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    }
+   ],
+   "p": 1129,
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 2,
+    "h1_adjoint": 1,
+    "restriction_injective": true,
+    "restriction_rank": 1
+   },
+   "stopped": null,
+   "t": 367,
+   "verify": {
+    "line_stays_(1,1)": false,
+    "parity_symmetric": true,
+    "relator_identity_to_order_N": true
+   }
+  },
+  {
+   "H1": {
+    "basis_spans_H1": true,
+    "dim_B1": 7,
+    "dim_Z1": 12,
+    "h1_gl": 5,
+    "h1_sl_adjoint": 1
+   },
+   "absolute_exists_to_order": 8,
+   "fixed_end_order2": {
+    "block_trace_at_longitude": 971,
+    "first_order_peripheral_coboundary": true,
+    "gauged_first_order_zero": true,
+    "line_at_longitude": 158,
+    "o_rel_sl": 1,
+    "o_rel_total": 1
+   },
+   "index": {
+    "6": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 5,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    },
+    "8": {
+     "I": 0,
+     "a0": 0,
+     "a1": 0,
+     "b0": 0,
+     "b1": 0,
+     "n_V": 0,
+     "n_Vstar": 0,
+     "pivots_V": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "pivots_Vstar": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "prec_left": 7,
+     "q1": 0,
+     "r1": 0,
+     "s0": 0,
+     "t0": 0
+    }
+   },
+   "kappa_l_hat": 158,
+   "order2_obstruction_zero": true,
+   "orders": [
+    {
+     "order": 2
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 328
+     },
+     "order": 3,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 4,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 434
+     },
+     "order": 5,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 6,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 1,
+     "base_A_nonzero": 1,
+     "free_choice": {
+      "twist_T": 1108
+     },
+     "order": 7,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    },
+    {
+     "base_A*_nonzero": 0,
+     "base_A_nonzero": 0,
+     "free_choice": {},
+     "order": 8,
+     "rank_of_linear_map": 1,
+     "rank_on_A*_rows": 1,
+     "rank_on_A_rows": 1
+    }
+   ],
+   "p": 1129,
+   "rigidity": {
+    "cusp_pair_regular": true,
+    "h0_T_gl_a": 2,
+    "h1_adjoint": 1,
+    "restriction_injective": true,
+    "restriction_rank": 1
+   },
+   "stopped": null,
+   "t": 766,
+   "verify": {
+    "line_stays_(1,1)": false,
+    "parity_symmetric": true,
+    "relator_identity_to_order_N": true
+   }
+  }
+ ]
+}
