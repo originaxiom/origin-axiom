@@ -16162,3 +16162,46 @@ Report: reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
 R73 custody caught a stale seal-ledger digest after the new seal entries.
 The first cumulative failure is retained; latest metadata hashes were
 refreshed separately without changing any frozen scientific input.
+
+## 2026-10-01 — R74 actual exterior coefficient and common local action
+
+Five science files sealed at f7cdf281e361c09469c9552951732f128db5cd70,
+pushed and server-confirmed before import/execution. SSH authentication
+was unavailable; existing authenticated HTTPS used without changing user
+configuration. All16 local input and3 read B1509 context bytes are pinned.
+
+The periodic zero-Fourier Lambda2(4) on the SPLIT rank-five R66 cone has
+charges+/-2 three each and acyclic torus cohomology. At the SUPPLIED
+aspect alpha=9 log(q)^2, the actual changing Q admits36 slow and12 fast
+local solutions by explicit contraction. Their conserved current/cutoff
+estimates inject24 nondegenerate graph classes, signature(12,12).
+A separate scalar contraction gives6 local degree-one profiles with
+both d/delta zero on the tail and integrable kinetic/L4 products.
+These locally complex-exact seeds are an isotropic six-plane, not
+selected physical particles or the required maximal12-plane.
+The maximal separate graph-plus-L4 class differs from X0's closure.
+
+67/67 first finite controls and24/24 R68/R72/R74 focused tests pass;
+eight new tests. No repair or scientific failure. Native sha256
+4902a8e4d49a1a40f7e332c5fa40e73001812205e1fe3531ae510ca71eb2dc3b;
+focused sha256 db96587f83a4a34d1e165040d0ba869b7e02a4be28d4bee94f52be6f761c6aaa.
+Exact historical governance debt remains26PASS/4FAIL, not full green.
+Older scientific failures preserved, not rerun. No full suite,
+independent continuous-proof review or main banking verification.
+
+Personally read/pinned B1509 at67eb88ad: Proposition E defines a
+cohomological end prescription. Its zero exterior count remains valid
+within that scope; no nonsplit background/source independently derived
+here. R63's existing cohomology/domain distinction is now joined to
+this actual matter coefficient and action. Aspect changes the problem;
+no extra5bar particle, anomaly cancellation, generation or SM value.
+All11 reader surfaces updated, no identification row changed.
+Next one interacting end/gauge/superfield law and actual core/source
+join, then normalizable spectrum/anomalies; the full architecture and
+approved parameter-free SM/TOE mission remain active, unachieved.
+Report: reports/physical_bridge_2026_09_05/CONE_MATTER.md.
+
+R74 first custody check falsely rejected unchanged Unicode bytes because
+Ruby compared UTF-8 and ASCII-8BIT strings. SHA256 and binary comparison
+agree. The first metadata failure is preserved in receipts; only the
+checker normalizes both byte strings, with no frozen science alteration.

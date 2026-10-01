@@ -1,6 +1,20 @@
 # Changelog
 
 
+## 2026-10-01 — R74 actual exterior cone matter and action admission
+
+The actual split exterior coefficient has acyclic boundary cohomology
+but analytic local graph witnesses at a declared cone aspect. Exact
+changing-operator contractions give24 witnessed current classes; six
+degree-one profiles have separate derivative norms and finite products.
+Locally complex-exact seeds are not particles or an admitted end law.
+67 first controls and24 R68/R72/R74 focused tests pass; eight new tests.
+B1509's nonsplit cohomological count retained, not independently verified.
+Full end/gauge/superfield, core/source/anomaly duties and SM/TOE remain.
+Science f7cdf281 pushed/server-confirmed before execution. No repair.
+Report: reports/physical_bridge_2026_09_05/CONE_MATTER.md.
+
+
 ## 2026-10-01 — Path-local R73 actual compact orbit and same-action transport
 
 Exact compact gauge orbit and its required spacetime compensator preserve

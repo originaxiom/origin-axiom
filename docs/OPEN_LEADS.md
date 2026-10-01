@@ -4238,3 +4238,28 @@ reports/physical_bridge_2026_09_05/CONE_ORBIT.md.
   consistency/probabilities and gravity remain the full mission.
   The received architecture census and interaction design are scoped
   instruments, not new physical inputs earned by this audit.
+
+## R74 exterior matter disposition October 1 2026
+
+The actual split exterior cone/action join has67 passing finite controls
+and24 focused passes, at conditional authored analytic grade. Its24 graph
+witnesses and6 finite-product degree-one profiles are not particles.
+Source: reports/physical_bridge_2026_09_05/CONE_MATTER.md.
+
+- PB-BOUNDARY / PB-ACTION: derive or price one interacting end/gauge law
+  for these maximal separate graph-plus-L4 profiles. It is not X0's
+  compact-support closure or the cohomological end definition.
+  The witnessed isotropic six-plane is not the required maximal12-plane.
+- PB-GAUGE / PB-SUPERFIELD: determine the actual compact quotient and all
+  supercharge/derivative/reality maps. Locally complex-exact profiles
+  cannot be counted as particles before this duty.
+- PB-TRANSITIONS / PB-SOURCE: match actual global core and parent, and
+  B1509's nonsplit/source problem only on a SAME admitted configuration.
+  The supplied split cone and aspect do not accomplish that join.
+- PB-REVIEW: independently review the continuous contractions, current,
+  cutoff and product argument. Byte custody and67 checks do not do it.
+  Preserve historical failures and pending main banking review.
+- PB-PHYSICS: earn the normalizable anomaly-compatible chiral spectrum
+  and normalized interactions/values, quantum consistency/probabilities
+  and gravity from the full generated architecture. No identification
+  ledger promotion, extra5bar, chirality solution or TOE completion.

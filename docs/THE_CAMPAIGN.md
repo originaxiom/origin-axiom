@@ -1,5 +1,18 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current path-local R74 (October 1):** the actual exterior six on the
+split rank-five logarithmic cone has acyclic torus cohomology but admits
+analytic graph witnesses at the SUPPLIED aspect alpha=9 log(q)^2.
+The changing-operator argument yields24 witnessed current classes and
+six local degree-one profiles with separate d/delta and finite products.
+They are locally complex-exact, not particles or a selected maximal end.
+67 controls and24 R68/R72/R74 tests pass first run; eight new tests.
+B1509's nonsplit/cohomological result is not refuted or reproduced.
+End/gauge/superfield selection, core/source matching and anomalies remain
+open. No identification or physical value is earned; full SM/TOE active.
+Report: reports/physical_bridge_2026_09_05/CONE_MATTER.md.
+Earlier dated entries retain their historical scopes.
+
 **Current path-local R73 (October 1):** the actual compact phase orbit
 preserves nonlinear residual action, peripheral conjugacy and transported
 Q graph/current data. Its finite-norm tangent has a divergent straight

@@ -1,0 +1,111 @@
+{
+  "seal": "f7cdf281e361c09469c9552951732f128db5cd70",
+  "scope": "Fixed finite controls and raw byte custody for authored conditional local exterior cone admission, not independent theorem or physics acceptance",
+  "runs": {
+    "native_first": {
+      "raw_basename": "r74_native_first",
+      "raw_receipt_sha256": "3b3e78529836ca12acd89a612cdac33f0404285727f88ef198dd6361c95f7daf",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/cone_matter.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.368109999981243,
+        "log_bytes": 7290,
+        "log_sha256": "4902a8e4d49a1a40f7e332c5fa40e73001812205e1fe3531ae510ca71eb2dc3b"
+      },
+      "stdout": "{\n  \"all_checks_pass\": true,\n  \"checks\": {\n    \"actual/Gamma_anticommutes\": true,\n    \"actual/Gamma_current\": true,\n    \"actual/actual48components\": true,\n    \"actual/d_squared_actual\": true,\n    \"actual/exact_Q\": true,\n    \"actual/frozen_nilpotent_derivative_rejected\": true,\n    \"actual/nonzero_radial_transport\": true,\n    \"actual/positive_Hermitian\": true,\n    \"actual/representation_norm_bounds\": true,\n    \"actual/zero_Fourier_not_all_A0\": true,\n    \"coefficient/Lie_commutator\": true,\n    \"coefficient/Lie_preserves_flatness\": true,\n    \"coefficient/actual_dimension\": true,\n    \"coefficient/actual_longitude_charpoly\": true,\n    \"coefficient/charge_multiset\": true,\n    \"coefficient/compact_wedge_unitary\": true,\n    \"coefficient/exact_charge_reduction\": true,\n    \"coefficient/full10_charge_roster\": true,\n    \"coefficient/group_not_Lie_map\": true,\n    \"coefficient/i_twist_six_antiperiodic\": true,\n    \"coefficient/invertible_longitude_generic\": true,\n    \"coefficient/periodic_six_count\": true,\n    \"coefficient/positive_adjoints\": true,\n    \"coefficient/q1_inverse_excluded\": true,\n    \"coefficient/rhoP_not_square_rhoN\": true,\n    \"coefficient/torus_acyclic_at_q2\": true,\n    \"coefficient/twist_four_not_periodic\": true,\n    \"coefficient/zero_trace_H\": true,\n    \"contraction/annihilator_and_rank\": true,\n    \"contraction/current_pair_decay\": true,\n    \"contraction/exact_contractions\": true,\n    \"contraction/exact_gap_sums\": true,\n    \"contraction/fast_cutoff_margin\": true,\n    \"contraction/full_half_not_six\": true,\n    \"contraction/scalar_contraction\": true,\n    \"contraction/scalar_separate_decay\": true,\n    \"contraction/slow_L2_margin\": true,\n    \"contraction/unsafe_tail_rejected\": true,\n    \"limit/actual_aspect_mass\": true,\n    \"limit/exact_eta\": true,\n    \"limit/exact_fixture_spectrum\": true,\n    \"limit/exact_scalar_charpoly\": true,\n    \"limit/exceptional_k_bound\": true,\n    \"limit/exceptional_q_reciprocal\": true,\n    \"limit/four_critical_per_coefficient\": true,\n    \"limit/half_meridian_sector_not_zero\": true,\n    \"limit/threshold_distinct\": true,\n    \"limit/unit_aspect_outside_limiting\": true,\n    \"products/fast_graph_cutoff_zero\": true,\n    \"products/fast_graph_exponent\": true,\n    \"products/finite_products_not_zero\": true,\n    \"products/kinetic_integrable\": true,\n    \"products/minimal_is_not_maximal_choice\": true,\n    \"products/nonlinear_L4_integrable\": true,\n    \"products/product_exponent_margin\": true,\n    \"products/unsafe_product_diverges\": true,\n    \"scalar/actual_B_limit\": true,\n    \"scalar/degree_one_current_isotropic\": true,\n    \"scalar/direct_scalar_metric_equation\": true,\n    \"scalar/exact_eigenframe_inverse\": true,\n    \"scalar/exact_perturbation_frame\": true,\n    \"scalar/exact_scalar_eigenframe\": true,\n    \"scalar/perturbation_norm_coefficient\": true,\n    \"scalar/scalar_growth_fixture\": true,\n    \"scalar/scalar_wrong_radial_omission\": true,\n    \"scalar/shifted_scalar_has_no_stable_seed\": true,\n    \"scalar/tangential_f_recovery\": true\n  },\n  \"groups\": {\n    \"actual\": {\n      \"checks\": {\n        \"Gamma_anticommutes\": true,\n        \"Gamma_current\": true,\n        \"actual48components\": true,\n        \"d_squared_actual\": true,\n        \"exact_Q\": true,\n        \"frozen_nilpotent_derivative_rejected\": true,\n        \"nonzero_radial_transport\": true,\n        \"positive_Hermitian\": true,\n        \"representation_norm_bounds\": true,\n        \"zero_Fourier_not_all_A0\": true\n      },\n      \"form_dimension\": 48,\n      \"scope\": \"Exact changing coefficient operator, not a frozen-spectrum substitution\"\n    },\n    \"coefficient\": {\n      \"charges\": [\n        \"-2\",\n        \"2\",\n        \"2\",\n        \"-2\",\n        \"-2\",\n        \"2\"\n      ],\n      \"checks\": {\n        \"Lie_commutator\": true,\n        \"Lie_preserves_flatness\": true,\n        \"actual_dimension\": true,\n        \"actual_longitude_charpoly\": true,\n        \"charge_multiset\": true,\n        \"compact_wedge_unitary\": true,\n        \"exact_charge_reduction\": true,\n        \"full10_charge_roster\": true,\n        \"group_not_Lie_map\": true,\n        \"i_twist_six_antiperiodic\": true,\n        \"invertible_longitude_generic\": true,\n        \"periodic_six_count\": true,\n        \"positive_adjoints\": true,\n        \"q1_inverse_excluded\": true,\n        \"rhoP_not_square_rhoN\": true,\n        \"torus_acyclic_at_q2\": true,\n        \"twist_four_not_periodic\": true,\n        \"zero_trace_H\": \"True\"\n      },\n      \"coefficient_dimension\": 6,\n      \"scope\": \"Actual Lie/group exterior actions and central twist; no index imported\"\n    },\n    \"contraction\": {\n      \"checks\": {\n        \"annihilator_and_rank\": true,\n        \"current_pair_decay\": true,\n        \"exact_contractions\": \"True\",\n        \"exact_gap_sums\": true,\n        \"fast_cutoff_margin\": true,\n        \"full_half_not_six\": true,\n        \"scalar_contraction\": \"True\",\n        \"scalar_separate_decay\": \"True\",\n        \"slow_L2_margin\": true,\n        \"unsafe_tail_rejected\": \"True\"\n      },\n      \"fast_dimension\": 12,\n      \"scalar_seed_dimension\": 6,\n      \"scope\": \"Finite constants of two authored exact contractions, not numerical approximation\",\n      \"slow_dimension\": 36,\n      \"witnessed_quotient_dimension\": 24,\n      \"witnessed_signature\": [\n        12,\n        12\n      ]\n    },\n    \"limit\": {\n      \"checks\": {\n        \"actual_aspect_mass\": true,\n        \"exact_eta\": true,\n        \"exact_fixture_spectrum\": true,\n        \"exact_scalar_charpoly\": true,\n        \"exceptional_k_bound\": true,\n        \"exceptional_q_reciprocal\": true,\n        \"four_critical_per_coefficient\": true,\n        \"half_meridian_sector_not_zero\": \"True\",\n        \"threshold_distinct\": \"True\",\n        \"unit_aspect_outside_limiting\": \"True\"\n      },\n      \"critical_limiting_dimension\": 24,\n      \"limiting_eigenvalue_multiplicities\": {\n        \"-1/3\": 12,\n        \"-4/3\": 12,\n        \"1/3\": 12,\n        \"4/3\": 12\n      },\n      \"scope\": \"Supplied aspect and periodic zero block only, not physical modes\"\n    },\n    \"products\": {\n      \"L4_bound\": \"6*R**(1/6)\",\n      \"checks\": {\n        \"fast_graph_cutoff_zero\": true,\n        \"fast_graph_exponent\": true,\n        \"finite_products_not_zero\": true,\n        \"kinetic_integrable\": true,\n        \"minimal_is_not_maximal_choice\": \"True\",\n        \"nonlinear_L4_integrable\": true,\n        \"product_exponent_margin\": true,\n        \"unsafe_product_diverges\": true\n      },\n      \"kinetic_bound\": \"12*R**(19/12)/19\",\n      \"scope\": \"Sufficient local finite-product norm bounds, not X0 admission or full supersymmetric law\"\n    },\n    \"scalar\": {\n      \"checks\": {\n        \"actual_B_limit\": true,\n        \"degree_one_current_isotropic\": true,\n        \"direct_scalar_metric_equation\": true,\n        \"exact_eigenframe_inverse\": true,\n        \"exact_perturbation_frame\": true,\n        \"exact_scalar_eigenframe\": true,\n        \"perturbation_norm_coefficient\": true,\n        \"scalar_growth_fixture\": true,\n        \"scalar_wrong_radial_omission\": true,\n        \"shifted_scalar_has_no_stable_seed\": \"True\",\n        \"tangential_f_recovery\": true\n      },\n      \"scalar_seed_dimension\": 6,\n      \"scope\": \"Actual delta d equation and derivative/product inputs; not selected physical modes\"\n    }\n  },\n  \"scope\": \"Actual split exterior cone and finite-action local profiles; not B1509 nonsplit vacuum, physical chirality or TOE\"\n}\n"
+    },
+    "combined_first": {
+      "raw_basename": "r74_combined_first",
+      "raw_receipt_sha256": "86d2593eb24bad61b46a7322261cf4f1504d14e5a1f17530183cf64f251e211a",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_fermion.py",
+          "tests/test_physical_bridge_cone_exact.py",
+          "tests/test_physical_bridge_cone_matter.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 9.928940000012517,
+        "log_bytes": 99,
+        "log_sha256": "db96587f83a4a34d1e165040d0ba869b7e02a4be28d4bee94f52be6f761c6aaa"
+      },
+      "stdout": "........................                                                 [100%]\n24 passed in 9.10s\n"
+    }
+  },
+  "audit_runs": {
+    "gates_seal": {
+      "raw_basename": "r74_gates_seal",
+      "raw_receipt_sha256": "b40d0483520becff60075caa3bfce078b740582c91f6de8de8a06ad312fffc9b",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 17.067448000016157,
+        "log_bytes": 2189,
+        "log_sha256": "065215d4a615f3cdde118be8a9eb16871c8dba39b9a681d0f176f1518ca34d5b"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 273 merges since last review (DUE — run the decadal review)\n"
+    },
+    "gates_prebank": {
+      "raw_basename": "r74_gates_prebank",
+      "raw_receipt_sha256": "8a1c0d61cff19f66948518fcc2e926652dcc476eff420c5a1a5ca194537756d9",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 17.1130439999979,
+        "log_bytes": 2189,
+        "log_sha256": "3f3baa190214be9e54a8b6f10349633a22ad243bd03f1b0636f10a8ad7778440"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 274 merges since last review (DUE — run the decadal review)\n"
+    }
+  },
+  "population": {
+    "controls": 67,
+    "focused_passes": 24,
+    "new_tests": 8,
+    "focused_test_files": 3
+  },
+  "first_scientific_failures": [],
+  "not_rerun": "Original R63/R64/R69/R71/R73 failures; no full suite, main certification or independent analytic review",
+  "push_transport": "SSH authentication failed; existing authenticated HTTPS connection used for seal push, server-confirmed before execution; no user configuration changed",
+  "metadata_capture": {
+    "raw_basename": "r74_custody_precommit",
+    "raw_receipt_sha256": "d2379ffd415647d33642d991626f514548750feefb6c2a94554d2beaca56fbf2",
+    "receipt": {
+      "command": [
+        "ruby",
+        "-EUTF-8:UTF-8",
+        "reports/physical_bridge_2026_09_05/cone_matter_receipt_check.rb",
+        "<raw>"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.2174010000890121,
+      "log_bytes": 80,
+      "log_sha256": "436157e8afe9b7287e500a0005a5b349172010325be994d49b23e881d89fdd3e"
+    },
+    "stdout": "frozen science changed reports/physical_bridge_2026_09_05/CONE_MATTER_DESIGN.md\n"
+  },
+  "metadata_failure": "First custody check falsely rejected unchanged Unicode science because UTF-8 and ASCII-8BIT Ruby strings were compared without binary normalization. SHA256 and binary bytes agree; only metadata checker comparison changed, first capture preserved."
+}
