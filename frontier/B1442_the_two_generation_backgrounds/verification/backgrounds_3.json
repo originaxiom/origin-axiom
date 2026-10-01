@@ -1,0 +1,47 @@
+[
+ {
+  "cusps": 2,
+  "N": 2,
+  "prime": 3001,
+  "characters": 16,
+  "firing_modules_over_classes": 22,
+  "max_abs_I": 2,
+  "backgrounds": 0,
+  "by_count": {},
+  "by_count_generic_class_only": {},
+  "by_count_and_singlet": {},
+  "examples_abs_count_ge_2": [],
+  "seconds": 2.7,
+  "tag": "m010 deg 6 #4"
+ },
+ {
+  "cusps": 2,
+  "N": 4,
+  "prime": 3001,
+  "characters": 128,
+  "firing_modules_over_classes": 1048,
+  "max_abs_I": 2,
+  "backgrounds": 0,
+  "by_count": {},
+  "by_count_generic_class_only": {},
+  "by_count_and_singlet": {},
+  "examples_abs_count_ge_2": [],
+  "seconds": 145.7,
+  "tag": "m009 deg 6 #23"
+ },
+ {
+  "cusps": 2,
+  "N": 4,
+  "prime": 3001,
+  "characters": 256,
+  "firing_modules_over_classes": 510,
+  "max_abs_I": 2,
+  "backgrounds": 0,
+  "by_count": {},
+  "by_count_generic_class_only": {},
+  "by_count_and_singlet": {},
+  "examples_abs_count_ge_2": [],
+  "seconds": 226.6,
+  "tag": "m009 deg 6 #3"
+ }
+]

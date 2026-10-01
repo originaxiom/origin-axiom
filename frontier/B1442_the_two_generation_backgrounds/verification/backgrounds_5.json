@@ -1,0 +1,32 @@
+[
+ {
+  "cusps": 2,
+  "N": 2,
+  "prime": 3001,
+  "characters": 32,
+  "firing_modules_over_classes": 624,
+  "max_abs_I": 2,
+  "backgrounds": 0,
+  "by_count": {},
+  "by_count_generic_class_only": {},
+  "by_count_and_singlet": {},
+  "examples_abs_count_ge_2": [],
+  "seconds": 38.1,
+  "tag": "m009 deg 6 #15"
+ },
+ {
+  "cusps": 2,
+  "N": 6,
+  "prime": 3001,
+  "characters": 216,
+  "firing_modules_over_classes": 160,
+  "max_abs_I": 2,
+  "backgrounds": 0,
+  "by_count": {},
+  "by_count_generic_class_only": {},
+  "by_count_and_singlet": {},
+  "examples_abs_count_ge_2": [],
+  "seconds": 95.6,
+  "tag": "m009 deg 4 #6"
+ }
+]

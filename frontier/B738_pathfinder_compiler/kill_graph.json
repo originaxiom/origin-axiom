@@ -11054,5 +11054,16 @@
   "faces_consulted": "the lane's own verdict file and FINDINGS (frontier/B1408_the_precision_requirement); its suite at 6f513e19",
   "fact_computed": "L216 CLOSED NEGATIVE BEFORE THE WINDOW WAS SPENT, THE MIRROR SECTOR CLOSED ENTIRE, AND THE OBSTRUCTION QUANTIFIED: THE VALUE CHANNEL NEEDS ~1e-2 TO 1e-3 RELATIVE PRECISION, AN INDEX CHANNEL NEEDS ~1e-1, AND ~1e-1 IS WHAT WAS AVAILABLE. 12/12 checks. THE ODD SECTOR CARRIES EXACTLY ONE NUMBER. Computed at B1349's exactness on the 2-dimensional theta-odd sector over the complete period: EAR-INDEPENDE",
   "revival_score": 2
+ },
+ {
+  "id": "B1442",
+  "claim_killed": "That a background of the Standard-Model frame counts two generations on a manifold with several cusps, where a single rank-two sector module does (B1441). On the seventeen carriers no background has its five charged sectors at class index two; sixteen carry no generation-shaped background at all and one carries 32 of count one.",
+  "kill_form": "Sealed census (7f080e49) with a lemma for the sign-character half: every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W), six sector indices by B1333's several-cusp code; and for a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite and the absence is forced.",
+  "hatch": "a special class of a several-dimensional H^1(l) other than those tried; covers of degree above six; three live cusps with a triple coincidence; a frame other than B1432's",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-01), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the difference between generations is not a count of two or three inside one background. With B1438 (copies along a deck orbit do not mix) and B1440 (rank five counts at most two on one cusp) it says where the distinction is NOT; on the root's three-fold cover each member of an orbit couples to its own Higgs class, so the distinction would sit in the pattern of values those classes carry -- an invariant of the orbit, not excluded by anything proved and not yet computed (B1443).",
+  "faces_consulted": "B1441 (the carriers and their modules), B1438 (the duality V(l, alpha)* = V(l, 1/beta)), B1333 (the several-cusp index), B1432 (the frame); a sweep of main and every lane for a several-cusp class index (none found, 2026-10-01)",
+  "fact_computed": true
  }
 ]

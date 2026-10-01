@@ -1,0 +1,6080 @@
+[
+ {
+  "state": "+LR",
+  "k": 3,
+  "torsion": 16,
+  "backgrounds": 48,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LR",
+  "k": 3,
+  "torsion": 20,
+  "backgrounds": 96,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLR",
+  "k": 2,
+  "torsion": 45,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLR",
+  "k": 2,
+  "torsion": 45,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LR",
+  "k": 4,
+  "torsion": 45,
+  "backgrounds": 256,
+  "orbits": 64,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LR",
+  "k": 4,
+  "torsion": 45,
+  "backgrounds": 256,
+  "orbits": 64,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LLR",
+  "k": 3,
+  "torsion": 50,
+  "backgrounds": 48,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLR",
+  "k": 2,
+  "torsion": 60,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLR",
+  "k": 2,
+  "torsion": 60,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLRR",
+  "k": 2,
+  "torsion": 60,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLRR",
+  "k": 2,
+  "torsion": 60,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRR",
+  "k": 2,
+  "torsion": 96,
+  "backgrounds": 64,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRR",
+  "k": 2,
+  "torsion": 96,
+  "backgrounds": 64,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLRLR",
+  "k": 2,
+  "torsion": 96,
+  "backgrounds": 8,
+  "orbits": 8,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLRLR",
+  "k": 2,
+  "torsion": 96,
+  "backgrounds": 8,
+  "orbits": 4,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   }
+  ]
+ },
+ {
+  "state": "+LLLR",
+  "k": 3,
+  "torsion": 108,
+  "backgrounds": 72,
+  "orbits": 24,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 8
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLR",
+  "k": 3,
+  "torsion": 112,
+  "backgrounds": 48,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LR",
+  "k": 5,
+  "torsion": 121,
+  "backgrounds": 400,
+  "orbits": 80,
+  "table": [
+   {
+    "size": 5,
+    "distinct_l": 5,
+    "up_distinct": 5,
+    "up_nonzero": true,
+    "down_distinct": 5,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 80
+   }
+  ]
+ },
+ {
+  "state": "-LR",
+  "k": 5,
+  "torsion": 125,
+  "backgrounds": 480,
+  "orbits": 96,
+  "table": [
+   {
+    "size": 5,
+    "distinct_l": 5,
+    "up_distinct": 5,
+    "up_nonzero": false,
+    "down_distinct": 5,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 5,
+    "distinct_l": 5,
+    "up_distinct": 5,
+    "up_nonzero": true,
+    "down_distinct": 5,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 80
+   }
+  ]
+ },
+ {
+  "state": "-LLLRLR",
+  "k": 2,
+  "torsion": 165,
+  "backgrounds": 16,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLRLR",
+  "k": 2,
+  "torsion": 165,
+  "backgrounds": 16,
+  "orbits": 8,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRR",
+  "k": 2,
+  "torsion": 192,
+  "backgrounds": 192,
+  "orbits": 96,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRR",
+  "k": 2,
+  "torsion": 192,
+  "backgrounds": 192,
+  "orbits": 96,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRRR",
+  "k": 2,
+  "torsion": 192,
+  "backgrounds": 8,
+  "orbits": 4,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRRR",
+  "k": 2,
+  "torsion": 192,
+  "backgrounds": 8,
+  "orbits": 8,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLR",
+  "k": 4,
+  "torsion": 192,
+  "backgrounds": 480,
+  "orbits": 120,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": 4,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LLR",
+  "k": 4,
+  "torsion": 192,
+  "backgrounds": 480,
+  "orbits": 120,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": 4,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LLLLR",
+  "k": 3,
+  "torsion": 196,
+  "backgrounds": 216,
+  "orbits": 72,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "-LLLLR",
+  "k": 3,
+  "torsion": 200,
+  "backgrounds": 48,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLRR",
+  "k": 3,
+  "torsion": 200,
+  "backgrounds": 144,
+  "orbits": 48,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRLR",
+  "k": 2,
+  "torsion": 252,
+  "backgrounds": 280,
+  "orbits": 144,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 72
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRLR",
+  "k": 2,
+  "torsion": 252,
+  "backgrounds": 280,
+  "orbits": 140,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 56
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLRRR",
+  "k": 2,
+  "torsion": 285,
+  "backgrounds": 16,
+  "orbits": 8,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRRR",
+  "k": 2,
+  "torsion": 285,
+  "backgrounds": 16,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLRR",
+  "k": 2,
+  "torsion": 320,
+  "backgrounds": 384,
+  "orbits": 192,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLRR",
+  "k": 2,
+  "torsion": 320,
+  "backgrounds": 384,
+  "orbits": 192,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLR",
+  "k": 3,
+  "torsion": 320,
+  "backgrounds": 720,
+  "orbits": 240,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 112
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRRRR",
+  "k": 2,
+  "torsion": 320,
+  "backgrounds": 16,
+  "orbits": 8,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRRRR",
+  "k": 2,
+  "torsion": 320,
+  "backgrounds": 16,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLRLLR",
+  "k": 2,
+  "torsion": 320,
+  "backgrounds": 32,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLRLLR",
+  "k": 2,
+  "torsion": 320,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LR",
+  "k": 6,
+  "torsion": 320,
+  "backgrounds": 2160,
+  "orbits": 376,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 6,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 8
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 6,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 6,
+    "up_nonzero": true,
+    "down_distinct": 6,
+    "down_nonzero": true,
+    "neutrino_distinct": 6,
+    "orbits": 16
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 6,
+    "up_nonzero": true,
+    "down_distinct": 6,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 288
+   }
+  ]
+ },
+ {
+  "state": "+LR",
+  "k": 6,
+  "torsion": 320,
+  "backgrounds": 2160,
+  "orbits": 368,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 16
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 6,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 6,
+    "down_nonzero": true,
+    "neutrino_distinct": 6,
+    "orbits": 16
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 6,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 6,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 6,
+    "distinct_l": 6,
+    "up_distinct": 6,
+    "up_nonzero": true,
+    "down_distinct": 6,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 224
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLR",
+  "k": 3,
+  "torsion": 324,
+  "backgrounds": 360,
+  "orbits": 120,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 8
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 56
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLRLR",
+  "k": 2,
+  "torsion": 357,
+  "backgrounds": 24,
+  "orbits": 24,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRLR",
+  "k": 2,
+  "torsion": 357,
+  "backgrounds": 24,
+  "orbits": 12,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 12
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRRR",
+  "k": 2,
+  "torsion": 396,
+  "backgrounds": 72,
+  "orbits": 36,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRRR",
+  "k": 2,
+  "torsion": 396,
+  "backgrounds": 72,
+  "orbits": 40,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLLLRR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 480,
+  "orbits": 240,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLLLRR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 480,
+  "orbits": 240,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRLR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 184,
+  "orbits": 104,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRLR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 184,
+  "orbits": 92,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLRRRR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 80,
+  "orbits": 40,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRRRR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 80,
+  "orbits": 56,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRLLR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 568,
+  "orbits": 296,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 88
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 120
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRLLR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 568,
+  "orbits": 284,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 40
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 40
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 84
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLRLLRR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 192,
+  "orbits": 96,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLRLLRR",
+  "k": 2,
+  "torsion": 480,
+  "backgrounds": 192,
+  "orbits": 96,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLR",
+  "k": 3,
+  "torsion": 486,
+  "backgrounds": 576,
+  "orbits": 192,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLR",
+  "k": 3,
+  "torsion": 490,
+  "backgrounds": 216,
+  "orbits": 72,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLRRR",
+  "k": 2,
+  "torsion": 525,
+  "backgrounds": 56,
+  "orbits": 28,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 12
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLRRR",
+  "k": 2,
+  "torsion": 525,
+  "backgrounds": 56,
+  "orbits": 40,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLR",
+  "k": 4,
+  "torsion": 525,
+  "backgrounds": 224,
+  "orbits": 56,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": false,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 8
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLR",
+  "k": 4,
+  "torsion": 525,
+  "backgrounds": 224,
+  "orbits": 56,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": false,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 8
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLRLR",
+  "k": 2,
+  "torsion": 621,
+  "backgrounds": 24,
+  "orbits": 24,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLRLR",
+  "k": 2,
+  "torsion": 621,
+  "backgrounds": 24,
+  "orbits": 12,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 12
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLRRR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 248,
+  "orbits": 124,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLRRR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 248,
+  "orbits": 136,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRRRR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 152,
+  "orbits": 76,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 36
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRRRR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 152,
+  "orbits": 88,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLRLLR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 64,
+  "orbits": 56,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRLLR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 64,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 12
+   }
+  ]
+ },
+ {
+  "state": "-LLRLRLR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 64,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLRLRLR",
+  "k": 2,
+  "torsion": 672,
+  "backgrounds": 64,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLR",
+  "k": 3,
+  "torsion": 700,
+  "backgrounds": 480,
+  "orbits": 160,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 80
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLR",
+  "k": 3,
+  "torsion": 704,
+  "backgrounds": 336,
+  "orbits": 112,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLRRRRR",
+  "k": 2,
+  "torsion": 725,
+  "backgrounds": 64,
+  "orbits": 32,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRRRRR",
+  "k": 2,
+  "torsion": 725,
+  "backgrounds": 64,
+  "orbits": 64,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "-LLR",
+  "k": 5,
+  "torsion": 726,
+  "backgrounds": 1280,
+  "orbits": 256,
+  "table": [
+   {
+    "size": 5,
+    "distinct_l": 5,
+    "up_distinct": 5,
+    "up_nonzero": true,
+    "down_distinct": 5,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 5,
+    "distinct_l": 5,
+    "up_distinct": 5,
+    "up_nonzero": true,
+    "down_distinct": 5,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 240
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLRLR",
+  "k": 2,
+  "torsion": 780,
+  "backgrounds": 288,
+  "orbits": 160,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 128
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLRLR",
+  "k": 2,
+  "torsion": 780,
+  "backgrounds": 288,
+  "orbits": 144,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 128
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRLLLR",
+  "k": 2,
+  "torsion": 780,
+  "backgrounds": 176,
+  "orbits": 112,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRLLLR",
+  "k": 2,
+  "torsion": 780,
+  "backgrounds": 176,
+  "orbits": 88,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 40
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLLRRR",
+  "k": 2,
+  "torsion": 837,
+  "backgrounds": 24,
+  "orbits": 12,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 12
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLLRRR",
+  "k": 2,
+  "torsion": 837,
+  "backgrounds": 24,
+  "orbits": 24,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "+LR",
+  "k": 7,
+  "torsion": 841,
+  "backgrounds": 3136,
+  "orbits": 448,
+  "table": [
+   {
+    "size": 7,
+    "distinct_l": 7,
+    "up_distinct": 7,
+    "up_nonzero": true,
+    "down_distinct": 7,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 448
+   }
+  ]
+ },
+ {
+  "state": "-LR",
+  "k": 7,
+  "torsion": 845,
+  "backgrounds": 3360,
+  "orbits": 480,
+  "table": [
+   {
+    "size": 7,
+    "distinct_l": 7,
+    "up_distinct": 7,
+    "up_nonzero": true,
+    "down_distinct": 7,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 480
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLRRRR",
+  "k": 2,
+  "torsion": 896,
+  "backgrounds": 48,
+  "orbits": 24,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 12
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLRRRR",
+  "k": 2,
+  "torsion": 896,
+  "backgrounds": 48,
+  "orbits": 48,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRLLR",
+  "k": 2,
+  "torsion": 896,
+  "backgrounds": 304,
+  "orbits": 176,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRLLR",
+  "k": 2,
+  "torsion": 896,
+  "backgrounds": 304,
+  "orbits": 152,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 72
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 72
+   }
+  ]
+ },
+ {
+  "state": "-LLLRRLRR",
+  "k": 2,
+  "torsion": 896,
+  "backgrounds": 128,
+  "orbits": 64,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "+LLLRRLRR",
+  "k": 2,
+  "torsion": 896,
+  "backgrounds": 128,
+  "orbits": 64,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLLRLR",
+  "k": 2,
+  "torsion": 957,
+  "backgrounds": 40,
+  "orbits": 40,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 40
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLLRLR",
+  "k": 2,
+  "torsion": 957,
+  "backgrounds": 40,
+  "orbits": 20,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 20
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLR",
+  "k": 3,
+  "torsion": 968,
+  "backgrounds": 1440,
+  "orbits": 480,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 40
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 400
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 40
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLR",
+  "k": 3,
+  "torsion": 972,
+  "backgrounds": 792,
+  "orbits": 264,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 48
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRR",
+  "k": 3,
+  "torsion": 972,
+  "backgrounds": 24,
+  "orbits": 8,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLRLR",
+  "k": 3,
+  "torsion": 972,
+  "backgrounds": 8,
+  "orbits": 8,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRRRRR",
+  "k": 2,
+  "torsion": 1020,
+  "backgrounds": 176,
+  "orbits": 88,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 40
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRRRRR",
+  "k": 2,
+  "torsion": 1020,
+  "backgrounds": 176,
+  "orbits": 112,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLRLLLR",
+  "k": 2,
+  "torsion": 1085,
+  "backgrounds": 96,
+  "orbits": 96,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRLLLR",
+  "k": 2,
+  "torsion": 1085,
+  "backgrounds": 96,
+  "orbits": 48,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLRRRR",
+  "k": 2,
+  "torsion": 1152,
+  "backgrounds": 320,
+  "orbits": 160,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 72
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 72
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLRRRR",
+  "k": 2,
+  "torsion": 1152,
+  "backgrounds": 320,
+  "orbits": 184,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLRLLR",
+  "k": 2,
+  "torsion": 1152,
+  "backgrounds": 56,
+  "orbits": 56,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLRLLR",
+  "k": 2,
+  "torsion": 1152,
+  "backgrounds": 56,
+  "orbits": 28,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   }
+  ]
+ },
+ {
+  "state": "-LLLLR",
+  "k": 4,
+  "torsion": 1152,
+  "backgrounds": 1248,
+  "orbits": 312,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 48
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 112
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 128
+   }
+  ]
+ },
+ {
+  "state": "+LLLLR",
+  "k": 4,
+  "torsion": 1152,
+  "backgrounds": 1248,
+  "orbits": 312,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 4
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 48
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 112
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 4,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 128
+   }
+  ]
+ },
+ {
+  "state": "-LLLRLRLR",
+  "k": 2,
+  "torsion": 1152,
+  "backgrounds": 144,
+  "orbits": 72,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLRLRLR",
+  "k": 2,
+  "torsion": 1152,
+  "backgrounds": 144,
+  "orbits": 72,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "-LLRR",
+  "k": 4,
+  "torsion": 1152,
+  "backgrounds": 320,
+  "orbits": 80,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "+LLRR",
+  "k": 4,
+  "torsion": 1152,
+  "backgrounds": 320,
+  "orbits": 80,
+  "table": [
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": false,
+    "neutrino_distinct": 4,
+    "orbits": 64
+   },
+   {
+    "size": 4,
+    "distinct_l": 4,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 4,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLLR",
+  "k": 3,
+  "torsion": 1296,
+  "backgrounds": 1560,
+  "orbits": 520,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 64
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 112
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 80
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 24
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 72
+   }
+  ]
+ },
+ {
+  "state": "+LLLRRR",
+  "k": 3,
+  "torsion": 1296,
+  "backgrounds": 1584,
+  "orbits": 528,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 48
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": 3,
+    "orbits": 432
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 48
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLLR",
+  "k": 3,
+  "torsion": 1300,
+  "backgrounds": 480,
+  "orbits": 160,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 80
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "-LLLRRR",
+  "k": 3,
+  "torsion": 1300,
+  "backgrounds": 720,
+  "orbits": 240,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 80
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 160
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLRRRRR",
+  "k": 2,
+  "torsion": 1365,
+  "backgrounds": 128,
+  "orbits": 64,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLRRRRR",
+  "k": 2,
+  "torsion": 1365,
+  "backgrounds": 128,
+  "orbits": 112,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLRLLRLR",
+  "k": 2,
+  "torsion": 1365,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "+LLRLLRLR",
+  "k": 2,
+  "torsion": 1365,
+  "backgrounds": 32,
+  "orbits": 16,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLRLLR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 672,
+  "orbits": 368,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 32
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 256
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLRLLR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 672,
+  "orbits": 336,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 272
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRLLLR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 384,
+  "orbits": 240,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 80
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRLLLR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 384,
+  "orbits": 192,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 72
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 104
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLRRRRRR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 640,
+  "orbits": 320,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 48
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 96
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLRRRRRR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 640,
+  "orbits": 336,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 96
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRRLRR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 688,
+  "orbits": 344,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 40
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 44
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 52
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRRLRR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 688,
+  "orbits": 348,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 88
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 120
+   }
+  ]
+ },
+ {
+  "state": "-LLLRLLLRR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 1168,
+  "orbits": 584,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": 2,
+    "orbits": 4
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 352
+   }
+  ]
+ },
+ {
+  "state": "+LLLRLLLRR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 1168,
+  "orbits": 604,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 1,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 12
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": 1,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 112
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 384
+   }
+  ]
+ },
+ {
+  "state": "-LLRLRRLR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 304,
+  "orbits": 152,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   }
+  ]
+ },
+ {
+  "state": "+LLRLRRLR",
+  "k": 2,
+  "torsion": 1440,
+  "backgrounds": 304,
+  "orbits": 160,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 32
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLRLLLLR",
+  "k": 2,
+  "torsion": 1596,
+  "backgrounds": 264,
+  "orbits": 168,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 24
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 48
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRLLLLR",
+  "k": 2,
+  "torsion": 1596,
+  "backgrounds": 264,
+  "orbits": 132,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 24
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 60
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLLLR",
+  "k": 3,
+  "torsion": 1690,
+  "backgrounds": 2688,
+  "orbits": 896,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 96
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 624
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 112
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRR",
+  "k": 3,
+  "torsion": 1690,
+  "backgrounds": 432,
+  "orbits": 144,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 16
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLLLLR",
+  "k": 3,
+  "torsion": 1694,
+  "backgrounds": 1440,
+  "orbits": 480,
+  "table": [
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": 3,
+    "orbits": 40
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": false,
+    "down_distinct": 3,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 400
+   },
+   {
+    "size": 3,
+    "distinct_l": 3,
+    "up_distinct": 3,
+    "up_nonzero": true,
+    "down_distinct": 3,
+    "down_nonzero": true,
+    "neutrino_distinct": null,
+    "orbits": 40
+   }
+  ]
+ },
+ {
+  "state": "-LLLLRLRLR",
+  "k": 2,
+  "torsion": 1760,
+  "backgrounds": 256,
+  "orbits": 128,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRLRLR",
+  "k": 2,
+  "torsion": 1760,
+  "backgrounds": 256,
+  "orbits": 128,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 64
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 64
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLLRLLLR",
+  "k": 2,
+  "torsion": 1845,
+  "backgrounds": 112,
+  "orbits": 112,
+  "table": [
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": false,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 96
+   },
+   {
+    "size": 1,
+    "distinct_l": 1,
+    "up_distinct": 1,
+    "up_nonzero": true,
+    "down_distinct": 1,
+    "down_nonzero": false,
+    "neutrino_distinct": 1,
+    "orbits": 16
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLRLLLR",
+  "k": 2,
+  "torsion": 1845,
+  "backgrounds": 112,
+  "orbits": 56,
+  "table": [
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": false,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": null,
+    "orbits": 48
+   },
+   {
+    "size": 2,
+    "distinct_l": 2,
+    "up_distinct": 2,
+    "up_nonzero": true,
+    "down_distinct": 2,
+    "down_nonzero": false,
+    "neutrino_distinct": 2,
+    "orbits": 8
+   }
+  ]
+ }
+]

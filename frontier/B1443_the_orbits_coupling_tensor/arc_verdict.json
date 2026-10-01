@@ -1,0 +1,17 @@
+{
+ "id": "B1443",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1432",
+  "B1435",
+  "B1438",
+  "B1439"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE ORBIT'S COUPLING TENSOR. For a deck orbit of generation-shaped backgrounds with distinct extension characters, B1438 gives Y(i, j; k) = y [i = j] [eta_i = eta_k]: member i couples only to the spin-0 character of its own data, with one strength y for the whole orbit, so the tensor's shape is the number of distinct Higgs characters the orbit couples to. Checked directly on two levels with every character tried as the Higgs: a non-zero coupling for exactly one character per background, 48 of 48. Tabulated by slopes on all 18 788 deck orbits of the 142 levels of the census to length twelve: of 4 904 orbits of three, 4 464 have one Higgs character per member for both the up and the down coupling and 440 have one for all three in some coupling; on the root's three-fold cover ALL 16 orbits have three distinct Higgs characters for the up, the down-and-lepton and the neutrino couplings, every one non-zero, which holds for every orbit on only one other three-fold level of 25. By linear algebra the mass matrix of such an orbit is y diag(v_k): mass ratios are the ratios of the Higgs values, there is no mixing, the deck-symmetric point is degenerate and a single class gives rank one. Computed in answer to the owner's question why 'copies that cannot be told apart' should be a blocker: it was an imported expectation; the frame supplies a separate Higgs class per member. Checked again at the owner's instruction: that no invariant singles out a member (verified directly here; the three arcs first cited concern other orbits) does NOT mean the pattern of the Higgs values is not supplied -- the unordered pattern is an invariant, and a deck-invariant function with unsymmetric minima is not excluded by anything proved; none has been looked for. First candidate: on the root's three-fold cover the product of an orbit's three Higgs characters is trivial, so a cubic joining them is character-allowed; not computed. The reading as three generations is fenced as speculation with the computations it would need. No value; no physics claim."
+}

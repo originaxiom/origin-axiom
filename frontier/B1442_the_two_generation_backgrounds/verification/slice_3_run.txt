@@ -1,0 +1,3 @@
+m010 deg 6 #4 cusps 2 chars 16 backgrounds 0 by count {} generic class {}
+m009 deg 6 #23 cusps 2 chars 128 backgrounds 0 by count {} generic class {}
+m009 deg 6 #3 cusps 2 chars 256 backgrounds 0 by count {} generic class {}

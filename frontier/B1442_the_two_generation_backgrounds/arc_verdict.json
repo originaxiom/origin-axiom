@@ -1,0 +1,17 @@
+{
+ "id": "B1442",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1333",
+  "B1432",
+  "B1438",
+  "B1441"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE TWO-GENERATION BACKGROUNDS: NONE. Sealed at 7f080e49 before any background was assembled on a manifold with more than one cusp. On the seventeen several-cusped manifolds where one rank-two module of the frame has class index two (B1441), every background of B1432's frame was assembled -- every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W) -- with the six sector indices by B1333's several-cusp code. No background has its five charged sectors at index two, and on sixteen of the seventeen no generation-shaped background exists at all; the seventeenth (m009 deg 6 #25, two cusps, characters of order 8) has 32, all of count one. For the nine carriers with sign characters only the absence is forced: with a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite. Predictions: G5 YES; G1, G2, G3, G4 NO. The count per background stays at one on every manifold the record has computed, with one cusp or several: an index of two is a fact about a single sector that the frame's charge relations do not let five sectors share. Not excluded: covers above degree six, special classes not tried, three live cusps, another frame."
+}

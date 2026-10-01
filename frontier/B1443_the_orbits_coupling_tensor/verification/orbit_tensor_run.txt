@@ -1,0 +1,143 @@
++LR 3 orbits 16 {'size 3: l 3, up 3, down 3': 16}
+-LR 3 orbits 32 {'size 3: l 3, up 1, down 3 (zero)': 16, 'size 3: l 3, up 3 (zero), down 1': 16}
+-LLLLLR 2 orbits 16 {'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
++LLLLLR 2 orbits 16 {'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8}
+-LR 4 orbits 64 {'size 4: l 4, up 1, down 1': 16, 'size 4: l 4, up 1, down 4 (zero)': 16, 'size 4: l 4, up 1, down 4': 32}
++LR 4 orbits 64 {'size 4: l 4, up 2, down 2': 16, 'size 4: l 4, up 2, down 4 (zero)': 16, 'size 4: l 4, up 2, down 4': 32}
++LLR 3 orbits 16 {'size 3: l 3, up 3, down 3': 16}
+-LLLLLLR 2 orbits 16 {'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8}
++LLLLLLR 2 orbits 16 {'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
+-LLLRR 2 orbits 16 {'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8}
++LLLRR 2 orbits 16 {'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
+-LLLLRR 2 orbits 32 {'size 2: l 2, up 2, down 1 (zero)': 16}
++LLLLRR 2 orbits 32 {'size 2: l 2, up 2, down 2 (zero)': 16}
+-LLRLR 2 orbits 8 {'size 1: l 1, up 1, down 1 (zero)': 8}
++LLRLR 2 orbits 4 {'size 2: l 2, up 2, down 2 (zero)': 4}
++LLLR 3 orbits 24 {'size 3: l 3, up 3, down 1 (zero)': 8, 'size 3: l 3, up 3, down 3': 8}
+-LLLR 3 orbits 16 {'size 3: l 3, up 3, down 3': 16}
++LR 5 orbits 80 {'size 5: l 5, up 5, down 5': 80}
+-LR 5 orbits 96 {'size 5: l 5, up 5 (zero), down 5 (zero)': 16, 'size 5: l 5, up 5, down 5': 80}
+-LLLRLR 2 orbits 16 {'size 1: l 1, up 1, down 1 (zero)': 16}
++LLLRLR 2 orbits 8 {'size 2: l 2, up 2, down 2 (zero)': 8}
+-LLLLLLRR 2 orbits 96 {'size 2: l 2, up 2 (zero), down 1 (zero)': 64, 'size 2: l 2, up 2, down 2 (zero)': 16}
++LLLLLLRR 2 orbits 96 {'size 2: l 2, up 2 (zero), down 2 (zero)': 64, 'size 2: l 2, up 2, down 1 (zero)': 16}
+-LLLLRRR 2 orbits 4 {'size 2: l 2, up 2, down 2 (zero)': 4}
++LLLLRRR 2 orbits 8 {'size 1: l 1, up 1, down 1 (zero)': 8}
+-LLR 4 orbits 120 {'size 4: l 4, up 4 (zero), down 1 (zero)': 4, 'size 4: l 4, up 4, down 1 (zero)': 4, 'size 4: l 4, up 4, down 2': 64, 'size 4: l 4, up 4, down 4': 32}
++LLR 4 orbits 120 {'size 4: l 4, up 4 (zero), down 1 (zero)': 4, 'size 4: l 4, up 4, down 2 (zero)': 4, 'size 4: l 4, up 4, down 2': 64, 'size 4: l 4, up 4, down 4': 32}
++LLLLR 3 orbits 72 {'size 3: l 3, up 3 (zero), down 3 (zero)': 24, 'size 3: l 3, up 3, down 3': 24}
+-LLLLR 3 orbits 16 {'size 3: l 3, up 3, down 3': 16}
+-LLRR 3 orbits 48 {'size 3: l 3, up 3 (zero), down 3 (zero)': 16, 'size 3: l 3, up 3, down 3': 32}
+-LLLLRLR 2 orbits 144 {'size 1: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 2 (zero), down 2': 12, 'size 2: l 2, up 2, down 1 (zero)': 16, 'size 2: l 2, up 2, down 1': 8, 'size 2: l 2, up 2, down 2 (zero)': 12, 'size 2: l 2, up 2, down 2': 72}
++LLLLRLR 2 orbits 140 {'size 2: l 1, up 1, down 1 (zero)': 12, 'size 2: l 1, up 1, down 1': 12, 'size 2: l 2, up 1, down 2 (zero)': 4, 'size 2: l 2, up 2 (zero), down 1': 12, 'size 2: l 2, up 2, down 1': 12, 'size 2: l 2, up 2, down 2 (zero)': 16, 'size 2: l 2, up 2, down 2': 56}
+-LLLLLRRR 2 orbits 8 {'size 2: l 2, up 2, down 2 (zero)': 8}
++LLLLLRRR 2 orbits 16 {'size 1: l 1, up 1, down 1 (zero)': 16}
+-LLLLLLLLRR 2 orbits 192 {'size 2: l 2, up 2 (zero), down 1 (zero)': 64, 'size 2: l 2, up 2 (zero), down 2 (zero)': 64}
++LLLLLLLLRR 2 orbits 192 {'size 2: l 2, up 2 (zero), down 1 (zero)': 64, 'size 2: l 2, up 2 (zero), down 2 (zero)': 64}
++LLLLLR 3 orbits 240 {'size 3: l 3, up 1, down 3 (zero)': 16, 'size 3: l 3, up 3 (zero), down 1': 16, 'size 3: l 3, up 3 (zero), down 3 (zero)': 64, 'size 3: l 3, up 3 (zero), down 3': 16, 'size 3: l 3, up 3, down 3': 112}
+-LLLLRRRR 2 orbits 8 {'size 2: l 2, up 2 (zero), down 1 (zero)': 8}
++LLLLRRRR 2 orbits 16 {'size 1: l 1, up 1 (zero), down 1 (zero)': 16}
+-LLLRLLR 2 orbits 32 {'size 1: l 1, up 1 (zero), down 1 (zero)': 16}
++LLLRLLR 2 orbits 16 {'size 2: l 2, up 2 (zero), down 2 (zero)': 8}
+-LR 6 orbits 376 {'size 3: l 3, up 1, down 3 (zero)': 16, 'size 3: l 3, up 3 (zero), down 1': 16, 'size 6: l 6, up 6, down 3': 32, 'size 6: l 6, up 6, down 6': 288}
++LR 6 orbits 368 {'size 3: l 3, up 3, down 3': 16, 'size 6: l 6, up 2, down 6 (zero)': 8, 'size 6: l 6, up 3, down 6': 16, 'size 6: l 6, up 6 (zero), down 2': 8, 'size 6: l 6, up 6, down 3': 96, 'size 6: l 6, up 6, down 6': 224}
+-LLLLLR 3 orbits 120 {'size 3: l 3, up 3, down 1 (zero)': 8, 'size 3: l 3, up 3, down 1': 24, 'size 3: l 3, up 3, down 3': 56}
+-LLLLLRLR 2 orbits 24 {'size 1: l 1, up 1, down 1 (zero)': 24}
++LLLLLRLR 2 orbits 12 {'size 2: l 2, up 2, down 2 (zero)': 12}
+-LLLLLLRRR 2 orbits 36 {'size 2: l 2, up 1, down 2 (zero)': 4, 'size 2: l 2, up 2, down 2 (zero)': 16}
++LLLLLLRRR 2 orbits 40 {'size 1: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 2, down 1 (zero)': 16}
+-LLLLLLLLLLRR 2 orbits 240 {'size 2: l 2, up 2 (zero), down 1 (zero)': 32, 'size 2: l 2, up 2 (zero), down 2 (zero)': 64, 'size 2: l 2, up 2, down 1 (zero)': 16, 'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
++LLLLLLLLLLRR 2 orbits 240 {'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1 (zero)': 64, 'size 2: l 2, up 2 (zero), down 2 (zero)': 32, 'size 2: l 2, up 2, down 2 (zero)': 16}
+-LLLLLLRLR 2 orbits 104 {'size 1: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1 (zero)': 32, 'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
++LLLLLLRLR 2 orbits 92 {'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 2 (zero)': 32, 'size 2: l 2, up 2, down 2 (zero)': 4}
+-LLLLLRRRR 2 orbits 40 {'size 2: l 2, up 2 (zero), down 1': 8, 'size 2: l 2, up 2 (zero), down 2 (zero)': 8, 'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
++LLLLLRRRR 2 orbits 56 {'size 1: l 1, up 1 (zero), down 1 (zero)': 16, 'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 2': 8}
+-LLLLRLLR 2 orbits 296 {'size 1: l 1, up 1 (zero), down 1 (zero)': 8, 'size 1: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 2, down 1 (zero)': 32, 'size 2: l 2, up 2, down 2 (zero)': 88, 'size 2: l 2, up 2, down 2': 120}
++LLLLRLLR 2 orbits 284 {'size 2: l 2, up 1, down 1': 40, 'size 2: l 2, up 1, down 2 (zero)': 40, 'size 2: l 2, up 1, down 2': 32, 'size 2: l 2, up 2 (zero), down 2 (zero)': 4, 'size 2: l 2, up 2, down 1': 32, 'size 2: l 2, up 2, down 2 (zero)': 84, 'size 2: l 2, up 2, down 2': 16}
+-LLRLLRR 2 orbits 96 {'size 2: l 2, up 2 (zero), down 2': 24, 'size 2: l 2, up 2, down 1 (zero)': 16, 'size 2: l 2, up 2, down 2 (zero)': 32, 'size 2: l 2, up 2, down 2': 8}
++LLRLLRR 2 orbits 96 {'size 2: l 1, up 1 (zero), down 1': 8, 'size 2: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 24, 'size 2: l 2, up 2 (zero), down 1': 16, 'size 2: l 2, up 2, down 2 (zero)': 16}
++LLLLLLR 3 orbits 192 {'size 3: l 3, up 1 (zero), down 3 (zero)': 48, 'size 3: l 3, up 3, down 3 (zero)': 96, 'size 3: l 3, up 3, down 3': 24}
+-LLLLLLR 3 orbits 72 {'size 3: l 3, up 3 (zero), down 3 (zero)': 24, 'size 3: l 3, up 3, down 3': 24}
+-LLLLLLLRRR 2 orbits 28 {'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2 (zero)': 12}
++LLLLLLLRRR 2 orbits 40 {'size 1: l 1, up 1, down 1 (zero)': 24, 'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
+-LLLR 4 orbits 56 {'size 4: l 4, up 4 (zero), down 4 (zero)': 16, 'size 4: l 4, up 4, down 4 (zero)': 16, 'size 4: l 4, up 4, down 4': 16}
++LLLR 4 orbits 56 {'size 4: l 4, up 4 (zero), down 4 (zero)': 16, 'size 4: l 4, up 4, down 4 (zero)': 16, 'size 4: l 4, up 4, down 4': 16}
+-LLLLLLLRLR 2 orbits 24 {'size 1: l 1, up 1, down 1 (zero)': 24}
++LLLLLLLRLR 2 orbits 12 {'size 2: l 2, up 2, down 2 (zero)': 12}
+-LLLLLLLLRRR 2 orbits 124 {'size 2: l 1, up 1, down 1 (zero)': 12, 'size 2: l 1, up 1, down 1': 12, 'size 2: l 2, up 2 (zero), down 1': 12, 'size 2: l 2, up 2 (zero), down 2 (zero)': 32, 'size 2: l 2, up 2, down 1': 12, 'size 2: l 2, up 2, down 2 (zero)': 4}
++LLLLLLLLRRR 2 orbits 136 {'size 1: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1 (zero)': 32, 'size 2: l 2, up 2 (zero), down 2': 12, 'size 2: l 2, up 2, down 2 (zero)': 12, 'size 2: l 2, up 2, down 2': 24}
+-LLLLLLRRRR 2 orbits 76 {'size 2: l 2, up 2 (zero), down 2 (zero)': 4, 'size 2: l 2, up 2, down 2 (zero)': 36}
++LLLLLLRRRR 2 orbits 88 {'size 1: l 1, up 1 (zero), down 1 (zero)': 8, 'size 1: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 2, down 1 (zero)': 32}
+-LLLLLRLLR 2 orbits 56 {'size 1: l 1, up 1 (zero), down 1 (zero)': 24, 'size 2: l 2, up 2 (zero), down 2': 8}
++LLLLLRLLR 2 orbits 32 {'size 2: l 2, up 2 (zero), down 1': 8, 'size 2: l 2, up 2 (zero), down 2 (zero)': 12}
+-LLRLRLR 2 orbits 32 {'size 2: l 2, up 2, down 2 (zero)': 16}
++LLRLRLR 2 orbits 32 {'size 2: l 2, up 2, down 1 (zero)': 16}
++LLLLLLLR 3 orbits 160 {'size 3: l 3, up 3 (zero), down 3 (zero)': 80, 'size 3: l 3, up 3 (zero), down 3': 32, 'size 3: l 3, up 3, down 3': 32}
+-LLLLLLLR 3 orbits 112 {'size 3: l 3, up 3 (zero), down 3 (zero)': 64, 'size 3: l 3, up 3 (zero), down 3': 16, 'size 3: l 3, up 3, down 3': 16}
+-LLLLLRRRRR 2 orbits 32 {'size 2: l 2, up 2 (zero), down 2 (zero)': 32}
++LLLLLRRRRR 2 orbits 64 {'size 1: l 1, up 1 (zero), down 1 (zero)': 64}
+-LLR 5 orbits 256 {'size 5: l 5, up 5, down 5 (zero)': 16, 'size 5: l 5, up 5, down 5': 240}
+-LLLLLLLLRLR 2 orbits 160 {'size 1: l 1, up 1, down 1 (zero)': 32, 'size 2: l 2, up 2 (zero), down 1 (zero)': 128}
++LLLLLLLLRLR 2 orbits 144 {'size 2: l 2, up 2 (zero), down 2 (zero)': 128, 'size 2: l 2, up 2, down 2 (zero)': 16}
+-LLLLRLLLR 2 orbits 112 {'size 1: l 1, up 1 (zero), down 1 (zero)': 32, 'size 1: l 1, up 1, down 1 (zero)': 16, 'size 2: l 2, up 2, down 1 (zero)': 32}
++LLLLRLLLR 2 orbits 88 {'size 2: l 2, up 2 (zero), down 2 (zero)': 16, 'size 2: l 2, up 2, down 2 (zero)': 32}
+-LLLLLLLLLRRR 2 orbits 12 {'size 2: l 2, up 2, down 2 (zero)': 12}
++LLLLLLLLLRRR 2 orbits 24 {'size 1: l 1, up 1, down 1 (zero)': 24}
++LR 7 orbits 448 {'size 7: l 7, up 7, down 7': 448}
+-LR 7 orbits 480 {'size 7: l 7, up 7, down 7': 480}
+-LLLLLLLRRRR 2 orbits 24 {'size 2: l 2, up 2 (zero), down 2 (zero)': 12}
++LLLLLLLRRRR 2 orbits 48 {'size 1: l 1, up 1 (zero), down 1 (zero)': 24}
+-LLLLLLRLLR 2 orbits 176 {'size 1: l 1, up 1 (zero), down 1 (zero)': 16, 'size 2: l 2, up 2 (zero), down 1 (zero)': 64}
++LLLLLLRLLR 2 orbits 152 {'size 2: l 2, up 2 (zero), down 1 (zero)': 8, 'size 2: l 2, up 2 (zero), down 2 (zero)': 72}
+-LLLRRLRR 2 orbits 64 {'size 2: l 2, up 2 (zero), down 1 (zero)': 64}
++LLLRRLRR 2 orbits 64 {'size 2: l 2, up 2 (zero), down 1 (zero)': 64}
+-LLLLLLLLLRLR 2 orbits 40 {'size 1: l 1, up 1, down 1 (zero)': 40}
++LLLLLLLLLRLR 2 orbits 20 {'size 2: l 2, up 2, down 2 (zero)': 20}
++LLLLLLLLR 3 orbits 480 {'size 3: l 3, up 3 (zero), down 3 (zero)': 400, 'size 3: l 3, up 3, down 3': 40}
+-LLLLLLLLR 3 orbits 264 {'size 3: l 3, up 1 (zero), down 3 (zero)': 48, 'size 3: l 3, up 1, down 3 (zero)': 24, 'size 3: l 3, up 3, down 3 (zero)': 96, 'size 3: l 3, up 3, down 3': 24}
+-LLLLRR 3 orbits 8 {'size 3: l 1, up 1 (zero), down 3': 8}
+-LLRLR 3 orbits 8 {'size 1: l 1, up 1, down 1 (zero)': 8}
+-LLLLLLRRRRR 2 orbits 88 {'size 2: l 2, up 2 (zero), down 2 (zero)': 16, 'size 2: l 2, up 2, down 2 (zero)': 32}
++LLLLLLRRRRR 2 orbits 112 {'size 1: l 1, up 1 (zero), down 1 (zero)': 32, 'size 1: l 1, up 1, down 1 (zero)': 16, 'size 2: l 2, up 2, down 1 (zero)': 32}
+-LLLLLRLLLR 2 orbits 96 {'size 1: l 1, up 1 (zero), down 1 (zero)': 96}
++LLLLLRLLLR 2 orbits 48 {'size 2: l 2, up 2 (zero), down 2 (zero)': 48}
+-LLLLLLLLRRRR 2 orbits 160 {'size 2: l 2, up 2 (zero), down 1 (zero)': 8, 'size 2: l 2, up 2 (zero), down 2 (zero)': 72, 'size 2: l 2, up 2, down 1 (zero)': 8}
++LLLLLLLLRRRR 2 orbits 184 {'size 1: l 1, up 1 (zero), down 1 (zero)': 16, 'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1 (zero)': 64}
+-LLLLLLLRLLR 2 orbits 56 {'size 1: l 1, up 1 (zero), down 1 (zero)': 24, 'size 1: l 1, up 1, down 1 (zero)': 8}
++LLLLLLLRLLR 2 orbits 28 {'size 2: l 2, up 2 (zero), down 2 (zero)': 12, 'size 2: l 2, up 2, down 2 (zero)': 4}
+-LLLLR 4 orbits 312 {'size 4: l 4, up 1 (zero), down 4 (zero)': 4, 'size 4: l 4, up 1, down 4': 8, 'size 4: l 4, up 2, down 4 (zero)': 4, 'size 4: l 4, up 4 (zero), down 1': 8, 'size 4: l 4, up 4, down 4 (zero)': 112, 'size 4: l 4, up 4, down 4': 128}
++LLLLR 4 orbits 312 {'size 4: l 4, up 1 (zero), down 4 (zero)': 4, 'size 4: l 4, up 2, down 4 (zero)': 4, 'size 4: l 4, up 2, down 4': 8, 'size 4: l 4, up 4 (zero), down 2': 8, 'size 4: l 4, up 4, down 4 (zero)': 112, 'size 4: l 4, up 4, down 4': 128}
+-LLLRLRLR 2 orbits 72 {'size 2: l 2, up 2 (zero), down 1 (zero)': 64, 'size 2: l 2, up 2, down 1 (zero)': 8}
++LLLRLRLR 2 orbits 72 {'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1 (zero)': 64}
+-LLRR 4 orbits 80 {'size 4: l 4, up 1, down 4': 16, 'size 4: l 4, up 2, down 4 (zero)': 64}
++LLRR 4 orbits 80 {'size 4: l 4, up 2, down 4 (zero)': 64, 'size 4: l 4, up 2, down 4': 16}
++LLLLLLLLLR 3 orbits 520 {'size 3: l 3, up 3 (zero), down 3 (zero)': 112, 'size 3: l 3, up 3 (zero), down 3': 16, 'size 3: l 3, up 3, down 1 (zero)': 8, 'size 3: l 3, up 3, down 1': 24, 'size 3: l 3, up 3, down 3 (zero)': 96, 'size 3: l 3, up 3, down 3': 72}
++LLLRRR 3 orbits 528 {'size 3: l 3, up 3, down 1': 48, 'size 3: l 3, up 3, down 3': 48}
+-LLLLLLLLLR 3 orbits 160 {'size 3: l 3, up 3 (zero), down 3 (zero)': 80, 'size 3: l 3, up 3 (zero), down 3': 32, 'size 3: l 3, up 3, down 3': 32}
+-LLLRRR 3 orbits 240 {'size 3: l 3, up 3 (zero), down 3 (zero)': 80, 'size 3: l 3, up 3, down 3': 160}
+-LLLLLLLRRRRR 2 orbits 64 {'size 2: l 2, up 2 (zero), down 2 (zero)': 48, 'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
++LLLLLLLRRRRR 2 orbits 112 {'size 1: l 1, up 1 (zero), down 1 (zero)': 96, 'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8}
+-LLRLLRLR 2 orbits 16 {'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
++LLRLLRLR 2 orbits 16 {'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8}
+-LLLLLLLLRLLR 2 orbits 368 {'size 1: l 1, up 1 (zero), down 1 (zero)': 32, 'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1 (zero)': 256, 'size 2: l 2, up 2, down 2 (zero)': 16}
++LLLLLLLLRLLR 2 orbits 336 {'size 2: l 2, up 2 (zero), down 2 (zero)': 272, 'size 2: l 2, up 2, down 1 (zero)': 16, 'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
+-LLLLLLRLLLR 2 orbits 240 {'size 1: l 1, up 1 (zero), down 1 (zero)': 80, 'size 2: l 2, up 1, down 1': 8, 'size 2: l 2, up 1, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1 (zero)': 64}
++LLLLLLRLLLR 2 orbits 192 {'size 2: l 2, up 2 (zero), down 2 (zero)': 104, 'size 2: l 2, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2, down 2': 8}
+-LLLLLLRRRRRR 2 orbits 320 {'size 2: l 2, up 1 (zero), down 2 (zero)': 8, 'size 2: l 2, up 1, down 1': 32, 'size 2: l 2, up 1, down 2 (zero)': 32, 'size 2: l 2, up 1, down 2': 48, 'size 2: l 2, up 2, down 2 (zero)': 96}
++LLLLLLRRRRRR 2 orbits 336 {'size 1: l 1, up 1 (zero), down 1 (zero)': 16, 'size 1: l 1, up 1, down 1 (zero)': 16, 'size 2: l 2, up 2, down 1 (zero)': 96, 'size 2: l 2, up 2, down 1': 16, 'size 2: l 2, up 2, down 2 (zero)': 32, 'size 2: l 2, up 2, down 2': 64}
+-LLLLRRLRR 2 orbits 344 {'size 2: l 2, up 1, down 1': 40, 'size 2: l 2, up 1, down 2 (zero)': 44, 'size 2: l 2, up 1, down 2': 32, 'size 2: l 2, up 2 (zero), down 1 (zero)': 64, 'size 2: l 2, up 2, down 1': 32, 'size 2: l 2, up 2, down 2 (zero)': 52, 'size 2: l 2, up 2, down 2': 16}
++LLLLRRLRR 2 orbits 348 {'size 1: l 1, up 1, down 1 (zero)': 8, 'size 2: l 2, up 2 (zero), down 2 (zero)': 64, 'size 2: l 2, up 2, down 1 (zero)': 4, 'size 2: l 2, up 2, down 2 (zero)': 88, 'size 2: l 2, up 2, down 2': 120}
+-LLLRLLLRR 2 orbits 584 {'size 2: l 1, up 1 (zero), down 2': 4, 'size 2: l 2, up 1 (zero), down 2': 8, 'size 2: l 2, up 1, down 1': 32, 'size 2: l 2, up 1, down 2 (zero)': 32, 'size 2: l 2, up 1, down 2': 32, 'size 2: l 2, up 2, down 2 (zero)': 96, 'size 2: l 2, up 2, down 2': 352}
++LLLRLLLRR 2 orbits 604 {'size 1: l 1, up 1, down 1': 32, 'size 2: l 1, up 2, down 2 (zero)': 8, 'size 2: l 2, up 2 (zero), down 1': 12, 'size 2: l 2, up 2, down 1 (zero)': 16, 'size 2: l 2, up 2, down 1': 16, 'size 2: l 2, up 2, down 2 (zero)': 112, 'size 2: l 2, up 2, down 2': 384}
+-LLRLRRLR 2 orbits 152 {'size 2: l 2, up 1, down 1': 16, 'size 2: l 2, up 1, down 2 (zero)': 16, 'size 2: l 2, up 1, down 2': 8, 'size 2: l 2, up 2, down 2 (zero)': 16, 'size 2: l 2, up 2, down 2': 32}
++LLRLRRLR 2 orbits 160 {'size 1: l 1, up 1, down 1': 16, 'size 2: l 2, up 2, down 1 (zero)': 16, 'size 2: l 2, up 2, down 1': 32, 'size 2: l 2, up 2, down 2 (zero)': 16, 'size 2: l 2, up 2, down 2': 16}
+-LLLLLRLLLLR 2 orbits 168 {'size 1: l 1, up 1 (zero), down 1 (zero)': 48, 'size 1: l 1, up 1, down 1 (zero)': 24, 'size 2: l 2, up 2, down 1 (zero)': 48}
++LLLLLRLLLLR 2 orbits 132 {'size 2: l 2, up 2 (zero), down 2 (zero)': 24, 'size 2: l 2, up 2, down 2 (zero)': 48}
++LLLLLLLLLLR 3 orbits 896 {'size 3: l 3, up 3 (zero), down 3 (zero)': 624, 'size 3: l 3, up 3, down 3 (zero)': 64, 'size 3: l 3, up 3, down 3': 112}
++LLLLLRR 3 orbits 144 {'size 3: l 3, up 3 (zero), down 3': 16, 'size 3: l 3, up 3, down 3 (zero)': 64, 'size 3: l 3, up 3, down 3': 64}
+-LLLLLLLLLLR 3 orbits 480 {'size 3: l 3, up 3 (zero), down 3 (zero)': 400, 'size 3: l 3, up 3, down 3': 40}
+-LLLLRLRLR 2 orbits 128 {'size 2: l 2, up 2 (zero), down 2 (zero)': 64}
++LLLLRLRLR 2 orbits 128 {'size 2: l 2, up 2 (zero), down 1 (zero)': 64}
+-LLLLLLLRLLLR 2 orbits 112 {'size 1: l 1, up 1 (zero), down 1 (zero)': 96, 'size 1: l 1, up 1, down 1 (zero)': 16}
++LLLLLLLRLLLR 2 orbits 56 {'size 2: l 2, up 2 (zero), down 2 (zero)': 48, 'size 2: l 2, up 2, down 2 (zero)': 8}
+levels with orbits: 142 ; orbits by size: {1: 1456, 2: 9108, 3: 4904, 4: 1264, 5: 432, 6: 696, 7: 928} ; with one Higgs character per member (up and down): {1: 1456, 2: 5200, 3: 4464, 4: 784, 5: 432, 6: 528, 7: 928} ; seconds 617.9

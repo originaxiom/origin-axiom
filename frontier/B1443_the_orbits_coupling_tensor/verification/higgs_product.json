@@ -1,0 +1,126 @@
+[
+ {
+  "state": "+LR",
+  "k": 3,
+  "orbits": 16,
+  "slopes_along_orbit": {
+   "constant": 16
+  },
+  "deck_fixed_nontrivial_characters": 0,
+  "higgs_product": {
+   "size 3, down: product trivial": 16,
+   "size 3, neutrino: product trivial": 16,
+   "size 3, up: product trivial": 16
+  }
+ },
+ {
+  "state": "-LLLR",
+  "k": 3,
+  "orbits": 16,
+  "slopes_along_orbit": {
+   "constant": 16
+  },
+  "deck_fixed_nontrivial_characters": 6,
+  "higgs_product": {
+   "size 3, down: product trivial": 16,
+   "size 3, neutrino: product trivial": 16,
+   "size 3, up: product trivial": 16
+  }
+ },
+ {
+  "state": "+LLR",
+  "k": 3,
+  "orbits": 16,
+  "slopes_along_orbit": {
+   "constant": 16
+  },
+  "deck_fixed_nontrivial_characters": 1,
+  "higgs_product": {
+   "size 3, down: product trivial": 16,
+   "size 3, up: product trivial": 16
+  }
+ },
+ {
+  "state": "-LR",
+  "k": 3,
+  "orbits": 32,
+  "slopes_along_orbit": {
+   "constant": 32
+  },
+  "deck_fixed_nontrivial_characters": 4,
+  "higgs_product": {
+   "size 3, down: product not trivial": 32,
+   "size 3, up: product not trivial": 32
+  }
+ },
+ {
+  "state": "+LLLR",
+  "k": 3,
+  "orbits": 24,
+  "slopes_along_orbit": {
+   "constant": 24
+  },
+  "deck_fixed_nontrivial_characters": 2,
+  "higgs_product": {
+   "size 3, down: product trivial": 24,
+   "size 3, neutrino: product trivial": 8,
+   "size 3, up: product trivial": 24
+  }
+ },
+ {
+  "state": "+LR",
+  "k": 4,
+  "orbits": 64,
+  "slopes_along_orbit": {
+   "constant": 64
+  },
+  "deck_fixed_nontrivial_characters": 0,
+  "higgs_product": {
+   "size 4, down: product trivial": 64,
+   "size 4, up: product trivial": 64
+  }
+ },
+ {
+  "state": "+LR",
+  "k": 5,
+  "orbits": 80,
+  "slopes_along_orbit": {
+   "constant": 80
+  },
+  "deck_fixed_nontrivial_characters": 0,
+  "higgs_product": {
+   "size 5, down: product trivial": 80,
+   "size 5, up: product trivial": 80
+  }
+ },
+ {
+  "state": "+LR",
+  "k": 6,
+  "orbits": 368,
+  "slopes_along_orbit": {
+   "constant": 368
+  },
+  "deck_fixed_nontrivial_characters": 0,
+  "higgs_product": {
+   "size 3, down: product trivial": 16,
+   "size 3, neutrino: product trivial": 16,
+   "size 3, up: product trivial": 16,
+   "size 6, down: product trivial": 352,
+   "size 6, neutrino: product trivial": 16,
+   "size 6, up: product trivial": 352
+  }
+ },
+ {
+  "state": "+LR",
+  "k": 7,
+  "orbits": 448,
+  "slopes_along_orbit": {
+   "constant": 448
+  },
+  "deck_fixed_nontrivial_characters": 0,
+  "higgs_product": {
+   "size 7, down: product trivial": 448,
+   "size 7, up: product trivial": 448
+  }
+ }
+]

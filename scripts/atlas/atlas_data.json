@@ -8974,6 +8974,38 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1442": {
+   "slug": "the two generation backgrounds",
+   "motifs": [
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "open",
+   "domain": "arithmetic"
+  },
+  "B1443": {
+   "slug": "the orbits coupling tensor",
+   "motifs": [
+    "measurement",
+    "closing",
+    "choice",
+    "coupling",
+    "metallic",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B782",
+    "B990",
+    "L235"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 24,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B144": {
    "slug": "interaction chirality",
    "motifs": [

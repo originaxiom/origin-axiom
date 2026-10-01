@@ -1,0 +1,34 @@
+[
+ {
+  "state": "+LR",
+  "k": 3,
+  "N": 4,
+  "prime": 3001,
+  "backgrounds": 48,
+  "characters": 16,
+  "table": {
+   "Q.dc | another character | functionals 0 | no coupling": 672,
+   "Q.dc | another character | functionals 1 | no coupling": 48,
+   "Q.dc | own Higgs character | functionals 1 | couples": 48,
+   "Q.uc | another character | functionals 0 | no coupling": 672,
+   "Q.uc | another character | functionals 1 | no coupling": 48,
+   "Q.uc | own Higgs character | functionals 1 | couples": 48
+  }
+ },
+ {
+  "state": "-LLLR",
+  "k": 3,
+  "N": 28,
+  "prime": 3109,
+  "backgrounds": 48,
+  "characters": 112,
+  "table": {
+   "Q.dc | another character | functionals 0 | no coupling": 5280,
+   "Q.dc | another character | functionals 1 | no coupling": 48,
+   "Q.dc | own Higgs character | functionals 1 | couples": 48,
+   "Q.uc | another character | functionals 0 | no coupling": 5280,
+   "Q.uc | another character | functionals 1 | no coupling": 48,
+   "Q.uc | own Higgs character | functionals 1 | couples": 48
+  }
+ }
+]

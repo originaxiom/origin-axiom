@@ -3035,6 +3035,8 @@ seventeen manifolds with several cusps (covers of degree four and six of m009 an
 to degree six. Open, in order:
 - **(a) Generation-shaped backgrounds on the seventeen.** A module is not a background: five charged sectors must
   share one index. Does any of the seventeen carry a background of count two? Sealed arc owed.
+  **CLOSED the same day (B1442, NEGATIVE):** none does. Sixteen carry no generation-shaped background at all and one
+  carries 32 of count one. For sign characters it is forced: the dual of the Q sector is the L sector.
 - **(b) Three.** It needs three live cusps. Covers of degree seven and eight of the four smallest states with at
   least three cusps number 4, 0 (m004), 0, 0 (m003), 1, 13 (m009), 5, 16 (m010); several exceed 600 characters and
   need the slope law for several cusps (below) rather than a module-by-module run.
@@ -3044,3 +3046,21 @@ to degree six. Open, in order:
   worked out; it would turn (a)–(c) into seconds of compute, as B1438 did for one cusp.
 - **(e) m202 and s959** carry the record's localized three (B1414) and no class index on any module tried
   (N = 2, 3, 12). The two counts are now side by side and disagree; why is not known.
+
+## L235 — WHAT FIXES THE HIGGS VALUES: the deck-invariant functions of an orbit's Higgs classes (registered 2026-10-01, B1443)
+
+B1443: each member of a deck orbit couples to its own Higgs class, with one strength for the orbit, so a mass matrix
+is y·diag(v_k) and the pattern of masses is the pattern of the v_k. No invariant singles out a member; but the
+unordered pattern is itself an invariant, and a deck-invariant function with unsymmetric minima is not excluded by
+anything proved (the owner's check of 2026-10-01 corrected this seat's first statement, which had it as proved
+impossible). Open, in order:
+- **(a) The cubic.** On the root's tower the product of an orbit's Higgs characters is trivial at every level, so a
+  term joining the orbit's Higgs classes is character-allowed and deck-invariant. Is it non-zero? Three spin-0
+  classes, none interior: the relative triple product of B1435 does not apply as it stands; the pairing has to be
+  set up first (an absolute product into H³ vanishes on a manifold with boundary; the candidate is a secondary
+  product on the boundary torus).
+- **(b) Which E₆ tensor.** A cubic among spin-0 sectors must be a component of 27³, 78·27·27̄ or 78³; which of the
+  three Higgs types (the 78's, the 27̄'s, the 27's) it joins decides whether (a) is a term of the theory.
+- **(c) The other invariant functions** of the Higgs classes, if (a) is zero.
+- **(d) The deck kept** (sm:sL-5) is presupposed by all of this.
+
