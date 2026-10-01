@@ -1,0 +1,98 @@
+{
+ "M6": {
+  "n": 6,
+  "N": 40,
+  "primes": [
+   1481,
+   1601,
+   1721
+  ],
+  "characters": 320,
+  "h1_multiset": {
+   "1": 320
+  },
+  "loci": 320,
+  "loci_nonsquare": 240,
+  "candidates": 102400,
+  "firing": 12536,
+  "firing_on_square_loci": 1352,
+  "firing_on_nonsquare_loci": 11184,
+  "firing_per_locus": {
+   "18": 24,
+   "6": 12,
+   "32": 27,
+   "22": 144,
+   "82": 96,
+   "10": 12,
+   "2": 4
+  },
+  "differing_at_other_primes": 96,
+  "signatures": {
+   "(-1, (0, 2, 1, 2), (0, 1, 1, 0))": 6268,
+   "(1, (0, 1, 1, 0), (0, 2, 1, 2))": 6268
+  },
+  "generation_backgrounds": 2160,
+  "lifted": 336,
+  "not_lifted": 1824,
+  "signs": {
+   "-1": 1080,
+   "1": 1080
+  },
+  "abs_counts": {
+   "1": 2160
+  },
+  "nuc": {
+   "same_sign_as_generation": 144,
+   "zero": 1920,
+   "opposite_sign": 96
+  },
+  "index_deck_invariant": true,
+  "background_orbits_closed": true,
+  "backgrounds_by_orbit_size": {
+   "6": 2112,
+   "3": 48
+  },
+  "background_orbits": {
+   "6": 352,
+   "3": 16
+  },
+  "firing_modules_by_orbit_size": {
+   "6": 12456,
+   "3": 72,
+   "2": 8
+  },
+  "orbit_lambda_structure": {
+   "(6, 6, (2, 8, 8, 8, 8))": 48,
+   "(3, 3, (4, 4))": 16,
+   "(6, 6, (8, 8, 10, 40, 40))": 256,
+   "(6, 6, (4, 4, 5, 20, 20))": 32,
+   "(6, 6, (2, 2, 5, 10, 10))": 16
+  },
+  "tau": {
+   "1": [
+    1
+   ],
+   "2": [
+    3
+   ],
+   "3": [
+    4
+   ],
+   "4": [
+    5
+   ],
+   "5": [
+    6
+   ],
+   "6": [
+    7,
+    -1
+   ],
+   "7": [
+    1,
+    2
+   ]
+  },
+  "seconds": 317.7
+ }
+}

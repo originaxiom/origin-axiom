@@ -1,0 +1,12 @@
+{
+ "field": "Q(zeta_40)",
+ "evaluated": 13496,
+ "firing_exact": 12536,
+ "zero_exact": 960,
+ "exact_equals_p1481_on_all": true,
+ "p1721_wrong_on": 1056,
+ "signs": {
+  "-1": 6268,
+  "1": 6268
+ }
+}

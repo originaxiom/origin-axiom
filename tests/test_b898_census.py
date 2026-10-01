@@ -31,7 +31,9 @@ def test_unmeasured_pair_compact_type_twins():
         assert r[n]["complex_or_mixed"] == 0
 
 
-def test_no_generic_complex_anywhere_on_C():
+def test_no_generic_complex_on_the_four_axes():
+    # renamed 2026-10-01 (B1433): this asserts the four AXES; it was named "anywhere on C", and a mixed
+    # direction such as x8 + x14 has 48 generic-complex eigenvalues (tests/test_b1433_signature_scope.py)
     r = _res()
     assert all(r[n]["complex_or_mixed"] == 0 for n in ("8", "14", "16", "22"))
 

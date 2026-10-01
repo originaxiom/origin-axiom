@@ -2572,7 +2572,7 @@ the object's carrier **admits no supercharge** — none π₁-equivariant, none 
 involution squares to the meridian. So the 3d-3d dictionary is not a bridge to this construction's physics; it is a
 source of **invariants on the same manifolds**. Treat it as the second, not the first.
 
-## L223 — THE SILENT RECEIPTS: 15 tracked run logs record a failure their arc never mentions (registered 2026-09-18, B1425)
+## L227 — THE SILENT RECEIPTS: 15 tracked run logs record a failure their arc never mentions [renumbered 2026-10-01, B1432 landing: registered as a second L223, colliding with the level-mismatch lead of 2026-09-16; an E71 instance, caught by the lead-debt gate's collision check; B1425's FINDINGS and the logs of 2026-09-18 cite it as L223] (registered 2026-09-18, B1425)
 
 B1411 shipped `main_b1355_geometry_run.txt` as its verification receipt. The file's last three lines are a
 `Traceback` and an `AssertionError`, and the arc's own claim line says its locks "re-run green on main's bench".
@@ -2594,7 +2594,7 @@ Five sit in one cell family (`B771_phase1_wave1/cells/`) and are likely one caus
 records a failure the arc does not acknowledge either means the claim is wrong or the receipt is stale, and from
 outside you cannot tell which. Both are bad in a record whose whole argument is re-runnability.
 
-## L222 — THE E83 RESIDUE: 24 order-sensitive sites in banked verification scripts, outside the locks (registered 2026-09-18, B1425)
+## L226 — THE E83 RESIDUE: 24 order-sensitive sites in banked verification scripts, outside the locks [renumbered 2026-10-01, B1432 landing: registered as a second L222, colliding with THE FAMILY AS THE OBJECT of 2026-09-16; an E71 instance; B1425's FINDINGS and the logs of 2026-09-18 cite it as L222] (registered 2026-09-18, B1425)
 
 B1425 minted **E83**: a verification script that hands a *set* where order matters returns a differently
 normalised answer per `PYTHONHASHSEED`, so an equality test against one normalisation passes on some runs and
@@ -2914,3 +2914,60 @@ the seat-retirement rule gets its missing clause: *retiring a seat must not sile
 **Related:** the same sweep found 77 `REGISTERED-EARLIER` rows — seat claims main cites without having computed — and one
 relay with no ledger row at all. Those are ledger hygiene, not gate blindness, and are not part of this lead.
 
+## L228 — WHAT DOES C25's "SECOND MEASUREMENT" QUANTIFY OVER? (registered 2026-10-01, B1433)
+
+C25 and the law map say a second measurement of the object's own charges lands on su(3) ⊕ su(2) ⊕ u(1)³, dimension 14.
+B1433 computed every joint centraliser of the four charges x₈, x₁₄, x₁₆, x₂₂: dimension 30 for {x₈}, {x₁₆}, {x₈, x₁₆}
+and 12 for every other subset. None is 14. The outside audit of the structure paper reports dimension 14 only on two
+hyperplanes of the torus and 12 at a generic point. **To do:** read B892/B893 for the element the theorem is about,
+state it in C25 and in the paper's sentence (main.tex, "the generic second measurement"), and lock the quantifier.
+The same audit withdrew the "reality ladder" (14, 20, 26 attained at no real point) as float-based; C25's ledger text
+carries it, so B893's exactness is part of this lead.
+
+## L229 — THE ARCHITECTURE CENSUS'S RESIDUE (registered 2026-10-01, B1434)
+
+(i) **The own-level law.** Two of 23 generated states to length six carry a generation-shaped background at their own
+level (m369, s639). Which states do, beyond length six, and by what criterion in the fibre torsion? (ii) **The two
+silent three-fold levels.** Ten of twelve three-fold levels carry orbits of three; (−, LLR) = m010 and (+, LLRR) carry
+none. Why those two? (iii) **The frame off the root's field.** The census carries main's E₆/27 frame to every state as an
+instrument. Do m369's and s639's backgrounds survive in a frame built from their own arithmetic? (iv) **What singles out
+a state**, given that the mechanism for three does not: this is L222's item (iv) with a census behind it.
+(v) Not in the census: the orientation-reversing half step (the Gieseking parent), non-cyclic covers, fillings.
+
+## L230 — THE WEB SEAT'S CHECKPOINTS: what main carries forward (registered 2026-10-01, B1432; registration over preservation)
+
+Five checkpoint archives from a web research seat were read in full on 2026-09-30 and 2026-10-01 (825 distinct files;
+digests in the gitignored audit room). The SM lane had adopted the corrective one (sm:B1379, sm:B1384). Carried forward:
+- **(a) The nonlinear coefficient.** On the object's own leaf the monodromy trace map has first resonant Birkhoff
+  coefficient a = 16i√3/63 in Ω = dX∧dY/(2Z − XY); three independent implementations rerun identically here. Main has
+  the multipliers (5 ± √21)/2 and no cubic term. To bank with its normalisation dependence (Ω → cΩ gives a/c).
+- **(b) The repaired relative interaction.** The seat withdrew its own cup-product and Yukawa-support values (fixed
+  vectors used as scalar functionals; a two-term chain that is not a relative cycle). Corrected supports: diagonal for
+  up and bare down/lepton, one oriented cycle for the dressed channel. The chain-level computation with invariant
+  covectors and a valid relative fundamental class is specified and NOT RUN. It is the first computable step toward
+  Yukawa structure on the non-split backgrounds.
+- **(c) Three index-12 carriers.** In SL(2, O/4) there are three conjugacy classes of index-12 subgroups containing −I;
+  the July spectral bank computed one. Unverified beyond a GAP count.
+- **(d) The July closure formula** that main's B448 recorded as missing ("1 of 16", single-seat) is in the July packs;
+  the same packs' selected value 1/96 is not relabelling-invariant (2/867 on the swapped tower).
+- **(e) Declined:** the July probe series' B296–B322 labels (all collide with main's arcs; B448 stands); the seat's
+  physical-source, Higgs and anomaly probes (conditional models, their interaction inputs withdrawn by the seat itself);
+  the rank-five census (its printed orbit counts do not reconcile: 640 characters have 10 fixed and 210 orbits of three).
+- **(f) Unresolved in the archives:** the Y₄ filling screen records one locus with trivial meridian holonomy where its
+  report says none; no script shipped.
+
+## L231 — WHAT THE SWEEP OF 2026-10-01 FOUND BURIED OR STALE (registered 2026-10-01, B1434)
+
+A seven-part read of main and every lane against four absence statements (the statements were wrong or too strong in
+three cases; record in the gitignored audit room). **Unharvested windows:** the SM lane's B1366–B1399 and B1500–B1506
+(79 arcs past the pin; includes the generated-state-space convention, the states together, the Eisenstein cusp chain,
+the pincer, the level); the audit lane's R32–R67, cited nowhere on main; about 30 of the sep16 lane's 34 arcs
+(the action on the object's own leaf, no vacuum at the object's point, the A5 fork); 172 of 201 rows of the codex
+question map, including its first row, REFUTED: minimal description does not select a unique seed independent of
+encoding. **Buried on main:** B940 (a certified Dirac eigenvalue on the cusped object and a kernel candidate of
+dimension two) while B1141 and B1145 say there is no Dirac operator; B1341, B1342, B1347, B1254 absent from
+THE_FRAMEWORK and THE_LADDER, which still say "no canonical arrow"; `paths/PATHS.md`, 17 of 25 genesis paths never
+probed. **Stale surfaces:** the withdrawn "16σ" on five documents; the count of sealed crossings (seven, eight, nine
+or ten by surface); B1182 resting on the identification B1083 corrected; B723's verdict still PROVED after three
+retractions of its clause; CLAIMS C-cal without B653's voiding; B1137's "last door closed" where the probe has no
+power at measured precision. Each is a row to pay, not a finding to file.

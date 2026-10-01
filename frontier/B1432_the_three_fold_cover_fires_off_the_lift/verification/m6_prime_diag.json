@@ -1,0 +1,187 @@
+{
+ "1481": {
+  "firing": 12536,
+  "disagree_with_majority": 0,
+  "examples": [],
+  "signatures_of_disagreeing": {}
+ },
+ "1601": {
+  "firing": 12536,
+  "disagree_with_majority": 0,
+  "examples": [],
+  "signatures_of_disagreeing": {}
+ },
+ "1721": {
+  "firing": 13400,
+  "disagree_with_majority": 1056,
+  "examples": [
+   {
+    "lam": [
+     0,
+     7,
+     18,
+     7,
+     3,
+     2,
+     3
+    ],
+    "alpha": [
+     0,
+     22,
+     18,
+     32,
+     38,
+     2,
+     8
+    ],
+    "here": [
+     -1,
+     [
+      0,
+      2,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ]
+    ],
+    "majority": 0
+   },
+   {
+    "lam": [
+     0,
+     7,
+     18,
+     7,
+     3,
+     2,
+     3
+    ],
+    "alpha": [
+     0,
+     32,
+     13,
+     7,
+     8,
+     17,
+     3
+    ],
+    "here": [
+     -1,
+     [
+      0,
+      2,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      1,
+      0
+     ]
+    ],
+    "majority": 0
+   },
+   {
+    "lam": [
+     0,
+     4,
+     11,
+     29,
+     36,
+     39,
+     1
+    ],
+    "alpha": [
+     0,
+     10,
+     5,
+     5,
+     10,
+     25,
+     25
+    ],
+    "here": [
+     1,
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      2,
+      1,
+      2
+     ]
+    ],
+    "majority": 0
+   },
+   {
+    "lam": [
+     0,
+     29,
+     36,
+     39,
+     1,
+     4,
+     11
+    ],
+    "alpha": [
+     0,
+     25,
+     10,
+     5,
+     5,
+     10,
+     25
+    ],
+    "here": [
+     1,
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      2,
+      1,
+      2
+     ]
+    ],
+    "majority": 0
+   }
+  ],
+  "signatures_of_disagreeing": {
+   "((0, 2, 1, 2), (0, 1, 1, 0))": 480,
+   "((0, 1, 1, 0), (0, 2, 1, 2))": 480,
+   "(None, None)": 96
+  }
+ },
+ "2081": {
+  "firing": 12536,
+  "disagree_with_majority": 0,
+  "examples": [],
+  "signatures_of_disagreeing": {}
+ },
+ "2161": {
+  "firing": 12536,
+  "disagree_with_majority": 0,
+  "examples": [],
+  "signatures_of_disagreeing": {}
+ },
+ "2281": {
+  "firing": 12536,
+  "disagree_with_majority": 0,
+  "examples": [],
+  "signatures_of_disagreeing": {}
+ }
+}

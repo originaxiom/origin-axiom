@@ -299,8 +299,12 @@ ramification". See B894's addendum; E41.)* — B894, B898. Locks: `tests/test_b8
 `tests/test_b898_census.py`, `tests/test_c28_ramification.py`.
 
 **C29 [THEOREM — the signature dichotomy].** ad(x₈) ≡ ad(x₁₆): {0³⁰, 48 real};
-ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imag}; zero generic-complex on C. — B898. Lock:
-`tests/test_b898_census.py`.
+ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imag}; no generic-complex eigenvalue on the four axes or on the split
+and compact planes; **every direction mixing a split and a compact charge has {0¹², 18 imag, 48
+generic-complex}** (B1433, exact). *(Clause corrected 2026-10-01 — formerly "zero generic-complex on
+C"; B898 classified the four axes only. Counter-example x₈ + x₁₄ from an outside audit, recomputed
+here. B898 addendum 1.)* — B898, B1433. Locks: `tests/test_b898_census.py`,
+`tests/test_b1433_signature_scope.py`.
 
 **C30 [THEOREM — the sign-law mechanism].** All six torsion quotients exactly
 anti-palindromic; sign(τ_m) = sign(lc)·(−1)^{p_m}; p_m ≡ m (mod 2) in every block. —

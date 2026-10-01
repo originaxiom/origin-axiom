@@ -1,5 +1,5 @@
 {
- "measured_at_main_head": "46021ecd",
+ "measured_at_main_head": "987c0c8f",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -17,8 +17,8 @@
   {
    "ref": "codeberg/<v>/outside-bench",
    "branch": "outside-bench",
-   "commits_total": 3463,
-   "commits_unique_vs_main": 3,
+   "commits_total": 3474,
+   "commits_unique_vs_main": 14,
    "merge_base": "9d1bb4c6",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -65,8 +65,8 @@
   {
    "ref": "codeberg/sep16-branch",
    "branch": "sep16-branch",
-   "commits_total": 3517,
-   "commits_unique_vs_main": 68,
+   "commits_total": 3534,
+   "commits_unique_vs_main": 85,
    "merge_base": "c052c857",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -149,8 +149,8 @@
   {
    "ref": "origin/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 2965,
-   "commits_unique_vs_main": 110,
+   "commits_total": 3063,
+   "commits_unique_vs_main": 208,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -161,8 +161,8 @@
   {
    "ref": "origin/<v>/outside-bench",
    "branch": "outside-bench",
-   "commits_total": 3463,
-   "commits_unique_vs_main": 3,
+   "commits_total": 3474,
+   "commits_unique_vs_main": 14,
    "merge_base": "9d1bb4c6",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -173,9 +173,9 @@
   {
    "ref": "origin/<v>/paper-review-verification-kaz3f5",
    "branch": "paper-review-verification-kaz3f5",
-   "commits_total": 3475,
-   "commits_unique_vs_main": 18,
-   "merge_base": "21c47a51",
+   "commits_total": 3487,
+   "commits_unique_vs_main": 22,
+   "merge_base": "987c0c8f",
    "shares_main_root": true,
    "watched_by_the_gate": true,
    "has_a_harvest_pin": true,
@@ -197,8 +197,8 @@
   {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 2967,
-   "commits_unique_vs_main": 92,
+   "commits_total": 3029,
+   "commits_unique_vs_main": 154,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -209,8 +209,8 @@
   {
    "ref": "origin/sep16-branch",
    "branch": "sep16-branch",
-   "commits_total": 3517,
-   "commits_unique_vs_main": 68,
+   "commits_total": 3547,
+   "commits_unique_vs_main": 98,
    "merge_base": "c052c857",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -220,7 +220,7 @@
   }
  ],
  "lanes_with_unique_work": 13,
- "total_unique_commits_across_lanes": 988,
+ "total_unique_commits_across_lanes": 1221,
  "same_repository_lanes": 12,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,

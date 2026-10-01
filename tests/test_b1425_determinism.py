@@ -148,5 +148,5 @@ def test_the_silent_receipt_sweep_separates_declared_failures_from_silent_ones()
     assert 0 < s["silent_count"] < s["receipts_carrying_a_failure"], (
         "the sweep no longer distinguishes declared failures from silent ones")
     # the repaired one must no longer be on the silent list when the sweep is re-run
-    assert any("B1411" in f for f in s["silent"]), "the sweep's record of B1411 is what L223 is anchored on"
-    assert (ROOT / "docs" / "OPEN_LEADS.md").read_text().count("L223") >= 1
+    assert any("B1411" in f for f in s["silent"]), "the sweep's record of B1411 is what L227 (registered as L223) is anchored on"
+    assert (ROOT / "docs" / "OPEN_LEADS.md").read_text().count("L227") >= 1      # renumbered from L223 on 2026-10-01 (collision)

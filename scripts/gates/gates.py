@@ -1048,6 +1048,19 @@ def gate_harvest_debt():
     return True, "ok"
 
 
+def gate_lead_debt():
+    """2026-10-01 -- a deferral lands as a LEAD or as an arc left at verdict OPEN, and nothing aged either (the relay and
+    harvest gates age the other two kinds of debt). A ratchet: the stale counts may only shrink. Also fails on a lead number
+    carried by two open leads (the E71 class, twice on 2026-09-18)."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "lead_debt.py")],
+                       capture_output=True, text=True, timeout=300)
+    out = (r.stdout + r.stderr).strip()
+    if r.returncode != 0:
+        return False, out.replace("\n", " | ")[:500]
+    return True, "ok"
+
+
 def gate_doc_currency():
     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
     import subprocess
@@ -1233,6 +1246,7 @@ GATES = {
     "relay-debt": gate_relay_debt,
     "retraction-debt": gate_retraction_debt,
     "harvest-debt": gate_harvest_debt,
+    "lead-debt": gate_lead_debt,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

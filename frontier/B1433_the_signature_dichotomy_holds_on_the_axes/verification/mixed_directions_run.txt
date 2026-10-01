@@ -1,0 +1,13 @@
+x8 {'zero': 30, 'real': 48, 'imaginary': 0, 'generic_complex': 0}
+x14 {'zero': 12, 'real': 0, 'imaginary': 66, 'generic_complex': 0}
+x16 {'zero': 30, 'real': 48, 'imaginary': 0, 'generic_complex': 0}
+x22 {'zero': 12, 'real': 0, 'imaginary': 66, 'generic_complex': 0}
+x8+x14 {'zero': 12, 'real': 0, 'imaginary': 18, 'generic_complex': 48}
+x8+x16 {'zero': 30, 'real': 48, 'imaginary': 0, 'generic_complex': 0}
+x8+x22 {'zero': 12, 'real': 0, 'imaginary': 18, 'generic_complex': 48}
+x14+x16 {'zero': 12, 'real': 0, 'imaginary': 18, 'generic_complex': 48}
+x14+x22 {'zero': 12, 'real': 0, 'imaginary': 66, 'generic_complex': 0}
+x16+x22 {'zero': 12, 'real': 0, 'imaginary': 18, 'generic_complex': 48}
+x8+2*x14 {'zero': 12, 'real': 0, 'imaginary': 18, 'generic_complex': 48}
+2*x8+3*x14+5*x16+7*x22 {'zero': 12, 'real': 0, 'imaginary': 18, 'generic_complex': 48}
+saved

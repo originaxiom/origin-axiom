@@ -8756,6 +8756,63 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1432": {
+   "slug": "the three fold cover fires off the lift",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1433": {
+   "slug": "the signature dichotomy holds on the axes",
+   "motifs": [
+    "measurement",
+    "eisenstein",
+    "lorentzian"
+   ],
+   "refs": [
+    "B854",
+    "B892",
+    "B898"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1434": {
+   "slug": "the architecture census",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "L222",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B143": {
    "slug": "interaction feasibility",
    "motifs": [

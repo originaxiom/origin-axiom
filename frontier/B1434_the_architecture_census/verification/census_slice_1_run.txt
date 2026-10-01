@@ -1,0 +1,18 @@
++LLR 1 tr 4 tors 2 loci 2 nonsq 1 fire 0 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 2} differ 0
+-LR 1 tr -3 tors 5 loci 5 nonsq 0 fire 8 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 5} differ 0
+-LLR 1 tr -4 tors 6 loci 6 nonsq 3 fire 4 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 6} differ 0
+-LLRR 1 tr -6 tors 8 loci 8 nonsq 6 fire 24 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 8} differ 0
++LLLRRR 1 tr 11 tors 9 loci 9 nonsq 0 fire 16 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 9} differ 0
+-LLR 2 tr 14 tors 12 loci 12 nonsq 9 fire 32 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 12} differ 0
++LLRLRR 1 tr 15 tors 13 loci 13 nonsq 0 fire 24 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 13} differ 0
+-LR 3 tr -18 tors 20 loci 20 nonsq 15 fire 128 gen 96 lifted 0 orbits {'3': 96} absI {1: 96} signs {-1: 48, 1: 48} h1 {'1': 20} differ 0
+-LLRR 2 tr 34 tors 32 loci 32 nonsq 24 fire 216 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 32} differ 0
+-LR 4 tr 47 tors 45 loci 45 nonsq 0 fire 488 gen 256 lifted 256 orbits {'4': 256} absI {1: 256} signs {-1: 128, 1: 128} h1 {'1': 45} differ 0
+-LLR 3 tr -52 tors 54 loci 54 nonsq 27 fire 448 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 54} differ 0
+-LLRLR 2 tr 98 tors 96 loci 96 nonsq 72 fire 936 gen 8 lifted 0 orbits {'1': 8} absI {1: 8} signs {1: 4, -1: 4} h1 {'1': 96} differ 0
+-LLLR 3 tr -110 tors 112 loci 112 nonsq 84 fire 1416 gen 48 lifted 0 orbits {'3': 48} absI {1: 48} signs {1: 24, -1: 24} h1 {'1': 112} differ 0
+-LR 5 tr -123 tors 125 loci 125 nonsq 0 fire 2088 gen 480 lifted 480 orbits {'5': 480} absI {1: 480} signs {1: 240, -1: 240} h1 {'1': 125} differ 0
++LLR 4 tr 194 tors 192 loci 192 nonsq 144 fire 4192 gen 480 lifted 288 orbits {'4': 480} absI {1: 480} signs {-1: 240, 1: 240} h1 {'1': 192} differ 0
+-LLRR 3 tr -198 tors 200 loci 200 nonsq 150 fire 4152 gen 144 lifted 144 orbits {'3': 144} absI {1: 144} signs {1: 72, -1: 72} h1 {'1': 200} differ 0
++LLLLLR 3 tr 322 tors 320 loci 320 nonsq 240 fire 5912 gen 720 lifted 240 orbits {'3': 720} absI {1: 720} signs {1: 360, -1: 360} h1 {'1': 320} differ 0
+DONE

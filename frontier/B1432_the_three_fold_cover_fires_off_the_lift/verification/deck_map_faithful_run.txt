@@ -1,0 +1,10 @@
+holonomy parameters z with non-real value solving the relator: {'(0.5 - 0.86602540378443864676j)', '(0.5 + 0.86602540378443864676j)'}
+z = (0.5 + 0.86602540378443864676j) | relator residual 1.9691e-52
+RS relators residual under restricted holonomy: 2.143e-49
+max |rho(TAU2[g]) - a^2 rho(g) a^-2| over g=1..7: 2.1382e-50
+relators after TAU2 substitution, max residual: 5.1234e-49
+TAU2^3(g) vs x1 g x1^-1, max residual: 0.0
+symbolic RS identity a^2 g a^-2 == TAU2[g] for all g: True
+B1378 candidate: max |rho(T[g]) - a^2 rho(g) a^-2|: 45.299
+B1378 candidate: relators after substitution, max residual: 12261.0
+exponent sum of a^k b a^-k mod 6 = 1 (nonzero => NOT in the kernel)

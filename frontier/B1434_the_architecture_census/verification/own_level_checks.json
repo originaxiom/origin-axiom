@@ -1,0 +1,108 @@
+{
+ "snappy": [
+  {
+   "manifold": "m369",
+   "identified": "[m369(0,0)]",
+   "H1": "Z/12 + Z",
+   "primes": [
+    9001,
+    9013,
+    9049
+   ],
+   "characters": 12,
+   "loci": 12,
+   "loci_nonsquare": 6,
+   "firing": 40,
+   "generation_backgrounds": 8,
+   "lifted": 0,
+   "signs": {
+    "-1": 4,
+    "1": 4
+   },
+   "abs_counts": {
+    "1": 8
+   },
+   "differing_at_other_primes": 0
+  },
+  {
+   "manifold": "s639",
+   "identified": "[s639(0,0)]",
+   "H1": "Z/15 + Z",
+   "primes": [
+    9001,
+    9091,
+    9151
+   ],
+   "characters": 15,
+   "loci": 15,
+   "loci_nonsquare": 0,
+   "firing": 72,
+   "generation_backgrounds": 16,
+   "lifted": 16,
+   "signs": {
+    "-1": 8,
+    "1": 8
+   },
+   "abs_counts": {
+    "1": 16
+   },
+   "differing_at_other_primes": 0
+  },
+  {
+   "manifold": "m004",
+   "identified": "[m004(0,0)]",
+   "H1": "Z",
+   "primes": [
+    9001,
+    9007,
+    9011
+   ],
+   "characters": 1,
+   "loci": 1,
+   "loci_nonsquare": 0,
+   "firing": 0,
+   "generation_backgrounds": 0,
+   "lifted": 0,
+   "signs": {},
+   "abs_counts": {},
+   "differing_at_other_primes": 0
+  },
+  {
+   "manifold": "m003",
+   "identified": "[m003(0,0)]",
+   "H1": "Z/5 + Z",
+   "primes": [
+    9001,
+    9011,
+    9041
+   ],
+   "characters": 5,
+   "loci": 5,
+   "loci_nonsquare": 0,
+   "firing": 8,
+   "generation_backgrounds": 0,
+   "lifted": 0,
+   "signs": {},
+   "abs_counts": {},
+   "differing_at_other_primes": 0
+  }
+ ],
+ "exact": [
+  {
+   "state": "-LLRLR",
+   "field": "Q(zeta_12)",
+   "candidates": 144,
+   "firing_exact": 40,
+   "identical_to_prime_field_table": true,
+   "generation_backgrounds": 8
+  },
+  {
+   "state": "-LLLRLR",
+   "field": "Q(zeta_15)",
+   "candidates": 225,
+   "firing_exact": 72,
+   "identical_to_prime_field_table": true,
+   "generation_backgrounds": 16
+  }
+ ]
+}

@@ -1,0 +1,18 @@
++LLLLR 1 tr 6 tors 4 loci 4 nonsq 2 fire 4 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 4} differ 0
++LLLLLR 1 tr 7 tors 5 loci 5 nonsq 0 fire 8 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 5} differ 0
+-LLLR 1 tr -5 tors 7 loci 7 nonsq 0 fire 12 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 7} differ 0
++LLRLR 1 tr 10 tors 8 loci 8 nonsq 4 fire 12 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 8} differ 0
++LLLRLR 1 tr 13 tors 11 loci 11 nonsq 0 fire 20 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 11} differ 0
++LLR 2 tr 14 tors 12 loci 12 nonsq 9 fire 32 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 12} differ 0
++LR 3 tr 18 tors 16 loci 16 nonsq 12 fire 72 gen 48 lifted 0 orbits {'3': 48} absI {1: 48} signs {1: 24, -1: 24} h1 {'1': 16} differ 0
++LLLR 2 tr 23 tors 21 loci 21 nonsq 0 fire 84 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 21} differ 0
++LLRR 2 tr 34 tors 32 loci 32 nonsq 24 fire 216 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 32} differ 0
++LR 4 tr 47 tors 45 loci 45 nonsq 0 fire 488 gen 256 lifted 256 orbits {'4': 256} absI {1: 256} signs {-1: 128, 1: 128} h1 {'1': 45} differ 0
++LLLRR 2 tr 62 tors 60 loci 60 nonsq 45 fire 432 gen 32 lifted 32 orbits {'2': 32} absI {1: 32} signs {-1: 16, 1: 16} h1 {'1': 60} differ 0
++LLRLR 2 tr 98 tors 96 loci 96 nonsq 72 fire 936 gen 8 lifted 0 orbits {'2': 8} absI {1: 8} signs {1: 4, -1: 4} h1 {'1': 96} differ 0
++LLLRRR 2 tr 119 tors 117 loci 117 nonsq 0 fire 1000 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 117} differ 0
++LLLRLR 2 tr 167 tors 165 loci 165 nonsq 0 fire 1572 gen 16 lifted 16 orbits {'2': 16} absI {1: 16} signs {-1: 8, 1: 8} h1 {'1': 165} differ 0
++LLRR 3 tr 198 tors 196 loci 196 nonsq 147 fire 2400 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 196} differ 0
++LLRLRR 2 tr 223 tors 221 loci 221 nonsq 0 fire 1208 gen 0 lifted 0 orbits {} absI {} signs {} h1 {'1': 221} differ 0
+-LLLLLR 3 tr -322 tors 324 loci 324 nonsq 243 fire 5052 gen 360 lifted 0 orbits {'3': 360} absI {1: 360} signs {-1: 180, 1: 180} h1 {'1': 324} differ 0
+DONE

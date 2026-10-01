@@ -1,0 +1,12 @@
+{
+ "field": "Q(i)",
+ "characters": 16,
+ "candidates": 256,
+ "firing": 72,
+ "firing_on_square_loci": 0,
+ "signs": {
+  "-1": 36,
+  "1": 36
+ },
+ "identical_to_prime_field_census": true
+}

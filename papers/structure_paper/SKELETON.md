@@ -290,7 +290,8 @@ B923 · `tests/test_b923_exact.py`]
   ramification. [B894 · `tests/test_b894_bridge.py`;
   B898 · `tests/test_b898_census.py`; B888 · `tests/test_b888_two_fields.py`]
 - The signature dichotomy theorem: ad(x₈) ≡ ad(x₁₆): {0³⁰, 48 real};
-  ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imaginary}; zero generic-complex on C; the
+  ad(x₁₄) ≡ ad(x₂₂): {0¹², 66 imaginary}; none generic-complex on the axes or the two pure
+  planes, 48 on every direction mixing a split and a compact charge (corrected 2026-10-01, B1433); the
   kernels are the FMT centralizer and the floor.
   [B898 · `tests/test_b898_census.py`]
 - The sign-law mechanism: all six torsion quotients exactly anti-palindromic;

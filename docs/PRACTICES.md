@@ -652,6 +652,29 @@ row (131 of them the July cc3 lane, named in B921's manifest and rowed nowhere),
 stale row flagged, 22 days fails / 20 does not) and a live pin-override control that grew one seat's NEW sets by exactly the ids of
 the commits entering the range. The check grades nothing; it counts. Reading and grading stay the harvest arcs' work.
 
+
+## Every open lead and every arc left OPEN is aged, on a ratchet — GATED (`lead-debt`)
+
+**The rule.** `scripts/checks/lead_debt.py` reads `docs/OPEN_LEADS.md` and every `frontier/*/arc_verdict.json`. A lead (a
+`## L<n>` heading that carries no closure marker) or an arc at `verdict: OPEN` older than 21 days is **stale** unless its
+own text carries `ESCALATED(YYYY-MM-DD` — or, for an arc that is open by construction, `OPEN-BY-DESIGN(`. The stale counts
+are held to two frozen baselines that **may only shrink**: a count above its baseline fails the push; a count below it
+prints a reminder to lower the constant. A dateless open lead is stale. A lead number carried by two open leads is a
+collision and fails outright. (Owner's decisions of 2026-09-18: a ratchet rather than an immediate failure; leads and
+OPEN arcs both.)
+
+**Why it exists.** The record aged relays and seat items and nothing else. A deferral is written as a lead or as an arc
+left OPEN, and neither was aged: on 2026-09-18 one seat deferred twelve items in a day into those two places and every
+gate stayed green. The diagnosis first offered — that registering a lead resets the leads file's clock — was wrong in
+mechanism (the doc-currency watch was inert for another reason) and is recorded as such in the plan this gate comes from.
+
+**It counted on its first run (2026-10-01):** 75 headed leads, 65 open, **43 stale**; 92 arcs at OPEN, **85 stale**. Those
+are the baselines. It also caught, as its first failure, two lead numbers each naming two live leads (L222 and L223,
+both introduced on 2026-09-18; renumbered L226 and L227).
+
+**Lock.** `tests/test_lead_debt_gate.py`: the closure marker is a marker and not the word in a title; the failure path is
+proved against the real register under a far-future clock; the gate is registered.
+
 ## The naming gate (proposed at B1033; the day's three same-symbol collisions)
 
 2026-08-11 produced three instances of the corpus's dominant error class in one day —

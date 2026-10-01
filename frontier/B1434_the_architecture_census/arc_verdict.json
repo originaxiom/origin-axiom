@@ -1,0 +1,16 @@
+{
+ "id": "B1434",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1432",
+  "B1427",
+  "B1297"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE ARCHITECTURE CENSUS, sealed at 5f3fdf01 before any index was computed on a state other than the root: the complete Standard-Model-frame doublet census, lifted and non-lifted, on every signed word state to length six and its cyclic levels with fibre torsion to 330 -- 24 states, 68 levels, 942 268 candidate modules, three primes each, no level differing at any prime. FOUR OF SEVEN SEALED PREDICTIONS HELD. P3 YES: TWO GENERATED STATES CARRY A GENERATION-SHAPED BACKGROUND AT THEIR OWN LEVEL, which the root cannot (its fibre has no finite character): (-, LLRLR) = m369 with 8, none lifting, and (-, LLLRLR) = s639 with 16, all lifting; each count +-1; confirmed on SnapPy's own presentations with a third prime set and exactly over Q(zeta_12) and Q(zeta_15), the exact index tables equal to the prime-field ones entry by entry. P1, P2, P6 YES: all 8 800 generation-shaped backgrounds have |count| = 1 in every charged sector, h^1 = 1 at all 5 156 loci, signs split equally on every level -- the one-per-background law of the root's tower is a law of the grammar to length six. P4 NO: ten of the twelve three-fold levels carry backgrounds in deck orbits of three (the root 48, the sister m003 96, m009 48, and seven more), while (-, LLR) = m010 and (+, LLRR) carry none -- so three is the size of a deck orbit on the three-fold cover of most states, not a property of the root or of s961, and the root's row is unique in no column. P5 NO: five of those levels lift. P7 NO: the own-level backgrounds reappear on the double covers as deck-fixed orbits of size one, as pullbacks must. The orbit structure belongs to the deck and not the manifold: the root's level six has orbits 6: 2 112, 3: 48 under its own deck and 6: 2 064, 3: 96 under the sister's. FENCE: main's class index on reducible non-split modules; the frame is main's E6/27 frame carried to every state as an instrument, not claimed to be the right frame off the root's field; one background counts one; nothing here selects a state; no physics reading, no value."
+}

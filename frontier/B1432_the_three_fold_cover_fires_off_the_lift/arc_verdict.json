@@ -1,0 +1,15 @@
+{
+ "id": "B1432",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1427",
+  "B1297"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE THREE-FOLD COVER FIRES OFF THE LIFT. The SM lane's level census (sm:B1506, 2026-09-30) verified on main with code written here -- own Reidemeister-Schreier covers, own Smith form, main's B1427 index code, primes different from the lane's, SnapPy's own presentation as a second one, and exact arithmetic -- and its relayed correction to main's B1427 applied. B1427's scan built every doublet module as rho_chi (x) psi, whose diagonal characters have ratio chi^2, ALWAYS A SQUARE; modules whose extension character is not a square were never in it. On M_2, M_4, M_5 every character is a square and the scan was complete. On M_3 = s961, fibre torsion (Z/4)^2, twelve of sixteen loci are not squares, and there the complete census gives 72 firing modules, ALL on the non-square loci, and 48 generation-shaped backgrounds, NONE lifting to SL(2) x U(1)^2, every count +-1, 24 of each sign, in 16 orbits of three under the root's deck with three distinct extension characters per orbit. Every level M_1..M_6 reproduces the lane's table: M_6 has 12 536 firing modules and 2 160 backgrounds, 336 lifted (B1427's 67 200 lift data), in orbits 3: 48 and 6: 2 112. EXACT: the full 256-module index table of s961 over Q(i) equals the prime-field table entry by entry, and all 13 496 M_6 modules that fire at any prime used were evaluated over Q(zeta_40): exactly 12 536 fire. A BAD PRIME RECORDED: at 1721 the M_6 census invents 960 firings and loses 96, while five other primes agree on all 12 536. THE DECK MAP: the web seat's word map for the order-three deck square is the Schreier rewriting of conjugation by a^2 and holds in m004's holonomy to 1e-50; sm:B1378's substitute for it fails (the lane found its own slip in sm:B1506). WHAT STANDS OF B1427: every number it reported for the modules it scanned, and its law -- one count per background -- now on the complete census. WHAT IS WITHDRAWN: 'Y_3: 0 firing' as a statement about Y_3. FENCE unchanged: class index on non-split modules, three backgrounds are three backgrounds, no physics reading."
+}
