@@ -261,3 +261,21 @@ the ends: every datum that fixes it comes from outside.
   statements).
 - `verification/end_choice_run.txt`, `verification/end_choice.json`: the recorded run.
 - `tests/test_b1504_the_ends_choice.py`: the lock.
+
+## Scope note (2026-10-01, B1507): the audit lane's R60/R61 of 2026-09-30
+
+The audit lane audited this arc (END_LAW, FERMION_END, on its branch; cited, not merged). B1507 recomputed the load-bearing points
+(`frontier/B1507_the_record_reread/verification/end_lines.py`).
+- **(a) The root lines.** "The completion must pick one of the three root lines" (§0, §6) holds for the root-line orbit, which is
+  B1502's three smooth phases. It does not hold for every ideal line. On ℤ[ω] the order-3 rotation 3-cycles every primitive line: the
+  root lines are one orbit and (1, 3)'s, {(1,3), (3,2), (2,−1)}, is another. The producer's `shortest_lines` checked the root orbit
+  only.
+- **(b) Real lines.** The lattice lemma (T3) decides REAL invariant lines. The rotation's complex eigenlines are invariant under every
+  rotation of order 3, 4 and 6. They satisfy the combined Hodge-and-conjugation reality C u = u, each with its phase, and carry zero
+  Hermitian current, so the rotation chooses neither. "No symmetric completion of the neutral sector at a rotated point" therefore
+  holds in the real self-dual category this arc states. Whether the physical fermions restrict to it is open (R61).
+- **(c) The marking.** T1's "no datum at a cusp point can depend on it" holds for laws that descend to the oriented unmarked manifold.
+  Marked equivariance is a different requirement (R60).
+
+**The verdict stands within its category:** nothing in the architecture supplies a chiral real self-dual end, and the end's
+chirality is an input. ERROR_LEDGER: E71 instance, 2026-10-01.

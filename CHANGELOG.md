@@ -1,5 +1,36 @@
 # Changelog
 
+## B1507 — the record reread: July's three, Gate C as the fence, R64/R68 recomputed, s961's deck inversions, five scopes
+
+The owner asked for one more sweep for forgotten work. It covered this branch, main (987c0c8f), the audit lane (24356ebd), the physics
+seat (659487bb), codex and outside-bench, in five reading lanes. Every load-bearing item was recomputed with own code (six scripts,
+lock 7 tests, about 5 s).
+- **July's three.** B335 said "the three generations are related by the deck transformation of the 3-fold cyclic cover". With it
+  came B326, B343 (exact TBM, θ₁₃ = 0), B345 (the anti-diagonal texture = B1362's circulant in the charge basis) and B350 (iv) (no
+  deck-fixed class on any level). None was cited by B1270–B1506 (E68 instance).
+- **The fence.** B521's Gate C (scalar ω within one Eisenstein module, never a generation-3) is B1506's "one generation per vacuum".
+  Recomputed: det(φ − 1) = −1, H₁(Yₙ) and the deck orbits for n = 2–6, Y₃ = 1 + 5 × 3, and Gate C's 3 ≡ −1 mod 4.
+- **One element, two faces.** The physics seat's R64 and R68 were recomputed on B1270's icosian E₈. An order-3 unit is the family
+  rotation times a fixed-point-free E₆ element whose lift is the trinification. Exactly one of the 40 trinification frames is
+  two-sided, and it is mirror-invariant. I-14's multiplicity 85 → 1; it stays UNEARNED.
+- **s961's deck inversions.** 12 isometries invert the deck, 6 of them orientation-preserving (SnapPy's multiplication table): B1391's
+  named target on the root's own cover. Whether they preserve B1506's orbits is registered to seal.
+- **Corrections and scopes:**
+  - B335's "exactly degenerate" (a circulant is generic distinct, or a symmetric pair);
+  - the chirality map's C3 headline (N = +3 per sector on B1378's orbit sum) and its provenance line (20 uncited arcs listed as
+    cited);
+  - B1504's root-line and real-line sentences (the audit lane's R60/R61, recomputed: (1,3)'s orbit, complex invariant lines);
+  - B1374's lifted-scope s961 zero;
+  - B1366's short form (main's B1430 condition).
+- **Hygiene.** B342 now points to B343.
+- **Surfaces.** THE_SM_VERDICT, OPEN_LEADS (sL-5, the B1391 target, L215), the chirality map, LAW_MAP (one row), the
+  identification ledger (I-14), ERROR_LEDGER (five rows), THEOREM_REGISTRY (two rows), SEAL_LEDGER, the alias table, the letter's
+  seventy-first note, README, the negatives note, and notes on B1506, B1504, B1374 and B335.
+- **Checks.** Every gate passes but relay-debt, the standing baseline. The affected selection (75 files): 1 658 passed and 2
+  skipped; its 2 failures both read that same gate.
+
+0 of 19.
+
 ## B1506 §9 — the level read against the record's earlier three (the owner's reminder); the fast lane on 12055f37
 
 - **The same ℤ/3 at the same level.** m004 has one index-3 subgroup, so every three the record found at the 3-fold level uses

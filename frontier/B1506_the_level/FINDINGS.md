@@ -353,3 +353,33 @@ here.
 - Main's B1297 (T5, T6).
 - The audit lane's R58, PB-HANDOFF-M6 and the received fork note, cited.
 - The seal at 58e3f28f.
+
+## 10. Read against the July cluster (2026-10-01, B1507)
+
+The owner's record sweep (B1507) found earlier instances of this arc's three and its fence, none cited here.
+
+**July precedents:**
+- **B335** (July): "The three generations are related by the deck transformation of the 3-fold cyclic cover of 4₁".
+- **B326:** the deck irreducible on (ℤ/4)².
+- **B350 (iv):** "the deck action is fixed-point-free for every n", because det(A − I) = Δ(1) = −1. Its tier note: this is generic
+  to knots.
+- **B521's Gate C:** the deck is the scalar ω within one Eisenstein module, "never a generation-3". That is this arc's fence in July
+  form.
+- **B715's coda:** it killed chat-1's "ℤ/3 = A₄/V₄ location", but in the role of cycling three quadratic fields.
+- **B343 and B345:** the flavour consequences.
+- **The audit lane's DECK gate** (2026-09-27, inside this arc's sweep head): "Ordinary geometric invariant projection retains J0 … The
+  physical interpretation must be declared before that count is claimed as generations."
+
+**What §7 still claims as new** narrows further (E68 instance). It is the index-frame census of the backgrounds that do not lift, the
+level law for induced objects of any orbit size, and the triplet's place. The fence's mechanism is Gate C's, recomputed in B1507 §2:
+the scalar ω fixes no non-zero character, so every non-trivial character lies in a free orbit of three.
+
+**The record's vacuum convention.** B1279 counts "lines related by a symmetry of Y₉" as "the same vacuum". By that convention an orbit
+is one vacuum up to isometry and three up to gauge. Under either convention there is one generation per vacuum.
+
+**Two leads, both registered in B1507 §10 and both to seal first:**
+- P2's equal split (24/24 on s961) has a candidate mechanism the record holds but has not joined: every cyclic cover is amphichiral
+  (main's B1324, B1427), and main's B1297 T6 flips the index under orientation reversal with conjugation.
+- s961 carries 12 deck-inverting isometries, 6 orientation-preserving. Whether they preserve this arc's orbits is the second lead.
+
+`frontier/B1507_the_record_reread`.

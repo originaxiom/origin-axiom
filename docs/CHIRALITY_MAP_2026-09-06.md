@@ -447,6 +447,15 @@ lift to SL(2)_β × ℂ*². On M₃ = s961 the backgrounds that do not lift fire
 root's deck, each a whole generation with ν^c. B1378's M₆ triplet is one of these orbits pulled back. Every background still carries
 one generation, never two or three: three is an orbit, not a background. `frontier/B1506_the_level`.
 
+*Addendum (B1507, 2026-10-01).* C3's headline, "ZERO on every representation computed" (with "No row is nonzero" and "vector-like on
+every representation it supplies"), held for the representations this map computed by 2026-09-06. It is out of date by the map's own
+definition, N(V) = h¹(M;V) − h¹(M;V\*):
+- B1378's recorded run has, in every sector, V = (a₀, a₁, t₀, r₁) = (0, 6, 3, 6) and V\* = (0, 3, 3, 0). So N = +3 on the M₆ orbit
+  sum: +1 per background.
+- These are the non-split modules of the cusped covers (main's B1418; B1374–B1378; B1506).
+- The provenance line below listed 57 arcs as "cited above". 20 of them are not cited in the body, and it now says so.
+`frontier/B1507_the_record_reread`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:
@@ -458,10 +467,11 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 
 ## Provenance
 
-Retrieved and cited above: B71, B102, B127, B128, B134, B136, B144, B145, B147, B152, B193, B252, B253, B301,
-B303, B316, B318, B432, B434, B576, B582, B583, B612, B713, B760, B863, B871, B944, B1036, B1064, B1083, B1084,
-B1086, B1087, B1098, B1105, B1145, B1183, B1222, B1224, B1226, B1227, B1239, B1246, B1255, B1256, B1257, B1259,
-B1260, B1264, B1267, B1268, B1269, B1273, B1277 (and its addendum), B1278, B1279; `docs/THE_SM_VERDICT.md` (E65,
+Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,
+B871, B944, B1083, B1084, B1086, B1087, B1105, B1224, B1246, B1256, B1259, B1260, B1267, B1268, B1269, B1273, B1277 (and its
+addendum), B1279. Retrieved but not cited in the body (corrected 2026-10-01, B1507: this line had listed them as cited): B127,
+B128, B134, B144, B193, B318, B612, B1036, B1064, B1098, B1145, B1183, B1222, B1226, B1227, B1239, B1255, B1257, B1264, B1278;
+`docs/THE_SM_VERDICT.md` (E65,
 the four-language wall, §3), `docs/EXTERNAL_VERIFICATION_2026-09-06.md` §3, `docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`,
 `docs/MAIN_GOAL.md` JOIN 1, `docs/OPEN_LEADS.md` (L4, L8, L12, L32, L200, L204, B139-G, Campaigns 1, 1′, 1″),
 `docs/THE_DESTINATION_LEDGER_2026-09-06.md`. 172 arcs carry "chiral" in their claim line; the ones not cited are

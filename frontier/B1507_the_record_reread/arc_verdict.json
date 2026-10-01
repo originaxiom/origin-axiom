@@ -1,0 +1,34 @@
+{
+ "id": "B1507",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1506",
+  "B1504",
+  "B1391",
+  "B1390",
+  "B1378",
+  "B1374",
+  "B1366",
+  "B1362",
+  "B1270",
+  "B521",
+  "B350",
+  "B345",
+  "B343",
+  "B335",
+  "B326"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-14",
+   "status": "UNEARNED",
+   "note": "multiplicity 85 -> 1 (the physics seat's R64/R68, main's B1306 for R65, recomputed here): exactly one two-sided trinification frame of E6's 40 under the founding ratio, mirror-invariant; the map from the commensurator's unit on the cusp (L4) to g and the listener-map half are not exhibited"
+  }
+ ],
+ "claim_one_line": "THE RECORD REREAD (the owner's 'should we swipe the repo once more for forgoten work that enriches the picture substantially?', 2026-10-01; this branch, main 987c0c8f, the audit lane 24356ebd, the physics seat 659487bb, codex, outside-bench; load-bearing items recomputed with own code, nothing merged). (1) The three on the root's 3-fold cover is the record's oldest generation idea: B335 (July) 'the three generations are related by the deck transformation of the 3-fold cyclic cover', with B326 (the deck irreducible on (Z/4)^2), B343 (exact TBM, theta13 = 0), B345 (the anti-diagonal texture) and B350 (iv) (fixed-point-free on every level); none is cited by B1270-B1506 (E68). (2) The fence is July's too: B521's Gate C (scalar omega within one Eisenstein module, never a generation-3) and B1506's 'one generation per vacuum' are one fact, det(phi - 1) = -1 on every level (recomputed: H1(Y_n) and deck orbits for n = 2-6; Y3 1 + 5x3; Gate C's det 3 = -1 mod 4); generic to knots (B350's tier note). (3) R64 recomputed on B1270's icosian E8: an order-3 unit acts as the family rotation of Z[g] times a fixed-point-free order-3 element of E6 whose lift has centraliser A2^3 (9 positive roots of height 0 mod 3, components 6+6+6): B1271's family triplet and Gate C's trinification are two factors of one element. (4) R68 recomputed: of E6's 40 trinification frames 4 are left-stable, 4 right-stable, exactly 1 two-sided, mirror-invariant (two units): I-14's multiplicity 85 -> 1; I-14 stays UNEARNED. (5) s961 carries deck-inverting isometries (SnapPy multiplication table: Isom(s961) order 24, centre Z/2, the deck the two order-3 elements, 12 inverting, 6 orientation-preserving) - the second half of B1391's named target on the root's own cover; whether they preserve B1506's orbits (S3's 2 + 1) is an open outcome, registered to seal. (6) Corrections and scopes: B335's 'masses exactly degenerate' overstated (a deck-invariant matrix is a circulant: generic distinct, symmetric a degenerate pair - B1362, B345's texture in the charge basis; recomputed); the chirality map's C3 headline out of date by its own definition (B1378's orbit sum has h1(V) - h1(V*) = 6 - 3 per sector) and its provenance line claiming 20 uncited arcs; B1504's root-line and real-line sentences scoped by the audit lane's R60/R61 ((1,3)'s orbit; complex eigenlines invariant, real-structure-compatible, current-free; recomputed); B1374's lifted-scope 's961 = Y3 (0)'; B1366's short form without main's B1430 condition. The one bit is B719's 'the count is the observer's', sharpened to {1, 3}; no functional on the record weights the three. Leads: the inverting isometry on the orbits; P2 as a theorem (amphichirality + B1297's T6); native non-split modules on closed Y_n; LAW_MAP rows B1351-B1507. 0 of 19; price unchanged."
+}

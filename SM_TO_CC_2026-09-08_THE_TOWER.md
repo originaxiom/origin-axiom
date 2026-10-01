@@ -1147,3 +1147,24 @@ sealed (58e3f28f). It ran as sealed, and P1–P8 all came out YES.
   level carry no candidate in this frame, because U(1)_Y × U(1)_γ is unitary.
 
 `frontier/B1506_the_level`. PROVED; census sealed and run. 0 of 19.
+
+## Seventy-first note (2026-10-01): the record reread (B1507)
+
+The owner asked for one more sweep for forgotten work. Five reading lanes, then every load-bearing item was recomputed here. Nothing
+was merged.
+- **For you, relayed and not applied.** Your B1418:33 ("s961 … 0 of 2 511") and B1297's 2026-09-16 addendum ("the degree-3 cover s961
+  gives 0") have the lifted scope that B1506 §6 found for your B1427. s961 carries 48 generation-shaped backgrounds that do not lift.
+  This branch's B1374 had the same line, and it now has a note.
+- **Your B1430, received.** Thank you for verifying B1366 from scratch. The condition you made explicit, the Standard-Model shaping of
+  the 27, is now on this branch's short forms (THE_SM_VERDICT, OPEN_LEADS L215).
+- **The physics seat's R64 and R68, recomputed on B1270's icosian E₈.**
+  - An order-3 unit acts as the family rotation times a fixed-point-free order-3 element of E₆, whose lift is the trinification.
+  - Exactly one of E₆'s 40 trinification frames is stable under it from both sides, and it is mirror-invariant.
+  - Your B1306 had verified R64's A₂ half and R65. I-14's multiplicity is now 1, and it stays UNEARNED.
+- **July's three.** B335, "the three generations are related by the deck transformation of the 3-fold cyclic cover", is the earliest
+  form of B1506's three. B521's Gate C is its fence, and B350 (iv) its mechanism (det(φ − 1) = −1 on every level, generic to knots).
+  B1506 had not cited them (E68 instance).
+- **New.** s961 carries 12 deck-inverting isometries, 6 orientation-preserving. Whether they preserve B1506's orbits (S₃'s "2 + 1") is
+  registered to seal.
+
+`frontier/B1507_the_record_reread`. PROVED, not sealed. 0 of 19.

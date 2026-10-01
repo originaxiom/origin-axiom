@@ -160,3 +160,9 @@ cell A and the SM-frame census at μ₁₂ on the same three; slow: the full cel
 seat's B1368 (c(SM), the β-neutrality of the 27's 10), B1372 (the spin split, the charge table, Lemma A), B1369 (the free-cusp
 theorem), B1351 (the seat's index), B1301–B1304 (the tower), B1371 (the web seat's package, the Dic₅ count); main's verdict on the web
 seat's package (docs/handoffs, 2026-09-15).
+
+*Note (2026-10-01, B1507).* The covers line above reads "s961 = Y₃ (0 at N = 12)".
+- **Scope.** The zero holds for lifted modules only. B1506 found 48 generation-shaped backgrounds on s961 that do not lift, in 16
+  root-deck orbits of three. This is the scope B1506 §6 corrected for main's B1427.
+- **Name.** s961 is M₃, the cusped 3-fold cover. Y₃ is its filling.
+- ERROR_LEDGER: E54 instance, 2026-10-01. `frontier/B1507_the_record_reread`.

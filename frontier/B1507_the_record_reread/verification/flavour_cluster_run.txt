@@ -1,0 +1,10 @@
+(a) commutes = True
+(a) diagonal_in_charge_basis = True
+(a) symmetric_eigenvalues = ['c0 + 2*c1', 'c0 - c1', 'c0 - c1']
+(a) symmetric_pair_degenerate = True
+(a) all_equal_only_if = [{'c1': '0', 'c2': '0'}]
+(a) generic_three_distinct_50_of_50 = True
+(a) symmetric_pair_50_of_50 = True
+(b) allowed = [(0, 0), (1, 2), (2, 1)]
+(b) circulant_in_charge_basis = [['x + 2*y', '0', '0'], ['0', '0', 'x - y'], ['0', 'x - y', '0']]
+(b) support_equals_allowed = True

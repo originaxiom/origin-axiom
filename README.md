@@ -408,6 +408,16 @@ emitted value. The structure is the object's; the values are the observer's.
 > with a count of one, and on the six-fold cover every other such orbit has six members, not three. So "one or three" has become a
 > single choice between two spaces the construction itself singles out. And the three copies are three separate vacua, not three
 > families in one.*
+>
+> *And (B1507), the record reread: the idea that the three generations are the starting space's own three-fold symmetry is not new
+> to September. A July arc said it in so many words, and two more drew its flavour consequences: the symmetry left unbroken would
+> make two masses equal and one mixing angle zero, and the data rule out both. In July the record also had its limit, that this
+> symmetry never makes three families inside one vacuum, which the September work found again. Two results from another seat, checked
+> here, show that a single element of the construction plays both "three" roles the record had kept apart. That element also picks
+> out one of forty candidate ways of grading the matter, where the record had counted eighty-five. The three-fold cover turns out to
+> have symmetries that reverse the order of the three. Whether they keep each triple of vacua together, which would give the
+> classic "two plus one" flavour pattern, is the next question, to be sealed before it is computed. Five earlier statements of this
+> seat are narrowed or corrected.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

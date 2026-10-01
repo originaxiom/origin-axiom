@@ -180,3 +180,15 @@ by family and by name. B1504 takes up the remainder on the genesis side.
   - What remains is one bit: is the root's deck gauged (one) or kept (three, on s961)?
 - **Its record.** B1506 is in the kill graph as `symmetry-cannot-select` ("n copies of one"). It was routed at banking
   (`routed_from` `sm-branch-2026-09-30-banking`), not by this pass, so the table and tally above are unchanged.
+
+## Currency (2026-10-01, B1507): what "symmetry cannot select" does not say
+
+B1506 is filed under symmetry-cannot-select. The audit lane's ROOT_SCOPE_AUDIT (cited) supplies the control the family needs:
+"(x²−1)² is symmetric, with two nonsymmetric minima". Its GOAL_VERDICT adds that "invariant-selector statements alone neither supply a
+vacuum nor forbid spontaneous breaking".
+- **What the family's kills say** is that the object does not choose (B1225: "an invariant selector cannot pick a point of its own
+  orbit").
+- **What they do not say** is that nothing chooses. A kept deck is broken spontaneously, and the object does not say which vacuum.
+- **The record's explicit breakers** (B1364, B1365) choose inside the same deck orbits, so they move the choice rather than make it.
+- **The July record had the family's first instances:** B335 (masses need the deck's breaking), B343 (the unbroken deck forces
+  θ₁₃ = 0) and B521's Gate C. `frontier/B1507_the_record_reread`.

@@ -49,3 +49,18 @@ group-theory refutation of the 2T hope. No physics values. Nothing to `CLAIMS.md
 3-fold cover, `(ℤ/4)²`), **B327/B329/B331** (`n₁=n₂` from the algebra side — this is the geometry side of the same fact),
 **B324/B285** (the phase = CP, not mass), **B302** (`|cusp shape|² = 12 = h(E₆)`), **K021** (the synthesis). Lit: deck
 groups of hyperbolic covers are isometries (Mostow rigidity); SnapPy census/symmetry.
+
+*Correction of record (2026-10-01, B1507).* "The masses (… singular values of any Yukawa) are **exactly degenerate**" says more than
+the isometry gives.
+- A matrix that commutes with the deck's cyclic permutation is a circulant. A generic one has three distinct singular values, as
+  B325 had already shown in July.
+- A symmetric one, as E₆'s cubic gives, has a degenerate pair (B1362). All three are equal only when there is no coupling between
+  generations.
+- The isometry argument holds for the vacuum's isometry-invariant functionals (volume, Chern–Simons, length spectrum), which are
+  equal across a deck orbit. It does not hold for masses.
+- The group of order 24 recorded above is not dihedral (SnapPy's `is_dihedral()`), with centre ℤ/2 and abelianization (ℤ/2)² as
+  stated.
+- This arc's central sentence, "the three generations are related by the deck transformation of the 3-fold cyclic cover", is the
+  earliest form of B1506's three (B1507 §2).
+
+`frontier/B1507_the_record_reread`.

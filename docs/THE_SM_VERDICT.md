@@ -927,3 +927,25 @@ left it.
 > - Sealed at 58e3f28f and run; P1–P8 all YES. No verdict of this ledger changes.
 >
 > 0 of 19 (`frontier/B1506_the_level`).
+
+> **Currency note (2026-10-01, B1507): the record reread.**
+> - **The three on the root's 3-fold cover is July's.** B335 says "the three generations are related by the deck transformation of
+>   the 3-fold cyclic cover of 4₁". It came with B326 (the deck irreducible on (ℤ/4)²), B343, B345 and B350 (iv).
+> - **So is its fence.** B521's Gate C (the deck is the scalar ω within one Eisenstein module, "never a generation-3") is B1506's
+>   "one generation per vacuum". Both rest on det(φ − 1) = −1 on every level (recomputed).
+> - **One element carries both the family rotation and the trinification** (the physics seat's R64). Exactly one of E₆'s 40
+>   trinification frames is stable under it from both sides (R68). Both were recomputed on B1270's icosian E₈. I-14's multiplicity is
+>   now 1, and I-14 stays UNEARNED.
+> - **s961 carries 12 deck-inverting isometries,** 6 of them orientation-preserving (SnapPy). That is the second half of B1391's
+>   named target, on the root's own cover. Whether they preserve B1506's orbits (S₃'s "2 + 1") is a lead, to seal first.
+> - **Corrections of record:**
+>   - B335's "exactly degenerate" is overstated: a deck-invariant mass matrix has a degenerate pair only when it is symmetric (B1362).
+>   - The chirality map's C3 headline is out of date: B1378's orbit sum has N = +3 per sector by the map's own definition.
+>   - B1504's root-line and real-line sentences are scoped by the audit lane's R60/R61.
+>   - B1374's "s961 = 0" has lifted scope.
+>   - This ledger's short form of B1366 (the 2026-09-16 note: "in one way up to conjugacy") holds given the Standard-Model shaping of
+>     the 27. Main's B1430 verified B1366 from scratch and measured 8 177 branchings of the 27 over 28 513 hypercharge directions
+>     without it.
+> - No verdict of this ledger changes.
+>
+> 0 of 19 (`frontier/B1507_the_record_reread`).

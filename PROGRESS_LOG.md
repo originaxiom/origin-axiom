@@ -16206,3 +16206,19 @@ On the owner's reminder to read the record's work on three generations and chira
 - **Fast lane on 12055f37.** The nine baseline failures, 6 397 passed.
 
 `frontier/B1506_the_level` §9. 0 of 19.
+
+## 2026-10-01 — B1507: the record reread
+
+The owner asked: "should we swipe the repo once more for forgoten work that enriches the picture substantially?" Five reading lanes
+covered this branch, main, the audit lane, the physics seat, codex and outside-bench, and every load-bearing item was recomputed here.
+- **The three on the root's cover is July's idea** (B335, with B326, B343, B345 and B350), and **its fence is July's too** (B521's
+  Gate C). Both rest on det(φ − 1) = −1. B1506 had not cited them (E68).
+- **One element carries both the family rotation and the trinification** (R64), and **exactly one trinification frame of 40 is
+  two-sided** (R68), both recomputed. I-14's multiplicity is 1, still UNEARNED.
+- **s961 has 12 deck-inverting isometries**, 6 orientation-preserving. The question whether they keep B1506's triples (S₃'s "2 + 1")
+  is registered to seal.
+- **Five scopes and corrections:** B335, the chirality map, B1504 (the audit lane's R60/R61), B1374 and B1366's short form.
+- **Checks.** The lock passes (7 tests). Every gate passes but relay-debt, the standing baseline. The affected selection (75
+  files): 1 658 passed and 2 skipped; its 2 failures both read that same gate.
+
+`frontier/B1507_the_record_reread`. 0 of 19.

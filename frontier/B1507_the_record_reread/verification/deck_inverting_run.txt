@@ -1,0 +1,27 @@
+m004: Isom = D4 of order 8, amphicheiral True, invertible knot True
+   cusp map [[1, 0], [0, 1]]  det +1  meridian -> +1 meridian
+   cusp map [[-1, 0], [0, 1]]  det -1  meridian -> -1 meridian
+   cusp map [[1, 0], [0, 1]]  det +1  meridian -> +1 meridian
+   cusp map [[-1, 0], [0, 1]]  det -1  meridian -> -1 meridian
+   cusp map [[1, 0], [0, -1]]  det -1  meridian -> +1 meridian
+   cusp map [[-1, 0], [0, -1]]  det +1  meridian -> -1 meridian
+   cusp map [[1, 0], [0, -1]]  det -1  meridian -> +1 meridian
+   cusp map [[-1, 0], [0, -1]]  det +1  meridian -> -1 meridian
+   negate the meridian: 4 of 8, orientation-preserving among them: 2
+s961: identify = ['s961(0,0)', 'otet06_00003(0,0)']
+s961: homology = Z/4 + Z/4 + Z
+s961: cusps = 1
+s961: vol_ratio = 3.0
+s961: order = 24
+s961: abelian = False
+s961: dihedral = False
+s961: centre = Z/2
+s961: abelianization = Z/2 + Z/2
+s961: amphicheiral = True
+s961: order_3 = 2
+s961: order_3_cusp_maps = [[[1, 0], [0, 1]], [[1, 0], [0, 1]]]
+s961: deck_normal = True
+s961: inverting = 12
+s961: inverting_orientation_preserving = 6
+s961: inverting_meridian_signs = [-1]
+s961: centralising = 12

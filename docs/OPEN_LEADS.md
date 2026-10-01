@@ -2736,6 +2736,9 @@ orbit; the 720 commuting (A₂, A₁) pairs one orbit; exactly three hypercharge
 su(3)_R), and in every reading the 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge while the 78's are neutral. So
 the sign theorem and both exclusions hold for every E₆ closing of the object with matter in 27s, whatever the line and whatever the
 hypercharge; only 27̄s change the sign. `frontier/B1366_the_sign_is_e6s`.
+*(Currency 2026-10-01, B1507:* main's B1430 verified B1366 from scratch (120, 720, three). It found that the uniqueness holds given
+the Standard-Model shaping of the 27; without it there are 8 177 branchings of the 27 over 28 513 hypercharge directions. B1366's claim
+line carries the condition, and the short form above does not.*)*
 
 **L215 status 2026-09-16 (B1367): CLOSED — the cure would not have sufficed.** With E₆-symmetric couplings among any number of 27s
 the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c,
@@ -3102,6 +3105,25 @@ The earlier work prices both sides of the bit:
 - A kept, unbroken deck gives the three a circulant or hollow texture that the data refute (B1273, B1361, B1362), so the deck must be
   broken at order one.
 
+**sL-5, 2026-10-01, B1507 — the record reread.**
+- **The idea and its fence are July's.** B335 says "the three generations are related by the deck transformation of the 3-fold
+  cyclic cover"; B326, B343, B345 and B350 (iv) go with it. The fence is B521's Gate C and B715's coda.
+- **The one bit is B719's** "the count is the observer's", sharpened: an orbit of three counts gcd(n, 3) ∈ {1, 3} on every level.
+- **The audit lane's DECK gate** asks that the cover/quotient role be declared before a count is called generations. It leaves open
+  "charged states of a finite gauge group". The orbit taken in one configuration carries one zero mode per deck character (B1390,
+  B1391).
+- **New on the root's own cover:** s961 has 12 deck-inverting isometries, 6 orientation-preserving (SnapPy). That is the second half
+  of B1391's target (see sL-6's flavour status).
+- **Leads registered, each to seal before computing:**
+  - (i) Does an orientation-preserving deck-inverting isometry of s961 map a B1506 orbit to itself? If so, the orbit's three carry
+    S₃'s "2 + 1".
+  - (ii) Is B1506's equal sign split a theorem? The covers are amphichiral, and B1297's T6 flips the index under orientation reversal
+    with conjugation.
+  - (iii) Do the closed Yₙ carry native non-split modules? W-closed's derivation (B1260:18) assumes irreducible V.
+  - (iv) LAW_MAP rows for B1351–B1507.
+
+`frontier/B1507_the_record_reread`.
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**
@@ -3254,6 +3276,10 @@ characters.
   (B1362's circulant). If an isometry of the cover inverts the deck, the three are S₃'s "2 + 1".
 - **The next target toward three.** A member Q with |N(Q)| = 1 whose free ℤ/3 cover carries a deck-inverting isometry. Its
   hierarchy would still be a breaking effect. `frontier/B1391_the_generations_flavour`.
+- **(2026-10-01, B1507.)**
+  - The second half holds on m004's own cover: s961 has 12 deck-inverting isometries, 6 orientation-preserving.
+  - The first half (|N(Q)| = 1 in this frame) is not met by m004 (B1368).
+  - Whether the inversions preserve B1506's orbits is sL-5's lead (i). `frontier/B1507_the_record_reread`.
 `frontier/B1390_the_eisenstein_axes`.
 
 **Status (2026-09-28, B1394 and B1396): over a clean bulk, a symmetric three is three times one.**

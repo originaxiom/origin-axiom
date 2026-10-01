@@ -1,0 +1,6 @@
+(a) root_orbit = [(1, 0), (0, 1), (1, 1)]
+(a) orbit_1_3 = [(1, 3), (3, 2), (2, -1)]
+(a) disjoint = True
+(a) fixed_lines = []
+(b) w=(1,-i) = {'rotation_invariant': {3: True, 4: True, 6: True}, 'C_invariant': True, 'current': '0'}
+(b) w=(1,i) = {'rotation_invariant': {3: True, 4: True, 6: True}, 'C_invariant': True, 'current': '0'}
