@@ -20,8 +20,8 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1260** |
-| words of findings prose | **1,025,645** |
-| test lock files referenced | **763** |
+| words of findings prose | **1,028,156** |
+| test lock files referenced | **764** |
 | arcs carrying an authored verdict | **1260** (100.0 %) |
 | recorded closures | **816** (649 classified, 167 routed-only) |
 
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 835 |
+| PROVED | 836 |
 | NEGATIVE | 325 |
-| OPEN | 89 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1511`** (3819 words, 1 locks)  
-THE PROJECTIVE TOWER (B1509's lead 4 at the owner's 'aproved. next!'; sealed at 49baea7d before any twisted polynomial of a non-trivial character was computed): B1509's rank-five extension on the audit lane's harmonic family, carried to m004's cyclic covers M1-M6 and twisted by their fibre torsion, read by level and by deck orbit in B1506's frame. On s961 the deck orbit of T3's three order-2 characters is a projective triplet: at q^3 = 17 +- 12 sqrt2 with lam3 = -1 its twisted fibre monodromy has a Jordan block and each of the three backgrounds counts I(W1) = -1, I(W2) = +1 with B1509's data (0,1,1,1) (exact over Q(i)[q]/(q^6 - 34 q^3 + 1) and at 10 prime-root pairs), three 10' on s961 and on M6 (Shapiro), gcd(n,3) by level; its polynomial is exactly B1509's Q at q^3. The order-4 orbits are exceptional (q^2 - 11 q + 1, a sextic) but simple: 0. On M4 the opposite sign: case (b) (line non-trivial on the fibre, trivial on the cusp) fires on both 3-torsion orbits at q = phi^{+-4}, lam = 1, every member I(W1) = +1, four 10bar' per orbit. B1509's W1 pulls back to -1 on every level (orbit of size one). Lambda^2 W counts 0 on every level: no 5bar' anywhere in the tower. Predictions: P1-P6 and P8 YES, P7 NO (102 gcd pairs UNRESOLVED by the sealed rule; post-run 70 share only q^2 + q + 1; the 32 self-coincident pairs on M5 and M6 have real polynomials and are the next arc). Theorem F's last sentence (generic real roots only on M4) withdrawn: every twisted polynomial is real (P_nu = P_nu^-1, post-run). Three distinct vacua, each anomalous, at an unselected q. I-26 stays UNEARNED. 0 of 19.  
-`B1511_the_projective_tower/FINDINGS.md`
+**PROVED — `B1512`** (2926 words, 1 locks)  
+THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). m004's symmetries act on Ballas' family: the fibre's hyperelliptic involution fixes rho_q (so P_nu = P_nu^-1 on every level and every twisted polynomial is real, B1511 lead 3), the dual family is the family at 1/q (P(1/q, s) = s^4 P(q, 1/s); real exceptional points pair as q, 1/q; I(W2)(nu^-1, 1/q) = -I(W1)(nu, q)), and the strong inversion (the audit lane's F14 type) and the amphichiral map send q to 1/q (M5's four orbits share one palindromic polynomial, M6's four classes pair, B1511's O_A/O_B and M4 pairings explained). All 32 of B1511's unresolved case-(b) pairs fire: every member counts I(W1) = +1, I(W2) = -1, I(L2 W) = 0 at every positive real exceptional point -- M5's four orbits of five at w = q + 1/q = 7 (lam = 1, a double semisimple point, the same w as M4's), w ~ 2.2776 (lam = +-i) and w ~ 2.4999 (lam = -1, a Jordan point); M6's eight orbits of six at lam = +-1, eight values of w. Predictions: P1 NO (not Q(q^5, s)), P2-P5 YES, P6 NO (a double point and a Jordan point), P7 YES. The per-level table through level 6 is complete: case (b), the opposite sign, in orbits of four, five and six; three only from the projective triplet; no 5bar' anywhere. A design slip caught before the seal (eps first called amphichiral; ERROR_LEDGER). I-26 stays UNEARNED. 0 of 19.  
+`B1512_the_self_coincident_orbits/FINDINGS.md`
 
 **NEGATIVE — `B1399`** (3342 words, 1 locks)  
 THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  

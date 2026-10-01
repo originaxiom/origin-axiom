@@ -262,3 +262,9 @@ The pullback and the triplet never fire at the same q, so no single background c
 > - **Main's B1444** (sealed, not run) uses the same fibre object as this arc's instrument, the torsion det(1 − Φ* on H¹(F; V)), in rank
 >   two along the trace map's curves. It does not overlap this arc's claims.
 > - New lead: does each member of the projective triplet couple to its own Higgs class? (OPEN_LEADS, B1511 lead 6).
+
+> **Leads 1 and 3 taken (2026-10-01, B1512).** Lead 3: the fibre's hyperelliptic involution fixes ρ_q, so P_ν = P_{ν⁻¹} on every level
+> (a theorem now; post-run (c) was its observation). Lead 1: all 32 self-coincident pairs fire, M₅ in four orbits of five and M₆ in
+> eight orbits of six, +1 per member at every real exceptional point. Part D's table is complete through level 6 (B1512 §3). Also
+> there: the dual family is the family at 1/q, and the strong inversion and the amphichiral map send q to 1/q. This explains §3's
+> O_A/Ō_B relation ("as O_A") and M₄'s two classes (class 10 is class 1 at 1/q). `frontier/B1512_the_self_coincident_orbits`.

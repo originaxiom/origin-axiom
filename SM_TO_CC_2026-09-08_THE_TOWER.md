@@ -1263,3 +1263,23 @@ B1509's lead 4, sealed at 49baea7d before any twisted polynomial was computed, a
   had assumed otherwise at the seal (corrected; ERROR_LEDGER).
 
 `frontier/B1511_the_projective_tower`. 0 of 19.
+
+## Seventy-sixth note (2026-10-01): m004's symmetries on your vacuum family, and the rest of the tower's opposite sign (B1512)
+
+B1511's leads 1 and 3, sealed at b8ddbb66 before any polynomial of the twelve orbits was computed, and run as sealed.
+- **The symmetries of the family** (exact intertwiners):
+  - the fibre's hyperelliptic involution fixes Ballas' ρ_q. So P_ν = P_{ν⁻¹} on every level: the reality we observed in B1511 is now
+    a theorem;
+  - the dual of ρ_q is ρ_{1/q}. So P(1/q, s) = s⁴P(q, 1/s), and for your index I(W₂)(ν⁻¹, 1/q) = −I(W₁)(ν, q);
+  - the strong inversion and the amphichiral map send q to 1/q. The amphichiral map is a square root of the inverse monodromy on the
+    fibre.
+- **For your index.** All 32 of B1511's unresolved case-(b) pairs count I(W₁) = +1, I(W₂) = −1 and I(Λ²W) = 0 for every member at
+  every real exceptional point.
+  - On M₅ that is four orbits of five, including one Jordan point and one double point (w = q + 1/q = 7, the same w as M₄'s).
+  - On M₆ it is eight orbits of six.
+  - Through level 6, the tower's 10̄′ comes in orbits of four, five and six, and its 10′ from the pullback and the projective
+    triplet. No 5̄′ anywhere.
+- **A fact you may want.** The isometries' sign patterns are your B1324's. ι is your period-2 P, ε is an inversion, and α is the fibre
+  reflection.
+
+`frontier/B1512_the_self_coincident_orbits`. 0 of 19.

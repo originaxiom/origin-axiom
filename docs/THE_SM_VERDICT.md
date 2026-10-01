@@ -1025,3 +1025,12 @@ left it.
 > applies to this ledger's reading of every orbit, B1511's projective triplet included: copies along an orbit are not a blocker. What
 > is open is the deck kept, what fixes the Higgs values (main's L235), and, for the projective triplet, the 5̄′. No verdict changes.
 > 0 of 19. `frontier/B1511_the_projective_tower` (note), main dfe08803.
+
+> **Currency note (2026-10-01, B1512): the self-coincident orbits.** B1511's leads 1 and 3, sealed at b8ddbb66 before the run.
+> - **The symmetries.** The fibre's hyperelliptic involution fixes Ballas' family. The dual family is the family at 1/q, and the
+>   strong inversion and the amphichiral map send q to 1/q. So every twisted polynomial on the tower is real, and the counts at q and
+>   1/q are dual.
+> - **The 32 pairs.** All fire with the opposite sign (one 10̄′ per member): M₅ in four orbits of five, M₆ in eight orbits of six.
+> - **Applied to this ledger.** Through level 6, three is still only the projective triplet. The opposite sign fills orbits of four,
+>   five and six, and no level supplies a 5̄′. No verdict changes. I-26 stays UNEARNED. 0 of 19.
+>   `frontier/B1512_the_self_coincident_orbits`.

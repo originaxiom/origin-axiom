@@ -16478,3 +16478,23 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **A design slip caught before the seal.** ε was first called amphichiral. It keeps orientation: it is a strong inversion. It will be
   logged at banking.
 - Findings stub (sealed, not run), verdict OPEN, SEAL_LEDGER row, alias table, logs, atlas, views. 0 of 19.
+
+## 2026-10-01 — B1512 the self-coincident orbits: Ballas' family under m004's symmetries; all 32 pairs fire
+
+- **Run as sealed** (b8ddbb66; `census.py --record`, 833 s). The banked identity passed (B1511's M₄ row).
+- **Decided D1–D10, all holding.**
+  - Six rational polynomials (one on M₅ for two classes).
+  - Every member agrees, independent of the root of unity.
+  - Lemma D's identity, M₅ palindromic, and M₆'s α-pairs.
+  - B1511's banked degrees reproduced, and its M₆ λ = ±i resolution reproduced.
+  - At every point the numeric fibre at the real root equals the GF(p) fibre, and every count is in range and uniform.
+  - The duality of the counts (D8) and their α-invariance (D10).
+- **The 32 pairs: all fire,** +1 per member at every real point.
+  - M₅ at w = 7 (λ = 1, a double semisimple point), w ≈ 2.2776 (λ = ±i), w ≈ 2.4999 (λ = −1, a Jordan point).
+  - M₆ at eight values of w for λ = ±1.
+- **Predictions:** P1 NO, P2–P5 YES, P6 NO, P7 YES.
+- **Post-run.** The closed forms in w = q + 1/q. The only coincidence between different families anywhere in the tower is w = 7 (M₄ and
+  M₅).
+- **Surfaces.** Lock (9 tests, one slow), ERROR_LEDGER (the ε slip, caught before the seal), THEOREM_REGISTRY T-BALLAS-SYMMETRIES,
+  LAW_MAP, OPEN_LEADS (B1511 leads 1 and 3 closed; B1512 leads), relay row (main d88c220e → d3b50c0f, no overlap), letter (76th
+  note), README, CHIRALITY_MAP, THE_PATH_TO_THE_SM, THE_SM_VERDICT, SEAL_LEDGER verdict row, alias table, atlas and views. 0 of 19.

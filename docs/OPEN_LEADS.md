@@ -3205,6 +3205,21 @@ Model's qualitative content. Each maps to a lead already open:
      couple to its own Higgs class? Main showed this in the Standard-Model frame for all 16 of s961's orbits. The triplet's three
      twists multiply to the trivial character, so a term joining them is allowed by the characters (main's L235(a) in this frame).
 
+**Leads 1 and 3 of B1511 taken, 2026-10-01, B1512 — the self-coincident orbits.**
+- **The result.**
+  - Lead 3 is closed: the fibre's hyperelliptic involution fixes Ballas' ρ_q, so P_ν = P_{ν⁻¹} on every level. With it: the dual
+    family is the family at 1/q, and the strong inversion and the amphichiral map send q to 1/q.
+  - Lead 1 is closed: all 32 pairs fire. M₅'s four orbits of five and M₆'s eight orbits of six count +1 per member at every real
+    exceptional point, including a Jordan point and a double point.
+  - Nothing is UNRESOLVED through level 6.
+- **New leads**, each to be sealed before computing (B1512 §8):
+  1. a theorem for "case (b) fires wherever its coincidence is automatic": does the deck isomorphism force x ∪ c ≠ 0? Or test levels
+     7–8;
+  2. why w = q + 1/q = 7 carries case (b) on both M₄ and M₅ (the untwisted Q has the order-6 roots e^{±iπ/3} there);
+  3. B1511's lead 2 sharpened: O₂'s Q(q³, s) is not the self-coincident pattern (M₅ is not Q(q⁵, s)). What singles out O₂?
+  4. does the full symmetry action (deck, Galois, ι, ε, α, duality) account for every equality of twisted polynomials on levels ≤ 8?
+  5. the 5̄′ (unchanged, decisive).
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

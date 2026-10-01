@@ -1,5 +1,32 @@
 # Changelog
 
+## B1512 the self-coincident orbits: m004's symmetries act on Ballas' family, and all 32 of B1511's unresolved case-(b) pairs fire, in orbits of five on M₅ and of six on M₆
+
+- **The question** (B1511's leads 1 and 3, sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed,
+  833 s).
+  - B1511 left 32 case-(b) pairs UNRESOLVED: M₅'s four eigenline orbits at every λ, and M₆'s eight order-8 orbits at λ = ±1.
+  - B1511 also found every twisted polynomial real, without a reason.
+- **The symmetries (proved at the seal, exact intertwiners).**
+  - The fibre's hyperelliptic involution fixes Ballas' ρ_q. So P_ν = P_{ν⁻¹} on every level, and every twisted polynomial is real.
+  - The dual family is the family at 1/q. So P(1/q, s) = s⁴P(q, 1/s), real exceptional points pair as (q, 1/q), and the counts at the
+    two are dual.
+  - The strong inversion (the audit lane's F14 type) and the amphichiral map send q to 1/q. So M₅'s four orbits share one
+    palindromic polynomial, M₆'s four classes pair, and B1511's O_A/Ō_B and M₄ pairings are explained.
+- **The result.** All 32 pairs fire. Every member counts I(W₁) = +1, I(W₂) = −1 and I(Λ²W) = 0 at every positive real exceptional
+  point:
+  - **M₅:** four orbits of five, at w = q + 1/q = 7 (λ = 1, a double semisimple point, the same w as M₄'s), w ≈ 2.2776 (λ = ±i) and
+    w ≈ 2.4999 (λ = −1, a Jordan point);
+  - **M₆:** eight orbits of six at λ = ±1, at eight values of w.
+
+  The per-level table through level 6 is complete. Case (b), the opposite sign, comes in orbits of four, five and six. Three comes
+  only from the projective triplet, and there is no 5̄′ anywhere.
+- **Predictions.** P1 NO (M₅'s polynomial is not Q(q⁵, s)). P2–P5 YES. P6 NO (a double point and a Jordan point). P7 YES.
+- **Disclosed.**
+  - A design slip caught before the seal (ε first called amphichiral; ERROR_LEDGER).
+  - A citation added after the run: main's B1324 sign classification of m004's isometries.
+  - Main moved to d3b50c0f (S32/B1444, B1445 sealed): read, no overlap.
+- **0 of 19.**
+
 ## B1512 sealed: the self-coincident orbits, before any polynomial of the twelve orbits is computed
 
 - **The question** (B1511's leads 1 and 3, at the owner's "go").

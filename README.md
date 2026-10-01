@@ -445,6 +445,12 @@ emitted value. The structure is the object's; the values are the observer's.
 > whose cube is the value B1509 found, so a three appears, as a symmetry orbit of three distinct vacua. Each is still missing its
 > 5-bar, and no level of the tower supplies one. On the four-fold cover a different mechanism gives the opposite handedness, in groups
 > of four. The nineteen numbers are still not derived.*
+>
+> *And (B1512), the rest of that tower's opposite-handed cases, settled. The starting space's own symmetries act on the vacuum family:
+> one fixes it, and the others trade a value of the deformation for its reciprocal. That makes the relevant polynomials real, rational
+> and paired. On the five-fold and six-fold covers every remaining case fires, in groups of five and six, always with the opposite
+> handedness. Three still comes only from the three-fold cover's triplet, and no level supplies a 5-bar. The nineteen numbers are
+> still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

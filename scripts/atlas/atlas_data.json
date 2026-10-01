@@ -9099,6 +9099,7 @@
     "eisenstein",
     "golden",
     "z3_generation",
+    "amphichiral_cp",
     "torsion"
    ],
    "refs": [
@@ -9123,10 +9124,13 @@
   "B1512": {
    "slug": "the self coincident orbits",
    "motifs": [
+    "closing",
     "figure_eight",
+    "trace_map",
+    "metallic",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
-    "torsion",
     "wrt_quantum",
     "firewall"
    ],
@@ -9139,10 +9143,11 @@
     "P4",
     "P5",
     "P6",
-    "P7"
+    "P7",
+    "S32"
    ],
-   "obstacle": "observable",
-   "obstacle_conf": 1,
+   "obstacle": "numerology",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "topology"
   },

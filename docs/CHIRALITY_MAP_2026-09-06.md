@@ -506,6 +506,15 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 >
 > `frontier/B1511_the_projective_tower`.
 
+> **Addendum (2026-10-01, B1512): the self-coincident orbits.**
+> - m004's symmetries act on Ballas' family. The fibre's hyperelliptic involution fixes it, and the dual, the strong inversion and the
+>   amphichiral map send q to 1/q. So every twisted polynomial is real, and real points pair as (q, 1/q).
+> - B1511's 32 unresolved pairs all fire with the opposite sign (one 10̄′ per member): M₅ in orbits of five, M₆ in orbits of six. One
+>   of M₅'s points is a Jordan point and one is a double point; both fire.
+> - Through level 6: 10′ from the pullback (one) and the projective triplet (three); 10̄′ in orbits of four, five and six. No 5̄′.
+>
+> `frontier/B1512_the_self_coincident_orbits`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

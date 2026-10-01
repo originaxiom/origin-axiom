@@ -153,4 +153,10 @@ is a projective triplet, still three on M₆. So "three" is reached on the audit
 the Standard-Model frame: as three distinct vacua permuted by the root's deck. No level supplies the 5̄′. The path's open items are
 unchanged: the 5̄′, the source, one configuration for the orbit, and the end. `frontier/B1511_the_projective_tower`.
 
+**B1511's open pairs, settled (B1512).** m004's symmetries act on Ballas' family: the hyperelliptic involution fixes it, and the dual,
+the strong inversion and the amphichiral map send q to 1/q. So the tower's twisted polynomials are real and paired. On M₅ and M₆ every
+remaining case-(b) pair fires, in orbits of five and six, with the opposite sign to B1509's 10′. Through level 6 the tower now reads:
+10′ by the pullback (one per level) and by the projective triplet (three); 10̄′ in orbits of four, five and six; no 5̄′. The path's open
+items are unchanged. `frontier/B1512_the_self_coincident_orbits`.
+
 0 of 19.
