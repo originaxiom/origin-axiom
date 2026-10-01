@@ -11361,5 +11361,21 @@
   "depth_note": "Entered 2026-10-01 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
   "note": "ENTERED 2026-10-01 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1510_the_two_sided_deformation/verification/two_sided.py (the sealed run: the free-end and chiral branches to order 10 at six points over three primes, their index over F((eps)), the fixed-end class) and post_run_checks.py (the index from an order-12 jet; the q-direction branch); locked by tests/test_b1510_the_two_sided_deformation.py.",
   "routed_from": "sm-branch-2026-10-01-banking"
+ },
+ {
+  "id": "B1511",
+  "claim_killed": "THE PROJECTIVE TOWER, its no-go half: that carrying B1509's join (the audit lane's harmonic vacuum A + 1, A = mu rho_q, with its rank-five extension) up m004's cyclic covers, with any character twist, supplies the 5bar' that m004 withholds. Theorem A(vi): for every rank-five determinant-one extension W of a character by nu (x) rho_q on any M_n, Lambda^2 W is filtered by Lambda^2 V and V (x) L, both boundary-acyclic (the longitude is a commutator in the fibre, so every character is trivial on it, and rho_q's longitude has eigenvalues q, q, q, q^-3), hence I(Lambda^2 W) = 0 on every level. The run confirms I(Lambda^2 W) = 0 at every point read. The arc is PROVED (sealed at 49baea7d; P1-P6 and P8 YES, P7 NO); its positive half is a projective triplet on s961 (three 10', one per background of the order-2 deck orbit at q^3 = 17 +- 12 sqrt2).",
+  "kill_form": "boundary-acyclic-tower (twisting by characters of the covers changes the fibre but not the longitude: every character is trivial on it, so the Lambda^2 sector stays boundary-acyclic on every level, and covers multiply the 10' by orbits but never produce the 5bar')",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "A building block whose Lambda^2 meets the cusp (B1509 section 5: R40's four on m010 has I(Lambda^2 W) = +1 but no harmonic metric), a non-cyclic cover or several states, or the end: an end or apex model with an SU(5)' inflow of one 5bar' (B1509 lead 2). The self-coincident pairs on M5/M6 (B1511 lead 1) can add 10bar' orbits, not a 5bar'.",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-01 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-10-01 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1511_the_projective_tower/verification/tower_census.py (the sealed run: s961's five orbits, M6 by Shapiro, case (b) on M2/M4/M5/M6; I(Lambda^2 W) at every point, exactly and over GF(p)) and post_run_checks.py; locked by tests/test_b1511_the_projective_tower.py.",
+  "routed_from": "sm-branch-2026-10-01-banking"
  }
 ]

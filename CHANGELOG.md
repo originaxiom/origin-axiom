@@ -1,5 +1,34 @@
 # Changelog
 
+## B1511 — the projective tower: on s961 the three order-2 characters carry B1509's 10′ each, a projective triplet; M₄ carries the opposite sign in orbits of four; no level carries a 5̄′
+
+B1509's lead 4, at the owner's "aproved. next!". Sealed at 49baea7d (PREREGISTRATION.md, sha256 b5fbd359…e8d7) with the instrument and
+controls C1–C10, before any twisted polynomial of a non-trivial character was computed. Run as sealed in 21 minutes, after the banked
+identity passed inside the run.
+- **The pullback** (Theorem D): B1509's W₁ counts −1 on every level, with a deck orbit of size one.
+- **A projective triplet on s961** (P2 YES).
+  - The deck orbit of T₃ = (ℤ/4)²'s three order-2 characters has twisted polynomial Q(q³, s), B1509's Q at q³.
+  - At q³ = 17 ± 12√2 with λ₃ = −1 its fibre monodromy has a Jordan block (1, 2, 2, 2).
+  - Each of the three backgrounds counts I(W₁) = −1 and I(W₂) = +1, with B1509's data (0, 1, 1, 1). This holds exactly and at 10
+    prime–root pairs, and Λ²W counts 0.
+  - It is three on s961 and on M₆ (Shapiro holds), and gcd(n, 3) by level.
+- **The order-4 orbits** are exceptional (q² − 11q + 1; a palindromic sextic) but simple, so they count 0 (P3, P4 YES).
+- **M₄, case (b)** (P6 YES): both 3-torsion orbits fire at q = φ^{±4}, λ = 1, with every member +1 (x ∪ c ≠ 0). That is four 10̄′ per
+  orbit.
+- **No level carries a 5̄′** (Theorem A(vi), confirmed at every point).
+- **P7 NO.** 102 gcd pairs are UNRESOLVED under the sealed rule.
+  - Post-run, 70 of them share only q² + q + 1.
+  - The other 32, self-coincident on M₅ and M₆, have real polynomials and are the next arc.
+- **Post-run** (labelled):
+  - P_{O₂} = Q(q³, s) exactly;
+  - the q² + q + 1 factor;
+  - P_ν = P_{ν⁻¹} identically at levels 2–6;
+  - the triplet's members and Shapiro.
+- **Disclosed:** Theorem F's last sentence is withdrawn. Its reality argument from closure under inversion was wrong (ERROR_LEDGER
+  reasoning slip), and P3's stated reason shared it.
+- **Reading.** Three is reached on the harmonic family as B1506 found it in the Standard-Model frame: a deck orbit of three distinct
+  vacua on s961, each one 10′, each anomalous, at an unselected q. I-26 stays UNEARNED. 0 of 19.
+
 ## B1511 sealed: the projective tower, before any twisted polynomial of a non-trivial character is computed
 
 - **The question** (B1509's lead 4, at the owner's "aproved. next!"). B1509's W₁ counts −1 on m004: one 10′. This arc carries it to

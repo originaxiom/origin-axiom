@@ -497,6 +497,15 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 >
 > `frontier/B1510_the_two_sided_deformation`.
 
+> **Addendum (2026-10-01, B1511): the projective tower.**
+> - On s961, the three order-2 characters of T₃ twist the audit lane's vacuum into three backgrounds, permuted by the root's deck. Each
+>   carries B1509's chiral 10′ at q³ = 17 ± 12√2: a projective triplet. It is still three on M₆.
+> - On M₄ a second mechanism gives the opposite sign in orbits of four.
+> - No level carries a 5̄′, because Λ²W is boundary-acyclic everywhere. The chirality is a 10′ count per vacuum, never a cancelling
+>   generation.
+>
+> `frontier/B1511_the_projective_tower`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

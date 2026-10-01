@@ -16408,3 +16408,29 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Sealed:** P1–P8.
 
 `frontier/B1511_the_projective_tower`. 0 of 19.
+
+## 2026-10-01 — B1511 the projective tower: a projective triplet on s961, the opposite sign in fours on M₄, no 5̄′ on any level
+
+- **The occasion.** The owner's "aproved. next!", approving B1509's lead 4. Sealed at 49baea7d before any twisted polynomial of a
+  non-trivial character existed, and run as sealed (21 minutes; the banked identity passed inside the run).
+- **The result.**
+  - **s961:** the deck orbit of T₃'s three order-2 characters has twisted polynomial Q(q³, s) and a Jordan block at
+    q³ = 17 ± 12√2, λ₃ = −1. Each of the three backgrounds counts −1, a projective triplet. It is three on M₆ too (Shapiro).
+  - The order-4 orbits are exceptional but simple.
+  - **M₄:** case (b) fires on two orbits of four at q = φ^{±4}, at +1.
+  - **Every level:** the pullback counts −1, and Λ²W counts 0.
+- **The predictions.** P1–P6 and P8 YES. P7 NO: 102 gcd pairs UNRESOLVED; post-run, 70 are q² + q + 1 and 32 are real self-coincident
+  pairs on M₅/M₆, registered as B1512.
+- **Self-caught.** Theorem F's reality argument (ERROR_LEDGER): every twisted polynomial is real, P_ν = P_{ν⁻¹}.
+- **Surfaces.** FINDINGS, verdict PROVED, lock (10 tests, 1 slow), post-run checks; CHANGELOG, README, letter (75th note),
+  CHIRALITY_MAP, OPEN_LEADS, THE_PATH_TO_THE_SM, THE_SM_VERDICT, THE_NEGATIVES_READ_TOGETHER, LAW_MAP (THE PROJECTIVE TRIPLET),
+  THEOREM_REGISTRY (T-PROJECTIVE-TOWER), ERROR_LEDGER, RELAY_LEDGER (main 6085218c → 7f080e49; audit lane f7cdf281 → 472a9595),
+  SEAL_LEDGER verdict row, alias table (next B1512), the kill graph (`boundary-acyclic-tower`), B1509's and B1506's notes; atlas and
+  views regenerated.
+- **Checks.**
+  - The lock passes all 10 tests (one slow, 250 s; the other nine in 15 s).
+  - Every gate passes but relay-debt, the standing baseline.
+  - The targeted selection (72 files: the corpus scanners, the B1506, B1509 and B1511 locks, the tests that read the letter and the
+    README): 1 663 passed, 2 skipped. The two all-gates tests that read relay-debt were deselected; they fail at that baseline.
+
+`frontier/B1511_the_projective_tower`. 0 of 19.

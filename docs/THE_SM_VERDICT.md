@@ -1009,3 +1009,13 @@ left it.
 >   keeps the trivial line's cusp eigenvalues (1, 1).
 > - **Applied to this ledger.** The pair is vector-like, and B1509's 10′ belongs to the one-sided extension alone. I-26 stays
 >   UNEARNED and no verdict changes. 0 of 19. `frontier/B1510_the_two_sided_deformation`.
+
+> **Currency note (2026-10-01, B1511): the projective tower.** B1509's lead 4, sealed at 49baea7d before the run.
+> - **The configuration.** B1509's rank-five extension on the audit lane's harmonic family, on m004's cyclic covers M₁–M₆ with every
+>   character twist, read by deck orbit in B1506's frame.
+> - **Three, as an orbit.** On s961 the three order-2 characters of T₃ give a projective triplet. Each background counts one 10′ at
+>   q³ = 17 ± 12√2, exactly and over GF(p), and it is still three on M₆.
+> - **The opposite sign, in fours.** On M₄ the 3-torsion characters give +1 (10̄′) in two orbits of four at q = φ^{±4}.
+> - **No 5̄′ on any level** (Λ²W is boundary-acyclic everywhere).
+> - **Applied to this ledger.** Three appears as three distinct vacua, each anomalous, at an unselected q. B1506's fence and one bit
+>   apply unchanged. I-26 stays UNEARNED and no verdict changes. 0 of 19. `frontier/B1511_the_projective_tower`.

@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**815 recorded closures — of which 648 are CLASSIFIED by mechanism and
+**816 recorded closures — of which 649 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -98,6 +98,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `symmetry-cannot-select (the root's deck permutes an orbit's blocks, which are distinct E6 vacua -- their extension characters differ by characters of order 4 -- so an orbit is k copies of one generation and one object on the root, counting gcd(n, k) on M_n, never k families of one vacuum; a tensor-factor family frame gives every family the same extension character)` | 1 |  |
 | `end-datum-input (the projective four's boundary is acyclic, so the bulk can only count the trivial line's 10'; the number is the end condition's, 0/1/2, and the 5bar' is 0 under every end condition)` | 1 |  |
 | `semicontinuity-bound (the pair's index is bounded by the base point's H^2: a2 <= 1 forces r1 = q1 and a1 = b1, so the singlet and its conjugate partner pair up vector-like)` | 1 |  |
+| `boundary-acyclic-tower (twisting by characters of the covers changes the fibre but not the longitude: every character is trivial on it, so the Lambda^2 sector stays boundary-acyclic on every level, and covers multiply the 10' by orbits but never produce the 5bar')` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

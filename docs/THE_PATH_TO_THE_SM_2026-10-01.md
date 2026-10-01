@@ -147,4 +147,10 @@ F-term, so the source moves onto the end. It counts zero (Theorem C), even on th
 (1, 1). So the pair is vector-like, and the path's chirality on this family stays with B1509's one-sided extension and its end.
 `frontier/B1510_the_two_sided_deformation`.
 
+**B1509's lead 4, run (B1511).** Carried up m004's cyclic covers, the join counts one on every level by pullback. On s961, m004's
+only 3-fold cover, the deck orbit of the three order-2 characters gives three backgrounds with one 10′ each, at q³ = 17 ± 12√2. This
+is a projective triplet, still three on M₆. So "three" is reached on the audit lane's harmonic family the same way B1506 reached it in
+the Standard-Model frame: as three distinct vacua permuted by the root's deck. No level supplies the 5̄′. The path's open items are
+unchanged: the 5̄′, the source, one configuration for the orbit, and the end. `frontier/B1511_the_projective_tower`.
+
 0 of 19.

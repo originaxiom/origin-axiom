@@ -3187,6 +3187,21 @@ Model's qualitative content. Each maps to a lead already open:
   3. which cusp data move to absorb the fixed-end class, and does an end model accept the move;
   4. the 5̄′ (B1509 lead 2, unchanged).
 
+**Lead 4 of B1509 taken, 2026-10-01, B1511 — the projective tower.**
+- **The result.**
+  - B1509's W₁ pulls back to −1 on every cyclic cover, with a deck orbit of size one.
+  - On s961 the deck orbit of T₃'s three order-2 characters is a projective triplet. At q³ = 17 ± 12√2 with λ₃ = −1 each counts −1:
+    three 10′ on s961, still three on M₆. Its polynomial is B1509's Q at q³.
+  - On M₄, case (b) gives +1 on two orbits of four at q = φ^{±4}.
+  - No level carries a 5̄′.
+  - Unresolved: 32 self-coincident pairs on M₅ and M₆, whose polynomials are real.
+- **New leads**, each to be sealed before computing (B1511 §8):
+  1. the 32 pairs: M₅'s four eigenline orbits at every λ, M₆'s eight order-8 orbits at λ = ±1;
+  2. why P_{O₂}(q, s) = Q(q³, s);
+  3. prove P_ν = P_ν̄. The hyperelliptic involution is the candidate; B1506 §10's isometries and amphichirality are related;
+  4. the 5̄′ (unchanged);
+  5. can the triplet's three vacua be one configuration (B1506's fence, harmonic frame)?
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

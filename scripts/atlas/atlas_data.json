@@ -9018,6 +9018,7 @@
     "coupling",
     "figure_eight",
     "trace_map",
+    "metallic",
     "eisenstein",
     "golden",
     "z3_generation",
@@ -9090,13 +9091,17 @@
   "B1511": {
    "slug": "the projective tower",
    "motifs": [
+    "closing",
     "figure_eight",
     "trace_map",
     "metallic",
+    "eisenstein",
+    "golden",
     "z3_generation",
     "torsion"
    ],
    "refs": [
+    "L234",
     "P1",
     "P2",
     "P3",
@@ -9104,10 +9109,11 @@
     "P5",
     "P6",
     "P7",
-    "P8"
+    "P8",
+    "S30"
    ],
    "obstacle": "numerology",
-   "obstacle_conf": 3,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },

@@ -439,6 +439,12 @@ emitted value. The structure is the object's; the values are the observer's.
 > push is needed there, but the push moves to the space's open end, which has to shift. The pair also counts zero: a direction and
 > its mirror partner cancel each other's handedness. So the one 10 that B1509 found belongs to the lopsided direction alone. The
 > nineteen numbers are still not derived.*
+>
+> *And (B1511), the same construction carried up the starting space's tower of covers. On its only three-fold cover, three twisted
+> copies of that vacuum, permuted by the cover's own symmetry, each carry one such 10. They do so at the value of the deformation
+> whose cube is the value B1509 found, so a three appears, as a symmetry orbit of three distinct vacua. Each is still missing its
+> 5-bar, and no level of the tower supplies one. On the four-fold cover a different mechanism gives the opposite handedness, in groups
+> of four. The nineteen numbers are still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

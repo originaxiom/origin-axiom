@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1259** |
-| words of findings prose | **1,021,657** |
-| test lock files referenced | **762** |
+| words of findings prose | **1,024,818** |
+| test lock files referenced | **763** |
 | arcs carrying an authored verdict | **1259** (100.0 %) |
-| recorded closures | **815** (648 classified, 167 routed-only) |
+| recorded closures | **816** (649 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 834 |
+| PROVED | 835 |
 | NEGATIVE | 325 |
-| OPEN | 89 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 85 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 86 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1510`** (2833 words, 1 locks)  
-THE TWO-SIDED DEFORMATION (B1509's lead 1, at the owner's 'do the recomendation for next'; sealed at 0cb24e2b before the run): the 16's and the 16*'s singlets c and c* switched on together on the audit lane's harmonic vacuum A + 1, A = mu rho_q, hold in the bulk without a source, push it onto the end, and count zero. Proved at seal: no sl(4) obstruction at any order (Theorem A, with cusp rigidity and a regular cusp pair from F15/R55); s t != 0 gives an absolutely irreducible deformation, a closed orbit; the line's longitude moves by s t kappa_l at order two, kappa_l = +-<e u c, c*>, zero exactly at mu = -1; the fixed-end class is F15's matter-retention row, R56's F-term F_S = lambda Q.Qtilde, nonzero; main's index is 0 on every two-sided deformation (Theorem C: upper semicontinuity of H^2). Sealed run at the six points over GF(1009), GF(1033), GF(1129) and exactly at order two: D1-D6 hold (the chiral index read at its jet's own edge is a truncation artifact, shown post-run); P1 the free-end branch exists to order 10 at all 18 pairs, P2 the odd obstructions lie on one line, P3 a chiral branch keeping the line's (1,1) exists to order 10 at mu = -1 and counts 0 with (a1,b1,r1,q1) = (1,1,1,1), P4 a1 = b1 = 0 on the free-end branch: YES; P5 NO, because the instrument's free-end branch moves along Ballas' q-tangent and keeps the line's longitude at 1 through order 14 (a generic branch moves it at order four). The pair is vector-like: B1509's 10' belongs to the one-sided extension alone. I-26 stays UNEARNED. 0 of 19.  
-`B1510_the_two_sided_deformation/FINDINGS.md`
+**PROVED — `B1511`** (3521 words, 1 locks)  
+THE PROJECTIVE TOWER (B1509's lead 4 at the owner's 'aproved. next!'; sealed at 49baea7d before any twisted polynomial of a non-trivial character was computed): B1509's rank-five extension on the audit lane's harmonic family, carried to m004's cyclic covers M1-M6 and twisted by their fibre torsion, read by level and by deck orbit in B1506's frame. On s961 the deck orbit of T3's three order-2 characters is a projective triplet: at q^3 = 17 +- 12 sqrt2 with lam3 = -1 its twisted fibre monodromy has a Jordan block and each of the three backgrounds counts I(W1) = -1, I(W2) = +1 with B1509's data (0,1,1,1) (exact over Q(i)[q]/(q^6 - 34 q^3 + 1) and at 10 prime-root pairs), three 10' on s961 and on M6 (Shapiro), gcd(n,3) by level; its polynomial is exactly B1509's Q at q^3. The order-4 orbits are exceptional (q^2 - 11 q + 1, a sextic) but simple: 0. On M4 the opposite sign: case (b) (line non-trivial on the fibre, trivial on the cusp) fires on both 3-torsion orbits at q = phi^{+-4}, lam = 1, every member I(W1) = +1, four 10bar' per orbit. B1509's W1 pulls back to -1 on every level (orbit of size one). Lambda^2 W counts 0 on every level: no 5bar' anywhere in the tower. Predictions: P1-P6 and P8 YES, P7 NO (102 gcd pairs UNRESOLVED by the sealed rule; post-run 70 share only q^2 + q + 1; the 32 self-coincident pairs on M5 and M6 have real polynomials and are the next arc). Theorem F's last sentence (generic real roots only on M4) withdrawn: every twisted polynomial is real (P_nu = P_nu^-1, post-run). Three distinct vacua, each anomalous, at an unselected q. I-26 stays UNEARNED. 0 of 19.  
+`B1511_the_projective_tower/FINDINGS.md`
 
 **NEGATIVE — `B1399`** (3342 words, 1 locks)  
 THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free family, g generations at t = g(1, 0, -1, 0, 1, -2) on the six direction classes; no pair of independent cuspidal classes on the census gives it. Census: the degree-2 and degree-3 covers of B1186's 99 arithmetic members with cuspidal dimension >= 2, 109 up to isometry; 102 resolved (84 of dimension 2, 18 of dimension 3 on all 203 sealed planes), 7 unresolved and listed. P1 (g = 3) NONE and P2 (any g != 0) NONE on the resolved, as the priors said (~85%, ~60%). P3: max |C| = 0 on 101 members; 2 on one (a degree-3 cover of o10_150708: values 0, +-2 only, 12 breakpoints, total variation 24); no g anywhere. The reason is parity: a shell whose vectors span a sublattice of index m makes a cusp's term a multiple of m (the shell function is invariant under a free Z/m of torus translations). On the resolved set 204 of 207 cusps lead with a one-direction shell (a band, 0) and 3 with the third shell of a sqrt(-3) cusp (three directions, index 2), so C is even everywhere, which excludes g = 1 and g = 3, and |C| <= 2 excludes g = 2. The census's 8 hexagonal cusps (first shell index 1, the only first shells that can give odd terms) sit two each on the four-cusped covers of o10_150704, o10_150725 and o10_150727 (two), exactly the four whose seeds disagree on every rung; the other three unresolved are two ambiguous kills (0.041, 0.078) and one non-terminating walk. Post-seal read-out, seed by seed and outside the verdict: no seed, rung or reading of the six readable gets past |C| = 2 or 24 breakpoints (g = 3 needs 6 and 36), no g. Cusp lattices from SnapPy's shapes agree with the pipeline's leading shells at all 207 resolved cusps; five members re-run in a fresh process reproduce every field. Two instrument faults self-caught on non-census controls before the census (ERROR_LEDGER E1: SnapPy's random presentation, now seeded; E2: the seeds' agreement coded as a final test, now part of each rung's acceptance). Next, per the sealed NONE branch: B1372's door-2 residual or independent walls with 27 matter; the different-frame sL-4 (E8/SL5) stalls at the same cusp/end law (sL-8). Not settled: the four hexagonal members, cube~3.24's covers (three hexagonal cusps; its cusp 2 leads with a sqrt(3) shell of index 3, a term in steps of three), larger covers. One frame's count on one family of generated structures (P022). No physics crossed. 0 of 19.  

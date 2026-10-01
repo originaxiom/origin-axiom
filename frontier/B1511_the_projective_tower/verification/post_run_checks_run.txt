@@ -1,0 +1,2553 @@
+{
+ "a_O2_is_Q_at_q_cubed": {
+  "P_O2(q,s) = Q_monic(q^3, s)": true,
+  "Q_monic(q^3, s)": "-q**3*s**2 + s**4 - 8*s**3 + 16*s**2 - 8*s + 1 - s**2/q**3",
+  "orbit": [
+   [
+    0,
+    2
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    0
+   ]
+  ]
+ },
+ "b_C2_lam1_common_factor": {
+  "2": {
+   "pairs": 0
+  },
+  "4": {
+   "every_rest_is_q^2+q+1_at_every_prime": true,
+   "pairs": 8,
+   "rows": [
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      4
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      9
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      14
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      8
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      13
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      6
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      12
+     ],
+     "p": 1021,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      4
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      9
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      14
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      8
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      13
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      6
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      12
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      4
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      9
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      14
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      8
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      13
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      6
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      12
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    }
+   ]
+  },
+  "5": {
+   "every_rest_is_q^2+q+1_at_every_prime": true,
+   "pairs": 20,
+   "rows": [
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      1
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      2
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      3
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      4
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      5
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      6
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      7
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      8
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      9
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      10
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      1
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      6
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      7
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      2
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      3
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      10
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      4
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      5,
+      7
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      9
+     ],
+     "p": 1013,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      1
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      2
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      3
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      4
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      5
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      6
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      7
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      8
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      9
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      10
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      1
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      6
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      7
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      2
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      3
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      10
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      4
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      5,
+      7
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      9
+     ],
+     "p": 1277,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      1
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      2
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      3
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      4
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      5
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      6
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      7
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      8
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      9
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      0,
+      10
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      1
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      6
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      7
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      2
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      3
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      10
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      4
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      5,
+      7
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      9
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    }
+   ]
+  },
+  "6": {
+   "every_rest_is_q^2+q+1_at_every_prime": true,
+   "pairs": 42,
+   "rows": [
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      4
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      9
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      14
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      19
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      24
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      34
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      39
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      8
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      13
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      18
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      23
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      33
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      38
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      12
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      17
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      22
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      27
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      32
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      37
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      6
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      16
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      21
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      26
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      31
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      9
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      19
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      24
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      34
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      39
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      12
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      27
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      37
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      9,
+      11
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      9,
+      16
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      11,
+      34
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      13
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      23
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      38
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      13,
+      17
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      19,
+      26
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      22,
+      33
+     ],
+     "p": 1201,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      4
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      9
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      14
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      19
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      24
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      34
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      39
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      8
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      13
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      18
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      23
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      33
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      38
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      12
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      17
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      22
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      27
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      32
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      37
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      6
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      16
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      21
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      26
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      31
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      9
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      19
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      24
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      34
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      39
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      12
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      27
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      37
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      9,
+      11
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      9,
+      16
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      11,
+      34
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      13
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      23
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      38
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      13,
+      17
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      19,
+      26
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      22,
+      33
+     ],
+     "p": 1321,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      4
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      9
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      14
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      19
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      24
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      34
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      1,
+      39
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      3
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      8
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      13
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      18
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      23
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      33
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      2,
+      38
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      12
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      17
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      22
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      27
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      32
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      3,
+      37
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      6
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      16
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      21
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      26
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      4,
+      31
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      9
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      19
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      24
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      34
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      6,
+      39
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      12
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      27
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      8,
+      37
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      9,
+      11
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      9,
+      16
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      11,
+      34
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      13
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      23
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      12,
+      38
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      13,
+      17
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      19,
+      26
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    },
+    {
+     "is_q^2+q+1": true,
+     "lam": 0,
+     "orbit_rep": [
+      22,
+      33
+     ],
+     "p": 1361,
+     "rest": "x^2 + x + 1"
+    }
+   ]
+  }
+ },
+ "c_P_nu_equals_P_nu_inverse": {
+  "2": {
+   "P_nu = P_nu^-1 identically over GF(p)": true,
+   "pairs_differing": 0,
+   "pairs_nu_nu^-1": 2,
+   "prime": 1021
+  },
+  "3": {
+   "P_nu = P_nu^-1 identically over GF(p)": true,
+   "pairs_differing": 0,
+   "pairs_nu_nu^-1": 6,
+   "prime": 1009
+  },
+  "4": {
+   "P_nu = P_nu^-1 identically over GF(p)": true,
+   "pairs_differing": 0,
+   "pairs_nu_nu^-1": 22,
+   "prime": 1021
+  },
+  "5": {
+   "P_nu = P_nu^-1 identically over GF(p)": true,
+   "pairs_differing": 0,
+   "pairs_nu_nu^-1": 60,
+   "prime": 1013
+  },
+  "6": {
+   "P_nu = P_nu^-1 identically over GF(p)": true,
+   "pairs_differing": 0,
+   "pairs_nu_nu^-1": 158,
+   "prime": 1201
+  }
+ },
+ "d_triplet_and_shapiro": {
+  "D6_all_agree": true,
+  "D6_shapiro": [
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "1",
+    "orbit": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "-1",
+    "orbit": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     2
+    ],
+    "lam3": "i",
+    "orbit": [
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "shapiro_h1": 2
+   },
+   {
+    "W1_M6": [
+     -1
+    ],
+    "W1_s961": [
+     -1
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "-1",
+    "orbit": [
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     2
+    ],
+    "lam3": "-i",
+    "orbit": [
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "shapiro_h1": 2
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "1",
+    "orbit": [
+     [
+      0,
+      3
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "-1",
+    "orbit": [
+     [
+      0,
+      3
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "1",
+    "orbit": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "-1",
+    "orbit": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "1",
+    "orbit": [
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      2
+     ]
+    ],
+    "shapiro_h1": 1
+   },
+   {
+    "W1_M6": [
+     0
+    ],
+    "W1_s961": [
+     0
+    ],
+    "h1_M6": [
+     1
+    ],
+    "lam3": "-1",
+    "orbit": [
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      2
+     ]
+    ],
+    "shapiro_h1": 1
+   }
+  ],
+  "exact": {
+   "(0, 2)": [
+    -1,
+    1,
+    0,
+    [
+     0,
+     1,
+     1,
+     1
+    ]
+   ],
+   "(2, 0)": [
+    -1,
+    1,
+    0,
+    [
+     0,
+     1,
+     1,
+     1
+    ]
+   ],
+   "(2, 2)": [
+    -1,
+    1,
+    0,
+    [
+     0,
+     1,
+     1,
+     1
+    ]
+   ]
+  },
+  "fibre": {
+   "ker_dims_(S-lam)^j_on_H1": [
+    1,
+    2,
+    2,
+    2
+   ],
+   "ker_dims_at_-lam": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "rank_B": 4
+  },
+  "mod_p_rows": 10,
+  "mod_p_values": [
+   [
+    "(0, 2)",
+    -1,
+    1,
+    0
+   ],
+   [
+    "(2, 0)",
+    -1,
+    1,
+    0
+   ],
+   [
+    "(2, 2)",
+    -1,
+    1,
+    0
+   ]
+  ],
+  "positive_roots": [
+   "0.308768095857485",
+   "3.23867657771728"
+  ],
+  "triplet_point": "q**6 - 34*q**3 + 1"
+ }
+}

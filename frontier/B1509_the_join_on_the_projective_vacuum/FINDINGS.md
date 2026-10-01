@@ -326,6 +326,8 @@ or several states (lead 4).
 
 > **Note (2026-10-01, B1510):** lead 1 above was taken and run as sealed. The two-sided pair holds in the bulk without a source, is obstructed with the end held fixed (R56's F-term), and counts zero on every two-sided deformation (Theorem C). `frontier/B1510_the_two_sided_deformation`.
 
+> **Note (2026-10-01, B1511):** lead 4 above was taken and run as sealed. W₁ pulls back to −1 on every cyclic cover. On s961 the three order-2 twists of the family each carry this 10′ at q³ = 17 ± 12√2 (their twisted polynomial is Q(q³, s)): a projective triplet, still three on M₆. No level carries a 5̄′. `frontier/B1511_the_projective_tower`.
+
 ## Verification
 
 - `verification/control_exceptional.py` → `control_exceptional_run.txt`: pre-seal; about 6 s.

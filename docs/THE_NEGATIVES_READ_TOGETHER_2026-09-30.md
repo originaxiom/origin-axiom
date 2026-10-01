@@ -231,3 +231,12 @@ B1510 switches on both singlet directions of B1509's join and proves that every 
 
 The hatch is a deformation from a base point with more H², a different block, or the end. The table above keeps its 26 records; this
 record is routed at banking time, as B1509's was. `frontier/B1510_the_two_sided_deformation`.
+
+## Currency (2026-10-01, B1511): no 5̄′ anywhere in the tower
+
+B1511 carries B1509's join up m004's cyclic covers M₁–M₆ with every character twist. Its positive half is a projective triplet on
+s961: three 10′, one per background of a deck orbit. Its no-go half is entered in the kill graph as `boundary-acyclic-tower`.
+- Λ²W is boundary-acyclic for every rank-five extension of a character by any twisted ρ_q on any level, so I(Λ²W) = 0 everywhere.
+- The tower multiplies the 10′ by orbits and never supplies the 5̄′.
+
+The hatch is a building block whose Λ² meets the cusp, or the end. `frontier/B1511_the_projective_tower`.

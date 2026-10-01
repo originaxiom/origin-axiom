@@ -394,3 +394,9 @@ is one vacuum up to isometry and three up to gauge. Under either convention ther
 - s961 carries 12 deck-inverting isometries, 6 orientation-preserving. Whether they preserve this arc's orbits is the second lead.
 
 `frontier/B1507_the_record_reread`.
+
+> **Note (2026-10-01, B1511): the same three in the harmonic frame.** B1511 carried B1509's rank-five extension of the audit lane's
+> harmonic family up M₁–M₆ in this arc's frame. On s961 the deck orbit of T₃'s three order-2 characters (not the order-4 extension
+> characters of §0's orbits) gives three backgrounds, one 10′ each, at q³ = 17 ± 12√2. The level law holds (gcd(n, 3); Shapiro checked
+> on M₆), and the fence holds unchanged: three distinct vacua. The order-4 characters are exceptional there but do not fire.
+> `frontier/B1511_the_projective_tower`.

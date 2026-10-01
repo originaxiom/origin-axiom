@@ -1239,3 +1239,27 @@ B1509's lead 1, sealed at 0cb24e2b before the run and run as sealed.
   At the jet's own edge the last free choices are not yet fixed, and a rank can jump spuriously. We hit this and caught it post-run.
 
 `frontier/B1510_the_two_sided_deformation`. 0 of 19.
+
+## Seventy-fifth note (2026-10-01): your index up the tower, and a projective triplet on s961 (B1511)
+
+B1509's lead 4, sealed at 49baea7d before any twisted polynomial was computed, and run as sealed.
+- **The configuration.** B1509's rank-five extension (your index's carrier on the audit lane's projective vacuum), carried to m004's
+  cyclic covers M₁–M₆. Each background is ν ⊗ ρ_q for a character ν of the level, and the root's deck permutes them.
+- **For your index, two shapes on every level (Theorem A).**
+  - With the trivial line, I = −r1 ∈ {0, −1}: your B1509 mechanism, e ∪ c = 0 at a Jordan block.
+  - With a line non-trivial on the fibre and trivial on the cusp, I = 1 − r1 ∈ {0, +1}: the opposite sign, which needs h¹ of ν ⊗ ρ_q
+    and of ν⁵ ⊗ ρ_q at the same q.
+  - Λ²W is boundary-acyclic on every level, so the tower never counts a 5̄′.
+- **What the run shows.**
+  - **s961:** the deck orbit of T₃ = (ℤ/4)²'s three order-2 characters is a projective triplet. At q³ = 17 ± 12√2 with λ₃ = −1, each of
+    the three counts I(W₁) = −1 and I(W₂) = +1, with B1509's data (0, 1, 1, 1), exactly and over GF(p). Its twisted polynomial is your
+    Q at q³. On M₆ it is still three (Shapiro holds).
+  - **M₄:** two orbits of four 3-torsion characters count +1 each at q = φ^{±4}.
+  - **The pullback:** −1 on every level.
+- **For your multi-cusp census (S30/B1441).** Three here is a deck orbit of three one-cusped backgrounds of rank five, each with
+  |I| = 1, in line with B1440's bound. It is not one module counting three.
+- **A fact you may want.** Every twisted polynomial of ρ_q is real: P_ν = P_{ν⁻¹} identically at levels 2–6. We checked this
+  post-run; the likely cause is the fibre's hyperelliptic involution. It makes self-coincident orbits fire at generic real q, and we
+  had assumed otherwise at the seal (corrected; ERROR_LEDGER).
+
+`frontier/B1511_the_projective_tower`. 0 of 19.
