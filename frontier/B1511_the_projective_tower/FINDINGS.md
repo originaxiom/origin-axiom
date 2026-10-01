@@ -246,3 +246,19 @@ The pullback and the triplet never fire at the same q, so no single background c
 - `verification/tower_census.py` → `tower_census_run.txt`: the sealed run, Parts A–D.
 - `verification/post_run_checks.py` → `post_run_checks_run.txt`: post-run checks (a)–(d).
 - `tests/test_b1511_the_projective_tower.py`: the lock.
+
+> **Read against main's S31 (2026-10-01, later the same day; main dfe08803 and d88c220e).**
+> - **Main's B1443** (PROVED) computed the orbit's coupling tensor in the Standard-Model frame. Each member of a deck orbit couples
+>   only to its own Higgs class, with one strength for the orbit: Y(i, j; k) = y·[i = j]·[η_i = η_k]. So a mass matrix is y·diag(v_k)
+>   and members do not mix. On s961 all 16 of B1506's orbits have three distinct Higgs classes for every coupling.
+> - **Two corrections by the owner are recorded there.** Copies along a deck orbit are not a blocker; that was an imported expectation.
+>   And what fixes the Higgs values is uncomputed, not excluded (main's lead L235).
+> - **Applied to §6 above.** "Not three families of one vacuum" and "the three backgrounds are distinct flat bundles" describe what is
+>   open: the deck kept (B1506's bit), the 5̄′, and the Higgs values. They are not a limit on the triplet.
+> - **Checked here** (own code): on the root's tower the characters of every deck orbit at levels 2–6 multiply to the trivial
+>   character. This includes the triplet's three order-2 twists, (2,0) + (0,2) + (2,2) ≡ 0. So a term joining the triplet's three
+>   members is allowed by the characters, as main found for the Higgs characters of B1506's orbits. Whether it is non-zero is not
+>   computed.
+> - **Main's B1444** (sealed, not run) uses the same fibre object as this arc's instrument, the torsion det(1 − Φ* on H¹(F; V)), in rank
+>   two along the trace map's curves. It does not overlap this arc's claims.
+> - New lead: does each member of the projective triplet couple to its own Higgs class? (OPEN_LEADS, B1511 lead 6).

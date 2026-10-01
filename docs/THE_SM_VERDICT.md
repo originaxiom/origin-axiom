@@ -1019,3 +1019,9 @@ left it.
 > - **No 5̄′ on any level** (Λ²W is boundary-acyclic everywhere).
 > - **Applied to this ledger.** Three appears as three distinct vacua, each anomalous, at an unselected q. B1506's fence and one bit
 >   apply unchanged. I-26 stays UNEARNED and no verdict changes. 0 of 19. `frontier/B1511_the_projective_tower`.
+
+> **Currency note (2026-10-01, main's S31 read here).** Main's B1443 found that each member of a deck orbit couples to its own Higgs
+> class. On s961 that holds for every orbit and every coupling, so an orbit's mass matrix is y·diag(v_k). The owner's correction there
+> applies to this ledger's reading of every orbit, B1511's projective triplet included: copies along an orbit are not a blocker. What
+> is open is the deck kept, what fixes the Higgs values (main's L235), and, for the projective triplet, the 5̄′. No verdict changes.
+> 0 of 19. `frontier/B1511_the_projective_tower` (note), main dfe08803.

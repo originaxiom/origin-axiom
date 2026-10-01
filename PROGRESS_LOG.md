@@ -16434,3 +16434,18 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     README): 1 663 passed, 2 skipped. The two all-gates tests that read relay-debt were deselected; they fail at that baseline.
 
 `frontier/B1511_the_projective_tower`. 0 of 19.
+
+## 2026-10-01 — Main's S31 (B1442, B1443) and B1444 harvested into B1511's reading
+
+- **The occasion.** The owner's "fetch main for progress", then "go".
+- **Main moved 7f080e49 → d88c220e.**
+  - B1442 (NEGATIVE) is the generation-shaped census on the seventeen several-cusped manifolds.
+  - B1443 (PROVED) is the orbit's coupling tensor: each member of a deck orbit couples to its own Higgs class, and on s961 that holds
+    in every orbit and every coupling.
+  - B1444 is sealed: the torsion law along periodic curves.
+- **Applied here.**
+  - B1511 §6's fence is reworded by a dated note, following the owner's correction on main: an orbit's copies are not a blocker.
+  - The projective triplet's three twists multiply to the trivial character. This was checked with own code for every deck orbit at
+    levels 2–6.
+  - Lead 6 is registered: the triplet's couplings, B1443's question in the harmonic frame.
+- **Surfaces:** RELAY_LEDGER, B1511 FINDINGS note, OPEN_LEADS, THE_SM_VERDICT, CHANGELOG. 0 of 19.

@@ -1,5 +1,19 @@
 # Changelog
 
+## Main's S31 and B1444 read here: copies along an orbit are not a blocker, and the projective triplet's twists allow a joining term
+
+Main moved 7f080e49 → d88c220e.
+- **S31.** B1442 (NEGATIVE): no background counts two on the seventeen several-cusped manifolds. B1443 (PROVED): each member of a deck
+  orbit couples to its own Higgs class, Y(i, j; k) = y·[i = j]·[η_i = η_k]. On s961 that holds for all 16 orbits and every coupling,
+  and an orbit's mass matrix is y·diag(v_k).
+- **The owner's corrections there** are applied to this branch's reading. Copies along an orbit are not a blocker. What fixes the
+  Higgs values is uncomputed, not excluded (L235).
+- **B1444** (sealed, not run): the torsion law along the trace map's periodic curves, rank two. Its torsion is this branch's fibre
+  object, so no overlap.
+- **Checked here:** every deck orbit's characters multiply to the trivial character at levels 2–6, the projective triplet's twists
+  included. So a term joining the triplet's members is allowed by the characters.
+- **Surfaces:** relay row, B1511's note, OPEN_LEADS (B1511 lead 6), THE_SM_VERDICT note. 0 of 19.
+
 ## B1511 — the projective tower: on s961 the three order-2 characters carry B1509's 10′ each, a projective triplet; M₄ carries the opposite sign in orbits of four; no level carries a 5̄′
 
 B1509's lead 4, at the owner's "aproved. next!". Sealed at 49baea7d (PREREGISTRATION.md, sha256 b5fbd359…e8d7) with the instrument and

@@ -3201,6 +3201,9 @@ Model's qualitative content. Each maps to a lead already open:
   3. prove P_ν = P_ν̄. The hyperelliptic involution is the candidate; B1506 §10's isometries and amphichirality are related;
   4. the 5̄′ (unchanged);
   5. can the triplet's three vacua be one configuration (B1506's fence, harmonic frame)?
+  6. *(added 2026-10-01 after main's S31)* main's B1443 question asked of the projective triplet: does each of its three backgrounds
+     couple to its own Higgs class? Main showed this in the Standard-Model frame for all 16 of s961's orbits. The triplet's three
+     twists multiply to the trivial character, so a term joining them is allowed by the characters (main's L235(a) in this frame).
 
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 

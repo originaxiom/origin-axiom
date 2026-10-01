@@ -34,7 +34,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | trace_map | 469 | 37% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | metallic | 464 | 36% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | closing | 413 | 32% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
-| coupling | 405 | 32% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
+| coupling | 406 | 32% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
 | torsion | 398 | 31% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | z3_generation | 344 | 27% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | wrt_quantum | 318 | 25% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
@@ -72,9 +72,9 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | units_scale | 115 | firewall | firewall(77), golden(67), eisenstein(62), metallic(54) |
 | gauge_dict | 73 | eisenstein | eisenstein(48), amphichiral_cp(38), figure_eight(38), golden(37) |
 | particle_dict | 126 | eisenstein | eisenstein(95), z3_generation(92), golden(82), amphichiral_cp(63) |
-| spacetime_3p1 | 157 | eisenstein | eisenstein(98), golden(90), figure_eight(88), trace_map(79) |
+| spacetime_3p1 | 158 | eisenstein | eisenstein(99), golden(91), figure_eight(89), trace_map(80) |
 | observable | 45 | golden | golden(33), coupling(25), measurement(22), metallic(20) |
-| numerology | 27 | eisenstein | eisenstein(20), golden(19), metallic(16), firewall(16) |
+| numerology | 26 | eisenstein | eisenstein(19), golden(18), firewall(16), metallic(15) |
 | bridge_construction | 10 | golden | golden(8), firewall(7), eisenstein(6), coupling(5) |
 
 ## Candidate meeting-points — cross-domain re-surfacings
@@ -124,8 +124,8 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | measure | 118/197 |
 | selector | 21/33 |
 | gauge_dict | 73/114 |
-| numerology | 27/41 |
-| spacetime_3p1 | 157/234 |
+| numerology | 26/40 |
+| spacetime_3p1 | 158/235 |
 | units_scale | 115/170 |
 
 ---
