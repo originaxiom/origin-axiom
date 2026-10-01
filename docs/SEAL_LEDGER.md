@@ -1514,3 +1514,20 @@ independent theorem review, particle count or Standard Model derivation.
 | `reports/physical_bridge_2026_09_05/CONE_MATTER_INPUTS.json` | `e33b38befbc02651dfb131276414008b66e29097c9ec18bfc5151e1810338f6b` |
 | `reports/physical_bridge_2026_09_05/cone_matter.py` | `5478cc6dfbb33ba5afd12cc544acea398d9bb0df335ab3939ecdb8e09001af59` |
 | `tests/test_physical_bridge_cone_matter.py` | `f724549f291aa798cc8634f4dc14cd5ee6dfa21460a76d768ea398e6876f1b99` |
+
+## October 1 2026 R75 cross-branch positive audit pre-execution seal
+
+Independent word-cocycle and boundary-restriction calculation for one
+three-member projective orbit; generic hopping determinant and rank-five
+moment pairing. Bounded received-result verification, not a census or
+physical identification. No incoming producer is imported. First failures
+remain; no all-order formal family, analytic end or mass is certified.
+No scientific execution/import before this seal.14 context pins recorded.
+
+| frozen science path | sha256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_DESIGN.md` | `78ba26a57caff6a443d6b08bc452f2bcfa3f54d67eec5d07a7d3227a323b39c2` |
+| `reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_PROOF.md` | `519f22e2efc268700e4514f19f88b278e584451adbca2e8562269ff2c331fc5e` |
+| `reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_INPUTS.json` | `bd916ef97c7efa49a728faafe6f0a42da18fef0794e38e183b716de35493d92b` |
+| `reports/physical_bridge_2026_09_05/cross_branch_positives.py` | `57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731` |
+| `tests/test_physical_bridge_cross_branch_positives.py` | `588a9b2ed8a63359d0a8b50a9ba19cc7c6a0177adc7233b1e449ddcece5bf87f` |

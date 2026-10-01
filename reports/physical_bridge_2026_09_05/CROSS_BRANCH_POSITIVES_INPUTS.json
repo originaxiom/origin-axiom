@@ -1,0 +1,88 @@
+{
+  "pins": [
+    {
+      "commit": "472a95953afe9d7a8a28acd23b07f3e8b5393e85",
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "bytes": 7880,
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932"
+    },
+    {
+      "commit": "472a95953afe9d7a8a28acd23b07f3e8b5393e85",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md",
+      "bytes": 17847,
+      "sha256": "93836bfe7ca0be900caa37d2f9dee45435a881c29fff2b461458bc37bd8982a7"
+    },
+    {
+      "commit": "472a95953afe9d7a8a28acd23b07f3e8b5393e85",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md",
+      "bytes": 11195,
+      "sha256": "29d200ebb4fe8ca6ff01629341bae3d5fc4f09e58744785218d0a97b7571bd35"
+    },
+    {
+      "commit": "472a95953afe9d7a8a28acd23b07f3e8b5393e85",
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "bytes": 6559,
+      "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2"
+    },
+    {
+      "commit": "977dcfccab0999baebd7035585b9b143d78d64aa",
+      "path": "frontier/B1510_the_two_sided_deformation/FINDINGS.md",
+      "bytes": 15719,
+      "sha256": "b977679932928148c6195df234f5af00a07525e087f9a39f156b2ed5ae41cfae"
+    },
+    {
+      "commit": "977dcfccab0999baebd7035585b9b143d78d64aa",
+      "path": "frontier/B1511_the_projective_tower/FINDINGS.md",
+      "bytes": 21436,
+      "sha256": "a94619013cc625f0cde05d02c6d1c07e0094438586dc38186f582e494e0f2a31"
+    },
+    {
+      "commit": "977dcfccab0999baebd7035585b9b143d78d64aa",
+      "path": "frontier/B1511_the_projective_tower/PREREGISTRATION.md",
+      "bytes": 28979,
+      "sha256": "b5fbd35930882eacb5e1ba8d01203c2520dce8da1de81cd04142eeb1d575e8d7"
+    },
+    {
+      "commit": "977dcfccab0999baebd7035585b9b143d78d64aa",
+      "path": "frontier/B1511_the_projective_tower/verification/tower_lib.py",
+      "bytes": 30899,
+      "sha256": "5511303336de8f0666bc045b936666e274fb6bd12ed0f000ac54d7c1c5a722a7"
+    },
+    {
+      "commit": "977dcfccab0999baebd7035585b9b143d78d64aa",
+      "path": "frontier/B1512_the_self_coincident_orbits/FINDINGS.md",
+      "bytes": 15924,
+      "sha256": "145d15110ee9c3646633cc6386587b649ff6d9952c6a5d276a9db2d180f62f38"
+    },
+    {
+      "commit": "d3b50c0f41c00e3ec3dd8b91a394538162163883",
+      "path": "frontier/B1435_the_interaction_census/FINDINGS.md",
+      "bytes": 8670,
+      "sha256": "c109adfe7be08af0c65fc0dc34a334081e54e1418fdbb6f4c96665cb1fdd5786"
+    },
+    {
+      "commit": "d3b50c0f41c00e3ec3dd8b91a394538162163883",
+      "path": "frontier/B1438_the_slope_law/FINDINGS.md",
+      "bytes": 11142,
+      "sha256": "e24a4cfdea5af451c756e5b7574b086ac83599914b237c40391f4355c8be0668"
+    },
+    {
+      "commit": "d3b50c0f41c00e3ec3dd8b91a394538162163883",
+      "path": "frontier/B1443_the_orbits_coupling_tensor/FINDINGS.md",
+      "bytes": 9761,
+      "sha256": "089c2dad74a126db4b11f65ac03a8bfbfeb3e352727b5e4cc118fbb37f2d0c0a"
+    },
+    {
+      "commit": "d3b50c0f41c00e3ec3dd8b91a394538162163883",
+      "path": "frontier/B1444_the_backgrounds_are_ends_of_periodic_curves/FINDINGS.md",
+      "bytes": 17442,
+      "sha256": "87b2494fbf3511a7b890028d9d44c4c13618089c623c971452feb33eb1520027"
+    },
+    {
+      "commit": "d3b50c0f41c00e3ec3dd8b91a394538162163883",
+      "path": "frontier/B1445_the_mass_term_on_the_product_of_two_curves/PREREGISTRATION.md",
+      "bytes": 7405,
+      "sha256": "5c15f8386303e0bfbc70e643e35f0782b0af4250e77cdedd34aadf9e016c5baf"
+    }
+  ]
+}
