@@ -1,0 +1,121 @@
+{
+  "inputs": [
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/nilpotent_cone.py",
+      "bytes": 12726,
+      "sha256": "820bd1e6cf820e6806086300a0712b4f352c9e575db26764bf3d3ecb2daf55a9"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/canonical_cusp.py",
+      "bytes": 4884,
+      "sha256": "a8e5dd6a8d71dfe534c97f48812b91afc67c5946ccc404e7b8540c567105dd70"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "bytes": 7880,
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/cone_channel.py",
+      "bytes": 10487,
+      "sha256": "a9056c822bdf7c2fe368d2421e83649950fd6d2ab8e4d5dffbc00a0b9f651055"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/cone_fermion.py",
+      "bytes": 13636,
+      "sha256": "535f6d00f3af7a942997e05ce3d65ca429d2410f99013cf2f0dbd978aa16f0a3"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/charged_domain.py",
+      "bytes": 12200,
+      "sha256": "0b66fc227ebc94d25077e01d621d190e8f64d6749ac72f26e7d470cff122df5c"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/fermion_end.py",
+      "bytes": 6170,
+      "sha256": "f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/cone_exact.py",
+      "bytes": 10192,
+      "sha256": "23c33713ce1267fdccc8c356e267dee9beb875ac06c5ae9223940694b27dd5a1"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "bytes": 8370,
+      "sha256": "e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/CONE_EXACT_PROOF.md",
+      "bytes": 7286,
+      "sha256": "81246bb202f26c813a34c3321dd138c8de3e9e86c3804ffc7d407c3431c0a29e"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md",
+      "bytes": 7930,
+      "sha256": "713f2e8068a712e1ed44b43f2a173c5fd1b3e3ac481252044efd97f5be113731"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS.md",
+      "bytes": 6882,
+      "sha256": "caef6fe791721ca6b313f8fe478e60689d84992547ac6b95afaec1ed3e3f8f76"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "bytes": 8158,
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "tests/test_physical_bridge_cone_fermion.py",
+      "bytes": 2114,
+      "sha256": "735bcdb5aff36369930bd5398c42f125d34f372bad06a6de6e1197e6ba2d8542"
+    },
+    {
+      "commit": "e3646ca698a8654e4287bc51cf74683c8cee2573",
+      "path": "tests/test_physical_bridge_cone_exact.py",
+      "bytes": 1662,
+      "sha256": "0d9e25cbe2fb798b3b9b8f49a719b0d6c8da25ea8dcc0a854a171ccf89b7a0fb"
+    }
+  ],
+  "received_context": [
+    {
+      "commit": "67eb88ad25514137076df60c3a37b53c8684a248",
+      "path": "frontier/B1509_the_join_on_the_projective_vacuum/FINDINGS.md",
+      "bytes": 26275,
+      "sha256": "1c862eeb1a2633482dcbdb7c86837ec51bbdde3a886d64a6ae47da76747aef17"
+    },
+    {
+      "commit": "67eb88ad25514137076df60c3a37b53c8684a248",
+      "path": "frontier/B1509_the_join_on_the_projective_vacuum/verification/extension_index.py",
+      "bytes": 10935,
+      "sha256": "bbaaf82e58079de73ff421f717e823719e2d2946a88b3bc950bcd7a9eb0cd0c2"
+    },
+    {
+      "commit": "67eb88ad25514137076df60c3a37b53c8684a248",
+      "path": "frontier/B1509_the_join_on_the_projective_vacuum/verification/end_conditions.py",
+      "bytes": 1972,
+      "sha256": "2443c3f279aa5a8dff5f74b4a3834d5db95dd16ea6bb5211eedc2dd000b2d570"
+    }
+  ],
+  "scope": "Prior supplied local metric/action/parent and authored proofs; received B1509 personally read, not independently reproduced or imported as physical derivations"
+}

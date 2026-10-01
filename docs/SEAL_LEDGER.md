@@ -1495,3 +1495,22 @@ criterion is changed. No new instrument imported before this seal.
 | `reports/physical_bridge_2026_09_05/CONE_ORBIT_CONTROL_DESIGN.md` | `932ddb82b70f03105ec5c994dac02236f815ba1ac49855fca0874252f623f5ef` |
 | `reports/physical_bridge_2026_09_05/cone_orbit_control.py` | `fb26d163648b6519126d35ea4fc46a50dd0b00ee3e9fdfe2d07a6d4e6e27472d` |
 | `tests/test_physical_bridge_cone_orbit_control.py` | `a83b1e16edd20bfdf702922c78358123e65713b7d22fe51832f778295638049a` |
+
+## October 1 2026 R74 actual exterior matter pre-execution seal
+
+Actual Lie exterior coefficient, central twist, changing Q, exact local
+contractions and separate derivative/product controls. The split background
+and alpha=9 log(q)^2 aspect are supplied; not B1509's nonsplit extension
+or a selected physical vacuum. No scientific import/run before this seal.
+The k!=0 assumption and iJ current convention were clarified during draft
+review, before execution. Needed prior bytes and read received context are
+pinned in CONE_MATTER_INPUTS.json. Conditional authored analysis, not an
+independent theorem review, particle count or Standard Model derivation.
+
+| frozen science path | sha256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_MATTER_DESIGN.md` | `89278329df785bba45d7f912e41157b057e73c312295b698d00cfadd11f1f15e` |
+| `reports/physical_bridge_2026_09_05/CONE_MATTER_PROOF.md` | `be70e174d7a5ae8b98d9558423d02d4eab5f9784508e572aa0e8a5453f2c3e86` |
+| `reports/physical_bridge_2026_09_05/CONE_MATTER_INPUTS.json` | `e33b38befbc02651dfb131276414008b66e29097c9ec18bfc5151e1810338f6b` |
+| `reports/physical_bridge_2026_09_05/cone_matter.py` | `5478cc6dfbb33ba5afd12cc544acea398d9bb0df335ab3939ecdb8e09001af59` |
+| `tests/test_physical_bridge_cone_matter.py` | `f724549f291aa798cc8634f4dc14cd5ee6dfa21460a76d768ea398e6876f1b99` |
