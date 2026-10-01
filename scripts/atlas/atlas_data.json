@@ -9010,6 +9010,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1509": {
+   "slug": "the join on the projective vacuum",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B150": {
    "slug": "class s coincidence",
    "motifs": [

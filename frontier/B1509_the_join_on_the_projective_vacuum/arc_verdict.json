@@ -1,0 +1,22 @@
+{
+ "id": "B1509",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1508",
+  "B1506",
+  "B1504",
+  "B1502",
+  "B1500",
+  "B1392",
+  "B1378",
+  "B1374",
+  "B1351"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE JOIN ON THE PROJECTIVE VACUUM (B1508 lead 1, on the owner's 'do as u recomend, u know the endgoal'; predictions D1-D6 committed and pushed at 3edaf1fa before the direct run; the control printed the twisted Alexander numerator before the seal, disclosed, so the arc is decided at design time and the run verifies). On the audit lane's (codex's second lane) harmonic vacuum family on m004's convex-projective deformation (R42-R56; light content 16 + 16*, vector-like), the minimal non-split SU(5) extension W1 = [[A, c], [0, 1]], A = mu rho_q, c generating H^1(A), carries main's index: I(W1) = -1 and the opposite order I(W2) = +1 at q = 17 +- 12 sqrt2 (mu = -1), 0 at q = 7 +- 4 sqrt3 (mu = +-i), I(Lambda^2 W) = 0 at all six points (exact over Q(sqrt2, sqrt3, i) and over GF(1009), GF(1033), GF(1129)). T1: the projective four, its dual and Lambda^2 have no boundary cohomology for q != 1, so the matter is vector-like in every count and only the trivial line counts. T2: I(W1) = -r1 = -1 iff e u c = 0. T3: e u c = 0 iff the fibre monodromy has a Jordan block at 1; its characteristic polynomial on H^1(F; rho_q) is the palindromic Q(q, s), so s = -1 is a double root at q = 17 +- 12 sqrt2 and +-i are simple (checked directly on the fibre F = <u0, u1>, phi(u1) = u1 u0^-1 u1^2). Proposition E: an end condition W gives N_W = dim W - h0(T;V) + h0(M;V) - h0(M;V*), so for W1 the 10' count is 0, 1 or 2 (main's interior index is the middle one) and the 5bar' count is 0 for every end condition. Corollary C: among determinant-one extensions of a character and mu rho_q on the whole family, the index is nonzero only for W1, W2 at the two mu = -1 points. Reading: the block is the light 16's SU(5)'-singlet direction (U(1)_T = U(1)_X charge 5); it is F-flat, not polystable; R41's balance for its one flag is integral tr(T S) = 5 integral |b|^2 > 0, met in sign by a U(1)_X source (T pairs to 20, R41's U to 0); the interior count, one 10' and no 5bar', is SU(5)'-anomalous, so a chiral generation needs one 5bar' from the end or another state, which the record has not derived. Contrast: R40's rank-five enlargement on m010 has a cancelling (+1, +1) but no harmonic background. I-26 stays UNEARNED. 0 of 19; price unchanged."
+}

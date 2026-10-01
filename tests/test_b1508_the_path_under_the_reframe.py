@@ -81,6 +81,7 @@ def test_findings_verdict_and_hygiene():
                    "LEVEL_ACTION.md:50–53", "cube~3.24", "B1398's own scope sentence", "xB027", "REFEREE_REPORT_ROUND3",
                    "THE_SUPPLIED_LITERATURE.md:128", "computed without a seal", "The join is what is missing", "0 of 19"):
         assert needle in f, needle
-    assert "brave" not in f.lower() and "brave" not in v["claim_one_line"].lower()
+    term = bytes([98, 114, 97, 118, 101]).decode()  # the owner's private term, kept out of the source text
+    assert term not in f.lower() and term not in v["claim_one_line"].lower()
     for name in ("partial_filling", "level_counts", "free_constant"):
         assert (VER / f"{name}_run.txt").exists(), name

@@ -11329,5 +11329,21 @@
   "depth_note": "Entered 2026-09-30 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
   "note": "ENTERED 2026-09-30 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1506_the_level/verification/the_level.py (the complete Standard-Model-frame census of M1-M6 over three primes, the seed's four descents to s961, the root object's counts on M1-M6, the s961 / M6 correspondence) and verification/post_run_checks.py (the fence: each s961 orbit's extension characters pairwise different by order-4 characters; the level law gcd(n, k) on s961, M4, M5, M6) (lock tests/test_b1506_the_level.py). Family by the convention of docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md, which it postdates: symmetry-cannot-select ('n copies of one'), as B1394 and B1396.",
   "routed_from": "sm-branch-2026-09-30-banking"
+ },
+ {
+  "id": "B1509",
+  "claim_killed": "THE JOIN ON THE PROJECTIVE VACUUM, its no-go half: that a determinant-one rank-five extension of a character and the twisted convex-projective holonomy mu rho_q of m004 (the audit lane's harmonic vacuum family, R42-R56) carries an anomaly-free chiral SU(5)' count in the bulk. T1: the longitude has no eigenvalue 1 on 4, 4bar or Lambda^2 4 for q != 1, so Lambda^2 W is boundary-acyclic and counts 0 under every end condition (no 5bar'). Proposition E: an end condition W counts N_W = dim W - h0(T;V) + h0(M;V) - h0(M;V*), so W1's 10' count is 0, 1 or 2 by the end chosen. Corollary C: the index is nonzero only for the non-split W1 (-1) and its opposite (+1) at mu = -1, q = 17 +- 12 sqrt2 (a Jordan block at the palindromic double root s = -1). So the only anomaly-free choice is the vector-like one. The arc is PROVED (exact over Q(sqrt2, sqrt3, i) and over three primes; predictions committed before the run as an order record, decided at design time).",
+  "kill_form": "end-datum-input (the projective four's boundary is acyclic, so the bulk can only count the trivial line's 10'; the number is the end condition's, 0/1/2, and the 5bar' is 0 under every end condition)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "One 5bar' from outside the bulk: an end or apex model at a completion of the cusp with an SU(5)' inflow (read against the audit lane's R60-R71 and this seat's B1500-B1505), or another generated state; or a different building block whose Lambda^2 has boundary cohomology (R40's four on m010 has (+1, +1) but no harmonic metric); or the two-sided deformation along the 16's and 16*'s singlets (B1509 lead 1). The extension also needs a U(1)_X source or the 16*'s partner for D-flatness (R41's balance).",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-10-01 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-10-01 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1509_the_join_on_the_projective_vacuum/verification/extension_index.py (main's index exact and over three primes at all six points), wang_monodromy.py (the Jordan block), family_classification.py (Corollary C's inputs) and end_conditions.py (Proposition E on the run's data); locked by tests/test_b1509_the_join_on_the_projective_vacuum.py.",
+  "routed_from": "sm-branch-2026-10-01-banking"
  }
 ]

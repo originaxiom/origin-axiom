@@ -1,5 +1,50 @@
 # Changelog
 
+## B1509 — the join on the projective vacuum: main's index on the audit lane's harmonic vacuum
+
+This is B1508's lead 1, on the owner's "do as u recomend, u know the endgoal". Predictions D1–D6 were committed and pushed at 3edaf1fa
+before the direct run. The pre-seal control had printed the twisted Alexander numerator, which decides them, so the run is a
+verification; this is disclosed, with an ERROR_LEDGER rule-slip row.
+- **The count.** Take the audit lane's (codex's second lane) harmonic vacuum family on m004's convex-projective deformation (R42–R56)
+  and its minimal non-split SU(5) extension W₁ = [[μρ_q, c], [0, 1]], the light 16's SU(5)′-singlet direction.
+  - Main's index is −1, and +1 in the opposite order, at q = 17 ± 12√2 (μ = −1). It is 0 at q = 7 ± 4√3 (μ = ±i).
+  - Λ²W has index 0 everywhere.
+  - Checked exactly over ℚ(√2, √3, i) and over three primes.
+- **Why.**
+  - T1: the projective four, its dual and Λ² have no boundary cohomology when q ≠ 1.
+  - T2: I(W₁) = −r₁, which is −1 iff e ∪ c = 0.
+  - T3: e ∪ c = 0 iff the fibre monodromy has a Jordan block at 1. Its characteristic polynomial is the palindromic Q, and s = −1 is a
+    double root. This is checked directly on the fibre group ⟨u₀, u₁⟩.
+- **Every end condition.** N_W = dim W − h⁰(T;V) + h⁰(M;V) − h⁰(M;V*). So W₁'s 10′ count is 0, 1 or 2, and the 5̄′ count is always 0.
+  Corollary C classifies the rank-five extensions of the whole family.
+- **Reading.**
+  - One 10′ with no 5̄′ is anomalous in the bulk. A generation needs one 5̄′ from the end or from another state.
+  - The extension is F-flat but not polystable. R41's balance for its one flag is ∫ tr(T S) = 5 ∫ |b|², met in sign by a U(1)_X
+    source.
+  - The contrast with R40 (m010): (+1, +1) and cancelling, but no harmonic background.
+- **The input count, corrected.** The paper-review lane's sweep (5d58b935) found this branch's "4 + 7 = 11" to be a fork artifact.
+  Recomputed with main's B1266 on main's ledger: 4 + 8 = 12. THE_SM_VERDICT and B1507 carry dated notes; ERROR_LEDGER has an E53
+  instance.
+- **Seal provenance.** The seal-provenance gate caught that PREDICTIONS.md names no BANKED IDENTITY or PRIOR ART. It is recorded as
+  an order record, not a blind preregistration, with the substance in FINDINGS §7. Reading why B1506 had passed showed the same gap in
+  B1506's seal: the gate's regex stops at "|count|" in its row. Both are rule slips in the ERROR_LEDGER; the gate fix is reported
+  separately.
+
+Surfaces: THE_SM_VERDICT, OPEN_LEADS, LAW_MAP, THEOREM_REGISTRY (T-PROJECTIVE-JOIN), ERROR_LEDGER (five rows), RELAY_LEDGER (two
+rows), SEAL_LEDGER (one row), the kill graph (B1509's no-go half), the alias table (next B1510), the letter's seventy-third note,
+README, the path note, the chirality map, the negatives note, notes on B1506, B1507 and B1508, the atlas and the views. I-26 stays
+UNEARNED.
+
+- **Checks.**
+  - The lock passes all 10 tests, three of them marked slow (about 47 s).
+  - Every gate passes but relay-debt, the standing baseline.
+  - The targeted selection covered the 68 test files that read the changed surfaces, the four arcs' locks and the corpus scanners:
+    1 669 passed, 1 skipped, 1 failed. The failure is the all-gates test reading relay-debt.
+  - After that run, the private term's literal was taken out of the B1508 and B1509 locks (they now build it from bytes). Those two
+    locks, the log-reading tests and the gates were run again on the final tree.
+
+0 of 19.
+
 ## Main's S27 harvested; B1378's deck-map claim withdrawn
 
 Main moved today (987c0c8f → 6093e23c), and so did the audit lane (R70, R71).

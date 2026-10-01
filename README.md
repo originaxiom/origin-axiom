@@ -427,6 +427,13 @@ emitted value. The structure is the object's; the values are the observer's.
 > space itself: finite energy, a grand-unified gauge group, but with its matter in mirror pairs, so no handedness yet. The record
 > also has a three-family construction in one configuration on a sibling space, and a two-family count on a four-ended space. What
 > is missing is the join: one background, in one action, that carries handedness. The nineteen numbers are still not derived.*
+>
+> *And (B1509), the join tried on that vacuum: switching on the simplest lopsided direction of the other seat's vacuum does give
+> handedness, at exactly two of its special points. It gives one particle family's "10" piece and none of its matching "5-bar"
+> piece, and a lone 10 is mathematically inconsistent. The reason is that the vacuum's own matter has nothing at the boundary for
+> handedness to attach to. The only thing that does is the extra plain direction, and it enters the 10's sector but not the 5-bar's.
+> How many 10s appear depends on the condition chosen at the space's open end (0, 1 or 2). So the missing 5-bar, and the source needed to hold the configuration in place, must come from that end or from
+> another space. The nineteen numbers are still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

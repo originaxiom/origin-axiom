@@ -210,3 +210,14 @@ The family "symmetry cannot select" keeps its scope from B1507's currency note a
 The relations listed as unused since (P as a move, the word states, the m010 ladder, fillings) now have one data point. The audit
 lane's partial filling of a degree-5 cover of m004 is chiral and keeps two cusps, but neither cusp is free (B1508 §4; computed
 unsealed). A census of partial fillings is registered to seal. `frontier/B1508_the_path_under_the_reframe`.
+
+## Currency (2026-10-01, B1509): a no-go half on the audit lane's vacuum
+
+B1509 joins main's index to the audit lane's harmonic family and finds a count: −1, and +1 in the opposite order, at
+q = 17 ± 12√2. Its no-go half is entered in the kill graph as `end-datum-input`.
+- The projective four has no boundary cohomology, so the 5̄′ sector counts 0 under every end condition.
+- The 10′ count is the end's: 0, 1 or 2.
+- The only anomaly-free choice is the vector-like one.
+
+The hatch is one 5̄′ from the end or another state, or a building block whose Λ² meets the boundary. The table above keeps its 26
+records; this record is routed at banking time, as B1504–B1506's were. `frontier/B1509_the_join_on_the_projective_vacuum`.

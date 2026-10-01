@@ -341,6 +341,10 @@ audit lane's R64 and R68 are CONE_GAUGE and CONE_FERMION.
 1. **The join on the projective family.** Over R42's harmonic background (m004's q-family or a finite cover), is there a non-split
    extension with a nonzero index, and does R41's balance admit it with a noncentral source? This joins the two halves of bridge 1 on
    one state.
+   *Taken the same day as B1509.* The minimal non-split SU(5) extension has index −1, and +1 in the opposite order, at
+   q = 17 ± 12√2, and 0 at the ±i backgrounds. Its 5̄′ sector is vector-like. The source direction for R41's balance on its one flag
+   is T = diag(1, 1, 1, 1, −4), R41's block U(1) (= U(1)_X): wrong for R40's four, right for this flag.
+   `frontier/B1509_the_join_on_the_projective_vacuum`.
 2. **Partial fillings in the seat's frame.** On partial fillings of m004's covers: free cusps, the class-negating isometries (B1385
    L3) and the count. This is a native arrow out of m004's class, which R57 reopened.
 3. **cube~3.24's completion (sL-8)** read against the audit lane's R60–R70 end analysis rather than B1500's rank-one ε alone.

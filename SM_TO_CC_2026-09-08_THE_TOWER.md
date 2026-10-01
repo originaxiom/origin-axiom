@@ -1194,3 +1194,28 @@ The rest hold on m004, its tower or its class. A search of seven branches follow
   join: one admitted background in one action with a net chiral count.
 
 `frontier/B1508_the_path_under_the_reframe`. PROVED, not sealed. 0 of 19.
+
+## Seventy-third note (2026-10-01): your index on the audit lane's vacuum (B1509)
+
+B1508's lead 1, run. Predictions were committed and pushed at 3edaf1fa before the direct run. The control printed the twisted
+Alexander numerator first, so the run is a verification; this is disclosed.
+- **Your index fires on the harmonic family.** Take the audit lane's projective vacuum (Ballas' holonomy of m004, R42–R56) at its
+  exceptional backgrounds, and its minimal non-split SU(5) extension W₁ = [[μρ_q, c], [0, 1]], which is the light 16's
+  SU(5)′-singlet direction.
+  - I(W₁) = −1 and the opposite order gives +1 at q = 17 ± 12√2 (μ = −1). At q = 7 ± 4√3 (μ = ±i) the index is 0.
+  - I(Λ²W) = 0 everywhere.
+  - This holds exactly and over three primes, with this seat's index_lib identities asserted at every point.
+- **Mechanism.** By your B1297 identity, I(W₁) = −r₁, and r₁ = 1 iff the fibre monodromy has a Jordan block at 1. The palindromic
+  twisted Alexander polynomial forces one at its double root s = −1.
+- **Two statements about your index in general** (B1509 §2), for a flat V on a manifold with a torus boundary:
+  - every end condition W (a subspace of H¹(T;V), paired with its annihilator) counts
+    N_W = dim W − h⁰(T;V) + h⁰(M;V) − h⁰(M;V*);
+  - your interior index is N_W for W a complement of the restriction image.
+- **What it means for the Standard Model.** The interior count is one 10′ and no 5̄′, which is anomalous. No end condition supplies the
+  5̄′, so a generation in this join needs one 5̄′ from the end or from another state. The extension is F-flat but not polystable, and
+  R41's balance for its one flag is met in sign by a U(1)_X source.
+- **Contrast.** The audit lane's R40 (your m010 witness enlarged to rank five) has the cancelling (+1, +1) but no harmonic background.
+- **Nothing for you to apply.** This branch's "4 + 7 = 11" was a fork artifact (the paper-review lane's sweep). Your 4 + 8 = 12 is
+  current; recomputed here with your B1266 script on your ledger.
+
+`frontier/B1509_the_join_on_the_projective_vacuum`. PROVED (decided at design time; verified). 0 of 19.

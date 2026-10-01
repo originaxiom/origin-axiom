@@ -6,6 +6,9 @@ question: is a count taken on a cover or on its quotient?) · **Status:**
 - SEALED AND RUN: the complete Standard-Model-frame census of M₁…M₆ (§3–§4). Seal `PREREGISTRATION.md` (sha256 `664f8192…`,
   SEAL_LEDGER), committed at 58e3f28f before the instrument existed. One result was seen before the seal, the seed's orbit of three.
   It is disclosed there and in §1. Predictions: **P1–P8 all YES.**
+  > *Seal provenance (2026-10-01, B1509; self-caught).* `PREREGISTRATION.md` carries the banked identity in substance
+  > (§1 D, B1375's census reproduced before the seal) but not the seal-provenance rule's BANKED IDENTITY and PRIOR ART markers.
+  > The gate missed it: "|count|" in this arc's SEAL_LEDGER row ends the cell its regex reads (ERROR_LEDGER, rule slip).
 - One defect in the instrument's own checking code, found in the first run's log before any prediction was read and fixed; the whole
   instrument was rerun (§8, ERROR_LEDGER E52 instance).
 

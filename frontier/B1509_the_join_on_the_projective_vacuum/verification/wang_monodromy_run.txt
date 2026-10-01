@@ -1,0 +1,113 @@
+{
+ "exceptional_points": [
+  {
+   "a1(W1) from the run": 1,
+   "block_iff_a1(W1)=1": true,
+   "dim ker(S_A-1) on H1(F;A)": 1,
+   "dim ker(S_A-1)^2": 2,
+   "dim ker(S_A-1)^3": 2,
+   "h0(F;A)": 0,
+   "jordan_block_at_1": true,
+   "mu": "-1",
+   "q": "17-12sqrt2"
+  },
+  {
+   "a1(W1) from the run": 1,
+   "block_iff_a1(W1)=1": true,
+   "dim ker(S_A-1) on H1(F;A)": 1,
+   "dim ker(S_A-1)^2": 2,
+   "dim ker(S_A-1)^3": 2,
+   "h0(F;A)": 0,
+   "jordan_block_at_1": true,
+   "mu": "-1",
+   "q": "17+12sqrt2"
+  },
+  {
+   "a1(W1) from the run": 0,
+   "block_iff_a1(W1)=1": true,
+   "dim ker(S_A-1) on H1(F;A)": 1,
+   "dim ker(S_A-1)^2": 1,
+   "dim ker(S_A-1)^3": 1,
+   "h0(F;A)": 0,
+   "jordan_block_at_1": false,
+   "mu": "i",
+   "q": "7-4sqrt3"
+  },
+  {
+   "a1(W1) from the run": 0,
+   "block_iff_a1(W1)=1": true,
+   "dim ker(S_A-1) on H1(F;A)": 1,
+   "dim ker(S_A-1)^2": 1,
+   "dim ker(S_A-1)^3": 1,
+   "h0(F;A)": 0,
+   "jordan_block_at_1": false,
+   "mu": "i",
+   "q": "7+4sqrt3"
+  },
+  {
+   "a1(W1) from the run": 0,
+   "block_iff_a1(W1)=1": true,
+   "dim ker(S_A-1) on H1(F;A)": 1,
+   "dim ker(S_A-1)^2": 1,
+   "dim ker(S_A-1)^3": 1,
+   "h0(F;A)": 0,
+   "jordan_block_at_1": false,
+   "mu": "-i",
+   "q": "7-4sqrt3"
+  },
+  {
+   "a1(W1) from the run": 0,
+   "block_iff_a1(W1)=1": true,
+   "dim ker(S_A-1) on H1(F;A)": 1,
+   "dim ker(S_A-1)^2": 1,
+   "dim ker(S_A-1)^3": 1,
+   "h0(F;A)": 0,
+   "jordan_block_at_1": false,
+   "mu": "-i",
+   "q": "7+4sqrt3"
+  }
+ ],
+ "generic_control": [
+  {
+   "dim ker(S_A-1) on H1(F;A)": 0,
+   "dim ker(S_A-1)^2": 0,
+   "dim ker(S_A-1)^3": 0,
+   "h0(F;A)": 0,
+   "mu": "1",
+   "q": "2"
+  },
+  {
+   "dim ker(S_A-1) on H1(F;A)": 0,
+   "dim ker(S_A-1)^2": 0,
+   "dim ker(S_A-1)^3": 0,
+   "h0(F;A)": 0,
+   "mu": "-1",
+   "q": "2"
+  },
+  {
+   "dim ker(S_A-1) on H1(F;A)": 0,
+   "dim ker(S_A-1)^2": 0,
+   "dim ker(S_A-1)^3": 0,
+   "h0(F;A)": 0,
+   "mu": "i",
+   "q": "2"
+  },
+  {
+   "dim ker(S_A-1) on H1(F;A)": 0,
+   "dim ker(S_A-1)^2": 0,
+   "dim ker(S_A-1)^3": 0,
+   "h0(F;A)": 0,
+   "mu": "-i",
+   "q": "2"
+  }
+ ],
+ "symbolic": {
+  "S_on_B1_equals_A(m)^-1": true,
+  "abelianised_monodromy_charpoly": "x**2 - 3*x + 1",
+  "charpoly_on_H1(F;rho_q)_equals_monic_Q": true,
+  "charpoly_on_Z1_factored": "-(s - 1)**4*(q**2*s**2 - q*s**4 + 8*q*s**3 - 16*q*s**2 + 8*q*s - q + s**2)/q",
+  "monic_Q": "-q*s**2 + s**4 - 8*s**3 + 16*s**2 - 8*s + 1 - s**2/q",
+  "phi_relation_u2=u1_u0^-1_u1^2_in_rho_q": true,
+  "relator_rewrite_u1_u0^-2_u-1_u0^-1": true
+ }
+}

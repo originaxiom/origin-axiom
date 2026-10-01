@@ -478,6 +478,17 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 >
 > `frontier/B1508_the_path_under_the_reframe`.
 
+> **Addendum (2026-10-01, B1509): main's index on the audit lane's vacuum.**
+> - On the harmonic projective family, the minimal non-split SU(5) extension has I = −1, and +1 in the opposite order, at
+>   q = 17 ± 12√2. The cause is a Jordan block of the fibre monodromy at the palindromic double root s = −1. At the ±i backgrounds
+>   the index is 0.
+> - The 5̄′ sector counts 0 on the whole family (no boundary cohomology), so the bulk gives a 10′ without its 5̄′.
+> - The count depends on the end: N_W = dim W − h⁰(T;V) + h⁰(M;V) − h⁰(M;V*). Main's interior index is one end condition among them.
+> - The extension deforms a finite-energy vacuum, but the extended background is not finite-energy without a source (R41: U(1)_X),
+>   and it has no 5̄′ unless an end supplies one.
+>
+> `frontier/B1509_the_join_on_the_projective_vacuum`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

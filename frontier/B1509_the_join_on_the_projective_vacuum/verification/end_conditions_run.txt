@@ -1,0 +1,116 @@
+[
+ {
+  "10' count = -N_W, over all end conditions": [
+   0,
+   1,
+   2
+  ],
+  "N_W by dim W": {
+   "0": -2,
+   "1": -1,
+   "2": 0
+  },
+  "dim H^1(T;W1)": 2,
+  "formula_matches": true,
+  "interior (dim W = q1 = 1)": -1,
+  "lower (W=0)": -2,
+  "mu": "-1",
+  "q": "17-12sqrt2",
+  "upper (W=all)": 0
+ },
+ {
+  "10' count = -N_W, over all end conditions": [
+   0,
+   1,
+   2
+  ],
+  "N_W by dim W": {
+   "0": -2,
+   "1": -1,
+   "2": 0
+  },
+  "dim H^1(T;W1)": 2,
+  "formula_matches": true,
+  "interior (dim W = q1 = 1)": -1,
+  "lower (W=0)": -2,
+  "mu": "-1",
+  "q": "17+12sqrt2",
+  "upper (W=all)": 0
+ },
+ {
+  "10' count = -N_W, over all end conditions": [
+   0,
+   1,
+   2
+  ],
+  "N_W by dim W": {
+   "0": -2,
+   "1": -1,
+   "2": 0
+  },
+  "dim H^1(T;W1)": 2,
+  "formula_matches": true,
+  "interior (dim W = q1 = 2)": 0,
+  "lower (W=0)": -2,
+  "mu": "i",
+  "q": "7-4sqrt3",
+  "upper (W=all)": 0
+ },
+ {
+  "10' count = -N_W, over all end conditions": [
+   0,
+   1,
+   2
+  ],
+  "N_W by dim W": {
+   "0": -2,
+   "1": -1,
+   "2": 0
+  },
+  "dim H^1(T;W1)": 2,
+  "formula_matches": true,
+  "interior (dim W = q1 = 2)": 0,
+  "lower (W=0)": -2,
+  "mu": "i",
+  "q": "7+4sqrt3",
+  "upper (W=all)": 0
+ },
+ {
+  "10' count = -N_W, over all end conditions": [
+   0,
+   1,
+   2
+  ],
+  "N_W by dim W": {
+   "0": -2,
+   "1": -1,
+   "2": 0
+  },
+  "dim H^1(T;W1)": 2,
+  "formula_matches": true,
+  "interior (dim W = q1 = 2)": 0,
+  "lower (W=0)": -2,
+  "mu": "-i",
+  "q": "7-4sqrt3",
+  "upper (W=all)": 0
+ },
+ {
+  "10' count = -N_W, over all end conditions": [
+   0,
+   1,
+   2
+  ],
+  "N_W by dim W": {
+   "0": -2,
+   "1": -1,
+   "2": 0
+  },
+  "dim H^1(T;W1)": 2,
+  "formula_matches": true,
+  "interior (dim W = q1 = 2)": 0,
+  "lower (W=0)": -2,
+  "mu": "-i",
+  "q": "7+4sqrt3",
+  "upper (W=all)": 0
+ }
+]

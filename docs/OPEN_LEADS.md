@@ -3153,6 +3153,27 @@ Model's qualitative content. Each maps to a lead already open:
 
 `frontier/B1508_the_path_under_the_reframe`.
 
+**Lead 1 taken, 2026-10-01, B1509 — the join on the projective vacuum.**
+- **The result.**
+  - The minimal non-split SU(5) extension of the audit lane's harmonic vacuum carries main's index: −1, and +1 in the opposite
+    order, at q = 17 ± 12√2 (μ = −1). It is 0 at the four ±i backgrounds.
+  - Λ²W has index 0 everywhere, because the projective four has no boundary cohomology.
+  - So the interior count is one 10′ and no 5̄′, which is anomalous.
+  - Over every end condition, the 10′ count is 0, 1 or 2 and the 5̄′ count is 0.
+- **The mechanism.** A double root at s = −1 of the palindromic twisted Alexander polynomial gives a Jordan block of the fibre
+  monodromy.
+- **The source.** R41's balance for this flag is met in sign by a U(1)_X source. Its direction is T itself, which pairs to 20 with
+  this flag; R41's U direction pairs to 0.
+- **New leads**, each to be sealed before computing (B1509 §8):
+  1. the two-sided deformation along the 16's and the 16*'s singlets (D-flat): is it unobstructed (the sl(4) part of H², dimension
+     3), and what is its index?
+  2. one 5̄′ from the end: an end or apex model with an SU(5)′ inflow, read against R60–R71 and B1500–B1505;
+  3. the U(1)_X source or boundary law from the same action (R41's open duty);
+  4. three: W₁ pulled back to the family's finite covers, in B1506's frame.
+- B1508's leads 2–4 stay open.
+
+`frontier/B1509_the_join_on_the_projective_vacuum`.
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

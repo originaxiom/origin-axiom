@@ -16279,3 +16279,39 @@ that reality uses more thsn that, that is the new reframe … do a proper repo s
 - **Registered:** main's B1432–B1435 and the audit lane's R70–R71 (RELAY_LEDGER rows).
 
 0 of 19.
+
+## 2026-10-01 — B1509: the join on the projective vacuum
+
+B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
+- **Order of record.** PREDICTIONS.md (T1–T3, D1–D6) was committed and pushed at 3edaf1fa before `extension_index.py` existed. The control
+  had printed the twisted Alexander numerator before the seal, so the outcome was decided at design time. This is disclosed, with an
+  ERROR_LEDGER rule-slip row.
+- **The run.** At all six (q, μ), exact and over GF(1009), GF(1033) and GF(1129):
+  - I(W₁) = −1 and I(W₂) = +1 at q = 17 ± 12√2 (μ = −1);
+  - 0 at q = 7 ± 4√3 (μ = ±i);
+  - I(Λ²W) = 0;
+  - the multiplicity of μ in Q is 2 and 1;
+  - the block's T-charge is 5.
+
+  D1–D6 hold.
+- **Post-run checks** (no open outcome rests on them):
+  - the fibre monodromy's Jordan block, of size two at μ = −1 only (`wang_monodromy.py`);
+  - Corollary C's inputs over the whole family (`family_classification.py`);
+  - every end condition (`end_conditions.py`);
+  - R41's balance on this flag (`balance_transpose.py`). Its pre-repair output, an nsimplify artefact, is kept (E7 instance).
+- **Reading.** One 10′ and no 5̄′ in the bulk, which is anomalous. The 10′ count is the end's (0, 1 or 2), and a generation needs a 5̄′
+  from the end or another state. The extension needs a U(1)_X source.
+- **Relayed.** The paper-review lane's sweep (5d58b935): this branch's "4 + 7 = 11" is a fork artifact. Main's B1266 on main's ledger
+  gives 4 + 8 = 12 (E53 instance).
+- **Seal provenance.** The gate caught PREDICTIONS.md without its BANKED IDENTITY and PRIOR ART markers. It is recorded as an order
+  record (one SEAL_LEDGER row; the substance is in FINDINGS §7). B1506's seal has the same gap, which the gate missed because "|count|"
+  in its row ends the regex's cell. Two rule-slip rows; the gate fix is reported separately.
+- **Checks.**
+  - The lock passes all 10 tests (three slow, about 47 s).
+  - Every gate passes but relay-debt, the standing baseline.
+  - The targeted selection (68 files: the tests that read the changed surfaces, the four arcs' locks, the corpus scanners): 1 669
+    passed, 1 skipped, 1 failed. The failure is the all-gates test reading relay-debt.
+  - After the run, the private term's literal was removed from the B1508 and B1509 locks. Those locks, the log-reading tests and the
+    gates were rerun on the final tree.
+
+`frontier/B1509_the_join_on_the_projective_vacuum`. 0 of 19.

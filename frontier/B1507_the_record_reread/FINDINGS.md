@@ -18,6 +18,11 @@ branch, main, the audit lane, the physics seat, the codex seat and outside-bench
 >   outside-bench's memos 234–236 (E54).
 >   - xB027 had B1506's shape twelve days earlier, for A5: "One is the invariant. The backgrounds are the orbit."
 >   - All three branches are read in B1508 §2.3–§2.5.
+>
+> *Currency (2026-10-01, B1509; caught by the paper-review lane's sweep 5d58b935).* The price line below, "4 axioms and 7
+> irreducible identifications", is this branch's forked count. Main raised I-27–I-30 on 2026-09-07 … 09-09, after the fork, and
+> this branch's identification ledger lacks them. Main's own B1266 `sources.py` on main's ledger (6093e23c) gives 14 unearned rows,
+> 8 irreducible sources: **4 + 8 = 12**. Read 12 as current (ERROR_LEDGER, E53 instance).
 
 - **The idea is from July.** B335 (July) says "the three generations are related by the deck transformation of the 3-fold cyclic
   cover of 4₁". B326 has the deck acting irreducibly on (ℤ/4)². B343 and B345 drew its flavour consequences, and B350 (iv) proved the

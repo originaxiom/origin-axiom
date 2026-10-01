@@ -1,0 +1,69 @@
+{
+ "irreducible_at_points": [
+  {
+   "dim_algebra_generated_by_A": 16,
+   "mu": "-1",
+   "q": "17-12sqrt2"
+  },
+  {
+   "dim_algebra_generated_by_A": 16,
+   "mu": "-1",
+   "q": "17+12sqrt2"
+  },
+  {
+   "dim_algebra_generated_by_A": 16,
+   "mu": "i",
+   "q": "7-4sqrt3"
+  },
+  {
+   "dim_algebra_generated_by_A": 16,
+   "mu": "i",
+   "q": "7+4sqrt3"
+  },
+  {
+   "dim_algebra_generated_by_A": 16,
+   "mu": "-i",
+   "q": "7-4sqrt3"
+  },
+  {
+   "dim_algebra_generated_by_A": 16,
+   "mu": "-i",
+   "q": "7+4sqrt3"
+  }
+ ],
+ "local_identity_rank4_flags_control(R41)": true,
+ "local_identity_rank5_flag4": true,
+ "pairings": {
+  "R40_flags": {
+   "-U": [
+    -12,
+    -8,
+    -4
+   ],
+   "T": [
+    0,
+    0,
+    0
+   ],
+   "U": [
+    12,
+    8,
+    4
+   ],
+   "[E04,E04^+]": [
+    3,
+    2,
+    1
+   ]
+  },
+  "R41_table_reproduced": true,
+  "T_charge_of_E04": 5,
+  "this_flag": {
+   "-U": 0,
+   "T": 20,
+   "U": 0,
+   "[E04,E04^+]": 5
+  },
+  "xi_for_4_in_5_equals_T": true
+ }
+}

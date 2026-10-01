@@ -135,4 +135,10 @@ None of these blocks a multi-state construction joined by a demonstrated physica
 3. cube~3.24's completion against R60–R70;
 4. own-code verification of R55's light census or R42's identity.
 
+**Lead 1, run the same day (B1509).** On the audit lane's harmonic vacuum, the minimal non-split SU(5) extension carries main's
+index at two of its four backgrounds (q = 17 ± 12√2): one 10′ and no 5̄′. The 5̄′ sector is vector-like on the whole family, and the
+10′ count depends on the end condition (0, 1 or 2). So the join's chirality is real but anomalous in the bulk: a generation needs one
+5̄′ from the end or another state, and a U(1)_X source or the 16*'s partner direction to hold the extension at finite energy.
+`frontier/B1509_the_join_on_the_projective_vacuum`.
+
 0 of 19.

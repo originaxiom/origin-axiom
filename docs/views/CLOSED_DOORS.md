@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**813 recorded closures — of which 646 are CLASSIFIED by mechanism and
+**814 recorded closures — of which 647 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -96,6 +96,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `symmetry-cannot-select (the architecture's selectors cannot carry the end's chirality: the order bit is invisible to the oriented manifold, since an orientation-preserving change of marking swaps LR and RL; the isometries of the genesis's puncture fix only non-chiral lines; and where a rotation would force a charged end chiral it leaves the self-conjugate sector no symmetric completion, so symmetry permits a non-chiral completion or none; its conclusion is end-datum-input)` | 1 |  |
 | `no-landing-site (no known G2 cone over an orbifold link that is not a global quotient has an ADE locus coned over a torus of constant type: the twistor family's loci are spheres or sections over fixed surfaces of M, and the isometries of a positive toric selfdual Einstein orbifold fix only spheres or real loci that cross its orbifold locus; secondary: a torus section would carry a cubic inflow +-N e opposite to its partner's, T4)` | 1 |  |
 | `symmetry-cannot-select (the root's deck permutes an orbit's blocks, which are distinct E6 vacua -- their extension characters differ by characters of order 4 -- so an orbit is k copies of one generation and one object on the root, counting gcd(n, k) on M_n, never k families of one vacuum; a tensor-factor family frame gives every family the same extension character)` | 1 |  |
+| `end-datum-input (the projective four's boundary is acyclic, so the bulk can only count the trivial line's 10'; the number is the end condition's, 0/1/2, and the 5bar' is 0 under every end condition)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

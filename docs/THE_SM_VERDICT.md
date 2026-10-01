@@ -44,6 +44,11 @@ direction, anomaly cancellation, termination) — **and the two currencies do no
 moves by exactly two operations: **earn an identification (−1)** or **derive a parameter (+1)**.
 `docs/IDENTIFICATION_LEDGER.md` is therefore the **scoreboard**, not bookkeeping.
 
+> **Currency (2026-10-01, B1509; caught by the paper-review lane's sweep 5d58b935).** "4 + 7 = 11" is this branch's forked count.
+> Main raised I-27–I-30 on 2026-09-07 … 09-09, after the fork, and this branch's ledger lacks them. Main's own B1266 `sources.py`,
+> run here on main's ledger (6093e23c), gives **14 unearned rows → 8 irreducible sources → 4 + 8 = 12**. Read 12 as current. The
+> ledgers are not merged (harvest by citation); see the B1509 note at the end and ERROR_LEDGER (E53 instance).
+
 **AND TWO FRAME CORRECTIONS THE ROWS BELOW MUST BE READ THROUGH:**
 
 - **E65 (2026-09-06) — the sl₂ frame cannot carry chirality.** Generation counting needs **net**
@@ -976,3 +981,20 @@ left it.
 >   - The values stay at 0 of 19.
 > - **Applied to this ledger.** B1506's "one background, one count" needs T2's hypothesis (R69, B1506's own record). This ledger's
 >   verdicts do not change. `frontier/B1508_the_path_under_the_reframe`.
+
+> **Currency note (2026-10-01, B1509): the join on the projective vacuum.** B1508's lead 1, on the audit lane's (codex's second
+> lane) harmonic vacuum family on m004's convex-projective deformation.
+> - **The count.** The minimal non-split SU(5) extension W₁ = [[A, c], [0, 1]] (A = μρ_q; c generating H¹(A); the light 16's
+>   SU(5)′-singlet direction, U(1)_X charge 5) has main's index −1 at q = 17 ± 12√2 (μ = −1), and the opposite order has +1. At
+>   q = 7 ± 4√3 (μ = ±i) both are 0, and Λ²W has index 0 at all six points. This is exact and holds over three primes.
+> - **Why.** The projective four, its dual and Λ² have no boundary cohomology when q ≠ 1 (T1). The fibre monodromy has a Jordan
+>   block at 1 exactly at μ = −1, where the palindromic twisted Alexander polynomial has a double root (T3).
+> - **The reading.**
+>   - The interior count is one 10′ and no 5̄′, which is SU(5)′-anomalous.
+>   - Over every end condition the 10′ count is 0, 1 or 2 and the 5̄′ count is 0 (Proposition E).
+>   - The extension is F-flat but not polystable. R41's balance for its one flag is ∫ tr(T S) = 5 ∫ |b|² > 0, which a U(1)_X source
+>     meets in sign.
+>   - A chiral generation in this join needs one 5̄′ from the end or another state, and the record has not derived it.
+>   - The contrast: R40's rank-five enlargement on m010 cancels (+1, +1) but has no harmonic background.
+> - **Applied to this ledger.** I-26 stays UNEARNED and no verdict changes. The input count is 4 + 8 = 12 (main's live ledger; see
+>   the currency note under THE PRICE). 0 of 19. `frontier/B1509_the_join_on_the_projective_vacuum`.

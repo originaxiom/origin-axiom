@@ -1,0 +1,39 @@
+{
+ "H0(F; rho_q)": {
+  "gcd_of_numerators": "1",
+  "nonzero_maximal_minors": 70,
+  "positive_roots_other_than_1": []
+ },
+ "H0(F; rho_q*)": {
+  "gcd_of_numerators": "q**2 + q + 1",
+  "nonzero_maximal_minors": 66,
+  "positive_roots_other_than_1": []
+ },
+ "Q_at_central_twists": {
+  "-1": {
+   "Q(q, mu)": "q**2 - 34*q + 1",
+   "positive_roots_q_not_1": [
+    "17 - 12*sqrt(2)",
+    "12*sqrt(2) + 17"
+   ]
+  },
+  "-i": {
+   "Q(q, mu)": "-q**2 + 14*q - 1",
+   "positive_roots_q_not_1": [
+    "7 - 4*sqrt(3)",
+    "4*sqrt(3) + 7"
+   ]
+  },
+  "1": {
+   "Q(q, mu)": "(q - 1)**2",
+   "positive_roots_q_not_1": []
+  },
+  "i": {
+   "Q(q, mu)": "-q**2 + 14*q - 1",
+   "positive_roots_q_not_1": [
+    "7 - 4*sqrt(3)",
+    "4*sqrt(3) + 7"
+   ]
+  }
+ }
+}
