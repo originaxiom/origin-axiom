@@ -1,0 +1,1982 @@
+[
+ {
+  "state": "+LR",
+  "k": 1,
+  "N": 1,
+  "primes": [
+   2000000011,
+   2000000033
+  ],
+  "characters": 1,
+  "firing": 0,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 0,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LR",
+  "k": 2,
+  "N": 5,
+  "primes": [
+   2000000011,
+   2000000141
+  ],
+  "characters": 5,
+  "firing": 8,
+  "firing_on_square_loci": 8,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 2,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LR",
+  "k": 3,
+  "N": 4,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 16,
+  "firing": 72,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 48,
+  "lifted": 0,
+  "signs": {
+   "1": 24,
+   "-1": 24
+  },
+  "abs_counts": {
+   "1": 48
+  },
+  "nuc": {
+   "same_sign_as_generation": 48,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 48
+  },
+  "slope_classes": 3,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LR",
+  "k": 4,
+  "N": 15,
+  "primes": [
+   2000000011,
+   2000000641
+  ],
+  "characters": 45,
+  "firing": 488,
+  "firing_on_square_loci": 488,
+  "generation_backgrounds": 256,
+  "lifted": 256,
+  "signs": {
+   "-1": 128,
+   "1": 128
+  },
+  "abs_counts": {
+   "1": 256
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 256,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "4": 256
+  },
+  "slope_classes": 8,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LR",
+  "k": 5,
+  "N": 11,
+  "primes": [
+   2000000333,
+   2000000531
+  ],
+  "characters": 121,
+  "firing": 2200,
+  "firing_on_square_loci": 2200,
+  "generation_backgrounds": 400,
+  "lifted": 400,
+  "signs": {
+   "1": 200,
+   "-1": 200
+  },
+  "abs_counts": {
+   "1": 400
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 400,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "5": 400
+  },
+  "slope_classes": 11,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LR",
+  "k": 6,
+  "N": 40,
+  "primes": [
+   2000000441,
+   2000000641
+  ],
+  "characters": 320,
+  "firing": 12536,
+  "firing_on_square_loci": 1352,
+  "generation_backgrounds": 2160,
+  "lifted": 336,
+  "signs": {
+   "1": 1080,
+   "-1": 1080
+  },
+  "abs_counts": {
+   "1": 2160
+  },
+  "nuc": {
+   "same_sign_as_generation": 144,
+   "zero": 1920,
+   "opposite_sign": 96
+  },
+  "backgrounds_by_orbit_size": {
+   "6": 2112,
+   "3": 48
+  },
+  "slope_classes": 23,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LR",
+  "k": 1,
+  "N": 5,
+  "primes": [
+   2000000011,
+   2000000141
+  ],
+  "characters": 5,
+  "firing": 8,
+  "firing_on_square_loci": 8,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 2,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LR",
+  "k": 2,
+  "N": 5,
+  "primes": [
+   2000000011,
+   2000000141
+  ],
+  "characters": 5,
+  "firing": 8,
+  "firing_on_square_loci": 8,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 2,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LR",
+  "k": 3,
+  "N": 10,
+  "primes": [
+   2000000011,
+   2000000141
+  ],
+  "characters": 20,
+  "firing": 128,
+  "firing_on_square_loci": 8,
+  "generation_backgrounds": 96,
+  "lifted": 0,
+  "signs": {
+   "-1": 48,
+   "1": 48
+  },
+  "abs_counts": {
+   "1": 96
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 96,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 96
+  },
+  "slope_classes": 5,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LR",
+  "k": 4,
+  "N": 15,
+  "primes": [
+   2000000011,
+   2000000641
+  ],
+  "characters": 45,
+  "firing": 488,
+  "firing_on_square_loci": 488,
+  "generation_backgrounds": 256,
+  "lifted": 256,
+  "signs": {
+   "-1": 128,
+   "1": 128
+  },
+  "abs_counts": {
+   "1": 256
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 256,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "4": 256
+  },
+  "slope_classes": 8,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LR",
+  "k": 5,
+  "N": 25,
+  "primes": [
+   2000001001,
+   2000001151
+  ],
+  "characters": 125,
+  "firing": 2088,
+  "firing_on_square_loci": 2088,
+  "generation_backgrounds": 480,
+  "lifted": 480,
+  "signs": {
+   "1": 240,
+   "-1": 240
+  },
+  "abs_counts": {
+   "1": 480
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 480,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "5": 480
+  },
+  "slope_classes": 12,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LR",
+  "k": 6,
+  "N": 40,
+  "primes": [
+   2000000441,
+   2000000641
+  ],
+  "characters": 320,
+  "firing": 12536,
+  "firing_on_square_loci": 1352,
+  "generation_backgrounds": 2160,
+  "lifted": 336,
+  "signs": {
+   "1": 1080,
+   "-1": 1080
+  },
+  "abs_counts": {
+   "1": 2160
+  },
+  "nuc": {
+   "same_sign_as_generation": 144,
+   "zero": 1920,
+   "opposite_sign": 96
+  },
+  "backgrounds_by_orbit_size": {
+   "6": 2064,
+   "3": 96
+  },
+  "slope_classes": 23,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLR",
+  "k": 1,
+  "N": 2,
+  "primes": [
+   2000000011,
+   2000000033
+  ],
+  "characters": 2,
+  "firing": 0,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 1,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLR",
+  "k": 2,
+  "N": 6,
+  "primes": [
+   2000000011,
+   2000000089
+  ],
+  "characters": 12,
+  "firing": 32,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 5,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLR",
+  "k": 3,
+  "N": 10,
+  "primes": [
+   2000000011,
+   2000000141
+  ],
+  "characters": 50,
+  "firing": 456,
+  "firing_on_square_loci": 216,
+  "generation_backgrounds": 48,
+  "lifted": 48,
+  "signs": {
+   "-1": 24,
+   "1": 24
+  },
+  "abs_counts": {
+   "1": 48
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 48,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 48
+  },
+  "slope_classes": 8,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLR",
+  "k": 4,
+  "N": 24,
+  "primes": [
+   2000000089,
+   2000000137
+  ],
+  "characters": 192,
+  "firing": 4192,
+  "firing_on_square_loci": 896,
+  "generation_backgrounds": 480,
+  "lifted": 288,
+  "signs": {
+   "-1": 240,
+   "1": 240
+  },
+  "abs_counts": {
+   "1": 480
+  },
+  "nuc": {
+   "same_sign_as_generation": 336,
+   "zero": 144,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "4": 480
+  },
+  "slope_classes": 19,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLR",
+  "k": 1,
+  "N": 6,
+  "primes": [
+   2000000011,
+   2000000089
+  ],
+  "characters": 6,
+  "firing": 4,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 3,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLR",
+  "k": 2,
+  "N": 6,
+  "primes": [
+   2000000011,
+   2000000089
+  ],
+  "characters": 12,
+  "firing": 32,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 5,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLR",
+  "k": 3,
+  "N": 18,
+  "primes": [
+   2000000089,
+   2000000143
+  ],
+  "characters": 54,
+  "firing": 448,
+  "firing_on_square_loci": 204,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 11,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLR",
+  "k": 4,
+  "N": 24,
+  "primes": [
+   2000000089,
+   2000000137
+  ],
+  "characters": 192,
+  "firing": 4192,
+  "firing_on_square_loci": 896,
+  "generation_backgrounds": 480,
+  "lifted": 288,
+  "signs": {
+   "-1": 240,
+   "1": 240
+  },
+  "abs_counts": {
+   "1": 480
+  },
+  "nuc": {
+   "same_sign_as_generation": 336,
+   "zero": 144,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "4": 480
+  },
+  "slope_classes": 19,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLR",
+  "k": 1,
+  "N": 3,
+  "primes": [
+   2000000011,
+   2000000089
+  ],
+  "characters": 3,
+  "firing": 0,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 1,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLR",
+  "k": 2,
+  "N": 21,
+  "primes": [
+   2000000143,
+   2000000227
+  ],
+  "characters": 21,
+  "firing": 84,
+  "firing_on_square_loci": 84,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 7,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLR",
+  "k": 3,
+  "N": 18,
+  "primes": [
+   2000000089,
+   2000000143
+  ],
+  "characters": 108,
+  "firing": 1572,
+  "firing_on_square_loci": 240,
+  "generation_backgrounds": 72,
+  "lifted": 0,
+  "signs": {
+   "-1": 36,
+   "1": 36
+  },
+  "abs_counts": {
+   "1": 72
+  },
+  "nuc": {
+   "same_sign_as_generation": 24,
+   "zero": 48,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 72
+  },
+  "slope_classes": 13,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLR",
+  "k": 1,
+  "N": 7,
+  "primes": [
+   2000000087,
+   2000000143
+  ],
+  "characters": 7,
+  "firing": 12,
+  "firing_on_square_loci": 12,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 3,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLR",
+  "k": 2,
+  "N": 21,
+  "primes": [
+   2000000143,
+   2000000227
+  ],
+  "characters": 21,
+  "firing": 84,
+  "firing_on_square_loci": 84,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 7,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLR",
+  "k": 3,
+  "N": 28,
+  "primes": [
+   2000000269,
+   2000000381
+  ],
+  "characters": 112,
+  "firing": 1416,
+  "firing_on_square_loci": 192,
+  "generation_backgrounds": 48,
+  "lifted": 0,
+  "signs": {
+   "1": 24,
+   "-1": 24
+  },
+  "abs_counts": {
+   "1": 48
+  },
+  "nuc": {
+   "same_sign_as_generation": 48,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 48
+  },
+  "slope_classes": 18,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLRR",
+  "k": 1,
+  "N": 2,
+  "primes": [
+   2000000011,
+   2000000033
+  ],
+  "characters": 4,
+  "firing": 0,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 3,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLRR",
+  "k": 2,
+  "N": 8,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 32,
+  "firing": 216,
+  "firing_on_square_loci": 56,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 7,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLRR",
+  "k": 3,
+  "N": 14,
+  "primes": [
+   2000000087,
+   2000000143
+  ],
+  "characters": 196,
+  "firing": 2400,
+  "firing_on_square_loci": 504,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 29,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLRR",
+  "k": 1,
+  "N": 4,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 8,
+  "firing": 24,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 3,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLRR",
+  "k": 2,
+  "N": 8,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 32,
+  "firing": 216,
+  "firing_on_square_loci": 56,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 7,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLRR",
+  "k": 3,
+  "N": 20,
+  "primes": [
+   2000000141,
+   2000000381
+  ],
+  "characters": 200,
+  "firing": 4152,
+  "firing_on_square_loci": 960,
+  "generation_backgrounds": 144,
+  "lifted": 144,
+  "signs": {
+   "1": 72,
+   "-1": 72
+  },
+  "abs_counts": {
+   "1": 144
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 144,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 144
+  },
+  "slope_classes": 23,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLR",
+  "k": 1,
+  "N": 4,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 4,
+  "firing": 4,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 2,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLR",
+  "k": 2,
+  "N": 16,
+  "primes": [
+   2000000033,
+   2000000273
+  ],
+  "characters": 32,
+  "firing": 172,
+  "firing_on_square_loci": 44,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 10,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLR",
+  "k": 3,
+  "N": 28,
+  "primes": [
+   2000000269,
+   2000000381
+  ],
+  "characters": 196,
+  "firing": 3136,
+  "firing_on_square_loci": 1452,
+  "generation_backgrounds": 216,
+  "lifted": 216,
+  "signs": {
+   "-1": 108,
+   "1": 108
+  },
+  "abs_counts": {
+   "1": 216
+  },
+  "nuc": {
+   "same_sign_as_generation": 72,
+   "zero": 72,
+   "opposite_sign": 72
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 216
+  },
+  "slope_classes": 24,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLR",
+  "k": 1,
+  "N": 8,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 8,
+  "firing": 12,
+  "firing_on_square_loci": 4,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 4,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLR",
+  "k": 2,
+  "N": 16,
+  "primes": [
+   2000000033,
+   2000000273
+  ],
+  "characters": 32,
+  "firing": 172,
+  "firing_on_square_loci": 44,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 10,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLR",
+  "k": 3,
+  "N": 40,
+  "primes": [
+   2000000441,
+   2000000641
+  ],
+  "characters": 200,
+  "firing": 2772,
+  "firing_on_square_loci": 1228,
+  "generation_backgrounds": 48,
+  "lifted": 48,
+  "signs": {
+   "-1": 24,
+   "1": 24
+  },
+  "abs_counts": {
+   "1": 48
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 48,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 48
+  },
+  "slope_classes": 29,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLRR",
+  "k": 1,
+  "N": 6,
+  "primes": [
+   2000000011,
+   2000000089
+  ],
+  "characters": 6,
+  "firing": 4,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 3,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLRR",
+  "k": 2,
+  "N": 30,
+  "primes": [
+   2000000011,
+   2000000641
+  ],
+  "characters": 60,
+  "firing": 432,
+  "firing_on_square_loci": 56,
+  "generation_backgrounds": 32,
+  "lifted": 32,
+  "signs": {
+   "-1": 16,
+   "1": 16
+  },
+  "abs_counts": {
+   "1": 32
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 32,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 32
+  },
+  "slope_classes": 16,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLRR",
+  "k": 1,
+  "N": 10,
+  "primes": [
+   2000000011,
+   2000000141
+  ],
+  "characters": 10,
+  "firing": 32,
+  "firing_on_square_loci": 8,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 4,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLRR",
+  "k": 2,
+  "N": 30,
+  "primes": [
+   2000000011,
+   2000000641
+  ],
+  "characters": 60,
+  "firing": 432,
+  "firing_on_square_loci": 56,
+  "generation_backgrounds": 32,
+  "lifted": 32,
+  "signs": {
+   "-1": 16,
+   "1": 16
+  },
+  "abs_counts": {
+   "1": 32
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 32,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 32
+  },
+  "slope_classes": 16,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLRLR",
+  "k": 1,
+  "N": 8,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 8,
+  "firing": 12,
+  "firing_on_square_loci": 4,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 4,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLRLR",
+  "k": 2,
+  "N": 48,
+  "primes": [
+   2000000641,
+   2000000833
+  ],
+  "characters": 96,
+  "firing": 936,
+  "firing_on_square_loci": 232,
+  "generation_backgrounds": 8,
+  "lifted": 0,
+  "signs": {
+   "1": 4,
+   "-1": 4
+  },
+  "abs_counts": {
+   "1": 8
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 8,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 8
+  },
+  "slope_classes": 20,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLRLR",
+  "k": 1,
+  "N": 12,
+  "primes": [
+   2000000089,
+   2000000137
+  ],
+  "characters": 12,
+  "firing": 40,
+  "firing_on_square_loci": 12,
+  "generation_backgrounds": 8,
+  "lifted": 0,
+  "signs": {
+   "1": 4,
+   "-1": 4
+  },
+  "abs_counts": {
+   "1": 8
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 8,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "1": 8
+  },
+  "slope_classes": 4,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLRLR",
+  "k": 2,
+  "N": 48,
+  "primes": [
+   2000000641,
+   2000000833
+  ],
+  "characters": 96,
+  "firing": 936,
+  "firing_on_square_loci": 232,
+  "generation_backgrounds": 8,
+  "lifted": 0,
+  "signs": {
+   "1": 4,
+   "-1": 4
+  },
+  "abs_counts": {
+   "1": 8
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 8,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "1": 8
+  },
+  "slope_classes": 20,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLLR",
+  "k": 1,
+  "N": 5,
+  "primes": [
+   2000000011,
+   2000000141
+  ],
+  "characters": 5,
+  "firing": 8,
+  "firing_on_square_loci": 8,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 2,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLLR",
+  "k": 2,
+  "N": 45,
+  "primes": [
+   2000001151,
+   2000001511
+  ],
+  "characters": 45,
+  "firing": 212,
+  "firing_on_square_loci": 212,
+  "generation_backgrounds": 32,
+  "lifted": 32,
+  "signs": {
+   "-1": 16,
+   "1": 16
+  },
+  "abs_counts": {
+   "1": 32
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 32,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 32
+  },
+  "slope_classes": 14,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLLR",
+  "k": 3,
+  "N": 40,
+  "primes": [
+   2000000441,
+   2000000641
+  ],
+  "characters": 320,
+  "firing": 5912,
+  "firing_on_square_loci": 1112,
+  "generation_backgrounds": 720,
+  "lifted": 240,
+  "signs": {
+   "1": 360,
+   "-1": 360
+  },
+  "abs_counts": {
+   "1": 720
+  },
+  "nuc": {
+   "same_sign_as_generation": 48,
+   "zero": 672,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 720
+  },
+  "slope_classes": 35,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLLR",
+  "k": 1,
+  "N": 9,
+  "primes": [
+   2000000089,
+   2000000143
+  ],
+  "characters": 9,
+  "firing": 12,
+  "firing_on_square_loci": 12,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 4,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLLR",
+  "k": 2,
+  "N": 45,
+  "primes": [
+   2000001151,
+   2000001511
+  ],
+  "characters": 45,
+  "firing": 212,
+  "firing_on_square_loci": 212,
+  "generation_backgrounds": 32,
+  "lifted": 32,
+  "signs": {
+   "-1": 16,
+   "1": 16
+  },
+  "abs_counts": {
+   "1": 32
+  },
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 32,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 32
+  },
+  "slope_classes": 14,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLLR",
+  "k": 3,
+  "N": 54,
+  "primes": [
+   2000000269,
+   2000000323
+  ],
+  "characters": 324,
+  "firing": 5052,
+  "firing_on_square_loci": 804,
+  "generation_backgrounds": 360,
+  "lifted": 0,
+  "signs": {
+   "-1": 180,
+   "1": 180
+  },
+  "abs_counts": {
+   "1": 360
+  },
+  "nuc": {
+   "same_sign_as_generation": 96,
+   "zero": 264,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "3": 360
+  },
+  "slope_classes": 41,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLRR",
+  "k": 1,
+  "N": 4,
+  "primes": [
+   2000000033,
+   2000000089
+  ],
+  "characters": 8,
+  "firing": 16,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 4,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLLRR",
+  "k": 2,
+  "N": 24,
+  "primes": [
+   2000000089,
+   2000000137
+  ],
+  "characters": 96,
+  "firing": 764,
+  "firing_on_square_loci": 156,
+  "generation_backgrounds": 64,
+  "lifted": 0,
+  "signs": {
+   "-1": 32,
+   "1": 32
+  },
+  "abs_counts": {
+   "1": 64
+  },
+  "nuc": {
+   "same_sign_as_generation": 32,
+   "zero": 32,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 64
+  },
+  "slope_classes": 20,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLRR",
+  "k": 1,
+  "N": 6,
+  "primes": [
+   2000000011,
+   2000000089
+  ],
+  "characters": 12,
+  "firing": 44,
+  "firing_on_square_loci": 0,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 5,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLLRR",
+  "k": 2,
+  "N": 24,
+  "primes": [
+   2000000089,
+   2000000137
+  ],
+  "characters": 96,
+  "firing": 764,
+  "firing_on_square_loci": 156,
+  "generation_backgrounds": 64,
+  "lifted": 0,
+  "signs": {
+   "-1": 32,
+   "1": 32
+  },
+  "abs_counts": {
+   "1": 64
+  },
+  "nuc": {
+   "same_sign_as_generation": 32,
+   "zero": 32,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 64
+  },
+  "slope_classes": 20,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLRLR",
+  "k": 1,
+  "N": 11,
+  "primes": [
+   2000000333,
+   2000000531
+  ],
+  "characters": 11,
+  "firing": 20,
+  "firing_on_square_loci": 20,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 5,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLRLR",
+  "k": 2,
+  "N": 165,
+  "primes": [
+   2000000641,
+   2000003281
+  ],
+  "characters": 165,
+  "firing": 1572,
+  "firing_on_square_loci": 1572,
+  "generation_backgrounds": 16,
+  "lifted": 16,
+  "signs": {
+   "-1": 8,
+   "1": 8
+  },
+  "abs_counts": {
+   "1": 16
+  },
+  "nuc": {
+   "same_sign_as_generation": 16,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "2": 16
+  },
+  "slope_classes": 34,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLRLR",
+  "k": 1,
+  "N": 15,
+  "primes": [
+   2000000011,
+   2000000641
+  ],
+  "characters": 15,
+  "firing": 72,
+  "firing_on_square_loci": 72,
+  "generation_backgrounds": 16,
+  "lifted": 16,
+  "signs": {
+   "-1": 8,
+   "1": 8
+  },
+  "abs_counts": {
+   "1": 16
+  },
+  "nuc": {
+   "same_sign_as_generation": 16,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "1": 16
+  },
+  "slope_classes": 4,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLRLR",
+  "k": 2,
+  "N": 165,
+  "primes": [
+   2000000641,
+   2000003281
+  ],
+  "characters": 165,
+  "firing": 1572,
+  "firing_on_square_loci": 1572,
+  "generation_backgrounds": 16,
+  "lifted": 16,
+  "signs": {
+   "-1": 8,
+   "1": 8
+  },
+  "abs_counts": {
+   "1": 16
+  },
+  "nuc": {
+   "same_sign_as_generation": 16,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {
+   "1": 16
+  },
+  "slope_classes": 34,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLRRR",
+  "k": 1,
+  "N": 3,
+  "primes": [
+   2000000011,
+   2000000089
+  ],
+  "characters": 9,
+  "firing": 16,
+  "firing_on_square_loci": 16,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 3,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLLRRR",
+  "k": 2,
+  "N": 39,
+  "primes": [
+   2000000731,
+   2000000809
+  ],
+  "characters": 117,
+  "firing": 1000,
+  "firing_on_square_loci": 1000,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 27,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLRRR",
+  "k": 1,
+  "N": 13,
+  "primes": [
+   2000000393,
+   2000000731
+  ],
+  "characters": 13,
+  "firing": 24,
+  "firing_on_square_loci": 24,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 6,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLLRRR",
+  "k": 2,
+  "N": 39,
+  "primes": [
+   2000000731,
+   2000000809
+  ],
+  "characters": 117,
+  "firing": 1000,
+  "firing_on_square_loci": 1000,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 27,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLRLRR",
+  "k": 1,
+  "N": 13,
+  "primes": [
+   2000000393,
+   2000000731
+  ],
+  "characters": 13,
+  "firing": 24,
+  "firing_on_square_loci": 24,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 6,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "+LLRLRR",
+  "k": 2,
+  "N": 221,
+  "primes": [
+   2000003149,
+   2000003591
+  ],
+  "characters": 221,
+  "firing": 1208,
+  "firing_on_square_loci": 1208,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 62,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLRLRR",
+  "k": 1,
+  "N": 17,
+  "primes": [
+   2000000089,
+   2000000293
+  ],
+  "characters": 17,
+  "firing": 32,
+  "firing_on_square_loci": 32,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 8,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ },
+ {
+  "state": "-LLRLRR",
+  "k": 2,
+  "N": 221,
+  "primes": [
+   2000003149,
+   2000003591
+  ],
+  "characters": 221,
+  "firing": 1208,
+  "firing_on_square_loci": 1208,
+  "generation_backgrounds": 0,
+  "lifted": 0,
+  "signs": {},
+  "abs_counts": {},
+  "nuc": {
+   "same_sign_as_generation": 0,
+   "zero": 0,
+   "opposite_sign": 0
+  },
+  "backgrounds_by_orbit_size": {},
+  "slope_classes": 62,
+  "slope_coincidences_at_one_prime_only": 0,
+  "agrees_with_B1434": true,
+  "differing_fields": []
+ }
+]

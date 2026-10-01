@@ -1,0 +1,16 @@
+{
+ "a": "16/63*sqrt(-3)",
+ "a_chart_XZ": "16/63*sqrt(-3)",
+ "a_conjugate_point": "-16/63*sqrt(-3)",
+ "a_double_iterate": "32/63*sqrt(-3)",
+ "a_form_scaled_7_3": "16/147*sqrt(-3)",
+ "linear_control": "0",
+ "bite_wrong_leaf": "-11/18 + 55/54*sqrt(-3) + 1/42*sqrt(21) + -5/126*sqrt(-3)*sqrt(21)",
+ "value": "16*sqrt(-3)/63",
+ "numeric": [
+  0.0,
+  0.439885919382572
+ ],
+ "multiplier": "(5 + sqrt(21))/2",
+ "all_checks": true
+}

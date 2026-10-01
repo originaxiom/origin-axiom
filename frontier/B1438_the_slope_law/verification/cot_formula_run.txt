@@ -1,0 +1,13 @@
++LR 2 characters 4 checked so far 4 skipped (X = 1 on the orbit) 0 max |formula - exact| 2.37e-16
++LR 3 characters 15 checked so far 10 skipped (X = 1 on the orbit) 9 max |formula - exact| 2.37e-16
++LR 4 characters 44 checked so far 50 skipped (X = 1 on the orbit) 13 max |formula - exact| 2.95e-15
++LR 5 characters 120 checked so far 120 skipped (X = 1 on the orbit) 63 max |formula - exact| 2.95e-15
+-LR 3 characters 19 checked so far 136 skipped (X = 1 on the orbit) 66 max |formula - exact| 2.95e-15
++LLR 3 characters 49 checked so far 173 skipped (X = 1 on the orbit) 78 max |formula - exact| 2.95e-15
+-LLRLR 1 characters 11 checked so far 179 skipped (X = 1 on the orbit) 83 max |formula - exact| 2.95e-15
+-LLLRLR 1 characters 14 checked so far 187 skipped (X = 1 on the orbit) 89 max |formula - exact| 2.95e-15
++LLLR 3 characters 107 checked so far 279 skipped (X = 1 on the orbit) 104 max |formula - exact| 9.16e-15
+-LLRR 3 characters 199 checked so far 402 skipped (X = 1 on the orbit) 180 max |formula - exact| 9.16e-15
++LLRLR 2 characters 95 checked so far 486 skipped (X = 1 on the orbit) 191 max |formula - exact| 1.70e-14
+general gauge, every non-trivial character: max error 1.78e-14 over 677
+slopes real: 486 of 486 ; cotangent form on + states: max error 1.51e-14 over 333

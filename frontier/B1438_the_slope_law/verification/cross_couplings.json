@@ -1,0 +1,65 @@
+[
+ {
+  "state": "+LR",
+  "k": 3,
+  "N": 4,
+  "prime": 3001,
+  "backgrounds": 48,
+  "ordered_pairs_of_backgrounds": 1152,
+  "table": {
+   "different l | dim 1 | quotient.quotient | Y = 0": 3168,
+   "different l | no functional": 47520,
+   "same l | dim 1 | other | Y != 0": 288,
+   "same l | dim 1 | quotient.quotient | Y = 0": 288,
+   "same l | no functional": 4032
+  }
+ },
+ {
+  "state": "-LLRLR",
+  "k": 1,
+  "N": 12,
+  "prime": 3001,
+  "backgrounds": 8,
+  "ordered_pairs_of_backgrounds": 32,
+  "table": {
+   "different l | dim 1 | quotient.quotient | Y = 0": 72,
+   "different l | no functional": 792,
+   "same l | dim 1 | other | Y != 0": 8,
+   "same l | dim 1 | other | Y = 0": 16,
+   "same l | dim 1 | quotient.quotient | Y = 0": 24,
+   "same l | no functional": 240
+  }
+ },
+ {
+  "state": "-LR",
+  "k": 3,
+  "N": 10,
+  "prime": 3001,
+  "backgrounds": 96,
+  "ordered_pairs_of_backgrounds": 1760,
+  "table": {
+   "different l | dim 1 | quotient.quotient | Y = 0": 4128,
+   "different l | no functional": 78432,
+   "same l | dim 1 | other | Y != 0": 576,
+   "same l | dim 1 | other | Y = 0": 576,
+   "same l | dim 1 | quotient.quotient | Y = 0": 1152,
+   "same l | no functional": 20736
+  }
+ },
+ {
+  "state": "+LR",
+  "k": 4,
+  "N": 15,
+  "prime": 3001,
+  "backgrounds": 256,
+  "ordered_pairs_of_backgrounds": 2476,
+  "table": {
+   "different l | dim 1 | quotient.quotient | Y = 0": 4356,
+   "different l | no functional": 191664,
+   "same l | dim 1 | other | Y != 0": 2560,
+   "same l | dim 1 | other | Y = 0": 512,
+   "same l | dim 1 | quotient.quotient | Y = 0": 3072,
+   "same l | no functional": 132096
+  }
+ }
+]

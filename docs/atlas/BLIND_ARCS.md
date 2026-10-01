@@ -52,6 +52,7 @@ because they are about the Markov cubic but because they **quote** it while disc
 regex motif matches *mentions*, not *subjects*. Recorded rather than filtered, because filtering
 would mean classifying by topic — the thing B822 refused.
 | `B1213` | INSTRUMENT | The claim-base rebuild: a census of the `creates_law` field's absence (89% of settled arcs) and a union criterion for the paper's candidate pool. An arc about our own bookkeeping machinery — an OBJECT atlas is correct to miss it. |
+| `B1437` | INSTRUMENT | The doc-currency gate's repair (2026-10-01): the lock it cited did not exist, its two lag metrics, and another seat's arc numbers pinning ten living documents at lag zero. About the repository's own watch on its surfaces; an OBJECT atlas is correct to miss it. |
 
 ## De-blinded by the question lexicon (B1247, 2026-09-05)
 

@@ -1,0 +1,522 @@
+{
+ "levels": 30,
+ "backgrounds": 8800,
+ "prime_disagreements": 0,
+ "own_level_backgrounds": 24,
+ "predictions": {
+  "P1": false,
+  "P2": true,
+  "P3": true,
+  "P4": false,
+  "P5": false,
+  "P6": false,
+  "P7": true,
+  "P8": false
+ },
+ "witnesses": {
+  "P3_yes": "-LLLLLR 2",
+  "P5_no": "-LLLLLR 2",
+  "P4_no": "-LLLLLR 2",
+  "P1_no": "-LLRR 3",
+  "P8_no": "-LLR 4"
+ },
+ "pattern_columns": [
+  "Q.Q",
+  "Q.uc",
+  "Q.dc",
+  "Q.L",
+  "uc.ec",
+  "uc.dc",
+  "ec.L",
+  "dc.dc",
+  "dc.L",
+  "L.L"
+ ],
+ "per_level": [
+  {
+   "state": "-LLLLLR",
+   "k": 2,
+   "backgrounds": 32,
+   "cells": 259,
+   "primes": [
+    3061,
+    3331,
+    3511
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 16,
+    "YY00Y00YYY": 16
+   }
+  },
+  {
+   "state": "-LLLLLR",
+   "k": 3,
+   "backgrounds": 360,
+   "cells": 1557,
+   "primes": [
+    3079,
+    3187,
+    3457
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 312,
+    "YYYYYYY000": 24,
+    "YY00Y00000": 24
+   }
+  },
+  {
+   "state": "-LLLLRR",
+   "k": 2,
+   "backgrounds": 64,
+   "cells": 405,
+   "primes": [
+    3001,
+    3049,
+    3121
+   ],
+   "patterns": {
+    "YY00Y00000": 64
+   }
+  },
+  {
+   "state": "-LLLLR",
+   "k": 3,
+   "backgrounds": 48,
+   "cells": 971,
+   "primes": [
+    3001,
+    3041,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 48
+   }
+  },
+  {
+   "state": "-LLLRLR",
+   "k": 1,
+   "backgrounds": 16,
+   "cells": 79,
+   "primes": [
+    3001,
+    3061,
+    3121
+   ],
+   "patterns": {
+    "YY00Y00000": 16
+   }
+  },
+  {
+   "state": "-LLLRLR",
+   "k": 2,
+   "backgrounds": 16,
+   "cells": 750,
+   "primes": [
+    3301,
+    3631,
+    4621
+   ],
+   "patterns": {
+    "YY00Y00000": 16
+   }
+  },
+  {
+   "state": "-LLLRR",
+   "k": 2,
+   "backgrounds": 32,
+   "cells": 275,
+   "primes": [
+    3001,
+    3061,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 16,
+    "YY00Y00YYY": 16
+   }
+  },
+  {
+   "state": "-LLLR",
+   "k": 3,
+   "backgrounds": 48,
+   "cells": 559,
+   "primes": [
+    3109,
+    3137,
+    3221
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 48
+   }
+  },
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "backgrounds": 8,
+   "cells": 67,
+   "primes": [
+    3001,
+    3037,
+    3049
+   ],
+   "patterns": {
+    "YY00Y00000": 8
+   }
+  },
+  {
+   "state": "-LLRLR",
+   "k": 2,
+   "backgrounds": 8,
+   "cells": 465,
+   "primes": [
+    3121,
+    3169,
+    3217
+   ],
+   "patterns": {
+    "YY00Y00000": 8
+   }
+  },
+  {
+   "state": "-LLRR",
+   "k": 3,
+   "backgrounds": 144,
+   "cells": 831,
+   "primes": [
+    3001,
+    3041,
+    3061
+   ],
+   "patterns": {
+    "YYYYYYY000": 96,
+    "0000000YYY": 48
+   }
+  },
+  {
+   "state": "-LLR",
+   "k": 4,
+   "backgrounds": 480,
+   "cells": 949,
+   "primes": [
+    3001,
+    3049,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 320,
+    "YY00Y00000": 16,
+    "YYYYYYY000": 64,
+    "YYYYYYY0Y0": 64,
+    "0000000000": 16
+   }
+  },
+  {
+   "state": "-LR",
+   "k": 3,
+   "backgrounds": 96,
+   "cells": 137,
+   "primes": [
+    3001,
+    3011,
+    3041
+   ],
+   "patterns": {
+    "00YY0YYYYY": 48,
+    "0Y0Y0Y0YYY": 48
+   }
+  },
+  {
+   "state": "-LR",
+   "k": 4,
+   "backgrounds": 256,
+   "cells": 284,
+   "primes": [
+    3001,
+    3061,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 192,
+    "YY00Y00YYY": 64
+   }
+  },
+  {
+   "state": "-LR",
+   "k": 5,
+   "backgrounds": 480,
+   "cells": 643,
+   "primes": [
+    3001,
+    3251,
+    3301
+   ],
+   "patterns": {
+    "0000000YYY": 80,
+    "YYYYYYYYYY": 400
+   }
+  },
+  {
+   "state": "-LR",
+   "k": 6,
+   "backgrounds": 2160,
+   "cells": 1557,
+   "primes": [
+    3001,
+    3041,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 1968,
+    "00YY0YYYYY": 48,
+    "0Y0Y0Y0YYY": 48,
+    "YYY0Y0YYYY": 96
+   }
+  },
+  {
+   "state": "+LLLLLR",
+   "k": 2,
+   "backgrounds": 32,
+   "cells": 237,
+   "primes": [
+    3061,
+    3331,
+    3511
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 16,
+    "YY00Y00YYY": 16
+   }
+  },
+  {
+   "state": "+LLLLLR",
+   "k": 3,
+   "backgrounds": 720,
+   "cells": 1519,
+   "primes": [
+    3001,
+    3041,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 384,
+    "00YY0YYYYY": 48,
+    "0Y0Y0Y0YYY": 48,
+    "00YY0YY000": 48,
+    "0000000000": 144,
+    "Y000Y00000": 48
+   }
+  },
+  {
+   "state": "+LLLLRR",
+   "k": 2,
+   "backgrounds": 64,
+   "cells": 383,
+   "primes": [
+    3001,
+    3049,
+    3121
+   ],
+   "patterns": {
+    "YY00Y00000": 64
+   }
+  },
+  {
+   "state": "+LLLLR",
+   "k": 3,
+   "backgrounds": 216,
+   "cells": 933,
+   "primes": [
+    3109,
+    3137,
+    3221
+   ],
+   "patterns": {
+    "0000000000": 144,
+    "YYYYYYYYYY": 72
+   }
+  },
+  {
+   "state": "+LLLRLR",
+   "k": 2,
+   "backgrounds": 16,
+   "cells": 728,
+   "primes": [
+    3301,
+    3631,
+    4621
+   ],
+   "patterns": {
+    "YY00Y00000": 16
+   }
+  },
+  {
+   "state": "+LLLRR",
+   "k": 2,
+   "backgrounds": 32,
+   "cells": 253,
+   "primes": [
+    3001,
+    3061,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 16,
+    "YY00Y00YYY": 16
+   }
+  },
+  {
+   "state": "+LLLR",
+   "k": 3,
+   "backgrounds": 72,
+   "cells": 521,
+   "primes": [
+    3061,
+    3079,
+    3169
+   ],
+   "patterns": {
+    "YYYYYYY000": 24,
+    "YYYYYYYYYY": 24,
+    "YY00Y00000": 24
+   }
+  },
+  {
+   "state": "+LLRLR",
+   "k": 2,
+   "backgrounds": 8,
+   "cells": 443,
+   "primes": [
+    3121,
+    3169,
+    3217
+   ],
+   "patterns": {
+    "YY00Y00000": 8
+   }
+  },
+  {
+   "state": "+LLR",
+   "k": 3,
+   "backgrounds": 48,
+   "cells": 253,
+   "primes": [
+    3001,
+    3011,
+    3041
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 48
+   }
+  },
+  {
+   "state": "+LLR",
+   "k": 4,
+   "backgrounds": 480,
+   "cells": 895,
+   "primes": [
+    3001,
+    3049,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 320,
+    "YY00Y00000": 16,
+    "YYYYYYY000": 64,
+    "YYYYYYY0Y0": 64,
+    "0000000000": 16
+   }
+  },
+  {
+   "state": "+LR",
+   "k": 3,
+   "backgrounds": 48,
+   "cells": 99,
+   "primes": [
+    3001,
+    3037,
+    3041
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 48
+   }
+  },
+  {
+   "state": "+LR",
+   "k": 4,
+   "backgrounds": 256,
+   "cells": 230,
+   "primes": [
+    3001,
+    3061,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 192,
+    "YY00Y00YYY": 64
+   }
+  },
+  {
+   "state": "+LR",
+   "k": 5,
+   "backgrounds": 400,
+   "cells": 573,
+   "primes": [
+    3037,
+    3169,
+    3191
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 400
+   }
+  },
+  {
+   "state": "+LR",
+   "k": 6,
+   "backgrounds": 2160,
+   "cells": 1471,
+   "primes": [
+    3001,
+    3041,
+    3121
+   ],
+   "patterns": {
+    "YYYYYYYYYY": 1968,
+    "00YY0YYYYY": 48,
+    "0Y0Y0Y0YYY": 48,
+    "YYY0Y0YYYY": 96
+   }
+  }
+ ],
+ "P5_table": {
+  "Y_nonzero=True,h_t_nonzero=True": 81056,
+  "Y_nonzero=False,h_t_nonzero=True": 10320,
+  "Y_nonzero=True,h_t_nonzero=False": 1632,
+  "Y_nonzero=False,h_t_nonzero=False": 2032
+ },
+ "allowed_pairs_with_fibre_trivial_higgs": 0,
+ "sector_modules_coincide": {
+  "True": 8048,
+  "False": 752
+ },
+ "blocks": {
+  "five.five:mixed": 128,
+  "five.five:False": 968,
+  "five.five:True": 7704,
+  "five.nu:mixed": 192,
+  "five.nu:False": 216,
+  "five.nu:True": 1000,
+  "ten.five:mixed": 384,
+  "ten.five:False": 968,
+  "ten.five:True": 7448,
+  "ten.nu:mixed": 128,
+  "ten.nu:False": 392,
+  "ten.nu:True": 888,
+  "ten.ten:mixed": 240,
+  "ten.ten:False": 688,
+  "ten.ten:True": 7872
+ },
+ "blocks_uniform": {
+  "True": 28144,
+  "False": 1072
+ }
+}

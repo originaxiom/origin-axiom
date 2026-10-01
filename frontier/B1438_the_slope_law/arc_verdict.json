@@ -1,0 +1,18 @@
+{
+ "id": "B1438",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1297",
+  "B1427",
+  "B1432",
+  "B1434",
+  "B1435"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE SLOPE LAW. For a character chi of a level, trivial on the meridian and non-trivial on the fibre, let s(chi) be the value on the meridian of the class of H^1(M; chi) normalised to 1 on the longitude -- the cusp shape of the affine representation of chi. (A) The non-split sector module V(l, alpha) with quotient beta = alpha/l has n(V) = [s(alpha) = s(l)] and index I = [s(alpha) = s(l)] - [s(1/beta) = s(l)]; (B) so |I| <= 1: one count per background is a theorem; (C) the coupling of two firing sectors to the spin-0 character eta is, with every class normalised on the longitude, Y = s(l) - s(eta): it vanishes exactly when the Higgs character has the slope of the extension character, and it is the Higgs class evaluated on the peripheral curve the matter classes die on; (D) s is a sum of local terms over the letters of the word (zero for L, X/((X-1)(XY-1)) for R, 1/(1-X) for -I, in one gauge), a cotangent sum of Dedekind type on + states, real, deck-invariant, multiplied by m on an m-fold cover, and shifted by integers under a change of meridian so that only differences carry content. Proved from the long exact sequence of the extension with classes detected on the boundary torus. Verified: the whole of B1434 (68 levels, 942 268 candidate modules, every recorded field) is reproduced from the slope alone in twenty seconds with no index computed; the firing law holds module by module against main's index code with exact slopes; every coupling of B1435's sealed run vanishes exactly where predicted; and the value law holds on all 8 800 backgrounds, 140 448 pair values, both signs. On the root's three-fold cover the slope is 0 on the three characters of order two and +-1 on the twelve of order four, and every coupling is +-1 or +-2; on -LLRLR at its own level the ten.ten coupling is 3/2 and every other is 0. Found by reading the sealed run of B1435 while it ran; not predicted. No physics reading: the normalisation is the frame's, not a kinetic one."
+}

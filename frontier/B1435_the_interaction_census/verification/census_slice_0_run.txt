@@ -1,0 +1,16 @@
+level 1 LLRLR 2 backgrounds 8 cells 443 seconds 39.3
++LLRLR 2 backgrounds 8 prime disagreements 0 patterns 2
+level -1 LLLRLR 1 backgrounds 16 cells 79 seconds 1.2
+-LLLRLR 1 backgrounds 16 prime disagreements 0 patterns 2
+level 1 LLLLLR 2 backgrounds 32 cells 237 seconds 7.7
++LLLLLR 2 backgrounds 32 prime disagreements 0 patterns 4
+level -1 LLLR 3 backgrounds 48 cells 559 seconds 69.8
+-LLLR 3 backgrounds 48 prime disagreements 0 patterns 2
+level 1 LLLR 3 backgrounds 72 cells 521 seconds 69.9
++LLLR 3 backgrounds 72 prime disagreements 0 patterns 6
+level 1 LR 4 backgrounds 256 cells 230 seconds 17.3
++LR 4 backgrounds 256 prime disagreements 0 patterns 4
+level -1 LR 5 backgrounds 480 cells 643 seconds 202.3
+-LR 5 backgrounds 480 prime disagreements 0 patterns 4
+level 1 LR 6 backgrounds 2160 cells 1471 seconds 2388.1
++LR 6 backgrounds 2160 prime disagreements 0 patterns 10

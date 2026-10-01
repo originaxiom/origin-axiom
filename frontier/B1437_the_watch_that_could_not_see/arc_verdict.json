@@ -1,0 +1,15 @@
+{
+ "id": "B1437",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B984",
+  "B1426"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE DOC-CURRENCY GATE WAS INERT ON TEN OF NINETEEN LIVING DOCUMENTS, AND THE LOCK IT CITED DID NOT EXIST. Three defects, each measured before it was repaired. (1) The checker, PRACTICES and a generated view said the declared-debt set cannot grow because test_b984_doc_currency.py fails if it does; that file never existed. tests/test_doc_currency_gate.py is now that lock, with the planted controls the checker never had (stale caught, current passes, missing fails, frozen is a marker not a mention, a debt passes only when declared). (2) The debt report printed numeric distance while the check counts arcs that exist; one function serves both. (3) A document's citation was the largest B-number in its text, and another seat's arc numbers (B81xx, cited bare on main) exceed every arc here, so ten documents read as lag zero whatever they said; a number now counts only if an arc with that number exists. Five were past tolerance: COMPUTE_THE_PROGRAM by 202 arcs, THE_FRAMEWORK by 120, WORKING_RULES by 66, THE_LADDER and THE_SM_VERDICT by 63. They are declared as debts dated 2026-10-01 and the reads registered as a lead. Landed as two commits so that what the second unmasks cannot be read as a regression in the first."
+}

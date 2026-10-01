@@ -2934,6 +2934,11 @@ instrument. Do m369's and s639's backgrounds survive in a frame built from their
 a state**, given that the mechanism for three does not: this is L222's item (iv) with a census behind it.
 (v) Not in the census: the orientation-reversing half step (the Gieseking parent), non-cyclic covers, fillings.
 
+**Status 2026-10-01 (B1438):** the census is now one function, the slope, and twenty seconds of compute. (i) is put
+to every signed word state to length twelve under seal in B1439. (ii) has an answer in kind — a level is silent when
+no three sector characters share a slope while their quotients do not — and no explanation of why those two.
+(iii), (iv), (v) stand.
+
 ## L230 — THE WEB SEAT'S CHECKPOINTS: what main carries forward (registered 2026-10-01, B1432; registration over preservation)
 
 Five checkpoint archives from a web research seat were read in full on 2026-09-30 and 2026-10-01 (825 distinct files;
@@ -2941,11 +2946,15 @@ digests in the gitignored audit room). The SM lane had adopted the corrective on
 - **(a) The nonlinear coefficient.** On the object's own leaf the monodromy trace map has first resonant Birkhoff
   coefficient a = 16i√3/63 in Ω = dX∧dY/(2Z − XY); three independent implementations rerun identically here. Main has
   the multipliers (5 ± √21)/2 and no cubic term. To bank with its normalisation dependence (Ω → cΩ gives a/c).
+  **CLOSED 2026-10-01 (B1436):** derived on main from scratch in exact arithmetic, two charts, with the bite.
 - **(b) The repaired relative interaction.** The seat withdrew its own cup-product and Yukawa-support values (fixed
   vectors used as scalar functionals; a two-term chain that is not a relative cycle). Corrected supports: diagonal for
   up and bare down/lepton, one oriented cycle for the dressed channel. The chain-level computation with invariant
   covectors and a valid relative fundamental class is specified and NOT RUN. It is the first computable step toward
   Yukawa structure on the non-split backgrounds.
+  **CLOSED in main's frame 2026-10-01 (B1435, B1438):** run under seal on all 8 800 generation-shaped backgrounds with an
+  explicit relative fundamental chain; every coupling is s(ℓ) − s(η), a difference of slopes. The seat's own frame (its
+  M₆ triplet, its cross-member supports D and C⁺) is not re-run: its modules were never shipped.
 - **(c) Three index-12 carriers.** In SL(2, O/4) there are three conjugacy classes of index-12 subgroups containing −I;
   the July spectral bank computed one. Unverified beyond a GAP count.
 - **(d) The July closure formula** that main's B448 recorded as missing ("1 of 16", single-seat) is in the July packs;
@@ -2971,3 +2980,44 @@ probed. **Stale surfaces:** the withdrawn "16σ" on five documents; the count of
 or ten by surface); B1182 resting on the identification B1083 corrected; B723's verdict still PROVED after three
 retractions of its clause; CLAIMS C-cal without B653's voiding; B1137's "last door closed" where the probe has no
 power at measured precision. Each is a row to pay, not a finding to file.
+
+## L232 — FIVE LIVING DOCUMENTS OWED A READ (registered 2026-10-01, B1437)
+
+Unmasked when the doc-currency gate stopped counting another seat's arc numbers as citations. Lags on the day:
+`docs/COMPUTE_THE_PROGRAM.md` 202 arcs (newest own citation B1153), `docs/THE_FRAMEWORK.md` 120 (B1235),
+`WORKING_RULES.md` 66 (B1307), `docs/THE_LADDER.md` 63 (B1322), `docs/THE_SM_VERDICT.md` 63 (B1322). Each is a
+declared debt in `scripts/checks/doc_currency.py`, printed on every gate run. Paying one means reading the arcs
+banked since its newest citation and bringing the document to them, then removing its entry from the declared set and
+from the lock's pinned list in the same commit. THE_FRAMEWORK and THE_LADDER carry the "no canonical arrow" sentence
+L231 names; THE_SM_VERDICT predates B1427, B1432, B1434 and B1435. The reads wait on the owner's reshaping of the
+strategy only where the document states strategy; the factual rows do not wait.
+
+## L233 — THE SLOPE: what it is, and what it does not yet say (registered 2026-10-01, B1438)
+
+B1438 reduced the frame's index and couplings to s(χ), the cusp shape of the affine representation of a torsion
+character. Open, in the order they would be worked:
+- **(a) Couplings between different backgrounds — CLOSED the same day (B1438, Theorem E).** Between sector modules
+  with different extension characters the only invariant functional is quotient·quotient, and it gives zero on the
+  firing classes. A deck orbit is three copies of one generation with one set of couplings; the web seat's
+  oriented-cycle support is that functional. What remains is the question behind it: **what, outside this frame,
+  distinguishes three generations.** Backgrounds sharing an extension character (four on each locus of s961) do
+  couple through ε; they are different U(1) data over one SL(2)_β bundle and their joint reading is not worked out.
+- **(b) The arithmetic of s.** On + states s = ¼ Σ_R [1 + cot(πa) cot(πa′)], a Dedekind–Rademacher sum along the
+  cutting sequence. Whether s is the Eisenstein (Sczech) cocycle of the monodromy at the torsion point, and its
+  finite Fourier transform a partial zeta value at 0 of the state's real quadratic order (ℚ(√5) for the root), is
+  not checked. The slopes on the root's tower are 0, ±1, ±1/√5, ±2/√5, ±φ², ±φ⁻² to level four.
+- **(c) One object.** The local terms are a 1-cocycle on the action groupoid of the mapping class group of the
+  punctured torus on the torsion points of the character torus; states are conjugacy classes, levels powers,
+  characters fixed points. Relations between states are relations there. Not developed.
+- **(d) Fillings.** A rational slope p/q means the background's classes extend over the Dehn filling along
+  μ^q λ^(−p). The record's closed fillings are vector-like (B1351); how the count ±1 on the cusped level meets that
+  is not worked out.
+- **(e) E₆'s constants.** "Allowed" is charge-allowed. The Clebsch–Gordan constant of each allowed pair is not
+  computed; a zero there would remove a coupling the slope does not.
+- **(f) Larger modules — the question the theorems leave standing.** |I| ≤ 1 is a bound on the frame's rank-two
+  sectors. On a sibling manifold B1418 measured |I| = 2 on rank-four modules. The record's E₈ parent with a flat
+  rank-five bundle W (tens from H¹(W), five-bars from H¹(Λ²W)) has I(W) = I(Λ²W) = +1 built (audit lane R40 on
+  m010), is an open lead on the SM lane (sL-4), and was searched by the web seat on M₆ in bounded families (direct
+  sums, the (2,3) parabolic, deck-stable 3+1+1 extensions, Sym⁴: largest index 2; scripts not shipped). **Whether
+  a triangular rank-five determinant-one module on some level has I(W) = I(Λ²W) = ±3 is neither found nor
+  excluded.** With the slope it is computable on every level; it is the next arc.

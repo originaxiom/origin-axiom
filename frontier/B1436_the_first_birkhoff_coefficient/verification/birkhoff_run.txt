@@ -1,0 +1,8 @@
+chart (X,Y):   a = 16/63*sqrt(-3)   equals 16 sqrt(-3)/63: True
+chart (X,Z):   a = 16/63*sqrt(-3)   equal: True
+conjugate fixed point:  a = -16/63*sqrt(-3)   equals -a: True
+F o F:   a = 32/63*sqrt(-3)   equals 2a: True
+Omega -> (7/3) Omega:   a = 16/147*sqrt(-3)   equals a/(7/3): True
+linear control:  a = 0
+bite (leaf curvature dropped):  a = -11/18 + 55/54*sqrt(-3) + 1/42*sqrt(21) + -5/126*sqrt(-3)*sqrt(21)   differs: True
+ALL CHECKS: True

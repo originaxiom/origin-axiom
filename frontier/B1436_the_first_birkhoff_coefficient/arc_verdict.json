@@ -1,0 +1,15 @@
+{
+ "id": "B1436",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B520",
+  "B622"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE FIRST BIRKHOFF COEFFICIENT OF THE OBJECT'S MONODROMY TRACE MAP. On the leaf kappa = -2 the trace map F(X,Y,Z) = (Z, YZ-X, Z(YZ-X)-Y) fixes the characters ((3 +- sqrt(-3))/2, (3 -+ sqrt(-3))/2, (3 +- sqrt(-3))/2) with multipliers ((5 + sqrt 21)/2)^(+-1), and in the area form Omega = dX ^ dY / (2Z - XY) its normal form (q L(qp), p / L(qp)), L(s) = lam (1 + a s + ...), has a = 16 sqrt(-3)/63 at the first and -16 sqrt(-3)/63 at the conjugate. Derived from scratch in exact arithmetic over Q(sqrt(-3), sqrt(21)) with no computer algebra system: two charts agree, the double iterate gives 2a, Omega -> c Omega gives a/c, a linear map gives 0, and dropping the leaf's curvature gives a different number. The coefficient needs no Darboux chart: it depends only on the linear frame's area at the fixed point. A web seat reported the number; the audit lane received it unverified; this closes lead L230 (a). It is a number of the object with one normalisation (a times Omega is invariant), purely imaginary on a complex leaf, and not a coupling."
+}

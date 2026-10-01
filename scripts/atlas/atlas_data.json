@@ -8813,6 +8813,83 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1435": {
+   "slug": "the interaction census",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "K23",
+    "L230",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1436": {
+   "slug": "the first birkhoff coefficient",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B520",
+    "B581",
+    "B622",
+    "L230"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "dormant",
+   "domain": "topology"
+  },
+  "B1437": {
+   "slug": "the watch that could not see",
+   "motifs": [],
+   "refs": [
+    "L232"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1438": {
+   "slug": "the slope law",
+   "motifs": [
+    "closing",
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B143": {
    "slug": "interaction feasibility",
    "motifs": [
