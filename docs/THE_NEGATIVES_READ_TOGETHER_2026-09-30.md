@@ -192,3 +192,21 @@ vacuum nor forbid spontaneous breaking".
 - **The record's explicit breakers** (B1364, B1365) choose inside the same deck orbits, so they move the choice rather than make it.
 - **The July record had the family's first instances:** B335 (masses need the deck's breaking), B343 (the unbroken deck forces
   θ₁₃ = 0) and B521's Gate C. `frontier/B1507_the_record_reread`.
+
+## Currency (2026-10-01, B1508): which negatives are about the architecture
+
+The owner: *"they assume m004 is the only object, and ignore the fact that reality uses more thsn that"*. Read for scope (B1508 §1),
+most of the chirality chain's kills concern m004, its tower or its class:
+- B1374's one-cusped zero needs b₁ = 1.
+- B1504's census puts the root, not the architecture, on the forbidden side.
+- B1506 §5 is a statement about the tower.
+- B1398 says it is "not a verdict on the architecture".
+
+Two kills are general: closed joins are vector-like (B1351), and a non-split background without sources has no harmonic metric
+(B1378). The second is a balance problem once sources are allowed (the audit lane's R41).
+
+The family "symmetry cannot select" keeps its scope from B1507's currency note above: it limits invariant selection, not dynamics.
+
+The relations listed as unused since (P as a move, the word states, the m010 ladder, fillings) now have one data point. The audit
+lane's partial filling of a degree-5 cover of m004 is chiral and keeps two cusps, but neither cusp is free (B1508 §4; computed
+unsealed). A census of partial fillings is registered to seal. `frontier/B1508_the_path_under_the_reframe`.

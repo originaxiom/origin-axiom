@@ -600,6 +600,13 @@ a mathematical fact about this one construction, not a claim, anywhere in this s
 about the physical gravity of our universe. The framing lock, `GOVERNANCE.md` §2, governs
 this section exactly as it governs every other.)*
 
+> **Scope note (2026-10-01, B1508; the xB seat's xB015 K1 and xB016 Addendum 1, sep16-branch 2026-09-17): the count is one, not
+> zero.**
+> - In three dimensions [G] = length, so σ = ℓ/4G is dimensionless. Fixing Λ = −1 fixes the unit ℓ, not ℓ/G.
+> - B1015's own declaration names σ = c/6 as the dimensionless frame.
+> - So `S = −Vol·σ` has one free dimensionless constant, c = 6σ (Brown–Henneaux c = 3ℓ/2G). Recomputed in B1508 §4.
+> - The sentences below that call σ "the one dimensionful unit" are corrected by this note.
+
 **The action (C1, B1088) has zero free dimensionless constants.** With `Λ = −1` forced
 (B259) and `ℓ = 1` following from it, the object's own volume is recomputed here from
 first principles (28-digit match to the banked figure), and the Chern–Simons term is not

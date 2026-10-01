@@ -112,6 +112,19 @@ Of the native arrows only the cover qualifies at present: pullback and induction
 Applied, the criterion cuts the landscape down to one commensurability class. That answer to "which objects?" is a theorem (the
 invariant trace field is a commensurability invariant), not a preference.
 
+> *Currency (2026-10-01): the owner's reframe, and the audit's correction (B1508).* The owner: *"they assume m004 is the only
+> object, and ignore the fact that reality uses more thsn that, that is the new reframe"*. The audit lane's R57
+> (ROOT_SCOPE_AUDIT.md:120–156) had already said of this paragraph and of B1385: "The exclusivity is unearned".
+> - The criterion stands: transport must be derived, and decoupled ingredient lists are not a theory.
+> - Its application here was too narrow:
+>   - the cover is not the only arrow that carries flat data, since a representation descends along a Dehn filling exactly when it
+>     kills the slope;
+>   - a partial filling keeps its other ends, so "fillings close the manifold" holds for total fillings only;
+>   - and "together" can be one theory over several states joined by a demonstrated physical map, not only one state.
+> - The trace-field theorem excludes a common finite cover. It does not exclude every physical relation between states.
+> - Which states are physical stays undecided (B1384: NOT DERIVED). The reframe is a premise of the programme, not a result.
+> - Motivation only, as this file is. `frontier/B1508_the_path_under_the_reframe`.
+
 **"Together" means one bundle, not several sectors.** The Standard Model's chiral fermions, its Higgs field and its Yukawa couplings
 live on one gauge bundle. Decoupled pieces on several manifolds are not a Standard Model, however their ingredients add up on paper.
 So "more objects together" can only mean one state reached from the root by a native arrow and carrying the root's data. This is

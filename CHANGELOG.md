@@ -1,5 +1,62 @@
 # Changelog
 
+## B1508 — the path under the reframe: the path note's blocks read for scope, and the record searched beyond m004
+
+The owner corrected the path note: "most of these theorems are malinformed, they assume m004 is the only object, and ignore the fact
+that reality uses more thsn that, that is the new reframe … do a proper repo search … new seats especially codex". Four reading lanes
+and this seat covered seven branches, nothing merged:
+- this branch, main and the audit lane (69855eb4);
+- sep16-branch, the xB seat;
+- the paper-review branch;
+- outside-bench;
+- the physics seat.
+
+- **The blocks, read for scope.**
+  - Closed joins are vector-like everywhere (B1351).
+  - A non-split background without sources has no harmonic metric (B1378). With sources it is a balance problem (the audit lane's R41).
+  - The rest hold on m004, its tower or its class: B1374 needs b₁ = 1, B1504's census puts the root on the forbidden side, B1506 §5
+    is the tower's, and B1398 says so of itself.
+  - B1385's cover-only join is a premise. The audit lane's R57: "The exclusivity is unearned".
+- **What the record already holds.**
+  - Codex is one seat with two lanes (main's SEAT_REGISTER). Its audit lane has a finite-energy harmonic vacuum family on m004's
+    convex-projective deformation (R42–R56): so(10), one modulus, a Yukawa overlap, light content 16 + 16*, vector-like.
+  - It also has a sourced one-configuration three on m202 (R15–R20), which gives pairs once its cores are resolved, and the cone end
+    at action level (R58–R70; R70 is sealed and not yet run).
+  - This seat's cube~3.24 carries two generations on a four-cusped state; the count depends on the completion.
+  - Never harvested here before:
+    - the xB seat: xB027 had B1506's shape twelve days earlier, for A5;
+    - the paper-review rounds: h¹(χ²) ≤ 2 to degree 8, and B1430's three hypercharges are exhaustive;
+    - outside-bench's memos 234–236.
+- **Recomputed with own code.**
+  - The audit lane's partial-filling witness: vol 7.706911803, CS 0.157590040879, not amphicheiral.
+  - The filling descent's abelian shadow, ℤ³ → ℤ².
+  - The witness's two remaining cusps are not free (computed unsealed; one manifold).
+  - R69's level counts equal B1506's own record.
+  - σ is dimensionless, so the action has one free constant (xB015/xB016).
+- **Corrections.**
+  - The path note: E71 and E54.
+  - B1385 and P022: R57.
+  - B1506 §0: "one background, one count" needs T2's hypothesis (R69).
+  - B1507: codex is one seat; R64/R68 are the physics seat's; its sweep missed three branches.
+  - WORKING_RULES: the owner's reframe recorded. Joins need a demonstrated physical map; decoupled ingredient lists are still not a
+    theory.
+  - THE_FRAMEWORK and GRAND_COMPUTATION: one free constant.
+  - The ERROR_LEDGER has eight rows.
+- **The answer.**
+  - The qualitative Standard Model is not blocked by a theorem of the architecture.
+  - The missing piece is the join: one admitted background in one action that carries a net chiral count.
+  - The path note's premise A ("the completed count") is superseded as designed (R60, R63, R70). It was never sealed or run.
+  - Four leads are registered, each to be sealed before computing.
+- **Surfaces.**
+  - THE_PATH note: banner and correction.
+  - THE_SM_VERDICT, OPEN_LEADS, LAW_MAP (one row), ERROR_LEDGER, RELAY_LEDGER (four rows), SEAL_LEDGER and the alias table (next
+    B1509).
+  - The letter's seventy-second note, README, the negatives note and the chirality map.
+  - Notes on B1385, B1506, B1507 and P022; WORKING_RULES, THE_FRAMEWORK and GRAND_COMPUTATION.
+  - The atlas and the views.
+
+0 of 19; the price is unchanged.
+
 ## The path to the Standard Model, read from the record (docs/THE_PATH_TO_THE_SM_2026-10-01.md)
 
 The owner asked whether there is a genuine path to the full Standard Model. The seat answered from the record, and the answer is

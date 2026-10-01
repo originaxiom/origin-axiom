@@ -8888,7 +8888,8 @@
     "golden",
     "z3_generation",
     "amphichiral_cp",
-    "torsion"
+    "torsion",
+    "wrt_quantum"
    ],
    "refs": [
     "B326",
@@ -8979,6 +8980,33 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 45,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1508": {
+   "slug": "the path under the reframe",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B143",
+    "K1",
+    "L3",
+    "P022"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "arithmetic"
   },

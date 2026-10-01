@@ -217,3 +217,11 @@ even on every resolved member; the census's hexagonal cusps sit on four members,
 *Update 2026-09-30 (B1506 run):* B1506 run as sealed (PROVED: the level — one background has one count on every level; B1378's M₆ triplet is the orbit of the root's whole deck and lives on s961 as the deck orbit of one generation-shaped background that does not lift; an orbit of size k counts gcd(n, k) on Mₙ; s961 carries 48 generation-shaped backgrounds, none lifted, in 16 orbits of three, and M₆ 2 160, in 16 orbits of three (s961's) and 352 of six; P1–P8 all YES). For main, relayed and not applied: B1427's "Y₃: 0 firing" holds for lifted backgrounds only, and T1 is the every-n form of B1427's loci computation. Next arc B1507.
 
 *Update 2026-10-01 (B1507):* B1507 banked (PROVED, not sealed: the record reread). July's three on the root's cover (B335, B326, B343, B345, B350) and its fence (B521's Gate C), R64/R68 recomputed (I-14's multiplicity 1, status UNEARNED), s961's deck-inverting isometries, and five scopes and corrections of record. For main, relayed and not applied: B1418:33's and B1297's addendum's s961 zero has lifted scope, and B1430 is acknowledged. Next arc B1508.
+
+*Update 2026-10-01 (B1508):* B1508 banked (PROVED, not sealed: the path under the reframe). It answers the owner's correction that the path note's theorems "assume m004 is the only object". The note's eight blocks are read for scope: one general block (closed joins), one blocked mechanism (non-split without sources), and the rest on m004, its tower or its class, or premises. The record's work beyond m004 is harvested by citation, from:
+- the audit lane, codex's second lane: a harmonic vacuum family on m004's projective deformation, vector-like; R41's source criterion; R57; R58–R70; and R69, which checks B1506;
+- the xB seat on sep16-branch;
+- the paper-review rounds;
+- outside-bench's memos 234–236.
+
+Corrections: B1385, P022, B1506 §0, B1507, WORKING_RULES (the owner's reframe recorded), THE_FRAMEWORK and GRAND_COMPUTATION (one free constant). **A label correction for this table:** the "R64/R68" of the B1507 row above are the physics seat's; the audit lane's R64 and R68 are CONE_GAUGE and CONE_FERMION. The number B1508 had been earmarked for "the completed count", which is superseded as designed and was never sealed or run. Next arc B1509.

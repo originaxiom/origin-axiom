@@ -418,6 +418,15 @@ emitted value. The structure is the object's; the values are the observer's.
 > have symmetries that reverse the order of the three. Whether they keep each triple of vacua together, which would give the
 > classic "two plus one" flavour pattern, is the next question, to be sealed before it is computed. Five earlier statements of this
 > seat are narrowed or corrected.*
+>
+> *And (B1508), the path under the reframe: asked whether there is a path to the Standard Model, this seat listed theorems that block
+> it. The owner pointed out that most of them were proved for the starting space alone, while reality uses more than that space.
+> Read for what they actually assume, only two block in general: a closed space never gives handedness, and one particular
+> mechanism needs an outside source. The rest hold for the starting space, its tower of covers or its family. A search of all seven
+> branches then found work this seat had not used. Another seat (codex) has built a physical vacuum on a deformation of the starting
+> space itself: finite energy, a grand-unified gauge group, but with its matter in mirror pairs, so no handedness yet. The record
+> also has a three-family construction in one configuration on a sibling space, and a two-family count on a four-ended space. What
+> is missing is the join: one background, in one action, that carries handedness. The nineteen numbers are still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

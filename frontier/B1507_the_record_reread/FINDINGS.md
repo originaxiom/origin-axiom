@@ -9,6 +9,16 @@ with own code; corrections of record; no prediction sealed or run) · **Price: u
 The sweep read the record's work on the three generations, flavour, chirality and vacuum selection against B1506. It covered this
 branch, main, the audit lane, the physics seat, the codex seat and outside-bench. Six findings change how the picture reads:
 
+> *Currency (2026-10-01, B1508).*
+> - **Codex is one seat.** The audit lane and "the codex seat" are its two lanes (main's `docs/SEAT_REGISTER.md:14`). The audit
+>   lane is the active one, and its R-numbers are its own.
+> - **This arc's "R64" and "R68" are the physics seat's** (icosian E₈). The audit lane's R64 and R68 are different results: CONE_GAUGE
+>   and CONE_FERMION.
+> - **The sweep missed three branches:** sep16-branch (the xB seat, xB001–xB034), the paper-review branch's referee rounds, and
+>   outside-bench's memos 234–236 (E54).
+>   - xB027 had B1506's shape twelve days earlier, for A5: "One is the invariant. The backgrounds are the orbit."
+>   - All three branches are read in B1508 §2.3–§2.5.
+
 - **The idea is from July.** B335 (July) says "the three generations are related by the deck transformation of the 3-fold cyclic
   cover of 4₁". B326 has the deck acting irreducibly on (ℤ/4)². B343 and B345 drew its flavour consequences, and B350 (iv) proved the
   deck fixes no non-zero class on any level. None of B1270–B1506 cites B335, B343, B345 or B350.

@@ -122,6 +122,10 @@ not a continuum. The ℝ⁺ continuum residue lives only in the anchors (§5).
 
 ### 2.3 The action (B1088, PROVED — zero free dimensionless constants)
 
+> **Scope note (2026-10-01, B1508; xB015 K1 and xB016 Addendum 1, sep16-branch):** one free dimensionless constant, not zero.
+> - σ = ℓ/4G is dimensionless in three dimensions ([G] = length), and c = 6σ.
+> - Λ = −1 fixes the unit, not ℓ/G. Recomputed in B1508 §4.
+
 | constant | value | status |
 |---|---|---|
 | Λ | −1 | FORCED (B259 — exact 3d Einstein solution) |

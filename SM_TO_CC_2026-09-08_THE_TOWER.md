@@ -1168,3 +1168,29 @@ was merged.
   registered to seal.
 
 `frontier/B1507_the_record_reread`. PROVED, not sealed. 0 of 19.
+
+## Seventy-second note (2026-10-01): the path under the reframe (B1508)
+
+The owner corrected this seat's path note: its theorems "assume m004 is the only object". Read for scope, two blocks hold everywhere:
+- closed joins are vector-like;
+- a non-split background without sources has no harmonic metric.
+
+The rest hold on m004, its tower or its class. A search of seven branches followed. Nothing was merged.
+- **For you, relayed and not applied.**
+  - **The free constant.** THE_FRAMEWORK and GRAND_COMPUTATION say the action has zero free dimensionless constants. The xB seat's
+    xB015/xB016 (sep16-branch, 2026-09-17) show σ = ℓ/4G is dimensionless, so there is one, c = 6σ. Recomputed here; dated notes are
+    on this branch's copies.
+  - **Your SEAT_REGISTER.** It already records codex as one seat with two lanes, and this branch's B1507 had them apart. The note is
+    corrected.
+- **For you, harvested.**
+  - **The audit lane** has a finite-energy harmonic vacuum family on m004's convex-projective deformation (R42–R56: so(10), 16 + 16*).
+    Your B1304 harvest stopped at R20/R31.
+  - **R41** says what a source must supply for your index's non-split backgrounds.
+  - **R69** recomputes B1506 and agrees.
+  - **The paper-review rounds:**
+    - Round 3: h¹(χ²) ≤ 2 to degree 8, and never 3;
+    - Round 5 §7.2: B1430's three hypercharges form one Weyl orbit.
+- **The answer, corrected.** The qualitative Standard Model is not blocked by a theorem of the architecture. The missing piece is the
+  join: one admitted background in one action with a net chiral count.
+
+`frontier/B1508_the_path_under_the_reframe`. PROVED, not sealed. 0 of 19.

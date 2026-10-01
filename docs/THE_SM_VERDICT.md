@@ -956,3 +956,23 @@ left it.
 > have. The three are a physical vacuum that carries a chiral generation (I-26), three families in one vacuum, and the values. Three
 > changes of premise could reopen a path, each with a decisive test; the first (is main's index the count of a physical boundary
 > problem?) is B1508, sealed before computing. `docs/THE_PATH_TO_THE_SM_2026-10-01.md`. No verdict of this ledger changes. 0 of 19.
+
+> **Currency note (2026-10-01, later, B1508): the path under the reframe.** The owner: *"most of these theorems are malinformed,
+> they assume m004 is the only object, and ignore the fact that reality uses more thsn that"*. Both corrections hold.
+> - **The blocks, read for scope.**
+>   - General: closed joins are vector-like (B1351).
+>   - One mechanism: a non-split background without sources (B1378). The audit lane's R41 says what a source must supply.
+>   - The rest hold on m004, its tower or its class (B1374's b₁ = 1, B1504's census, B1506 §5, B1398's own scope sentence).
+>   - B1385's cover-only join is a premise (the audit lane's R57: "The exclusivity is unearned").
+> - **What the record already holds, which the note left out:**
+>   - the audit lane (codex's second lane) has a finite-energy harmonic vacuum family on m004's convex-projective deformation
+>     (R42–R56): so(10), one modulus, a Yukawa overlap, light content 16 + 16*, vector-like;
+>   - a sourced one-configuration three on m202 (R15–R20), which gives pairs once its cores are resolved;
+>   - the cone end at action level (R58–R70);
+>   - this seat's two generations on the four-cusped cube~3.24, which depend on the completion (B1386–B1391).
+> - **The answer.**
+>   - The qualitative Standard Model is not blocked by a theorem of the architecture.
+>   - The missing piece is the join: one admitted background in one action that carries a net chiral count.
+>   - The values stay at 0 of 19.
+> - **Applied to this ledger.** B1506's "one background, one count" needs T2's hypothesis (R69, B1506's own record). This ledger's
+>   verdicts do not change. `frontier/B1508_the_path_under_the_reframe`.

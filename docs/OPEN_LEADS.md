@@ -3130,6 +3130,29 @@ Model's qualitative content. Each maps to a lead already open:
 - **B. A chiral end from geometry.** This is sL-8 and B1505's exact description.
 - **C. The deck kept, with the orbit in one configuration.** This is this lead's one bit.
 
+*Corrected the same day (B1508), on the owner's "they assume m004 is the only object".*
+- **The blocks.** Read for scope, only closed joins are blocked in general. A non-split background is blocked only without sources
+  (the audit lane's R41). Every other block holds on m004, its tower or its class.
+- **A** is superseded as designed:
+  - its frame is the audit lane's R60 (W ⊕ W^⊥, after Albin et al.);
+  - R63 says the reduction to link cohomology needs a spectral-gap hypothesis;
+  - R70 says self-adjointness is not N = 1.
+
+  B1508 now names the correction.
+- **B** is the audit lane's R62–R70.
+- **C** has R69's answer: direct image, pullback and gauging differ, and gauging needs an anomaly-compatible prescription.
+- **What the record already holds:**
+  - a finite-energy harmonic vacuum family on m004's projective deformation, which is vector-like (R42–R56);
+  - a sourced one-configuration three on m202 (R15–R20);
+  - cube~3.24's two generations (B1386–B1391).
+- **The leads**, each to be sealed before computing (B1508 §6):
+  1. a non-split extension over R42's harmonic background, with R41's balance;
+  2. partial fillings of m004's covers in the seat's frame. One witness is computed: its two cusps are not free;
+  3. cube~3.24's completion against R60–R70;
+  4. own-code verification of R55's light census or R42's identity.
+
+`frontier/B1508_the_path_under_the_reframe`.
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

@@ -1,0 +1,29 @@
+{
+ "id": "B1508",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1507",
+  "B1506",
+  "B1504",
+  "B1500",
+  "B1398",
+  "B1392",
+  "B1389",
+  "B1388",
+  "B1386",
+  "B1385",
+  "B1384",
+  "B1378",
+  "B1374",
+  "B1369",
+  "B1351",
+  "B1225"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE PATH UNDER THE REFRAME (the owner, 2026-10-01: 'most of these theorems are malinformed, they assume m004 is the only object, and ignore the fact that reality uses more thsn that, that is the new reframe ... do a proper repo search ... new seats especially codex'; this branch 76d98eba, main 987c0c8f, the audit lane 69855eb4, sep16-branch 3205984b, the paper-review branch 013c9ac7, outside-bench 13d2c5b6, the physics seat 659487bb; nothing merged). (1) The path note's eight blocks read for scope: closed joins are vector-like (B1351, general) and a non-split background without sources has no harmonic metric (B1378, general on the mechanism); B1374's one-cusped zero and B1392 are general theorems that free cusps escape (83 on 35 members; six one-cusped members with b1 = 2); B1504's forbidden chiral end and B1506's one-generation-per-vacuum hold on m004 and its tower; the torsor principle limits invariant selection, not dynamics; B1385's cover-only join is a premise (the audit lane's R57: 'The exclusivity is unearned'). (2) The record already holds, beyond the note: the audit lane (codex's second lane, main's SEAT_REGISTER) has a finite-energy harmonic vacuum family on m004's convex-projective deformation (R42-R56: so(10), one modulus, a nonzero Yukawa overlap, light content 16 + 16*, vector-like); a source criterion for the non-split index (R41: three positive flag balances, the block U(1) the wrong direction); a sourced one-configuration three on m202's arcs (R15-R20; pairs once resolved, R30/R31); the cone end at action level (R58-R70; R70 sealed: a bulk-only supersymmetric end cannot carry the fixed-period law); this seat's cube~3.24 count of two generations on a four-cusped state, completion-dependent (B1386-B1391). Never harvested here: the xB seat (xB027's stabiliser-fixed count, B1506's shape twelve days earlier, for A5; xB029-xB034), the paper-review rounds (h1(chi^2) <= 2 to degree 8; B1430's three hypercharges exhaustive), outside-bench memos 234-236. (3) Recomputed: the audit lane's partial-filling witness (an irregular degree-5 cover of m004, cusp 0 filled along (2,1): two cusps, vol 7.706911803, CS 0.157590040879, not amphicheiral) and the filling descent's abelian shadow (Z^3 -> Z^2); its remaining cusps are not free (computed unsealed, one manifold); R69's level counts (-1,-1,-3,-1,-1,-3) equal B1506's own record, so 'one background, one count' needs T2's hypothesis; sigma = l/4G is dimensionless, so the action has one free constant (xB015/xB016), not zero. (4) Corrections: the path note (E71, E54), B1385 and P022 (R57), B1506 section 0 (R69), B1507 (codex is one seat; R64/R68 are the physics seat's; its sweep missed three branches), WORKING_RULES (the owner's reframe: joins by a demonstrated physical map), THE_FRAMEWORK and GRAND_COMPUTATION (one free constant). The qualitative Standard Model is not blocked by a theorem of the architecture; the missing piece is the join, one admitted background in one action with a net chiral count. B1508 as 'the completed count' is superseded as designed (R60, R63, R70). 0 of 19; price unchanged."
+}

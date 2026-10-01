@@ -330,6 +330,18 @@ It now reads:
 - A fork's alternative stays in the architecture as a related state until a derived selector settles its role.
 - A multi-state construction is admissible only as a single state reached by a native arrow. Decoupled "sectors" on several states
   are not a Standard Model: its chiral fermions, Higgs field and Yukawa couplings live on one gauge bundle.
+  > *Amended 2026-10-01 (the owner's reframe; B1508).* The owner: "most of these theorems are malinformed, they assume m004 is the
+  > only object, and ignore the fact that reality uses more thsn that, that is the new reframe". The rule now reads:
+  > - **When a multi-state construction is admissible.** Its pieces must be joined by a demonstrated physical map: an action, its
+  >   operator domains and its anomaly account, travelling together.
+  >   - Cover transport is one such map (the audit lane's R58).
+  >   - The descent of flat data along a filling is another candidate (R57).
+  >   - A single state reached by a native arrow is one case, not the only one.
+  > - **Decoupled ingredient lists** are still not a theory.
+  > - **Every blocking claim carries its scope:** general, frame, class or one state. It is read as a block only where its hypotheses
+  >   reach (B1384's transport rule).
+  > - **Which states are physical** stays undecided. The reframe is the owner's premise for the programme, recorded as such, not a
+  >   derived result.
 
 **First application, the same day (B1385).**
 - The words cannot supply a free cusp.

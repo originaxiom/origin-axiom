@@ -1,0 +1,12 @@
+{
+ "G_length_exponent_by_d": {
+  "3": 1,
+  "4": 2,
+  "5": 3,
+  "11": 9
+ },
+ "brown_henneaux_c_over_sigma": "6",
+ "free_dimensionless_constants_in_S_eq_minus_Vol_sigma": 1,
+ "sigma_dimensionless": true,
+ "sigma_length_exponent_d3": 0
+}

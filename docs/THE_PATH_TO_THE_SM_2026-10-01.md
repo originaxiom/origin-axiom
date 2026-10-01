@@ -3,6 +3,17 @@
 *Seat: cc (the SM-derivation branch). Written after the owner asked: "do u see any genuine path to full sm? i believe by now we have
 all ingredients". The answer below was given in chat and banked on the owner's "go for it". 0 of 19.*
 
+> **Corrected the same day (B1508).** The owner: *"most of these theorems are malinformed, they assume m004 is the only object, and
+> ignore the fact that reality uses more thsn that, that is the new reframe. also i believe we have some of the crucial results youre
+> mentioning, or at least half developed work on it, such as physical vacum etc"*. Both points hold.
+> - Read for scope, only one of the blocks below is a general block: closed joins are vector-like. A second blocks one mechanism, a
+>   non-split background without sources. The others hold on m004, its tower or its class, or are premises.
+> - The record already holds a finite-energy harmonic vacuum family on m004's projective deformation (the audit lane's R42–R56), which
+>   is vector-like. It also holds a sourced one-configuration three on m202 (R15–R20) and a two-generation count on the four-cusped
+>   cube~3.24 (B1386–B1391). The note cited none of them.
+> - The text below is kept as written. The section **Correction (B1508)** at the end gives the corrected answer, and
+>   `frontier/B1508_the_path_under_the_reframe` gives the evidence.
+
 ## The answer in one paragraph
 
 There is no path to the full Standard Model with its 19 numbers in sight, and the record's own theorems say why: the object fixes
@@ -58,4 +69,70 @@ and sharp statement, but it is not a derivation of the full Standard Model.
 B1508 tests route A. On the cone-completed cusp of s961, every self-adjoint end condition is a subspace W of the cusp torus's
 H¹(∂M; V) with its annihilator for V*. Is main's index the count of one of them, which one, and what does the same frame give on the
 polystable (supersymmetric) representative of each background? Its design-time theorem and predictions are sealed before anything is
-computed. `frontier/B1508_the_completed_count` (when banked).
+computed. ~~`frontier/B1508_the_completed_count` (when banked).~~ *Superseded the same day: the design is the audit lane's R60
+frame, bounded by R63 and R70; never sealed or run. The number B1508 names the correction below.*
+
+## Correction (B1508, 2026-10-01, later the same day)
+
+**What was wrong.**
+- **Blocks read past their scope.** The note read theorems proved on one state, one tower or one class as blocks on the Standard Model
+  (ERROR_LEDGER, E71 instance):
+  - "every one-cusped member is a theorem-zero" holds where b₁ = 1. B1369 lists six one-cusped members with b₁ = 2, and the
+    free-cusp theorem gives zero only where no cusp is free.
+  - B1506 §5's "one generation per vacuum" is a statement about m004's tower.
+  - B1504's census puts the root, not the architecture, on the forbidden side for a chiral end.
+  - B1398 says of itself: "a verdict on one generated structure, m004's commensurability class, in one frame … not a verdict on the
+    architecture".
+- **Absences asserted without sweeping the record** (E54 instance):
+  - "the record has neither", for three in one configuration;
+  - a vacuum row that cited none of the audit lane's physical-vacuum work.
+
+**The blocks, by scope** (B1508 §1):
+- **General:** closed joins are vector-like (B1351).
+- **General on one mechanism:** a non-split background without sources has no harmonic metric (B1378). With sources, it becomes a
+  balance problem (the audit lane's R41).
+- **General theorems that free cusps escape:** B1374/B1369 and B1392.
+- **Local to m004, its tower or its class:** B1504 T2 and its census; B1506 §5.
+- **General in form, constraining selection only:** the torsor principle (B1225). It limits selection by invariant data, not dynamics.
+- **A premise:** "together means a cover" (B1385, P022's addendum). The audit lane's R57 calls it "The exclusivity is unearned".
+
+None of these blocks a multi-state construction joined by a demonstrated physical map.
+
+**What the record already holds** (B1508 §2), by bridge.
+- **Bridge 1, the physical vacuum.** Both halves exist, on different backgrounds.
+  - The audit lane, codex's second lane, has a finite-energy harmonic vacuum family on m004's convex-projective deformation (R42–R56).
+    It has so(10), one modulus with a kinetic term, a nonzero Yukawa overlap, and light content 16 + 16*, so it is vector-like.
+  - The chiral backgrounds are main's non-split ones. They are not harmonic, and R41 says what a source must supply to admit them.
+  - This seat's own count of two generations is on cube~3.24, a four-cusped state, and depends on its completion (B1386–B1391).
+- **Bridge 2, three in one configuration.** It exists conditionally on m202. The physics seat's R72 and the audit lane's R14–R20 have
+  a net three on three source arcs. Once the cores are resolved it gives light pairs (R30, R31). B1506's orbit of three vacua is the
+  tower's answer, not the record's only one.
+- **Bridge 3, the values.** Unchanged: 0 of 19.
+
+**The corrected answer.**
+- The qualitative Standard Model is not blocked by a theorem of the architecture.
+- Its pieces are half-developed on several states: a vector-like physical vacuum on m004's projective family, chiral counts on
+  non-split or completed backgrounds, a sourced three on m202, and the cone end as an action-level problem (the audit lane's R58–R70).
+- What is missing is their join: one admitted background in one action that is finite-energy, carries a net chiral count, and has an
+  admitted end domain and an anomaly-consistent spectrum.
+- The audit lane's sealed R70 names what an end must add for that: end degrees of freedom, a changed bosonic end law, a changed metric
+  or action, or a smaller symmetry. The reframe says the missing end datum may come from more than m004. The record has not derived it.
+
+**The premises, re-read.**
+- **A**, "the completed count", is superseded as designed:
+  - its frame is the audit lane's R60 (W ⊕ W^⊥, after Albin et al.);
+  - R63 says the reduction to link cohomology needs a spectral-gap hypothesis;
+  - R70's countercontrol "prevents equating self-adjointness with full 4d N=1".
+
+  It was never sealed or run, and the number B1508 now names this correction.
+- **B** is the audit lane's R62–R70.
+- **C** has R69's answer: direct image, pullback and gauging are different operations, and gauging needs an anomaly-compatible
+  prescription.
+
+**Next.** B1508 §6 registers four leads, each to be sealed before computing:
+1. a non-split extension over R42's harmonic background, with R41's balance;
+2. partial fillings of m004's covers in the seat's frame;
+3. cube~3.24's completion against R60–R70;
+4. own-code verification of R55's light census or R42's identity.
+
+0 of 19.

@@ -20,6 +20,14 @@ every level. This arc asks what that fixes.
 
 - **One background, one count.** Shapiro keeps a background's index when it is induced down (B1384 S3), and a pullback keeps it on
   the way up (T2). So a single background has the same count on every level. "One or three" is never about one background.
+  > *Scope (2026-10-01, B1508; the audit lane's R69, LEVEL_ACTION.md:50–53):* "a single background" here means a T5 doublet
+  > background, which is T2's hypothesis.
+  > - The induced object Ind D₀ is also a single background on the root, of rank six. Its count is −gcd(n, 3) = (−1, −1, −3, −1, −1,
+  >   −3) on levels 1–6. That is this arc's own post-run record (RS3), and R69 recomputed it over ℚ(i).
+  > - So the count depends on the level for an induced background and not for a doublet. R69: "B1506's 'one background, one count'
+  >   requires its rank-two T2 hypothesis".
+  > - R69 also says that direct image, pullback and quantum gauging are not interchangeable. Gauging needs an anomaly-compatible
+  >   prescription. That bears on the one bit (§0 below, §5).
 - **The triplet is the orbit of the root's whole deck.** τ³ changes the seed's SL(2)_β × U(1)² data only by the ℤ/2 that E₆ ⊃
   (SU(2) × SU(6))/ℤ₂ quotients out (T4). So the seed's orbit under ℤ/6 has three members, and they are the triplet: it is fixed by the
   whole deck of M₆ over the root, not only by the part over M₂.

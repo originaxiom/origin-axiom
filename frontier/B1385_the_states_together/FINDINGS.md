@@ -241,6 +241,16 @@ cusps are open one at a time, and a swap closes the pair. That is sL-6, the Eise
   stays on the P-fixed states and on m004's class (T3).
 - **The joint region is fixed by theorem, not by choice.** It is the commensurability class, and the architecture's refinements
   enlarge it. sL-1 is thereby re-derived from the genesis rather than from the owner's direction of 2026-09-16.
+  > *Scope (2026-10-01, B1508; the audit lane's R57, ROOT_SCOPE_AUDIT.md:120–156):* **not fixed by theorem.** "The exclusivity is
+  > unearned … It is not the whole architecture by a theorem of commensurability."
+  > - Shapiro identifies cohomology along a cover. It does not classify every transport of data.
+  > - Flat data also descend along a Dehn filling: π₁(M(s)) = π₁(M)/⟨⟨s⟩⟩, and ρ descends iff ρ(s) = 1. The abelian shadow is
+  >   recomputed in B1508 §4.
+  > - A partial filling keeps its other ends, so §1's "fillings close the manifold" holds for total fillings only.
+  > - What stands: "together" cannot mean decoupled sectors (R57 agrees), T1–T4, and L3, the global parity.
+  >
+  > The commensurability class is a cover-only lane, legitimate when labelled as such, and not the joint region of the
+  > architecture. The owner's reframe of 2026-10-01 ("reality uses more" than m004) is recorded in WORKING_RULES.
 - **The seam: m010.** B1379 legitimised m010 as a generated state, and B1384 kept it in the architecture. T4 now shows that no cover
   joins it to m004. Its role in the record is main's characteristic-zero witness for a non-split index, fenced by B1297 with no
   physical reading. The physically read index lives inside the class already (B1374: main's B1418 fires on five siblings and on M₄ =

@@ -16232,3 +16232,42 @@ The owner asked: "do u see any genuine path to full sm? i believe by now we have
 - **Banked** as `docs/THE_PATH_TO_THE_SM_2026-10-01.md` on the owner's "go for it".
 
 0 of 19.
+
+## 2026-10-01 — B1508: the path under the reframe
+
+The owner corrected the path note: "most of these theorems are malinformed, they assume m004 is the only object, and ignore the fact
+that reality uses more thsn that, that is the new reframe … do a proper repo search … new seats especially codex".
+- **The search.** Four reading lanes and this seat read seven branches. Codex is one seat with two lanes, and its active lane is the
+  audit lane (R1–R70). Three branches had never been harvested here: the xB seat, the paper-review rounds and outside-bench's last
+  memos.
+- **The blocks, read for scope.** Two hold everywhere:
+  - closed joins are vector-like;
+  - a non-split background without sources has no harmonic metric.
+
+  The others hold on m004, its tower or its class, or are premises.
+- **What the record already holds.**
+  - A finite-energy harmonic vacuum family on m004's projective deformation, which is vector-like (the audit lane's R42–R56).
+  - What a source must supply for the non-split index (R41).
+  - A sourced three on m202 (R15–R20).
+  - The cone end at action level (R58–R70).
+  - cube~3.24's two generations (B1386–B1391).
+- **Recomputed.**
+  - The audit lane's partial-filling witness and the filling descent's abelian shadow.
+  - The witness's peripheral ranks: not free (unsealed fact).
+  - R69's counts against B1506's own record.
+  - σ's dimension: one free constant.
+- **Corrections.** The path note, B1385, P022, B1506 §0, B1507, WORKING_RULES (the owner's reframe), THE_FRAMEWORK and
+  GRAND_COMPUTATION; eight ERROR_LEDGER rows.
+- **The answer.** The qualitative Standard Model is not blocked by a theorem of the architecture. The missing piece is the join: one
+  admitted background in one action that carries a net chiral count. Premise A (the completed count) is superseded as designed.
+
+- **Checks.**
+  - The lock passes, 6 tests.
+  - Every gate passes but relay-debt, the standing baseline.
+  - The targeted selection covered the 76 files that read the changed surfaces: 1 706 passed and 2 skipped. Two tests failed:
+    - the verdict-schema test, because B1508's verdict lacked `identifications`. Fixed and rerun green.
+    - the all-gates test, which reads relay-debt.
+  - A first selection of 247 files matched every lock that reads its own verdict. It was stopped at 76% and replaced. Its record
+    is kept in the scratchpad, not in the repository.
+
+`frontier/B1508_the_path_under_the_reframe`. 0 of 19.

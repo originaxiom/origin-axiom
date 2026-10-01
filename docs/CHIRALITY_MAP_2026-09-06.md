@@ -465,6 +465,19 @@ still come from the singular G₂ closing (O4 — the curved cone, not a flat or
 sharpened, not changed: the object is vector-like on every representation it supplies; the Standard Model's
 chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 
+> **Addendum (2026-10-01, B1508): chirality beyond m004.** The map's rows were read for scope under the owner's reframe that
+> "reality uses more" than m004.
+> - **The record's one symmetry-protected count** is cube~3.24's two generations, on a four-cusped state. It depends on the
+>   completion (B1386–B1391).
+> - **The audit lane, codex's second lane:**
+>   - its physical vacuum family on m004's projective deformation is vector-like (R55: 16 + 16*);
+>   - R41 says what a source must supply for the non-split index;
+>   - R15–R20 give a sourced three on m202, which gives pairs once its cores are resolved;
+>   - R60, R61, R68 and the sealed R70 make the end's input precise at a cone completion.
+> - **The general zeros** are the closed joins (B1351) and the source-free non-split mechanism (B1378).
+>
+> `frontier/B1508_the_path_under_the_reframe`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

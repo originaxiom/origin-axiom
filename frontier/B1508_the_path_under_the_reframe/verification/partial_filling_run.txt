@@ -1,0 +1,116 @@
+{
+ "descent": {
+  "H1_M": [
+   0,
+   0,
+   0
+  ],
+  "H1_M_mod_s": [
+   0,
+   0
+  ],
+  "agree": true,
+  "snappy_H1_filled": "Z + Z"
+ },
+ "ranks": {
+  "filled": {
+   "b1": 2,
+   "free": [
+    false,
+    false
+   ],
+   "ranks": [
+    2,
+    2
+   ]
+  },
+  "m004_degree5_covers": [
+   {
+    "b1": 1,
+    "cusps": 1,
+    "free": [
+     false
+    ],
+    "index": 0,
+    "ranks": [
+     1
+    ]
+   },
+   {
+    "b1": 2,
+    "cusps": 2,
+    "free": [
+     false,
+     false
+    ],
+    "index": 1,
+    "ranks": [
+     2,
+     2
+    ]
+   },
+   {
+    "b1": 3,
+    "cusps": 3,
+    "free": [
+     true,
+     true,
+     true
+    ],
+    "index": 2,
+    "ranks": [
+     2,
+     2,
+     2
+    ]
+   },
+   {
+    "b1": 2,
+    "cusps": 2,
+    "free": [
+     false,
+     false
+    ],
+    "index": 3,
+    "ranks": [
+     2,
+     2
+    ]
+   }
+  ],
+  "unfilled": {
+   "b1": 3,
+   "free": [
+    true,
+    true,
+    true
+   ],
+   "ranks": [
+    2,
+    2,
+    2
+   ]
+  }
+ },
+ "witness": {
+  "H1": "Z + Z + Z",
+  "cs_distance_from_mirror_classes": 0.092409959,
+  "cusps": 3,
+  "filled_H1": "Z + Z",
+  "filled_amphicheiral": false,
+  "filled_cs": 0.157590040879,
+  "filled_cusps": 2,
+  "filled_solution": "all tetrahedra positively oriented",
+  "filled_symmetry_group": "Z/2 + Z/2",
+  "filled_volume": 7.706911803,
+  "m004_covers_isometric": [
+   {
+    "degree": 5,
+    "index": 2,
+    "type": "irregular"
+   }
+  ],
+  "tets": 10,
+  "vol_ratio": 5.0
+ }
+}
