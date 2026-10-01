@@ -3204,6 +3204,9 @@ Model's qualitative content. Each maps to a lead already open:
   6. *(added 2026-10-01 after main's S31)* main's B1443 question asked of the projective triplet: does each of its three backgrounds
      couple to its own Higgs class? Main showed this in the Standard-Model frame for all 16 of s961's orbits. The triplet's three
      twists multiply to the trivial character, so a term joining them is allowed by the characters (main's L235(a) in this frame).
+     *(Currency, 2026-10-01, at B1513's seal:* main closed L235(a) in S32 (B1444): in its frame the cubic joining an orbit's Higgs
+     classes has no group to live in, since h²(M; k) = 0 and the pairwise products vanish. The harmonic frame's question is
+     B1513's P5.)* Taken by B1513 (sealed 2026-10-01).
 
 **Leads 1 and 3 of B1511 taken, 2026-10-01, B1512 — the self-coincident orbits.**
 - **The result.**

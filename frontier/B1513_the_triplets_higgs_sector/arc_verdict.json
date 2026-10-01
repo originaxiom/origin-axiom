@@ -1,0 +1,18 @@
+{
+ "id": "B1513",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1511",
+  "B1510",
+  "B1509",
+  "B1512",
+  "B1374"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE TRIPLET'S HIGGS SECTOR, SEALED (not yet run; B1511 lead 6 at the owner's 'go'): main's B1443 question asked of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and of B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) in the harmonic frame: the 10' is the interior class of H^1(W*), the 5'_H are H^1(Lambda^2 W), the 5bar'_H are H^1(Lambda^2 W*), the up-type form is (f ^ g)(omega). Computed before the seal and disclosed: controls K1-K10 (36 s, 87 checks): the relative triple product's chains on levels 1-6; B1511's triplet rows on the fibred presentation; Shapiro at q = 1; the banked identity -- the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3; B1509's Q and Jordan block; the code paths on B1509's banked W1. No Lambda^2 cohomology at q != 1 and no coupling computed. Proved at seal: Lemma 1 (the cusp is acyclic for every module: Higgs classes interior, h1(L2 W) = h1(L2 W*)); 2 (h1 = h2); 3 (an own 5'_H iff [c u c] = 0; the only one when h1(L2 rho_q) = 0); 4 (c* is always a 5bar'_H); 5 (Shapiro, the fibre polynomial P_L, q -> 1/q); 6 (the 10' lifts c*; at Jordan points the cross term vanishes and the coupling is lift-independent); 7 (the deck). Decided D1-D9. Sealed: P1 generic acyclicity at orders <= 6 (~85%), P2 acyclic at the triplet (~80%), on M6 (~75%), at the join (~80%), P3 one own 5'_H and 5bar'_H per member (~78%), P4 Y_k != 0 for every member (~50% each), P5 no form joins members (~90%). I-26 stays UNEARNED. 0 of 19."
+}

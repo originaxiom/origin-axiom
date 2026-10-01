@@ -16498,3 +16498,25 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Surfaces.** Lock (9 tests, one slow), ERROR_LEDGER (the ε slip, caught before the seal), THEOREM_REGISTRY T-BALLAS-SYMMETRIES,
   LAW_MAP, OPEN_LEADS (B1511 leads 1 and 3 closed; B1512 leads), relay row (main d88c220e → d3b50c0f, no overlap), letter (76th
   note), README, CHIRALITY_MAP, THE_PATH_TO_THE_SM, THE_SM_VERDICT, SEAL_LEDGER verdict row, alias table, atlas and views. 0 of 19.
+
+## 2026-10-01 — B1513 sealed: the triplet's Higgs sector (B1511 lead 6; not run)
+
+- **The occasion.** The owner's "go" on the recommendation after main's S32: main's B1443 question asked of the projective triplet.
+- **The instrument.** `higgs_lib.py` imports B1511's library and adds:
+  - the fibred presentation G_n and its bar-complex chains: the relative fundamental class (C, z) with ∂C = z asserted on levels 1–6;
+  - modules and cocycles on G_n;
+  - the relative triple product with any trilinear form;
+  - the Higgs-sector maps: the projection Λ²W → V, the inclusion V* → Λ²W*, the interior classes;
+  - the fibre polynomial of any module over ℚ(q), by flint charpolys and Newton interpolation.
+
+  `higgs_census.py` is the sealed run, Parts 0 and A–E.
+- **The controls, run before the seal** (K1–K10, 36 s, 87 checks):
+  - the chains on levels 1–6;
+  - B1511's triplet rows reproduced on G₃;
+  - Shapiro at q = 1;
+  - the banked identity: B1510's exact κ̂_ℓ at its six points through the triple product, on levels 1–3;
+  - the invariances, B1509's Q and Jordan block, and the code paths on B1509's W₁.
+- **Proved at seal:** Lemmas 1–7 (acyclic cusp; Euler; the own 5′_H; the own 5̄′_H; Shapiro and P_Λ; the Jordan lemma; the deck).
+- **Sealed:** P1–P5.
+- **Currency.** Main's L235(a) was closed in S32 (B1444). Notes were added to B1511 lead 6 and B1511's harvest block, with a relay row.
+- Findings stub, verdict OPEN, SEAL_LEDGER row, alias table, atlas, views. 0 of 19.

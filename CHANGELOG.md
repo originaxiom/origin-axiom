@@ -1,5 +1,39 @@
 # Changelog
 
+## B1513 sealed: the triplet's Higgs sector, before any Λ² cohomology or coupling is computed
+
+- **The question** (B1511 lead 6, at the owner's "go" after main's S32).
+  - Main's B1443 proved, in the Standard-Model frame, that each member of a deck orbit couples only to its own Higgs class.
+  - Asked here of B1511's projective triplet and of B1509's own join, in the harmonic frame: the 10′ (interior H¹(W*)), the 5′_H
+    (H¹(Λ²W)), the 5̄′_H (H¹(Λ²W*)), and the up-type coupling 10′·10′·5′_H.
+- **The instrument.** A relative triple product written for the fibred presentation G_n = ⟨x, y, t | t g t⁻¹ = φⁿ(g)⟩, with boundary
+  word yx⁻¹y⁻¹x (the longitude). It is derived afresh from the mapping cone; main's B1435 built the same pairing with the word [x, y].
+- **Computed before the seal, and disclosed there** (controls K1–K10, 36 s, all 87 checks hold):
+  - ∂C = z on levels 1–6;
+  - B1511's triplet rows reproduced exactly on the new presentation;
+  - Shapiro at q = 1;
+  - **the banked identity:** the triple product of B1509's cocycles with the fibration class equals B1510's exact κ̂_ℓ at all six
+    points, with one sign, on levels 1, 2 and 3 (the first chain-level check of B1510's Theorem B);
+  - the invariances, B1509's Q and Jordan block, and the code paths on B1509's banked W₁.
+
+  No Λ² cohomology at q ≠ 1 and no coupling was computed.
+- **Proved at seal.** Lemmas 1–7:
+  - the cusp is acyclic (a generalised cusp), so every Higgs class is interior;
+  - the own 5′_H exists iff [c ∪ c] = 0, and is the only one when Λ²ρ_q has no H¹;
+  - c* is always a 5̄′_H;
+  - Shapiro and the fibre polynomial of Λ²ρ_q;
+  - at Jordan points the coupling does not depend on which lift of c* carries the 10′;
+  - the deck makes the three members agree.
+- **Sealed.**
+  - P1: generic acyclicity of the Higgs bulk (~85%).
+  - P2: acyclic at the triplet (~80%), on M₆ (~75%) and at the join (~80%).
+  - P3: one own 5′_H and one own 5̄′_H per member (~78%).
+  - P4: each member couples to its own Higgs class (~50%).
+  - P5: no form joins members (~90%).
+- **Currency.** Main closed its L235(a) in S32 (B1444: the cubic joining an orbit's Higgs classes has no group to live in). B1511 lead
+  6 and its harvest block carry the note; P5 is the harmonic frame's question.
+- Findings stub (sealed, not run), verdict OPEN, SEAL_LEDGER row, alias table, relay row, logs, atlas, views. 0 of 19.
+
 ## B1512 the self-coincident orbits: m004's symmetries act on Ballas' family, and all 32 of B1511's unresolved case-(b) pairs fire, in orbits of five on M₅ and of six on M₆
 
 - **The question** (B1511's leads 1 and 3, sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed,

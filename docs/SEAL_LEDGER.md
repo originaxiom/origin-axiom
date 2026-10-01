@@ -10,6 +10,49 @@ hash-first status.*
 
 | sealed document | sha8 (current) | banked in | commits | recorded elsewhere |
 |---|---|---|---|---|
+| frontier/B1000_input_count/PREREGISTRATION.md | 7e920329 | bd06836e | 1 | yes |
+| frontier/B1006_lambda2_pslq/PREREGISTRATION.md | 107ae00f | 996d70b0 | 1 | yes |
+| frontier/B1011_mckay_tensor/PREREGISTRATION.md | fc807f11 | 0228ca14 | 1 | yes |
+| frontier/B1016_l150_junction/PREREGISTRATION.md | 59f51572 | 9d42041c | 1 | yes |
+| frontier/B1018_xdist_qualification/PREREGISTRATION.md | ed762886 | 2dd17714 | 1 | yes |
+| frontier/B1019_l149_silver_cascade/PREREGISTRATION.md | ce6b0329 | 2dd17714 | 1 | yes |
+| frontier/B1024_l153_bits/PREREGISTRATION.md | dc823e86 | 3524b889 | 1 | yes |
+| frontier/B1025_input_derivability/PREREGISTRATION.md | 8def4962 | 45a8d347 | 1 | yes |
+| frontier/B1026_nomination/PREREGISTRATION.md | 7e798db1 | 0e2cde23 | 1 | yes |
+| frontier/B1027_fourth_crossing/PREREGISTRATION.md | c58c8a88 | 55b9bf9b | 1 | yes |
+| frontier/B1028_freedom_ledger/PREREGISTRATION.md | e13d09a5 | 82e2ee7b | 1 | yes |
+| frontier/B1029_invariant_ring/PREREGISTRATION.md | 9a46975f | 82e2ee7b | 1 | yes |
+| frontier/B1033_generation_adjudication/PREREGISTRATION.md | 73eedc0b | 54059957 | 1 | yes |
+| frontier/B1034_l154_sigma/PREREGISTRATION.md | 6361f222 | 0861e5bb | 1 | yes |
+| frontier/B1036_mirror_double/PREREGISTRATION.md | a10ae240 | 31ccaaa7 | 1 | yes |
+| frontier/B1037_theta_join/PREREGISTRATION.md | 63cd367a | 6be6c574 | 1 | yes |
+| frontier/B1039_v_valued_residual/PREREGISTRATION.md | 874d9eee | 5272507f | 1 | yes |
+| frontier/B1040_fl4_observer_battery/PREREGISTRATION.md | e358be1b | 640e2d59 | 1 | yes |
+| frontier/B1041_theta_leg/PREREGISTRATION.md | 165d8ef5 | 00691f2b | 1 | yes |
+| frontier/B1042_trit_morphism/PREREGISTRATION.md | b8544786 | 7dbac3c9 | 1 | yes |
+| frontier/B1043_triple_assembly/PREREGISTRATION.md | 575ad81b | 7855aeab | 1 | yes |
+| frontier/B1044_gamma_ledger/PREREGISTRATION.md | 0d8776d2 | 7f5d8bd5 | 1 | yes |
+| frontier/B1062_bridge_cell/PREREGISTRATION.md | ad8d60f1 | d350fd08 | 1 | yes |
+| frontier/B1064_cusp_torus_repose/PREREGISTRATION.md | 0d77dc46 | 40956dae | 1 | yes |
+| frontier/B1065_amendment_controls/PREREGISTRATION.md | b8440d68 | 69436c06 | 1 | yes |
+| frontier/B1066_lane3_nomination/PREREGISTRATION.md | ad21f28f | 74d87f31 | 1 | yes |
+| frontier/B1071_sealed_listener/PREREGISTRATION_V1_SUPERSEDED.md | f0b7726d | 7c029802 | 2 | yes |
+| frontier/B1071_sealed_listener/PREREGISTRATION_V2.md | f4af5002 | 7c029802 | 2 | yes |
+| frontier/B1075_moduli_crossing/PREREGISTRATION.md | 64414dbf | da50e0a4 | 1 | yes |
+| frontier/B1102_exact_hypercharge_solve/PREREGISTRATION.md | 85546173 | 6b206a14 | 1 | NO |
+| frontier/B1104_fourd_suspension/PREREGISTRATION.md | f6c65592 | 6683c0a2 | 1 | NO |
+| frontier/B1137_regulator_probe/PREREG.md | f299c0da | d192367e | 1 | yes |
+| frontier/B1244_gate5_audit/PREREG.md | 53d04ea6 | 8b6c380f | 1 | yes |
+| frontier/B1388_the_cutoff_test/PREREGISTRATION.md | cd9d91e5 | 68c1b809 | 1 | yes |
+| frontier/B1389_the_full_spectrum/PREREGISTRATION.md | b35fdb2f | 8d9498d2 | 1 | yes |
+| frontier/B1394_the_regular_three/PREREGISTRATION.md | c62041c5 | a4712e8d | 1 | yes |
+| frontier/B1399_the_rank_two_higgs/PREREGISTRATION.md | 494f8700 | b2985b42 | 1 | yes |
+| frontier/B1501_the_torus_link_census/PREREGISTRATION.md | 51b6730b | d780b639 | 1 | yes |
+| frontier/B1503_the_apex_index_rule/PREREGISTRATION.md | d4260750 | af568744 | 1 | yes |
+| frontier/B1506_the_level/PREREGISTRATION.md | 664f8192 | 58e3f28f | 1 | yes |
+| frontier/B1510_the_two_sided_deformation/PREREGISTRATION.md | 60106494 | 0cb24e2b | 1 | yes |
+| frontier/B1511_the_projective_tower/PREREGISTRATION.md | b5fbd359 | 49baea7d | 1 | yes |
+| frontier/B1512_the_self_coincident_orbits/PREREGISTRATION.md | 7d0a4142 | b8ddbb66 | 1 | yes |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f477 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8c | 1 | yes |
@@ -206,10 +249,73 @@ hash-first status.*
 | frontier/B761_qp2_private/PREREGISTRATION.md | 6bbc78aa | abc39195 | 1 | yes |
 | frontier/B762_qp1_self_naming/PREREGISTRATION.md | e85cb2a5 | abc39195 | 1 | yes |
 | frontier/B764_c19_comparator/PREREGISTRATION.md | df0f8e1c | ed22d8ab | 1 | yes |
+| frontier/B765_p3_depth/PREREGISTRATION.md | 0166d9df | b00ac1f2 | 1 | yes |
+| frontier/B766_measurement_torsor/PREREGISTRATION.md | c371e18e | ac3dd82f | 1 | yes |
+| frontier/B767_stabilizations/PREREGISTRATION.md | 17fb9e5b | 4d6f892b | 1 | yes |
+| frontier/B768_correspondence_crosstest/PREREGISTRATION.md | 9c273563 | 08a561c8 | 1 | yes |
+| frontier/B769_t1_structure/PREREGISTRATION.md | c2d69536 | e789ef5f | 1 | yes |
+| frontier/B770_closure_census/PREREGISTRATION.md | 7682759b | ef21c7f4 | 1 | yes |
+| frontier/B771_phase1_wave1/PREREGISTRATION.md | 7955049f | 856957ad | 1 | yes |
+| frontier/B771_phase1_wave1/PREREG_WAVE2.md | 486ea7c8 | e357c091 | 1 | yes |
+| frontier/B771_phase1_wave1/PREREG_WAVE5.md | 6141775b | c21af30a | 1 | yes |
+| frontier/B773_chord_recompute/PREREGISTRATION.md | 50e31242 | 04dc6d67 | 1 | yes |
+| frontier/B774_chord_pass/PREREGISTRATION.md | a2cb971a | e6fd3fcf | 1 | yes |
+| frontier/B775_phase2_wave1/PREREGISTRATION.md | 4f73e186 | 06f54f42 | 1 | yes |
+| frontier/B775_phase2_wave1/PREREG_WAVE2.md | cc7e3b48 | 9ff54bad | 1 | yes |
+| frontier/B775_phase2_wave1/PREREG_WAVE3.md | a8a8bd82 | c6add2ba | 1 | yes |
+| frontier/B775_phase2_wave1/PREREG_WAVE4.md | ddf99ceb | 6a00582c | 1 | yes |
+| frontier/B775_phase2_wave1/PREREG_WAVE5.md | e1510ac7 | 85660ca0 | 1 | yes |
+| frontier/B775_phase2_wave1/PREREG_WAVE6.md | 3402b906 | 4e5e6aad | 1 | yes |
+| frontier/B776_b685_homework/PREREGISTRATION.md | 0cdfcf44 | 9ab7073f | 1 | yes |
+| frontier/B778_cleanup/PREREGISTRATION.md | 5339a247 | 4e319b56 | 1 | yes |
+| frontier/B780_galois_reversal_gate/PREREGISTRATION.md | deb8f276 | cb7ca083 | 1 | yes |
+| frontier/B781_m003_sister/PREREGISTRATION.md | 85b33584 | e22864e7 | 1 | yes |
+| frontier/B782_choice_incomputability/PREREGISTRATION.md | c9778429 | 04dde4a6 | 1 | yes |
+| frontier/B787_interaction_programme/PREREGISTRATION.md | 6f442eba | d360dd23 | 1 | yes |
+| frontier/B790_maass_adjudication/PREREGISTRATION.md | d91a8b99 | 99b627b9 | 2 | yes |
+| frontier/B799_uncomputed_doors/PREREGISTRATION.md | 3243c1c2 | 56df99cc | 1 | yes |
+| frontier/B804_dirac_spectrum/PREREGISTRATION.md | b955c637 | 9d298657 | 1 | yes |
+| frontier/B807_vocabulary_unification/PREREGISTRATION.md | 40b7ff01 | ad2edefe | 1 | yes |
+| frontier/B808_empty_cells/PREREGISTRATION.md | 68d1aef0 | aaaebf4c | 1 | yes |
+| frontier/B811_hint_promotion_gate/PREREGISTRATION.md | 6fa4c2c6 | 20170b02 | 1 | yes |
+| frontier/B812_physics_path_map/PREREGISTRATION.md | efa66aa3 | 0f26341a | 1 | yes |
+| frontier/B814_gate_d/PREREGISTRATION.md | 46a67d84 | 380196a8 | 1 | yes |
+| frontier/B821_lexicon_refresh/PREREGISTRATION.md | 590aeb50 | a7df05cd | 1 | yes |
+| frontier/B822_lexicon_gate_fix/PREREGISTRATION.md | 69a7ae60 | a7df05cd | 1 | yes |
+| frontier/B824_charvar_motif/PREREGISTRATION.md | 3ba7eace | f5b4c934 | 1 | yes |
+| frontier/B825_markov_motif/PREREGISTRATION.md | 2812a0c5 | f5b4c934 | 1 | yes |
+| frontier/B830_b720_recompute/PREREGISTRATION.md | df750537 | 9841601c | 1 | yes |
+| frontier/B832_verdict_wave3/PREREGISTRATION.md | ddb2ff0b | ee8a5515 | 1 | yes |
+| frontier/B839_b685_residue/PREREGISTRATION.md | 0bbdc9f5 | 13fcc83c | 1 | yes |
+| frontier/B841_provenance_pass/PREREGISTRATION.md | 706d4ae3 | cba74fd8 | 1 | yes |
+| frontier/B842_face_attachment/PREREGISTRATION.md | 29273395 | cba74fd8 | 1 | yes |
+| frontier/B849_order_parameter/PREREGISTRATION.md | facb8c03 | 9ffdd971 | 1 | yes |
+| frontier/B850_length_spectrum_type/PREREGISTRATION.md | f9d13b4d | 7ca82db0 | 1 | yes |
+| frontier/B890_foreign_pair/PREREGISTRATION.md | ea66fc34 | 36c9068b | 1 | yes |
+| frontier/B891_matter_extension/PREREGISTRATION.md | a08398c5 | e2b14f1a | 1 | yes |
+| frontier/B897_27_under_g20/PREREGISTRATION.md | e293f095 | 0e1cdf4c | 1 | yes |
+| frontier/B907_real_form_selector/PREREGISTRATION.md | cd7aae3b | f0450d71 | 1 | yes |
+| frontier/B908_exactness_pin/DESIGN.md | 72f52766 | 0fdf4c7b | 1 | NO |
+| frontier/B912_norm_cell/PREREGISTRATION.md | 93d420ea | 878137e2 | 1 | yes |
+| frontier/B913_r3c_design/DESIGN_DISPOSITION.md | 9af2081d | 3d160d76 | 2 | NO |
+| frontier/B913_r3c_design/PREREGISTRATION.md | 8afdc2f8 | 06f4e8c6 | 1 | yes |
+| frontier/B915_the_crossing/PREREGISTRATION.md | 7a423aed | 4c4531a6 | 1 | yes |
+| frontier/B925_second_crossing/PREREGISTRATION.md | 5af3f099 | 66fd0ba4 | 1 | yes |
+| frontier/B928_d2_decode/PREREGISTRATION.md | 5a7aa973 | ab34c5b7 | 1 | yes |
+| frontier/B929_third_crossing/PREREGISTRATION.md | 672b5afb | c8421f14 | 1 | yes |
+| frontier/B933_spinor_hejhal_design/DESIGN.md | e5877549 | 7148c702 | 1 | NO |
+| frontier/B936_cohomology_reading/PREREGISTRATION.md | 2808c8a7 | 4b92b097 | 1 | yes |
+| frontier/B940_dirac_sealed/PREREGISTRATION.md | 6c513b06 | 7bb6c963 | 1 | yes |
+| frontier/B942_l113_bc_falsifier/PREREGISTRATION.md | 48cd1ea2 | 9d806a4e | 1 | yes |
+| frontier/B945_l126_one_z2/PREREGISTRATION.md | 48732158 | 57be2252 | 1 | yes |
+| frontier/B947_thinning_law/PREREGISTRATION.md | 610fa711 | 0e49aaf8 | 1 | yes |
+| frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c4775 | 1 | yes |
+| frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c | 1 | yes |
 
-*Totals: 196 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 301 sealed documents; 4 unrecorded with single-commit provenance (content = banked content); 1 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
@@ -552,3 +658,4 @@ hash-first status.*
 | 2026-10-01 | B1511 VERDICT: PROVED, run as sealed (49baea7d). The banked identity passed inside the run. D1-D7 hold (deck invariance; H0(F) = 0 and the direct h1 equal to the fibre's at every point; every count in Theorem A's range with both identities; Lambda^2 W = 0 everywhere; -1 exactly at the Jordan point; Shapiro on M6; the classification reproduced). P1 YES (the order-2 orbit's polynomial is Q(q^3, s), palindromic), P2 YES (a projective triplet on s961: at q^3 = 17 +- 12 sqrt2, lam3 = -1, each of the three counts I(W1) = -1, I(W2) = +1, exactly and at 10 prime-root pairs; three on M6), P3 YES (no order-4 orbit fires; its stated reason was wrong, the polynomials are real), P4 YES, P5 YES, P6 YES (case (b) fires on M4: two orbits of four, +1 each, at q = phi^{+-4}), P7 NO (102 gcd pairs UNRESOLVED by the sealed rule; post-run 70 share only q^2 + q + 1 and 32 self-coincident pairs have real polynomials, registered as the next arc), P8 YES. Theorem F's last sentence withdrawn (ERROR_LEDGER reasoning slip). 0 of 19 | `frontier/B1511_the_projective_tower/PREREGISTRATION.md` | `b5fbd35930882eacb5e1ba8d01203c2520dce8da1de81cd04142eeb1d575e8d7` |
 | 2026-10-01 | B1512 THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go': Ballas' family under m004's symmetries, and B1511's 32 case-(b) pairs on M5 (four eigenline orbits, every lam) and M6 (eight order-8 orbits, lam = +-1); sealed before any polynomial of the twelve orbits is computed. Computed before the seal and disclosed: controls K1-K10 (the five lemmas' exact intertwiners and word checks; the classes; every banked polynomial reconstructed over Q by many primes; B1511's M4 case-(b) counts through the arc's driver; B1509's Jordan block numerically; B1511's banked degrees for the 32 pairs) and a dry run at level 4. Proved at seal: Lemma I (the fibre's hyperelliptic involution fixes rho_q: P_nu = P_nu^-1 on every level, every twisted polynomial real), G (rational, one per class), D (the dual family is the family at 1/q: P(1/q, s) = s^4 P(q, 1/s); I(W2)(nu^-1, 1/q) = -I(W1)(nu, q)), E (the strong inversion, the audit lane's F14 type: M5's four orbits share one polynomial), A (the amphichiral map sends q to 1/q: M5's polynomial palindromic, M6's classes paired). A design slip caught before the seal (eps first called amphichiral). Decided D1-D10. Sealed: P1 M5's polynomial is Q(q^5, s) ~25%, P2 M5 has a positive real exceptional point ~90%, P3 M6 has one at lam = +-1 ~85%, P4 case (b) fires on M5 ~65%, P5 on M6 ~65%, P6 every real point simple ~55%, P7 every simple point +1 for every member ~70%) | `frontier/B1512_the_self_coincident_orbits/PREREGISTRATION.md` | `7d0a41429144effd0eee0792f40413d43809cb237917b8d75b612ad63edf47f6` |
 | 2026-10-01 | B1512 VERDICT: PROVED, run as sealed (b8ddbb66; 833 s). The banked identity passed (B1511's M4 case-(b) row). D1-D10 hold: six rational polynomials (one on M5 for both classes, palindromic; M6's four in two alpha-pairs), every member agreeing and independent of the root of unity, Lemma D's identity, B1511's banked degrees and its M6 lam = +-i resolution reproduced, the numeric fibre at every real root equal to the GF(p) one, every count in range and uniform, the duality of the counts and their alpha-invariance. All 32 pairs fire: every member I(W1) = +1, I(W2) = -1, I(L2 W) = 0 at every real exceptional point (M5 at w = 7 double, w ~ 2.2776, w ~ 2.4999 Jordan; M6 at eight w). P1 NO (not Q(q^5, s)), P2-P5 YES, P6 NO (a double point and a Jordan point), P7 YES. Design slip caught before the seal (eps first called amphichiral; ERROR_LEDGER). 0 of 19 | `frontier/B1512_the_self_coincident_orbits/PREREGISTRATION.md` | `7d0a41429144effd0eee0792f40413d43809cb237917b8d75b612ad63edf47f6` |
+| 2026-10-01 | B1513 THE TRIPLET'S HIGGS SECTOR (B1511 lead 6 at the owner's 'go': main's B1443 question asked of B1511's projective triplet on s961 at q^6 - 34 q^3 + 1 = 0 and of B1509's join on m004 at q^2 - 34 q + 1 = 0, mu = -1, in the harmonic frame: 10' = interior H^1(W*), 5'_H = H^1(Lambda^2 W), 5bar'_H = H^1(Lambda^2 W*), up-type form (f ^ g)(omega); sealed before any Lambda^2 cohomology at q != 1 and any coupling is computed. Computed before the seal and disclosed: controls K1-K10 (36 s, 87 checks): the relative triple product's chains on levels 1-6; B1511's triplet rows on the fibred presentation; Shapiro at q = 1; the banked identity, B1510's exact kappa_l_hat at its six points through the triple product on levels 1-3; B1509's Q and Jordan block; the code paths on B1509's banked W1. Proved at seal: Lemmas 1-7 (the cusp acyclic; h1 = h2; an own 5'_H iff [c u c] = 0, the only one when h1(L2 rho_q) = 0; c* always a 5bar'_H; Shapiro and P_L; at Jordan points the coupling is lift-independent; the deck). Decided D1-D9. Sealed: P1 generic acyclicity at orders <= 6 ~85%, P2 acyclic at the triplet ~80%, on M6 ~75%, at the join ~80%, P3 one own 5'_H and 5bar'_H per member ~78%, P4 Y_k != 0 for every member ~50%, P5 no form joins members ~90%) | `frontier/B1513_the_triplets_higgs_sector/PREREGISTRATION.md` | `6f3ff4803a777a524997215101706e7f87344627824570e3f798d16d76bc1065` |

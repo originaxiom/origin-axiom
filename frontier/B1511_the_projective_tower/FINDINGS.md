@@ -262,6 +262,11 @@ The pullback and the triplet never fire at the same q, so no single background c
 > - **Main's B1444** (sealed, not run) uses the same fibre object as this arc's instrument, the torsion det(1 − Φ* on H¹(F; V)), in rank
 >   two along the trace map's curves. It does not overlap this arc's claims.
 > - New lead: does each member of the projective triplet couple to its own Higgs class? (OPEN_LEADS, B1511 lead 6).
+>
+> **Currency (2026-10-01, at B1513's seal).** Main closed L235(a) in S32 (B1444). In main's frame the cubic joining an orbit's
+> three Higgs classes has no group to live in: h²(M; k) = 0 on a level, and the pairwise products vanish. The "term joining the
+> triplet's three members" above is therefore not a bulk cup product there. Lead 6 is taken by B1513, whose P5 asks whether any
+> up-type form joins two members in the harmonic frame. `frontier/B1513_the_triplets_higgs_sector`.
 
 > **Leads 1 and 3 taken (2026-10-01, B1512).** Lead 3: the fibre's hyperelliptic involution fixes ρ_q, so P_ν = P_{ν⁻¹} on every level
 > (a theorem now; post-run (c) was its observation). Lead 1: all 32 self-coincident pairs fire, M₅ in four orbits of five and M₆ in
