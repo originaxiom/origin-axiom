@@ -1,0 +1,19 @@
+chain ok 1 LR 1 cells of C: 28 max word 5
+chain ok 1 LR 2 cells of C: 49 max word 13
+chain ok 1 LR 3 cells of C: 99 max word 34
+chain ok 1 LR 6 cells of C: 1471 max word 610
+chain ok -1 LR 1 cells of C: 36 max word 6
+chain ok -1 LR 3 cells of C: 137 max word 42
+chain ok 1 LLR 2 cells of C: 81 max word 26
+chain ok -1 LLRLR 1 cells of C: 67 max word 18
+chain ok -1 LLLRLR 1 cells of C: 79 max word 23
+chain ok 1 LLRR 3 cells of C: 793 max word 338
+identity: cells 15
+product control: {'xyt': 1, 'yxt': -1, 'xxt': 0, 'xyx': 0, 'xty': -1}
+two-term chain boundary (must be non-zero and not -[lam]): {(((1, 2), 0),): -1, (((2, 1), 0),): 1}
+sign-bundle control: 1 -1
+dim Z^1(product; unipotent) = 5
+interior cocycles (dim of the span): 3
+invariance (lift, coboundaries) on interior pairs: 40 of 40 ; non-zero values: 40
+lift-dependence when b is not interior: 20 of 20 (must be > 0)
+ALL CONTROLS PASS

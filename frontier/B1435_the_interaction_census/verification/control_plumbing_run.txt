@@ -1,0 +1,5 @@
+module (1, 2, 0) (2, 4, 0) sign -1 pairs 21 non-zero at all three primes: 21 symmetric: True
+module (1, 2, 0) (4, 3, 0) sign 1 pairs 21 non-zero at all three primes: 21 symmetric: True
+module (2, 4, 0) (3, 1, 0) sign 1 pairs 21 non-zero at all three primes: 21 symmetric: True
+module (2, 4, 0) (4, 3, 0) sign -1 pairs 21 non-zero at all three primes: 21 symmetric: True
+PLUMBING OK

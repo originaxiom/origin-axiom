@@ -1,0 +1,10 @@
+M2 firing modules: 8
+locus (1, 2, 0) pair (2, 4, 0) (2, 4, 0) sign -1 eta (3, 1, 0) Y 2343 Y(cover) 1685 2Y 1685 cob True
+locus (1, 2, 0) pair (4, 3, 0) (4, 3, 0) sign 1 eta (3, 1, 0) Y 2343 Y(cover) 1685 2Y 1685 cob True
+locus (2, 4, 0) pair (3, 1, 0) (3, 1, 0) sign 1 eta (1, 2, 0) Y 597 Y(cover) 1194 2Y 1194 cob True
+locus (2, 4, 0) pair (4, 3, 0) (4, 3, 0) sign -1 eta (1, 2, 0) Y 597 Y(cover) 1194 2Y 1194 cob True
+locus (3, 1, 0) pair (1, 2, 0) (1, 2, 0) sign -1 eta (4, 3, 0) Y 2402 Y(cover) 1803 2Y 1803 cob True
+locus (3, 1, 0) pair (2, 4, 0) (2, 4, 0) sign 1 eta (4, 3, 0) Y 2402 Y(cover) 1803 2Y 1803 cob True
+locus (4, 3, 0) pair (1, 2, 0) (1, 2, 0) sign 1 eta (2, 4, 0) Y 656 Y(cover) 1312 2Y 1312 cob True
+locus (4, 3, 0) pair (3, 1, 0) (3, 1, 0) sign -1 eta (2, 4, 0) Y 656 Y(cover) 1312 2Y 1312 cob True
+pullback law and coboundary invariance: 8 of 8 ; non-zero: 8
