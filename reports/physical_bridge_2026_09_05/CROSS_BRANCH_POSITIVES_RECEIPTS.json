@@ -1,0 +1,191 @@
+{
+  "seal": "d27f4d726f37f993961af10549cec40fd2534009",
+  "scope": "Bounded independent algebra and byte custody; not the entire tower, analytic acceptance or physics",
+  "runs": {
+    "r75_native_first": {
+      "raw_basename": "r75_native_first",
+      "raw_receipt_sha256": "8af5a59132929059447af5cea42c722a23d10512f3c8c004b995050f919752c5",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/cross_branch_positives.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 13.918899999931455,
+        "log_bytes": 2288,
+        "log_sha256": "a00578561a2bfa8cb7a5384d1cbaafc3c2386e912e126b0c1fafd2f5de8ad747"
+      },
+      "stdout": "{\"checks\": {\"boundary_fixed\": true, \"boundary_word\": true, \"coboundary_transport_(0, 1)\": true, \"coboundary_transport_(1, 0)\": true, \"coboundary_transport_(1, 1)\": true, \"determinants\": true, \"fibre_x\": true, \"fibre_y\": true, \"generic_control_(0, 1)\": true, \"generic_control_(1, 0)\": true, \"generic_control_(1, 1)\": true, \"literal_relator\": true, \"longitude_polynomial\": true, \"orbit\": true, \"quotient_polynomial_(0, 1)\": true, \"quotient_polynomial_(1, 0)\": true, \"quotient_polynomial_(1, 1)\": true}, \"group\": \"algebra\", \"quotients\": [\"-(q**6*s**2 - q**3*s**4 + 8*q**3*s**3 - 16*q**3*s**2 + 8*q**3*s - q**3 + s**2)/q**3\", \"-(q**6*s**2 - q**3*s**4 + 8*q**3*s**3 - 16*q**3*s**2 + 8*q**3*s - q**3 + s**2)/q**3\", \"-(q**6*s**2 - q**3*s**4 + 8*q**3*s**3 - 16*q**3*s**2 + 8*q**3*s - q**3 + s**2)/q**3\"]}\n{\"checks\": {\"coboundary_rank_(0, 1)\": true, \"coboundary_rank_(1, 0)\": true, \"coboundary_rank_(1, 1)\": true, \"double_factor\": true, \"irreducible\": true, \"jordan_(0, 1)\": true, \"jordan_(1, 0)\": true, \"jordan_(1, 1)\": true, \"positive_roots\": true, \"wrong_eigenvalue_(0, 1)\": true, \"wrong_eigenvalue_(1, 0)\": true, \"wrong_eigenvalue_(1, 1)\": true}, \"group\": \"roots\", \"nullities\": [[1, 2, 2, 2], [1, 2, 2, 2], [1, 2, 2, 2]]}\n{\"checks\": {\"actual_index\": true, \"annihilator\": true, \"dual_index\": true, \"expected_data\": true, \"exterior_acyclic_at_both_roots\": true, \"index_identity\": true, \"split_index\": true}, \"dual\": {\"a0\": 1, \"a1\": 2, \"r1\": 1, \"t0\": 1, \"t1\": 2}, \"extension\": {\"a0\": 0, \"a1\": 1, \"r1\": 1, \"t0\": 1, \"t1\": 2}, \"exterior_determinant\": \"(q - 1)**10*(q + 1)**6*(q**2 + q + 1)/q**9\", \"group\": \"index\", \"index\": -1, \"split\": {\"a0\": 1, \"a1\": 2, \"r1\": 1, \"t0\": 1, \"t1\": 2}, \"split_dual\": {\"a0\": 1, \"a1\": 2, \"r1\": 1, \"t0\": 1, \"t1\": 2}, \"split_index\": 0}\n{\"checks\": {\"delete_edge_detected\": true, \"matched_Y_square\": true, \"square_determinant\": true, \"wrong_sign_detected\": true}, \"group\": \"hopping\", \"matched\": \"-Y**2*e2*(a2*a3*e1 - b2*b3*e2)\", \"polynomial\": \"a1*a2*a3*a4*e1**2 + b1*b2*b3*b4*e2**2 - e1*e2*(a1*a4*b2*b3 + a2*a3*b1*b4)\"}\n{\"checks\": {\"nonsplit_cost_not_identically_zero\": true, \"rank_five_projector\": true, \"zero_offdiagonal_control\": true}, \"group\": \"balance\", \"pairing\": \"-5*b0**2/2 - 5*b1**2/2 - 5*b2**2/2 - 5*b3**2/2\"}\n{\"all_checks_pass\": true, \"passed\": 43, \"total\": 43}\n"
+    },
+    "r75_focused_first": {
+      "raw_basename": "r75_focused_first",
+      "raw_receipt_sha256": "461bc1b7307dd0345f4645321fba76c3fd57da7a365c0af23f300b66b8006e15",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cone_matter.py",
+          "tests/test_physical_bridge_cross_branch_positives.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 17.56726400007028,
+        "log_bytes": 100,
+        "log_sha256": "eb260a0239cc3a99d6726427296594ba68c0bc7b072415122ce843bf9244d9db"
+      },
+      "stdout": "..............                                                           [100%]\n14 passed in 16.80s\n"
+    }
+  },
+  "population": {
+    "controls": 43,
+    "groups": {
+      "algebra": 17,
+      "roots": 12,
+      "index": 7,
+      "hopping": 4,
+      "balance": 3
+    },
+    "focused_passes": 14,
+    "new_tests": 6,
+    "focused_test_files": 2
+  },
+  "metadata_captures": {
+    "custody_first": {
+      "raw_basename": "r75_custody_first",
+      "raw_receipt_sha256": "4fb42b6e6aefede8445dfe43e784b929054bad1f043059335b78b900307c927d",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/cross_branch_positives_receipt_check.rb",
+          "<raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.038723000092432,
+        "log_bytes": 293,
+        "log_sha256": "19db561a0a22c2d7d105ead848a2086247ed5871bfb8b7e9cee67ca4f32f96da"
+      },
+      "stdout": "{\"frozen_science_paths\":5,\"input_pins\":14,\"published_science_captures\":2,\"published_audit_captures\":0,\"finite_controls\":43,\"focused_passes\":14,\"new_tests\":6,\"first_scientific_failures\":0,\"report_links\":5,\"scope\":\"Byte custody and fixed finite populations, not analytic acceptance or physics\"}\n"
+    },
+    "cumulative_first": {
+      "raw_basename": "r75_cumulative_first",
+      "raw_receipt_sha256": "5b7f77150136f53e159e82456f2fa8cc4ac6ead057470b4c2abc14815bec8086",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.3824480000184849,
+        "log_bytes": 69,
+        "log_sha256": "a776302b632ee85e1c4f816f3e2e60898d39fec8440f813f268cbc0b2bc6fdbe"
+      },
+      "stdout": "Artifact differs: reports/physical_bridge_2026_09_05/GOAL_VERDICT.md\n"
+    },
+    "gates_first": {
+      "raw_basename": "r75_gates_prebank",
+      "raw_receipt_sha256": "df5f1c9c3e9e0ddfcab09b5a3cb397f5b224ba9bb54055077f3c7faaa0e05e9b",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 21.66422000003513,
+        "log_bytes": 2271,
+        "log_sha256": "01352402df89a2691b965783278b173b31a45b7c739b24ae8492c56aab3c7292"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 47 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  FAIL  law-map-provenance: LAW_MAP provenance -- 1 row(s) cite no arc: Rank-five nonsplit subbundle requires a \n  PASS  atlas-lexicon-current: ok\n  review-due: 276 merges since last review (DUE — run the decadal review)\n"
+    },
+    "custody_provenance_first": {
+      "raw_basename": "r75_custody_corrected",
+      "raw_receipt_sha256": "03c2468ec4c2ff0f84e3e5dcd5057e5561538f39bda6c9c1b762185394fcd60d",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/cross_branch_positives_receipt_check.rb",
+          "<raw>"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.9484529999317601,
+        "log_bytes": 30,
+        "log_sha256": "24c4a1bb78dfd3e28ff3d23aef1e14de018407104d127de7e7378f2a28f9c14a"
+      },
+      "stdout": "first provenance failure lost\n"
+    }
+  },
+  "first_scientific_failures": [],
+  "not_rerun": "Other tower/census outputs, original older failures; no full suite or independent global analytic review",
+  "audit_runs": {
+    "gates_corrected": {
+      "raw_basename": "r75_gates_corrected",
+      "raw_receipt_sha256": "5389b53981a94497da2cfc09f95143c9e7c9b057fc034ce06fd81bbc97961429",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 18.31094600004144,
+        "log_bytes": 2189,
+        "log_sha256": "8aea7212db0958ef749fba5939b744322911881c49fdbbe7aec2deaac83077b5"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 47 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 40 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 276 merges since last review (DUE — run the decadal review)\n"
+    }
+  },
+  "metadata_checks": {
+    "cumulative_corrected": {
+      "raw_basename": "r75_cumulative_corrected",
+      "raw_receipt_sha256": "9f861ba272e21f20fe703ce6be6100ddc9447bd72726dd039ffe5a0cc67c894c",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.4728009999962524,
+        "log_bytes": 617,
+        "log_sha256": "4095340a4bcf7da019189b6e35f267ba5dcae6e78d1b653446e91f8c74ccdb87"
+      },
+      "stdout": "{\"old_custody\":{\"artifacts\":1117,\"latest_distinct_seals\":429,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":197,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "custody_final": {
+      "raw_basename": "r75_custody_final",
+      "raw_receipt_sha256": "2c7fa3764b93a04f9a6143b596a6c0ed2e1b609402db1956bd1a1b699f7569b1",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/cross_branch_positives_receipt_check.rb",
+          "<raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.1071549999760464,
+        "log_bytes": 293,
+        "log_sha256": "4397b5dac10f5d361095e4699a09d1a8dc3d345070f0d7fbd9dc2c3b949b8ff8"
+      },
+      "stdout": "{\"frozen_science_paths\":5,\"input_pins\":14,\"published_science_captures\":2,\"published_audit_captures\":1,\"finite_controls\":43,\"focused_passes\":14,\"new_tests\":6,\"first_scientific_failures\":0,\"report_links\":5,\"scope\":\"Byte custody and fixed finite populations, not analytic acceptance or physics\"}\n"
+    }
+  }
+}

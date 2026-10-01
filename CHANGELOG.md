@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-01 — R75 independent cross-branch positive audit
+
+Exact word-cocycle/Jordan and peripheral restriction calculations retain
+B1511's three-member mathematical orbit, with nonsplit I=-1/dual+1,
+split0. Generic B1445 hopping determinant and matched Y^2 coefficient
+pass, not its full population or a normalized mass.43 finite controls
+and14 R74/R75 focused tests pass first; six new tests, no repair.
+Rank-five moment balance keeps the same-configuration source/end duty
+explicit. Copies, finite jets and higher-level coincidences remain
+scoped positives, not false kills or physical identifications.
+Science d27f4d72 pushed/server-confirmed before execution; own relay
+and11 readers updated. No entire-census/full-suite/analytic acceptance.
+Report: reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES.md.
+
 
 ## 2026-10-01 — R74 actual exterior cone matter and action admission
 

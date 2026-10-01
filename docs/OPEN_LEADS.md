@@ -4263,3 +4263,28 @@ Source: reports/physical_bridge_2026_09_05/CONE_MATTER.md.
   and normalized interactions/values, quantum consistency/probabilities
   and gravity from the full generated architecture. No identification
   ledger promotion, extra5bar, chirality solution or TOE completion.
+
+## R75 positive-join disposition October 1 2026
+
+B1511's O2 polynomial/Jordan and representative nonsplit index now have
+independent exact verification. B1445's generic hopping identity also
+verified; its actual population at d3b50c0f is not reported or rerun here.
+Source: reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES.md.
+
+- PB-SOURCE / PB-ACTION: realize the verified nonsplit orbit with its
+  required positive projector source/end flux in ONE parent model.
+  Split harmonic geometry is not the nonsplit coefficient's metric.
+- PB-BOUNDARY / PB-GAUGE: join the common end and analytic superfield/
+  fermion/gauge domains to the actual core. R74's split cone is a
+  different problem; boundary acyclicity does not kill its witnesses.
+- PB-REVIEW: independently check B1512 intertwiners and higher-level
+  exact/reconstructed counts; no discarded complex-polynomial premise.
+  B1510 all-order/convergent existence and the appropriate noncompact
+  harmonic-metric/end estimates remain its own registered duties.
+- PB-INTERACTIONS: actual two-curve transport, positive kinetic/mass
+  normalization and selected Higgs values; ordinary bulk zeros do not
+  exclude relative/end contributions. Symmetric law does not imply
+  every vacuum invariant. Character allowance is not a nonzero vertex.
+- PB-PHYSICS: whole anomaly-compatible normalized chiral spectrum,
+  gravity, scales and discriminating observations. No I-26 promotion
+  or parameter-free Standard Model/TOE completion from this audit.

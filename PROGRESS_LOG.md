@@ -16205,3 +16205,42 @@ R74 first custody check falsely rejected unchanged Unicode bytes because
 Ruby compared UTF-8 and ASCII-8BIT strings. SHA256 and binary comparison
 agree. The first metadata failure is preserved in receipts; only the
 checker normalizes both byte strings, with no frozen science alteration.
+
+## 2026-10-01 — R75 positive cross-branch mathematical verification
+
+Science d27f4d726f37f993961af10549cec40fd2534009 committed, pushed and
+server-confirmed before import/execution. No incoming scientific code
+imported. Own independent word-cocycle transport verifies P=Q(q^3,s)
+for all three order-two fibre characters, exact characteristic-zero
+Jordan nullities1,2,2,2 at both positive roots of q^6-34q^3+1.
+Actual representative W's group/peripheral cochains give I=-1, dual+1,
+split0; deck automorphism transports the count. Generic four-line mixed
+hopping determinant and matched Y^2 coefficient also verified, not the
+actual B1445 population or physical mass. Rank-five projector balance
+keeps required source/end energy duty explicit.43/43 controls and14/14
+R74/R75 focused tests pass first; six new tests, no science repair.
+Native sha256 a00578561a2bfa8cb7a5384d1cbaafc3c2386e912e126b0c1fafd2f5de8ad747;
+focused sha256 eb260a0239cc3a99d6726427296594ba68c0bc7b072415122ce843bf9244d9db.
+Fetched all heads, read B1510–B1512 and B1435/B1438/B1443/B1444 bodies
+and stated designs. Other full censuses not independently rerun.
+Corlette original compact-base premise checked via primary-paper text;
+no whole-paper or visual certification. Semisimple finite jets do not
+pay a complete noncompact finite-energy model. Positive triplet/copies/
+self-coincidences remain, no broader kill.11 readers and sender relay
+updated; source/end/action/analytic core/anomaly join remains physics
+priority. Goal unachieved, tracker usageLimited; no autonomous reset.
+Report: reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES.md.
+
+R75 first cumulative metadata check caught digest rows shadowed by
+later historical rows; first gates also caught one new law-map source
+cell without its B-context citation. Both failures are preserved in
+receipts. Only metadata order/citation corrected; frozen science remains
+unchanged. The fresh outgoing relay is OPEN, not recipient-accepted.
+
+R75 corrected cumulative capture verifies1117 artifact rows,429 latest
+distinct digests and24 unchanged historical failed-error IDs. Corrected
+governance is26PASS/4FAIL, with the same old offender paths and41 stale
+relays plus one fresh OPEN relay. A custody predicate using the wrong
+provenance label also failed; that capture is preserved and only its
+substring fixed. Final custody passes5 frozen science files/14 pins.
+No science rerun, repair or new physical identification.

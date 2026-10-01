@@ -1,5 +1,22 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Current path-local R75 (October 1):** independent exact word-cocycle
+algebra retains B1511's three-member projective orbit: P=Q(q^3,s),
+Jordan nullities1,2,2,2 at both positive roots, actual nonsplit I=-1,
+dual+1 and split0. The generic B1445 mixed hopping polynomial also
+passes, not its population or a normalized physical mass.43 controls
+and14 R74/R75 focused tests pass first run; six new tests, no repair.
+Rank-five source balance is checked; a split harmonic background cannot
+be silently assigned to counted nonsplit W. Received finite jets,
+self-coincidences and asymmetric Higgs possibilities remain positives
+with their scopes. Next common source/end/action, gauge/fermion domains,
+core and anomaly spectrum. No identification or physics value earned.
+The SM/TOE objective remains unachieved; tracker is usageLimited, not a
+claim of reactivated unattended execution. Report:
+reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES.md.
+Earlier dated entries retain their historical scopes.
+
+
 **Current path-local R74 (October 1):** the actual exterior six on the
 split rank-five logarithmic cone has acyclic torus cohomology but admits
 analytic graph witnesses at the SUPPLIED aspect alpha=9 log(q)^2.
