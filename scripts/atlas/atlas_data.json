@@ -8890,6 +8890,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1439": {
+   "slug": "the census by slope",
+   "motifs": [
+    "coupling",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L229"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B143": {
    "slug": "interaction feasibility",
    "motifs": [
@@ -8920,6 +8938,25 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1440": {
+   "slug": "the rank bound",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "symplectic"
+   ],
+   "refs": [
+    "P03",
+    "P04"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 31,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B144": {
    "slug": "interaction chirality",

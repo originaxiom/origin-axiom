@@ -1,0 +1,49 @@
++LR 2 done
+-LR 1 done
+-LLR 1 done
++LLR 2 done
+direct sum rank 4: bound attained 5
+direct sum rank 4: holds 20
+direct sum rank 4: max |I| 1
+direct sum rank 5: bound attained 10
+direct sum rank 5: holds 38
+direct sum rank 5: max |I| 2
+direct sum rank 6: bound attained 5
+direct sum rank 6: holds 50
+direct sum rank 6: max |I| 1
+direct sum rank 7: bound attained 3
+direct sum rank 7: holds 76
+direct sum rank 7: max |I| 2
+direct sum rank 8: bound attained 6
+direct sum rank 8: holds 105
+direct sum rank 8: max |I| 3
+exterior square of rank 3, rank 3: bound attained 45
+exterior square of rank 3, rank 3: holds 135
+exterior square of rank 3, rank 3: max |I| 1
+exterior square of rank 3, rank 3: outside the hypothesis (invariants) 105
+exterior square of rank 4, rank 6: bound attained 16
+exterior square of rank 4, rank 6: holds 132
+exterior square of rank 4, rank 6: max |I| 2
+exterior square of rank 4, rank 6: outside the hypothesis (invariants) 108
+triangular rank 2: bound attained 55
+triangular rank 2: holds 240
+triangular rank 2: max |I| 1
+triangular rank 3: bound attained 94
+triangular rank 3: holds 240
+triangular rank 3: max |I| 1
+triangular rank 3: obstructed 49
+triangular rank 4: bound attained 63
+triangular rank 4: holds 240
+triangular rank 4: max |I| 2
+triangular rank 4: obstructed 244
+triangular rank 5: bound attained 37
+triangular rank 5: holds 240
+triangular rank 5: max |I| 2
+triangular rank 5: obstructed 744
+triangular rank 6: bound attained 19
+triangular rank 6: holds 222
+triangular rank 6: max |I| 3
+triangular rank 6: obstructed 2601
+two-step formula holds 357
+two-step max |I| 2
+THE RANK BOUND HOLDS ON EVERY MODULE TESTED

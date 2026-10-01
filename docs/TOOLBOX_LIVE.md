@@ -52,6 +52,28 @@ escalation are the proof).
   depend on a path that exists on the bench but not in git; the local suite is blind to this class
   by construction, so the gate runs at push.
 
+- **The slope instruments (2026-10-01, B1432–B1440)** — read these before any probe of the Standard-Model frame on
+  a punctured-torus bundle; **never run a module-by-module index census there again**:
+  - `frontier/B1438_the_slope_law/verification/slope_census.py` — `slope_census(eps, word, k)`: the index of every
+    sector module, the generation-shaped backgrounds, lifts, signs and deck orbits of a level, from the slope
+    s(χ) alone (two primes above 2·10⁹); reproduces B1434's 68 levels in twenty seconds. `slope_law.py::exact_slopes`
+    gives s exactly over ℚ(ζ_N); `cot_formula.py` the letter-by-letter closed form.
+  - `frontier/B1439_the_census_by_slope/verification/census_by_slope.py` — the same with the vanishing of every
+    allowed coupling, and `population(maxlen, tmax)` for any range of signed word states.
+  - `frontier/B1435_the_interaction_census/verification/relcup.py` — the relative triple product a ∪ b ∪ h on an
+    explicit relative fundamental chain (`Bundle.fundamental()` asserts ∂C = z as integer chains); modules and
+    cocycles over a prime field; `interaction_census.py` drives it; `exact_couplings.py` is the second
+    implementation over ℚ(ζ_N).
+  - `frontier/B1440_the_rank_bound/verification/modules.py` — `build(L, chars, coeff)`: a triangular module of
+    any rank, one superdiagonal at a time (returns None when the Massey-type obstruction is non-zero);
+    `two_step`, `ext2`, `dsum`; feed the result to B1427's `myindex.index`. Before searching for an index above
+    ⌊rank/2⌋ on a one-cusped bundle, read B1440: it cannot exist.
+  - `frontier/B1434_the_architecture_census/verification/architecture_census.py` — `monodromy`, `level`,
+    `states(maxlen)`: the mapping-torus presentation of any signed word state and its cyclic levels.
+- **Two gates added 2026-10-01:** `lead-debt` (`scripts/checks/lead_debt.py`: leads and OPEN arcs age at 21 days on
+  a ratchet; a lead number carried by two open leads fails outright) and the doc-currency lock
+  (`tests/test_doc_currency_gate.py`: the declared-debt set is pinned; another seat's arc number is not a citation).
+
 ## Four traps this bench walked into in one session (2026-09-10/11, B1325–B1329)
 
 Recorded because each cost a wrong answer that a re-run caught, and all four are
@@ -79,3 +101,12 @@ written in reports a clean result.**
   is a **sum** — `27` on an `sl2` germ is `(+) Sym^{n_i}`, `t_0 = #summands`. Test
   sums before concluding anything vanishes.
 
+## Three more (2026-10-01, B1432–B1440)
+
+- **A script that writes next to `__file__` and is `exec`'d from the repository root writes into the root.** A banked
+  frame run that way overwrote a tracked `results.json`. Run banked scripts in a scratch checkout
+  (`git worktree add --detach <dir> HEAD`), never by `exec` from the working tree.
+- **A reader sealed with an instrument must be run twice before the seal.** B1439's reader matched its own output
+  with its input pattern and could not be re-run; it was sealed, so it could not be fixed (E52).
+- **A census that parametrises backgrounds by a lift enumerates only what lifts.** Two seats and main reported "the
+  three-fold cover does not fire" for that reason (B1432, E54). Ask of every enumeration what it cannot reach.

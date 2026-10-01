@@ -1,0 +1,247 @@
++LLLR 1 tors 3 N 3 firing 0 gen 0 lifted 0 orbits {} yuk {} sec 0.4
+-LR 1 tors 5 N 5 firing 8 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRR 1 tors 6 N 6 firing 4 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLR 1 tors 8 N 8 firing 12 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLRR 1 tors 8 N 4 firing 24 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLLLR 1 tors 10 N 10 firing 16 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLLLLR 1 tors 11 N 11 firing 20 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLRR 1 tors 12 N 6 firing 44 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLR 2 tors 12 N 6 firing 32 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLRLRR 1 tors 13 N 13 firing 24 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLR 1 tors 14 N 14 firing 24 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLRR 1 tors 16 N 8 firing 96 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRLLR 1 tors 16 N 16 firing 28 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLLRR 1 tors 18 N 18 firing 124 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRLRR 1 tors 18 N 18 firing 28 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLLLRR 1 tors 20 N 10 firing 160 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRRR 1 tors 20 N 10 firing 32 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLRRR 1 tors 21 N 21 firing 156 gen 24 lifted 24 orbits {'1': 24} yuk {'[true, false, false, false]': 24} sec 0.0
+-LLLLLLLLLRR 1 tors 22 N 22 firing 200 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLRLR 1 tors 23 N 23 firing 44 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLRRR 1 tors 24 N 24 firing 208 gen 24 lifted 8 orbits {'1': 24} yuk {'[true, false, false, false]': 16, '[true, false, false, null]': 8} sec 0.0
+-LLLLLRRRR 1 tors 24 N 24 firing 40 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLLRRR 1 tors 25 N 25 firing 48 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLLLR 1 tors 26 N 26 firing 48 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRLR 1 tors 27 N 27 firing 48 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLRRRR 1 tors 28 N 28 firing 268 gen 48 lifted 0 orbits {'1': 48} yuk {'[false, false, false, false]': 24, '[false, false, false, null]': 24} sec 0.0
++LLLLLRLRR 1 tors 28 N 28 firing 52 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLLRLR 1 tors 29 N 29 firing 56 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLRRRRR 1 tors 30 N 30 firing 292 gen 48 lifted 16 orbits {'1': 48} yuk {'[false, false, false, null]': 32, '[true, false, false, false]': 16} sec 0.0
+-LLLRLLRR 1 tors 31 N 31 firing 60 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLLRRRR 1 tors 32 N 32 firing 60 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLR 2 tors 32 N 16 firing 172 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRLRLR 1 tors 32 N 16 firing 172 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLLLLRLR 1 tors 33 N 33 firing 420 gen 40 lifted 40 orbits {'1': 40} yuk {'[true, false, false, false]': 40} sec 0.0
++LLLLRLLRR 1 tors 34 N 34 firing 64 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLRLLRLR 1 tors 35 N 35 firing 164 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLRLLLR 1 tors 36 N 36 firing 64 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRRLR 1 tors 36 N 36 firing 64 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLRLRR 1 tors 37 N 37 firing 72 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLRRLR 1 tors 38 N 38 firing 72 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRLLRRR 1 tors 38 N 38 firing 72 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRRRLR 1 tors 39 N 39 firing 72 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLRRRRRR 1 tors 40 N 20 firing 72 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLRLRRLR 1 tors 40 N 20 firing 136 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLRRRR 1 tors 41 N 41 firing 80 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRLLLLR 1 tors 42 N 42 firing 556 gen 72 lifted 24 orbits {'1': 72} yuk {'[false, false, false, null]': 48, '[true, false, false, false]': 24} sec 0.0
++LLLLLLLLRRLR 1 tors 43 N 43 firing 84 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRRLRR 1 tors 44 N 22 firing 164 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLR 2 tors 45 N 45 firing 212 gen 32 lifted 32 orbits {'2': 32} yuk {'[true, true, true, null]': 16, '[true, false, false, null]': 16} sec 0.0
++LLLLRLLLRR 1 tors 45 N 45 firing 84 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LR 4 tors 45 N 15 firing 488 gen 256 lifted 256 orbits {'4': 256} yuk {'[true, true, true, null]': 192, '[true, false, false, null]': 64} sec 0.1
++LLLRLRLLR 1 tors 46 N 46 firing 88 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLRLLRR 1 tors 48 N 48 firing 88 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLLRRR 1 tors 48 N 24 firing 244 gen 16 lifted 0 orbits {'1': 16} yuk {'[false, true, true, null]': 16} sec 0.0
+-LLLLRLLLRR 1 tors 49 N 49 firing 96 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLRLRRR 1 tors 50 N 50 firing 96 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLLRLR 1 tors 50 N 50 firing 96 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLR 3 tors 50 N 10 firing 456 gen 48 lifted 48 orbits {'3': 48} yuk {'[true, true, true, null]': 48} sec 0.1
++LLLLLLRRLRR 1 tors 52 N 52 firing 196 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLRRLR 1 tors 52 N 52 firing 196 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRRLRR 1 tors 53 N 53 firing 104 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRRRRLR 1 tors 54 N 54 firing 100 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLRLLRLRR 1 tors 54 N 54 firing 148 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLLLRRR 1 tors 55 N 55 firing 268 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRRLLRR 1 tors 56 N 28 firing 200 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLLRLR 1 tors 57 N 57 firing 108 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRRLLLR 1 tors 58 N 58 firing 112 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLLRLLRR 1 tors 59 N 59 firing 116 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLRRLRR 1 tors 60 N 30 firing 288 gen 96 lifted 0 orbits {'1': 96} yuk {'[false, true, true, null]': 48, '[true, false, false, null]': 48} sec 0.0
++LLLLLRRLRRR 1 tors 60 N 60 firing 112 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRLLRR 1 tors 60 N 30 firing 428 gen 128 lifted 64 orbits {'1': 128} yuk {'[true, false, false, false]': 128} sec 0.0
+-LLRLRLLRR 1 tors 60 N 60 firing 256 gen 32 lifted 32 orbits {'1': 32} yuk {'[true, true, true, null]': 16, '[true, false, false, null]': 16} sec 0.0
++LLLRRLLRRR 1 tors 61 N 61 firing 120 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRRLRRRR 1 tors 62 N 62 firing 120 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLRRRRLR 1 tors 63 N 63 firing 120 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLLRRLRR 1 tors 64 N 32 firing 588 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRLRRLR 1 tors 64 N 16 firing 316 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRLRRRRR 1 tors 65 N 65 firing 128 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRLRRRR 1 tors 66 N 66 firing 124 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLRRLLLR 1 tors 67 N 67 firing 132 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRLRLR 1 tors 67 N 67 firing 132 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRLLRLR 1 tors 68 N 68 firing 132 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRRLLLR 1 tors 68 N 68 firing 132 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRRLRRR 1 tors 70 N 70 firing 328 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRLLLLRR 1 tors 71 N 71 firing 140 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLRLLRRR 1 tors 72 N 36 firing 180 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRLRRLR 1 tors 72 N 24 firing 628 gen 64 lifted 64 orbits {'1': 64} yuk {'[true, false, false, false]': 64} sec 0.1
++LLLRRLRLLR 1 tors 72 N 36 firing 308 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLRLLLR 1 tors 74 N 74 firing 144 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRRRRLLR 1 tors 75 N 75 firing 144 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRRLLRLR 1 tors 75 N 75 firing 144 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRRLRRRR 1 tors 76 N 38 firing 144 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRRLRLLR 1 tors 76 N 38 firing 144 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRRRLLLR 1 tors 77 N 77 firing 152 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRLLLRLR 1 tors 78 N 78 firing 148 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLRLLRLR 1 tors 79 N 79 firing 156 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLRLLRR 1 tors 79 N 79 firing 156 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRRLRLR 1 tors 80 N 80 firing 156 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLLRLLR 1 tors 80 N 80 firing 380 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRLLLRRR 1 tors 81 N 81 firing 156 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLRLLRRLRR 1 tors 81 N 9 firing 744 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLLLRLRLLR 1 tors 83 N 83 firing 164 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLLRRLLRR 1 tors 84 N 42 firing 828 gen 192 lifted 96 orbits {'1': 192} yuk {'[true, false, false, false]': 192} sec 0.1
++LLLRLLLRLLR 1 tors 84 N 84 firing 592 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLRLLRRLRR 1 tors 85 N 85 firing 424 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRLLLRRRR 1 tors 87 N 87 firing 168 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRLLLRLR 1 tors 88 N 44 firing 168 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLLLRLLR 1 tors 88 N 88 firing 412 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLRLRRLLRR 1 tors 89 N 89 firing 176 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRRLRLR 1 tors 90 N 90 firing 412 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLLRLRLLLR 1 tors 92 N 46 firing 176 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLRRLRR 1 tors 92 N 92 firing 180 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRLLRLRR 1 tors 94 N 94 firing 184 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRLLLRLRR 1 tors 94 N 94 firing 184 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRRRLLRR 1 tors 95 N 95 firing 188 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLLLLR 2 tors 96 N 48 firing 648 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRR 2 tors 96 N 24 firing 764 gen 64 lifted 0 orbits {'2': 64} yuk {'[true, false, false, false]': 32, '[true, false, false, null]': 32} sec 0.1
++LLLRLRRRLLR 1 tors 96 N 96 firing 280 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRLRLLRR 1 tors 98 N 98 firing 192 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLLLRRLR 1 tors 98 N 98 firing 192 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRRLLRRR 1 tors 99 N 99 firing 192 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRLRRRRLR 1 tors 100 N 10 firing 1216 gen 512 lifted 256 orbits {'1': 512} yuk {'[false, false, false, null]': 512} sec 0.4
+-LLLRLRRRLLR 1 tors 100 N 100 firing 196 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLLRLRRR 1 tors 102 N 102 firing 196 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRLRLRRR 1 tors 104 N 52 firing 208 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRLLRRLLR 1 tors 104 N 104 firing 492 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLRLRLRLRR 1 tors 104 N 52 firing 296 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRRLLRLLR 1 tors 106 N 106 firing 208 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLRRRLLLRR 1 tors 107 N 107 firing 212 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRRRLRLR 1 tors 108 N 54 firing 596 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRLLRRLLR 1 tors 108 N 36 firing 548 gen 40 lifted 0 orbits {'1': 40} yuk {'[true, true, true, true]': 8, '[true, true, true, null]': 32} sec 0.1
++LLLRRLRRLLR 1 tors 108 N 108 firing 568 gen 216 lifted 0 orbits {'1': 216} yuk {'[true, false, false, null]': 72, '[true, false, false, false]': 144} sec 0.1
+-LLLRLLRLLRR 1 tors 110 N 110 firing 216 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLLLRRLRRLR 1 tors 111 N 111 firing 216 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRRLRLLR 1 tors 112 N 56 firing 256 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRLLRRLRR 1 tors 112 N 112 firing 220 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRLRLRRRR 1 tors 113 N 113 firing 224 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRLRRLRR 1 tors 115 N 115 firing 228 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRRLLRLRR 1 tors 116 N 116 firing 228 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRLRLLRR 1 tors 117 N 117 firing 228 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLRRR 2 tors 117 N 39 firing 1000 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLLRRLRLRR 1 tors 119 N 119 firing 620 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRLRRLLLR 1 tors 120 N 60 firing 348 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRLRRRLRR 1 tors 121 N 121 firing 240 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLLRRLRLRR 1 tors 123 N 123 firing 560 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRRRLRLLR 1 tors 123 N 123 firing 240 gen 0 lifted 0 orbits {} yuk {} sec 0.0
++LLLRLRLRLLR 1 tors 124 N 124 firing 244 gen 0 lifted 0 orbits {} yuk {} sec 0.0
+-LLLLRRLRRRLR 1 tors 125 N 125 firing 248 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRLLRLRRR 1 tors 127 N 127 firing 252 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRRRLRRLR 1 tors 128 N 64 firing 492 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRLRLRLLR 1 tors 128 N 128 firing 252 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRLRLLLRR 1 tors 129 N 129 firing 252 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRLRLLRRR 1 tors 131 N 131 firing 260 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRRLLRLLR 1 tors 132 N 66 firing 284 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRLRRLRLR 1 tors 132 N 132 firing 256 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLRLRLRR 1 tors 134 N 134 firing 264 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRRLRRLLR 1 tors 135 N 135 firing 888 gen 432 lifted 432 orbits {'1': 432} yuk {'[true, false, false, false]': 432} sec 0.2
++LLRLLRLLRLR 1 tors 136 N 136 firing 652 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLLLRRLLR 1 tors 137 N 137 firing 272 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRRLRRLLR 1 tors 139 N 139 firing 276 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLLRR 2 tors 140 N 70 firing 1188 gen 0 lifted 0 orbits {} yuk {} sec 0.2
+-LLRLLRLLRLR 1 tors 140 N 140 firing 708 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRLRRLLRR 1 tors 143 N 143 firing 284 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRRLRRLRR 1 tors 144 N 24 firing 1496 gen 8 lifted 8 orbits {'1': 8} yuk {'[false, false, false, null]': 8} sec 0.2
++LLLRRLRRRLLR 1 tors 144 N 12 firing 2232 gen 528 lifted 16 orbits {'1': 528} yuk {'[true, true, true, null]': 32, '[false, true, true, true]': 16, '[false, true, true, null]': 48, '[false, false, false, false]': 432} sec 0.4
++LLLRLLRRLRRR 1 tors 145 N 145 firing 288 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRRLLRLRR 1 tors 147 N 147 firing 288 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLLRLLRRR 1 tors 147 N 147 firing 288 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRRLRRRLLR 1 tors 148 N 74 firing 288 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLRLRLLRLRR 1 tors 150 N 150 firing 452 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRRLRLLRR 1 tors 151 N 151 firing 300 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRLRLRLLR 1 tors 153 N 153 firing 300 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRRLLLRRLR 1 tors 155 N 155 firing 308 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLRRLLRRR 1 tors 157 N 157 firing 312 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLRLRRLRLR 1 tors 159 N 159 firing 312 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRRLRLLRRR 1 tors 160 N 40 firing 440 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRLRLRRLR 1 tors 163 N 163 firing 324 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLLLLLLLLR 2 tors 165 N 165 firing 884 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLLRRLLRR 1 tors 167 N 167 firing 332 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLRLRRRLR 1 tors 169 N 169 firing 336 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLRLRLRLRR 1 tors 172 N 86 firing 336 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRLRLRRRLR 1 tors 173 N 173 firing 344 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRRLRRLLRR 1 tors 176 N 88 firing 352 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRLLRLRLLR 1 tors 180 N 90 firing 1088 gen 32 lifted 32 orbits {'1': 32} yuk {'[true, false, false, null]': 16, '[true, true, true, null]': 16} sec 0.2
++LLLRLRLRLRRR 1 tors 181 N 181 firing 360 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLRRLRRLR 1 tors 185 N 185 firing 944 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLRLRLRRLLR 1 tors 188 N 94 firing 372 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLLLLRR 2 tors 192 N 48 firing 1772 gen 192 lifted 0 orbits {'2': 192} yuk {'[false, false, false, false]': 128, '[true, false, false, false]': 32, '[true, false, false, null]': 32} sec 0.2
+-LLLRLLRRLRLR 1 tors 192 N 48 firing 608 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLR 4 tors 192 N 24 firing 4192 gen 480 lifted 288 orbits {'4': 480} yuk {'[true, true, true, null]': 128, '[true, true, true, true]': 320, '[true, false, false, null]': 16, '[false, false, false, false]': 16} sec 0.5
+-LLLRLLRLRLRR 1 tors 195 N 195 firing 384 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLLLR 3 tors 196 N 28 firing 3136 gen 216 lifted 216 orbits {'3': 216} yuk {'[false, false, false, null]': 72, '[false, false, false, false]': 72, '[true, true, true, null]': 72} sec 0.3
++LLLRRLRLRRLR 1 tors 196 N 98 firing 456 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRLRLLRLRR 1 tors 199 N 199 firing 396 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLLRLRRLRLRR 1 tors 200 N 100 firing 792 gen 0 lifted 0 orbits {} yuk {} sec 0.3
+-LLLRLRLRLLRR 1 tors 204 N 102 firing 412 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLRLLRLLRRLR 1 tors 207 N 207 firing 408 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLRLLRLLRRLR 1 tors 211 N 211 firing 420 gen 0 lifted 0 orbits {} yuk {} sec 0.1
++LLRLLRRLRLRR 1 tors 217 N 217 firing 1152 gen 0 lifted 0 orbits {} yuk {} sec 0.1
+-LLRLLRRLRLRR 1 tors 221 N 221 firing 1208 gen 0 lifted 0 orbits {} yuk {} sec 0.2
++LLRLRLRRLLRR 1 tors 225 N 75 firing 960 gen 0 lifted 0 orbits {} yuk {} sec 0.4
+-LLLLLLLRR 2 tors 252 N 126 firing 2288 gen 0 lifted 0 orbits {} yuk {} sec 0.2
++LLRLLRLRLRLR 1 tors 252 N 126 firing 1376 gen 0 lifted 0 orbits {} yuk {} sec 0.2
++LLRLRLRLRRLR 1 tors 257 N 257 firing 512 gen 0 lifted 0 orbits {} yuk {} sec 0.2
++LLRLRLRLRLRR 1 tors 265 N 265 firing 528 gen 0 lifted 0 orbits {} yuk {} sec 0.2
+-LLLLLLLLRR 2 tors 320 N 80 firing 3200 gen 384 lifted 0 orbits {'2': 384} yuk {'[false, false, false, false]': 256, '[false, false, false, null]': 128} sec 0.6
++LLLLRRRR 2 tors 320 N 40 firing 4016 gen 16 lifted 16 orbits {'1': 16} yuk {'[false, false, false, false]': 16} sec 1.1
++LR 6 tors 320 N 40 firing 12536 gen 2160 lifted 336 orbits {'6': 2112, '3': 48} yuk {'[true, true, true, null]': 1920, '[true, true, true, true]': 144, '[false, true, true, null]': 48, '[true, false, false, null]': 48} sec 4.6
+-LLLLLLLLLRR 2 tors 396 N 198 firing 3744 gen 0 lifted 0 orbits {} yuk {} sec 0.5
+-LLLRLRR 2 tors 396 N 198 firing 2208 gen 0 lifted 0 orbits {} yuk {} sec 0.4
+-LLLLLLLLLLRR 2 tors 480 N 120 firing 5036 gen 480 lifted 32 orbits {'2': 480} yuk {'[true, true, true, null]': 16, '[true, false, false, null]': 48, '[false, false, false, false]': 192, '[false, false, false, null]': 192, '[true, false, false, false]': 32} sec 1.3
+-LLLLLRRRR 2 tors 480 N 240 firing 5496 gen 80 lifted 48 orbits {'2': 80} yuk {'[true, true, true, null]': 16, '[true, false, false, null]': 16, '[false, false, false, false]': 16, '[false, false, false, null]': 16, '[false, true, true, null]': 16} sec 1.2
+-LLRLLRR 2 tors 480 N 240 firing 6200 gen 192 lifted 128 orbits {'2': 192} yuk {'[true, false, false, false]': 32, '[true, false, false, null]': 96, '[true, true, true, null]': 16, '[false, true, true, null]': 48} sec 1.6
+-LLLLLLR 3 tors 490 N 70 firing 8188 gen 216 lifted 216 orbits {'3': 216} yuk {'[false, false, false, null]': 72, '[false, false, false, false]': 72, '[true, true, true, null]': 72} sec 2.1
+-LLLR 4 tors 525 N 105 firing 11044 gen 224 lifted 224 orbits {'4': 224} yuk {'[true, true, true, null]': 64, '[true, false, false, null]': 64, '[true, false, false, false]': 32, '[false, false, false, null]': 64} sec 5.2
+-LLLLRLRR 2 tors 621 N 621 firing 3524 gen 0 lifted 0 orbits {} yuk {} sec 0.9
+-LLLLLLLLRRR 2 tors 672 N 336 firing 7464 gen 248 lifted 184 orbits {'2': 248} yuk {'[false, true, true, null]': 24, '[true, true, true, null]': 48, '[true, false, false, null]': 32, '[false, false, false, false]': 64, '[true, false, false, false]': 16, '[false, false, false, null]': 64} sec 1.3
+-LLLLLRLLR 2 tors 672 N 336 firing 8248 gen 64 lifted 16 orbits {'1': 48, '2': 16} yuk {'[false, false, false, false]': 24, '[false, false, false, null]': 24, '[false, true, true, null]': 16} sec 1.5
++LLLLLLLR 3 tors 700 N 70 firing 14304 gen 480 lifted 48 orbits {'3': 480} yuk {'[false, false, false, null]': 240, '[false, true, true, null]': 96, '[true, true, true, null]': 96, '[false, false, false, false]': 48} sec 5.5
++LLLLLRRRRR 2 tors 725 N 145 firing 7880 gen 64 lifted 64 orbits {'1': 64} yuk {'[false, false, false, null]': 64} sec 3.7
+-LLLLLLLLRLR 2 tors 780 N 390 firing 8864 gen 288 lifted 16 orbits {'2': 256, '1': 32} yuk {'[false, false, false, null]': 256, '[true, false, false, false]': 32} sec 2.8
+-LLLLLLLLLRRR 2 tors 837 N 279 firing 8848 gen 24 lifted 24 orbits {'2': 24} yuk {'[true, false, false, false]': 24} sec 1.9
+-LLLRRLLR 2 tors 837 N 837 firing 4788 gen 0 lifted 0 orbits {} yuk {} sec 1.8
+-LLLLLLLRRRR 2 tors 896 N 448 firing 10844 gen 48 lifted 0 orbits {'2': 48} yuk {'[false, false, false, false]': 24, '[false, false, false, null]': 24} sec 2.6
+-LLLLLRLRR 2 tors 896 N 448 firing 5148 gen 0 lifted 0 orbits {} yuk {} sec 2.1
+-LLLRRLRR 2 tors 896 N 224 firing 12796 gen 128 lifted 0 orbits {'2': 128} yuk {'[false, false, false, false]': 128} sec 3.0
++LLLLLLLLR 3 tors 968 N 88 firing 20112 gen 1440 lifted 1440 orbits {'3': 1440} yuk {'[false, false, false, null]': 1200, '[true, true, true, null]': 120, '[false, false, false, false]': 120} sec 4.6
+-LLLLRR 3 tors 972 N 54 firing 16496 gen 24 lifted 0 orbits {'3': 24} yuk {'[false, true, true, null]': 24} sec 3.9
+-LLLLLRLLLR 2 tors 1085 N 1085 firing 12344 gen 96 lifted 96 orbits {'1': 96} yuk {'[false, false, false, null]': 96} sec 5.5
+-LLLLLLLRLLR 2 tors 1152 N 576 firing 14568 gen 56 lifted 0 orbits {'1': 56} yuk {'[false, false, false, false]': 24, '[true, false, false, null]': 8, '[false, false, false, null]': 24} sec 5.0
+-LLLLRLRRR 2 tors 1152 N 576 firing 6680 gen 0 lifted 0 orbits {} yuk {} sec 3.8
+-LLLRLRLR 2 tors 1152 N 288 firing 16432 gen 144 lifted 16 orbits {'2': 144} yuk {'[true, false, false, null]': 16, '[false, false, false, false]': 128} sec 4.8
+-LLLLLLRLRR 2 tors 1221 N 1221 firing 7044 gen 0 lifted 0 orbits {} yuk {} sec 3.9
+-LLLLRLLRR 2 tors 1292 N 646 firing 7460 gen 0 lifted 0 orbits {} yuk {} sec 4.3
++LLLLLLLLLR 3 tors 1296 N 108 firing 28020 gen 1560 lifted 408 orbits {'3': 1560} yuk {'[true, true, true, true]': 144, '[true, true, true, null]': 288, '[true, false, false, null]': 312, '[true, false, false, false]': 240, '[false, false, false, false]': 192, '[false, false, false, null]': 336, '[false, true, true, null]': 48} sec 6.9
+-LLLLLLLRRRRR 2 tors 1365 N 1365 firing 15524 gen 128 lifted 128 orbits {'2': 128} yuk {'[false, false, false, null]': 96, '[true, false, false, null]': 16, '[true, true, true, null]': 16} sec 7.1
+-LLLLLLLLRLLR 2 tors 1440 N 360 firing 21964 gen 672 lifted 96 orbits {'2': 608, '1': 64} yuk {'[true, true, true, null]': 16, '[true, false, false, null]': 48, '[true, false, false, false]': 32, '[false, false, false, null]': 544, '[false, false, false, false]': 32} sec 10.8
+-LLLLLLRRRRRR 2 tors 1440 N 120 firing 21376 gen 640 lifted 256 orbits {'2': 640} yuk {'[true, true, true, null]': 160, '[true, false, false, null]': 256, '[true, false, false, false]': 208, '[false, false, false, null]': 16} sec 14.8
+-LLLRLLLRR 2 tors 1440 N 240 firing 25112 gen 1168 lifted 528 orbits {'2': 1168} yuk {'[true, true, true, null]': 832, '[true, false, false, null]': 256, '[false, true, true, null]': 24, '[true, true, true, true]': 24, '[true, false, false, false]': 32} sec 12.4
+-LLRLRLRR 2 tors 1517 N 1517 firing 8792 gen 0 lifted 0 orbits {} yuk {} sec 6.3
+-LLLLLLLRRLR 2 tors 1596 N 798 firing 9248 gen 0 lifted 0 orbits {} yuk {} sec 6.2
+-LLLRLLRRR 2 tors 1596 N 798 firing 9248 gen 0 lifted 0 orbits {} yuk {} sec 6.6
+-LLLLLRLRRR 2 tors 1677 N 1677 firing 9732 gen 0 lifted 0 orbits {} yuk {} sec 7.3
++LLLLLLLLLLR 3 tors 1690 N 130 firing 37096 gen 2688 lifted 2688 orbits {'3': 2688} yuk {'[true, true, true, null]': 336, '[true, false, false, null]': 192, '[false, false, false, false]': 288, '[false, false, false, null]': 1872} sec 22.7
+-LLLLRLRLR 2 tors 1760 N 880 firing 25500 gen 256 lifted 256 orbits {'2': 256} yuk {'[false, false, false, false]': 128, '[false, false, false, null]': 128} sec 19.4
+-LLLLLRLLRR 2 tors 1845 N 1845 firing 10724 gen 0 lifted 0 orbits {} yuk {} sec 8.7
+-LLLLRLRRRR 2 tors 1845 N 615 firing 10712 gen 0 lifted 0 orbits {} yuk {} sec 8.1

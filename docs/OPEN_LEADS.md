@@ -2934,8 +2934,10 @@ instrument. Do m369's and s639's backgrounds survive in a frame built from their
 a state**, given that the mechanism for three does not: this is L222's item (iv) with a census behind it.
 (v) Not in the census: the orientation-reversing half step (the Gieseking parent), non-cyclic covers, fillings.
 
-**Status 2026-10-01 (B1438):** the census is now one function, the slope, and twenty seconds of compute. (i) is put
-to every signed word state to length twelve under seal in B1439. (ii) has an answer in kind — a level is silent when
+**Status 2026-10-01 (B1438, B1439):** the census is now one function, the slope. (i) was put to every signed word
+state to length twelve under seal (B1439): **95 of 758 states carry a generation at their own level** (49 of sign +),
+fourteen of them with every coupling non-zero, the shortest +LLRLRRLR; **no criterion in the fibre torsion was
+found** (divisibility by 3 holds for 71 of the 95). The list is the datum and the law is open. (ii) has an answer in kind — a level is silent when
 no three sector characters share a slope while their quotients do not — and no explanation of why those two.
 (iii), (iv), (v) stand.
 
@@ -3021,3 +3023,6 @@ character. Open, in the order they would be worked:
   sums, the (2,3) parabolic, deck-stable 3+1+1 extensions, Sym⁴: largest index 2; scripts not shipped). **Whether
   a triangular rank-five determinant-one module on some level has I(W) = I(Λ²W) = ±3 is neither found nor
   excluded.** With the slope it is computable on every level; it is the next arc.
+  **CLOSED the same day (B1440): it is excluded.** |I(V)| ≤ min(r, n − r) ≤ ⌊n/2⌋ for every module of rank n on a
+  once-punctured-torus bundle, reducible or not: a rank-five bundle counts at most two. What stays open is where the
+  bound does not reach: more cusps, rank six and above, another count.

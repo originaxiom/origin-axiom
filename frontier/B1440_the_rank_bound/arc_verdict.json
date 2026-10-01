@@ -1,0 +1,17 @@
+{
+ "id": "B1440",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1297",
+  "B1427",
+  "B1435",
+  "B1438"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE RANK BOUND. On a once-punctured-torus bundle, any finite-dimensional module V of the fundamental group with no invariants and no coinvariants on the fibre group has class index |I(V)| <= min(r, n - r) <= floor(n/2), n = dim V, r = rank(rho(lam) - 1), lam the longitude -- whatever the shape of V, reducible or irreducible. Proof: interior classes restrict injectively to the fibre's interior cohomology, of dimension r; and by main's identity I = t0(V*) - r1 the index is at most the boundary coinvariants, at most n - r. So rank two gives |I| <= 1 (B1438's one count per background, without the slope), a regular unipotent longitude gives |I| <= 1, and RANK FIVE GIVES |I| <= 2: no flat SL(5) bundle on these manifolds has three net tens, so the E8 parent with a rank-five bundle -- built by the audit lane with index +1, an open lead on the SM lane, searched by a web seat in bounded families with largest index 2 and index 3 left open -- cannot carry three generations in one vacuum, on any level. Three needs rank six, and rank six reaches it (three rank-two blocks, and triangular rank-six modules). Verified with each inequality checked separately on triangular modules of rank 2 to 6 built one superdiagonal at a time, their direct sums to rank 8 and exterior squares, on four small levels: no failure, the bound attained at every rank. The two-step case has a formula: n(W) = dim(D cap Im C) <= min(a, b). Not reached: manifolds with more cusps, rank six and above, counts other than main's class index. No physics reading."
+}

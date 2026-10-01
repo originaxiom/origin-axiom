@@ -1,0 +1,16 @@
+{
+ "id": "B1439",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1434",
+  "B1435",
+  "B1438"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE CENSUS BY SLOPE, sealed at f80f0754 before the slope of any character was computed on a new level: every signed cyclic word state to length twelve and every level to fibre torsion 2 000 (758 states, 988 levels, 920 new), generation-shaped backgrounds and the vanishing of their couplings from B1438's slope law alone, slopes at two primes above 2e9, the control returning B1434's 68 levels and B1435's 30 coupling levels exactly. 61 648 generation-shaped backgrounds. 95 of the 758 states carry one at their own level, 49 of sign + and 46 of sign - (B1434 had two, both -, to length six); the fraction grows with length to 32 of 340 at length twelve. Of their 9 376 own-level backgrounds 4 232 have an up-type coupling and no other, 3 800 none, and 256 on fourteen states have up, down, lepton and neutrino couplings all non-zero -- the shortest +LLRLRRLR, torsion 36, all sixteen of its backgrounds complete, none lifting. No criterion for firing was found: torsion divisible by 3 holds for 71 of 95 and fails for 24. New three-fold levels: 15 of 20 carry backgrounds, in orbits of three except where a state's own backgrounds are pulled back. Predictions: E1, E2, E5, E8 YES; E3, E4, E6, E7 NO. Fence: main's class index, the frame as an instrument, a coupling is a number of the frame, nothing selects a state; by B1440 none of these manifolds carries three in one vacuum of rank five or less."
+}
