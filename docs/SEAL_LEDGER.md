@@ -1436,3 +1436,30 @@ and independent determinant controls. No repair import/run precedes this seal.
 | `reports/physical_bridge_2026_09_05/CONE_CHANNEL_CONTROL_DESIGN.md` | `aa323f1b83a64326229afc9fe98403ac9b652ca6fcdf524feec42ddd67c79280` |
 | `reports/physical_bridge_2026_09_05/cone_channel_control.py` | `2a1a6c20bb8be716d00a843d45e34940bf52876033113063eb9bdc2755f9e032` |
 | `tests/test_physical_bridge_cone_channel_control.py` | `cdf6fd494a55cfbc1f178f2ef08df8b3165fc25cab1cb0edf6545a908f7bb05b` |
+
+## October 1 2026 R72 exact local cone Green witnesses pre-execution seal
+
+Explicit contraction, exact current and cutoff controls on the changing
+operator. No scientific import/run precedes the seal. Authored analytic
+witnesses are not physical particle counts or a full domain classification.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_EXACT_DESIGN.md` | `8b45d9b4675ee0411762815c075b2cd5b3a6128f03467dce5af497bd72a59dbd` |
+| `reports/physical_bridge_2026_09_05/CONE_EXACT_PROOF.md` | `7fd1cabd31fc353d933b3449c87be029cd6e7075731a4bcaac636d837340f46d` |
+| `reports/physical_bridge_2026_09_05/CONE_EXACT_INPUTS.json` | `8f2d63d2526c9ce83becfe629fb8a15af62564aaf4b1f3e6781810a665ae526f` |
+| `reports/physical_bridge_2026_09_05/cone_exact.py` | `23c33713ce1267fdccc8c356e267dee9beb875ac06c5ae9223940694b27dd5a1` |
+| `tests/test_physical_bridge_cone_exact.py` | `f5da95a4dc7cfa8bf5c71413df10b24081e68f9368a4b8cae03e348313448e90` |
+
+### R72 pre-execution EOF-only refinement
+
+No scientific import/run occurred. The staged whitespace check caught
+three extra EOF blank lines; all five latest seal inputs are below.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_EXACT_DESIGN.md` | `6566c73d29b92371b660e150c7cd5bb8e9dae4e5f3fefc84c40abf711aff398e` |
+| `reports/physical_bridge_2026_09_05/CONE_EXACT_PROOF.md` | `81246bb202f26c813a34c3321dd138c8de3e9e86c3804ffc7d407c3431c0a29e` |
+| `reports/physical_bridge_2026_09_05/CONE_EXACT_INPUTS.json` | `8f2d63d2526c9ce83becfe629fb8a15af62564aaf4b1f3e6781810a665ae526f` |
+| `reports/physical_bridge_2026_09_05/cone_exact.py` | `23c33713ce1267fdccc8c356e267dee9beb875ac06c5ae9223940694b27dd5a1` |
+| `tests/test_physical_bridge_cone_exact.py` | `0d9e25cbe2fb798b3b9b8f49a719b0d6c8da25ea8dcc0a854a171ccf89b7a0fb` |

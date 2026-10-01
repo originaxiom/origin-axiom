@@ -1,0 +1,58 @@
+{
+  "scope": "Actual canonical collar and zero-Fourier charge-zero form operator; no physical spectrum or genesis-selected metric",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "4a374f4acda502a75f169eeea94a5e506f255b48",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "commit": "4a374f4acda502a75f169eeea94a5e506f255b48",
+      "sha256": "d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756",
+      "bytes": 7864
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "commit": "4a374f4acda502a75f169eeea94a5e506f255b48",
+      "sha256": "e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404",
+      "bytes": 8370
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_CHANNEL_PROOF.md",
+      "commit": "4a374f4acda502a75f169eeea94a5e506f255b48",
+      "sha256": "f2658c840b56c4300637629167edd92dd4dc7f62b38c11d5b14b547f93e7ab85",
+      "bytes": 6866
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_channel.py",
+      "commit": "4a374f4acda502a75f169eeea94a5e506f255b48",
+      "sha256": "a9056c822bdf7c2fe368d2421e83649950fd6d2ab8e4d5dffbc00a0b9f651055",
+      "bytes": 10487
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_channel_control.py",
+      "commit": "4a374f4acda502a75f169eeea94a5e506f255b48",
+      "sha256": "2a1a6c20bb8be716d00a843d45e34940bf52876033113063eb9bdc2755f9e032",
+      "bytes": 2552
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md",
+      "commit": "4a374f4acda502a75f169eeea94a5e506f255b48",
+      "sha256": "525ef354b906c4001f63dedb2e21ff0846744d2316f73ca10a3543c4212bf34e",
+      "bytes": 8866
+    }
+  ],
+  "literature_context": [
+    {
+      "title": "A perturbation theorem for exponential dichotomies",
+      "author": "Kenneth J. Palmer",
+      "year": 1987,
+      "url": "https://doi.org/10.1017/S0308210500018175",
+      "accessed": "2026-10-01",
+      "read": "Publisher synopsis only; not full-text theorem or proof",
+      "use": "Standard roughness context only; our special-case contraction is proved explicitly and does not import an unread theorem"
+    }
+  ]
+}
