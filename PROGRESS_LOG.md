@@ -16028,3 +16028,27 @@ The October 1 fetch received B1506 at ad64b558; its level/index work is
 being read and is not adopted as a physical generation theorem.
 The full physics mission remains unfinished.
 Report: reports/physical_bridge_2026_09_05/CONE_FERMION.md.
+
+## 2026-10-01 - R69 selected level coefficients and same-action distinctions
+
+B1506's specific D0 doublets and induced restrictions were independently
+checked in Q(i), not adopted from its census. Both coefficient types
+have index -1, with H1 dimensions 2/1 and boundary ranks 2/0 for V/dual.
+Induced rank-six coefficients have index -1 on the base and -3 on the
+threefold and sixfold levels. A rank-two pullback instead keeps -1.
+The unchanged received part F reproduces its selected three-prime results.
+Actual monomial transitions preserve the sheetwise algebra and transported
+metric. R58's general action connection is reused with its hypotheses;
+quantum gauging, a full E6 parent and physical generations are not supplied.
+The first exact run stopped on Gaussian conversion; 26 tests passed/six
+failed. A separately sealed normalization gave 42/43 checks, 32 tests
+passed/eight failed. A second canonical-equality control passes 46/46;
+final seven-file selection: 40 passed/eight earlier R69 IDs retained.
+Three seals were pushed/server-confirmed before their executions. Four
+foreign snapshots remain byte-identical; fourteen science paths and eleven
+prior pins are checked. Initial archive citation failure and metadata-helper
+errors are retained/disclosed, not called physical or mathematical kills.
+Next connect admitted parent interactions and end law; continue R68's
+complementary-channel, gauge and superfield domains and core matching.
+The full physics mission remains unfinished.
+Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.

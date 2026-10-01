@@ -1,5 +1,17 @@
 # Physical bridge audit — 2026-09-05
 
+**Current path-local R69 (October 1):** selected B1506 D0 doublets and
+their induced level counts are independently checked over Q(i), with
+actual sheet-algebra/metric controls. The final instrument passes 46
+checks; combined 40 pass/eight earlier R69 failures are retained.
+Two separately sealed normal-form repairs preserve the first failures.
+Direct image, pullback and quantum gauging are not interchangeable.
+No physical generation or end-law selection is certified. Continue the
+R68 coupled domain/core duty and a same-parent physical admission map.
+Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
+Earlier dated entries retain their historical scopes.
+
+
 **Current execution, path-local R68 (record completed October 1):**
 the actual logarithmic cone retains a neutral adjoint block with four
 complex apex traces. The minimal first-order operator is not self-adjoint;

@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-01 - R69 exact descended level candidate and action-map audit
+
+Independent Q(i) arithmetic verifies the selected D0 index -1 and its
+induced object's (-1,-1,-3,-1,-1,-3) counts on six cyclic levels.
+Actual transition matrices preserve the transported sheetwise algebra
+and metric; direct image is not the same operation as pullback or gauging.
+46 final exact controls/eight new control tests pass, with 40 combined
+passes and eight earlier R69 failures retained. Two separate seals repair
+expression normalization, not a mathematical exclusion. No physical
+generation or end law is derived. Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
+
 ## 2026-10-01 - R68 actual cone fermion and neutral boundary domains
 
 The exact matrix operator on the logarithmic background retains a

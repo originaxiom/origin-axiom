@@ -1,5 +1,10 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+Current path-local R69: selected exact coefficient and transition checks
+are recorded at EOF. They distinguish transported models, not physical
+generations or a selected level. Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
+
+
 Current R56 disposition and direction checkpoint are at EOF: the direct
 light tensor is conditionally established; its numerical profile integral
 and physical completion remain separate duties. A dependency/priority
@@ -4073,3 +4078,26 @@ This advances the first-order duty without closing the physical end law.
 - PB-PHYSICS: derive or price the action, metric, end law and physical
   realization; chiral matter, normalized observables, quantum
   consistency and gravitational dynamics remain full mission duties.
+
+## R69 selected level action audit disposition October 1 2026
+
+'The specific D0 coefficients and induced level pattern pass exact Q(i)
+checks; their physical interpretation and end law are not fixed by induction.'
+Source: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
+
+- PB-HANDOFF-M6 / PB-ACTION: instantiate a full same-parent action and
+  admitted background for these coefficients, including interactions and
+  positive physical norms. Do not substitute R59's rank-five parent by name.
+- PB-GENESIS / PB-TRANSITIONS: decide physical realization of deck-related
+  sectors through that theory. Preserve direct image, full pullback and
+  equivariant descent as distinct operations; quantum gauging requires its
+  own anomaly and gauge-sector prescription.
+- PB-BOUNDARY: transport the actual cusp metric, source/end data and domain,
+  including its degree-three meridian. Continue R68's coupled complementary,
+  gauge and superfield laws and core matching; no rank-four/rank-two domain
+  identification has been earned.
+- PB-REVIEW: independently review the coefficient-to-physical-fermion map
+  and R58's analytic transport. Preserve the eight original R69 failure IDs,
+  the first archive citation failure and older scientific/governance debts.
+- PB-PHYSICS: realistic chiral matter, normalized interactions, quantum
+  consistency, gravity and predictive contact remain full mission duties.

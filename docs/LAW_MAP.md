@@ -1,5 +1,10 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+Current path-local R69: selected exact coefficient and transition checks
+are recorded at EOF. They distinguish transported models, not physical
+generations or a selected level. Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
+
+
 Current path-local R68: six scoped operator/domain sublemmas are at EOF.
 The actual background retains a neutral boundary choice; consistent
 linear domains exist, with coupled nonlinear products still required.
@@ -1016,3 +1021,15 @@ authored and conditional, not independently accepted from finite checks.
 | Complex-line domains give self-adjoint and reality-compatible neutral block realizations | W plus its Hermitian complement at separated endpoints; combined anti-linear star/conjugation. Authored interval adjoint argument. The two linear internal supercharges share their square domain; full interacting gauge/superfield laws remain. | B1504 linear admission context only; R61 FERMION_END_DESIGN.md prior algebra; R68 CONE_FERMION_PROOF.md section 4; tests/test_physical_bridge_cone_fermion.py::test_reality_compatible_linear_domains_and_supercharge_pair |
 | Complementary parent brackets source the reducing neutral block | Pi(E01)=Pi(E10)=0 but Pi([E01,E10])=Z/3. Linear reduction is not a Lie ideal decomposition; boundary products require a coupled law. | B1504 interaction context only; R68 CONE_FERMION_PROOF.md section 5; tests/test_physical_bridge_cone_fermion.py::test_complementary_brackets_and_zero_action_holonomy_control |
 | A commuting deformation can keep zero residual action while failing L4 and changing the prescribed holonomy | c Z dx for real nonzero c is flat and moment-flat; L4 density 144 c^4 alpha^2/r^2. Meridian eigenvalues change. A control on sufficiency and fixed-holonomy scope, not an admitted rescue field. | B1504 admission context only; R68 CONE_FERMION_PROOF.md section 5; tests/test_physical_bridge_cone_fermion.py::test_complementary_brackets_and_zero_action_holonomy_control |
+
+## Selected descended coefficient and action maps October 1 2026
+
+R69 is a finite instance audit, not an all-architecture theorem. R58's
+general transport law is reused; index remains distinct from physical matter.
+
+| law (scoped instance) | limits | evidence |
+|---|---|---|
+| D0's two coefficient types have interior index -1 | Exact Q(i), H1 dimensions 2/1 and restriction ranks 2/0 for V/dual. The types represent the six received sector labels; no analytic fermion/particle map is certified. | B1506 selected coefficient provenance; R69 LEVEL_ACTION_DESIGN.md; tests/test_physical_bridge_level_action_control2.py::test_exact_descended_candidates_and_split_control |
+| Induced and pulled-back coefficients have different tested counts | Rank-six Ind D0 has (-1,-1,-3,-1,-1,-3) on levels 1..6; rank-two D0 pulled to level 6 keeps -1. Neither a universal invariant-count law nor selected physical level follows. | B1506 selected level provenance; R69 LEVEL_ACTION.md; tests/test_physical_bridge_level_action_control2.py::test_actual_induction_and_distinct_pullback_populations |
+| The selected meridian remains unipotent and the deck characters differ | Actual corrected RS generator convention, nontrivial meridian and order-four ratio. Splitting gives zero index; this does not exclude a separately changed physical model. | B1506 selected coefficient provenance; R69 LEVEL_ACTION_DESIGN.md; tests/test_physical_bridge_level_action_control2.py::test_peripheral_holonomy_not_filled_meridian and test_distinct_deck_characters_are_not_one_tensor_vacuum |
+| Actual induced transitions preserve the transported coefficient algebra and metric | Instance of R58: sheetwise End algebra dimension 12 rather than 36, nonzero trace-cubic fixture and non-Lie projection control. No full E6/E8 parent or normalized physical coupling. | B1506 candidate provenance; R58 COVER_ACTION_DESIGN.md; LEVEL_ACTION.md; tests/test_physical_bridge_level_action_control2.py::test_actual_sheetwise_products_metric_and_nonzero_cubic |
