@@ -1,0 +1,2050 @@
+{
+ "K1": {
+  "C rho(g) C^-1 = rho(iota g) for g = m, n": true,
+  "C^2": "4*q",
+  "C^2 is scalar": true,
+  "det C": "16*q**2",
+  "intertwiner C(q) (integer polynomial entries)": [
+   [
+    "q",
+    "q",
+    "-2*q",
+    "3*q"
+   ],
+   [
+    "q + 4",
+    "q",
+    "-2*q",
+    "q"
+   ],
+   [
+    "q + 6",
+    "q",
+    "-2*q - 6",
+    "2*q + 9"
+   ],
+   [
+    "4",
+    "0",
+    "-4",
+    "6"
+   ]
+  ],
+  "intertwiner: dimension of the solution space": 1,
+  "iota(R)": "mmNMnMNmnMnM",
+  "iota(R) is a cyclic conjugate of R^-1 (free group)": true,
+  "iota(longitude) is a cyclic conjugate of the longitude^(+-1) (free group)": true,
+  "iota(m)": "mnM",
+  "iota(m) = y m (free group)": true,
+  "iota(n)": "mNmnM",
+  "iota(x) = x^-1 (free group)": true,
+  "iota(y) = y^-1 (free group)": true,
+  "iota^2 = id on m and n (free group)": true
+ },
+ "K10": {
+  "all hold": true,
+  "class map under alpha": {
+   "level_5": {
+    "12": 19,
+    "15": 15,
+    "18": 18,
+    "19": 12
+   },
+   "level_6": {
+    "1": 53,
+    "3": 31,
+    "31": 3,
+    "32": 33,
+    "33": 32,
+    "34": 47,
+    "47": 34,
+    "53": 1
+   }
+  },
+  "lemma": {
+   "A (rho_q -> rho_1/q o alpha)": [
+    [
+     "2",
+     "0",
+     "-2",
+     "3"
+    ],
+    [
+     "2*(q + 1)",
+     "2*q",
+     "-2*(2*q + 1)",
+     "4*q + 3"
+    ],
+    [
+     "3*q + 2",
+     "3*q",
+     "-2*(6*q + 1)",
+     "3*q**2 + 17*q + 3"
+    ],
+    [
+     "2*q",
+     "2*q",
+     "-8*q",
+     "2*q*(q + 6)"
+    ]
+   ],
+   "A rho_q(g) A^-1 = rho_1/q(alpha g), g = m, n": true,
+   "A: dimension": 1,
+   "M Phi = Phi M": true,
+   "M^2 = Phi^-1": true,
+   "alpha(m) = y m, alpha(n) = psi(x) y m (as words)": true,
+   "det A": "-16*q**3",
+   "det M": -1,
+   "psi abelianised (columns: images of x, y)": [
+    [
+     2,
+     1
+    ],
+    [
+     -1,
+     -1
+    ]
+   ],
+   "psi phi (g) = y phi psi (g) y^-1 for g = x, y (free group)": true,
+   "psi psi^-1 = psi^-1 psi = id (free group)": true,
+   "rho_q(alpha(R)) = 1 (over Q(q))": true
+  },
+  "on banked polynomials": [
+   {
+    "P_image(q, s) = P(1/q, s)": true,
+    "alpha image orbit": [
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      2
+     ]
+    ],
+    "s961 orbit": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "P_image(q, s) = P(1/q, s)": true,
+    "alpha image orbit": [
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      0
+     ]
+    ],
+    "s961 orbit": [
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "P_image(q, s) = P(1/q, s)": true,
+    "alpha image orbit": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "s961 orbit": [
+     [
+      0,
+      3
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "P_image(q, s) = P(1/q, s)": true,
+    "alpha image orbit": [
+     [
+      0,
+      3
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "s961 orbit": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "P_image(q, s) = P(1/q, s)": true,
+    "alpha image orbit": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    "s961 orbit": [
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      2
+     ]
+    ]
+   },
+   {
+    "M4": "class 1 -> class 10",
+    "P_10(q, s) = P_1(1/q, s)": true
+   }
+  ],
+  "symmetries": {
+   "alpha": {
+    "fibre action": [
+     [
+      2,
+      1
+     ],
+     [
+      -1,
+      -1
+     ]
+    ],
+    "fibre det": -1,
+    "images": {
+     "m": "mnM",
+     "n": "nmNMnnM"
+    },
+    "orientation": "reversing",
+    "sigma": 1
+   },
+   "eps": {
+    "fibre action": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "fibre det": -1,
+    "images": {
+     "m": "mNM",
+     "n": "mnMNM"
+    },
+    "orientation": "preserving",
+    "sigma": -1
+   },
+   "iota": {
+    "fibre action": [
+     [
+      -1,
+      0
+     ],
+     [
+      0,
+      -1
+     ]
+    ],
+    "fibre det": 1,
+    "images": {
+     "m": "mnM",
+     "n": "mNmnM"
+    },
+    "orientation": "preserving",
+    "sigma": 1
+   },
+   "theta (F14)": {
+    "fibre action": [
+     [
+      -3,
+      -8
+     ],
+     [
+      1,
+      3
+     ]
+    ],
+    "fibre det": -1,
+    "images": {
+     "m": "M",
+     "n": "N"
+    },
+    "orientation": "preserving",
+    "sigma": -1
+   },
+   "theta = iota phi^-2 eps on H_1(F)": true
+  }
+ },
+ "K2": [
+  {
+   "N": 1,
+   "abelianised word agrees": true,
+   "characters not killing it": 0,
+   "class of iota(z)'s fibre part": [
+    0,
+    1
+   ],
+   "det(Phi - 1)": -1,
+   "level": 1
+  },
+  {
+   "N": 5,
+   "abelianised word agrees": true,
+   "characters not killing it": 0,
+   "class of iota(z)'s fibre part": [
+    -1,
+    4
+   ],
+   "det(Phi - 1)": -1,
+   "level": 2
+  },
+  {
+   "N": 4,
+   "abelianised word agrees": true,
+   "characters not killing it": 0,
+   "class of iota(z)'s fibre part": [
+    -4,
+    12
+   ],
+   "det(Phi - 1)": -1,
+   "level": 3
+  },
+  {
+   "N": 15,
+   "abelianised word agrees": true,
+   "characters not killing it": 0,
+   "class of iota(z)'s fibre part": [
+    -12,
+    33
+   ],
+   "det(Phi - 1)": -1,
+   "level": 4
+  },
+  {
+   "N": 11,
+   "abelianised word agrees": true,
+   "characters not killing it": 0,
+   "class of iota(z)'s fibre part": [
+    -33,
+    88
+   ],
+   "det(Phi - 1)": -1,
+   "level": 5
+  },
+  {
+   "N": 40,
+   "abelianised word agrees": true,
+   "characters not killing it": 0,
+   "class of iota(z)'s fibre part": [
+    -88,
+    232
+   ],
+   "det(Phi - 1)": -1,
+   "level": 6
+  }
+ ],
+ "K3": {
+  "level_4": {
+   "N": 15,
+   "classes": [
+    [
+     1
+    ],
+    [
+     10
+    ]
+   ],
+   "self_coincident": [
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      1
+     ],
+     "inverse orbit": 1,
+     "orbit": [
+      [
+       0,
+       5
+      ],
+      [
+       5,
+       0
+      ],
+      [
+       0,
+       10
+      ],
+      [
+       10,
+       0
+      ]
+     ],
+     "orbit_index": 1,
+     "order": 3
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      10
+     ],
+     "inverse orbit": 10,
+     "orbit": [
+      [
+       5,
+       5
+      ],
+      [
+       5,
+       10
+      ],
+      [
+       10,
+       10
+      ],
+      [
+       10,
+       5
+      ]
+     ],
+     "orbit_index": 10,
+     "order": 3
+    }
+   ]
+  },
+  "level_5": {
+   "N": 11,
+   "classes": [
+    [
+     12,
+     19
+    ],
+    [
+     15,
+     18
+    ]
+   ],
+   "self_coincident": [
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      12,
+      19
+     ],
+     "inverse orbit": 19,
+     "orbit": [
+      [
+       1,
+       5
+      ],
+      [
+       5,
+       3
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       4,
+       9
+      ],
+      [
+       9,
+       1
+      ]
+     ],
+     "orbit_index": 12,
+     "order": 11
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      15,
+      18
+     ],
+     "inverse orbit": 18,
+     "orbit": [
+      [
+       1,
+       9
+      ],
+      [
+       9,
+       4
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       3,
+       5
+      ],
+      [
+       5,
+       1
+      ]
+     ],
+     "orbit_index": 15,
+     "order": 11
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      15,
+      18
+     ],
+     "inverse orbit": 15,
+     "orbit": [
+      [
+       2,
+       7
+      ],
+      [
+       7,
+       8
+      ],
+      [
+       8,
+       6
+      ],
+      [
+       6,
+       10
+      ],
+      [
+       10,
+       2
+      ]
+     ],
+     "orbit_index": 18,
+     "order": 11
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      12,
+      19
+     ],
+     "inverse orbit": 12,
+     "orbit": [
+      [
+       2,
+       10
+      ],
+      [
+       10,
+       6
+      ],
+      [
+       6,
+       8
+      ],
+      [
+       8,
+       7
+      ],
+      [
+       7,
+       2
+      ]
+     ],
+     "orbit_index": 19,
+     "order": 11
+    }
+   ]
+  },
+  "level_6": {
+   "N": 40,
+   "classes": [
+    [
+     1,
+     3
+    ],
+    [
+     31,
+     53
+    ],
+    [
+     32,
+     34
+    ],
+    [
+     33,
+     47
+    ]
+   ],
+   "self_coincident": [
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      1,
+      3
+     ],
+     "inverse orbit": 3,
+     "orbit": [
+      [
+       0,
+       5
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       15,
+       0
+      ],
+      [
+       0,
+       25
+      ],
+      [
+       25,
+       35
+      ],
+      [
+       35,
+       0
+      ]
+     ],
+     "orbit_index": 1,
+     "order": 8
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      1,
+      3
+     ],
+     "inverse orbit": 1,
+     "orbit": [
+      [
+       0,
+       15
+      ],
+      [
+       15,
+       5
+      ],
+      [
+       5,
+       0
+      ],
+      [
+       0,
+       35
+      ],
+      [
+       35,
+       25
+      ],
+      [
+       25,
+       0
+      ]
+     ],
+     "orbit_index": 3,
+     "order": 8
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      31,
+      53
+     ],
+     "inverse orbit": 53,
+     "orbit": [
+      [
+       5,
+       5
+      ],
+      [
+       5,
+       10
+      ],
+      [
+       10,
+       25
+      ],
+      [
+       25,
+       25
+      ],
+      [
+       25,
+       10
+      ],
+      [
+       10,
+       5
+      ]
+     ],
+     "orbit_index": 31,
+     "order": 8
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      32,
+      34
+     ],
+     "inverse orbit": 34,
+     "orbit": [
+      [
+       5,
+       20
+      ],
+      [
+       20,
+       15
+      ],
+      [
+       15,
+       25
+      ],
+      [
+       25,
+       20
+      ],
+      [
+       20,
+       35
+      ],
+      [
+       35,
+       5
+      ]
+     ],
+     "orbit_index": 32,
+     "order": 8
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      33,
+      47
+     ],
+     "inverse orbit": 47,
+     "orbit": [
+      [
+       5,
+       25
+      ],
+      [
+       25,
+       30
+      ],
+      [
+       30,
+       25
+      ],
+      [
+       25,
+       5
+      ],
+      [
+       5,
+       30
+      ],
+      [
+       30,
+       5
+      ]
+     ],
+     "orbit_index": 33,
+     "order": 8
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      32,
+      34
+     ],
+     "inverse orbit": 32,
+     "orbit": [
+      [
+       5,
+       35
+      ],
+      [
+       35,
+       20
+      ],
+      [
+       20,
+       25
+      ],
+      [
+       25,
+       15
+      ],
+      [
+       15,
+       20
+      ],
+      [
+       20,
+       5
+      ]
+     ],
+     "orbit_index": 34,
+     "order": 8
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      33,
+      47
+     ],
+     "inverse orbit": 33,
+     "orbit": [
+      [
+       10,
+       15
+      ],
+      [
+       15,
+       35
+      ],
+      [
+       35,
+       10
+      ],
+      [
+       10,
+       35
+      ],
+      [
+       35,
+       15
+      ],
+      [
+       15,
+       10
+      ]
+     ],
+     "orbit_index": 47,
+     "order": 8
+    },
+    {
+     "Galois-closed within orbit and inverse orbit": true,
+     "class (orbit indices)": [
+      31,
+      53
+     ],
+     "inverse orbit": 31,
+     "orbit": [
+      [
+       15,
+       15
+      ],
+      [
+       15,
+       30
+      ],
+      [
+       30,
+       35
+      ],
+      [
+       35,
+       35
+      ],
+      [
+       35,
+       30
+      ],
+      [
+       30,
+       15
+      ]
+     ],
+     "orbit_index": 53,
+     "order": 8
+    }
+   ]
+  },
+  "the 32 pairs": {
+   "banked": 32,
+   "here": 32,
+   "match": true
+  }
+ },
+ "K4": {
+  "M4": [
+   {
+    "equals B1511 Part C1": true,
+    "fresh_agree": true,
+    "orbit_rep": [
+     0,
+     5
+    ],
+    "primes": 3
+   },
+   {
+    "equals B1511 Part C1": true,
+    "fresh_agree": true,
+    "orbit_rep": [
+     5,
+     5
+    ],
+    "primes": 3
+   }
+  ],
+  "s961": [
+   {
+    "O2: equals Q(q^3, s)": true,
+    "equals B1511 Part A": true,
+    "fresh_agree": true,
+    "orbit_rep": [
+     0,
+     2
+    ],
+    "primes": 3
+   },
+   {
+    "O2: equals Q(q^3, s)": null,
+    "equals B1511 Part A": true,
+    "fresh_agree": true,
+    "orbit_rep": [
+     0,
+     1
+    ],
+    "primes": 3
+   },
+   {
+    "O2: equals Q(q^3, s)": null,
+    "equals B1511 Part A": true,
+    "fresh_agree": true,
+    "orbit_rep": [
+     1,
+     1
+    ],
+    "primes": 3
+   }
+  ],
+  "untwisted": [
+   {
+    "N": 1,
+    "equals Res(Q, s - r^n)": true,
+    "fresh_agree": true,
+    "level": 1,
+    "primes": 3,
+    "seconds": 2.2
+   },
+   {
+    "N": 5,
+    "equals Res(Q, s - r^n)": true,
+    "fresh_agree": true,
+    "level": 2,
+    "primes": 3,
+    "seconds": 2.2
+   },
+   {
+    "N": 4,
+    "equals Res(Q, s - r^n)": true,
+    "fresh_agree": true,
+    "level": 3,
+    "primes": 3,
+    "seconds": 2.6
+   },
+   {
+    "N": 15,
+    "equals Res(Q, s - r^n)": true,
+    "fresh_agree": true,
+    "level": 4,
+    "primes": 3,
+    "seconds": 2.8
+   },
+   {
+    "N": 11,
+    "equals Res(Q, s - r^n)": true,
+    "fresh_agree": true,
+    "level": 5,
+    "primes": 4,
+    "seconds": 4.0
+   },
+   {
+    "N": 40,
+    "equals Res(Q, s - r^n)": true,
+    "fresh_agree": true,
+    "level": 6,
+    "primes": 4,
+    "seconds": 5.5
+   }
+  ]
+ },
+ "K5": [
+  {
+   "B1511's row reproduced": true,
+   "factor": "q**2 - 7*q + 1",
+   "orbit": [
+    [
+     0,
+     5
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     10,
+     0
+    ]
+   ],
+   "positive_roots": [
+    "0.145898033750315",
+    "6.85410196624968"
+   ],
+   "prime_root_pairs": 6,
+   "values (I(W1), I(W2), I(L2 W1), data, fibre, rank B)": [
+    [
+     1,
+     -1,
+     0,
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      1,
+      1,
+      1
+     ],
+     4
+    ]
+   ]
+  },
+  {
+   "B1511's row reproduced": true,
+   "factor": "q**2 - 7*q + 1",
+   "orbit": [
+    [
+     5,
+     5
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     10,
+     10
+    ],
+    [
+     10,
+     5
+    ]
+   ],
+   "positive_roots": [
+    "0.145898033750315",
+    "6.85410196624968"
+   ],
+   "prime_root_pairs": 6,
+   "values (I(W1), I(W2), I(L2 W1), data, fibre, rank B)": [
+    [
+     1,
+     -1,
+     0,
+     [
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      1,
+      1,
+      1
+     ],
+     4
+    ]
+   ]
+  }
+ ],
+ "K6": [
+  {
+   "expected (1,1,1,1)": true,
+   "ker_dims": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "lam": "1",
+   "largest_zero_sv": "1.41e-51",
+   "nu": [
+    0,
+    5
+   ],
+   "q": "0.145898033750",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.145"
+  },
+  {
+   "expected (1,1,1,1)": true,
+   "ker_dims": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "lam": "1",
+   "largest_zero_sv": "1.84e-51",
+   "nu": [
+    5,
+    0
+   ],
+   "q": "0.145898033750",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.108"
+  },
+  {
+   "expected (1,1,1,1)": true,
+   "ker_dims": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "lam": "1",
+   "largest_zero_sv": "1.06e-55",
+   "nu": [
+    5,
+    5
+   ],
+   "q": "0.145898033750",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.118"
+  },
+  {
+   "expected (1,1,1,1)": true,
+   "ker_dims": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "lam": "1",
+   "largest_zero_sv": "2.98e-55",
+   "nu": [
+    0,
+    5
+   ],
+   "q": "6.85410196625",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.0704"
+  },
+  {
+   "expected (1,1,1,1)": true,
+   "ker_dims": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "lam": "1",
+   "largest_zero_sv": "1.22e-54",
+   "nu": [
+    5,
+    0
+   ],
+   "q": "6.85410196625",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.112"
+  },
+  {
+   "expected (1,1,1,1)": true,
+   "ker_dims": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "lam": "1",
+   "largest_zero_sv": "1.01e-51",
+   "nu": [
+    5,
+    5
+   ],
+   "q": "6.85410196625",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.123"
+  },
+  {
+   "expected (1,2,2,2)": true,
+   "ker_dims": [
+    1,
+    2,
+    2,
+    2
+   ],
+   "lam": "-1",
+   "largest_zero_sv": "7.01e-56",
+   "nu": [
+    0,
+    0
+   ],
+   "q": "0.0294372515229",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.787"
+  },
+  {
+   "expected (1,2,2,2)": true,
+   "ker_dims": [
+    1,
+    2,
+    2,
+    2
+   ],
+   "lam": "-1",
+   "largest_zero_sv": "9.52e-56",
+   "nu": [
+    0,
+    0
+   ],
+   "q": "33.9705627485",
+   "rank_B": 4,
+   "smallest_nonzero_sv": "0.277"
+  }
+ ],
+ "K7": {
+  "5": {
+   "resolved self-coincident pairs at lam = +-i": [],
+   "unresolved_self_coincident": [
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       2,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 12,
+     "orbit_rep": [
+      1,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 1,
+     "orbit_index": 12,
+     "orbit_rep": [
+      1,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 12,
+     "orbit_rep": [
+      1,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 3,
+     "orbit_index": 12,
+     "orbit_rep": [
+      1,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       2,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 15,
+     "orbit_rep": [
+      1,
+      9
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 1,
+     "orbit_index": 15,
+     "orbit_rep": [
+      1,
+      9
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 15,
+     "orbit_rep": [
+      1,
+      9
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 3,
+     "orbit_index": 15,
+     "orbit_rep": [
+      1,
+      9
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       2,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 18,
+     "orbit_rep": [
+      2,
+      7
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 1,
+     "orbit_index": 18,
+     "orbit_rep": [
+      2,
+      7
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 18,
+     "orbit_rep": [
+      2,
+      7
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 3,
+     "orbit_index": 18,
+     "orbit_rep": [
+      2,
+      7
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       2,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 19,
+     "orbit_rep": [
+      2,
+      10
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 1,
+     "orbit_index": 19,
+     "orbit_rep": [
+      2,
+      10
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 19,
+     "orbit_rep": [
+      2,
+      10
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       85,
+       75,
+       0,
+       10
+      ]
+     ],
+     "lam": 3,
+     "orbit_index": 19,
+     "orbit_rep": [
+      2,
+      10
+     ]
+    }
+   ]
+  },
+  "6": {
+   "resolved self-coincident pairs at lam = +-i": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     31,
+     1
+    ],
+    [
+     31,
+     3
+    ],
+    [
+     32,
+     1
+    ],
+    [
+     32,
+     3
+    ],
+    [
+     33,
+     1
+    ],
+    [
+     33,
+     3
+    ],
+    [
+     34,
+     1
+    ],
+    [
+     34,
+     3
+    ],
+    [
+     47,
+     1
+    ],
+    [
+     47,
+     3
+    ],
+    [
+     53,
+     1
+    ],
+    [
+     53,
+     3
+    ]
+   ],
+   "unresolved_self_coincident": [
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       2,
+       10
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 1,
+     "orbit_rep": [
+      0,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 1,
+     "orbit_rep": [
+      0,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       2,
+       10
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 3,
+     "orbit_rep": [
+      0,
+      15
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 3,
+     "orbit_rep": [
+      0,
+      15
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       2,
+       10
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 31,
+     "orbit_rep": [
+      5,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 31,
+     "orbit_rep": [
+      5,
+      5
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       4,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 32,
+     "orbit_rep": [
+      5,
+      20
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 32,
+     "orbit_rep": [
+      5,
+      20
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       4,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 33,
+     "orbit_rep": [
+      5,
+      25
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 33,
+     "orbit_rep": [
+      5,
+      25
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       4,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 34,
+     "orbit_rep": [
+      5,
+      35
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 34,
+     "orbit_rep": [
+      5,
+      35
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       4,
+       8
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 47,
+     "orbit_rep": [
+      10,
+      15
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 47,
+     "orbit_rep": [
+      10,
+      15
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       2,
+       10
+      ]
+     ],
+     "lam": 0,
+     "orbit_index": 53,
+     "orbit_rep": [
+      15,
+      15
+     ]
+    },
+    {
+     "(deg f, mult q, mult q-1, rest) at the three primes": [
+      [
+       102,
+       90,
+       0,
+       12
+      ]
+     ],
+     "lam": 2,
+     "orbit_index": 53,
+     "orbit_rep": [
+      15,
+      15
+     ]
+    }
+   ]
+  }
+ },
+ "K8": {
+  "all hold": true,
+  "identity on banked polynomials": [
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "untwisted level 1"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "untwisted level 2"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "untwisted level 3"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "untwisted level 4"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "untwisted level 5"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "untwisted level 6"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "s961 orbit [[0, 1], [1, 3], [3, 0]]"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "s961 orbit [[0, 2], [2, 2], [2, 0]]"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "s961 orbit [[0, 3], [3, 1], [1, 0]]"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "s961 orbit [[1, 1], [1, 2], [2, 1]]"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "s961 orbit [[2, 3], [3, 3], [3, 2]]"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "M4 orbit [0, 5]"
+   },
+   {
+    "P(1/q,s) = rec P(q,s)": true,
+    "what": "M4 orbit [5, 5]"
+   }
+  ],
+  "lemmas": {
+   "D (rho_q^-T -> rho_1/q)": [
+    [
+     "0",
+     "0",
+     "2",
+     "2"
+    ],
+    [
+     "0",
+     "-4*(q + 1)",
+     "-2*(q - 1)",
+     "2"
+    ],
+    [
+     "2*q",
+     "2*(q - 1)",
+     "-q - 1",
+     "0"
+    ],
+    [
+     "2*q",
+     "2*q",
+     "0",
+     "0"
+    ]
+   ],
+   "D rho_q(g)^-T D^-1 = rho_1/q(g), g = m, n": true,
+   "D: dimension": 1,
+   "E (rho_q -> rho_1/q o eps)": [
+    [
+     "q + 2",
+     "-q",
+     "-2",
+     "2*q + 3"
+    ],
+    [
+     "5*q + 2",
+     "-q",
+     "-2*(4*q + 1)",
+     "2*q**2 + 14*q + 3"
+    ],
+    [
+     "7*q + 2",
+     "-q",
+     "-2*(3*q + 1)",
+     "10*q + 3"
+    ],
+    [
+     "4*q",
+     "0",
+     "-4*q",
+     "6*q"
+    ]
+   ],
+   "E rho_q(g) E^-1 = rho_1/q(eps g), g = m, n": true,
+   "E: dimension": 1,
+   "det D": "-16*q*(q**2 + q + 1)",
+   "det E": "16*q**4",
+   "eps(R) is a cyclic conjugate of R (free group)": true,
+   "eps(longitude) is a cyclic conjugate of the longitude^-1 (free group)": true,
+   "eps(m) = x^-1 m^-1 (free group)": true,
+   "eps(x) = y, eps(y) = x (free group)": true,
+   "eps^2 = id on m and n (free group)": true
+  }
+ },
+ "K9": {
+  "class map under the swap": {
+   "level_5": {
+    "12": 15,
+    "15": 12,
+    "18": 19,
+    "19": 18
+   },
+   "level_6": {
+    "1": 3,
+    "3": 1,
+    "31": 31,
+    "32": 34,
+    "33": 33,
+    "34": 32,
+    "47": 47,
+    "53": 53
+   }
+  },
+  "levels 2-4": [
+   {
+    "level": 2,
+    "pairs": 2,
+    "pairs differing": 0,
+    "prime": 1000081,
+    "swap maps characters to characters": true
+   },
+   {
+    "level": 3,
+    "pairs": 6,
+    "pairs differing": 0,
+    "prime": 1000033,
+    "swap maps characters to characters": true
+   },
+   {
+    "level": 4,
+    "pairs": 21,
+    "pairs differing": 0,
+    "prime": 1000081,
+    "swap maps characters to characters": true
+   }
+  ]
+ },
+ "seconds": 70.5
+}

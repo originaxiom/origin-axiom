@@ -9120,6 +9120,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1512": {
+   "slug": "the self coincident orbits",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "K1",
+    "K10",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B151": {
    "slug": "firewall confirmation",
    "motifs": [

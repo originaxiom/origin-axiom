@@ -16449,3 +16449,32 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     levels 2–6.
   - Lead 6 is registered: the triplet's couplings, B1443's question in the harmonic frame.
 - **Surfaces:** RELAY_LEDGER, B1511 FINDINGS note, OPEN_LEADS, THE_SM_VERDICT, CHANGELOG. 0 of 19.
+
+## 2026-10-01 — B1512 sealed: the self-coincident orbits (B1511's leads 1 and 3; not run)
+
+- **The occasion.** The owner's "go" on the recommendation after main's S31: B1511's 32 self-coincident case-(b) pairs, and its lead 3
+  (why every twisted polynomial is real).
+- **The instrument.**
+  - `selfco_lib.py` imports B1511's library and adds three things:
+    - the symmetries ι, ε and α of π, with exact intertwiners for Ballas' family;
+    - the twisted polynomial over ℚ, by interpolation over GF(p) at primes near 2³¹, Chinese remaindering and rational
+      reconstruction;
+    - exact real roots, numeric fibre data at the real root (60 digits), and B1511's case-(b) counter at every root mod p.
+  - `census.py` is the sealed run, Parts 0 and A–E.
+- **The controls, run before the seal** (K1–K10, 70 s):
+  - every lemma's intertwiner and word check;
+  - the classes;
+  - every banked polynomial reconstructed exactly;
+  - B1511's M₄ counts reproduced;
+  - the numeric checker on B1509's Jordan block;
+  - B1511's banked degrees read back.
+
+  A dry run of the census at level 4 reproduces B1511 Part C1, with D8–D10.
+- **Proved at seal:** Lemmas I, G, D, E and A.
+  - P_ν = P_{ν⁻¹} on every level, so every twisted polynomial is real (B1511 lead 3).
+  - The dual family is the family at 1/q.
+  - M₅'s four orbits share one polynomial, palindromic. M₆'s four classes pair under the amphichiral map.
+- **Sealed:** P1–P7 (Q(q⁵, s) on M₅; the existence of real points on M₅ and M₆; firing on each; simplicity; +1 at simple points).
+- **A design slip caught before the seal.** ε was first called amphichiral. It keeps orientation: it is a strong inversion. It will be
+  logged at banking.
+- Findings stub (sealed, not run), verdict OPEN, SEAL_LEDGER row, alias table, logs, atlas, views. 0 of 19.

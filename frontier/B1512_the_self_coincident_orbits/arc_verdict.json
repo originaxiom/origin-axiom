@@ -1,0 +1,19 @@
+{
+ "id": "B1512",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1511",
+  "B1509",
+  "B1506",
+  "B1374",
+  "B1297",
+  "B1381"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE SELF-COINCIDENT ORBITS, SEALED (not yet run; B1511's leads 1 and 3 at the owner's 'go'): Ballas' family under m004's symmetries, and B1511's 32 case-(b) pairs on M5 and M6. Computed before the seal and disclosed: controls K1-K10 (the five lemmas' exact intertwiners and word checks; the classes of the twelve orbits; the multi-modular reconstruction of every banked polynomial; B1511's case-(b) counts on M4 through the arc's driver; B1509's Jordan block numerically; B1511's banked degrees for the 32 pairs) and a dry run of the census at level 4; no polynomial, root or count of the twelve orbits. Proved at seal: Lemma I (the fibre's hyperelliptic involution fixes rho_q, det 16 q^2: P_nu = P_nu^-1 on every level, every twisted polynomial real -- B1511 lead 3); Lemma G (the twelve orbits' polynomials rational, one per class); Lemma D (the dual family is the family at 1/q: P(1/q, s) = s^4 P(q, 1/s), real exceptional sets closed under q -> 1/q, I(W2)(nu^-1, 1/q) = -I(W1)(nu, q)); Lemma E (the strong inversion, the audit lane's F14 type: P_(b,a) = P_(a,b), M5's four orbits share one polynomial); Lemma A (the amphichiral map, fibre action a square root of Phi^-1: P_(nu o alpha)(q, s) = P_nu(1/q, s), M5's polynomial palindromic, M6's classes paired, B1511's O_A/O_B and M4 pairings explained). Decided D1-D10. Sealed: P1 M5's polynomial is Q(q^5, s) (~25%), P2 M5 has a positive real exceptional point (~90%), P3 M6 has one at lam = +-1 (~85%), P4 case (b) fires on M5 (~65%), P5 on M6 (~65%), P6 every real point simple (~55%), P7 every simple point +1 for every member (~70%). I-26 stays UNEARNED. 0 of 19."
+}

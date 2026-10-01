@@ -1,5 +1,44 @@
 # Changelog
 
+## B1512 sealed: the self-coincident orbits, before any polynomial of the twelve orbits is computed
+
+- **The question** (B1511's leads 1 and 3, at the owner's "go").
+  - B1511 left 32 case-(b) pairs UNRESOLVED: M₅'s four eigenline orbits at every λ, and M₆'s eight order-8 orbits at λ = ±1.
+  - B1511 also found every twisted polynomial real, without a proof.
+  - This arc proves why, reads what m004's symmetries force, and seals the census of the 32 pairs.
+- **Computed before the seal, and disclosed there** (controls K1–K10 and a dry run at level 4):
+  - the five lemmas' exact intertwiners and group-word checks;
+  - the classes of the twelve orbits;
+  - the multi-modular reconstruction of every banked polynomial: B1509's Q at levels 1–6, s961's five, M₄'s two;
+  - B1511's case-(b) counts on M₄, reproduced through this arc's driver;
+  - B1509's Jordan block, by the numeric checker;
+  - B1511's banked degrees for the 32 pairs, read back.
+
+  No polynomial, root or count of the twelve orbits was computed. A design slip was caught before the seal: a draft called the strong
+  inversion ε "amphichiral". ε keeps orientation; the amphichiral map is α.
+- **Proved at seal.**
+  - **Lemma I:** the fibre's hyperelliptic involution fixes Ballas' ρ_q. So P_ν = P_{ν⁻¹} on every level, and every twisted polynomial
+    is real.
+  - **Lemma G:** the polynomials are rational, one per class.
+  - **Lemma D:** the dual family is the family at 1/q. So P(1/q, s) = s⁴P(q, 1/s), and the counts at q and 1/q are dual.
+  - **Lemma E:** the strong inversion, the audit lane's F14 type. M₅'s four orbits share one polynomial.
+  - **Lemma A:** the amphichiral map sends q to 1/q. M₅'s polynomial is palindromic, and M₆'s classes pair. It explains B1511's O_A/O_B
+    and M₄ pairings.
+- **Sealed.**
+  - P1: M₅'s polynomial is Q(q⁵, s) (~25%).
+  - P2: M₅ has a positive real exceptional point (~90%).
+  - P3: M₆ has one at λ = ±1 (~85%).
+  - P4: case (b) fires on M₅ (~65%).
+  - P5: case (b) fires on M₆ (~65%).
+  - P6: every real point is simple (~55%).
+  - P7: every simple point counts +1 for every member (~70%).
+- **Prior art.**
+  - The design-time sweep (main d88c220e, this branch 7f03e853, the audit lane 472a9595) found the fibre's −I used with ρ_geo only
+    (main's B1297). It found ρ_q paired with its dual only on m004, by the audit lane's F14, to which Lemma E is credited.
+  - The 32 pairs are resolved on no ref.
+  - The literature has the reciprocity of twisted Alexander polynomials for self-dual representations (Kirk–Livingston;
+    Hillman–Silver–Williams).
+
 ## Main's S31 and B1444 read here: copies along an orbit are not a blocker, and the projective triplet's twists allow a joining term
 
 Main moved 7f080e49 → d88c220e.
