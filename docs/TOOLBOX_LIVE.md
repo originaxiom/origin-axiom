@@ -70,6 +70,10 @@ escalation are the proof).
     ⌊rank/2⌋ on a one-cusped bundle, read B1440: it cannot exist.
   - `frontier/B1434_the_architecture_census/verification/architecture_census.py` — `monodromy`, `level`,
     `states(maxlen)`: the mapping-torus presentation of any signed word state and its cyclic levels.
+  - `frontier/B1441_the_several_cusped_levels/verification/several_cusps.py` — `census(C)` for any SnapPy
+    manifold with any number of cusps: every rank-two non-split module of its characters through B1333's
+    `mc_lib.check`; `exact_mc.py` is the exact second implementation. One cusp bounds a rank-two background at one;
+    two live cusps allow two (B1441).
 - **Two gates added 2026-10-01:** `lead-debt` (`scripts/checks/lead_debt.py`: leads and OPEN arcs age at 21 days on
   a ratchet; a lead number carried by two open leads fails outright) and the doc-currency lock
   (`tests/test_doc_currency_gate.py`: the declared-debt set is pinned; another seat's arc number is not a citation).

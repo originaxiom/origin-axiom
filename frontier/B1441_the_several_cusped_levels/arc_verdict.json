@@ -1,0 +1,18 @@
+{
+ "id": "B1441",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1297",
+  "B1333",
+  "B1432",
+  "B1438",
+  "B1440"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE SEVERAL-CUSPED LEVELS, sealed at 6085218c before the class index of any non-split module was computed on a manifold with more than one cusp (main's lead L222 had carried it as owed; a sweep of every lane found it run nowhere): 74 manifolds with two to six cusps -- the multi-cusped covers of degree up to six of the four smallest word states, and m202, s959, o10_150726, m129, m125 -- every character of order dividing the torsion exponent with no cusp condition, 564 742 rank-two non-split modules through B1333's multi-cusp index with its identities asserted on each. 63 of 76 entries fire. SEVENTEEN MANIFOLDS CARRY A RANK-TWO MODULE WITH |I| = 2, the first rank-two background in the record to count more than one; none counts three. Every index of two is confirmed in exact arithmetic over Q(zeta_N) by a second implementation, N = 2, 4, 6 or 8. Each such module has at least two live cusps and |I| never exceeds the live cusps; the extension character usually has two classes. All seventeen are covers of degree four and six of m009 and m010; no cover of the root m004 or of m003 to degree six reaches two, the five-cusped one included. The record's two-cusped carriers of the localized three, m202 and s959, carry no class index on any module tried. Predictions: M1, M3, M6, M7 YES; M2, M4, M5 NO. B1440's bound is one cusp's: the count per rank-two background is bounded by its live cusps. A module is not a generation-shaped background; that is the next sealed step. No physics reading."
+}

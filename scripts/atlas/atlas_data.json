@@ -8958,6 +8958,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1441": {
+   "slug": "the several cusped levels",
+   "motifs": [
+    "action",
+    "figure_eight",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L222"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B144": {
    "slug": "interaction chirality",
    "motifs": [

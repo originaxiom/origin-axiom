@@ -1,0 +1,13 @@
+m004 deg 5 #1 cusps 2 chars 8 modules 66 I {'-1': 4, '0': 58, '1': 4} max 1
+m004 deg 6 #5 cusps 2 chars 128 modules 6552 I {'-1': 132, '0': 6288, '1': 132} max 1
+m003 deg 5 #2 cusps 2 chars 8 modules 48 I {'-1': 2, '0': 44, '1': 2} max 1
+m009 deg 3 #2 cusps 2 chars 8 modules 66 I {'-1': 2, '0': 62, '1': 2} max 1
+m009 deg 6 #3 cusps 2 chars 256 modules 19812 I {'-2': 3, '-1': 213, '0': 19380, '1': 213, '2': 3} max 2
+m009 deg 6 #11 cusps 2 chars 32 modules 2010 I {'-2': 13, '-1': 295, '0': 1394, '1': 295, '2': 13} max 2
+m009 deg 6 #20 cusps 4 chars 16 modules 686 I {'-2': 1, '-1': 71, '0': 542, '1': 71, '2': 1} max 2
+m010 deg 3 #2 cusps 3 chars 16 modules 196 I {'-1': 12, '0': 172, '1': 12} max 1
+m010 deg 5 #2 cusps 2 chars 216 modules 21186 I {'-1': 226, '0': 20734, '1': 226} max 1
+m010 deg 6 #12 cusps 2 chars 2187 more than 600 characters
+m010 deg 6 #18 cusps 2 chars 81 modules 7900 I {'-1': 102, '0': 7696, '1': 102} max 1
+m010 deg 6 #25 cusps 3 chars 32 modules 1440 I {'-1': 95, '0': 1250, '1': 95} max 1
+o10_150726 cusps 2 chars 16 modules 168 I {'0': 168} max 0

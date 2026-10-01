@@ -1,0 +1,13 @@
+m004 deg 5 #2 cusps 3 chars 8 modules 90 I {'-1': 2, '0': 86, '1': 2} max 1
+m004 deg 6 #7 cusps 2 chars 27 modules 350 I {'-1': 4, '0': 342, '1': 4} max 1
+m003 deg 5 #4 cusps 5 chars 32 modules 1650 I {'-1': 40, '0': 1570, '1': 40} max 1
+m009 deg 4 #3 cusps 2 chars 216 modules 10272 I {'-1': 38, '0': 10196, '1': 38} max 1
+m009 deg 6 #4 cusps 2 chars 128 modules 9954 I {'-2': 6, '-1': 367, '0': 9208, '1': 367, '2': 6} max 2
+m009 deg 6 #14 cusps 2 chars 625 more than 600 characters
+m009 deg 6 #21 cusps 3 chars 16 modules 546 I {'-2': 11, '-1': 55, '0': 414, '1': 55, '2': 11} max 2
+m010 deg 4 #1 cusps 2 chars 216 modules 7918 I {'-1': 22, '0': 7874, '1': 22} max 1
+m010 deg 6 #3 cusps 2 chars 16 modules 308 I {'-1': 28, '0': 252, '1': 28} max 1
+m010 deg 6 #13 cusps 3 chars 32 modules 1560 I {'-1': 128, '0': 1304, '1': 128} max 1
+m010 deg 6 #20 cusps 2 chars 81 modules 6952 I {'-1': 532, '0': 5888, '1': 532} max 1
+m010 deg 6 #26 cusps 6 chars 64 modules 9362 I {'-1': 454, '0': 8454, '1': 454} max 1
+o10_150726 N=12 cusps 2 chars 576 modules 65436 I {'-1': 192, '0': 65052, '1': 192} max 1

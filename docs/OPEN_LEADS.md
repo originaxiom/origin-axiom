@@ -2890,6 +2890,7 @@ The U(1)′ left by the Y₃ line is the Cartan direction γ ⊥ (SM, Y, β) —
 
 ## L222 — THE FAMILY AS THE OBJECT: the class carries the chirality index where the member does not (registered 2026-09-16, B1418; the owner's direction "maybe it's about the family, not just the object")
 **The facts (B1418, DESIGN sealed f2f8686c).** The one-cusped index I = t₀ − r₁ (B1297) fires in characteristic zero on reducible non-split modules of five members of the figure-eight's commensurability class — s958, v2873, t12833, t12835, o10_150701 (I = ±1, t12835 ±2; semisimplification 0 always; four of the five are B1330's targets, on whose geometric holonomy the index was zero) — and (post-seal, labelled) on m004's own degree-4 cyclic cover t12839 (104 nonzero of 2 385; the degree-3 cover s961 gives 0) — and gives 0 on m004's only reducible locus (the golden one) in 235 modules. The class census: chirality and the count of three vary within the class and the door determines neither; m202, s959, o10_150726 (two-cusped, not covers of m004) score all four measured requirements. **The questions this registers:** (i) the rule — which members fire and why (torsion in H₁ and cusp-trivial characters are present on the firing members, but o10_150697 and s956 have loci that never fire); (ii) whether a non-semisimple flat SL(2)-module (a unipotent Wilson line in the E₆ language) is an admissible background in the closing's M-theory reading, and what I counts there (I-26 is UNEARNED); (iii) the unrun modules (t12833, t12835 at larger m) and the members not in the run (the other one-cusped members with torsion, the two-cusped members with the three — m202, s959 — whose index needs B1333's several-cusp form); (iv) **the programme-level decision, the owner's:** whether the object of the chain is the commensurability class (the arithmetic face is a class invariant, B803) with the member as the observer's choice — the chirality bit would then be a choice of member, priced like a closing. **What would settle (i):** the same run on all 60 one-cusped members and the two-cusped ones with B1333's index; **(ii)** is a physics reading and needs the closing (L221).
+  **Run 2026-10-01 (B1441):** the class index on non-split modules over several cusps — m202 and s959 carry none on any module tried; seventeen covers of m009 and m010 carry a rank-two module of index two; see L234.
 
 ## L224 — THE HARVEST GATE IS BLIND TO THE LARGER HALF OF ITS OWN DEBT — **CLOSED 2026-09-17 (B1423/S16)**
 
@@ -3026,3 +3027,20 @@ character. Open, in the order they would be worked:
   **CLOSED the same day (B1440): it is excluded.** |I(V)| ≤ min(r, n − r) ≤ ⌊n/2⌋ for every module of rank n on a
   once-punctured-torus bundle, reducible or not: a rank-five bundle counts at most two. What stays open is where the
   bound does not reach: more cusps, rank six and above, another count.
+
+## L234 — THREE IN ONE BACKGROUND: the several-cusped search (registered 2026-10-01, B1441)
+
+B1440 bounds the count of one rank-two background by one on a one-cusped bundle; B1441 found it reach **two** on
+seventeen manifolds with several cusps (covers of degree four and six of m009 and m010), exactly, and never three
+to degree six. Open, in order:
+- **(a) Generation-shaped backgrounds on the seventeen.** A module is not a background: five charged sectors must
+  share one index. Does any of the seventeen carry a background of count two? Sealed arc owed.
+- **(b) Three.** It needs three live cusps. Covers of degree seven and eight of the four smallest states with at
+  least three cusps number 4, 0 (m004), 0, 0 (m003), 1, 13 (m009), 5, 16 (m010); several exceed 600 characters and
+  need the slope law for several cusps (below) rather than a module-by-module run.
+- **(c) The root.** No cover of m004 or m003 to degree six reaches two. A law of the root, or of degree six?
+- **(d) The slope law for several cusps.** A class now has one boundary vector per live cusp and a character may
+  have several classes; firing is an intersection of two Lagrangians in the boundary's symplectic space. Not
+  worked out; it would turn (a)–(c) into seconds of compute, as B1438 did for one cusp.
+- **(e) m202 and s959** carry the record's localized three (B1414) and no class index on any module tried
+  (N = 2, 3, 12). The two counts are now side by side and disagree; why is not known.

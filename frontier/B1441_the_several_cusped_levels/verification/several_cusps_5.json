@@ -1,0 +1,1611 @@
+[
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   3
+  ],
+  "N": 3,
+  "characters": 27,
+  "primes": [
+   3001,
+   3019,
+   3037
+  ],
+  "h1_hist": {
+   "0": 18,
+   "1": 6,
+   "2": 3
+  },
+  "modules": 350,
+  "I_hist": {
+   "-1": 4,
+   "0": 342,
+   "1": 4
+  },
+  "max_abs_I": 1,
+  "firing_by_live_cusps": {
+   "|I|=1 live (1, 1) dual (1, 1)": 8
+  },
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 2.1,
+  "tag": "m004 deg 6 #2",
+  "root": "m004",
+  "degree": 6,
+  "index_in_snappy_list": 2,
+  "homology": "Z/3 + Z + Z",
+  "volume": 12.17929928
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   5
+  ],
+  "N": 5,
+  "characters": 125,
+  "primes": [
+   3001,
+   3011,
+   3041
+  ],
+  "h1_hist": {
+   "0": 96,
+   "1": 24,
+   "2": 5
+  },
+  "modules": 4920,
+  "I_hist": {
+   "-1": 60,
+   "0": 4800,
+   "1": 60
+  },
+  "max_abs_I": 1,
+  "firing_by_live_cusps": {
+   "|I|=1 live (1, 1) dual (1, 1)": 120
+  },
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 25.8,
+  "tag": "m003 deg 4 #0",
+  "root": "m003",
+  "degree": 4,
+  "index_in_snappy_list": 0,
+  "homology": "Z/5 + Z + Z",
+  "volume": 8.11953285
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   10
+  ],
+  "N": 10,
+  "characters": 1000,
+  "skipped": "more than 600 characters",
+  "tag": "m003 deg 6 #3",
+  "root": "m003",
+  "degree": 6,
+  "index_in_snappy_list": 3,
+  "homology": "Z/10 + Z + Z",
+  "volume": 12.17929928
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   2
+  ],
+  "N": 2,
+  "characters": 8,
+  "primes": [
+   3001,
+   3011,
+   3019
+  ],
+  "h1_hist": {
+   "0": 5,
+   "1": 1,
+   "2": 2
+  },
+  "modules": 30,
+  "I_hist": {
+   "0": 30
+  },
+  "max_abs_I": 0,
+  "firing_by_live_cusps": {},
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 0.2,
+  "tag": "m009 deg 4 #8",
+  "root": "m009",
+  "degree": 4,
+  "index_in_snappy_list": 8,
+  "homology": "Z/2 + Z + Z",
+  "volume": 10.66697913
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [],
+  "N": 2,
+  "characters": 4,
+  "primes": [
+   3001,
+   3011,
+   3019
+  ],
+  "h1_hist": {
+   "0": 1,
+   "1": 2,
+   "2": 1
+  },
+  "modules": 4,
+  "I_hist": {
+   "0": 4
+  },
+  "max_abs_I": 0,
+  "firing_by_live_cusps": {},
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 0.1,
+  "tag": "m009 deg 6 #9",
+  "root": "m009",
+  "degree": 6,
+  "index_in_snappy_list": 9,
+  "homology": "Z + Z",
+  "volume": 16.0004687
+ },
+ {
+  "cusps": 3,
+  "b1": 4,
+  "torsion": [],
+  "N": 2,
+  "characters": 16,
+  "primes": [
+   3001,
+   3011,
+   3019
+  ],
+  "h1_hist": {
+   "0": 6,
+   "1": 8,
+   "3": 1,
+   "4": 1
+  },
+  "modules": 182,
+  "I_hist": {
+   "-1": 2,
+   "0": 178,
+   "1": 2
+  },
+  "max_abs_I": 1,
+  "firing_by_live_cusps": {
+   "|I|=1 live (0, 0, 1) dual (0, 0, 1)": 2,
+   "|I|=1 live (0, 1, 0) dual (0, 1, 0)": 2
+  },
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 3.0,
+  "tag": "m009 deg 6 #18",
+  "root": "m009",
+  "degree": 6,
+  "index_in_snappy_list": 18,
+  "homology": "Z + Z + Z + Z",
+  "volume": 16.0004687
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   8
+  ],
+  "N": 8,
+  "characters": 512,
+  "primes": [
+   3001,
+   3041,
+   3049
+  ],
+  "h1_hist": {
+   "0": 405,
+   "1": 98,
+   "2": 9
+  },
+  "modules": 66300,
+  "I_hist": {
+   "-2": 24,
+   "-1": 686,
+   "0": 64880,
+   "1": 686,
+   "2": 24
+  },
+  "max_abs_I": 2,
+  "firing_by_live_cusps": {
+   "|I|=1 live (0, 1) dual (0, 1)": 578,
+   "|I|=1 live (1, 0) dual (1, 0)": 578,
+   "|I|=1 live (1, 1) dual (1, 1)": 216,
+   "|I|=2 live (1, 1) dual (1, 1)": 48
+  },
+  "witnesses_abs_I_ge_2": 48,
+  "witnesses": [
+   {
+    "I": -2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "combo": [
+     1,
+     0
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "combo": [
+     0,
+     1
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "combo": [
+     9,
+     37
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "combo": [
+     49,
+     5
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     7,
+     7,
+     2,
+     2
+    ],
+    "combo": [
+     1,
+     0
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     7,
+     7,
+     2,
+     2
+    ],
+    "combo": [
+     0,
+     1
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     7,
+     7,
+     2,
+     2
+    ],
+    "combo": [
+     9,
+     37
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     1,
+     6,
+     6
+    ],
+    "alpha": [
+     7,
+     7,
+     2,
+     2
+    ],
+    "combo": [
+     49,
+     5
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "alpha": [
+     4,
+     4,
+     0,
+     0
+    ],
+    "combo": [
+     1,
+     0
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "alpha": [
+     4,
+     4,
+     0,
+     0
+    ],
+    "combo": [
+     0,
+     1
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "alpha": [
+     4,
+     4,
+     0,
+     0
+    ],
+    "combo": [
+     17,
+     8
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     2,
+     2,
+     4,
+     4
+    ],
+    "alpha": [
+     4,
+     4,
+     0,
+     0
+    ],
+    "combo": [
+     32,
+     49
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   }
+  ],
+  "rechecks_differing": 0,
+  "seconds": 670.6,
+  "tag": "m009 deg 6 #25",
+  "root": "m009",
+  "degree": 6,
+  "index_in_snappy_list": 25,
+  "homology": "Z/8 + Z + Z",
+  "volume": 16.0004687
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   6
+  ],
+  "N": 6,
+  "characters": 216,
+  "primes": [
+   3001,
+   3019,
+   3037
+  ],
+  "h1_hist": {
+   "0": 172,
+   "1": 38,
+   "2": 6
+  },
+  "modules": 12412,
+  "I_hist": {
+   "-2": 8,
+   "-1": 76,
+   "0": 12244,
+   "1": 76,
+   "2": 8
+  },
+  "max_abs_I": 2,
+  "firing_by_live_cusps": {
+   "|I|=1 live (0, 1) dual (0, 1)": 8,
+   "|I|=1 live (1, 0) dual (1, 0)": 8,
+   "|I|=1 live (1, 1) dual (1, 1)": 136,
+   "|I|=2 live (1, 1) dual (1, 1)": 16
+  },
+  "witnesses_abs_I_ge_2": 16,
+  "witnesses": [
+   {
+    "I": -2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     2,
+     4,
+     2
+    ],
+    "combo": [
+     1,
+     0
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     2,
+     4,
+     2
+    ],
+    "combo": [
+     0,
+     1
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     2,
+     4,
+     2
+    ],
+    "combo": [
+     9,
+     37
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     2,
+     4,
+     2
+    ],
+    "combo": [
+     49,
+     5
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     5,
+     1,
+     5
+    ],
+    "combo": [
+     1,
+     0
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     5,
+     1,
+     5
+    ],
+    "combo": [
+     0,
+     1
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     5,
+     1,
+     5
+    ],
+    "combo": [
+     9,
+     37
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     1,
+     5,
+     1
+    ],
+    "alpha": [
+     5,
+     1,
+     5
+    ],
+    "combo": [
+     49,
+     5
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     5,
+     1,
+     5
+    ],
+    "alpha": [
+     1,
+     5,
+     1
+    ],
+    "combo": [
+     1,
+     0
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     5,
+     1,
+     5
+    ],
+    "alpha": [
+     1,
+     5,
+     1
+    ],
+    "combo": [
+     0,
+     1
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     5,
+     1,
+     5
+    ],
+    "alpha": [
+     1,
+     5,
+     1
+    ],
+    "combo": [
+     25,
+     28
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     5,
+     1,
+     5
+    ],
+    "alpha": [
+     1,
+     5,
+     1
+    ],
+    "combo": [
+     39,
+     49
+    ],
+    "h1_l": 2,
+    "t0s": [
+     1,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   }
+  ],
+  "rechecks_differing": 0,
+  "seconds": 79.1,
+  "tag": "m010 deg 4 #6",
+  "root": "m010",
+  "degree": 4,
+  "index_in_snappy_list": 6,
+  "homology": "Z/6 + Z + Z",
+  "volume": 10.66697913
+ },
+ {
+  "cusps": 2,
+  "b1": 4,
+  "torsion": [],
+  "N": 2,
+  "characters": 16,
+  "primes": [
+   3001,
+   3011,
+   3019
+  ],
+  "h1_hist": {
+   "0": 1,
+   "1": 11,
+   "2": 3,
+   "4": 1
+  },
+  "modules": 322,
+  "I_hist": {
+   "-1": 36,
+   "0": 250,
+   "1": 36
+  },
+  "max_abs_I": 1,
+  "firing_by_live_cusps": {
+   "|I|=1 live (0, 1) dual (0, 1)": 18,
+   "|I|=1 live (1, 0) dual (1, 0)": 18,
+   "|I|=1 live (1, 1) dual (1, 1)": 36
+  },
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 3.3,
+  "tag": "m010 deg 6 #8",
+  "root": "m010",
+  "degree": 6,
+  "index_in_snappy_list": 8,
+  "homology": "Z + Z + Z + Z",
+  "volume": 16.0004687
+ },
+ {
+  "cusps": 4,
+  "b1": 4,
+  "torsion": [
+   2
+  ],
+  "N": 2,
+  "characters": 32,
+  "primes": [
+   3001,
+   3011,
+   3019
+  ],
+  "h1_hist": {
+   "0": 11,
+   "1": 7,
+   "2": 12,
+   "4": 2
+  },
+  "modules": 1830,
+  "I_hist": {
+   "-2": 3,
+   "-1": 177,
+   "0": 1470,
+   "1": 177,
+   "2": 3
+  },
+  "max_abs_I": 2,
+  "firing_by_live_cusps": {
+   "|I|=1 live (0, 0, 1, 1) dual (0, 0, 1, 1)": 40,
+   "|I|=1 live (0, 0, 1, 2) dual (0, 0, 1, 2)": 4,
+   "|I|=1 live (0, 0, 2, 1) dual (0, 0, 2, 1)": 2,
+   "|I|=1 live (0, 1, 0, 1) dual (0, 1, 0, 1)": 8,
+   "|I|=1 live (0, 1, 0, 2) dual (0, 1, 0, 2)": 2,
+   "|I|=1 live (0, 1, 1, 0) dual (0, 1, 1, 0)": 8,
+   "|I|=1 live (0, 1, 1, 1) dual (0, 1, 1, 1)": 44,
+   "|I|=1 live (0, 2, 0, 1) dual (0, 2, 0, 1)": 2,
+   "|I|=1 live (0, 2, 1, 0) dual (0, 2, 1, 0)": 2,
+   "|I|=1 live (1, 0, 0, 1) dual (1, 0, 0, 1)": 8,
+   "|I|=1 live (1, 0, 0, 2) dual (1, 0, 0, 2)": 2,
+   "|I|=1 live (1, 0, 1, 0) dual (1, 0, 1, 0)": 8,
+   "|I|=1 live (1, 0, 1, 1) dual (1, 0, 1, 1)": 46,
+   "|I|=1 live (1, 0, 2, 0) dual (1, 0, 2, 0)": 2,
+   "|I|=1 live (1, 1, 0, 0) dual (1, 1, 0, 0)": 32,
+   "|I|=1 live (1, 1, 0, 1) dual (1, 1, 0, 1)": 42,
+   "|I|=1 live (1, 1, 1, 0) dual (1, 1, 1, 0)": 48,
+   "|I|=1 live (1, 1, 1, 1) dual (1, 1, 1, 1)": 46,
+   "|I|=1 live (1, 2, 0, 0) dual (1, 2, 0, 0)": 4,
+   "|I|=1 live (2, 0, 1, 0) dual (2, 0, 1, 0)": 2,
+   "|I|=1 live (2, 1, 0, 0) dual (2, 1, 0, 0)": 2,
+   "|I|=2 live (0, 1, 1, 0) dual (0, 1, 1, 0)": 2,
+   "|I|=2 live (1, 0, 0, 1) dual (1, 0, 0, 1)": 2,
+   "|I|=2 live (1, 0, 1, 0) dual (1, 0, 1, 0)": 2
+  },
+  "witnesses_abs_I_ge_2": 6,
+  "witnesses": [
+   {
+    "I": 2,
+    "l": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "alpha": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "combo": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "h1_l": 4,
+    "t0s": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "alpha": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "combo": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "h1_l": 4,
+    "t0s": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "t0s_dual": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "alpha": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "combo": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "h1_l": 4,
+    "t0s": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "t0s_dual": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "alpha": [
+     0,
+     1,
+     1,
+     0,
+     1
+    ],
+    "combo": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "h1_l": 4,
+    "t0s": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "t0s_dual": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   },
+   {
+    "I": -2,
+    "l": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "alpha": [
+     1,
+     1,
+     0,
+     0,
+     1
+    ],
+    "combo": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "h1_l": 4,
+    "t0s": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "t0s_dual": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "n": 0,
+    "n_dual": 2,
+    "a1": 4,
+    "r1": 4,
+    "other_primes": [
+     -2,
+     -2
+    ]
+   },
+   {
+    "I": 2,
+    "l": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "alpha": [
+     1,
+     1,
+     1,
+     0,
+     0
+    ],
+    "combo": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "h1_l": 4,
+    "t0s": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "t0s_dual": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "n": 2,
+    "n_dual": 0,
+    "a1": 2,
+    "r1": 0,
+    "other_primes": [
+     2,
+     2
+    ]
+   }
+  ],
+  "rechecks_differing": 0,
+  "seconds": 34.1,
+  "tag": "m010 deg 6 #16",
+  "root": "m010",
+  "degree": 6,
+  "index_in_snappy_list": 16,
+  "homology": "Z/2 + Z + Z + Z + Z",
+  "volume": 16.0004687
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   3,
+   3
+  ],
+  "N": 3,
+  "characters": 81,
+  "primes": [
+   3001,
+   3019,
+   3037
+  ],
+  "h1_hist": {
+   "0": 24,
+   "1": 46,
+   "2": 9,
+   "3": 2
+  },
+  "modules": 6952,
+  "I_hist": {
+   "-1": 526,
+   "0": 5900,
+   "1": 526
+  },
+  "max_abs_I": 1,
+  "firing_by_live_cusps": {
+   "|I|=1 live (0, 1) dual (0, 1)": 380,
+   "|I|=1 live (1, 0) dual (1, 0)": 384,
+   "|I|=1 live (1, 1) dual (1, 1)": 288
+  },
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 69.1,
+  "tag": "m010 deg 6 #23",
+  "root": "m010",
+  "degree": 6,
+  "index_in_snappy_list": 23,
+  "homology": "Z/3 + Z/3 + Z + Z",
+  "volume": 16.0004687
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [
+   3
+  ],
+  "N": 3,
+  "characters": 27,
+  "primes": [
+   3001,
+   3019,
+   3037
+  ],
+  "h1_hist": {
+   "0": 18,
+   "1": 6,
+   "2": 3
+  },
+  "modules": 350,
+  "I_hist": {
+   "0": 350
+  },
+  "max_abs_I": 0,
+  "firing_by_live_cusps": {},
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 1.2,
+  "tag": "s959",
+  "root": "s959",
+  "degree": null,
+  "index_in_snappy_list": null,
+  "homology": "Z/3 + Z + Z",
+  "volume": 6.08964964
+ },
+ {
+  "cusps": 2,
+  "b1": 2,
+  "torsion": [],
+  "N": 2,
+  "characters": 4,
+  "primes": [
+   3001,
+   3011,
+   3019
+  ],
+  "h1_hist": {
+   "0": 3,
+   "2": 1
+  },
+  "modules": 0,
+  "I_hist": {},
+  "max_abs_I": 0,
+  "firing_by_live_cusps": {},
+  "witnesses_abs_I_ge_2": 0,
+  "witnesses": [],
+  "rechecks_differing": 0,
+  "seconds": 0.0,
+  "tag": "m125",
+  "root": "m125",
+  "degree": null,
+  "index_in_snappy_list": null,
+  "homology": "Z + Z",
+  "volume": 3.66386238
+ }
+]
