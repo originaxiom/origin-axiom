@@ -124,3 +124,9 @@ The 3d index's invariance for B1431 needed no new script: SnapPy's `canonize()` 
 and 4_1 triangulations unchanged and their shapes are all regular, so they are the canonical
 Epstein–Penner triangulations with strict angle structures, and Garoufalidis–Hodgson–Rubinstein–Segerman
 Thms 1.2–1.4 (arXiv:1303.5278) make the index computed on them the manifold invariant.
+
+Added for the 2026-10-01 sweep (`../../REPO_SWEEP_REPORT_2026-10-01.md`):
+
+| script | what it checks | result |
+|---|---|---|
+| `r14_axiom_checks.py` | the four claims found on other lanes that change how axioms, identifications or freedoms are **graded**: (1) SM lane B1380, only the once-punctured torus among the four surfaces with π₁ = F₂ realises σ or σ²; (2) B1379/B1504 T1, LR and RL give the same **oriented** manifold; (3) sep16 I-31, the monodromy at the quaternion node is the outer ℤ/3 of Q₈, with the trace map's Jacobian; (4) SM lane B1382, m004's two spin structures are the pullbacks of the Gieseking manifold's Pin⁺ and Pin⁻ structures | all four hold. (1) by a basis-free eigenvalue argument; (2) 8 isometries, 4 orientation-preserving; (3) outer, order 3, D³ = I; (4) exact over ℚ(ω): intertwiner rank 3, W·W̄ = +A, so lift +A extends only as Pin⁺ and −A only as Pin⁻ |

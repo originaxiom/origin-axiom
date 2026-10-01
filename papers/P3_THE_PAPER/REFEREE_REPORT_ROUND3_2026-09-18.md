@@ -157,7 +157,12 @@ orbit-stabiliser: 2 x 2 = 4        A6, A7 fix 0 ;  A5 moves it
 ```
 
 **So the two bits the manuscript calls *withheld* and *relational* are exactly the object's own
-stabiliser** — and a fixed point cannot report on its own stabiliser. 9 of 12 banked negatives are
+stabiliser** — and a fixed point cannot report on its own stabiliser.
+
+> **Withdrawn 2026-10-01.** The group theory above is xB021's and is verified: A6 and A7 fix CS = 0.
+> The identification with the manuscript's "withheld" and "relational" bits is mine, and no map was
+> exhibited. sep16's ledger carries it as I-32, UNEARNED. See `REFEREE_REPORT_CONSOLIDATED_2026-09-18.md`
+> §5 and `REPO_SWEEP_REPORT_2026-10-01.md` §8. 9 of 12 banked negatives are
 instances of this shape; the 3 misses are named and are all arithmetic.
 
 And a detail the lane does not draw out, which I checked: the orbit **{0, ¼} is exactly
@@ -208,6 +213,12 @@ fixes E₆, the 27 and one cubic coupling, and (pending B1366) a unique Standard
 withholds chirality, and there is now a computed reason why — the withheld bits are its own
 stabiliser; and on its tower, on non-semisimple backgrounds, exactly one chiral generation appears,
 never three.*
+
+> **Corrected 2026-10-01.** "The withheld bits are its own stabiliser" rests on the identification
+> withdrawn above (sep16's I-32). What xB021 computed is that the orientation and order bits fix the
+> object's Chern–Simons value. "(pending B1366) a unique Standard-Model embedding" became sep16's I-33.
+> It now holds up to W(E₆) for regular embeddings with the Standard-Model shaping of the 27 (B1430;
+> `r13`), and non-regular A₂ is open.
 
 **My single strongest recommendation, superseding everything in rounds 1 and 2:** the paper is not
 reporting its own project. Three results dated 09-16 and 09-17 — the tower's generation, the

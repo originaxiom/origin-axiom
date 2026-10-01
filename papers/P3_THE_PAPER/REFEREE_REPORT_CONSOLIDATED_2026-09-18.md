@@ -10,7 +10,8 @@ appended: nothing in this document requires the reader to hold an erratum in min
 earlier section. That is the standard I am holding the manuscript to, so it is the standard this
 report meets.
 
-*Current as of round 5 (2026-09-29), against `main` at `987c0c8f`.*
+*Current as of the repository sweep of 2026-10-01 (`REPO_SWEEP_REPORT_2026-10-01.md`, which covers
+every lane, not only the paper), against `main` at `987c0c8f`, unchanged since 2026-09-18.*
 
 ---
 
@@ -79,6 +80,10 @@ own method and its own limits.
 | E₆: 120 A₂ in **one** Weyl orbit (stabiliser 432); 720 commuting (A₂, A₁) pairs in one orbit (stabiliser 72); \|W\| = 51 840 | verified from the Cartan matrix |
 | exactly three hypercharges give the 27 the Standard-Model multiset, in one orbit (B1430) | verified **exhaustively** — 27 exact linear systems over the whole 3-dimensional commutant, not a box: exactly 3 directions, one orbit under the pair's stabiliser (order 72) |
 | the fixes to F2, F3, F4 and the seed-dependent lock | verified — mutation test, behavioural run, exhaustive manifest audit, package run under the failing seed (§3) |
+| *2026-10-01:* the puncture is implied by the carrier axiom — of the four surfaces with π₁ = F₂ only the once-punctured torus realises σ or σ² (SM lane B1380) | verified, by a basis-free eigenvalue argument (`r14`) |
+| *2026-10-01:* LR and RL present the same **oriented** manifold — 8 isometries, 4 orientation-preserving (B1379 S4, B1504 T1) | verified (`r14`) |
+| *2026-10-01:* the node's ℤ/3 is the outer ℤ/3 of Q₈, and the trace map's derivative there is the row's D with D³ = I (sep16 I-31) | verified (`r14`) |
+| *2026-10-01:* m004's two spin structures are the pullbacks of the Gieseking manifold's Pin⁺ and Pin⁻ structures, one each (SM lane B1382) | verified exactly over ℚ(ω): intertwiner rank 3, W·W̄ = +A; both Pin types exist since H²(m000; ℤ/2) = 0 (`r14`) — bears on F8 |
 
 ### 2.2 Not verified — and no part of this report endorses these
 
@@ -93,8 +98,9 @@ verified the *theorem* behind the vanishing and the *lemma* (symplectic self-dua
 The ledger rows σ, λ, ℙ(B₀); the seven crossings; the 352-pair period scan; the 216-cell regulator
 grid; the G₂ orbifold with b₂ = 0; the genesis uniqueness theorem (144 candidates to one). The
 80 800 count, the one-per-background law, the exact ℚ(ζ) runs; B1351, B1367, B1368. From B1430, the
-8 177 branchings (they depend on its scan box) and its two remaining caveats — regular embeddings only,
-and Weyl- rather than group-conjugacy. The author's random-retriangulation agreement for the 3d index
+8 177 branchings (they depend on its scan box) and its remaining caveat, regular embeddings only.
+(Its other caveat, Weyl- rather than group-conjugacy, does not weaken uniqueness: all Cartan
+subalgebras are conjugate and every Weyl element is realised in the adjoint group.) The author's random-retriangulation agreement for the 3d index
 (no longer load-bearing: invariance holds by theorem for the canonical triangulations actually used).
 The membership of B1429's 112-member family.
 
@@ -114,7 +120,7 @@ manuscript:
 | banked result | where | in the paper |
 |---|---|---|
 | one chiral generation on the tower; the h¹ = 1 mechanism | B1374 / B1375 | **no** |
-| the withheld bits are the object's own stabiliser (a fixed point cannot report on its own stabiliser) | xB021 | **no** |
+| the orientation and order bits are exactly the stabiliser of the object's Chern–Simons value (a fixed point cannot report on its own stabiliser). *Corrected 2026-10-01: this row used to say "the withheld bits". That identification with the paper's vocabulary was mine and had no map (§5).* | xB021 | **no** |
 | the parameter budget **clears 19** at the tower's ceiling — L14n63694, k = 5, dim_ℂ H¹(sl₃) = 10 → 20 real — **and is entirely boundary data, zero interior moduli** | B1409 / L219 | **no** |
 | the surviving gauge group is abelian of dim ≤ 4, or trivial for the geometric holonomy | B1336 | **no** |
 | the price: 4 axioms spent, **0 of 19** bought, "the two do not convert" | B1261 | **no** |
@@ -126,8 +132,10 @@ manuscript:
 | *added round 5:* the 3d index of the object, computed; m004 and m003 share the trivial-class series | B1428 | **no** |
 | *added round 5:* **the full collection of classes separates m004 from m003** — a second separator besides Chern–Simons, which §2 presents as the only one; a manifold invariant, since the triangulations used are canonical | B1431 | **no** |
 | *added round 5:* the orientation and order bits act trivially on the whole sister orbit; the information lives on the family | B1429 | **no** |
+| *added 2026-10-01:* the puncture is implied by the carrier axiom, so on the words route the entrance has **one** fragile fork, orientation; on the uniqueness theorem's route it keeps two | SM lane B1380 (relayed to `main`, not harvested) | **no** — §axioms prices two |
 
-**Status (round 5): not addressed, and wider.** The manuscript changed by two lines since round 2; the
+**Status (round 5): not addressed, and wider.** *(2026-10-01: `main` unchanged; the SM lane has since
+banked B1380, above, and B1382, which bears on a sentence the paper already prints — F8.)* The manuscript changed by two lines since round 2; the
 record gained the last three rows, each verified here. The author has said so explicitly (*"Nothing
 about what belongs in the paper is decided here"*, S22), so this is a deferral, not an oversight — but
 it is the finding the verdict turns on.
@@ -203,6 +211,26 @@ three sites; the caption reads fifty-seven links. The author also found and fixe
 retraction count the paper cites (27 → 29). Round 1's items 1 (`.gitignore` / the B1419 census) and 4
 (census-drift population) were properly fixed in round 2, the first generalised to a sweep and locked.
 
+### F8 — The spin lift: the paper disagrees with itself, and the record has since settled it the other way *(new, 2026-10-01)*
+
+The manuscript says two incompatible things about the same bit:
+
+- §ledger, prose: *"What is not yet done is the identification of that selected lift with the sign
+  lift selected by the object's spectral period … until it is, the bit is assigned by the extension
+  route and the two routes are not yet shown to agree."*
+- the claims table: *"the spin lift is assigned by the object's own spectral period, not free —
+  settled — lock."*
+
+The comparison the prose calls missing was B1175's residual, queued on 08-27. The SM lane ran it as
+**B1382** (09-26). The extension route selects B1141's lift only within Pin⁺; within Pin⁻ it selects
+the other lift. m004's two spin structures are exactly the pullbacks of the Gieseking manifold's two
+Pin types, one each. I verified the core exactly (§2.1, `r14`). So the object does not assign the
+bit; it trades it for its parent's Pin type. B1383 then quotes physics for Pin⁺ and finds the bit
+relocates again, to the role the parent's deck plays. It is one bit, not zero.
+
+**Requested:** reconcile the two sentences now. Once B1382 is harvested, the claims row should say
+the spin lift is one bit, traded for the parent's Pin type.
+
 ---
 
 ## 4. On the questions behind the paper
@@ -236,8 +264,8 @@ degree — **remains open**. Alexander separability plus B1260's reciprocity is 
 would take.
 
 **Why the parameters do not come out.** Not nineteen failures — one obstruction. Every instrument is
-equivariant, and every parameter is a coordinate the symmetry moves. xB021 sharpens it: the withheld
-bits are the object's own stabiliser. The record states the consequence itself (B1261: 4 axioms
+equivariant, and every parameter is a coordinate the symmetry moves. xB021 sharpens it: the
+orientation and order bits are exactly the stabiliser of the object's Chern–Simons value. The record states the consequence itself (B1261: 4 axioms
 spent, 0 of 19 bought, and the two do not convert; L217; H5). **Enriching the construction does not
 escape it:** the coefficient enrichment fails at the root because every Sym^n of SL(2) is self-dual
 (B1260/E65); the flat-connection route fails because every available centraliser is abelian of
@@ -270,13 +298,16 @@ I praised this paper for documenting where it fell over. The same standard appli
 | graded the relay's "proven Dehn-filling law" as overstated | the author's lead L225 | I read one abstract; Celoria–Hodgson–Rubinstein (arXiv:2509.09886) prove it |
 | called the author's 3d index an "independent convergence" with mine | reading their commit | they computed the un-rotated index, I the rotated (0,0) entry: different series |
 | wrote S23's truncation bug into my own general implementation (the running product) | reading my code before the first run | none |
+| **round 3: "the two bits the manuscript calls *withheld* and *relational* are exactly the object's own stabiliser"**, carried into F1 and §4 here | **another seat** — sep16's xB025 re-verified round 3 and entered it as I-32, UNEARNED; found in the 10-01 sweep | an identification with no map, asserted because two sets have two members: the class the paper's ledger exists to catch. The structural half (xB021) stands. Withdrawn; F1 and §4 corrected in place |
+| round 3: "(pending B1366) a unique Standard-Model embedding" | sep16's I-33, the same route | hedged at the time, and partly established since: unique up to W(E₆) for regular embeddings with the SM shaping (B1430; `r13`). Non-regular A₂ remains open |
 
 The pattern is worth naming, and it changed this round. Most errors were caught by a control written
 before the answer was known — the paper's own method. **The two that mattered most in round 5 were
 not: the author caught them.** Both have the shape the author named in S20 — *"a check satisfied by
 an incomplete view of its own evidence is not a check"* — a depth-limited clone read as the history,
-and a single run of a seed-dependent suite read as a green. A referee is not exempt from the
-methodology being checked.
+and a single run of a seed-dependent suite read as a green. The 10-01 sweep adds a third error that
+no control of mine caught: an identification asserted because two sets have the same size, found by
+another seat's ledger. A referee is not exempt from the methodology being checked.
 
 ---
 
@@ -325,6 +356,8 @@ corrected there.
    the object from its sibling.
 2. Title, abstract, the 53/57 ratio, and the index wording (F5).
 3. Cite the 3d-3d literature the object is the canonical example of (F6).
+4. Reconcile the two spin-lift sentences (F8). Once B1382 is harvested: one bit, traded for the
+   parent's Pin type.
 
 **Done, and verified in round 5:** the stale chain-table row and the sampling gate (F2); the runner's
 verdict and the seed-dependent lock (F3); the manifest's commit (F4); the sin²θ_W site and the caption
@@ -338,6 +371,14 @@ want of Regina") follows from the strict angle structure by Garoufalidis–Hodgs
 Thm 1.3, and the triangulations are the canonical ones, so Thm 1.4 applies; and B1430's "not an
 exhaustive proof" is replaced by an exact enumeration (`r13_s25_hypercharge.py`).
 
+*Added 2026-10-01:*
+
+- B1380 gives §axioms a cheaper statement, verified here: one fragile fork on the words route, two on
+  the uniqueness theorem's route. Its own §6 suggestion, to state both, each with its route, is the
+  right one.
+- sep16's I-32 should be closed as withdrawn by its source (§5).
+- I-33 should be updated with the regular-embedding result rather than closed.
+
 Everything small is done. Item 1 is the report.
 
 ---
@@ -346,7 +387,7 @@ Everything small is done. Item 1 is the report.
 `r2_lock_data_tracked`. Round 3: `r3_i26_euler`, `r3_m010_index`, `r4_r30_check`, `r5_tower_loci`,
 `r6_h1_three`, `r7_corank_bound`, `r8_enrichment_budget`, `r9_enrich_coefficients`. Round 4:
 `r10_controls`, `r11_3d_index`. Round 5: `r12_3d_index_classes`, `r12b_separation`,
-`r13_s25_hypercharge`, plus the E83
+`r13_s25_hypercharge`. The 10-01 sweep: `r14_axiom_checks`. Round 5 also includes the E83
 reproduction, the gate mutation test, the manifest audit and the S24/S25 checks recorded in
 `REFEREE_REPORT_ROUND5_2026-09-29.md`. Primary sources read at source: Menal-Ferrer–Porti; DGG
 1108.4389 and 1112.5179; Garoufalidis 1208.1663; Garoufalidis–Gu–Mariño 2301.00098; Gang–Yonekura
