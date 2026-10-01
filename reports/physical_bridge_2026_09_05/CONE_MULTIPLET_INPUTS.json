@@ -1,0 +1,76 @@
+{
+  "scope": "Supplied same-action inputs, not genesis-derived physical parameters",
+  "inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5",
+      "bytes": 8158
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756",
+      "bytes": 7864
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/nilpotent_cone.py",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "820bd1e6cf820e6806086300a0712b4f352c9e575db26764bf3d3ecb2daf55a9",
+      "bytes": 12726
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "713f2e8068a712e1ed44b43f2a173c5fd1b3e3ac481252044efd97f5be113731",
+      "bytes": 7930
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_flux.py",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "e53b428198e0fecba213a8a6a9ca23c2e1abae5363651dbae5d57e84624e0692",
+      "bytes": 11183
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "e38547885a70015e970ac3f9c6d80ddf7d1b931b67ad8f4a88c2720670b98404",
+      "bytes": 8370
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cone_fermion.py",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "535f6d00f3af7a942997e05ce3d65ca429d2410f99013cf2f0dbd978aa16f0a3",
+      "bytes": 13636
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/fermion_end.py",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "f4e22c8dd5933213ec95c9db0ac7c8668ed25ef7cca1f52b2a565de5213ea964",
+      "bytes": 6170
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/END_LAW.md",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "d816d748f47ae2f0e93a16ffe693fec8db64725bdc7c5dd1c18c8a2a3cd12743",
+      "bytes": 8570
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/end_law.py",
+      "commit": "76e30110fe789853b762b67cb0b7dec3113ae120",
+      "sha256": "b55367a24a82670cf7ca82820f87fc5140f0bd046cc5aa79c3ab18ee034617cd",
+      "bytes": 9510
+    }
+  ],
+  "literature": [
+    {
+      "title": "Higgs Bundles for M-theory on G2-manifolds",
+      "url": "https://arxiv.org/pdf/1812.06072v2",
+      "accessed": "2026-10-01",
+      "sha256": "dc6c27bdead94b126465f8db382e76f776e46882f038d0d696f3068230b1b097",
+      "bytes": 2241530,
+      "read": "Section 2.1 eq 2.9-2.18, section 2.3 through 2.44, Appendix A.2 Majorana formulas, B.1 through B.14 and Appendix C; visually inspected pages 71-72",
+      "used": "Supplied necessary superfield profile maps; no singular transfer of smooth boundary cohomology theorem"
+    }
+  ]
+}

@@ -1384,3 +1384,29 @@ The mathematical cocycle equality is compared after exact expansion.
 | `reports/physical_bridge_2026_09_05/LEVEL_ACTION_CONTROL2_DESIGN.md` | `13e8bae129def52e352c4fc5453d0d6b55ea4f32e4d614976f42fdcad4dcf974` |
 | `reports/physical_bridge_2026_09_05/level_action_control2.py` | `5c416df0a4d87429b85fdc72c00d3f41a264634ff82481104d3dbff3600e80ea` |
 | `tests/test_physical_bridge_level_action_control2.py` | `b254c373ebdea8c0523ed0a17c894216b56c7956b2110394f10f2327af81601c` |
+
+## October 1 2026 R70 same-action cone multiplet admission seal
+
+Necessary superfield maps, neutral periods, actual residuals and affine end variation.
+No new scientific import/execution precedes this seal.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_MULTIPLET_DESIGN.md` | `96a18259a0193ce9859c232d0308261ae920781b8c20f0bb9854912b4c849fbe` |
+| `reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md` | `848c179e327a0a2c04329675deba171c0c5244e19324fb703336a95dfce7941c` |
+| `reports/physical_bridge_2026_09_05/CONE_MULTIPLET_INPUTS.json` | `1cbeff7c8e3f3430786a08a399f172c6f153e0d3a17822978544b528cb632f6c` |
+| `reports/physical_bridge_2026_09_05/cone_multiplet.py` | `748d7752b581de337dfe5141ea0f796171605f94fd025e080c0dfb6819ebf982` |
+| `tests/test_physical_bridge_cone_multiplet.py` | `dfac8eddbb4af6009d730dc348739b6a6b08fc66bcbd6550c6cdc6e88fef0c25` |
+
+### R70 pre-execution scope refinement: based loops versus averaged traces
+
+No scientific run occurred; the averaged-loop hypothesis and nonflat control
+are explicit in the actual seal inputs below. Earlier draft digests stay historical.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CONE_MULTIPLET_DESIGN.md` | `56faf0922a5ca310d8ba84b27f4a818506dbe725084efac5b409d2e80250f2f1` |
+| `reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md` | `525ef354b906c4001f63dedb2e21ff0846744d2316f73ca10a3543c4212bf34e` |
+| `reports/physical_bridge_2026_09_05/CONE_MULTIPLET_INPUTS.json` | `1cbeff7c8e3f3430786a08a399f172c6f153e0d3a17822978544b528cb632f6c` |
+| `reports/physical_bridge_2026_09_05/cone_multiplet.py` | `53ab9b6c1317b3c5cb46c0538492084e766fd5e59c037e0b26178bba39af1c3c` |
+| `tests/test_physical_bridge_cone_multiplet.py` | `321fac736f3c3c05a83d15e6a7fb7a5b9e6f525dc0eebb7d6d25fa4a2dc9076b` |
