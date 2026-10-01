@@ -16271,3 +16271,11 @@ that reality uses more thsn that, that is the new reframe … do a proper repo s
     is kept in the scratchpad, not in the repository.
 
 `frontier/B1508_the_path_under_the_reframe`. 0 of 19.
+
+## 2026-10-01 — Main's S27 harvested; B1378's deck-map claim withdrawn
+
+- **B1378.** Main's B1432 showed that B1378 §3's report of an error in the web seat's deck word map was itself the error.
+  Recomputed exactly here (`frontier/B1378_the_m6_deck_triplet/verification/deck_map_web_seat.py`). The claim is withdrawn, E72.
+- **Registered:** main's B1432–B1435 and the audit lane's R70–R71 (RELAY_LEDGER rows).
+
+0 of 19.

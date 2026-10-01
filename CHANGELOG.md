@@ -1,5 +1,21 @@
 # Changelog
 
+## Main's S27 harvested; B1378's deck-map claim withdrawn
+
+Main moved today (987c0c8f → 6093e23c), and so did the audit lane (R70, R71).
+- **B1378.** Main's B1432 found that this seat's §3 "correction" of the web seat's order-3 deck word map was itself wrong.
+  - Recomputed here exactly over ℚ(√−3): the web seat's TAU2 is conjugation by a² on all seven cover generators. This seat's
+    substitute fails on generators 5 and 7.
+  - The cause was a label: the text's aᵏ b a⁻ᵏ against the code's aᵏ b a⁻⁽ᵏ⁺¹⁾.
+  - The claim is withdrawn, the lock gains a test, and the index results stand. ERROR_LEDGER: E72 instance.
+- **Registered:**
+  - main's B1432 (this seat's level census verified independently), B1433, B1434 (the architecture census: two generated word
+    states, m369 and s639, carry generation-shaped backgrounds at their own level; orbits of three are common across the grammar;
+    every background counts one) and B1435 (sealed: the interaction census);
+  - the audit lane's R70 and R71.
+
+0 of 19.
+
 ## B1508 — the path under the reframe: the path note's blocks read for scope, and the record searched beyond m004
 
 The owner corrected the path note: "most of these theorems are malinformed, they assume m004 is the only object, and ignore the fact

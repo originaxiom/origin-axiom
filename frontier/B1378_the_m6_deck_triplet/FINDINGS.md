@@ -16,6 +16,13 @@
 > y₄ ↦ y₅z⁻¹ and y₅ ↦ zy₀. That map and its square are homomorphisms on the holonomy-type representation. TAU and TAU2 as written in
 > §3 are not. `deck()` agrees with the correct map on every character this arc used (χ(z) = 0), so the index results stand. Verified
 > in `frontier/B1506_the_level`.
+>
+> **Withdrawn (2026-10-01; main's B1432, recomputed here):** §3's "found the source's specific formula wrong on two wraparound terms".
+> - The web seat's map is right. Over ℚ(√−3), in the source's presentation and Reidemeister–Schreier convention, its TAU2 equals
+>   conjugation by a² on all seven cover generators. This seat's substitute fails on generators 5 and 7, the two terms it had
+>   changed (`verification/deck_map_web_seat.py`).
+> - The cause was a label. The text named the cover generators aᵏ b a⁻ᵏ, which have exponent sum 1 and are not in the cover's group.
+> - The index results never used the map and stand. ERROR_LEDGER, E72 instance.
 
 **Date:** 2026-09-26 · **Seat:** cc (the SM-derivation branch) · **Occasion:** an uploaded seat-checkpoint archive's audit
 package, verified with this branch's own code · **Status:** PROVED (the index computation, two independent methods, three
@@ -78,7 +85,8 @@ non-split extension of two rank-one pieces, not to a direct sum of three indepen
 `REPORT.md` reports the order-3 deck square as a word map (its `TAU2`), used only for an "intertwiner" check that the
 three members are literally one automorphism orbit (not merely three characters with matching index). Hand-rederiving
 this word map independently here (twice, by two different routes — see `rs_presentation.py`'s `TAU2` comment for both)
-found the source's specific formula wrong on two wraparound terms; a corrected formula gives the right order (exactly
+found the source's specific formula wrong on two wraparound terms *[withdrawn 2026-10-01: the source's formula is right; see the note at
+the top]*; a corrected formula gives the right order (exactly
 3) **on H₁(Y₆)**, cross-validated against the classical, presentation-free monodromy computation (M has order 6, so
 M² has order 3) — but neither the source's formula nor either of this seat's own corrected attempts was confirmed at
 the full, non-abelian representation level (substituting the word into each of the six relators and evaluating in a

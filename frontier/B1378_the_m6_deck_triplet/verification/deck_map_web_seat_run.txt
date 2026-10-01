@@ -1,0 +1,5 @@
+holonomy parameter z = 1/2 - sqrt(3)*I/2 | source relation holds exactly
+web seat's TAU2 = conjugation by a^2 on every cover generator: True {1: True, 2: True, 3: True, 4: True, 5: True, 6: True, 7: True}
+B1378's substitute = conjugation by a^2: False {1: True, 2: True, 3: True, 4: True, 5: False, 6: True, 7: False}
+exponent sum of a^k b a^-k: 1 (not 0 mod 6)
+DONE

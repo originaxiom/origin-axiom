@@ -3,9 +3,9 @@ genuine order-3 deck orbit; each of the three orbit members has six-Standard-Mod
 direct sum has EXACT index (-3)^6, confirmed over three primes and exactly over Q(zeta_8) -- reproducing (with an
 independently-built Reidemeister-Schreier presentation and this branch's own index_lib.py/exact_lib.py, not a copy of the
 source's script) a result reported by an external seat's audit package.  Y6's identity with H1 = Z/8 (+) Z/40 (+) Z is
-cross-checked against the classical fibration-monodromy computation, independent of any group presentation.  One error
-was found in the source's own account of the deck square's word-level automorphism (does not touch the index; see
-verification/rs_presentation.py's TAU2 comment and FINDINGS.md Sec. 3)."""
+cross-checked against the classical fibration-monodromy computation, independent of any group presentation.  The arc
+had reported an error in the source's word-level deck map; that report is WITHDRAWN (2026-10-01, main's B1432, recomputed
+exactly here): the source's TAU2 is conjugation by a^2, and this seat's substitute is not.  The index never used the map."""
 import sys, subprocess
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,4 +33,13 @@ def test_the_deck_triplet_index():
     assert "cross-check passed: True" in out
     assert "h^1(pi; chi_j^2) = [1, 1, 1]" in out
     assert "index with the cocycle set to 0 (all six sectors): [0, 0, 0, 0, 0, 0]" in out
+    assert "DONE" in out
+
+
+def test_the_web_seats_deck_map_is_right():
+    """2026-10-01 correction (main's B1432): over Q(sqrt-3) the web seat's TAU2 is conjugation by a^2 on all seven cover
+    generators; the substitute this arc had proposed fails on generators 5 and 7"""
+    out = run(str(VER / "deck_map_web_seat.py"), timeout=300)
+    assert "web seat's TAU2 = conjugation by a^2 on every cover generator: True" in out
+    assert "B1378's substitute = conjugation by a^2: False" in out and "5: False" in out and "7: False" in out
     assert "DONE" in out
