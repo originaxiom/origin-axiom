@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Current path-local R71 (October 1):** the full sl4 coefficient splits
+exactly into charges0,+4,-4 of dimensions9,3,3. Other neutral coefficients
+have a nontrivial formal logarithmic critical generator; a frozen kernel
+cannot inherit R68's four exact Z trace laws. Complete limiting Fourier
+windows depend on the supplied link aspect.60 final controls and23
+focused tests pass; two original R71 failures stay, with a separate
+generator repair. No full graph-domain or physical-particle count.
+Next prove exact changing-operator domains and coupled end laws, then
+core matching. The parameter-free physics goal remains active.
+Report: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.
+Earlier dated entries retain their historical scopes.
+
 **Current path-local R70 (October 1):** the actual neutral superfield
 profile maps expose a mismatch between zero-trace bosons and bulk
 self-adjoint fermions under both adopted conjugate supercharges. H1

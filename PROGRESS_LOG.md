@@ -16073,3 +16073,30 @@ Next test all coupled channel/gauge/superfield domains and core matching,
 and derive or price the end policy from the full principles. The
 parameter-free Standard Model and complete physical-theory goal is active.
 Report: reports/physical_bridge_2026_09_05/CONE_MULTIPLET.md.
+
+## 2026-10-01 R71 — full complementary cone channels
+
+Exactly reducing sl4 charge spaces0,+4,-4 have dimensions9,3,3.
+Parent brackets couple them. The zero-Fourier neutral formal critical
+generator has four zero slots and32 nonzero logarithmic eigenvalues,
+checked independently by full Schur elimination and principal Casimir.
+This does not prove36 actual graph traces. Complete limiting Fourier
+windows lie in bounded ellipses; three supplied-metric fixtures vary
+limiting angular dimensions36,60,300. They are not particle counts.
+
+Initial seal1aa3bd5c and separate generator control4164fa20 were pushed
+and server-confirmed before execution. First native55/56 pass; focused
+21 pass/two fail. The scalar failure compared differently-assumed
+polynomial generators. Original files, failures and raw bytes stay.
+Control preserves the target, checks an independent determinant and
+rejects wrong mass:60 controls/seven new control tests pass,23 combined
+passes. Older failures not rerun; four historical governance rows stay.
+No full-suite or independent analytic-review certificate.
+
+Fetched all origin branches; personally read B1507 findings,end_lines
+and the October1 SM path at76d98eba, not blanket-certified premises.
+Its cited audit horizon predates R69/R70. Next exact changing-operator
+domains, common nonlinear/gauge/superfield end law and core matching.
+Chiral SM interactions/values, quantum consistency and gravity remain
+the active unachieved parameter-free physics mission.
+Report: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.

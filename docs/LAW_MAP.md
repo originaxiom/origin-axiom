@@ -1,5 +1,17 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+**Current path-local R71 (October 1):** the full sl4 coefficient splits
+exactly into charges0,+4,-4 of dimensions9,3,3. Other neutral coefficients
+have a nontrivial formal logarithmic critical generator; a frozen kernel
+cannot inherit R68's four exact Z trace laws. Complete limiting Fourier
+windows depend on the supplied link aspect.60 final controls and23
+focused tests pass; two original R71 failures stay, with a separate
+generator repair. No full graph-domain or physical-particle count.
+Next prove exact changing-operator domains and coupled end laws, then
+core matching. The parameter-free physics goal remains active.
+Report: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.
+Earlier dated entries retain their historical scopes.
+
 Current path-local R69: selected exact coefficient and transition checks
 are recorded at EOF. They distinguish transported models, not physical
 generations or a selected level. Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
@@ -1046,3 +1058,15 @@ not the source of these new proofs. R66/R67/R68 and R60 are reused.
 | Zero neutral bosonic traces cannot join a bulk self-adjoint fermion under both adopted profile maps | Actual R68 reducing block, supplied twisted SYM supercharges and no enlarged end Hilbert space. Joint rank-four scalar-profile map forces zero fermion trace; Green witnesses exclude self-adjointness. Not a universal supersymmetry/physics no-go. | B1504 domain context; R70 CONE_MULTIPLET_PROOF.md section 2; tests/test_physical_bridge_cone_multiplet.py::test_both_superfield_profiles_force_zero_neutral_trace and test_self_adjoint_relative_control_does_not_prove_full_supersymmetry |
 | H1 commuting neutral profiles have finite residual-square action outside L4 | Actual log connection, positive trace cone norm. Explicit nonzero apex family changes peripheral data. Adding X0 fluctuations with b/r in L2 controls cross products at authored analytic grade; no full domain classification. | B1504 admission context; R70 CONE_MULTIPLET_PROOF.md section 3; tests/test_physical_bridge_cone_multiplet.py::test_actual_nonabelian_residuals_on_complex_neutral_profiles and test_finite_action_positive_outside_L4_and_bad_derivative_control |
 | A neutral line cancels the quadratic but not generally the affine holomorphic boundary form | Actual Cx=tN+v_x Z, Cy=kZ+beta t^2 P+v_y Z. On v=z w the boundary term is 12k w_x dz. Longitude-only passes; generic lines need a changed law. Local linear cancellation is not a derived global counterterm. | B1504 boundary context; R60 variation reused; R70 CONE_MULTIPLET_PROOF.md section 4; tests/test_physical_bridge_cone_multiplet.py::test_affine_superpotential_boundary_not_just_homogeneous_line |
+
+## Complementary cone channels and formal logarithmic coefficient October 1 2026
+
+Path-local R71 uses the supplied R66 collar and trace pairing.
+Finite checks do not certify exact maximal/minimal domains or physics.
+
+| law | hypotheses and boundary | source / lock |
+|---|---|---|
+| The trace-free coefficient splits into exactly reducing charges0,+4,-4 with dimensions9,3,3 | Actual background and adjoint coefficients; every radius/Fourier mode. Not parent Lie ideals: their brackets can source Z. | B1504 end context only; R68 operator prior; R71 CONE_CHANNEL_PROOF.md section1; tests/test_physical_bridge_cone_channel_control.py::test_complete_actual_charge_split_and_nonideal_bracket |
+| Every open-critical limiting Fourier tuple lies in a bounded ellipse for fixed alpha,k | lambda=4pi^2(alpha m^2+n^2/alpha)+c^2 k^2/alpha. No unrestricted-aspect zero-mode-only theorem or exact endpoint/domain count; threshold separate. | B1504 end context only; R63 scalar prior; R71 CONE_CHANNEL_PROOF.md section2; tests/test_physical_bridge_cone_channel_control.py::test_full_limiting_windows_depend_on_declared_metric and test_scalar_generator_control_and_independent_determinant |
+| The zero-Fourier neutral formal critical generator has four zero and32 paired nonzero eigenvalues | Actual log branch, formal second-order unitary Schur elimination. q,alpha independence applies to this leading coefficient only. Not an exact Cauchy-data theorem. | B1504 end context only; R71 CONE_CHANNEL_PROOF.md section3; tests/test_physical_bridge_cone_channel_control.py::test_actual_logarithmic_schur_matches_independent_blocks and test_logarithmic_spectrum_Green_pairing_and_exact_Z_scope |
+| Polynomial logarithmic L2 growth does not certify finite-order graph admission | dr=exp(-s)ds. A residual with nonzero polynomial-log lower bound after division by r has divergent exp(s) weighted square norm. Authored comparison, not exclusion of exact solutions with zero residual. | B1504 end context only; R71 CONE_CHANNEL_PROOF.md section4; tests/test_physical_bridge_cone_channel_control.py::test_L2_logarithmic_control_is_not_graph_admission |

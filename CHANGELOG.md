@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-01 - R71 full cone channels and logarithmic critical operator
+
+Exact coefficient dimensions9+3+3 and the formal critical Schur matrix
+pass independent Casimir/Gram/Gamma and radial-transport controls.
+Only four Z traces are already justified;32 other limiting zero slots
+cannot inherit their trace law. All-Fourier limiting windows depend on
+the supplied metric.60 final controls/seven control tests pass,23
+combined passes; two original failures stay with a separately sealed
+generator repair. Both instruments were server-confirmed before execution.
+Next exact graph domains and common coupled end law/core matching.
+No physical spectrum or full-suite/independent-review certificate.
+Report: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.
+
 ## 2026-10-01 - R70 necessary cone multiplet admission
 
 Zero-trace neutral bosons and a bulk self-adjoint fermion cannot be

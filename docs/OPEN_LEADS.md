@@ -1,5 +1,17 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+**Current path-local R71 (October 1):** the full sl4 coefficient splits
+exactly into charges0,+4,-4 of dimensions9,3,3. Other neutral coefficients
+have a nontrivial formal logarithmic critical generator; a frozen kernel
+cannot inherit R68's four exact Z trace laws. Complete limiting Fourier
+windows depend on the supplied link aspect.60 final controls and23
+focused tests pass; two original R71 failures stay, with a separate
+generator repair. No full graph-domain or physical-particle count.
+Next prove exact changing-operator domains and coupled end laws, then
+core matching. The parameter-free physics goal remains active.
+Report: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.
+Earlier dated entries retain their historical scopes.
+
 Current path-local R69: selected exact coefficient and transition checks
 are recorded at EOF. They distinguish transported models, not physical
 generations or a selected level. Report: reports/physical_bridge_2026_09_05/LEVEL_ACTION.md.
@@ -4130,3 +4142,24 @@ physical bridge report lane. No all-architecture chirality closure.
   realization. Chiral SM interactions and observables, quantum consistency
   and gravity remain full mission duties; conditional progress is not
   parameter-free completion. No universal repository absence is asserted.
+
+## R71 complementary cone channel disposition October 1 2026
+
+Verified full reducing coefficients and formal logarithmic data do not
+replace the changing operator by a frozen symbol.
+Source: reports/physical_bridge_2026_09_05/CONE_CHANNEL.md.
+
+- PB-BOUNDARY: establish exact maximal/minimal domains and generalized
+  traces for sl3, charged, nonzero-Fourier and threshold channels.
+  R68 proves four Z traces only;36 limiting slots are not a boundary count.
+- PB-ACTION / PB-BOUNDARY: test nonlinear products, compact gauge and all
+  superfield/derivative maps in one complete end law. Derive or price
+  that law and metric; metric-dependent limiting windows do not select it.
+- PB-TRANSITIONS / PB-HANDOFF-M6: match actual core/parent. Preserve
+  rank-two D0 versus rank-four cone and R58's distinct transition maps.
+- PB-REVIEW: independently review exact changing-operator trace laws.
+  Retain both original R71 failures, old scientific/governance debts.
+  No full-suite or independent analytic acceptance is claimed.
+- PB-PHYSICS: chiral matter, normalized SM interactions/values, quantum
+  consistency and gravity remain mission duties. No blanket B1507
+  certification, universal absence or physical no-go is asserted.
