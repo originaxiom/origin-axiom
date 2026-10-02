@@ -61,6 +61,9 @@ EXEMPT_TARGETS = frozenset({
     "docs/EARLY_RECORD_INDEX.md",
     "scripts/checks/topic_sweep.py",
     "frontier/B1454_genesis_v1_verified_and_adopted/verification/genesis_own.py",
+    # The audit lane's owner-intent note (audit/physical-bridge-2026-09-05 @ 7b088f50), cited by GENESIS v1.3 FK12 (sm:B1521) and
+    # its relays; harvested by citation, not copied. It resolves on that lane.
+    "philosophy/P_ACT_AND_REGISTER_2026_10_02.md",
 })
 
 

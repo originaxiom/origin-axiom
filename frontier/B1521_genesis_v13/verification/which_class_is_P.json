@@ -1,0 +1,141 @@
+{
+ "snappy": {
+  "generators": [
+   "a",
+   "b"
+  ],
+  "relators": [
+   "aaabABBAb"
+  ],
+  "meridian": "ab"
+ },
+ "iso": {
+  "m": "ab",
+  "n": "aabA",
+  "conjugator_g": "a",
+  "a_in_mn": "MnmN",
+  "b_in_mn": "nMNmm",
+  "checked": "B1520's relator holds for (ab, n) in the faithful holonomy; a, b recovered; both composites are the identity on generators",
+  "free_group_proof": {
+   "psi(phi(m)) m^-1": "",
+   "psi(phi(n)) n^-1 (a cyclic conjugate of R'^+-1)": "MnmNmnMNmN",
+   "psi(R) cyclically reduced": "nmNMnmNmnMNMnmNMnMNm",
+   "rotated by": 1,
+   "= u v with u, v cyclic conjugates of R'^+-1": [
+    "mNMnmNmnMN",
+    "MnmNMnMNmn"
+   ],
+   "conclusion": "phi is an isomorphism <m,n | mnMNmNMnmN> -> pi_1(m004) = <a,b | aaabABBAb>"
+  }
+ },
+ "P_transported": {
+  "P(m)": "MnmNm",
+  "P(n)": "nmN",
+  "H1_images": [
+   1,
+   1
+  ]
+ },
+ "P_class": {
+  "P' = inner o swap, conjugator": "nM",
+  "P' = inner (identity class), conjugator": null
+ },
+ "ballas": [
+  {
+   "q": "2",
+   "Hom(rho_q, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q^*, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   },
+   "Hom(rho_q o swap, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q o inversion, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   }
+  },
+  {
+   "q": "3",
+   "Hom(rho_q, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q^*, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   },
+   "Hom(rho_q o swap, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q o inversion, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   }
+  },
+  {
+   "q": "1/5",
+   "Hom(rho_q, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q^*, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   },
+   "Hom(rho_q o swap, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q o inversion, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   }
+  },
+  {
+   "q": "7/3",
+   "Hom(rho_q, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q^*, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   },
+   "Hom(rho_q o swap, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q o inversion, rho_q o P)": {
+    "dim": 0,
+    "invertible_member": false
+   }
+  },
+  {
+   "q": "1",
+   "Hom(rho_q, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q^*, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q o swap, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   },
+   "Hom(rho_q o inversion, rho_q o P)": {
+    "dim": 1,
+    "invertible_member": true
+   }
+  }
+ ],
+ "verdict": "P (main's B1297 period-2 symmetry) is the swap's class in Out(pi_1 m004): P = conj(nM) o swap. On Ballas' family rho_q o P is isomorphic to rho_q and NOT to rho_q^* (q = 2, 3, 1/5, 7/3); all four coincide at q = 1. The dualising symmetries of the family are the inversion and swap o inversion (B1455's table, B1520's D.theta and D.s.theta), not P."
+}

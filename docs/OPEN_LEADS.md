@@ -3760,7 +3760,11 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    so, what does it do to the vacuum stabiliser {id, s, D.θ, D.sθ}? This is the kill's hatch, made into a question; seal before
    computing.
 2. **Other families** (B1520 lead 2; sL-9 item 2). The sixteen-map test on another component of m004's character variety at level
-   one, and on the cyclic levels' families (B1511's projective tower), where the outer group is larger.
+   one, and on the cyclic levels' families (B1511's projective tower), where the outer group is larger. **[2026-10-02, sm:B1521]**
+   On the levels this is main's L242 (b), and it is not closed by B1297: B1297's period-2 symmetry P is the swap's class
+   (P = conj(nM) ∘ s, sm:B1521 C1), which fixes ρ_q, while the inversion θ dualises it. A vacuum ρ_q ⊗ ψ on a level is fixed by
+   a count-odd map only if one symmetry does both jobs. This seat takes it next as sm:B1522, sealed before computing, with the
+   owner's "choice might be golden" in its first sealed form, and over the other allowed states as far as their families exist.
 3. **The narrowed reader arc** (B1519 §4; B1520 lead 3; the owner's to run). With the vacuum ruled out as a selector on this
    family, the remaining place for a choice is the law or the state, not the minimum.
 4. **GENESIS v1.3** (the audit lane's relay of `1e3d17b9`, and this arc). Rebuild GENESIS with its generator so that B1519's lock
@@ -3770,3 +3774,10 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    - B130's empty global elimination, scoped by the countermodel x(x − 1) = 0, x·k = 0;
    - FK9: main's B1455 test run on one family (B1520, NEGATIVE, reach single).
    Each is checked with own code first.
+   **Done 2026-10-02 as sm:B1521 (PROVED): GENESIS v1.3.** All four carried, each re-derived first (C2–C4). Also: B1297's
+   P is the swap (C1), the lemmas credited to B1297, B871's group-layer registering datum, and the owner's act-and-register
+   priority with its three questions kept apart, the experiential one under Gate 5-Q.
+5. **The metallic fixed loci, component by component** (sm:B1521; the audit lane's AR4). Does the fixed locus of φ_m =
+   Ta^m ∘ Tb^m on ℂ³ have isolated components, and if so, are their κ values related by a symmetry? A yes with no relating
+   symmetry would be a discrete fork inside one unit, which B130's reading denies. The golden unit m = 1 first. Seal before
+   computing.

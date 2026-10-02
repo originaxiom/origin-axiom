@@ -1,5 +1,41 @@
 # Changelog
 
+## B1521 banked: GENESIS v1.3 — the audit lane's three corrections carried, the deciding test's outcome on both benches, and B1297's P is the swap (it fixes ρ_q; the inversion dualises it)
+
+- **Not sealed.** Each item checks a stated claim whose answer the record already fixes. PROVED, four checks with opposite
+  controls; creates_law false; 0 of 19.
+- **C1, which symmetry dualises the family** (`which_class_is_P.py`, about 8 s).
+  - An explicit isomorphism between SnapPy's ⟨a, b | aaabABBAb⟩ and Ballas' ⟨m, n | mnMNmNMnmN⟩, with m = ab and n = aabA, proved
+    by free-group reduction. SnapPy's lift sends the relator to −I and is corrected by a ↦ −a.
+  - B1297's P (a ↦ a⁻¹, b ↦ a³b) is conj(nM) ∘ s, the swap's class.
+  - On Ballas' family ρ_q ∘ P ≅ ρ_q and not ρ_q* (exact at q = 2, 3, 1/5 and 7/3).
+  - Main's B1455 addendum is corrected on that one sentence. Its level-one conclusion stands through the inversion; the levels
+    (main's L242 (b)) stay open.
+  - This seat's B1279 had already named P "the period-2 swap".
+- **C2–C4, the audit lane's AR3–AR6 re-derived** (`audit_corrections.py`).
+  - B37's and B20's never-reads tests fire under a vacuous rewriting on the record graph.
+  - An empty elimination keeps an isolated component, and B130's m = 2 elimination is reproduced. So B130's fork-free reading
+    needs a componentwise proof.
+  - m = 1, 4 and 11 share ℚ(√5).
+  - B723's banner carries the B942 and B957 retractions.
+- **GENESIS v1.3**, by a generator from v1.2, which is kept in the arc's `received/`. Twelve **[v1.3]** marks:
+  - §7: B723 with its retractions.
+  - FK9: the deciding test run on both benches, the lemmas credited to B1297, the inversion and not P, and "choice might be
+    golden" registered.
+  - FK12: AR3 and AR4 scoped; the owner's act-and-register priority with its three questions (B871 at the group layer; the
+    experiential question under Gate 5-Q); the measurer's referent (B1455 §5, L241, B1438).
+  - The frontier list (two items) and §9 (four rows).
+  - No status changes.
+- **Elsewhere.**
+  - B1520 addendum (L1–L3 are B1297's; P is its s).
+  - ERROR_LEDGER E54 instance (B1520's credit).
+  - OPEN_PROBLEMS gate A scope note.
+  - Kill-graph scope notes on B20, B37 and B130, with judgement fields unset.
+  - sL-10: item 4 done, item 2 sharpened to the levels (sm:B1522), item 5 registered (the componentwise fixed loci).
+  - B1519's lock reads v1.2 from the kept copy.
+  - Relays to main and the audit lane.
+- **Lock:** `tests/test_b1521_genesis_v13.py`, 8 fast tests and 1 slow (SnapPy). The B1519 and B1520 locks pass.
+
 ## The seal-gate fix cherry-picked from the seat lane at the owner's choice (`ee2b09c5`); main told of its two regexes
 
 - **What.** The fix this branch's B1506 rule-slip row asked for: both seal gates read a SEAL_LEDGER row's description as `[^|]*`,

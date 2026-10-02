@@ -1,0 +1,114 @@
+{
+ "AR3": {
+  "B37 predicate fires on T": false,
+  "B37 predicate fires on the rewritten T'": true,
+  "T' equals (T, I) on the graph r = I": true,
+  "the graph is T'-invariant (I o T' = I there)": true,
+  "B20 predicate fires on T": false,
+  "B20 predicate fires on T'": true,
+  "vacuous T' agrees with T at a sample point on the graph": true,
+  "opposite control: a genuine read (z' += r) changes the orbit off the graph": true,
+  "kappa - 2 - 4 I (Fricke X = 2x)": "0"
+ },
+ "AR4": {
+  "countermodel elimination ideal in k": [],
+  "Jacobian rank at the isolated point (1, 0)": 2,
+  "point-only control elimination ideal in k": [
+   "k"
+  ],
+  "B130 m = 2 elimination ideal in kappa (reproduced)": [],
+  "note": "phi_2 composed as B130's probe composes it (Tb twice, then Ta twice; B130/probe.py _phi); the elimination ideal is zero: no constraint on kappa from the whole fixed locus"
+ },
+ "AR5": {
+  "rows": [
+   {
+    "m": 1,
+    "m^2+4": 5,
+    "squarefree part": 5,
+    "trace": 1
+   },
+   {
+    "m": 2,
+    "m^2+4": 8,
+    "squarefree part": 2,
+    "trace": 2
+   },
+   {
+    "m": 3,
+    "m^2+4": 13,
+    "squarefree part": 13,
+    "trace": 3
+   },
+   {
+    "m": 4,
+    "m^2+4": 20,
+    "squarefree part": 5,
+    "trace": 4
+   },
+   {
+    "m": 5,
+    "m^2+4": 29,
+    "squarefree part": 29,
+    "trace": 5
+   },
+   {
+    "m": 6,
+    "m^2+4": 40,
+    "squarefree part": 10,
+    "trace": 6
+   },
+   {
+    "m": 7,
+    "m^2+4": 53,
+    "squarefree part": 53,
+    "trace": 7
+   },
+   {
+    "m": 8,
+    "m^2+4": 68,
+    "squarefree part": 17,
+    "trace": 8
+   },
+   {
+    "m": 9,
+    "m^2+4": 85,
+    "squarefree part": 85,
+    "trace": 9
+   },
+   {
+    "m": 10,
+    "m^2+4": 104,
+    "squarefree part": 26,
+    "trace": 10
+   },
+   {
+    "m": 11,
+    "m^2+4": 125,
+    "squarefree part": 5,
+    "trace": 11
+   },
+   {
+    "m": 12,
+    "m^2+4": 148,
+    "squarefree part": 37,
+    "trace": 12
+   }
+  ],
+  "fields shared by several m": {
+   "5": [
+    1,
+    4,
+    11
+   ]
+  },
+  "non-conjugacy": "the traces m are distinct, so [[m,1],[1,0]] are pairwise non-conjugate in GL(2, Z)"
+ },
+ "AR6": {
+  "complex conjugation sends sqrt(-3) to -sqrt(-3)": true,
+  "hence not in Gal(K^ab/K), which fixes K = Q(sqrt(-3)) pointwise": true,
+  "B723 banner carries": {
+   "B942": true,
+   "B957": true
+  }
+ }
+}

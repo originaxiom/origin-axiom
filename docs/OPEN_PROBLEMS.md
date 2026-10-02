@@ -232,6 +232,8 @@ candidate proof strategy is uniform: show each such class is a Galois orbit of t
 one arguably-still-in-sandbox target. If proven ⇒ single-seed member-contingency is **irreducible** (the firewall's
 deepest form); choice enters only via heterogeneity (K014/B131).
 
+
+> **Scope of B130's part (2026-10-02, sm:B1521; the audit lane's ACT_REGISTER AR4 and AR5, re-derived with own code in sm:B1521 C3).** B130's empty elimination ideal (reproduced at m = 2) shows that κ takes a continuum of values on the fixed locus. It cannot exclude isolated components: x(x − 1) = 0, x·k = 0 is a line and an isolated point, and its elimination is also empty. So B130's reading that a unit is internally fork-free needs a componentwise proof, which is open (GENESIS v1.3 §8). B130's "distinct Perron eigenvalue fields ℚ(√(m²+4))" is wrong for m = 1, 4 and 11, which all give ℚ(√5); the seeds stay non-conjugate by their traces. The other classes listed here are not touched by this note.
 *Currency note, Review 47 (2026-08-20): untouched by the B1083–B1101 window. No arc in that window computes an
 invariant class of this gate's shape; the open list above is unchanged, as of B1101.*
 

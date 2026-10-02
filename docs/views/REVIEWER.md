@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1268** |
-| words of findings prose | **1,053,530** |
+| research arcs with findings | **1269** |
+| words of findings prose | **1,055,535** |
 | test lock files referenced | **773** |
-| arcs carrying an authored verdict | **1268** (100.0 %) |
+| arcs carrying an authored verdict | **1269** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 842 |
+| PROVED | 843 |
 | NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1519`** (3760 words, 2 locks)  
-GENESIS v1.2, the first version both seats hold: main's v1.1 (B1454, verified by other routes and adopted the same afternoon) taken as the head as main asked, all 23 of its changes accepted (the quotation of B1434 checked at its source; the 48 surjections onto 2T re-derived), and this seat's own v1.1 (B1517) folded in. Added: the signed powers placed (every hyperbolic monodromy is one triple (u, k, eps); -u^k is a level of a state exactly when k is odd; the seeds are -u^(2^a); the first, m207 = -(LR)^2, was already in B1385 section 2 S4, main's B1418 and B1224, which B1517 missed); GAP4 points to docs/THE_BAR.md; B1234's base rate named (its six are the root and its relatives) and graded; the swap native on the words route; and the observer line carried and FK12 registered: the object supplies the incompletenesses and the observer every closing (B717); C18 prices it as a transparent, self-naming speaker that cannot choose (B759-B762); it names itself and cannot sign itself, the missing sign one Z/2 class (B1183, B1184); main's B1327 re-types the closings as relations, and its mirror = swap x arrow is reproduced (K7). GENESIS had not carried the line; whether the closings belong to the genesis is now an open fork. Own-code checks K1-K7 pass. No status changes. 0 of 19.  
-`B1519_genesis_v12/FINDINGS.md`
+**PROVED — `B1521`** (2005 words, 0 locks)  
+GENESIS v1.3 (not sealed: every item checks a stated claim the record already fixes): the audit lane's corrections carried, each re-derived with own code -- B37's and B20's never-reads tests fire under a vacuous rewriting on the record graph (AR3); an empty elimination keeps an isolated component (AR4), so B130's fork-free reading needs a componentwise proof; m = 1, 4, 11 share Q(sqrt 5) (AR5); B723 carries the B942 and B957 retractions (AR6). And B1297's period-2 symmetry P is the swap's class (P = conj(nM) o s, through an explicit isomorphism between SnapPy's and Ballas' presentations proved by free-group reduction), so rho_q o P = rho_q, not rho_q^* (q = 2, 3, 1/5, 7/3, exact): the family's dualising symmetry is the inversion, main's B1455 addendum is corrected on that line, and the levels (main's L242 (b)) stay open. FK9 carries the deciding test's NEGATIVE at level one, FK12 the owner's act-and-register priority with the experiential question under Gate 5-Q; 'choice might be golden' registered, untested. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.  
+`B1521_genesis_v13/FINDINGS.md`
 
 **NEGATIVE — `B1520`** (2789 words, 1 locks)  
 THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  

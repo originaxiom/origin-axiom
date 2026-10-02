@@ -9463,6 +9463,46 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1521": {
+   "slug": "genesis v13",
+   "motifs": [
+    "measurement",
+    "naming",
+    "choice",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B130",
+    "B20",
+    "B330",
+    "B347",
+    "B353",
+    "B37",
+    "B723",
+    "B786",
+    "B861",
+    "B871",
+    "B942",
+    "B957",
+    "L1",
+    "L241",
+    "L242",
+    "L3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

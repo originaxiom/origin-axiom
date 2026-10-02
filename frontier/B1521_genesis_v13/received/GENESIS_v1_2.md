@@ -1,13 +1,11 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.3 · 2026-10-02 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.2 · 2026-10-02 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
-its own, each marked **[v1.2]**. v1.3 (sm:B1521) carries the audit lane's corrections of three old results, the deciding
-test's outcome on both benches and the owner's priorities of 2026-10-02, each marked **[v1.3]**. The version log (§10)
-lists every change; the v1.0 text as received is kept on main in B1454's arc (`received/GENESIS_v1_0.md`), and v1.2's in
-sm:B1521's (`received/GENESIS_v1_2.md`).
+its own, each marked **[v1.2]**. The version log (§10) lists every change; the v1.0 text as received is kept on main in
+B1454's arc (`received/GENESIS_v1_0.md`).
 
 This file states, in one place and with one numbering, what the programme assumes, what it derives, what it chooses and
 what it leaves open, from its principle down to the objects it computes on. It replaces the scattered statements of these
@@ -317,12 +315,7 @@ physics; any Standard-Model parameter (**0 of 19**).
 **[v1.2]** **The gaps and the observer.** Several open items of this page are, under other names, closings in the record's
 observer line. The object supplies four incompletenesses (space, time, charge, value) and the observer supplies every
 closing — a filling slope, an arrow, a chirality (a Galois sheet), a basepoint; "measurement is the symmetry-breaking
-choice" (B717, with B716 and B723). **[v1.3]** B723 is cited with the two retractions on its own banner. B942: complex
-conjugation is not in Gal(K^ab/K), so the sheet's ℤ/2 is the quotient Gal(K/ℚ), arithmetic and present at every
-temperature, not produced by a cooling. B957: the values clause too, since B700's torsor has group ℤ/2 over a quadratic
-field and CMR's is the infinite idèle class group of ℚ(√−3). What survives is the structure, a measurement as a choice of
-fibre functor with a Galois ambiguity, not either group assignment (the audit lane's AR6; sm:B1521 C4). The end
-condition chosen rather than derived (GAP2, FK10) is the space closing.
+choice" (B717, with B716 and B723). The end condition chosen rather than derived (GAP2, FK10) is the space closing.
 SE2's orientable root is amphichiral by construction, and eight of the record's walls pass through that amphichirality
 (§4, B1234), among them no dimensionful quantity, CS = 0 and chirality not self-supplied: at the archimedean place the
 object fixes only what is mirror-even and dimensionless, and the mirror-odd orientation and the scale are the
@@ -347,10 +340,10 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
 | FK6 | Positivity (GM5d) | CHOSEN | a reason the physical states are the non-negative cone. **[v1.2]** One candidate is on record and not adopted: B1083 reads positivity as the arrow's home, "never a choice" |
 | FK7 | The deck: gauged or kept | OPEN | an action in which the deck acts (sm:B1506) |
 | FK8 | The join: which maps carry physical data between states | OPEN | a demonstrated physical map (action, domains, anomaly account) beyond covers; filling descent is one candidate (sm:B1508, R57) |
-| FK9 | Selection: what makes a state physical | OPEN | a rule fixed before computing, graded by `docs/THE_BAR.md` (**[v1.2]** sm:B1518; GAP4). **[v1.2]** A symmetric law can have states its symmetry does not fix: main's B1455 (sealed 2026-10-02) tests whether each vacuum of the bridge's harmonic family on m004 is fixed by a symmetry under which the count is odd; a vacuum fixed by none comes with a mirror partner of equal action. **[v1.3]** Run on both benches the same day by routes that share no code (main's B1455; sm:B1520): every vacuum μ ⊗ ρ_q at level one is fixed by the inversion followed by dualising, so the count is zero on the whole family and the vacuum does not select there (NEGATIVE; frame F-HE, reach single). The three lemmas are B1297's (main's B1455 addendum). The dualising symmetry is the inversion, not B1297's period-2 symmetry P: P is the swap's class and fixes ρ_q (sm:B1521 C1). B1297's tower theorem (P inverts every twist) and the family's (the inversion dualises ρ_q) therefore rest on different symmetries, and the levels stay open (main's L242 (b)). The owner's hypothesis of the same day, "choice might be golden", is registered here and tested only in forms sealed before computing |
+| FK9 | Selection: what makes a state physical | OPEN | a rule fixed before computing, graded by `docs/THE_BAR.md` (**[v1.2]** sm:B1518; GAP4). **[v1.2]** A symmetric law can have states its symmetry does not fix: main's B1455 (sealed 2026-10-02, not yet run) tests whether each vacuum of the bridge's harmonic family on m004 is fixed by a symmetry under which the count is odd; a vacuum fixed by none comes with a mirror partner of equal action |
 | FK10 | The end law | OPEN | an end condition derived from physics (sL-8) |
 | FK11 | The dictionary (I-26) | UNEARNED | a frame derived from M-theory or from the principle, with its scope proved |
-| FK12 **[v1.2]** | The observer: are its closings part of the genesis, or inputs beyond it? (THEOREM_LEDGER C18 makes them inputs; the owner's question of 2026-10-02: does the act emerge with its observer, the tracker of ab against ba?) | OPEN | for each closing, a partner that supplies it as a relation (main B1327, OPEN) or a proof that none can. Within the object the sign is settled: the object cannot sign itself (B760, NEGATIVE; B1183, B1184, PROVED), and no rule built only from its own invariants selects it canonically (B1225; its self-name is mirror-even, B1184); the trace map conserves κ = tr[a, b] and never reads it (B20, B37). **[v1.3]** That holds in B37's literal sense only: its test is for the presence of a symbol, which a vacuous rewriting on the record graph r = κ turns on without changing the dynamics, so it neither shows nor excludes a self-model (the audit lane's AR3; sm:B1521 C2). B130 shows that κ takes a continuum of values on the fixed locus, but its reading that a unit is internally fork-free rests on an elimination that cannot exclude isolated components (AR4; sm:B1521 C3); the componentwise question is open. A symmetric law can still land in a state it does not fix (FK9, main's B1455). **[v1.3]** On m004's family it does for half of the symmetries, one kind of mirror among them, and never for a count-odd one (main's B1455 §3; sm:B1520). The owner's framing decides whether the genesis generates the partner with the act. **[v1.3]** The owner's priority of 2026-10-02 (the audit lane's `philosophy/P_ACT_AND_REGISTER_2026_10_02.md`): the primitive may be an act of distinction together with the relation that registers it. Three questions stay apart: whether a reduction loses data a declared later operation needs (exactly when that operation fails to descend, the audit lane's AR1 and AR2); whether the architecture derives a registering mechanism (an action, a state and an interaction, in one theory; at the group layer the record has one, a chirality-registering measurement as B599's pairing datum, whose evaluation A = mult_ρ − mult_ρ̄ is odd under the θ swap, B871); and the experiential question, an explicit hypothesis held under Gate 5-Q (`philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md`), never a consequence of the other two and never a claim. The measurer has one exact referent on the record: the count "is blind to every symmetry of the space, mirrors included, and sees only which of a module and its dual is read as the particle" (main's B1455 §5), and the same two pieces stacked in the two orders count −1 and +1 and side by side 0 (main's L241, exploratory; in the class-index frame B1438's slope law, main's B1455 addendum). A vacuum, being a direct sum, forgets the order |
+| FK12 **[v1.2]** | The observer: are its closings part of the genesis, or inputs beyond it? (THEOREM_LEDGER C18 makes them inputs; the owner's question of 2026-10-02: does the act emerge with its observer, the tracker of ab against ba?) | OPEN | for each closing, a partner that supplies it as a relation (main B1327, OPEN) or a proof that none can. Within the object the sign is settled: the object cannot sign itself (B760, NEGATIVE; B1183, B1184, PROVED), and no rule built only from its own invariants selects it canonically (B1225; its self-name is mirror-even, B1184); the trace map conserves κ = tr[a, b] and never reads it (B20, B37). A symmetric law can still land in a state it does not fix (FK9, main's B1455). The owner's framing decides whether the genesis generates the partner with the act |
 
 **Computed nowhere yet** (the frontier, not a list of failures):
 - the harmonic frame on any state outside m004's levels;
@@ -360,10 +353,7 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
 - the genesis paths of `paths/PATHS.md` never touched: 18 of 25 at main's B1422 (**[v1.1]** counted again at B1454:
   of the 25 enumerated paths 1 is dead, 3 are stalled, 3 are in progress and 18 are untouched; E21, a stalled
   instantiation of a listed mechanism, is the registry's 26th row);
-- **[v1.1]** F-MC on any state other than the root;
-- **[v1.3]** the deciding test (FK9) on any level of m004 or on any other state (main's L242 (b));
-- **[v1.3]** the fixed loci of the metallic trace maps component by component (B130's question with isolated components
-  allowed; the audit lane's AR4).
+- **[v1.1]** F-MC on any state other than the root.
 
 ---
 
@@ -402,10 +392,6 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
 | **[v1.1]** "the six axioms A1–A6 and one bit A7" plus five typed external data | `docs/THE_CLAIM.md` §1 | the records route (§4) and F-MC's hypotheses (§5) |
 | **[v1.1]** C18, the observer's closings | THEOREM_LEDGER | not part of the genesis: an input of F-MC (§5). **[v1.2]** The record's observer line runs from B716–B723 through B759–B762, B1168, B1169, B1183 and B1184 to main's B1327; whether the closings belong to the genesis is FK12 |
 | **[v1.2]** signed powers −uᵏ, k even; the triple (u, k, ε) | R78; sm:B1385 §2 S4 | §3 |
-| **[v1.3]** "the trace map never reads κ" | B20, B37 | FK12, in B37's literal sense only (AR3) |
-| **[v1.3]** "no forced choice in the trace ring": a unit internally fork-free; the seeds' fields ℚ(√(m²+4)) called distinct | B130; `docs/OPEN_PROBLEMS.md` gate A | FK12: κ takes a continuum on the fixed locus, but the fork-free reading rests on an elimination that cannot exclude isolated components (AR4). m = 1, 4 and 11 share ℚ(√5); the seeds stay non-conjugate by their traces (AR5) |
-| **[v1.3]** "the observer is built" at the β = 1 transition | B723 | §7, with the B942 and B957 retractions: the structure kept, both group assignments retracted |
-| **[v1.3]** the three lines L1–L3 of the selection rule | main's B1455 §1 | B1297's properties of the class index (main's B1455 addendum); FK9 |
 
 ---
 
@@ -457,14 +443,3 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
     B1183, B1184) and main's B1327. §8: FK3 (B1327's relation, sm:B1519 K7), FK6 and FK9 (main's B1455) carry their
     records, and FK12, the observer, is registered. §9: two rows.
   - No status changes. FK1 and FK12 are the owner's to frame.
-- **v1.3 · 2026-10-02 · sm:B1521.** The audit lane's relay of `1e3d17b9` answered, and the deciding test's outcome carried;
-  each item checked with the SM seat's own code first (sm:B1521 C1–C4).
-  - §7: B723 cited with the B942 and B957 retractions on its banner (AR6).
-  - §8: FK9 carries the run of main's B1455 and sm:B1520 (NEGATIVE at level one, reach single), the lemmas credited to
-    B1297, and the correction that the dualising symmetry is the inversion, not B1297's P, which is the swap's class and
-    fixes ρ_q; the levels stay open (main's L242 (b)). The owner's hypothesis "choice might be golden" is registered at
-    FK9, untested. FK12: the never-reads sentence scoped to B37's literal test (AR3); B130's fork-free reading scoped (AR4); the
-    owner's act-and-register priority with its three questions kept apart, the experiential one under Gate 5-Q; the
-    measurer's exact referent (main's B1455 §5 and L241, with B1438).
-  - §8's frontier list: two items. §9: four rows (AR5's field label among them).
-  - No status changes. FK1 and FK12 stay the owner's to frame.

@@ -16978,3 +16978,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   other seats by citation. It is the fix this branch's own B1506 rule-slip row asked for.
 - Checked here first: on this branch only B1506 is newly flagged, and its historical entry covers it. On main the fix newly reads
   B897 only and flags nothing. Main is told in §5 of the B1520 relay.
+
+## 2026-10-02 — B1521: GENESIS v1.3, and B1297's P is the swap
+
+- **Source.** The owner, verbatim: *"do as u recomend with all independently, goal remains / dont ignore anything loadbearing
+  including qualia, all oallowed not just m004, choice might be golden"*. Also the audit lane's ACT_REGISTER relay
+  (`1e3d17b9`). Swept first: main moved to `8d1c1329`, B1455's addendum (the lemmas are B1297's; "the count is the order" is
+  B1438). Main's topic sweep, in the record's own vocabulary: 58 of 1327 arcs.
+- **C1.** Main's addendum says ρ₁ ∘ P is dual to ρ₁ on Ballas' family. Through an explicit isomorphism of presentations (proved
+  by free-group reduction), P = conj(nM) ∘ s, and ρ_q ∘ P ≅ ρ_q, not ρ_q* (exact, four q). The dualising symmetry is the
+  inversion. Main's L242 (b), the levels, stays open; this seat takes it next (sm:B1522).
+- **C2–C4.** AR3 (B37's and B20's literal tests fire under a vacuous rewriting), AR4 (an isolated component survives an empty
+  elimination; B130 m = 2 reproduced), AR5 (m = 1, 4, 11 share ℚ(√5)) and AR6 (B723's two retractions), each with an opposite
+  control.
+- **GENESIS v1.3** with twelve [v1.3] marks and no status change. B871's group-layer registering datum is cited at FK12, and the
+  experiential question is held under Gate 5-Q.
+- **Lock** `tests/test_b1521_genesis_v13.py` (8 fast, 1 slow). B1519's lock now checks the kept v1.2. 0 of 19; I-26 stays
+  UNEARNED.

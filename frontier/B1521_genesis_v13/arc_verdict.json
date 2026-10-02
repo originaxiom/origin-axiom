@@ -1,0 +1,117 @@
+{
+ "id": "B1521",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1519",
+  "B1520",
+  "B1279",
+  "B20",
+  "B37",
+  "B130",
+  "B723",
+  "B942",
+  "B957",
+  "B871"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none",
+  "object": "GENESIS v1.2 -> v1.3; the class of B1297's period-2 symmetry P in Out(pi_1 m004) and its action on Ballas' family rho_q; the detectors of B20 and B37, the elimination of B130 (m = 2), the field label of B130, and B723's banner",
+  "reach": "general",
+  "hypotheses": [
+   "SnapPy's holonomy of m004, sign-corrected (a -> -a), is a faithful SL(2, C) representation (a lift of the faithful holonomy)",
+   "Ballas' presentation <m, n | mnMNmNMnmN> and the family rho_q as typed in B1520 (Ballas, arXiv:1403.3314v3, p. 17)",
+   "GENESIS records questions and the owner's priorities; nothing about experience is claimed (Gate 5-Q)"
+  ]
+ },
+ "claim_one_line": "GENESIS v1.3 (not sealed: every item checks a stated claim the record already fixes): the audit lane's corrections carried, each re-derived with own code -- B37's and B20's never-reads tests fire under a vacuous rewriting on the record graph (AR3); an empty elimination keeps an isolated component (AR4), so B130's fork-free reading needs a componentwise proof; m = 1, 4, 11 share Q(sqrt 5) (AR5); B723 carries the B942 and B957 retractions (AR6). And B1297's period-2 symmetry P is the swap's class (P = conj(nM) o s, through an explicit isomorphism between SnapPy's and Ballas' presentations proved by free-group reduction), so rho_q o P = rho_q, not rho_q^* (q = 2, 3, 1/5, 7/3, exact): the family's dualising symmetry is the inversion, main's B1455 addendum is corrected on that line, and the levels (main's L242 (b)) stay open. FK9 carries the deciding test's NEGATIVE at level one, FK12 the owner's act-and-register priority with the experiential question under Gate 5-Q; 'choice might be golden' registered, untested. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "43543f4b",
+    "main": "f06d3405",
+    "origin/audit/physical-bridge-2026-09-05": "7b088f50",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "5bf3d86f",
+    "origin/main": "8d1c1329",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "period-2",
+    "a³b",
+    "never reads",
+    "self-model",
+    "forced choice",
+    "isolated component",
+    "elimination ideal",
+    "act of distinction",
+    "registering",
+    "homeomorphism-invariant"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@8d1c1329:frontier/B1455_the_selection_rule_and_the_deciding_test/ADDENDUM_2026-10-02_the_three_lines_are_B1297s.md",
+     "bearing": "credits L1-L3 to B1297 and 'the count is the order' to B1438 (accepted, with B1520's credit corrected); states that rho_1 o P is dual to rho_1 on Ballas' family (corrected by C1: P is the swap's class and fixes rho_q)"
+    },
+    {
+     "where": "origin/main@8d1c1329:frontier/B1297_the_spectral_cover_index/FINDINGS.md sections 4.2, 5.2, 6",
+     "bearing": "P: a -> a^-1, b -> a^3 b in SnapPy's presentation, orientation-preserving, +1 on the free part, -1 on the Alexander module; section 6(a) leaves open the modules with rho o P not dual to rho -- Ballas' family is such a case for every q != 1"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao:frontier/B1279_the_symmetries_of_the_closing (PROGRESS_LOG 2026-09-06)",
+     "bearing": "the period-2 symmetry already named 'the period-2 swap a <-> b' in Riley's presentation, inverting every torsion character: C1 is a check across presentations, not a discovery"
+    },
+    {
+     "where": "origin/main@8d1c1329:frontier/B1455_the_selection_rule_and_the_deciding_test/FINDINGS.md section 2 table",
+     "bearing": "identity, swap: rho_q o sigma = rho_q; iota, swap o iota: rho_q o sigma = rho_q^* -- the rows C1 puts on one presentation with B1297's P"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@7b088f50:reports/physical_bridge_2026_09_05/ACT_REGISTER.md (AR1-AR6) and philosophy/P_ACT_AND_REGISTER_2026_10_02.md",
+     "bearing": "the three requested corrections and the owner's act-and-register priority; AR3-AR6 re-derived by C2-C4"
+    },
+    {
+     "where": "frontier/B20_operational_awareness_test/probe.py, frontier/B37_operational_feedback_quarantine/probe.py, frontier/B130_no_forced_choice/probe.py and FINDINGS.md, frontier/B723_build_the_observer/FINDINGS.md banner",
+     "bearing": "the detectors (literal symbol tests), the elimination (m = 2 reproduced), the field label, and the two retractions -- the objects of C2-C4"
+    },
+    {
+     "where": "origin/main@8d1c1329:frontier/B871_registering_datum, frontier/B861_fused_cascade (verdicts)",
+     "bearing": "a chirality-registering measurement already defined at the group layer (B599's pairing datum, A = mult_rho - mult_rhobar, odd under the theta swap): cited in GENESIS FK12"
+    },
+    {
+     "where": "main topic_sweep.py at 8d1c1329, terms period-2|hyperelliptic|strong inversion|never reads|self-model|reads and branches|no forced choice|forced choice|elimination ideal|isolated component|fork-free|B942|B957|act of distinction|registering|observer is built|homeomorphism-invariant|self-dual",
+     "bearing": "58 of 1327 arcs on main match (NEGATIVE 17, OPEN 2, PROVED 39); 8 other lanes match; B330, B347, B353 and B786 read for their bearing on the corrections (none changes them)"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Ballas figure-eight properly convex deformations presentation",
+    "SnapPy m004 fundamental group presentation and symmetry group"
+   ],
+   "sources": [
+    {
+     "cite": "S. A. Ballas, Finite volume properly convex deformations of the figure-eight knot, arXiv:1403.3314v3",
+     "where": "p. 17 (the generators and the presentation)",
+     "read": "2026-10-02",
+     "says": "the family rho_s on the figure-eight knot group with the presentation used by B1520 and here"
+    },
+    {
+     "cite": "SnapPy (M. Culler, N. Dunfield, M. Goerner, J. Weeks), Manifold('m004').fundamental_group() and symmetry_group(), run 2026-10-02",
+     "where": "the presentation <a, b | aaabABBAb>, peripheral curves ('ab', 'aBAbABab'), symmetry group D4",
+     "read": "2026-10-02",
+     "says": "the presentation in which main's B1297 writes P; its SL2C lift sends the relator to -I (corrected by a -> -a)"
+    }
+   ]
+  },
+  "standing": "RE-DERIVED"
+ }
+}

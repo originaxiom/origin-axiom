@@ -64,8 +64,10 @@ def test_k3_the_swap_is_not_reversal_live():
 
 # ------------------------------------------------------------------------------------------------- GENESIS v1.2
 def test_genesis_v12():
-    """main's v1.1 is the head (its [v1.1] marks and its lines kept); this seat's v1.1 and B1519's additions are marked [v1.2]"""
-    raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    """main's v1.1 is the head (its [v1.1] marks and its lines kept); this seat's v1.1 and B1519's additions are marked [v1.2].
+    Since v1.3 (sm:B1521) GENESIS.md moved on; v1.2's text is kept byte-identical in B1521's arc as received, and it is checked
+    there (B1521's lock checks that GENESIS.md is v1.2 plus marked [v1.3] changes)."""
+    raw = (ROOT / "frontier" / "B1521_genesis_v13" / "received" / "GENESIS_v1_2.md").read_text(encoding="utf-8")
     g = " ".join(raw.split())
     assert raw.startswith("# GENESIS — the foundations of origin-axiom")
     assert "**Version 1.2 · 2026-10-02 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification" in g
