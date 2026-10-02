@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "audit": "R79",
+  "state": "sealed before first import or execution",
+  "scientific_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_DESIGN.md",
+      "sha256": "8c5c642fbc27a377a52bae1848947330f6cfe2b15c502d81e0670e8f26ed7d15",
+      "bytes": 6814
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md",
+      "sha256": "9cc1c8b9f2f05e6521880d3986c1e2138468e8ed09419bdab6d34bc7be280447",
+      "bytes": 8302
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_INPUTS.json",
+      "sha256": "87462e7429ba42a925e7e638e8a27b4621b6f2802d65fb797095200c9b1b16dd",
+      "bytes": 5245
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/carrier_periphery.py",
+      "sha256": "0334be8ef4e878a27ce8ffe87efa91dd82a018d921d1575589f86fae86df0a41",
+      "bytes": 7334
+    },
+    {
+      "path": "tests/test_physical_bridge_carrier_periphery.py",
+      "sha256": "ab16762d97ec256df16222683e4fb5c2000a156a617451362feb71fa1a7a8ffe",
+      "bytes": 3672
+    }
+  ]
+}

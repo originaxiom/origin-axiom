@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "audit": "R79",
+  "sources": [
+    {
+      "commit": "6ecfccc93000a930809b6d450baf421532e3c6c3",
+      "path": "reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md",
+      "sha256": "acca31056668ee421f9f2ded356c3d0c2b862069e5f8fd733d5c0c7c473fb193",
+      "bytes": 12670,
+      "grade": "read, executed R57 scope only"
+    },
+    {
+      "commit": "6ecfccc93000a930809b6d450baf421532e3c6c3",
+      "path": "reports/physical_bridge_2026_09_05/OPERATIONAL_CONTRACT.md",
+      "sha256": "434e99f05f86efaafa57b2847dcc43963c0bf09771d9e6491e984e2cc303bd50",
+      "bytes": 6776,
+      "grade": "read; immutable R58 input"
+    },
+    {
+      "commit": "6ecfccc93000a930809b6d450baf421532e3c6c3",
+      "path": "papers/P5_monoid/PHASE3_VERDICT.md",
+      "sha256": "c25ee221167e7ca5e2d141265a311615cceecbe547a01280492df3979e7dc3f0",
+      "bytes": 9205,
+      "grade": "full body read; earlier counterexample reused"
+    },
+    {
+      "commit": "6ecfccc93000a930809b6d450baf421532e3c6c3",
+      "path": "papers/P5_monoid/hopf_separation.py",
+      "sha256": "54ce11c403c5a9127fa568170da5f0d2268b79fb4c336668572e39dd7ca10d12",
+      "bytes": 5691,
+      "grade": "full producer read; not executed this turn"
+    },
+    {
+      "commit": "cf8506c2e0922bc969a64937c56c4ababce33d1b",
+      "path": "frontier/B1380_the_puncture_is_the_words/FINDINGS.md",
+      "sha256": "7bbd9d22721d90e2eed7f2130b9605e21347366fed8ec34bed55688ca51ed3cc",
+      "bytes": 14390,
+      "grade": "full body read; conditional theorem reused"
+    },
+    {
+      "commit": "cf8506c2e0922bc969a64937c56c4ababce33d1b",
+      "path": "frontier/B1380_the_puncture_is_the_words/verification/puncture.py",
+      "sha256": "3b3573c3c13ac214425b3b0d1a9001813e47f95c3af9fe28daa47437a9d75db4",
+      "bytes": 13258,
+      "grade": "full producer read; not executed here"
+    },
+    {
+      "commit": "cf8506c2e0922bc969a64937c56c4ababce33d1b",
+      "path": "frontier/B1303_the_two_by_two_criterion/FINDINGS.md",
+      "sha256": "8f488cc611e9d35ecfaa5410d48372163d98ad5591233548beb4ed1fc64d6a95",
+      "bytes": 14805,
+      "grade": "full body read; no closing counts certified"
+    },
+    {
+      "commit": "cf8506c2e0922bc969a64937c56c4ababce33d1b",
+      "path": "frontier/B1303_the_two_by_two_criterion/verification/presentations_hom_counts.py",
+      "sha256": "69d82a868b70fdc8f930ef0d9fd4077b2dadb78d94a67d54d9752452b8afa13f",
+      "bytes": 2820,
+      "grade": "full producer read; not executed"
+    },
+    {
+      "commit": "cf8506c2e0922bc969a64937c56c4ababce33d1b",
+      "path": "frontier/B1517_repo_first_then_literature/FINDINGS.md",
+      "sha256": "3fe10a1d845619f8f10bb4238a3715ddaae6d9576b4c56210fbc31d3a99224fe",
+      "bytes": 15689,
+      "grade": "full body read; not reproduced"
+    },
+    {
+      "commit": "cf8506c2e0922bc969a64937c56c4ababce33d1b",
+      "path": "frontier/B1517_repo_first_then_literature/verification/census_by_manifold.py",
+      "sha256": "9bc3025c0de93b583191b34a85b212e40efb3b82400241ca70de68b6cfc4aa18",
+      "bytes": 11405,
+      "grade": "full producer read; not executed"
+    },
+    {
+      "commit": "cf8506c2e0922bc969a64937c56c4ababce33d1b",
+      "path": "SM_TO_CC_AND_CODEX_2026-10-02_THE_STATES_AND_THE_MANIFOLDS.md",
+      "sha256": "44e746e8533175040cf8c4e038042f443471b8540d55894ab63bfbb8bd55a850",
+      "bytes": 3466,
+      "grade": "full relay read; receipt not independent verification"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://shpilrain.ccny.cuny.edu/freesolv.pdf",
+      "sha256": "2b1b5089d72edd6888e82876c7df6b333f5e4bfd752b85945e1a731f7ab2d7b4",
+      "bytes": 228619,
+      "grade": "all nine pages read; pages 1-2 visually inspected",
+      "access_date": "2026-10-02"
+    },
+    {
+      "url": "https://msp.org/gt/2003/7-1/gt-v7-n1-p13-p.pdf",
+      "sha256": "ab5907c9dcee0c61bf8f88ed63e54e35eea7a4571197086477d9709b8049b7ef",
+      "bytes": 932586,
+      "grade": "sections 1.1-1.2 personally read; printed page 449 visually inspected",
+      "access_date": "2026-10-02"
+    },
+    {
+      "url": "https://intlpress.com/site/pub/files/_fulltext/journals/jsg/2015/0013/0002/JSG-2015-0013-0002-a001.pdf",
+      "sha256": "fdccf4641f9d6238e144d038f4cd46ec4657285e771cc2f7bcdd0c34ce5fc0b1",
+      "bytes": 277847,
+      "grade": "sections 1-2.2 personally read; printed page 264 visually inspected",
+      "access_date": "2026-10-02"
+    },
+    {
+      "url": "https://people.maths.ox.ac.uk/~bridson/papers/karen05/karen06.pdf",
+      "sha256": "0f52b65c52170ebdea801397dce72a1d30131a2fcfac0b2d9bc3043e186c46a6",
+      "bytes": 203701,
+      "grade": "pages 1-2 and start of page 3 read; not all 25 pages",
+      "access_date": "2026-10-02"
+    },
+    {
+      "url": "https://msp.org/gt/2003/7-1/gt-v7-n1-p15-p.pdf",
+      "sha256": "4e98a50ea9f5644f1a336aeba2d663fa271b9c03c6fe3e8ce7f3b30f1ee84178",
+      "bytes": 474575,
+      "grade": "wrong guessed paper: Arc Operads and Arc Algebras; excluded",
+      "access_date": "2026-10-02"
+    }
+  ],
+  "research_access_dispositions": [
+    "Author Primer draft download returned HTTP403; no book text used.",
+    "Publisher PDF p15 was wrong paper; retained and excluded, corrected publisher p13 downloaded separately."
+  ]
+}

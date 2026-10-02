@@ -1582,3 +1582,20 @@ generation claim. Independent analytic review remains pending.
 | `reports/physical_bridge_2026_09_05/signed_level_geometry.py` | `b016b30a65cebe89b599524181aecfdd3d3e4548a4badfdbdd06eaa2732fc341` |
 | `reports/physical_bridge_2026_09_05/received_r78/foundations_checks.py.txt` | `fb080742edae46b0ddd92b9fa97597b39698a9de3d54f0e210eaee3a243dcadc` |
 | `tests/test_physical_bridge_signed_level.py` | `304ee6be259ecfb47a0d8c67dd31f0a1cad8fca38e8162cfee257ec7cc8a438a` |
+
+## October 2 2026 R79 carrier/periphery pre-execution seal
+
+Path-local audit, not a new B arc or completed banking. Known Nielsen
+peripheral recovery, normalized-lift ambiguity and actual marked flat-data
+transport; no physical carrier or TOE claim. Five scientific paths are
+sealed before import/execution. Authored analytic scope is not independent
+review. Existing R77 drafts remain unrun. Commit/push/server-confirm this
+design before the first exact finite producer/test run.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_DESIGN.md` | `8c5c642fbc27a377a52bae1848947330f6cfe2b15c502d81e0670e8f26ed7d15` |
+| `reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md` | `9cc1c8b9f2f05e6521880d3986c1e2138468e8ed09419bdab6d34bc7be280447` |
+| `reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_INPUTS.json` | `87462e7429ba42a925e7e638e8a27b4621b6f2802d65fb797095200c9b1b16dd` |
+| `reports/physical_bridge_2026_09_05/carrier_periphery.py` | `0334be8ef4e878a27ce8ffe87efa91dd82a018d921d1575589f86fae86df0a41` |
+| `tests/test_physical_bridge_carrier_periphery.py` | `ab16762d97ec256df16222683e4fb5c2000a156a617451362feb71fa1a7a8ffe` |
