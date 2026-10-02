@@ -1223,3 +1223,18 @@ Full details: reports/physical_bridge_2026_09_05/SOURCE_CORE.md.
 | Zero full residual gives bulk and source-own stationarity | Added adjoint sources, positive four-dimensional kinetic term, no internal source derivatives/superpotential; flat C and actual D sign. Not derived source physics. | B1511/R75/R76 background context; SOURCE_CORE_PROOF.md; tests/test_physical_bridge_source_core.py |
 | Free profiles admit infinitely many classical positive-norm flat directions on a zero-source/current open set | Compact-current noncompact-base construction; not quantum no-lifting or every compact base. Adding gradients is a changed model. | R76/B1500 physical-admission context; SOURCE_CORE_PROOF.md; tests/test_physical_bridge_source_core.py and separate quartic/quadratic controls |
 | Structure duality must transport the complete current | tau=-transpose is not the physical base/spinor/domain mirror; partial source transform gives I+I-transpose,2I only for real symmetric I. Frozen proof prose qualified in report. | B1297/B1500 duality context; SOURCE_CORE.md correction and both original source producers; tests/test_physical_bridge_source_core.py |
+
+## October 2 path-local act/register criteria and detector scopes
+
+Classical/generic conditional mathematics, not object-specific physical
+self-modeling or nonauthor review. No original theorem claimed.
+Report: reports/physical_bridge_2026_09_05/ACT_REGISTER.md.
+
+| law | hypotheses, scope and boundary | source / lock |
+|---|---|---|
+| AR1: updates and outputs have separate descent conditions | Surjective q and supplied total deterministic T/O; constant successor/output on fibres. Physical operations and observables not derived. | B37/R79 context; ACT_REGISTER_PROOF.md AR1; tests/test_physical_bridge_act_register.py::test_all_declared_finite_quotients_match_independent_existence |
+| AR2: all future outputs define the coarsest sufficient record | Supplied labelled total updates/outputs; finite controls to three states. Not a clock, norm, quantum instrument or awareness theorem. | B37/R79 context; ACT_REGISTER_PROOF.md AR2; tests/test_physical_bridge_act_register.py::test_coarsest_future_records_against_pair_reachability |
+| AR3: symbol insertion is not a semantic mechanism detector | B37 literal-symbol result retained; rewriting by r-I on r=I gives identical dynamics and opposite syntactic output. No positive self-model asserted. | B37 body/probe; ACT_REGISTER_PROOF.md AR3; tests/test_physical_bridge_act_register.py::test_symbol_insertion_is_identical_not_new_mechanism |
+| AR4: empty global elimination does not exclude isolated components | Exact line-plus-point countermodel, not B130 actual component classification; actual m=2 elimination retained. Full symmetry and dynamical selection not established. | B130 body/probe; ACT_REGISTER_PROOF.md AR4; tests/test_physical_bridge_act_register.py::test_empty_elimination_does_not_exclude_isolated_component |
+| AR5: distinct metallic matrices need not have distinct Perron fields | m=1/m=4 share Q(sqrt5); different traces still prove nonconjugacy. No uniform field/seed classification. | B130 L2 context; ACT_REGISTER_PROOF.md AR5; tests/test_physical_bridge_act_register.py::test_field_label_correction_retains_nonconjugacy |
+| AR6: conjugation does not fix Q(sqrt(-3)) pointwise | Reuse of B942 through B723 correction, not new CMR thermal-state computation or physical observer identification; B957 second retraction also retained. | B723 top banner; ACT_REGISTER_PROOF.md AR6; tests/test_physical_bridge_act_register.py::test_galois_membership_control_and_separate_integer_controls |

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "audit": "act-and-register",
+  "science_seal": "69d6d0b9e944bc86c9cb298d5d97024427f50055",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_DESIGN.md",
+      "sha256": "9e1e5ce8550051a7913d55a8dc5a0a223b038ff15d92f621aa13e6676e39b902",
+      "bytes": 5153
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md",
+      "sha256": "8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b",
+      "bytes": 4253
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_INPUTS.json",
+      "sha256": "a0c7d69cbd9bfe76f8a95bb72dc87bc94ee10abd7a9fd21b025d0af1504828a4",
+      "bytes": 8340
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/act_register_control.py",
+      "sha256": "4fb7037d852d81df37b1fd83492fe157f301109c33a373a18ab585f0ddd296b2",
+      "bytes": 6184
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/act_register_exhaustive.py",
+      "sha256": "edafdb1b05ea4b5b5d196b4f0a949e3188057c230ad6eb1f85eb4a296a837cf3",
+      "bytes": 3986
+    },
+    {
+      "path": "tests/test_physical_bridge_act_register.py",
+      "sha256": "7a6dd32e4c242eb2a94c3a2947f2e139371f85809dc3db9cd5f17ef9d9aa0782",
+      "bytes": 3013
+    }
+  ],
+  "source_pin_count": 21,
+  "scope": "byte/source custody; not analytic independence or physical admission"
+}

@@ -1,6 +1,6 @@
 # Genesis checkpoint: reconcile the foundations, then return to physics
 
-October 2, 2026. Owner-requested implementation plan, version 0.4.
+October 2, 2026. Owner-requested implementation plan, version 0.5.
 This is design and source reconciliation, not a new scientific arc or a
 certificate of minimal axioms. It continues the [approved mission](PHYSICS_MISSION.md):
 derive a parameter-free Standard Model and complete unified physical
@@ -16,8 +16,9 @@ and its registering relation are central questions for genesis and every
 downstream reduction, not an automatically derived new axiom. Qualia is
 an explicit philosophical hypothesis, not identified with a record or
 an invariant. See ACT_REGISTER_DESIGN.md and the owner-intent record
-philosophy/P_ACT_AND_REGISTER_2026_10_02.md. The interface currently says
-usageLimited and rejects a second goal; this plan does not repair that.
+philosophy/P_ACT_AND_REGISTER_2026_10_02.md. The earlier usageLimited
+reading/refused second goal remains historical; the tracker now reports
+ACTIVE for the original full objective. No replacement goal was created.
 
 **New source currency:** main 12ed66bd adopts GENESIS v1.1 and answers
 the four interface questions in its direct relay. The full page, B1454
@@ -25,6 +26,11 @@ body and relay are personally read, not independently reproduced here.
 Its root input witness checks and scoped frames are received evidence,
 not a principle-to-grammar implication. Main B1455 is only a sealed
 mirror/selection design. No duplicate physical mirror census is started.
+After the act/register science, SM27220af6's full GENESIS v1.2, B1519
+body and direct R78 relay are read. Recipient-reported R78 adoption is
+acknowledged; its seven checks are not newly rerun or main-bank accepted.
+FK12 is now registered, with B37 detector/B723 retraction scope corrections
+requested. ACT_REGISTER_INTAKE.json pins this later reading separately.
 
 Lock a versioned specification, its proof dependencies and its current
 evidence. Do not lock an unproved universal claim or forbid later
@@ -88,9 +94,11 @@ not agreement on all philosophical interpretations.
   native49, independent29 and20 focused tests pass; original collector
   failure retained. Coupled stationarity is conditional; free profiles
   cost infinitely many classical flat directions on the stated open set.
-- [ ] Finish the bounded act-and-register audit, including question and
-  detector controls, source reuse and a scope-qualified verdict. Neither
-  completion of it nor a mathematical record derives a physical observer.
+- [x] Finish the bounded act-and-register audit: unchanged science at
+  seal69d6d0b9,23 native/11 reference/65 focused tests pass first.
+  ACT_REGISTER.md preserves safe compression and scopes old B37/B130
+  inference edges. Neither completion nor a record derives an observer;
+  actual components, physical register and independent review remain open.
 - [ ] Complete producer/history reconciliation for each proposed premise
   removal; seal any new significant proof/countermodel probe before execution.
 - [ ] Independently verify the load-bearing carrier/class identifications

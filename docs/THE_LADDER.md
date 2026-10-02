@@ -1,6 +1,6 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
-**Current October 2: coexisting goals and source result.** The full
+**Current October 2: act/register milestone executed; full physics goal active.** The full
 parameter-free Standard Model/TOE remains the overarching mission;
 the owner-approved act-and-register audit is a prerequisite milestone.
 Acts of distinction and their registering relations must be traced
@@ -8,7 +8,11 @@ through genesis and physical reductions. Qualia is an explicit
 philosophical hypothesis, not a proved physical identification.
 Design: reports/physical_bridge_2026_09_05/ACT_REGISTER_DESIGN.md;
 owner intent: philosophy/P_ACT_AND_REGISTER_2026_10_02.md.
-The new bounded audit is prepared for seal, not executed at this note.
+The bounded audit is executed unchanged at seal69d6d0b9:23 native,
+11 reference checks and65 focused tests pass (12 new/53 retained).
+It verifies safe/unsafe record reductions and scopes B37/B130 detector
+inferences; no physical observer or forced choice is derived. Report:
+reports/physical_bridge_2026_09_05/ACT_REGISTER.md.
 R77 is now executed: corrected native49/independent29/focused20 pass.
 Its explicitly added free-profile sources balance the full current and
 both first variations conditionally; infinitely many classical flat
@@ -18,8 +22,12 @@ source/profile law, full physical mirror or finite SM spectrum follows.
 Main GENESIS v1.1/B1454 and the direct relay at12ed66bd are personally
 read, not reexecuted; main B1455 is a sealed design, not a result.
 SM B1518 body at e8992b63 is received evidence, not a reproduced census.
-Earlier dated entries preserve their scopes. Tracker usageLimited;
-second-goal creation refused, no renewed automation/full-suite/main bank.
+A later fetch found SM27220af6 GENESIS v1.2/B1519/R78 relay; all three
+full texts personally read, foreign checks not rerun. R78 recipient
+adoption is reported; main still v1.1 at this fetch. FK12 scope and
+B723's two later retractions sent for review. Goal tracker now ACTIVE;
+older usageLimited/prepared notes below are historical. No full-suite,
+nonauthor or main-bank certificate.
 
 **LATEST foundation checkpoint, path-local R79 (October 2):** abstract
 faithful F2 recovers its unoriented commutator/peripheral conjugacy class

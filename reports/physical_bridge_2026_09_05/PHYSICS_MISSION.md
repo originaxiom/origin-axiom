@@ -55,9 +55,16 @@ owner's intent is preserved in philosophy/P_ACT_AND_REGISTER_2026_10_02.md.
 Gate 5-Q is unchanged; experiential interpretations remain in its governed
 rooms. This priority is not an unpriced new mathematical or physical axiom.
 
-The interface on October 2 still reports the unfinished overarching goal
-as usageLimited and refuses a second goal. This document records the
-hierarchy; it does not claim to repair or reactivate autonomous execution.
+The bounded AR1–AR6 milestone is now executed unchanged and reported in
+ACT_REGISTER.md:23 native controls,11 separate reference checks and65
+focused tests pass. Its quotient criteria, sufficient-record construction
+and old-detector countermodels do not complete the four global duties
+above. Whole-architecture application and physical generation remain open.
+
+The earlier October 2 interface reading was usageLimited and a second
+goal was refused. A later direct reading reports ACTIVE with the original
+full SM/TOE objective. No goal was marked complete/replaced to achieve
+this change. The hierarchy remains one overarching goal with milestones.
 
 "Resume", "continue" and permission changes continue this mission; they
 do not replace its objective. Change the mission or completion criteria

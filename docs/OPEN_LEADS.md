@@ -1,6 +1,6 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-**Current October 2: coexisting goals and source result.** The full
+**Current October 2: act/register milestone executed; full physics goal active.** The full
 parameter-free Standard Model/TOE remains the overarching mission;
 the owner-approved act-and-register audit is a prerequisite milestone.
 Acts of distinction and their registering relations must be traced
@@ -8,7 +8,11 @@ through genesis and physical reductions. Qualia is an explicit
 philosophical hypothesis, not a proved physical identification.
 Design: reports/physical_bridge_2026_09_05/ACT_REGISTER_DESIGN.md;
 owner intent: philosophy/P_ACT_AND_REGISTER_2026_10_02.md.
-The new bounded audit is prepared for seal, not executed at this note.
+The bounded audit is executed unchanged at seal69d6d0b9:23 native,
+11 reference checks and65 focused tests pass (12 new/53 retained).
+It verifies safe/unsafe record reductions and scopes B37/B130 detector
+inferences; no physical observer or forced choice is derived. Report:
+reports/physical_bridge_2026_09_05/ACT_REGISTER.md.
 R77 is now executed: corrected native49/independent29/focused20 pass.
 Its explicitly added free-profile sources balance the full current and
 both first variations conditionally; infinitely many classical flat
@@ -18,8 +22,12 @@ source/profile law, full physical mirror or finite SM spectrum follows.
 Main GENESIS v1.1/B1454 and the direct relay at12ed66bd are personally
 read, not reexecuted; main B1455 is a sealed design, not a result.
 SM B1518 body at e8992b63 is received evidence, not a reproduced census.
-Earlier dated entries preserve their scopes. Tracker usageLimited;
-second-goal creation refused, no renewed automation/full-suite/main bank.
+A later fetch found SM27220af6 GENESIS v1.2/B1519/R78 relay; all three
+full texts personally read, foreign checks not rerun. R78 recipient
+adoption is reported; main still v1.1 at this fetch. FK12 scope and
+B723's two later retractions sent for review. Goal tracker now ACTIVE;
+older usageLimited/prepared notes below are historical. No full-suite,
+nonauthor or main-bank certificate.
 
 **R79 foundation disposition (October 2):** classical Nielsen periphery
 is recoverable in faithful F2; unmarked topological reconstruction does
@@ -4461,3 +4469,27 @@ B1445/B1446 deformation and cross-member branch positives likewise retained.
   norms, anomalies and normalized interactions remain physical duties.
   The full parameter-free SM/TOE goal is ACTIVE/unachieved. No global
   architecture kill or promise of completion by an enlarged census.
+
+## October 2 act/register disposition toward the physical mission
+
+- PB-REGISTER: the bounded conditional quotient/record criterion is
+  executed; whole-architecture maps still need declared updates, outputs
+  and actual physical roles. Safe historical compression is allowed.
+  Earn a generated partner and internal mechanism, not an added chooser.
+- PB-COMPONENTS: before reusing B130 as a componentwise no-go, obtain an
+  actual component decomposition or equivalent proof with full symmetry
+  hypotheses. Generic AR4 invalidates its global-elimination inference,
+  not every possible metallic no-choice theorem or the retained m=2 result.
+- PB-COORDINATION: SMv1.2/R78 relay at27220af6 received in full, foreign
+  checks not rerun. B37 syntax qualification/B723 two retractions sent
+  for review. Mainv1.2 adoption and acceptance of this audit are unverified.
+- PB-ACTION: R77 is executed, not unrun. Its free-profile model's flat
+  directions make the actual same-theory source/end law the next physical
+  duty. Then audit vacua, mirror lift, complete normalizable matter and
+  anomalies/interactions. Do not merge different frames by vocabulary.
+- PB-PHILOSOPHY: owner intent and experiential question remain explicitly
+  recorded in philosophy/P_ACT_AND_REGISTER_2026_10_02.md under Gate5Q.
+  Mathematical memory is not a derived experience or a physics rescue.
+
+These are this audit's next verification duties, not claims of absent
+work across the repo. Sources/receipts: ACT_REGISTER.md in the audit report.

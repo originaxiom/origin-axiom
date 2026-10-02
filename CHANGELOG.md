@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-10-02 — act/register milestone executed; new genesis relay reconciled
+
+Six scientific paths pushed/server-confirmed at69d6d0b9 before execution,
+unchanged:23 native/11 separate reference checks and65 focused tests pass
+first (12 new plus53 retained). Finite exhaustive populations:3,984
+updates,290 outputs,5,898 two-update future-record systems. Generic
+quotient criteria retain both dynamics and observables; safe history loss
+and delayed information loss both controlled. B37's syntax is not a
+semantic mechanism test; B130 global empty elimination does not exclude
+isolated components. Actual m=2 elimination/nonconjugacy retained; m=1/m=4
+field label corrected and B723's existing retractions carried. No actual
+metallic isolated component, physical observer, choice or experience proved.
+
+Fresh all-head fetch finds SM27220af6/v1.2 and the R78 adoption relay;
+three full texts personally read, foreign checks not rerun. Sender reply
+asks for B37 qualification and BOTH B723 retractions in the new summary.
+R78 recipient-reported adoption acknowledged, main stillv1.1 in fetch.
+Mission hierarchy retained; tracker now ACTIVE for full SM/TOE, older
+usageLimited reading historical. Planv0.5 and seven current front doors
+updated. Raw first runs/hash/source custody preserved. Nonauthor review,
+physical source/end law and main propagation still open. Preseal26 PASS/
+four historical FAIL categories, no baseline or exemption changed.
+Publication governance repeats26 PASS/four same FAIL categories;44 banked/
+56 OPEN relays,41 stale debts, review due292. Custody checker passes:
+six frozen paths,21 original/three intake pins and11 initial raw captures.
+Additional publication/custody captures remain in the final receipts.
+
+
 ## 2026-10-02 - coexisting physics goals; source result; record audit prepared
 
 The full parameter-free Standard Model/TOE remains overarching. The owner

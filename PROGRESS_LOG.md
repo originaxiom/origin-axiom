@@ -16560,3 +16560,44 @@ First collector failure preserved, sealed proof2I prose corrected to
 I+I-transpose without changing science. Fresh custody check verifies9
 frozen paths,9 source pins and8 raw captures. No full-suite, independent
 analytic or main-bank certification. Final gate dispositions follow.
+
+
+## 2026-10-02 — act/register bounded verdict and new genesis intake
+
+Progress: science sealed/pushed/server-confirmed69d6d0b9 before first
+execution; six scientific paths unchanged,21 source blobs verified.
+Native23/23 and separate stdlib reference11/11 pass;65 focused tests pass
+first, with12 new/53 retained. Declared exhaustive comparisons:3,984
+updates,290 binary outputs,5,898 future-record systems. Separate code is
+same-author, not independent scientific review. ACT_REGISTER.md records
+the generic proofs, opposite controls, scope and raw source custody.
+
+B37 syntactic absence does not prove semantic non-reading; identical
+rewriting flips the detector. B130 empty global elimination does not
+exclude isolated components; exact mixed-variety countermodel supplied,
+actual m=2 result retained. No actual metallic component or forced choice
+derived. m=1/m=4 field equality corrected without losing trace nonconjugacy.
+B723/B942/B957 later retractions retained, no thermal observer claim.
+
+After science, fresh all-head fetch finds SM27220af6. GENESISv1.2/B1519/
+R78 direct relay fully read, foreign checks not rerun. Recipient reports
+adopting/reproducing R78; main remains12ed66bd/v1.1 at fetch. FK12 observer
+question now surfaced; sender reply asks for B37 qualification and both
+B723 retractions. Owner act/register intent and qualia hypothesis remain
+central but unproved physical interpretation. Planv0.5/front doors/law
+map/lead/relay records updated; no other branch changed.
+
+Tracker now ACTIVE for original full SM/TOE objective, prior usageLimited
+reading preserved. Bounded milestone complete, overarching mission not.
+Next actual same-theory source/end/profile law and complete spectrum/
+anomalies/interactions. No physical observer or physics parameters earned.
+Preseal26 PASS/four old FAIL categories retained, no waivers. Publication
+display-path guesses and wrong-cwd metadata placement caught and corrected
+without science edits; a partial-line publication hunk failed atomically
+before writing, corrected to full-line context. Raw first runs preserved.
+
+Publication governance:26 PASS/four same historical FAIL categories;
+44 banked/56 OPEN relays,41 stale debts, review due292. Custody first
+check passes six unchanged frozen paths,21 original/three intake pins,
+11 raw captures; additional custody/publication captures preserved.
+No full-suite or independent analytic/main-bank acceptance claimed.

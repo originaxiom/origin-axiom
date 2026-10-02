@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "date": "2026-10-02",
+  "sources": [
+    {
+      "commit": "27220af63321731c9036adc91742d0a41eff5be0",
+      "path": "GENESIS.md",
+      "sha256": "9cf581654dfdac6b52db4f3a7235e1dff6d7a864ee2474388ec7e680afb581a8",
+      "bytes": 43724,
+      "reading_grade": "full text personally read after science; reported foreign tests not rerun"
+    },
+    {
+      "commit": "27220af63321731c9036adc91742d0a41eff5be0",
+      "path": "frontier/B1519_genesis_v12/FINDINGS.md",
+      "sha256": "986e160f24da62be3720176f9c5cd80adc7893e91dd113ea70fa864364f67394",
+      "bytes": 22710,
+      "reading_grade": "full text personally read after science; reported foreign tests not rerun"
+    },
+    {
+      "commit": "27220af63321731c9036adc91742d0a41eff5be0",
+      "path": "SM_TO_CODEX_2026-10-02_R78_ADOPTED_GENESIS_V1_2.md",
+      "sha256": "a67aef082f05f467ff0e98c3b9fb2e98ad12383face675325bb7e2520b3b8bf0",
+      "bytes": 3506,
+      "reading_grade": "full text personally read after science; reported foreign tests not rerun"
+    }
+  ],
+  "main_head_at_fetch": "12ed66bd87202ff5958fbbc8f161666a7b988700",
+  "recipient_adoption": "R78 reproduced/adopted as reported in SM direct relay; no local acceptance of all seven checks or main v1.2 adoption",
+  "goal_status_observed": "active for original full parameter-free SM/TOE objective; preceding usageLimited record remains historical",
+  "publication_errors": [
+    "Guessed display paths/branch names did not resolve; actual paths and advertised heads were inventoried.",
+    "First seal-metadata patch targeted the parent directory; the exact authored file was moved into the repo via apply_patch, with no science edits or evidence loss.",
+    "Aggregated source display truncated; B1519 middle and opening plus all GENESIS chunks reread.",
+    "A publication hunk used partial-line context and failed atomically before writing; full-line context corrected, science unchanged."
+  ]
+}
