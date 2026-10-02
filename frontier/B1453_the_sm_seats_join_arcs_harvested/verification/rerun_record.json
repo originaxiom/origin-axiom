@@ -1,0 +1,889 @@
+{
+ "checkout": "the SM seat's branch at 800ed4e5, a pinned checkout outside the tracked tree",
+ "bench": "numpy 2.4.0, scipy 1.16.3, sympy 1.14.0, mpmath 1.3.0",
+ "note": "every script run from its own directory with no arguments; rc TIMEOUT = stopped at the limit; outputs compared with the committed ones through git afterwards",
+ "runs": [
+  {
+   "arc": "sm:B1367",
+   "script": "frontier/B1367_the_doublet_triplet_pincer/verification/pincer.py",
+   "rc": 0,
+   "seconds": 3.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1368",
+   "script": "frontier/B1368_the_objects_own_sm_connections/verification/sm_connections_of_m004.py",
+   "rc": 0,
+   "seconds": 53.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1369",
+   "script": "frontier/B1369_the_siblings_in_the_sm_frame/verification/controls.py",
+   "rc": 0,
+   "seconds": 5.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1369",
+   "script": "frontier/B1369_the_siblings_in_the_sm_frame/verification/family_isometries.py",
+   "rc": 0,
+   "seconds": 3.2,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1369",
+   "script": "frontier/B1369_the_siblings_in_the_sm_frame/verification/siblings_in_the_sm_frame.py",
+   "rc": 0,
+   "seconds": 92.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1370",
+   "script": "frontier/B1370_the_residuals_leading_mode/verification/residual_cusp_modes.py",
+   "rc": 0,
+   "seconds": 9.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1371",
+   "script": "frontier/B1371_the_web_seats_post_closure_package_verified/verification/verify_package.py",
+   "rc": 0,
+   "seconds": 71.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1372",
+   "script": "frontier/B1372_the_doublet_halves/verification/doublet_halves.py",
+   "rc": 0,
+   "seconds": 10.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1373",
+   "script": "frontier/B1373_the_order_4_points_on_the_geometric_components/verification/order4_points.py",
+   "rc": 0,
+   "seconds": 2.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1374",
+   "script": "frontier/B1374_the_class_index_in_the_sm_frame/verification/class_index_sm_frame.py",
+   "rc": 0,
+   "seconds": 831.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1374",
+   "script": "frontier/B1374_the_class_index_in_the_sm_frame/verification/exact_check.py",
+   "rc": 1,
+   "seconds": 1.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1374",
+   "script": "frontier/B1374_the_class_index_in_the_sm_frame/verification/exact_lib.py",
+   "rc": 0,
+   "seconds": 0.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1374",
+   "script": "frontier/B1374_the_class_index_in_the_sm_frame/verification/generation_pairs.py",
+   "rc": 0,
+   "seconds": 822.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1374",
+   "script": "frontier/B1374_the_class_index_in_the_sm_frame/verification/generation_structure.py",
+   "rc": 1,
+   "seconds": 1.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1374",
+   "script": "frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py",
+   "rc": 0,
+   "seconds": 0.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1374",
+   "script": "frontier/B1374_the_class_index_in_the_sm_frame/verification/torsion_complete.py",
+   "rc": 0,
+   "seconds": 1465.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1375",
+   "script": "frontier/B1375_the_towers_generation_count/verification/exact_check_cover.py",
+   "rc": 1,
+   "seconds": 1.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1375",
+   "script": "frontier/B1375_the_towers_generation_count/verification/tower_generations.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1376",
+   "script": "frontier/B1376_the_arithmetic_fillings/verification/arithmetic_fillings.py",
+   "rc": 0,
+   "seconds": 66.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1377",
+   "script": "frontier/B1377_the_towers_count_is_at_most_two/verification/rank_one_bound.py",
+   "rc": 0,
+   "seconds": 71.5,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1378",
+   "script": "frontier/B1378_the_m6_deck_triplet/verification/deck_map_web_seat.py",
+   "rc": 0,
+   "seconds": 2.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1378",
+   "script": "frontier/B1378_the_m6_deck_triplet/verification/deck_triplet.py",
+   "rc": 0,
+   "seconds": 33.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1378",
+   "script": "frontier/B1378_the_m6_deck_triplet/verification/rs_presentation.py",
+   "rc": 0,
+   "seconds": 0.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1379",
+   "script": "frontier/B1379_the_genesis_and_m004_links/verification/descent_check.py",
+   "rc": 0,
+   "seconds": 7.2,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1379",
+   "script": "frontier/B1379_the_genesis_and_m004_links/verification/genesis_audit.py",
+   "rc": 0,
+   "seconds": 5.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1380",
+   "script": "frontier/B1380_the_puncture_is_the_words/verification/puncture.py",
+   "rc": 0,
+   "seconds": 2.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1381",
+   "script": "frontier/B1381_the_rank_one_bound_on_every_level/verification/rank_one_bound.py",
+   "rc": 0,
+   "seconds": 499.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1382",
+   "script": "frontier/B1382_the_spin_bit_is_the_parents_pin_type/verification/pin_types.py",
+   "rc": 0,
+   "seconds": 1.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1383",
+   "script": "frontier/B1383_the_spin_bit_is_the_square_of_the_deck/verification/deck_square.py",
+   "rc": 0,
+   "seconds": 1.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1384",
+   "script": "frontier/B1384_the_generated_state_space/verification/handoff_checks.py",
+   "rc": 0,
+   "seconds": 62.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1384",
+   "script": "frontier/B1384_the_generated_state_space/verification/s5_m6_gate.py",
+   "rc": 0,
+   "seconds": 221.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1385",
+   "script": "frontier/B1385_the_states_together/verification/eisenstein_candidate.py",
+   "rc": 0,
+   "seconds": 21.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1385",
+   "script": "frontier/B1385_the_states_together/verification/eisenstein_cusps.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1385",
+   "script": "frontier/B1385_the_states_together/verification/eisenstein_partition.py",
+   "rc": 0,
+   "seconds": 15.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1385",
+   "script": "frontier/B1385_the_states_together/verification/states_together.py",
+   "rc": 0,
+   "seconds": 23.5,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1386",
+   "script": "frontier/B1386_the_open_eisenstein_cusp/verification/eisenstein_search.py",
+   "rc": 1,
+   "seconds": 2.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1386",
+   "script": "frontier/B1386_the_open_eisenstein_cusp/verification/the_open_cusp.py",
+   "rc": 0,
+   "seconds": 764.2,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1387",
+   "script": "frontier/B1387_the_index_computed/verification/harmonic_cusp_form.py",
+   "rc": 0,
+   "seconds": 29.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1388",
+   "script": "frontier/B1388_the_cutoff_test/verification/cutoff_checks.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1388",
+   "script": "frontier/B1388_the_cutoff_test/verification/cutoff_test.py",
+   "rc": "TIMEOUT",
+   "seconds": 1509.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1388",
+   "script": "frontier/B1388_the_cutoff_test/verification/fine_scan.py",
+   "rc": 0,
+   "seconds": 205.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1388",
+   "script": "frontier/B1388_the_cutoff_test/verification/higgs_zeros.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1389",
+   "script": "frontier/B1389_the_full_spectrum/verification/e8_frame.py",
+   "rc": 0,
+   "seconds": 35.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1389",
+   "script": "frontier/B1389_the_full_spectrum/verification/full_spectrum.py",
+   "rc": 0,
+   "seconds": 1.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1390",
+   "script": "frontier/B1390_the_eisenstein_axes/verification/eisenstein_axes.py",
+   "rc": 1,
+   "seconds": 0.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1391",
+   "script": "frontier/B1391_the_generations_flavour/verification/flavour.py",
+   "rc": 0,
+   "seconds": 3.5,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1392",
+   "script": "frontier/B1392_the_ends_carry_the_chirality/verification/ends.py",
+   "rc": 0,
+   "seconds": 6.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1393",
+   "script": "frontier/B1393_the_charge_flip/verification/charge_flip.py",
+   "rc": 0,
+   "seconds": 36.5,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1394",
+   "script": "frontier/B1394_the_regular_three/verification/regular_three.py",
+   "rc": 0,
+   "seconds": 3.2,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1395",
+   "script": "frontier/B1395_the_free_cusp_is_charge_blind/verification/cusp_ends.py",
+   "rc": 0,
+   "seconds": 30.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1396",
+   "script": "frontier/B1396_the_capped_eisenstein_cusp/verification/capped_cusp.py",
+   "rc": 0,
+   "seconds": 12.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1397",
+   "script": "frontier/B1397_the_caps_generations/verification/cap_generations.py",
+   "rc": 0,
+   "seconds": 69.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1398",
+   "script": "frontier/B1398_the_frame_verdict_on_three/verification/frame_verdict.py",
+   "rc": 0,
+   "seconds": 1.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1399",
+   "script": "frontier/B1399_the_rank_two_higgs/verification/breakpoint_check.py",
+   "rc": 0,
+   "seconds": 259.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1399",
+   "script": "frontier/B1399_the_rank_two_higgs/verification/census_list.py",
+   "rc": 0,
+   "seconds": 30.2,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1399",
+   "script": "frontier/B1399_the_rank_two_higgs/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 107.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1399",
+   "script": "frontier/B1399_the_rank_two_higgs/verification/rank_two_higgs.py",
+   "rc": 0,
+   "seconds": 255.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1399",
+   "script": "frontier/B1399_the_rank_two_higgs/verification/unresolved_readout.py",
+   "rc": 1,
+   "seconds": 3.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1500",
+   "script": "frontier/B1500_the_cone_points_choice/verification/cone_point_ih.py",
+   "rc": 0,
+   "seconds": 76.2,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1500",
+   "script": "frontier/B1500_the_cone_points_choice/verification/local_models_check.py",
+   "rc": 0,
+   "seconds": 0.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1501",
+   "script": "frontier/B1501_the_torus_link_census/verification/post_run_checks.py",
+   "rc": 1,
+   "seconds": 1174.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1501",
+   "script": "frontier/B1501_the_torus_link_census/verification/torus_link_census.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1502",
+   "script": "frontier/B1502_the_local_models_chirality/verification/cubic_inflow.py",
+   "rc": 0,
+   "seconds": 39.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1502",
+   "script": "frontier/B1502_the_local_models_chirality/verification/local_models_chirality.py",
+   "rc": 1,
+   "seconds": 1.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1503",
+   "script": "frontier/B1503_the_apex_index_rule/verification/apex_index_rule.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1504",
+   "script": "frontier/B1504_the_ends_choice/verification/end_choice.py",
+   "rc": 0,
+   "seconds": 3.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1505",
+   "script": "frontier/B1505_the_orbifold_links/verification/orbifold_links.py",
+   "rc": 0,
+   "seconds": 343.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1506",
+   "script": "frontier/B1506_the_level/verification/post_run_checks.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1506",
+   "script": "frontier/B1506_the_level/verification/the_level.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1507",
+   "script": "frontier/B1507_the_record_reread/verification/deck_inverting.py",
+   "rc": 0,
+   "seconds": 1.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1507",
+   "script": "frontier/B1507_the_record_reread/verification/deck_on_the_tower.py",
+   "rc": 0,
+   "seconds": 1.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1507",
+   "script": "frontier/B1507_the_record_reread/verification/end_lines.py",
+   "rc": 0,
+   "seconds": 1.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1507",
+   "script": "frontier/B1507_the_record_reread/verification/flavour_cluster.py",
+   "rc": 0,
+   "seconds": 1.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1507",
+   "script": "frontier/B1507_the_record_reread/verification/founding_ratio_frames.py",
+   "rc": 0,
+   "seconds": 4.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1507",
+   "script": "frontier/B1507_the_record_reread/verification/principal_blocks.py",
+   "rc": 0,
+   "seconds": 0.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1508",
+   "script": "frontier/B1508_the_path_under_the_reframe/verification/free_constant.py",
+   "rc": 0,
+   "seconds": 0.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1508",
+   "script": "frontier/B1508_the_path_under_the_reframe/verification/level_counts.py",
+   "rc": 0,
+   "seconds": 0.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1508",
+   "script": "frontier/B1508_the_path_under_the_reframe/verification/partial_filling.py",
+   "rc": 0,
+   "seconds": 2.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1509",
+   "script": "frontier/B1509_the_join_on_the_projective_vacuum/verification/balance_transpose.py",
+   "rc": 0,
+   "seconds": 6.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1509",
+   "script": "frontier/B1509_the_join_on_the_projective_vacuum/verification/control_exceptional.py",
+   "rc": 0,
+   "seconds": 8.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1509",
+   "script": "frontier/B1509_the_join_on_the_projective_vacuum/verification/end_conditions.py",
+   "rc": 0,
+   "seconds": 0.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1509",
+   "script": "frontier/B1509_the_join_on_the_projective_vacuum/verification/extension_index.py",
+   "rc": 0,
+   "seconds": 38.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1509",
+   "script": "frontier/B1509_the_join_on_the_projective_vacuum/verification/family_classification.py",
+   "rc": 0,
+   "seconds": 7.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1509",
+   "script": "frontier/B1509_the_join_on_the_projective_vacuum/verification/wang_monodromy.py",
+   "rc": 0,
+   "seconds": 14.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1510",
+   "script": "frontier/B1510_the_two_sided_deformation/verification/deform_lib.py",
+   "rc": 0,
+   "seconds": 0.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1510",
+   "script": "frontier/B1510_the_two_sided_deformation/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 121.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1510",
+   "script": "frontier/B1510_the_two_sided_deformation/verification/two_sided.py",
+   "rc": 0,
+   "seconds": 0.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1511",
+   "script": "frontier/B1511_the_projective_tower/verification/controls.py",
+   "rc": 0,
+   "seconds": 427.4,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1511",
+   "script": "frontier/B1511_the_projective_tower/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 271.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1511",
+   "script": "frontier/B1511_the_projective_tower/verification/tower_census.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1511",
+   "script": "frontier/B1511_the_projective_tower/verification/tower_lib.py",
+   "rc": 0,
+   "seconds": 0.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1512",
+   "script": "frontier/B1512_the_self_coincident_orbits/verification/census.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1512",
+   "script": "frontier/B1512_the_self_coincident_orbits/verification/controls.py",
+   "rc": 0,
+   "seconds": 152.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1512",
+   "script": "frontier/B1512_the_self_coincident_orbits/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 1.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1512",
+   "script": "frontier/B1512_the_self_coincident_orbits/verification/selfco_lib.py",
+   "rc": 0,
+   "seconds": 0.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1513",
+   "script": "frontier/B1513_the_triplets_higgs_sector/verification/controls.py",
+   "rc": 0,
+   "seconds": 73.6,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1513",
+   "script": "frontier/B1513_the_triplets_higgs_sector/verification/higgs_census.py",
+   "rc": 0,
+   "seconds": 98.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1513",
+   "script": "frontier/B1513_the_triplets_higgs_sector/verification/higgs_lib.py",
+   "rc": 0,
+   "seconds": 0.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1513",
+   "script": "frontier/B1513_the_triplets_higgs_sector/verification/independent_audit.py",
+   "rc": 0,
+   "seconds": 636.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1513",
+   "script": "frontier/B1513_the_triplets_higgs_sector/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 69.0,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/case_a_levels.py",
+   "rc": 0,
+   "seconds": 56.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/census.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/controls.py",
+   "rc": 0,
+   "seconds": 287.5,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/independent_route.py",
+   "rc": "TIMEOUT",
+   "seconds": 1500.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/law_lib.py",
+   "rc": 0,
+   "seconds": 0.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/lift_route.py",
+   "rc": 0,
+   "seconds": 0.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 14.2,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1515",
+   "script": "frontier/B1515_the_hyperbolic_point/verification/census_l.py",
+   "rc": 0,
+   "seconds": 772.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1515",
+   "script": "frontier/B1515_the_hyperbolic_point/verification/census_t.py",
+   "rc": 0,
+   "seconds": 1195.3,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1515",
+   "script": "frontier/B1515_the_hyperbolic_point/verification/controls.py",
+   "rc": 0,
+   "seconds": 27.7,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1515",
+   "script": "frontier/B1515_the_hyperbolic_point/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 123.1,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1515",
+   "script": "frontier/B1515_the_hyperbolic_point/verification/route_l.py",
+   "rc": 0,
+   "seconds": 0.9,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1515",
+   "script": "frontier/B1515_the_hyperbolic_point/verification/route_t.py",
+   "rc": 0,
+   "seconds": 0.8,
+   "pass": "first (limit 30 minutes)"
+  },
+  {
+   "arc": "sm:B1375",
+   "script": "frontier/B1375_the_towers_generation_count/verification/tower_generations.py",
+   "rc": 0,
+   "seconds": 1781.8,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1385",
+   "script": "frontier/B1385_the_states_together/verification/eisenstein_cusps.py",
+   "rc": "TIMEOUT",
+   "seconds": 6000.3,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1388",
+   "script": "frontier/B1388_the_cutoff_test/verification/cutoff_checks.py",
+   "rc": "TIMEOUT",
+   "seconds": 6015.5,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1388",
+   "script": "frontier/B1388_the_cutoff_test/verification/cutoff_test.py",
+   "rc": "TIMEOUT",
+   "seconds": 6019.7,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1388",
+   "script": "frontier/B1388_the_cutoff_test/verification/higgs_zeros.py",
+   "rc": 0,
+   "seconds": 1784.9,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1501",
+   "script": "frontier/B1501_the_torus_link_census/verification/torus_link_census.py",
+   "rc": "TIMEOUT",
+   "seconds": 6000.2,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1503",
+   "script": "frontier/B1503_the_apex_index_rule/verification/apex_index_rule.py",
+   "rc": "TIMEOUT",
+   "seconds": 6000.2,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1506",
+   "script": "frontier/B1506_the_level/verification/post_run_checks.py",
+   "rc": 0,
+   "seconds": 1762.2,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1506",
+   "script": "frontier/B1506_the_level/verification/the_level.py",
+   "rc": 0,
+   "seconds": 4142.6,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1511",
+   "script": "frontier/B1511_the_projective_tower/verification/tower_census.py",
+   "rc": 0,
+   "seconds": 2805.5,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1512",
+   "script": "frontier/B1512_the_self_coincident_orbits/verification/census.py",
+   "rc": 0,
+   "seconds": 1635.0,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/census.py",
+   "rc": 0,
+   "seconds": 4670.5,
+   "pass": "long (limit 100 minutes)"
+  },
+  {
+   "arc": "sm:B1514",
+   "script": "frontier/B1514_the_decoupling_law/verification/independent_route.py",
+   "rc": 0,
+   "seconds": 3556.3,
+   "pass": "long (limit 100 minutes)"
+  }
+ ]
+}

@@ -656,6 +656,19 @@ stale row flagged, 22 days fails / 20 does not) and a live pin-override control 
 the commits entering the range. The check grades nothing; it counts. Reading and grading stay the harvest arcs' work.
 
 
+## An arc says what it looked at before it claimed anything — GATED (`seen-first`)
+
+**The rule.** From B1454 on, an arc's FINDINGS.md carries a section "Seen first": the repo sweep it ran
+(`scripts/checks/topic_sweep.py`, whose VERDICT line is the citation, with the arcs it then read) and the literature it
+searched and read, a source's own statement with its hypotheses and not its abstract. The gate fails when the section is
+missing, cites no sweep, or says nothing of the literature. The same rule binds what a seat says to the owner
+(WORKING_RULES, the rule of 2026-10-02, with the owner's words).
+
+**Why it exists.** Statements of absence and of novelty were being made from a seat's working memory. On 2026-10-02
+three were made to the owner in one answer and each was contradicted by arcs banked in August; the same day a lead was
+found to have called a theorem proved for a case its hypotheses exclude, from the abstract (B1450). Lock:
+`tests/test_seen_first_gate.py` (the gate fails three ways and passes one).
+
 ## Every open lead and every arc left OPEN is aged, on a ratchet — GATED (`lead-debt`)
 
 **The rule.** `scripts/checks/lead_debt.py` reads `docs/OPEN_LEADS.md` and every `frontier/*/arc_verdict.json`. A lead (a

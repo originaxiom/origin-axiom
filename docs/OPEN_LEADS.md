@@ -3197,6 +3197,33 @@ checks before stopping. The arc's banked receipt is from an earlier environment.
 settled its two order-sensitive sites by reading: both build a mapping). **Owed:** find which step needs the
 ordering, make the script run on the current libraries or pin the versions it needs, and re-run the certification.
 
+## L239 — THE SM SEAT'S "FOR MAIN" ITEMS NOT YET SETTLED ON MAIN (registered 2026-10-02, B1453)
+
+The harvest of the SM seat's 47 arcs (B1453) applied three of its "for main" items (the Sol verdict, B1418's two
+rows, B1186's family-is-not-the-class note) and found one already applied (B1427's scope, Addendum 1). These remain;
+each is a statement of the seat's that main has **not verified**, and each belongs to the Foundation Lock
+(`docs/THE_FOUNDATION_LOCK_PLAN.md`, Stage 2 or Stage 5) unless noted:
+
+- **(a) The puncture from the carrier axiom (sm:B1380).** The seat claims A5b, the fragile puncture axiom of B1003,
+  follows from the carrier axiom by a words route. If true the genesis has one fragile axiom, not two. **Owed:**
+  main's own derivation or a counterexample. Stage 2, first item.
+- **(b) Pin⁺ and Kramers (sm:B1382, sm:B1383).** A Pin⁺ qualifier on B1141 / T-SPIN-PAYMENT, and a quaternionic
+  Kramers answer to O1 of B933 / B940. **Owed:** the check on main against B1141's three engines; Stage 2
+  (orientation, B1234).
+- **(c) The generated-state-space convention (sm:B1384).** X_gen = (reachable states, native moves, equivalences,
+  root), m004 the root, "no unforced collapse", two theorems (naturality on a free orbit; generated closure).
+  **Owed:** main's proof or refutation of the two theorems and the decision whether the convention is the
+  principle's second form. Stage 3. Also the label collision ws:R40 / fc R40 it reports.
+- **(d) Paper wording (sm:B1379).** Sentences of the paper the seat marks as stronger than the record. **Owed:**
+  each compared with the arc it cites. Stage 5.
+- **(e) Main's μ₁₂ search under-counts (sm:B1374).** The seat reports o10_150697 and m208 missed. **Owed:** re-run
+  of main's search on the two.
+- **(f) Reader notes not checked by main** (B1453 §"not checked"): the grouping in sm:B1372, "four digits" in
+  sm:B1387, "nineteen other primes" in sm:B1514, one sentence of sm:B1396.
+- **(g) Scripts not re-run on this bench:** five need arguments (sm:B1374 two, sm:B1375, sm:B1386, sm:B1390), one
+  needs a file (sm:B1399), five ran past 100 minutes (sm:B1503, sm:B1501 torus_link_census, sm:B1385, sm:B1388 two).
+  Their arcs are REGISTERED, not VERIFIED.
+
 ## ⟳ VIEW REFRESH — 2026-10-02 (Review 58)
 
 Touched at the Review 58 anchor (`fd17a3bd`). **The window (B1410–B1447, 472 commits) has two halves.** Through B1431: the consolidation, the paper's passes, and gates repaired. From B1432, one line of mathematics on the Standard-Model frame: its index and couplings are one function, the slope (B1438); no flat bundle of rank n counts more than ⌊n/2⌋ on a once-punctured-torus bundle (B1440); every background is the reducible end of a periodic curve of the trace map, the slope its cusp shape there and a coupling a first-order torsion (B1444); the coupling is the coefficient of a mass term on the product of two such curves (B1445); at the boundary-parabolic points the numbers are exact, and the members of a deck orbit first differ on a rank-three branch off one member's curve (B1446, B1447). On everything computed the class index lives only at the reducible end. **0 of 19 is unchanged.** The review itself was repaired (B1448). Full review: `docs/progress/REVIEWS.md`, Review 58. **What changed for this view:** the same as the lead register — L228–L237 registered, L208 closed, L219 and L222 updated, fourteen escalated by name; and 32 outbound relays to seats the owner no longer relays to were declined in the relay ledger, so a lead that says "relayed" to one of those seats means "held and declined".

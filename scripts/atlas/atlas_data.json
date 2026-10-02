@@ -9226,6 +9226,35 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1453": {
+   "slug": "the sm seats join arcs harvested",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B288",
+    "B749",
+    "L239",
+    "P019",
+    "P3",
+    "S0",
+    "S1",
+    "S5"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B145": {
    "slug": "forced chirality",
    "motifs": [

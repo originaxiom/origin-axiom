@@ -1,0 +1,17 @@
+{
+ "id": "B1453",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1446",
+  "B1418",
+  "B1186",
+  "B1427"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE SM SEAT'S ARCS sm:B1367-sm:B1515 HARVESTED: forty-seven arcs and four documents rowed (HARVEST_LEDGER 644-694), the seat's verdicts first, every arc read in full by a reader pass and its scripts re-run in a pinned checkout at 800ed4e5 (94 of 104 ran to the end; 2 need arguments, 5 ran past 100 minutes, 3 stopped). Dispositions: 37 REGISTERED, 4 ALREADY ON MAIN, 3 VERIFIED, 1 PARTLY VERIFIED, 2 VERIFIED-DIFFERS. RE-DERIVED ON MAIN'S OWN CODE: sm:B1509 (on Ballas' convex-projective family of the figure-eight complement the minimal non-split extension has class index -1 at q = 17 +- 12 sqrt 2 with the twist -1, 0 at controls), sm:B1511 (three order-two characters on the three-fold cover each count -1; eight 3-torsion characters on the four-fold cover each count +1, only with the determinant-one line), sm:B1515 in part (one interior class at each of four order-eight representatives on the six-fold cover at q = 1), sm:B1390 (thirteen of B1186's 112 members have a non-integral trace, so 99 are in m004's commensurability class: the family is not the class). A TRAP: in the fibred presentation the stable letter does not commute with the fibre's boundary; the meridian is (u1 u0^-1)^-1 m, and with the stable letter main's code reads index 0 everywhere. CORRECTED ON MAIN: the 2026-09-15 verdict that every SU(2) flat connection on m004(0,1) is reducible is false (40 homomorphisms with non-abelian image into the binary dihedral group of order 20; found by sm:B1371); two rows of B1418 name members of the family that are not in the class. TWO SEAT SCRIPTS DIFFER ON THIS BENCH: sm:B1502 stops on an assertion (a pseudo-inverse at default tolerance inverts a singular value of 8e-15; passes with the tolerance set), sm:B1501's post-run check fails on one class. The seat's remaining items for main are lead L239. Scope: Ballas' family on m004 and its cyclic covers to level six; the physical readings are the seat's and nothing here promotes one. 0 of 19."
+}

@@ -1,0 +1,8 @@
+level 6, nu = (1/8, 1/2), q = 1                index +0  h0 0/0  h1 2/2  interior 1/1  kept 0.57 dropped 5.4e-55
+level 6, nu = (1/8, 5/8), q = 1                index +0  h0 0/0  h1 2/2  interior 1/1  kept 0.51 dropped 1.5e-54
+level 6, nu = (1/8, 7/8), q = 1                index +0  h0 0/0  h1 2/2  interior 1/1  kept 0.69 dropped 1.3e-54
+level 6, nu = (1/4, 3/8), q = 1                index +0  h0 0/0  h1 2/2  interior 1/1  kept 0.52 dropped 8.1e-55
+level 6, nu of order 2 (control)               index +0  h0 0/0  h1 1/1  interior 0/0  kept 0.47 dropped 4.4e-58
+level 6, nu = (1/4, 1/4) (control)             index +0  h0 0/0  h1 1/1  interior 0/0  kept 0.22 dropped 4.5e-57
+level 3, nu of order 2 (control)               index +0  h0 0/0  h1 1/1  interior 0/0  kept 0.42 dropped 3.4e-59
+level 1, trivial nu (the geometric four)       index +0  h0 0/0  h1 1/1  interior 0/0  kept 0.32 dropped 4.7e-60

@@ -1,0 +1,28 @@
+exceptional: q = 33.9705627485, mu = (-1.0 + 0.0j): dim Z1 5, dim B1 4, h1(A) = 1, h1(A*) = 1
+     W1 = [[A, c], [0, 1]]  index -1   V: h0 0 h1 1 interior 0   V*: h0 1 h1 2 interior 1   smallest kept 0.344 largest dropped 2.08e-58
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     W1[A*]                 index -1   V: h0 0 h1 1 interior 0   V*: h0 1 h1 2 interior 1   smallest kept 0.109 largest dropped 3.86e-57
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     the four itself        index +0   h1 1 / 1
+exceptional: q = 0.0294372515229, mu = (-1.0 + 0.0j): dim Z1 5, dim B1 4, h1(A) = 1, h1(A*) = 1
+     W1 = [[A, c], [0, 1]]  index -1   V: h0 0 h1 1 interior 0   V*: h0 1 h1 2 interior 1   smallest kept 0.0832 largest dropped 2.48e-57
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     W1[A*]                 index -1   V: h0 0 h1 1 interior 0   V*: h0 1 h1 2 interior 1   smallest kept 0.121 largest dropped 4.39e-58
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     the four itself        index +0   h1 1 / 1
+exceptional: q = 13.9282032303, mu = (0.0 + 1.0j): dim Z1 5, dim B1 4, h1(A) = 1, h1(A*) = 1
+     W1 = [[A, c], [0, 1]]  index +0   V: h0 0 h1 0 interior 0   V*: h0 1 h1 2 interior 0   smallest kept 0.337 largest dropped 8.24e-59
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     W1[A*]                 index +0   V: h0 0 h1 0 interior 0   V*: h0 1 h1 2 interior 0   smallest kept 0.229 largest dropped 3.38e-58
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     the four itself        index +0   h1 1 / 1
+exceptional: q = 0.0717967697245, mu = (0.0 - 1.0j): dim Z1 5, dim B1 4, h1(A) = 1, h1(A*) = 1
+     W1 = [[A, c], [0, 1]]  index +0   V: h0 0 h1 0 interior 0   V*: h0 1 h1 2 interior 0   smallest kept 0.0789 largest dropped 4.08e-58
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     W1[A*]                 index +0   V: h0 0 h1 0 interior 0   V*: h0 1 h1 2 interior 0   smallest kept 0.14 largest dropped 1.62e-58
+     exterior square        index +0   h1 1 / 1 interior 1 / 1
+     the four itself        index +0   h1 1 / 1
+generic control: q = 3.0, mu = (-1.0 + 0.0j): dim Z1 4, dim B1 4, h1(A) = 0, h1(A*) = 0
+     the four itself        index +0   h1 0 / 0
+untwisted control: q = 33.9705627485, mu = (1.0 + 0.0j): dim Z1 4, dim B1 4, h1(A) = 0, h1(A*) = 0
+     the four itself        index +0   h1 0 / 0

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1281** |
-| words of findings prose | **976,511** |
+| research arcs with findings | **1282** |
+| words of findings prose | **981,920** |
 | test lock files referenced | **756** |
-| arcs carrying an authored verdict | **1281** (100.0 %) |
+| arcs carrying an authored verdict | **1282** (100.0 %) |
 | recorded closures | **801** (634 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 854 |
+| PROVED | 855 |
 | NEGATIVE | 325 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1451`** (2028 words, 0 locks)  
-THE COMPLETE POINTS ON OTHER LEVELS. On B1445's sixteen frame levels the periodic curve of a character is followed to its kappa = -2 point: 209 of 212 characters reach a parabolic one, three on the root's four-fold cover an elliptic one. Sealed, then run. The class index is zero at all 188 doubly parabolic points computed (476 with the root's three-fold cover); at 40 of them the sealed instrument had left the point 1e-15 to 1e-20 off a double root and its ranks unresolved, found by the arc's own lock and recomputed at 110 digits with every rank gapped. With the extension at its reducible end the bidoublet of a coupling splits into two doublets on the Higgs character's curve and its torsion is the product of theirs (checked against the rank-four module on every level, 4e-13); for an up-type coupling it is a square. What B1446 found as single numbers on the root's three-fold cover splits: the ten and the five-bar of a background carry different torsions at its complete point on 11 of 16 levels, and coupling values within one level range over a factor of 300. One sealed prediction failed: six couplings have torsion zero, on curves of filling type where it vanishes along the whole curve (B1444), not at the complete point. Exact values where identified: 2 +- 2 sqrt 5 on the sister's three-fold cover, a quartic number on -LRLRR 1, degree twelve on +LLLLLR 2. A torsion is not a mass, the members of a deck orbit are not told apart at these points, and nothing selects the complete point; no value of the Standard Model.  
-`B1451_the_complete_points_on_other_levels/FINDINGS.md`
+**PROVED — `B1453`** (5409 words, 0 locks)  
+THE SM SEAT'S ARCS sm:B1367-sm:B1515 HARVESTED: forty-seven arcs and four documents rowed (HARVEST_LEDGER 644-694), the seat's verdicts first, every arc read in full by a reader pass and its scripts re-run in a pinned checkout at 800ed4e5 (94 of 104 ran to the end; 2 need arguments, 5 ran past 100 minutes, 3 stopped). Dispositions: 37 REGISTERED, 4 ALREADY ON MAIN, 3 VERIFIED, 1 PARTLY VERIFIED, 2 VERIFIED-DIFFERS. RE-DERIVED ON MAIN'S OWN CODE: sm:B1509 (on Ballas' convex-projective family of the figure-eight complement the minimal non-split extension has class index -1 at q = 17 +- 12 sqrt 2 with the twist -1, 0 at controls), sm:B1511 (three order-two characters on the three-fold cover each count -1; eight 3-torsion characters on the four-fold cover each count +1, only with the determinant-one line), sm:B1515 in part (one interior class at each of four order-eight representatives on the six-fold cover at q = 1), sm:B1390 (thirteen of B1186's 112 members have a non-integral trace, so 99 are in m004's commensurability class: the family is not the class). A TRAP: in the fibred presentation the stable letter does not commute with the fibre's boundary; the meridian is (u1 u0^-1)^-1 m, and with the stable letter main's code reads index 0 everywhere. CORRECTED ON MAIN: the 2026-09-15 verdict that every SU(2) flat connection on m004(0,1) is reducible is false (40 homomorphisms with non-abelian image into the binary dihedral group of order 20; found by sm:B1371); two rows of B1418 name members of the family that are not in the class. TWO SEAT SCRIPTS DIFFER ON THIS BENCH: sm:B1502 stops on an assertion (a pseudo-inverse at default tolerance inverts a singular value of 8e-15; passes with the tolerance set), sm:B1501's post-run check fails on one class. The seat's remaining items for main are lead L239. Scope: Ballas' family on m004 and its cyclic covers to level six; the physical readings are the seat's and nothing here promotes one. 0 of 19.  
+`B1453_the_sm_seats_join_arcs_harvested/FINDINGS.md`
 
 **NEGATIVE — `B1452`** (528 words, 0 locks)  
 THE HASH-ORDER RESIDUE, RUN. Lead L226: the sweep of B1425 left 24 unsorted order-sensitive sites in 16 banked verification scripts that no lock re-runs, and asked whether any feeds a banked number. Each script was re-run under four hash seeds in a scratch checkout and its output and written files compared with timings removed. Fourteen scripts print the same thing on four seeds, three of them rewriting their tracked JSON byte for byte or up to an embedded timed log; one (B904) prints and writes one dictionary with three equal-valued keys in a seed-dependent order, equal as a dictionary; one (B675) does not run on this bench at all, stopping in the polynomial library's factor sort for a reason unrelated to hash order, and its two sites, which build mappings, are settled by reading. No banked number depends on the order. B675's failure to run is registered as lead L238 and is not claimed re-run here.  

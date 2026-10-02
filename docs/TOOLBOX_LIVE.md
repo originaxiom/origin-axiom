@@ -65,6 +65,17 @@ escalation are the proof).
   figure-eight entries. **The formula is proved only when the filled manifold keeps a cusp; on a closed filling its
   value is a definition, not an invariant.** `one_efficiency.py` checks the strict angle structure that makes a
   census triangulation 1-efficient by a cited theorem.
+- **What does the record already hold on a subject (2026-10-02)** — `scripts/checks/topic_sweep.py "<regex>" [--refs] [--full]`
+  reads every arc's verdict line and FINDINGS title on main (and, with `--refs`, greps every seat's lane); its last
+  line is the VERDICT to cite. Binding before any statement of absence or novelty (WORKING_RULES, 2026-10-02).
+  **For B1–B500 use `docs/EARLY_RECORD_INDEX.md` instead** (`scripts/checks/early_record_index.py`): their verdict
+  lines predate the later vocabulary and a keyword passes over them.
+- **The class index on a fibred presentation (2026-10-02, B1453)** — `frontier/B1453_the_sm_seats_join_arcs_harvested/verification/join_own.py`
+  (`ballas(q, mu)`, `fibred(W)`, `cocycles`) and `tower_own.py` / `tower_line.py` (cyclic covers, with a line) put
+  a representation of a fibred group into the form B1446's `index_num.py` reads. **The stable letter is not the
+  meridian unless it commutes with the fibre's boundary**: on Ballas' family the meridian is (u₁u₀⁻¹)⁻¹m; with m
+  itself the module check passes and every index reads 0. `fibred` asserts the commutation. On a cover the
+  determinant-one line is needed (ν⁻⁴ on the four-fold cover); with the trivial line the count is 0.
 - **Re-running a script under several hash seeds (2026-10-02, B1452)** — `frontier/B1452_the_hash_order_residue_run/verification/pass1_all_scripts.py`
   and its three follow-ups run tracked scripts under `PYTHONHASHSEED` 0–3 in a scratch checkout and compare output
   and written files with timings removed. Run scripts from the repository root as well as from their own directory

@@ -1,0 +1,14 @@
+level 1, q = 17+12 sqrt 2, lambda -1 (B1509)               W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.35 dropped 1.2e-56) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.098 dropped 5.3e-57)
+level 3, the pullback, q = 17+12 sqrt 2, lambda -1         W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.62 dropped 1.8e-54) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.13 dropped 2.0e-53)
+level 3, nu = (-1, 1), q^3 = 33.970563, lambda -1          W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.34 dropped 4.2e-57) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.45 dropped 6.3e-57)
+level 3, nu = (1, -1), q^3 = 33.970563, lambda -1          W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.55 dropped 9.2e-58) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.46 dropped 2.8e-56)
+level 3, nu = (-1, -1), q^3 = 33.970563, lambda -1         W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.4 dropped 1.1e-57) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.53 dropped 6.4e-57)
+level 3, nu = (-1, 1), q^3 = 0.029437252, lambda -1        W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.19 dropped 6.1e-57) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.15 dropped 2.4e-57)
+level 3, nu = (1, -1), q^3 = 0.029437252, lambda -1        W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.2 dropped 1.6e-56) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.26 dropped 4.2e-57)
+level 3, nu = (-1, -1), q^3 = 0.029437252, lambda -1       W1: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.23 dropped 7.8e-57) | W1[A*]: h1(A) = 1, index -1 (h1 1/2, interior 0/1, kept 0.19 dropped 1.4e-57)
+level 3, nu = (-1, 1), same q, lambda +1 (control)         W1: h1(A) = 0 | W1[A*]: h1(A) = 0
+level 3, nu = (-1, 1), q = 2, lambda -1 (control)          W1: h1(A) = 0 | W1[A*]: h1(A) = 0
+level 4, 3-torsion nu, q = phi^4, lambda +1                W1: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.15 dropped 3.2e-55) | W1[A*]: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.32 dropped 1.2e-53)
+level 4, 3-torsion nu, q = phi^4, lambda +1                W1: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.38 dropped 1.3e-55) | W1[A*]: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.17 dropped 1.0e-54)
+level 4, 3-torsion nu, q = phi^4, lambda +1                W1: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.28 dropped 1.7e-54) | W1[A*]: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.16 dropped 3.4e-54)
+level 4, 3-torsion nu, q = phi^4, lambda +1                W1: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.17 dropped 1.4e-54) | W1[A*]: h1(A) = 1, index +0 (h1 0/2, interior 0/0, kept 0.24 dropped 1.8e-54)

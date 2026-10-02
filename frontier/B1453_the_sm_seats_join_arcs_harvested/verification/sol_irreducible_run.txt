@@ -1,0 +1,4 @@
+pi_1(m004(0,1)): generators ['a', 'b'], relators ['aaabABBAb', 'aBAbABab']
+homomorphisms into Dic_5: 60; with non-abelian image (irreducible in SU(2)): 40
+one of them sends the generators to elements number (2, 10) (0-9 diagonal of order dividing 10, 10-19 off-diagonal)
+det(RL + I) = 5: the fibre characters inverted by the monodromy

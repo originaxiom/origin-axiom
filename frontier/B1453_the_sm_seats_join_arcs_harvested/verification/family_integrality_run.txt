@@ -1,0 +1,15 @@
+members: 112  with a non-integral trace among words of length <= 3: 13
+   v2875        g = c    tr(g^2) = (-0.0 + -1.333333 sqrt(-3))/2
+   t06828       g = a    tr(g^2) = (0.333333 + -1.0 sqrt(-3))/2
+   t06829       g = a    tr(g^2) = (0.333333 + 1.0 sqrt(-3))/2
+   t11365       g = a    tr(g^2) = (7.0 + -4.0 sqrt(-3))/2
+   o9_41000     g = a    tr(g^2) = (-2.0 + -1.333333 sqrt(-3))/2
+   o9_41003     g = bc   tr(g^2) = (-23.666667 + 3.666667 sqrt(-3))/2
+   o9_41004     g = a    tr(g^2) = (-0.571429 + 2.285714 sqrt(-3))/2
+   o9_41005     g = b    tr(g^2) = (1.612245 + -2.55102 sqrt(-3))/2
+   o9_41006     g = c    tr(g^2) = (1.612245 + -2.55102 sqrt(-3))/2
+   o9_41008     g = a    tr(g^2) = (10.0 + 9.333333 sqrt(-3))/2
+   o10_143600   g = ab   tr(g^2) = (-3.5 + -2.0 sqrt(-3))/2
+   o10_143601   g = ac   tr(g^2) = (-3.5 + -7.5 sqrt(-3))/2
+   o10_143602   g = c    tr(g^2) = (-5.0 + 0.0 sqrt(-3))/2
+non-integral members among the regular-tetrahedral 77: []

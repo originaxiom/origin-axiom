@@ -1061,6 +1061,36 @@ def gate_lead_debt():
     return True, "ok"
 
 
+SEEN_FIRST_FROM = 1454
+
+
+def seen_first_missing(root=None, start=SEEN_FIRST_FROM):
+    """arcs numbered `start` and above whose FINDINGS.md lacks a "Seen first" section naming both the repo sweep and the literature"""
+    import glob
+    root = str(root or ROOT); bad = []
+    for d in sorted(glob.glob(os.path.join(root, "frontier", "B*"))):
+        m = re.match(r"B(\d+)_", os.path.basename(d))
+        if not m or int(m.group(1)) < start: continue
+        ff = os.path.join(d, "FINDINGS.md")
+        if not os.path.exists(ff): continue
+        text = open(ff, errors="replace").read()
+        sec = re.search(r"(?ms)^##[^\n]*Seen first[^\n]*\n(.*?)(?=^## |\Z)", text)
+        if not sec: bad.append(os.path.basename(d) + " (no 'Seen first' section)"); continue
+        body = sec.group(1).lower()
+        if "topic-sweep" not in body and "absence-sweep" not in body and "sweep" not in body: bad.append(os.path.basename(d) + " (no repo sweep cited)")
+        elif "literature" not in body: bad.append(os.path.basename(d) + " (the literature is not addressed)")
+    return bad
+
+
+def gate_seen_first():
+    """2026-10-02, the owner: "make a rule to see the repo first and literature". From B1454 on, an arc's FINDINGS carries a
+    section "Seen first" citing the repo sweep it ran and what of the literature it searched and read (WORKING_RULES)."""
+    bad = seen_first_missing()
+    if bad:
+        return False, "arcs without a complete 'Seen first' section: " + "; ".join(bad[:8])
+    return True, "ok"
+
+
 def gate_doc_currency():
     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
     import subprocess
@@ -1247,6 +1277,7 @@ GATES = {
     "retraction-debt": gate_retraction_debt,
     "harvest-debt": gate_harvest_debt,
     "lead-debt": gate_lead_debt,
+    "seen-first": gate_seen_first,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

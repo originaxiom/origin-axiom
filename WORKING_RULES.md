@@ -294,3 +294,31 @@ run. PRACTICES' "no match is not a finding until a second source agrees" (B1001)
 requires a complete *sweep*. `already_banked.py` (B1202) is the sweep for "is this already banked?"; this is the
 sweep for "is this anywhere at all?".
 
+## Rule (2026-10-02, the owner's instruction — adopted): SEE THE REPO AND THE LITERATURE FIRST
+
+The owner, verbatim, the same day: **"one mistake we do more than repeatedly, we claim and we make statements about what
+we dont have, withiut making sure repo is actally absent of these"**; and then: **"lets make sure we dont miss any work and
+misclaim about it. make a rule to see the repo first and literature."**
+
+**Before an arc is opened, and before anything is called new, open, missing, impossible or unproved — in the record
+or in a sentence said to the owner — two things are looked at, in this order, and both are written down.**
+
+1. **The repo.** `python3 scripts/checks/topic_sweep.py "<expression>" --refs` reads every arc's verdict line on
+   main and greps every seat's lane; its last line is the citation. The arcs it returns are opened and read before
+   the statement is made. `absence_sweep.py` remains the sweep for one specific string anywhere.
+   **For B1–B500 a keyword is not enough** — their verdict lines predate the later vocabulary (the word "grammar" is in
+   none of them): read the subject's rows in `docs/EARLY_RECORD_INDEX.md` (every early arc under a subject; generated
+   and locked by `scripts/checks/early_record_index.py`).
+2. **The literature.** Search for the statement and for the object. Where a source is leaned on, read **its own
+   statement with its hypotheses**, not its abstract, and say which pages were read and which were not.
+
+**Where it is written.** From B1454 on, an arc's FINDINGS carries a section **"Seen first"** with the sweep's
+VERDICT line and the arcs read, and the searches made and the sources read (or "nothing found by these searches").
+The gate `seen-first` fails the push without it. In conversation the same holds in one clause: "swept" or "not swept".
+
+**Why it is binding.** The instance that prompted it was this seat's, said to the owner on 2026-10-02 from the
+memory of one week's lane: "there is no dynamics", "nothing selects", "nothing goes beyond coincidence". A sweep of
+the verdict lines contradicted each in two minutes — B944 had swept dynamics and chirality in August and concluded
+"neither is missing"; B715, B932, B929 and `docs/THE_SM_VERDICT.md` held the rest. The same day a lead was found
+to have called a theorem "proven" for a case its hypotheses exclude, from the abstract (B1450). **A seat's working
+memory is a sample of the record, and an abstract is a sample of a paper.**

@@ -52,6 +52,7 @@ under fresh main IDs and this table maps both directions forever).
 | B1305–B1307 | the_cloud_156_178 · the_older_debt · the_harvest_gate (main's) | — |
 | B1308–B1319 | *(reserved for the seat; B1308–B1315 granted 2026-09-08, extended to B1319 per its `SM_TO_CC_2026-09-08_THE_TOWER.md` ask)* | *(unused; the seat moved on)* |
 | **B1350–B1399** | *(reserved for the seat, per its collision note of 2026-09-08)* | **the_v10_direction (B1350)** and its continuation |
+| **B1500–B1599** | *(reserved for the seat, 2026-10-02, B1453: the seat numbered sm:B1501–sm:B1515 there after its first range filled; main must not assign in this range)* | **the join arcs: sm:B1501 the_torus_link_census … sm:B1515** |
 | B1320 | main: Phase 2 Arc 0, the PW localized count on the cyclic descent (2026-09-09) | — |
 | B1321 | main: L205, the sibling's localized count (2026-09-09) | — |
 | B1322 | main: L204 verified — the SM seat's sm:B1350 re-read on main (2026-09-09) | — |
