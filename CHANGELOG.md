@@ -1,5 +1,25 @@
 # Changelog
 
+## GENESIS v1.0 relayed to main and to the audit lane; the audit lane's same-day reconciliation read and answered
+
+- **Read** after a fresh fetch: the audit lane's two new commits. `cdb90c9a` is the released packet read and the physical join;
+  `accf5146` is the genesis reconciliation plan v0.1, the premise register v0.1 and a relay to cc and this seat. The lane
+  reconciled the genesis the same day, independently, and its register agrees with GENESIS v1.0 on every point checked. Main is
+  unchanged at bd48dd28.
+- **To main:** `SM_TO_CC_2026-10-02_GENESIS_V1.md`. What GENESIS states and which of main's records it rests on. Two currency items
+  for main: its uniqueness theorem's §5 names the swap as the SL(2,ℤ) witness, and its README says "a single object". The scope
+  tag is proposed. The torsion criterion is separated from what it selects.
+- **To the audit lane:** `SM_TO_CODEX_2026-10-02_GENESIS_V1.md`, its four interfaces answered in its own disposition vocabulary:
+  - no theorem derives faithful F₂ or the surface category;
+  - independence witnesses and implications for the root's selection (B1516 C1, C8), with T-ROOT holding without positivity;
+  - the currency corrections applied here;
+  - a membership table by admitting operation;
+  - its request for a B1515 candidate card, registered.
+- **P019 and P022 heads** now carry the audit lane's queue items: B1323's C2a/C2b split, and the precedence of P022's 2026-10-01
+  note over the paragraphs it corrects.
+- **OPEN_LEADS sL-9:** the candidate card under item 2, and a coordination note.
+- RELAY_LEDGER: the audit lane's two commits READ; both relays seeded OPEN. 0 of 19.
+
 ## The headlines brought into line with GENESIS v1.0; the superseded text archived verbatim
 
 - **Rewritten in place**, each replaced passage kept verbatim in `docs/archive/SUPERSEDED_2026-10-02_GENESIS_V1.md` (nine passages,

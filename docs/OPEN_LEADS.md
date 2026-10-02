@@ -3718,6 +3718,9 @@ before it is computed.
      10 + 5̄ but no harmonic background), and m369 and s639 (the class-index frame's own-level carriers).
    - The class-index frame on m369 and s639 built from their own arithmetic (main's L229 (iii)).
    - The Gieseking manifold m000 in any frame (FK2: carry both roots).
+   - The audit lane's request (2026-10-02, `cdb90c9a`): a fixed candidate card for B1515's (1/8, 1/2) member on M₆, with its
+     literal matrices or cocycle, its commuting peripheral words, its source and end assumptions and a proposed interaction
+     channel, so that both lanes test the same configuration. The pointers are in `../SM_TO_CODEX_2026-10-02_GENESIS_V1.md` §3.
 3. **The end law (GAP2, FK10; sL-8).** An end condition derived from physics. B1504: the architecture's own data pick non-chiral
    completions, so the chiral datum must come from the completion's physics.
 4. **The source (GAP3).** What a source must supply for a non-split background (the audit lane's R41), frame by frame.
@@ -3728,3 +3731,7 @@ partners) deepen m004's family in one frame (reach single). They are not next. B
 
 **The foundations' own forks** (GENESIS §8): FK1, the principle's wording, is the owner's; FK3 and FK2 (the swap's meaning, and
 orientation) stay with sL-3; FK7 (the deck) with sL-5.
+
+**Coordination (2026-10-02).** The audit lane reconciled the genesis the same day, independently (its premise register v0.1 and
+plan v0.1 at `accf5146`). Its register and GENESIS v1.0 agree on every point checked. Its typed atlas (its stage 3) and this
+seat's GENESIS §3 and §5 should become one; the relay `../SM_TO_CODEX_2026-10-02_GENESIS_V1.md` asks which way.

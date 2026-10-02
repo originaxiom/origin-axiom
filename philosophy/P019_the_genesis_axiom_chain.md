@@ -3,6 +3,10 @@
 > **Canonical statement (2026-10-02): `../GENESIS.md` v1.0.** This chain's labels map to GENESIS IDs: A0 + A2 → PF2
 > (A2's content is also GM3); A5 and A5b → GM4, the puncture CONDITIONAL after the audit lane's R57; A6 → SE2; T3 and T4 →
 > the words route of GENESIS §4; T7 → the root's identification. Where this file disagrees with GENESIS, GENESIS holds.
+> - T4 is two things, as main's B1323 splits it: a theorem (self-similarity forces a quadratic slope, its C2a) and a
+>   criterion (minimality picks the golden slope, its C2b). The criterion is a choice, as SE1 is in GENESIS §4.
+> - The "unique object" language below is historical. Its 2026-09-27 correction (P022) gives the chain's output as the root
+>   of a generated state space, and GENESIS §3–§4 states that output.
 
 > **Philosophy — motivation only** (`GOVERNANCE.md`). Not a claim; never a premise of a proof;
 > nothing promotes to `../CLAIMS.md`. Cites the mathematics one-way. **DRAFT for the owner's

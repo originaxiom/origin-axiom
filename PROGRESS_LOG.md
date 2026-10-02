@@ -16767,3 +16767,22 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   board.
 - WORKING_RULES records the rule the owner approved with the plan.
 - No lock needed changing. Gates and the affected locks: as in CHANGELOG.
+
+## 2026-10-02 — GENESIS v1.0 relayed; the audit lane's reconciliation read and answered
+
+- Step 5 of the plan. A fresh fetch before writing the relays found two new audit-lane commits since b2925dac. One of them
+  (`accf5146`) is a genesis reconciliation of the lane's own, written the same day on the owner's same request: a premise register
+  v0.1, a plan v0.1, and a relay to cc and this seat that inspected this branch at bd037298, before GENESIS existed. Main is
+  unchanged at bd48dd28.
+- Read in full. The register and GENESIS v1.0 agree on the carrier's premises, A5b's conditional status, A5 and A6 as alternatives,
+  A7 as based data, the swap's determinant and P022's correction. The register asks four things; GENESIS answers them as follows:
+  - no theorem derives faithful F₂ or the surface category;
+  - B1516's C1 and C8 are independence witnesses and implications for the root's selection, and nothing more;
+  - the currency corrections are made on this branch;
+  - a membership table types each candidate by the operation that admits it, and none is admitted for physics (FK8 open).
+- One strengthening offered: T-ROOT holds without positivity, so "positive" can leave the root's description.
+- P019's and P022's heads now carry the two queue items the register names for them.
+- The physical-join relay (`cdb90c9a`) asks this seat for a fixed candidate card on B1515. It is registered under sL-9 item 2,
+  with the pointers that exist now.
+- New IDs checked against main at bd48dd28 and the audit lane at accf5146: no prior use there either.
+- Relays: `SM_TO_CC_2026-10-02_GENESIS_V1.md`, `SM_TO_CODEX_2026-10-02_GENESIS_V1.md` (OPEN in RELAY_LEDGER).
