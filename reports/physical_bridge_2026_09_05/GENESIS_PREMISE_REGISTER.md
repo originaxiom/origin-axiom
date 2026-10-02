@@ -1,4 +1,4 @@
-# Genesis premise register — route-qualified, version 0.1
+# Genesis premise register — route-qualified, version 0.2
 
 October 2, 2026. Initial reconciliation under
 [the implementation plan](GENESIS_RECONCILIATION_PLAN_2026_10_02.md).
@@ -6,6 +6,17 @@ This is a source/dependency register, not a newly proved independence
 theorem. Its exact source versions and reading grades are in
 [the manifest](GENESIS_RECONCILIATION_INPUTS.json).
 The [sealed operational contract](OPERATIONAL_CONTRACT.md) remains unchanged.
+
+**R79 constructive checkpoint:** known Nielsen mathematics recovers the
+unoriented commutator class from faithful abstract F2, with no preferred
+basis. A topological one-holed-torus realization is available; this does
+not derive its physical use or prohibit natural quotients. Boundary-fixed
+normalized lifts retain an integer torsor over their outer class; its
+physical status depends on transporting/observing full marked data.
+The exact flat-data framing comparator and29 focused tests pass unchanged
+after pre-execution seal2bfdffc7. See [the scoped report](CARRIER_PERIPHERY.md).
+Independent analytic review and axiom-minimality remain open. This
+register is a living correction, not an edit of historical sealed inputs.
 
 **R78 checkpoint:** GENESIS v1/B1516 is now read and its signed-level
 interface independently tested at e1bc9c36. Negative even unsigned
@@ -62,8 +73,8 @@ the conjugacy conclusion stands. No new calculation is claimed here.
 | Words:A2 / chain:C3 — inexhaustibility | Selects aperiodic descriptions; excludes shorter periodic comparators | Premise. Renaming A0+A2 one commitment packages a conjunction; it is not a proof that either follows from the other. |
 | Words:T3 / chain:C1 — factor-complexity minimum | Morse–Hedlund/Sturmian result under the stated sequence hypotheses | Conditional theorem, with its input category retained. Selects a class, not a unique golden slope by itself. |
 | Words:T4 / chain:C2a,C2b — self-similarity and slope selection | B1323 separates quadratic-slope self-similarity from an additional selection criterion | Preserve the split. Its finite criterion census and classical results do not prove that every interpretation of minimal description chooses golden. Keep the plastic and periodic counter-criteria in their proper comparison classes. |
-| Words:A5 / chain:C4 — geometric realization | Faithful F2 carrier, finite-type surface and homeomorphism realizing the substitution | Load-bearing realization premises. The surface category and faithful realization are not supplied by a theorem prohibiting natural quotients. |
-| Words:A5b — puncture | B1380's peripheral/eigenvalue proof excludes the other stated finite-type F2 surfaces | Conditional consequence of the preceding full carrier premises, at R57 authored-proof-audit grade; B1380's producer/geometry not newly reproduced here. This saves a separate puncture choice on this route, not the geometric-realization choice. |
+| Words:A5 / chain:C4 — geometric realization | Faithful F2 word data; known Nielsen peripheral recovery and one-holed-torus topological realization; chosen physical carrier/category | R79 narrows the price: the unoriented commutator class is basis-independent, not an arbitrary supplied boundary word. Physical fidelity/realization is still load-bearing and is not forced by no-selector. Classical existence up to equivalence is not a physical identification. |
+| Words:A5b — puncture | B1380's peripheral/eigenvalue proof excludes the other stated finite-type F2 surfaces | Conditional consequence retained; B1380's producer/geometry not newly rerun. R79 safeguards canonical periphery and actual golden lifts, not independent topological acceptance or a physical puncture law. Boundary fixed pointwise and unmarked puncture/free boundary must not be conflated. |
 | Words:A6 / chain:C5 — orientation/squaring | Relates sigma and sigma-squared once their realizations are specified | Premise/sector choice. Its role changes if the swap is a legal update. No physical chirality, Pin type, spacetime orientation or causal law is thereby derived. |
 | Words:T7 — mapping torus identification | Connects the specified punctured-torus monodromy with m004 and its hyperbolic structure | Conditional geometric identification. The new checkpoint has not rerun its geometric certificate or audited every downstream implication. |
 

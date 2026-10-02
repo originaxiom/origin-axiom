@@ -1,5 +1,23 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**LATEST foundation checkpoint, path-local R79 (October 2):** abstract
+faithful F2 recovers its unoriented commutator/peripheral conjugacy class
+by known Nielsen mathematics; the topological surface realization is
+available, not yet identified as physical. Outer/homology reduction loses
+an integer normalized boundary lift. A framing change transports slope
+(p,q) to (p+kq,q); a nonabelian flat-data comparator detects an untransported
+numeric label and recovers agreement after actual transport. No extra
+physical coupling or chirality is thereby forced. Science seal2bfdffc7
+pushed/confirmed before execution; 1,365 Nielsen sequences, 343 slope and
+1,512 blind scalar controls pass unchanged.29 focused tests pass (8 new,
+7 R57,14 R78); independent analytic review/full-suite/main propagation
+remain pending. Received B1517 numerical census not rerun; R78 signed-
+power correction retained. Next same-model source/end/action admission.
+R77 remains unsealed/unrun; parameter-free SM/TOE ACTIVE/unachieved.
+Report: reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY.md.
+Earlier dated entries retain their exact scopes.
+
+
 **LATEST foundation audit, path-local R78 (October 2):** signed powers
 and ordinary cyclic levels were conflated in B1516 C9. Its original
 168-matrix check still passes while an additional reconstruction

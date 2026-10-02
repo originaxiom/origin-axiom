@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "audit": "R79 supplementary detector integration",
+  "state": "sealed before first execution/import",
+  "scientific_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_DETECTOR_DESIGN.md",
+      "sha256": "4ff02c9571a3cfaefcab137c93060cea854da66250a0a4f7be787fb9024afeb7",
+      "bytes": 2035
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "bytes": 9597
+    },
+    {
+      "path": "tests/test_physical_bridge_carrier_detector.py",
+      "sha256": "d76cb970c3e1cc88bd9519aad3bc96640d091aa93670fa5cead12eb747d83a4c",
+      "bytes": 3025
+    }
+  ]
+}

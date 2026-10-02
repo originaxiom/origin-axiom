@@ -1,5 +1,14 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+**LATEST path-local R79 (October 2):** known Nielsen periphery recovery
+and the orientation-positive normalized-lift kernel are recorded at EOF
+with their classical sources, exact safeguards and explicit physical
+limits. Nonabelian marked slope transport passes; 29 focused tests pass
+unchanged after science seal 2bfdffc7. No original-mathematics, physical
+carrier, independent analytic acceptance or full-suite claim. R78's
+signed-power correction survives. Full SM/TOE goal ACTIVE/unachieved.
+Report: reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY.md.
+
 **LATEST foundation audit, path-local R78 (October 2):** signed powers
 and ordinary cyclic levels were conflated in B1516 C9. Its original
 168-matrix check still passes while an additional reconstruction
@@ -1186,3 +1195,17 @@ global normal-form theorem, new manifold or physical interpretation.
 | S3: U is no proper GL(2,Z) matrix power | Negative hyperbolic trace7 excludes even real-eigenvalue roots and unit-modulus complex roots; odd hyperbolic root traces grow to absolute value >=18. General proof authored, not inferred from a bounded root search. No exclusion of non-cyclic manifold relations. | B1516 C9 reconstruction claim is the audit target, NOT the source of this proof; R78 SIGNED_LEVEL_PROOF.md S3; tests/test_physical_bridge_signed_level.py::test_even_power_root_reason_requires_hyperbolic_target (opposite controls, not independent analytic review) |
 | S4: unsigned-primitive signed seeds and their ordinary cyclic levels omit U | Mixed positive trace bound >= length+1 gives a COMPLETE length<=6 window at trace7. Primitive negative candidate has C9 rather than C3+C3; S3 excludes higher levels. Original 758 restricted-family results and LR selector remain intact. No whole-corpus absence or new-object claim. | B1516/B1434/B1439 family definitions context; R78 SIGNED_LEVEL_PROOF.md S4; tests/test_physical_bridge_signed_level.py::test_complete_trace_seven_window_and_cover_law |
 | S5: signed-after-power coordinates retain ordinary cover transport | (u,k,eps) means eps A(u)^k, degree n maps to (u,kn,eps^n). m207 and m206 share M(A^4)=t12839 as a double cyclic cover. 3,328 declared finite cover controls safeguard the identity, not a global conjugacy classification or physical join. | B1516 C6 ordinary-cover convention and B1385 S4 named states are prior context, not this proof; R78 SIGNED_LEVEL_PROOF.md S5; tests/test_physical_bridge_signed_level.py::test_complete_trace_seven_window_and_cover_law; signed_level_geometry.py and SIGNED_LEVEL_RECEIPTS.json for interval/isometry comparisons |
+
+## Recoverable periphery and retained boundary markings, October 2 2026
+
+Path-local R79 reuses classical theorems, with authored deductions and
+exact finite safeguards. Not original mathematics, independent analytic
+acceptance, a forced physical carrier or an added physical parameter.
+
+| law | hypotheses, scope and boundary | source / lock |
+|---|---|---|
+| M1: abstract F2 earns the unordered commutator conjugacy class | Genuine automorphisms/isomorphisms, not arbitrary endomorphisms. Sign is homology determinant; no classification of all invariant data, no physical fidelity theorem. | B1380 carrier context and P5 PHASE3_VERDICT warning, not origins of Nielsen's theorem; R79 CARRIER_PERIPHERY_PROOF.md M1 cites primary sources; tests/test_physical_bridge_carrier_periphery.py::CarrierPeripheryTests::test_genuine_automorphisms_recover_signed_periphery and test_unimodular_endomorphism_is_not_an_automorphism_certificate |
+| M2: topological realization does not alone identify a physical carrier | Standard one-holed torus for F2 peripheral pair; B1380's finite-type/golden restriction retained. R57 natural quotient remains; graph model does not refute reconstruction. Classical source theorem not certified by finite counts. | B1380 conditional theorem context; R79 CARRIER_PERIPHERY_PROOF.md M2, Goldman propositions1.1.1-1.1.2, source pins in CARRIER_PERIPHERY_INPUTS.json |
+| M3: normalized orientation-positive lifts retain an integer kernel | Aut(F2,c)->SL(2,Z) has kernel Inner(c)^Z; central only in orientation-positive sector. A supplied based lift may add data; not a theorem no further principle selects it or the integer is physical. | B1303 boundary-fixed conjugate context, not origin of classical extension; R79 CARRIER_PERIPHERY_PROOF.md M3; tests/test_physical_bridge_carrier_periphery.py::CarrierPeripheryTests::test_normalized_lifts_are_distinct_despite_same_homology |
+| M4: residual lift changes require full marked slope transport | Supplied mapping-torus groups, t_k->c^k t, slope(p,q)->(p+kq,q). Finite nonabelian flat representation detects untransported labels; abelian fibre holonomies blind. Not geometry/index certification or physically inequivalent vacua. | B1379/R57 flat descent and B1384/R58 transport contexts; R79 CARRIER_PERIPHERY_PROOF.md M4; tests/test_physical_bridge_carrier_periphery.py::CarrierPeripheryTests::test_nonabelian_flat_descent_control_and_transport and test_slope_is_transported_not_frozen_as_a_number |
+| M5: actual golden and recorded normalized words agree | Sigma=(ab,a), sigma^2=(aba,ab), B1303 g=(aab,ab), normalized f0=(aba,ba), same LR matrix. Exact free words, not closing/index recertification or native physical reachability. | B1380/B1303 actual-word sources; R79 CARRIER_PERIPHERY_PROOF.md M5; tests/test_physical_bridge_carrier_periphery.py::CarrierPeripheryTests::test_record_normalizations_are_actual_words |

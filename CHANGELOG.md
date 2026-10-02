@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-10-02 — R79 constructive periphery and marked flat transport
+
+Known Nielsen mathematics recovers an unoriented peripheral class from
+faithful F2; classical topological surface realization is distinguished
+from its physical use. Normalized golden lifts and the integer residual
+boundary framing are checked exactly. A nonabelian finite coefficient
+distinguishes an untransported numeric slope and recovers the transported
+one; abelian fibre data are a blind opposite control. No new gauge group,
+coupling, chirality or geometry selection. Five scientific paths sealed,
+pushed/confirmed at2bfdffc7 before first run; producer and29 focused tests
+pass unchanged (8 new,7 R57,14 R78). Source/reading limits and eight
+raw captures retained. Premise register v0.2 and current audit front doors
+updated, immutable contract/science untouched. B1517 received but its
+numerical census not independently rerun. Direct sender relay OPEN;
+independent analytic/main/full-suite acceptance pending. R77 unrun and
+full SM/TOE goal ACTIVE/unachieved. Report:
+reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY.md.
+
 ## 2026-10-02 — R78 signed-level reconstruction defect independently checked
 
 Seven science paths sealed/pushed at64a96ea6 before execution. Original

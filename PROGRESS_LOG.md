@@ -16484,3 +16484,39 @@ digests are appended at EOF, without deleting first records or touching
 science. Failed output and identical final governance output are added
 to publication checks. Metadata JSON assembly also required explicit
 UTF-8 labels on binary-read log strings; no raw byte changed.
+
+## 2026-10-02 — R79 constructive carrier and boundary-marking checkpoint
+
+Executed the first carrier/periphery question from the approved genesis
+plan without rebuilding B1380's puncture census. Personally read primary
+Gupta-Shpilrain all9 pages, Goldman relevant corrected mapping-class
+sections, Auroux sections1-2.2 and Bridson-Vogtmann opening context;
+reading limits and download hashes retained. Wrong guessed publisher
+paper detected/excluded and forbidden book download not treated as a
+mathematical result. Known Nielsen theorem recovers an unoriented
+commutator/peripheral class in faithful F2. Topological reconstruction
+and physical realization are not conflated; R57 natural quotient survives.
+
+Five scientific paths sealed/pushed/server-confirmed at2bfdffc7 before
+first import/run. Explicit golden and B1303 boundary-normalized words
+agree. All1,365 declared Nielsen sequences,343 slope controls and1,512
+blind scalar controls pass unchanged. The nonabelian SL(2,F3) comparator
+has rho(c)=-I and order3 transversal, detecting a frozen (1,3) label but
+recovering its actually transported (4,3). This is flat-data transport,
+not geometric filling, chirality or a selected physical gauge group.
+All29 focused tests pass first (8 new,7 R57,14 R78). Eight raw command/
+exit/stdout captures and unchanged HEAD/tree/science custody retained.
+No science repair; two malformed metadata patches failed without
+applying their target changes, then were corrected. Historical inputs,
+the R58 sealed operational contract and R77 drafts are untouched.
+
+Premise register and plan v0.2 now retain constructive peripheral
+recovery while pricing physical fidelity/realization and boundary
+markings. Five law-scope rows and current reader surfaces updated;
+B1517 source/producer/relay read at cf8506c2, numerical758/536 census
+not independently reproduced. Direct sender relay supplies executed
+R78 result6ecfccc9 and R79 scope; receiver acceptance stays OPEN.
+Independent analytic review, main propagation and full-suite certification
+remain pending. Next common source/end/action admission and actual
+spectrum/anomalies/interactions, not another preferred-root census.
+Full parameter-free Standard Model/TOE ACTIVE/unachieved.

@@ -7,7 +7,8 @@ instrument rather than another hand-inspection.
 
 Three classes are reported:
 
-  NO-ASSERT      a test function with no assertion and no pytest.raises/fail/warns/approx.
+  NO-ASSERT      a test function with no assertion and no pytest.raises/fail/warns/approx
+                 or supported standard unittest assertion expression.
   TAUTOLOGY      `assert True`, or `assert X == X` with syntactically identical sides.
   BOTH-LITERAL   `assert A == B` where BOTH sides trace back to hand-written literals --
                  the subtle one. A "cross-check" comparing two hand-typed copies of the same
@@ -35,6 +36,52 @@ import sys
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 _OK_CALLS = {"raises", "fail", "warns", "approx", "skip", "xfail"}
+
+
+def _unittest_assertions(tree, fn):
+    """Lower four genuine standard TestCase methods, not arbitrary assert* calls.
+
+    Narrow syntax coverage, not runtime soundness: dynamic rebinding, inherited
+    aliases and arbitrary helper methods remain outside this AST instrument.
+    Unlike an allow-list exemption, the resulting expressions still receive
+    the normal tautology and both-literal checks.
+    """
+    standard_import = any(isinstance(n, ast.Import) and any(
+        a.name == "unittest" and a.asname in (None, "unittest") for a in n.names
+    ) for n in tree.body)
+    methods = {"assertTrue", "assertFalse", "assertEqual", "assertNotEqual"}
+    if not standard_import:
+        return []
+    parent = next((n for n in ast.walk(tree) if isinstance(n, ast.ClassDef)
+                   and fn in n.body), None)
+    if parent is None or not any(
+        isinstance(b, ast.Attribute) and isinstance(b.value, ast.Name)
+        and b.value.id == "unittest" and b.attr == "TestCase" for b in parent.bases
+    ):
+        return []
+    if any(isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name in methods
+           for n in parent.body):
+        return []
+    out = []
+    for n in ast.walk(fn):
+        if not (isinstance(n, ast.Call) and isinstance(n.func, ast.Attribute)
+                and isinstance(n.func.value, ast.Name) and n.func.value.id == "self"
+                and n.func.attr in methods):
+            continue
+        name = n.func.attr
+        count = 1 if name in {"assertTrue", "assertFalse"} else 2
+        if len(n.args) < count:
+            continue
+        if name == "assertTrue":
+            expr = n.args[0]
+        elif name == "assertFalse":
+            # Fold a constant negation so assertFalse(False) is still flagged.
+            expr = ast.Constant(not n.args[0].value) if isinstance(n.args[0], ast.Constant) else ast.UnaryOp(ast.Not(), n.args[0])
+        else:
+            op = ast.Eq() if name == "assertEqual" else ast.NotEq()
+            expr = ast.Compare(n.args[0], [op], [n.args[1]])
+        out.append(ast.copy_location(ast.Assert(expr, None), n))
+    return out
 
 
 def _disqualified(fn):
@@ -123,6 +170,7 @@ def scan():
                 continue
             total += 1
             asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
+            asserts += _unittest_assertions(tree, fn)
             calls = {getattr(getattr(n, "func", None), "attr", None)
                      for n in ast.walk(fn) if isinstance(n, ast.Call)}
             if not asserts and not (_OK_CALLS & calls):

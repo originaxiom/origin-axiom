@@ -1599,3 +1599,18 @@ design before the first exact finite producer/test run.
 | `reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_INPUTS.json` | `87462e7429ba42a925e7e638e8a27b4621b6f2802d65fb797095200c9b1b16dd` |
 | `reports/physical_bridge_2026_09_05/carrier_periphery.py` | `0334be8ef4e878a27ce8ffe87efa91dd82a018d921d1575589f86fae86df0a41` |
 | `tests/test_physical_bridge_carrier_periphery.py` | `ab16762d97ec256df16222683e4fb5c2000a156a617451362feb71fa1a7a8ffe` |
+
+## October 2 R79 supplementary assertion-detector pre-execution seal
+
+Post-science integration calibration; original five R79 scientific paths
+stay unchanged. First governance stdout retained. Recognize four standard
+unittest methods as assertion expressions; retain tautology checks and
+reject dummy/override methods. No gate baseline, waiver or population
+change. Design, detector and calibration tests sealed before their run;
+commit/push/server-confirm before executing/importing the supplement.
+
+| Supplementary path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_DETECTOR_DESIGN.md` | `4ff02c9571a3cfaefcab137c93060cea854da66250a0a4f7be787fb9024afeb7` |
+| `scripts/checks/check_test_vacuity.py` | `cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867` |
+| `tests/test_physical_bridge_carrier_detector.py` | `d76cb970c3e1cc88bd9519aad3bc96640d091aa93670fa5cead12eb747d83a4c` |

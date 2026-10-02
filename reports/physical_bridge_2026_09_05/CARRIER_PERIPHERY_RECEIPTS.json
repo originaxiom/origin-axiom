@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "audit": "R79",
+  "seal_pin": "2bfdffc726278eca12308d33e6a725c9bbc49db3",
+  "scope": "Exact finite controls and focused tests; no independent analytic acceptance, full-suite certificate or physical model",
+  "runs": {
+    "remote_seal": {
+      "raw_basename": "remote_seal",
+      "raw_receipt_sha256": "44875c3da78e41c0db831162d622c5ddfc3ff044d1e215a6bc4e4905162ba47d",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.661921999999322,
+        "log_bytes": 85,
+        "log_sha256": "0182bc7eb62262a333afd4cf652f0e7f3568a550aa439cdbf1845a32d30e20b2"
+      },
+      "stdout": "2bfdffc726278eca12308d33e6a725c9bbc49db3\trefs/heads/audit/physical-bridge-2026-09-05\n"
+    },
+    "envelope_before": {
+      "raw_basename": "envelope_before",
+      "raw_receipt_sha256": "5298f502212cc5ba4873d8f0b39bc68a84b14d10fb3c20293b5ac774b136f515",
+      "receipt": {
+        "command": [
+          "git",
+          "status",
+          "--porcelain"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.2899619999807328,
+        "log_bytes": 172,
+        "log_sha256": "d61e9250c6d2bc4f2114275d4a5473cc9bbf2cb972a270349923224a6eb094de"
+      },
+      "stdout": "?? reports/physical_bridge_2026_09_05/SOURCE_CORE_DESIGN.md\n?? reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md\n?? reports/physical_bridge_2026_09_05/source_core.py\n"
+    },
+    "interpreter": {
+      "raw_basename": "interpreter",
+      "raw_receipt_sha256": "b273dbd0be07aa0418c6cde9839025a4295fd85f815fd5b175a2a8bca6663cb2",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3",
+          "--version"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.011275999946519732,
+        "log_bytes": 14,
+        "log_sha256": "dcb737faa084c7cd7f663dbd70770a5f36cb24adde3f8eec26ee3231f1fa8acd"
+      },
+      "stdout": "Python 3.12.1\n"
+    },
+    "native_first": {
+      "raw_basename": "native_first",
+      "raw_receipt_sha256": "e74a126218130f43af1b4ede4e64ca1678450ee45521fd9155c81542c61a25cc",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/carrier_periphery.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.12394000007770956,
+        "log_bytes": 931,
+        "log_sha256": "a535d692cbe118bbc32c520204a76d6539be82b76cdfb40a2abf27a2b91649c0"
+      },
+      "stdout": "{\n  \"abelian_blind_controls\": 1512,\n  \"all_order_three_transversals_SL2F3\": [\n    [\n      1,\n      0,\n      2,\n      1\n    ]\n  ],\n  \"determinant_counts\": {\n    \"-1\": 682,\n    \"1\": 683\n  },\n  \"framed_k_min_max\": [\n    -3,\n    3\n  ],\n  \"nielsen_sequences_length_0_to_5\": 1365,\n  \"normalized_golden_images\": [\n    [\n      1,\n      2,\n      1\n    ],\n    [\n      2,\n      1\n    ]\n  ],\n  \"opposite_commutator_cyclic_length\": 12,\n  \"opposite_endomorphism_homology\": [\n    1,\n    0,\n    0,\n    1\n  ],\n  \"rho_commutator\": [\n    2,\n    0,\n    0,\n    2\n  ],\n  \"rho_slope_1_3_frame0\": [\n    2,\n    0,\n    0,\n    2\n  ],\n  \"rho_slope_1_3_frame1\": [\n    1,\n    0,\n    0,\n    1\n  ],\n  \"rho_transported_slope_4_3_frame0\": [\n    1,\n    0,\n    0,\n    1\n  ],\n  \"scope\": \"exact finite safeguards; authored universal deductions separately scoped\",\n  \"selected_T\": [\n    1,\n    0,\n    2,\n    1\n  ],\n  \"slope_integer_controls\": 343,\n  \"verdict\": \"PASS\"\n}\n"
+    },
+    "tests_first": {
+      "raw_basename": "tests_first",
+      "raw_receipt_sha256": "e3ad33c158e331c0ef84c66fae10081041e9e99539bdcf149060914fd2dafe3e",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "tests/test_physical_bridge_carrier_periphery.py",
+          "tests/test_physical_bridge_root_scope.py",
+          "tests/test_physical_bridge_signed_level.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.149715000065044,
+        "log_bytes": 99,
+        "log_sha256": "2b65cfbc8dc50d97a7b3a44d4717950c599ff13af3c8375aa82b4a1cb08955c1"
+      },
+      "stdout": ".............................                                            [100%]\n29 passed in 3.64s\n"
+    },
+    "envelope_after": {
+      "raw_basename": "envelope_after",
+      "raw_receipt_sha256": "7e9efb5cd478dc29cd504dd731d9719023bd38783ad8521c7826909f556f7257",
+      "receipt": {
+        "command": [
+          "git",
+          "status",
+          "--porcelain"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.12857899989467114,
+        "log_bytes": 172,
+        "log_sha256": "d61e9250c6d2bc4f2114275d4a5473cc9bbf2cb972a270349923224a6eb094de"
+      },
+      "stdout": "?? reports/physical_bridge_2026_09_05/SOURCE_CORE_DESIGN.md\n?? reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md\n?? reports/physical_bridge_2026_09_05/source_core.py\n"
+    },
+    "head_after": {
+      "raw_basename": "head_after",
+      "raw_receipt_sha256": "472abdb14ba377f44e26c981174fc166f4c17a963cc87825fdfb63840173f48b",
+      "receipt": {
+        "command": [
+          "git",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.03115100006107241,
+        "log_bytes": 41,
+        "log_sha256": "d210a6018e917713831285a955b81e45d6fa775b953cfc79b9a286fea95a23cc"
+      },
+      "stdout": "2bfdffc726278eca12308d33e6a725c9bbc49db3\n"
+    },
+    "frozen_after": {
+      "raw_basename": "frozen_after",
+      "raw_receipt_sha256": "9888364b01a30404218f9606bc14480934702638587d5ff4097df3dd8d88784a",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "-rjson",
+          "-rdigest",
+          "-ropen3",
+          "-e",
+          "base='reports/physical_bridge_2026_09_05/';raw=ARGV.fetch(0);seal='2bfdffc726278eca12308d33e6a725c9bbc49db3';d=JSON.parse(File.read(base+'CARRIER_PERIPHERY_SEAL.json'));d.fetch('scientific_paths').each{|r|b,e,s=Open3.capture3('git','show',seal+':'+r['path']);abort(e) unless s.success?;abort('changed science') unless b.b==File.binread(r['path'])&&Digest::SHA256.hexdigest(b)==r['sha256']};abort('changed envelope') unless File.binread(raw+'/envelope_before.log')==File.binread(raw+'/envelope_after.log');abort('changed HEAD') unless File.read(raw+'/head_after.log').strip==seal;puts JSON.generate(frozen_science:d['scientific_paths'].size,unchanged_envelope:true,unchanged_HEAD:true,seal_pin:seal)",
+          "<r79-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.28604899998754263,
+        "log_bytes": 123,
+        "log_sha256": "e9666f80f4c7daa2c41dd5ce82926db7fdf1812a17eee66c9952245fac6cc5a9"
+      },
+      "stdout": "{\"frozen_science\":5,\"unchanged_envelope\":true,\"unchanged_HEAD\":true,\"seal_pin\":\"2bfdffc726278eca12308d33e6a725c9bbc49db3\"}\n"
+    }
+  }
+}

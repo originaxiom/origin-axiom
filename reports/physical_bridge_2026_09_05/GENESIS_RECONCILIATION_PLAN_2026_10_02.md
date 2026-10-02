@@ -1,6 +1,6 @@
 # Genesis checkpoint: reconcile the foundations, then return to physics
 
-October 2, 2026. Owner-requested implementation plan, version 0.1.
+October 2, 2026. Owner-requested implementation plan, version 0.2.
 This is design and source reconciliation, not a new scientific arc or a
 certificate of minimal axioms. It continues the [approved mission](PHYSICS_MISSION.md):
 derive a parameter-free Standard Model and complete unified physical
@@ -61,6 +61,12 @@ not agreement on all philosophical interpretations.
 - [x] Create the initial premise register and typed membership/transport
   questions without selecting a physical winner.
 - [x] Specify acceptance/reopening rules and a living-document migration queue.
+- [x] Independently execute R78's signed-level reconstruction check;
+  preserve the restricted family and certify its known m207 witness.
+- [x] Complete the bounded R79 constructive periphery/marking audit:
+  reuse Nielsen/B1380, check actual normalized golden words and full
+  marked flat-data transport.29 focused tests pass unchanged; authored
+  analytic scope is not independent review or carrier necessity.
 - [ ] Complete producer/history reconciliation for each proposed premise
   removal; seal any new significant proof/countermodel probe before execution.
 - [ ] Independently verify the load-bearing carrier/class identifications
@@ -83,6 +89,10 @@ First reconcile three questions, using existing proofs before new computation:
    surface, faithful F2 and homeomorphism hypotheses. Check which of these
    are premises, consequences or definitional choices. Do not use the
    no-selector theorem to prohibit all natural quotients.
+   R79 disposition: faithful F2 recovers its unoriented commutator class;
+   topological realization is available. Price physical realization and
+   retained boundary markings separately. The same theory must transport
+   slopes/holonomies/source and domain, not merely unmarked matrices.
 2. **Primitive rule versus minimizer:** separate unit positive shears,
    allowed word lengths, torsion filtering and trace minimization. Legacy
    A5/A6 are alternative routes in the stated family, not evidence of two

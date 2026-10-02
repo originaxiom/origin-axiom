@@ -1,5 +1,13 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+**R79 foundation disposition (October 2):** classical Nielsen periphery
+is recoverable in faithful F2; unmarked topological reconstruction does
+not yet identify a physical carrier. The normalized-lift/slope transport
+comparator passes unchanged, with29 focused tests. Independent analytic
+review, marked physical data and source/end/action admission remain open.
+No further B1380 puncture census is requested. Detailed duty at EOF;
+reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY.md.
+
 **Current path-local R73 (October 1):** the actual compact phase orbit
 preserves nonlinear residual action, peripheral conjugacy and transported
 Q graph/current data. Its finite-norm tangent has a divergent straight
@@ -4406,3 +4414,29 @@ B1445/B1446 deformation and cross-member branch positives likewise retained.
   action, domains and interactions. No three physical generations, new
   physical vacuum or complete axiom-minimality certificate is earned.
   R77 drafts remain unsealed/unrun; full parameter-free SM/TOE unachieved.
+
+## October 2 path-local R79 carrier and periphery disposition
+
+- PB-CARRIER: retain the constructive recovery of the unordered
+  commutator class within faithful F2 and the classical topological
+  realization. This is not an implication that nature must retain all
+  words or use that surface; R57's natural quotient remains legal.
+  Review the analytic deductions M1-M5 and version0.2 premise register
+  independently; no reviewed logically minimal axiom set yet.
+- PB-MARKING: normalized lifts differ by Inner(c)^k. The exact group map
+  transports (p,q) to (p+kq,q). Scalar fibre characters are blind; the
+  nonabelian control distinguishes a frozen label and recovers agreement
+  under transport. Decide convention versus physical observable only
+  with actual source/end/action/domain data. No extra free coupling
+  or physically inequivalent vacua are claimed. Source and locks:
+  reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY.md and
+  tests/test_physical_bridge_carrier_periphery.py.
+- PB-COORDINATION: B1517 source/producer/relay received at cf8506c2,
+  numerical geometry census not independently reproduced. New sender
+  relay supplies executed R78 result6ecfccc9 and R79 marking scope;
+  recipient receipt/review/main propagation remain OPEN.
+- PB-ACTION: next price the common coupled source/end law and both
+  bulk/source variations before R77 execution; same-background spectrum,
+  norms, anomalies and normalized interactions remain physical duties.
+  The full parameter-free SM/TOE goal is ACTIVE/unachieved. No global
+  architecture kill or promise of completion by an enlarged census.
