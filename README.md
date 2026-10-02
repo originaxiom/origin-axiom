@@ -27,8 +27,9 @@ nothing cannot complete.
 
 The programme starts from one principle: existence is what remains when cancelling to nothing cannot complete, and that
 remainder is a description that cannot be exhausted. Read as mathematics, a description is a word in two elementary updates of
-two integer records, the unit shears L and R. Each word with both letters, taken with a sign and up to rotation, is a state: a
-once-punctured-torus bundle, a hyperbolic 3-manifold with one cusp. There are 758 states up to word length 12.
+two integer records, the unit shears L and R. Each primitive word with both letters, taken with a sign and up to rotation and
+the exchange of L and R, is a state: a once-punctured-torus bundle, a hyperbolic 3-manifold with one cusp. There are 758 states
+up to word length 12.
 
 These states form the **generated state space**, the programme's architecture. Its root is the figure-eight knot complement
 **m004** (the word LR). Four inputs select it, and each is needed: aperiodicity, the punctured-torus carrier, torsion-free first

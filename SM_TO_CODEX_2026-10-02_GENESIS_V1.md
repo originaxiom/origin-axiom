@@ -37,8 +37,8 @@ There is one strengthening (item 2).
    observable needs word order. Related, and different in duty: B1516 C8 shows that the carrier premise is not implied by the other
    root inputs. With aperiodicity, the torsion criterion and orientation kept, the closed torus bundle of LR passes (H₁ = ℤ, Sol).
 2. **Axiom reduction: related but different duty, with certificates for the root's selection only.**
-   - *Independence witnesses* (B1516 C8): each of GM3, GM4, SE1 and SE2 fails to be implied by the other three, by a model in which
-     the root is not selected. The models are: the order-6 and parabolic monodromies (GM3); the closed torus bundle of LR (GM4); the
+   - *Independence witnesses* (B1516 C8): for each of GM3, GM4, SE1 and SE2 there is a model of the other three in which m004 is
+     not the only survivor. The models are: the order-6 and parabolic monodromies (GM3); the closed torus bundle of LR (GM4); the
      758 states (SE1); the Gieseking manifold (SE2).
    - *Implications:* given A5 on the positive grid, A6 is not needed (C1: A5 alone selects (1, 1)). Positivity is not needed:
      (−1, −1) lies in LR's class (C1). A7 is a based datum (C3).
