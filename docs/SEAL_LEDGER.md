@@ -1635,3 +1635,17 @@ withdrawn.
 | `reports/physical_bridge_2026_09_05/source_core.py` | `122db3ed27a443e54a0ed188dd0e4b7a0497d7a9bd0c2e04422a8647505d640a` |
 | `reports/physical_bridge_2026_09_05/source_core_control.py` | `4e01e7f4c3cdadd688b066abd410b384341271b55a056879ffce19024d3f50c1` |
 | `tests/test_physical_bridge_source_core.py` | `bc48910e15424d7e71026dd632676cefb842a38cfeb2f2f2d638b8492085156f` |
+
+## October 2 R77 supplementary report-collector seal
+
+Original native collector failed on symbolic-boolean summation; original
+six science paths unchanged, first failure retained. Convert only ground
+booleans and preserve false flags. Unknown/numeric predicates rejected.
+No science criterion change. Supplement design/code/calibration sealed
+before import/run; push/server-confirm first. No full-bank certificate.
+
+| Supplementary path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/SOURCE_CORE_REPORT_DESIGN.md` | `b81443e2dba39ee830cb6f12c30e39dd497da0373024ed5eee1b2ca13cb313f5` |
+| `reports/physical_bridge_2026_09_05/source_core_report_control.py` | `17fddd251136733999a31aeaa54a951c4a51491a04c0e70d3bbf43b516f3114b` |
+| `tests/test_physical_bridge_source_core_report.py` | `d3fffce128c6837ff728fdfa723b8dd4700360b3bd4e317126cd21b2c9db19cc` |
