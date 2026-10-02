@@ -16571,3 +16571,6 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   of twelve minors". Over 40 random minors the gcd is 1024q²(q + 1)³, and neither has a positive root. ERROR_LEDGER E11 instance.
 - **The lock:** B1513's tests are 15, two of them slow. The fast ones pass (13).
 - The verdict is unchanged: NEGATIVE. 0 of 19.
+- **Fast lane on 34aee33a** (the audit's pushed tree, 51 minutes): 6 464 passed, 52 skipped, 10 failed. The ten are the bank's ten: the
+  nine baseline failures and the environmental `test_b1035_receipts` (B775's audit branch is gone from the remote). The three extra
+  passes are the audit's new fast tests.
