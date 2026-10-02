@@ -1,0 +1,17 @@
+{
+ "id": "B1514",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1513",
+  "B1512",
+  "B1511",
+  "B1509"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "claim_one_line": "THE DECOUPLING LAW, run as sealed (a0badfa3; B1513 leads 1 and 2) by two routes that share no code, which agree group by group on every dimension, zero and non-zero (the owner's rule NO NEGATIVE FROM A BUG): route T, B1513's relative triple product (census.py; 2479 s, 1120 readings, nine primes), and route L, the lifting criterion on B1513's independent audit (independent_route.py; 2196 s, 1672 readings, nineteen other primes). Through level 6 the chiral state of B1511's case (b) (one 10bar' per member, W1 = [[V, cL], [0, L]], V = nu (x) rho_q, L = nu^-4, in orbits of four on M4, five on M5 and six on M6: 18 groups, 184 members; M4 exactly, every group at every root of its factor mod five primes) has zero tree-level coupling to every Higgs class of its background. Proved at the seal: the 10bar' lives in the sub-bundle V (Lemma 2, H^1(V) -> H^1(W1) an isomorphism, checked post-run at every group), so every 10bar'.10bar'.5bar'_H coupling factors through H^2(Lambda^2 V), the twisted Higgs bulk nu^2 (x) Lambda^2 rho_q (Lemma 3, the sub-wedge lemma). P1 YES: that bulk is acyclic at every member. P2 YES: the Higgs content is V (x) L's (none on M4; h1(V) on M5, two at the double point w = 7; one on M6, the background's own c lifted). P3 YES: [a ^ a'] = 0 in H^2(Lambda^2 W1) and <hbar u a u a'> = 0 at every member, prime and root. P4 YES: the non-chiral 10' sector couples on every M5 and M6 member, and at M5's double point the interior vector-like 10' couples to itself (post-run (a), both routes). P5 NO: no invariant form joins two members of an orbit (184 own triples carry the wedge form only, all 5400 cross triples none, though every orbit has cross triples that pass the character test). P6 YES, vacuously. P7 YES: with B1513 (case (a), the Jordan zero; its pullbacks to levels 2-6 and the triplet on M6 read post-run (e) by both routes, the +-i control non-zero), no chiral state of the harmonic tower through level 6 couples to a Higgs class of its background. Post-run: W2's chiral 10' decouples too (the dual sub-wedge argument), both routes. Positive controls fired at every reading (x u c != 0; <y u x u c> != 0) and B1513's banked zero and non-zero were reproduced (K5). Read with main's B1445 (a coupling is a mass-term coefficient in main's frame; not proved in this one), the chiral matter gets no tree-level mass from its own background's Higgs directions. Routed in the kill graph (subbundle-decoupling). I-26 stays UNEARNED. 0 of 19."
+}

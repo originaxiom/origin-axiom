@@ -16598,3 +16598,44 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - main moved d3b50c0f → 357b7c98 (S33) and the audit lane 60aeb7ea → b2925dac (R76). Both were read for overlap, and there is none
     (RELAY_LEDGER).
   - The absence sweeps after `git fetch --all` are cited in the preregistration's §5.1.
+
+## 2026-10-02 — B1514 the decoupling law: run as sealed by two independent routes and banked (PROVED)
+
+- **Order.** The seal (a0badfa3) was pushed first. Route T (`census.py --record`) then ran 2 479 s and route L
+  (`independent_route.py --record`) 2 196 s. No file was edited between the seal and the runs.
+- **Both routes.**
+  - Part 0 (the banked identity) passed at all 18 groups.
+  - Part A read 1 120 (T) and 1 672 (L) member readings, on nine and nineteen primes, none shared. M₄ was read exactly by both routes.
+  - Part B: 184 own triples with one form each, 5 400 cross triples with none.
+  - Part C: D1–D8 (T) and D1–D9 (L) hold. The predictions agree: P1–P4, P6, P7 YES; P5 NO. Route L's group-by-group comparison with
+    route T's record passes on all 18 groups.
+- **The readings table** (FINDINGS §3), as (h¹(V ⊗ L), Higgs classes, 10̄′ classes, 10′ classes, interior 10′):
+  - M₄: (0, 0, 1, 2, 0);
+  - M₅ at w = 7: (2, 2, 2, 3, 1);
+  - every other group: (1, 1, 1, 2, 0).
+  Λ²V is acyclic everywhere. The 10̄′ coupling is zero everywhere; the 10′ coupling is non-zero wherever a Higgs class exists.
+- **Post-run** (`post_run_checks.py`, both routes, 6 s):
+  - (a) the interior 10′ at M₅'s double point couples, and to itself: B(f_int, f_int) ≠ 0 against both 5′_H classes. This part was
+    added after the script's first run; (b)–(d) reproduced unchanged.
+  - (b) H¹(V) → H¹(W₁) is an isomorphism at every group.
+  - (c) W₂'s chiral 10′ decouples at every group. W₂ has h¹(W₂*) = 1 (2 at w = 7), with 0, 1 or 2 Higgs classes.
+  - (d) where the non-zero 10′ couplings sit.
+  - (e) case (a) through level 6 (`case_a_levels.py`, 30 s). The sealed text said B1513 read case (a), but B1513 computed only
+    levels 1 and 3. B1509's join pulled back to M₁–M₆, and the triplet on M₆, were read by both routes: 36 readings each, on 9 and
+    13 primes, none shared. Every reading has one 5′_H and a zero 10′ coupling on all of H¹(W*). The ±i control pulled back to M₅
+    is non-zero by both routes. The check's first run wrongly reported route L's cross terms non-zero, because an integer 0 was
+    compared with the string "0". It was caught because it contradicted B1513's banked level 1; fixed and rerun (ERROR_LEDGER).
+- **Verified before banking** (the standing rule): every number in FINDINGS against the records, by fresh code. The character test was
+  recomputed on all 34 orbits, including the M₆ orbit the design draft skipped. Three FINDINGS sentences said more than the record and
+  were corrected: the prime count, "in both classes", and B1445's reading.
+- **The lock:** `tests/test_b1514_the_decoupling_law.py`, 19 tests (one slow). The fast ones replay both routes live at all 18 groups
+  and check case (a) live on M₄ and M₅ (about 17 s).
+- **The P3 claim pool** (`papers/P3_THE_PAPER/CLAIM_CANDIDATES.md`) was regenerated with B1213's `reproduce.sh`, because B1514
+  declares `creates_law` (B1210's lock requires it). It adds 34 arcs, B1385–B1514 and B335/B343/B345/B350, and removes none.
+- **Ledgers:**
+  - LAW_MAP and THEOREM_REGISTRY rows (creates_law);
+  - the kill graph (`subbundle-decoupling`, a PROVED arc with no-go content, as B1509–B1511);
+  - SEAL_LEDGER verdict, OPEN_LEADS, the alias table, the letter's 79th note, README;
+  - ERROR_LEDGER: the design slip; the post-run (e) bug; and a record slip. Raw pipes in this seat's eleven registry and
+    law-map rows were escaped (rendering only).
+- I-26 stays UNEARNED. 0 of 19.

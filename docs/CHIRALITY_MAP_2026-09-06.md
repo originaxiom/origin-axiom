@@ -523,6 +523,15 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 >
 > `frontier/B1513_the_triplets_higgs_sector`.
 
+> **Addendum (2026-10-02, B1514): the decoupling law.**
+> - B1511's case-(b) 10̄′ (orbits of four, five and six on M₄–M₆) lives in the sub-bundle V, because x ∪ c ≠ 0. So its couplings to
+>   the Higgs classes pass through H² of the twisted Higgs bulk ν² ⊗ Λ²ρ_q, which is acyclic at all 184 members. The coupling is zero,
+>   by two routes that share no code. W₂'s chiral 10′ decouples by the dual argument.
+> - Chirality and coupling exclude each other in both of the tower's mechanisms (case (a) through a Jordan block, B1513; case (b)
+>   through the sub-bundle). Only non-chiral states couple, among them the vector-like 10′ at M₅'s double point.
+>
+> `frontier/B1514_the_decoupling_law`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

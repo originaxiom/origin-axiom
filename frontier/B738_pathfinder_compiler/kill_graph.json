@@ -11393,5 +11393,21 @@
   "note": "ENTERED 2026-10-01 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1513_the_triplets_higgs_sector/verification/higgs_census.py (the sealed run: exact counts and couplings over Q[q]/(g) for both populations, GF(p) at 16 prime-root pairs, the invariant forms) and post_run_checks.py (the positive control at B1510's points, the whole 10' sector, the boundary class, the Higgs-bulk theorem); locked by tests/test_b1513_the_triplets_higgs_sector.py. Independently audited post-bank (FINDINGS §9, verification/independent_audit.py): the zero holds by a second method in separate code, exact and mod p, and its positive controls fire.",
   "routed_from": "sm-branch-2026-10-01-banking",
   "depth_note": "Entered 2026-10-01 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a NEGATIVE arc whose proved content (Lemmas 1-7, T-HIGGS-BULK-ACYCLIC) stands."
+ },
+ {
+  "id": "B1514",
+  "claim_killed": "THE DECOUPLING LAW, its no-go half: that the opposite-sign chiral state of B1511's case (b) (one 10bar' per member of the orbits of four on M4, five on M5 and six on M6; W1 = [[V, cL], [0, L]], V = nu (x) rho_q, L = nu^-4) gets a tree-level Yukawa in B1509's harmonic frame, from a Higgs class of its own background or through a form joining two members of its orbit. Lemma 2: x u c != 0 makes H^1(V) -> H^1(W1) an isomorphism, so the 10bar' lives in the sub-bundle V. Lemma 3: every 10bar'.10bar'.5bar'_H coupling then factors through H^2(Lambda^2 V), and the twisted Higgs bulk Lambda^2 V = nu^2 (x) Lambda^2 rho_q is acyclic at all 184 members (P1). The coupling is zero at every member, prime and root by two routes that share no code (P3); W2's chiral 10' decouples by the dual argument; no invariant form joins two members (P5 NO: none of 5400 cross triples). With B1513 (case (a)), no chiral state of the harmonic tower through level 6 couples to a Higgs class of its background. The arc is PROVED (sealed at a0badfa3; P1-P4, P6 and P7 YES, P5 NO).",
+  "kill_form": "subbundle-decoupling (the chiral 10bar' lives in the sub-bundle V because x u c != 0 makes H^1(V) -> H^1(W1) an isomorphism, so its wedge lands in the twisted Higgs bulk Lambda^2 V, which has no cohomology; the couplings that exist belong to non-chiral states)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "A Higgs class from outside the background's own Lambda^2 W: another background or state on the same level, an end or apex inflow at a completion of the cusp (B1509 lead 2), or a non-perturbative coupling, which the record has not computed; or a chiral state whose sub-bundle wedge is not acyclic (a twisted bulk with cohomology: B1514 lead 1 asks whether any exists for q > 0, q != 1); or a level beyond 6. The vector-like 10' at M5's double point does couple to itself (B1514 lead 3).",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-02 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-10-02 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1514_the_decoupling_law/verification/census.py (route T, the sealed run: the relative triple product at every member, M4 exactly and every group mod two primes at every root) and independent_route.py (route L, the lifting criterion on B1513's independent audit, mod three other primes, with the comparison), with post_run_checks.py; locked by tests/test_b1514_the_decoupling_law.py.",
+  "routed_from": "sm-branch-2026-10-02-banking"
  }
 ]

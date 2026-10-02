@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1261** |
-| words of findings prose | **1,032,295** |
-| test lock files referenced | **765** |
-| arcs carrying an authored verdict | **1261** (100.0 %) |
-| recorded closures | **817** (650 classified, 167 routed-only) |
+| research arcs with findings | **1262** |
+| words of findings prose | **1,035,635** |
+| test lock files referenced | **766** |
+| arcs carrying an authored verdict | **1262** (100.0 %) |
+| recorded closures | **818** (651 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 836 |
+| PROVED | 837 |
 | NEGATIVE | 326 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 87 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 88 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1512`** (2926 words, 1 locks)  
-THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). m004's symmetries act on Ballas' family: the fibre's hyperelliptic involution fixes rho_q (so P_nu = P_nu^-1 on every level and every twisted polynomial is real, B1511 lead 3), the dual family is the family at 1/q (P(1/q, s) = s^4 P(q, 1/s); real exceptional points pair as q, 1/q; I(W2)(nu^-1, 1/q) = -I(W1)(nu, q)), and the strong inversion (the audit lane's F14 type) and the amphichiral map send q to 1/q (M5's four orbits share one palindromic polynomial, M6's four classes pair, B1511's O_A/O_B and M4 pairings explained). All 32 of B1511's unresolved case-(b) pairs fire: every member counts I(W1) = +1, I(W2) = -1, I(L2 W) = 0 at every positive real exceptional point -- M5's four orbits of five at w = q + 1/q = 7 (lam = 1, a double semisimple point, the same w as M4's), w ~ 2.2776 (lam = +-i) and w ~ 2.4999 (lam = -1, a Jordan point); M6's eight orbits of six at lam = +-1, eight values of w. Predictions: P1 NO (not Q(q^5, s)), P2-P5 YES, P6 NO (a double point and a Jordan point), P7 YES. The per-level table through level 6 is complete: case (b), the opposite sign, in orbits of four, five and six; three only from the projective triplet; no 5bar' anywhere. A design slip caught before the seal (eps first called amphichiral; ERROR_LEDGER). I-26 stays UNEARNED. 0 of 19.  
-`B1512_the_self_coincident_orbits/FINDINGS.md`
+**PROVED — `B1514`** (3242 words, 1 locks)  
+THE DECOUPLING LAW, run as sealed (a0badfa3; B1513 leads 1 and 2) by two routes that share no code, which agree group by group on every dimension, zero and non-zero (the owner's rule NO NEGATIVE FROM A BUG): route T, B1513's relative triple product (census.py; 2479 s, 1120 readings, nine primes), and route L, the lifting criterion on B1513's independent audit (independent_route.py; 2196 s, 1672 readings, nineteen other primes). Through level 6 the chiral state of B1511's case (b) (one 10bar' per member, W1 = [[V, cL], [0, L]], V = nu (x) rho_q, L = nu^-4, in orbits of four on M4, five on M5 and six on M6: 18 groups, 184 members; M4 exactly, every group at every root of its factor mod five primes) has zero tree-level coupling to every Higgs class of its background. Proved at the seal: the 10bar' lives in the sub-bundle V (Lemma 2, H^1(V) -> H^1(W1) an isomorphism, checked post-run at every group), so every 10bar'.10bar'.5bar'_H coupling factors through H^2(Lambda^2 V), the twisted Higgs bulk nu^2 (x) Lambda^2 rho_q (Lemma 3, the sub-wedge lemma). P1 YES: that bulk is acyclic at every member. P2 YES: the Higgs content is V (x) L's (none on M4; h1(V) on M5, two at the double point w = 7; one on M6, the background's own c lifted). P3 YES: [a ^ a'] = 0 in H^2(Lambda^2 W1) and <hbar u a u a'> = 0 at every member, prime and root. P4 YES: the non-chiral 10' sector couples on every M5 and M6 member, and at M5's double point the interior vector-like 10' couples to itself (post-run (a), both routes). P5 NO: no invariant form joins two members of an orbit (184 own triples carry the wedge form only, all 5400 cross triples none, though every orbit has cross triples that pass the character test). P6 YES, vacuously. P7 YES: with B1513 (case (a), the Jordan zero; its pullbacks to levels 2-6 and the triplet on M6 read post-run (e) by both routes, the +-i control non-zero), no chiral state of the harmonic tower through level 6 couples to a Higgs class of its background. Post-run: W2's chiral 10' decouples too (the dual sub-wedge argument), both routes. Positive controls fired at every reading (x u c != 0; <y u x u c> != 0) and B1513's banked zero and non-zero were reproduced (K5). Read with main's B1445 (a coupling is a mass-term coefficient in main's frame; not proved in this one), the chiral matter gets no tree-level mass from its own background's Higgs directions. Routed in the kill graph (subbundle-decoupling). I-26 stays UNEARNED. 0 of 19.  
+`B1514_the_decoupling_law/FINDINGS.md`
 
-**NEGATIVE — `B1513`** (3983 words, 1 locks)  
+**NEGATIVE — `B1513`** (4081 words, 1 locks)  
 THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) carries exactly one 5'_H and one 5bar'_H, both its own (h1(L2 W) = h1(L2 W*) = 1, the 5'_H onto c, the 5bar'_H = c*), but its chiral 10' does not couple to them: the up-type relative triple product Y_k = <h u a u a> is zero exactly for every member of both populations (and at all 16 prime-root pairs), and post-run the symmetric form B(a, a') = Y(h, a, a') vanishes on the whole of H^1(W*), so no 10' end condition gives a coupling; the mu-type pairing <h u e u hbar> is zero too. No invariant form joins two members (one form iff i = j = k). P1 YES (stronger), P2 YES, P3 YES, P4 NO, P5 YES. The banked identity first (the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3: the first chain-level check of B1510's Theorem B). The zero is not an artefact: at B1510's +-i points the same instrument gives Y(h, a, e f0) = -lam_h kappa != 0 and <h u e u hbar> = lam_h kappa, exactly. Post-run theorem T-HIGGS-BULK-ACYCLIC: P_L(q, s) = s^6 - 12 s^5 + 48 s^4 - (w^2 - w + 72) s^3 + 48 s^2 - 12 s + 1 (w = q + 1/q), so for every q > 0, q != 1, every unitary twist and every cyclic cover Lambda^2 rho_q has no cohomology (H^0 of the fibre zero for every q > 0). Post-run (d): the c*-lift's longitude boundary class equals kappa_l_hat (Stokes), so the interior 10' exists exactly where kappa = 0, where the coupling also vanishes. Read against the audit lane's R75 (an independent re-verification of B1511's triplet). Routed in the kill graph (jordan-decoupling). I-26 stays UNEARNED. 0 of 19.  
 `B1513_the_triplets_higgs_sector/FINDINGS.md`
 

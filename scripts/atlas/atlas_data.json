@@ -9160,10 +9160,12 @@
     "figure_eight",
     "trace_map",
     "kappa",
+    "metallic",
     "eisenstein",
     "golden",
     "z3_generation",
-    "amphichiral_cp"
+    "amphichiral_cp",
+    "lorentzian"
    ],
    "refs": [
     "K1",
@@ -9179,9 +9181,40 @@
     "S32"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
+  },
+  "B1514": {
+   "slug": "the decoupling law",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "K1",
+    "K5",
+    "K6",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "S33",
+    "S34"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B151": {
    "slug": "firewall confirmation",

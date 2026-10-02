@@ -1,0 +1,574 @@
+{
+ "a": {
+  "M5 [12, 19] lam = 1": {
+   "p": 8074309,
+   "q": 808673,
+   "route L": {
+    "coupling of the interior 10' non-zero": true,
+    "interior 10' classes (spanning set)": 1,
+    "self-class [f_int ^ f_int] non-zero in H^2(Lambda^2 W1*)": [
+     true
+    ]
+   },
+   "route T": {
+    "Higgs": 2,
+    "coupling of the interior 10' (with itself and every 10') non-zero": true,
+    "interior 10' classes": 1,
+    "self-coupling B(f_int, f_int) non-zero, per 5'_H": [
+     [
+      true,
+      true
+     ]
+    ]
+   }
+  },
+  "M5 [15, 18] lam = 1": {
+   "p": 8074309,
+   "q": 808673,
+   "route L": {
+    "coupling of the interior 10' non-zero": true,
+    "interior 10' classes (spanning set)": 1,
+    "self-class [f_int ^ f_int] non-zero in H^2(Lambda^2 W1*)": [
+     true
+    ]
+   },
+   "route T": {
+    "Higgs": 2,
+    "coupling of the interior 10' (with itself and every 10') non-zero": true,
+    "interior 10' classes": 1,
+    "self-coupling B(f_int, f_int) non-zero, per 5'_H": [
+     [
+      true,
+      true
+     ]
+    ]
+   }
+  }
+ },
+ "b": {
+  "M4 orbit [0, 5]": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M4 orbit [5, 5]": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M5 [12, 19] lam = -1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M5 [12, 19] lam = -i": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M5 [12, 19] lam = 1": {
+   "h1(V)": 2,
+   "h1(W1)": 2,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 2
+  },
+  "M5 [12, 19] lam = i": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M5 [15, 18] lam = -1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M5 [15, 18] lam = -i": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M5 [15, 18] lam = 1": {
+   "h1(V)": 2,
+   "h1(W1)": 2,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 2
+  },
+  "M5 [15, 18] lam = i": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [1, 3] lam = -1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [1, 3] lam = 1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [31, 53] lam = -1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [31, 53] lam = 1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [32, 34] lam = -1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [32, 34] lam = 1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [33, 47] lam = -1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  },
+  "M6 [33, 47] lam = 1": {
+   "h1(V)": 1,
+   "h1(W1)": 1,
+   "isomorphism": true,
+   "rank of H^1(V) -> H^1(W1)": 1
+  }
+ },
+ "c": {
+  "M4 orbit [0, 5]": {
+   "p": 8074351,
+   "q": 1447709,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 0,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M4 orbit [5, 5]": {
+   "p": 8074351,
+   "q": 1447709,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 0,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [12, 19] lam = -1": {
+   "p": 8074111,
+   "q": 595437,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [12, 19] lam = -i": {
+   "p": 8074309,
+   "q": 956825,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [12, 19] lam = 1": {
+   "p": 8074309,
+   "q": 808673,
+   "route L": {
+    "h1(W2)": 3,
+    "h1(W2*)": 2,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 2,
+    "h1(W2)": 3,
+    "h1(W2*)": 2,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [12, 19] lam = i": {
+   "p": 8074309,
+   "q": 956825,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [15, 18] lam = -1": {
+   "p": 8074111,
+   "q": 595437,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [15, 18] lam = -i": {
+   "p": 8074309,
+   "q": 956825,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [15, 18] lam = 1": {
+   "p": 8074309,
+   "q": 808673,
+   "route L": {
+    "h1(W2)": 3,
+    "h1(W2*)": 2,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 2,
+    "h1(W2)": 3,
+    "h1(W2*)": 2,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M5 [15, 18] lam = i": {
+   "p": 8074309,
+   "q": 956825,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [1, 3] lam = -1": {
+   "p": 8074057,
+   "q": 1233754,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [1, 3] lam = 1": {
+   "p": 8074289,
+   "q": 1380316,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [31, 53] lam = -1": {
+   "p": 8074057,
+   "q": 1233754,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [31, 53] lam = 1": {
+   "p": 8074289,
+   "q": 1380316,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [32, 34] lam = -1": {
+   "p": 8074217,
+   "q": 380192,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [32, 34] lam = 1": {
+   "p": 8074249,
+   "q": 229055,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [33, 47] lam = -1": {
+   "p": 8074217,
+   "q": 380192,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  },
+  "M6 [33, 47] lam = 1": {
+   "p": 8074249,
+   "q": 229055,
+   "route L": {
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   },
+   "route T": {
+    "Higgs 5'_H of W2": 1,
+    "h1(W2)": 2,
+    "h1(W2*)": 1,
+    "the 10' coupling of W2 is zero": true
+   }
+  }
+ },
+ "d": {
+  "M4 orbit [0, 5]": [
+   {
+    "10' coupling zero": true,
+    "Higgs": 0,
+    "interior 10'": 0
+   }
+  ],
+  "M4 orbit [5, 5]": [
+   {
+    "10' coupling zero": true,
+    "Higgs": 0,
+    "interior 10'": 0
+   }
+  ],
+  "M5 [12, 19] lam = -1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M5 [12, 19] lam = -i": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M5 [12, 19] lam = 1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 2,
+    "interior 10'": 1
+   }
+  ],
+  "M5 [12, 19] lam = i": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M5 [15, 18] lam = -1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M5 [15, 18] lam = -i": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M5 [15, 18] lam = 1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 2,
+    "interior 10'": 1
+   }
+  ],
+  "M5 [15, 18] lam = i": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [1, 3] lam = -1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [1, 3] lam = 1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [31, 53] lam = -1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [31, 53] lam = 1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [32, 34] lam = -1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [32, 34] lam = 1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [33, 47] lam = -1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ],
+  "M6 [33, 47] lam = 1": [
+   {
+    "10' coupling zero": false,
+    "Higgs": 1,
+    "interior 10'": 0
+   }
+  ]
+ },
+ "seconds": 5.7,
+ "summary": {
+  "(a) routes agree": true,
+  "(a) the interior 10' at w = 7 couples (both routes)": [
+   true,
+   true
+  ],
+  "(a) the self-coupling B(f_int, f_int): route T, any 5'_H": [
+   true,
+   true
+  ],
+  "(a) the self-coupling: routes agree": true,
+  "(b) H^1(V) -> H^1(W1) is an isomorphism at every group": true,
+  "(c) W2's chiral 10' decouples at every group (both routes)": true,
+  "(c) routes agree on W2": true
+ }
+}

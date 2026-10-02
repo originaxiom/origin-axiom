@@ -3244,6 +3244,28 @@ opposite-sign 10̄′ on M₄, M₅ and M₆, as lead 1 asked. Proved at the sea
 factors through H² of the twisted Higgs bulk Λ²V (the sub-wedge lemma). The census reads the bulk, the Higgs content, the couplings
 and the joining forms by two independent routes (seal 12aa1edd…).
 
+**B1514 run and banked, 2026-10-02 — the decoupling law (PROVED).**
+- **The result.** Both routes, which share no code, agree group by group.
+  - The twisted Higgs bulk Λ²V = ν² ⊗ Λ²ρ_q is acyclic at all 184 members, so the chiral 10̄′ cannot couple, and it does not: zero
+    at every member, prime and root.
+  - The Higgs sector is V ⊗ L's: none on M₄; one on M₆ (the background's own c); one on M₅, two at the double point w = 7.
+  - No invariant form joins two members of an orbit (none of 5 400 cross triples).
+  - W₂'s chiral 10′ decouples by the dual argument.
+  - Only non-chiral states couple: the 10′ sector of W₁ on every M₅ and M₆ member, and the vector-like interior 10′ at M₅'s double
+    point couples to itself.
+  - With B1513: no chiral state of the harmonic tower through level 6 couples to a Higgs class of its background.
+- **Lead 1 of B1513 taken in part.** Case (b) now has a structural reason. Case (a)'s Jordan zero is still only computed.
+- **Lead 2 of B1513 answered** through level 6 (LAW_MAP: THE DECOUPLING LAW; T-SUB-WEDGE-DECOUPLING).
+- **New leads**, each to be sealed before computing (B1514 §8):
+  1. the twisted bulk theorem: is ν² ⊗ Λ²ρ_q acyclic for every unitary fibre character ν, every q > 0 with q ≠ 1, and every level?
+     That would make the case-(b) decoupling a theorem on every level;
+  2. case (a)'s zero, proved (B1513 lead 1, open);
+  3. the vector-like pair at M₅'s double point: its 10′ couples to itself through both 5′_H. Does the deformation along a 5′_H exist
+     in this frame, and what does it lift?
+  4. a Higgs from outside the background: another state on the level, an end or apex inflow, or a non-perturbative coupling
+     (B1513 lead 3). The inside door is now closed for every chiral state through level 6;
+  5. the 5̄′ (unchanged, decisive).
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

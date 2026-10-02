@@ -1,5 +1,51 @@
 # Changelog
 
+## B1514 banked: the decoupling law — through level 6 no chiral state of the harmonic tower couples to a Higgs class of its background (PROVED)
+
+- **Run as sealed** (a0badfa3) by the two named routes, which share no code and agree group by group on every dimension, zero and
+  non-zero:
+  - route T, B1513's relative triple product (`census.py`): 2 479 s, 1 120 readings, nine primes;
+  - route L, the lifting criterion on B1513's independent audit (`independent_route.py`): 2 196 s, 1 672 readings, nineteen other
+    primes.
+- **The result.**
+  - P1 YES: the twisted Higgs bulk Λ²V = ν² ⊗ Λ²ρ_q is acyclic at all 184 members. By the sub-wedge lemma the chiral 10̄′ cannot
+    couple.
+  - P2 YES: the Higgs sector is V ⊗ L's. M₄ has none; M₆ has one (the background's own c); M₅ has one, two at w = 7.
+  - P3 YES: the 10̄′ coupling is zero at every member, prime and root.
+  - P4 YES: the non-chiral 10′ sector couples on every M₅ and M₆ member.
+  - P5 NO: the 184 own triples carry the wedge form only; none of the 5 400 cross triples carries a form. P6 YES, vacuously.
+  - P7 YES: with B1513, no chiral state through level 6 couples to a Higgs class of its background.
+  - Positive controls fired at every reading.
+- **Post-run, both routes:**
+  - H¹(V) → H¹(W₁) is an isomorphism at every group (Lemma 2 directly);
+  - W₂'s chiral 10′ decouples (the dual argument);
+  - the vector-like interior 10′ at M₅'s double point couples to itself.
+  Check (a) was extended after its first run to record that self-coupling (disclosed).
+- **Post-run (e), case (a) through level 6.** The sealed text says B1513 read case (a), but B1513 computed levels 1 and 3. So the
+  join pulled back to M₁–M₆, and the triplet on M₆, were read directly by both routes: 36 readings each, on disjoint primes. At
+  every reading there is one 5′_H and the 10′ coupling is zero on all of H¹(W*). The ±i control pulled back to M₅ is non-zero. A
+  bug in the check's first run (an integer 0 compared with the string "0") was caught and fixed before banking (ERROR_LEDGER).
+- **The P3 claim pool regenerated** with B1213's own tool, because B1514 declares `creates_law`. It adds 34 arcs (B1385–B1514 and
+  four older arcs now on synthesis surfaces) and removes none.
+- **Checked against the records with fresh code before banking:** the readings and primes; the 184 and 5 400 triples; the character
+  test on all 34 orbits (12, 20 and 18 passing cross triples per orbit of four, five and six).
+- **FINDINGS corrected before banking:**
+  - "modulo 28 primes" now reads five primes per group (28 in all);
+  - "in both classes" now names what was computed;
+  - B1445's mass reading is marked as a reading, not proved in this frame.
+- **Banked:** LAW_MAP row THE DECOUPLING LAW; THEOREM_REGISTRY T-SUB-WEDGE-DECOUPLING (creates_law); kill graph
+  (`subbundle-decoupling`); SEAL_LEDGER verdict row; OPEN_LEADS (new leads 1–5); the alias table; the letter's seventy-ninth note;
+  README.
+- **The lock** (`tests/test_b1514_the_decoupling_law.py`) replays the first member of all 18 groups live by both routes against the
+  records. It also replays the joining forms at an M₄ orbit and the post-run checks, and checks route L's independence through the
+  AST.
+- **ERROR_LEDGER, three rows:**
+  - the design slip caught before the seal;
+  - the post-run (e) bug above;
+  - a record slip: this seat's registry and law-map rows for B1268, B1385, B1388, B1389, B1396, B1509 and B1513 wrote absolute values
+    with raw pipes, breaking their table cells. They are now escaped, a rendering change only.
+- I-26 stays UNEARNED. 0 of 19.
+
 ## B1514 sealed: the decoupling law, tested on the tower's opposite-sign 10̄′, before any Higgs class or coupling there is computed
 
 - **The question** (B1513 leads 1 and 2, at the owner's "continue"). B1513 found that the projective triplet's chiral 10′ does not

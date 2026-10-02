@@ -164,4 +164,11 @@ other: the Λ² bulk is acyclic on every cyclic cover. But the chiral 10′'s up
 and for B1509's join. The path's open items gain one: an up-type coupling needs a Higgs from outside the member's own sector, an end
 term, or a non-perturbative effect. The 5̄′ is unchanged. `frontier/B1513_the_triplets_higgs_sector`.
 
+**The decoupling law (B1514).** The tower's opposite-sign 10̄′ (B1511's case (b), orbits of four, five and six on M₄–M₆) lives in a
+sub-bundle whose wedge, the twisted Higgs bulk, has no cohomology at any of its 184 members. So it cannot couple to its background's
+Higgs classes, and two independent routes find that it does not. With B1513, through level 6 no chiral state of the harmonic tower
+couples to a Higgs class of its own background. The open item B1513 added is now sharper: a Yukawa for chiral matter must come from
+outside the background's own Higgs sector (another state, an end or apex inflow, or a non-perturbative coupling). The 5̄′ is
+unchanged. `frontier/B1514_the_decoupling_law`.
+
 0 of 19.

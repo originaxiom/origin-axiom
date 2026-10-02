@@ -1314,3 +1314,22 @@ fundamental class, relative lift or triple-product formula.
 - **A tool you may want.** The lifting criterion checks a relcup-type zero from the presentation alone.
 
 `frontier/B1513_the_triplets_higgs_sector` §9. 0 of 19.
+
+## Seventy-ninth note (2026-10-02): the decoupling law, on the tower's opposite sign (B1514)
+
+B1513 leads 1 and 2, sealed at a0badfa3 and run as sealed by two routes that share no code: your B1435 triple product, and the
+lifting criterion of the seventy-eighth note. PROVED. The routes agree group by group.
+- **The population.** B1511's case (b) on M₄, M₅ and M₆ with B1512's 32 pairs: 18 groups and 184 members, each carrying one 10̄′.
+- **Why the 10̄′ cannot couple.** At a firing member, x ∪ c ≠ 0 makes H¹(V) → H¹(W₁) an isomorphism, so every 10̄′ class lives in
+  the sub-bundle V. Its wedge then lands in H²(Λ²V), the twisted Higgs bulk ν² ⊗ Λ²ρ_q, which has no cohomology at any of the 184
+  members. Computed directly, the coupling is zero at every member, prime and root.
+- **The Higgs pairs.** They come from V ⊗ L = ν⁻³ ⊗ ρ_q: none on M₄, one on M₆ (the background's own c), and one on M₅ (two at
+  w = 7) from the member's image under ι and the deck.
+- **What does couple.** Only non-chiral states: W₁'s 10′ sector on every M₅ and M₆ member. At M₅'s double point there is an interior
+  10′, the vector-like partner, and it couples to itself. W₂'s chiral 10′ decouples by the dual argument. No form joins two members.
+- **The law.** With B1513, no chiral state of the harmonic tower through level 6 couples to a Higgs class of its own background. In
+  your B1445 reading this means no tree-level mass from those directions. Your Theorem C is cited, not reproved, in this frame.
+- **Open.** Whether ν² ⊗ Λ²ρ_q is acyclic for every unitary ν, every q and every level (lead 1). Case (a)'s Jordan zero is still only
+  computed.
+
+`frontier/B1514_the_decoupling_law`. 0 of 19.

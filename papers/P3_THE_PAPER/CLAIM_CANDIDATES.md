@@ -1,23 +1,23 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1131 settled arcs — 73%** —
+the field is **absent on 828 of 1161 settled arcs — 71%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 565 arcs.**
-The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (93) ∪ on-a-synthesis-surface ∪ law-vocabulary (127) = 599 arcs.**
+The vocabulary criterion adds **40 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.97** on the corpus's own law vocabulary against
-**1.18** for the rest — **2.52×**. The criterion
+**2.96** on the corpus's own law vocabulary against
+**1.21** for the rest — **2.44×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
 synthesis surface · **V** reached only by the law-vocabulary criterion (the arcs the old base
 could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an editorial call.
 
-## §3 forced — the chain and its landing (57)
+## §3 forced — the chain and its landing (60)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -78,8 +78,11 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1261` | PROVED | S | | THE PRICE, COMPUTED: FIFTEEN UNPRICED INPUTS BOUGHT ZERO OF NINETEEN NUMBERS. JOIN 2's lead closed NEGATIVE first -- n in kappa = 2 + n^2 is NOT object-determined, n = 1.… |
 | `B1358` | PROVED | S | | THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R), Gamma_R in {1, Z2, Z3, Z4, Z6, Q8, 2T}, are G2 cones whose first pole carries E6 and whose second pole carrie… |
 | `B1366` | PROVED | S | | THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs for… |
+| `B1397` | NEGATIVE | S | | THE CAP'S GENERATIONS (after B1396; B1395's one finite-energy charge-odd datum is a flux on a capped cusp torus, and B1389's third job is the frame's anomaly): on a cappe… |
+| `B1506` | PROVED | S | | THE LEVEL, run as sealed (58e3f28f; sL-5 at the owner's 'lets do 1 first': is a count taken on a cover or on its quotient?). One background has one count on every level: … |
+| `B1508` | PROVED | S | | THE PATH UNDER THE REFRAME (the owner, 2026-10-01: 'most of these theorems are malinformed, they assume m004 is the only object, and ignore the fact that reality uses mor… |
 
-## §5 withheld — the value wall and the rank wall (128)
+## §5 withheld — the value wall and the rank wall (133)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -211,8 +214,13 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1378` | PROVED | S | | THE M6 DECK TRIPLET: on Y6 (the degree-6 cyclic cover of m004), a single seed non-split B1374/B1375 background sits in a genuine order-3 orbit of the native deck group --… |
 | `B1380` | PROVED | S | | THE PUNCTURE IS THE WORD'S: the chain's puncture (P019's A5b, B749's fork F6, one of B1003's two FRAGILE axioms) is implied by the carrier axiom as P019 states it (A5: th… |
 | `B1381` | PROVED | S | | THE RANK-ONE BOUND ON EVERY LEVEL: no cyclic cover M_n of m004 has a rank-one character with h^1 = 2, for any n. pi_1(M_n) = <a, b, t / t a t^-1 = phi^n(a), t b t^-1 = ph… |
+| `B1390` | PROVED | S | | THE EISENSTEIN AXES: in m004's commensurability class an isometry of order 3 or 6 fixes only proper arcs running from cusp to cusp, so an order-3 symmetry rotating no cus… |
+| `B1399` | NEGATIVE | S | | THE RANK-TWO HIGGS, run as sealed (b2985b42; the escape named by B1398, run at the owner's word): with 27 matter the frame's rule admits one anomaly-free, exotic-free fam… |
+| `B1501` | PROVED | S | | THE TORUS-LINK CENSUS, run as sealed (d780b639; the owner's go; after B1500): in the simplest G2 cone singularities -- cones over the four homogeneous nearly Kaehler 6-ma… |
+| `B1503` | PROVED | S | | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma … |
+| `B1512` | PROVED | S | | THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). … |
 
-## §6 the observer — one bit, priced (155)
+## §6 the observer — one bit, priced (172)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -254,6 +262,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1272` | PROVED | L | | THE OBJECT'S MIRROR ON THE TWO-FACE E6 IS SPLIT. The amphichirality of A = LR is conjugation by P = diag(1,-1) (R -> R^-1, L -> L^-1); mod 5 it is INNER on 2I = SL(2,F5) … |
 | `B1274` | PROVED | L | | THE TOWER AND ITS DOUBLES. For all 48 surjections pi_1(m004) -> 2T and every n <= 6: the family 3 of E8 > E6 x SU(3) (the real 3 of 2T) descends to the cyclic branched co… |
 | `B1279` | PROVED | L | | THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b / a w B w^-1> (a wo… |
+| `B1514` | PROVED | L | | THE DECOUPLING LAW, run as sealed (a0badfa3; B1513 leads 1 and 2) by two routes that share no code, which agree group by group on every dimension, zero and non-zero (the … |
 | `B156` | PROVED | V | | Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L… |
 | `B986` | NEGATIVE | V | | THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAYS OPEN, the attempt failing on the INSTRUMENT not on the object. cc3's sweep surfa… |
 | `B1023` | PROVED | V | | PHASE 2'S CONCESSIONS, V2: TWO DEFECTS FIXED, THEN TWO BLOCKERS ON THE FIX ITSELF -- CONCEDED AND PINNED OPEN, the second correction arriving from cc3 BEFORE the batch ba… |
@@ -262,7 +271,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1146` | PROVED | V | | SEAM-B (own-bench, exact; first of the three sealed seams, THREE_SEAMS_PREREG sha256 e699ebc79c06a823): the 2T-vs-A4 distinction is the object's own -I (the 2T center), v… |
 | `B1147` | PROVED | V | | THE C-LANE HARVEST: the cloud seat's memos 30-40 (Campaigns A/B/C continuation, origin/outside-bench dc937010) verified by REPRODUCTION -- all 11 self-contained certifica… |
 | `B1148` | PROVED | V | | THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduc… |
-| `B1186` | PROVED | V | | THE FAMILY-DEFINITION CELL CLOSED (harvests cc3 B8152, verify-don't-trust, with a ONE-MEMBER CORRECTION): the two criteria are STRICTLY NESTED -- (A) all-regular-ideal, /… |
 | `B1190` | PROVED | V | | THE CLOSE-LOOP BATCH 2 (the hard cells; 1/5 survived its own lenses -- the refutations are the content, E52 running live inside the loop): GC-6 THE L154 BRIDGE (PARTIAL, … |
 | `B1194` | PROVED | V | | THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adversarial checks, archived verbatim): THE HAVE list is twelve rows de… |
 | `B1197` | PROVED | V | | THE CLOCK-COHERENCE RUN (route B4, the D2 gate; executed the moment 5A returned): SPLIT VERDICT -- the named primary test PASSES and the full census check FAILS, so neith… |
@@ -281,6 +289,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B309` | PROVED | S | | Unified four banked faces (existence, geometry, matter, quantum) as one commutator trace kappa=tr[a,b] not equal 2, with kappa-2=omega^2 and E6 uniqueness verified.… |
 | `B317` | PROVED | S | | Placed the object as a transcendental positive-entropy Painleve-VI solution (entropy 2 log lambda_m), outside the algebraic Lisovyy-Tykhyy list of finite orbits.… |
 | `B340` | PROVED | S | | The CP phase arg kappa is extremal at pi/6 at the amphichiral cusp and decreases as 3.8*CS^2, i.e. second order in chirality.… |
+| `B350` | NEGATIVE | S | | The cyclic-cover abelian torsion class carries no forced choice: orders are the Lucas ladder /L_2n - 2/, the factor multiset is a symmetrizable Galois orbit, and the deck… |
 | `B448` | PROVED | S | | The exact T_1 periodic-orbit field tower on the cusp locus kappa=-2 (the Markov surface) gives Q(sqrt-3) at period 2 and Q(sqrt-7) at period 4, with a silver control conf… |
 | `B451` | PROVED | S | | The trace map's leading Ruelle resonance equals the escape rate gamma = 0.4415, certified by three independent estimators after the banked 0.51 was shown to be an early-w… |
 | `B467` | PROVED | S | | Family, residue and wall converge on one Z/2 orientation bit: the CKM scan gives an earned zero and the only odd permutation is the orientation-reversing half-monodromy.… |
@@ -345,6 +354,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1141` | PROVED | S | | THE SPIN PAYMENT (cloud seat's 28th memo, hostile-verified TWO-BENCH on this bench with own code — own relator search, own exact intertwiner-rank, own norm-form + chi-par… |
 | `B1145` | PROVED | S | | SP-2: the object's beat closes EXACTLY on the fermion-capable odd A1/su(6) stratum's 27 over the beat-selected spin lift (cloud memo 29; sealed prereg sha256 c384dd3e der… |
 | `B1174` | NEGATIVE | S | | THE Z/2-IDENTIFICATION CELL (R50-3; the register's Q1 = B1169's S1, double-discovered by the sweep and the meditation independently). THE HYPOTHESIS AS POSED -- the four … |
+| `B1186` | PROVED | S | | THE FAMILY-DEFINITION CELL CLOSED (harvests cc3 B8152, verify-don't-trust, with a ONE-MEMBER CORRECTION): the two criteria are STRICTLY NESTED -- (A) all-regular-ideal, /… |
 | `B1189` | PROVED | S | | THE CLOSE-LOOP BATCH 1 (the grand-computation campaign's first five cells, each adversarially verified by two lenses; 4/5 survive cleanly and the fifth's lone refutation … |
 | `B1191` | PROVED | S | | THE CLOSE-LOOP BATCH 3 -- THE GRAND COMPUTATION v0 LANDS (docs/GRAND_COMPUTATION_v0.md): the universe in the object's own units, six sections (arena+clock in ticks of the… |
 | `B1203` | NEGATIVE | S | | TWO PROBES, BOTH NEGATIVE FOR THE PROPOSER. PROBE 1 -- c-EQUIVARIANCE AS A FORCING FILTER, REFUTED WITH A CUT OF EXACTLY ZERO: my own proposal (that requiring c-equivaria… |
@@ -371,8 +381,23 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1382` | PROVED | S | | THE SPIN BIT IS THE PARENT'S PIN TYPE: m004's two spin structures are exactly the pullbacks of the Gieseking manifold's Pin+ and Pin- structures, one each. Exact over Q(w… |
 | `B1383` | PROVED | S | | THE SPIN BIT IS THE SQUARE OF THE DECK: on m004's spinors with spin structure sigma the lifted Gieseking deck squares to eps*sigma (eps = the Pin convention; B1382's (lam… |
 | `B1384` | PROVED | S | | THE GENERATED STATE SPACE: the web seats' corrective handoff of 2026-09-27 adopted with its fences -- the genesis update laws define a pointed generated state space X_gen… |
+| `B1385` | PROVED | S | | THE STATES TOGETHER: the owner's joint question (can several generated states supply what m004 withholds -- in the seat's frame a free cusp with a disc-type partition) an… |
+| `B1386` | PROVED | S | | THE OPEN EISENSTEIN CUSP: sL-6's gate passed one level above B1385's nearest miss. S1 (the search): all 183 covers of ocube06_08812 of degree 2 and 3 (7 + 176); 18 carry … |
+| `B1387` | PROVED | S | | THE INDEX COMPUTED: B1386's condition discharged by computing the L^2 harmonic representative of cube~3.24's cuspidal, isometry-invariant class v+ (a new instrument: a He… |
+| `B1388` | NEGATIVE | S | | THE CUTOFF TEST (kill test 1 on the chirality mechanism; sealed at 68c1b809 before computing, prior STABLE ~55%): UNSTABLE, so NEGATIVE as sealed for the physical reading… |
+| `B1389` | PROVED | S | | MIXED, as sealed (8d9498d2, prior MIXED ~55%) -- THE FULL SPECTRUM (kill test 2 on the chirality mechanism): on a member with a cuspidal Higgs class of count N, the frame… |
+| `B1391` | NEGATIVE | S | | THE GENERATIONS' FLAVOUR (test 4, structural; not sealed -- the outcome follows from banked theorems once the fixed sets are known): the frame's generations carry the act… |
+| `B1393` | PROVED | S | | THE CHARGE FLIP (sL-8, after B1392; main's physical-bridge rounds R23-R26, R30-R31 harvested by citation): an index formula computes net chirality only for an end conditi… |
+| `B1398` | NEGATIVE | S | | THE FRAME'S VERDICT ON THREE (the owner's goal, 2026-09-28): in the seat's frame -- 7d E6 super-Yang-Mills on m004's class, SL(2)_beta's geometric representation, an abel… |
+| `B1502` | PROVED | S | | THE LOCAL MODELS' CHIRALITY (after B1501; the owner's go on the next step): B1501's two torus models force no chirality at a cusp point. For every finite quotient C(Y)/Ga… |
+| `B1504` | PROVED | S | | THE END'S CHOICE (the owner's approved genesis-side question, 2026-09-30: does the swap P act on B1500's choice at a cusp point the way it acts on the order bit, and does… |
+| `B1505` | PROVED | S | | THE ORBIFOLD LINKS (the owner's approved B1505, 2026-09-30: the census of G2 cones whose links are orbifolds but not global quotients of smooth nearly Kaehler manifolds -… |
+| `B1507` | PROVED | S | | THE RECORD REREAD (the owner's 'should we swipe the repo once more for forgoten work that enriches the picture substantially?', 2026-10-01; this branch, main 987c0c8f, th… |
+| `B1510` | PROVED | S | | THE TWO-SIDED DEFORMATION (B1509's lead 1, at the owner's 'do the recomendation for next'; sealed at 0cb24e2b before the run): the 16's and the 16*'s singlets c and c* sw… |
+| `B1511` | PROVED | S | | THE PROJECTIVE TOWER (B1509's lead 4 at the owner's 'aproved. next!'; sealed at 49baea7d before any twisted polynomial of a non-trivial character was computed): B1509's r… |
+| `B1513` | NEGATIVE | S | | THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s9… |
 
-## §2 the object — arithmetic and geometry (54)
+## §2 the object — arithmetic and geometry (58)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -430,8 +455,12 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1064` | NEGATIVE | S | | O3 — OBSTRUCTED-AT-TORUS, the obstruction named exactly on two independent banked legs: (1) the object amphichirality DELETES the quantized sector of its own boundary act… |
 | `B1136` | PROVED | S | | THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-fie… |
 | `B1238` | PROVED | S | | THE SEAT HARVEST, THIRD RING (codex R037-R039 @ e40d46ad; the physics-seat evaluation branch R39-R41 + the W-E absence sweep @ 1c980e69; nothing merged, every number reco… |
+| `B1392` | PROVED | S | | THE ENDS CARRY THE CHIRALITY (sL-8's first question, sharpened): in the seat's frame the count lives only at cusps where the Higgs class vanishes. (i) Every class has exa… |
+| `B1394` | PROVED | S | | THE REGULAR THREE, run as sealed (a4712e8d; sL-7/sL-8 after B1393): theorem (the physical-bridge lane's R32 Hopf-trace argument generalised): for an order-3 rotation with… |
+| `B1395` | PROVED | S | | THE FREE CUSP IS CHARGE-BLIND AT FINITE ENERGY (the owner's question after B1393: what physical ingredient at a free cusp knows the sign of the charge?): in 7d SYM only t… |
+| `B1396` | PROVED | S | | THE CAPPED EISENSTEIN CUSP (B1395's menu: the one finite-energy charge-odd datum is a flux on a capped cusp torus; and B1394's P3, which fired). (A) The cusp's Hopf trace… |
 
-## §10 the wall — what a specialist must supply (47)
+## §10 the wall — what a specialist must supply (49)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -482,8 +511,10 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1265` | PROVED | S | | THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION. MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact -- 'the two real forms split the world with NOTHING … |
 | `B1351` | PROVED | S | | THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0… |
 | `B1364` | PROVED | S | | THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet … |
+| `B1500` | PROVED | S | | THE CONE POINT'S CHOICE (the owner's go on the sL-8 pass): completing the cusps of a member of m004's class as cone points (the one-point compactification, B1392's first … |
+| `B1509` | PROVED | S | | THE JOIN ON THE PROJECTIVE VACUUM (B1508 lead 1, on the owner's 'do as u recomend, u know the endgoal'; predictions D1-D6 committed and pushed at 3edaf1fa before the dire… |
 
-## UNASSIGNED — needs an editorial call (124)
+## UNASSIGNED — needs an editorial call (127)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -508,6 +539,9 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B253` | PROVED | S | | Sage-verified that E6 is the only chirality-capable (complex-fundamental) end of the B248 transition, and corrected B252's overstated 'cannot source asymmetry'.… |
 | `B293` | PROVED | S | | The clock is the peripheral symplectic pairing: κ=tr[a,b] is the Goldman Casimir whose leaves make the cusp holonomies (μ,λ) canonically conjugate, matched independently … |
 | `B326` | PROVED | S | | Verified the generation Z/3-breaking is finite congruence torsion: H_1 of the 3-fold cover is Z + (Z/4)^2 with irreducible Phi_3 deck action - texture, not magnitudes.… |
+| `B335` | PROVED | S | | The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate … |
+| `B343` | PROVED | S | | The deck ℤ/3 acts irreducibly on the object's Klein 2-torsion, forcing exact TBM (θ₁₃=0) rather than TM2; irreducibility explains every blindness.… |
+| `B345` | PROVED | S | | The Z/3 charges of the deviation modes force an anti-diagonal charge-conservation texture, independent of the E6-exponent grading.… |
 | `B347` | PROVED | S | | dim H^1(4_1, Sym^{2m}) = 1 for each E6 exponent (total 6 = rank E6), and the hyperelliptic involution grades the six lines by (-1)^{m+1}, splitting them exactly along the… |
 | `B353` | PROVED | S | | The hyperelliptic involution induces exactly the E6 diagram involution theta on the tangent space at the principal-geometric representation, verified as an operator ident… |
 | `B358` | PROVED | S | | Exactly certified: sqrt(-15) appears in the Heisenberg-twisted theta pair sector (44 of 49 doubles) and vanishes identically in the canonical lift.… |

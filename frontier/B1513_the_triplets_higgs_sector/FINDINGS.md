@@ -239,6 +239,12 @@ D1–D9 hold. One note on D7b: it was recorded as reported, not relied on, and i
    source/end balance and the parent's interactions on one positive-norm configuration, and recompute the spectrum and the couplings
    there rather than transporting labels.
 
+> **Leads 1 and 2 taken (2026-10-02, B1514; PROVED).** On B1511's case-(b) points, as lead 1 asked, the chiral 10̄′ does not couple:
+> it lives in the sub-bundle V, and its wedge lands in the twisted Higgs bulk ν² ⊗ Λ²ρ_q, which is acyclic at all 184 members.
+> Two routes that share no code agree. With this arc, no chiral state of the harmonic tower through level 6 couples to a Higgs class
+> of its background (lead 2, through level 6). Lead 1's Jordan zero, this arc's case (a), is still only computed.
+> `frontier/B1514_the_decoupling_law`.
+
 ## 9. Independent audit (post-bank, 2026-10-01; the owner's rule)
 
 The owner, after the banking, verbatim: **"aleays verify, make sure we dont hit negatives because of bugs"** (adopted as a standing

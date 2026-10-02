@@ -1043,3 +1043,12 @@ left it.
 > - **Applied to this ledger.** The harmonic frame's triplet has its Higgs pairs but no Yukawa from them. Main's B1443 (y ≠ 0) holds in
 >   the Standard-Model frame, not here. No verdict changes. I-26 stays UNEARNED. 0 of 19.
 >   `frontier/B1513_the_triplets_higgs_sector`.
+
+> **Currency note (2026-10-02, B1514): the decoupling law.** B1513 leads 1 and 2, sealed at a0badfa3 before the run; PROVED by two
+> routes that share no code.
+> - **Case (b).** The opposite-sign 10̄′ on M₄, M₅ and M₆ (184 members) lives in the sub-bundle V, and its couplings factor through the
+>   twisted Higgs bulk ν² ⊗ Λ²ρ_q, which is acyclic at every member. Its coupling to every Higgs class of its background is zero, and
+>   no form joins two members of an orbit.
+> - **Applied to this ledger.** With B1513, through level 6 no chiral state of the harmonic tower has a tree-level Yukawa from its own
+>   background's Higgs sector. Only non-chiral states couple. A Yukawa for chiral matter has to come from outside that sector. No
+>   verdict changes. I-26 stays UNEARNED. 0 of 19. `frontier/B1514_the_decoupling_law`.

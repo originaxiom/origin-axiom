@@ -457,6 +457,12 @@ emitted value. The structure is the object's; the values are the observer's.
 > coupling that would give the triplet's quarks of the up type their masses is exactly zero, for each vacuum and for the original
 > one. The same structure that makes the matter chiral removes the coupling. A second computation, by a different method in
 > separate code, found the same zero, and still saw the coupling where it is not zero. The nineteen numbers are still not derived.*
+>
+> *And (B1514), the same decoupling for the opposite-handed cases, explained. There the handed state sits inside a smaller piece of
+> the bundle, so its couplings to the Higgs fields pass through a part of the bundle that carries no fields at all, and they vanish.
+> Two computations that share no code confirm this for all 184 vacua of the four-, five- and six-fold covers, find no coupling that
+> joins two vacua, and still see couplings for the states that are not handed. So, through the six-fold cover, no handed state couples
+> to its own vacuum's Higgs fields: its masses would have to come from somewhere else. The nineteen numbers are still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The
