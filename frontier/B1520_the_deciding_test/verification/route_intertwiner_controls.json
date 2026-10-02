@@ -1,0 +1,55 @@
+{
+ "C1 rho_q vs rho_q (positive)": {
+  "pair": "id",
+  "dim over Q(q)": 1,
+  "X verified": true,
+  "det X": "1",
+  "positive zeros of det X": [],
+  "at the zeros: dim, some invertible": [],
+  "isomorphic for every q > 0": true
+ },
+ "C2 rho_q vs P rho_q P^-1 (positive)": {
+  "pair": "conj",
+  "dim over Q(q)": 1,
+  "X verified": true,
+  "det X": "-24",
+  "positive zeros of det X": [],
+  "at the zeros: dim, some invertible": [],
+  "isomorphic for every q > 0": true
+ },
+ "C3 rho_q vs rho_2q (negative)": {
+  "pair": "2q",
+  "dim over Q(q)": 0,
+  "isomorphic for every q > 0": false,
+  "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+ },
+ "C4 rho_q vs rho_{1/q}, no map (negative off q = 1)": {
+  "pair": "1/q",
+  "dim over Q(q)": 0,
+  "isomorphic for every q > 0": false,
+  "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+ },
+ "C5 at q = the real root of x^3 - x - 1: rho vs rho, dim and invertible (positive)": [
+  1,
+  true
+ ],
+ "C6 at the same point: rho_q vs rho_2q, dim and invertible (negative)": [
+  0,
+  false
+ ],
+ "C7 a unique singular intertwiner (negative)": {
+  "pair": "singular",
+  "dim over Q(q)": 1,
+  "X verified": true,
+  "det X": "0",
+  "isomorphic for every q > 0": false,
+  "note": "the only intertwiner over Q(q) is singular: not isomorphic for generic q"
+ },
+ "C8 at q = 1: rho_q vs rho_{1/q}, dim and invertible (positive: they coincide)": [
+  1,
+  true
+ ],
+ "C9 BANKED IDENTITY: the relator mnMNmNMnmN holds": true,
+ "C10 BANKED IDENTITY: tr rho_q(nMNmmNMn) = 3q + q^-3 (B1510 Lemma R)": true,
+ "controls passed": true
+}

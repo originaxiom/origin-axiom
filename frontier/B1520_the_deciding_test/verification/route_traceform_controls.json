@@ -1,0 +1,60 @@
+{
+ "basis words": [
+  "",
+  "m",
+  "n",
+  "M",
+  "N",
+  "mn",
+  "nm",
+  "mN",
+  "Nm",
+  "Mn",
+  "nM",
+  "MN",
+  "NM",
+  "mnm",
+  "mnM",
+  "nmN"
+ ],
+ "det Gram (Laurent polynomial in q)": "(1)q^-16 + (32)q^-15 + (502)q^-14 + (5146)q^-13 + (38765)q^-12 + (228796)q^-11 + (1101527)q^-10 + (4446802)q^-9 + (15355196)q^-8 + (46037340)q^-7 + (121231911)q^-6 + (282946332)q^-5 + (589509337)q^-4 + (1102722116)q^-3 + (1860433600)q^-2 + (2841198350)q^-1 + (3938586700)q^0 + (4966304900)q^1 + (5704332925)q^2 + (5973401300)q^3 + (5704332925)q^4 + (4966304900)q^5 + (3938586700)q^6 + (2841198350)q^7 + (1860433600)q^8 + (1102722116)q^9 + (589509337)q^10 + (282946332)q^11 + (121231911)q^12 + (46037340)q^13 + (15355196)q^14 + (4446802)q^15 + (1101527)q^16 + (228796)q^17 + (38765)q^18 + (5146)q^19 + (502)q^20 + (32)q^21 + (1)q^22",
+ "positive roots of det Gram": [],
+ "controls": {
+  "C1 rho vs rho": {
+   "all Theorem-T traces equal": true,
+   "first differing trace": null,
+   "conjugate exactly at q > 0": "every q > 0"
+  },
+  "C2 rho vs P rho P^-1": {
+   "all Theorem-T traces equal": true,
+   "first differing trace": null,
+   "conjugate exactly at q > 0": "every q > 0"
+  },
+  "C3 rho_q vs rho_2q": {
+   "all Theorem-T traces equal": false,
+   "first differing trace": {
+    "word": "nm",
+    "difference": "(-1)q^1",
+    "positive q where it vanishes": []
+   },
+   "conjugate exactly at q > 0": []
+  },
+  "C4 rho_q vs rho_{1/q}": {
+   "all Theorem-T traces equal": false,
+   "first differing trace": {
+    "word": "nm",
+    "difference": "(-1)q^-1 + (1)q^1",
+    "positive q where it vanishes": [
+     "1"
+    ]
+   },
+   "conjugate exactly at q > 0": [
+    "1"
+   ]
+  },
+  "C5 the relator holds": true,
+  "C7 BANKED IDENTITY: tr rho_q(nMNmmNMn) = 3q + q^-3 (B1510 Lemma R)": true,
+  "C6 poly_gcd on known polynomials: gcd((q-1)^2 (q+2), (q-1)(q-3)) = q - 1": true,
+  "controls passed": true
+ }
+}

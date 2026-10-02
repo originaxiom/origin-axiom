@@ -1,0 +1,16 @@
+# B1520 -- sha-256 of the sealed files, recorded at the seal (before route_intertwiner.py, route_traceform.py,
+# followup_index.py and decide.py ran on the population). The JSON files are the design-time runs disclosed in
+# PREREGISTRATION section 3 (structure and controls, not outcomes).
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1520_the_deciding_test/)
+5d55ef5632cae081ed734b057f0f1aebb817a42041dac9cd65bacefd692f0ed7  PREREGISTRATION.md
+d0a0caa81c18dd1dd96a39b5b64d489ed4e7948a1afe714b583bb8ac795a7c9e  verification/symmetries.py
+326fa406db00e31862c4dd636b9ea145c0a253833c66efd460ef669a1dfb782c  verification/route_intertwiner.py
+382067d77ebc44fe8e5ef358c732ddaec585b0e2793ca4b192d9da1026c92f0a  verification/route_traceform.py
+309b969c0573ead52d3b636ac512ac8e153435678d62915a759b4a9e970ef35f  verification/followup_index.py
+a0f30d3a3c33b859f479e5560fb84cb42bffa268073e2b54e2fa8c62dca754ef  verification/decide.py
+f19173e0d73d0d06727b36ad552bda9713926ddd8cdb8cd98a84494b41b367f1  verification/lift_e8.py
+e08f0bbd5cd6f958b0a92bc61ff79e34f2443bbb063bcaf2fba505afdc7e2ead  verification/symmetries.json
+719c3f958fb17edd391e542c5b30321a14dcdc08829ca36e07a3ee8a137acb83  verification/route_intertwiner_controls.json
+30fdc93611f51b5dd5b575691ded23ebad8cb59df31d8aa635a3778d86370f77  verification/route_traceform_controls.json
+41602b337ce589e2d6e87b25e1543cedf7e4ad82e4c4ac6492ea233bcc6d556a  verification/followup_index_controls.json
+ba371461dae1a58dd5351f730c45c8a741042890daadcebcdd3c11755c0316df  verification/lift_e8.json
