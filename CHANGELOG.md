@@ -1,5 +1,16 @@
 # Changelog
 
+## Record the fast lane on 43543f4b (B1520's banked tree): at the bank's baseline; B1521's credit amended (B1512 Lemma I)
+
+- **The fast lane on 43543f4b** (69 minutes): 6 568 passed, 52 skipped, 10 failed. The ten are the same set as at 27220af6: the
+  nine baseline failures and the environmental `test_b1035_receipts`.
+- **The fifteen extra passes, from the collector.** IDs diffed at 27220af6 and 43543f4b like for like (6 656 and 6 672, slow tests
+  included in both): 16 added and none removed. They are B1520's two schema cases and its 14 lock tests, one of them slow, so
+  15 fast.
+- **B1521 amended (self-caught after the push).** "ρ_q ∘ P ≅ ρ_q" was already this seat's B1512 Lemma I (2026-10-01): the fibre's
+  hyperelliptic involution fixes ρ_q, by an explicit C(q). B1521's FINDINGS carry a dated addendum, the relay to main and B1520's
+  addendum point to it, and ERROR_LEDGER has an E54 instance. C1, GENESIS v1.3 and the correction to main are unchanged.
+
 ## B1521 banked: GENESIS v1.3 — the audit lane's three corrections carried, the deciding test's outcome on both benches, and B1297's P is the swap (it fixes ρ_q; the inversion dualises it)
 
 - **Not sealed.** Each item checks a stated claim whose answer the record already fixes. PROVED, four checks with opposite

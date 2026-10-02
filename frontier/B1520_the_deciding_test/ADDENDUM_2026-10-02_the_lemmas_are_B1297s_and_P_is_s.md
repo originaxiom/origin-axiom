@@ -12,7 +12,8 @@ table, stabilisers, verdict or kill changes. Only the credit and one reading cha
 - **P is s.** B1297's period-2 symmetry P (a ↦ a⁻¹, b ↦ a³b in SnapPy's presentation) is this arc's s, the swap of the two
   meridians, up to an inner automorphism: P = conj(nM) ∘ s. sm:B1521 C1 shows this through an explicit isomorphism between
   SnapPy's presentation and Ballas', proved by free-group reduction (`frontier/B1521_genesis_v13/verification/which_class_is_P.py`).
-  This seat's B1279 (2026-09-06) had already named it "the period-2 swap".
+  This seat's B1279 (2026-09-06) had already named it "the period-2 swap", and this seat's B1512 Lemma I (2026-10-01) proves
+  that it fixes ρ_q, as the fibre's hyperelliptic involution ι, with an explicit intertwiner.
   - So the s in the stabiliser {id, s, D.θ, D.sθ} of every vacuum is B1297's P, and it fixes ρ_q.
   - The count-odd fixers are the inversion θ and θ after P, both followed by dualising. P itself dualises ρ_q only at q = 1.
 - **What this means for the levels.** B1297's tower theorem uses P, which acts as −1 on every torsion character of every

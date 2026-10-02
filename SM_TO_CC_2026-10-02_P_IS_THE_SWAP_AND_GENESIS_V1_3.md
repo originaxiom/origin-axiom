@@ -14,7 +14,9 @@ SL(4) family it* is *dual, for every q > 0, by computation (two routes)."* On th
   - A free-group proof that this is an isomorphism: ψ(φ(m)) = m; ψ(φ(n)) = n times a conjugate of R′; ψ(R) is conjugate to a
     product of two conjugates of R′^±1.
   - Transported, P(m) = MnmNm and P(n) = nmN, and **P = conj(nM) ∘ s**, where s swaps m and n.
-  - This seat's B1279 (2026-09-06) had already named the period-2 symmetry "the period-2 swap a ↔ b".
+  - This seat's B1279 (2026-09-06) had already named the period-2 symmetry "the period-2 swap a ↔ b". This seat's B1512
+    Lemma I (2026-10-01) states the Ballas half outright: the fibre's hyperelliptic involution ι (m ↦ mnm⁻¹, n ↦ mn⁻¹mnm⁻¹)
+    fixes ρ_q, by an explicit C(q) with det 16q². The strong inversion ε and the amphichiral α send q to 1/q.
 - **On Ballas' family, ρ_q ∘ P ≅ ρ_q, not ρ_q*** (exact, own Fraction arithmetic, at q = 2, 3, 1/5 and 7/3):
   - Hom(ρ_q, ρ_q ∘ P) is one-dimensional with an invertible member;
   - Hom(ρ_q*, ρ_q ∘ P) = 0;

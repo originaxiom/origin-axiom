@@ -221,7 +221,8 @@ def test_findings_and_verdict():
               "58 of 1327 arcs on main match (NEGATIVE 17, OPEN 2, PROVED 39)", "B1279 (2026-09-06)",
               "So ρ_q ∘ P ≅ ρ_q, and not", "for q ≠ 1. The addendum's sentence holds for the inversion θ", "Main's L242 (b) is therefore open.",
               "The test changes under a vacuous rewriting", "Its reading that a unit is internally fork-free needs a componentwise proof",
-              "Standing: RE-DERIVED", "No status changes."):
+              "Standing: RE-DERIVED", "No status changes.",
+              "Addendum (2026-10-02, after the push): C1's Ballas half is this seat's B1512 Lemma I"):
         assert s in t, s
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1521" and v["verdict"] == "PROVED" and v["creates_law"] is False and v["identifications"] == []
@@ -239,6 +240,7 @@ def test_ledgers_and_surfaces():
     assert "P = conj(nM) ∘ s" in add and "the earlier source of all three is B1297" in add
     err = (ROOT / "docs" / "ERROR_LEDGER.md").read_text(encoding="utf-8")
     assert "| E54 instance (2026-10-02, B1520's Seen first) — the three lemmas credited to two arcs of the same day, not to B1297 |" in err
+    assert "| E54 instance (2026-10-02, B1521's Seen first) — a fact credited to two records when the seat's own third" in err
     op = (ROOT / "docs" / "OPEN_PROBLEMS.md").read_text(encoding="utf-8")
     assert "Scope of B130's part (2026-10-02, sm:B1521; the audit lane's ACT_REGISTER AR4 and AR5" in op
     leads = _norm((ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8"))

@@ -16995,3 +16995,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   experiential question is held under Gate 5-Q.
 - **Lock** `tests/test_b1521_genesis_v13.py` (8 fast, 1 slow). B1519's lock now checks the kept v1.2. 0 of 19; I-26 stays
   UNEARNED.
+
+## 2026-10-02 — the fast lane on 43543f4b, and B1521's credit amended
+
+- **Fast lane on 43543f4b** (69 minutes): 6 568 passed, 52 skipped, 10 failed. The ten are the same set as at 27220af6, the nine
+  baseline failures and `test_b1035_receipts`.
+- **The extra passes, from the collector.** Diffed like for like with 27220af6: 16 added (B1520's two schema cases and its 14 lock
+  tests, one slow), none removed.
+- **B1521's credit.** B1512 Lemma I (this seat, 2026-10-01) already has the fibre's hyperelliptic involution, B1297's P, fixing
+  ρ_q. Added as a dated addendum to B1521's FINDINGS, with pointers in the relay to main and B1520's addendum, and an E54 instance
+  in ERROR_LEDGER. Nothing computed changes.

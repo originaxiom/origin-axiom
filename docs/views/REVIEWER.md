@@ -23,7 +23,7 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1269** |
-| words of findings prose | **1,055,535** |
+| words of findings prose | **1,055,710** |
 | test lock files referenced | **773** |
 | arcs carrying an authored verdict | **1269** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
@@ -68,7 +68,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1521`** (2005 words, 0 locks)  
+**PROVED — `B1521`** (2180 words, 0 locks)  
 GENESIS v1.3 (not sealed: every item checks a stated claim the record already fixes): the audit lane's corrections carried, each re-derived with own code -- B37's and B20's never-reads tests fire under a vacuous rewriting on the record graph (AR3); an empty elimination keeps an isolated component (AR4), so B130's fork-free reading needs a componentwise proof; m = 1, 4, 11 share Q(sqrt 5) (AR5); B723 carries the B942 and B957 retractions (AR6). And B1297's period-2 symmetry P is the swap's class (P = conj(nM) o s, through an explicit isomorphism between SnapPy's and Ballas' presentations proved by free-group reduction), so rho_q o P = rho_q, not rho_q^* (q = 2, 3, 1/5, 7/3, exact): the family's dualising symmetry is the inversion, main's B1455 addendum is corrected on that line, and the levels (main's L242 (b)) stay open. FK9 carries the deciding test's NEGATIVE at level one, FK12 the owner's act-and-register priority with the experiential question under Gate 5-Q; 'choice might be golden' registered, untested. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.  
 `B1521_genesis_v13/FINDINGS.md`
 

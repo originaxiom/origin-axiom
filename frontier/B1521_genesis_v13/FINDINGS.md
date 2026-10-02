@@ -178,3 +178,16 @@ What is added:
 
 GENESIS states the experiential question as a hypothesis under Gate 5-Q, and nothing is claimed about experience. No
 Standard-Model number is touched: **0 of 19**.
+
+## Addendum (2026-10-02, after the push): C1's Ballas half is this seat's B1512 Lemma I
+
+Self-caught while designing sm:B1522, from this seat's own B1512 PREREGISTRATION §3.
+- **Lemma I** (2026-10-01) states that the fibre's hyperelliptic involution ι (m ↦ mnm⁻¹, n ↦ mn⁻¹mnm⁻¹; −1 on H₁(F), +1 on
+  π/F, orientation kept) fixes Ballas' family, with an explicit intertwiner C(q), det C = 16q². B1297's P is that ι, and so is
+  this seat's B1279 "period-2 swap".
+- **B1512's table** also has the strong inversion ε and the amphichiral α sending q to 1/q, with explicit intertwiners.
+- So **"ρ_q ∘ P ≅ ρ_q"** was on this branch's record before main's addendum. C1 re-derives it in a third presentation and adds
+  only the explicit bridge to SnapPy's presentation, in which main wrote P.
+- B1521's "Seen first" cited B1279 and B1455's table but not B1512 Lemma I. That is an E54 instance, in
+  `docs/ERROR_LEDGER.md`. The relay to main now points to Lemma I.
+- Nothing in C1's computation, GENESIS v1.3 or the correction to main changes.
