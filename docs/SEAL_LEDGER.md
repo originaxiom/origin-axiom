@@ -1563,3 +1563,22 @@ these three paths before this supplemental seal; not a scientific repair.
 | `reports/physical_bridge_2026_09_05/FLAT_VACUUM_CONTROL_DESIGN.md` | `f54de917ac97734a87976f653db342346ce53cdceba6f664ab55e6c0f3d71a76` |
 | `reports/physical_bridge_2026_09_05/flat_vacuum_control.py` | `dd1c5a24816876407daf602a1229cfb9eaf2549902937dc91c448e70d3f82913` |
 | `tests/test_physical_bridge_flat_vacuum_control.py` | `62de43e0655f1c9c3380794024fa9de8339f799156e5cf6ce5408ede9f3ed9cb` |
+
+## October 2 2026 R78 signed-level audit pre-execution seal
+
+Exact signed-power reconstruction, preserved B1516 C9 replay, complete
+trace-seven word window and corrected cover law; named Sage interval
+geometry at 100/160 bits. Seven frozen science paths, fifteen read context
+pins. No scientific execution/import before this seal. No 758 census
+withdrawal, whole-corpus absence/novelty, coefficient index or physical
+generation claim. Independent analytic review remains pending.
+
+| frozen science path | sha256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/SIGNED_LEVEL_DESIGN.md` | `427ae10d36adeda8b336dda358a9fcb25e69a7ac8c1f4b0ae1a25d150c078375` |
+| `reports/physical_bridge_2026_09_05/SIGNED_LEVEL_PROOF.md` | `1d3e2229df4741e997532b8102f3e7d0c86c12090c4e5e8e0649bc76346f2c0c` |
+| `reports/physical_bridge_2026_09_05/SIGNED_LEVEL_INPUTS.json` | `14d2ad2f58d568b2b19c34d8160b66d8bf18fdebcbc0e82da4e3d10956723324` |
+| `reports/physical_bridge_2026_09_05/signed_level.py` | `f72628a6677a45a3e4d736c23e27bb5079e35de7f0346fb9a2a24975ca38bb76` |
+| `reports/physical_bridge_2026_09_05/signed_level_geometry.py` | `b016b30a65cebe89b599524181aecfdd3d3e4548a4badfdbdd06eaa2732fc341` |
+| `reports/physical_bridge_2026_09_05/received_r78/foundations_checks.py.txt` | `fb080742edae46b0ddd92b9fa97597b39698a9de3d54f0e210eaee3a243dcadc` |
+| `tests/test_physical_bridge_signed_level.py` | `304ee6be259ecfb47a0d8c67dd31f0a1cad8fca38e8162cfee257ec7cc8a438a` |

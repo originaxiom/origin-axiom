@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-02",
+  "goal_scope": "genesis signed-state and cyclic-level interface",
+  "inputs": [
+    {
+      "commit": "e1bc9c36e6a0308d66a4651f1963a65be06d0e6e",
+      "path": "GENESIS.md",
+      "bytes": 24998,
+      "sha256": "13fb8daa11fcdfb9d6d19b3eeb3a403108ffd0aa489f3abd27be358681ae0ca7",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "e1bc9c36e6a0308d66a4651f1963a65be06d0e6e",
+      "path": "frontier/B1516_genesis_v1/FINDINGS.md",
+      "bytes": 11648,
+      "sha256": "8981602db4df089c1ee9eb2d8b91baac8bae7aaf6f24b3f8b8aaa04045314310",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "e1bc9c36e6a0308d66a4651f1963a65be06d0e6e",
+      "path": "frontier/B1516_genesis_v1/verification/foundations_checks.py",
+      "bytes": 22684,
+      "sha256": "fb080742edae46b0ddd92b9fa97597b39698a9de3d54f0e210eaee3a243dcadc",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "e1bc9c36e6a0308d66a4651f1963a65be06d0e6e",
+      "path": "frontier/B1516_genesis_v1/verification/foundations_checks_run.txt",
+      "bytes": 6624,
+      "sha256": "098d11c4ff7c2ce12e3c06f6fc28ce86f9959689f446db67826bba7690d73459",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "e1bc9c36e6a0308d66a4651f1963a65be06d0e6e",
+      "path": "tests/test_b1516_genesis_v1.py",
+      "bytes": 13342,
+      "sha256": "d280597142fe77b647d0b21132a20c6fb7878bf783ce43ebd735fefea9d01028",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1434_the_architecture_census/FINDINGS.md",
+      "bytes": 6867,
+      "sha256": "53f3c5f67a9758819c67068f1889c1caa24efe3a411b20f00fb9b4c3c5a2aabd",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1434_the_architecture_census/verification/architecture_census.py",
+      "bytes": 6764,
+      "sha256": "8a43abdb970b73799ef51cf1619b449893e5c6303262c35a47e8414cc1153844",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1439_the_census_by_slope/FINDINGS.md",
+      "bytes": 6260,
+      "sha256": "2a98bc214c863c818090292db06149bcc25b0b3f97ca1d7ec26f44f4f4deb0d1",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1439_the_census_by_slope/verification/census_by_slope.py",
+      "bytes": 7218,
+      "sha256": "cd9e5c90a872a0a1c5fa34cdbdc902c7180c39698104432c06c247d6c689d005",
+      "read_status": "full personally read; not all results independently rerun"
+    },
+    {
+      "commit": "accf5146fe5640d1947b7e1f2126a6b0d42cc337",
+      "path": "WORKING_RULES.md",
+      "bytes": 20665,
+      "sha256": "b096a241ffbbe366a619119f0e9e8f2a0f0f2876bdbd2e9a8540fa377e4e10ff",
+      "read_status": "full personally read in current or preceding turns"
+    },
+    {
+      "commit": "accf5146fe5640d1947b7e1f2126a6b0d42cc337",
+      "path": "docs/BANKING_PROTOCOL.md",
+      "bytes": 8359,
+      "sha256": "91661ee54a7bb193f409cd588ec13b33966dcb3813ad2735314499fdaeaaa206",
+      "read_status": "full personally read in current or preceding turns"
+    },
+    {
+      "commit": "accf5146fe5640d1947b7e1f2126a6b0d42cc337",
+      "path": "docs/COMPUTE_THE_PROGRAM.md",
+      "bytes": 20288,
+      "sha256": "847e104ee7532d16074851971189cc57c2884fb5b7a24592a78474e95cae0dd3",
+      "read_status": "full personally read in current or preceding turns"
+    },
+    {
+      "commit": "accf5146fe5640d1947b7e1f2126a6b0d42cc337",
+      "path": "reports/physical_bridge_2026_09_05/ROOT_SCOPE_DESIGN.md",
+      "bytes": 9702,
+      "sha256": "06593825a87479f62c85ee4b422146a23a226edfa4370a997c8aaa6c5680a391",
+      "read_status": "full personally read in current or preceding turns"
+    },
+    {
+      "commit": "accf5146fe5640d1947b7e1f2126a6b0d42cc337",
+      "path": "reports/physical_bridge_2026_09_05/OPERATIONAL_CONTRACT.md",
+      "bytes": 6776,
+      "sha256": "434e99f05f86efaafa57b2847dcc43963c0bf09771d9e6491e984e2cc303bd50",
+      "read_status": "full personally read in current or preceding turns"
+    },
+    {
+      "commit": "accf5146fe5640d1947b7e1f2126a6b0d42cc337",
+      "path": "reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md",
+      "bytes": 12574,
+      "sha256": "dd0dc2c4b9d3630d750eb7e0c9330fd232e47b42e97deb49959ef0da0c2c5fd3",
+      "read_status": "full personally read in current or preceding turns"
+    }
+  ],
+  "foreign_snapshot": {
+    "path": "received_r78/foundations_checks.py.txt",
+    "source_commit": "e1bc9c36e6a0308d66a4651f1963a65be06d0e6e",
+    "source_path": "frontier/B1516_genesis_v1/verification/foundations_checks.py",
+    "sha256": "fb080742edae46b0ddd92b9fa97597b39698a9de3d54f0e210eaee3a243dcadc",
+    "bytes": 22684,
+    "byte_identical": true
+  },
+  "novelty_claim": false,
+  "primary_method_references": [
+    "https://snappy.computop.org/verify.html",
+    "https://snappy.computop.org/manifold.html"
+  ]
+}
