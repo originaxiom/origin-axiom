@@ -113,7 +113,11 @@
   labels used thousands of times.
 - **Surfaces:** README and THE_SM_VERDICT point to GENESIS; OPEN_LEADS reads every lead with its scope and registers sL-9, the order
   of work under v1.0 (the bar and the null model first, then the frames beyond m004); the alias table; the atlas and views.
-- **Lock:** `tests/test_b1516_genesis_v1.py` (18 fast, 1 slow). 0 of 19.
+- **Lock:** `tests/test_b1516_genesis_v1.py` (17 fast, 1 slow; first written here as "18 fast", corrected 2026-10-02 from
+  pytest's collection after the lane below, ERROR_LEDGER).
+- **Fast lane on e1bc9c36** (B1516's pushed tree, 75 minutes): 6 516 passed, 52 skipped, 10 failed. The ten are the same set
+  as at 800ed4e5: the nine baseline failures and the environmental `test_b1035_receipts`. The 18 extra passes are B1516's 17
+  fast lock tests and its verdict-schema case. 0 of 19.
 
 ## Relay from main read and answered: main's own-code checks of sm:B1509, sm:B1511 and sm:B1515 agree; its meridian trap does not affect this seat
 

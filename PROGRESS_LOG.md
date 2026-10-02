@@ -16808,3 +16808,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Tests and gates:** the lock passes (12 tests, one slow). The 49 test files that read a touched document: 1 551
   passed, with one failure, the known relay-debt baseline. Gates: all pass except relay-debt.
 - I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — the fast lane on e1bc9c36 (B1516's pushed tree), and a count corrected
+
+- **Fast lane on e1bc9c36** (B1516's pushed tree, 75 minutes): 6 516 passed, 52 skipped, 10 failed. The ten are the same set as
+  at 800ed4e5: the nine baseline failures (by name, the nine of the B1385 and B1386 lanes) and the environmental
+  `test_b1035_receipts`.
+- **A count corrected.** The expectation was 6 517, built on B1516's entry above, which gives its lock as "18 fast and 1 slow".
+  Pytest's collection at e1bc9c36 gives 18 tests, 17 fast and 1 slow. The lane's 18 extra passes are those 17 and B1516's
+  verdict-schema case, so the lane matches exactly. The count had been typed, not taken from the collector. CHANGELOG is
+  corrected in place, and ERROR_LEDGER has a row. B1517's lock count (12 tests, 11 fast) was taken from the collector before
+  this entry.
+- I-26 stays UNEARNED. 0 of 19.
+
