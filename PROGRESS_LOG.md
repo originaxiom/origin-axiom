@@ -16244,3 +16244,60 @@ relays plus one fresh OPEN relay. A custody predicate using the wrong
 provenance label also failed; that capture is preserved and only its
 substring fixed. Final custody passes5 frozen science files/14 pins.
 No science rerun, repair or new physical identification.
+
+## 2026-10-02 — path-local R76 same-action flat-vacuum gate
+
+Science ae09404a895b459fa7d2f7e155f68df68777c39c; supplemental
+3f78d04b1e094acb5b3c9b73d1ba7d427548fcf3. Both pushed and confirmed
+before respective imports/runs. One digest-row plus marker corrected
+pre-execution in b96f8592; science unchanged. A literal pipe-separated
+absence query was discarded and separately rerun with --regex before
+the draft. No broad conceptual absence claim follows.
+
+Actual action-to-bienergy map, negative target curvature and equivariant
+cutoff stationarity argument authored. The smooth complete boundaryless
+finite-energy stationary FLAT bare model must be harmonic; sources,
+other fields, nonflat backgrounds and singular/physical ends are not
+excluded. The stationary nonharmonic interval retains its end variation.
+All16 pages of arXiv1201.6457v4 extracted text personally read; important
+theorem/proof pages visually inspected. No theorem merely transplanted
+from an ordinary map on the universal cover to a finite-volume base.
+
+R75's representative is globally nonsplit but its actual cocycle already
+vanishes on both cusp generators. Conditional on R44, localization gives
+a compact smooth upper extension and a compact current with finite Higgs
+energy. t>0 scaling preserves its cohomological index, has positive
+a t^2+c t^4, and approaches the split limit at infinite target distance.
+This is not a physical scalar distance, quantum selection or derived
+source field law. Primary and received-input hypotheses remain priced.
+
+Original44/44 controls and11 tests pass first. Original cusp primitive0
+prompted a separate nonzero-frame positive recovery seal:12/12 controls
+pass, primitive e0, same class and wrong-primitive rejection. Combined
+12 focused tests pass, six new tests; no science failure or repair.
+Native hashes59a607fc0793774192869ea9db37d406ce6b77001b3099048b4f60dd4a653c3d
+and5a08db0cd6f363a3431ddb5b83b26efd2eb71358adc6b32ecc0eb1d18c70813f;
+combined test hash550039807d1f8d337fe1d9dd7010b4f0cfa8745e80ee5e7b3579cbd14d884f3a.
+Full suite/global independent review/main bank not claimed. All11 reader
+surfaces updated; B1513 SEALED NOT RUN design/stub fully read and its
+Higgs/Yukawa work not duplicated. Next actual SAME coupled source/end
+action, complete fluctuations, anomalies and normalized observables.
+Goal tracker now reports ACTIVE; full parameter-free SM/TOE unachieved.
+Report: reports/physical_bridge_2026_09_05/FLAT_VACUUM.md.
+
+R76 first custody passes8 frozen science paths/eight pins/four science
+captures. First cumulative check passes1129 artifact rows/437 latest
+digests at that snapshot and24 unchanged historical failed-error IDs.
+Governance26PASS/4 old FAIL, same old offending paths and41 stale relays;
+one fresh HELD OPEN relay increases open47->48, not delivered/accepted.
+First audit captures are published byte-faithfully with exit statuses.
+
+R76 final fetch advanced SM to34aee33a and main357b7c98. B1513's own
+Higgs pair/relative tree-level zero and independent block-lift audit,
+and main B1445/B1446 population/parabolic/branch-point bodies personally
+read through their ends. Incoming producers not rerun; no received
+positive or negative promoted to independent acceptance. The old B1513
+SEALED NOT RUN status applies only to its5e995321 design snapshot.
+Final intake preserves different-frame interaction positives, precise
+zero scope and source/end/nonperturbative hatches; R76 science unchanged.
+Receipt pins and FLAT_VACUUM_BRANCH_INTAKE.md record the late currency.

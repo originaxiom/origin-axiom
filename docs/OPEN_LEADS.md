@@ -4288,3 +4288,33 @@ Source: reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES.md.
 - PB-PHYSICS: whole anomaly-compatible normalized chiral spectrum,
   gravity, scales and discriminating observations. No I-26 promotion
   or parameter-free Standard Model/TOE completion from this audit.
+
+## R76 flat-vacuum/source disposition October 2 2026
+
+Source: reports/physical_bridge_2026_09_05/FLAT_VACUUM.md. Preserve the
+positive mathematical triplet and its index. Final34aee33a intake reads
+B1513's reported own Higgs pair/zero relative product with its separate
+method controls, not independently accepted by this lane. Main357b7c98
+B1445/B1446 deformation and cross-member branch positives likewise retained.
+
+- PB-SOURCE / PB-ACTION: realize the compact projector current through
+  the actual parent source/core/end fields, with THEIR action and all
+  variations. Calling the residual S=I does not derive the law; internal
+  moment-map commutators must not be counted twice. The core localization
+  removes a forced cusp-support premise, not the source-field duty.
+- PB-ACTION / PB-REVIEW: independently review the same-action biequation,
+  complete equivariant cutoff application and smooth support construction.
+  Closed only: non-BPS FLAT smooth complete boundaryless finite-energy
+  stationary escape in the stated bare action. Nonflat, other-field,
+  source and singular/end theories are NOT closed by it.
+- PB-INTERACTIONS: B1513's Higgs/Yukawa population and second-method audit
+  were reported by final34aee33a fetch, not rerun here. Couple any classes
+  and source/end or nonperturbative interaction hatch to a SAME admitted
+  source background and normalize their full kinetic/action vertices.
+- PB-BOUNDARY / PB-GAUGE / PB-PHYSICS: common analytic superfield,
+  fermion and gauge domains, global core, full anomaly-compatible chiral
+  spectrum, quantum consistency, gravity and observation. R74 exterior
+  cone witnesses are not erased by a complete smooth-base theorem.
+- PB-REVIEW: original zero primitive retained and nonzero-coboundary
+  recovery separately controlled; first metadata errors disclosed.
+  Full suite and independent main-bank certification remain outstanding.

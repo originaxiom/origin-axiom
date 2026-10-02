@@ -1,0 +1,197 @@
+{
+  "seal": "ae09404a895b459fa7d2f7e155f68df68777c39c",
+  "metadata_preexecution_correction": "b96f8592f8ad2491954ce23970e782c0255baf6b",
+  "supplemental_seal": "3f78d04b1e094acb5b3c9b73d1ba7d427548fcf3",
+  "runs": {
+    "r76_native_first": {
+      "raw_basename": "r76_native_first",
+      "raw_receipt_sha256": "de94d8d7c5c3641321dbf027b1a895f9086d2387a1ef00b89206b71690951593",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/flat_vacuum.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 5.030635999981314,
+        "log_bytes": 1968,
+        "log_sha256": "59a607fc0793774192869ea9db37d406ce6b77001b3099048b4f60dd4a653c3d"
+      },
+      "stdout": "{\"bienergy\": \"16*x**4 + 8*x**2 + 5\", \"checks\": {\"bienergy_factor\": true, \"energy_factor\": true, \"flat_split_curvature\": true, \"flat_split_derivative\": true, \"hermitian_higgs\": true, \"moment_tension\": true, \"nonconstant_metric\": true, \"nonzero_tension_control\": true, \"positive_shear\": true, \"unitary_connection\": true, \"wrong_tension_rejected\": true}, \"energy\": \"4*x**2 + 1\", \"group\": \"metric\"}\n{\"checks\": {\"commuting_curvature_zero\": true, \"fixed_end_variations_zero\": true, \"free_end_variation_nonzero\": true, \"interval_current_retained\": true, \"interval_flux_nonzero\": true, \"nonharmonic_interval\": true, \"npc_contraction\": true, \"wrong_sign_rejected\": true}, \"curvature_pairing\": \"-2*(a**2*e**2 + a**2*f**2 - 2*a*b*d*e - 2*a*c*d*f + b**2*d**2 + b**2*f**2 - 2*b*c*e*f + c**2*d**2 + c**2*e**2)\", \"group\": \"curvature\", \"interval_boundary\": \"2*ddv\"}\n{\"checks\": {\"actual_longitude_cocycle\": true, \"actual_peripheral_commutes\": true, \"globally_nonsplit\": true, \"longitude_primitive\": true, \"longitude_splits\": true, \"nonzero_class\": true, \"q_one_inverse_fails\": true, \"stable_primitive\": true, \"stable_splits\": true}, \"group\": \"peripheral\", \"peripheral_primitive\": [\"0\", \"0\", \"0\", \"0\"]}\n{\"checks\": {\"actual_quadratic_moment\": true, \"determinant_one_gauge\": true, \"hermitian_moment\": true, \"higgs_energy_increment\": true, \"noncompact_gauge\": true, \"orthogonal_linear_quadratic\": true, \"positive_multiform_control\": true, \"positive_rank_one_coefficient\": true, \"potential_even_polynomial\": true, \"same_extension_conjugacy\": true, \"source_projector\": true, \"split_zero_comparator\": true, \"strict_scaling_derivative\": true, \"target_distance_factor\": true, \"traceless_moment\": true, \"wrong_cubic_detected\": true}, \"group\": \"scaling\", \"quartic_coefficient\": \"(b0**2 + b1**2 + b2**2 + b3**2 + c0**2 + c1**2 + c2**2 + c3**2)**2/2\", \"scaling_potential\": \"a*t^2+c*t^4, c>0 for nonzero beta\", \"target_distance\": \"80*log(r)**2\"}\n{\"all_checks_pass\": true, \"passed\": 44, \"total\": 44}\n"
+    },
+    "r76_focused_first": {
+      "raw_basename": "r76_focused_first",
+      "raw_receipt_sha256": "c9b650e4191733ede647c4bc292c2324f75b85362d43de33cf231215242d5728",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cross_branch_positives.py",
+          "tests/test_physical_bridge_flat_vacuum.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 17.203852000064217,
+        "log_bytes": 100,
+        "log_sha256": "0bb35403c9f3aa14e5c629902ab673750ecaee4568e34cda65f675dea0b154ba"
+      },
+      "stdout": "...........                                                              [100%]\n11 passed in 16.51s\n"
+    },
+    "r76_control_first": {
+      "raw_basename": "r76_control_first",
+      "raw_receipt_sha256": "03e6ae427f5bafe29045e1b299ee6279493ddc23c2ace8bbc5c7e9610609c2f7",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/flat_vacuum_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.8953710000496358,
+        "log_bytes": 451,
+        "log_sha256": "5a08db0cd6f363a3431ddb5b83b26efd2eb71358adc6b32ecc0eb1d18c70813f"
+      },
+      "stdout": "{\"all_checks_pass\": true, \"checks\": {\"both_relations\": true, \"global_class_still_nonzero\": true, \"longitude_splits\": true, \"multiform_actual_commutator\": true, \"multiform_quartic\": true, \"nonzero_longitude\": true, \"nonzero_stable\": true, \"recovers_nonzero_primitive\": true, \"same_global_extension\": true, \"stable_primitive\": true, \"stable_splits\": true, \"wrong_primitive_rejected\": true}, \"passed\": 12, \"primitive\": [\"1\", \"0\", \"0\", \"0\"], \"total\": 12}\n"
+    },
+    "r76_focused_control_first": {
+      "raw_basename": "r76_focused_control_first",
+      "raw_receipt_sha256": "c93707713a55099e422819636e1f5bf17b67ca2013920609aeab692b95fadd99",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_cross_branch_positives.py",
+          "tests/test_physical_bridge_flat_vacuum.py",
+          "tests/test_physical_bridge_flat_vacuum_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 20.361487000016496,
+        "log_bytes": 100,
+        "log_sha256": "550039807d1f8d337fe1d9dd7010b4f0cfa8745e80ee5e7b3579cbd14d884f3a"
+      },
+      "stdout": "............                                                             [100%]\n12 passed in 19.71s\n"
+    }
+  },
+  "population": {
+    "original_controls": 44,
+    "supplemental_controls": 12,
+    "combined_controls": 56,
+    "original_focused_passes": 11,
+    "combined_focused_passes": 12,
+    "new_tests": 6
+  },
+  "first_scientific_failures": [],
+  "metadata_disclosures": [
+    "Pre-seal literal pipe-separated search was discarded; --regex rerun before new draft found no named term hits on15 enumerated heads. This is not a conceptual absence proof.",
+    "An accidental leading plus in one digest row was corrected in a separate pre-execution commit; original scientific bytes and scientific seal unchanged.",
+    "Original actual cusp primitive was zero; supplemental positive nonzero-frame control was separately sealed, not used to overwrite original outcome."
+  ],
+  "primary_reading": {
+    "url": "https://arxiv.org/pdf/1201.6457v4",
+    "version": "v4",
+    "pages": 16,
+    "pdf_sha256": "e0b89551809f3423009819ed5b8c56d09fa5f0120cfeaec08f57973ba06ce9e1",
+    "text_sha256": "bc7d63e378cae2e2a3ab37ce8648230b04a19d366a97064aae54f6a4bb356fcd",
+    "read": "Complete extracted text, including applications, appendices and references; rendered pages 3--8 and 10--11 inspected",
+    "retention": "Downloaded PDF and extraction retained outside checkout; no publisher file redistributed"
+  },
+  "scope": "Fixed finite algebra controls; authored conditional global arguments; no independent analytic acceptance, full suite, main bank or physics certificate",
+  "audit_runs": {
+    "r76_custody_first": {
+      "raw_basename": "r76_custody_first",
+      "raw_receipt_sha256": "fe36be07b5ab73fe7213c7071e1cd69fd23ef17e64fc92421b82b4fab1f43461",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/flat_vacuum_receipt_check.rb",
+          "<raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7564310000743717,
+        "log_bytes": 216,
+        "log_sha256": "b4aa517e90eb314682035271cf343a2b6a36e293e139f064262583fda0e42afb"
+      },
+      "stdout": "{\"frozen_science_paths\":8,\"input_pins\":8,\"science_captures\":4,\"controls\":56,\"focused_passes\":12,\"new_tests\":6,\"report_links\":5,\"scope\":\"Byte custody and fixed finite populations, not analytic acceptance or physics\"}\n"
+    },
+    "r76_cumulative_first": {
+      "raw_basename": "r76_cumulative_first",
+      "raw_receipt_sha256": "d4c6ffd10eeb90b61d89f7218f7f99927d283cda07bcda844d98b8fdf9921765",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.2560669999802485,
+        "log_bytes": 615,
+        "log_sha256": "fa9d1e00645c82c7038cc83fd94fa253aefbeb01e57557cb17e2d3fa31885064"
+      },
+      "stdout": "{\"old_custody\":{\"artifacts\":1129,\"latest_distinct_seals\":437,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":2,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "r76_gates_first": {
+      "raw_basename": "r76_gates_first",
+      "raw_receipt_sha256": "cd85a4915ff8583bac45795f5c3bc11d7ef8f932fdc5b4ab71231c46ff5b63da",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.936263999901712,
+        "log_bytes": 2189,
+        "log_sha256": "fc039572d3da2f241f6a8721dd04ccde0404600de781ea274dbbfdec56f6a351"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 48 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 41 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 37 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 280 merges since last review (DUE — run the decadal review)\n"
+    }
+  },
+  "final_branch_intake": [
+    {
+      "commit": "34aee33a43531ae57c4830c519b8b0660ab45b4f",
+      "path": "frontier/B1513_the_triplets_higgs_sector/FINDINGS.md",
+      "bytes": 22169,
+      "sha256": "8253bc2cce55c7565539b12d30fe2b2b9061abc50d1db3298fe96b729c9fc093",
+      "read": "Complete body personally read; incoming scientific producers not rerun, claims not independently accepted by this intake"
+    },
+    {
+      "commit": "34aee33a43531ae57c4830c519b8b0660ab45b4f",
+      "path": "WORKING_RULES.md",
+      "bytes": 28281,
+      "sha256": "9d04654a2b9681d554a15ec6a1a20de71b4f80d0238cf8bd8643f27ef479fa16",
+      "read": "Complete body personally read; incoming scientific producers not rerun, claims not independently accepted by this intake"
+    },
+    {
+      "commit": "357b7c98adae838652c29247f6825f694ed8c240",
+      "path": "frontier/B1445_the_mass_term_on_the_product_of_two_curves/FINDINGS.md",
+      "bytes": 9043,
+      "sha256": "c14146968b68eef862d0d4c3162ae004aa36d4eaee0784b069a92f7816bc4c4b",
+      "read": "Complete body personally read; incoming scientific producers not rerun, claims not independently accepted by this intake"
+    },
+    {
+      "commit": "357b7c98adae838652c29247f6825f694ed8c240",
+      "path": "frontier/B1446_the_parabolic_points_and_the_branch_points/FINDINGS.md",
+      "bytes": 8644,
+      "sha256": "ae9709afae082142395ed645f2c0b2f0b7a5bf2dc1528165fcd4758520991810",
+      "read": "Complete body personally read; incoming scientific producers not rerun, claims not independently accepted by this intake"
+    }
+  ]
+}

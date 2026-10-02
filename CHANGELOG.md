@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-10-02 — R76 flat-vacuum admission and compact current
+
+The actual residual action restricted to flat coefficients is bienergy;
+authored complete equivariant cutoff analysis rules out a nonharmonic
+stationary flat point under finite-energy/boundaryless hypotheses.
+Sources, other fields, nonflat and singular/end models remain outside.
+R75's counted nonsplit representative already splits on its cusp. Under
+R44's inherited metric hypotheses its residual can be compactly supported,
+with the correct projector current; scaling gives a t^2+c t^4, c>0.
+This is not deriving that source's action or selecting a quantum vacuum.
+Original44 checks/11 tests and separately sealed12 nonzero-frame controls
+pass; combined56 checks/12 focused tests, six new tests. Science ae09404a
+and supplemental3f78d04b pushed/confirmed pre-run; original bytes retained.
+Primary16-page biharmonic paper personally read; B1513 design/stub read
+without duplicating its pending cohomological Higgs/Yukawa calculation.
+Final fetch34aee33a/357b7c98 now supplies B1513 own-pair/relative-zero
+and main B1445/B1446 mass-deformation/branch-point reports. Entire new
+bodies read, not independently rerun; late intake fences recorded.
+Report: reports/physical_bridge_2026_09_05/FLAT_VACUUM.md.
+
+
 ## 2026-10-01 — R75 independent cross-branch positive audit
 
 Exact word-cocycle/Jordan and peripheral restriction calculations retain

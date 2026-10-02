@@ -1,4 +1,24 @@
-# Verdict toward the full physical-theory goal - R75, updated 2026-10-01
+# Verdict toward the full physical-theory goal - R76, updated 2026-10-02
+
+**Current path-local R76 (October 2):** the supplied flat-connection
+potential is symmetric-space bienergy. Authored equivariant cutoff
+analysis forces smooth complete boundaryless finite-energy stationary
+flat points to be harmonic; not a theorem about sources, nonflat fields
+or singular physical ends. The actual nonsplit triplet cocycle already
+vanishes on both cusp generators. Conditional on R44, its class can be
+localized to a compact core with finite-energy metric and compact current.
+Scaling preserves the nonsplit index for t>0 but gives a t^2+c t^4,
+c>0, tending to the split limit at infinite target distance. No derived
+source dynamics or physical chiral vacuum.56 controls/12 focused tests
+pass; six new tests, original zero primitive and supplemental nonzero
+frame recovery both retained. Next derive the SAME coupled source/end
+law and its whole spectrum. Final34aee33a/357b7c98 bodies read: B1513
+reports own Higgs pair/relative-zero, main curve/branch-point positives;
+not independently rerun or conflated across frames.
+The full SM/TOE remains unachieved; tracker read ACTIVE October2.
+Report: reports/physical_bridge_2026_09_05/FLAT_VACUUM.md.
+Earlier dated entries preserve their historical scopes.
+
 
 **Current path-local R75 (October 1):** independent exact word-cocycle
 algebra retains B1511's three-member projective orbit: P=Q(q^3,s),
