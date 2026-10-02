@@ -5670,14 +5670,14 @@ sample is six arcs of 38. It took the debt checkers' counts as given, after find
 
 ### Action items (Review 58)
 
-- [ ] R58-1: decide the governance proposal of §9 — the review fires; carried items age; three checks join the core (owner: the owner; source: B1448)
+- [x] R58-1: decide the governance proposal of §9 — the review fires; carried items age; three checks join the core (owner: the owner; source: B1448) — **decided 2026-10-02: YES to all three** (the owner: "yes on all as you recomend for all"). The implementation — the gate, the ageing rule and the three checks — is main's next process arc; until it lands nothing is enforced
 - [ ] R58-2: write a failing-path test for each of the twelve gates that have none — append-only, chain-locks, firewall-oneway, id-collisions, knowledge-index, law-map-provenance, lawmap-scope, path-refs, practices-register, seal-provenance, views-fresh, views-generated (owner: cc; source: R55-16, B1423)
 - [x] R58-3: before 2026-10-09 pay or escalate L225, L226 and L227; L226's re-runs are unfinished (owner: cc; source: §7) — **paid 2026-10-02:** L225 closed by B1450, L226 by B1452, L227 by B1449
 - [ ] R58-4: harvest the SM seat's 49 and the audit/codex lane's 103 unrowed items, sweeping each id over the arcs before rowing it as owed (owner: cc; source: R56-1, E54)
 - [ ] R58-5: the literature checks for T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE and T-MASS-TERM (owner: cc; source: §8)
 - [ ] R58-6: the vanishing of the class index on irreducible modules — a proof or a counterexample; B1447's sixteen non-self-dual modules widen the statement (owner: cc; source: B1329–B1332)
 - [x] R58-7: release or decline the held relays to codex and to the SM seat, including the two drafted on 2026-10-02 (owner: the owner) — **released by the owner 2026-10-02** ("release relays"): three sent to the SM seat's session, nineteen carried to codex in `docs/handoffs/CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md`
-- [ ] R58-8: the lineage decision of 2026-09-13 (owner: the owner)
+- [x] R58-8: the lineage decision of 2026-09-13 (owner: the owner) — **closed 2026-10-02 on evidence, not on a decision:** the document recommends fast-forwarding main onto the historical line, and that was done at the consolidation — the historical tip `940b24fb` and the old main tip `b94ed03a` are both ancestors of main, which has one root (`517783f2`, 2026-05-22). Review 58 carried it as open without checking the tree (E54, this bench)
 - [>] R56-1: the harvest debt, restated as R58-4 (carried from R56-1)
 - [>] R56-3: CLAIMS.md, lag 284 existing arcs, declared (carried from R56-3)
 - [>] R55-1 (ex-R54-1), R55-2 (ex-R54-2), R55-4 (ex-R54-4), R55-6, R55-7, R55-9, R55-12, R55-13, R55-14, R55-15 carried a fourth time, unmoved (carried from R57)
@@ -5687,6 +5687,6 @@ sample is six arcs of 38. It took the debt checkers' counts as given, after find
 - [x] R55-11: parity theorem, dividing set, listener map and founding ratio glossed in `TERMINOLOGY.md` (done at Review 58)
 - [x] R55-16: restated with its count updated as R58-2 — 15 of 34 gates named by no test, twelve with no test of their checker either (absorbed at Review 58)
 - [x] R56-2: the law map is living — ten rows added in the window `efa5fd46..b08f76f7` (done)
-- [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26; this seat recommends declining it under the owner's direction of 2026-10-01 (owner: the owner)
+- [x] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26; this seat recommends declining it under the owner's direction of 2026-10-01 (owner: the owner) — **DECLINED by the owner 2026-10-02** ("yes on all as you recomend for all", on this seat's recommendation to decline): the four papers stay on the archived lane as that seat's drafts and are not adopted into main's portfolio
 
 **anchor-commit: `fd17a3bd`**
