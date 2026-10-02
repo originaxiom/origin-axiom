@@ -1,5 +1,12 @@
 # Changelog
 
+## Record the fast lane on 27220af6 (B1519's pushed tree): at the bank's baseline
+
+- **The fast lane on 27220af6** (70 minutes): 6 553 passed, 52 skipped, 10 failed. The ten are the same set as at e8992b63: the
+  nine baseline failures and the environmental `test_b1035_receipts`.
+- **The nine extra passes.** pytest's collected IDs, diffed at e8992b63 and 27220af6 like for like (6 647 and 6 656, slow tests
+  included in both): 9 added and none removed. They are B1519's seven lock tests and its two schema cases, all fast.
+
 ## B1520 banked: THE DECIDING TEST ON THE BRIDGE'S VACUA — every vacuum keeps a chirality-flipping symmetry that preserves orientation; the geometric mirror breaks, the count-odd mirror never does (NEGATIVE, the registered kill)
 
 - **Run as sealed** (`dda82524`; route 1 16.6 s, route 2 27.0 s, the follow-up 0.9 s). Every control and banked identity passed;

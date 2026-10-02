@@ -16951,3 +16951,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main's B1455 P1 is false.** Main is told by relay; so is the audit lane. The audit lane's three GENESIS requests wait for
   GENESIS v1.3 (OPEN_LEADS sL-10 item 4).
 - I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — the fast lane on 27220af6 (B1519's pushed tree)
+
+- **Fast lane on 27220af6** (70 minutes): 6 553 passed, 52 skipped, 10 failed. The ten are the same set as at e8992b63, the nine
+  baseline failures and `test_b1035_receipts`.
+- **The extra passes, from the collector.** Diffed like for like with e8992b63: 9 added (B1519's seven lock tests and its two
+  schema cases), none removed.
