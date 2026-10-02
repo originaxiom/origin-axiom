@@ -1531,3 +1531,21 @@ No scientific execution/import before this seal.14 context pins recorded.
 | `reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_INPUTS.json` | `bd916ef97c7efa49a728faafe6f0a42da18fef0794e38e183b716de35493d92b` |
 | `reports/physical_bridge_2026_09_05/cross_branch_positives.py` | `57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731` |
 | `tests/test_physical_bridge_cross_branch_positives.py` | `588a9b2ed8a63359d0a8b50a9ba19cc7c6a0177adc7233b1e449ddcece5bf87f` |
+
+## October 2 2026 R76 flat-vacuum admission pre-execution seal
+
+The supplied action-to-bienergy map and equivariant stationary cutoff
+argument, actual peripheral splitting of the R75 extension, and its
+compact-core scaling/current construction. No scientific execution or
+import before seal. Reuses own frozen exact primitives, not incoming
+B1513. Five science paths/eight context pins; primary PDF bytes pinned.
+This is authored conditional analysis with finite controls, not independent
+global acceptance, a selected source law or physical chirality.
+
+| frozen science path | sha256 |
+|---|---|
++| `reports/physical_bridge_2026_09_05/FLAT_VACUUM_DESIGN.md` | `8747674f5807d79735b7d1d6e23f6231d57538f5f155af774b7d86805b16f5dc` |
+| `reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md` | `f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685` |
+| `reports/physical_bridge_2026_09_05/FLAT_VACUUM_INPUTS.json` | `dc86396c9292235efe59e78be7ca9df3b85c8037ae0d3b7d61c459b62451fc6b` |
+| `reports/physical_bridge_2026_09_05/flat_vacuum.py` | `57a506ef6abbf5527c076d593712da7412514866791b065daecda4c5895ff599` |
+| `tests/test_physical_bridge_flat_vacuum.py` | `47b597ffdd5d93323416f66713ea33a3f277c5e15aeb0677453fa6098243d225` |

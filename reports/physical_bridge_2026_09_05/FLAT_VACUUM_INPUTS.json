@@ -1,0 +1,62 @@
+{
+  "scope": "Read context and primary-paper byte pins; not independent acceptance",
+  "pins": [
+    {
+      "commit": "60aeb7ea36045ab1e70ef81a33279ee8456c295f",
+      "path": "reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_PROOF.md",
+      "bytes": 4665,
+      "sha256": "519f22e2efc268700e4514f19f88b278e584451adbca2e8562269ff2c331fc5e"
+    },
+    {
+      "commit": "60aeb7ea36045ab1e70ef81a33279ee8456c295f",
+      "path": "reports/physical_bridge_2026_09_05/cross_branch_positives.py",
+      "bytes": 11672,
+      "sha256": "57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731"
+    },
+    {
+      "commit": "60aeb7ea36045ab1e70ef81a33279ee8456c295f",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md",
+      "bytes": 17847,
+      "sha256": "93836bfe7ca0be900caa37d2f9dee45435a881c29fff2b461458bc37bd8982a7"
+    },
+    {
+      "commit": "60aeb7ea36045ab1e70ef81a33279ee8456c295f",
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "bytes": 6559,
+      "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2"
+    },
+    {
+      "commit": "60aeb7ea36045ab1e70ef81a33279ee8456c295f",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "bytes": 8962,
+      "sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e"
+    },
+    {
+      "commit": "60aeb7ea36045ab1e70ef81a33279ee8456c295f",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md",
+      "bytes": 7930,
+      "sha256": "713f2e8068a712e1ed44b43f2a173c5fd1b3e3ac481252044efd97f5be113731"
+    },
+    {
+      "commit": "5e995321de6ef4d5b1dd6538c13ca0d8aaa562d7",
+      "path": "frontier/B1513_the_triplets_higgs_sector/PREREGISTRATION.md",
+      "bytes": 24846,
+      "sha256": "6f3ff4803a777a524997215101706e7f87344627824570e3f798d16d76bc1065"
+    },
+    {
+      "commit": "5e995321de6ef4d5b1dd6538c13ca0d8aaa562d7",
+      "path": "frontier/B1513_the_triplets_higgs_sector/FINDINGS.md",
+      "bytes": 3459,
+      "sha256": "a829dc9802d1b8f73f523372f0bf8fe7b4f984362b9a0d77823aa03cfab625bc"
+    }
+  ],
+  "primary": {
+    "url": "https://arxiv.org/pdf/1201.6457v4",
+    "version": "v4",
+    "pages": 16,
+    "pdf_sha256": "e0b89551809f3423009819ed5b8c56d09fa5f0120cfeaec08f57973ba06ce9e1",
+    "text_sha256": "bc7d63e378cae2e2a3ab37ce8648230b04a19d366a97064aae54f6a4bb356fcd",
+    "read": "Complete extracted text, including applications, appendices and references; rendered pages 3--8 and 10--11 inspected",
+    "retention": "Downloaded PDF and extraction retained outside checkout; no publisher file redistributed"
+  }
+}
