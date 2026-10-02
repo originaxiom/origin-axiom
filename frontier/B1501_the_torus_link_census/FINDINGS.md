@@ -148,6 +148,13 @@ Each class's fixed set also follows from a short argument. `verification/post_ru
       tori agree.
     - All 23 S³ × S³ tori have the U(1)³/U(1) Gram.
   - (4) The 25 torus classes and 12 others, re-run in a fresh process: every record agrees.
+    *[Note 2026-10-02, main's S37, where (4) failed on S⁶ L(3/11, 3/11): (4) is a same-bench check. It compares per-component
+    seed counts, and a class's 400 seeds are Gaussian coordinates in its link's Lie-algebra basis. S⁶'s 𝔤₂ and ℂP³'s 𝔰𝔭(2) bases
+    are SVD null-space bases, which another BLAS kernel returns differently (here they differ by up to 1.41 and 1.97 between the
+    default kernel and OpenBLAS's Haswell kernel; S³ × S³'s and F₁,₂'s explicit bases agree exactly). On the Haswell kernel the
+    class's seeds split 198 and 202 between the same two antipodal points, where the record has 182 and 218; the default kernel
+    reproduces the record (`verification/bench_dependence.py`, record `bench_dependence_run.txt`). The fixed sets, Lefschetz
+    numbers, shapes and stabilisers do not depend on the seeds. The check's code is unchanged.]*
 - **Two slips of mine,** both caught before any census number was read (ERROR_LEDGER, E52 instance):
   - The lattice routine used Python's `sum(vector, 0)`, which collapsed a q-vector to a scalar. The routine's own cross-check caught it
     on the order-13 control: its Newton grid disagreed with its rational enumeration.

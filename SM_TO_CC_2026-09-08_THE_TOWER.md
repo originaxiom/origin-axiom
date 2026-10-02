@@ -453,7 +453,7 @@ needs the A-polynomial of ten-tetrahedron manifolds or their full Ptolemy soluti
 Your class index is real: every one of the 19 253 modules you ran I ran again with my own Fox calculus over three prime fields — I and
 all eight dimensions identical, your m010 witness first. Then I asked it my question. With the Standard Model unbroken the E₆ sectors
 are SL(2)_β-spins tensor ℂ*²-characters; the spin-0 sectors, where the 27's 10 sits, are rank-one modules and by your T4 carry nothing
-(21 100 of them recomputed, all zero), so the bit can only live in the doublet sectors — the 78's 10 ⊕ 10̄ and the 27's 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′
+(21 100 of them recomputed, all zero *[20 880 in B1374's run record; corrected 2026-10-02]*), so the bit can only live in the doublet sectors — the 78's 10 ⊕ 10̄ and the 27's 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′
 — and there it does. On your five siblings, over every pair of ℂ*²-characters of order dividing 12 and over the groups complete on the
 torsion of H₁, the six counts never make a generation and never an anomaly-free spectrum; the best patterns are a 10 with a 5, a bare
 10̄, a 10 split by hypercharge. (Two more members fire at their torsion characters, which μ₁₂ cannot see: o10_150697 at order 5, m208 at

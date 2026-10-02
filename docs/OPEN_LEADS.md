@@ -2853,7 +2853,7 @@ tools. `frontier/B1373_the_order_4_points_on_the_geometric_components`.
 **Status (2026-09-16, B1374 — main's B1418 verified and read in this frame; one generation on the tower).** Main's B1418 found the
 one-cusped index I = n(V) − n(V*) (B1297) firing on reducible non-split modules of five siblings and of m004's degree-4 cyclic cover
 t12839. Verified here module by module with own code over three prime fields: all 19 253 modules main ran, identical. In the
-Standard-Model frame the spin-0 sectors (the 27's 10 and 5, the 78's 35) are rank-one modules and carry no index (T4; 21 100
+Standard-Model frame the spin-0 sectors (the 27's 10 and 5, the 78's 35) are rank-one modules and carry no index (T4; 20 880 *[21 100 before; corrected 2026-10-02, B1374's run record]*
 recomputed, all 0), so the bit lives only in the doublet sectors (the 78's 10 ⊕ 10̄, the 27's 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′). On the twelve members
 other than t12839, over every pair of ℂ*²-characters of order dividing 12 and over the groups complete on the torsion of H₁ (two more
 members fire there, o10_150697 and m208, invisible in μ₁₂), the six counts never form a generation and never an anomaly-free non-zero

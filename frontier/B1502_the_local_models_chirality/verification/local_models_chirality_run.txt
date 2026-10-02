@@ -15,4 +15,4 @@ B1502 THE LOCAL MODELS' CHIRALITY -- own-code verification
 (4) M2: transposition (12), excluded maps the U(2)_j containing T as {'(0, 1)': '(0, 1)', '(0, 2)': '(1, 2)', '(1, 2)': '(0, 2)'}; preserved: ['(0, 1)']
 (5) the frame's sectors on the cusp torus (geometric representation, B1368): spin 1/2 link cohomology [(0, 0, 0)] for every z sampled (acyclic: at a cone point the doublets carry no choice); spin 0: [1, 2, 1] at z = 1 (the choice, B1500), [(0, 0, 0)] otherwise
 ALL CHECKS PASS
-6.1 s
+9.5 s

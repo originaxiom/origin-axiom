@@ -1,0 +1,157 @@
+{
+ "class": "S6 L(3/11,3/11)",
+ "numpy": "2.4.6",
+ "committed": {
+  "converged": 400,
+  "components": [
+   [
+    0,
+    "point",
+    [
+     -1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    182
+   ],
+   [
+    0,
+    "point",
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    218
+   ]
+  ]
+ },
+ "CPU has AVX-512": true,
+ "(a) basis max |difference| between the kernels": {
+  "S6": 1.41,
+  "S3xS3": 0.0,
+  "CP3": 1.97,
+  "F12": 0.0
+ },
+ "(b) default kernel": {
+  "converged": 400,
+  "components": [
+   [
+    0,
+    "point",
+    [
+     -1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    182
+   ],
+   [
+    0,
+    "point",
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    218
+   ]
+  ]
+ },
+ "(b) default kernel: same components as the record (dim, type, point)": true,
+ "(b) default kernel: same seed split as the record": true,
+ "(b) OPENBLAS_CORETYPE=Haswell": {
+  "converged": 400,
+  "components": [
+   [
+    0,
+    "point",
+    [
+     -1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    198
+   ],
+   [
+    0,
+    "point",
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    202
+   ]
+  ]
+ },
+ "(b) OPENBLAS_CORETYPE=Haswell: same components as the record (dim, type, point)": true,
+ "(b) OPENBLAS_CORETYPE=Haswell: same seed split as the record": false,
+ "seconds": 23.8
+}

@@ -58,10 +58,9 @@ def read_seed(S, X):
 
 
 def main():
-    rows = {}
-    for line in open(HERE / "census_partial.jsonl"):
-        r = json.loads(line)
-        rows[r["label"]] = r
+    # the committed census (2026-10-02, main's S37): the read-out first read census_partial.jsonl, the census's checkpoint, which
+    # .gitignore excludes (*.jsonl); census.json["members"] holds the same 109 rows field for field
+    rows = {r["label"]: r for r in json.load(open(HERE / "census.json"))["members"]}
     unresolved = [r for r in rows.values() if r["status"] != "resolved"]
     report = []
     for r in sorted(unresolved, key=lambda r: r["label"]):

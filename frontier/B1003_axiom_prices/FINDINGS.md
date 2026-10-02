@@ -5,6 +5,10 @@
 > realizes the golden substitution. F6's computation below stands as a statement about the **abelianized** carrier (the
 > closed torus bundle carries the word's letter counts, hence only the hearing). The independent fragile axioms on the words
 > route: **one, orientation**; on the uniqueness theorem's route (ℤ² substrate): two, as below.
+>
+> **Caveat 2026-10-02 (the audit lane's R57; GENESIS GM4 and FK5).** The re-pricing above holds only given faithful word realisation
+> in F₂ and the surface category, which stay premises. R57 rejects B1380 §3's naturality argument, and GENESIS v1 keeps the
+> puncture CONDITIONAL (fork FK5 open). Read "one, orientation" as: orientation, plus the puncture conditionally.
 
 **Date:** 2026-08-09 · **Seat:** cc (banking) · **Lane:** MATHEMATICS + governance. Gate 5 untouched.
 **Campaign Phase 1, item 2.**

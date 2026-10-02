@@ -8,7 +8,7 @@
 cumulative handoff* (`ORIGIN_AXIOM_CORRECTIVE_HANDOFF_TO_STANDARD_MODEL_SEAT_2026-09-27.zip`, sha256 `138d4b06…6acc4af`, internal
 manifest 20/20). Its audit of this branch at `8a064442`: *"it understood 'no unforced collapse' locally, but did not propagate the
 new ontology globally"* · **Status:** ADOPTED (the convention, with its fences) · PROVED (the own-code checks, S0–S4) ·
-REPRODUCED (the handoff's 13 verifiers, unchanged) · **Fence:** a statement about the theory's state space and the status of its
+REPRODUCED (the handoff's 13 verifiers, their code unchanged *[clarified 2026-10-02, main's S37: 'unchanged' means the scripts were not edited; as shipped 7 of the 13 pass and 6 return 1 because they hard-code the web seat's /mnt/data sandbox; with that path mapped to the shipped files all 13 pass; of the regenerated outputs compared, 4 are identical and 1 has the same numbers under other field names (verification/rerun_record.txt); §2]*) · **Fence:** a statement about the theory's state space and the status of its
 selectors — not a multiverse claim, not a claim that every state is physical, and no generated arrow is time · **Price:**
 unchanged, 0 of 19 · **Numbering:** B1384.
 

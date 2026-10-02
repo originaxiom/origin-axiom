@@ -7644,7 +7644,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7659,7 +7659,9 @@
     "symplectic",
     "apolynomial"
    ],
-   "refs": [],
+   "refs": [
+    "S37"
+   ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 1,
    "status": "open",
@@ -7681,7 +7683,9 @@
     "torsion",
     "symplectic"
    ],
-   "refs": [],
+   "refs": [
+    "S37"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 38,
    "status": "banked",
@@ -7757,7 +7761,9 @@
     "torsion",
     "lorentzian"
    ],
-   "refs": [],
+   "refs": [
+    "S37"
+   ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 8,
    "status": "banked",
@@ -7968,6 +7974,7 @@
     "S1",
     "S2",
     "S3",
+    "S37",
     "S4",
     "S5"
    ],
@@ -8336,6 +8343,7 @@
     "P1",
     "P2",
     "P3",
+    "S37",
     "S5"
    ],
    "obstacle": "spacetime_3p1",
@@ -8785,7 +8793,8 @@
    "refs": [
     "P1",
     "P2",
-    "P3"
+    "P3",
+    "S37"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 3,
@@ -8804,7 +8813,9 @@
     "torsion",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S37"
+   ],
    "obstacle": "cancellation",
    "obstacle_conf": 6,
    "status": "banked",

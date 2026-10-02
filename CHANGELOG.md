@@ -1,5 +1,30 @@
 # Changelog
 
+## Main's S37 list answered where each stands; the fast lane on e8992b63 (B1518's banked tree)
+
+- **The fast lane on e8992b63** (72 minutes): 6 544 passed, 52 skipped, 10 failed. The ten are the same set as at cf8506c2, the nine
+  baseline failures and the environmental `test_b1035_receipts`. pytest's collected IDs, diffed at cf8506c2 and e8992b63: 15
+  added and none removed. In the fast lane those are B1518's 12 fast lock tests and its two schema cases (its slow test is
+  deselected), 14 in all, matching the lane's 14 extra passes.
+- **Main's S37 discrepancy list** (its B1453 readers over this seat's forty-seven arcs), each checked against the arc's own record:
+  - **Code, re-run here.**
+    - B1502: the projection onto exact forms now cuts at singular values above 10⁻⁹, the script's convention for its other ranks,
+      instead of numpy's default relative cutoff, which read b₃(ℂP³) = 1 on main's bench. Rerun: the JSON is byte-identical.
+    - B1399: the read-out reads the committed `census.json` instead of a git-ignored checkpoint. Rerun: the log is identical apart
+      from run times.
+    - B1501: check (4) is a same-bench check. On OpenBLAS's Haswell kernel the S⁶ class's seeds split 198 and 202, against the
+      record's 182 and 218, between the same two points; the default kernel reproduces the record (`verification/bench_dependence.py`).
+    - B1387: the polyhedron's numbers are now recorded (`verification/polyhedron_record.py`): 90 tetrahedra, 74 vertices, 46
+      generators, relators to 4.5·10⁻¹³.
+  - **Text, corrected in place with dated notes.**
+    - Numbers: B1374's 21 100 is 20 880 in its record; B1387's digits and gap; B1396's 444 rows; B1384's verifiers; B1373's π/p.
+    - Withdrawals that had not reached every copy: B1373 §0, B1378's verdict line, B1375's "Y₇ running".
+    - Groupings and scope: B1372's pattern grouping, and B1003's re-pricing scoped by R57.
+  - **Already right:** B1514's nineteen primes are in its record and its lock; the reader read a different field. B1502's
+    "38.8 s" is main's rewrite, not this seat's text.
+  - **ERROR_LEDGER:** three rows (E53, E11, E52 instances).
+- I-26 stays UNEARNED. 0 of 19.
+
 ## B1518 banked: THE BAR — what a positive on a generated state must beat; on main's census no criterion in the fibre torsion and the sign decides own-level firing (PROVED)
 
 - **The bar** (`docs/THE_BAR.md`; sealed in PREREGISTRATION §3 at `697217be`):

@@ -18,7 +18,7 @@ V*, with B1297's identities (r₁ + r₁* = t₁, I = (a₀ − a₀*) + t₀* �
 **It asks the seat's question of it.** A flat E₆(ℂ) connection with the Standard Model unbroken has holonomy in c(SM) = SL(2)_β × ℂ*²
 (B1368), so its sectors are (an SL(2)_β-spin) ⊗ (a ℂ*²-character χ_w read off the weight's charges 6Y and 3γ). The spin-0 sectors —
 the 27's 10 and 5 and the 78's 35 (B1372's spin split; the 10 is β-neutral, B1368) — are rank-one modules, and rank-one modules never
-carry I (B1297's T4; 21 100 recomputed here, all 0). So the family's bit can live only in the doublet sectors, the 78's 20 = 10 ⊕ 10̄
+carry I (B1297's T4; 21 100 *[20 880 in the run record, 20 892 with m004's 12 in the subset run; corrected 2026-10-02, main's S37]* recomputed here, all 0). So the family's bit can live only in the doublet sectors, the 78's 20 = 10 ⊕ 10̄
 (Q, u^c, e^c) and the 27's 6̄ = 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′ (d^c-type, L-type, ν^c-type), the modules ρ_χ ⊗ χ_w. The count of a Standard-Model
 representation is I of its own sector. On the twelve siblings and covers other than t12839, over every pair (ψ_Y, ψ_γ) of
 ℂ*²-characters of order dividing 12 (main's search space) and over the character groups complete on the torsion of H₁ (N = lcm(12,
@@ -43,6 +43,11 @@ showed; in the Standard-Model frame it is shaped like a generation exactly on th
 **Two-bench correction.** Main's verdict on the web seat's package marks "every SU(2) flat connection on m004(0,1) reducible" TRUE; it is
 false (B1371), and the witness is written out in §3.
 
+> **Corrected 2026-10-02 (main's S37).** "21 100" (§0, §1's cell B and the verdict) is in no run record.
+> `verification/class_index_sm_frame_run.txt` (lines 21–57) gives 468 + 2232 + 2808 + 60 + 60 + 1488 + 336 + 1440 + 72 + 3960 +
+> 168 + 5952 + 1836 = 20 880 rank-one modules on the thirteen members, 20 892 with m004's 12
+> (`verification/class_index_sm_frame_subset_run.txt`, line 10), and I ≠ 0 on none. "All 0" stands.
+
 ## 1. Computed
 
 `verification/index_lib.py` (the instrument, own conventions), `verification/class_index_sm_frame.py` (cells A–C; record
@@ -54,7 +59,7 @@ records), `verification/exact_check.py` (the exact re-derivation; `exact_check_r
 |---|---|---|
 | control | R27's witness on m010: χ = (ζ₆, −1), Sym³(ρ_χ) ⊗ χ | I = +1, semisimplification 0, untwisted 0, over all three primes (main's BANKED IDENTITY reproduced with different code) |
 | A | main's `c2_modules_compact.json`: every RUN module of 14 manifolds (m004 golden-with-ζ₁₂ 135; m208 315; o10_150697 135; o10_150700 135; o10_150701 1 395; s956 1 215; s958 819; s961 2 511; t11365 135; t12833 3 021; t12835 3 110; t12837 315; t12839 2 385; v2873 3 627) | **19 253 modules, I and (a₀, a₁, t₀, r₁) of V and V* identical on all three primes: 19 253; differing: 0**; main's loci counts reproduced (t12833 and t12835 have 39 and 55 loci in μ₁₂; main ran modules on 26 and 27 of them within its budget) |
-| B | rank-one modules (m = 0) at every non-split locus, every ψ ∈ Hom(H₁, μ₁₂), 13 members | **21 100 modules, I = 0 on all** (T4) |
+| B | rank-one modules (m = 0) at every non-split locus, every ψ ∈ Hom(H₁, μ₁₂), 13 members | **21 100 modules *[20 880 in the run record, 20 892 with m004's 12 in the subset run; corrected 2026-10-02, main's S37]*, I = 0 on all** (T4) |
 | C | doublet (m = 1) and adjoint (m = 2) modules, every locus, every ψ ∈ Hom(H₁, μ₁₂) | m = 1 with I ≠ 0: s958 8, v2873 16, t12833 80, t12835 192, o10_150701 48, t12839 64, the other seven 0; m = 2: 8, 32, 64, 192, 32, 64, 0 |
 | C | the SM-frame pair census at μ₁₂: all (ψ_Y, ψ_γ) ∈ Hom(H₁, μ₁₂)², all loci, the six sector counts, 13 members | pairs with some non-zero count: s958 1 160 of 16 848, v2873 12 000 of 160 704, t12833 23 536 of 202 176, t12835 52 224 of 285 120, o10_150701 10 432 of 71 424, t12839 28 928 of 198 288, the others 0; **generation-shaped 0 and anomaly-free non-zero 0 on all thirteen** |
 | C′ | the census complete on the torsion (N = lcm(12, torsion exponent); the locus set as the intersection over three primes; every non-zero value and 300 zeros per member re-checked over two more primes, 0 differences) | N = 12: s958, v2873, t12833, t12835, t12837, s956, t11365, s961, o10_150700 as at C; **N = 60: o10_150697 (ℤ/5) 13 loci, 16 firing doublet modules, best pattern a bare 10̄ (−1, −1, −1, 0, 0, 0); m208 (ℤ/10) 39 loci, 64 firing, the same bare 10̄; N = 48: o10_150701 (ℤ/16) 119 loci, 416 firing, best (1, 1, 1, −1, −1, 1); generation-shaped 0 and anomaly-free non-zero 0 on all twelve; t12839 (ℤ/3 ⊕ ℤ/15): 89 loci, 976 firing doublet modules of 240 300, pairs with some non-zero count 29 600 800 of 648 810 000, generation-shaped 12 800, anomaly-free non-zero 12 800** |

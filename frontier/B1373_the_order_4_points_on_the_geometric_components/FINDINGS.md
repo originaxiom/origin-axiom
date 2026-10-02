@@ -7,13 +7,14 @@
 B1372 left door 2 open in one place: a point of the SL(2,ℂ) character variety of one of the 35 free-cusp members at which both peripheral
 eigenvalues on the free cusp are fourth roots of unity (Theorem C) while the representation is non-unitary. On the geometric
 component — the deformations of the complete hyperbolic structure — the natural route to such a point is the cone-manifold path: fill
-the free cusp along a curve with a real coefficient p, so that the curve acquires cone angle 2π/p, and let p decrease to 1 on the doubled
+the free cusp along a curve with a real coefficient p, so that the curve acquires cone angle π/p *[2π/p before; corrected 2026-10-02: the doubled slope (2p, 0) gives π/p, as §1's walls at p = 1 (π) and p = 3/2 (2π/3) have it]*, and let p decrease to 1 on the doubled
 slope, where the curve's eigenvalue is ±i. This arc follows that path on both peripheral curves of every free cusp (166 pairs) and reads
 the other curve's holonomy at the endpoint. Where the endpoint is reached — 132 pairs, all 83 longitude cases and 49 meridian cases — the
 other eigenvalue is never unitary: Theorem B forbids simultaneous cusp-fixedness of the two halves there. Where it is not reached, the
 structure degenerates: on 30 meridian cases the other holonomy grows without bound as the angle approaches π (an ideal point of the
 component, at which no representation exists), and on 4 the solver stalls at cone angle 2π/3 with the same growth (o10_150684 cusp 1,
-o10_150708 cusp 0, o10_150714 cusp 0, o10_150725 cusp 1). So along the geometric path door 2 never opens. What this does not cover is
+o10_150708 cusp 0, o10_150714 cusp 0, o10_150725 cusp 1) *[withdrawn split, kept by mistake after caveat 2 withdrew it; corrected 2026-10-02 (main's S37): on the deterministic fine path all 34 degenerate, the wall within 1/16 of p = 1 (cone angle π) on 23
+and within 1/16 of p = 3/2 (cone angle 2π/3) on 11, named in §1's table (`verification/order4_points_run.txt`, line 208)]*. So along the geometric path door 2 never opens. What this does not cover is
 stated plainly: points of the geometric component off the real path (a complex curve has more points over M = ±i than the real cone
 path visits, and the A-polynomials of ten-tetrahedron manifolds are beyond the record's exact tools), and the non-geometric components.
 

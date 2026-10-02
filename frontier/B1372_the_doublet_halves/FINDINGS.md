@@ -1,4 +1,4 @@
-# B1372 — THE DOUBLET HALVES (door 2): the third reading of a generation — the 10 from the 78's SL(2)_β-doublets and the 5̄ from the 27's, both halves carried by the non-abelian part of the connection rather than by a character — is closed by charge arithmetic at the cusp: with a non-unitary peripheral eigenvalue the two halves are never cusp-fixed together (γ(10 ⊂ 78) = 1 against γ(5̄ ⊂ 27) = ⅓), with a unitary one only at fourth roots of unity and then always on opposite eigenvectors, so wherever the abelian Higgs field vanishes their chiralities are opposite; parabolic and central cusp holonomy make every doublet sector vector-like outright; on m004 the order-4 points are the four SU(2) dihedral representations, unitary — door 2 is closed on m004 and on the 77 members without a free cusp, and survives on the 35 free-cusp members only at order-4 points with non-unitary global holonomy, if any exist
+# B1372 — THE DOUBLET HALVES (door 2): the third reading of a generation — the 10 from the 78's SL(2)_β-doublets and the 5̄ from the 27's, both halves carried by the non-abelian part of the connection rather than by a character — is closed by charge arithmetic at the cusp: with a non-unitary peripheral eigenvalue the two halves are never cusp-fixed together (γ(10 ⊂ 78) = 1 against γ(5̄ ⊂ 27) = ⅓), with a unitary one only at fourth roots of unity and then never all on one eigenvector *[corrected 2026-10-02; main's B1453 reader, checked here against the arc's own record]*, so wherever the abelian Higgs field vanishes their chiralities are opposite; parabolic and central cusp holonomy make every doublet sector vector-like outright; on m004 the order-4 points are the four SU(2) dihedral representations, unitary — door 2 is closed on m004 and on the 77 members without a free cusp, and survives on the 35 free-cusp members only at order-4 points with non-unitary global holonomy, if any exist
 
 **Date:** 2026-09-16 · **Seat:** cc (the SM-derivation branch) · **Status:** PROVED (the weight table; Theorems B, C, C′ exact over ℚ; m004's order-4 points and their unitarity exact) + NEGATIVE (the mixed frame on m004 and on every member without a free cusp, under the abelianised reading at the cusp) + OPEN (the mixed frame on the 35 free-cusp members at order-4 points, contingent on such points existing with non-unitary holonomy) · **Price: unchanged** · **Numbering:** B1372 (door 2 of the owner's question; opened by the reply of 2026-09-16).
 
@@ -15,7 +15,7 @@ total holonomy 1, so its character must equal an eigenvalue of ρ(p)^{∓1} on t
 non-unitary, the imaginary parts of the character data are pinned by the weights' (Y, γ): the 10 of the 78 (γ = 1, three Y-types)
 forces Im s = 0 and Im t = ±L, the 5̄ of the 27 (γ = ⅓) forces Im t = ±3L — never both (Theorem B). If it is unitary, e^{2πiθ}, the
 fifteen congruences Y(w)a + γ(w)b + ε_wθ ∈ ℤ have solutions only for θ ∈ ¼ℤ (Theorem C), and at θ = ±¼ the eigenvector signs ε_w are
-never uniform: either the 10 and the 5̄ sit on opposite eigenvectors, or Q and d^c on one and u^c, e^c, L on the other (Theorem C′).
+never uniform: either the 10 and the 5̄ sit on opposite eigenvectors, or Q, e^c and d^c on one and u^c and L on the other (Theorem C′) *[corrected 2026-10-02; main's B1453 reader, checked here against the arc's own record]*.
 The fixed weight's partition of the torus is by ε_w times the σ₃-component of Φ's leading cusp mode, the same function for every
 doublet, so where no abelian Higgs field exists the chiralities of the pieces are opposite and no generation is assembled. Parabolic
 peripheral holonomy (the hyperbolic structure itself and its conjugates, on every member) and central holonomy make every doublet
@@ -74,8 +74,14 @@ central case of Lemmas A and D.)
 
 **Theorem C′.** At θ = ±¼ the four admissible sign patterns are never uniform. Since ε_w decides which eigenvector is fixed and hence
 the sign of the weight's Morse function along the common Cartan direction of Φ, on a cusp where the abelian Higgs field vanishes the
-pieces of a would-be generation have opposite chiralities: either the whole 10 against the whole 5̄, or {Q, d^c} against {u^c, e^c,
-L}. Neither is a generation. ∎
+pieces of a would-be generation have opposite chiralities: either the whole 10 against the whole 5̄, or {Q, e^c, d^c} against {u^c,
+L} *[corrected 2026-10-02; main's B1453 reader, checked here against the arc's own record]*. Neither is a generation. ∎
+
+> **Corrected 2026-10-02 (main's B1453 reader).** The prose first named the two non-uniform patterns as {Q, d^c} against
+> {u^c, e^c, L}. The run record's four patterns (`verification/doublet_halves_run.txt`, (C)) are, in the order (Q, u^c, e^c |
+> d^c, L), (+,+,+|−,−), (+,−,+|+,−), (−,+,−|−,+) and (−,−,−|+,+): twice the 10 against the 5̄, twice {Q, e^c, d^c} against
+> {u^c, L}. §2's table had them right. The theorem's content (no pattern is uniform, so the pieces have opposite chiralities
+> and no generation is assembled) is unchanged.
 
 **Corollary.** In the mixed frame no generation arises (i) on m004 — its order-4 points are unitary, Φ = 0; (ii) on any member on a
 cusp of full peripheral rank — the characters are of finite order there (B1369), the abelian Higgs field vanishes and C′ applies;

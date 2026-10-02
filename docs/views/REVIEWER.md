@@ -23,7 +23,7 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1266** |
-| words of findings prose | **1,045,847** |
+| words of findings prose | **1,046,905** |
 | test lock files referenced | **771** |
 | arcs carrying an authored verdict | **1266** (100.0 %) |
 | recorded closures | **819** (652 classified, 167 routed-only) |

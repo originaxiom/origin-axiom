@@ -61,7 +61,7 @@ What it means, in one line each:
 - **The object.** B1386's member, built by its covering path and pinned by its decorated signature; v₊ recomputed independently as
   the null line of SnapPy's unsimplified presentation's relators and all eight peripheral words (dimension 1).
 - **The polyhedron.** SnapPy's `FundamentalPolyhedronEngine`: 90 developed ideal tetrahedra, 74 polyhedron vertices and the 46 face
-  pairings of the unsimplified presentation. The matrices satisfy every relator to 4.5·10⁻¹³. The polyhedron is conjugated by
+  pairings of the unsimplified presentation. The matrices satisfy every relator to 4.5·10⁻¹³. *[recorded 2026-10-02; main's B1453 reader found these numbers in no log: `verification/polyhedron_record.py`, record `polyhedron_record_run.txt`: 90, 74 and 46 at every chart seed; the relators hold to 4.5·10⁻¹³ at seed 1 (runs a–c), 6.5·10⁻¹³ at seed 3 (run d) and 5.1·10⁻¹³ at seed 2 (run e)]* The polyhedron is conjugated by
   z ↦ 1/(z − z₀) so that no vertex sits at ∞; the choice of z₀ is a seed, and the results do not depend on it.
 - **The pull-back.** A walk through the ideal tetrahedra. Leaving through a face-pairing face applies the inverse pairing and adds
   v₊ of the generator, so F(x) = F(x*) + accumulated v₊.
@@ -107,7 +107,7 @@ so the sampling heights lie below the polyhedron's cusp regions, as Hejhal's met
   10⁻³ of the leading ones at K_n = 6 and fall with K_n to 5·10⁻⁶ at K_n = 14.
 - *The −I at cusp 2.* The triple phase is real (cosine 0.99999), and the two small magnitudes agree.
 
-**The invariants, across the five runs** (K_n = 14, run c; the other runs agree to the digits shown in the record).
+**The invariants, across the five runs** (K_n = 14, run c; runs b, d and e agree to the digits shown in the record) *[corrected 2026-10-02 (main's B1453 reader): run a, at K_n = 6, differs in the third digit, |c|·√covol = 1.00595, 1.00549, 1.00618 and cos 0.36705 against 1.00695 and 0.36997]*.
 - cusp 0: |c|·√covol = 1.00695 (×3); cos Φ = 0.36997;
 - cusp 3: 1.00695 (×3); 0.36997;
 - cusp 2's √3-shell: 0.33546, 0.33545, 2.20905;
@@ -115,7 +115,7 @@ so the sampling heights lie below the polyhedron's cusp regions, as Hejhal's met
 
 **The partitions** (the Morse count complete; the grid agreeing).
 - χ₀ = χ₃ = −1, the smallest critical value at 0.134 of the maximum.
-- χ₂ = 0, with a gap of 0.54.
+- χ₂ = 0, with a gap of 0.54 *[0.534 and 0.539 in the run record; 2026-10-02]*.
 - χ₁ = 0, one direction.
 
 ## 3. The statements
@@ -130,7 +130,7 @@ cuspidal, isometry-invariant v₊ of cube~3.24 has N = ±2. The sign is that of 
 
 *Evidence.* The computation of §2, with every conclusion stable across the five runs. The margins:
 - cos Φ is 0.37 away from its degenerate value 0;
-- the critical gaps are 0.13 and 0.54 of the maxima;
+- the critical gaps are 0.13 and 0.54 of the maxima *[0.134; 0.534 and 0.539 in the run record; 2026-10-02]*;
 - the leading coefficients are 10³–10⁵ times the numerical error.
 
 **Corollary 1 (B1386's T2 discharged).** The hypothesis "first coefficient non-zero at a non-degenerate phase" holds. The first-shell
@@ -163,7 +163,7 @@ spin-½ half (B1372, B1373) and every Standard-Model value are untouched.
 ## 5. Fences
 
 - **Numerical.** Double precision throughout: least squares, with SciPy's K₁. Evidence of convergence: the fit residual falls from
-  3.7·10⁻³ to 3.1·10⁻⁵ over K_n = 6 → 14, and the invariants are stable to four digits over five runs varying K_n, the sampling
+  3.7·10⁻³ to 3.1·10⁻⁵ over K_n = 6 → 14, and the invariants are stable to four digits over runs b–e and to two digits over all five *[corrected 2026-10-02: run a, K_n = 6]* varying K_n, the sampling
   height, the sample seed and the chart conjugation. Not certified; interval arithmetic would be the upgrade.
 - **The representative.** For a cuspidal class the L² harmonic representative is canonical. No convention is chosen.
 - **The frame.** The seat's, spin-0 half. The sign partition of the leading cusp mode is the R23-scoped convention.

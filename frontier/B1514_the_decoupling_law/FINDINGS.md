@@ -6,7 +6,7 @@ Higgs class, coupling or joining form at a case-(b) member was computed.
 **Run as sealed by two independent routes that share no code** (the owner's rule NO NEGATIVE FROM A BUG). They agree group by group
 on every dimension, every zero and every non-zero:
 - route T, `verification/census.py --record`: 2 479 s, 1 120 readings, nine primes;
-- route L, `verification/independent_route.py --record`: 2 196 s, 1 672 readings, nineteen other primes.
+- route L, `verification/independent_route.py --record`: 2 196 s, 1 672 readings, nineteen other primes *[the readings' primes; recounted 2026-10-02 from `verification/independent_route_run.txt`, where each Part A block names its prime in the field `arithmetic` ("GF(p), q = r"): 19 distinct, none of route T's 9 (`census_run.txt`, the same field); Part 0 adds 7 more and Part B none. Main's B1453 reader counted the `p` fields, which hold Parts 0 and B, 13. B1514's lock has counted the nineteen since the bank: `tests/test_b1514_the_decoupling_law.py`, test_the_routes_agree_on_disjoint_primes]*.
 
 **Price:** unchanged, 0 of 19.
 

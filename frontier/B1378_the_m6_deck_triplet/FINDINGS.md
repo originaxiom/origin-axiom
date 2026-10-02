@@ -27,7 +27,7 @@
 **Date:** 2026-09-26 · **Seat:** cc (the SM-derivation branch) · **Occasion:** an uploaded seat-checkpoint archive's audit
 package, verified with this branch's own code · **Status:** PROVED (the index computation, two independent methods, three
 primes and exact) · CONFIRMED (the semisimplification control) · CORRECTION FOUND in the source's own automorphism check
-(does not touch the index) · **Fence:** as B1374/B1375/B1377 — main's index on a non-semisimple background, no physics
+(does not touch the index) *[withdrawn 2026-10-01, the dated note above: the source's check is right; marked here 2026-10-02, main's S37]* · **Fence:** as B1374/B1375/B1377 — main's index on a non-semisimple background, no physics
 reading, index ≠ physical generation count · **Price: unchanged, 0 of 19** · **Numbering:** B1378.
 
 ## 0. Seen from above — provenance

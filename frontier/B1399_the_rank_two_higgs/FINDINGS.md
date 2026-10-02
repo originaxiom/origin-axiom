@@ -133,7 +133,10 @@ listed in `census.json` → `summary.unresolved_members`.
 | o10_150693 | 2 | B1387's walk does not terminate, on every rung and both seeds | 0 |
 
 **A post-seal read-out.** It decides nothing and is recorded in `verification/unresolved_readout.py`, `unresolved_readout.json` and
-`unresolved_readout_run.txt`.
+`unresolved_readout_run.txt`. *[Note 2026-10-02, main's S37: the read-out read the census's checkpoint `census_partial.jsonl`, which `.gitignore`
+excludes (`*.jsonl`), so it could not run from a fresh checkout. It now reads `census.json`, whose 109 members equal the
+checkpoint's rows field for field. Rerun here from the committed file: the log is identical apart from its run times, and the
+JSON differs only in the `seconds` of six of the seven members (a loaded bench); the record is kept as banked.]*
 - **Method.** Every rung is solved again with both seeds, and each seed's forms are read on their own, without the two-seed agreement.
   For an ambiguous kill, both readings are taken: the shell killed, and the shell leading. For each seed, rung and reading this gives
   max |C|, the total variation, and the g realised by the same exact linear programs.

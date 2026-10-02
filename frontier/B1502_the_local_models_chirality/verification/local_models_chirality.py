@@ -113,7 +113,12 @@ def relative_cohomology(link):
         closed = V @ (T.null_space(D[k] @ V, 1e-9) if k < n else np.eye(V.shape[1]))
         if k > 0 and inv[k - 1].shape[1]:
             Im = D[k - 1] @ inv[k - 1]
-            closed = closed - Im @ np.linalg.pinv(Im) @ closed
+            # the exact forms' span by an absolute cutoff, as the script's other rank decisions (2026-10-02, main's S37): numpy's
+            # pinv default, 1e-15 x sigma_max, inverted a rounding-level singular value on main's bench (8e-15 beside 3.46) and read
+            # b3(CP3) = 1; and any cutoff relative to sigma_max inverts pure noise where the image is exactly zero (sigma_max ~ 1e-15)
+            u_im, s_im, _ = np.linalg.svd(Im, full_matrices=False)
+            Q = u_im[:, s_im > 1e-9]
+            closed = closed - Q @ (Q.conj().T @ closed)
         if closed.size:
             u, s, _ = np.linalg.svd(closed, full_matrices=False)
             harm[k] = u[:, : int(np.sum(s > 1e-8))]

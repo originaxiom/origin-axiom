@@ -83,6 +83,15 @@ C(Y)/Γ has an ADE locus that is a cone over a torus F. Then:
 
 ## 2. Verification (`verification/local_models_chirality.py`, record `local_models_chirality_run.txt`)
 
+> **Note (2026-10-02, main's S37).** On main's bench (numpy 2.4.0) the script stopped on its own assertion, reading b₃(ℂP³) = 1.
+> The projection onto exact forms (line 116) used `np.linalg.pinv` at numpy's default cutoff, 10⁻¹⁵ × σ_max, and a rounding-level
+> singular value (8 × 10⁻¹⁵ beside 3.46) was inverted. Here the same value is 6.8 × 10⁻¹⁶, and at degree 4 it is 1.8 × 10⁻¹⁵
+> against a cutoff of 3.5 × 10⁻¹⁵, so the script passed with a margin of two. A cutoff relative to σ_max also inverts pure noise
+> where the image is exactly zero (σ_max is 10⁻¹⁵ or below at one degree each of S⁶, S³ × S³ and ℂP³ here). The projection now
+> uses an orthonormal basis of the exact forms cut at singular values above 10⁻⁹, the script's convention for its other ranks.
+> Rerun here after the change: `local_models_chirality.json` is byte-identical, and the record differs only in its run time
+> (9.5 s on a loaded bench; 6.1 s at banking). The mathematics was not in question.
+
 - **Cohomology.** Relative Lie algebra cohomology H*(𝔤, 𝔨): K-invariant forms on 𝔪 with the Chevalley–Eilenberg differential, d² = 0
   on them to 10⁻¹⁵.
   - Betti numbers: S⁶ (1,0,0,0,0,0,1), S³ × S³ (1,0,0,2,0,0,1), ℂP³ (1,0,1,0,1,0,1), F₁,₂ (1,0,2,0,2,0,1), as expected.

@@ -1,0 +1,34 @@
+{
+ "member": "o10_150725~cyc~4~irr~24",
+ "decorated isosig (the arc's pin)": "-cAbvvLvLvvLwwwwLPAvvvPwwMQvvzQQAwvLLAALQMLALAQPMQQQvzAMMQPQQQAQhagapatasasauaqauaBazaFaJaHaMaOaSaTaHaUaQa0aLaXaWaZa3a2aYa1a0a+a7aab9a8abb6aebdbfb-a+a9a8abbhbdblbibkbfbfbhbcbobcb6apblbab-agb+ambqbtbubvbrbvbxbqbrbwbxbrbtbybwbubtbybubsbqbsbxbzbzbzbtpatpatpahhaqqaeaxiuimmaxxapxhlialxxalaxxqptaupaaadpadtqttxxpptdahhxaaxapmepmmhtdpaptptdhaa_abdcBaBbBbababbaBaBb",
+ "cuspidal line dimension": 1,
+ "unsimplified presentation: generators": 46,
+ "relators": 45,
+ "by chart seed": {
+  "1": {
+   "developed ideal tetrahedra": 90,
+   "polyhedron vertices": 74,
+   "face-pairing generators": 46,
+   "paired faces": 144,
+   "generators equal the presentation's": true,
+   "worst relator deviation from +-I": 4.54e-13
+  },
+  "2": {
+   "developed ideal tetrahedra": 90,
+   "polyhedron vertices": 74,
+   "face-pairing generators": 46,
+   "paired faces": 144,
+   "generators equal the presentation's": true,
+   "worst relator deviation from +-I": 5.05e-13
+  },
+  "3": {
+   "developed ideal tetrahedra": 90,
+   "polyhedron vertices": 74,
+   "face-pairing generators": 46,
+   "paired faces": 144,
+   "generators equal the presentation's": true,
+   "worst relator deviation from +-I": 6.51e-13
+  }
+ },
+ "seconds": 0.8
+}

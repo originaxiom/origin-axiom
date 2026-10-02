@@ -125,7 +125,7 @@ with r rotated cusps of which t_rot are trivial.
 - V6: h¹ ≥ t(χ) (B).
 
 **The numbers.** 100 members, 9 with a rotation, and 213 pairs, 21 of them trivial. There are 444 rotated-cusp rows, 400 of them at
-non-trivial characters: 292 balanced, 152 all equal, and none neither.
+non-trivial characters: 292 balanced, 152 all equal, and none neither *[clarified 2026-10-02 (main's B1453 reader; recounted from `capped_census.json`): the 292 and 152 are of all 444 rows. Of the 400 at non-trivial characters, 292 are balanced and 108 all equal (the 54 pairs trivial on a rotated cusp); the 44 rows at the trivial character are all equal]*.
 - **Acyclic pairs (96).** Every rotated cusp is balanced, and χ is non-trivial on every cusp of M.
 - **Non-trivial pairs trivial on a rotated cusp: 54.** These are exactly B1394's P3 pairs, with the same members, Betti numbers and
   weight counts: s959 2, o10_150704 4, o10_150725 2, o10_150729 20, cube~3.24 26. The census confirms both directions: each unbalanced

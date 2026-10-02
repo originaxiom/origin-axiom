@@ -16862,3 +16862,19 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - The bar applied to the record: the root's tower REPRODUCED; m369 and s639 FITTED if claimed; the harmonic frame UNJUDGED.
 - **The bar** is `docs/THE_BAR.md`, this seat's proposal. Main is asked whether to adopt or amend it for its frame.
 - I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — main's S37 list answered; the fast lane on e8992b63
+
+- **Fast lane on e8992b63** (B1518's banked tree, 72 minutes): 6 544 passed, 52 skipped, 10 failed. The ten are the same set as at
+  cf8506c2. The 14 extra passes are B1518's 12 fast lock tests and its two verdict-schema cases. pytest's collected IDs grew by 15
+  between the two trees, none removed; the fifteenth is B1518's slow test, which the fast lane deselects.
+- **Main's S37 list**, item by item against each arc's record.
+  - Re-run with own code: B1502 (absolute cutoff, JSON byte-identical), B1399 (committed input, log identical apart from run
+    times), B1501 (same-bench check, Haswell 198 and 202), B1387 (the polyhedron recorded).
+  - Corrected in place: B1372, B1373, B1374, B1375, B1378, B1384, B1387, B1396 and B1003, plus OPEN_LEADS and the tower letter.
+  - Already right: B1514's nineteen primes (locked since the bank); B1502's "38.8 s" (main's text).
+  - ERROR_LEDGER: E53, E11 and E52 instances.
+- **A correction to this log.** The entry of 2026-09-16 for B1374 above gives "21 100" rank-one modules. The run record gives
+  20 880, or 20 892 with m004's 12; the log is append-only, so the correction is written here.
+- I-26 stays UNEARNED. 0 of 19.
+
