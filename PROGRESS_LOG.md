@@ -16639,3 +16639,6 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - ERROR_LEDGER: the design slip; the post-run (e) bug; and a record slip. Raw pipes in this seat's eleven registry and
     law-map rows were escaped (rendering only).
 - I-26 stays UNEARNED. 0 of 19.
+- **Fast lane on 93612efd** (B1514's pushed tree, 53 minutes): 6 483 passed, 52 skipped, 10 failed. The ten are the same set as at
+  34aee33a: the nine baseline failures and the environmental `test_b1035_receipts`. The 19 extra passes are B1514's 18 fast lock
+  tests and its verdict-schema case.

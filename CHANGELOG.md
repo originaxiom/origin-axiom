@@ -44,6 +44,8 @@
   - the post-run (e) bug above;
   - a record slip: this seat's registry and law-map rows for B1268, B1385, B1388, B1389, B1396, B1509 and B1513 wrote absolute values
     with raw pipes, breaking their table cells. They are now escaped, a rendering change only.
+- **Fast lane on 93612efd:** 6 483 passed, 52 skipped, 10 failed. The ten are the same set as at 34aee33a (the nine baseline
+  failures and the environmental `test_b1035_receipts`).
 - I-26 stays UNEARNED. 0 of 19.
 
 ## B1514 sealed: the decoupling law, tested on the tower's opposite-sign 10̄′, before any Higgs class or coupling there is computed
