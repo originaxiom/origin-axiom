@@ -34,6 +34,11 @@
   graph (`wrong-partner-five`); SEAL_LEDGER verdict row; RELAY_LEDGER (main and the audit lane re-read after a fresh fetch, unchanged
   since the seal; rows back to both); OPEN_LEADS (leads 1–5); the alias table; the letter's eightieth note; README; the chirality map,
   the path note, the SM verdict and B1514's currency note; the atlas and views.
+- **Fast lane on 800ed4e5:** 6 498 passed, 52 skipped, 10 failed. The ten are the same set as at 93612efd (the nine baseline
+  failures and the environmental `test_b1035_receipts`). The 15 extra passes are B1515's 14 fast lock tests and its verdict-schema
+  case.
+- **Lead 4 made concrete** (OPEN_LEADS, arithmetic on banked counts): one generation-shaped total needs at least one hyperbolic W₁
+  member and two case-(a) 10′ states (anomalies −2 + 1 + 1 = 0); whether separate loci may trade anomaly is the open question.
 - I-26 stays UNEARNED. 0 of 19.
 
 ## B1515 sealed: the hyperbolic point — can one configuration carry both halves of a generation? Asked at q = 1, before any count there

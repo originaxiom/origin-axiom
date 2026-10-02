@@ -16705,3 +16705,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   table; the letter's 80th note; README; the chirality map; the path note; the SM verdict; B1514's currency note; ERROR_LEDGER, three
   rows. No LAW_MAP or THEOREM_REGISTRY row (creates_law false), so the claim pool is not regenerated.
 - I-26 stays UNEARNED. 0 of 19.
+- **Fast lane on 800ed4e5** (B1515's pushed tree, 65 minutes): 6 498 passed, 52 skipped, 10 failed. The ten are the same set as at
+  93612efd: the nine baseline failures and the environmental `test_b1035_receipts`. The 15 extra passes are B1515's 14 fast lock
+  tests and its verdict-schema case.
+- **Lead 4 made concrete** (OPEN_LEADS). Per member, (I(W), I(Λ²W)) is (+1, −1) for the 24 hyperbolic W₁, (−1, 0) for case (a) at
+  q ≠ 1 (B1509's record, B1511's triplet), (+1, 0) for case (b) and the simple deck-coincident q = 1 members, and (−1, +1) for the
+  hyperbolic W₂. An enumeration of all combinations of up to six of each kind finds the smallest generation-shaped totals at
+  k hyperbolic W₁ plus 2k case-(a) members (3, 6 and 9 states for k = 1, 2, 3). Each state is anomalous on its own.

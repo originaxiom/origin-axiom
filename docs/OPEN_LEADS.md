@@ -3297,6 +3297,13 @@ independent routes (seal 5644a92c…).
      dual; the orbit's induced background on m004; a larger frame, SO(10) or E₆);
   4. several states (B1385): pair one member's 5̄′ with another state's 10′ in one configuration;
   5. the end: only an end law derived from physics may select an anomaly-free combination from Proposition E's ranges (sL-8's rule).
+- **Lead 4 made concrete** (2026-10-02, arithmetic on banked counts; no configuration computed). Per member, (I(W), I(Λ²W)) is (+1, −1)
+  for the 24 hyperbolic W₁ (B1515), (−1, 0) for case (a) at q ≠ 1 (B1509 `extension_index_run.txt` at q = 17 ± 12√2, and B1511's
+  triplet), (+1, 0) for case (b) and for the simple deck-coincident q = 1 members, and (−1, +1) for the hyperbolic W₂. Since only q = 1
+  members have a non-zero Λ² count, a total with I(W) = I(Λ²W) = −k needs at least k hyperbolic W₁ members and 2k case-(a) members: one
+  generation from 1 + 2 states (anomalies −2 + 1 + 1 = 0), three from 3 + 6. Each state is anomalous on its own, so the open question is
+  whether separate loci may trade anomaly (B1385's joint question). Where the chirality sits at a coned cusp point P, B1502 §5's cubic
+  inflow n_P is 0 in the models computed, which would require each point's fields to be anomaly-free and rule the trade out there.
 
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
