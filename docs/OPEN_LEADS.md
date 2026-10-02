@@ -3286,7 +3286,7 @@ harmonic family, the same two pieces — A and the trivial module — stacked on
 the other way (the trivial module the submodule) count +1, and placed side by side count 0; the same at q₀ and at
 1/q₀. **On this family the count is the order of the two pieces**, and the condition for a vacuum of the action — a
 harmonic metric, which exists only on a direct sum — is the condition that forgets the order. This is the first place
-where "the measurer that tracks ab against ba" has an exact referent in a computation. **Owed as a sealed arc:** the
+where "the measurer that tracks ab against ba" has an exact referent in a computation. **Corrected the same day (B1455 addendum): in the class-index frame this is not new — it is the slope law, B1438 (A), whose two terms are the two orders and which says when the order counts (a slope matches); and the symmetry that reverses the order is B1297's period-2 involution.** New here: the instance on the harmonic family, and the reading that a vacuum forgets the order. **Owed as a sealed arc:** the
 same at the other exceptional points and on the levels; whether any admissible condition short of a direct sum keeps
 the order (a source, an end, a filtered rather than a harmonic structure); and whether the genesis's own order bit
 (UNIQUENESS A7, "based data only") is the same phenomenon one level down.
