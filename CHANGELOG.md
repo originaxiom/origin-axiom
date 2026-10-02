@@ -1,5 +1,34 @@
 # Changelog
 
+## B1515 sealed: the hyperbolic point — can one configuration carry both halves of a generation? Asked at q = 1, before any count there
+
+- **The question** (the owner's "go" after B1514). B1509 put the chiral 10′ and the missing 5̄′ on different backgrounds. A 5̄′ needs a
+  cusp where Λ²W has torus cohomology, and on m004's harmonic family that happens only at q = 1, the complete hyperbolic structure.
+  B1509, B1511 and the audit lane's R42–R56 all excluded that point. The census reads B1509's rank-five extensions there on M₁–M₆.
+- **The populations.**
+  - A: all 508 fibre characters at λ = 1, every one a member (36 case (a), 472 case (b)).
+  - B: the members the run finds at λ = −1, ±i, ω, ω², the only other λ where an index can live.
+- **Proved at the seal.**
+  - The cusp torus at q = 1 (exact, every level, every non-zero class):
+    - W₁ has (t0, s0) = (1, 2) and Λ²W₁ has (2, 3);
+    - every cocycle is valued in e^⊥ (T1);
+    - the deck acts trivially (T-deck).
+  - Conjugate self-duality gives every piece index 0. The Higgs bulk has no interior classes (Menal-Ferrer–Porti on a finite cover).
+  - I(W) needs λ ∈ μ₄ and I(Λ²W) needs λ ∈ μ₂ ∪ μ₃, so both need λ = ±1. W₂ mirrors W₁.
+  - **The mechanism at a simple member:** I(W₁) = 1 − b0 − ρ and I(Λ²W₁) = [e ∧ c|_P ∈ Λ_A], each in {0, 1}. So I(W₁) = 1 on the 76
+    deck-coincident case-(b) characters if they are simple.
+  - Remark 9 (cited, not used): the rigidity of complete structures among parabolic-cusped ones would force I(Λ²W₁) = 0.
+- **Sealed:** P1–P5, with priors. The question is P5: no member with both a non-zero I(W₁) and a non-zero I(Λ²W₁), 88%.
+- **Two routes named before the run, sharing no code** (NO NEGATIVE FROM A BUG):
+  - route T, B1511's tower_lib (the rank of the restriction);
+  - route L, B1513's audit backends with the interior dimension from one joint linear system and a duality self-check.
+  They must agree key by key.
+- **Controls** (13 s) passed on banked data and structure only, both routes: the torus structure; K1 and K2; B1509's and B1511's rows
+  at q ≠ 1; and R40 on m010 as the positive control, exactly and mod p.
+- **Disclosed:** one draft line printed h¹(G₃; ρ₁) = 1 for the trivial character; it follows from banked data (Lemma 10).
+- **Read for overlap:** main's S35 (Review 58; B1450 and B1451 sealed) and B1451's run result relayed by main's cc. The audit lane is
+  unchanged. Seal 5644a92c…; SEAL_LEDGER, RELAY_LEDGER, OPEN_LEADS and alias table updated.
+
 ## B1514 banked: the decoupling law — through level 6 no chiral state of the harmonic tower couples to a Higgs class of its background (PROVED)
 
 - **Run as sealed** (a0badfa3) by the two named routes, which share no code and agree group by group on every dimension, zero and

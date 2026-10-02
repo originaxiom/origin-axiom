@@ -3266,6 +3266,12 @@ and the joining forms by two independent routes (seal 12aa1edd…).
      (B1513 lead 3). The inside door is now closed for every chiral state through level 6;
   5. the 5̄′ (unchanged, decisive).
 
+**B1514 lead 5 (the 5̄′) taken at the hyperbolic point (sealed), 2026-10-02, B1515.** B1509 §5: a 5̄′ needs H*(T; Λ²W) ≠ 0, which on
+m004's harmonic family happens only at q = 1. Proved at the seal: at a simple λ = 1 member, I(W₁) and I(Λ²W₁) each lie in {0, 1},
+I(W₁) = 1 exactly when the boundary lines of V and V_η coincide, and I(Λ²W₁) = 1 exactly when e ∧ c|_P lies in the Higgs bulk's
+boundary plane (Lemma 8). The census reads all 508 fibre characters of M₁–M₆ at λ = 1, and the λ ≠ 1 members it finds, by two
+independent routes (seal 5644a92c…).
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

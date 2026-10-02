@@ -16642,3 +16642,31 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Fast lane on 93612efd** (B1514's pushed tree, 53 minutes): 6 483 passed, 52 skipped, 10 failed. The ten are the same set as at
   34aee33a: the nine baseline failures and the environmental `test_b1035_receipts`. The 19 extra passes are B1514's 18 fast lock
   tests and its verdict-schema case.
+
+## 2026-10-02 — B1515 sealed: the hyperbolic point (the owner's "go" after B1514), not run
+
+- **Sealed** (`frontier/B1515_the_hyperbolic_point/PREREGISTRATION.md`, sha256 5644a92c4c13d17f4663e74b16e9e0fafa8c86a16b2ce895e8b16871faf411db),
+  before any cohomology of a twisted module at q = 1 on a level beyond the banked values and one disclosed draft line, and before any
+  index of W₁, W₂, Λ²W₁ or Λ²W₂ at q = 1.
+- **The population:** all 508 fibre characters of M₁–M₆ at λ = 1 (population A, read at two primes in route T and three in route L,
+  exactly at levels 1 and 3), and the members found at λ = −1, ±i, ω, ω² (population B).
+- **Proved at seal:**
+  - the cusp torus at q = 1 (Lemma 1, with the exact torus table);
+  - conjugate self-duality (Lemma 2);
+  - the Higgs bulk without interior classes (Lemma 3);
+  - acyclic ends carry nothing (Lemma 4);
+  - where an index can live (Lemma 5);
+  - the populations (Lemma 6);
+  - the mirror (Lemma 7);
+  - the mechanism at a simple member (Lemma 8);
+  - the trivial fibre character (Lemma 10).
+  Remark 9 is cited, not used.
+- **Sealed:** P1–P5.
+- **Two independent routes,** run after the seal and before the bank: route T (`census_t.py`) and route L (`census_l.py`).
+- **Controls** (`controls.py` → `controls_run.txt`, 13 s): S1–S7, K1–K6 and C pass, both routes. The positive control is R40 on
+  m010 (I = +1 on V, Λ²V, W and Λ²W), exactly and mod p.
+- **Before the seal:**
+  - main moved b08f76f7 → 5a0ca0c4 (S35). It was read for overlap, and there is none. B1451's run result was relayed by main's cc
+    (RELAY_LEDGER).
+  - The audit lane is unchanged (b2925dac).
+  - The absence sweeps after `git fetch --all` are cited in the preregistration's §5.1.
