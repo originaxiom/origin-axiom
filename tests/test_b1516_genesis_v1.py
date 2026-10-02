@@ -130,13 +130,14 @@ def test_live_snappy_part():
 def test_genesis_version_and_sections():
     g = _genesis()
     assert g.startswith("# GENESIS — the foundations of origin-axiom")
-    # v1.0 is B1516's; a later arc amends the head line and adds its own log entry (B1517: v1.1), so the head line is
-    # pinned by form and v1.0 by its log entry.
-    assert re.search(r"^\*\*Version 1\.\d+ · \d{4}-\d{2}-\d{2} · arcs? B1516[^*]* · canonical\.\*\*$", g, flags=re.M)
+    # v1.0 is B1516's; a later arc amends the head line and adds its own log entry (B1517, main's B1454, B1519), so the head
+    # line is pinned by form and v1.0 by its log entry. From v1.1 the page is main's and the SM seat's together, and the
+    # seat's arc numbers carry `sm:` (main's B1454; GENESIS §0).
+    assert re.search(r"^\*\*Version 1\.\d+ · \d{4}-\d{2}-\d{2} · (?:arcs? [^*]*B1516[^*]* · )?canonical\.\*\*", g, flags=re.M)
     heads = re.findall(r"^## (\d+)\. ", g, flags=re.M)
     assert heads == [str(i) for i in range(11)]
     assert "Where any document disagrees with this file, this file holds" in g
-    assert "Only an arc may change it." in g and "- **v1.0 · 2026-10-02 · B1516.**" in g
+    assert "Only an arc may change it." in g and re.search(r"^- \*\*v1\.0 · 2026-10-02 · (?:sm:)?B1516\.\*\*", g, flags=re.M)
 
 
 def test_genesis_ids_and_statuses():
@@ -152,7 +153,7 @@ def test_genesis_ids_and_statuses():
 
 def test_genesis_load_bearing_statements():
     g = " ".join(_genesis().split())                                    # wrapping-independent
-    assert "**Four inputs suffice, and each is needed** (B1516 C8)." in g
+    assert re.search(r"\*\*Four inputs suffice, and each is needed\*\* \((?:sm:)?B1516 C8\)\.", g)
     assert "m004's class has 99 census members, the arithmetic part of B1186's 112-member family" in g
     assert "they are conjugate in SL(2,ℤ) by L, since L⁻¹(LR)L = RL (not by P, whose determinant is −1)" in g
     assert "**The family is the intended shape.**" in g

@@ -55,6 +55,12 @@ EXEMPT_CITERS = ("PROGRESS_LOG.md",
 # Paths that correctly name something outside this repo.
 EXEMPT_TARGETS = frozenset({
     "docs/CLOSURE_2026-07-10.md",          # audit-seat clone, closure/phase1-duels @ e42c336
+    # Main's own artifacts (main @ 12ed66bd), named in main's GENESIS v1.1 text, which is the head of GENESIS v1.2 (B1519) and
+    # is kept verbatim, and in WORKING_RULES' reconciliation of the two seen-first rules. This branch cites them and does not copy
+    # them (harvest by citation); on main they resolve.
+    "docs/EARLY_RECORD_INDEX.md",
+    "scripts/checks/topic_sweep.py",
+    "frontier/B1454_genesis_v1_verified_and_adopted/verification/genesis_own.py",
 })
 
 

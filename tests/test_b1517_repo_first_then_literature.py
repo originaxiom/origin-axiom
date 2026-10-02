@@ -142,21 +142,25 @@ def test_live_snappy_partition_and_orientation():
 
 # ------------------------------------------------------------------------------------------------- the amended surfaces
 def test_genesis_v11():
+    """B1517's statements, carried into the joint page from v1.2 (sm:B1519 took main's v1.1 as the head and folded B1517 in,
+    marked [v1.2], with the SM seat's arc numbers written sm:). The version line is pinned by form; B1517's own entry in the
+    version log names it as the v1.1 made on the SM seat's branch."""
     raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
     g = " ".join(raw.split())
-    assert "**Version 1.1 · 2026-10-02 · arcs B1516 and B1517 · canonical.**" in raw
+    m = re.search(r"^\*\*Version 1\.(\d+) · 2026-10-02 · [^*]*canonical\.\*\*", raw, flags=re.M)
+    assert m and int(m.group(1)) >= 1
     for s in ("A word and its reverse are two states realised by one manifold, with the same orientation",
               "**They realise 536 distinct manifolds**, twice OEIS A000046",
               "twice OEIS A000048 summed over those lengths",
               "(Goodman–Heard–Hodgson 2008, Lemma 3.2; Guéritaud 2006, §3.2)",
-              "- **Signed powers.** For u primitive and k even, −uᵏ is a legal signed monodromy (GM5b) that is neither a state",
+              "**Signed powers.** For u primitive and k even, −uᵏ is a legal signed monodromy (GM5b) that is neither a state",
               "The audit lane's R78 (sealed 2026-10-02) raised it",
               "(Chun, Gukov, Park and Sopenko 2019, §2.2 eq. (11))",
-              "87 of the 536 manifolds they realise (B1517 C5)",
-              "A count over states names its unit, word states or manifolds",
-              "- **v1.1 · 2026-10-02 · B1517.**"):
+              "87 of the 536 manifolds they realise (sm:B1517 C5)",
+              "A count over states names its unit, word states or manifolds"):
         assert s in g, s
-    assert re.search(r"^- \*\*v1\.0 · 2026-10-02 · B1516\.\*\*$", raw, flags=re.M)
+    assert re.search(r"^- \*\*v1\.0 · 2026-10-02 · (?:sm:)?B1516\.\*\*", raw, flags=re.M)
+    assert re.search(r"^- \*\*v1\.1 (?:on the SM seat's branch )?· 2026-10-02 · (?:sm:)?B1517\.\*\*", raw, flags=re.M)
 
 
 def test_dated_notes_and_surfaces():

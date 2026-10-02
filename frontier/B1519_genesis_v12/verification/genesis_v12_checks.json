@@ -1,0 +1,512 @@
+{
+ "K1 B14: every integer square root of L^a R^b": {
+  "roots of LR": [
+   [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   [
+    [
+     -1,
+     -1
+    ],
+    [
+     -1,
+     0
+    ]
+   ]
+  ],
+  "roots of LR by brute force, entries in [-6, 6]": 2,
+  "L^a R^b, a, b = 1..8: determinants of all integer square roots": {
+   "1,1": [
+    -1,
+    -1
+   ],
+   "1,2": [],
+   "1,3": [],
+   "1,4": [],
+   "1,5": [],
+   "1,6": [],
+   "1,7": [],
+   "1,8": [],
+   "2,1": [],
+   "2,2": [
+    -1,
+    -1
+   ],
+   "2,3": [],
+   "2,4": [],
+   "2,5": [],
+   "2,6": [],
+   "2,7": [],
+   "2,8": [],
+   "3,1": [],
+   "3,2": [],
+   "3,3": [
+    -1,
+    -1
+   ],
+   "3,4": [],
+   "3,5": [],
+   "3,6": [],
+   "3,7": [],
+   "3,8": [],
+   "4,1": [],
+   "4,2": [],
+   "4,3": [],
+   "4,4": [
+    -1,
+    -1
+   ],
+   "4,5": [],
+   "4,6": [],
+   "4,7": [],
+   "4,8": [],
+   "5,1": [],
+   "5,2": [],
+   "5,3": [],
+   "5,4": [],
+   "5,5": [
+    -1,
+    -1
+   ],
+   "5,6": [],
+   "5,7": [],
+   "5,8": [],
+   "6,1": [],
+   "6,2": [],
+   "6,3": [],
+   "6,4": [],
+   "6,5": [],
+   "6,6": [
+    -1,
+    -1
+   ],
+   "6,7": [],
+   "6,8": [],
+   "7,1": [],
+   "7,2": [],
+   "7,3": [],
+   "7,4": [],
+   "7,5": [],
+   "7,6": [],
+   "7,7": [
+    -1,
+    -1
+   ],
+   "7,8": [],
+   "8,1": [],
+   "8,2": [],
+   "8,3": [],
+   "8,4": [],
+   "8,5": [],
+   "8,6": [],
+   "8,7": [],
+   "8,8": [
+    -1,
+    -1
+   ]
+  },
+  "a det -1 root exists exactly when a = b, and it is +-L^a P; no det +1 root": true,
+  "passed": true
+ },
+ "K2 B469: X_m^2 = L^m R^m, det -1": {
+  "X_m = L^m P": true,
+  "X_m^2": "[[m**2 + 1, m], [m, 1]]",
+  "X_m^2 = L^m R^m": true,
+  "det X_m": "-1",
+  "passed": true
+ },
+ "K3 the swap on LR": {
+  "P LR P^-1": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "RL": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "(LR)^-1": [
+   [
+    1,
+    -1
+   ],
+   [
+    -1,
+    2
+   ]
+  ],
+  "P LR P^-1 = RL": true,
+  "RL = (LR)^-1": false,
+  "conjugators X LR X^-1 = (LR)^-1 with entries in [-4, 4]: det +1": [
+   [
+    [
+     -1,
+     -1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   [
+    [
+     -1,
+     2
+    ],
+    [
+     -1,
+     1
+    ]
+   ],
+   [
+    [
+     0,
+     -1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   [
+    [
+     0,
+     1
+    ],
+    [
+     -1,
+     0
+    ]
+   ],
+   [
+    [
+     1,
+     -2
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   [
+    [
+     1,
+     1
+    ],
+    [
+     -2,
+     -1
+    ]
+   ]
+  ],
+  "the same, det -1": [
+   [
+    [
+     -2,
+     -1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   [
+    [
+     -2,
+     3
+    ],
+    [
+     -1,
+     2
+    ]
+   ],
+   [
+    [
+     -1,
+     0
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   [
+    [
+     -1,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   [
+    [
+     1,
+     -1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   [
+    [
+     1,
+     0
+    ],
+    [
+     -1,
+     -1
+    ]
+   ],
+   [
+    [
+     2,
+     -3
+    ],
+    [
+     1,
+     -2
+    ]
+   ],
+   [
+    [
+     2,
+     1
+    ],
+    [
+     -3,
+     -2
+    ]
+   ]
+  ],
+  "P among them": false,
+  "passed": true
+ },
+ "K4 B1234's base rate, named": {
+  "population: first and last names, size": [
+   "m003",
+   "m261",
+   200
+  ],
+  "amphichiral among them": [
+   "m003",
+   "m004",
+   "m135",
+   "m136",
+   "m206",
+   "m207"
+  ],
+  "symmetry-group errors": 0,
+  "orientation covers of the first 40 non-orientable census manifolds: cusp counts": {
+   "1": 20,
+   "2": 18,
+   "3": 1,
+   "4": 1
+  },
+  "of them amphichiral": 40,
+  "passed": true
+ },
+ "K5 R78 at -(LR)^2": {
+  "bundles": {
+   "+LR": {
+    "identify": [
+     "m004(0,0)",
+     "4_1(0,0)",
+     "K2_1(0,0)",
+     "K4a1(0,0)",
+     "otet02_00001(0,0)"
+    ],
+    "H1": "Z",
+    "cusps": 1
+   },
+   "+(LR)^2": {
+    "identify": [
+     "m206(0,0)",
+     "otet04_00002(0,0)"
+    ],
+    "H1": "Z/5 + Z",
+    "cusps": 1
+   },
+   "-(LR)^2": {
+    "identify": [
+     "m207(0,0)",
+     "otet04_00003(0,0)"
+    ],
+    "H1": "Z/3 + Z/3 + Z",
+    "cusps": 1
+   },
+   "+(LR)^4": {
+    "identify": [
+     "t12839(0,0)",
+     "otet08_00007(0,0)"
+    ],
+    "H1": "Z/3 + Z/15 + Z",
+    "cusps": 1
+   }
+  },
+  "b+-LRLR is isometric to m207": true,
+  "minimal trace of a positive word with both letters, by length": {
+   "2": 3,
+   "3": 4,
+   "4": 5,
+   "5": 6,
+   "6": 7,
+   "7": 8,
+   "8": 9,
+   "9": 10,
+   "10": 11,
+   "11": 12,
+   "12": 13
+  },
+  "levels with trace -7 (state, n, H1 torsion)": [
+   {
+    "state": "-LLLLLR",
+    "n": 1,
+    "H1 torsion": [
+     9
+    ]
+   }
+  ],
+  "-(LR)^2: H1 torsion": [
+   3,
+   3
+  ],
+  "no level has the torsion of -(LR)^2": true,
+  "C9 box: matrices reducing to -u^k with k even": [
+   {
+    "B": [
+     [
+      -5,
+      -3
+     ],
+     [
+      -3,
+      -2
+     ]
+    ],
+    "word": "LRLR",
+    "k": 2,
+    "trace": -7
+   },
+   {
+    "B": [
+     [
+      -5,
+      3
+     ],
+     [
+      3,
+      -2
+     ]
+    ],
+    "word": "LRLR",
+    "k": 2,
+    "trace": -7
+   },
+   {
+    "B": [
+     [
+      -2,
+      -3
+     ],
+     [
+      -3,
+      -5
+     ]
+    ],
+    "word": "RLRL",
+    "k": 2,
+    "trace": -7
+   },
+   {
+    "B": [
+     [
+      -2,
+      3
+     ],
+     [
+      3,
+      -5
+     ]
+    ],
+    "word": "RLRL",
+    "k": 2,
+    "trace": -7
+   }
+  ],
+  "passed": true
+ },
+ "K6 surjections onto 2T (main v1.1, B1234)": {
+  "|SL(2, F_3)|": 24,
+  "m000: generators, relators, surjections onto SL(2, F_3)": [
+   2,
+   1,
+   48
+  ],
+  "m004: generators, relators, surjections onto SL(2, F_3)": [
+   2,
+   1,
+   48
+  ],
+  "passed": true
+ },
+ "K7 three bits, one relation (main B1327)": {
+  "symmetry group, order": [
+   "D4",
+   8
+  ],
+  "amphichiral": true,
+  "isometries": 8,
+  "cusp maps diagonal": true,
+  "(s_m, s_l, det) with multiplicity": [
+   [
+    1,
+    1,
+    1,
+    2
+   ],
+   [
+    1,
+    -1,
+    -1,
+    2
+   ],
+   [
+    -1,
+    1,
+    -1,
+    2
+   ],
+   [
+    -1,
+    -1,
+    1,
+    2
+   ]
+  ],
+  "det = s_m s_l on every isometry": true,
+  "passed": true
+ },
+ "all passed": true
+}

@@ -1,5 +1,41 @@
 # Changelog
 
+## B1519 banked: GENESIS v1.2 — main's v1.1 as the head, the seat's v1.1 folded in, the signed powers placed, the bar at GAP4, the observer line carried and FK12 registered (PROVED)
+
+- **The head is main's v1.1** (its B1454, `f655034b`), taken as main asked; all 23 of its changes are accepted. Three were checked at
+  their sources: the quotation of B1434, the 48 surjections onto 2T (K6), and B1234's 40 of 40 and 6 of 200 (K4). Main's two
+  corrections of v1.0 are this seat's errors and are logged.
+- **Folded in:** this seat's own amendment of the same afternoon (B1517), with its numbers written `sm:`.
+- **Added, marked [v1.2]:**
+  - the signed powers placed: every hyperbolic monodromy is one triple (u, k, ε), and −uᵏ is a level of a state exactly when k is
+    odd. The seeds are −u^(2^a). The first, m207 = −(LR)², was already in B1385 §2 S4, main's B1418 and B1224, and B1517 missed it.
+    R78 is reproduced (K5) and its representation adopted.
+  - B14 complete by Cayley–Hamilton (K1); the swap native on the words route (B1323); B979's "via P" noted (K3).
+  - B1234's six named (the root and its relatives) and its comparison graded against the bar's third step.
+  - GAP4 points to `docs/THE_BAR.md`.
+  - **The observer line carried:**
+    - the closings (B717);
+    - THEOREM_LEDGER C18's price, "a fully transparent, self-naming, integrated speaker that cannot choose" (B759–B762);
+    - the parity law (B1168);
+    - naming without signing (B1183, B1184);
+    - main's B1327, its relation reproduced (K7).
+  - Fork FK12 registered: are the observer's closings part of the genesis? FK3 carries B1327's relation, and FK9 main's B1455
+    (sealed, not run).
+- **The two seen-first rules made one** (WORKING_RULES):
+  - `prior_work` stays the record;
+  - FINDINGS carry a "Seen first" section in main's form, gated by `seen-first` on this branch from B1519;
+  - a subject question is swept with main's `topic_sweep.py`.
+- **ERROR_LEDGER:** three rows.
+  - B1517's miss of m207 (E54).
+  - v1.0's quotation of B1434 (main's E68) and GAP5's unswept absence (E54).
+  - This arc's draft, and the reply to the owner, had described the observer line from four July arcs; the topic sweep caught it
+    before banking (E54).
+- **Relays:**
+  - to main: its S37 answered item by item, and GENESIS v1.2;
+  - to the audit lane: R78 adopted.
+- **Gates:** `seen-first` registered in PRACTICES. The path checker exempts three main-only files that main's GENESIS text names.
+- **Lock:** `tests/test_b1519_genesis_v12.py`. The B1516 and B1517 locks accept the joint page. No GENESIS status changes. 0 of 19.
+
 ## Main's S37 list answered where each stands; the fast lane on e8992b63 (B1518's banked tree)
 
 - **The fast lane on e8992b63** (72 minutes): 6 544 passed, 52 skipped, 10 failed. The ten are the same set as at cf8506c2, the nine

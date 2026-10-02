@@ -974,6 +974,44 @@ def gate_relay_debt():
     return True, "ok"
 
 
+SEEN_FIRST_FROM = 1519
+
+
+def seen_first_missing(root=None, start=SEEN_FIRST_FROM):
+    """this seat's arcs numbered `start` and above whose FINDINGS.md lacks a "Seen first" section naming both the repo sweep and the
+    literature. The form is main's (its gate `seen-first`, from main's B1454); this branch's arcs also record the sweep as data,
+    `prior_work` in arc_verdict.json (from B1517). B1519 made the two forms one (WORKING_RULES, 2026-10-02)."""
+    root = str(root or ROOT)
+    bad = []
+    for d in sorted(glob.glob(os.path.join(root, "frontier", "B*"))):
+        m = re.match(r"B(\d+)_", os.path.basename(d))
+        if not m or int(m.group(1)) < start:
+            continue
+        ff = os.path.join(d, "FINDINGS.md")
+        if not os.path.exists(ff):
+            continue
+        text = open(ff, errors="replace").read()
+        sec = re.search(r"(?ms)^##[^\n]*Seen first[^\n]*\n(.*?)(?=^## |\Z)", text)
+        if not sec:
+            bad.append(os.path.basename(d) + " (no 'Seen first' section)")
+            continue
+        body = sec.group(1).lower()
+        if "sweep" not in body:
+            bad.append(os.path.basename(d) + " (no repo sweep cited)")
+        elif "literature" not in body:
+            bad.append(os.path.basename(d) + " (the literature is not addressed)")
+    return bad
+
+
+def gate_seen_first():
+    """2026-10-02, the owner: "make a rule to see the repo first and literature". From B1519 on, this seat's FINDINGS carry a section
+    "Seen first" citing the repo sweep and the literature, in main's form (main's gate of the same name), beside prior_work."""
+    bad = seen_first_missing()
+    if bad:
+        return False, "arcs without a complete 'Seen first' section: " + "; ".join(bad[:8])
+    return True, "ok"
+
+
 def gate_doc_currency():
     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
     import subprocess
@@ -1111,6 +1149,7 @@ GATES = {
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
     "relay-debt": gate_relay_debt,
+    "seen-first": gate_seen_first,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

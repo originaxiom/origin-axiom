@@ -1,0 +1,166 @@
+{
+ "id": "B1519",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1516",
+  "B1517",
+  "B1518",
+  "B1454",
+  "B1385",
+  "B14",
+  "B469",
+  "B1234",
+  "B717",
+  "B1184",
+  "B1327"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none",
+  "object": "the grammar and the generated state space of GENESIS sections 2-4, the records GENESIS cites, and the signed powers -u^k (k even)",
+  "reach": "general",
+  "hypotheses": [
+   "main's GENESIS v1.1 at f655034b taken as the head, as main asked; its 23 changes accepted",
+   "the uniqueness of the cyclic word of a hyperbolic class (Salepci, arXiv:1006.0752, section 7)",
+   "FK12 records a question; nothing about awareness, choice or the observer is claimed beyond the record's typed statements"
+  ]
+ },
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "e8992b63",
+    "main": "f06d3405",
+    "origin/audit/physical-bridge-2026-09-05": "56e2c455",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "e8992b63",
+    "origin/main": "12ed66bd",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "m207",
+    "LRLR",
+    "signed power",
+    "square root",
+    "record swap",
+    "Gieseking",
+    "seen first",
+    "EARLY_RECORD_INDEX",
+    "base rate",
+    "orientation double cover",
+    "observer",
+    "awareness",
+    "self-model",
+    "closing",
+    "tzimtzum",
+    "Nasadiya",
+    "self-naming",
+    "qualia",
+    "relation, not observer",
+    "selection rule",
+    "plenitude"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@f655034b:GENESIS.md and frontier/B1454_genesis_v1_verified_and_adopted (FINDINGS, adoption/amend.py)",
+     "bearing": "main's v1.1, verified by other routes and adopted; taken as the head of v1.2 as main asked; its 23 changes accepted; it already cites the eighteen records of main's S37 relay"
+    },
+    {
+     "where": "frontier/B1385_the_states_together/FINDINGS.md §2 S4 (2026-09-27)",
+     "bearing": "lists +-(LR)^2 as m206/m207: the first signed power was in this seat's record before B1517 called its place open (ERROR_LEDGER, E54 instance)"
+    },
+    {
+     "where": "origin/main@f655034b:frontier/B1418_the_family_as_the_object/verification/c1_class_census.out; frontier/B1224_amphichiral_cs_torsion/FINDINGS.md",
+     "bearing": "m207 in main's class census (one cusp, H1 = Z/3 + Z/3 + Z) and at CS = 1/4 in B1224; cited at GENESIS section 3"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@56e2c455:reports/physical_bridge_2026_09_05/SIGNED_LEVEL.md (R78)",
+     "bearing": "the reconstruction gap and m207 as its witness; reproduced by K5; its representation (u, k, eps) adopted"
+    },
+    {
+     "where": "frontier/B14_half_step_square_root_selector, frontier/B16_record_swap_status, frontier/B19_exchange_half_step_axiom_audit, frontier/B469_breath_campaign",
+     "bearing": "the swap's early record, cited by main's v1.1 at GM5c; K1 and K2 re-derive B14 and B469"
+    },
+    {
+     "where": "frontier/B1234_a6_built_the_walls (FINDINGS, a6_built_the_walls.py)",
+     "bearing": "SE2's cost in main's v1.1; K4 names its six amphichiral manifolds and K6 re-derives its 48 surjections onto 2T"
+    },
+    {
+     "where": "frontier/B716_time_gap, frontier/B717_observer_emergence, frontier/B723_build_the_observer, frontier/B20_operational_awareness_test, frontier/B37_operational_feedback_quarantine, frontier/B170_relational_scale_leap, speculations/S070_creation_narratives_and_the_observer.md",
+     "bearing": "the July observer line (every closing is the observer's; measurement is the choosing) and its bounds (the dynamics never reads its invariant; the self-referential leap undecidable from within); GENESIS did not carry it"
+    },
+    {
+     "where": "origin/main@f655034b:docs/EARLY_RECORD_INDEX.md (subjects: the genesis; what selects the golden seed; chirality, orientation, mirror; self-model, awareness)",
+     "bearing": "the early record read through main's index, as main's rule asks for B1-B500"
+    },
+    {
+     "where": "origin/main@f655034b:frontier/B1434_the_architecture_census/FINDINGS.md:29",
+     "bearing": "the quotation main corrected in v1.1 checked at its source"
+    },
+    {
+     "where": "origin/main@12ed66bd: scripts/checks/topic_sweep.py on the observer subject, run from a checkout of main",
+     "bearing": "VERDICT: 109 of 1327 arcs on main match (NEGATIVE 18, OPEN 17, PROVED 74); 107 of them are on this branch; it found the August line this arc's draft had missed (ERROR_LEDGER, E54 instance)"
+    },
+    {
+     "where": "docs/THEOREM_LEDGER.md C18; frontier/B759_qp3_integration, frontier/B760_qp4_closure, frontier/B761_qp2_private, frontier/B762_qp1_self_naming",
+     "bearing": "the observer's closings priced: a fully transparent, self-naming, integrated speaker that cannot choose; cited at GENESIS section 7 and FK12"
+    },
+    {
+     "where": "frontier/B1168_c5_investigation, frontier/B1169_qualia_parity_synthesis, frontier/B1163_w0_attempt, frontier/B1183_one_class_theorem, frontier/B1184_quine_synthesis",
+     "bearing": "the parity law (object = mirror-even and dimensionless) and naming without signing (the missing sign is one Z/2 class, the orientation); FK12's settled half"
+    },
+    {
+     "where": "frontier/B1188_grand_retrieval, frontier/B985_cc3_relational_integration",
+     "bearing": "the observer theory found off-surface in August, and the measured cause (relation-named faces recovered at 6-19 %); the same gap recurred in this arc's draft"
+    },
+    {
+     "where": "origin/main@12ed66bd:frontier/B1327_relation_not_observer (FINDINGS, verification/three_bits_one_relation.py)",
+     "bearing": "observer re-typed as relation (OPEN); its one computation, mirror = swap x arrow on m004, reproduced by K7 and cited at FK3 and FK12"
+    },
+    {
+     "where": "origin/main@12ed66bd:frontier/B1455_the_selection_rule_and_the_deciding_test/PREREGISTRATION.md; origin/audit/physical-bridge-2026-09-05@56e2c455:reports/physical_bridge_2026_09_05/SELECTION_RULE_INTAKE_2026_10_02.md",
+     "bearing": "the law/state question sealed on main (not run) and the audit lane's scoping of the owner's selection-rule handoff; cited at FK9 and FK12"
+    },
+    {
+     "where": "frontier/B1225_no_canonical_selector, frontier/B1234_a6_built_the_walls, frontier/B752_qualia_handoff_receipt",
+     "bearing": "no symmetry readable off the object selects within its class; the walls pass through amphichirality; a qualia handoff that dissolved at the base rate"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "square roots of matrices in SL(2,Z) GL(2,Z) Cayley-Hamilton integer square root",
+    "Gieseking manifold orientation double cover figure-eight punctured torus bundle monodromy",
+    "hyperbolic conjugacy classes SL(2,Z) cyclic words in L and R unique up to cyclic permutation"
+   ],
+   "sources": [
+    {
+     "cite": "R. Skuratovskii, Extended special linear group ESL2(F) and matrix equations in SL2(F), SL2(Z), GL2(Fp) and M2(Fp), arXiv:2307.13873v7",
+     "where": "Proposition 1, p. 17",
+     "read": "2026-10-02",
+     "says": "sqrt A = (A +- E)/(+-sqrt(tr A +- 2)), the minus sign giving the determinant -1 roots; the Cayley-Hamilton method called well known"
+    },
+    {
+     "cite": "N. Salepci, Real elements in the mapping class group of T^2, arXiv:1006.0752",
+     "where": "section 7, p. 9",
+     "read": "2026-10-02",
+     "says": "the cutting period-cycle of a hyperbolic element of PSL(2,Z) is a complete invariant of its PGL(2,Z) conjugacy class"
+    },
+    {
+     "cite": "Gieseking manifold, Wikipedia (en), read 2026-10-02",
+     "where": "the article's description of the fibration",
+     "read": "2026-10-02",
+     "says": "a once-punctured-torus bundle with monodromy (x, y) -> (x + y, x), whose square is the cat map; double covered by the figure-eight knot complement"
+    }
+   ]
+  },
+  "standing": "RE-DERIVED"
+ },
+ "claim_one_line": "GENESIS v1.2, the first version both seats hold: main's v1.1 (B1454, verified by other routes and adopted the same afternoon) taken as the head as main asked, all 23 of its changes accepted (the quotation of B1434 checked at its source; the 48 surjections onto 2T re-derived), and this seat's own v1.1 (B1517) folded in. Added: the signed powers placed (every hyperbolic monodromy is one triple (u, k, eps); -u^k is a level of a state exactly when k is odd; the seeds are -u^(2^a); the first, m207 = -(LR)^2, was already in B1385 section 2 S4, main's B1418 and B1224, which B1517 missed); GAP4 points to docs/THE_BAR.md; B1234's base rate named (its six are the root and its relatives) and graded; the swap native on the words route; and the observer line carried and FK12 registered: the object supplies the incompletenesses and the observer every closing (B717); C18 prices it as a transparent, self-naming speaker that cannot choose (B759-B762); it names itself and cannot sign itself, the missing sign one Z/2 class (B1183, B1184); main's B1327 re-types the closings as relations, and its mirror = swap x arrow is reproduced (K7). GENESIS had not carried the line; whether the closings belong to the genesis is now an open fork. Own-code checks K1-K7 pass. No status changes. 0 of 19."
+}

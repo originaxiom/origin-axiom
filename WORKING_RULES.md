@@ -464,3 +464,17 @@ It adds three things:
 - what another work says is re-read at its source before it is restated.
 
 It does not replace the identification rule: a sweep that finds a matching label has not found a map.
+
+**The two rules of 2026-10-02 made one (B1519).** Main adopted the same instruction the same day as **SEE THE REPO AND THE
+LITERATURE FIRST** (main's WORKING_RULES; its arcs from B1454). Its tools are `topic_sweep.py`, which reads every arc's verdict
+line, and `docs/EARLY_RECORD_INDEX.md` for B1–B500. Its record is a FINDINGS section headed "Seen first", which its gate
+`seen-first` requires. The two rules ask the same thing, so this seat keeps both forms:
+- `prior_work` in `arc_verdict.json` stays the record (from B1517, enforced by `tests/test_arc_verdict_schema.py`);
+- from B1519, FINDINGS also carries a "Seen first" section in main's form, naming the sweep and the literature, and this
+  branch's gate `seen-first` checks it;
+- for a question about a subject, the sweep includes main's `topic_sweep.py`, run from a checkout of main;
+- for B1–B500 it reads main's EARLY_RECORD_INDEX, which this branch cites and does not copy.
+
+**Why the topic sweep is in the procedure.** B1519's first draft described the record's observer line from four July arcs and
+missed the August line (C18's price, the parity law, naming without signing), though 107 of the 109 arcs main's tool returns were
+on this branch. The term sweep had been run on the concept's words; the topic sweep reads every verdict line.

@@ -1,6 +1,6 @@
 # Origin Axiom
 
-> **Foundations (2026-10-02, B1516): [`GENESIS.md`](GENESIS.md) v1.0 is canonical.** It states once, with one numbering,
+> **Foundations (2026-10-02; v1.0 B1516, v1.2 B1519): [`GENESIS.md`](GENESIS.md) v1.2 is canonical, the version main and this seat both hold.** It states once, with one numbering,
 > the principle, the grammar, the generated state space with the figure-eight knot complement m004 as its root, the
 > frames in which results are computed, and the open forks. Where anything below disagrees with it, GENESIS holds.
 
@@ -23,7 +23,7 @@ nothing cannot complete.
 
 ## The state of the programme (as of B1516, 2026-10-02)
 
-### Foundations: `GENESIS.md` v1.1
+### Foundations: `GENESIS.md` v1.2
 
 The programme starts from one principle: existence is what remains when cancelling to nothing cannot complete, and that
 remainder is a description that cannot be exhausted. Read as mathematics, a description is a word in two elementary updates of
@@ -38,6 +38,11 @@ homology and orientation. Torsion-freeness alone leaves m004 and its parent, the
 root is the emptiest state, since its fibre carries no non-trivial character that its monodromy fixes. It is the architecture's
 origin of coordinates, not its physical centre. The genesis is a conditional reconstruction of a chosen sector, not a derivation
 from nothing: the figure-eight was named before the axioms were written.
+
+v1.2 (B1519) takes main's adoption of v1.0 (main's v1.1, B1454) as its head and folds in this seat's amendment. It places
+the signed powers −uᵏ (k even), whose first, m207 = −(LR)², the record already held. It carries the record's observer line:
+the object names itself and cannot sign itself (B1183, B1184; THEOREM_LEDGER C18). It registers fork FK12, whether the
+observer's closings belong to the genesis. No status changes.
 
 ### How results are read
 

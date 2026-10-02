@@ -16878,3 +16878,49 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   20 880, or 20 892 with m004's 12; the log is append-only, so the correction is written here.
 - I-26 stays UNEARNED. 0 of 19.
 
+## 2026-10-02 — B1519 banked: GENESIS v1.2 (PROVED)
+
+- **Occasion:** the owner, after B1518's report: *"lets make sure we adress each of your bulletpoints and your whole report
+  properly, so all the work of yours isnt lost"*. The owner asked the same evening whether the foundations drop the observer.
+- **What was done.**
+  - GENESIS v1.2 is built from main's v1.1 by a script whose every replacement is asserted once. Main's 23 changes are accepted,
+    and this seat's B1517 is folded in.
+  - Added: the signed powers placed, the bar at GAP4, B1234's six named, and the observer line carried with FK12.
+  - Own-code checks K1–K7, all passing.
+- **The sweep.**
+  - `prior_work`: ten heads, main at 12ed66bd, the audit lane at 56e2c455.
+  - Main's topic sweep on the observer: 109 arcs, 107 of them on this branch.
+  - Literature: Skuratovskii Prop. 1, Salepci §7, the Gieseking fibration.
+  - The sweep found this arc's own draft short of the record, and the draft was corrected before banking (ERROR_LEDGER).
+- **The reply to the owner, corrected.** That evening's answer described the record's observer line from the July arcs. The
+  record already holds the typed answer: the object names itself and cannot sign itself (B1183, B1184), and C18 prices it as a
+  speaker that cannot choose. The proposed "reader" arc is partly decided for the sign (B1225, B1184). Its open parts are
+  selections of mirror-even data and the relational route (main's B1327).
+- **B1518's report, bullet by bullet** (the owner's request):
+
+| B1518 report item | where it lives | status |
+|---|---|---|
+| sealed, run, re-checked independently, banked and pushed | `697217be` (seal), `e8992b63` (bank); `frontier/B1518_the_bar/`; SEAL_LEDGER | done |
+| the fast lane on e8992b63, to be recorded | this log and CHANGELOG, commit `b9e3de72`: 6 544 passed, the ten known failures, the 14 new tests accounted | done |
+| the bar: card, rate, comparable objects, trials, gate p < 0.01 | `docs/THE_BAR.md`; GENESIS v1.2 §7 (GAP4) and FK9 point to it | done |
+| grades DERIVED, REPRODUCED, FITTED, plus UNJUDGED | `docs/THE_BAR.md` | done |
+| first use on main's census, 87 of 536 manifolds | B1518 FINDINGS and `bar_run.json`; GENESIS v1.2 §5 | done |
+| no simple rule decides firing (m369 against o9_00001) | B1518 FINDINGS; OPEN_LEADS sL-9 item 1 lead (b), the own-level law asked of the word | open lead |
+| all 52 manifolds recomputed by independent code | B1518 `verification/post_run_checks.py` and its record | done |
+| the fibre torsion predicts firing, AUC 0.86 | B1518 FINDINGS and `bar_run.json` | done |
+| reversal symmetry not established (p = 0.022 against 0.01) | B1518 FINDINGS; OPEN_LEADS sL-9 lead (d), with power on a longer census | open lead |
+| three of four sealed predictions, priors 2.9 | B1518 FINDINGS | done |
+| the record graded: nothing clears the bar | `docs/THE_BAR.md`; B1518 FINDINGS; GENESIS v1.2 §7 | done |
+| the root's levels REPRODUCED; its own level and level 2 silent | B1518 FINDINGS; OPEN_LEADS sL-9 lead (c) | open lead |
+| m369 and s639 found by a scan (0.986) | B1518 FINDINGS; GENESIS v1.2 §7 (FITTED if offered as evidence) | done |
+| the harmonic frame UNJUDGED | GENESIS v1.2 §7; OPEN_LEADS sL-9 lead (e) and item 2 | open lead |
+| two slips logged | ERROR_LEDGER, the two rule-slip rows of B1518; the B1516 lock's exemption for a sealed preregistration | done |
+| next: GENESIS v1.2 with the bar, R78, the eighteen records and the two rules | B1519 (this entry); the eighteen are main's citations in its v1.1, kept | done |
+| next: the housekeeping pass on main's list | commit `b9e3de72` | done |
+| the relay asking main to adopt the bar | `SM_TO_CC_2026-10-02_THE_BAR_AND_THE_OWN_LEVEL_LAW.md`, repeated in `SM_TO_CC_2026-10-02_S37_ANSWERED_AND_GENESIS_V1_2.md` §4 | awaiting main |
+| (the evening's reply) FK12 registered | GENESIS v1.2 §7 and §8; B1519 §4 | done |
+| (the evening's reply) the arc "the reader" | B1519 §4: partly decided for the sign; the rest awaits the owner's go | the owner's |
+
+- **Still the owner's:** GENESIS FK1's wording, FK12's framing, and whether "the reader" runs in its narrowed form.
+- I-26 stays UNEARNED. 0 of 19.
+
