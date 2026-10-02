@@ -1,0 +1,2018 @@
+{
+ "K1": {
+  "members per prime-root": 184,
+  "pass": true,
+  "populations": 18,
+  "routes read the same populations": true
+ },
+ "K2": {
+  "level 4": {
+   "cells": 199,
+   "checks": {
+    "Phi_* sigma - sigma is a cycle": true,
+    "d sigma = -[ell]": true,
+    "dC = z": true,
+    "dK(w) = w": true,
+    "dz = 0": true
+   }
+  },
+  "level 5": {
+   "cells": 492,
+   "checks": {
+    "Phi_* sigma - sigma is a cycle": true,
+    "d sigma = -[ell]": true,
+    "dC = z": true,
+    "dK(w) = w": true,
+    "dz = 0": true
+   }
+  },
+  "level 6": {
+   "cells": 1259,
+   "checks": {
+    "Phi_* sigma - sigma is a cycle": true,
+    "d sigma = -[ell]": true,
+    "dC = z": true,
+    "dK(w) = w": true,
+    "dz = 0": true
+   }
+  },
+  "pass": true
+ },
+ "K3_K4": {
+  "pass": true,
+  "route L": [
+   {
+    "banked": true,
+    "member": "M4 (0, 5) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (5, 0) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (0, 10) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (10, 0) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (5, 5) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (5, 10) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (10, 10) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (10, 5) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (0, 5) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (5, 0) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (0, 10) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (10, 0) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (5, 5) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (5, 10) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (10, 10) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (10, 5) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (1, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (5, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (3, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (4, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (9, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (2, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (10, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (6, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (8, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (7, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (1, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (5, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (3, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (4, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (9, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (2, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (10, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (6, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (8, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (7, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (1, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (5, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (3, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (4, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (9, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (2, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (10, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (6, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (8, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (7, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (1, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (5, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (3, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (4, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (9, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (2, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (10, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (6, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (8, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (7, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (1, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (9, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (4, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (3, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (5, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (2, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (7, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (8, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (6, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (10, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (1, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (9, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (4, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (3, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (5, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (2, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (7, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (8, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (6, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (10, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (1, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (9, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (4, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (3, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (5, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (2, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (7, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (8, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (6, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (10, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (1, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (9, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (4, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (3, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (5, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (2, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (7, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (8, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (6, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (10, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (5, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (15, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (25, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (35, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (15, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (5, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (35, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (25, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (5, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (15, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (25, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (35, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (15, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (5, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (35, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (25, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (5, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (5, 10) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (10, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (25, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (25, 10) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (10, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (15, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (15, 30) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (30, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (35, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (35, 30) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (30, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (5, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (5, 10) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (10, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (25, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (25, 10) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (10, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (15, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (15, 30) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (30, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (35, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (35, 30) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (30, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (5, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (15, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (25, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (35, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (5, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (35, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (25, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (15, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (5, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (15, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (25, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (35, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (5, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (35, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (25, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (15, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (5, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (25, 30) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (30, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (25, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (5, 30) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (30, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (10, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (15, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (35, 10) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (10, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (35, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (15, 10) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (5, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (25, 30) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (30, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (25, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (5, 30) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (30, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (10, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (15, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (35, 10) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (10, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (35, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (15, 10) p=8340817",
+    "x u c != 0": true
+   }
+  ],
+  "route L: banked identity at every member": true,
+  "route L: members read": 192,
+  "route L: positive control at every member": true,
+  "route T": [
+   {
+    "banked": true,
+    "member": "M4 (0, 5) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (5, 0) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (0, 10) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (10, 0) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (5, 5) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (5, 10) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (10, 10) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 (10, 5) exact",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (0, 5) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (5, 0) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (0, 10) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [0, 5] (10, 0) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (5, 5) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (5, 10) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (10, 10) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M4 orbit [5, 5] (10, 5) p=8356891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (1, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (5, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (3, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (4, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (9, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (2, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (10, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (6, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (8, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = 1 (7, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (1, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (5, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (3, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (4, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (9, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (2, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (10, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (6, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (8, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = i (7, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (1, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (5, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (3, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (4, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (9, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (2, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (10, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (6, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (8, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -1 (7, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (1, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (5, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (3, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (4, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (9, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (2, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (10, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (6, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (8, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [12, 19] lam = -i (7, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (1, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (9, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (4, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (3, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (5, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (2, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (7, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (8, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (6, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = 1 (10, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (1, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (9, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (4, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (3, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (5, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (2, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (7, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (8, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (6, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = i (10, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (1, 9) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (9, 4) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (4, 3) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (3, 5) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (5, 1) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (2, 7) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (7, 8) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (8, 6) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (6, 10) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -1 (10, 2) p=8348891",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (1, 9) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (9, 4) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (4, 3) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (3, 5) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (5, 1) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (2, 7) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (7, 8) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (8, 6) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (6, 10) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M5 [15, 18] lam = -i (10, 2) p=8348869",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (5, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (15, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (25, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (35, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (15, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (5, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (0, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (35, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = 1 (25, 0) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (5, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (15, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (25, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (35, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (15, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (5, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (0, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (35, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [1, 3] lam = -1 (25, 0) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (5, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (5, 10) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (10, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (25, 25) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (25, 10) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (10, 5) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (15, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (15, 30) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (30, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (35, 35) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (35, 30) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = 1 (30, 15) p=8341001",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (5, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (5, 10) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (10, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (25, 25) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (25, 10) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (10, 5) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (15, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (15, 30) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (30, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (35, 35) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (35, 30) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [31, 53] lam = -1 (30, 15) p=8340977",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (5, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (15, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (25, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (35, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (5, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (35, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (25, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (15, 20) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = 1 (20, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (5, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (15, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (25, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (35, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (5, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (35, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (25, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (15, 20) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [32, 34] lam = -1 (20, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (5, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (25, 30) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (30, 25) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (25, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (5, 30) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (30, 5) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (10, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (15, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (35, 10) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (10, 35) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (35, 15) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = 1 (15, 10) p=8340961",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (5, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (25, 30) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (30, 25) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (25, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (5, 30) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (30, 5) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (10, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (15, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (35, 10) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (10, 35) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (35, 15) p=8340817",
+    "x u c != 0": true
+   },
+   {
+    "banked": true,
+    "member": "M6 [33, 47] lam = -1 (15, 10) p=8340817",
+    "x u c != 0": true
+   }
+  ],
+  "route T: banked identity at every member": true,
+  "route T: members read": 192,
+  "route T: positive control at every member": true
+ },
+ "K5": {
+  "+-i point (banked non-zero), route L": true,
+  "+-i point (banked non-zero), route T": true,
+  "+-i point: B symmetric, route T": true,
+  "pass": true,
+  "triplet (banked zero), route L": [
+   true,
+   true,
+   true
+  ],
+  "triplet (banked zero), route T": [
+   true,
+   true,
+   true
+  ]
+ },
+ "K6": {
+  "pass": true,
+  "rows": [
+   {
+    "dim End": 1,
+    "dim Hom(L2 rho, rho)": 0,
+    "dim Hom(rho rho, rho)": 0,
+    "p": 4198111,
+    "q": 1200529
+   },
+   {
+    "dim End": 1,
+    "dim Hom(L2 rho, rho)": 0,
+    "dim Hom(rho rho, rho)": 0,
+    "p": 7674533,
+    "q": 2485185
+   },
+   {
+    "dim End": 1,
+    "dim Hom(L2 rho, rho)": 0,
+    "dim Hom(rho rho, rho)": 0,
+    "p": 8212801,
+    "q": 4461505
+   }
+  ]
+ },
+ "all pass": true,
+ "seconds": 126.5
+}

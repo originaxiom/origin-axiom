@@ -1,5 +1,28 @@
 # Changelog
 
+## B1514 sealed: the decoupling law, tested on the tower's opposite-sign 10̄′, before any Higgs class or coupling there is computed
+
+- **The question** (B1513 leads 1 and 2, at the owner's "continue"). B1513 found that the projective triplet's chiral 10′ does not
+  couple to its own Higgs class. Is that a law of the harmonic frame? The tower's other chiral mechanism is B1511's case (b): one 10̄′
+  per member, in orbits of four on M₄, five on M₅ and six on M₆. No Higgs class or coupling has been computed there.
+- **Proved at the seal.**
+  - At a firing member the 10̄′ lives in the sub-bundle V (Lemma 2).
+  - So every 10̄′·10̄′·5̄′_H coupling factors through H² of the twisted Higgs bulk Λ²V = ν² ⊗ Λ²ρ_q (Lemma 3, the sub-wedge lemma).
+  - The Higgs filtration (Lemma 4), if the bulk is acyclic: no Higgs class on M₄; on M₆, one, the lift of the background's own class;
+    on M₅, one per class of V, from the member's image under the deck and ι.
+- **Sealed:** P1–P7, with priors. The population is 18 (level, class, λ) groups, 184 members per prime-root; M₄ is read exactly.
+- **The first arc under NO NEGATIVE FROM A BUG.** Two routes are named before the run, sharing no code:
+  - route T, B1513's relative triple product;
+  - route L, the lifting criterion on B1513's independent audit.
+  They must agree group by group.
+- **Controls** K1–K6 passed on banked data only: the banked h¹ values and x ∪ c ≠ 0 at every member, both routes; B1513's banked
+  zero and non-zero through the generalised code.
+- **Disclosures:**
+  - a draft printed h¹(W₁*) at four members; it follows from banked data anyway;
+  - a design slip was caught before the seal: n(W₁*) = 0 does not hold at M₅'s double point.
+- **Read for overlap:** main's S33 (B1445, B1446) and the audit lane's R76: none. Seal 12aa1edd…; SEAL_LEDGER, RELAY_LEDGER,
+  OPEN_LEADS and alias table updated.
+
 ## B1513 audited independently: the zero is not a bug; the owner's rule NO NEGATIVE FROM A BUG adopted
 
 - **The owner, after the banking:** "aleays verify, make sure we dont hit negatives because of bugs". Adopted as a binding rule

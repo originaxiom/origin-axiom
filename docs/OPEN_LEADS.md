@@ -3239,6 +3239,11 @@ Model's qualitative content. Each maps to a lead already open:
   5. one admitted configuration for the triplet, its source/end balance and the parent's interactions (the audit lane's R75
      suggestion; B1511 lead 5).
 
+**Leads 1 and 2 of B1513 taken (sealed), 2026-10-02, B1514 — the decoupling law.** Tested first on B1511's case (b), the
+opposite-sign 10̄′ on M₄, M₅ and M₆, as lead 1 asked. Proved at the seal: every 10̄′·10̄′·5̄′_H coupling of a case-(b) member
+factors through H² of the twisted Higgs bulk Λ²V (the sub-wedge lemma). The census reads the bulk, the Higgs content, the couplings
+and the joining forms by two independent routes (seal 12aa1edd…).
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

@@ -16574,3 +16574,27 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Fast lane on 34aee33a** (the audit's pushed tree, 51 minutes): 6 464 passed, 52 skipped, 10 failed. The ten are the bank's ten: the
   nine baseline failures and the environmental `test_b1035_receipts` (B775's audit branch is gone from the remote). The three extra
   passes are the audit's new fast tests.
+
+## 2026-10-02 — B1514 sealed: the decoupling law (B1513 leads 1 and 2), not run
+
+- **Sealed** (`frontier/B1514_the_decoupling_law/PREREGISTRATION.md`, sha256 12aa1edd7819cf9d7848d2b34e55420d631e11825c890cbf626848651e08c014),
+  before any cohomology of Λ²V, Λ²W₁, Λ²W₁* or V ⊗ L, and any coupling or joining form, at a case-(b) member.
+- **The population:**
+  - B1511's two M₄ orbits, exactly and mod p;
+  - B1512's four M₅ orbits at λ = 1, ±i, −1, and eight M₆ orbits at λ = ±1, mod p;
+  - 18 groups, 184 members per prime-root; M₅'s double point for c = c₁, c₂, c₁ + c₂.
+- **Proved at seal:**
+  - the cusp (Lemma 1);
+  - the 10̄′ lives in the sub (Lemma 2);
+  - the sub-wedge lemma (Lemma 3);
+  - the Higgs filtration (Lemma 4);
+  - the deck and ι (Lemma 5);
+  - the sector count (Lemma 6).
+- **Sealed:** P1–P7.
+- **Two independent routes,** run after the seal and before the bank: route T (`census.py`) and route L (`independent_route.py`).
+- **Controls** (`controls.py` → `controls_run.txt`, 126 s): K1–K6 pass. Both routes' Part 0 (the banked identity) passes on all 18
+  groups.
+- **Before the seal:**
+  - main moved d3b50c0f → 357b7c98 (S33) and the audit lane 60aeb7ea → b2925dac (R76). Both were read for overlap, and there is none
+    (RELAY_LEDGER).
+  - The absence sweeps after `git fetch --all` are cited in the preregistration's §5.1.
