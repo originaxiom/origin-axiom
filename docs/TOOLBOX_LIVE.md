@@ -59,6 +59,17 @@ escalation are the proof).
   first; do not rewrite its checks by hand.** The debt checkers have clock seams (`OA_LEAD_TODAY`,
   `OA_RELAY_TODAY`, `OA_HARVEST_TODAY`): run them on the next week's dates before a long suite.
 
+- **The 3D index of a Dehn filling (2026-10-02, B1450)** — `frontier/B1450_the_filled_index_on_the_grid/verification/filled_index.py`:
+  `filled(p, q, X)` applies the Gang–Yonekura formula to m004 on B1428's boundary classes, exact integers in
+  q^{1/2}, returning `None` where the sum is not absolutely convergent; reproduces the sixteen published
+  figure-eight entries. **The formula is proved only when the filled manifold keeps a cusp; on a closed filling its
+  value is a definition, not an invariant.** `one_efficiency.py` checks the strict angle structure that makes a
+  census triangulation 1-efficient by a cited theorem.
+- **Re-running a script under several hash seeds (2026-10-02, B1452)** — `frontier/B1452_the_hash_order_residue_run/verification/pass1_all_scripts.py`
+  and its three follow-ups run tracked scripts under `PYTHONHASHSEED` 0–3 in a scratch checkout and compare output
+  and written files with timings removed. Run scripts from the repository root as well as from their own directory
+  before calling one broken, and keep the files they write (a reset between scripts deletes another's input).
+
 - **The slope instruments (2026-10-01, B1432–B1440)** — read these before any probe of the Standard-Model frame on
   a punctured-torus bundle; **never run a module-by-module index census there again**:
   - `frontier/B1438_the_slope_law/verification/slope_census.py` — `slope_census(eps, word, k)`: the index of every
@@ -80,6 +91,13 @@ escalation are the proof).
     `frontier/B1446_…/verification/parabolic.py::point(ell, 'end' | 'cusp+' | 'cusp-')` reaches the boundary-parabolic
     points by continuation in the complex plane; `index_num.py::index` is the class index of a numerically given
     module by singular values (report the gap). **Do not run these during a certifying suite: it doubles its time.**
+  - `frontier/B1451_the_complete_points_on_other_levels/verification/complete_points.py` — on any level: `Points(L).cusp(ell)`
+    follows a periodic curve to its κ = −2 point (four paths tried, parabolic or elliptic reported), `.sector` the
+    torsion of a doublet there, `run(name, k)` the frame's sector table and couplings. **A point accepted on a
+    residual can sit 10⁻¹⁵ off a double root:** before reading a rank at such a point, polish it with
+    `refine_degenerate.py::polish` (110 digits, the Newton step doubled along the degenerate direction) and assert
+    the gap between the smallest singular value kept and the largest dropped. `exact_values.py` identifies a point
+    and its torsions at 300 digits by `algdep`, accepting only polynomials short against the precision.
   - `frontier/B1447_the_branch_off_one_members_higgs_curve/verification/branch_obstruction.py` — a representation of a
     level given by matrices on x, y, t: `G` (the relators), `dG`, classes supported in a block, and the second-order
     test (is G(εu)/ε² in the image of dG); `branch_follow.py::newton` and `burnside` construct nearby exact

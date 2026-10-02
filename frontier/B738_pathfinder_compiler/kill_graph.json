@@ -11065,5 +11065,27 @@
   "note": "Read as a specification: the difference between generations is not a count of two or three inside one background. With B1438 (copies along a deck orbit do not mix) and B1440 (rank five counts at most two on one cusp) it says where the distinction is NOT; on the root's three-fold cover each member of an orbit couples to its own Higgs class, so the distinction would sit in the pattern of values those classes carry -- an invariant of the orbit, not excluded by anything proved and not yet computed (B1443).",
   "faces_consulted": "B1441 (the carriers and their modules), B1438 (the duality V(l, alpha)* = V(l, 1/beta)), B1333 (the several-cusp index), B1432 (the frame); a sweep of main and every lane for a several-cusp class index (none found, 2026-10-01)",
   "fact_computed": true
+ },
+ {
+  "id": "B1450",
+  "claim_killed": "That the 3D index of a Dehn filling separates the six arithmetic fillings of m004 from the other seventy-two of B1419's grid (lead L225, question 1). The Gang-Yonekura formula, run to q^10 on the 87 slopes, gives (8,1), arithmetic, and (7,1), not arithmetic, the same leading term 1 - q^2, and none of six stated features takes disjoint values on the two sets.",
+  "kill_form": "Sealed run (2f75736d) of the published formula on B1428's boundary classes, after reproducing all sixteen figure-eight entries the source publishes; a fixed reader with six features; the arithmetic set from B1419's census.",
+  "hatch": "a feature of the series beyond the six read (modular or asymptotic behaviour, the full series rather than ten coefficients); a definition of the closed index that is an invariant, which the source says does not yet exist; slopes beyond |p|, q <= 8",
+  "priority": "low",
+  "routed_from": "main, at banking (2026-10-02), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: on closed fillings the formula is a definition, not a proved invariant (the theorem needs a remaining cusp), so the negative is about ten coefficients of a formula's values. The three arithmetic pairs are three of the four integer slopes of the grid with |p| >= 5, which is a fact about B1419's census and not about the index.",
+  "faces_consulted": "B1428 (the boundary-class instrument), B1431 (the collection of classes), B1419 (the arithmetic census); Celoria-Hodgson-Rubinstein arXiv:2509.09886 and Garoufalidis-Hodgson-Rubinstein-Segerman arXiv:1303.5278, read from the PDFs",
+  "fact_computed": true
+ },
+ {
+  "id": "B1452",
+  "claim_killed": "That one of the 24 unsorted order-sensitive sites in 16 banked verification scripts (lead L226, error class E83) feeds a banked number. Under four hash seeds fourteen scripts print the same thing, one prints a dictionary with three equal-valued keys in a seed-dependent order, and one does not run on this bench for an unrelated reason, its two sites being mappings.",
+  "kill_form": "Execution: each script under PYTHONHASHSEED 0-3 in a scratch checkout, output and written files compared with timings removed, three of the written files byte-identical to their tracked copies; two sites settled by reading.",
+  "hatch": "seeds beyond four; ways a set's order can leak that the sweep's patterns do not match; B675's certification, which does not run here at all (lead L238)",
+  "priority": "low",
+  "routed_from": "main, at banking (2026-10-02), for tests/test_b833_negative_routing.py",
+  "note": "With B1425's five locks on five seeds, all 34 sites of the sweep are settled. The one live residue is not a hash-order effect: a banked certification script that the current polynomial library stops.",
+  "faces_consulted": "B1425 (the sweep and its JSON), the sixteen scripts' own arcs, B675's banked receipt",
+  "fact_computed": true
  }
 ]

@@ -117,3 +117,5 @@ genuinely wild S₄ arithmetic — at depth 3. The golden monopoly (depth-2) →
 tameness → refuted; the newborn wild field is S₄-shaped like the object's geometric children. Per the
 standing law this makes the value-question LIVE ONLY through the B398 airlock (owner present); no
 value-matching performed here. Firewalled.
+
+**Receipt note (2026-10-02, B1449).** `wild_hunt_results.txt` ends in an `ArithmeticError: factorization of 0 is not defined`. That is the third word (MFD), whose resultant vanishes identically — the named gap above — and not a failure of the two verdicts the receipt carries.

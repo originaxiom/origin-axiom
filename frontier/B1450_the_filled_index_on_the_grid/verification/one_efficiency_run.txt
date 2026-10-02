@@ -1,0 +1,13 @@
+m003  tetrahedra 2  least Im(shape) 0.866025  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m004  tetrahedra 2  least Im(shape) 0.866025  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m006  tetrahedra 3  least Im(shape) 0.401127  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m007  tetrahedra 3  least Im(shape) 0.665457  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m009  tetrahedra 3  least Im(shape) 0.330719  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m015  tetrahedra 3  least Im(shape) 0.562280  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m016  tetrahedra 3  least Im(shape) 0.744862  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m017  tetrahedra 3  least Im(shape) 0.562280  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m019  tetrahedra 3  least Im(shape) 0.632624  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m022  tetrahedra 4  least Im(shape) 0.393228  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m023  tetrahedra 4  least Im(shape) 0.393228  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+m026  tetrahedra 4  least Im(shape) 0.447066  all tetrahedra positively oriented  interval certificate: not run (SageNotAvailable)
+strict angle structure, hence 1-efficient by the theorem: 12 of 12

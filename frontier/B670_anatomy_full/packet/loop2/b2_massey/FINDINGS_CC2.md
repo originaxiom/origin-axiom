@@ -22,3 +22,5 @@ the genuinely quantum (stage-side) cochain theory. The room is deeper than
 one door.
 Artifacts: b2_massey.py (patched line 321, disclosed), b2_results.json,
 b2_run.log + b2_run2.log. Repo untouched.
+
+**Receipt note (2026-10-02, B1449).** `b2_run_log.txt` is a first run that crashed at step 3 (a type error); `b2_run2_log.txt` is the completed run.

@@ -2548,7 +2548,7 @@ file that is simply **absent** is invisible to it.
 depend on an untracked artifact) or vendor the artifact, as E57's instances #2–#6 were fixed. **Do
 not** make the tests skip when the file is missing — that converts a lock into a no-op.
 
-## L225 — THE 3D INDEX UNDER DEHN FILLING, ON THE GRID WE ALREADY HAVE (registered 2026-09-18, B1428)
+## L225 — **CLOSED** (2026-10-02, B1450: question 1 NEGATIVE, question 2 at B1431, question 3 by a cited theorem whose hypothesis is checked) — THE 3D INDEX UNDER DEHN FILLING, ON THE GRID WE ALREADY HAVE (registered 2026-09-18, B1428)
 
 B1428 computed the object's 3D index and matched the published series exactly, so the instrument is here and
 verified. Three pieces of the surrounding literature turn out to be **absent from this record entirely** —
@@ -2576,7 +2576,17 @@ the object's carrier **admits no supercharge** — none π₁-equivariant, none 
 involution squares to the meridian. So the 3d-3d dictionary is not a bridge to this construction's physics; it is a
 source of **invariants on the same manifolds**. Treat it as the second, not the first.
 
-## L227 — THE SILENT RECEIPTS: 15 tracked run logs record a failure their arc never mentions [renumbered 2026-10-01, B1432 landing: registered as a second L223, colliding with the level-mismatch lead of 2026-09-16; an E71 instance, caught by the lead-debt gate's collision check; B1425's FINDINGS and the logs of 2026-09-18 cite it as L223] (registered 2026-09-18, B1425)
+**Closed 2026-10-02 (B1450).** Three things, the first a correction to this lead. (i) **"A proven transformation law
+for the 3D index under exactly that operation" is not what the source proves.** Read from the PDF: the theorem of
+Celoria–Hodgson–Rubinstein needs at least two cusps, the filled manifold still cusped; for fillings of m004, all of
+them closed, the paper calls the formula's use improper and conjectural. This lead was written from the abstract
+(ERROR_LEDGER E58). (ii) Question 1, run as a definition under seal: the formula reproduces all sixteen published
+figure-eight entries, is defined on all 78 hyperbolic slopes of the grid, and **does not separate the six
+arithmetic fillings** — (8,1), arithmetic, and (7,1), not, both begin 1 − q². (iii) Question 3 without Regina: the
+twelve census triangulations behind B1428 and B1431 have every tetrahedron positively oriented, hence a strict
+angle structure, hence are 1-efficient by Garoufalidis–Hodgson–Rubinstein–Segerman's Theorem 1.5.
+
+## L227 — **CLOSED** (2026-10-02, B1449: the fourteen read; one contradicted a banked number and is corrected at B530) — THE SILENT RECEIPTS: 15 tracked run logs record a failure their arc never mentions [renumbered 2026-10-01, B1432 landing: registered as a second L223, colliding with the level-mismatch lead of 2026-09-16; an E71 instance, caught by the lead-debt gate's collision check; B1425's FINDINGS and the logs of 2026-09-18 cite it as L223] (registered 2026-09-18, B1425)
 
 B1411 shipped `main_b1355_geometry_run.txt` as its verification receipt. The file's last three lines are a
 `Traceback` and an `AssertionError`, and the arc's own claim line says its locks "re-run green on main's bench".
@@ -2598,7 +2608,14 @@ Five sit in one cell family (`B771_phase1_wave1/cells/`) and are likely one caus
 records a failure the arc does not acknowledge either means the claim is wrong or the receipt is stale, and from
 outside you cannot tell which. Both are bad in a record whose whole argument is re-runnability.
 
-## L226 — THE E83 RESIDUE: 24 order-sensitive sites in banked verification scripts, outside the locks [renumbered 2026-10-01, B1432 landing: registered as a second L222, colliding with THE FAMILY AS THE OBJECT of 2026-09-16; an E71 instance; B1425's FINDINGS and the logs of 2026-09-18 cite it as L222] (registered 2026-09-18, B1425)
+**Closed 2026-10-02 (B1449).** The fourteen were opened one by one: three are not failures (the line
+`FAILED GATES: []`, and prose about a control), five are acknowledged by their arcs in other words, four are first
+attempts left beside their successes and now carry a note, one was a stale receipt for a true claim (B469's
+decisive test, re-run with its one-line fix and reproduced), and **one was load-bearing**: B771's W2-270 receipt
+contradicts B530's gap-slope ratio 1.204, which is withdrawn in B530's addendum (the re-run gives 1.148 or 1.256
+by fit protocol).
+
+## L226 — **CLOSED** (2026-10-02, B1452: sixteen scripts under four seeds, no banked number depends on the order) — THE E83 RESIDUE: 24 order-sensitive sites in banked verification scripts, outside the locks [renumbered 2026-10-01, B1432 landing: registered as a second L222, colliding with THE FAMILY AS THE OBJECT of 2026-09-16; an E71 instance; B1425's FINDINGS and the logs of 2026-09-18 cite it as L222] (registered 2026-09-18, B1425)
 
 B1425 minted **E83**: a verification script that hands a *set* where order matters returns a differently
 normalised answer per `PYTHONHASHSEED`, so an equality test against one normalisation passes on some runs and
@@ -2617,6 +2634,14 @@ cost of finding out is one re-run per script under two seeds with the outputs di
 Until that is run, **no banked value whose only evidence is one of these scripts should be treated as
 re-derived**, and the sweep's JSON (`frontier/B1425_the_flaky_lock_and_the_hollow_green/verification/`) is the
 work list.
+
+**Closed 2026-10-02 (B1452).** Each of the 16 scripts was re-run under four hash seeds in a scratch checkout, its
+output and written files compared with timings removed. Fourteen print the same thing on four seeds (three of them
+rewriting their tracked JSON); B904 prints one dictionary with three equal-valued keys in a seed-dependent order;
+B675 does not run on this bench at all, for a reason unrelated to hash order (lead L238), and its two sites, which
+build mappings, are settled by reading. **No banked number depends on the order.** The sentence above — "no banked
+value whose only evidence is one of these scripts should be treated as re-derived" — is lifted for the fifteen
+that ran, and stands for B675 until L238 is paid.
 
 
 ## L211 — THE STRATUM LAW: does the 2-generator/3-generator split survive more than three census slices? (registered 2026-09-13, B1400) — **POPULATION NAMED 2026-09-17 (B1424): the decline is on the FULL orientable cusped census; on the one-cusped census the same blocks give 33.00 / 33.88 / 31.38, i.e. flat. Recomputed two ways; the paper is corrected.**
@@ -3121,6 +3146,9 @@ Open, in order of what would move the frame most:
   character); they have curves — the lines of the decomposition — and the law holds on them (B1444 §10).
 - **(e) The complete-cusp point on s961**, coordinates in ℚ(√−3, √5): its volume and Chern–Simons invariant, and
   the same point on other levels.
+  **Run 2026-10-02 (B1451):** the same point on sixteen levels (L237 (e)); coordinates identified where short
+  (the root's quartic again on the sister's three-fold cover; x⁴ ∓ 2x² + 2 on ∓LRLRR-type level-one states;
+  sextics on +LLLLLR 2; degree 16 on +LLR 3). Volume and Chern–Simons invariant still not computed anywhere.
 - **(f) What selects a point of the curve**, if anything does.
 - **(g) ANSWERED in the arc:** the SL(2)_β direction is not the electroweak one. SL(2)_β is the simple factor of the
   centraliser of the Standard Model's gauge algebra in E₆ (`e6_centraliser.py`), so the curve preserves the whole
@@ -3152,7 +3180,22 @@ six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owne
   the unit circle there), 1.8367 for the unmatched ones, and e = −1 at the quaternion point. Evaluated, not read.
 - **(e) The other levels:** the parabolic points on the four-fold and five-fold covers and on the states with every
   coupling, where the slopes are not integers.
+  **Run 2026-10-02 (B1451), sealed:** sixteen levels. 209 of 212 characters reach a parabolic κ = −2 point; the
+  class index is zero at all 188 doubly parabolic points (40 of them after a repair at 110 digits — the sealed
+  instrument had left a double root 10⁻¹⁵ off and its ranks unresolved); the ten and the five-bar of a background
+  carry different torsions there on 11 of 16 levels; a coupling with the Higgs character at its point is the
+  product of two doublet torsions on the Higgs character's curve, a square for the up type; the single numbers of
+  the root's three-fold cover (2√2; 8 against 16) do not recur. Still open under (e): five-fold covers; the
+  recurring 16 of the down type; the fields of the torsions not identified; the values on the branches of (a).
 - **(f) The three sector classes not in ℚ(√5, √−3)** at the complete cusp: their field.
+
+## L238 — B675'S CERTIFICATION DOES NOT RUN ON THIS BENCH (registered 2026-10-02, B1452)
+
+`frontier/B675_hcusp_sweep/bronze_certification.py` stops with `TypeError: nmods cannot be ordered` inside the
+polynomial library's factor sort, on every hash seed, with python-flint 0.9.0. It printed its quartic and octic
+checks before stopping. The arc's banked receipt is from an earlier environment. Not a hash-order effect (B1452
+settled its two order-sensitive sites by reading: both build a mapping). **Owed:** find which step needs the
+ordering, make the script run on the current libraries or pin the versions it needs, and re-run the certification.
 
 ## ⟳ VIEW REFRESH — 2026-10-02 (Review 58)
 

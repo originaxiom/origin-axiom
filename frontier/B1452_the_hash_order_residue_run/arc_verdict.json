@@ -1,0 +1,14 @@
+{
+ "id": "B1452",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1425"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE HASH-ORDER RESIDUE, RUN. Lead L226: the sweep of B1425 left 24 unsorted order-sensitive sites in 16 banked verification scripts that no lock re-runs, and asked whether any feeds a banked number. Each script was re-run under four hash seeds in a scratch checkout and its output and written files compared with timings removed. Fourteen scripts print the same thing on four seeds, three of them rewriting their tracked JSON byte for byte or up to an embedded timed log; one (B904) prints and writes one dictionary with three equal-valued keys in a seed-dependent order, equal as a dictionary; one (B675) does not run on this bench at all, stopping in the polynomial library's factor sort for a reason unrelated to hash order, and its two sites, which build mappings, are settled by reading. No banked number depends on the order. B675's failure to run is registered as lead L238 and is not claimed re-run here."
+}

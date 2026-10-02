@@ -1,0 +1,17 @@
+{
+ "id": "B1449",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1425",
+  "B469",
+  "B530",
+  "B771"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE SILENT RECEIPTS, READ. Lead L227: fourteen tracked run logs carry a failure marker that neither their name nor their arc's FINDINGS mentions. Each was opened. Three are not failures (the line 'FAILED GATES: []', and prose about a negative control); five are acknowledged in other words (B639's two are the arc's NEGATIVE result; B1302 says the seat's script asserts; B771's OI-150 was recorded report-lost and re-run; B498's crash is its named gap); four are first attempts left beside their successes (B477, B485, B670, B764), now noted. One was a stale receipt for a true claim: B469's decisive test has as its only receipt a TypeError and its tracked script still raises it; with one line fixed it gives what the arc states, kappa(a, c) = -2 and tr(ac) on the octic to 2.1e-12. And one is load-bearing: B771's cell W2-270 fails to reproduce the gap-slope ratio 1.204 that B530's Movement XXXIII banks as confirmed and converged (it gets 1.2575 at depth 9), the wave later closed the question as fit-protocol dependent (1.148 or 1.256, W4-270r), and B530 was never corrected -- corrected now by addendum, its negative (not sqrt(1/phi^2 + 1)) standing. Error class E53."
+}

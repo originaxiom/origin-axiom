@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1277** |
-| words of findings prose | **972,047** |
-| test lock files referenced | **755** |
-| arcs carrying an authored verdict | **1277** (100.0 %) |
-| recorded closures | **799** (632 classified, 167 routed-only) |
+| research arcs with findings | **1281** |
+| words of findings prose | **976,511** |
+| test lock files referenced | **756** |
+| arcs carrying an authored verdict | **1281** (100.0 %) |
+| recorded closures | **801** (634 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 852 |
-| NEGATIVE | 323 |
+| PROVED | 854 |
+| NEGATIVE | 325 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 69 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 71 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1448`** (730 words, 1 locks)  
-THE REVIEW'S INSTRUMENTS. Owner-directed after a decadal review run by hand at three times its period found its own process to be the defect: it does not fire, its instruments are improvised at every review (three of this review's first-draft checks were wrong, one of them reporting mirror pushes as done that had failed), carried items do not age, it cannot see a gate that cannot fail, and its sample is the reviewer's choice. scripts/review/review_tools.py provides the mechanical half as pure functions, each failing on planted input: the action loop with the age of every carried item, the branch inventory matched on the leaf over the two mirrors only, the seal check (hashes, sealed before results, on every mirror, and a hash file no parser reads is a defect), the provenance sweep on added lines, the error ledger's new classes against recurrences, the window's new vocabulary against the glossary, the gates no test names, the open relays by direction, and a seeded draw of the arcs to be read in full. It does not make the review fire or carried items age; that is a governance proposal put to the owner.  
-`B1448_the_reviews_instruments/FINDINGS.md`
+**PROVED — `B1451`** (2028 words, 0 locks)  
+THE COMPLETE POINTS ON OTHER LEVELS. On B1445's sixteen frame levels the periodic curve of a character is followed to its kappa = -2 point: 209 of 212 characters reach a parabolic one, three on the root's four-fold cover an elliptic one. Sealed, then run. The class index is zero at all 188 doubly parabolic points computed (476 with the root's three-fold cover); at 40 of them the sealed instrument had left the point 1e-15 to 1e-20 off a double root and its ranks unresolved, found by the arc's own lock and recomputed at 110 digits with every rank gapped. With the extension at its reducible end the bidoublet of a coupling splits into two doublets on the Higgs character's curve and its torsion is the product of theirs (checked against the rank-four module on every level, 4e-13); for an up-type coupling it is a square. What B1446 found as single numbers on the root's three-fold cover splits: the ten and the five-bar of a background carry different torsions at its complete point on 11 of 16 levels, and coupling values within one level range over a factor of 300. One sealed prediction failed: six couplings have torsion zero, on curves of filling type where it vanishes along the whole curve (B1444), not at the complete point. Exact values where identified: 2 +- 2 sqrt 5 on the sister's three-fold cover, a quartic number on -LRLRR 1, degree twelve on +LLLLLR 2. A torsion is not a mass, the members of a deck orbit are not told apart at these points, and nothing selects the complete point; no value of the Standard Model.  
+`B1451_the_complete_points_on_other_levels/FINDINGS.md`
 
-**NEGATIVE — `B1442`** (728 words, 1 locks)  
-THE TWO-GENERATION BACKGROUNDS: NONE. Sealed at 7f080e49 before any background was assembled on a manifold with more than one cusp. On the seventeen several-cusped manifolds where one rank-two module of the frame has class index two (B1441), every background of B1432's frame was assembled -- every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W) -- with the six sector indices by B1333's several-cusp code. No background has its five charged sectors at index two, and on sixteen of the seventeen no generation-shaped background exists at all; the seventeenth (m009 deg 6 #25, two cusps, characters of order 8) has 32, all of count one. For the nine carriers with sign characters only the absence is forced: with a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite. Predictions: G5 YES; G1, G2, G3, G4 NO. The count per background stays at one on every manifold the record has computed, with one cusp or several: an index of two is a fact about a single sector that the frame's charge relations do not let five sectors share. Not excluded: covers above degree six, special classes not tried, three live cusps, another frame.  
-`B1442_the_two_generation_backgrounds/FINDINGS.md`
+**NEGATIVE — `B1452`** (528 words, 0 locks)  
+THE HASH-ORDER RESIDUE, RUN. Lead L226: the sweep of B1425 left 24 unsorted order-sensitive sites in 16 banked verification scripts that no lock re-runs, and asked whether any feeds a banked number. Each script was re-run under four hash seeds in a scratch checkout and its output and written files compared with timings removed. Fourteen scripts print the same thing on four seeds, three of them rewriting their tracked JSON byte for byte or up to an embedded timed log; one (B904) prints and writes one dictionary with three equal-valued keys in a seed-dependent order, equal as a dictionary; one (B675) does not run on this bench at all, stopping in the polynomial library's factor sort for a reason unrelated to hash order, and its two sites, which build mappings, are settled by reading. No banked number depends on the order. B675's failure to run is registered as lead L238 and is not claimed re-run here.  
+`B1452_the_hash_order_residue_run/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

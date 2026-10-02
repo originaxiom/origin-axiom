@@ -1,0 +1,98 @@
+{
+ "source": "frontier/B1425_the_flaky_lock_and_the_hollow_green/verification/receipt_failure_sweep.json",
+ "read": 14,
+ "counts": {
+  "ACKNOWLEDGED": 4,
+  "ACKNOWLEDGED IN SUBSTANCE": 1,
+  "FALSE POSITIVE": 3,
+  "INCIDENTAL": 4,
+  "LOAD-BEARING": 1,
+  "STALE RECEIPT, CLAIM REPRODUCED": 1
+ },
+ "receipts": [
+  {
+   "receipt": "frontier/B1302_the_sibling_m202/verification/sm_b1282_sibling_germ_rerun.txt",
+   "classification": "ACKNOWLEDGED",
+   "what": "the SM seat's script asserts on main's bench at its step (1); B1302's FINDINGS says so in its own text (\"asserts on this bench at its step (1)\") and re-derives the census with main's code. The sweep's detector did not recognise the wording.",
+   "action": null
+  },
+  {
+   "receipt": "frontier/B639_conjtheta_cubic/b639_output.txt",
+   "classification": "ACKNOWLEDGED",
+   "what": "the assertion that fails (\"G1 FAIL: no invertible +lambda intertwiner\") is the arc's NEGATIVE result; FINDINGS states it as finding 1.",
+   "action": null
+  },
+  {
+   "receipt": "frontier/B639_conjtheta_cubic/b639_stage2_output.txt",
+   "classification": "ACKNOWLEDGED",
+   "what": "the same: the gate that fails is the result, cited by FINDINGS as confirming it at the module level.",
+   "action": null
+  },
+  {
+   "receipt": "frontier/B498_mixed_monoid_dynamics/wild_hunt_results.txt",
+   "classification": "ACKNOWLEDGED IN SUBSTANCE",
+   "what": "the receipt ends in an ArithmeticError (\"factorization of 0\") on the third word; FINDINGS records that word as \"the resultant vanishes identically ... NAMED GAP, not a verdict\" without naming the crash. Receipt note added.",
+   "action": "note"
+  },
+  {
+   "receipt": "frontier/B771_phase1_wave1/cells/OI-150/output.txt",
+   "classification": "ACKNOWLEDGED",
+   "what": "ends \"SOME CHECKS FAILED\"; the wave's FINDINGS row reads REPORT-LOST, check-labels ambiguous, re-run in Wave 2 (W2-150r).",
+   "action": null
+  },
+  {
+   "receipt": "frontier/B469_breath_campaign/octic_log.txt",
+   "classification": "STALE RECEIPT, CLAIM REPRODUCED",
+   "what": "the only receipt of the arc's decisive test is a TypeError, and the tracked octic_test.py still raises it on this bench (a type conversion). With that one line fixed the test gives what FINDINGS states: kappa(a, c) = -2 and tr(ac), tr(aC) on the octic to 2.1e-12 and 1.4e-12. Fixed copy and fresh receipt in this arc; receipt note added.",
+   "action": "note"
+  },
+  {
+   "receipt": "frontier/B477_sterile_classes/context_log.txt",
+   "classification": "INCIDENTAL",
+   "what": "a FileNotFoundError: sterile_scan.py run from a directory where its relative input path does not resolve. The arc is OPEN and does not rest on this run. Receipt note added.",
+   "action": "note"
+  },
+  {
+   "receipt": "frontier/B485_metallic_apoly_family/conj_log.txt",
+   "classification": "INCIDENTAL",
+   "what": "the first elimination attempt (apoly_conj.py) crashed in sympy; conj2_log.txt and elim_log.txt beside it are the later attempts the arc reports. Receipt note added.",
+   "action": "note"
+  },
+  {
+   "receipt": "frontier/B670_anatomy_full/packet/loop2/b2_massey/b2_run_log.txt",
+   "classification": "INCIDENTAL",
+   "what": "the first run crashed at step 3 (a type error); b2_run2_log.txt beside it is the completed run (ALL GATES PASS, VERDICT MASSEY-ZERO). Receipt note added.",
+   "action": "note"
+  },
+  {
+   "receipt": "frontier/B764_c19_comparator/output.txt",
+   "classification": "INCIDENTAL",
+   "what": "the appended correction was attempted twice in the same file: the first attempt ends in a TypeError, the second (\"50-digit verification\") completes and is what FINDINGS cites. Receipt note added.",
+   "action": "note"
+  },
+  {
+   "receipt": "frontier/B771_phase1_wave1/cells/W3-084/output.txt",
+   "classification": "FALSE POSITIVE",
+   "what": "the marker is the line \"FAILED GATES: []\" -- an empty list.",
+   "action": null
+  },
+  {
+   "receipt": "frontier/B771_phase1_wave1/cells/W4-084r/output.txt",
+   "classification": "FALSE POSITIVE",
+   "what": "the same line, \"FAILED GATES: []\".",
+   "action": null
+  },
+  {
+   "receipt": "frontier/B771_phase1_wave1/cells/W3-149r/output.txt",
+   "classification": "FALSE POSITIVE",
+   "what": "the word is in prose describing a negative control that behaved as it should (\"every one of them FAILED the closure check\"); the file ends ALL CHECKS PASS.",
+   "action": null
+  },
+  {
+   "receipt": "frontier/B771_phase1_wave1/cells/W2-270/output.txt",
+   "classification": "LOAD-BEARING",
+   "what": "two gates FAIL: the cell does not reproduce the slope 0.183 and the ratio 1.204 that B530's Movement XXXIII banks as confirmed and converged (it gets 0.1916 and 1.2575 at depth 9). The wave closed the question two waves later (W4-270r: the ratio is fit-protocol dependent, 1.148 with the curvature removed and 1.256 on the straight line), and B530 was never corrected. B530 Addendum written.",
+   "action": "B530 addendum"
+  }
+ ]
+}

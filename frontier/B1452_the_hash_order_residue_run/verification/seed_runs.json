@@ -1,0 +1,371 @@
+{
+ "lead": "L226",
+ "source": "frontier/B1425_the_flaky_lock_and_the_hollow_green/verification/order_sensitivity_sweep.json",
+ "seeds": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "scripts": 16,
+ "sites": 24,
+ "counts": {
+  "COSMETIC": 1,
+  "DOES NOT RUN HERE; SETTLED BY READING": 1,
+  "IDENTICAL": 14
+ },
+ "sites_settled_by_execution": 22,
+ "numbers_changed": 0,
+ "runs": [
+  {
+   "script": "frontier/B1087_charge_grading/b1087_grading.py",
+   "sites": [
+    69,
+    94,
+    154,
+    179
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    38,
+    38,
+    38,
+    38
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "16d9133293d9ad8f"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B1098_nonabelian_hatch/b1098_sl2_strata.py",
+   "sites": [
+    61,
+    77
+   ],
+   "run_in": "pass 3",
+   "seeds": 4,
+   "output_lines": [
+    87,
+    87,
+    87,
+    87
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "274fb726715609ff"
+   ],
+   "classification": "IDENTICAL",
+   "note": "about 2.3 hours a seed; the first pass timed out at 78 minutes and was repeated with a longer limit",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B1100_landing_content/b1100_exact_table.py",
+   "sites": [
+    30,
+    58,
+    104
+   ],
+   "run_in": "pass 2",
+   "seeds": 4,
+   "output_lines": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "e062f6fef9f786bd"
+   ],
+   "classification": "IDENTICAL",
+   "note": "about 2.4 hours a seed; the file it writes has one hash on four seeds, cdc1e656fb4519e5..., which is the tracked b1100_exact_table.json byte for byte",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B1100_landing_content/b1100_hypercharge.py",
+   "sites": [
+    31
+   ],
+   "run_in": "pass 4",
+   "seeds": 4,
+   "output_lines": [
+    18,
+    18,
+    18,
+    18
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "d59d6ed0a2c1b448"
+   ],
+   "classification": "IDENTICAL",
+   "note": "reads b1100_exact5.json, the table script's untracked product; supplied as a copy of the byte-identical tracked file; the JSON it writes has one hash on four seeds and is the tracked b1100_hypercharge.json byte for byte",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B1102_exact_hypercharge_solve/b1102_adapted_basis.py",
+   "sites": [
+    292
+   ],
+   "run_in": "pass 4",
+   "seeds": 4,
+   "output_lines": [
+    29,
+    29,
+    29,
+    29
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "41d867879148b108"
+   ],
+   "classification": "IDENTICAL",
+   "note": "the JSON it writes embeds a timed log; apart from the times it is equal on four seeds and equal to the tracked b1102_intermediate.json",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B1112_projective_hatch/parity_sweep.py",
+   "sites": [
+    61,
+    77
+   ],
+   "run_in": "pass 2",
+   "seeds": 4,
+   "output_lines": [
+    66,
+    66,
+    66,
+    66
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "3410c4fd709ece12"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B1295_the_caveat_closed_by_computation/verification/census_fixed_points.py",
+   "sites": [
+    352
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    94,
+    94,
+    94,
+    94
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "35e2298f383ca0d3"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B155_golden_phase_bridge/golden_phase_bridge.py",
+   "sites": [
+    129
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    39,
+    39,
+    39,
+    39
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "8ec2dc79e75815a2"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B448_heartbeat_adjudication/orbit_fields.py",
+   "sites": [
+    95
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "75f4f11e97d91849"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B469_breath_campaign/br3_orbit_fields.py",
+   "sites": [
+    33
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "3a10bd6d640f4700"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B533_coupling_invariance/probe1_coupling_invariance.py",
+   "sites": [
+    316
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    328,
+    328,
+    328,
+    328
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "ef4708bb4b9dae31"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B675_hcusp_sweep/bronze_certification.py",
+   "sites": [
+    439,
+    524
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    46,
+    46,
+    46,
+    46
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "10c2c979ca981607"
+   ],
+   "classification": "DOES NOT RUN HERE; SETTLED BY READING",
+   "note": "stops on every seed with 'TypeError: nmods cannot be ordered' in the polynomial library's factor sort (python-flint 0.9.0), after printing its quartic and octic checks; its two sites, lines 439 and 524, each build a mapping {symbol: value} passed to an evaluator, which no order can change. Lead L238.",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B742_negatives_hunt_p1/recompute/TOMB-L339/recompute.py",
+   "sites": [
+    93
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    38,
+    38,
+    38,
+    38
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "e21a9816837b1b6d"
+   ],
+   "classification": "IDENTICAL",
+   "note": "",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B771_phase1_wave1/cells/W4-017r/compute.py",
+   "sites": [
+    664
+   ],
+   "run_in": "pass 1, repeated on a quiet machine",
+   "seeds": 4,
+   "output_lines": [
+    128,
+    128,
+    128,
+    128
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "0c8ed9fc144d016e"
+   ],
+   "classification": "IDENTICAL",
+   "note": "the first pass's fourth seed timed out under load and its output is truncated; repeated on a quiet machine, four seeds, 128 lines each",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B771_phase1_wave1/cells/W5-017r/compute.py",
+   "sites": [
+    660
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    124,
+    124,
+    124,
+    124
+   ],
+   "distinct_outputs_after_removing_timings": 1,
+   "output_sha": [
+    "77226d75234874a5"
+   ],
+   "classification": "IDENTICAL",
+   "note": "the results file it writes records run times and was not compared field by field",
+   "differing_lines": []
+  },
+  {
+   "script": "frontier/B904_barton_sudbery/stage2c_final.py",
+   "sites": [
+    246
+   ],
+   "run_in": "pass 1",
+   "seeds": 4,
+   "output_lines": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "distinct_outputs_after_removing_timings": 2,
+   "output_sha": [
+    "8d41d784b832f979",
+    "ebe3c182a2775d66"
+   ],
+   "classification": "COSMETIC",
+   "note": "one printed dictionary and the JSON written list three keys of equal value in a seed-dependent order; equal as dictionaries on four seeds",
+   "differing_lines": [
+    [
+     "fitted: {'mu0': '-24', 'mu1': '-24', 'mu2': '-24', 'nu0': '-12', 'nu1': '-12', 'nu2': '-12', 'lam0': '1', 'lam2': '1', 'lam1': '1'}",
+     "fitted: {'mu0': '-24', 'mu1': '-24', 'mu2': '-24', 'nu0': '-12', 'nu1': '-12', 'nu2': '-12', 'lam2': '1', 'lam0': '1', 'lam1': '1'}"
+    ]
+   ]
+  }
+ ]
+}

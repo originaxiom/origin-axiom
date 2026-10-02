@@ -33,3 +33,5 @@ give √23 if C19's √|disc K| form is a trace-field invariant). Gate 5; nothin
 
 Artifacts: compute.py + output.txt (control + prediction + the 40-digit correction).
 Lock: tests/test_b764_c19.py.
+
+**Receipt note (2026-10-02, B1449).** `output.txt` carries the appended correction twice: the first attempt ends in a `TypeError`, the second (the 50-digit verification) completes and is the one cited above.

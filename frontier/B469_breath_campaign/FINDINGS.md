@@ -154,3 +154,5 @@ own mechanism (open).
 Octic structure: irreducible over ℚ(√−7) and over ℚ(i) (the octic field contains
 neither). Scripts: `br3_wave2_exact.py`, `m2_cycletype.py`, `fix_pattern.py`,
 `geom_id.py`, `geom_id2.py`, `octic_test.py` (numeric ID), `fiber_field.py`.
+
+**Receipt note (2026-10-02, B1449).** `octic_log.txt`, the only receipt of the decisive cell's test, is a `TypeError`, and the tracked `octic_test.py` still raises it on this bench (a type conversion of SnapPy's matrix entries). With that one line fixed the test gives what this document states — κ(a, c) = −2, and tr(ac), tr(aC) on the octic to 2.1·10⁻¹² and 1.4·10⁻¹². The fixed copy and its receipt are in `frontier/B1449_the_silent_receipts_read/verification/`; the tracked script is left as it was run.

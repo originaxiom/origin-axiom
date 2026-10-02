@@ -1,0 +1,16 @@
+{
+ "id": "B1450",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1419",
+  "B1428",
+  "B1431"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE FILLED INDEX ON THE GRID. Lead L225 asked whether the 3D index of a Dehn filling separates the six arithmetic fillings of m004 from the other seventy-two of B1419's grid. The Gang-Yonekura formula in the form of Celoria-Hodgson-Rubinstein (arXiv:2509.09886), on B1428's boundary classes, reproduces all sixteen figure-eight entries that paper publishes; sealed and then run on the 87 slopes with |p| <= 8, 1 <= q <= 8 to q^10, it is defined and of the form 1 + P(q) on all 78 hyperbolic slopes, 1 on seven exceptional slopes and undefined on (+-4,1), and identical on all 43 mirror pairs. It does not see arithmeticity: (8,1), arithmetic, and (7,1), not, both begin 1 - q^2, and none of six stated features takes disjoint values on the two sets. The lead called the formula proved for this operation; the source proves it only when the filled manifold keeps a cusp and calls the closed case improper and conjectural, so these are values of a formula, not of a defined invariant. Question 3 of the lead is settled without Regina: the twelve census triangulations behind B1428 and B1431 have every tetrahedron positively oriented, hence a strict angle structure, hence are 1-efficient by Garoufalidis-Hodgson-Rubinstein-Segerman's Theorem 1.5 (a cited theorem with its hypothesis checked, not an interval certificate). No value of the Standard Model."
+}

@@ -5672,11 +5672,11 @@ sample is six arcs of 38. It took the debt checkers' counts as given, after find
 
 - [ ] R58-1: decide the governance proposal of §9 — the review fires; carried items age; three checks join the core (owner: the owner; source: B1448)
 - [ ] R58-2: write a failing-path test for each of the twelve gates that have none — append-only, chain-locks, firewall-oneway, id-collisions, knowledge-index, law-map-provenance, lawmap-scope, path-refs, practices-register, seal-provenance, views-fresh, views-generated (owner: cc; source: R55-16, B1423)
-- [ ] R58-3: before 2026-10-09 pay or escalate L225, L226 and L227; L226's re-runs are unfinished (owner: cc; source: §7)
+- [x] R58-3: before 2026-10-09 pay or escalate L225, L226 and L227; L226's re-runs are unfinished (owner: cc; source: §7) — **paid 2026-10-02:** L225 closed by B1450, L226 by B1452, L227 by B1449
 - [ ] R58-4: harvest the SM seat's 49 and the audit/codex lane's 103 unrowed items, sweeping each id over the arcs before rowing it as owed (owner: cc; source: R56-1, E54)
 - [ ] R58-5: the literature checks for T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE and T-MASS-TERM (owner: cc; source: §8)
 - [ ] R58-6: the vanishing of the class index on irreducible modules — a proof or a counterexample; B1447's sixteen non-self-dual modules widen the statement (owner: cc; source: B1329–B1332)
-- [ ] R58-7: release or decline the held relays to codex and to the SM seat, including the two drafted on 2026-10-02 (owner: the owner)
+- [x] R58-7: release or decline the held relays to codex and to the SM seat, including the two drafted on 2026-10-02 (owner: the owner) — **released by the owner 2026-10-02** ("release relays"): three sent to the SM seat's session, nineteen carried to codex in `docs/handoffs/CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md`
 - [ ] R58-8: the lineage decision of 2026-09-13 (owner: the owner)
 - [>] R56-1: the harvest debt, restated as R58-4 (carried from R56-1)
 - [>] R56-3: CLAIMS.md, lag 284 existing arcs, declared (carried from R56-3)

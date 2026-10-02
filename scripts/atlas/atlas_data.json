@@ -9109,6 +9109,29 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1449": {
+   "slug": "the silent receipts read",
+   "motifs": [
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B469",
+    "B477",
+    "B485",
+    "B498",
+    "B530",
+    "B639",
+    "B670",
+    "B764",
+    "B771",
+    "L227"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B144": {
    "slug": "interaction chirality",
    "motifs": [
@@ -9142,6 +9165,66 @@
    "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1450": {
+   "slug": "the filled index on the grid",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "L225",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1451": {
+   "slug": "the complete points on other levels",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "L236",
+    "L237"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1452": {
+   "slug": "the hash order residue run",
+   "motifs": [
+    "trace_map",
+    "metallic"
+   ],
+   "refs": [
+    "B675",
+    "B904",
+    "L226",
+    "L238"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B145": {
    "slug": "forced chirality",
@@ -22141,7 +22224,8 @@
    ],
    "refs": [
     "B2",
-    "B672"
+    "B672",
+    "L238"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 2,

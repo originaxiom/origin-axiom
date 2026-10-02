@@ -54,3 +54,5 @@ Newton polygon, from which the genus family reads off directly. The genus questi
 **Net**: one of the four open forcing edges had its abelian half CLOSED (the Alexander law)
 and its geometry characterized (rectangular cusps, genus-3 anchor); the SL(2,ℂ) genus family
 is a well-priced continuing computation, not a mystery. Honest partial close of task #201.
+
+**Receipt note (2026-10-02, B1449).** `conj_log.txt` is the crash of the first elimination attempt (`apoly_conj.py`, a sympy error); `conj2_log.txt` and `elim_log.txt` are the later attempts this document reports.

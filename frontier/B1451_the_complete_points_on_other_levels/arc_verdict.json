@@ -1,0 +1,16 @@
+{
+ "id": "B1451",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1444",
+  "B1445",
+  "B1446"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE COMPLETE POINTS ON OTHER LEVELS. On B1445's sixteen frame levels the periodic curve of a character is followed to its kappa = -2 point: 209 of 212 characters reach a parabolic one, three on the root's four-fold cover an elliptic one. Sealed, then run. The class index is zero at all 188 doubly parabolic points computed (476 with the root's three-fold cover); at 40 of them the sealed instrument had left the point 1e-15 to 1e-20 off a double root and its ranks unresolved, found by the arc's own lock and recomputed at 110 digits with every rank gapped. With the extension at its reducible end the bidoublet of a coupling splits into two doublets on the Higgs character's curve and its torsion is the product of theirs (checked against the rank-four module on every level, 4e-13); for an up-type coupling it is a square. What B1446 found as single numbers on the root's three-fold cover splits: the ten and the five-bar of a background carry different torsions at its complete point on 11 of 16 levels, and coupling values within one level range over a factor of 300. One sealed prediction failed: six couplings have torsion zero, on curves of filling type where it vanishes along the whole curve (B1444), not at the complete point. Exact values where identified: 2 +- 2 sqrt 5 on the sister's three-fold cover, a quartic number on -LRLRR 1, degree twelve on +LLLLLR 2. A torsion is not a mass, the members of a deck orbit are not told apart at these points, and nothing selects the complete point; no value of the Standard Model."
+}

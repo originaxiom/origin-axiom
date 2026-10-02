@@ -72,6 +72,8 @@ hash-first status.*
 | frontier/B1442_the_two_generation_backgrounds/PREREGISTRATION.md | f68af3c6 | 7f080e49 | 1 | yes |
 | frontier/B1444_the_backgrounds_are_ends_of_periodic_curves/PREREGISTRATION.md | f47794a1 | d88c220e | 1 | yes |
 | frontier/B1445_the_mass_term_on_the_product_of_two_curves/PREREGISTRATION.md | 5c15f838 | d3b50c0f | 1 | yes |
+| frontier/B1450_the_filled_index_on_the_grid/PREREGISTRATION.md | aab24b32 | 2f75736d | 1 | yes |
+| frontier/B1451_the_complete_points_on_other_levels/PREREGISTRATION.md | e90e0ffc | 5a0ca0c4 | 1 | yes |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f477 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8c | 1 | yes |
@@ -331,9 +333,11 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c4775 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c | 1 | yes |
 
-*Totals: 320 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 322 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
+
 
 
 

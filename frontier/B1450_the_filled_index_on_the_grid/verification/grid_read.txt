@@ -1,0 +1,30 @@
+slopes read: 87 (78 hyperbolic, 9 exceptional)
+P1  defined, constant term 1, no negative exponent, non-constant: 78 of 78 hyperbolic slopes
+P2  exceptional slopes:
+      (-4, 1) undefined
+      (-3, 1) +1 q^0
+      (-2, 1) +1 q^0
+      (-1, 1) +1 q^0
+      (0, 1) +1 q^0
+      (1, 1) +1 q^0
+      (2, 1) +1 q^0
+      (3, 1) +1 q^0
+      (4, 1) undefined
+P3  mirror pairs with identical series: 43 of 43
+P4  features on the 6 arithmetic and the 72 other hyperbolic slopes:
+     valuation of I - 1 (in q)        arithmetic {0.5: 2, 1.0: 2, 2.0: 2} | others {1.0: 70, 2.0: 2} | does not separate
+     its coefficient                  arithmetic {-1: 6} | others {-1: 2, -2: 62, -3: 8} | does not separate
+     (valuation, coefficient)         arithmetic {(0.5, -1): 2, (1.0, -1): 2, (2.0, -1): 2} | others {(1.0, -2): 62, (1.0, -3): 8, (2.0, -1): 2} | does not separate
+     half-integer exponents occur     arithmetic {False: 4, True: 2} | others {False: 64, True: 8} | does not separate
+     coefficient of q                 arithmetic {-1: 2, 0: 4} | others {-2: 62, -3: 8, 0: 2} | does not separate
+     coefficient of q^2               arithmetic {-1: 4, -2: 2} | others {-1: 2, -3: 60, -4: 8, -5: 2} | does not separate
+     features that separate: 0 of 6
+P5  slopes with p > 0: 39, distinct series to q^10: 26; classes of more than one slope: 4
+      [(1, 4), (1, 5), (1, 6), (1, 7), (1, 8)] 
+      [(3, 4), (5, 4), (5, 6), (6, 7), (7, 6), (7, 8), (8, 7)] 
+      [(3, 5), (3, 7)] 
+      [(3, 8), (5, 7), (5, 8)] 
+     an arithmetic slope shares its series with another slope (not its mirror): False
+      (5, 1) +1 q^0 -1 q^1 -2 q^2 -1 q^3 -1 q^4 +1 q^5 +2 q^6 +7 q^7 +8 q^8 +12 q^9 +14 q^10
+      (6, 1) +1 q^0 -1 q^1/2 -1 q^3/2 -1 q^2 -1 q^5/2 +1 q^9/2 +3 q^5 +4 q^11/2 +4 q^6 +6 q^13/2 +8 q^7 +7 q^15/2 +7 q^8 +9 q^17/2 +8 q^9 +6 q^19/2 +4 q^10
+      (8, 1) +1 q^0 -1 q^2 +2 q^4 +5 q^5 +6 q^6 +8 q^7 +4 q^8 -2 q^9 -14 q^10

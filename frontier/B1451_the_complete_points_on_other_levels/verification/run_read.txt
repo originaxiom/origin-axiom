@@ -1,0 +1,158 @@
+-LR 3        exponent  10,   96 backgrounds; kappa = -2 points: {'parabolic': 16}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+        32 x  -0.381966 ; 6.472136 6.472136 6.472136 | 6.472136 6.472136 | 9.857342
+        32 x  -2.618033 ; 2.472136 2.472136 2.472136 | 2.472136 2.472136 | 12.281401
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       down     {16.0: 12}
+       lepton   {16.0: 12}
+     class index at the doubly parabolic points: {0: 12}
++LLR 3       exponent  10,   48 backgrounds; kappa = -2 points: {'parabolic': 20}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+        16 x  1.0 ; 2.102785 2.102785 2.102785 | 3.287031 3.287031 | 3.483069
+        16 x  1.0 ; 8.250335 8.250335 8.250335 | 3.139243 3.139243 | 1.030221
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {15.020854: 6, 110.845159: 6}
+     class index at the doubly parabolic points: {0: 12}
++LRR 3       exponent  10,   48 backgrounds; kappa = -2 points: {'parabolic': 18}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+        16 x  -1.0 ; 2.102785 2.102785 2.102785 | 3.287031 3.287031 | 3.483069
+        16 x  -1.0 ; 8.250335 8.250335 8.250335 | 3.139243 3.139243 | 1.030221
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {15.020854: 2, 18.738346: 2, 110.845159: 6, 302.282043: 2}
+     class index at the doubly parabolic points: {0: 12}
+-LLRLR 1     exponent  12,    8 backgrounds; kappa = -2 points: {'parabolic': 8}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         2 x  -3.889384 ; 0.0 0.0 0.0 | 0.0 0.0 | 9.797959
+         2 x  -7.763804 ; 0.0 0.0 0.0 | 0.0 0.0 | 9.797959
+         2 x  1.0112399 ; 0.0 0.0 0.0 | 0.0 0.0 | 9.797959
+         2 x  2.4936955 ; 0.0 0.0 0.0 | 0.0 0.0 | 9.797959
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {26.595146: 6}
+       down     {0.0: 6}
+       lepton   {0.0: 6}
+     class index at the doubly parabolic points: {0: 12}
+-LRLRR 1     exponent  12,    8 backgrounds; kappa = -2 points: {'parabolic': 8}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -1.0 ; 4.0 4.0 4.0 | 4.0 4.0 | 8.0
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {1.734763: 6}
+       down     {16.0: 6}
+       lepton   {16.0: 6}
+     class index at the doubly parabolic points: {0: 12}
+-LLLRLR 1    exponent  15,   16 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         2 x  -3.149564 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+         2 x  -3.301593 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+         2 x  -5.544569 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+         2 x  -5.609821 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+         2 x  1.1717267 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+         2 x  2.4527447 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+         2 x  2.9704820 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+         2 x  4.1269607 ; 0.0 0.0 0.0 | 0.0 0.0 | 0.0
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {38.309403: 4, 45.530941: 8}
+     class index at the doubly parabolic points: {0: 12}
+-LRLRRR 1    exponent  15,   16 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+        16 x  -1.0 ; 4.0 4.0 4.0 | 4.0 4.0 | 4.0
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {5.914106: 6, 7.645703: 6}
+     class index at the doubly parabolic points: {0: 12}
++LLLRR 2     exponent  30,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -0.618033 ; 13.641466 13.641466 13.641466 | 3.066192 3.066192 | 7.690753
+         8 x  -0.618033 ; 13.641466 13.641466 13.641466 | 24.116907 24.116907 | 4.468249
+         8 x  1.6180339 ; 10.780711 10.780711 10.780711 | 3.12098 3.12098 | 2.936226
+         8 x  1.6180339 ; 10.780711 10.780711 10.780711 | 12.868938 12.868938 | 3.605713
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {6.111456: 6, 732.471665: 6}
+     class index at the doubly parabolic points: {0: 12}
+-LLLRR 2     exponent  30,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -1.618033 ; 10.083867 10.083867 10.083867 | 6.610775 6.610775 | 10.326621
+         8 x  -1.618033 ; 10.083867 10.083867 10.083867 | 24.945516 24.945516 | 7.748209
+         8 x  0.6180339 ; 10.347936 10.347936 10.347936 | 5.797637 5.797637 | 2.542592
+         8 x  0.6180339 ; 10.347936 10.347936 10.347936 | 16.543392 16.543392 | 1.224441
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {2.334369: 6, 765.144236: 6}
+     class index at the doubly parabolic points: {0: 12}
++LLRRR 2     exponent  30,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -1.618033 ; 10.780711 10.780711 10.780711 | 3.12098 3.12098 | 2.936226
+         8 x  -1.618033 ; 10.780711 10.780711 10.780711 | 12.868938 12.868938 | 3.605713
+         8 x  0.6180339 ; 13.641466 13.641466 13.641466 | 3.066192 3.066192 | 7.690753
+         8 x  0.6180339 ; 13.641466 13.641466 13.641466 | 24.116907 24.116907 | 4.468249
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {6.111456: 8, 732.471665: 4}
+     class index at the doubly parabolic points: {0: 12}
+-LLRRR 2     exponent  30,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -0.381966 ; 10.083867 10.083867 10.083867 | 6.610775 6.610775 | 10.326621
+         8 x  -0.381966 ; 10.083867 10.083867 10.083867 | 24.945516 24.945516 | 7.748209
+         8 x  -2.618033 ; 10.347936 10.347936 10.347936 | 5.797637 5.797637 | 2.542592
+         8 x  -2.618033 ; 10.347936 10.347936 10.347936 | 16.543392 16.543392 | 1.224441
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {2.334369: 8, 765.144236: 4}
+     class index at the doubly parabolic points: {0: 12}
++LLLLLR 2    exponent  45,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -1.618033 ; 4.442742 4.442742 4.442742 | 7.275666 7.275666 | 13.156937
+         8 x  -1.618033 ; 4.442742 4.442742 4.442742 | 8.059163 8.059163 | 0.372201
+         8 x  0.6180339 ; 0.600656 0.600656 0.600656 | 1.807263 1.807263 | 3.428905
+         8 x  0.6180339 ; 0.600656 0.600656 0.600656 | 7.640263 7.640263 | 26.30542
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {3.83006: 6, 12.55653: 6}
+     class index at the doubly parabolic points: {0: 12}
+-LLLLLR 2    exponent  45,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -0.381966 ; 4.405828 4.405828 4.405828 | 4.945957 4.945957 | 7.197879
+         8 x  -0.381966 ; 4.405828 4.405828 4.405828 | 11.48137 11.48137 | 22.314251
+         8 x  -2.618033 ; 7.486061 7.486061 7.486061 | 6.864304 6.864304 | 3.661449
+         8 x  -2.618033 ; 7.486061 7.486061 7.486061 | 9.975932 9.975932 | 15.431833
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {22.29691: 6, 29.899715: 6}
+     class index at the doubly parabolic points: {0: 12}
++LRRRRR 2    exponent  45,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -0.618033 ; 0.600656 0.600656 0.600656 | 1.807263 1.807263 | 3.428905
+         8 x  -0.618033 ; 0.600656 0.600656 0.600656 | 7.640263 7.640263 | 26.30542
+         8 x  1.6180339 ; 4.442742 4.442742 4.442742 | 7.275666 7.275666 | 13.156937
+         8 x  1.6180339 ; 4.442742 4.442742 4.442742 | 8.059163 8.059163 | 0.372201
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {3.83006: 8, 12.55653: 4}
+     class index at the doubly parabolic points: {0: 12}
+-LRRRRR 2    exponent  45,   32 backgrounds; kappa = -2 points: {'parabolic': 12}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         8 x  -1.618033 ; 4.405828 4.405828 4.405828 | 4.945957 4.945957 | 7.197879
+         8 x  -1.618033 ; 4.405828 4.405828 4.405828 | 11.48137 11.48137 | 22.314251
+         8 x  0.6180339 ; 7.486061 7.486061 7.486061 | 6.864304 6.864304 | 3.661449
+         8 x  0.6180339 ; 7.486061 7.486061 7.486061 | 9.975932 9.975932 | 15.431833
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {22.29691: 8, 29.899715: 4}
+     class index at the doubly parabolic points: {0: 12}
++LR 4        exponent  15,  256 backgrounds; kappa = -2 points: {'parabolic': 19, 'elliptic': 3}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+         6 x  -0.381966 ; 4.263712 4.263712 4.263712 | 3.108539 3.108539 | 7.789859
+        12 x  -0.381966 ; 4.263712 4.263712 4.263712 | 5.003306 5.003306 | 6.172766
+         6 x  -0.381966 ; 4.263712 4.263712 4.263712 | 5.192585 5.192585 | 13.086702
+         4 x  -2.618033 ; 10.428256 10.428256 10.428256 | 9.111773 9.111773 | 4.792207
+         8 x  -2.618033 ; 10.428256 10.428256 10.428256 | 11.124926 11.124926 | 7.369123
+         4 x  -2.618033 ; 10.428256 10.428256 10.428256 | 14.524549 14.524549 | 4.467187
+         4 x  0.3819660 ; 4.263712 4.263712 4.263712 | 3.108539 3.108539 | 7.789859
+         8 x  0.3819660 ; 4.263712 4.263712 4.263712 | 5.003306 5.003306 | 6.172766
+         4 x  0.3819660 ; 4.263712 4.263712 4.263712 | 5.192585 5.192585 | 13.086702
+         2 x  2.6180339 ; 10.428256 10.428256 10.428256 | 9.111773 9.111773 | 4.792207
+         4 x  2.6180339 ; 10.428256 10.428256 10.428256 | 11.124926 11.124926 | 7.369123
+         2 x  2.6180339 ; 10.428256 10.428256 10.428256 | 14.524549 14.524549 | 4.467187
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       down     {16.56747: 2, 152.354053: 6}
+       lepton   {16.56747: 2, 152.354053: 6}
+     class index at the doubly parabolic points: {0: 8}
+
+C1  class index at doubly parabolic points: {0: 188}  -> all zero
+C2  couplings with a value: 188, of which torsion zero: 6
+C3  levels where the up-type and down-type moduli differ: 2 of 2 ['-LLRLR 1', '-LRLRR 1']
+C4  levels where every up-type modulus is half of every down-type modulus: []
+C5  levels where the ten's three sectors or the five-bar's two do not share a torsion: [] (of 16 levels with a table)
+C6  levels where the ten and the five-bar differ on some background: 11 of 16 ['+LLLLLR 2', '+LLLRR 2', '+LLR 3', '+LLRRR 2', '+LR 4', '+LRR 3', '+LRRRRR 2', '-LLLLLR 2', '-LLLRR 2', '-LLRRR 2', '-LRRRRR 2']
+C7  characters attempted: 212; parabolic point 209, elliptic 3, not reached 0

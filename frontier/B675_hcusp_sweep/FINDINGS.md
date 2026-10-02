@@ -80,3 +80,8 @@ verify-on-receipt recomputed independently: irreducibility, S₄, the
 disc factorization, the octic and reversal identities, the root's
 reality. Artifacts: bronze_certification.py, bronze_cert_output.txt,
 BRONZE_CERT_NOTE.md.
+
+**Receipt note (2026-10-02, B1452).** `bronze_certification.py` does not run on the current bench: it stops with
+`TypeError: nmods cannot be ordered` in the polynomial library's factor sort (python-flint 0.9.0), on every hash
+seed, after printing its quartic and octic checks. The receipts in this arc are from the environment of its date.
+Registered as lead L238; nothing in this arc's text is changed.

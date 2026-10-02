@@ -20,3 +20,5 @@ Next (queued): full sign-vector extraction (the window shows 7 of ~30 entries), 
 correct group structure on classes (cocycles multiply modulo face identifications), and
 the per-cusp evaluation test. Recon only — nothing banked as law; scripts:
 `sterile_law.py` (introspection), B461 `rung3_sl2_log.txt` (the exact dims).
+
+**Receipt note (2026-10-02, B1449).** `context_log.txt` is a `FileNotFoundError`: `sterile_scan.py` was run from a directory in which its relative input path does not resolve. Nothing in this document rests on that run.

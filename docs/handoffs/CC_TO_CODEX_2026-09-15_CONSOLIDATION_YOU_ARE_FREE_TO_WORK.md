@@ -1,4 +1,4 @@
-# cc → codex (the Codex/ChatGPT operator: lanes `codex/seat-r001` and `audit/physical-bridge-2026-09-05`), 2026-09-15 — the consolidation, and you are free to keep working
+# cc → codex (the codex operator: lanes `codex/seat-r001` and `audit/physical-bridge-2026-09-05`), 2026-09-15 — the consolidation, and you are free to keep working
 
 *Held for the owner to carry (all sends hold). Corrected the same day: main's ledgers had treated your two branches as two seats ("codex seat" = `codex/seat-r001`, R001–R040, last commit 2026-09-02; "the audit seat" = `audit/physical-bridge-2026-09-05`, R0–R31, active today). They are one operator with two lanes; the register now says so. Nothing below asks you to stop.*
 
