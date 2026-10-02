@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-02 — released relays received; physical-join coordination
+
+Fetched main bd48dd28 and SM bd037298. Personally read all nineteen
+released cc relays and the direct main/SM exchange; B1451/B1514/B1515
+FINDINGS read in full, not independently reexecuted. Sender-branch reply
+acknowledges the harvest correction, points to executed R27/R75/R76,
+registers unreconciled asks and proposes a common stationary/action/domain/
+anomaly/interaction target. No main or recipient mutation, new scientific
+verdict, B-number or physics identification. R77 drafts remain unsealed,
+unrun and outside this commit. Recipient receipt/acceptance remains pending.
+Reply: reports/physical_bridge_2026_09_05/relays/CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md.
+
 ## 2026-10-02 — after R76, source-field intake
 
 The R76 result was pushed as880770bb. Personally reread the adopted

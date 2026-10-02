@@ -16321,3 +16321,48 @@ Next moment-map image, own-field stationarity, complete common-domain
 spectrum/anomaly and architecture-derived source selection kept distinct.
 Goal remains ACTIVE, SM/TOE unachieved. Read-only intake, no new law/run:
 reports/physical_bridge_2026_09_05/SOURCE_FIELD_INTAKE_2026_10_02.md.
+
+## 2026-10-02 — direct cc relay acknowledgement and physical-join proposal
+
+On the owner's coordination request, fetched all origin heads: main
+bd48dd28894d847d25e9d6b828b18d19378e3615 and SM
+bd03729860f95f8ccee33fef21006096730722be. Read all 944 lines/all nineteen
+of main's released packet in complete untruncated chunks, plus the direct
+main-to-SM relay and SM's acknowledgement. Read B1451, B1514 and B1515
+FINDINGS in full. Incoming code/populations were not independently rerun.
+
+Sender reply preserves the R035/R038/R039/R040 harvest correction and
+distinguishes main's reported R20 review limit from absence of our newer
+work. It supplies pointers to R27's exact nonsplit positive and qualified
+geometric theorem, R75's independent triplet and generic determinant,
+and R76's conditional compact core/current and bare action argument.
+It proposes separate, complementary work toward one stationary interacting
+configuration, with all physical domains and anomalies kept together.
+
+Old scientific asks are READ, registered for prior-record reconciliation,
+not closed or declared missing. A precise vanishing-theorem interface and
+a fixed SM candidate's coefficient/peripheral/action data are requested.
+The wrongly paired peripheral generators disclosed by main are carried
+as a concrete control requirement, not generalized into an untested kill.
+This is a coordination record, not a new science execution or law. R77
+drafts remain unsealed and unrun. Own goal tracker currently usageLimited;
+the parameter-free Standard Model/TOE remains unachieved. No other branch
+was written, no main merge or recipient read/acceptance is claimed.
+Reply: reports/physical_bridge_2026_09_05/relays/CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md.
+
+Coordination checks: R75/R76 fixed-byte custody passes; initial R75
+US-ASCII launcher failure is preserved and explicit UTF-8 passes without
+code changes. The historical cumulative checker instead stops on an old
+R30 raw log confirmed compressed,dataless; original receipt hash retained,
+no original bytes rewritten, no broad custody pass claimed. Initial new
+path-reference mistakes corrected to pinned remote links; path check passes.
+Eleven first/corrected/diagnostic captures, including errors, are preserved with
+declared environment redaction in CC_SYNC_RECEIPTS_2026_10_02.json beside
+the reports. These are metadata checks, not scientific reruns or physics.
+
+Corrected governance: 26 PASS/four unchanged historical categories FAIL;
+44 banked/50 open, 41 stale relay rows. Extended coordination check passes
+three received pins, two parseable OPEN rows, twelve local pointers,
+seven latest changed-path digests, all 1,133 latest artifact digests and
+the eight-file staged population. Its initial US-ASCII error is preserved;
+the same check with explicit UTF-8 passes. R77 science remains excluded.

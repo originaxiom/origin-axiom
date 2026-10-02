@@ -1,0 +1,217 @@
+{
+  "scope": "Coordination receipt and byte custody only; no new science or physical acceptance.",
+  "environment_redactions": [
+    "sync-raw",
+    "r75-raw",
+    "r76-raw",
+    "repo",
+    "python3.12-env",
+    "prior-raw"
+  ],
+  "first_failures_preserved": [
+    "custody_first: older R30 raw capture unavailable; native log confirmed dataless",
+    "governance_first: two new local-reference mistakes plus four old failing categories",
+    "r75_custody_first: US-ASCII launcher failure; same code passes with UTF-8",
+    "relay_receipt_corrected: US-ASCII launcher fails on UTF-8 receipt text; unchanged check passes with explicit UTF-8"
+  ],
+  "runs": {
+    "custody_first": {
+      "raw_basename": "custody_first",
+      "raw_receipt_sha256": "211a41a0a530d655fb7bdc4e812fd6059bfee01b60bc29b86486f6eb152ff7f7",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw>"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 2.361629999941215,
+        "log_bytes": 20,
+        "log_sha256": "d072fb02d9bc50defc462d87d488033bc219851af4e65b9b95bf704610daf394"
+      },
+      "stdout": "Raw capture differs\n"
+    },
+    "governance_first": {
+      "raw_basename": "governance_first",
+      "raw_receipt_sha256": "aa9edcc18f11d8a3c0c79d24d0a7c950a6a986571150ce00d981847cb93273b3",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 33.59233200002927,
+        "log_bytes": 2553,
+        "log_sha256": "06a45cc93d3d432f139de2908c3d94d73781c04bb53e9b163f9ed5c414c37e1c"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  FAIL  path-refs: 2 unresolved path citation(s): reports/physical_bridge_2026_09_05/relays/CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md -> docs/handoffs/CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md; reports/physical_bridge_2026_09_05/relays/CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md -> docs/handoffs/CC_TO_SM_2026-10-02_THE_RELEASED_RELAYS.md\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 50 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 41 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 37 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 282 merges since last review (DUE — run the decadal review)\n"
+    },
+    "relay_receipt_first": {
+      "raw_basename": "relay_receipt_first",
+      "raw_receipt_sha256": "69f648c406d9020806f86b07ec947006703c78ec29d582dd44ddc783710dc258",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-rjson",
+          "-rdigest",
+          "-ropen3",
+          "-e",
+          "prefix = \"reports/physical_bridge_2026_09_05/\"; name = \"CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md\"; path = prefix + \"relays/\" + name; body = File.read(path); ledger = File.read(\"docs/RELAY_LEDGER.md\"); packet_name = \"CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md\"; sources = {\"bd48dd28:docs/handoffs/\" + packet_name => \"664d4286a49b017826c3848bd3b712a6adc26a83d100bb40f00660d9922a59ed\", \"bd48dd28:docs/handoffs/CC_TO_SM_2026-10-02_THE_RELEASED_RELAYS.md\" => \"7c180ede903a9f519cb7a7560cd06f1f9335e4cd25241b51a75d2ae6b35aa4f9\", \"bd037298:SM_TO_CC_2026-10-02_THE_RELAYS_RECEIVED.md\" => \"c7c8c9dbc7938f11f6bd6fb99f8ef7879ef17e76cc047966870364f3d1e462f8\"}; sources.each { |pin, sha| bytes, err, status = Open3.capture3(\"git\", \"show\", pin); abort(err) unless status.success?; abort(\"incoming digest mismatch: \" + pin) unless Digest::SHA256.hexdigest(bytes) == sha && body.include?(sha) }; [name, packet_name].each { |n| abort(\"missing parseable OPEN row: \" + n) unless ledger.lines.count { |line| line.start_with?(\"| `\" + n + \"` | OPEN |\") } == 1 }; pointers = %w[FINITE_TWIST.md FINITE_TWIST_PROOF.md FINITE_TWIST_REDUCTIVITY_DESIGN.md finite_twist_reductivity.py CROSS_BRANCH_POSITIVES.md CROSS_BRANCH_POSITIVES_PROOF.md CROSS_BRANCH_POSITIVES_INPUTS.json CROSS_BRANCH_POSITIVES_RECEIPTS.json FLAT_VACUUM.md FLAT_VACUUM_PROOF.md FLAT_VACUUM_INPUTS.json FLAT_VACUUM_RECEIPTS.json]; pointers.each { |p| abort(\"missing local pointer: \" + p) unless File.file?(prefix + p) }; latest = {}; File.foreach(prefix + \"ARTIFACT_HASHES.txt\") { |line| m = /\\A([0-9a-f]{64})\\s+(.+)\\s*\\z/.match(line); latest[m[2].strip] = m[1] if m }; expected = %w[CHANGELOG.md PROGRESS_LOG.md docs/OPEN_LEADS.md docs/RELAY_LEDGER.md]; expected += [prefix + \"README.md\", path]; expected.each { |p| abort(\"latest digest mismatch: \" + p) unless latest[p] == Digest::SHA256.file(p).hexdigest }; expected << prefix + \"ARTIFACT_HASHES.txt\"; out, err, status = Open3.capture3(\"git\", \"diff\", \"--cached\", \"--name-only\"); abort(err) unless status.success?; abort(\"unexpected staged population\") unless out.lines.map(&:strip).sort == expected.sort; abort(\"path privacy violation\") if body.match?(/\\/(Users|home)\\//); abort(\"empty headline\") unless body.lines.first.start_with?(\"# All nineteen\"); puts JSON.pretty_generate({incoming_pins_verified: sources.size, parseable_open_rows: 2, local_pointers: pointers.size, latest_digests_verified: 6, staged_coordination_paths: expected.size, unrun_science_excluded: true, scope: \"Relay receipt, links, hashes and staged custody only; no mathematical or physical verification.\"})"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.5608700000448152,
+        "log_bytes": 296,
+        "log_sha256": "6744245e804d25e9a677aacb72d5f31aa51c1f979a8a739d7da8f8064f68bd7a"
+      },
+      "stdout": "{\n  \"incoming_pins_verified\": 3,\n  \"parseable_open_rows\": 2,\n  \"local_pointers\": 12,\n  \"latest_digests_verified\": 6,\n  \"staged_coordination_paths\": 7,\n  \"unrun_science_excluded\": true,\n  \"scope\": \"Relay receipt, links, hashes and staged custody only; no mathematical or physical verification.\"\n}\n"
+    },
+    "r75_custody_first": {
+      "raw_basename": "r75_custody_first",
+      "raw_receipt_sha256": "43cbbf91acc8010771d4e17ed8911c2e9eb4f2e9dab24813904f4729d48185df",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/cross_branch_positives_receipt_check.rb",
+          "<r75-raw>"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 3.389596000080928,
+        "log_bytes": 235,
+        "log_sha256": "6505824e133f65cf358c54d5397849afb4d640eda84d05a621b915e613bb9260"
+      },
+      "stdout": "reports/physical_bridge_2026_09_05/cross_branch_positives_receipt_check.rb:66:in `scan': invalid byte sequence in US-ASCII (ArgumentError)\n\tfrom reports/physical_bridge_2026_09_05/cross_branch_positives_receipt_check.rb:66:in `<main>'\n"
+    },
+    "r76_custody_first": {
+      "raw_basename": "r76_custody_first",
+      "raw_receipt_sha256": "55c76a8bf1ced90533e8c69436fcb7c36877767103cf738cbded75e07c55cd8f",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/flat_vacuum_receipt_check.rb",
+          "<r76-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.605917999986559,
+        "log_bytes": 216,
+        "log_sha256": "277b4e0a9b1782cde1485487c605450eeb0602dc200a25cc5a818c9303856308"
+      },
+      "stdout": "{\"frozen_science_paths\":8,\"input_pins\":8,\"science_captures\":4,\"controls\":56,\"focused_passes\":12,\"new_tests\":6,\"report_links\":6,\"scope\":\"Byte custody and fixed finite populations, not analytic acceptance or physics\"}\n"
+    },
+    "old_raw_flags_first": {
+      "raw_basename": "old_raw_flags_first",
+      "raw_receipt_sha256": "99595f878545981ddb29003d613e5dc49046c7d35ca4c17b5726c0fc08afce19",
+      "receipt": {
+        "command": [
+          "ls",
+          "-lO",
+          "<prior-raw>/oa_r30_native_first.log",
+          "<prior-raw>/oa_r30_native_first.json"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.04189500003121793,
+        "log_bytes": 237,
+        "log_sha256": "2524ea5f11ce921227f18aa403c14c6a5b89ca61a8e11a6a0cd58c755de107a5"
+      },
+      "stdout": "-rw-r--r--  1 dri  staff  -                     421 Sep 15 00:18 <prior-raw>/oa_r30_native_first.json\n-rw-r--r--  1 dri  staff  compressed,dataless 34565 Sep 15 00:18 <prior-raw>/oa_r30_native_first.log\n"
+    },
+    "r75_custody_utf8": {
+      "raw_basename": "r75_custody_utf8",
+      "raw_receipt_sha256": "92bcdc39c9294da8cae712daa584a6f10829ae85b06e4a20771b12f4fb76f8f1",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/cross_branch_positives_receipt_check.rb",
+          "<r75-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.281861000112258,
+        "log_bytes": 293,
+        "log_sha256": "4397b5dac10f5d361095e4699a09d1a8dc3d345070f0d7fbd9dc2c3b949b8ff8"
+      },
+      "stdout": "{\"frozen_science_paths\":5,\"input_pins\":14,\"published_science_captures\":2,\"published_audit_captures\":1,\"finite_controls\":43,\"focused_passes\":14,\"new_tests\":6,\"first_scientific_failures\":0,\"report_links\":5,\"scope\":\"Byte custody and fixed finite populations, not analytic acceptance or physics\"}\n"
+    },
+    "path_refs_corrected": {
+      "raw_basename": "path_refs_corrected",
+      "raw_receipt_sha256": "c712cc57cd80f6382b0ce82120202d207bbf680ff31270576cf64eea2031b163",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3",
+          "scripts/checks/check_path_references.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.323104999959469,
+        "log_bytes": 93,
+        "log_sha256": "fbbe57b2d127fdb527ae16091c4c818337192e19a991c6454eab0e23b7748d40"
+      },
+      "stdout": "backticked repo-path citations checked: 2984\nall resolve (repo-root or citing-file-relative)\n"
+    },
+    "governance_corrected": {
+      "raw_basename": "governance_corrected",
+      "raw_receipt_sha256": "1a7bc2973a825e85466095da72db1045f040b40bf36257b02b6e90873e411a25",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 36.171487999963574,
+        "log_bytes": 2189,
+        "log_sha256": "df3a7de8c70e151734dedf5e039021ec2d050b6b5712199e58832c0e03521ae5"
+      },
+      "stdout": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 50 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 41 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 37 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 282 merges since last review (DUE — run the decadal review)\n"
+    },
+    "relay_receipt_corrected": {
+      "raw_basename": "relay_receipt_corrected",
+      "raw_receipt_sha256": "baf17dfdf6ee62317cc58ee00575c6fb365214e9c203b0549b7c8a2bb5c42242",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-rjson",
+          "-rdigest",
+          "-ropen3",
+          "-e",
+          "prefix = \"reports/physical_bridge_2026_09_05/\"; name = \"CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md\"; path = prefix + \"relays/\" + name; body = File.read(path); ledger = File.read(\"docs/RELAY_LEDGER.md\"); packet_name = \"CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md\"; sources = {\"bd48dd28:docs/handoffs/\" + packet_name => \"664d4286a49b017826c3848bd3b712a6adc26a83d100bb40f00660d9922a59ed\", \"bd48dd28:docs/handoffs/CC_TO_SM_2026-10-02_THE_RELEASED_RELAYS.md\" => \"7c180ede903a9f519cb7a7560cd06f1f9335e4cd25241b51a75d2ae6b35aa4f9\", \"bd037298:SM_TO_CC_2026-10-02_THE_RELAYS_RECEIVED.md\" => \"c7c8c9dbc7938f11f6bd6fb99f8ef7879ef17e76cc047966870364f3d1e462f8\"}; sources.each { |pin, sha| bytes, err, status = Open3.capture3(\"git\", \"show\", pin); abort(err) unless status.success?; abort(\"incoming digest mismatch: \" + pin) unless Digest::SHA256.hexdigest(bytes) == sha && body.include?(sha) }; [name, packet_name].each { |n| abort(\"missing parseable OPEN row: \" + n) unless ledger.lines.count { |line| line.start_with?(\"| `\" + n + \"` | OPEN |\") } == 1 }; pointers = %w[FINITE_TWIST.md FINITE_TWIST_PROOF.md FINITE_TWIST_REDUCTIVITY_DESIGN.md finite_twist_reductivity.py CROSS_BRANCH_POSITIVES.md CROSS_BRANCH_POSITIVES_PROOF.md CROSS_BRANCH_POSITIVES_INPUTS.json CROSS_BRANCH_POSITIVES_RECEIPTS.json FLAT_VACUUM.md FLAT_VACUUM_PROOF.md FLAT_VACUUM_INPUTS.json FLAT_VACUUM_RECEIPTS.json]; pointers.each { |p| abort(\"missing local pointer: \" + p) unless File.file?(prefix + p) }; latest = {}; File.foreach(prefix + \"ARTIFACT_HASHES.txt\") { |line| m = /\\A([0-9a-f]{64})\\s+(.+)\\s*\\z/.match(line); latest[m[2].strip] = m[1] if m }; expected = %w[CHANGELOG.md PROGRESS_LOG.md docs/OPEN_LEADS.md docs/RELAY_LEDGER.md]; expected += [prefix + \"README.md\", path, prefix + \"CC_SYNC_RECEIPTS_2026_10_02.json\"]; latest.each { |p, sha| abort(\"cumulative artifact mismatch: \" + p) unless File.file?(p) && Digest::SHA256.file(p).hexdigest == sha }; expected.each { |p| abort(\"latest digest mismatch: \" + p) unless latest[p] == Digest::SHA256.file(p).hexdigest }; expected << prefix + \"ARTIFACT_HASHES.txt\"; out, err, status = Open3.capture3(\"git\", \"diff\", \"--cached\", \"--name-only\"); abort(err) unless status.success?; abort(\"unexpected staged population\") unless out.lines.map(&:strip).sort == expected.sort; abort(\"path privacy violation\") if body.match?(/\\/(Users|home)\\//); abort(\"empty headline\") unless body.lines.first.start_with?(\"# All nineteen\"); public_receipts = File.read(prefix + \"CC_SYNC_RECEIPTS_2026_10_02.json\"); JSON.parse(public_receipts); abort(\"public path privacy violation\") if public_receipts.match?(/\\/(Users|home)\\//); puts JSON.pretty_generate({incoming_pins_verified: sources.size, parseable_open_rows: 2, local_pointers: pointers.size, latest_digests_verified: 7, staged_coordination_paths: expected.size, cumulative_latest_artifacts: latest.size, unrun_science_excluded: true, scope: \"Relay receipt, links, hashes and staged custody only; no mathematical or physical verification.\"})"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.2941910000517964,
+        "log_bytes": 91,
+        "log_sha256": "23932ec7d874ab3bbd8d72e6775cc2081ecfb7b6ed8a2866ef49befd49c52029"
+      },
+      "stdout": "-e:1:in `match?': invalid byte sequence in US-ASCII (ArgumentError)\n\tfrom -e:1:in `<main>'\n"
+    },
+    "relay_receipt_utf8": {
+      "raw_basename": "relay_receipt_utf8",
+      "raw_receipt_sha256": "5bfcc4b0e2163af08d92bcca468618512e70047e62d6fe0d3932ee2750947826",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "-rjson",
+          "-rdigest",
+          "-ropen3",
+          "-e",
+          "prefix = \"reports/physical_bridge_2026_09_05/\"; name = \"CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md\"; path = prefix + \"relays/\" + name; body = File.read(path); ledger = File.read(\"docs/RELAY_LEDGER.md\"); packet_name = \"CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md\"; sources = {\"bd48dd28:docs/handoffs/\" + packet_name => \"664d4286a49b017826c3848bd3b712a6adc26a83d100bb40f00660d9922a59ed\", \"bd48dd28:docs/handoffs/CC_TO_SM_2026-10-02_THE_RELEASED_RELAYS.md\" => \"7c180ede903a9f519cb7a7560cd06f1f9335e4cd25241b51a75d2ae6b35aa4f9\", \"bd037298:SM_TO_CC_2026-10-02_THE_RELAYS_RECEIVED.md\" => \"c7c8c9dbc7938f11f6bd6fb99f8ef7879ef17e76cc047966870364f3d1e462f8\"}; sources.each { |pin, sha| bytes, err, status = Open3.capture3(\"git\", \"show\", pin); abort(err) unless status.success?; abort(\"incoming digest mismatch: \" + pin) unless Digest::SHA256.hexdigest(bytes) == sha && body.include?(sha) }; [name, packet_name].each { |n| abort(\"missing parseable OPEN row: \" + n) unless ledger.lines.count { |line| line.start_with?(\"| `\" + n + \"` | OPEN |\") } == 1 }; pointers = %w[FINITE_TWIST.md FINITE_TWIST_PROOF.md FINITE_TWIST_REDUCTIVITY_DESIGN.md finite_twist_reductivity.py CROSS_BRANCH_POSITIVES.md CROSS_BRANCH_POSITIVES_PROOF.md CROSS_BRANCH_POSITIVES_INPUTS.json CROSS_BRANCH_POSITIVES_RECEIPTS.json FLAT_VACUUM.md FLAT_VACUUM_PROOF.md FLAT_VACUUM_INPUTS.json FLAT_VACUUM_RECEIPTS.json]; pointers.each { |p| abort(\"missing local pointer: \" + p) unless File.file?(prefix + p) }; latest = {}; File.foreach(prefix + \"ARTIFACT_HASHES.txt\") { |line| m = /\\A([0-9a-f]{64})\\s+(.+)\\s*\\z/.match(line); latest[m[2].strip] = m[1] if m }; expected = %w[CHANGELOG.md PROGRESS_LOG.md docs/OPEN_LEADS.md docs/RELAY_LEDGER.md]; expected += [prefix + \"README.md\", path, prefix + \"CC_SYNC_RECEIPTS_2026_10_02.json\"]; latest.each { |p, sha| abort(\"cumulative artifact mismatch: \" + p) unless File.file?(p) && Digest::SHA256.file(p).hexdigest == sha }; expected.each { |p| abort(\"latest digest mismatch: \" + p) unless latest[p] == Digest::SHA256.file(p).hexdigest }; expected << prefix + \"ARTIFACT_HASHES.txt\"; out, err, status = Open3.capture3(\"git\", \"diff\", \"--cached\", \"--name-only\"); abort(err) unless status.success?; abort(\"unexpected staged population\") unless out.lines.map(&:strip).sort == expected.sort; abort(\"path privacy violation\") if body.match?(/\\/(Users|home)\\//); abort(\"empty headline\") unless body.lines.first.start_with?(\"# All nineteen\"); public_receipts = File.read(prefix + \"CC_SYNC_RECEIPTS_2026_10_02.json\"); JSON.parse(public_receipts); abort(\"public path privacy violation\") if public_receipts.match?(/\\/(Users|home)\\//); puts JSON.pretty_generate({incoming_pins_verified: sources.size, parseable_open_rows: 2, local_pointers: pointers.size, latest_digests_verified: 7, staged_coordination_paths: expected.size, cumulative_latest_artifacts: latest.size, unrun_science_excluded: true, scope: \"Relay receipt, links, hashes and staged custody only; no mathematical or physical verification.\"})"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.6318549999268726,
+        "log_bytes": 335,
+        "log_sha256": "faf291c2586957fcb7e6f8d37b7dd67d540aaa5a081475b4328c94f6ed318ca0"
+      },
+      "stdout": "{\n  \"incoming_pins_verified\": 3,\n  \"parseable_open_rows\": 2,\n  \"local_pointers\": 12,\n  \"latest_digests_verified\": 7,\n  \"staged_coordination_paths\": 8,\n  \"cumulative_latest_artifacts\": 1133,\n  \"unrun_science_excluded\": true,\n  \"scope\": \"Relay receipt, links, hashes and staged custody only; no mathematical or physical verification.\"\n}\n"
+    }
+  },
+  "published_capture_count": 11
+}

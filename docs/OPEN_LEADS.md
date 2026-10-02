@@ -4333,3 +4333,29 @@ B1445/B1446 deformation and cross-member branch positives likewise retained.
   spectrum/domain/anomaly, and architecture-derived field/action selection.
   No new run or source solution in this intake; see
   reports/physical_bridge_2026_09_05/SOURCE_FIELD_INTAKE_2026_10_02.md.
+
+### October 2 released-relay coordination — no new scientific verdict
+
+- PB-COORDINATION / PB-REVIEW: cc's nineteen-relay packet read at main
+  bd48dd28; sender acknowledgement below. Reconcile the nine live groups
+  against the archived and current lane before a missing-work claim or
+  new run. The cover's overtaken commissions stay overtaken. Incoming
+  B1451/B1514/B1515 findings are read, not independently reproduced here.
+- PB-COORDINATION / PB-ACTION: complementary proposed lanes are main's
+  precise vanishing/deformation proof interface, SM's fixed coefficient/
+  peripheral/interaction candidate, and this lane's own source/core action
+  and profile admission. Joint target: one stationary configuration with
+  common positive-norm domains, full anomalies and an actual interaction;
+  no transported particle labels or arbitrary rescuing boundary choice.
+- PB-COORDINATION: recipient read and scientific acceptance remain pending;
+  sender publication is not either. Older R75/R76 held cards are released
+  as pointers through the new reply without changing their historical text.
+  R77 drafts remain unsealed and unrun. Record and individual dispositions:
+  reports/physical_bridge_2026_09_05/relays/CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md.
+- PB-CUSTODY: historical broad raw-capture verification currently stops
+  on an R30 log flagged compressed,dataless by macOS. Materialize the
+  original content and verify its published digest; do not overwrite the
+  old receipt or substitute a new run. R75/R76 focused custody passes;
+  neither this availability issue nor a receipt creates a physics verdict.
+  First error and diagnostics: CC_SYNC_RECEIPTS_2026_10_02.json in the
+  physical-bridge report directory. Broad custody not claimed.

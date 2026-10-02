@@ -1,5 +1,13 @@
 # Physical bridge audit — 2026-09-05
 
+**October 2 coordination update:** all nineteen newly released cc relays
+personally read; current main/SM replies and B1451/B1514/B1515 bodies read,
+not reexecuted. [Sender reply](relays/CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md)
+acknowledges receipt, points to R27/R75/R76, registers the old asks for
+reconciliation and proposes a same-configuration physical join. Recipient
+read/acceptance pending; no new science or main merge. R77 drafts remain
+unsealed and unrun. Tracker currently usageLimited; mission unachieved.
+
 **After R76, source-field intake (October2):** primary section2.1/2.5/B.1
 reread personally; W is the internal connection, not an extra source
 scalar. The explicit defect multiplet coupling is retained as prior work,
