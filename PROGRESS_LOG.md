@@ -16924,3 +16924,25 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Still the owner's:** GENESIS FK1's wording, FK12's framing, and whether "the reader" runs in its narrowed form.
 - I-26 stays UNEARNED. 0 of 19.
 
+## 2026-10-02 — the `creates_law` re-audit of B1304–B1513 (B1214's rule)
+
+- **Occasion.** Every arc from B1304 to B1513 declared `creates_law: false`, and 32 of them wrote or reached a THEOREM_REGISTRY or
+  LAW_MAP row. B1270–B1303 and B1514 declare true. B1214 re-audited this error class on 2026-08-29, and its rule is applied here
+  unchanged.
+- **Read.** All 32 arcs were read in full: FINDINGS (with addenda), `arc_verdict.json`, and the registry and law-map rows. B1242's
+  review was taken as precedent: a standard formula applied to the object is not a law of the object.
+- **Decided.**
+  - 14 now declare true, each with a dated `creates_law_corrected` note naming its row and lock: B1304, B1380, B1385, B1389,
+    B1390, B1397, B1398, B1505, B1506, B1509, B1510, B1511, B1512 and B1513.
+  - B1380 had no registry row, so T-CARRIER-PUNCTURE was added after T-TOWER-LAW-POSITIVE-HALF. It has five cells.
+  - 18 keep false, each with a dated `creates_law_reviewed` note giving its class and basis: B1351, B1383, B1386, B1388, B1391,
+    B1392, B1393, B1394, B1395, B1396, B1399, B1500, B1501, B1502, B1503, B1504, B1507 and B1508.
+- **The claim pool.** B1213's `reproduce.sh` REPRODUCES. Declared laws go from 93 to 107. The 14 move from tier S to tier L, and
+  B1515–B1517, banked since the last regeneration, join. 599 arcs become 602, and none leaves.
+- **Checks.**
+  - Run on B1519's tree (`27220af6`). Gates: 30 PASS and the standing `relay-debt` failure, the same as that tree's own run.
+  - The four tests named for this pass (verdict schema, B1210, B1213, B1214): 1 291 passed.
+  - The hygiene tests of B1509–B1513's locks assert `creates_law is False`. They pass at the base and fail now. Updating
+    them waits on the owner.
+  - The locks of B1211, B1240, B1241 and B1514–B1519 pass.
+- ERROR_LEDGER: one row (the declaration slip). I-26 stays UNEARNED. 0 of 19.

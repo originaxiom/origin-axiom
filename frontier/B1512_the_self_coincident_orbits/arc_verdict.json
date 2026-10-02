@@ -13,7 +13,15 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": false,
+  "why": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: m004's symmetries act on Ballas' family by exact intertwiners for every q: the hyperelliptic involution fixes rho_q (so every twisted polynomial is real on every cyclic cover), the dual of rho_q is rho_{1/q} (P(1/q, s) = s^4 P(q, 1/s), with dual counts at q and 1/q), and the strong inversion and the amphichiral map send rho_q to rho_{1/q}: general propositions proved here (B1511's lead 3 made a theorem)",
+  "registry_row": "T-BALLAS-SYMMETRIES",
+  "lock": "tests/test_b1512_the_self_coincident_orbits.py"
+ },
  "identifications": [],
  "claim_one_line": "THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). m004's symmetries act on Ballas' family: the fibre's hyperelliptic involution fixes rho_q (so P_nu = P_nu^-1 on every level and every twisted polynomial is real, B1511 lead 3), the dual family is the family at 1/q (P(1/q, s) = s^4 P(q, 1/s); real exceptional points pair as q, 1/q; I(W2)(nu^-1, 1/q) = -I(W1)(nu, q)), and the strong inversion (the audit lane's F14 type) and the amphichiral map send q to 1/q (M5's four orbits share one palindromic polynomial, M6's four classes pair, B1511's O_A/O_B and M4 pairings explained). All 32 of B1511's unresolved case-(b) pairs fire: every member counts I(W1) = +1, I(W2) = -1, I(L2 W) = 0 at every positive real exceptional point -- M5's four orbits of five at w = q + 1/q = 7 (lam = 1, a double semisimple point, the same w as M4's), w ~ 2.2776 (lam = +-i) and w ~ 2.4999 (lam = -1, a Jordan point); M6's eight orbits of six at lam = +-1, eight values of w. Predictions: P1 NO (not Q(q^5, s)), P2-P5 YES, P6 NO (a double point and a Jordan point), P7 YES. The per-level table through level 6 is complete: case (b), the opposite sign, in orbits of four, five and six; three only from the projective triplet; no 5bar' anywhere. A design slip caught before the seal (eps first called amphichiral; ERROR_LEDGER). I-26 stays UNEARNED. 0 of 19."
 }

@@ -1,5 +1,54 @@
 # Changelog
 
+## The `creates_law` re-audit of B1304–B1513: fourteen laws declared, eighteen decisions recorded
+
+- **The finding.** From B1304 to B1513 this seat declared `creates_law: false` on every arc. B1270–B1303 before it and B1514
+  after it declared true where they registered laws. Thirty-two of the false arcs wrote or reached a THEOREM_REGISTRY or LAW_MAP
+  row. The theorem-registry gate checks only that a declared law has a row, and B1210's claim-pool lock reads only declared laws,
+  so neither could see the gap.
+- **The rule** is B1214's, unchanged:
+  - LAW: a new general proposition proved here (a law, theorem, no-go, exact characterization or uniqueness over a family);
+  - NOT LAW: a verification, harvest, audit, census, sealed-cell decision, ledger-write, status report or correction, even with
+    theorem vocabulary.
+
+  B1242's review is followed as precedent: a standard formula applied to the object is not a law of the object. All 32 arcs were
+  read in full (FINDINGS, verdict, registry and law-map rows), so the calls carry no read asymmetry.
+- **Fourteen now declare true**, each with a dated `creates_law_corrected` note naming its registry row and lock:
+  - B1304: the positive half of the tower's law (its addendum);
+  - B1380: the carrier theorem, A5 ⟹ A5b. Its registry row T-CARRIER-PUNCTURE is new, since the arc had written only a dated note
+    into B1003's LAW_MAP row;
+  - B1385: the Eisenstein cusp lemma and the global parity;
+  - B1389: the full spectrum, characterized over every Higgs direction;
+  - B1390: the Eisenstein axes;
+  - B1397: the parity of a cap's generations;
+  - B1398: the frame's verdict on three;
+  - B1505: no torus locus on the known orbifold links;
+  - B1506: the loci lemma on every level, and the level law for any orbit size;
+  - B1509: Proposition E and Corollary C;
+  - B1510: Theorem C, a two-sided deformation counts zero;
+  - B1511: the tower's two shapes, with no 5̄′ on any level;
+  - B1512: m004's symmetries on Ballas' family;
+  - B1513: T-HIGGS-BULK-ACYCLIC.
+- **Eighteen keep false**, each with a dated `creates_law_reviewed` note giving its class and basis:
+  - censuses and sealed decisions on cells: B1388, B1394, B1399, B1501;
+  - a standard theorem applied in the frame: B1386, B1391, B1393, B1396, B1500, B1502, B1503, B1504;
+  - corollaries of cited or banked results: B1351, B1383;
+  - another seat's results restated: B1395;
+  - a no-go whose decisive steps are cited in kind: B1392;
+  - rereads with corrections: B1507, B1508.
+
+  B1351 wrote no row of its own. Its id reaches the registry and the law map through B1393's and B1508's rows.
+- **The P3 claim pool regenerated** with B1213's `reproduce.sh` (REPRODUCES). Declared laws go from 93 to 107, and the 14 move
+  from tier S to tier L. B1515–B1517, banked since the last regeneration, join the pool. None leaves: 599 arcs become 602.
+- **Checks.**
+  - Run on B1519's tree (`27220af6`). Gates: 30 PASS and the standing `relay-debt` failure, the same as that tree's own run.
+  - `tests/test_arc_verdict_schema.py`, `tests/test_b1210_spine_sweep.py`, `tests/test_b1213_claim_base.py` and
+    `tests/test_b1214_creates_law_reaudit.py`: 1 291 passed.
+  - The hygiene tests of B1509–B1513's locks assert `creates_law is False`. They pass at the base and fail now. Updating
+    them waits on the owner.
+  - The locks of B1211, B1240, B1241 and B1514–B1519 pass.
+- **ERROR_LEDGER:** one row, the declaration slip and its rule.
+
 ## B1519 banked: GENESIS v1.2 — main's v1.1 as the head, the seat's v1.1 folded in, the signed powers placed, the bar at GAP4, the observer line carried and FK12 registered (PROVED)
 
 - **The head is main's v1.1** (its B1454, `f655034b`), taken as main asked; all 23 of its changes are accepted. Three were checked at

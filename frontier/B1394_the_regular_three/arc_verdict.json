@@ -14,6 +14,14 @@
  "superseded_by": null,
  "authored_by": "cc",
  "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": "false (declared at banking; the arc wrote or reached a registry or law-map row)",
+  "decision": "false",
+  "class": "SEALED CENSUS + ANOTHER SEAT'S ARGUMENT GENERALISED",
+  "basis": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: the theorem is the audit lane's R32 fixed-fibre Hopf-trace identity stated for every member and every k (the arc's words), the Hopf trace formula applied, so the law, if any, is R32's; the product is the sealed census of m004's arithmetic class (P1 holds on 96 of 96, P2 one half, P3 SOME on 54 pairs), whose mechanism B1396 explained later"
+ },
  "identifications": [],
  "claim_one_line": "THE REGULAR THREE, run as sealed (a4712e8d; sL-7/sL-8 after B1393): theorem (the physical-bridge lane's R32 Hopf-trace argument generalised): for an order-3 rotation with k = 3m fixed arcs and a g-invariant rank-one flat L with lift, the sum of the arc weights is L(g^; Q); if H*(Q; L) = 0 the weights are balanced and the source-mode module is m copies of the regular representation. Census (the 99 arithmetic census members and cube~3.24; every order-3 rotation subgroup; every invariant character to mu_3; twisted Betti numbers over F_7 and F_13; arc counts cross-checked with B1390's instrument on all 100): 9 members with rotations, 213 pairs (21 trivial). P1 holds (96 of 96 acyclic non-trivial pairs balanced). P2: 96 of 192 non-trivial pairs acyclic. P3 SOME, against the sealed prior (NONE ~60%): 54 non-acyclic non-trivial pairs are unbalanced (s959 2, o10_150704 4, o10_150725 2, o10_150729 20, cube~3.24 26); on k = 3 all three arcs carry one weight, on o10_150704 (k = 6) the counts are (4, 1, 1); every one has h1 = h2 >= 2, massless bulk modes of the same charge. They are the only places in the class where a symmetric source three is not regular, registered as a lead for the lane and sL-7. Two earlier attempts wrote no census number (the second killed at cube~3.24 for memory: B1385's StateMember builds a sympy H_1 this instrument never reads); the third skips it, nothing computed changed. No physics crossed. 0 of 19."
 }

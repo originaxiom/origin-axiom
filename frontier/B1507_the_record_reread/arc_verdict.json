@@ -23,6 +23,14 @@
  "superseded_by": null,
  "authored_by": "cc",
  "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": "false (declared at banking; the arc wrote or reached a registry or law-map row)",
+  "decision": "false",
+  "class": "HARVEST + VERIFICATION + CORRECTIONS -- the record reread",
+  "basis": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: the arc rereads the record and the other seats against B1506, recomputes the physics seat's R64 and R68 (credited in T-ONE-ELEMENT-TWO-FACES), computes s961's deck-inverting isometries (T-THE-DECK-INVERSION, a fact about one manifold) and applies corrections and scopes; it proves no general proposition of its own"
+ },
  "identifications": [
   {
    "row": "I-14",

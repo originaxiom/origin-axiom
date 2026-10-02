@@ -13,7 +13,15 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": false,
+  "why": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: Theorem C: a deformation of A + 1 with no invariant vector or covector has main's index 0 (upper semicontinuity of H^2, the Euler characteristic, Poincare-Lefschetz duality), with Theorems A, B and D proved at the seal: general propositions about deformations of A + 1 for any knot-group representation with the stated hypotheses (its sweep found none)",
+  "registry_row": "T-TWO-SIDED-ZERO",
+  "lock": "tests/test_b1510_the_two_sided_deformation.py"
+ },
  "identifications": [],
  "claim_one_line": "THE TWO-SIDED DEFORMATION (B1509's lead 1, at the owner's 'do the recomendation for next'; sealed at 0cb24e2b before the run): the 16's and the 16*'s singlets c and c* switched on together on the audit lane's harmonic vacuum A + 1, A = mu rho_q, hold in the bulk without a source, push it onto the end, and count zero. Proved at seal: no sl(4) obstruction at any order (Theorem A, with cusp rigidity and a regular cusp pair from F15/R55); s t != 0 gives an absolutely irreducible deformation, a closed orbit; the line's longitude moves by s t kappa_l at order two, kappa_l = +-<e u c, c*>, zero exactly at mu = -1; the fixed-end class is F15's matter-retention row, R56's F-term F_S = lambda Q.Qtilde, nonzero; main's index is 0 on every two-sided deformation (Theorem C: upper semicontinuity of H^2). Sealed run at the six points over GF(1009), GF(1033), GF(1129) and exactly at order two: D1-D6 hold (the chiral index read at its jet's own edge is a truncation artifact, shown post-run); P1 the free-end branch exists to order 10 at all 18 pairs, P2 the odd obstructions lie on one line, P3 a chiral branch keeping the line's (1,1) exists to order 10 at mu = -1 and counts 0 with (a1,b1,r1,q1) = (1,1,1,1), P4 a1 = b1 = 0 on the free-end branch: YES; P5 NO, because the instrument's free-end branch moves along Ballas' q-tangent and keeps the line's longitude at 1 through order 14 (a generic branch moves it at order four). The pair is vector-like: B1509's 10' belongs to the one-sided extension alone. I-26 stays UNEARNED. 0 of 19."
 }
