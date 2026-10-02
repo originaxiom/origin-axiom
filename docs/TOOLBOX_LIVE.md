@@ -73,6 +73,11 @@ escalation are the proof).
     `frontier/B1446_…/verification/parabolic.py::point(ell, 'end' | 'cusp+' | 'cusp-')` reaches the boundary-parabolic
     points by continuation in the complex plane; `index_num.py::index` is the class index of a numerically given
     module by singular values (report the gap). **Do not run these during a certifying suite: it doubles its time.**
+  - `frontier/B1447_the_branch_off_one_members_higgs_curve/verification/branch_obstruction.py` — a representation of a
+    level given by matrices on x, y, t: `G` (the relators), `dG`, classes supported in a block, and the second-order
+    test (is G(εu)/ε² in the image of dG); `branch_follow.py::newton` and `burnside` construct nearby exact
+    representations and test irreducibility; `branch_parabolic.py` runs a homotopy to a single eigenvalue of the
+    meridian. Works for any rank; **mpmath's `matrix(3, 3, list)` ignores the list — build from nested lists.**
   - `frontier/B1435_the_interaction_census/verification/relcup.py` — the relative triple product a ∪ b ∪ h on an
     explicit relative fundamental chain (`Bundle.fundamental()` asserts ∂C = z as integer chains); modules and
     cocycles over a prime field; `interaction_census.py` drives it; `exact_couplings.py` is the second

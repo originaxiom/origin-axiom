@@ -7226,12 +7226,13 @@
   "B1329": {
    "slug": "the vanishing is not formal",
    "motifs": [
+    "monoid",
     "action",
     "dickson_tower"
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 3,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -7317,6 +7318,7 @@
   "B1331": {
    "slug": "the two images coincide",
    "motifs": [
+    "monoid",
     "closing",
     "action",
     "dickson_tower",
@@ -7325,14 +7327,15 @@
     "firewall"
    ],
    "refs": [],
-   "obstacle": "numerology",
+   "obstacle": "spacetime_3p1",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "topology"
+   "domain": "dynamics"
   },
   "B1332": {
    "slug": "the cup product vanishes",
    "motifs": [
+    "monoid",
     "coupling",
     "action",
     "dickson_tower",
@@ -7342,9 +7345,9 @@
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 2,
+   "obstacle_conf": 4,
    "status": "banked",
-   "domain": "physics"
+   "domain": "dynamics"
   },
   "B1333": {
    "slug": "the index on several cusps",
@@ -9074,6 +9077,25 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 6,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1447": {
+   "slug": "the branch off one members higgs curve",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L235",
+    "L237"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B144": {

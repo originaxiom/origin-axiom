@@ -3103,11 +3103,18 @@ six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owne
 - **(a) The branch.** At a root of the sextic, does a family of flat connections of rank three with two members'
   Higgs on leave the first member's curve; what are its boundary-parabolic points; what torsions sit on them. The
   real root on the arc of real representations (κ = 1.99046) first.
+  **Run 2026-10-02 (B1447):** (a) answered on this level. The obstruction vanishes at all six branch points; at the
+  real one an irreducible two-dimensional family of rank-three representations leaves the curve; on it a triplet's
+  three eigenvalues are distinct (lightest 3.6·s²); its one parabolic point found has spectrum 1, e, 1/e in every
+  triplet and class index zero, though the triplets are not self-dual. Still open under (a): representations on the
+  other five branches; whether the branch has other parabolic points; a third member's Higgs (a further branch).
 - **(b) Which group.** The branch presupposes a group in which two members' Higgs directions are non-commuting
   roots (L235 (b)); the frame's E₆ assignments have to be read for it.
 - **(c) The couplings with η = ℓ^±1** (624 on eleven levels): one SL(2), not two; the mass term there.
 - **(d) Torsion to mass.** The pair of eigenvalues e, 1/e of the monodromy on the fibre's cohomology behind each
   torsion, evaluated at the parabolic points.
+  **Run 2026-10-02 (B1447 §7):** |log e| = 1.5467 for the generation's sectors at the complete cusp (the pair is off
+  the unit circle there), 1.8367 for the unmatched ones, and e = −1 at the quaternion point. Evaluated, not read.
 - **(e) The other levels:** the parabolic points on the four-fold and five-fold covers and on the states with every
   coupling, where the slopes are not integers.
 - **(f) The three sector classes not in ℚ(√5, √−3)** at the complete cusp: their field.

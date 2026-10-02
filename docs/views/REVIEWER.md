@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1275** |
-| words of findings prose | **968,741** |
-| test lock files referenced | **753** |
-| arcs carrying an authored verdict | **1275** (100.0 %) |
+| research arcs with findings | **1276** |
+| words of findings prose | **970,963** |
+| test lock files referenced | **754** |
+| arcs carrying an authored verdict | **1276** (100.0 %) |
 | recorded closures | **799** (632 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 850 |
+| PROVED | 851 |
 | NEGATIVE | 323 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1446`** (1480 words, 1 locks)  
-THE PARABOLIC POINTS AND THE BRANCH POINTS, on the root's three-fold cover. The frame imposes unipotent peripheral holonomy at a background; on a periodic curve (B1444) only finitely many points have parabolic or trivial peripheral holonomy -- the reducible end and the points with kappa = -2 (two conjugate complete-cusp points on the rational quartic of a character of order four, the quaternion point on the line of a character of order two). Computed on all twelve curves: the torsion of the generation's sectors at the complete cusp is -sqrt5 +- sqrt(-3), of modulus 2 sqrt2 (exact; 336 sector torsions in five classes). Computed on all 96 couplings of the 48 backgrounds at every combination of parabolic points of the extension's curve and the Higgs character's (B1445): at the 288 doubly-parabolic points the bidoublet's cusp holonomy is unipotent and has invariants, and its class index is ZERO (singular values at 60 digits, gap 0.07 against 8e-60) -- only the classes the boundary forces; a hope refuted, that an irreducible background might carry the frame's index. With the extension at its end and the Higgs at its complete point the bidoublet is acyclic with torsion (sqrt5 +- sqrt(-3))^2 = 2 +- 2 sqrt(-15), modulus 8, for the up coupling and 16 for the down, lepton and neutrino couplings, the same in every background. The branch points: the three Higgs characters of a deck orbit have trivial product and equal slopes, and on the curve of one the doubly matched sectors are exactly those of the other two members; from B1444's exact record that sector has a class only at the reducible ends and at the six roots of the irreducible sextic u^6 - 8u^4 + 12u^3 + 4 (verified numerically), one of them real on the arc of real representations between the root's background and the sister's (w = 0.99037, kappa = 1.99046) with the frame's normalisation of the meridian. So a second member's Higgs can be switched on along the first's curve at exactly six algebraic points: the location where the members of an orbit can differ. Not computed: whether a branch of flat connections leaves there and what sits on it. One level; torsion is not a mass; the numbers do not resemble the observed masses; no value. 0 of 19.  
-`B1446_the_parabolic_points_and_the_branch_points/FINDINGS.md`
+**PROVED — `B1447`** (1772 words, 1 locks)  
+THE BRANCH OFF ONE MEMBER'S HIGGS CURVE, on the root's three-fold cover. At a root of B1446's sextic the block representation R0 = (rho (x) b) + c of the level into SL(3), whose off-diagonal blocks are the doubly matched sector and its dual, has h^1 = 5 against 3 at a generic point of the curve, one class in each block, and with both switched on the second-order term lies in the image of the linearised relators (to 1e-13, at all six branch points and both signs): the obstruction vanishes. At the real branch point (kappa = 1.99046, on the arc of real representations) Gauss-Newton from that direction converges to exact representations (residual 1e-48 to 1e-60) whose matrices span all of M_3: IRREDUCIBLE flat connections of rank three with the other two members' Higgs both switched on, a two-dimensional family (h^1 = 2 for sl_3). The link is structural: the Higgs characters of a deck orbit have trivial product and the third character of the triplet through one member's coupled pair is a sector character of another member -- on -LLLR's three-fold cover, where those are 12 of 111 characters, in all 16 orbits. On the branch the monodromy on a triplet's fibre cohomology has THREE DISTINCT eigenvalues: at the branch point e, 1/e, 1 (one member's lifted pair and another member's state, not lifted); off it the lightest grows as 3.6 s^2 and the pair splits -- the first configuration in the record in which states of different members of an orbit carry different numbers, the small one small because the other two members' Higgs are partly on. Imposing a single eigenvalue on the meridian, 22 of 32 homotopies from the branch reach ONE AND THE SAME point (the other ten stall): an irreducible representation with the longitude a regular unipotent and the meridian a scalar times one; there every one of the 16 triplets has spectrum 1, e, 1/e with e + 1/e real, from 1.73 to 43.4. The eigenvalues behind B1446's exact torsions are recorded (|log e| = 1.5467 for the generation's sectors at the complete cusp; e = -1 at the quaternion point). Not proved: that the branch has no other parabolic point. Not computed: representations on the other five branches, a third member's Higgs, the same on other levels. Which group of the frame holds two members' Higgs directions as non-commuting roots is not established. Eigenvalues of a monodromy are not masses; no value. 0 of 19.  
+`B1447_the_branch_off_one_members_higgs_curve/FINDINGS.md`
 
 **NEGATIVE — `B1442`** (728 words, 1 locks)  
 THE TWO-GENERATION BACKGROUNDS: NONE. Sealed at 7f080e49 before any background was assembled on a manifold with more than one cusp. On the seventeen several-cusped manifolds where one rank-two module of the frame has class index two (B1441), every background of B1432's frame was assembled -- every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W) -- with the six sector indices by B1333's several-cusp code. No background has its five charged sectors at index two, and on sixteen of the seventeen no generation-shaped background exists at all; the seventeenth (m009 deg 6 #25, two cusps, characters of order 8) has 32, all of count one. For the nine carriers with sign characters only the absence is forced: with a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite. Predictions: G5 YES; G1, G2, G3, G4 NO. The count per background stays at one on every manifold the record has computed, with one cusp or several: an index of two is a fact about a single sector that the frame's charge relations do not let five sectors share. Not excluded: covers above degree six, special classes not tried, three live cusps, another frame.  

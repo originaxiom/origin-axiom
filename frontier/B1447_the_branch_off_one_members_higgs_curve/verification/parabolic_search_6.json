@@ -1,0 +1,26 @@
+[
+ {
+  "s": "0.1",
+  "phase_index": 6,
+  "found": false,
+  "why": "target not reached: 2.81e-11"
+ },
+ {
+  "s": "0.2",
+  "phase_index": 6,
+  "found": false,
+  "why": "target not reached: 3.02e-11"
+ },
+ {
+  "s": "0.3",
+  "phase_index": 6,
+  "found": false,
+  "why": "target not reached: 3.12e-11"
+ },
+ {
+  "s": "0.45",
+  "phase_index": 6,
+  "found": false,
+  "why": "target not reached: 1.25e-10"
+ }
+]

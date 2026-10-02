@@ -1,0 +1,13 @@
+generic point of the curve (control: no off-diagonal class expected)
+u = -0.7 a = (4, 3): rank dG 17, kernel 10, coboundaries 7, h1 = 3, h2 = 1, classes in the upper block 0, in the lower block 0
+the real branch point on the arc of real representations
+u = -0.620704664082 a = (4, 3): rank dG 15, kernel 12, coboundaries 7, h1 = 5, h2 = 3, classes in the upper block 1, in the lower block 1
+    upper alone            second-order term 3.7086699e-31, distance from the image of dG 2.6274232e-33
+    lower alone            second-order term 3.7086699e-31, distance from the image of dG 2.6274232e-33
+    both                   second-order term 10.429235, distance from the image of dG 3.6226623e-14
+    both, opposite sign    second-order term 10.429235, distance from the image of dG 3.6226623e-14
+u = -0.620704664082 a = (4, 5): rank dG 15, kernel 12, coboundaries 7, h1 = 5, h2 = 3, classes in the upper block 1, in the lower block 1
+    upper alone            second-order term 4.2606139e-31, distance from the image of dG 1.7416866e-33
+    lower alone            second-order term 4.2606139e-31, distance from the image of dG 1.7416866e-33
+    both                   second-order term 10.284588, distance from the image of dG 6.3683104e-14
+    both, opposite sign    second-order term 10.284588, distance from the image of dG 6.3683104e-14

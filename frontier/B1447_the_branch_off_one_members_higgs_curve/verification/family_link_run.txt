@@ -1,0 +1,16 @@
++LR level 3: torsion 16, backgrounds 48, orbit sizes {3: 16}
+    16 orbits: down | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 4 of 4 | pool covers 12 of 15 characters
+    16 orbits: up | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 2 of 4 | pool covers 12 of 15 characters
+-LR level 3: torsion 20, backgrounds 96, orbit sizes {3: 32}
+    16 orbits: down | distinct eta 1 | eta product trivial False | l product trivial False | thirds that are sector characters of members 1, 2: 4 of 4 | pool covers 14 of 19 characters
+    16 orbits: down | distinct eta 3 | eta product trivial False | l product trivial False | thirds that are sector characters of members 1, 2: 2 of 4 | pool covers 15 of 19 characters
+    16 orbits: up | distinct eta 1 | eta product trivial False | l product trivial False | thirds that are sector characters of members 1, 2: 4 of 4 | pool covers 15 of 19 characters
+    16 orbits: up | distinct eta 3 | eta product trivial False | l product trivial False | thirds that are sector characters of members 1, 2: 2 of 4 | pool covers 14 of 19 characters
++LLR level 3: torsion 50, backgrounds 48, orbit sizes {3: 16}
+     8 orbits: down | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 2 of 4 | pool covers 16 of 49 characters
+     8 orbits: down | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 3 of 4 | pool covers 16 of 49 characters
+     8 orbits: up | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 2 of 4 | pool covers 16 of 49 characters
+     8 orbits: up | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 3 of 4 | pool covers 16 of 49 characters
+-LLLR level 3: torsion 112, backgrounds 48, orbit sizes {3: 16}
+    16 orbits: down | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 4 of 4 | pool covers 12 of 111 characters
+    16 orbits: up | distinct eta 3 | eta product trivial True | l product trivial True | thirds that are sector characters of members 1, 2: 2 of 4 | pool covers 12 of 111 characters

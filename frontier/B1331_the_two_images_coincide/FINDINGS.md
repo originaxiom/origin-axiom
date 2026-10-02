@@ -61,3 +61,15 @@ all of which looked for a conjugation on `M`.
 
 Reproduce: `verification/subspace.py` (the subspace comparison), with `q12.py`, `recog12.py`,
 `final_index.py` supplying exact `Q(zeta_12)` arithmetic and the recognised geometric holonomy.
+
+## Escalation (2026-10-02)
+
+ESCALATED(2026-10-02, B1447). This arc is OPEN on one named statement, shared with B1329, B1331 and B1332: **the
+class index vanishes on a self-dual representation twisted by a cusp-trivial character** (equivalently, the image
+of H¹(M; V) in the cohomology of the cusp is Lagrangian). It is unproved. Owed: a proof, or a counterexample.
+New evidence since this arc was written, none of it a proof: B1446 computed the index on 288 irreducible,
+non-unitary, boundary-unipotent rank-four modules of the root's three-fold cover (tensor products of two periodic
+curves' representations, twisted) — zero on all, with only the classes the boundary forces; and B1447 computed it
+on 16 rank-three modules at a boundary-unipotent point that are **not** self-dual — zero on all 16, which the
+statement as posed does not cover and which suggests the vanishing is wider than self-duality. Owner of the debt:
+cc. It is carried, not buried.
