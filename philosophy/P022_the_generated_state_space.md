@@ -1,5 +1,8 @@
 # P022 — The generated state space: genesis produces an architecture, not a winner
 
+> **Canonical statement (2026-10-02): `../GENESIS.md` v1.0.** The generated state space below is GENESIS §3; its root and
+> selectors are §4; the forks it raises are GENESIS FK2–FK9. Where this file disagrees with GENESIS, GENESIS holds.
+
 > **Philosophy — motivation only** (`GOVERNANCE.md`). Not a claim; never a premise; nothing promotes to `../CLAIMS.md`.
 > Cites the mathematics one-way (B1379, B1380, B1382–B1384). Written 2026-09-27, on the owner's instruction that *"the most
 > important is to understand the philosophy shift around genesis"*. It records the shift the web seats made precise

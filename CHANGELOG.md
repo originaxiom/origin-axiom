@@ -1,5 +1,25 @@
 # Changelog
 
+## The headlines brought into line with GENESIS v1.0; the superseded text archived verbatim
+
+- **Rewritten in place**, each replaced passage kept verbatim in `docs/archive/SUPERSEDED_2026-10-02_GENESIS_V1.md` (nine passages,
+  as they stood at e1bc9c36):
+  - README: a new state-of-the-programme section as of B1516 (the foundations, how results are read, where the record stands); the
+    B1134 narrative kept beneath it, its first sentence corrected from "a single object" to "the root of the state space they
+    generate";
+  - THE_SM_VERDICT: the verdict's first sentence scoped to the root in one route, with a scope note;
+  - the chirality map: a current-state block at the head (non-zero counts in three frames, each scoped), the C3 row, and two
+    sentences dated in place;
+  - the verdict of the object: "the word states cannot help" scoped to the free-cusp frame;
+  - the negatives note: the tower's boundary-acyclic statement scoped to q ≠ 1;
+  - the end-to-end chain: Part I's output is the root of the generated state space.
+- **Pointers added:** the theorem ledger's Part I (with C4's puncture marked CONDITIONAL after R57), P000, P019, P022, the state
+  (the input count is 4 + 8 = 12), the campaign board, the verdict of the object's head.
+- **WORKING_RULES:** the rule adopted with the owner's approval of the plan: GENESIS is canonical; every result carries its scope; a
+  stale headline is rewritten in place and archived, not only annotated; labels are swept before they are minted.
+- Gates: all pass except relay-debt, the known baseline. The 28 test files that read a changed document, with the B1516 lock: 179
+  passed, and the one failure is the known relay-debt baseline (`test_all_twenty_gates_pass_now`). 0 of 19.
+
 ## B1516 banked: GENESIS v1 — the foundations stated once, with one collision-free numbering, and the scope tag made data (PROVED)
 
 - **The product.** `GENESIS.md` v1.0 at the repository root, canonical and versioned: where any document disagrees with it, it

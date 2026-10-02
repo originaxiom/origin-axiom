@@ -3,6 +3,10 @@
 > **Philosophy — motivation only** (`GOVERNANCE.md`). Not a claim; never a premise of a proof; nothing promotes to
 > `../CLAIMS.md`. Cites the mathematics one-way.
 
+> **Placed in `../GENESIS.md` v1.0 (2026-10-02).** P000's question is the form of PF1, and its premise 1 is P019's bridge to
+> PF2. Premise 3's metallic family is LᵐP inside the generated state space (GM5c), and the torsion criterion SE1 selects
+> m = 1 in it (B126). "The family is the intended shape" is GENESIS §1's reading of this file.
+
 ## The move
 
 "Why is there something rather than nothing?" is malformed: to *define* "nothing" is to determine it — to make it

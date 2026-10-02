@@ -102,6 +102,11 @@ census makes only the first.)
 ## PART I — THE GENESIS: FROM "NOTHING" TO A KNOT
 *(THE CHAIN C1–C6; locks `tests/test_b749_genesis_forks.py`, `test_b285_*`)*
 
+> **Read with `../GENESIS.md` v1.0 (2026-10-02, B1516), the canonical statement of this part.** Its output is the root of a
+> generated state space, not a single object (GENESIS §3–§4). The puncture of C4 is CONDITIONAL on faithful F₂ word data, since
+> the audit lane's R57 rejects B1380 §3's naturality argument (GENESIS GM4). Selecting the root needs aperiodicity, the carrier,
+> torsion-free first homology and orientation, and each is needed.
+
 **The first constraint.** *Nothing has no description.* Not a state, not a
 substance — a refusal. If nothing cannot describe itself, description must be
 inexhaustible; existence is that inexhaustibility taking form.
@@ -131,7 +136,7 @@ inexhaustible; existence is that inexhaustibility taking form.
   hyperbolic structure, trace field ℚ(√−3), *the* arithmetic knot.
 
 **Status of Part I:** three declared choices, all priced; everything else forced.
-Output: a specific, canonical, maximally-symmetric mathematical object.
+Output: the root of the generated state space, a specific, canonical, maximally-symmetric mathematical object (GENESIS §4).
 
 ---
 

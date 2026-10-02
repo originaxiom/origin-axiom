@@ -2,8 +2,23 @@
 
 **Date:** 2026-09-06 · **Seat:** cc · **Purpose:** the owner asked for the repository's chirality knowledge to be retrieved
 and the remaining computations run. This document is the retrieval; `frontier/B1280_the_chirality_probe/` is the
-computation. It changes no value (0 of 19), no identification and no price. It closes two named computations and
-states, for the first time in one place, why every net chirality this record has ever computed on the object is zero.
+computation. It changes no value (0 of 19), no identification and no price. It closed two named computations and
+stated, for the first time in one place, why every net chirality computed on the object until 2026-09-06 was zero.
+
+> **Current state (2026-10-02; read with `../GENESIS.md` v1.0).** Net chirality is no longer zero everywhere in the record.
+> Non-zero counts exist in three frames, each with its scope:
+> - **main's class-index frame:** the index on reducible non-split modules fires on members of m004's class and on m004's levels,
+>   and generation-shaped backgrounds, each counting ±1, exist on 95 of the 758 word states to length 12 (main B1418, B1432–B1439;
+>   this seat's B1374–B1378 and B1506);
+> - **this seat's free-cusp frame:** cube~3.24, a cover in m004's class, counts ±2, but the count moves with the cusp cut and the
+>   frame's 78 makes the local spectrum anomalous (B1386–B1389);
+> - **the harmonic E₈ frame, on m004's own family:** a 10′ without its 5̄′ off q = 1 (B1509, B1511), and at q = 1 a 10̄′ with a 5̄′
+>   on one background, with opposite signs (B1515).
+>
+> None is yet a generation in physics: non-split backgrounds carry no harmonic metric without a source, the free-cusp count
+> depends on the end, and the harmonic frame has not produced a matching pair (GENESIS §7). Sections 0–7 are the map as of
+> 2026-09-06, kept as written except for the C3 row and two sentences dated in place; their zero is the zero of the
+> representations B1280 read. The addenda after §7 carry the record forward.
 
 ## 0. Four things the record calls "chirality" — kept apart
 
@@ -11,7 +26,7 @@ states, for the first time in one place, why every net chirality this record has
 |---|---|---|---|
 | **C1 — knot chirality (the CP face)** | is the object isometric to its mirror? | m004 is amphichiral, CS = 0 (B136, B152, B211, B1224); the family R^mL^m is uniformly amphichiral (L32); chiral bundles exist strictly above it (B145, B147: RRL/RLL, field ℚ(√−7), B316) | SETTLED: the object is the amphichiral minimum |
 | **C2 — representation chirality** | is the local system V self-dual (V ≅ V\*)? | every SL(2)-factoring holonomy is self-dual (E65); the θ-odd E₆(ℂ) deformations are not (B576, B582: Zariski closure e₆, 27 ≇ 27̄); B71's W1, W2 are the only non-self-dual SL(3) components (B102, B1260) | SETTLED: non-self-dual systems exist and are catalogued |
-| **C3 — net chirality (the count)** | N(V) := h¹(M;V) − h¹(M;V\*) ≠ 0 — a chiral spectrum of zero modes | the walls of §1; every value ever computed is in §2 | **ZERO on every representation computed, and now by theorem on the whole θ-odd germ and on all of W1 ∪ W2 (B1280)** |
+| **C3 — net chirality (the count)** | N(V) := h¹(M;V) − h¹(M;V\*) ≠ 0 — a chiral spectrum of zero modes | the walls of §1; every value ever computed is in §2 | **ZERO on every representation computed by 2026-09-06, and by theorem on the whole θ-odd germ and on all of W1 ∪ W2 (B1280); NON-ZERO since, in three frames (the current state above)** |
 | **C4 — the chirality bit** | the orientation / sign that a chiral theory must carry | the object cannot sign it (B713, B760: a non-canonical Galois torsor); a closing's orientation (B1273); the observer's registering measurement (B871); registerable = the generation stays chiral (B863) | OPEN as a source: the object registers it, does not supply it |
 
 The Standard Model needs C3 (a chiral spectrum) and C4 (a definite sign). C2 is necessary for C3 and is available;
@@ -64,7 +79,7 @@ W-boundary is sharpened to N(27) = 0 near the geometric point.
 | the θ-odd E₆(ℂ) point reached at 600 bits (relator residual 10⁻⁶³) | **yes** (closure e₆) | **no** (h⁰(∂M; 27_s) = h⁰(∂M; 27̄_s) = 0) | 0 | 0 | 0 | B1268 §3 |
 | **the whole E₆ germ at the geometric point, θ-odd deformations included, on m004 and every M_n** | **yes** off F₄ | wherever | h¹(27_ρ) | = h¹(ι\*27_ρ) | **0 by theorem** | **B1280** |
 
-No row is nonzero. The two theorems say why the rows that *could* have been nonzero — non-self-dual with cusp-fixed
+No row is nonzero (as of 2026-09-06; the current state above says what came after). The two theorems say why the rows that *could* have been nonzero — non-self-dual with cusp-fixed
 vectors — are not: **the object's own isometries pair every such system with its dual on cohomology.** The
 period-2 swap τ does it for the elliptic SL(3) components (on their cusp-fixed curve, which is the branch locus of
 the trace coordinates), the inversion ι does it for the E₆ family (on the whole germ) and for the abelian sector
@@ -461,9 +476,10 @@ definition, N(V) = h¹(M;V) − h¹(M;V\*):
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:
 every closed closing (W-closed), the mirror quotient (W-mirror-quotient), the cusped object's abelian sector
 (W-abelian), its elliptic SL(3) components on every cover (W-W1W2), and its E₆ deformation germ together with the fixed-vector locus along V₁₀ (W-θ-odd; B1350, B1352). It can
-still come from the singular G₂ closing (O4 — the curved cone, not a flat orbifold point: B1353; three of them only on the cover Y₃, told apart only by the deck's U(1)², while the object's own closing carries one neutral 27: B1356) or be supplied by the observer (O5). **The record's statement is
-sharpened, not changed: the object is vector-like on every representation it supplies; the Standard Model's
-chirality is the closing's or the observer's.** 0 of 19; price unchanged.
+still come from the singular G₂ closing (O4 — the curved cone, not a flat orbifold point: B1353; three of them only on the cover Y₃, told apart only by the deck's U(1)², while the object's own closing carries one neutral 27: B1356) or be supplied by the observer (O5). **The record's statement was,
+as of 2026-09-06, sharpened, not changed: the object is vector-like on every representation it supplied by then; the
+Standard Model's chirality is the closing's or the observer's.** Since then, non-split extensions on m004's levels and family,
+and states of its class, carry non-zero counts (the current state at the head). 0 of 19; price unchanged.
 
 > **Addendum (2026-10-01, B1508): chirality beyond m004.** The map's rows were read for scope under the owner's reframe that
 > "reality uses more" than m004.

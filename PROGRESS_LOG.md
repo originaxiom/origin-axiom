@@ -16751,3 +16751,19 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Tests and gates.** The lock: 18 fast and 1 slow, passing. The 51 test files that read a touched document, with the lock, the
   schema and the uniqueness tests: 1 593 passed. Gates: all pass except relay-debt, the known baseline.
 - I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — the headlines brought into line with GENESIS v1.0
+
+- Step 4 of the owner's plan: rewrite, don't append. Each stale headline found by the 2026-10-02 sweeps was rewritten in place,
+  and the text it replaced was archived verbatim (`docs/archive/SUPERSEDED_2026-10-02_GENESIS_V1.md`, nine passages at e1bc9c36).
+- The README's state section was as of B1134 and said the axioms force "a single object". It now opens with the state as of B1516:
+  the foundations in plain words, how results are read (frames and scope tags), and where the record stands. The B1134 narrative
+  stays beneath it, with its first sentence corrected.
+- The chirality map's head still said every computed net chirality was zero, two weeks after the first non-zero counts (main's
+  B1418, verified here as B1374) and a day after B1507's addendum had flagged it. Its head now states the current record by frame; its C3 row and two sentences are dated.
+- Scoped in place: the SM verdict's verdict sentence (one state, one route), the verdict of the object's word-state sentence (the
+  free-cusp frame), the negatives note's tower statement (q ≠ 1), the end-to-end chain's Part I output (the root).
+- Pointers: the theorem ledger (C4's puncture CONDITIONAL after R57), P000, P019, P022, the state (12 inputs, not 11), the campaign
+  board.
+- WORKING_RULES records the rule the owner approved with the plan.
+- No lock needed changing. Gates and the affected locks: as in CHANGELOG.

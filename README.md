@@ -2,8 +2,7 @@
 
 > **Foundations (2026-10-02, B1516): [`GENESIS.md`](GENESIS.md) v1.0 is canonical.** It states once, with one numbering,
 > the principle, the grammar, the generated state space with the figure-eight knot complement m004 as its root, the
-> frames in which results are computed, and the open forks. Where anything below disagrees with it (for example "a
-> single object"), GENESIS holds.
+> frames in which results are computed, and the open forks. Where anything below disagrees with it, GENESIS holds.
 
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The window (B1201–B1218) is the one where **the record audited itself**. A sweep of the live surfaces found **seven banked results being asserted as open** — the A2 stratum, the hypercharge direction and the spin lift all priced *free* against arcs that had assigned them; L175 counted open on two surfaces against a PROVED closure; L57 asserting a question a NEGATIVE had answered. **≈8.5 bits of phantom freedom removed, and the discrete freedom ledger closes to exactly {C, P}** — two relational bits, neither a selection from a menu. New error class **E53 (surface non-propagation)**; new instrument `scripts/checks/open_claim_sweep.py`. Suite 5745 green.
 
@@ -22,10 +21,53 @@ nothing cannot complete.
 
 ---
 
-## The state of the programme (as of B1134, 2026-08-22)
+## The state of the programme (as of B1516, 2026-10-02)
+
+### Foundations: `GENESIS.md` v1.0
+
+The programme starts from one principle: existence is what remains when cancelling to nothing cannot complete, and that
+remainder is a description that cannot be exhausted. Read as mathematics, a description is a word in two elementary updates of
+two integer records, the unit shears L and R. Each word with both letters, taken with a sign and up to rotation, is a state: a
+once-punctured-torus bundle, a hyperbolic 3-manifold with one cusp. There are 758 states up to word length 12.
+
+These states form the **generated state space**, the programme's architecture. Its root is the figure-eight knot complement
+**m004** (the word LR). Four inputs select it, and each is needed: aperiodicity, the punctured-torus carrier, torsion-free first
+homology and orientation. Torsion-freeness alone leaves m004 and its parent, the Gieseking manifold; orientation picks m004. The
+root is the emptiest state, since its fibre carries no non-trivial character that its monodromy fixes. It is the architecture's
+origin of coordinates, not its physical centre. The genesis is a conditional reconstruction of a chosen sector, not a derivation
+from nothing: the figure-eight was named before the axioms were written.
+
+### How results are read
+
+A **frame** turns flat bundles on a state into particle counts. Four are in use, and none is derived: this branch's free-cusp
+frame, main's class-index frame, the harmonic E₈ frame and the G₂ apex frame. Every result is a statement about a frame applied to
+an object, and carries a scope tag. A negative on m004 blocks nothing beyond its tag; `docs/views/CLOSED_DOORS.md` shows how far
+each closure reaches. The frames disagree on the same objects: every word state is closed in the free-cusp frame, while 95 of the
+758 carry a generation-shaped background in the class-index frame.
+
+### Where the record stands
+
+- **Structure, in frames.** Non-zero chiral counts exist in three frames, each with its scope:
+  - generation-shaped backgrounds, each counting ±1, in the class-index frame, on states across the architecture and on m004's
+    levels;
+  - a count of ±2 on cube~3.24, a cover in m004's class, in the free-cusp frame; the count moves with the cusp cut;
+  - on m004's own family in the harmonic frame, half-generations, or both halves on one background with opposite signs.
+
+  None is yet a generation in physics. The class-index backgrounds carry no harmonic metric without a source, the free-cusp count
+  depends on the end, and the harmonic frame has not produced a matching pair.
+- **Values.** 0 of the Standard Model's 19 parameters. The dictionary from geometry to particles (identification I-26) is
+  unearned.
+- **What closes the distance.** Five gaps, none closable on one state: the dictionary, the ends, the source, selection with a
+  null model, and dynamics (`GENESIS.md` §7). The order of work is `docs/OPEN_LEADS.md` sL-9: the bar and the null model first,
+  then the frames on states beyond m004.
+
+### The structure record, as of B1134 (2026-08-22)
+
+*Kept as written, except its first sentence, corrected on 2026-10-02; the original is in
+`docs/archive/SUPERSEDED_2026-10-02_GENESIS_V1.md`. "The object" below is the root, m004.*
 
 Six motivated axioms (A1–A6) plus one measured residual bit (A7) **conditionally force —
-given A1–A6, with A6 the minimality selection —** a single object:
+given A1–A6 —** the root of the state space they generate:
 the figure-eight knot complement, arising as the fixed point of a four-letter
 combination rule. The object is **two-ended** — hyperbolic at one end (trace field
 ℚ(√−3), McKay group 2T, boundary algebra **E₆**) and spherical at the other (ℚ(√5), 2I,

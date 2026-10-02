@@ -18,6 +18,9 @@ statement appears below; SM-facing content enters only as NO-GO links.*
 
 ## Part I — the genesis (P019's chain, priced by B749)
 
+> **Canonical statement (2026-10-02): `../GENESIS.md` v1.0.** Part I's links map to GENESIS IDs: C1 and C2 → the words route;
+> C3 → PF2; C4 → GM4; C5 → SE2; C6 → the root's identification (GENESIS §9). Where Part I disagrees with GENESIS, GENESIS holds.
+
 > **THE GENESIS HAS A SECOND, STRONGER ROUTE, AND THIS CHAIN DID NOT CITE IT UNTIL B1243
 > (2026-09-03).** `docs/UNIQUENESS_THEOREM.md` — banked 2026-05-28, nine days into the repo,
 > lock `tests/test_uniqueness_theorem.py` (9 green) — proves **A1–A7 ⟹ A = LR = [[2,1],[1,1]]
@@ -94,6 +97,8 @@ S(1,1), S(0,3), N(1,2), N(2,1)) only the once-punctured torus realizes the golde
 must kill every peripheral class in H₁, and no power of [[1,1],[1,0]] has an eigenvalue ±1. B749/F6's closed-torus sibling
 abelianizes the carrier's group (the word replaced by its letter counts: n + 1 factors of each length fall to 2 images), which
 is why only the hearing survives there. Lock: `tests/test_b1380_the_puncture_is_the_words.py`.
+**Read with GENESIS v1.0 (2026-10-02):** the audit lane's R57 rejects B1380 §3's naturality argument for keeping F₂ rather
+than its abelian quotient, so the puncture is CONDITIONAL on faithful F₂ word data and the surface category (GENESIS GM4).
 
 **C5 [AXIOM — orientation; PRICED, the most expensive].** The monodromy is taken
 orientation-preserving (golden SQUARED). Price computed (B749/F5 FRAGILE): the discarded

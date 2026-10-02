@@ -1,5 +1,9 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-10-02, B1516 — GENESIS v1)**: the foundations are stated once in `../GENESIS.md` (v1.0, canonical): the
+generated state space rooted at m004, the four frames, the scope tag on every result, five gaps and eleven forks. The board's
+entries below stop at 2026-09-08; the README's state section is current. 0 of 19.
+
 **LATEST (2026-09-08, B1302 addendum — THE THREE-GENERATION READING)**: on Y₁₂'s 768 one-triplet lines the flat direction
 ⟨N_{g₂}⟩ alone leaves **three generations of Q, u^c, d^c, L, e^c, ν^c, one Higgs pair and no exotic colour triplet — the
 MSSM's field content with right-handed neutrinos, vector-like** (every field with its mirror); the flavon VEVs of the

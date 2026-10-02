@@ -385,3 +385,32 @@ subset's gcd logged as the gcd; ERROR_LEDGER E11 instance).
 
 **How it composes with the standing rules.** It is the negative-side twin of "verify the verifier" (E52). Rule 12's "an unearned
 negative is as bad as numerology" now has a procedure. It lowers no bar for positives.
+
+
+## Rule (2026-10-02, the owner's approval of the foundations plan — adopted): GENESIS IS CANONICAL, AND EVERY RESULT CARRIES ITS SCOPE
+
+The owner, verbatim: **"id like to take our time, step back, and understand completely all the ways we could make our foundations
+as robust and sophisticated as it gets, so we lock once for all our genesis work"**, and, on the plan, **"execute the plan"**.
+
+**The rule.**
+- `GENESIS.md` (repository root) is the canonical statement of the foundations. Where any document disagrees with it, it holds and
+  the other document is fixed. Only an arc amends it, naming each item it touches, its old and new status and the evidence, and
+  the version number rises (GENESIS §10).
+- Every banked result carries a scope tag: the frame it was computed in, the object, its reach (single, class or general) and its
+  hypotheses (GENESIS §6). `tests/test_arc_verdict_schema.py` requires the tag from B1516 on, and the kill graph carries it for
+  this seat's closures from B1369 on.
+- A negative blocks only where its tag reaches. Before reading a closure as a block, read its tag (`docs/views/CLOSED_DOORS.md`).
+- A headline that goes stale is rewritten in place, and the replaced text is archived verbatim in `docs/archive/`; a currency note
+  alone does not fix a headline (B1516: the chirality map's head still said "zero" after B1507's dated addendum had found it out
+  of date).
+- A new label is swept for prior use before it is minted (B1516's E72 instance).
+
+**How it reads with the mandate above.** The mandate's item 3 (the covering relation as the one transport) is read with its
+amendment of 2026-10-01: cover transport is one demonstrated map, and filling descent is a candidate (GENESIS FK8). Its first
+application's "the words cannot supply a free cusp" is the free-cusp frame's statement (B1385's scope tag in the kill graph), and
+its "only exact transport" was corrected on 2026-10-01 (ERROR_LEDGER, the E9 instance on B1385).
+
+**First application, the same day (B1516).** GENESIS v1.0 written and verified with own code (C1–C10); 29 kill-graph entries
+tagged; the README, the SM verdict, the chirality map, the verdict of the object, the negatives note, the state, the end-to-end
+chain, the theorem ledger, P000, P019, P022 and the campaign board brought into line, with the replaced passages in
+`docs/archive/SUPERSEDED_2026-10-02_GENESIS_V1.md`.

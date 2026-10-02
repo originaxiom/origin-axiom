@@ -240,8 +240,8 @@ charge-orbit work, where integrality is physically forced — and **has never to
 
 ## THE VERDICT
 
-**The Standard Model question is closed as far as this object's own operations can take it,
-and the boundary is now a theorem rather than a series of disappointments.** The object
+**The Standard Model question is closed as far as the root's own operations can take it in this
+route, and that boundary is a theorem rather than a series of disappointments.** The object
 reaches a rank-6 Levi with a complex 27 and stops, because measurement is a centralizer
 operation and centralizers preserve rank. Crossing the remaining distance requires a 27 VEV,
 which is an input everywhere and canonical nowhere — **except possibly over the arithmetic,
@@ -251,6 +251,11 @@ where homogeneity fails and where this object's cubics live.**
 surface.** Everything else on the board — cosmology, the big bang, gravity, the other
 unexplained phenomena — is now downstream of a settled question rather than blocked behind an
 unsettled one.
+
+*(Scope, 2026-10-02, `../GENESIS.md` v1.0 §5–§6: this verdict is about one state, the root m004, in one route, the
+measurement cascade. It blocks nothing beyond that. "The entire remaining SM surface" above is this route's; the
+architecture's remaining distance is GENESIS §7's five gaps, and its other states and frames are §8's frontier. The
+original first sentence is in `archive/SUPERSEDED_2026-10-02_GENESIS_V1.md`.)*
 
 ---
 

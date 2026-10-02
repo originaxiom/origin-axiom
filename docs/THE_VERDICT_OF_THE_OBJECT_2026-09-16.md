@@ -3,6 +3,11 @@
 *The SM-derivation seat's capstone for its E₆ route, written on the owner's approval of the recommendation of 2026-09-16. Every statement
 below names the arc that proves it; the arcs carry locks; main has verified B1356–B1365 with its own code (B1415). The count is 0 of 19.*
 
+> **Read with `../GENESIS.md` v1.0 (2026-10-02).** This capstone is about one state, the root m004, in this seat's E₆ route.
+> Its "withholds its chirality" is that route's statement on the representations read by 2026-09-16. Non-split extensions on
+> m004's levels and family, and other states, carry non-zero counts in other frames (`CHIRALITY_MAP_2026-09-06.md`, the
+> current state). Read every negative here with its scope (`views/CLOSED_DOORS.md`).
+
 ## 0. In one paragraph
 
 The figure-eight knot complement fixes the Standard Model's structure and withholds its chirality. From the object alone the record
@@ -80,7 +85,9 @@ ends can make both halves chiral — two cusps at least (B1291's parity theorem 
 >   *(Currency, 2026-09-27, B1390: the class is 99 of B1186's 112. The other 13 share the field but have non-integral traces, so they
 >   are not commensurable with m004.)*
 > - The architecture enlarges it beyond B1186's census to every cover.
-> - The word states outside it cannot help, since none has a free cusp (B1385 T1).
+> - The word states outside it cannot help in this seat's free-cusp frame, since none has a free cusp (B1385 T1). In main's
+>   class-index frame 95 of them carry a generation-shaped background (main B1439), so this is the frame's statement (GENESIS
+>   §5; corrected 2026-10-02).
 > - In it, the Eisenstein face makes a chiral index generic at a hexagonal free cusp, wherever no symmetry negates the class
 >   (B1385 L1–L3; sL-6).
 >
