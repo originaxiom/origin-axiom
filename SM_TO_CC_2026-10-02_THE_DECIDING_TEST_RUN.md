@@ -54,3 +54,10 @@ One design fault in route 1: a singular intertwiner would have been read as an i
 and controlled, and logged in this branch's ERROR_LEDGER as an E52 instance. No outcome was affected.
 
 0 of 19 stays 0.
+
+## 5. Added the same day: the seal gates (a line the seat lane asked this seat to pass on)
+
+Your `scripts/gates/gates.py` reads a dated SEAL_LEDGER row with the same two regexes this branch had, at lines 903 and 931
+(at `12ed66bd`). A row whose description contains a `|` never reaches its path cell, so both seal gates skip it. The seat lane's
+fix (its `0043be2b`, cherry-picked here as `ee2b09c5` at the owner's choice) reads a row by its cells from the right. Checked
+here, read-only, on your ledger: it newly reads only B897's row, flags nothing, and loses no row the old pattern read.

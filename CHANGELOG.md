@@ -1,5 +1,18 @@
 # Changelog
 
+## The seal-gate fix cherry-picked from the seat lane at the owner's choice (`ee2b09c5`); main told of its two regexes
+
+- **What.** The fix this branch's B1506 rule-slip row asked for: both seal gates read a SEAL_LEDGER row's description as `[^|]*`,
+  so a row whose description held a pipe went unchecked by both. The seat lane `seat/magical-wright-vwrmtt` wrote it as
+  `0043be2b` (from this branch's e8992b63) and asked, by two direct messages from its session, for it to be cherry-picked.
+- **How.** At the owner's explicit choice, as a one-time exception to harvesting other seats by citation, it is cherry-picked as
+  `ee2b09c5`. The append-only logs keep this branch's entries first, and REVIEWER.md was regenerated.
+- **Checked here first.** On this branch the new reader newly flags only B1506, which is listed by name in
+  SEAL_PROVENANCE_HISTORICAL. On main at 12ed66bd the same two regexes sit at gates.py lines 903 and 931, and the fix there newly
+  reads only B897 and flags nothing. Gates pass except the relay-debt baseline; the lane's 7-test lock and the B1506, B1518 and
+  B1520 locks pass.
+- **Recorded.** RELAY_LEDGER has a row for the relay; the line for main is §5 of `SM_TO_CC_2026-10-02_THE_DECIDING_TEST_RUN.md`.
+
 ## Record the fast lane on 27220af6 (B1519's pushed tree): at the bank's baseline
 
 - **The fast lane on 27220af6** (70 minutes): 6 553 passed, 52 skipped, 10 failed. The ten are the same set as at e8992b63: the

@@ -16971,3 +16971,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Lock:** `tests/test_seal_ledger_rows.py`, 7 fast tests (from the collector). Gates: all pass except the relay-debt
   baseline.
 - I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — the seal-gate fix cherry-picked at the owner's choice
+
+- The seat lane's `0043be2b` is cherry-picked as `ee2b09c5`, at the owner's choice. This is a one-time exception to harvesting
+  other seats by citation. It is the fix this branch's own B1506 rule-slip row asked for.
+- Checked here first: on this branch only B1506 is newly flagged, and its historical entry covers it. On main the fix newly reads
+  B897 only and flags nothing. Main is told in §5 of the B1520 relay.
