@@ -9,6 +9,11 @@ question: is a count taken on a cover or on its quotient?) · **Status:**
   > *Seal provenance (2026-10-01, B1509; self-caught).* `PREREGISTRATION.md` carries the banked identity in substance
   > (§1 D, B1375's census reproduced before the seal) but not the seal-provenance rule's BANKED IDENTITY and PRIOR ART markers.
   > The gate missed it: "|count|" in this arc's SEAL_LEDGER row ends the cell its regex reads (ERROR_LEDGER, rule slip).
+  >
+  > *Seal provenance, the gate fixed (2026-10-02).* Both seal gates now read a SEAL_LEDGER row by its cells from the right, so
+  > they read this arc's seal and verdict rows: seal-digests matches `664f8192…`, and seal-provenance flags this file, as the note
+  > above expected. The sealed text is not amended. It is listed by name and digest in `SEAL_PROVENANCE_HISTORICAL`
+  > (scripts/gates/gates.py), which holds only seals first ledgered before the fix (ERROR_LEDGER, instrument slip, 2026-10-02).
 - One defect in the instrument's own checking code, found in the first run's log before any prediction was read and fixed; the whole
   instrument was rerun (§8, ERROR_LEDGER E52 instance).
 
