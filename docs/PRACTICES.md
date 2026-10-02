@@ -65,6 +65,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | No speculative room (`speculations/`, `philosophy/`, `story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
 | See the repo first, then the literature: every arc from B1517 records its sweep (each head's sha, the terms, the sources read, a standing), and novelty wording needs a standing that allows it (WORKING_RULES 2026-10-02) | **TESTED** | `tests/test_arc_verdict_schema.py` through `scripts/checks/prior_work.py`'s `validate()`; reading the hits stays MANUAL |
+| The bar: a positive on a generated state is graded against its frame's base rate in a named unit, its comparable objects (the upper exact 95% limit of their rate), how the state was chosen with every look counted, and B614's gate at 0.01; grades DERIVED, REPRODUCED, FITTED, UNJUDGED (B1518) | **MANUAL** | `docs/THE_BAR.md`; the instrument `frontier/B1518_the_bar/verification/null_model.py` (planted controls TESTED in `tests/test_b1518_the_bar.py`) |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |
 
 ### Verification
@@ -672,6 +673,20 @@ Before an arc is designed, and before any sentence says a result is new, first, 
 terms and the heads: a reviewer can rerun the sweep. **The instance that made it a rule:** GENESIS v1.0 counted 758 states and
 called each a bundle, while B945 and Goodman–Heard–Hodgson (2008) already held the identity that merges reversed words. There
 are 536 manifolds (B1517).
+
+## The bar for a positive on a generated state — MANUAL
+
+(2026-10-02, B1518; OPEN_LEADS sL-9 item 1, GENESIS GAP4.) With hundreds of states, frames, levels and ends, a Standard-Model-like
+feature somewhere is expected by chance. An arc that reports one on a generated state fills in the card of `docs/THE_BAR.md`:
+- the frame, the feature, the population and its unit;
+- how the state was chosen;
+- the base rate with its exact interval;
+- the comparable objects' rate (the upper exact 95% limit);
+- the scan's trials and every look, Šidák-corrected.
+
+It then gives the grade at B614's gate (p < 0.01): DERIVED, REPRODUCED, FITTED, or UNJUDGED for a frame without a population run.
+**The instance that made it a rule:** main's census (B1439) reports 87 carriers among 536 manifolds. A carrier found by scanning
+has p ≈ 1, and the root's higher levels fire like their neighbours (B1518 §3.5).
 
 ## Assert the ordering, not the threshold — MANUAL
 

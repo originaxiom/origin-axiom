@@ -3717,7 +3717,12 @@ before it is computed.
    are one manifold, so main's 95 of 758 is 87 of 536 per manifold. Main's census splits no pair. Reversal-closed states fire far
    more often than paired ones: at lengths 7 to 12, 77 of 290 against 16 of 444. The null model must say whether it samples
    words or manifolds, and must take reversal symmetry as an input; the split is descriptive, not a finding.
-   *Sealed 2026-10-02 as B1518 (not run).* The bar is stated in `frontier/B1518_the_bar/PREREGISTRATION.md` §3 and its null model is run first on main's class-index census. The sweep found that main had already looked for a criterion (B1439: "no criterion found"), had argued that the root's tower is typical (B1434 (b)), and holds the exponent-two lemma (B1442); B1518 cites all three.
+   *Banked 2026-10-02 as B1518 (PROVED; sealed at 697217be).* The bar is `docs/THE_BAR.md`. On main's census, own-level firing (87 of 536 manifolds) is not decided by the fibre torsion with the monodromy's sign. m369 and o9_00001 share ℤ/12, the sign and the trace; one carries 8 backgrounds and the other none, recomputed by an independent route. The fibre torsion predicts firing (AUC 0.86). Reversal symmetry is not established beyond it (p = 0.022 against the 0.01 gate). **Leads:**
+   (a) GENESIS v1.2 points GAP4 to the bar (the next arc, with R78 and main's eighteen records);
+   (b) the own-level law asked of the word: does B1438's slope spectrum separate m369 from o9_00001?
+   (c) the root silent at level 2, where 50 of 78 level-manifolds fire;
+   (d) reversal symmetry with power, on the census to length 14 or more;
+   (e) the harmonic frame's positives stay UNJUDGED until it has a population run (item 2).
 2. **The frames beyond m004 (GENESIS §8, the frontier).**
    - The harmonic frame on states outside m004's levels: m003 (the sister, −LR), m010 (where the audit lane's R40 has an anomaly-free
      10 + 5̄ but no harmonic background), and m369 and s639 (the class-index frame's own-level carriers).

@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1265** |
-| words of findings prose | **1,043,249** |
-| test lock files referenced | **770** |
-| arcs carrying an authored verdict | **1265** (100.0 %) |
+| research arcs with findings | **1266** |
+| words of findings prose | **1,045,847** |
+| test lock files referenced | **771** |
+| arcs carrying an authored verdict | **1266** (100.0 %) |
 | recorded closures | **819** (652 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 840 |
+| PROVED | 841 |
 | NEGATIVE | 326 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1517`** (2621 words, 3 locks)  
-SEE THE REPO FIRST, THEN THE LITERATURE (the owner, 2026-10-02): the rule written into WORKING_RULES and PRACTICES and made data -- every arc from B1517 records prior_work (each swept head with its sha, the terms, the hits, the literature sources read with where and when, and a standing: KNOWN, RE-DERIVED, EXTENDS, NEW-AS-SWEPT or NOT-CHECKED), enforced in form by tests/test_arc_verdict_schema.py through scripts/checks/prior_work.py (twelve controls, both directions), which also refuses novelty wording a standing does not allow. Its first sweep, on GENESIS v1.0's own claims, found a miss in GENESIS: a word and its reverse realise the same oriented manifold (reverse(w) = (PJ) w^-1 (PJ)^-1 with det PJ = -1, exact on all 8190 words to length 12; the swap gives the mirror), so the 758 word states to length 12 (twice OEIS A000048) realise 536 manifolds (twice OEIS A000046): 222 states pair off, the first at length 7 (+LLLRLRR, +LLLRRLR); SnapPy's isometry signatures give exactly that partition, and on all 222 pairs the reverse is orientation-preservingly isometric (cusp map det +1, equal Chern-Simons) while the swap is the mirror. The identity was within reach in the repo (B945's involutions, B134's citation of Goodman-Heard-Hodgson 2008) and in the literature (GHH 2008 Lemma 3.2 and Theorem 3.1). Main's B1439 base rate, 95 of 758 word states, is 87 of 536 manifolds; its firing list splits no pair. The sweep also found the audit lane's R78 (sealed 2026-10-02) testing B1516 C9's level assignment, whose code comment is wrong for negative even powers: -u^k with k even is neither a state nor a level, an open question GENESIS v1.1 records. GENESIS amended to v1.1 (census, credits, signed powers, units); nothing here is new mathematics.  
-`B1517_repo_first_then_literature/FINDINGS.md`
+**PROVED — `B1518`** (2598 words, 2 locks)  
+THE BAR (OPEN_LEADS sL-9 item 1, GENESIS GAP4): a positive on a generated state is graded by a card (frame, feature, population, unit, how the state was chosen), the base rate in the unit with its exact interval (UNJUDGED with no population run), its comparable objects (the upper exact 95% limit of the stratum's rate), selection and trials (fixed rule p = r; a scan of n, 1 - (1 - r_P)^n; Sidak over looks) and B614's gate p < 0.01, with WHAT_WOULD_COUNT's DERIVED, REPRODUCED and FITTED plus UNJUDGED (docs/THE_BAR.md). Its null model, sealed at 697217be and run on main's class-index census (B1439), finds: own-level firing (87 of 536 manifolds) is NOT determined by the fibre torsion with the monodromy's action -- 22 (G, sign) strata are mixed, the smallest witness m369 = -LLRLR (8 generation-shaped backgrounds) against o9_00001 = -L^8R (none), both H1 = Z/12 + Z, trace 10, reversal-closed, symmetry order 4, chiral, recomputed by an independent Fox-calculus route on all 52 manifolds of the mixed strata -- so main's 'no criterion found' becomes 'none exists' for every function of (G, sign, trace, symmetry order, reversal class) (P1, P2 YES); G predicts firing strongly (leave-one-out AUC 0.858, permutation p = 0.001 corrected; P3 YES); reversal symmetry is not established beyond G and sign (6 of 36 closed against 0 of 34 paired inside the 32 comparable strata, p = 0.022 corrected; P4 NO). Graded: the root's tower REPRODUCED where it fires (silent at levels 1 and 2), m369 and s639 FITTED if claimed (a scan of 24 finds a carrier with probability 0.986; main claims none), the harmonic frame UNJUDGED. 0 of 19.  
+`B1518_the_bar/FINDINGS.md`
 
 **NEGATIVE — `B1513`** (4081 words, 1 locks)  
 THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) carries exactly one 5'_H and one 5bar'_H, both its own (h1(L2 W) = h1(L2 W*) = 1, the 5'_H onto c, the 5bar'_H = c*), but its chiral 10' does not couple to them: the up-type relative triple product Y_k = <h u a u a> is zero exactly for every member of both populations (and at all 16 prime-root pairs), and post-run the symmetric form B(a, a') = Y(h, a, a') vanishes on the whole of H^1(W*), so no 10' end condition gives a coupling; the mu-type pairing <h u e u hbar> is zero too. No invariant form joins two members (one form iff i = j = k). P1 YES (stronger), P2 YES, P3 YES, P4 NO, P5 YES. The banked identity first (the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3: the first chain-level check of B1510's Theorem B). The zero is not an artefact: at B1510's +-i points the same instrument gives Y(h, a, e f0) = -lam_h kappa != 0 and <h u e u hbar> = lam_h kappa, exactly. Post-run theorem T-HIGGS-BULK-ACYCLIC: P_L(q, s) = s^6 - 12 s^5 + 48 s^4 - (w^2 - w + 72) s^3 + 48 s^2 - 12 s + 1 (w = q + 1/q), so for every q > 0, q != 1, every unitary twist and every cyclic cover Lambda^2 rho_q has no cohomology (H^0 of the fibre zero for every q > 0). Post-run (d): the c*-lift's longitude boundary class equals kappa_l_hat (Stokes), so the interior 10' exists exactly where kappa = 0, where the coupling also vanishes. Read against the audit lane's R75 (an independent re-verification of B1511's triplet). Routed in the kill graph (jordan-decoupling). I-26 stays UNEARNED. 0 of 19.  

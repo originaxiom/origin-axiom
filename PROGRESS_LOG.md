@@ -16845,3 +16845,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   The run script, the instrument and every input are hashed in `ARTIFACT_HASHES.txt`.
 - **Not computed:** any cross-tabulation of main's hits with the covariates; any stratum rate, AUC or conditional test.
 - I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — B1518 banked: THE BAR (PROVED)
+
+- **Run as sealed** at 697217be (17.6 s); every control passed.
+  - P1 YES: no criterion in the fibre torsion with the monodromy's sign decides own-level firing on main's census. There are 22
+    mixed strata; m369 has 8 backgrounds and o9_00001 none, with the same ℤ/12, sign and trace.
+  - P2 YES: the strata stay mixed with the symmetry order added.
+  - P3 YES: G predicts firing, AUC 0.858.
+  - P4 NO: reversal symmetry is not established beyond G and the sign, p = 0.022 against 0.01.
+
+  The priors expected 2.9 of 4 to come true; 3 did.
+- **Post-run:**
+  - An independent route agrees with main's counts on all 52 manifolds of the mixed strata and on the banked identities. A type
+    slip (sympy's gcd) was caught on first use, before any count was read.
+  - The bar applied to the record: the root's tower REPRODUCED; m369 and s639 FITTED if claimed; the harmonic frame UNJUDGED.
+- **The bar** is `docs/THE_BAR.md`, this seat's proposal. Main is asked whether to adopt or amend it for its frame.
+- I-26 stays UNEARNED. 0 of 19.

@@ -1,0 +1,176 @@
+{
+ "id": "B1518",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1517",
+  "B1516",
+  "B614",
+  "B511",
+  "B1439",
+  "B1434",
+  "B1438",
+  "B1442"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-CI",
+  "object": "the word states of GENESIS.md section 3 to length 12 (536 manifolds) and main's 988 B1439 levels (659 level-manifolds); the bar, for every frame",
+  "reach": "class",
+  "hypotheses": [
+   "main's class-index frame as B1432/B1434/B1439 define it, its index 0 when the extension, sub or quotient character is trivial included",
+   "main's B1439 records as quoted at 637561d3; P1's 52 manifolds also recomputed by an independent route",
+   "the bar is this seat's proposal (owner may amend); P4 NO is 'not established at the gate' with 70 informative manifolds, not 'no effect'"
+  ]
+ },
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "f1a2308a",
+    "main": "f06d3405",
+    "origin/audit/physical-bridge-2026-09-05": "e4bb7f68",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "f1a2308a",
+    "origin/main": "637561d3",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "null model",
+    "base rate",
+    "selection rule",
+    "look-elsewhere",
+    "own-level law",
+    "no criterion",
+    "reversal-closed",
+    "Mantel",
+    "trials factor",
+    "what singles out a state"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@637561d3:frontier/B1439_the_census_by_slope/FINDINGS.md:53-56",
+     "bearing": "'No criterion found' (3 | torsion; non-cyclic G, neither necessary nor sufficient): the own-level question this arc extends from two covariates to strata, with a null model"
+    },
+    {
+     "where": "origin/main@637561d3:frontier/B1434_the_architecture_census/FINDINGS.md:42-80",
+     "bearing": "(b) and section 3: the root's tower is typical, argued by main; this arc's D3 reproduces it by manifold and cites it (a draft prediction decided by it became D3)"
+    },
+    {
+     "where": "origin/main@637561d3:frontier/B1434_the_architecture_census/FINDINGS.md:95-96",
+     "bearing": "caveat 4: (-w) at even level is (+w) as a manifold, both rows kept because the decks differ -- main's unit; the level-manifold unit here is for manifold-level statements"
+    },
+    {
+     "where": "origin/main@637561d3:frontier/B1442_the_two_generation_backgrounds/FINDINGS.md:23-31",
+     "bearing": "the exponent-two lemma (I(Q) = -I(L)): decided item D1, checked on the census"
+    },
+    {
+     "where": "origin/main@637561d3:frontier/B1438_the_slope_law/FINDINGS.md:25,53",
+     "bearing": "Theorem A (firing from slope coincidences) and Theorem D (slopes letter by letter): why the word, not only G, enters; the independent route reproduces main's counts"
+    },
+    {
+     "where": "origin/main@637561d3:frontier/B1414_the_outside_benchs_memos_185_233_harvested/FINDINGS.md:16",
+     "bearing": "base rates on SnapPy's census (chirality 0.089 %, 2T door, count of three): the base-rate step practised on a census population, not on generated states"
+    },
+    {
+     "where": "origin/main@637561d3:docs/OPEN_LEADS.md:2985 (L229)",
+     "bearing": "(i) the own-level law, 'the list is the datum and the law is open'; (iv) what singles out a state"
+    },
+    {
+     "where": "philosophy/THE_ORIGIN_POSTULATE.md:21-28; docs/WHAT_WOULD_COUNT.md:66-79; frontier/B614_null_model/NULL_MODEL_DESIGN.md:90-96; frontier/B511_physics_verdict/D0_GATES.md:7-9; docs/INPUT_COMPLETENESS_LEDGER.md:15-16; docs/ERROR_LEDGER.md E20, E61",
+     "bearing": "the bar's pieces on this branch (emergence bar, grades, gate, base-rate gate, look-elsewhere and matched null, comparable objects), assembled into one procedure"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@e4bb7f68:reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md:40",
+     "bearing": "the lane plans a selection functional stated separately from the grammar; no null model"
+    },
+    {
+     "where": "all heads: 'trials factor' ABSENT; 'Mantel' only in this arc; 'reversal-closed' elsewhere in other senses (main B1095, B1085, B128)",
+     "bearing": "no null model on generated states in any swept head"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "look elsewhere effect trial factor high energy physics",
+    "false discovery rate Benjamini Hochberg; under dependence Benjamini Yekutieli",
+    "statistics of string vacua Standard Model fraction; MSSM-like D-brane statistics",
+    "heterotic standard models scan three families filter",
+    "floating correlations string model generators",
+    "finite covers of random 3-manifolds torsion homology Cohen-Lenstra",
+    "random 3-manifolds fibering over the circle homology torsion",
+    "conjugacy classes SL(2,Z) trace ideal classes Latimer-MacDuffee",
+    "garden of forking paths; preregistration revolution"
+   ],
+   "sources": [
+    {
+     "cite": "E. Gross, O. Vitells, Trial factors for the look elsewhere effect in high energy physics, EPJC 70 (2010) 525, arXiv:1005.1891",
+     "where": "sec. 2.1, eqs. 8-12; sec. 1",
+     "read": "2026-10-02",
+     "says": "trial factor ~ 1 + sqrt(pi/2) N Z_fix; background-only Monte Carlo gives the correct answer"
+    },
+    {
+     "cite": "Y. Benjamini, D. Yekutieli, The control of the false discovery rate in multiple testing under dependency, Ann. Statist. 29 (2001) 1165",
+     "where": "Theorems 1.2-1.3",
+     "read": "2026-10-02",
+     "says": "BH controls FDR under positive dependence; q / sum(1/i) under any dependence"
+    },
+    {
+     "cite": "F. Gmeiner, R. Blumenhagen, G. Honecker, D. Lust, T. Weigand, One in a billion: MSSM-like D-brane statistics, JHEP 01 (2006) 004",
+     "where": "sec. 4.3; sec. 5, eqs. 34-35, Table 4",
+     "read": "2026-10-02",
+     "says": "no three-generation model in ~1.66e8; suppression factors multiplied after checking near-independence"
+    },
+    {
+     "cite": "M. Douglas, W. Taylor, The landscape of intersecting brane models, JHEP 01 (2007) 031",
+     "where": "sec. 1; sec. 3",
+     "read": "2026-10-02",
+     "says": "complete enumeration for unbiased sampling; generation numbers favour composites"
+    },
+    {
+     "cite": "K. Dienes, M. Lennek, Fighting the floating correlations, PRD 75 (2007) 026008",
+     "where": "secs. 1, 3, 6",
+     "read": "2026-10-02",
+     "says": "unequal sampling of distinct models makes correlations float; the lamppost effect"
+    },
+    {
+     "cite": "L. Anderson, J. Gray, A. Lukas, E. Palti, Two hundred heterotic standard models on smooth Calabi-Yau threefolds, PRD 84 (2011) 106005",
+     "where": "sec. 4",
+     "read": "2026-10-02",
+     "says": "three families imposed as a filter (h1(V) = 3|Gamma|): no base rate of three is reported"
+    },
+    {
+     "cite": "I. Rivin, Statistics of random 3-manifolds occasionally fibering over the circle, arXiv:1401.5736",
+     "where": "sec. 2.1, Corollaries 2.2-2.4, Theorem 2.5",
+     "read": "2026-10-02",
+     "says": "H1(M_phi) = coker(phi_* - I) + Z; every Z/r + Z/rs is realised"
+    },
+    {
+     "cite": "N. Dunfield, W. Thurston, Finite covers of random 3-manifolds, Invent. Math. 166 (2006) 457",
+     "where": "sec. 8, Theorem 8.4; Theorem 9.1",
+     "read": "2026-10-02",
+     "says": "homology statistics of random 3-manifolds; base rates depend on the ensemble"
+    },
+    {
+     "cite": "K. Conrad, Ideal classes and matrix conjugation over Z (expository notes; Latimer-MacDuffee 1933)",
+     "where": "Theorem 2.1, Remark 2.7",
+     "read": "2026-10-02",
+     "says": "integer matrices of an irreducible characteristic polynomial, up to conjugacy, are ideal classes: what a same-trace stratum holds"
+    },
+    {
+     "cite": "A. Gelman, E. Loken, The garden of forking paths (manuscript, 2013)",
+     "where": "sec. 1.2; secs. 4.3-4.4",
+     "read": "2026-10-02",
+     "says": "data-dependent analysis choices are a multiple-comparisons problem; preregister, or replicate"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ },
+ "claim_one_line": "THE BAR (OPEN_LEADS sL-9 item 1, GENESIS GAP4): a positive on a generated state is graded by a card (frame, feature, population, unit, how the state was chosen), the base rate in the unit with its exact interval (UNJUDGED with no population run), its comparable objects (the upper exact 95% limit of the stratum's rate), selection and trials (fixed rule p = r; a scan of n, 1 - (1 - r_P)^n; Sidak over looks) and B614's gate p < 0.01, with WHAT_WOULD_COUNT's DERIVED, REPRODUCED and FITTED plus UNJUDGED (docs/THE_BAR.md). Its null model, sealed at 697217be and run on main's class-index census (B1439), finds: own-level firing (87 of 536 manifolds) is NOT determined by the fibre torsion with the monodromy's action -- 22 (G, sign) strata are mixed, the smallest witness m369 = -LLRLR (8 generation-shaped backgrounds) against o9_00001 = -L^8R (none), both H1 = Z/12 + Z, trace 10, reversal-closed, symmetry order 4, chiral, recomputed by an independent Fox-calculus route on all 52 manifolds of the mixed strata -- so main's 'no criterion found' becomes 'none exists' for every function of (G, sign, trace, symmetry order, reversal class) (P1, P2 YES); G predicts firing strongly (leave-one-out AUC 0.858, permutation p = 0.001 corrected; P3 YES); reversal symmetry is not established beyond G and sign (6 of 36 closed against 0 of 34 paired inside the 32 comparable strata, p = 0.022 corrected; P4 NO). Graded: the root's tower REPRODUCED where it fires (silent at levels 1 and 2), m369 and s639 FITTED if claimed (a scan of 24 finds a carrier with probability 0.986; main claims none), the harmonic frame UNJUDGED. 0 of 19."
+}

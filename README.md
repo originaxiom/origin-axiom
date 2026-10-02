@@ -45,7 +45,9 @@ A **frame** turns flat bundles on a state into particle counts. Four are in use,
 frame, main's class-index frame, the harmonic E₈ frame and the G₂ apex frame. Every result is a statement about a frame applied to
 an object, and carries a scope tag. A negative on m004 blocks nothing beyond its tag; `docs/views/CLOSED_DOORS.md` shows how far
 each closure reaches. The frames disagree on the same objects: every word state is closed in the free-cusp frame, while 95 of the
-758 carry a generation-shaped background in the class-index frame.
+758 carry a generation-shaped background in the class-index frame. A positive on a generated state is measured against its
+frame's base rate in a named unit (`docs/THE_BAR.md`, B1518): 87 of the 536 manifolds fire at their own level, and no
+criterion in the fibre torsion and the sign decides which.
 
 ### Where the record stands
 

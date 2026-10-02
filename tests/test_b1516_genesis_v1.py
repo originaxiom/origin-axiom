@@ -178,13 +178,24 @@ def test_genesis_tables_well_formed():
     assert tables == 9
 
 
+def _sealed_unchanged(p, ledger):
+    """A preregistration whose current sha-256 is recorded in SEAL_LEDGER is frozen by its hash (B1518)."""
+    import hashlib
+    return p.name == "PREREGISTRATION.md" and hashlib.sha256(p.read_bytes()).hexdigest() in ledger
+
+
 def test_v1_ids_are_cited_as_genesis_elsewhere():
-    """Outside GENESIS.md and this arc, a v1.0 ID appears only in a paragraph that names GENESIS (the citation rule)."""
+    """Outside GENESIS.md and this arc, a v1.0 ID appears only in a paragraph that names GENESIS (the citation rule).
+    The rule binds living text. A sealed preregistration, unchanged since its hash was ledgered, cannot be amended and is
+    exempt (B1518's seal carried 'T-ROOT' in a paragraph without the word; ERROR_LEDGER, 2026-10-02)."""
     skip_dirs = {".git", "node_modules", "__pycache__"}
+    ledger = (ROOT / "docs" / "SEAL_LEDGER.md").read_text(encoding="utf-8")
     bad = []
     for p in ROOT.rglob("*.md"):
         rel = p.relative_to(ROOT)
         if set(rel.parts) & skip_dirs or rel == Path("GENESIS.md") or rel.parts[:2] == ("frontier", ARC.name):
+            continue
+        if _sealed_unchanged(p, ledger):
             continue
         text = p.read_text(encoding="utf-8", errors="replace")
         if not ID_TOKEN.search(text):

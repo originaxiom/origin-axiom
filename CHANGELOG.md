@@ -1,5 +1,53 @@
 # Changelog
 
+## B1518 banked: THE BAR — what a positive on a generated state must beat; on main's census no criterion in the fibre torsion and the sign decides own-level firing (PROVED)
+
+- **The bar** (`docs/THE_BAR.md`; sealed in PREREGISTRATION §3 at `697217be`):
+  - a card (frame, feature, population, unit, how the state was chosen);
+  - the base rate in the unit, with its exact interval;
+  - the comparable objects, through the upper exact 95% limit of their rate;
+  - selection and trials, Šidák over every look;
+  - B614's gate at 0.01.
+
+  The grades are WHAT_WOULD_COUNT's DERIVED, REPRODUCED and FITTED, plus UNJUDGED for a frame without a population run.
+- **Run as sealed on main's B1439 census** (17.6 s). Every control passed: main's two records agree on the 95 own-level hits; no
+  manifold is split at any level; the planted controls pass. The results:
+  - **P1 YES:** own-level firing (87 of 536 manifolds) is not determined by the fibre torsion with the monodromy's sign. Twenty-two
+    strata are mixed. The smallest pair is m369 = −LLRLR (8 backgrounds) against o9_00001 = −L⁸R (none). Both have ℤ/12, trace 10
+    and symmetry order 4, and both are reversal-closed and chiral.
+  - **P2 YES:** fifteen strata stay mixed with the symmetry order added.
+  - **P3 YES:** the fibre torsion predicts firing (leave-one-out AUC 0.858; corrected p 0.001).
+  - **P4 NO:** reversal symmetry is not established beyond G and the sign. 6 of 36 closed manifolds fire against 0 of 34 paired
+    ones inside 32 strata; corrected p 0.022 against 0.01.
+- **The independent route** (NO NEGATIVE FROM A BUG): the slope from both relators' Fox-calculus cocycle system mod p, own
+  characters, direct (θ, ψ_Y, W) enumeration and other primes. It reproduces the banked counts (m004 0, m369 8, s639 16) and
+  main's count on all 52 manifolds of the mixed strata. One slip was caught on first use and fixed before any count was read
+  (sympy's gcd type).
+- **The record's positives, graded:**
+  - the root's levels 3, 4, 5 and 7 are REPRODUCED (r = 0.90 to 1.00). Its level 6 has nothing to compare, and its levels 1 and 2
+    are silent;
+  - m369 and s639 would be FITTED if presented as evidence (a scan of 24 finds a carrier with probability 0.986); main presents
+    none;
+  - the harmonic frame's counts are UNJUDGED.
+- **Prior work: EXTENDS.**
+  - Main's B1439 "no criterion found" becomes "none exists in (G, sign)".
+  - Main's B1434 (b) is reproduced by manifold and cited.
+  - The record's bar pieces become one procedure.
+- **Surfaces:**
+  - `docs/THE_BAR.md` (new);
+  - a PRACTICES row and section;
+  - OPEN_LEADS sL-9 item 1, banked with leads (a)–(e);
+  - README, CAMPAIGN_STATUS, the alias table;
+  - SEAL_LEDGER and RELAY_LEDGER rows;
+  - the relay `SM_TO_CC_2026-10-02_THE_BAR_AND_THE_OWN_LEVEL_LAW.md`;
+  - the atlas and views regenerated.
+- **A seal-time slip, found at the bank** (ERROR_LEDGER). The seal's test selection missed a lock that scans every markdown
+  file (`tests/test_b1516_genesis_v1.py`), and the sealed preregistration wrote a GENESIS label without the word. The
+  sealed file stays as hashed. The lock now exempts a preregistration whose current sha-256 is in SEAL_LEDGER.
+- **Lock:** `tests/test_b1518_the_bar.py`, 13 tests (12 fast, 1 slow), from the collector.
+- **Next arc B1519:** GENESIS v1.2 (GAP4 to the bar, R78 with B1517's miss, main's eighteen records, main's same-day rule).
+- I-26 stays UNEARNED. 0 of 19.
+
 ## B1518 sealed: THE BAR — a selection rule and a null model for a positive on a generated state, run first on main's class-index census (not run)
 
 - **The question** (OPEN_LEADS sL-9 item 1; GENESIS GAP4 and FK9; the owner's "continue with the next arc" after B1517). With

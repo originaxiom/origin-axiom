@@ -1,5 +1,7 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-10-02, B1518 — THE BAR)**: what a positive on a generated state must beat is fixed in `THE_BAR.md` (base rate in a named unit, comparable objects, selection and trials, B614's gate; DERIVED, REPRODUCED, FITTED, UNJUDGED). Run on main's class-index census: no criterion in the fibre torsion and the sign decides own-level firing (m369 against o9_00001), though the fibre torsion predicts it (AUC 0.86); the root's tower is REPRODUCED. 0 of 19.
+
 **LATEST (2026-10-02, B1517 — SEE THE REPO FIRST, THEN THE LITERATURE)**: the owner's rule of that day is in WORKING_RULES and made data
 (`prior_work` in every arc from B1517 on). Its first sweep amended `../GENESIS.md` to v1.1: the 758 word states realise 536
 manifolds, since a word and its reverse are one manifold. 0 of 19.

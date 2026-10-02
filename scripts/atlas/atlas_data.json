@@ -9301,6 +9301,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1518": {
+   "slug": "the bar",
+   "motifs": [
+    "monoid",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B614",
+    "L229",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B151": {
    "slug": "firewall confirmation",
    "motifs": [
