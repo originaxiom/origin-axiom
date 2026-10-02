@@ -136,3 +136,27 @@ post-science integration calibration extends the detector narrowly and
 requires real corrupted-execution, tautology and dummy/override controls.
 Its execution and final governance disposition are reported separately
 from the original29 scientific tests. First governance stdout is retained.
+
+Supplementary seal **91eb3e1d3ced9ab37844397bc73bb1a69688630a** was pushed
+and server-confirmed before calibration. Five calibrations plus the
+unchanged 29 science tests pass first: **34 passed**. The corrupted unittest
+fixture actually fails as required; dummy/override methods remain outside
+recognition, and literal/syntactic tautologies retain their checks. All
+eight original tests are still byte-identical to the initial science seal.
+This corrects syntax coverage, not the gate policy or an exemption.
+
+Corrected governance is 26 PASS/four existing FAIL categories. Attribution
+has four old paths, test-vacuity has the preceding two old tests, seal
+provenance has five old paths, and relay-debt has 41 stale entries. The
+relay register now reads 44 banked/53 OPEN; review due 288 at this capture.
+The first and corrected outputs, calibration command/status and run
+envelopes are in [publication custody](CARRIER_PERIPHERY_PUBLICATION_CHECKS.json).
+The full-suite and independent-acceptance duties are not discharged.
+An additional final-publication patch with an unmatched relay context
+failed atomically before writing; the corrected patch omitted that hunk.
+
+Final metadata capture verifies 1,166 then-latest artifact digests, eight
+frozen scientific/integration paths, nine then-embedded publication
+captures and four report links. Its own output and the identical final
+governance output are subsequently embedded (eleven publication captures)
+with refreshed append-only hashes. This is custody, not science review.

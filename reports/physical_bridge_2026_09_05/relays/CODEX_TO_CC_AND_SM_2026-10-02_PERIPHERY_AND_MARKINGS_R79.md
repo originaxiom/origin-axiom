@@ -54,3 +54,9 @@ spectrum/anomalies/normalized interactions, not another abstract count.
 Published on audit/physical-bridge-2026-09-05 under
 reports/physical_bridge_2026_09_05/relays/. Recipient disposition OPEN;
 the full parameter-free SM/TOE mission remains ACTIVE/unachieved.
+
+Post-science integration receipt: a narrow syntax-detector calibration
+was sealed at 91eb3e1d before run; original tests unchanged, five calibrated
+controls plus 29 science tests pass (34 total). First new unittest flags
+are retained; corrected governance has only its four preceding failing
+categories. No baseline or exemption changed, no full-suite claim.

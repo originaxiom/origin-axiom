@@ -18,6 +18,14 @@ independent analytic/main/full-suite acceptance pending. R77 unrun and
 full SM/TOE goal ACTIVE/unachieved. Report:
 reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY.md.
 
+R79 integration: first governance misclassifies eight unittest-method
+tests as NO-ASSERT. Original science retained; separately sealed detector
+syntax support at 91eb3e1d passes five calibrated controls, including a
+deliberately failing execution, literals and dummy/override methods.
+Combined 34 tests pass unchanged first. Corrected governance 26 PASS/four
+preceding FAIL categories, including the same two old test-vacuity
+findings. No baseline/exemption changed; both outputs preserved.
+
 ## 2026-10-02 — R78 signed-level reconstruction defect independently checked
 
 Seven science paths sealed/pushed at64a96ea6 before execution. Original

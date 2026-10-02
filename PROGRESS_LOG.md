@@ -16520,3 +16520,19 @@ Independent analytic review, main propagation and full-suite certification
 remain pending. Next common source/end/action admission and actual
 spectrum/anomalies/interactions, not another preferred-root census.
 Full parameter-free Standard Model/TOE ACTIVE/unachieved.
+
+R79 integration disposition: first governance flags all eight new
+unittest-method tests as NO-ASSERT; detector source has no syntax support
+for them. Preserve first failure. Separately seal three supplementary
+paths (design, detector, five calibration tests), push/server-confirm
+at 91eb3e1d before execution. Standard method expressions enter the
+existing tautology/literal checks; dummy and overridden methods are not
+recognized. A deliberately corrupted TestCase actually fails. All 34
+combined tests pass first, with original 29 scientific tests unchanged.
+Corrected governance 26 PASS/four old FAIL categories, including only
+the preceding two test-vacuity findings. Four old attribution paths,
+five old seal-provenance paths, 41 stale relay debts and review due 288
+remain. No baseline, exemption, original science or first raw output
+changed. Full-suite/independent acceptance not claimed. A final-publication
+patch with unmatched relay context failed atomically before writing;
+its corrected rerun omitted that hunk, with no scientific change.
