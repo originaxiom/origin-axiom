@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-02 — owner-requested genesis reconciliation plan and premise register
+
+Existing operational contract located and preserved as sealed R58 input,
+not rewritten or advertised as missing. Staged checkpoint and initial
+route-qualified premise register reuse R57/R58, B1003/B1123 and current
+genesis corrections. Fifteen selected source bodies pinned; full-body
+reading and independent scientific verification distinguished. Explicit
+axiom-dependence, architecture/membership, review, propagation and physical
+admission gates retain the parameter-free Standard Model/TOE goal.
+Current audit front doors updated; other branches untouched. Direct
+sender relay OPEN pending receipt/review. No new science run, B-number,
+minimality certificate, physical winner or full-suite-green claim.
+R77 source drafts remain unsealed and unrun. Plan:
+reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md.
+
 ## 2026-10-02 — released relays received; physical-join coordination
 
 Fetched main bd48dd28 and SM bd037298. Personally read all nineteen

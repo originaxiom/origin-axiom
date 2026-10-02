@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**October 2 foundation checkpoint:** the generated architecture remains
+conditional on explicit operations, carriers and equivalences. m004's
+positive-sector minimum does not select a universal physical root; an
+expanded family does not itself derive dynamics. The owner-requested
+premise register distinguishes route-qualified assumptions, consequences
+and open physical maps, reusing the sealed contract and R57/R58.
+Source: reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md.
+No new scientific verdict, independent acceptance or full-TOE completion.
+Main/SM propagation remains pending; prior dated entries are preserved.
+
 **Current path-local R76 (October 2):** the supplied flat-connection
 potential is symmetric-space bienergy. Authored equivariant cutoff
 analysis forces smooth complete boundaryless finite-energy stationary

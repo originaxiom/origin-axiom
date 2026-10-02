@@ -4359,3 +4359,26 @@ B1445/B1446 deformation and cross-member branch positives likewise retained.
   neither this availability issue nor a receipt creates a physics verdict.
   First error and diagnostics: CC_SYNC_RECEIPTS_2026_10_02.json in the
   physical-bridge report directory. Broad custody not claimed.
+
+## 2026-10-02 — owner-requested foundation checkpoint, before further physical admission
+
+- PB-GENESIS: staged reconciliation and premise register reuse the sealed
+  operational contract/R57/R58. Matrix and words labels are kept distinct;
+  no minimal axiom set is claimed. Next reconcile carrier implication,
+  primitive/criterion separation and the legal-operation inventory through
+  existing bodies/producers before sealing any new proof/countermodel probe.
+- PB-GENESIS / PB-TRANSITIONS: build the typed architecture atlas with
+  native reachability, class membership, covers/quotients/fillings and
+  physical data transport separated. Completeness is relative to a grammar
+  or declared bounded census, not a property of the word "full".
+- PB-COORDINATION: sender plan relay is OPEN, not recipient review or main
+  banking. Current audit front doors link the checkpoint; main/SM propagation
+  requires their reviewed source dispositions. Preserve historical/sealed
+  bodies, B1323's m412 correction and the scoped positives/negatives.
+- PB-ACTION / PB-SOURCE: source/core drafts remain unsealed/unrun. The
+  foundation checkpoint must price fields, profiles, action and domain
+  choices before both bulk/source variations and extra-mode/anomaly tests.
+  An audit is not physical completion and must return to a named physics duty.
+- PB-CUSTODY: preserve the previously recorded R30 raw-availability debt;
+  a new source manifest or metadata check does not cure missing original bytes.
+  Plan: reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md.

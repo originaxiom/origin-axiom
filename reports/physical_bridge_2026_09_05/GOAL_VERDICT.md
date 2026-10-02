@@ -1,5 +1,20 @@
 # Verdict toward the full physical-theory goal - R76, updated 2026-10-02
 
+**Current direction checkpoint (October 2):** execute the owner-approved
+foundation reconciliation without replacing the physics goal. The
+[plan](GENESIS_RECONCILIATION_PLAN_2026_10_02.md) and
+[premise register](GENESIS_PREMISE_REGISTER.md) reuse the existing contract,
+R57's conditional minimum/scope audit and R58's action transport.
+They do not certify a minimal axiom set or complete physical architecture.
+First audit carrier dependencies, primitive/criterion separation and
+actual membership; propagate reviewed currency; then resume source/core
+admission and the same-model spectrum/anomaly/interactions duties.
+Fifteen selected source bodies pinned; no new scientific execution or
+physical claim. Goal tracker ACTIVE when read for this checkpoint;
+parameter-free Standard Model and full TOE remain unachieved.
+Independent review and main/SM propagation are pending. Earlier dated
+tracker readings below do not override this checkpoint.
+
 **Current path-local R76 (October 2):** the supplied flat-connection
 potential is symmetric-space bienergy. Authored equivariant cutoff
 analysis forces smooth complete boundaryless finite-energy stationary

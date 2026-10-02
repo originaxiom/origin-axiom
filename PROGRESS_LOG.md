@@ -16366,3 +16366,60 @@ three received pins, two parseable OPEN rows, twelve local pointers,
 seven latest changed-path digests, all 1,133 latest artifact digests and
 the eight-file staged population. Its initial US-ASCII error is preserved;
 the same check with explicit UTF-8 passes. R77 science remains excluded.
+
+## 2026-10-02 — genesis reconciliation checkpoint started on the owner's plan request
+
+All origin heads fetched, unchanged at main bd48dd28 and SM bd037298.
+Read the existing R57 root/scope audit and OPERATIONAL_CONTRACT.md in full;
+the latter is already part of R58's scientific seal and is left unchanged.
+Read B1003/B1123 and selected current matrix/words/generated-state/carrier
+sources and B1323's corrected third-record record. Existing work is reused,
+not a new fork/cover/generation census. Fifteen source bodies are pinned in
+GENESIS_RECONCILIATION_INPUTS.json with reading and verification grades.
+
+Initial GENESIS_PREMISE_REGISTER.md distinguishes both label systems,
+surface/F2 assumptions from their conditional puncture consequence,
+selection criteria from theorems, inverse/swap legality from matrix
+invertibility, and native reachability from arithmetic/cover/filling
+relations. Fork feature-loss and ledger-label counts are not accepted
+as logical independence proofs or physical necessity. This is source
+reconciliation, not a new sealed mathematical result.
+
+GENESIS_RECONCILIATION_PLAN_2026_10_02.md defines staged acceptance gates,
+first-milestone checklist, actual implication/countermodel duties, typed
+atlas and current-document migration queue, review/reopening rules and
+the return to source/core action and full physical obligations. Current
+audit front doors are updated; historical/sealed bodies and all prior
+failures remain. The direct cc/SM relay is OPEN pending receipt/review.
+No other branch is edited or merged and no new B/I identifier is allocated.
+Goal tracker is now ACTIVE when read for this checkpoint, superseding
+the earlier dated interface status only. The full parameter-free Standard
+Model/TOE remains unachieved. R77 drafts stay unsealed, unrun and unstaged.
+
+Initial metadata review confirms all fifteen source pins and eighteen
+unchanged R57/R58 sealed paths, five current front doors and one parseable
+OPEN sender relay. No new mathematics is executed by this custody check.
+Governance first returns 26 PASS/four failing categories, with ONE new
+attribution offender: model-provider components of six fetched branch refs
+in the public source inventory. Public ref labels now replace only that
+component with a declared alias; exact original ref names/raw bytes and
+all commit/path/digest pins are retained. No baseline/gate is changed.
+First outputs and declared redaction are preserved in
+GENESIS_RECONCILIATION_RECEIPTS.json. The four historical failing categories
+and R30 original-raw availability debt are not waived or repaired here.
+
+Corrected source/contract custody passes with the same fifteen pins and
+eighteen unchanged sealed paths. Corrected governance returns 26 PASS /
+the four preceding failing categories, with no new attribution offender;
+44 banked / 51 OPEN relay rows and 41 old stale debts, review due at 283.
+No full scientific suite is run or called green. Publication receipts
+retain first/corrected outputs and the settled-hit warnings from the
+two already-banked queries; those warnings directed reuse, not absence.
+
+Final staged custody verifies all 1,138 latest artifact digests, the
+fifteen-file staged publication and the then-eight completed captures;
+that check is itself retained as capture nine. Three new Markdown
+documents initially resolve eleven tracked links; the added receipt link
+is covered in final review. All new raw bytes remain retrievable locally.
+This does not resolve older raw-custody debt or independently verify the
+foundation mathematics. No source/core draft enters this publication.

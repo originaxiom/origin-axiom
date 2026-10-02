@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**October 2 foundation checkpoint:** reconcile the current genesis
+premises and generated-architecture scope before choosing the next
+physical source/core specification. Existing R57/R58 and the sealed
+operational contract are reused, not repeated. A premise register,
+proof/independence duties and propagation queue are now explicit; no
+logical minimality, full architecture or physics completion certificate.
+Source: reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md.
+The full physics goal remains ACTIVE/unachieved. Earlier entries below
+retain their dated scopes; R77 drafts remain unsealed/unrun.
+
 **Current path-local R76 (October 2):** the supplied flat-connection
 potential is symmetric-space bienergy. Authored equivariant cutoff
 analysis forces smooth complete boundaryless finite-energy stationary

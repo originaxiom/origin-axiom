@@ -1,0 +1,204 @@
+{
+  "version": "0.1",
+  "date": "2026-10-02",
+  "scope": "Selected source custody and reading register, not independent truth verification, a complete corpus sweep, axiom minimality or a physical result",
+  "starting_audit_head": "cdb90c9aaf0ac762d2a076030dd3bd7241952f7e",
+  "heads": [
+    {
+      "pin": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "ref_label": "origin/HEAD"
+    },
+    {
+      "pin": "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+      "ref_label": "origin/audit/b775-braver-questions"
+    },
+    {
+      "pin": "cdb90c9aaf0ac762d2a076030dd3bd7241952f7e",
+      "ref_label": "origin/audit/physical-bridge-2026-09-05"
+    },
+    {
+      "pin": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+      "ref_label": "origin/<parallel-branch>/new-session-qor5up"
+    },
+    {
+      "pin": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "ref_label": "origin/<parallel-branch>/outside-bench"
+    },
+    {
+      "pin": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "ref_label": "origin/<parallel-branch>/paper-review-verification-kaz3f5"
+    },
+    {
+      "pin": "5dde7b3efe59ca2055de6b84395416d173b2e290",
+      "ref_label": "origin/<parallel-branch>/paper-verification-ufp0zn"
+    },
+    {
+      "pin": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+      "ref_label": "origin/<parallel-branch>/physics-seat-evaluation-8dkbrl"
+    },
+    {
+      "pin": "bd03729860f95f8ccee33fef21006096730722be",
+      "ref_label": "origin/<parallel-branch>/standard-model-derivation-0qt6ao"
+    },
+    {
+      "pin": "f7a49536bc45bebc1557d3d081b6b3664a7c2199",
+      "ref_label": "origin/codex/seat-r001"
+    },
+    {
+      "pin": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "ref_label": "origin/main"
+    },
+    {
+      "pin": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4",
+      "ref_label": "origin/paper/structure-genesis-first"
+    },
+    {
+      "pin": "3205984b48d1b98a80042cdc70916878973980f5",
+      "ref_label": "origin/sep16-branch"
+    }
+  ],
+  "sources": [
+    {
+      "id": "root_scope",
+      "pin": "cdb90c9aaf0ac762d2a076030dd3bd7241952f7e",
+      "path": "reports/physical_bridge_2026_09_05/ROOT_SCOPE_AUDIT.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "R57: authored proof audit plus finite safeguards; no new execution",
+      "bytes": 12670,
+      "sha256": "acca31056668ee421f9f2ded356c3d0c2b862069e5f8fd733d5c0c7c473fb193"
+    },
+    {
+      "id": "operational_contract",
+      "pin": "3adce05c4041c6e222aab1a132193608ca8bdb19",
+      "path": "reports/physical_bridge_2026_09_05/OPERATIONAL_CONTRACT.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "R58 sealed specification; no physical selection proof",
+      "bytes": 6776,
+      "sha256": "434e99f05f86efaafa57b2847dcc43963c0bf09771d9e6491e984e2cc303bd50"
+    },
+    {
+      "id": "cover_action",
+      "pin": "cdb90c9aaf0ac762d2a076030dd3bd7241952f7e",
+      "path": "reports/physical_bridge_2026_09_05/COVER_ACTION.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "R58: conditional authored transport proof plus finite safeguards; no new execution",
+      "bytes": 8364,
+      "sha256": "324a57d7d8b05a6e53a0de35007cf940d39a4d2c17317dc77cdbfa6f2332b7ce"
+    },
+    {
+      "id": "axiom_prices",
+      "pin": "cdb90c9aaf0ac762d2a076030dd3bd7241952f7e",
+      "path": "frontier/B1003_axiom_prices/FINDINGS.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read historical fork pricing; not independently rerun here; retain later carrier correction",
+      "bytes": 4619,
+      "sha256": "999ce617a5e0d31a5a1857a99480ad5a839caa5ab8a36f16a814d1961b328e90"
+    },
+    {
+      "id": "forcedness_census",
+      "pin": "cdb90c9aaf0ac762d2a076030dd3bd7241952f7e",
+      "path": "frontier/B1123_forcedness_census/FINDINGS.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read historical ledger-label census and its own doorway correction; not proof of axiom independence",
+      "bytes": 4390,
+      "sha256": "66663e99a16a93a86e45f03116087fda6a91f670241c0be3219fa2070eef2519"
+    },
+    {
+      "id": "matrix_route",
+      "pin": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "docs/UNIQUENESS_THEOREM.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read current body; algebra/scope covered by R57, not all claimed downstream implications",
+      "bytes": 9074,
+      "sha256": "aa72590db6d4ef023c6deea1166736814f41a6c9b0981cff767a0577390334c1"
+    },
+    {
+      "id": "words_route",
+      "pin": "bd03729860f95f8ccee33fef21006096730722be",
+      "path": "philosophy/P019_the_genesis_axiom_chain.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read current body including correction; philosophy is motivation, not proof",
+      "bytes": 11000,
+      "sha256": "67339722d703934500f75b2642e38997b14095379d99475ac7f279e73b03e9ec"
+    },
+    {
+      "id": "generated_space",
+      "pin": "bd03729860f95f8ccee33fef21006096730722be",
+      "path": "philosophy/P022_the_generated_state_space.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read current body including October 1 scope correction; philosophy is motivation, not proof",
+      "bytes": 15865,
+      "sha256": "dd1f6e47a21146fe4c13071eb87009c79add0cf8ac24814bdd2853cbd218ac53"
+    },
+    {
+      "id": "carrier",
+      "pin": "bd03729860f95f8ccee33fef21006096730722be",
+      "path": "frontier/B1380_the_puncture_is_the_words/FINDINGS.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read full; conditional carrier proof audited by R57; foreign producer/geometry not rerun",
+      "bytes": 14390,
+      "sha256": "7bbd9d22721d90e2eed7f2130b9605e21347366fed8ec34bed55688ca51ed3cc"
+    },
+    {
+      "id": "genesis_upgrade",
+      "pin": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1323_the_genesis_upgrades/FINDINGS.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read full with later addendum; criterion census and geometry not independently rerun",
+      "bytes": 16949,
+      "sha256": "40ab4c20e29bcb9fb8b0dfa374f7863aefb91d9febd1a316c07a4518848f2146"
+    },
+    {
+      "id": "third_record_correction",
+      "pin": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1323_the_genesis_upgrades/ADDENDUM_2026-09-17_F9_IS_FRAGILE.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read corrected m412 witness; geometric certificate not independently rerun",
+      "bytes": 774,
+      "sha256": "3d7e7f4d7fdf34db9626cc56290cc5f9a561d6692511a7e36fdc402438de8691"
+    },
+    {
+      "id": "architecture_findings",
+      "pin": "bd03729860f95f8ccee33fef21006096730722be",
+      "path": "frontier/B1384_the_generated_state_space/FINDINGS.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read full in preceding checkpoint; related induction source read earlier; no new census execution",
+      "bytes": 18796,
+      "sha256": "c28f1f07237069ddd7fb9641d082a723339cec46bd849059b78b5f720c6ca9e3"
+    },
+    {
+      "id": "reframe_path",
+      "pin": "bd03729860f95f8ccee33fef21006096730722be",
+      "path": "frontier/B1508_the_path_under_the_reframe/FINDINGS.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read full in preceding checkpoint; joint physical duties not accepted by reading",
+      "bytes": 29845,
+      "sha256": "60ffe4abd34e95517243ee57eaa9722f14b5306d6516665110915a4236de0416"
+    },
+    {
+      "id": "paper_review",
+      "pin": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "path": "papers/P3_THE_PAPER/REPO_SWEEP_REPORT_2026-10-01.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Read full in preceding checkpoint; internal review, not external peer review or new reproduction",
+      "bytes": 21958,
+      "sha256": "b0d60f438c63b07a6b9936609d073164f79ba0a1972056ea509391933c92896a"
+    },
+    {
+      "id": "mission",
+      "pin": "cdb90c9aaf0ac762d2a076030dd3bd7241952f7e",
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "reading": "FULL_BODY_PERSONALLY_READ",
+      "verification": "Owner-approved research charter; no success guarantee or completion certificate",
+      "bytes": 8158,
+      "sha256": "9304464ee995f639ef7eabd8385bf6612df82b367fbd7a1c8c512c8b902524a5"
+    }
+  ],
+  "unexecuted_drafts": [
+    "SOURCE_CORE_DESIGN.md",
+    "SOURCE_CORE_PROOF.md",
+    "source_core.py"
+  ],
+  "no_new_scientific_execution": true,
+  "head_inventory_policy": "Labels of six parallel refs replace the model-provider component with <parallel-branch> for public attribution hygiene. Exact original ref names remain in the unchanged source_inventory raw capture; commit pins and source-path bytes are unredacted. Labels are not Git ref arguments."
+}

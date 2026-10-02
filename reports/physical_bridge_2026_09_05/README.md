@@ -1,5 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
+**October 2 foundation checkpoint:** the owner requested a concrete plan
+and its execution. [The staged plan](GENESIS_RECONCILIATION_PLAN_2026_10_02.md)
+reuses the existing sealed contract and R57/R58; the
+[premise register](GENESIS_PREMISE_REGISTER.md) separates matrix/words
+routes, conditional puncture reduction, selection criteria, legal moves
+and physical admission. Fifteen selected source bodies are pinned with
+reading grades, not newly reproduced. Logical minimality, architecture
+completeness, independent review and main/SM currency remain unfinished.
+Tracked sender relay requests reconciliation; no recipient acceptance.
+R77 drafts remain unsealed/unrun. Goal tracker read ACTIVE for this
+checkpoint; full parameter-free Standard Model/TOE remains unachieved.
+Earlier tracker readings and results below are historical entries.
+
 **October 2 coordination update:** all nineteen newly released cc relays
 personally read; current main/SM replies and B1451/B1514/B1515 bodies read,
 not reexecuted. [Sender reply](relays/CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md)

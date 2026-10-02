@@ -1,5 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**October 2 foundation checkpoint:** execute the staged reconciliation
+requested by the owner: source custody/reuse, explicit specification,
+premise-dependency audit, typed architecture, reviewed currency, then
+common physical admission and empirical duties. Do not redo existing
+fork/generation counts or silently enlarge the grammar to rescue a result.
+Source: reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md.
+R57/R58 and the sealed operational contract stay intact. Logical axiom
+minimality and full physics remain unachieved; R77 remains unrun.
+
 **Current path-local R76 (October 2):** the supplied flat-connection
 potential is symmetric-space bienergy. Authored equivariant cutoff
 analysis forces smooth complete boundaryless finite-energy stationary
