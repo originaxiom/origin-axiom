@@ -1,5 +1,10 @@
 # A conditional uniqueness theorem for the Origin Axiom core
 
+> **Canonical status (2026-10-02): `../GENESIS.md` v1.0.** The axioms below map to its IDs: A1 → GM1, A2 → GM5a,
+> A3 → SE2 (CHOSEN), A4 → GM2, A5 → SE1 (a POSTULATED criterion; what it selects, T-ROOT, is DERIVED), A6 → not needed
+> for the root given SE1, A7 → based data only, not an axiom of the generated state space. To select the root manifold,
+> GM3, GM4, SE1 and SE2 suffice, and each is needed (GENESIS §4).
+
 **Status:** formalization of conditional claim **C1** (`../CLAIMS.md`). This is a
 *conditional* result — true given the minimal record axioms A1–A6 below, which are
 motivated but not laws of nature. It is **not** a derivation of the substrate from
@@ -124,9 +129,12 @@ not on deriving them. This is exactly the status of `C1`.
 
 ## 5. The order choice is load-bearing (A7), not cosmetic
 
-A1–A6 cannot distinguish `LR` from `RL`. The two are `SL(2,ℤ)`-conjugate via the
-record-swap `P = [[0,1],[1,0]]`, so they share trace, determinant, eigenvalues,
+A1–A6 cannot distinguish `LR` from `RL`. The two are conjugate in `SL(2,ℤ)` by `L`
+(`L⁻¹·LR·L = RL`); the record-swap `P = [[0,1],[1,0]]` also exchanges them, but `P` has
+determinant −1, so that is a `GL(2,ℤ)` conjugation. They share trace, determinant, eigenvalues,
 and translation length. They are the *same free homotopy / conjugacy class*.
+*(Corrected 2026-10-02, B1516: the earlier text said "`SL(2,ℤ)`-conjugate via the record-swap";
+the audit lane's R57 caught it. The conclusion is unchanged.)*
 
 But they are **not** the same as *based* objects, and the difference is visible
 the moment `A` acts on the upper half-plane `H` as a Möbius transformation. Locked

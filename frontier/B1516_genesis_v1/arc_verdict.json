@@ -1,0 +1,30 @@
+{
+ "id": "B1516",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1384",
+  "B1380",
+  "B1379",
+  "B1508",
+  "B1390",
+  "B749",
+  "B197",
+  "B126"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none",
+  "object": "all once-punctured-torus bundles, and the generated state space of GENESIS.md section 3",
+  "reach": "general",
+  "hypotheses": [
+   "the grammar's premises as GENESIS.md v1.0 lists them (GM1-GM5d)",
+   "SE1 is a postulated criterion; only what it selects (T-ROOT) is derived"
+  ]
+ },
+ "claim_one_line": "GENESIS v1: the foundations stated once (GENESIS.md v1.0, canonical, versioned), with IDs unused anywhere else in the repository (PF, GM, SE, T-ROOT, F-xx, FK, GAP). The principle in one proposed wording as three faces PF1-PF3, with P000's premises placed (owner to confirm, FK1); the grammar GM1-GM5d with the core convention L = [[1,1],[0,1]], R = [[1,0],[1,1]], P = [[0,1],[1,0]]; the generated state space with its census, levels, moves and non-claims; the root; four frames as named, unearned hypotheses with where each has been run; a mandatory scope tag, made data in the kill graph for this seat's entries from B1369 on; five gaps; eleven forks; a crosswalk of old labels. Re-derived with own code (C1-C10): the records route is over-determined (A5 and A6 each select (1,1) on the 144-point grid); the torsion of a hyperbolic once-punctured-torus bundle is abs(2 - tr) (det 1) or abs(tr) (det -1), so the postulated criterion SE1 (torsion-free H1) selects exactly the class of LR (m004) and of the golden matrix LP (the Gieseking manifold m000), every torsion-free matrix in the box conjugated explicitly; the word census 2, 2, 4, 6, 10, 18, 32, 56, 102, 186, 340 equals main's 758 and only +LR is torsion-free; every hyperbolic matrix in the box is plus or minus a positive word up to explicit conjugation; in P000's metallic family L^m P the torsion is Z/m, so SE1 selects m = 1; SnapPy confirms the 24 states, word length = tetrahedra, m000 the only torsion-free orientation-reversing bundle to length 6 and m004 its orientation double cover. So selecting the root manifold needs four inputs (aperiodicity, the punctured-torus carrier, SE1, orientation), and each is needed (without aperiodicity the order-6 and parabolic monodromies pass; without the carrier the Sol torus bundle and every knot complement pass); minimality, positivity, the unit-shear generation and the order bit are not needed for it. The selecting property is the property that leaves the root empty at its own level. Corrected: UNIQUENESS s5 (LR and RL are SL(2,Z)-conjugate by L, not by the swap, det -1). No axiom derived from anything weaker; no frame made physics. I-26 stays UNEARNED. 0 of 19."
+}

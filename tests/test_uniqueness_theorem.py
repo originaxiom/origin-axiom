@@ -102,13 +102,16 @@ def test_eigenvalues_are_phi_squared_and_inverse():
 
 # --- Axiom 7: the residual order choice (the based-invariant fact) ---------
 def test_order_choice_LR_vs_RL_conjugate_but_distinct_mobius_poly():
-    """LR and RL are SL(2,Z)-conjugate (via the swap) yet give DIFFERENT Möbius
-    fixed-point polynomials: LR -> tau^2 - tau - 1, RL -> tau^2 + tau - 1.
-    The order is an irreducible labeled choice; it selects the golden polynomial."""
+    """LR and RL are conjugate (in SL(2,Z) by L; the swap, det -1, also exchanges them) yet give
+    DIFFERENT Möbius fixed-point polynomials: LR -> tau^2 - tau - 1, RL -> tau^2 + tau - 1.
+    The order is an irreducible labeled choice for based data; it selects the golden polynomial.
+    (B1516: the SL(2,Z) witness is L, not the swap, whose determinant is -1; R57.)"""
     LR, RL = L * R, R * L
     swap = sp.Matrix([[0, 1], [1, 0]])
     # conjugate
     assert sp.simplify(swap * LR * swap.inv() - RL) == sp.zeros(2, 2)
+    assert swap.det() == -1                                   # the swap is a GL(2,Z) conjugation
+    assert L.det() == 1 and sp.simplify(L.inv() * LR * L - RL) == sp.zeros(2, 2)   # the SL(2,Z) witness
     # same trace, same eigenvalues
     assert sp.trace(LR) == sp.trace(RL) == 3
     # but different Möbius polynomials

@@ -1,0 +1,395 @@
+{
+ "C1 records route": {
+  "A5 alone (torsion-free)": [
+   [
+    1,
+    1
+   ]
+  ],
+  "A5 and A6 each select (1,1)": true,
+  "A6 alone (minimal trace)": [
+   [
+    1,
+    1
+   ]
+  ],
+  "B(-1,-1) SL(2,Z)-conjugate to LR": true,
+  "B(1,1) = LR = [[2,1],[1,1]]": true,
+  "ab = -1 is elliptic (trace 1)": true,
+  "all hyperbolic": true,
+  "passed": true,
+  "positive grid size": 144,
+  "without positivity: torsion-free hyperbolic": [
+   [
+    -1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ]
+ },
+ "C10 the metallic family": {
+  "SE1 selects m = 1": true,
+  "passed": true,
+  "rows": {
+   "1": {
+    "H1 torsion of the M_m bundle": [],
+    "H1 torsion of the M_m^2 bundle": [],
+    "M_m": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "M_m^2 = L^m R^m": true
+   },
+   "2": {
+    "H1 torsion of the M_m bundle": [
+     2
+    ],
+    "H1 torsion of the M_m^2 bundle": [
+     2,
+     2
+    ],
+    "M_m": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "M_m^2 = L^m R^m": true
+   },
+   "3": {
+    "H1 torsion of the M_m bundle": [
+     3
+    ],
+    "H1 torsion of the M_m^2 bundle": [
+     3,
+     3
+    ],
+    "M_m": [
+     [
+      3,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "M_m^2 = L^m R^m": true
+   },
+   "4": {
+    "H1 torsion of the M_m bundle": [
+     4
+    ],
+    "H1 torsion of the M_m^2 bundle": [
+     4,
+     4
+    ],
+    "M_m": [
+     [
+      4,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "M_m^2 = L^m R^m": true
+   },
+   "5": {
+    "H1 torsion of the M_m bundle": [
+     5
+    ],
+    "H1 torsion of the M_m^2 bundle": [
+     5,
+     5
+    ],
+    "M_m": [
+     [
+      5,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "M_m^2 = L^m R^m": true
+   },
+   "6": {
+    "H1 torsion of the M_m bundle": [
+     6
+    ],
+    "H1 torsion of the M_m^2 bundle": [
+     6,
+     6
+    ],
+    "M_m": [
+     [
+      6,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "M_m^2 = L^m R^m": true
+   }
+  }
+ },
+ "C2 torsion selector": {
+  "G = LP = [[1,1],[1,0]] and G^2 = LR": true,
+  "box": "entries in [-5, 5]",
+  "each conjugate to LR (det 1) or to G or G^-1 (det -1), conjugator found": 48,
+  "hyperbolic": 408,
+  "passed": true,
+  "their (det, trace)": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    3
+   ]
+  ],
+  "torsion = |2 - tr| (det 1), |tr| (det -1) on every hyperbolic matrix": true,
+  "torsion-free hyperbolic matrices": 48,
+  "unimodular matrices": 616,
+  "unmatched": []
+ },
+ "C3 order bit": {
+  "L^-1 (LR) L = RL": true,
+  "Moebius fixed-point polynomial of LR (c, d-a, -b)": [
+   1,
+   -1,
+   -1
+  ],
+  "Moebius fixed-point polynomial of RL (c, d-a, -b)": [
+   1,
+   1,
+   -1
+  ],
+  "P (LR) P = RL": true,
+  "det L": 1,
+  "det P": -1,
+  "passed": true
+ },
+ "C4 word census": {
+  "agrees with main": true,
+  "main B1439": [
+   2,
+   2,
+   4,
+   6,
+   10,
+   18,
+   32,
+   56,
+   102,
+   186,
+   340
+  ],
+  "minimal trace is length + 1": true,
+  "minimal |trace| by length (positive words)": {
+   "10": 11,
+   "11": 12,
+   "12": 13,
+   "2": 3,
+   "3": 4,
+   "4": 5,
+   "5": 6,
+   "6": 7,
+   "7": 8,
+   "8": 9,
+   "9": 10
+  },
+  "passed": true,
+  "states per length (signed)": [
+   2,
+   2,
+   4,
+   6,
+   10,
+   18,
+   32,
+   56,
+   102,
+   186,
+   340
+  ],
+  "torsion-free states": [
+   "+LR"
+  ],
+  "total": 758
+ },
+ "C5-C7 SnapPy": {
+  "C10 b++L^mR^m: H1 (m = 1..5)": {
+   "1": "Z",
+   "2": "Z/2 + Z/2 + Z",
+   "3": "Z/3 + Z/3 + Z",
+   "4": "Z/4 + Z/4 + Z",
+   "5": "Z/5 + Z/5 + Z"
+  },
+  "C5 all non-orientable": true,
+  "C5 distinct census names": 24,
+  "C5 names": {
+   "+LLLLLR": "s000",
+   "+LLLLR": "m039",
+   "+LLLLRR": "s298",
+   "+LLLR": "m023",
+   "+LLLRLR": "s640",
+   "+LLLRR": "m235",
+   "+LLLRRR": "s464",
+   "+LLR": "m009",
+   "+LLRLR": "m370",
+   "+LLRLRR": "s892",
+   "+LLRR": "m136",
+   "+LR": "m004",
+   "-LLLLLR": "s001",
+   "-LLLLR": "m040",
+   "-LLLLRR": "s299",
+   "-LLLR": "m022",
+   "-LLLRLR": "s639",
+   "-LLLRR": "m234",
+   "-LLLRRR": "s463",
+   "-LLR": "m010",
+   "-LLRLR": "m369",
+   "-LLRLRR": "s891",
+   "-LLRR": "m135",
+   "-LR": "m003"
+  },
+  "C5 non-orientable bundles read (to length 6)": 46,
+  "C5 orientable states to length 6": 24,
+  "C5 torsion-free non-orientable bundles": [
+   "m000"
+  ],
+  "C5 word length = tetrahedra": true,
+  "C6 (+LR)^2 and (-LR)^2 bundles": [
+   "m206",
+   "same matrix: (-A)^2 = A^2"
+  ],
+  "C6 m000 H1": "Z",
+  "C6 m000 orientable": false,
+  "C6 m000 volume": 1.014942,
+  "C6 m003 = -LR, H1": "Z/5 + Z",
+  "C6 orientation cover of m000": "m004",
+  "C6 tower names (n = 1..6)": {
+   "1": {
+    "H1": "Z",
+    "name": "m004"
+   },
+   "2": {
+    "H1": "Z/5 + Z",
+    "name": "m206"
+   },
+   "3": {
+    "H1": "Z/4 + Z/4 + Z",
+    "name": "s961"
+   },
+   "4": {
+    "H1": "Z/3 + Z/15 + Z",
+    "name": "t12839"
+   },
+   "5": {
+    "H1": "Z/11 + Z/11 + Z",
+    "name": "o10_150696"
+   },
+   "6": {
+    "H1": "Z/8 + Z/40 + Z",
+    "name": "otet12_00013"
+   }
+  },
+  "C6 tower torsion |2 - tr A^n| (n = 1..12)": [
+   1,
+   5,
+   16,
+   45,
+   121,
+   320,
+   841,
+   2205,
+   5776,
+   15125,
+   39601,
+   103680
+  ],
+  "C7 fillings of m004": {
+   "(-5, 1)": {
+    "H1": "Z/5",
+    "pi1 generators after simplification": 2,
+    "solution": "all tetrahedra positively oriented",
+    "volume": 0.981369
+   },
+   "(0, 1)": {
+    "H1": "Z",
+    "pi1 generators after simplification": 2,
+    "solution": "contains flat tetrahedra",
+    "volume": 0.0
+   },
+   "(1, 0)": {
+    "H1": "0",
+    "pi1 generators after simplification": 0,
+    "solution": "contains negatively oriented tetrahedra",
+    "volume": 2.029883
+   },
+   "(5, 1)": {
+    "H1": "Z/5",
+    "pi1 generators after simplification": 2,
+    "solution": "all tetrahedra positively oriented",
+    "volume": 0.981369
+   }
+  },
+  "C8 5_2: H1, solution, volume": [
+   "Z",
+   "all tetrahedra positively oriented",
+   2.828122
+  ],
+  "passed": true,
+  "snappy": "3.3.2"
+ },
+ "C8 necessity (integer part)": {
+  "passed": true,
+  "the closed torus bundle of LR: coker(LR - I)": [
+   0,
+   []
+  ],
+  "the parabolic L: H1 of its mapping torus": "Z + Z",
+  "the trace-1 monodromy [[1,-1],[1,0]]: order, H1 of its mapping torus": [
+   6,
+   "Z"
+  ],
+  "without GM3: non-hyperbolic det-1 matrices with torsion-free H1, by trace": {
+   "1": 12,
+   "2": 17
+  }
+ },
+ "C9 the unit shears generate every state": {
+  "box": "entries in [-5, 5]",
+  "hyperbolic det-1 matrices": 168,
+  "level-1 words missing from the census": 0,
+  "not reduced": 0,
+  "passed": true,
+  "reduced to +-(positive word with both letters), explicit SL(2,Z) conjugator found": 168
+ },
+ "all passed": true,
+ "seconds": 1.6
+}

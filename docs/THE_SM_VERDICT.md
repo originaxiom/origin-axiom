@@ -1,5 +1,10 @@
 # THE SM VERDICT — where the Standard Model question actually stands
 
+> **Read first (2026-10-02, B1516): the foundations are stated once in `../GENESIS.md` v1.0.** The architecture is a
+> generated state space with m004 as its root, not a single object. Every row below is a statement about a frame applied
+> to an object (GENESIS §5–§6): a result on m004 or its family blocks nothing beyond its scope tag, and the closures' tags
+> are in `views/CLOSED_DOORS.md`. The price is unchanged: 0 of 19.
+
 > ## ⚠ AMENDED 2026-08-08 (B976) — this verdict was written without the B860s
 >
 > The first version of this document omitted **eleven of the twelve cascade-closure arcs**

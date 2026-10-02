@@ -1,5 +1,37 @@
 # Changelog
 
+## B1516 banked: GENESIS v1 — the foundations stated once, with one collision-free numbering, and the scope tag made data (PROVED)
+
+- **The product.** `GENESIS.md` v1.0 at the repository root, canonical and versioned: where any document disagrees with it, it
+  holds, and only an arc may amend it. It states the principle (three faces PF1–PF3 in one proposed wording; the owner confirms,
+  FK1), the grammar GM1–GM5d with the core convention for L, R and P, the generated state space, the root, the four frames, the
+  scope tag, five gaps, eleven forks and a crosswalk from every old label. Its IDs had no prior use in the repository; outside it
+  they are cited as "GENESIS SE1".
+- **Re-derived with own code** (`frontier/B1516_genesis_v1/verification/foundations_checks.py`, C1–C10, all pass in about 2 s):
+  - the records route is over-determined (A5 and A6 each select (1, 1) on the 144-point grid; without positivity also (−1, −1));
+  - the H₁ torsion of a hyperbolic once-punctured-torus bundle is abs(2 − tr) or abs(tr), so torsion-freeness selects exactly m004
+    and the Gieseking manifold m000 (48 matrices in the box, each conjugated explicitly);
+  - the word census equals main's 758 row by row; every hyperbolic matrix in the box is ± a positive word up to an explicit
+    conjugator; in P000's metallic family LᵐP the torsion is ℤ/m (B126's fact (A)), so m = 1 is selected;
+  - SnapPy: the 24 states, word length = tetrahedra, m000 the only torsion-free orientation-reversing bundle to length 6, m004 its
+    orientation double cover, m004's (1, 0) filling simply connected.
+- **The reductions.** The torsion criterion (SE1) is postulated; what it selects (T-ROOT) is derived. Selecting the root needs four
+  inputs (aperiodicity, the punctured-torus carrier, SE1, orientation), and each is needed: without aperiodicity the order-6 and
+  parabolic monodromies pass, without the carrier the Sol torus bundle and every knot complement pass. Minimality, positivity, the
+  unit-shear generation and the order bit are not needed for the root.
+- **The scope tag as data.** This seat's 29 kill-graph entries from B1369 on carry `scope` (frame, object, reach, hypotheses), with
+  notes where an entry's wording reached further than its computation (B1385, B1391, B1504, B1506, B1511). The arc-verdict schema
+  requires the tag from B1516 on. The closed-door map shows how far each closure reaches; the reviewer page's object paragraph no
+  longer says "the object".
+- **Corrections carried:** UNIQUENESS §5 (LR and RL are SL(2,ℤ)-conjugate by L, not by the swap; the audit lane's R57) with its lock;
+  B1384's transposed L/R; R57's rejection of B1380 §3 recorded at GM4.
+- **Draft errors caught before commit** (ERROR_LEDGER, three rows): facts restated from memory (B1186's family called the class;
+  B1369's 77 misread; three frame cells), a postulated criterion given DERIVED status, and a first numbering that collided with
+  labels used thousands of times.
+- **Surfaces:** README and THE_SM_VERDICT point to GENESIS; OPEN_LEADS reads every lead with its scope and registers sL-9, the order
+  of work under v1.0 (the bar and the null model first, then the frames beyond m004); the alias table; the atlas and views.
+- **Lock:** `tests/test_b1516_genesis_v1.py` (18 fast, 1 slow). 0 of 19.
+
 ## Relay from main read and answered: main's own-code checks of sm:B1509, sm:B1511 and sm:B1515 agree; its meridian trap does not affect this seat
 
 - **Received.** main @ bd48dd28 carries `CC_TO_SM_2026-10-02_THE_RELEASED_RELAYS.md` (on main, in docs/handoffs), and cc restated it in a live message to

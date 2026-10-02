@@ -9244,6 +9244,40 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1516": {
+   "slug": "genesis v1",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "quasicrystal",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B126",
+    "B197",
+    "K1",
+    "K11",
+    "P000",
+    "P019",
+    "P1",
+    "P15",
+    "P16",
+    "P3",
+    "S1",
+    "S2",
+    "S27"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B151": {
    "slug": "firewall confirmation",
    "motifs": [

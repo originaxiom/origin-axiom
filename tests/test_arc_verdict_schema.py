@@ -8,6 +8,7 @@ Every frontier/*/arc_verdict.json must:
   - carry instrument as a BOOLEAN (E45's species, locked);
   - carry creates_law as a BOOLEAN when present — and ALWAYS from B1103 on
     (legacy arcs may omit it; omission means false to the registry gate);
+  - carry a scope tag (frame, object, reach, hypotheses) from B1516 on (GENESIS.md section 6);
   - have an id matching its directory prefix.
 """
 import json
@@ -28,6 +29,10 @@ CREATES_LAW_REQUIRED_FROM = 1103
 # dominant error mode is gluing two structures whose labels match, in different places, without a
 # map (B813; B1223's "direct is not semidirect"; and two of this bench's own in one session).
 IDENTIFICATIONS_REQUIRED_FROM = 1231
+# B1516 (GENESIS.md v1.0 section 6): every result carries a scope tag -- the frame it was computed in,
+# the object, how far it reaches and what else it needs. A negative blocks only where its tag reaches.
+SCOPE_REQUIRED_FROM = 1516
+SCOPE_REACH = {"single", "class", "general"}
 
 FILES = sorted((ROOT / "frontier").glob("*/arc_verdict.json"))
 
@@ -66,3 +71,11 @@ def test_schema(path):
         assert "creates_law" in d, (
             f"{path.parent.name}: creates_law is REQUIRED from "
             f"B{CREATES_LAW_REQUIRED_FROM} on (declare it, the gate reads it)")
+    if "scope" in d or num >= SCOPE_REQUIRED_FROM:
+        sc = d.get("scope")
+        assert isinstance(sc, dict), (
+            f"{path.parent.name}: arcs from B{SCOPE_REQUIRED_FROM} on carry a scope tag (GENESIS.md section 6)")
+        assert isinstance(sc.get("frame"), str) and sc["frame"], f"{path.parent.name}: scope.frame"
+        assert isinstance(sc.get("object"), str) and sc["object"], f"{path.parent.name}: scope.object"
+        assert sc.get("reach") in SCOPE_REACH, f"{path.parent.name}: scope.reach must be one of {SCOPE_REACH}"
+        assert isinstance(sc.get("hypotheses"), list), f"{path.parent.name}: scope.hypotheses must be a list"

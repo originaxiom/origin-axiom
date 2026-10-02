@@ -632,3 +632,49 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B762` |  | `other` |
 | `B774` |  | `other` |
 | `B791` |  | `other` |
+
+## How far each closure reaches (29 carry a scope tag)
+
+A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
+where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
+`class` (a named class or set of states) or `general` (every state, in that frame). Closures
+without a tag (790) predate the tag; read their object from their own text.
+
+| frame | single | class | general |
+|---|---|---|---|
+| `F-AP` |  | 3 | 3 |
+| `F-CI` | 1 |  |  |
+| `F-FC` | 2 | 6 | 8 |
+| `F-HE` | 6 |  |  |
+
+| arc | frame | reach | object | read with |
+|---|---|---|---|---|
+| `B1369` | `F-FC` | class | B1186's 112-member family (shape field in Q(sqrt-3); its 99 arithmetic members are m004's class's census part) | The free-cusp theorem itself is general in F-FC; the census closes 108 of the 112. |
+| `B1372` | `F-FC` | general | any free cusp of any member: the doublet reading of a generation (10 from the 78's SL(2)_beta doublets, 5bar from the 2… |  |
+| `B1373` | `F-FC` | class | the 35 members of B1186's family with a free cusp |  |
+| `B1385` | `F-FC` | general | all orientable word states (joins checked to length 8), and the pilot's Eisenstein cusps in m004's class | 'The word states never can' holds in F-FC only. In F-CI, 95 of the 758 word states to length 12 carry a generation-shaped background at their own level (main B1439). |
+| `B1388` | `F-FC` | single | cube~3.24, a degree-9 cover of o10_150725 in m004's class |  |
+| `B1389` | `F-FC` | general | any member with a cuspidal Higgs class (computed on cube~3.24) |  |
+| `B1390` | `F-FC` | class | the arithmetic members of m004's commensurability class (isometries in PGL(2, Q(sqrt-3))) |  |
+| `B1391` | `F-FC` | single | cube~3.24 (isometry group D3) | A statement about cube~3.24's isometry group; members with other isometry groups are not read. |
+| `B1392` | `F-FC` | general | any member and any Higgs class (the deformed problem on the complete manifold) |  |
+| `B1393` | `F-FC` | general | the rank-one Higgs twist on any member (cube~3.24's cuspidal twist computed) |  |
+| `B1394` | `F-FC` | class | acyclic invariant order-3 characters on the arithmetic census of m004's class and cube~3.24 |  |
+| `B1395` | `F-FC` | general | any free cusp |  |
+| `B1396` | `F-FC` | class | rotated Eisenstein cusps of members of m004's class (213 pairs, 444 rows) |  |
+| `B1397` | `F-FC` | general | any capped cusp torus |  |
+| `B1398` | `F-FC` | general | m004's commensurability class: the frame's verdict on three |  |
+| `B1399` | `F-FC` | class | degree-2 and degree-3 covers of the 99 arithmetic members with cuspidal dimension at least 2 (109 up to isometry) |  |
+| `B1500` | `F-AP` | general | any member's free cusps completed as cone points (ten members computed) |  |
+| `B1501` | `F-AP` | class | G2 cones over the four homogeneous nearly Kaehler 6-manifolds modulo their listed finite automorphisms (694 classes of… |  |
+| `B1502` | `F-AP` | class | B1501's torus-linked quotients |  |
+| `B1503` | `F-AP` | general | G2 cone points over finite quotients of compact nearly Kaehler links |  |
+| `B1504` | `F-AP` | general | B1500's cusp-point choice: the order bit and symmetry (every member), and the root's own data (m004) | 'What the architecture itself fixes' was computed from m004's own data (T2) and from symmetry; other states' own data are not read, and completions supplied by physics are outside it. |
+| `B1505` | `F-AP` | class | known G2 cones over orbifold links that are not global quotients (AW sections 2 and 3, and isometric quotients) |  |
+| `B1506` | `F-CI` | single | m004's cyclic levels (s961 and M6): B1378's deck triplet | About the root's levels; other states' levels (main B1434: ten of twelve three-fold levels carry orbits of three) are not read. |
+| `B1509` | `F-HE` | single | m004's convex-projective family (the audit lane's harmonic vacuum A + 1, A = mu rho_q) |  |
+| `B1510` | `F-HE` | single | m004's harmonic vacuum A + 1 with both singlet directions |  |
+| `B1511` | `F-HE` | single | m004's cyclic levels M_n with the projective vacuum, any character twist | 'On every level' holds for q != 1 only. |
+| `B1513` | `F-HE` | single | B1511's projective triplet on s961 and B1509's join on m004 |  |
+| `B1514` | `F-HE` | single | B1511's case-(b) orbits on M4, M5 and M6 (184 members) |  |
+| `B1515` | `F-HE` | single | m004's harmonic family at q = 1 (the complete hyperbolic structure), levels 1 to 6 |  |

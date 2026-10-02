@@ -16724,3 +16724,30 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - The second relay's three bookkeeping items were already applied on 2026-09-16: sL-n lead labels, sm:B1363's wording, the argued
   steps.
 - Answered in `SM_TO_CC_2026-10-02_THE_RELAYS_RECEIVED.md`, seeded OPEN in RELAY_LEDGER. 0 of 19.
+
+## 2026-10-02 — B1516: GENESIS v1, the foundations stated once, and the scope tag made data
+
+- **The owner's request** (2026-10-02): make the genesis "as robust and sophisticated as it gets", lock it once, and make every
+  document reflect it; stop m004-only negatives from being read as blocks on the programme. Answered with a plan of six steps; the
+  owner said "execute the plan". Defaults taken and flagged: the principle's wording proposed (FK1, the owner's), new research arcs
+  paused, v1.0 written on this branch first and then relayed.
+- **The product.** `GENESIS.md` v1.0 (canonical; amended only by an arc; versioned). B1516's FINDINGS records why: three wordings of
+  the principle with no bridge, the genesis's output changed on 2026-09-27 while the headlines still say "a single object", label
+  schemes that collide, frames that disagree on the same objects, and seven arcs in a row on m004's own family with no scope field.
+- **Verification** (`foundations_checks.py`, C1–C10, all pass in about 2 s; the record inspected): C1 the records route; C2 the
+  torsion formula on 616 matrices and the 48 torsion-free ones conjugated to LR, LP or (LP)⁻¹; C3 the order bit; C4 the census
+  against main's B1439; C5–C7 SnapPy (24 states, 46 non-orientable bundles, the levels, the fillings with π₁ and H₁); C8 the
+  necessity witnesses; C9 the 168 hyperbolic matrices reduced to words with explicit conjugators; C10 the metallic family.
+- **Checked against the sources before commit.** Every number and citation in the draft was read back against its arc. Three rows
+  went to ERROR_LEDGER: facts restated from memory (B1186's 112 called the class, which B1390 had corrected to 99; B1369's 77
+  misread; three frame cells; main's adoption of the state space misstated), the criterion SE1 given DERIVED status, and a first
+  numbering (P1–P3, G1–G5, S1–S2, K1–K11) whose labels are each used hundreds to thousands of times. The OA-C0001 wording could not
+  be re-read on any fetched branch, so GENESIS cites only its status (REFUTED) as digested on the physics-seat branch.
+- **Scope as data.** `verification/scope_pass.py` wrote `scope` into this seat's 29 kill-graph entries from B1369 on (idempotent).
+  By frame and reach: F-FC 2 single, 6 class, 8 general; F-AP 3 class, 3 general; F-CI 1 single; F-HE 6 single. Every harmonic-frame
+  closure (B1509–B1515) reaches one family, m004's. The schema requires the tag from B1516 on; the views show it.
+- **Surfaces in this arc:** README and THE_SM_VERDICT pointers; OPEN_LEADS (the mandate's scope note and sL-9, the order of work);
+  UNIQUENESS (pointer and §5) with its lock; the alias table; the atlas and views. The headline rewrites and the relays follow.
+- **Tests and gates.** The lock: 18 fast and 1 slow, passing. The 51 test files that read a touched document, with the lock, the
+  schema and the uniqueness tests: 1 593 passed. Gates: all pass except relay-debt, the known baseline.
+- I-26 stays UNEARNED. 0 of 19.

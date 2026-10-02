@@ -1,5 +1,10 @@
 # Origin Axiom
 
+> **Foundations (2026-10-02, B1516): [`GENESIS.md`](GENESIS.md) v1.0 is canonical.** It states once, with one numbering,
+> the principle, the grammar, the generated state space with the figure-eight knot complement m004 as its root, the
+> frames in which results are computed, and the open forks. Where anything below disagrees with it (for example "a
+> single object"), GENESIS holds.
+
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The window (B1201–B1218) is the one where **the record audited itself**. A sweep of the live surfaces found **seven banked results being asserted as open** — the A2 stratum, the hypercharge direction and the spin lift all priced *free* against arcs that had assigned them; L175 counted open on two surfaces against a PROVED closure; L57 asserting a question a NEGATIVE had answered. **≈8.5 bits of phantom freedom removed, and the discrete freedom ledger closes to exactly {C, P}** — two relational bits, neither a selection from a menu. New error class **E53 (surface non-propagation)**; new instrument `scripts/checks/open_claim_sweep.py`. Suite 5745 green.
 
 > **State — Review 50 (2026-08-27), head B1173.** The window closed the gravity thread two-seat (**B1165 GENERIC-RHYME** — the observer's archimedean closing is co-located with, not identical to, the object's gravitational sector), made the object/observer boundary **decidable** (**B1168, the mirror-parity law**: object-canonical iff mirror-even ∧ dimensionless), gave the adelic observer its **mechanism** (the orbit-escape pair, B1171), named the qualia "choice" as the mirror-odd orientation (B1169), and **rescoped the anomaly forcing as arena-generic** (B1170: "the object supplies the arena; the anomalies supply the content" — B1160 strengthened). SEAM-A stands as *walled-on-forcing / INDETERMINATE-on-sealing* (Gate 2 NEEDS-SPECIALIST). Structure forced; values disjoint (five routes); dynamics generic; the closing observer-supplied — now with the boundary drawn by a law, not a preference.

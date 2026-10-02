@@ -2789,6 +2789,10 @@ prefix **sL-** until main names a block.
 0 of 19 is the scoreboard, not the steering wheel. sL-1's heading keeps its date. Its family is, by B1385 T4, the region the covering
 relation reaches.
 
+**Under GENESIS v1.0 (2026-10-02, B1516).** The foundations are stated once in `../GENESIS.md`. Every lead below is read with its
+scope: the frame it runs in (GENESIS §5), the object, how far it reaches and what else it needs (§6). A closure on m004 or its family
+blocks nothing beyond its tag. The order of work under v1.0 is sL-9 at the end of this file.
+
 ## sL-1 — THE FAMILY IN THE STANDARD-MODEL FRAME (registered 2026-09-16 on the owner's direction; the seat's mandate after the verdict)
 
 Does the commensurability class of the figure-eight supply what m004 withholds — a chiral generation compatible with the Standard
@@ -3697,3 +3701,30 @@ This job is not optional, whichever answers the first two questions get. `fronti
 
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.
+
+## sL-9 — THE ORDER OF WORK UNDER GENESIS v1.0 (registered 2026-10-02, B1516; this seat's proposal, the owner may reorder)
+
+**Why.** Seven arcs in a row (B1509–B1515) were run in one frame (GENESIS F-HE) on one family (m004's), and the kill graph had no
+field to say so. `GENESIS.md` §7 names five gaps between the architecture and physics, and no work on one state can close any of
+them. The order below puts first what is tractable and what protects every later result from coincidence. Each item is sealed
+before it is computed.
+
+1. **The bar first (GENESIS GAP4, FK9).** Fix a selection rule and a null model before any further match is counted. The record
+   already holds base rates in main's class-index frame: 95 of the 758 word states to length 12 carry a generation-shaped background
+   at their own level (main B1439), and ten of twelve three-fold levels to length 6 carry orbits of three (main B1434). The next
+   positive anywhere must beat a stated base rate in its own frame.
+2. **The frames beyond m004 (GENESIS §8, the frontier).**
+   - The harmonic frame on states outside m004's levels: m003 (the sister, −LR), m010 (where the audit lane's R40 has an anomaly-free
+     10 + 5̄ but no harmonic background), and m369 and s639 (the class-index frame's own-level carriers).
+   - The class-index frame on m369 and s639 built from their own arithmetic (main's L229 (iii)).
+   - The Gieseking manifold m000 in any frame (FK2: carry both roots).
+3. **The end law (GAP2, FK10; sL-8).** An end condition derived from physics. B1504: the architecture's own data pick non-chiral
+   completions, so the chiral datum must come from the completion's physics.
+4. **The source (GAP3).** What a source must supply for a non-split background (the audit lane's R41), frame by frame.
+5. **Standing, long-horizon:** the dictionary (GAP1, FK11, I-26) and dynamics (GAP5).
+
+**Demoted, kept registered.** B1515 §8's leads 1–3 (the sign law at q = 1, the interior classes on levels 7–12, one W with both
+partners) deepen m004's family in one frame (reach single). They are not next. B1515's lead 4 (several states) moves under item 2.
+
+**The foundations' own forks** (GENESIS §8): FK1, the principle's wording, is the owner's; FK3 and FK2 (the swap's meaning, and
+orientation) stay with sL-3; FK7 (the deck) with sL-5.
