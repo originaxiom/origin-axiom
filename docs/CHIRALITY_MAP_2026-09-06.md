@@ -532,6 +532,16 @@ chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 >
 > `frontier/B1514_the_decoupling_law`.
 
+> **Addendum (2026-10-02, B1515): the hyperbolic point.**
+> - At q = 1 (ρ₁, the SO(3, 1) vector representation; parabolic cusp) Λ²W meets the cusp, so a 5̄′ count is possible. Read on all 508
+>   fibre characters of M₁–M₆ by two routes that share no code. At every simple member the 5̄′ count is zero, by a rigidity mechanism
+>   proved at the seal and read at each member.
+> - On M₆ the twisted geometric four ν ⊗ ρ₁ has interior classes. Through them 24 order-8 members carry a 10̄′ and a 5̄′ together,
+>   (I(W₁), I(Λ²W₁)) = (+1, −1), anomaly −2. The two halves of a generation meet on one harmonic background for the first time, but
+>   with opposite signs. No member through level 6 is generation-shaped.
+>
+> `frontier/B1515_the_hyperbolic_point`.
+
 ## Provenance
 
 Cited above: B71, B102, B136, B145, B147, B152, B252, B253, B301, B303, B316, B432, B434, B576, B582, B583, B713, B760, B863,

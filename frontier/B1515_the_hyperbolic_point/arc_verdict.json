@@ -1,0 +1,17 @@
+{
+ "id": "B1515",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1514",
+  "B1513",
+  "B1511",
+  "B1509"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE HYPERBOLIC POINT, run as sealed (b36f6d8e; the owner's 'go' after B1514) by two routes that share no code and agree on all 3048 keys, every dimension and index, zero and non-zero (the owner's rule NO NEGATIVE FROM A BUG): route T (census_t.py, B1511's tower_lib, 792 s, twelve primes) and route L (census_l.py, B1513's audit backends with the interior dimension from one joint system, 426 s, eighteen other primes); levels 1 and 3 exactly in both. A 5bar' needs torus cohomology of Lambda^2 W, which on m004's harmonic family happens only at q = 1 (the complete hyperbolic structure; type-0 cusp). The census read B1509's rank-five extensions W1 = [[V, cL], [0, L]] (V = nu (x) rho_1, L = nu^-4) at every fibre character of M1-M6 at lam = 1 (508, all members) and the members at lam = -1, +-i, w, w^2 (none: P2 YES). At every simple member the design lemma holds exactly (Lemma 8): I(W1) = 1 - b0 - rho is 0 in case (a) and, in case (b), 1 exactly where nu^5 lies in nu's deck orbit and 0 elsewhere (P3 YES), and I(Lambda^2 W1) = 0, with the image of the Higgs bulk's classes meeting the parabolic part only in 0 at every simple member (Remark 9's mechanism). P1 NO: the twisted geometric four has interior classes on M6 only (n = 1 at 24 order-8 characters in four deck orbits, n = 2 at the 4 order-5 characters; route T, route L and Wang's fibre monodromy agree at all 320 characters). P4 and P5 NO: the 24 order-8 members with interior classes carry (I(W1), I(Lambda^2 W1)) = (+1, -1) at every class with non-zero boundary restriction ((0, -1) at the interior class), read exactly over Q(zeta_8) post-run: one 10bar' and one 5bar' on one harmonic background, W2 mirroring with one 10' and one 5'. The SU(5)' cubic anomaly I(Lambda^2 W) - I(W) is -2, so the halves double the anomaly instead of cancelling it. At every member, class and field I(W1) is 0 or 1 and I(Lambda^2 W1) is 0 or -1: no member through level 6 is generation-shaped. Positive control R40 on m010 (I = +1 on V, Lambda^2 V, W, Lambda^2 W) fired exactly in both routes. Caveats as sealed: the cusp is not sealed for these modules (B1392's continuum), the counts are main's interior index, and Proposition E's ranges are reported, not used (sL-8). Verdict PROVED by the sealed rule (P5 fails); the sealed text's description of such a member as '10bar' and 5'' is corrected (ERROR_LEDGER). Routed in the kill graph (wrong-partner-five). I-26 stays UNEARNED. 0 of 19."
+}

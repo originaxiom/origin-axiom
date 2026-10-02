@@ -9212,9 +9212,37 @@
     "S34"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1515": {
+   "slug": "the hyperbolic point",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "K1",
+    "K6",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "S1",
+    "S7"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "topology"
   },
   "B151": {
    "slug": "firewall confirmation",

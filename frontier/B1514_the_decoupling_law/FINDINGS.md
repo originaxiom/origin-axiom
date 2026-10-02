@@ -234,6 +234,11 @@ connections, Theorem C; the analogue in this frame is not proved here):
    lead 3). The record now closes the inside door for every chiral state through level 6.
 5. **The 5̄′** (unchanged, decisive).
 
+> **Lead 5 taken (2026-10-02, B1515; PROVED by the sealed rule).** At q = 1, the one point of the family where Λ²W meets the cusp,
+> two routes that share no code read every λ = 1 member of M₁–M₆. The 5̄′ count is zero at the 384 simple members. At 24 order-8
+> members of M₆, through interior classes of ν ⊗ ρ₁, W₁ carries a 10̄′ and a 5̄′ (I = +1 and −1, anomaly −2): the wrong partner. No
+> member through level 6 is generation-shaped. `frontier/B1515_the_hyperbolic_point`.
+
 ## Verification
 
 - `verification/law_lib.py`: route T's members, couplings, joining forms and populations, on B1513's `higgs_lib.py`.

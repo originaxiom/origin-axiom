@@ -171,4 +171,11 @@ couples to a Higgs class of its own background. The open item B1513 added is now
 outside the background's own Higgs sector (another state, an end or apex inflow, or a non-perturbative coupling). The 5̄′ is
 unchanged. `frontier/B1514_the_decoupling_law`.
 
+**The hyperbolic point (B1515).** The 5̄′ was looked for where it can live on m004's harmonic family: q = 1, the complete hyperbolic
+structure, where Λ²W has torus cohomology. Through level 6, two independent routes find it only on M₆, at 24 members where the
+twisted geometric four has interior classes, and there it comes with the 10̄′, not the 10′: (I(W₁), I(Λ²W₁)) = (+1, −1), anomaly −2.
+At every other member it is zero. So the path's decisive item changes form. A 5̄′ now exists on one harmonic background, but the
+generation still needs W₂'s 10′ and W₁'s 5̄′ in one W, or one state's 5̄′ paired with another's 10′ (B1385). It also needs an end
+condition that does not choose itself by the count (sL-8). `frontier/B1515_the_hyperbolic_point`.
+
 0 of 19.

@@ -1,5 +1,41 @@
 # Changelog
 
+## B1515 banked: the hyperbolic point — both halves of a generation on one harmonic background, with opposite signs (PROVED, by the sealed rule)
+
+- **Run as sealed** (b36f6d8e) by the two named routes, which share no code. They agree on all 3 048 keys (level, character, λ), on
+  every dimension and every index, zero and non-zero, at disjoint primes:
+  - route T, B1511's tower_lib (`census_t.py`): 792 s, 1 023 full readings and 5 115 member tests, twelve primes;
+  - route L, B1513's audit backends with the joint-system interior dimension (`census_l.py`): 426 s, 1 531 full readings and 7 655
+    member tests, eighteen other primes.
+  Levels 1 and 3 were also read exactly by both. Part 0 (the banked identity, with R40 on m010 as the positive control) passed in both.
+- **The result.**
+  - P2 YES: no member off λ = 1.
+  - P3 YES: at every simple member I(W₁) = 1 − b0 − ρ (Lemma 8): 1 on the 52 simple deck-coincident case-(b) members (M₄: 8, M₅: 20,
+    M₆: 24), 0 elsewhere.
+  - At all 384 simple members I(Λ²W₁) = 0, and the image of the Higgs bulk meets the parabolic part only in 0 (Remark 9's mechanism).
+  - P1 NO: the twisted geometric four ν ⊗ ρ₁ has interior classes on M₆ (n = 1 at 24 order-8 characters, n = 2 at the 4 order-5 ones),
+    so 124 members of M₆ are not simple. Route T, route L and Wang's fibre monodromy agree on all 320 characters.
+  - P4 and P5 NO: the 24 order-8 members read (I(W₁), I(Λ²W₁)) = (+1, −1) at every boundary-type class, (0, −1) at the interior class.
+    W₁ carries a 10̄′ and a 5̄′, anomaly −2; W₂ mirrors it.
+  - At every member, class and field of both routes, I(W₁) ∈ {0, 1} and I(Λ²W₁) ∈ {0, −1}: no member through level 6 is
+    generation-shaped.
+- **Post-run** (`post_run_checks.py`, 65 s): (a) the deciding members exactly over ℚ(ζ₈), and the simple (1/8, 0) as a contrast;
+  (b) the interior classes by both routes; (c) the Λ² rank count at (1/8, 1/2); (d) Wang's sequence as a third method.
+- **Corrected before banking:** FINDINGS' lead 2 now reads the interior classes as deformations of the holonomy into SO(4, 1), not of
+  the hyperbolic structure; the novelty sentence cites the sweep (B1509, B1511, R74, R75; main's counts are at non-harmonic
+  backgrounds). A draft relay row misstated C55's scope (ρ₁ ⊗ ℂ = h ⊗ h̄ is outside it); corrected before it was committed.
+- **ERROR_LEDGER, three rows:**
+  - the sealed reading rule described a P5-failing member with the signs Lemma 8 gives at simple members ("a 10̄′ and a 5′"); the
+    members found carry a 10̄′ and a 5̄′. The rule is applied as sealed;
+  - the two draft slips above (C55's scope; what H¹(Γ; ℝ^{3,1}) deforms), caught before any commit;
+  - two more draft slips caught before any commit: the verdict line and letter stated I(W₁)'s value without the case split (case (a)
+    reads 0), and the kill-graph entry credited the read zero of I(Λ²W₁) to Lemma 8, which gives only its form.
+- **Banked:** FINDINGS, the verdict (no law) and the lock (`tests/test_b1515_the_hyperbolic_point.py`, 15 tests, one slow); the kill
+  graph (`wrong-partner-five`); SEAL_LEDGER verdict row; RELAY_LEDGER (main and the audit lane re-read after a fresh fetch, unchanged
+  since the seal; rows back to both); OPEN_LEADS (leads 1–5); the alias table; the letter's eightieth note; README; the chirality map,
+  the path note, the SM verdict and B1514's currency note; the atlas and views.
+- I-26 stays UNEARNED. 0 of 19.
+
 ## B1515 sealed: the hyperbolic point — can one configuration carry both halves of a generation? Asked at q = 1, before any count there
 
 - **The question** (the owner's "go" after B1514). B1509 put the chiral 10′ and the missing 5̄′ on different backgrounds. A 5̄′ needs a

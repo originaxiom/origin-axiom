@@ -1,0 +1,41 @@
+Part 0: {'h1(rho1)': 1, 'h1(rho1*)': 1, 'h1(L2 rho1)': 2}; R40 I = [1, 1, 1, 1]; passed = True
+[     2.0s] M1 GF(16664377): 1 characters read
+[     2.1s] M1 GF(16664353): 1 characters read
+[     5.6s] M1 exact: 1 characters read
+[     6.3s] M2 GF(16656421): 5 characters read
+[     7.0s] M2 GF(16656361): 5 characters read
+[    10.7s] M3 GF(16648633): 16 characters read
+[    14.0s] M3 GF(16648441): 16 characters read
+[    68.7s] M3 exact: 6 characters read
+[    82.2s] M4 GF(16640761): 45 characters read
+[    95.6s] M4 GF(16640581): 45 characters read
+[   145.3s] M5 GF(16632793): 121 characters read
+[   195.7s] M5 GF(16629889): 121 characters read
+[   498.5s] M6 GF(16624081): 320 characters read
+[   791.6s] M6 GF(16623961): 320 characters read
+{
+ "D": {
+  "D2 pieces: I = 0 and r1 = (t0 + s0)/2": true,
+  "D3 Lambda^2 V: n = n* = 0; h1 = 2 at lam = +-1, else 0": true,
+  "D4 indices vanish off mu_4 (W) and off mu_2 u mu_3 (Lambda^2 W)": true,
+  "D5 torus table at simple members: W1 (t0, s0) = (1, 2), Lambda^2 W1 (2, 3)": true,
+  "D6 mirror: I(W2) = -I(W1), I(L2W2) = -I(L2W1)": true,
+  "D7 Lemma 8: I(W1) = 1 - b0 - rho and I(L2W1) = bit at every simple member": true,
+  "D7 case (a) simple members: I(W1) = 0": true,
+  "D7 deck-coincident case (b) simple members: rho = 0, I(W1) = 1": true,
+  "Remark 9 (proved half): e ^ c|P lies in pi_A at every simple member": true,
+  "D10 every field (both primes, and exact at levels 1 and 3) reads the same": true,
+  "D8 readings constant on deck orbits": true,
+  "D8 readings constant on Galois orbits (lam = 1; complex conjugation included)": true,
+  "D9 trivial fibre character: simple, case (a), I(W1) = 0 on every level": true,
+  "D9 trivial fibre character: no member off lam = 1": true
+ },
+ "P": {
+  "P1 every lam = 1 member is simple": false,
+  "P2 population B is empty": true,
+  "P3 off the deck coincidence, simple case (b): I(W1) = 0": true,
+  "P4 I(Lambda^2 W1) = 0 at every member (every class read)": false,
+  "P4 mechanism: Lambda_A meets pi_A in 0 at every simple member": true,
+  "P5 no member carries both a non-zero I(W1) and a non-zero I(Lambda^2 W1)": false
+ }
+}

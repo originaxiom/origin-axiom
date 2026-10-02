@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1262** |
-| words of findings prose | **1,035,635** |
-| test lock files referenced | **766** |
-| arcs carrying an authored verdict | **1262** (100.0 %) |
-| recorded closures | **818** (651 classified, 167 routed-only) |
+| research arcs with findings | **1263** |
+| words of findings prose | **1,038,596** |
+| test lock files referenced | **767** |
+| arcs carrying an authored verdict | **1263** (100.0 %) |
+| recorded closures | **819** (652 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 837 |
+| PROVED | 838 |
 | NEGATIVE | 326 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 88 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 89 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1514`** (3242 words, 1 locks)  
-THE DECOUPLING LAW, run as sealed (a0badfa3; B1513 leads 1 and 2) by two routes that share no code, which agree group by group on every dimension, zero and non-zero (the owner's rule NO NEGATIVE FROM A BUG): route T, B1513's relative triple product (census.py; 2479 s, 1120 readings, nine primes), and route L, the lifting criterion on B1513's independent audit (independent_route.py; 2196 s, 1672 readings, nineteen other primes). Through level 6 the chiral state of B1511's case (b) (one 10bar' per member, W1 = [[V, cL], [0, L]], V = nu (x) rho_q, L = nu^-4, in orbits of four on M4, five on M5 and six on M6: 18 groups, 184 members; M4 exactly, every group at every root of its factor mod five primes) has zero tree-level coupling to every Higgs class of its background. Proved at the seal: the 10bar' lives in the sub-bundle V (Lemma 2, H^1(V) -> H^1(W1) an isomorphism, checked post-run at every group), so every 10bar'.10bar'.5bar'_H coupling factors through H^2(Lambda^2 V), the twisted Higgs bulk nu^2 (x) Lambda^2 rho_q (Lemma 3, the sub-wedge lemma). P1 YES: that bulk is acyclic at every member. P2 YES: the Higgs content is V (x) L's (none on M4; h1(V) on M5, two at the double point w = 7; one on M6, the background's own c lifted). P3 YES: [a ^ a'] = 0 in H^2(Lambda^2 W1) and <hbar u a u a'> = 0 at every member, prime and root. P4 YES: the non-chiral 10' sector couples on every M5 and M6 member, and at M5's double point the interior vector-like 10' couples to itself (post-run (a), both routes). P5 NO: no invariant form joins two members of an orbit (184 own triples carry the wedge form only, all 5400 cross triples none, though every orbit has cross triples that pass the character test). P6 YES, vacuously. P7 YES: with B1513 (case (a), the Jordan zero; its pullbacks to levels 2-6 and the triplet on M6 read post-run (e) by both routes, the +-i control non-zero), no chiral state of the harmonic tower through level 6 couples to a Higgs class of its background. Post-run: W2's chiral 10' decouples too (the dual sub-wedge argument), both routes. Positive controls fired at every reading (x u c != 0; <y u x u c> != 0) and B1513's banked zero and non-zero were reproduced (K5). Read with main's B1445 (a coupling is a mass-term coefficient in main's frame; not proved in this one), the chiral matter gets no tree-level mass from its own background's Higgs directions. Routed in the kill graph (subbundle-decoupling). I-26 stays UNEARNED. 0 of 19.  
-`B1514_the_decoupling_law/FINDINGS.md`
+**PROVED — `B1515`** (2870 words, 1 locks)  
+THE HYPERBOLIC POINT, run as sealed (b36f6d8e; the owner's 'go' after B1514) by two routes that share no code and agree on all 3048 keys, every dimension and index, zero and non-zero (the owner's rule NO NEGATIVE FROM A BUG): route T (census_t.py, B1511's tower_lib, 792 s, twelve primes) and route L (census_l.py, B1513's audit backends with the interior dimension from one joint system, 426 s, eighteen other primes); levels 1 and 3 exactly in both. A 5bar' needs torus cohomology of Lambda^2 W, which on m004's harmonic family happens only at q = 1 (the complete hyperbolic structure; type-0 cusp). The census read B1509's rank-five extensions W1 = [[V, cL], [0, L]] (V = nu (x) rho_1, L = nu^-4) at every fibre character of M1-M6 at lam = 1 (508, all members) and the members at lam = -1, +-i, w, w^2 (none: P2 YES). At every simple member the design lemma holds exactly (Lemma 8): I(W1) = 1 - b0 - rho is 0 in case (a) and, in case (b), 1 exactly where nu^5 lies in nu's deck orbit and 0 elsewhere (P3 YES), and I(Lambda^2 W1) = 0, with the image of the Higgs bulk's classes meeting the parabolic part only in 0 at every simple member (Remark 9's mechanism). P1 NO: the twisted geometric four has interior classes on M6 only (n = 1 at 24 order-8 characters in four deck orbits, n = 2 at the 4 order-5 characters; route T, route L and Wang's fibre monodromy agree at all 320 characters). P4 and P5 NO: the 24 order-8 members with interior classes carry (I(W1), I(Lambda^2 W1)) = (+1, -1) at every class with non-zero boundary restriction ((0, -1) at the interior class), read exactly over Q(zeta_8) post-run: one 10bar' and one 5bar' on one harmonic background, W2 mirroring with one 10' and one 5'. The SU(5)' cubic anomaly I(Lambda^2 W) - I(W) is -2, so the halves double the anomaly instead of cancelling it. At every member, class and field I(W1) is 0 or 1 and I(Lambda^2 W1) is 0 or -1: no member through level 6 is generation-shaped. Positive control R40 on m010 (I = +1 on V, Lambda^2 V, W, Lambda^2 W) fired exactly in both routes. Caveats as sealed: the cusp is not sealed for these modules (B1392's continuum), the counts are main's interior index, and Proposition E's ranges are reported, not used (sL-8). Verdict PROVED by the sealed rule (P5 fails); the sealed text's description of such a member as '10bar' and 5'' is corrected (ERROR_LEDGER). Routed in the kill graph (wrong-partner-five). I-26 stays UNEARNED. 0 of 19.  
+`B1515_the_hyperbolic_point/FINDINGS.md`
 
 **NEGATIVE — `B1513`** (4081 words, 1 locks)  
 THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) carries exactly one 5'_H and one 5bar'_H, both its own (h1(L2 W) = h1(L2 W*) = 1, the 5'_H onto c, the 5bar'_H = c*), but its chiral 10' does not couple to them: the up-type relative triple product Y_k = <h u a u a> is zero exactly for every member of both populations (and at all 16 prime-root pairs), and post-run the symmetric form B(a, a') = Y(h, a, a') vanishes on the whole of H^1(W*), so no 10' end condition gives a coupling; the mu-type pairing <h u e u hbar> is zero too. No invariant form joins two members (one form iff i = j = k). P1 YES (stronger), P2 YES, P3 YES, P4 NO, P5 YES. The banked identity first (the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3: the first chain-level check of B1510's Theorem B). The zero is not an artefact: at B1510's +-i points the same instrument gives Y(h, a, e f0) = -lam_h kappa != 0 and <h u e u hbar> = lam_h kappa, exactly. Post-run theorem T-HIGGS-BULK-ACYCLIC: P_L(q, s) = s^6 - 12 s^5 + 48 s^4 - (w^2 - w + 72) s^3 + 48 s^2 - 12 s + 1 (w = q + 1/q), so for every q > 0, q != 1, every unitary twist and every cyclic cover Lambda^2 rho_q has no cohomology (H^0 of the fibre zero for every q > 0). Post-run (d): the c*-lift's longitude boundary class equals kappa_l_hat (Stokes), so the interior 10' exists exactly where kappa = 0, where the coupling also vanishes. Read against the audit lane's R75 (an independent re-verification of B1511's triplet). Routed in the kill graph (jordan-decoupling). I-26 stays UNEARNED. 0 of 19.  

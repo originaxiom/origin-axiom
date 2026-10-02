@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**818 recorded closures — of which 651 are CLASSIFIED by mechanism and
+**819 recorded closures — of which 652 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -101,6 +101,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `boundary-acyclic-tower (twisting by characters of the covers changes the fibre but not the longitude: every character is trivial on it, so the Lambda^2 sector stays boundary-acyclic on every level, and covers multiply the 10' by orbits but never produce the 5bar')` | 1 |  |
 | `jordan-decoupling (the fibre monodromy's Jordan block, which makes the 10' chiral (B1509 T3), kills the kappa-type term <c u e u c*> (Lemma 6), and the remaining product of the own classes vanishes too: B = 0 on H^1(W*) exactly at both Jordan populations; where kappa != 0 the coupling is non-zero but the 10' is not chiral)` | 1 |  |
 | `subbundle-decoupling (the chiral 10bar' lives in the sub-bundle V because x u c != 0 makes H^1(V) -> H^1(W1) an isomorphism, so its wedge lands in the twisted Higgs bulk Lambda^2 V, which has no cohomology; the couplings that exist belong to non-chiral states)` | 1 |  |
+| `wrong-partner-five (at the hyperbolic point the 5bar' appears only through interior classes of the twisted geometric four, and in the extension that carries the 10bar', so the two halves double the SU(5)' anomaly; at simple members the Lambda^2 count reads 0, the Higgs bulk's image meeting the parabolic part only in 0)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

@@ -1052,3 +1052,12 @@ left it.
 > - **Applied to this ledger.** With B1513, through level 6 no chiral state of the harmonic tower has a tree-level Yukawa from its own
 >   background's Higgs sector. Only non-chiral states couple. A Yukawa for chiral matter has to come from outside that sector. No
 >   verdict changes. I-26 stays UNEARNED. 0 of 19. `frontier/B1514_the_decoupling_law`.
+
+> **Currency note (2026-10-02, B1515): the hyperbolic point.** B1514 lead 5 (the 5̄′), sealed at b36f6d8e before the run; PROVED by
+> the sealed rule, by two routes that share no code.
+> - **At q = 1** (the complete structure) every λ = 1 member of M₁–M₆ was read. At the 384 simple members the 5̄′ count is zero. At 24
+>   order-8 members of M₆ the twisted geometric four has interior classes, and W₁ carries one 10̄′ and one 5̄′ (I = +1 and −1),
+>   anomaly −2.
+> - **Applied to this ledger.** The first non-zero 5̄′ count in the harmonic frame pairs with the wrong 10. No member through level 6
+>   is generation-shaped, and the counts sit at an unsealed cusp (B1392). No verdict changes. I-26 stays UNEARNED. 0 of 19.
+>   `frontier/B1515_the_hyperbolic_point`.

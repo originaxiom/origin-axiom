@@ -11409,5 +11409,21 @@
   "depth_note": "Entered 2026-10-02 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
   "note": "ENTERED 2026-10-02 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1514_the_decoupling_law/verification/census.py (route T, the sealed run: the relative triple product at every member, M4 exactly and every group mod two primes at every root) and independent_route.py (route L, the lifting criterion on B1513's independent audit, mod three other primes, with the comparison), with post_run_checks.py; locked by tests/test_b1514_the_decoupling_law.py.",
   "routed_from": "sm-branch-2026-10-02-banking"
+ },
+ {
+  "id": "B1515",
+  "claim_killed": "THE HYPERBOLIC POINT, its no-go half: that q = 1, the one point of m004's harmonic family where Lambda^2 W meets the cusp (the complete hyperbolic structure, a type-0 cusp), supplies a generation-shaped member, I(W) = I(Lambda^2 W) != 0 (a 10' with its 5bar') on one harmonic background, through level 6. Both routes (3048 keys, every dimension and index agreeing) find the 5bar' sector non-zero only at 24 order-8 members of M6 where the twisted geometric four has an interior class, and there with the opposite sign to the 10bar': (I(W1), I(Lambda^2 W1)) = (+1, -1), a 10bar' and a 5bar', SU(5)' anomaly -2 (exact over Q(zeta_8) post-run). At every simple member I(W1) = 1 - b0 - rho lies in {0, 1} (Lemma 8), and I(Lambda^2 W1) = 0 was read at each: the image of the Higgs bulk's classes meets the parabolic part only in 0 (Remark 9's mechanism, cited at the seal, not used). Every member, class and field reads I(W1) in {0, 1} and I(Lambda^2 W1) in {0, -1}. The arc is PROVED by its sealed rule (P5 fails: both halves appear), sealed at b36f6d8e.",
+  "kill_form": "wrong-partner-five (at the hyperbolic point the 5bar' appears only through interior classes of the twisted geometric four, and in the extension that carries the 10bar', so the two halves double the SU(5)' anomaly; at simple members the Lambda^2 count reads 0, the Higgs bulk's image meeting the parabolic part only in 0)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "The sign law I(W1) >= 0 >= I(Lambda^2 W1) is observed through level 6, not proved (B1515 lead 1): a later level could break it. Other routes: one W carrying W2's 10' and W1's 5bar' (lead 3: an extension built from both nu (x) rho_1 and its dual, the orbit's induced background, or a larger frame); several states pairing one member's 5bar' with another's 10' (lead 4, B1385); an end law derived from physics that selects an anomaly-free point of Proposition E's ranges (lead 5; sL-8 forbids choosing it to rescue a count); other manifolds' type-2 or type-3 cusps with paired eigenvalues.",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-02 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-10-02 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1515_the_hyperbolic_point/verification/census_t.py (route T, the sealed run over B1511's tower_lib: every fibre character of M1-M6 at q = 1, exactly at levels 1 and 3 and mod two primes per level) and census_l.py (route L, B1513's audit backends with the joint-system interior dimension, mod three other primes, with the comparison), with post_run_checks.py (exact over Q(zeta_8), and Wang's fibre monodromy as a third method); locked by tests/test_b1515_the_hyperbolic_point.py.",
+  "routed_from": "sm-branch-2026-10-02-banking"
  }
 ]

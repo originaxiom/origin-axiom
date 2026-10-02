@@ -463,6 +463,14 @@ emitted value. The structure is the object's; the values are the observer's.
 > Two computations that share no code confirm this for all 184 vacua of the four-, five- and six-fold covers, find no coupling that
 > joins two vacua, and still see couplings for the states that are not handed. So, through the six-fold cover, no handed state couples
 > to its own vacuum's Higgs fields: its masses would have to come from somewhere else. The nineteen numbers are still not derived.*
+>
+> *And (B1515), the missing 5-bar looked for at the one point of the family where it can appear: the undeformed hyperbolic structure,
+> where the space's open end becomes the kind that can hold it. Two computations that share no code read every case through the
+> six-fold cover and agree on all 3 048. At most cases the 5-bar is still zero, for the reason worked out in advance. But on the
+> six-fold cover the starting space's geometry gains extra deformations that vanish at the open end, and through them 24 vacua carry
+> a 5-bar together with a 10, on one background. The signs are wrong: the 5-bar arrives with the opposite-handed 10, so the two
+> halves double the inconsistency instead of cancelling it. No case through the six-fold cover is shaped like a particle family.
+> The nineteen numbers are still not derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

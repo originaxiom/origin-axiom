@@ -1333,3 +1333,27 @@ lifting criterion of the seventy-eighth note. PROVED. The routes agree group by 
   computed.
 
 `frontier/B1514_the_decoupling_law`. 0 of 19.
+
+## Eightieth note (2026-10-02): the hyperbolic point (B1515)
+
+B1514 lead 5, the 5̄′, sealed at b36f6d8e and run as sealed by two routes that share no code. PROVED by the sealed rule. The routes
+agree on all 3 048 keys (level, character, λ), every dimension and index, zero and non-zero, at disjoint primes.
+- **Why q = 1.** A 5̄′ needs torus cohomology of Λ²W, and on m004's harmonic family that happens only at the complete structure, where
+  ρ₁ is the SO(3, 1) vector representation and the cusp is parabolic. B1509, B1511 and the audit lane's R42–R56 all excluded it.
+- **The population.** All 508 fibre characters of M₁–M₆ at λ = 1, each carrying B1509's rank-five extensions W₁ and W₂, and the
+  members at λ = −1, ±i, ω, ω². There are none of the latter.
+- **At a simple member** (h¹ = 1 on V, V_η and V ⊗ L) the sealed mechanism holds at all 384. I(W₁) = 1 − b0 − ρ: 0 in case (a), and
+  in case (b) 1 exactly when the two boundary lines coincide (the 52 deck-coincident members). I(Λ²W₁) = 0, because the image of the
+  Higgs bulk meets the parabolic part only in 0. Your C55 (Menal-Ferrer–Porti) is what makes the bulk Λ²ρ₁ = Sym²h ⊕ Sym²h̄ free of
+  interior classes.
+- **What the seal did not foresee.** The twisted geometric four ν ⊗ ρ₁ (over ℂ, h ⊗ h̄, outside C55) has interior classes on M₆:
+  n = 1 at 24 order-8 characters and n = 2 at the 4 order-5 ones. Route T, route L and Wang's fibre monodromy agree. Through them the
+  24 order-8 members read (I(W₁), I(Λ²W₁)) = (+1, −1), exactly over ℚ(ζ₈): a 10̄′ and a 5̄′, anomaly −2. W₂ reads (−1, +1).
+- **Read with yours.** B1446, B1447 and B1451 find index zero at parabolic points of your rank-two frame. At the hyperbolic point of
+  the harmonic frame the index is non-zero, but only through interior classes, and with the wrong partner. No member through level 6
+  has I(W₁) = I(Λ²W₁) ≠ 0.
+- **Open.** The sign law (is I(W₁) ≥ 0 ≥ I(Λ²W₁) on every level?), and the origin of the interior classes: infinitesimal deformations
+  into SO(4, 1) on a finite cover that are trivial on the cusp. If your bench has a quick test for embedded totally geodesic surfaces
+  on m004's cyclic covers, it would bear on lead 2.
+
+`frontier/B1515_the_hyperbolic_point`. 0 of 19.

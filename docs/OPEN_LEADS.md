@@ -3272,6 +3272,32 @@ I(W₁) = 1 exactly when the boundary lines of V and V_η coincide, and I(Λ²W�
 boundary plane (Lemma 8). The census reads all 508 fibre characters of M₁–M₆ at λ = 1, and the λ ≠ 1 members it finds, by two
 independent routes (seal 5644a92c…).
 
+**B1515 run and banked, 2026-10-02 — the hyperbolic point (PROVED, by the sealed rule).**
+- **The result.** Both routes, which share no code, agree on all 3 048 keys (level, character, λ), on every dimension and index, zero
+  and non-zero, at disjoint primes.
+  - No member off λ = 1 (P2 YES).
+  - At every simple member I(W₁) = 1 − b0 − ρ (Lemma 8): 1 on the 52 simple deck-coincident case-(b) characters of M₄–M₆, 0 elsewhere
+    (P3 YES). I(Λ²W₁) = 0 at all 384 simple members, by Remark 9's mechanism, read at each (P4 YES there).
+  - The twisted geometric four ν ⊗ ρ₁ has interior classes on M₆ and nowhere earlier: n = 1 at 24 order-8 characters, n = 2 at the 4
+    order-5 ones. So 124 members of M₆ are not simple (P1 NO). Three methods agree: route T, route L and Wang's fibre monodromy.
+  - The 24 order-8 members read (I(W₁), I(Λ²W₁)) = (+1, −1) at every boundary-type class, exactly over ℚ(ζ₈) after the run: a 10̄′ and
+    a 5̄′, anomaly −2 (P5 NO). W₂ reads (−1, +1).
+  - At every member, class and field of both routes, I(W₁) ∈ {0, 1} and I(Λ²W₁) ∈ {0, −1}. No member through level 6 is
+    generation-shaped.
+- **B1514 lead 5 (the 5̄′) taken at q = 1.** The hyperbolic point supplies a 5̄′ on the harmonic tower, on one background, but only
+  through interior classes, and in the extension whose 10 is the 10̄′: the wrong partner. Proposition E's ranges at the 24 members
+  ([−1, 2] for W₁, [−2, 3] for Λ²W₁) are reported only (sL-8).
+- **New leads**, each to be sealed before computing (B1515 §8):
+  1. the sign law: is I(W₁) ≥ 0 ≥ I(Λ²W₁) at every λ = 1 member of every level at q = 1? A proof would show that the hyperbolic point
+     never carries a generation-shaped member;
+  2. the interior classes: why ν ⊗ ρ₁ acquires them on M₆ (order 8: n = 1; order 5: n = 2), and where next on levels 7–12. They are
+     infinitesimal deformations of the holonomy into SO(4, 1) on a finite cover, trivial on the cusp (Johnson–Millson bending is the
+     known source);
+  3. one W with both partners: a single background whose W carries W₂'s 10′ and W₁'s 5̄′ (an extension built from both ν ⊗ ρ₁ and its
+     dual; the orbit's induced background on m004; a larger frame, SO(10) or E₆);
+  4. several states (B1385): pair one member's 5̄′ with another state's 10′ in one configuration;
+  5. the end: only an end law derived from physics may select an anomaly-free combination from Proposition E's ranges (sL-8's rule).
+
 ## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
 
 **What is settled (B1385).**

@@ -16670,3 +16670,38 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     (RELAY_LEDGER).
   - The audit lane is unchanged (b2925dac).
   - The absence sweeps after `git fetch --all` are cited in the preregistration's §5.1.
+
+## 2026-10-02 — B1515 the hyperbolic point: run as sealed by two independent routes and banked (PROVED, by the sealed rule)
+
+- **Order.** The seal (b36f6d8e) was pushed first. Route T (`census_t.py --record`) then ran 792 s and route L (`census_l.py --record`)
+  426 s. No file was edited between the seal and the runs.
+- **Both routes.**
+  - Part 0 passed: h¹(ρ₁) = h¹(ρ₁*) = 1 and h¹(Λ²ρ₁) = 2; R40 on m010 read exactly, I = +1 on V, Λ²V, W and Λ²W.
+  - Population A: 1 023 (T) and 1 531 (L) full readings at λ = 1, on twelve and eighteen primes, none shared; levels 1 and 3 also
+    exactly over ℚ(ζ₁₂). Population B: 5 115 (T) and 7 655 (L) member tests at λ = −1, ±i, ω, ω², and no member.
+  - Part C: D1–D10 (T) and route L's own D-checks hold. Route L's comparison with route T's record: 3 048 keys read by both, none by
+    one only, 0 disagreements.
+- **The readings** (FINDINGS §3), as (I(W₁), I(Λ²W₁)):
+  - simple members (384): (0, 0) in case (a) and in case (b) off the deck coincidence; (+1, 0) on the 52 deck-coincident ones;
+  - M₆'s 124 non-simple members: 24 order-8 (h¹ = 2, 2, 2) read (+1, −1) at every boundary-type class and (0, −1) at the interior
+    class; 96 order-40 (h¹ = 1, 2, 1) and 4 order-5 (h¹ = 3, 1, 3) read (0, 0).
+  The record's class tallies: route T {(0, 0): 1 447, (1, 0): 104, (1, −1): 192}; route L {(0, 0): 2 167, (1, 0): 156,
+  (0, −1): 72, (1, −1): 216}. Route L's first basis class at the 24 members is the interior class; route T's basis has none.
+- **Post-run** (`post_run_checks.py`, 65 s, after both routes):
+  - (a) one representative of each of the four order-8 orbits exactly over ℚ(ζ₈) = ℚ(√2, i) with route T's library: (+1, −1) at a
+    boundary-type class, (0, −1) at the interior class solved for explicitly, W₂ (−1, +1); the simple (1/8, 0) reads (+1, 0);
+  - (b) n(χ ⊗ ρ₁) on all 320 characters of M₆ by both routes: 0 at 292, 1 at 24, 2 at 4;
+  - (c) at (1/8, 1/2): a1(Λ²W₁) = 4, r1 = 4, s0 = 3, I = −1; the four restrictions are independent, and the new one is the lift of
+    V ⊗ L's interior class;
+  - (d) Wang's sequence: dim ker(S⁽⁶⁾ − 1) = h¹(V) at all 320 characters (1, 2, 3 at 292, 24, 4).
+- **Verified before banking** (the standing rule): every headline number against the records by fresh code (seconds, readings,
+  primes, keys, tallies, population B, Proposition E's ranges [−1, 2] and [−2, 3] at all 24 members). Four draft slips were caught
+  before any commit and logged in two rows: C55's scope and what H¹(Γ; ℝ^{3,1}) deforms; I(W₁)'s value stated without the case
+  split, and a read zero credited to Lemma 8.
+- **The lock:** `tests/test_b1515_the_hyperbolic_point.py`, 15 tests (one slow). The fast ones replay both routes live (M₄ (0, 1/3)
+  reads (1, 0); M₆ (1/8, 1/2) reads (1, −1)), the deciding member exactly, Wang live, and route L's independence through the AST.
+- **Ledgers:** the kill graph (`wrong-partner-five`, a PROVED arc with no-go content); SEAL_LEDGER verdict; RELAY_LEDGER (main at
+  5a0ca0c4 and the audit lane at b2925dac, both unchanged since the seal after a fresh fetch; rows back to both); OPEN_LEADS; the alias
+  table; the letter's 80th note; README; the chirality map; the path note; the SM verdict; B1514's currency note; ERROR_LEDGER, three
+  rows. No LAW_MAP or THEOREM_REGISTRY row (creates_law false), so the claim pool is not regenerated.
+- I-26 stays UNEARNED. 0 of 19.
