@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "audit": "R77",
+  "model": "ADDED full-adjoint chiral sources, free internal profiles; conditional compact-current comparator",
+  "sources": [
+    {
+      "commit": "e4bb7f6879df820f39929e24a0b5ed2757fd2cbb",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+      "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685",
+      "bytes": 9845,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "e4bb7f6879df820f39929e24a0b5ed2757fd2cbb",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS_DESIGN.md",
+      "sha256": "ceac4498c65663eceada2bacfead9826bf3492f6d8b885ec0084dabd843ca92d",
+      "bytes": 8444,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "e4bb7f6879df820f39929e24a0b5ed2757fd2cbb",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+      "bytes": 11372,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "e4bb7f6879df820f39929e24a0b5ed2757fd2cbb",
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2",
+      "bytes": 6559,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "e4bb7f6879df820f39929e24a0b5ed2757fd2cbb",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4",
+      "bytes": 8379,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "e4bb7f6879df820f39929e24a0b5ed2757fd2cbb",
+      "path": "reports/physical_bridge_2026_09_05/END_LAW.md",
+      "sha256": "d816d748f47ae2f0e93a16ffe693fec8db64725bdc7c5dd1c18c8a2a3cd12743",
+      "bytes": 8570,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1297_the_spectral_cover_index/FINDINGS.md",
+      "sha256": "de48dc6e0b443cb4a5181a8eb4c64869be37d8ae04c3d8b881c9c58381ff3afc",
+      "bytes": 18697,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1297_the_spectral_cover_index/ADDENDUM_2026-09-16_live_positive_on_the_class.md",
+      "sha256": "02dbbef6f4addd211e964096fdd8967485c179417ae4a32cfefcb2dc609fee4a",
+      "bytes": 1551,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    },
+    {
+      "commit": "eec75eac1db23d555719b9b8d133320c7c216289",
+      "path": "frontier/B1500_the_cone_points_choice/FINDINGS.md",
+      "sha256": "8273d1c7c9b9bd54b2af60041faf1df9147370168fd089e94f816ac957837fa0",
+      "bytes": 17522,
+      "grade": "body personally read; prior scoped controls retained; not rerun for this source test"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1812.06072v2",
+      "sha256": "dc6c27bdead94b126465f8db382e76f776e46882f038d0d696f3068230b1b097",
+      "bytes": 2241530,
+      "grade": "sections2.1/2.5/B.1 read; source/profile and auxiliary equations visually rechecked; not whole paper",
+      "access_date": "2026-10-02"
+    },
+    {
+      "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-standard-model.pdf",
+      "sha256": "8642888a3408d8c57fc673b379325b07f02948135491f64a2e42320e8929320a",
+      "bytes": 1079047,
+      "grade": "section10.1 printed pages1-2 read and rendered; no measured value used",
+      "access_date": "2026-10-02"
+    }
+  ],
+  "received_handoff": {
+    "archive": "chat1_HANDOFF_SELECTION_RULE.zip",
+    "sha256": "655959b292c4bd95dc958f6b06be1b7c06473cc1254eba206e2a88a14be69499",
+    "files": [
+      {
+        "path": "HANDOFF_THE_SELECTION_RULE.md",
+        "sha256": "73c120468fa7b344b0abeb091c0f5294ac466b7e37a8d8631a67a64206b6667e",
+        "bytes": 9096
+      },
+      {
+        "path": "code/selection_rule_test.py",
+        "sha256": "f73515af4f7c3c81f604f3a9dc598626f46c286ff3eefe3b86b3eac8ded05e77",
+        "bytes": 1119
+      }
+    ],
+    "grade": "entire handoff and code personally read before design; code not run; not blinded"
+  },
+  "inputs_not_derived": [
+    "four-dimensional spacetime and partially twisted parent",
+    "E8 parent and faithful structure SL5 embedding",
+    "internal base, positive metric and R44 existence hypotheses",
+    "flat background with smooth compact Hermitian trace-free current",
+    "source copies, chart cover and chosen current inverse",
+    "positive g7-squared and source normalization kappa",
+    "no source internal derivative or superpotential",
+    "admissible positive-norm domains; physical parity/gauge lift not selected"
+  ],
+  "custody_scope": "source pins are bytes/read scopes, not independent physical acceptance"
+}

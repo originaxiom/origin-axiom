@@ -1,6 +1,6 @@
 # Genesis checkpoint: reconcile the foundations, then return to physics
 
-October 2, 2026. Owner-requested implementation plan, version 0.2.
+October 2, 2026. Owner-requested implementation plan, version 0.3.
 This is design and source reconciliation, not a new scientific arc or a
 certificate of minimal axioms. It continues the [approved mission](PHYSICS_MISSION.md):
 derive a parameter-free Standard Model and complete unified physical
@@ -127,6 +127,18 @@ with their generator, not manual replacements. Edit only this branch;
 other maintainers receive a tracked, reviewable relay.
 
 ## How the checkpoint constrains the next physics probe
+
+The owner's selection-rule handoff is now personally read and scoped in
+[the intake](SELECTION_RULE_INTAKE_2026_10_02.md). Adopt its action-level
+vacuum question, not its blanket symmetry pre-run veto. A symmetric
+ensemble, a fixed individual state and a same-domain operator intertwiner
+are different propositions. Before a physical chirality verdict, earn
+the full mirror/gauge/spinor/source/domain map, check the same action and
+norms, establish attained stationary states modulo actual gauge, and
+compute the complete fermion spectrum there. Mixed fixed/paired minima,
+nonattained limits and changed domains are explicit outcomes. R76 does
+not classify all sourced, nonflat or singular vacua. Structure-duality
+covariance in R77 is a partial control, not that physical mirror map.
 
 The current source/core drafts remain unsealed and unrun. A prescribed
 current is not a derived source law. Before their execution, expose the

@@ -1614,3 +1614,24 @@ commit/push/server-confirm before executing/importing the supplement.
 | `reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_DETECTOR_DESIGN.md` | `4ff02c9571a3cfaefcab137c93060cea854da66250a0a4f7be787fb9024afeb7` |
 | `scripts/checks/check_test_vacuity.py` | `cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867` |
 | `tests/test_physical_bridge_carrier_detector.py` | `d76cb970c3e1cc88bd9519aad3bc96640d091aa93670fa5cead12eb747d83a4c` |
+
+## October 2 R77 full-current source comparator pre-execution seal
+
+Path-local conditional classical ADDED model, not a physical admission
+certificate or new B arc. Solve the full source moment with varied fields;
+retain independent exact rank/coefficient controls and the extra free-profile
+mode cost. Structure duality is not physical parity. Six scientific paths
+sealed before import/execution; original drafts were unrun. Owner handoff
+already read, not blinded. No full-suite or nonauthor analytic acceptance.
+Commit/push/server-confirm before scientific execution; retain first failures
+and separately seal any repair. No banked path moved or historical result
+withdrawn.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/SOURCE_CORE_DESIGN.md` | `694c6df893e857cfa7c93da7b040d834f1b525f4abac15b1f144e2dd4f9794c5` |
+| `reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md` | `0f6b1e7b5e7322cc2ad869a4cb47d53f7eb1ecec90426061c481a709b5619eee` |
+| `reports/physical_bridge_2026_09_05/SOURCE_CORE_INPUTS.json` | `2636ca88c914c7ece03ecbf7e2579cc45a56afc1abe4c66c5ae31ea54956e0b9` |
+| `reports/physical_bridge_2026_09_05/source_core.py` | `122db3ed27a443e54a0ed188dd0e4b7a0497d7a9bd0c2e04422a8647505d640a` |
+| `reports/physical_bridge_2026_09_05/source_core_control.py` | `4e01e7f4c3cdadd688b066abd410b384341271b55a056879ffce19024d3f50c1` |
+| `tests/test_physical_bridge_source_core.py` | `bc48910e15424d7e71026dd632676cefb842a38cfeb2f2f2d638b8492085156f` |
