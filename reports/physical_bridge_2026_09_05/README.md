@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+**After R76, source-field intake (October2):** primary section2.1/2.5/B.1
+reread personally; W is the internal connection, not an extra source
+scalar. The explicit defect multiplet coupling is retained as prior work,
+with its profile/admission duty, not an arbitrary-current theorem. Next
+test the full nonabelian compact current and BOTH bulk/source variations,
+then common domains/spectrum and architecture-derived selection. No new
+scientific execution or source solution:
+reports/physical_bridge_2026_09_05/SOURCE_FIELD_INTAKE_2026_10_02.md.
+
 **Current path-local R76 (October 2):** the supplied flat-connection
 potential is symmetric-space bienergy. Authored equivariant cutoff
 analysis forces smooth complete boundaryless finite-energy stationary

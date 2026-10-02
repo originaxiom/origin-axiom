@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-02 — after R76, source-field intake
+
+The R76 result was pushed as880770bb. Personally reread the adopted
+parent's field/action and defect sections: W is an internal connection;
+the source route requires explicitly added/admitted multiplets, not a
+second implicit bulk scalar. Existing R28/R29/R38/R39/R41/R46/R59 work
+retained; all-head source-term sweep says PRESENT. Next full compact
+current, coupled variations and profile/domain/selection duties recorded.
+No new scientific run, source solution, law or physical claim.
+Report: reports/physical_bridge_2026_09_05/SOURCE_FIELD_INTAKE_2026_10_02.md.
+
 ## 2026-10-02 — R76 flat-vacuum admission and compact current
 
 The actual residual action restricted to flat coefficients is bienergy;

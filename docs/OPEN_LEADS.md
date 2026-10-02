@@ -4318,3 +4318,18 @@ B1445/B1446 deformation and cross-member branch positives likewise retained.
 - PB-REVIEW: original zero primitive retained and nonzero-coboundary
   recovery separately controlled; first metadata errors disclosed.
   Full suite and independent main-bank certification remain outstanding.
+
+### R76 source-field intake — October2, read-only navigation
+
+- PB-SOURCE / PB-ACTION: test the existing defect-multiplet coupling
+  against the ENTIRE compact rank-five current, with its real moment-map
+  sign, admissible profiles and all bulk/source variations. W_i is already
+  the internal gauge connection, not an extra source zero-form scalar;
+  D and H_i are auxiliaries, not independently chosen physical currents.
+  Section2.5's rank-one profile description is prior work, not a theorem
+  admitting arbitrary nonabelian densities. Do not repeat R29's added
+  tube model or count internal commutators twice. Four distinct duties:
+  moment-map image, coupled stationarity, common complete positive
+  spectrum/domain/anomaly, and architecture-derived field/action selection.
+  No new run or source solution in this intake; see
+  reports/physical_bridge_2026_09_05/SOURCE_FIELD_INTAKE_2026_10_02.md.
