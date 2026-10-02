@@ -1,0 +1,18 @@
+{
+ "n": 13,
+ "p = L_n": 521,
+ "characters": 271441,
+ "group order": 104,
+ "reflections": 26,
+ "rotations": 26,
+ "unfixed off the circle": 257920,
+ "Lemma F": 257920,
+ "unfixed on the circle": 256880,
+ "Lemma F (unitary)": 256880,
+ "odd-n Lucas numbers mod 5 (n < 200)": [
+  1,
+  4
+ ],
+ "passed": true,
+ "seconds": 3.7
+}

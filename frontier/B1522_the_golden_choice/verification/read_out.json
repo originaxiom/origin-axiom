@@ -1,0 +1,220 @@
+{
+ "predictions": {
+  "P1": {
+   "claim": "levels 1, 2: no unfixed vacuum at any lam",
+   "held": true
+  },
+  "P2": {
+   "claim": "n = 5: 20 unfixed at generic lam, 0 at unitary lam (Lemma F)",
+   "read": [
+    20,
+    0
+   ],
+   "held": true
+  },
+  "P3": {
+   "claim": "n = 7: 448 unfixed at generic lam, 392 at unitary lam (Lemma F)",
+   "read": [
+    448,
+    392
+   ],
+   "held": true
+  },
+  "P4": {
+   "claim": "n = 11: 35244 unfixed at generic lam, 34848 at unitary lam (Lemma F)",
+   "read": [
+    35244,
+    34848
+   ],
+   "held": true
+  },
+  "P5": {
+   "claim": "single-eigenline components at split primes are never fixed at generic lam; n = 9: >= 576, n = 10: >= 2500",
+   "X1 (direct, every level n <= 12)": true,
+   "read": {
+    "n = 9": 4464,
+    "n = 10": 12100
+   },
+   "held": true
+  },
+  "P6": {
+   "claim": "some level with no split prime (3, 4, 6, 8, 12) has unfixed vacua at generic lam",
+   "read": {
+    "3": 0,
+    "4": 0,
+    "6": 96,
+    "8": 1344,
+    "12": 93936
+   },
+   "held": true
+  },
+  "P7": {
+   "claim": "on M12 more than half the vacua are unfixed at generic lam",
+   "read": [
+    93936,
+    103680
+   ],
+   "held": true
+  },
+  "P8": {
+   "claim": "every one of the 196 firing members is fixed at its lam",
+   "read": [
+    196,
+    196
+   ],
+   "X3 (direct)": [
+    196,
+    196
+   ],
+   "held": true
+  },
+  "P9": {
+   "claim": "the two routes agree on every character of every level",
+   "held": true
+  }
+ },
+ "held": 9,
+ "expected from the priors": 7.85,
+ "outcome": "B",
+ "golden reading": {
+  "sealed form holds (criterion route F = route R on n <= 12; criterion bypassed by X2 on n <= 6)": true,
+  "per level": {
+   "5": {
+    "unfixed": 20,
+    "with a single-sheet component": 20,
+    "mixed only": 0,
+    "unfixed = single-sheet exactly": true,
+    "at |lam| = 1: unfixed": 0,
+    "at |lam| = 1: single-sheet still unfixed": 0
+   },
+   "6": {
+    "unfixed": 96,
+    "no split prime": true
+   },
+   "7": {
+    "unfixed": 448,
+    "with a single-sheet component": 56,
+    "mixed only": 392,
+    "unfixed = single-sheet exactly": false,
+    "at |lam| = 1: unfixed": 392,
+    "at |lam| = 1: single-sheet still unfixed": 0
+   },
+   "8": {
+    "unfixed": 1344,
+    "no split prime": true
+   },
+   "9": {
+    "unfixed": 4464,
+    "with a single-sheet component": 576,
+    "mixed only": 3888,
+    "unfixed = single-sheet exactly": false,
+    "at |lam| = 1: unfixed": 4320,
+    "at |lam| = 1: single-sheet still unfixed": 432
+   },
+   "10": {
+    "unfixed": 12100,
+    "with a single-sheet component": 2500,
+    "mixed only": 9600,
+    "unfixed = single-sheet exactly": false,
+    "at |lam| = 1: unfixed": 12080,
+    "at |lam| = 1: single-sheet still unfixed": 2480
+   },
+   "11": {
+    "unfixed": 35244,
+    "with a single-sheet component": 396,
+    "mixed only": 34848,
+    "unfixed = single-sheet exactly": false,
+    "at |lam| = 1: unfixed": 34848,
+    "at |lam| = 1: single-sheet still unfixed": 0
+   },
+   "12": {
+    "unfixed": 93936,
+    "no split prime": true
+   }
+  },
+  "unfixed exactly the single-sheet twists on": [
+   5
+  ]
+ },
+ "after the run (not sealed)": {
+  "M5 case-(b) members by lam": {
+   "1": {
+    "members": 20,
+    "equal to the 20 vacua no reflection fixes": true,
+    "sheets": {
+     "phi-line": 10,
+     "phibar-line": 10,
+     "other": 0
+    },
+    "E": 0,
+    "A": 20
+   },
+   "-1": {
+    "members": 20,
+    "equal to the 20 vacua no reflection fixes": true,
+    "sheets": {
+     "phi-line": 10,
+     "phibar-line": 10,
+     "other": 0
+    },
+    "E": 0,
+    "A": 20
+   },
+   "i": {
+    "members": 20,
+    "equal to the 20 vacua no reflection fixes": true,
+    "sheets": {
+     "phi-line": 10,
+     "phibar-line": 10,
+     "other": 0
+    },
+    "E": 0,
+    "A": 20
+   },
+   "-i": {
+    "members": 20,
+    "equal to the 20 vacua no reflection fixes": true,
+    "sheets": {
+     "phi-line": 10,
+     "phibar-line": 10,
+     "other": 0
+    },
+    "E": 0,
+    "A": 20
+   }
+  },
+  "how each level's members are held": {
+   "level 1": {
+    "members": 1,
+    "by a reflection (E)": 1,
+    "only by a rotation (A, not E)": 0
+   },
+   "level 3": {
+    "members": 4,
+    "by a reflection (E)": 4,
+    "only by a rotation (A, not E)": 0
+   },
+   "level 2": {
+    "members": 1,
+    "by a reflection (E)": 1,
+    "only by a rotation (A, not E)": 0
+   },
+   "level 4": {
+    "members": 9,
+    "by a reflection (E)": 9,
+    "only by a rotation (A, not E)": 0
+   },
+   "level 5": {
+    "members": 81,
+    "by a reflection (E)": 1,
+    "only by a rotation (A, not E)": 80
+   },
+   "level 6": {
+    "members": 100,
+    "by a reflection (E)": 100,
+    "only by a rotation (A, not E)": 0
+   }
+  },
+  "note": "M5's case-(b) members are B1511/B1512's eigenline characters. This read finds them equal, at every lam in mu_4, to the 20 vacua of M5 that no golden Galois reflection fixes, ten on each sheet, held at their unitary lam only by the golden rotations. Seen after the run; decides nothing; a sealed question for the levels with split primes is registered (OPEN_LEADS sL-10 item 7)."
+ }
+}

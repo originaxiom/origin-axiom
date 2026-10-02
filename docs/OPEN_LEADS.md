@@ -3767,6 +3767,10 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    owner's "choice might be golden" in its first sealed form, and over the other allowed states as far as their families exist.
    **Sealed 2026-10-02 as sm:B1522 (the golden choice):** the count-odd stabiliser of every vacuum on M1–M12, two routes,
    predictions P1–P9; at the hyperbolic point every unitary vacuum of every state is fixed (Lemma U).
+   **Banked 2026-10-02 as sm:B1522 (PROVED, outcome B).** The count-odd mirror breaks from M5 on, exactly where no golden
+   Galois reflection fixes the twist; all 196 firing members of levels 1–6 are fixed, so lead 2 opens no selection
+   through level 6 (recorded on B1520's kill-graph note). M5's members are the single-sheet twists, held by the
+   golden rotations (after the run, not sealed).
 3. **The narrowed reader arc** (B1519 §4; B1520 lead 3; the owner's to run). With the vacuum ruled out as a selector on this
    family, the remaining place for a choice is the law or the state, not the minimum.
 4. **GENESIS v1.3** (the audit lane's relay of `1e3d17b9`, and this arc). Rebuild GENESIS with its generator so that B1519's lock
@@ -3787,3 +3791,7 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    which the record has only for m004 (Ballas). Which word states are projectively flexible at the hyperbolic point:
    dim H¹(π; v) beyond the cusp's share, with sl₄ = so(3,1) ⊕ v? Census over the states of length ≤ 8, with the
    literature read first (Heusener–Porti; Ballas). Seal before computing.
+7. **The chiral record on the split-prime levels** (sm:B1522 §6). M5's case-(b) members are exactly its single-sheet
+   twists, held only by the golden rotations at their unitary λ. On the levels with split primes (M7: 29, M9: 19, M10: 11,
+   M11: 199), do case-(b) members exist, and are they single-sheet and held only by the rotations? Their unitary λ would
+   then be the only thing holding their count-odd mirror. B1511's machinery taken above level 6, sealed before computing.

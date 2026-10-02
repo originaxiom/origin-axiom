@@ -1,0 +1,13 @@
+n =  1  |T| =      1  unfixed generic      0  unitary      0  routes agree True  (0.0 s)
+n =  2  |T| =      5  unfixed generic      0  unitary      0  routes agree True  (0.0 s)
+n =  3  |T| =     16  unfixed generic      0  unitary      0  routes agree True  (0.0 s)
+n =  4  |T| =     45  unfixed generic      0  unitary      0  routes agree True  (0.0 s)
+n =  5  |T| =    121  unfixed generic     20  unitary      0  routes agree True  (0.0 s)
+n =  6  |T| =    320  unfixed generic     96  unitary     96  routes agree True  (0.1 s)
+n =  7  |T| =    841  unfixed generic    448  unitary    392  routes agree True  (0.1 s)
+n =  8  |T| =   2205  unfixed generic   1344  unitary   1344  routes agree True  (0.4 s)
+n =  9  |T| =   5776  unfixed generic   4464  unitary   4320  routes agree True  (1.2 s)
+n = 10  |T| =  15125  unfixed generic  12100  unitary  12080  routes agree True  (3.8 s)
+n = 11  |T| =  39601  unfixed generic  35244  unitary  34848  routes agree True  (13.7 s)
+n = 12  |T| = 103680  unfixed generic  93936  unitary  93936  routes agree True  (48.2 s)
+firing members: 196, fixed 196, unfixed 0

@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1161 settled arcs — 71%** —
+the field is **absent on 828 of 1169 settled arcs — 71%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (93) ∪ on-a-synthesis-surface ∪ law-vocabulary (127) = 599 arcs.**
-The vocabulary criterion adds **40 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (94) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 604 arcs.**
+The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.96** on the corpus's own law vocabulary against
-**1.21** for the rest — **2.44×**. The criterion
+**1.22** for the rest — **2.43×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -220,7 +220,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1503` | PROVED | S | | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma … |
 | `B1512` | PROVED | S | | THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). … |
 
-## §6 the observer — one bit, priced (172)
+## §6 the observer — one bit, priced (177)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -263,6 +263,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1274` | PROVED | L | | THE TOWER AND ITS DOUBLES. For all 48 surjections pi_1(m004) -> 2T and every n <= 6: the family 3 of E8 > E6 x SU(3) (the real 3 of 2T) descends to the cyclic branched co… |
 | `B1279` | PROVED | L | | THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b / a w B w^-1> (a wo… |
 | `B1514` | PROVED | L | | THE DECOUPLING LAW, run as sealed (a0badfa3; B1513 leads 1 and 2) by two routes that share no code, which agree group by group on every dimension, zero and non-zero (the … |
+| `B1522` | PROVED | L | | THE GOLDEN CHOICE, run as sealed (5d4eb5f7; 68 s; main's L242 (b) and the owner's 'choice might be golden'): on the levels M_1 ... M_12 of m004's Ballas family the count-… |
 | `B156` | PROVED | V | | Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L… |
 | `B986` | NEGATIVE | V | | THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAYS OPEN, the attempt failing on the INSTRUMENT not on the object. cc3's sweep surfa… |
 | `B1023` | PROVED | V | | PHASE 2'S CONCESSIONS, V2: TWO DEFECTS FIXED, THEN TWO BLOCKERS ON THE FIX ITSELF -- CONCEDED AND PINNED OPEN, the second correction arriving from cc3 BEFORE the batch ba… |
@@ -280,6 +281,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1233` | PROVED | V | | THE Z-AI AUDIT: 15 CLAIMS CONFIRMED ON THIS BENCH, 7 REFUTED, ONE REAL DEFECT FOUND IN OUR OWN RECORD, AND ONE HEADLINE IDENTIFICATION REFUTED BY GALOIS THEORY. Owner: 't… |
 | `B1239` | PROVED | V | | THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census i… |
 | `B1281` | PROVED | V | | THE SEATS VERIFIED (2026-09-07). Fetched origin/main @ 506c591f (main's B1267, B1272-B1277, B1290-B1294), the physics seat @ 659487bb (R56-R72) and codex @ f7a49536 (R040… |
+| `B1517` | PROVED | V | | SEE THE REPO FIRST, THEN THE LITERATURE (the owner, 2026-10-02): the rule written into WORKING_RULES and PRACTICES and made data -- every arc from B1517 records prior_wor… |
+| `B1520` | NEGATIVE | V | | THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently… |
 | `B14` | PROVED | S | | F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.… |
 | `B64` | PROVED | S | | The k(alpha) sector-assignment is proven symbolically: even-/k/ char(M^k) is P-symmetric, odd-/k/ P-antisymmetric, via depth-n CH plus Dickson parity.… |
 | `B161` | PROVED | S | | The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; 'forced/empty' is retired.… |
@@ -396,6 +399,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1510` | PROVED | S | | THE TWO-SIDED DEFORMATION (B1509's lead 1, at the owner's 'do the recomendation for next'; sealed at 0cb24e2b before the run): the 16's and the 16*'s singlets c and c* sw… |
 | `B1511` | PROVED | S | | THE PROJECTIVE TOWER (B1509's lead 4 at the owner's 'aproved. next!'; sealed at 49baea7d before any twisted polynomial of a non-trivial character was computed): B1509's r… |
 | `B1513` | NEGATIVE | S | | THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s9… |
+| `B1515` | PROVED | S | | THE HYPERBOLIC POINT, run as sealed (b36f6d8e; the owner's 'go' after B1514) by two routes that share no code and agree on all 3048 keys, every dimension and index, zero … |
+| `B1516` | PROVED | S | | GENESIS v1: the foundations stated once (GENESIS.md v1.0, canonical, versioned), with IDs unused anywhere else in the repository (PF, GM, SE, T-ROOT, F-xx, FK, GAP). The … |
 
 ## §2 the object — arithmetic and geometry (58)
 

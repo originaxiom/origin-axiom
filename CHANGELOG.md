@@ -1,5 +1,49 @@
 # Changelog
 
+## B1522 banked: THE GOLDEN CHOICE — on the levels the count-odd mirror breaks exactly where no golden Galois reflection fixes the twist, never under a banked chiral configuration (PROVED, outcome B)
+
+- **Run as sealed** (`5d4eb5f7`; 68 s; both routes on all 167 736 characters of M1–M12, in agreement).
+  - M1–M4: every vacuum is fixed at every λ.
+  - M5: 20 of 121 twists break the count-odd mirror off the unit circle, none on it.
+  - From M6 on, twists break it on the circle too; off it the share reaches 0.91 on M12.
+  - Lemma F's closed counts hold on M5, M7 and M11.
+  - All 196 firing members of levels 1–6 are fixed.
+  - P1–P9 YES (the priors expected 7.85 of 9).
+- **The golden reading.**
+  - Off the circle a vacuum breaks the mirror exactly when no golden Galois reflection ±M^{2k}S fixes its twist.
+  - A single-sheet twist at a split prime always breaks it.
+  - The gloss "a broken vacuum chooses a sheet" is exact only on M5: mixed twists break on M7 and M9–M11, and M6, M8 and M12 have
+    no split prime.
+- **Post-run checks, written after the run and disclosed: X1–X5 pass.**
+  - X2 drops the criterion: a direct module test over 𝔽_p on M1–M6 against all 16n symmetry words agrees character by character,
+    and only dualising words fix.
+  - X3 tests the 196 members directly.
+  - X4 is the hyperbolic point as a live control: every unitary vacuum is fixed, and non-dualising words fix.
+  - X5 is Lemma F on M13 (p = 521) by independent code.
+- **After the run, not sealed.**
+  - M5's case-(b) members (B1511/B1512's eigenline characters) are exactly the twists no reflection fixes, ten per golden sheet.
+  - They are held only by the golden rotations at their unitary λ.
+  - Registered as sL-10 item 7, sealed first.
+- **Records.**
+  - creates_law: T-GOLDEN-CHOICE in THEOREM_REGISTRY (Lemma C, Lemma F).
+  - B1520's kill-graph note: lead 2 tested, opening no selection through level 6.
+  - Three ERROR_LEDGER instances: E1 (route R's Smith-form convention, pre-seal), E31 (X2's first non-generic stand-in, before
+    it ran) and E36 (at banking, B1210's generator was run over B1213's claim pool; restored before staging).
+  - P3's claim pool regenerated with B1213's tool: B1522 enters as L, with four arcs banked since B1514. B1210's lock message now
+    names that tool.
+  - Relay to main: L242 (b) answered.
+  - Main's "golden rotation" is a different object (terminology note); outside-bench memo 101 is adjacent.
+- **Lock** `tests/test_b1522_the_golden_choice.py` (11 fast, 2 slow). 0 of 19; I-26 stays UNEARNED.
+
+## Record the fast lane on 71267485 (B1521's banked tree): at the bank's baseline
+
+- **Fast lane on 71267485** (56 minutes): 6 585 passed, 52 skipped, 10 failed. The ten are the same set as at 43543f4b: the nine
+  baseline failures and `test_b1035_receipts`.
+- **The extra passes, from the collector.** Diffed like for like with 43543f4b (6 672 → 6 690 ids): 18 added, none removed.
+  - B1521's two schema cases and its nine lock tests (one slow).
+  - The seven `test_seal_ledger_rows` tests of the cherry-pick `ee2b09c5`.
+  - So 17 more pass in the fast lane.
+
 ## B1522 sealed: THE GOLDEN CHOICE — which vacua of m004's harmonic family on the levels keep a count-odd symmetry (main's L242 (b))
 
 - **The question** (main's L242 (b); the owner's "all allowed not just m004, choice might be golden"). On M1–M12, which vacua

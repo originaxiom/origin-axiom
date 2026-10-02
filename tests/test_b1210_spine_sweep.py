@@ -25,7 +25,8 @@ def test_every_law_creating_arc_is_in_the_claim_pool():
     pool_text = POOL.read_text(encoding="utf-8")
     missing = [a for a in _law_arcs() if not re.search(rf"`{a}`", pool_text)]
     assert not missing, (f"{len(missing)} law-creating arcs absent from CLAIM_CANDIDATES.md: "
-                         f"{missing[:8]} -- regenerate with the arc's verification/ scripts")
+                         f"{missing[:8]} -- regenerate with frontier/B1213_claim_base_rebuilt/verification/reproduce.sh "
+                         f"(B1213's union pool; B1210's own reproduce.sh renders the older form over it)")
 
 
 def test_the_landing_is_in_the_recognition_table_not_the_forced_list():

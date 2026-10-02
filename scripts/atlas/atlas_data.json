@@ -9503,6 +9503,45 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1522": {
+   "slug": "the golden choice",
+   "motifs": [
+    "arrow",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B130",
+    "B584",
+    "B672",
+    "B674",
+    "L1",
+    "L2",
+    "L241",
+    "L242",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

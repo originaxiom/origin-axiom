@@ -17018,3 +17018,37 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The order.** The selection question is pre-empted by the order (B1512: both orders over every firing vacuum).
 - **Lemma U.** At the hyperbolic point every unitary vacuum of every state is fixed. The family off it on other states is
   registered (sL-10 item 6).
+
+## 2026-10-02 — the fast lane on 71267485 (B1521's tree)
+
+- **Fast lane on 71267485** (56 minutes): 6 585 passed, 52 skipped, 10 failed. The ten are the same set as at 43543f4b.
+- **The extra passes, from the collector.** 6 672 → 6 690 ids; 18 added, none removed: B1521's two schema cases and nine lock tests
+  (one slow), and the seven seal-ledger-row tests of the cherry-pick `ee2b09c5`. So 17 more pass in the fast lane.
+
+## 2026-10-02 — B1522 run and banked: the golden choice (main's L242 (b))
+
+- **The run** (as sealed at `5d4eb5f7`, 68 s). Route F and route R agree on all 167 736 characters of M1–M12.
+  - Unfixed off the circle: 0, 0, 0, 0, 20, 96, 448, 1 344, 4 464, 12 100, 35 244 and 93 936.
+  - Unfixed on the circle: 0, 0, 0, 0, 0, 96, 392, 1 344, 4 320, 12 080, 34 848 and 93 936.
+  - All 196 firing members are fixed. P1–P9 held; outcome B.
+- **Where the mirror breaks is golden.** Off the circle a vacuum breaks it exactly when no golden Galois reflection fixes its
+  twist. On M5 the breaking twists are exactly the single-sheet ones; on higher levels mixed twists break too, and on M6, M8 and M12
+  no prime splits.
+- **Post-run** (disclosed):
+  - X1 checks P5 directly.
+  - X2 is a direct module test over 𝔽_p with no criterion, on M1–M6 against all 16n words; it agrees, and only dualising words fix.
+  - X3 tests the 196 members directly.
+  - X4 runs the hyperbolic point as a live control: 320 of 320 unitary vacua fixed on M6.
+  - X5 is Lemma F on M13 by independent code (257 920 and 256 880).
+- **After the run** (not sealed):
+  - M5's case-(b) members are exactly its single-sheet twists, ten per sheet at each λ ∈ μ₄.
+  - The golden rotations alone hold them.
+  - Both orders live over each, so the sheet is where M5's chirality lives, not what selects its sign.
+- **Records.**
+  - THEOREM_REGISTRY T-GOLDEN-CHOICE.
+  - B1520's kill-graph note (lead 2 tested).
+  - E1, E31 and E36 instances. The E36 is at banking: B1210's lock pointed to its own generator, which rendered the older pool
+    over B1213's. It was restored before staging, the pool was regenerated with B1213's tool, and the lock's message was fixed.
+  - OPEN_LEADS sL-10 item 2 banked, item 7 registered.
+  - The relay to main answering L242 (b).
+  - SnapPy re-run at banking: C3's homology and C5's |Isom| = 8n for n ≤ 8, every cover amphicheiral.

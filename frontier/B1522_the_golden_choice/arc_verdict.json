@@ -1,0 +1,127 @@
+{
+ "id": "B1522",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1512",
+  "B1520",
+  "B1521",
+  "B1511",
+  "B1514",
+  "B1279",
+  "B1303",
+  "B1509"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "the vacua nu (x) rho_q (q > 0, q != 1) of m004's Ballas family on the cyclic covers M_1 ... M_12 (pi_n = F x| <z = m^n>, nu = (nu_F, lam) a character of H_1(M_n) = Z z + T_n), their stabilisers under the count-odd maps V -> (V o beta)^* (beta dualising, optionally followed by conjugation of the twist), and the 196 banked firing members of levels 1-6",
+  "reach": "class",
+  "hypotheses": [
+   "H-vac: the bridge's vacua are these flat bundles with their harmonic metrics (R44, R54, R76; not re-derived)",
+   "the uniqueness of the harmonic metric (R47's F13, as R47 cites it), so a vacuum is fixed up to gauge exactly when its flat bundle is fixed up to isomorphism",
+   "main's class index (B1297/B1446) with L1 and L2 (B1512): pull-back keeps the count, dualising flips it; conjugation of the twist keeps it because rho_q is real",
+   "Isom(M_n) is the 8n lifts of Isom(m004) (SnapPy for n <= 8; the group closure on characters for n <= 12, C5)",
+   "Lemma C, F and SP are proved for every level (F: every odd n with L_n prime); the census is complete on n <= 12; the chiral record (the firing members) is complete through level 6 (B1512, B1514) and absent above it"
+  ]
+ },
+ "claim_one_line": "THE GOLDEN CHOICE, run as sealed (5d4eb5f7; 68 s; main's L242 (b) and the owner's 'choice might be golden'): on the levels M_1 ... M_12 of m004's Ballas family the count-odd mirror breaks, unlike level one: from M_5 off the unit circle (20 of 121 twists) and from M_6 on it too (96 of 320), rising to 0.91 of M_12's 103 680. Off the circle a vacuum breaks it exactly when no golden Galois reflection +-M^{2k}S (the maps exchanging the eigenlines of phi and phibar on the torsion) fixes its twist (Lemma C with G, two routes on all 167 736 characters; the criterion bypassed by a direct module test over F_p on M_1-M_6, X2). Single-sheet twists at a split prime always break (P5); the gloss 'a broken vacuum chooses a sheet' is exact only on M_5 (mixed twists break on M_7, M_9-M_11; M_6, M_8, M_12 have no split prime). Lemma F's closed counts (p - 1)(p + 1 - 2n) and (p - 1)(p - 1 - 2n) hold on M_5, M_7, M_11. Every one of the 196 banked firing members (levels 1-6, the chiral record complete there) is fixed at its lam, on both routes and directly (X3): outcome B, the mirror breaks only where nothing chiral has been found. After the run (not sealed): M_5's case-(b) members, B1511/B1512's eigenline characters, are at each lam in mu_4 exactly the 20 twists no reflection fixes, ten on each golden sheet, held only by the golden rotations +-M^{2k+1} at their unitary lam; both orders live over each, so the sheet is where M_5's chirality lives, not what selects its sign. P1-P9 YES (expected 7.85 of 9). Post-run X1-X5 pass (X4: at q = 1 every unitary vacuum is fixed, Lemma U, and non-dualising words fix; X5: Lemma F on M_13, L_13 = 521, by independent code, 257 920 and 256 880). creates_law (Lemma C, Lemma F). Registered: sL-10 item 7 (case (b) on the split-prime levels, sealed first). I-26 stays UNEARNED. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "5d4eb5f7",
+    "main": "f06d3405",
+    "origin/audit/physical-bridge-2026-09-05": "7b088f50",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "5d4eb5f7",
+    "origin/main": "8d1c1329",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "count-odd",
+    "L242",
+    "golden eigenline",
+    "eigenline",
+    "Galois reflection",
+    "golden rotation",
+    "stabiliser of a vacuum",
+    "unfixed vacua",
+    "golden sheet",
+    "golden choice"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@5d4eb5f7:frontier/B1512_the_self_coincident_orbits/PREREGISTRATION.md (Lemmas I, E, A, D) and FINDINGS.md sections 1, 5 (c), 5 (d)",
+     "bearing": "the actions of iota, eps and alpha on characters and on the family, used by Lemma C; M_5's case-(b) members are the characters on the two Phi-eigenlines of T_5 = F_11^2, firing at every lam in mu_4, and M_5's double point counts +1 for W_1 and -1 for W_2: the facts section 6 reads, credited there"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@5d4eb5f7:frontier/B1511_the_projective_tower/FINDINGS.md (Theorem F; the per-level table)",
+     "bearing": "nu^5 in nu's deck orbit exactly for M_4's 3-torsion, M_5's eigenline and M_6's order-8 characters: the firing population census.py reads, with B1514's loader"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@5d4eb5f7:frontier/B1520_the_deciding_test/FINDINGS.md and the kill graph's B1520 record (hatch: 'a cyclic level's family with a larger outer group, lead 2')",
+     "bearing": "level one: every vacuum fixed by D.theta and D.s.theta; this arc runs lead 2 and records it on B1520's kill-graph note"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@5d4eb5f7:frontier/B1521_genesis_v13/verification/which_class_is_P.py",
+     "bearing": "B1297's P is the swap's class and fixes rho_q, so B1297's tower theorem does not close the levels: the reason L242 (b) was open"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@5d4eb5f7:frontier/B1279_the_symmetries_of_the_closing and frontier/B1303_the_two_by_two_criterion",
+     "bearing": "the golden eigenlines of the tower's torsion and the inversions' swap of them (B1279); H_1(Y_n) = Z[phi]/(L_n) or Z[phi]/(sqrt5 F_n) (B1303): Lemma G's frame, not new here"
+    },
+    {
+     "where": "origin/main@8d1c1329:frontier/B1455_the_selection_rule_and_the_deciding_test (L242 (b) registered) and frontier/B1297_the_spectral_cover_index",
+     "bearing": "the question answered here (the levels); P = -1 on the torsion, which this arc does not use"
+    },
+    {
+     "where": "origin/main@8d1c1329:outside_bench/memos/GAMMA5_REVERSER.md (memo 101, 2026-08-28)",
+     "bearing": "adjacent, a different object: at the trivial rep the reverser acts on the golden eigenframe as the Q(sqrt5) Galois conjugation and the eigenline's sign (the branch bit) is reached by no banked symmetry; here, on torsion characters, the reflections exchange the eigenlines and iota reaches the sign; memo 101's bit is not decided"
+    },
+    {
+     "where": "origin/main@8d1c1329:TERMINOLOGY.md, docs/LAW_MAP.md (THE GOLDEN-ROTATION LAW), frontier/B674_generation_leg",
+     "bearing": "main's 'golden rotation' is the order-10 elliptic modular lift of A_1 on the flavor side, a different object; FINDINGS carries a terminology note"
+    },
+    {
+     "where": "main topic_sweep.py at 8d1c1329 on 'eigenline | eigencharacter | golden eigen | Psi-eigen | count-odd | stabiliser of a vacuum | L242 | unfixed | Galois sheet | 1/q | phi^4 | w = 7 | strong inversion on a level | deck swap/invert' (at the seal)",
+     "bearing": "12 of 1327 arcs on main match (NEGATIVE 1, OPEN 1, PROVED 10); none decides a vacuum's count-odd stabiliser on a level"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Ballas figure-eight properly convex deformations presentation",
+    "SnapPy m004 cyclic covers homology and symmetry group"
+   ],
+   "sources": [
+    {
+     "cite": "S. A. Ballas, Finite volume properly convex deformations of the figure-eight knot, arXiv:1403.3314v3",
+     "where": "p. 17 (the generators and the presentation)",
+     "read": "2026-10-02",
+     "says": "the family rho_s on the figure-eight knot group; holonomies of properly convex structures, hence faithful"
+    },
+    {
+     "cite": "SnapPy (M. Culler, N. Dunfield, M. Goerner, J. Weeks), Manifold('m004').covers(n, cover_type='cyclic'), homology(), symmetry_group(), run 2026-10-02",
+     "where": "the cyclic covers M_n, n <= 8 (re-run at banking)",
+     "read": "2026-10-02",
+     "says": "H_1(M_n) torsion [], [5], [4, 4], [3, 15], [11, 11], [8, 40], [29, 29], [21, 105] and |Isom(M_n)| = 8n, every M_n amphicheiral: C3's and C5's tables"
+    },
+    {
+     "cite": "Splitting of rational primes in Q(sqrt 5) (standard: p = +-1 mod 5 split, +-2 inert, 5 ramified)",
+     "where": "checked by own code for every p < 2000 (controls C11), not cited for the arc",
+     "read": "2026-10-02",
+     "says": "the prime types used in the read-out"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ }
+}

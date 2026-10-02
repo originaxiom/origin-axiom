@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1269** |
-| words of findings prose | **1,055,710** |
-| test lock files referenced | **773** |
-| arcs carrying an authored verdict | **1269** (100.0 %) |
+| research arcs with findings | **1270** |
+| words of findings prose | **1,059,551** |
+| test lock files referenced | **774** |
+| arcs carrying an authored verdict | **1270** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 843 |
+| PROVED | 844 |
 | NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1521`** (2180 words, 0 locks)  
-GENESIS v1.3 (not sealed: every item checks a stated claim the record already fixes): the audit lane's corrections carried, each re-derived with own code -- B37's and B20's never-reads tests fire under a vacuous rewriting on the record graph (AR3); an empty elimination keeps an isolated component (AR4), so B130's fork-free reading needs a componentwise proof; m = 1, 4, 11 share Q(sqrt 5) (AR5); B723 carries the B942 and B957 retractions (AR6). And B1297's period-2 symmetry P is the swap's class (P = conj(nM) o s, through an explicit isomorphism between SnapPy's and Ballas' presentations proved by free-group reduction), so rho_q o P = rho_q, not rho_q^* (q = 2, 3, 1/5, 7/3, exact): the family's dualising symmetry is the inversion, main's B1455 addendum is corrected on that line, and the levels (main's L242 (b)) stay open. FK9 carries the deciding test's NEGATIVE at level one, FK12 the owner's act-and-register priority with the experiential question under Gate 5-Q; 'choice might be golden' registered, untested. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.  
-`B1521_genesis_v13/FINDINGS.md`
+**PROVED — `B1522`** (3841 words, 1 locks)  
+THE GOLDEN CHOICE, run as sealed (5d4eb5f7; 68 s; main's L242 (b) and the owner's 'choice might be golden'): on the levels M_1 ... M_12 of m004's Ballas family the count-odd mirror breaks, unlike level one: from M_5 off the unit circle (20 of 121 twists) and from M_6 on it too (96 of 320), rising to 0.91 of M_12's 103 680. Off the circle a vacuum breaks it exactly when no golden Galois reflection +-M^{2k}S (the maps exchanging the eigenlines of phi and phibar on the torsion) fixes its twist (Lemma C with G, two routes on all 167 736 characters; the criterion bypassed by a direct module test over F_p on M_1-M_6, X2). Single-sheet twists at a split prime always break (P5); the gloss 'a broken vacuum chooses a sheet' is exact only on M_5 (mixed twists break on M_7, M_9-M_11; M_6, M_8, M_12 have no split prime). Lemma F's closed counts (p - 1)(p + 1 - 2n) and (p - 1)(p - 1 - 2n) hold on M_5, M_7, M_11. Every one of the 196 banked firing members (levels 1-6, the chiral record complete there) is fixed at its lam, on both routes and directly (X3): outcome B, the mirror breaks only where nothing chiral has been found. After the run (not sealed): M_5's case-(b) members, B1511/B1512's eigenline characters, are at each lam in mu_4 exactly the 20 twists no reflection fixes, ten on each golden sheet, held only by the golden rotations +-M^{2k+1} at their unitary lam; both orders live over each, so the sheet is where M_5's chirality lives, not what selects its sign. P1-P9 YES (expected 7.85 of 9). Post-run X1-X5 pass (X4: at q = 1 every unitary vacuum is fixed, Lemma U, and non-dualising words fix; X5: Lemma F on M_13, L_13 = 521, by independent code, 257 920 and 256 880). creates_law (Lemma C, Lemma F). Registered: sL-10 item 7 (case (b) on the split-prime levels, sealed first). I-26 stays UNEARNED. 0 of 19.  
+`B1522_the_golden_choice/FINDINGS.md`
 
 **NEGATIVE — `B1520`** (2789 words, 1 locks)  
 THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  
