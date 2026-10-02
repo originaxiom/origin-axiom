@@ -16958,3 +16958,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   baseline failures and `test_b1035_receipts`.
 - **The extra passes, from the collector.** Diffed like for like with e8992b63: 9 added (B1519's seven lock tests and its two
   schema cases), none removed.
+
+## 2026-10-02 — the seal gates read a ledger row by its cells from the right (B1506 flagged, as expected)
+
+- **The fix** asked for by B1506's rule-slip row (ERROR_LEDGER, 2026-09-30). Both seal gates now read a dated SEAL_LEDGER row
+  by its last two cells, the path and the digest, so a pipe in the description no longer ends the row early. A line carrying
+  two joined rows (B891's and B897's) is split first.
+- **Newly flagged:** B1506 only. Newly read and passing: B1518's seal row (its verdict row was already read) and B897's row.
+  seal-digests recomputes 33 digests (31 before), all matching.
+- **Disposition:** B1506 listed by name and digest in `SEAL_PROVENANCE_HISTORICAL`, which is closed to seals first ledgered
+  on or after 2026-10-02. B1506 FINDINGS note, ERROR_LEDGER instrument-slip row, PRACTICES paragraph.
+- **Lock:** `tests/test_seal_ledger_rows.py`, 7 fast tests (from the collector). Gates: all pass except the relay-debt
+  baseline.
+- I-26 stays UNEARNED. 0 of 19.

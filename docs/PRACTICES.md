@@ -376,6 +376,12 @@ another gate.** It is fixed by making the existing requirement a field that must
 before the seal hashes, which is the only moment where it can bite. Older seals are exempt by
 construction: a rule cannot bind text sealed before it existed.
 
+**Rows are read from the right (2026-10-02).** Both seal gates read a dated SEAL_LEDGER row by
+its last two cells, the backticked path and digest, so a pipe in the description no longer hides
+the seal (B1506's "|count|" did; ERROR_LEDGER). A seal that this reading found without the markers
+cannot be amended, so it is listed by name and digest in `SEAL_PROVENANCE_HISTORICAL`, with its
+arc and its ERROR_LEDGER row. The list cannot hold a seal first ledgered on or after 2026-10-02.
+
 
 ## LAW_MAP rows carry their arc's scope — GATED (`lawmap-scope`)
 

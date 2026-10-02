@@ -133,6 +133,24 @@
   - **ERROR_LEDGER:** three rows (E53, E11, E52 instances).
 - I-26 stays UNEARNED. 0 of 19.
 
+## The seal gates read a ledger row by its cells from the right; B1506 flagged, as expected, and listed by name
+
+- **The defect** (reported 2026-10-01 by B1506's rule-slip row): `gate_seal_provenance` and `gate_seal_digests` read a dated
+  SEAL_LEDGER row's description as `[^|]*`. A row whose description held a pipe never reached its path cell, and its seal went
+  unchecked by both gates.
+- **The fix** (`scripts/gates/gates.py`): a row is read by its cells from the right. The last two non-empty cells are the
+  backticked path and the backticked 64-hex digest, whatever the description holds. A line carrying two rows joined by "||" is
+  split first.
+- **Newly read:** B1506's seal and verdict rows, B1518's seal row and B897's row (on one line with B891's). Every row the old
+  pattern read is still read.
+- **Newly flagged:** B1506 only, by seal-provenance. seal-digests recomputes 33 digests (31 before), all matching.
+- **Disposition:** B1506's sealed text cannot be amended. It is listed by name and digest in `SEAL_PROVENANCE_HISTORICAL`, which
+  holds only seals first ledgered before 2026-10-02 and fails the gate on an entry no row needs. Recorded in B1506's FINDINGS (a
+  dated note), ERROR_LEDGER (an instrument-slip row) and PRACTICES (a paragraph under the seal-provenance rule).
+- **Lock:** `tests/test_seal_ledger_rows.py`, 7 fast tests (from the collector). It feeds both gates a row with a pipe in its
+  description, two rows on one line and rows without a path cell, checks the historical list's limits, and locks the live ledger.
+- Gates: all pass except the relay-debt baseline.
+
 ## B1518 banked: THE BAR — what a positive on a generated state must beat; on main's census no criterion in the fibre torsion and the sign decides own-level firing (PROVED)
 
 - **The bar** (`docs/THE_BAR.md`; sealed in PREREGISTRATION §3 at `697217be`):

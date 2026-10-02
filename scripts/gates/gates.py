@@ -845,27 +845,82 @@ def gate_atlas_lexicon_current():
 # requirement a CHECKABLE FIELD at the one moment it bites: seal time.
 SEAL_PROVENANCE_FROM = "2026-08-08"
 
+# Until 2026-10-02 both seal gates read a dated SEAL_LEDGER row through `| date |[^|]*| path`,
+# so a row whose description held a "|" (B1506's "P1 |count| = 1") never reached its path cell
+# and the seal went unchecked by both (ERROR_LEDGER, 2026-10-02). A row is now read by its cells
+# from the right: the last two non-empty cells are the backticked path and the backticked
+# 64-hex digest, whatever the description holds. A line carrying two rows joined by "||"
+# (B891's and B897's) is split first, so neither row is lost.
+SEAL_ROWS_FROM_RIGHT = "2026-10-02"
+_SEAL_ROW_DATE = re.compile(r"\|\s*(\d{4}-\d{2}-\d{2})\s*\|")
+_SEAL_ROW_JOIN = re.compile(r"(?<=\|)(?=\|\s*\d{4}-\d{2}-\d{2}\s*\|)")
+
+# Seals found without the markers when the rows were first read from the right. Each was sealed
+# before SEAL_ROWS_FROM_RIGHT and cannot be amended, and each has a dated FINDINGS note and an
+# ERROR_LEDGER row. An entry holds only for the sealed sha-256 and only for a seal first ledgered
+# before SEAL_ROWS_FROM_RIGHT, so no later seal can be listed; an entry no row needs fails the gate.
+SEAL_PROVENANCE_HISTORICAL = {
+    # B1506 THE LEVEL, sealed 2026-09-30; its seal and verdict rows both hold "|count|".
+    # ERROR_LEDGER: "Rule slip (2026-09-30, B1506; self-caught 2026-10-01 while banking B1509)".
+    "frontier/B1506_the_level/PREREGISTRATION.md":
+        "664f81927697eb3b9c177b1306b38130e18ab5d3e9f2bf8fde225bdc3a8ab684",
+}
+
+
+def _seal_ledger_rows(text):
+    """(date, path, digest) for every dated SEAL_LEDGER row with a backticked path second from
+    the right; digest is None when the last cell is not a backticked 64-hex digest."""
+    rows = []
+    for line in text.splitlines():
+        if not _SEAL_ROW_DATE.match(line):
+            continue
+        for row in _SEAL_ROW_JOIN.split(line):
+            cells = [c.strip() for c in row.split("|") if c.strip()]
+            if len(cells) < 3:
+                continue
+            path = re.fullmatch(r"`([^`]+)`", cells[-2])
+            if not path:
+                continue
+            digest = re.fullmatch(r"`([0-9a-f]{64})`", cells[-1])
+            rows.append((_SEAL_ROW_DATE.match(row).group(1), path.group(1),
+                         digest.group(1) if digest else None))
+    return rows
+
 
 def gate_seal_provenance():
     """Preregistrations sealed on/after SEAL_PROVENANCE_FROM must name, in the sealed text,
     (i) the banked identity the pipeline reproduces inside itself before any new number is
     read, and (ii) the prior-art / bank grep run at DESIGN time. Older seals are exempt:
-    the rule cannot bind text that was sealed before it existed."""
-    ledger = _read("docs/SEAL_LEDGER.md")
-    missing = []
-    for line in ledger.splitlines():
-        m = re.match(r"\|\s*(\d{4}-\d{2}-\d{2})\s*\|[^|]*\|\s*`([^`]+)`", line)
-        if not m:
-            continue
-        date, rel = m.group(1), m.group(2)
+    the rule cannot bind text that was sealed before it existed. So are the seals listed by
+    name and digest in SEAL_PROVENANCE_HISTORICAL, which the old row regex never read."""
+    import hashlib
+    rows = _seal_ledger_rows(_read("docs/SEAL_LEDGER.md"))
+    first = {}
+    for date, rel, _digest in rows:
+        first[rel] = min(date, first.get(rel, date))
+    missing, listed = [], set()
+    for date, rel, _digest in rows:
         if date < SEAL_PROVENANCE_FROM:
             continue
-        if not os.path.isfile(os.path.join(ROOT, rel)):
+        p = os.path.join(ROOT, rel)
+        if not os.path.isfile(p):
             continue          # branch-side seals are recorded but not present here
         txt = _read(rel)
-        if "BANKED IDENTITY:" not in txt or "PRIOR ART:" not in txt:
+        if "BANKED IDENTITY:" in txt and "PRIOR ART:" in txt:
+            continue
+        if (first[rel] < SEAL_ROWS_FROM_RIGHT and SEAL_PROVENANCE_HISTORICAL.get(rel)
+                == hashlib.sha256(open(p, "rb").read()).hexdigest()):
+            listed.add(rel)
+        elif rel not in missing:
             missing.append(rel)
-    return not missing, missing[:5] or "ok"
+    unneeded = sorted(set(SEAL_PROVENANCE_HISTORICAL) - listed)
+    problems = missing[:5] + [f"SEAL_PROVENANCE_HISTORICAL lists {rel}, which no ledger row needs "
+                              f"(digest changed, row gone, or first ledgered on/after "
+                              f"{SEAL_ROWS_FROM_RIGHT}) -- remove the entry" for rel in unneeded]
+    if problems:
+        return False, problems
+    return True, (f"ok ({len(listed)} historical seal(s) without the markers, listed: "
+                  f"{', '.join(sorted(listed))})" if listed else "ok")
 
 
 def gate_seal_digests():
@@ -877,15 +932,13 @@ def gate_seal_digests():
     (corrected-by-append rows supersede the wrong cells above them). Rows whose path is
     absent from this tree (branch-side seals; path-as-prose supersession notes) are
     skipped. Catches mistyping, remapping, and every route not yet hit, because it does
-    not care how a digest got wrong."""
+    not care how a digest got wrong. Rows are read by their cells from the right
+    (_seal_ledger_rows), so a "|" in a row's description no longer hides it."""
     import hashlib
-    ledger = _read("docs/SEAL_LEDGER.md")
     latest = {}
-    for line in ledger.splitlines():
-        m = re.match(r"\|\s*\d{4}-\d{2}-\d{2}\s*\|[^|]*\|\s*`([^`]+)`\s*\|\s*`([0-9a-f]{64})`", line)
-        if not m:
-            continue
-        latest[m.group(1)] = m.group(2)
+    for _date, rel, digest in _seal_ledger_rows(_read("docs/SEAL_LEDGER.md")):
+        if digest:
+            latest[rel] = digest
     bad = []
     for rel, want in latest.items():
         p = os.path.join(ROOT, rel)
