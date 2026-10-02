@@ -73,6 +73,15 @@ negatives are scope-tagged in Stage 5 with the rest.
   main does not write a second page. It verifies GENESIS v1.0 with its own code (the next arc, B1454), compares it
   with what main's record holds and it does not cite (the relay of 2026-10-02 lists eighteen arcs), and adopts it,
   amended, as the one page — or answers it.** The principle's single wording (its fork FK1) is the owner's.
+- **2026-10-02, S38. Stages 3 and 4 done, Stage 5 begun (B1454).** GENESIS v1.0 verified on main by other routes and
+  adopted as **`GENESIS.md` v1.1**, with 23 listed changes (the frame F-MC, the principle's mathematical form, the cost
+  of the orientation choice, the early record on the swap; a misquotation and one unswept absence corrected). The two
+  gates of Stage 4 exist: `genesis-cited` (cite, do not restate) and the scope tag in the verdict schema from B1454.
+  Stage 2's first result is in the page: the root needs four inputs and each is needed; the puncture stays
+  conditional. Propagation so far: pointers in eight pages, the uniqueness theorem's witness, the ledger's count,
+  WORKING_RULES, TERMINOLOGY. **What remains is lead L240**: the scope tags of the older arcs (NEGATIVE first), the
+  README and THE_CLAIM rewrites, F-MC off the root, the forks with computations behind them, Stage 6's swept page,
+  the fresh-reader test — and FK1, the principle's wording, which is the owner's.
 - **Still Stage 1:** codex's two lanes and the sep16 lane (harvests that age on 2026-10-09 and 10-12), the audit
   lane's same-day genesis reconciliation (unread on main), the web-seat handoffs.
 

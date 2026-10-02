@@ -1,0 +1,645 @@
+{
+ "G1 records route": {
+  "ok": true,
+  "data": {
+   "grid": 144,
+   "hyperbolic": 144,
+   "torsion_free": [
+    [
+     1,
+     1
+    ]
+   ],
+   "minimal_trace": [
+    [
+     1,
+     1
+    ]
+   ],
+   "trace": 3,
+   "without_positivity": [
+    [
+     -1,
+     -1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "conjugator_of_B_minus1_minus1_to_LR": [
+    [
+     -21,
+     13
+    ],
+    [
+     -13,
+     8
+    ]
+   ],
+   "non_hyperbolic_torsion_free": [
+    [
+     -1,
+     1
+    ],
+    [
+     1,
+     -1
+    ]
+   ]
+  }
+ },
+ "G2 T-ROOT": {
+  "ok": true,
+  "data": {
+   "box": 5,
+   "hyperbolic_det_plus": 168,
+   "hyperbolic_det_minus": 240,
+   "torsion_free": 48,
+   "by_class": {
+    "LR": 16,
+    "LP": 16,
+    "LP^-1": 16
+   },
+   "formula_holds": true,
+   "fixed_points_all_golden": true,
+   "every_one_conjugated": true,
+   "traces_of_torsion_free_det_plus": [
+    3
+   ],
+   "traces_of_torsion_free_det_minus": [
+    -1,
+    1
+   ]
+  }
+ },
+ "G3 order bit": {
+  "ok": true,
+  "data": {
+   "conjugate_by_L": true,
+   "conjugate_by_P": true,
+   "det_P": -1,
+   "fixed_point_polynomials": {
+    "LR": [
+     1,
+     -1,
+     -1
+    ],
+    "RL": [
+     1,
+     1,
+     -1
+    ],
+    "K": [
+     1,
+     -3,
+     1
+    ]
+   },
+   "LP_squared_is_LR": true,
+   "PL_squared_is_RL": true
+  }
+ },
+ "G4 census": {
+  "ok": true,
+  "data": {
+   "counts": [
+    2,
+    2,
+    4,
+    6,
+    10,
+    18,
+    32,
+    56,
+    102,
+    186,
+    340
+   ],
+   "by_formula": [
+    2,
+    2,
+    4,
+    6,
+    10,
+    18,
+    32,
+    56,
+    102,
+    186,
+    340
+   ],
+   "total": 758,
+   "torsion_free": [
+    "+LR"
+   ],
+   "minimal_trace_by_length": {
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 7,
+    "7": 8,
+    "8": 9,
+    "9": 10,
+    "10": 11,
+    "11": 12,
+    "12": 13
+   }
+  }
+ },
+ "G8 necessity (algebra)": {
+  "ok": true,
+  "data": {
+   "order_six_trace_one": {
+    "matrix": [
+     [
+      1,
+      1
+     ],
+     [
+      -1,
+      0
+     ]
+    ],
+    "det": 1,
+    "trace": 1,
+    "order": 6,
+    "torsion": 1,
+    "hyperbolic": false,
+    "char_poly": "t^2 - t + 1"
+   },
+   "parabolic_L": {
+    "trace": 2,
+    "smith": [
+     1,
+     0
+    ],
+    "hyperbolic": false
+   },
+   "closed_torus_bundle_of_LR": {
+    "smith": [
+     1,
+     1
+    ],
+    "note": "H1 = Z + coker(A - I) = Z; Sol, not hyperbolic (G7)"
+   }
+  }
+ },
+ "G9 unit shears generate": {
+  "ok": true,
+  "data": {
+   "box": 5,
+   "hyperbolic_det_plus": 168,
+   "not_reached": 0,
+   "word_lengths": {
+    "2": 32,
+    "3": 48,
+    "4": 64,
+    "5": 24
+   }
+  }
+ },
+ "G10 metallic family": {
+  "ok": true,
+  "data": {
+   "rows": [
+    {
+     "m": 1,
+     "matrix": [
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 1,
+     "torsion": [
+      1,
+      1
+     ],
+     "torsion_of_square": [
+      1,
+      1
+     ]
+    },
+    {
+     "m": 2,
+     "matrix": [
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 2,
+     "torsion": [
+      1,
+      2
+     ],
+     "torsion_of_square": [
+      2,
+      2
+     ]
+    },
+    {
+     "m": 3,
+     "matrix": [
+      [
+       3,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 3,
+     "torsion": [
+      1,
+      3
+     ],
+     "torsion_of_square": [
+      3,
+      3
+     ]
+    },
+    {
+     "m": 4,
+     "matrix": [
+      [
+       4,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 4,
+     "torsion": [
+      1,
+      4
+     ],
+     "torsion_of_square": [
+      4,
+      4
+     ]
+    },
+    {
+     "m": 5,
+     "matrix": [
+      [
+       5,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 5,
+     "torsion": [
+      1,
+      5
+     ],
+     "torsion_of_square": [
+      5,
+      5
+     ]
+    },
+    {
+     "m": 6,
+     "matrix": [
+      [
+       6,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 6,
+     "torsion": [
+      1,
+      6
+     ],
+     "torsion_of_square": [
+      6,
+      6
+     ]
+    },
+    {
+     "m": 7,
+     "matrix": [
+      [
+       7,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 7,
+     "torsion": [
+      1,
+      7
+     ],
+     "torsion_of_square": [
+      7,
+      7
+     ]
+    },
+    {
+     "m": 8,
+     "matrix": [
+      [
+       8,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "square_is_LmRm": true,
+     "det": -1,
+     "trace": 8,
+     "torsion": [
+      1,
+      8
+     ],
+     "torsion_of_square": [
+      8,
+      8
+     ]
+    }
+   ],
+   "torsion_free_members": [
+    1
+   ]
+  }
+ },
+ "G11 the swap (main B14)": {
+  "ok": true,
+  "data": {
+   "square_roots_of_LR": [
+    [
+     [
+      -1,
+      -1
+     ],
+     [
+      -1,
+      0
+     ]
+    ],
+    [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ]
+   ],
+   "in_the_box": [
+    [
+     [
+      -1,
+      -1
+     ],
+     [
+      -1,
+      0
+     ]
+    ],
+    [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ]
+   ],
+   "LP": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "orientation_reversing_roots_of_LaRb": [
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     7,
+     7
+    ],
+    [
+     8,
+     8
+    ],
+    [
+     9,
+     9
+    ],
+    [
+     10,
+     10
+    ],
+    [
+     11,
+     11
+    ],
+    [
+     12,
+     12
+    ]
+   ]
+  }
+ },
+ "G5-G7 SnapPy": {
+  "ok": true,
+  "data": {
+   "states_to_length_six": {
+    "+LR": "m004",
+    "-LR": "m003",
+    "+LLR": "m009",
+    "-LLR": "m010",
+    "+LLLR": "m023",
+    "-LLLR": "m022",
+    "+LLRR": "m136",
+    "-LLRR": "m135",
+    "+LLLLR": "m039",
+    "-LLLLR": "m040",
+    "+LLLRR": "m235",
+    "-LLLRR": "m234",
+    "+LLRLR": "m370",
+    "-LLRLR": "m369",
+    "+LLLLLR": "s000",
+    "-LLLLLR": "s001",
+    "+LLLLRR": "s298",
+    "-LLLLRR": "s299",
+    "+LLLRLR": "s640",
+    "-LLLRLR": "s639",
+    "+LLLRRR": "s464",
+    "-LLLRRR": "s463",
+    "+LLRLRR": "s892",
+    "-LLRLRR": "s891"
+   },
+   "tetrahedra_equal_word_length": true,
+   "orientation_reversing_codes_read": 252,
+   "orientable_among_them": 0,
+   "distinct_manifolds": 16,
+   "torsion_free_among_them": [
+    "m000"
+   ],
+   "torsion_is_abs_trace_of_wP": true,
+   "torsion_orders_of_levels": {
+    "1": 1,
+    "2": 5,
+    "3": 16,
+    "4": 45,
+    "5": 121,
+    "6": 320,
+    "7": 841,
+    "8": 2205,
+    "9": 5776,
+    "10": 15125,
+    "11": 39601,
+    "12": 103680
+   },
+   "level_names": {
+    "2": [
+     "m206"
+    ],
+    "3": [
+     "s961"
+    ],
+    "4": [
+     "t12839"
+    ],
+    "5": [
+     "o10_150696"
+    ],
+    "6": [
+     "otet12_00013"
+    ]
+   },
+   "m000": {
+    "orientable": false,
+    "volume": 1.0149416064096535,
+    "double_cover": "m004",
+    "tetrahedra": 1
+   },
+   "m003_torsion": [
+    5
+   ],
+   "double_covers": {
+    "m004": [
+     "m206"
+    ],
+    "m003": [
+     "m206"
+    ]
+   },
+   "fillings": {
+    "(1, 0)": {
+     "homology": "0",
+     "generators": 0,
+     "relators": [],
+     "volume": 2.0298832128193074,
+     "solution": "contains negatively oriented tetrahedra"
+    },
+    "(0, 1)": {
+     "homology": "Z",
+     "generators": 2,
+     "relators": [
+      "aaabABBAb",
+      "aBAbABab"
+     ],
+     "volume": 0.0,
+     "solution": "contains flat tetrahedra"
+    },
+    "(5, 1)": {
+     "homology": "Z/5",
+     "generators": 2,
+     "relators": [
+      "aBAbaabAB",
+      "aBAbABabbbbbb"
+     ],
+     "volume": 0.981368828892232,
+     "solution": "all tetrahedra positively oriented"
+    },
+    "(-5, 1)": {
+     "homology": "Z/5",
+     "generators": 2,
+     "relators": [
+      "abABaBaBAb",
+      "abAAbabbb"
+     ],
+     "volume": 0.9813688288922323,
+     "solution": "all tetrahedra positively oriented"
+    }
+   },
+   "5_2": {
+    "homology": "Z",
+    "volume": 2.828122088330783,
+    "solution": "all tetrahedra positively oriented"
+   }
+  }
+ }
+}

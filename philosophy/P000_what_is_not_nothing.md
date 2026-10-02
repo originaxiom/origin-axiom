@@ -1,5 +1,8 @@
 # P000 — What is not-nothing?
 
+> **Foundations: `../GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** This file's four premises are placed there (§1, §9): the family is the
+> intended shape, and the member m = 1 is most-selected, not forced.
+
 > **Philosophy — motivation only** (`GOVERNANCE.md`). Not a claim; never a premise of a proof; nothing promotes to
 > `../CLAIMS.md`. Cites the mathematics one-way.
 

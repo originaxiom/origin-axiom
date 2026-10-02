@@ -736,3 +736,25 @@ new file. (E23 territory — the class where a convention flips silently between
 - **founding ratio** — the SM seat's name (sm:B1268, the icosian construction) for the element g that supplies the
   order-three element of the E₈ family mechanism; quoted in B1275, where that step is marked *not checked on main*.
   Not a ratio of measured quantities.
+
+## Added 2026-10-02 (B1454) — the GENESIS IDs, and the letters that collide
+
+`GENESIS.md` is the one statement of the foundations; its IDs are the only unqualified names for them.
+
+| ID | what it names |
+|---|---|
+| **PF1–PF3** | the three faces of the principle: what exists; the form the remainder takes; the method |
+| **GM1–GM5d** | the grammar: two records, unit shears, aperiodicity, the once-punctured-torus carrier, and the four move questions (reversible, inverse, swap, positivity) |
+| **SE1** | the selection criterion: torsion-free first homology. POSTULATED |
+| **T-ROOT** | what SE1 selects: exactly m004 and the Gieseking manifold m000. DERIVED |
+| **SE2** | orientation: of the two, the orientable one. CHOSEN |
+| **F-FC, F-CI, F-HE, F-AP, F-MC** | the frames: free cusp (the SM seat), class index (main), harmonic E₈ (the SM seat and the audit lane), G₂ apex (the SM seat), McKay cascade (main). Each is a hypothesis |
+| **FK1–FK11** | the open forks, each with what would settle it |
+| **GAP1–GAP5** | the gaps to physics: the dictionary, the ends, the source, selection and coincidence, dynamics |
+| **scope tag** | frame, object, reach (single, class, general), hypotheses — in every verdict file and kill-graph entry from B1454 |
+
+**The letters that collide, never to be used bare.** "A5" is the torsion-free closure in the uniqueness theorem and
+the geometric carrier in P019. "A6" is minimality in the uniqueness theorem and orientability in P019 — B1234's "the
+walls trace to A6" is P019's, the uniqueness theorem's A3, GENESIS SE2. "C1–C6" are links of the words route in the
+theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P019 A6", "ledger C5", or the GENESIS ID.
+

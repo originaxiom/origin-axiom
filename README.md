@@ -19,6 +19,13 @@ nothing cannot complete.
 
 ## The state of the programme (as of B1134, 2026-08-22)
 
+> **Foundations: `GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** The paragraph below predates it in two respects.
+> (1) The genesis's output is a **generated state space** with the figure-eight complement as its **root**, not "a single
+> object" (GENESIS §3–§4). (2) "A6 the minimality selection" is the uniqueness theorem's lettering; the root needs four
+> inputs — aperiodicity, the once-punctured-torus carrier, torsion-free first homology (a postulate) and orientation (a
+> choice) — and minimality is not one of them. Every result below is a statement about one frame applied to the root
+> unless it says otherwise (GENESIS §5–§6); a negative blocks only where its scope reaches.
+
 Six motivated axioms (A1–A6) plus one measured residual bit (A7) **conditionally force —
 given A1–A6, with A6 the minimality selection —** a single object:
 the figure-eight knot complement, arising as the fixed point of a four-letter

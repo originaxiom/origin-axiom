@@ -656,6 +656,23 @@ stale row flagged, 22 days fails / 20 does not) and a live pin-override control 
 the commits entering the range. The check grades nothing; it counts. Reading and grading stay the harvest arcs' work.
 
 
+## The foundations are stated once, and every result says how far it reaches — GATED (`genesis-cited`)
+
+**The rule.** `GENESIS.md` is the one statement of the foundations for every seat: the principle, the grammar, the
+generated state space, the root and its selectors, the frames, the gaps and the open forks, each with an ID and a
+status. Pages that used to state the genesis carry a pointer to it and keep their proofs. The old axiom letters are
+never used bare (the uniqueness theorem's A6 is minimality; P019's is orientability). From B1454 on every arc's verdict
+file and every kill-graph entry carries a scope tag — frame, object, reach, hypotheses — and a negative blocks only
+where its tag reaches (WORKING_RULES, the rule of 2026-10-02 on scope, with the owner's words).
+
+**What the gate checks.** The page exists and its version has a log entry; the eight pages that used to state the
+genesis point to it; every GENESIS ID used on a living surface or in an arc from B1454 on is one the page defines. The
+scope tag is checked by `tests/test_arc_verdict_schema.py`.
+
+**Why it exists.** The genesis was stated in three labelings whose letters collide, on pages last touched in May and
+August; three seats found the collision independently on one day. And negatives computed on the root alone were being
+read as statements about the programme. Lock: `tests/test_genesis_gate.py` (the gate fails four ways and passes one).
+
 ## An arc says what it looked at before it claimed anything — GATED (`seen-first`)
 
 **The rule.** From B1454 on, an arc's FINDINGS.md carries a section "Seen first": the repo sweep it ran

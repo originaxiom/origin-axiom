@@ -5,6 +5,11 @@ owner's directive: state the theorem we have, not the theory we lack.*
 
 ---
 
+> **Foundations: `../GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** In its terms this page states the frame
+> **F-MC**, the McKay cascade, applied to the root, with its counted hypotheses (GENESIS §5). "The six axioms A1–A6 and
+> one bit A7" below are the uniqueness theorem's letters, the records route (GENESIS §4, §9). The theorem's reach is the
+> root: it has not been computed on another state.
+
 ## §1 — THE DERIVATION THEOREM (closed)
 
 > **Hypotheses (the counted input list).** The six axioms A1–A6 and one bit A7 (the object forced

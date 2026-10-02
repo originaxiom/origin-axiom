@@ -1091,6 +1091,49 @@ def gate_seen_first():
     return True, "ok"
 
 
+GENESIS_POINTERS = ("README.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/THE_FRAMEWORK.md", "docs/THE_CLAIM.md",
+                    "docs/THE_END_TO_END_CHAIN.md", "philosophy/P019_the_genesis_axiom_chain.md", "philosophy/P000_what_is_not_nothing.md")
+GENESIS_ID_RE = re.compile(r"\b(?:PF\d|GM\d[a-d]?|SE\d|T-ROOT|F-[A-Z]{2}|FK\d+|GAP\d)\b")
+GENESIS_USERS = ("README.md", "WORKING_RULES.md", "docs/OPEN_LEADS.md", "docs/THE_FOUNDATION_LOCK_PLAN.md", "docs/THE_CLAIM.md",
+                 "docs/THE_FRAMEWORK.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/LAW_MAP.md")
+
+
+def genesis_problems(root=None):
+    """what is wrong with the canonical statement of the foundations and its use: the page missing or without a version
+    log entry for its version; a page that used to state the genesis without its pointer; a GENESIS ID used on a living
+    surface or in an arc from B1454 on that the page does not define"""
+    import glob
+    root = str(root or ROOT); bad = []
+    gp = os.path.join(root, "GENESIS.md")
+    if not os.path.exists(gp): return ["GENESIS.md is missing"]
+    g = open(gp, errors="replace").read()
+    m = re.search(r"\*\*Version (\d+\.\d+) ·", g)
+    if not m: bad.append("GENESIS.md has no version header")
+    elif not re.search(r"(?m)^- \*\*v%s · " % re.escape(m.group(1)), g): bad.append("GENESIS.md v%s has no entry in its version log" % m.group(1))
+    defined = set(GENESIS_ID_RE.findall(g))
+    for rel in GENESIS_POINTERS:
+        f = os.path.join(root, rel)
+        if not os.path.exists(f) or "GENESIS.md" not in open(f, errors="replace").read(): bad.append(rel + " does not point to GENESIS.md")
+    users = [os.path.join(root, r) for r in GENESIS_USERS]
+    for d in sorted(glob.glob(os.path.join(root, "frontier", "B*"))):
+        mm = re.match(r"B(\d+)_", os.path.basename(d))
+        if mm and int(mm.group(1)) >= SEEN_FIRST_FROM: users.append(os.path.join(d, "FINDINGS.md"))
+    for f in users:
+        if not os.path.exists(f): continue
+        undefined = sorted(set(GENESIS_ID_RE.findall(open(f, errors="replace").read())) - defined)
+        if undefined: bad.append("%s uses %s, which GENESIS.md does not define" % (os.path.relpath(f, root), ", ".join(undefined)))
+    return bad
+
+
+def gate_genesis_cited():
+    """2026-10-02, the owner: lock the genesis once and make every document reflect it. GENESIS.md is the one statement
+    of the foundations (WORKING_RULES); the pages that used to state it point to it, and its IDs are used as defined."""
+    bad = genesis_problems()
+    if bad:
+        return False, "; ".join(bad[:6])
+    return True, "ok"
+
+
 def gate_doc_currency():
     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
     import subprocess
@@ -1278,6 +1321,7 @@ GATES = {
     "harvest-debt": gate_harvest_debt,
     "lead-debt": gate_lead_debt,
     "seen-first": gate_seen_first,
+    "genesis-cited": gate_genesis_cited,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,

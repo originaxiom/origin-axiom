@@ -21,6 +21,11 @@ is undersold beneath it. Gate 5 holds throughout: no measured value enters `CLAI
 
 ## LAYER 0 — THE FOUR LETTERS ARE THE AXIOMS
 
+> **Foundations: `../GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** The letters A1–A7 in this layer are the uniqueness
+> theorem's (A3 orientation, A5 torsion-free closure, A6 minimality), not P019's. GENESIS §9 gives each its canonical
+> ID; §4 shows that the root needs four inputs and that minimality and the order bit are not among them. The κ of the
+> bridge equation below is the knot group's meridian commutator trace; the fibre's is −2 (ERROR_LEDGER E72).
+
 The aAbB principle is not a metaphor here. It is **A1–A4** of the uniqueness theorem:
 
 | axiom | content | the letters |

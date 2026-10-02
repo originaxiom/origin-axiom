@@ -322,3 +322,28 @@ the verdict lines contradicted each in two minutes — B944 had swept dynamics a
 "neither is missing"; B715, B932, B929 and `docs/THE_SM_VERDICT.md` held the rest. The same day a lead was found
 to have called a theorem "proven" for a case its hypotheses exclude, from the abstract (B1450). **A seat's working
 memory is a sample of the record, and an abstract is a sample of a paper.**
+
+## Rule (2026-10-02, the owner's instruction — adopted): ONE STATEMENT OF THE FOUNDATIONS, AND A NEGATIVE BLOCKS ONLY WHERE ITS SCOPE REACHES
+
+The owner, verbatim, 2026-10-02: **"id like to take our time, step back, and understand completely all the ways we could
+make our foundations as robust and sophisticated as it gets, so we lock once for all our genesis work ... and inform all
+the mds and documentation on repo to reflect that"**; and: **"im afraid i'll end up again getting negatives from m004
+alone and treating them as blocker negatives of the whole program"**.
+
+1. **`GENESIS.md` is the one statement of the foundations**, for every seat. Cite its IDs (PF, GM, SE, T-ROOT, the
+   frames F-xx, FK, GAP). Do not restate the genesis elsewhere: the pages that used to state it carry a pointer and keep
+   their proofs. Only an arc changes it, and the arc adds a line to its version log.
+2. **The old letters are never used bare.** "A5" and "A6" mean different things in the uniqueness theorem and in P019,
+   and "C1–C6" in the theorem ledger and in `CLAIMS.md`. Write "UNIQUENESS A6", "P019 A6", "ledger C5" — or the GENESIS
+   ID.
+3. **Every arc from B1454 on carries a scope tag** in its verdict file, and every kill-graph entry with it: the
+   **frame**, the **object**, the **reach** (single, class or general) and the **hypotheses**. A NEGATIVE says its
+   scope in its headline sentence. "No X" on a top surface names the frame and the object it was computed on. A result
+   on the root, on its levels or on its class is not a statement about the architecture.
+4. **A frame is a hypothesis.** A count in one frame on one state is mathematics about that frame and that state until
+   the dictionary is derived (GENESIS GAP1).
+
+**Enforced by:** the gate `genesis-cited` (the pointers are present; every GENESIS ID used anywhere exists in the page;
+the version in its header has a log entry) and `tests/test_arc_verdict_schema.py` (the scope tag, with its failing
+paths). **Not enforced, and owed:** the scope tags of the arcs before B1454, the NEGATIVE ones first (lead L240).
+

@@ -1,0 +1,245 @@
+{
+ "rows": [
+  {
+   "item": "GM1",
+   "says": "the two routes are not independent: Z^2 is the punctured torus's H1 (B1422)",
+   "found_in": "frontier/B1422_the_foundations_reread/FINDINGS.md"
+  },
+  {
+   "item": "GM1",
+   "says": "fork F9 robust at depth three, fragile past it (B749 addendum; B1323; B1414)",
+   "found_in": "frontier/B749_genesis_forks/FINDINGS.md"
+  },
+  {
+   "item": "GM3",
+   "says": "every periodic alternative is degenerate (B749 F2 ROBUST)",
+   "found_in": "frontier/B749_genesis_forks/FINDINGS.md"
+  },
+  {
+   "item": "GM4",
+   "says": "the anatomy needs geometry (B749 F8)",
+   "found_in": "frontier/B749_genesis_forks/arc_verdict.json"
+  },
+  {
+   "item": "GM4",
+   "says": "the prices locked: two fragile forks, orientation and the puncture (B1003)",
+   "found_in": "frontier/B1003_axiom_prices/arc_verdict.json"
+  },
+  {
+   "item": "GM5c",
+   "says": "the record swap is an added axiom (B1422)",
+   "found_in": "frontier/B1422_the_foundations_reread/FINDINGS.md"
+  },
+  {
+   "item": "GM5c",
+   "says": "LP the unique GL(2,Z) square root of A up to sign; a = b (B14)",
+   "found_in": "frontier/B14_half_step_square_root_selector/arc_verdict.json"
+  },
+  {
+   "item": "GM5c",
+   "says": "P unique up to sign, forced by (LX)^2 = A and not by the axioms (B16)",
+   "found_in": "frontier/B16_record_swap_status/arc_verdict.json"
+  },
+  {
+   "item": "GM5c",
+   "says": "three exchange conditions give exactly +-P (B19)",
+   "found_in": "frontier/B19_exchange_half_step_axiom_audit/arc_verdict.json"
+  },
+  {
+   "item": "GM5c",
+   "says": "every metallic bundle double-covers a non-orientable one (B469)",
+   "found_in": "frontier/B469_breath_campaign/arc_verdict.json"
+  },
+  {
+   "item": "GM5c",
+   "says": "the founding torsor's two bits are the swap and the reversal (B1083)",
+   "found_in": "frontier/B1083_origin_torsor_typed/arc_verdict.json"
+  },
+  {
+   "item": "§3",
+   "says": "758 states; 95 carry a background at their own level (B1439)",
+   "found_in": "frontier/B1439_the_census_by_slope/arc_verdict.json"
+  },
+  {
+   "item": "§3",
+   "says": "the 13 members with a non-integral trace: 99 in the class (B1453)",
+   "found_in": "frontier/B1453_the_sm_seats_join_arcs_harvested/arc_verdict.json"
+  },
+  {
+   "item": "§3",
+   "says": "A7 is load-bearing at the based level, one bit (B979)",
+   "found_in": "frontier/B979_L131_A7/arc_verdict.json"
+  },
+  {
+   "item": "§3",
+   "says": "(LP)^2 = LR, (PL)^2 = RL: the swap's placement inside the tick (B1323)",
+   "found_in": "frontier/B1323_the_genesis_upgrades/FINDINGS.md"
+  },
+  {
+   "item": "SE1",
+   "says": "the m003 volume tie is broken by torsion (B197)",
+   "found_in": "frontier/B197_figure_eight_volume_torsionfree/arc_verdict.json"
+  },
+  {
+   "item": "T-ROOT",
+   "says": "trace 3 is the unique torsion-free hyperbolic trace (CLAIMS C3)",
+   "found_in": "CLAIMS.md"
+  },
+  {
+   "item": "SE2",
+   "says": "the det -1 sibling is the Gieseking; F5 FRAGILE (B749)",
+   "found_in": "frontier/B749_genesis_forks/arc_verdict.json"
+  },
+  {
+   "item": "SE2",
+   "says": "the walls trace to orientation: 40 of 40 against 6 of 200; 48 surjections (B1234)",
+   "found_in": "frontier/B1234_a6_built_the_walls/arc_verdict.json"
+  },
+  {
+   "item": "§4",
+   "says": "the forcing is over-determined; a consistency demonstration (B1422)",
+   "found_in": "frontier/B1422_the_foundations_reread/FINDINGS.md"
+  },
+  {
+   "item": "§4",
+   "says": "the quotation of B1434, as B1434 has it",
+   "found_in": "frontier/B1434_the_architecture_census/FINDINGS.md"
+  },
+  {
+   "item": "§4",
+   "says": "the object preceded the axioms: the 22nd and the 28th (B1422)",
+   "found_in": "frontier/B1422_the_foundations_reread/FINDINGS.md"
+  },
+  {
+   "item": "§4",
+   "says": "the two routes are one construction (B1323)",
+   "found_in": "frontier/B1323_the_genesis_upgrades/FINDINGS.md"
+  },
+  {
+   "item": "§4",
+   "says": "m free; m = 1 selected only by the systole (B92)",
+   "found_in": "frontier/B92_metallic_classification/arc_verdict.json"
+  },
+  {
+   "item": "§4",
+   "says": "arithmeticity selects m = 1 and m = 2 (B125)",
+   "found_in": "frontier/B125_snappy_arithmeticity/arc_verdict.json"
+  },
+  {
+   "item": "§4",
+   "says": "the unique unitary anyon; the unique superconformal chain (B218, B224)",
+   "found_in": "frontier/B218_metallic_anyon_selection/arc_verdict.json"
+  },
+  {
+   "item": "§4",
+   "says": "H1(M_m) = Z + (Z/m)^2; only m = 1 a knot complement (B251, B126)",
+   "found_in": "frontier/B251_metallic_specificity/arc_verdict.json"
+  },
+  {
+   "item": "§4",
+   "says": "P000: m = 1 most-selected, not forced; the family the intended shape",
+   "found_in": "philosophy/P000_what_is_not_nothing.md"
+  },
+  {
+   "item": "§1",
+   "says": "existence as a frustrated cancellation (GOVERNANCE §1)",
+   "found_in": "GOVERNANCE.md"
+  },
+  {
+   "item": "§1",
+   "says": "A0, unpriceable (the P3 paper)",
+   "found_in": "papers/P3_THE_PAPER/main.tex"
+  },
+  {
+   "item": "§1",
+   "says": "non-cancellation is the Fricke-Vogt invariant (P008)",
+   "found_in": "philosophy/P008_non_cancellation_is_fricke_vogt.md"
+  },
+  {
+   "item": "§1",
+   "says": "kappa = 4 I_FV + 2 (B148); kappa = 2 the one positive-measure fibre (B162)",
+   "found_in": "frontier/B148_kappa_fricke_metallic/arc_verdict.json"
+  },
+  {
+   "item": "§1",
+   "says": "kappa names two quantities (ERROR_LEDGER E72)",
+   "found_in": "docs/ERROR_LEDGER.md"
+  },
+  {
+   "item": "F-CI",
+   "says": "M3 to M6 carry 48, 256, 400, 2 160 (B1432)",
+   "found_in": "frontier/B1432_the_three_fold_cover_fires_off_the_lift/FINDINGS.md"
+  },
+  {
+   "item": "F-CI",
+   "says": "m369 (8) and s639 (16) at their own level; m010 none at its three-fold level (B1434)",
+   "found_in": "frontier/B1434_the_architecture_census/FINDINGS.md"
+  },
+  {
+   "item": "F-CI",
+   "says": "the five firing members (B1418)",
+   "found_in": "frontier/B1418_the_family_as_the_object/arc_verdict.json"
+  },
+  {
+   "item": "F-MC",
+   "says": "the claim on one page, with its counted hypotheses (THE_CLAIM; B1014)",
+   "found_in": "docs/THE_CLAIM.md"
+  },
+  {
+   "item": "F-MC",
+   "says": "reaching E6 is generic at about 1 in 3 (B993)",
+   "found_in": "frontier/B993_cornerstone_verified/arc_verdict.json"
+  },
+  {
+   "item": "F-MC",
+   "says": "the golden is the unique metallic grammar with a McKay shadow (B997)",
+   "found_in": "frontier/B997_golden_conductor_uniqueness/arc_verdict.json"
+  },
+  {
+   "item": "F-MC",
+   "says": "the siblings have no door (B1019)",
+   "found_in": "frontier/B1019_l149_silver_cascade/arc_verdict.json"
+  },
+  {
+   "item": "F-MC",
+   "says": "39 of 43 links forced (B1123); eleven irreducible inputs (B1266)",
+   "found_in": "frontier/B1123_forcedness_census/arc_verdict.json"
+  },
+  {
+   "item": "GAP5",
+   "says": "the dynamics and chirality sweep: neither is missing (B944); no intrinsic time (B721)",
+   "found_in": "frontier/B944_dynamics_chirality_sweep/arc_verdict.json"
+  },
+  {
+   "item": "GAP5",
+   "says": "the action exists exactly at the monodromy (B1341); the parameter-free action card (B1088)",
+   "found_in": "frontier/B1341_the_action_of_the_object/arc_verdict.json"
+  },
+  {
+   "item": "§8",
+   "says": "the path registry: 18 never touched (B1422)",
+   "found_in": "frontier/B1422_the_foundations_reread/arc_verdict.json"
+  },
+  {
+   "item": "§8",
+   "says": "L229 (iii) and (iv)",
+   "found_in": "docs/OPEN_LEADS.md"
+  },
+  {
+   "item": "control",
+   "says": "v1.0's wording of the quotation is not B1434's",
+   "absent": true
+  },
+  {
+   "item": "control",
+   "says": "main's B1422 does not say seventeen untouched",
+   "absent": true
+  }
+ ],
+ "path_registry": {
+  "IN-PROGRESS": 3,
+  "DEAD": 1,
+  "UNTOUCHED": 18,
+  "STALLED": 3
+ }
+}

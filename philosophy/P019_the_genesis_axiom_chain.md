@@ -1,5 +1,9 @@
 # P019 — The genesis, written as an axiom chain (every link a theorem or a declared choice)
 
+> **Foundations: `../GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** This file is the *words route*. Its letters A0, A2, A5, A5b, A6 are its own (A6 here is
+> orientability; the uniqueness theorem's A6 is minimality). GENESIS §9 maps them: A0 + A2 → PF2 (and GM3), A5 and A5b →
+> GM4, A6 → SE2. "To a unique object" in this file is superseded: the output is a generated state space with a root.
+
 > **Philosophy — motivation only** (`GOVERNANCE.md`). Not a claim; never a premise of a proof;
 > nothing promotes to `../CLAIMS.md`. Cites the mathematics one-way. **DRAFT for the owner's
 > red pen** (cc3, 2026-07-21; branch `genesis/axiom-chain`; companion computation arc reserved

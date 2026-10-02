@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1282** |
-| words of findings prose | **981,920** |
+| research arcs with findings | **1283** |
+| words of findings prose | **984,324** |
 | test lock files referenced | **756** |
-| arcs carrying an authored verdict | **1282** (100.0 %) |
+| arcs carrying an authored verdict | **1283** (100.0 %) |
 | recorded closures | **801** (634 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 855 |
+| PROVED | 856 |
 | NEGATIVE | 325 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1453`** (5409 words, 0 locks)  
-THE SM SEAT'S ARCS sm:B1367-sm:B1515 HARVESTED: forty-seven arcs and four documents rowed (HARVEST_LEDGER 644-694), the seat's verdicts first, every arc read in full by a reader pass and its scripts re-run in a pinned checkout at 800ed4e5 (94 of 104 ran to the end; 2 need arguments, 5 ran past 100 minutes, 3 stopped). Dispositions: 37 REGISTERED, 4 ALREADY ON MAIN, 3 VERIFIED, 1 PARTLY VERIFIED, 2 VERIFIED-DIFFERS. RE-DERIVED ON MAIN'S OWN CODE: sm:B1509 (on Ballas' convex-projective family of the figure-eight complement the minimal non-split extension has class index -1 at q = 17 +- 12 sqrt 2 with the twist -1, 0 at controls), sm:B1511 (three order-two characters on the three-fold cover each count -1; eight 3-torsion characters on the four-fold cover each count +1, only with the determinant-one line), sm:B1515 in part (one interior class at each of four order-eight representatives on the six-fold cover at q = 1), sm:B1390 (thirteen of B1186's 112 members have a non-integral trace, so 99 are in m004's commensurability class: the family is not the class). A TRAP: in the fibred presentation the stable letter does not commute with the fibre's boundary; the meridian is (u1 u0^-1)^-1 m, and with the stable letter main's code reads index 0 everywhere. CORRECTED ON MAIN: the 2026-09-15 verdict that every SU(2) flat connection on m004(0,1) is reducible is false (40 homomorphisms with non-abelian image into the binary dihedral group of order 20; found by sm:B1371); two rows of B1418 name members of the family that are not in the class. TWO SEAT SCRIPTS DIFFER ON THIS BENCH: sm:B1502 stops on an assertion (a pseudo-inverse at default tolerance inverts a singular value of 8e-15; passes with the tolerance set), sm:B1501's post-run check fails on one class. The seat's remaining items for main are lead L239. Scope: Ballas' family on m004 and its cyclic covers to level six; the physical readings are the seat's and nothing here promotes one. 0 of 19.  
-`B1453_the_sm_seats_join_arcs_harvested/FINDINGS.md`
+**PROVED — `B1454`** (2404 words, 1 locks)  
+GENESIS v1.0 VERIFIED ON MAIN AND ADOPTED AS v1.1. The SM seat's one statement of the foundations (sm:B1516: the principle PF1-PF3, the grammar GM1-GM5d, the generated state space, the postulated criterion SE1 with its derived consequence T-ROOT and the choice SE2, four frames, a mandatory scope tag, five gaps, eleven forks, a crosswalk of the colliding old labels) is re-derived with main's own code by other routes -- continued fractions and a linear-algebra conjugator in place of a box search, Burnside's lemma against the enumeration, cyclic covers in place of bundle codes -- and agrees at every point: torsion of H1 is |2 - tr| or |tr| on all 408 hyperbolic unimodular matrices with entries to 5, the 48 torsion-free ones are the classes of LR, LP and its inverse; 758 states to length twelve with exactly one torsion-free, +LR; among orientation-reversing bundles to length six only the Gieseking manifold is torsion-free; THE ROOT NEEDS FOUR INPUTS (aperiodicity, the once-punctured-torus carrier, torsion-free H1, orientation) AND EACH IS NEEDED, a witness exhibited for each, while minimality, positivity, the unit-shear generation and the order bit are not; LR and RL are SL(2,Z)-conjugate by L, not by the swap. 45 citations of main's records checked against the records, with two controls. V1.1 ADDS, each marked: the frame F-MC (main's McKay cascade to the SM algebra, THE_CLAIM section 1, run on the root only); the principle's mathematical form kappa = tr[a,b] != 2 as a reading (P008) with the two quantities called kappa; the cost of the orientation choice (B1234); the early record on the swap (B14, B16, B19); the other selectors of m = 1; and it corrects a misquotation and GAP5's 'does not have' against B944. ON MAIN: GENESIS.md at the root; the scope tag required in verdict files and kill-graph entries from B1454; the gate genesis-cited; pointers in eight pages; the uniqueness theorem's witness and the ledger's path count corrected. Nothing is derived from anything weaker: SE1 is a postulate, SE2 a choice, the carrier and aperiodicity premises; the principle's single wording is the owner's to confirm. 0 of 19.  
+`B1454_genesis_v1_verified_and_adopted/FINDINGS.md`
 
 **NEGATIVE — `B1452`** (528 words, 0 locks)  
 THE HASH-ORDER RESIDUE, RUN. Lead L226: the sweep of B1425 left 24 unsorted order-sensitive sites in 16 banked verification scripts that no lock re-runs, and asked whether any feeds a banked number. Each script was re-run under four hash seeds in a scratch checkout and its output and written files compared with timings removed. Fourteen scripts print the same thing on four seeds, three of them rewriting their tracked JSON byte for byte or up to an embedded timed log; one (B904) prints and writes one dictionary with three equal-valued keys in a seed-dependent order, equal as a dictionary; one (B675) does not run on this bench at all, stopping in the polynomial library's factor sort for a reason unrelated to hash order, and its two sites, which build mappings, are settled by reading. No banked number depends on the order. B675's failure to run is registered as lead L238 and is not claimed re-run here.  

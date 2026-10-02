@@ -1,0 +1,10 @@
+G1 records route             PASS
+G2 T-ROOT                    PASS
+G3 order bit                 PASS
+G4 census                    PASS
+G8 necessity (algebra)       PASS
+G9 unit shears generate      PASS
+G10 metallic family          PASS
+G11 the swap (main B14)      PASS
+G5-G7 SnapPy                 PASS
+VERDICT genesis-own: PASS

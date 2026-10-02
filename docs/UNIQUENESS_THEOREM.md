@@ -1,5 +1,10 @@
 # A conditional uniqueness theorem for the Origin Axiom core
 
+> **Foundations: `../GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** This page keeps the proof of the *records
+> route*. Its letters A1–A7 are this page's own and are not P019's: here A3 is orientation, A5 the torsion-free
+> closure, A6 minimality. GENESIS §9 maps each to its canonical ID (A5 → SE1, A3 → SE2, A6 not needed for the root,
+> A7 based data only). Where this page and GENESIS disagree, GENESIS holds.
+
 **Status:** formalization of conditional claim **C1** (`../CLAIMS.md`). This is a
 *conditional* result — true given the minimal record axioms A1–A6 below, which are
 motivated but not laws of nature. It is **not** a derivation of the substrate from
@@ -124,8 +129,11 @@ not on deriving them. This is exactly the status of `C1`.
 
 ## 5. The order choice is load-bearing (A7), not cosmetic
 
-A1–A6 cannot distinguish `LR` from `RL`. The two are `SL(2,ℤ)`-conjugate via the
-record-swap `P = [[0,1],[1,0]]`, so they share trace, determinant, eigenvalues,
+A1–A6 cannot distinguish `LR` from `RL`. The two are conjugate in `SL(2,ℤ)` by `L`:
+`L⁻¹(LR)L = RL`. The record-swap `P = [[0,1],[1,0]]` also exchanges them, `P(LR)P = RL`,
+but `det P = −1`, so it is a `GL(2,ℤ)` witness and not an `SL(2,ℤ)` one. *(Corrected
+2026-10-02, B1454: this sentence named P as the SL(2,ℤ) witness. Found by the audit lane's
+R57 and the SM seat's sm:B1516; the conclusion was never in doubt.)* So they share trace, determinant, eigenvalues,
 and translation length. They are the *same free homotopy / conjugacy class*.
 
 But they are **not** the same as *based* objects, and the difference is visible

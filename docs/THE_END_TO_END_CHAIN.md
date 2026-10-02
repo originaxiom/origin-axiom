@@ -1,4 +1,7 @@
 # THE END-TO-END PICTURE — first constraint to the Standard Model
+
+> **Foundations: `../GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** Where this chain's opening links restate the genesis, GENESIS holds; the
+> chain from the root onward is the frame F-MC (GENESIS §5).
 ### One chain, every link labeled, every parameter accounted
 *(Assembled 2026-08-06 from the repo's gate-enforced views: `docs/THEOREM_LEDGER.md`
 (THE CHAIN, C1–C17), `docs/LAW_MAP.md`, `docs/INPUT_COMPLETENESS_LEDGER.md`, the

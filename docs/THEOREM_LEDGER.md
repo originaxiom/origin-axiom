@@ -1,5 +1,9 @@
 # THE CHAIN — the forced core as an axiom→theorem ledger (B758)
 
+> **Foundations: `../GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** Part I's links C1–C6 are the *words route*;
+> their canonical IDs are in GENESIS §9 (C3 → PF2, C4 → GM4, C5 → SE2, C6 → the root). These C-numbers are not
+> `CLAIMS.md`'s C-numbers.
+
 *The P019 discipline (cc3's genesis plan, owner-approved 2026-07-22) applied program-wide:
 every link is labeled — **[THEOREM]** (symbolic/exact or computer-assisted-finite proof),
 **[CENSUS]** (bounded enumeration, bound in the statement), **[IDENTITY]** (computed exact
@@ -30,7 +34,7 @@ statement appears below; SM-facing content enters only as NO-GO links.*
 > **Its own §6 limit, kept verbatim in force:** it does **not** derive A1–A7 from anything
 > weaker — attempts to derive even L, R from a count-substrate STALLED, and "the substrate,
 > positivity, primitivity, and order remained inserted." `paths/PATHS.md`'s 25-path survey of
-> mechanisms stands at **4 STALLED, 1 DEAD, 17 UNTOUCHED**, so this is *not*
+> mechanisms stands at **3 STALLED, 1 DEAD, 3 IN PROGRESS, 18 UNTOUCHED** (and a fourth stall, E21, an instantiation of a listed mechanism) *(corrected 2026-10-02, B1454: this line said 17 untouched and omitted the three in progress; the registry was counted)*, so this is *not*
 > selection-by-elimination.
 >
 > **Not independent of C1–C6:** A1's ℤ² *is* the punctured torus's H₁, so the geometric

@@ -3224,6 +3224,30 @@ each is a statement of the seat's that main has **not verified**, and each belon
   needs a file (sm:B1399), five ran past 100 minutes (sm:B1503, sm:B1501 torus_link_census, sm:B1385, sm:B1388 two).
   Their arcs are REGISTERED, not VERIFIED.
 
+**Status 2026-10-02 (B1454):** (c) the convention itself is on main as GENESIS §3, adopted at the level of a
+definition; the seat's two theorems of sm:B1384 are still unverified here. (a) stays as it was: GENESIS carries the
+puncture as CONDITIONAL, and a sweep of main's verdict lines found no arc deriving the carrier's premises. The rest stand.
+
+## L240 — THE FOUNDATION LOCK'S REMAINDER (registered 2026-10-02, B1454)
+
+GENESIS v1.1 is on main, verified and gated. What the lock still owes (`docs/THE_FOUNDATION_LOCK_PLAN.md`):
+
+- **(a) The scope tags of the arcs before B1454**, the NEGATIVE ones first (about 400; 168 of them in B1–B500, already
+  sorted by subject in `docs/EARLY_RECORD_INDEX.md`). Until then a negative read from an old arc must be given its
+  frame and object by the reader.
+- **(b) The README's state section** is annotated, not rewritten against GENESIS. **(c) `docs/THE_CLAIM.md`** is
+  annotated, not brought up to B1234 and B1323, nor restated as the frame F-MC with its reach.
+- **(d) F-MC has been run on the root only.** On any other state — a level, a class member, m000 — it is not computed.
+- **(e) The forks with a computation behind them:** FK2 and FK3 (m000 in any frame; what dropping the orientation
+  choice breaks, B1234's open question); FK5 (an observable that needs word order: the fibre's commutator trace is
+  the candidate named in B1454 §6).
+- **(f) The audit lane's R58** is cited by GENESIS and unread on main (R57 was read on 2026-10-02 and is not
+  re-derived); that lane's harvest (103 items) is owed and ages from 2026-10-09.
+- **(g) Stage 6:** the swept page of what the record holds and lacks on dynamics, time, scale, selection, values and
+  the physical vacuum. **(h) The test of the whole:** a fresh reader with only GENESIS and the README, against sealed
+  questions. Not run.
+- **(i) FK1**, the principle's single wording, awaits the owner.
+
 ## ⟳ VIEW REFRESH — 2026-10-02 (Review 58)
 
 Touched at the Review 58 anchor (`fd17a3bd`). **The window (B1410–B1447, 472 commits) has two halves.** Through B1431: the consolidation, the paper's passes, and gates repaired. From B1432, one line of mathematics on the Standard-Model frame: its index and couplings are one function, the slope (B1438); no flat bundle of rank n counts more than ⌊n/2⌋ on a once-punctured-torus bundle (B1440); every background is the reducible end of a periodic curve of the trace map, the slope its cusp shape there and a coupling a first-order torsion (B1444); the coupling is the coefficient of a mass term on the product of two such curves (B1445); at the boundary-parabolic points the numbers are exact, and the members of a deck orbit first differ on a rank-three branch off one member's curve (B1446, B1447). On everything computed the class index lives only at the reducible end. **0 of 19 is unchanged.** The review itself was repaired (B1448). Full review: `docs/progress/REVIEWS.md`, Review 58. **What changed for this view:** the same as the lead register — L228–L237 registered, L208 closed, L219 and L222 updated, fourteen escalated by name; and 32 outbound relays to seats the owner no longer relays to were declined in the relay ledger, so a lead that says "relayed" to one of those seats means "held and declined".
