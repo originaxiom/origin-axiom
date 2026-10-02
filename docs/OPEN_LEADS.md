@@ -3281,6 +3281,16 @@ count is blind to c and odd under the exchange, and the exchange is the knot's i
 not one — which way (c) and which of the pair is the particle (the exchange) — and the question "where is the
 measurer dropped" has to be asked of each.**
 
+**Second refinement (2026-10-02, exploratory, 60 digits, not sealed and not banked).** At one vacuum A = μ ⊗ ρ_q of the
+harmonic family, the same two pieces — A and the trivial module — stacked one way (A the submodule) count −1, stacked
+the other way (the trivial module the submodule) count +1, and placed side by side count 0; the same at q₀ and at
+1/q₀. **On this family the count is the order of the two pieces**, and the condition for a vacuum of the action — a
+harmonic metric, which exists only on a direct sum — is the condition that forgets the order. This is the first place
+where "the measurer that tracks ab against ba" has an exact referent in a computation. **Owed as a sealed arc:** the
+same at the other exceptional points and on the levels; whether any admissible condition short of a direct sum keeps
+the order (a source, an end, a filtered rather than a harmonic structure); and whether the genesis's own order bit
+(UNIQUENESS A7, "based data only") is the same phenomenon one level down.
+
 **Owed, in order.** (a) Read the rest of the record's observer arcs with this translation before proposing anything:
 B20, B37, B717, B723 and the 75 arcs of the two-involution sweep (the early-record index and a sweep, not memory). (b) An instrument that keeps the
 marking: the index of a *based* or *framed* module, and what it reads where the class index reads zero. (c) The same
