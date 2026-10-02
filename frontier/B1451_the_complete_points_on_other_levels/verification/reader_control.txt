@@ -1,0 +1,18 @@
++LR 3        exponent   4,   48 backgrounds; kappa = -2 points: {'parabolic': 15}
+     sectors at the background's own point (|slope|; Q uc ec | dc L | nuc) x backgrounds:
+        24 x  -1.0 ; 2.828427 2.828427 2.828427 | 2.828427 2.828427 | 2.828427
+        24 x  1.0 ; 2.828427 2.828427 2.828427 | 2.828427 2.828427 | 2.828427
+     couplings, Higgs at its point, extension at its end: |torsion| by type:
+       up       {8.0: 17}
+       down     {16.0: 7}
+       lepton   {16.0: 7}
+       neutrino {16.0: 7}
+     class index at the doubly parabolic points: {0: 24}
+
+C1  class index at doubly parabolic points: {0: 24}  -> all zero
+C2  couplings with a value: 24, of which torsion zero: 0
+C3  levels where the up-type and down-type moduli differ: 1 of 1 ['+LR 3']
+C4  levels where every up-type modulus is half of every down-type modulus: ['+LR 3']
+C5  levels where the ten's three sectors or the five-bar's two do not share a torsion: [] (of 1 levels with a table)
+C6  levels where the ten and the five-bar differ on some background: 0 of 1 []
+C7  characters attempted: 15; parabolic point 15, elliptic 0, not reached 0
