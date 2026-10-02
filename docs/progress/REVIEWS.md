@@ -5688,3 +5688,5 @@ sample is six arcs of 38. It took the debt checkers' counts as given, after find
 - [x] R55-16: restated with its count updated as R58-2 — 15 of 34 gates named by no test, twelve with no test of their checker either (absorbed at Review 58)
 - [x] R56-2: the law map is living — ten rows added in the window `efa5fd46..b08f76f7` (done)
 - [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26; this seat recommends declining it under the owner's direction of 2026-10-01 (owner: the owner)
+
+**anchor-commit: `fd17a3bd`**
