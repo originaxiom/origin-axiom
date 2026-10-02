@@ -1,0 +1,23 @@
+{
+ "id": "B1455",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1453",
+  "B1446",
+  "B1227",
+  "B1297"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE",
+  "object": "m004's harmonic family rho_q (Ballas' convex-projective representations, q > 0) at level one, with any central twist",
+  "reach": "single",
+  "hypotheses": "the minima of the action are the reductive points (the audit lane's R76 with Corlette's theorem as it cites it; not re-derived); modules made from rho_q by operations that commute with duals"
+ },
+ "claim_one_line": "THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric potential whose minima are not mirror-symmetric?). NEGATIVE, the registered kill, scoped to the frame F-HE on m004's harmonic family at level one: the vacuum does not select a handedness there. THREE LINES THE TEST TURNS ON: the class index is unchanged by pulling back along any symmetry of the manifold, mirrors included (L1), and changes sign under dualising (L2); so a module with V* isomorphic to sigma^* V has index zero (L3), and the count-odd symmetries are a symmetry followed by dualising. THE TEST, by two routes with no shared code (characters on 2046 words in exact rationals; intertwiners, symbolic in q): on Ballas' family the dual of the vacuum at q is the vacuum at 1/q, and inverting both generators does the same, so inversion-then-dual fixes every vacuum, for every q > 0 and every central twist. HENCE every reductive module made from rho_q has class index zero -- a proof, not a census. The counts of +-1 found by the seats sit on non-split extensions, which no count-odd symmetry fixes and which are not minima (the audit lane's R76, read). ONE SEALED PREDICTION FAILED: only four of the eight signed permutations of the generators are automorphisms and all four preserve orientation; the mirrors were found after the seal by search (152 maps) and fall in two classes -- those keeping the longitude fix every vacuum, those inverting it exchange q and 1/q -- so the eight symmetries act on the family through one bit, which is the same as dualising. TWO CORRECTIONS TO THE RULE AS WORDED: the counted configuration is itself fixed by a bare mirror and counts -1 (60 digits; an invertible intertwiner), so 'symmetric under the mirror gives zero' is false for the geometric mirror and true for symmetry-plus-dual; and half the symmetries are broken by every vacuum off the hyperbolic point without any count being broken. The audit lane's open checkbox (base isometry plus duality) is paid. The handoff's side claims recompute (the Sturmian identity at nine intercepts; no surjection of m004's group onto SL(2,5), 1440 for m202). Silent on other states, frames, sources, ends and on selection by a relation. 0 of 19."
+}

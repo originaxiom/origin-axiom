@@ -1,0 +1,22 @@
+C0 controls: rho_q is not rho_1/q and not rho_q* off q = 1, and all four agree at q = 1: True
+   rho_q* ~ rho_1/q at each q: {'2': True, '3': True, '5/2': True, '7/3': True, '1/5': True}
+C1:
+   id    {'automorphism': True, 'orientation': 'preserved', 'longitude_goes_to': ['l']}
+   m,N   {'automorphism': False}
+   M,n   {'automorphism': False}
+   iota  {'automorphism': True, 'orientation': 'preserved', 'longitude_goes_to': ['l^-1']}
+   swap  {'automorphism': True, 'orientation': 'preserved', 'longitude_goes_to': ['l']}
+   n,M   {'automorphism': False}
+   N,m   {'automorphism': False}
+   N,M   {'automorphism': True, 'orientation': 'preserved', 'longitude_goes_to': ['l^-1']}
+C2: rho_q o sigma is conjugate to
+   id    {'2': ['rho_q', 'rho_1/q*'], '3': ['rho_q', 'rho_1/q*'], '5/2': ['rho_q', 'rho_1/q*'], '7/3': ['rho_q', 'rho_1/q*'], '1/5': ['rho_q', 'rho_1/q*']}
+   iota  {'2': ['rho_q*', 'rho_1/q'], '3': ['rho_q*', 'rho_1/q'], '5/2': ['rho_q*', 'rho_1/q'], '7/3': ['rho_q*', 'rho_1/q'], '1/5': ['rho_q*', 'rho_1/q']}
+   swap  {'2': ['rho_q', 'rho_1/q*'], '3': ['rho_q', 'rho_1/q*'], '5/2': ['rho_q', 'rho_1/q*'], '7/3': ['rho_q', 'rho_1/q*'], '1/5': ['rho_q', 'rho_1/q*']}
+   N,M   {'2': ['rho_q*', 'rho_1/q'], '3': ['rho_q*', 'rho_1/q'], '5/2': ['rho_q*', 'rho_1/q'], '7/3': ['rho_q*', 'rho_1/q'], '1/5': ['rho_q*', 'rho_1/q']}
+Theta_sigma fixes every rho_q: ['iota', 'N,M']
+bare sigma fixes every rho_q : ['id', 'swap']
+bare sigma sends q to 1/q    : ['iota', 'N,M']
+sigma taking the family outside the four targets (outcome C): []
+symbolic: {'longitude trace': '(3*q**4 + 1)/q**3', 'longitude inverse trace': '(q**4 + 3)/q', 'rho_q* ~ rho_1/q on words to length 4': True, 'rho_q o iota ~ rho_q* on words to length 4': True}
+VERDICT mirror-on-the-family: controls PASS

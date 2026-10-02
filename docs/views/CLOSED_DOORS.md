@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**801 recorded closures — of which 634 are CLASSIFIED by mechanism and
+**802 recorded closures — of which 635 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -84,6 +84,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed census (7f080e49) with a lemma for the sign-character half: every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W), six sector indices by B1333's several-cusp code; and for a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite and the absence is forced.` | 1 |  |
 | `Sealed run (2f75736d) of the published formula on B1428's boundary classes, after reproducing all sixteen figure-eight entries the source publishes; a fixed reader with six features; the arithmetic set from B1419's census.` | 1 |  |
 | `Execution: each script under PYTHONHASHSEED 0-3 in a scratch checkout, output and written files compared with timings removed, three of the written files byte-identical to their tracked copies; two sites settled by reading.` | 1 |  |
+| `Proof with exact computation: the class index is invariant under pullback by any symmetry of the manifold and odd under dualising, so a module with V* isomorphic to sigma^*V has index zero; on Ballas' family (rho_q o iota)^* is conjugate to rho_q for every q > 0 (characters on 2046 words in exact rationals; an explicit intertwiner X(q) by a second route), so every reductive module made from rho_q with any central twist has index zero.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

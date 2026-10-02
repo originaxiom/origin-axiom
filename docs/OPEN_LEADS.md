@@ -3248,6 +3248,55 @@ GENESIS v1.1 is on main, verified and gated. What the lock still owes (`docs/THE
   questions. Not run.
 - **(i) FK1**, the principle's single wording, awaits the owner.
 
+## L241 — THE MEASURER QUESTION (registered 2026-10-02, B1455; standing, at the owner's word)
+
+The owner, 2026-10-02: the existence the programme derives is self-aware and makes choices; the derivation keeps
+dropping the measurer that tracks the rule a → ab, b → a through everything that emerges; are the choices binary, are
+both outcomes true at once, are both needed in different relations, and is "what can happen, happens" the principle.
+And: *"lets not forget or neglect or drop it on the way. we go to end with it and refine our questions as we go."*
+**This lead is not to be closed by a negative on one object.** It is reported on at every landing that touches
+selection, handedness, orientation, marking or the observer rows. Speculation stays behind the firewall and each step
+is given a computable form or marked as having none.
+
+**The working translation (B1455 §7, a reading):** the measurer is the *marking* — a base point, the order of the two
+letters, an orientation, which of a module and its dual is read as the particle. Every class invariant forgets it;
+B979 is the one place it was kept. The theorem that the object cannot choose alone (B1225, B1227) leaves a relation to
+a second thing as the door (B1327).
+
+**Where the four questions stand.**
+- *Binary?* The founding choices are: the swap, the reversal, the orientation, the sign, the order (GENESIS GM5b, GM5c,
+  SE2; UNIQUENESS A7). The later ones are not: the word, the level, the slope, the continuous vacuum parameter q.
+- *Both true at once?* On the bridge's family the vacuum at q and the one at 1/q are each other's dual and each
+  other's image under the knot's inversion; the action prefers neither (B1455).
+- *Both needed in different places?* Half the symmetries are kept by every vacuum and half are broken by every vacuum
+  but the hyperbolic one; each half contains a mirror (B1455).
+- *Plenitude?* Over a pair {x, Θx} the count sums to zero; a world with a count is one member.
+
+**First refinement (2026-10-02, read while B1455's suite ran).** The record's observer layer names the missing choice
+as the mirror-odd orientation bit c: "awareness is the mirror-even content, choice the mirror-odd" (B1169); "the
+object says who it is, never which way it is" (B1184); one involution c under four names (B1174, B1183). And the
+record separately holds that a *count* is odd under the other involution, the linear exchange of a representation
+with its conjugate, with c absent from the cascade (B868, B871). B1455 puts the two side by side on one family: the
+count is blind to c and odd under the exchange, and the exchange is the knot's inversion. **So there are two choices,
+not one — which way (c) and which of the pair is the particle (the exchange) — and the question "where is the
+measurer dropped" has to be asked of each.**
+
+**Owed, in order.** (a) Read the rest of the record's observer arcs with this translation before proposing anything:
+B20, B37, B717, B723 and the 75 arcs of the two-involution sweep (the early-record index and a sweep, not memory). (b) An instrument that keeps the
+marking: the index of a *based* or *framed* module, and what it reads where the class index reads zero. (c) The same
+question at the genesis: GENESIS's equivalences identify LR and RL "for unbased data" — list every later step that
+uses unbased data and what it would read based. (d) The traditions the owner names (the Sāṃkhya pair of witness and
+acting nature among them) as sources of *questions*, each turned into a computation or marked as having none.
+
+## L242 — DO THE THREE LINES ACCOUNT FOR THE ZEROS ALREADY ON THE RECORD (registered 2026-10-02, B1455)
+
+B1455's criterion: a module with V* ≅ σ*V for a symmetry σ of the manifold has class index zero. **Owed:** (a) B1451's
+188 doubly parabolic points and B1447's sixteen non-self-dual modules of index zero — is each fixed by some Θ_σ? If
+so the vanishing statement of R58-6 is proved on those populations rather than observed; if some are not, they are
+zeros the criterion does not explain. (b) The same test on the levels M₃ to M₆ of the harmonic family, where the
+seats count on covers and the symmetry group is larger. (c) The minimal statement the audit lane asked for, with its
+hypotheses. (d) The handoff's "12 up to Aut" for m202.
+
 ## ⟳ VIEW REFRESH — 2026-10-02 (Review 58)
 
 Touched at the Review 58 anchor (`fd17a3bd`). **The window (B1410–B1447, 472 commits) has two halves.** Through B1431: the consolidation, the paper's passes, and gates repaired. From B1432, one line of mathematics on the Standard-Model frame: its index and couplings are one function, the slope (B1438); no flat bundle of rank n counts more than ⌊n/2⌋ on a once-punctured-torus bundle (B1440); every background is the reducible end of a periodic curve of the trace map, the slope its cusp shape there and a coupling a first-order torsion (B1444); the coupling is the coefficient of a mass term on the product of two such curves (B1445); at the boundary-parabolic points the numbers are exact, and the members of a deck orbit first differ on a rank-three branch off one member's curve (B1446, B1447). On everything computed the class index lives only at the reducible end. **0 of 19 is unchanged.** The review itself was repaired (B1448). Full review: `docs/progress/REVIEWS.md`, Review 58. **What changed for this view:** the same as the lead register — L228–L237 registered, L208 closed, L219 and L222 updated, fourteen escalated by name; and 32 outbound relays to seats the owner no longer relays to were declined in the relay ledger, so a lead that says "relayed" to one of those seats means "held and declined".

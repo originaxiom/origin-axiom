@@ -1,0 +1,210 @@
+{
+ "C0": {
+  "2": {
+   "rho_q ~ rho_q*": false,
+   "rho_q ~ rho_1/q": false,
+   "rho_q ~ rho_1/q*": true,
+   "rho_q* ~ rho_1/q": true,
+   "rho_q* ~ rho_1/q*": false,
+   "rho_1/q ~ rho_1/q*": false
+  },
+  "3": {
+   "rho_q ~ rho_q*": false,
+   "rho_q ~ rho_1/q": false,
+   "rho_q ~ rho_1/q*": true,
+   "rho_q* ~ rho_1/q": true,
+   "rho_q* ~ rho_1/q*": false,
+   "rho_1/q ~ rho_1/q*": false
+  },
+  "5/2": {
+   "rho_q ~ rho_q*": false,
+   "rho_q ~ rho_1/q": false,
+   "rho_q ~ rho_1/q*": true,
+   "rho_q* ~ rho_1/q": true,
+   "rho_q* ~ rho_1/q*": false,
+   "rho_1/q ~ rho_1/q*": false
+  },
+  "7/3": {
+   "rho_q ~ rho_q*": false,
+   "rho_q ~ rho_1/q": false,
+   "rho_q ~ rho_1/q*": true,
+   "rho_q* ~ rho_1/q": true,
+   "rho_q* ~ rho_1/q*": false,
+   "rho_1/q ~ rho_1/q*": false
+  },
+  "1/5": {
+   "rho_q ~ rho_q*": false,
+   "rho_q ~ rho_1/q": false,
+   "rho_q ~ rho_1/q*": true,
+   "rho_q* ~ rho_1/q": true,
+   "rho_q* ~ rho_1/q*": false,
+   "rho_1/q ~ rho_1/q*": false
+  },
+  "1": {
+   "rho_q ~ rho_q*": true,
+   "rho_q ~ rho_1/q": true,
+   "rho_q ~ rho_1/q*": true,
+   "rho_q* ~ rho_1/q": true,
+   "rho_q* ~ rho_1/q*": true,
+   "rho_1/q ~ rho_1/q*": true
+  }
+ },
+ "C1": {
+  "id": {
+   "automorphism": true,
+   "orientation": "preserved",
+   "longitude_goes_to": [
+    "l"
+   ]
+  },
+  "m,N": {
+   "automorphism": false
+  },
+  "M,n": {
+   "automorphism": false
+  },
+  "iota": {
+   "automorphism": true,
+   "orientation": "preserved",
+   "longitude_goes_to": [
+    "l^-1"
+   ]
+  },
+  "swap": {
+   "automorphism": true,
+   "orientation": "preserved",
+   "longitude_goes_to": [
+    "l"
+   ]
+  },
+  "n,M": {
+   "automorphism": false
+  },
+  "N,m": {
+   "automorphism": false
+  },
+  "N,M": {
+   "automorphism": true,
+   "orientation": "preserved",
+   "longitude_goes_to": [
+    "l^-1"
+   ]
+  }
+ },
+ "zero_sum_words_used": 244,
+ "C2": {
+  "id": {
+   "2": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "3": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "5/2": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "7/3": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "1/5": [
+    "rho_q",
+    "rho_1/q*"
+   ]
+  },
+  "iota": {
+   "2": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "3": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "5/2": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "7/3": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "1/5": [
+    "rho_q*",
+    "rho_1/q"
+   ]
+  },
+  "swap": {
+   "2": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "3": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "5/2": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "7/3": [
+    "rho_q",
+    "rho_1/q*"
+   ],
+   "1/5": [
+    "rho_q",
+    "rho_1/q*"
+   ]
+  },
+  "N,M": {
+   "2": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "3": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "5/2": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "7/3": [
+    "rho_q*",
+    "rho_1/q"
+   ],
+   "1/5": [
+    "rho_q*",
+    "rho_1/q"
+   ]
+  }
+ },
+ "Theta_sigma_fixes_every_vacuum": {
+  "id": false,
+  "iota": true,
+  "swap": false,
+  "N,M": true
+ },
+ "bare_sigma_fixes_every_vacuum": {
+  "id": true,
+  "iota": false,
+  "swap": true,
+  "N,M": false
+ },
+ "bare_sigma_sends_q_to_1/q": {
+  "id": false,
+  "iota": true,
+  "swap": false,
+  "N,M": true
+ },
+ "outside_the_family": [],
+ "symbolic": {
+  "longitude trace": "(3*q**4 + 1)/q**3",
+  "longitude inverse trace": "(q**4 + 3)/q",
+  "rho_q* ~ rho_1/q on words to length 4": true,
+  "rho_q o iota ~ rho_q* on words to length 4": true
+ }
+}

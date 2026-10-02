@@ -1,0 +1,122 @@
+{
+ "iota (rotation, inverts the longitude)": {
+  "W1(q0)": {
+   "dim": 0,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.40885",
+   "largest_dropped": null
+  },
+  "W1(q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.19997",
+   "largest_dropped": "0.0"
+  },
+  "W1(1/q0)": {
+   "dim": 1,
+   "conjugate": true,
+   "det": "6.9628e-6",
+   "smallest_kept": "0.37602",
+   "largest_dropped": "3.8253e-60"
+  },
+  "W1(1/q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.29413",
+   "largest_dropped": "0.0"
+  }
+ },
+ "swap (rotation, keeps the longitude)": {
+  "W1(q0)": {
+   "dim": 1,
+   "conjugate": true,
+   "det": "0.00016427",
+   "smallest_kept": "0.41755",
+   "largest_dropped": "1.9882e-60"
+  },
+  "W1(q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.64713",
+   "largest_dropped": "0.0"
+  },
+  "W1(1/q0)": {
+   "dim": 0,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.39832",
+   "largest_dropped": null
+  },
+  "W1(1/q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.23545",
+   "largest_dropped": "0.0"
+  }
+ },
+ "tau (MIRROR, keeps the longitude)": {
+  "W1(q0)": {
+   "dim": 1,
+   "conjugate": true,
+   "det": "1.5462e-8",
+   "smallest_kept": "0.40506",
+   "largest_dropped": "1.1544e-60"
+  },
+  "W1(q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.65076",
+   "largest_dropped": "0.0"
+  },
+  "W1(1/q0)": {
+   "dim": 0,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.37142",
+   "largest_dropped": null
+  },
+  "W1(1/q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.026876",
+   "largest_dropped": "0.0"
+  }
+ },
+ "identity": {
+  "W1(q0)": {
+   "dim": 1,
+   "conjugate": true,
+   "det": "0.017889",
+   "smallest_kept": "0.40939",
+   "largest_dropped": "1.9053e-60"
+  },
+  "W1(q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.80936",
+   "largest_dropped": "0.0"
+  },
+  "W1(1/q0)": {
+   "dim": 0,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.38096",
+   "largest_dropped": null
+  },
+  "W1(1/q0)*": {
+   "dim": 1,
+   "conjugate": false,
+   "det": "0.0",
+   "smallest_kept": "0.11725",
+   "largest_dropped": "0.0"
+  }
+ }
+}

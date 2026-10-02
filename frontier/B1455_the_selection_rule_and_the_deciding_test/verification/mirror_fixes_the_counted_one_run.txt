@@ -1,0 +1,4 @@
+iota (rotation, inverts the longitude)     conjugate to: ['W1(1/q0)']   dims {'W1(q0)': 0, 'W1(q0)*': 1, 'W1(1/q0)': 1, 'W1(1/q0)*': 1}
+swap (rotation, keeps the longitude)       conjugate to: ['W1(q0)']   dims {'W1(q0)': 1, 'W1(q0)*': 1, 'W1(1/q0)': 0, 'W1(1/q0)*': 1}
+tau (MIRROR, keeps the longitude)          conjugate to: ['W1(q0)']   dims {'W1(q0)': 1, 'W1(q0)*': 1, 'W1(1/q0)': 0, 'W1(1/q0)*': 1}
+identity                                   conjugate to: ['W1(q0)']   dims {'W1(q0)': 1, 'W1(q0)*': 1, 'W1(1/q0)': 0, 'W1(1/q0)*': 1}

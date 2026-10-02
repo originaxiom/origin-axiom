@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1283** |
-| words of findings prose | **984,324** |
+| research arcs with findings | **1284** |
+| words of findings prose | **986,585** |
 | test lock files referenced | **756** |
-| arcs carrying an authored verdict | **1283** (100.0 %) |
-| recorded closures | **801** (634 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1284** (100.0 %) |
+| recorded closures | **802** (635 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 856 |
-| NEGATIVE | 325 |
+| NEGATIVE | 326 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 71 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 72 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 GENESIS v1.0 VERIFIED ON MAIN AND ADOPTED AS v1.1. The SM seat's one statement of the foundations (sm:B1516: the principle PF1-PF3, the grammar GM1-GM5d, the generated state space, the postulated criterion SE1 with its derived consequence T-ROOT and the choice SE2, four frames, a mandatory scope tag, five gaps, eleven forks, a crosswalk of the colliding old labels) is re-derived with main's own code by other routes -- continued fractions and a linear-algebra conjugator in place of a box search, Burnside's lemma against the enumeration, cyclic covers in place of bundle codes -- and agrees at every point: torsion of H1 is |2 - tr| or |tr| on all 408 hyperbolic unimodular matrices with entries to 5, the 48 torsion-free ones are the classes of LR, LP and its inverse; 758 states to length twelve with exactly one torsion-free, +LR; among orientation-reversing bundles to length six only the Gieseking manifold is torsion-free; THE ROOT NEEDS FOUR INPUTS (aperiodicity, the once-punctured-torus carrier, torsion-free H1, orientation) AND EACH IS NEEDED, a witness exhibited for each, while minimality, positivity, the unit-shear generation and the order bit are not; LR and RL are SL(2,Z)-conjugate by L, not by the swap. 45 citations of main's records checked against the records, with two controls. V1.1 ADDS, each marked: the frame F-MC (main's McKay cascade to the SM algebra, THE_CLAIM section 1, run on the root only); the principle's mathematical form kappa = tr[a,b] != 2 as a reading (P008) with the two quantities called kappa; the cost of the orientation choice (B1234); the early record on the swap (B14, B16, B19); the other selectors of m = 1; and it corrects a misquotation and GAP5's 'does not have' against B944. ON MAIN: GENESIS.md at the root; the scope tag required in verdict files and kill-graph entries from B1454; the gate genesis-cited; pointers in eight pages; the uniqueness theorem's witness and the ledger's path count corrected. Nothing is derived from anything weaker: SE1 is a postulate, SE2 a choice, the carrier and aperiodicity premises; the principle's single wording is the owner's to confirm. 0 of 19.  
 `B1454_genesis_v1_verified_and_adopted/FINDINGS.md`
 
-**NEGATIVE — `B1452`** (528 words, 0 locks)  
-THE HASH-ORDER RESIDUE, RUN. Lead L226: the sweep of B1425 left 24 unsorted order-sensitive sites in 16 banked verification scripts that no lock re-runs, and asked whether any feeds a banked number. Each script was re-run under four hash seeds in a scratch checkout and its output and written files compared with timings removed. Fourteen scripts print the same thing on four seeds, three of them rewriting their tracked JSON byte for byte or up to an embedded timed log; one (B904) prints and writes one dictionary with three equal-valued keys in a seed-dependent order, equal as a dictionary; one (B675) does not run on this bench at all, stopping in the polynomial library's factor sort for a reason unrelated to hash order, and its two sites, which build mappings, are settled by reading. No banked number depends on the order. B675's failure to run is registered as lead L238 and is not claimed re-run here.  
-`B1452_the_hash_order_residue_run/FINDINGS.md`
+**NEGATIVE — `B1455`** (2261 words, 0 locks)  
+THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric potential whose minima are not mirror-symmetric?). NEGATIVE, the registered kill, scoped to the frame F-HE on m004's harmonic family at level one: the vacuum does not select a handedness there. THREE LINES THE TEST TURNS ON: the class index is unchanged by pulling back along any symmetry of the manifold, mirrors included (L1), and changes sign under dualising (L2); so a module with V* isomorphic to sigma^* V has index zero (L3), and the count-odd symmetries are a symmetry followed by dualising. THE TEST, by two routes with no shared code (characters on 2046 words in exact rationals; intertwiners, symbolic in q): on Ballas' family the dual of the vacuum at q is the vacuum at 1/q, and inverting both generators does the same, so inversion-then-dual fixes every vacuum, for every q > 0 and every central twist. HENCE every reductive module made from rho_q has class index zero -- a proof, not a census. The counts of +-1 found by the seats sit on non-split extensions, which no count-odd symmetry fixes and which are not minima (the audit lane's R76, read). ONE SEALED PREDICTION FAILED: only four of the eight signed permutations of the generators are automorphisms and all four preserve orientation; the mirrors were found after the seal by search (152 maps) and fall in two classes -- those keeping the longitude fix every vacuum, those inverting it exchange q and 1/q -- so the eight symmetries act on the family through one bit, which is the same as dualising. TWO CORRECTIONS TO THE RULE AS WORDED: the counted configuration is itself fixed by a bare mirror and counts -1 (60 digits; an invertible intertwiner), so 'symmetric under the mirror gives zero' is false for the geometric mirror and true for symmetry-plus-dual; and half the symmetries are broken by every vacuum off the hyperbolic point without any count being broken. The audit lane's open checkbox (base isometry plus duality) is paid. The handoff's side claims recompute (the Sturmian identity at nine intercepts; no surjection of m004's group onto SL(2,5), 1440 for m202). Silent on other states, frames, sources, ends and on selection by a relation. 0 of 19.  
+`B1455_the_selection_rule_and_the_deciding_test/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

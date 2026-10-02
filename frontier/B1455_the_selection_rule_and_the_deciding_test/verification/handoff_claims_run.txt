@@ -1,0 +1,5 @@
+sturmian {'slope': '1/phi^2', 'intercepts': 'j/phi^2, j = 1..9', 'position_in_the_fixed_point': {1: 0, 2: 1, 3: 2, 4: 3, 5: 4, 6: 5, 7: 6, 8: 7, 9: 8}, 'each_is_the_fixed_point_shifted': True, 'control_other_slope_found': False}
+expansion {'lambda_10': 15126.999933893041, 'lambda_minus_10': 6.610696135189595e-05, 'lucas_20': 15127}
+conjugators_of_A_to_its_inverse_entries_to_3 {'det +1': 6, 'det -1': 8, 'total': 14}
+onto_SL(2,5) {'m004': {'generators': 2, 'homomorphisms': 600, 'surjections': 0, 'up_to_conjugation_in_SL25': 0}, 'm202': {'generators': 2, 'homomorphisms': 3000, 'surjections': 1440, 'up_to_conjugation_in_SL25': 24}}
+plenitude_mean {1: '0', 2: '0', 3: '0', 4: '0', 5: '0'}

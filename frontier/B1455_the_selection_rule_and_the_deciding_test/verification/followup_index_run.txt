@@ -1,0 +1,33 @@
+q0 = 17 + 12 sqrt 2, twist -1
+    h1(A)                              1
+    I(A)                               0
+    I on the pullbacks of A            {'iota (rotation, inverts the longitude)': 0, 'Theta: iota (rotation, inverts the longitude)': 0, 'swap (rotation, keeps the longitude)': 0, 'Theta: swap (rotation, keeps the longitude)': 0, 'tau (MIRROR, keeps the longitude)': 0, 'Theta: tau (MIRROR, keeps the longitude)': 0}
+    I(W1)                              -1
+    interior classes (W1, W1*)         [0, 1]
+    gap                                {'gaps': '((0.26183, 1.3417e-58), (0.34437, 2.0843e-58))'}
+    I(W1*)                             1
+    I(iota^* W1)                       -1
+    I(Theta_iota W1)                   1
+    I(swap^* W1)                       -1
+    I(Theta_swap W1)                   1
+    I(tau^* W1)                        -1
+    I(Theta_tau W1)                    1
+q0' = 17 - 12 sqrt 2, twist -1
+    h1(A)                              1
+    I(A)                               0
+    I on the pullbacks of A            {'iota (rotation, inverts the longitude)': 0, 'Theta: iota (rotation, inverts the longitude)': 0, 'swap (rotation, keeps the longitude)': 0, 'Theta: swap (rotation, keeps the longitude)': 0, 'tau (MIRROR, keeps the longitude)': 0, 'Theta: tau (MIRROR, keeps the longitude)': 0}
+    I(W1)                              -1
+    interior classes (W1, W1*)         [0, 1]
+    gap                                {'gaps': '((0.090978, 2.3783e-58), (0.08321, 2.4797e-57))'}
+    I(W1*)                             1
+    I(iota^* W1)                       -1
+    I(Theta_iota W1)                   1
+    I(swap^* W1)                       -1
+    I(Theta_swap W1)                   1
+    I(tau^* W1)                        -1
+    I(Theta_tau W1)                    1
+control q = 3, twist -1
+    h1(A)                              0
+    I(A)                               0
+    I on the pullbacks of A            {'iota (rotation, inverts the longitude)': 0, 'Theta: iota (rotation, inverts the longitude)': 0, 'swap (rotation, keeps the longitude)': 0, 'Theta: swap (rotation, keeps the longitude)': 0, 'tau (MIRROR, keeps the longitude)': 0, 'Theta: tau (MIRROR, keeps the longitude)': 0}
+VERDICT followup-index: PASS (P5: I(A) = 0, I(W1) = -1, unchanged by every pullback, +1 on every count-odd image)

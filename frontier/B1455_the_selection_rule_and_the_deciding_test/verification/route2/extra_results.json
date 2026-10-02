@@ -1,0 +1,1265 @@
+{
+ "relator_at_q1": {
+  "(m,n)->(m^+1,n^+1)": true,
+  "(m,n)->(n^+1,m^+1)": true,
+  "(m,n)->(m^+1,n^-1)": false,
+  "(m,n)->(n^+1,m^-1)": false,
+  "(m,n)->(m^-1,n^+1)": false,
+  "(m,n)->(n^-1,m^+1)": false,
+  "(m,n)->(m^-1,n^-1)": true,
+  "(m,n)->(n^-1,m^-1)": true
+ },
+ "n_endo_candidates": 68,
+ "candidates": [
+  [
+   "m",
+   "m",
+   false,
+   false
+  ],
+  [
+   "m",
+   "n",
+   true,
+   false
+  ],
+  [
+   "m",
+   "mnM",
+   true,
+   false
+  ],
+  [
+   "m",
+   "Mnm",
+   true,
+   false
+  ],
+  [
+   "m",
+   "nmN",
+   false,
+   true
+  ],
+  [
+   "m",
+   "Nmn",
+   false,
+   true
+  ],
+  [
+   "M",
+   "M",
+   false,
+   false
+  ],
+  [
+   "M",
+   "N",
+   true,
+   false
+  ],
+  [
+   "M",
+   "mNM",
+   true,
+   false
+  ],
+  [
+   "M",
+   "MNm",
+   true,
+   false
+  ],
+  [
+   "M",
+   "nMN",
+   false,
+   true
+  ],
+  [
+   "M",
+   "NMn",
+   false,
+   true
+  ],
+  [
+   "n",
+   "m",
+   true,
+   false
+  ],
+  [
+   "n",
+   "n",
+   false,
+   false
+  ],
+  [
+   "n",
+   "mnM",
+   false,
+   true
+  ],
+  [
+   "n",
+   "Mnm",
+   false,
+   true
+  ],
+  [
+   "n",
+   "nmN",
+   true,
+   false
+  ],
+  [
+   "n",
+   "Nmn",
+   true,
+   false
+  ],
+  [
+   "N",
+   "M",
+   true,
+   false
+  ],
+  [
+   "N",
+   "N",
+   false,
+   false
+  ],
+  [
+   "N",
+   "mNM",
+   false,
+   true
+  ],
+  [
+   "N",
+   "MNm",
+   false,
+   true
+  ],
+  [
+   "N",
+   "nMN",
+   true,
+   false
+  ],
+  [
+   "N",
+   "NMn",
+   true,
+   false
+  ],
+  [
+   "mmN",
+   "mmN",
+   false,
+   false
+  ],
+  [
+   "mnM",
+   "m",
+   true,
+   false
+  ],
+  [
+   "mnM",
+   "n",
+   false,
+   true
+  ],
+  [
+   "mnM",
+   "mnM",
+   false,
+   false
+  ],
+  [
+   "mnM",
+   "nmN",
+   false,
+   true
+  ],
+  [
+   "mNm",
+   "mNm",
+   false,
+   false
+  ],
+  [
+   "mNM",
+   "M",
+   true,
+   false
+  ],
+  [
+   "mNM",
+   "N",
+   false,
+   true
+  ],
+  [
+   "mNM",
+   "mNM",
+   false,
+   false
+  ],
+  [
+   "mNM",
+   "nMN",
+   false,
+   true
+  ],
+  [
+   "mNN",
+   "mNN",
+   false,
+   false
+  ],
+  [
+   "MMn",
+   "MMn",
+   false,
+   false
+  ],
+  [
+   "Mnm",
+   "m",
+   true,
+   false
+  ],
+  [
+   "Mnm",
+   "n",
+   false,
+   true
+  ],
+  [
+   "Mnm",
+   "Mnm",
+   false,
+   false
+  ],
+  [
+   "Mnm",
+   "Nmn",
+   false,
+   true
+  ],
+  [
+   "MnM",
+   "MnM",
+   false,
+   false
+  ],
+  [
+   "Mnn",
+   "Mnn",
+   false,
+   false
+  ],
+  [
+   "MNm",
+   "M",
+   true,
+   false
+  ],
+  [
+   "MNm",
+   "N",
+   false,
+   true
+  ],
+  [
+   "MNm",
+   "MNm",
+   false,
+   false
+  ],
+  [
+   "MNm",
+   "NMn",
+   false,
+   true
+  ],
+  [
+   "nmN",
+   "m",
+   false,
+   true
+  ],
+  [
+   "nmN",
+   "n",
+   true,
+   false
+  ],
+  [
+   "nmN",
+   "mnM",
+   false,
+   true
+  ],
+  [
+   "nmN",
+   "nmN",
+   false,
+   false
+  ],
+  [
+   "nMM",
+   "nMM",
+   false,
+   false
+  ],
+  [
+   "nMn",
+   "nMn",
+   false,
+   false
+  ],
+  [
+   "nMN",
+   "M",
+   false,
+   true
+  ],
+  [
+   "nMN",
+   "N",
+   true,
+   false
+  ],
+  [
+   "nMN",
+   "mNM",
+   false,
+   true
+  ],
+  [
+   "nMN",
+   "nMN",
+   false,
+   false
+  ],
+  [
+   "nnM",
+   "nnM",
+   false,
+   false
+  ],
+  [
+   "Nmm",
+   "Nmm",
+   false,
+   false
+  ],
+  [
+   "Nmn",
+   "m",
+   false,
+   true
+  ],
+  [
+   "Nmn",
+   "n",
+   true,
+   false
+  ],
+  [
+   "Nmn",
+   "Mnm",
+   false,
+   true
+  ],
+  [
+   "Nmn",
+   "Nmn",
+   false,
+   false
+  ],
+  [
+   "NmN",
+   "NmN",
+   false,
+   false
+  ],
+  [
+   "NMn",
+   "M",
+   false,
+   true
+  ],
+  [
+   "NMn",
+   "N",
+   true,
+   false
+  ],
+  [
+   "NMn",
+   "MNm",
+   false,
+   true
+  ],
+  [
+   "NMn",
+   "NMn",
+   false,
+   false
+  ],
+  [
+   "NNm",
+   "NNm",
+   false,
+   false
+  ]
+ ],
+ "C2_orientation_reversing_candidates": {
+  "m,nmN": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "m,Nmn": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "M,nMN": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "M,NMn": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "n,mnM": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "n,Mnm": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "N,mNM": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "N,MNm": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "mnM,n": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "mnM,nmN": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "mNM,N": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "mNM,nMN": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "Mnm,n": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "Mnm,Nmn": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "MNm,N": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "MNm,NMn": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "nmN,m": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "nmN,mnM": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "nMN,M": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "nMN,mNM": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "Nmn,m": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "Nmn,Mnm": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": false,
+     "rho_q*": true,
+     "rho_1/q": true,
+     "rho_1/q*": false
+    },
+    "tr_sigma_l_eq_l": false,
+    "tr_sigma_l_eq_linv": true
+   }
+  },
+  "NMn,M": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  },
+  "NMn,MNm": {
+   "2": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "3": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   },
+   "1/5": {
+    "rel_ok_in_rho_q": true,
+    "targets": {
+     "rho_q": true,
+     "rho_q*": false,
+     "rho_1/q": false,
+     "rho_1/q*": true
+    },
+    "tr_sigma_l_eq_l": true,
+    "tr_sigma_l_eq_linv": false
+   }
+  }
+ }
+}

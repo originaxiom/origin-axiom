@@ -11087,5 +11087,22 @@
   "note": "With B1425's five locks on five seeds, all 34 sites of the sweep are settled. The one live residue is not a hash-order effect: a banked certification script that the current polynomial library stops.",
   "faces_consulted": "B1425 (the sweep and its JSON), the sixteen scripts' own arcs, B675's banked receipt",
   "fact_computed": true
+ },
+ {
+  "id": "B1455",
+  "claim_killed": "That the bridge's action selects a handedness spontaneously on its harmonic vacuum family: a mirror-symmetric potential whose minima are not fixed by the symmetry under which the chiral count is odd.",
+  "kill_form": "Proof with exact computation: the class index is invariant under pullback by any symmetry of the manifold and odd under dualising, so a module with V* isomorphic to sigma^*V has index zero; on Ballas' family (rho_q o iota)^* is conjugate to rho_q for every q > 0 (characters on 2046 words in exact rationals; an explicit intertwiner X(q) by a second route), so every reductive module made from rho_q with any central twist has index zero.",
+  "hatch": "a reductive point that no count-odd symmetry fixes (none on this family; not excluded on other states, on the levels M3..M6, or in other frames); a source or an end condition that makes a non-split configuration stationary; selection by a relation to a second object rather than by the object's own potential (B1327); quantum effects on the flat direction q",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-02), for tests/test_b833_negative_routing.py",
+  "note": "The kill is of spontaneous selection of the COUNT on one family in one frame. It also shows what is broken: every vacuum off q = 1 breaks the four symmetries that invert the longitude, a mirror among them, with no count attached. The counted configurations are fixed by a bare mirror, so the geometric mirror is not the count-odd symmetry.",
+  "faces_consulted": "B1227, B1225, B849, B1327 (the rule on the record); B1453 (the counts re-derived); the audit lane's R47, R54, R57, R76 (read); Ballas arXiv:1403.3314v3 pp. 1-2, 17-19",
+  "fact_computed": true,
+  "scope": {
+   "frame": "F-HE",
+   "object": "m004's harmonic family rho_q (Ballas' convex-projective representations, q > 0) at level one, with any central twist",
+   "reach": "single",
+   "hypotheses": "the minima of the action are the reductive points (the audit lane's R76 with Corlette's theorem as it cites it; not re-derived); modules made from rho_q by operations that commute with duals"
+  }
  }
 ]

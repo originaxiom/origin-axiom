@@ -9306,6 +9306,46 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1455": {
+   "slug": "the selection rule and the deciding test",
+   "motifs": [
+    "measurement",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "quasicrystal",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B128",
+    "B295",
+    "B576",
+    "B582",
+    "B849",
+    "B853",
+    "B868",
+    "B871",
+    "L1",
+    "L2",
+    "L241",
+    "L242",
+    "L3",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B145": {
    "slug": "forced chirality",
    "motifs": [
