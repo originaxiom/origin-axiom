@@ -23,13 +23,14 @@ nothing cannot complete.
 
 ## The state of the programme (as of B1516, 2026-10-02)
 
-### Foundations: `GENESIS.md` v1.0
+### Foundations: `GENESIS.md` v1.1
 
 The programme starts from one principle: existence is what remains when cancelling to nothing cannot complete, and that
 remainder is a description that cannot be exhausted. Read as mathematics, a description is a word in two elementary updates of
 two integer records, the unit shears L and R. Each primitive word with both letters, taken with a sign and up to rotation and
 the exchange of L and R, is a state: a once-punctured-torus bundle, a hyperbolic 3-manifold with one cusp. There are 758 states
-up to word length 12.
+up to word length 12. They realise 536 distinct manifolds, because a word and its reverse give the same manifold (B1517); a
+rate over states says whether it counts words or manifolds.
 
 These states form the **generated state space**, the programme's architecture. Its root is the figure-eight knot complement
 **m004** (the word LR). Four inputs select it, and each is needed: aperiodicity, the punctured-torus carrier, torsion-free first

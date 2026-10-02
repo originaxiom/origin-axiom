@@ -1,0 +1,173 @@
+{
+ "C1 word states": 758,
+ "C1 per length (unsigned)": [
+  1,
+  1,
+  2,
+  3,
+  5,
+  9,
+  16,
+  28,
+  51,
+  93,
+  170
+ ],
+ "C1 equals twice OEIS A000048, and the own Moebius formula agrees": true,
+ "C2 classes under rotation, swap and reversal": 536,
+ "C2 per length (unsigned)": [
+  1,
+  1,
+  2,
+  3,
+  5,
+  8,
+  14,
+  21,
+  39,
+  62,
+  112
+ ],
+ "C2 equals twice OEIS A000046": true,
+ "C2 class sizes": [
+  1,
+  2
+ ],
+ "C2 reversal pairs": 222,
+ "C2 every pair is a word and its reverse": true,
+ "C2 first pair": [
+  "+LLLRLRR",
+  "+LLLRRLR"
+ ],
+ "C6 words checked": 8190,
+ "C6 reverse(w) = (PJ) w^-1 (PJ)^-1 on every word": true,
+ "C6 det(PJ)": -1,
+ "C6 transpose identity L^T = PLP = R": true,
+ "C5 main's firing own-level states (lengths 7-12), quoted": 93,
+ "C5 every firing state is a census state": true,
+ "C5 pairs split by main's census (one member fires, the other not)": [],
+ "C5 firing manifolds (lengths 7-12)": 85,
+ "C5 rate per word state (with main B1434's two at lengths 2-6)": [
+  95,
+  758
+ ],
+ "C5 rate per manifold (with main B1434's two at lengths 2-6)": [
+  87,
+  536
+ ],
+ "C5 split by length and sign (descriptive; not a test)": [
+  {
+   "length": 7,
+   "sign": "+",
+   "reversal-closed states": 7,
+   "firing": 1,
+   "paired states": 2,
+   "firing ": 0
+  },
+  {
+   "length": 7,
+   "sign": "-",
+   "reversal-closed states": 7,
+   "firing": 2,
+   "paired states": 2,
+   "firing ": 0
+  },
+  {
+   "length": 8,
+   "sign": "+",
+   "reversal-closed states": 12,
+   "firing": 3,
+   "paired states": 4,
+   "firing ": 0
+  },
+  {
+   "length": 8,
+   "sign": "-",
+   "reversal-closed states": 12,
+   "firing": 2,
+   "paired states": 4,
+   "firing ": 0
+  },
+  {
+   "length": 9,
+   "sign": "+",
+   "reversal-closed states": 14,
+   "firing": 5,
+   "paired states": 14,
+   "firing ": 0
+  },
+  {
+   "length": 9,
+   "sign": "-",
+   "reversal-closed states": 14,
+   "firing": 5,
+   "paired states": 14,
+   "firing ": 0
+  },
+  {
+   "length": 10,
+   "sign": "+",
+   "reversal-closed states": 27,
+   "firing": 7,
+   "paired states": 24,
+   "firing ": 2
+  },
+  {
+   "length": 10,
+   "sign": "-",
+   "reversal-closed states": 27,
+   "firing": 7,
+   "paired states": 24,
+   "firing ": 0
+  },
+  {
+   "length": 11,
+   "sign": "+",
+   "reversal-closed states": 31,
+   "firing": 9,
+   "paired states": 62,
+   "firing ": 4
+  },
+  {
+   "length": 11,
+   "sign": "-",
+   "reversal-closed states": 31,
+   "firing": 12,
+   "paired states": 62,
+   "firing ": 2
+  },
+  {
+   "length": 12,
+   "sign": "+",
+   "reversal-closed states": 54,
+   "firing": 12,
+   "paired states": 116,
+   "firing ": 6
+  },
+  {
+   "length": 12,
+   "sign": "-",
+   "reversal-closed states": 54,
+   "firing": 12,
+   "paired states": 116,
+   "firing ": 2
+  }
+ ],
+ "C5 lengths 7-12: reversal-closed firing / states, paired firing / states": [
+  77,
+  290,
+  16,
+  444
+ ],
+ "C3 snappy": "3.3.2",
+ "C3 signature failures": [],
+ "C3 distinct manifolds by isometry signature": 536,
+ "C3 partition equals C2's": true,
+ "C4 pairs": 222,
+ "C4 reverse orientation-preservingly isometric (cusp map det +1)": 222,
+ "C4 Chern-Simons equal for the reverse (mod 1/2)": 222,
+ "C4 swap has an orientation-reversing isometry (det -1)": 222,
+ "C4 swap has only orientation-reversing isometries": 220,
+ "C4 Chern-Simons negated for the swap (mod 1/2)": 222,
+ "passed": true
+}

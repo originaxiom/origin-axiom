@@ -78,6 +78,10 @@ and the arc-verdict schema and this arc's lock require one from B1516 on.
 - **C9, the unit shears generate every state.** All 168 hyperbolic det-1 matrices with entries in [−5, 5] reduce, by
   conjugations with L^±1 and R^±1, to ± a positive word with both letters. Each is matched to that word by an explicit
   SL(2,ℤ) conjugator, and every level-1 word lies in C4's census.
+  > *Note (2026-10-02, B1517).* The script's comment "the state of B is (eps, root) at level k" is wrong when eps = −1 and
+  > k is even, since (−u)ᵏ = uᵏ: −uᵏ is then neither a state nor a level (GENESIS v1.1 §3, "Signed powers"). The check
+  > asserts only what this bullet states. The audit lane's R78, sealed 2026-10-02 at `64a96ea6`, found the gap and tests it at
+  > −(LR)²; its run is the lane's. ERROR_LEDGER, the E11 instance of 2026-10-02.
 - **C10, P000's metallic family.** For m = 1 to 6, LᵐP = [[m,1],[1,0]] and (LᵐP)² = LᵐRᵐ. The H₁ torsion is ℤ/m for the
   bundle of LᵐP and (ℤ/m)² for the bundle of its square. SnapPy gives H₁(b++LᵐRᵐ) = ℤ, then ℤ/m ⊕ ℤ/m ⊕ ℤ for m = 2 to 5.
   So torsion-freeness selects m = 1 in the family, as B126's fact (A) recorded.

@@ -1,5 +1,9 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-10-02, B1517 — SEE THE REPO FIRST, THEN THE LITERATURE)**: the owner's rule of that day is in WORKING_RULES and made data
+(`prior_work` in every arc from B1517 on). Its first sweep amended `../GENESIS.md` to v1.1: the 758 word states realise 536
+manifolds, since a word and its reverse are one manifold. 0 of 19.
+
 **LATEST (2026-10-02, B1516 — GENESIS v1)**: the foundations are stated once in `../GENESIS.md` (v1.0, canonical): the
 generated state space rooted at m004, the four frames, the scope tag on every result, five gaps and eleven forks. The board's
 entries below stop at 2026-09-08; the README's state section is current. 0 of 19.

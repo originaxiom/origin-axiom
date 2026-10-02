@@ -9,8 +9,12 @@ Every frontier/*/arc_verdict.json must:
   - carry creates_law as a BOOLEAN when present — and ALWAYS from B1103 on
     (legacy arcs may omit it; omission means false to the registry gate);
   - carry a scope tag (frame, object, reach, hypotheses) from B1516 on (GENESIS.md section 6);
+  - carry a prior_work record (the repo leg with each swept head's sha, the literature leg, and a standing) from
+    B1517 on (WORKING_RULES 2026-10-02, SEE THE REPO FIRST, THEN THE LITERATURE; the form is checked by
+    scripts/checks/prior_work.py's validate()), and word any novelty only as far as that standing allows;
   - have an id matching its directory prefix.
 """
+import importlib.util
 import json
 import re
 from pathlib import Path
@@ -33,6 +37,16 @@ IDENTIFICATIONS_REQUIRED_FROM = 1231
 # the object, how far it reaches and what else it needs. A negative blocks only where its tag reaches.
 SCOPE_REQUIRED_FROM = 1516
 SCOPE_REACH = {"single", "class", "general"}
+# B1517 (the owner, 2026-10-02: "make a rule to see the repo first and literature"): every arc records what it swept
+# before it claims anything, in the repo (every head, with its sha) and in the literature (the sources read), and
+# the standing of its main result. The form is checked here; the judgement stays with the seat.
+PRIOR_WORK_REQUIRED_FROM = 1517
+_spec = importlib.util.spec_from_file_location("prior_work", ROOT / "scripts" / "checks" / "prior_work.py")
+prior_work = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(prior_work)
+# Novelty wording in a FINDINGS body (quotations and block quotes excluded) needs a standing that allows it.
+NOVELTY = re.compile(r"\b(novel|for the first time|not in the literature|no prior (?:work|art)|nobody has|"
+                     r"not previously known|previously unknown|new result|the first to)\b", re.I)
 
 FILES = sorted((ROOT / "frontier").glob("*/arc_verdict.json"))
 
@@ -79,3 +93,39 @@ def test_schema(path):
         assert isinstance(sc.get("object"), str) and sc["object"], f"{path.parent.name}: scope.object"
         assert sc.get("reach") in SCOPE_REACH, f"{path.parent.name}: scope.reach must be one of {SCOPE_REACH}"
         assert isinstance(sc.get("hypotheses"), list), f"{path.parent.name}: scope.hypotheses must be a list"
+    if "prior_work" in d or num >= PRIOR_WORK_REQUIRED_FROM:
+        problems = prior_work.validate(d.get("prior_work"))
+        assert not problems, (
+            f"{path.parent.name}: arcs from B{PRIOR_WORK_REQUIRED_FROM} on record the repo leg and the literature "
+            f"leg (WORKING_RULES 2026-10-02): {problems}")
+
+
+def _unquoted(text):
+    text = "\n".join(l for l in text.splitlines() if not l.lstrip().startswith(">"))
+    return re.sub(r'"[^"\n]*"|\u201c[^\u201d\n]*\u201d|`[^`\n]*`', " ", text)
+
+
+LATE = [p for p in FILES if int(re.match(r"B(\d+)", p.parent.name).group(1)) >= PRIOR_WORK_REQUIRED_FROM]
+
+
+@pytest.mark.parametrize("path", LATE or [None], ids=lambda p: p.parent.name if p else "none-yet")
+def test_novelty_wording_rests_on_the_sweep(path):
+    """A FINDINGS body that calls a result novel, first or absent from the literature needs a recorded sweep
+    whose standing allows it (NEW-AS-SWEPT or EXTENDS) and the literature queries that were run."""
+    if path is None:
+        return
+    f = path.parent / "FINDINGS.md"
+    if not f.exists():
+        return
+    hits = sorted({m.group(0).lower() for m in NOVELTY.finditer(_unquoted(f.read_text(encoding="utf-8")))})
+    if hits:
+        pw = json.load(open(path, encoding="utf-8")).get("prior_work") or {}
+        assert pw.get("standing") in ("NEW-AS-SWEPT", "EXTENDS") and (pw.get("literature") or {}).get("queries"), (
+            f"{path.parent.name}: FINDINGS says {hits} but the recorded standing is {pw.get('standing')!r}")
+
+
+def test_novelty_check_can_fail():
+    """The wording check is live in both directions on planted text."""
+    assert NOVELTY.search(_unquoted("This is a novel identity."))
+    assert not NOVELTY.search(_unquoted('The rule forbids the word "novel" without a sweep.'))
+    assert not NOVELTY.search(_unquoted("> the owner: nothing novel here"))

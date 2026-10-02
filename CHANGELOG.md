@@ -1,5 +1,48 @@
 # Changelog
 
+## B1517 banked: SEE THE REPO FIRST, THEN THE LITERATURE — the owner's rule made data; its first sweep amends GENESIS to v1.1 (the 758 word states are 536 manifolds)
+
+- **The rule.** The owner, verbatim: "i ljust lets make sure we dont miss any work and misclaim about it. make a rule to see the
+  repo first and literature". It is in WORKING_RULES in five steps: the repo first, the literature second, both legs as data, no
+  claim beyond the sweep, a later miss corrected where it stands. PRACTICES has its row: TESTED for the record's form, MANUAL
+  for the reading.
+- **The instrument.** `scripts/checks/prior_work.py` runs the repo leg on every head (the absence sweep and the already-banked
+  scan), writes a skeleton record and validates one. Its self-test has twelve controls in both directions. One defect was
+  caught on first use: a hit in the working tree only was printed as "0 files across heads". A second was caught by the
+  attribution gate: swept branch names carrying a vendor word are now recorded with that word written as "seat".
+- **The record.** `prior_work` is required in every arc verdict from B1517 on (`tests/test_arc_verdict_schema.py`). A wording
+  check refuses "novel", "for the first time", "not in the literature" and similar unless the standing is NEW-AS-SWEPT or
+  EXTENDS.
+- **The first sweep, on GENESIS v1.0's own claims.** Nine heads were fetched and swept, with their shas in the verdict. Six
+  sources were read: OEIS A000048 and A000046; Goodman–Heard–Hodgson 2008 §3; Guéritaud 2006; Chun–Gukov–Park–Sopenko 2019;
+  the Gieseking manifold article. It found:
+  - a word and its reverse realise the same oriented manifold, so the 758 word states realise **536 manifolds**. The identity
+    reverse(w) = (PJ)w⁻¹(PJ)⁻¹ with det PJ = −1 is exact on 8 190 words. SnapPy's isometry signatures give exactly the
+    536-class partition, and cusp-map determinants and Chern–Simons give the orientations: the reverse keeps orientation and
+    the swap is the mirror (C1–C6);
+  - main's B1439 firing list splits no pair, and its 95 of 758 is 87 of 536 per manifold. Reversal-closed states fire far more
+    often than paired ones (77 of 290 against 16 of 444 at lengths 7–12); this is recorded as a descriptive input to sL-9
+    item 1;
+  - the audit lane's R78 (sealed at `64a96ea6`) targets B1516 C9's signed-level comment, which is wrong for negative even
+    powers: −uᵏ with k even is neither a state nor a level. The run is the lane's;
+  - B779 R1's gloss of word reversal as orientation reversal is contradicted.
+- **GENESIS v1.1:**
+  - §3: the identity, the 536, the OEIS and triangulation credits, and signed powers;
+  - §4: T-ROOT's formula credited;
+  - §5: the rate per manifold;
+  - §6: counts name their unit, and arcs carry `prior_work`;
+  - §10: the log entry.
+- **Surfaces:**
+  - README (the 536); B1516 FINDINGS (a dated note at C9); OPEN_LEADS sL-9 item 1;
+  - ERROR_LEDGER: an E59 instance and an E11 instance;
+  - the relay `SM_TO_CC_AND_CODEX_2026-10-02_THE_STATES_AND_THE_MANIFOLDS.md`, and RELAY_LEDGER (the audit lane READ at
+    `64a96ea6`, the relay OPEN);
+  - the alias table (next arc B1518), the campaign board, the views and the atlas.
+- **Lock:** `tests/test_b1517_repo_first_then_literature.py` (12 tests, one slow). The B1516 lock now pins GENESIS's head line
+  by form and v1.0 by its log entry.
+- **Tests and gates.** The 49 test files that read a touched document, with the lock: 1 551 passed. The one failure is the
+  known baseline: relay-debt inside `test_b887_gate_audit`. Gates: all pass except relay-debt, the known baseline. 0 of 19.
+
 ## GENESIS v1.0 relayed to main and to the audit lane; the audit lane's same-day reconciliation read and answered
 
 - **Read** after a fresh fetch: the audit lane's two new commits. `cdb90c9a` is the released packet read and the physical join;

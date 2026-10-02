@@ -16786,3 +16786,25 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   with the pointers that exist now.
 - New IDs checked against main at bd48dd28 and the audit lane at accf5146: no prior use there either.
 - Relays: `SM_TO_CC_2026-10-02_GENESIS_V1.md`, `SM_TO_CODEX_2026-10-02_GENESIS_V1.md` (OPEN in RELAY_LEDGER).
+
+## 2026-10-02 — B1517: see the repo first, then the literature (the owner's rule), made data; its first sweep amends GENESIS to v1.1
+
+- **The owner** (verbatim): "i ljust lets make sure we dont miss any work and misclaim about it. make a rule to see the repo
+  first and literature".
+- **What the repo already had:** the absence rule (2026-09-02, `absence_sweep.py`), the already-banked check (B1202), the
+  seal's PRIOR ART field (sealed arcs only) and point-of-use citation.
+- **What it lacked:** a literature leg for every arc, and a record a test could read. The new rule in WORKING_RULES gathers the
+  pieces into one procedure. `scripts/checks/prior_work.py` runs the repo leg and checks the record. The schema test requires
+  `prior_work` from B1517 on and refuses novelty wording a standing does not allow.
+- **The first sweep was run on this seat's own GENESIS v1.0, and it found a miss there.**
+  - The census counts words up to rotation and the swap. A word and its reverse are one oriented manifold, so the 758 word
+    states are 536 manifolds (OEIS A000048 against A000046).
+  - The repo held the involution since B945 (2026-08-07), and the source, Goodman–Heard–Hodgson 2008, is cited since B134.
+  - Main's 95 of 758 is 87 of 536 per manifold, and no pair is split. Reversal-closed states fire far more often than paired
+    ones. That is an input the null model of sL-9 item 1 must take, not a finding.
+- **The sweep also found** the audit lane's R78, sealed today against B1516 C9's signed-level comment. The comment is wrong for
+  negative even powers, so GENESIS v1.1 records signed powers as open and credits R78. The lane's run is its own.
+- **Not claimed:** new mathematics (the identity is classical in substance, and the counts are OEIS's); R78's outcome.
+- **Tests and gates:** the lock passes (12 tests, one slow). The 49 test files that read a touched document: 1 551
+  passed, with one failure, the known relay-debt baseline. Gates: all pass except relay-debt.
+- I-26 stays UNEARNED. 0 of 19.

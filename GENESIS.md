@@ -1,6 +1,6 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.0 · 2026-10-02 · arc B1516 · canonical.**
+**Version 1.1 · 2026-10-02 · arcs B1516 and B1517 · canonical.**
 
 This file states, in one place and with one numbering, what the programme assumes, what it derives, what it chooses and
 what it leaves open, from its principle down to the objects it computes on. It replaces the scattered statements of these
@@ -88,18 +88,25 @@ verification code uses the transposed pair, so its "RP" is the core's LP (the au
 
 **X_gen = (reachable states, native moves, equivalences, root)** (B1384, adopted 2026-09-27; P022).
 
-**States.** A state is a signed cyclic word s = (ε, w): w is a primitive word in L and R using both letters, taken up to
-rotation and the L↔R swap, and ε = ±1. It is realised as the once-punctured-torus bundle with monodromy εw, a hyperbolic
-3-manifold with one cusp. If the swap P is legal (GM5c), the orientation-reversing bundles join them; the Gieseking manifold
-m000 is the bundle of LP.
-- **Census** (DERIVED; re-derived by B1516 C4 and C5): 2, 2, 4, 6, 10, 18, 32, 56, 102, 186 and 340 states at lengths 2
-  to 12, 758 in all, as main's B1434 and B1439 count. A word of length n gives a manifold of n ideal tetrahedra. The 24
-  states to length 6 are m004 (+LR), m003 (−LR), m009 (+LLR), m010 (−LLR), m022, m023, m135, m136, m039, m040, m234, m235,
+**States.** A state is a signed cyclic word s = (ε, w): w is a primitive word in L and R using both letters, taken up to rotation
+and the L↔R swap, and ε = ±1. It is realised as the once-punctured-torus bundle with monodromy εw, a hyperbolic 3-manifold with
+one cusp. A word and its reverse are two states realised by one manifold, with the same orientation; the swap, already divided
+out, gives the mirror image (B1517 C4, C6). If the swap P is legal (GM5c), the orientation-reversing bundles join them; the
+Gieseking manifold m000 is the bundle of LP.
+- **Census** (DERIVED; re-derived by B1516 C4 and C5): 2, 2, 4, 6, 10, 18, 32, 56, 102, 186 and 340 states at lengths 2 to 12, 758
+  in all, as main's B1434 and B1439 count: twice OEIS A000048 summed over those lengths. **They realise 536 distinct manifolds**,
+  twice OEIS A000046: 222 states pair off as a word and its reverse, the first pair at length 7 (+LLLRLRR and +LLLRRLR), and
+  SnapPy's isometry signatures give exactly that partition (B1517 C1–C3). A word of length n gives a manifold of n ideal
+  tetrahedra: the monodromy triangulation, which is canonical (Goodman–Heard–Hodgson 2008, Lemma 3.2; Guéritaud 2006, §3.2). The
+  24 states to length 6 are m004 (+LR), m003 (−LR), m009 (+LLR), m010 (−LLR), m022, m023, m135, m136, m039, m040, m234, m235,
   m369, m370, s000, s001, s298, s299, s463, s464, s639, s640, s891 and s892.
 - **Levels.** The n-fold cyclic cover of a state (ε, w) has monodromy (εw)ⁿ. Its first homology has torsion of order
   abs(2 − tr((εw)ⁿ)), which is also the number of fibre characters its monodromy fixes. For m004 these orders are 1, 5, 16,
   45, 121 and 320 at n = 1 to 6. The levels M₂ to M₆ are m206, s961, t12839, o10_150696 and otet12_00013 (B1516 C6;
   main's notation Mₙ; this seat's older Yₙ is ambiguous, see ERROR_LEDGER E72).
+- **Signed powers.** For u primitive and k even, −uᵏ is a legal signed monodromy (GM5b) that is neither a state (uᵏ is not
+  primitive) nor a level: (εv)ⁿ = −uᵏ would need εⁿ = −1, so n odd, and vⁿ = uᵏ, so v = u and n = k, which is even. Where such
+  monodromies sit in X_gen is open. The audit lane's R78 (sealed 2026-10-02) raised it and tests the bookkeeping at −(LR)².
 
 **Moves and relations** (B1384; the audit lane's operational contract).
 
@@ -132,7 +139,7 @@ polynomial τ² − τ − 1 of LR against τ² + τ − 1 of RL (B1516 C3).
 | ID | Item | Status | Evidence |
 |---|---|---|---|
 | SE1 | **The selection criterion: the root's first homology is torsion-free.** | POSTULATED | UNIQUENESS A5, motivated by the topology. Alternatives kept: minimal trace selects ±LR (m004 and m003); minimal volume selects m000, and among orientable states leaves the m003–m004 tie, which SE1 breaks (B197). |
-| T-ROOT | **What SE1 selects.** For a hyperbolic once-punctured-torus bundle, the torsion of H₁ has order abs(2 − tr) for orientation-preserving monodromy and abs(tr) for orientation-reversing. So H₁ is torsion-free exactly for the class of LR (trace 3: **m004**) and the class of the golden matrix LP (det −1, trace ±1: **the Gieseking manifold m000**). | DERIVED | CLAIMS C3 (the orientation-preserving half, as CLAIMS scopes it); B197; B1516 C2 (every unimodular matrix with entries up to 5, each torsion-free one conjugated explicitly to LR, LP or (LP)⁻¹) and C5 (SnapPy: of 46 orientation-reversing bundles to length 6, only m000 is torsion-free). |
+| T-ROOT | **What SE1 selects.** For a hyperbolic once-punctured-torus bundle, the torsion of H₁ has order abs(2 − tr) for orientation-preserving monodromy and abs(tr) for orientation-reversing. So H₁ is torsion-free exactly for the class of LR (trace 3: **m004**) and the class of the golden matrix LP (det −1, trace ±1: **the Gieseking manifold m000**). | DERIVED | CLAIMS C3 (the orientation-preserving half, as CLAIMS scopes it); B197; B1516 C2 (every unimodular matrix with entries up to 5, each torsion-free one conjugated explicitly to LR, LP or (LP)⁻¹) and C5 (SnapPy: of 46 orientation-reversing bundles to length 6, only m000 is torsion-free). The formula is H₁ = ℤ ⊕ coker(φ − 1) (Chun, Gukov, Park and Sopenko 2019, §2.2 eq. (11)), read with det φ = ±1. |
 | SE2 | **Orientation**: of the two, take the orientable one, m004, the orientation double cover of m000 | CHOSEN | P019 A6; UNIQUENESS A3; THEOREM_LEDGER C5. Minimality points the other way: m000 has half the volume and one tetrahedron (B1380; B749 F5 FRAGILE, "the parent"). The most fragile link of the chain (fork FK2). |
 
 **The root.** Given GM3, GM4, SE1 and SE2, the root is m004, the figure-eight knot complement (Thurston; Riley). In the
@@ -189,7 +196,8 @@ to physics (identification I-26) is UNEARNED.** Each is a named hypothesis.
 | F-AP | G₂ apex frame | matter at cone points of a G₂ space built over the cusps; anomaly inflow | this branch, B1355–B1365 and B1500–B1505 |
 
 The frames disagree on the same objects. Every word state is closed in F-FC (one cusp and b₁ = 1, so no free cusp: B1385),
-while 95 of the 758 carry a generation-shaped background at their own level in F-CI (main B1439). **A result is a statement
+while 95 of the 758 carry a generation-shaped background at their own level in F-CI (main B1439): 87 of the 536 manifolds
+they realise (B1517 C5). **A result is a statement
 about a frame applied to an object, never about the architecture as such.**
 
 Where each frame has been run, by object (as of v1.0):
@@ -198,7 +206,7 @@ Where each frame has been run, by object (as of v1.0):
 |---|---|---|---|---|
 | m004 and its cyclic levels Mₙ | closed: one cusp and b₁ = 1 (B1368; B1385) | M₁ and M₂ carry no generation-shaped background; M₃ to M₆ carry 48, 256, 400 and 2 160, each counting ±1 (main B1432, reproducing this seat's level census) | computed: at the μ = −1 points a 10′ without its 5̄′ (B1509); at q = 1 both halves on one background, with opposite signs (B1515) | m004's cusp (shape 2√−3) is not hexagonal, so B1501's cones do not complete it; the apex designs are conditional (B1355–B1365) |
 | m004's commensurability class (99 census members; every finite cover) | B1186's 112: 108 closed (B1369), four cusps open on one Fourier coefficient each (B1370); the cover cube~3.24 counts ±2, but the count moves with the cusp cut (B1386–B1388) | fires on five arithmetic members: s958, v2873, t12833, t12835, o10_150701 (main B1418; sm:B1374) | never computed | hexagonal cusps (m003's, three of cube~3.24's four, 14 of m004's 87 covers of degree ≤ 10) match B1501's cones conformally; a cusp point is chiral only where its locus meets another fixed set (B1503) |
-| The other word states (758 to length 12) | closed (B1385 T1) | 95 carry a background at their own level (main B1439), among them m369 (8) and s639 (16) (main B1434) | never computed | never computed |
+| The other word states (758 to length 12; 536 manifolds) | closed (B1385 T1) | 95 carry a background at their own level (main B1439; 87 of 536 manifolds, B1517 C5), among them m369 (8) and s639 (16) (main B1434) | never computed | never computed |
 | m010 (−LLR) | closed | none at its three-fold level (main B1434) | the audit lane's R40: I(W) = I(Λ²W) = +1, an anomaly-free 10 + 5̄, on a block with no harmonic background (F01) | never computed |
 | m000, the Gieseking manifold | never computed | never computed | never computed | never computed |
 
@@ -214,6 +222,10 @@ Every banked result carries a scope tag with four parts:
 - **reach**: "single" (one state, with the deformations or levels its hypotheses name), "class" (a named class or set of
   states) or "general" (every state of the grammar, or every manifold of a stated kind);
 - **hypotheses**: what else the result needs (an end condition, a level range, q ≠ 1, and so on).
+
+A count over states names its unit, word states or manifolds: a word and its reverse are two states and one manifold (§3).
+From B1517 on, an arc also records what it swept before it claims anything, in the repo and in the literature (`prior_work`;
+WORKING_RULES, the rule of 2026-10-02).
 
 The tag lives in `arc_verdict.json` (field `scope`) and in each kill-graph entry (field `scope`). From B1516 on,
 `tests/test_arc_verdict_schema.py` requires it of every new arc, and `tests/test_b1516_genesis_v1.py` requires it of every
@@ -315,3 +327,12 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
     - R57's rejection of B1380 §3 recorded at GM4.
   - The scope tag is made mandatory (§6).
   - The principle's single wording is proposed and awaits the owner (FK1).
+- **v1.1 · 2026-10-02 · B1517.** The first sweep under the rule of that date (WORKING_RULES: see the repo first, then the
+  literature), applied to this file's own claims.
+  - §3: the 758 word states realise 536 manifolds. A word and its reverse give the same oriented manifold, and the swap gives
+    the mirror image (B1517 C1–C6). The counts are credited to OEIS A000048 and A000046, and the tetrahedra count to
+    Goodman–Heard–Hodgson 2008 and Guéritaud 2006.
+  - §3: signed powers −uᵏ with k even are recorded as neither states nor levels, an open question the audit lane's R78 raised.
+  - §4: T-ROOT's homology formula credited.
+  - §5: main's 95 of 758 word states is 87 of 536 manifolds.
+  - §6: a count names its unit; arcs from B1517 record their prior-work sweep.

@@ -9278,6 +9278,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1517": {
+   "slug": "repo first then literature",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B134",
+    "B779",
+    "B945",
+    "P34"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B151": {
    "slug": "firewall confirmation",
    "motifs": [

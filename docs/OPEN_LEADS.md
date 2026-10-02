@@ -3713,6 +3713,10 @@ before it is computed.
    already holds base rates in main's class-index frame: 95 of the 758 word states to length 12 carry a generation-shaped background
    at their own level (main B1439), and ten of twelve three-fold levels to length 6 carry orbits of three (main B1434). The next
    positive anywhere must beat a stated base rate in its own frame.
+   *Added 2026-10-02 (B1517).* A rate names its unit. The 758 word states realise 536 manifolds, because a word and its reverse
+   are one manifold, so main's 95 of 758 is 87 of 536 per manifold. Main's census splits no pair. Reversal-closed states fire far
+   more often than paired ones: at lengths 7 to 12, 77 of 290 against 16 of 444. The null model must say whether it samples
+   words or manifolds, and must take reversal symmetry as an input; the split is descriptive, not a finding.
 2. **The frames beyond m004 (GENESIS §8, the frontier).**
    - The harmonic frame on states outside m004's levels: m003 (the sister, −LR), m010 (where the audit lane's R40 has an anomaly-free
      10 + 5̄ but no harmonic background), and m369 and s639 (the class-index frame's own-level carriers).

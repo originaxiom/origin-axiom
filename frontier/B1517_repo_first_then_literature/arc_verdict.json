@@ -1,0 +1,126 @@
+{
+ "id": "B1517",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1516",
+  "B945",
+  "B134",
+  "B1439",
+  "B1434"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none",
+  "object": "the word states of GENESIS.md section 3 (signed primitive words to length 12) and the once-punctured-torus bundles they realise; every arc's prior-work record from B1517 on",
+  "reach": "general",
+  "hypotheses": [
+   "the identity reverse(w) = (PJ) w^-1 (PJ)^-1 holds for every word; the count 536 is certified to length 12 (SnapPy, numerical canonical triangulations) and beyond it rests on the cited classification of punctured-torus bundles",
+   "C5 reads main's B1439 firing list as quoted at bd48dd28; its split by reversal-closed and paired states is descriptive"
+  ]
+ },
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "35a44eda",
+    "main": "f06d3405",
+    "origin/audit/physical-bridge-2026-09-05": "64a96ea6",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "35a44eda",
+    "origin/main": "bd48dd28",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "word reversal",
+    "758 signed word states",
+    "A000048",
+    "A000046",
+    "palindrom",
+    "Goodman",
+    "up to rotation and swap",
+    "GENESIS v1.0 IDs and claims (sections 3-5)"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@bd48dd28:frontier/B1434_the_architecture_census/FINDINGS.md:95",
+     "bearing": "states taken up to rotation and swap, a state and its mirror one row: the census divides out the mirror, not reversal"
+    },
+    {
+     "where": "origin/main@bd48dd28:frontier/B1439_the_census_by_slope (FINDINGS, census_summary.json)",
+     "bearing": "the 758 word states and the 95-of-758 rate GENESIS quotes; a rate per word"
+    },
+    {
+     "where": "frontier/B945_l126_one_z2 (this branch)",
+     "bearing": "reversal and swap as the bundle's two involutions, with GHH's amphichirality criterion: the identification the census missed"
+    },
+    {
+     "where": "frontier/B134_chirality_recursion_proved; CLAIMS.md P34; docs/NOVELTY_AUDIT.md",
+     "bearing": "Goodman-Heard-Hodgson 2008 already cited in the repo"
+    },
+    {
+     "where": "frontier/B779_convergence_probe/R1_galois_orbits.md",
+     "bearing": "glosses word reversal as orientation reversal; contradicted by C4"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@64a96ea6: R78 (SIGNED_LEVEL_DESIGN.md)",
+     "bearing": "sealed test of B1516 C9's signed-root level assignment at -(LR)^2; the gap recorded in GENESIS v1.1, the run left to the lane"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "OEIS: binary necklaces, primitive, colours interchangeable, with and without turning over",
+    "Goodman Heard Hodgson commensurators cusped hyperbolic manifolds punctured torus bundles",
+    "Gueritaud canonical triangulations once-punctured torus bundles monodromy word tetrahedra",
+    "Gieseking manifold once-punctured torus bundle monodromy double cover",
+    "first homology mapping torus coker(phi - 1) punctured torus bundle"
+   ],
+   "sources": [
+    {
+     "cite": "OEIS A000048",
+     "where": "the sequence entry",
+     "read": "2026-10-02",
+     "says": "primitive 2-colour necklaces, no turning over, colours interchangeable: 1,1,2,3,5,9,16,28,51,93,170 at n=2..12 (twice their sum is 758)"
+    },
+    {
+     "cite": "OEIS A000046",
+     "where": "the sequence entry",
+     "read": "2026-10-02",
+     "says": "primitive necklaces, turning over allowed, complements equivalent: 1,1,2,3,5,8,14,21,39,62,112 at n=2..12 (twice their sum is 536)"
+    },
+    {
+     "cite": "O. Goodman, D. Heard, C. Hodgson, Commensurators of cusped hyperbolic manifolds, Experimental Math. (2008), arXiv:0801.4815",
+     "where": "section 3, Lemma 3.2 and Theorem 3.1",
+     "read": "2026-10-02",
+     "says": "phi is conjugate to +-phi_w with w unique up to cyclic permutation; the monodromy triangulation has one tetrahedron per letter and is canonical; palindromic words give a rotation by pi, words whose reversal swaps L and R a glide reflection"
+    },
+    {
+     "cite": "F. Gueritaud, On canonical triangulations of once-punctured torus bundles and two-bridge link complements, Geom. Topol. 10 (2006)",
+     "where": "Prop. 2.1 and section 3.2",
+     "read": "2026-10-02",
+     "says": "the cyclic word is unique up to cyclic permutation; a word of period m gives m ideal tetrahedra"
+    },
+    {
+     "cite": "S. Chun, S. Gukov, S. Park, N. Sopenko, 3d-3d correspondence for mapping tori (2019), arXiv:1911.08456",
+     "where": "section 2.2, eq. (11)",
+     "read": "2026-10-02",
+     "says": "H_1 = Z + coker(phi - 1) for genus-one mapping tori"
+    },
+    {
+     "cite": "Wikipedia, Gieseking manifold",
+     "where": "the article",
+     "read": "2026-10-02",
+     "says": "a once-punctured torus bundle with monodromy (x,y) -> (x+y,x), double covered by the figure-eight knot complement, H_1 = Z"
+    }
+   ]
+  },
+  "standing": "RE-DERIVED"
+ },
+ "claim_one_line": "SEE THE REPO FIRST, THEN THE LITERATURE (the owner, 2026-10-02): the rule written into WORKING_RULES and PRACTICES and made data -- every arc from B1517 records prior_work (each swept head with its sha, the terms, the hits, the literature sources read with where and when, and a standing: KNOWN, RE-DERIVED, EXTENDS, NEW-AS-SWEPT or NOT-CHECKED), enforced in form by tests/test_arc_verdict_schema.py through scripts/checks/prior_work.py (twelve controls, both directions), which also refuses novelty wording a standing does not allow. Its first sweep, on GENESIS v1.0's own claims, found a miss in GENESIS: a word and its reverse realise the same oriented manifold (reverse(w) = (PJ) w^-1 (PJ)^-1 with det PJ = -1, exact on all 8190 words to length 12; the swap gives the mirror), so the 758 word states to length 12 (twice OEIS A000048) realise 536 manifolds (twice OEIS A000046): 222 states pair off, the first at length 7 (+LLLRLRR, +LLLRRLR); SnapPy's isometry signatures give exactly that partition, and on all 222 pairs the reverse is orientation-preservingly isometric (cusp map det +1, equal Chern-Simons) while the swap is the mirror. The identity was within reach in the repo (B945's involutions, B134's citation of Goodman-Heard-Hodgson 2008) and in the literature (GHH 2008 Lemma 3.2 and Theorem 3.1). Main's B1439 base rate, 95 of 758 word states, is 87 of 536 manifolds; its firing list splits no pair. The sweep also found the audit lane's R78 (sealed 2026-10-02) testing B1516 C9's level assignment, whose code comment is wrong for negative even powers: -u^k with k even is neither a state nor a level, an open question GENESIS v1.1 records. GENESIS amended to v1.1 (census, credits, signed powers, units); nothing here is new mathematics."
+}

@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1264** |
-| words of findings prose | **1,040,545** |
-| test lock files referenced | **768** |
-| arcs carrying an authored verdict | **1264** (100.0 %) |
+| research arcs with findings | **1265** |
+| words of findings prose | **1,043,249** |
+| test lock files referenced | **770** |
+| arcs carrying an authored verdict | **1265** (100.0 %) |
 | recorded closures | **819** (652 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 839 |
+| PROVED | 840 |
 | NEGATIVE | 326 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1516`** (1949 words, 1 locks)  
-GENESIS v1: the foundations stated once (GENESIS.md v1.0, canonical, versioned), with IDs unused anywhere else in the repository (PF, GM, SE, T-ROOT, F-xx, FK, GAP). The principle in one proposed wording as three faces PF1-PF3, with P000's premises placed (owner to confirm, FK1); the grammar GM1-GM5d with the core convention L = [[1,1],[0,1]], R = [[1,0],[1,1]], P = [[0,1],[1,0]]; the generated state space with its census, levels, moves and non-claims; the root; four frames as named, unearned hypotheses with where each has been run; a mandatory scope tag, made data in the kill graph for this seat's entries from B1369 on; five gaps; eleven forks; a crosswalk of old labels. Re-derived with own code (C1-C10): the records route is over-determined (A5 and A6 each select (1,1) on the 144-point grid); the torsion of a hyperbolic once-punctured-torus bundle is abs(2 - tr) (det 1) or abs(tr) (det -1), so the postulated criterion SE1 (torsion-free H1) selects exactly the class of LR (m004) and of the golden matrix LP (the Gieseking manifold m000), every torsion-free matrix in the box conjugated explicitly; the word census 2, 2, 4, 6, 10, 18, 32, 56, 102, 186, 340 equals main's 758 and only +LR is torsion-free; every hyperbolic matrix in the box is plus or minus a positive word up to explicit conjugation; in P000's metallic family L^m P the torsion is Z/m, so SE1 selects m = 1; SnapPy confirms the 24 states, word length = tetrahedra, m000 the only torsion-free orientation-reversing bundle to length 6 and m004 its orientation double cover. So selecting the root manifold needs four inputs (aperiodicity, the punctured-torus carrier, SE1, orientation), and each is needed (without aperiodicity the order-6 and parabolic monodromies pass; without the carrier the Sol torus bundle and every knot complement pass); minimality, positivity, the unit-shear generation and the order bit are not needed for it. The selecting property is the property that leaves the root empty at its own level. Corrected: UNIQUENESS s5 (LR and RL are SL(2,Z)-conjugate by L, not by the swap, det -1). No axiom derived from anything weaker; no frame made physics. I-26 stays UNEARNED. 0 of 19.  
-`B1516_genesis_v1/FINDINGS.md`
+**PROVED — `B1517`** (2621 words, 3 locks)  
+SEE THE REPO FIRST, THEN THE LITERATURE (the owner, 2026-10-02): the rule written into WORKING_RULES and PRACTICES and made data -- every arc from B1517 records prior_work (each swept head with its sha, the terms, the hits, the literature sources read with where and when, and a standing: KNOWN, RE-DERIVED, EXTENDS, NEW-AS-SWEPT or NOT-CHECKED), enforced in form by tests/test_arc_verdict_schema.py through scripts/checks/prior_work.py (twelve controls, both directions), which also refuses novelty wording a standing does not allow. Its first sweep, on GENESIS v1.0's own claims, found a miss in GENESIS: a word and its reverse realise the same oriented manifold (reverse(w) = (PJ) w^-1 (PJ)^-1 with det PJ = -1, exact on all 8190 words to length 12; the swap gives the mirror), so the 758 word states to length 12 (twice OEIS A000048) realise 536 manifolds (twice OEIS A000046): 222 states pair off, the first at length 7 (+LLLRLRR, +LLLRRLR); SnapPy's isometry signatures give exactly that partition, and on all 222 pairs the reverse is orientation-preservingly isometric (cusp map det +1, equal Chern-Simons) while the swap is the mirror. The identity was within reach in the repo (B945's involutions, B134's citation of Goodman-Heard-Hodgson 2008) and in the literature (GHH 2008 Lemma 3.2 and Theorem 3.1). Main's B1439 base rate, 95 of 758 word states, is 87 of 536 manifolds; its firing list splits no pair. The sweep also found the audit lane's R78 (sealed 2026-10-02) testing B1516 C9's level assignment, whose code comment is wrong for negative even powers: -u^k with k even is neither a state nor a level, an open question GENESIS v1.1 records. GENESIS amended to v1.1 (census, credits, signed powers, units); nothing here is new mathematics.  
+`B1517_repo_first_then_literature/FINDINGS.md`
 
 **NEGATIVE — `B1513`** (4081 words, 1 locks)  
 THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) carries exactly one 5'_H and one 5bar'_H, both its own (h1(L2 W) = h1(L2 W*) = 1, the 5'_H onto c, the 5bar'_H = c*), but its chiral 10' does not couple to them: the up-type relative triple product Y_k = <h u a u a> is zero exactly for every member of both populations (and at all 16 prime-root pairs), and post-run the symmetric form B(a, a') = Y(h, a, a') vanishes on the whole of H^1(W*), so no 10' end condition gives a coupling; the mu-type pairing <h u e u hbar> is zero too. No invariant form joins two members (one form iff i = j = k). P1 YES (stronger), P2 YES, P3 YES, P4 NO, P5 YES. The banked identity first (the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3: the first chain-level check of B1510's Theorem B). The zero is not an artefact: at B1510's +-i points the same instrument gives Y(h, a, e f0) = -lam_h kappa != 0 and <h u e u hbar> = lam_h kappa, exactly. Post-run theorem T-HIGGS-BULK-ACYCLIC: P_L(q, s) = s^6 - 12 s^5 + 48 s^4 - (w^2 - w + 72) s^3 + 48 s^2 - 12 s + 1 (w = q + 1/q), so for every q > 0, q != 1, every unitary twist and every cyclic cover Lambda^2 rho_q has no cohomology (H^0 of the fibre zero for every q > 0). Post-run (d): the c*-lift's longitude boundary class equals kappa_l_hat (Stokes), so the interior 10' exists exactly where kappa = 0, where the coupling also vanishes. Read against the audit lane's R75 (an independent re-verification of B1511's triplet). Routed in the kill graph (jordan-decoupling). I-26 stays UNEARNED. 0 of 19.  

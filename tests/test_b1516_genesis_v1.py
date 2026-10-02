@@ -130,7 +130,9 @@ def test_live_snappy_part():
 def test_genesis_version_and_sections():
     g = _genesis()
     assert g.startswith("# GENESIS — the foundations of origin-axiom")
-    assert "**Version 1.0 · 2026-10-02 · arc B1516 · canonical.**" in g
+    # v1.0 is B1516's; a later arc amends the head line and adds its own log entry (B1517: v1.1), so the head line is
+    # pinned by form and v1.0 by its log entry.
+    assert re.search(r"^\*\*Version 1\.\d+ · \d{4}-\d{2}-\d{2} · arcs? B1516[^*]* · canonical\.\*\*$", g, flags=re.M)
     heads = re.findall(r"^## (\d+)\. ", g, flags=re.M)
     assert heads == [str(i) for i in range(11)]
     assert "Where any document disagrees with this file, this file holds" in g

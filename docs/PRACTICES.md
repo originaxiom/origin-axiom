@@ -64,6 +64,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | The atlas lexicon must not **go blind**: zero-motif probes may not grow (B806) | **GATED** | `atlas-lexicon-current` |
 | No speculative room (`speculations/`, `philosophy/`, `story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
+| See the repo first, then the literature: every arc from B1517 records its sweep (each head's sha, the terms, the sources read, a standing), and novelty wording needs a standing that allows it (WORKING_RULES 2026-10-02) | **TESTED** | `tests/test_arc_verdict_schema.py` through `scripts/checks/prior_work.py`'s `validate()`; reading the hits stays MANUAL |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |
 
 ### Verification
@@ -654,6 +655,23 @@ remote head (filenames and content) and deleted-in-history, and the sentence cit
 un-swept absence are logged as ERROR_LEDGER E54; two were this bench's.
 Sub-clauses: run both φ and phi; verify the tool ran; `head`/`tail` is a window, never a
 population; check the flag's unit (occurrences vs lines).
+
+## See the repo first, then the literature — TESTED (the record) + MANUAL (the reading)
+
+(2026-10-02, the owner: *"i ljust lets make sure we dont miss any work and misclaim about it. make a rule to see the repo first
+and literature"*; WORKING_RULES, the rule of that date; first applied in B1517.)
+
+Before an arc is designed, and before any sentence says a result is new, first, absent, ours, or what another work states:
+1. **The repo:** `git fetch --all`, then `python3 scripts/checks/prior_work.py "<term>" ...`. It runs the absence sweep on every
+   head and the already-banked scan, and writes a skeleton record. Read the hits that bear on the claim at their source.
+2. **The literature:** search for the result itself, open the source, and record where it says so and when it was read.
+3. **The record:** `prior_work` in `arc_verdict.json` from B1517 on. The schema test checks its form, and refuses novelty wording
+   ("novel", "for the first time", "not in the literature", ...) unless the standing is NEW-AS-SWEPT or EXTENDS.
+
+**What no test can check:** whether the right terms were searched and whether each hit was read. That is why the record names the
+terms and the heads: a reviewer can rerun the sweep. **The instance that made it a rule:** GENESIS v1.0 counted 758 states and
+called each a bundle, while B945 and Goodman–Heard–Hodgson (2008) already held the identity that merges reversed words. There
+are 536 manifolds (B1517).
 
 ## Assert the ordering, not the threshold — MANUAL
 

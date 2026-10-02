@@ -414,3 +414,53 @@ its "only exact transport" was corrected on 2026-10-01 (ERROR_LEDGER, the E9 ins
 tagged; the README, the SM verdict, the chirality map, the verdict of the object, the negatives note, the state, the end-to-end
 chain, the theorem ledger, P000, P019, P022 and the campaign board brought into line, with the replaced passages in
 `docs/archive/SUPERSEDED_2026-10-02_GENESIS_V1.md`.
+
+
+## Rule (2026-10-02, the owner's instruction — adopted): SEE THE REPO FIRST, THEN THE LITERATURE
+
+The owner, verbatim: **"i ljust lets make sure we dont miss any work and misclaim about it. make a rule to see the repo first and
+literature"**
+
+**When.** Before an arc is designed, and before any sentence says that a result is new, first, absent, ours, or what another
+work states. That covers relays, headlines and canonical files as well as FINDINGS.
+
+**The rule.**
+1. **The repo first.** Run `git fetch --all`, then `python3 scripts/checks/prior_work.py "<term>" ...` on the arc's terms: the
+   object's names, the quantity, the method, their synonyms and the old labels in GENESIS §9. It runs the absence sweep (every
+   head, deleted history, the working tree) and the already-banked scan, and writes the skeleton of the record. Read every hit
+   that bears on the claim, in the FINDINGS body and in the script behind any number, not in a claim line.
+2. **The literature second.** Search for the result itself, not only its topic: arXiv, journals, standard texts, OEIS for any
+   count, and the repo's own literature files (`docs/LITERATURE_*`, `docs/PRIOR_ART_*`, `docs/NOVELTY_*`). Open the source and
+   record where it states the fact (section, lemma, equation or sequence number) and the date it was read. Never cite from
+   memory, and never credit a source with more than it says.
+3. **Record both legs as data.** From B1517 on, every `arc_verdict.json` carries `prior_work`: each swept head with its sha, the
+   terms, the hits that bear on the arc, the literature queries and the sources read, and a standing for the arc's main result:
+   KNOWN, RE-DERIVED (own code agrees with a cited source), EXTENDS, NEW-AS-SWEPT, or NOT-CHECKED with a reason.
+   `tests/test_arc_verdict_schema.py` enforces the form through the tool's `validate()`. The judgement stays with the seat.
+4. **Claim no more than the sweep saw.** "Novel", "for the first time", "not in the literature", "nobody has" and the like are
+   written only under a NEW-AS-SWEPT or EXTENDS standing, with the sweep's reach beside them; the schema test refuses them
+   otherwise. A classical fact is credited and called a re-derivation. A fact taken from another arc is re-read in that arc
+   before it is restated.
+5. **A miss found later** is corrected where it stands, with a dated note. The missed work is credited, the miss goes to
+   ERROR_LEDGER, and a seat whose work was missed or misread gets a relay.
+
+**Why it is binding.** The first application, the same day (B1517), swept GENESIS v1.0's own claims. Its census line counts 758
+states to length 12 and says each is realised as a once-punctured-torus bundle. But a word and its reverse realise the same
+oriented manifold, so the 758 word states realise 536 manifolds. The two counts are OEIS A000048 and A000046, each doubled for
+the sign. The ingredients were already in the repo: B945 (2026-08-07) treats reversal and the L↔R swap as the bundle's two
+involutions, and B134 cites Goodman–Heard–Hodgson (2008), whose §3 classifies these symmetries. They were also in the literature.
+No census arc met them. The base rate the next arc was to build on moves from 95 of 758 word states (12.5 %) to 87 of 536
+manifolds (16.2 %).
+
+**How it composes with the standing rules.** It gathers six rules into one procedure:
+- §0's search before "we lack X" and rule 1's sync before "no prior work";
+- B1202's already-banked check and the absence rule (2026-09-02);
+- the seal's PRIOR ART field (`seal-provenance`, for sealed arcs since 2026-08-08);
+- point-of-use citation (PRACTICES).
+
+It adds three things:
+- the literature leg is standing for every arc, sealed or not;
+- both legs are kept as data that a test reads;
+- what another work says is re-read at its source before it is restated.
+
+It does not replace the identification rule: a sweep that finds a matching label has not found a map.
