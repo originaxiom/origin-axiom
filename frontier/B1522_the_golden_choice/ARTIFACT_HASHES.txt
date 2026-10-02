@@ -1,0 +1,9 @@
+# B1522 -- sha-256 of the sealed files, recorded at the seal (before census.py read any flag on a level n >= 3).
+# controls.json is the design-time run (structure, lemmas, planted cases; flags only on levels 1 and 2).
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1522_the_golden_choice/)
+2e3e12cea442383e377cc1f0b302d266b4286f7a85e6526581277546f3e8e580  PREREGISTRATION.md
+14f89451638233edfd1ccfdfb7b4aff99b7fb041731f54572bfe00585d2a6a46  verification/route_fibre.py
+4b4401a9b8b0b7f3c078dbaac20ef7451e1cf78d1a5148f1d653979724d99c11  verification/route_rs.py
+2b019fb4d4326c8b0fc579fd251ea1a4f88450f22138bb9275d8fd37768069d2  verification/census.py
+4076e15edb62a9269210f6752d214fb4982336502cbbcb438688e18e407c3615  verification/controls.py
+0b6e6cac51bd088f543f61a8cf75f1473651193d0233abefb8d6cb38e2c9385a  verification/controls.json

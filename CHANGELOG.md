@@ -1,5 +1,31 @@
 # Changelog
 
+## B1522 sealed: THE GOLDEN CHOICE — which vacua of m004's harmonic family on the levels keep a count-odd symmetry (main's L242 (b))
+
+- **The question** (main's L242 (b); the owner's "all allowed not just m004, choice might be golden"). On M1–M12, which vacua
+  ν ⊗ ρ_q are fixed by a count-odd map? A count-odd map is a lift of the strong inversion or of the amphichiral map, followed by
+  dualising, possibly with complex conjugation of the twist.
+- **Lemmas proved at the seal.**
+  - Z: no cross term.
+  - C: the criterion. At generic λ only the reflections ±M^{2k}S act; at |λ| = 1 the rotations ±M^{2k+1} act too.
+  - G: M has characteristic polynomial t² − t − 1 and S exchanges its two eigenlines, so the reflections are the golden Galois
+    reflections. Credited to B1279 and B1303.
+  - SP: a nonzero single-eigenline component at a split prime is never reflection-fixed.
+  - F: closed counts on the odd levels with L_n a split prime.
+  - U: at the hyperbolic point every unitary vacuum of every state is fixed.
+- **The order is cited.** Both orders live over every firing vacuum with opposite counts (B1511, B1512). So no vacuum selects a
+  chirality whatever its stabiliser; the arc decides where the count-odd mirror breaks.
+- **Instruments.**
+  - Route F, the fibre model.
+  - Route R, Reidemeister–Schreier with its own Smith form and the cross term computed, not assumed.
+  - Controls C1–C11 pass: α checked in Ballas' faithful ρ_q and SnapPy's holonomy; dualising flags at q = 2; |T_n| against
+    SnapPy; |Isom| = 8n; a bijection between the routes intertwining all four actions; the splitting law for p < 2000.
+  - Two design bugs were caught by the controls before the seal: route R's Smith-form row/column convention, and C5's
+    expectation at n = 2. Both are fixed before the seal and will be disclosed in FINDINGS at banking.
+- **Predictions with priors.** P1 levels 1 and 2 all fixed; P2–P4 Lemma F's counts; P5 lower bounds; P6 an unfixed vacuum on a
+  level with no split prime; P7 more than half unfixed on M12; P8 all 196 firing members fixed; P9 the routes agree.
+- SEAL_LEDGER row; OPEN_LEADS sL-10 items 2 and 6. 0 of 19.
+
 ## Record the fast lane on 43543f4b (B1520's banked tree): at the bank's baseline; B1521's credit amended (B1512 Lemma I)
 
 - **The fast lane on 43543f4b** (69 minutes): 6 568 passed, 52 skipped, 10 failed. The ten are the same set as at 27220af6: the

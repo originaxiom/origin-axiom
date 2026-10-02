@@ -1,0 +1,826 @@
+{
+ "C1": {
+  "passed": true,
+  "iota": {
+   "cyclic conjugate of R^+-1": true,
+   "relator -> I in rho_q (q = 2, 3/7)": true,
+   "relator -> I in SnapPy's faithful holonomy (60 digits)": true
+  },
+  "eps": {
+   "cyclic conjugate of R^+-1": true,
+   "relator -> I in rho_q (q = 2, 3/7)": true,
+   "relator -> I in SnapPy's faithful holonomy (60 digits)": true
+  },
+  "alpha": {
+   "cyclic conjugate of R^+-1": false,
+   "relator -> I in rho_q (q = 2, 3/7)": true,
+   "relator -> I in SnapPy's faithful holonomy (60 digits)": true
+  },
+  "tau": {
+   "cyclic conjugate of R^+-1": true,
+   "relator -> I in rho_q (q = 2, 3/7)": true,
+   "relator -> I in SnapPy's faithful holonomy (60 digits)": true
+  }
+ },
+ "C2": {
+  "passed": true,
+  "iota": {
+   "rho_q o b is": "rho_q",
+   "declared dualising": false,
+   "agrees": true
+  },
+  "eps": {
+   "rho_q o b is": "rho_{1/q}",
+   "declared dualising": true,
+   "agrees": true
+  },
+  "alpha": {
+   "rho_q o b is": "rho_{1/q}",
+   "declared dualising": true,
+   "agrees": true
+  },
+  "tau": {
+   "rho_q o b is": "rho_q",
+   "declared dualising": false,
+   "agrees": true
+  }
+ },
+ "C3": {
+  "passed": true,
+  "rows": [
+   {
+    "n": 1,
+    "route R": [],
+    "route F": [],
+    "order": 1,
+    "L_2n - 2": 1,
+    "ok": true
+   },
+   {
+    "n": 2,
+    "route R": [
+     5
+    ],
+    "route F": [
+     5
+    ],
+    "order": 5,
+    "L_2n - 2": 5,
+    "ok": true
+   },
+   {
+    "n": 3,
+    "route R": [
+     4,
+     4
+    ],
+    "route F": [
+     4,
+     4
+    ],
+    "order": 16,
+    "L_2n - 2": 16,
+    "ok": true
+   },
+   {
+    "n": 4,
+    "route R": [
+     3,
+     15
+    ],
+    "route F": [
+     3,
+     15
+    ],
+    "order": 45,
+    "L_2n - 2": 45,
+    "ok": true
+   },
+   {
+    "n": 5,
+    "route R": [
+     11,
+     11
+    ],
+    "route F": [
+     11,
+     11
+    ],
+    "order": 121,
+    "L_2n - 2": 121,
+    "ok": true
+   },
+   {
+    "n": 6,
+    "route R": [
+     8,
+     40
+    ],
+    "route F": [
+     8,
+     40
+    ],
+    "order": 320,
+    "L_2n - 2": 320,
+    "ok": true
+   },
+   {
+    "n": 7,
+    "route R": [
+     29,
+     29
+    ],
+    "route F": [
+     29,
+     29
+    ],
+    "order": 841,
+    "L_2n - 2": 841,
+    "ok": true
+   },
+   {
+    "n": 8,
+    "route R": [
+     21,
+     105
+    ],
+    "route F": [
+     21,
+     105
+    ],
+    "order": 2205,
+    "L_2n - 2": 2205,
+    "ok": true
+   },
+   {
+    "n": 9,
+    "route R": [
+     76,
+     76
+    ],
+    "route F": [
+     76,
+     76
+    ],
+    "order": 5776,
+    "L_2n - 2": 5776,
+    "ok": true
+   },
+   {
+    "n": 10,
+    "route R": [
+     55,
+     275
+    ],
+    "route F": [
+     55,
+     275
+    ],
+    "order": 15125,
+    "L_2n - 2": 15125,
+    "ok": true
+   },
+   {
+    "n": 11,
+    "route R": [
+     199,
+     199
+    ],
+    "route F": [
+     199,
+     199
+    ],
+    "order": 39601,
+    "L_2n - 2": 39601,
+    "ok": true
+   },
+   {
+    "n": 12,
+    "route R": [
+     144,
+     720
+    ],
+    "route F": [
+     144,
+     720
+    ],
+    "order": 103680,
+    "L_2n - 2": 103680,
+    "ok": true
+   }
+  ],
+  "snappy_homology_torsion": {
+   "1": [],
+   "2": [
+    5
+   ],
+   "3": [
+    4,
+    4
+   ],
+   "4": [
+    3,
+    15
+   ],
+   "5": [
+    11,
+    11
+   ],
+   "6": [
+    8,
+    40
+   ],
+   "7": [
+    29,
+    29
+   ],
+   "8": [
+    21,
+    105
+   ]
+  }
+ },
+ "C4": {
+  "passed": true,
+  "rows": [
+   {
+    "n": 1,
+    "iota": {
+     "sigma": 1,
+     "c": []
+    },
+    "eps": {
+     "sigma": -1,
+     "c": []
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": []
+    },
+    "tau": {
+     "sigma": 1,
+     "c": []
+    },
+    "ok": true
+   },
+   {
+    "n": 2,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 3,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 4,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 5,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 6,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 7,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 8,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 9,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 10,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 11,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   },
+   {
+    "n": 12,
+    "iota": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "eps": {
+     "sigma": -1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "alpha": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "tau": {
+     "sigma": 1,
+     "c": [
+      0,
+      0
+     ]
+    },
+    "ok": true
+   }
+  ]
+ },
+ "C5": {
+  "passed": true,
+  "rows": [
+   {
+    "n": 1,
+    "route F group order": 4,
+    "route R group order": 4,
+    "8n": 8,
+    "expected": 4,
+    "ok": true
+   },
+   {
+    "n": 2,
+    "route F group order": 8,
+    "route R group order": 8,
+    "8n": 16,
+    "expected": 8,
+    "ok": true
+   },
+   {
+    "n": 3,
+    "route F group order": 24,
+    "route R group order": 24,
+    "8n": 24,
+    "expected": 24,
+    "ok": true
+   },
+   {
+    "n": 4,
+    "route F group order": 32,
+    "route R group order": 32,
+    "8n": 32,
+    "expected": 32,
+    "ok": true
+   },
+   {
+    "n": 5,
+    "route F group order": 40,
+    "route R group order": 40,
+    "8n": 40,
+    "expected": 40,
+    "ok": true
+   },
+   {
+    "n": 6,
+    "route F group order": 48,
+    "route R group order": 48,
+    "8n": 48,
+    "expected": 48,
+    "ok": true
+   },
+   {
+    "n": 7,
+    "route F group order": 56,
+    "route R group order": 56,
+    "8n": 56,
+    "expected": 56,
+    "ok": true
+   },
+   {
+    "n": 8,
+    "route F group order": 64,
+    "route R group order": 64,
+    "8n": 64,
+    "expected": 64,
+    "ok": true
+   },
+   {
+    "n": 9,
+    "route F group order": 72,
+    "route R group order": 72,
+    "8n": 72,
+    "expected": 72,
+    "ok": true
+   },
+   {
+    "n": 10,
+    "route F group order": 80,
+    "route R group order": 80,
+    "8n": 80,
+    "expected": 80,
+    "ok": true
+   },
+   {
+    "n": 11,
+    "route F group order": 88,
+    "route R group order": 88,
+    "8n": 88,
+    "expected": 88,
+    "ok": true
+   },
+   {
+    "n": 12,
+    "route F group order": 96,
+    "route R group order": 96,
+    "8n": 96,
+    "expected": 96,
+    "ok": true
+   }
+  ],
+  "snappy_isom_orders": {
+   "1": 8,
+   "2": 16,
+   "3": 24,
+   "4": 32,
+   "5": 40,
+   "6": 48,
+   "7": 56,
+   "8": 64
+  }
+ },
+ "C6": {
+  "passed": true
+ },
+ "C7": {
+  "charpoly(M)": "t**2 - t - 1",
+  "M^2 = Phi^-1": true,
+  "S M S = -M^-1": true,
+  "S Phi S = Phi^-1": true,
+  "S maps the phi-eigenline to the phibar-eigenline": true,
+  "passed": true
+ },
+ "C8": {
+  "passed": true,
+  "rows": [
+   {
+    "n": 1,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 2,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 3,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 4,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 5,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 6,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 7,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 8,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 9,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 10,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 11,
+    "bijection": true,
+    "intertwines the four actions": true
+   },
+   {
+    "n": 12,
+    "bijection": true,
+    "intertwines the four actions": true
+   }
+  ]
+ },
+ "C9": {
+  "passed": true,
+  "level 1": {
+   "route F all E-fixed": true,
+   "route R all E-fixed": true,
+   "characters": 1
+  },
+  "level 2": {
+   "route F all E-fixed": true,
+   "route R all E-fixed": true,
+   "characters": 5
+  }
+ },
+ "C10": {
+  "passed": true,
+  "toy without reflections: unfixed": 49,
+  "toy with one reflection: E-fixed": 7
+ },
+ "C11": {
+  "passed": true,
+  "exceptions": []
+ },
+ "all passed": true
+}

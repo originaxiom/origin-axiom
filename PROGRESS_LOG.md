@@ -17005,3 +17005,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **B1521's credit.** B1512 Lemma I (this seat, 2026-10-01) already has the fibre's hyperelliptic involution, B1297's P, fixing
   ρ_q. Added as a dated addendum to B1521's FINDINGS, with pointers in the relay to main and B1520's addendum, and an E54 instance
   in ERROR_LEDGER. Nothing computed changes.
+
+## 2026-10-02 — B1522 sealed: the golden choice (main's L242 (b))
+
+- **The question.** On the levels M1–M12 of m004's harmonic family, which vacua ν ⊗ ρ_q keep a count-odd symmetry?
+- **The golden structure.** The amphichiral fibre map M has characteristic polynomial t² − t − 1, and the strong inversion S
+  exchanges its two eigenlines (B1279, B1303). So at generic λ the only count-odd maps are golden Galois reflections. A vacuum that
+  no reflection fixes has a twist that chooses between φ and φ̄.
+- **Lemma F.** On M5, M7 and M11 the counts are closed: (p − 1)(p + 1 − 2n) unfixed at generic λ and (p − 1)(p − 1 − 2n) at
+  unitary λ.
+- **The routes and controls.** Two routes and eleven controls; flags read before the seal only on levels 1 and 2.
+- **The order.** The selection question is pre-empted by the order (B1512: both orders over every firing vacuum).
+- **Lemma U.** At the hyperbolic point every unitary vacuum of every state is fixed. The family off it on other states is
+  registered (sL-10 item 6).

@@ -3765,6 +3765,8 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    (P = conj(nM) ∘ s, sm:B1521 C1), which fixes ρ_q, while the inversion θ dualises it. A vacuum ρ_q ⊗ ψ on a level is fixed by
    a count-odd map only if one symmetry does both jobs. This seat takes it next as sm:B1522, sealed before computing, with the
    owner's "choice might be golden" in its first sealed form, and over the other allowed states as far as their families exist.
+   **Sealed 2026-10-02 as sm:B1522 (the golden choice):** the count-odd stabiliser of every vacuum on M1–M12, two routes,
+   predictions P1–P9; at the hyperbolic point every unitary vacuum of every state is fixed (Lemma U).
 3. **The narrowed reader arc** (B1519 §4; B1520 lead 3; the owner's to run). With the vacuum ruled out as a selector on this
    family, the remaining place for a choice is the law or the state, not the minimum.
 4. **GENESIS v1.3** (the audit lane's relay of `1e3d17b9`, and this arc). Rebuild GENESIS with its generator so that B1519's lock
@@ -3781,3 +3783,7 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    Ta^m ∘ Tb^m on ℂ³ have isolated components, and if so, are their κ values related by a symmetry? A yes with no relating
    symmetry would be a discrete fork inside one unit, which B130's reading denies. The golden unit m = 1 first. Seal before
    computing.
+6. **Where can a harmonic family exist off m004?** (sm:B1522 §6.) The deciding test needs the family off its hyperbolic point,
+   which the record has only for m004 (Ballas). Which word states are projectively flexible at the hyperbolic point:
+   dim H¹(π; v) beyond the cusp's share, with sl₄ = so(3,1) ⊕ v? Census over the states of length ≤ 8, with the
+   literature read first (Heusener–Porti; Ballas). Seal before computing.
