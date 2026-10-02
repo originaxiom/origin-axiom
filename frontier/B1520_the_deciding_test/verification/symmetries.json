@@ -1,0 +1,161 @@
+{
+ "relator": "mnMNmNMnmN",
+ "z": "(1 + sqrt(-3))/2",
+ "representatives": {
+  "id": {
+   "m": "m",
+   "n": "n",
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "theta": {
+   "m": "M",
+   "n": "N",
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "s": {
+   "m": "n",
+   "n": "m",
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "s.theta": {
+   "m": "N",
+   "n": "M",
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "tau.id": {
+   "m": "m",
+   "n": "nmN",
+   "endomorphism (R -> 1)": true,
+   "orientation": "reversed",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "5/2 + -1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "tau.theta": {
+   "m": "M",
+   "n": "nMN",
+   "endomorphism (R -> 1)": true,
+   "orientation": "reversed",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "5/2 + -1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "tau.s": {
+   "m": "nmN",
+   "n": "m",
+   "endomorphism (R -> 1)": true,
+   "orientation": "reversed",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "5/2 + -1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "tau.s.theta": {
+   "m": "nMN",
+   "n": "M",
+   "endomorphism (R -> 1)": true,
+   "orientation": "reversed",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "5/2 + -1/2 sqrt(-3)",
+   "automorphism": true
+  }
+ },
+ "V closed under composition": true,
+ "V multiplication": {
+  "id*id": "id",
+  "id*theta": "theta",
+  "id*s": "s",
+  "id*s.theta": "s.theta",
+  "theta*id": "theta",
+  "theta*theta": "id",
+  "theta*s": "s.theta",
+  "theta*s.theta": "s",
+  "s*id": "s",
+  "s*theta": "s.theta",
+  "s*s": "id",
+  "s*s.theta": "theta",
+  "s.theta*id": "s.theta",
+  "s.theta*theta": "s",
+  "s.theta*s": "theta",
+  "s.theta*s.theta": "id"
+ },
+ "main B1455's eight simple maps": {
+  "(m^1, n^1)": {
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "(m^1, n^-1)": {
+   "endomorphism (R -> 1)": false,
+   "orientation": "neither (not an automorphism)",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "3/2 + -1/2 sqrt(-3)",
+   "automorphism": false
+  },
+  "(m^-1, n^1)": {
+   "endomorphism (R -> 1)": false,
+   "orientation": "neither (not an automorphism)",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "3/2 + -1/2 sqrt(-3)",
+   "automorphism": false
+  },
+  "(m^-1, n^-1)": {
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "(n^1, m^1)": {
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  },
+  "(n^1, m^-1)": {
+   "endomorphism (R -> 1)": false,
+   "orientation": "neither (not an automorphism)",
+   "on H1": 1,
+   "tr(sigma(m) sigma(n))": "3/2 + -1/2 sqrt(-3)",
+   "automorphism": false
+  },
+  "(n^-1, m^1)": {
+   "endomorphism (R -> 1)": false,
+   "orientation": "neither (not an automorphism)",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "3/2 + -1/2 sqrt(-3)",
+   "automorphism": false
+  },
+  "(n^-1, m^-1)": {
+   "endomorphism (R -> 1)": true,
+   "orientation": "kept",
+   "on H1": -1,
+   "tr(sigma(m) sigma(n))": "5/2 + 1/2 sqrt(-3)",
+   "automorphism": true
+  }
+ },
+ "S2 SnapPy": {
+  "group": "D4",
+  "order": 8,
+  "amphichiral": true
+ },
+ "passed": true
+}

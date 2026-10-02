@@ -1,0 +1,64 @@
+{
+ "maps": [
+  "D.id",
+  "id"
+ ],
+ "rows": [
+  {
+   "p": 1009,
+   "q0 mod p": 240,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1
+   }
+  },
+  {
+   "p": 1009,
+   "q0 mod p": 803,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1
+   }
+  },
+  {
+   "p": 1033,
+   "q0 mod p": 733,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1
+   }
+  },
+  {
+   "p": 1033,
+   "q0 mod p": 334,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1
+   }
+  },
+  {
+   "p": 1129,
+   "q0 mod p": 373,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1
+   }
+  },
+  {
+   "p": 1129,
+   "q0 mod p": 790,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1
+   }
+  }
+ ],
+ "BANKED IDENTITY: I(W1) = -1 at all six prime-root pairs (B1509)": true,
+ "every bare image -1 and every dualised image +1": true
+}

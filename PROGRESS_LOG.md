@@ -16924,3 +16924,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Still the owner's:** GENESIS FK1's wording, FK12's framing, and whether "the reader" runs in its narrowed form.
 - I-26 stays UNEARNED. 0 of 19.
 
+
+## 2026-10-02 — B1520 sealed: THE DECIDING TEST ON THE BRIDGE'S VACUA (not run)
+
+- **Occasion:** the owner's selection-rule handoff, with the owner's go ("correctly, informedly, and bug free in all load bearing
+  math"). Its §4 test, made exact by main's B1455, is run here independently.
+- **The sweep, before the seal.** The prior-work sweep ran on ten terms after a fresh fetch, and main's topic sweep too. The audit
+  lane's new head `1e3d17b9` and the new seat lane `e5f1aebf` were read; neither duplicates the test. B1512 and R47 F14, read in
+  full, decide most of the outcome, and the seal says so.
+- **Sealed** at 5d55ef56…: two routes (exact intertwiners over ℚ(q); Theorem T with exact conjugacy loci), the follow-up index on
+  Φ(W₁), the read-out, and P1–P6 with priors 97, 98, 95, 85, 93 and 95%. The registered kill, outcome A, is banked NEGATIVE.
+- **Found at design:** a route-1 fault (a singular map read as an isomorphism), fixed and controlled (C7; ERROR_LEDGER). Main's
+  B1455 P1 is false: only four of its eight simple maps are automorphisms.
+- **Not computed:** the sixteen maps' action on the family, the follow-up beyond the identity, the read-out.
+- I-26 stays UNEARNED. 0 of 19.

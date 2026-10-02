@@ -1,5 +1,43 @@
 # Changelog
 
+## B1520 sealed: THE DECIDING TEST ON THE BRIDGE'S VACUA — does the bridge's symmetric potential have a vacuum that no chirality-flipping symmetry fixes? (not run)
+
+- **The occasion.** The owner's selection-rule handoff (`chat1_HANDOFF_SELECTION_RULE.zip`, sha-256 `655959b2…`), sent with the
+  owner's go: *"one vety important task, whenever its best time for you: you have my go just makensure you do it correctly,
+  informedly, and bug free in all load bearing math"*. Its §4 asks whether the physical bridge's action has a mirror-symmetric
+  potential whose minima are not mirror-symmetric. Main's B1455 (sealed, not run) made the question exact; this arc runs it
+  independently.
+- **What is already decided, and said so.** This seat's B1512 (ι fixes ρ_q; ε and α pair q with 1/q; ρ_q* ≅ ρ_{1/q}) and the
+  audit lane's R47 F14 (ρ_q∘θ ≅ ρ_q^{−T}) decide most of the outcome. The seal is therefore a verification seal: new code sharing
+  nothing with them, two routes sharing nothing with each other, controls, and expected values with priors.
+- **The question, exact** (PREREGISTRATION §1–§2). The sixteen maps are Φ = (σ, d): σ runs over Out(π₁ m004) = D4 and d marks
+  duality. For each vacuum μ ⊗ ρ_q (q > 0, μ ∈ ℂ*), is it fixed by a count-odd map (d = 1)? Lemma P proves the potential
+  invariant under all sixteen. Lemma Tw gives the twist's exponent. Lemma G lifts duality∘σ to an E8 gauge rotation composed with
+  an isometry; it acts as charge conjugation on the commutant SU(5), and needs σ to keep orientation for a parity-violating action.
+- **Two routes.**
+  - R1 solves the intertwiner equations exactly over ℚ(q), and at any zero of det X over ℚ or the zero's number field.
+  - R2 applies Theorem T (traces on a sixteen-word basis plus Skolem–Noether) over Laurent polynomials. Its Gram determinant has
+    all coefficients positive. It computes each pair's exact conjugacy locus as the positive roots of a gcd of 768 trace
+    differences.
+  - The follow-up runs B1509's banked index instrument on Φ(W₁) at q₀ = 17 ± 12√2, μ = −1, over three primes and both roots.
+- **Predictions** (§4): P1 the routes agree (97%); P2 ρ_q* ≅ ρ_{1/q}, and ≅ ρ_q exactly at q = 1 (98%); P3 no map leaves the
+  family (95%); P4 eight of sixteen fix every q, with the bare split 4 + 4 and the bare reversing split 2 + 2 (85%); P5 outcome A
+  with witness D.θ, the registered kill, banked NEGATIVE (93%); P6 I(Φ W₁) = −1 bare and +1 dualised (95%).
+- **Controls before the seal.** R1 C1–C10, R2 C1–C7 with exact loci, the follow-up on the identity alone (I(W₁) = −1 banked, +1
+  dualised by definition), E8's w₀ = −1 and the regular A4 + A4. The read-out's logic was tested on synthetic tables only.
+- **Banked identities inside each instrument** (the gate's BANKED IDENTITY): the relator and B1510's longitude trace
+  tr ρ_q(ℓ) = 3q + q⁻³ in both routes, and B1509's I(W₁) = −1 at all six pairs in the follow-up. A failed control or identity
+  leaves the outcome undecided.
+- **A design fault, fixed before the seal** (ERROR_LEDGER, E52 instance): R1 as first written would have read a singular
+  intertwiner as an isomorphism. C7 catches it.
+- **Seen first.** The prior-work sweep was run on ten terms after a fresh fetch, and main's topic sweep too. "count-odd" occurs
+  only in main's B1455, this seat's B1519 and one unrelated data file. The audit lane moved to `1e3d17b9` during the design; its
+  relay was read, and states *"Main B1455 is not duplicated"*. Its three GENESIS requests are answered after this arc. The new
+  seat lane `seat/determined-hopper-t1cmii` (`e5f1aebf`, a creates_law re-audit on this branch's tree) was read and not merged.
+- **Found at design and disclosed:** main's B1455 P1 (all eight simple maps are automorphisms) is false. Only the four with
+  a = b satisfy the relator. Main is told after this arc banks.
+- Seal `5d55ef56…`; ARTIFACT_HASHES.txt; SEAL_LEDGER, RELAY_LEDGER, ERROR_LEDGER and the alias table updated.
+
 ## B1519 banked: GENESIS v1.2 — main's v1.1 as the head, the seat's v1.1 folded in, the signed powers placed, the bar at GAP4, the observer line carried and FK12 registered (PROVED)
 
 - **The head is main's v1.1** (its B1454, `f655034b`), taken as main asked; all 23 of its changes are accepted. Three were checked at
