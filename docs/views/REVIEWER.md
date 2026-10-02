@@ -22,11 +22,11 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1267** |
-| words of findings prose | **1,050,665** |
-| test lock files referenced | **772** |
-| arcs carrying an authored verdict | **1267** (100.0 %) |
-| recorded closures | **819** (652 classified, 167 routed-only) |
+| research arcs with findings | **1268** |
+| words of findings prose | **1,053,454** |
+| test lock files referenced | **773** |
+| arcs carrying an authored verdict | **1268** (100.0 %) |
+| recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -37,7 +37,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 842 |
-| NEGATIVE | 326 |
+| NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
 
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 89 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 90 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 GENESIS v1.2, the first version both seats hold: main's v1.1 (B1454, verified by other routes and adopted the same afternoon) taken as the head as main asked, all 23 of its changes accepted (the quotation of B1434 checked at its source; the 48 surjections onto 2T re-derived), and this seat's own v1.1 (B1517) folded in. Added: the signed powers placed (every hyperbolic monodromy is one triple (u, k, eps); -u^k is a level of a state exactly when k is odd; the seeds are -u^(2^a); the first, m207 = -(LR)^2, was already in B1385 section 2 S4, main's B1418 and B1224, which B1517 missed); GAP4 points to docs/THE_BAR.md; B1234's base rate named (its six are the root and its relatives) and graded; the swap native on the words route; and the observer line carried and FK12 registered: the object supplies the incompletenesses and the observer every closing (B717); C18 prices it as a transparent, self-naming speaker that cannot choose (B759-B762); it names itself and cannot sign itself, the missing sign one Z/2 class (B1183, B1184); main's B1327 re-types the closings as relations, and its mirror = swap x arrow is reproduced (K7). GENESIS had not carried the line; whether the closings belong to the genesis is now an open fork. Own-code checks K1-K7 pass. No status changes. 0 of 19.  
 `B1519_genesis_v12/FINDINGS.md`
 
-**NEGATIVE — `B1513`** (4081 words, 1 locks)  
-THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) carries exactly one 5'_H and one 5bar'_H, both its own (h1(L2 W) = h1(L2 W*) = 1, the 5'_H onto c, the 5bar'_H = c*), but its chiral 10' does not couple to them: the up-type relative triple product Y_k = <h u a u a> is zero exactly for every member of both populations (and at all 16 prime-root pairs), and post-run the symmetric form B(a, a') = Y(h, a, a') vanishes on the whole of H^1(W*), so no 10' end condition gives a coupling; the mu-type pairing <h u e u hbar> is zero too. No invariant form joins two members (one form iff i = j = k). P1 YES (stronger), P2 YES, P3 YES, P4 NO, P5 YES. The banked identity first (the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3: the first chain-level check of B1510's Theorem B). The zero is not an artefact: at B1510's +-i points the same instrument gives Y(h, a, e f0) = -lam_h kappa != 0 and <h u e u hbar> = lam_h kappa, exactly. Post-run theorem T-HIGGS-BULK-ACYCLIC: P_L(q, s) = s^6 - 12 s^5 + 48 s^4 - (w^2 - w + 72) s^3 + 48 s^2 - 12 s + 1 (w = q + 1/q), so for every q > 0, q != 1, every unitary twist and every cyclic cover Lambda^2 rho_q has no cohomology (H^0 of the fibre zero for every q > 0). Post-run (d): the c*-lift's longitude boundary class equals kappa_l_hat (Stokes), so the interior 10' exists exactly where kappa = 0, where the coupling also vanishes. Read against the audit lane's R75 (an independent re-verification of B1511's triplet). Routed in the kill graph (jordan-decoupling). I-26 stays UNEARNED. 0 of 19.  
-`B1513_the_triplets_higgs_sector/FINDINGS.md`
+**NEGATIVE — `B1520`** (2789 words, 1 locks)  
+THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  
+`B1520_the_deciding_test/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

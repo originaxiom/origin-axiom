@@ -1,0 +1,363 @@
+{
+ "controls": {
+  "C1 rho_q vs rho_q (positive)": {
+   "pair": "id",
+   "dim over Q(q)": 1,
+   "X verified": true,
+   "det X": "1",
+   "positive zeros of det X": [],
+   "at the zeros: dim, some invertible": [],
+   "isomorphic for every q > 0": true
+  },
+  "C2 rho_q vs P rho_q P^-1 (positive)": {
+   "pair": "conj",
+   "dim over Q(q)": 1,
+   "X verified": true,
+   "det X": "-24",
+   "positive zeros of det X": [],
+   "at the zeros: dim, some invertible": [],
+   "isomorphic for every q > 0": true
+  },
+  "C3 rho_q vs rho_2q (negative)": {
+   "pair": "2q",
+   "dim over Q(q)": 0,
+   "isomorphic for every q > 0": false,
+   "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+  },
+  "C4 rho_q vs rho_{1/q}, no map (negative off q = 1)": {
+   "pair": "1/q",
+   "dim over Q(q)": 0,
+   "isomorphic for every q > 0": false,
+   "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+  },
+  "C5 at q = the real root of x^3 - x - 1: rho vs rho, dim and invertible (positive)": [
+   1,
+   true
+  ],
+  "C6 at the same point: rho_q vs rho_2q, dim and invertible (negative)": [
+   0,
+   false
+  ],
+  "C7 a unique singular intertwiner (negative)": {
+   "pair": "singular",
+   "dim over Q(q)": 1,
+   "X verified": true,
+   "det X": "0",
+   "isomorphic for every q > 0": false,
+   "note": "the only intertwiner over Q(q) is singular: not isomorphic for generic q"
+  },
+  "C8 at q = 1: rho_q vs rho_{1/q}, dim and invertible (positive: they coincide)": [
+   1,
+   true
+  ],
+  "C9 BANKED IDENTITY: the relator mnMNmNMnmN holds": true,
+  "C10 BANKED IDENTITY: tr rho_q(nMNmmNMn) = 3q + q^-3 (B1510 Lemma R)": true,
+  "controls passed": true
+ },
+ "table": {
+  "id": {
+   "orientation": "kept",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "id -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "1",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "id -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "D.id": {
+   "orientation": "kept",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.id -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "D.id -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  },
+  "theta": {
+   "orientation": "kept",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "theta -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "theta -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "q**2",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  },
+  "D.theta": {
+   "orientation": "kept",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.theta -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q**3*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "D.theta -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "s": {
+   "orientation": "kept",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "s -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "16*q**2",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "s -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "D.s": {
+   "orientation": "kept",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.s -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "D.s -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q**3*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  },
+  "s.theta": {
+   "orientation": "kept",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "s.theta -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "s.theta -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "16",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  },
+  "D.s.theta": {
+   "orientation": "kept",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.s.theta -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "D.s.theta -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "tau.id": {
+   "orientation": "reversed",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "tau.id -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "tau.id -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q**3",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  },
+  "D.tau.id": {
+   "orientation": "reversed",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.tau.id -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "16*q**6*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "D.tau.id -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "tau.theta": {
+   "orientation": "reversed",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "tau.theta -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "tau.theta -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "D.tau.theta": {
+   "orientation": "reversed",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.tau.theta -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "D.tau.theta -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "16*q**4*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  },
+  "tau.s": {
+   "orientation": "reversed",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "tau.s -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "tau.s -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  },
+  "D.tau.s": {
+   "orientation": "reversed",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.tau.s -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "16*q**4*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "D.tau.s -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "tau.s.theta": {
+   "orientation": "reversed",
+   "dualised": false,
+   "to rho_q": {
+    "pair": "tau.s.theta -> rho_q",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "-16*q**3",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   },
+   "to rho_{1/q}": {
+    "pair": "tau.s.theta -> rho_{1/q}",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   }
+  },
+  "D.tau.s.theta": {
+   "orientation": "reversed",
+   "dualised": true,
+   "to rho_q": {
+    "pair": "D.tau.s.theta -> rho_q",
+    "dim over Q(q)": 0,
+    "isomorphic for every q > 0": false,
+    "note": "no intertwiner over Q(q): isomorphic at most at finitely many q (route 2 locates them)"
+   },
+   "to rho_{1/q}": {
+    "pair": "D.tau.s.theta -> rho_{1/q}",
+    "dim over Q(q)": 1,
+    "X verified": true,
+    "det X": "16*q**6*(q**2 + q + 1)",
+    "positive zeros of det X": [],
+    "at the zeros: dim, some invertible": [],
+    "isomorphic for every q > 0": true
+   }
+  }
+ }
+}

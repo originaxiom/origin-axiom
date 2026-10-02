@@ -1,5 +1,32 @@
 # Changelog
 
+## B1520 banked: THE DECIDING TEST ON THE BRIDGE'S VACUA — every vacuum keeps a chirality-flipping symmetry that preserves orientation; the geometric mirror breaks, the count-odd mirror never does (NEGATIVE, the registered kill)
+
+- **Run as sealed** (`dda82524`; route 1 16.6 s, route 2 27.0 s, the follow-up 0.9 s). Every control and banked identity passed;
+  the two routes agree on all 32 decisions. P1–P6 YES, against an expected 5.6 of 6, priors informed by B1512 and R47.
+- **The answer.** On m004's Ballas family at level one, every vacuum μ ⊗ ρ_q (q > 0, μ ∈ ℂ*) is fixed by the count-odd maps D.θ
+  and D.sθ. Both keep orientation, and both have twist exponent +1.
+  - By L3, no vacuum carries a count.
+  - By Lemma G, each keeps a charge conjugation of the 4d SU(5), under the fences.
+  - The handoff's kill condition holds: *"the vacuum does not select, and chirality is an input here exactly as in the SM."*
+- **The two mirrors.** At a generic vacuum (q ≠ 1, μ ≠ ±1) the stabiliser is {id, s, D.θ, D.sθ}, so no orientation-reversing map
+  survives: the geometric mirror is broken. But a bare map keeps the count (L1), so the breaking selects nothing.
+- **The table.** Bare maps fixing every q: id, s, τθ, τsθ. Pairing q with 1/q: θ, sθ, τ, τs. Duality swaps the two.
+- **The follow-up.** I(W₁) = −1; its eight bare images −1 and its eight dualised images +1, at three primes and both roots. The
+  chiral configurations come in count-flipped pairs over each vacuum and are lifted equally.
+- **Post-run checks** (`post_run_check.py`, written after the run):
+  - a third route at seven rational points in own Fraction arithmetic, with all 224 decisions as sealed;
+  - the witness proportional to the audit lane's R47 F14 J⁻¹ at each point;
+  - the twist, 48 cases as Lemma Tw says;
+  - the stabilisers of five kinds of vacuum, solved directly.
+- **Standing: RE-DERIVED** from B1512 and R47 F14; creates_law false (B1214's rule: a verification and a sealed-cell decision).
+  Main's B1455 P1 is false.
+- **Banked with** FINDINGS (with "Seen first"), the verdict (scope: F-HE, m004's Ballas family at level one, reach single), the
+  lock `tests/test_b1520_the_deciding_test.py` (13 fast, 1 slow), the kill graph entry (`symmetry-cannot-select`, with its hatch),
+  OPEN_LEADS sL-10, CAMPAIGN_STATUS, and relays to main and to the audit lane. The audit lane's three GENESIS requests and the FK9
+  update wait for GENESIS v1.3, which must be rebuilt with its generator so that B1519's lock moves with it.
+- I-26 stays UNEARNED. 0 of 19.
+
 ## B1520 sealed: THE DECIDING TEST ON THE BRIDGE'S VACUA — does the bridge's symmetric potential have a vacuum that no chirality-flipping symmetry fixes? (not run)
 
 - **The occasion.** The owner's selection-rule handoff (`chat1_HANDOFF_SELECTION_RULE.zip`, sha-256 `655959b2…`), sent with the

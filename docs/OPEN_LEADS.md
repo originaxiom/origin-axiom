@@ -3747,3 +3747,26 @@ orientation) stay with sL-3; FK7 (the deck) with sL-5.
 **Coordination (2026-10-02).** The audit lane reconciled the genesis the same day, independently (its premise register v0.1 and
 plan v0.1 at `accf5146`). Its register and GENESIS v1.0 agree on every point checked. Its typed atlas (its stage 3) and this
 seat's GENESIS §3 and §5 should become one; the relay `../SM_TO_CODEX_2026-10-02_GENESIS_V1.md` asks which way.
+
+## sL-10 — AFTER THE DECIDING TEST (registered 2026-10-02, B1520; this seat's proposal, the owner may reorder)
+
+*Banked 2026-10-02 as B1520 (NEGATIVE, the registered kill; sealed at dda82524).* The owner's selection-rule handoff (§4), made
+exact by main's B1455, was run independently on m004's Ballas family at level one. Every vacuum μ ⊗ ρ_q is fixed by the count-odd
+maps D.θ and D.sθ, both orientation-keeping, so no vacuum carries a count. The geometric mirror is broken at a generic vacuum (no
+orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, reach single (kill graph, `symmetry-cannot-select`).
+
+1. **The source and end test** (B1520 lead 1; GENESIS GAP2 and GAP3). Is there an admissible source or end law (R77's
+   full-current construction with its free profiles, or a GENESIS GAP2 end condition) that is not invariant under θ and sθ? If
+   so, what does it do to the vacuum stabiliser {id, s, D.θ, D.sθ}? This is the kill's hatch, made into a question; seal before
+   computing.
+2. **Other families** (B1520 lead 2; sL-9 item 2). The sixteen-map test on another component of m004's character variety at level
+   one, and on the cyclic levels' families (B1511's projective tower), where the outer group is larger.
+3. **The narrowed reader arc** (B1519 §4; B1520 lead 3; the owner's to run). With the vacuum ruled out as a selector on this
+   family, the remaining place for a choice is the law or the state, not the minimum.
+4. **GENESIS v1.3** (the audit lane's relay of `1e3d17b9`, and this arc). Rebuild GENESIS with its generator so that B1519's lock
+   moves with it:
+   - FK12's never-reads sentence, qualified by the audit lane's AR3 detector point (B37);
+   - B723's B942 and B957 retractions, carried into the observer and closings summary;
+   - B130's empty global elimination, scoped by the countermodel x(x − 1) = 0, x·k = 0;
+   - FK9: main's B1455 test run on one family (B1520, NEGATIVE, reach single).
+   Each is checked with own code first.

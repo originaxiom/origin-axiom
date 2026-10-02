@@ -1,0 +1,249 @@
+{
+ "controls": {
+  "symmetries": true,
+  "route 1": true,
+  "route 2": true,
+  "lift": true
+ },
+ "the two routes agree on all 32 decisions": true,
+ "route 2's Gram determinant has no positive root": true,
+ "the sixteen maps": {
+  "id": {
+   "orientation": "kept",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  },
+  "D.id": {
+   "orientation": "kept",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "theta": {
+   "orientation": "kept",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "D.theta": {
+   "orientation": "kept",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  },
+  "s": {
+   "orientation": "kept",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  },
+  "D.s": {
+   "orientation": "kept",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "s.theta": {
+   "orientation": "kept",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "D.s.theta": {
+   "orientation": "kept",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  },
+  "tau.id": {
+   "orientation": "reversed",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  },
+  "D.tau.id": {
+   "orientation": "reversed",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "tau.theta": {
+   "orientation": "reversed",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "D.tau.theta": {
+   "orientation": "reversed",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  },
+  "tau.s": {
+   "orientation": "reversed",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  },
+  "D.tau.s": {
+   "orientation": "reversed",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "tau.s.theta": {
+   "orientation": "reversed",
+   "count-odd (dualised)": false,
+   "on the family (R1)": "fixes q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": -1
+  },
+  "D.tau.s.theta": {
+   "orientation": "reversed",
+   "count-odd (dualised)": true,
+   "on the family (R1)": "q -> 1/q",
+   "R2 agrees": true,
+   "on the twist: mu -> mu^e, e": 1
+  }
+ },
+ "stabiliser of a vacuum q != 1 (maps fixing every q)": [
+  "id",
+  "D.theta",
+  "s",
+  "D.s.theta",
+  "D.tau.id",
+  "tau.theta",
+  "D.tau.s",
+  "tau.s.theta"
+ ],
+ "maps pairing q with 1/q": [
+  "D.id",
+  "theta",
+  "D.s",
+  "s.theta",
+  "tau.id",
+  "D.tau.theta",
+  "tau.s",
+  "D.tau.s.theta"
+ ],
+ "count-odd maps fixing every vacuum, every twist mu": [
+  "D.theta",
+  "D.s.theta"
+ ],
+ "of these, orientation kept (Lemma G's charge conjugation needs one)": [
+  "D.theta",
+  "D.s.theta"
+ ],
+ "bare maps fixing every q": [
+  "id",
+  "s",
+  "tau.theta",
+  "tau.s.theta"
+ ],
+ "bare orientation-reversing maps fixing every q": [
+  "tau.theta",
+  "tau.s.theta"
+ ],
+ "bare orientation-reversing maps pairing q with 1/q": [
+  "tau.id",
+  "tau.s"
+ ],
+ "maps leaving the family": [],
+ "every control and banked identity passed": true,
+ "registered outcome": "A",
+ "follow-up: I(W1) = -1 and every count-odd image +1, every bare image -1": true,
+ "route 2: the conjugacy loci of the 32 pairs": {
+  "id to rho_q": "every q > 0",
+  "id to rho_{1/q}": [
+   "1"
+  ],
+  "D.id to rho_q": [
+   "1"
+  ],
+  "D.id to rho_{1/q}": "every q > 0",
+  "theta to rho_q": [
+   "1"
+  ],
+  "theta to rho_{1/q}": "every q > 0",
+  "D.theta to rho_q": "every q > 0",
+  "D.theta to rho_{1/q}": [
+   "1"
+  ],
+  "s to rho_q": "every q > 0",
+  "s to rho_{1/q}": [
+   "1"
+  ],
+  "D.s to rho_q": [
+   "1"
+  ],
+  "D.s to rho_{1/q}": "every q > 0",
+  "s.theta to rho_q": [
+   "1"
+  ],
+  "s.theta to rho_{1/q}": "every q > 0",
+  "D.s.theta to rho_q": "every q > 0",
+  "D.s.theta to rho_{1/q}": [
+   "1"
+  ],
+  "tau.id to rho_q": [
+   "1"
+  ],
+  "tau.id to rho_{1/q}": "every q > 0",
+  "D.tau.id to rho_q": "every q > 0",
+  "D.tau.id to rho_{1/q}": [
+   "1"
+  ],
+  "tau.theta to rho_q": "every q > 0",
+  "tau.theta to rho_{1/q}": [
+   "1"
+  ],
+  "D.tau.theta to rho_q": [
+   "1"
+  ],
+  "D.tau.theta to rho_{1/q}": "every q > 0",
+  "tau.s to rho_q": [
+   "1"
+  ],
+  "tau.s to rho_{1/q}": "every q > 0",
+  "D.tau.s to rho_q": "every q > 0",
+  "D.tau.s to rho_{1/q}": [
+   "1"
+  ],
+  "tau.s.theta to rho_q": "every q > 0",
+  "tau.s.theta to rho_{1/q}": [
+   "1"
+  ],
+  "D.tau.s.theta to rho_q": [
+   "1"
+  ],
+  "D.tau.s.theta to rho_{1/q}": "every q > 0"
+ },
+ "every locus is 'every q > 0' or exactly q = 1": true,
+ "P2: rho_q* vs rho_q conjugate exactly at q > 0": [
+  "1"
+ ],
+ "predictions": {
+  "P1 the routes agree on all 32 decisions": true,
+  "P2 rho_q* = rho_{1/q}, not rho_q for q != 1": true,
+  "P3 no map leaves the family": true,
+  "P4 eight fix every q; bare 4 fix + 4 pair; bare reversing 2 fix + 2 pair": true,
+  "P5 outcome A with witness D.theta": true,
+  "P6 the follow-up": true
+ },
+ "predictions true": 6
+}

@@ -1,0 +1,123 @@
+{
+ "id": "B1520",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B1512",
+  "B1509",
+  "B1510",
+  "B1374",
+  "B1519"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "m004's Ballas family rho_q (q > 0) at level one, with central twists mu (x) rho_q (mu in C*) and, at the exceptional points, their split sums with trivial lines",
+  "reach": "single",
+  "hypotheses": [
+   "H-vac: the bridge's vacua are these flat bundles with their harmonic metrics (R44, R54, R76; not re-derived)",
+   "the uniqueness of the harmonic metric (R47's F13, as R47 cites it), so a vacuum is fixed up to gauge exactly when its flat bundle is fixed up to isomorphism",
+   "main's class index (B1297/B1446) with L1 (B1512) and L2 (the definition)",
+   "Lemma G's charge-conjugation reading needs sigma-invariant end conditions (GENESIS GAP2); the spinor and domain transport is not done"
+  ]
+ },
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "27220af6",
+    "main": "f06d3405",
+    "origin/audit/physical-bridge-2026-09-05": "1e3d17b9",
+    "origin/seat/determined-hopper-t1cmii": "e5f1aebf",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "27220af6",
+    "origin/main": "12ed66bd",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "selection rule",
+    "spontaneous",
+    "mirror-symmetric",
+    "dual family",
+    "strong inversion",
+    "amphichiral map",
+    "Ballas",
+    "1/q",
+    "count-odd",
+    "charge conjugation"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@27220af6:frontier/B1512_the_self_coincident_orbits/PREREGISTRATION.md (Lemmas I, E, A, D) and FINDINGS.md",
+     "bearing": "iota fixes rho_q, epsilon and alpha pair q with 1/q, rho_q* = rho_{1/q}, each with an explicit intertwiner; with L1 (Lemma A, Consequence 4) and the duality sign flip (Lemma D, Consequence 3) they decide most of the outcome, which the seal said; this arc re-derives them by three routes"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@1e3d17b9:reports/physical_bridge_2026_09_05/received_r47/F14_FINDINGS.txt section 1",
+     "bearing": "R47 F14: J(q) with M^T J = J M, N^T J = J N, det J = -q(q^2+q+1)^3/[16(q+1)^4]: the witness D.theta itself; post-run X2 finds this arc's D.theta intertwiner proportional to J^-1 at seven points"
+    },
+    {
+     "where": "origin/main@12ed66bd:frontier/B1455_the_selection_rule_and_the_deciding_test/PREREGISTRATION.md",
+     "bearing": "main's sealed, unrun design of this exact test (L1-L3, P1-P6); its P1 (eight simple maps are automorphisms) is false, found at this arc's design; its question is answered here independently"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@1e3d17b9:reports/physical_bridge_2026_09_05/relays/CODEX_TO_CC_AND_SM_2026-10-02_ACT_REGISTER_AND_V1_2.md",
+     "bearing": "'Main B1455 is not duplicated and is not extended to R77's changed source theory': no overlap; its three GENESIS requests are answered after this arc"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@27220af6:frontier/B1509_the_join_on_the_projective_vacuum/verification/extension_index.py",
+     "bearing": "the banked index instrument (B1374's index_lib over GF(p)) and the banked identity I(W1) = -1 at q0 = 17 +- 12 sqrt2, mu = -1, reproduced in every row of the follow-up"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@27220af6:frontier/B1510_the_two_sided_deformation/FINDINGS.md section 2 (Lemma R)",
+     "bearing": "tr rho_q(l) = 3q + q^-3: the banked identity both routes reproduce inside themselves"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@1e3d17b9:R76 (FLAT_VACUUM)",
+     "bearing": "the vacuum condition (a stationary finite-energy flat point is harmonic; the non-split extension's potential a t^2 + c t^4 is lowest at the split limit): hypothesis H-vac, cited and not re-derived"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Ballas figure-eight properly convex deformations dual orientation symmetry",
+    "Skolem-Noether automorphisms of central simple algebras inner",
+    "Mostow-Prasad outer automorphism group isometry group finite volume hyperbolic",
+    "Chevalley involution E8 inner longest Weyl element minus one"
+   ],
+   "sources": [
+    {
+     "cite": "S. A. Ballas, Finite volume properly convex deformations of the figure-eight knot, arXiv:1403.3314v3",
+     "where": "p. 17 (the generators M_t, N_t); p. 2 (rho_{1/2} hyperbolic, the rho_s pairwise non-conjugate); all 21 pages searched for dual/orientation/symmetr/amphichir/involution/invert/inverse",
+     "read": "2026-10-02",
+     "says": "the family rho_s, s = log(1/(16 t^4)), q = 2t; only 'dual' and 'orientation' occur, in unrelated senses; no statement of the dual family or of the symmetries' action"
+    },
+    {
+     "cite": "Skolem-Noether theorem (standard; e.g. any text on central simple algebras)",
+     "where": "statement: every automorphism of a central simple algebra over a field is inner",
+     "read": "2026-10-02",
+     "says": "used in Theorem T's last step"
+    },
+    {
+     "cite": "Mostow-Prasad rigidity (standard)",
+     "where": "statement: for M hyperbolic of finite volume, Out(pi_1 M) = Isom(M)",
+     "read": "2026-10-02",
+     "says": "the eight classes are the isometry group D4 (SnapPy: order 8, amphichiral)"
+    },
+    {
+     "cite": "Borel-de Siebenthal; the Chevalley involution and w0 = -1 for E8 (standard)",
+     "where": "maximal-rank subalgebras from the extended Dynkin diagram; Aut = Int for E8",
+     "read": "2026-10-02",
+     "says": "Lemma G's two facts, checked by lift_e8.py"
+    }
+   ]
+  },
+  "standing": "RE-DERIVED"
+ },
+ "claim_one_line": "THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19."
+}

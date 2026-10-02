@@ -9436,6 +9436,33 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1520": {
+   "slug": "the deciding test",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B774",
+    "L1",
+    "L2",
+    "L3",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "open",
+   "domain": "topology"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

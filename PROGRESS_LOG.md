@@ -16938,3 +16938,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   B1455 P1 is false: only four of its eight simple maps are automorphisms.
 - **Not computed:** the sixteen maps' action on the family, the follow-up beyond the identity, the read-out.
 - I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — B1520 banked: THE DECIDING TEST ON THE BRIDGE'S VACUA (NEGATIVE)
+
+- **Run as sealed** (dda82524). Every control and banked identity passed; the routes agree on all 32 decisions; P1–P6 YES.
+- **Outcome A, the registered kill.** Every vacuum of m004's Ballas family is fixed by D.θ and D.sθ, both count-odd and
+  orientation-keeping. No vacuum carries a count, and the vacuum does not select chirality.
+- **The two mirrors.** The geometric mirror is broken at a generic vacuum (stabiliser {id, s, D.θ, D.sθ}). A bare map keeps the
+  count, so that breaking selects nothing.
+- **Verified against a bug.** A third route at seven rational points, R47 F14's J, the twist and the stabilisers all agree.
+  Standing: RE-DERIVED from B1512 and R47.
+- **Main's B1455 P1 is false.** Main is told by relay; so is the audit lane. The audit lane's three GENESIS requests wait for
+  GENESIS v1.3 (OPEN_LEADS sL-10 item 4).
+- I-26 stays UNEARNED. 0 of 19.

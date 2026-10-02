@@ -11688,5 +11688,32 @@
     "the sealed rule for I(W) and I(Lambda^2 W)"
    ]
   }
+ },
+ {
+  "id": "B1520",
+  "claim_killed": "THE SELECTION RULE ON THE BRIDGE'S VACUA (the owner's handoff, section 4; main's B1455, run independently): that a minimum of the bridge's mirror-symmetric potential on m004's Ballas family breaks every chirality-flipping symmetry, so that the vacuum selects a chirality. Every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by D.theta and D.s.theta (theta inverts both generators, s swaps them, D dualises), both orientation-keeping with twist exponent +1, so by L3 every vacuum has class index 0, and by Lemma G it keeps a charge conjugation of the 4d SU(5). The geometric mirror is broken at a generic vacuum (q != 1, mu != +-1: no orientation-reversing map fixes it), but a bare map keeps the count (L1), so the breaking selects nothing. Sealed at dda82524; P1-P6 YES; two exact routes agree on all 32 decisions; post-run a third route at seven rational points, R47 F14's J, the twist and the stabilisers.",
+  "kill_form": "symmetry-cannot-select (the count-odd mirror is never broken: D.theta and D.s.theta fix every vacuum and every twist, so the count is zero at every minimum; the chiral configurations, the non-split extensions, come in count-flipped pairs over each vacuum and the potential lifts both equally; the mirror the minima do break, orientation reversal, keeps the count)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "A source, end law or profile that is not invariant under theta and s.theta: R77's full-current construction with its free profiles, or a GENESIS GAP2 end condition that breaks the strong-inversion class (B1520 lead 1). Also a non-flat background, another component of m004's character variety, a cyclic level's family with a larger outer group (lead 2), or a vacuum outside H-vac. Lemma G's charge-conjugation reading further needs sigma-invariant end conditions and the spinor and domain transport, which is not done.",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-02 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a NEGATIVE arc whose computed content (the sixteen-map table, the stabilisers, the follow-up index) and proved lemmas (P, Tw, G) stand.",
+  "note": "ENTERED 2026-10-02 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1520_the_deciding_test/verification/route_intertwiner.py and route_traceform.py (the sealed routes: intertwiners over Q(q); Theorem T with exact loci), followup_index.py, decide.py and post_run_check.py (a third route at rational points, R47 F14's J, the twist, the stabilisers); locked by tests/test_b1520_the_deciding_test.py.",
+  "routed_from": "sm-branch-2026-10-02-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "m004's Ballas family rho_q (q > 0) at level one, with central twists mu (x) rho_q (mu in C*) and, at the exceptional points, their split sums with trivial lines",
+   "reach": "single",
+   "hypotheses": [
+    "H-vac: the bridge's vacua are these flat bundles with their harmonic metrics (R44, R54, R76; not re-derived)",
+    "the uniqueness of the harmonic metric (R47's F13, as R47 cites it), so a vacuum is fixed up to gauge exactly when its flat bundle is fixed up to isomorphism",
+    "main's class index (B1297/B1446) with L1 (B1512) and L2 (the definition)",
+    "Lemma G's charge-conjugation reading needs sigma-invariant end conditions (GENESIS GAP2); the spinor and domain transport is not done"
+   ]
+  }
  }
 ]

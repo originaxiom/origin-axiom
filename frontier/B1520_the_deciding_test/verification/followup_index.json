@@ -1,0 +1,162 @@
+{
+ "maps": [
+  "D.id",
+  "D.s",
+  "D.s.theta",
+  "D.tau.id",
+  "D.tau.s",
+  "D.tau.s.theta",
+  "D.tau.theta",
+  "D.theta",
+  "id",
+  "s",
+  "s.theta",
+  "tau.id",
+  "tau.s",
+  "tau.s.theta",
+  "tau.theta",
+  "theta"
+ ],
+ "rows": [
+  {
+   "p": 1009,
+   "q0 mod p": 240,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1,
+    "theta": -1,
+    "D.theta": 1,
+    "s": -1,
+    "D.s": 1,
+    "s.theta": -1,
+    "D.s.theta": 1,
+    "tau.id": -1,
+    "D.tau.id": 1,
+    "tau.theta": -1,
+    "D.tau.theta": 1,
+    "tau.s": -1,
+    "D.tau.s": 1,
+    "tau.s.theta": -1,
+    "D.tau.s.theta": 1
+   }
+  },
+  {
+   "p": 1009,
+   "q0 mod p": 803,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1,
+    "theta": -1,
+    "D.theta": 1,
+    "s": -1,
+    "D.s": 1,
+    "s.theta": -1,
+    "D.s.theta": 1,
+    "tau.id": -1,
+    "D.tau.id": 1,
+    "tau.theta": -1,
+    "D.tau.theta": 1,
+    "tau.s": -1,
+    "D.tau.s": 1,
+    "tau.s.theta": -1,
+    "D.tau.s.theta": 1
+   }
+  },
+  {
+   "p": 1033,
+   "q0 mod p": 733,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1,
+    "theta": -1,
+    "D.theta": 1,
+    "s": -1,
+    "D.s": 1,
+    "s.theta": -1,
+    "D.s.theta": 1,
+    "tau.id": -1,
+    "D.tau.id": 1,
+    "tau.theta": -1,
+    "D.tau.theta": 1,
+    "tau.s": -1,
+    "D.tau.s": 1,
+    "tau.s.theta": -1,
+    "D.tau.s.theta": 1
+   }
+  },
+  {
+   "p": 1033,
+   "q0 mod p": 334,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1,
+    "theta": -1,
+    "D.theta": 1,
+    "s": -1,
+    "D.s": 1,
+    "s.theta": -1,
+    "D.s.theta": 1,
+    "tau.id": -1,
+    "D.tau.id": 1,
+    "tau.theta": -1,
+    "D.tau.theta": 1,
+    "tau.s": -1,
+    "D.tau.s": 1,
+    "tau.s.theta": -1,
+    "D.tau.s.theta": 1
+   }
+  },
+  {
+   "p": 1129,
+   "q0 mod p": 373,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1,
+    "theta": -1,
+    "D.theta": 1,
+    "s": -1,
+    "D.s": 1,
+    "s.theta": -1,
+    "D.s.theta": 1,
+    "tau.id": -1,
+    "D.tau.id": 1,
+    "tau.theta": -1,
+    "D.tau.theta": 1,
+    "tau.s": -1,
+    "D.tau.s": 1,
+    "tau.s.theta": -1,
+    "D.tau.s.theta": 1
+   }
+  },
+  {
+   "p": 1129,
+   "q0 mod p": 790,
+   "I(W1)": -1,
+   "I(Phi W1)": {
+    "id": -1,
+    "D.id": 1,
+    "theta": -1,
+    "D.theta": 1,
+    "s": -1,
+    "D.s": 1,
+    "s.theta": -1,
+    "D.s.theta": 1,
+    "tau.id": -1,
+    "D.tau.id": 1,
+    "tau.theta": -1,
+    "D.tau.theta": 1,
+    "tau.s": -1,
+    "D.tau.s": 1,
+    "tau.s.theta": -1,
+    "D.tau.s.theta": 1
+   }
+  }
+ ],
+ "BANKED IDENTITY: I(W1) = -1 at all six prime-root pairs (B1509)": true,
+ "every bare image -1 and every dualised image +1": true
+}

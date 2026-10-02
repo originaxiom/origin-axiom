@@ -1,5 +1,7 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-10-02, B1520 — THE DECIDING TEST)**: the owner's selection-rule handoff, made exact by main's B1455, run independently and sealed (`dda82524`): on m004's Ballas family at level one every vacuum μ ⊗ ρ_q is fixed by the count-odd maps D.θ and D.sθ (both orientation-keeping), so no vacuum carries a count and the vacuum does not select chirality (NEGATIVE, the registered kill; reach single). At a generic vacuum the geometric mirror is broken (stabiliser {id, s, D.θ, D.sθ}) but it keeps the count. Two exact routes agree on all 32 decisions; a third route, the audit lane's F14 J, the twist and the stabilisers check it. Main's B1455 P1 is false. 0 of 19.
+
 **LATEST (2026-10-02, B1519 — GENESIS v1.2)**: `../GENESIS.md` v1.2 is the version main and this seat both hold: main's v1.1
 as the head (all 23 changes accepted), this seat's amendment folded in, the signed powers −uᵏ (k even) placed with m207 = −(LR)²
 named, GAP4 pointed to `THE_BAR.md`, and the record's observer line carried (the object names itself and cannot sign itself,
