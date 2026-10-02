@@ -1,5 +1,5 @@
 {
- "measured_at_main_head": "12ed66bd",
+ "measured_at_main_head": "8d1c1329",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -149,9 +149,33 @@
   {
    "ref": "origin/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3084,
-   "commits_unique_vs_main": 229,
+   "commits_total": 3089,
+   "commits_unique_vs_main": 234,
    "merge_base": "8f83b5c8",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
+   "ref": "origin/<v>/determined-hopper-t1cmii",
+   "branch": "determined-hopper-t1cmii",
+   "commits_total": 3066,
+   "commits_unique_vs_main": 191,
+   "merge_base": "44c75c36",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
+   "ref": "origin/<v>/magical-wright-vwrmtt",
+   "branch": "magical-wright-vwrmtt",
+   "commits_total": 3061,
+   "commits_unique_vs_main": 186,
+   "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
    "has_a_harvest_pin": true,
@@ -197,8 +221,8 @@
   {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3059,
-   "commits_unique_vs_main": 184,
+   "commits_total": 3067,
+   "commits_unique_vs_main": 192,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -219,9 +243,9 @@
    "other_repository": false
   }
  ],
- "lanes_with_unique_work": 13,
- "total_unique_commits_across_lanes": 1500,
- "same_repository_lanes": 12,
+ "lanes_with_unique_work": 15,
+ "total_unique_commits_across_lanes": 1890,
+ "same_repository_lanes": 14,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,
  "other_repository_lanes": [

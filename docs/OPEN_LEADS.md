@@ -3291,6 +3291,13 @@ same at the other exceptional points and on the levels; whether any admissible c
 the order (a source, an end, a filtered rather than a harmonic structure); and whether the genesis's own order bit
 (UNIQUENESS A7, "based data only") is the same phenomenon one level down.
 
+**Third refinement (2026-10-02, B1457, from the audit lane's records as read).** What holds an order is a source, and
+the source carries the choice: it must pair with the ordered flag of the pieces with a definite sign, a scalar source
+pairs to zero, and its negative supports the opposite order (R41; the table re-derived on main). It may sit in the
+compact core or be flux through an end. **So "which of the pair" is decided by whatever the object is open to** — a
+relation, as B1327 guessed — and no report derives it. The audit lane's own audit of the question gives the test for
+every reduction on the way: the register survives exactly when both the updates and the declared outputs descend.
+
 **Owed, in order.** (a) Read the rest of the record's observer arcs with this translation before proposing anything:
 B20, B37, B717, B723 and the 75 arcs of the two-involution sweep (the early-record index and a sweep, not memory). (b) An instrument that keeps the
 marking: the index of a *based* or *framed* module, and what it reads where the class index reads zero. (c) The same
@@ -3306,6 +3313,31 @@ so the vanishing statement of R58-6 is proved on those populations rather than o
 zeros the criterion does not explain. (b) The same test on the levels M₃ to M₆ of the harmonic family, where the
 seats count on covers and the symmetry group is larger. (c) The minimal statement the audit lane asked for, with its
 hypotheses. (d) The handoff's "12 up to Aut" for m202.
+
+## L243 — FROM THE SEATS, NOT YET CHECKED ON MAIN (registered 2026-10-02, B1456, B1457)
+
+- **(a) The audit lane's two corrections of main's early arcs** (its act-and-register audit): B37's "never reads" rests
+  on a detector of a symbol's presence, which an inserted factor r − I at r = I flips with the dynamics unchanged;
+  B130's empty global elimination at m = 2 cannot by itself exclude isolated components (its countermodel: x(x − 1) = 0,
+  x·k = 0). **Owed:** each checked on main and, if it holds, carried into the arc as an addendum.
+- **(b) The SM seat's bar** (sm:B1518; its THE_BAR page): a null model and a grading for any positive on a generated
+  state; "no criterion in the fibre torsion and the sign decides own-level firing" on main's census. **Owed:** the
+  null model re-derived on main's census data, and the page harvested or answered.
+- **(c) The audit lane's R79** (markings and slopes: a numeric slope held fixed while the lift changes can change
+  whether flat data descend). Bears on L241 (b), an instrument that keeps the marking. **Owed:** read by main itself.
+- **(d) The boundary-table relay of 2026-09-16** (held on the lane, rowed at B1457): the three counts on the two-ended
+  exterior. **Owed:** the count re-derived on main (m202 with source arcs between its cusp ends), since it is the one
+  place the record states a net three on an object with two ends.
+- **(e) The audit lane's R69:** −3 on levels three and six for a rank-six coefficient induced from a cover. **Owed:**
+  the same with main's index instrument; B1440 says rank six can reach three.
+- **(f) The SM seat's child lane on which arcs declare a law** (`determined-hopper-t1cmii`, registered with the watch
+  gate at B1456): a re-audit of B1304–B1513 under B1214's rule — 14 laws declared, 18 decisions — that edits the
+  verdict files of some of main's own arcs (B1115–B1145 among them) and the theorem registry. **Owed:** each decision
+  read on main and applied or declined.
+- **(g) The SM seat's question:** does main adopt its bar for the class-index frame, or amend it? Its relay also says
+  that on main's census no function of the fibre torsion, the sign, the trace, the symmetry order or the reversal
+  class decides own-level firing — 22 strata each hold a firing and a silent manifold, the smallest pair m369 and
+  o9_00001. **Owed:** that pair checked on main, and an answer.
 
 ## ⟳ VIEW REFRESH — 2026-10-02 (Review 58)
 

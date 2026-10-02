@@ -1,0 +1,971 @@
+{
+ "pin": "7b088f50",
+ "rows": [
+  {
+   "name": "ACT_REGISTER",
+   "r": null,
+   "title": "Act and register: bounded verdict toward the physical mission",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "its criterion carried into GENESIS v1.3 FK12 as the audit lane's; its two corrections (B37's detector, B130's inference) are lead L243, not yet checked on main"
+  },
+  {
+   "name": "ACT_REGISTER_PROOF",
+   "r": null,
+   "title": "Standard quotient criteria and explicit detector countermodels",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "as its report"
+  },
+  {
+   "name": "AFFINE_BACKGROUND",
+   "r": "R42",
+   "title": "R42: a complete finite-energy background on the canonical projective metric",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "AFFINE_BACKGROUND_PROOF",
+   "r": "R42",
+   "title": "R42 authored bridge, with external analytic hypotheses explicit",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "BOUNDARY_TABLE_AUDIT_2026_09_16",
+   "r": null,
+   "title": "The I-26 table does not identify the sourced operator",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CANONICAL_CUSP",
+   "r": "R44",
+   "title": "R44: exceptional paired modes on the same finite-energy background",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CANONICAL_CUSP_PROOF",
+   "r": "R44",
+   "title": "R44: canonical type-one cusp and its defining-bundle complex",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CANONICAL_DUALITY",
+   "r": "R48",
+   "title": "R48: matter--dual pairing on the actual canonical background",
+   "batch": 5,
+   "disp": "PARTLY VERIFIED",
+   "note": "the identity it starts from — inversion of both generators followed by dualising fixes every ρ_q — re-derived exactly for every q > 0 (B1455); the convex-domain argument read, not re-derived"
+  },
+  {
+   "name": "CANONICAL_DUALITY_PROOF",
+   "r": "R48",
+   "title": "R48: the conormal map on the actual canonical background",
+   "batch": 5,
+   "disp": "PARTLY VERIFIED",
+   "note": "as its report: the algebraic identity (1) re-derived (B1455); the uniqueness of the invariant domain rests on a cited theorem and is read"
+  },
+  {
+   "name": "CANONICAL_INTERACTION",
+   "r": "R46",
+   "title": "R46: an admissible interaction channel on the same canonical background",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CANONICAL_INTERACTION_PROOF",
+   "r": "R46",
+   "title": "R46 authored canonical-background interaction argument",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CARRIER_PERIPHERY",
+   "r": "R79",
+   "title": "R79: what the word algebra earns, and what its physical use still costs",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "markings and slopes: bears on lead L241; not re-derived"
+  },
+  {
+   "name": "CARRIER_PERIPHERY_PROOF",
+   "r": "R79",
+   "title": "R79 analytic scope: recover periphery without hiding the realization",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CHAT1_ASSEMBLED_AUDIT_2026_09_15",
+   "r": null,
+   "title": "Chat1 and the arithmetic parent: useful structure, uncompleted physical joins",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "COEFFICIENT_PARENT",
+   "r": "R40",
+   "title": "R40: the nonsplit positive has a faithful parent map, not yet a physical vacuum",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "COEFFICIENT_PARENT_PROOF",
+   "r": "R40",
+   "title": "R40 authored coefficient/parent join",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "COMMON_MODEL_AUDIT_2026_09_20",
+   "r": null,
+   "title": "One-model audit: which positive results actually compose?",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_CHANNEL",
+   "r": "R71",
+   "title": "R71 — full cone channels, without a false spectrum",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_CHANNEL_PROOF",
+   "r": null,
+   "title": "Full coefficient split and leading logarithmic critical matrix",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_EXACT",
+   "r": "R72",
+   "title": "R72 — exact graph witnesses, not a frozen-limit particle count",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_EXACT_PROOF",
+   "r": null,
+   "title": "Exact local Green witnesses on the changing logarithmic cone",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_FERMION",
+   "r": null,
+   "title": "Fermion boundary choices on the logarithmic background",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_FERMION_PROOF",
+   "r": null,
+   "title": "Actual cone fermion operator and neutral boundary domains",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_FLUX",
+   "r": null,
+   "title": "Boundary flux and admission of the logarithmic cone solution",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_FLUX_PROOF",
+   "r": null,
+   "title": "Boundary current and radial profiles on the logarithmic cone",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_GAUGE",
+   "r": null,
+   "title": "Decaying cone modes admit a local nonlinear continuation",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_GAUGE_PROOF",
+   "r": null,
+   "title": "Local nonlinear continuation and the boundary that supports it",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_INTERACTION",
+   "r": null,
+   "title": "Finite interaction action constrains complex cone boundary data",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_MATCH",
+   "r": null,
+   "title": "Local cone solutions require the right global holonomy",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_MATCH_PREEXEC_REVISION",
+   "r": null,
+   "title": "Explicit transport assertions before scientific execution",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_MATCH_PROOF",
+   "r": null,
+   "title": "Peripheral matching and the limits of bounded transport",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_MATTER",
+   "r": "R74",
+   "title": "R74 — exterior cone matter: finite-action local data, not a generation",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_MATTER_PROOF",
+   "r": null,
+   "title": "Exact exterior matter profiles in one cone action",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_MULTIPLET",
+   "r": null,
+   "title": "A necessary same-action test for cone multiplets",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_MULTIPLET_PROOF",
+   "r": null,
+   "title": "Neutral multiplet traces and the physical end datum",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_ORBIT",
+   "r": "R73",
+   "title": "R73 — actual compact orbit, not an extra matter mode",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_ORBIT_PROOF",
+   "r": null,
+   "title": "Compact gauge orbit is not its straight tangent",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONE_SPECTRUM",
+   "r": null,
+   "title": "Charged cone modes survive a vanishing boundary trace",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CONVEX_CUSP_MODE_WORKING_2026_09_23",
+   "r": null,
+   "title": "Next mode join: working hypotheses, not a result",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CORPUS_RECONCILIATION_2026_09_20",
+   "r": null,
+   "title": "Reuse the mathematics; test the physical join",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CORPUS_RECONCILIATION_PLAN_2026_09_20",
+   "r": null,
+   "title": "Owner-requested prior-work reconciliation, before the next physical probe",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "COVER_ACTION",
+   "r": null,
+   "title": "What finite cover transport preserves in a candidate action",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "CROSS_BRANCH_POSITIVES",
+   "r": "R75",
+   "title": "R75 — the projective triplet survives independent algebra",
+   "batch": 6,
+   "disp": "AGREES WITH MAIN",
+   "note": "the three order-two members each count −1, the dual +1, the split 0: the same as main's B1453 re-derivation of sm:B1511 and B1455's dual and split values"
+  },
+  {
+   "name": "CROSS_BRANCH_POSITIVES_PROOF",
+   "r": "R75",
+   "title": "R75 — independent algebra and the scope of its physical use",
+   "batch": 6,
+   "disp": "AGREES WITH MAIN",
+   "note": "as its report"
+  },
+  {
+   "name": "CURRENT_BALANCE",
+   "r": "R41",
+   "title": "R41: what the actual nonsplit coefficient requires of a source",
+   "batch": 6,
+   "disp": "PARTLY VERIFIED",
+   "note": "its table of flag pairings — (0,0,0) for the central direction, (12,8,4) and (3,2,1) for the non-central ones — re-derived here (verification/own_checks.py); the integral identity and its cutoff argument read"
+  },
+  {
+   "name": "CURRENT_BALANCE_PROOF",
+   "r": "R41",
+   "title": "R41 authored source-balance argument",
+   "batch": 6,
+   "disp": "PARTLY VERIFIED",
+   "note": "as its report"
+  },
+  {
+   "name": "END_LAW",
+   "r": null,
+   "title": "Boundary variation and the limits of the cone completion",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "FERMION_END",
+   "r": null,
+   "title": "Fermion reality permits complex conical boundary lines locally",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "FLAT_VACUUM",
+   "r": "R76",
+   "title": "R76: the counted extension has a compact-core source duty",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "leaned on by B1455 as a hypothesis (minima are reductive; the potential along the non-split direction); not re-derived"
+  },
+  {
+   "name": "FLAT_VACUUM_BRANCH_INTAKE",
+   "r": "R76",
+   "title": "R76 final fetched-branch currency — read, not independently banked",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "FLAT_VACUUM_PROOF",
+   "r": "R76",
+   "title": "R76: the action test, the localized extension, and the physical input",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "FORK_F01_RECEPTION_2026_09_20",
+   "r": null,
+   "title": "A global source duty, not the loss of the nonsplit positive",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "FORK_F02_F05_RECEPTION_2026_09_20",
+   "r": null,
+   "title": "Pinned F02--F05 reception: domain, growth, and the geometric gap",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "FORK_F08_RECEPTION_2026_09_21",
+   "r": null,
+   "title": "F08 reception: a different positive background, not the actual nonsplit bundle",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "GENESIS_PREMISE_REGISTER",
+   "r": null,
+   "title": "Genesis premise register — route-qualified, version 0.2",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read by main itself (B1454 §6); agrees with GENESIS where they overlap"
+  },
+  {
+   "name": "GENESIS_RECONCILIATION_PLAN_2026_10_02",
+   "r": null,
+   "title": "Genesis checkpoint: reconcile the foundations, then return to physics",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "its four questions answered in B1454 §6"
+  },
+  {
+   "name": "GOD_PARTICLE_READING_2026_09_25",
+   "r": null,
+   "title": "The God Particle: first personal reading and physical-model audit",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "LEVEL_ACTION",
+   "r": null,
+   "title": "Verified level candidate; the physical interpretation remains a law",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "LIGHT_CUBIC",
+   "r": "R56",
+   "title": "R56: the complete direct classical light cubic is a pairing",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "LIGHT_CUBIC_PROOF",
+   "r": "R56",
+   "title": "R56 authored argument: a paired cubic, no neutral self-cubic",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "LITERATURE_AND_SEATS_2026_09_19",
+   "r": "R35",
+   "title": "R35: what the other seats and primary literature change",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "LITERATURE_READING_2026_09_19",
+   "r": "R35",
+   "title": "R35 direct-reading and retrieval record",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "MIRROR_INTERACTION",
+   "r": "R33",
+   "title": "R33: an allowed interacting route, not yet mirror removal",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "MIRROR_INTERACTION_PROOF",
+   "r": "R33",
+   "title": "R33: charged mirror interaction — authored algebra, not a quantum gap",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "MIRROR_QUARTIC",
+   "r": "R34",
+   "title": "R34: a genuine number-changing interaction, not yet a chiral phase",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "MIRROR_QUARTIC_PROOF",
+   "r": "R34",
+   "title": "R34 authored matching argument and checks to be executed",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_CENSUS",
+   "r": "R55",
+   "title": "R55: one finite-norm neutral mode, not three",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_CENSUS_PROOF",
+   "r": "R55",
+   "title": "R55 authored proof: the shrinking meridian and the neutral kernel",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_CONTINUITY",
+   "r": "R52",
+   "title": "R52: exact stationary configurations enter the same nonlinear domain",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_CONTINUITY_PROOF",
+   "r": "R52",
+   "title": "R52 authored proof: continuous exact fields in the same action domain",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_EXISTENCE",
+   "r": "R51",
+   "title": "R51: actual finite-energy harmonic solutions on the fixed base",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_EXISTENCE_PROOF",
+   "r": "R51",
+   "title": "R51 authored proof: actual finite-energy solutions, strong-domain join separate",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_MATTER",
+   "r": "R54",
+   "title": "R54: a nonzero paired interaction on the canonical background",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_MATTER_PROOF",
+   "r": "R54",
+   "title": "R54: from the already banked obstruction to a finite physical vertex",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_REGULARITY",
+   "r": "R49",
+   "title": "R49: canonical neutral modes enter the nonlinear action domain",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_REGULARITY_PROOF",
+   "r": "R49",
+   "title": "R49 authored argument: the neutral nonlinear-domain join",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_SECOND_ORDER",
+   "r": "R50",
+   "title": "R50: the neutral direction survives second-order relaxation",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_SECOND_ORDER_PROOF",
+   "r": "R50",
+   "title": "R50 authored proof: a finite-action two-jet, not a full branch",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_TANGENT",
+   "r": "R47",
+   "title": "R47: a neutral harmonic direction that cannot be gauged away",
+   "batch": 2,
+   "disp": "PARTLY VERIFIED",
+   "note": "\"the whole q curve is fixed by theta plus duality at the character level\" re-derived (B1455); the kinetic statements read"
+  },
+  {
+   "name": "NEUTRAL_TANGENT_PROOF",
+   "r": "R47",
+   "title": "R47 authored neutral-tangent argument",
+   "batch": 2,
+   "disp": "PARTLY VERIFIED",
+   "note": "as its report"
+  },
+  {
+   "name": "NEUTRAL_VELOCITY",
+   "r": "R53",
+   "title": "R53: the actual stationary curve has a finite-norm harmonic velocity",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NEUTRAL_VELOCITY_PROOF",
+   "r": "R53",
+   "title": "R53 authored proof: the actual curve has the earned harmonic velocity",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NILPOTENT_CONE",
+   "r": null,
+   "title": "Canonical logarithmic cone end and its admission limit",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "NILPOTENT_CONE_PROOF",
+   "r": null,
+   "title": "A local logarithmic solution retaining the canonical peripheral pair",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "OPERATIONAL_CONTRACT",
+   "r": null,
+   "title": "Operational contract for the physics programme",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_BACKGROUND",
+   "r": "R39",
+   "title": "R39: a full classical background, with its actual gauge and pairing costs",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_BACKGROUND_PREEXEC",
+   "r": "R39",
+   "title": "R39 pre-execution custody",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_BACKGROUND_PROOF",
+   "r": "R39",
+   "title": "R39 authored argument: a native background and the fields it requires",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_CUSP",
+   "r": "R45",
+   "title": "R45: the parent gauge kernel and its unresolved cusp channels",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_CUSP_PROOF",
+   "r": "R45",
+   "title": "R45: parent gauge kernel and the end sectors that remain",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_TENSORS",
+   "r": null,
+   "title": "Verified matter and cubic maps in the supplied E8 parent",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_VERTEX",
+   "r": "R38",
+   "title": "R38 result: the fields embed; the proposed interaction does not transfer automatically",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_VERTEX_PREEXEC",
+   "r": "R38",
+   "title": "R38 pre-execution custody",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PARENT_VERTEX_PROOF",
+   "r": "R38",
+   "title": "R38 authored candidate: subgroup lift and classical field dictionary",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PHYSICS_MISSION",
+   "r": null,
+   "title": "Approved physics mission and execution criteria",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "PROJECTIVE_MODE_RECEPTION",
+   "r": "R43",
+   "title": "R43: exceptional modes retained; the same-background join stays explicit",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "ROOT_SCOPE_AUDIT",
+   "r": null,
+   "title": "Is m004 the right root for the physics programme",
+   "batch": 6,
+   "disp": "PARTLY VERIFIED",
+   "note": "the SL(2,ℤ) witness (B1454), the minimal mixed trace by length (B1454 G4) and the natural abelianisation countermodel (verification/own_checks.py) re-derived; its readings of other seats' arguments read"
+  },
+  {
+   "name": "SELECTION_RULE_INTAKE_2026_10_02",
+   "r": null,
+   "title": "Selection-rule handoff: use the question, verify the symmetry",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "its five gates and \"algebraic coefficient duality is not automatically that physical mirror\" agree with B1455 §5; B1455 is the unsourced case only"
+  },
+  {
+   "name": "SIGNED_LEVEL",
+   "r": "R78",
+   "title": "R78 — signed powers were lost at the state/level interface",
+   "batch": 6,
+   "disp": "VERIFIED",
+   "note": "−(LR)² is m207, H₁ = ℤ ⊕ ℤ/3 ⊕ ℤ/3, double cover t12839, the level of no signed state (B1456 H4, H7)"
+  },
+  {
+   "name": "SIGNED_LEVEL_PROOF",
+   "r": null,
+   "title": "Signed-level proof audit (authored; independent review pending)",
+   "batch": 6,
+   "disp": "VERIFIED",
+   "note": "as its report"
+  },
+  {
+   "name": "SMOOTHNESS_RECONCILIATION_2026_09_20",
+   "r": null,
+   "title": "Recovering the existing all-orders result, with its physical boundary",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_C3",
+   "r": "R32",
+   "title": "R32: three source modes are not three invariant source modes",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_C3_PROOF",
+   "r": "R32",
+   "title": "R32: the C3 module of the sourced modes, and what projection retains",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_CORE",
+   "r": null,
+   "title": "Varied sources can balance the full current; free profiles are not admission",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_CORE_PRESEAL_NOTES",
+   "r": "R77",
+   "title": "R77 draft changes retained before execution",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_CORE_PROOF",
+   "r": "R77",
+   "title": "R77 authored argument: solve the current, retain the source-field cost",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_FIELD_INTAKE_2026_10_02",
+   "r": "R76",
+   "title": "After R76: source fields, not another spectrum census",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_PROFILE_PROOF",
+   "r": "R80",
+   "title": "R80 authored argument: which profiles can carry the source",
+   "batch": 1,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_SCALAR",
+   "r": "R37",
+   "title": "R37: a consistent added scalar sector, and a whole-mode selectivity control",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_SCALAR_PREEXEC",
+   "r": "R37",
+   "title": "R37 pre-execution custody",
+   "batch": 6,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_SCALAR_PROOF",
+   "r": "R37",
+   "title": "R37 authored argument and limits of its controls",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "SOURCE_SCALAR_WORKING_2026_09_20",
+   "r": null,
+   "title": "Working continuation: the source scalar and the whole mode space",
+   "batch": 2,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "WEB_HANDOFF_INTAKE_2026_09_26",
+   "r": null,
+   "title": "September 25/26 web handoffs: personal intake and impact",
+   "batch": 3,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "YUKAWA_OVERLAP",
+   "r": "R36",
+   "title": "R36: charged overlaps retain a source-profile and boundary duty",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "YUKAWA_OVERLAP_PROOF",
+   "r": "R36",
+   "title": "R36: charged overlap identity on the declared compact source model",
+   "batch": 4,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  },
+  {
+   "name": "YUKAWA_OVERLAP_WORKING_2026_09_19",
+   "r": "R35",
+   "title": "Working continuation after R35: the charged overlap, not a density proxy",
+   "batch": 5,
+   "disp": "REGISTERED",
+   "note": "read in full by a reader pass"
+  }
+ ],
+ "relays": [
+  {
+   "name": "CODEX_TO_CC_2026-09-16_BOUNDARY_TABLE_CORRECTION_HELD.md",
+   "title": ""
+  },
+  {
+   "name": "CODEX_TO_CC_2026-10-02_RELEASED_PACKET_READ_AND_PHYSICS_JOIN.md",
+   "title": "All nineteen released relays are read; R75 independently preserves the triplet, R76 localizes its source duty, and the next shared target is one admitted interacting configuration."
+  },
+  {
+   "name": "CODEX_TO_CC_AND_SM_2026-10-02_ACT_REGISTER_AND_V1_2.md",
+   "title": "Act/register: keep the relations, and keep the old negatives in scope"
+  },
+  {
+   "name": "CODEX_TO_CC_AND_SM_2026-10-02_GENESIS_RECONCILIATION_PLAN.md",
+   "title": "Foundation checkpoint — existing contract reused, independent reconciliation requested"
+  },
+  {
+   "name": "CODEX_TO_CC_AND_SM_2026-10-02_PERIPHERY_AND_MARKINGS_R79.md",
+   "title": "Peripheral recovery, marked transport and the executed R78 result"
+  },
+  {
+   "name": "CODEX_TO_CC_AND_SM_2026-10-02_SIGNED_LEVEL_R78.md",
+   "title": "To main and SM: signed primitive/level reconstruction needs a repair"
+  },
+  {
+   "name": "CODEX_TO_CC_AND_SM_2026-10-02_SOURCE_CURRENT_R77_AND_SELECTION.md",
+   "title": "Full current and source-own variations: positive comparator, profile price"
+  },
+  {
+   "name": "PHYSICAL_BRIDGE_TO_SOURCE_AND_HIGGS_2026_10_02_R76.md",
+   "title": "R76 compact-core source/action relay — HELD OPEN"
+  },
+  {
+   "name": "PHYSICAL_BRIDGE_TO_TOWER_AND_INTERACTION_2026_10_01_R75.md",
+   "title": "R75 positive audit relay — tower and interaction lanes"
+  }
+ ]
+}

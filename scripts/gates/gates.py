@@ -892,6 +892,30 @@ def gate_atlas_lexicon_current():
 SEAL_PROVENANCE_FROM = "2026-08-08"
 
 
+def _seal_ledger_rows(text):
+    """the dated rows of docs/SEAL_LEDGER.md as (date, path, digest-or-None), read by their cells FROM THE RIGHT.
+
+    2026-10-02 (B1456; found by the SM seat's lane and relayed): the two seal gates matched a row with one pattern that
+    allowed no "|" inside the description cell, so a row whose description contains one never reached its path cell and
+    both gates skipped it silently.  A row is: a date cell first; the digest, if any, is the rightmost cell that is a
+    backticked 64-hex string; the path is the nearest cell to its left (or the rightmost cell, when there is no digest)
+    that begins with a backticked token."""
+    out = []
+    for line in text.splitlines():
+        if not re.match(r"\|\s*\d{4}-\d{2}-\d{2}\s*\|", line): continue
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        date = cells[0]; digest = None; stop = len(cells)
+        for i in range(len(cells) - 1, 0, -1):
+            m = re.match(r"^`([0-9a-f]{64})`", cells[i])
+            if m: digest, stop = m.group(1), i; break
+        rel = None
+        for i in range(stop - 1, 0, -1):
+            m = re.match(r"^`([^`]*[/.][^`]*)`", cells[i])            # a path, not a short hash
+            if m: rel = m.group(1); break
+        if rel: out.append((date, rel, digest))
+    return out
+
+
 def gate_seal_provenance():
     """Preregistrations sealed on/after SEAL_PROVENANCE_FROM must name, in the sealed text,
     (i) the banked identity the pipeline reproduces inside itself before any new number is
@@ -899,11 +923,7 @@ def gate_seal_provenance():
     the rule cannot bind text that was sealed before it existed."""
     ledger = _read("docs/SEAL_LEDGER.md")
     missing = []
-    for line in ledger.splitlines():
-        m = re.match(r"\|\s*(\d{4}-\d{2}-\d{2})\s*\|[^|]*\|\s*`([^`]+)`", line)
-        if not m:
-            continue
-        date, rel = m.group(1), m.group(2)
+    for date, rel, _digest in _seal_ledger_rows(ledger):
         if date < SEAL_PROVENANCE_FROM:
             continue
         if not os.path.isfile(os.path.join(ROOT, rel)):
@@ -927,11 +947,9 @@ def gate_seal_digests():
     import hashlib
     ledger = _read("docs/SEAL_LEDGER.md")
     latest = {}
-    for line in ledger.splitlines():
-        m = re.match(r"\|\s*\d{4}-\d{2}-\d{2}\s*\|[^|]*\|\s*`([^`]+)`\s*\|\s*`([0-9a-f]{64})`", line)
-        if not m:
-            continue
-        latest[m.group(1)] = m.group(2)
+    for _date, rel, digest in _seal_ledger_rows(ledger):
+        if digest:
+            latest[rel] = digest
     bad = []
     for rel, want in latest.items():
         p = os.path.join(ROOT, rel)

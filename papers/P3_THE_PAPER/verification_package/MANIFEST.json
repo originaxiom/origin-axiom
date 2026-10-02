@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-10-02T08:00:42Z",
+ "built": "2026-10-02T20:59:19Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,10 +9,10 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "5a0ca0c4",
+  "git_head": "8d1c1329",
   "git_tree_clean": false,
   "git_head_published": true,
-  "git_commits": 3486,
+  "git_commits": 3494,
   "git_shallow": false
  },
  "claims": [
@@ -138,6 +138,7 @@
      ],
      "locks": [
       "tests/test_b1003_f2_f8_locks.py",
+      "tests/test_b1457_audit_lane_harvest.py",
       "tests/test_b14_square_root_selector.py"
      ],
      "primary_locks": [
@@ -2777,7 +2778,7 @@
   "claims": 67,
   "records": 95,
   "seals": 21,
-  "locks": 149,
+  "locks": 150,
   "records_with_a_primary_lock": 95
  }
 }

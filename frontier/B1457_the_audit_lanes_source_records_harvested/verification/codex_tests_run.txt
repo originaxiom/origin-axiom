@@ -1,0 +1,30 @@
+the audit lane's tests (tests/ -k physical_bridge) in a pinned checkout at 7b088f50, on main's bench
+numpy 2.4.0 sympy 1.14.0 snappy 3.3.2 mpmath 1.3.0
+48 failed, 1130 passed, 15 skipped, 6102 deselected, 16 errors in 802.26s (0:13:22)
+
+failures and errors by file:
+   8 ERROR tests/test_physical_bridge_family_action.py
+   8 ERROR tests/test_physical_bridge_chat1_class_control.py
+   6 FAILED tests/test_physical_bridge_mirror_interaction_normal_form_control.py
+   6 FAILED tests/test_physical_bridge_level_action.py
+   6 FAILED tests/test_physical_bridge_holonomy_equivariance.py
+   4 FAILED tests/test_physical_bridge_charged_domain.py
+   3 FAILED tests/test_physical_bridge_cone_orbit.py
+   2 FAILED tests/test_physical_bridge_neutral_continuity.py
+   2 FAILED tests/test_physical_bridge_mirror_interaction.py
+   2 FAILED tests/test_physical_bridge_level_action_control.py
+   2 FAILED tests/test_physical_bridge_higgs_sector.py
+   2 FAILED tests/test_physical_bridge_finite_twist.py
+   2 FAILED tests/test_physical_bridge_cone_spectrum.py
+   2 FAILED tests/test_physical_bridge_cone_gauge.py
+   2 FAILED tests/test_physical_bridge_cone_channel.py
+   1 FAILED tests/test_physical_bridge_neutral_tangent.py
+   1 FAILED tests/test_physical_bridge_neutral_regularity.py
+   1 FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py
+   1 FAILED tests/test_physical_bridge_mirror_quartic.py
+   1 FAILED tests/test_physical_bridge_global_mass_flux.py
+   1 FAILED tests/test_physical_bridge_g2_isolation.py
+   1 FAILED tests/test_physical_bridge_affine_background.py
+
+by first line of the error:
+   8 E   OSError: The manifold file otet06_0000 was not found.

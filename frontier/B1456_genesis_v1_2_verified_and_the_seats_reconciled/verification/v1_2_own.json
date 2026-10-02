@@ -1,0 +1,148 @@
+{
+ "H1 reverse identity": {
+  "ok": true,
+  "data": {
+   "words": 8190,
+   "failures": 0,
+   "D_is_PJ": true
+  }
+ },
+ "H2 758 states, 536 manifolds": {
+  "ok": true,
+  "data": {
+   "states": 758,
+   "classes": 536,
+   "states_in_pairs": 444,
+   "first_pair": [
+    7,
+    [
+     "LLLRLRR",
+     "LLLRRLR"
+    ]
+   ],
+   "per_length": {
+    "2": [
+     2,
+     2
+    ],
+    "3": [
+     2,
+     2
+    ],
+    "4": [
+     4,
+     4
+    ],
+    "5": [
+     6,
+     6
+    ],
+    "6": [
+     10,
+     10
+    ],
+    "7": [
+     18,
+     16
+    ],
+    "8": [
+     32,
+     28
+    ],
+    "9": [
+     56,
+     42
+    ],
+    "10": [
+     102,
+     78
+    ],
+    "11": [
+     186,
+     124
+    ],
+    "12": [
+     340,
+     224
+    ]
+   },
+   "isometry_signatures": 536,
+   "signature_partition_equals_reversal_partition": true,
+   "pairs_sampled": 30,
+   "orientation_preserving_isometry_found": 30
+  }
+ },
+ "H3 main's census by manifold": {
+  "ok": true,
+  "data": {
+   "firing_states": 95,
+   "new_in_B1439": 93,
+   "firing_manifolds": 87,
+   "pairs_split": 0,
+   "by_sign": {
+    "+": 49,
+    "-": 46
+   }
+  }
+ },
+ "H4 signed powers": {
+  "ok": true,
+  "data": {
+   "minus_LR_squared_equals_LR_squared": true,
+   "torsion_of_minus_LR2": [
+    3,
+    3
+   ],
+   "torsion_of_LR2": [
+    1,
+    5
+   ],
+   "signed_even_powers_in_the_box": 4,
+   "bundle_of_minus_LRLR": "m207",
+   "H1": "Z/3 + Z/3 + Z",
+   "bundle_of_plus_LRLR": "m206",
+   "double_covers_of_m207": [
+    "t12839"
+   ],
+   "fourth_level_of_m004": [
+    "t12839"
+   ]
+  }
+ },
+ "H5 swap and inverse": {
+  "ok": true,
+  "data": {
+   "P_sends_LR_to_RL": true,
+   "J_sends_LR_to_its_inverse": true,
+   "P_does_not": true,
+   "det_J": 1
+  }
+ },
+ "H6 the cusp action of m004's isometries": {
+  "ok": true,
+  "data": {
+   "isometries": 8,
+   "cusp_maps": {
+    "((1, 0), (0, -1))": 2,
+    "((-1, 0), (0, -1))": 2,
+    "((-1, 0), (0, 1))": 2,
+    "((1, 0), (0, 1))": 2
+   }
+  }
+ },
+ "H7 the triple (u, k, eps)": {
+  "ok": true,
+  "data": {
+   "matrices": 168,
+   "triples": 14,
+   "signed_even_power_triples": [
+    [
+     "LR",
+     2,
+     -1
+    ]
+   ],
+   "count_signed_even": 1
+  }
+ }
+}

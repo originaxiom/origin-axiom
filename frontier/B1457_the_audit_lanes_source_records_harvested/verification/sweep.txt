@@ -1,0 +1,84 @@
+  B1000   PROVED    THE EXTERNAL INPUTS CLOSE ON B717-S FOUR SECTORS, BUT CHARGE NEEDS TWO CLOSINGS. Prereg 7e920329 sealed AND PUSHED before compute with the declared prior OUTCOME B, speci
+  B1001   PROVED    TWO INSTRUMENT DEFECTS SURFACED BY B1000 CROSSING A BOUNDARY. B1001: scripts/atlas/atlas.py matched arc directories with the regex B\d{1,3}, CAPPED AT THREE DIGITS, so B1
+  B1007   NEGATIVE  THE INSTRUMENT ALREADY EXISTED, AND THIS ARC'S FIRST DRAFT WAS WRONG ABOUT THE COST. Banked NEGATIVE: this arc set out to build an arbitrary-precision Maass solver becaus
+  B1017   PROVED    THE RECOUNT: FIVE RESOURCES, AND THE RANK CLOSING IS UNSOURCED -- cc3's tau_vs_singlet correction verified on this bench and ADOPTED, with every load-bearing input alread
+  B1019   PROVED    L149 ANSWERED -- THE ENDPOINT DISCRIMINATES AT THE WORD'S OWN CONDUCTOR, AND THE SIBLINGS HAVE NO DOOR. Sealed ce6b0329 with no confident prior (a weak DIVERGES lean, sta
+  B1026   PROVED    THE NOMINATION CELL, DATA-BLIND, sealed 7e798db1: NOMINATED -- the chi phases vs the CP phases at exactly 2.0 priced bits (THEOREM grade; sign 1 bit + sector 1 bit; the o
+  B1027   NEGATIVE  THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared pri
+  B1035   PROVED    THE TWO HELD RECEIPTS UNBLOCKED AND VERIFIED (a day's hold on evidence that was pushed, byte-stable, on both remotes the whole time -- the point-of-use retrieval defect a
+  B1042   PROVED    PM3 / the trit morphism (sealed b8544786 pre-compute; exact Q(omega), the McKay graph COMPUTED not cited): JOINED -- the VEV-acceptance trit's Z/3 (B1030 #1, algebra-side
+  B1077   PROVED    THE INTRINSIC LAYER IS SPLIT (the physics-first probe pair; both cells' adversarial verifiers HOLD on full independent rebuilds): from B904's bare norm form alone — Witt 
+  B1083   PROVED    The founding K4-torsor's two bits are C (swap) and P (reversal) -- BOTH spendable choices; THE ARROW IS NOT A TORSOR BIT (all four orbit points are forward substitutions;
+  B1085   PROVED    The free half is EDGE-OBSERVABLE and only edge-observable, re-derived with own code: the two hands of ONE cut of the golden Sturmian word at phase rho = alpha = 2-phi (ri
+  B1107   PROVED    THE ONE-LOOP RUELLE IDENTITY HARVESTED (two-bench; the audit seat's B8100->B8104->B8112 chain with B8113's three residues as scope): R(k, sigma_k) = prod(1 - q^k) exactly
+  B1108   NEGATIVE  C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, com
+  B1114   PROVED    LORENTZ ON THE DOUBLE (LORENTZ_ON_THE_DOUBLE.md harvest, two-bench + banking-seat re-run, all 4 layers exact): the one-line lemma (a real form of a complex simple Lie alg
+  B1130   OPEN      P-TWOENDED (value-probing wave, a STRUCTURE question): does the Kashaev tower's arithmetic carry the spherical Q(sqrt5)/E8 second end, or only the hyperbolic Q(sqrt-3)/E6
+  B1141   PROVED    THE SPIN PAYMENT (cloud seat's 28th memo, hostile-verified TWO-BENCH on this bench with own code — own relator search, own exact intertwiner-rank, own norm-form + chi-par
+  B1143   PROVED    SP-1 CLOSES: the physical B-L is a genuine FOURTH Cartan direction, CONFIRMED TWO-BENCH with cloud memo 25 (both build B-L as a Cartan functional from the forced targets;
+  B1144   PROVED    THE ADOPTION-LAYER CORRECTION: four adoption-layer errors in the phase-III digest (B1138-B1143), from the cloud's CORPUS_ADOPTION_AUDIT (golden_gate d537790), verified on
+  B1145   PROVED    SP-2: the object's beat closes EXACTLY on the fermion-capable odd A1/su(6) stratum's 27 over the beat-selected spin lift (cloud memo 29; sealed prereg sha256 c384dd3e der
+  B1147   PROVED    THE C-LANE HARVEST: the cloud seat's memos 30-40 (Campaigns A/B/C continuation, origin/outside-bench dc937010) verified by REPRODUCTION -- all 11 self-contained certifica
+  B1148   PROVED    THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduc
+  B1149   PROVED    THE MERIDIAN & LONGITUDE HARVEST: cloud memos 49-51 (origin/outside-bench 1544989d) verified by REPRODUCTION -- all 3 self-contained stdlib-exact certs re-run on this ben
+  B1150   PROVED    THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA: cloud memos 52-53 (origin/outside-bench 981f4c33) verified by REPRODUCTION -- both self-contained stdlib-exact certs
+  B1153   PROVED    THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS: cloud memos 54-55 (origin/outside-bench 0c7f8b5a) verified by REPRODUCTION -- both self-contained certs re-run on this
+  B1154   PROVED    SEAM-Y RESOLVED = MISMATCH (the sealed grammar's second outcome: two independent walls, both confirming structure-not-values). The seam asked whether codex's exact up-typ
+  B1171   OPEN      THE SEAM HARVEST (batched integrate-don't-merge, the B1158 pattern; the lose-nothing sweep's urgent-reclaim #2 executed in one sitting). FIVE cross-seat results landed on
+  B1176   OPEN      THE RECORD-SURFACE WAVE (R50-4; the lose-nothing register's Wave 2, record half). (1) THE PORTFOLIO LANDED IN-REPO (papers/PORTFOLIO_2026-08-27.md; was memory-only): the 
+  B1183   PROVED    THE ONE-CLASS THEOREM (cell 2 of the remaining-math queue; B1174's hatch 1; B1169's S1 last rung). THE THEOREM: the QP-4 no-self-closure obstruction (B760: no object-nati
+  B1189   PROVED    THE CLOSE-LOOP BATCH 1 (the grand-computation campaign's first five cells, each adversarially verified by two lenses; 4/5 survive cleanly and the fifth's lone refutation 
+  B1197   PROVED    THE CLOCK-COHERENCE RUN (route B4, the D2 gate; executed the moment 5A returned): SPLIT VERDICT -- the named primary test PASSES and the full census check FAILS, so neith
+  B1208   OPEN      THE CROSS-SEAT HARVEST (R52-2's head; seven results from three seats verified on this bench FROM MAIN'S OWN DATA, two of their derivations corrected, one of my own candid
+  B1209   NEGATIVE  THE LEE VERIFICATION (R52-3 discharged; the E37 CITED/UNVERIFIED grade B1198 carried is paid -- the paper was OBTAINED AND READ on this bench, not cited from an abstract)
+  B1216   OPEN      THE PARAMETER-CLOSURE LOOP, RUN 1 (owner-directed masterplan; 9 agents, ~686k subagent tokens, 20 min). THE SCORE, in the adjudicator's own words: ZERO ROWS DELETED, ONE 
+  B1231   PROVED    THE IDENTIFICATION DISCIPLINE -- the programme's dominant error mode, named, instrumented, ratcheted, and applied FIRST to this bench's own two failures. Owner-approved p
+  B1232   PROVED    CODEX R031A/R031B VERIFIED ON THIS BENCH, THREE OF MY CLAIMS RETRACTED, AND A THIRD COLUMN THE PROGRAMME DID NOT HAVE. Owner: 'verify everything, trust nothing' -- so cod
+  B1243   OPEN      THE POINT-OF-USE GATE: seven errors in one exchange (2026-09-03) shared one shape -- a claim USED without checking its status where it is used -- including one by this se
+  B1244   NEGATIVE  THE GATE 5 AUDIT: ITS OWN THESIS IS REFUTED BY ITS OWN RUN. Pre-registered COLD (seal d0f05d44, amended A1 to 53d04ea6 before any item was evaluated) because the occasion
+  B1266   PROVED    THE SOURCE OF INPUT: THE 14 OVERCOUNTS, THE IRREDUCIBLE NUMBER IS 11. On the owner's question 'should we find the source of input'. B1261 measured the trade as 4 axioms +
+  B1272   PROVED    B1263'S 'GENUINE BINARY' IS THE GEOMETRIC vs NON-GEOMETRIC CHARACTER -- owner-supplied (Round 11), verified here on main's own data, and it CORRECTS B1263. B1263 found 48
+  B1275   PROVED    THE E8 FAMILY MECHANISM, VERIFIED ON MAIN -- and the one step that is not. Owner: 'lets integrate three generations derivation in main, verify whats remains unverified.' 
+  B1292   PROVED    B1291's HATCH IS SATISFIABLE AND MIS-SCOPED, and the second half matters more. SATISFIABLE: m202 is a witness meeting every clause -- vol = 4*V_tet = 2*vol(m004) so it is
+  B1298   PROVED    THE LIFT FORK (MASTERPLAN v3.1 Phase 1, first harvest arc; DESIGN sealed d81fba42 before computation; every seat script re-run in a pinned worktree and re-derived here). 
+  B1299   PROVED    THE PERIOD-2 DUALITY, VERIFIED, AND ITS ONE HOLE (MASTERPLAN v3.1 Phase 1, second harvest arc; DESIGN sealed 71b6ed8f). sm:B1280 Theorem 1 VERIFIED on main's own W1/W2 po
+  B1302   PROVED    THE SIBLING m202, WHERE THREE APPEARS (MASTERPLAN v3.1 Phase 1, third harvest arc; DESIGN sealed 811873b0; five seat scripts re-run in pinned worktrees; every claim re-de
+  B1306   PROVED    THE OLDER DEBT, SLICE A (MASTERPLAN v3.1 Phase 1, seventh harvest arc; DESIGN_A sealed 815f34be; the SM-derivation seat pinned 0dffacd4). The seat's 2x2 criterion for the
+  B1321   PROVED    L205, THE SIBLING'S LOCALIZED COUNT (the owner's D3 decision of 2026-09-08; DESIGN sealed 9b82d2e2 before the runs). (a) m202: 6 isometries, none swapping the cusps; on E
+  B1333   PROVED    THE INDEX ON SEVERAL BOUNDARY TORI, DERIVED FROM THE SAME PAIR SEQUENCE AND VERIFIED -- THE BLOCKER THE PAPER'S WALL NAMES IS CLEARED. Section 14 of THE PAPER states that
+  B1337   PROVED    THE SCHEDULED SWEEP: 156 OF 277 ARE READABLE HERE, AND THE FIRST HIGH-VALUE ROW READ NEEDS A CORRECTION. docs/HARVEST_LEDGER.md carries 526 rows of which 277 are SCHEDULE
+  B1339   PROVED    THE CHAIN STATUS ADOPTED, AND MEMO 152'S OWN FIX DISCHARGED. B1338 found four consolidations each ADDED and never ADOPTED, none on main, and a fifth being drafted; this c
+  B1345   PROVED    THE JORGENSEN NUMBER: THE THEOREM IS REAL, THE RECORD ALREADY HAD THE NUMBER, AND TWO READINGS DIE. Verifying a forwarded seat report. CONFIRMED: J(m004) = 1.000000000000
+  B1346   PROVED    THE chat1 HANDOFF INTAKEN: 34/34 REPRODUCED, F1 CORRECTS A BANKED ARC, F5 GENERALISES, AND CHAT-2'S NESTING IS REFUTED. Every number recomputed on this bench, not read fr
+  B1401   PROVED    |kappa-2| AS A LOWER BOUND ON J: ALL FIVE RELAYED VALUES CONFIRMED EXACTLY, THE TWO CLAIMS ARE ONE CLAIM, AND THE BOUND IS ATTAINED ON A PARABOLIC MERIDIAN IN EVERY ONE. 
+  B1407   NEGATIVE  L209 WAS NEVER A CHOICE: THE ROW'S SPEC SETTLES IT, THE ROW IS DEAD, AND THE BINDING OBSTRUCTION IS POWER RATHER THAN ACCOUNTING. 19/19 checks. THE CORRECTION FIRST. B140
+  B1413   PROVED    THE AUDIT LANE'S R21-R31 HARVESTED at 5e063851. R27 VERIFIED on main both halves: (a) for V = Sym^m(h) (x) F with h the geometric holonomy and F finite-image, the interio
+  B1418   PROVED    THE FAMILY AS THE OBJECT (DESIGN sealed f2f8686c before any cell ran; outcome B). The one-cusped chirality index I = t_0 - r_1 fires in characteristic zero for the first 
+  B1421   PROVED    The completeness sweep: the paper's four-input headline is a lower bound (the identification ledger's 14 unearned rows reduce to 8 irreducible sources, so 12 free inputs 
+  B1441   PROVED    THE SEVERAL-CUSPED LEVELS, sealed at 6085218c before the class index of any non-split module was computed on a manifold with more than one cusp (main's lead L222 had carr
+  B1450   NEGATIVE  THE FILLED INDEX ON THE GRID. Lead L225 asked whether the 3D index of a Dehn filling separates the six arithmetic fillings of m004 from the other seventy-two of B1419's g
+  B1455   NEGATIVE  THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric pot
+  B1457   -         # B1457 — THE AUDIT LANE'S RECORDS FROM R32 TO R80 HARVESTED: 116 reports read in full and rowed, its load-bearing algebra re-derived, and one table of what a count needs
+  B151    NEGATIVE  The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or volume-type invariant can source a physical scale.
+  B167    NEGATIVE  Under a POSTULATED premise (FINDINGS:3–8: the conserved dimensionless first integral is stated, not derived) a stated five-door case analysis leaves no internal door for 
+  B253    PROVED    Sage-verified that E6 is the only chirality-capable (complex-fundamental) end of the B248 transition, and corrected B252's overstated 'cannot source asymmetry'.
+  B432    PROVED    All 31 sampled hyperbolic Dehn fillings make the amphichiral object chiral: the interface mechanism is confirmed, though slope selection stays free input.
+  B851    PROVED    B849's declared citation is CONFIRMED verbatim from the primary source: the Connes-Marcolli-Ramachandran system's symmetry group is the idele class group of K, acting fre
+  B868    PROVED    G6 CLOSED -- the three involutions separated at cascade level: the gate's C is the LINEAR outer involution lambda -> -w0(lambda) at every level (A4: Dynkin reversal, 5->5
+  B874    PROVED    The measurement ladder, exact over Q on the banked B854 build: (1) the coordinate census of ALL 15 subtori of the 2T-torus C is a TWO-VALUE CLIFF -- Cent = 30 for the thr
+  B882    PROVED    THE TILING HAS A CLASSICAL NAME -- M(O,C), the Freudenthal-Vinberg magic square entry: a 10-agent five-angle prior-art workflow (search + verify, verbatim-quote disciplin
+  B887    PROVED    R37-1 executed as a WF-PANEL (37 agents, ~5.5 min): the could-it-still-fail audit of all 19 governance gates -- ~40 HIGH drift findings including TWO LIVE-DEMONSTRATED ho
+  B899    NEGATIVE  M8, THE HIERARCHY-SOURCE CHECK (fenced, geometry only): the operational S3-breaking magnitudes (B890/B891 per-frame deviations) do NOT correlate with mu's root geometry u
+  B905    PROVED    W8 PAID -- the Kim-torsor literature gate (99-agent adversarially-verified panel, full-text greps of primary sources, report banked): (Q1, CLEAN NEGATIVE, high confidence
+  B944    PROVED    THE DYNAMICS & CHIRALITY SWEEP (owner directive: 'we might have all of it, maybe in the other faces, child or combinations'): NEITHER IS MISSING. Verdict-level census: ch
+  B949    PROVED    THE IGNORANCE MAP (owner directive: read the atlas toolset and sweep for what we miss). The atlas exposes seven query functions over 865 mined frontier probes (banked 573
+  B955    PROVED    L133 SCOUTED BEFORE COMPUTING (control PASSED: Hosotani 1983, CHSW 1985, Witten 1985, Slansky 1981 retrieved before any null). (1) MY OWN CANDIDATE IS REFUTED, AND THE RI
+  B961    PROVED    L135 -- THE FRAME INSTRUMENT, BUILT ON THIS BENCH. B958 found the repo had NO independent construction of the frame or of M12: B909 verified section LVIII by RUNNING INCO
+  B962    PROVED    THE VEV PICTURE SCOUTED (control PASSED: Freudenthal 1951, Tits 1953, Rozenfeld 1954, Jacobson 1968, Springer-Veldkamp 2000, Baez read from LaTeX source, plus INSPIRE's E
+  B963    PROVED    TAU DOES DOUBLE DUTY -- the one cause behind four apparently independent failures -- PLUS a scope correction caught before banking, prompted by the owner's 'are we rushin
+  B965    PROVED    THE LAW_MAP SCOPE AUDIT, commissioned by the owner after B964 to catch the error class no gate can see. METHOD, mechanical not editorial: for each of LAW_MAP's 165 claim 
+  B967    PROVED    L139 EXECUTED -- THE RETRACTION SWEEP. Rule: retracting a claim does not retract its INSTANCES, so a retraction is NOT COMPLETE until its phrase is registered in docs/RET
+  B969    PROVED    L138 FIRES -- THE OBJECT'S CANONICAL PAIR RETURNS K, verified independently 3 for 3, with its scope limit stated and the solo seat's own correction banked alongside. B962
+  B982    PROVED    THE FILE-DRAWER LOCK'S EXEMPTION LIST IS PARTLY UNEARNED. tests/test_b837_file_drawer.py exempts twelve sealed-and-ledgered preregs from the reporting obligation under th
+  B995    NEGATIVE  THE SEPARATING-AND-RARE CENSUS: SEALED OUTCOME A, AND THE INSTRUMENT VOIDED BY ITS OWN CONTROL. Prereg a356e987 sealed AND PUSHED before compute with the declared prior O
+VERDICT topic-sweep /source|sourced|flux through|boundary flux|compact core|both cusps|two-cusp/: 83 of 1329 arcs on main match (NEGATIVE 12, OPEN 6, PROVED 64, no verdict file 1)

@@ -9346,6 +9346,62 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1456": {
+   "slug": "genesis v1 2 verified and the seats reconciled",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B130",
+    "B37",
+    "B723",
+    "B779",
+    "B945",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "L241",
+    "L243"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B1457": {
+   "slug": "the audit lanes source records harvested",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B130",
+    "B37",
+    "H4",
+    "H7",
+    "K1",
+    "K2",
+    "K3",
+    "L242",
+    "L243"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B145": {
    "slug": "forced chirality",
    "motifs": [

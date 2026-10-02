@@ -82,6 +82,12 @@ negatives are scope-tagged in Stage 5 with the rest.
   WORKING_RULES, TERMINOLOGY. **What remains is lead L240**: the scope tags of the older arcs (NEGATIVE first), the
   README and THE_CLAIM rewrites, F-MC off the root, the forks with computations behind them, Stage 6's swept page,
   the fresh-reader test — and FK1, the principle's wording, which is the owner's.
+- **2026-10-02, S39 and S40.** The deciding test on the root's vacua (B1455, NEGATIVE, scoped; run a third time by the SM
+  seat with the same outcome). **GENESIS is at v1.3** (B1456): the SM seat's v1.2 verified — 758 word states are 536
+  manifolds, signed even powers placed — with the test's result, what a source must be (GAP3) and the observer fork
+  FK12. **Stage 1's lane work is done for the two active seats:** the SM seat is read through sm:B1520 and codex's
+  audit lane through R80 (B1457), which is where the record's sourced counts on objects other than the root live.
+  The owner's measurer question is the standing lead L241. Remaining: L240 (propagation), L242, L243.
 - **Still Stage 1:** codex's two lanes and the sep16 lane (harvests that age on 2026-10-09 and 10-12), the audit
   lane's same-day genesis reconciliation (unread on main), the web-seat handoffs.
 

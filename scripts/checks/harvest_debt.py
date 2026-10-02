@@ -89,6 +89,14 @@ SEATS = [
     # main must read, and three of them arrived before anyone noticed the branch was unregistered.
     dict(key="review", label="paper-review seat", branch="paper-review-verification-kaz3f5",
          remotes=("origin", "codeberg"), cell=("review seat", "referee")),
+    # ADDED 2026-10-02 (B1456). Two child lanes of the SM seat, opened that day and found by the lane survey's
+    # live test, not by anyone remembering them. Each is the SM seat's tree plus a few commits of its own: the
+    # seal-gate fix (applied on main in its own form) and a re-audit of which arcs declare a law (lead L243 (f),
+    # not applied on main). Pinned at their heads once those commits were read.
+    dict(key="smgates", label="SM seat child lane (seal gates)", branch="magical-wright-vwrmtt",
+         remotes=("origin", "codeberg"), cell=("child lane (seal gates)",)),
+    dict(key="smlaws", label="SM seat child lane (creates_law re-audit)", branch="determined-hopper-t1cmii",
+         remotes=("origin", "codeberg"), cell=("child lane (creates_law",)),
 ]
 
 

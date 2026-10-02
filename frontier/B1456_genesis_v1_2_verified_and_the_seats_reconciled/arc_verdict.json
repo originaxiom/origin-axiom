@@ -1,0 +1,25 @@
+{
+ "id": "B1456",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1454",
+  "B1455",
+  "B1439",
+  "B1434",
+  "B1297",
+  "B1438"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none",
+  "object": "the grammar, the word states to length twelve, the root m004 and m207",
+  "reach": "general",
+  "hypotheses": "the algebra is over words to length 12 and unimodular matrices with entries to 5; the census identifications are of single manifolds"
+ },
+ "claim_one_line": "GENESIS v1.2 VERIFIED ON MAIN AND ADOPTED AS v1.3, AND THE THREE SEATS' SAME-DAY RESULTS RECONCILED. The SM seat's v1.2 (sm:B1519) took main's v1.1 as its head; its new claims are re-derived with main's own code: a word and its reverse give the same oriented manifold (M(reverse w) = D M(w)^-1 D^-1, D = diag(-1,1), on all 8190 words to length twelve), so THE 758 WORD STATES ARE 536 MANIFOLDS (SnapPy's isometry signatures give exactly the reversal partition; 30 of 30 sampled pairs isometric preserving orientation) and main's own census of 95 firing states is 87 manifolds with no pair split; -(LR)^2 is m207 with H1 = Z + Z/3 + Z/3 and a signed even power is neither a state nor a level (the audit lane's R78); the eight isometries of m004 act on the cusp by the four sign pairs twice each. THE DECIDING TEST WAS RUN THREE TIMES WITH ONE OUTCOME: main's B1455 (two routes) and the SM seat's sm:B1520 agree on the kill, on the witnesses and on the failure of main's sealed P1. WHAT MAIN CALLED NEW TODAY WAS PARTLY ON THE RECORD: B1455's three lines are B1297's, 'the count is the order' is the slope law B1438, and rho_q* = rho_{1/q} was in sm:B1512, an arc in main's own harvest table. V1.3 ADDS, each marked: the test's result; what a source must be and what a count needs (the audit lane's R41, R76, R77, R80, as harvested in B1457); the corrections B723 carries; and at FK12, the owner's observer question, the two signs, the count as an order, and the audit lane's criterion for a lost register. The seal gates now read a ledger row from the right. FK1 and FK12 are the owner's. 0 of 19."
+}

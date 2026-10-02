@@ -1,0 +1,5 @@
+K1 R41's pairings: PASS {'T = diag(1,1,1,1,-4)': [0, 0, 0], 'U = diag(3,-1,-1,-1,0)': [12, 8, 4], '-U': [-12, -8, -4], 'E00 - E44': [3, 2, 1]}
+K2 the natural quotient that forgets order: PASS {'words': 1456, 'natural': True, 'q_ab': (1, 1), 'q_ba': (1, 1), 'commutator': 'abAB', 'its_image': (0, 0)}
+K3 the longitude traces: PASS {'T4': '(3*q**4 + 1)/q**3', 'T4_dual': '(q**4 + 3)/q', 'T6': '3*(q**4 + 1)/q**2'}
+K4 ends: PASS {'one_ended': {'m004': (1, 1), 'm003': (1, 1), 'm009': (1, 1), 'm010': (1, 1), 'm369': (1, 1), 's639': (1, 1), 'm207': (1, 1)}, 'two_ended': {'m202': (2, 2), 's959': (2, 2)}}
+VERDICT audit-own-checks: PASS

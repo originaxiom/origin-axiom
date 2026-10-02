@@ -1,0 +1,23 @@
+{
+ "id": "B1457",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1413",
+  "B1455",
+  "B1456",
+  "B1302"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE and the audit lane's sourced models",
+  "object": "m004 and its harmonic family, m010, m202 and the cone ends, as each of the lane's reports states",
+  "reach": "single",
+  "hypotheses": "the lane's own, carried report by report; four pieces of algebra re-derived on main, the rest read in full and not re-derived"
+ },
+ "claim_one_line": "THE AUDIT LANE'S RECORDS FROM R32 TO R80 HARVESTED at 7b088f50: 116 reports and the lane's relays rowed with its own headlines first, every report read in full by a reader pass, its tests run in a pinned checkout. RE-DERIVED ON MAIN: R41's flag pairings ((0,0,0) for the central source direction, (12,8,4) and (3,2,1) for the non-central ones, all three vanishing exactly on the scalars); the q curve fixed by inversion-then-dual and its longitude traces (R47, R48, R54; B1455); the natural quotient F2 -> Z^2 that forgets order (R57); the signed power -(LR)^2 = m207 (R78; B1456). ONE TABLE OF WHAT A COUNT NEEDS, in the lane's own words and read, not re-derived: an ORDER of the pieces (the count lives on the non-split module, R75, R40); no vacuum without help (F01, R76); a SOURCE with a direction and a sign, three balances along the flag (R41, R80), which may sit in the compact core (R76), or FLUX through an end (R41); an added source model that holds the counted configuration at the price of infinitely many flat directions (R77); an end law (R68, R72). AGAINST OBJECTS: the root's vacua count zero (B1455); m010, a signed word state, carries +1 and +1 (R40) with no vacuum; m202, two-ended and not a cover of the root, carries a conditional three with prescribed sources between its ends (R19, R24); -3 on levels three and six for an induced rank-six coefficient (R69). NO REPORT DERIVES THE SOURCE OR SAYS WHICH RELATION SUPPLIES IT. Answers the owner's question of 2026-10-02: B1455 was on m004 alone, and the lane's records put the missing third in the relations. Nothing is promoted or demoted. 0 of 19."
+}

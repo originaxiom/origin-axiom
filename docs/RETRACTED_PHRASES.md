@@ -33,6 +33,21 @@ reading, typing it **structural rhyme** (generic to any hyperbolic 3-manifold, n
 arithmetic) rather than a crossing — quarantined at the seal, never banked as a live claim. Both
 are mentions here, not uses. The registry stays current and the `retraction-sweep` gate clean.
 
+**Currency (verified 2026-10-02, through B1457).** The window B1426–B1457 — the slope law and the census, Review 58,
+the complete points, the seats' harvests, the foundation lock — produced corrections, each read from its own record
+and each made at its source, so that no public phrase is left owed a sweep. They are mentions here, not uses.
+**B1451**: its sealed reader printed "class index zero at 188 of 188" while 40 of the rank determinations were
+unresolved; repaired in the arc and the count now stands on resolved ranks (E52). **B1450**: lead L225's "a proven
+transformation law" for the filled index was a theorem that needs the filled manifold to keep a cusp (E58).
+**B1453**: main's verdict of 2026-09-15 that the Sol filling of m004 carries only reducible SU(2) connections was
+false (40 irreducible ones), corrected in that verdict; and "the class census (112 members)" of B1418 is the family
+census, 99 of them in the class, corrected by addenda in B1418 and B1186. **B1454**: the uniqueness theorem named the
+record swap as the SL(2,ℤ) witness of LR ~ RL (it is L); the theorem ledger miscounted the path registry (18
+untouched); the SM seat's GENESIS v1.0 said the architecture "does not have" dynamics (B944 contradicts it), corrected
+in v1.1. **B1455**: its three lines are B1297's and its "order" is B1438's (its first addendum); its "a bare mirror
+fixes every vacuum" is for twist ±1 (its second). **B1456**: B1434 and B1439 count word states, of which 758 are 536
+manifolds; no number changed, the unit is now named. The registry is current and the `retraction-sweep` gate clean.
+
 | # | retracted phrase (case-insensitive) | retracted by | why it is wrong |
 |---|---|---|---|
 | 1 | `the object does not supply a VEV` | **B964** | False. An adjoint VEV's unbroken group **is** the centralizer of that element, so the measurement cascade **is** an adjoint Higgs mechanism. The object supplies the rank-preserving half; it lacks the rank-reducing **27** half. |
