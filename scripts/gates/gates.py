@@ -1047,20 +1047,55 @@ def gate_theorem_registry():
     arc_verdict.json (a self-declaration a gate reads beats a standing rule nobody
     reads; the field is schema-locked by tests/test_arc_verdict_schema.py, required
     from B1103 on). Rule: every arc declaring creates_law true must appear in
-    docs/THEOREM_REGISTRY.md."""
+    docs/THEOREM_REGISTRY.md.
+
+    The converse (2026-10-02, the creates_law re-audit of B1304-B1513 and its residue): an
+    arc named in a registry row's bank cell that declares creates_law false carries a dated
+    creates_law_reviewed or creates_law_corrected note. Thirty-two arcs of B1304-B1513 and
+    twelve older ones had reached the registry or the law map while declaring false with no
+    decision recorded, and the forward rule cannot see that. Arcs whose field is absent
+    (optional before B1103) or with no verdict file are not read. A row whose bank cell
+    does not open with an arc id fails as well: an unescaped | in its statement has shifted
+    the cells, and the converse would read the wrong one."""
     import glob as _glob
     import json as _json
+    import re as _re
     reg = open(os.path.join(ROOT, "docs", "THEOREM_REGISTRY.md"), encoding="utf-8").read()
-    missing = []
+    missing, verdicts = [], {}
     for f in sorted(_glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json"))):
         try:
             d = _json.load(open(f, encoding="utf-8"))
         except Exception:
             continue
+        verdicts[d.get("id")] = d
         if d.get("creates_law") is True and d.get("id") not in reg:
             missing.append(d.get("id"))
-    ok = not missing
-    return ok, ("ok" if ok else f"creates_law arcs missing registry rows: {missing}")
+    undecided, shifted, bank_table = [], [], False
+    for line in reg.splitlines():
+        if not line.startswith("|"):                       # a stray blank line inside a table does not end it here
+            continue
+        cells = [c.strip() for c in _re.split(r"(?<!\\)\|", line)[1:-1]]
+        if cells and cells[0] == "#":                      # a table header: read it only if column 3 is the bank
+            bank_table = len(cells) > 2 and cells[2] == "bank"
+            continue
+        if not bank_table or _re.fullmatch(r"[\s:|-]*", line):
+            continue
+        if len(cells) < 3 or not _re.match(r"\**B\d", cells[2]):
+            shifted.append(cells[0])
+            continue
+        for a in _re.findall(r"\bB\d+\b", cells[2]):
+            d = verdicts.get(a, {})
+            if d.get("creates_law") is False and not ("creates_law_reviewed" in d or "creates_law_corrected" in d):
+                undecided.append(a)
+    ok = not (missing or undecided or shifted)
+    msgs = []
+    if missing:
+        msgs.append(f"creates_law arcs missing registry rows: {missing}")
+    if undecided:
+        msgs.append(f"registered arcs declaring creates_law false with no dated decision: {sorted(set(undecided))}")
+    if shifted:
+        msgs.append(f"registry rows whose bank cell names no arc (an unescaped |?): {shifted}")
+    return ok, ("ok" if ok else "; ".join(msgs))
 
 def gate_identification_register():
     """B1231. The programme's dominant error mode is IDENTIFICATION -- gluing two structures whose

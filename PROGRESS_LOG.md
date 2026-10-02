@@ -16946,3 +16946,30 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     them waits on the owner.
   - The locks of B1211, B1240, B1241 and B1514–B1519 pass.
 - ERROR_LEDGER: one row (the declaration slip). I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — the `creates_law` residue: twelve registered arcs decided; the theorem-registry gate reads both directions
+
+- **Occasion.** After the B1304–B1513 pass, every THEOREM_REGISTRY bank cell was checked against the verdicts. Twelve arcs named
+  there declared `creates_law: false` with no dated decision, outside both B1214's 116 candidates and this seat's 32: B731, B998,
+  B1115, B1134, B1135, B1136, B1137, B1141, B1142, B1143, B1145 and B1387.
+- **A false lead first.** The check also named B1168, which owns no row. Four registry rows (T-G2-CONE, T-NO-CANONICAL-SELECTOR,
+  T-COUNT-THE-IMAGE, T-EPS-IS-KAPPA-MOD-SQUARES) had an unescaped pipe in the statement, which shifts every later cell. The pipes
+  are escaped.
+- **Decided.** All twelve were read in full under B1214's rule, and all keep false, each with a dated `creates_law_reviewed` note:
+  - another seat's memo re-derived here: B1134, B1135, B1141, B1142, B1143, B1145 (B1214's class for B1138 and B1140);
+  - a synthesis (B1115), a census (B1136), a sealed bounded scan (B1137) and a computed cell on one member (B1387);
+  - a retracted headline named as the arc B734 corrects (B731), and an audit named for a lock repair (B998).
+- **The gate.** `gate_theorem_registry` reads both directions. An arc named in a bank cell that declares false carries a dated
+  decision, and a row whose bank cell does not open with an arc id fails. On the previous commit's tree it names the twelve arcs
+  and the four rows. BANKING_PROTOCOL item 2 states the rule.
+- **Left for the owner.** Four stray blank lines in the registry's last table make its last 57 rows render as plain text, and
+  the B1509–B1513 hygiene tests still assert the old flag.
+- **Checks.**
+  - The claim pool regenerates unchanged: REPRODUCES on the re-run, after the first run stopped on a broken pipe in the script's
+    own `| head -3`.
+  - Gates: 30 PASS and the standing `relay-debt` failure.
+  - The four tests: 1 291 passed.
+  - The touched locks, the `creates_law` locks, the gate-reading tests and the scanning locks: 207 passed, 6 skipped, 1 failed.
+    The failure is B1137's aggregate test, a fresh-clone artefact (its grids are gitignored), which fails the same way on the
+    previous commit.
+- ERROR_LEDGER: one row (the residue and the gate). I-26 stays UNEARNED. 0 of 19.

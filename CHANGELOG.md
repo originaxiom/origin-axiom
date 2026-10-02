@@ -1,5 +1,46 @@
 # Changelog
 
+## The `creates_law` residue: twelve registered arcs decided, and the theorem-registry gate reads both directions
+
+- **The finding.** After the B1304–B1513 pass, every THEOREM_REGISTRY bank cell was checked against the verdicts. Twelve arcs
+  named there declared `creates_law: false` with no dated decision: B731, B998, B1115, B1134, B1135, B1136, B1137, B1141, B1142,
+  B1143, B1145 and B1387. B1214 decided 116 candidates and the B1304–B1513 pass 32 named arcs; neither list held these, and no
+  gate reads that direction.
+- **Four malformed rows.** The check first named a thirteenth arc, B1168, which owns no row. T-NO-CANONICAL-SELECTOR's statement
+  contains an unescaped pipe (`Stab_Aut(D)|_T`), which shifts every later cell, so the cell read as the bank was part of the
+  statement. T-G2-CONE, T-COUNT-THE-IMAGE and T-EPS-IS-KAPPA-MOD-SQUARES had the same defect. The four pipes are now escaped,
+  and no text changes.
+- **Decided** under B1214's rule, each arc read in full (FINDINGS, verdict, registry and law-map rows). All twelve keep false,
+  each with a dated `creates_law_reviewed` note giving its class and basis:
+  - another seat's memo, re-derived here: B1134, B1135, B1141, B1142, B1143, B1145. B1214 gave the same class to B1138 and
+    B1140, the same seat's memos banked the same way;
+  - a synthesis of banked results: B1115;
+  - a census: B1136;
+  - a sealed, bounded scan: B1137;
+  - a computed cell on one member: B1387;
+  - a retracted headline, named in the bank cell as the arc B734 corrects: B731;
+  - an audit, named in B749's row for a lock repair: B998.
+- **The gate.** `gate_theorem_registry` now checks the converse too. An arc named in a registry row's bank cell that declares
+  false must carry a dated `creates_law_reviewed` or `creates_law_corrected` note. A row whose bank cell does not open with an
+  arc id fails, because an unescaped pipe has shifted its cells. Arcs with the field absent (optional before B1103) are not
+  read. On the previous commit's tree the check names the twelve arcs and the four rows; on this tree it passes. BANKING_PROTOCOL
+  item 2 states the rule.
+- **Left for the owner.**
+  - The registry's last table has four stray blank lines after T-MIRROR-ODD-VANISHES. GitHub ends a table at a blank line, so
+    the 57 rows after them render as plain text. The gate reads past them.
+  - The hygiene tests of B1509–B1513's locks still assert `creates_law is False` and still fail.
+- **Checks.**
+  - The P3 claim pool regenerates unchanged with B1213's `reproduce.sh` (REPRODUCES), as no flag changed. Its first run stopped
+    on a broken pipe in the script's own `| head -3` under `pipefail`; the re-run reproduced.
+  - Gates: 30 PASS and the standing `relay-debt` failure. `theorem-registry` passes with the converse.
+  - `tests/test_arc_verdict_schema.py`, `tests/test_b1210_spine_sweep.py`, `tests/test_b1213_claim_base.py` and
+    `tests/test_b1214_creates_law_reaudit.py`: 1 291 passed.
+  - The locks of the touched arcs and rows, the `creates_law` locks (B1211, B1240, B1241), the tests that read the gates and the
+    scanning locks: 207 passed, 6 skipped, 1 failed. The failure is B1137's aggregate test. It reads grid files that `*.jsonl`
+    in `.gitignore` keeps out of the repository, fails the same way on a clean checkout of the previous commit, and is listed in
+    `docs/EXTERNAL_VERIFICATION_2026-09-06.md` §7 among the fresh-clone artefacts.
+- **ERROR_LEDGER:** one row, the residue and the gate.
+
 ## The `creates_law` re-audit of B1304–B1513: fourteen laws declared, eighteen decisions recorded
 
 - **The finding.** From B1304 to B1513 this seat declared `creates_law: false` on every arc. B1270–B1303 before it and B1514
