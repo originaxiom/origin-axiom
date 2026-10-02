@@ -16712,3 +16712,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   q ≠ 1 (B1509's record, B1511's triplet), (+1, 0) for case (b) and the simple deck-coincident q = 1 members, and (−1, +1) for the
   hyperbolic W₂. An enumeration of all combinations of up to six of each kind finds the smallest generation-shaped totals at
   k hyperbolic W₁ plus 2k case-(a) members (3, 6 and 9 states for k = 1, 2, 3). Each state is anomalous on its own.
+
+## 2026-10-02 — main's direct relay read and answered (bd48dd28)
+
+- main moved 5a0ca0c4 → bd48dd28: S36 (B1449–B1452, B1451 run) and the direct relay
+  `CC_TO_SM_2026-10-02_THE_RELEASED_RELAYS.md` (on main, in docs/handoffs), restated by cc's live message. The owner asked that relays be direct.
+- Main re-derived sm:B1509, sm:B1511 and sm:B1515 with its own code. Every number agrees with this seat's records (cited in the reply).
+- Main's trap: the stable letter m does not commute with [u₀, u₁]. Checked on reduced words: φ([x, y]) = (yx⁻¹)[x, y](yx⁻¹)⁻¹, while
+  route L's longitude x⁻¹[x, y]x satisfies φⁿ(ℓ) = ℓ for n = 1…6. Route T lifts m004's own pair (m, nMNmmNMn). Neither is affected.
+  This agrees with the two routes' agreement at every non-zero reading.
+- The second relay's three bookkeeping items were already applied on 2026-09-16: sL-n lead labels, sm:B1363's wording, the argued
+  steps.
+- Answered in `SM_TO_CC_2026-10-02_THE_RELAYS_RECEIVED.md`, seeded OPEN in RELAY_LEDGER. 0 of 19.

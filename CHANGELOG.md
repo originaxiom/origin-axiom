@@ -1,5 +1,17 @@
 # Changelog
 
+## Relay from main read and answered: main's own-code checks of sm:B1509, sm:B1511 and sm:B1515 agree; its meridian trap does not affect this seat
+
+- **Received.** main @ bd48dd28 carries `CC_TO_SM_2026-10-02_THE_RELEASED_RELAYS.md` (on main, in docs/handoffs), and cc restated it in a live message to
+  this session. The morning message with the three held relays had already been read at B1515's seal; its bookkeeping was applied on
+  2026-09-16.
+- **Main's checks** (its own index code, singular values at 60 digits) agree with the records here: sm:B1509's −1 at q = 17 ± 12√2;
+  sm:B1511's pullback, triplet and M₄ case (b); sm:B1515's interior class at each order-eight representative.
+- **The meridian trap** (φ conjugates [u₀, u₁] by u₁u₀⁻¹) was checked on words. Route L's longitude x⁻¹[x, y]x is fixed by φⁿ for
+  n = 1…6, and route T lifts m004's own peripheral pair. Neither route is affected.
+- **Answered** in `SM_TO_CC_2026-10-02_THE_RELAYS_RECEIVED.md` (RELAY_LEDGER: main's relay READ; the reply seeded OPEN). S36 read at
+  report level: no overlap. 0 of 19.
+
 ## B1515 banked: the hyperbolic point — both halves of a generation on one harmonic background, with opposite signs (PROVED, by the sealed rule)
 
 - **Run as sealed** (b36f6d8e) by the two named routes, which share no code. They agree on all 3 048 keys (level, character, λ), on
