@@ -1,0 +1,63 @@
+{
+ "F1 odd length: states, of which torsion even": [
+  268,
+  268
+ ],
+ "F1 even length: states, torsion even, A = I mod 2": [
+  490,
+  164,
+  164
+ ],
+ "F1 even length: torsion even exactly when A = I mod 2": true,
+ "F2 (|G|, sign) fixes tr A on every state": true,
+ "F3 S1 strata (manifolds): strata, units in strata of size >= 2": [
+  286,
+  406
+ ],
+ "F3 S2 strata (manifolds): strata, units in strata of size >= 2": [
+  422,
+  210
+ ],
+ "F3 S3 strata (manifolds): strata, units in strata of size >= 2": [
+  461,
+  140
+ ],
+ "F4 manifolds by (reversal-closed, symmetry order)": {
+  "False, 2": 220,
+  "False, 4": 2,
+  "True, 4": 292,
+  "True, 8": 22
+ },
+ "F4 manifolds by (reversal-closed, amphichiral)": {
+  "False, False": 220,
+  "False, True": 2,
+  "True, False": 250,
+  "True, True": 64
+ },
+ "F4 manifolds: units, reversal-closed, amphichiral": [
+  536,
+  314,
+  66
+ ],
+ "F6 reversal_closed given ['d1', 'd2', 'sign']: informative strata, their units, of which with the feature": [
+  32,
+  70,
+  36
+ ],
+ "F6 amphichiral given ['d1', 'd2', 'sign', 'reversal_closed']: informative strata, their units, of which with the feature": [
+  6,
+  13,
+  7
+ ],
+ "F5 own levels with exponent <= 2 (manifolds)": 3,
+ "F5 census level-manifolds with exponent <= 2": 3,
+ "F5 census level-manifolds by k": {
+  "1": 536,
+  "2": 79,
+  "3": 32,
+  "4": 5,
+  "5": 4,
+  "6": 1,
+  "7": 2
+ }
+}

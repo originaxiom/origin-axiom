@@ -16830,3 +16830,18 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   three schema cases: B1517's verdict, its novelty-wording case and the wording check's control. All 14 passed.
 - I-26 stays UNEARNED. 0 of 19.
 
+## 2026-10-02 — B1518 sealed: THE BAR (not run)
+
+- **Occasion:** the owner's "continue with the next arc" after B1517. The next arc is sL-9 item 1, the bar first: a selection
+  rule and a null model, fixed before any further match is counted.
+- **The sweep, before the design was fixed.**
+  - The repo: 9 heads, ten terms. Main's B1434, B1438, B1439, B1442, B1414 and L229 were read. The audit lane's genesis plan and
+    R78–R79 were read.
+  - The literature: look-elsewhere, landscape statistics, torsion statistics and preregistration, with locations.
+  - What it changed: main had already looked for an own-level criterion and found none, had argued the root's tower typical, and
+    holds the exponent-two lemma. The design cites them. One drafted prediction was decided by the disclosed data and became a
+    decided item (ERROR_LEDGER).
+- **Sealed** at 76bd91e0…: the bar (PREREGISTRATION §3) and four predictions on main's census (P1–P4, priors 85, 75, 85 and 45%).
+  The run script, the instrument and every input are hashed in `ARTIFACT_HASHES.txt`.
+- **Not computed:** any cross-tabulation of main's hits with the covariates; any stratum rate, AUC or conditional test.
+- I-26 stays UNEARNED. 0 of 19.

@@ -1,5 +1,44 @@
 # Changelog
 
+## B1518 sealed: THE BAR — a selection rule and a null model for a positive on a generated state, run first on main's class-index census (not run)
+
+- **The question** (OPEN_LEADS sL-9 item 1; GENESIS GAP4 and FK9; the owner's "continue with the next arc" after B1517). With
+  hundreds of states, frames, levels and ends, a Standard-Model-like feature somewhere is expected by chance. The record's bar
+  pieces (the emergence bar, WHAT_WOULD_COUNT's grades, B614's gate, INPUT_COMPLETENESS rows 7–8, E20, E61) were written for value
+  matches and single structures. None says what a positive on one generated state must beat.
+- **The bar** (PREREGISTRATION §3, sealed so that the run cannot shape it):
+  - a card: the frame, the feature, the population, the unit, and how the state was chosen;
+  - the base rate in the named unit, with its exact interval; a frame with no population run is UNJUDGED;
+  - the comparable objects: r is the upper exact 95% limit of the feature's rate in the state's stratum, fixed now as
+    (d1, d2, sign, reversal class) for the class-index frame;
+  - selection and trials: a fixed rule gives p = r, a scan of n gives 1 − (1 − r_P)ⁿ, with Šidák over every look;
+  - the gate p < 0.01 (B614 G3). The grades are WHAT_WOULD_COUNT's DERIVED, REPRODUCED and FITTED, plus UNJUDGED.
+- **The census questions** (main's L229 (i), the own-level law), on 536 manifolds:
+  - P1 (85%): own-level firing is not determined by the fibre torsion with the monodromy's action (G, sign);
+  - P2 (75%): nor with the symmetry order added;
+  - P3 (85%, near-implied by main's disclosed enrichments): G predicts firing beyond chance;
+  - P4 (45%; only 32 strata hold both classes): reversal symmetry predicts it beyond G and sign.
+  Two significance tests, Šidák-corrected for two, read at 0.01.
+- **Decided at design time:**
+  - D1: main's B1442 lemma (exponent two forbids a generation-shaped background);
+  - D2: the root's own level is silent;
+  - D3: the root's tower is REPRODUCED at k = 3–7, decided by main's level table and argued by main's B1434 (b);
+  - D4: the record's positives graded. m369, s639, the 87 carriers and the fourteen complete states were scanned, so each would be
+    FITTED if claimed, and main's fences claim none of them. The harmonic frame's counts are UNJUDGED.
+- **The sweep came first** (SEE THE REPO FIRST). Main had looked for a criterion ("no criterion found … the list is the datum"),
+  had argued the root's tower typical, and holds the exponent-two lemma; the design cites all three. A draft prediction that the
+  disclosed data already decided became D3 (ERROR_LEDGER rule slip). Four cited line ranges were corrected before the hash.
+- **Literature** (read the same day): Gross–Vitells trial factors; Benjamini–Hochberg and Benjamini–Yekutieli; the
+  string-landscape statistics (Douglas; Gmeiner et al.'s "one in a billion"; Douglas–Taylor; the heterotic scans that impose three
+  families as a filter; Lebedev et al.; Dienes–Lennek's floating correlations, the literature's form of B1517's unit point);
+  Dunfield–Thurston, Sawin–Wood and Rivin on torsion statistics; Gelman–Loken and Nosek et al. on forking paths and preregistration.
+- **Controls before the seal**, on covariates only: ten planted instrument controls, eight planted dry-run controls on synthetic
+  hits, and the design facts F1–F6. F1: odd word length forces even fibre torsion, 268 of 268, proved mod 2. F2: (|G|, sign) fixes
+  the trace. F3 and F6: the strata's power.
+- **Read for overlap:** main's S37 (B1453's harvest of this seat's forty-seven arcs; its relay) and the audit lane's R78 run and R79.
+  R78's three identifications were re-checked with SnapPy. Seal 76bd91e0…; SEAL_LEDGER, RELAY_LEDGER, ERROR_LEDGER, OPEN_LEADS and the
+  alias table updated.
+
 ## B1517 banked: SEE THE REPO FIRST, THEN THE LITERATURE — the owner's rule made data; its first sweep amends GENESIS to v1.1 (the 758 word states are 536 manifolds)
 
 - **The rule.** The owner, verbatim: "i ljust lets make sure we dont miss any work and misclaim about it. make a rule to see the

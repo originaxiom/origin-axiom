@@ -1,0 +1,9888 @@
+{
+"source": "main @ 637561d3 (unchanged since 96a187e8, 2026-10-01): frontier/B1439_the_census_by_slope/verification/census_by_slope_{0,1,2,3}.json",
+"read": "2026-10-02",
+"fields": "state, k, N (exponent), torsion, characters, firing (modules with non-zero index), generation_backgrounds, lifted; quoted unchanged",
+"note": "an extract for B1518; main's record is the source. 'firing' here is main's module count (meaning 1 of three in the B1518 sweep); a level carries a generation-shaped background when generation_backgrounds > 0.",
+"records": [
+{
+"state": "+LR",
+"k": 1,
+"N": 1,
+"torsion": 1,
+"characters": 1,
+"firing": 0,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRR",
+"k": 1,
+"N": 2,
+"torsion": 4,
+"characters": 4,
+"firing": 0,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LR",
+"k": 2,
+"N": 5,
+"torsion": 5,
+"characters": 5,
+"firing": 8,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLR",
+"k": 1,
+"N": 7,
+"torsion": 7,
+"characters": 7,
+"firing": 12,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRR",
+"k": 1,
+"N": 4,
+"torsion": 8,
+"characters": 8,
+"firing": 16,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLR",
+"k": 1,
+"N": 9,
+"torsion": 9,
+"characters": 9,
+"firing": 12,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRR",
+"k": 1,
+"N": 10,
+"torsion": 10,
+"characters": 10,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLR",
+"k": 1,
+"N": 11,
+"torsion": 11,
+"characters": 11,
+"firing": 20,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRR",
+"k": 1,
+"N": 12,
+"torsion": 12,
+"characters": 12,
+"firing": 40,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLR",
+"k": 1,
+"N": 13,
+"torsion": 13,
+"characters": 13,
+"firing": 24,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRR",
+"k": 1,
+"N": 14,
+"torsion": 14,
+"characters": 14,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRR",
+"k": 1,
+"N": 15,
+"torsion": 15,
+"characters": 15,
+"firing": 72,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "-LLLLRRR",
+"k": 1,
+"N": 16,
+"torsion": 16,
+"characters": 16,
+"firing": 28,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLR",
+"k": 1,
+"N": 17,
+"torsion": 17,
+"characters": 17,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRR",
+"k": 1,
+"N": 6,
+"torsion": 18,
+"characters": 18,
+"firing": 104,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRR",
+"k": 1,
+"N": 19,
+"torsion": 19,
+"characters": 19,
+"firing": 36,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRR",
+"k": 1,
+"N": 20,
+"torsion": 20,
+"characters": 20,
+"firing": 132,
+"generation_backgrounds": 32,
+"lifted": 0
+},
+{
+"state": "+LLRLLRR",
+"k": 1,
+"N": 20,
+"torsion": 20,
+"characters": 20,
+"firing": 68,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLR",
+"k": 2,
+"N": 21,
+"torsion": 21,
+"characters": 21,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRR",
+"k": 1,
+"N": 22,
+"torsion": 22,
+"characters": 22,
+"firing": 40,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLR",
+"k": 1,
+"N": 23,
+"torsion": 23,
+"characters": 23,
+"firing": 44,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRR",
+"k": 1,
+"N": 12,
+"torsion": 24,
+"characters": 24,
+"firing": 188,
+"generation_backgrounds": 24,
+"lifted": 0
+},
+{
+"state": "-LLRLLRR",
+"k": 1,
+"N": 24,
+"torsion": 24,
+"characters": 24,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRR",
+"k": 1,
+"N": 25,
+"torsion": 25,
+"characters": 25,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRLR",
+"k": 1,
+"N": 9,
+"torsion": 27,
+"characters": 27,
+"firing": 268,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "+LLLRRLLR",
+"k": 1,
+"N": 27,
+"torsion": 27,
+"characters": 27,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRR",
+"k": 1,
+"N": 14,
+"torsion": 28,
+"characters": 28,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRR",
+"k": 1,
+"N": 14,
+"torsion": 28,
+"characters": 28,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRR",
+"k": 1,
+"N": 29,
+"torsion": 29,
+"characters": 29,
+"firing": 56,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLRRR",
+"k": 1,
+"N": 31,
+"torsion": 31,
+"characters": 31,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRRRR",
+"k": 1,
+"N": 8,
+"torsion": 32,
+"characters": 32,
+"firing": 352,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRR",
+"k": 1,
+"N": 32,
+"torsion": 32,
+"characters": 32,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRR",
+"k": 1,
+"N": 32,
+"torsion": 32,
+"characters": 32,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRR",
+"k": 2,
+"N": 8,
+"torsion": 32,
+"characters": 32,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRLR",
+"k": 1,
+"N": 33,
+"torsion": 33,
+"characters": 33,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRRRR",
+"k": 1,
+"N": 35,
+"torsion": 35,
+"characters": 35,
+"firing": 404,
+"generation_backgrounds": 96,
+"lifted": 96
+},
+{
+"state": "-LLLLLLLLRRRR",
+"k": 1,
+"N": 18,
+"torsion": 36,
+"characters": 36,
+"firing": 76,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRR",
+"k": 1,
+"N": 36,
+"torsion": 36,
+"characters": 36,
+"firing": 64,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLR",
+"k": 1,
+"N": 18,
+"torsion": 36,
+"characters": 36,
+"firing": 136,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRR",
+"k": 1,
+"N": 37,
+"torsion": 37,
+"characters": 37,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRR",
+"k": 1,
+"N": 38,
+"torsion": 38,
+"characters": 38,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRRRR",
+"k": 1,
+"N": 39,
+"torsion": 39,
+"characters": 39,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRLLR",
+"k": 1,
+"N": 20,
+"torsion": 40,
+"characters": 40,
+"firing": 560,
+"generation_backgrounds": 64,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRR",
+"k": 1,
+"N": 40,
+"torsion": 40,
+"characters": 40,
+"firing": 236,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLRR",
+"k": 1,
+"N": 41,
+"torsion": 41,
+"characters": 41,
+"firing": 80,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRLRR",
+"k": 1,
+"N": 42,
+"torsion": 42,
+"characters": 42,
+"firing": 76,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRRR",
+"k": 1,
+"N": 42,
+"torsion": 42,
+"characters": 42,
+"firing": 76,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRLR",
+"k": 1,
+"N": 43,
+"torsion": 43,
+"characters": 43,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRR",
+"k": 1,
+"N": 44,
+"torsion": 44,
+"characters": 44,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLRR",
+"k": 1,
+"N": 45,
+"torsion": 45,
+"characters": 45,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLLR",
+"k": 1,
+"N": 45,
+"torsion": 45,
+"characters": 45,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRLR",
+"k": 1,
+"N": 46,
+"torsion": 46,
+"characters": 46,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRRLR",
+"k": 1,
+"N": 47,
+"torsion": 47,
+"characters": 47,
+"firing": 92,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRLR",
+"k": 1,
+"N": 12,
+"torsion": 48,
+"characters": 48,
+"firing": 368,
+"generation_backgrounds": 24,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLR",
+"k": 1,
+"N": 48,
+"torsion": 48,
+"characters": 48,
+"firing": 296,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "+LLLLRRLRRR",
+"k": 1,
+"N": 49,
+"torsion": 49,
+"characters": 49,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRRRR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLLRR",
+"k": 1,
+"N": 52,
+"torsion": 52,
+"characters": 52,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRRR",
+"k": 1,
+"N": 26,
+"torsion": 52,
+"characters": 52,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRRLR",
+"k": 1,
+"N": 53,
+"torsion": 53,
+"characters": 53,
+"firing": 104,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRRR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLLRR",
+"k": 1,
+"N": 55,
+"torsion": 55,
+"characters": 55,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRLRR",
+"k": 1,
+"N": 56,
+"torsion": 56,
+"characters": 56,
+"firing": 444,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRLRRR",
+"k": 1,
+"N": 57,
+"torsion": 57,
+"characters": 57,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLRR",
+"k": 1,
+"N": 58,
+"torsion": 58,
+"characters": 58,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLRR",
+"k": 1,
+"N": 58,
+"torsion": 58,
+"characters": 58,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLRRRR",
+"k": 1,
+"N": 59,
+"torsion": 59,
+"characters": 59,
+"firing": 116,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLR",
+"k": 2,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 352,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "-LLLLRLLLLRR",
+"k": 1,
+"N": 60,
+"torsion": 60,
+"characters": 60,
+"firing": 400,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "-LLLRR",
+"k": 2,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 432,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "-LLLLRLLRLR",
+"k": 1,
+"N": 61,
+"torsion": 61,
+"characters": 61,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRLLR",
+"k": 1,
+"N": 62,
+"torsion": 62,
+"characters": 62,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLRRRR",
+"k": 1,
+"N": 63,
+"torsion": 63,
+"characters": 63,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRLR",
+"k": 1,
+"N": 63,
+"torsion": 63,
+"characters": 63,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRLRR",
+"k": 1,
+"N": 64,
+"torsion": 64,
+"characters": 64,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRLR",
+"k": 1,
+"N": 32,
+"torsion": 64,
+"characters": 64,
+"firing": 332,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "-LLLRRLLRRR",
+"k": 1,
+"N": 65,
+"torsion": 65,
+"characters": 65,
+"firing": 128,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRLR",
+"k": 1,
+"N": 66,
+"torsion": 66,
+"characters": 66,
+"firing": 284,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLLLLR",
+"k": 1,
+"N": 67,
+"torsion": 67,
+"characters": 67,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLLRRR",
+"k": 1,
+"N": 34,
+"torsion": 68,
+"characters": 68,
+"firing": 128,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLLRR",
+"k": 1,
+"N": 68,
+"torsion": 68,
+"characters": 68,
+"firing": 260,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRRLR",
+"k": 1,
+"N": 34,
+"torsion": 68,
+"characters": 68,
+"firing": 256,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRLRRR",
+"k": 1,
+"N": 71,
+"torsion": 71,
+"characters": 71,
+"firing": 140,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRLR",
+"k": 1,
+"N": 71,
+"torsion": 71,
+"characters": 71,
+"firing": 140,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLRLR",
+"k": 1,
+"N": 72,
+"torsion": 72,
+"characters": 72,
+"firing": 136,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLRR",
+"k": 1,
+"N": 36,
+"torsion": 72,
+"characters": 72,
+"firing": 308,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRRLR",
+"k": 1,
+"N": 73,
+"torsion": 73,
+"characters": 73,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRLRR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLLRR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRLR",
+"k": 1,
+"N": 76,
+"torsion": 76,
+"characters": 76,
+"firing": 292,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLLRR",
+"k": 1,
+"N": 76,
+"torsion": 76,
+"characters": 76,
+"firing": 292,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLR",
+"k": 2,
+"N": 77,
+"torsion": 77,
+"characters": 77,
+"firing": 392,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLRR",
+"k": 1,
+"N": 77,
+"torsion": 77,
+"characters": 77,
+"firing": 392,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLRRR",
+"k": 1,
+"N": 78,
+"torsion": 78,
+"characters": 78,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLRRRR",
+"k": 1,
+"N": 79,
+"torsion": 79,
+"characters": 79,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRLLRR",
+"k": 1,
+"N": 20,
+"torsion": 80,
+"characters": 80,
+"firing": 344,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRRLRR",
+"k": 1,
+"N": 40,
+"torsion": 80,
+"characters": 80,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLLRR",
+"k": 1,
+"N": 80,
+"torsion": 80,
+"characters": 80,
+"firing": 764,
+"generation_backgrounds": 256,
+"lifted": 256
+},
+{
+"state": "+LLLLLRRRLRRR",
+"k": 1,
+"N": 27,
+"torsion": 81,
+"characters": 81,
+"firing": 448,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLLRR",
+"k": 1,
+"N": 82,
+"torsion": 82,
+"characters": 82,
+"firing": 160,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLRRRR",
+"k": 1,
+"N": 83,
+"torsion": 83,
+"characters": 83,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRLLR",
+"k": 1,
+"N": 84,
+"torsion": 84,
+"characters": 84,
+"firing": 368,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLLRR",
+"k": 1,
+"N": 42,
+"torsion": 84,
+"characters": 84,
+"firing": 444,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLRRR",
+"k": 1,
+"N": 86,
+"torsion": 86,
+"characters": 86,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRLR",
+"k": 1,
+"N": 87,
+"torsion": 87,
+"characters": 87,
+"firing": 392,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRRLR",
+"k": 1,
+"N": 88,
+"torsion": 88,
+"characters": 88,
+"firing": 172,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLRLRR",
+"k": 1,
+"N": 89,
+"torsion": 89,
+"characters": 89,
+"firing": 176,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLRRR",
+"k": 1,
+"N": 90,
+"torsion": 90,
+"characters": 90,
+"firing": 412,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRLR",
+"k": 1,
+"N": 91,
+"torsion": 91,
+"characters": 91,
+"firing": 468,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRRLR",
+"k": 1,
+"N": 92,
+"torsion": 92,
+"characters": 92,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLRLRR",
+"k": 1,
+"N": 93,
+"torsion": 93,
+"characters": 93,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLRLR",
+"k": 1,
+"N": 94,
+"torsion": 94,
+"characters": 94,
+"firing": 184,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLRLLR",
+"k": 1,
+"N": 95,
+"torsion": 95,
+"characters": 95,
+"firing": 476,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLRLR",
+"k": 1,
+"N": 95,
+"torsion": 95,
+"characters": 95,
+"firing": 476,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLLLRR",
+"k": 1,
+"N": 48,
+"torsion": 96,
+"characters": 96,
+"firing": 1096,
+"generation_backgrounds": 192,
+"lifted": 128
+},
+{
+"state": "-LLLLRRLRRLR",
+"k": 1,
+"N": 96,
+"torsion": 96,
+"characters": 96,
+"firing": 280,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLR",
+"k": 2,
+"N": 48,
+"torsion": 96,
+"characters": 96,
+"firing": 936,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRLRR",
+"k": 1,
+"N": 14,
+"torsion": 98,
+"characters": 98,
+"firing": 864,
+"generation_backgrounds": 120,
+"lifted": 120
+},
+{
+"state": "+LLLRLRRLRRR",
+"k": 1,
+"N": 98,
+"torsion": 98,
+"characters": 98,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLRLR",
+"k": 1,
+"N": 99,
+"torsion": 99,
+"characters": 99,
+"firing": 512,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRRLR",
+"k": 1,
+"N": 100,
+"torsion": 100,
+"characters": 100,
+"firing": 196,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRRLR",
+"k": 1,
+"N": 101,
+"torsion": 101,
+"characters": 101,
+"firing": 200,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLRLLR",
+"k": 1,
+"N": 103,
+"torsion": 103,
+"characters": 103,
+"firing": 204,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRRRLR",
+"k": 1,
+"N": 52,
+"torsion": 104,
+"characters": 104,
+"firing": 392,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLLRRR",
+"k": 1,
+"N": 104,
+"torsion": 104,
+"characters": 104,
+"firing": 204,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRRLLR",
+"k": 1,
+"N": 105,
+"torsion": 105,
+"characters": 105,
+"firing": 204,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRLLLR",
+"k": 1,
+"N": 107,
+"torsion": 107,
+"characters": 107,
+"firing": 212,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRLRRR",
+"k": 1,
+"N": 54,
+"torsion": 108,
+"characters": 108,
+"firing": 596,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLLRRR",
+"k": 1,
+"N": 18,
+"torsion": 108,
+"characters": 108,
+"firing": 576,
+"generation_backgrounds": 16,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLRRR",
+"k": 1,
+"N": 108,
+"torsion": 108,
+"characters": 108,
+"firing": 568,
+"generation_backgrounds": 216,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRLLR",
+"k": 1,
+"N": 109,
+"torsion": 109,
+"characters": 109,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRRLRR",
+"k": 1,
+"N": 110,
+"torsion": 110,
+"characters": 110,
+"firing": 536,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLLLRR",
+"k": 1,
+"N": 111,
+"torsion": 111,
+"characters": 111,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLLRRR",
+"k": 1,
+"N": 56,
+"torsion": 112,
+"characters": 112,
+"firing": 512,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRLLRR",
+"k": 1,
+"N": 113,
+"torsion": 113,
+"characters": 113,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRRLR",
+"k": 1,
+"N": 114,
+"torsion": 114,
+"characters": 114,
+"firing": 220,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLRRLR",
+"k": 1,
+"N": 58,
+"torsion": 116,
+"characters": 116,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLR",
+"k": 2,
+"N": 117,
+"torsion": 117,
+"characters": 117,
+"firing": 612,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLRLRR",
+"k": 1,
+"N": 117,
+"torsion": 117,
+"characters": 117,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLLRR",
+"k": 1,
+"N": 118,
+"torsion": 118,
+"characters": 118,
+"firing": 232,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRRLLR",
+"k": 1,
+"N": 119,
+"torsion": 119,
+"characters": 119,
+"firing": 236,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLLRR",
+"k": 1,
+"N": 120,
+"torsion": 120,
+"characters": 120,
+"firing": 248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRRRLR",
+"k": 1,
+"N": 121,
+"torsion": 121,
+"characters": 121,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRRRLR",
+"k": 1,
+"N": 123,
+"torsion": 123,
+"characters": 123,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLRRLR",
+"k": 1,
+"N": 62,
+"torsion": 124,
+"characters": 124,
+"firing": 244,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRRLRR",
+"k": 1,
+"N": 125,
+"torsion": 125,
+"characters": 125,
+"firing": 248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLLRLR",
+"k": 1,
+"N": 42,
+"torsion": 126,
+"characters": 126,
+"firing": 648,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRRLLR",
+"k": 1,
+"N": 16,
+"torsion": 128,
+"characters": 128,
+"firing": 924,
+"generation_backgrounds": 128,
+"lifted": 96
+},
+{
+"state": "+LLLRLLLRRRLR",
+"k": 1,
+"N": 64,
+"torsion": 128,
+"characters": 128,
+"firing": 492,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLRLR",
+"k": 1,
+"N": 128,
+"torsion": 128,
+"characters": 128,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLRLR",
+"k": 1,
+"N": 130,
+"torsion": 130,
+"characters": 130,
+"firing": 640,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRLLRR",
+"k": 1,
+"N": 66,
+"torsion": 132,
+"characters": 132,
+"firing": 284,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRRRLR",
+"k": 1,
+"N": 66,
+"torsion": 132,
+"characters": 132,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRLRRR",
+"k": 1,
+"N": 133,
+"torsion": 133,
+"characters": 133,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRRLRR",
+"k": 1,
+"N": 135,
+"torsion": 135,
+"characters": 135,
+"firing": 888,
+"generation_backgrounds": 432,
+"lifted": 432
+},
+{
+"state": "-LLLLRLLRLLRR",
+"k": 1,
+"N": 68,
+"torsion": 136,
+"characters": 136,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLRLRR",
+"k": 1,
+"N": 137,
+"torsion": 137,
+"characters": 137,
+"firing": 272,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLRLR",
+"k": 1,
+"N": 138,
+"torsion": 138,
+"characters": 138,
+"firing": 268,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLLR",
+"k": 2,
+"N": 70,
+"torsion": 140,
+"characters": 140,
+"firing": 996,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLLLRR",
+"k": 1,
+"N": 70,
+"torsion": 140,
+"characters": 140,
+"firing": 672,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRLLRR",
+"k": 1,
+"N": 141,
+"torsion": 141,
+"characters": 141,
+"firing": 276,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRRLRR",
+"k": 1,
+"N": 143,
+"torsion": 143,
+"characters": 143,
+"firing": 764,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRRLRR",
+"k": 1,
+"N": 12,
+"torsion": 144,
+"characters": 144,
+"firing": 2232,
+"generation_backgrounds": 528,
+"lifted": 16
+},
+{
+"state": "-LLRLLRLRRLR",
+"k": 1,
+"N": 144,
+"torsion": 144,
+"characters": 144,
+"firing": 800,
+"generation_backgrounds": 8,
+"lifted": 8
+},
+{
+"state": "+LLRLRLLRRLR",
+"k": 1,
+"N": 146,
+"torsion": 146,
+"characters": 146,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRLLRR",
+"k": 1,
+"N": 147,
+"torsion": 147,
+"characters": 147,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRRLRRR",
+"k": 1,
+"N": 147,
+"torsion": 147,
+"characters": 147,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRRLRLR",
+"k": 1,
+"N": 148,
+"torsion": 148,
+"characters": 148,
+"firing": 292,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRLLRR",
+"k": 1,
+"N": 30,
+"torsion": 150,
+"characters": 150,
+"firing": 1436,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "-LLLRRLRRLRRR",
+"k": 1,
+"N": 151,
+"torsion": 151,
+"characters": 151,
+"firing": 300,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRLLRR",
+"k": 1,
+"N": 154,
+"torsion": 154,
+"characters": 154,
+"firing": 784,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRLRLR",
+"k": 1,
+"N": 157,
+"torsion": 157,
+"characters": 157,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRLRRR",
+"k": 1,
+"N": 157,
+"torsion": 157,
+"characters": 157,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLLRRLR",
+"k": 1,
+"N": 159,
+"torsion": 159,
+"characters": 159,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLLRRR",
+"k": 1,
+"N": 161,
+"torsion": 161,
+"characters": 161,
+"firing": 320,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLLRRR",
+"k": 1,
+"N": 82,
+"torsion": 164,
+"characters": 164,
+"firing": 320,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLR",
+"k": 2,
+"N": 165,
+"torsion": 165,
+"characters": 165,
+"firing": 1572,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "+LLLLRLRLRLRR",
+"k": 1,
+"N": 84,
+"torsion": 168,
+"characters": 168,
+"firing": 388,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRLLRR",
+"k": 1,
+"N": 171,
+"torsion": 171,
+"characters": 171,
+"firing": 912,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRRLRR",
+"k": 1,
+"N": 86,
+"torsion": 172,
+"characters": 172,
+"firing": 336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLRLLR",
+"k": 1,
+"N": 44,
+"torsion": 176,
+"characters": 176,
+"firing": 884,
+"generation_backgrounds": 24,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLLRLR",
+"k": 1,
+"N": 177,
+"torsion": 177,
+"characters": 177,
+"firing": 348,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLLRLR",
+"k": 1,
+"N": 181,
+"torsion": 181,
+"characters": 181,
+"firing": 360,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLRLLR",
+"k": 1,
+"N": 183,
+"torsion": 183,
+"characters": 183,
+"firing": 360,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLRLLR",
+"k": 1,
+"N": 187,
+"torsion": 187,
+"characters": 187,
+"firing": 372,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLRLRR",
+"k": 1,
+"N": 191,
+"torsion": 191,
+"characters": 191,
+"firing": 380,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRR",
+"k": 2,
+"N": 96,
+"torsion": 192,
+"characters": 192,
+"firing": 1896,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRRLLR",
+"k": 1,
+"N": 48,
+"torsion": 192,
+"characters": 192,
+"firing": 608,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRRLRR",
+"k": 1,
+"N": 193,
+"torsion": 193,
+"characters": 193,
+"firing": 384,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLLRLR",
+"k": 1,
+"N": 195,
+"torsion": 195,
+"characters": 195,
+"firing": 384,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLLRLR",
+"k": 1,
+"N": 98,
+"torsion": 196,
+"characters": 196,
+"firing": 508,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRRLRR",
+"k": 1,
+"N": 197,
+"torsion": 197,
+"characters": 197,
+"firing": 392,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLR",
+"k": 3,
+"N": 40,
+"torsion": 200,
+"characters": 200,
+"firing": 2772,
+"generation_backgrounds": 48,
+"lifted": 48
+},
+{
+"state": "-LLLRRLRLRRLR",
+"k": 1,
+"N": 100,
+"torsion": 200,
+"characters": 200,
+"firing": 792,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLRLRR",
+"k": 1,
+"N": 205,
+"torsion": 205,
+"characters": 205,
+"firing": 1048,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLRLRR",
+"k": 1,
+"N": 209,
+"torsion": 209,
+"characters": 209,
+"firing": 1136,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLRLLRR",
+"k": 1,
+"N": 215,
+"torsion": 215,
+"characters": 215,
+"firing": 428,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRRLLRLR",
+"k": 1,
+"N": 219,
+"torsion": 219,
+"characters": 219,
+"firing": 432,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRR",
+"k": 2,
+"N": 221,
+"torsion": 221,
+"characters": 221,
+"firing": 1208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRLRLR",
+"k": 1,
+"N": 231,
+"torsion": 231,
+"characters": 231,
+"firing": 1256,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLR",
+"k": 2,
+"N": 42,
+"torsion": 252,
+"characters": 252,
+"firing": 3160,
+"generation_backgrounds": 280,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLRLRLR",
+"k": 1,
+"N": 64,
+"torsion": 256,
+"characters": 256,
+"firing": 1812,
+"generation_backgrounds": 24,
+"lifted": 8
+},
+{
+"state": "-LLRLRLRRLRLR",
+"k": 1,
+"N": 130,
+"torsion": 260,
+"characters": 260,
+"firing": 1280,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRR",
+"k": 2,
+"N": 285,
+"torsion": 285,
+"characters": 285,
+"firing": 2772,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "+LLLLLR",
+"k": 3,
+"N": 40,
+"torsion": 320,
+"characters": 320,
+"firing": 5912,
+"generation_backgrounds": 720,
+"lifted": 240
+},
+{
+"state": "+LLLRLLR",
+"k": 2,
+"N": 160,
+"torsion": 320,
+"characters": 320,
+"firing": 3676,
+"generation_backgrounds": 32,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLR",
+"k": 2,
+"N": 357,
+"torsion": 357,
+"characters": 357,
+"firing": 3644,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "-LLLLLLRRR",
+"k": 2,
+"N": 66,
+"torsion": 396,
+"characters": 396,
+"firing": 4124,
+"generation_backgrounds": 72,
+"lifted": 0
+},
+{
+"state": "-LLLRRLR",
+"k": 2,
+"N": 198,
+"torsion": 396,
+"characters": 396,
+"firing": 2208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLR",
+"k": 2,
+"N": 240,
+"torsion": 480,
+"characters": 480,
+"firing": 5368,
+"generation_backgrounds": 184,
+"lifted": 168
+},
+{
+"state": "-LLLLRLLR",
+"k": 2,
+"N": 120,
+"torsion": 480,
+"characters": 480,
+"firing": 7052,
+"generation_backgrounds": 568,
+"lifted": 440
+},
+{
+"state": "+LLLLLLR",
+"k": 3,
+"N": 54,
+"torsion": 486,
+"characters": 486,
+"firing": 9196,
+"generation_backgrounds": 576,
+"lifted": 576
+},
+{
+"state": "-LLLLLLLRRR",
+"k": 2,
+"N": 525,
+"torsion": 525,
+"characters": 525,
+"firing": 5388,
+"generation_backgrounds": 56,
+"lifted": 56
+},
+{
+"state": "-LLLLLLLRLR",
+"k": 2,
+"N": 207,
+"torsion": 621,
+"characters": 621,
+"firing": 6560,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "-LLLLRRLR",
+"k": 2,
+"N": 621,
+"torsion": 621,
+"characters": 621,
+"firing": 3524,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRR",
+"k": 2,
+"N": 168,
+"torsion": 672,
+"characters": 672,
+"firing": 9020,
+"generation_backgrounds": 152,
+"lifted": 24
+},
+{
+"state": "-LLRLRLR",
+"k": 2,
+"N": 336,
+"torsion": 672,
+"characters": 672,
+"firing": 9000,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "+LLR",
+"k": 5,
+"N": 38,
+"torsion": 722,
+"characters": 722,
+"firing": 20160,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRR",
+"k": 2,
+"N": 725,
+"torsion": 725,
+"characters": 725,
+"firing": 4136,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLR",
+"k": 2,
+"N": 390,
+"torsion": 780,
+"characters": 780,
+"firing": 9328,
+"generation_backgrounds": 176,
+"lifted": 16
+},
+{
+"state": "-LLLRLLRR",
+"k": 2,
+"N": 837,
+"torsion": 837,
+"characters": 837,
+"firing": 4788,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LR",
+"k": 7,
+"N": 29,
+"torsion": 841,
+"characters": 841,
+"firing": 34496,
+"generation_backgrounds": 3136,
+"lifted": 3136
+},
+{
+"state": "-LLLLLLRLLR",
+"k": 2,
+"N": 112,
+"torsion": 896,
+"characters": 896,
+"firing": 14792,
+"generation_backgrounds": 304,
+"lifted": 48
+},
+{
+"state": "-LLLLLRRLR",
+"k": 2,
+"N": 448,
+"torsion": 896,
+"characters": 896,
+"firing": 5148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLRLR",
+"k": 2,
+"N": 957,
+"torsion": 957,
+"characters": 957,
+"firing": 10332,
+"generation_backgrounds": 40,
+"lifted": 40
+},
+{
+"state": "+LLRLR",
+"k": 3,
+"N": 88,
+"torsion": 968,
+"characters": 968,
+"firing": 17052,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRRR",
+"k": 2,
+"N": 510,
+"torsion": 1020,
+"characters": 1020,
+"firing": 12016,
+"generation_backgrounds": 176,
+"lifted": 16
+},
+{
+"state": "-LLLLLLLLRRRR",
+"k": 2,
+"N": 144,
+"torsion": 1152,
+"characters": 1152,
+"firing": 16764,
+"generation_backgrounds": 320,
+"lifted": 64
+},
+{
+"state": "-LLLLR",
+"k": 4,
+"N": 96,
+"torsion": 1152,
+"characters": 1152,
+"firing": 33092,
+"generation_backgrounds": 1248,
+"lifted": 64
+},
+{
+"state": "-LLLLRRRLR",
+"k": 2,
+"N": 576,
+"torsion": 1152,
+"characters": 1152,
+"firing": 6680,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRR",
+"k": 4,
+"N": 48,
+"torsion": 1152,
+"characters": 1152,
+"firing": 38680,
+"generation_backgrounds": 320,
+"lifted": 320
+},
+{
+"state": "-LLLLLLRRLR",
+"k": 2,
+"N": 1221,
+"torsion": 1221,
+"characters": 1221,
+"firing": 7044,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLR",
+"k": 2,
+"N": 646,
+"torsion": 1292,
+"characters": 1292,
+"firing": 7460,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLR",
+"k": 3,
+"N": 130,
+"torsion": 1300,
+"characters": 1300,
+"firing": 25440,
+"generation_backgrounds": 480,
+"lifted": 48
+},
+{
+"state": "-LLRLLRLR",
+"k": 2,
+"N": 1365,
+"torsion": 1365,
+"characters": 1365,
+"firing": 17300,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "-LLLLLLRLLLR",
+"k": 2,
+"N": 720,
+"torsion": 1440,
+"characters": 1440,
+"firing": 17848,
+"generation_backgrounds": 384,
+"lifted": 320
+},
+{
+"state": "-LLLLRRLRR",
+"k": 2,
+"N": 720,
+"torsion": 1440,
+"characters": 1440,
+"firing": 20792,
+"generation_backgrounds": 688,
+"lifted": 488
+},
+{
+"state": "-LLRLRRLR",
+"k": 2,
+"N": 120,
+"torsion": 1440,
+"characters": 1440,
+"firing": 22984,
+"generation_backgrounds": 304,
+"lifted": 208
+},
+{
+"state": "-LLLLLLLRLRR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLLR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 20048,
+"generation_backgrounds": 264,
+"lifted": 24
+},
+{
+"state": "-LLLRRLRRR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRLR",
+"k": 2,
+"N": 1677,
+"torsion": 1677,
+"characters": 1677,
+"firing": 9732,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLLR",
+"k": 3,
+"N": 154,
+"torsion": 1694,
+"characters": 1694,
+"firing": 33804,
+"generation_backgrounds": 1440,
+"lifted": 1440
+},
+{
+"state": "-LLLLLLLRLLLR",
+"k": 2,
+"N": 1845,
+"torsion": 1845,
+"characters": 1845,
+"firing": 21540,
+"generation_backgrounds": 112,
+"lifted": 112
+},
+{
+"state": "-LLLLLRRLLR",
+"k": 2,
+"N": 1845,
+"torsion": 1845,
+"characters": 1845,
+"firing": 10724,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLR",
+"k": 1,
+"N": 2,
+"torsion": 2,
+"characters": 2,
+"firing": 0,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLR",
+"k": 1,
+"N": 5,
+"torsion": 5,
+"characters": 5,
+"firing": 8,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLR",
+"k": 1,
+"N": 6,
+"torsion": 6,
+"characters": 6,
+"firing": 4,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLR",
+"k": 1,
+"N": 7,
+"torsion": 7,
+"characters": 7,
+"firing": 12,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLR",
+"k": 1,
+"N": 8,
+"torsion": 8,
+"characters": 8,
+"firing": 12,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRR",
+"k": 1,
+"N": 3,
+"torsion": 9,
+"characters": 9,
+"firing": 16,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRR",
+"k": 1,
+"N": 10,
+"torsion": 10,
+"characters": 10,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLR",
+"k": 1,
+"N": 12,
+"torsion": 12,
+"characters": 12,
+"firing": 16,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLR",
+"k": 2,
+"N": 6,
+"torsion": 12,
+"characters": 12,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRR",
+"k": 1,
+"N": 13,
+"torsion": 13,
+"characters": 13,
+"firing": 24,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRR",
+"k": 1,
+"N": 14,
+"torsion": 14,
+"characters": 14,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLR",
+"k": 1,
+"N": 15,
+"torsion": 15,
+"characters": 15,
+"firing": 72,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "+LLLLRRRR",
+"k": 1,
+"N": 4,
+"torsion": 16,
+"characters": 16,
+"firing": 80,
+"generation_backgrounds": 16,
+"lifted": 0
+},
+{
+"state": "-LLRLRR",
+"k": 1,
+"N": 17,
+"torsion": 17,
+"characters": 17,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLR",
+"k": 1,
+"N": 6,
+"torsion": 18,
+"characters": 18,
+"firing": 104,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLLRR",
+"k": 1,
+"N": 10,
+"torsion": 20,
+"characters": 20,
+"firing": 160,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLR",
+"k": 1,
+"N": 10,
+"torsion": 20,
+"characters": 20,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LR",
+"k": 3,
+"N": 10,
+"torsion": 20,
+"characters": 20,
+"firing": 128,
+"generation_backgrounds": 96,
+"lifted": 0
+},
+{
+"state": "+LLLR",
+"k": 2,
+"N": 21,
+"torsion": 21,
+"characters": 21,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLR",
+"k": 1,
+"N": 22,
+"torsion": 22,
+"characters": 22,
+"firing": 40,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLLRR",
+"k": 1,
+"N": 12,
+"torsion": 24,
+"characters": 24,
+"firing": 236,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLR",
+"k": 1,
+"N": 24,
+"torsion": 24,
+"characters": 24,
+"firing": 40,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLR",
+"k": 1,
+"N": 24,
+"torsion": 24,
+"characters": 24,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRLR",
+"k": 1,
+"N": 26,
+"torsion": 26,
+"characters": 26,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRR",
+"k": 1,
+"N": 27,
+"torsion": 27,
+"characters": 27,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRRR",
+"k": 1,
+"N": 28,
+"torsion": 28,
+"characters": 28,
+"firing": 52,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLR",
+"k": 1,
+"N": 28,
+"torsion": 28,
+"characters": 28,
+"firing": 268,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "-LLRLRLR",
+"k": 1,
+"N": 28,
+"torsion": 28,
+"characters": 28,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRLR",
+"k": 1,
+"N": 30,
+"torsion": 30,
+"characters": 30,
+"firing": 340,
+"generation_backgrounds": 32,
+"lifted": 16
+},
+{
+"state": "+LLLLLRLLLR",
+"k": 1,
+"N": 31,
+"torsion": 31,
+"characters": 31,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLLR",
+"k": 1,
+"N": 32,
+"torsion": 32,
+"characters": 32,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLR",
+"k": 1,
+"N": 32,
+"torsion": 32,
+"characters": 32,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLR",
+"k": 1,
+"N": 32,
+"torsion": 32,
+"characters": 32,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRR",
+"k": 2,
+"N": 8,
+"torsion": 32,
+"characters": 32,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRRR",
+"k": 1,
+"N": 34,
+"torsion": 34,
+"characters": 34,
+"firing": 64,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLR",
+"k": 1,
+"N": 35,
+"torsion": 35,
+"characters": 35,
+"firing": 404,
+"generation_backgrounds": 96,
+"lifted": 96
+},
+{
+"state": "-LLLLLLLRLLR",
+"k": 1,
+"N": 36,
+"torsion": 36,
+"characters": 36,
+"firing": 448,
+"generation_backgrounds": 56,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRR",
+"k": 1,
+"N": 36,
+"torsion": 36,
+"characters": 36,
+"firing": 136,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "+LLRLRRLR",
+"k": 1,
+"N": 6,
+"torsion": 36,
+"characters": 36,
+"firing": 208,
+"generation_backgrounds": 16,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLRR",
+"k": 1,
+"N": 38,
+"torsion": 38,
+"characters": 38,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLR",
+"k": 1,
+"N": 38,
+"torsion": 38,
+"characters": 38,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRRR",
+"k": 1,
+"N": 39,
+"torsion": 39,
+"characters": 39,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLLLR",
+"k": 1,
+"N": 40,
+"torsion": 40,
+"characters": 40,
+"firing": 524,
+"generation_backgrounds": 96,
+"lifted": 32
+},
+{
+"state": "-LLLRLLLRR",
+"k": 1,
+"N": 40,
+"torsion": 40,
+"characters": 40,
+"firing": 172,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLLR",
+"k": 1,
+"N": 41,
+"torsion": 41,
+"characters": 41,
+"firing": 80,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRLR",
+"k": 1,
+"N": 42,
+"torsion": 42,
+"characters": 42,
+"firing": 76,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRLRR",
+"k": 1,
+"N": 43,
+"torsion": 43,
+"characters": 43,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLLLLR",
+"k": 1,
+"N": 22,
+"torsion": 44,
+"characters": 44,
+"firing": 80,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRLLLR",
+"k": 1,
+"N": 45,
+"torsion": 45,
+"characters": 45,
+"firing": 660,
+"generation_backgrounds": 112,
+"lifted": 112
+},
+{
+"state": "-LLLLLRRLLR",
+"k": 1,
+"N": 45,
+"torsion": 45,
+"characters": 45,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LR",
+"k": 4,
+"N": 15,
+"torsion": 45,
+"characters": 45,
+"firing": 488,
+"generation_backgrounds": 256,
+"lifted": 256
+},
+{
+"state": "+LLLRLLRLR",
+"k": 1,
+"N": 46,
+"torsion": 46,
+"characters": 46,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLLLLR",
+"k": 1,
+"N": 24,
+"torsion": 48,
+"characters": 48,
+"firing": 716,
+"generation_backgrounds": 72,
+"lifted": 8
+},
+{
+"state": "-LLLLLRRLRR",
+"k": 1,
+"N": 12,
+"torsion": 48,
+"characters": 48,
+"firing": 360,
+"generation_backgrounds": 24,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRR",
+"k": 1,
+"N": 48,
+"torsion": 48,
+"characters": 48,
+"firing": 296,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "+LLLLRRRLRR",
+"k": 1,
+"N": 49,
+"torsion": 49,
+"characters": 49,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRRLR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRLLR",
+"k": 1,
+"N": 52,
+"torsion": 52,
+"characters": 52,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLLR",
+"k": 1,
+"N": 26,
+"torsion": 52,
+"characters": 52,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRRR",
+"k": 1,
+"N": 53,
+"torsion": 53,
+"characters": 53,
+"firing": 104,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLLLR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLR",
+"k": 3,
+"N": 18,
+"torsion": 54,
+"characters": 54,
+"firing": 448,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRLLR",
+"k": 1,
+"N": 55,
+"torsion": 55,
+"characters": 55,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLLRR",
+"k": 1,
+"N": 56,
+"torsion": 56,
+"characters": 56,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRRLR",
+"k": 1,
+"N": 57,
+"torsion": 57,
+"characters": 57,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLRRR",
+"k": 1,
+"N": 58,
+"torsion": 58,
+"characters": 58,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRRLR",
+"k": 1,
+"N": 58,
+"torsion": 58,
+"characters": 58,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRRLR",
+"k": 1,
+"N": 59,
+"torsion": 59,
+"characters": 59,
+"firing": 116,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLRLR",
+"k": 1,
+"N": 60,
+"torsion": 60,
+"characters": 60,
+"firing": 232,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRLR",
+"k": 1,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 432,
+"generation_backgrounds": 128,
+"lifted": 64
+},
+{
+"state": "+LLLRR",
+"k": 2,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 432,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "-LLLLRLRLLR",
+"k": 1,
+"N": 61,
+"torsion": 61,
+"characters": 61,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRRRR",
+"k": 1,
+"N": 62,
+"torsion": 62,
+"characters": 62,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRLLLR",
+"k": 1,
+"N": 21,
+"torsion": 63,
+"characters": 63,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLRLR",
+"k": 1,
+"N": 32,
+"torsion": 64,
+"characters": 64,
+"firing": 588,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLRRR",
+"k": 1,
+"N": 64,
+"torsion": 64,
+"characters": 64,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRRLR",
+"k": 1,
+"N": 8,
+"torsion": 64,
+"characters": 64,
+"firing": 632,
+"generation_backgrounds": 128,
+"lifted": 128
+},
+{
+"state": "-LLLLRLLRRRR",
+"k": 1,
+"N": 66,
+"torsion": 66,
+"characters": 66,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLLLRR",
+"k": 1,
+"N": 67,
+"torsion": 67,
+"characters": 67,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLRR",
+"k": 1,
+"N": 67,
+"torsion": 67,
+"characters": 67,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRLLR",
+"k": 1,
+"N": 34,
+"torsion": 68,
+"characters": 68,
+"firing": 128,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLRRR",
+"k": 1,
+"N": 68,
+"torsion": 68,
+"characters": 68,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLLR",
+"k": 1,
+"N": 69,
+"torsion": 69,
+"characters": 69,
+"firing": 308,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRLRR",
+"k": 1,
+"N": 71,
+"torsion": 71,
+"characters": 71,
+"firing": 140,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLLR",
+"k": 1,
+"N": 71,
+"torsion": 71,
+"characters": 71,
+"firing": 140,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRLLR",
+"k": 1,
+"N": 72,
+"torsion": 72,
+"characters": 72,
+"firing": 136,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRRR",
+"k": 1,
+"N": 12,
+"torsion": 72,
+"characters": 72,
+"firing": 696,
+"generation_backgrounds": 80,
+"lifted": 16
+},
+{
+"state": "+LLLLRLLLRLR",
+"k": 1,
+"N": 74,
+"torsion": 74,
+"characters": 74,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLRRRR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLLR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLRLR",
+"k": 1,
+"N": 76,
+"torsion": 76,
+"characters": 76,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLRR",
+"k": 1,
+"N": 38,
+"torsion": 76,
+"characters": 76,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLLRRR",
+"k": 1,
+"N": 77,
+"torsion": 77,
+"characters": 77,
+"firing": 152,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRRLR",
+"k": 1,
+"N": 77,
+"torsion": 77,
+"characters": 77,
+"firing": 152,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLLRR",
+"k": 1,
+"N": 78,
+"torsion": 78,
+"characters": 78,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRRLLR",
+"k": 1,
+"N": 79,
+"torsion": 79,
+"characters": 79,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRLRR",
+"k": 1,
+"N": 80,
+"torsion": 80,
+"characters": 80,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLLRRR",
+"k": 1,
+"N": 20,
+"torsion": 80,
+"characters": 80,
+"firing": 388,
+"generation_backgrounds": 24,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLLRR",
+"k": 1,
+"N": 40,
+"torsion": 80,
+"characters": 80,
+"firing": 352,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLRR",
+"k": 1,
+"N": 27,
+"torsion": 81,
+"characters": 81,
+"firing": 516,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLLRLR",
+"k": 1,
+"N": 83,
+"torsion": 83,
+"characters": 83,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLRRLR",
+"k": 1,
+"N": 42,
+"torsion": 84,
+"characters": 84,
+"firing": 836,
+"generation_backgrounds": 192,
+"lifted": 96
+},
+{
+"state": "-LLLLRLRRRLR",
+"k": 1,
+"N": 84,
+"torsion": 84,
+"characters": 84,
+"firing": 328,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRLRRR",
+"k": 1,
+"N": 85,
+"torsion": 85,
+"characters": 85,
+"firing": 424,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLRLR",
+"k": 1,
+"N": 86,
+"torsion": 86,
+"characters": 86,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLRRLR",
+"k": 1,
+"N": 44,
+"torsion": 88,
+"characters": 88,
+"firing": 328,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRLLR",
+"k": 1,
+"N": 88,
+"torsion": 88,
+"characters": 88,
+"firing": 172,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRLRLR",
+"k": 1,
+"N": 89,
+"torsion": 89,
+"characters": 89,
+"firing": 176,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRLLR",
+"k": 1,
+"N": 30,
+"torsion": 90,
+"characters": 90,
+"firing": 548,
+"generation_backgrounds": 56,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLRLR",
+"k": 1,
+"N": 46,
+"torsion": 92,
+"characters": 92,
+"firing": 176,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRLLR",
+"k": 1,
+"N": 92,
+"torsion": 92,
+"characters": 92,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRLRLR",
+"k": 1,
+"N": 93,
+"torsion": 93,
+"characters": 93,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRLLR",
+"k": 1,
+"N": 94,
+"torsion": 94,
+"characters": 94,
+"firing": 184,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLLRRR",
+"k": 1,
+"N": 95,
+"torsion": 95,
+"characters": 95,
+"firing": 188,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLR",
+"k": 2,
+"N": 48,
+"torsion": 96,
+"characters": 96,
+"firing": 648,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRLRR",
+"k": 1,
+"N": 96,
+"torsion": 96,
+"characters": 96,
+"firing": 280,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRRLR",
+"k": 1,
+"N": 96,
+"torsion": 96,
+"characters": 96,
+"firing": 280,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRRLR",
+"k": 1,
+"N": 97,
+"torsion": 97,
+"characters": 97,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRLRR",
+"k": 1,
+"N": 98,
+"torsion": 98,
+"characters": 98,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLRLLR",
+"k": 1,
+"N": 33,
+"torsion": 99,
+"characters": 99,
+"firing": 436,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRRLR",
+"k": 1,
+"N": 50,
+"torsion": 100,
+"characters": 100,
+"firing": 420,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLLLRR",
+"k": 1,
+"N": 20,
+"torsion": 100,
+"characters": 100,
+"firing": 700,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "-LLLLRRLRLRR",
+"k": 1,
+"N": 102,
+"torsion": 102,
+"characters": 102,
+"firing": 452,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRLLLR",
+"k": 1,
+"N": 103,
+"torsion": 103,
+"characters": 103,
+"firing": 204,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLRRRR",
+"k": 1,
+"N": 52,
+"torsion": 104,
+"characters": 104,
+"firing": 200,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLRRR",
+"k": 1,
+"N": 104,
+"torsion": 104,
+"characters": 104,
+"firing": 204,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLLRR",
+"k": 1,
+"N": 106,
+"torsion": 106,
+"characters": 106,
+"firing": 208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLLRRR",
+"k": 1,
+"N": 107,
+"torsion": 107,
+"characters": 107,
+"firing": 212,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLRLLR",
+"k": 1,
+"N": 54,
+"torsion": 108,
+"characters": 108,
+"firing": 596,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLR",
+"k": 3,
+"N": 18,
+"torsion": 108,
+"characters": 108,
+"firing": 1572,
+"generation_backgrounds": 72,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLRRR",
+"k": 1,
+"N": 108,
+"torsion": 108,
+"characters": 108,
+"firing": 568,
+"generation_backgrounds": 216,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLRRRR",
+"k": 1,
+"N": 109,
+"torsion": 109,
+"characters": 109,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRRLRR",
+"k": 1,
+"N": 111,
+"torsion": 111,
+"characters": 111,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLRLRR",
+"k": 1,
+"N": 56,
+"torsion": 112,
+"characters": 112,
+"firing": 256,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLR",
+"k": 3,
+"N": 28,
+"torsion": 112,
+"characters": 112,
+"firing": 1416,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLLRLR",
+"k": 1,
+"N": 113,
+"torsion": 113,
+"characters": 113,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRRLRR",
+"k": 1,
+"N": 114,
+"torsion": 114,
+"characters": 114,
+"firing": 508,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRLLLR",
+"k": 1,
+"N": 58,
+"torsion": 116,
+"characters": 116,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLR",
+"k": 2,
+"N": 117,
+"torsion": 117,
+"characters": 117,
+"firing": 612,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRLLLR",
+"k": 1,
+"N": 117,
+"torsion": 117,
+"characters": 117,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRRLR",
+"k": 1,
+"N": 118,
+"torsion": 118,
+"characters": 118,
+"firing": 232,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLRRLR",
+"k": 1,
+"N": 60,
+"torsion": 120,
+"characters": 120,
+"firing": 348,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLRLRR",
+"k": 1,
+"N": 121,
+"torsion": 121,
+"characters": 121,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LR",
+"k": 5,
+"N": 11,
+"torsion": 121,
+"characters": 121,
+"firing": 2200,
+"generation_backgrounds": 400,
+"lifted": 400
+},
+{
+"state": "-LLLLRLRRRLLR",
+"k": 1,
+"N": 123,
+"torsion": 123,
+"characters": 123,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLRLR",
+"k": 1,
+"N": 124,
+"torsion": 124,
+"characters": 124,
+"firing": 244,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLLRLR",
+"k": 1,
+"N": 125,
+"torsion": 125,
+"characters": 125,
+"firing": 248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRRLLRR",
+"k": 1,
+"N": 126,
+"torsion": 126,
+"characters": 126,
+"firing": 628,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRLRRR",
+"k": 1,
+"N": 64,
+"torsion": 128,
+"characters": 128,
+"firing": 492,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLRLR",
+"k": 1,
+"N": 128,
+"torsion": 128,
+"characters": 128,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRLRLR",
+"k": 1,
+"N": 129,
+"torsion": 129,
+"characters": 129,
+"firing": 588,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRRLLRR",
+"k": 1,
+"N": 130,
+"torsion": 130,
+"characters": 130,
+"firing": 640,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRRLLR",
+"k": 1,
+"N": 66,
+"torsion": 132,
+"characters": 132,
+"firing": 576,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRRLR",
+"k": 1,
+"N": 132,
+"torsion": 132,
+"characters": 132,
+"firing": 256,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLRLRR",
+"k": 1,
+"N": 133,
+"torsion": 133,
+"characters": 133,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLLRRR",
+"k": 1,
+"N": 135,
+"torsion": 135,
+"characters": 135,
+"firing": 888,
+"generation_backgrounds": 432,
+"lifted": 432
+},
+{
+"state": "-LLLLRRLLRLLR",
+"k": 1,
+"N": 68,
+"torsion": 136,
+"characters": 136,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRLLRR",
+"k": 1,
+"N": 137,
+"torsion": 137,
+"characters": 137,
+"firing": 272,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRRLRR",
+"k": 1,
+"N": 139,
+"torsion": 139,
+"characters": 139,
+"firing": 276,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRR",
+"k": 2,
+"N": 70,
+"torsion": 140,
+"characters": 140,
+"firing": 1188,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLLLRRR",
+"k": 1,
+"N": 70,
+"torsion": 140,
+"characters": 140,
+"firing": 740,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRRLLR",
+"k": 1,
+"N": 141,
+"torsion": 141,
+"characters": 141,
+"firing": 276,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRRLLR",
+"k": 1,
+"N": 143,
+"torsion": 143,
+"characters": 143,
+"firing": 764,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLLRRR",
+"k": 1,
+"N": 36,
+"torsion": 144,
+"characters": 144,
+"firing": 1336,
+"generation_backgrounds": 432,
+"lifted": 0
+},
+{
+"state": "+LLRLLRRLRLR",
+"k": 1,
+"N": 144,
+"torsion": 144,
+"characters": 144,
+"firing": 280,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRLLRR",
+"k": 1,
+"N": 147,
+"torsion": 147,
+"characters": 147,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRRLRR",
+"k": 1,
+"N": 21,
+"torsion": 147,
+"characters": 147,
+"firing": 1392,
+"generation_backgrounds": 144,
+"lifted": 144
+},
+{
+"state": "-LLLRLLRRRLRR",
+"k": 1,
+"N": 74,
+"torsion": 148,
+"characters": 148,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRLRRR",
+"k": 1,
+"N": 149,
+"torsion": 149,
+"characters": 149,
+"firing": 296,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLRLRR",
+"k": 1,
+"N": 151,
+"torsion": 151,
+"characters": 151,
+"firing": 300,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRLRLR",
+"k": 1,
+"N": 153,
+"torsion": 153,
+"characters": 153,
+"firing": 300,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLLLRR",
+"k": 1,
+"N": 155,
+"torsion": 155,
+"characters": 155,
+"firing": 308,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLRLLR",
+"k": 1,
+"N": 157,
+"torsion": 157,
+"characters": 157,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLRRLR",
+"k": 1,
+"N": 159,
+"torsion": 159,
+"characters": 159,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLLRLR",
+"k": 1,
+"N": 80,
+"torsion": 160,
+"characters": 160,
+"firing": 764,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRLRRR",
+"k": 1,
+"N": 161,
+"torsion": 161,
+"characters": 161,
+"firing": 320,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLLLR",
+"k": 2,
+"N": 165,
+"torsion": 165,
+"characters": 165,
+"firing": 884,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLR",
+"k": 2,
+"N": 165,
+"torsion": 165,
+"characters": 165,
+"firing": 1572,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "+LLLLRRLRLRLR",
+"k": 1,
+"N": 84,
+"torsion": 168,
+"characters": 168,
+"firing": 388,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRRLLR",
+"k": 1,
+"N": 171,
+"torsion": 171,
+"characters": 171,
+"firing": 336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRRLLRR",
+"k": 1,
+"N": 86,
+"torsion": 172,
+"characters": 172,
+"firing": 336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRRLRR",
+"k": 1,
+"N": 88,
+"torsion": 176,
+"characters": 176,
+"firing": 352,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLLRLLR",
+"k": 1,
+"N": 177,
+"torsion": 177,
+"characters": 177,
+"firing": 348,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLRLLR",
+"k": 1,
+"N": 181,
+"torsion": 181,
+"characters": 181,
+"firing": 360,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRLRRR",
+"k": 1,
+"N": 185,
+"torsion": 185,
+"characters": 185,
+"firing": 368,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRLRLR",
+"k": 1,
+"N": 94,
+"torsion": 188,
+"characters": 188,
+"firing": 372,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLRLLR",
+"k": 1,
+"N": 191,
+"torsion": 191,
+"characters": 191,
+"firing": 380,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRR",
+"k": 2,
+"N": 96,
+"torsion": 192,
+"characters": 192,
+"firing": 1896,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLLRLR",
+"k": 1,
+"N": 96,
+"torsion": 192,
+"characters": 192,
+"firing": 440,
+"generation_backgrounds": 16,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRRLRLR",
+"k": 1,
+"N": 193,
+"torsion": 193,
+"characters": 193,
+"firing": 384,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLRLLR",
+"k": 1,
+"N": 195,
+"torsion": 195,
+"characters": 195,
+"firing": 384,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLRLRR",
+"k": 1,
+"N": 98,
+"torsion": 196,
+"characters": 196,
+"firing": 456,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRRLRLR",
+"k": 1,
+"N": 197,
+"torsion": 197,
+"characters": 197,
+"firing": 392,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRLLRR",
+"k": 1,
+"N": 100,
+"torsion": 200,
+"characters": 200,
+"firing": 784,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRR",
+"k": 3,
+"N": 20,
+"torsion": 200,
+"characters": 200,
+"firing": 4152,
+"generation_backgrounds": 144,
+"lifted": 144
+},
+{
+"state": "+LLRLLRLLRLRR",
+"k": 1,
+"N": 207,
+"torsion": 207,
+"characters": 207,
+"firing": 408,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLLRLRR",
+"k": 1,
+"N": 211,
+"torsion": 211,
+"characters": 211,
+"firing": 420,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRRLLRLR",
+"k": 1,
+"N": 215,
+"torsion": 215,
+"characters": 215,
+"firing": 428,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRRLLRRLR",
+"k": 1,
+"N": 110,
+"torsion": 220,
+"characters": 220,
+"firing": 1076,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRRLLRRLR",
+"k": 1,
+"N": 112,
+"torsion": 224,
+"characters": 224,
+"firing": 1116,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRLRLR",
+"k": 1,
+"N": 235,
+"torsion": 235,
+"characters": 235,
+"firing": 1204,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLR",
+"k": 2,
+"N": 42,
+"torsion": 252,
+"characters": 252,
+"firing": 3160,
+"generation_backgrounds": 280,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRRLRLR",
+"k": 1,
+"N": 16,
+"torsion": 256,
+"characters": 256,
+"firing": 2400,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRLRRLR",
+"k": 1,
+"N": 87,
+"torsion": 261,
+"characters": 261,
+"firing": 504,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRR",
+"k": 2,
+"N": 285,
+"torsion": 285,
+"characters": 285,
+"firing": 2772,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "-LLLLRRRR",
+"k": 2,
+"N": 40,
+"torsion": 320,
+"characters": 320,
+"firing": 4016,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "-LR",
+"k": 6,
+"N": 40,
+"torsion": 320,
+"characters": 320,
+"firing": 12536,
+"generation_backgrounds": 2160,
+"lifted": 336
+},
+{
+"state": "+LLLLLRLR",
+"k": 2,
+"N": 357,
+"torsion": 357,
+"characters": 357,
+"firing": 3644,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "+LLLLLLRRR",
+"k": 2,
+"N": 66,
+"torsion": 396,
+"characters": 396,
+"firing": 4124,
+"generation_backgrounds": 72,
+"lifted": 0
+},
+{
+"state": "+LLLRRLR",
+"k": 2,
+"N": 198,
+"torsion": 396,
+"characters": 396,
+"firing": 2208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLR",
+"k": 2,
+"N": 240,
+"torsion": 480,
+"characters": 480,
+"firing": 5368,
+"generation_backgrounds": 184,
+"lifted": 168
+},
+{
+"state": "+LLLLRLLR",
+"k": 2,
+"N": 120,
+"torsion": 480,
+"characters": 480,
+"firing": 7052,
+"generation_backgrounds": 568,
+"lifted": 440
+},
+{
+"state": "+LLLRR",
+"k": 3,
+"N": 54,
+"torsion": 486,
+"characters": 486,
+"firing": 7936,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRR",
+"k": 2,
+"N": 525,
+"torsion": 525,
+"characters": 525,
+"firing": 5388,
+"generation_backgrounds": 56,
+"lifted": 56
+},
+{
+"state": "+LLLLLLLRLR",
+"k": 2,
+"N": 207,
+"torsion": 621,
+"characters": 621,
+"firing": 6560,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "+LLLLRRLR",
+"k": 2,
+"N": 621,
+"torsion": 621,
+"characters": 621,
+"firing": 3524,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRR",
+"k": 2,
+"N": 168,
+"torsion": 672,
+"characters": 672,
+"firing": 9020,
+"generation_backgrounds": 152,
+"lifted": 24
+},
+{
+"state": "+LLRLRLR",
+"k": 2,
+"N": 336,
+"torsion": 672,
+"characters": 672,
+"firing": 9000,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "-LLLLLRRRRR",
+"k": 2,
+"N": 145,
+"torsion": 725,
+"characters": 725,
+"firing": 7880,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "-LLR",
+"k": 5,
+"N": 66,
+"torsion": 726,
+"characters": 726,
+"firing": 18764,
+"generation_backgrounds": 1280,
+"lifted": 1280
+},
+{
+"state": "+LLLLRLLLR",
+"k": 2,
+"N": 390,
+"torsion": 780,
+"characters": 780,
+"firing": 9328,
+"generation_backgrounds": 176,
+"lifted": 16
+},
+{
+"state": "+LLLRLLRR",
+"k": 2,
+"N": 837,
+"torsion": 837,
+"characters": 837,
+"firing": 4788,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LR",
+"k": 7,
+"N": 65,
+"torsion": 845,
+"characters": 845,
+"firing": 31256,
+"generation_backgrounds": 3360,
+"lifted": 3360
+},
+{
+"state": "+LLLLLLRLLR",
+"k": 2,
+"N": 112,
+"torsion": 896,
+"characters": 896,
+"firing": 14792,
+"generation_backgrounds": 304,
+"lifted": 48
+},
+{
+"state": "+LLLLLRRLR",
+"k": 2,
+"N": 448,
+"torsion": 896,
+"characters": 896,
+"firing": 5148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLRLR",
+"k": 2,
+"N": 957,
+"torsion": 957,
+"characters": 957,
+"firing": 10332,
+"generation_backgrounds": 40,
+"lifted": 40
+},
+{
+"state": "-LLLLLLLLR",
+"k": 3,
+"N": 108,
+"torsion": 972,
+"characters": 972,
+"firing": 18112,
+"generation_backgrounds": 792,
+"lifted": 576
+},
+{
+"state": "+LLLLLLRRRRR",
+"k": 2,
+"N": 510,
+"torsion": 1020,
+"characters": 1020,
+"firing": 12016,
+"generation_backgrounds": 176,
+"lifted": 16
+},
+{
+"state": "+LLLLLLLLRRRR",
+"k": 2,
+"N": 144,
+"torsion": 1152,
+"characters": 1152,
+"firing": 16764,
+"generation_backgrounds": 320,
+"lifted": 64
+},
+{
+"state": "+LLLLR",
+"k": 4,
+"N": 96,
+"torsion": 1152,
+"characters": 1152,
+"firing": 33092,
+"generation_backgrounds": 1248,
+"lifted": 64
+},
+{
+"state": "+LLLLRRRLR",
+"k": 2,
+"N": 576,
+"torsion": 1152,
+"characters": 1152,
+"firing": 6680,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRR",
+"k": 4,
+"N": 48,
+"torsion": 1152,
+"characters": 1152,
+"firing": 38680,
+"generation_backgrounds": 320,
+"lifted": 320
+},
+{
+"state": "+LLLLLLRRLR",
+"k": 2,
+"N": 1221,
+"torsion": 1221,
+"characters": 1221,
+"firing": 7044,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLR",
+"k": 2,
+"N": 646,
+"torsion": 1292,
+"characters": 1292,
+"firing": 7460,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRR",
+"k": 3,
+"N": 130,
+"torsion": 1300,
+"characters": 1300,
+"firing": 25152,
+"generation_backgrounds": 720,
+"lifted": 408
+},
+{
+"state": "+LLRLLRLR",
+"k": 2,
+"N": 1365,
+"torsion": 1365,
+"characters": 1365,
+"firing": 17300,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "+LLLLLLRLLLR",
+"k": 2,
+"N": 720,
+"torsion": 1440,
+"characters": 1440,
+"firing": 17848,
+"generation_backgrounds": 384,
+"lifted": 320
+},
+{
+"state": "+LLLLRRLRR",
+"k": 2,
+"N": 720,
+"torsion": 1440,
+"characters": 1440,
+"firing": 20792,
+"generation_backgrounds": 688,
+"lifted": 488
+},
+{
+"state": "+LLRLRRLR",
+"k": 2,
+"N": 120,
+"torsion": 1440,
+"characters": 1440,
+"firing": 22984,
+"generation_backgrounds": 304,
+"lifted": 208
+},
+{
+"state": "+LLLLLLLRLRR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLLLR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 20048,
+"generation_backgrounds": 264,
+"lifted": 24
+},
+{
+"state": "+LLLRRLRRR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRLR",
+"k": 2,
+"N": 1677,
+"torsion": 1677,
+"characters": 1677,
+"firing": 9732,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRR",
+"k": 3,
+"N": 154,
+"torsion": 1694,
+"characters": 1694,
+"firing": 30792,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLLLR",
+"k": 2,
+"N": 1845,
+"torsion": 1845,
+"characters": 1845,
+"firing": 21540,
+"generation_backgrounds": 112,
+"lifted": 112
+},
+{
+"state": "+LLLLLRRLLR",
+"k": 2,
+"N": 1845,
+"torsion": 1845,
+"characters": 1845,
+"firing": 10724,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLR",
+"k": 1,
+"N": 3,
+"torsion": 3,
+"characters": 3,
+"firing": 0,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LR",
+"k": 1,
+"N": 5,
+"torsion": 5,
+"characters": 5,
+"firing": 8,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRR",
+"k": 1,
+"N": 6,
+"torsion": 6,
+"characters": 6,
+"firing": 4,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLR",
+"k": 1,
+"N": 8,
+"torsion": 8,
+"characters": 8,
+"firing": 12,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRR",
+"k": 1,
+"N": 4,
+"torsion": 8,
+"characters": 8,
+"firing": 24,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLLR",
+"k": 1,
+"N": 10,
+"torsion": 10,
+"characters": 10,
+"firing": 16,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLLLR",
+"k": 1,
+"N": 11,
+"torsion": 11,
+"characters": 11,
+"firing": 20,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRR",
+"k": 1,
+"N": 6,
+"torsion": 12,
+"characters": 12,
+"firing": 44,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLR",
+"k": 2,
+"N": 6,
+"torsion": 12,
+"characters": 12,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRR",
+"k": 1,
+"N": 13,
+"torsion": 13,
+"characters": 13,
+"firing": 24,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLR",
+"k": 1,
+"N": 14,
+"torsion": 14,
+"characters": 14,
+"firing": 24,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRR",
+"k": 1,
+"N": 8,
+"torsion": 16,
+"characters": 16,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLR",
+"k": 1,
+"N": 16,
+"torsion": 16,
+"characters": 16,
+"firing": 28,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLRR",
+"k": 1,
+"N": 18,
+"torsion": 18,
+"characters": 18,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRR",
+"k": 1,
+"N": 18,
+"torsion": 18,
+"characters": 18,
+"firing": 28,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRR",
+"k": 1,
+"N": 10,
+"torsion": 20,
+"characters": 20,
+"firing": 160,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRR",
+"k": 1,
+"N": 10,
+"torsion": 20,
+"characters": 20,
+"firing": 32,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRR",
+"k": 1,
+"N": 21,
+"torsion": 21,
+"characters": 21,
+"firing": 156,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "-LLLLLLLLLRR",
+"k": 1,
+"N": 22,
+"torsion": 22,
+"characters": 22,
+"firing": 200,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLR",
+"k": 1,
+"N": 23,
+"torsion": 23,
+"characters": 23,
+"firing": 44,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRRR",
+"k": 1,
+"N": 24,
+"torsion": 24,
+"characters": 24,
+"firing": 208,
+"generation_backgrounds": 24,
+"lifted": 8
+},
+{
+"state": "-LLLLLRRRR",
+"k": 1,
+"N": 24,
+"torsion": 24,
+"characters": 24,
+"firing": 40,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRR",
+"k": 1,
+"N": 25,
+"torsion": 25,
+"characters": 25,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLR",
+"k": 1,
+"N": 26,
+"torsion": 26,
+"characters": 26,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLR",
+"k": 1,
+"N": 27,
+"torsion": 27,
+"characters": 27,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRRR",
+"k": 1,
+"N": 28,
+"torsion": 28,
+"characters": 28,
+"firing": 268,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRR",
+"k": 1,
+"N": 28,
+"torsion": 28,
+"characters": 28,
+"firing": 52,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLRLR",
+"k": 1,
+"N": 29,
+"torsion": 29,
+"characters": 29,
+"firing": 56,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRRR",
+"k": 1,
+"N": 30,
+"torsion": 30,
+"characters": 30,
+"firing": 292,
+"generation_backgrounds": 48,
+"lifted": 16
+},
+{
+"state": "-LLLRLLRR",
+"k": 1,
+"N": 31,
+"torsion": 31,
+"characters": 31,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRRR",
+"k": 1,
+"N": 32,
+"torsion": 32,
+"characters": 32,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLR",
+"k": 2,
+"N": 16,
+"torsion": 32,
+"characters": 32,
+"firing": 172,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLR",
+"k": 1,
+"N": 16,
+"torsion": 32,
+"characters": 32,
+"firing": 172,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLRLR",
+"k": 1,
+"N": 33,
+"torsion": 33,
+"characters": 33,
+"firing": 420,
+"generation_backgrounds": 40,
+"lifted": 40
+},
+{
+"state": "+LLLLRLLRR",
+"k": 1,
+"N": 34,
+"torsion": 34,
+"characters": 34,
+"firing": 64,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLR",
+"k": 1,
+"N": 35,
+"torsion": 35,
+"characters": 35,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLLLR",
+"k": 1,
+"N": 36,
+"torsion": 36,
+"characters": 36,
+"firing": 64,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLR",
+"k": 1,
+"N": 36,
+"torsion": 36,
+"characters": 36,
+"firing": 64,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLRR",
+"k": 1,
+"N": 37,
+"torsion": 37,
+"characters": 37,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRLR",
+"k": 1,
+"N": 38,
+"torsion": 38,
+"characters": 38,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRR",
+"k": 1,
+"N": 38,
+"torsion": 38,
+"characters": 38,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRLR",
+"k": 1,
+"N": 39,
+"torsion": 39,
+"characters": 39,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRRRR",
+"k": 1,
+"N": 20,
+"torsion": 40,
+"characters": 40,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRRLR",
+"k": 1,
+"N": 20,
+"torsion": 40,
+"characters": 40,
+"firing": 136,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRRR",
+"k": 1,
+"N": 41,
+"torsion": 41,
+"characters": 41,
+"firing": 80,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLLR",
+"k": 1,
+"N": 42,
+"torsion": 42,
+"characters": 42,
+"firing": 556,
+"generation_backgrounds": 72,
+"lifted": 24
+},
+{
+"state": "+LLLLLLLLRRLR",
+"k": 1,
+"N": 43,
+"torsion": 43,
+"characters": 43,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLRR",
+"k": 1,
+"N": 22,
+"torsion": 44,
+"characters": 44,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLR",
+"k": 2,
+"N": 45,
+"torsion": 45,
+"characters": 45,
+"firing": 212,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "+LLLLRLLLRR",
+"k": 1,
+"N": 45,
+"torsion": 45,
+"characters": 45,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LR",
+"k": 4,
+"N": 15,
+"torsion": 45,
+"characters": 45,
+"firing": 488,
+"generation_backgrounds": 256,
+"lifted": 256
+},
+{
+"state": "+LLLRLRLLR",
+"k": 1,
+"N": 46,
+"torsion": 46,
+"characters": 46,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLLRR",
+"k": 1,
+"N": 48,
+"torsion": 48,
+"characters": 48,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRRR",
+"k": 1,
+"N": 24,
+"torsion": 48,
+"characters": 48,
+"firing": 244,
+"generation_backgrounds": 16,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLRR",
+"k": 1,
+"N": 49,
+"torsion": 49,
+"characters": 49,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLRRR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLR",
+"k": 3,
+"N": 10,
+"torsion": 50,
+"characters": 50,
+"firing": 456,
+"generation_backgrounds": 48,
+"lifted": 48
+},
+{
+"state": "+LLLLLLRRLRR",
+"k": 1,
+"N": 52,
+"torsion": 52,
+"characters": 52,
+"firing": 196,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLR",
+"k": 1,
+"N": 52,
+"torsion": 52,
+"characters": 52,
+"firing": 196,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLRR",
+"k": 1,
+"N": 53,
+"torsion": 53,
+"characters": 53,
+"firing": 104,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRRLR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLRR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRRR",
+"k": 1,
+"N": 55,
+"torsion": 55,
+"characters": 55,
+"firing": 268,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLRR",
+"k": 1,
+"N": 28,
+"torsion": 56,
+"characters": 56,
+"firing": 200,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRLR",
+"k": 1,
+"N": 57,
+"torsion": 57,
+"characters": 57,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLLLR",
+"k": 1,
+"N": 58,
+"torsion": 58,
+"characters": 58,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRLLRR",
+"k": 1,
+"N": 59,
+"torsion": 59,
+"characters": 59,
+"firing": 116,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRLRR",
+"k": 1,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 288,
+"generation_backgrounds": 96,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLRRR",
+"k": 1,
+"N": 60,
+"torsion": 60,
+"characters": 60,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLRR",
+"k": 1,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 428,
+"generation_backgrounds": 128,
+"lifted": 64
+},
+{
+"state": "-LLRLRLLRR",
+"k": 1,
+"N": 60,
+"torsion": 60,
+"characters": 60,
+"firing": 256,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "+LLLRRLLRRR",
+"k": 1,
+"N": 61,
+"torsion": 61,
+"characters": 61,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRRRR",
+"k": 1,
+"N": 62,
+"torsion": 62,
+"characters": 62,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRRLR",
+"k": 1,
+"N": 63,
+"torsion": 63,
+"characters": 63,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRLRR",
+"k": 1,
+"N": 32,
+"torsion": 64,
+"characters": 64,
+"firing": 588,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRLR",
+"k": 1,
+"N": 16,
+"torsion": 64,
+"characters": 64,
+"firing": 316,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRRRR",
+"k": 1,
+"N": 65,
+"torsion": 65,
+"characters": 65,
+"firing": 128,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRRRR",
+"k": 1,
+"N": 66,
+"torsion": 66,
+"characters": 66,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRLLLR",
+"k": 1,
+"N": 67,
+"torsion": 67,
+"characters": 67,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRLR",
+"k": 1,
+"N": 67,
+"torsion": 67,
+"characters": 67,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLRLR",
+"k": 1,
+"N": 68,
+"torsion": 68,
+"characters": 68,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLLLR",
+"k": 1,
+"N": 68,
+"torsion": 68,
+"characters": 68,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLRRR",
+"k": 1,
+"N": 70,
+"torsion": 70,
+"characters": 70,
+"firing": 328,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLLRR",
+"k": 1,
+"N": 71,
+"torsion": 71,
+"characters": 71,
+"firing": 140,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLLRRR",
+"k": 1,
+"N": 36,
+"torsion": 72,
+"characters": 72,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRRLR",
+"k": 1,
+"N": 24,
+"torsion": 72,
+"characters": 72,
+"firing": 628,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "+LLLRRLRLLR",
+"k": 1,
+"N": 36,
+"torsion": 72,
+"characters": 72,
+"firing": 308,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLLLR",
+"k": 1,
+"N": 74,
+"torsion": 74,
+"characters": 74,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRRLLR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRLR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLRRRR",
+"k": 1,
+"N": 38,
+"torsion": 76,
+"characters": 76,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLLR",
+"k": 1,
+"N": 38,
+"torsion": 76,
+"characters": 76,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRLLLR",
+"k": 1,
+"N": 77,
+"torsion": 77,
+"characters": 77,
+"firing": 152,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLRLR",
+"k": 1,
+"N": 78,
+"torsion": 78,
+"characters": 78,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLLRLR",
+"k": 1,
+"N": 79,
+"torsion": 79,
+"characters": 79,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLRR",
+"k": 1,
+"N": 79,
+"torsion": 79,
+"characters": 79,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLRLR",
+"k": 1,
+"N": 80,
+"torsion": 80,
+"characters": 80,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRLLR",
+"k": 1,
+"N": 80,
+"torsion": 80,
+"characters": 80,
+"firing": 380,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLRRR",
+"k": 1,
+"N": 81,
+"torsion": 81,
+"characters": 81,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRRLRR",
+"k": 1,
+"N": 9,
+"torsion": 81,
+"characters": 81,
+"firing": 744,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLRLLR",
+"k": 1,
+"N": 83,
+"torsion": 83,
+"characters": 83,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRLLRR",
+"k": 1,
+"N": 42,
+"torsion": 84,
+"characters": 84,
+"firing": 828,
+"generation_backgrounds": 192,
+"lifted": 96
+},
+{
+"state": "+LLLRLLLRLLR",
+"k": 1,
+"N": 84,
+"torsion": 84,
+"characters": 84,
+"firing": 592,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRRLRR",
+"k": 1,
+"N": 85,
+"torsion": 85,
+"characters": 85,
+"firing": 424,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLRRRR",
+"k": 1,
+"N": 87,
+"torsion": 87,
+"characters": 87,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLLRLR",
+"k": 1,
+"N": 44,
+"torsion": 88,
+"characters": 88,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRLLR",
+"k": 1,
+"N": 88,
+"torsion": 88,
+"characters": 88,
+"firing": 412,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRRLLRR",
+"k": 1,
+"N": 89,
+"torsion": 89,
+"characters": 89,
+"firing": 176,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLRLR",
+"k": 1,
+"N": 90,
+"torsion": 90,
+"characters": 90,
+"firing": 412,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRLLLR",
+"k": 1,
+"N": 46,
+"torsion": 92,
+"characters": 92,
+"firing": 176,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRLRR",
+"k": 1,
+"N": 92,
+"torsion": 92,
+"characters": 92,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRLRR",
+"k": 1,
+"N": 94,
+"torsion": 94,
+"characters": 94,
+"firing": 184,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRLRR",
+"k": 1,
+"N": 94,
+"torsion": 94,
+"characters": 94,
+"firing": 184,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRLLRR",
+"k": 1,
+"N": 95,
+"torsion": 95,
+"characters": 95,
+"firing": 188,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLR",
+"k": 2,
+"N": 48,
+"torsion": 96,
+"characters": 96,
+"firing": 648,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRR",
+"k": 2,
+"N": 24,
+"torsion": 96,
+"characters": 96,
+"firing": 764,
+"generation_backgrounds": 64,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRRLLR",
+"k": 1,
+"N": 96,
+"torsion": 96,
+"characters": 96,
+"firing": 280,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLLRR",
+"k": 1,
+"N": 98,
+"torsion": 98,
+"characters": 98,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRRLR",
+"k": 1,
+"N": 98,
+"torsion": 98,
+"characters": 98,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLLRRR",
+"k": 1,
+"N": 99,
+"torsion": 99,
+"characters": 99,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRRRLR",
+"k": 1,
+"N": 10,
+"torsion": 100,
+"characters": 100,
+"firing": 1216,
+"generation_backgrounds": 512,
+"lifted": 256
+},
+{
+"state": "-LLLRLRRRLLR",
+"k": 1,
+"N": 100,
+"torsion": 100,
+"characters": 100,
+"firing": 196,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLRRR",
+"k": 1,
+"N": 102,
+"torsion": 102,
+"characters": 102,
+"firing": 196,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRLRRR",
+"k": 1,
+"N": 52,
+"torsion": 104,
+"characters": 104,
+"firing": 208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRLLR",
+"k": 1,
+"N": 104,
+"torsion": 104,
+"characters": 104,
+"firing": 492,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRLRR",
+"k": 1,
+"N": 52,
+"torsion": 104,
+"characters": 104,
+"firing": 296,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRLLR",
+"k": 1,
+"N": 106,
+"torsion": 106,
+"characters": 106,
+"firing": 208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLLLRR",
+"k": 1,
+"N": 107,
+"torsion": 107,
+"characters": 107,
+"firing": 212,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRLRLR",
+"k": 1,
+"N": 54,
+"torsion": 108,
+"characters": 108,
+"firing": 596,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRLLR",
+"k": 1,
+"N": 36,
+"torsion": 108,
+"characters": 108,
+"firing": 548,
+"generation_backgrounds": 40,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRRLLR",
+"k": 1,
+"N": 108,
+"torsion": 108,
+"characters": 108,
+"firing": 568,
+"generation_backgrounds": 216,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLLRR",
+"k": 1,
+"N": 110,
+"torsion": 110,
+"characters": 110,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLRRLR",
+"k": 1,
+"N": 111,
+"torsion": 111,
+"characters": 111,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLRLLR",
+"k": 1,
+"N": 56,
+"torsion": 112,
+"characters": 112,
+"firing": 256,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRLRR",
+"k": 1,
+"N": 112,
+"torsion": 112,
+"characters": 112,
+"firing": 220,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLRRRR",
+"k": 1,
+"N": 113,
+"torsion": 113,
+"characters": 113,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRLRR",
+"k": 1,
+"N": 115,
+"torsion": 115,
+"characters": 115,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRLRR",
+"k": 1,
+"N": 116,
+"torsion": 116,
+"characters": 116,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRLLRR",
+"k": 1,
+"N": 117,
+"torsion": 117,
+"characters": 117,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRR",
+"k": 2,
+"N": 39,
+"torsion": 117,
+"characters": 117,
+"firing": 1000,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLRLRR",
+"k": 1,
+"N": 119,
+"torsion": 119,
+"characters": 119,
+"firing": 620,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRLLLR",
+"k": 1,
+"N": 60,
+"torsion": 120,
+"characters": 120,
+"firing": 348,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRRLRR",
+"k": 1,
+"N": 121,
+"torsion": 121,
+"characters": 121,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLRLRR",
+"k": 1,
+"N": 123,
+"torsion": 123,
+"characters": 123,
+"firing": 560,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLRLLR",
+"k": 1,
+"N": 123,
+"torsion": 123,
+"characters": 123,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRLLR",
+"k": 1,
+"N": 124,
+"torsion": 124,
+"characters": 124,
+"firing": 244,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRRRLR",
+"k": 1,
+"N": 125,
+"torsion": 125,
+"characters": 125,
+"firing": 248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRLRRR",
+"k": 1,
+"N": 127,
+"torsion": 127,
+"characters": 127,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLRRLR",
+"k": 1,
+"N": 64,
+"torsion": 128,
+"characters": 128,
+"firing": 492,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRLLR",
+"k": 1,
+"N": 128,
+"torsion": 128,
+"characters": 128,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLLLRR",
+"k": 1,
+"N": 129,
+"torsion": 129,
+"characters": 129,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLLRRR",
+"k": 1,
+"N": 131,
+"torsion": 131,
+"characters": 131,
+"firing": 260,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLRLLR",
+"k": 1,
+"N": 66,
+"torsion": 132,
+"characters": 132,
+"firing": 284,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLRLR",
+"k": 1,
+"N": 132,
+"torsion": 132,
+"characters": 132,
+"firing": 256,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRLRR",
+"k": 1,
+"N": 134,
+"torsion": 134,
+"characters": 134,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRRLLR",
+"k": 1,
+"N": 135,
+"torsion": 135,
+"characters": 135,
+"firing": 888,
+"generation_backgrounds": 432,
+"lifted": 432
+},
+{
+"state": "+LLRLLRLLRLR",
+"k": 1,
+"N": 136,
+"torsion": 136,
+"characters": 136,
+"firing": 652,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRRLLR",
+"k": 1,
+"N": 137,
+"torsion": 137,
+"characters": 137,
+"firing": 272,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRRLLR",
+"k": 1,
+"N": 139,
+"torsion": 139,
+"characters": 139,
+"firing": 276,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRR",
+"k": 2,
+"N": 70,
+"torsion": 140,
+"characters": 140,
+"firing": 1188,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLLRLR",
+"k": 1,
+"N": 140,
+"torsion": 140,
+"characters": 140,
+"firing": 708,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRLLRR",
+"k": 1,
+"N": 143,
+"torsion": 143,
+"characters": 143,
+"firing": 284,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRRLRR",
+"k": 1,
+"N": 24,
+"torsion": 144,
+"characters": 144,
+"firing": 1496,
+"generation_backgrounds": 8,
+"lifted": 8
+},
+{
+"state": "+LLLRRLRRRLLR",
+"k": 1,
+"N": 12,
+"torsion": 144,
+"characters": 144,
+"firing": 2232,
+"generation_backgrounds": 528,
+"lifted": 16
+},
+{
+"state": "+LLLRLLRRLRRR",
+"k": 1,
+"N": 145,
+"torsion": 145,
+"characters": 145,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLRLRR",
+"k": 1,
+"N": 147,
+"torsion": 147,
+"characters": 147,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLLRRR",
+"k": 1,
+"N": 147,
+"torsion": 147,
+"characters": 147,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRRRLLR",
+"k": 1,
+"N": 74,
+"torsion": 148,
+"characters": 148,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLLRLRR",
+"k": 1,
+"N": 150,
+"torsion": 150,
+"characters": 150,
+"firing": 452,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRLLRR",
+"k": 1,
+"N": 151,
+"torsion": 151,
+"characters": 151,
+"firing": 300,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLRLLR",
+"k": 1,
+"N": 153,
+"torsion": 153,
+"characters": 153,
+"firing": 300,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLLRRLR",
+"k": 1,
+"N": 155,
+"torsion": 155,
+"characters": 155,
+"firing": 308,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLLRRR",
+"k": 1,
+"N": 157,
+"torsion": 157,
+"characters": 157,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRLRLR",
+"k": 1,
+"N": 159,
+"torsion": 159,
+"characters": 159,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLLRRR",
+"k": 1,
+"N": 40,
+"torsion": 160,
+"characters": 160,
+"firing": 440,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLRRLR",
+"k": 1,
+"N": 163,
+"torsion": 163,
+"characters": 163,
+"firing": 324,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLLLR",
+"k": 2,
+"N": 165,
+"torsion": 165,
+"characters": 165,
+"firing": 884,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRLLRR",
+"k": 1,
+"N": 167,
+"torsion": 167,
+"characters": 167,
+"firing": 332,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRRRLR",
+"k": 1,
+"N": 169,
+"torsion": 169,
+"characters": 169,
+"firing": 336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLRLRR",
+"k": 1,
+"N": 86,
+"torsion": 172,
+"characters": 172,
+"firing": 336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRRRLR",
+"k": 1,
+"N": 173,
+"torsion": 173,
+"characters": 173,
+"firing": 344,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRRLLRR",
+"k": 1,
+"N": 88,
+"torsion": 176,
+"characters": 176,
+"firing": 352,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLRLLR",
+"k": 1,
+"N": 90,
+"torsion": 180,
+"characters": 180,
+"firing": 1088,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "+LLLRLRLRLRRR",
+"k": 1,
+"N": 181,
+"torsion": 181,
+"characters": 181,
+"firing": 360,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLRRLR",
+"k": 1,
+"N": 185,
+"torsion": 185,
+"characters": 185,
+"firing": 944,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRRLLR",
+"k": 1,
+"N": 94,
+"torsion": 188,
+"characters": 188,
+"firing": 372,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRR",
+"k": 2,
+"N": 48,
+"torsion": 192,
+"characters": 192,
+"firing": 1772,
+"generation_backgrounds": 192,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRLRLR",
+"k": 1,
+"N": 48,
+"torsion": 192,
+"characters": 192,
+"firing": 608,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLR",
+"k": 4,
+"N": 24,
+"torsion": 192,
+"characters": 192,
+"firing": 4192,
+"generation_backgrounds": 480,
+"lifted": 288
+},
+{
+"state": "-LLLRLLRLRLRR",
+"k": 1,
+"N": 195,
+"torsion": 195,
+"characters": 195,
+"firing": 384,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLR",
+"k": 3,
+"N": 28,
+"torsion": 196,
+"characters": 196,
+"firing": 3136,
+"generation_backgrounds": 216,
+"lifted": 216
+},
+{
+"state": "+LLLRRLRLRRLR",
+"k": 1,
+"N": 98,
+"torsion": 196,
+"characters": 196,
+"firing": 456,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLRLRR",
+"k": 1,
+"N": 199,
+"torsion": 199,
+"characters": 199,
+"firing": 396,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLRLRR",
+"k": 1,
+"N": 100,
+"torsion": 200,
+"characters": 200,
+"firing": 792,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRLLRR",
+"k": 1,
+"N": 102,
+"torsion": 204,
+"characters": 204,
+"firing": 412,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLLRRLR",
+"k": 1,
+"N": 207,
+"torsion": 207,
+"characters": 207,
+"firing": 408,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLLRRLR",
+"k": 1,
+"N": 211,
+"torsion": 211,
+"characters": 211,
+"firing": 420,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRRLRLRR",
+"k": 1,
+"N": 217,
+"torsion": 217,
+"characters": 217,
+"firing": 1152,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRRLRLRR",
+"k": 1,
+"N": 221,
+"torsion": 221,
+"characters": 221,
+"firing": 1208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRRLLRR",
+"k": 1,
+"N": 75,
+"torsion": 225,
+"characters": 225,
+"firing": 960,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRR",
+"k": 2,
+"N": 126,
+"torsion": 252,
+"characters": 252,
+"firing": 2288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLRLRLR",
+"k": 1,
+"N": 126,
+"torsion": 252,
+"characters": 252,
+"firing": 1376,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRLRRLR",
+"k": 1,
+"N": 257,
+"torsion": 257,
+"characters": 257,
+"firing": 512,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRLRLRR",
+"k": 1,
+"N": 265,
+"torsion": 265,
+"characters": 265,
+"firing": 528,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRR",
+"k": 2,
+"N": 80,
+"torsion": 320,
+"characters": 320,
+"firing": 3200,
+"generation_backgrounds": 384,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRR",
+"k": 2,
+"N": 40,
+"torsion": 320,
+"characters": 320,
+"firing": 4016,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "+LR",
+"k": 6,
+"N": 40,
+"torsion": 320,
+"characters": 320,
+"firing": 12536,
+"generation_backgrounds": 2160,
+"lifted": 336
+},
+{
+"state": "-LLLLLLLLLRR",
+"k": 2,
+"N": 198,
+"torsion": 396,
+"characters": 396,
+"firing": 3744,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRR",
+"k": 2,
+"N": 198,
+"torsion": 396,
+"characters": 396,
+"firing": 2208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLLRR",
+"k": 2,
+"N": 120,
+"torsion": 480,
+"characters": 480,
+"firing": 5036,
+"generation_backgrounds": 480,
+"lifted": 32
+},
+{
+"state": "-LLLLLRRRR",
+"k": 2,
+"N": 240,
+"torsion": 480,
+"characters": 480,
+"firing": 5496,
+"generation_backgrounds": 80,
+"lifted": 48
+},
+{
+"state": "-LLRLLRR",
+"k": 2,
+"N": 240,
+"torsion": 480,
+"characters": 480,
+"firing": 6200,
+"generation_backgrounds": 192,
+"lifted": 128
+},
+{
+"state": "-LLLLLLR",
+"k": 3,
+"N": 70,
+"torsion": 490,
+"characters": 490,
+"firing": 8188,
+"generation_backgrounds": 216,
+"lifted": 216
+},
+{
+"state": "-LLLR",
+"k": 4,
+"N": 105,
+"torsion": 525,
+"characters": 525,
+"firing": 11044,
+"generation_backgrounds": 224,
+"lifted": 224
+},
+{
+"state": "-LLLLRLRR",
+"k": 2,
+"N": 621,
+"torsion": 621,
+"characters": 621,
+"firing": 3524,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRRR",
+"k": 2,
+"N": 336,
+"torsion": 672,
+"characters": 672,
+"firing": 7464,
+"generation_backgrounds": 248,
+"lifted": 184
+},
+{
+"state": "-LLLLLRLLR",
+"k": 2,
+"N": 336,
+"torsion": 672,
+"characters": 672,
+"firing": 8248,
+"generation_backgrounds": 64,
+"lifted": 16
+},
+{
+"state": "+LLLLLLLR",
+"k": 3,
+"N": 70,
+"torsion": 700,
+"characters": 700,
+"firing": 14304,
+"generation_backgrounds": 480,
+"lifted": 48
+},
+{
+"state": "+LLLLLRRRRR",
+"k": 2,
+"N": 145,
+"torsion": 725,
+"characters": 725,
+"firing": 7880,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "-LLLLLLLLRLR",
+"k": 2,
+"N": 390,
+"torsion": 780,
+"characters": 780,
+"firing": 8864,
+"generation_backgrounds": 288,
+"lifted": 16
+},
+{
+"state": "-LLLLLLLLLRRR",
+"k": 2,
+"N": 279,
+"torsion": 837,
+"characters": 837,
+"firing": 8848,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "-LLLRRLLR",
+"k": 2,
+"N": 837,
+"torsion": 837,
+"characters": 837,
+"firing": 4788,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRRR",
+"k": 2,
+"N": 448,
+"torsion": 896,
+"characters": 896,
+"firing": 10844,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRR",
+"k": 2,
+"N": 448,
+"torsion": 896,
+"characters": 896,
+"firing": 5148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRR",
+"k": 2,
+"N": 224,
+"torsion": 896,
+"characters": 896,
+"firing": 12796,
+"generation_backgrounds": 128,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLR",
+"k": 3,
+"N": 88,
+"torsion": 968,
+"characters": 968,
+"firing": 20112,
+"generation_backgrounds": 1440,
+"lifted": 1440
+},
+{
+"state": "-LLLLRR",
+"k": 3,
+"N": 54,
+"torsion": 972,
+"characters": 972,
+"firing": 16496,
+"generation_backgrounds": 24,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLLR",
+"k": 2,
+"N": 1085,
+"torsion": 1085,
+"characters": 1085,
+"firing": 12344,
+"generation_backgrounds": 96,
+"lifted": 96
+},
+{
+"state": "-LLLLLLLRLLR",
+"k": 2,
+"N": 576,
+"torsion": 1152,
+"characters": 1152,
+"firing": 14568,
+"generation_backgrounds": 56,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRR",
+"k": 2,
+"N": 576,
+"torsion": 1152,
+"characters": 1152,
+"firing": 6680,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLR",
+"k": 2,
+"N": 288,
+"torsion": 1152,
+"characters": 1152,
+"firing": 16432,
+"generation_backgrounds": 144,
+"lifted": 16
+},
+{
+"state": "-LLLLLLRLRR",
+"k": 2,
+"N": 1221,
+"torsion": 1221,
+"characters": 1221,
+"firing": 7044,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLRR",
+"k": 2,
+"N": 646,
+"torsion": 1292,
+"characters": 1292,
+"firing": 7460,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLR",
+"k": 3,
+"N": 108,
+"torsion": 1296,
+"characters": 1296,
+"firing": 28020,
+"generation_backgrounds": 1560,
+"lifted": 408
+},
+{
+"state": "-LLLLLLLRRRRR",
+"k": 2,
+"N": 1365,
+"torsion": 1365,
+"characters": 1365,
+"firing": 15524,
+"generation_backgrounds": 128,
+"lifted": 128
+},
+{
+"state": "-LLLLLLLLRLLR",
+"k": 2,
+"N": 360,
+"torsion": 1440,
+"characters": 1440,
+"firing": 21964,
+"generation_backgrounds": 672,
+"lifted": 96
+},
+{
+"state": "-LLLLLLRRRRRR",
+"k": 2,
+"N": 120,
+"torsion": 1440,
+"characters": 1440,
+"firing": 21376,
+"generation_backgrounds": 640,
+"lifted": 256
+},
+{
+"state": "-LLLRLLLRR",
+"k": 2,
+"N": 240,
+"torsion": 1440,
+"characters": 1440,
+"firing": 25112,
+"generation_backgrounds": 1168,
+"lifted": 528
+},
+{
+"state": "-LLRLRLRR",
+"k": 2,
+"N": 1517,
+"torsion": 1517,
+"characters": 1517,
+"firing": 8792,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRLR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRR",
+"k": 2,
+"N": 1677,
+"torsion": 1677,
+"characters": 1677,
+"firing": 9732,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLLR",
+"k": 3,
+"N": 130,
+"torsion": 1690,
+"characters": 1690,
+"firing": 37096,
+"generation_backgrounds": 2688,
+"lifted": 2688
+},
+{
+"state": "-LLLLRLRLR",
+"k": 2,
+"N": 880,
+"torsion": 1760,
+"characters": 1760,
+"firing": 25500,
+"generation_backgrounds": 256,
+"lifted": 256
+},
+{
+"state": "-LLLLLRLLRR",
+"k": 2,
+"N": 1845,
+"torsion": 1845,
+"characters": 1845,
+"firing": 10724,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRRR",
+"k": 2,
+"N": 615,
+"torsion": 1845,
+"characters": 1845,
+"firing": 10712,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLR",
+"k": 1,
+"N": 4,
+"torsion": 4,
+"characters": 4,
+"firing": 4,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LR",
+"k": 2,
+"N": 5,
+"torsion": 5,
+"characters": 5,
+"firing": 8,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLR",
+"k": 1,
+"N": 6,
+"torsion": 6,
+"characters": 6,
+"firing": 4,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLR",
+"k": 1,
+"N": 8,
+"torsion": 8,
+"characters": 8,
+"firing": 12,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLR",
+"k": 1,
+"N": 9,
+"torsion": 9,
+"characters": 9,
+"firing": 12,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLR",
+"k": 1,
+"N": 10,
+"torsion": 10,
+"characters": 10,
+"firing": 16,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLR",
+"k": 1,
+"N": 11,
+"torsion": 11,
+"characters": 11,
+"firing": 20,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRR",
+"k": 1,
+"N": 6,
+"torsion": 12,
+"characters": 12,
+"firing": 44,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLR",
+"k": 1,
+"N": 12,
+"torsion": 12,
+"characters": 12,
+"firing": 40,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLLR",
+"k": 1,
+"N": 14,
+"torsion": 14,
+"characters": 14,
+"firing": 24,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLLLR",
+"k": 1,
+"N": 15,
+"torsion": 15,
+"characters": 15,
+"firing": 24,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRR",
+"k": 1,
+"N": 8,
+"torsion": 16,
+"characters": 16,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LR",
+"k": 3,
+"N": 4,
+"torsion": 16,
+"characters": 16,
+"firing": 72,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRR",
+"k": 1,
+"N": 18,
+"torsion": 18,
+"characters": 18,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLR",
+"k": 1,
+"N": 18,
+"torsion": 18,
+"characters": 18,
+"firing": 28,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLR",
+"k": 1,
+"N": 20,
+"torsion": 20,
+"characters": 20,
+"firing": 52,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLR",
+"k": 1,
+"N": 20,
+"torsion": 20,
+"characters": 20,
+"firing": 132,
+"generation_backgrounds": 32,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLR",
+"k": 1,
+"N": 21,
+"torsion": 21,
+"characters": 21,
+"firing": 156,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "-LLLLLLRRR",
+"k": 1,
+"N": 22,
+"torsion": 22,
+"characters": 22,
+"firing": 40,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRR",
+"k": 1,
+"N": 23,
+"torsion": 23,
+"characters": 23,
+"firing": 44,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLR",
+"k": 1,
+"N": 24,
+"torsion": 24,
+"characters": 24,
+"firing": 208,
+"generation_backgrounds": 24,
+"lifted": 8
+},
+{
+"state": "-LLLLRLLR",
+"k": 1,
+"N": 12,
+"torsion": 24,
+"characters": 24,
+"firing": 188,
+"generation_backgrounds": 24,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRRR",
+"k": 1,
+"N": 5,
+"torsion": 25,
+"characters": 25,
+"firing": 208,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "+LLLLLLLLLRRR",
+"k": 1,
+"N": 9,
+"torsion": 27,
+"characters": 27,
+"firing": 268,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "+LLLRLLRR",
+"k": 1,
+"N": 27,
+"torsion": 27,
+"characters": 27,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLLR",
+"k": 1,
+"N": 14,
+"torsion": 28,
+"characters": 28,
+"firing": 48,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLR",
+"k": 1,
+"N": 28,
+"torsion": 28,
+"characters": 28,
+"firing": 52,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRRR",
+"k": 1,
+"N": 29,
+"torsion": 29,
+"characters": 29,
+"firing": 56,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLR",
+"k": 1,
+"N": 30,
+"torsion": 30,
+"characters": 30,
+"firing": 292,
+"generation_backgrounds": 48,
+"lifted": 16
+},
+{
+"state": "-LLLRRLLR",
+"k": 1,
+"N": 31,
+"torsion": 31,
+"characters": 31,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRLLR",
+"k": 1,
+"N": 8,
+"torsion": 32,
+"characters": 32,
+"firing": 360,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "+LLLLR",
+"k": 2,
+"N": 16,
+"torsion": 32,
+"characters": 32,
+"firing": 172,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRR",
+"k": 1,
+"N": 16,
+"torsion": 32,
+"characters": 32,
+"firing": 172,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLRR",
+"k": 1,
+"N": 33,
+"torsion": 33,
+"characters": 33,
+"firing": 60,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLR",
+"k": 1,
+"N": 34,
+"torsion": 34,
+"characters": 34,
+"firing": 64,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRLLR",
+"k": 1,
+"N": 18,
+"torsion": 36,
+"characters": 36,
+"firing": 76,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRRRRR",
+"k": 1,
+"N": 6,
+"torsion": 36,
+"characters": 36,
+"firing": 408,
+"generation_backgrounds": 32,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRR",
+"k": 1,
+"N": 12,
+"torsion": 36,
+"characters": 36,
+"firing": 240,
+"generation_backgrounds": 40,
+"lifted": 8
+},
+{
+"state": "-LLLLLLRRLR",
+"k": 1,
+"N": 37,
+"torsion": 37,
+"characters": 37,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLLLR",
+"k": 1,
+"N": 38,
+"torsion": 38,
+"characters": 38,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRRR",
+"k": 1,
+"N": 38,
+"torsion": 38,
+"characters": 38,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLR",
+"k": 1,
+"N": 39,
+"torsion": 39,
+"characters": 39,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLR",
+"k": 1,
+"N": 40,
+"torsion": 40,
+"characters": 40,
+"firing": 236,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLLLR",
+"k": 1,
+"N": 41,
+"torsion": 41,
+"characters": 41,
+"firing": 80,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRR",
+"k": 1,
+"N": 41,
+"torsion": 41,
+"characters": 41,
+"firing": 80,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRR",
+"k": 1,
+"N": 42,
+"torsion": 42,
+"characters": 42,
+"firing": 76,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRRR",
+"k": 1,
+"N": 43,
+"torsion": 43,
+"characters": 43,
+"firing": 84,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLR",
+"k": 1,
+"N": 44,
+"torsion": 44,
+"characters": 44,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLR",
+"k": 2,
+"N": 45,
+"torsion": 45,
+"characters": 45,
+"firing": 212,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "-LLLLRLRRRR",
+"k": 1,
+"N": 15,
+"torsion": 45,
+"characters": 45,
+"firing": 72,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLRRR",
+"k": 1,
+"N": 46,
+"torsion": 46,
+"characters": 46,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLRLRR",
+"k": 1,
+"N": 47,
+"torsion": 47,
+"characters": 47,
+"firing": 92,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRRLLR",
+"k": 1,
+"N": 48,
+"torsion": 48,
+"characters": 48,
+"firing": 88,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLLR",
+"k": 1,
+"N": 24,
+"torsion": 48,
+"characters": 48,
+"firing": 244,
+"generation_backgrounds": 16,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLLR",
+"k": 1,
+"N": 49,
+"torsion": 49,
+"characters": 49,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRLR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLR",
+"k": 1,
+"N": 50,
+"torsion": 50,
+"characters": 50,
+"firing": 96,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRRR",
+"k": 1,
+"N": 51,
+"torsion": 51,
+"characters": 51,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRLR",
+"k": 1,
+"N": 26,
+"torsion": 52,
+"characters": 52,
+"firing": 196,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRLRRR",
+"k": 1,
+"N": 53,
+"torsion": 53,
+"characters": 53,
+"firing": 104,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLLRR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 100,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRRLR",
+"k": 1,
+"N": 54,
+"torsion": 54,
+"characters": 54,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLRLR",
+"k": 1,
+"N": 56,
+"torsion": 56,
+"characters": 56,
+"firing": 444,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLLRR",
+"k": 1,
+"N": 56,
+"torsion": 56,
+"characters": 56,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLLR",
+"k": 1,
+"N": 57,
+"torsion": 57,
+"characters": 57,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRLLR",
+"k": 1,
+"N": 58,
+"torsion": 58,
+"characters": 58,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRRLLR",
+"k": 1,
+"N": 59,
+"torsion": 59,
+"characters": 59,
+"firing": 116,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLR",
+"k": 2,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 352,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "+LLLLLRRRLRR",
+"k": 1,
+"N": 60,
+"torsion": 60,
+"characters": 60,
+"firing": 112,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRLR",
+"k": 1,
+"N": 30,
+"torsion": 60,
+"characters": 60,
+"firing": 416,
+"generation_backgrounds": 32,
+"lifted": 32
+},
+{
+"state": "+LLLLLRLRRRRR",
+"k": 1,
+"N": 61,
+"torsion": 61,
+"characters": 61,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLRRR",
+"k": 1,
+"N": 62,
+"torsion": 62,
+"characters": 62,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLLLRR",
+"k": 1,
+"N": 21,
+"torsion": 63,
+"characters": 63,
+"firing": 108,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLRR",
+"k": 1,
+"N": 63,
+"torsion": 63,
+"characters": 63,
+"firing": 120,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLRRR",
+"k": 1,
+"N": 64,
+"torsion": 64,
+"characters": 64,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLLLR",
+"k": 1,
+"N": 64,
+"torsion": 64,
+"characters": 64,
+"firing": 124,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLLR",
+"k": 1,
+"N": 65,
+"torsion": 65,
+"characters": 65,
+"firing": 320,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLRRR",
+"k": 1,
+"N": 66,
+"torsion": 66,
+"characters": 66,
+"firing": 284,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLLLRR",
+"k": 1,
+"N": 67,
+"torsion": 67,
+"characters": 67,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLRLRLR",
+"k": 1,
+"N": 34,
+"torsion": 68,
+"characters": 68,
+"firing": 260,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRLLR",
+"k": 1,
+"N": 68,
+"torsion": 68,
+"characters": 68,
+"firing": 132,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRRR",
+"k": 1,
+"N": 34,
+"torsion": 68,
+"characters": 68,
+"firing": 128,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRLR",
+"k": 1,
+"N": 70,
+"torsion": 70,
+"characters": 70,
+"firing": 328,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLLLLR",
+"k": 1,
+"N": 71,
+"torsion": 71,
+"characters": 71,
+"firing": 140,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRRLLR",
+"k": 1,
+"N": 36,
+"torsion": 72,
+"characters": 72,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLLRR",
+"k": 1,
+"N": 24,
+"torsion": 72,
+"characters": 72,
+"firing": 628,
+"generation_backgrounds": 64,
+"lifted": 64
+},
+{
+"state": "+LLLRLRRLRR",
+"k": 1,
+"N": 73,
+"torsion": 73,
+"characters": 73,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLRRLRRR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRLR",
+"k": 1,
+"N": 75,
+"torsion": 75,
+"characters": 75,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRLRR",
+"k": 1,
+"N": 76,
+"torsion": 76,
+"characters": 76,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRRLRR",
+"k": 1,
+"N": 38,
+"torsion": 76,
+"characters": 76,
+"firing": 144,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLR",
+"k": 2,
+"N": 77,
+"torsion": 77,
+"characters": 77,
+"firing": 392,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLRR",
+"k": 1,
+"N": 77,
+"torsion": 77,
+"characters": 77,
+"firing": 152,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLLLR",
+"k": 1,
+"N": 78,
+"torsion": 78,
+"characters": 78,
+"firing": 148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRLRLLR",
+"k": 1,
+"N": 79,
+"torsion": 79,
+"characters": 79,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRLR",
+"k": 1,
+"N": 79,
+"torsion": 79,
+"characters": 79,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLRRRR",
+"k": 1,
+"N": 40,
+"torsion": 80,
+"characters": 80,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRRLR",
+"k": 1,
+"N": 80,
+"torsion": 80,
+"characters": 80,
+"firing": 764,
+"generation_backgrounds": 256,
+"lifted": 256
+},
+{
+"state": "-LLLLLRRRLLLR",
+"k": 1,
+"N": 81,
+"torsion": 81,
+"characters": 81,
+"firing": 156,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLRRR",
+"k": 1,
+"N": 82,
+"torsion": 82,
+"characters": 82,
+"firing": 160,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLRRRR",
+"k": 1,
+"N": 83,
+"torsion": 83,
+"characters": 83,
+"firing": 164,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLLRRR",
+"k": 1,
+"N": 42,
+"torsion": 84,
+"characters": 84,
+"firing": 608,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLLRRR",
+"k": 1,
+"N": 84,
+"torsion": 84,
+"characters": 84,
+"firing": 368,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRRLLRR",
+"k": 1,
+"N": 85,
+"torsion": 85,
+"characters": 85,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLRRRR",
+"k": 1,
+"N": 87,
+"torsion": 87,
+"characters": 87,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRLLLR",
+"k": 1,
+"N": 44,
+"torsion": 88,
+"characters": 88,
+"firing": 168,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLLRRR",
+"k": 1,
+"N": 88,
+"torsion": 88,
+"characters": 88,
+"firing": 412,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRLRR",
+"k": 1,
+"N": 30,
+"torsion": 90,
+"characters": 90,
+"firing": 548,
+"generation_backgrounds": 56,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLLLRLR",
+"k": 1,
+"N": 91,
+"torsion": 91,
+"characters": 91,
+"firing": 468,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRLLLRR",
+"k": 1,
+"N": 46,
+"torsion": 92,
+"characters": 92,
+"firing": 356,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRRLR",
+"k": 1,
+"N": 92,
+"torsion": 92,
+"characters": 92,
+"firing": 180,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLLRR",
+"k": 1,
+"N": 94,
+"torsion": 94,
+"characters": 94,
+"firing": 184,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRRLR",
+"k": 1,
+"N": 94,
+"torsion": 94,
+"characters": 94,
+"firing": 184,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLLRLR",
+"k": 1,
+"N": 95,
+"torsion": 95,
+"characters": 95,
+"firing": 476,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRRRLR",
+"k": 1,
+"N": 48,
+"torsion": 96,
+"characters": 96,
+"firing": 1096,
+"generation_backgrounds": 192,
+"lifted": 128
+},
+{
+"state": "+LLLLRR",
+"k": 2,
+"N": 24,
+"torsion": 96,
+"characters": 96,
+"firing": 764,
+"generation_backgrounds": 64,
+"lifted": 0
+},
+{
+"state": "-LLRLR",
+"k": 2,
+"N": 48,
+"torsion": 96,
+"characters": 96,
+"firing": 936,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLRLR",
+"k": 1,
+"N": 98,
+"torsion": 98,
+"characters": 98,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRLRRR",
+"k": 1,
+"N": 98,
+"torsion": 98,
+"characters": 98,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRRLLRR",
+"k": 1,
+"N": 99,
+"torsion": 99,
+"characters": 99,
+"firing": 192,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLRRRR",
+"k": 1,
+"N": 50,
+"torsion": 100,
+"characters": 100,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLRLRR",
+"k": 1,
+"N": 50,
+"torsion": 100,
+"characters": 100,
+"firing": 224,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLRRR",
+"k": 1,
+"N": 102,
+"torsion": 102,
+"characters": 102,
+"firing": 196,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRRRLRLR",
+"k": 1,
+"N": 52,
+"torsion": 104,
+"characters": 104,
+"firing": 208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLLRR",
+"k": 1,
+"N": 104,
+"torsion": 104,
+"characters": 104,
+"firing": 492,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLRRLR",
+"k": 1,
+"N": 105,
+"torsion": 105,
+"characters": 105,
+"firing": 204,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLLLRLLR",
+"k": 1,
+"N": 107,
+"torsion": 107,
+"characters": 107,
+"firing": 212,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLRLRR",
+"k": 1,
+"N": 54,
+"torsion": 108,
+"characters": 108,
+"firing": 596,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLRLR",
+"k": 1,
+"N": 36,
+"torsion": 108,
+"characters": 108,
+"firing": 780,
+"generation_backgrounds": 56,
+"lifted": 56
+},
+{
+"state": "+LLLRLLRRLRR",
+"k": 1,
+"N": 108,
+"torsion": 108,
+"characters": 108,
+"firing": 568,
+"generation_backgrounds": 216,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLLRRLR",
+"k": 1,
+"N": 109,
+"torsion": 109,
+"characters": 109,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRLLR",
+"k": 1,
+"N": 110,
+"torsion": 110,
+"characters": 110,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLLRRR",
+"k": 1,
+"N": 111,
+"torsion": 111,
+"characters": 111,
+"firing": 216,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRLRLR",
+"k": 1,
+"N": 112,
+"torsion": 112,
+"characters": 112,
+"firing": 556,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRRLLR",
+"k": 1,
+"N": 112,
+"torsion": 112,
+"characters": 112,
+"firing": 220,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRLLRR",
+"k": 1,
+"N": 114,
+"torsion": 114,
+"characters": 114,
+"firing": 220,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLRRLR",
+"k": 1,
+"N": 115,
+"torsion": 115,
+"characters": 115,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLLRR",
+"k": 1,
+"N": 116,
+"torsion": 116,
+"characters": 116,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRRLLRLR",
+"k": 1,
+"N": 117,
+"torsion": 117,
+"characters": 117,
+"firing": 228,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRR",
+"k": 2,
+"N": 39,
+"torsion": 117,
+"characters": 117,
+"firing": 1000,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRRRLR",
+"k": 1,
+"N": 119,
+"torsion": 119,
+"characters": 119,
+"firing": 236,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRLRR",
+"k": 1,
+"N": 120,
+"torsion": 120,
+"characters": 120,
+"firing": 248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRLLLR",
+"k": 1,
+"N": 121,
+"torsion": 121,
+"characters": 121,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRLRRR",
+"k": 1,
+"N": 123,
+"torsion": 123,
+"characters": 123,
+"firing": 240,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRLRRR",
+"k": 1,
+"N": 62,
+"torsion": 124,
+"characters": 124,
+"firing": 244,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLLLRR",
+"k": 1,
+"N": 125,
+"torsion": 125,
+"characters": 125,
+"firing": 248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LR",
+"k": 5,
+"N": 25,
+"torsion": 125,
+"characters": 125,
+"firing": 2088,
+"generation_backgrounds": 480,
+"lifted": 480
+},
+{
+"state": "-LLLLRRRLRLLR",
+"k": 1,
+"N": 127,
+"torsion": 127,
+"characters": 127,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRLRRR",
+"k": 1,
+"N": 64,
+"torsion": 128,
+"characters": 128,
+"firing": 492,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLRRLR",
+"k": 1,
+"N": 128,
+"torsion": 128,
+"characters": 128,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLLRLR",
+"k": 1,
+"N": 129,
+"torsion": 129,
+"characters": 129,
+"firing": 252,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRRLLRLR",
+"k": 1,
+"N": 131,
+"torsion": 131,
+"characters": 131,
+"firing": 260,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRLRRR",
+"k": 1,
+"N": 66,
+"torsion": 132,
+"characters": 132,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLRLRLRLR",
+"k": 1,
+"N": 133,
+"torsion": 133,
+"characters": 133,
+"firing": 696,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRLRLR",
+"k": 1,
+"N": 134,
+"torsion": 134,
+"characters": 134,
+"firing": 264,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRRLLRLR",
+"k": 1,
+"N": 135,
+"torsion": 135,
+"characters": 135,
+"firing": 888,
+"generation_backgrounds": 432,
+"lifted": 432
+},
+{
+"state": "-LLLLRRLRLRRR",
+"k": 1,
+"N": 137,
+"torsion": 137,
+"characters": 137,
+"firing": 272,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLRLRR",
+"k": 1,
+"N": 138,
+"torsion": 138,
+"characters": 138,
+"firing": 268,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLLLLLLLR",
+"k": 2,
+"N": 70,
+"torsion": 140,
+"characters": 140,
+"firing": 996,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLRRLRR",
+"k": 1,
+"N": 70,
+"torsion": 140,
+"characters": 140,
+"firing": 656,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLRRLR",
+"k": 1,
+"N": 140,
+"torsion": 140,
+"characters": 140,
+"firing": 756,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRRLLRRLR",
+"k": 1,
+"N": 143,
+"torsion": 143,
+"characters": 143,
+"firing": 284,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLLLRR",
+"k": 1,
+"N": 72,
+"torsion": 144,
+"characters": 144,
+"firing": 844,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLRLRR",
+"k": 1,
+"N": 144,
+"torsion": 144,
+"characters": 144,
+"firing": 280,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLLRLRR",
+"k": 1,
+"N": 146,
+"torsion": 146,
+"characters": 146,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLLRRLR",
+"k": 1,
+"N": 147,
+"torsion": 147,
+"characters": 147,
+"firing": 288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRRLLR",
+"k": 1,
+"N": 147,
+"torsion": 147,
+"characters": 147,
+"firing": 672,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLRLRR",
+"k": 1,
+"N": 148,
+"torsion": 148,
+"characters": 148,
+"firing": 292,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLLRRLR",
+"k": 1,
+"N": 150,
+"torsion": 150,
+"characters": 150,
+"firing": 452,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLLRRR",
+"k": 1,
+"N": 151,
+"torsion": 151,
+"characters": 151,
+"firing": 300,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRRRLLRR",
+"k": 1,
+"N": 51,
+"torsion": 153,
+"characters": 153,
+"firing": 320,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRLLRLR",
+"k": 1,
+"N": 78,
+"torsion": 156,
+"characters": 156,
+"firing": 688,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRRLLRR",
+"k": 1,
+"N": 157,
+"torsion": 157,
+"characters": 157,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLLLRR",
+"k": 1,
+"N": 159,
+"torsion": 159,
+"characters": 159,
+"firing": 312,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLLRLRLR",
+"k": 1,
+"N": 161,
+"torsion": 161,
+"characters": 161,
+"firing": 848,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRLRRLRLR",
+"k": 1,
+"N": 163,
+"torsion": 163,
+"characters": 163,
+"firing": 324,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLLRLRLR",
+"k": 1,
+"N": 165,
+"torsion": 165,
+"characters": 165,
+"firing": 884,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRRLLR",
+"k": 1,
+"N": 167,
+"torsion": 167,
+"characters": 167,
+"firing": 332,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRRLLRR",
+"k": 1,
+"N": 171,
+"torsion": 171,
+"characters": 171,
+"firing": 336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLLRRLRLRLR",
+"k": 1,
+"N": 86,
+"torsion": 172,
+"characters": 172,
+"firing": 336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRLLRR",
+"k": 1,
+"N": 35,
+"torsion": 175,
+"characters": 175,
+"firing": 1020,
+"generation_backgrounds": 16,
+"lifted": 16
+},
+{
+"state": "+LLRLRLRLRLR",
+"k": 1,
+"N": 176,
+"torsion": 176,
+"characters": 176,
+"firing": 908,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRLRLR",
+"k": 1,
+"N": 180,
+"torsion": 180,
+"characters": 180,
+"firing": 1040,
+"generation_backgrounds": 48,
+"lifted": 16
+},
+{
+"state": "+LLLRLLRLRRLR",
+"k": 1,
+"N": 183,
+"torsion": 183,
+"characters": 183,
+"firing": 360,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLLRLRRLR",
+"k": 1,
+"N": 187,
+"torsion": 187,
+"characters": 187,
+"firing": 372,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRRLRRLR",
+"k": 1,
+"N": 63,
+"torsion": 189,
+"characters": 189,
+"firing": 1008,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLRR",
+"k": 2,
+"N": 48,
+"torsion": 192,
+"characters": 192,
+"firing": 1772,
+"generation_backgrounds": 192,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLLRRLR",
+"k": 1,
+"N": 96,
+"torsion": 192,
+"characters": 192,
+"firing": 440,
+"generation_backgrounds": 16,
+"lifted": 0
+},
+{
+"state": "+LLR",
+"k": 4,
+"N": 24,
+"torsion": 192,
+"characters": 192,
+"firing": 4192,
+"generation_backgrounds": 480,
+"lifted": 288
+},
+{
+"state": "+LLLRLRLLRLRR",
+"k": 1,
+"N": 195,
+"torsion": 195,
+"characters": 195,
+"firing": 384,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRLRLLRRLR",
+"k": 1,
+"N": 98,
+"torsion": 196,
+"characters": 196,
+"firing": 508,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRR",
+"k": 3,
+"N": 14,
+"torsion": 196,
+"characters": 196,
+"firing": 2400,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLRLLRLR",
+"k": 1,
+"N": 199,
+"torsion": 199,
+"characters": 199,
+"firing": 396,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLLRLRLR",
+"k": 1,
+"N": 100,
+"torsion": 200,
+"characters": 200,
+"firing": 784,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLLRRLLRLRLR",
+"k": 1,
+"N": 102,
+"torsion": 204,
+"characters": 204,
+"firing": 412,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLLRLRRLRR",
+"k": 1,
+"N": 52,
+"torsion": 208,
+"characters": 208,
+"firing": 472,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLRRLRR",
+"k": 1,
+"N": 106,
+"torsion": 212,
+"characters": 212,
+"firing": 416,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLLRLRLLRR",
+"k": 1,
+"N": 219,
+"torsion": 219,
+"characters": 219,
+"firing": 432,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRR",
+"k": 2,
+"N": 221,
+"torsion": 221,
+"characters": 221,
+"firing": 1208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRRLLRR",
+"k": 1,
+"N": 229,
+"torsion": 229,
+"characters": 229,
+"firing": 456,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRR",
+"k": 2,
+"N": 126,
+"torsion": 252,
+"characters": 252,
+"firing": 2288,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLRLRLLRLRLR",
+"k": 1,
+"N": 255,
+"torsion": 255,
+"characters": 255,
+"firing": 1400,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLLRLRLR",
+"k": 1,
+"N": 259,
+"torsion": 259,
+"characters": 259,
+"firing": 1380,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLRLRLRLRR",
+"k": 1,
+"N": 269,
+"torsion": 269,
+"characters": 269,
+"firing": 536,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRR",
+"k": 2,
+"N": 80,
+"torsion": 320,
+"characters": 320,
+"firing": 3200,
+"generation_backgrounds": 384,
+"lifted": 0
+},
+{
+"state": "-LLLRLLR",
+"k": 2,
+"N": 160,
+"torsion": 320,
+"characters": 320,
+"firing": 3676,
+"generation_backgrounds": 32,
+"lifted": 0
+},
+{
+"state": "-LLLLLR",
+"k": 3,
+"N": 54,
+"torsion": 324,
+"characters": 324,
+"firing": 5052,
+"generation_backgrounds": 360,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLRR",
+"k": 2,
+"N": 198,
+"torsion": 396,
+"characters": 396,
+"firing": 3744,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRR",
+"k": 2,
+"N": 198,
+"torsion": 396,
+"characters": 396,
+"firing": 2208,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLLLRR",
+"k": 2,
+"N": 120,
+"torsion": 480,
+"characters": 480,
+"firing": 5036,
+"generation_backgrounds": 480,
+"lifted": 32
+},
+{
+"state": "+LLLLLRRRR",
+"k": 2,
+"N": 240,
+"torsion": 480,
+"characters": 480,
+"firing": 5496,
+"generation_backgrounds": 80,
+"lifted": 48
+},
+{
+"state": "+LLRLLRR",
+"k": 2,
+"N": 240,
+"torsion": 480,
+"characters": 480,
+"firing": 6200,
+"generation_backgrounds": 192,
+"lifted": 128
+},
+{
+"state": "-LLLRR",
+"k": 3,
+"N": 70,
+"torsion": 490,
+"characters": 490,
+"firing": 7928,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLR",
+"k": 4,
+"N": 105,
+"torsion": 525,
+"characters": 525,
+"firing": 11044,
+"generation_backgrounds": 224,
+"lifted": 224
+},
+{
+"state": "+LLLLRLRR",
+"k": 2,
+"N": 621,
+"torsion": 621,
+"characters": 621,
+"firing": 3524,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRRR",
+"k": 2,
+"N": 336,
+"torsion": 672,
+"characters": 672,
+"firing": 7464,
+"generation_backgrounds": 248,
+"lifted": 184
+},
+{
+"state": "+LLLLLRLLR",
+"k": 2,
+"N": 336,
+"torsion": 672,
+"characters": 672,
+"firing": 8248,
+"generation_backgrounds": 64,
+"lifted": 16
+},
+{
+"state": "-LLLLLLLR",
+"k": 3,
+"N": 88,
+"torsion": 704,
+"characters": 704,
+"firing": 12728,
+"generation_backgrounds": 336,
+"lifted": 48
+},
+{
+"state": "-LLLRLRRR",
+"k": 2,
+"N": 725,
+"torsion": 725,
+"characters": 725,
+"firing": 4136,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLLRLR",
+"k": 2,
+"N": 390,
+"torsion": 780,
+"characters": 780,
+"firing": 8864,
+"generation_backgrounds": 288,
+"lifted": 16
+},
+{
+"state": "+LLLLLLLLLRRR",
+"k": 2,
+"N": 279,
+"torsion": 837,
+"characters": 837,
+"firing": 8848,
+"generation_backgrounds": 24,
+"lifted": 24
+},
+{
+"state": "+LLLRRLLR",
+"k": 2,
+"N": 837,
+"torsion": 837,
+"characters": 837,
+"firing": 4788,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRRR",
+"k": 2,
+"N": 448,
+"torsion": 896,
+"characters": 896,
+"firing": 10844,
+"generation_backgrounds": 48,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRR",
+"k": 2,
+"N": 448,
+"torsion": 896,
+"characters": 896,
+"firing": 5148,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRLRR",
+"k": 2,
+"N": 224,
+"torsion": 896,
+"characters": 896,
+"firing": 12796,
+"generation_backgrounds": 128,
+"lifted": 0
+},
+{
+"state": "+LLLLRR",
+"k": 3,
+"N": 44,
+"torsion": 968,
+"characters": 968,
+"firing": 16336,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "-LLRLR",
+"k": 3,
+"N": 108,
+"torsion": 972,
+"characters": 972,
+"firing": 17956,
+"generation_backgrounds": 8,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLLLR",
+"k": 2,
+"N": 1085,
+"torsion": 1085,
+"characters": 1085,
+"firing": 12344,
+"generation_backgrounds": 96,
+"lifted": 96
+},
+{
+"state": "+LLLLLLLRLLR",
+"k": 2,
+"N": 576,
+"torsion": 1152,
+"characters": 1152,
+"firing": 14568,
+"generation_backgrounds": 56,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRR",
+"k": 2,
+"N": 576,
+"torsion": 1152,
+"characters": 1152,
+"firing": 6680,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLRLR",
+"k": 2,
+"N": 288,
+"torsion": 1152,
+"characters": 1152,
+"firing": 16432,
+"generation_backgrounds": 144,
+"lifted": 16
+},
+{
+"state": "+LLLLLLRLRR",
+"k": 2,
+"N": 1221,
+"torsion": 1221,
+"characters": 1221,
+"firing": 7044,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLLRR",
+"k": 2,
+"N": 646,
+"torsion": 1292,
+"characters": 1292,
+"firing": 7460,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRRR",
+"k": 3,
+"N": 36,
+"torsion": 1296,
+"characters": 1296,
+"firing": 29176,
+"generation_backgrounds": 1584,
+"lifted": 288
+},
+{
+"state": "+LLLLLLLRRRRR",
+"k": 2,
+"N": 1365,
+"torsion": 1365,
+"characters": 1365,
+"firing": 15524,
+"generation_backgrounds": 128,
+"lifted": 128
+},
+{
+"state": "+LLLLLLLLRLLR",
+"k": 2,
+"N": 360,
+"torsion": 1440,
+"characters": 1440,
+"firing": 21964,
+"generation_backgrounds": 672,
+"lifted": 96
+},
+{
+"state": "+LLLLLLRRRRRR",
+"k": 2,
+"N": 120,
+"torsion": 1440,
+"characters": 1440,
+"firing": 21376,
+"generation_backgrounds": 640,
+"lifted": 256
+},
+{
+"state": "+LLLRLLLRR",
+"k": 2,
+"N": 240,
+"torsion": 1440,
+"characters": 1440,
+"firing": 25112,
+"generation_backgrounds": 1168,
+"lifted": 528
+},
+{
+"state": "+LLRLRLRR",
+"k": 2,
+"N": 1517,
+"torsion": 1517,
+"characters": 1517,
+"firing": 8792,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLLLRRLR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLRLLRRR",
+"k": 2,
+"N": 798,
+"torsion": 1596,
+"characters": 1596,
+"firing": 9248,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRLRRR",
+"k": 2,
+"N": 1677,
+"torsion": 1677,
+"characters": 1677,
+"firing": 9732,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLLRR",
+"k": 3,
+"N": 130,
+"torsion": 1690,
+"characters": 1690,
+"firing": 31136,
+"generation_backgrounds": 432,
+"lifted": 432
+},
+{
+"state": "+LLLLRLRLR",
+"k": 2,
+"N": 880,
+"torsion": 1760,
+"characters": 1760,
+"firing": 25500,
+"generation_backgrounds": 256,
+"lifted": 256
+},
+{
+"state": "+LLLLLRLLRR",
+"k": 2,
+"N": 1845,
+"torsion": 1845,
+"characters": 1845,
+"firing": 10724,
+"generation_backgrounds": 0,
+"lifted": 0
+},
+{
+"state": "+LLLLRLRRRR",
+"k": 2,
+"N": 615,
+"torsion": 1845,
+"characters": 1845,
+"firing": 10712,
+"generation_backgrounds": 0,
+"lifted": 0
+}
+]
+}

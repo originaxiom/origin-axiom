@@ -1,0 +1,9892 @@
+{
+"controls": {
+"levels": 988,
+"distinct_manifold_keys": 659,
+"torsion_agrees_on_every_record": true,
+"exponent_agrees_on_every_record": true,
+"disagreements": [],
+"passed": true
+},
+"rows": [
+{
+"state": "+LR",
+"k": 1,
+"d1": 1,
+"d2": 1,
+"torsion_own": 1,
+"manifold_key": "+LR^1",
+"torsion_main": 1,
+"N_main": 1
+},
+{
+"state": "+LLRR",
+"k": 1,
+"d1": 2,
+"d2": 2,
+"torsion_own": 4,
+"manifold_key": "+LLRR^1",
+"torsion_main": 4,
+"N_main": 2
+},
+{
+"state": "+LR",
+"k": 2,
+"d1": 1,
+"d2": 5,
+"torsion_own": 5,
+"manifold_key": "+LR^2",
+"torsion_main": 5,
+"N_main": 5
+},
+{
+"state": "+LLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 7,
+"torsion_own": 7,
+"manifold_key": "+LLLLLLLR^1",
+"torsion_main": 7,
+"N_main": 7
+},
+{
+"state": "+LLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 4,
+"torsion_own": 8,
+"manifold_key": "+LLLLRR^1",
+"torsion_main": 8,
+"N_main": 4
+},
+{
+"state": "-LLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 9,
+"torsion_own": 9,
+"manifold_key": "-LLLLLR^1",
+"torsion_main": 9,
+"N_main": 9
+},
+{
+"state": "+LLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 10,
+"torsion_own": 10,
+"manifold_key": "+LLLLLRR^1",
+"torsion_main": 10,
+"N_main": 10
+},
+{
+"state": "+LLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 11,
+"torsion_own": 11,
+"manifold_key": "+LLLRLR^1",
+"torsion_main": 11,
+"N_main": 11
+},
+{
+"state": "+LLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 12,
+"torsion_own": 12,
+"manifold_key": "+LLLLRRR^1",
+"torsion_main": 12,
+"N_main": 12
+},
+{
+"state": "-LLLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 13,
+"torsion_own": 13,
+"manifold_key": "-LLLLLLLLLR^1",
+"torsion_main": 13,
+"N_main": 13
+},
+{
+"state": "+LLLLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 14,
+"torsion_own": 14,
+"manifold_key": "+LLLLLLLRR^1",
+"torsion_main": 14,
+"N_main": 14
+},
+{
+"state": "+LLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 15,
+"torsion_own": 15,
+"manifold_key": "+LLLLLRRR^1",
+"torsion_main": 15,
+"N_main": 15
+},
+{
+"state": "-LLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 16,
+"torsion_own": 16,
+"manifold_key": "-LLLLRRR^1",
+"torsion_main": 16,
+"N_main": 16
+},
+{
+"state": "+LLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 17,
+"torsion_own": 17,
+"manifold_key": "+LLLLLRLR^1",
+"torsion_main": 17,
+"N_main": 17
+},
+{
+"state": "+LLLLLLRRR",
+"k": 1,
+"d1": 3,
+"d2": 6,
+"torsion_own": 18,
+"manifold_key": "+LLLLLLRRR^1",
+"torsion_main": 18,
+"N_main": 6
+},
+{
+"state": "-LLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 19,
+"torsion_own": 19,
+"manifold_key": "-LLLLLRRR^1",
+"torsion_main": 19,
+"N_main": 19
+},
+{
+"state": "+LLLLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 20,
+"torsion_own": 20,
+"manifold_key": "+LLLLLRRRR^1",
+"torsion_main": 20,
+"N_main": 20
+},
+{
+"state": "+LLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 20,
+"torsion_own": 20,
+"manifold_key": "+LLRLLRR^1",
+"torsion_main": 20,
+"N_main": 20
+},
+{
+"state": "-LLLR",
+"k": 2,
+"d1": 1,
+"d2": 21,
+"torsion_own": 21,
+"manifold_key": "+LLLR^2",
+"torsion_main": 21,
+"N_main": 21
+},
+{
+"state": "-LLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 22,
+"torsion_own": 22,
+"manifold_key": "-LLLRLRR^1",
+"torsion_main": 22,
+"N_main": 22
+},
+{
+"state": "+LLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 23,
+"torsion_own": 23,
+"manifold_key": "+LLLLRLRR^1",
+"torsion_main": 23,
+"N_main": 23
+},
+{
+"state": "+LLLLLLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 12,
+"torsion_own": 24,
+"manifold_key": "+LLLLLLRRRR^1",
+"torsion_main": 24,
+"N_main": 12
+},
+{
+"state": "-LLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 24,
+"torsion_own": 24,
+"manifold_key": "-LLRLLRR^1",
+"torsion_main": 24,
+"N_main": 24
+},
+{
+"state": "+LLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 25,
+"torsion_own": 25,
+"manifold_key": "+LLLRLRRR^1",
+"torsion_main": 25,
+"N_main": 25
+},
+{
+"state": "-LLLLLLLRLR",
+"k": 1,
+"d1": 3,
+"d2": 9,
+"torsion_own": 27,
+"manifold_key": "-LLLLLLLRLR^1",
+"torsion_main": 27,
+"N_main": 9
+},
+{
+"state": "+LLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 27,
+"torsion_own": 27,
+"manifold_key": "+LLLRLLRR^1",
+"torsion_main": 27,
+"N_main": 27
+},
+{
+"state": "-LLLLLLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 14,
+"torsion_own": 28,
+"manifold_key": "-LLLLLLRRRR^1",
+"torsion_main": 28,
+"N_main": 14
+},
+{
+"state": "+LLLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 14,
+"torsion_own": 28,
+"manifold_key": "+LLLRRLRR^1",
+"torsion_main": 28,
+"N_main": 14
+},
+{
+"state": "-LLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 29,
+"torsion_own": 29,
+"manifold_key": "-LLLRLRRR^1",
+"torsion_main": 29,
+"N_main": 29
+},
+{
+"state": "-LLLLLLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 31,
+"torsion_own": 31,
+"manifold_key": "-LLLLLLLLLRRR^1",
+"torsion_main": 31,
+"N_main": 31
+},
+{
+"state": "+LLLLLLLLRRRR",
+"k": 1,
+"d1": 4,
+"d2": 8,
+"torsion_own": 32,
+"manifold_key": "+LLLLLLLLRRRR^1",
+"torsion_main": 32,
+"N_main": 8
+},
+{
+"state": "-LLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 32,
+"torsion_own": 32,
+"manifold_key": "-LLLLLRLRR^1",
+"torsion_main": 32,
+"N_main": 32
+},
+{
+"state": "+LLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 32,
+"torsion_own": 32,
+"manifold_key": "+LLLLRLRRR^1",
+"torsion_main": 32,
+"N_main": 32
+},
+{
+"state": "-LLRR",
+"k": 2,
+"d1": 4,
+"d2": 8,
+"torsion_own": 32,
+"manifold_key": "+LLRR^2",
+"torsion_main": 32,
+"N_main": 8
+},
+{
+"state": "+LLLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 33,
+"torsion_own": 33,
+"manifold_key": "+LLLLLLRLRR^1",
+"torsion_main": 33,
+"N_main": 33
+},
+{
+"state": "+LLLLLLLRRRRR",
+"k": 1,
+"d1": 1,
+"d2": 35,
+"torsion_own": 35,
+"manifold_key": "+LLLLLLLRRRRR^1",
+"torsion_main": 35,
+"N_main": 35
+},
+{
+"state": "-LLLLLLLLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 18,
+"torsion_own": 36,
+"manifold_key": "-LLLLLLLLRRRR^1",
+"torsion_main": 36,
+"N_main": 18
+},
+{
+"state": "-LLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 36,
+"torsion_own": 36,
+"manifold_key": "-LLLLRLRRR^1",
+"torsion_main": 36,
+"N_main": 36
+},
+{
+"state": "-LLLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 18,
+"torsion_own": 36,
+"manifold_key": "-LLLRLRLR^1",
+"torsion_main": 36,
+"N_main": 18
+},
+{
+"state": "+LLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 37,
+"torsion_own": 37,
+"manifold_key": "+LLRLRLRR^1",
+"torsion_main": 37,
+"N_main": 37
+},
+{
+"state": "-LLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 38,
+"torsion_own": 38,
+"manifold_key": "-LLLLRLLRR^1",
+"torsion_main": 38,
+"N_main": 38
+},
+{
+"state": "-LLLLLLLRRRRR",
+"k": 1,
+"d1": 1,
+"d2": 39,
+"torsion_own": 39,
+"manifold_key": "-LLLLLLLRRRRR^1",
+"torsion_main": 39,
+"N_main": 39
+},
+{
+"state": "-LLLLLLLLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 20,
+"torsion_own": 40,
+"manifold_key": "-LLLLLLLLRLLR^1",
+"torsion_main": 40,
+"N_main": 20
+},
+{
+"state": "-LLLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 40,
+"torsion_own": 40,
+"manifold_key": "-LLLLRRLRR^1",
+"torsion_main": 40,
+"N_main": 40
+},
+{
+"state": "+LLLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 41,
+"torsion_own": 41,
+"manifold_key": "+LLLLLRLLRR^1",
+"torsion_main": 41,
+"N_main": 41
+},
+{
+"state": "-LLLLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 42,
+"torsion_own": 42,
+"manifold_key": "-LLLLLLLRLRR^1",
+"torsion_main": 42,
+"N_main": 42
+},
+{
+"state": "-LLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 42,
+"torsion_own": 42,
+"manifold_key": "-LLLRLLRRR^1",
+"torsion_main": 42,
+"N_main": 42
+},
+{
+"state": "-LLLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 43,
+"torsion_own": 43,
+"manifold_key": "-LLLLLRLRRR^1",
+"torsion_main": 43,
+"N_main": 43
+},
+{
+"state": "+LLLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 44,
+"torsion_own": 44,
+"manifold_key": "+LLLRRLLRR^1",
+"torsion_main": 44,
+"N_main": 44
+},
+{
+"state": "-LLLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 45,
+"torsion_own": 45,
+"manifold_key": "-LLLLLRLLRR^1",
+"torsion_main": 45,
+"N_main": 45
+},
+{
+"state": "+LLLLRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 45,
+"torsion_own": 45,
+"manifold_key": "+LLLLRLLLRR^1",
+"torsion_main": 45,
+"N_main": 45
+},
+{
+"state": "+LLLLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 46,
+"torsion_own": 46,
+"manifold_key": "+LLLLLLRLRRR^1",
+"torsion_main": 46,
+"N_main": 46
+},
+{
+"state": "-LLLLLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 47,
+"torsion_own": 47,
+"manifold_key": "-LLLLLLLLRLRR^1",
+"torsion_main": 47,
+"N_main": 47
+},
+{
+"state": "+LLLLLRLRLR",
+"k": 1,
+"d1": 4,
+"d2": 12,
+"torsion_own": 48,
+"manifold_key": "+LLLLLRLRLR^1",
+"torsion_main": 48,
+"N_main": 12
+},
+{
+"state": "+LLLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 48,
+"torsion_own": 48,
+"manifold_key": "+LLLRLRRLR^1",
+"torsion_main": 48,
+"N_main": 48
+},
+{
+"state": "+LLLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 49,
+"torsion_own": 49,
+"manifold_key": "+LLLLRRLRRR^1",
+"torsion_main": 49,
+"N_main": 49
+},
+{
+"state": "+LLLLLRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "+LLLLLRLRRRR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "+LLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "+LLLRLRLRR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "-LLLLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 52,
+"torsion_own": 52,
+"manifold_key": "-LLLLLLRLLRR^1",
+"torsion_main": 52,
+"N_main": 52
+},
+{
+"state": "-LLLLRLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 26,
+"torsion_own": 52,
+"manifold_key": "-LLLLRLLRRR^1",
+"torsion_main": 52,
+"N_main": 26
+},
+{
+"state": "+LLLLLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 53,
+"torsion_own": 53,
+"manifold_key": "+LLLLLLLRLRRR^1",
+"torsion_main": 53,
+"N_main": 53
+},
+{
+"state": "-LLLLLRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "-LLLLLRLRRRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "-LLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "-LLLRLRLRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "+LLLLLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 55,
+"torsion_own": 55,
+"manifold_key": "+LLLLLLLRLLRR^1",
+"torsion_main": 55,
+"N_main": 55
+},
+{
+"state": "-LLLLLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 56,
+"torsion_own": 56,
+"manifold_key": "-LLLLLLRRLRR^1",
+"torsion_main": 56,
+"N_main": 56
+},
+{
+"state": "-LLLLLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 57,
+"torsion_own": 57,
+"manifold_key": "-LLLLLLLRLRRR^1",
+"torsion_main": 57,
+"N_main": 57
+},
+{
+"state": "-LLLLLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 58,
+"torsion_own": 58,
+"manifold_key": "-LLLLLRLLLRR^1",
+"torsion_main": 58,
+"N_main": 58
+},
+{
+"state": "-LLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 58,
+"torsion_own": 58,
+"manifold_key": "-LLRLLRLRR^1",
+"torsion_main": 58,
+"N_main": 58
+},
+{
+"state": "+LLLLLLRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 59,
+"torsion_own": 59,
+"manifold_key": "+LLLLLLRLRRRR^1",
+"torsion_main": 59,
+"N_main": 59
+},
+{
+"state": "+LLLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "+LLLLLLR^2",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "-LLLLRLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 60,
+"torsion_own": 60,
+"manifold_key": "-LLLLRLLLLRR^1",
+"torsion_main": 60,
+"N_main": 60
+},
+{
+"state": "-LLLRR",
+"k": 2,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "+LLLRR^2",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "-LLLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 61,
+"torsion_own": 61,
+"manifold_key": "-LLLLRLLRLR^1",
+"torsion_main": 61,
+"N_main": 61
+},
+{
+"state": "-LLLLLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 62,
+"torsion_own": 62,
+"manifold_key": "-LLLLLRLLRRR^1",
+"torsion_main": 62,
+"N_main": 62
+},
+{
+"state": "-LLLLLLRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 63,
+"torsion_own": 63,
+"manifold_key": "-LLLLLLRLRRRR^1",
+"torsion_main": 63,
+"N_main": 63
+},
+{
+"state": "+LLLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 63,
+"torsion_own": 63,
+"manifold_key": "+LLLLRLRLRR^1",
+"torsion_main": 63,
+"N_main": 63
+},
+{
+"state": "-LLLLLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 64,
+"torsion_own": 64,
+"manifold_key": "-LLLLLRRLRRR^1",
+"torsion_main": 64,
+"N_main": 64
+},
+{
+"state": "-LLLRLLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 32,
+"torsion_own": 64,
+"manifold_key": "-LLLRLLLRLR^1",
+"torsion_main": 64,
+"N_main": 32
+},
+{
+"state": "-LLLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 65,
+"torsion_own": 65,
+"manifold_key": "-LLLRRLLRRR^1",
+"torsion_main": 65,
+"N_main": 65
+},
+{
+"state": "+LLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 66,
+"torsion_own": 66,
+"manifold_key": "+LLRLRLRLR^1",
+"torsion_main": 66,
+"N_main": 66
+},
+{
+"state": "+LLLLLRRLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 67,
+"torsion_own": 67,
+"manifold_key": "+LLLLLRLLLLRR^1",
+"torsion_main": 67,
+"N_main": 67
+},
+{
+"state": "+LLLLLLRLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 34,
+"torsion_own": 68,
+"manifold_key": "+LLLLLLRLLRRR^1",
+"torsion_main": 68,
+"N_main": 34
+},
+{
+"state": "+LLLLLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 68,
+"torsion_own": 68,
+"manifold_key": "+LLLLLRRLLRR^1",
+"torsion_main": 68,
+"N_main": 68
+},
+{
+"state": "-LLLRLRRRLR",
+"k": 1,
+"d1": 2,
+"d2": 34,
+"torsion_own": 68,
+"manifold_key": "-LLLRLRRRLR^1",
+"torsion_main": 68,
+"N_main": 34
+},
+{
+"state": "+LLLLLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 71,
+"torsion_own": 71,
+"manifold_key": "+LLLLLLRRLRRR^1",
+"torsion_main": 71,
+"N_main": 71
+},
+{
+"state": "+LLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 71,
+"torsion_own": 71,
+"manifold_key": "+LLLRLLRRLR^1",
+"torsion_main": 71,
+"N_main": 71
+},
+{
+"state": "-LLLLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 72,
+"torsion_own": 72,
+"manifold_key": "-LLLLLRLLRLR^1",
+"torsion_main": 72,
+"N_main": 72
+},
+{
+"state": "+LLLRLLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 36,
+"torsion_own": 72,
+"manifold_key": "+LLLRLLRLRR^1",
+"torsion_main": 72,
+"N_main": 36
+},
+{
+"state": "+LLLRRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 73,
+"torsion_own": 73,
+"manifold_key": "+LLLRLRRLRR^1",
+"torsion_main": 73,
+"N_main": 73
+},
+{
+"state": "-LLLLLLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "-LLLLLLRRLRRR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "+LLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "+LLLRLRLLRR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "-LLLLLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 76,
+"torsion_own": 76,
+"manifold_key": "-LLLLLRLRRLR^1",
+"torsion_main": 76,
+"N_main": 76
+},
+{
+"state": "+LLLLRRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 76,
+"torsion_own": 76,
+"manifold_key": "+LLLLRRLLLRR^1",
+"torsion_main": 76,
+"N_main": 76
+},
+{
+"state": "+LLLLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 77,
+"torsion_own": 77,
+"manifold_key": "+LLLLLLLR^2",
+"torsion_main": 77,
+"N_main": 77
+},
+{
+"state": "+LLLRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 77,
+"torsion_own": 77,
+"manifold_key": "+LLLRRLRLRR^1",
+"torsion_main": 77,
+"N_main": 77
+},
+{
+"state": "+LLLLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 78,
+"torsion_own": 78,
+"manifold_key": "+LLLLRRLLRRR^1",
+"torsion_main": 78,
+"N_main": 78
+},
+{
+"state": "-LLLLLRLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 79,
+"torsion_own": 79,
+"manifold_key": "-LLLLLRLLRRRR^1",
+"torsion_main": 79,
+"N_main": 79
+},
+{
+"state": "+LLLLLLRRLLRR",
+"k": 1,
+"d1": 4,
+"d2": 20,
+"torsion_own": 80,
+"manifold_key": "+LLLLLLRRLLRR^1",
+"torsion_main": 80,
+"N_main": 20
+},
+{
+"state": "-LLLLLRRRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 40,
+"torsion_own": 80,
+"manifold_key": "-LLLLLRRLRRRR^1",
+"torsion_main": 80,
+"N_main": 40
+},
+{
+"state": "-LLLLRRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 80,
+"torsion_own": 80,
+"manifold_key": "-LLLLRRLLLRR^1",
+"torsion_main": 80,
+"N_main": 80
+},
+{
+"state": "+LLLLLRRRLRRR",
+"k": 1,
+"d1": 3,
+"d2": 27,
+"torsion_own": 81,
+"manifold_key": "+LLLLLRRRLRRR^1",
+"torsion_main": 81,
+"N_main": 27
+},
+{
+"state": "-LLLLRRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 82,
+"torsion_own": 82,
+"manifold_key": "-LLLLRRLLRRR^1",
+"torsion_main": 82,
+"N_main": 82
+},
+{
+"state": "+LLLLRRRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 83,
+"torsion_own": 83,
+"manifold_key": "+LLLLRLLLRRRR^1",
+"torsion_main": 83,
+"N_main": 83
+},
+{
+"state": "-LLLLRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 84,
+"torsion_own": 84,
+"manifold_key": "-LLLLRLLRLLR^1",
+"torsion_main": 84,
+"N_main": 84
+},
+{
+"state": "-LLRLLRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 42,
+"torsion_own": 84,
+"manifold_key": "-LLRLLRLLRR^1",
+"torsion_main": 84,
+"N_main": 42
+},
+{
+"state": "+LLLLRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 86,
+"torsion_own": 86,
+"manifold_key": "+LLLLRLRLRRR^1",
+"torsion_main": 86,
+"N_main": 86
+},
+{
+"state": "+LLLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 87,
+"torsion_own": 87,
+"manifold_key": "+LLLRLRLRLR^1",
+"torsion_main": 87,
+"N_main": 87
+},
+{
+"state": "+LLLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 88,
+"torsion_own": 88,
+"manifold_key": "+LLLLRLLRRLR^1",
+"torsion_main": 88,
+"N_main": 88
+},
+{
+"state": "+LLLLLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 89,
+"torsion_own": 89,
+"manifold_key": "+LLLLLLRLRLRR^1",
+"torsion_main": 89,
+"N_main": 89
+},
+{
+"state": "-LLLLRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 90,
+"torsion_own": 90,
+"manifold_key": "-LLLLRLRLRRR^1",
+"torsion_main": 90,
+"N_main": 90
+},
+{
+"state": "-LLLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 91,
+"torsion_own": 91,
+"manifold_key": "-LLLRLRLRLR^1",
+"torsion_main": 91,
+"N_main": 91
+},
+{
+"state": "-LLLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 92,
+"torsion_own": 92,
+"manifold_key": "-LLLLRLLRRLR^1",
+"torsion_main": 92,
+"N_main": 92
+},
+{
+"state": "-LLLLLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 93,
+"torsion_own": 93,
+"manifold_key": "-LLLLLLRLRLRR^1",
+"torsion_main": 93,
+"N_main": 93
+},
+{
+"state": "+LLLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 94,
+"torsion_own": 94,
+"manifold_key": "+LLLLRLRLLRR^1",
+"torsion_main": 94,
+"N_main": 94
+},
+{
+"state": "+LLLLLRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 95,
+"torsion_own": 95,
+"manifold_key": "+LLLLLRLLRLLR^1",
+"torsion_main": 95,
+"N_main": 95
+},
+{
+"state": "+LLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 95,
+"torsion_own": 95,
+"manifold_key": "+LLRLLRLRLR^1",
+"torsion_main": 95,
+"N_main": 95
+},
+{
+"state": "-LLLLLRRLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 48,
+"torsion_own": 96,
+"manifold_key": "-LLLLLRRLLLRR^1",
+"torsion_main": 96,
+"N_main": 48
+},
+{
+"state": "-LLLLRRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 96,
+"torsion_own": 96,
+"manifold_key": "-LLLLRLRRLRR^1",
+"torsion_main": 96,
+"N_main": 96
+},
+{
+"state": "+LLRLR",
+"k": 2,
+"d1": 2,
+"d2": 48,
+"torsion_own": 96,
+"manifold_key": "+LLRLR^2",
+"torsion_main": 96,
+"N_main": 48
+},
+{
+"state": "+LLLLRRLRLRR",
+"k": 1,
+"d1": 7,
+"d2": 14,
+"torsion_own": 98,
+"manifold_key": "+LLLLRRLRLRR^1",
+"torsion_main": 98,
+"N_main": 14
+},
+{
+"state": "+LLLRLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 98,
+"torsion_own": 98,
+"manifold_key": "+LLLRLLRLRRR^1",
+"torsion_main": 98,
+"N_main": 98
+},
+{
+"state": "-LLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 99,
+"torsion_own": 99,
+"manifold_key": "-LLRLLRLRLR^1",
+"torsion_main": 99,
+"N_main": 99
+},
+{
+"state": "-LLLRLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 100,
+"torsion_own": 100,
+"manifold_key": "-LLLRLLRRRLR^1",
+"torsion_main": 100,
+"N_main": 100
+},
+{
+"state": "-LLRLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 101,
+"torsion_own": 101,
+"manifold_key": "-LLRLRLRRLR^1",
+"torsion_main": 101,
+"N_main": 101
+},
+{
+"state": "+LLLLRLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 103,
+"torsion_own": 103,
+"manifold_key": "+LLLLRLLLRLLR^1",
+"torsion_main": 103,
+"N_main": 103
+},
+{
+"state": "-LLLLRLRRRRLR",
+"k": 1,
+"d1": 2,
+"d2": 52,
+"torsion_own": 104,
+"manifold_key": "-LLLLRLRRRRLR^1",
+"torsion_main": 104,
+"N_main": 52
+},
+{
+"state": "+LLLRLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 104,
+"torsion_own": 104,
+"manifold_key": "+LLLRLRLLRRR^1",
+"torsion_main": 104,
+"N_main": 104
+},
+{
+"state": "+LLLLLRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 105,
+"torsion_own": 105,
+"manifold_key": "+LLLLLRLLRRLR^1",
+"torsion_main": 105,
+"N_main": 105
+},
+{
+"state": "-LLLLRLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 107,
+"torsion_own": 107,
+"manifold_key": "-LLLLRLLLRLLR^1",
+"torsion_main": 107,
+"N_main": 107
+},
+{
+"state": "-LLLLLRLRLRRR",
+"k": 1,
+"d1": 2,
+"d2": 54,
+"torsion_own": 108,
+"manifold_key": "-LLLLLRLRLRRR^1",
+"torsion_main": 108,
+"N_main": 54
+},
+{
+"state": "+LLLLRRRLLRRR",
+"k": 1,
+"d1": 6,
+"d2": 18,
+"torsion_own": 108,
+"manifold_key": "+LLLLRRRLLRRR^1",
+"torsion_main": 108,
+"N_main": 18
+},
+{
+"state": "-LLLRLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 108,
+"torsion_own": 108,
+"manifold_key": "-LLLRLRLLRRR^1",
+"torsion_main": 108,
+"N_main": 108
+},
+{
+"state": "-LLLLLRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 109,
+"torsion_own": 109,
+"manifold_key": "-LLLLLRLLRRLR^1",
+"torsion_main": 109,
+"N_main": 109
+},
+{
+"state": "+LLLRRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 110,
+"torsion_own": 110,
+"manifold_key": "+LLLRRLRRLRR^1",
+"torsion_main": 110,
+"N_main": 110
+},
+{
+"state": "-LLLLRRRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 111,
+"torsion_own": 111,
+"manifold_key": "-LLLLRRLLLRRR^1",
+"torsion_main": 111,
+"N_main": 111
+},
+{
+"state": "-LLLLRRRLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 56,
+"torsion_own": 112,
+"manifold_key": "-LLLLRRRLLRRR^1",
+"torsion_main": 112,
+"N_main": 56
+},
+{
+"state": "+LLLLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 113,
+"torsion_own": 113,
+"manifold_key": "+LLLLLRLRLLRR^1",
+"torsion_main": 113,
+"N_main": 113
+},
+{
+"state": "+LLLRRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 114,
+"torsion_own": 114,
+"manifold_key": "+LLLRLRRLLRR^1",
+"torsion_main": 114,
+"N_main": 114
+},
+{
+"state": "+LLLLRLLLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 58,
+"torsion_own": 116,
+"manifold_key": "+LLLLRLLLRRLR^1",
+"torsion_main": 116,
+"N_main": 58
+},
+{
+"state": "-LLLLLLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 117,
+"torsion_own": 117,
+"manifold_key": "+LLLLLLLLLR^2",
+"torsion_main": 117,
+"N_main": 117
+},
+{
+"state": "+LLLLRLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 117,
+"torsion_own": 117,
+"manifold_key": "+LLLLRLLLRLRR^1",
+"torsion_main": 117,
+"N_main": 117
+},
+{
+"state": "-LLLRLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 118,
+"torsion_own": 118,
+"manifold_key": "-LLLRLRRLLRR^1",
+"torsion_main": 118,
+"N_main": 118
+},
+{
+"state": "+LLLLRLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 119,
+"torsion_own": 119,
+"manifold_key": "+LLLLRLLRRRLR^1",
+"torsion_main": 119,
+"N_main": 119
+},
+{
+"state": "-LLLRRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 120,
+"torsion_own": 120,
+"manifold_key": "-LLLRRLLRLRR^1",
+"torsion_main": 120,
+"N_main": 120
+},
+{
+"state": "+LLLLRRLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 121,
+"torsion_own": 121,
+"manifold_key": "+LLLLRLRRRLRR^1",
+"torsion_main": 121,
+"N_main": 121
+},
+{
+"state": "-LLLLRLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 123,
+"torsion_own": 123,
+"manifold_key": "-LLLLRLLRRRLR^1",
+"torsion_main": 123,
+"N_main": 123
+},
+{
+"state": "+LLLLRRRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 62,
+"torsion_own": 124,
+"manifold_key": "+LLLLRLRRLRRR^1",
+"torsion_main": 124,
+"N_main": 62
+},
+{
+"state": "-LLLLRLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 125,
+"torsion_own": 125,
+"manifold_key": "-LLLLRLRRRLRR^1",
+"torsion_main": 125,
+"N_main": 125
+},
+{
+"state": "+LLLRLRLLRLR",
+"k": 1,
+"d1": 3,
+"d2": 42,
+"torsion_own": 126,
+"manifold_key": "+LLLRLRLLRLR^1",
+"torsion_main": 126,
+"N_main": 42
+},
+{
+"state": "+LLLLRLLRRLLR",
+"k": 1,
+"d1": 8,
+"d2": 16,
+"torsion_own": 128,
+"manifold_key": "+LLLLRLLRRLLR^1",
+"torsion_main": 128,
+"N_main": 16
+},
+{
+"state": "+LLLRLLLRRRLR",
+"k": 1,
+"d1": 2,
+"d2": 64,
+"torsion_own": 128,
+"manifold_key": "+LLLRLLLRLRRR^1",
+"torsion_main": 128,
+"N_main": 64
+},
+{
+"state": "+LLLRLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 128,
+"torsion_own": 128,
+"manifold_key": "+LLLRLRLRRLR^1",
+"torsion_main": 128,
+"N_main": 128
+},
+{
+"state": "-LLLRLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 130,
+"torsion_own": 130,
+"manifold_key": "-LLLRLRLLRLR^1",
+"torsion_main": 130,
+"N_main": 130
+},
+{
+"state": "+LLLLRLLRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 66,
+"torsion_own": 132,
+"manifold_key": "+LLLLRLLRLLRR^1",
+"torsion_main": 132,
+"N_main": 66
+},
+{
+"state": "-LLLRLLLRRRLR",
+"k": 1,
+"d1": 2,
+"d2": 66,
+"torsion_own": 132,
+"manifold_key": "-LLLRLLLRLRRR^1",
+"torsion_main": 132,
+"N_main": 66
+},
+{
+"state": "+LLLLRRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 133,
+"torsion_own": 133,
+"manifold_key": "+LLLLRRLRLRRR^1",
+"torsion_main": 133,
+"N_main": 133
+},
+{
+"state": "+LLLLRLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 135,
+"torsion_own": 135,
+"manifold_key": "+LLLLRLLRRLRR^1",
+"torsion_main": 135,
+"N_main": 135
+},
+{
+"state": "-LLLLRLLRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 68,
+"torsion_own": 136,
+"manifold_key": "-LLLLRLLRLLRR^1",
+"torsion_main": 136,
+"N_main": 68
+},
+{
+"state": "-LLLLRRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 137,
+"torsion_own": 137,
+"manifold_key": "-LLLLRRLRLRRR^1",
+"torsion_main": 137,
+"N_main": 137
+},
+{
+"state": "-LLLRRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 138,
+"torsion_own": 138,
+"manifold_key": "-LLLRLRLRLRR^1",
+"torsion_main": 138,
+"N_main": 138
+},
+{
+"state": "+LLLLLLLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 70,
+"torsion_own": 140,
+"manifold_key": "+LLLLLLLLLLR^2",
+"torsion_main": 140,
+"N_main": 70
+},
+{
+"state": "+LLLRLLRLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 70,
+"torsion_own": 140,
+"manifold_key": "+LLLRLLRLLLRR^1",
+"torsion_main": 140,
+"N_main": 70
+},
+{
+"state": "-LLLRLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 141,
+"torsion_own": 141,
+"manifold_key": "-LLLRLLLRLLRR^1",
+"torsion_main": 141,
+"N_main": 141
+},
+{
+"state": "+LLLRLLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 143,
+"torsion_own": 143,
+"manifold_key": "+LLLRLLLRRLRR^1",
+"torsion_main": 143,
+"N_main": 143
+},
+{
+"state": "+LLLRLLRRRLRR",
+"k": 1,
+"d1": 12,
+"d2": 12,
+"torsion_own": 144,
+"manifold_key": "+LLLRLLRRRLRR^1",
+"torsion_main": 144,
+"N_main": 12
+},
+{
+"state": "-LLRLLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 144,
+"torsion_own": 144,
+"manifold_key": "-LLRLLRLRRLR^1",
+"torsion_main": 144,
+"N_main": 144
+},
+{
+"state": "+LLRLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 146,
+"torsion_own": 146,
+"manifold_key": "+LLRLRLLRLRR^1",
+"torsion_main": 146,
+"N_main": 146
+},
+{
+"state": "+LLLLRRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 147,
+"torsion_own": 147,
+"manifold_key": "+LLLLRRLLRLRR^1",
+"torsion_main": 147,
+"N_main": 147
+},
+{
+"state": "+LLLRRLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 147,
+"torsion_own": 147,
+"manifold_key": "+LLLRLLRLLRRR^1",
+"torsion_main": 147,
+"N_main": 147
+},
+{
+"state": "-LLRLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 148,
+"torsion_own": 148,
+"manifold_key": "-LLRLLRLRLRR^1",
+"torsion_main": 148,
+"N_main": 148
+},
+{
+"state": "+LLRLRLRLLRR",
+"k": 1,
+"d1": 5,
+"d2": 30,
+"torsion_own": 150,
+"manifold_key": "+LLRLRLRLLRR^1",
+"torsion_main": 150,
+"N_main": 30
+},
+{
+"state": "-LLLRRLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 151,
+"torsion_own": 151,
+"manifold_key": "-LLLRLLRLLRRR^1",
+"torsion_main": 151,
+"N_main": 151
+},
+{
+"state": "-LLRLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 154,
+"torsion_own": 154,
+"manifold_key": "-LLRLRLRLLRR^1",
+"torsion_main": 154,
+"N_main": 154
+},
+{
+"state": "-LLLLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 157,
+"torsion_own": 157,
+"manifold_key": "-LLLLRLLRLRLR^1",
+"torsion_main": 157,
+"N_main": 157
+},
+{
+"state": "+LLLRRLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 157,
+"torsion_own": 157,
+"manifold_key": "+LLLRLRRLLRRR^1",
+"torsion_main": 157,
+"N_main": 157
+},
+{
+"state": "-LLLRRLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 159,
+"torsion_own": 159,
+"manifold_key": "-LLLRLRRLLLRR^1",
+"torsion_main": 159,
+"N_main": 159
+},
+{
+"state": "-LLLRLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 161,
+"torsion_own": 161,
+"manifold_key": "-LLLRLRRLLRRR^1",
+"torsion_main": 161,
+"N_main": 161
+},
+{
+"state": "-LLLRRLRLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 82,
+"torsion_own": 164,
+"manifold_key": "-LLLRRLRLLRRR^1",
+"torsion_main": 164,
+"N_main": 82
+},
+{
+"state": "-LLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 165,
+"torsion_own": 165,
+"manifold_key": "+LLLRLR^2",
+"torsion_main": 165,
+"N_main": 165
+},
+{
+"state": "+LLLLRLRLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 84,
+"torsion_own": 168,
+"manifold_key": "+LLLLRLRLRLRR^1",
+"torsion_main": 168,
+"N_main": 84
+},
+{
+"state": "+LLLRRLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 171,
+"torsion_own": 171,
+"manifold_key": "+LLLRRLLRLLRR^1",
+"torsion_main": 171,
+"N_main": 171
+},
+{
+"state": "+LLLRRLLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 86,
+"torsion_own": 172,
+"manifold_key": "+LLLRRLLRRLRR^1",
+"torsion_main": 172,
+"N_main": 86
+},
+{
+"state": "+LLLRLLRLRLLR",
+"k": 1,
+"d1": 4,
+"d2": 44,
+"torsion_own": 176,
+"manifold_key": "+LLLRLLRLRLLR^1",
+"torsion_main": 176,
+"N_main": 44
+},
+{
+"state": "+LLLRLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 177,
+"torsion_own": 177,
+"manifold_key": "+LLLRLLRLLRLR^1",
+"torsion_main": 177,
+"N_main": 177
+},
+{
+"state": "-LLLRLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 181,
+"torsion_own": 181,
+"manifold_key": "-LLLRLLRLLRLR^1",
+"torsion_main": 181,
+"N_main": 181
+},
+{
+"state": "+LLLRLRRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 183,
+"torsion_own": 183,
+"manifold_key": "+LLLRLLRLRRLR^1",
+"torsion_main": 183,
+"N_main": 183
+},
+{
+"state": "-LLLRLRRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 187,
+"torsion_own": 187,
+"manifold_key": "-LLLRLLRLRRLR^1",
+"torsion_main": 187,
+"N_main": 187
+},
+{
+"state": "+LLLRLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 191,
+"torsion_own": 191,
+"manifold_key": "+LLLRLLRLRLRR^1",
+"torsion_main": 191,
+"N_main": 191
+},
+{
+"state": "-LLLLRRR",
+"k": 2,
+"d1": 2,
+"d2": 96,
+"torsion_own": 192,
+"manifold_key": "+LLLLRRR^2",
+"torsion_main": 192,
+"N_main": 96
+},
+{
+"state": "-LLLRLRLRRLLR",
+"k": 1,
+"d1": 4,
+"d2": 48,
+"torsion_own": 192,
+"manifold_key": "-LLLRLLRRLRLR^1",
+"torsion_main": 192,
+"N_main": 48
+},
+{
+"state": "+LLLRLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 193,
+"torsion_own": 193,
+"manifold_key": "+LLLRLRLRRLRR^1",
+"torsion_main": 193,
+"N_main": 193
+},
+{
+"state": "+LLLRRLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 195,
+"torsion_own": 195,
+"manifold_key": "+LLLRLRLLRLRR^1",
+"torsion_main": 195,
+"N_main": 195
+},
+{
+"state": "-LLLRLRRLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 98,
+"torsion_own": 196,
+"manifold_key": "-LLLRLRLLRRLR^1",
+"torsion_main": 196,
+"N_main": 98
+},
+{
+"state": "-LLLRLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 197,
+"torsion_own": 197,
+"manifold_key": "-LLLRLRLRRLRR^1",
+"torsion_main": 197,
+"N_main": 197
+},
+{
+"state": "-LLLLR",
+"k": 3,
+"d1": 5,
+"d2": 40,
+"torsion_own": 200,
+"manifold_key": "-LLLLR^3",
+"torsion_main": 200,
+"N_main": 40
+},
+{
+"state": "-LLLRRLRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 100,
+"torsion_own": 200,
+"manifold_key": "-LLLRLRRLRLRR^1",
+"torsion_main": 200,
+"N_main": 100
+},
+{
+"state": "+LLLRRLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 205,
+"torsion_own": 205,
+"manifold_key": "+LLLRRLRLRLRR^1",
+"torsion_main": 205,
+"N_main": 205
+},
+{
+"state": "-LLLRRLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 209,
+"torsion_own": 209,
+"manifold_key": "-LLLRRLRLRLRR^1",
+"torsion_main": 209,
+"N_main": 209
+},
+{
+"state": "+LLRLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 215,
+"torsion_own": 215,
+"manifold_key": "+LLRLLRLRLLRR^1",
+"torsion_main": 215,
+"N_main": 215
+},
+{
+"state": "-LLRLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 219,
+"torsion_own": 219,
+"manifold_key": "-LLRLLRLRLLRR^1",
+"torsion_main": 219,
+"N_main": 219
+},
+{
+"state": "+LLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 221,
+"torsion_own": 221,
+"manifold_key": "+LLRLRR^2",
+"torsion_main": 221,
+"N_main": 221
+},
+{
+"state": "+LLLRLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 231,
+"torsion_own": 231,
+"manifold_key": "+LLLRLRLRLRLR^1",
+"torsion_main": 231,
+"N_main": 231
+},
+{
+"state": "-LLLLRLR",
+"k": 2,
+"d1": 6,
+"d2": 42,
+"torsion_own": 252,
+"manifold_key": "+LLLLRLR^2",
+"torsion_main": 252,
+"N_main": 42
+},
+{
+"state": "-LLRLLRLRLRLR",
+"k": 1,
+"d1": 4,
+"d2": 64,
+"torsion_own": 256,
+"manifold_key": "-LLRLLRLRLRLR^1",
+"torsion_main": 256,
+"N_main": 64
+},
+{
+"state": "-LLRLRLRRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 130,
+"torsion_own": 260,
+"manifold_key": "-LLRLRLRRLRLR^1",
+"torsion_main": 260,
+"N_main": 130
+},
+{
+"state": "-LLLLLRRR",
+"k": 2,
+"d1": 1,
+"d2": 285,
+"torsion_own": 285,
+"manifold_key": "+LLLLLRRR^2",
+"torsion_main": 285,
+"N_main": 285
+},
+{
+"state": "+LLLLLR",
+"k": 3,
+"d1": 8,
+"d2": 40,
+"torsion_own": 320,
+"manifold_key": "+LLLLLR^3",
+"torsion_main": 320,
+"N_main": 40
+},
+{
+"state": "+LLLRLLR",
+"k": 2,
+"d1": 2,
+"d2": 160,
+"torsion_own": 320,
+"manifold_key": "+LLLRLLR^2",
+"torsion_main": 320,
+"N_main": 160
+},
+{
+"state": "-LLLLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 357,
+"torsion_own": 357,
+"manifold_key": "+LLLLLRLR^2",
+"torsion_main": 357,
+"N_main": 357
+},
+{
+"state": "-LLLLLLRRR",
+"k": 2,
+"d1": 6,
+"d2": 66,
+"torsion_own": 396,
+"manifold_key": "+LLLLLLRRR^2",
+"torsion_main": 396,
+"N_main": 66
+},
+{
+"state": "-LLLRRLR",
+"k": 2,
+"d1": 2,
+"d2": 198,
+"torsion_own": 396,
+"manifold_key": "+LLLRLRR^2",
+"torsion_main": 396,
+"N_main": 198
+},
+{
+"state": "-LLLLLLRLR",
+"k": 2,
+"d1": 2,
+"d2": 240,
+"torsion_own": 480,
+"manifold_key": "+LLLLLLRLR^2",
+"torsion_main": 480,
+"N_main": 240
+},
+{
+"state": "-LLLLRLLR",
+"k": 2,
+"d1": 4,
+"d2": 120,
+"torsion_own": 480,
+"manifold_key": "+LLLLRLLR^2",
+"torsion_main": 480,
+"N_main": 120
+},
+{
+"state": "+LLLLLLR",
+"k": 3,
+"d1": 9,
+"d2": 54,
+"torsion_own": 486,
+"manifold_key": "+LLLLLLR^3",
+"torsion_main": 486,
+"N_main": 54
+},
+{
+"state": "-LLLLLLLRRR",
+"k": 2,
+"d1": 1,
+"d2": 525,
+"torsion_own": 525,
+"manifold_key": "+LLLLLLLRRR^2",
+"torsion_main": 525,
+"N_main": 525
+},
+{
+"state": "-LLLLLLLRLR",
+"k": 2,
+"d1": 3,
+"d2": 207,
+"torsion_own": 621,
+"manifold_key": "+LLLLLLLRLR^2",
+"torsion_main": 621,
+"N_main": 207
+},
+{
+"state": "-LLLLRRLR",
+"k": 2,
+"d1": 1,
+"d2": 621,
+"torsion_own": 621,
+"manifold_key": "+LLLLRLRR^2",
+"torsion_main": 621,
+"N_main": 621
+},
+{
+"state": "-LLLLLLRRRR",
+"k": 2,
+"d1": 4,
+"d2": 168,
+"torsion_own": 672,
+"manifold_key": "+LLLLLLRRRR^2",
+"torsion_main": 672,
+"N_main": 168
+},
+{
+"state": "-LLRLRLR",
+"k": 2,
+"d1": 2,
+"d2": 336,
+"torsion_own": 672,
+"manifold_key": "+LLRLRLR^2",
+"torsion_main": 672,
+"N_main": 336
+},
+{
+"state": "+LLR",
+"k": 5,
+"d1": 19,
+"d2": 38,
+"torsion_own": 722,
+"manifold_key": "+LLR^5",
+"torsion_main": 722,
+"N_main": 38
+},
+{
+"state": "+LLLRLRRR",
+"k": 2,
+"d1": 1,
+"d2": 725,
+"torsion_own": 725,
+"manifold_key": "+LLLRLRRR^2",
+"torsion_main": 725,
+"N_main": 725
+},
+{
+"state": "-LLLLRLLLR",
+"k": 2,
+"d1": 2,
+"d2": 390,
+"torsion_own": 780,
+"manifold_key": "+LLLLRLLLR^2",
+"torsion_main": 780,
+"N_main": 390
+},
+{
+"state": "-LLLRLLRR",
+"k": 2,
+"d1": 1,
+"d2": 837,
+"torsion_own": 837,
+"manifold_key": "+LLLRLLRR^2",
+"torsion_main": 837,
+"N_main": 837
+},
+{
+"state": "+LR",
+"k": 7,
+"d1": 29,
+"d2": 29,
+"torsion_own": 841,
+"manifold_key": "+LR^7",
+"torsion_main": 841,
+"N_main": 29
+},
+{
+"state": "-LLLLLLRLLR",
+"k": 2,
+"d1": 8,
+"d2": 112,
+"torsion_own": 896,
+"manifold_key": "+LLLLLLRLLR^2",
+"torsion_main": 896,
+"N_main": 112
+},
+{
+"state": "-LLLLLRRLR",
+"k": 2,
+"d1": 2,
+"d2": 448,
+"torsion_own": 896,
+"manifold_key": "+LLLLLRLRR^2",
+"torsion_main": 896,
+"N_main": 448
+},
+{
+"state": "-LLLLLLLLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 957,
+"torsion_own": 957,
+"manifold_key": "+LLLLLLLLLRLR^2",
+"torsion_main": 957,
+"N_main": 957
+},
+{
+"state": "+LLRLR",
+"k": 3,
+"d1": 11,
+"d2": 88,
+"torsion_own": 968,
+"manifold_key": "+LLRLR^3",
+"torsion_main": 968,
+"N_main": 88
+},
+{
+"state": "-LLLLLLRRRRR",
+"k": 2,
+"d1": 2,
+"d2": 510,
+"torsion_own": 1020,
+"manifold_key": "+LLLLLLRRRRR^2",
+"torsion_main": 1020,
+"N_main": 510
+},
+{
+"state": "-LLLLLLLLRRRR",
+"k": 2,
+"d1": 8,
+"d2": 144,
+"torsion_own": 1152,
+"manifold_key": "+LLLLLLLLRRRR^2",
+"torsion_main": 1152,
+"N_main": 144
+},
+{
+"state": "-LLLLR",
+"k": 4,
+"d1": 12,
+"d2": 96,
+"torsion_own": 1152,
+"manifold_key": "+LLLLR^4",
+"torsion_main": 1152,
+"N_main": 96
+},
+{
+"state": "-LLLLRRRLR",
+"k": 2,
+"d1": 2,
+"d2": 576,
+"torsion_own": 1152,
+"manifold_key": "+LLLLRLRRR^2",
+"torsion_main": 1152,
+"N_main": 576
+},
+{
+"state": "-LLRR",
+"k": 4,
+"d1": 24,
+"d2": 48,
+"torsion_own": 1152,
+"manifold_key": "+LLRR^4",
+"torsion_main": 1152,
+"N_main": 48
+},
+{
+"state": "-LLLLLLRRLR",
+"k": 2,
+"d1": 1,
+"d2": 1221,
+"torsion_own": 1221,
+"manifold_key": "+LLLLLLRLRR^2",
+"torsion_main": 1221,
+"N_main": 1221
+},
+{
+"state": "-LLLLRRLLR",
+"k": 2,
+"d1": 2,
+"d2": 646,
+"torsion_own": 1292,
+"manifold_key": "+LLLLRLLRR^2",
+"torsion_main": 1292,
+"N_main": 646
+},
+{
+"state": "-LLLLLLLLLR",
+"k": 3,
+"d1": 10,
+"d2": 130,
+"torsion_own": 1300,
+"manifold_key": "-LLLLLLLLLR^3",
+"torsion_main": 1300,
+"N_main": 130
+},
+{
+"state": "-LLRLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 1365,
+"torsion_own": 1365,
+"manifold_key": "+LLRLLRLR^2",
+"torsion_main": 1365,
+"N_main": 1365
+},
+{
+"state": "-LLLLLLRLLLR",
+"k": 2,
+"d1": 2,
+"d2": 720,
+"torsion_own": 1440,
+"manifold_key": "+LLLLLLRLLLR^2",
+"torsion_main": 1440,
+"N_main": 720
+},
+{
+"state": "-LLLLRRLRR",
+"k": 2,
+"d1": 2,
+"d2": 720,
+"torsion_own": 1440,
+"manifold_key": "+LLLLRRLRR^2",
+"torsion_main": 1440,
+"N_main": 720
+},
+{
+"state": "-LLRLRRLR",
+"k": 2,
+"d1": 12,
+"d2": 120,
+"torsion_own": 1440,
+"manifold_key": "+LLRLRRLR^2",
+"torsion_main": 1440,
+"N_main": 120
+},
+{
+"state": "-LLLLLLLRLRR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLLLLLRLRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "-LLLLLRLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLLLRLLLLR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "-LLLRRLRRR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLRLLRRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "-LLLLLRRRLR",
+"k": 2,
+"d1": 1,
+"d2": 1677,
+"torsion_own": 1677,
+"manifold_key": "+LLLLLRLRRR^2",
+"torsion_main": 1677,
+"N_main": 1677
+},
+{
+"state": "-LLLLLLLLLLR",
+"k": 3,
+"d1": 11,
+"d2": 154,
+"torsion_own": 1694,
+"manifold_key": "-LLLLLLLLLLR^3",
+"torsion_main": 1694,
+"N_main": 154
+},
+{
+"state": "-LLLLLLLRLLLR",
+"k": 2,
+"d1": 1,
+"d2": 1845,
+"torsion_own": 1845,
+"manifold_key": "+LLLLLLLRLLLR^2",
+"torsion_main": 1845,
+"N_main": 1845
+},
+{
+"state": "-LLLLLRRLLR",
+"k": 2,
+"d1": 1,
+"d2": 1845,
+"torsion_own": 1845,
+"manifold_key": "+LLLLLRLLRR^2",
+"torsion_main": 1845,
+"N_main": 1845
+},
+{
+"state": "+LLR",
+"k": 1,
+"d1": 1,
+"d2": 2,
+"torsion_own": 2,
+"manifold_key": "+LLR^1",
+"torsion_main": 2,
+"N_main": 2
+},
+{
+"state": "+LLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 5,
+"torsion_own": 5,
+"manifold_key": "+LLLLLR^1",
+"torsion_main": 5,
+"N_main": 5
+},
+{
+"state": "+LLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 6,
+"torsion_own": 6,
+"manifold_key": "+LLLLLLR^1",
+"torsion_main": 6,
+"N_main": 6
+},
+{
+"state": "-LLLR",
+"k": 1,
+"d1": 1,
+"d2": 7,
+"torsion_own": 7,
+"manifold_key": "-LLLR^1",
+"torsion_main": 7,
+"N_main": 7
+},
+{
+"state": "+LLRLR",
+"k": 1,
+"d1": 1,
+"d2": 8,
+"torsion_own": 8,
+"manifold_key": "+LLRLR^1",
+"torsion_main": 8,
+"N_main": 8
+},
+{
+"state": "+LLLRRR",
+"k": 1,
+"d1": 3,
+"d2": 3,
+"torsion_own": 9,
+"manifold_key": "+LLLRRR^1",
+"torsion_main": 9,
+"N_main": 3
+},
+{
+"state": "-LLLRR",
+"k": 1,
+"d1": 1,
+"d2": 10,
+"torsion_own": 10,
+"manifold_key": "-LLLRR^1",
+"torsion_main": 10,
+"N_main": 10
+},
+{
+"state": "-LLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 12,
+"torsion_own": 12,
+"manifold_key": "-LLLLLLLLR^1",
+"torsion_main": 12,
+"N_main": 12
+},
+{
+"state": "-LLR",
+"k": 2,
+"d1": 2,
+"d2": 6,
+"torsion_own": 12,
+"manifold_key": "+LLR^2",
+"torsion_main": 12,
+"N_main": 6
+},
+{
+"state": "-LLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 13,
+"torsion_own": 13,
+"manifold_key": "-LLLRRR^1",
+"torsion_main": 13,
+"N_main": 13
+},
+{
+"state": "-LLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 14,
+"torsion_own": 14,
+"manifold_key": "-LLLLLRR^1",
+"torsion_main": 14,
+"N_main": 14
+},
+{
+"state": "-LLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 15,
+"torsion_own": 15,
+"manifold_key": "-LLLRLR^1",
+"torsion_main": 15,
+"N_main": 15
+},
+{
+"state": "+LLLLRRRR",
+"k": 1,
+"d1": 4,
+"d2": 4,
+"torsion_own": 16,
+"manifold_key": "+LLLLRRRR^1",
+"torsion_main": 16,
+"N_main": 4
+},
+{
+"state": "-LLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 17,
+"torsion_own": 17,
+"manifold_key": "-LLRLRR^1",
+"torsion_main": 17,
+"N_main": 17
+},
+{
+"state": "-LLLLRLR",
+"k": 1,
+"d1": 3,
+"d2": 6,
+"torsion_own": 18,
+"manifold_key": "-LLLLRLR^1",
+"torsion_main": 18,
+"N_main": 6
+},
+{
+"state": "+LLLLLLLLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 10,
+"torsion_own": 20,
+"manifold_key": "+LLLLLLLLLLRR^1",
+"torsion_main": 20,
+"N_main": 10
+},
+{
+"state": "+LLLLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 10,
+"torsion_own": 20,
+"manifold_key": "+LLLLRLLR^1",
+"torsion_main": 20,
+"N_main": 10
+},
+{
+"state": "-LR",
+"k": 3,
+"d1": 2,
+"d2": 10,
+"torsion_own": 20,
+"manifold_key": "-LR^3",
+"torsion_main": 20,
+"N_main": 10
+},
+{
+"state": "+LLLR",
+"k": 2,
+"d1": 1,
+"d2": 21,
+"torsion_own": 21,
+"manifold_key": "+LLLR^2",
+"torsion_main": 21,
+"N_main": 21
+},
+{
+"state": "-LLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 22,
+"torsion_own": 22,
+"manifold_key": "-LLLRLRR^1",
+"torsion_main": 22,
+"N_main": 22
+},
+{
+"state": "-LLLLLLLLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 12,
+"torsion_own": 24,
+"manifold_key": "-LLLLLLLLLLRR^1",
+"torsion_main": 24,
+"N_main": 12
+},
+{
+"state": "+LLLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 24,
+"torsion_own": 24,
+"manifold_key": "+LLLLLRLLR^1",
+"torsion_main": 24,
+"N_main": 24
+},
+{
+"state": "+LLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 24,
+"torsion_own": 24,
+"manifold_key": "+LLRLRLR^1",
+"torsion_main": 24,
+"N_main": 24
+},
+{
+"state": "+LLLLLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 26,
+"torsion_own": 26,
+"manifold_key": "+LLLLLLLLRLR^1",
+"torsion_main": 26,
+"N_main": 26
+},
+{
+"state": "-LLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 27,
+"torsion_own": 27,
+"manifold_key": "-LLLLRLRR^1",
+"torsion_main": 27,
+"N_main": 27
+},
+{
+"state": "-LLLLLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 28,
+"torsion_own": 28,
+"manifold_key": "-LLLLLLLLRRR^1",
+"torsion_main": 28,
+"N_main": 28
+},
+{
+"state": "-LLLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 28,
+"torsion_own": 28,
+"manifold_key": "-LLLLLRLLR^1",
+"torsion_main": 28,
+"N_main": 28
+},
+{
+"state": "-LLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 28,
+"torsion_own": 28,
+"manifold_key": "-LLRLRLR^1",
+"torsion_main": 28,
+"N_main": 28
+},
+{
+"state": "-LLLLLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 30,
+"torsion_own": 30,
+"manifold_key": "-LLLLLLLLRLR^1",
+"torsion_main": 30,
+"N_main": 30
+},
+{
+"state": "+LLLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 31,
+"torsion_own": 31,
+"manifold_key": "+LLLLLRLLLR^1",
+"torsion_main": 31,
+"N_main": 31
+},
+{
+"state": "+LLLLLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 32,
+"torsion_own": 32,
+"manifold_key": "+LLLLLLLRLLR^1",
+"torsion_main": 32,
+"N_main": 32
+},
+{
+"state": "-LLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 32,
+"torsion_own": 32,
+"manifold_key": "-LLLLLRLRR^1",
+"torsion_main": 32,
+"N_main": 32
+},
+{
+"state": "+LLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 32,
+"torsion_own": 32,
+"manifold_key": "+LLLLRLRRR^1",
+"torsion_main": 32,
+"N_main": 32
+},
+{
+"state": "+LLRR",
+"k": 2,
+"d1": 4,
+"d2": 8,
+"torsion_own": 32,
+"manifold_key": "+LLRR^2",
+"torsion_main": 32,
+"N_main": 8
+},
+{
+"state": "-LLLLLLRRRRR",
+"k": 1,
+"d1": 1,
+"d2": 34,
+"torsion_own": 34,
+"manifold_key": "-LLLLLLRRRRR^1",
+"torsion_main": 34,
+"N_main": 34
+},
+{
+"state": "-LLLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 35,
+"torsion_own": 35,
+"manifold_key": "-LLLLLRLLLR^1",
+"torsion_main": 35,
+"N_main": 35
+},
+{
+"state": "-LLLLLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 36,
+"torsion_own": 36,
+"manifold_key": "-LLLLLLLRLLR^1",
+"torsion_main": 36,
+"N_main": 36
+},
+{
+"state": "+LLLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 36,
+"torsion_own": 36,
+"manifold_key": "+LLLLRRLRR^1",
+"torsion_main": 36,
+"N_main": 36
+},
+{
+"state": "+LLRLRRLR",
+"k": 1,
+"d1": 6,
+"d2": 6,
+"torsion_own": 36,
+"manifold_key": "+LLRLRRLR^1",
+"torsion_main": 36,
+"N_main": 6
+},
+{
+"state": "+LLLLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 38,
+"torsion_own": 38,
+"manifold_key": "+LLLLLLLRLRR^1",
+"torsion_main": 38,
+"N_main": 38
+},
+{
+"state": "-LLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 38,
+"torsion_own": 38,
+"manifold_key": "-LLLLRLLRR^1",
+"torsion_main": 38,
+"N_main": 38
+},
+{
+"state": "+LLLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 39,
+"torsion_own": 39,
+"manifold_key": "+LLLLLRLRRR^1",
+"torsion_main": 39,
+"N_main": 39
+},
+{
+"state": "-LLLLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 40,
+"torsion_own": 40,
+"manifold_key": "-LLLLLLRLLLR^1",
+"torsion_main": 40,
+"N_main": 40
+},
+{
+"state": "-LLLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 40,
+"torsion_own": 40,
+"manifold_key": "-LLLRLLLRR^1",
+"torsion_main": 40,
+"N_main": 40
+},
+{
+"state": "+LLLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 41,
+"torsion_own": 41,
+"manifold_key": "+LLLLLRLLRR^1",
+"torsion_main": 41,
+"N_main": 41
+},
+{
+"state": "-LLLLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 42,
+"torsion_own": 42,
+"manifold_key": "-LLLLLLLRLRR^1",
+"torsion_main": 42,
+"N_main": 42
+},
+{
+"state": "+LLLLLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 43,
+"torsion_own": 43,
+"manifold_key": "+LLLLLLLLRLRR^1",
+"torsion_main": 43,
+"N_main": 43
+},
+{
+"state": "+LLLLLLRLLLLR",
+"k": 1,
+"d1": 2,
+"d2": 22,
+"torsion_own": 44,
+"manifold_key": "+LLLLLLRLLLLR^1",
+"torsion_main": 44,
+"N_main": 22
+},
+{
+"state": "-LLLLLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 45,
+"torsion_own": 45,
+"manifold_key": "-LLLLLLLRLLLR^1",
+"torsion_main": 45,
+"N_main": 45
+},
+{
+"state": "-LLLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 45,
+"torsion_own": 45,
+"manifold_key": "-LLLLLRLLRR^1",
+"torsion_main": 45,
+"N_main": 45
+},
+{
+"state": "-LR",
+"k": 4,
+"d1": 3,
+"d2": 15,
+"torsion_own": 45,
+"manifold_key": "+LR^4",
+"torsion_main": 45,
+"N_main": 15
+},
+{
+"state": "+LLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 46,
+"torsion_own": 46,
+"manifold_key": "+LLLRLLRLR^1",
+"torsion_main": 46,
+"N_main": 46
+},
+{
+"state": "-LLLLLLRLLLLR",
+"k": 1,
+"d1": 2,
+"d2": 24,
+"torsion_own": 48,
+"manifold_key": "-LLLLLLRLLLLR^1",
+"torsion_main": 48,
+"N_main": 24
+},
+{
+"state": "-LLLLLRRLRR",
+"k": 1,
+"d1": 4,
+"d2": 12,
+"torsion_own": 48,
+"manifold_key": "-LLLLLRRLRR^1",
+"torsion_main": 48,
+"N_main": 12
+},
+{
+"state": "-LLLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 48,
+"torsion_own": 48,
+"manifold_key": "-LLLRRLLRR^1",
+"torsion_main": 48,
+"N_main": 48
+},
+{
+"state": "+LLLLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 49,
+"torsion_own": 49,
+"manifold_key": "+LLLLRRLRRR^1",
+"torsion_main": 49,
+"N_main": 49
+},
+{
+"state": "+LLLLLRRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "+LLLLLRLRRRR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "+LLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "+LLLRLRLRR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "-LLLLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 52,
+"torsion_own": 52,
+"manifold_key": "-LLLLLLRLLRR^1",
+"torsion_main": 52,
+"N_main": 52
+},
+{
+"state": "-LLLLRRRLLR",
+"k": 1,
+"d1": 2,
+"d2": 26,
+"torsion_own": 52,
+"manifold_key": "-LLLLRLLRRR^1",
+"torsion_main": 52,
+"N_main": 26
+},
+{
+"state": "-LLLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 53,
+"torsion_own": 53,
+"manifold_key": "-LLLLRRLRRR^1",
+"torsion_main": 53,
+"N_main": 53
+},
+{
+"state": "+LLLLLRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "+LLLLLRLLLRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "-LLR",
+"k": 3,
+"d1": 3,
+"d2": 18,
+"torsion_own": 54,
+"manifold_key": "-LLR^3",
+"torsion_main": 54,
+"N_main": 18
+},
+{
+"state": "+LLLLLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 55,
+"torsion_own": 55,
+"manifold_key": "+LLLLLLLRLLRR^1",
+"torsion_main": 55,
+"N_main": 55
+},
+{
+"state": "+LLLLRLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 56,
+"torsion_own": 56,
+"manifold_key": "+LLLLRLLLLRR^1",
+"torsion_main": 56,
+"N_main": 56
+},
+{
+"state": "-LLLLLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 57,
+"torsion_own": 57,
+"manifold_key": "-LLLLLLLRLRRR^1",
+"torsion_main": 57,
+"N_main": 57
+},
+{
+"state": "+LLLLLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 58,
+"torsion_own": 58,
+"manifold_key": "+LLLLLRLLRRR^1",
+"torsion_main": 58,
+"N_main": 58
+},
+{
+"state": "-LLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 58,
+"torsion_own": 58,
+"manifold_key": "-LLRLLRLRR^1",
+"torsion_main": 58,
+"N_main": 58
+},
+{
+"state": "+LLLLLLRRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 59,
+"torsion_own": 59,
+"manifold_key": "+LLLLLLRLRRRR^1",
+"torsion_main": 59,
+"N_main": 59
+},
+{
+"state": "-LLLLLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 60,
+"torsion_own": 60,
+"manifold_key": "-LLLLLLRLRLR^1",
+"torsion_main": 60,
+"N_main": 60
+},
+{
+"state": "+LLLLRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "+LLLLRLRRLR^1",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "+LLLRR",
+"k": 2,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "+LLLRR^2",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "-LLLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 61,
+"torsion_own": 61,
+"manifold_key": "-LLLLRLLRLR^1",
+"torsion_main": 61,
+"N_main": 61
+},
+{
+"state": "+LLLLRLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 62,
+"torsion_own": 62,
+"manifold_key": "+LLLLRLLRRRR^1",
+"torsion_main": 62,
+"N_main": 62
+},
+{
+"state": "+LLLLLLRRLLLR",
+"k": 1,
+"d1": 3,
+"d2": 21,
+"torsion_own": 63,
+"manifold_key": "+LLLLLLRLLLRR^1",
+"torsion_main": 63,
+"N_main": 21
+},
+{
+"state": "+LLLLLLLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 32,
+"torsion_own": 64,
+"manifold_key": "+LLLLLLLRLRLR^1",
+"torsion_main": 64,
+"N_main": 32
+},
+{
+"state": "+LLLLRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 64,
+"torsion_own": 64,
+"manifold_key": "+LLLLRLLLRRR^1",
+"torsion_main": 64,
+"N_main": 64
+},
+{
+"state": "+LLLRLRRRLR",
+"k": 1,
+"d1": 8,
+"d2": 8,
+"torsion_own": 64,
+"manifold_key": "+LLLRLRRRLR^1",
+"torsion_main": 64,
+"N_main": 8
+},
+{
+"state": "-LLLLRLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 66,
+"torsion_own": 66,
+"manifold_key": "-LLLLRLLRRRR^1",
+"torsion_main": 66,
+"N_main": 66
+},
+{
+"state": "-LLLLLLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 67,
+"torsion_own": 67,
+"manifold_key": "-LLLLLLRLLLRR^1",
+"torsion_main": 67,
+"N_main": 67
+},
+{
+"state": "-LLLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 67,
+"torsion_own": 67,
+"manifold_key": "-LLLLRLRLRR^1",
+"torsion_main": 67,
+"N_main": 67
+},
+{
+"state": "+LLLLLLRRRLLR",
+"k": 1,
+"d1": 2,
+"d2": 34,
+"torsion_own": 68,
+"manifold_key": "+LLLLLLRLLRRR^1",
+"torsion_main": 68,
+"N_main": 34
+},
+{
+"state": "-LLLLRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 68,
+"torsion_own": 68,
+"manifold_key": "-LLLLRLLLRRR^1",
+"torsion_main": 68,
+"N_main": 68
+},
+{
+"state": "-LLLRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 69,
+"torsion_own": 69,
+"manifold_key": "-LLLRLLRLLR^1",
+"torsion_main": 69,
+"N_main": 69
+},
+{
+"state": "+LLLLLLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 71,
+"torsion_own": 71,
+"manifold_key": "+LLLLLLRRLRRR^1",
+"torsion_main": 71,
+"N_main": 71
+},
+{
+"state": "+LLLRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 71,
+"torsion_own": 71,
+"manifold_key": "+LLLRLLRRLR^1",
+"torsion_main": 71,
+"N_main": 71
+},
+{
+"state": "-LLLLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 72,
+"torsion_own": 72,
+"manifold_key": "-LLLLLRLLRLR^1",
+"torsion_main": 72,
+"N_main": 72
+},
+{
+"state": "-LLLRLRLRRR",
+"k": 1,
+"d1": 6,
+"d2": 12,
+"torsion_own": 72,
+"manifold_key": "-LLLRLRLRRR^1",
+"torsion_main": 72,
+"N_main": 12
+},
+{
+"state": "+LLLLRLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 74,
+"torsion_own": 74,
+"manifold_key": "+LLLLRLLLRLR^1",
+"torsion_main": 74,
+"N_main": 74
+},
+{
+"state": "+LLLLLRLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "+LLLLLRLLRRRR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "-LLLRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "-LLLRLLRRLR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "+LLLLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 76,
+"torsion_own": 76,
+"manifold_key": "+LLLLLRLRLRR^1",
+"torsion_main": 76,
+"N_main": 76
+},
+{
+"state": "-LLLRLLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 38,
+"torsion_own": 76,
+"manifold_key": "-LLLRLLRLRR^1",
+"torsion_main": 76,
+"N_main": 38
+},
+{
+"state": "+LLLLLRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 77,
+"torsion_own": 77,
+"manifold_key": "+LLLLLRLLLRRR^1",
+"torsion_main": 77,
+"N_main": 77
+},
+{
+"state": "-LLLRRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 77,
+"torsion_own": 77,
+"manifold_key": "-LLLRLRRLRR^1",
+"torsion_main": 77,
+"N_main": 77
+},
+{
+"state": "+LLLLRRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 78,
+"torsion_own": 78,
+"manifold_key": "+LLLLRRLLRRR^1",
+"torsion_main": 78,
+"N_main": 78
+},
+{
+"state": "-LLLLLRRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 79,
+"torsion_own": 79,
+"manifold_key": "-LLLLLRLLRRRR^1",
+"torsion_main": 79,
+"N_main": 79
+},
+{
+"state": "-LLLLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 80,
+"torsion_own": 80,
+"manifold_key": "-LLLLLRLRLRR^1",
+"torsion_main": 80,
+"N_main": 80
+},
+{
+"state": "+LLLLRLLLLRRR",
+"k": 1,
+"d1": 4,
+"d2": 20,
+"torsion_own": 80,
+"manifold_key": "+LLLLRLLLLRRR^1",
+"torsion_main": 80,
+"N_main": 20
+},
+{
+"state": "+LLRLLRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 40,
+"torsion_own": 80,
+"manifold_key": "+LLRLLRLLRR^1",
+"torsion_main": 80,
+"N_main": 40
+},
+{
+"state": "-LLLRRLRLRR",
+"k": 1,
+"d1": 3,
+"d2": 27,
+"torsion_own": 81,
+"manifold_key": "-LLLRRLRLRR^1",
+"torsion_main": 81,
+"N_main": 27
+},
+{
+"state": "-LLLLLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 83,
+"torsion_own": 83,
+"manifold_key": "-LLLLLLRLLRLR^1",
+"torsion_main": 83,
+"N_main": 83
+},
+{
+"state": "+LLLLLLRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 42,
+"torsion_own": 84,
+"manifold_key": "+LLLLLLRLRRLR^1",
+"torsion_main": 84,
+"N_main": 42
+},
+{
+"state": "-LLLLRLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 84,
+"torsion_own": 84,
+"manifold_key": "-LLLLRLRRRLR^1",
+"torsion_main": 84,
+"N_main": 84
+},
+{
+"state": "-LLLLLRRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 85,
+"torsion_own": 85,
+"manifold_key": "-LLLLLRRRLRRR^1",
+"torsion_main": 85,
+"N_main": 85
+},
+{
+"state": "+LLLLRRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 86,
+"torsion_own": 86,
+"manifold_key": "+LLLLRLRLRRR^1",
+"torsion_main": 86,
+"N_main": 86
+},
+{
+"state": "-LLLLLLRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 44,
+"torsion_own": 88,
+"manifold_key": "-LLLLLLRLRRLR^1",
+"torsion_main": 88,
+"N_main": 44
+},
+{
+"state": "+LLLLRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 88,
+"torsion_own": 88,
+"manifold_key": "+LLLLRLLRRLR^1",
+"torsion_main": 88,
+"N_main": 88
+},
+{
+"state": "+LLLLLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 89,
+"torsion_own": 89,
+"manifold_key": "+LLLLLLRLRLRR^1",
+"torsion_main": 89,
+"N_main": 89
+},
+{
+"state": "+LLLLRRLRLLR",
+"k": 1,
+"d1": 3,
+"d2": 30,
+"torsion_own": 90,
+"manifold_key": "+LLLLRLLRLRR^1",
+"torsion_main": 90,
+"N_main": 30
+},
+{
+"state": "-LLLLLRLLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 46,
+"torsion_own": 92,
+"manifold_key": "-LLLLLRLLLRLR^1",
+"torsion_main": 92,
+"N_main": 46
+},
+{
+"state": "-LLLLRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 92,
+"torsion_own": 92,
+"manifold_key": "-LLLLRLLRRLR^1",
+"torsion_main": 92,
+"N_main": 92
+},
+{
+"state": "-LLLLLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 93,
+"torsion_own": 93,
+"manifold_key": "-LLLLLLRLRLRR^1",
+"torsion_main": 93,
+"N_main": 93
+},
+{
+"state": "-LLLLRRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 94,
+"torsion_own": 94,
+"manifold_key": "-LLLLRLLRLRR^1",
+"torsion_main": 94,
+"N_main": 94
+},
+{
+"state": "+LLLLLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 95,
+"torsion_own": 95,
+"manifold_key": "+LLLLLRRLLRRR^1",
+"torsion_main": 95,
+"N_main": 95
+},
+{
+"state": "-LLLLLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 48,
+"torsion_own": 96,
+"manifold_key": "+LLLLLLLLR^2",
+"torsion_main": 96,
+"N_main": 48
+},
+{
+"state": "-LLLLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 96,
+"torsion_own": 96,
+"manifold_key": "-LLLLRLRRLRR^1",
+"torsion_main": 96,
+"N_main": 96
+},
+{
+"state": "+LLLRLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 96,
+"torsion_own": 96,
+"manifold_key": "+LLLRLLRRRLR^1",
+"torsion_main": 96,
+"N_main": 96
+},
+{
+"state": "+LLRLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 97,
+"torsion_own": 97,
+"manifold_key": "+LLRLRLRRLR^1",
+"torsion_main": 97,
+"N_main": 97
+},
+{
+"state": "-LLLRLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 98,
+"torsion_own": 98,
+"manifold_key": "-LLLRLLLRLRR^1",
+"torsion_main": 98,
+"N_main": 98
+},
+{
+"state": "-LLLLLRLLRLLR",
+"k": 1,
+"d1": 3,
+"d2": 33,
+"torsion_own": 99,
+"manifold_key": "-LLLLLRLLRLLR^1",
+"torsion_main": 99,
+"N_main": 33
+},
+{
+"state": "-LLLLLRLRRRLR",
+"k": 1,
+"d1": 2,
+"d2": 50,
+"torsion_own": 100,
+"manifold_key": "-LLLLLRLRRRLR^1",
+"torsion_main": 100,
+"N_main": 50
+},
+{
+"state": "+LLLRLRLLLRR",
+"k": 1,
+"d1": 5,
+"d2": 20,
+"torsion_own": 100,
+"manifold_key": "+LLLRLRLLLRR^1",
+"torsion_main": 100,
+"N_main": 20
+},
+{
+"state": "-LLLLRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 102,
+"torsion_own": 102,
+"manifold_key": "-LLLLRRLRLRR^1",
+"torsion_main": 102,
+"N_main": 102
+},
+{
+"state": "+LLLLRLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 103,
+"torsion_own": 103,
+"manifold_key": "+LLLLRLLLRLLR^1",
+"torsion_main": 103,
+"N_main": 103
+},
+{
+"state": "-LLLLRRLLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 52,
+"torsion_own": 104,
+"manifold_key": "-LLLLRRLLRRRR^1",
+"torsion_main": 104,
+"N_main": 52
+},
+{
+"state": "+LLLRRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 104,
+"torsion_own": 104,
+"manifold_key": "+LLLRLRLLRRR^1",
+"torsion_main": 104,
+"N_main": 104
+},
+{
+"state": "+LLLRLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 106,
+"torsion_own": 106,
+"manifold_key": "+LLLRLLRLLRR^1",
+"torsion_main": 106,
+"N_main": 106
+},
+{
+"state": "+LLLLRRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 107,
+"torsion_own": 107,
+"manifold_key": "+LLLLRRLLLRRR^1",
+"torsion_main": 107,
+"N_main": 107
+},
+{
+"state": "+LLLLLRRLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 54,
+"torsion_own": 108,
+"manifold_key": "+LLLLLRLLRLRR^1",
+"torsion_main": 108,
+"N_main": 54
+},
+{
+"state": "+LLLR",
+"k": 3,
+"d1": 6,
+"d2": 18,
+"torsion_own": 108,
+"manifold_key": "+LLLR^3",
+"torsion_main": 108,
+"N_main": 18
+},
+{
+"state": "-LLLRRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 108,
+"torsion_own": 108,
+"manifold_key": "-LLLRLRLLRRR^1",
+"torsion_main": 108,
+"N_main": 108
+},
+{
+"state": "+LLLLRLRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 109,
+"torsion_own": 109,
+"manifold_key": "+LLLLRLRLRRRR^1",
+"torsion_main": 109,
+"N_main": 109
+},
+{
+"state": "+LLLLLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 111,
+"torsion_own": 111,
+"manifold_key": "+LLLLLRLRRLRR^1",
+"torsion_main": 111,
+"N_main": 111
+},
+{
+"state": "-LLLLLRLLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 56,
+"torsion_own": 112,
+"manifold_key": "-LLLLLRLLRLRR^1",
+"torsion_main": 112,
+"N_main": 56
+},
+{
+"state": "-LLLR",
+"k": 3,
+"d1": 4,
+"d2": 28,
+"torsion_own": 112,
+"manifold_key": "-LLLR^3",
+"torsion_main": 112,
+"N_main": 28
+},
+{
+"state": "+LLLLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 113,
+"torsion_own": 113,
+"manifold_key": "+LLLLLRLRLLRR^1",
+"torsion_main": 113,
+"N_main": 113
+},
+{
+"state": "-LLLRRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 114,
+"torsion_own": 114,
+"manifold_key": "-LLLRRLRRLRR^1",
+"torsion_main": 114,
+"N_main": 114
+},
+{
+"state": "+LLLLRLRRLLLR",
+"k": 1,
+"d1": 2,
+"d2": 58,
+"torsion_own": 116,
+"manifold_key": "+LLLLRLLLRRLR^1",
+"torsion_main": 116,
+"N_main": 58
+},
+{
+"state": "+LLLLLLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 117,
+"torsion_own": 117,
+"manifold_key": "+LLLLLLLLLR^2",
+"torsion_main": 117,
+"N_main": 117
+},
+{
+"state": "+LLLLRRLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 117,
+"torsion_own": 117,
+"manifold_key": "+LLLLRLLLRLRR^1",
+"torsion_main": 117,
+"N_main": 117
+},
+{
+"state": "-LLLRRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 118,
+"torsion_own": 118,
+"manifold_key": "-LLLRLRRLLRR^1",
+"torsion_main": 118,
+"N_main": 118
+},
+{
+"state": "-LLLLRLLLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 60,
+"torsion_own": 120,
+"manifold_key": "-LLLLRLLLRRLR^1",
+"torsion_main": 120,
+"N_main": 60
+},
+{
+"state": "-LLLLRLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 121,
+"torsion_own": 121,
+"manifold_key": "-LLLLRLLLRLRR^1",
+"torsion_main": 121,
+"N_main": 121
+},
+{
+"state": "+LR",
+"k": 5,
+"d1": 11,
+"d2": 11,
+"torsion_own": 121,
+"manifold_key": "+LR^5",
+"torsion_main": 121,
+"N_main": 11
+},
+{
+"state": "-LLLLRLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 123,
+"torsion_own": 123,
+"manifold_key": "-LLLLRLLRRRLR^1",
+"torsion_main": 123,
+"N_main": 123
+},
+{
+"state": "+LLLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 124,
+"torsion_own": 124,
+"manifold_key": "+LLLRLLRLRLR^1",
+"torsion_main": 124,
+"N_main": 124
+},
+{
+"state": "+LLLLRRLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 125,
+"torsion_own": 125,
+"manifold_key": "+LLLLRLRLLLRR^1",
+"torsion_main": 125,
+"N_main": 125
+},
+{
+"state": "+LLRLLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 126,
+"torsion_own": 126,
+"manifold_key": "+LLRLLRRLLRR^1",
+"torsion_main": 126,
+"N_main": 126
+},
+{
+"state": "-LLLLRLRRLRRR",
+"k": 1,
+"d1": 2,
+"d2": 64,
+"torsion_own": 128,
+"manifold_key": "-LLLLRLRRLRRR^1",
+"torsion_main": 128,
+"N_main": 64
+},
+{
+"state": "-LLLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 128,
+"torsion_own": 128,
+"manifold_key": "-LLLRLLRLRLR^1",
+"torsion_main": 128,
+"N_main": 128
+},
+{
+"state": "+LLLLLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 129,
+"torsion_own": 129,
+"manifold_key": "+LLLLLRLRLRLR^1",
+"torsion_main": 129,
+"N_main": 129
+},
+{
+"state": "-LLRLLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 130,
+"torsion_own": 130,
+"manifold_key": "-LLRLLRRLLRR^1",
+"torsion_main": 130,
+"N_main": 130
+},
+{
+"state": "-LLLLRLLRRLLR",
+"k": 1,
+"d1": 2,
+"d2": 66,
+"torsion_own": 132,
+"manifold_key": "-LLLLRLLRRLLR^1",
+"torsion_main": 132,
+"N_main": 66
+},
+{
+"state": "-LLLRLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 132,
+"torsion_own": 132,
+"manifold_key": "-LLLRLRLRRLR^1",
+"torsion_main": 132,
+"N_main": 132
+},
+{
+"state": "+LLLLRRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 133,
+"torsion_own": 133,
+"manifold_key": "+LLLLRRLRLRRR^1",
+"torsion_main": 133,
+"N_main": 133
+},
+{
+"state": "-LLLLRLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 135,
+"torsion_own": 135,
+"manifold_key": "-LLLLRLRLLRRR^1",
+"torsion_main": 135,
+"N_main": 135
+},
+{
+"state": "-LLLLRRLLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 68,
+"torsion_own": 136,
+"manifold_key": "-LLLLRLLRLLRR^1",
+"torsion_main": 136,
+"N_main": 68
+},
+{
+"state": "+LLLRLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 137,
+"torsion_own": 137,
+"manifold_key": "+LLLRLLLRLLRR^1",
+"torsion_main": 137,
+"N_main": 137
+},
+{
+"state": "-LLLLRLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 139,
+"torsion_own": 139,
+"manifold_key": "-LLLLRLLRRLRR^1",
+"torsion_main": 139,
+"N_main": 139
+},
+{
+"state": "-LLLLLRR",
+"k": 2,
+"d1": 2,
+"d2": 70,
+"torsion_own": 140,
+"manifold_key": "+LLLLLRR^2",
+"torsion_main": 140,
+"N_main": 70
+},
+{
+"state": "+LLLRLRLLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 70,
+"torsion_own": 140,
+"manifold_key": "+LLLRLRLLLRRR^1",
+"torsion_main": 140,
+"N_main": 70
+},
+{
+"state": "-LLLRLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 141,
+"torsion_own": 141,
+"manifold_key": "-LLLRLLLRLLRR^1",
+"torsion_main": 141,
+"N_main": 141
+},
+{
+"state": "+LLLRLLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 143,
+"torsion_own": 143,
+"manifold_key": "+LLLRLLRRRLLR^1",
+"torsion_main": 143,
+"N_main": 143
+},
+{
+"state": "-LLLRLRLLLRRR",
+"k": 1,
+"d1": 4,
+"d2": 36,
+"torsion_own": 144,
+"manifold_key": "-LLLRLRLLLRRR^1",
+"torsion_main": 144,
+"N_main": 36
+},
+{
+"state": "+LLRLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 144,
+"torsion_own": 144,
+"manifold_key": "+LLRLLRLRLRR^1",
+"torsion_main": 144,
+"N_main": 144
+},
+{
+"state": "-LLLLRLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 147,
+"torsion_own": 147,
+"manifold_key": "-LLLLRLRRLLRR^1",
+"torsion_main": 147,
+"N_main": 147
+},
+{
+"state": "-LLLRLLLRRLRR",
+"k": 1,
+"d1": 7,
+"d2": 21,
+"torsion_own": 147,
+"manifold_key": "-LLLRLLLRRLRR^1",
+"torsion_main": 147,
+"N_main": 21
+},
+{
+"state": "-LLLRLLRRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 74,
+"torsion_own": 148,
+"manifold_key": "-LLLRLLRRRLRR^1",
+"torsion_main": 148,
+"N_main": 74
+},
+{
+"state": "-LLLRLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 149,
+"torsion_own": 149,
+"manifold_key": "-LLLRLLRRLRRR^1",
+"torsion_main": 149,
+"N_main": 149
+},
+{
+"state": "-LLLLRRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 151,
+"torsion_own": 151,
+"manifold_key": "-LLLLRRLLRLRR^1",
+"torsion_main": 151,
+"N_main": 151
+},
+{
+"state": "+LLLLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 153,
+"torsion_own": 153,
+"manifold_key": "+LLLLRLLRLRLR^1",
+"torsion_main": 153,
+"N_main": 153
+},
+{
+"state": "+LLLRLRRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 155,
+"torsion_own": 155,
+"manifold_key": "+LLLRLRRLLLRR^1",
+"torsion_main": 155,
+"N_main": 155
+},
+{
+"state": "-LLLLRLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 157,
+"torsion_own": 157,
+"manifold_key": "-LLLLRLLRLRLR^1",
+"torsion_main": 157,
+"N_main": 157
+},
+{
+"state": "+LLLLRLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 159,
+"torsion_own": 159,
+"manifold_key": "+LLLLRLRLRRLR^1",
+"torsion_main": 159,
+"N_main": 159
+},
+{
+"state": "-LLLLRLRLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 80,
+"torsion_own": 160,
+"manifold_key": "-LLLLRLRLLRLR^1",
+"torsion_main": 160,
+"N_main": 80
+},
+{
+"state": "-LLLRRLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 161,
+"torsion_own": 161,
+"manifold_key": "-LLLRLRRLLRRR^1",
+"torsion_main": 161,
+"N_main": 161
+},
+{
+"state": "-LLLLLLLLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 165,
+"torsion_own": 165,
+"manifold_key": "+LLLLLLLLLLLR^2",
+"torsion_main": 165,
+"N_main": 165
+},
+{
+"state": "+LLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 165,
+"torsion_own": 165,
+"manifold_key": "+LLLRLR^2",
+"torsion_main": 165,
+"N_main": 165
+},
+{
+"state": "+LLLLRRLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 84,
+"torsion_own": 168,
+"manifold_key": "+LLLLRLRLRLRR^1",
+"torsion_main": 168,
+"N_main": 84
+},
+{
+"state": "-LLLRRLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 171,
+"torsion_own": 171,
+"manifold_key": "-LLLRLLRRLLRR^1",
+"torsion_main": 171,
+"N_main": 171
+},
+{
+"state": "+LLLRRLRRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 86,
+"torsion_own": 172,
+"manifold_key": "+LLLRRLLRRLRR^1",
+"torsion_main": 172,
+"N_main": 86
+},
+{
+"state": "-LLLRRLLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 88,
+"torsion_own": 176,
+"manifold_key": "-LLLRRLLRRLRR^1",
+"torsion_main": 176,
+"N_main": 88
+},
+{
+"state": "+LLLRLRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 177,
+"torsion_own": 177,
+"manifold_key": "+LLLRLLRLLRLR^1",
+"torsion_main": 177,
+"N_main": 177
+},
+{
+"state": "-LLLRLRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 181,
+"torsion_own": 181,
+"manifold_key": "-LLLRLLRLLRLR^1",
+"torsion_main": 181,
+"N_main": 181
+},
+{
+"state": "-LLLRLRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 185,
+"torsion_own": 185,
+"manifold_key": "-LLLRLRLRLRRR^1",
+"torsion_main": 185,
+"N_main": 185
+},
+{
+"state": "+LLLRLLRRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 94,
+"torsion_own": 188,
+"manifold_key": "+LLLRLLRRLRLR^1",
+"torsion_main": 188,
+"N_main": 94
+},
+{
+"state": "+LLLRRLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 191,
+"torsion_own": 191,
+"manifold_key": "+LLLRLLRLRLRR^1",
+"torsion_main": 191,
+"N_main": 191
+},
+{
+"state": "+LLLLRRR",
+"k": 2,
+"d1": 2,
+"d2": 96,
+"torsion_own": 192,
+"manifold_key": "+LLLLRRR^2",
+"torsion_main": 192,
+"N_main": 96
+},
+{
+"state": "+LLLRLRRLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 96,
+"torsion_own": 192,
+"manifold_key": "+LLLRLRLLRRLR^1",
+"torsion_main": 192,
+"N_main": 96
+},
+{
+"state": "+LLLRRLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 193,
+"torsion_own": 193,
+"manifold_key": "+LLLRLRLRRLRR^1",
+"torsion_main": 193,
+"N_main": 193
+},
+{
+"state": "-LLLRRLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 195,
+"torsion_own": 195,
+"manifold_key": "-LLLRLLRLRLRR^1",
+"torsion_main": 195,
+"N_main": 195
+},
+{
+"state": "+LLLRLRRLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 98,
+"torsion_own": 196,
+"manifold_key": "+LLLRLRRLRLRR^1",
+"torsion_main": 196,
+"N_main": 98
+},
+{
+"state": "-LLLRRLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 197,
+"torsion_own": 197,
+"manifold_key": "-LLLRLRLRRLRR^1",
+"torsion_main": 197,
+"N_main": 197
+},
+{
+"state": "+LLLRLRLRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 100,
+"torsion_own": 200,
+"manifold_key": "+LLLRLRLRLLRR^1",
+"torsion_main": 200,
+"N_main": 100
+},
+{
+"state": "-LLRR",
+"k": 3,
+"d1": 10,
+"d2": 20,
+"torsion_own": 200,
+"manifold_key": "-LLRR^3",
+"torsion_main": 200,
+"N_main": 20
+},
+{
+"state": "+LLRLLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 207,
+"torsion_own": 207,
+"manifold_key": "+LLRLLRLLRLRR^1",
+"torsion_main": 207,
+"N_main": 207
+},
+{
+"state": "-LLRLLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 211,
+"torsion_own": 211,
+"manifold_key": "-LLRLLRLLRLRR^1",
+"torsion_main": 211,
+"N_main": 211
+},
+{
+"state": "+LLRLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 215,
+"torsion_own": 215,
+"manifold_key": "+LLRLLRLRLLRR^1",
+"torsion_main": 215,
+"N_main": 215
+},
+{
+"state": "+LLRLRRLLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 110,
+"torsion_own": 220,
+"manifold_key": "+LLRLRRLLRRLR^1",
+"torsion_main": 220,
+"N_main": 110
+},
+{
+"state": "-LLRLRRLLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 112,
+"torsion_own": 224,
+"manifold_key": "-LLRLRRLLRRLR^1",
+"torsion_main": 224,
+"N_main": 112
+},
+{
+"state": "-LLLRLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 235,
+"torsion_own": 235,
+"manifold_key": "-LLLRLRLRLRLR^1",
+"torsion_main": 235,
+"N_main": 235
+},
+{
+"state": "+LLLLRLR",
+"k": 2,
+"d1": 6,
+"d2": 42,
+"torsion_own": 252,
+"manifold_key": "+LLLLRLR^2",
+"torsion_main": 252,
+"N_main": 42
+},
+{
+"state": "+LLRLRLRRLRLR",
+"k": 1,
+"d1": 16,
+"d2": 16,
+"torsion_own": 256,
+"manifold_key": "+LLRLRLRRLRLR^1",
+"torsion_main": 256,
+"N_main": 16
+},
+{
+"state": "-LLRLRLRLRRLR",
+"k": 1,
+"d1": 3,
+"d2": 87,
+"torsion_own": 261,
+"manifold_key": "-LLRLRLRLRRLR^1",
+"torsion_main": 261,
+"N_main": 87
+},
+{
+"state": "+LLLLLRRR",
+"k": 2,
+"d1": 1,
+"d2": 285,
+"torsion_own": 285,
+"manifold_key": "+LLLLLRRR^2",
+"torsion_main": 285,
+"N_main": 285
+},
+{
+"state": "-LLLLRRRR",
+"k": 2,
+"d1": 8,
+"d2": 40,
+"torsion_own": 320,
+"manifold_key": "+LLLLRRRR^2",
+"torsion_main": 320,
+"N_main": 40
+},
+{
+"state": "-LR",
+"k": 6,
+"d1": 8,
+"d2": 40,
+"torsion_own": 320,
+"manifold_key": "+LR^6",
+"torsion_main": 320,
+"N_main": 40
+},
+{
+"state": "+LLLLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 357,
+"torsion_own": 357,
+"manifold_key": "+LLLLLRLR^2",
+"torsion_main": 357,
+"N_main": 357
+},
+{
+"state": "+LLLLLLRRR",
+"k": 2,
+"d1": 6,
+"d2": 66,
+"torsion_own": 396,
+"manifold_key": "+LLLLLLRRR^2",
+"torsion_main": 396,
+"N_main": 66
+},
+{
+"state": "+LLLRRLR",
+"k": 2,
+"d1": 2,
+"d2": 198,
+"torsion_own": 396,
+"manifold_key": "+LLLRLRR^2",
+"torsion_main": 396,
+"N_main": 198
+},
+{
+"state": "+LLLLLLRLR",
+"k": 2,
+"d1": 2,
+"d2": 240,
+"torsion_own": 480,
+"manifold_key": "+LLLLLLRLR^2",
+"torsion_main": 480,
+"N_main": 240
+},
+{
+"state": "+LLLLRLLR",
+"k": 2,
+"d1": 4,
+"d2": 120,
+"torsion_own": 480,
+"manifold_key": "+LLLLRLLR^2",
+"torsion_main": 480,
+"N_main": 120
+},
+{
+"state": "+LLLRR",
+"k": 3,
+"d1": 9,
+"d2": 54,
+"torsion_own": 486,
+"manifold_key": "+LLLRR^3",
+"torsion_main": 486,
+"N_main": 54
+},
+{
+"state": "+LLLLLLLRRR",
+"k": 2,
+"d1": 1,
+"d2": 525,
+"torsion_own": 525,
+"manifold_key": "+LLLLLLLRRR^2",
+"torsion_main": 525,
+"N_main": 525
+},
+{
+"state": "+LLLLLLLRLR",
+"k": 2,
+"d1": 3,
+"d2": 207,
+"torsion_own": 621,
+"manifold_key": "+LLLLLLLRLR^2",
+"torsion_main": 621,
+"N_main": 207
+},
+{
+"state": "+LLLLRRLR",
+"k": 2,
+"d1": 1,
+"d2": 621,
+"torsion_own": 621,
+"manifold_key": "+LLLLRLRR^2",
+"torsion_main": 621,
+"N_main": 621
+},
+{
+"state": "+LLLLLLRRRR",
+"k": 2,
+"d1": 4,
+"d2": 168,
+"torsion_own": 672,
+"manifold_key": "+LLLLLLRRRR^2",
+"torsion_main": 672,
+"N_main": 168
+},
+{
+"state": "+LLRLRLR",
+"k": 2,
+"d1": 2,
+"d2": 336,
+"torsion_own": 672,
+"manifold_key": "+LLRLRLR^2",
+"torsion_main": 672,
+"N_main": 336
+},
+{
+"state": "-LLLLLRRRRR",
+"k": 2,
+"d1": 5,
+"d2": 145,
+"torsion_own": 725,
+"manifold_key": "+LLLLLRRRRR^2",
+"torsion_main": 725,
+"N_main": 145
+},
+{
+"state": "-LLR",
+"k": 5,
+"d1": 11,
+"d2": 66,
+"torsion_own": 726,
+"manifold_key": "-LLR^5",
+"torsion_main": 726,
+"N_main": 66
+},
+{
+"state": "+LLLLRLLLR",
+"k": 2,
+"d1": 2,
+"d2": 390,
+"torsion_own": 780,
+"manifold_key": "+LLLLRLLLR^2",
+"torsion_main": 780,
+"N_main": 390
+},
+{
+"state": "+LLLRLLRR",
+"k": 2,
+"d1": 1,
+"d2": 837,
+"torsion_own": 837,
+"manifold_key": "+LLLRLLRR^2",
+"torsion_main": 837,
+"N_main": 837
+},
+{
+"state": "-LR",
+"k": 7,
+"d1": 13,
+"d2": 65,
+"torsion_own": 845,
+"manifold_key": "-LR^7",
+"torsion_main": 845,
+"N_main": 65
+},
+{
+"state": "+LLLLLLRLLR",
+"k": 2,
+"d1": 8,
+"d2": 112,
+"torsion_own": 896,
+"manifold_key": "+LLLLLLRLLR^2",
+"torsion_main": 896,
+"N_main": 112
+},
+{
+"state": "+LLLLLRRLR",
+"k": 2,
+"d1": 2,
+"d2": 448,
+"torsion_own": 896,
+"manifold_key": "+LLLLLRLRR^2",
+"torsion_main": 896,
+"N_main": 448
+},
+{
+"state": "+LLLLLLLLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 957,
+"torsion_own": 957,
+"manifold_key": "+LLLLLLLLLRLR^2",
+"torsion_main": 957,
+"N_main": 957
+},
+{
+"state": "-LLLLLLLLR",
+"k": 3,
+"d1": 9,
+"d2": 108,
+"torsion_own": 972,
+"manifold_key": "-LLLLLLLLR^3",
+"torsion_main": 972,
+"N_main": 108
+},
+{
+"state": "+LLLLLLRRRRR",
+"k": 2,
+"d1": 2,
+"d2": 510,
+"torsion_own": 1020,
+"manifold_key": "+LLLLLLRRRRR^2",
+"torsion_main": 1020,
+"N_main": 510
+},
+{
+"state": "+LLLLLLLLRRRR",
+"k": 2,
+"d1": 8,
+"d2": 144,
+"torsion_own": 1152,
+"manifold_key": "+LLLLLLLLRRRR^2",
+"torsion_main": 1152,
+"N_main": 144
+},
+{
+"state": "+LLLLR",
+"k": 4,
+"d1": 12,
+"d2": 96,
+"torsion_own": 1152,
+"manifold_key": "+LLLLR^4",
+"torsion_main": 1152,
+"N_main": 96
+},
+{
+"state": "+LLLLRRRLR",
+"k": 2,
+"d1": 2,
+"d2": 576,
+"torsion_own": 1152,
+"manifold_key": "+LLLLRLRRR^2",
+"torsion_main": 1152,
+"N_main": 576
+},
+{
+"state": "+LLRR",
+"k": 4,
+"d1": 24,
+"d2": 48,
+"torsion_own": 1152,
+"manifold_key": "+LLRR^4",
+"torsion_main": 1152,
+"N_main": 48
+},
+{
+"state": "+LLLLLLRRLR",
+"k": 2,
+"d1": 1,
+"d2": 1221,
+"torsion_own": 1221,
+"manifold_key": "+LLLLLLRLRR^2",
+"torsion_main": 1221,
+"N_main": 1221
+},
+{
+"state": "+LLLLRRLLR",
+"k": 2,
+"d1": 2,
+"d2": 646,
+"torsion_own": 1292,
+"manifold_key": "+LLLLRLLRR^2",
+"torsion_main": 1292,
+"N_main": 646
+},
+{
+"state": "-LLLRRR",
+"k": 3,
+"d1": 10,
+"d2": 130,
+"torsion_own": 1300,
+"manifold_key": "-LLLRRR^3",
+"torsion_main": 1300,
+"N_main": 130
+},
+{
+"state": "+LLRLLRLR",
+"k": 2,
+"d1": 1,
+"d2": 1365,
+"torsion_own": 1365,
+"manifold_key": "+LLRLLRLR^2",
+"torsion_main": 1365,
+"N_main": 1365
+},
+{
+"state": "+LLLLLLRLLLR",
+"k": 2,
+"d1": 2,
+"d2": 720,
+"torsion_own": 1440,
+"manifold_key": "+LLLLLLRLLLR^2",
+"torsion_main": 1440,
+"N_main": 720
+},
+{
+"state": "+LLLLRRLRR",
+"k": 2,
+"d1": 2,
+"d2": 720,
+"torsion_own": 1440,
+"manifold_key": "+LLLLRRLRR^2",
+"torsion_main": 1440,
+"N_main": 720
+},
+{
+"state": "+LLRLRRLR",
+"k": 2,
+"d1": 12,
+"d2": 120,
+"torsion_own": 1440,
+"manifold_key": "+LLRLRRLR^2",
+"torsion_main": 1440,
+"N_main": 120
+},
+{
+"state": "+LLLLLLLRLRR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLLLLLRLRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "+LLLLLRLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLLLRLLLLR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "+LLLRRLRRR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLRLLRRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "+LLLLLRRRLR",
+"k": 2,
+"d1": 1,
+"d2": 1677,
+"torsion_own": 1677,
+"manifold_key": "+LLLLLRLRRR^2",
+"torsion_main": 1677,
+"N_main": 1677
+},
+{
+"state": "-LLLLLRR",
+"k": 3,
+"d1": 11,
+"d2": 154,
+"torsion_own": 1694,
+"manifold_key": "-LLLLLRR^3",
+"torsion_main": 1694,
+"N_main": 154
+},
+{
+"state": "+LLLLLLLRLLLR",
+"k": 2,
+"d1": 1,
+"d2": 1845,
+"torsion_own": 1845,
+"manifold_key": "+LLLLLLLRLLLR^2",
+"torsion_main": 1845,
+"N_main": 1845
+},
+{
+"state": "+LLLLLRRLLR",
+"k": 2,
+"d1": 1,
+"d2": 1845,
+"torsion_own": 1845,
+"manifold_key": "+LLLLLRLLRR^2",
+"torsion_main": 1845,
+"N_main": 1845
+},
+{
+"state": "+LLLR",
+"k": 1,
+"d1": 1,
+"d2": 3,
+"torsion_own": 3,
+"manifold_key": "+LLLR^1",
+"torsion_main": 3,
+"N_main": 3
+},
+{
+"state": "-LR",
+"k": 1,
+"d1": 1,
+"d2": 5,
+"torsion_own": 5,
+"manifold_key": "-LR^1",
+"torsion_main": 5,
+"N_main": 5
+},
+{
+"state": "+LLLRR",
+"k": 1,
+"d1": 1,
+"d2": 6,
+"torsion_own": 6,
+"manifold_key": "+LLLRR^1",
+"torsion_main": 6,
+"N_main": 6
+},
+{
+"state": "+LLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 8,
+"torsion_own": 8,
+"manifold_key": "+LLLLLLLLR^1",
+"torsion_main": 8,
+"N_main": 8
+},
+{
+"state": "-LLRR",
+"k": 1,
+"d1": 2,
+"d2": 4,
+"torsion_own": 8,
+"manifold_key": "-LLRR^1",
+"torsion_main": 8,
+"N_main": 4
+},
+{
+"state": "+LLLLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 10,
+"torsion_own": 10,
+"manifold_key": "+LLLLLLLLLLR^1",
+"torsion_main": 10,
+"N_main": 10
+},
+{
+"state": "+LLLLLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 11,
+"torsion_own": 11,
+"manifold_key": "+LLLLLLLLLLLR^1",
+"torsion_main": 11,
+"N_main": 11
+},
+{
+"state": "+LLLLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 6,
+"torsion_own": 12,
+"manifold_key": "+LLLLLLRR^1",
+"torsion_main": 12,
+"N_main": 6
+},
+{
+"state": "+LLR",
+"k": 2,
+"d1": 2,
+"d2": 6,
+"torsion_own": 12,
+"manifold_key": "+LLR^2",
+"torsion_main": 12,
+"N_main": 6
+},
+{
+"state": "+LLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 13,
+"torsion_own": 13,
+"manifold_key": "+LLRLRR^1",
+"torsion_main": 13,
+"N_main": 13
+},
+{
+"state": "+LLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 14,
+"torsion_own": 14,
+"manifold_key": "+LLLLRLR^1",
+"torsion_main": 14,
+"N_main": 14
+},
+{
+"state": "+LLLLLLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 8,
+"torsion_own": 16,
+"manifold_key": "+LLLLLLLLRR^1",
+"torsion_main": 16,
+"N_main": 8
+},
+{
+"state": "+LLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 16,
+"torsion_own": 16,
+"manifold_key": "+LLLRLLR^1",
+"torsion_main": 16,
+"N_main": 16
+},
+{
+"state": "+LLLLLLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 18,
+"torsion_own": 18,
+"manifold_key": "+LLLLLLLLLRR^1",
+"torsion_main": 18,
+"N_main": 18
+},
+{
+"state": "+LLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 18,
+"torsion_own": 18,
+"manifold_key": "+LLLRLRR^1",
+"torsion_main": 18,
+"N_main": 18
+},
+{
+"state": "-LLLLLLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 10,
+"torsion_own": 20,
+"manifold_key": "-LLLLLLLLRR^1",
+"torsion_main": 20,
+"N_main": 10
+},
+{
+"state": "-LLLLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 10,
+"torsion_own": 20,
+"manifold_key": "-LLLLRRRR^1",
+"torsion_main": 20,
+"N_main": 10
+},
+{
+"state": "+LLLLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 21,
+"torsion_own": 21,
+"manifold_key": "+LLLLLLLRRR^1",
+"torsion_main": 21,
+"N_main": 21
+},
+{
+"state": "-LLLLLLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 22,
+"torsion_own": 22,
+"manifold_key": "-LLLLLLLLLRR^1",
+"torsion_main": 22,
+"N_main": 22
+},
+{
+"state": "+LLLLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 23,
+"torsion_own": 23,
+"manifold_key": "+LLLLLLLRLR^1",
+"torsion_main": 23,
+"N_main": 23
+},
+{
+"state": "+LLLLLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 24,
+"torsion_own": 24,
+"manifold_key": "+LLLLLLLLRRR^1",
+"torsion_main": 24,
+"N_main": 24
+},
+{
+"state": "-LLLLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 24,
+"torsion_own": 24,
+"manifold_key": "-LLLLLRRRR^1",
+"torsion_main": 24,
+"N_main": 24
+},
+{
+"state": "-LLLLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 25,
+"torsion_own": 25,
+"manifold_key": "-LLLLLLLRRR^1",
+"torsion_main": 25,
+"N_main": 25
+},
+{
+"state": "+LLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 26,
+"torsion_own": 26,
+"manifold_key": "+LLLLRLLLR^1",
+"torsion_main": 26,
+"N_main": 26
+},
+{
+"state": "-LLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 27,
+"torsion_own": 27,
+"manifold_key": "-LLLLRLRR^1",
+"torsion_main": 27,
+"N_main": 27
+},
+{
+"state": "+LLLLLLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 28,
+"torsion_own": 28,
+"manifold_key": "+LLLLLLLRRRR^1",
+"torsion_main": 28,
+"N_main": 28
+},
+{
+"state": "+LLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 28,
+"torsion_own": 28,
+"manifold_key": "+LLLLLRLRR^1",
+"torsion_main": 28,
+"N_main": 28
+},
+{
+"state": "+LLLLLLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 29,
+"torsion_own": 29,
+"manifold_key": "+LLLLLLLLLRLR^1",
+"torsion_main": 29,
+"N_main": 29
+},
+{
+"state": "+LLLLLLRRRRR",
+"k": 1,
+"d1": 1,
+"d2": 30,
+"torsion_own": 30,
+"manifold_key": "+LLLLLLRRRRR^1",
+"torsion_main": 30,
+"N_main": 30
+},
+{
+"state": "-LLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 31,
+"torsion_own": 31,
+"manifold_key": "-LLLRLLRR^1",
+"torsion_main": 31,
+"N_main": 31
+},
+{
+"state": "-LLLLLLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 32,
+"torsion_own": 32,
+"manifold_key": "-LLLLLLLRRRR^1",
+"torsion_main": 32,
+"N_main": 32
+},
+{
+"state": "-LLLLR",
+"k": 2,
+"d1": 2,
+"d2": 16,
+"torsion_own": 32,
+"manifold_key": "+LLLLR^2",
+"torsion_main": 32,
+"N_main": 16
+},
+{
+"state": "+LLLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 16,
+"torsion_own": 32,
+"manifold_key": "+LLLRLRLR^1",
+"torsion_main": 32,
+"N_main": 16
+},
+{
+"state": "-LLLLLLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 33,
+"torsion_own": 33,
+"manifold_key": "-LLLLLLLLLRLR^1",
+"torsion_main": 33,
+"N_main": 33
+},
+{
+"state": "+LLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 34,
+"torsion_own": 34,
+"manifold_key": "+LLLLRLLRR^1",
+"torsion_main": 34,
+"N_main": 34
+},
+{
+"state": "+LLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 35,
+"torsion_own": 35,
+"manifold_key": "+LLRLLRLR^1",
+"torsion_main": 35,
+"N_main": 35
+},
+{
+"state": "+LLLLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 36,
+"torsion_own": 36,
+"manifold_key": "+LLLLLLRLLLR^1",
+"torsion_main": 36,
+"N_main": 36
+},
+{
+"state": "-LLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 36,
+"torsion_own": 36,
+"manifold_key": "-LLLLRLRRR^1",
+"torsion_main": 36,
+"N_main": 36
+},
+{
+"state": "-LLLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 37,
+"torsion_own": 37,
+"manifold_key": "-LLLLLLRLRR^1",
+"torsion_main": 37,
+"N_main": 37
+},
+{
+"state": "+LLLLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 38,
+"torsion_own": 38,
+"manifold_key": "+LLLLLLLRLRR^1",
+"torsion_main": 38,
+"N_main": 38
+},
+{
+"state": "+LLLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 38,
+"torsion_own": 38,
+"manifold_key": "+LLLRLLRRR^1",
+"torsion_main": 38,
+"N_main": 38
+},
+{
+"state": "+LLLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 39,
+"torsion_own": 39,
+"manifold_key": "+LLLLLRLRRR^1",
+"torsion_main": 39,
+"N_main": 39
+},
+{
+"state": "-LLLLLLRRRRRR",
+"k": 1,
+"d1": 2,
+"d2": 20,
+"torsion_own": 40,
+"manifold_key": "-LLLLLLRRRRRR^1",
+"torsion_main": 40,
+"N_main": 20
+},
+{
+"state": "-LLRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 20,
+"torsion_own": 40,
+"manifold_key": "-LLRLRRLR^1",
+"torsion_main": 40,
+"N_main": 20
+},
+{
+"state": "+LLLLRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 41,
+"torsion_own": 41,
+"manifold_key": "+LLLLRLRRRR^1",
+"torsion_main": 41,
+"N_main": 41
+},
+{
+"state": "-LLLLLRLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 42,
+"torsion_own": 42,
+"manifold_key": "-LLLLLRLLLLR^1",
+"torsion_main": 42,
+"N_main": 42
+},
+{
+"state": "+LLLLLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 43,
+"torsion_own": 43,
+"manifold_key": "+LLLLLLLLRLRR^1",
+"torsion_main": 43,
+"N_main": 43
+},
+{
+"state": "+LLLLLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 22,
+"torsion_own": 44,
+"manifold_key": "+LLLLLRRLRR^1",
+"torsion_main": 44,
+"N_main": 22
+},
+{
+"state": "-LLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 45,
+"torsion_own": 45,
+"manifold_key": "+LLLLLR^2",
+"torsion_main": 45,
+"N_main": 45
+},
+{
+"state": "+LLLLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 45,
+"torsion_own": 45,
+"manifold_key": "+LLLLRLLLRR^1",
+"torsion_main": 45,
+"N_main": 45
+},
+{
+"state": "+LR",
+"k": 4,
+"d1": 3,
+"d2": 15,
+"torsion_own": 45,
+"manifold_key": "+LR^4",
+"torsion_main": 45,
+"N_main": 15
+},
+{
+"state": "+LLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 46,
+"torsion_own": 46,
+"manifold_key": "+LLLRLLRLR^1",
+"torsion_main": 46,
+"N_main": 46
+},
+{
+"state": "+LLLLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 48,
+"torsion_own": 48,
+"manifold_key": "+LLLLLLRLLRR^1",
+"torsion_main": 48,
+"N_main": 48
+},
+{
+"state": "+LLLLRLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 24,
+"torsion_own": 48,
+"manifold_key": "+LLLLRLLRRR^1",
+"torsion_main": 48,
+"N_main": 24
+},
+{
+"state": "-LLLLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 49,
+"torsion_own": 49,
+"manifold_key": "-LLLLRLLLRR^1",
+"torsion_main": 49,
+"N_main": 49
+},
+{
+"state": "-LLLLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "-LLLLLLRLRRR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "-LLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "-LLLRLLRLR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "+LLR",
+"k": 3,
+"d1": 5,
+"d2": 10,
+"torsion_own": 50,
+"manifold_key": "+LLR^3",
+"torsion_main": 50,
+"N_main": 10
+},
+{
+"state": "+LLLLLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 52,
+"torsion_own": 52,
+"manifold_key": "+LLLLLLRRLRR^1",
+"torsion_main": 52,
+"N_main": 52
+},
+{
+"state": "-LLLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 52,
+"torsion_own": 52,
+"manifold_key": "-LLLRLRRLR^1",
+"torsion_main": 52,
+"N_main": 52
+},
+{
+"state": "-LLLLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 53,
+"torsion_own": 53,
+"manifold_key": "-LLLLRRLRRR^1",
+"torsion_main": 53,
+"N_main": 53
+},
+{
+"state": "-LLLLLRRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "-LLLLLRLRRRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "+LLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "+LLRLLRLRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "-LLLRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 55,
+"torsion_own": 55,
+"manifold_key": "-LLLRLLLRRR^1",
+"torsion_main": 55,
+"N_main": 55
+},
+{
+"state": "+LLLLRRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 28,
+"torsion_own": 56,
+"manifold_key": "+LLLLRRLLRR^1",
+"torsion_main": 56,
+"N_main": 28
+},
+{
+"state": "+LLLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 57,
+"torsion_own": 57,
+"manifold_key": "+LLLLRLLRLR^1",
+"torsion_main": 57,
+"N_main": 57
+},
+{
+"state": "-LLLLLRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 58,
+"torsion_own": 58,
+"manifold_key": "-LLLLLRLLLRR^1",
+"torsion_main": 58,
+"N_main": 58
+},
+{
+"state": "-LLLLLLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 59,
+"torsion_own": 59,
+"manifold_key": "-LLLLLLLRLLRR^1",
+"torsion_main": 59,
+"N_main": 59
+},
+{
+"state": "+LLLLLLLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "+LLLLLLLRRLRR^1",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "+LLLLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 60,
+"torsion_own": 60,
+"manifold_key": "+LLLLLRRLRRR^1",
+"torsion_main": 60,
+"N_main": 60
+},
+{
+"state": "-LLLLRRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "-LLLLRRLLRR^1",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "-LLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 60,
+"torsion_own": 60,
+"manifold_key": "-LLRLRLLRR^1",
+"torsion_main": 60,
+"N_main": 60
+},
+{
+"state": "+LLLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 61,
+"torsion_own": 61,
+"manifold_key": "+LLLRRLLRRR^1",
+"torsion_main": 61,
+"N_main": 61
+},
+{
+"state": "+LLLLRRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 62,
+"torsion_own": 62,
+"manifold_key": "+LLLLRLLRRRR^1",
+"torsion_main": 62,
+"N_main": 62
+},
+{
+"state": "-LLLLLLRRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 63,
+"torsion_own": 63,
+"manifold_key": "-LLLLLLRLRRRR^1",
+"torsion_main": 63,
+"N_main": 63
+},
+{
+"state": "-LLLLLLLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 32,
+"torsion_own": 64,
+"manifold_key": "-LLLLLLLRRLRR^1",
+"torsion_main": 64,
+"N_main": 32
+},
+{
+"state": "-LLLLRLRRLR",
+"k": 1,
+"d1": 4,
+"d2": 16,
+"torsion_own": 64,
+"manifold_key": "-LLLLRLRRLR^1",
+"torsion_main": 64,
+"N_main": 16
+},
+{
+"state": "-LLLLLRLRRRRR",
+"k": 1,
+"d1": 1,
+"d2": 65,
+"torsion_own": 65,
+"manifold_key": "-LLLLLRLRRRRR^1",
+"torsion_main": 65,
+"N_main": 65
+},
+{
+"state": "-LLLLRRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 66,
+"torsion_own": 66,
+"manifold_key": "-LLLLRLLRRRR^1",
+"torsion_main": 66,
+"N_main": 66
+},
+{
+"state": "-LLLLLLRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 67,
+"torsion_own": 67,
+"manifold_key": "-LLLLLLRLLLRR^1",
+"torsion_main": 67,
+"N_main": 67
+},
+{
+"state": "-LLLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 67,
+"torsion_own": 67,
+"manifold_key": "-LLLLRLRLRR^1",
+"torsion_main": 67,
+"N_main": 67
+},
+{
+"state": "+LLLLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 68,
+"torsion_own": 68,
+"manifold_key": "+LLLLLRLLRLR^1",
+"torsion_main": 68,
+"N_main": 68
+},
+{
+"state": "-LLLLRRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 68,
+"torsion_own": 68,
+"manifold_key": "-LLLLRLLLRRR^1",
+"torsion_main": 68,
+"N_main": 68
+},
+{
+"state": "-LLLLRRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 70,
+"torsion_own": 70,
+"manifold_key": "-LLLLRRRLRRR^1",
+"torsion_main": 70,
+"N_main": 70
+},
+{
+"state": "-LLLLLRLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 71,
+"torsion_own": 71,
+"manifold_key": "-LLLLLRLLLLRR^1",
+"torsion_main": 71,
+"N_main": 71
+},
+{
+"state": "-LLLLLLRLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 36,
+"torsion_own": 72,
+"manifold_key": "-LLLLLLRLLRRR^1",
+"torsion_main": 72,
+"N_main": 36
+},
+{
+"state": "+LLLLLRLRRLR",
+"k": 1,
+"d1": 3,
+"d2": 24,
+"torsion_own": 72,
+"manifold_key": "+LLLLLRLRRLR^1",
+"torsion_main": 72,
+"N_main": 24
+},
+{
+"state": "+LLLRRLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 36,
+"torsion_own": 72,
+"manifold_key": "+LLLRLLRLRR^1",
+"torsion_main": 72,
+"N_main": 36
+},
+{
+"state": "+LLLLRLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 74,
+"torsion_own": 74,
+"manifold_key": "+LLLLRLLLRLR^1",
+"torsion_main": 74,
+"N_main": 74
+},
+{
+"state": "+LLLLLRRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "+LLLLLRLLRRRR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "+LLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "+LLLRLRLLRR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "+LLLLLRRLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 38,
+"torsion_own": 76,
+"manifold_key": "+LLLLLRRLRRRR^1",
+"torsion_main": 76,
+"N_main": 38
+},
+{
+"state": "-LLLRRLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 38,
+"torsion_own": 76,
+"manifold_key": "-LLLRLLRLRR^1",
+"torsion_main": 76,
+"N_main": 38
+},
+{
+"state": "+LLLLLRRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 77,
+"torsion_own": 77,
+"manifold_key": "+LLLLLRLLLRRR^1",
+"torsion_main": 77,
+"N_main": 77
+},
+{
+"state": "-LLLLRLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 78,
+"torsion_own": 78,
+"manifold_key": "-LLLLRLLLRLR^1",
+"torsion_main": 78,
+"N_main": 78
+},
+{
+"state": "+LLLLLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 79,
+"torsion_own": 79,
+"manifold_key": "+LLLLLLRLLRLR^1",
+"torsion_main": 79,
+"N_main": 79
+},
+{
+"state": "-LLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 79,
+"torsion_own": 79,
+"manifold_key": "-LLLRLRLLRR^1",
+"torsion_main": 79,
+"N_main": 79
+},
+{
+"state": "-LLLLLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 80,
+"torsion_own": 80,
+"manifold_key": "-LLLLLRLRLRR^1",
+"torsion_main": 80,
+"N_main": 80
+},
+{
+"state": "+LLLLRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 80,
+"torsion_own": 80,
+"manifold_key": "+LLLLRLLRLLR^1",
+"torsion_main": 80,
+"N_main": 80
+},
+{
+"state": "-LLLLLRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 81,
+"torsion_own": 81,
+"manifold_key": "-LLLLLRLLLRRR^1",
+"torsion_main": 81,
+"N_main": 81
+},
+{
+"state": "+LLRLLRRLRR",
+"k": 1,
+"d1": 9,
+"d2": 9,
+"torsion_own": 81,
+"manifold_key": "+LLRLLRRLRR^1",
+"torsion_main": 81,
+"N_main": 9
+},
+{
+"state": "-LLLLLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 83,
+"torsion_own": 83,
+"manifold_key": "-LLLLLLRLLRLR^1",
+"torsion_main": 83,
+"N_main": 83
+},
+{
+"state": "-LLLLLLRRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 42,
+"torsion_own": 84,
+"manifold_key": "-LLLLLLRRLLRR^1",
+"torsion_main": 84,
+"N_main": 42
+},
+{
+"state": "+LLLRLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 84,
+"torsion_own": 84,
+"manifold_key": "+LLLRLLLRLLR^1",
+"torsion_main": 84,
+"N_main": 84
+},
+{
+"state": "-LLRLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 85,
+"torsion_own": 85,
+"manifold_key": "-LLRLLRRLRR^1",
+"torsion_main": 85,
+"N_main": 85
+},
+{
+"state": "-LLLLRLLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 87,
+"torsion_own": 87,
+"manifold_key": "-LLLLRLLLRRRR^1",
+"torsion_main": 87,
+"N_main": 87
+},
+{
+"state": "+LLLLLRLLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 44,
+"torsion_own": 88,
+"manifold_key": "+LLLLLRLLLRLR^1",
+"torsion_main": 88,
+"N_main": 44
+},
+{
+"state": "-LLLRLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 88,
+"torsion_own": 88,
+"manifold_key": "-LLLRLLLRLLR^1",
+"torsion_main": 88,
+"N_main": 88
+},
+{
+"state": "-LLRLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 89,
+"torsion_own": 89,
+"manifold_key": "-LLRLRRLLRR^1",
+"torsion_main": 89,
+"N_main": 89
+},
+{
+"state": "-LLLLRRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 90,
+"torsion_own": 90,
+"manifold_key": "-LLLLRLRLRRR^1",
+"torsion_main": 90,
+"N_main": 90
+},
+{
+"state": "-LLLLLRLRLLLR",
+"k": 1,
+"d1": 2,
+"d2": 46,
+"torsion_own": 92,
+"manifold_key": "-LLLLLRLLLRLR^1",
+"torsion_main": 92,
+"N_main": 46
+},
+{
+"state": "+LLLLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 92,
+"torsion_own": 92,
+"manifold_key": "+LLLLRLRRLRR^1",
+"torsion_main": 92,
+"N_main": 92
+},
+{
+"state": "-LLLLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 94,
+"torsion_own": 94,
+"manifold_key": "-LLLLRLLRLRR^1",
+"torsion_main": 94,
+"N_main": 94
+},
+{
+"state": "+LLLRLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 94,
+"torsion_own": 94,
+"manifold_key": "+LLLRLLLRLRR^1",
+"torsion_main": 94,
+"N_main": 94
+},
+{
+"state": "+LLLLLRRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 95,
+"torsion_own": 95,
+"manifold_key": "+LLLLLRRLLRRR^1",
+"torsion_main": 95,
+"N_main": 95
+},
+{
+"state": "+LLLLLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 48,
+"torsion_own": 96,
+"manifold_key": "+LLLLLLLLR^2",
+"torsion_main": 96,
+"N_main": 48
+},
+{
+"state": "-LLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 24,
+"torsion_own": 96,
+"manifold_key": "+LLLLRR^2",
+"torsion_main": 96,
+"N_main": 24
+},
+{
+"state": "+LLLRLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 96,
+"torsion_own": 96,
+"manifold_key": "+LLLRLLRRRLR^1",
+"torsion_main": 96,
+"N_main": 96
+},
+{
+"state": "-LLLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 98,
+"torsion_own": 98,
+"manifold_key": "-LLLLRLRLLRR^1",
+"torsion_main": 98,
+"N_main": 98
+},
+{
+"state": "-LLLRLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 98,
+"torsion_own": 98,
+"manifold_key": "-LLLRLLLRLRR^1",
+"torsion_main": 98,
+"N_main": 98
+},
+{
+"state": "-LLLLLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 99,
+"torsion_own": 99,
+"manifold_key": "-LLLLLRRLLRRR^1",
+"torsion_main": 99,
+"N_main": 99
+},
+{
+"state": "+LLLLRLRRRRLR",
+"k": 1,
+"d1": 10,
+"d2": 10,
+"torsion_own": 100,
+"manifold_key": "+LLLLRLRRRRLR^1",
+"torsion_main": 100,
+"N_main": 10
+},
+{
+"state": "-LLLRLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 100,
+"torsion_own": 100,
+"manifold_key": "-LLLRLLRRRLR^1",
+"torsion_main": 100,
+"N_main": 100
+},
+{
+"state": "-LLLRLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 102,
+"torsion_own": 102,
+"manifold_key": "-LLLRLLRLRRR^1",
+"torsion_main": 102,
+"N_main": 102
+},
+{
+"state": "+LLLLLRLRLRRR",
+"k": 1,
+"d1": 2,
+"d2": 52,
+"torsion_own": 104,
+"manifold_key": "+LLLLLRLRLRRR^1",
+"torsion_main": 104,
+"N_main": 52
+},
+{
+"state": "+LLLRLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 104,
+"torsion_own": 104,
+"manifold_key": "+LLLRLLRRLLR^1",
+"torsion_main": 104,
+"N_main": 104
+},
+{
+"state": "-LLRLRLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 52,
+"torsion_own": 104,
+"manifold_key": "-LLRLRLRLRR^1",
+"torsion_main": 104,
+"N_main": 52
+},
+{
+"state": "+LLLRRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 106,
+"torsion_own": 106,
+"manifold_key": "+LLLRLLRLLRR^1",
+"torsion_main": 106,
+"N_main": 106
+},
+{
+"state": "+LLLLRRRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 107,
+"torsion_own": 107,
+"manifold_key": "+LLLLRRLLLRRR^1",
+"torsion_main": 107,
+"N_main": 107
+},
+{
+"state": "-LLLLLRRRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 54,
+"torsion_own": 108,
+"manifold_key": "-LLLLLRLRLRRR^1",
+"torsion_main": 108,
+"N_main": 54
+},
+{
+"state": "-LLLRLLRRLLR",
+"k": 1,
+"d1": 3,
+"d2": 36,
+"torsion_own": 108,
+"manifold_key": "-LLLRLLRRLLR^1",
+"torsion_main": 108,
+"N_main": 36
+},
+{
+"state": "+LLLRRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 108,
+"torsion_own": 108,
+"manifold_key": "+LLLRLLRRLRR^1",
+"torsion_main": 108,
+"N_main": 108
+},
+{
+"state": "-LLLRLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 110,
+"torsion_own": 110,
+"manifold_key": "-LLLRLLRLLRR^1",
+"torsion_main": 110,
+"N_main": 110
+},
+{
+"state": "+LLLLLRRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 111,
+"torsion_own": 111,
+"manifold_key": "+LLLLLRLRRLRR^1",
+"torsion_main": 111,
+"N_main": 111
+},
+{
+"state": "-LLLLLRRLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 56,
+"torsion_own": 112,
+"manifold_key": "-LLLLLRLLRLRR^1",
+"torsion_main": 112,
+"N_main": 56
+},
+{
+"state": "-LLLRLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 112,
+"torsion_own": 112,
+"manifold_key": "-LLLRLLRRLRR^1",
+"torsion_main": 112,
+"N_main": 112
+},
+{
+"state": "-LLLLRLRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 113,
+"torsion_own": 113,
+"manifold_key": "-LLLLRLRLRRRR^1",
+"torsion_main": 113,
+"N_main": 113
+},
+{
+"state": "-LLLLLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 115,
+"torsion_own": 115,
+"manifold_key": "-LLLLLRLRRLRR^1",
+"torsion_main": 115,
+"N_main": 115
+},
+{
+"state": "+LLLRRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 116,
+"torsion_own": 116,
+"manifold_key": "+LLLRRLLRLRR^1",
+"torsion_main": 116,
+"N_main": 116
+},
+{
+"state": "-LLLLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 117,
+"torsion_own": 117,
+"manifold_key": "-LLLLLRLRLLRR^1",
+"torsion_main": 117,
+"N_main": 117
+},
+{
+"state": "-LLLRRR",
+"k": 2,
+"d1": 3,
+"d2": 39,
+"torsion_own": 117,
+"manifold_key": "+LLLRRR^2",
+"torsion_main": 117,
+"N_main": 39
+},
+{
+"state": "+LLLLLRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 119,
+"torsion_own": 119,
+"manifold_key": "+LLLLLRRLRLRR^1",
+"torsion_main": 119,
+"N_main": 119
+},
+{
+"state": "-LLLLRLRRLLLR",
+"k": 1,
+"d1": 2,
+"d2": 60,
+"torsion_own": 120,
+"manifold_key": "-LLLLRLLLRRLR^1",
+"torsion_main": 120,
+"N_main": 60
+},
+{
+"state": "+LLLLRLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 121,
+"torsion_own": 121,
+"manifold_key": "+LLLLRLRRRLRR^1",
+"torsion_main": 121,
+"N_main": 121
+},
+{
+"state": "-LLLLLRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 123,
+"torsion_own": 123,
+"manifold_key": "-LLLLLRRLRLRR^1",
+"torsion_main": 123,
+"N_main": 123
+},
+{
+"state": "+LLLLRRRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 123,
+"torsion_own": 123,
+"manifold_key": "+LLLLRLLRLRRR^1",
+"torsion_main": 123,
+"N_main": 123
+},
+{
+"state": "+LLLRLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 124,
+"torsion_own": 124,
+"manifold_key": "+LLLRLLRLRLR^1",
+"torsion_main": 124,
+"N_main": 124
+},
+{
+"state": "-LLLLRRLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 125,
+"torsion_own": 125,
+"manifold_key": "-LLLLRLRRRLRR^1",
+"torsion_main": 125,
+"N_main": 125
+},
+{
+"state": "-LLLLRLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 127,
+"torsion_own": 127,
+"manifold_key": "-LLLLRLLRLRRR^1",
+"torsion_main": 127,
+"N_main": 127
+},
+{
+"state": "-LLLLRRRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 64,
+"torsion_own": 128,
+"manifold_key": "-LLLLRLRRLRRR^1",
+"torsion_main": 128,
+"N_main": 64
+},
+{
+"state": "-LLLRLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 128,
+"torsion_own": 128,
+"manifold_key": "-LLLRLLRLRLR^1",
+"torsion_main": 128,
+"N_main": 128
+},
+{
+"state": "-LLLLRLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 129,
+"torsion_own": 129,
+"manifold_key": "-LLLLRLRLLLRR^1",
+"torsion_main": 129,
+"N_main": 129
+},
+{
+"state": "+LLLLRLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 131,
+"torsion_own": 131,
+"manifold_key": "+LLLLRLRLLRRR^1",
+"torsion_main": 131,
+"N_main": 131
+},
+{
+"state": "+LLLLRRLLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 66,
+"torsion_own": 132,
+"manifold_key": "+LLLLRLLRLLRR^1",
+"torsion_main": 132,
+"N_main": 66
+},
+{
+"state": "-LLLRLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 132,
+"torsion_own": 132,
+"manifold_key": "-LLLRLRLRRLR^1",
+"torsion_main": 132,
+"N_main": 132
+},
+{
+"state": "+LLLRLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 134,
+"torsion_own": 134,
+"manifold_key": "+LLLRLRLRLRR^1",
+"torsion_main": 134,
+"N_main": 134
+},
+{
+"state": "+LLLLRRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 135,
+"torsion_own": 135,
+"manifold_key": "+LLLLRLLRRLRR^1",
+"torsion_main": 135,
+"N_main": 135
+},
+{
+"state": "+LLRLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 136,
+"torsion_own": 136,
+"manifold_key": "+LLRLLRLLRLR^1",
+"torsion_main": 136,
+"N_main": 136
+},
+{
+"state": "+LLLRLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 137,
+"torsion_own": 137,
+"manifold_key": "+LLLRLLLRLLRR^1",
+"torsion_main": 137,
+"N_main": 137
+},
+{
+"state": "-LLLLRRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 139,
+"torsion_own": 139,
+"manifold_key": "-LLLLRLLRRLRR^1",
+"torsion_main": 139,
+"N_main": 139
+},
+{
+"state": "+LLLLLRR",
+"k": 2,
+"d1": 2,
+"d2": 70,
+"torsion_own": 140,
+"manifold_key": "+LLLLLRR^2",
+"torsion_main": 140,
+"N_main": 70
+},
+{
+"state": "-LLRLLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 140,
+"torsion_own": 140,
+"manifold_key": "-LLRLLRLLRLR^1",
+"torsion_main": 140,
+"N_main": 140
+},
+{
+"state": "+LLLLRLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 143,
+"torsion_own": 143,
+"manifold_key": "+LLLLRLRRLLRR^1",
+"torsion_main": 143,
+"N_main": 143
+},
+{
+"state": "-LLLLRRLRRLRR",
+"k": 1,
+"d1": 6,
+"d2": 24,
+"torsion_own": 144,
+"manifold_key": "-LLLLRRLRRLRR^1",
+"torsion_main": 144,
+"N_main": 24
+},
+{
+"state": "+LLLRRLRRRLLR",
+"k": 1,
+"d1": 12,
+"d2": 12,
+"torsion_own": 144,
+"manifold_key": "+LLLRLLRRRLRR^1",
+"torsion_main": 144,
+"N_main": 12
+},
+{
+"state": "+LLLRLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 145,
+"torsion_own": 145,
+"manifold_key": "+LLLRLLRRLRRR^1",
+"torsion_main": 145,
+"N_main": 145
+},
+{
+"state": "+LLLLRRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 147,
+"torsion_own": 147,
+"manifold_key": "+LLLLRRLLRLRR^1",
+"torsion_main": 147,
+"N_main": 147
+},
+{
+"state": "+LLLRLLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 147,
+"torsion_own": 147,
+"manifold_key": "+LLLRLLRLLRRR^1",
+"torsion_main": 147,
+"N_main": 147
+},
+{
+"state": "-LLLRRLRRRLLR",
+"k": 1,
+"d1": 2,
+"d2": 74,
+"torsion_own": 148,
+"manifold_key": "-LLLRLLRRRLRR^1",
+"torsion_main": 148,
+"N_main": 74
+},
+{
+"state": "-LLRLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 150,
+"torsion_own": 150,
+"manifold_key": "-LLRLRLLRLRR^1",
+"torsion_main": 150,
+"N_main": 150
+},
+{
+"state": "-LLLLRRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 151,
+"torsion_own": 151,
+"manifold_key": "-LLLLRRLLRLRR^1",
+"torsion_main": 151,
+"N_main": 151
+},
+{
+"state": "+LLLLRLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 153,
+"torsion_own": 153,
+"manifold_key": "+LLLLRLLRLRLR^1",
+"torsion_main": 153,
+"N_main": 153
+},
+{
+"state": "+LLLRRLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 155,
+"torsion_own": 155,
+"manifold_key": "+LLLRLRRLLLRR^1",
+"torsion_main": 155,
+"N_main": 155
+},
+{
+"state": "+LLLRLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 157,
+"torsion_own": 157,
+"manifold_key": "+LLLRLRRLLRRR^1",
+"torsion_main": 157,
+"N_main": 157
+},
+{
+"state": "+LLLLRLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 159,
+"torsion_own": 159,
+"manifold_key": "+LLLLRLRLRRLR^1",
+"torsion_main": 159,
+"N_main": 159
+},
+{
+"state": "+LLLRRLRLLRRR",
+"k": 1,
+"d1": 4,
+"d2": 40,
+"torsion_own": 160,
+"manifold_key": "+LLLRRLRLLRRR^1",
+"torsion_main": 160,
+"N_main": 40
+},
+{
+"state": "-LLLLRLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 163,
+"torsion_own": 163,
+"manifold_key": "-LLLLRLRLRRLR^1",
+"torsion_main": 163,
+"N_main": 163
+},
+{
+"state": "+LLLLLLLLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 165,
+"torsion_own": 165,
+"manifold_key": "+LLLLLLLLLLLR^2",
+"torsion_main": 165,
+"N_main": 165
+},
+{
+"state": "+LLLRLLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 167,
+"torsion_own": 167,
+"manifold_key": "+LLLRLLRRLLRR^1",
+"torsion_main": 167,
+"N_main": 167
+},
+{
+"state": "+LLLRLRLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 169,
+"torsion_own": 169,
+"manifold_key": "+LLLRLRLRRRLR^1",
+"torsion_main": 169,
+"N_main": 169
+},
+{
+"state": "-LLLLRLRLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 86,
+"torsion_own": 172,
+"manifold_key": "-LLLLRLRLRLRR^1",
+"torsion_main": 172,
+"N_main": 86
+},
+{
+"state": "-LLLRLRLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 173,
+"torsion_own": 173,
+"manifold_key": "-LLLRLRLRRRLR^1",
+"torsion_main": 173,
+"N_main": 173
+},
+{
+"state": "-LLLRRLRRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 88,
+"torsion_own": 176,
+"manifold_key": "-LLLRRLLRRLRR^1",
+"torsion_main": 176,
+"N_main": 88
+},
+{
+"state": "-LLLRLLRLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 90,
+"torsion_own": 180,
+"manifold_key": "-LLLRLLRLRLLR^1",
+"torsion_main": 180,
+"N_main": 90
+},
+{
+"state": "+LLLRLRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 181,
+"torsion_own": 181,
+"manifold_key": "+LLLRLRLRLRRR^1",
+"torsion_main": 181,
+"N_main": 181
+},
+{
+"state": "+LLLRLRRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 185,
+"torsion_own": 185,
+"manifold_key": "+LLLRLRRLRRLR^1",
+"torsion_main": 185,
+"N_main": 185
+},
+{
+"state": "+LLLRLRLRRLLR",
+"k": 1,
+"d1": 2,
+"d2": 94,
+"torsion_own": 188,
+"manifold_key": "+LLLRLLRRLRLR^1",
+"torsion_main": 188,
+"N_main": 94
+},
+{
+"state": "-LLLLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 48,
+"torsion_own": 192,
+"manifold_key": "+LLLLLLRR^2",
+"torsion_main": 192,
+"N_main": 48
+},
+{
+"state": "-LLLRLLRRLRLR",
+"k": 1,
+"d1": 4,
+"d2": 48,
+"torsion_own": 192,
+"manifold_key": "-LLLRLLRRLRLR^1",
+"torsion_main": 192,
+"N_main": 48
+},
+{
+"state": "-LLR",
+"k": 4,
+"d1": 8,
+"d2": 24,
+"torsion_own": 192,
+"manifold_key": "+LLR^4",
+"torsion_main": 192,
+"N_main": 24
+},
+{
+"state": "-LLLRLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 195,
+"torsion_own": 195,
+"manifold_key": "-LLLRLLRLRLRR^1",
+"torsion_main": 195,
+"N_main": 195
+},
+{
+"state": "+LLLLR",
+"k": 3,
+"d1": 7,
+"d2": 28,
+"torsion_own": 196,
+"manifold_key": "+LLLLR^3",
+"torsion_main": 196,
+"N_main": 28
+},
+{
+"state": "+LLLRRLRLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 98,
+"torsion_own": 196,
+"manifold_key": "+LLLRLRRLRLRR^1",
+"torsion_main": 196,
+"N_main": 98
+},
+{
+"state": "-LLLRLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 199,
+"torsion_own": 199,
+"manifold_key": "-LLLRLRLLRLRR^1",
+"torsion_main": 199,
+"N_main": 199
+},
+{
+"state": "-LLLRLRRLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 100,
+"torsion_own": 200,
+"manifold_key": "-LLLRLRRLRLRR^1",
+"torsion_main": 200,
+"N_main": 100
+},
+{
+"state": "-LLLRLRLRLLRR",
+"k": 1,
+"d1": 2,
+"d2": 102,
+"torsion_own": 204,
+"manifold_key": "-LLLRLRLRLLRR^1",
+"torsion_main": 204,
+"N_main": 102
+},
+{
+"state": "+LLRLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 207,
+"torsion_own": 207,
+"manifold_key": "+LLRLLRLLRLRR^1",
+"torsion_main": 207,
+"N_main": 207
+},
+{
+"state": "-LLRLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 211,
+"torsion_own": 211,
+"manifold_key": "-LLRLLRLLRLRR^1",
+"torsion_main": 211,
+"N_main": 211
+},
+{
+"state": "+LLRLLRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 217,
+"torsion_own": 217,
+"manifold_key": "+LLRLLRRLRLRR^1",
+"torsion_main": 217,
+"N_main": 217
+},
+{
+"state": "-LLRLLRRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 221,
+"torsion_own": 221,
+"manifold_key": "-LLRLLRRLRLRR^1",
+"torsion_main": 221,
+"N_main": 221
+},
+{
+"state": "+LLRLRLRRLLRR",
+"k": 1,
+"d1": 3,
+"d2": 75,
+"torsion_own": 225,
+"manifold_key": "+LLRLRLRRLLRR^1",
+"torsion_main": 225,
+"N_main": 75
+},
+{
+"state": "-LLLLLLLRR",
+"k": 2,
+"d1": 2,
+"d2": 126,
+"torsion_own": 252,
+"manifold_key": "+LLLLLLLRR^2",
+"torsion_main": 252,
+"N_main": 126
+},
+{
+"state": "+LLRLLRLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 126,
+"torsion_own": 252,
+"manifold_key": "+LLRLLRLRLRLR^1",
+"torsion_main": 252,
+"N_main": 126
+},
+{
+"state": "+LLRLRLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 257,
+"torsion_own": 257,
+"manifold_key": "+LLRLRLRLRRLR^1",
+"torsion_main": 257,
+"N_main": 257
+},
+{
+"state": "+LLRLRLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 265,
+"torsion_own": 265,
+"manifold_key": "+LLRLRLRLRLRR^1",
+"torsion_main": 265,
+"N_main": 265
+},
+{
+"state": "-LLLLLLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 80,
+"torsion_own": 320,
+"manifold_key": "+LLLLLLLLRR^2",
+"torsion_main": 320,
+"N_main": 80
+},
+{
+"state": "+LLLLRRRR",
+"k": 2,
+"d1": 8,
+"d2": 40,
+"torsion_own": 320,
+"manifold_key": "+LLLLRRRR^2",
+"torsion_main": 320,
+"N_main": 40
+},
+{
+"state": "+LR",
+"k": 6,
+"d1": 8,
+"d2": 40,
+"torsion_own": 320,
+"manifold_key": "+LR^6",
+"torsion_main": 320,
+"N_main": 40
+},
+{
+"state": "-LLLLLLLLLRR",
+"k": 2,
+"d1": 2,
+"d2": 198,
+"torsion_own": 396,
+"manifold_key": "+LLLLLLLLLRR^2",
+"torsion_main": 396,
+"N_main": 198
+},
+{
+"state": "-LLLRLRR",
+"k": 2,
+"d1": 2,
+"d2": 198,
+"torsion_own": 396,
+"manifold_key": "+LLLRLRR^2",
+"torsion_main": 396,
+"N_main": 198
+},
+{
+"state": "-LLLLLLLLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 120,
+"torsion_own": 480,
+"manifold_key": "+LLLLLLLLLLRR^2",
+"torsion_main": 480,
+"N_main": 120
+},
+{
+"state": "-LLLLLRRRR",
+"k": 2,
+"d1": 2,
+"d2": 240,
+"torsion_own": 480,
+"manifold_key": "+LLLLLRRRR^2",
+"torsion_main": 480,
+"N_main": 240
+},
+{
+"state": "-LLRLLRR",
+"k": 2,
+"d1": 2,
+"d2": 240,
+"torsion_own": 480,
+"manifold_key": "+LLRLLRR^2",
+"torsion_main": 480,
+"N_main": 240
+},
+{
+"state": "-LLLLLLR",
+"k": 3,
+"d1": 7,
+"d2": 70,
+"torsion_own": 490,
+"manifold_key": "-LLLLLLR^3",
+"torsion_main": 490,
+"N_main": 70
+},
+{
+"state": "-LLLR",
+"k": 4,
+"d1": 5,
+"d2": 105,
+"torsion_own": 525,
+"manifold_key": "+LLLR^4",
+"torsion_main": 525,
+"N_main": 105
+},
+{
+"state": "-LLLLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 621,
+"torsion_own": 621,
+"manifold_key": "+LLLLRLRR^2",
+"torsion_main": 621,
+"N_main": 621
+},
+{
+"state": "-LLLLLLLLRRR",
+"k": 2,
+"d1": 2,
+"d2": 336,
+"torsion_own": 672,
+"manifold_key": "+LLLLLLLLRRR^2",
+"torsion_main": 672,
+"N_main": 336
+},
+{
+"state": "-LLLLLRLLR",
+"k": 2,
+"d1": 2,
+"d2": 336,
+"torsion_own": 672,
+"manifold_key": "+LLLLLRLLR^2",
+"torsion_main": 672,
+"N_main": 336
+},
+{
+"state": "+LLLLLLLR",
+"k": 3,
+"d1": 10,
+"d2": 70,
+"torsion_own": 700,
+"manifold_key": "+LLLLLLLR^3",
+"torsion_main": 700,
+"N_main": 70
+},
+{
+"state": "+LLLLLRRRRR",
+"k": 2,
+"d1": 5,
+"d2": 145,
+"torsion_own": 725,
+"manifold_key": "+LLLLLRRRRR^2",
+"torsion_main": 725,
+"N_main": 145
+},
+{
+"state": "-LLLLLLLLRLR",
+"k": 2,
+"d1": 2,
+"d2": 390,
+"torsion_own": 780,
+"manifold_key": "+LLLLLLLLRLR^2",
+"torsion_main": 780,
+"N_main": 390
+},
+{
+"state": "-LLLLLLLLLRRR",
+"k": 2,
+"d1": 3,
+"d2": 279,
+"torsion_own": 837,
+"manifold_key": "+LLLLLLLLLRRR^2",
+"torsion_main": 837,
+"N_main": 279
+},
+{
+"state": "-LLLRRLLR",
+"k": 2,
+"d1": 1,
+"d2": 837,
+"torsion_own": 837,
+"manifold_key": "+LLLRLLRR^2",
+"torsion_main": 837,
+"N_main": 837
+},
+{
+"state": "-LLLLLLLRRRR",
+"k": 2,
+"d1": 2,
+"d2": 448,
+"torsion_own": 896,
+"manifold_key": "+LLLLLLLRRRR^2",
+"torsion_main": 896,
+"N_main": 448
+},
+{
+"state": "-LLLLLRLRR",
+"k": 2,
+"d1": 2,
+"d2": 448,
+"torsion_own": 896,
+"manifold_key": "+LLLLLRLRR^2",
+"torsion_main": 896,
+"N_main": 448
+},
+{
+"state": "-LLLRRLRR",
+"k": 2,
+"d1": 4,
+"d2": 224,
+"torsion_own": 896,
+"manifold_key": "+LLLRRLRR^2",
+"torsion_main": 896,
+"N_main": 224
+},
+{
+"state": "+LLLLLLLLR",
+"k": 3,
+"d1": 11,
+"d2": 88,
+"torsion_own": 968,
+"manifold_key": "+LLLLLLLLR^3",
+"torsion_main": 968,
+"N_main": 88
+},
+{
+"state": "-LLLLRR",
+"k": 3,
+"d1": 18,
+"d2": 54,
+"torsion_own": 972,
+"manifold_key": "-LLLLRR^3",
+"torsion_main": 972,
+"N_main": 54
+},
+{
+"state": "-LLLLLRLLLR",
+"k": 2,
+"d1": 1,
+"d2": 1085,
+"torsion_own": 1085,
+"manifold_key": "+LLLLLRLLLR^2",
+"torsion_main": 1085,
+"N_main": 1085
+},
+{
+"state": "-LLLLLLLRLLR",
+"k": 2,
+"d1": 2,
+"d2": 576,
+"torsion_own": 1152,
+"manifold_key": "+LLLLLLLRLLR^2",
+"torsion_main": 1152,
+"N_main": 576
+},
+{
+"state": "-LLLLRLRRR",
+"k": 2,
+"d1": 2,
+"d2": 576,
+"torsion_own": 1152,
+"manifold_key": "+LLLLRLRRR^2",
+"torsion_main": 1152,
+"N_main": 576
+},
+{
+"state": "-LLLRLRLR",
+"k": 2,
+"d1": 4,
+"d2": 288,
+"torsion_own": 1152,
+"manifold_key": "+LLLRLRLR^2",
+"torsion_main": 1152,
+"N_main": 288
+},
+{
+"state": "-LLLLLLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 1221,
+"torsion_own": 1221,
+"manifold_key": "+LLLLLLRLRR^2",
+"torsion_main": 1221,
+"N_main": 1221
+},
+{
+"state": "-LLLLRLLRR",
+"k": 2,
+"d1": 2,
+"d2": 646,
+"torsion_own": 1292,
+"manifold_key": "+LLLLRLLRR^2",
+"torsion_main": 1292,
+"N_main": 646
+},
+{
+"state": "+LLLLLLLLLR",
+"k": 3,
+"d1": 12,
+"d2": 108,
+"torsion_own": 1296,
+"manifold_key": "+LLLLLLLLLR^3",
+"torsion_main": 1296,
+"N_main": 108
+},
+{
+"state": "-LLLLLLLRRRRR",
+"k": 2,
+"d1": 1,
+"d2": 1365,
+"torsion_own": 1365,
+"manifold_key": "+LLLLLLLRRRRR^2",
+"torsion_main": 1365,
+"N_main": 1365
+},
+{
+"state": "-LLLLLLLLRLLR",
+"k": 2,
+"d1": 4,
+"d2": 360,
+"torsion_own": 1440,
+"manifold_key": "+LLLLLLLLRLLR^2",
+"torsion_main": 1440,
+"N_main": 360
+},
+{
+"state": "-LLLLLLRRRRRR",
+"k": 2,
+"d1": 12,
+"d2": 120,
+"torsion_own": 1440,
+"manifold_key": "+LLLLLLRRRRRR^2",
+"torsion_main": 1440,
+"N_main": 120
+},
+{
+"state": "-LLLRLLLRR",
+"k": 2,
+"d1": 6,
+"d2": 240,
+"torsion_own": 1440,
+"manifold_key": "+LLLRLLLRR^2",
+"torsion_main": 1440,
+"N_main": 240
+},
+{
+"state": "-LLRLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 1517,
+"torsion_own": 1517,
+"manifold_key": "+LLRLRLRR^2",
+"torsion_main": 1517,
+"N_main": 1517
+},
+{
+"state": "-LLLLLLLRRLR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLLLLLRLRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "-LLLRLLRRR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLRLLRRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "-LLLLLRLRRR",
+"k": 2,
+"d1": 1,
+"d2": 1677,
+"torsion_own": 1677,
+"manifold_key": "+LLLLLRLRRR^2",
+"torsion_main": 1677,
+"N_main": 1677
+},
+{
+"state": "+LLLLLLLLLLR",
+"k": 3,
+"d1": 13,
+"d2": 130,
+"torsion_own": 1690,
+"manifold_key": "+LLLLLLLLLLR^3",
+"torsion_main": 1690,
+"N_main": 130
+},
+{
+"state": "-LLLLRLRLR",
+"k": 2,
+"d1": 2,
+"d2": 880,
+"torsion_own": 1760,
+"manifold_key": "+LLLLRLRLR^2",
+"torsion_main": 1760,
+"N_main": 880
+},
+{
+"state": "-LLLLLRLLRR",
+"k": 2,
+"d1": 1,
+"d2": 1845,
+"torsion_own": 1845,
+"manifold_key": "+LLLLLRLLRR^2",
+"torsion_main": 1845,
+"N_main": 1845
+},
+{
+"state": "-LLLLRLRRRR",
+"k": 2,
+"d1": 3,
+"d2": 615,
+"torsion_own": 1845,
+"manifold_key": "+LLLLRLRRRR^2",
+"torsion_main": 1845,
+"N_main": 615
+},
+{
+"state": "+LLLLR",
+"k": 1,
+"d1": 1,
+"d2": 4,
+"torsion_own": 4,
+"manifold_key": "+LLLLR^1",
+"torsion_main": 4,
+"N_main": 4
+},
+{
+"state": "-LR",
+"k": 2,
+"d1": 1,
+"d2": 5,
+"torsion_own": 5,
+"manifold_key": "+LR^2",
+"torsion_main": 5,
+"N_main": 5
+},
+{
+"state": "-LLR",
+"k": 1,
+"d1": 1,
+"d2": 6,
+"torsion_own": 6,
+"manifold_key": "-LLR^1",
+"torsion_main": 6,
+"N_main": 6
+},
+{
+"state": "-LLLLR",
+"k": 1,
+"d1": 1,
+"d2": 8,
+"torsion_own": 8,
+"manifold_key": "-LLLLR^1",
+"torsion_main": 8,
+"N_main": 8
+},
+{
+"state": "+LLLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 9,
+"torsion_own": 9,
+"manifold_key": "+LLLLLLLLLR^1",
+"torsion_main": 9,
+"N_main": 9
+},
+{
+"state": "-LLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 10,
+"torsion_own": 10,
+"manifold_key": "-LLLLLLR^1",
+"torsion_main": 10,
+"N_main": 10
+},
+{
+"state": "-LLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 11,
+"torsion_own": 11,
+"manifold_key": "-LLLLLLLR^1",
+"torsion_main": 11,
+"N_main": 11
+},
+{
+"state": "-LLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 6,
+"torsion_own": 12,
+"manifold_key": "-LLLLRR^1",
+"torsion_main": 12,
+"N_main": 6
+},
+{
+"state": "-LLRLR",
+"k": 1,
+"d1": 1,
+"d2": 12,
+"torsion_own": 12,
+"manifold_key": "-LLRLR^1",
+"torsion_main": 12,
+"N_main": 12
+},
+{
+"state": "-LLLLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 14,
+"torsion_own": 14,
+"manifold_key": "-LLLLLLLLLLR^1",
+"torsion_main": 14,
+"N_main": 14
+},
+{
+"state": "-LLLLLLLLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 15,
+"torsion_own": 15,
+"manifold_key": "-LLLLLLLLLLLR^1",
+"torsion_main": 15,
+"N_main": 15
+},
+{
+"state": "-LLLLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 8,
+"torsion_own": 16,
+"manifold_key": "-LLLLLLRR^1",
+"torsion_main": 16,
+"N_main": 8
+},
+{
+"state": "+LR",
+"k": 3,
+"d1": 4,
+"d2": 4,
+"torsion_own": 16,
+"manifold_key": "+LR^3",
+"torsion_main": 16,
+"N_main": 4
+},
+{
+"state": "-LLLLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 18,
+"torsion_own": 18,
+"manifold_key": "-LLLLLLLRR^1",
+"torsion_main": 18,
+"N_main": 18
+},
+{
+"state": "+LLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 18,
+"torsion_own": 18,
+"manifold_key": "+LLLRLRR^1",
+"torsion_main": 18,
+"N_main": 18
+},
+{
+"state": "+LLLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 20,
+"torsion_own": 20,
+"manifold_key": "+LLLLLLRLR^1",
+"torsion_main": 20,
+"N_main": 20
+},
+{
+"state": "-LLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 20,
+"torsion_own": 20,
+"manifold_key": "-LLLRLLR^1",
+"torsion_main": 20,
+"N_main": 20
+},
+{
+"state": "-LLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 21,
+"torsion_own": 21,
+"manifold_key": "-LLLLLRLR^1",
+"torsion_main": 21,
+"N_main": 21
+},
+{
+"state": "-LLLLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 22,
+"torsion_own": 22,
+"manifold_key": "-LLLLLLRRR^1",
+"torsion_main": 22,
+"N_main": 22
+},
+{
+"state": "+LLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 23,
+"torsion_own": 23,
+"manifold_key": "+LLLLRLRR^1",
+"torsion_main": 23,
+"N_main": 23
+},
+{
+"state": "-LLLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 24,
+"torsion_own": 24,
+"manifold_key": "-LLLLLLRLR^1",
+"torsion_main": 24,
+"N_main": 24
+},
+{
+"state": "-LLLLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 12,
+"torsion_own": 24,
+"manifold_key": "-LLLLRLLR^1",
+"torsion_main": 24,
+"N_main": 12
+},
+{
+"state": "+LLLLLRRRRR",
+"k": 1,
+"d1": 5,
+"d2": 5,
+"torsion_own": 25,
+"manifold_key": "+LLLLLRRRRR^1",
+"torsion_main": 25,
+"N_main": 5
+},
+{
+"state": "+LLLLLLLLLRRR",
+"k": 1,
+"d1": 3,
+"d2": 9,
+"torsion_own": 27,
+"manifold_key": "+LLLLLLLLLRRR^1",
+"torsion_main": 27,
+"N_main": 9
+},
+{
+"state": "+LLLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 27,
+"torsion_own": 27,
+"manifold_key": "+LLLRLLRR^1",
+"torsion_main": 27,
+"N_main": 27
+},
+{
+"state": "+LLLLLLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 14,
+"torsion_own": 28,
+"manifold_key": "+LLLLLLRLLR^1",
+"torsion_main": 28,
+"N_main": 14
+},
+{
+"state": "+LLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 28,
+"torsion_own": 28,
+"manifold_key": "+LLLLLRLRR^1",
+"torsion_main": 28,
+"N_main": 28
+},
+{
+"state": "-LLLLLRRRRR",
+"k": 1,
+"d1": 1,
+"d2": 29,
+"torsion_own": 29,
+"manifold_key": "-LLLLLRRRRR^1",
+"torsion_main": 29,
+"N_main": 29
+},
+{
+"state": "-LLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 30,
+"torsion_own": 30,
+"manifold_key": "-LLLLRLLLR^1",
+"torsion_main": 30,
+"N_main": 30
+},
+{
+"state": "-LLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 31,
+"torsion_own": 31,
+"manifold_key": "-LLLRLLRR^1",
+"torsion_main": 31,
+"N_main": 31
+},
+{
+"state": "-LLLLLLRLLR",
+"k": 1,
+"d1": 4,
+"d2": 8,
+"torsion_own": 32,
+"manifold_key": "-LLLLLLRLLR^1",
+"torsion_main": 32,
+"N_main": 8
+},
+{
+"state": "+LLLLR",
+"k": 2,
+"d1": 2,
+"d2": 16,
+"torsion_own": 32,
+"manifold_key": "+LLLLR^2",
+"torsion_main": 32,
+"N_main": 16
+},
+{
+"state": "-LLLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 16,
+"torsion_own": 32,
+"manifold_key": "-LLLRRLRR^1",
+"torsion_main": 32,
+"N_main": 16
+},
+{
+"state": "+LLLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 33,
+"torsion_own": 33,
+"manifold_key": "+LLLLLLRLRR^1",
+"torsion_main": 33,
+"N_main": 33
+},
+{
+"state": "+LLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 34,
+"torsion_own": 34,
+"manifold_key": "+LLLLRLLRR^1",
+"torsion_main": 34,
+"N_main": 34
+},
+{
+"state": "+LLLLLLLLRLLR",
+"k": 1,
+"d1": 2,
+"d2": 18,
+"torsion_own": 36,
+"manifold_key": "+LLLLLLLLRLLR^1",
+"torsion_main": 36,
+"N_main": 18
+},
+{
+"state": "+LLLLLLRRRRRR",
+"k": 1,
+"d1": 6,
+"d2": 6,
+"torsion_own": 36,
+"manifold_key": "+LLLLLLRRRRRR^1",
+"torsion_main": 36,
+"N_main": 6
+},
+{
+"state": "+LLLRLLLRR",
+"k": 1,
+"d1": 3,
+"d2": 12,
+"torsion_own": 36,
+"manifold_key": "+LLLRLLLRR^1",
+"torsion_main": 36,
+"N_main": 12
+},
+{
+"state": "-LLLLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 37,
+"torsion_own": 37,
+"manifold_key": "-LLLLLLRLRR^1",
+"torsion_main": 37,
+"N_main": 37
+},
+{
+"state": "+LLLLLRLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 38,
+"torsion_own": 38,
+"manifold_key": "+LLLLLRLLLLR^1",
+"torsion_main": 38,
+"N_main": 38
+},
+{
+"state": "+LLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 38,
+"torsion_own": 38,
+"manifold_key": "+LLLRLLRRR^1",
+"torsion_main": 38,
+"N_main": 38
+},
+{
+"state": "-LLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 39,
+"torsion_own": 39,
+"manifold_key": "-LLRLLRLR^1",
+"torsion_main": 39,
+"N_main": 39
+},
+{
+"state": "+LLLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 40,
+"torsion_own": 40,
+"manifold_key": "+LLLLRLRLR^1",
+"torsion_main": 40,
+"N_main": 40
+},
+{
+"state": "+LLLLLLLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 41,
+"torsion_own": 41,
+"manifold_key": "+LLLLLLLRLLLR^1",
+"torsion_main": 41,
+"N_main": 41
+},
+{
+"state": "-LLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 41,
+"torsion_own": 41,
+"manifold_key": "-LLRLRLRR^1",
+"torsion_main": 41,
+"N_main": 41
+},
+{
+"state": "-LLLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 42,
+"torsion_own": 42,
+"manifold_key": "-LLLRLLRRR^1",
+"torsion_main": 42,
+"N_main": 42
+},
+{
+"state": "-LLLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 43,
+"torsion_own": 43,
+"manifold_key": "-LLLLLRLRRR^1",
+"torsion_main": 43,
+"N_main": 43
+},
+{
+"state": "-LLLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 44,
+"torsion_own": 44,
+"manifold_key": "-LLLLRLRLR^1",
+"torsion_main": 44,
+"N_main": 44
+},
+{
+"state": "+LLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 45,
+"torsion_own": 45,
+"manifold_key": "+LLLLLR^2",
+"torsion_main": 45,
+"N_main": 45
+},
+{
+"state": "-LLLLRLRRRR",
+"k": 1,
+"d1": 3,
+"d2": 15,
+"torsion_own": 45,
+"manifold_key": "-LLLLRLRRRR^1",
+"torsion_main": 45,
+"N_main": 15
+},
+{
+"state": "+LLLLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 46,
+"torsion_own": 46,
+"manifold_key": "+LLLLLLRLRRR^1",
+"torsion_main": 46,
+"N_main": 46
+},
+{
+"state": "-LLLLLLLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 47,
+"torsion_own": 47,
+"manifold_key": "-LLLLLLLLRLRR^1",
+"torsion_main": 47,
+"N_main": 47
+},
+{
+"state": "+LLLLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 48,
+"torsion_own": 48,
+"manifold_key": "+LLLLLLRLLRR^1",
+"torsion_main": 48,
+"N_main": 48
+},
+{
+"state": "+LLLLRRRLLR",
+"k": 1,
+"d1": 2,
+"d2": 24,
+"torsion_own": 48,
+"manifold_key": "+LLLLRLLRRR^1",
+"torsion_main": 48,
+"N_main": 24
+},
+{
+"state": "-LLLLRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 49,
+"torsion_own": 49,
+"manifold_key": "-LLLLRLLLRR^1",
+"torsion_main": 49,
+"N_main": 49
+},
+{
+"state": "-LLLLLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "-LLLLLLRLRRR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "-LLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 50,
+"torsion_own": 50,
+"manifold_key": "-LLLRLLRLR^1",
+"torsion_main": 50,
+"N_main": 50
+},
+{
+"state": "+LLLRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 51,
+"torsion_own": 51,
+"manifold_key": "+LLLRLLLRRR^1",
+"torsion_main": 51,
+"N_main": 51
+},
+{
+"state": "-LLLLLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 26,
+"torsion_own": 52,
+"manifold_key": "-LLLLLRLRLR^1",
+"torsion_main": 52,
+"N_main": 26
+},
+{
+"state": "+LLLLLLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 53,
+"torsion_own": 53,
+"manifold_key": "+LLLLLLLRLRRR^1",
+"torsion_main": 53,
+"N_main": 53
+},
+{
+"state": "+LLLLLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "+LLLLLRLLLRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "-LLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "-LLLRLRLRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "+LLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 54,
+"torsion_own": 54,
+"manifold_key": "+LLRLLRLRR^1",
+"torsion_main": 54,
+"N_main": 54
+},
+{
+"state": "+LLLLLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 56,
+"torsion_own": 56,
+"manifold_key": "+LLLLLLRLRLR^1",
+"torsion_main": 56,
+"N_main": 56
+},
+{
+"state": "+LLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 56,
+"torsion_own": 56,
+"manifold_key": "+LLRLRLLRR^1",
+"torsion_main": 56,
+"N_main": 56
+},
+{
+"state": "+LLLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 57,
+"torsion_own": 57,
+"manifold_key": "+LLLLRLLRLR^1",
+"torsion_main": 57,
+"N_main": 57
+},
+{
+"state": "+LLLLLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 58,
+"torsion_own": 58,
+"manifold_key": "+LLLLLRLLRRR^1",
+"torsion_main": 58,
+"N_main": 58
+},
+{
+"state": "-LLLLLLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 59,
+"torsion_own": 59,
+"manifold_key": "-LLLLLLLRLLRR^1",
+"torsion_main": 59,
+"N_main": 59
+},
+{
+"state": "-LLLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "+LLLLLLR^2",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "+LLLLLRRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 60,
+"torsion_own": 60,
+"manifold_key": "+LLLLLRRLRRR^1",
+"torsion_main": 60,
+"N_main": 60
+},
+{
+"state": "+LLLRLLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 30,
+"torsion_own": 60,
+"manifold_key": "+LLLRLLLRLR^1",
+"torsion_main": 60,
+"N_main": 30
+},
+{
+"state": "+LLLLLRLRRRRR",
+"k": 1,
+"d1": 1,
+"d2": 61,
+"torsion_own": 61,
+"manifold_key": "+LLLLLRLRRRRR^1",
+"torsion_main": 61,
+"N_main": 61
+},
+{
+"state": "-LLLLLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 62,
+"torsion_own": 62,
+"manifold_key": "-LLLLLRLLRRR^1",
+"torsion_main": 62,
+"N_main": 62
+},
+{
+"state": "+LLLLLLRLLLRR",
+"k": 1,
+"d1": 3,
+"d2": 21,
+"torsion_own": 63,
+"manifold_key": "+LLLLLLRLLLRR^1",
+"torsion_main": 63,
+"N_main": 21
+},
+{
+"state": "+LLLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 63,
+"torsion_own": 63,
+"manifold_key": "+LLLLRLRLRR^1",
+"torsion_main": 63,
+"N_main": 63
+},
+{
+"state": "-LLLLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 64,
+"torsion_own": 64,
+"manifold_key": "-LLLLLRRLRRR^1",
+"torsion_main": 64,
+"N_main": 64
+},
+{
+"state": "+LLLLRRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 64,
+"torsion_own": 64,
+"manifold_key": "+LLLLRLLLRRR^1",
+"torsion_main": 64,
+"N_main": 64
+},
+{
+"state": "+LLLRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 65,
+"torsion_own": 65,
+"manifold_key": "+LLLRLLRLLR^1",
+"torsion_main": 65,
+"N_main": 65
+},
+{
+"state": "+LLLLRRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 66,
+"torsion_own": 66,
+"manifold_key": "+LLLLRRRLRRR^1",
+"torsion_main": 66,
+"N_main": 66
+},
+{
+"state": "+LLLLLRLLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 67,
+"torsion_own": 67,
+"manifold_key": "+LLLLLRLLLLRR^1",
+"torsion_main": 67,
+"N_main": 67
+},
+{
+"state": "-LLLLLLLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 34,
+"torsion_own": 68,
+"manifold_key": "-LLLLLLLRLRLR^1",
+"torsion_main": 68,
+"N_main": 34
+},
+{
+"state": "+LLLLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 68,
+"torsion_own": 68,
+"manifold_key": "+LLLLLRLLRLR^1",
+"torsion_main": 68,
+"N_main": 68
+},
+{
+"state": "+LLLRLRLRRR",
+"k": 1,
+"d1": 2,
+"d2": 34,
+"torsion_own": 68,
+"manifold_key": "+LLLRLRLRRR^1",
+"torsion_main": 68,
+"N_main": 34
+},
+{
+"state": "-LLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 70,
+"torsion_own": 70,
+"manifold_key": "-LLRLRLRLR^1",
+"torsion_main": 70,
+"N_main": 70
+},
+{
+"state": "-LLLLLRRLLLLR",
+"k": 1,
+"d1": 1,
+"d2": 71,
+"torsion_own": 71,
+"manifold_key": "-LLLLLRLLLLRR^1",
+"torsion_main": 71,
+"N_main": 71
+},
+{
+"state": "-LLLLLLRRRLLR",
+"k": 1,
+"d1": 2,
+"d2": 36,
+"torsion_own": 72,
+"manifold_key": "-LLLLLLRLLRRR^1",
+"torsion_main": 72,
+"N_main": 36
+},
+{
+"state": "-LLLLLRRLLRR",
+"k": 1,
+"d1": 3,
+"d2": 24,
+"torsion_own": 72,
+"manifold_key": "-LLLLLRRLLRR^1",
+"torsion_main": 72,
+"N_main": 24
+},
+{
+"state": "+LLLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 73,
+"torsion_own": 73,
+"manifold_key": "+LLLRLRRLRR^1",
+"torsion_main": 73,
+"N_main": 73
+},
+{
+"state": "-LLLLLLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "-LLLLLLRRLRRR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "-LLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 75,
+"torsion_own": 75,
+"manifold_key": "-LLLRLLRRLR^1",
+"torsion_main": 75,
+"N_main": 75
+},
+{
+"state": "+LLLLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 76,
+"torsion_own": 76,
+"manifold_key": "+LLLLLRLRLRR^1",
+"torsion_main": 76,
+"N_main": 76
+},
+{
+"state": "+LLLLLRRRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 38,
+"torsion_own": 76,
+"manifold_key": "+LLLLLRRLRRRR^1",
+"torsion_main": 76,
+"N_main": 38
+},
+{
+"state": "-LLLLLLLR",
+"k": 2,
+"d1": 1,
+"d2": 77,
+"torsion_own": 77,
+"manifold_key": "+LLLLLLLR^2",
+"torsion_main": 77,
+"N_main": 77
+},
+{
+"state": "-LLLRLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 77,
+"torsion_own": 77,
+"manifold_key": "-LLLRLRRLRR^1",
+"torsion_main": 77,
+"N_main": 77
+},
+{
+"state": "-LLLLRLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 78,
+"torsion_own": 78,
+"manifold_key": "-LLLLRLLLRLR^1",
+"torsion_main": 78,
+"N_main": 78
+},
+{
+"state": "+LLLLLLRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 79,
+"torsion_own": 79,
+"manifold_key": "+LLLLLLRLLRLR^1",
+"torsion_main": 79,
+"N_main": 79
+},
+{
+"state": "-LLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 79,
+"torsion_own": 79,
+"manifold_key": "-LLLRLRLLRR^1",
+"torsion_main": 79,
+"N_main": 79
+},
+{
+"state": "-LLLLLRRLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 40,
+"torsion_own": 80,
+"manifold_key": "-LLLLLRRLRRRR^1",
+"torsion_main": 80,
+"N_main": 40
+},
+{
+"state": "+LLLLRLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 80,
+"torsion_own": 80,
+"manifold_key": "+LLLLRLRRRLR^1",
+"torsion_main": 80,
+"N_main": 80
+},
+{
+"state": "-LLLLLRRRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 81,
+"torsion_own": 81,
+"manifold_key": "-LLLLLRLLLRRR^1",
+"torsion_main": 81,
+"N_main": 81
+},
+{
+"state": "-LLLLRRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 82,
+"torsion_own": 82,
+"manifold_key": "-LLLLRRLLRRR^1",
+"torsion_main": 82,
+"N_main": 82
+},
+{
+"state": "+LLLLRLLLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 83,
+"torsion_own": 83,
+"manifold_key": "+LLLLRLLLRRRR^1",
+"torsion_main": 83,
+"N_main": 83
+},
+{
+"state": "-LLLLRLLLLRRR",
+"k": 1,
+"d1": 2,
+"d2": 42,
+"torsion_own": 84,
+"manifold_key": "-LLLLRLLLLRRR^1",
+"torsion_main": 84,
+"N_main": 42
+},
+{
+"state": "+LLLRRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 84,
+"torsion_own": 84,
+"manifold_key": "+LLLRRLLLRRR^1",
+"torsion_main": 84,
+"N_main": 84
+},
+{
+"state": "+LLRLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 85,
+"torsion_own": 85,
+"manifold_key": "+LLRLRRLLRR^1",
+"torsion_main": 85,
+"N_main": 85
+},
+{
+"state": "-LLLLRRRLRRRR",
+"k": 1,
+"d1": 1,
+"d2": 87,
+"torsion_own": 87,
+"manifold_key": "-LLLLRLLLRRRR^1",
+"torsion_main": 87,
+"N_main": 87
+},
+{
+"state": "+LLLLLRLRLLLR",
+"k": 1,
+"d1": 2,
+"d2": 44,
+"torsion_own": 88,
+"manifold_key": "+LLLLLRLLLRLR^1",
+"torsion_main": 88,
+"N_main": 44
+},
+{
+"state": "-LLLRRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 88,
+"torsion_own": 88,
+"manifold_key": "-LLLRRLLLRRR^1",
+"torsion_main": 88,
+"N_main": 88
+},
+{
+"state": "+LLLLRLLRLRR",
+"k": 1,
+"d1": 3,
+"d2": 30,
+"torsion_own": 90,
+"manifold_key": "+LLLLRLLRLRR^1",
+"torsion_main": 90,
+"N_main": 30
+},
+{
+"state": "+LLLLRLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 91,
+"torsion_own": 91,
+"manifold_key": "+LLLLRLLLLRLR^1",
+"torsion_main": 91,
+"N_main": 91
+},
+{
+"state": "+LLLLLRRLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 46,
+"torsion_own": 92,
+"manifold_key": "+LLLLLRRLLLRR^1",
+"torsion_main": 92,
+"N_main": 46
+},
+{
+"state": "+LLLLRRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 92,
+"torsion_own": 92,
+"manifold_key": "+LLLLRLRRLRR^1",
+"torsion_main": 92,
+"N_main": 92
+},
+{
+"state": "+LLLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 94,
+"torsion_own": 94,
+"manifold_key": "+LLLLRLRLLRR^1",
+"torsion_main": 94,
+"N_main": 94
+},
+{
+"state": "+LLLRLLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 94,
+"torsion_own": 94,
+"manifold_key": "+LLLRLLLRLRR^1",
+"torsion_main": 94,
+"N_main": 94
+},
+{
+"state": "-LLLLRLLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 95,
+"torsion_own": 95,
+"manifold_key": "-LLLLRLLLLRLR^1",
+"torsion_main": 95,
+"N_main": 95
+},
+{
+"state": "+LLLLLRLRRRLR",
+"k": 1,
+"d1": 2,
+"d2": 48,
+"torsion_own": 96,
+"manifold_key": "+LLLLLRLRRRLR^1",
+"torsion_main": 96,
+"N_main": 48
+},
+{
+"state": "+LLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 24,
+"torsion_own": 96,
+"manifold_key": "+LLLLRR^2",
+"torsion_main": 96,
+"N_main": 24
+},
+{
+"state": "-LLRLR",
+"k": 2,
+"d1": 2,
+"d2": 48,
+"torsion_own": 96,
+"manifold_key": "+LLRLR^2",
+"torsion_main": 96,
+"N_main": 48
+},
+{
+"state": "-LLLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 98,
+"torsion_own": 98,
+"manifold_key": "-LLLLRLRLLRR^1",
+"torsion_main": 98,
+"N_main": 98
+},
+{
+"state": "+LLLRLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 98,
+"torsion_own": 98,
+"manifold_key": "+LLLRLLRLRRR^1",
+"torsion_main": 98,
+"N_main": 98
+},
+{
+"state": "-LLLLLRRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 99,
+"torsion_own": 99,
+"manifold_key": "-LLLLLRRLLRRR^1",
+"torsion_main": 99,
+"N_main": 99
+},
+{
+"state": "+LLLLRRLLRRRR",
+"k": 1,
+"d1": 2,
+"d2": 50,
+"torsion_own": 100,
+"manifold_key": "+LLLLRRLLRRRR^1",
+"torsion_main": 100,
+"N_main": 50
+},
+{
+"state": "+LLRLRLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 50,
+"torsion_own": 100,
+"manifold_key": "+LLRLRLRLRR^1",
+"torsion_main": 100,
+"N_main": 50
+},
+{
+"state": "-LLLRLRRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 102,
+"torsion_own": 102,
+"manifold_key": "-LLLRLLRLRRR^1",
+"torsion_main": 102,
+"N_main": 102
+},
+{
+"state": "+LLLLLRRRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 52,
+"torsion_own": 104,
+"manifold_key": "+LLLLLRLRLRRR^1",
+"torsion_main": 104,
+"N_main": 52
+},
+{
+"state": "-LLLRLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 104,
+"torsion_own": 104,
+"manifold_key": "-LLLRLRLLLRR^1",
+"torsion_main": 104,
+"N_main": 104
+},
+{
+"state": "+LLLLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 105,
+"torsion_own": 105,
+"manifold_key": "+LLLLLRLLRRLR^1",
+"torsion_main": 105,
+"N_main": 105
+},
+{
+"state": "-LLLLRLLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 107,
+"torsion_own": 107,
+"manifold_key": "-LLLLRLLLRLLR^1",
+"torsion_main": 107,
+"N_main": 107
+},
+{
+"state": "+LLLLLRLLRLRR",
+"k": 1,
+"d1": 2,
+"d2": 54,
+"torsion_own": 108,
+"manifold_key": "+LLLLLRLLRLRR^1",
+"torsion_main": 108,
+"N_main": 54
+},
+{
+"state": "+LLLLRLRLRLR",
+"k": 1,
+"d1": 3,
+"d2": 36,
+"torsion_own": 108,
+"manifold_key": "+LLLLRLRLRLR^1",
+"torsion_main": 108,
+"N_main": 36
+},
+{
+"state": "+LLLRLLRRLRR",
+"k": 1,
+"d1": 1,
+"d2": 108,
+"torsion_own": 108,
+"manifold_key": "+LLLRLLRRLRR^1",
+"torsion_main": 108,
+"N_main": 108
+},
+{
+"state": "-LLLLLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 109,
+"torsion_own": 109,
+"manifold_key": "-LLLLLRLLRRLR^1",
+"torsion_main": 109,
+"N_main": 109
+},
+{
+"state": "-LLLRRLLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 110,
+"torsion_own": 110,
+"manifold_key": "-LLLRLLRLLRR^1",
+"torsion_main": 110,
+"N_main": 110
+},
+{
+"state": "-LLLLRRLLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 111,
+"torsion_own": 111,
+"manifold_key": "-LLLLRRLLLRRR^1",
+"torsion_main": 111,
+"N_main": 111
+},
+{
+"state": "-LLLLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 112,
+"torsion_own": 112,
+"manifold_key": "-LLLLRLRLRLR^1",
+"torsion_main": 112,
+"N_main": 112
+},
+{
+"state": "-LLLRRLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 112,
+"torsion_own": 112,
+"manifold_key": "-LLLRLLRRLRR^1",
+"torsion_main": 112,
+"N_main": 112
+},
+{
+"state": "+LLLRLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 114,
+"torsion_own": 114,
+"manifold_key": "+LLLRLRRLLRR^1",
+"torsion_main": 114,
+"N_main": 114
+},
+{
+"state": "-LLLLLRRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 115,
+"torsion_own": 115,
+"manifold_key": "-LLLLLRLRRLRR^1",
+"torsion_main": 115,
+"N_main": 115
+},
+{
+"state": "+LLLRRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 116,
+"torsion_own": 116,
+"manifold_key": "+LLLRRLLRLRR^1",
+"torsion_main": 116,
+"N_main": 116
+},
+{
+"state": "-LLLLLRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 117,
+"torsion_own": 117,
+"manifold_key": "-LLLLLRLRLLRR^1",
+"torsion_main": 117,
+"N_main": 117
+},
+{
+"state": "+LLLRRR",
+"k": 2,
+"d1": 3,
+"d2": 39,
+"torsion_own": 117,
+"manifold_key": "+LLLRRR^2",
+"torsion_main": 117,
+"N_main": 39
+},
+{
+"state": "+LLLLRLLRRRLR",
+"k": 1,
+"d1": 1,
+"d2": 119,
+"torsion_own": 119,
+"manifold_key": "+LLLLRLLRRRLR^1",
+"torsion_main": 119,
+"N_main": 119
+},
+{
+"state": "-LLLRRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 120,
+"torsion_own": 120,
+"manifold_key": "-LLLRRLLRLRR^1",
+"torsion_main": 120,
+"N_main": 120
+},
+{
+"state": "-LLLLRRLRLLLR",
+"k": 1,
+"d1": 1,
+"d2": 121,
+"torsion_own": 121,
+"manifold_key": "-LLLLRLLLRLRR^1",
+"torsion_main": 121,
+"N_main": 121
+},
+{
+"state": "+LLLLRLLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 123,
+"torsion_own": 123,
+"manifold_key": "+LLLLRLLRLRRR^1",
+"torsion_main": 123,
+"N_main": 123
+},
+{
+"state": "+LLLLRLRRLRRR",
+"k": 1,
+"d1": 2,
+"d2": 62,
+"torsion_own": 124,
+"manifold_key": "+LLLLRLRRLRRR^1",
+"torsion_main": 124,
+"N_main": 62
+},
+{
+"state": "+LLLLRLRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 125,
+"torsion_own": 125,
+"manifold_key": "+LLLLRLRLLLRR^1",
+"torsion_main": 125,
+"N_main": 125
+},
+{
+"state": "-LR",
+"k": 5,
+"d1": 5,
+"d2": 25,
+"torsion_own": 125,
+"manifold_key": "-LR^5",
+"torsion_main": 125,
+"N_main": 25
+},
+{
+"state": "-LLLLRRRLRLLR",
+"k": 1,
+"d1": 1,
+"d2": 127,
+"torsion_own": 127,
+"manifold_key": "-LLLLRLLRLRRR^1",
+"torsion_main": 127,
+"N_main": 127
+},
+{
+"state": "+LLLRLLLRLRRR",
+"k": 1,
+"d1": 2,
+"d2": 64,
+"torsion_own": 128,
+"manifold_key": "+LLLRLLLRLRRR^1",
+"torsion_main": 128,
+"N_main": 64
+},
+{
+"state": "+LLLRLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 128,
+"torsion_own": 128,
+"manifold_key": "+LLLRLRLRRLR^1",
+"torsion_main": 128,
+"N_main": 128
+},
+{
+"state": "-LLLLRRLLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 129,
+"torsion_own": 129,
+"manifold_key": "-LLLLRLRLLLRR^1",
+"torsion_main": 129,
+"N_main": 129
+},
+{
+"state": "+LLLLRRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 131,
+"torsion_own": 131,
+"manifold_key": "+LLLLRLRLLRRR^1",
+"torsion_main": 131,
+"N_main": 131
+},
+{
+"state": "-LLLRLLLRLRRR",
+"k": 1,
+"d1": 2,
+"d2": 66,
+"torsion_own": 132,
+"manifold_key": "-LLLRLLLRLRRR^1",
+"torsion_main": 132,
+"N_main": 66
+},
+{
+"state": "-LLLLLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 133,
+"torsion_own": 133,
+"manifold_key": "-LLLLLRLRLRLR^1",
+"torsion_main": 133,
+"N_main": 133
+},
+{
+"state": "+LLLRRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 134,
+"torsion_own": 134,
+"manifold_key": "+LLLRLRLRLRR^1",
+"torsion_main": 134,
+"N_main": 134
+},
+{
+"state": "-LLLLRRRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 135,
+"torsion_own": 135,
+"manifold_key": "-LLLLRLRLLRRR^1",
+"torsion_main": 135,
+"N_main": 135
+},
+{
+"state": "-LLLLRRLRLRRR",
+"k": 1,
+"d1": 1,
+"d2": 137,
+"torsion_own": 137,
+"manifold_key": "-LLLLRRLRLRRR^1",
+"torsion_main": 137,
+"N_main": 137
+},
+{
+"state": "-LLLRLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 138,
+"torsion_own": 138,
+"manifold_key": "-LLLRLRLRLRR^1",
+"torsion_main": 138,
+"N_main": 138
+},
+{
+"state": "-LLLLLLLLLLR",
+"k": 2,
+"d1": 2,
+"d2": 70,
+"torsion_own": 140,
+"manifold_key": "+LLLLLLLLLLR^2",
+"torsion_main": 140,
+"N_main": 70
+},
+{
+"state": "+LLLLRRLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 70,
+"torsion_own": 140,
+"manifold_key": "+LLLLRRLRRLRR^1",
+"torsion_main": 140,
+"N_main": 70
+},
+{
+"state": "+LLRLLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 140,
+"torsion_own": 140,
+"manifold_key": "+LLRLLRLRRLR^1",
+"torsion_main": 140,
+"N_main": 140
+},
+{
+"state": "+LLLLRRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 143,
+"torsion_own": 143,
+"manifold_key": "+LLLLRLRRLLRR^1",
+"torsion_main": 143,
+"N_main": 143
+},
+{
+"state": "-LLLRLLRLLLRR",
+"k": 1,
+"d1": 2,
+"d2": 72,
+"torsion_own": 144,
+"manifold_key": "-LLLRLLRLLLRR^1",
+"torsion_main": 144,
+"N_main": 72
+},
+{
+"state": "+LLRLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 144,
+"torsion_own": 144,
+"manifold_key": "+LLRLLRLRLRR^1",
+"torsion_main": 144,
+"N_main": 144
+},
+{
+"state": "+LLRLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 146,
+"torsion_own": 146,
+"manifold_key": "+LLRLRLLRLRR^1",
+"torsion_main": 146,
+"N_main": 146
+},
+{
+"state": "-LLLLRRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 147,
+"torsion_own": 147,
+"manifold_key": "-LLLLRLRRLLRR^1",
+"torsion_main": 147,
+"N_main": 147
+},
+{
+"state": "-LLLRLLRRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 147,
+"torsion_own": 147,
+"manifold_key": "-LLLRLLRRRLLR^1",
+"torsion_main": 147,
+"N_main": 147
+},
+{
+"state": "-LLRLLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 148,
+"torsion_own": 148,
+"manifold_key": "-LLRLLRLRLRR^1",
+"torsion_main": 148,
+"N_main": 148
+},
+{
+"state": "-LLRLRLLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 150,
+"torsion_own": 150,
+"manifold_key": "-LLRLRLLRLRR^1",
+"torsion_main": 150,
+"N_main": 150
+},
+{
+"state": "-LLLRLLRLLRRR",
+"k": 1,
+"d1": 1,
+"d2": 151,
+"torsion_own": 151,
+"manifold_key": "-LLLRLLRLLRRR^1",
+"torsion_main": 151,
+"N_main": 151
+},
+{
+"state": "+LLLRLRRRLLRR",
+"k": 1,
+"d1": 3,
+"d2": 51,
+"torsion_own": 153,
+"manifold_key": "+LLLRLRRRLLRR^1",
+"torsion_main": 153,
+"N_main": 51
+},
+{
+"state": "+LLLLRLRLLRLR",
+"k": 1,
+"d1": 2,
+"d2": 78,
+"torsion_own": 156,
+"manifold_key": "+LLLLRLRLLRLR^1",
+"torsion_main": 156,
+"N_main": 78
+},
+{
+"state": "-LLLRLRRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 157,
+"torsion_own": 157,
+"manifold_key": "-LLLRLRRRLLRR^1",
+"torsion_main": 157,
+"N_main": 157
+},
+{
+"state": "-LLLRLRRLLLRR",
+"k": 1,
+"d1": 1,
+"d2": 159,
+"torsion_own": 159,
+"manifold_key": "-LLLRLRRLLLRR^1",
+"torsion_main": 159,
+"N_main": 159
+},
+{
+"state": "+LLLRLLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 161,
+"torsion_own": 161,
+"manifold_key": "+LLLRLLLRLRLR^1",
+"torsion_main": 161,
+"N_main": 161
+},
+{
+"state": "-LLLLRLRRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 163,
+"torsion_own": 163,
+"manifold_key": "-LLLLRLRLRRLR^1",
+"torsion_main": 163,
+"N_main": 163
+},
+{
+"state": "-LLLRLLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 165,
+"torsion_own": 165,
+"manifold_key": "-LLLRLLLRLRLR^1",
+"torsion_main": 165,
+"N_main": 165
+},
+{
+"state": "+LLLRRLLRRLLR",
+"k": 1,
+"d1": 1,
+"d2": 167,
+"torsion_own": 167,
+"manifold_key": "+LLLRLLRRLLRR^1",
+"torsion_main": 167,
+"N_main": 167
+},
+{
+"state": "-LLLRLLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 171,
+"torsion_own": 171,
+"manifold_key": "-LLLRLLRRLLRR^1",
+"torsion_main": 171,
+"N_main": 171
+},
+{
+"state": "-LLLLRRLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 86,
+"torsion_own": 172,
+"manifold_key": "-LLLLRLRLRLRR^1",
+"torsion_main": 172,
+"N_main": 86
+},
+{
+"state": "-LLLRRLLRLLRR",
+"k": 1,
+"d1": 5,
+"d2": 35,
+"torsion_own": 175,
+"manifold_key": "-LLLRRLLRLLRR^1",
+"torsion_main": 175,
+"N_main": 35
+},
+{
+"state": "+LLRLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 176,
+"torsion_own": 176,
+"manifold_key": "+LLRLRLRLRLR^1",
+"torsion_main": 176,
+"N_main": 176
+},
+{
+"state": "-LLRLRLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 180,
+"torsion_own": 180,
+"manifold_key": "-LLRLRLRLRLR^1",
+"torsion_main": 180,
+"N_main": 180
+},
+{
+"state": "+LLLRLLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 183,
+"torsion_own": 183,
+"manifold_key": "+LLLRLLRLRRLR^1",
+"torsion_main": 183,
+"N_main": 183
+},
+{
+"state": "-LLLRLLRLRRLR",
+"k": 1,
+"d1": 1,
+"d2": 187,
+"torsion_own": 187,
+"manifold_key": "-LLLRLLRLRRLR^1",
+"torsion_main": 187,
+"N_main": 187
+},
+{
+"state": "-LLLRLRRLRRLR",
+"k": 1,
+"d1": 3,
+"d2": 63,
+"torsion_own": 189,
+"manifold_key": "-LLLRLRRLRRLR^1",
+"torsion_main": 189,
+"N_main": 63
+},
+{
+"state": "+LLLLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 48,
+"torsion_own": 192,
+"manifold_key": "+LLLLLLRR^2",
+"torsion_main": 192,
+"N_main": 48
+},
+{
+"state": "+LLLRLRLLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 96,
+"torsion_own": 192,
+"manifold_key": "+LLLRLRLLRRLR^1",
+"torsion_main": 192,
+"N_main": 96
+},
+{
+"state": "+LLR",
+"k": 4,
+"d1": 8,
+"d2": 24,
+"torsion_own": 192,
+"manifold_key": "+LLR^4",
+"torsion_main": 192,
+"N_main": 24
+},
+{
+"state": "+LLLRLRLLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 195,
+"torsion_own": 195,
+"manifold_key": "+LLLRLRLLRLRR^1",
+"torsion_main": 195,
+"N_main": 195
+},
+{
+"state": "-LLLRLRLLRRLR",
+"k": 1,
+"d1": 2,
+"d2": 98,
+"torsion_own": 196,
+"manifold_key": "-LLLRLRLLRRLR^1",
+"torsion_main": 196,
+"N_main": 98
+},
+{
+"state": "+LLRR",
+"k": 3,
+"d1": 14,
+"d2": 14,
+"torsion_own": 196,
+"manifold_key": "+LLRR^3",
+"torsion_main": 196,
+"N_main": 14
+},
+{
+"state": "-LLLRRLRLLRLR",
+"k": 1,
+"d1": 1,
+"d2": 199,
+"torsion_own": 199,
+"manifold_key": "-LLLRLRLLRLRR^1",
+"torsion_main": 199,
+"N_main": 199
+},
+{
+"state": "+LLLRRLLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 100,
+"torsion_own": 200,
+"manifold_key": "+LLLRLRLRLLRR^1",
+"torsion_main": 200,
+"N_main": 100
+},
+{
+"state": "-LLLRRLLRLRLR",
+"k": 1,
+"d1": 2,
+"d2": 102,
+"torsion_own": 204,
+"manifold_key": "-LLLRLRLRLLRR^1",
+"torsion_main": 204,
+"N_main": 102
+},
+{
+"state": "+LLRLLRLRRLRR",
+"k": 1,
+"d1": 4,
+"d2": 52,
+"torsion_own": 208,
+"manifold_key": "+LLRLLRLRRLRR^1",
+"torsion_main": 208,
+"N_main": 52
+},
+{
+"state": "-LLRLLRLRRLRR",
+"k": 1,
+"d1": 2,
+"d2": 106,
+"torsion_own": 212,
+"manifold_key": "-LLRLLRLRRLRR^1",
+"torsion_main": 212,
+"N_main": 106
+},
+{
+"state": "-LLRLLRLRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 219,
+"torsion_own": 219,
+"manifold_key": "-LLRLLRLRLLRR^1",
+"torsion_main": 219,
+"N_main": 219
+},
+{
+"state": "-LLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 221,
+"torsion_own": 221,
+"manifold_key": "+LLRLRR^2",
+"torsion_main": 221,
+"N_main": 221
+},
+{
+"state": "-LLRLRLRRLLRR",
+"k": 1,
+"d1": 1,
+"d2": 229,
+"torsion_own": 229,
+"manifold_key": "-LLRLRLRRLLRR^1",
+"torsion_main": 229,
+"N_main": 229
+},
+{
+"state": "+LLLLLLLRR",
+"k": 2,
+"d1": 2,
+"d2": 126,
+"torsion_own": 252,
+"manifold_key": "+LLLLLLLRR^2",
+"torsion_main": 252,
+"N_main": 126
+},
+{
+"state": "+LLRLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 255,
+"torsion_own": 255,
+"manifold_key": "+LLRLRLLRLRLR^1",
+"torsion_main": 255,
+"N_main": 255
+},
+{
+"state": "-LLRLRLLRLRLR",
+"k": 1,
+"d1": 1,
+"d2": 259,
+"torsion_own": 259,
+"manifold_key": "-LLRLRLLRLRLR^1",
+"torsion_main": 259,
+"N_main": 259
+},
+{
+"state": "-LLRLRLRLRLRR",
+"k": 1,
+"d1": 1,
+"d2": 269,
+"torsion_own": 269,
+"manifold_key": "-LLRLRLRLRLRR^1",
+"torsion_main": 269,
+"N_main": 269
+},
+{
+"state": "+LLLLLLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 80,
+"torsion_own": 320,
+"manifold_key": "+LLLLLLLLRR^2",
+"torsion_main": 320,
+"N_main": 80
+},
+{
+"state": "-LLLRLLR",
+"k": 2,
+"d1": 2,
+"d2": 160,
+"torsion_own": 320,
+"manifold_key": "+LLLRLLR^2",
+"torsion_main": 320,
+"N_main": 160
+},
+{
+"state": "-LLLLLR",
+"k": 3,
+"d1": 6,
+"d2": 54,
+"torsion_own": 324,
+"manifold_key": "-LLLLLR^3",
+"torsion_main": 324,
+"N_main": 54
+},
+{
+"state": "+LLLLLLLLLRR",
+"k": 2,
+"d1": 2,
+"d2": 198,
+"torsion_own": 396,
+"manifold_key": "+LLLLLLLLLRR^2",
+"torsion_main": 396,
+"N_main": 198
+},
+{
+"state": "+LLLRLRR",
+"k": 2,
+"d1": 2,
+"d2": 198,
+"torsion_own": 396,
+"manifold_key": "+LLLRLRR^2",
+"torsion_main": 396,
+"N_main": 198
+},
+{
+"state": "+LLLLLLLLLLRR",
+"k": 2,
+"d1": 4,
+"d2": 120,
+"torsion_own": 480,
+"manifold_key": "+LLLLLLLLLLRR^2",
+"torsion_main": 480,
+"N_main": 120
+},
+{
+"state": "+LLLLLRRRR",
+"k": 2,
+"d1": 2,
+"d2": 240,
+"torsion_own": 480,
+"manifold_key": "+LLLLLRRRR^2",
+"torsion_main": 480,
+"N_main": 240
+},
+{
+"state": "+LLRLLRR",
+"k": 2,
+"d1": 2,
+"d2": 240,
+"torsion_own": 480,
+"manifold_key": "+LLRLLRR^2",
+"torsion_main": 480,
+"N_main": 240
+},
+{
+"state": "-LLLRR",
+"k": 3,
+"d1": 7,
+"d2": 70,
+"torsion_own": 490,
+"manifold_key": "-LLLRR^3",
+"torsion_main": 490,
+"N_main": 70
+},
+{
+"state": "+LLLR",
+"k": 4,
+"d1": 5,
+"d2": 105,
+"torsion_own": 525,
+"manifold_key": "+LLLR^4",
+"torsion_main": 525,
+"N_main": 105
+},
+{
+"state": "+LLLLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 621,
+"torsion_own": 621,
+"manifold_key": "+LLLLRLRR^2",
+"torsion_main": 621,
+"N_main": 621
+},
+{
+"state": "+LLLLLLLLRRR",
+"k": 2,
+"d1": 2,
+"d2": 336,
+"torsion_own": 672,
+"manifold_key": "+LLLLLLLLRRR^2",
+"torsion_main": 672,
+"N_main": 336
+},
+{
+"state": "+LLLLLRLLR",
+"k": 2,
+"d1": 2,
+"d2": 336,
+"torsion_own": 672,
+"manifold_key": "+LLLLLRLLR^2",
+"torsion_main": 672,
+"N_main": 336
+},
+{
+"state": "-LLLLLLLR",
+"k": 3,
+"d1": 8,
+"d2": 88,
+"torsion_own": 704,
+"manifold_key": "-LLLLLLLR^3",
+"torsion_main": 704,
+"N_main": 88
+},
+{
+"state": "-LLLRLRRR",
+"k": 2,
+"d1": 1,
+"d2": 725,
+"torsion_own": 725,
+"manifold_key": "+LLLRLRRR^2",
+"torsion_main": 725,
+"N_main": 725
+},
+{
+"state": "+LLLLLLLLRLR",
+"k": 2,
+"d1": 2,
+"d2": 390,
+"torsion_own": 780,
+"manifold_key": "+LLLLLLLLRLR^2",
+"torsion_main": 780,
+"N_main": 390
+},
+{
+"state": "+LLLLLLLLLRRR",
+"k": 2,
+"d1": 3,
+"d2": 279,
+"torsion_own": 837,
+"manifold_key": "+LLLLLLLLLRRR^2",
+"torsion_main": 837,
+"N_main": 279
+},
+{
+"state": "+LLLRRLLR",
+"k": 2,
+"d1": 1,
+"d2": 837,
+"torsion_own": 837,
+"manifold_key": "+LLLRLLRR^2",
+"torsion_main": 837,
+"N_main": 837
+},
+{
+"state": "+LLLLLLLRRRR",
+"k": 2,
+"d1": 2,
+"d2": 448,
+"torsion_own": 896,
+"manifold_key": "+LLLLLLLRRRR^2",
+"torsion_main": 896,
+"N_main": 448
+},
+{
+"state": "+LLLLLRLRR",
+"k": 2,
+"d1": 2,
+"d2": 448,
+"torsion_own": 896,
+"manifold_key": "+LLLLLRLRR^2",
+"torsion_main": 896,
+"N_main": 448
+},
+{
+"state": "+LLLRRLRR",
+"k": 2,
+"d1": 4,
+"d2": 224,
+"torsion_own": 896,
+"manifold_key": "+LLLRRLRR^2",
+"torsion_main": 896,
+"N_main": 224
+},
+{
+"state": "+LLLLRR",
+"k": 3,
+"d1": 22,
+"d2": 44,
+"torsion_own": 968,
+"manifold_key": "+LLLLRR^3",
+"torsion_main": 968,
+"N_main": 44
+},
+{
+"state": "-LLRLR",
+"k": 3,
+"d1": 9,
+"d2": 108,
+"torsion_own": 972,
+"manifold_key": "-LLRLR^3",
+"torsion_main": 972,
+"N_main": 108
+},
+{
+"state": "+LLLLLRLLLR",
+"k": 2,
+"d1": 1,
+"d2": 1085,
+"torsion_own": 1085,
+"manifold_key": "+LLLLLRLLLR^2",
+"torsion_main": 1085,
+"N_main": 1085
+},
+{
+"state": "+LLLLLLLRLLR",
+"k": 2,
+"d1": 2,
+"d2": 576,
+"torsion_own": 1152,
+"manifold_key": "+LLLLLLLRLLR^2",
+"torsion_main": 1152,
+"N_main": 576
+},
+{
+"state": "+LLLLRLRRR",
+"k": 2,
+"d1": 2,
+"d2": 576,
+"torsion_own": 1152,
+"manifold_key": "+LLLLRLRRR^2",
+"torsion_main": 1152,
+"N_main": 576
+},
+{
+"state": "+LLLRLRLR",
+"k": 2,
+"d1": 4,
+"d2": 288,
+"torsion_own": 1152,
+"manifold_key": "+LLLRLRLR^2",
+"torsion_main": 1152,
+"N_main": 288
+},
+{
+"state": "+LLLLLLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 1221,
+"torsion_own": 1221,
+"manifold_key": "+LLLLLLRLRR^2",
+"torsion_main": 1221,
+"N_main": 1221
+},
+{
+"state": "+LLLLRLLRR",
+"k": 2,
+"d1": 2,
+"d2": 646,
+"torsion_own": 1292,
+"manifold_key": "+LLLLRLLRR^2",
+"torsion_main": 1292,
+"N_main": 646
+},
+{
+"state": "+LLLRRR",
+"k": 3,
+"d1": 36,
+"d2": 36,
+"torsion_own": 1296,
+"manifold_key": "+LLLRRR^3",
+"torsion_main": 1296,
+"N_main": 36
+},
+{
+"state": "+LLLLLLLRRRRR",
+"k": 2,
+"d1": 1,
+"d2": 1365,
+"torsion_own": 1365,
+"manifold_key": "+LLLLLLLRRRRR^2",
+"torsion_main": 1365,
+"N_main": 1365
+},
+{
+"state": "+LLLLLLLLRLLR",
+"k": 2,
+"d1": 4,
+"d2": 360,
+"torsion_own": 1440,
+"manifold_key": "+LLLLLLLLRLLR^2",
+"torsion_main": 1440,
+"N_main": 360
+},
+{
+"state": "+LLLLLLRRRRRR",
+"k": 2,
+"d1": 12,
+"d2": 120,
+"torsion_own": 1440,
+"manifold_key": "+LLLLLLRRRRRR^2",
+"torsion_main": 1440,
+"N_main": 120
+},
+{
+"state": "+LLLRLLLRR",
+"k": 2,
+"d1": 6,
+"d2": 240,
+"torsion_own": 1440,
+"manifold_key": "+LLLRLLLRR^2",
+"torsion_main": 1440,
+"N_main": 240
+},
+{
+"state": "+LLRLRLRR",
+"k": 2,
+"d1": 1,
+"d2": 1517,
+"torsion_own": 1517,
+"manifold_key": "+LLRLRLRR^2",
+"torsion_main": 1517,
+"N_main": 1517
+},
+{
+"state": "+LLLLLLLRRLR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLLLLLRLRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "+LLLRLLRRR",
+"k": 2,
+"d1": 2,
+"d2": 798,
+"torsion_own": 1596,
+"manifold_key": "+LLLRLLRRR^2",
+"torsion_main": 1596,
+"N_main": 798
+},
+{
+"state": "+LLLLLRLRRR",
+"k": 2,
+"d1": 1,
+"d2": 1677,
+"torsion_own": 1677,
+"manifold_key": "+LLLLLRLRRR^2",
+"torsion_main": 1677,
+"N_main": 1677
+},
+{
+"state": "+LLLLLRR",
+"k": 3,
+"d1": 13,
+"d2": 130,
+"torsion_own": 1690,
+"manifold_key": "+LLLLLRR^3",
+"torsion_main": 1690,
+"N_main": 130
+},
+{
+"state": "+LLLLRLRLR",
+"k": 2,
+"d1": 2,
+"d2": 880,
+"torsion_own": 1760,
+"manifold_key": "+LLLLRLRLR^2",
+"torsion_main": 1760,
+"N_main": 880
+},
+{
+"state": "+LLLLLRLLRR",
+"k": 2,
+"d1": 1,
+"d2": 1845,
+"torsion_own": 1845,
+"manifold_key": "+LLLLLRLLRR^2",
+"torsion_main": 1845,
+"N_main": 1845
+},
+{
+"state": "+LLLLRLRRRR",
+"k": 2,
+"d1": 3,
+"d2": 615,
+"torsion_own": 1845,
+"manifold_key": "+LLLLRLRRRR^2",
+"torsion_main": 1845,
+"N_main": 615
+}
+]
+}

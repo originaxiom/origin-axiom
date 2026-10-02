@@ -3717,6 +3717,7 @@ before it is computed.
    are one manifold, so main's 95 of 758 is 87 of 536 per manifold. Main's census splits no pair. Reversal-closed states fire far
    more often than paired ones: at lengths 7 to 12, 77 of 290 against 16 of 444. The null model must say whether it samples
    words or manifolds, and must take reversal symmetry as an input; the split is descriptive, not a finding.
+   *Sealed 2026-10-02 as B1518 (not run).* The bar is stated in `frontier/B1518_the_bar/PREREGISTRATION.md` §3 and its null model is run first on main's class-index census. The sweep found that main had already looked for a criterion (B1439: "no criterion found"), had argued that the root's tower is typical (B1434 (b)), and holds the exponent-two lemma (B1442); B1518 cites all three.
 2. **The frames beyond m004 (GENESIS §8, the frontier).**
    - The harmonic frame on states outside m004's levels: m003 (the sister, −LR), m010 (where the audit lane's R40 has an anomaly-free
      10 + 5̄ but no harmonic background), and m369 and s639 (the class-index frame's own-level carriers).
