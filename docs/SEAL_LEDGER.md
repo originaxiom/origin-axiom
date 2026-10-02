@@ -1649,3 +1649,20 @@ before import/run; push/server-confirm first. No full-bank certificate.
 | `reports/physical_bridge_2026_09_05/SOURCE_CORE_REPORT_DESIGN.md` | `b81443e2dba39ee830cb6f12c30e39dd497da0373024ed5eee1b2ca13cb313f5` |
 | `reports/physical_bridge_2026_09_05/source_core_report_control.py` | `17fddd251136733999a31aeaa54a951c4a51491a04c0e70d3bbf43b516f3114b` |
 | `tests/test_physical_bridge_source_core_report.py` | `d3fffce128c6837ff728fdfa723b8dd4700360b3bd4e317126cd21b2c9db19cc` |
+
+## October 2 act-and-register milestone: bounded detector audit
+
+Owner approved this milestone within the full Standard Model/TOE goal.
+Generic deterministic quotient/record mathematics, not a consciousness
+claim or empirical identification. Same-author distinct implementations;
+nonauthor acceptance is separate. Commit/push/server-confirm before
+first execution/import; original science and failures preserved.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/ACT_REGISTER_DESIGN.md` | `9e1e5ce8550051a7913d55a8dc5a0a223b038ff15d92f621aa13e6676e39b902` |
+| `reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md` | `8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b` |
+| `reports/physical_bridge_2026_09_05/ACT_REGISTER_INPUTS.json` | `a0c7d69cbd9bfe76f8a95bb72dc87bc94ee10abd7a9fd21b025d0af1504828a4` |
+| `reports/physical_bridge_2026_09_05/act_register_control.py` | `4fb7037d852d81df37b1fd83492fe157f301109c33a373a18ab585f0ddd296b2` |
+| `reports/physical_bridge_2026_09_05/act_register_exhaustive.py` | `edafdb1b05ea4b5b5d196b4f0a949e3188057c230ad6eb1f85eb4a296a837cf3` |
+| `tests/test_physical_bridge_act_register.py` | `7a6dd32e4c242eb2a94c3a2947f2e139371f85809dc3db9cd5f17ef9d9aa0782` |

@@ -1,5 +1,26 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current October 2: coexisting goals and source result.** The full
+parameter-free Standard Model/TOE remains the overarching mission;
+the owner-approved act-and-register audit is a prerequisite milestone.
+Acts of distinction and their registering relations must be traced
+through genesis and physical reductions. Qualia is an explicit
+philosophical hypothesis, not a proved physical identification.
+Design: reports/physical_bridge_2026_09_05/ACT_REGISTER_DESIGN.md;
+owner intent: philosophy/P_ACT_AND_REGISTER_2026_10_02.md.
+The new bounded audit is prepared for seal, not executed at this note.
+R77 is now executed: corrected native49/independent29/focused20 pass.
+Its explicitly added free-profile sources balance the full current and
+both first variations conditionally; infinitely many classical flat
+directions on its zero-current/source open set price that relaxation.
+Report: reports/physical_bridge_2026_09_05/SOURCE_CORE.md. No derived
+source/profile law, full physical mirror or finite SM spectrum follows.
+Main GENESIS v1.1/B1454 and the direct relay at12ed66bd are personally
+read, not reexecuted; main B1455 is a sealed design, not a result.
+SM B1518 body at e8992b63 is received evidence, not a reproduced census.
+Earlier dated entries preserve their scopes. Tracker usageLimited;
+second-goal creation refused, no renewed automation/full-suite/main bank.
+
 **LATEST foundation checkpoint, path-local R79 (October 2):** abstract
 faithful F2 recovers its unoriented commutator/peripheral conjugacy class
 by known Nielsen mathematics; the topological surface realization is

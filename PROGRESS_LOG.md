@@ -16536,3 +16536,27 @@ remain. No baseline, exemption, original science or first raw output
 changed. Full-suite/independent acceptance not claimed. A final-publication
 patch with unmatched relay context failed atomically before writing;
 its corrected rerun omitted that hunk, with no scientific change.
+
+
+## 2026-10-02 - owner-priority record milestone within the physics mission
+
+Owner confirms act of distinction together with its registering relation
+is the long-standing genesis intent and asks that qualia remain explicit.
+PHYSICS_MISSION now records coexisting goals: this audit is a prerequisite
+of the full Standard Model/TOE, not a replacement. ACT_REGISTER design,
+proof, source manifest and native/independent finite controls prepared
+for seal before first import/run. Existing B37/B130 producers personally
+read; question audit separates literal-symbol tests, global elimination,
+actual component classification and physical/experiential identification.
+Main12ed66bd GENESIS v1.1/B1454/direct relay/B1455 design and SM e8992b63
+B1518 full body personally read, not reexecuted. No root/mirror census
+repeated. Interface goal creation refused for an unfinished usageLimited
+mission; no false completion or claimed reactivation.
+
+R77 result publication records actual49/29/20 and its two frozen seals.
+Both bulk/source first variations are conditionally balanced in an added
+free-profile model; its infinite classical flat-direction price remains.
+First collector failure preserved, sealed proof2I prose corrected to
+I+I-transpose without changing science. Fresh custody check verifies9
+frozen paths,9 source pins and8 raw captures. No full-suite, independent
+analytic or main-bank certification. Final gate dispositions follow.

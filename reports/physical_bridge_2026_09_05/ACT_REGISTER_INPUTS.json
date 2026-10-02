@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-02",
+  "scope": "bounded deterministic record audit; no physical/experiential identification",
+  "sources": [
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B37_operational_feedback_quarantine/FINDINGS.md",
+      "sha256": "efb4c7402e304cee74bd18ea6eafea5486d902ae1b77f46394b6ea5de742407b",
+      "bytes": 774,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B37_operational_feedback_quarantine/probe.py",
+      "sha256": "c708163bd38d902f048a134e7fdba50b32c40a879debf95bfc58073897854fb1",
+      "bytes": 2032,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B130_no_forced_choice/FINDINGS.md",
+      "sha256": "7a8f21515f8bbbf1b0d8a8d8612c2522e82695cff8222543f662dffa47265dd5",
+      "bytes": 11179,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B130_no_forced_choice/probe.py",
+      "sha256": "53c1cad0d35044c4052ef3d64d60b6bc94f714746a4ccf65f411cf0444329963",
+      "bytes": 12498,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "tests/test_b130_no_forced_choice.py",
+      "sha256": "1713c645a8f3715d3fa0cd60568a0a6fc110727ac105d5513e197e31f1c16371",
+      "bytes": 3218,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B723_build_the_observer/FINDINGS.md",
+      "sha256": "b55db417da3440c1ad6f1ab181713d5e0ed5b95bfe1a98cc7e8b23a4e336008a",
+      "bytes": 9860,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+      "sha256": "7cbbb7e6c408eb1c45501ab22a7254829ce0dd56c96de73467394fae49741a4b",
+      "bytes": 6268,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B1169_qualia_parity_synthesis/ADDENDUM_s1_promoted_B1183.md",
+      "sha256": "5c7d1a188ea9a47019018959b82e0806cf1f724a6d803c70d9968dbe442854ae",
+      "bytes": 844,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "frontier/B1169_qualia_parity_synthesis/ADDENDUM_s4_dispositioned_B1184.md",
+      "sha256": "d8d587b3b36718a6379632117065fbe8fae4ef9b32cab5ba1d059cd7a6559daa",
+      "bytes": 934,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "philosophy/13_the_computed_observer.md",
+      "sha256": "23a315ad56f3855e405d93b74b5cfdc9ce093ff71554de0802248f4ddb6cd4ca",
+      "bytes": 4297,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "philosophy/P019_the_genesis_axiom_chain.md",
+      "sha256": "9fab1ea1db5d784c61a5cc5802aeb7e8d8005dc498b80ca59b76c3b3e2f1b32d",
+      "bytes": 10279,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "speculations/S070_creation_narratives_and_the_observer.md",
+      "sha256": "10c4228a6042fc394098c48f8ced7a10848fd44cfee44bea3e1b5d45121d0934",
+      "bytes": 6725,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "speculations/S072_the_qualia_program.md",
+      "sha256": "8dafc53b8dc72a6d0b47a705bba9c0553c20bb7a920b94ef017e813ac8c383e7",
+      "bytes": 7063,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md",
+      "sha256": "cc402e346c29df1e46c02e6abce58f5221d5c185b10fae33fd35895503aef733",
+      "bytes": 6214,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "reports/physical_bridge_2026_09_05/OPERATIONAL_CONTRACT.md",
+      "sha256": "434e99f05f86efaafa57b2847dcc43963c0bf09771d9e6491e984e2cc303bd50",
+      "bytes": 6776,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY.md",
+      "sha256": "3b228b18f05a88423260df7f69228c85a86830b1d36c10ad191df3550e51b081",
+      "bytes": 8943,
+      "reading_grade": "body/code personally read; not all assertions independently verified"
+    },
+    {
+      "commit": "12ed66bd87202ff5958fbbc8f161666a7b988700",
+      "path": "GENESIS.md",
+      "sha256": "ddc274b73a04374c2e65857bd77d6f7735fdf132ba7df0891854b22a1018105b",
+      "bytes": 33496,
+      "reading_grade": "full text personally read; frame rows reread after display truncation"
+    },
+    {
+      "commit": "12ed66bd87202ff5958fbbc8f161666a7b988700",
+      "path": "frontier/B1454_genesis_v1_verified_and_adopted/FINDINGS.md",
+      "sha256": "c0bcabccab0eb690e19c494ea0b4068c7b4f6f750e765d927cd899d9eceeca3a",
+      "bytes": 14657,
+      "reading_grade": "full body read; producer and census not rerun"
+    },
+    {
+      "commit": "12ed66bd87202ff5958fbbc8f161666a7b988700",
+      "path": "docs/handoffs/CC_TO_CODEX_2026-10-02_GENESIS_AND_YOUR_FOUR_QUESTIONS.md",
+      "sha256": "18feafdf8c13c29afb94b1f4bc375d642ab5868f929d6a761a02cdb6fbe37ca8",
+      "bytes": 4946,
+      "reading_grade": "full direct relay read; not acceptance of its science"
+    },
+    {
+      "commit": "12ed66bd87202ff5958fbbc8f161666a7b988700",
+      "path": "frontier/B1455_the_selection_rule_and_the_deciding_test/PREREGISTRATION.md",
+      "sha256": "5e8c0922d8c5b60f78d7d993ee7ce1adc61eb77a3bab30a237066efeedd9f831",
+      "bytes": 10325,
+      "reading_grade": "full sealed design read; no result received"
+    },
+    {
+      "commit": "e8992b63ff94b7b35a54de5674e2ffbd94e1373c",
+      "path": "frontier/B1518_the_bar/FINDINGS.md",
+      "sha256": "a95658c15e241f78013041a3c580fa82acba5eaa752918ea775c22cd8021f008",
+      "bytes": 15145,
+      "reading_grade": "full body read; witness and statistics received, not reproduced"
+    }
+  ],
+  "retained_prior_positive": "R79 periphery/marked transport; B37 invariant; B130 actual m=2 elimination and trace nonconjugacy; B942 correction through B723",
+  "not_reproduced": "full source corpus, m=3/m=4 recorded flags, m=5 finite numerical samples, actual metallic component classification, main/SM censuses and statistical evidence",
+  "goal_status": "usageLimited; second goal request rejected; hierarchy is recorded in PHYSICS_MISSION",
+  "search_queries": [
+    "observer registering record quotient memory feedback qualia",
+    "forced choice kappa elimination isolated components perron fields"
+  ],
+  "failures_before_seal": [
+    "Second interface goal creation rejected because an unfinished goal exists; not marked complete.",
+    "Guessed main relay docs/relays path absent; correct docs/handoffs path resolved and read.",
+    "Broad rg and aggregate display truncated; no complete-population claim; genesis frame rows reread.",
+    "A metadata-patch generator failed on stdin's US-ASCII encoding before applying anything; explicit UTF-8 source encoding corrected it. No scientific execution or bytes were changed."
+  ]
+}

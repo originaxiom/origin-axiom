@@ -28,6 +28,37 @@ No guarantee of success or defensible percentage complete is asserted.
 
 ## Continuation and change control
 
+### Coexisting goals, approved October 2, 2026
+
+The full parameter-free Standard Model/TOE is the overarching mission.
+The owner-approved **act-and-register audit is a prerequisite milestone
+within it**, not its replacement and not completion of it. The owner's
+long-standing intent is central: study an act of distinction together
+with the relation that registers it, rather than silently keeping only
+the resulting isolated object. Trace the relevant data through genesis,
+generated states, relations, physical models and reductions.
+
+- [ ] Audit which reductions preserve the declared updates and observables;
+  identify sufficient retained records and actual information loss.
+- [ ] Reuse and check the existing producers, including both positive and
+  negative observer/selection results, before drawing new conclusions.
+- [ ] Establish which registering relations have an internal physical
+  mechanism in the same theory; do not supply a chooser for free.
+- [ ] Retain qualia as an explicit philosophical hypothesis and question
+  about the intended complete account of existence. No identification of
+  memory, self-reference or measurement with experience is established.
+
+The bounded audit can finish with verified mathematical dispositions and
+named physical duties. It cannot certify all architecture maps, awareness,
+the Standard Model or a TOE. Its design is ACT_REGISTER_DESIGN.md; the
+owner's intent is preserved in philosophy/P_ACT_AND_REGISTER_2026_10_02.md.
+Gate 5-Q is unchanged; experiential interpretations remain in its governed
+rooms. This priority is not an unpriced new mathematical or physical axiom.
+
+The interface on October 2 still reports the unfinished overarching goal
+as usageLimited and refuses a second goal. This document records the
+hierarchy; it does not claim to repair or reactivate autonomous execution.
+
 "Resume", "continue" and permission changes continue this mission; they
 do not replace its objective. Change the mission or completion criteria
 only on an explicit owner instruction, recording the reason and date.

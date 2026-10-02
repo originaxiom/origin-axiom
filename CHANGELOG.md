@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-10-02 - coexisting physics goals; source result; record audit prepared
+
+The full parameter-free Standard Model/TOE remains overarching. The owner
+marks act-of-distinction plus registering relation important for genesis
+and all reductions, with qualia explicitly philosophical. The approved
+act-and-register milestone has bounded questions, exact countercontrols,
+source pins and two same-author instruments; prepared for seal, not run.
+Main GENESIS v1.1/direct relay and the new selection design read, not
+rerun; SM B1518 body received, not reproduced. Tracker usageLimited;
+second goal request refused, no falsely completed mission.
+
+R77 now published: original9b566262 and report56e2c455 seals retained;
+49 corrected native/29 separate exact controls and20 focused tests pass.
+Added free profiles give conditional full-current/coupled stationarity
+and infinitely many classical flat directions on the stated open set.
+Original collector failure and proof-prose correction retained; source
+custody rechecked. No physical source law, full spectrum or main banking.
+
+
 ## 2026-10-02 — R79 constructive periphery and marked flat transport
 
 Known Nielsen mathematics recovers an unoriented peripheral class from

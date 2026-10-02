@@ -1,6 +1,6 @@
 # Genesis checkpoint: reconcile the foundations, then return to physics
 
-October 2, 2026. Owner-requested implementation plan, version 0.3.
+October 2, 2026. Owner-requested implementation plan, version 0.4.
 This is design and source reconciliation, not a new scientific arc or a
 certificate of minimal axioms. It continues the [approved mission](PHYSICS_MISSION.md):
 derive a parameter-free Standard Model and complete unified physical
@@ -8,6 +8,23 @@ theory from scrutinized Origin Axiom principles. A completed foundation
 audit is not completion of that goal.
 
 ## What we are locking, and what we are not
+
+**Owner-approved goal hierarchy:** the full parameter-free Standard
+Model/TOE remains the overarching goal. The act-and-register audit is
+a prerequisite milestone within it. The primitive act of distinction
+and its registering relation are central questions for genesis and every
+downstream reduction, not an automatically derived new axiom. Qualia is
+an explicit philosophical hypothesis, not identified with a record or
+an invariant. See ACT_REGISTER_DESIGN.md and the owner-intent record
+philosophy/P_ACT_AND_REGISTER_2026_10_02.md. The interface currently says
+usageLimited and rejects a second goal; this plan does not repair that.
+
+**New source currency:** main 12ed66bd adopts GENESIS v1.1 and answers
+the four interface questions in its direct relay. The full page, B1454
+body and relay are personally read, not independently reproduced here.
+Its root input witness checks and scoped frames are received evidence,
+not a principle-to-grammar implication. Main B1455 is only a sealed
+mirror/selection design. No duplicate physical mirror census is started.
 
 Lock a versioned specification, its proof dependencies and its current
 evidence. Do not lock an unproved universal claim or forbid later
@@ -67,6 +84,13 @@ not agreement on all philosophical interpretations.
   reuse Nielsen/B1380, check actual normalized golden words and full
   marked flat-data transport.29 focused tests pass unchanged; authored
   analytic scope is not independent review or carrier necessity.
+- [x] Execute the R77 explicitly added source/core comparator: corrected
+  native49, independent29 and20 focused tests pass; original collector
+  failure retained. Coupled stationarity is conditional; free profiles
+  cost infinitely many classical flat directions on the stated open set.
+- [ ] Finish the bounded act-and-register audit, including question and
+  detector controls, source reuse and a scope-qualified verdict. Neither
+  completion of it nor a mathematical record derives a physical observer.
 - [ ] Complete producer/history reconciliation for each proposed premise
   removal; seal any new significant proof/countermodel probe before execution.
 - [ ] Independently verify the load-bearing carrier/class identifications
@@ -140,13 +164,15 @@ nonattained limits and changed domains are explicit outcomes. R76 does
 not classify all sourced, nonflat or singular vacua. Structure-duality
 covariance in R77 is a partial control, not that physical mirror map.
 
-The current source/core drafts remain unsealed and unrun. A prescribed
-current is not a derived source law. Before their execution, expose the
-choice of added fields, internal profiles, couplings, gauge redundancy
-and admissible variations; check both bulk and source equations. If a
-conditional moment-map construction works, audit all extra light modes,
-kinetic signs, operator/end domains and anomalies. Free rescue profiles
-cannot be counted as parameter-free prediction.
+The source/core comparator is now sealed and executed; SOURCE_CORE.md
+reports both bulk and source-own variations. The added fields, internally
+free profiles, couplings and declared action remain inputs. Its classical
+flat-direction cost makes the actual admissible profile/end law the next
+physical duty. Audit all extra modes, kinetic signs, operator domains
+and anomalies in the same theory. Free rescue profiles cannot be counted
+as parameter-free prediction. The act-and-register audit serves this
+duty by checking whether a proposed architecture map retains the data
+that the source/end law uses, not by replacing the physical construction.
 
 Preserve the canonical paired model, the nonsplit triplet and the certified
 partial-filling geometry as distinct controls. Geometric handedness,
@@ -172,7 +198,8 @@ law, operator domain and limit. Do not close the whole programme by that
 failure, nor add an unpriced rescue. If the foundations underdetermine a
 physical law, that is an open duty, not an achieved parameter-free theory.
 
-Current goal tracker: ACTIVE when read for this checkpoint. The complete
+Historical checkpoint tracker read: ACTIVE. Current tracker: usageLimited.
+The complete
 Standard Model/TOE remains unachieved. Repository metadata checks verify
 custody, links and bookkeeping only; no full-suite or independent science
 acceptance is claimed by this design publication.

@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "audit": "R77",
+  "groups": [
+    {
+      "commit": "9b566262a791fd003a7243fb414a11664b94d2a2",
+      "paths": [
+        {
+          "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_DESIGN.md",
+          "sha256": "694c6df893e857cfa7c93da7b040d834f1b525f4abac15b1f144e2dd4f9794c5",
+          "bytes": 6544
+        },
+        {
+          "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md",
+          "sha256": "0f6b1e7b5e7322cc2ad869a4cb47d53f7eb1ecec90426061c481a709b5619eee",
+          "bytes": 8633
+        },
+        {
+          "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_INPUTS.json",
+          "sha256": "2636ca88c914c7ece03ecbf7e2579cc45a56afc1abe4c66c5ae31ea54956e0b9",
+          "bytes": 5304
+        },
+        {
+          "path": "reports/physical_bridge_2026_09_05/source_core.py",
+          "sha256": "122db3ed27a443e54a0ed188dd0e4b7a0497d7a9bd0c2e04422a8647505d640a",
+          "bytes": 9175
+        },
+        {
+          "path": "reports/physical_bridge_2026_09_05/source_core_control.py",
+          "sha256": "4e01e7f4c3cdadd688b066abd410b384341271b55a056879ffce19024d3f50c1",
+          "bytes": 10098
+        },
+        {
+          "path": "tests/test_physical_bridge_source_core.py",
+          "sha256": "bc48910e15424d7e71026dd632676cefb842a38cfeb2f2f2d638b8492085156f",
+          "bytes": 3208
+        }
+      ]
+    },
+    {
+      "commit": "56e2c455f72e7551e2d8b386a22445ca54bc8b5e",
+      "paths": [
+        {
+          "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_REPORT_DESIGN.md",
+          "sha256": "b81443e2dba39ee830cb6f12c30e39dd497da0373024ed5eee1b2ca13cb313f5",
+          "bytes": 1403
+        },
+        {
+          "path": "reports/physical_bridge_2026_09_05/source_core_report_control.py",
+          "sha256": "17fddd251136733999a31aeaa54a951c4a51491a04c0e70d3bbf43b516f3114b",
+          "bytes": 1714
+        },
+        {
+          "path": "tests/test_physical_bridge_source_core_report.py",
+          "sha256": "d3fffce128c6837ff728fdfa723b8dd4700360b3bd4e317126cd21b2c9db19cc",
+          "bytes": 1473
+        }
+      ]
+    }
+  ]
+}

@@ -1209,3 +1209,17 @@ acceptance, a forced physical carrier or an added physical parameter.
 | M3: normalized orientation-positive lifts retain an integer kernel | Aut(F2,c)->SL(2,Z) has kernel Inner(c)^Z; central only in orientation-positive sector. A supplied based lift may add data; not a theorem no further principle selects it or the integer is physical. | B1303 boundary-fixed conjugate context, not origin of classical extension; R79 CARRIER_PERIPHERY_PROOF.md M3; tests/test_physical_bridge_carrier_periphery.py::CarrierPeripheryTests::test_normalized_lifts_are_distinct_despite_same_homology |
 | M4: residual lift changes require full marked slope transport | Supplied mapping-torus groups, t_k->c^k t, slope(p,q)->(p+kq,q). Finite nonabelian flat representation detects untransported labels; abelian fibre holonomies blind. Not geometry/index certification or physically inequivalent vacua. | B1379/R57 flat descent and B1384/R58 transport contexts; R79 CARRIER_PERIPHERY_PROOF.md M4; tests/test_physical_bridge_carrier_periphery.py::CarrierPeripheryTests::test_nonabelian_flat_descent_control_and_transport and test_slope_is_transported_not_frozen_as_a_number |
 | M5: actual golden and recorded normalized words agree | Sigma=(ab,a), sigma^2=(aba,ab), B1303 g=(aab,ab), normalized f0=(aba,ba), same LR matrix. Exact free words, not closing/index recertification or native physical reachability. | B1380/B1303 actual-word sources; R79 CARRIER_PERIPHERY_PROOF.md M5; tests/test_physical_bridge_carrier_periphery.py::CarrierPeripheryTests::test_record_normalizations_are_actual_words |
+
+
+## October 2 path-local source/core comparator (R77)
+
+Authored conditional mathematics in an explicitly added classical model;
+not an architecture-selected physical source law or original theorem.
+Full details: reports/physical_bridge_2026_09_05/SOURCE_CORE.md.
+
+| law | hypotheses, scope and boundary | source / lock |
+|---|---|---|
+| Full Hermitian trace-free SL5 current has a constructive source moment inverse | Supplied embedding, normalization and compact smooth current; five fields per chart are a bound, not minimum or generations. | B1509/B1511 nonsplit context, not origin of this construction; SOURCE_CORE_PROOF.md; tests/test_physical_bridge_source_core.py; separate source_core_control.py rank24 recovery |
+| Zero full residual gives bulk and source-own stationarity | Added adjoint sources, positive four-dimensional kinetic term, no internal source derivatives/superpotential; flat C and actual D sign. Not derived source physics. | B1511/R75/R76 background context; SOURCE_CORE_PROOF.md; tests/test_physical_bridge_source_core.py |
+| Free profiles admit infinitely many classical positive-norm flat directions on a zero-source/current open set | Compact-current noncompact-base construction; not quantum no-lifting or every compact base. Adding gradients is a changed model. | R76/B1500 physical-admission context; SOURCE_CORE_PROOF.md; tests/test_physical_bridge_source_core.py and separate quartic/quadratic controls |
+| Structure duality must transport the complete current | tau=-transpose is not the physical base/spinor/domain mirror; partial source transform gives I+I-transpose,2I only for real symmetric I. Frozen proof prose qualified in report. | B1297/B1500 duality context; SOURCE_CORE.md correction and both original source producers; tests/test_physical_bridge_source_core.py |
