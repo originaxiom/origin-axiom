@@ -7,6 +7,13 @@ inside a review.*
 
 ## REQUIRED core (every review)
 
+**Start here (Review 58, 2026-10-02).** Run `python3 scripts/review/review_tools.py --json <out>` first. It prints the
+mechanical content of items 1, 1b, 2, 3, 4, 5 and 7 below — the loop with **the age of every carried item**, the
+branch inventory matched on the leaf, the seals, the provenance sweep on added lines, the new error classes, the
+window's unglossed vocabulary, the gates no test names, and **the arcs to be read in full, drawn by seed** (do not
+choose them). Do not re-write these checks by hand: Review 57 and the first draft of Review 58 both produced wrong
+findings that way. The tools do not judge; everything below still has to be read and decided.
+
 1. **The loop (first, always).** Open the previous review's
    `### Action items` block. Every `- [ ]` item is either resolved (`[x]`,
    with the evidence pointer) or explicitly carried (`[>]`, restated in

@@ -1,0 +1,35 @@
+{
+ "u": "(0.244706021096499 + 0.666376606542416j)",
+ "Z_sign": 1,
+ "a": [
+  4,
+  3
+ ],
+ "meridian_sign": -1,
+ "starts": [
+  {
+   "s": "0.1",
+   "phase_index": 0,
+   "algebra_dimension_on_the_branch": 9,
+   "abs_log_eigenvalues_chi_trivial": [
+    "2.57516",
+    "0.00139327",
+    "2.57424"
+   ],
+   "parabolic": false,
+   "why": "target not reached: 1.24e-11"
+  },
+  {
+   "s": "0.1",
+   "phase_index": 1,
+   "algebra_dimension_on_the_branch": 9,
+   "abs_log_eigenvalues_chi_trivial": [
+    "2.57966",
+    "0.00142647",
+    "2.57993"
+   ],
+   "parabolic": false,
+   "why": "target not reached: 4.13e-11"
+  }
+ ]
+}

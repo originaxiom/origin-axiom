@@ -127,3 +127,7 @@ stated when banked.
 ## Reproduce
 
 `sh frontier/B1229_the_consistency_turn/reproduce.sh` · lock `tests/test_b1229_consistency.py`
+
+## Escalation (2026-10-02, Review 58)
+
+ESCALATED(2026-10-02, B1448). Carried by name: a statement of method (the consistency turn) rather than a computation; it has been OPEN since it was written and nothing in it is owed a number. Whether a method arc should carry the verdict OPEN at all is put to the next review. Owner: cc.

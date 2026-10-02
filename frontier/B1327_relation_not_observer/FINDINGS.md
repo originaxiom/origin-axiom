@@ -75,3 +75,7 @@ construction cannot express. "What is the second relatum?" is a mathematical que
 answer — and on the one row where it was asked, it produced a theorem.
 
 Reproduce: `verification/three_bits_one_relation.py`.
+
+## Escalation (2026-10-02, Review 58)
+
+ESCALATED(2026-10-02, B1448). Carried by name: a re-typing of the record's rows (relation, not observer) with no computation owed; OPEN since it was written. Whether a typing arc should carry the verdict OPEN at all is put to the next review. Owner: cc.

@@ -681,3 +681,58 @@ new file. (E23 territory — the class where a convention flips silently between
   periodic part `[1]`). B1404. **Distinct from** the corpus's older hyphenated uses — *Eisenstein-end
   invariant* (B318), *E₈-end invariants* (L75) — which are a different word entirely (E78's homonym
   hazard; a bare grep for "end invariant" returns those and not this).
+
+## Added at Review 58 (2026-10-02) — the terms minted in the B1432–B1447 window
+
+- **word state, level** — a *word state* is a signed cyclic word (ε, w) in the letters L, R: the once-punctured-torus
+  bundle whose monodromy is the product of the letters, composed with −I when ε = −. Its *level* k is the k-fold
+  cyclic cover. `+LR` is the root (m004), `−LR` its sister (m003), `+LR 3` is s961. B1434.
+- **the frame** (short for *the Standard-Model frame*) — the backgrounds of B1432: flat connections with holonomy in
+  the image of SL(2)_β × U(1)_Y × U(1)_γ in E₆, given by three characters of a level's fibre torsion. **Not** "frame"
+  in any geometric sense, and distinct from *face* (see above).
+- **extension character** ℓ — the ratio α/β of the two diagonal characters of a sector's rank-two module; the
+  character of its non-split extension class. One per background.
+- **sector module, firing** — the non-split module V(ℓ, α) = [[α, cβ], [0, β]] attached to a Standard-Model sector. It
+  *fires* when its class index is ±1; by B1438 that is a coincidence of slopes.
+- **class index** I(V) = n(V) − n(V*) — main's index, n counting interior classes (those whose restriction to the cusp
+  is a coboundary). B1297. **Not** an Atiyah–Singer index and not a generation count; on a module outside the
+  reductive domain it carries no physical reading (the standing fence).
+- **generation-shaped background** — a background whose five charged sectors all fire with one sign. B1432, B1434.
+- **slope** s(χ) — for a character χ of a level, the value on the meridian of the class of H¹(M; χ) normalised to 1 on
+  the longitude: the cusp shape of the affine representation of χ. B1438. **Distinct from** a Dehn-filling slope and
+  from a boundary slope, though for integer values it is one (B1444 §6).
+- **deck orbit** — the orbit of a background under the deck transformation of a cyclic cover; its *members* are the
+  backgrounds in it. "Three generations" in this frame has only ever meant a deck orbit of three.
+- **periodic curve** — a curve of solutions of T(p) = σ·p, T the level's trace map and σ a sign twist: the flat
+  PSL(2) connections of the level that are irreducible on the fibre. B1444. Its *reducible end* is where it meets
+  κ = 2, at the square root of an extension character.
+- **filling type / open type** — a background is of *filling type* when the meridian equals ±(longitude)^±s along its
+  whole periodic curve (the curve lies in a Dehn filling) and the matched sectors' torsion vanishes identically; of
+  *open type* otherwise. B1444 §6.
+- **complete cusp (point)** — a point of a periodic curve with κ = −2, where the peripheral holonomy is parabolic
+  again; with the reducible end, the *boundary-parabolic points* of the curve. B1446.
+- **bidoublet** — the rank-four module ρ_ℓ ⊗ ρ_η ⊗ a on the product of the periodic curves of an extension character
+  and a Higgs character. B1445.
+- **branch point, the branch** — a point of one member's Higgs curve where the sectors of the other two members have
+  a class (B1446 §4); *the branch* is the family of irreducible rank-three representations leaving the curve there
+  (B1447). *Family triplet*: a module R ⊗ χ on the branch, whose three characters at a totally reducible point are
+  sector characters of different members.
+- **torsion (of a sector)** — det(1 − Φ* | H¹(F; V)), the monodromy acting on the fibre's cohomology. It vanishes
+  exactly where the sector has a class. **Not a mass**; no rule in the record turns it into one.
+
+### Owed since Review 55 (R55-11), paid at Review 58
+
+- **parity theorem** (B1291) — the fixed set of an orientation-preserving finite-order isometry of a hyperbolic
+  3-manifold is a union of closed geodesics and properly embedded geodesic lines, two ends each; on a manifold with
+  one cusp every end lands in that cusp, so the number of fixed points on the cusp torus is even. Hence a count of
+  three is excluded on any one-cusped manifold and needs at least two cusps.
+- **dividing set** (B1291 §5) — the curves on the cusp torus along which a decomposition of the boundary into a
+  positive and a negative part is made; χ of the positive part is non-zero exactly when the dividing set has a
+  null-homotopic component, and every canonical one (slopes, meridian, longitude, geodesic cores, horospherical
+  curves) is essential.
+- **listener map** (B1066, B1071) — the unconstructed assignment of a physical apparatus to a listener state u in
+  the crossing cell: which measured quantity the object's tones are to be read against. The record has no such map;
+  where it is named it is named as the residual.
+- **founding ratio** — the SM seat's name (sm:B1268, the icosian construction) for the element g that supplies the
+  order-three element of the E₈ family mechanism; quoted in B1275, where that step is marked *not checked on main*.
+  Not a ratio of measured quantities.

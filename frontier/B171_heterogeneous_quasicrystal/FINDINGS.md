@@ -76,3 +76,9 @@ Johnson–Moser); Forrest–Hunton–Kellendonk (coupled/product tiling cohomolo
 ## Reproduction
 `python frontier/B171_heterogeneous_quasicrystal/het_quasicrystal.py` — B1 single-chain controls; B2 the bilingual
 woven spectrum; B3 the density-trap null (chance-hit vs label-sum); B4 the 0.611-gap verification. Prints `ALL CHECKS PASS`.
+
+## Escalation (2026-10-02, Review 58)
+
+ESCALATED(2026-10-02, B1448). OPEN since Phase 0: the baselines show the woven metallic spectrum inherits both
+rank-two ladders and quantify the density trap; the rank-three combination gap is unsettled and no later phase was
+run. Carried by name. Owner: cc.

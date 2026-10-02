@@ -52,6 +52,13 @@ escalation are the proof).
   depend on a path that exists on the bench but not in git; the local suite is blind to this class
   by construction, so the gate runs at push.
 
+- **The decadal review's tools (2026-10-02, B1448)** — `python3 scripts/review/review_tools.py [--anchor <commit>]
+  [--json out]` prints the mechanical half of a review: the action loop with the age of each carried item, the
+  branch inventory (leaf-matched, the two mirrors only), the seals, the provenance sweep on added lines, new error
+  classes, unglossed vocabulary, gates no test names, the open relays by direction, and the seeded sample. **Run it
+  first; do not rewrite its checks by hand.** The debt checkers have clock seams (`OA_LEAD_TODAY`,
+  `OA_RELAY_TODAY`, `OA_HARVEST_TODAY`): run them on the next week's dates before a long suite.
+
 - **The slope instruments (2026-10-01, B1432–B1440)** — read these before any probe of the Standard-Model frame on
   a punctured-torus bundle; **never run a module-by-module index census there again**:
   - `frontier/B1438_the_slope_law/verification/slope_census.py` — `slope_census(eps, word, k)`: the index of every

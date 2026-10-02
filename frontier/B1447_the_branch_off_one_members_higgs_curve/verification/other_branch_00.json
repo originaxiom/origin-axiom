@@ -1,0 +1,47 @@
+{
+ "u": "-3.3922381919851",
+ "Z_sign": 1,
+ "a": [
+  4,
+  1
+ ],
+ "meridian_sign": -1,
+ "starts": [
+  {
+   "s": "0.1",
+   "phase_index": 0,
+   "algebra_dimension_on_the_branch": 9,
+   "abs_log_eigenvalues_chi_trivial": [
+    "5.01138",
+    "0.00133152",
+    "5.00985"
+   ],
+   "parabolic": false,
+   "why": "target not reached: 1.63e-21"
+  },
+  {
+   "s": "0.1",
+   "phase_index": 1,
+   "algebra_dimension_on_the_branch": 9,
+   "abs_log_eigenvalues_chi_trivial": [
+    "5.02906",
+    "0.0016062",
+    "5.02751"
+   ],
+   "parabolic": false,
+   "why": "not converged at step 15"
+  },
+  {
+   "s": "0.1",
+   "phase_index": 2,
+   "algebra_dimension_on_the_branch": 9,
+   "abs_log_eigenvalues_chi_trivial": [
+    "5.02083",
+    "0.000206215",
+    "5.02147"
+   ],
+   "parabolic": false,
+   "why": "target not reached: 4.27e-16"
+  }
+ ]
+}

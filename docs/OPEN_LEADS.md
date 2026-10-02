@@ -2473,6 +2473,8 @@ one generator exactly once — search `mer^p·lon^q` over small `(p,q)` and redu
 Or a direct proof that `⟨ABABB, a⟩ = π₁(m003)`. **Then `J(m003) ≤ 4` joins the other four.**
 **ATTEMPTED 2026-09-13 (B1401 addendum 2) AND STILL OPEN — three methods, three diagnosable failures.** Coset enumeration did not terminate (not even on the m004 control, index 1); one-way Nielsen BFS passed its control and exhausted at depth 7; bidirectional Nielsen search passed its control and found **no meeting point at Nielsen distance ~12**, 28.7K pairs each side. **What that narrows: if any of m003's four candidate pairs generates, its Nielsen distance from `(a,b)` exceeds 12** — against m004's at distance 1–2 and m202's one-line word identity. **m003 is structurally different, and the possibility that its parabolic pairs simply do not generate is live.** Next probes, named: **refute** via a proper finite-index subgroup containing both words (decisive; SnapPy's `cover_info()` does not expose the permutation rep, so it needs a coset table from elsewhere), or **prove** by pushing past distance 12 (~5.5× per half-depth), or by finding a peripheral parabolic whose reduced word contains one generator exactly once.
 
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved since 2026-09-13: three search methods failed diagnosably and the possibility that no parabolic pair generates π₁(m003) is live. Owed: a refutation through a proper finite-index subgroup containing both words, or a proof past Nielsen distance 12. Owner: cc.
+
 ## L207 — IS κ CONSTANT OVER *ALL* GENERATING PAIRS, OR ONLY THE NIELSEN CLASS? (registered 2026-09-13, B1401; E72's hazard, stated as a lead rather than assumed)
 
 **This is the premise the whole lower bound rests on**, and it is unproved for every manifold except
@@ -2491,7 +2493,9 @@ against 1, `√2`, `3√3`).
 unconditionally, so at the **floor** the premise is not needed. That is precisely why B309's
 `|κ−2| = 1` is a *unit* obstruction and why m004 is the case Callahan could settle.
 
-## L208 — ARE THE THREE ARITHMETIC CUTS OF THE METALLIC FAMILY ONE STRUCTURE? (registered 2026-09-13, B1349 addendum 6) — **HALF ANSWERED (B1402, 2026-09-13): YES for B996 vs B1349.** `gcd(m,15) > 1` decomposes as `(3\|m) or (5\|m)`, and `3\|m` **is** B996's degeneracy condition; the B996-degenerate grammars carry the nontrivial forced values while the 5-part is silent. **The mirror speaks exactly where McKay access dies.** **AND THE B1002 HALF IS NOW CLOSED TOO (B1403): the two cannot be related, because their DOMAINS ARE DISJOINT.** A conductor needs an **abelian** cusp field; verified independently that the metallic cusp shape is quadratic **only at m = 1 and m = 2** (reproducing B675's `ℚ(√−3)` and `ℚ(i)`) and not for m = 3..8. Both conductor instances are **units of ℤ/15**, hence on **branch B**, while `gcd(m,15)` discriminates only on **branch A** — so no `m` is informative for both. **Unaskable as posed rather than unknown. L208 is now fully answered.**
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved: the premise of the lower bound (κ constant over all generating pairs) is unproved for every manifold except m004. Owner: cc.
+
+## L208 — **CLOSED** (Review 58, 2026-10-02: fully answered by B1402 and B1403, as its own heading has said since 2026-09-13; the closure mark was missing) — ARE THE THREE ARITHMETIC CUTS OF THE METALLIC FAMILY ONE STRUCTURE? (registered 2026-09-13, B1349 addendum 6) — **HALF ANSWERED (B1402, 2026-09-13): YES for B996 vs B1349.** `gcd(m,15) > 1` decomposes as `(3\|m) or (5\|m)`, and `3\|m` **is** B996's degeneracy condition; the B996-degenerate grammars carry the nontrivial forced values while the 5-part is silent. **The mirror speaks exactly where McKay access dies.** **AND THE B1002 HALF IS NOW CLOSED TOO (B1403): the two cannot be related, because their DOMAINS ARE DISJOINT.** A conductor needs an **abelian** cusp field; verified independently that the metallic cusp shape is quadratic **only at m = 1 and m = 2** (reproducing B675's `ℚ(√−3)` and `ℚ(i)`) and not for m = 3..8. Both conductor instances are **units of ℤ/15**, hence on **branch B**, while `gcd(m,15)` discriminates only on **branch A** — so no `m` is informative for both. **Unaskable as posed rather than unknown. L208 is now fully answered.**
 
 Three arcs now cut the family `RᵐLᵐ` by arithmetic in `m`, and **two of them are provably related**:
 B997 singles out the golden because its **shadow modulus** `m²+4 = 5` is *prime*; B1349 finds the
@@ -2627,6 +2631,8 @@ generator mix tracked throughout. **The standing methodological point already st
 slicing at depth is necessary and **not sufficient** — stratify by presentation complexity too, or
 the aggregate hides both the size of the effect and the fact that one stratum has none.
 
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: the population was named (B1424) and the paper corrected; the stratum law over more than three slices has not been posed on its own arc. Owner: cc.
+
 ## L212 — WHERE DOES THE BRONZE'S DEAFNESS LIVE IN MINSKY'S COORDINATES? (registered 2026-09-14, B1404)
 
 B1404 puts the metallic ladder in the classification's coordinates: the end invariant of `RᵐLᵐ`
@@ -2647,6 +2653,8 @@ check whether any two rungs share an end-invariant orbit while differing in cusp
 
 **Prerequisite:** none. Runnable with B1403's machinery plus B1404's.
 
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, not run: the bounded first probe (cusp field against end invariant for m = 1..8) is runnable with B1403's and B1404's machinery and was not run in this window. Owner: cc.
+
 ## L213 — WHICH BANKED RESULTS ASSUME CANONICITY, AND WHICH ONLY USE SnapPy'S TRIANGULATION? (registered 2026-09-14, B1404)
 
 B1404's audit found **Epstein–Penner absent from the corpus under that name** while its *object* —
@@ -2661,6 +2669,8 @@ and not in general. **The sweep:** grep every banked use of a triangulation, cla
 *canonicity-assuming* or *instrument-only*, and for the first kind check the manifold is in a family
 where canonicity is proved. Bounded; no new mathematics.
 
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, not run: the sweep of banked uses of a triangulation is bounded and was not run. Owner: cc.
+
 ## L214 — RE-RUN THE LITERATURE AUDITS WITH A HOMONYM FILTER (registered 2026-09-14, B1404)
 
 Two of the six genuine absences B1404 found were **invisible to a bare grep**: this corpus contains
@@ -2674,6 +2684,8 @@ carried under a different name (E54's class, *absent-under-another-name*, from t
 **The lead:** re-run the corpus's literature audits through `b1404_absence_audit.py`'s filter, with
 the rule that a filter is only trustworthy if **every raw line was read**. Cheap; the payoff is that
 the novelty claims stop depending on spelling.
+
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, not run: the literature audits have not been re-run through the homonym filter. Owner: cc.
 
 
 ## L215 — THE CLOSED FORM OF THE GRADED TRACE (registered 2026-09-14, B1406)
@@ -2697,6 +2709,8 @@ Two structures are visible and neither is proved: among the **units** the split 
 derive `j(m)` in closed form. A character-sum or Gauss-sum evaluation of `tr(C·RᵐLᵐ)` in Kac–Peterson
 data is the obvious route, and it would say whether the six values are an accident of level 2 or the
 shadow of something that survives to other stages.
+
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved: the map m ↦ j is still observed, not derived. Owner: cc.
 
 ## L216 — THE ODD SECTOR IS WHERE THE OBJECT'S GRADED CONTENT IS — **L216 CLOSED NEGATIVE (B1408, same day): NO WINDOW SPENT.** (registered 2026-09-14, B1406)
 
@@ -2737,6 +2751,8 @@ has ever computed on it. The corpus has touched all three (B1324's 87 covers; th
 B89–B95/B153/B198–B199; the surgery work at B467) and budgeted none. **Doing the budget is cheap and
 it would tell the programme where it is allowed to look.**
 
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: the tower row and the rank row are closed (B1409); what remains of this lead is its design reading, which waits on L219. Owner: cc.
+
 
 ## L218 — THE INDEX CHANNEL: build the contact row out of something DISCRETE (registered 2026-09-14, B1408)
 
@@ -2763,6 +2779,8 @@ one, and cheaper to fool yourself with.
 **Prerequisite:** none. **Precondition on any future coupling-channel work:** state the bench precision
 first, against B1408's table. A value-channel row proposed without a `10⁻³` bench in hand is already
 answered.
+
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, not run: the enumeration of the object's integer-valued invariants against the two questions has not been made. Owner: cc.
 
 ## L219 — WHAT SELECTS A POINT IN THE TOWER'S ROOM? (registered 2026-09-14, B1409)
 
@@ -2802,6 +2820,10 @@ manifold" to "which boundary data", which is a relocation, not a derivation.
 > **point** in the room, and it is self-referential, so H5 permits it — but it does mean the five
 > cusps are **not interchangeable** and the boundary data is not a homogeneous free choice. The
 > `greedy` policy is order-dependent by construction and disagrees; it is the wrong normalisation.
+
+**Run 2026-10-02 (B1444–B1447), and it bears on this lead directly.** On the levels of the architecture a background is the end of a curve of flat connections, and imposing the frame's own boundary condition (unipotent peripheral holonomy) on the irreducible connections leaves finitely many points on each curve — a selector that is not a choice of cusp data but the cusp's own completeness. On the root's three-fold cover it gives exact numbers (B1446) and, on the branch off one member's curve, one point (B1447). That is a principle of the kind this lead asks for, on a different room (the periodic curves of a cyclic cover, not the deformation space of ρ_geo on the degree-10 tower); whether it applies in the tower's room is not computed.
+
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name with the run above. Owner: cc.
 
 ## L220 — FINISH THE OPEN-CLAIM SWEEP'S ADJUDICATION (registered 2026-09-14, B1409 audit pass)
 
@@ -2882,15 +2904,25 @@ since the day it was banked. It is now split; only the RETRACTIONS condition sur
 correction *was* propagated, into `HINT_LEDGER` at H72/H80). The staleness that exists is in **leads
 and ledgers, not walls**, and it is days old rather than months.
 
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: ten candidates of the open-claim sweep remain unadjudicated; Review 58's own sweep added one of the same class (B1325's three debts, paid before they were declared — E54). Owed: the ten reads. Owner: cc.
+
 ## L223 — THE LEVEL MISMATCH, harvested [renumbered 2026-09-17, S14: registered as a second L220, colliding with the open-claim sweep's L220; an E71 instance] (registered on main 2026-09-16, B1415; the SM seat's sm:L214, registered there 2026-09-15)
 A deck orbit of apexes has the deck's order, so a triple of chiral 27s exists only on Y₃ (sm:B1356), and Y₃ was believed to carry no Standard-Model Wilson line (sm:B1277, sm:B1300) while the record's SM lines live on Y₉ and Y₁₂ (sm:B1283, sm:B1302). **The seat's own status, verified on main:** (i) the descent's abelian lines are negative — H₁(S³(4₁; 2π/3)) = ℤ/3 and none of Kac's order-3 inner classes of E₆ (five of exact order 3 plus the identity; recomputed here with the full S₃ diagram symmetry) has the Standard Model as fixed algebra (sm:B1363); (ii) RESOLVED AS DESIGN — the Standard Model's centraliser in E₆ is su(2)_β ⊕ u(1)² (the SM-singlet roots are exactly ±β; 30 roots orthogonal to β; 8 of them SM), a Q₈ ⊂ SU(2)_β (one of the 24 surjections F(2,6) ↠ Q₈) times an order-4 character of H₁ = (ℤ/4)² (12 order-4 torus elements, exactly 4 leaving only the SM roots of su(6), all squaring to one involution — recomputed on main's own E₆ root system) leaves SU(3) × SU(2) × U(1)_Y × U(1)′ (sm:B1364); (iii) the line's bulk: three neutral flat moduli and one vector-like (3,1)_{−1/3} pair, never a doublet (sm:B1365, its script re-run here). **What it still owes** (the seat's words): the 5 + 5̄ masses, the doublet–triplet splitting, and the closing's own existence. Items (ii)/(iii) of the seat's original list (a non-flat breaking; three apexes on Y₉/Y₁₂ as a non-deck orbit) are superseded by the resolution. Harvest arc `frontier/B1415_the_sm_seats_closing_arcs_harvested`.
+
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: the SM seat's item; still owed on its lane are the 5 + 5̄ masses, the doublet–triplet splitting and the closing's own existence. Recorded here for that seat: its Q₈ ⊂ SU(2)_β line on Y₃ is the quaternion point of main's periodic line for an extension character of order two, a curve of filling type (meridian trivial), which is why it descends to the closed manifold (B1444 §10, B1446 §1). Owner: the SM seat.
 
 ## L221 — THE 27̄ SECTOR AND THE SEESAW (registered on main 2026-09-16, B1415; the SM seat's sm:L215, registered there 2026-09-15 by sm:B1365)
 The U(1)′ left by the Y₃ line is the Cartan direction γ ⊥ (SM, Y, β) — **exactly the η direction, γ ∥ √(3/8)·Q_χ − √(5/8)·Q_ψ, recomputed on main** — family-universal, m_{Z′_η} > 4.5 TeV (ATLAS, cited). Both E₆-charged Standard-Model singlets of the 27 (N and ν^c) carry the same γ charge (recomputed: the 27 splits into eleven (Y, γ, β) charge classes and the two Y = 0 charged singlets share γ), so the U(1)_η D-term vanishes on singlet VEVs only at the origin, U(1)_η is exact above the soft scale, the Majorana mass is forbidden and there is no seesaw; with the E₆ cubic's one coupling (sm:B1276, cited) the neutrinos are Dirac at the up-quark masses — **the three-apex design is excluded as it stands** (sm:B1365, NEGATIVE, its script re-run here). **The seat's remedy:** a 27̄ sector — anti-apexes (nine apexes, the deck being free) or the tower's h¹ pairs on an E₇/E₈ locus — with its own analysis that the 27̄s must be anti-apexes and that the instanton pairing spectrum of the apexes decides whether a Majorana scale near 10¹⁴–10¹⁵ GeV is reachable against a computed cap of ~10¹⁰–10¹¹ GeV. **Grade on main:** the charges and the direction are theorems of the root system; the exclusion is conditional on sm:B1276's coupling and on the three-apex design itself (THE CLOSING §6 item 8); nothing here is a prediction. No instrument for the pairing spectrum exists on any bench.
 
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: the SM seat's lead, on its lane; main holds the recomputed charges and no instrument for the pairing spectrum. Owner: the SM seat.
+
 ## L222 — THE FAMILY AS THE OBJECT: the class carries the chirality index where the member does not (registered 2026-09-16, B1418; the owner's direction "maybe it's about the family, not just the object")
 **The facts (B1418, DESIGN sealed f2f8686c).** The one-cusped index I = t₀ − r₁ (B1297) fires in characteristic zero on reducible non-split modules of five members of the figure-eight's commensurability class — s958, v2873, t12833, t12835, o10_150701 (I = ±1, t12835 ±2; semisimplification 0 always; four of the five are B1330's targets, on whose geometric holonomy the index was zero) — and (post-seal, labelled) on m004's own degree-4 cyclic cover t12839 (104 nonzero of 2 385; the degree-3 cover s961 gives 0) — and gives 0 on m004's only reducible locus (the golden one) in 235 modules. The class census: chirality and the count of three vary within the class and the door determines neither; m202, s959, o10_150726 (two-cusped, not covers of m004) score all four measured requirements. **The questions this registers:** (i) the rule — which members fire and why (torsion in H₁ and cusp-trivial characters are present on the firing members, but o10_150697 and s956 have loci that never fire); (ii) whether a non-semisimple flat SL(2)-module (a unipotent Wilson line in the E₆ language) is an admissible background in the closing's M-theory reading, and what I counts there (I-26 is UNEARNED); (iii) the unrun modules (t12833, t12835 at larger m) and the members not in the run (the other one-cusped members with torsion, the two-cusped members with the three — m202, s959 — whose index needs B1333's several-cusp form); (iv) **the programme-level decision, the owner's:** whether the object of the chain is the commensurability class (the arithmetic face is a class invariant, B803) with the member as the observer's choice — the chirality bit would then be a choice of member, priced like a closing. **What would settle (i):** the same run on all 60 one-cusped members and the two-cusped ones with B1333's index; **(ii)** is a physics reading and needs the closing (L221).
   **Run 2026-10-01 (B1441):** the class index on non-split modules over several cusps — m202 and s959 carry none on any module tried; seventeen covers of m009 and m010 carry a rank-two module of index two; see L234.
+
+**Run 2026-10-01/02 (B1432, B1438–B1447), bearing on (i)–(iii).** (i) the rule is the slope: a sector fires exactly when its character's slope equals the extension character's (B1438), and the three-fold cover s961 does fire, off the lift (B1432; this lead's "s961 gives 0" was the squares-only scan). (ii) what the non-semisimple module is: the first-order germ of a curve of irreducible flat connections through the reducible point (B1444); the class index is zero at every other point of that curve, at the 288 doubly-parabolic points of the product of two curves (B1446) and on 16 non-self-dual rank-three modules at a boundary-unipotent point (B1447) — on everything computed the index lives at the reducible end only. (iii) the several-cusped members were run (B1441, B1442): modules count two on seventeen covers, no background does, and m202 and s959 carry no class index.
+
+**ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: (iv), the programme-level decision whether the object of the chain is the commensurability class, is the owner's. Owner: the owner.
 
 ## L224 — THE HARVEST GATE IS BLIND TO THE LARGER HALF OF ITS OWN DEBT — **CLOSED 2026-09-17 (B1423/S16)**
 
@@ -3108,6 +3140,9 @@ six roots of u⁶ − 8u⁴ + 12u³ + 4. Open, in the order approved by the owne
   three eigenvalues are distinct (lightest 3.6·s²); its one parabolic point found has spectrum 1, e, 1/e in every
   triplet and class index zero, though the triplets are not self-dual. Still open under (a): representations on the
   other five branches; whether the branch has other parabolic points; a third member's Higgs (a further branch).
+  **Run 2026-10-02 (B1447 Addendum 1):** all six branches exist and are irreducible (11 of 11 starts on the other
+  five); no parabolic point reached on those five. "A third member's Higgs" is not a further branch: the two new
+  classes at a branch point are the other two members' sectors, so the irreducible branch has all three on.
 - **(b) Which group.** The branch presupposes a group in which two members' Higgs directions are non-commuting
   roots (L235 (b)); the frame's E₆ assignments have to be read for it.
 - **(c) The couplings with η = ℓ^±1** (624 on eleven levels): one SL(2), not two; the mass term there.

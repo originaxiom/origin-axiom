@@ -1,0 +1,16 @@
+{
+ "id": "B1448",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B763",
+  "B887",
+  "B1437"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE REVIEW'S INSTRUMENTS. Owner-directed after a decadal review run by hand at three times its period found its own process to be the defect: it does not fire, its instruments are improvised at every review (three of this review's first-draft checks were wrong, one of them reporting mirror pushes as done that had failed), carried items do not age, it cannot see a gate that cannot fail, and its sample is the reviewer's choice. scripts/review/review_tools.py provides the mechanical half as pure functions, each failing on planted input: the action loop with the age of every carried item, the branch inventory matched on the leaf over the two mirrors only, the seal check (hashes, sealed before results, on every mirror, and a hash file no parser reads is a defect), the provenance sweep on added lines, the error ledger's new classes against recurrences, the window's new vocabulary against the glossary, the gates no test names, the open relays by direction, and a seeded draw of the arcs to be read in full. It does not make the review fire or carried items age; that is a governance proposal put to the owner."
+}

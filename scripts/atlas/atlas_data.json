@@ -9098,6 +9098,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1448": {
+   "slug": "the reviews instruments",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "source_free",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B144": {
    "slug": "interaction chirality",
    "motifs": [
@@ -10050,7 +10061,7 @@
     "V165"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 8,
+   "obstacle_conf": 10,
    "status": "open",
    "domain": "dynamics"
   },

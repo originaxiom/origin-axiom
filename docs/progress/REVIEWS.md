@@ -5514,3 +5514,177 @@ grew by nine classes, and the programme's distance to a value is now stated as a
 - [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26 (owner: the owner)
 
 **anchor-commit: `efa5fd46`**
+
+# Review 58 (2026-10-02) — the review that had to repair itself first
+
+Sixty-one merges since Review 57 against a period of twenty; a window of 472 commits (`efa5fd46..b08f76f7`) and 38
+arcs with a verdict, B1410–B1447. The review was run by hand until half of it turned out to be scripts written on
+the spot, three of them wrong on first draft; the owner asked whether the process was developed and bug-free, the
+answer was no, and the mechanical half is now a tested instrument (B1448, `scripts/review/review_tools.py`). This
+entry is the first written from it. The owner's order of work was kept: the computation queue first (S32–S34), then
+this.
+
+## 1. The loop (Review 57's block, closed or carried)
+
+Review 57's own five items were closed in its block. Of the 26 carried keys:
+
+- **[x] R55-3** — *split relay-debt's open rows by direction.* Done: `review_tools.relay_split`; today 20 outbound
+  (codex 12, SM 2, mixed 6), 7 inbound.
+- **[x] R55-8** — the classes were minted (E71 branch-local numbering, E72 one symbol two quantities) and E53's
+  instances run to #14.
+- **[x] R55-10** — `papers/P3_THE_PAPER/main.tex:40` carries the provenance statement.
+- **[x] R55-11** — the four glosses are in `TERMINOLOGY.md` (parity theorem, dividing set, listener map, founding
+  ratio), three reviews late.
+- **[x] R56-2** — the law map is living: ten rows added in this window.
+- **[x] R55-16** — absorbed, with its count updated, into R58-2 below.
+- **[>] R55-1, R55-2, R55-4, R55-6, R55-7, R55-9, R55-12, R55-13, R55-14, R55-15** — carried a **fourth** time,
+  unmoved. Each is one sitting's work and has been restated since Review 55. That is the defect the loop cannot
+  see, and §9's proposal is about it. R55-6 is concrete and still wrong on the page: the law map's H-CUSP row
+  states *"PREDICTIVE PRINCIPLE — 3/3 objects … silver exact both ways"* in its status column while its own body
+  records B1242's refutation of the silver identification.
+- **[>] R56-1** (the harvest debt) — carried with new numbers, §7. **[>] R56-3** (`CLAIMS.md`, lag 284 existing
+  arcs) — carried, declared.
+- **[>] R55-5** (the outside seat's Papers I–IV, owner-gated since 2026-08-26; carried under seven keys since
+  Review 50) — the owner's. With the owner's direction of 2026-10-01 that relays go only to the SM seat and codex,
+  this seat's recommendation is to decline it; the decision is not this seat's.
+
+## 2. The branch inventory (B763 rule)
+
+Six unmerged leaves on the two mirrors, **all registered** (matched on the leaf): `outside-bench` (+14, frozen),
+`physics-seat-evaluation-8dkbrl` (+165, frozen), and four live lanes — `standard-model-derivation-0qt6ao` (+165),
+`physical-bridge-2026-09-05` (+217), `sep16-branch` (+98), `paper-review-verification-kaz3f5` (+22). Codeberg was
+72, 105, 13 and 12 commits behind origin on the four live lanes at the start of this review and was mirrored
+(fast-forward only); two of them moved again within the day and were mirrored again. **A third remote exists**
+(the public site's repository, push disabled); its seven refs are not this repository's and the tools name it and
+do not read it — the first draft of this section counted them as unregistered branches, which was wrong.
+
+## 3. The declared modulus
+
+Read in full, drawn by the tools with the anchor as seed and not chosen: **B1411, B1423, B1438, B1439, B1442,
+B1444**. B1411 and B1423 were written in earlier sessions and were read line by line here; the other four were
+written on this bench in the last two days and were re-read against their records. The 34 other arcs of the window
+were read at the level of their verdict lines. Locks: trusted from the certifying suite of the last landing
+(6880 passed, 0 failed), not re-run one by one. The 398 commits that entered through the merge of the outside
+bench were **not** re-read. No fresh-clone reproduction was run.
+
+What the sample turned up: B1411 reads as it should (every number re-run, and the one tower it could not re-derive
+said so). B1423 closes *"the two gate repairs are exercised by the gates themselves at every landing"* — which is
+the absence of a test, R58-2. B1438 and B1443 write the firing law with a character's inverse where the character
+would do (B1444 §10). B1439's sealed reader matched its own summary (recorded, E52). B1442 is NEGATIVE and routed.
+B1444's sealed text restricts its theorem to characters of order above two on a picture that was never computed
+(E65 instance; corrected before the push).
+
+## 4. Advancement
+
+**Law map +10 rows, theorem registry +5** (T-SIGDICH, T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE, T-MASS-TERM).
+The window has two halves. Through B1431 it is the consolidation, the paper's passes and the gates. From B1432 it
+is one line of mathematics: the Standard-Model frame's index and couplings are one function, the slope (B1438); no
+flat bundle of rank n counts more than ⌊n/2⌋ on a once-punctured-torus bundle (B1440); every background is the
+reducible end of a periodic curve of the trace map, the slope its cusp shape there and a coupling a first-order
+torsion (B1444); the coupling is the coefficient of a mass term on the product of two such curves (B1445); at the
+boundary-parabolic points the numbers are exact, and the members of a deck orbit first differ on a rank-three
+branch off one member's curve (B1446, B1447).
+
+**Stuck longest:** the unproved vanishing of the class index on a self-dual module twisted by a cusp-trivial
+character (B1329–B1332, 21 days OPEN; escalated by name today). The window added 288 + 16 instances and no proof,
+and the 16 are not self-dual. **Status exceeding evidence:** the H-CUSP row (R55-6). **The count that has not
+moved:** 0 of 19.
+
+## 5. Error-class recurrence
+
+New classes: **E81** (uncanonized isometry list), **E82** (wrong-domain criterion), **E83** (hash-order-dependent
+verification), **E84** (cited-absent check). Instances filed in the window: E2, E52 ×2, E53 ×2, **E54 ×2**, E58,
+E65, E66, E71, E72.
+
+The question is what standing rule would have caught each. Two answers recur:
+
+- **E54 twice, both on harvest rows** (B1410's "still owed", B1325's three debts). Both asserted an absence from a
+  ledger rather than from the arcs. Rule, now written into the ledger: *before rowing a seat item as owed, sweep
+  its id over `frontier/`.* A relay ledger without a row is not a record without a verification.
+- **E2, E58 and E65 on one bench in two days** (a coincidence that could not fail reported as a result; arcs cited
+  from a digest for an orbit they do not concern; a hypothesis narrowed by a picture never computed). All three
+  are a conclusion narrated before its inference was checked, and all three were caught the same day — two by the
+  owner's questions. The rules exist (MB12; open the cited artifact; evaluate an excluded case once). What failed
+  is applying them before speaking.
+
+One recurrence is the review's own: three first-draft checks were wrong (§2, and B1448). No new class — it is
+E52, the verifier defect — and the cure is the instrument.
+
+## 6. The provenance spot-sweep
+
+61 767 lines added in tracked Markdown; 12 carry a phrase of the list. Eleven are reader notes inside harvest arcs
+and the merged bench's own memos, describing verification done inside this project. One is in a public-facing
+file, a relay-ledger row that says a criterion was *"verified by an independent route"* — an internal second
+derivation, said as such. **No external-verification pretense found.** The paper carries its provenance statement
+(R55-10). Twenty terms minted in B1432–B1447 were unglossed and are glossed now (`TERMINOLOGY.md`, the Review 58
+section), with three warnings where a word could be misread: *class index* (not a generation count), *slope* (not
+a filling slope, though for integers it is one), *torsion* (not a mass).
+
+## 7. The debts
+
+- **Harvest:** 186 seat items unrowed — the audit/codex lane 103, the SM seat 49, sep16 31, the outside bench 3.
+  None aged past 21 days. The SM seat and codex are the two seats the owner still addresses; their 152 are first.
+- **Relays:** 27 open (405 banked, 37 declined). **36 were closed in this review**: four codex rows that had been
+  paid before they were opened (B1325's addendum), and 32 outbound rows to seats the owner no longer relays to,
+  declined with the owner's words as the reason. Still open and the owner's: twelve held relays to codex, two to
+  the SM seat, six mixed, and the lineage decision of 2026-09-13.
+- **Leads:** 70 open of 81, 43 stale (at baseline). Fifteen leads registered 2026-09-13 to 09-16 were read today:
+  one closed (L208, answered since 09-13, its closure mark missing), two updated with this window's runs (L219,
+  L222), fourteen escalated by name with a reason each.
+- **Open arcs:** 91, 85 stale (at baseline). B1325 closed by addendum; B1329, B1331, B1332, B171, B1229 and B1327
+  escalated by name.
+- **The clock, run forward with the checkers' own seams:** clean through 2026-10-08. On 2026-10-09 leads L225,
+  L226 and L227 age; L226 is the hash-order residue whose re-runs were started on 2026-10-01 and stopped
+  unfinished.
+- **Document currency:** nine declared debts; the SM specification ledger crossed its tolerance on 2026-10-01 and
+  was paid with a note through B1446.
+
+## 8. The §5.1 promotion sweep, and protocol integrity
+
+**Promotion:** four candidates, none promoted. T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE and T-MASS-TERM are
+each NEEDS-LIT — the cotangent sum against Dedekind–Rademacher and the Eisenstein cocycle; the bound against the
+classical parabolic-cohomology bounds; the curve and the torsion formula against the deformation theory of
+reducible representations at simple roots of the twisted Alexander polynomial. Deferred, blocker named: the
+literature checks (R58-5).
+
+**Seals:** eight in the window (B1410, B1434, B1435, B1439, B1441, B1442, B1444, B1445). Every hash line
+recomputed against the file as it stands — 58 of 58 unchanged; every seal strictly before its results; every seal
+on both mirrors. B1410's hash file is in a second layout, which the tools now read. B1418's design was sealed by
+commit, with no hash file. Hash-first order was honoured throughout; B1439's reader defect is on record.
+
+## 9. Governance delta — a proposal, not switched on
+
+The process fails in the three ways B1448 lists that tooling cannot fix. Put to the owner:
+
+1. **The review fires.** Past twice its period (40 merges) the push fails unless the owner has waived it by date.
+2. **Carried items age.** At its third carry an action item is resolved, declined with its reason, or waived by
+   the owner — the grammar leads and relays already use. Ten items would be due today.
+3. **The required core gains three checks:** every gate has a test that makes it fail; one fresh-clone
+   reproduction; the sample read in full is drawn by seed.
+
+## 10. What this review cannot say
+
+It did not re-read the merged bench's 398 commits, re-run any lock outside the suite, or run a fresh clone. Its
+sample is six arcs of 38. It took the debt checkers' counts as given, after finding one of them wrong in substance
+(four rows it counted as debts were paid). And it was written by the seat that wrote most of the window.
+
+### Action items (Review 58)
+
+- [ ] R58-1: decide the governance proposal of §9 — the review fires; carried items age; three checks join the core (owner: the owner; source: B1448)
+- [ ] R58-2: write a failing-path test for each of the twelve gates that have none — append-only, chain-locks, firewall-oneway, id-collisions, knowledge-index, law-map-provenance, lawmap-scope, path-refs, practices-register, seal-provenance, views-fresh, views-generated (owner: cc; source: R55-16, B1423)
+- [ ] R58-3: before 2026-10-09 pay or escalate L225, L226 and L227; L226's re-runs are unfinished (owner: cc; source: §7)
+- [ ] R58-4: harvest the SM seat's 49 and the audit/codex lane's 103 unrowed items, sweeping each id over the arcs before rowing it as owed (owner: cc; source: R56-1, E54)
+- [ ] R58-5: the literature checks for T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE and T-MASS-TERM (owner: cc; source: §8)
+- [ ] R58-6: the vanishing of the class index on irreducible modules — a proof or a counterexample; B1447's sixteen non-self-dual modules widen the statement (owner: cc; source: B1329–B1332)
+- [ ] R58-7: release or decline the held relays to codex and to the SM seat, including the two drafted on 2026-10-02 (owner: the owner)
+- [ ] R58-8: the lineage decision of 2026-09-13 (owner: the owner)
+- [>] R56-1: the harvest debt, restated as R58-4 (carried from R56-1)
+- [>] R56-3: CLAIMS.md, lag 284 existing arcs, declared (carried from R56-3)
+- [>] R55-1 (ex-R54-1), R55-2 (ex-R54-2), R55-4 (ex-R54-4), R55-6, R55-7, R55-9, R55-12, R55-13, R55-14, R55-15 carried a fourth time, unmoved (carried from R57)
+- [x] R55-3 (ex-R54-3): the open relays are split by direction in `scripts/review/review_tools.py::relay_split` — 20 outbound, 7 inbound on 2026-10-02 (done at Review 58)
+- [x] R55-8: E71 and E72 minted, E53 instances filed through #14 (done; evidence `docs/ERROR_LEDGER.md`)
+- [x] R55-10: `papers/P3_THE_PAPER/main.tex:40` carries the verification-provenance statement (done at Review 56, recorded here)
+- [x] R55-11: parity theorem, dividing set, listener map and founding ratio glossed in `TERMINOLOGY.md` (done at Review 58)
+- [x] R55-16: restated with its count updated as R58-2 — 15 of 34 gates named by no test, twelve with no test of their checker either (absorbed at Review 58)
+- [x] R56-2: the law map is living — ten rows added in the window `efa5fd46..b08f76f7` (done)
+- [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26; this seat recommends declining it under the owner's direction of 2026-10-01 (owner: the owner)
