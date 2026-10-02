@@ -41,7 +41,11 @@
 - **Lock:** `tests/test_b1517_repo_first_then_literature.py` (12 tests, one slow). The B1516 lock now pins GENESIS's head line
   by form and v1.0 by its log entry.
 - **Tests and gates.** The 49 test files that read a touched document, with the lock: 1 551 passed. The one failure is the
-  known baseline: relay-debt inside `test_b887_gate_audit`. Gates: all pass except relay-debt, the known baseline. 0 of 19.
+  known baseline: relay-debt inside `test_b887_gate_audit`. Gates: all pass except relay-debt, the known baseline.
+- **Fast lane on cf8506c2** (B1517's pushed tree, 66 minutes): 6 530 passed, 52 skipped, 10 failed. The ten are the same set
+  as at e1bc9c36: the nine baseline failures and the environmental `test_b1035_receipts`. The 14 extra passes, from a diff of
+  pytest's collected IDs at the two commits (none removed), are B1517's 11 fast lock tests and three schema cases: B1517's
+  verdict, its novelty-wording case and the wording check's control. 0 of 19.
 
 ## GENESIS v1.0 relayed to main and to the audit lane; the audit lane's same-day reconciliation read and answered
 

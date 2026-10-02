@@ -16821,3 +16821,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   this entry.
 - I-26 stays UNEARNED. 0 of 19.
 
+## 2026-10-02 — the fast lane on cf8506c2 (B1517's pushed tree)
+
+- **Fast lane on cf8506c2** (66 minutes): 6 530 passed, 52 skipped, 10 failed. The ten are the same set as at e1bc9c36: the nine
+  baseline failures and the environmental `test_b1035_receipts`.
+- **The extra passes, from the collector.** Following the count rule logged earlier the same day, pytest's collected test IDs
+  were diffed at e1bc9c36 and cf8506c2: 6 563 and 6 577, 14 added and none removed. The 14 are B1517's 11 fast lock tests and
+  three schema cases: B1517's verdict, its novelty-wording case and the wording check's control. All 14 passed.
+- I-26 stays UNEARNED. 0 of 19.
+
