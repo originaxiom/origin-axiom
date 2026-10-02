@@ -1549,3 +1549,17 @@ global acceptance, a selected source law or physical chirality.
 | `reports/physical_bridge_2026_09_05/FLAT_VACUUM_INPUTS.json` | `dc86396c9292235efe59e78be7ca9df3b85c8037ae0d3b7d61c459b62451fc6b` |
 | `reports/physical_bridge_2026_09_05/flat_vacuum.py` | `57a506ef6abbf5527c076d593712da7412514866791b065daecda4c5895ff599` |
 | `tests/test_physical_bridge_flat_vacuum.py` | `47b597ffdd5d93323416f66713ea33a3f277c5e15aeb0677453fa6098243d225` |
+
+## October 2 2026 R76 supplemental nonzero-frame control seal
+
+Original44/44 native checks and11 focused tests passed. Its recovered
+peripheral primitive was zero, so a separately sealed global-coboundary
+frame control now tests a nonzero answer, plus a multiform commutator.
+Original science and first outputs unchanged. No execution/import of
+these three paths before this supplemental seal; not a scientific repair.
+
+| frozen control path | sha256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/FLAT_VACUUM_CONTROL_DESIGN.md` | `f54de917ac97734a87976f653db342346ce53cdceba6f664ab55e6c0f3d71a76` |
+| `reports/physical_bridge_2026_09_05/flat_vacuum_control.py` | `dd1c5a24816876407daf602a1229cfb9eaf2549902937dc91c448e70d3f82913` |
+| `tests/test_physical_bridge_flat_vacuum_control.py` | `62de43e0655f1c9c3380794024fa9de8339f799156e5cf6ce5408ede9f3ed9cb` |
