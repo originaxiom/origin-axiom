@@ -1,5 +1,22 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+**LATEST foundation audit, path-local R78 (October 2):** signed powers
+and ordinary cyclic levels were conflated in B1516 C9. Its original
+168-matrix check still passes while an additional reconstruction
+predicate fails on four negative-even-power entries. The known m207 is
+-(LR)^2, not (-LR)^2=m206; exact H1 is Z+C3+C3. Named one-cusp geometry
+is interval-certified at 100/160 bits, with verified isometry-signature
+comparisons and a common double cover t12839. The 758 restricted census
+replays unchanged; m207 already appears in B1385/main B1418. This is a
+schema correction, not a new manifold, three generations or a chirality
+rescue. 14 tests pass with unchanged science after an initial missing-
+pytest environment failure, preserved in receipts. Review/propagation,
+sign legality, carrier dependence and full physical admission remain
+open. Full parameter-free SM/TOE goal ACTIVE/unachieved; R77 stays unrun.
+Report: reports/physical_bridge_2026_09_05/SIGNED_LEVEL.md.
+Earlier dated entries below retain their scopes.
+
+
 **Current path-local R73 (October 1):** the actual compact phase orbit
 preserves nonlinear residual action, peripheral conjugacy and transported
 Q graph/current data. Its finite-norm tangent has a divergent straight
@@ -1155,3 +1172,17 @@ algebra, not independent global theorem acceptance or physical particles.
 | Bare flat stationary finite-energy points are harmonic | Supplied positive residual action equals symmetric-space bienergy on flat connections. Authored equivariant cutoff proof uses smooth complete boundaryless base, finite Higgs energy and finite potential. Does not exclude nonflat, coupled-field, source or singular/end theories; nonharmonic stationary interval is a boundary comparator. | B1511 counted-coefficient context only; primary arXiv1201.6457v4 ordinary-map theorem personally read, equivariant/action application in R76 FLAT_VACUUM_PROOF.md sections1--2; tests/test_physical_bridge_flat_vacuum.py::test_actual_positive_metric_action_map_and_wrong_tension_control and test_target_curvature_sign_and_boundary_stationary_opposite_control |
 | Actual nonsplit class splits at the cusp and admits compact extension support | R75 representative over QQ[q]/(q^6-34q^3+1) has zero cocycle on both actual cusp generators but nonzero global class. Longitude inverse localizes a smooth extension to the compact core, without changing its class. Conditional R44 same-base harmonic diagonal metric gives finite energy and compact current, not derived source dynamics. | B1511 positive context; R76 FLAT_VACUUM_PROOF.md section3; tests/test_physical_bridge_flat_vacuum.py::test_actual_cusp_splits_without_splitting_the_global_extension; tests/test_physical_bridge_flat_vacuum_control.py::test_nonzero_cusp_primitive_and_same_nonsplit_class |
 | Localized upper-extension scaling has positive quartic cost and nonattained zero infimum | Same specified harmonic diagonal background, compact nonzero beta, t>0: mu=tL+t^2Q with orthogonal blocks gives a t^2+c t^4, a>=0,c>0. Integral projector current5t^2 norm(beta)^2; local-system index unchanged until the split limit. Target distance diverges, not automatically a 4D modulus distance or quantum selection. | B1511/B1510 coefficient/deformation context only; R76 FLAT_VACUUM_PROOF.md section4; tests/test_physical_bridge_flat_vacuum.py::test_compact_current_and_even_scaling_potential_from_actual_commutator; supplemental multiform control in tests/test_physical_bridge_flat_vacuum_control.py |
+
+## Signed powers and cyclic-level interface, October 2 2026
+
+Path-local R78: exact finite execution and verified named geometry;
+general analytic deductions authored, independent review pending. No
+global normal-form theorem, new manifold or physical interpretation.
+
+| law | hypotheses, scope and boundary | source / lock |
+|---|---|---|
+| S1: central signing after an even cover is not covering a signed seed | Integer hyperbolic A=LR; -(A^2) differs from (-A)^2 by trace and homology. C9's 168-matrix success misses four such reconstruction entries in box5, not four classes or a universal census. Sign legality remains a premise. | B1516 C9 source e1bc9c36 context; R78 SIGNED_LEVEL_PROOF.md S1; tests/test_physical_bridge_signed_level.py::test_sign_after_even_power_is_not_cover_of_negative_seed and test_foreign_check_passes_while_the_reconstruction_predicate_fails |
+| S2: negative double unsigned power has fibre cokernel C3+C3 | Once-punctured-torus mapping torus of U=-(LR)^2; base Z character set trivial. All nine fibre C3 characters fixed, eight nonzero. Certified carrier m207, not a generation count, coefficient index or selected vacuum. | Old B1385 S4/main B1418 context, not newly executed; R78 SIGNED_LEVEL_PROOF.md S2; tests/test_physical_bridge_signed_level.py::test_exact_homology_distinguishes_equal_unsigned_trace and test_fixed_characters_are_the_full_C3_square_not_only_order_nine |
+| S3: U is no proper GL(2,Z) matrix power | Negative hyperbolic trace7 excludes even real-eigenvalue roots and unit-modulus complex roots; odd hyperbolic root traces grow to absolute value >=18. General proof authored, not inferred from a bounded root search. No exclusion of non-cyclic manifold relations. | B1516 C9 reconstruction claim is the audit target, NOT the source of this proof; R78 SIGNED_LEVEL_PROOF.md S3; tests/test_physical_bridge_signed_level.py::test_even_power_root_reason_requires_hyperbolic_target (opposite controls, not independent analytic review) |
+| S4: unsigned-primitive signed seeds and their ordinary cyclic levels omit U | Mixed positive trace bound >= length+1 gives a COMPLETE length<=6 window at trace7. Primitive negative candidate has C9 rather than C3+C3; S3 excludes higher levels. Original 758 restricted-family results and LR selector remain intact. No whole-corpus absence or new-object claim. | B1516/B1434/B1439 family definitions context; R78 SIGNED_LEVEL_PROOF.md S4; tests/test_physical_bridge_signed_level.py::test_complete_trace_seven_window_and_cover_law |
+| S5: signed-after-power coordinates retain ordinary cover transport | (u,k,eps) means eps A(u)^k, degree n maps to (u,kn,eps^n). m207 and m206 share M(A^4)=t12839 as a double cyclic cover. 3,328 declared finite cover controls safeguard the identity, not a global conjugacy classification or physical join. | B1516 C6 ordinary-cover convention and B1385 S4 named states are prior context, not this proof; R78 SIGNED_LEVEL_PROOF.md S5; tests/test_physical_bridge_signed_level.py::test_complete_trace_seven_window_and_cover_law; signed_level_geometry.py and SIGNED_LEVEL_RECEIPTS.json for interval/isometry comparisons |

@@ -7,6 +7,15 @@ theorem. Its exact source versions and reading grades are in
 [the manifest](GENESIS_RECONCILIATION_INPUTS.json).
 The [sealed operational contract](OPERATIONAL_CONTRACT.md) remains unchanged.
 
+**R78 checkpoint:** GENESIS v1/B1516 is now read and its signed-level
+interface independently tested at e1bc9c36. Negative even unsigned
+powers cannot be reduced to ordinary levels of signed unsigned-primitive
+seeds. Known m207=-(LR)^2, H1 Z+C3+C3, is the certified counterexample.
+Keep the758 family as a restricted experiment; reconstruct every proposed
+full-grammar encoding. See [the scoped report](SIGNED_LEVEL.md).
+GENESIS sign/inverse legality is still OPEN; no new foundation axiom,
+carrier derivation or physical interpretation is silently introduced.
+
 ## Evidence vocabulary
 
 **Premise**: accepted for a specified conditional construction, not proved

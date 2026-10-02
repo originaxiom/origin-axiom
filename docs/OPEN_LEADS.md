@@ -4382,3 +4382,27 @@ B1445/B1446 deformation and cross-member branch positives likewise retained.
 - PB-CUSTODY: preserve the previously recorded R30 raw-availability debt;
   a new source manifest or metadata check does not cure missing original bytes.
   Plan: reports/physical_bridge_2026_09_05/GENESIS_RECONCILIATION_PLAN_2026_10_02.md.
+
+### R78 checkpoint — signed-state closure versus ordinary levels (October 2)
+
+- PB-GENESIS / PB-TRANSITIONS: verified signed-power reconstruction defect
+  in B1516 C9, pin e1bc9c36. Its original finite check passes but four
+  negative-even-power entries fail the omitted reconstruction predicate.
+  Known m207=-(LR)^2 has H1 Z+C3+C3 and named interval-certified geometry;
+  m206 and common double cover t12839 are controls. Correct signed-after-
+  power coordinates, or signed-primitive seeds, WITHOUT withdrawing the
+  valid restricted 758-family results or selecting another physical root.
+  The sign/inverse move's legality and independent analytic review remain
+  open. Closing sentence only for this failed implication: “Reducing an
+  unsigned word to its primitive root and attaching its original negative
+  sign does not reconstruct an even ordinary cyclic level.” Report:
+  reports/physical_bridge_2026_09_05/SIGNED_LEVEL.md, sections S1–S5 of
+  the frozen proof. This closes no frame's physical chirality question.
+- PB-COORDINATION: R78 sender relay OPEN for main/SM reproduction/schema
+  correction; m207 already occurs in B1385/main B1418. Reconcile existing
+  coefficient work before any new index computation, not a novelty claim.
+- PB-CARRIER / PB-ACTION: continue faithful-F2 and realization dependence;
+  actual C3 characters need the SAME admitted coefficient/background,
+  action, domains and interactions. No three physical generations, new
+  physical vacuum or complete axiom-minimality certificate is earned.
+  R77 drafts remain unsealed/unrun; full parameter-free SM/TOE unachieved.

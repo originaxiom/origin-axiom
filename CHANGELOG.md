@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-02 — R78 signed-level reconstruction defect independently checked
+
+Seven science paths sealed/pushed at64a96ea6 before execution. Original
+B1516 C9 still passes168 matrices but misses four negative-even-power
+reconstructions; -(LR)^2 is known m207, not the cyclic double cover of
+-LR. Exact H1 Z+C3+C3, certified one-cusp hyperbolicity at100/160 bits
+and verified named isometry signatures, with m206/t12839 controls. The
+758 restricted census remains valid and m207's old record is recovered,
+not claimed missing everywhere. Corrected signed-after-power coordinates
+pass3,328 bounded cover-identity controls;14 tests pass unchanged after
+preserved system-Python missing-pytest failure. Law sublemmas and live
+audit headlines updated, direct sender relay OPEN for main/SM review.
+No physical generation, spectrum, new B-number or full-suite-green claim.
+R77 remains unsealed/unrun. Report:
+reports/physical_bridge_2026_09_05/SIGNED_LEVEL.md.
+
 ## 2026-10-02 — owner-requested genesis reconciliation plan and premise register
 
 Existing operational contract located and preserved as sealed R58 input,

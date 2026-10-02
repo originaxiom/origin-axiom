@@ -1,5 +1,22 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**LATEST foundation audit, path-local R78 (October 2):** signed powers
+and ordinary cyclic levels were conflated in B1516 C9. Its original
+168-matrix check still passes while an additional reconstruction
+predicate fails on four negative-even-power entries. The known m207 is
+-(LR)^2, not (-LR)^2=m206; exact H1 is Z+C3+C3. Named one-cusp geometry
+is interval-certified at 100/160 bits, with verified isometry-signature
+comparisons and a common double cover t12839. The 758 restricted census
+replays unchanged; m207 already appears in B1385/main B1418. This is a
+schema correction, not a new manifold, three generations or a chirality
+rescue. 14 tests pass with unchanged science after an initial missing-
+pytest environment failure, preserved in receipts. Review/propagation,
+sign legality, carrier dependence and full physical admission remain
+open. Full parameter-free SM/TOE goal ACTIVE/unachieved; R77 stays unrun.
+Report: reports/physical_bridge_2026_09_05/SIGNED_LEVEL.md.
+Earlier dated entries below retain their scopes.
+
+
 **October 2 foundation checkpoint:** reconcile the current genesis
 premises and generated-architecture scope before choosing the next
 physical source/core specification. Existing R57/R58 and the sealed

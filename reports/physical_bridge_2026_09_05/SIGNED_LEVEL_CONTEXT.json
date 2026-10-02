@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-02",
+  "post_identification_context": [
+    {
+      "commit": "e1bc9c36e6a0308d66a4651f1963a65be06d0e6e",
+      "path": "frontier/B1385_the_states_together/FINDINGS.md",
+      "sha256": "1912aa1fadd2c5607a057fbe988348c6b15dea778c5a4cf4a3c733effd3507e2",
+      "bytes": 27823,
+      "read_status": "full personally read"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1418_the_family_as_the_object/FINDINGS.md",
+      "sha256": "77d8e5705d60693ff73c2d8b688f32eaafd5b9819e63d2bab01b763002780165",
+      "bytes": 11804,
+      "read_status": "full personally read"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1418_the_family_as_the_object/verification/c1_class_census.json",
+      "sha256": "e037547da6cf6567ef60d2e4c9efb07ef9553222069eb294692cbca05ae79c80",
+      "bytes": 35058,
+      "read_status": "selected m207 row personally read; 112-row record not rerun"
+    },
+    {
+      "commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+      "path": "frontier/B1224_amphichiral_cs_torsion/FINDINGS.md",
+      "sha256": "5a574d419f2b2b40d37a0584b57d0f48d4378e428333f08e28971153796de138",
+      "bytes": 4969,
+      "read_status": "full personally read including certification caution"
+    }
+  ],
+  "latest_SM_commit": "6da934c011465cdc992f043f9d83e7b89c4b61ee",
+  "latest_main_commit": "bd48dd28894d847d25e9d6b828b18d19378e3615",
+  "target_spec_and_producer_unchanged_at_latest_SM": true,
+  "SM_currency_commit_read": "commit message and changes to WORKING_RULES, SM verdict, P019 and P022 personally read; other changed bodies not claimed fully read",
+  "prior_art_navigation": "m207 filename query over all thirteen tracking labels; output window truncated; selected relevant existing sources then read. No absence or novelty inference.",
+  "older_results_rerun": false,
+  "new_geometry_certified": true,
+  "other_branches_written": false
+}

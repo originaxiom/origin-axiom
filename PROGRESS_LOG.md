@@ -16423,3 +16423,64 @@ documents initially resolve eleven tracked links; the added receipt link
 is covered in final review. All new raw bytes remain retrievable locally.
 This does not resolve older raw-custody debt or independently verify the
 foundation mathematics. No source/core draft enters this publication.
+
+### 2026-10-02 — R78: a known generated member was lost at a new interface
+
+Fetched all heads; SM published GENESIS v1 e1bc9c36 and headline currency
+6da934c0. Read the new specification, full producer/record/tests, main
+B1434/B1439 bodies and population producers. Author-sealed seven science
+paths at64a96ea6, pushed/server-confirmed before any execution. Replayed
+B1516's C9/census under a non-main module, no record writes or coefficient
+producer execution. Its168-matrix success survives; the missing signed
+root/level reconstruction predicate fails on four entries of that box.
+They are not four inequivalent manifolds. -(LR)^2 is known m207 whereas
+(-LR)^2=m206. The exact fibre cokernel is C3+C3 rather than C5. All nine
+fibre C3 characters are fixed, eight nonzero; no index or physical count.
+
+Complete trace-seven word window follows from the authored all-length
+trace bound. Primitive level-one negative candidates have C9, not C3+C3;
+the authored matrix-root proof excludes higher ordinary cyclic levels.
+Both proofs need independent review, not just finite controls. Corrected
+unsigned-power/sign coordinates pass3,328 finite cover identities. Full
+original758-family replay agrees; its scoped results are not withdrawn.
+
+Sage10.7/SnapPy3.3.2 certifies all three carriers and their named census
+triangulations at100/160 bits, with equality of verified isometry
+signatures: m207, m206 and common double cover t12839. Scientific tree and
+HEAD unchanged. First system-Python test invocation fails before
+collection (no pytest); same tests via installed interpreter pass14/14.
+First failure, geometric deprecation warning and all stdout/digests stay.
+
+Exact-name prior-art navigation finds m207 in old SM B1385 S4, main
+B1418's class census and B1224's amphichiral CS census. Read source
+bodies/selected record, not rerun those older science probes. New source
+pins/receipts distinguish this from a new-object or whole-corpus absence
+claim. Live audit headlines and five scoped law rows updated; sender
+relay OPEN pending independent recipient review. Do not treat native
+cubic character data as physics or discard same-frame one-cusp negatives.
+Next fix architecture encoding/legal sign scope, continue carrier
+dependence, then same-coefficient/source/action/domain admission. Full
+SM/TOE goal ACTIVE/unachieved; R77 drafts remain unsealed/unrun.
+
+First R78 publication-governance run flags the four existing failure
+categories plus three new LAW_MAP provenance rows (including its header).
+The header is normalized and the two rows gain explicit prior-arc context,
+NOT a false attribution of their proof. First output retained; frozen
+science unchanged. Final staged governance/custody checks follow.
+
+Final R78 staged governance: 26 PASS/four existing FAIL categories, no new
+offender after the documented source-context repair. Attribution: four old
+paths, test-vacuity: two old tests, seal-provenance: five old paths and 41
+stale relay debts remain; 44 banked/52 OPEN rows, review due at 285. This
+is not a fully banked B-arc, full-suite green or main merge. Publication
+metadata verifies 19 source pins/seven frozen science paths, all four
+embedded science/test logs, 1,150 then-latest artifact digests and seven
+tracked links. The final publication-check link/receipt is added after
+that capture; final capture covers those too. R77 remains excluded.
+
+First final metadata check catches two stale latest-digest rows: the
+updated hashes had been inserted before older rows. Correct current
+digests are appended at EOF, without deleting first records or touching
+science. Failed output and identical final governance output are added
+to publication checks. Metadata JSON assembly also required explicit
+UTF-8 labels on binary-read log strings; no raw byte changed.
