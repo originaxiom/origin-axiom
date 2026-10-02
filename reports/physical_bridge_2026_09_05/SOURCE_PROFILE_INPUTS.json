@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "audit": "R80",
+  "sources": [
+    {
+      "commit": "1e3d17b99584c0ffbfa0bddde52b4bb62c0256cc",
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2",
+      "bytes": 6559,
+      "grade": "Full authored projector/source body reread; old finite outputs retained, not rerun here"
+    },
+    {
+      "commit": "1e3d17b99584c0ffbfa0bddde52b4bb62c0256cc",
+      "path": "reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_PROOF.md",
+      "sha256": "519f22e2efc268700e4514f19f88b278e584451adbca2e8562269ff2c331fc5e",
+      "bytes": 4665,
+      "grade": "Full authored R75 body reread; old counts retained, not rerun here"
+    },
+    {
+      "commit": "1e3d17b99584c0ffbfa0bddde52b4bb62c0256cc",
+      "path": "reports/physical_bridge_2026_09_05/cross_branch_positives.py",
+      "sha256": "57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731",
+      "bytes": 11672,
+      "grade": "Literal matrices and word helpers through line65, actual longitude and index construction lines200-260 personally read; only literal/sym_word reused"
+    },
+    {
+      "commit": "1e3d17b99584c0ffbfa0bddde52b4bb62c0256cc",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+      "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685",
+      "bytes": 9845,
+      "grade": "Selected current/scaling/source sections reread; prior complete reading retained; no new analytic acceptance"
+    },
+    {
+      "commit": "1e3d17b99584c0ffbfa0bddde52b4bb62c0256cc",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md",
+      "sha256": "0f6b1e7b5e7322cc2ad869a4cb47d53f7eb1ecec90426061c481a709b5619eee",
+      "bytes": 8633,
+      "grade": "Full body reread; supplied source sign and relaxed model reused"
+    },
+    {
+      "commit": "1e3d17b99584c0ffbfa0bddde52b4bb62c0256cc",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_FIELD_INTAKE_2026_10_02.md",
+      "sha256": "a404610a4a169f46bf925ad077251f047e8ec0269c12623e61a08405cbba7bfe",
+      "bytes": 5456,
+      "grade": "Full body reread; constraints distinguished from an imposed parallel law"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/1812.06072v2",
+      "access_date": "2026-10-02",
+      "grade": "Section2.5 and selected2.12-2.19,5.1-5.11 read directly; not full paper; no equation D Z=0 asserted for all chiral matter"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0112161",
+      "access_date": "2026-10-02",
+      "grade": "Abstract personally opened/read only; compact Kahler theorem NOT imported onto a hyperbolic3 base"
+    }
+  ],
+  "head_pins": {
+    "main": "12ed66bd87202ff5958fbbc8f161666a7b988700",
+    "sm": "27220af63321731c9036adc91742d0a41eff5be0"
+  },
+  "inputs_not_derived": [
+    "Physical parent, spacetime, action, SL5/E8 embedding and trace normalization",
+    "Positive internal metric and finite energy/domain assumptions",
+    "Nonsplit flat coefficient and chosen source representations",
+    "Positive source coefficients g2 and kappa",
+    "Whether admitted source profiles satisfy a parallel equation",
+    "Physical end laws, quantum theory, complete spectrum and anomaly matching"
+  ],
+  "claim_boundary": "Necessary zero-D source balance in declared class; not all stationary vacua, sources or generated architecture",
+  "review_grade": "Same-author independent finite implementations; nonauthor analytic review pending; no empirical predicates or measured calibration"
+}

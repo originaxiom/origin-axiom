@@ -1666,3 +1666,19 @@ first execution/import; original science and failures preserved.
 | `reports/physical_bridge_2026_09_05/act_register_control.py` | `4fb7037d852d81df37b1fd83492fe157f301109c33a373a18ab585f0ddd296b2` |
 | `reports/physical_bridge_2026_09_05/act_register_exhaustive.py` | `edafdb1b05ea4b5b5d196b4f0a949e3188057c230ad6eb1f85eb4a296a837cf3` |
 | `tests/test_physical_bridge_act_register.py` | `7a6dd32e4c242eb2a94c3a2947f2e139371f85809dc3db9cd5f17ef9d9aa0782` |
+
+## October 2 R80 source-profile direction and boundary controls
+
+Conditional zero-D source gate in a supplied flat parent; not all
+physical profiles or vacua. Source sign and periphery fixed in advance.
+Seal/push/server-confirm before any execution; original failures retained.
+Same-author independent implementations; analytic review remains separate.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/SOURCE_PROFILE_DESIGN.md` | `2f47dabd2c19b473a0c17e7b42e5bee1254a62f54bb2afa040eb432cd713260a` |
+| `reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md` | `60133ab411d768ddad0f525b58743128d6ecfebcc021615760d6f8fc91ac9c2c` |
+| `reports/physical_bridge_2026_09_05/SOURCE_PROFILE_INPUTS.json` | `30ced4910080ebc7ba290aff1bdfc810aaed7f53fa4e4df7247a87c440d0e443` |
+| `reports/physical_bridge_2026_09_05/source_profile.py` | `6efcd44c6be0449afdda2d6f58da543d589173fc676a3baa0c7c1e6db580a7cd` |
+| `reports/physical_bridge_2026_09_05/source_profile_control.py` | `fbb927f80da08f7c87b80641f008ecf637d7c7215e5eeb1b29afad9e63859bd5` |
+| `tests/test_physical_bridge_source_profile.py` | `7731393db2ec804713081d7e71ac9d90ee17d5a0d6272f3b7805bd478a595067` |
