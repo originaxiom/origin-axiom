@@ -1,5 +1,19 @@
 # Changelog
 
+## Record the fast lane on 6243a975 (B1522 to B1524 banked): at the bank's baseline
+
+- **Fast lane on 6243a975** (66 minutes, in a worktree pinned at that commit): 6 628 passed, 52 skipped, 10 failed. The ten are
+  the same set as at 71267485.
+- **The extra passes, from the collector.** Diffed like for like with 71267485 (6 690 → 6 737 ids): 47 added, none removed.
+  - B1522's 13 lock tests, B1523's 18 (two slow) and B1524's 10.
+  - Six schema cases (two per arc verdict).
+  - So 43 more pass in the fast lane.
+- **Runs not counted, disclosed.**
+  - At 07faac0a (B1522's bank) two attempts were lost: one stopped at 55% by its timeout, the other reached 100% with 10
+    failures and was lost to a container restart before its summary line.
+  - At 70333665 (B1523's bank) the run was stopped at 51%, because the working tree changed under it (B1524's edits; E46).
+  - This run certifies B1522 to B1524, on a tree nothing edited.
+
 ## B1525 banked: GENESIS v1.5 — main's v1.4 as the head, the SM seat's v1.3 answered by its line, and the levels, the word states, the bar's null contract and the audit lane's GAP3 carried (PROVED, not sealed)
 
 - **Main's ask** (its relay of 2026-10-02, §5: "Take v1.3 as the head, or answer a change by its line"), answered on main's

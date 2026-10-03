@@ -17128,3 +17128,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   Q5's list (main's E84 class): not carried, and the new lock tests all three. B1522's headline without "off the unit
   circle" (E53): dated notes on the living surfaces.
 - **Not added:** main's B1459, left to main. 0 of 19.
+
+## 2026-10-03 — the fast lane on 6243a975 (B1523 and B1524 banked)
+
+- **Fast lane on 6243a975** (66 minutes, in a pinned worktree): 6 628 passed, 52 skipped, 10 failed. The ten are the same set as at
+  71267485.
+- **The extra passes, from the collector.** 6 690 → 6 737 ids; 47 added, none removed: B1522's 13 lock tests, B1523's 18 (two
+  slow), B1524's 10 and six schema cases. So 43 more pass in the fast lane.
+- **Not counted, disclosed:** two attempts at 07faac0a (one timed out at 55%; one reached 100% with 10 failures and was lost to a
+  container restart before its summary), and a run at 70333665 stopped at 51% because the tree changed under it (E46). This run
+  certifies B1522 to B1524 on a tree nothing edited.
