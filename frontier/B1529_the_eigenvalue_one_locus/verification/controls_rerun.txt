@@ -1,0 +1,21 @@
+# The banked identity (PREREGISTRATION section 8): controls.py re-run unchanged after the census and the crossing reader had
+# started, in a detached worktree at 8e4e4163 (the sealed files' hashes checked there first); it finished 2026-10-03T13:48:49Z.
+# Its controls.json equalled the sealed one in every field but the timings ("seconds"), compared field by field in the session; all six PASS.
+PASS C2 sm:B1509's polynomial (s-1)^2 (s^2-6s+1) on m004's four: {"chi_C coefficients (low to high)": ["(1.0 + 0.0j)", "(-8.0 + 0.0j)", "(14.0 + 0.0j)", "(-8.0 + 0.0j)", "(1.0 + 0.0j)"], "deviation": "6.85e-59", "am at 1 (order, largest zero, first non-zero)": [2, "5.17e-60", "1.0"], "g at 1 (g, kept, dropped)": [1, "0.0606", "9.55e-62"], "slot": "a", "seconds": 1.2}
+PASS C3 Lemma O: the eigenvalue-one space of Lambda^2 g never has dimension 1: {"dimensions seen": [0, 2, 4, 6], "cases": 53, "by kind": {"Jordan(1,2) y 1/y": [2], "Jordan(x,2) Jordan(1/x,2)": [2], "diag x 1/x y 1/y": [2], "generic (no product one)": [0], "unipotent [1, 1, 1, 1]": [6], "unipotent [2, 1, 1]": [4], "unipotent [2, 2]": [4], "unipotent [3, 1]": [2], "unipotent [4]": [2]}, "seconds": 0.8}
+PASS C4 hypothesis guard: W1 on +LR: {"Fox I(W1)": -1, "Fox h1(W1)": 1, "route T g(C; 1)": 1, "H0(F; W1)": 0, "H0(F; W1*)": 1, "Lemma F applies": false, "seconds": 0.4}
+  C1 +LR: D = 1, rows so far 8, agree 8
+  C1 -LR: D = 5, rows so far 56, agree 56
+  C1 +LLRLRR: D = 13, rows so far 160, agree 160
+  C1 -LLRLRR: D = 17, rows so far 328, agree 328
+  C1 +LLLRLRR: D = 18, rows so far 472, agree 472
+  C1 -LLLRLRR: D = 22, rows so far 688, agree 688
+  C1 +LLLLRLLLRR: D = 45, rows so far 1048, agree 1048
+  C1 -LLLLRLLLRR: D = 49, rows so far 1524, agree 1524
+  C1 +LLLLRLRRRLRR: D = 121, rows so far 2492, agree 2492
+  C1 -LLLLRLRRRLRR: D = 125, rows so far 3740, agree 3740
+PASS C1 route T reproduces sm:B1527's Part H (3,740 rows): {"rows": 3740, "agree": 3740, "hypothesis holds": 3740, "disagreements": [], "smallest kept": "6.38e-12", "largest dropped": "3.77e-52", "smallest slot conditioning": "2.92e-5", "seconds": 115}
+PASS C5 route T at the exported type-one points (X2's rows): {"points": 10, "rows": 276, "agree": 276, "disagreements": [], "smallest kept": "1.88e-16", "largest dropped": "0.0", "seconds": 10}
+PASS C6 sm:B1515's interior classes of the four on M6 (positive control): {"M1": {"D": 1, "h1 of the four: characters by value": {"1": 1}, "orders by value": {"1": [1]}}, "M2": {"D": 5, "h1 of the four: characters by value": {"1": 5}, "orders by value": {"1": [1, 5]}}, "M3": {"D": 16, "h1 of the four: characters by value": {"1": 16}, "orders by value": {"1": [1, 2, 4]}}, "M4": {"D": 45, "h1 of the four: characters by value": {"1": 45}, "orders by value": {"1": [1, 3, 5, 15]}}, "M5": {"D": 121, "h1 of the four: characters by value": {"1": 121}, "orders by value": {"1": [1, 11]}}, "M6": {"D": 320, "h1 of the four: characters by value": {"1": 292, "2": 24, "3": 4}, "or
+FAILED: none
+CONTROLS-EXIT 0

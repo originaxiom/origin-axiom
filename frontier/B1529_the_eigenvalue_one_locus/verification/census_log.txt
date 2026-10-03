@@ -1,0 +1,18 @@
+start 2026-10-03T12:44:16Z at 44cdb4a6
+resumed 2026-10-03T12:54:30Z after the session's worker restarted (the census process was stopped at 12:53Z); census.jsonl had 229 records, every line valid JSON
+census: 312 to do, 229 done
+  25/312 (192 s)
+  50/312 (305 s)
+  75/312 (498 s)
+  100/312 (628 s)
+  125/312 (786 s)
+  150/312 (1010 s)
+  175/312 (1340 s)
+  200/312 (1689 s)
+  225/312 (1832 s)
+  250/312 (2039 s)
+  275/312 (2308 s)
+  300/312 (2801 s)
+  312/312 (3112 s)
+CENSUS-EXIT 0
+end 2026-10-03T13:46:23Z

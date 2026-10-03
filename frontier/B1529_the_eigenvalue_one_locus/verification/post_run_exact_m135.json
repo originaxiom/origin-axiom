@@ -1,0 +1,349 @@
+{
+ "manifold": "-LLRR",
+ "SnapPy": "m135",
+ "D": 8,
+ "the representation (PGL(2, Q(i)), each generator divided by its largest entry)": {
+  "a": [
+   [
+    [
+     "0",
+     "0"
+    ],
+    [
+     "-1/50",
+     "7/50"
+    ]
+   ],
+   [
+    [
+     "1",
+     "0"
+    ],
+    [
+     "-3/5",
+     "1/5"
+    ]
+   ]
+  ],
+  "b": [
+   [
+    [
+     "1",
+     "0"
+    ],
+    [
+     "-27/50",
+     "-11/50"
+    ]
+   ],
+   [
+    [
+     "1",
+     "0"
+    ],
+    [
+     "-2/5",
+     "-1/5"
+    ]
+   ]
+  ],
+  "t": [
+   [
+    [
+     "7/10",
+     "1/10"
+    ],
+    [
+     "-17/50",
+     "19/50"
+    ]
+   ],
+   [
+    [
+     "1",
+     "0"
+    ],
+    [
+     "-1/2",
+     "1/2"
+    ]
+   ]
+  ]
+ },
+ "exact checks": {
+  "relator taTbba scalar in PGL(2, Q(i))": true,
+  "relator tbTbbabbab scalar in PGL(2, Q(i))": true,
+  "cusp generators commute": true,
+  "l parabolic (tr^2 = 4 det)": true,
+  "t' parabolic (tr^2 = 4 det)": true,
+  "the four: relator taTbba = 1": true,
+  "the four: relator tbTbbabbab = 1": true,
+  "traces of the four (a, b, t, ab, abt)": [
+   "2 sqrt2",
+   "2 sqrt2",
+   "4",
+   "4",
+   "4"
+  ]
+ },
+ "rows": [
+  {
+   "u": [
+    "0",
+    "0"
+   ],
+   "nu(t)": "(1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    0,
+    0
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 2,
+   "chi_C (highest first)": [
+    "1",
+    "12 + 8 sqrt2",
+    "-26 - 16 sqrt2",
+    "12 + 8 sqrt2",
+    "1"
+   ],
+   "agrees with the census": true
+  },
+  {
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "nu(t)": "(-1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    2,
+    2,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    1,
+    1
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 4,
+   "chi_C (highest first)": [
+    "1",
+    "-4",
+    "6",
+    "-4",
+    "1"
+   ],
+   "agrees with the census": true
+  },
+  {
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "nu(t)": "(-1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    0,
+    0
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 4,
+   "chi_C (highest first)": [
+    "1",
+    "-4",
+    "6",
+    "-4",
+    "1"
+   ],
+   "agrees with the census": true
+  },
+  {
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "nu(t)": "(1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    0,
+    0
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 4,
+   "chi_C (highest first)": [
+    "1",
+    "-4",
+    "6",
+    "-4",
+    "1"
+   ],
+   "agrees with the census": true
+  },
+  {
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "nu(t)": "(-1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    2,
+    2,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    1,
+    1
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 4,
+   "chi_C (highest first)": [
+    "1",
+    "-4",
+    "6",
+    "-4",
+    "1"
+   ],
+   "agrees with the census": true
+  },
+  {
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "nu(t)": "(1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    0,
+    0
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 2,
+   "chi_C (highest first)": [
+    "1",
+    "12 - 8 sqrt2",
+    "-26 + 16 sqrt2",
+    "12 - 8 sqrt2",
+    "1"
+   ],
+   "agrees with the census": true
+  },
+  {
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "nu(t)": "(1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    0,
+    0
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 4,
+   "chi_C (highest first)": [
+    "1",
+    "-4",
+    "6",
+    "-4",
+    "1"
+   ],
+   "agrees with the census": true
+  },
+  {
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "nu(t)": "(-1.0 + 0.0j)",
+   "(h1, h1*, t0, s0)": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "a0, b0": [
+    0,
+    0
+   ],
+   "n(V), n(V*)": [
+    0,
+    0
+   ],
+   "I (Lemma E)": 0,
+   "dim C": 4,
+   "am(C; 1)": 4,
+   "chi_C (highest first)": [
+    "1",
+    "-4",
+    "6",
+    "-4",
+    "1"
+   ],
+   "agrees with the census": true
+  }
+ ],
+ "every row agrees with the census": true,
+ "seconds": 6
+}

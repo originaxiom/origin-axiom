@@ -1,0 +1,331 @@
+{
+ "states": {
+  "-LLRR": {
+   "read as": "-LLRR",
+   "level": false,
+   "D": 8,
+   "census failures": {
+    "0/1/2": [
+     2,
+     2,
+     1,
+     1
+    ],
+    "1/2/0": [
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   "Fox failures": {
+    "0/1/2": [
+     2,
+     2,
+     1,
+     1
+    ],
+    "1/2/0": [
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   "W failures": {
+    "0/1/2": [
+     2,
+     2,
+     1,
+     1
+    ],
+    "1/2/0": [
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   "the three routes agree": true,
+   "every Fox identity holds": true,
+   "I = 0 on every row (both routes)": true,
+   "interior classes n(V) at the failures": {
+    "0/1/2": [
+     1,
+     1
+    ],
+    "1/2/0": [
+     1,
+     1
+    ]
+   },
+   "rows": [
+    {
+     "u": [
+      "0",
+      "0"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      0,
+      0
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00151",
+      "largest dropped": "4.44e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.00508",
+      "largest dropped": "1.11e-60"
+     }
+    },
+    {
+     "u": [
+      "0",
+      "1/2"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      1,
+      1
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00504",
+      "largest dropped": "1.93e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.0098",
+      "largest dropped": "1.11e-60"
+     }
+    },
+    {
+     "u": [
+      "1/4",
+      "1/4"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      0,
+      0
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00183",
+      "largest dropped": "7.7e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.0112",
+      "largest dropped": "1.11e-60"
+     }
+    },
+    {
+     "u": [
+      "1/4",
+      "3/4"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      0,
+      0
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00107",
+      "largest dropped": "8.04e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.00959",
+      "largest dropped": "1.11e-60"
+     }
+    },
+    {
+     "u": [
+      "1/2",
+      "0"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      1,
+      1
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00276",
+      "largest dropped": "2.23e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      2,
+      2,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.0201",
+      "largest dropped": "1.11e-60"
+     }
+    },
+    {
+     "u": [
+      "1/2",
+      "1/2"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      0,
+      0
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00122",
+      "largest dropped": "9.39e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.0205",
+      "largest dropped": "1.11e-60"
+     }
+    },
+    {
+     "u": [
+      "3/4",
+      "1/4"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      0,
+      0
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00107",
+      "largest dropped": "8.04e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.00959",
+      "largest dropped": "1.11e-60"
+     }
+    },
+    {
+     "u": [
+      "3/4",
+      "3/4"
+     ],
+     "Fox (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "Fox n(V), n(V*)": [
+      0,
+      0
+     ],
+     "Fox I": 0,
+     "Fox identities": true,
+     "Fox margins": {
+      "smallest kept": "0.00183",
+      "largest dropped": "7.7e-59"
+     },
+     "W (h1, h1*, t0, s0)": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "W I": 0,
+     "W margins": {
+      "smallest kept": "0.0112",
+      "largest dropped": "1.11e-60"
+     }
+    }
+   ]
+  }
+ },
+ "seconds": 5
+}

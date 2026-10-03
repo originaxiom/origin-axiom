@@ -1,0 +1,7593 @@
+{
+ "manifold": "+LLLLRLLLRR",
+ "a": "0.000010000000000000000818",
+ "D": 45,
+ "brackets": 14,
+ "brackets by kind": {
+  "E1": 6,
+  "E2": 2,
+  "E3": 4,
+  "E4": 2
+ },
+ "crossings": [
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    35.0,
+    40.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 37.585754394531236,
+    "float64 |F|": 3.3798638476624363e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "7.87e-56",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 37.585751495439105,
+   "b/a": "-1.29919468759",
+   "crossing function / a": "-2.37e-61",
+   "read": {
+    "relator residual": "1.33e-54",
+    "rho(l) eigenvalues": [
+     "(0.999980759686944 + 2.39660612834609e-70j)",
+     "(1.0 + 6.2004016922567e-27j)",
+     "(1.0 - 6.2004016922567e-27j)",
+     "(1.00001924068325 + 4.04258216427631e-70j)"
+    ],
+    "min |eigenvalue - 1|": "6.2e-27",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.14e-6",
+      "dropped": "1.14e-58"
+     },
+     "kappa*": [
+      "1.0000082669708606744"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000082669708606744",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.64e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000826697086",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "2.29e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "2.55e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.09e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00000826697086",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "9.51e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.55e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.49e-7"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00000826697086",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.86e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.53e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.13e-6"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00000826697086",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "2.05e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.54e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.13e-6"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00000826697086",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.69e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.55e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.49e-7"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "1.17e-58"
+     },
+     "kappa*": [
+      "1.000016534010064156",
+      "0.99998346626330481291"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.000016534010064156",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.29e-11",
+           "largest dropped": "8.35e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.73e-10",
+           "largest dropped": "2.15e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "1.7e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "2.15e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "7.76e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "2.15e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "8.39e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "2.15e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "1.2e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "2.15e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998346626330481291",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.29e-11",
+           "largest dropped": "6.24e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.73e-10",
+           "largest dropped": "1.98e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "9.5e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "1.97e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "8.94e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "1.97e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "7.46e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "1.97e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "1.07e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "1.97e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "2.31e-57"
+    }
+   },
+   "seconds": 130
+  },
+  {
+   "kind": "E2",
+   "bracket (deg)": [
+    59.99999999999999,
+    65.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 60.17181396484374,
+    "float64 |F|": 1.1615489543340532e-09,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.29e-55",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 60.171801443045155,
+   "b/a": "1.72007749634",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "2.95e-54",
+    "rho(l) eigenvalues": [
+     "(0.999987923163282 + 2.82498071793517e-50j)",
+     "(0.999987923163282 - 2.82498071793515e-50j)",
+     "(1.0 - 1.15188811171933e-71j)",
+     "(1.00002415411099 - 4.32569073696026e-73j)"
+    ],
+    "min |eigenvalue - 1|": "2.78e-48",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.39e-6",
+      "dropped": "6.44e-59"
+     },
+     "kappa*": [
+      "0.99998256286626957815"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99998256286626957815",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.87e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.99998256286627",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "2.72e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "2.72e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.8e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.99998256286627",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.71e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.71e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.21e-5"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.99998256286627",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.43e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.71e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "3.06e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.99998256286627",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.9e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.71e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "3.06e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.99998256286627",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "3.1e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.71e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.21e-5"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 99
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    75.0,
+    80.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 78.86260986328125,
+    "float64 |F|": 5.692610031920479e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "8.33e-55",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 78.86284336587805,
+   "b/a": "0.0656219177345",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "9.92e-54",
+    "rho(l) eigenvalues": [
+     "(0.999998436704917 + 5.1166948943239e-26j)",
+     "(0.999998436704917 - 5.1166948943239e-26j)",
+     "(1.0 + 5.45783860245573e-65j)",
+     "(1.0000031265975 + 2.61143423298355e-68j)"
+    ],
+    "min |eigenvalue - 1|": "1.65e-45",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "6.98e-7",
+      "dropped": "1.65e-58"
+     },
+     "kappa*": [
+      "1.000005139198831075"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.000005139198831075",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "4.51e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000513919883",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "4.92e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "7.03e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.37e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00000513919883",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.1e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "7.03e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.8e-5"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00000513919883",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "2.09e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "7.03e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.84e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00000513919883",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "3.52e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "7.03e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.84e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00000513919883",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.84e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "7.02e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.8e-5"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 99
+  },
+  {
+   "kind": "E4",
+   "bracket (deg)": [
+    75.0,
+    80.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 75.17120361328125,
+    "float64 |F|": 3.253884318279925e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "9.91e-56",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 75.17150299109638,
+   "b/a": "0.264743553382",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "9.96e-55",
+    "rho(l) eigenvalues": [
+     "(0.999996893052426 + 4.81770272348276e-49j)",
+     "(0.999996893052426 - 4.81770272348276e-49j)",
+     "(1.00000310695723 - 1.65521837458399e-69j)",
+     "(1.00000310695723 - 7.43270100497346e-85j)"
+    ],
+    "min |eigenvalue - 1|": "3.11e-6",
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "2.57e-58"
+     },
+     "kappa*": [
+      "1.0000104322922981563",
+      "0.99998956781653343093"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000104322922981563",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.71e-11",
+           "largest dropped": "1.99e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.35e-10",
+           "largest dropped": "4.78e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "2.22e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.78e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "1.87e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.79e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "1.26e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.79e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "3.27e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.78e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998956781653343093",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.71e-11",
+           "largest dropped": "1.76e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.35e-10",
+           "largest dropped": "4.69e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "1.97e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.69e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "1.16e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.7e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "1.59e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.7e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "1.61e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.68e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "2.02e-57"
+    }
+   },
+   "seconds": 111
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    80.0,
+    85.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 82.58575439453125,
+    "float64 |F|": 1.0893733391208345e-09,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.84e-56",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 82.58575149555183,
+   "b/a": "-0.130130210026",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "5.0e-55",
+    "rho(l) eigenvalues": [
+     "0.999996866856575",
+     "1.0",
+     "1.0",
+     "1.00000313315324"
+    ],
+    "min |eigenvalue - 1|": "2.92e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "7.02e-7",
+      "dropped": "1.09e-58"
+     },
+     "kappa*": [
+      "1.0000050849298552428"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000050849298552428",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "4.46e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000508492986",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "3.22e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "5.46e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.36e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00000508492986",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.44e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "5.45e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.79e-5"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00000508492986",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "4.64e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "5.47e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.83e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00000508492986",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.33e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "5.46e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.83e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00000508492986",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.13e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "5.46e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.79e-5"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "1.12e-58"
+     },
+     "kappa*": [
+      "1.0000101698855669973",
+      "0.99998983021785852332"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000101698855669973",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.64e-11",
+           "largest dropped": "1.88e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-10",
+           "largest dropped": "1.75e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "8.2e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "1.75e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "1.27e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "1.75e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "1.37e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "1.75e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "1.24e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "1.76e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998983021785852332",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.64e-11",
+           "largest dropped": "2.3e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-10",
+           "largest dropped": "1.75e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "1.62e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "1.76e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "1.74e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "1.76e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "1.97e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "1.76e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "2.05e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "1.76e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.95e-57"
+    }
+   },
+   "seconds": 138
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    125.00000000000001,
+    130.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 127.58575439453125,
+    "float64 |F|": 1.0383418815318607e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.1e-55",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 127.58575149551552,
+   "b/a": "0.769707580822",
+   "crossing function / a": "-1.19e-61",
+   "read": {
+    "relator residual": "1.24e-54",
+    "rho(l) eigenvalues": [
+     "(0.999985190552373 + 1.41577153270989e-71j)",
+     "(1.0 + 2.02469261918435e-27j)",
+     "(1.0 - 2.02469261918435e-27j)",
+     "(1.00001480966695 + 2.39381031205825e-71j)"
+    ],
+    "min |eigenvalue - 1|": "2.02e-27",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "8.79e-7",
+      "dropped": "9.33e-60"
+     },
+     "kappa*": [
+      "1.0000063631440847386"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000063631440847386",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.26e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000636314408",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "2.07e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "2.28e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "8.36e-6"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00000636314408",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "5.42e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.28e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "4.23e-7"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00000636314408",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "6.07e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.28e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.48e-6"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00000636314408",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.18e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.28e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.48e-6"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00000636314408",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "9.42e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.28e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "4.23e-7"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "1.61e-59"
+     },
+     "kappa*": [
+      "0.99998727383329830026",
+      "1.0000127263286590798"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99998727383329830026",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.3e-11",
+           "largest dropped": "1.22e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.87e-10",
+           "largest dropped": "2.17e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "7.87e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "2.17e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "8.48e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "2.17e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "1.37e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "2.17e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "1.1e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "2.17e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.0000127263286590798",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.3e-11",
+           "largest dropped": "5.14e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.87e-10",
+           "largest dropped": "1.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "6.55e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "1.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "1.44e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "1.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "6.73e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "1.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "1.03e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "1.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.42e-57"
+    }
+   },
+   "seconds": 161
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    150.0,
+    155.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 150.17181396484378,
+    "float64 |F|": 6.191332832000015e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "4.65e-55",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 150.17180144357067,
+   "b/a": "-0.581369154674",
+   "crossing function / a": "4.75e-61",
+   "read": {
+    "relator residual": "4.97e-54",
+    "rho(l) eigenvalues": [
+     "0.999985957813091",
+     "1.0",
+     "1.0000070211674",
+     "1.0000070211674"
+    ],
+    "min |eigenvalue - 1|": "1.62e-47",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "8.05e-7",
+      "dropped": "1.27e-58"
+     },
+     "kappa*": [
+      "1.0000101375514660251"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000101375514660251",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.09e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001013755147",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "2.44e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "5.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.63e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001013755147",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.99e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "5.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.06e-6"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001013755147",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "3.94e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "5.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.78e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001013755147",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "3.12e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "5.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.78e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001013755147",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.66e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "5.92e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.06e-6"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 177
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    215.0,
+    220.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 217.58575439453125,
+    "float64 |F|": 1.4327000409883523e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.99e-55",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 217.5857514954391,
+   "b/a": "-1.29919468759",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "3.53e-54",
+    "rho(l) eigenvalues": [
+     "0.999980759686944",
+     "1.0",
+     "1.0",
+     "1.00001924068325"
+    ],
+    "min |eigenvalue - 1|": "6.19e-27",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.14e-6",
+      "dropped": "1.13e-58"
+     },
+     "kappa*": [
+      "0.99999173309748156783"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999173309748156783",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.64e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999991733097482",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "1.38e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "4.35e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.09e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999991733097482",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.05e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "4.35e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.49e-7"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999991733097482",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.27e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "4.34e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.13e-6"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999991733097482",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.42e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "4.34e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.13e-6"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999991733097482",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.32e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "4.35e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.49e-7"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "1.13e-58"
+     },
+     "kappa*": [
+      "0.99998346626330481291",
+      "1.000016534010064156"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99998346626330481291",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.29e-11",
+           "largest dropped": "6.87e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.73e-10",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "7.35e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "1.05e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "7.29e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999983466263305",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "1.13e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "3.66e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.000016534010064156",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.29e-11",
+           "largest dropped": "7.79e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.73e-10",
+           "largest dropped": "3.6e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "7.73e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "3.6e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "5.36e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "3.6e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.44e-9",
+           "largest dropped": "6.12e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.15e-8",
+           "largest dropped": "3.6e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001653401006",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "4.57e-10",
+           "largest dropped": "9.52e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.63e-9",
+           "largest dropped": "3.6e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "3.06e-57"
+    }
+   },
+   "seconds": 273
+  },
+  {
+   "kind": "E2",
+   "bracket (deg)": [
+    239.99999999999997,
+    245.00000000000003
+   ],
+   "locate": {
+    "float64 alpha (deg)": 240.1718139648438,
+    "float64 |F|": 4.76958855225163e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "3.91e-56",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 240.17180144304515,
+   "b/a": "1.72007749634",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "1.57e-55",
+    "rho(l) eigenvalues": [
+     "0.999975846472414",
+     "1.0",
+     "1.00001207698257",
+     "1.00001207698257"
+    ],
+    "min |eigenvalue - 1|": "6.37e-48",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.39e-6",
+      "dropped": "1.48e-58"
+     },
+     "kappa*": [
+      "1.0000174374377893565"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000174374377893565",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.87e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001743743779",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "7.76e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "4.92e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.8e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001743743779",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.88e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "4.92e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.21e-5"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001743743779",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.26e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "4.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "3.06e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001743743779",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.54e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "4.93e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "3.06e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001743743779",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.22e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "4.92e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.21e-5"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 177
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    255.00000000000003,
+    260.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 258.8626098632813,
+    "float64 |F|": 1.1777369244786497e-09,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.34e-55",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 258.86284336587806,
+   "b/a": "0.0656219177345",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "1.2e-54",
+    "rho(l) eigenvalues": [
+     "(0.999996873412279 + 1.62887258293315e-68j)",
+     "(1.0 + 3.40437916444509e-65j)",
+     "(1.00000156329753 - 4.37064190685062e-26j)",
+     "(1.00000156329753 + 4.37064190685062e-26j)"
+    ],
+    "min |eigenvalue - 1|": "1.21e-45",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "6.98e-7",
+      "dropped": "1.2e-58"
+     },
+     "kappa*": [
+      "0.9999948608275801539"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.9999948608275801539",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "4.51e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.99999486082758",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "1.91e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "5.29e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.37e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.99999486082758",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "3.43e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "5.28e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.8e-5"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.99999486082758",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.62e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "5.3e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.83e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.99999486082758",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.82e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "5.3e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.83e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.99999486082758",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "2.37e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "5.28e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.8e-5"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 132
+  },
+  {
+   "kind": "E4",
+   "bracket (deg)": [
+    255.00000000000003,
+    260.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 255.17120361328122,
+    "float64 |F|": 7.151547871870761e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "6.03e-55",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 255.17150299109636,
+   "b/a": "0.264743553382",
+   "crossing function / a": "5.93e-62",
+   "read": {
+    "relator residual": "6.77e-54",
+    "rho(l) eigenvalues": [
+     "0.999996893052426",
+     "0.999996893052426",
+     "1.00000310695723",
+     "1.00000310695723"
+    ],
+    "min |eigenvalue - 1|": "3.11e-6",
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "1.83e-58"
+     },
+     "kappa*": [
+      "0.99998956781653343093",
+      "1.0000104322922981563"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99998956781653343093",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.71e-11",
+           "largest dropped": "1.44e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.35e-10",
+           "largest dropped": "4.05e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "2.74e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.05e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "1.75e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.04e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "2.03e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.04e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999989567816533",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "2.44e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.04e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.0000104322922981563",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.71e-11",
+           "largest dropped": "2.37e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.35e-10",
+           "largest dropped": "4.06e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "2.79e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.07e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "2.43e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.06e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "9.08e-10",
+           "largest dropped": "2.87e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.28e-9",
+           "largest dropped": "4.06e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.0000104322923",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.88e-10",
+           "largest dropped": "3.48e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-9",
+           "largest dropped": "4.07e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.8e-57"
+    }
+   },
+   "seconds": 151
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    260.0,
+    265.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 262.58575439453125,
+    "float64 |F|": 2.952778232500673e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "5.58e-56",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 262.58575149555185,
+   "b/a": "-0.130130210026",
+   "crossing function / a": "2.97e-62",
+   "read": {
+    "relator residual": "2.62e-55",
+    "rho(l) eigenvalues": [
+     "(0.999996866856575 - 8.4106302650722e-72j)",
+     "(1.0 + 1.28119793388776e-49j)",
+     "(1.0 - 1.28119793388776e-49j)",
+     "(1.00000313315324 - 4.96603332151831e-70j)"
+    ],
+    "min |eigenvalue - 1|": "1.79e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "7.02e-7",
+      "dropped": "4.09e-59"
+     },
+     "kappa*": [
+      "0.99999491509600113732"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999491509600113732",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "4.46e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999994915096001",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "1.75e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "4.44e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.36e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999994915096001",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.62e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "4.44e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.79e-5"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999994915096001",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "2.36e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "4.45e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.83e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999994915096001",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "2.2e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "4.45e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.83e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999994915096001",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.79e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "4.44e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.79e-5"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "4.69e-59"
+     },
+     "kappa*": [
+      "1.0000101698855669973",
+      "0.99998983021785852332"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000101698855669973",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.64e-11",
+           "largest dropped": "2.86e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-10",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "3.92e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "3.18e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "3.07e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001016988557",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "3.87e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "3.65e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998983021785852332",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.64e-11",
+           "largest dropped": "2.76e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.29e-10",
+           "largest dropped": "3.48e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "4.29e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "3.48e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "2.05e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "3.48e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "8.85e-10",
+           "largest dropped": "2.25e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "7.09e-9",
+           "largest dropped": "3.48e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999989830217859",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.81e-10",
+           "largest dropped": "4.22e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.23e-9",
+           "largest dropped": "3.49e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "2.42e-57"
+    }
+   },
+   "seconds": 197
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    305.0,
+    310.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 307.5857543945312,
+    "float64 |F|": 1.1362210006175012e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.12e-55",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 307.5857514955155,
+   "b/a": "0.769707580822",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "2.63e-54",
+    "rho(l) eigenvalues": [
+     "(0.999985190552373 + 2.4244409441832e-70j)",
+     "(1.0 - 4.38837782693498e-27j)",
+     "(1.0 + 4.38837782693498e-27j)",
+     "(1.00001480966695 + 1.44677634461104e-70j)"
+    ],
+    "min |eigenvalue - 1|": "4.39e-27",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "8.79e-7",
+      "dropped": "4.38e-59"
+     },
+     "kappa*": [
+      "0.99999363689640460645"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999363689640460645",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.26e-7",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999993636896405",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "8.71e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "2.54e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "8.36e-6"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999993636896405",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.56e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.53e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "4.23e-7"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999993636896405",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "6.68e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.54e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.48e-6"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999993636896405",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.6e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "2.54e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.48e-6"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999993636896405",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.16e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "2.53e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "4.23e-7"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.317",
+      "dropped": "4.54e-59"
+     },
+     "kappa*": [
+      "0.99998727383329830026",
+      "1.0000127263286590798"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99998727383329830026",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.3e-11",
+           "largest dropped": "9.5e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.87e-10",
+           "largest dropped": "2.01e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "3.35e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "2.02e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "5.74e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "2.01e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "7.28e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "2.01e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999987273833298",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "9.51e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "2.01e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.0000127263286590798",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.96",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.3e-11",
+           "largest dropped": "1.01e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.87e-10",
+           "largest dropped": "2.18e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.998"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "7.11e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "2.18e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "1.5e-50"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "2.18e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.11e-9",
+           "largest dropped": "7.16e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "8.88e-9",
+           "largest dropped": "2.18e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.14"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "1.00001272632866",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "3.52e-10",
+           "largest dropped": "7.92e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.79e-9",
+           "largest dropped": "2.18e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.04"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.47e-57"
+    }
+   },
+   "seconds": 237
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    330.0,
+    335.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 330.1718139648438,
+    "float64 |F|": 4.75202243039393e-10,
+    "route": "crossing system from float64",
+    "60-digit |F|": "8.98e-56",
+    "iterations": 5,
+    "converged": true
+   },
+   "alpha (deg)": 330.1718014435707,
+   "b/a": "-0.581369154674",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "6.61e-55",
+    "rho(l) eigenvalues": [
+     "(0.999992978881898 + 2.16926865727803e-26j)",
+     "(0.999992978881898 - 2.16926865727803e-26j)",
+     "(1.0 + 1.54767289902226e-67j)",
+     "(1.00001404238409 + 5.81208002553256e-69j)"
+    ],
+    "min |eigenvalue - 1|": "3.33e-47",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "8.05e-7",
+      "dropped": "2.61e-58"
+     },
+     "kappa*": [
+      "0.99998986255130288276"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99998986255130288276",
+       "route T": {
+        "rows": 45,
+        "I != 0": 0,
+        "I values": {
+         "0": 45
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "1.09e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 45
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989862551303",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "6.96e-6",
+           "largest dropped": "1.1e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "3.61e-5",
+           "largest dropped": "9.35e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.63e-5"
+        },
+        {
+         "u": [
+          "1/45",
+          "11/15"
+         ],
+         "lambda*": "0.999989862551303",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.31e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "9.35e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.06e-6"
+        },
+        {
+         "u": [
+          "2/45",
+          "7/15"
+         ],
+         "lambda*": "0.999989862551303",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "1.43e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "9.36e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.78e-5"
+        },
+        {
+         "u": [
+          "43/45",
+          "8/15"
+         ],
+         "lambda*": "0.999989862551303",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.000626",
+           "largest dropped": "2.47e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00283",
+           "largest dropped": "9.36e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "1.78e-5"
+        },
+        {
+         "u": [
+          "44/45",
+          "4/15"
+         ],
+         "lambda*": "0.999989862551303",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.00035",
+           "largest dropped": "1.7e-56"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.00178",
+           "largest dropped": "9.36e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "7.06e-6"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 138
+  }
+ ],
+ "seconds": 2227
+}
