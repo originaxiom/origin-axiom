@@ -78,3 +78,10 @@ start 2026-10-03T13:38:01Z at 8e4e4163
 -LLLRLRR E2 [275.0, 280.0]: converged False, alpha None, 3782 s  (pole bracket)
 -LLLRLRR E3 [275.0, 280.0]: converged False, alpha None, 3792 s  (pole bracket)
 -LLLRLRR E4 [275.0, 280.0]: converged False, alpha None, 4124 s  (pole bracket)
+-LLLRLRR E1 [335.0, 340.0]: converged False, alpha None, 3744 s  (pole bracket)
+-LLLRLRR E3 [335.0, 340.0]: converged False, alpha None, 3667 s  (pole bracket)
+-LLLRLRR E4 [335.0, 340.0]: converged False, alpha None, 3606 s  (pole bracket)
+wrote crossings_pLLLRLRR.json: 40 brackets, 18 located
+wrote crossings_mLLLRLRR.json: 40 brackets, 18 located
+post_run_poles: 29703 s
+POLES-EXIT 0 2026-10-03T21:53:04Z

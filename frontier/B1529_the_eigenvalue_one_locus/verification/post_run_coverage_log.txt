@@ -35,3 +35,5 @@ mLLLLRLLLRR E2 348.8628 (missed): route S, alpha 348.86284333995565, off by 1.40
 pLLLLRLRRRLRR E2 146.8569 (missed): route S, alpha 146.85685895629032, off by -2.7299709699946106e-05, 937 s
 COVERAGE-EXIT 143 2026-10-03T15:06:03Z
 paused by the seat at 15:06Z to give the sealed pole brackets the CPU (33 targets done; the run is resume-safe and restarts after the sealed runs)
+start 2026-10-03T21:55:08Z at 8fff235c
+coverage: 24 targets to do, 33 done
