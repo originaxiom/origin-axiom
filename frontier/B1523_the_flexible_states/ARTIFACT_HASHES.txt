@@ -1,0 +1,12 @@
+# B1523 -- sha-256 of the sealed files, recorded at the seal (before census.py read dim H^1(M; v) on any census manifold).
+# controls.json and controls_run.txt are the design-time run (non-outcome checks on all 536; v read only on the literature's
+# m004, L2R2, R2L and the planted m129). Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1523_the_flexible_states/)
+c61caeb08eb6b794f7123c94a1f213b4f4af8116e0c13a90410603c48d8eb43f  PREREGISTRATION.md
+c9da408509e06bbda6a39f0b09e4268d03fd70702ce66b20d8a1ca58baccd6f7  verification/words.py
+f3b4eed07398da77751498eef49f4cd2770cd318d97499d0c1330e95f1384d81  verification/route_r.py
+3347a8e40303d5fa5005a3063649398a2a6bbb61081955411dd9513bef6ad61f  verification/route_c.py
+e8d5f70be30157ffe4457d0a2c8d71495432f64a08aa58ba42eeee745d8b39d6  verification/controls.py
+203ed85faf286f3c6fadce240f046aa1942debeb140c9b2f653a16a88527222c  verification/controls.json
+60dd46b2d86578b299c36140f07c5f518901539e75a0ff71c43211b18df84484  verification/controls_run.txt
+27a9f7e2cbdb2533403ac73657ff35e805cf33a0c658ad827060bb5b4e90c45a  verification/census.py
+89cd1d66d217d28d5b9e85c8135479615f9e3ede76e82c182974233a73839c45  verification/read_out.py

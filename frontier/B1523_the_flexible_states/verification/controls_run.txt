@@ -1,0 +1,33 @@
+PASS C1: 758 states (words.py)
+PASS C1: 758 states (Burnside)
+PASS C1: 536 manifolds
+PASS C1: states per length agree
+PASS C1: a manifold carries two states iff it has neither rev nor swaprev
+PASS C1: states = manifolds + two-state manifolds
+PASS C1: 262 without a longitude-inverting isometry, by length as designed
+PASS C1: 131 per sign
+PASS C2: orders as predicted
+PASS C2: cusp maps by kind as predicted
+PASS C2: the meridian is the fibre boundary on all
+PASS C3: relators below 1e-35 in both routes
+PASS C3: cusp at infinity in both routes
+PASS C3: shapes agree on all
+PASS C4: H1(R) = 1 on all
+PASS C4: H1(so) = 2 on all
+PASS C4: both routes on the controls: H1(R) = 1, H1(so) = 2
+PASS C5: m004, L2R2, R2L rigid rel cusp (dim H1(v) = 1) in both routes
+PASS C5: m004's signs are sm:B1520's table
+PASS C5: m004's fibre boundary is a rigid slope (Heusener-Porti Remark 8.1)
+PASS C6: routes agree on b++LR
+PASS C6: routes agree on b++LLRR
+PASS C6: routes agree on b++LLR
+PASS C7: m129: H1(R) = 2, H1(so) = 4, H1(v) = 2 in both routes
+PASS C8: translation acts trivially
+PASS C8: -I acts as -1
+PASS C8: orientation-reversing acts as a reflection
+PASS C9: m004's zero slopes are mu^-1 lam^2, lam, mu lam^2 (30, 90, 150 degrees)
+PASS C9: L2R2's only zero slope is lam
+PASS C9: R2L has no zero slope in the box
+PASS C9: the zero slopes lie in one coset of 60 degrees on all three
+PASS C9: every slope in the box is decided with margin
+ALL CONTROLS PASS (79 s)

@@ -1,5 +1,55 @@
 # Changelog
 
+## B1523 sealed: THE FLEXIBLE STATES — which word states carry a projective family at their hyperbolic point, and on which no symmetry dualises it (sL-10 item 6)
+
+- **The question** (sL-10 item 6; the owner's "all allowed not just m004, choice might be golden"). On every word state to
+  length 12 (758 states, 536 manifolds):
+  - is the bundle rigid rel cusp, so that a projective family exists at its hyperbolic point;
+  - what is each isometry's sign ε on the family's line H¹(M; v);
+  - which rigid states have no isometry with ε = −1?
+- **The registered criterion corrected before the seal** (ERROR_LEDGER, E2 instance). The lead asked for dim H¹(v) beyond the
+  cusp's share. A family exists where it *equals* the cusp's share (Heusener–Porti Cor. 5.4; Ballas–Danciger–Lee Thm. 3.2; Ballas
+  arXiv:1805.09274 Thm. 0.2).
+- **Lemmas proved at the seal.**
+  - S: a class on the cusp vanishes on a slope t iff Re(a t³) = 0, which is Heusener–Porti's π/3.
+  - ι: cusp map I gives ε = +1.
+  - rev: cusp map −I gives ε = −1.
+  - R: an orientation-reversing map acts on H¹(P; v) as a reflection, and ε = −1 iff it inverts the fibre boundary XOR the fibre
+    boundary is not a rigid slope. So main's one-bit rule (B1455) on a reflective state is exactly its fibre boundary being rigid.
+  - T: on a state with no ε = −1 isometry, no count-odd map fixes the family's vacua off the hyperbolic point.
+- **What the lemmas settle without the census.**
+  - Every rigid chiral manifold (220 of 536) is mirror-broken.
+  - Every rigid rev-bearing manifold (272) is dualising.
+  - The census decides rigidity and the 66 reflective manifolds.
+- **Instruments.**
+  - Route R: the real form on SnapPy's simplified presentation.
+  - Route C: the complex form on the unsimplified presentation, no shared code.
+  - Controls C1–C9 pass:
+    - the enumeration, recounted by Burnside;
+    - SnapPy's isometries on all 536 against the words;
+    - the holonomy and cusp shapes in both routes;
+    - H¹(ℝ) = 1 and H¹(so(3,1)) = 2 on all 536;
+    - the literature: m004, L²R² and R²L rigid, and m004's B1520 sign table, rigid fibre boundary and non-rigid section;
+    - the planted m129 (2, 4, 2);
+    - the cusp lemmas;
+    - Lemma S live: m004's zero slopes are exactly μ⁻¹λ², λ and μλ², at 30°, 90° and 150° from the fibre boundary.
+- **Disclosed.**
+  - Route C's first frame read the meridian's fixed point from a row that vanishes when the meridian fixes 0 (ERROR_LEDGER, E31
+    instance; caught on the controls).
+  - C3's relator bar moved from an arbitrary 1e-45 to 1e-35 (five orders under the rank tolerance) after it flagged route R's
+    long relators on one manifold, before any v-cohomology was read there.
+- **Predictions with priors.**
+  - P1 the controls re-read.
+  - P2 all 536 rigid (80%).
+  - P3 the longitude rule on every reflective rigid manifold (65%).
+  - P4 the routes agree and every margin holds (99%).
+  - P5 the mirror-broken are exactly the 262 without a longitude-inverting isometry (55%).
+  - P6 the fibre boundary rigid on all (60%).
+  - P7, the golden reading: exactly ±L⁴RL³R² and ±L⁴RLR³LR² among the golden manifolds (55%).
+  - P8 the lemmas hold (99%).
+  - P9 Lemma S's 60° coset on every rigid manifold (99%).
+- **Not done here.** No family off the hyperbolic point, no class index, no order (main's L241). 0 of 19.
+
 ## B1522 banked: THE GOLDEN CHOICE — on the levels the count-odd mirror breaks exactly where no golden Galois reflection fixes the twist, never under a banked chiral configuration (PROVED, outcome B)
 
 - **Run as sealed** (`5d4eb5f7`; 68 s; both routes on all 167 736 characters of M1–M12, in agreement).

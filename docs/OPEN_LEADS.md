@@ -3791,6 +3791,13 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    which the record has only for m004 (Ballas). Which word states are projectively flexible at the hyperbolic point:
    dim H¹(π; v) beyond the cusp's share, with sl₄ = so(3,1) ⊕ v? Census over the states of length ≤ 8, with the
    literature read first (Heusener–Porti; Ballas). Seal before computing.
+   **[2026-10-02, sm:B1523, before its seal]** The criterion above is inverted (ERROR_LEDGER, E2 instance): a family exists
+   where dim H¹(π; v) *equals* the cusp's share, i.e. where the state is rigid rel cusp (Heusener–Porti Cor. 5.4; Ballas–
+   Danciger–Lee Thm. 3.2; Ballas, arXiv:1805.09274 Thm. 0.2). The share beyond the cusp can obstruct or enlarge the family.
+   **Sealed 2026-10-02 as sm:B1523 (the flexible states):** every word state to length 12 (758 states, 536 manifolds) on two
+   routes: rigidity rel cusp, each isometry's sign on the family's line, and the fibre boundary as a slope. Lemma R: on a state
+   with an orientation-reversing isometry, the longitude rule is exactly the fibre boundary being a rigid slope. Predictions
+   P1–P9, the golden reading among them.
 7. **The chiral record on the split-prime levels** (sm:B1522 §6). M5's case-(b) members are exactly its single-sheet
    twists, held only by the golden rotations at their unitary λ. On the levels with split primes (M7: 29, M9: 19, M10: 11,
    M11: 199), do case-(b) members exist, and are they single-sheet and held only by the rotations? Their unitary λ would

@@ -17052,3 +17052,22 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - OPEN_LEADS sL-10 item 2 banked, item 7 registered.
   - The relay to main answering L242 (b).
   - SnapPy re-run at banking: C3's homology and C5's |Isom| = 8n for n ≤ 8, every cover amphicheiral.
+
+## 2026-10-02 — B1523 sealed: the flexible states (sL-10 item 6)
+
+- **The question.** Which word states to length 12 carry a projective family at their hyperbolic point (rigid rel cusp), what
+  sign each isometry has on the family's line, and which rigid states have no dualising isometry: the places where B1455's
+  vanishing criterion cannot be met near the hyperbolic point.
+- **The lead's criterion was inverted and is corrected** (E2 instance): the family needs dim H¹(v) equal to the cusp's share,
+  not beyond it.
+- **The cusp does most of the work** (Lemmas S, ι, rev, R):
+  - −I always dualises;
+  - the identity never does;
+  - a reflection dualises exactly when the fibre boundary is (or is not) a rigid slope, by its kind.
+
+  So 220 chiral manifolds are mirror-broken wherever rigid, and the census decides rigidity and the 66 reflective ones.
+- **Two routes, nine controls**, with v read before the seal only on m004, L²R², R²L and the planted m129. C9 checks Lemma S
+  live: m004's non-rigid slopes are exactly μ⁻¹λ², λ and μλ², 60° apart. Route C's frame bug
+  (E31 instance) was found by the controls; C3's relator bar change is disclosed.
+- **The golden reading, second sealed form.** Of the 14 golden manifolds, the words ±L⁴RL³R² and ±L⁴RLR³LR² have no
+  longitude-inverting isometry. P7 predicts they and only they are mirror-broken.
