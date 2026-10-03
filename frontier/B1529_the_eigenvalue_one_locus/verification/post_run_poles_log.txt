@@ -49,3 +49,7 @@ start 2026-10-03T13:38:01Z at 8e4e4163
 +LLLRLRR E3 [155.0, 160.0]: converged False, alpha None, 1772 s  (pole bracket)
 +LLLRLRR E4 [155.0, 160.0]: converged False, alpha None, 1792 s  (pole bracket)
 +LLLRLRR E1 [215.0, 220.0]: converged False, alpha None, 1762 s  (pole bracket)
++LLLRLRR E2 [215.0, 220.0]: converged False, alpha None, 2145 s  (pole bracket)
++LLLRLRR E3 [215.0, 220.0]: converged False, alpha None, 2148 s  (pole bracket)
++LLLRLRR E4 [215.0, 220.0]: converged False, alpha None, 2158 s  (pole bracket)
++LLLRLRR E1 [275.0, 280.0]: converged False, alpha None, 2151 s  (pole bracket)
