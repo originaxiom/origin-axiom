@@ -64,14 +64,20 @@ def git(*args):
     return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True).stdout
 
 
+REFS = {"origin/main": "399b0bc2", "this branch (before this arc)": "56f46d4f",
+        "origin/audit/physical-bridge-2026-09-05": "ddd345a8", "origin/sep16-branch": "3205984b"}
+
+
 def c1():
     # whole words (-w): a plain substring search counts "asymmetric phase" as "symmetric phase" (caught before banking)
     out = {}
-    for ref in ("origin/main", "HEAD", "origin/audit/physical-bridge-2026-09-05", "origin/sep16-branch"):
+    # pinned to the heads read before this arc was committed (its own files mention the phrases): main 399b0bc2, this branch
+    # 56f46d4f, the audit lane ddd345a8, sep16 3205984b
+    for ref in REFS:
         files = {}
         for phrase in ("symmetric phase", "broken phase", "asymmetric phase", "symmetric phase (substring, for comparison)"):
             flags = ["-i", "-c"] + ([] if "substring" in phrase else ["-w"])
-            hits = git("grep", *flags, phrase.split(" (")[0], ref, "--").splitlines()
+            hits = git("grep", *flags, phrase.split(" (")[0], REFS[ref], "--").splitlines()
             files[phrase] = {h.split(":", 2)[1]: int(h.rsplit(":", 1)[1]) for h in hits}
         out[ref] = {k: {"files": len(v), "lines": sum(v.values()), "where": sorted(v)} for k, v in files.items()}
     papers = [f for r in out for p in ("symmetric phase", "broken phase") for f in out[r][p]["where"] if f.startswith("papers/")]
@@ -79,7 +85,7 @@ def c1():
     out["files under papers/ (either phrase, any head read)"] = papers
     say(f"C1 the absence claim (whole words): " + "; ".join(f"{r}: " + ", ".join(f"'{p}' in {out[r][p]['files']} files"
                                                                                   for p in out[r]) for r in out
-                                                                  if r.startswith(("origin", "HEAD")))
+                                                                  if r in REFS)
         + f"; under papers/: {papers} -> the phrases are on the record: {ok}")
     return {"holds (the phrases are present)": ok, "counts": out}
 
@@ -260,11 +266,11 @@ def c4():
 
 
 def c5():
-    lane = "origin/audit/physical-bridge-2026-09-05"
+    lane = REFS["origin/audit/physical-bridge-2026-09-05"]
     rep = lane + ":reports/physical_bridge_2026_09_05/"
     texts = {
         "main B1455 (origin/main: docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md)":
-            git("show", "origin/main:docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md"),
+            git("show", REFS["origin/main"] + ":docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md"),
         "the audit lane's R76 (FLAT_VACUUM.md)": git("show", rep + "FLAT_VACUUM.md"),
         "the audit lane's F01 (COEFFICIENT_PARENT_PROOF.md)": git("show", rep + "COEFFICIENT_PARENT_PROOF.md"),
         "the audit lane's R41 (CURRENT_BALANCE.md)": git("show", rep + "CURRENT_BALANCE.md"),
@@ -273,10 +279,10 @@ def c5():
         "the audit lane's PB-CHIRAL (docs/OPEN_LEADS.md)": git("show", lane + ":docs/OPEN_LEADS.md"),
         "the audit lane's R48 (CANONICAL_DUALITY.md)": git("show", rep + "CANONICAL_DUALITY.md"),
         "B849 (frontier/B849_order_parameter/FINDINGS.md, every head)":
-            git("show", "origin/main:frontier/B849_order_parameter/FINDINGS.md"),
-        "OPEN_LEADS L17 (every head)": git("show", "origin/main:docs/OPEN_LEADS.md"),
+            git("show", REFS["origin/main"] + ":frontier/B849_order_parameter/FINDINGS.md"),
+        "OPEN_LEADS L17 (every head)": git("show", REFS["origin/main"] + ":docs/OPEN_LEADS.md"),
         "xB032 (origin/sep16-branch: frontier/xB032_the_thermodynamic_side/FINDINGS.md)":
-            git("show", "origin/sep16-branch:frontier/xB032_the_thermodynamic_side/FINDINGS.md")}
+            git("show", REFS["origin/sep16-branch"] + ":frontier/xB032_the_thermodynamic_side/FINDINGS.md")}
     quotes = {
         "main B1455 (origin/main: docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md)": [
             "every vacuum is fixed by a symmetry under which the count is odd",

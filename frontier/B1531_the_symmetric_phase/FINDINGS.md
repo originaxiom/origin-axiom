@@ -6,7 +6,7 @@ untouched. The experiential question stays in `philosophy/P023_the_symmetric_pha
 
 **What was asked.** The owner relayed a reframing written in another conversation ("chat 1") and asked for it to be treated
 seriously. The text is kept verbatim in `philosophy/P023_the_symmetric_phase.md`. Every claim it makes about the record is
-checked here with `verification/symmetric_phase_checks.py`: checks C1–C6 run in 18 s and are logged in
+checked here with `verification/symmetric_phase_checks.py`: checks C1–C6 run in 17 s and are logged in
 `symmetric_phase_checks_run.txt`, with the data in `symmetric_phase_checks.json`.
 
 ## Headline
@@ -74,7 +74,7 @@ The sweep, repo first and literature second (`docs/WORKING_RULES` 2026-10-02).
     - xB032's FINDINGS T1–T3 (sep16 branch);
     - the audit lane's F01 (`COEFFICIENT_PARENT_PROOF.md`), R41 (`CURRENT_BALANCE.md`), F14 (`received_r47`), R48
       (`CANONICAL_DUALITY.md` and its proof), R76 (`FLAT_VACUUM.md`), R81 (`DIRICHLET_ADMISSION.md`) and PB-CHIRAL;
-    - main's B1455 verdict (`docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md`).
+    - main's B1455 verdict (origin/main: docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md).
   - **Absent from every head:** "Hagedorn", "Artin-Mazur" and "at the interfaces".
   - **Other senses:** on the heads, "orbit sum" means a character-orbit sum (B1378's), not a partition function. "Equilibrium
     state" means a KMS state (B726).
@@ -93,7 +93,7 @@ The sweep, repo first and literature second (`docs/WORKING_RULES` 2026-10-02).
 
 ## 1. The absence claim (C1)
 
-`git grep -i -w` (whole words) over each head's whole tree:
+`git grep -i -w` (whole words) over each head's whole tree, at the heads read before this arc (main 399b0bc2, this branch 56f46d4f, the audit lane ddd345a8, sep16 3205984b; this arc's own files now carry the phrase):
 
 | phrase | origin/main | this branch | audit lane | sep16 | where |
 |---|---|---|---|---|---|
@@ -353,6 +353,6 @@ The cure chat 1 names is the record's: scope tags (GENESIS §6, sm:B1516) and ba
 - `verification/symmetric_phase_checks.py`: checks C1–C6 and C2b. It reads every head through git and imports sm:B1530's
   sealed route-E library for C4 without editing it. SnapPy is used for C6.
 - `verification/symmetric_phase_checks.json` and `verification/symmetric_phase_checks_run.txt`: the run of 2026-10-03,
-  18 s, all checks holding.
+  17 s, all checks holding.
 - `philosophy/P023_the_symmetric_phase.md`: chat 1's text, verbatim.
 - `tests/test_b1531_the_symmetric_phase.py`: the lock.

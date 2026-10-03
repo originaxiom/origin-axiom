@@ -36,7 +36,7 @@
      ]
     }
    },
-   "HEAD": {
+   "this branch (before this arc)": {
     "symmetric phase": {
      "files": 3,
      "lines": 3,
@@ -597,5 +597,5 @@
   },
   "holds": true
  },
- "seconds": 18
+ "seconds": 17
 }

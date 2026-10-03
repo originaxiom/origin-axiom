@@ -42,7 +42,7 @@ def test_the_record():
     r = _record()
     c1 = r["C1"]["counts"]
     assert r["C1"]["holds (the phrases are present)"] is True
-    for ref in ("origin/main", "HEAD", "origin/audit/physical-bridge-2026-09-05", "origin/sep16-branch"):
+    for ref in ("origin/main", "this branch (before this arc)", "origin/audit/physical-bridge-2026-09-05", "origin/sep16-branch"):
         assert c1[ref]["symmetric phase"]["where"] == ["docs/OPEN_LEADS.md", "frontier/B849_order_parameter/PREREGISTRATION.md",
                                                      "frontier/B853_two_faces_ssb/relay_verify.py"], ref
     assert c1["origin/main"]["symmetric phase (substring, for comparison)"]["files"] == 4
@@ -68,9 +68,10 @@ def test_the_record():
 
 
 def test_c1_whole_words_on_this_branch():
-    """the whole-word count (git grep -w) on this branch's head, against the substring count it replaced"""
+    """the whole-word count (git grep -w) on this branch's head before the arc (56f46d4f, an ancestor of every later head);
+    after the arc its own files carry the phrase"""
     def files(*flags):
-        out = subprocess.run(["git", "grep", "-i", "-l", *flags, "symmetric phase", "HEAD", "--"], cwd=ROOT,
+        out = subprocess.run(["git", "grep", "-i", "-l", *flags, "symmetric phase", "56f46d4f", "--"], cwd=ROOT,
                              capture_output=True, text=True).stdout.split()
         return sorted(x.split(":", 1)[1] for x in out)
     assert files("-w") == ["docs/OPEN_LEADS.md", "frontier/B849_order_parameter/PREREGISTRATION.md",

@@ -23,7 +23,7 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1277** |
-| words of findings prose | **1,082,757** |
+| words of findings prose | **1,082,784** |
 | test lock files referenced | **780** |
 | arcs carrying an authored verdict | **1277** (100.0 %) |
 | recorded closures | **821** (654 classified, 167 routed-only) |
@@ -68,7 +68,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1531`** (4432 words, 1 locks)  
+**PROVED — `B1531`** (4459 words, 1 locks)  
 Chat 1's 'symmetric phase / broken phase' reframing (philosophy/P023), checked against the record: (1) its absence claim is false -- the whole phrase 'symmetric phase' is in the same three files on every head read (OPEN_LEADS L17, B849, B853) and 'broken phase' in S074 and B796's harvest; (2) its frame is already the record's -- B849 (2026-08-02) and the audit lane's F14, R48 and PB-CHIRAL; (3) its three kinds cover 14 of the chirality chain's 26 negatives (symmetry 8, flatness 3, non-uniqueness 3), and the other 12 (nine frame-arithmetic, B1373, B1501, B1503) are of none of them, two carrying curvature; (4) its critical point is xB032's entropy, 2 log phi (2 log(1 + sqrt 2) on the silver states), the Hagedorn abscissa of a free gas of periodic orbits (zeta and Euler product exact to order 40), and the monodromy's own thermodynamics has no broken mirror phase at any beta: K = [[0,1],[-1,0]] conjugates each of +-LR, +-LLRR to its inverse and Sinai-Ruelle-Bowen uniqueness makes the equilibrium state of a mirror-symmetric Hoelder potential mirror-symmetric; (5) in the bare flat model the symmetric split configuration is the minimum (R76, F01, main's B1455), and the one non-split configuration the record holds is held by a boundary (R81); (6) on m135 the class index is an exact order parameter for the dualising Z/2 (split (0,0), W1 (-1,-1), W2 (+1,+1))  
 `B1531_the_symmetric_phase/FINDINGS.md`
 
