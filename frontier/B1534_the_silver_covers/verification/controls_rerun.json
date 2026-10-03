@@ -1,0 +1,1142 @@
+{
+ "started": "2026-10-03T23:35:13Z",
+ "K0": {
+  "holds": true,
+  "detail": {
+   "-LLRR": {
+    "PGL(2) checks": {
+     "relator taTbba scalar": true,
+     "relator tbTbbabbab scalar": true,
+     "cusp generators commute": true,
+     "l parabolic": true,
+     "t' parabolic": true
+    },
+    "the four satisfies the relators": true
+   },
+   "+LLRR": {
+    "PGL(2) checks": {
+     "relator taTBBA scalar": true,
+     "relator tbTBBABBAB scalar": true,
+     "cusp generators commute": true,
+     "l parabolic": true,
+     "t' parabolic": true
+    },
+    "the four satisfies the relators": true
+   }
+  }
+ },
+ "K1": {
+  "holds": true,
+  "detail": {
+   "members": {
+    "-LLRR": {
+     "found": {
+      "(('0', '0'), '0')": [
+       1,
+       0
+      ],
+      "(('0', '1/2'), '0')": [
+       2,
+       1
+      ],
+      "(('1/4', '1/4'), '0')": [
+       1,
+       0
+      ],
+      "(('1/4', '3/4'), '0')": [
+       1,
+       0
+      ],
+      "(('1/2', '0'), '0')": [
+       2,
+       1
+      ],
+      "(('1/2', '1/2'), '0')": [
+       1,
+       0
+      ],
+      "(('3/4', '1/4'), '0')": [
+       1,
+       0
+      ],
+      "(('3/4', '3/4'), '0')": [
+       1,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "+LLRR": {
+     "found": {
+      "(('0', '0'), '0')": [
+       1,
+       0
+      ],
+      "(('0', '1/2'), '0')": [
+       1,
+       0
+      ],
+      "(('0', '1/2'), '1/2')": [
+       1,
+       1
+      ],
+      "(('1/2', '0'), '0')": [
+       1,
+       0
+      ],
+      "(('1/2', '0'), '1/2')": [
+       1,
+       1
+      ],
+      "(('1/2', '1/2'), '0')": [
+       1,
+       0
+      ]
+     },
+     "agree": true
+    }
+   },
+   "terms": {
+    "('-LLRR', ('0', '0'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('-LLRR', ('0', '1/2'), '0')": {
+     "read": {
+      "c_int": [
+       -1,
+       -1
+      ],
+      "c_b": [
+       0,
+       -1
+      ]
+     },
+     "banked": {
+      "c_int": [
+       -1,
+       -1
+      ],
+      "c_b": [
+       0,
+       -1
+      ]
+     },
+     "agree": true
+    },
+    "('-LLRR', ('1/4', '1/4'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('-LLRR', ('1/4', '3/4'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('-LLRR', ('1/2', '0'), '0')": {
+     "read": {
+      "c_int": [
+       -1,
+       -1
+      ],
+      "c_b": [
+       0,
+       -1
+      ]
+     },
+     "banked": {
+      "c_int": [
+       -1,
+       -1
+      ],
+      "c_b": [
+       0,
+       -1
+      ]
+     },
+     "agree": true
+    },
+    "('-LLRR', ('1/2', '1/2'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('-LLRR', ('3/4', '1/4'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('-LLRR', ('3/4', '3/4'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('+LLRR', ('0', '0'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('+LLRR', ('0', '1/2'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('+LLRR', ('0', '1/2'), '1/2')": {
+     "read": {
+      "the class": [
+       -1,
+       -1
+      ]
+     },
+     "banked": {
+      "the class": [
+       -1,
+       -1
+      ]
+     },
+     "agree": true
+    },
+    "('+LLRR', ('1/2', '0'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    },
+    "('+LLRR', ('1/2', '0'), '1/2')": {
+     "read": {
+      "the class": [
+       -1,
+       -1
+      ]
+     },
+     "banked": {
+      "the class": [
+       -1,
+       -1
+      ]
+     },
+     "agree": true
+    },
+    "('+LLRR', ('1/2', '1/2'), '0')": {
+     "read": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "banked": {
+      "the class": [
+       0,
+       0
+      ]
+     },
+     "agree": true
+    }
+   }
+  }
+ },
+ "K2": {
+  "holds": true,
+  "detail": {
+   "-LLRR ('0', '0') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('0', '0') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('0', '1/2') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('0', '1/2') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/4', '1/4') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/4', '1/4') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/4', '3/4') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/4', '3/4') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/2', '0') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/2', '0') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/2', '1/2') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('1/2', '1/2') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('3/4', '1/4') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('3/4', '1/4') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('3/4', '3/4') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "-LLRR ('3/4', '3/4') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('0', '0') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('0', '0') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('0', '1/2') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('0', '1/2') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('0', '1/2') 1/2 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('0', '1/2') 1/2 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('1/2', '0') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('1/2', '0') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('1/2', '0') 1/2 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('1/2', '0') 1/2 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('1/2', '1/2') 0 chi (0, 0; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   },
+   "+LLRR ('1/2', '1/2') 0 chi (0, 1/2; 1/4)": {
+    "T": [
+     0,
+     0
+    ],
+    "cusp acyclic": true
+   }
+  }
+ },
+ "K3": {
+  "holds": true,
+  "detail": {
+   "-LLRR ('0', '0') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "-LLRR ('0', '1/2') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "-LLRR ('1/4', '1/4') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "-LLRR ('1/4', '3/4') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "-LLRR ('1/2', '0') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "-LLRR ('1/2', '1/2') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "-LLRR ('3/4', '1/4') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "-LLRR ('3/4', '3/4') 0": {
+    "order": 8,
+    "subgroups": 8,
+    "closed": true
+   },
+   "+LLRR ('0', '0') 0": {
+    "order": 4,
+    "subgroups": 5,
+    "closed": true
+   },
+   "+LLRR ('0', '1/2') 0": {
+    "order": 4,
+    "subgroups": 5,
+    "closed": true
+   },
+   "+LLRR ('0', '1/2') 1/2": {
+    "order": 8,
+    "subgroups": 16,
+    "closed": true
+   },
+   "+LLRR ('1/2', '0') 0": {
+    "order": 4,
+    "subgroups": 5,
+    "closed": true
+   },
+   "+LLRR ('1/2', '0') 1/2": {
+    "order": 8,
+    "subgroups": 16,
+    "closed": true
+   },
+   "+LLRR ('1/2', '1/2') 0": {
+    "order": 4,
+    "subgroups": 5,
+    "closed": true
+   }
+  },
+  "(order, subgroups) seen": [
+   [
+    4,
+    5
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    8,
+    16
+   ]
+  ]
+ },
+ "K4": {
+  "holds": true,
+  "detail": {
+   "('0', '1/2') E": {
+    "h1(Q)": 1,
+    "h2(S)": 2,
+    "generic rank": 0,
+    "special points (count, not read)": 0,
+    "rows": {
+     "c_b": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 0
+     },
+     "c_int": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 0
+     },
+     "c_b + c_int": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 0
+     }
+    }
+   },
+   "('0', '1/2') E*": {
+    "h1(Q)": 2,
+    "h2(S)": 0,
+    "generic rank": 0,
+    "special points (count, not read)": 0,
+    "rows": {
+     "c_b": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 0
+     },
+     "c_int": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 0
+     },
+     "c_b + c_int": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 0
+     }
+    }
+   },
+   "('0', '1/2') L2E": {
+    "h1(Q)": 2,
+    "h2(S)": 2,
+    "generic rank": 0,
+    "special points (count, not read)": 0,
+    "rows": {
+     "c_b": {
+      "h1 direct": 4,
+      "h1 by the pencil": 4,
+      "rank delta1": 0
+     },
+     "c_int": {
+      "h1 direct": 4,
+      "h1 by the pencil": 4,
+      "rank delta1": 0
+     },
+     "c_b + c_int": {
+      "h1 direct": 4,
+      "h1 by the pencil": 4,
+      "rank delta1": 0
+     }
+    }
+   },
+   "('0', '1/2') (L2E)*": {
+    "h1(Q)": 2,
+    "h2(S)": 2,
+    "generic rank": 2,
+    "special points (count, not read)": 1,
+    "rows": {
+     "c_b": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 2
+     },
+     "c_int": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 1
+     },
+     "c_b + c_int": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 2
+     }
+    }
+   },
+   "('1/2', '0') E": {
+    "h1(Q)": 1,
+    "h2(S)": 2,
+    "generic rank": 0,
+    "special points (count, not read)": 0,
+    "rows": {
+     "c_b": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 0
+     },
+     "c_int": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 0
+     },
+     "c_b + c_int": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 0
+     }
+    }
+   },
+   "('1/2', '0') E*": {
+    "h1(Q)": 2,
+    "h2(S)": 0,
+    "generic rank": 0,
+    "special points (count, not read)": 0,
+    "rows": {
+     "c_b": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 0
+     },
+     "c_int": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 0
+     },
+     "c_b + c_int": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 0
+     }
+    }
+   },
+   "('1/2', '0') L2E": {
+    "h1(Q)": 2,
+    "h2(S)": 2,
+    "generic rank": 0,
+    "special points (count, not read)": 0,
+    "rows": {
+     "c_b": {
+      "h1 direct": 4,
+      "h1 by the pencil": 4,
+      "rank delta1": 0
+     },
+     "c_int": {
+      "h1 direct": 4,
+      "h1 by the pencil": 4,
+      "rank delta1": 0
+     },
+     "c_b + c_int": {
+      "h1 direct": 4,
+      "h1 by the pencil": 4,
+      "rank delta1": 0
+     }
+    }
+   },
+   "('1/2', '0') (L2E)*": {
+    "h1(Q)": 2,
+    "h2(S)": 2,
+    "generic rank": 2,
+    "special points (count, not read)": 1,
+    "rows": {
+     "c_b": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 2
+     },
+     "c_int": {
+      "h1 direct": 3,
+      "h1 by the pencil": 3,
+      "rank delta1": 1
+     },
+     "c_b + c_int": {
+      "h1 direct": 2,
+      "h1 by the pencil": 2,
+      "rank delta1": 2
+     }
+    }
+   }
+  }
+ },
+ "K5": {
+  "holds": true,
+  "detail": {
+   "(s - 1)(s - i)": 2,
+   "s^2 - 2": 2,
+   "s^2 - 5": null,
+   "s^2 + 1": 2,
+   "s^2 - 7": null
+  }
+ },
+ "K6": {
+  "holds": true,
+  "R at s = 2": [
+   0,
+   -1
+  ],
+  "direct at s = 2": [
+   0,
+   -1
+  ],
+  "R at s = sqrt 5": [
+   0,
+   -1
+  ]
+ },
+ "K7": {
+  "holds": true,
+  "detail": {
+   "m135 u (0, 1/2), c_int, the 3-fold cover along t": {
+    "route C": [
+     -1,
+     -1
+    ],
+    "expected": [
+     -1,
+     -1
+    ]
+   },
+   "m136 u (0, 1/2), kappa -1, the common double cover (along t)": {
+    "route C": [
+     -1,
+     -1
+    ],
+    "expected": [
+     -1,
+     -1
+    ]
+   }
+  }
+ },
+ "K8": {
+  "holds": true,
+  "detail": {
+   "-LLRR ('0', '0') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "-LLRR ('0', '1/2') 0 c_int": {
+    "N": [
+     -1,
+     -1
+    ],
+    "E": [
+     -1,
+     -1
+    ],
+    "checks": true
+   },
+   "-LLRR ('0', '1/2') 0 c_b": {
+    "N": [
+     0,
+     -1
+    ],
+    "E": [
+     0,
+     -1
+    ],
+    "checks": true
+   },
+   "-LLRR ('1/4', '1/4') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "-LLRR ('1/4', '3/4') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "-LLRR ('1/2', '0') 0 c_int": {
+    "N": [
+     -1,
+     -1
+    ],
+    "E": [
+     -1,
+     -1
+    ],
+    "checks": true
+   },
+   "-LLRR ('1/2', '0') 0 c_b": {
+    "N": [
+     0,
+     -1
+    ],
+    "E": [
+     0,
+     -1
+    ],
+    "checks": true
+   },
+   "-LLRR ('1/2', '1/2') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "-LLRR ('3/4', '1/4') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "-LLRR ('3/4', '3/4') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "-LLRR the frames' conjugator": {
+    "smallest singular value (rel)": "1.05e-61",
+    "next (rel)": "0.0308"
+   },
+   "+LLRR ('0', '0') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "+LLRR ('0', '1/2') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "+LLRR ('0', '1/2') 1/2 the class": {
+    "N": [
+     -1,
+     -1
+    ],
+    "E": [
+     -1,
+     -1
+    ],
+    "checks": true
+   },
+   "+LLRR ('1/2', '0') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "+LLRR ('1/2', '0') 1/2 the class": {
+    "N": [
+     -1,
+     -1
+    ],
+    "E": [
+     -1,
+     -1
+    ],
+    "checks": true
+   },
+   "+LLRR ('1/2', '1/2') 0 the class": {
+    "N": [
+     0,
+     0
+    ],
+    "E": [
+     0,
+     0
+    ],
+    "checks": true
+   },
+   "+LLRR the frames' conjugator": {
+    "smallest singular value (rel)": "6.02e-61",
+    "next (rel)": "0.055"
+   }
+  }
+ },
+ "K9": {
+  "holds": true,
+  "detail": {
+   "('0', '1/2') E": {
+    "generic rank (E, N)": [
+     0,
+     0
+    ],
+    "special points (E, N)": [
+     0,
+     0
+    ],
+    "agree": true
+   },
+   "('0', '1/2') E*": {
+    "generic rank (E, N)": [
+     0,
+     0
+    ],
+    "special points (E, N)": [
+     0,
+     0
+    ],
+    "agree": true
+   },
+   "('0', '1/2') L2E": {
+    "generic rank (E, N)": [
+     0,
+     0
+    ],
+    "special points (E, N)": [
+     0,
+     0
+    ],
+    "agree": true
+   },
+   "('0', '1/2') (L2E)*": {
+    "generic rank (E, N)": [
+     2,
+     2
+    ],
+    "special points (E, N)": [
+     1,
+     1
+    ],
+    "agree": true
+   },
+   "('1/2', '0') E": {
+    "generic rank (E, N)": [
+     0,
+     0
+    ],
+    "special points (E, N)": [
+     0,
+     0
+    ],
+    "agree": true
+   },
+   "('1/2', '0') E*": {
+    "generic rank (E, N)": [
+     0,
+     0
+    ],
+    "special points (E, N)": [
+     0,
+     0
+    ],
+    "agree": true
+   },
+   "('1/2', '0') L2E": {
+    "generic rank (E, N)": [
+     0,
+     0
+    ],
+    "special points (E, N)": [
+     0,
+     0
+    ],
+    "agree": true
+   },
+   "('1/2', '0') (L2E)*": {
+    "generic rank (E, N)": [
+     2,
+     2
+    ],
+    "special points (E, N)": [
+     1,
+     1
+    ],
+    "agree": true
+   }
+  }
+ },
+ "all hold": true,
+ "seconds": 240
+}

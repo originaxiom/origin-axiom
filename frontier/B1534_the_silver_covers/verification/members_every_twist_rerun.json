@@ -1,0 +1,548 @@
+{
+ "started": "2026-10-03T23:39:14Z",
+ "states": {
+  "-LLRR": {
+   "name": "m135",
+   "D": 8,
+   "rows": [
+    {
+     "u": [
+      "0",
+      "0"
+     ],
+     "H0(F)": 0,
+     "slot": "a",
+     "slot conditioning": "0.0511",
+     "am at 1": 2,
+     "am margins at 1 (zero, nonzero)": [
+      "1.64e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "9.22e-59",
+     "other roots": [
+      {
+       "root": "-25.27414236908818035565879",
+       "| |root| - 1 |": "24.274",
+       "on the circle": false,
+       "order (n <= 240)": null
+      },
+      {
+       "root": "-0.03956612989658003475471669",
+       "| |root| - 1 |": "0.96043",
+       "on the circle": false,
+       "order (n <= 240)": null
+      }
+     ],
+     "i, j, D": [
+      0,
+      0,
+      8
+     ]
+    },
+    {
+     "u": [
+      "0",
+      "1/2"
+     ],
+     "H0(F)": 0,
+     "slot": "b",
+     "slot conditioning": "0.127",
+     "am at 1": 4,
+     "am margins at 1 (zero, nonzero)": [
+      "2.02e-59",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 2,
+     "g at -1": 0,
+     "division remainder (rel)": "3.36e-60",
+     "other roots": [],
+     "i, j, D": [
+      0,
+      4,
+      8
+     ]
+    },
+    {
+     "u": [
+      "1/4",
+      "1/4"
+     ],
+     "H0(F)": 0,
+     "slot": "perp",
+     "slot conditioning": "0.0977",
+     "am at 1": 4,
+     "am margins at 1 (zero, nonzero)": [
+      "8.97e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "1.49e-58",
+     "other roots": [],
+     "i, j, D": [
+      2,
+      2,
+      8
+     ]
+    },
+    {
+     "u": [
+      "1/4",
+      "3/4"
+     ],
+     "H0(F)": 0,
+     "slot": "perp",
+     "slot conditioning": "0.0811",
+     "am at 1": 4,
+     "am margins at 1 (zero, nonzero)": [
+      "5.78e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "9.64e-59",
+     "other roots": [],
+     "i, j, D": [
+      2,
+      6,
+      8
+     ]
+    },
+    {
+     "u": [
+      "1/2",
+      "0"
+     ],
+     "H0(F)": 0,
+     "slot": "a",
+     "slot conditioning": "0.0727",
+     "am at 1": 4,
+     "am margins at 1 (zero, nonzero)": [
+      "2.23e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 2,
+     "g at -1": 0,
+     "division remainder (rel)": "3.72e-59",
+     "other roots": [],
+     "i, j, D": [
+      4,
+      0,
+      8
+     ]
+    },
+    {
+     "u": [
+      "1/2",
+      "1/2"
+     ],
+     "H0(F)": 0,
+     "slot": "b",
+     "slot conditioning": "0.127",
+     "am at 1": 2,
+     "am margins at 1 (zero, nonzero)": [
+      "2.72e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "3.78e-58",
+     "other roots": [
+      {
+       "root": "-2.239828808843550041022032",
+       "| |root| - 1 |": "1.2398",
+       "on the circle": false,
+       "order (n <= 240)": null
+      },
+      {
+       "root": "-0.4464626921716895685644581",
+       "| |root| - 1 |": "0.55354",
+       "on the circle": false,
+       "order (n <= 240)": null
+      }
+     ],
+     "i, j, D": [
+      4,
+      4,
+      8
+     ]
+    },
+    {
+     "u": [
+      "3/4",
+      "1/4"
+     ],
+     "H0(F)": 0,
+     "slot": "perp",
+     "slot conditioning": "0.0811",
+     "am at 1": 4,
+     "am margins at 1 (zero, nonzero)": [
+      "5.78e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "9.64e-59",
+     "other roots": [],
+     "i, j, D": [
+      6,
+      2,
+      8
+     ]
+    },
+    {
+     "u": [
+      "3/4",
+      "3/4"
+     ],
+     "H0(F)": 0,
+     "slot": "perp",
+     "slot conditioning": "0.0977",
+     "am at 1": 4,
+     "am margins at 1 (zero, nonzero)": [
+      "8.97e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "1.49e-58",
+     "other roots": [],
+     "i, j, D": [
+      6,
+      6,
+      8
+     ]
+    }
+   ],
+   "route E: h1 >= 1 on mu_24 at": [
+    [
+     [
+      "0",
+      "0"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "0",
+      "1/2"
+     ],
+     "0",
+     2
+    ],
+    [
+     [
+      "1/4",
+      "1/4"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "1/4",
+      "3/4"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "1/2",
+      "0"
+     ],
+     "0",
+     2
+    ],
+    [
+     [
+      "1/2",
+      "1/2"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "3/4",
+      "1/4"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "3/4",
+      "3/4"
+     ],
+     "0",
+     1
+    ]
+   ],
+   "routes T and E disagree on mu_24 at": [],
+   "comparisons": 192,
+   "every u has eigenvalue 1": true,
+   "u with eigenvalue -1": [],
+   "other roots on the unit circle": [],
+   "nearest other root to the circle": "0.55354",
+   "H0(F) != 0 at": [],
+   "holds": true
+  },
+  "+LLRR": {
+   "name": "m136",
+   "D": 4,
+   "rows": [
+    {
+     "u": [
+      "0",
+      "0"
+     ],
+     "H0(F)": 0,
+     "slot": "a",
+     "slot conditioning": "0.0511",
+     "am at 1": 2,
+     "am margins at 1 (zero, nonzero)": [
+      "1.69e-58",
+      "1.0"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "7.48e-59",
+     "other roots": [
+      {
+       "root": "0.03956612989658003475471669",
+       "| |root| - 1 |": "0.96043",
+       "on the circle": false,
+       "order (n <= 240)": null
+      },
+      {
+       "root": "25.27414236908818035565879",
+       "| |root| - 1 |": "24.274",
+       "on the circle": false,
+       "order (n <= 240)": null
+      }
+     ],
+     "i, j, D": [
+      0,
+      0,
+      4
+     ]
+    },
+    {
+     "u": [
+      "0",
+      "1/2"
+     ],
+     "H0(F)": 0,
+     "slot": "b",
+     "slot conditioning": "0.127",
+     "am at 1": 2,
+     "am margins at 1 (zero, nonzero)": [
+      "1.12e-58",
+      "1.0"
+     ],
+     "am at -1": 2,
+     "am margins at -1 (zero, nonzero)": [
+      "4.98e-59",
+      "1.0"
+     ],
+     "g at 1": 1,
+     "g at -1": 1,
+     "division remainder (rel)": "2.25e-58",
+     "other roots": [],
+     "i, j, D": [
+      0,
+      2,
+      4
+     ]
+    },
+    {
+     "u": [
+      "1/2",
+      "0"
+     ],
+     "H0(F)": 0,
+     "slot": "a",
+     "slot conditioning": "0.0727",
+     "am at 1": 2,
+     "am margins at 1 (zero, nonzero)": [
+      "1.9e-58",
+      "1.0"
+     ],
+     "am at -1": 2,
+     "am margins at -1 (zero, nonzero)": [
+      "3.9e-59",
+      "1.0"
+     ],
+     "g at 1": 1,
+     "g at -1": 1,
+     "division remainder (rel)": "3.8e-58",
+     "other roots": [],
+     "i, j, D": [
+      2,
+      0,
+      4
+     ]
+    },
+    {
+     "u": [
+      "1/2",
+      "1/2"
+     ],
+     "H0(F)": 0,
+     "slot": "b",
+     "slot conditioning": "0.127",
+     "am at 1": 2,
+     "am margins at 1 (zero, nonzero)": [
+      "1.13e-59",
+      "0.686"
+     ],
+     "am at -1": 0,
+     "am margins at -1 (zero, nonzero)": [
+      null,
+      "0.5"
+     ],
+     "g at 1": 1,
+     "g at -1": 0,
+     "division remainder (rel)": "1.54e-60",
+     "other roots": [
+      {
+       "root": "0.4464626921716895685644581",
+       "| |root| - 1 |": "0.55354",
+       "on the circle": false,
+       "order (n <= 240)": null
+      },
+      {
+       "root": "2.239828808843550041022032",
+       "| |root| - 1 |": "1.2398",
+       "on the circle": false,
+       "order (n <= 240)": null
+      }
+     ],
+     "i, j, D": [
+      2,
+      2,
+      4
+     ]
+    }
+   ],
+   "route E: h1 >= 1 on mu_24 at": [
+    [
+     [
+      "0",
+      "0"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "0",
+      "1/2"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "0",
+      "1/2"
+     ],
+     "1/2",
+     1
+    ],
+    [
+     [
+      "1/2",
+      "0"
+     ],
+     "0",
+     1
+    ],
+    [
+     [
+      "1/2",
+      "0"
+     ],
+     "1/2",
+     1
+    ],
+    [
+     [
+      "1/2",
+      "1/2"
+     ],
+     "0",
+     1
+    ]
+   ],
+   "routes T and E disagree on mu_24 at": [],
+   "comparisons": 96,
+   "every u has eigenvalue 1": true,
+   "u with eigenvalue -1": [
+    [
+     "0",
+     "1/2"
+    ],
+    [
+     "1/2",
+     "0"
+    ]
+   ],
+   "other roots on the unit circle": [],
+   "nearest other root to the circle": "0.55354",
+   "H0(F) != 0 at": [],
+   "holds": true
+  }
+ },
+ "holds": true,
+ "seconds": 20
+}
