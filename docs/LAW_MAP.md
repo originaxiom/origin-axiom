@@ -1,5 +1,19 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+**Current October2 R80: source profile direction tested, not physics completed.**
+For the supplied nonsplit flat coefficient and positive adjoint-source
+coupling, a boundaryless finite-energy zero-D completion needs sources
+that leave its invariant subspace. The actual triplet's periphery forces
+parallel End(W) profiles to preserve that subspace; this restricted route
+fails, not degree-one matter, other sources, end laws or nonzero-D phases.
+Lower-field full-matrix and genuine boundary-flux positive controls pass.
+Science seal7b088f50 confirmed before unchanged98 native/562 separate
+controls and54 focused tests (12 new/42 retained). R77 existence retained;
+next actual admitted cross-sector/profile or end law and full same-model
+spectrum/anomalies. Report: reports/physical_bridge_2026_09_05/SOURCE_PROFILE.md.
+No nonauthor analytic/full-suite/main-bank certificate; full SM/TOE active.
+
+
 **LATEST path-local R79 (October 2):** known Nielsen periphery recovery
 and the orientation-positive normalized-lift kernel are recorded at EOF
 with their classical sources, exact safeguards and explicit physical
@@ -1238,3 +1252,22 @@ Report: reports/physical_bridge_2026_09_05/ACT_REGISTER.md.
 | AR4: empty global elimination does not exclude isolated components | Exact line-plus-point countermodel, not B130 actual component classification; actual m=2 elimination retained. Full symmetry and dynamical selection not established. | B130 body/probe; ACT_REGISTER_PROOF.md AR4; tests/test_physical_bridge_act_register.py::test_empty_elimination_does_not_exclude_isolated_component |
 | AR5: distinct metallic matrices need not have distinct Perron fields | m=1/m=4 share Q(sqrt5); different traces still prove nonconjugacy. No uniform field/seed classification. | B130 L2 context; ACT_REGISTER_PROOF.md AR5; tests/test_physical_bridge_act_register.py::test_field_label_correction_retains_nonconjugacy |
 | AR6: conjugation does not fix Q(sqrt(-3)) pointwise | Reuse of B942 through B723 correction, not new CMR thermal-state computation or physical observer identification; B957 second retraction also retained. | B723 top banner; ACT_REGISTER_PROOF.md AR6; tests/test_physical_bridge_act_register.py::test_galois_membership_control_and_separate_integer_controls |
+
+## October2 path-local R80 source admission and relational current retention
+
+Authored conditional application of known block/holonomy/flux mathematics,
+not original theorems, selected physics or nonauthor analytic acceptance.
+Report: reports/physical_bridge_2026_09_05/SOURCE_PROFILE.md.
+
+B1511 identifies the retained nonsplit coefficient motivating this test;
+it is not the source of the general block, flux or relational identities.
+Those identities and their hypotheses are given in the R41/R77 antecedents
+and the R80 proof and controls named below.
+
+| law | hypotheses, scope and boundary | source / lock |
+|---|---|---|
+| SP1: complete source projector is an outgoing-minus-incoming block norm | Any complex End source and orthogonal P; positive trace. Unitary transport includes P, not a selected diagonal. No physical mirror or source choice. | B1511 retained coefficient context only, not this identity; SOURCE_PROFILE_PROOF.md SP1; tests/test_physical_bridge_source_profile.py::test_all_proper_flag_blocks and test_whole_transport_and_source_sign_not_selected_diagonal |
+| SP2: nonsplit zero-D support needs a downward source projection | R41 bulk identity plus R77 positive canonical sign, complete finite-volume boundaryless finite-Higgs energy, finite source cross-block norms; S-preserving sources fail. Not all stationary nonzero-D vacua, end fields or representations. | B1511 retained coefficient context only; R41/R75/R77; SOURCE_PROFILE_PROOF.md SP2; tests/test_physical_bridge_source_profile.py::test_whole_transport_and_source_sign_not_selected_diagonal; general cutoff proof remains authored |
+| SP3: actual triplet periphery makes parallel endomorphisms preserve V | R75 literal longitude has det(L_V-Id)=-(q-1)^4(q^2+q+1)/q^3, coprime with q^6-34q^3+1. im(L_W-Id)=V for any extension column. Not a parallel law for every degree-one field; q=1 excluded. | R75/B1511 coefficient context; SOURCE_PROFILE_PROOF.md SP3; tests/test_physical_bridge_source_profile.py::test_actual_longitude_controls_parallel_endomorphism_not_all_matter |
+| SP4: full boundary flux defeats a boundaryless transfer | Smooth flat one-component C on T2 times a finite interval has I=0, extension norm6/5 and outward projector flux-6/5. Local splitable bundle, not global nonsplit topology, physical end selection or chirality. | B1511 retained coefficient context only, not this boundary solution; R41 boundary identity; SOURCE_PROFILE_PROOF.md SP4; tests/test_physical_bridge_source_profile.py::test_actual_boundary_solution_prevents_boundaryless_false_kill |
+| SP5: rectangular relations retain both moment currents | Pointwise B:E_tail->E_head has (-Bdag B,BBdag); selected-subspace trace is the signed cross-block norm. Map and receiving equation must stay together, not an earned architecture-to-physics identification. | B1511 retained coefficient context only, not this relational identity; R77 source context; SOURCE_PROFILE_PROOF.md SP5; tests/test_physical_bridge_source_profile.py::test_rectangular_relation_keeps_both_currents and test_independent_entry_controls_are_live |

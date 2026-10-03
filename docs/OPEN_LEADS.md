@@ -4493,3 +4493,33 @@ B1445/B1446 deformation and cross-member branch positives likewise retained.
 
 These are this audit's next verification duties, not claims of absent
 work across the repo. Sources/receipts: ACT_REGISTER.md in the audit report.
+
+## October2 R80 source/profile disposition
+
+- PB-SOURCE / PB-ACTION: closed ONLY: support of the retained nonsplit
+  coefficient by S-preserving End(W) sources at zero D residual with
+  positive canonical coefficients, complete boundaryless finite-energy
+  data and square-integrable source cross-blocks. Closing sentence:
+  'If every source preserves S then c=0, so this zero-D balance is
+  impossible for a nonsplit background.' Source: SOURCE_PROFILE.md
+  section1 and SOURCE_PROFILE_PROOF.md SP1--SP3 in the physical-bridge
+  report. The actual periphery makes D-parallel End(W) profiles a
+  subclass, not every degree-one matter profile or every E8 source.
+- PB-PROFILE / PB-BOUNDARY: retain full synthetic lower-field cancellation
+  and the smooth F=I=0 interval solution with actual negative outward
+  flux. Next derive a finite admitted downward profile OR a compensating
+  physical end law in the SAME action, retaining all own variations.
+  The projection is necessary, not a global solution; R77 stays valid.
+- PB-REGISTER / PB-TRANSITIONS: relational moment maps contain BOTH
+  -Bdag B and BBdag. Earn the actual partner and its coupling/profile/
+  domain; do not drop its current or identify registration with awareness.
+- PB-SPECTRUM: after physical admission, calculate the complete positive-
+  norm gauge/matter/source/end spectrum, anomalies and normalized
+  interactions; keep nonflat, nonzero-D and changed-coefficient hypotheses
+  separate. No cohomological triplet is declared three physical families.
+- PB-REVIEW / PB-COORDINATION: review SP1--SP5 independently; sender relay
+  CODEX_TO_CC_AND_SM_2026-10-02_SOURCE_PROFILE_R80.md is OPEN.
+ 54 focused tests are a bounded certificate, not full-suite/main banking.
+
+These are verification duties, not a claim of absent work across the
+architecture. SOURCE_PROFILE_RECEIPTS.json preserves first outputs.

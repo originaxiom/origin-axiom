@@ -1,5 +1,19 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+**Current October2 R80: source profile direction tested, not physics completed.**
+For the supplied nonsplit flat coefficient and positive adjoint-source
+coupling, a boundaryless finite-energy zero-D completion needs sources
+that leave its invariant subspace. The actual triplet's periphery forces
+parallel End(W) profiles to preserve that subspace; this restricted route
+fails, not degree-one matter, other sources, end laws or nonzero-D phases.
+Lower-field full-matrix and genuine boundary-flux positive controls pass.
+Science seal7b088f50 confirmed before unchanged98 native/562 separate
+controls and54 focused tests (12 new/42 retained). R77 existence retained;
+next actual admitted cross-sector/profile or end law and full same-model
+spectrum/anomalies. Report: reports/physical_bridge_2026_09_05/SOURCE_PROFILE.md.
+No nonauthor analytic/full-suite/main-bank certificate; full SM/TOE active.
+
+
 **Current October 2: act/register milestone executed; full physics goal active.** The full
 parameter-free Standard Model/TOE remains the overarching mission;
 the owner-approved act-and-register audit is a prerequisite milestone.

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "audit": "R80",
+  "science_seal": "7b088f505cf60c42aa19fbff94eb9bb494da9734",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_DESIGN.md",
+      "sha256": "2f47dabd2c19b473a0c17e7b42e5bee1254a62f54bb2afa040eb432cd713260a",
+      "bytes": 6642
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md",
+      "sha256": "60133ab411d768ddad0f525b58743128d6ecfebcc021615760d6f8fc91ac9c2c",
+      "bytes": 7053
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_INPUTS.json",
+      "sha256": "30ced4910080ebc7ba290aff1bdfc810aaed7f53fa4e4df7247a87c440d0e443",
+      "bytes": 3592
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/source_profile.py",
+      "sha256": "6efcd44c6be0449afdda2d6f58da543d589173fc676a3baa0c7c1e6db580a7cd",
+      "bytes": 6867
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/source_profile_control.py",
+      "sha256": "fbb927f80da08f7c87b80641f008ecf637d7c7215e5eeb1b29afad9e63859bd5",
+      "bytes": 7886
+    },
+    {
+      "path": "tests/test_physical_bridge_source_profile.py",
+      "sha256": "7731393db2ec804713081d7e71ac9d90ee17d5a0d6272f3b7805bd478a595067",
+      "bytes": 2736
+    }
+  ],
+  "scope": "frozen bytes; not nonauthor analytic acceptance"
+}

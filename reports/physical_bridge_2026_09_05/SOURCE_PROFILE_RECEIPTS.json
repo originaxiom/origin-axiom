@@ -1,0 +1,342 @@
+{
+  "schema": 1,
+  "audit": "R80",
+  "science_seal": "7b088f505cf60c42aa19fbff94eb9bb494da9734",
+  "raw_originals_preserved": true,
+  "raw_redactions": [
+    "private interpreter, working and capture prefixes; remote seat namespace"
+  ],
+  "scope": "command/output custody; source and science grades stay separate",
+  "runs": {
+    "fetch_https": {
+      "raw_basename": "fetch_https",
+      "raw_receipt_sha256": "b549fcc138021fdf626accb8cd4b5605bf679321bdf3462354fe44d7c4028406",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "fetch",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "+refs/heads/*:refs/remotes/origin/*"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6800730000250041,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout_redacted": ""
+    },
+    "flag_prior": {
+      "raw_basename": "flag_prior",
+      "raw_receipt_sha256": "3610b1f77ceec61226dd86bb98fd0a9d79d060f271fe6a72cdfb61855ec88c37",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/checks/already_banked.py",
+          "flag source moment"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.5206730000209063,
+        "log_bytes": 3019,
+        "log_sha256": "a6f819ad869de55935130acdf44c5dd331500d8f7146914ca3e6701752c06ed2"
+      },
+      "stdout_redacted": "already-banked: terms ['flag', 'source', 'moment']\n  261 corpus hits; 27 SETTLED arcs matching >= 2 of 3 terms\n      [ 3 terms] FINDINGS  frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md\n           # B1031 — FINDINGS: the two-thirds theorem meets the voice \n      [ 3 terms] FINDINGS  frontier/B800_habiro_integrality/FINDINGS.md\n           # B800 — B685's Habiro integrality leg, recomputed in-sandbox: PARTIAL CONFIRMATION \n      [ 3 terms] FINDINGS  frontier/B826_b519_verdict/FINDINGS.md\n           # B826 — B519's missing verdict was a filename gap, not a content gap \n      [ 3 terms] FINDINGS  frontier/B833_negative_routing/FINDINGS.md\n           # B833 — B801's estimate becomes a measurement, and its coverage figure compares two different units \n      [ 3 terms] FINDINGS  frontier/B882_magic_square_naming/FINDINGS.md\n           # B882 — the tiling has a classical name: M(𝕆,ℂ), the magic square — and the novelty scoping that follows \n  *** [ 2 terms] PROVED    B1002_conductor_reconciled\n           B997-S OWED CHECK DISCHARGED: THE CONDUCTOR IDENTIFICATION IS RIGHT, AND CONDUCTOR NAMES TWO THINGS. B997 proved the golden is the UNIQUE metallic grammar whose own-conductor shadow group is a McKay group, conditional on\n  *** [ 2 terms] PROVED    B1079_wilson_menu\n           THE WILSON MENU AND THE SELECTOR'S SILENCE (the new seat's menu under verify-don't-trust; 3 agents, verifier HOLDS both halves on full independent re-derivation): all 15,624 order-5 coweight points enumerated from scratc\n  *** [ 2 terms] PROVED    B1107_oneloop_harvest\n           THE ONE-LOOP RUELLE IDENTITY HARVESTED (two-bench; the audit seat's B8100->B8104->B8112 chain with B8113's three residues as scope): R(k, sigma_k) = prod(1 - q^k) exactly (abelian SO(2) unwind -- verified by diagonalizin\n  *** [ 2 terms] PROVED    B1128_instrument_null\n           P-INSTRUMENT (value-probing wave, the crux cell V-3 left; against a sealed prereg): does a PRINCIPLED listener-map coupling read an SM value out of the object? INSTRUMENT-NULL. Built on LISTENER_MAP_SPEC (C^6 SU(3)-level\n  *** [ 2 terms] PROVED    B1143_bl_fourth_cartan\n           SP-1 CLOSES: the physical B-L is a genuine FOURTH Cartan direction, CONFIRMED TWO-BENCH with cloud memo 25 (both build B-L as a Cartan functional from the forced targets; both find a physical, independent 1-parameter fam\n  *** [ 2 terms] PROVED    B1147_clane_harvest\n           THE C-LANE HARVEST: the cloud seat's memos 30-40 (Campaigns A/B/C continuation, origin/outside-bench dc937010) verified by REPRODUCTION -- all 11 self-contained certificates re-run on this bench's pyenv reproduce their c\n  *** [ 2 terms] PROVED    B1148_carrier_harvest\n           THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the inte\n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    "focused_collection": {
+      "raw_basename": "focused_collection",
+      "raw_receipt_sha256": "31f846013e16a94e9a6d1be4e211bce1ca808600bdfb2bf1fdff2fa10f1ef2b8",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "--collect-only",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_source_profile.py",
+          "tests/test_physical_bridge_current_balance.py",
+          "tests/test_physical_bridge_cross_branch_positives.py",
+          "tests/test_physical_bridge_flat_vacuum.py",
+          "tests/test_physical_bridge_flat_vacuum_control.py",
+          "tests/test_physical_bridge_source_core.py",
+          "tests/test_physical_bridge_source_core_report.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.1603960000211373,
+        "log_bytes": 5366,
+        "log_sha256": "8ca0d6480a66f332ed3fb5f5139bb590d8dbce35c357197e443f27bfd49a975e"
+      },
+      "stdout_redacted": "tests/test_physical_bridge_source_profile.py::test_all_proper_flag_blocks[2]\ntests/test_physical_bridge_source_profile.py::test_all_proper_flag_blocks[3]\ntests/test_physical_bridge_source_profile.py::test_all_proper_flag_blocks[4]\ntests/test_physical_bridge_source_profile.py::test_all_proper_flag_blocks[5]\ntests/test_physical_bridge_source_profile.py::test_all_proper_flag_blocks[6]\ntests/test_physical_bridge_source_profile.py::test_whole_transport_and_source_sign_not_selected_diagonal\ntests/test_physical_bridge_source_profile.py::test_actual_longitude_controls_parallel_endomorphism_not_all_matter\ntests/test_physical_bridge_source_profile.py::test_actual_boundary_solution_prevents_boundaryless_false_kill\ntests/test_physical_bridge_source_profile.py::test_rectangular_relation_keeps_both_currents\ntests/test_physical_bridge_source_profile.py::test_independent_entry_controls_are_live\ntests/test_physical_bridge_source_profile.py::test_independent_and_native_boundary_values_agree\ntests/test_physical_bridge_source_profile.py::test_independent_import_firewall\ntests/test_physical_bridge_current_balance.py::test_all_flag_contractions_with_arbitrary_complex_diagonals[1]\ntests/test_physical_bridge_current_balance.py::test_all_flag_contractions_with_arbitrary_complex_diagonals[2]\ntests/test_physical_bridge_current_balance.py::test_all_flag_contractions_with_arbitrary_complex_diagonals[3]\ntests/test_physical_bridge_current_balance.py::test_split_and_nonsplit_pointwise_controls[1]\ntests/test_physical_bridge_current_balance.py::test_split_and_nonsplit_pointwise_controls[2]\ntests/test_physical_bridge_current_balance.py::test_split_and_nonsplit_pointwise_controls[3]\ntests/test_physical_bridge_current_balance.py::test_all_flag_source_gram_not_only_first_line\ntests/test_physical_bridge_current_balance.py::test_scalar_on_four_source_and_both_noncentral_signs\ntests/test_physical_bridge_current_balance.py::test_neutral_parent_directions_have_a_noncentral_current\ntests/test_physical_bridge_current_balance.py::test_charged_direction_has_both_flag_and_T_projection\ntests/test_physical_bridge_current_balance.py::test_upper_and_lower_maps_have_different_invariant_subbundles\ntests/test_physical_bridge_current_balance.py::test_whole_rank_projector_blocks_the_triangular_shortcut\ntests/test_physical_bridge_current_balance.py::test_reused_counts_are_the_fixed_actual_coefficient_not_a_new_spectrum\ntests/test_physical_bridge_current_balance.py::test_every_cross_block_has_the_required_positive_norm_bound\ntests/test_physical_bridge_current_balance.py::test_positive_coefficients_alone_do_not_certify_a_norm_bound\ntests/test_physical_bridge_current_balance.py::test_proper_flag_validation\ntests/test_physical_bridge_cross_branch_positives.py::test_literal_word_cocycles_recover_all_three_quotient_polynomials\ntests/test_physical_bridge_cross_branch_positives.py::test_double_root_is_jordan_not_merely_a_repeated_characteristic_root\ntests/test_physical_bridge_cross_branch_positives.py::test_nonsplit_index_and_split_control_use_actual_peripheral_restriction\ntests/test_physical_bridge_cross_branch_positives.py::test_hopping_square_has_the_received_mixed_coefficient_and_controls\ntests/test_physical_bridge_cross_branch_positives.py::test_same_nonsplit_coefficient_has_an_explicit_source_balance_duty\ntests/test_physical_bridge_cross_branch_positives.py::test_complete_bounded_control_population\ntests/test_physical_bridge_flat_vacuum.py::test_actual_positive_metric_action_map_and_wrong_tension_control\ntests/test_physical_bridge_flat_vacuum.py::test_target_curvature_sign_and_boundary_stationary_opposite_control\ntests/test_physical_bridge_flat_vacuum.py::test_actual_cusp_splits_without_splitting_the_global_extension\ntests/test_physical_bridge_flat_vacuum.py::test_compact_current_and_even_scaling_potential_from_actual_commutator\ntests/test_physical_bridge_flat_vacuum.py::test_complete_fixed_control_population\ntests/test_physical_bridge_flat_vacuum_control.py::test_nonzero_cusp_primitive_and_same_nonsplit_class\ntests/test_physical_bridge_source_core.py::test_native_complete_image_and_both_signs\ntests/test_physical_bridge_source_core.py::test_traceful_and_nonhermitian_are_rejected\ntests/test_physical_bridge_source_core.py::test_coupled_auxiliary_and_field_variations\ntests/test_physical_bridge_source_core.py::test_current_partition_is_square_weighted\ntests/test_physical_bridge_source_core.py::test_profile_price_and_gradient_live_control\ntests/test_physical_bridge_source_core.py::test_structure_duality_not_untransported_sign_choice\ntests/test_physical_bridge_source_core.py::test_independent_row_reduction_covers_every_basis_direction\ntests/test_physical_bridge_source_core.py::test_independent_quadratic_extraction_has_opposite_outcome\ntests/test_physical_bridge_source_core.py::test_independent_import_firewall\ntests/test_physical_bridge_source_core.py::test_producers_agree_on_normalized_profile_controls\ntests/test_physical_bridge_source_core_report.py::test_ground_symbolic_flags_and_false_outcome_retained\ntests/test_physical_bridge_source_core_report.py::test_unknown_and_numeric_flags_rejected\ntests/test_physical_bridge_source_core_report.py::test_native_original_collector_failure_still_reproducible\ntests/test_physical_bridge_source_core_report.py::test_corrected_collector_keeps_all_mathematical_groups\n\n54 tests collected in 2.73s\n"
+    },
+    "focused_first": {
+      "raw_basename": "focused_first",
+      "raw_receipt_sha256": "f1183f8e0d8762a9eefb612d93beb23f9853f5dae57aae3652cb7c8f6f747d04",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_source_profile.py",
+          "tests/test_physical_bridge_current_balance.py",
+          "tests/test_physical_bridge_cross_branch_positives.py",
+          "tests/test_physical_bridge_flat_vacuum.py",
+          "tests/test_physical_bridge_flat_vacuum_control.py",
+          "tests/test_physical_bridge_source_core.py",
+          "tests/test_physical_bridge_source_core_report.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 45.20811800006777,
+        "log_bytes": 100,
+        "log_sha256": "12e3b0af27368d51acf630057bb9c1dbbf395d55f76e0e5f88e2beb73f415063"
+      },
+      "stdout_redacted": "......................................................                   [100%]\n54 passed in 44.49s\n"
+    },
+    "independent_first": {
+      "raw_basename": "independent_first",
+      "raw_receipt_sha256": "4e40214994d23a3b1228f6d9483d3410aee4016ee3333b05101e5a94958b77cc",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/source_profile_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.8126829999964684,
+        "log_bytes": 12353,
+        "log_sha256": "ac1513ba293fec747d9547422389509ecaec53a9a1603b164bd147220a439c6d"
+      },
+      "stdout_redacted": "{\"all_checks_pass\": true, \"block_cases\": 165, \"bulk_norm\": \"6/5\", \"checks\": {\"block_2_1_0\": true, \"block_2_1_1\": true, \"block_2_1_10\": true, \"block_2_1_2\": true, \"block_2_1_3\": true, \"block_2_1_4\": true, \"block_2_1_5\": true, \"block_2_1_6\": true, \"block_2_1_7\": true, \"block_2_1_8\": true, \"block_2_1_9\": true, \"block_3_1_0\": true, \"block_3_1_1\": true, \"block_3_1_10\": true, \"block_3_1_2\": true, \"block_3_1_3\": true, \"block_3_1_4\": true, \"block_3_1_5\": true, \"block_3_1_6\": true, \"block_3_1_7\": true, \"block_3_1_8\": true, \"block_3_1_9\": true, \"block_3_2_0\": true, \"block_3_2_1\": true, \"block_3_2_10\": true, \"block_3_2_2\": true, \"block_3_2_3\": true, \"block_3_2_4\": true, \"block_3_2_5\": true, \"block_3_2_6\": true, \"block_3_2_7\": true, \"block_3_2_8\": true, \"block_3_2_9\": true, \"block_4_1_0\": true, \"block_4_1_1\": true, \"block_4_1_10\": true, \"block_4_1_2\": true, \"block_4_1_3\": true, \"block_4_1_4\": true, \"block_4_1_5\": true, \"block_4_1_6\": true, \"block_4_1_7\": true, \"block_4_1_8\": true, \"block_4_1_9\": true, \"block_4_2_0\": true, \"block_4_2_1\": true, \"block_4_2_10\": true, \"block_4_2_2\": true, \"block_4_2_3\": true, \"block_4_2_4\": true, \"block_4_2_5\": true, \"block_4_2_6\": true, \"block_4_2_7\": true, \"block_4_2_8\": true, \"block_4_2_9\": true, \"block_4_3_0\": true, \"block_4_3_1\": true, \"block_4_3_10\": true, \"block_4_3_2\": true, \"block_4_3_3\": true, \"block_4_3_4\": true, \"block_4_3_5\": true, \"block_4_3_6\": true, \"block_4_3_7\": true, \"block_4_3_8\": true, \"block_4_3_9\": true, \"block_5_1_0\": true, \"block_5_1_1\": true, \"block_5_1_10\": true, \"block_5_1_2\": true, \"block_5_1_3\": true, \"block_5_1_4\": true, \"block_5_1_5\": true, \"block_5_1_6\": true, \"block_5_1_7\": true, \"block_5_1_8\": true, \"block_5_1_9\": true, \"block_5_2_0\": true, \"block_5_2_1\": true, \"block_5_2_10\": true, \"block_5_2_2\": true, \"block_5_2_3\": true, \"block_5_2_4\": true, \"block_5_2_5\": true, \"block_5_2_6\": true, \"block_5_2_7\": true, \"block_5_2_8\": true, \"block_5_2_9\": true, \"block_5_3_0\": true, \"block_5_3_1\": true, \"block_5_3_10\": true, \"block_5_3_2\": true, \"block_5_3_3\": true, \"block_5_3_4\": true, \"block_5_3_5\": true, \"block_5_3_6\": true, \"block_5_3_7\": true, \"block_5_3_8\": true, \"block_5_3_9\": true, \"block_5_4_0\": true, \"block_5_4_1\": true, \"block_5_4_10\": true, \"block_5_4_2\": true, \"block_5_4_3\": true, \"block_5_4_4\": true, \"block_5_4_5\": true, \"block_5_4_6\": true, \"block_5_4_7\": true, \"block_5_4_8\": true, \"block_5_4_9\": true, \"block_6_1_0\": true, \"block_6_1_1\": true, \"block_6_1_10\": true, \"block_6_1_2\": true, \"block_6_1_3\": true, \"block_6_1_4\": true, \"block_6_1_5\": true, \"block_6_1_6\": true, \"block_6_1_7\": true, \"block_6_1_8\": true, \"block_6_1_9\": true, \"block_6_2_0\": true, \"block_6_2_1\": true, \"block_6_2_10\": true, \"block_6_2_2\": true, \"block_6_2_3\": true, \"block_6_2_4\": true, \"block_6_2_5\": true, \"block_6_2_6\": true, \"block_6_2_7\": true, \"block_6_2_8\": true, \"block_6_2_9\": true, \"block_6_3_0\": true, \"block_6_3_1\": true, \"block_6_3_10\": true, \"block_6_3_2\": true, \"block_6_3_3\": true, \"block_6_3_4\": true, \"block_6_3_5\": true, \"block_6_3_6\": true, \"block_6_3_7\": true, \"block_6_3_8\": true, \"block_6_3_9\": true, \"block_6_4_0\": true, \"block_6_4_1\": true, \"block_6_4_10\": true, \"block_6_4_2\": true, \"block_6_4_3\": true, \"block_6_4_4\": true, \"block_6_4_5\": true, \"block_6_4_6\": true, \"block_6_4_7\": true, \"block_6_4_8\": true, \"block_6_4_9\": true, \"block_6_5_0\": true, \"block_6_5_1\": true, \"block_6_5_10\": true, \"block_6_5_2\": true, \"block_6_5_3\": true, \"block_6_5_4\": true, \"block_6_5_5\": true, \"block_6_5_6\": true, \"block_6_5_7\": true, \"block_6_5_8\": true, \"block_6_5_9\": true, \"boundary_exact_integral\": true, \"boundary_omission_fails\": true, \"boundary_residual_1\": true, \"boundary_residual_1/2\": true, \"boundary_residual_2\": true, \"boundary_residual_2/3\": true, \"boundary_residual_3/2\": true, \"boundary_residual_4/3\": true, \"bulk_2_1_0\": true, \"bulk_2_1_1\": true, \"bulk_2_1_10\": true, \"bulk_2_1_2\": true, \"bulk_2_1_3\": true, \"bulk_2_1_4\": true, \"bulk_2_1_5\": true, \"bulk_2_1_6\": true, \"bulk_2_1_7\": true, \"bulk_2_1_8\": true, \"bulk_2_1_9\": true, \"bulk_3_1_0\": true, \"bulk_3_1_1\": true, \"bulk_3_1_10\": true, \"bulk_3_1_2\": true, \"bulk_3_1_3\": true, \"bulk_3_1_4\": true, \"bulk_3_1_5\": true, \"bulk_3_1_6\": true, \"bulk_3_1_7\": true, \"bulk_3_1_8\": true, \"bulk_3_1_9\": true, \"bulk_3_2_0\": true, \"bulk_3_2_1\": true, \"bulk_3_2_10\": true, \"bulk_3_2_2\": true, \"bulk_3_2_3\": true, \"bulk_3_2_4\": true, \"bulk_3_2_5\": true, \"bulk_3_2_6\": true, \"bulk_3_2_7\": true, \"bulk_3_2_8\": true, \"bulk_3_2_9\": true, \"bulk_4_1_0\": true, \"bulk_4_1_1\": true, \"bulk_4_1_10\": true, \"bulk_4_1_2\": true, \"bulk_4_1_3\": true, \"bulk_4_1_4\": true, \"bulk_4_1_5\": true, \"bulk_4_1_6\": true, \"bulk_4_1_7\": true, \"bulk_4_1_8\": true, \"bulk_4_1_9\": true, \"bulk_4_2_0\": true, \"bulk_4_2_1\": true, \"bulk_4_2_10\": true, \"bulk_4_2_2\": true, \"bulk_4_2_3\": true, \"bulk_4_2_4\": true, \"bulk_4_2_5\": true, \"bulk_4_2_6\": true, \"bulk_4_2_7\": true, \"bulk_4_2_8\": true, \"bulk_4_2_9\": true, \"bulk_4_3_0\": true, \"bulk_4_3_1\": true, \"bulk_4_3_10\": true, \"bulk_4_3_2\": true, \"bulk_4_3_3\": true, \"bulk_4_3_4\": true, \"bulk_4_3_5\": true, \"bulk_4_3_6\": true, \"bulk_4_3_7\": true, \"bulk_4_3_8\": true, \"bulk_4_3_9\": true, \"bulk_5_1_0\": true, \"bulk_5_1_1\": true, \"bulk_5_1_10\": true, \"bulk_5_1_2\": true, \"bulk_5_1_3\": true, \"bulk_5_1_4\": true, \"bulk_5_1_5\": true, \"bulk_5_1_6\": true, \"bulk_5_1_7\": true, \"bulk_5_1_8\": true, \"bulk_5_1_9\": true, \"bulk_5_2_0\": true, \"bulk_5_2_1\": true, \"bulk_5_2_10\": true, \"bulk_5_2_2\": true, \"bulk_5_2_3\": true, \"bulk_5_2_4\": true, \"bulk_5_2_5\": true, \"bulk_5_2_6\": true, \"bulk_5_2_7\": true, \"bulk_5_2_8\": true, \"bulk_5_2_9\": true, \"bulk_5_3_0\": true, \"bulk_5_3_1\": true, \"bulk_5_3_10\": true, \"bulk_5_3_2\": true, \"bulk_5_3_3\": true, \"bulk_5_3_4\": true, \"bulk_5_3_5\": true, \"bulk_5_3_6\": true, \"bulk_5_3_7\": true, \"bulk_5_3_8\": true, \"bulk_5_3_9\": true, \"bulk_5_4_0\": true, \"bulk_5_4_1\": true, \"bulk_5_4_10\": true, \"bulk_5_4_2\": true, \"bulk_5_4_3\": true, \"bulk_5_4_4\": true, \"bulk_5_4_5\": true, \"bulk_5_4_6\": true, \"bulk_5_4_7\": true, \"bulk_5_4_8\": true, \"bulk_5_4_9\": true, \"bulk_6_1_0\": true, \"bulk_6_1_1\": true, \"bulk_6_1_10\": true, \"bulk_6_1_2\": true, \"bulk_6_1_3\": true, \"bulk_6_1_4\": true, \"bulk_6_1_5\": true, \"bulk_6_1_6\": true, \"bulk_6_1_7\": true, \"bulk_6_1_8\": true, \"bulk_6_1_9\": true, \"bulk_6_2_0\": true, \"bulk_6_2_1\": true, \"bulk_6_2_10\": true, \"bulk_6_2_2\": true, \"bulk_6_2_3\": true, \"bulk_6_2_4\": true, \"bulk_6_2_5\": true, \"bulk_6_2_6\": true, \"bulk_6_2_7\": true, \"bulk_6_2_8\": true, \"bulk_6_2_9\": true, \"bulk_6_3_0\": true, \"bulk_6_3_1\": true, \"bulk_6_3_10\": true, \"bulk_6_3_2\": true, \"bulk_6_3_3\": true, \"bulk_6_3_4\": true, \"bulk_6_3_5\": true, \"bulk_6_3_6\": true, \"bulk_6_3_7\": true, \"bulk_6_3_8\": true, \"bulk_6_3_9\": true, \"bulk_6_4_0\": true, \"bulk_6_4_1\": true, \"bulk_6_4_10\": true, \"bulk_6_4_2\": true, \"bulk_6_4_3\": true, \"bulk_6_4_4\": true, \"bulk_6_4_5\": true, \"bulk_6_4_6\": true, \"bulk_6_4_7\": true, \"bulk_6_4_8\": true, \"bulk_6_4_9\": true, \"bulk_6_5_0\": true, \"bulk_6_5_1\": true, \"bulk_6_5_10\": true, \"bulk_6_5_2\": true, \"bulk_6_5_3\": true, \"bulk_6_5_4\": true, \"bulk_6_5_5\": true, \"bulk_6_5_6\": true, \"bulk_6_5_7\": true, \"bulk_6_5_8\": true, \"bulk_6_5_9\": true, \"common_root_fail_control\": true, \"edge_1_1_0_0\": true, \"edge_1_1_0_1\": true, \"edge_1_1_1_0\": true, \"edge_1_1_1_1\": true, \"edge_1_2_0_0\": true, \"edge_1_2_0_1\": true, \"edge_1_2_0_2\": true, \"edge_1_2_1_0\": true, \"edge_1_2_1_1\": true, \"edge_1_2_1_2\": true, \"edge_1_3_0_0\": true, \"edge_1_3_0_1\": true, \"edge_1_3_0_2\": true, \"edge_1_3_0_3\": true, \"edge_1_3_1_0\": true, \"edge_1_3_1_1\": true, \"edge_1_3_1_2\": true, \"edge_1_3_1_3\": true, \"edge_1_4_0_0\": true, \"edge_1_4_0_1\": true, \"edge_1_4_0_2\": true, \"edge_1_4_0_3\": true, \"edge_1_4_0_4\": true, \"edge_1_4_1_0\": true, \"edge_1_4_1_1\": true, \"edge_1_4_1_2\": true, \"edge_1_4_1_3\": true, \"edge_1_4_1_4\": true, \"edge_2_1_0_0\": true, \"edge_2_1_0_1\": true, \"edge_2_1_1_0\": true, \"edge_2_1_1_1\": true, \"edge_2_1_2_0\": true, \"edge_2_1_2_1\": true, \"edge_2_2_0_0\": true, \"edge_2_2_0_1\": true, \"edge_2_2_0_2\": true, \"edge_2_2_1_0\": true, \"edge_2_2_1_1\": true, \"edge_2_2_1_2\": true, \"edge_2_2_2_0\": true, \"edge_2_2_2_1\": true, \"edge_2_2_2_2\": true, \"edge_2_3_0_0\": true, \"edge_2_3_0_1\": true, \"edge_2_3_0_2\": true, \"edge_2_3_0_3\": true, \"edge_2_3_1_0\": true, \"edge_2_3_1_1\": true, \"edge_2_3_1_2\": true, \"edge_2_3_1_3\": true, \"edge_2_3_2_0\": true, \"edge_2_3_2_1\": true, \"edge_2_3_2_2\": true, \"edge_2_3_2_3\": true, \"edge_2_4_0_0\": true, \"edge_2_4_0_1\": true, \"edge_2_4_0_2\": true, \"edge_2_4_0_3\": true, \"edge_2_4_0_4\": true, \"edge_2_4_1_0\": true, \"edge_2_4_1_1\": true, \"edge_2_4_1_2\": true, \"edge_2_4_1_3\": true, \"edge_2_4_1_4\": true, \"edge_2_4_2_0\": true, \"edge_2_4_2_1\": true, \"edge_2_4_2_2\": true, \"edge_2_4_2_3\": true, \"edge_2_4_2_4\": true, \"edge_3_1_0_0\": true, \"edge_3_1_0_1\": true, \"edge_3_1_1_0\": true, \"edge_3_1_1_1\": true, \"edge_3_1_2_0\": true, \"edge_3_1_2_1\": true, \"edge_3_1_3_0\": true, \"edge_3_1_3_1\": true, \"edge_3_2_0_0\": true, \"edge_3_2_0_1\": true, \"edge_3_2_0_2\": true, \"edge_3_2_1_0\": true, \"edge_3_2_1_1\": true, \"edge_3_2_1_2\": true, \"edge_3_2_2_0\": true, \"edge_3_2_2_1\": true, \"edge_3_2_2_2\": true, \"edge_3_2_3_0\": true, \"edge_3_2_3_1\": true, \"edge_3_2_3_2\": true, \"edge_3_3_0_0\": true, \"edge_3_3_0_1\": true, \"edge_3_3_0_2\": true, \"edge_3_3_0_3\": true, \"edge_3_3_1_0\": true, \"edge_3_3_1_1\": true, \"edge_3_3_1_2\": true, \"edge_3_3_1_3\": true, \"edge_3_3_2_0\": true, \"edge_3_3_2_1\": true, \"edge_3_3_2_2\": true, \"edge_3_3_2_3\": true, \"edge_3_3_3_0\": true, \"edge_3_3_3_1\": true, \"edge_3_3_3_2\": true, \"edge_3_3_3_3\": true, \"edge_3_4_0_0\": true, \"edge_3_4_0_1\": true, \"edge_3_4_0_2\": true, \"edge_3_4_0_3\": true, \"edge_3_4_0_4\": true, \"edge_3_4_1_0\": true, \"edge_3_4_1_1\": true, \"edge_3_4_1_2\": true, \"edge_3_4_1_3\": true, \"edge_3_4_1_4\": true, \"edge_3_4_2_0\": true, \"edge_3_4_2_1\": true, \"edge_3_4_2_2\": true, \"edge_3_4_2_3\": true, \"edge_3_4_2_4\": true, \"edge_3_4_3_0\": true, \"edge_3_4_3_1\": true, \"edge_3_4_3_2\": true, \"edge_3_4_3_3\": true, \"edge_3_4_3_4\": true, \"edge_4_1_0_0\": true, \"edge_4_1_0_1\": true, \"edge_4_1_1_0\": true, \"edge_4_1_1_1\": true, \"edge_4_1_2_0\": true, \"edge_4_1_2_1\": true, \"edge_4_1_3_0\": true, \"edge_4_1_3_1\": true, \"edge_4_1_4_0\": true, \"edge_4_1_4_1\": true, \"edge_4_2_0_0\": true, \"edge_4_2_0_1\": true, \"edge_4_2_0_2\": true, \"edge_4_2_1_0\": true, \"edge_4_2_1_1\": true, \"edge_4_2_1_2\": true, \"edge_4_2_2_0\": true, \"edge_4_2_2_1\": true, \"edge_4_2_2_2\": true, \"edge_4_2_3_0\": true, \"edge_4_2_3_1\": true, \"edge_4_2_3_2\": true, \"edge_4_2_4_0\": true, \"edge_4_2_4_1\": true, \"edge_4_2_4_2\": true, \"edge_4_3_0_0\": true, \"edge_4_3_0_1\": true, \"edge_4_3_0_2\": true, \"edge_4_3_0_3\": true, \"edge_4_3_1_0\": true, \"edge_4_3_1_1\": true, \"edge_4_3_1_2\": true, \"edge_4_3_1_3\": true, \"edge_4_3_2_0\": true, \"edge_4_3_2_1\": true, \"edge_4_3_2_2\": true, \"edge_4_3_2_3\": true, \"edge_4_3_3_0\": true, \"edge_4_3_3_1\": true, \"edge_4_3_3_2\": true, \"edge_4_3_3_3\": true, \"edge_4_3_4_0\": true, \"edge_4_3_4_1\": true, \"edge_4_3_4_2\": true, \"edge_4_3_4_3\": true, \"edge_4_4_0_0\": true, \"edge_4_4_0_1\": true, \"edge_4_4_0_2\": true, \"edge_4_4_0_3\": true, \"edge_4_4_0_4\": true, \"edge_4_4_1_0\": true, \"edge_4_4_1_1\": true, \"edge_4_4_1_2\": true, \"edge_4_4_1_3\": true, \"edge_4_4_1_4\": true, \"edge_4_4_2_0\": true, \"edge_4_4_2_1\": true, \"edge_4_4_2_2\": true, \"edge_4_4_2_3\": true, \"edge_4_4_2_4\": true, \"edge_4_4_3_0\": true, \"edge_4_4_3_1\": true, \"edge_4_4_3_2\": true, \"edge_4_4_3_3\": true, \"edge_4_4_3_4\": true, \"edge_4_4_4_0\": true, \"edge_4_4_4_1\": true, \"edge_4_4_4_2\": true, \"edge_4_4_4_3\": true, \"edge_4_4_4_4\": true, \"exact_polynomial_gap\": true, \"exceptional_q_one\": true, \"full_lower_match\": true, \"longitude_1/2\": true, \"longitude_2\": true, \"longitude_2/3\": true, \"longitude_3\": true, \"longitude_5\": true, \"longitude_7\": true, \"lower_not_parallel\": true, \"partner_current_1_1\": true, \"partner_current_1_2\": true, \"partner_current_1_3\": true, \"partner_current_1_4\": true, \"partner_current_2_1\": true, \"partner_current_2_2\": true, \"partner_current_2_3\": true, \"partner_current_2_4\": true, \"partner_current_3_1\": true, \"partner_current_3_2\": true, \"partner_current_3_3\": true, \"partner_current_3_4\": true, \"partner_current_4_1\": true, \"partner_current_4_2\": true, \"partner_current_4_3\": true, \"partner_current_4_4\": true, \"upper_wrong_sign\": true}, \"edge_cases\": 196, \"outward_flux\": \"-6/5\", \"passed\": 562, \"scope\": \"independent finite rational controls; not a global physical source law\", \"total\": 562}\n"
+    },
+    "native_first": {
+      "raw_basename": "native_first",
+      "raw_receipt_sha256": "89934bd9d5fc250b0a100bd7c0a133cc2662470bb8c0f3faad15449b4ac5e922",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/source_profile.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 7.430036999983713,
+        "log_bytes": 3044,
+        "log_sha256": "155c65d7ec8c1a9666ee1705a67d313264c5492da0cacafd9e69ffff35701d38"
+      },
+      "stdout_redacted": "{\"checks\": {\"bulk_2_1\": true, \"bulk_3_1\": true, \"bulk_3_2\": true, \"bulk_4_1\": true, \"bulk_4_2\": true, \"bulk_4_3\": true, \"bulk_5_1\": true, \"bulk_5_2\": true, \"bulk_5_3\": true, \"bulk_5_4\": true, \"bulk_6_1\": true, \"bulk_6_2\": true, \"bulk_6_3\": true, \"bulk_6_4\": true, \"bulk_6_5\": true, \"constant_is_not_parallel\": true, \"lower_full_current_match\": true, \"moment_2_1\": true, \"moment_3_1\": true, \"moment_3_2\": true, \"moment_4_1\": true, \"moment_4_2\": true, \"moment_4_3\": true, \"moment_5_1\": true, \"moment_5_2\": true, \"moment_5_3\": true, \"moment_5_4\": true, \"moment_6_1\": true, \"moment_6_2\": true, \"moment_6_3\": true, \"moment_6_4\": true, \"moment_6_5\": true, \"negative_lower_projection\": true, \"positive_bulk_projection\": true, \"split_zero_control\": true, \"unitary_fixture\": true, \"untransported_projector_detected\": true, \"upper_full_current_fails\": true, \"whole_projector_transport\": true}, \"group\": \"blocks\", \"symbolic_block_cases\": 15}\n{\"checks\": {\"actual_longitude_gap\": true, \"bad_polynomial_common_root_detected\": true, \"commutation_forces_lower_block\": true, \"denominator_coprime_actual_roots\": true, \"image_with_any_extension_column\": true, \"numerator_coprime_actual_roots\": true, \"q_one_gap_fails\": true, \"q_one_not_actual_root\": true, \"q_zero_not_root\": true}, \"gap_determinant\": \"-(q - 1)**4*(q**2 + q + 1)/q**3\", \"group\": \"periphery\", \"not_recomputed\": \"cohomology, triplet census, global metric, physical spectrum\", \"reused_primitives\": [\"R75 literal\", \"R75 sym_word\"]}\n{\"bulk_norm\": \"6/5\", \"checks\": {\"bulk_norm_positive\": true, \"complete_boundary_identity\": true, \"finite_background_norm\": true, \"flux_omission_rejected\": true, \"full_real_residual_zero\": true, \"nonzero_extension\": true, \"one_coordinate_flat\": true, \"outward_flux_negative\": true, \"second_component_curvature_detected\": true, \"wrong_outward_sign_rejected\": true}, \"group\": \"boundary\", \"outward_flux\": \"-6/5\"}\n{\"checks\": {\"deleting_partner_detected_1_4\": true, \"deleting_partner_detected_2_3\": true, \"deleting_partner_detected_3_2\": true, \"edge_1_4_0_0\": true, \"edge_1_4_0_1\": true, \"edge_1_4_0_2\": true, \"edge_1_4_0_3\": true, \"edge_1_4_0_4\": true, \"edge_1_4_1_0\": true, \"edge_1_4_1_1\": true, \"edge_1_4_1_2\": true, \"edge_1_4_1_3\": true, \"edge_1_4_1_4\": true, \"edge_2_3_0_0\": true, \"edge_2_3_0_1\": true, \"edge_2_3_0_2\": true, \"edge_2_3_0_3\": true, \"edge_2_3_1_0\": true, \"edge_2_3_1_1\": true, \"edge_2_3_1_2\": true, \"edge_2_3_1_3\": true, \"edge_2_3_2_0\": true, \"edge_2_3_2_1\": true, \"edge_2_3_2_2\": true, \"edge_2_3_2_3\": true, \"edge_3_2_0_0\": true, \"edge_3_2_0_1\": true, \"edge_3_2_0_2\": true, \"edge_3_2_1_0\": true, \"edge_3_2_1_1\": true, \"edge_3_2_1_2\": true, \"edge_3_2_2_0\": true, \"edge_3_2_2_1\": true, \"edge_3_2_2_2\": true, \"edge_3_2_3_0\": true, \"edge_3_2_3_1\": true, \"edge_3_2_3_2\": true, \"total_current_1_4\": true, \"total_current_2_3\": true, \"total_current_3_2\": true}, \"group\": \"relations\", \"rectangular_projector_cases\": 34}\n{\"all_checks_pass\": true, \"passed\": 98, \"scope\": \"conditional local identities; no physical source selection or complete spectrum\", \"total\": 98}\n"
+    },
+    "preseal_gates": {
+      "raw_basename": "preseal_gates",
+      "raw_receipt_sha256": "a0ed61acbb631626690ba909104b89fef6e7ec29f602928c98752307aceaa507",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.415711999987252,
+        "log_bytes": 2189,
+        "log_sha256": "03af0b95d54972548d1edc595b3432775099048f7b960989c2228c76f1581815"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 56 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 41 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 37 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 293 merges since last review (DUE — run the decadal review)\n"
+    },
+    "profile_sweep": {
+      "raw_basename": "profile_sweep",
+      "raw_receipt_sha256": "53c4505cbfb389c59e455616f3d7df56cd84ef913a72bcfe9d70a59aac18dffc",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/checks/absence_sweep.py",
+          "flag.preserv.{0,80}(source|moment)|source.{0,80}flag.preserv|quiver.{0,80}(source|moment)|parallel.{0,80}adjoint",
+          "--regex"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 59.40804599993862,
+        "log_bytes": 1179,
+        "log_sha256": "bf59ed335656e10566849f203945065f375edac6bbbc6c669ab61079202e6476"
+      },
+      "stdout_redacted": "ABSENCE SWEEP for 'flag.preserv.{0,80}(source|moment)|source.{0,80}flag.preserv|quiver.{0,80}(source|moment)|parallel.{0,80}adjoint' -- 17 heads enumerated\n  audit/fork-2026-09-20                                   490d77c4  content:   1  filenames:  0\n      490d77c4:reports/parent_twist_gap_2026_09_20/PROOF.md\n  audit/physical-bridge-2026-09-05                        1e3d17b9  content:   3  filenames:  0\n      1e3d17b9:docs/LAW_MAP.md\n      1e3d17b9:reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md\n      1e3d17b9:reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md\n  origin/audit/physical-bridge-2026-09-05                 1e3d17b9  content:   3  filenames:  0\n      1e3d17b9:docs/LAW_MAP.md\n      1e3d17b9:reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md\n      1e3d17b9:reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md\n  deleted-in-history paths matching: 0\n  working tree (untracked included): 3\n      docs/LAW_MAP.md\n      reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md\n      reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md\nVERDICT: PRESENT -- on 3 head(s), working tree. 'We don't have it' may NOT be written.\n"
+    },
+    "seal_push": {
+      "raw_basename": "seal_push",
+      "raw_receipt_sha256": "de0637138cebd328df6954fafba62a278aa661ddf5add86eaea2c9e05d815474",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "push",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.308856000076048,
+        "log_bytes": 143,
+        "log_sha256": "66a8b1a1977f0f46dbd35169d49eb24a284898c2108b37a6e6a5fb09a5e1b94e"
+      },
+      "stdout_redacted": "To https://github.com/originaxiom/origin-axiom.git\n   1e3d17b9..7b088f50  audit/physical-bridge-2026-09-05 -> audit/physical-bridge-2026-09-05\n"
+    },
+    "seal_remote": {
+      "raw_basename": "seal_remote",
+      "raw_receipt_sha256": "8cfbcec585292cb71fe46f55389d1d6bf3853ee3c06030b1e27fe744af60db92",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.9269319999730214,
+        "log_bytes": 85,
+        "log_sha256": "1d940f73c14406e9fb00939aabfe7d2063bb36eca422c83818f3f2eb0bccf2c9"
+      },
+      "stdout_redacted": "7b088f505cf60c42aa19fbff94eb9bb494da9734\trefs/heads/audit/physical-bridge-2026-09-05\n"
+    },
+    "custody_first": {
+      "raw_basename": "custody_first",
+      "raw_receipt_sha256": "a80fd1b6b46d1b668ccf9787d275c4bc542aedf9d3df6a481b43708d92a20b3b",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/source_profile_receipt_check.rb",
+          "<source-profile-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.5262560000410303,
+        "log_bytes": 203,
+        "log_sha256": "8e9f3fe874f3979b79e56b4c15749b5ba75f8a0524e58ce79e3f9e432ce0bea8"
+      },
+      "stdout_redacted": "{\"frozen_paths\":6,\"source_pins\":6,\"raw_captures\":10,\"native_checks\":98,\"separate_checks\":562,\"focused_tests\":54,\"new_tests\":12,\"scope\":\"byte/population custody only; not analytic/physical independence\"}\n"
+    },
+    "publication_gates": {
+      "raw_basename": "publication_gates",
+      "raw_receipt_sha256": "a862bec407e7c27e9a8462ff48a3ed3f0584dc311509cb4a9906a2bb242ec561",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.53977000003215,
+        "log_bytes": 2355,
+        "log_sha256": "8d7711e8e4f631599347dba8a6ce8aea6c30b71834c070854fbdf0dba1f89f58"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 57 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 41 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 37 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  FAIL  law-map-provenance: LAW_MAP provenance -- 4 row(s) cite no arc: SP1: complete source projector is an out; SP2: nonsplit zero-D support needs a dow; SP4: full boundary flux defeats a bounda\n  PASS  atlas-lexicon-current: ok\n  review-due: 294 merges since last review (DUE — run the decadal review)\n"
+    },
+    "custody_final": {
+      "raw_basename": "custody_final",
+      "raw_receipt_sha256": "46353b695f3c934b5bf8a115588211c063d0c82e9711ef9bb662efe69bc8b360",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/source_profile_receipt_check.rb",
+          "<source-profile-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6030729999765754,
+        "log_bytes": 203,
+        "log_sha256": "c170b87416ff3f98fcf6652809604efc99f89c2731ac6333817c6c46a2c62a45"
+      },
+      "stdout_redacted": "{\"frozen_paths\":6,\"source_pins\":6,\"raw_captures\":11,\"native_checks\":98,\"separate_checks\":562,\"focused_tests\":54,\"new_tests\":12,\"scope\":\"byte/population custody only; not analytic/physical independence\"}\n"
+    },
+    "publication_repair_gates": {
+      "raw_basename": "publication_repair_gates",
+      "raw_receipt_sha256": "ab9750b36639dfb0c93a61215fd5cfe7e3d943f175970edbebcc98c3a6c6d26d",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 18.89861200004816,
+        "log_bytes": 2189,
+        "log_sha256": "14f72ca45abcc4fef873e6a2be12b06344f767b3de81086fad24bfa38985a405"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 57 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 42 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 38 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 294 merges since last review (DUE — run the decadal review)\n"
+    },
+    "custody_encoding_failure": {
+      "raw_basename": "custody_encoding_failure",
+      "raw_receipt_sha256": "3ce95daf47f405fe37dbcf3709d7be7486ef25650fc71209928781ea7b5aea06",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/source_profile_receipt_check.rb",
+          "<source-profile-raw>"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.14405799994710833,
+        "log_bytes": 219,
+        "log_sha256": "7d013002033690340dee00d9fb7c42f0ebc7f9afa161888fd3ac265d540115c6"
+      },
+      "stdout_redacted": "reports/physical_bridge_2026_09_05/source_profile_receipt_check.rb:17:in `scan': invalid byte sequence in US-ASCII (ArgumentError)\n\tfrom reports/physical_bridge_2026_09_05/source_profile_receipt_check.rb:17:in `<main>'\n"
+    },
+    "custody_utf8_repair": {
+      "raw_basename": "custody_utf8_repair",
+      "raw_receipt_sha256": "d405eea7c09c29edf2ea9acaaf5c95e8c086b33db13d321e5f7f96191c392fcd",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/source_profile_receipt_check.rb",
+          "<source-profile-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7118389999959618,
+        "log_bytes": 203,
+        "log_sha256": "c0ddeb37c3b28def3efe52a730d3dd6aea2b8989b5c362e0e0b9c44ffff0ae93"
+      },
+      "stdout_redacted": "{\"frozen_paths\":6,\"source_pins\":6,\"raw_captures\":14,\"native_checks\":98,\"separate_checks\":562,\"focused_tests\":54,\"new_tests\":12,\"scope\":\"byte/population custody only; not analytic/physical independence\"}\n"
+    }
+  }
+}

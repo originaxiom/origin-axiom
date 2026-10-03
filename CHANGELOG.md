@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-10-02 — R80: source admission direction, periphery and real boundary escape
+
+Science sealed/pushed/server-confirmed7b088f50 before unchanged first
+runs:98 symbolic and562 separate exact-rational controls;54 focused tests
+(12 new/42 retained). R41/R75/R76/R77 reused, no new generation census.
+The zero-D source sign demands maps leaving the nonsplit invariant
+subspace; the actual triplet longitude makes parallel End(W) sources
+preserve it. This excludes only that source/profile class under declared
+complete boundaryless finite-energy hypotheses, not all physical vacua.
+Full lower-source synthetic cancellation and smooth F=I=0 boundary
+flux controls retain two escape routes; rectangular maps retain both
+sectors' moment currents. Actual finite profiles/end laws still required.
+No source, observer, qualia, particle spectrum or physics values derived.
+
+Six frozen source files/six reuse pins and raw first-run captures retained;
+same-author code independence, nonauthor analytic review still pending.
+All-head source search PRESENT, not absence; raw SSH/encoding retrieval
+errors disclosed without science changes. Preseal26 PASS/four historical
+FAIL categories retained, no waived gates or full-suite/main-bank claim.
+Source/profile report and sender relay registered; seven front doors
+updated. Full parameter-free Standard Model/TOE goal ACTIVE/unachieved.
+Publication completed October3: missing law-map arc contexts corrected
+with explicit non-proof antecedent labels; first failure retained.
+Repaired governance26 PASS/four historical FAIL categories; no waiver.
+
 ## 2026-10-02 — act/register milestone executed; new genesis relay reconciled
 
 Six scientific paths pushed/server-confirmed at69d6d0b9 before execution,

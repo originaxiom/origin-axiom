@@ -16601,3 +16601,43 @@ Publication governance:26 PASS/four same historical FAIL categories;
 check passes six unchanged frozen paths,21 original/three intake pins,
 11 raw captures; additional custody/publication captures preserved.
 No full-suite or independent analytic/main-bank acceptance claimed.
+
+## 2026-10-02 — R80: actual source-profile direction and two retained escapes
+
+Scientific seal7b088f505cf60c42aa19fbff94eb9bb494da9734 pushed/server-
+confirmed before execution; all six scientific files unchanged. Native98
+and separate standard-library rational562 controls pass first.54 focused
+tests pass, with12 new/42 retained and exact collected scope. No science
+repair or overwritten output. Six reuse source objects and raw first
+captures retained with separate reading/acceptance grades.
+
+R41's projector identity plus R77's actual sign gives a necessary
+downward-source balance for a boundaryless finite-energy zero-D nonsplit
+model. R75's literal longitude gap makes parallel End(W) sources preserve
+its invariant four, excluding this restricted completion only. Lower
+source algebra and an explicit smooth finite-domain boundary-flux
+solution pass opposite controls. Relational maps retain both partners'
+currents; no generated edge is automatically a physical coupling.
+
+Braun selected profile sections reread, not a full paper; its degree-one
+fields are not silently assigned a parallel zero-form law. R77's added
+free-profile existence retained; actual admitted source/end law and full
+same-model spectrum/anomalies/interactions remain the next duty. Qualia
+and observer interpretations remain philosophical, not a computed rescue.
+Sender relay requests existing admitted candidates and independent scope
+review; no recipient acknowledgement or main propagation claimed.
+
+Preseal26 PASS/four historical FAIL categories (same subjects),44 banked/
+56 OPEN relays,41 stale debts, review due293. SSH authentication and
+Ruby text/binary comparisons failed before science; HTTPS and binary
+checks resolved without science/digest changes. All-head source search
+PRESENT; deleted-path search not a complete deleted-content certificate.
+No universal absence, original-theorem, full-suite or nonauthor review
+claim. Full parameter-free Standard Model/TOE remains ACTIVE/unachieved.
+
+October3 publication completion: the first publication check additionally
+flagged four missing R80 law-map arc contexts. B1511 now labels only the
+retained coefficient context, explicitly not the source of general SP1/
+SP4/SP5 identities. Repaired governance26 PASS/four historical FAIL
+categories,44 banked/57 OPEN relays,41 stale debts, review due294. Both
+publication outputs retained; no science, gate or baseline altered.
