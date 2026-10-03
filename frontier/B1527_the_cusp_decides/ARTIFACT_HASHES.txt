@@ -1,0 +1,12 @@
+# B1527 -- sha-256 of the sealed files, recorded at the seal (before run.py ran on any word state; the controls ran on m004's
+# banked Ballas axis only). Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1527_the_cusp_decides/)
+ebb8c34ed282f30c0ca9ee02292b0b39445c010bda426faefe7bbbd545339bce  PREREGISTRATION.md
+eaa276b4190a5fbd981c6970e40bb995de75974905f7f9679e384f2ef08a1ed2  verification/cusp_lib.py
+9a4feaca9b113bfbc898ea04eaf1080166aaa5e515bf0774f2b3c1a5624fc609  verification/family_lib.py
+0e7b4af42d67f5b4a5680cf9424d9b89ad85c0851608101a731a8cffdef8dc8a  verification/scan_lib.py
+308cbd12ea7c35cc927f234f5f004d41ed49281b5fa5dce5c1b325cf449c302d  verification/wang_lib.py
+4797a42d59e988ee78e6c8302192aee671259a49f420f361acf40c15ce96db3e  verification/controls.py
+81a68a592092349144d6ced5109757740c0950030113f0286cfada1ed58107b9  verification/controls.json
+ddbb0f9352b14e0169a6adeaa8a40260bf8eb9a4059256f15267a465ea898b72  verification/controls_run.txt
+e25320a25da7a4d3c1bb83dc3184521e64c896efdd45a40eed389f213ece89bf  verification/run.py
+12ec39bad48edb7c541f30d879172fc896b82112fd4d2e9321238f6e1704396b  verification/read_out.py

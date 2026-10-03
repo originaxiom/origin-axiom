@@ -17163,3 +17163,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   cases. So 13 more pass in the fast lane.
 - **What it certifies.** B1525, on a tree nothing edited (B1526 was written in the main working tree, not the lane's; E46 kept).
   B1526 is certified next.
+
+## 2026-10-03 — B1527 sealed: the cusp decides (sL-10 item 8)
+
+- **The question.** Item 8: on a mirror-broken word state near its hyperbolic point, is any vacuum's class index non-zero?
+- **Decided at design time.**
+  - An index can live only where ρ(ℓ) has the eigenvalue 1 (Lemma C; ν(ℓ) = 1 always).
+  - Every vacuum at the hyperbolic point has I = 0 (Part H).
+  - On a type-one path near it the fibre boundary is never unipotent, being a rigid slope (Part A).
+  - Proposition Π: Ballas' own transversality count, with the slice's frame pinned off the hyperbolic point, makes the
+    generalized-cusp locus two-dimensional. It has three type-one (finite-volume) curves on every state, and type two elsewhere.
+- **The seal.** Ten manifolds, two routes for the index (Fox; the Wang sequence with Lemma E), predictions P1–P8. Controls on
+  m004's banked axis only; C3's first bar fixed and logged (E52 instance); C6's local evidence for Π disclosed.
+- **Next:** run as sealed, then the type-two eigenvalue-one curves, sealed separately. 0 of 19.

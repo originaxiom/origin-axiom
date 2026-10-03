@@ -1,5 +1,33 @@
 # Changelog
 
+## B1527 sealed: THE CUSP DECIDES — the class index on the projective deformations of the mirror-broken word states, near their hyperbolic point (sL-10 item 8)
+
+- **Sealed before `run.py` ran on any word state.** The controls and a smoke test ran on m004's banked Ballas axis only
+  (PREREGISTRATION sha-256 `ebb8c34e…`, SEAL_LEDGER).
+- **Proved at design time** (PREREGISTRATION §3):
+  - **Lemma C (the cusp decides):** ν(ℓ) = 1 for every character, ℓ being a commutator. So if ρ(ℓ) has no eigenvalue 1, the cusp
+    is acyclic for ν ⊗ ρ and its dual, and I = a0 − b0. This is sm:B1509 T1 and the audit lane's R44 on m004, here on every word
+    state and representation.
+  - **Lemma E:** I = h¹(V*) − h¹(V) + 2(a0 − b0) + s0 − t0. It gives a second route with no restriction map.
+  - **Part H:** I = 0 at the hyperbolic point, for every character, the four and Λ². Acyclic cusp off λ_c; complex conjugation at
+    λ_c.
+  - **Part A:** on a type-one path near ρ_hyp the fibre boundary is never unipotent, because it is a rigid slope (sm:B1523). So
+    I = 0 for every character.
+  - **Proposition Π:** the generalized-cusp locus near ρ_hyp is two-dimensional (Ballas' own count, with the slice's frame pinned
+    off the hyperbolic point). It has three type-one curves, 60° apart (weight 3, sm:B1523's Lemma S), and type two elsewhere.
+- **Instruments:**
+  - route Fox (B1297's index, Fox calculus, three identities checked);
+  - route W (h¹ through the fibration, then Lemma E);
+  - a float64 scan of Ballas' slice (b = 0 or free), seeded from the hyperbolic point in 72 frames, then a 60-digit polish.
+- **Controls C1–C6 pass.**
+  - C2 and C4: sm:B1509's I(W₁) = −1 and I(W₂) = +1 are reproduced by both routes. This is the positive control.
+  - Disclosed: C3's first acceptance bar ignored a Jordan block's conditioning (ERROR_LEDGER, E52 instance), and was replaced by
+    power sums before anything else ran.
+  - Disclosed: C6, nullities 4 and 5 at Ballas' axis and b = −3a·Δθ, local evidence for Π on m004.
+- **Ten manifolds:** ±LR, ±LLRLRR, ±L³RLR², ±L⁴RL³R², ±L⁴RLR³LR².
+- **Predictions P1–P8** (expected 6.4 of 8), outcome classes A, B and C. The type-two eigenvalue-one curves are left for the next
+  arc. 0 of 19.
+
 ## Record the fast lane on 843d163c (B1525 banked): at the bank's baseline
 
 - **Fast lane on 843d163c** (67 minutes, in a worktree pinned at that commit): 6 641 passed, 52 skipped, 10 failed. The ten are
