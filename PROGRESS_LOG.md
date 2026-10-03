@@ -16686,3 +16686,30 @@ not foreign producer certification. Governance26 PASS/four historical
 failing categories, review-due297; no waiver/full-suite/main bank. Report
 DIRICHLET_ADMISSION.md with seal, source pins, raw command receipts and
 custody checker. Full objective unchanged; scheduler usageLimited.
+
+## 2026-10-03 — audit R82: CS critical-value blindness is not sector deletion
+
+Own branch, path-local; standard mathematics, not a new theorem. Six
+science paths sealed2ca00f62 and pushed/server-confirmed before execution.
+First unchanged24 symbolic/195 separate rational predicates and18 focused
+tests pass (10 new/8 R60). B1012's original scalar producer replays
+unchanged and passes: its geometric critical value is k-blind at CS=0.
+That does not delete the full field functional or its nonzero Hessian.
+The smooth compact-support contact fluctuation applies about the actual
+flat bundle, changes no end data and is not gauge-flat. E6 principal
+trace, nonabelian transgression and both wrong cubic/normal controls pass.
+
+B1226's earlier symmetry/type corrections and R60's boundary variation
+credited; no rediscovery, rational E6 boundary attachment, selected
+physical contour, normalized observable or chirality claimed. B1064 leg1
+is scope-qualified at use and by an addendum beside its unchanged sealed
+text. Leg2's no supplied attachment stays unresolved, not a universal
+absence. Fresh main399b0bc2/SM8e4e4163 received; B1529 is sealed/unrun,
+not a new census result. Governance26 PASS/four historical failing
+categories, first exit1 retained, review-due299; no waiver/full-suite
+certificate. Report CS_SECTOR_SCOPE.md, thirteen first captures and
+six-row custody. Independent C1--C4 review and generated action/domain
+requested in a direct sender relay. R81's actual compact-boundary
+admission stays positive; its boundary-selection cost is not erased.
+Full parameter-free SM/TOE ACTIVE and unachieved; earlier scheduler
+usageLimited notes above are dated history, not a replacement objective.

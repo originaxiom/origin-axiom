@@ -1746,6 +1746,17 @@ any downstream use.
 
 
 
+### R82 scope qualification 2026-10-03 (path-local; nonauthor review open)
+
+The historical L154 update below cites B1064's no-quantized-sector
+premise. B1012's scalar critical value does not establish that absence
+for the full CS functional. R82's compactly supported fluctuation and
+nonzero Hessian verify the type distinction; B1226's earlier corrections
+are credited. This does NOT supply the rational E6 boundary algebra,
+select a contour or fix sigma. The attachment remains unestablished,
+not ruled out by that sector-deletion inference. Report:
+reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE.md.
+
 ### PROBE UPDATE 2026-08-19 (the σ-identification cell; verify HOLDS)
 
 L154 UPDATE (2026-08-19, the σ-identification probe; 2 agents, adversarial verify HOLDS
@@ -4523,3 +4534,24 @@ work across the repo. Sources/receipts: ACT_REGISTER.md in the audit report.
 
 These are verification duties, not a claim of absent work across the
 architecture. SOURCE_PROFILE_RECEIPTS.json preserves first outputs.
+
+## October3 R81/R82 next physical duties (path-local; not main banking)
+
+- PB-BOUNDARY: R81 supplies theorem-backed compact admission for the
+  actual nonsplit W with prescribed data. Derive which generated
+  relation/end provides those data and both partners' full currents;
+  do not retest existence for arbitrary K as selection of nature.
+- PB-CS-DOMAIN: R82 scopes geometric critical-value k-blindness, not
+  the full field functional. Specify/justify contour, boundary law,
+  measure and gauge/anomaly conditions before computing a quantum
+  observable. Nonconstant action is not automatic nonconstant Z.
+- PB-ATTACHMENT: rational E6 level-one boundary data remain unestablished.
+  Removing B1064 leg1's over-wide premise does not construct leg2's
+  missing attachment, identify a central charge or fix either level.
+- PB-REVIEW: independent R81 D1--D4 and R82 C1--C4 review requested;
+  both direct sender relays remain OPEN. Finite same-author controls
+  are not independent analytic/physical acceptance.
+
+Keep the3d complex CS theory distinct from the supplied7d parent and
+its CS superpotential. Compute spectrum and observables only after the
+same-theory physical action/domain join; full SM/TOE remains unachieved.

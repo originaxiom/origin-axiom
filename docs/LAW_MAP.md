@@ -1271,3 +1271,20 @@ and the R80 proof and controls named below.
 | SP3: actual triplet periphery makes parallel endomorphisms preserve V | R75 literal longitude has det(L_V-Id)=-(q-1)^4(q^2+q+1)/q^3, coprime with q^6-34q^3+1. im(L_W-Id)=V for any extension column. Not a parallel law for every degree-one field; q=1 excluded. | R75/B1511 coefficient context; SOURCE_PROFILE_PROOF.md SP3; tests/test_physical_bridge_source_profile.py::test_actual_longitude_controls_parallel_endomorphism_not_all_matter |
 | SP4: full boundary flux defeats a boundaryless transfer | Smooth flat one-component C on T2 times a finite interval has I=0, extension norm6/5 and outward projector flux-6/5. Local splitable bundle, not global nonsplit topology, physical end selection or chirality. | B1511 retained coefficient context only, not this boundary solution; R41 boundary identity; SOURCE_PROFILE_PROOF.md SP4; tests/test_physical_bridge_source_profile.py::test_actual_boundary_solution_prevents_boundaryless_false_kill |
 | SP5: rectangular relations retain both moment currents | Pointwise B:E_tail->E_head has (-Bdag B,BBdag); selected-subspace trace is the signed cross-block norm. Map and receiving equation must stay together, not an earned architecture-to-physics identification. | B1511 retained coefficient context only, not this relational identity; R77 source context; SOURCE_PROFILE_PROOF.md SP5; tests/test_physical_bridge_source_profile.py::test_rectangular_relation_keeps_both_currents and test_independent_entry_controls_are_live |
+
+## October3 R82: CS functional versus critical value (path-local)
+
+Standard CS mathematics, authored scope application, nonauthor review
+open. B1012's scalar result survives; no quantum contour or rational
+boundary-algebra attachment derived. Report:
+reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE.md.
+
+| law | hypotheses, scope and boundary | source / lock |
+|---|---|---|
+| C1--C2: zero geometric CS value does not zero its field Hessian | Smooth flat complex connection, oriented3-base, nondegenerate invariant trace, interior compact-support fluctuations. A physical contour might restrict them and is not selected. | B1012 correct scalar identity; B1226 earlier type/symmetry corrections; CS_SECTOR_SCOPE_PROOF.md C1--C2; tests/test_physical_bridge_cs_sector_scope.py::test_zero_value_stationary_background_has_nonzero_hessian |
+| C3: orientation reversal pairs field configurations | Pullback by an orientation-reversing base map, with ordinary lift/boundary qualifications. No restriction to individually fixed fields or symmetry-breaking physical vacuum inferred. | B1064 scope context, not source of general pullback identity; CS_SECTOR_SCOPE_PROOF.md C3; tests/test_physical_bridge_cs_sector_scope.py::test_orientation_pairs_nonzero_fields |
+
+C4 is a PHYSICAL DUTY, not another banked law row: a specified measure,
+contour, boundary law and normalization remain needed;3d CS and7d CS
+superpotential are different models. R60 supplies prior field variation,
+not a computed Z. See CS_SECTOR_SCOPE_PROOF.md C4 and PB-CS-DOMAIN.

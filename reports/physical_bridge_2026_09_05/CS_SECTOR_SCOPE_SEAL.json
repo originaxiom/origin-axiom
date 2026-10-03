@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "audit": "R82",
+  "science_seal": "2ca00f628e9a02affd761eb0dd9b90146bd95400",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_DESIGN.md",
+      "sha256": "92de4084fc24a3432045214633c0d99b9c2bc620f2d36507217a772e2be28f60",
+      "bytes": 6272
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_PROOF.md",
+      "sha256": "068b140d31f05d8379974139273fadf1b8ac04afb949320f1788099ef0e09720",
+      "bytes": 6644
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_INPUTS.json",
+      "sha256": "46ddbe6ce321ad305b89146bbaf8f2365e7cdf8a06418102d8b16a1909904a09",
+      "bytes": 2750
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cs_sector_scope.py",
+      "sha256": "391344adf250a980e9a419f9b4a84d30b6c696f92658e9e0fc3939d4cb6dcbae",
+      "bytes": 5924
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cs_sector_scope_control.py",
+      "sha256": "1a187f50d947db6412c322e63a5e7cfbbe847f85323d28932d88a88c7dc49d83",
+      "bytes": 2279
+    },
+    {
+      "path": "tests/test_physical_bridge_cs_sector_scope.py",
+      "sha256": "5602555435853344d625c04176135ac27a34404bc8e836c4f80d4db2d7463c6d",
+      "bytes": 2568
+    }
+  ],
+  "scope": "This six-path packet; not a full-ledger, quantum or nonauthor proof certificate"
+}

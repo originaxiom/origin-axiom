@@ -1,4 +1,22 @@
-# Verdict toward the full physical-theory goal - R81, updated 2026-10-03
+# Verdict toward the full physical-theory goal - R82, updated 2026-10-03
+
+**October3 R82: CS critical-value blindness is not deletion of the field functional.**
+B1012's scalar geometric value at CS_geom=0 remains independent of k.
+B1064's extension to no integer-level field/boundary sector is not licensed:
+an interior smooth compactly supported fluctuation has a nonzero CS
+quadratic term without changing the background's end data. Standard
+CS mathematics, not a new theorem or a derived quantum model. All24
+symbolic/195 separately coded rational predicates and18 focused tests
+(10 new/8 retained R60) pass unchanged after seal2ca00f62 was pushed
+and confirmed. B1226's earlier corrections and R60's positive boundary
+variation are credited. No rational E6 level-one attachment, physical
+contour, selected k, chirality or observable is derived. Report:
+reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE.md. Next justify the
+common action/domain and generated boundary or registering relation,
+keeping both partners' currents; compute a physical observable and
+spectrum in that same model. Full parameter-free SM/TOE remains
+ACTIVE/unachieved; nonauthor review/full-suite/main banking remain open.
+
 
 **October3 R81: compact-boundary admission is positive; physical selection remains open.**
 The actual R75 nonsplit rank-five coefficient admits a harmonic metric on
@@ -16,8 +34,9 @@ variations, then the same-model physical spectrum/anomalies. See
 reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION.md. Nonauthor
 analytic review/full-suite/main-bank acceptance remain pending.
 
-The full objective is unchanged and unachieved. Latest interface reading
-is usageLimited; explicit turn work does not guarantee automatic continuation.
+The full objective is unchanged and unachieved. The current interface
+reading is ACTIVE; earlier usageLimited readings are dated history.
+An active research objective is not a guarantee of scientific success.
 Earlier dated snapshots below are preserved as history, not current grades.
 
 October3: R80 result publication6898331f is pushed/server-confirmed.

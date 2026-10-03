@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-10-03 — R82: zero geometric CS value does not delete the field functional
+
+Seal2ca00f62 pushed/server-confirmed before unchanged24 symbolic controls,
+195 separately coded rational predicates and18 focused tests (10 new,
+8 R60). The original B1012 scalar producer also passes unchanged. Its
+critical-value k-blindness is retained; B1064's promotion to no quantized
+field/boundary sector is not justified. A smooth interior contact-form
+fluctuation has a nonzero real CS change/Hessian without end changes.
+Full nonabelian transgression, opposite orientation, pure-gauge zero and
+wrong cubic/normal controls pass. B1226/R60 prior distinctions credited.
+
+This is standard mathematics and a corrected inference, not a derived
+quantum theory, contour, k=1, rational E6 boundary algebra or physical
+chirality. Current docs qualify the old premise at its use; original
+sealed source bodies remain untouched, with a sender-audit addendum
+beside B1064. Independent review requested on the own branch. Main's
+review/parser repair and SM's B1529 design are received, not recertified.
+Governance26 PASS/four inherited failing categories, raw exit1 retained;
+no full-suite/main bank. Full SM/TOE ACTIVE/unachieved. Report
+reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE.md and first-run custody.
+
 ## 2026-10-03 — R81: compact-boundary nonsplit admission, with the boundary priced
 
 Science996762c8 pushed/server-confirmed before unchanged28 symbolic/65

@@ -1,5 +1,31 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**October3 R82: CS critical-value blindness is not deletion of the field functional.**
+B1012's scalar geometric value at CS_geom=0 remains independent of k.
+B1064's extension to no integer-level field/boundary sector is not licensed:
+an interior smooth compactly supported fluctuation has a nonzero CS
+quadratic term without changing the background's end data. Standard
+CS mathematics, not a new theorem or a derived quantum model. All24
+symbolic/195 separately coded rational predicates and18 focused tests
+(10 new/8 retained R60) pass unchanged after seal2ca00f62 was pushed
+and confirmed. B1226's earlier corrections and R60's positive boundary
+variation are credited. No rational E6 level-one attachment, physical
+contour, selected k, chirality or observable is derived. Report:
+reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE.md. Next justify the
+common action/domain and generated boundary or registering relation,
+keeping both partners' currents; compute a physical observable and
+spectrum in that same model. Full parameter-free SM/TOE remains
+ACTIVE/unachieved; nonauthor review/full-suite/main banking remain open.
+
+
+
+**Preceding positive R81, October3:** the actual nonsplit W admits a
+harmonic metric on each smooth compact truncation with supplied boundary
+data. Its zero residuals are stationary in the declared bare action;
+negative outward projector flux is retained. This does not select the
+boundary or evade the complete finite-energy theorem under its hypotheses.
+Report: reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION.md.
+
 **Current October2 R80: source profile direction tested, not physics completed.**
 For the supplied nonsplit flat coefficient and positive adjoint-source
 coupling, a boundaryless finite-energy zero-D completion needs sources
@@ -1708,7 +1734,15 @@ a mathematical fact about this one construction, not a claim, anywhere in this s
 about the physical gravity of our universe. The framing lock, `GOVERNANCE.md` §2, governs
 this section exactly as it governs every other.)*
 
-**The action (C1, B1088) has zero free dimensionless constants.** With `Λ = −1` forced
+**October3 R82 scope correction:** this historical C1 card evaluates a
+geometric saddle using the named classical dictionary. Its zero real CS
+value is not absence of the integer-level field functional or quantum
+fluctuations. B1226 already corrected the amphichirality implication.
+No quantum integration contour or rational E6 boundary theory is supplied
+by the scalar formula. See reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE.md.
+
+**The geometric critical-value card (C1, B1088) has no additional dimensionless
+coefficient in that evaluation.** With `Λ = −1` forced
 (B259) and `ℓ = 1` following from it, the object's own volume is recomputed here from
 first principles (28-digit match to the banked figure), and the Chern–Simons term is not
 merely small but **exactly zero** — proved as a theorem from the object's own

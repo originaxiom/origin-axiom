@@ -1,0 +1,1 @@
+{"frozen_science_paths":6,"local_input_pins":10,"foreign_banner_pins":1,"raw_captures":13,"native_checks":24,"separate_predicates":195,"focused_tests":18,"new_tests":10,"scope":"This packet byte/population custody only; not all ledger rows, quantum or analytic certification"}
