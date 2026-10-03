@@ -189,7 +189,9 @@ def test_v1_ids_are_cited_as_genesis_elsewhere():
     """Outside GENESIS.md and this arc, a v1.0 ID appears only in a paragraph that names GENESIS (the citation rule).
     The rule binds living text. A sealed preregistration, unchanged since its hash was ledgered, cannot be amended and is
     exempt (B1518's seal carried 'T-ROOT' in a paragraph without the word; ERROR_LEDGER, 2026-10-02). A kept verbatim copy of an
-    earlier GENESIS version (a `received/GENESIS_v*.md`, from sm:B1521 on) is GENESIS text, exempt as GENESIS.md is."""
+    earlier GENESIS version (a `received/GENESIS_v*.md`, from sm:B1521 on) is GENESIS text, exempt as GENESIS.md is. From
+    sm:B1525 on the copy's name may carry its seat (`GENESIS_v1_4_main.md`, `GENESIS_v1_3_sm.md`), since main's v1.3 and the
+    SM seat's were made in parallel and numbered the same; the regex below matched only the unsuffixed names until then."""
     skip_dirs = {".git", "node_modules", "__pycache__"}
     ledger = (ROOT / "docs" / "SEAL_LEDGER.md").read_text(encoding="utf-8")
     bad = []
@@ -197,7 +199,7 @@ def test_v1_ids_are_cited_as_genesis_elsewhere():
         rel = p.relative_to(ROOT)
         if set(rel.parts) & skip_dirs or rel == Path("GENESIS.md") or rel.parts[:2] == ("frontier", ARC.name):
             continue
-        if rel.parent.name == "received" and re.fullmatch(r"GENESIS_v\d+_\d+\.md", rel.name):
+        if rel.parent.name == "received" and re.fullmatch(r"GENESIS_v\d+_\d+(_main|_sm)?\.md", rel.name):
             continue
         if _sealed_unchanged(p, ledger):
             continue

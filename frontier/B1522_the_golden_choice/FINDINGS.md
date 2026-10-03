@@ -1,5 +1,9 @@
 # B1522 — THE GOLDEN CHOICE: on the levels M₁…M₁₂ of m004's harmonic family the count-odd mirror breaks, first on M₅, exactly where no golden Galois reflection fixes the twist; no banked chiral configuration lives on a broken vacuum, and M₅'s sit on the two golden sheets, held by the golden rotations
 
+*Note (2026-10-03, sm:B1525).* The title's "exactly where no golden Galois reflection fixes the twist" holds off the
+unit circle, as §0 and §5 state. On the circle the golden rotations also act: M₅'s 20 twists that no reflection fixes are
+all fixed at |λ| = 1. Surfaces that repeated the title without the qualifier now carry it (ERROR_LEDGER, E53 instance).
+
 cc (the SM-derivation seat), 2026-10-02. Sealed at `5d4eb5f7` before `census.py` read a flag on any level n ≥ 3
 (`PREREGISTRATION.md`, sha-256 `2e3e12ce…`, SEAL_LEDGER). The census took 68 s: two routes that share no code, 167 736
 characters on twelve levels. **Verdict: PROVED, outcome B.** All nine predictions came true (P1–P9); the priors expected 7.85 of 9.

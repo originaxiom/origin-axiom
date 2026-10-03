@@ -1,18 +1,13 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.5 · 2026-10-03 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.3 · 2026-10-02 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
-its own, each marked **[v1.2]**. v1.3 (main's B1456) is main's verification of v1.2 with its own code and its adoption,
-with the three seats' results of the same day folded in, each marked **[v1.3]**. v1.4 (main's B1458) brings the bar onto
-main and records what the own-level law is not, each marked **[v1.4]**. v1.5 (sm:B1525) takes main's head, v1.4, as
-main asked of its v1.3. The SM seat's own v1.3 (sm:B1521) was made on its branch in parallel with main's and numbered
-the same; v1.5 answers it by its line, carries what main's v1.3 and v1.4 had not, and adds the seats' results since,
-each marked **[v1.5]**. The version log (§10) lists every change; the texts as received are kept on main in the arcs
-that adopted them (`frontier/B1454_genesis_v1_verified_and_adopted/received/GENESIS_v1_0.md`,
-`frontier/B1456_genesis_v1_2_verified_and_the_seats_reconciled/received/GENESIS_v1_2.md`), and on the SM seat's branch
-main's v1.4 and the seat's v1.3 in sm:B1525's (`received/GENESIS_v1_4_main.md`, `received/GENESIS_v1_3_sm.md`).
+its own, each marked **[v1.2]**. v1.3 (sm:B1521) carries the audit lane's corrections of three old results, the deciding
+test's outcome on both benches and the owner's priorities of 2026-10-02, each marked **[v1.3]**. The version log (§10)
+lists every change; the v1.0 text as received is kept on main in B1454's arc (`received/GENESIS_v1_0.md`), and v1.2's in
+sm:B1521's (`received/GENESIS_v1_2.md`).
 
 This file states, in one place and with one numbering, what the programme assumes, what it derives, what it chooses and
 what it leaves open, from its principle down to the objects it computes on. It replaces the scattered statements of these
@@ -183,7 +178,7 @@ conjugate by L, as above, and P sends LR to RL, not to (LR)⁻¹ (sm:B1519 K3).
 |---|---|---|---|
 | SE1 | **The selection criterion: the root's first homology is torsion-free.** | POSTULATED | UNIQUENESS A5, motivated by the topology. Alternatives kept: minimal trace selects ±LR (m004 and m003); minimal volume selects m000, and among orientable states leaves the m003–m004 tie, which SE1 breaks (B197). |
 | T-ROOT | **What SE1 selects.** For a hyperbolic once-punctured-torus bundle, the torsion of H₁ has order abs(2 − tr) for orientation-preserving monodromy and abs(tr) for orientation-reversing. So H₁ is torsion-free exactly for the class of LR (trace 3: **m004**) and the class of the golden matrix LP (det −1, trace ±1: **the Gieseking manifold m000**). | DERIVED | CLAIMS C3 (the orientation-preserving half, as CLAIMS scopes it); B197; sm:B1516 C2 (every unimodular matrix with entries up to 5, each torsion-free one conjugated explicitly to LR, LP or (LP)⁻¹) and C5 (SnapPy: of 46 orientation-reversing bundles to length 6, only m000 is torsion-free). **[v1.2]** The formula is H₁ = ℤ ⊕ coker(φ − 1) (Chun, Gukov, Park and Sopenko 2019, §2.2 eq. (11)), read with det φ = ±1. |
-| SE2 | **Orientation**: of the two, take the orientable one, m004, the orientation double cover of m000 | CHOSEN | P019 A6; UNIQUENESS A3; THEOREM_LEDGER C5. Minimality points the other way: m000 has half the volume and one tetrahedron (sm:B1380; B749 F5 FRAGILE, "the parent"). The most fragile link of the chain (fork FK2). **[v1.1]** What the choice costs is computed (B1234): eight banked walls — no dimensionful quantity, CS = 0, chirality not self-supplied, the CP sign external among them — pass through amphichirality, which an orientation double cover has by construction (40 of 40 census double covers, against 6 of 200 one-cusped orientable manifolds); and the arithmetic route to E₆ does not need the squaring, since π₁(m000) has the same 48 surjections onto 2T. What dropping SE2 would break is not computed. B1003 locks the prices of all seven forks. **[v1.2]** Re-derived (sm:B1519 K4, K6): 48 surjections each for π₁(m000) and π₁(m004). The 6 of 200 are m003, m004, m135, m136, m206 and m207 — the root and its relatives — and the 40 double covers are not matched to them in cusps or size, so the comparison does not pass the third step of the bar (`docs/THE_BAR.md` (**[v1.4]** on main from B1458), comparable objects). |
+| SE2 | **Orientation**: of the two, take the orientable one, m004, the orientation double cover of m000 | CHOSEN | P019 A6; UNIQUENESS A3; THEOREM_LEDGER C5. Minimality points the other way: m000 has half the volume and one tetrahedron (sm:B1380; B749 F5 FRAGILE, "the parent"). The most fragile link of the chain (fork FK2). **[v1.1]** What the choice costs is computed (B1234): eight banked walls — no dimensionful quantity, CS = 0, chirality not self-supplied, the CP sign external among them — pass through amphichirality, which an orientation double cover has by construction (40 of 40 census double covers, against 6 of 200 one-cusped orientable manifolds); and the arithmetic route to E₆ does not need the squaring, since π₁(m000) has the same 48 surjections onto 2T. What dropping SE2 would break is not computed. B1003 locks the prices of all seven forks. **[v1.2]** Re-derived (sm:B1519 K4, K6): 48 surjections each for π₁(m000) and π₁(m004). The 6 of 200 are m003, m004, m135, m136, m206 and m207 — the root and its relatives — and the 40 double covers are not matched to them in cusps or size, so the comparison does not pass the third step of the bar (`docs/THE_BAR.md`, comparable objects). |
 
 **The root.** Given GM3, GM4, SE1 and SE2, the root is m004, the figure-eight knot complement (Thurston; Riley). In the
 audit lane's words (R57): *"In its positive two-record once-punctured-torus sector, m004 is the distinguished minimal
@@ -262,9 +257,9 @@ Where each frame has been run, by object (as of v1.0):
 
 | Object | F-FC | F-CI | F-HE | F-AP |
 |---|---|---|---|---|
-| m004 and its cyclic levels Mₙ | closed: one cusp and b₁ = 1 (sm:B1368; sm:B1385) | M₁ and M₂ carry no generation-shaped background; M₃ to M₆ carry 48, 256, 400 and 2 160, each counting ±1 (main B1432, reproducing the SM seat's level census) | computed: at the μ = −1 points a 10′ without its 5̄′ (sm:B1509); at q = 1 both halves on one background, with opposite signs (sm:B1515). **[v1.3]** These counts sit on non-split configurations. On the reductive ones, the vacua of the harmonic family, the count is zero for every q > 0 and every central twist, by proof (main B1455; independently sm:B1520). **[v1.5]** On the levels M₁…M₁₂ the count-odd mirror of those vacua breaks from M₅ on, off the unit circle exactly where no golden Galois reflection fixes the twist, and every one of the 196 firing members of levels 1–6 is fixed (sm:B1522) | m004's cusp (shape 2√−3) is not hexagonal, so sm:B1501's cones do not complete it; the apex designs are conditional (sm:B1355–sm:B1365) |
+| m004 and its cyclic levels Mₙ | closed: one cusp and b₁ = 1 (sm:B1368; sm:B1385) | M₁ and M₂ carry no generation-shaped background; M₃ to M₆ carry 48, 256, 400 and 2 160, each counting ±1 (main B1432, reproducing the SM seat's level census) | computed: at the μ = −1 points a 10′ without its 5̄′ (sm:B1509); at q = 1 both halves on one background, with opposite signs (sm:B1515) | m004's cusp (shape 2√−3) is not hexagonal, so sm:B1501's cones do not complete it; the apex designs are conditional (sm:B1355–sm:B1365) |
 | m004's commensurability class (99 census members; every finite cover) | B1186's 112: 108 closed (sm:B1369), four cusps open on one Fourier coefficient each (sm:B1370); the cover cube~3.24 counts ±2, but the count moves with the cusp cut (sm:B1386–sm:B1388) | fires on five arithmetic members: s958, v2873, t12833, t12835, o10_150701 (main B1418; sm:B1374) | never computed | hexagonal cusps (m003's, three of cube~3.24's four, 14 of m004's 87 covers of degree ≤ 10) match sm:B1501's cones conformally; a cusp point is chiral only where its locus meets another fixed set (sm:B1503) |
-| The other word states (758 to length 12; **[v1.2]** 536 manifolds) | closed (sm:B1385 T1) | 95 carry a background at their own level (main B1439; **[v1.2]** 87 of 536 manifolds, sm:B1517 C5; no criterion in the fibre torsion and the sign decides which, sm:B1518; **[v1.4]** re-derived on main by manifold and group structure: 22 (G, sign) strata each hold a firing and a silent manifold, the smallest m369 against o9_00001, both ℤ/12 and sign −, B1458), among them m369 (8) and s639 (16) (main B1434) | **[v1.5]** each is rigid rel cusp, so carries a one-parameter projective family at its hyperbolic point, and on 262 of the 536 manifolds no isometry dualises it (sm:B1523); counts never computed | never computed |
+| The other word states (758 to length 12; **[v1.2]** 536 manifolds) | closed (sm:B1385 T1) | 95 carry a background at their own level (main B1439; **[v1.2]** 87 of 536 manifolds, sm:B1517 C5; no criterion in the fibre torsion and the sign decides which, sm:B1518), among them m369 (8) and s639 (16) (main B1434) | never computed | never computed |
 | m010 (−LLR) | closed | none at its three-fold level (main B1434) | the audit lane's R40: I(W) = I(Λ²W) = +1, an anomaly-free 10 + 5̄, on a block with no harmonic background (F01) | never computed |
 | m000, the Gieseking manifold | never computed | never computed | never computed | never computed |
 
@@ -303,26 +298,11 @@ physics; any Standard-Model parameter (**0 of 19**).
   is chosen rather than derived. Over the end conditions, sm:B1509's 10′ count is 0, 1 or 2 (sm:B1392 places the count at the
   ends). sL-8's rule forbids choosing an end to rescue a count.
 - **GAP3, the source.** Chirality sits on non-split bundles, which carry no harmonic metric without a source (sm:B1378, by
-  Corlette–Donaldson; the audit lane's F01 and R41). **[v1.3]** What the source must be is on the audit lane's record,
-  read on main and not re-derived there except where said: one balance for each step of the ordered flag of the
-  non-split module, each with a definite sign — a scalar source pairs to zero with all of them, a non-central
-  direction pairs (12, 8, 4) and its negative (−12, −8, −4) (R41; the table re-derived, main B1457); the source may
-  be supported in the compact core (R76), or the balance may be paid by flux through an end (R41, R80); an added
-  source model does hold the counted configuration, at the price of infinitely many undetermined flat directions
-  (R77). **So a count needs three things together: an order of the pieces, an open end, and a source or a flux of
-  the right sign.** **[v1.5]** The audit lane's results do not prove that a one-ended state can get the third only from
-  a relation. They prove that a specified flat counted configuration needs an admitted source or end flux, or a
-  change of hypotheses. Whether a generated relation supplies it stays open (FK8, FK12), and R77's added fields do not
-  settle their genesis origin. The audit lane refined main's v1.3 wording here (its relay at `24c039c8`); the
-  refinement keeps the owner's act-and-register priority (FK12) without installing its solution. No report derives
-  the source.
-  The counts on record that wait for one: +1 and +1 on m010 (R40), a conditional three on a two-ended exterior with
-  sources between its ends (R19, R24), −3 on levels three and six for a rank-six coefficient induced from a cover
-  (R69) — each fenced by its author as not a physical count.
+  Corlette–Donaldson; the audit lane's F01 and R41).
 - **GAP4, selection and coincidence.** With hundreds of states, four frames, many levels and several end conditions, a
   Standard-Model-like feature somewhere is expected by chance. A selection rule and a null model must be fixed before a
-  match counts. **[v1.2]** The null model and the grading are fixed: `docs/THE_BAR.md` (**[v1.4]** on main from B1458) (sm:B1518), a card, the base rate
-  in a named unit, the comparable objects, selection and trials, and B614's gate p < 0.01, graded DERIVED (**[v1.5]** PASSED since sm:B1524: a rarity screen, not a derivation), REPRODUCED,
+  match counts. **[v1.2]** The null model and the grading are fixed: `docs/THE_BAR.md` (sm:B1518), a card, the base rate
+  in a named unit, the comparable objects, selection and trials, and B614's gate p < 0.01, graded DERIVED, REPRODUCED,
   FITTED or UNJUDGED. Nothing in the record clears it: the root's higher levels fire as their neighbours do (REPRODUCED),
   m369 and s639 were found by a scan (FITTED if offered as evidence), and the harmonic frame's counts are UNJUDGED. The
   selection rule (FK9) is still open.
@@ -337,12 +317,12 @@ physics; any Standard-Model parameter (**0 of 19**).
 **[v1.2]** **The gaps and the observer.** Several open items of this page are, under other names, closings in the record's
 observer line. The object supplies four incompletenesses (space, time, charge, value) and the observer supplies every
 closing — a filling slope, an arrow, a chirality (a Galois sheet), a basepoint; "measurement is the symmetry-breaking
-choice" (B717, with B716 and B723). **[v1.3]** B723's identification of that choice with a thermodynamic breaking is
-withdrawn in its own banner: complex conjugation is not in Gal(K^ab/K) (B942), the value torsor failed the same
-identification (B957), and the breaking has no order parameter at the manifold level (B849). That the apparatus was
-built does not repair those maps. **[v1.5]** What survives is the structure: a measurement as a choice of fibre functor
-with a Galois ambiguity, without either group assignment (the audit lane's AR6; sm:B1521 C4). The end condition chosen
-rather than derived (GAP2, FK10) is the space closing.
+choice" (B717, with B716 and B723). **[v1.3]** B723 is cited with the two retractions on its own banner. B942: complex
+conjugation is not in Gal(K^ab/K), so the sheet's ℤ/2 is the quotient Gal(K/ℚ), arithmetic and present at every
+temperature, not produced by a cooling. B957: the values clause too, since B700's torsor has group ℤ/2 over a quadratic
+field and CMR's is the infinite idèle class group of ℚ(√−3). What survives is the structure, a measurement as a choice of
+fibre functor with a Galois ambiguity, not either group assignment (the audit lane's AR6; sm:B1521 C4). The end
+condition chosen rather than derived (GAP2, FK10) is the space closing.
 SE2's orientable root is amphichiral by construction, and eight of the record's walls pass through that amphichirality
 (§4, B1234), among them no dimensionful quantity, CS = 0 and chirality not self-supplied: at the archimedean place the
 object fixes only what is mirror-even and dimensionless, and the mirror-odd orientation and the scale are the
@@ -367,14 +347,13 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
 | FK6 | Positivity (GM5d) | CHOSEN | a reason the physical states are the non-negative cone. **[v1.2]** One candidate is on record and not adopted: B1083 reads positivity as the arrow's home, "never a choice" |
 | FK7 | The deck: gauged or kept | OPEN | an action in which the deck acts (sm:B1506) |
 | FK8 | The join: which maps carry physical data between states | OPEN | a demonstrated physical map (action, domains, anomaly account) beyond covers; filling descent is one candidate (sm:B1508, R57) |
-| FK9 | Selection: what makes a state physical | OPEN | a rule fixed before computing, graded by `docs/THE_BAR.md` (**[v1.4]** on main from B1458) (**[v1.2]** sm:B1518; GAP4). **[v1.5]** Its null contract (sm:B1524) names the laws under which the bar's p is a probability, corrects several looks by Bonferroni, and renames the top grade PASSED: a rarity screen, necessary for WHAT_WOULD_COUNT's DERIVED and never sufficient for it, and never a physical admission. **[v1.2]** A symmetric law can have states its symmetry does not fix: main's B1455 (sealed 2026-10-02, not yet run) tests whether each vacuum of the bridge's harmonic family on m004 is fixed by a symmetry under which the count is odd; a vacuum fixed by none comes with a mirror partner of equal action. **[v1.3]** Run (main B1455, NEGATIVE, scoped to F-HE on m004's harmonic family at level one; independently sm:B1520, the same outcome with the same witnesses): every vacuum is fixed by a count-odd symmetry, the knot's inversion followed by dualising, so no vacuum of the family carries a count. The geometric mirror does not change a count at all; dualising does (main B1297, B868, B871). The family's vacua do break half the symmetries, a mirror among them, with no count attached. Silent on a sourced vacuum, on other states and on selection by a relation. **[v1.5]** Carried from the SM seat's v1.3 (sm:B1521 C1): B1297's period-2 symmetry P is the swap's class and fixes ρ_q, so B1297's tower theorem (P inverts every twist) and the family's (the inversion dualises ρ_q) rest on different symmetries. Run since on the levels (main's L242 (b); sm:B1522, PROVED, frame F-HE): the count-odd mirror breaks from M₅ off the unit circle and from M₆ on it, up to 0.91 of M₁₂'s 103 680 vacua; off the circle it breaks exactly where no golden Galois reflection fixes the twist; and every one of the 196 firing members of levels 1–6 is fixed, so the mirror breaks only where nothing chiral has been found. On the word states (sm:B1523, PROVED): every word state to length 12 carries a one-parameter projective family at its hyperbolic point; main's one-bit rule (an isometry dualises the family exactly when it inverts the fibre boundary) holds on all of them; and on 262 manifolds (482 states) no isometry dualises the family, so near the hyperbolic point B1455's symmetry argument cannot force the count to zero there (Lemma T, a local statement). Whether it is nonzero is the SM seat's sL-10 item 8, sealed first. The owner's hypothesis of 2026-10-02, "choice might be golden", was tested in these two sealed forms: on the levels, off the unit circle, a golden Galois reflection decides where the mirror breaks; on the word states, of the 14 manifolds with golden monodromy field exactly ±L⁴RL³R² and ±L⁴RLR³LR² are mirror-broken, selected by their words, not their field |
+| FK9 | Selection: what makes a state physical | OPEN | a rule fixed before computing, graded by `docs/THE_BAR.md` (**[v1.2]** sm:B1518; GAP4). **[v1.2]** A symmetric law can have states its symmetry does not fix: main's B1455 (sealed 2026-10-02) tests whether each vacuum of the bridge's harmonic family on m004 is fixed by a symmetry under which the count is odd; a vacuum fixed by none comes with a mirror partner of equal action. **[v1.3]** Run on both benches the same day by routes that share no code (main's B1455; sm:B1520): every vacuum μ ⊗ ρ_q at level one is fixed by the inversion followed by dualising, so the count is zero on the whole family and the vacuum does not select there (NEGATIVE; frame F-HE, reach single). The three lemmas are B1297's (main's B1455 addendum). The dualising symmetry is the inversion, not B1297's period-2 symmetry P: P is the swap's class and fixes ρ_q (sm:B1521 C1). B1297's tower theorem (P inverts every twist) and the family's (the inversion dualises ρ_q) therefore rest on different symmetries, and the levels stay open (main's L242 (b)). The owner's hypothesis of the same day, "choice might be golden", is registered here and tested only in forms sealed before computing |
 | FK10 | The end law | OPEN | an end condition derived from physics (sL-8) |
 | FK11 | The dictionary (I-26) | UNEARNED | a frame derived from M-theory or from the principle, with its scope proved |
-| FK12 **[v1.2]** | The observer: are its closings part of the genesis, or inputs beyond it? (THEOREM_LEDGER C18 makes them inputs; the owner's question of 2026-10-02: does the act emerge with its observer, the tracker of ab against ba?) | OPEN | for each closing, a partner that supplies it as a relation (main B1327, OPEN) or a proof that none can. Within the object the sign is settled: the object cannot sign itself (B760, NEGATIVE; B1183, B1184, PROVED), and no rule built only from its own invariants selects it canonically (B1225; its self-name is mirror-even, B1184); the trace map conserves κ = tr[a, b] and never reads it (B20, B37). A symmetric law can still land in a state it does not fix (FK9, main's B1455). The owner's framing decides whether the genesis generates the partner with the act. **[v1.3]** Three things the record adds, and one qualification. (i) There are two signs, not one: "which way" — the mirror bit c of the observer line — and "which of a pair is the particle" — the linear exchange of a module with its dual, under which a count is odd and c is absent (B868, B871; B1455). (ii) In the class-index frame a count is the *order* of the two pieces of a non-split module: the slope law gives it as one term for each order and says when the order counts (main B1438), the fibre's period-2 involution followed by dualising reverses the order (B1297), and a vacuum in the harmonic sense is a direct sum, which has no order. (iii) The audit lane's act-and-register audit gives a test for where a register is lost: a reduction keeps it exactly when both the updates and the declared outputs descend, and all future outputs define the coarsest record that suffices (its ACT_REGISTER; read on main, not re-derived). The qualification, the audit lane's: B37's "never reads" rests on a detector of a symbol's presence, which an inserted factor r − I at r = I flips without changing the dynamics; its reads-and-branches criterion is not tested by that detector. Main carries the question as the standing lead L241. **[v1.5]** Carried from the SM seat's v1.3 (sm:B1521 C2–C3): B130 shows that κ takes a continuum of values on the fixed locus, but its reading that a unit is internally fork-free rests on an elimination that cannot exclude isolated components (the audit lane's AR4), so the componentwise question is open. The owner's priority of 2026-10-02, an act of distinction together with the relation that registers it (the audit lane's `philosophy/P_ACT_AND_REGISTER_2026_10_02.md`), keeps three questions apart: whether a reduction loses data a declared later operation needs ((iii) above); whether the architecture derives a registering mechanism, an action, a state and an interaction in one theory (at the group layer the record has one: B599's pairing datum, whose evaluation A = mult_ρ − mult_ρ̄ is odd under the θ swap, B871); and the experiential question, an explicit hypothesis held under Gate 5-Q (`philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md`), never a consequence of the other two and never a claim |
+| FK12 **[v1.2]** | The observer: are its closings part of the genesis, or inputs beyond it? (THEOREM_LEDGER C18 makes them inputs; the owner's question of 2026-10-02: does the act emerge with its observer, the tracker of ab against ba?) | OPEN | for each closing, a partner that supplies it as a relation (main B1327, OPEN) or a proof that none can. Within the object the sign is settled: the object cannot sign itself (B760, NEGATIVE; B1183, B1184, PROVED), and no rule built only from its own invariants selects it canonically (B1225; its self-name is mirror-even, B1184); the trace map conserves κ = tr[a, b] and never reads it (B20, B37). **[v1.3]** That holds in B37's literal sense only: its test is for the presence of a symbol, which a vacuous rewriting on the record graph r = κ turns on without changing the dynamics, so it neither shows nor excludes a self-model (the audit lane's AR3; sm:B1521 C2). B130 shows that κ takes a continuum of values on the fixed locus, but its reading that a unit is internally fork-free rests on an elimination that cannot exclude isolated components (AR4; sm:B1521 C3); the componentwise question is open. A symmetric law can still land in a state it does not fix (FK9, main's B1455). **[v1.3]** On m004's family it does for half of the symmetries, one kind of mirror among them, and never for a count-odd one (main's B1455 §3; sm:B1520). The owner's framing decides whether the genesis generates the partner with the act. **[v1.3]** The owner's priority of 2026-10-02 (the audit lane's `philosophy/P_ACT_AND_REGISTER_2026_10_02.md`): the primitive may be an act of distinction together with the relation that registers it. Three questions stay apart: whether a reduction loses data a declared later operation needs (exactly when that operation fails to descend, the audit lane's AR1 and AR2); whether the architecture derives a registering mechanism (an action, a state and an interaction, in one theory; at the group layer the record has one, a chirality-registering measurement as B599's pairing datum, whose evaluation A = mult_ρ − mult_ρ̄ is odd under the θ swap, B871); and the experiential question, an explicit hypothesis held under Gate 5-Q (`philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md`), never a consequence of the other two and never a claim. The measurer has one exact referent on the record: the count "is blind to every symmetry of the space, mirrors included, and sees only which of a module and its dual is read as the particle" (main's B1455 §5), and the same two pieces stacked in the two orders count −1 and +1 and side by side 0 (main's L241, exploratory; in the class-index frame B1438's slope law, main's B1455 addendum). A vacuum, being a direct sum, forgets the order |
 
 **Computed nowhere yet** (the frontier, not a list of failures):
-- the harmonic frame's counts on any state outside m004's levels (**[v1.5]** its projective family exists on every word
-  state to length 12, sm:B1523);
+- the harmonic frame on any state outside m004's levels;
 - the class-index frame on m369 or s639 built from their own arithmetic (main's L229 (iii));
 - the Gieseking manifold m000 in any frame;
 - fillings and non-cyclic covers of word states other than m004 and m003;
@@ -382,9 +361,8 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
   of the 25 enumerated paths 1 is dead, 3 are stalled, 3 are in progress and 18 are untouched; E21, a stalled
   instantiation of a listed mechanism, is the registry's 26th row);
 - **[v1.1]** F-MC on any state other than the root;
-- **[v1.5]** the class index on the projective family of a mirror-broken word state, first ±LLRLRR and ±L³RLR² (the SM
-  seat's sL-10 item 8);
-- **[v1.5]** the fixed loci of the metallic trace maps component by component (B130's question with isolated components
+- **[v1.3]** the deciding test (FK9) on any level of m004 or on any other state (main's L242 (b));
+- **[v1.3]** the fixed loci of the metallic trace maps component by component (B130's question with isolated components
   allowed; the audit lane's AR4).
 
 ---
@@ -424,10 +402,10 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
 | **[v1.1]** "the six axioms A1–A6 and one bit A7" plus five typed external data | `docs/THE_CLAIM.md` §1 | the records route (§4) and F-MC's hypotheses (§5) |
 | **[v1.1]** C18, the observer's closings | THEOREM_LEDGER | not part of the genesis: an input of F-MC (§5). **[v1.2]** The record's observer line runs from B716–B723 through B759–B762, B1168, B1169, B1183 and B1184 to main's B1327; whether the closings belong to the genesis is FK12 |
 | **[v1.2]** signed powers −uᵏ, k even; the triple (u, k, ε) | R78; sm:B1385 §2 S4 | §3 |
-| **[v1.5]** "the trace map never reads κ" | B20, B37 | FK12, in B37's literal sense only (the audit lane's AR3) |
-| **[v1.5]** "no forced choice in the trace ring": a unit internally fork-free; the seeds' fields ℚ(√(m²+4)) called distinct | B130; `docs/OPEN_PROBLEMS.md` gate A | FK12: κ takes a continuum on the fixed locus, but the fork-free reading rests on an elimination that cannot exclude isolated components (AR4). m = 1, 4 and 11 share ℚ(√5); the seeds stay non-conjugate by their traces (AR5) |
-| **[v1.5]** "the observer is built" at the β = 1 transition | B723 | §7, with the B942 and B957 retractions: the structure kept, both group assignments retracted |
-| **[v1.5]** the three lines L1–L3 of the selection rule | main's B1455 §1 | B1297's properties of the class index (main's B1455 addendum); FK9 |
+| **[v1.3]** "the trace map never reads κ" | B20, B37 | FK12, in B37's literal sense only (AR3) |
+| **[v1.3]** "no forced choice in the trace ring": a unit internally fork-free; the seeds' fields ℚ(√(m²+4)) called distinct | B130; `docs/OPEN_PROBLEMS.md` gate A | FK12: κ takes a continuum on the fixed locus, but the fork-free reading rests on an elimination that cannot exclude isolated components (AR4). m = 1, 4 and 11 share ℚ(√5); the seeds stay non-conjugate by their traces (AR5) |
+| **[v1.3]** "the observer is built" at the β = 1 transition | B723 | §7, with the B942 and B957 retractions: the structure kept, both group assignments retracted |
+| **[v1.3]** the three lines L1–L3 of the selection rule | main's B1455 §1 | B1297's properties of the class index (main's B1455 addendum); FK9 |
 
 ---
 
@@ -479,35 +457,14 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
     B1183, B1184) and main's B1327. §8: FK3 (B1327's relation, sm:B1519 K7), FK6 and FK9 (main's B1455) carry their
     records, and FK12, the observer, is registered. §9: two rows.
   - No status changes. FK1 and FK12 are the owner's to frame.
-- **v1.3 · 2026-10-02 · main B1456.** v1.2 verified on main and adopted.
-  - Verification with main's own code (B1456): the reversal identity on all 8 190 words to length twelve; 758 states
-    are 536 classes under rotation, swap and reversal, and SnapPy's isometry signatures give that partition; main's
-    own census read by manifold is 87 of 536 with no pair split; −(LR)² is m207 with H₁ = ℤ ⊕ ℤ/3 ⊕ ℤ/3, and a signed
-    even power is the level of no state; the eight isometries of m004 act on the cusp by the four sign pairs, twice
-    each.
-  - Added (marked [v1.3]): the deciding test's result at FK9 and in §5 (main B1455, sm:B1520); what a source must be
-    and what a count needs, at GAP3 (the audit lane's R41, R76, R77, R80, R40, R69; main B1457); the corrections that
-    B723 carries, in the observer line; at FK12 the two signs, the count as an order (B1438, B1297), the audit
-    lane's criterion for a lost register and its qualification of B37.
-  - Named, not changed: THE_BAR is a page of the SM seat's branch and is not yet on main.
-- **v1.4 · 2026-10-03 · main B1458.** The bar adopted on main for the class-index frame (`docs/THE_BAR.md`, from sm:B1518,
-  its census claim re-derived by manifold and group structure); §5 and FK9 now point to it on main. No status changes.
-  - Unchanged and still the owner's: FK1 and FK12.
-- **v1.5 · 2026-10-03 · sm:B1525.** Main's head, v1.4, taken as the head, as main asked of its v1.3 (its relay of
-  2026-10-02, §5: "Take v1.3 as the head, or answer a change by its line"). The SM seat's own v1.3 (sm:B1521), made in
-  parallel and numbered the same, answered by its line (sm:B1525 §2). Each carried or added item was checked with the SM
-  seat's own code first (sm:B1525 C1–C6).
-  - Already in main's v1.3, in main's words: the deciding test's run at FK9 and in §5; the B723 corrections; B37's
-    literal reading; the count as an order, with B1297 and B1438.
-  - Carried (marked [v1.5]): at FK9, that B1297's P is the swap's class and fixes ρ_q; at FK12, B130's scope (AR4) and
-    the owner's three questions kept apart, the experiential one under Gate 5-Q; in §7, what of B723 survives (AR6); in
-    §8's frontier, B130 component by component; in §9, four rows.
-  - Not carried: the SM seat's quotation of main's B1455 §5 at FK12. Main's (i) and (ii), with L241, carry its content,
-    and the quotation brought a word of Gate 5-Q's Q5 outside the governed rooms.
-  - Added since: at FK9 and in §5, the levels (sm:B1522) and the word states (sm:B1523), and the owner's "choice might
-    be golden" in their two sealed forms; at FK9 and GAP4, the bar's null contract (sm:B1524); at GAP3, the audit
-    lane's refinement of "only from a relation"; in §8's frontier, the class index on a mirror-broken family (sL-10
-    item 8).
-  - Left to main: its B1459 (the zeros at B1451's 188 complete points made a theorem, run at `77714caf` after v1.4), for
-    main's next version in its own words.
+- **v1.3 · 2026-10-02 · sm:B1521.** The audit lane's relay of `1e3d17b9` answered, and the deciding test's outcome carried;
+  each item checked with the SM seat's own code first (sm:B1521 C1–C4).
+  - §7: B723 cited with the B942 and B957 retractions on its banner (AR6).
+  - §8: FK9 carries the run of main's B1455 and sm:B1520 (NEGATIVE at level one, reach single), the lemmas credited to
+    B1297, and the correction that the dualising symmetry is the inversion, not B1297's P, which is the swap's class and
+    fixes ρ_q; the levels stay open (main's L242 (b)). The owner's hypothesis "choice might be golden" is registered at
+    FK9, untested. FK12: the never-reads sentence scoped to B37's literal test (AR3); B130's fork-free reading scoped (AR4); the
+    owner's act-and-register priority with its three questions kept apart, the experiential one under Gate 5-Q; the
+    measurer's exact referent (main's B1455 §5 and L241, with B1438).
+  - §8's frontier list: two items. §9: four rows (AR5's field label among them).
   - No status changes. FK1 and FK12 stay the owner's to frame.

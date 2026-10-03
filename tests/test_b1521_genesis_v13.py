@@ -155,16 +155,21 @@ def test_c2_c4_live():
 
 
 # ------------------------------------------------------------------------------------------------- GENESIS v1.3
+# Since v1.5 (sm:B1525, 2026-10-03) GENESIS.md is main's v1.4 plus marked [v1.5] changes. v1.3's text is kept byte-identical
+# in B1525's arc as received (`received/GENESIS_v1_3_sm.md`), and it is checked there; B1525's lock checks GENESIS.md.
+V13_KEPT = ROOT / "frontier" / "B1525_genesis_v15" / "received" / "GENESIS_v1_3_sm.md"
+
+
 def test_genesis_v13_is_the_generator_output(tmp_path):
     out = tmp_path / "G.md"
     r = subprocess.run([sys.executable, str(VER / "merge_genesis_v13.py"), str(ARC / "received" / "GENESIS_v1_2.md"), str(out)],
                        capture_output=True, text=True, timeout=120)
     assert r.returncode == 0, r.stderr
-    assert out.read_bytes() == (ROOT / "GENESIS.md").read_bytes()
+    assert out.read_bytes() == V13_KEPT.read_bytes()
 
 
 def test_genesis_v13_text():
-    raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    raw = V13_KEPT.read_text(encoding="utf-8")
     v12 = (ARC / "received" / "GENESIS_v1_2.md").read_text(encoding="utf-8")
     g = " ".join(raw.split())
     assert raw.startswith("# GENESIS — the foundations of origin-axiom")
@@ -203,7 +208,9 @@ def test_genesis_v13_text():
         assert row in raw, row
     fk12 = next(l for l in raw.splitlines() if l.startswith("| FK12 "))
     assert "| OPEN |" in fk12
-    # firewall: the experiential vocabulary stays in the governed rooms (Gate 5-Q, Q5); no private or vendor word
+    # firewall: the experiential vocabulary stays in the governed rooms (Gate 5-Q, Q5); no private or vendor word.
+    # (sm:B1525: this check tested two of Q5's three words, so v1.3's FK12 quotation carried "sees" past it; v1.5 drops the
+    # quotation and B1525's lock tests all three. ERROR_LEDGER, main's E84 class, 2026-10-03.)
     low = raw.lower()
     for w in ("qualia", "conscious", PRIVATE):
         assert w not in low, w

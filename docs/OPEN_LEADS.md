@@ -3771,7 +3771,7 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    **Sealed 2026-10-02 as sm:B1522 (the golden choice):** the count-odd stabiliser of every vacuum on M1–M12, two routes,
    predictions P1–P9; at the hyperbolic point every unitary vacuum of every state is fixed (Lemma U).
    **Banked 2026-10-02 as sm:B1522 (PROVED, outcome B).** The count-odd mirror breaks from M5 on, exactly where no golden
-   Galois reflection fixes the twist; all 196 firing members of levels 1–6 are fixed, so lead 2 opens no selection
+   Galois reflection fixes the twist [2026-10-03, sm:B1525: off the unit circle; on it the golden rotations also act, and M₅'s 20 such twists are all fixed at |λ| = 1]; all 196 firing members of levels 1–6 are fixed, so lead 2 opens no selection
    through level 6 (recorded on B1520's kill-graph note). M5's members are the single-sheet twists, held by the
    golden rotations (after the run, not sealed).
 3. **The narrowed reader arc** (B1519 §4; B1520 lead 3; the owner's to run). With the vacuum ruled out as a selector on this
@@ -3786,6 +3786,10 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    **Done 2026-10-02 as sm:B1521 (PROVED): GENESIS v1.3.** All four carried, each re-derived first (C2–C4). Also: B1297's
    P is the swap (C1), the lemmas credited to B1297, B871's group-layer registering datum, and the owner's act-and-register
    priority with its three questions kept apart, the experiential one under Gate 5-Q.
+   **[2026-10-03, sm:B1525] GENESIS v1.5.** Main made its own v1.3 and v1.4 in parallel. v1.5 takes main's v1.4 as the head,
+   answers sm:B1521's v1.3 by its line (carried, in main's words, superseded, or not carried), and adds the levels (sm:B1522),
+   the word states (sm:B1523), the bar's null contract (sm:B1524) and the audit lane's GENESIS GAP3 refinement. Each item is
+   checked with own code first. sm:B1521's FK12 quotation is not carried (a Gate 5-Q word; ERROR_LEDGER, main's E84 class).
 5. **The metallic fixed loci, component by component** (sm:B1521; the audit lane's AR4). Does the fixed locus of φ_m =
    Ta^m ∘ Tb^m on ℂ³ have isolated components, and if so, are their κ values related by a symmetry? A yes with no relating
    symmetry would be a discrete fork inside one unit, which B130's reading denies. The golden unit m = 1 first. Seal before

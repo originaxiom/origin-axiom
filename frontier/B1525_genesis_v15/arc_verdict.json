@@ -1,0 +1,133 @@
+{
+ "id": "B1525",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1521",
+  "B1522",
+  "B1523",
+  "B1524",
+  "B1458",
+  "B1456",
+  "B1455",
+  "B1520",
+  "B1516",
+  "B1519"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none",
+  "object": "GENESIS: main's v1.4 (B1458) taken as the head, the SM seat's parallel v1.3 (sm:B1521) answered by its line, and v1.5 made from them with the levels (sm:B1522), the word states (sm:B1523), the bar's null contract (sm:B1524) and the audit lane's GAP3 refinement (24c039c8); each item checked against its record or re-derived",
+  "reach": "general",
+  "hypotheses": [
+   "the received texts are byte-identical to their sources: main's GENESIS.md at 77714caf (blob fb43bc77), this branch's GENESIS.md before the arc (blob 8b2b57f6), the audit lane's relay at 24c039c8 (blob a5b4ecaf)",
+   "C2 counts the levels from the definitions, with the count-odd maps the lifts of determinant -1 on the fibre (the one-bit rule on m004, main's B1455 and sm:B1520); it checks B1522's counting, not Lemma C's derivation, which B1522's X2 checked without the criterion on M1 to M6",
+   "the records of sm:B1521 to sm:B1524 as banked; nothing about a frame, a state or a census outcome is newly computed",
+   "GENESIS records questions and the owner's priorities; the experiential question is held under Gate 5-Q and nothing about experience is claimed"
+  ]
+ },
+ "claim_one_line": "GENESIS v1.5 (not sealed: every item checks a claim the record already fixes): main's v1.4 taken as the head, as main asked of its v1.3, and the SM seat's parallel v1.3 answered by its line -- what main had not made is carried, marked (P is the swap's class and fixes rho_q; B130's scope; what of B723 survives; the act-and-register questions kept apart, the experiential one under Gate 5-Q; four crosswalk rows), and one quotation is not carried because it took a Gate 5-Q word outside the governed rooms (a slip of sm:B1521, main's E84 class, self-caught). Added, each checked with own code first: on m004's levels the count-odd mirror breaks from M5 on, off the unit circle exactly where no golden Galois reflection fixes the twist, recounted by a third route equal to B1522's record on all 26 counts; every word state to length 12 carries a projective family, the one-bit rule holds on all, and on 262 manifolds no isometry dualises it; the bar's top grade is PASSED under its null contract; GAP3 says what the audit lane's results prove. Main's B1459 left to main. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "6243a975",
+    "origin/main": "77714caf",
+    "origin/audit/physical-bridge-2026-09-05": "24c039c8",
+    "origin/art/camper-van-bar": "b3745696",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/sep16-branch": "3205984b",
+    "origin/seat/standard-model-derivation-0qt6ao": "6243a975"
+   },
+   "terms": [
+    "GENESIS v1.5",
+    "Version 1.5",
+    "only from a relation",
+    "admitted source",
+    "null contract",
+    "golden Galois reflection",
+    "one-bit rule",
+    "mirror-broken",
+    "Gate 5-Q",
+    "governed rooms"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@77714caf:GENESIS.md (= received/GENESIS_v1_4_main.md)",
+     "bearing": "the head taken; no head has a v1.5"
+    },
+    {
+     "where": "origin/main@77714caf:docs/handoffs/CC_TO_SM_2026-10-02_GENESIS_V1_3_AND_YOUR_FOUR_ARCS.md section 5",
+     "bearing": "the ask: take main's v1.3 as the head, or answer a change by its line; main's v1.4 (B1458) is its successor"
+    },
+    {
+     "where": "origin/main@77714caf:frontier/B1456_genesis_v1_2_verified_and_the_seats_reconciled/adoption/amend.py and docs/handoffs/CC_TO_CODEX_2026-10-02_YOUR_LANE_HARVESTED_R32_TO_R80.md",
+     "bearing": "where GAP3's 'a one-ended state can get the third only from a relation' entered (main's v1.3), and main's invitation to the audit lane to correct it"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@24c039c8:reports/physical_bridge_2026_09_05/BRANCH_SYNC_2026_10_03.md ('Two claims that are not yet adopted') and relays/CODEX_TO_CC_AND_SM_2026-10-03_HARVEST_REPLY_AND_ADMISSION_SCOPE.md",
+     "bearing": "the refinement adopted at GAP3 (C5), and the bar's null contract answered by sm:B1524"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao:GENESIS.md before this arc (= received/GENESIS_v1_3_sm.md) and frontier/B1521_genesis_v13",
+     "bearing": "the SM seat's v1.3, answered by its line (FINDINGS section 2); its two checks re-run byte-identical (C1); its FK12 quotation carried a Gate 5-Q word (section 4)"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao:frontier/B1522_the_golden_choice, B1523_the_flexible_states, B1524_the_bars_null_contract (verification records)",
+     "bearing": "the results v1.5 adds, each checked against its record and, for B1522 and B1523, re-derived by own code (C2, C3)"
+    },
+    {
+     "where": "origin/main@77714caf:frontier/B1459 (sealed at 70ca9c92, run at 77714caf)",
+     "bearing": "run after v1.4 and not re-derived on this bench: left to main's next GENESIS version"
+    },
+    {
+     "where": "origin/main@77714caf:docs/ERROR_LEDGER.md class E84 (the CITED-ABSENT CHECK) and philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md Q1 and Q5",
+     "bearing": "the class of sm:B1521's firewall check, which named Q5 and tested one of its three words; the rule v1.5 now keeps"
+    },
+    {
+     "where": "origin/art/camper-van-bar@b3745696",
+     "bearing": "an illustration (art/camper-bar.png, .svg) on main's 70ca9c92; nothing of GENESIS"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "none new: the sources behind v1.5's added sentences were read for sm:B1522 to sm:B1524"
+   ],
+   "sources": [
+    {
+     "cite": "S. A. Ballas, Finite volume properly convex deformations of the figure-eight knot, arXiv:1403.3314v3",
+     "where": "p. 17 (the family and its presentation)",
+     "read": "2026-10-02",
+     "says": "the family rho_q on the figure-eight knot group, read for sm:B1520 and sm:B1522"
+    },
+    {
+     "cite": "S. Ballas, J. Danciger, G.-S. Lee, Convex projective structures on non-hyperbolic three-manifolds, Geom. Topol. 22 (2018), arXiv:1508.04794",
+     "where": "Thm 3.2",
+     "read": "2026-10-02",
+     "says": "rigid rel boundary gives a smooth point and a family of cusp-opening convex projective structures; read for sm:B1523"
+    },
+    {
+     "cite": "M. Heusener and J. Porti, Infinitesimal projective rigidity under Dehn filling, Geom. Topol. 15 (2011), arXiv:0908.2863",
+     "where": "Cor. 5.4; Lemma 8.2",
+     "read": "2026-10-03",
+     "says": "as recorded for sm:B1523: rigid rel cusp iff dim H^1(M; v) = number of cusps; restriction to two slopes injective unless they meet at pi/3; rigid slopes; tunnel-number-one bundles rigid but finitely many; the figure-eight's longitude is a rigid slope; its amphicheiral map acts by +1 on the longitude's restriction and -1 on the meridian's"
+    },
+    {
+     "cite": "Z. Sidak, Rectangular confidence regions for the means of multivariate normal distributions, JASA 62 (1967) 626-633",
+     "where": "Theorem 1, Corollary 1, section 3",
+     "read": "2026-10-03",
+     "says": "the dependence law Sidak's correction needs; read for sm:B1524"
+    }
+   ]
+  },
+  "standing": "RE-DERIVED"
+ }
+}

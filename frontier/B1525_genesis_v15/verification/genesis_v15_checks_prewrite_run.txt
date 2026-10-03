@@ -1,0 +1,336 @@
+{
+ "C1 sm:B1521's checks re-run": {
+  "which_class_is_P.json byte-identical to the record": true,
+  "audit_corrections.json byte-identical to the record": true,
+  "P is the swap's class (conjugator found) and +1 on H1": true,
+  "rho_q o P = rho_q and not rho_q^* at q = 2, 3, 1/5, 7/3": true,
+  "AR3: B37's and B20's predicates flip under a vacuous rewriting": true,
+  "AR4: an isolated component the elimination cannot see; B130's m = 2 ideal zero": true,
+  "AR5: m = 1, 4, 11 share Q(sqrt 5)": true,
+  "AR6: conjugation moves sqrt(-3); B723's banner carries B942 and B957": true,
+  "passed": true
+ },
+ "C2 the levels (sm:B1522), a third route": {
+  "levels (third route)": {
+   "1": {
+    "|T_n|": 1,
+    "unfixed off the circle": 0,
+    "unfixed on it": 0,
+    "L_2n - 2": 1,
+    "the record agrees": true
+   },
+   "2": {
+    "|T_n|": 5,
+    "unfixed off the circle": 0,
+    "unfixed on it": 0,
+    "L_2n - 2": 5,
+    "the record agrees": true
+   },
+   "3": {
+    "|T_n|": 16,
+    "unfixed off the circle": 0,
+    "unfixed on it": 0,
+    "L_2n - 2": 16,
+    "the record agrees": true
+   },
+   "4": {
+    "|T_n|": 45,
+    "unfixed off the circle": 0,
+    "unfixed on it": 0,
+    "L_2n - 2": 45,
+    "the record agrees": true
+   },
+   "5": {
+    "|T_n|": 121,
+    "unfixed off the circle": 20,
+    "unfixed on it": 0,
+    "L_2n - 2": 121,
+    "the record agrees": true
+   },
+   "6": {
+    "|T_n|": 320,
+    "unfixed off the circle": 96,
+    "unfixed on it": 96,
+    "L_2n - 2": 320,
+    "the record agrees": true
+   },
+   "7": {
+    "|T_n|": 841,
+    "unfixed off the circle": 448,
+    "unfixed on it": 392,
+    "L_2n - 2": 841,
+    "the record agrees": true
+   },
+   "8": {
+    "|T_n|": 2205,
+    "unfixed off the circle": 1344,
+    "unfixed on it": 1344,
+    "L_2n - 2": 2205,
+    "the record agrees": true
+   },
+   "9": {
+    "|T_n|": 5776,
+    "unfixed off the circle": 4464,
+    "unfixed on it": 4320,
+    "L_2n - 2": 5776,
+    "the record agrees": true
+   },
+   "10": {
+    "|T_n|": 15125,
+    "unfixed off the circle": 12100,
+    "unfixed on it": 12080,
+    "L_2n - 2": 15125,
+    "the record agrees": true
+   },
+   "11": {
+    "|T_n|": 39601,
+    "unfixed off the circle": 35244,
+    "unfixed on it": 34848,
+    "L_2n - 2": 39601,
+    "the record agrees": true
+   },
+   "12": {
+    "|T_n|": 103680,
+    "unfixed off the circle": 93936,
+    "unfixed on it": 93936,
+    "L_2n - 2": 103680,
+    "the record agrees": true
+   },
+   "13": {
+    "|T_n|": 271441,
+    "unfixed off the circle": 257920,
+    "unfixed on it": 256880,
+    "L_2n - 2": 271441,
+    "the record agrees": true
+   }
+  },
+  "all 26 counts agree with the records, and |T_n| = L_2n - 2": true,
+  "Lemma F closed forms": {
+   "5": {
+    "p = L_n": 11,
+    "(p-1)(p+1-2n)": 20,
+    "(p-1)(p-1-2n)": 0,
+    "match": true
+   },
+   "7": {
+    "p = L_n": 29,
+    "(p-1)(p+1-2n)": 448,
+    "(p-1)(p-1-2n)": 392,
+    "match": true
+   },
+   "11": {
+    "p = L_n": 199,
+    "(p-1)(p+1-2n)": 35244,
+    "(p-1)(p-1-2n)": 34848,
+    "match": true
+   },
+   "13": {
+    "p = L_n": 521,
+    "(p-1)(p+1-2n)": 257920,
+    "(p-1)(p-1-2n)": 256880,
+    "match": true
+   }
+  },
+  "shares off the circle, M5..M12": {
+   "5": 0.17,
+   "6": 0.3,
+   "7": 0.53,
+   "8": 0.61,
+   "9": 0.77,
+   "10": 0.8,
+   "11": 0.89,
+   "12": 0.91
+  },
+  "breaks first: off the circle, on it": [
+   5,
+   6
+  ],
+  "M12: unfixed off the circle of all": [
+   93936,
+   103680
+  ],
+  "the 196 firing members fixed (P8 and X3, from the records)": true,
+  "the sealed golden form holds (record)": true,
+  "post-run checks X1-X4 passed (record)": true,
+  "nine of nine held (record)": true,
+  "passed": true
+ },
+ "C3 the word states (sm:B1523), own word code": {
+  "states, manifolds": [
+   758,
+   536
+  ],
+  "the record lists every manifold": true,
+  "kinds from the words agree with the record on all 536": true,
+  "one-bit rule: eps = -1 exactly when the fibre boundary is inverted, every isometry of the record": true,
+  "mirror-broken exactly when the word has neither rev nor swap": true,
+  "states per manifold agree": true,
+  "mirror-broken manifolds, per sign, states": [
+   262,
+   {
+    "+": 131,
+    "-": 131
+   },
+   482
+  ],
+  "by kind": {
+   "swaprev only": 42,
+   "none": 220
+  },
+  "by length": {
+   "6": 2,
+   "7": 2,
+   "8": 8,
+   "9": 14,
+   "10": 36,
+   "11": 62,
+   "12": 138
+  },
+  "first mirror-broken": [
+   "+LLRLRR",
+   "-LLRLRR"
+  ],
+  "first chiral": [
+   "+LLLRLRR",
+   "-LLLRLRR"
+  ],
+  "golden manifolds": 14,
+  "golden mirror-broken": [
+   "+LLLLRLLLRR",
+   "+LLLLRLRRRLRR",
+   "-LLLLRLLLRR",
+   "-LLLLRLRRRLRR"
+  ],
+  "with a dualising isometry": 274,
+  "rigid; fibre boundary rigid (record)": [
+   536,
+   536
+  ],
+  "passed": true
+ },
+ "C4 the bar's null contract (sm:B1524)": {
+  "record: all checks pass": true,
+  "THE_BAR carries": {
+   "## The null contract (B1524, 2026-10-03)": true,
+   "| **PASSED** |": true,
+   "Then Bonferroni over every look": true,
+   "PASSED is a rarity grade": true,
+   "So PASSED is necessary for DERIVED and never sufficient": true,
+   "never sufficient for it, never a physical admission": true
+  },
+  "THE_BAR no longer grades DERIVED or corrects by Sidak": true,
+  "passed": true
+ },
+ "C5 the audit lane's GAP3 refinement": {
+  "received copy sha-256": true,
+  "byte-identical to the audit lane's blob at 24c039c8": true,
+  "the relay says": {
+   "Please refine main GENESIS GAP3: our results do not prove 'a one-ended state can get the third only from a relation'.": true,
+   "They prove a specified flat counted configuration needs an admitted source/end flux or a change of hypotheses.": true,
+   "Whether a generated relation supplies it is still FK8/ FK12.": true,
+   "R77's added fields do not settle their genesis origin.": true,
+   "This retains the owner's act-with-register priority without installing its solution.": true
+  },
+  "v1.5's GAP3 says": {
+   "The audit lane's results do not prove that a one-ended state can get the third only from a relation.": true,
+   "They prove that a specified flat counted configuration needs an admitted source or end flux, or a change of hypotheses.": true,
+   "Whether a generated relation supplies it stays open (FK8, FK12), and R77's added fields do not settle their genesis origin.": true,
+   "The audit lane refined main's v1.3 wording here (its relay at `24c039c8`); the refinement keeps the owner's act-and-register priority (FK12) without installing its solution.": true
+  },
+  "v1.5 no longer asserts it": true,
+  "passed": true
+ },
+ "C6 v1.5 against main's v1.4": {
+  "received sha-256": {
+   "GENESIS_v1_4_main.md": true,
+   "GENESIS_v1_3_sm.md": true
+  },
+  "sha-256 of the generated v1.5": "3e3b3d7bcfdf2eac3155419a45fd8a32f07c1e79588f74fa4e2a16082ca1b6f3",
+  "GENESIS.md is the generated v1.5": false,
+  "main's words deleted or re-punctuated": [
+   "1.4",
+   "`frontier/B1456_genesis_v1_2_verified_and_the_seats_reconciled/received/GENESIS_v1_2.md`).",
+   "sm:B1520)",
+   "sign. A",
+   "relation** (FK8).",
+   "DERIVED,",
+   "relation",
+   "L241",
+   "frame",
+   "levels;",
+   "root."
+  ],
+  "exactly the listed edits": true,
+  "changed blocks without a mark": [],
+  "earlier marks unchanged": {
+   "**[v1.1]**": [
+    15,
+    15
+   ],
+   "**[v1.2]**": [
+    22,
+    22
+   ],
+   "**[v1.3]**": [
+    6,
+    6
+   ],
+   "**[v1.4]**": [
+    5,
+    5
+   ]
+  },
+  "[v1.5] marks": 16,
+  "sections in order": true,
+  "malformed table rows": [],
+  "v1.4 rows changed (leading cells kept, marked)": [
+   {
+    "row": "m004 and its cyclic levels Mₙ",
+    "kept leading cells": true,
+    "marked": true
+   },
+   {
+    "row": "The other word states (758 to length 12;",
+    "kept leading cells": true,
+    "marked": true
+   },
+   {
+    "row": "FK9",
+    "kept leading cells": true,
+    "marked": true
+   },
+   {
+    "row": "FK12 **[v1.2]**",
+    "kept leading cells": true,
+    "marked": true
+   }
+  ],
+  "rows new in v1.5": [
+   "**[v1.5]** \"the trace map never reads κ\"",
+   "**[v1.5]** \"no forced choice in the trace ring\": a",
+   "**[v1.5]** \"the observer is built\" at the β = 1 tr",
+   "**[v1.5]** the three lines L1–L3 of the selection "
+  ],
+  "fork statuses unchanged": true,
+  "Q5's words found, by place in its list: v1.5, v1.4, the SM seat's v1.3": [
+   [],
+   [],
+   [
+    3
+   ]
+  ],
+  "vendor words or the private term in v1.5": [],
+  "passed": true
+ },
+ "checks": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true,
+  "C6": true
+ },
+ "GENESIS.md is the generated v1.5": false,
+ "seconds": 15.0
+}
+ALL CHECKS PASS {'C1': True, 'C2': True, 'C3': True, 'C4': True, 'C5': True, 'C6': True} | GENESIS.md is the generated v1.5: False

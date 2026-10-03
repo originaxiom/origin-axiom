@@ -64,6 +64,10 @@ EXEMPT_TARGETS = frozenset({
     # The audit lane's owner-intent note (audit/physical-bridge-2026-09-05 @ 7b088f50), cited by GENESIS v1.3 FK12 (sm:B1521) and
     # its relays; harvested by citation, not copied. It resolves on that lane.
     "philosophy/P_ACT_AND_REGISTER_2026_10_02.md",
+    # Main's kept GENESIS texts (main @ 77714caf), named in main's GENESIS v1.4 header, which is the head of GENESIS v1.5
+    # (sm:B1525) and is kept verbatim. This branch cites them and does not copy them; on main they resolve.
+    "frontier/B1454_genesis_v1_verified_and_adopted/received/GENESIS_v1_0.md",
+    "frontier/B1456_genesis_v1_2_verified_and_the_seats_reconciled/received/GENESIS_v1_2.md",
 })
 
 

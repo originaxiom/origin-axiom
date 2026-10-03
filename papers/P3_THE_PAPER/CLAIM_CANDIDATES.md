@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1171 settled arcs — 71%** —
+the field is **absent on 828 of 1172 settled arcs — 71%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (95) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 605 arcs.**
+**POOL = declared-law (95) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 606 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -220,7 +220,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1503` | PROVED | S | | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma … |
 | `B1512` | PROVED | S | | THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). … |
 
-## §6 the observer — one bit, priced (178)
+## §6 the observer — one bit, priced (179)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -402,6 +402,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1513` | NEGATIVE | S | | THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s9… |
 | `B1515` | PROVED | S | | THE HYPERBOLIC POINT, run as sealed (b36f6d8e; the owner's 'go' after B1514) by two routes that share no code and agree on all 3048 keys, every dimension and index, zero … |
 | `B1516` | PROVED | S | | GENESIS v1: the foundations stated once (GENESIS.md v1.0, canonical, versioned), with IDs unused anywhere else in the repository (PF, GM, SE, T-ROOT, F-xx, FK, GAP). The … |
+| `B1525` | PROVED | S | | GENESIS v1.5 (not sealed: every item checks a claim the record already fixes): main's v1.4 taken as the head, as main asked of its v1.3, and the SM seat's parallel v1.3 a… |
 
 ## §2 the object — arithmetic and geometry (58)
 

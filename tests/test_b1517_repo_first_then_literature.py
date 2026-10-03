@@ -144,10 +144,11 @@ def test_live_snappy_partition_and_orientation():
 def test_genesis_v11():
     """B1517's statements, carried into the joint page from v1.2 (sm:B1519 took main's v1.1 as the head and folded B1517 in,
     marked [v1.2], with the SM seat's arc numbers written sm:). The version line is pinned by form; B1517's own entry in the
-    version log names it as the v1.1 made on the SM seat's branch."""
+    version log names it as the v1.1 made on the SM seat's branch. (sm:B1525, 2026-10-03: the form's date was pinned to
+    2026-10-02; main's v1.4 and v1.5 are dated 2026-10-03, so any date is accepted.)"""
     raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
     g = " ".join(raw.split())
-    m = re.search(r"^\*\*Version 1\.(\d+) · 2026-10-02 · [^*]*canonical\.\*\*", raw, flags=re.M)
+    m = re.search(r"^\*\*Version 1\.(\d+) · 2026-\d\d-\d\d · [^*]*canonical\.\*\*", raw, flags=re.M)
     assert m and int(m.group(1)) >= 1
     for s in ("A word and its reverse are two states realised by one manifold, with the same orientation",
               "**They realise 536 distinct manifolds**, twice OEIS A000046",

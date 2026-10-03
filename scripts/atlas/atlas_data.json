@@ -9582,6 +9582,36 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1525": {
+   "slug": "genesis v15",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B130",
+    "B37",
+    "B723",
+    "B849",
+    "B868",
+    "B871",
+    "B942",
+    "B957",
+    "L1",
+    "L241",
+    "L242",
+    "L3",
+    "P8"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [
