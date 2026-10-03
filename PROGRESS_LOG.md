@@ -17176,3 +17176,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The seal.** Ten manifolds, two routes for the index (Fox; the Wang sequence with Lemma E), predictions P1–P8. Controls on
   m004's banked axis only; C3's first bar fixed and logged (E52 instance); C6's local evidence for Π disclosed.
 - **Next:** run as sealed, then the type-two eigenvalue-one curves, sealed separately. 0 of 19.
+
+## 2026-10-03 — the fast lane on 48f6af3b (B1526 banked)
+
+- **Fast lane on 48f6af3b** (84 minutes, in a pinned worktree): 6 654 passed, 52 skipped, 10 failed. The ten are the same set as at
+  843d163c.
+- **The extra passes, from the collector.** 6 750 → 6 763 ids; 13 added, none removed: B1526's 11 lock tests and two schema
+  cases. So 13 more pass in the fast lane.
+- **What it certifies.** B1526, on a tree nothing edited (B1527's seal and run were made in the main working tree; E46 kept).

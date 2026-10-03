@@ -1,5 +1,16 @@
 # Changelog
 
+## Record the fast lane on 48f6af3b (B1526 banked): at the bank's baseline
+
+- **Fast lane on 48f6af3b** (84 minutes, in a worktree pinned at that commit): 6 654 passed, 52 skipped, 10 failed. The ten are
+  the same set as at 843d163c.
+- **The extra passes, from the collector.** Diffed like for like with 843d163c (6 750 → 6 763 ids): 13 added, none removed.
+  - B1526's 11 lock tests.
+  - Two schema cases (B1526's arc verdict).
+  - So 13 more pass in the fast lane.
+- **What it certifies.** B1526, on a tree nothing edited. B1527's seal (4f802f15) and its sealed run were made in the main working
+  tree while the lane ran in its own pinned worktree (E46 kept).
+
 ## B1527 sealed: THE CUSP DECIDES — the class index on the projective deformations of the mirror-broken word states, near their hyperbolic point (sL-10 item 8)
 
 - **Sealed before `run.py` ran on any word state.** The controls and a smoke test ran on m004's banked Ballas axis only
