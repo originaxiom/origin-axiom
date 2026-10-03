@@ -1,0 +1,11 @@
+# B1529 -- sha-256 of the sealed files, recorded at the seal (before census.py or crossings.py ran on any outcome; the
+# controls read banked data and theorems only). Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from
+# frontier/B1529_the_eigenvalue_one_locus/)
+0d25e63811f62d0ae408acee484648dd8d7712fb61ce2b4ddd0e5e0ca5f88089  PREREGISTRATION.md
+26ac95cf79b6808c02eb9cef8cd281145bafaaefd7337da2513d41e179f39af7  verification/fibre_lib.py
+005b73b3407a0158ae931972990151bac8e7f504e2b96c39551df7f123dd934b  verification/controls.py
+badb06c02b310ef995cfa7191ce959ad7e3a531fec01d62036a4e2b68d36eae9  verification/controls.json
+6eca2d8c4f8093506e0675c5fdcbefb753a19abd5cda6e49cdd78f35d37e7098  verification/controls_run.txt
+90ff413cde209d0988440a8e9210b6668c05d35de7d07fe963a870d357ea9ecd  verification/census.py
+40a2476693a186282d328210a09727de1c2c44eb0b8d91aa4ca550bc682238ba  verification/crossings.py
+1c8fbf7f40f891c3e8596a4b637361754f4ff579e93a46cb2373d9bb86a529dc  verification/read_out.py

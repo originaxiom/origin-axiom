@@ -17223,3 +17223,34 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What it certifies.** B1527, on a tree nothing edited (B1528 was written in the main working tree; E46 kept). B1528 is
   certified next.
 - **Logged:** B1528's commit message gives its lock 16 tests; it has 9 (one slow).
+
+## 2026-10-03 — B1529 sealed: the eigenvalue-one locus (sL-10 item 9)
+
+- **The question.** Near the hyperbolic point of a word state, where the cusp acquires the eigenvalue one and one twist has a
+  non-acyclic cusp, does a vacuum ν ⊗ ρ or ν ⊗ Λ²ρ carry a non-zero class index? sm:B1527 answered it in finite volume; this is
+  the rest (types 2 and 3, and complex deformations).
+- **Decided at design time.**
+  - Lemma K (the sandwich, after sm:B1510 Theorem C). For the four, I = 0 everywhere near ρ_hyp wherever its base condition
+    holds.
+  - Lemma F (the fibre's four-term sequence 0 → A → B → C → D → 0, after sm:B1509 T3, sm:B1511 Theorem B and main's B1440). A
+    non-zero index needs a special twist at a root of the interior polynomial χ_C/χ_D.
+  - Lemma O: Λ²g ∈ SO(6) never has a one-dimensional eigenvalue-one space.
+  - Lemma B: Λ²'s base condition, from Menal-Ferrer–Porti Theorem 0.1 on a finite cyclic cover (read 2026-10-03; its scope is
+    the holomorphic V_n, so the four is outside it).
+  - Theorem N: with the simple-root condition at the base points, I(ν ⊗ Λ²ρ) = 0 near ρ_hyp in Hom(Γ, SL(4, ℂ)).
+- **The seal.**
+  - Route T, new code: the fibre's quotient matrix, python-flint assembly, mpmath ranks.
+  - The base census on all 536 word states and m004's levels M₂–M₆.
+  - The crossing reader on the ten rings.
+  - Predictions P1–P6 and G (expected 5.7 of 7).
+- **Controls**, banked data and theorems only, all pass.
+  - Route T reproduces Part H on 3,740 rows and sm:B1509's polynomial on m004.
+  - It also reproduces sm:B1515's interior classes of the four on M₆: 292 / 24 / 4, the positive control for the four's base
+    condition.
+- **Logged** (ERROR_LEDGER):
+  - item 9 as registered omitted Λ²'s locus ψa = ψb (E53);
+  - route T's first form let python-flint's ball radii grow until C1 failed on the two longest words (E52);
+  - a design note took the fibre boundary's invariants for the cusp group's (E31).
+  All three were self-caught before the seal.
+- **Next:** run as sealed. 0 of 19.
+
