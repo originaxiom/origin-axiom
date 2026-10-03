@@ -1,0 +1,23 @@
+{
+ "id": "B1463",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B37",
+  "B20",
+  "B130",
+  "B1462"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the metallic trace map on Fricke coordinates (frame-independent of the physics frames)",
+  "object": "B37's and B20's predicates; B130's fixed loci of phi_m = Ta^m o Tb^m at m = 2, 3, 4",
+  "reach": "class",
+  "hypotheses": "m = 2, 3, 4 by exact primary decomposition (Sage/Singular, recorded); m >= 5 rests on B130's numerics; the reads-and-branches sense of 'reads' is not decided here"
+ },
+ "claim_one_line": "THE TWO EARLY CORRECTIONS RE-DERIVED (L243 (a); the audit lane's AR3 and AR4, carried into GENESIS by the SM seat). AR3: B37's self-model predicate any(component.has(I)) is False on every map written in x, y, z -- a detector that cannot fire (MB12; E82 class, 2026-05) -- so 'the trace map never reads kappa' is unsupported by B37's test; the audit lane's rewriting T' fires it while equal to T on the record graph; whether the map reads kappa in the reads-and-branches sense is FK12's, open. AR4: B130's inference 'empty k-elimination => kappa free => no choice' is invalid (V(x(x-1), xk) eliminates to nothing in k and has an isolated point), but B130's conclusion holds on its domain by a valid argument: at m = 2 two generators in three variables (Krull), and at m = 2, 3, 4 the primary decomposition has every component one-dimensional (2, 2, 4 curves, no point); the tombstone's 'isolated points' are singular points of curves. Addenda on B37 and B130; GENESIS v1.8 log line. Nothing selects a state. 0 of 19."
+}

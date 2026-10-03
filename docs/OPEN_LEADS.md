@@ -3356,6 +3356,10 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   on a detector of a symbol's presence, which an inserted factor r − I at r = I flips with the dynamics unchanged;
   B130's empty global elimination at m = 2 cannot by itself exclude isolated components (its countermodel: x(x − 1) = 0,
   x·k = 0). **Owed:** each checked on main and, if it holds, carried into the arc as an addendum.
+  **PAID 2026-10-03 (B1463):** both re-derived on main with main's own code and files — B37's predicate is literal and
+  cannot fire on any map in x, y, z (MB12; addendum on B37); B130's inference is invalid (the countermodel) and its
+  conclusion holds at m = 2, 3, 4 by primary decomposition, every component a curve (addendum on B130). GENESIS v1.8.
+
 - **(b) The SM seat's bar** — **PAID 2026-10-03 (B1458):** adopted on main as `docs/THE_BAR.md`; its census claim re-derived
   by manifold and group structure (22 mixed strata; m369 against o9_00001). Its instrument stays on its branch.
 - **(c) The audit lane's R79** (markings and slopes: a numeric slope held fixed while the lift changes can change

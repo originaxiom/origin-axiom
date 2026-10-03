@@ -9519,6 +9519,26 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1463": {
+   "slug": "the two early corrections re derived",
+   "motifs": [
+    "naming",
+    "feedback",
+    "trace_map",
+    "kappa",
+    "metallic"
+   ],
+   "refs": [
+    "B130",
+    "B20",
+    "B37",
+    "L243"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B146": {
    "slug": "b145 calibration",
    "motifs": [

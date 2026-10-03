@@ -1,6 +1,6 @@
 # Origin Axiom
 
-> **State — 2026-10-03 (B1462).** The foundations are stated once, in `GENESIS.md` (v1.7), and three seats work from it; the
+> **State — 2026-10-03 (B1463).** The foundations are stated once, in `GENESIS.md` (v1.8), and three seats work from it; the
 > root's own vacua carry no handedness by proof, and the counts on record wait for a source that nothing yet derives. The
 > section "The state of the programme" below is current; the two older blocks that follow are kept as written.
 
@@ -23,7 +23,7 @@ nothing cannot complete.
 
 ## The state of the programme (as of B1458, 2026-10-03)
 
-**One page states the foundations: [`GENESIS.md`](GENESIS.md) (v1.7), shared by the three working seats.** It replaces
+**One page states the foundations: [`GENESIS.md`](GENESIS.md) (v1.8), shared by the three working seats.** It replaces
 the scattered statements of the axioms; the older pages keep their proofs and point to it. In its terms:
 
 - **The principle** has three faces (PF1–PF3): existence as what remains when cancelling to nothing cannot complete; the

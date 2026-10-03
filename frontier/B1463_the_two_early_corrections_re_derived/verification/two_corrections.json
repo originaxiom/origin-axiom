@@ -1,0 +1,57 @@
+{
+ "AR3": {
+  "b37_predicate_is_literal": true,
+  "predicate_false_on_every_map_in_xyz": true,
+  "predicate_false_on_T": true,
+  "Tprime_equals_T_on_the_graph_and_keeps_it": true,
+  "predicate_fires_on_Tprime": true,
+  "genuine_read_changes_the_orbit_off_the_graph": true,
+  "vacuous_rewriting_matches_T_on_the_graph": true
+ },
+ "AR4": {
+  "countermodel_k_elimination": [],
+  "point_alone_k_elimination": [
+   "k"
+  ],
+  "countermodel_isolated_point_regular": true,
+  "m2": {
+   "k_elimination": [],
+   "hilbert_dimension": 1,
+   "lex_basis": [
+    "2*x - y*z",
+    "y*(y**2*z**2 - 2*z**2 - 8)"
+   ],
+   "krull_no_zero_dim_component": true
+  },
+  "m3": {
+   "k_elimination": "not recomputed (B130 recorded zero)",
+   "hilbert_dimension": 1
+  },
+  "m4": {
+   "k_elimination": "not recomputed (B130 recorded zero)",
+   "hilbert_dimension": 1
+  },
+  "sage_components": {
+   "2": {
+    "n": 2,
+    "dims": [
+     1
+    ]
+   },
+   "3": {
+    "n": 2,
+    "dims": [
+     1
+    ]
+   },
+   "4": {
+    "n": 4,
+    "dims": [
+     1
+    ]
+   }
+  },
+  "sage_no_zero_dim_component_m234": true
+ },
+ "verdict": "PASS"
+}

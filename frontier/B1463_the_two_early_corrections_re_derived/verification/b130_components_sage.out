@@ -1,0 +1,11 @@
+m = 2  dim V(J) = 1
+   component dim 1  degree -  prime: [y, x]
+   component dim 1  degree -  prime: [y*z - 2*x, 2*x^2 - z^2 - 4]
+m = 3  dim V(J) = 1
+   component dim 1  degree -  prime: [y + 1, x + 1]
+   component dim 1  degree -  prime: [y*z - x - z, x^2*y - x*y - x*z - y + z]
+m = 4  dim V(J) = 1
+   component dim 1  degree -  prime: [z, x]
+   component dim 1  degree -  prime: [y, x]
+   component dim 1  degree -  prime: [z, y]
+   component dim 1  degree -  prime: [y^2*z - x*y - 2*z, x^2*y*z - 3*x^3 - 2*y*z + 8*x, x^2*y^2 - 3*x^2 - 3*y^2 + 8, x^3*y - x^2*z - 3*x*y + 2*z, 3*x^4 - x^2*z^2 - x*y*z - 8*x^2 + 2*z^2]

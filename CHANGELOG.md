@@ -1,5 +1,17 @@
 # Changelog
 
+## S46 THE TWO EARLY CORRECTIONS RE-DERIVED: B37's detector could not detect — its self-model predicate tests for a symbol that occurs in no map, so 'the trace map never reads κ' was certified by a test that could not fail — and B130's 'κ is free, no forced choice' rested on an invalid inference from an empty elimination, yet holds at m = 2, 3, 4 by primary decomposition: every component of the fixed locus is a curve, none a point.
+
+**The occasion.** Lead L243 (a): the audit lane's two corrections of main's early arcs (its AR3 and AR4) had reached GENESIS through the SM seat's text and had never been re-derived on main. With Review 59 two merges away and the page at v1.7, this is the last of the day's carried verifications.
+
+**AR3, B37 (B1463 §1).** In B37's own file the self-model predicate is `any(component.has(I))` for a symbol I that occurs in no map written in x, y, z. It is False on every such map; it could not have failed on its domain (MB12 — an E82 instance from 2026-05, recorded). The audit lane's rewriting T′ = (z, x, 2xz − y + (r − I), r), equal to T on the record graph and preserving it, fires the predicate; a map that genuinely reads r off the graph changes an orbit. So "never reads" is unsupported by B37's test, and GENESIS §9's "in B37's literal sense only" is the right scope; whether the trace map reads κ in the reads-and-branches sense is FK12's question, open.
+
+**AR4, B130 (§2).** The inference "empty κ-elimination ⟹ κ free ⟹ no choice" is invalid: a line with an isolated point beside it eliminates to nothing. But B130's conclusion is true where it was claimed, by a valid argument now: at m = 2 the fixed ideal is two polynomials in three unknowns (Krull), and at m = 2, 3, 4 the primary decomposition — Sage/Singular, recorded; not the test environment — has every component one-dimensional, two, two and four curves and no point. The tombstone's "isolated points" and the ones main's own solver produced today are singular points of curves; one of them fooled a Newton test for an hour before the exact decomposition settled it.
+
+**What it means.** Two sentences the page cites are now main's own: one scoped down to what its test could show, one kept with its proof replaced. Nothing in the derivation moved. **The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1463** (PROVED). Addenda on B37 and B130; ERROR_LEDGER E82 instance; L243 (a) paid; GENESIS v1.8 (log line only). Gates 40 of 40; full suite 7017 passed, 0 failed, 68 skipped.
+
 ## S45 THE SEATS HARVESTED: P IS THE SWAP, THE MIRROR BREAKS ON THE LEVELS WHERE THE TWIST IS SINGLE-SHEET, AND GENESIS v1.7 — the SM seat's six arcs of the day read, two of them re-derived on main by routes sharing nothing with theirs (B1297's period-2 symmetry is the swap's class in Ballas' presentation and fixes the family; on M₁…M₆ the twists no count-odd map fixes number 0, 0, 0, 0, 20, 96, and M₅'s twenty are exactly the single-sheet twists, ten per golden sheet), the bar's null contract adopted, and one sentence of main's own corrected in two places.
 
 **The occasion.** While main ran three arcs of its own the SM seat landed six: sm:B1521 (a correction of main's B1455 addendum), sm:B1522 (main's L242 (b) run on twelve levels), sm:B1523 (every word state's projective family), sm:B1524 (the bar's null contract, answering codex), sm:B1525 and sm:B1526 (GENESIS v1.5 and v1.6, the second built on main's v1.5 as asked). Ten relays of the seat's were unrowed. The harvest rule is verify-then-row; this is the arc that does it.

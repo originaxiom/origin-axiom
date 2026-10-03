@@ -1,6 +1,6 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.7 · 2026-10-03 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.8 · 2026-10-03 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
@@ -531,3 +531,8 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
   - Named: the owner's hypothesis "choice might be golden" is on the record in two sealed forms (FK9); the SM seat's
     sL-10 item 8 (the class index on a mirror-broken word state's family) is in §8's frontier and is the seat's, sealed first.
   - Unchanged: FK1 and FK12 as the owner decided (v1.5).
+- **v1.8 · 2026-10-03 · main B1463.** No text changed; two rows of §9 verified on main. The audit lane's AR3 and AR4,
+  carried in v1.6 as read: B37's self-model predicate is a test of symbol presence that cannot fire on any map in
+  x, y, z (so "never reads" is in B37's literal sense only, as the row says); B130's inference from an empty
+  k-elimination is invalid, and its conclusion holds at m = 2, 3, 4 by primary decomposition (every component a curve).
+  Lead L243 (a) paid.
