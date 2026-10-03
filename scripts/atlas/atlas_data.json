@@ -9542,6 +9542,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1523": {
+   "slug": "the flexible states",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L241",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "S40"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

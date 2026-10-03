@@ -17071,3 +17071,26 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   (E31 instance) was found by the controls; C3's relator bar change is disclosed.
 - **The golden reading, second sealed form.** Of the 14 golden manifolds, the words ±L⁴RL³R² and ±L⁴RLR³LR² have no
   longitude-inverting isometry. P7 predicts they and only they are mirror-broken.
+
+## 2026-10-03 — B1523 run and banked: the flexible states (sL-10 item 6)
+
+- **The run** (as sealed at `c13cb636`, 3 610 s). Routes R and C agree on all 536 manifolds of the 758 word states to length 12.
+  The three literature controls were re-read first and matched. P1–P9 held; outcome B.
+- **Every word state is rigid rel cusp**, so every one carries a projective family at its hyperbolic point. **The fibre boundary is
+  a rigid slope on all 536**, so main's B1455 one-bit rule (the longitude-inverting isometries dualise) holds on every word state,
+  by Lemma R.
+- **Mirror-broken: 262 manifolds** (131 per sign, 482 states): the 220 chiral and the 42 swaprev-only. By length 6–12: 2, 2, 8, 14,
+  36, 62 and 138. The first is ±LLRLRR; golden among them, exactly ±L⁴RL³R² and ±L⁴RLR³LR².
+- **After the run, not sealed.** A non-rigid slope in the box sits on exactly the 66 reflective manifolds, at 30° + 60°ℤ. The section
+  is non-rigid on 23.
+- **X1 (route F, after the seal).** Route F, which rebuilds each bundle as F₂ ⋊ ℤ from its word and reads it with its own modules,
+  cocycles and ranks, read all 536 manifolds and agrees with the census on every one. Its fixed point was located from SnapPy's
+  holonomy; on 66 of the manifolds it was also found with no SnapPy holonomy at all, with identical readings. Its seeded pass
+  reached ±L³RLRLR²LR² through a rotation of the word (the same oriented manifold), by a fallback added after its first attempt;
+  both logs are kept.
+- **Scope.** Lemma T is local: on the 262, near the hyperbolic point, no count-odd map fixes a vacuum of the family other than that
+  point. The index on those families is sL-10 item 8, sealed first.
+- **Records.** THEOREM_REGISTRY T-FLEXIBLE-STATES. B1520's kill-graph scope note. ERROR_LEDGER: E31 (route F's pre-reading bugs),
+  E54 (Lemma R's prior art beside the remark the seal read; standing EXTENDS), E12 (the lock's precision, before the commit) and
+  E11 (a draft's first-missed word, retyped instead of copied from the record; before the commit).
+  OPEN_LEADS sL-10 item 6 banked, item 8 registered. The relay to main; main's and the audit lane's four new relays rowed.

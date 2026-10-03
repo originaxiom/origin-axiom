@@ -1,0 +1,27 @@
+YES P1 the controls pass and the census re-reads them
+YES P2 every manifold is rigid rel cusp
+YES P3 on every rigid manifold with an orientation-reversing isometry, eps = -1 exactly on the fibre-boundary-inverting isometries
+YES P4 the routes agree everywhere
+YES P5 the mirror-broken rigid manifolds are exactly the rigid ones without a longitude-inverting isometry
+YES P6 the fibre boundary is a rigid slope on every rigid manifold
+YES P7 the golden mirror-broken manifolds are exactly +-L4RL3R2 and +-L4RLR3LR2
+YES P8 the lemmas hold on every rigid manifold in both routes
+YES P9 Lemma S on every rigid manifold: the zero slopes in the box lie in one coset of 60 degrees (30 + 60Z or 60Z on a reflective one, as its fibre boundary is or is not rigid)
+  manifolds: 536
+  rigid: 536
+  not rigid: []
+  rigid with an orientation-reversing isometry: 66
+  mirror-broken rigid manifolds: 262
+  of them by sign: {'+': 131, '-': 131}
+  mirror-broken word states: 482
+  mirror-broken by kind: {'none': 220, 'swaprev only': 42, 'swap only': 0, 'rev only': 0, 'all three': 0}
+  mirror-broken by length: {2: 0, 3: 0, 4: 0, 5: 0, 6: 2, 7: 2, 8: 8, 9: 14, 10: 36, 11: 62, 12: 138}
+  golden mirror-broken: ['+LLLLRLLLRR', '+LLLLRLRRRLRR', '-LLLLRLLLRR', '-LLLLRLRRRLRR']
+  fibre boundary rigid: 536
+  section rigid: 513
+  section not rigid: 23 items: ['+LR', '-LR', '+LLRR', '+LLLRRR', '+LLLLRRRR', '+LLRLRLRR', '+LLRLRRLR', '+LLLLLRRRRR', '+LLLRLRLRRR', '+LLLRLRRRLR', '+LLRLLRRLRR', '+LLRLRRLLRR'] ...
+  fibre boundary not rigid: []
+  longitude rule fails on: []
+margins: {"v: smallest kept singular value (Fox, route R / C)": [2.948987911720473e-07, 7.269100740510123e-06], "v: largest dropped singular value (Fox, route R / C)": [2.4424989608916265e-46, 3.806655801554391e-57], "slope residual: smallest counted nonzero / largest counted zero (route R)": [1.2640386452916109e-08, 4.654349537227232e-53], "slope test: smallest counted nonzero / largest counted zero (route C)": [1.452628102365748e-07, 2.752125440532442e-54], "eps: largest distance from +-1 (route R)": 0.0, "eps: largest eigen-residual (route R / C)": [9.559484400034568e-45, 3.553515487598659e-53]}
+disagreements: 0 lemma failures: 0
+OUTCOME B: mirror-broken flexible states exist

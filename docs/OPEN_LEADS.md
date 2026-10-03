@@ -3798,7 +3798,23 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    routes: rigidity rel cusp, each isometry's sign on the family's line, and the fibre boundary as a slope. Lemma R: on a state
    with an orientation-reversing isometry, the longitude rule is exactly the fibre boundary being a rigid slope. Predictions
    P1–P9, the golden reading among them.
+   **Banked 2026-10-03 as sm:B1523 (PROVED, outcome B; run as sealed at c13cb636).** Every one of the 536 manifolds is rigid
+   rel cusp in both routes, so every word state carries a one-parameter projective family at its hyperbolic point. The fibre
+   boundary is a rigid slope on all 536, so by Lemma R the family's line is dualised exactly by the isometries that invert the
+   fibre boundary: main's B1455 one-bit rule, on every word state. No isometry dualises it on 262 manifolds (482 states, 131 per
+   sign): the 220 chiral ones and the 42 swaprev-only ones, the first ±LLRLRR. The golden ones among them are exactly ±L⁴RL³R² and
+   ±L⁴RLR³LR². X1, after the seal: route F, which rebuilds each bundle as F₂ ⋊ ℤ from its word and reads it with its own modules,
+   cocycles and ranks, read all 536 manifolds and agrees with the census on every one. Its fixed point was located from SnapPy's
+   holonomy; on 66 of the manifolds it was also found with no SnapPy holonomy at all, with identical readings. Next: item 8.
 7. **The chiral record on the split-prime levels** (sm:B1522 §6). M5's case-(b) members are exactly its single-sheet
    twists, held only by the golden rotations at their unitary λ. On the levels with split primes (M7: 29, M9: 19, M10: 11,
    M11: 199), do case-(b) members exist, and are they single-sheet and held only by the rotations? Their unitary λ would
    then be the only thing holding their count-odd mirror. B1511's machinery taken above level 6, sealed before computing.
+8. **The class index on a mirror-broken family** (sm:B1523 §5). On the 262 mirror-broken manifolds, near the hyperbolic point, no
+   count-odd map fixes a vacuum of the projective family other than that point (Lemma T, a local statement). So B1455's symmetry
+   argument cannot force the family's count to zero there.
+   - Build the family off the hyperbolic point on the first of them: ±LLRLRR (swaprev-only, length 6) and ±L³RLR² (chiral,
+     length 7). By the fibration, these are the SL(4, ℝ) fixed points of φ's action near ρ_hyp, tangent to the v-line.
+   - Compute main's class index (B1297, B1455) on its vacua ν ⊗ ρ_s. Is any of them nonzero?
+   - The control is m004's family, where every vacuum is fixed and the index vanishes (sm:B1520).
+   - Seal before computing.

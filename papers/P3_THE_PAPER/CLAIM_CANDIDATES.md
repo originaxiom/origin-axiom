@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1169 settled arcs — 71%** —
+the field is **absent on 828 of 1170 settled arcs — 71%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (94) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 604 arcs.**
+**POOL = declared-law (95) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 605 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -220,7 +220,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1503` | PROVED | S | | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma … |
 | `B1512` | PROVED | S | | THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). … |
 
-## §6 the observer — one bit, priced (177)
+## §6 the observer — one bit, priced (178)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -264,6 +264,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1279` | PROVED | L | | THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b / a w B w^-1> (a wo… |
 | `B1514` | PROVED | L | | THE DECOUPLING LAW, run as sealed (a0badfa3; B1513 leads 1 and 2) by two routes that share no code, which agree group by group on every dimension, zero and non-zero (the … |
 | `B1522` | PROVED | L | | THE GOLDEN CHOICE, run as sealed (5d4eb5f7; 68 s; main's L242 (b) and the owner's 'choice might be golden'): on the levels M_1 ... M_12 of m004's Ballas family the count-… |
+| `B1523` | PROVED | L | | THE FLEXIBLE STATES, run as sealed (c13cb636; 3 610 s; sL-10 item 6, its criterion corrected before the seal): every one of the 536 manifolds of the 758 word states to le… |
 | `B156` | PROVED | V | | Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L… |
 | `B986` | NEGATIVE | V | | THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAYS OPEN, the attempt failing on the INSTRUMENT not on the object. cc3's sweep surfa… |
 | `B1023` | PROVED | V | | PHASE 2'S CONCESSIONS, V2: TWO DEFECTS FIXED, THEN TWO BLOCKERS ON THE FIX ITSELF -- CONCEDED AND PINNED OPEN, the second correction arriving from cc3 BEFORE the batch ba… |

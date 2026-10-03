@@ -1,0 +1,152 @@
+{
+ "id": "B1523",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1520",
+  "B1522",
+  "B1521",
+  "B1517",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "the 758 word states to length 12 (536 once-punctured-torus bundles, SnapPy b++w / b+-w) at their complete hyperbolic structure: H^1(M; V) for V = R, so(3,1) and v (sl(4,R) = so(3,1) + v), each isometry's sign eps on the line H^1(M; v), and the rigidity of the fibre boundary and of the section as slopes",
+  "reach": "class",
+  "hypotheses": [
+   "Heusener-Porti Cor. 5.4 (rigid rel cusp iff dim H^1(M; v) = 1), Ballas-Danciger-Lee Thm 3.2 (smooth point) and Ballas arXiv:1805.09274 Thm 0.2 (a one-parameter family of convex projective structures): cited, not re-derived",
+   "the 63-digit holonomy of SnapPy's ManifoldHP (relator errors <= 2.9e-41 in route R, <= 1.3e-55 in route C); SnapPy's isometry groups, checked against the words' GL2(Z) prediction on all 536",
+   "Out(pi_1 M) = Isom(M) (Mostow), so the count-odd maps are D o beta*; B1455's criterion (V* = sigma* V implies index 0) as main states it",
+   "Lemmas S, iota, rev, R, T are proved in the sealed text; P8 and P9 check them on every manifold in both routes",
+   "the census is complete to length 12; nothing is claimed beyond it"
+  ]
+ },
+ "claim_one_line": "THE FLEXIBLE STATES, run as sealed (c13cb636; 3 610 s; sL-10 item 6, its criterion corrected before the seal): every one of the 536 manifolds of the 758 word states to length 12 is infinitesimally projectively rigid rel cusp (both routes; kept singular values >= 2.9e-7 against dropped <= 2.4e-46), so each carries a one-parameter family of convex projective structures at its hyperbolic point (BDL, Ballas); the fibre boundary is a rigid slope on all 536, so by Lemma R (an orientation-reversing isometry acts on H^1(P; v) as a reflection, eps = -1 iff it inverts the fibre boundary XOR the fibre boundary is not rigid; the figure-eight case is Heusener-Porti Lemma 8.2, Ballas Lemma 6.2(2)) main's one-bit rule holds on every word state; the mirror-broken flexible states are exactly the 262 manifolds (482 states, 131 per sign) with no longitude-inverting isometry, the 220 chiral and the 42 swaprev-only, first +-LLRLRR at length 6; golden: exactly +-L4RL3R2 and +-L4RLR3LR2; Lemma S's 60-degree coset on all, after the run its non-rigid slopes only on the 66 reflective manifolds, all at 30 + 60Z. P1-P9 YES (expected 7.1 of 9). X1, after the seal: route F, which rebuilds each bundle as F2 semidirect Z from its word and reads it with its own modules, cocycles and ranks, read all 536 manifolds and agrees with the census on every one. Its fixed point was located from SnapPy's holonomy; on 66 of the manifolds it was also found with no SnapPy holonomy at all, with identical readings. creates_law (Lemma R, Lemma S). Registered: sL-10 item 8 (the class index on a mirror-broken family, sealed first). I-26 stays UNEARNED. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "07faac0a",
+    "main": "f06d3405",
+    "origin/audit/physical-bridge-2026-09-05": "7b088f50",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "07faac0a",
+    "origin/main": "8d1c1329",
+    "origin/sep16-branch": "3205984b",
+    "origin/main (refreshed at banking, 2026-10-03)": "70ca9c92",
+    "origin/audit/physical-bridge-2026-09-05 (refreshed at banking, 2026-10-03)": "24c039c8",
+    "origin/art/camper-van-bar (new at banking, 2026-10-03)": "b3745696",
+    "origin/main (last fetch during the bank, 2026-10-03)": "77714caf"
+   },
+   "terms": [
+    "projectively rigid",
+    "projective rigidity",
+    "infinitesimally projectively",
+    "Heusener",
+    "Daly",
+    "Ballas",
+    "convex projective",
+    "properly convex",
+    "H^1(M; v)",
+    "longitude-inverting",
+    "family-dualising",
+    "flexible state",
+    "amphichiral",
+    "amphicheiral",
+    "Johnson-Millson",
+    "elliptic involution"
+   ],
+   "hits": [
+    {
+     "where": "main@8d1c1329:docs/handoffs/CC_TO_CODEX_AND_SM_2026-10-02_THE_MIRROR_ON_THE_HARMONIC_FAMILY.md (B1455)",
+     "bearing": "on m004 the symmetries act on Ballas' family through one bit, whether they invert the longitude, and that bit dualises: the m004 case of the rule this arc tests on every word state (the only file on any head with 'longitude-inverting')"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@07faac0a:frontier/B1520_the_deciding_test/FINDINGS.md",
+     "bearing": "m004's sign table on the v-class read through the cusp (-I and diag(-1,1) give -1; diag(1,-1) and I give +1): reproduced by controls C5"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao@07faac0a:frontier/B1522_the_golden_choice/PREREGISTRATION.md section 6; docs/OPEN_LEADS.md sL-10 item 6",
+     "bearing": "registers this arc; its criterion ('beyond the cusp's share') was inverted and is corrected before the seal (ERROR_LEDGER, E2 instance)"
+    },
+    {
+     "where": "all heads:frontier/B659_novelty_dossier/SWEEP_RESULTS.md",
+     "bearing": "cites Daly arXiv:2411.04431 and Daly's computer-assisted fillings paper; computes nothing on word states"
+    },
+    {
+     "where": "audit lane@7b088f50:reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md",
+     "bearing": "on Ballas' family the knot longitude has characteristic polynomial (X - q)^3 (X - q^-3): non-unipotent, consistent with the fibre boundary being a rigid slope"
+    },
+    {
+     "where": "main@70ca9c92:frontier/B1459_the_zeros_are_a_theorem/PREREGISTRATION.md (sealed) and main@77714caf:frontier/B1459_the_zeros_are_a_theorem/FINDINGS.md (run during this bank); both read at banking",
+     "bearing": "adjacent: the fibre's elliptic involution acts trivially on SL(2) characters of the fibre and inverts abelian characters, so it dualises B1451's rank-four modules up to a meridian sign, and main proves the class index zero at the 188 complete points; on this arc's SL(4) family it keeps the line (Lemma iota, sign +1 on all 536), so it is not count-odd there, and a central sign twist acts trivially on sl(4)"
+    },
+    {
+     "where": "main@c7fe4dba:frontier/B1457_the_audit_lanes_source_records_harvested (S40; read at banking)",
+     "bearing": "rows the audit lane's R32-R80; its convex-projective reports concern m004's Ballas family only, and none computes rigidity or isometry signs on another word state"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "infinitesimally projectively rigid rel cusp census cusped hyperbolic 3-manifolds computation",
+    "once-punctured torus bundles infinitesimal projective rigidity not rigid example twisted cohomology sl(4,R)",
+    "Daly Computer assisted projective rigidity arXiv",
+    "Ballas Danciger Lee Convex projective structures on non-hyperbolic three-manifolds infinitesimally projectively rigid rel cusps"
+   ],
+   "sources": [
+    {
+     "cite": "M. Heusener and J. Porti, Infinitesimal projective rigidity under Dehn filling, Geom. Topol. 15 (2011), arXiv:0908.2863",
+     "where": "Cor. 5.4; Lemma 5.5 and Remark 5.6; Def. 7.1; Prop. 1.9; Remark 8.1; Lemma 8.2",
+     "read": "2026-10-03",
+     "says": "rigid rel cusp iff dim H^1(M; v) = number of cusps; restriction to two slopes injective unless they meet at pi/3; rigid slopes; tunnel-number-one bundles rigid but finitely many; the figure-eight's longitude is a rigid slope; its amphicheiral map acts by +1 on the longitude's restriction and -1 on the meridian's"
+    },
+    {
+     "cite": "S. Ballas, J. Danciger, G.-S. Lee, Convex projective structures on non-hyperbolic three-manifolds, Geom. Topol. 22 (2018), arXiv:1508.04794",
+     "where": "Def. 3.1, Thm 3.2, Thm 1.3, Remark 3.3",
+     "read": "2026-10-02",
+     "says": "rigid rel boundary gives a smooth point and cusp-opening properly convex structures; which census manifolds are rigid is left to future work"
+    },
+    {
+     "cite": "S. Ballas, Constructing convex projective 3-manifolds with generalized cusps, arXiv:1805.09274",
+     "where": "Thm 0.2; Introduction and section 2 (p. 11)",
+     "read": "2026-10-02",
+     "says": "rigid rel cusp gives a k-dimensional family of convex projective structures with generalized cusps; numerical computations suggest a majority of the SnapPy census is rigid (no list)"
+    },
+    {
+     "cite": "S. Ballas, Deformations of non-compact projective manifolds, AGT 14 (2014), arXiv:1210.8419",
+     "where": "Thm 1.2; Lemmas 6.1, 6.2",
+     "read": "2026-10-03",
+     "says": "for amphicheiral knot complements the amphicheiral map acts on the restriction to the longitude by +1 and to the meridian by -1 (Lemma 6.2(2)): the special case Lemma R extends"
+    },
+    {
+     "cite": "S. Ballas, Finite volume properly convex deformations of the figure-eight knot, arXiv:1403.3314v3",
+     "where": "p. 2",
+     "read": "2026-10-02",
+     "says": "the family keeps the meridian unipotent and makes the longitude non-unipotent (m004's section non-rigid, fibre boundary rigid: controls C5)"
+    },
+    {
+     "cite": "C. Daly, Projective Rigidity of Once-Punctured Torus Bundles via the Twisted Alexander Polynomial, arXiv:2411.04431v1",
+     "where": "Thms 3.3, 3.4; section 4 (L2R2, R2L)",
+     "read": "2026-10-02",
+     "says": "a twisted-Alexander criterion for rigidity rel cusp; two examples, both rigid (reproduced). The published version (Geom. Dedicata 2025) was not read: behind a login"
+    },
+    {
+     "cite": "C. Daly, Computer Assisted Projective Rigidity, arXiv:2408.08405",
+     "where": "abstract",
+     "read": "2026-10-03",
+     "says": "about two thousand closed fillings of the figure-eight are rigid; no other bundle"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ }
+}

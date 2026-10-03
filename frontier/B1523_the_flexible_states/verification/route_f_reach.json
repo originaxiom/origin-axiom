@@ -1,0 +1,858 @@
+{
+ "first pass not reached": 58,
+ "reached now": 6,
+ "still not reached": [
+  "+LLLLLRLRRRRR",
+  "+LLLLRLRLRRRR",
+  "+LLLLRLRRRLRR",
+  "+LLLLRLRRRRLR",
+  "+LLLLRRLLRRRR",
+  "+LLLRLLRR",
+  "+LLLRLLRRLRRR",
+  "+LLLRLLRRRLRR",
+  "+LLLRLRLR",
+  "+LLLRLRLRLRRR",
+  "+LLLRLRLRRR",
+  "+LLLRLRLRRRLR",
+  "+LLLRLRRRLLRR",
+  "+LLLRLRRRLR",
+  "+LLLRRLLRRR",
+  "+LLLRRLRLLRRR",
+  "+LLRLLRLR",
+  "+LLRLLRLRRLRR",
+  "+LLRLLRRLRR",
+  "+LLRLRLRLRLRR",
+  "+LLRLRLRLRR",
+  "+LLRLRLRLRRLR",
+  "+LLRLRLRR",
+  "+LLRLRLRRLLRR",
+  "+LLRLRLRRLR",
+  "+LLRLRLRRLRLR",
+  "+LLRLRRLLRR",
+  "+LLRLRRLR",
+  "-LLLLLRLRRRRR",
+  "-LLLLRLRLRRRR",
+  "-LLLLRLRRRLRR",
+  "-LLLLRRLLRRRR",
+  "-LLLRLLRR",
+  "-LLLRLLRRLRRR",
+  "-LLLRLLRRRLRR",
+  "-LLLRLRLR",
+  "-LLLRLRLRLRRR",
+  "-LLLRLRLRRR",
+  "-LLLRLRLRRRLR",
+  "-LLLRLRRRLLRR",
+  "-LLLRRLLRRR",
+  "-LLLRRLRLLRRR",
+  "-LLRLLRLR",
+  "-LLRLLRLRRLRR",
+  "-LLRLRLRLRLRR",
+  "-LLRLRLRLRR",
+  "-LLRLRLRLRRLR",
+  "-LLRLRLRR",
+  "-LLRLRLRRLLRR",
+  "-LLRLRLRRLR",
+  "-LLRLRRLLRR",
+  "-LLRLRRLR"
+ ],
+ "more than one matching root (up to conjugation)": [
+  "+LLLLRLLR",
+  "-LLLLRLLR"
+ ],
+ "matching roots whose readings disagree": [],
+ "agree with the census (dimensions and the fibre boundary)": 6,
+ "disagree": [],
+ "smallest fibre-boundary residual among those reached": 0.05750523347630423,
+ "records": [
+  {
+   "state": "+LLLLLRLRRRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 134,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 70.4
+  },
+  {
+   "state": "+LLLLRLLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 52,
+   "rotation read": "+RLLRLLLL",
+   "matching roots (up to conjugation)": 4,
+   "readings agree": true,
+   "hyperbolic found": true,
+   "shape": [
+    -0.34492791770029496,
+    -0.628104190860736
+   ],
+   "T residual": 3.2754070551325006e-59,
+   "commutation": 5.198320299852711e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.861254691293347,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.7288984945020314,
+     1.3842182241549018e-58
+    ],
+    "coboundary margin": [
+     0.8644022378401448,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.2755097586503119,
+     4.517323161738456e-57
+    ],
+    "coboundary margin": [
+     0.7159324953666161,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.05750523347630423,
+   "other matching roots, fibre-boundary residuals": [
+    0.05750523347630423,
+    0.0676069992396017,
+    0.0676069992396017
+   ],
+   "seconds": 29.7
+  },
+  {
+   "state": "+LLLLRLRLRRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 63,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 68.2
+  },
+  {
+   "state": "+LLLLRLRRRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 50,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 66.7
+  },
+  {
+   "state": "+LLLLRLRRRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 58,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 71.6
+  },
+  {
+   "state": "+LLLLRRLLRRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 64,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 67.2
+  },
+  {
+   "state": "+LLLRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 102,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 39.8
+  },
+  {
+   "state": "+LLLRLLRRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 53,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 64.8
+  },
+  {
+   "state": "+LLLRLLRRRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 75,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 67.2
+  },
+  {
+   "state": "+LLLRLRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 113,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 43.0
+  },
+  {
+   "state": "+LLLRLRLRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 68,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 67.9
+  },
+  {
+   "state": "+LLLRLRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 34,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 52.4
+  },
+  {
+   "state": "+LLLRLRLRRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 71,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 64.6
+  },
+  {
+   "state": "+LLLRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 110,
+   "rotation read": "+RLLLRLRR",
+   "matching roots (up to conjugation)": 1,
+   "readings agree": true,
+   "hyperbolic found": true,
+   "shape": [
+    2.9545528495393605e-59,
+    -0.8329085040206362
+   ],
+   "T residual": 1.512759297815387e-58,
+   "commutation": 1.512330818937377e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8196376837099951,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.843832837059306,
+     2.0411739549408574e-58
+    ],
+    "coboundary margin": [
+     0.9648941285261192,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.157918926879694,
+     1.5723415373641358e-56
+    ],
+    "coboundary margin": [
+     0.7317593962648281,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.10655841115374597,
+   "seconds": 41.7
+  },
+  {
+   "state": "+LLLRLRRRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 53,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 63.4
+  },
+  {
+   "state": "+LLLRLRRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 32,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 58.7
+  },
+  {
+   "state": "+LLLRRLLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 74,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 61.8
+  },
+  {
+   "state": "+LLLRRLRLLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 63,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 74.4
+  },
+  {
+   "state": "+LLRLLRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 91,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 45.8
+  },
+  {
+   "state": "+LLRLLRLRRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 38,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 71.0
+  },
+  {
+   "state": "+LLRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 41,
+   "rotation read": "+RLLRRLL",
+   "matching roots (up to conjugation)": 1,
+   "readings agree": true,
+   "hyperbolic found": true,
+   "shape": [
+    -0.13691126133540032,
+    -0.8485267109723197
+   ],
+   "T residual": 6.47873709885561e-60,
+   "commutation": 4.9278586442129794e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9283384630779645,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.919357767082922,
+     6.0082581007382815e-59
+    ],
+    "coboundary margin": [
+     0.9971431015088893,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.19187830635341474,
+     1.1323759930454252e-56
+    ],
+    "coboundary margin": [
+     0.7821245153160558,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.07181255121887423,
+   "seconds": 15.5
+  },
+  {
+   "state": "+LLRLLRRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 73,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 54.1
+  },
+  {
+   "state": "+LLRLRLRLRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 49,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 63.3
+  },
+  {
+   "state": "+LLRLRLRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 20,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 55.0
+  },
+  {
+   "state": "+LLRLRLRLRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 24,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 67.0
+  },
+  {
+   "state": "+LLRLRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 98,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 43.1
+  },
+  {
+   "state": "+LLRLRLRRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 50,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 76.1
+  },
+  {
+   "state": "+LLRLRLRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 59,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 61.4
+  },
+  {
+   "state": "+LLRLRLRRLRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 1652,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 305.6
+  },
+  {
+   "state": "+LLRLRRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 76,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 70.1
+  },
+  {
+   "state": "+LLRLRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 77,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 55.2
+  },
+  {
+   "state": "-LLLLLRLRRRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 134,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 82.8
+  },
+  {
+   "state": "-LLLLRLLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 52,
+   "rotation read": "-RLLRLLLL",
+   "matching roots (up to conjugation)": 4,
+   "readings agree": true,
+   "hyperbolic found": true,
+   "shape": [
+    0.15507208229970504,
+    -0.628104190860736
+   ],
+   "T residual": 2.5463336779352466e-59,
+   "commutation": 2.8468114347955033e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9584054212077046,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.5834554422445227,
+     1.0242404034044862e-58
+    ],
+    "coboundary margin": [
+     0.8644022378401448,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.06646853120184265,
+     3.2681178681066135e-57
+    ],
+    "coboundary margin": [
+     0.7159324953666161,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.05750523347630423,
+   "other matching roots, fibre-boundary residuals": [
+    0.05750523347630423,
+    0.0676069992396017,
+    0.0676069992396017
+   ],
+   "seconds": 35.7
+  },
+  {
+   "state": "-LLLLRLRLRRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 63,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 72.7
+  },
+  {
+   "state": "-LLLLRLRRRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 50,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 65.5
+  },
+  {
+   "state": "-LLLLRRLLRRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 64,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 69.3
+  },
+  {
+   "state": "-LLLRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 102,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 40.2
+  },
+  {
+   "state": "-LLLRLLRRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 53,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 91.5
+  },
+  {
+   "state": "-LLLRLLRRRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 75,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 104.0
+  },
+  {
+   "state": "-LLLRLRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 113,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 59.3
+  },
+  {
+   "state": "-LLLRLRLRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 68,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 142.5
+  },
+  {
+   "state": "-LLLRLRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 34,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 114.8
+  },
+  {
+   "state": "-LLLRLRLRRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 71,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 138.2
+  },
+  {
+   "state": "-LLLRLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 110,
+   "rotation read": "-RLLLRLRR",
+   "matching roots (up to conjugation)": 1,
+   "readings agree": true,
+   "hyperbolic found": true,
+   "shape": [
+    0.5,
+    -0.8329085040206362
+   ],
+   "T residual": 1.5123991664696946e-58,
+   "commutation": 3.608611524466506e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9000353983133689,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.5280102248030153,
+     3.842624985664433e-58
+    ],
+    "coboundary margin": [
+     0.9648941285261192,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.1736552576071192,
+     2.2883904144960033e-55
+    ],
+    "coboundary margin": [
+     0.7317593962648281,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.10655841115374597,
+   "seconds": 88.6
+  },
+  {
+   "state": "-LLLRLRRRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 53,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 136.8
+  },
+  {
+   "state": "-LLLRRLLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 74,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 113.2
+  },
+  {
+   "state": "-LLLRRLRLLRRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 63,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 140.8
+  },
+  {
+   "state": "-LLRLLRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 91,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 87.3
+  },
+  {
+   "state": "-LLRLLRLRRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 38,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 149.7
+  },
+  {
+   "state": "-LLRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 41,
+   "rotation read": "-RLLRRLL",
+   "matching roots (up to conjugation)": 1,
+   "readings agree": true,
+   "hyperbolic found": true,
+   "shape": [
+    0.3630887386645997,
+    -0.8485267109723197
+   ],
+   "T residual": 2.233038373358769e-59,
+   "commutation": 8.000983454780012e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0215481450091468,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.6991128783841377,
+     2.2295376697392683e-58
+    ],
+    "coboundary margin": [
+     0.9971431015088893,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.048391616517711476,
+     4.203758989529017e-56
+    ],
+    "coboundary margin": [
+     0.7821245153160558,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.07181255121887423,
+   "seconds": 34.5
+  },
+  {
+   "state": "-LLRLRLRLRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 49,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 142.3
+  },
+  {
+   "state": "-LLRLRLRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 20,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 118.0
+  },
+  {
+   "state": "-LLRLRLRLRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 24,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 138.7
+  },
+  {
+   "state": "-LLRLRLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 98,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 91.1
+  },
+  {
+   "state": "-LLRLRLRRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 50,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 139.2
+  },
+  {
+   "state": "-LLRLRLRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 59,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 114.9
+  },
+  {
+   "state": "-LLRLRRLLRR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 76,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 105.3
+  },
+  {
+   "state": "-LLRLRRLR",
+   "distinct non-real roots seen (double precision, all rotations tried)": 77,
+   "rotation read": null,
+   "matching roots (up to conjugation)": 0,
+   "readings agree": true,
+   "hyperbolic found": false,
+   "seconds": 69.9
+  }
+ ]
+}

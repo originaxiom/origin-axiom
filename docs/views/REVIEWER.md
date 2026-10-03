@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1270** |
-| words of findings prose | **1,059,551** |
+| research arcs with findings | **1271** |
+| words of findings prose | **1,062,766** |
 | test lock files referenced | **774** |
-| arcs carrying an authored verdict | **1270** (100.0 %) |
+| arcs carrying an authored verdict | **1271** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 844 |
+| PROVED | 845 |
 | NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1522`** (3841 words, 1 locks)  
-THE GOLDEN CHOICE, run as sealed (5d4eb5f7; 68 s; main's L242 (b) and the owner's 'choice might be golden'): on the levels M_1 ... M_12 of m004's Ballas family the count-odd mirror breaks, unlike level one: from M_5 off the unit circle (20 of 121 twists) and from M_6 on it too (96 of 320), rising to 0.91 of M_12's 103 680. Off the circle a vacuum breaks it exactly when no golden Galois reflection +-M^{2k}S (the maps exchanging the eigenlines of phi and phibar on the torsion) fixes its twist (Lemma C with G, two routes on all 167 736 characters; the criterion bypassed by a direct module test over F_p on M_1-M_6, X2). Single-sheet twists at a split prime always break (P5); the gloss 'a broken vacuum chooses a sheet' is exact only on M_5 (mixed twists break on M_7, M_9-M_11; M_6, M_8, M_12 have no split prime). Lemma F's closed counts (p - 1)(p + 1 - 2n) and (p - 1)(p - 1 - 2n) hold on M_5, M_7, M_11. Every one of the 196 banked firing members (levels 1-6, the chiral record complete there) is fixed at its lam, on both routes and directly (X3): outcome B, the mirror breaks only where nothing chiral has been found. After the run (not sealed): M_5's case-(b) members, B1511/B1512's eigenline characters, are at each lam in mu_4 exactly the 20 twists no reflection fixes, ten on each golden sheet, held only by the golden rotations +-M^{2k+1} at their unitary lam; both orders live over each, so the sheet is where M_5's chirality lives, not what selects its sign. P1-P9 YES (expected 7.85 of 9). Post-run X1-X5 pass (X4: at q = 1 every unitary vacuum is fixed, Lemma U, and non-dualising words fix; X5: Lemma F on M_13, L_13 = 521, by independent code, 257 920 and 256 880). creates_law (Lemma C, Lemma F). Registered: sL-10 item 7 (case (b) on the split-prime levels, sealed first). I-26 stays UNEARNED. 0 of 19.  
-`B1522_the_golden_choice/FINDINGS.md`
+**PROVED — `B1523`** (3215 words, 0 locks)  
+THE FLEXIBLE STATES, run as sealed (c13cb636; 3 610 s; sL-10 item 6, its criterion corrected before the seal): every one of the 536 manifolds of the 758 word states to length 12 is infinitesimally projectively rigid rel cusp (both routes; kept singular values >= 2.9e-7 against dropped <= 2.4e-46), so each carries a one-parameter family of convex projective structures at its hyperbolic point (BDL, Ballas); the fibre boundary is a rigid slope on all 536, so by Lemma R (an orientation-reversing isometry acts on H^1(P; v) as a reflection, eps = -1 iff it inverts the fibre boundary XOR the fibre boundary is not rigid; the figure-eight case is Heusener-Porti Lemma 8.2, Ballas Lemma 6.2(2)) main's one-bit rule holds on every word state; the mirror-broken flexible states are exactly the 262 manifolds (482 states, 131 per sign) with no longitude-inverting isometry, the 220 chiral and the 42 swaprev-only, first +-LLRLRR at length 6; golden: exactly +-L4RL3R2 and +-L4RLR3LR2; Lemma S's 60-degree coset on all, after the run its non-rigid slopes only on the 66 reflective manifolds, all at 30 + 60Z. P1-P9 YES (expected 7.1 of 9). X1, after the seal: route F, which rebuilds each bundle as F2 semidirect Z from its word and reads it with its own modules, cocycles and ranks, read all 536 manifolds and agrees with the census on every one. Its fixed point was located from SnapPy's holonomy; on 66 of the manifolds it was also found with no SnapPy holonomy at all, with identical readings. creates_law (Lemma R, Lemma S). Registered: sL-10 item 8 (the class index on a mirror-broken family, sealed first). I-26 stays UNEARNED. 0 of 19.  
+`B1523_the_flexible_states/FINDINGS.md`
 
 **NEGATIVE — `B1520`** (2789 words, 1 locks)  
 THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  

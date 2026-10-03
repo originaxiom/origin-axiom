@@ -1,0 +1,3357 @@
+{
+ "chosen": 118,
+ "reached": 60,
+ "not reached": [
+  "+LLLLLRLRRRRR",
+  "+LLLLRLLR",
+  "+LLLLRLRLRRRR",
+  "+LLLLRLRRRLRR",
+  "+LLLLRLRRRRLR",
+  "+LLLLRRLLRRRR",
+  "+LLLRLLRR",
+  "+LLLRLLRRLRRR",
+  "+LLLRLLRRRLRR",
+  "+LLLRLRLR",
+  "+LLLRLRLRLRRR",
+  "+LLLRLRLRRR",
+  "+LLLRLRLRRRLR",
+  "+LLLRLRRR",
+  "+LLLRLRRRLLRR",
+  "+LLLRLRRRLR",
+  "+LLLRRLLRRR",
+  "+LLLRRLRLLRRR",
+  "+LLRLLRLR",
+  "+LLRLLRLRRLRR",
+  "+LLRLLRR",
+  "+LLRLLRRLRR",
+  "+LLRLRLRLRLRR",
+  "+LLRLRLRLRR",
+  "+LLRLRLRLRRLR",
+  "+LLRLRLRR",
+  "+LLRLRLRRLLRR",
+  "+LLRLRLRRLR",
+  "+LLRLRLRRLRLR",
+  "+LLRLRRLLRR",
+  "+LLRLRRLR",
+  "-LLLLLRLRRRRR",
+  "-LLLLRLLR",
+  "-LLLLRLRLRRRR",
+  "-LLLLRLRRRLRR",
+  "-LLLLRRLLRRRR",
+  "-LLLRLLRR",
+  "-LLLRLLRRLRRR",
+  "-LLLRLLRRRLRR",
+  "-LLLRLRLR",
+  "-LLLRLRLRLRRR",
+  "-LLLRLRLRRR",
+  "-LLLRLRLRRRLR",
+  "-LLLRLRRR",
+  "-LLLRLRRRLLRR",
+  "-LLLRRLLRRR",
+  "-LLLRRLRLLRRR",
+  "-LLRLLRLR",
+  "-LLRLLRLRRLRR",
+  "-LLRLLRR",
+  "-LLRLRLRLRLRR",
+  "-LLRLRLRLRR",
+  "-LLRLRLRLRRLR",
+  "-LLRLRLRR",
+  "-LLRLRLRRLLRR",
+  "-LLRLRLRRLR",
+  "-LLRLRRLLRR",
+  "-LLRLRRLR"
+ ],
+ "agree with the census (dimensions and the fibre boundary)": 60,
+ "disagree": [],
+ "smallest fibre-boundary residual among those reached": 6.385998833705751e-05,
+ "records": [
+  {
+   "state": "+LLLLLLLLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    -0.2364243781044816,
+    -0.46549252957671367
+   ],
+   "T residual": 1.9402985473011036e-59,
+   "commutation": 1.8598078681655894e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8899773867390727,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.998022478824516,
+     3.982009586422146e-58
+    ],
+    "coboundary margin": [
+     1.094207309049124,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.09599675309101174,
+     3.176017668080717e-57
+    ],
+    "coboundary margin": [
+     0.756124640471343,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.26938920119833076,
+   "seconds": 14.9
+  },
+  {
+   "state": "+LLLLLLLR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    -0.23743082486645858,
+    0.2771075327934433
+   ],
+   "T residual": 8.812388947670126e-60,
+   "commutation": 1.001055524311922e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.705300677720881,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9774129640911446,
+     4.324862493475101e-59
+    ],
+    "coboundary margin": [
+     1.0998104946881182,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.11712733956128293,
+     7.09157744314341e-58
+    ],
+    "coboundary margin": [
+     0.8926949922568705,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6183601021847732,
+   "seconds": 14.1
+  },
+  {
+   "state": "+LLLLLLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    -0.23235216119381438,
+    -0.28332443447286
+   ],
+   "T residual": 6.582594906607587e-60,
+   "commutation": 8.676356924097764e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.7046473906931164,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9728924211255593,
+     5.397583785255744e-59
+    ],
+    "coboundary margin": [
+     1.1061538018564612,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.12405299461665875,
+     1.1322107483043687e-57
+    ],
+    "coboundary margin": [
+     0.8936720431109754,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6200333132357386,
+   "seconds": 11.6
+  },
+  {
+   "state": "+LLLLLLRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    -0.2212735884228542,
+    0.4834199201861535
+   ],
+   "T residual": 1.6653973398960244e-57,
+   "commutation": 2.4301435114729284e-57,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8865472305912199,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8924066679887314,
+     1.1057393339770688e-56
+    ],
+    "coboundary margin": [
+     1.59582068883101,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.07664958465957998,
+     2.3776762520892938e-52
+    ],
+    "coboundary margin": [
+     0.7512702274956778,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.00025075884330894396,
+   "seconds": 16.6
+  },
+  {
+   "state": "+LLLLLLRRRRRR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": true,
+   "shape": [
+    8.836676422999522e-60,
+    -0.5955169809575138
+   ],
+   "T residual": 3.986191010674564e-58,
+   "commutation": 3.5136022757096364e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.973665961010276,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.6132962245741548,
+     1.3242314581654192e-56
+    ],
+    "coboundary margin": [
+     1.255043017439442,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.0603077092129413,
+     1.6690006012377997e-51
+    ],
+    "coboundary margin": [
+     0.7245885729256669,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.00047580472327755045,
+   "seconds": 2.7
+  },
+  {
+   "state": "+LLLLLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    -0.22411844145944074,
+    0.2917240481682572
+   ],
+   "T residual": 2.37795984851775e-58,
+   "commutation": 3.8424256330469825e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.7035627192369028,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9639429273955918,
+     1.2307630698759427e-58
+    ],
+    "coboundary margin": [
+     1.115351036205257,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.13414380788048658,
+     2.427543634120512e-58
+    ],
+    "coboundary margin": [
+     0.8947167644374023,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6276321183359428,
+   "seconds": 9.9
+  },
+  {
+   "state": "+LLLLLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    -0.28749572912770377,
+    0.5895014134058147
+   ],
+   "T residual": 6.229884416670938e-56,
+   "commutation": 7.752427355925317e-56,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8649951503136275,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0425856070683959,
+     4.330808981834032e-56
+    ],
+    "coboundary margin": [
+     1.133134793272133,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.1270674303856559,
+     3.6533184473002876e-55
+    ],
+    "coboundary margin": [
+     0.8395223012008401,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.4845130988414192,
+   "seconds": 34.1
+  },
+  {
+   "state": "+LLLLLRLRRRRR",
+   "non-real fixed points seen": 14,
+   "hyperbolic found": false,
+   "seconds": 172.4
+  },
+  {
+   "state": "+LLLLLRR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    -0.2047967722212326,
+    0.49723933117925184
+   ],
+   "T residual": 2.1198446683869777e-55,
+   "commutation": 2.8805553310552084e-55,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8831245534115764,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9029525172700885,
+     9.643322648399878e-57
+    ],
+    "coboundary margin": [
+     1.5941499213621442,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.07931821080903911,
+     8.653446193500528e-53
+    ],
+    "coboundary margin": [
+     0.7457417906049799,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.00032531719936254084,
+   "seconds": 13.7
+  },
+  {
+   "state": "+LLLLLRRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    -0.11886477492483287,
+    0.5940223078622516
+   ],
+   "T residual": 2.126574380356342e-59,
+   "commutation": 2.3815190555033064e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.933627024789222,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0091205942435348,
+     2.560077094245674e-59
+    ],
+    "coboundary margin": [
+     1.0883498449190794,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.024410351366877255,
+     1.0430775904688019e-57
+    ],
+    "coboundary margin": [
+     0.6888451763899778,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.16793627031224007,
+   "seconds": 18.0
+  },
+  {
+   "state": "+LLLLLRRRRR",
+   "non-real fixed points seen": 9,
+   "hyperbolic found": true,
+   "shape": [
+    -4.6027658130357076e-61,
+    0.6141158905993074
+   ],
+   "T residual": 6.303076991129891e-60,
+   "commutation": 7.688917685864532e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9629120178362601,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.981273714097954,
+     5.691033676742692e-59
+    ],
+    "coboundary margin": [
+     1.030978672307294,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.11038204892387367,
+     1.723219155094828e-56
+    ],
+    "coboundary margin": [
+     0.6083672155596754,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.16462378420061452,
+   "seconds": 38.9
+  },
+  {
+   "state": "+LLLLR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    -0.2098216888035403,
+    -0.3031453646035997
+   ],
+   "T residual": 3.3392429920071675e-58,
+   "commutation": 3.1359991497516363e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.7015621187164244,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.855197988791661,
+     2.1854906094522374e-57
+    ],
+    "coboundary margin": [
+     1.7445531011811168,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.04817486924818155,
+     5.328627978001525e-53
+    ],
+    "coboundary margin": [
+     0.7676315617575086,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 6.385998833705751e-05,
+   "seconds": 3.3
+  },
+  {
+   "state": "+LLLLRLLLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    -0.35032438306424324,
+    0.8307078512381905
+   ],
+   "T residual": 6.732008490179654e-53,
+   "commutation": 9.213887820397717e-53,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9563466250833894,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9892217113865533,
+     6.322638993184486e-53
+    ],
+    "coboundary margin": [
+     1.1274765424471835,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.151037747659667,
+     2.575120969147886e-52
+    ],
+    "coboundary margin": [
+     0.7737799020914654,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.22579400500252061,
+   "seconds": 33.0
+  },
+  {
+   "state": "+LLLLRLLR",
+   "non-real fixed points seen": 11,
+   "hyperbolic found": false,
+   "seconds": 235.6
+  },
+  {
+   "state": "+LLLLRLR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": true,
+   "shape": [
+    -0.26595733895665663,
+    -0.6073791350851804
+   ],
+   "T residual": 2.5570831950455595e-59,
+   "commutation": 2.1562440352351617e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.869508268374662,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0413609953813818,
+     6.721217863841583e-59
+    ],
+    "coboundary margin": [
+     1.1477002367457037,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.16490489416941204,
+     1.6866701932362695e-55
+    ],
+    "coboundary margin": [
+     0.850740788747047,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.4552138965354223,
+   "seconds": 21.5
+  },
+  {
+   "state": "+LLLLRLRLRRRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 128.8
+  },
+  {
+   "state": "+LLLLRLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    -0.17104678534186035,
+    -0.77495881863632
+   ],
+   "T residual": 1.094549035217571e-59,
+   "commutation": 1.0829395767680664e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9468119341952105,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.046297721602025,
+     3.919001788272283e-58
+    ],
+    "coboundary margin": [
+     1.123915688389414,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.12063683781760925,
+     1.9297247024818564e-55
+    ],
+    "coboundary margin": [
+     0.7452952310211169,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.19082552419780097,
+   "seconds": 23.9
+  },
+  {
+   "state": "+LLLLRLRRRLRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": false,
+   "seconds": 119.7
+  },
+  {
+   "state": "+LLLLRLRRRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    -3.7508937207799943e-60,
+    0.8287444505063819
+   ],
+   "T residual": 5.818159744402581e-59,
+   "commutation": 7.082059724018307e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9767315949145298,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9946714081092293,
+     1.09882946534795e-58
+    ],
+    "coboundary margin": [
+     1.054492275261986,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.1299404972061265,
+     1.1995883584971592e-56
+    ],
+    "coboundary margin": [
+     0.6204016714311984,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.15265208581108414,
+   "seconds": 116.1
+  },
+  {
+   "state": "+LLLLRLRRRRLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": false,
+   "seconds": 152.8
+  },
+  {
+   "state": "+LLLLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    -0.17390519238996552,
+    0.5144261270683462
+   ],
+   "T residual": 3.572976713262758e-60,
+   "commutation": 4.04637932022166e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8768943743823394,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.000242590639791,
+     4.520468657589979e-59
+    ],
+    "coboundary margin": [
+     1.1353604576916727,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.14258922849470682,
+     7.603835722442952e-59
+    ],
+    "coboundary margin": [
+     0.7862965297606884,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.22468947828226246,
+   "seconds": 8.0
+  },
+  {
+   "state": "+LLLLRRLLRRRR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": false,
+   "seconds": 136.9
+  },
+  {
+   "state": "+LLLLRRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    -0.07684939774258664,
+    0.60664349888991
+   ],
+   "T residual": 1.043492045243031e-59,
+   "commutation": 1.1627685682021614e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9254247053287545,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0013437392350504,
+     4.891184936445607e-59
+    ],
+    "coboundary margin": [
+     1.103287981575876,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.06839008613435511,
+     3.4300426668224003e-59
+    ],
+    "coboundary margin": [
+     0.6969540978538358,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.1575525960738102,
+   "seconds": 21.1
+  },
+  {
+   "state": "+LLLLRRRR",
+   "non-real fixed points seen": 5,
+   "hyperbolic found": true,
+   "shape": [
+    -3.8301639327172243e-60,
+    -0.6248105338438266
+   ],
+   "T residual": 2.0178905067024887e-58,
+   "commutation": 2.426646725159886e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9442719099991588,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9833028663701312,
+     1.3411920297576706e-58
+    ],
+    "coboundary margin": [
+     1.0689527072984253,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.008222480996662918,
+     1.4301925840782808e-59
+    ],
+    "coboundary margin": [
+     0.6367123844135688,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.14631337912345968,
+   "seconds": 18.4
+  },
+  {
+   "state": "+LLLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    -0.1826544708910584,
+    -0.3179653840951906
+   ],
+   "T residual": 9.654892263155042e-60,
+   "commutation": 1.3922195183502169e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.6972243622680053,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9111138826780932,
+     2.0257006515926505e-59
+    ],
+    "coboundary margin": [
+     1.1521161309966332,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.17364396460672615,
+     1.0077215382663203e-59
+    ],
+    "coboundary margin": [
+     0.9007030256853669,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6779865474669601,
+   "seconds": 3.3
+  },
+  {
+   "state": "+LLLRLLR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": true,
+   "shape": [
+    -0.31266080516607647,
+    0.6473008250943062
+   ],
+   "T residual": 1.591201643365091e-54,
+   "commutation": 7.779934141380641e-55,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8725617578627827,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9411884120998397,
+     2.6332684698261854e-56
+    ],
+    "coboundary margin": [
+     1.7087095341166185,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.11367844576930665,
+     3.892936724494962e-52
+    ],
+    "coboundary margin": [
+     0.767053105424226,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.00025269734032666086,
+   "seconds": 20.5
+  },
+  {
+   "state": "+LLLRLLRR",
+   "non-real fixed points seen": 11,
+   "hyperbolic found": false,
+   "seconds": 255.7
+  },
+  {
+   "state": "+LLLRLLRRLRRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 70.2
+  },
+  {
+   "state": "+LLLRLLRRRLRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 75.0
+  },
+  {
+   "state": "+LLLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    -0.22372622307521284,
+    0.628199101841526
+   ],
+   "T residual": 1.8973791734616035e-59,
+   "commutation": 1.4540186717985362e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8744620681770426,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0301303827753354,
+     2.36586351213407e-59
+    ],
+    "coboundary margin": [
+     1.1698241812339272,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.20856680320807072,
+     1.3227033121385116e-56
+    ],
+    "coboundary margin": [
+     0.8724725165442435,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.4103812628285615,
+   "seconds": 63.5
+  },
+  {
+   "state": "+LLLRLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": false,
+   "seconds": 282.6
+  },
+  {
+   "state": "+LLLRLRLRLRRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": false,
+   "seconds": 46.2
+  },
+  {
+   "state": "+LLLRLRLRRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 164.1
+  },
+  {
+   "state": "+LLLRLRLRRRLR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 49.7
+  },
+  {
+   "state": "+LLLRLRR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    -0.10965757278191099,
+    0.7896222581371446
+   ],
+   "T residual": 1.4191841907642729e-59,
+   "commutation": 9.757198796505425e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9446148618625834,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.034418094908674,
+     9.708519083199768e-59
+    ],
+    "coboundary margin": [
+     1.144486894915799,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.18449432348448203,
+     3.1009045926956266e-56
+    ],
+    "coboundary margin": [
+     0.7666895254963562,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.17798379682557297,
+   "seconds": 67.2
+  },
+  {
+   "state": "+LLLRLRRR",
+   "non-real fixed points seen": 17,
+   "hyperbolic found": false,
+   "seconds": 238.7
+  },
+  {
+   "state": "+LLLRLRRRLLRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 54.3
+  },
+  {
+   "state": "+LLLRLRRRLR",
+   "non-real fixed points seen": 11,
+   "hyperbolic found": false,
+   "seconds": 178.2
+  },
+  {
+   "state": "+LLLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    -0.11290947146889052,
+    0.5278849435559064
+   ],
+   "T residual": 2.9120438928177303e-51,
+   "commutation": 3.671483547150117e-51,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8637435728042173,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8289757138339215,
+     9.51659421278044e-53
+    ],
+    "coboundary margin": [
+     1.5602503110715573,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.10179908921782951,
+     9.659138948123955e-54
+    ],
+    "coboundary margin": [
+     0.7471585754689316,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.0014199260977817258,
+   "seconds": 2.2
+  },
+  {
+   "state": "+LLLRRLLRRR",
+   "non-real fixed points seen": 9,
+   "hyperbolic found": false,
+   "seconds": 176.3
+  },
+  {
+   "state": "+LLLRRLRLLRRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 47.8
+  },
+  {
+   "state": "+LLLRRLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.017949741895410414,
+    -0.9039507639346619
+   ],
+   "T residual": 1.4759049748926533e-57,
+   "commutation": 5.474423916157732e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9643311523818003,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.7961729237883264,
+     1.8453747673583393e-56
+    ],
+    "coboundary margin": [
+     1.4846582424701997,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.1738617430827146,
+     9.055895717009281e-52
+    ],
+    "coboundary margin": [
+     0.745263890096153,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.005619183252126565,
+   "seconds": 34.1
+  },
+  {
+   "state": "+LLLRRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    6.983086001852935e-61,
+    0.6018385608758137
+   ],
+   "T residual": 9.535895285737756e-60,
+   "commutation": 7.524841421057608e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9083269131959839,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9713495295840413,
+     1.5245406378088798e-59
+    ],
+    "coboundary margin": [
+     1.118905109078013,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.12466560311056564,
+     1.0790072839671627e-57
+    ],
+    "coboundary margin": [
+     0.70313356236781,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.14718798426630386,
+   "seconds": 4.8
+  },
+  {
+   "state": "+LLR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": true,
+   "shape": [
+    -0.125,
+    0.33071891388307384
+   ],
+   "T residual": 7.665694340224336e-59,
+   "commutation": 5.09648869281079e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.6847416489820998,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8751792762427362,
+     2.3570896207433954e-59
+    ],
+    "coboundary margin": [
+     1.6587518364624634,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.10776241860684349,
+     2.5539344608166666e-57
+    ],
+    "coboundary margin": [
+     0.7930282769894921,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.0024922578198919233,
+   "seconds": 1.3
+  },
+  {
+   "state": "+LLRLLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": false,
+   "seconds": 285.7
+  },
+  {
+   "state": "+LLRLLRLRRLRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 31.4
+  },
+  {
+   "state": "+LLRLLRR",
+   "non-real fixed points seen": 10,
+   "hyperbolic found": false,
+   "seconds": 210.3
+  },
+  {
+   "state": "+LLRLLRRLRR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": false,
+   "seconds": 140.5
+  },
+  {
+   "state": "+LLRLR",
+   "non-real fixed points seen": 5,
+   "hyperbolic found": true,
+   "shape": [
+    -0.14044817593317974,
+    -0.6372039234676925
+   ],
+   "T residual": 1.0144963743444795e-59,
+   "commutation": 8.469615012163537e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8768943743823394,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9931733063159407,
+     1.5493007839855014e-59
+    ],
+    "coboundary margin": [
+     1.1984890919393243,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.25781950324416797,
+     8.20464063118625e-58
+    ],
+    "coboundary margin": [
+     0.9014202125404437,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.3530855977154144,
+   "seconds": 5.3
+  },
+  {
+   "state": "+LLRLRLR",
+   "non-real fixed points seen": 9,
+   "hyperbolic found": true,
+   "shape": [
+    -0.14360936288974496,
+    0.9308679744602517
+   ],
+   "T residual": 1.0490706389131161e-54,
+   "commutation": 1.2683441137659603e-54,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9427281103128228,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9699761205666176,
+     4.6942262300398224e-55
+    ],
+    "coboundary margin": [
+     1.1997457264545417,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.2697341073650246,
+     1.9343886479258684e-54
+    ],
+    "coboundary margin": [
+     0.8962136804217217,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.32667799515725954,
+   "seconds": 125.1
+  },
+  {
+   "state": "+LLRLRLRLRLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": false,
+   "seconds": 26.1
+  },
+  {
+   "state": "+LLRLRLRLRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 100.7
+  },
+  {
+   "state": "+LLRLRLRLRRLR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": false,
+   "seconds": 27.3
+  },
+  {
+   "state": "+LLRLRLRR",
+   "non-real fixed points seen": 10,
+   "hyperbolic found": false,
+   "seconds": 302.3
+  },
+  {
+   "state": "+LLRLRLRRLLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": false,
+   "seconds": 29.0
+  },
+  {
+   "state": "+LLRLRLRRLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": false,
+   "seconds": 110.1
+  },
+  {
+   "state": "+LLRLRLRRLRLR",
+   "non-real fixed points seen": 0,
+   "hyperbolic found": false,
+   "seconds": 28.2
+  },
+  {
+   "state": "+LLRLRR",
+   "non-real fixed points seen": 11,
+   "hyperbolic found": true,
+   "shape": [
+    7.717981625999863e-62,
+    -0.7691190395486053
+   ],
+   "T residual": 8.173952698727841e-60,
+   "commutation": 6.511467564346315e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9330343736592528,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0002916370043218,
+     8.684393841630275e-59
+    ],
+    "coboundary margin": [
+     1.163085399798429,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.23136802940270879,
+     9.501728285997346e-58
+    ],
+    "coboundary margin": [
+     0.7776621104124606,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.1692494022300257,
+   "seconds": 106.7
+  },
+  {
+   "state": "+LLRLRRLLRR",
+   "non-real fixed points seen": 5,
+   "hyperbolic found": false,
+   "seconds": 126.8
+  },
+  {
+   "state": "+LLRLRRLR",
+   "non-real fixed points seen": 10,
+   "hyperbolic found": false,
+   "seconds": 304.0
+  },
+  {
+   "state": "+LLRR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": true,
+   "shape": [
+    8.250630567005813e-62,
+    -0.5
+   ],
+   "T residual": 3.092385317688061e-60,
+   "commutation": 4.7452037017570186e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.8284271247461901,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8990906843360812,
+     7.906793450095026e-60
+    ],
+    "coboundary margin": [
+     1.1719872255796562,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.20056325136091463,
+     4.4360954790817563e-60
+    ],
+    "coboundary margin": [
+     0.8016138558382122,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.181126555618713,
+   "seconds": 1.9
+  },
+  {
+   "state": "+LR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": true,
+   "shape": [
+    1.497058041534442e-62,
+    -0.28867513459481287
+   ],
+   "T residual": 8.75861104005379e-61,
+   "commutation": 1.3109631236855431e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.6180339887498949,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.6689277682671217,
+     3.71413603321481e-61
+    ],
+    "coboundary margin": [
+     1.1888500474204549,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.22492178388566134,
+     2.4624173448799705e-61
+    ],
+    "coboundary margin": [
+     0.8767132094671624,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.33885467450846396,
+   "seconds": 1.5
+  },
+  {
+   "state": "-LLLLLLLLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.2635756218955184,
+    -0.46549252957671367
+   ],
+   "T residual": 3.313373216282865e-58,
+   "commutation": 3.637447800391495e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0063253768539464,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0052851920143184,
+     9.452431870050071e-57
+    ],
+    "coboundary margin": [
+     1.094207309049124,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.2718362722469825,
+     5.807973552779619e-53
+    ],
+    "coboundary margin": [
+     0.756124640471343,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.26938920119833076,
+   "seconds": 15.1
+  },
+  {
+   "state": "-LLLLLLLR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    0.26256917513354144,
+    0.2771075327934433
+   ],
+   "T residual": 2.5119832883257898e-58,
+   "commutation": 3.150788308775678e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9499091367035092,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8120815413141577,
+     6.258522713036176e-57
+    ],
+    "coboundary margin": [
+     1.0998104946881182,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.07839735007062222,
+     7.711421576810064e-53
+    ],
+    "coboundary margin": [
+     0.8926949922568705,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6183601021847732,
+   "seconds": 15.4
+  },
+  {
+   "state": "-LLLLLLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.2676478388061856,
+    -0.28332443447286
+   ],
+   "T residual": 1.394631081426262e-58,
+   "commutation": 1.997386106028631e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9803977151030305,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.81275696373542,
+     4.7017674686269784e-57
+    ],
+    "coboundary margin": [
+     1.1061538018564612,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.04451540200913657,
+     4.351414799280811e-54
+    ],
+    "coboundary margin": [
+     0.8936720431109754,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6200333132357386,
+   "seconds": 11.5
+  },
+  {
+   "state": "-LLLLLLRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    0.27872641157714584,
+    0.4834199201861535
+   ],
+   "T residual": 5.738993483058384e-58,
+   "commutation": 5.853199581149514e-57,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0351087003073425,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.7319377295689234,
+     4.154624034129647e-58
+    ],
+    "coboundary margin": [
+     1.59582068883101,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.08061178059407603,
+     1.2747986690429934e-54
+    ],
+    "coboundary margin": [
+     0.7512702274956778,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.00025075884330894396,
+   "seconds": 16.3
+  },
+  {
+   "state": "-LLLLLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.27588155854055924,
+    0.2917240481682572
+   ],
+   "T residual": 3.746939416052397e-58,
+   "commutation": 4.6515717033504814e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0193040629447252,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8136238249747186,
+     1.107732566273973e-57
+    ],
+    "coboundary margin": [
+     1.115351036205257,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.00019907047558134758,
+     3.586658783209495e-54
+    ],
+    "coboundary margin": [
+     0.8947167644374023,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6276321183359428,
+   "seconds": 9.6
+  },
+  {
+   "state": "-LLLLLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    0.21250427087229626,
+    0.5895014134058147
+   ],
+   "T residual": 8.116416634194768e-56,
+   "commutation": 6.096601189492692e-56,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9769602627805204,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9083589862456466,
+     1.1771812428860258e-55
+    ],
+    "coboundary margin": [
+     1.133134793272133,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.14474977761322375,
+     2.7824258927720945e-51
+    ],
+    "coboundary margin": [
+     0.8395223012008401,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.4845130988414192,
+   "seconds": 35.7
+  },
+  {
+   "state": "-LLLLLRLRRRRR",
+   "non-real fixed points seen": 14,
+   "hyperbolic found": false,
+   "seconds": 163.8
+  },
+  {
+   "state": "-LLLLLRR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    0.2952032277787674,
+    0.49723933117925184
+   ],
+   "T residual": 6.926642254039529e-56,
+   "commutation": 6.521332723980262e-55,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.055632723771325,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.7382619745076923,
+     2.2027439199876683e-57
+    ],
+    "coboundary margin": [
+     1.5941499213621442,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.09438699129501482,
+     2.3334451658466873e-55
+    ],
+    "coboundary margin": [
+     0.7457417906049799,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.00032531719936254084,
+   "seconds": 14.4
+  },
+  {
+   "state": "-LLLLLRRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    0.3811352250751671,
+    0.5940223078622516
+   ],
+   "T residual": 1.820188106745734e-58,
+   "commutation": 2.186739339016047e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0524865872714,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0563656332032085,
+     7.094666673702346e-57
+    ],
+    "coboundary margin": [
+     1.0883498449190794,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.4269975031725792,
+     2.349152710608691e-53
+    ],
+    "coboundary margin": [
+     0.6888451763899778,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.16793627031224007,
+   "seconds": 29.3
+  },
+  {
+   "state": "-LLLLR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    0.2901783111964597,
+    -0.3031453646035997
+   ],
+   "T residual": 6.168620045438977e-59,
+   "commutation": 3.598258815621125e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0704397539423411,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.46883523790117,
+     3.0903967572645746e-58
+    ],
+    "coboundary margin": [
+     1.7445531011811168,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.019981989402032805,
+     2.4732600639981045e-57
+    ],
+    "coboundary margin": [
+     0.7676315617575086,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 6.385998833705751e-05,
+   "seconds": 3.7
+  },
+  {
+   "state": "-LLLLRLLLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    0.14967561693575676,
+    0.8307078512381905
+   ],
+   "T residual": 1.2745898615075197e-52,
+   "commutation": 7.335171286489645e-53,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9997917317843673,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9516435863372971,
+     5.181338288975681e-53
+    ],
+    "coboundary margin": [
+     1.1274765424471835,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.13346105937079317,
+     1.8767413169603404e-50
+    ],
+    "coboundary margin": [
+     0.7737799020914654,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.22579400500252061,
+   "seconds": 25.9
+  },
+  {
+   "state": "-LLLLRLLR",
+   "non-real fixed points seen": 11,
+   "hyperbolic found": false,
+   "seconds": 244.1
+  },
+  {
+   "state": "-LLLLRLR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": true,
+   "shape": [
+    0.2340426610433434,
+    -0.6073791350851804
+   ],
+   "T residual": 2.366612508390079e-58,
+   "commutation": 1.8641068489426531e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0015516062665677,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9055087963228492,
+     1.4738690438973406e-56
+    ],
+    "coboundary margin": [
+     1.1477002367457037,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.13983246854650394,
+     5.792527688671401e-53
+    ],
+    "coboundary margin": [
+     0.850740788747047,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.4552138965354223,
+   "seconds": 21.5
+  },
+  {
+   "state": "-LLLLRLRLRRRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 122.0
+  },
+  {
+   "state": "-LLLLRLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.32895321465813965,
+    -0.77495881863632
+   ],
+   "T residual": 2.438300720852632e-58,
+   "commutation": 2.4815287283587007e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0279145998322181,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0005361092538698,
+     1.1685082340925774e-55
+    ],
+    "coboundary margin": [
+     1.123915688389414,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.30182408901088265,
+     1.9603759987526385e-51
+    ],
+    "coboundary margin": [
+     0.7452952310211169,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.19082552419780097,
+   "seconds": 24.1
+  },
+  {
+   "state": "-LLLLRLRRRLRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": false,
+   "seconds": 113.2
+  },
+  {
+   "state": "-LLLLRLRRRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    0.5,
+    0.8287444505063819
+   ],
+   "T residual": 3.489581786013489e-58,
+   "commutation": 1.6256802670844997e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0232684050854703,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9240006791550156,
+     1.371556844962235e-55
+    ],
+    "coboundary margin": [
+     1.054492275261986,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.28539179437686685,
+     7.296852679090505e-51
+    ],
+    "coboundary margin": [
+     0.6204016714311984,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.15265208581108414,
+   "seconds": 106.2
+  },
+  {
+   "state": "-LLLLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": true,
+   "shape": [
+    0.3260948076100345,
+    0.5144261270683462
+   ],
+   "T residual": 1.6729442469465722e-58,
+   "commutation": 1.0078033696881322e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0827625302982198,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9814660477328548,
+     5.127045053996542e-57
+    ],
+    "coboundary margin": [
+     1.1353604576916727,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.35095182295153543,
+     2.876335489101707e-54
+    ],
+    "coboundary margin": [
+     0.7862965297606884,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.22468947828226246,
+   "seconds": 7.7
+  },
+  {
+   "state": "-LLLLRRLLRRRR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": false,
+   "seconds": 127.6
+  },
+  {
+   "state": "-LLLLRRR",
+   "non-real fixed points seen": 7,
+   "hyperbolic found": true,
+   "shape": [
+    0.42315060225741336,
+    0.60664349888991
+   ],
+   "T residual": 4.897743766961895e-59,
+   "commutation": 2.0643061160765295e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0693877762157964,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0454421886613277,
+     4.540200279608926e-57
+    ],
+    "coboundary margin": [
+     1.103287981575876,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.39703933067992353,
+     1.197442367082301e-53
+    ],
+    "coboundary margin": [
+     0.6969540978538358,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.1575525960738102,
+   "seconds": 21.5
+  },
+  {
+   "state": "-LLLLRRRR",
+   "non-real fixed points seen": 5,
+   "hyperbolic found": true,
+   "shape": [
+    0.5,
+    -0.6248105338438266
+   ],
+   "T residual": 2.6549746473924274e-58,
+   "commutation": 2.4037154800822623e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0557280900008412,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0029739506731006,
+     8.437147829433987e-57
+    ],
+    "coboundary margin": [
+     1.0689527072984253,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.3412239778250952,
+     5.411069718140306e-54
+    ],
+    "coboundary margin": [
+     0.6367123844135688,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.14631337912345968,
+   "seconds": 17.5
+  },
+  {
+   "state": "-LLLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.3173455291089416,
+    -0.3179653840951906
+   ],
+   "T residual": 9.902125363335046e-59,
+   "commutation": 2.4284252049129557e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.140054944640259,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8127776106702825,
+     2.588284519177346e-58
+    ],
+    "coboundary margin": [
+     1.1521161309966332,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.14265379972723016,
+     7.555932881285112e-56
+    ],
+    "coboundary margin": [
+     0.9007030256853669,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.6779865474669601,
+   "seconds": 3.3
+  },
+  {
+   "state": "-LLLRLLR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": true,
+   "shape": [
+    0.1873391948339235,
+    0.6473008250943062
+   ],
+   "T residual": 5.276600392368781e-55,
+   "commutation": 1.0580338240098882e-54,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     0.9901236940592724,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.6103721002991924,
+     4.463655262872201e-57
+    ],
+    "coboundary margin": [
+     1.7087095341166185,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.02197305549812659,
+     4.479435268901893e-54
+    ],
+    "coboundary margin": [
+     0.767053105424226,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.00025269734032666086,
+   "seconds": 21.3
+  },
+  {
+   "state": "-LLLRLLRR",
+   "non-real fixed points seen": 11,
+   "hyperbolic found": false,
+   "seconds": 252.5
+  },
+  {
+   "state": "-LLLRLLRRLRRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 65.3
+  },
+  {
+   "state": "-LLLRLLRRRLRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 64.3
+  },
+  {
+   "state": "-LLLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    0.27627377692478716,
+    0.628199101841526
+   ],
+   "T residual": 4.294896196334209e-58,
+   "commutation": 1.9278049399238093e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0352753245931567,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9018259977808163,
+     3.589979734772672e-57
+    ],
+    "coboundary margin": [
+     1.1698241812339272,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.13441507537825026,
+     3.457426314119937e-53
+    ],
+    "coboundary margin": [
+     0.8724725165442435,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.4103812628285615,
+   "seconds": 64.9
+  },
+  {
+   "state": "-LLLRLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": false,
+   "seconds": 280.9
+  },
+  {
+   "state": "-LLLRLRLRLRRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": false,
+   "seconds": 40.0
+  },
+  {
+   "state": "-LLLRLRLRRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 159.9
+  },
+  {
+   "state": "-LLLRLRLRRRLR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 51.1
+  },
+  {
+   "state": "-LLLRLRR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": true,
+   "shape": [
+    0.39034242721808904,
+    0.7896222581371446
+   ],
+   "T residual": 6.565517863363563e-59,
+   "commutation": 1.40374767320572e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0453610171872607,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.989257513292351,
+     2.2151129335568283e-56
+    ],
+    "coboundary margin": [
+     1.144486894915799,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.24086192643063373,
+     1.9145909355584603e-51
+    ],
+    "coboundary margin": [
+     0.7666895254963562,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.17798379682557297,
+   "seconds": 66.4
+  },
+  {
+   "state": "-LLLRLRRR",
+   "non-real fixed points seen": 17,
+   "hyperbolic found": false,
+   "seconds": 236.8
+  },
+  {
+   "state": "-LLLRLRRRLLRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 56.2
+  },
+  {
+   "state": "-LLLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.3870905285311095,
+    0.5278849435559064
+   ],
+   "T residual": 1.2233131120495352e-51,
+   "commutation": 9.587212191441034e-51,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.119812972607118,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.764861232503564,
+     5.329347476712646e-53
+    ],
+    "coboundary margin": [
+     1.5602503110715573,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.155118640697362,
+     1.6072437689342339e-53
+    ],
+    "coboundary margin": [
+     0.7471585754689316,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.0014199260977817258,
+   "seconds": 2.3
+  },
+  {
+   "state": "-LLLRRLLRRR",
+   "non-real fixed points seen": 9,
+   "hyperbolic found": false,
+   "seconds": 182.1
+  },
+  {
+   "state": "-LLLRRLRLLRRR",
+   "non-real fixed points seen": 6,
+   "hyperbolic found": false,
+   "seconds": 48.9
+  },
+  {
+   "state": "-LLLRRLRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.5179497418954104,
+    -0.9039507639346619
+   ],
+   "T residual": 6.036520530599259e-59,
+   "commutation": 2.1752750666406476e-58,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0312195418813974,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.7286309663400348,
+     6.553270533829371e-58
+    ],
+    "coboundary margin": [
+     1.4846582424701997,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.0677821653119733,
+     5.703920466744263e-54
+    ],
+    "coboundary margin": [
+     0.745263890096153,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.005619183252126565,
+   "seconds": 31.9
+  },
+  {
+   "state": "-LLLRRR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": true,
+   "shape": [
+    0.5,
+    0.6018385608758137
+   ],
+   "T residual": 3.240131536515951e-59,
+   "commutation": 8.069722510102393e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.091673086804016,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     1.0263775204937666,
+     7.263984564588024e-58
+    ],
+    "coboundary margin": [
+     1.118905109078013,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.3466941242008898,
+     2.2013489229039058e-54
+    ],
+    "coboundary margin": [
+     0.70313356236781,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.14718798426630386,
+   "seconds": 5.0
+  },
+  {
+   "state": "-LLR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": true,
+   "shape": [
+    0.375,
+    0.33071891388307384
+   ],
+   "T residual": 1.005336684647303e-59,
+   "commutation": 6.249809289800161e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.238605627417115,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.5556576881131816,
+     6.10560557437623e-60
+    ],
+    "coboundary margin": [
+     1.6587518364624634,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.1285136976094877,
+     1.5275838588487158e-58
+    ],
+    "coboundary margin": [
+     0.7930282769894921,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.0024922578198919233,
+   "seconds": 1.3
+  },
+  {
+   "state": "-LLRLLRLR",
+   "non-real fixed points seen": 8,
+   "hyperbolic found": false,
+   "seconds": 264.1
+  },
+  {
+   "state": "-LLRLLRLRRLRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 32.0
+  },
+  {
+   "state": "-LLRLLRR",
+   "non-real fixed points seen": 10,
+   "hyperbolic found": false,
+   "seconds": 214.0
+  },
+  {
+   "state": "-LLRLR",
+   "non-real fixed points seen": 5,
+   "hyperbolic found": true,
+   "shape": [
+    0.35955182406682024,
+    -0.6372039234676925
+   ],
+   "T residual": 1.0204128264557568e-58,
+   "commutation": 1.6183981466233956e-59,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0827625302982198,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8942351957592842,
+     6.909468221498429e-58
+    ],
+    "coboundary margin": [
+     1.1984890919393243,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.16206458882427632,
+     5.780777483012877e-55
+    ],
+    "coboundary margin": [
+     0.9014202125404437,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.3530855977154144,
+   "seconds": 5.5
+  },
+  {
+   "state": "-LLRLRLR",
+   "non-real fixed points seen": 9,
+   "hyperbolic found": true,
+   "shape": [
+    0.35639063711025504,
+    0.9308679744602517
+   ],
+   "T residual": 2.3127805082851087e-54,
+   "commutation": 9.507373848864601e-55,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0210838708838061,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.8974501052094149,
+     3.9153569425809496e-55
+    ],
+    "coboundary margin": [
+     1.1997457264545417,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.16215064627164547,
+     1.5964120647184132e-51
+    ],
+    "coboundary margin": [
+     0.8962136804217217,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.32667799515725954,
+   "seconds": 124.2
+  },
+  {
+   "state": "-LLRLRLRLRLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": false,
+   "seconds": 26.5
+  },
+  {
+   "state": "-LLRLRLRLRR",
+   "non-real fixed points seen": 4,
+   "hyperbolic found": false,
+   "seconds": 104.4
+  },
+  {
+   "state": "-LLRLRLRLRRLR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": false,
+   "seconds": 28.0
+  },
+  {
+   "state": "-LLRLRLRR",
+   "non-real fixed points seen": 10,
+   "hyperbolic found": false,
+   "seconds": 266.4
+  },
+  {
+   "state": "-LLRLRLRRLLRR",
+   "non-real fixed points seen": 2,
+   "hyperbolic found": false,
+   "seconds": 28.8
+  },
+  {
+   "state": "-LLRLRLRRLR",
+   "non-real fixed points seen": 3,
+   "hyperbolic found": false,
+   "seconds": 117.2
+  },
+  {
+   "state": "-LLRLRR",
+   "non-real fixed points seen": 11,
+   "hyperbolic found": true,
+   "shape": [
+    0.5,
+    -0.7691190395486053
+   ],
+   "T residual": 1.1427935962488035e-58,
+   "commutation": 9.694986382454846e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.0669656263407472,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9661120665469545,
+     5.804278480207353e-57
+    ],
+    "coboundary margin": [
+     1.163085399798429,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.15433432803504024,
+     1.4748804898980141e-53
+    ],
+    "coboundary margin": [
+     0.7776621104124606,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.1692494022300257,
+   "seconds": 107.0
+  },
+  {
+   "state": "-LLRLRRLLRR",
+   "non-real fixed points seen": 5,
+   "hyperbolic found": false,
+   "seconds": 135.1
+  },
+  {
+   "state": "-LLRLRRLR",
+   "non-real fixed points seen": 10,
+   "hyperbolic found": false,
+   "seconds": 269.2
+  },
+  {
+   "state": "-LLRR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": true,
+   "shape": [
+    0.5,
+    -0.5
+   ],
+   "T residual": 2.0711836164393734e-59,
+   "commutation": 5.617708516770874e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.17157287525381,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.9491822507541254,
+     7.184027741889418e-59
+    ],
+    "coboundary margin": [
+     1.1719872255796562,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.41643550954528996,
+     9.228919173580687e-57
+    ],
+    "coboundary margin": [
+     0.8016138558382122,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.181126555618713,
+   "seconds": 1.7
+  },
+  {
+   "state": "-LR",
+   "non-real fixed points seen": 1,
+   "hyperbolic found": true,
+   "shape": [
+    0.5,
+    -0.28867513459481287
+   ],
+   "T residual": 6.8399692187986e-60,
+   "commutation": 4.328464697894294e-60,
+   "H1 triv": {
+    "dim": 1,
+    "B1": 0,
+    "margin": [
+     1.381966011250105,
+     0.0
+    ],
+    "coboundary margin": [
+     null,
+     0.0
+    ]
+   },
+   "H1 so": {
+    "dim": 2,
+    "B1": 6,
+    "margin": [
+     0.7575496145002039,
+     2.572908997436007e-60
+    ],
+    "coboundary margin": [
+     1.1888500474204549,
+     0.0
+    ]
+   },
+   "H1 v": {
+    "dim": 1,
+    "B1": 9,
+    "margin": [
+     0.4997294363187279,
+     2.6270242846686715e-60
+    ],
+    "coboundary margin": [
+     0.8767132094671624,
+     0.0
+    ]
+   },
+   "fibre boundary residual": 0.33885467450846396,
+   "seconds": 1.7
+  }
+ ]
+}

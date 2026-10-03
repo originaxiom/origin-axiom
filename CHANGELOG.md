@@ -1,5 +1,53 @@
 # Changelog
 
+## B1523 banked: THE FLEXIBLE STATES — every word state to length 12 carries a projective family at its hyperbolic point; the fibre boundary is always a rigid slope, so main's one-bit rule holds on every word state; on 262 manifolds no symmetry dualises the family (PROVED, outcome B)
+
+- **Run as sealed** (`c13cb636`; 3 610 s on four cores).
+  - Two routes that share no code ran on all 536 manifolds of the 758 word states to length 12.
+  - The three literature controls were re-read first and matched `controls.json`.
+  - P1–P9 YES; the priors expected 7.1 of 9.
+- **Every word state is infinitesimally projectively rigid rel cusp** (dim H¹(M; v) = 1 on 536 of 536).
+  - So each carries a one-parameter family of convex projective structures at its hyperbolic point (Ballas–Danciger–Lee
+    Thm. 3.2; Ballas, arXiv:1805.09274, Thm. 0.2).
+  - Daly's L²R² and R²L are reproduced.
+  - For this class, this is the list BDL's Remark 3.3 leaves to future work.
+- **The fibre boundary is a rigid slope on all 536.** By Lemma R, main's B1455 one-bit rule (the longitude-inverting isometries
+  dualise) holds on every word state. Lemma R's m004 case is Heusener–Porti Lemma 8.2 and Ballas Lemma 6.2(2), read after the seal.
+- **Outcome B: 262 manifolds have no dualising isometry** (131 per sign, 482 states).
+  - They are the 220 chiral ones and the 42 swaprev-only ones.
+  - The first is ±LLRLRR at length 6; the first chiral ones are ±L³RLR² at length 7.
+  - By length 6–12 there are 2, 2, 8, 14, 36, 62 and 138.
+  - Golden among them: exactly ±L⁴RL³R² and ±L⁴RLR³LR², chosen by their words.
+- **Lemma T is local.** On the 262, near the hyperbolic point, no count-odd map fixes a vacuum of the family other than that point.
+  On the 274 others an ε = −1 isometry exists; on m004 its fixed locus contains Ballas' family (sm:B1520), elsewhere not computed.
+  Whether the index is nonzero on a mirror-broken family is registered as sL-10 item 8, sealed first.
+- **Margins.** Rank: kept ≥ 2.9 × 10⁻⁷ against dropped ≤ 2.4 × 10⁻⁴⁶ (route R); 7.3 × 10⁻⁶ against 3.8 × 10⁻⁵⁷ (route C).
+  Slopes: 1.3 × 10⁻⁸ against 4.7 × 10⁻⁵³ (R); 1.5 × 10⁻⁷ against 2.8 × 10⁻⁵⁴ (C).
+- **After the run, not sealed.** The box of 16 slopes holds a non-rigid slope on exactly the 66 reflective manifolds, always at
+  30° + 60°ℤ from the fibre boundary. The section is non-rigid on 23 manifolds, m004 among them.
+- **X1, after the seal:** route F, which rebuilds each bundle as F₂ ⋊ ℤ from its word and reads it with its own modules, cocycles
+  and ranks, read all 536 manifolds and agrees with the census on every one. Its fixed point was located from SnapPy's holonomy;
+  on 66 of the manifolds it was also found with no SnapPy holonomy at all, with identical readings. Its seeded pass reached
+  ±L³RLRLR²LR² through a rotation of the word (the same oriented manifold), by a fallback added after its first attempt; both logs
+  are kept.
+- **Records.**
+  - creates_law: T-FLEXIBLE-STATES in THEOREM_REGISTRY (Lemmas S and R, with ι, rev and T).
+  - B1520's kill-graph note: the kill's symmetry argument reaches 274 manifolds by symmetry, and not the 262.
+  - ERROR_LEDGER, beside the seal's E31 and E2 instances: an E31 instance for route F's two pre-reading bugs, and an E54
+    instance, since the seal claimed Lemma R as new while its m004 case sat in the statements beside the ones it read
+    (Heusener–Porti 8.2 after Remark 8.1; Ballas 6.2(2)). The standing is EXTENDS. And an E12 instance: the lock's routes set
+    their 60 digits only when imported, and the suite's conftest restores 15 after each test; caught before this commit, and
+    pinned by a per-file fixture. The census and the read-out ran as scripts and are unaffected. And an E11 instance: a draft
+    named route F's first miss as ±L³RL²R² at length 8; its record says ±L²RL²R² at length 7 (caught before this commit).
+  - OPEN_LEADS sL-10 item 6 banked; item 8 (the class index on a mirror-broken family) registered.
+  - Relay to main. Main's two relays to this seat (GENESIS v1.3 and v1.4; the bar adopted) and the audit lane's two (R80; the
+    harvest reply) were read in full after a fresh fetch and rowed in RELAY_LEDGER. The GENESIS numbering collision (main's v1.3 is
+    this seat's v1.2; this seat's sm:B1521 is also v1.3) is to be answered by line in this seat's next GENESIS arc.
+  - Bank-time re-sweep: main's B1459 (sealed at `70ca9c92`, run at `77714caf` during this bank; both read) is adjacent. Its ι
+    dualises SL(2) ⊗ SL(2) ⊗ χ modules up to a meridian sign, and main proves the class index zero at the 188 complete points.
+    On the SL(4) family ι keeps the line (Lemma ι).
+- **Lock** `tests/test_b1523_the_flexible_states.py` (16 fast, 2 slow; all pass). 0 of 19; I-26 stays UNEARNED.
+
 ## B1523 sealed: THE FLEXIBLE STATES — which word states carry a projective family at their hyperbolic point, and on which no symmetry dualises it (sL-10 item 6)
 
 - **The question** (sL-10 item 6; the owner's "all allowed not just m004, choice might be golden"). On every word state to
