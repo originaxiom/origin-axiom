@@ -1,0 +1,11 @@
+start 2026-10-03T20:50:41Z at 2eb3841f, before GENESIS.md is written
+C1 PASS: the received texts are main's (4 blobs compared); main's v1.8 = v1.7 + version line + 5 log lines; main's amend.py on v1.8 gives v1.9: True
+C2 PASS: sm:B1528's changes rebuild the seat's v1.8 byte for byte; its three content changes land once each in main's v1.9, which carries none of them
+C3 PASS: the record's Chern-Weil row is B1420's A4 (the Dirac index on a closed spin 4-manifold, rank-blind; the second edge stated there); the only such verdict row on main; sm:B1531 scoped the sentence the same way
+C4 PASS: on M4 at nu = (1/3, 0) the non-split W1, its dual and V (+) L are flat of rank 5 with h^1 = 2 each and count +1, -1, 0 in route T (GF(16640761)) and route L (GF(4060801)); sm:B1515's banked rows agree
+C5 PASS: sm:B1397 (flux caps), sm:B1502 (no rational flux at the apex), sm:B1503 (positive scalar curvature), sm:B1351 and sm:B1392 banked as cited; sm:B1531 puts B1397 and B1503 in none of the three kinds; GAP3's end flux
+C6 PASS: sm:B1531's 26 records recounted: symmetry 8, flatness 3, non-uniqueness 3, none 12 (nine frame arithmetic); main's L244 (a): a fourth kind refutes the taxonomy
+C7 PASS: main's B1465 run logs: 7364 rows, 0 non-zero; its twisted identity read; main's B1466 counts -1, +1, 0 on the two orders and their sum
+C8 PASS: GENESIS.md not yet written (the pre-write run)
+ALL PASS
+end 2026-10-03T20:50:43Z

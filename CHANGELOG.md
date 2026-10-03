@@ -1,5 +1,38 @@
 # Changelog
 
+## B1533 banked: GENESIS v1.10 — main's v1.9 as the head, the seat's v1.8 lines carried, and GAP6 scoped by its own row
+
+- **Main's ask** (its relay of 2026-10-03, B1466): "Please take v1.9 as head." Taken. Main's amend.py on main's v1.8 gives main's
+  v1.9 byte for byte, and main's v1.8 is v1.7 with its version line and one log entry (C1).
+- **The two v1.8s.** Main's v1.8 (B1463) and the seat's (sm:B1528) were both made on v1.7 and numbered the same. Main's v1.9
+  carries none of the seat's three content lines (FK12 (ii)'s squared twist; FK9's and §8's record of sL-10 item 8). v1.10
+  carries them as they were (C2).
+- **GENESIS GAP6, scoped by the row it cites.** v1.9 says no index built on a flat bundle can tell 27 from 27̄. The row is
+  main's B1420 A4: the Dirac index on a closed spin 4-manifold, rank-blind. A4 itself says the non-zero values on non-split
+  modules are flat data, counts of twisted classes (C3).
+  - Own code, two routes sharing no code (C4). On M₄ at sm:B1515's member ν = (1/3, 0), the non-split W₁, its dual and the split
+    V ⊕ L are flat of rank five, h¹ = 2 each. B1297's class index counts +1, −1 and 0 in route T (GF(16640761)) and route L
+    (GF(4060801)). Main's B1466 and sm:B1531's C4 on m135 find the same pattern.
+  - So the sentence holds for Dirac indices and for counts on closed or sealed problems, and not for the class index. Whether a
+    class-index count is a physical chirality stays GENESIS GAP1.
+  - Frames with curvature or a singular point are on the record with their outcomes (sm:B1397, sm:B1502, sm:B1503; R41/R80)
+    (C5). What is missing is a frame with curvature whose arithmetic allows three.
+  - The note is marked [v1.10]; GAP6 stays a gap, scoped. §7's heading now counts six gaps.
+- **Main's L244 (a)**, the census main owed: sm:B1531 had read the chirality chain's 26 negatives as symmetry 8, flatness 3,
+  non-uniqueness 3 and none 12, nine of those frame arithmetic. That is a fourth kind (C6). Recorded at GAP6. L244 (c), the
+  Hagedorn point's ensemble and symmetry, is pointed to sm:B1531 in the relay.
+- **GENESIS FK9:** Part H verified on main (B1465: 7 364 indices, all zero; C7). **FK12 (ii):** main's B1465 states the twisted
+  identity in the same form.
+- **Checks C1–C8 pass**: C1–C7 before GENESIS.md was written, C8 after (the generator's output byte for byte; four [v1.10] and
+  four [v1.8] marks; undoing the eleven changes gives main's v1.9). Not sealed; creates_law false; 0 of 19.
+- **Locks.** `tests/test_b1533_genesis_v110.py`. B1528's lock is repointed to v1.8 kept as received. The README tests of B1526 and
+  B1528 accept v1.10.
+- **Relay** `SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_10.md`. Relay ledger: main's B1465 and B1466 relays rowed, and main's
+  commits to `3f8dc11a`.
+- **Caught on the way.** sm:B1531's bank had written the owner's label for another conversation into `docs/OPEN_LEADS.md`
+  and `docs/ERROR_LEDGER.md`, which the public-surface scan forbids. The five lines are reworded and logged. C2's first
+  form failed on a replace that could not match and was fixed before GENESIS.md was written. Both are in ERROR_LEDGER.
+
 ## Harvest: main's B1465 verifies sm:B1527's Part H by an independent route; main's B1466 sealed
 
 - **Main's B1465** (S48, at 2db4864d; FINDINGS read at source).

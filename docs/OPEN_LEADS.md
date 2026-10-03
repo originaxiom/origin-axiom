@@ -3807,6 +3807,12 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    gives it byte for byte. Main's corrected GENESIS FK12 (ii) sentence made exact: the meridian sign is the SL(2) factors'
    own, for modules with no meridian twist; a twist t ↦ λ enters squared (P*V ≅ V* ⊗ (t ↦ λ²) at m004's complete point);
    P fixes Ballas' ρ_q, which is not self-dual for q ≠ 1. sL-10 item 8 recorded as answered (sm:B1527).
+   **[2026-10-03, sm:B1533] GENESIS v1.10.** Main's v1.9 (B1466) taken as the head; main's amend.py on main's v1.8 gives it
+   byte for byte. The SM seat's v1.8 lines, made in parallel with main's v1.8 and not in main's v1.9, carried as they were.
+   GENESIS GAP6 (the flatness) scoped by its own row, B1420's A4 (the Dirac index on a closed spin 4-manifold): B1297's
+   class index counts +1, −1 and 0 on three flat modules of one rank on M₄ (own code, two routes), and frames with
+   curvature or a singular point are on the record (sm:B1397, sm:B1502, sm:B1503). Main's L244 (a) and (c) pointed to
+   sm:B1531; Part H verified on main (B1465) recorded at GENESIS FK9.
 5. **The metallic fixed loci, component by component** (sm:B1521; the audit lane's AR4). Does the fixed locus of φ_m =
    Ta^m ∘ Tb^m on ℂ³ have isolated components, and if so, are their κ values related by a symmetry? A yes with no relating
    symmetry would be a discrete fork inside one unit, which B130's reading denies. The golden unit m = 1 first. Seal before
@@ -3889,9 +3895,9 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
 
 ## sL-11 — THE SYMMETRIC PHASE (registered 2026-10-03, sm:B1531; this seat's proposal, the owner may reorder)
 
-*Banked 2026-10-03 as sm:B1531 (PROVED, not sealed: a check of chat 1's reframing, `philosophy/P023`, against the record).*
+*Banked 2026-10-03 as sm:B1531 (PROVED, not sealed: a check of the reframing the owner relayed from another conversation, `philosophy/P023`, against the record).*
 - The frame (the system symmetric, the state breaking it) is already sm:B849's and the audit lane's PB-CHIRAL.
-- Chat 1's three kinds cover 14 of the chirality chain's 26 negatives.
+- The reframing's three kinds cover 14 of the chirality chain's 26 negatives.
 - Its critical point is xB032's entropy, read as the Hagedorn abscissa of a free gas of periodic orbits, where the
   monodromy's own thermodynamics has no broken mirror phase.
 - In the bare flat model the split configuration is the minimum (R76, F01, main's B1455). The one non-split configuration
@@ -3904,6 +3910,6 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
 2. **An interacting orbit gas** (sm:B1531 §8 (b)). The free orbit gas has no broken mirror phase (B1531 §4.3). Does the
    object supply an interaction between periodic orbits, or a non-Hölder potential, under which β_c = h_top becomes a
    transition? No candidate is named; this is a question to sweep before anything is designed.
-3. **Curvature in a frame whose arithmetic allows three** (sm:B1531 §8 (c)). Chat 1's four-dimensional bulk with instantons
+3. **Curvature in a frame whose arithmetic allows three** (sm:B1531 §8 (c)). The reframing's four-dimensional bulk with instantons
    is untried as such. B1397: flux caps in the E6 frames give even counts; B1503: positive curvature kills the link's index.
    The open question is the frame, not the curvature.

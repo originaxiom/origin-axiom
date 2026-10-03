@@ -221,7 +221,7 @@ def test_ledgers_and_surfaces():
     leads = _norm((ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8"))
     assert "[2026-10-03, sm:B1526] GENESIS v1.6." in leads
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    assert re.search(r"\[`GENESIS\.md`\]\(GENESIS\.md\) v1\.(6|8) is canonical on this branch", readme)   # v1.8 since sm:B1528
+    assert re.search(r"\[`GENESIS\.md`\]\(GENESIS\.md\) v1\.(6|8|10) is canonical on this branch", readme)   # v1.8 since sm:B1528, v1.10 since sm:B1533
     assert "v1.2 is canonical" not in readme
     lock = (ROOT / "tests" / "test_b1525_genesis_v15.py").read_text(encoding="utf-8")
     assert 'V15_KEPT = ROOT / "frontier" / "B1526_genesis_v16" / "received" / "GENESIS_v1_5_sm.md"' in lock

@@ -7,7 +7,10 @@ Ballas' family); sL-10 item 8 is recorded as answered (sm:B1527). Locked here:
 - live: C4 (exact); C1 when origin/main's B1462 is in the clone; C2 and C3 in a slow test (60-digit characters);
 - GENESIS v1.8's text: version, marks, the added sentences, the statuses;
 - Gate 5-Q's three words (encoded here), vendor words and the private term: absent from GENESIS.md and the arc's text;
-- the ledgers, the relay, README, and B1526's repointed lock."""
+- the ledgers, the relay, README, and B1526's repointed lock.
+Since v1.10 (sm:B1533, 2026-10-03) GENESIS.md is main's v1.9 plus the marked [v1.8] lines and [v1.10] changes. v1.8's text is
+kept byte-identical in B1533's arc (`received/GENESIS_v1_8_sm.md`), and the tests below that read v1.8 read it there;
+B1533's lock checks GENESIS.md."""
 import base64
 import hashlib
 import importlib.util
@@ -25,6 +28,7 @@ REC = ARC / "received"
 V17M, V16S = REC / "GENESIS_v1_7_main.md", REC / "GENESIS_v1_6_sm.md"
 RELAY_IN = REC / "CC_TO_SM_AND_CODEX_2026-10-03_YOUR_SIX_ARCS_HARVESTED_GENESIS_V1_7.md"
 RELAY_OUT = ROOT / "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_8.md"
+V18_KEPT = ROOT / "frontier" / "B1533_genesis_v110" / "received" / "GENESIS_v1_8_sm.md"
 MARK = "**[v1.8]**"
 Q5 = [base64.b64decode(t).decode() for t in ("cXVhbGlh", "YXdhcmU=", "c2Vlcw==")]
 VENDOR = [base64.b64decode(t).decode() for t in ("Y2xhdWRl", "YW50aHJvcGlj", "b3B1cw==", "c29ubmV0", "ZmFibGU=")]
@@ -56,7 +60,8 @@ def test_the_received_texts():
 
 def test_genesis_is_the_generator_output():
     gen = _load("b1528_merge_genesis_v18", VER / "merge_genesis_v18.py")
-    assert gen.build() == (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    assert gen.build() == V18_KEPT.read_text(encoding="utf-8")
+    assert _sha(V18_KEPT) == "b433054459fe86434c24dffd3745e4d41806e5cadaf910bb83e1c4d207e32423"
     assert len(gen.CHANGES) == 6
 
 
@@ -116,7 +121,7 @@ def test_c2_c3_live():
 
 # ------------------------------------------------------------------------------------------------- GENESIS v1.8
 def test_genesis_v18_text():
-    raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    raw = V18_KEPT.read_text(encoding="utf-8")
     g = _norm(raw)
     assert raw.startswith("# GENESIS — the foundations of origin-axiom")
     assert "**Version 1.8 · 2026-10-03 · canonical.**" in raw and raw.count(MARK) == 4
@@ -166,7 +171,7 @@ def test_verdict_and_ledgers():
               "P*V ≅ V* ⊗ (t ↦ λ²) for V = ρ_hyp twisted by t ↦ λ", "Take v1.8 as head"):
         assert _norm(s) in relay, s
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    assert "[`GENESIS.md`](GENESIS.md) v1.8 is canonical on this branch: main's v1.7 (its B1462)" in readme
+    assert re.search(r"\[`GENESIS\.md`\]\(GENESIS\.md\) v1\.(8|10) is canonical on this branch", readme)   # v1.10 since sm:B1533
     leads = _norm((ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8"))
     assert "[2026-10-03, sm:B1528] GENESIS v1.8." in leads
     lock = (ROOT / "tests" / "test_b1526_genesis_v16.py").read_text(encoding="utf-8")

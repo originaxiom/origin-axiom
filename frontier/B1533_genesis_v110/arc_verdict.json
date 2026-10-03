@@ -1,0 +1,108 @@
+{
+ "id": "B1533",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1528",
+  "B1531",
+  "B1515",
+  "B1532",
+  "B1527",
+  "B1466",
+  "B1465",
+  "B1463",
+  "B1420",
+  "B1397",
+  "B1502",
+  "B1503",
+  "B1351",
+  "B1392",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none (GENESIS); F-HE for C4",
+  "object": "GENESIS: main's v1.9 (B1466) taken as the head and v1.10 made from it with the SM seat's v1.8 lines; GAP6's scope against the record's Chern-Weil row (B1420), checked on one member of m004's level M4 (nu = (1/3, 0), lam = 1) by two routes; lead L244 (a) on the chirality chain's 26 records (sm:B1531's reading)",
+  "reach": "general",
+  "hypotheses": [
+   "the received texts are byte-identical to their sources: main's GENESIS.md at 3f8dc11a (v1.9) and d2a95da4 (v1.8), this branch's GENESIS.md at 84892ba0 (v1.8, sm:B1528), main's relay at 3f8dc11a",
+   "C4 uses sm:B1532's sealed libraries over sm:B1515's routes T and L unchanged, over GF(16640761) and GF(4060801); ch = rk for a flat bundle is Chern-Weil, as B1420 states it",
+   "L244 (a)'s count is sm:B1531's reading of the 26 records, kept as data there; it is not a census of the kill graph's 821 records",
+   "main's B1465 and B1466 are read, not re-derived; the owner's two decisions (main's B1460) are taken as given and neither is changed",
+   "GENESIS records questions and the owner's priorities; the experiential question is held under Gate 5-Q and nothing about it is claimed"
+  ]
+ },
+ "claim_one_line": "GENESIS v1.10 (not sealed: every item checks a claim the record already fixes): main's v1.9 (B1466) taken as the head, as main asked; main's amend.py on main's v1.8 gives main's v1.9 byte for byte, and main's v1.8 is v1.7 with a version line and one log entry (C1). The SM seat's v1.8 lines (sm:B1528), made on v1.7 in parallel with main's v1.8 and not in main's v1.9, carried as they were (C2). GAP6 scoped from the record (marked [v1.10]): its Chern-Weil row is B1420's A4, the Dirac index on a closed spin 4-manifold, rank-blind, and B1420 itself states that the non-zero values on non-split modules are flat data, counts of twisted classes (C3); B1297's class index is not a characteristic number: on M4 at nu = (1/3, 0) the non-split W1, its dual and the split V (+) L are flat of rank five, of one Chern character, h^1 = 2 each, and count +1, -1 and 0 in two routes (C4, own code); frames with curvature or a singular point are on the record (sm:B1397, sm:B1502, sm:B1503, R41/R80) with their outcomes (C5); and the chirality chain's 26 negatives read by sm:B1531 give symmetry 8, flatness 3, non-uniqueness 3 and none 12, nine of them frame arithmetic: a fourth kind (main's L244 (a); C6). At FK9 Part H verified on main (B1465: 7 364 indices, all zero; C7); at FK12 (ii) main's B1465 states the twisted identity in the same form. Section 7 counts six gaps. B1528's lock repointed to v1.8 kept as received. No status changes; FK1 and FK12 as the owner decided. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "2eb3841f",
+    "origin/art/camper-van-bar": "b3745696",
+    "origin/audit/physical-bridge-2026-09-05": "ddd345a8",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "2eb3841f",
+    "origin/main": "3f8dc11a",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "GENESIS v1.10",
+    "Version 1.10",
+    "GAP6",
+    "rank-blind",
+    "take v1.9 as head",
+    "fourth kind",
+    "Chern-Weil row"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@3f8dc11a:GENESIS.md (= received/GENESIS_v1_9_main.md)",
+     "bearing": "the head taken; no head has a v1.10; its GAP6 is the sentence scoped here"
+    },
+    {
+     "where": "origin/main@3f8dc11a:frontier/B1466_the_two_orders_and_the_register_bit (FINDINGS section 1, adoption/amend.py, received/GENESIS_v1_8_main.md)",
+     "bearing": "main's five changes; its amend.py on main's v1.8 gives main's v1.9 byte for byte (C1); its table counts -1, +1 and 0 on the two orders and their sum (C7)"
+    },
+    {
+     "where": "origin/main@3f8dc11a:docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_THE_COUNT_IS_A_BIT_AND_THE_MIXING_QUARTIC.md (= received/)",
+     "bearing": "the ask (take v1.9 as head); the mixing-quartic ask is the audit lane's"
+    },
+    {
+     "where": "origin/main@3f8dc11a:frontier/B1420_the_referees_upgrades/FINDINGS.md A4 and docs/views/VERDICT_LEDGER.md",
+     "bearing": "the record's Chern-Weil row: the Dirac index on a closed spin 4-manifold, rank-blind, with the second edge stated (non-zero values on non-split modules are counts of twisted classes); the only verdict row on main naming Chern-Weil (C3)"
+    },
+    {
+     "where": "origin/main@3f8dc11a:docs/OPEN_LEADS.md L244",
+     "bearing": "items (a) (a fourth kind refutes the taxonomy) and (c) (the Hagedorn point's ensemble and symmetry), both done for the same reading by sm:B1531 (C6; relay)"
+    },
+    {
+     "where": "origin/main@3f8dc11a:frontier/B1465_the_mirror_broken_states_at_their_complete_points (FINDINGS, four run logs)",
+     "bearing": "Part H verified by main's route, 7 364 indices, all zero; the twisted identity in main's form (C7)"
+    },
+    {
+     "where": "origin/main:frontier/B750_lack_ledger/FINDINGS.md",
+     "bearing": "a different three-class taxonomy (the object's refusals: no point, no width, no name), not the negatives'; does not bear"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1528, frontier/B1531, frontier/B1515, frontier/B1532 (sealed libraries), frontier/B1397, frontier/B1502, frontier/B1503, frontier/B1351, frontier/B1392",
+     "bearing": "the v1.8 lines carried (C2); GAP6's scope and L244 (a) (C3, C6); the member and the two routes (C4); the frames with curvature or a singular point and the closed or sealed counts (C5)"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "none beyond the record: Chern-Weil and Atiyah-Singer enter as B1420 states them, Lichnerowicz as sm:B1503 states it; every other item is a statement about the record's texts or a finite computation on one member of m004's level M4"
+   ],
+   "sources": []
+  },
+  "standing": "RE-DERIVED",
+  "why": "main's v1.9 is re-derived on this bench from main's v1.8 by main's own amend.py (C1); the seat's v1.8 by sm:B1528's merge (C2); GAP6's scope is re-derived from B1420's own text (C3) and computed with own code by two routes (C4)"
+ }
+}

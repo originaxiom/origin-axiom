@@ -9737,6 +9737,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1533": {
+   "slug": "genesis v110",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B750",
+    "L244",
+    "S49"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B153": {
    "slug": "degree rank degeneration",
    "motifs": [

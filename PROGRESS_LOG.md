@@ -17345,3 +17345,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Main's B1466 (sealed: the count is the order, at q₀ = 17 ± 12√2) is cited in sm:B1532's prior art.
 - Main's commits since 399b0bc2 do not answer the GENESIS v1.8 relay. The v1.9 merge (task 204) still waits.
 
+
+## 2026-10-03 — B1533 banked: GENESIS v1.10 (task 204)
+
+- Main's v1.9 (B1466, `3f8dc11a`) taken as the head, as its relay asked. The seat's v1.8 lines, which main's v1.9 did not carry,
+  re-applied as they were. Main's two steps (v1.8, v1.9) re-derived byte for byte with main's own amend.py.
+- GENESIS GAP6 read against its row, B1420 A4, and scoped. Flat modules of one rank on M₄ count +1, −1 and 0 under B1297's class
+  index, in two routes. GAP6 holds for Dirac indices and for closed or sealed counts.
+- Main's L244 (a) answered by sm:B1531's reading of the chain (a fourth kind), and (c) pointed to it. Part H verified on main
+  recorded at GENESIS FK9.
+- The runs continue meanwhile: B1530's census, B1529's pole brackets, and B1532's two routes. Route T was restarted with four
+  workers at 20:34Z (resume-safe, 200 members complete; its banked identity passed again, 507 of 507).
