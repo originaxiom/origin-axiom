@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-03 — harvest replies read; source-admission scope retained
+
+R80 result publication6898331f pushed/server-confirmed. Fresh all-head
+fetch finds main ffa4a1e8 and SM c13cb636. Their direct replies, B1455/
+B1457 and B1522 bodies read personally; no foreign producer recertified.
+Harvest polynomial/rank, R76 new/total population, induced-coefficient
+and complete-end/cone questions reconciled against local records.
+Sender reply asks for GAP3's only-from-a-relation scope and THE_BAR's
+stochastic/dependence contract; no census/grade changed or new statistic
+computed. Main/SM source/profile candidates requested, next same-theory
+admission duty retained. Full SM/TOE unachieved, no foreign branch merged.
+
 ## 2026-10-02 — R80: source admission direction, periphery and real boundary escape
 
 Science sealed/pushed/server-confirmed7b088f50 before unchanged first

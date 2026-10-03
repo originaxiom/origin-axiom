@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "date": "2026-10-03",
+  "scope": "read/retrieval byte custody, not science acceptance",
+  "own_result": "6898331fb719c654ca14f8f87704e58034a7af88",
+  "main": "ffa4a1e83c5d5e9cc9ae082dc4600b43d7e39192",
+  "sm": "c13cb6365eeca6f761299b2e8948a38d5131847f",
+  "sources": [
+    {
+      "commit": "ffa4a1e83c5d5e9cc9ae082dc4600b43d7e39192",
+      "path": "docs/handoffs/CC_TO_CODEX_2026-10-02_YOUR_LANE_HARVESTED_R32_TO_R80.md",
+      "bytes": 3833,
+      "sha256": "aa642ff2eeeb087f2c01bf4277136fb2b4f003d57dc77d87435b9dc9c387ef80",
+      "read_scope": "full body",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "ffa4a1e83c5d5e9cc9ae082dc4600b43d7e39192",
+      "path": "docs/handoffs/CC_TO_CODEX_AND_SM_2026-10-02_THE_MIRROR_ON_THE_HARMONIC_FAMILY.md",
+      "bytes": 3118,
+      "sha256": "1e5bfc442a7ae08056d8cc269750bb27a4b2e28d19b70212322ffeff98af6ce5",
+      "read_scope": "full body",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "ffa4a1e83c5d5e9cc9ae082dc4600b43d7e39192",
+      "path": "docs/THE_BAR.md",
+      "bytes": 5548,
+      "sha256": "42887cc0b7e8b5a43dd63f105e3d291fd2e485ea7d881625f9d287360fc68c4c",
+      "read_scope": "full body",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "ffa4a1e83c5d5e9cc9ae082dc4600b43d7e39192",
+      "path": "frontier/B1455_the_selection_rule_and_the_deciding_test/FINDINGS.md",
+      "bytes": 12935,
+      "sha256": "b5634475f77cb81418c4c91d32deff173bc34afb3b0693c7d106e0d91726028f",
+      "read_scope": "full body; truncated aggregate gap reread separately",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "ffa4a1e83c5d5e9cc9ae082dc4600b43d7e39192",
+      "path": "frontier/B1457_the_audit_lanes_source_records_harvested/FINDINGS.md",
+      "bytes": 10450,
+      "sha256": "75bb48ff489a1bfc8584a20a1667073abcb812e87efe79c018868354ca2726f5",
+      "read_scope": "full body, not all reader passes",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "ffa4a1e83c5d5e9cc9ae082dc4600b43d7e39192",
+      "path": "GENESIS.md",
+      "bytes": 49335,
+      "sha256": "d32456b67ae2cb55e036de57c2a8619a8e546b7656144c1cf7ab008615bd557a",
+      "read_scope": "change diff/relevant paragraphs only",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "c13cb6365eeca6f761299b2e8948a38d5131847f",
+      "path": "SM_TO_CODEX_2026-10-02_ACT_REGISTER_ANSWERED_GENESIS_V1_3.md",
+      "bytes": 3541,
+      "sha256": "37d7ff734bdc941a4b2362f06f019dd01f73271c69d81b866cc0a86815981ce6",
+      "read_scope": "full body",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "c13cb6365eeca6f761299b2e8948a38d5131847f",
+      "path": "SM_TO_CODEX_2026-10-02_DECIDING_TEST_AND_ACT_REGISTER_RECEIVED.md",
+      "bytes": 3076,
+      "sha256": "3f2a6cce46984b4307ddd747760ffbef79899d46767e819d4a2303978fa5c964",
+      "read_scope": "full body",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "c13cb6365eeca6f761299b2e8948a38d5131847f",
+      "path": "frontier/B1522_the_golden_choice/FINDINGS.md",
+      "bytes": 20946,
+      "sha256": "064dedc0c2c4212ad97abce98476b043f1022edb7e66b27f8853f25e30b7e743",
+      "read_scope": "full body; foreign science not rerun",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "c13cb6365eeca6f761299b2e8948a38d5131847f",
+      "path": "frontier/B1518_the_bar/verification/null_model.py",
+      "bytes": 10234,
+      "sha256": "31e3630ba2285d718be9b49807f9e397defdf14af780fd3768a7414d2755c530",
+      "read_scope": "full source; foreign producer not executed",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "c13cb6365eeca6f761299b2e8948a38d5131847f",
+      "path": "frontier/B1518_the_bar/FINDINGS.md",
+      "bytes": 15145,
+      "sha256": "a95658c15e241f78013041a3c580fa82acba5eaa752918ea775c22cd8021f008",
+      "read_scope": "sections0--5 only",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "6898331fb719c654ca14f8f87704e58034a7af88",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md",
+      "bytes": 7053,
+      "sha256": "60133ab411d768ddad0f525b58743128d6ecfebcc021615760d6f8fc91ac9c2c",
+      "read_scope": "full sealed proof reread; actual L_V/L_W distinction",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "6898331fb719c654ca14f8f87704e58034a7af88",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM.md",
+      "bytes": 4651,
+      "sha256": "95b0f6e9dd047d677b5d98ccce05059755b7e1640b7436b46d70f310d53b9c73",
+      "read_scope": "full report",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "6898331fb719c654ca14f8f87704e58034a7af88",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_RECEIPTS.json",
+      "bytes": 13718,
+      "sha256": "cba253ad6b437e4f1aa541fb5eba68a299d3884e86b36aa18470ef666e4501e3",
+      "read_scope": "selected keys and 11/12-test stdout bodies only",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "6898331fb719c654ca14f8f87704e58034a7af88",
+      "path": "reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md",
+      "bytes": 14658,
+      "sha256": "c0838a6d3aaba40117e54464b36b2a9f668b529a4c8b900741f69289c57fced3",
+      "read_scope": "selected outcome/intake/received-bound paragraphs, lines1--95",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "6898331fb719c654ca14f8f87704e58034a7af88",
+      "path": "reports/physical_bridge_2026_09_05/LEVEL_ACTION.md",
+      "bytes": 7160,
+      "sha256": "dd82fe6890a9fb6504abe7b21c14ccb72c4b3721202649e1304261d28a682fca",
+      "read_scope": "full report",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "6898331fb719c654ca14f8f87704e58034a7af88",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md",
+      "bytes": 8963,
+      "sha256": "35b7a16cad12ec303d0ec180b6bed217822beac76b43bc21b9191ef883684116",
+      "read_scope": "selected end/comparison paragraphs, lines1--95",
+      "grade": "read; no new foreign scientific acceptance"
+    },
+    {
+      "commit": "6898331fb719c654ca14f8f87704e58034a7af88",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION.md",
+      "bytes": 6775,
+      "sha256": "a4bc9be7764645d471ccc437a0b4e187603afcb29dad7bdc527ae9443b744a3e",
+      "read_scope": "selected apex/domain paragraphs, lines1--100",
+      "grade": "read; no new foreign scientific acceptance"
+    }
+  ],
+  "captures": [
+    {
+      "raw_basename": "publication_push",
+      "raw_receipt_sha256": "e9886ef97cc77a6c9bec5b474e610f6bb5c8932434bd956b896d15026f4e3445",
+      "exit_code": 0,
+      "log_bytes": 143,
+      "log_sha256": "e2e3adaa76acb2f93670a729ece9eab0cff8f46f3dcf239439293622def25f3f",
+      "stdout_redacted": "To https://github.com/originaxiom/origin-axiom.git\n   7b088f50..6898331f  audit/physical-bridge-2026-09-05 -> audit/physical-bridge-2026-09-05\n"
+    },
+    {
+      "raw_basename": "publication_remote",
+      "raw_receipt_sha256": "6ce60146f0cbdba7d864812c84dc1f4b8bc023ced274222ef7f4c7cf3cf67732",
+      "exit_code": 0,
+      "log_bytes": 85,
+      "log_sha256": "24e40615074189a21d6af09e9cdfd74b1f53568ffdc9e8df3ef24bc81e35907c",
+      "stdout_redacted": "6898331fb719c654ca14f8f87704e58034a7af88\trefs/heads/audit/physical-bridge-2026-09-05\n"
+    },
+    {
+      "raw_basename": "fetch_oct3",
+      "raw_receipt_sha256": "c8f121e2247b2c5044cb4041c6bd28111222d275d53f5beebe2ad56d6084c52b",
+      "exit_code": 0,
+      "log_bytes": 407,
+      "log_sha256": "0ac4853654a01c978b7eb0d9b1ba68aa3068f9e72fb8a76fa6ff363cdcf7328e",
+      "stdout_redacted": "From https://github.com/originaxiom/origin-axiom\n   1e3d17b9..6898331f  audit/physical-bridge-2026-09-05 -> origin/audit/physical-bridge-2026-09-05\n   e5f1aebf..7cda35aa  <seat>/determined-hopper-t1cmii -> origin/<seat>/determined-hopper-t1cmii\n   27220af6..c13cb636  <seat>/standard-model-derivation-0qt6ao -> origin/<seat>/standard-model-derivation-0qt6ao\n   12ed66bd..ffa4a1e8  main       -> origin/main\n"
+    }
+  ],
+  "primary_web_reading": [
+    {
+      "url": "https://www.stat.math.ethz.ch/R-manual/R-devel/library/stats/html/binom.test.html",
+      "scope": "complete HTML documentation"
+    },
+    {
+      "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+      "scope": "official search-returned six principles only; not full PDF read"
+    },
+    {
+      "url": "https://doi.org/10.1080/00031305.2016.1154108",
+      "scope": "open failed HTTP403; not full text read"
+    }
+  ],
+  "governance_capture": {
+    "raw_basename": "branch_sync_gates",
+    "raw_receipt_sha256": "f4afee6362c354a7b4d0d87f1f2c69009d6d5085904f0929e6c3708ef62d863b",
+    "exit_code": 1,
+    "log_bytes": 2189,
+    "log_sha256": "26170a54597354f8d9f9cfb726725de73113a8f0b6d5773f04a902f671853205",
+    "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 62 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 42 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 38 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 295 merges since last review (DUE — run the decadal review)\n",
+    "scope": "26 PASS/four historical FAIL categories; no waiver"
+  }
+}

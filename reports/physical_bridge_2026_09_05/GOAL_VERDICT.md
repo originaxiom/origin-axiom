@@ -1,5 +1,13 @@
 # Verdict toward the full physical-theory goal - R80, updated 2026-10-02
 
+October3: R80 result publication6898331f is pushed/server-confirmed.
+Main ffa4a1e8 and SM c13cb636 replies are received with read/reproduction
+grades in BRANCH_SYNC_2026_10_03.md. Scope and stochastic-null questions
+are raised, no foreign census or physical verdict changed. Next admitted
+source/profile/end law remains the constructive duty. The goal objective
+is unchanged and unachieved; the interface scheduler reported usageLimited
+on October3, so explicit turn work is not an unattended automation promise.
+
 **Current October2 R80: source profile direction tested, not physics completed.**
 For the supplied nonsplit flat coefficient and positive adjoint-source
 coupling, a boundaryless finite-energy zero-D completion needs sources

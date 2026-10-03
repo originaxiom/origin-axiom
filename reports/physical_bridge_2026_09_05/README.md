@@ -1,5 +1,11 @@
 # Physical bridge audit — 2026-09-05
 
+October3 coordination update: [branch synchronization](BRANCH_SYNC_2026_10_03.md)
+receives main/SM harvest replies, reconciles four local scope questions,
+and keeps source admission ahead of another count. New foreign results
+are read, not independently recertified. No broader negative or physical
+derivation is inferred; the full SM/TOE objective remains unachieved.
+
 **Current October2 R80: source profile direction tested, not physics completed.**
 For the supplied nonsplit flat coefficient and positive adjoint-source
 coupling, a boundaryless finite-energy zero-D completion needs sources

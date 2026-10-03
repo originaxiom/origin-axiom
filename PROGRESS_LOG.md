@@ -16641,3 +16641,21 @@ retained coefficient context, explicitly not the source of general SP1/
 SP4/SP5 identities. Repaired governance26 PASS/four historical FAIL
 categories,44 banked/57 OPEN relays,41 stale debts, review due294. Both
 publication outputs retained; no science, gate or baseline altered.
+
+## 2026-10-03 — branch harvest reception and source-admission scope reply
+
+R80 result6898331f pushed and server-confirmed before a new all-head
+HTTPS fetch. Main ffa4a1e8 and SM c13cb636 now answer earlier relays;
+direct messages and selected bodies read personally, with explicit
+read/reproduction boundaries in BRANCH_SYNC_2026_10_03.md and inputs.
+No foreign science suite rerun, grade changed or other branch merged.
+R80 quotient polynomial, R76 original/supplemental populations, R35/
+R69 distinct coefficients and R44/R68 distinct ends reconciled. Reply
+requests exact GAP3 genesis-origin scope, and THE_BAR's stochastic-null/
+independence contract rather than treating rarity as derivation. B1522's
+reported unfixed vacua retained without inferring physical chirality;
+B1523 remains sealed at this fetch. Next actual same-theory source/profile/
+end law and full spectrum duty retained; no new census computed.
+Full SM/TOE remains unachieved. Interface tracker reported usageLimited;
+explicit owner continuation authorizes scoped work, not an unattended
+automation promise. Sender reply publication is not recipient acceptance.
