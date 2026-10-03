@@ -207,7 +207,7 @@ See `../frontier/B143_interaction_feasibility/`, `../frontier/B146_b145_calibrat
 
 Two parallel review sessions reached this same boundary by independent internal routes — one via
 geodesics / field-multiplicity (the real-quadratic axis; `S023`/L16), one via congruence-truncation +
-CM-volumes (`B147` addendum) — and a fresh-clone external audit independently reached the same verdict:
+CM-volumes (`B147` addendum) — and the audit seat's fresh-clone audit (internal to the project, PROVENANCE §0) reached the same verdict:
 **the construction does not stand as a Theory of Everything by the project's own banked results, and the
 refusal to be one (the firewall) is its most credible feature** — consistent with B150/B151 and §8/§8a.
 

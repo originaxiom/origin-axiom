@@ -27,7 +27,7 @@ def git(*args):
 def main():
     sealed = []
     for d in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", ""))):
-        for pat in ("PREREG*", "*DESIGN*.md", "SEALED*.md"):
+        for pat in ("PREREG*", "*DESIGN*.md", "SEALED*.md", "DECLARATION.md"):
             sealed.extend(sorted(glob.glob(os.path.join(d, pat))))
     sealed = sorted(set(sealed))
 

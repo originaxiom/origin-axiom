@@ -1,0 +1,22 @@
+{
+ "id": "B1464",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1461",
+  "B1456",
+  "B1247"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the repository's review loop and its gates (frame-independent)",
+  "object": "docs/SEAL_LEDGER.md and the 255 sealed files; the pretense phrases on living pages; the representation sweep's lane; the eleven aged action items",
+  "reach": "general",
+  "hypotheses": "a process arc; sealed text is listed, not repaired; the 41 frozen seals are named in gates.SEAL_PROVENANCE_BASELINE"
+ },
+ "claim_one_line": "THE AGED ITEMS PAID, AND THE SEAL GATES READ EVERY SEAL (Review 59; B1461's carry-age rule binding for the first time). Headline: the seal ledger has two row shapes and the seal parser read one, so 19 of 50 digests were recomputed and 41 of the 46 seals in the provenance rule's range -- August's and this seat's own of September -- carried neither BANKED IDENTITY nor PRIOR ART while seal-provenance printed ok; repaired on the ratchet (both shapes read, 46 of 46 digests match; seal-provenance reads the sealed files from B995 on and accepts the markers or, from B1454, the Seen-first and Disclosed sections; the 41 named as a frozen baseline; the ledger regenerated under seal-ledger-current). Seven items resolved (R55-2 chain gap machine-read; R55-4 the short-claim lane, B804 rowed; R55-9 two misnomers fixed and gate pretense-phrases; R55-13/14/15), four declined with reasons (R55-1, R55-7, R55-12, R56-1, R56-3). 42 gates, each with a registered failing-path test. Nothing in the derivation moved. 0 of 19."
+}

@@ -321,7 +321,7 @@ No invariant may be transferred between these without an explicit map.
   (fiber orientation flip = chirality) — a discrete ℤ/2 closing bit, an item of the
   price. Any sentence saying only "σ" has not stated its subject (the D-iv clause,
   binding).
-- **"κ" names AT LEAST FIVE quantities** (found 2026-09-01 by an external audit, B1233 — and
+- **"κ" names AT LEAST FIVE quantities** (found 2026-09-01 by the audit seat, B1233 — and
   the omission is the point: this register already covered conductor/level/θ-even/σ/π/6 while κ,
   the repo's most-used symbol, was absent from it). The five: (i) **the raw commutator trace**
   κ = tr[A,B] — B285 (√3·e^{±iπ/6}), B126, B330, B131, `frontier/README`, and B109 (*"κ=+2 is the

@@ -1010,3 +1010,28 @@ three; an entry without them fails the push.
 and it was written by the seat that wrote most of the window. Two of the three are now mechanical; the third is
 declared.
 
+## The seal ledger is current, and the seal gates read every seal — GATED (`seal-ledger-current`; `seal-provenance` and `seal-digests` repaired)
+
+**The rule.** `docs/SEAL_LEDGER.md` is generated (`scripts/seal_ledger.py`) and must list every preregistration-style file on
+disk (`seal-ledger-current`). `seal-digests` recomputes every digest the ledger records for a file on main, in both of the
+ledger's row shapes. `seal-provenance` reads the sealed files themselves, not the ledger: every seal from B995 on carries
+the two halves of the provenance rule — the markers `BANKED IDENTITY:` and `PRIOR ART:`, or from B1454 a "Seen first" and
+a "Disclosed" section — except the 41 named in `gates.SEAL_PROVENANCE_BASELINE`, sealed text that is listed, not repaired,
+and a list that may only shrink.
+
+**Why it exists.** Review 55's R55-13/14/15 (2026-09): the gate iterated ledger rows of one shape, so 31 of 50 digests were
+never recomputed and 41 of the 46 seals in the rule's range — including this seat's own of September — carried neither
+marker while the gate printed ok (E66's shape; B1464, Review 59). The ledger itself had been ~530 arcs stale with nothing
+watching it.
+
+## No living page claims an outside verification — GATED (`pretense-phrases`)
+
+**The rule.** PROVENANCE §0: all verification is internal. The phrases that would say otherwise ("externally verified",
+"peer-reviewed", "third-party verif…", "confirmed by experts", "verified by an external …", "an external reviewer/audit")
+are counted on living pages — ledgers and dated history exempt, a negated use (the disclaimers) not counted — and held to a
+frozen baseline of zero. "Independently verified" is this project's cross-seat language, grounded by §0, and is not in the list.
+
+**Why it exists.** Review 55 (R55-9) counted eleven ungrounded "an external reviewer/reader/audit" added in one window and
+found nothing mechanical enforcing the phrase list; by Review 59 two live misnomers remained (TERMINOLOGY, STRATEGIC_SYNTHESIS),
+fixed in B1464, and the gate holds the count at zero.
+

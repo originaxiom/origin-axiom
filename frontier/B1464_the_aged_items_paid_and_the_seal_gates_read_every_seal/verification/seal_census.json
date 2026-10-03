@@ -1,0 +1,31 @@
+{
+ "digest_strings_in_ledger": 50,
+ "rows_old_parser": 24,
+ "rows_both_shapes": 47,
+ "distinct_sealed_paths_with_digest": 46,
+ "sealed_files": 255,
+ "in_rule_range": 46,
+ "with_markers": 3,
+ "with_sections": 2,
+ "with_neither": 41,
+ "baseline": 41,
+ "gates": {
+  "seal-provenance": [
+   true,
+   "ok (every seal from B995 on carries the two halves, or is one of the 41 frozen before B1464)"
+  ],
+  "seal-digests": [
+   true,
+   "ok (46 sealed digests recomputed and matching)"
+  ],
+  "seal-ledger-current": [
+   true,
+   "ok (325 sealed files listed)"
+  ],
+  "pretense-phrases": [
+   true,
+   "ok (0 on living pages, baseline 0)"
+  ]
+ },
+ "verdict": "PASS"
+}

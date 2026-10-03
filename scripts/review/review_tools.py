@@ -281,6 +281,14 @@ def gather(anchor):
     R["sample"] = sample_draw(arcs, anchor, max(5, len(arcs) // 6))
     R["relays"] = relay_split((ROOT / "docs/RELAY_LEDGER.md").read_text()) if (ROOT / "docs/RELAY_LEDGER.md").exists() else {}
     R["fresh_clone"] = fresh_clone(ROOT) if "--fresh-clone" in sys.argv else dict(status="NOT RUN", commit=R["window"]["head"], detail="pass --fresh-clone")
+    # R55-2 (B1464): CHAIN_COVERAGE's criterion says the review adjudicates the reporter's ranked list; the reporter is run here
+    try:
+        cg = subprocess.run([sys.executable, str(ROOT / "scripts/checks/coverage_candidates.py"), "--chain-gap"], capture_output=True, text=True, timeout=600).stdout
+        top = re.findall(r"^\s+(B\d+)\s+on (\d+) surface", cg, re.M)[:8]
+        tot = re.search(r"CHAIN-GAP[^:]*: (\d+)", cg)
+        R["chain_gap"] = dict(total=int(tot.group(1)) if tot else None, top=[(a, int(n)) for a, n in top])
+    except Exception as ex:
+        R["chain_gap"] = dict(error=str(ex)[:200])
     return R
 
 def render(R):
@@ -303,6 +311,8 @@ def render(R):
     if fc: L.append("fresh-clone: %s @ %s (%s)" % (fc.get("status"), fc.get("commit"), fc.get("detail")))
     rl = R.get("relays") or {}
     if rl: L.append("relays open: outbound %d %s; inbound %d %s; declined %d; banked %d" % (sum(rl["outbound"].values()), rl["outbound"], sum(rl["inbound"].values()), rl["inbound"], rl["declined"], rl["banked"]))
+    cg = R.get("chain_gap") or {}
+    if cg: L.append("chain gap (the review adjudicates the top; promotions are pinned in docs/CHAIN_COVERAGE.json): %s of the record's arcs on a surface and not in the chain; top: %s" % (cg.get("total"), ", ".join("%s (%d)" % t for t in cg.get("top", [])) or cg.get("error")))
     L.append("sample seed: %s; to be read in full (seeded by the anchor): %s" % (w["anchor"], ", ".join(R["sample"])))
     return "\n".join(L)
 

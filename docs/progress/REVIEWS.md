@@ -5673,8 +5673,8 @@ sample is six arcs of 38. It took the debt checkers' counts as given, after find
 - [x] R58-1: decide the governance proposal of §9 — the review fires; carried items age; three checks join the core (owner: the owner; source: B1448) — **decided 2026-10-02: YES to all three** (the owner: "yes on all as you recomend for all"). The implementation — the gate, the ageing rule and the three checks — is main's next process arc; until it lands nothing is enforced **Implemented 2026-10-03 (B1461):** gates `review-fires` (40 merges; `docs/progress/REVIEW_WAIVER.md`), `carry-age` (third carry; the fifteen keys past the limit today are a baseline due at Review 59), `gate-controls` (`tests/GATE_CONTROLS.json`, 40 of 40) and `review-core` (from Review 59: `fresh-clone:`, `sample seed:`, `gate controls:`); GOVERNANCE §15 amended; `review_tools.fresh_clone` run on `5c0951b7`: gates all PASS, belt ok.
 - [x] R58-2: write a failing-path test for each of the twelve gates that have none — append-only, chain-locks, firewall-oneway, id-collisions, knowledge-index, law-map-provenance, lawmap-scope, path-refs, practices-register, seal-provenance, views-fresh, views-generated (owner: cc; source: R55-16, B1423) — **paid 2026-10-03 (B1461):** the twelve, and six more found by the register (test-vacuity, seal-digests, retraction-sweep, representation-sweep, framing, claims, atlas-fresh, arc-verdicts, attribution, theorem-registry, retraction-debt among them), in `tests/test_gate_failing_paths.py`; every one of the 40 gates has a registered failing-path test.
 - [x] R58-3: before 2026-10-09 pay or escalate L225, L226 and L227; L226's re-runs are unfinished (owner: cc; source: §7) — **paid 2026-10-02:** L225 closed by B1450, L226 by B1452, L227 by B1449
-- [ ] R58-4: harvest the SM seat's 49 and the audit/codex lane's 103 unrowed items, sweeping each id over the arcs before rowing it as owed (owner: cc; source: R56-1, E54) — **largely paid 2026-10-02 (B1453: the SM seat's 47 arcs rowed, four re-derived; B1457: the audit lane's 116 reports and nine relays rowed, four pieces re-derived); still open:** the SM seat's sm:B1521–B1523 and the audit lane's reply of 2026-10-03 (read, not rowed).
-- [ ] R58-5: the literature checks for T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE and T-MASS-TERM (owner: cc; source: §8)
+- [>] R58-4: harvest the SM seat's 49 and the audit/codex lane's 103 unrowed items, sweeping each id over the arcs before rowing it as owed (owner: cc; source: R56-1, E54) — **largely paid 2026-10-02 (B1453: the SM seat's 47 arcs rowed, four re-derived; B1457: the audit lane's 116 reports and nine relays rowed, four pieces re-derived); still open:** the SM seat's sm:B1521–B1523 and the audit lane's reply of 2026-10-03 (read, not rowed).
+- [>] R58-5: the literature checks for T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE and T-MASS-TERM (owner: cc; source: §8)
 - [x] R58-6: the vanishing of the class index on irreducible modules — a proof or a counterexample; B1447's sixteen non-self-dual modules widen the statement (owner: cc; source: B1329–B1332) — **paid 2026-10-03 (B1459, PROVED):** on every module ρ_ℓ ⊗ ρ_η ⊗ χ with SL(2) factors irreducible on the fibre, at a doubly parabolic point of any once-punctured-torus bundle, the fibre's elliptic involution carries V to V* ⊗ ε and the index vanishes on both branches; computed on B1451's 188 points (ε = +1 on 111, −1 on 77; I(V ⊗ ε) = 0 on all 77). Not reached, still open: B1447's sixteen non-self-dual modules (L242 (a)).
 - [x] R58-7: release or decline the held relays to codex and to the SM seat, including the two drafted on 2026-10-02 (owner: the owner) — **released by the owner 2026-10-02** ("release relays"): three sent to the SM seat's session, nineteen carried to codex in `docs/handoffs/CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md`
 - [x] R58-8: the lineage decision of 2026-09-13 (owner: the owner) — **closed 2026-10-02 on evidence, not on a decision:** the document recommends fast-forwarding main onto the historical line, and that was done at the consolidation — the historical tip `940b24fb` and the old main tip `b94ed03a` are both ancestors of main, which has one root (`517783f2`, 2026-05-22). Review 58 carried it as open without checking the tree (E54, this bench)
@@ -5691,3 +5691,113 @@ sample is six arcs of 38. It took the debt checkers' counts as given, after find
 - [x] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26; this seat recommends declining it under the owner's direction of 2026-10-01 (owner: the owner) — **DECLINED by the owner 2026-10-02** ("yes on all as you recomend for all", on this seat's recommendation to decline): the four papers stay on the archived lane as that seat's drafts and are not adopted into main's portfolio
 
 **anchor-commit: `fd17a3bd`**
+
+# Review 59 (2026-10-03) — the first review that could fail itself
+
+Twenty merges since Review 58 against a period of twenty; a window of 20 first-parent commits (`fd17a3bd..d2a95da4`
+plus this landing) and 16 arcs with a verdict, B1449–B1464. The first review under the governance delta the owner
+approved on 2026-10-02 and B1461 switched on this morning: the review fires at forty merges, carried items age at the
+third carry, every gate has a registered failing-path test, and the entry states its fresh clone, its seeded sample and
+its gate controls. All three core lines below are the tools' output (`scripts/review/review_tools.py --fresh-clone`),
+not written by hand.
+
+**fresh-clone: PASS @ d2a95da4** (gates all PASS; belt ok) · **sample seed: fd17a3bd**; to be read in full: B1451,
+B1453, B1458, B1459, B1462 · **gate controls: 42 registered** failing-path tests; unregistered: none.
+
+## 1. The loop (Review 58's block, closed or carried; the aged items dispositioned)
+
+Review 58's own eight: R58-1 implemented (B1461, four gates), R58-2 paid (25 failing-path tests; the register at 42 of
+42), R58-3 paid (L225–L227), R58-6 paid (B1459: the zeros at the complete points are a theorem), R58-7 and R58-8 closed;
+R58-4 (the harvest) largely paid by B1453, B1457 and B1462 and carried once more with what is left named; R58-5 (the
+literature checks for the four theorems) carried, first carry.
+
+**The eleven at their third carry or beyond, under the rule for the first time** (B1464 §2): **resolved** R55-2 (the
+chain-coverage criterion is machine-read: the reporter runs inside the review tools and its top is printed below),
+R55-4 (the short-claim lane; B804 rowed), R55-9 (two live misnomers fixed; gate `pretense-phrases`), R55-13, R55-14,
+R55-15 (§3 below); R55-6 was resolved in B1461. **Declined with the reason on the line**: R55-1, R55-7, R55-12, R56-1,
+R56-3. Nothing carried a fourth time without a disposition; the carry-age gate reads this block.
+
+## 2. The branch inventory (B763 rule)
+
+Nine unmerged leaves on the two mirrors, all registered; one new since Review 58 — `art/camper-van-bar`, one commit, an
+illustration, an author field that is not the repository's, found by the suite's lane survey in S44, registered as a
+watched non-seat lane pinned at its head; whether it stays is the owner's. The SM-derivation lane was 3 commits behind
+on codeberg and was mirrored (fast-forward); it moved again the same hour (sm:B1527, "the cusp decides", sealed and
+banked — the subject of main's L242 (e)), and that is the next harvest. The audit lane and the two SM child lanes are
+in step.
+
+## 3. Protocol integrity — the headline
+
+**Two seal gates were green over a rule honoured by 3 of 46.** `docs/SEAL_LEDGER.md` has two row shapes and the seal
+parser read one, so `seal-digests` recomputed 19 of 50 digests (R55-15's "19 of 49") and `seal-provenance` checked the
+same 19 files for the markers the rule of 2026-08-08 requires. Read from the sealed files themselves: of the 46 seals
+from B995 on, 3 carry `BANKED IDENTITY:` and `PRIOR ART:`, 2 carry the "Seen first" and "Disclosed" sections that
+replaced them from B1454, and **41 carry neither — August's, and this seat's own B1434–B1451 of September.** R55-13
+had counted four. Repaired on the ratchet (B1464): both row shapes read, 46 of 46 digests match; `seal-provenance`
+iterates the files and binds every seal from now, the 41 named as a frozen baseline that may only shrink; the ledger
+regenerated (325 files; it had in fact been regenerated since Review 55 — three were missing, not 530) under
+`seal-ledger-current`. The two seals of this window (B1450, B1451) have every hash in order and were sealed before
+their results; B1451 is one of the 41.
+
+## 4. Provenance spot-sweep
+
+12 494 added lines scanned, 3 hits, 2 in public-facing files: `docs/EARLY_RECORD_INDEX.md` quoting B159's own verdict
+("independently verified", this project's cross-seat language, grounded by PROVENANCE §0) and a RELAY_LEDGER row's
+"HELD". Neither is a pretense. The strong family on living pages is now gated at zero (`pretense-phrases`), after two
+live misnomers were fixed — one of them in TERMINOLOGY, the page that had retired the phrase.
+
+## 5. Advancement, errors, vocabulary
+
+LAW_MAP +3 rows (the zeros at the complete points; the count is odd under dualising; the earlier one of the window),
+THEOREM_REGISTRY +0. Error instances filed in the window: E52 ×2, E53 ×3, E54 ×1, E58 ×1, **E82 ×2** — B1459's sealed
+sign detector that could only return one sign, and B37's self-model predicate of 2026-05 that could not fire, found
+twenty weeks late (B1463). No new classes. New vocabulary not in TERMINOLOGY: none.
+
+## 6. The chain gap, adjudicated (R55-2, the first time by the tools)
+
+753 of the record's arcs are on a synthesis surface and not in the chain; the top by surface degree: B1098 (8), B959
+(7), B1100 (7), B952 (7), B1086 (6), B1000 (6), B1070 (6), B576 (6). **No promotion this review.** The chain is the
+structure chain; these are the closing campaign's and the value channel's results, on LAW_MAP and the SM verdict, and
+under THE_BAR a positive enters the chain with a card. Decided, not deferred: the list is read, the reason is given.
+
+## 7. The sample, read
+
+Five arcs drawn by the anchor, all this seat's own in this window — the modulus is stated as such. Checked on each:
+the verdict file (B1451 and B1453 predate the scope tag of B1454 and have none, as the rule then stood; the three later
+ones carry it), the lock exists and runs in the suite, the "Seen first" section (B1451 predates the rule), and the
+arc's own numbers re-run in the window's suites. B1451 is among the 41 of §3: sealed with a hash order and a run after
+the seal, without the two marker lines — exactly the shape the gate should have caught.
+
+## 8. Harvest and relays
+
+Harvest debt after the day's three harvests: the SM seat at pin `48f6af3b`, its lane already 3 commits ahead
+(sm:B1527); 36 unrowed items across the other seats (the gate's output names them by seat), aged past 21 days: none.
+Relays: 34 outbound open, 13 inbound open, 443 banked, 38 declined; the day's eleven relays rowed.
+
+## 9. What this review cannot say
+
+It did not re-read the merged commits of the window line by line; it ran the suite four times today on the landing
+trees and once in a fresh clone. Its sample is five of sixteen, all by the reviewer. It took the harvest gate's count of
+36 as given. The 41 seals of §3 are listed, not re-audited: whether each reproduced its banked identity before its new
+numbers is not known from the gate, only from each arc's text.
+
+### Action items (Review 59)
+
+- [ ] R59-1: pay L242 (e) as a verification of sm:B1527 (its result is now banked: no reductive count near the hyperbolic point of any word state, mirror-broken or not) — main's own route on ±LLRLRR first (owner: cc; source: §2, L242 (e))
+- [ ] R59-2: re-audit the 41 frozen seals' texts for the banked-identity half, arc by arc, and record the result in the baseline's comment; shrink the baseline where the text carries it under other words (owner: cc; source: §3)
+- [ ] R59-3: harvest the 36 unrowed seat items the gate names, sweeping each id over the arcs before rowing it (owner: cc; source: §8, R58-4)
+- [>] R58-4: the harvest, largely paid (B1453, B1457, B1462); what is left is R59-3 (carried from R58)
+- [>] R58-5: the literature checks for T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE and T-MASS-TERM (carried from R58; first carry)
+- [x] R55-2 (ex-R54-2): the chain-coverage criterion machine-read — `review_tools` runs `coverage_candidates.py --chain-gap` and prints the top for the review to adjudicate (resolved at Review 59, B1464)
+- [x] R55-4 (ex-R54-4): the short-claim lane built (`SHORT_CLAIM_INDEG = 2`); the queue dispositioned, B804 rowed PENDING (resolved at Review 59, B1464)
+- [x] R55-9: two misnomers fixed; gate `pretense-phrases` at baseline zero (resolved at Review 59, B1464)
+- [x] R55-13: `seal-provenance` reads the sealed files; the 41 named as a frozen baseline (resolved at Review 59, B1464)
+- [x] R55-14: the ledger regenerated under `seal-ledger-current` (resolved at Review 59, B1464)
+- [x] R55-15: both row shapes read, 46 of 46 digests recomputed (resolved at Review 59, B1464)
+- [>] R55-1 (ex-R54-1): declined: B1247 refused the in-degree screen with reasons and the triage register replaced screening by judgement; the two screens are not owed (declined at Review 59; carried from R58)
+- [>] R55-7: declined as stated: the correction rule is enforced piecemeal by `retraction-sweep`, `supersession-backlinks`, `retraction-debt` and `lead-debt`; a single checklist gate would duplicate four (declined at Review 59; carried from R58)
+- [>] R55-12: declined, blocker named: B1259 and B1260 §1 are pre-bar value positives; a promotion needs a card and a grade (THE_BAR, FK9); UNJUDGED until carded (declined at Review 59; carried from R58)
+- [>] R56-1: declined as stated: an open-ended harvest item cannot resolve; the harvest-debt gate ages rows on its own ratchet; the concrete remainder is R59-3 (declined at Review 59; carried from R58)
+- [>] R56-3: declined as a loop item: CLAIMS.md's rewrite is Stage 6 of THE_FOUNDATION_LOCK_PLAN and a declared debt of `doc_currency` (declined at Review 59; carried from R58)
+
+**anchor-commit: `ANCHOR_PLACEHOLDER`**

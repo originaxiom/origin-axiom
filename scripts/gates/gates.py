@@ -902,9 +902,19 @@ def _seal_ledger_rows(text):
     that begins with a backticked token."""
     out = []
     for line in text.splitlines():
-        if not re.match(r"\|\s*\d{4}-\d{2}-\d{2}\s*\|", line): continue
+        if not line.startswith("|"): continue
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        date = cells[0]; digest = None; stop = len(cells)
+        if not cells: continue
+        # B1464 (R55-13/R55-15): the ledger has TWO row shapes -- the date first, or the arc id first with the date in a
+        # later cell. The old parser read the first only, so 31 of 50 digests were never recomputed and their
+        # preregistrations never checked for the provenance markers, while both gates printed "ok".
+        if re.match(r"^\d{4}-\d{2}-\d{2}$", cells[0]): date = cells[0]
+        elif re.match(r"^B\d{1,4}[a-z]?$", cells[0]):
+            dates = [c for c in cells if re.match(r"^\d{4}-\d{2}-\d{2}$", c)]
+            if not dates: continue
+            date = dates[0]
+        else: continue
+        digest = None; stop = len(cells)
         for i in range(len(cells) - 1, 0, -1):
             m = re.match(r"^`([0-9a-f]{64})`", cells[i])
             if m: digest, stop = m.group(1), i; break
@@ -916,22 +926,64 @@ def _seal_ledger_rows(text):
     return out
 
 
+SEAL_PROVENANCE_FROM_ARC = 995      # the first arc sealed on/after SEAL_PROVENANCE_FROM (2026-08-08)
+SEEN_FIRST_FROM_ARC = 1454          # from here a sealed "Seen first" section (WORKING_RULES 2026-10-02) is the prior-art half,
+                                    # and a "Disclosed" section states what was known before the run (the banked-identity half)
+# B1464 (Review 59; R55-13): the 41 seals of B995-B1451 that carry neither the two markers nor the two sections. Sealed
+# text is not repaired; they are listed, the list may only shrink, and every seal after this fix is bound.
+SEAL_PROVENANCE_BASELINE = frozenset((
+    "B995", "B1000", "B1006", "B1011", "B1015", "B1016", "B1018", "B1019", "B1024", "B1025", "B1026", "B1027", "B1028", "B1029",
+    "B1033", "B1034", "B1036", "B1037", "B1039", "B1040", "B1041", "B1042", "B1043", "B1044", "B1062", "B1064", "B1065", "B1066",
+    "B1071", "B1102", "B1104", "B1410", "B1434", "B1435", "B1439", "B1441", "B1442", "B1444", "B1445", "B1450", "B1451"))
+
+
+def sealed_files(root=None):
+    """every preregistration-style file under frontier/B*/ with its arc number"""
+    import glob
+    root = str(root or ROOT); out = []
+    for pat in ("PREREGISTRATION*.md", "DECLARATION.md"):
+        for p in glob.glob(os.path.join(root, "frontier", "B*", pat)):
+            m = re.match(r"B(\d+)", os.path.basename(os.path.dirname(p)))
+            if m: out.append((int(m.group(1)), os.path.relpath(p, root)))
+    return sorted(out)
+
+
+def seal_provenance_problems(root=None, baseline=SEAL_PROVENANCE_BASELINE):
+    """the sealed files from SEAL_PROVENANCE_FROM_ARC on that carry neither (BANKED IDENTITY: and PRIOR ART:) nor, from
+    SEEN_FIRST_FROM_ARC on, a 'Seen first' section and a 'Disclosed' section -- except the frozen baseline"""
+    root = str(root or ROOT); bad = []
+    for arc, rel in sealed_files(root):
+        if arc < SEAL_PROVENANCE_FROM_ARC: continue
+        txt = open(os.path.join(root, rel), errors="replace").read()
+        markers = "BANKED IDENTITY:" in txt and "PRIOR ART:" in txt
+        sections = arc >= SEEN_FIRST_FROM_ARC and re.search(r"(?m)^##[^\n]*Seen first", txt) and re.search(r"(?m)^##[^\n]*Disclosed", txt)
+        if markers or sections: continue
+        if "B%d" % arc in baseline: continue
+        bad.append(rel)
+    return bad
+
+
 def gate_seal_provenance():
-    """Preregistrations sealed on/after SEAL_PROVENANCE_FROM must name, in the sealed text,
-    (i) the banked identity the pipeline reproduces inside itself before any new number is
-    read, and (ii) the prior-art / bank grep run at DESIGN time. Older seals are exempt:
-    the rule cannot bind text that was sealed before it existed."""
+    """Every preregistration-style file sealed from B995 (2026-08-08) on must carry, in the sealed text, the two halves
+    of the provenance rule: the banked identity reproduced before any new number, and the prior-art / record sweep run
+    at design time -- as the markers BANKED IDENTITY: and PRIOR ART:, or, from B1454 on, as a 'Seen first' section and a
+    'Disclosed' section. B1464 (Review 59): until then the gate read the ledger's rows of one shape and never the files,
+    so 41 of the 46 seals in range carried neither and the gate said ok; those 41 are a frozen baseline, named above."""
+    bad = seal_provenance_problems()
+    if bad:
+        return False, "sealed without the provenance halves: " + "; ".join(bad[:5])
+    return True, "ok (every seal from B995 on carries the two halves, or is one of the %d frozen before B1464)" % len(SEAL_PROVENANCE_BASELINE)
+
+
+def gate_seal_ledger_current():
+    """R55-14 (B1464): docs/SEAL_LEDGER.md is a generated view (scripts/seal_ledger.py); its table must list every
+    sealed-style file on disk. It was ~530 arcs stale for two months with nothing watching it."""
     ledger = _read("docs/SEAL_LEDGER.md")
-    missing = []
-    for date, rel, _digest in _seal_ledger_rows(ledger):
-        if date < SEAL_PROVENANCE_FROM:
-            continue
-        if not os.path.isfile(os.path.join(ROOT, rel)):
-            continue          # branch-side seals are recorded but not present here
-        txt = _read(rel)
-        if "BANKED IDENTITY:" not in txt or "PRIOR ART:" not in txt:
-            missing.append(rel)
-    return not missing, missing[:5] or "ok"
+    listed = set(re.findall(r"^\| (frontier/B[^ |]+) \|", ledger, re.M))
+    missing = [rel for _, rel in sealed_files() if rel not in listed]
+    if missing:
+        return False, "%d sealed file(s) not in the generated table (run scripts/seal_ledger.py): " % len(missing) + ", ".join(missing[:4])
+    return True, "ok (%d sealed files listed)" % len(listed)
 
 
 def gate_seal_digests():
@@ -943,7 +995,8 @@ def gate_seal_digests():
     (corrected-by-append rows supersede the wrong cells above them). Rows whose path is
     absent from this tree (branch-side seals; path-as-prose supersession notes) are
     skipped. Catches mistyping, remapping, and every route not yet hit, because it does
-    not care how a digest got wrong."""
+    not care how a digest got wrong. Recomputes every digest the ledger records for a file present on main, in both
+    of the ledger's row shapes (B1464: 46 of 46; before, 19 of 50 -- the arc-first rows were never read, R55-15)."""
     import hashlib
     ledger = _read("docs/SEAL_LEDGER.md")
     latest = {}
@@ -1449,6 +1502,46 @@ def gate_review_core():
     return True, "ok"
 
 
+
+# --- B1464 (R55-9): the pretense phrases, on a ratchet ------------------------------------------------------------
+# PROVENANCE §0: all verification is internal. The strong phrases that would say otherwise are banned from living pages;
+# "independently verified" is this project's cross-seat language and is grounded by §0, so it is not in the list.
+PRETENSE_PHRASES = ("externally verified", "peer-reviewed", "peer reviewed", "third-party verif", "third party verif",
+                    "confirmed by experts", "verified by an external", "an external reviewer", "an external audit",
+                    "by an external audit")                                 # claimed verification by an outsider; a reader is not a verifier
+PRETENSE_NEGATION = ("nothing here is", "nothing is", " not ", " no ", "never", "without", "has not", "have not", "is not", "are not")
+PRETENSE_EXEMPT = ("docs/ERROR_LEDGER.md", "docs/RELAY_LEDGER.md", "docs/HARVEST_LEDGER.md", "docs/SEAL_LEDGER.md",
+                   "docs/RETRACTED_PHRASES.md", "docs/EARLY_RECORD_INDEX.md", "PROVENANCE.md", "docs/CAMPAIGN_STATUS.md",
+                   "CHANGELOG.md", "PROGRESS_LOG.md", "docs/PRACTICES.md")   # ledgers, dated history, and the register that names the rule
+PRETENSE_BASELINE = 0                                                   # measured 2026-10-03 after B1464's two fixes
+
+
+def pretense_hits(root=None):
+    import glob
+    root = str(root or ROOT); hits = []
+    files = sorted(glob.glob(os.path.join(root, "docs", "*.md")) + glob.glob(os.path.join(root, "*.md")))
+    for f in files:
+        rel = os.path.relpath(f, root)
+        if rel in PRETENSE_EXEMPT: continue
+        low = open(f, errors="replace").read().lower()
+        for p in PRETENSE_PHRASES:
+            n = 0
+            for m in re.finditer(re.escape(p), low):
+                window = low[max(0, m.start() - 48):m.start()]
+                if any(neg in window for neg in PRETENSE_NEGATION): continue        # a disclaimer is not a pretense
+                n += 1
+            if n: hits.append((rel, p, n))
+    return hits
+
+
+def gate_pretense_phrases():
+    """R55-9 (B1464): the strong pretense phrases on living pages, held to a frozen baseline that may only shrink
+    (Review 55 counted eleven ungrounded "an external reviewer/reader/audit"; two live misnomers fixed in B1464)."""
+    hits = pretense_hits(); n = sum(c for _, _, c in hits)
+    if n > PRETENSE_BASELINE:
+        return False, "%d pretense phrase(s) on living pages (baseline %d): " % (n, PRETENSE_BASELINE) + "; ".join("%s: %s x%d" % h for h in hits[:5])
+    return True, "ok (%d on living pages, baseline %d%s)" % (n, PRETENSE_BASELINE, "; lower the baseline" if n < PRETENSE_BASELINE else "")
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -1490,6 +1583,8 @@ GATES = {
     "carry-age": gate_carry_age,
     "gate-controls": gate_gate_controls,
     "review-core": gate_review_core,
+    "seal-ledger-current": gate_seal_ledger_current,
+    "pretense-phrases": gate_pretense_phrases,
 }
 
 

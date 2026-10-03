@@ -3344,6 +3344,9 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   on the projective family of the first mirror-broken word states, ±LLRLRR and ±L³RLR² (sm:B1523: 262 of 536 manifolds
   carry a family no isometry dualises, so B1455's argument cannot force zero there). The seat seals its own first (its
   sL-10 item 8); main runs after that seal, blind to the result. This is where L241 and L242 leave m004.
+  **2026-10-03, later:** the seat sealed and banked it the same day (sm:B1527, "THE CUSP DECIDES — near the hyperbolic
+  point of every word state no finite-volume projective vacuum carries a reductive count, mirror-broken or not"). Main's
+  run is no longer blind at the headline level; it is a verification (Review 59, R59-1), own route first on ±LLRLRR.
 - **Remark (2026-10-03, B1459, exploratory, not banked):** on every one of the 16 levels the geometric sign ε is a
   function of the curve's character (p, q) alone — e.g. on +LLR it is −1 exactly when q ≡ 2 mod 4, on +LRR when p ≡ 2
   mod 4, on −LLRLR when p/3 is odd. The obvious formula, the level character at c's abelianisation, is wrong (114 of 180

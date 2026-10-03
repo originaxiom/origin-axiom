@@ -91,11 +91,6 @@ def _ledger_row(date, rel, digest):
     return f"| {date} | B0 | a seal | `{rel}` | `{digest}` |\n"
 
 
-def test_seal_provenance_fails_on_a_recent_seal_without_the_two_lines(monkeypatch):
-    row = _ledger_row("2026-10-01", "README.md", "0" * 64)
-    monkeypatch.setattr(gates, "_read", _reader({"docs/SEAL_LEDGER.md": "| date | arc | what | path | digest |\n|---|---|---|---|---|\n" + row}))
-    ok, why = gates.gate_seal_provenance(); assert ok is False and "README.md" in why
-
 
 def test_seal_digests_fails_on_a_digest_that_does_not_recompute(monkeypatch):
     row = _ledger_row("2026-10-01", "README.md", "0" * 64)
@@ -200,6 +195,39 @@ def test_retraction_debt_fails_when_its_checker_exits_nonzero(tmp_path, monkeypa
     ok, why = gates.gate_retraction_debt(); assert ok is False and "planted debt" in why
 
 
+def test_seal_provenance_fails_on_a_new_seal_without_the_two_halves(tmp_path):
+    a = tmp_path / "frontier" / "B99997_x"; a.mkdir(parents=True)
+    (a / "PREREGISTRATION.md").write_text("# sealed\n\n## 1. The claim\n\nno provenance halves here\n")
+    bad = gates.seal_provenance_problems(root=str(tmp_path)); assert bad == ["frontier/B99997_x/PREREGISTRATION.md"]
+    (a / "PREREGISTRATION.md").write_text("# sealed\n\n## 0. Seen first\n\nswept\n\n## 4. Disclosed\n\nknown before\n")
+    assert gates.seal_provenance_problems(root=str(tmp_path)) == []
+    (a / "PREREGISTRATION.md").write_text("# sealed\n\nBANKED IDENTITY: x\nPRIOR ART: y\n")
+    assert gates.seal_provenance_problems(root=str(tmp_path)) == []
+    b = tmp_path / "frontier" / "B1000_old"; b.mkdir(); (b / "PREREGISTRATION.md").write_text("# an old seal, in the frozen baseline\n")
+    assert gates.seal_provenance_problems(root=str(tmp_path)) == []                       # baseline: listed, not repaired
+    assert gates.seal_provenance_problems(root=str(tmp_path), baseline=frozenset()) == ["frontier/B1000_old/PREREGISTRATION.md"]
+
+
+def test_seal_digests_reads_the_arc_first_row_shape_too(monkeypatch):
+    row = "| B0 | `README.md` | `%s` | 2026-10-01 | an arc-first row |\n" % ("0" * 64)
+    monkeypatch.setattr(gates, "_read", _reader({"docs/SEAL_LEDGER.md": row}))
+    ok, why = gates.gate_seal_digests(); assert ok is False and "README.md" in str(why)
+    rows = gates._seal_ledger_rows(row + "| 2026-10-02 | B1 | x | `GOVERNANCE.md` | `%s` |\n" % ("1" * 64))
+    assert [r[1] for r in rows] == ["README.md", "GOVERNANCE.md"] and [r[0] for r in rows] == ["2026-10-01", "2026-10-02"]
+
+
+def test_seal_ledger_current_fails_when_a_sealed_file_has_no_row(monkeypatch):
+    monkeypatch.setattr(gates, "_read", _reader({"docs/SEAL_LEDGER.md": "# ledger\n\n| sealed document | sha8 |\n|---|---|\n"}))
+    ok, why = gates.gate_seal_ledger_current(); assert ok is False and "not in the generated table" in why
+
+
+def test_pretense_phrases_fails_on_a_claimed_external_verification_and_spares_the_disclaimer(tmp_path):
+    (tmp_path / "docs").mkdir(); (tmp_path / "PLANTED.md").write_text("This result was externally verified by a lab.\n")
+    hits = gates.pretense_hits(root=str(tmp_path)); assert hits == [("PLANTED.md", "externally verified", 1)]
+    (tmp_path / "PLANTED.md").write_text("Nothing here is externally verified or peer-reviewed.\n")
+    assert gates.pretense_hits(root=str(tmp_path)) == []
+
+
 def test_the_registry_is_complete_and_every_named_test_exists():
     reg = json.load(open(os.path.join(ROOT, "tests", "GATE_CONTROLS.json")))
     missing = sorted(g for g in gates.GATES if g not in reg); assert missing == [], missing
@@ -207,3 +235,15 @@ def test_the_registry_is_complete_and_every_named_test_exists():
         f, fn = ref.split("::"); src = open(os.path.join(ROOT, f)).read()
         assert re.search(r"^def %s\(" % re.escape(fn), src, re.M), (g, ref)
     assert gates.gate_gate_controls()[0] is True
+
+
+def test_the_short_claim_lane_admits_a_depended_on_arc(monkeypatch):
+    import representation_sweep as rsw
+    monkeypatch.setattr(rsw, "_INDEG", {"B9": 2, "B8": 1})
+    import json as _json, tempfile, pathlib
+    d = pathlib.Path(tempfile.mkdtemp())
+    for a, claim in (("B9", "short"), ("B8", "short too"), ("B7", "x" * 600)):
+        (d / "frontier" / (a + "_x")).mkdir(parents=True); (d / "frontier" / (a + "_x") / "arc_verdict.json").write_text(_json.dumps(dict(id=a, verdict="PROVED", claim_one_line=claim)))
+    monkeypatch.setattr(rsw, "ROOT", str(d))
+    ids = sorted(i for i, _, _ in rsw.substantial_arcs())
+    assert ids == ["B7", "B9"], ids            # the long claim and the depended-on short one; the in-degree-1 short one stays out

@@ -78,9 +78,25 @@ def substantial_arcs():
         if d.get("verdict") not in ("PROVED", "NEGATIVE"):
             continue
         claim = d.get("claim_one_line", "") or ""
-        if len(claim) >= CLAIM_FLOOR:
+        if len(claim) >= CLAIM_FLOOR or _indegree().get(d["id"], 0) >= SHORT_CLAIM_INDEG:
             out.append((d["id"], d["verdict"], len(claim)))
     return out
+
+
+SHORT_CLAIM_INDEG = 2      # B1464 (R54-4/R55-4): the short-claim lane -- an arc two or more arcs depend on is substantial whatever its claim's length
+_INDEG = None
+def _indegree():
+    """in-degree in the depends_on graph of every arc_verdict.json (cached per process)"""
+    global _INDEG
+    if _INDEG is None:
+        _INDEG = {}
+        for p in glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json")):
+            try:
+                for dep in json.load(open(p, encoding="utf-8")).get("depends_on") or []:
+                    _INDEG[dep] = _INDEG.get(dep, 0) + 1
+            except Exception:
+                continue
+    return _INDEG
 
 
 def sweep():
