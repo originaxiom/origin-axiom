@@ -1,5 +1,16 @@
 # Changelog
 
+## Record the fast lane on 843d163c (B1525 banked): at the bank's baseline
+
+- **Fast lane on 843d163c** (67 minutes, in a worktree pinned at that commit): 6 641 passed, 52 skipped, 10 failed. The ten are
+  the same set as at 6243a975.
+- **The extra passes, from the collector.** Diffed like for like with 6243a975 (6 737 → 6 750 ids): 13 added, none removed.
+  - B1525's 11 lock tests.
+  - Two schema cases (B1525's arc verdict).
+  - So 13 more pass in the fast lane.
+- **What it certifies.** B1525, on a tree nothing edited: B1526 was written in the main working tree while the lane ran in its
+  own pinned worktree (E46 kept). B1526 (a76e3f3a) is certified next.
+
 ## B1526 banked: GENESIS v1.6 — main's v1.5 (the owner's two decisions) as the head, the SM seat's v1.5 answered by its line, and B1297's P shown to be the fibre's elliptic involution (PROVED, not sealed)
 
 - **Main's ask** (its relay of 2026-10-03: "Please take v1.5 as head"), answered. Main's v1.5 (B1460) records the owner's two

@@ -17154,3 +17154,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   group has exactly two isometries acting on the cusp as the identity). So P is the fibre's elliptic involution, as main's
   relay says and as this seat's B1512 and B1521 found.
 - **Not done:** main's B1459 stays main's (cited, not re-derived). 0 of 19.
+
+## 2026-10-03 — the fast lane on 843d163c (B1525 banked)
+
+- **Fast lane on 843d163c** (67 minutes, in a pinned worktree): 6 641 passed, 52 skipped, 10 failed. The ten are the same set as at
+  6243a975.
+- **The extra passes, from the collector.** 6 737 → 6 750 ids; 13 added, none removed: B1525's 11 lock tests and two schema
+  cases. So 13 more pass in the fast lane.
+- **What it certifies.** B1525, on a tree nothing edited (B1526 was written in the main working tree, not the lane's; E46 kept).
+  B1526 is certified next.
