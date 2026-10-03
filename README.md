@@ -1,6 +1,6 @@
 # Origin Axiom
 
-> **State — 2026-10-03 (B1458).** The foundations are stated once, in `GENESIS.md` (v1.4), and three seats work from it; the
+> **State — 2026-10-03 (B1460).** The foundations are stated once, in `GENESIS.md` (v1.5), and three seats work from it; the
 > root's own vacua carry no handedness by proof, and the counts on record wait for a source that nothing yet derives. The
 > section "The state of the programme" below is current; the two older blocks that follow are kept as written.
 
@@ -23,12 +23,12 @@ nothing cannot complete.
 
 ## The state of the programme (as of B1458, 2026-10-03)
 
-**One page states the foundations: [`GENESIS.md`](GENESIS.md) (v1.4), shared by the three working seats.** It replaces
+**One page states the foundations: [`GENESIS.md`](GENESIS.md) (v1.5), shared by the three working seats.** It replaces
 the scattered statements of the axioms; the older pages keep their proofs and point to it. In its terms:
 
 - **The principle** has three faces (PF1–PF3): existence as what remains when cancelling to nothing cannot complete; the
-  remainder as an inexhaustible description; the decision to read it as mathematical structure. One wording is proposed
-  and awaits the owner (fork FK1). Its mathematical form in the record is κ = tr[a, b] ≠ 2 — a reading, not a derivation.
+  remainder as an inexhaustible description; the decision to read it as mathematical structure. Its single wording was
+  confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5). Its mathematical form in the record is κ = tr[a, b] ≠ 2 — a reading, not a derivation.
 - **The grammar** (GM1–GM5d): two integer records, the unit shears L and R, an aperiodic word, realised on the
   once-punctured torus. Whether the record swap and the inverse moves are legal moves is open (FK3, FK4).
 - **The generated state space**: signed cyclic words in L and R. To length twelve there are 758 word states, which are
@@ -51,7 +51,8 @@ the scattered statements of the axioms; the older pages keep their proofs and po
   hypotheses). The record's eight walls on the root pass through its amphichirality, which the orientation choice
   forces (B1234): they are statements about that choice, not about the architecture.
 - **Open:** five gaps (the dictionary, the ends, the source, selection and coincidence, dynamics) and twelve forks,
-  FK12 being the owner's question whether the observer's closings belong to the genesis. A positive on any state is
+  FK12 being the owner's register question — the word keeps the order of its letters, the manifold and the vacuum
+  forget it; is the register part of the state, carried by the act, or an input from outside? A positive on any state is
   graded against [`docs/THE_BAR.md`](docs/THE_BAR.md). **Derived Standard-Model parameters: 0 of 19.**
 
 The paragraphs below are the state as it was written on 2026-08-22, kept for the record; where they and GENESIS

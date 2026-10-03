@@ -1,6 +1,6 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.5 · 2026-10-03 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.4 · 2026-10-03 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
@@ -27,8 +27,8 @@ the other document is the one to fix.**
 evidence, and adds a line to the version log (§10). The version number increases with every change. Downstream documents
 cite the version they rely on.
 
-**[v1.5] Decided by the owner (2026-10-03):** the single wording of the principle (§1, FK1) is confirmed as written, and the
-observer question (FK12) is framed as the register question. Everything else here restates the record as it stands, checked by the SM seat's own code (sm:B1516)
+**Pending the owner:** the single wording of the principle (§1, fork FK1) is the SM seat's proposal and waits for the owner's
+confirmation. Everything else here restates the record as it stands, checked by the SM seat's own code (sm:B1516)
 and re-derived on main by other routes (B1454, `frontier/B1454_genesis_v1_verified_and_adopted/verification/genesis_own.py`).
 
 ---
@@ -62,7 +62,7 @@ and re-derived on main by other routes (B1454, `frontier/B1454_genesis_v1_verifi
 
 ## 1. The principle
 
-**The single wording (proposed by the SM seat in v1.0; [v1.5] confirmed by the owner 2026-10-03, main B1460):**
+**Proposed single wording (v1.0, owner to confirm):**
 
 > **Existence is what remains when cancelling to nothing cannot complete (PF1). That remainder is a description that
 > cannot be exhausted (PF2). The programme reads that description as mathematical structure and asks what it forces (PF3).**
@@ -307,10 +307,7 @@ physics; any Standard-Model parameter (**0 of 19**).
   be supported in the compact core (R76), or the balance may be paid by flux through an end (R41, R80); an added
   source model does hold the counted configuration, at the price of infinitely many undetermined flat directions
   (R77). **So a count needs three things together: an order of the pieces, an open end, and a source or a flux of
-  the right sign.** [v1.5] The audit lane's qualification (its reply of 2026-10-03, read on main, not re-derived): its results
-  prove that a specified flat counted configuration needs an admitted source, an end flux, or a change of hypotheses; they do
-  not prove that a one-ended state can get the third *only* from a relation — whether a generated relation supplies it is FK8
-  and FK12, and R77's added fields do not settle their origin. No report derives the source.
+  the right sign. A one-ended state can get the third only from a relation** (FK8). No report derives the source.
   The counts on record that wait for one: +1 and +1 on m010 (R40), a conditional three on a two-ended exterior with
   sources between its ends (R19, R24), −3 on levels three and six for a rank-six coefficient induced from a cover
   (R69) — each fenced by its author as not a physical count.
@@ -352,7 +349,7 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
 
 | ID | Fork | Now | What would settle it |
 |---|---|---|---|
-| FK1 | The principle's single wording (§1) | **[v1.5] CONFIRMED** (the owner, 2026-10-03) | nothing; the measurer is not in the principle — it is FK12, where it can be computed and paid |
+| FK1 | The principle's single wording (§1) | proposed | the owner's confirmation or rewording |
 | FK2 | Orientation (SE2) | CHOSEN | a derived reason for orientability (Pin structure, time reversal: sm:B1382, sm:B1383, sL-3), or carrying both m004 and m000 as states |
 | FK3 | The swap P: legal move, and of what type | OPEN | an operational meaning for P (redescription, parity, time reversal) that the frames can test. **[v1.2]** B1083 types the swap as the C-type bit and the reversal as a parity bit, with the arrow on neither (read with main's naming addendum); conjugation by P sends LR to RL, not to (LR)⁻¹, and LR is conjugate to its inverse by J = [[0,1],[−1,0]] in SL(2,ℤ) (B16; sm:B1519 K3). On m004 the swap, the arrow and the mirror carry one relation: its eight isometries act on the cusp by diag(s_m, s_l), each sign pair twice, with orientation sign s_m·s_l; main's B1327 (OPEN) reads s_m as the arrow and s_l as the swap, so the mirror is the swap times the arrow, and asks, without asserting it, whether the genesis books one of the three bits twice (sm:B1519 K7) |
 | FK4 | Inverse moves (GM5b) | OPEN | operational legality; until then the signed states are an extension of the grammar |
@@ -363,7 +360,7 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
 | FK9 | Selection: what makes a state physical | OPEN | a rule fixed before computing, graded by `docs/THE_BAR.md` (**[v1.4]** on main from B1458) (**[v1.2]** sm:B1518; GAP4). **[v1.2]** A symmetric law can have states its symmetry does not fix: main's B1455 (sealed 2026-10-02, not yet run) tests whether each vacuum of the bridge's harmonic family on m004 is fixed by a symmetry under which the count is odd; a vacuum fixed by none comes with a mirror partner of equal action. **[v1.3]** Run (main B1455, NEGATIVE, scoped to F-HE on m004's harmonic family at level one; independently sm:B1520, the same outcome with the same witnesses): every vacuum is fixed by a count-odd symmetry, the knot's inversion followed by dualising, so no vacuum of the family carries a count. The geometric mirror does not change a count at all; dualising does (main B1297, B868, B871). The family's vacua do break half the symmetries, a mirror among them, with no count attached. Silent on a sourced vacuum, on other states and on selection by a relation |
 | FK10 | The end law | OPEN | an end condition derived from physics (sL-8) |
 | FK11 | The dictionary (I-26) | UNEARNED | a frame derived from M-theory or from the principle, with its scope proved |
-| FK12 **[v1.2]** | **[v1.5] The register** (the owner's framing, decided 2026-10-03). The genesis generates a word. The word keeps the order of its letters (ab against ba); the manifold forgets it — a word and its reverse are one manifold (B1456) — and the vacuum forgets it again — a direct sum has no order (B1438, B1455). **Is the register that keeps the order part of the state, carried by the act, or an input from outside?** Four sub-questions, each with a computation: (i) at which step is it dropped — word→manifold and module→vacuum are the two found; the fibre's involution reverses the order with a sign (B1297, B1459); (ii) is the choice binary or richer — the record holds two bits (the mirror c; particle against antiparticle) and one order; (iii) both outcomes at once or at different relations — the slope law gives one term per order, and side by side they sum to zero (L241); (iv) "if it can happen it will" — plenitude, a hypothesis to test, not a premise. What the record does not show: that the act generates the register rather than receives it. The earlier form of the question: are the observer's closings part of the genesis, or inputs beyond it? (THEOREM_LEDGER C18 makes them inputs; the SM seat's wording of 2026-10-02: does the act emerge with its observer, the tracker of ab against ba?) | OPEN | for each closing, a partner that supplies it as a relation (main B1327, OPEN) or a proof that none can. Within the object the sign is settled: the object cannot sign itself (B760, NEGATIVE; B1183, B1184, PROVED), and no rule built only from its own invariants selects it canonically (B1225; its self-name is mirror-even, B1184); the trace map conserves κ = tr[a, b] and never reads it (B20, B37). A symmetric law can still land in a state it does not fix (FK9, main's B1455). The owner's framing decides whether the genesis generates the partner with the act. **[v1.3]** Three things the record adds, and one qualification. (i) There are two signs, not one: "which way" — the mirror bit c of the observer line — and "which of a pair is the particle" — the linear exchange of a module with its dual, under which a count is odd and c is absent (B868, B871; B1455). (ii) In the class-index frame a count is the *order* of the two pieces of a non-split module: the slope law gives it as one term for each order and says when the order counts (main B1438), the fibre's period-2 involution followed by dualising reverses the order (B1297), and a vacuum in the harmonic sense is a direct sum, which has no order. (iii) The audit lane's act-and-register audit gives a test for where a register is lost: a reduction keeps it exactly when both the updates and the declared outputs descend, and all future outputs define the coarsest record that suffices (its ACT_REGISTER; read on main, not re-derived). The qualification, the audit lane's: B37's "never reads" rests on a detector of a symbol's presence, which an inserted factor r − I at r = I flips without changing the dynamics; its reads-and-branches criterion is not tested by that detector. Main carries the question as the standing lead L241 |
+| FK12 **[v1.2]** | The observer: are its closings part of the genesis, or inputs beyond it? (THEOREM_LEDGER C18 makes them inputs; the owner's question of 2026-10-02: does the act emerge with its observer, the tracker of ab against ba?) | OPEN | for each closing, a partner that supplies it as a relation (main B1327, OPEN) or a proof that none can. Within the object the sign is settled: the object cannot sign itself (B760, NEGATIVE; B1183, B1184, PROVED), and no rule built only from its own invariants selects it canonically (B1225; its self-name is mirror-even, B1184); the trace map conserves κ = tr[a, b] and never reads it (B20, B37). A symmetric law can still land in a state it does not fix (FK9, main's B1455). The owner's framing decides whether the genesis generates the partner with the act. **[v1.3]** Three things the record adds, and one qualification. (i) There are two signs, not one: "which way" — the mirror bit c of the observer line — and "which of a pair is the particle" — the linear exchange of a module with its dual, under which a count is odd and c is absent (B868, B871; B1455). (ii) In the class-index frame a count is the *order* of the two pieces of a non-split module: the slope law gives it as one term for each order and says when the order counts (main B1438), the fibre's period-2 involution followed by dualising reverses the order (B1297), and a vacuum in the harmonic sense is a direct sum, which has no order. (iii) The audit lane's act-and-register audit gives a test for where a register is lost: a reduction keeps it exactly when both the updates and the declared outputs descend, and all future outputs define the coarsest record that suffices (its ACT_REGISTER; read on main, not re-derived). The qualification, the audit lane's: B37's "never reads" rests on a detector of a symbol's presence, which an inserted factor r − I at r = I flips without changing the dynamics; its reads-and-branches criterion is not tested by that detector. Main carries the question as the standing lead L241 |
 
 **Computed nowhere yet** (the frontier, not a list of failures):
 - the harmonic frame on any state outside m004's levels;
@@ -477,11 +474,3 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
 - **v1.4 · 2026-10-03 · main B1458.** The bar adopted on main for the class-index frame (`docs/THE_BAR.md`, from sm:B1518,
   its census claim re-derived by manifold and group structure); §5 and FK9 now point to it on main. No status changes.
   - Unchanged and still the owner's: FK1 and FK12.
-- **v1.5 · 2026-10-03 · main B1460.** The owner's two decisions, on main's recommendation of the same day.
-  - **FK1: CONFIRMED** as written (the three faces PF1–PF3). The measurer is kept out of the principle on purpose: as a
-    premise it could not be paid, as a fork it can.
-  - **FK12 reframed as the register question** (the wording above, marked [v1.5]): the two steps where the record forgets
-    the order — word to manifold (B1456), module to vacuum (B1438, B1455) — and the four sub-questions of 2026-10-02, each
-    with its computation; the open part named.
-  - GAP3 refined on the audit lane's qualification: "only from a relation" was main's sentence, not its result.
-  - No other status changes.

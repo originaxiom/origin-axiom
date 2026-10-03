@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-10-03 from 1285 frontier probes.
+> Last generated: 2026-10-03 from 1286 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1285 frontier probes; status {'open': 71, 'banked': 842, 'dead': 347, 'dormant': 25}
+  corpus: 1286 frontier probes; status {'open': 71, 'banked': 843, 'dead': 347, 'dormant': 25}
   the ONE conserved first integral: kappa (recurs 289x, 22%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(724), golden(713), firewall(644), figure_eight(563), amphichiral_cp(492), metallic(476)
   recurrence is: structural-invariant 5115 mentions | conserved-integral 289 | TOOL 471
@@ -70,7 +70,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | source_free | 1 | choice | choice(1), figure_eight(1), golden(1) |
 | cancellation | 69 | eisenstein | eisenstein(43), golden(42), firewall(35), trace_map(30) |
 | selector | 24 | eisenstein | eisenstein(17), golden(14), figure_eight(13), trace_map(12) |
-| measure | 128 | golden | golden(68), eisenstein(68), firewall(60), measurement(57) |
+| measure | 129 | golden | golden(68), eisenstein(68), firewall(60), measurement(57) |
 | units_scale | 116 | firewall | firewall(76), golden(69), eisenstein(62), metallic(56) |
 | gauge_dict | 67 | eisenstein | eisenstein(42), firewall(34), golden(33), amphichiral_cp(32) |
 | particle_dict | 116 | eisenstein | eisenstein(84), z3_generation(82), golden(69), firewall(64) |
@@ -123,7 +123,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 |---|---|
 | source_free | 1/4 |
 | bridge_construction | 11/24 |
-| measure | 128/217 |
+| measure | 129/218 |
 | gauge_dict | 67/108 |
 | selector | 24/38 |
 | spacetime_3p1 | 152/236 |

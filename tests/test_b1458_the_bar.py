@@ -17,7 +17,9 @@ def test_the_bar_is_on_main_and_the_page_points_to_it():
     b = open(os.path.join(ROOT, "docs", "THE_BAR.md")).read()
     assert "Adopted on main 2026-10-03 (B1458)" in b and "UNJUDGED" in b and "p < 0.01" in b and "this seat's proposal" not in b
     g = open(os.path.join(ROOT, "GENESIS.md")).read()
-    assert "**Version 1.4 ·" in g and "- **v1.4 · 2026-10-03 · main B1458.**" in g and "`docs/THE_BAR.md` (**[v1.4]** on main from B1458)" in g
+    import re
+    v = re.search(r"\*\*Version 1\.(\d+) ·", g); assert v and int(v.group(1)) >= 4   # at v1.4 or a later version that keeps the log line
+    assert "- **v1.4 · 2026-10-03 · main B1458.**" in g and "`docs/THE_BAR.md` (**[v1.4]** on main from B1458)" in g
     assert "not yet on main" not in g.split("## 10.")[0].split("THE_BAR")[-1][:80]
     r = open(os.path.join(ROOT, "README.md")).read()
     assert "## The state of the programme (as of B1458, 2026-10-03)" in r and "## The state as it was written at B1134 (2026-08-22)" in r

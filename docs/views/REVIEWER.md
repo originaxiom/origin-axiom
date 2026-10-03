@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1288** |
-| words of findings prose | **991,714** |
-| test lock files referenced | **756** |
-| arcs carrying an authored verdict | **1288** (100.0 %) |
+| research arcs with findings | **1289** |
+| words of findings prose | **992,384** |
+| test lock files referenced | **757** |
+| arcs carrying an authored verdict | **1289** (100.0 %) |
 | recorded closures | **802** (635 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 860 |
+| PROVED | 861 |
 | NEGATIVE | 326 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1459`** (1559 words, 0 locks)  
-THE ZEROS AT THE COMPLETE POINTS ARE A THEOREM, NOT A CENSUS. For V = rho_l (x) rho_eta (x) chi at a doubly parabolic point of a level, the fibre's elliptic involution extended to pi_1 by a word c (found and unique on all 16 levels) pulls V back to V* (x) eps with eps = +-1 a meridian sign; by B1297's three lines I(V) = -I(V (x) eps), zero when eps = +1, and when eps = -1 the cusp of V (x) eps fixes no vector so I(V (x) eps) = 0 and I(V) = 0 again. Computed on B1451's 188 points: eps_geo = +1 on 111, -1 on 77 (factors 239 : 137); on all 77 twisted points I(V (x) eps) = 0 with meridian -T; recomputed I(V) = 0 on 188/188; the audit lane's R58-6 statement given with hypotheses (L242 (c) paid). The sealed detector read eps from trace-normalised intertwiners and so could not return -1 on the population (E82 class, found after the run, repaired by the post-seal word-c instrument; P2 FAIL as sealed, TRUE geometrically); the seal's controls were written as sentences, not run; two-line loader repair disclosed. Nothing selects a state. 0 of 19.  
-`B1459_the_zeros_are_a_theorem/FINDINGS.md`
+**PROVED — `B1460`** (670 words, 1 locks)  
+GENESIS v1.5: THE OWNER'S TWO DECISIONS. FK1, the principle's single wording, CONFIRMED as written (PF1-PF3; the measurer kept out of the principle, where it could not be paid, and in FK12, where it can). FK12 reframed as THE REGISTER QUESTION: the word keeps the order of its letters, the manifold forgets it (B1456), the vacuum forgets it again (B1438, B1455) -- is the register part of the state, carried by the act, or an input from outside? -- with four sub-questions each tied to a computation and the open part named (that the act generates the register is not shown). GAP3 refined on the audit lane's reply of 2026-10-03: 'only from a relation' was main's inference, not the lane's result. Seven exact-once changes by adoption/amend.py; README and the lock plan propagated; B1458's version pin loosened. The lock's last owner-held items are paid. Nothing selects a state. 0 of 19.  
+`B1460_genesis_v1_5_the_owners_two_decisions/FINDINGS.md`
 
 **NEGATIVE — `B1455`** (2261 words, 0 locks)  
 THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric potential whose minima are not mirror-symmetric?). NEGATIVE, the registered kill, scoped to the frame F-HE on m004's harmonic family at level one: the vacuum does not select a handedness there. THREE LINES THE TEST TURNS ON: the class index is unchanged by pulling back along any symmetry of the manifold, mirrors included (L1), and changes sign under dualising (L2); so a module with V* isomorphic to sigma^* V has index zero (L3), and the count-odd symmetries are a symmetry followed by dualising. THE TEST, by two routes with no shared code (characters on 2046 words in exact rationals; intertwiners, symbolic in q): on Ballas' family the dual of the vacuum at q is the vacuum at 1/q, and inverting both generators does the same, so inversion-then-dual fixes every vacuum, for every q > 0 and every central twist. HENCE every reductive module made from rho_q has class index zero -- a proof, not a census. The counts of +-1 found by the seats sit on non-split extensions, which no count-odd symmetry fixes and which are not minima (the audit lane's R76, read). ONE SEALED PREDICTION FAILED: only four of the eight signed permutations of the generators are automorphisms and all four preserve orientation; the mirrors were found after the seal by search (152 maps) and fall in two classes -- those keeping the longitude fix every vacuum, those inverting it exchange q and 1/q -- so the eight symmetries act on the family through one bit, which is the same as dualising. TWO CORRECTIONS TO THE RULE AS WORDED: the counted configuration is itself fixed by a bare mirror and counts -1 (60 digits; an invertible intertwiner), so 'symmetric under the mirror gives zero' is false for the geometric mirror and true for symmetry-plus-dual; and half the symmetries are broken by every vacuum off the hyperbolic point without any count being broken. The audit lane's open checkbox (base isometry plus duality) is paid. The handoff's side claims recompute (the Sturmian identity at nine intercepts; no surjection of m004's group onto SL(2,5), 1440 for m202). Silent on other states, frames, sources, ends and on selection by a relation. 0 of 19.  

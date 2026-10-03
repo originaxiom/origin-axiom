@@ -1,0 +1,23 @@
+{
+ "id": "B1460",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1458",
+  "B1456",
+  "B1454",
+  "B1459"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the page GENESIS.md (frame-independent)",
+  "object": "the foundations as stated once on main; FK1, FK12 and GAP3",
+  "reach": "general",
+  "hypotheses": "an adoption arc: the owner's two decisions of 2026-10-03 as given; the audit lane's qualification of GAP3 read, not re-derived; no new computation"
+ },
+ "claim_one_line": "GENESIS v1.5: THE OWNER'S TWO DECISIONS. FK1, the principle's single wording, CONFIRMED as written (PF1-PF3; the measurer kept out of the principle, where it could not be paid, and in FK12, where it can). FK12 reframed as THE REGISTER QUESTION: the word keeps the order of its letters, the manifold forgets it (B1456), the vacuum forgets it again (B1438, B1455) -- is the register part of the state, carried by the act, or an input from outside? -- with four sub-questions each tied to a computation and the open part named (that the act generates the register is not shown). GAP3 refined on the audit lane's reply of 2026-10-03: 'only from a relation' was main's inference, not the lane's result. Seven exact-once changes by adoption/amend.py; README and the lock plan propagated; B1458's version pin loosened. The lock's last owner-held items are paid. Nothing selects a state. 0 of 19."
+}

@@ -9472,6 +9472,17 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1460": {
+   "slug": "genesis v1 5 the owners two decisions",
+   "motifs": [],
+   "refs": [
+    "L241"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B146": {
    "slug": "b145 calibration",
    "motifs": [

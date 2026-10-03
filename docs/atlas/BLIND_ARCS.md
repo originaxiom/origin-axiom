@@ -53,6 +53,7 @@ regex motif matches *mentions*, not *subjects*. Recorded rather than filtered, b
 would mean classifying by topic — the thing B822 refused.
 | `B1213` | INSTRUMENT | The claim-base rebuild: a census of the `creates_law` field's absence (89% of settled arcs) and a union criterion for the paper's candidate pool. An arc about our own bookkeeping machinery — an OBJECT atlas is correct to miss it. |
 | `B1437` | INSTRUMENT | The doc-currency gate's repair (2026-10-01): the lock it cited did not exist, its two lag metrics, and another seat's arc numbers pinning ten living documents at lag zero. About the repository's own watch on its surfaces; an OBJECT atlas is correct to miss it. |
+| `B1460` | INSTRUMENT | GENESIS v1.5 (2026-10-03): an adoption arc — the owner's two decisions on the page (FK1 confirmed, FK12 framed as the register question) and one refinement at GAP3; about the record's own statement of its foundations, not an object computation; an OBJECT atlas is correct to miss it. The register question itself is L241's and the atlas sees it through B1455, B1456, B1459. |
 
 ## De-blinded by the question lexicon (B1247, 2026-09-05)
 

@@ -3306,6 +3306,14 @@ question at the genesis: GENESIS's equivalences identify LR and RL "for unbased 
 uses unbased data and what it would read based. (d) The traditions the owner names (the Sāṃkhya pair of witness and
 acting nature among them) as sources of *questions*, each turned into a computation or marked as having none.
 
+- **Refinement 4 (2026-10-03, B1460, the owner's decision):** the question is framed in GENESIS v1.5 as FK12, THE REGISTER
+  QUESTION, with a location: the record forgets the order at two steps — word → manifold (B1456) and module → vacuum
+  (B1438, B1455) — and the fibre's involution reverses it with a sign (B1297, B1459). The four sub-questions are the
+  page's; the open part is named there. The measurer is not in the principle (FK1 confirmed as written). Next
+  computation owed here: an instrument that keeps the marking through the index (refinement (b) above), run on the two
+  drop points.
+
+
 ## L242 — DO THE THREE LINES ACCOUNT FOR THE ZEROS ALREADY ON THE RECORD (registered 2026-10-02, B1455)
 
 B1455's criterion: a module with V* ≅ σ*V for a symmetry σ of the manifold has class index zero. **Owed:** (a) B1451's
@@ -3327,6 +3335,11 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   SL(2)-type tensor modules at the complete points, not about every irreducible module. Relayed to codex.
 - **(b), (d): open.** (b) now has an instrument: `geometric_sign.py`'s word c is computed from Φ alone and runs on any
   level; the covers' larger symmetry groups would add further σ.
+- **Remark (2026-10-03, B1459, exploratory, not banked):** on every one of the 16 levels the geometric sign ε is a
+  function of the curve's character (p, q) alone — e.g. on +LLR it is −1 exactly when q ≡ 2 mod 4, on +LRR when p ≡ 2
+  mod 4, on −LLRLR when p/3 is odd. The obvious formula, the level character at c's abelianisation, is wrong (114 of 180
+  curves). The sign lives in ρ(c) at the point. Formula open; it would say which complete points sit on the twisted
+  branch without computing c.
 
 ## L243 — FROM THE SEATS, NOT YET CHECKED ON MAIN (registered 2026-10-02, B1456, B1457)
 
