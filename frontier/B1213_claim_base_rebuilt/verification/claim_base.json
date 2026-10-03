@@ -1,9 +1,9 @@
 {
- "settled": 1174,
+ "settled": 1175,
  "declared_true": 96,
- "declared_false": 250,
+ "declared_false": 251,
  "absent": 828,
- "absent_pct": 71,
+ "absent_pct": 70,
  "control": {
   "declared_mean": 2.94,
   "rest_mean": 1.22,

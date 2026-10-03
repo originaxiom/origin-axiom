@@ -1,0 +1,87 @@
+{
+ "id": "B1528",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1526",
+  "B1527",
+  "B1462",
+  "B1459",
+  "B1279",
+  "B1521",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none",
+  "object": "GENESIS: main's v1.7 (B1462) taken as the head and v1.8 made from it; and what B1297's P does to the twisted modules at m004's complete point and to Ballas' family",
+  "reach": "general",
+  "hypotheses": [
+   "the received texts are byte-identical to their sources: main's GENESIS.md at 7ccae5a2, this branch's GENESIS.md at df3f809b (the text main received, sha-256 59ef40a6...), main's relay at 7ccae5a2",
+   "C2 and C3 read isomorphism from characters on every word up to length 4 at 60 digits (irreducible representations), with sm:B1527's libraries for m004's complete point (+LR) and Ballas' family",
+   "the owner's two decisions as main's B1460 records them; this seat takes them as given and changes neither",
+   "GENESIS records questions and the owner's priorities; the experiential question is held under Gate 5-Q and nothing about it is claimed"
+  ]
+ },
+ "claim_one_line": "GENESIS v1.8 (not sealed: every item checks a claim the record already fixes): main's v1.7 (B1462) taken as the head, as main asked; main's amend.py, run on this branch's v1.6, gives main's v1.7 byte for byte (C1). Main's corrected FK12 (ii) sentence made exact (marked [v1.8]): the meridian sign is the SL(2) factors' own, for modules with no meridian twist, as in B1459; a meridian twist t -> lam enters squared, P*V ~ V* (x) (t -> lam^2) at m004's complete point (own code: P = (a -> A, b -> B, t -> bab t), unique to length 6, six lam), so P carries V to its dual up to a sign exactly when lam^2 = +-1; on Ballas' family P fixes rho_q, which is not self-dual for q != 1 (character gap 14.3 at q = 2), so P does not carry it to its dual (C2, C3). sL-10 item 8 recorded as answered at GENESIS FK9 and in section 8 (sm:B1527); its remainder is item 9. Main's offered remark: sm:B1279's rotoreflections have order four and square to the period-2 swap, P (C4, exact); their action on M2's Z/5 is main's, not checked. B1526's lock repointed to v1.6 kept as received. No status changes; FK1 and FK12 as the owner decided. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "69693e54",
+    "main": "f06d3405",
+    "origin/art/camper-van-bar": "b3745696",
+    "origin/audit/physical-bridge-2026-09-05": "24c039c8",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "69693e54",
+    "origin/main": "7ccae5a2",
+    "origin/sep16-branch": "3205984b"
+   },
+   "terms": [
+    "GENESIS v1.8",
+    "Version 1.8",
+    "meridian sign",
+    "take v1.7 as head",
+    "not self-dual",
+    "rotoreflection"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@7ccae5a2:GENESIS.md (= received/GENESIS_v1_7_main.md)",
+     "bearing": "the head taken; no head has a v1.8"
+    },
+    {
+     "where": "origin/main@7ccae5a2:frontier/B1462_the_seats_harvested_p_is_the_swap_and_the_levels (FINDINGS, adoption/amend.py, received/GENESIS_v1_6_sm.md)",
+     "bearing": "main's four changes and one path relabel; its amend.py, run on this branch's v1.6, gives main's v1.7 byte for byte (C1); its received v1.6 is this branch's"
+    },
+    {
+     "where": "origin/main@7ccae5a2:docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_SIX_ARCS_HARVESTED_GENESIS_V1_7.md (= received/)",
+     "bearing": "the ask (take v1.7 as head), L242 (e) (answered in sm:B1527's relay) and the offered order-four remark (C4)"
+    },
+    {
+     "where": "origin/main@7ccae5a2:frontier/B1459_the_zeros_are_a_theorem/FINDINGS.md section 1",
+     "bearing": "the theorem behind main's [v1.7] sentence: iota~*V = V* (x) eps for SL(2) factors with a fibre character and no meridian twist, eps from Schur; v1.8 states that scope and the squared twist (C2)"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1279 (section 1 table, section 3), frontier/B1526 (C3), frontier/B1527",
+     "bearing": "the rotoreflections and the period-2 swap (C4); P is the swap's class and fixes rho_q (C3); item 8's answer (C5)"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "none: every item is a statement about the record's texts or a finite computation on m004's complete point and Ballas' family, both on the record"
+   ],
+   "sources": []
+  },
+  "standing": "RE-DERIVED",
+  "why": "main's v1.7 is re-derived on this bench from this branch's v1.6 by main's own amend.py (C1); its corrected sentence's content is re-derived with own code where it bears (C2, C3), and its scope made exact"
+ }
+}

@@ -8,7 +8,10 @@ B1297's P is shown to be the fibre's elliptic involution (C3). Locked here:
 - GENESIS v1.6's text: version, marks, the owner's two decisions verbatim, the carried and fitted sentences, the statuses;
 - Gate 5-Q's three words (encoded here), vendor words and the private term: absent from GENESIS.md and the arc's text, with a
   control in each direction;
-- the arc's text and ledgers: FINDINGS, verdict, RELAY_LEDGER, the relay, OPEN_LEADS, README, B1525's repointed lock."""
+- the arc's text and ledgers: FINDINGS, verdict, RELAY_LEDGER, the relay, OPEN_LEADS, README, B1525's repointed lock.
+Since v1.8 (sm:B1528, 2026-10-03) GENESIS.md is main's v1.7 plus marked [v1.8] changes. v1.6's text is kept byte-identical in
+B1528's arc (`received/GENESIS_v1_6_sm.md`, the text main received), and the tests below that read v1.6 read it there; B1528's
+lock checks GENESIS.md."""
 import base64
 import hashlib
 import importlib.util
@@ -27,6 +30,7 @@ REC = ARC / "received"
 V15M, V15S = REC / "GENESIS_v1_5_main.md", REC / "GENESIS_v1_5_sm.md"
 RELAY_IN = REC / "CC_TO_SM_AND_CODEX_2026-10-03_GENESIS_V1_5_FK1_CONFIRMED_FK12_THE_REGISTER.md"
 RELAY_OUT = ROOT / "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_6.md"
+V16_KEPT = ROOT / "frontier" / "B1528_genesis_v18" / "received" / "GENESIS_v1_6_sm.md"
 MARK = "**[v1.6]**"
 Q5 = [base64.b64decode(t).decode() for t in ("cXVhbGlh", "YXdhcmU=", "c2Vlcw==")]
 VENDOR = [base64.b64decode(t).decode() for t in ("Y2xhdWRl", "YW50aHJvcGlj", "b3B1cw==", "c29ubmV0", "ZmFibGU=")]
@@ -69,7 +73,8 @@ def test_genesis_is_the_generator_output(tmp_path):
     r = subprocess.run([sys.executable, str(VER / "merge_genesis_v16.py"), str(V15M), str(out)],
                        capture_output=True, text=True, timeout=120)
     assert r.returncode == 0, r.stderr
-    assert out.read_bytes() == (ROOT / "GENESIS.md").read_bytes()
+    assert out.read_bytes() == V16_KEPT.read_bytes()
+    assert _sha(V16_KEPT) == "59ef40a678a2aa7b11d37599300b6d3cacc481edb0568f30eda852ba176faf36"
     assert "[v1.6] marks: 15" in r.stdout
 
 
@@ -106,7 +111,7 @@ def test_c3_live():
 def test_c4_catches_what_it_is_for():
     """planted controls for C4's diff: an unmarked insertion, a changed word of main's and a removed line are each caught"""
     chk = _chk()
-    v15, v16 = V15M.read_text(encoding="utf-8"), (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    v15, v16 = V15M.read_text(encoding="utf-8"), V16_KEPT.read_text(encoding="utf-8")
     deleted, unmarked = chk.diff_report(v15, v16)
     assert deleted == chk.EXPECTED_DELETIONS and unmarked == []
     head = "## 2. The grammar: what a description is made of"
@@ -126,13 +131,13 @@ def test_c4_c5_live():
     chk = _chk()
     v16 = chk.generate()
     c4 = chk.c4(v16)
-    assert c4["passed"] and c4["GENESIS.md is the generated v1.6"]
+    assert c4["passed"] and v16 == V16_KEPT.read_text(encoding="utf-8")
     assert chk.c5(v16)["passed"]
 
 
 # ------------------------------------------------------------------------------------------------- GENESIS v1.6
 def test_genesis_v16_text():
-    raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    raw = V16_KEPT.read_text(encoding="utf-8")
     g = _norm(raw)
     v15 = V15M.read_text(encoding="utf-8")
     assert raw.startswith("# GENESIS — the foundations of origin-axiom")
@@ -216,6 +221,7 @@ def test_ledgers_and_surfaces():
     leads = _norm((ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8"))
     assert "[2026-10-03, sm:B1526] GENESIS v1.6." in leads
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    assert "[`GENESIS.md`](GENESIS.md) v1.6 is canonical on this branch" in readme and "v1.2 is canonical" not in readme
+    assert re.search(r"\[`GENESIS\.md`\]\(GENESIS\.md\) v1\.(6|8) is canonical on this branch", readme)   # v1.8 since sm:B1528
+    assert "v1.2 is canonical" not in readme
     lock = (ROOT / "tests" / "test_b1525_genesis_v15.py").read_text(encoding="utf-8")
     assert 'V15_KEPT = ROOT / "frontier" / "B1526_genesis_v16" / "received" / "GENESIS_v1_5_sm.md"' in lock

@@ -1,0 +1,9 @@
+start 2026-10-03T10:22:34Z at 69693e54, after GENESIS.md was written
+C1 PASS: main's amend.py on this branch's v1.6 reproduces main's v1.7 (4 changes, 1 relabel)
+C2 PASS: P = (a -> A, b -> B, t -> babt), unique; fixes rho_hyp; P*V ~ V* (x) (t -> lam^2) at all six lam; a meridian sign only at lam = 1, -1, i
+C3 PASS: on Ballas' family P fixes rho_q; rho_2 is not self-dual (character gap 14.3), so P does not carry it to its dual; rho_1 is self-dual
+C4 PASS: both rotoreflections square to the period-2 swap T (= P) and have order four on the cusp torus
+C5 PASS: sm:B1527 banked (PROVED; T-THE-CUSP-DECIDES; kill record, reach class); sL-10 item 9 registered
+C6 PASS: GENESIS.md is the generator's output byte for byte (4 [v1.8] marks)
+ALL PASS
+end 2026-10-03T10:24:15Z

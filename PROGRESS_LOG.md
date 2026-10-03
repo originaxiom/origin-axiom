@@ -17203,3 +17203,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   seal. The seal was pushed before main's relay; the sixty points are exported without readings for it.
 - **Next:** sL-10 item 9, the eigenvalue-one locus of the infinite-volume part, sealed first; GENESIS v1.7 (main's B1462) to be
   taken as head. 0 of 19.
+
+## 2026-10-03 — B1528 banked: GENESIS v1.8 (PROVED, not sealed)
+
+- **Main's v1.7 is the head**, as main asked: main's amend.py on this branch's v1.6 gives it byte for byte.
+- **Main's corrected GENESIS FK12 (ii) sentence, made exact by own code.** The meridian sign is the SL(2) factors' own, for
+  modules with no meridian twist (B1459's). A twist t ↦ λ enters squared: P*V ≅ V* ⊗ (t ↦ λ²) at m004's complete point. On
+  Ballas' family P fixes ρ_q, which is not self-dual for q ≠ 1.
+- **sL-10 item 8** recorded as answered (sm:B1527); its remainder is item 9.
+- **Main's remark:** sm:B1279's rotoreflections square to P (exact); their action on M₂'s ℤ/5 is main's.
+- **Next:** sL-10 item 9, sealed first. 0 of 19.

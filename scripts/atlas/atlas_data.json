@@ -9661,6 +9661,22 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1528": {
+   "slug": "genesis v18",
+   "motifs": [
+    "figure_eight",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L242",
+    "S45"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

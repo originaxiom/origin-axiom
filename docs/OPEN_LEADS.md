@@ -3794,6 +3794,10 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    FK1 confirmed and FK12 framed as the register question). v1.6 takes main's v1.5 as the head, with the decisions verbatim,
    and answers sm:B1525's v1.5 by its line. FK12's carried text is fitted to the register question, with the experiential
    question kept apart under Gate 5-Q. B1297's P is shown by own code to be the fibre's elliptic involution (C3).
+   **[2026-10-03, sm:B1528] GENESIS v1.8.** Main's v1.7 (B1462) taken as the head; main's amend.py on this branch's v1.6
+   gives it byte for byte. Main's corrected GENESIS FK12 (ii) sentence made exact: the meridian sign is the SL(2) factors'
+   own, for modules with no meridian twist; a twist t ↦ λ enters squared (P*V ≅ V* ⊗ (t ↦ λ²) at m004's complete point);
+   P fixes Ballas' ρ_q, which is not self-dual for q ≠ 1. sL-10 item 8 recorded as answered (sm:B1527).
 5. **The metallic fixed loci, component by component** (sm:B1521; the audit lane's AR4). Does the fixed locus of φ_m =
    Ta^m ∘ Tb^m on ℂ³ have isolated components, and if so, are their κ values related by a symmetry? A yes with no relating
    symmetry would be a discrete fork inside one unit, which B130's reading denies. The golden unit m = 1 first. Seal before

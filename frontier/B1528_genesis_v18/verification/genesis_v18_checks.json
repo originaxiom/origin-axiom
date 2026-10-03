@@ -1,0 +1,109 @@
+{
+ "C1": {
+  "main's received v1.6 = this branch's v1.6 (sha-256)": "59ef40a678a2aa7b11d37599300b6d3cacc481edb0568f30eda852ba176faf36",
+  "changes": 4,
+  "path relabels": 1,
+  "v1.6 + main's changes == main's v1.7, byte for byte": true
+ },
+ "C2": {
+  "word state": "+LR (m004)",
+  "P": "a -> A, b -> B, t -> babt",
+  "extension words found (length <= 6)": [
+   "bab"
+  ],
+  "P fixes rho_hyp": true,
+  "rows": [
+   {
+    "lambda": "1",
+    "P*V ~ V* (x) (t -> lambda^2)": true,
+    "P*V ~ V*": true,
+    "P*V ~ V* (x) (t -> -1)": false
+   },
+   {
+    "lambda": "-1",
+    "P*V ~ V* (x) (t -> lambda^2)": true,
+    "P*V ~ V*": true,
+    "P*V ~ V* (x) (t -> -1)": false
+   },
+   {
+    "lambda": "i",
+    "P*V ~ V* (x) (t -> lambda^2)": true,
+    "P*V ~ V*": false,
+    "P*V ~ V* (x) (t -> -1)": true
+   },
+   {
+    "lambda": "1.7",
+    "P*V ~ V* (x) (t -> lambda^2)": true,
+    "P*V ~ V*": false,
+    "P*V ~ V* (x) (t -> -1)": false
+   },
+   {
+    "lambda": "e^{0.9i}",
+    "P*V ~ V* (x) (t -> lambda^2)": true,
+    "P*V ~ V*": false,
+    "P*V ~ V* (x) (t -> -1)": false
+   },
+   {
+    "lambda": "2+0.5i",
+    "P*V ~ V* (x) (t -> lambda^2)": true,
+    "P*V ~ V*": false,
+    "P*V ~ V* (x) (t -> -1)": false
+   }
+  ],
+  "reading": "P*V ~ V* (x) (t -> lambda^2): a meridian sign exactly when lambda^2 = +-1"
+ },
+ "C3": {
+  "rows": [
+   {
+    "q": "2.0",
+    "relator residual": "0.0",
+    "P fixes rho_q": true,
+    "rho_q self-dual": false,
+    "P carries rho_q to its dual": false,
+    "character gap rho_q vs rho_q*": "14.3"
+   },
+   {
+    "q": "1.0",
+    "relator residual": "0.0",
+    "P fixes rho_q": true,
+    "rho_q self-dual": true,
+    "P carries rho_q to its dual": true,
+    "character gap rho_q vs rho_q*": "0.0"
+   }
+  ]
+ },
+ "C4": {
+  "rows": [
+   {
+    "rotoreflection translation": [
+     "1/2",
+     "1/4"
+    ],
+    "square": "((1, 1), (Fraction(0, 1), Fraction(1, 2)))",
+    "square is T": true,
+    "fourth power is the identity": true
+   },
+   {
+    "rotoreflection translation": [
+     "1/2",
+     "3/4"
+    ],
+    "square": "((1, 1), (Fraction(0, 1), Fraction(1, 2)))",
+    "square is T": true,
+    "fourth power is the identity": true
+   }
+  ],
+  "note": "the action on M2's torsion Z/5 is main's; sm:B1279 did not compute it"
+ },
+ "C5": {
+  "verdict": "PROVED",
+  "registry": "T-THE-CUSP-DECIDES",
+  "kill record reach": "class",
+  "item 9 registered": true
+ },
+ "C6": {
+  "GENESIS.md == merge_genesis_v18.build()": true,
+  "[v1.8] marks": 4,
+  "sha-256": "b433054459fe86434c24dffd3745e4d41806e5cadaf910bb83e1c4d207e32423"
+ }
+}
