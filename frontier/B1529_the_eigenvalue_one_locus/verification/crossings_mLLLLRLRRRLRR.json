@@ -1,0 +1,143 @@
+{
+ "manifold": "-LLLLRLRRRLRR",
+ "a": "0.000010000000000000000818",
+ "D": 125,
+ "brackets": 8,
+ "brackets by kind": {
+  "E1": 6,
+  "E2": 0,
+  "E3": 2,
+  "E4": 0
+ },
+ "crossings": [
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    55.0,
+    59.99999999999999
+   ],
+   "locate": {
+    "float64 alpha (deg)": 56.85638427734375,
+    "float64 |F|": 2.444990142976635e-07,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.74e-10",
+    "iterations": 7,
+    "converged": false
+   },
+   "seconds": 1367
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    65.0,
+    70.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 68.21197509765624,
+    "float64 |F|": 5.7947180634929016e-08,
+    "route": "crossing system from float64",
+    "60-digit |F|": "6.08e-11",
+    "iterations": 7,
+    "converged": false
+   },
+   "seconds": 1371
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    110.0,
+    115.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 113.15032958984375,
+    "float64 |F|": 1.5674961781789256e-08,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.32e-8",
+    "iterations": 9,
+    "converged": false
+   },
+   "seconds": 2225
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    155.0,
+    160.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 158.04229736328128,
+    "float64 |F|": 1.270566377721016e-06,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.55e-7",
+    "iterations": 8,
+    "converged": false
+   },
+   "seconds": 2410
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    235.0,
+    239.99999999999997
+   ],
+   "locate": {
+    "float64 alpha (deg)": 236.70867919921884,
+    "float64 |F|": 4.487673328139789e-06,
+    "route": "crossing system from float64",
+    "60-digit |F|": "3.31e-8",
+    "iterations": 12,
+    "converged": false
+   },
+   "seconds": 1443
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    245.00000000000003,
+    250.00000000000003
+   ],
+   "locate": {
+    "float64 alpha (deg)": 248.2125854492188,
+    "float64 |F|": 8.301586882350099e-08,
+    "route": "crossing system from float64",
+    "60-digit |F|": "6.08e-11",
+    "iterations": 7,
+    "converged": false
+   },
+   "seconds": 637
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    290.0,
+    295.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 292.5,
+    "float64 |F|": 5.180040594953811e-07,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.16e-6",
+    "iterations": 8,
+    "converged": false
+   },
+   "seconds": 675
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    335.0,
+    340.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 338.1845092773438,
+    "float64 |F|": 2.085023654620695e-07,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.6e-8",
+    "iterations": 7,
+    "converged": false
+   },
+   "seconds": 667
+  }
+ ],
+ "seconds": 10802
+}

@@ -1,0 +1,51 @@
+start 2026-10-03T13:38:01Z at 8e4e4163
++LLLRLRR: 40 brackets, 22 through a pole; 0 already done
+-LLLRLRR: 40 brackets, 22 through a pole; 0 already done
++LLLRLRR E3 [65.0, 70.0]: converged True, alpha 65.3575830352935, 143 s
++LLLRLRR E2 [40.0, 45.0]: converged True, alpha 44.252541793443925, 147 s
++LLLRLRR E4 [55.0, 59.99999999999999]: converged True, alpha 57.38326768428297, 159 s
++LLLRLRR E1 [25.0, 29.999999999999996]: converged True, alpha 28.691633841801483, 202 s
++LLLRLRR E3 [130.0, 135.0]: converged True, alpha 134.2525417952883, 182 s
++LLLRLRR E1 [70.0, 75.0]: converged True, alpha 73.69163384217812, 233 s
++LLLRLRR E1 [115.0, 119.99999999999999]: converged True, alpha 118.691633842114, 235 s
++LLLRLRR E4 [145.0, 150.0]: converged True, alpha 147.38326768397684, 194 s
++LLLRLRR E2 [220.0, 225.0]: converged True, alpha 224.25254179344392, 191 s
++LLLRLRR E1 [160.0, 165.0]: converged True, alpha 163.6916338414355, 245 s
++LLLRLRR E4 [235.0, 239.99999999999997]: converged True, alpha 237.38326768428297, 195 s
++LLLRLRR E1 [205.0, 210.00000000000003]: converged True, alpha 208.6916338418015, 241 s
++LLLRLRR E3 [245.00000000000003, 250.00000000000003]: converged True, alpha 245.35758303529352, 138 s
++LLLRLRR E3 [310.0, 315.0]: converged True, alpha 314.25254179528827, 133 s
++LLLRLRR E1 [295.0, 300.0]: converged True, alpha 298.691633842114, 173 s
++LLLRLRR E1 [250.00000000000003, 255.00000000000003]: converged True, alpha 253.6916338421781, 183 s
++LLLRLRR E4 [325.0, 330.0]: converged True, alpha 327.38326768397684, 125 s
+-LLLRLRR E2 [40.0, 45.0]: converged True, alpha 44.252541793443925, 120 s
++LLLRLRR E1 [340.0, 345.0]: converged True, alpha 343.6916338414355, 158 s
+-LLLRLRR E1 [25.0, 29.999999999999996]: converged True, alpha 28.691633841801483, 158 s
+-LLLRLRR E4 [55.0, 59.99999999999999]: converged True, alpha 57.38326768428297, 155 s
+-LLLRLRR E3 [65.0, 70.0]: converged True, alpha 65.3575830352935, 120 s
+-LLLRLRR E1 [70.0, 75.0]: converged True, alpha 73.69163384217812, 160 s
+-LLLRLRR E1 [115.0, 119.99999999999999]: converged True, alpha 118.691633842114, 166 s
+-LLLRLRR E3 [130.0, 135.0]: converged True, alpha 134.2525417952883, 124 s
+-LLLRLRR E4 [145.0, 150.0]: converged True, alpha 147.38326768397684, 167 s
+-LLLRLRR E1 [160.0, 165.0]: converged True, alpha 163.6916338414355, 176 s
+-LLLRLRR E2 [220.0, 225.0]: converged True, alpha 224.25254179344392, 131 s
+-LLLRLRR E1 [205.0, 210.00000000000003]: converged True, alpha 208.6916338418015, 182 s
+-LLLRLRR E4 [235.0, 239.99999999999997]: converged True, alpha 237.38326768428297, 205 s
+-LLLRLRR E3 [245.00000000000003, 250.00000000000003]: converged True, alpha 245.35758303529352, 164 s
+-LLLRLRR E1 [250.00000000000003, 255.00000000000003]: converged True, alpha 253.6916338421781, 206 s
+-LLLRLRR E1 [295.0, 300.0]: converged True, alpha 298.691633842114, 202 s
+-LLLRLRR E3 [310.0, 315.0]: converged True, alpha 314.25254179528827, 122 s
+-LLLRLRR E4 [325.0, 330.0]: converged True, alpha 327.38326768397684, 155 s
+-LLLRLRR E1 [340.0, 345.0]: converged True, alpha 343.6916338414355, 163 s
++LLLRLRR E1 [35.0, 40.0]: converged False, alpha None, 3411 s  (pole bracket)
++LLLRLRR E2 [35.0, 40.0]: converged False, alpha None, 3457 s  (pole bracket)
++LLLRLRR E3 [35.0, 40.0]: converged False, alpha None, 3436 s  (pole bracket)
++LLLRLRR E4 [35.0, 40.0]: converged False, alpha None, 3454 s  (pole bracket)
++LLLRLRR E1 [95.0, 100.0]: converged False, alpha None, 1985 s  (pole bracket)
++LLLRLRR E3 [95.0, 100.0]: converged False, alpha None, 1944 s  (pole bracket)
++LLLRLRR E2 [95.0, 100.0]: converged False, alpha None, 1985 s  (pole bracket)
++LLLRLRR E4 [95.0, 100.0]: converged False, alpha None, 1923 s  (pole bracket)
++LLLRLRR E1 [155.0, 160.0]: converged False, alpha None, 1759 s  (pole bracket)
++LLLRLRR E3 [155.0, 160.0]: converged False, alpha None, 1772 s  (pole bracket)
++LLLRLRR E4 [155.0, 160.0]: converged False, alpha None, 1792 s  (pole bracket)
++LLLRLRR E1 [215.0, 220.0]: converged False, alpha None, 1762 s  (pole bracket)

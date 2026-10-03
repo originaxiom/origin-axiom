@@ -1,0 +1,2 @@
++LLLRLRR E1 [25.0, 29.999999999999996]: converged True, alpha 28.691633841801483, 121 s
++LLLRLRR E1 [35.0, 40.0]: converged False, alpha None, 2024 s

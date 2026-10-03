@@ -1,0 +1,12 @@
+B1530 post-run check E on +LLRR (m136), 2026-10-03T16:13:35Z
+the exact holonomy (PGL(2, Q(i)), sm:B1529's reader with sign +): a: [['(0, 0, 0, 0)', '(-1/50, 0, 7/50, 0)'], ['(1, 0, 0, 0)', '(-3/5, 0, 1/5, 0)']]; b: [['(1, 0, 0, 0)', '(-27/50, 0, -11/50, 0)'], ['(1, 0, 0, 0)', '(-2/5, 0, -1/5, 0)']]; t: [['(1, 0, 0, 0)', '(1/5, 0, 3/5, 0)'], ['(0, 0, 0, 0)', '(1, 0, 0, 0)']] (coefficients of 1, z, z^2, z^3 with z = e^{i pi/4})
+the four: the relators hold exactly; D = 4, 4 base points u
+  u ['0', '0'], kappa 1: case (a), h1 {'V': 1, 'V_eta': 1, 'V (x) L': 1}, interior {'V': 0, 'V_eta': 0, 'V (x) L': 0}; W1 {'basis 0': (0, 0)}; W2 {'basis 0': (0, 0)}; {'x cup basis 0 = 0': True} (3 s)
+  u ['0', '1/2'], kappa 1: case (a), h1 {'V': 1, 'V_eta': 1, 'V (x) L': 1}, interior {'V': 0, 'V_eta': 0, 'V (x) L': 0}; W1 {'basis 0': (0, 0)}; W2 {'basis 0': (0, 0)}; {'x cup basis 0 = 0': True} (3 s)
+  u ['1/2', '0'], kappa 1: case (a), h1 {'V': 1, 'V_eta': 1, 'V (x) L': 1}, interior {'V': 0, 'V_eta': 0, 'V (x) L': 0}; W1 {'basis 0': (0, 0)}; W2 {'basis 0': (0, 0)}; {'x cup basis 0 = 0': True} (3 s)
+  u ['1/2', '1/2'], kappa 1: case (a), h1 {'V': 1, 'V_eta': 1, 'V (x) L': 1}, interior {'V': 0, 'V_eta': 0, 'V (x) L': 0}; W1 {'basis 0': (0, 0)}; W2 {'basis 0': (0, 0)}; {'x cup basis 0 = 0': True} (3 s)
+  u ['0', '0'], kappa -1: case (a), h1 {'V': 0, 'V_eta': 0, 'V (x) L': 0}, interior {'V': 0, 'V_eta': 0, 'V (x) L': 0}; W1 {}; W2 {}; {} (0 s)
+  u ['0', '1/2'], kappa -1: case (a), h1 {'V': 1, 'V_eta': 1, 'V (x) L': 1}, interior {'V': 1, 'V_eta': 1, 'V (x) L': 1}; W1 {'basis 0': (-1, -1)}; W2 {'basis 0': (1, 1)}; {'x cup basis 0 = 0': True} (3 s)
+  u ['1/2', '0'], kappa -1: case (a), h1 {'V': 1, 'V_eta': 1, 'V (x) L': 1}, interior {'V': 1, 'V_eta': 1, 'V (x) L': 1}; W1 {'basis 0': (-1, -1)}; W2 {'basis 0': (1, 1)}; {'x cup basis 0 = 0': True} (3 s)
+  u ['1/2', '1/2'], kappa -1: case (a), h1 {'V': 0, 'V_eta': 0, 'V (x) L': 0}, interior {'V': 0, 'V_eta': 0, 'V (x) L': 0}; W1 {}; W2 {}; {} (0 s)
+generation-shaped (exact): [(['0', '1/2'], '-1', 'basis 0', (-1, -1)), (['1/2', '0'], '-1', 'basis 0', (-1, -1))] (23 s)

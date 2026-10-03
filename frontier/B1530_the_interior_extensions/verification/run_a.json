@@ -1,0 +1,1633 @@
+{
+ "state": "-LLRR",
+ "D": 8,
+ "characters": 8,
+ "the frames' conjugator": {
+  "smallest singular value (rel)": "1.05e-61",
+  "next (rel)": "0.0308"
+ },
+ "rows": [
+  {
+   "u": [
+    "0",
+    "0"
+   ],
+   "route E": {
+    "u": [
+     "0",
+     "0"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "n": {
+     "V": 0,
+     "V_eta": 0,
+     "V (x) L": 0
+    },
+    "simple": true,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 1,
+       "h1*": 2,
+       "r1": 1,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 3,
+       "h1*": 2,
+       "r1": 3,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      2
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((12, 8, 0, 8, 0, -8, 0, 0)/1)",
+      "K((-26, -16, 0, -16, 0, 16, 0, 0)/1)",
+      "K((12, 8, 0, 8, 0, -8, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup the class = 0": true,
+     "bit at the class: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "0",
+     "0"
+    ],
+    "h1(V_eta)": 1,
+    "interior": 0,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00149",
+        "largest dropped": "4.02e-59"
+       },
+       "L2W": {
+        "smallest kept": "9.93e-5",
+        "largest dropped": "1.09e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00151",
+     "largest dropped": "5.83e-59"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: the class": true,
+    "W2: the class": true,
+    "classes: interior dimension of H^1(V_eta)": true
+   },
+   "seconds": 11
+  },
+  {
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "route E": {
+    "u": [
+     "0",
+     "1/2"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 2,
+     "V_eta": 2,
+     "V (x) L": 2
+    },
+    "n": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "simple": false,
+    "W1": {
+     "c_int": {
+      "I(W)": -1,
+      "I(L2W)": -1,
+      "W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 1,
+       "t0": 2,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 2,
+       "r1*": 2,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -3,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 3,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 3,
+       "r1": 4,
+       "r1*": 2,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -3,
+        3
+       ]
+      },
+      "c|P is a coboundary": true
+     },
+     "c_b": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     },
+     "c_b + c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     },
+     "c_b - c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     },
+     "c_b + 2 c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "c'_int": {
+      "I(W)": 1,
+      "I(L2W)": 1
+     },
+     "c'_b": {
+      "I(W)": 0,
+      "I(L2W)": 1
+     },
+     "c'_b + c'_int": {
+      "I(W)": 0,
+      "I(L2W)": 1
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      2,
+      2
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup c_int = 0": true,
+     "x cup c_b = 0": true,
+     "mu (the lift of c_int) in Lambda_A": false,
+     "dim Lambda_A": 2,
+     "mu a P-coboundary": false,
+     "c_int lifts": true,
+     "bit at c_b: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "0",
+     "1/2"
+    ],
+    "h1(V_eta)": 2,
+    "interior": 1,
+    "W1": {
+     "c_int": {
+      "I(W)": -1,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00337",
+        "largest dropped": "1.82e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000158",
+        "largest dropped": "1.83e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.88e-56"
+      ]
+     },
+     "c_b": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.004",
+        "largest dropped": "1.9e-59"
+       },
+       "L2W": {
+        "smallest kept": "1.09e-5",
+        "largest dropped": "3.45e-57"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     },
+     "c_b + c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00323",
+        "largest dropped": "1.59e-59"
+       },
+       "L2W": {
+        "smallest kept": "2.15e-5",
+        "largest dropped": "2.8e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "2.98e-56"
+      ]
+     },
+     "c_b - c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00351",
+        "largest dropped": "1.99e-59"
+       },
+       "L2W": {
+        "smallest kept": "2.22e-5",
+        "largest dropped": "4.08e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "2.33e-56"
+      ]
+     },
+     "c_b + 2 c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00238",
+        "largest dropped": "1.26e-59"
+       },
+       "L2W": {
+        "smallest kept": "1.23e-5",
+        "largest dropped": "9.68e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "4.02e-56"
+      ]
+     },
+     "route N's own interior class": {
+      "I(W)": -1,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00367",
+        "largest dropped": "1.89e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000202",
+        "largest dropped": "3.28e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.7e-56"
+      ]
+     }
+    },
+    "W2": {
+     "c'_int": {
+      "I(W)": 1,
+      "I(L2W)": 1,
+      "checks": true
+     },
+     "c'_b": {
+      "I(W)": 0,
+      "I(L2W)": 1,
+      "checks": true
+     },
+     "c'_b + c'_int": {
+      "I(W)": 0,
+      "I(L2W)": 1,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00504",
+     "largest dropped": "1.59e-59"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: c_int": true,
+    "W1: c_b": true,
+    "W1: c_b + c_int": true,
+    "W1: c_b - c_int": true,
+    "W1: c_b + 2 c_int": true,
+    "W2: c'_int": true,
+    "W2: c'_b": true,
+    "W2: c'_b + c'_int": true,
+    "classes: interior dimension of H^1(V_eta)": true,
+    "W1: route N's own interior class": true
+   },
+   "seconds": 49
+  },
+  {
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "route E": {
+    "u": [
+     "1/4",
+     "1/4"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "n": {
+     "V": 0,
+     "V_eta": 0,
+     "V (x) L": 0
+    },
+    "simple": true,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 1,
+       "h1*": 2,
+       "r1": 1,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 3,
+       "h1*": 2,
+       "r1": 3,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      4
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup the class = 0": true,
+     "bit at the class: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "1/4",
+     "1/4"
+    ],
+    "h1(V_eta)": 1,
+    "interior": 0,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00141",
+        "largest dropped": "3.82e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000279",
+        "largest dropped": "8.17e-59"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00183",
+     "largest dropped": "9.57e-59"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: the class": true,
+    "W2: the class": true,
+    "classes: interior dimension of H^1(V_eta)": true
+   },
+   "seconds": 12
+  },
+  {
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "route E": {
+    "u": [
+     "1/4",
+     "3/4"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "n": {
+     "V": 0,
+     "V_eta": 0,
+     "V (x) L": 0
+    },
+    "simple": true,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 1,
+       "h1*": 2,
+       "r1": 1,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 3,
+       "h1*": 2,
+       "r1": 3,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      4
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup the class = 0": true,
+     "bit at the class: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "1/4",
+     "3/4"
+    ],
+    "h1(V_eta)": 1,
+    "interior": 0,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.000966",
+        "largest dropped": "6.2e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000275",
+        "largest dropped": "6.13e-59"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00107",
+     "largest dropped": "2.38e-58"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: the class": true,
+    "W2: the class": true,
+    "classes: interior dimension of H^1(V_eta)": true
+   },
+   "seconds": 11
+  },
+  {
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "route E": {
+    "u": [
+     "1/2",
+     "0"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 2,
+     "V_eta": 2,
+     "V (x) L": 2
+    },
+    "n": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "simple": false,
+    "W1": {
+     "c_int": {
+      "I(W)": -1,
+      "I(L2W)": -1,
+      "W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 1,
+       "t0": 2,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 2,
+       "r1*": 2,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -3,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 3,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 3,
+       "r1": 4,
+       "r1*": 2,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -3,
+        3
+       ]
+      },
+      "c|P is a coboundary": true
+     },
+     "c_b": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     },
+     "c_b + c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     },
+     "c_b - c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     },
+     "c_b + 2 c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 2,
+       "h1*": 3,
+       "r1": 1,
+       "r1*": 2,
+       "n": 1,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": -1,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 4,
+       "h1*": 2,
+       "r1": 4,
+       "r1*": 1,
+       "n": 0,
+       "n*": 1,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "c'_int": {
+      "I(W)": 1,
+      "I(L2W)": 1
+     },
+     "c'_b": {
+      "I(W)": 0,
+      "I(L2W)": 1
+     },
+     "c'_b + c'_int": {
+      "I(W)": 0,
+      "I(L2W)": 1
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      2,
+      2
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup c_int = 0": true,
+     "x cup c_b = 0": true,
+     "mu (the lift of c_int) in Lambda_A": false,
+     "dim Lambda_A": 2,
+     "mu a P-coboundary": false,
+     "c_int lifts": true,
+     "bit at c_b: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "1/2",
+     "0"
+    ],
+    "h1(V_eta)": 2,
+    "interior": 1,
+    "W1": {
+     "c_int": {
+      "I(W)": -1,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00256",
+        "largest dropped": "2.0e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000498",
+        "largest dropped": "2.33e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "2.07e-56"
+      ]
+     },
+     "c_b": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00276",
+        "largest dropped": "1.98e-59"
+       },
+       "L2W": {
+        "smallest kept": "1.09e-5",
+        "largest dropped": "9.14e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     },
+     "c_b + c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00254",
+        "largest dropped": "1.67e-59"
+       },
+       "L2W": {
+        "smallest kept": "3.91e-5",
+        "largest dropped": "1.03e-57"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     },
+     "c_b - c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00259",
+        "largest dropped": "2.12e-59"
+       },
+       "L2W": {
+        "smallest kept": "2.92e-5",
+        "largest dropped": "8.03e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     },
+     "c_b + 2 c_int": {
+      "I(W)": 0,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00198",
+        "largest dropped": "1.98e-59"
+       },
+       "L2W": {
+        "smallest kept": "2.15e-5",
+        "largest dropped": "7.79e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "3.18e-56"
+      ]
+     },
+     "route N's own interior class": {
+      "I(W)": -1,
+      "I(L2W)": -1,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00225",
+        "largest dropped": "2.57e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000326",
+        "largest dropped": "3.61e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     }
+    },
+    "W2": {
+     "c'_int": {
+      "I(W)": 1,
+      "I(L2W)": 1,
+      "checks": true
+     },
+     "c'_b": {
+      "I(W)": 0,
+      "I(L2W)": 1,
+      "checks": true
+     },
+     "c'_b + c'_int": {
+      "I(W)": 0,
+      "I(L2W)": 1,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00276",
+     "largest dropped": "4.73e-59"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: c_int": true,
+    "W1: c_b": true,
+    "W1: c_b + c_int": true,
+    "W1: c_b - c_int": true,
+    "W1: c_b + 2 c_int": true,
+    "W2: c'_int": true,
+    "W2: c'_b": true,
+    "W2: c'_b + c'_int": true,
+    "classes: interior dimension of H^1(V_eta)": true,
+    "W1: route N's own interior class": true
+   },
+   "seconds": 50
+  },
+  {
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "route E": {
+    "u": [
+     "1/2",
+     "1/2"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "n": {
+     "V": 0,
+     "V_eta": 0,
+     "V (x) L": 0
+    },
+    "simple": true,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 1,
+       "h1*": 2,
+       "r1": 1,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 3,
+       "h1*": 2,
+       "r1": 3,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      2
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((12, -8, 0, -8, 0, 8, 0, 0)/1)",
+      "K((-26, 16, 0, 16, 0, -16, 0, 0)/1)",
+      "K((12, -8, 0, -8, 0, 8, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup the class = 0": true,
+     "bit at the class: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "1/2",
+     "1/2"
+    ],
+    "h1(V_eta)": 1,
+    "interior": 0,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00121",
+        "largest dropped": "7.5e-59"
+       },
+       "L2W": {
+        "smallest kept": "7.28e-5",
+        "largest dropped": "1.57e-58"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00122",
+     "largest dropped": "1.43e-58"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: the class": true,
+    "W2: the class": true,
+    "classes: interior dimension of H^1(V_eta)": true
+   },
+   "seconds": 11
+  },
+  {
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "route E": {
+    "u": [
+     "3/4",
+     "1/4"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "n": {
+     "V": 0,
+     "V_eta": 0,
+     "V (x) L": 0
+    },
+    "simple": true,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 1,
+       "h1*": 2,
+       "r1": 1,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 3,
+       "h1*": 2,
+       "r1": 3,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      4
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup the class = 0": true,
+     "bit at the class: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "3/4",
+     "1/4"
+    ],
+    "h1(V_eta)": 1,
+    "interior": 0,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.000966",
+        "largest dropped": "6.21e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000275",
+        "largest dropped": "6.58e-59"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00107",
+     "largest dropped": "2.38e-58"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: the class": true,
+    "W2: the class": true,
+    "classes: interior dimension of H^1(V_eta)": true
+   },
+   "seconds": 11
+  },
+  {
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "route E": {
+    "u": [
+     "3/4",
+     "3/4"
+    ],
+    "case": "(a)",
+    "h1": {
+     "V": 1,
+     "V_eta": 1,
+     "V (x) L": 1
+    },
+    "n": {
+     "V": 0,
+     "V_eta": 0,
+     "V (x) L": 0
+    },
+    "simple": true,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 2,
+       "h1": 1,
+       "h1*": 2,
+       "r1": 1,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        1
+       ]
+      },
+      "L2W1": {
+       "I": 0,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 3,
+       "h1": 3,
+       "h1*": 2,
+       "r1": 3,
+       "r1*": 2,
+       "n": 0,
+       "n*": 0,
+       "range (Proposition E)": [
+        -2,
+        3
+       ]
+      },
+      "c|P is a coboundary": false
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0
+     }
+    },
+    "mechanism (route E)": {
+     "Jordan type of S0 on C at 1": [
+      4
+     ],
+     "chi_C (highest first)": [
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+      "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+     ],
+     "x cup the class = 0": true,
+     "bit at the class: e ^ c|_P in Lambda_A": false
+    }
+   },
+   "route N": {
+    "u": [
+     "3/4",
+     "3/4"
+    ],
+    "h1(V_eta)": 1,
+    "interior": 0,
+    "W1": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true,
+      "margins": {
+       "W": {
+        "smallest kept": "0.00141",
+        "largest dropped": "3.8e-59"
+       },
+       "L2W": {
+        "smallest kept": "0.000279",
+        "largest dropped": "7.1e-59"
+       }
+      },
+      "relator residual": [
+       "1.4e-57",
+       "1.43e-56"
+      ]
+     }
+    },
+    "W2": {
+     "the class": {
+      "I(W)": 0,
+      "I(L2W)": 0,
+      "checks": true
+     }
+    },
+    "margins (classes)": {
+     "smallest kept": "0.00183",
+     "largest dropped": "9.57e-59"
+    }
+   },
+   "routes agree": true,
+   "comparison": {
+    "W1: the class": true,
+    "W2: the class": true,
+    "classes: interior dimension of H^1(V_eta)": true
+   },
+   "seconds": 11
+  }
+ ],
+ "routes agree everywhere": true,
+ "seconds": 172
+}

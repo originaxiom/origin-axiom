@@ -1,0 +1,16 @@
++LLRLRR E1 [20.0, 25.0]: converged True, alpha 22.500000000102013, 169 s
++LLRLRR E4 [45.0, 50.0]: converged True, alpha 45.0, 236 s
++LLRLRR E3 [55.0, 59.99999999999999]: converged True, alpha 55.73535071619074, 155 s
++LLRLRR E1 [65.0, 70.0]: converged True, alpha 67.49999999998249, 241 s
++LLRLRR E1 [110.0, 115.0]: converged True, alpha 112.50000000001751, 252 s
++LLRLRR E3 [119.99999999999999, 125.00000000000001]: converged True, alpha 124.26464928380926, 106 s
++LLRLRR E4 [130.0, 135.0]: converged True, alpha 135.0, 172 s
++LLRLRR E1 [155.0, 160.0]: converged True, alpha 157.499999999898, 176 s
++LLRLRR E1 [200.0, 205.0]: converged True, alpha 202.500000000102, 178 s
++LLRLRR E4 [225.0, 230.0]: converged True, alpha 225.0, 177 s
++LLRLRR E3 [235.0, 239.99999999999997]: converged True, alpha 235.73535071619074, 106 s
++LLRLRR E1 [245.00000000000003, 250.00000000000003]: converged True, alpha 247.4999999999825, 191 s
++LLRLRR E1 [290.0, 295.0]: converged True, alpha 292.5000000000175, 200 s
++LLRLRR E3 [300.0, 305.0]: converged True, alpha 304.26464928380926, 113 s
++LLRLRR E4 [310.0, 315.0]: converged True, alpha 315.0, 174 s
++LLRLRR E1 [335.0, 340.0]: converged True, alpha 337.49999999989797, 178 s

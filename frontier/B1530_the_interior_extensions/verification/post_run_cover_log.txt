@@ -1,0 +1,6 @@
+B1530 post-run check: the common double cover of m135 and m136, 2026-10-03T16:15:42Z
+Gamma_2 = +LLRRLLRR: D = 32, 32 base points; the relators hold exactly on m136's four with t -> t^2
+  u ['0', '1/2'], nu(t_2) = 1: h1 2, interior 1; W1 {'c_int': [-1, -1], 'c_b': [0, -1]}
+  u ['0', '1/2'], nu(t_2) = -1: h1 0, interior 0; W1 {}
+  u ['1/2', '0'], nu(t_2) = 1: h1 2, interior 1; W1 {'c_int': [-1, -1], 'c_b': [0, -1]}
+  u ['1/2', '0'], nu(t_2) = -1: h1 0, interior 0; W1 {}

@@ -1,0 +1,14 @@
+B1530 post-run check S on +LLRR, 2026-10-03T15:59:30Z
+SnapPy: b++LLRR = ['m136(0,0)'], all tetrahedra positively oriented, volume 3.66386237671, H_1 Z/2 + Z/2 + Z; generators ['a', 'b', 'c'], relators ['abAccB', 'aacbCB'], cusp ['ACac', 'b']; product convention residual 1.56e-60
+the four: relator residual 2.31e-59, cusp commutator residual 4.23e-59; null-homologous among m, l, ml, mL: ['ACac']
+characters nu: pi_1 -> mu_12: 48
+  member nu [0, 0, 0]: kappa 1, case (a), h1(V_eta) 1, interior 0; W1 {'boundary 0': (0, 0)} (4 s)
+  member nu [0, 0, 6]: kappa 1, case (a), h1(V_eta) 1, interior 0; W1 {'boundary 0': (0, 0)} (4 s)
+  member nu [0, 6, 6]: kappa -1, case (a), h1(V_eta) 1, interior 1; W1 {'interior 0': (-1, -1)} (4 s)
+  member nu [6, 0, 0]: kappa 1, case (a), h1(V_eta) 1, interior 0; W1 {'boundary 0': (0, 0)} (4 s)
+  member nu [6, 0, 6]: kappa 1, case (a), h1(V_eta) 1, interior 0; W1 {'boundary 0': (0, 0)} (4 s)
+  member nu [6, 6, 0]: kappa -1, case (a), h1(V_eta) 1, interior 1; W1 {'interior 0': (-1, -1)} (4 s)
+population B characters: route S [('-1', 1), ('-1', 1)]; route T [('-1', 1), ('-1', 1)]; agree True
+kappa = -1 members' readings: route S [(-1, -1)]; post_run_b [(-1, -1)]
+generation-shaped readings: [([0, 6, 6], '-1', 'interior 0', (-1, -1)), ([6, 6, 0], '-1', 'interior 0', (-1, -1))]
+all identity checks: True; all comparisons agree: True (31 s)

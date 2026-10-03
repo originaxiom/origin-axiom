@@ -1,0 +1,318 @@
+{
+ "state": "+LLRR",
+ "holonomy (Gaussian rationals, as read; coefficients of 1, z, z^2, z^3, z = e^{i pi/4})": {
+  "a": [
+   [
+    "(0, 0, 0, 0)",
+    "(-1/50, 0, 7/50, 0)"
+   ],
+   [
+    "(1, 0, 0, 0)",
+    "(-3/5, 0, 1/5, 0)"
+   ]
+  ],
+  "b": [
+   [
+    "(1, 0, 0, 0)",
+    "(-27/50, 0, -11/50, 0)"
+   ],
+   [
+    "(1, 0, 0, 0)",
+    "(-2/5, 0, -1/5, 0)"
+   ]
+  ],
+  "t": [
+   [
+    "(1, 0, 0, 0)",
+    "(1/5, 0, 3/5, 0)"
+   ],
+   [
+    "(0, 0, 0, 0)",
+    "(1, 0, 0, 0)"
+   ]
+  ]
+ },
+ "rows": [
+  {
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "1",
+   "case": "(a)",
+   "h1": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "n (interior)": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "W1": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "c|P a coboundary": false
+    }
+   },
+   "W2": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0
+    }
+   },
+   "mechanism": {
+    "x cup basis 0 = 0": true
+   },
+   "seconds": 3
+  },
+  {
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1",
+   "case": "(a)",
+   "h1": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "n (interior)": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "W1": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "c|P a coboundary": false
+    }
+   },
+   "W2": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0
+    }
+   },
+   "mechanism": {
+    "x cup basis 0 = 0": true
+   },
+   "seconds": 3
+  },
+  {
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1",
+   "case": "(a)",
+   "h1": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "n (interior)": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "W1": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "c|P a coboundary": false
+    }
+   },
+   "W2": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0
+    }
+   },
+   "mechanism": {
+    "x cup basis 0 = 0": true
+   },
+   "seconds": 3
+  },
+  {
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "1",
+   "case": "(a)",
+   "h1": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "n (interior)": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "W1": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "c|P a coboundary": false
+    }
+   },
+   "W2": {
+    "basis 0": {
+     "I(W)": 0,
+     "I(L2W)": 0
+    }
+   },
+   "mechanism": {
+    "x cup basis 0 = 0": true
+   },
+   "seconds": 3
+  },
+  {
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "-1",
+   "case": "(a)",
+   "h1": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "n (interior)": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "W1": {},
+   "W2": {},
+   "mechanism": {},
+   "seconds": 0
+  },
+  {
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "-1",
+   "case": "(a)",
+   "h1": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "n (interior)": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "W1": {
+    "basis 0": {
+     "I(W)": -1,
+     "I(L2W)": -1,
+     "c|P a coboundary": true
+    }
+   },
+   "W2": {
+    "basis 0": {
+     "I(W)": 1,
+     "I(L2W)": 1
+    }
+   },
+   "mechanism": {
+    "x cup basis 0 = 0": true
+   },
+   "seconds": 3
+  },
+  {
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "-1",
+   "case": "(a)",
+   "h1": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "n (interior)": {
+    "V": 1,
+    "V_eta": 1,
+    "V (x) L": 1
+   },
+   "W1": {
+    "basis 0": {
+     "I(W)": -1,
+     "I(L2W)": -1,
+     "c|P a coboundary": true
+    }
+   },
+   "W2": {
+    "basis 0": {
+     "I(W)": 1,
+     "I(L2W)": 1
+    }
+   },
+   "mechanism": {
+    "x cup basis 0 = 0": true
+   },
+   "seconds": 3
+  },
+  {
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "-1",
+   "case": "(a)",
+   "h1": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "n (interior)": {
+    "V": 0,
+    "V_eta": 0,
+    "V (x) L": 0
+   },
+   "W1": {},
+   "W2": {},
+   "mechanism": {},
+   "seconds": 0
+  }
+ ],
+ "generation-shaped": [
+  [
+   [
+    "0",
+    "1/2"
+   ],
+   "-1",
+   "basis 0",
+   [
+    -1,
+    -1
+   ]
+  ],
+  [
+   [
+    "1/2",
+    "0"
+   ],
+   "-1",
+   "basis 0",
+   [
+    -1,
+    -1
+   ]
+  ]
+ ],
+ "seconds": 23
+}

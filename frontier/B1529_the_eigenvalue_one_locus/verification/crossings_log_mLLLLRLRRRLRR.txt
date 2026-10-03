@@ -1,0 +1,8 @@
+-LLLLRLRRRLRR E3 [55.0, 59.99999999999999]: converged False, alpha None, 1367 s
+-LLLLRLRRRLRR E1 [65.0, 70.0]: converged False, alpha None, 1371 s
+-LLLLRLRRRLRR E1 [110.0, 115.0]: converged False, alpha None, 2225 s
+-LLLLRLRRRLRR E1 [155.0, 160.0]: converged False, alpha None, 2410 s
+-LLLLRLRRRLRR E3 [235.0, 239.99999999999997]: converged False, alpha None, 1443 s
+-LLLLRLRRRLRR E1 [245.00000000000003, 250.00000000000003]: converged False, alpha None, 637 s
+-LLLLRLRRRLRR E1 [290.0, 295.0]: converged False, alpha None, 675 s
+-LLLLRLRRRLRR E1 [335.0, 340.0]: converged False, alpha None, 667 s

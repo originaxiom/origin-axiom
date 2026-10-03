@@ -1,0 +1,1004 @@
+{
+ "state": "+LLRR",
+ "SnapPy": {
+  "name": "b++LLRR",
+  "identify": [
+   "m136(0,0)"
+  ],
+  "solution type": "all tetrahedra positively oriented",
+  "volume": "3.66386237671",
+  "homology": "Z/2 + Z/2 + Z",
+  "generators": [
+   "a",
+   "b",
+   "c"
+  ],
+  "relators": [
+   "abAccB",
+   "aacbCB"
+  ],
+  "peripheral (meridian, longitude)": [
+   "ACac",
+   "b"
+  ],
+  "product convention residual": "1.56e-60",
+  "null-homologous peripheral words": [
+   "ACac"
+  ]
+ },
+ "the four": {
+  "relator residual": "2.31e-59",
+  "cusp commutator residual": "4.23e-59"
+ },
+ "characters": 48,
+ "by kappa": {
+  "+-i": 8,
+  "-1": 4,
+  "1": 4,
+  "omega": 8,
+  "order 12": 16,
+  "order 6": 8
+ },
+ "rows": [
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    0,
+    0
+   ],
+   "kappa": "1",
+   "nu on (meridian, longitude)": [
+    0,
+    0
+   ],
+   "h1(nu (x) rho)": 1,
+   "h1(V_eta)": 1,
+   "W1": {
+    "boundary 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "checks": true,
+     "margins": {
+      "W": {
+       "smallest kept": "0.0235",
+       "largest dropped": "2.45e-61"
+      },
+      "L2W": {
+       "smallest kept": "0.0095",
+       "largest dropped": "9.52e-61"
+      }
+     },
+     "relator residual": [
+      "2.31e-59",
+      "3.58e-58"
+     ]
+    }
+   },
+   "case": "(a)",
+   "interior": 0,
+   "boundary-type": 1,
+   "margins (classes)": {
+    "smallest kept": "0.0262",
+    "largest dropped": "1.62e-60"
+   },
+   "seconds": 4
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    0,
+    6
+   ],
+   "kappa": "1",
+   "nu on (meridian, longitude)": [
+    0,
+    0
+   ],
+   "h1(nu (x) rho)": 1,
+   "h1(V_eta)": 1,
+   "W1": {
+    "boundary 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "checks": true,
+     "margins": {
+      "W": {
+       "smallest kept": "0.042",
+       "largest dropped": "1.68e-61"
+      },
+      "L2W": {
+       "smallest kept": "0.00566",
+       "largest dropped": "1.09e-60"
+      }
+     },
+     "relator residual": [
+      "2.31e-59",
+      "3.43e-58"
+     ]
+    }
+   },
+   "case": "(a)",
+   "interior": 0,
+   "boundary-type": 1,
+   "margins (classes)": {
+    "smallest kept": "0.0485",
+    "largest dropped": "1.17e-60"
+   },
+   "seconds": 4
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    1,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    1
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    1,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    1
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    2,
+    0
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    2
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    2,
+    6
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    2
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    3,
+    0
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    3
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    3,
+    6
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    3
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    4,
+    0
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    4
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    4,
+    6
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    4
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    5,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    5
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    5,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    5
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    6,
+    0
+   ],
+   "kappa": "-1",
+   "nu on (meridian, longitude)": [
+    0,
+    6
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    6,
+    6
+   ],
+   "kappa": "-1",
+   "nu on (meridian, longitude)": [
+    0,
+    6
+   ],
+   "h1(nu (x) rho)": 1,
+   "h1(V_eta)": 1,
+   "W1": {
+    "interior 0": {
+     "I(W)": -1,
+     "I(L2W)": -1,
+     "checks": true,
+     "margins": {
+      "W": {
+       "smallest kept": "0.0132",
+       "largest dropped": "3.76e-61"
+      },
+      "L2W": {
+       "smallest kept": "0.00495",
+       "largest dropped": "1.76e-60"
+      }
+     },
+     "relator residual": [
+      "2.31e-59",
+      "3.89e-58"
+     ]
+    }
+   },
+   "case": "(a)",
+   "interior": 1,
+   "boundary-type": 0,
+   "margins (classes)": {
+    "smallest kept": "0.0162",
+    "largest dropped": "3.74e-60"
+   },
+   "seconds": 4
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    7,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    7
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    7,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    7
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    8,
+    0
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    8
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    8,
+    6
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    8
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    9,
+    0
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    9
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    9,
+    6
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    9
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    10,
+    0
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    10
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    10,
+    6
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    10
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    11,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    11
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    0,
+    11,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    11
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    0,
+    0
+   ],
+   "kappa": "1",
+   "nu on (meridian, longitude)": [
+    0,
+    0
+   ],
+   "h1(nu (x) rho)": 1,
+   "h1(V_eta)": 1,
+   "W1": {
+    "boundary 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "checks": true,
+     "margins": {
+      "W": {
+       "smallest kept": "0.0176",
+       "largest dropped": "1.73e-61"
+      },
+      "L2W": {
+       "smallest kept": "0.0112",
+       "largest dropped": "1.4e-60"
+      }
+     },
+     "relator residual": [
+      "2.31e-59",
+      "3.43e-58"
+     ]
+    }
+   },
+   "case": "(a)",
+   "interior": 0,
+   "boundary-type": 1,
+   "margins (classes)": {
+    "smallest kept": "0.0204",
+    "largest dropped": "1.2e-60"
+   },
+   "seconds": 4
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    0,
+    6
+   ],
+   "kappa": "1",
+   "nu on (meridian, longitude)": [
+    0,
+    0
+   ],
+   "h1(nu (x) rho)": 1,
+   "h1(V_eta)": 1,
+   "W1": {
+    "boundary 0": {
+     "I(W)": 0,
+     "I(L2W)": 0,
+     "checks": true,
+     "margins": {
+      "W": {
+       "smallest kept": "0.0202",
+       "largest dropped": "1.37e-61"
+      },
+      "L2W": {
+       "smallest kept": "0.00508",
+       "largest dropped": "9.59e-61"
+      }
+     },
+     "relator residual": [
+      "2.31e-59",
+      "3.43e-58"
+     ]
+    }
+   },
+   "case": "(a)",
+   "interior": 0,
+   "boundary-type": 1,
+   "margins (classes)": {
+    "smallest kept": "0.0253",
+    "largest dropped": "1.92e-60"
+   },
+   "seconds": 4
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    1,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    1
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    1,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    1
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    2,
+    0
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    2
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    2,
+    6
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    2
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    3,
+    0
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    3
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    3,
+    6
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    3
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    4,
+    0
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    4
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    4,
+    6
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    4
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    5,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    5
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    5,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    5
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    6,
+    0
+   ],
+   "kappa": "-1",
+   "nu on (meridian, longitude)": [
+    0,
+    6
+   ],
+   "h1(nu (x) rho)": 1,
+   "h1(V_eta)": 1,
+   "W1": {
+    "interior 0": {
+     "I(W)": -1,
+     "I(L2W)": -1,
+     "checks": true,
+     "margins": {
+      "W": {
+       "smallest kept": "0.0138",
+       "largest dropped": "1.76e-61"
+      },
+      "L2W": {
+       "smallest kept": "0.00786",
+       "largest dropped": "1.57e-60"
+      }
+     },
+     "relator residual": [
+      "2.31e-59",
+      "3.43e-58"
+     ]
+    }
+   },
+   "case": "(a)",
+   "interior": 1,
+   "boundary-type": 0,
+   "margins (classes)": {
+    "smallest kept": "0.0169",
+    "largest dropped": "1.18e-60"
+   },
+   "seconds": 4
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    6,
+    6
+   ],
+   "kappa": "-1",
+   "nu on (meridian, longitude)": [
+    0,
+    6
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    7,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    7
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    7,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    7
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    8,
+    0
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    8
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    8,
+    6
+   ],
+   "kappa": "omega",
+   "nu on (meridian, longitude)": [
+    0,
+    8
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    9,
+    0
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    9
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    9,
+    6
+   ],
+   "kappa": "+-i",
+   "nu on (meridian, longitude)": [
+    0,
+    9
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    10,
+    0
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    10
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    10,
+    6
+   ],
+   "kappa": "order 6",
+   "nu on (meridian, longitude)": [
+    0,
+    10
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    11,
+    0
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    11
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  },
+  {
+   "nu (exponents of zeta_12 on the generators)": [
+    6,
+    11,
+    6
+   ],
+   "kappa": "order 12",
+   "nu on (meridian, longitude)": [
+    0,
+    11
+   ],
+   "h1(nu (x) rho)": 0,
+   "h1(V_eta)": 0,
+   "W1": {}
+  }
+ ],
+ "comparisons": {
+  "population B characters with h1 >= 1 (kappa class, h1)": {
+   "route S": [
+    [
+     "-1",
+     1
+    ],
+    [
+     "-1",
+     1
+    ]
+   ],
+   "route T": [
+    [
+     "-1",
+     1
+    ],
+    [
+     "-1",
+     1
+    ]
+   ],
+   "agree": true
+  },
+  "kappa = -1 members' readings (as sets)": {
+   "route S": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "post_run_b (route N)": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "agree": true,
+   "members (route S)": 2
+  }
+ },
+ "generation-shaped readings": [
+  [
+   [
+    0,
+    6,
+    6
+   ],
+   "-1",
+   "interior 0",
+   [
+    -1,
+    -1
+   ]
+  ],
+  [
+   [
+    6,
+    6,
+    0
+   ],
+   "-1",
+   "interior 0",
+   [
+    -1,
+    -1
+   ]
+  ]
+ ],
+ "all checks": true,
+ "all comparisons agree": true,
+ "seconds": 31
+}

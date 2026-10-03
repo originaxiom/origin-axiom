@@ -1,0 +1,3059 @@
+{
+ "manifold": "+LR",
+ "a": "0.000010000000000000000818",
+ "D": 1,
+ "brackets": 16,
+ "brackets by kind": {
+  "E1": 8,
+  "E2": 0,
+  "E3": 4,
+  "E4": 4
+ },
+ "crossings": [
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    20.0,
+    25.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 22.50030517578125,
+    "float64 |F|": 1.1135842673921471e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.47e-56",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 22.500000000376343,
+   "b/a": "-2.41421356233",
+   "crossing function / a": "1.06e-56",
+   "read": {
+    "relator residual": "1.87e-56",
+    "rho(l) eigenvalues": [
+     "(0.999974889219209 - 1.1516877940234e-71j)",
+     "(1.0 + 8.73574144543157e-50j)",
+     "(1.0 - 8.73574144543156e-50j)",
+     "(1.00002511141136 - 6.71161273159426e-71j)"
+    ],
+    "min |eigenvalue - 1|": "2.4e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "3.46e-6",
+      "dropped": "5.38e-58"
+     },
+     "kappa*": [
+      "0.99999487423211536522"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999487423211536522",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "5.86e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999994874232115",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "8.86e-58"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "8.77e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.86e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "5.38e-58"
+     },
+     "kappa*": [
+      "1.0000102516145902975",
+      "0.99998974849050422684"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000102516145902975",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001025161459",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "4.68e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "5.67e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998974849050422684",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989748490504",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "4.71e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "5.64e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.75e-58"
+    }
+   },
+   "seconds": 108
+  },
+  {
+   "kind": "E4",
+   "bracket (deg)": [
+    45.0,
+    50.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 45.00030517578125,
+    "float64 |F|": 3.047985236015486e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.33e-54",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 45.0,
+   "b/a": "1.0",
+   "crossing function / a": "7.48e-56",
+   "read": {
+    "relator residual": "1.47e-54",
+    "rho(l) eigenvalues": [
+     "(0.999990390445737 + 6.54288657010437e-48j)",
+     "(0.999990390445737 - 6.54288657010437e-48j)",
+     "(1.00000960964661 - 2.73937149949178e-68j)",
+     "(1.00000960964661 - 3.86373516194254e-83j)"
+    ],
+    "min |eigenvalue - 1|": "9.61e-6",
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "7.38e-57"
+     },
+     "kappa*": [
+      "1.0000055481207888879",
+      "0.99999445190999258564"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000055481207888879",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000554812079",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "6.04e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "9.27e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99999445190999258564",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999994451909993",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "7.09e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "9.5e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.6e-56"
+    }
+   },
+   "seconds": 113
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    55.0,
+    59.99999999999999
+   ],
+   "locate": {
+    "float64 alpha (deg)": 55.735168457031236,
+    "float64 |F|": 1.3236330415168557e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "7.43e-60",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 55.73535071611211,
+   "b/a": "0.227083346212",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "9.84e-60",
+    "rho(l) eigenvalues": [
+     "(0.999994899075548 + 1.03983361754527e-51j)",
+     "(0.999994899075548 - 1.03983361754541e-51j)",
+     "(1.0 - 1.71715785108242e-73j)",
+     "(1.00001020192696 - 9.83867657096299e-76j)"
+    ],
+    "min |eigenvalue - 1|": "2.8e-49",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.36e-6",
+      "dropped": "2.82e-61"
+     },
+     "kappa*": [
+      "0.99999762652422293132"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999762652422293132",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.71e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999997626524223",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "5.17e-61"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "2.79e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.71e-6"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 101
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    65.0,
+    70.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 67.50030517578125,
+    "float64 |F|": 1.6728937124372865e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.23e-59",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 67.49999999993543,
+   "b/a": "-0.414213562374",
+   "crossing function / a": "-1.19e-61",
+   "read": {
+    "relator residual": "1.68e-59",
+    "rho(l) eigenvalues": [
+     "0.999989598697535",
+     "1.0",
+     "1.0",
+     "1.00001040141065"
+    ],
+    "min |eigenvalue - 1|": "8.53e-28",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.43e-6",
+      "dropped": "2.82e-61"
+     },
+     "kappa*": [
+      "0.99999787683423703951"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999787683423703951",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.43e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999997876834237",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "6.93e-61"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "4.21e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.43e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "3.48e-61"
+     },
+     "kappa*": [
+      "1.0000042463450494578",
+      "0.99999575367298191188"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000042463450494578",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000424634505",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "2.93e-55"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "2.93e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99999575367298191188",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999995753672982",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "2.05e-55"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "3.53e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "7.78e-61"
+    }
+   },
+   "seconds": 107
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    110.0,
+    115.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 112.50030517578125,
+    "float64 |F|": 1.4648816748986894e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "4.59e-57",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 112.50000000006457,
+   "b/a": "0.414213562374",
+   "crossing function / a": "-2.1e-58",
+   "read": {
+    "relator residual": "4.14e-57",
+    "rho(l) eigenvalues": [
+     "(0.999989598697535 + 1.43753576195741e-69j)",
+     "(1.0 + 1.02037122302563e-26j)",
+     "(1.0 - 1.02037122302563e-26j)",
+     "(1.00001040141065 + 8.38203760317473e-69j)"
+    ],
+    "min |eigenvalue - 1|": "1.02e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.43e-6",
+      "dropped": "4.04e-59"
+     },
+     "kappa*": [
+      "0.99999787683423703951"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999787683423703951",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.43e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999997876834237",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "1.93e-58"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "1.01e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.43e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "4.06e-59"
+     },
+     "kappa*": [
+      "0.99999575367298191188",
+      "1.0000042463450494578"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999575367298191188",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999995753672982",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "3.82e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "6.25e-59"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.0000042463450494578",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000424634505",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "4.4e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "6.17e-59"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "4.82e-59"
+    }
+   },
+   "seconds": 83
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    119.99999999999999,
+    125.00000000000001
+   ],
+   "locate": {
+    "float64 alpha (deg)": 124.26483154296879,
+    "float64 |F|": 1.5951605352119903e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "9.93e-60",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 124.26464928388789,
+   "b/a": "-0.227083346212",
+   "crossing function / a": "2.37e-61",
+   "read": {
+    "relator residual": "2.74e-59",
+    "rho(l) eigenvalues": [
+     "0.999989798177116",
+     "1.0",
+     "1.00000510095047",
+     "1.00000510095047"
+    ],
+    "min |eigenvalue - 1|": "4.99e-50",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.36e-6",
+      "dropped": "5.01e-62"
+     },
+     "kappa*": [
+      "0.99999762652422293132"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999762652422293132",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.71e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999997626524223",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "3.96e-61"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "3.96e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.71e-6"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 79
+  },
+  {
+   "kind": "E4",
+   "bracket (deg)": [
+    135.0,
+    140.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 135.00030517578125,
+    "float64 |F|": 1.7332939448811912e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "7.66e-57",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 135.0,
+   "b/a": "-1.0",
+   "crossing function / a": "-4.11e-58",
+   "read": {
+    "relator residual": "6.71e-57",
+    "rho(l) eigenvalues": [
+     "(0.999990390445737 + 1.8601866817764e-68j)",
+     "(0.999990390445737 - 1.06339569411678e-83j)",
+     "(1.00000960964661 - 1.89841525357165e-26j)",
+     "(1.00000960964661 + 1.89841525357165e-26j)"
+    ],
+    "min |eigenvalue - 1|": "9.61e-6",
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "1.82e-58"
+     },
+     "kappa*": [
+      "0.99999445190999258564",
+      "1.0000055481207888879"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999445190999258564",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999994451909993",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "2.97e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "1.91e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.0000055481207888879",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000554812079",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "2.94e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "1.92e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "5.64e-59"
+    }
+   },
+   "seconds": 86
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    155.0,
+    160.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 157.49969482421875,
+    "float64 |F|": 8.414400520267678e-15,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.39e-55",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 157.49999999962367,
+   "b/a": "2.41421356233",
+   "crossing function / a": "-7.24e-56",
+   "read": {
+    "relator residual": "1.59e-55",
+    "rho(l) eigenvalues": [
+     "(0.999974889219209 + 3.81364174602823e-68j)",
+     "(1.0 - 3.03777514293683e-26j)",
+     "(1.0 + 3.03777514293683e-26j)",
+     "(1.00002511141136 + 6.54236498376763e-69j)"
+    ],
+    "min |eigenvalue - 1|": "3.04e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "3.46e-6",
+      "dropped": "8.64e-58"
+     },
+     "kappa*": [
+      "0.99999487423211536522"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999487423211536522",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "5.86e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999994874232115",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "3.72e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "1.51e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.86e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "8.65e-58"
+     },
+     "kappa*": [
+      "1.0000102516145902975",
+      "0.99998974849050422684"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000102516145902975",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001025161459",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "2.73e-52"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "1.0e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998974849050422684",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989748490504",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "3.21e-52"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "1.01e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.26e-57"
+    }
+   },
+   "seconds": 87
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    200.0,
+    205.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 202.50030517578125,
+    "float64 |F|": 1.9978541649553246e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "2.49e-56",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 202.50000000037633,
+   "b/a": "-2.41421356233",
+   "crossing function / a": "-1.07e-56",
+   "read": {
+    "relator residual": "1.89e-56",
+    "rho(l) eigenvalues": [
+     "(0.999974889219209 + 1.88782225860965e-68j)",
+     "(1.0 - 2.40419605411571e-26j)",
+     "(1.0 + 2.40419605411571e-26j)",
+     "(1.00002511141136 + 3.23956405617401e-69j)"
+    ],
+    "min |eigenvalue - 1|": "2.4e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "3.46e-6",
+      "dropped": "5.41e-58"
+     },
+     "kappa*": [
+      "1.0000051257941582659"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000051257941582659",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "5.86e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000512579416",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "8.91e-58"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "8.82e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.86e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "5.41e-58"
+     },
+     "kappa*": [
+      "1.0000102516145902975",
+      "0.99998974849050422684"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000102516145902975",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001025161459",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "4.75e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "5.67e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998974849050422684",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989748490504",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "4.7e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "5.7e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.77e-58"
+    }
+   },
+   "seconds": 91
+  },
+  {
+   "kind": "E4",
+   "bracket (deg)": [
+    220.0,
+    225.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 224.99969482421875,
+    "float64 |F|": 1.0291588886463013e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.33e-54",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 225.0,
+   "b/a": "1.0",
+   "crossing function / a": "-7.48e-56",
+   "read": {
+    "relator residual": "1.47e-54",
+    "rho(l) eigenvalues": [
+     "(0.999990390445737 + 4.78815820761725e-66j)",
+     "(0.999990390445737 - 7.34604667979111e-81j)",
+     "(1.00000960964661 - 1.20703644218843e-25j)",
+     "(1.00000960964661 + 1.20703644218843e-25j)"
+    ],
+    "min |eigenvalue - 1|": "9.61e-6",
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "7.38e-57"
+     },
+     "kappa*": [
+      "0.99999445190999258564",
+      "1.0000055481207888879"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999445190999258564",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999994451909993",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "6.05e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "9.27e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.0000055481207888879",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000554812079",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "7.09e-51"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "9.51e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.6e-56"
+    }
+   },
+   "seconds": 61
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    235.0,
+    239.99999999999997
+   ],
+   "locate": {
+    "float64 alpha (deg)": 235.73516845703128,
+    "float64 |F|": 1.2228000708457176e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "7.4e-60",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 235.73535071611212,
+   "b/a": "0.227083346212",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "5.98e-60",
+    "rho(l) eigenvalues": [
+     "(0.999989798177116 + 2.91491296340528e-73j)",
+     "(1.0 + 5.0873764652272e-71j)",
+     "(1.00000510095047 - 1.11563597794081e-27j)",
+     "(1.00000510095047 + 1.11563597794081e-27j)"
+    ],
+    "min |eigenvalue - 1|": "2.11e-49",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.36e-6",
+      "dropped": "2.12e-61"
+     },
+     "kappa*": [
+      "1.0000023734814104693"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000023734814104693",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.71e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000237348141",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "7.84e-61"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "3.59e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.71e-6"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 46
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    245.00000000000003,
+    250.00000000000003
+   ],
+   "locate": {
+    "float64 alpha (deg)": 247.49969482421875,
+    "float64 |F|": 1.6345173329642495e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.06e-59",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 247.49999999993543,
+   "b/a": "-0.414213562374",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "1.18e-59",
+    "rho(l) eigenvalues": [
+     "(0.999989598697535 + 1.25729228449349e-72j)",
+     "(1.0 + 8.57877475133882e-28j)",
+     "(1.0 - 8.57877475133882e-28j)",
+     "(1.00001040141065 + 4.5784582823569e-72j)"
+    ],
+    "min |eigenvalue - 1|": "8.58e-28",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.43e-6",
+      "dropped": "2.85e-61"
+     },
+     "kappa*": [
+      "1.0000021231702708029"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000021231702708029",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.43e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000212317027",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "6.75e-61"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "4.79e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.43e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "6.1e-61"
+     },
+     "kappa*": [
+      "1.0000042463450494578",
+      "0.99999575367298191188"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000042463450494578",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000424634505",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "1.88e-55"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "6.17e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99999575367298191188",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999995753672982",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "2.03e-55"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "3.07e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "4.67e-61"
+    }
+   },
+   "seconds": 57
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    290.0,
+    295.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 292.50030517578125,
+    "float64 |F|": 2.9249642726617407e-12,
+    "route": "crossing system from float64",
+    "60-digit |F|": "4.57e-57",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 292.5000000000646,
+   "b/a": "0.414213562374",
+   "crossing function / a": "2.09e-58",
+   "read": {
+    "relator residual": "4.12e-57",
+    "rho(l) eigenvalues": [
+     "0.999989598697535",
+     "1.0",
+     "1.0",
+     "1.00001040141065"
+    ],
+    "min |eigenvalue - 1|": "1.02e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.43e-6",
+      "dropped": "4.01e-59"
+     },
+     "kappa*": [
+      "1.0000021231702708029"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000021231702708029",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.43e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000212317027",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "1.92e-58"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "1.01e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.43e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "4.02e-59"
+     },
+     "kappa*": [
+      "1.0000042463450494578",
+      "0.99999575367298191188"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000042463450494578",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000424634505",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "3.82e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "6.23e-59"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99999575367298191188",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999995753672982",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.18e-7",
+           "largest dropped": "4.37e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.17e-7",
+           "largest dropped": "6.15e-59"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "4.95e-59"
+    }
+   },
+   "seconds": 52
+  },
+  {
+   "kind": "E3",
+   "bracket (deg)": [
+    300.0,
+    305.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 304.2648315429687,
+    "float64 |F|": 1.3163525706915557e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "4.26e-60",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 304.2646492838879,
+   "b/a": "-0.227083346212",
+   "crossing function / a": "0.0",
+   "read": {
+    "relator residual": "6.39e-60",
+    "rho(l) eigenvalues": [
+     "(0.999994899075548 + 3.78303558283612e-52j)",
+     "(0.999994899075548 - 3.78303558283286e-52j)",
+     "(1.0 - 3.76000443522898e-74j)",
+     "(1.00001020192696 - 2.15433686506198e-76j)"
+    ],
+    "min |eigenvalue - 1|": "1.02e-49",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "1.36e-6",
+      "dropped": "1.02e-61"
+     },
+     "kappa*": [
+      "1.0000023734814104693"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000023734814104693",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "2.71e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000237348141",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "7.76e-61"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "1.04e-61"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "2.71e-6"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "seconds": 49
+  },
+  {
+   "kind": "E4",
+   "bracket (deg)": [
+    310.0,
+    315.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 314.9996948242187,
+    "float64 |F|": 2.94088329098363e-12,
+    "route": "crossing system from float64",
+    "60-digit |F|": "7.59e-57",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 315.0,
+   "b/a": "-1.0",
+   "crossing function / a": "4.08e-58",
+   "read": {
+    "relator residual": "6.65e-57",
+    "rho(l) eigenvalues": [
+     "(0.999990390445737 + 1.19679633287795e-49j)",
+     "(0.999990390445737 - 1.19679633287795e-49j)",
+     "(1.00000960964661 - 7.84285522680223e-71j)",
+     "(1.00000960964661 - 6.04229661868388e-86j)"
+    ],
+    "min |eigenvalue - 1|": "9.61e-6",
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "1.81e-58"
+     },
+     "kappa*": [
+      "0.99999445190999258564",
+      "1.0000055481207888879"
+     ],
+     "twists": [
+      {
+       "kappa*": "0.99999445190999258564",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999994451909993",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "2.92e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "1.91e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "1.0000055481207888879",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000554812079",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "1.54e-7",
+           "largest dropped": "2.93e-53"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "1.52e-7",
+           "largest dropped": "1.89e-58"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "5.86e-59"
+    }
+   },
+   "seconds": 48
+  },
+  {
+   "kind": "E1",
+   "bracket (deg)": [
+    335.0,
+    340.0
+   ],
+   "locate": {
+    "float64 alpha (deg)": 337.49969482421875,
+    "float64 |F|": 1.1947405871217891e-14,
+    "route": "crossing system from float64",
+    "60-digit |F|": "1.39e-55",
+    "iterations": 4,
+    "converged": true
+   },
+   "alpha (deg)": 337.49999999962364,
+   "b/a": "2.41421356233",
+   "crossing function / a": "7.25e-56",
+   "read": {
+    "relator residual": "1.6e-55",
+    "rho(l) eigenvalues": [
+     "(0.999974889219209 - 3.26369893884775e-71j)",
+     "(1.0 + 1.95293636561164e-49j)",
+     "(1.0 - 1.95293636561165e-49j)",
+     "(1.00002511141136 - 1.90242875522403e-70j)"
+    ],
+    "min |eigenvalue - 1|": "3.04e-26",
+    "4": {
+     "e": 1,
+     "cusp margins": {
+      "kept": "3.46e-6",
+      "dropped": "8.65e-58"
+     },
+     "kappa*": [
+      "1.0000051257941582659"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000051257941582659",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "5.86e-6",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00000512579416",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "0.0279",
+           "largest dropped": "3.72e-57"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "0.0251",
+           "largest dropped": "1.51e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "5.86e-6"
+        }
+       ]
+      }
+     ]
+    },
+    "L2": {
+     "e": 2,
+     "cusp margins": {
+      "kept": "0.28",
+      "dropped": "8.65e-58"
+     },
+     "kappa*": [
+      "1.0000102516145902975",
+      "0.99998974849050422684"
+     ],
+     "twists": [
+      {
+       "kappa*": "1.0000102516145902975",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "1.00001025161459",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "3.21e-52"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "1.01e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      },
+      {
+       "kappa*": "0.99998974849050422684",
+       "route T": {
+        "rows": 1,
+        "I != 0": 0,
+        "I values": {
+         "0": 1
+        },
+        "hypothesis fails": 0,
+        "smallest |chi_K(kappa*)| rel": "0.333",
+        "rows by (t0, s0)": {
+         "(1, 1)": 1
+        }
+       },
+       "Fox and W": [
+        {
+         "u": [
+          "0",
+          "0"
+         ],
+         "lambda*": "0.999989748490504",
+         "Fox": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1,
+          "a0": 0,
+          "b0": 0,
+          "checks": {
+           "B1297 identity I = (a0 - b0) + s0 - r1": true,
+           "r1 + q1 = h1(Delta) = t0 + s0": true,
+           "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+          },
+          "margins": {
+           "smallest kept": "2.85e-7",
+           "largest dropped": "2.73e-52"
+          }
+         },
+         "W": {
+          "I": 0,
+          "h1(V)": 1,
+          "h1(V*)": 1,
+          "a0": 0,
+          "b0": 0,
+          "t0": 1,
+          "s0": 1,
+          "margins": {
+           "smallest kept": "2.81e-7",
+           "largest dropped": "1.0e-57"
+          }
+         },
+         "T": {
+          "I": 0,
+          "h1": 1,
+          "h1*": 1,
+          "t0": 1,
+          "s0": 1
+         },
+         "chi_K(kappa*) rel": "0.333"
+        }
+       ]
+      }
+     ],
+     "|kappa1 kappa2 - 1|": "1.26e-57"
+    }
+   },
+   "seconds": 52
+  }
+ ],
+ "seconds": 1225
+}
