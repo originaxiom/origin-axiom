@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**821 recorded closures — of which 654 are CLASSIFIED by mechanism and
+**822 recorded closures — of which 655 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -104,6 +104,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `wrong-partner-five (at the hyperbolic point the 5bar' appears only through interior classes of the twisted geometric four, and in the extension that carries the 10bar', so the two halves double the SU(5)' anomaly; at simple members the Lambda^2 count reads 0, the Higgs bulk's image meeting the parabolic part only in 0)` | 1 |  |
 | `symmetry-cannot-select (the count-odd mirror is never broken: D.theta and D.s.theta fix every vacuum and every twist, so the count is zero at every minimum; the chiral configurations, the non-split extensions, come in count-flipped pairs over each vacuum and the potential lifts both equally; the mirror the minima do break, orientation reversal, keeps the count)` | 1 |  |
 | `the-cusp-decides (the character is trivial on the fibre boundary, a commutator; off the eigenvalue-one locus of rho(l) the cusp is acyclic and the index is a0 - b0 = 0; on the type-one curves psi(l) != 0 because the fibre boundary is a rigid slope)` | 1 |  |
+| `silver-not-golden (the generation-shaped members at the hyperbolic point sit on the silver squares +-L^2R^2, through an interior class of the twisted four that the golden squares do not have; the golden form of the hypothesis is refuted by counterexample, not by an absence)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
@@ -635,7 +636,7 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B774` |  | `other` |
 | `B791` |  | `other` |
 
-## How far each closure reaches (31 carry a scope tag)
+## How far each closure reaches (32 carry a scope tag)
 
 A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
 where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
@@ -647,7 +648,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `F-AP` |  | 3 | 3 |
 | `F-CI` | 1 |  |  |
 | `F-FC` | 2 | 6 | 8 |
-| `F-HE` | 7 | 1 |  |
+| `F-HE` | 7 | 2 |  |
 
 | arc | frame | reach | object | read with |
 |---|---|---|---|---|
@@ -682,3 +683,4 @@ without a tag (790) predate the tag; read their object from their own text.
 | `B1515` | `F-HE` | single | m004's harmonic family at q = 1 (the complete hyperbolic structure), levels 1 to 6 |  |
 | `B1520` | `F-HE` | single | m004's Ballas family rho_q (q > 0) at level one, with central twists mu (x) rho_q (mu in C*) and, at the exceptional po… |  |
 | `B1527` | `F-HE` | class | the 758 word states to length 12 near their hyperbolic point: the vacua nu (x) rho and nu (x) Lambda^2 rho of the finit… |  |
+| `B1530` | `F-HE` | class | the 536 word states to length 12 and m004's levels M2-M6, at the hyperbolic point, B1515's rank-five extensions |  |

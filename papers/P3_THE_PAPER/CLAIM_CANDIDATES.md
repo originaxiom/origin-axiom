@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1176 settled arcs — 70%** —
+the field is **absent on 828 of 1178 settled arcs — 70%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (96) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 607 arcs.**
+**POOL = declared-law (96) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 608 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -221,7 +221,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1503` | PROVED | S | | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma … |
 | `B1512` | PROVED | S | | THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). … |
 
-## §6 the observer — one bit, priced (179)
+## §6 the observer — one bit, priced (180)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -404,6 +404,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1515` | PROVED | S | | THE HYPERBOLIC POINT, run as sealed (b36f6d8e; the owner's 'go' after B1514) by two routes that share no code and agree on all 3048 keys, every dimension and index, zero … |
 | `B1516` | PROVED | S | | GENESIS v1: the foundations stated once (GENESIS.md v1.0, canonical, versioned), with IDs unused anywhere else in the repository (PF, GM, SE, T-ROOT, F-xx, FK, GAP). The … |
 | `B1525` | PROVED | S | | GENESIS v1.5 (not sealed: every item checks a claim the record already fixes): main's v1.4 taken as the head, as main asked of its v1.3, and the SM seat's parallel v1.3 a… |
+| `B1530` | PROVED | S | | THE INTERIOR EXTENSIONS, run as sealed (1d359734; sL-10 item 10 (a)): at the hyperbolic point, B1515's frame carries one generation in one W on the two silver squares. On… |
 
 ## §2 the object — arithmetic and geometry (58)
 

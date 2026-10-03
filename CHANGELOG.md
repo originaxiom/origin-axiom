@@ -1,5 +1,41 @@
 # Changelog
 
+## B1530 banked: THE INTERIOR EXTENSIONS — at the hyperbolic point, one generation in one W on the two silver squares
+
+- **Run as sealed** (`1d359734`; sL-10 item 10 (a)). The controls were re-run first and reproduced (S, K1–K4). `run_a.py` read
+  m135's eight characters at κ = 1 in routes E (exact over ℚ(ζ₂₄)) and N (60 digits). `census_bc.py` read the 541 rows
+  (the 536 word states to length 12 and M₂–M₆) on three workers, 15:48:55Z to 22:04Z, with no error.
+- **PROVED: P2 holds.** At m135 = −LLRR's two non-simple members, u = (0, ½) and (½, 0) (case (a), ν² = 1), the interior class
+  gives W₁ = [[ν ⊗ ρ, c_int], [0, 1]] with (I(W₁), I(Λ²W₁)) = (−1, −1), in both routes. In B1509's dictionary that is one 10′
+  and one 5̄′ in one W, with the SU(5)′ anomaly cancelled.
+  - The mechanism as sealed: x ∪ c_int = 0 (Lemma A), and the restricted lift μ of c_int lies outside Λ_A (Lemma B).
+  - The Jordan type is (2, 2), so I(W₁) = 0 at every boundary-type class (Lemma C), and the four read give (0, −1).
+  - W₂, the dual order, reads (+1, +1) (Lemma M). The six simple members read (0, 0).
+- **Population B at κ = −1 is not empty (P6 fails).** Routes T and G read h¹ = 1 at exactly two of 47,333 characters: m136 =
+  +LLRR at the same fibre characters. They agree at all 51,677 comparisons.
+  - Both members are case (a) and read (−1, −1): in routes N and W (`post_run_b.py`, the seal's §4), exactly (route E), and on
+    SnapPy's own presentation and holonomy (route S).
+  - One interior class on the two states' common double cover, the bundle of (L²R²)², accounts for both. It is read exactly
+    there, and the count does not double.
+- **Part C (P7 holds).** Λ_A ∩ π_A = 0 at all 31,489 χ = ν², by rank and by pairing, so no simple member is generation-shaped
+  (Lemma 8). Part C is one cohomology route read two ways. On m004's levels sm:B1515's two routes read its consequence too.
+- **Seven of nine held** (P1–P5, P7, P8). **G fails:** the members are on the silver squares ±L²R², the squares of GENESIS
+  GM5c's silver member, and the golden states carry none in this census. That goes to the kill graph as `silver-not-golden`
+  (F-HE, reach class).
+- **What it is not.** It is one generation per member, not three. The cusp is not sealed (main's interior index, B1392). The
+  index does not choose W₁ over its dual; main's B1466 found the same "count is the order" at m004's counted point. And R76's
+  bare flat action does not hold a non-split W₁.
+- **Withdrawn: a one-sided bound.** The design note that sm:B1532's seal quotes bounded the silver squares' covers trivial on the
+  cusp "by two generations". It bounded W₁'s generations only, not the other sign or the boundary-type classes.
+  - The abelian covers reduce to finitely many exact readings (Lemma S, and an acyclic cusp adds 0): eight characters per
+    member. They are registered as sL-10 item 11, to be sealed. ERROR_LEDGER: E9 instance.
+- **Surfaces.**
+  - Registry and ledgers: THEOREM_REGISTRY T-THE-INTERIOR-EXTENSIONS; SEAL_LEDGER verdict; ERROR_LEDGER (the bound, and a draft
+    slip).
+  - Leads and status: OPEN_LEADS sL-10 item 10 banked, with items 11–13 registered; CAMPAIGN_STATUS; the alias table.
+  - The kill-graph record. Lock `tests/test_b1530_the_interior_extensions.py`.
+- 0 of 19.
+
 ## B1533 banked: GENESIS v1.10 — main's v1.9 as the head, the seat's v1.8 lines carried, and GAP6 scoped by its own row
 
 - **Main's ask** (its relay of 2026-10-03, B1466): "Please take v1.9 as head." Taken. Main's amend.py on main's v1.8 gives main's

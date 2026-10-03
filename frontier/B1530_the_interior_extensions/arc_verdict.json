@@ -1,0 +1,187 @@
+{
+ "id": "B1530",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1515",
+  "B1529",
+  "B1509",
+  "B1513",
+  "B1527",
+  "B1523",
+  "B1516",
+  "B1532"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "the 536 word-state manifolds to length 12 (sm:B1529's census, read as it read them) and m004's levels M2-M6, at the hyperbolic point: B1515's rank-five extensions W1 = [[nu (x) rho, c L], [0, L]] of the twisted four (L = nu^-4), at every class of every member at kappa = 1 on m135 (Part A), at every kappa = -1 member (population B), and the rigidity quantity Lambda_A meet pi_A at every simple member (Part C)",
+  "reach": "class",
+  "hypotheses": [
+   "at the hyperbolic point only (the complete structure, the harmonic frame's q = 1 point); off it is sL-10 item 10 (b)",
+   "the count is main's interior index I = n(W) - n(W*) (B1297); the cusp is not sealed (t1 > 0), so it comes with continuous spectrum and is not a Fredholm index (B1392); no end condition is chosen to rescue a count (sL-8's rule)",
+   "B1509's dictionary in E8 > (SU(5) x SU(5)')/Z5: N(10') = -I(W), N(5bar') = -I(Lambda^2 W)",
+   "the index does not choose between W1 and its dual W2 (Lemma M): the sign is a Z/2 choice, the shape (one generation, anomaly-free) is what is read",
+   "word states to length 12 and levels to 6; kappa in {1, -1, +-i, omega, omega^2}",
+   "the generation-shaped members are counted at the pulled-back module only on the states themselves; covers are a separate sealed question (section 7)"
+  ]
+ },
+ "claim_one_line": "THE INTERIOR EXTENSIONS, run as sealed (1d359734; sL-10 item 10 (a)): at the hyperbolic point, B1515's frame carries one generation in one W on the two silver squares. On m135 = -LLRR, at both non-simple kappa = 1 members u = (0, 1/2) and (1/2, 0) (case (a), nu^2 = 1, h^1 = 2 with one interior class), W1 = [[nu (x) rho, c_int], [0, 1]] reads (I(W1), I(Lambda^2 W1)) = (-1, -1): N(10') = N(5bar') = 1 in B1509's dictionary, the SU(5)' anomaly cancelled; routes E (exact over Q(zeta_24)) and N (60 digits) agree class by class; the mechanism as sealed (Lemma A: x cup c_int = 0; Lemma B: the restricted lift mu of c_int lies outside Lambda_A; Jordan type (2, 2), so I(W1) = 0 at every boundary-type class and the four read give (0, -1)); W2, the dual order, reads (+1, +1). Population B at kappa = -1 is not empty (P6 fails): routes T and G read h^1 = 1 at exactly two of 47,333 characters, m136 = +LLRR at the same fibre characters, and both members are case (a) and read (-1, -1) in routes N and W, exactly (route E) and on SnapPy's presentation and holonomy (route S). One interior class on the two states' common double cover (the bundle of (L^2R^2)^2) accounts for both, read exactly. Part C: Lambda_A meet pi_A = 0 at all 31,489 characters chi = nu^2, by rank and by pairing, so no simple member is generation-shaped (Lemma 8). Seven of nine sealed predictions held; G, the golden form of the owner's hypothesis, fails: the members are on the silver squares, and the golden squares and the fourteen golden word states carry none in this census (off m004's levels, by Part C's one cohomology route). Caveats as sealed: the cusp is not sealed (main's interior index, continuous spectrum, B1392); the index does not choose W1 over its dual (Lemma M; main's B1466 at m004's counted point); a non-split W1 is not held by the bare flat action (R76). Not three: one generation per member, and the abelian covers' counts are a finite set of exact readings, sealed separately (a draft bound of two, one-sided, withdrawn). 0 of 19 stays 0.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the seal)": "8f833a98",
+    "origin/main (at the seal)": "399b0bc2",
+    "origin/main (at banking)": "3f8dc11a",
+    "origin/audit/physical-bridge-2026-09-05 (at the seal)": "ddd345a8",
+    "origin/audit/physical-bridge-2026-09-05 (at banking)": "c7aa3a29",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/sep16-branch": "3205984b",
+    "origin/art/camper-van-bar": "b3745696",
+    "seat/standard-model-derivation-0qt6ao (at banking)": "8134de14"
+   },
+   "terms": [
+    "sign law",
+    "Johnson-Millson",
+    "bending",
+    "SO(4, 1)",
+    "SO(4,1)",
+    "Scannell",
+    "Kapovich",
+    "cuspidal cohomology",
+    "parabolic cohomology",
+    "Bart",
+    "coincidence",
+    "multiple root",
+    "m135",
+    "LLRR",
+    "Massey",
+    "second-order",
+    "second order",
+    "relative obstruction",
+    "generation-shaped",
+    "interior class",
+    "parabolic-preserving",
+    "cusp-preserving",
+    "m136",
+    "+LLRR",
+    "LLRRLLRR",
+    "silver square",
+    "common double cover",
+    "both partners",
+    "Paupert",
+    "m036",
+    "b++LLRR",
+    "anti-generation",
+    "stacking order",
+    "count is the order",
+    "abelian cover",
+    "trivial on the cusp"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1515",
+     "bearing": "the frame (W1, W2, Lemmas 1-8, Remark 9) and lead 3, 'One W with both partners', which this arc answers at m135 and m136; M6's non-simple members read (+1, -1) at boundary-type classes and (0, -1) at the interior class (control K1)"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1529",
+     "bearing": "the census: the four's base condition fails on the word states only at m135's two characters; route T (fibre_lib); m135's exact holonomy reader, used here with sign + for m136"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1509, B1513",
+     "bearing": "the dictionary N(10') = -I(W), N(5bar') = -I(Lambda^2 W); the relative triple product (Remark B')"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1374, B1375, B1378, B1506, B1518; origin/main: B1418, B1432, B1434, B1439",
+     "bearing": "generation-shaped backgrounds in frame F-CI (reducible non-split SL(2)_beta x C*^2 doublet modules), on m004's covers and on 95 word states at their own levels (m369 among them); not the hyperbolic holonomy and not F-HE: this arc's novelty is scoped to F-HE"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05: R40 (control K2 here)",
+     "bearing": "in F-HE an anomaly-free 10 + 5bar on m010, on a block with no harmonic background (F01); the members here sit at the hyperbolic point"
+    },
+    {
+     "where": "GENESIS.md FK9 and section 4 (B1224, B1227, B1234; sm:B713)",
+     "bearing": "a mirror-odd Z-valued invariant vanishes on an amphichiral state; 'the geometric mirror does not change a count at all; dualising does'; 'which chirality' is a Z/2 bit: the count here is mirror-even, its sign is the choice between W1 and its dual"
+    },
+    {
+     "where": "GENESIS.md GM5c; OPEN_LEADS L1",
+     "bearing": "-LLRR and +LLRR are, up to sign, the squares of the silver member L^2 P; m135 and m136 are silver"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1224, B1226, B622",
+     "bearing": "m135 amphichiral (CS 1/4); m136 = the RRLL silver bundle (B622's exterior torsion)"
+    },
+    {
+     "where": "origin/main: frontier/B1466_the_two_orders_and_the_register_bit (banked at 3f8dc11a, after the seal)",
+     "bearing": "at m004's counted point the two stacking orders count -1 and +1, each other's dual through the inversion, and the two fused count 0 ('the count is the order, and the count is a bit'); the same pattern as W1 and W2 at m135's member, where the duality is direct; cited in section 5.2, the fusion not read here"
+    },
+    {
+     "where": "origin/main: frontier/B1465_the_mirror_broken_states_at_their_complete_points; origin/audit/physical-bridge-2026-09-05: R82",
+     "bearing": "read at banking: B1465 verifies sm:B1527's Part H by its own route, R82 scopes Chern-Simons critical-value blindness; neither reads B1515's frame or m135/m136"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1532_three_from_the_cusps (sealed, running)",
+     "bearing": "Lemma S (the index of a pulled-back module is a sum over the deck characters) and Lemma Z (an acyclic cusp adds 0), used in section 7 to reduce every abelian cover of m135 and m136 to a finite set of readings; its seal quotes the withdrawn two-generation bound"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "cuspidal cohomology SO(4,1) parabolic-preserving deformations (at the seal)",
+    "Bart Scannell generalized cuspidal cohomology problem (at the seal)",
+    "branched bending finite-volume hyperbolic manifolds (at the seal)",
+    "infinitesimal deformation SO(4,1) cusped hyperbolic 3-manifold double cover cuspidal cohomology nonzero obstructed second order (at banking)",
+    "Scannell infinitesimal deformations of some SO(3,1) lattices Whitehead link (at banking)",
+    "twisted cohomology Lorentz representation once-punctured torus bundle LLRR m135 m136 deformation SO(4,1) (at banking)"
+   ],
+   "sources": [
+    {
+     "cite": "A. Bart, K. P. Scannell, The generalized cuspidal cohomology problem, Canad. J. Math. 58 (2006), 673-690",
+     "where": "section 2.1 (PH^1 = ker res, parabolic-preserving deformations into SO(4,1)); section 2.2 (bending; Kapovich); Cor. 4.2",
+     "read": "2026-10-03",
+     "says": "the cuspidal cohomology with coefficients in the standard representation parameterizes parabolic-preserving infinitesimal deformations into SO(4,1); it vanishes for PSL(2, O_d), d = -1, -3, -7"
+    },
+    {
+     "cite": "B. Monroe, Branched bending in finite-volume hyperbolic manifolds, arXiv:2604.22004 (2026)",
+     "where": "section 1 and section 6.1",
+     "read": "2026-10-03",
+     "says": "cuspidal and parabolic cohomology agree for so(4,1) (Kapovich); compositions of bendings along intersecting hypersurfaces are typically not integrable"
+    },
+    {
+     "cite": "P. Menal-Ferrer, J. Porti, Twisted cohomology for hyperbolic three manifolds, arXiv:1001.2242",
+     "where": "Theorem 0.1; Theorem 0.3",
+     "read": "2026-10-03",
+     "says": "the Higgs bulk has no interior class (Lemma 3 of sm:B1515); Garland's L^2 rigidity for Sym^n (background only)"
+    },
+    {
+     "cite": "C. Daly, Projective rigidity of once-punctured torus bundles via the twisted Alexander polynomial, arXiv:2411.04431",
+     "where": "sections 1-2",
+     "read": "2026-10-03",
+     "says": "the Lyndon-Hochschild-Serre (Wang) sequence on punctured-torus bundles, the mechanism of Lemma F"
+    },
+    {
+     "cite": "S. A. Ballas, J. Paupert, P. Will, Parabolic-preserving deformations of cusped hyperbolic lattices, arXiv:2605.03161 (2026)",
+     "where": "Definition 1; Introduction (pp. 2-3); Proposition 4.4",
+     "read": "2026-10-03",
+     "says": "parabolic-preserving and strongly parabolic-preserving deformations; the bending deformations of the Bianchi groups into SO(4,1) along the modular surface are not strongly parabolic-preserving unless theta = 0 or pi; the SO(4,1) problem has rigidity results by Scannell, Bart-Scannell and Kapovich"
+    },
+    {
+     "cite": "D. Cooper, D. Long, M. Thistlethwaite, Computing varieties of representations of hyperbolic 3-manifolds into SL(4,R), Experimental Math. 15 (2006), 291-305",
+     "where": "section 5, p. 298",
+     "read": "2026-10-03",
+     "says": "Scannell proved that m036(-3,2), the double cover of Vol3, admits infinitesimal deformations into SO(4,1); numerical evidence suggests they are not integrable"
+    }
+   ]
+  },
+  "standing": "EXTENDS",
+  "why": "the parabolic-preserving cohomology of the four is Scannell's, Bart-Scannell's and Kapovich's object, and Ballas-Paupert-Will study the deformations; this arc reads it twisted by characters on punctured-torus bundles, inside B1515's rank-five frame (F-HE, this repository's), with its second-order obstruction at m135's interior class and the common double cover of m135 and m136. Within F-HE the generation-shaped members on a harmonic background are new as swept; in F-CI generation-shaped backgrounds were already banked (sm:B1374 et seq., main B1439)."
+ }
+}

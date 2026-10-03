@@ -3892,6 +3892,27 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
 
    Two routes at the same classes for Part A (exact over ℚ(ζ₂₄), and 60 digits); routes T and G for population B; rank and
    pairing for the rigidity quantity at every simple member. Predictions P1–P8 and G.
+   **Banked 2026-10-03 as sm:B1530 (PROVED; run as sealed at 1d359734).** (a) is answered yes, on the two silver squares.
+   - m135 = −LLRR, κ = 1, at u = (0, ½) and (½, 0): W₁ at the interior class reads (I(W₁), I(Λ²W₁)) = (−1, −1), one 10′ and
+     one 5̄′ in one W with the SU(5)′ anomaly cancelled (routes E and N; route S on SnapPy's presentation after the run).
+   - m136 = +LLRR, κ = −1, at the same u: population B is not empty (P6 failed), and both members read (−1, −1) (routes N, W,
+     E exactly, S). One interior class on the two states' common double cover accounts for both.
+   - Part C: Λ_A ∩ π_A = 0 at all 31,489 χ, so no simple member is generation-shaped.
+   - Seven of nine predictions held. G, the golden form of "the choice might be golden", failed: the members are silver
+     (kill graph `silver-not-golden`, F-HE, reach class).
+   - The caveats: main's interior index on an unsealed cusp (B1392); W₁ or its dual W₂ is a choice the index does not make
+     (main's B1466 found the same at m004's counted point); R76's bare model does not hold a non-split W₁.
+   - (b) is open.
+11. **The silver squares' abelian covers** (sm:B1530 §7). Every finite abelian cover's count at the pulled-back members of
+   m135 and m136 is a sum over a subgroup of one group of order eight (Lemma S; an acyclic cusp adds 0). Read the eight terms
+   (I(W ⊗ χ), I(Λ²W ⊗ χ)) at every member and class, exactly and by a second route, and with them every abelian cover's count,
+   both signs. The design-time bound of two generations is withdrawn (one-sided; ERROR_LEDGER E9 instance). Seal before
+   computing.
+12. **The two orders fused at m135** (main's B1466 at m004's counted point; sm:B1530 §5.2). Is the mixed direction c₁ + c₂ at
+   m135's member unobstructed, and does it lead to an irreducible flat module that counts 0, as at q₀? Seal before computing.
+13. **What holds the member, and the couplings there** (sm:B1530 §5.2b and §7). R76's bare flat action does not hold a
+   non-split W₁; an end, a source or a coupled field would (R76's duty; R81's compact-boundary admission; main's mixing
+   quartic d). The up-type coupling 10′·10′·5′_H at the member (sm:B1513's relative triple product).
 
 ## sL-11 — THE SYMMETRIC PHASE (registered 2026-10-03, sm:B1531; this seat's proposal, the owner may reorder)
 

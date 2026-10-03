@@ -11743,5 +11743,32 @@
     "Ballas section 4, Cooper-Long-Tillmann Thm 0.2 and the complete structure's parabolic rigidity: cited"
    ]
   }
+ },
+ {
+  "id": "B1530",
+  "claim_killed": "THE INTERIOR EXTENSIONS, its no-go half: G, the sealed golden form of the owner's hypothesis that the choice might be golden -- that every state carrying a generation-shaped member of B1515's frame at its hyperbolic point, I(W1) = I(Lambda^2 W1) != 0, is golden (|trace| in {3, 7, 18, 47, 123, 322}). Refuted by its counterexamples, read as sealed (1d359734): on m135 = -LLRR (trace -6) the interior class at the kappa = 1 members u = (0, 1/2), (1/2, 0) reads (-1, -1) in routes E (exact over Q(zeta_24)) and N, and on m136 = +LLRR (trace 6) the kappa = -1 members at the same u read (-1, -1) in routes N and W, exactly (route E) and on SnapPy's presentation (route S). Both are silver: up to sign their monodromies are the square of the silver member L^2 P. In the census (536 word states to length 12 and M2-M6) the golden squares +-LR and the fourteen golden word states carry none: their kappa = 1 members are simple (sm:B1529), Lambda_A meet pi_A = 0 at their characters (Part C, one cohomology route, rank and pairing; on m004's levels also sm:B1515's two routes), and population B is empty there (routes T and G).",
+  "kill_form": "silver-not-golden (the generation-shaped members at the hyperbolic point sit on the silver squares +-L^2R^2, through an interior class of the twisted four that the golden squares do not have; the golden form of the hypothesis is refuted by counterexample, not by an absence)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "G is one form of the owner's hypothesis. Others stay open: the choice of order (W1 or its dual W2, the sign the index does not make) fixed by a golden datum; selection among states by a dynamics (THE_BAR; GENESIS GAP4); other frames (F-CI's golden-level backgrounds are banked, sm:B1374-B1378, sm:B1506); off the hyperbolic point (sL-10 item 10 (b)); beyond length 12 and level 6; and the covers, where a golden state's own cover could carry members its base does not (the covers' own members, sm:B1532 section 10).",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-03 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-10-03 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1530_the_interior_extensions/verification/run_a.py (Part A, routes E and N, the sealed run on m135), census_bc.py (Parts B and C, the sealed census, routes T and G), post_run_b.py, post_run_e136.py, post_run_s.py and post_run_cover.py (disclosed post-run readings of m136 and the common double cover); locked by tests/test_b1530_the_interior_extensions.py.",
+  "routed_from": "sm-branch-2026-10-03-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "the 536 word states to length 12 and m004's levels M2-M6, at the hyperbolic point, B1515's rank-five extensions",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point only",
+    "word states to length 12 and levels to 6",
+    "the golden form G as sealed (where the generation-shaped members are, not which is chosen)",
+    "off m004's levels the golden states' simple members rest on Part C's one cohomology route"
+   ]
+  }
  }
 ]

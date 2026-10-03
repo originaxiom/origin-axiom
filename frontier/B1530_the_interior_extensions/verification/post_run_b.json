@@ -1,0 +1,319 @@
+{
+ "source": "census_bc.json",
+ "members": 2,
+ "read": 2,
+ "routes agree everywhere": true,
+ "readings": [
+  [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    -1
+   ]
+  ]
+ ],
+ "generation-shaped": [
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "classes": [
+    "basis 0",
+    "the sum of the basis"
+   ],
+   "golden": false
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "classes": [
+    "basis 0",
+    "the sum of the basis"
+   ],
+   "golden": false
+  }
+ ],
+ "states with members": [
+  "+LLRR"
+ ],
+ "rows": [
+  {
+   "state": "+LLRR",
+   "read as": "+LLRR",
+   "golden": false,
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "-1",
+   "nu^5 (the hit)": [
+    "0",
+    "1/2"
+   ],
+   "route T's g": 1,
+   "case": "(a)",
+   "h1(V_eta)": 1,
+   "interior": 1,
+   "boundary-type": 0,
+   "readings": {
+    "basis 0": {
+     "route N": [
+      -1,
+      -1
+     ],
+     "route W": [
+      -1,
+      -1
+     ],
+     "N checks": true,
+     "N margins": {
+      "W": {
+       "smallest kept": "0.00464",
+       "largest dropped": "9.68e-60"
+      },
+      "L2W": {
+       "smallest kept": "0.00118",
+       "largest dropped": "3.6e-59"
+      }
+     },
+     "W data": {
+      "W": {
+       "I": -1,
+       "h1(V)": 1,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 1
+      },
+      "L2W": {
+       "I": -1,
+       "h1(V)": 3,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 2
+      }
+     },
+     "W margins": [
+      {
+       "smallest kept": "0.0072",
+       "largest dropped": "3.12e-60"
+      },
+      {
+       "smallest kept": "0.00194",
+       "largest dropped": "3.74e-60"
+      }
+     ],
+     "agree": true
+    },
+    "the sum of the basis": {
+     "route N": [
+      -1,
+      -1
+     ],
+     "route W": [
+      -1,
+      -1
+     ],
+     "N checks": true,
+     "N margins": {
+      "W": {
+       "smallest kept": "0.00464",
+       "largest dropped": "9.68e-60"
+      },
+      "L2W": {
+       "smallest kept": "0.00118",
+       "largest dropped": "3.6e-59"
+      }
+     },
+     "W data": {
+      "W": {
+       "I": -1,
+       "h1(V)": 1,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 1
+      },
+      "L2W": {
+       "I": -1,
+       "h1(V)": 3,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 2
+      }
+     },
+     "W margins": [
+      {
+       "smallest kept": "0.0072",
+       "largest dropped": "3.12e-60"
+      },
+      {
+       "smallest kept": "0.00194",
+       "largest dropped": "3.74e-60"
+      }
+     ],
+     "agree": true
+    }
+   },
+   "routes agree": true,
+   "generation-shaped": [
+    "basis 0",
+    "the sum of the basis"
+   ],
+   "margins (classes)": {
+    "smallest kept": "0.00542",
+    "largest dropped": "1.82e-59"
+   },
+   "seconds": 10
+  },
+  {
+   "state": "+LLRR",
+   "read as": "+LLRR",
+   "golden": false,
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "-1",
+   "nu^5 (the hit)": [
+    "1/2",
+    "0"
+   ],
+   "route T's g": 1,
+   "case": "(a)",
+   "h1(V_eta)": 1,
+   "interior": 1,
+   "boundary-type": 0,
+   "readings": {
+    "basis 0": {
+     "route N": [
+      -1,
+      -1
+     ],
+     "route W": [
+      -1,
+      -1
+     ],
+     "N checks": true,
+     "N margins": {
+      "W": {
+       "smallest kept": "0.00288",
+       "largest dropped": "5.93e-60"
+      },
+      "L2W": {
+       "smallest kept": "0.00123",
+       "largest dropped": "4.35e-59"
+      }
+     },
+     "W data": {
+      "W": {
+       "I": -1,
+       "h1(V)": 1,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 1
+      },
+      "L2W": {
+       "I": -1,
+       "h1(V)": 3,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 2
+      }
+     },
+     "W margins": [
+      {
+       "smallest kept": "0.00497",
+       "largest dropped": "4.3e-60"
+      },
+      {
+       "smallest kept": "0.00182",
+       "largest dropped": "3.97e-60"
+      }
+     ],
+     "agree": true
+    },
+    "the sum of the basis": {
+     "route N": [
+      -1,
+      -1
+     ],
+     "route W": [
+      -1,
+      -1
+     ],
+     "N checks": true,
+     "N margins": {
+      "W": {
+       "smallest kept": "0.00288",
+       "largest dropped": "5.93e-60"
+      },
+      "L2W": {
+       "smallest kept": "0.00123",
+       "largest dropped": "4.35e-59"
+      }
+     },
+     "W data": {
+      "W": {
+       "I": -1,
+       "h1(V)": 1,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 1,
+       "t0": 1,
+       "s0": 1
+      },
+      "L2W": {
+       "I": -1,
+       "h1(V)": 3,
+       "h1(V*)": 2,
+       "a0": 0,
+       "b0": 0,
+       "t0": 2,
+       "s0": 2
+      }
+     },
+     "W margins": [
+      {
+       "smallest kept": "0.00497",
+       "largest dropped": "4.3e-60"
+      },
+      {
+       "smallest kept": "0.00182",
+       "largest dropped": "3.97e-60"
+      }
+     ],
+     "agree": true
+    }
+   },
+   "routes agree": true,
+   "generation-shaped": [
+    "basis 0",
+    "the sum of the basis"
+   ],
+   "margins (classes)": {
+    "smallest kept": "0.00377",
+    "largest dropped": "1.99e-59"
+   },
+   "seconds": 9
+  }
+ ]
+}

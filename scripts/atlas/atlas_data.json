@@ -9698,6 +9698,51 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1530": {
+   "slug": "the interior extensions",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "apolynomial",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B128",
+    "B152",
+    "B622",
+    "B713",
+    "B760",
+    "B868",
+    "B871",
+    "B993",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 39,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1531": {
    "slug": "the symmetric phase",
    "motifs": [

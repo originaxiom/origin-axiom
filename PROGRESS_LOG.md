@@ -17356,3 +17356,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   recorded at GENESIS FK9.
 - The runs continue meanwhile: B1530's census, B1529's pole brackets, and B1532's two routes. Route T was restarted with four
   workers at 20:34Z (resume-safe, 200 members complete; its banked identity passed again, 507 of 507).
+
+## 2026-10-03 — B1530 banked: THE INTERIOR EXTENSIONS (task 214)
+
+- The census finished at 22:04Z (541 rows, no error, 18.7 worker-hours). Then `post_run_b.py` wrote its summary, and the sealed
+  read-out ran at 22:07Z: PROVED, seven of nine.
+- m135's interior class is generation-shaped, (−1, −1), in both routes; so are m136's κ = −1 members, in four routes. One class
+  on the common double cover accounts for both. Part C is clean everywhere. G fails: the members are silver.
+- The positive was re-checked as carefully as a negative would be. Routes E and S share no group, no holonomy and no arithmetic;
+  m136 was read exactly; the cover was read exactly.
+- Answering the owner's question of the day (are the three-generation negatives sure?), the design bound "the silver squares'
+  covers count at most two" was re-derived before any relay. It is one-sided and withdrawn (ERROR_LEDGER, E9 instance). The
+  covers reduce to eight characters per member, read exactly; that arc is next (sL-10 item 11), sealed before computing.
+- The runs continue: B1532 routes T and L, B1529's coverage check.

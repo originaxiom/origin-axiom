@@ -1,0 +1,263 @@
+read_out.py run at 2026-10-03T22:11:03Z
+{
+ "predictions": {
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": true,
+  "P8": true,
+  "P6": false,
+  "P7": true,
+  "G": false
+ },
+ "verdict": "PROVED: m135's interior class is generation-shaped (both routes)",
+ "G vacuous": false,
+ "generation-shaped states": [
+  "+LLRR",
+  "-LLRR"
+ ]
+}
+{
+ "non-simple members": [
+  [
+   "0",
+   "1/2"
+  ],
+  [
+   "1/2",
+   "0"
+  ]
+ ],
+ "simple members": 6,
+ "routes agree everywhere": true,
+ "u = ('0', '1/2')": {
+  "c_int": {
+   "E": [
+    -1,
+    -1
+   ],
+   "N": [
+    -1,
+    -1
+   ]
+  },
+  "boundary-type": [
+   [
+    0,
+    -1
+   ]
+  ],
+  "W2": {
+   "c'_int": [
+    1,
+    1
+   ],
+   "c'_b": [
+    0,
+    1
+   ],
+   "c'_b + c'_int": [
+    0,
+    1
+   ]
+  },
+  "Jordan type": [
+   2,
+   2
+  ],
+  "mechanism": {
+   "Jordan type of S0 on C at 1": [
+    2,
+    2
+   ],
+   "chi_C (highest first)": [
+    "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+   ],
+   "x cup c_int = 0": true,
+   "x cup c_b = 0": true,
+   "mu (the lift of c_int) in Lambda_A": false,
+   "dim Lambda_A": 2,
+   "mu a P-coboundary": false,
+   "c_int lifts": true,
+   "bit at c_b: e ^ c|_P in Lambda_A": false
+  }
+ },
+ "u = ('1/2', '0')": {
+  "c_int": {
+   "E": [
+    -1,
+    -1
+   ],
+   "N": [
+    -1,
+    -1
+   ]
+  },
+  "boundary-type": [
+   [
+    0,
+    -1
+   ]
+  ],
+  "W2": {
+   "c'_int": [
+    1,
+    1
+   ],
+   "c'_b": [
+    0,
+    1
+   ],
+   "c'_b + c'_int": [
+    0,
+    1
+   ]
+  },
+  "Jordan type": [
+   2,
+   2
+  ],
+  "mechanism": {
+   "Jordan type of S0 on C at 1": [
+    2,
+    2
+   ],
+   "chi_C (highest first)": [
+    "K((1, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((6, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((-4, 0, 0, 0, 0, 0, 0, 0)/1)",
+    "K((1, 0, 0, 0, 0, 0, 0, 0)/1)"
+   ],
+   "x cup c_int = 0": true,
+   "x cup c_b = 0": true,
+   "mu (the lift of c_int) in Lambda_A": false,
+   "dim Lambda_A": 2,
+   "mu a P-coboundary": false,
+   "c_int lifts": true,
+   "bit at c_b: e ^ c|_P in Lambda_A": false
+  }
+ },
+ "generation-shaped readings": [
+  {
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "class": "c_int",
+   "reading": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "class": "c_int",
+   "reading": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "class": "route N's own interior class",
+   "reading": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "class": "c_int",
+   "reading": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "class": "c_int",
+   "reading": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "class": "route N's own interior class",
+   "reading": [
+    -1,
+    -1
+   ]
+  }
+ ]
+}
+{
+ "manifolds": 541,
+ "errors": 0,
+ "route T hits at kappa != 1": 26,
+ "members (nu^5 a hit)": {
+  "-1": 2,
+  "i": 0,
+  "-i": 0,
+  "omega": 0,
+  "omega^2": 0
+ },
+ "members at kappa = -1": [
+  [
+   "+LLRR",
+   false,
+   "0",
+   "1/2",
+   "-1",
+   1
+  ],
+  [
+   "+LLRR",
+   false,
+   "1/2",
+   "0",
+   "-1",
+   1
+  ]
+ ],
+ "members at other kappa (Lemma 5: not generation-shaped)": {
+  "i": [],
+  "-i": [],
+  "omega": [],
+  "omega^2": []
+ },
+ "route G at kappa = -1": {
+  "0": 47331,
+  "1": 2
+ },
+ "B disagreements": [],
+ "H0(F) != 0": [],
+ "C": {
+  "characters": 31489,
+  "meet != 0 (rank)": 0,
+  "meet != 0 (pairing)": 0,
+  "dims not (2, 2)": 0,
+  "rank and pairing disagree": 0
+ }
+}
