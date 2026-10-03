@@ -1,0 +1,105 @@
+{
+ "manifold": "+LR",
+ "a": 0.002,
+ "sealed budget": 80,
+ "budget here": 600,
+ "angle of l at theta = 0 (deg)": -125.32315968603716,
+ "probes": [
+  {
+   "frame": 300.0,
+   "offset (deg)": 0.0,
+   "seed alpha": 300.0,
+   "|F|": 1.7590850446774628e-12,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 7,
+   "seconds": 0.1,
+   "alpha reached": 300.0000038395435,
+   "distance to the frame (deg)": 3.839543524009059e-06
+  },
+  {
+   "frame": 300.0,
+   "offset (deg)": 0.32,
+   "seed alpha": 300.32,
+   "|F|": 1.5319115373688282e-14,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 74,
+   "seconds": 1.0,
+   "alpha reached": 300.0000038181929,
+   "distance to the frame (deg)": 3.818192908511264e-06
+  },
+  {
+   "frame": 300.0,
+   "offset (deg)": 1.0,
+   "seed alpha": 301.0,
+   "|F|": 1.7608940538559087e-14,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 258,
+   "seconds": 4.0,
+   "alpha reached": 300.00000381543583,
+   "distance to the frame (deg)": 3.8154358321662585e-06
+  },
+  {
+   "frame": 300.0,
+   "offset (deg)": 2.5,
+   "seed alpha": 302.5,
+   "|F|": 1.7640718437806056e-14,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 471,
+   "seconds": 6.8,
+   "alpha reached": 300.00000380535164,
+   "distance to the frame (deg)": 3.8053516391300946e-06
+  },
+  {
+   "frame": 0.0,
+   "offset (deg)": 0.0,
+   "seed alpha": 359.99999999999994,
+   "|F|": 2.398269643025553e-13,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 7,
+   "seconds": 0.1,
+   "alpha reached": 3.959125658923688e-09,
+   "distance to the frame (deg)": 3.959125658923688e-09
+  },
+  {
+   "frame": 0.0,
+   "offset (deg)": 0.32,
+   "seed alpha": 0.3199999999999981,
+   "|F|": 8.773288667410563e-13,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 120,
+   "seconds": 1.7,
+   "alpha reached": 9.145343273199451e-09,
+   "distance to the frame (deg)": 9.145343273199451e-09
+  },
+  {
+   "frame": 0.0,
+   "offset (deg)": 1.0,
+   "seed alpha": 0.999999999999959,
+   "|F|": 9.476040647166783e-13,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 303,
+   "seconds": 4.6,
+   "alpha reached": 9.680518810359724e-09,
+   "distance to the frame (deg)": 9.680518810359724e-09
+  },
+  {
+   "frame": 0.0,
+   "offset (deg)": 2.5,
+   "seed alpha": 2.4999999999999676,
+   "|F|": 1.015691569915953e-12,
+   "threshold": 1e-11,
+   "converged": true,
+   "iterations": 458,
+   "seconds": 6.6,
+   "alpha reached": 1.009018870710928e-08,
+   "distance to the frame (deg)": 1.009018870710928e-08
+  }
+ ]
+}

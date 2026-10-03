@@ -1,0 +1,1227 @@
+{
+ "manifolds": 10,
+ "missing": [],
+ "predictions": {
+  "P1": true,
+  "P2": false,
+  "P4": false,
+  "P5": false,
+  "P6": false,
+  "P7": false,
+  "P3": false,
+  "P8": false
+ },
+ "outcome": "C",
+ "rows": {
+  "+LR": {
+   "P1": {
+    "rows": 8,
+    "route W rows": 4,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 2,
+    "beta groups": [
+     {
+      "beta (a=0.002)": 149.99999618094816,
+      "beta (a=0.001)": 149.99999904523997,
+      "beta extrapolated to a = 0": 150.0000019095318,
+      "alpha clusters": 2
+     }
+    ],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 2,
+    "index rows": 12,
+    "failures": [],
+    "holds": true
+   },
+   "P5": {
+    "converged fraction": 1.0,
+    "tracking fraction": 1.0,
+    "b changes sign across each type-one frame": [
+     true,
+     true
+    ],
+    "holds": true
+   },
+   "P6": {
+    "crossings": [
+     {
+      "between alpha": [
+       19.66787430068258,
+       24.660476552958432
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       29.340047237049273,
+       34.68364152895366
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       29.340047237049273,
+       34.68364152895366
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       54.66939954845295,
+       59.66886811477262
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       64.6687676792099,
+       69.66881986304405
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       88.96761860827847,
+       94.67931899317699
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       88.96761860827847,
+       94.67931899317699
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       88.96761860827847,
+       94.67931899317699
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       109.67146507090882,
+       114.67214439767254
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       119.67339258871621,
+       124.67517342353233
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       144.70289529436027,
+       149.27095430068755
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       149.27095430068755,
+       154.64442362522982
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       149.27095430068755,
+       154.64442362522982
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       149.27095430068755,
+       154.64442362522982
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       154.64442362522982,
+       159.66238742068452
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       199.68590068480904,
+       204.69338319279777
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       209.3733591864808,
+       214.67038136737384
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       209.3733591864808,
+       214.67038136737384
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       234.68431267543252,
+       239.684817041318
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       244.68488640382736,
+       249.68480242855816
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       268.98289061901147,
+       274.678034331081
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       268.98289061901147,
+       274.678034331081
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       268.98289061901147,
+       274.678034331081
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       289.6822825261944,
+       294.68156320483484
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       299.68028986045647,
+       304.67849018471304
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       324.65079161741414,
+       329.2271545627411
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       329.2271545627411,
+       334.70891964312705
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       329.2271545627411,
+       334.70891964312705
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       329.2271545627411,
+       334.70891964312705
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       334.70891964312705,
+       339.6911956007675
+      ],
+      "g": "psi_a + psi_b"
+     }
+    ],
+    "holds": true
+   },
+   "P7": {
+    "failures": [],
+    "holds": true
+   },
+   "P3": {
+    "beta at a -> 0": [
+     150.0000019095318
+    ],
+    "symmetric family's lattice slope": [],
+    "holds": false
+   }
+  },
+  "-LR": {
+   "P1": {
+    "rows": 48,
+    "route W rows": 20,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 1.0,
+    "tracking fraction": 1.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [
+     {
+      "between alpha": [
+       19.67683718672927,
+       24.677524347093076
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       29.31307824374045,
+       34.669968402596325
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       29.31307824374045,
+       34.669968402596325
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       54.66842458415472,
+       59.66737486115472
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       64.66633888490072,
+       69.66536567122715
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       88.91174292611912,
+       94.68949862703523
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       88.91174292611912,
+       94.68949862703523
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       88.91174292611912,
+       94.68949862703523
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       109.67683415156249,
+       114.67703757160754
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       119.67764600020904,
+       124.67867736603341
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       144.70627890665344,
+       149.32074220776357
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       149.32074220776357,
+       154.63469170141445
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       149.32074220776357,
+       154.63469170141445
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       149.32074220776357,
+       154.63469170141445
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       154.63469170141445,
+       159.65622812715654
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       199.67697741323246,
+       204.6762567875494
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       209.29604832280268,
+       214.68473645757715
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       209.29604832280268,
+       214.68473645757715
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       234.68531651867482,
+       239.6863350995867
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       244.6873272079102,
+       249.68823431548083
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       268.92288175640545,
+       274.67108882634767
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       268.92288175640545,
+       274.67108882634767
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       268.92288175640545,
+       274.67108882634767
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       289.67691887217063,
+       294.6766765236291
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       299.67604072039285,
+       304.6749862810708
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       324.6472659058481,
+       329.24139529949247
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       329.24139529949247,
+       334.71865803411424
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       329.24139529949247,
+       334.71865803411424
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       329.24139529949247,
+       334.71865803411424
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       334.71865803411424,
+       339.6974323847283
+      ],
+      "g": "psi_a + psi_b"
+     }
+    ],
+    "holds": true
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   },
+   "P3": {
+    "beta at a -> 0": [],
+    "symmetric family's lattice slope": [],
+    "holds": false
+   }
+  },
+  "+LLRLRR": {
+   "P1": {
+    "rows": 104,
+    "route W rows": 52,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.8888888888888888,
+    "tracking fraction": 1.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [
+     {
+      "between alpha": [
+       21.762254125219727,
+       26.618627169292918
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       26.618627169292918,
+       36.944984818189006
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       26.618627169292918,
+       36.944984818189006
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       51.86327469733902,
+       56.85417984583649
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       66.84099420462992,
+       71.83269961346143
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       111.80842260374455,
+       116.80770109014863
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       121.80844861583465,
+       126.80964750688449
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       141.8108378919604,
+       146.8022048897678
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       146.8022048897678,
+       156.83144812359495
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       146.8022048897678,
+       156.83144812359495
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       146.8022048897678,
+       156.83144812359495
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       156.83144812359495,
+       161.82748519215102
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       201.9318498612451,
+       207.08828077764431
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       207.08828077764431,
+       216.7463284099748
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       207.08828077764431,
+       216.7463284099748
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       231.830633861052,
+       236.8397241181642
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       246.85263273981613,
+       251.86046690780432
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       261.8884039353462,
+       276.8614382091438
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       261.8884039353462,
+       276.8614382091438
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       261.8884039353462,
+       276.8614382091438
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       291.8855630728871,
+       296.8861244098618
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       301.88530519860757,
+       306.88407033031234
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       321.8825964996465,
+       326.88886529212255
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       326.88886529212255,
+       336.86251265688804
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       326.88886529212255,
+       336.86251265688804
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       326.88886529212255,
+       336.86251265688804
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       336.86251265688804,
+       341.8663630476736
+      ],
+      "g": "psi_a + psi_b"
+     }
+    ],
+    "holds": true
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   },
+   "P3": {
+    "beta at a -> 0": [],
+    "symmetric family's lattice slope": [],
+    "holds": false
+   }
+  },
+  "-LLRLRR": {
+   "P1": {
+    "rows": 168,
+    "route W rows": 68,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.7777777777777778,
+    "tracking fraction": 1.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [
+     {
+      "between alpha": [
+       51.86297623428334,
+       56.85391219424742
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       66.83785687277393,
+       71.82533965228343
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       111.80861026300737,
+       116.80898201354357
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       121.8102455926997,
+       126.81149158165039
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       141.81150249164267,
+       146.80388206597377
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       146.80388206597377,
+       156.8231124732042
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       146.80388206597377,
+       156.8231124732042
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       146.80388206597377,
+       156.8231124732042
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       156.8231124732042,
+       161.81727088585058
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       231.83094381408048,
+       236.8400003011265
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       246.8557376144387,
+       251.86764537319578
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       291.8853785431809,
+       296.8848395156256
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       301.8835135648974,
+       306.8822322031858
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       321.88192329804616,
+       326.88730099647194
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       326.88730099647194,
+       336.8708361089905
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       326.88730099647194,
+       336.8708361089905
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       326.88730099647194,
+       336.8708361089905
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       336.8708361089905,
+       341.87650369112913
+      ],
+      "g": "psi_a + psi_b"
+     }
+    ],
+    "holds": true
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   },
+   "P3": {
+    "beta at a -> 0": [],
+    "symmetric family's lattice slope": [],
+    "holds": false
+   }
+  },
+  "+LLLRLRR": {
+   "P1": {
+    "rows": 144,
+    "route W rows": 72,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.8055555555555556,
+    "tracking fraction": 1.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [
+     {
+      "between alpha": [
+       26.929429223555193,
+       31.8346788705877
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       62.08980673908592,
+       67.07251939701123
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       72.05392146906883,
+       77.03328627988425
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       92.06302954107613,
+       106.92698804984262
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       92.06302954107613,
+       106.92698804984262
+      ],
+      "g": "3 psi_a - psi_b"
+     },
+     {
+      "between alpha": [
+       92.06302954107613,
+       106.92698804984262
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       116.97180436491381,
+       121.98080698705984
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       131.98936951654045,
+       136.98981421176765
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       207.18697740692792,
+       212.2898678102859
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       242.02519734980427,
+       247.04242351537584
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       252.0606253911577,
+       257.08016718037936
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       297.14287282275455,
+       302.13384368942553
+      ],
+      "g": "psi_a + psi_b"
+     },
+     {
+      "between alpha": [
+       312.1252886019669,
+       317.12484162588146
+      ],
+      "g": "3 psi_b - psi_a"
+     },
+     {
+      "between alpha": [
+       332.1532693096443,
+       347.1047070416154
+      ],
+      "g": "3 psi_b - psi_a"
+     }
+    ],
+    "holds": true
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   }
+  },
+  "-LLLRLRR": {
+   "P1": {
+    "rows": 216,
+    "route W rows": 88,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.1527777777777778,
+    "tracking fraction": 1.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [],
+    "holds": false
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   }
+  },
+  "+LLLLRLLLRR": {
+   "P1": {
+    "rows": 360,
+    "route W rows": 180,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.027777777777777776,
+    "tracking fraction": 1.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [],
+    "holds": false
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   }
+  },
+  "-LLLLRLLLRR": {
+   "P1": {
+    "rows": 476,
+    "route W rows": 196,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.0,
+    "tracking fraction": 0.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [],
+    "holds": false
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   }
+  },
+  "+LLLLRLRRRLRR": {
+   "P1": {
+    "rows": 968,
+    "route W rows": 484,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.0,
+    "tracking fraction": 0.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [],
+    "holds": false
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   }
+  },
+  "-LLLLRLRRRLRR": {
+   "P1": {
+    "rows": 1248,
+    "route W rows": 500,
+    "failures": [],
+    "holds": true
+   },
+   "P2": {
+    "alpha clusters": 0,
+    "beta groups": [],
+    "gaps": [],
+    "holds": false
+   },
+   "P4": {
+    "points": 0,
+    "index rows": 0,
+    "failures": [],
+    "holds": false
+   },
+   "P5": {
+    "converged fraction": 0.0,
+    "tracking fraction": 0.0,
+    "b changes sign across each type-one frame": [],
+    "holds": false
+   },
+   "P6": {
+    "crossings": [],
+    "holds": false
+   },
+   "P7": {
+    "failures": [],
+    "holds": false
+   }
+  }
+ }
+}

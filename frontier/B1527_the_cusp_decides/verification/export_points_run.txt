@@ -1,0 +1,14 @@
+start 2026-10-03T09:47:37Z
++LR: 176 s; points 6; frames agreeing 6; largest polished |F| 5.72e-49
+-LLRLRR: 179 s; points 6; frames agreeing 6; largest polished |F| 3.06e-49
+-LR: 180 s; points 6; frames agreeing 6; largest polished |F| 4.98e-49
++LLRLRR: 187 s; points 6; frames agreeing 6; largest polished |F| 6.54e-49
+-LLLRLRR: 169 s; points 6; frames agreeing 6; largest polished |F| 1.02e-55
++LLLRLRR: 173 s; points 6; frames agreeing 6; largest polished |F| 1.69e-50
+-LLLLRLLLRR: 200 s; points 6; frames agreeing 6; largest polished |F| 8.78e-51
++LLLLRLLLRR: 213 s; points 6; frames agreeing 6; largest polished |F| 2.31e-51
+-LLLLRLRRRLRR: 204 s; points 6; frames agreeing 6; largest polished |F| 2.67e-53
++LLLLRLRRRLRR: 310 s; points 6; frames agreeing 6; largest polished |F| 5.50e-54
+points 60; failing (frame or |F|) 0
+end 2026-10-03T09:58:35Z
+EXPORT-EXIT 0

@@ -1,0 +1,4 @@
+start 2026-10-03T09:22:01Z at df3f809b
+-LLLLRLRRRLRR: 553 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 180); dropped <= 2.97e-82, kept >= 4.68e-20; nullities 4 and 5 at 6/6 points
+X2-LAST-EXIT 0
+end 2026-10-03T09:31:15Z

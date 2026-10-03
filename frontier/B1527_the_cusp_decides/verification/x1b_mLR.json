@@ -1,0 +1,219 @@
+{
+ "manifold": "-LR",
+ "a": 1e-05,
+ "alpha_1 (X1's first frame)": 1.4901161193847656e-07,
+ "frames": [
+  {
+   "seed frame": 1.4901161193847656e-07,
+   "converged": true,
+   "|F|": 1.9045569322002408e-14,
+   "threshold": 1e-11,
+   "iterations": 6,
+   "alpha": 4.064810867885077e-09,
+   "beta": 89.99999999593518,
+   "|z_l| / R0": 0.9999986347821914,
+   "X1 frame": 1.4901161193847656e-07,
+   "|alpha - X1's alpha| (deg)": 1.449468010705915e-07,
+   "|beta - X1's beta| (deg)": 1.4494679589915904e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 60.00000014901161,
+   "converged": true,
+   "|F|": 1.943605331825139e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 60.00000000085291,
+   "beta": 29.999999999147107,
+   "|z_l| / R0": 1.0000001437284787,
+   "X1 frame": 59.999999850988374,
+   "|alpha - X1's alpha| (deg)": 1.4986453322762827e-07,
+   "|beta - X1's beta| (deg)": 1.4986452256948724e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 120.00000014901161,
+   "converged": true,
+   "|F|": 5.1519035973845046e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 119.99999999414382,
+   "beta": 150.00000000585618,
+   "|z_l| / R0": 1.0000001396669367,
+   "X1 frame": 120.0000001490116,
+   "|alpha - X1's alpha| (deg)": 1.5486777726891887e-07,
+   "|beta - X1's beta| (deg)": 1.5486779147977359e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 180.0000001490116,
+   "converged": true,
+   "|F|": 3.833091488319117e-14,
+   "threshold": 1e-11,
+   "iterations": 5,
+   "alpha": 179.99999999658067,
+   "beta": 90.00000000341933,
+   "|z_l| / R0": 1.0000009755031363,
+   "X1 frame": 180.0000001490116,
+   "|alpha - X1's alpha| (deg)": 1.5243091411321075e-07,
+   "|beta - X1's beta| (deg)": 1.5243094253492018e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 240.0000001490116,
+   "converged": true,
+   "|F|": 2.877349022142889e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 239.99999999843493,
+   "beta": 30.00000000156504,
+   "|z_l| / R0": 0.9999998563359072,
+   "X1 frame": 239.99999985098836,
+   "|alpha - X1's alpha| (deg)": 1.474465989304008e-07,
+   "|beta - X1's beta| (deg)": 1.474465989304008e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 300.0000001490116,
+   "converged": true,
+   "|F|": 3.357877976315929e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 300.00000000269034,
+   "beta": 149.99999999730963,
+   "|z_l| / R0": 0.9999998603937345,
+   "X1 frame": 299.9999998509884,
+   "|alpha - X1's alpha| (deg)": 1.5170195410973975e-07,
+   "|beta - X1's beta| (deg)": 1.5170198253144918e-07,
+   "same frame as X1": true
+  }
+ ],
+ "frames converged": 6,
+ "frames X1 had": 6,
+ "agree with X1": 6,
+ "new points": [],
+ "controls (3 degrees off)": [
+  {
+   "seed frame": 357.0000001490116,
+   "converged": false,
+   "|F|": 3.829033996604969e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 357.0074765060656,
+   "beta": 92.99252349393443,
+   "|z_l| / R0": 0.9989697491746643
+  },
+  {
+   "seed frame": 3.000000149011612,
+   "converged": false,
+   "|F|": 3.812740734445722e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 2.9972153829169192,
+   "beta": 87.0027846170831,
+   "|z_l| / R0": 0.9998424572106556
+  },
+  {
+   "seed frame": 57.00000014901161,
+   "converged": false,
+   "|F|": 2.087444121585561e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 57.00000048674888,
+   "beta": 32.999999513251126,
+   "|z_l| / R0": 0.9998912760982334
+  },
+  {
+   "seed frame": 63.00000014901161,
+   "converged": false,
+   "|F|": 1.7995811135378452e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 63.000000566367696,
+   "beta": 26.99999943363231,
+   "|z_l| / R0": 0.9998893776315939
+  },
+  {
+   "seed frame": 117.00000014901161,
+   "converged": false,
+   "|F|": 2.2502309619389777e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 117.0000005591089,
+   "beta": 152.9999994408911,
+   "|z_l| / R0": 0.9998952065968438
+  },
+  {
+   "seed frame": 123.00000014901161,
+   "converged": false,
+   "|F|": 2.5334618242593003e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 123.00000062700059,
+   "beta": 146.9999993729994,
+   "|z_l| / R0": 0.9998902070942114
+  },
+  {
+   "seed frame": 177.0000001490116,
+   "converged": false,
+   "|F|": 3.883157770107288e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 177.00000029524287,
+   "beta": 92.99999970475713,
+   "|z_l| / R0": 0.9998940762726805
+  },
+  {
+   "seed frame": 183.0000001490116,
+   "converged": false,
+   "|F|": 3.852762648431396e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 183.0000004195179,
+   "beta": 86.9999995804821,
+   "|z_l| / R0": 0.9998031346780671
+  },
+  {
+   "seed frame": 237.0000001490116,
+   "converged": false,
+   "|F|": 2.081232255193631e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 237.00051743578575,
+   "beta": 32.99948256421425,
+   "|z_l| / R0": 0.9993445377916398
+  },
+  {
+   "seed frame": 243.0000001490116,
+   "converged": false,
+   "|F|": 1.7917141248394652e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 242.99959293189292,
+   "beta": 27.00040706810705,
+   "|z_l| / R0": 0.9997374176043056
+  },
+  {
+   "seed frame": 297.0000001490116,
+   "converged": false,
+   "|F|": 2.2428563091705563e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 297.0003381467587,
+   "beta": 152.99966185324132,
+   "|z_l| / R0": 0.9996526907386365
+  },
+  {
+   "seed frame": 303.0000001490116,
+   "converged": false,
+   "|F|": 2.449127632703116e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 302.98821877538165,
+   "beta": 147.01178122461835,
+   "|z_l| / R0": 0.9988284466308406
+  }
+ ],
+ "controls converged": 0,
+ "seconds": 17
+}

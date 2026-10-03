@@ -1,0 +1,3764 @@
+{
+ "manifold": "-LR",
+ "H": {
+  "D": 5,
+  "snappy shape": [
+   -0.5,
+   0.28867513459481287
+  ],
+  "rho relator residual": "3.05e-59",
+  "rows": [
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0124",
+     "largest dropped": "1.7e-60"
+    },
+    "relator residual": "3.05e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.0254",
+      "largest dropped": "4.58e-61"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.038",
+     "largest dropped": "1.51e-60"
+    },
+    "relator residual": "1.34e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.0275",
+      "largest dropped": "1.51e-60"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00171",
+     "largest dropped": "5.8e-60"
+    },
+    "relator residual": "4.59e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00171",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00163",
+     "largest dropped": "1.06e-59"
+    },
+    "relator residual": "1.6e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00419",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00577",
+     "largest dropped": "1.11e-60"
+    },
+    "relator residual": "2.81e-59"
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0035",
+     "largest dropped": "4.79e-60"
+    },
+    "relator residual": "1.34e-58"
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0184",
+     "largest dropped": "6.36e-61"
+    },
+    "relator residual": "3.05e-59"
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0137",
+     "largest dropped": "1.89e-60"
+    },
+    "relator residual": "1.34e-58"
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0231",
+     "largest dropped": "6.68e-61"
+    },
+    "relator residual": "3.74e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.0292",
+      "largest dropped": "5.15e-61"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0216",
+     "largest dropped": "1.45e-60"
+    },
+    "relator residual": "1.41e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.0333",
+      "largest dropped": "1.36e-60"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00273",
+     "largest dropped": "1.67e-60"
+    },
+    "relator residual": "4.3e-59"
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00648",
+     "largest dropped": "2.4e-60"
+    },
+    "relator residual": "1.3e-58"
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00249",
+     "largest dropped": "2.35e-60"
+    },
+    "relator residual": "5.62e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00667",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0054",
+     "largest dropped": "4.17e-60"
+    },
+    "relator residual": "1.5e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00499",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000448",
+     "largest dropped": "1.43e-59"
+    },
+    "relator residual": "3.08e-59"
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0023",
+     "largest dropped": "9.22e-60"
+    },
+    "relator residual": "1.36e-58"
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00183",
+     "largest dropped": "1.86e-60"
+    },
+    "relator residual": "4.3e-59"
+   },
+   {
+    "u": [
+     "1/5",
+     "3/5"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00881",
+     "largest dropped": "2.35e-60"
+    },
+    "relator residual": "1.3e-58"
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0206",
+     "largest dropped": "1.04e-60"
+    },
+    "relator residual": "4.56e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.0557",
+      "largest dropped": "5.96e-61"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0231",
+     "largest dropped": "1.66e-60"
+    },
+    "relator residual": "1.6e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.0376",
+      "largest dropped": "1.66e-60"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00299",
+     "largest dropped": "7.43e-61"
+    },
+    "relator residual": "3.74e-59"
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00847",
+     "largest dropped": "2.07e-60"
+    },
+    "relator residual": "1.45e-58"
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00461",
+     "largest dropped": "1.69e-60"
+    },
+    "relator residual": "5.37e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.0117",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0048",
+     "largest dropped": "2.19e-60"
+    },
+    "relator residual": "1.67e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00796",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00253",
+     "largest dropped": "1.43e-60"
+    },
+    "relator residual": "2.96e-59"
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00697",
+     "largest dropped": "2.1e-60"
+    },
+    "relator residual": "1.37e-58"
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00196",
+     "largest dropped": "3.96e-60"
+    },
+    "relator residual": "3.74e-59"
+   },
+   {
+    "u": [
+     "2/5",
+     "1/5"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00337",
+     "largest dropped": "4.65e-60"
+    },
+    "relator residual": "1.45e-58"
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0206",
+     "largest dropped": "1.22e-60"
+    },
+    "relator residual": "3.88e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.0557",
+      "largest dropped": "5.05e-61"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0231",
+     "largest dropped": "1.83e-60"
+    },
+    "relator residual": "1.69e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.0376",
+      "largest dropped": "1.83e-60"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00299",
+     "largest dropped": "1.2e-60"
+    },
+    "relator residual": "3.66e-59"
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00847",
+     "largest dropped": "1.96e-60"
+    },
+    "relator residual": "1.42e-58"
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00461",
+     "largest dropped": "1.36e-60"
+    },
+    "relator residual": "5.23e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.0117",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0048",
+     "largest dropped": "2.35e-60"
+    },
+    "relator residual": "1.64e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00796",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.009",
+     "largest dropped": "1.2e-60"
+    },
+    "relator residual": "2.59e-59"
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00871",
+     "largest dropped": "1.88e-60"
+    },
+    "relator residual": "1.47e-58"
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00196",
+     "largest dropped": "4.38e-60"
+    },
+    "relator residual": "3.66e-59"
+   },
+   {
+    "u": [
+     "3/5",
+     "4/5"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00337",
+     "largest dropped": "7.64e-60"
+    },
+    "relator residual": "1.42e-58"
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0231",
+     "largest dropped": "7.07e-61"
+    },
+    "relator residual": "2.92e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.0292",
+      "largest dropped": "6.76e-61"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0216",
+     "largest dropped": "1.37e-60"
+    },
+    "relator residual": "1.28e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.0333",
+      "largest dropped": "1.37e-60"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00273",
+     "largest dropped": "1.98e-60"
+    },
+    "relator residual": "3.17e-59"
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00648",
+     "largest dropped": "2.8e-60"
+    },
+    "relator residual": "1.28e-58"
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00249",
+     "largest dropped": "3.0e-60"
+    },
+    "relator residual": "4.32e-59",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00667",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.0054",
+     "largest dropped": "2.74e-60"
+    },
+    "relator residual": "1.49e-58",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00499",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000449",
+     "largest dropped": "9.42e-61"
+    },
+    "relator residual": "2.5e-59"
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00762",
+     "largest dropped": "1.95e-60"
+    },
+    "relator residual": "1.21e-58"
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00183",
+     "largest dropped": "1.52e-60"
+    },
+    "relator residual": "3.17e-59"
+   },
+   {
+    "u": [
+     "4/5",
+     "2/5"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00881",
+     "largest dropped": "2.06e-60"
+    },
+    "relator residual": "1.28e-58"
+   }
+  ]
+ },
+ "seconds H": 68,
+ "scans": {
+  "type one": [
+   {
+    "theta": 0,
+    "alpha seed": 234.67684031396283,
+    "|F|": 0.00022717623678927584,
+    "iterations": 80,
+    "floor": 3.481124553698478e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 5,
+    "alpha seed": 239.67684031396283,
+    "|F|": 3.938319571432437e-06,
+    "iterations": 80,
+    "floor": 2.2144826708323113e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 10,
+    "alpha seed": 244.67684031396283,
+    "|F|": 0.00019762149208845853,
+    "iterations": 80,
+    "floor": 3.006923546430591e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 15,
+    "alpha seed": 249.67684031396283,
+    "|F|": 0.0004026597415455321,
+    "iterations": 80,
+    "floor": 2.8404356104972972e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 20,
+    "alpha seed": 254.67684031396283,
+    "|F|": 0.0005969387631305543,
+    "iterations": 80,
+    "floor": 3.0448192130268384e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 25,
+    "alpha seed": 259.6768403139628,
+    "|F|": 0.0007665940037176206,
+    "iterations": 80,
+    "floor": 2.2567835080748134e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 30,
+    "alpha seed": 264.6768403139628,
+    "|F|": 0.000886656718308824,
+    "iterations": 80,
+    "floor": 1.6974102827918244e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 35,
+    "alpha seed": 269.6768403139628,
+    "|F|": 0.0009322466107163937,
+    "iterations": 80,
+    "floor": 1.7059776355527157e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 40,
+    "alpha seed": 274.6768403139628,
+    "|F|": 0.0008949667742226923,
+    "iterations": 80,
+    "floor": 3.5901093941950454e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 45,
+    "alpha seed": 279.6768403139628,
+    "|F|": 0.0007863340451660429,
+    "iterations": 80,
+    "floor": 2.398443749136785e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 50,
+    "alpha seed": 284.67684031396277,
+    "|F|": 0.0006274170458507826,
+    "iterations": 80,
+    "floor": 1.559478749883067e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 55,
+    "alpha seed": 289.67684031396277,
+    "|F|": 0.0004376438380215981,
+    "iterations": 80,
+    "floor": 1.6366675143292607e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 60,
+    "alpha seed": 294.6768403139628,
+    "|F|": 0.0002303662584415421,
+    "iterations": 80,
+    "floor": 1.9393302153445776e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 65,
+    "alpha seed": 299.6768403139628,
+    "|F|": 5.127288763847456e-06,
+    "iterations": 80,
+    "floor": 2.740461122271437e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 70,
+    "alpha seed": 304.6768403139628,
+    "|F|": 0.00020398152368155496,
+    "iterations": 80,
+    "floor": 2.0729276937768058e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 75,
+    "alpha seed": 309.6768403139628,
+    "|F|": 0.00041587627356819194,
+    "iterations": 80,
+    "floor": 1.2893382547892336e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 80,
+    "alpha seed": 314.6768403139628,
+    "|F|": 0.0006105535233266191,
+    "iterations": 80,
+    "floor": 2.0066927143480263e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 85,
+    "alpha seed": 319.6768403139628,
+    "|F|": 0.0007734835371679981,
+    "iterations": 80,
+    "floor": 1.4102064315697878e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 90,
+    "alpha seed": 324.6768403139628,
+    "|F|": 0.0008867552005745228,
+    "iterations": 80,
+    "floor": 1.9358528613666115e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 95,
+    "alpha seed": 329.6768403139628,
+    "|F|": 0.0009313324053240114,
+    "iterations": 80,
+    "floor": 1.3374521988766752e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 100,
+    "alpha seed": 334.6768403139628,
+    "|F|": 0.0008945654720294636,
+    "iterations": 80,
+    "floor": 2.8367349633778438e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 105,
+    "alpha seed": 339.6768403139628,
+    "|F|": 0.0007820968483137522,
+    "iterations": 80,
+    "floor": 2.6863902026657087e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 110,
+    "alpha seed": 344.6768403139628,
+    "|F|": 0.0006180463941365883,
+    "iterations": 80,
+    "floor": 1.8895616455003027e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 115,
+    "alpha seed": 349.6768403139628,
+    "|F|": 0.0004273042795152543,
+    "iterations": 80,
+    "floor": 2.374561584594906e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 120,
+    "alpha seed": 354.67684031396277,
+    "|F|": 0.00022387290764119553,
+    "iterations": 80,
+    "floor": 1.5185387450440883e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 125,
+    "alpha seed": 359.6768403139628,
+    "|F|": 3.949020058097717e-06,
+    "iterations": 80,
+    "floor": 2.972076046588088e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 130,
+    "alpha seed": 4.6768403139628365,
+    "|F|": 0.00019983329817005,
+    "iterations": 80,
+    "floor": 4.565180745410971e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 135,
+    "alpha seed": 9.676840313962812,
+    "|F|": 0.0004106195671633104,
+    "iterations": 80,
+    "floor": 4.516143689969096e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 140,
+    "alpha seed": 14.676840313962808,
+    "|F|": 0.000608085336926715,
+    "iterations": 80,
+    "floor": 1.368996514094883e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 145,
+    "alpha seed": 19.67684031396286,
+    "|F|": 0.0007748716225157358,
+    "iterations": 80,
+    "floor": 1.376544067642219e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 150,
+    "alpha seed": 24.676840313962824,
+    "|F|": 0.0008889700798799149,
+    "iterations": 80,
+    "floor": 1.800456506336679e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 155,
+    "alpha seed": 29.67684031396281,
+    "|F|": 0.0009316691349888537,
+    "iterations": 80,
+    "floor": 1.608914342949322e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 160,
+    "alpha seed": 34.67684031396281,
+    "|F|": 0.0008964537110557581,
+    "iterations": 80,
+    "floor": 3.504694087734751e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 165,
+    "alpha seed": 39.67684031396282,
+    "|F|": 0.0007909216922466856,
+    "iterations": 80,
+    "floor": 2.1106564061027893e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 170,
+    "alpha seed": 44.67684031396282,
+    "|F|": 0.0006317647476336615,
+    "iterations": 80,
+    "floor": 1.1970422331215969e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 175,
+    "alpha seed": 49.67684031396281,
+    "|F|": 0.0004383915487336953,
+    "iterations": 80,
+    "floor": 1.8530062282309942e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 180,
+    "alpha seed": 54.676840313962806,
+    "|F|": 0.00022829823883663874,
+    "iterations": 80,
+    "floor": 1.0447585482018272e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 185,
+    "alpha seed": 59.676840313962806,
+    "|F|": 4.164665930751018e-06,
+    "iterations": 80,
+    "floor": 1.2973748888068469e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 190,
+    "alpha seed": 64.67684031396281,
+    "|F|": 0.00019700856243354105,
+    "iterations": 80,
+    "floor": 2.1770019222192684e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 195,
+    "alpha seed": 69.67684031396284,
+    "|F|": 0.00040217344426107186,
+    "iterations": 80,
+    "floor": 3.1822745787080113e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 200,
+    "alpha seed": 74.67684031396281,
+    "|F|": 0.0005964868951368031,
+    "iterations": 80,
+    "floor": 1.7964616016163266e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 205,
+    "alpha seed": 79.6768403139628,
+    "|F|": 0.000766120427749482,
+    "iterations": 80,
+    "floor": 3.940093982606296e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 210,
+    "alpha seed": 84.67684031396284,
+    "|F|": 0.0008861552511392083,
+    "iterations": 80,
+    "floor": 1.5082903339113865e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 215,
+    "alpha seed": 89.67684031396283,
+    "|F|": 0.0009316758931103524,
+    "iterations": 80,
+    "floor": 2.5142905075967972e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 220,
+    "alpha seed": 94.67684031396283,
+    "|F|": 0.0008942412030011396,
+    "iterations": 80,
+    "floor": 2.3759394558034988e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 225,
+    "alpha seed": 99.67684031396281,
+    "|F|": 0.0007854602920071442,
+    "iterations": 80,
+    "floor": 4.457666272142672e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 230,
+    "alpha seed": 104.67684031396281,
+    "|F|": 0.0006265352096506835,
+    "iterations": 80,
+    "floor": 3.033996846083116e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 235,
+    "alpha seed": 109.6768403139628,
+    "|F|": 0.0004369248220154002,
+    "iterations": 80,
+    "floor": 4.1405885658030375e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 240,
+    "alpha seed": 114.6768403139628,
+    "|F|": 0.00022992703509994237,
+    "iterations": 80,
+    "floor": 2.0235494752574826e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 245,
+    "alpha seed": 119.67684031396284,
+    "|F|": 5.116032220628836e-06,
+    "iterations": 80,
+    "floor": 2.951623895906141e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 250,
+    "alpha seed": 124.67684031396286,
+    "|F|": 0.00020371051492651594,
+    "iterations": 80,
+    "floor": 1.0757425489183186e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 255,
+    "alpha seed": 129.67684031396283,
+    "|F|": 0.0004152586781236857,
+    "iterations": 80,
+    "floor": 1.6105037580302867e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 260,
+    "alpha seed": 134.67684031396283,
+    "|F|": 0.0006097227170670778,
+    "iterations": 80,
+    "floor": 1.8035699983992992e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 265,
+    "alpha seed": 139.67684031396283,
+    "|F|": 0.0007727265871931738,
+    "iterations": 80,
+    "floor": 3.960080613684405e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 270,
+    "alpha seed": 144.6768403139628,
+    "|F|": 0.0008864461067234659,
+    "iterations": 80,
+    "floor": 1.4021550343910372e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 275,
+    "alpha seed": 149.6768403139628,
+    "|F|": 0.0009317154996889959,
+    "iterations": 80,
+    "floor": 2.109319026601927e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 280,
+    "alpha seed": 154.67684031396283,
+    "|F|": 0.0008955291087770716,
+    "iterations": 80,
+    "floor": 1.852239497862654e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 285,
+    "alpha seed": 159.6768403139628,
+    "|F|": 0.0007832408396342612,
+    "iterations": 80,
+    "floor": 1.4248489814670885e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 290,
+    "alpha seed": 164.67684031396283,
+    "|F|": 0.0006190293805710071,
+    "iterations": 80,
+    "floor": 1.3725014132360985e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 295,
+    "alpha seed": 169.67684031396283,
+    "|F|": 0.0004280234596287657,
+    "iterations": 80,
+    "floor": 1.741616153282271e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 300,
+    "alpha seed": 174.67684031396283,
+    "|F|": 0.00022437071524528313,
+    "iterations": 80,
+    "floor": 2.1214856860306114e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 305,
+    "alpha seed": 179.67684031396283,
+    "|F|": 4.03144128073501e-06,
+    "iterations": 80,
+    "floor": 2.275787590366923e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 310,
+    "alpha seed": 184.67684031396283,
+    "|F|": 0.00019970105313007626,
+    "iterations": 80,
+    "floor": 2.153986939036935e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 315,
+    "alpha seed": 189.6768403139628,
+    "|F|": 0.00041074367254952473,
+    "iterations": 80,
+    "floor": 3.4901517674671036e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 320,
+    "alpha seed": 194.6768403139628,
+    "|F|": 0.00060848164838095,
+    "iterations": 80,
+    "floor": 2.9896382829250324e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 325,
+    "alpha seed": 199.67684031396277,
+    "|F|": 0.0007753794864293447,
+    "iterations": 80,
+    "floor": 3.703574820522099e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 330,
+    "alpha seed": 204.67684031396277,
+    "|F|": 0.0008892297280079835,
+    "iterations": 80,
+    "floor": 1.2634855839664992e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 335,
+    "alpha seed": 209.67684031396283,
+    "|F|": 0.0009313188455684386,
+    "iterations": 80,
+    "floor": 2.4154837222015357e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 340,
+    "alpha seed": 214.67684031396283,
+    "|F|": 0.000895401186152281,
+    "iterations": 80,
+    "floor": 1.61490011144047e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 345,
+    "alpha seed": 219.67684031396283,
+    "|F|": 0.0007894000730282953,
+    "iterations": 80,
+    "floor": 2.2071574774484917e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 350,
+    "alpha seed": 224.67684031396283,
+    "|F|": 0.0006301442150589209,
+    "iterations": 80,
+    "floor": 2.655628363523669e-14,
+    "threshold": 1e-11,
+    "converged": false
+   },
+   {
+    "theta": 355,
+    "alpha seed": 229.6768403139628,
+    "|F|": 0.00043696122837787887,
+    "iterations": 80,
+    "floor": 1.1774866191390455e-14,
+    "threshold": 1e-11,
+    "converged": false
+   }
+  ],
+  "b free": [
+   {
+    "theta": 0,
+    "alpha seed": 234.67684031396283,
+    "|F|": 4.752535950443272e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 234.68531651867482,
+    "b": 0.0005713773717597857,
+    "psi_a(l)": -0.0031421467153909186,
+    "psi_b(l)": -0.0012671442542914904,
+    "zl": [
+     -1.5710733576954592,
+     -2.2177011497476906
+    ]
+   },
+   {
+    "theta": 5,
+    "alpha seed": 239.67684031396283,
+    "|F|": 6.582410332611049e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 239.6863350995867,
+    "b": 3.284946568742927e-05,
+    "psi_a(l)": -0.002743520801950358,
+    "psi_b(l)": -7.707147689963916e-05,
+    "zl": [
+     -1.371760400975179,
+     -2.346201841850129
+    ]
+   },
+   {
+    "theta": 10,
+    "alpha seed": 244.67684031396283,
+    "|F|": 8.423116665544986e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 244.6873272079102,
+    "b": -0.0005009550972662254,
+    "psi_a(l)": -0.0023239843733580475,
+    "psi_b(l)": 0.001230749934442168,
+    "zl": [
+     -1.1619921866790237,
+     -2.4568068897961597
+    ]
+   },
+   {
+    "theta": 15,
+    "alpha seed": 249.67684031396283,
+    "|F|": 1.011419439746396e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 249.68823431548083,
+    "b": -0.0011115729149692092,
+    "psi_a(l)": -0.0018867444414405105,
+    "psi_b(l)": 0.002833019120362167,
+    "zl": [
+     -0.9433722207202553,
+     -2.5486579262689593
+    ]
+   },
+   {
+    "theta": 20,
+    "alpha seed": 254.67684031396283,
+    "|F|": 1.2316454909630875e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 254.68919794700295,
+    "b": -0.001935943081784498,
+    "psi_a(l)": -0.0014351260485834653,
+    "psi_b(l)": 0.005074159235293981,
+    "zl": [
+     -0.7175630242917326,
+     -2.6210270761766217
+    ]
+   },
+   {
+    "theta": 25,
+    "alpha seed": 259.6768403139628,
+    "|F|": 2.522644889779136e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 259.6908265850746,
+    "b": -0.003338117544582507,
+    "psi_a(l)": -0.0009725186112712257,
+    "psi_b(l)": 0.008923719844358342,
+    "zl": [
+     -0.48625930563561287,
+     -2.6732790937337763
+    ]
+   },
+   {
+    "theta": 30,
+    "alpha seed": 264.6768403139628,
+    "|F|": 2.3762875686736617e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 264.69452448475795,
+    "b": -0.0070134237698850676,
+    "psi_a(l)": -0.0005023156544657275,
+    "psi_b(l)": 0.01896842868867635,
+    "zl": [
+     -0.25115782723286373,
+     -2.704588986926024
+    ]
+   },
+   {
+    "theta": 35,
+    "alpha seed": 269.6768403139628,
+    "|F|": 3.445194925959486e-14,
+    "iterations": 57,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 268.92288175640545,
+    "b": -0.03542478911781162,
+    "psi_a(l)": -0.0001018978220444899,
+    "psi_b(l)": 0.09599536499286632,
+    "zl": [
+     -0.05094891102224495,
+     -2.7098358912911564
+    ]
+   },
+   {
+    "theta": 40,
+    "alpha seed": 274.6768403139628,
+    "|F|": 4.8281570031866104e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 274.67108882634767,
+    "b": 0.008013658240671266,
+    "psi_a(l)": 0.0004430154646284412,
+    "psi_b(l)": -0.021725037992158868,
+    "zl": [
+     0.22150773231422058,
+     -2.7110013104750355
+    ]
+   },
+   {
+    "theta": 45,
+    "alpha seed": 279.6768403139628,
+    "|F|": 5.712508950390642e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 279.67500677719056,
+    "b": 0.003604383350208233,
+    "psi_a(l)": 0.000913887657425316,
+    "psi_b(l)": -0.009660723314300344,
+    "zl": [
+     0.456943828712658,
+     -2.6802707635807446
+    ]
+   },
+   {
+    "theta": 50,
+    "alpha seed": 284.67684031396277,
+    "|F|": 2.0507718031992813e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 284.6765691113658,
+    "b": 0.002068913358660338,
+    "psi_a(l)": 0.0013775709562329974,
+    "psi_b(l)": -0.005440984002140638,
+    "zl": [
+     0.6887854781164987,
+     -2.6298752334722137
+    ]
+   },
+   {
+    "theta": 55,
+    "alpha seed": 289.67684031396277,
+    "|F|": 1.011344766747074e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 289.67691887217063,
+    "b": 0.0012002609402346545,
+    "psi_a(l)": 0.0018306557638068412,
+    "psi_b(l)": -0.003072260182838959,
+    "zl": [
+     0.9153278819034205,
+     -2.5596602204170065
+    ]
+   },
+   {
+    "theta": 60,
+    "alpha seed": 294.6768403139628,
+    "|F|": 5.545304974619331e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 294.6766765236291,
+    "b": 0.0005723569332941072,
+    "psi_a(l)": 0.002269762454343316,
+    "psi_b(l)": -0.0014137541476695675,
+    "zl": [
+     1.134881227171658,
+     -2.4700568219431456
+    ]
+   },
+   {
+    "theta": 65,
+    "alpha seed": 299.6768403139628,
+    "|F|": 2.77267115084297e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 299.67604072039285,
+    "b": 3.3928590248076596e-05,
+    "psi_a(l)": 0.002691577748138783,
+    "psi_b(l)": -8.012960170418658e-05,
+    "zl": [
+     1.3457888740693913,
+     -2.361713266548972
+    ]
+   },
+   {
+    "theta": 70,
+    "alpha seed": 304.6768403139628,
+    "|F|": 6.847686761658541e-14,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 304.6749862810708,
+    "b": -0.0004995810920725923,
+    "psi_a(l)": 0.003092901043448794,
+    "psi_b(l)": 0.0011167849262034694,
+    "zl": [
+     1.546450521724397,
+     -2.2354427417785327
+    ]
+   },
+   {
+    "theta": 75,
+    "alpha seed": 309.6768403139628,
+    "|F|": 1.4855802891181363e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 309.6732712683597,
+    "b": -0.001109522048793371,
+    "psi_a(l)": 0.0034706757126411543,
+    "psi_b(l)": 0.00232135281674287,
+    "zl": [
+     1.735337856320577,
+     -2.0922097215349535
+    ]
+   },
+   {
+    "theta": 80,
+    "alpha seed": 314.6768403139628,
+    "|F|": 4.554351756808196e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 314.67028808489357,
+    "b": -0.0019321105209798247,
+    "psi_a(l)": 0.003822015775677649,
+    "psi_b(l)": 0.0037350197394780127,
+    "zl": [
+     1.9110078878388246,
+     -1.933129445195446
+    ]
+   },
+   {
+    "theta": 85,
+    "alpha seed": 319.6768403139628,
+    "|F|": 1.1776790716841322e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 319.6643062762685,
+    "b": -0.0033276300545484355,
+    "psi_a(l)": 0.004144224756179156,
+    "psi_b(l)": 0.005854963543643777,
+    "zl": [
+     2.072112378089578,
+     -1.7594995380092828
+    ]
+   },
+   {
+    "theta": 90,
+    "alpha seed": 324.6768403139628,
+    "|F|": 2.6786332224235927e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 324.6472659058481,
+    "b": -0.006948241127952129,
+    "psi_a(l)": 0.0044347723630177235,
+    "psi_b(l)": 0.010930020280484147,
+    "zl": [
+     2.2173861815088616,
+     -1.5730628916307596
+    ]
+   },
+   {
+    "theta": 95,
+    "alpha seed": 329.6768403139628,
+    "|F|": 1.714490309978719e-13,
+    "iterations": 15,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 329.24139529949247,
+    "b": -0.05048788322847147,
+    "psi_a(l)": 0.0046799066765386855,
+    "psi_b(l)": 0.07030951641042152,
+    "zl": [
+     2.3399533382693427,
+     -1.3926017870912064
+    ]
+   },
+   {
+    "theta": 100,
+    "alpha seed": 334.6768403139628,
+    "|F|": 2.2974214707288264e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 334.71865803411424,
+    "b": 0.007929438635615058,
+    "psi_a(l)": 0.004913478941839062,
+    "psi_b(l)": -0.009200660830563255,
+    "zl": [
+     2.456739470919531,
+     -1.1603167958496463
+    ]
+   },
+   {
+    "theta": 105,
+    "alpha seed": 339.6768403139628,
+    "|F|": 1.0650907849720463e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 339.6974323847283,
+    "b": 0.0035944232691629743,
+    "psi_a(l)": 0.00509708357024362,
+    "psi_b(l)": -0.0033890525558115197,
+    "zl": [
+     2.54854178512181,
+     -0.9428640708195507
+    ]
+   },
+   {
+    "theta": 110,
+    "alpha seed": 344.6768403139628,
+    "|F|": 5.019835492777876e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 344.6897326498503,
+    "b": 0.0020660606578604894,
+    "psi_a(l)": 0.005242033382248212,
+    "psi_b(l)": -0.0014824685361244391,
+    "zl": [
+     2.621016691124106,
+     -0.7175338877318397
+    ]
+   },
+   {
+    "theta": 115,
+    "alpha seed": 349.6768403139628,
+    "|F|": 1.1361387805096683e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 349.68541990464865,
+    "b": 0.0011990498756957982,
+    "psi_a(l)": 0.005347145127257799,
+    "psi_b(l)": -0.000583425689051274,
+    "zl": [
+     2.6735725636288996,
+     -0.48657332849704615
+    ]
+   },
+   {
+    "theta": 120,
+    "alpha seed": 354.67684031396277,
+    "|F|": 1.6178018824932007e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 354.68261105730664,
+    "b": 0.00057168421491483,
+    "psi_a(l)": 0.0054116044269397565,
+    "psi_b(l)": -0.00014397179103959993,
+    "zl": [
+     2.705802213469878,
+     -0.2518379680310903
+    ]
+   },
+   {
+    "theta": 125,
+    "alpha seed": 359.6768403139628,
+    "|F|": 3.520072022262138e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 359.68064121656704,
+    "b": 3.344629082802906e-05,
+    "psi_a(l)": 0.005434910300577254,
+    "psi_b(l)": -5.066068727781589e-07,
+    "zl": [
+     2.717455150288627,
+     -0.01514687758301755
+    ]
+   },
+   {
+    "theta": 130,
+    "alpha seed": 4.6768403139628365,
+    "|F|": 4.878369563222918e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 4.679175740199571,
+    "b": -0.0005000476067165809,
+    "psi_a(l)": 0.005416873826620967,
+    "psi_b(l)": -0.0001108520722779228,
+    "zl": [
+     2.7084369133104835,
+     0.2216830373527855
+    ]
+   },
+   {
+    "theta": 135,
+    "alpha seed": 9.676840313962812,
+    "|F|": 5.885055043049301e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 9.678048065024594,
+    "b": -0.001110176611412322,
+    "psi_a(l)": 0.005357615036657015,
+    "psi_b(l)": -0.0005071738547777869,
+    "zl": [
+     2.678807518328507,
+     0.45684069504272906
+    ]
+   },
+   {
+    "theta": 140,
+    "alpha seed": 14.676840313962808,
+    "|F|": 6.600309603388482e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 14.677226483070449,
+    "b": -0.0019335152793381362,
+    "psi_a(l)": 0.005257550271507317,
+    "psi_b(l)": -0.0013312824697786847,
+    "zl": [
+     2.6287751357536586,
+     0.6885295833992052
+    ]
+   },
+   {
+    "theta": 145,
+    "alpha seed": 19.67684031396286,
+    "|F|": 7.117679178836406e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 19.67683718672927,
+    "b": -0.0033325741366639528,
+    "psi_a(l)": 0.005117351724400102,
+    "psi_b(l)": -0.0030492112352344244,
+    "zl": [
+     2.558675862200051,
+     0.9149717636249837
+    ]
+   },
+   {
+    "theta": 150,
+    "alpha seed": 24.676840313962824,
+    "|F|": 7.615952846612157e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 24.677524347093076,
+    "b": -0.006989762930780296,
+    "psi_a(l)": 0.004937706183758968,
+    "psi_b(l)": -0.007928994230957989,
+    "zl": [
+     2.468853091879484,
+     1.1343724114077847
+    ]
+   },
+   {
+    "theta": 155,
+    "alpha seed": 29.67684031396281,
+    "|F|": 2.324878227217181e-14,
+    "iterations": 23,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 29.31307824374045,
+    "b": -0.055347787096390134,
+    "psi_a(l)": 0.004730118271034467,
+    "psi_b(l)": -0.07349739079476306,
+    "zl": [
+     2.3650591355172335,
+     1.327919229485449
+    ]
+   },
+   {
+    "theta": 160,
+    "alpha seed": 34.67684031396281,
+    "|F|": 3.432138993434293e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 34.669968402596325,
+    "b": 0.008015761908898541,
+    "psi_a(l)": 0.004472217701878933,
+    "psi_b(l)": 0.012397352025949417,
+    "zl": [
+     2.2361088509394667,
+     1.546621789275794
+    ]
+   },
+   {
+    "theta": 165,
+    "alpha seed": 39.67684031396282,
+    "|F|": 1.6443536276316314e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 39.67054081840027,
+    "b": 0.003606373962322033,
+    "psi_a(l)": 0.004184855027515434,
+    "psi_b(l)": 0.0062583217455995654,
+    "zl": [
+     2.092427513757717,
+     1.735350191351211
+    ]
+   },
+   {
+    "theta": 170,
+    "alpha seed": 44.67684031396282,
+    "|F|": 1.7056841880800316e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 44.67015133474734,
+    "b": 0.0020703046125660693,
+    "psi_a(l)": 0.0038662808418150818,
+    "psi_b(l)": 0.003956372020919692,
+    "zl": [
+     1.933140420907541,
+     1.9110096151579883
+    ]
+   },
+   {
+    "theta": 175,
+    "alpha seed": 49.67684031396281,
+    "|F|": 3.2146637472858784e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 49.66938564407431,
+    "b": 0.0012013333879476653,
+    "psi_a(l)": 0.0035184478459437955,
+    "psi_b(l)": 0.002489355102658565,
+    "zl": [
+     1.7592239229718978,
+     2.0721600911395055
+    ]
+   },
+   {
+    "theta": 180,
+    "alpha seed": 54.676840313962806,
+    "|F|": 4.670263691629053e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 54.66842458415472,
+    "b": 0.0005732911508711603,
+    "psi_a(l)": 0.003143915750169962,
+    "psi_b(l)": 0.0012713094782289705,
+    "zl": [
+     1.571957875084981,
+     2.2175634078724524
+    ]
+   },
+   {
+    "theta": 185,
+    "alpha seed": 59.676840313962806,
+    "|F|": 6.338933143002798e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 59.66737486115472,
+    "b": 3.483554575554076e-05,
+    "psi_a(l)": 0.002745506249510895,
+    "psi_b(l)": 8.172828728271597e-05,
+    "zl": [
+     1.3727531247554474,
+     2.3461176080388144
+    ]
+   },
+   {
+    "theta": 190,
+    "alpha seed": 64.67684031396281,
+    "|F|": 8.062384528627284e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 64.66633888490072,
+    "b": -0.0004986199538274445,
+    "psi_a(l)": 0.002326233771321992,
+    "psi_b(l)": -0.001225037394512191,
+    "zl": [
+     1.163116885660996,
+     2.456855938292704
+    ]
+   },
+   {
+    "theta": 195,
+    "alpha seed": 69.67684031396284,
+    "|F|": 9.6368366352489e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 69.66536567122715,
+    "b": -0.0011084404499323126,
+    "psi_a(l)": 0.0018892760913559895,
+    "psi_b(l)": -0.002825361638887689,
+    "zl": [
+     0.9446380456779947,
+     2.5489521237340456
+    ]
+   },
+   {
+    "theta": 200,
+    "alpha seed": 74.67684031396281,
+    "|F|": 1.180261349322692e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 74.66428384168655,
+    "b": -0.0019308959033196987,
+    "psi_a(l)": 0.0014379642102063635,
+    "psi_b(l)": -0.005062294995620331,
+    "zl": [
+     0.7189821051031817,
+     2.621733769757844
+    ]
+   },
+   {
+    "theta": 205,
+    "alpha seed": 79.6768403139628,
+    "|F|": 2.4367231618325613e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 79.66227453345259,
+    "b": -0.003326826435866261,
+    "psi_a(l)": 0.0009758004368500086,
+    "psi_b(l)": -0.008898360323918794,
+    "zl": [
+     0.4879002184250043,
+     2.6747293540733756
+    ]
+   },
+   {
+    "theta": 210,
+    "alpha seed": 84.67684031396284,
+    "|F|": 4.4144873817133505e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 84.65438193786352,
+    "b": -0.006957935729673097,
+    "psi_a(l)": 0.0005067664275792583,
+    "psi_b(l)": -0.018841708000556567,
+    "zl": [
+     0.25338321378962914,
+     2.707945105069518
+    ]
+   },
+   {
+    "theta": 215,
+    "alpha seed": 89.67684031396283,
+    "|F|": 1.2375769561247275e-14,
+    "iterations": 44,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 88.91174292611912,
+    "b": -0.03506142559754352,
+    "psi_a(l)": 0.00010362707011857317,
+    "psi_b(l)": -0.09563386284038994,
+    "zl": [
+     0.05181353505928658,
+     2.7276090806498825
+    ]
+   },
+   {
+    "theta": 220,
+    "alpha seed": 94.67684031396283,
+    "|F|": 4.180981284966981e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 94.68949862703523,
+    "b": 0.00798090553129393,
+    "psi_a(l)": -0.0004440907853140519,
+    "psi_b(l)": 0.021603238626477967,
+    "zl": [
+     -0.22204539265702594,
+     2.7068655983671905
+    ]
+   },
+   {
+    "theta": 225,
+    "alpha seed": 99.67684031396281,
+    "|F|": 3.182089374491594e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 99.67922582168868,
+    "b": 0.0036025073028731515,
+    "psi_a(l)": -0.0009136510399776297,
+    "psi_b(l)": 0.009648906235478915,
+    "zl": [
+     -0.4568255199888149,
+     2.678386308275768
+    ]
+   },
+   {
+    "theta": 230,
+    "alpha seed": 104.67684031396281,
+    "|F|": 2.0721097738434113e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 104.67726745039705,
+    "b": 0.0020687619776609046,
+    "psi_a(l)": -0.0013770537959155455,
+    "psi_b(l)": 0.005438272973491869,
+    "zl": [
+     -0.6885268979577728,
+     2.6287572143223468
+    ]
+   },
+   {
+    "theta": 235,
+    "alpha seed": 109.6768403139628,
+    "|F|": 1.00625245885156e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 109.67683415156249,
+    "b": 0.001200273007204675,
+    "psi_a(l)": -0.0018301199722871077,
+    "psi_b(l)": 0.003071406204303815,
+    "zl": [
+     -0.9150599861435538,
+     2.558922999907193
+    ]
+   },
+   {
+    "theta": 240,
+    "alpha seed": 114.6768403139628,
+    "|F|": 5.422894731357264e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 114.67703757160754,
+    "b": 0.0005723160280194804,
+    "psi_a(l)": -0.0022693077660845056,
+    "psi_b(l)": 0.0014133464442072877,
+    "zl": [
+     -1.1346538830422528,
+     2.4695209901742965
+    ]
+   },
+   {
+    "theta": 245,
+    "alpha seed": 119.67684031396284,
+    "|F|": 2.609619307260582e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 119.67764600020904,
+    "b": 3.376043746986764e-05,
+    "psi_a(l)": -0.0026912430101102658,
+    "psi_b(l)": 7.971736482679514e-05,
+    "zl": [
+     -1.3456215050551328,
+     2.361265753678271
+    ]
+   },
+   {
+    "theta": 250,
+    "alpha seed": 124.67684031396286,
+    "|F|": 5.716118592970801e-14,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 124.67867736603341,
+    "b": -0.0004999917592062607,
+    "psi_a(l)": -0.0030927041492736693,
+    "psi_b(l)": -0.0011174779242879474,
+    "zl": [
+     -1.5463520746368347,
+     2.2349926848033435
+    ]
+   },
+   {
+    "theta": 255,
+    "alpha seed": 129.67684031396283,
+    "|F|": 1.5872534359839647e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 129.68037094714452,
+    "b": -0.0011104945386246556,
+    "psi_a(l)": -0.003470637866716503,
+    "psi_b(l)": -0.0023227763343502575,
+    "zl": [
+     -1.7353189333582515,
+     2.0916593945855957
+    ]
+   },
+   {
+    "theta": 260,
+    "alpha seed": 134.67684031396283,
+    "|F|": 4.4885153887033983e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 134.68333233435825,
+    "b": -0.001934753085817182,
+    "psi_a(l)": -0.0038221785351341916,
+    "psi_b(l)": -0.0037385846451583483,
+    "zl": [
+     -1.9110892675670959,
+     1.9323316616286887
+    ]
+   },
+   {
+    "theta": 265,
+    "alpha seed": 139.67684031396283,
+    "|F|": 1.1473698443587913e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 139.68928994783744,
+    "b": -0.003337510480588606,
+    "psi_a(l)": -0.004144672716310432,
+    "psi_b(l)": -0.00586779438584786,
+    "zl": [
+     -2.072336358155216,
+     1.7581351189683787
+    ]
+   },
+   {
+    "theta": 270,
+    "alpha seed": 144.6768403139628,
+    "|F|": 1.7851183573287115e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 144.70627890665344,
+    "b": -0.0070298866150547284,
+    "psi_a(l)": -0.004435734110082519,
+    "psi_b(l)": -0.011036728939669727,
+    "zl": [
+     -2.2178670550412596,
+     1.569972539248957
+    ]
+   },
+   {
+    "theta": 275,
+    "alpha seed": 149.6768403139628,
+    "|F|": 3.7214249340024974e-14,
+    "iterations": 21,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 149.32074220776357,
+    "b": -0.05646143363451636,
+    "psi_a(l)": -0.004662175872806077,
+    "psi_b(l)": -0.07808376653580125,
+    "zl": [
+     -2.3310879364030384,
+     1.382957560752878
+    ]
+   },
+   {
+    "theta": 280,
+    "alpha seed": 154.67684031396283,
+    "|F|": 2.272588208322656e-12,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 154.63469170141445,
+    "b": 0.008079052313142364,
+    "psi_a(l)": -0.0049138730993969915,
+    "psi_b(l)": 0.009410615217289874,
+    "zl": [
+     -2.456936549698496,
+     1.1648167201469197
+    ]
+   },
+   {
+    "theta": 285,
+    "alpha seed": 159.6768403139628,
+    "|F|": 9.77261806152344e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 159.65622812715654,
+    "b": 0.0036127461794863694,
+    "psi_a(l)": -0.005098143790692789,
+    "psi_b(l)": 0.0034145683392368007,
+    "zl": [
+     -2.5490718953463944,
+     0.9451448204762218
+    ]
+   },
+   {
+    "theta": 290,
+    "alpha seed": 164.67684031396283,
+    "|F|": 4.542593529583172e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 164.66395988433473,
+    "b": 0.002071647517104102,
+    "psi_a(l)": -0.005243495441015369,
+    "psi_b(l)": 0.0014895184377411125,
+    "zl": [
+     -2.6217477205076847,
+     0.7190018694991456
+    ]
+   },
+   {
+    "theta": 295,
+    "alpha seed": 169.67684031396283,
+    "|F|": 1.0246803610285488e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 169.6682820874178,
+    "b": 0.001201490914786007,
+    "psi_a(l)": -0.00534888585983419,
+    "psi_b(l)": 0.0005857967799238052,
+    "zl": [
+     -2.674442929917095,
+     0.48755822679536387
+    ]
+   },
+   {
+    "theta": 300,
+    "alpha seed": 174.67684031396283,
+    "|F|": 1.5732396518419765e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 174.67109994051052,
+    "b": 0.0005729883724658566,
+    "psi_a(l)": -0.005413525956890566,
+    "psi_b(l)": 0.00014466576534612291,
+    "zl": [
+     -2.706762978445283,
+     0.2524759180078184
+    ]
+   },
+   {
+    "theta": 305,
+    "alpha seed": 179.67684031396283,
+    "|F|": 3.37509681863438e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 179.67308152672794,
+    "b": 3.42381663839163e-05,
+    "psi_a(l)": -0.0054369338098512335,
+    "psi_b(l)": 5.310752851768698e-07,
+    "zl": [
+     -2.7184669049256165,
+     0.01551120697358219
+    ]
+   },
+   {
+    "theta": 310,
+    "alpha seed": 184.67684031396283,
+    "|F|": 4.729226521497814e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 184.6745618408649,
+    "b": -0.0004995342676615939,
+    "psi_a(l)": -0.005418942715231256,
+    "psi_b(l)": 0.0001106708468119919,
+    "zl": [
+     -2.709471357615628,
+     -0.22154805781405396
+    ]
+   },
+   {
+    "theta": 315,
+    "alpha seed": 189.6768403139628,
+    "|F|": 5.76185154406245e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 189.67570747632251,
+    "b": -0.0011098560045730496,
+    "psi_a(l)": -0.005359706868805537,
+    "psi_b(l)": 0.0005071003188788253,
+    "zl": [
+     -2.6798534344027685,
+     -0.4569064065873137
+    ]
+   },
+   {
+    "theta": 320,
+    "alpha seed": 194.6768403139628,
+    "|F|": 6.558448468535365e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 194.6765518468231,
+    "b": -0.0019333786071385267,
+    "psi_a(l)": -0.005259711900691457,
+    "psi_b(l)": 0.001331671706777645,
+    "zl": [
+     -2.629855950345729,
+     -0.6887795809164194
+    ]
+   },
+   {
+    "theta": 325,
+    "alpha seed": 199.67684031396277,
+    "|F|": 7.236215107392464e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 199.67697741323246,
+    "b": -0.0033326295900233424,
+    "psi_a(l)": -0.005119808633601698,
+    "psi_b(l)": 0.003050749514447226,
+    "zl": [
+     -2.559904316800849,
+     -0.9154181201475372
+    ]
+   },
+   {
+    "theta": 330,
+    "alpha seed": 204.67684031396277,
+    "|F|": 8.200937524632625e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 204.6762567875494,
+    "b": -0.006988009245334258,
+    "psi_a(l)": -0.00494145135038898,
+    "psi_b(l)": 0.007932554798381336,
+    "zl": [
+     -2.47072567519449,
+     -1.1351666146803872
+    ]
+   },
+   {
+    "theta": 335,
+    "alpha seed": 209.67684031396283,
+    "|F|": 1.371874145462494e-12,
+    "iterations": 19,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 209.29604832280268,
+    "b": -0.05402167682688966,
+    "psi_a(l)": -0.004753381996389131,
+    "psi_b(l)": 0.07203905414632576,
+    "zl": [
+     -2.3766909981945656,
+     -1.3335212525366822
+    ]
+   },
+   {
+    "theta": 340,
+    "alpha seed": 214.67684031396283,
+    "|F|": 6.131181018342817e-14,
+    "iterations": 5,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 214.68473645757715,
+    "b": 0.007989454366205325,
+    "psi_a(l)": -0.0044686159914190645,
+    "psi_b(l)": -0.012353516161668767,
+    "zl": [
+     -2.234307995709532,
+     -1.54622776417912
+    ]
+   },
+   {
+    "theta": 345,
+    "alpha seed": 219.67684031396283,
+    "|F|": 2.2006420713148012e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 219.6833365000224,
+    "b": 0.0036006839952198153,
+    "psi_a(l)": -0.004182871660150509,
+    "psi_b(l)": -0.006248325346742018,
+    "zl": [
+     -2.0914358300752545,
+     -1.7353162218726081
+    ]
+   },
+   {
+    "theta": 350,
+    "alpha seed": 224.67684031396283,
+    "|F|": 1.3993945730741765e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 224.68364737667352,
+    "b": 0.0020673790370288143,
+    "psi_a(l)": -0.003864630164100552,
+    "psi_b(l)": -0.003950955441462938,
+    "zl": [
+     -1.9323150820502761,
+     -1.9110938878151504
+    ]
+   },
+   {
+    "theta": 355,
+    "alpha seed": 229.6768403139628,
+    "|F|": 3.1323475831774846e-13,
+    "iterations": 4,
+    "threshold": 1e-11,
+    "converged": true,
+    "alpha": 229.68438135496015,
+    "b": 0.0011991974650904303,
+    "psi_a(l)": -0.003516810025591576,
+    "psi_b(l)": -0.0024850904039854806,
+    "zl": [
+     -1.758405012795788,
+     -2.0722945772722112
+    ]
+   }
+  ]
+ },
+ "seconds scans": 190,
+ "clusters": [],
+ "seconds polish": 0,
+ "seconds": 257
+}

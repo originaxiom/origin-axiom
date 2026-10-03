@@ -1,0 +1,13 @@
+start 2026-10-03T07:58:47Z
++LR: 174 s; converged 66/72; type-one frames 6; poles 0
+-LR: 264 s; converged 66/72; type-one frames 6; poles 0
++LLRLRR: 270 s; converged 66/72; type-one frames 6; poles 0
+-LLRLRR: 280 s; converged 66/72; type-one frames 6; poles 0
++LLLRLRR: 290 s; converged 72/72; type-one frames 6; poles 6
+-LLLRLRR: 279 s; converged 72/72; type-one frames 6; poles 6
++LLLLRLLLRR: 359 s; converged 66/72; type-one frames 6; poles 0
+-LLLLRLLLRR: 383 s; converged 56/72; type-one frames 6; poles 0
+-LLLLRLRRRLRR: 488 s; converged 40/72; type-one frames 4; poles 0
++LLLLRLRRRLRR: 615 s; converged 63/72; type-one frames 6; poles 0
+X1-EXIT 0
+end 2026-10-03T08:16:47Z

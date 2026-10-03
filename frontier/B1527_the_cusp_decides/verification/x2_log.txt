@@ -1,0 +1,23 @@
+start 2026-10-03T08:40:22Z at df3f809b
++LR: 1185 s; points 6; rows 36; I != 0: 0; differ from 60 digits: 0; margin bar met 36/36 (at 60 digits: 33); dropped <= 1.47e-86, kept >= 7.79e-14; nullities 4 and 5 at 6/6 points
+-LR: 1392 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 179); dropped <= 5.44e-88, kept >= 4.81e-14; nullities 4 and 5 at 6/6 points
+-LLRLRR: 1398 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 180); dropped <= 5.09e-84, kept >= 5.26e-17; nullities 4 and 5 at 6/6 points
++LLRLRR: 1427 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 166); dropped <= 4.59e-86, kept >= 7.35e-16; nullities 4 and 5 at 6/6 points
++LLLRLRR: 766 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 180); dropped <= 4.46e-82, kept >= 2.53e-16; nullities 4 and 5 at 6/6 points
+-LLLRLRR: 716 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 180); dropped <= 5.11e-85, kept >= 9.69e-18; nullities 4 and 5 at 6/6 points
++LLLLRLLLRR: 754 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 180); dropped <= 1.99e-79, kept >= 2.73e-18; nullities 4 and 5 at 6/6 points
+-LLLLRLLLRR: 735 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 180); dropped <= 4.39e-83, kept >= 3.86e-19; nullities 4 and 5 at 6/6 points
++LLLLRLRRRLRR: 729 s; points 6; rows 180; I != 0: 0; differ from 60 digits: 0; margin bar met 180/180 (at 60 digits: 180); dropped <= 3.44e-81, kept >= 3.08e-18; nullities 4 and 5 at 6/6 points
+{
+ "points": 54,
+ "rows": 1476,
+ "route W rows": 216,
+ "rows with I != 0": 0,
+ "rows differing from 60 digits": 0,
+ "rows failing an identity": 0,
+ "rows with a non-acyclic cusp": 0,
+ "rows with a0 or b0 != 0": 0,
+ "rows meeting the sealed margin bar (kept > 1e-20, dropped < 1e-40)": 1476,
+ "60-digit rows meeting it": 1458,
+ "points with nullities 4 and 5 (100 digits)": 54
+}

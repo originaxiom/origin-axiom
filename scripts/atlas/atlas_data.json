@@ -9634,6 +9634,33 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1527": {
+   "slug": "the cusp decides",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "golden",
+    "amphichiral_cp",
+    "symplectic",
+    "apolynomial"
+   ],
+   "refs": [
+    "L242",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "S45"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

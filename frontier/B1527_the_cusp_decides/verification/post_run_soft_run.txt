@@ -1,0 +1,8 @@
+start 2026-10-03T09:40:54Z
++LR a = 1e-05: float64 |F| 2.53e-14, polished |F| 5.57e-43, nullity 4, soft / top 1.436e-8 (ratio to a = 1e-5: 1.0), next / top 0.0009785
++LR a = 4e-05: float64 |F| 3.00e-14, polished |F| 1.81e-49, nullity 4, soft / top 5.743e-8 (ratio to a = 1e-5: 4.0), next / top 0.0009785
++LR a = 0.00016: float64 |F| 6.28e-13, polished |F| 1.39e-49, nullity 4, soft / top 2.297e-7 (ratio to a = 1e-5: 16.0002), next / top 0.0009785
++LLLRLRR a = 1e-05: float64 |F| 2.29e-11, polished |F| 1.05e-41, nullity 4, soft / top 1.529e-11 (ratio to a = 1e-5: 1.0), next / top 9.295e-7
++LLLRLRR a = 4e-05: float64 |F| 7.51e-11, polished |F| 3.91e-46, nullity 4, soft / top 6.116e-11 (ratio to a = 1e-5: 4.00008), next / top 9.295e-7
++LLLRLRR a = 0.00016: float64 |F| 2.78e-10, polished |F| 2.32e-46, nullity 4, soft / top 2.447e-10 (ratio to a = 1e-5: 16.0012), next / top 9.295e-7
+end 2026-10-03T09:43:55Z

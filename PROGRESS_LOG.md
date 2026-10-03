@@ -17184,3 +17184,22 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The extra passes, from the collector.** 6 750 → 6 763 ids; 13 added, none removed: B1526's 11 lock tests and two schema
   cases. So 13 more pass in the fast lane.
 - **What it certifies.** B1526, on a tree nothing edited (B1527's seal and run were made in the main working tree; E46 kept).
+
+## 2026-10-03 — B1527 banked: the cusp decides (PROVED, with a kill record; outcome C as read)
+
+- **Item 8's answer: no.** Near the hyperbolic point of every word state to length 12, every finite-volume convex projective
+  structure with a generalized cusp (types 0 and 1) has I(ν ⊗ ρ) = I(ν ⊗ Λ²ρ) = 0 for every character, mirror-broken or not.
+  It follows from Lemma C, Part H and Part A. Part A's one-line step is checked exactly.
+- **As sealed: one of eight.** P1 YES (Part H: 3,740 rows, none non-zero). P2–P8 NO for want of points: the sealed scan's
+  budget was checked only from a seed on the solution (E31). The read-out says outcome C; no index computed is non-zero.
+- **After the run (disclosed):** X1 (the frame pinned), X1b (float64; void on −L⁴RLR³LR², E52), X1c (60 digits, the two
+  frames X1 missed), X2 (100 digits).
+  - Six frames 60° apart on all ten states, the lines on 30° + 60°ℤ turned by 0°, 0°, 8.2555°, 20.1143°, 0.9500°.
+  - I = 0 on every index row at the sixty type-one points.
+  - X2: 1,656 index rows at 100 digits, none differing from its 60-digit reading, the sealed margin bar met on all; nullities
+    4 and 5 at all sixty points (gaps ≥ 2.4 × 10⁸³).
+- **Π corrected (E53):** its locus is the cusps of types 0–2; type-3 cusps also occur near ρ_hyp, with infinite volume.
+- **Main's L242 (e):** main's B1462 (read at this bank) registers a blind second-route run on ±LLRLRR and ±L³RLR² after this
+  seal. The seal was pushed before main's relay; the sixty points are exported without readings for it.
+- **Next:** sL-10 item 9, the eigenvalue-one locus of the infinite-volume part, sealed first; GENESIS v1.7 (main's B1462) to be
+  taken as head. 0 of 19.

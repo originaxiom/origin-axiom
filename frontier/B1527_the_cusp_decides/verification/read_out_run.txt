@@ -1,0 +1,14 @@
+{
+ "predictions": {
+  "P1": true,
+  "P2": false,
+  "P4": false,
+  "P5": false,
+  "P6": false,
+  "P7": false,
+  "P3": false,
+  "P8": false
+ },
+ "outcome": "C",
+ "missing": []
+}

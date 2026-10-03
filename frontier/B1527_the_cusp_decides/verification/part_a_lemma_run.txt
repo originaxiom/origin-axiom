@@ -1,0 +1,11 @@
+PASS M0^3 = 0 (the cusp at a = b = 0 is unipotent)
+PASS N_a at a = b = 0 lies in so(Q)
+PASS N_b at a = b = 0 lies in so(Q)
+PASS D_a equals its closed form
+PASS D_b equals its closed form
+PASS D_a is traceless
+PASS D_a lies in v (Q D_a^T Q = D_a)
+PASS D_b lies in v (Q D_b^T Q = D_b)
+PASS D_a(g) = 0 exactly when X_g = 0
+PASS D_a against a central difference of mpmath's expm (< 1e-25)
+D_a = Matrix([[-X/4, X**2/2, 0, -X**3/3], [0, 3*X/4, 0, -X**2/2], [0, 0, -X/4, 0], [0, 0, 0, -X/4]])

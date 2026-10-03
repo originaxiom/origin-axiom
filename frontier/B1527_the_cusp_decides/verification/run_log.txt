@@ -1,0 +1,13 @@
+start 2026-10-03T07:00:48Z at 4f802f15
+-LR: done in 257 s; clusters 0
++LR: done in 268 s; clusters 2
++LLRLRR: done in 411 s; clusters 0
+-LLRLRR: done in 550 s; clusters 0
++LLLRLRR: done in 516 s; clusters 0
+-LLLRLRR: done in 704 s; clusters 0
++LLLLRLLLRR: done in 1121 s; clusters 0
+-LLLLRLLLRR: done in 1245 s; clusters 0
++LLLLRLRRRLRR: done in 1973 s; clusters 0
+-LLLLRLRRRLRR: done in 2118 s; clusters 0
+RUN-EXIT 0
+end 2026-10-03T07:52:19Z

@@ -3830,3 +3830,22 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    - The control is m004's family, where every vacuum is fixed and the index vanishes (sm:B1520).
    - Seal before computing.
    **Sealed 2026-10-03 as sm:B1527 (the cusp decides).** Proved at design time: an index can live on a vacuum ν ⊗ ρ only where ρ(ℓ) has the eigenvalue 1 (Lemma C; ν(ℓ) = 1 because ℓ is a commutator); at the hyperbolic point every vacuum has I = 0 (Part H); on a type-one path near it, ℓ is never unipotent because it is a rigid slope (Part A). Proposition Π: the generalized-cusp locus near ρ_hyp is two-dimensional, with three type-one (finite-volume) curves on every state, mirror-broken or not, and type two elsewhere. Sealed: ten manifolds (±LR, ±LLRLRR, ±L³RLR² and the two golden pairs), two routes for the index, predictions P1–P8. The type-two eigenvalue-one curves are left for the next arc.
+   **Banked 2026-10-03 as sm:B1527 (PROVED, with a kill record; run as sealed at 4f802f15).** Item 8 is answered no. Near the
+   hyperbolic point, every finite-volume convex projective structure with a generalized cusp (types 0 and 1) has
+   I(ν ⊗ ρ) = I(ν ⊗ Λ²ρ) = 0 for every character, on all 758 word states to length 12, mirror-broken or not (Lemma C, Part H,
+   Part A; A's one-line step checked exactly after the run). As sealed, P1 held: Part H has I = 0 on 3,740 rows. P2–P8 failed,
+   because the sealed scan's solver budget was checked only from a seed on the solution, so it found type-one points only
+   on +LR, two frames of six (ERROR_LEDGER E31). `read_out.py` returns outcome C for want of points, not for any non-zero index. After the run (X1,
+   X1c, X2; disclosed): six type-one frames 60° apart on all ten states, on the coset 30° + 60°ℤ turned by 0°, 0°, 8.2555°,
+   20.1143°, 0.9500°, and I = 0 on every index row at the sixty type-one points at 100 digits (1,656 rows; route W agreeing on
+   its 240; nullities 4 and 5 at every point). The points are exported without readings for main's L242 (e), a blind second
+   route. Π's first sentence is narrowed to types 0–2 (E53): type-3 (diagonalizable) cusps also occur near ρ_hyp (Ballas–Danciger–Lee Thm 4.1 with
+   Cooper–Long–Tillmann Thm 0.2), with infinite volume. Kill graph: `the-cusp-decides` (F-HE, reach class). Next: item 9.
+9. **The eigenvalue-one locus of the infinite-volume part near the hyperbolic point** (sm:B1527 §7). Off the finite-volume
+   curves the cusp is type two (or type three), and Lemma C gives I = a0 − b0 = 0 except where ρ(ℓ) has the eigenvalue 1:
+   - on type two, the curves where ψa + ψb, 3ψa − ψb or 3ψb − ψa vanishes at ℓ (sm:B1527's X1 found them on all ten states);
+   - on type three (diagonalizable), the analogous hypersurface in its own coordinates.
+   There one twist λ has a non-acyclic cusp, and by Lemma E the index is h¹(V*) − h¹(V) + 2(a0 − b0) + s0 − t0, which can
+   jump at isolated points. Do any of them carry I ≠ 0, for ν ⊗ ρ or ν ⊗ Λ²ρ? These structures have infinite volume (Ballas–Cooper–Leitner
+   Thm 0.6), so a count there is a count on a structure with a type-2 or type-3 end. The first case is m004, where X1
+   found twelve crossings on its 5° grid. Seal before computing.

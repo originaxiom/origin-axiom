@@ -1,5 +1,47 @@
 # Changelog
 
+## B1527 the cusp decides: near the hyperbolic point of every word state no finite-volume projective vacuum carries a reductive count; three type-one curves on all ten states computed, mirror-broken and golden included (PROVED, with a kill record; outcome C as read)
+
+- **Run as sealed** at `4f802f15` (51 minutes on four cores; sL-10 item 8; the owner's "all allowed not just m004, choice might
+  be golden"). The controls were re-run just before the seal and matched; every sealed hash holds.
+- **As sealed: one of eight.**
+  - P1 YES: Part H has I = 0 on all 3,740 rows of the ten manifolds, every identity holding; route W agrees on 1,664.
+  - P2–P8 NO, for want of points. The sealed type-one scan found two frames on +LR and none elsewhere. Its 80-iteration budget
+    had been checked only from a seed on the solution; from 0.32° off a frame it needs 74–120 iterations, from 2.5° about 460
+    (ERROR_LEDGER E31; `post_run_diagnosis.py`).
+  - `read_out.py` returns outcome C: P4 failed on the nine manifolds with no points to read (it held on +LR's two). No index
+    computed anywhere in the arc is non-zero.
+- **The theorems** (PREREGISTRATION §3): Lemma C (the cusp decides), Lemma E, Part H, Part A, Proposition Π and the corollary.
+  - Part A's one-line step (the slice's a- and b-directions lie in v) is checked in exact arithmetic (`part_a_lemma.py`).
+  - Π's first sentence is narrowed to types 0–2 (E53): type-3 cusps also occur near ρ_hyp (Ballas–Danciger–Lee Thm 4.1 with
+    Cooper–Long–Tillmann Thm 0.2), with infinite volume. The finite-volume corollary stands.
+- **After the run (disclosed).**
+  - X1 pins the frame and reads b(α) at a = 10⁻⁵: six frames on nine manifolds, the weight-3 law to 3 × 10⁻⁸–4 × 10⁻²,
+    eigenvalue-one crossings on all ten, and 58 points with 1,596 index rows, all I = 0.
+  - X1b (float64, the type-one system at the predicted frames) agrees with X1 on nine manifolds, with its controls 0 of 108. It is
+    void on −L⁴RLR³LR²: its one new point's polish diverged, and its summary counted the point unchecked (E52).
+  - X1c (60 digits, warm-started from X1's float64 pinned solutions, the zero of b(α) found by the Illinois method) finds
+    −L⁴RLR³LR²'s two missing frames, 120.94992710° and 300.94992710°, and its four controls again. The three lines are 60° apart
+    to 1.2 × 10⁻⁹ degrees. Its first two forms failed and are disclosed.
+  - X2 re-polishes all sixty points at 100 digits: 1,656 index rows (240 also in route W), I = 0 on every row, none differing
+    from its 60-digit reading, the sealed margin bar met on all 1,656. X1's 18 misses at 60 digits were precision: the kept
+    singular values stay and the dropped fall with the digits. Nullities 4 and 5 at every point, with gaps ≥ 2.4 × 10⁸³.
+  - `post_run_soft.py`: the frame's soft singular value scales with a (ratios 4.000 and 16.000 on +LR and +L³RLR²).
+  - For main's L242 (e) (a blind second route, registered in main's B1462): the sixty points are exported without any reading
+    (`export_points.py`, `points_for_l242e.json`: presentations, cusp words and the matrices at 60 digits; every frame as banked, ∣F∣ ≤ 6.6 × 10⁻⁴⁹).
+- **Records.**
+  - creates_law: THEOREM_REGISTRY T-THE-CUSP-DECIDES.
+  - Kill graph: `the-cusp-decides` (F-HE, reach class).
+  - OPEN_LEADS: sL-10 item 8 banked; item 9 (the eigenvalue-one locus of the infinite-volume part) registered.
+  - ERROR_LEDGER: E31 (the sealed scan's budget), E53 (Π's scope), E52 (X1b's unchecked point).
+  - Bank-time sweep after two fresh fetches: main `bad64d34` (B1461, governance) and `7ccae5a2` (B1462, the seats harvested,
+    which registers L242 (e)); neither bears on the result. The audit lane and the seat lanes unchanged. Literature read at
+    banking: Ballas–Cooper–Leitner arXiv:2008.09553, Cooper–Long–Tillmann arXiv:1511.06206, Ballas–Danciger–Lee §4.
+    Standing EXTENDS.
+  - Relay to main and the audit lane; main's B1462 relay read and rowed. P3's claim pool, atlas and views regenerated.
+  - Lock `tests/test_b1527_the_cusp_decides.py` (16 tests, one of them slow: a type-one point rebuilt and polished live).
+- The experiential question: nothing here bears on it (GENESIS FK12, Gate 5-Q). 0 of 19; I-26 stays UNEARNED.
+
 ## Record the fast lane on 48f6af3b (B1526 banked): at the bank's baseline
 
 - **Fast lane on 48f6af3b** (84 minutes, in a worktree pinned at that commit): 6 654 passed, 52 skipped, 10 failed. The ten are

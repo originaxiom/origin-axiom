@@ -1,0 +1,85 @@
+start 2026-10-03T08:20:49Z at df3f809b
+-LR: 17 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
++LR: 17 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
++LLRLRR: 20 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
+-LLRLRR: 21 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
+-LLLLRLLLRR: 7 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
+-LLLRLRR: 18 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
++LLLRLRR: 19 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
++LLLLRLLLRR: 21 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
++LLLLRLRRRLRR: 31 s; type-one frames solved 6/6; X1 had 6, agreeing 6; new points 0; controls converged 0/12
+-LLLLRLRRRLRR: 331 s; type-one frames solved 5/6; X1 had 4, agreeing 4; new points 1; controls converged 3/12
+{
+ "+LR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLLLRLLLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLLLRLLLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLLLRLRRRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLLLRLRRRLRR": {
+  "frames converged": 5,
+  "frames X1 had": 4,
+  "agree with X1": 4,
+  "controls converged": 3,
+  "new points": 1
+ }
+}
+X1B-EXIT 0
+end 2026-10-03T08:26:55Z

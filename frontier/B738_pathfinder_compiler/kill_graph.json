@@ -11715,5 +11715,33 @@
     "Lemma G's charge-conjugation reading needs sigma-invariant end conditions (GENESIS GAP2); the spinor and domain transport is not done"
    ]
   }
+ },
+ {
+  "id": "B1527",
+  "claim_killed": "sL-10 item 8's hope: that on a mirror-broken word state, near its hyperbolic point, a vacuum nu (x) rho_s of a projective deformation carries a non-zero class index (main's B1297), where B1455's symmetry argument cannot force it to zero (sm:B1523's Lemma T). Lemma C: nu(l) = 1 for every character (the fibre boundary l = abAB is a commutator), so wherever rho(l) has no eigenvalue 1 the cusp is acyclic for nu (x) rho and its dual and I = a0 - b0. Part H: I = 0 at rho_hyp for every nu, the four and Lambda^2. Part A: on a type-one path in Ballas' slice through rho_hyp, psi(l) = aX_l != 0 for small s != 0, because l is a rigid slope (sm:B1523) and the slice's a- and b-directions lie in v (checked exactly), so I(nu (x) rho_s) = I(nu (x) Lambda^2 rho_s) = 0. With Proposition Pi (types 0-2 near rho_hyp: three type-one curves 60 degrees apart, type two elsewhere), every finite-volume structure near rho_hyp with a generalized cusp (types 0 and 1) carries no reductive count, on all 758 word states to length 12. Sealed at 4f802f15: P1 YES (3,740 Part H rows on ten states, none non-zero; route W on 1,664); P2-P8 NO because the sealed scan found type-one points only on +LR, two frames of six (its solver's budget, E31); after the run X1/X1c found six frames on all ten states and X2 read every type-one point at 100 digits, I = 0 on all 1,656 index rows.",
+  "kill_form": "the-cusp-decides (the character is trivial on the fibre boundary, a commutator; off the eigenvalue-one locus of rho(l) the cusp is acyclic and the index is a0 - b0 = 0; on the type-one curves psi(l) != 0 because the fibre boundary is a rigid slope)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "The eigenvalue-one locus of the infinite-volume part near rho_hyp: the type-two curves where psi_a + psi_b, 3 psi_a - psi_b or 3 psi_b - psi_a vanishes at l (found on all ten states after the run), and the analogous locus on the diagonalizable (type-3) cusps near rho_hyp (Ballas-Danciger-Lee Thm 4.1 with Cooper-Long-Tillmann Thm 0.2), where one twist lambda has a non-acyclic cusp and the index can jump: registered as sL-10 item 9, sealed first. Also non-split extensions on the type-one curves (sm:B1509's W1 and W2, index -1 and +1), deformations far from rho_hyp (Part A is local), modules other than nu (x) rho and nu (x) Lambda^2 rho, and word states longer than 12 (rigidity and the rigid fibre boundary are established to length 12 only).",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-03 at banking time, with content (B1207's A3, held by tests/test_negatives_read_together.py): a PROVED arc whose content includes a no-go (B833: kill records legitimately sit on PROVED arcs).",
+  "note": "ENTERED 2026-10-03 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1527_the_cusp_decides/verification/run.py (the sealed run: Part H on ten states in two routes), post_run_x1.py and post_run_x1c.py (the type-one frames and points), post_run_x2.py (every type-one point and its index rows at 100 digits, the nullities) and part_a_lemma.py (Part A's step, exactly); locked by tests/test_b1527_the_cusp_decides.py.",
+  "routed_from": "sm-branch-2026-10-03-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "the 758 word states to length 12 near their hyperbolic point: the vacua nu (x) rho and nu (x) Lambda^2 rho of the finite-volume projective deformations (generalized cusps of types 0 and 1), every character nu; computed on +-LR, +-LLRLRR, +-L3RLR2, +-L4RL3R2, +-L4RLR3LR2",
+   "reach": "class",
+   "hypotheses": [
+    "near rho_hyp (Part A and Pi are local)",
+    "rigid rel cusp and the fibre boundary a rigid slope, established to length 12 by sm:B1523",
+    "reductive modules nu (x) rho and nu (x) Lambda^2 rho; main's class index (B1297) with its identity and T5",
+    "finite volume = types 0 and 1 (Ballas-Cooper-Leitner Thm 0.6); type-3 cusps near rho_hyp have infinite volume and are outside the claim",
+    "Ballas section 4, Cooper-Long-Tillmann Thm 0.2 and the complete structure's parabolic rigidity: cited"
+   ]
+  }
  }
 ]

@@ -1,0 +1,6076 @@
+{
+ "manifold": "+LLRLRR",
+ "H": {
+  "D": 13,
+  "snappy shape": [
+   0.9999999999999998,
+   0.7691190395486056
+  ],
+  "rho relator residual": "4.17e-56",
+  "rows": [
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000265",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.17e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.000507",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000616",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "9.05e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00106",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "4.23e-6",
+     "largest dropped": "1.07e-55"
+    },
+    "relator residual": "4.54e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "1.03e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.67e-5",
+     "largest dropped": "5.06e-56"
+    },
+    "relator residual": "9.34e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "5.1e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.93e-5",
+     "largest dropped": "2.03e-56"
+    },
+    "relator residual": "4.37e-56"
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "4.57e-5",
+     "largest dropped": "1.7e-56"
+    },
+    "relator residual": "9.52e-56"
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000144",
+     "largest dropped": "5.43e-57"
+    },
+    "relator residual": "4.17e-56"
+   },
+   {
+    "u": [
+     "0",
+     "0"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000253",
+     "largest dropped": "5.78e-57"
+    },
+    "relator residual": "9.05e-56"
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000923",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00164",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00119",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "9.63e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00207",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.04e-5",
+     "largest dropped": "1.03e-55"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "2.95e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "4.24e-5",
+     "largest dropped": "5.09e-56"
+    },
+    "relator residual": "9.78e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000111",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "4.2e-5",
+     "largest dropped": "2.34e-56"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00011",
+     "largest dropped": "2.05e-56"
+    },
+    "relator residual": "9.75e-56"
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000337",
+     "largest dropped": "4.69e-57"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "1/13",
+     "5/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000406",
+     "largest dropped": "6.59e-57"
+    },
+    "relator residual": "9.63e-56"
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00176",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.1e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00373",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00165",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "9.34e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00344",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.5e-5",
+     "largest dropped": "9.98e-56"
+    },
+    "relator residual": "4.1e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "6.23e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "5.86e-5",
+     "largest dropped": "5.63e-56"
+    },
+    "relator residual": "9.35e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000192",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "5.89e-5",
+     "largest dropped": "2.51e-56"
+    },
+    "relator residual": "4.1e-56"
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000149",
+     "largest dropped": "2.18e-56"
+    },
+    "relator residual": "9.04e-56"
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000475",
+     "largest dropped": "4.52e-57"
+    },
+    "relator residual": "4.1e-56"
+   },
+   {
+    "u": [
+     "2/13",
+     "10/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000573",
+     "largest dropped": "7.35e-57"
+    },
+    "relator residual": "9.34e-56"
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00109",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00242",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000804",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.03e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00181",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.06e-5",
+     "largest dropped": "1.11e-55"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "3.13e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.17e-5",
+     "largest dropped": "4.76e-56"
+    },
+    "relator residual": "1.02e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "8.22e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "4.71e-5",
+     "largest dropped": "1.98e-56"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "7.92e-5",
+     "largest dropped": "1.63e-56"
+    },
+    "relator residual": "1.0e-55"
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000243",
+     "largest dropped": "5.22e-57"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "3/13",
+     "2/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000349",
+     "largest dropped": "5.59e-57"
+    },
+    "relator residual": "1.03e-55"
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000775",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.4e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00145",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00148",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.06e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00322",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.38e-5",
+     "largest dropped": "1.3e-55"
+    },
+    "relator residual": "4.21e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "4.52e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "5.82e-5",
+     "largest dropped": "3.67e-56"
+    },
+    "relator residual": "1.05e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00015",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "7.07e-5",
+     "largest dropped": "3.02e-56"
+    },
+    "relator residual": "4.23e-56"
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000153",
+     "largest dropped": "1.6e-56"
+    },
+    "relator residual": "1.01e-55"
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000503",
+     "largest dropped": "5.34e-57"
+    },
+    "relator residual": "4.4e-56"
+   },
+   {
+    "u": [
+     "4/13",
+     "7/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000586",
+     "largest dropped": "5.34e-57"
+    },
+    "relator residual": "1.06e-55"
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000582",
+     "largest dropped": "4.14e-57"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00182",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00104",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.16e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.0024",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "7.49e-6",
+     "largest dropped": "1.18e-55"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "2.5e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.85e-5",
+     "largest dropped": "4.03e-56"
+    },
+    "relator residual": "1.16e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000119",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "2.92e-5",
+     "largest dropped": "2.45e-56"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "9.25e-5",
+     "largest dropped": "1.62e-56"
+    },
+    "relator residual": "1.16e-55"
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000266",
+     "largest dropped": "5.05e-57"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "5/13",
+     "12/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000399",
+     "largest dropped": "5.25e-57"
+    },
+    "relator residual": "1.16e-55"
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000778",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.35e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00251",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00135",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.21e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00349",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.73e-5",
+     "largest dropped": "1.29e-55"
+    },
+    "relator residual": "4.43e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000114",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "7.18e-5",
+     "largest dropped": "3.81e-56"
+    },
+    "relator residual": "1.2e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000189",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000105",
+     "largest dropped": "2.65e-56"
+    },
+    "relator residual": "4.47e-56"
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000186",
+     "largest dropped": "1.47e-56"
+    },
+    "relator residual": "1.2e-55"
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000814",
+     "largest dropped": "5.47e-57"
+    },
+    "relator residual": "4.35e-56"
+   },
+   {
+    "u": [
+     "6/13",
+     "4/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000793",
+     "largest dropped": "5.41e-57"
+    },
+    "relator residual": "1.21e-55"
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000778",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.35e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00251",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00135",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.21e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00349",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.73e-5",
+     "largest dropped": "1.29e-55"
+    },
+    "relator residual": "4.43e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000114",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "7.18e-5",
+     "largest dropped": "3.81e-56"
+    },
+    "relator residual": "1.2e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000189",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00013",
+     "largest dropped": "3.09e-56"
+    },
+    "relator residual": "4.34e-56"
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000205",
+     "largest dropped": "1.5e-56"
+    },
+    "relator residual": "1.2e-55"
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000814",
+     "largest dropped": "5.47e-57"
+    },
+    "relator residual": "4.35e-56"
+   },
+   {
+    "u": [
+     "7/13",
+     "9/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000793",
+     "largest dropped": "5.41e-57"
+    },
+    "relator residual": "1.21e-55"
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000582",
+     "largest dropped": "4.21e-57"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00182",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00104",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.03e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.0024",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "7.49e-6",
+     "largest dropped": "1.09e-55"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "2.5e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.85e-5",
+     "largest dropped": "4.01e-56"
+    },
+    "relator residual": "1.01e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000119",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.23e-5",
+     "largest dropped": "2.43e-56"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "9.75e-5",
+     "largest dropped": "1.55e-56"
+    },
+    "relator residual": "9.81e-56"
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000266",
+     "largest dropped": "5.42e-57"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "8/13",
+     "1/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000399",
+     "largest dropped": "5.13e-57"
+    },
+    "relator residual": "1.03e-55"
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000775",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.4e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00145",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00148",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.06e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00322",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.38e-5",
+     "largest dropped": "1.3e-55"
+    },
+    "relator residual": "4.21e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "4.52e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "5.82e-5",
+     "largest dropped": "3.67e-56"
+    },
+    "relator residual": "1.05e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.00015",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "9.33e-5",
+     "largest dropped": "2.91e-56"
+    },
+    "relator residual": "4.19e-56"
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000168",
+     "largest dropped": "1.3e-56"
+    },
+    "relator residual": "1.05e-55"
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000503",
+     "largest dropped": "5.34e-57"
+    },
+    "relator residual": "4.4e-56"
+   },
+   {
+    "u": [
+     "9/13",
+     "6/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000586",
+     "largest dropped": "5.34e-57"
+    },
+    "relator residual": "1.06e-55"
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00109",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00242",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000804",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.05e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00181",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.06e-5",
+     "largest dropped": "1.12e-55"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "3.13e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.17e-5",
+     "largest dropped": "4.66e-56"
+    },
+    "relator residual": "1.05e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "8.22e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "3.68e-5",
+     "largest dropped": "2.67e-56"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "8.85e-5",
+     "largest dropped": "1.62e-56"
+    },
+    "relator residual": "1.04e-55"
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000243",
+     "largest dropped": "5.38e-57"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "10/13",
+     "11/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000349",
+     "largest dropped": "5.6e-57"
+    },
+    "relator residual": "1.05e-55"
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00176",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "6.1e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00373",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00165",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "9.21e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00344",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.5e-5",
+     "largest dropped": "9.55e-56"
+    },
+    "relator residual": "5.97e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "6.23e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "5.86e-5",
+     "largest dropped": "5.99e-56"
+    },
+    "relator residual": "9.03e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000192",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "7.42e-5",
+     "largest dropped": "2.17e-56"
+    },
+    "relator residual": "5.95e-56"
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000149",
+     "largest dropped": "2.27e-56"
+    },
+    "relator residual": "9.09e-56"
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000475",
+     "largest dropped": "4.9e-57"
+    },
+    "relator residual": "6.1e-56"
+   },
+   {
+    "u": [
+     "11/13",
+     "3/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000573",
+     "largest dropped": "7.14e-57"
+    },
+    "relator residual": "9.21e-56"
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 1,
+     "t0": 1,
+     "r1": 1,
+     "n": 0,
+     "h1(Delta)": 2
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000923",
+     "largest dropped": "4.01e-57"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 1,
+     "h1(V*)": 1,
+     "a0": 0,
+     "b0": 0,
+     "t0": 1,
+     "s0": 1,
+     "margins": {
+      "smallest kept": "0.00164",
+      "largest dropped": "4.01e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "lambda_c",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 2,
+     "t0": 2,
+     "r1": 2,
+     "n": 0,
+     "h1(Delta)": 4
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.00119",
+     "largest dropped": "4.31e-57"
+    },
+    "relator residual": "1.06e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 2,
+     "h1(V*)": 2,
+     "a0": 0,
+     "b0": 0,
+     "t0": 2,
+     "s0": 2,
+     "margins": {
+      "smallest kept": "0.00207",
+      "largest dropped": "4.31e-57"
+     }
+    }
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "1.7",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "1.04e-5",
+     "largest dropped": "1.04e-55"
+    },
+    "relator residual": "4.11e-56",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "2.95e-5",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "1.7",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "4.24e-5",
+     "largest dropped": "5.26e-56"
+    },
+    "relator residual": "1.06e-55",
+    "W": {
+     "I": 0,
+     "h1(V)": 0,
+     "h1(V*)": 0,
+     "a0": 0,
+     "b0": 0,
+     "t0": 0,
+     "s0": 0,
+     "margins": {
+      "smallest kept": "0.000111",
+      "largest dropped": "0.0"
+     }
+    }
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "4.62e-5",
+     "largest dropped": "2.52e-56"
+    },
+    "relator residual": "4.23e-56"
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "(0.62161 + 0.783327j)",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000117",
+     "largest dropped": "1.83e-56"
+    },
+    "relator residual": "1.08e-55"
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "-1.0",
+    "module": "4",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000337",
+     "largest dropped": "4.52e-57"
+    },
+    "relator residual": "4.11e-56"
+   },
+   {
+    "u": [
+     "12/13",
+     "8/13"
+    ],
+    "lambda": "-1.0",
+    "module": "L2",
+    "I": 0,
+    "V": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "V*": {
+     "a0": 0,
+     "h1": 0,
+     "t0": 0,
+     "r1": 0,
+     "n": 0,
+     "h1(Delta)": 0
+    },
+    "checks": {
+     "B1297 identity I = (a0 - b0) + s0 - r1": true,
+     "r1 + q1 = h1(Delta) = t0 + s0": true,
+     "Lemma E I = h1(V*) - h1(V) + 2(a0 - b0) + s0 - t0": true
+    },
+    "margins": {
+     "smallest kept": "0.000406",
+     "largest dropped": "6.79e-57"
+    },
+    "relator residual": "1.06e-55"
+   }
+  ]
+ },
+ "seconds H": 158,
+ "scans": {
+  "type one": [
+   {
+    "theta": 0,
+    "alpha seed": 136.8469461923529,
+    "|F|": 0.0009706254997916584,
+    "iterations": 80,
+    "floor": 6.390855897742669e-12,
+    "threshold": 6.390855897742669e-10,
+    "converged": false
+   },
+   {
+    "theta": 5,
+    "alpha seed": 141.8469461923529,
+    "|F|": 0.0011471706383865815,
+    "iterations": 80,
+    "floor": 6.346527157922151e-13,
+    "threshold": 6.346527157922151e-11,
+    "converged": false
+   },
+   {
+    "theta": 10,
+    "alpha seed": 146.84694619235287,
+    "|F|": 0.0012453049508681035,
+    "iterations": 80,
+    "floor": 1.1181356231913627e-12,
+    "threshold": 1.1181356231913627e-10,
+    "converged": false
+   },
+   {
+    "theta": 15,
+    "alpha seed": 151.84694619235287,
+    "|F|": 0.0012559864422451493,
+    "iterations": 80,
+    "floor": 2.3047436020059645e-12,
+    "threshold": 2.3047436020059646e-10,
+    "converged": false
+   },
+   {
+    "theta": 20,
+    "alpha seed": 156.84694619235287,
+    "|F|": 0.0011818523216835005,
+    "iterations": 80,
+    "floor": 3.4553197060794504e-12,
+    "threshold": 3.4553197060794506e-10,
+    "converged": false
+   },
+   {
+    "theta": 25,
+    "alpha seed": 161.8469461923529,
+    "|F|": 0.0010232340545580749,
+    "iterations": 80,
+    "floor": 3.9690727412280345e-12,
+    "threshold": 3.9690727412280343e-10,
+    "converged": false
+   },
+   {
+    "theta": 30,
+    "alpha seed": 166.84694619235287,
+    "|F|": 0.0007948242792214319,
+    "iterations": 80,
+    "floor": 1.311608650679687e-12,
+    "threshold": 1.311608650679687e-10,
+    "converged": false
+   },
+   {
+    "theta": 35,
+    "alpha seed": 171.84694619235287,
+    "|F|": 0.0005151068663223905,
+    "iterations": 80,
+    "floor": 1.8994025602423414e-12,
+    "threshold": 1.8994025602423413e-10,
+    "converged": false
+   },
+   {
+    "theta": 40,
+    "alpha seed": 176.8469461923529,
+    "|F|": 0.00020419448196131834,
+    "iterations": 80,
+    "floor": 8.896602503563912e-13,
+    "threshold": 8.896602503563912e-11,
+    "converged": false
+   },
+   {
+    "theta": 45,
+    "alpha seed": 181.84694619235287,
+    "|F|": 0.00011871252782120055,
+    "iterations": 80,
+    "floor": 3.84149565430588e-12,
+    "threshold": 3.8414956543058803e-10,
+    "converged": false
+   },
+   {
+    "theta": 50,
+    "alpha seed": 186.84694619235287,
+    "|F|": 0.00043550770985149173,
+    "iterations": 80,
+    "floor": 1.5991872997509514e-12,
+    "threshold": 1.5991872997509515e-10,
+    "converged": false
+   },
+   {
+    "theta": 55,
+    "alpha seed": 191.84694619235287,
+    "|F|": 0.0007259645527080146,
+    "iterations": 80,
+    "floor": 1.907118891401163e-12,
+    "threshold": 1.9071188914011628e-10,
+    "converged": false
+   },
+   {
+    "theta": 60,
+    "alpha seed": 196.84694619235285,
+    "|F|": 0.0009693512177021244,
+    "iterations": 80,
+    "floor": 2.721470782720439e-12,
+    "threshold": 2.721470782720439e-10,
+    "converged": false
+   },
+   {
+    "theta": 65,
+    "alpha seed": 201.84694619235285,
+    "|F|": 0.0011469036585543349,
+    "iterations": 80,
+    "floor": 9.23902902472448e-13,
+    "threshold": 9.23902902472448e-11,
+    "converged": false
+   },
+   {
+    "theta": 70,
+    "alpha seed": 206.84694619235287,
+    "|F|": 0.0012447900425776788,
+    "iterations": 80,
+    "floor": 4.776728343700204e-13,
+    "threshold": 4.776728343700204e-11,
+    "converged": false
+   },
+   {
+    "theta": 75,
+    "alpha seed": 211.8469461923529,
+    "|F|": 0.0012536308569625059,
+    "iterations": 80,
+    "floor": 3.4760780453171887e-12,
+    "threshold": 3.476078045317189e-10,
+    "converged": false
+   },
+   {
+    "theta": 80,
+    "alpha seed": 216.84694619235285,
+    "|F|": 0.0011808075207920335,
+    "iterations": 80,
+    "floor": 3.8322092004043486e-12,
+    "threshold": 3.8322092004043487e-10,
+    "converged": false
+   },
+   {
+    "theta": 85,
+    "alpha seed": 221.84694619235287,
+    "|F|": 0.0010245417672211288,
+    "iterations": 80,
+    "floor": 5.605393230594869e-12,
+    "threshold": 5.605393230594869e-10,
+    "converged": false
+   },
+   {
+    "theta": 90,
+    "alpha seed": 226.84694619235287,
+    "|F|": 0.0007986630608176281,
+    "iterations": 80,
+    "floor": 8.849292314556844e-13,
+    "threshold": 8.849292314556844e-11,
+    "converged": false
+   },
+   {
+    "theta": 95,
+    "alpha seed": 231.8469461923529,
+    "|F|": 0.000519166529313861,
+    "iterations": 80,
+    "floor": 2.797816918290433e-12,
+    "threshold": 2.797816918290433e-10,
+    "converged": false
+   },
+   {
+    "theta": 100,
+    "alpha seed": 236.8469461923529,
+    "|F|": 0.00020568153576113078,
+    "iterations": 80,
+    "floor": 7.929956411835267e-12,
+    "threshold": 7.929956411835268e-10,
+    "converged": false
+   },
+   {
+    "theta": 105,
+    "alpha seed": 241.84694619235287,
+    "|F|": 0.00012033751558548087,
+    "iterations": 80,
+    "floor": 2.9398193755524653e-12,
+    "threshold": 2.939819375552465e-10,
+    "converged": false
+   },
+   {
+    "theta": 110,
+    "alpha seed": 246.84694619235285,
+    "|F|": 0.00043739887575912,
+    "iterations": 80,
+    "floor": 4.884482471844386e-12,
+    "threshold": 4.884482471844387e-10,
+    "converged": false
+   },
+   {
+    "theta": 115,
+    "alpha seed": 251.8469461923529,
+    "|F|": 0.0007253525333105646,
+    "iterations": 80,
+    "floor": 4.108227916656836e-12,
+    "threshold": 4.1082279166568363e-10,
+    "converged": false
+   },
+   {
+    "theta": 120,
+    "alpha seed": 256.84694619235285,
+    "|F|": 0.00097411577106135,
+    "iterations": 80,
+    "floor": 3.463649064587969e-12,
+    "threshold": 3.463649064587969e-10,
+    "converged": false
+   },
+   {
+    "theta": 125,
+    "alpha seed": 261.8469461923529,
+    "|F|": 0.0011446209715560182,
+    "iterations": 80,
+    "floor": 2.4924430266153803e-12,
+    "threshold": 2.4924430266153803e-10,
+    "converged": false
+   },
+   {
+    "theta": 130,
+    "alpha seed": 266.84694619235285,
+    "|F|": 0.0012447130826774185,
+    "iterations": 80,
+    "floor": 1.9151129074807686e-12,
+    "threshold": 1.9151129074807687e-10,
+    "converged": false
+   },
+   {
+    "theta": 135,
+    "alpha seed": 271.84694619235285,
+    "|F|": 0.0012567823880414533,
+    "iterations": 80,
+    "floor": 3.4436727107492964e-12,
+    "threshold": 3.4436727107492964e-10,
+    "converged": false
+   },
+   {
+    "theta": 140,
+    "alpha seed": 276.84694619235285,
+    "|F|": 0.0011796566009139732,
+    "iterations": 80,
+    "floor": 9.757878903995243e-13,
+    "threshold": 9.757878903995243e-11,
+    "converged": false
+   },
+   {
+    "theta": 145,
+    "alpha seed": 281.8469461923529,
+    "|F|": 0.0010208124430083454,
+    "iterations": 80,
+    "floor": 1.320647890390336e-12,
+    "threshold": 1.3206478903903362e-10,
+    "converged": false
+   },
+   {
+    "theta": 150,
+    "alpha seed": 286.8469461923529,
+    "|F|": 0.0007939300617779086,
+    "iterations": 80,
+    "floor": 1.8451791135967703e-12,
+    "threshold": 1.8451791135967704e-10,
+    "converged": false
+   },
+   {
+    "theta": 155,
+    "alpha seed": 291.84694619235285,
+    "|F|": 0.0005152552881164749,
+    "iterations": 80,
+    "floor": 3.0881403177787015e-12,
+    "threshold": 3.0881403177787015e-10,
+    "converged": false
+   },
+   {
+    "theta": 160,
+    "alpha seed": 296.84694619235285,
+    "|F|": 0.00018771738897207163,
+    "iterations": 80,
+    "floor": 1.937728995363489e-12,
+    "threshold": 1.937728995363489e-10,
+    "converged": false
+   },
+   {
+    "theta": 165,
+    "alpha seed": 301.84694619235285,
+    "|F|": 0.00012316058220740038,
+    "iterations": 80,
+    "floor": 2.6756259358567767e-12,
+    "threshold": 2.675625935856777e-10,
+    "converged": false
+   },
+   {
+    "theta": 170,
+    "alpha seed": 306.8469461923529,
+    "|F|": 0.00044198290985184805,
+    "iterations": 80,
+    "floor": 3.4245304507710523e-12,
+    "threshold": 3.4245304507710524e-10,
+    "converged": false
+   },
+   {
+    "theta": 175,
+    "alpha seed": 311.8469461923529,
+    "|F|": 0.0007315653525817226,
+    "iterations": 80,
+    "floor": 3.6275162892682684e-12,
+    "threshold": 3.627516289268268e-10,
+    "converged": false
+   },
+   {
+    "theta": 180,
+    "alpha seed": 316.84694619235285,
+    "|F|": 0.0009723187952822062,
+    "iterations": 80,
+    "floor": 1.8976041784123885e-12,
+    "threshold": 1.8976041784123886e-10,
+    "converged": false
+   },
+   {
+    "theta": 185,
+    "alpha seed": 321.84694619235285,
+    "|F|": 0.0011475479307222283,
+    "iterations": 80,
+    "floor": 2.019821628308652e-12,
+    "threshold": 2.0198216283086522e-10,
+    "converged": false
+   },
+   {
+    "theta": 190,
+    "alpha seed": 326.8469461923529,
+    "|F|": 0.0012447171190433435,
+    "iterations": 80,
+    "floor": 1.933782334004561e-12,
+    "threshold": 1.933782334004561e-10,
+    "converged": false
+   },
+   {
+    "theta": 195,
+    "alpha seed": 331.8469461923529,
+    "|F|": 0.0012544911739278957,
+    "iterations": 80,
+    "floor": 2.7971638190219447e-12,
+    "threshold": 2.7971638190219446e-10,
+    "converged": false
+   },
+   {
+    "theta": 200,
+    "alpha seed": 336.84694619235285,
+    "|F|": 0.0011799125619383478,
+    "iterations": 80,
+    "floor": 3.640639620195417e-12,
+    "threshold": 3.6406396201954166e-10,
+    "converged": false
+   },
+   {
+    "theta": 205,
+    "alpha seed": 341.84694619235285,
+    "|F|": 0.0010209846597680824,
+    "iterations": 80,
+    "floor": 2.2382390320548896e-12,
+    "threshold": 2.2382390320548895e-10,
+    "converged": false
+   },
+   {
+    "theta": 210,
+    "alpha seed": 346.8469461923529,
+    "|F|": 0.000791999116307523,
+    "iterations": 80,
+    "floor": 1.0004490147045469e-12,
+    "threshold": 1.0004490147045469e-10,
+    "converged": false
+   },
+   {
+    "theta": 215,
+    "alpha seed": 351.8469461923529,
+    "|F|": 0.0005122642922754544,
+    "iterations": 80,
+    "floor": 1.6153235340823919e-12,
+    "threshold": 1.615323534082392e-10,
+    "converged": false
+   },
+   {
+    "theta": 220,
+    "alpha seed": 356.8469461923529,
+    "|F|": 0.00020202829481856101,
+    "iterations": 80,
+    "floor": 2.1745433511535854e-12,
+    "threshold": 2.1745433511535854e-10,
+    "converged": false
+   },
+   {
+    "theta": 225,
+    "alpha seed": 1.8469461923528636,
+    "|F|": 0.00011247533791569518,
+    "iterations": 80,
+    "floor": 2.66982373307628e-12,
+    "threshold": 2.66982373307628e-10,
+    "converged": false
+   },
+   {
+    "theta": 230,
+    "alpha seed": 6.846946192352843,
+    "|F|": 0.000435237834392933,
+    "iterations": 80,
+    "floor": 4.0486507970713725e-12,
+    "threshold": 4.0486507970713724e-10,
+    "converged": false
+   },
+   {
+    "theta": 235,
+    "alpha seed": 11.846946192352869,
+    "|F|": 0.0007250806924718038,
+    "iterations": 80,
+    "floor": 3.0959658378895078e-12,
+    "threshold": 3.095965837889508e-10,
+    "converged": false
+   },
+   {
+    "theta": 240,
+    "alpha seed": 16.84694619235286,
+    "|F|": 0.0009686857221871346,
+    "iterations": 80,
+    "floor": 1.8446969425921504e-12,
+    "threshold": 1.8446969425921504e-10,
+    "converged": false
+   },
+   {
+    "theta": 245,
+    "alpha seed": 21.84694619235289,
+    "|F|": 0.0011470473414376316,
+    "iterations": 80,
+    "floor": 9.678641029270111e-13,
+    "threshold": 9.678641029270111e-11,
+    "converged": false
+   },
+   {
+    "theta": 250,
+    "alpha seed": 26.846946192352885,
+    "|F|": 0.0012456600690217074,
+    "iterations": 80,
+    "floor": 9.776661718347377e-13,
+    "threshold": 9.776661718347377e-11,
+    "converged": false
+   },
+   {
+    "theta": 255,
+    "alpha seed": 31.846946192352874,
+    "|F|": 0.0012548222071336154,
+    "iterations": 80,
+    "floor": 2.0029756534795836e-12,
+    "threshold": 2.0029756534795836e-10,
+    "converged": false
+   },
+   {
+    "theta": 260,
+    "alpha seed": 36.846946192352874,
+    "|F|": 0.0011818375600120994,
+    "iterations": 80,
+    "floor": 2.1450305973866203e-12,
+    "threshold": 2.1450305973866202e-10,
+    "converged": false
+   },
+   {
+    "theta": 265,
+    "alpha seed": 41.84694619235287,
+    "|F|": 0.0010251376961915419,
+    "iterations": 80,
+    "floor": 1.2686007540549396e-12,
+    "threshold": 1.2686007540549395e-10,
+    "converged": false
+   },
+   {
+    "theta": 270,
+    "alpha seed": 46.84694619235288,
+    "|F|": 0.0007988069076230263,
+    "iterations": 80,
+    "floor": 6.295775809361504e-13,
+    "threshold": 6.295775809361505e-11,
+    "converged": false
+   },
+   {
+    "theta": 275,
+    "alpha seed": 51.84694619235287,
+    "|F|": 0.0005189995012575506,
+    "iterations": 80,
+    "floor": 1.1959799451617292e-12,
+    "threshold": 1.1959799451617293e-10,
+    "converged": false
+   },
+   {
+    "theta": 280,
+    "alpha seed": 56.84694619235287,
+    "|F|": 0.00020536782292074595,
+    "iterations": 80,
+    "floor": 4.796544384542099e-12,
+    "threshold": 4.796544384542099e-10,
+    "converged": false
+   },
+   {
+    "theta": 285,
+    "alpha seed": 61.84694619235287,
+    "|F|": 0.0001206850632478621,
+    "iterations": 80,
+    "floor": 2.939283094653298e-12,
+    "threshold": 2.939283094653298e-10,
+    "converged": false
+   },
+   {
+    "theta": 290,
+    "alpha seed": 66.84694619235289,
+    "|F|": 0.0004376467827773206,
+    "iterations": 80,
+    "floor": 5.625617250052307e-12,
+    "threshold": 5.625617250052307e-10,
+    "converged": false
+   },
+   {
+    "theta": 295,
+    "alpha seed": 71.84694619235289,
+    "|F|": 0.0007253488969467886,
+    "iterations": 80,
+    "floor": 3.5890350774299434e-12,
+    "threshold": 3.5890350774299437e-10,
+    "converged": false
+   },
+   {
+    "theta": 300,
+    "alpha seed": 76.84694619235289,
+    "|F|": 0.0009664383570547184,
+    "iterations": 80,
+    "floor": 3.315891047282043e-12,
+    "threshold": 3.315891047282043e-10,
+    "converged": false
+   },
+   {
+    "theta": 305,
+    "alpha seed": 81.84694619235289,
+    "|F|": 0.001144620728039571,
+    "iterations": 80,
+    "floor": 1.1342301944402901e-12,
+    "threshold": 1.1342301944402901e-10,
+    "converged": false
+   },
+   {
+    "theta": 310,
+    "alpha seed": 86.84694619235287,
+    "|F|": 0.0012446139189021051,
+    "iterations": 80,
+    "floor": 1.2659797259528209e-12,
+    "threshold": 1.2659797259528208e-10,
+    "converged": false
+   },
+   {
+    "theta": 315,
+    "alpha seed": 91.84694619235287,
+    "|F|": 0.0012560571774438763,
+    "iterations": 80,
+    "floor": 7.0363549312722715e-12,
+    "threshold": 7.036354931272272e-10,
+    "converged": false
+   },
+   {
+    "theta": 320,
+    "alpha seed": 96.84694619235285,
+    "|F|": 0.001179507316209314,
+    "iterations": 80,
+    "floor": 6.8428432212910496e-12,
+    "threshold": 6.842843221291049e-10,
+    "converged": false
+   },
+   {
+    "theta": 325,
+    "alpha seed": 101.84694619235285,
+    "|F|": 0.0010216253374868373,
+    "iterations": 80,
+    "floor": 6.690113671399326e-12,
+    "threshold": 6.690113671399326e-10,
+    "converged": false
+   },
+   {
+    "theta": 330,
+    "alpha seed": 106.84694619235286,
+    "|F|": 0.0007962298948914627,
+    "iterations": 80,
+    "floor": 6.2724181379465485e-12,
+    "threshold": 6.272418137946549e-10,
+    "converged": false
+   },
+   {
+    "theta": 335,
+    "alpha seed": 111.8469461923529,
+    "|F|": 0.0005192227875273037,
+    "iterations": 80,
+    "floor": 6.534824257568811e-12,
+    "threshold": 6.534824257568811e-10,
+    "converged": false
+   },
+   {
+    "theta": 340,
+    "alpha seed": 116.84694619235287,
+    "|F|": 0.00020753243808536762,
+    "iterations": 80,
+    "floor": 6.260082604017581e-13,
+    "threshold": 6.260082604017581e-11,
+    "converged": false
+   },
+   {
+    "theta": 345,
+    "alpha seed": 121.84694619235289,
+    "|F|": 0.00010918772363229379,
+    "iterations": 80,
+    "floor": 2.2450738405844006e-12,
+    "threshold": 2.2450738405844008e-10,
+    "converged": false
+   },
+   {
+    "theta": 350,
+    "alpha seed": 126.84694619235286,
+    "|F|": 0.0004377045374406131,
+    "iterations": 80,
+    "floor": 2.7161214111284917e-12,
+    "threshold": 2.7161214111284917e-10,
+    "converged": false
+   },
+   {
+    "theta": 355,
+    "alpha seed": 131.8469461923529,
+    "|F|": 0.0007285014539868379,
+    "iterations": 80,
+    "floor": 1.595752925493695e-12,
+    "threshold": 1.595752925493695e-10,
+    "converged": false
+   }
+  ],
+  "b free": [
+   {
+    "theta": 0,
+    "alpha seed": 136.8469461923529,
+    "|F|": 9.137016555712147e-11,
+    "iterations": 13,
+    "threshold": 6.390855897742669e-10,
+    "converged": true,
+    "alpha": 136.81137184609094,
+    "b": -0.0024205177658771174,
+    "psi_a(l)": -0.003481379388451668,
+    "psi_b(l)": -0.003955044698996327,
+    "zl": [
+     -1.740689694225834,
+     1.6339663995662297
+    ]
+   },
+   {
+    "theta": 5,
+    "alpha seed": 141.8469461923529,
+    "|F|": 4.921953617524994e-12,
+    "iterations": 15,
+    "threshold": 6.346527157922151e-11,
+    "converged": true,
+    "alpha": 141.8108378919604,
+    "b": -0.004374938803752343,
+    "psi_a(l)": -0.003752653988497862,
+    "psi_b(l)": -0.006457187123784126,
+    "zl": [
+     -1.876326994248931,
+     1.47594913059032
+    ]
+   },
+   {
+    "theta": 10,
+    "alpha seed": 146.84694619235287,
+    "|F|": 1.7587563919032664e-12,
+    "iterations": 45,
+    "threshold": 1.1181356231913627e-10,
+    "converged": true,
+    "alpha": 146.8022048897678,
+    "b": -0.011833150974190734,
+    "psi_a(l)": -0.0039937415814732145,
+    "psi_b(l)": -0.015461264665104068,
+    "zl": [
+     -1.9968707907366072,
+     1.3066058819689368
+    ]
+   },
+   {
+    "theta": 15,
+    "alpha seed": 151.84694619235287,
+    "|F|": 3.445310336893209e-05,
+    "iterations": 80,
+    "threshold": 2.3047436020059646e-10,
+    "converged": false
+   },
+   {
+    "theta": 20,
+    "alpha seed": 156.84694619235287,
+    "|F|": 2.9141670796114065e-12,
+    "iterations": 14,
+    "threshold": 3.4553197060794506e-10,
+    "converged": true,
+    "alpha": 156.83144812359495,
+    "b": 0.005350847273197393,
+    "psi_a(l)": -0.004392257799667207,
+    "psi_b(l)": 0.005028916533974463,
+    "zl": [
+     -2.1961288998336035,
+     0.9398355582235557
+    ]
+   },
+   {
+    "theta": 25,
+    "alpha seed": 161.8469461923529,
+    "|F|": 3.3396849059751922e-12,
+    "iterations": 9,
+    "threshold": 3.9690727412280343e-10,
+    "converged": true,
+    "alpha": 161.82748519215102,
+    "b": 0.0028057129697953865,
+    "psi_a(l)": -0.004538716050537965,
+    "psi_b(l)": 0.002090034058978846,
+    "zl": [
+     -2.2693580252689824,
+     0.7449208388309467
+    ]
+   },
+   {
+    "theta": 30,
+    "alpha seed": 166.84694619235287,
+    "|F|": 3.1859254270651805e-12,
+    "iterations": 8,
+    "threshold": 1.311608650679687e-10,
+    "converged": true,
+    "alpha": 166.82494487589398,
+    "b": 0.0016501485943448413,
+    "psi_a(l)": -0.0046510638474244114,
+    "psi_b(l)": 0.0008983087687967903,
+    "zl": [
+     -2.3255319237122056,
+     0.5443805314717406
+    ]
+   },
+   {
+    "theta": 35,
+    "alpha seed": 171.84694619235287,
+    "|F|": 1.1273348594744154e-11,
+    "iterations": 8,
+    "threshold": 1.8994025602423413e-10,
+    "converged": true,
+    "alpha": 171.82626634857039,
+    "b": 0.0009123464032665705,
+    "psi_a(l)": -0.004728219898102327,
+    "psi_b(l)": 0.0003098029377610445,
+    "zl": [
+     -2.3641099490511635,
+     0.3395672264962346
+    ]
+   },
+   {
+    "theta": 40,
+    "alpha seed": 176.8469461923529,
+    "|F|": 1.3063679191754932e-12,
+    "iterations": 9,
+    "threshold": 8.896602503563912e-11,
+    "converged": true,
+    "alpha": 176.8312894531185,
+    "b": 0.00033490524998861215,
+    "psi_a(l)": -0.004769422408860043,
+    "psi_b(l)": 4.42140986498748e-05,
+    "zl": [
+     -2.384711204430021,
+     0.1320197239409601
+    ]
+   },
+   {
+    "theta": 45,
+    "alpha seed": 181.84694619235287,
+    "|F|": 5.56040301184411e-11,
+    "iterations": 13,
+    "threshold": 3.8414956543058803e-10,
+    "converged": true,
+    "alpha": 181.83921087682208,
+    "b": -0.00019319931251647642,
+    "psi_a(l)": -0.00477423487184258,
+    "psi_b(l)": 1.4809399931259232e-05,
+    "zl": [
+     -2.38711743592129,
+     -0.07665348151793375
+    ]
+   },
+   {
+    "theta": 50,
+    "alpha seed": 186.84694619235287,
+    "|F|": 2.976236529747748e-12,
+    "iterations": 17,
+    "threshold": 1.5991872997509515e-10,
+    "converged": true,
+    "alpha": 186.8504007334537,
+    "b": -0.0007498071741170163,
+    "psi_a(l)": -0.004742531263101089,
+    "psi_b(l)": 0.00021359913964242035,
+    "zl": [
+     -2.3712656315505445,
+     -0.28487209380726153
+    ]
+   },
+   {
+    "theta": 55,
+    "alpha seed": 191.84694619235287,
+    "|F|": 1.0857692020028537e-12,
+    "iterations": 9,
+    "threshold": 1.9071188914011628e-10,
+    "converged": true,
+    "alpha": 191.86619021300132,
+    "b": -0.0014317838543471053,
+    "psi_a(l)": -0.004674445669657947,
+    "psi_b(l)": 0.0007031345292192927,
+    "zl": [
+     -2.3372228348289736,
+     -0.4910898576516794
+    ]
+   },
+   {
+    "theta": 60,
+    "alpha seed": 196.84694619235285,
+    "|F|": 6.514632377127762e-12,
+    "iterations": 19,
+    "threshold": 2.721470782720439e-10,
+    "converged": true,
+    "alpha": 196.88953738447282,
+    "b": -0.0024407929317612413,
+    "psi_a(l)": -0.004570329121798602,
+    "psi_b(l)": 0.0016934960842240254,
+    "zl": [
+     -2.285164560899301,
+     -0.6938302967806543
+    ]
+   },
+   {
+    "theta": 65,
+    "alpha seed": 201.84694619235285,
+    "|F|": 6.02791228680391e-12,
+    "iterations": 9,
+    "threshold": 9.23902902472448e-11,
+    "converged": true,
+    "alpha": 201.9318498612451,
+    "b": -0.004449274648914742,
+    "psi_a(l)": -0.004430500313174363,
+    "psi_b(l)": 0.003968555429078622,
+    "zl": [
+     -2.215250156587181,
+     -0.8919555977616765
+    ]
+   },
+   {
+    "theta": 70,
+    "alpha seed": 206.84694619235287,
+    "|F|": 7.461450861026633e-13,
+    "iterations": 62,
+    "threshold": 4.776728343700204e-11,
+    "converged": true,
+    "alpha": 207.08828077764431,
+    "b": -0.013016438636557997,
+    "psi_a(l)": -0.004252278043372545,
+    "psi_b(l)": 0.014154747097852574,
+    "zl": [
+     -2.1261390216862726,
+     -1.087451605856115
+    ]
+   },
+   {
+    "theta": 75,
+    "alpha seed": 211.8469461923529,
+    "|F|": 0.0010055751484443936,
+    "iterations": 80,
+    "threshold": 3.476078045317189e-10,
+    "converged": false
+   },
+   {
+    "theta": 80,
+    "alpha seed": 216.84694619235285,
+    "|F|": 3.0966757166949326e-12,
+    "iterations": 48,
+    "threshold": 3.8322092004043487e-10,
+    "converged": true,
+    "alpha": 216.7463284099748,
+    "b": 0.005424454224972445,
+    "psi_a(l)": -0.0038263539238633645,
+    "psi_b(l)": -0.007748540185632487,
+    "zl": [
+     -1.9131769619316823,
+     -1.4284460453110097
+    ]
+   },
+   {
+    "theta": 85,
+    "alpha seed": 221.84694619235287,
+    "|F|": 1.6498981509465648e-12,
+    "iterations": 23,
+    "threshold": 5.605393230594869e-10,
+    "converged": true,
+    "alpha": 221.79618840372402,
+    "b": 0.0028154635326858536,
+    "psi_a(l)": -0.003559890859432009,
+    "psi_b(l)": -0.004480083346381543,
+    "zl": [
+     -1.7799454297160044,
+     -1.5912418308283682
+    ]
+   },
+   {
+    "theta": 90,
+    "alpha seed": 226.84694619235287,
+    "|F|": 3.680463124420484e-12,
+    "iterations": 17,
+    "threshold": 8.849292314556844e-11,
+    "converged": true,
+    "alpha": 226.8177400767263,
+    "b": 0.0016514171017964808,
+    "psi_a(l)": -0.003267526100184101,
+    "psi_b(l)": -0.002874887261897212,
+    "zl": [
+     -1.6337630500920504,
+     -1.7408607787637593
+    ]
+   },
+   {
+    "theta": 95,
+    "alpha seed": 231.8469461923529,
+    "|F|": 4.1456541040563654e-12,
+    "iterations": 13,
+    "threshold": 2.797816918290433e-10,
+    "converged": true,
+    "alpha": 231.830633861052,
+    "b": 0.0009117938258939286,
+    "psi_a(l)": -0.002950658852841427,
+    "psi_b(l)": -0.0017113214826600571,
+    "zl": [
+     -1.4753294264207135,
+     -1.876873295322291
+    ]
+   },
+   {
+    "theta": 100,
+    "alpha seed": 236.8469461923529,
+    "|F|": 8.691545985418279e-11,
+    "iterations": 7,
+    "threshold": 7.929956411835268e-10,
+    "converged": true,
+    "alpha": 236.8397241181642,
+    "b": 0.0003339970930480081,
+    "psi_a(l)": -0.0026114943908666518,
+    "psi_b(l)": -0.0006674642934136377,
+    "zl": [
+     -1.305747195433326,
+     -1.9984134811547527
+    ]
+   },
+   {
+    "theta": 105,
+    "alpha seed": 241.84694619235287,
+    "|F|": 6.017220445592159e-11,
+    "iterations": 7,
+    "threshold": 2.939819375552465e-10,
+    "converged": true,
+    "alpha": 241.846649631367,
+    "b": -0.00019398565041732946,
+    "psi_a(l)": -0.00225255102697952,
+    "psi_b(l)": 0.000408263696592865,
+    "zl": [
+     -1.12627551348976,
+     -2.10460771564572
+    ]
+   },
+   {
+    "theta": 110,
+    "alpha seed": 246.84694619235285,
+    "|F|": 2.5534885143280964e-12,
+    "iterations": 11,
+    "threshold": 4.884482471844387e-10,
+    "converged": true,
+    "alpha": 246.85263273981613,
+    "b": -0.0007500738916188782,
+    "psi_a(l)": -0.0018765027749445534,
+    "psi_b(l)": 0.0016461648215437752,
+    "zl": [
+     -0.9382513874722767,
+     -2.194670205079224
+    ]
+   },
+   {
+    "theta": 115,
+    "alpha seed": 251.8469461923529,
+    "|F|": 2.8150262371480147e-12,
+    "iterations": 17,
+    "threshold": 4.1082279166568363e-10,
+    "converged": true,
+    "alpha": 251.86046690780432,
+    "b": -0.0014308777143363556,
+    "psi_a(l)": -0.0014860102050170822,
+    "psi_b(l)": 0.00324512577931169,
+    "zl": [
+     -0.743005102508541,
+     -2.2679267045659364
+    ]
+   },
+   {
+    "theta": 120,
+    "alpha seed": 256.84694619235285,
+    "|F|": 2.5316488467075014e-12,
+    "iterations": 20,
+    "threshold": 3.463649064587969e-10,
+    "converged": true,
+    "alpha": 256.87263319910625,
+    "b": -0.00243639145538054,
+    "psi_a(l)": -0.0010838327594084325,
+    "psi_b(l)": 0.005661487990058411,
+    "zl": [
+     -0.5419163797042162,
+     -2.3237185377397176
+    ]
+   },
+   {
+    "theta": 125,
+    "alpha seed": 261.8469461923529,
+    "|F|": 1.1802050159880537e-11,
+    "iterations": 29,
+    "threshold": 2.4924430266153803e-10,
+    "converged": true,
+    "alpha": 261.8884039353462,
+    "b": -0.004422348002106944,
+    "psi_a(l)": -0.0006730786139463056,
+    "psi_b(l)": 0.010442147616409566,
+    "zl": [
+     -0.3365393069731528,
+     -2.361222502488407
+    ]
+   },
+   {
+    "theta": 130,
+    "alpha seed": 266.84694619235285,
+    "|F|": 0.00019385257733876493,
+    "iterations": 80,
+    "threshold": 1.9151129074807687e-10,
+    "converged": false
+   },
+   {
+    "theta": 135,
+    "alpha seed": 271.84694619235285,
+    "|F|": 0.0006023996171761301,
+    "iterations": 80,
+    "threshold": 3.4436727107492964e-10,
+    "converged": false
+   },
+   {
+    "theta": 140,
+    "alpha seed": 276.84694619235285,
+    "|F|": 1.2541252092651218e-11,
+    "iterations": 32,
+    "threshold": 9.757878903995243e-11,
+    "converged": true,
+    "alpha": 276.8614382091438,
+    "b": 0.005325340139232085,
+    "psi_a(l)": 0.0005710416030951459,
+    "psi_b(l)": -0.01263599680839169,
+    "zl": [
+     0.2855208015475729,
+     -2.3728055819949567
+    ]
+   },
+   {
+    "theta": 145,
+    "alpha seed": 281.8469461923529,
+    "|F|": 1.483424336225949e-12,
+    "iterations": 16,
+    "threshold": 1.3206478903903362e-10,
+    "converged": true,
+    "alpha": 281.8748897853519,
+    "b": 0.0027910309583266,
+    "psi_a(l)": 0.0009830368135306138,
+    "psi_b(l)": -0.006524031067398782,
+    "zl": [
+     0.4915184067653069,
+     -2.337498639323712
+    ]
+   },
+   {
+    "theta": 150,
+    "alpha seed": 286.8469461923529,
+    "|F|": 4.463754776115696e-12,
+    "iterations": 13,
+    "threshold": 1.8451791135967704e-10,
+    "converged": true,
+    "alpha": 286.8823139059708,
+    "b": 0.001640076355675226,
+    "psi_a(l)": 0.00138699742917474,
+    "psi_b(l)": -0.0037477528381402022,
+    "zl": [
+     0.69349871458737,
+     -2.2851087543404267
+    ]
+   },
+   {
+    "theta": 155,
+    "alpha seed": 291.84694619235285,
+    "|F|": 6.480153000665914e-12,
+    "iterations": 9,
+    "threshold": 3.0881403177787015e-10,
+    "converged": true,
+    "alpha": 291.8855630728871,
+    "b": 0.0009048554091146726,
+    "psi_a(l)": 0.0017800323199277676,
+    "psi_b(l)": -0.0020047955975553587,
+    "zl": [
+     0.8900161599638838,
+     -2.215597737893713
+    ]
+   },
+   {
+    "theta": 160,
+    "alpha seed": 296.84694619235285,
+    "|F|": 4.244634665247662e-12,
+    "iterations": 9,
+    "threshold": 1.937728995363489e-10,
+    "converged": true,
+    "alpha": 296.8861244098618,
+    "b": 0.0003290048606094751,
+    "psi_a(l)": 0.0021593085806275213,
+    "psi_b(l)": -0.0007005805806393176,
+    "zl": [
+     1.0796542903137607,
+     -2.129392797849569
+    ]
+   },
+   {
+    "theta": 165,
+    "alpha seed": 301.84694619235285,
+    "|F|": 1.197346470195411e-12,
+    "iterations": 10,
+    "threshold": 2.675625935856777e-10,
+    "converged": true,
+    "alpha": 301.88530519860757,
+    "b": -0.0001980723827321043,
+    "psi_a(l)": 0.0025220723840809855,
+    "psi_b(l)": 0.00040151213735816605,
+    "zl": [
+     1.2610361920404927,
+     -2.0270980326480794
+    ]
+   },
+   {
+    "theta": 170,
+    "alpha seed": 306.8469461923529,
+    "|F|": 6.118644204214475e-11,
+    "iterations": 13,
+    "threshold": 3.4245304507710524e-10,
+    "converged": true,
+    "alpha": 306.88407033031234,
+    "b": -0.0007538311466435061,
+    "psi_a(l)": 0.002865652747250852,
+    "psi_b(l)": 0.0014394036205512366,
+    "zl": [
+     1.432826373625426,
+     -1.909450978458899
+    ]
+   },
+   {
+    "theta": 175,
+    "alpha seed": 311.8469461923529,
+    "|F|": 7.46098635060106e-11,
+    "iterations": 13,
+    "threshold": 3.627516289268268e-10,
+    "converged": true,
+    "alpha": 311.88295345497727,
+    "b": -0.0014344405469852307,
+    "psi_a(l)": 0.0031874865237510592,
+    "psi_b(l)": 0.0025494590130773413,
+    "zl": [
+     1.5937432618755296,
+     -1.777319400539499
+    ]
+   },
+   {
+    "theta": 180,
+    "alpha seed": 316.84694619235285,
+    "|F|": 5.446920462603576e-12,
+    "iterations": 14,
+    "threshold": 1.8976041784123886e-10,
+    "converged": true,
+    "alpha": 316.882253642948,
+    "b": -0.002438895475697962,
+    "psi_a(l)": 0.003485178341308227,
+    "psi_b(l)": 0.0039795427635465975,
+    "zl": [
+     1.7425891706541135,
+     -1.631698776433924
+    ]
+   },
+   {
+    "theta": 185,
+    "alpha seed": 321.84694619235285,
+    "|F|": 8.640306886192562e-12,
+    "iterations": 15,
+    "threshold": 2.0198216283086522e-10,
+    "converged": true,
+    "alpha": 321.8825964996465,
+    "b": -0.004418771130221762,
+    "psi_a(l)": 0.003756636001851894,
+    "psi_b(l)": 0.006511991488892195,
+    "zl": [
+     1.8783180009259468,
+     -1.4737109700826214
+    ]
+   },
+   {
+    "theta": 190,
+    "alpha seed": 326.8469461923529,
+    "|F|": 7.938424488023556e-13,
+    "iterations": 47,
+    "threshold": 1.933782334004561e-10,
+    "converged": true,
+    "alpha": 326.88886529212255,
+    "b": -0.01216893143120481,
+    "psi_a(l)": 0.004001118237671757,
+    "psi_b(l)": 0.01587683105534204,
+    "zl": [
+     2.0005591188358784,
+     -1.30470215442492
+    ]
+   },
+   {
+    "theta": 195,
+    "alpha seed": 331.8469461923529,
+    "|F|": 3.771980856972925e-05,
+    "iterations": 80,
+    "threshold": 2.7971638190219446e-10,
+    "converged": false
+   },
+   {
+    "theta": 200,
+    "alpha seed": 336.84694619235285,
+    "|F|": 2.9178486254412e-12,
+    "iterations": 14,
+    "threshold": 3.6406396201954166e-10,
+    "converged": true,
+    "alpha": 336.86251265688804,
+    "b": 0.005324424114841636,
+    "psi_a(l)": 0.0043880389103458164,
+    "psi_b(l)": -0.004991784653350134,
+    "zl": [
+     2.194019455172908,
+     -0.9375257390626939
+    ]
+   },
+   {
+    "theta": 205,
+    "alpha seed": 341.84694619235285,
+    "|F|": 3.5065849576431487e-12,
+    "iterations": 9,
+    "threshold": 2.2382390320548895e-10,
+    "converged": true,
+    "alpha": 341.8663630476736,
+    "b": 0.0027936637847743133,
+    "psi_a(l)": 0.004535396235573138,
+    "psi_b(l)": -0.0020747753501512284,
+    "zl": [
+     2.2676981177865687,
+     -0.7426718137876565
+    ]
+   },
+   {
+    "theta": 210,
+    "alpha seed": 346.8469461923529,
+    "|F|": 7.921247527246078e-13,
+    "iterations": 8,
+    "threshold": 1.0004490147045469e-10,
+    "converged": true,
+    "alpha": 346.8688911483976,
+    "b": 0.0016424283660828535,
+    "psi_a(l)": 0.004647818731648776,
+    "psi_b(l)": -0.0008903947721881385,
+    "zl": [
+     2.323909365824388,
+     -0.5421209171586007
+    ]
+   },
+   {
+    "theta": 215,
+    "alpha seed": 351.8469461923529,
+    "|F|": 3.6241353782787393e-12,
+    "iterations": 8,
+    "threshold": 1.615323534082392e-10,
+    "converged": true,
+    "alpha": 351.86756895374174,
+    "b": 0.0009071262984746272,
+    "psi_a(l)": 0.004724666022279065,
+    "psi_b(l)": -0.00030622235974390327,
+    "zl": [
+     2.3623330111395324,
+     -0.3375741175829977
+    ]
+   },
+   {
+    "theta": 220,
+    "alpha seed": 356.8469461923529,
+    "|F|": 3.1082414524888343e-12,
+    "iterations": 9,
+    "threshold": 2.1745433511535854e-10,
+    "converged": true,
+    "alpha": 356.8625505563367,
+    "b": 0.0003315407197358058,
+    "psi_a(l)": 0.0047655257864376785,
+    "psi_b(l)": -4.330182430812249e-05,
+    "zl": [
+     2.3827628932188394,
+     -0.13060786120820492
+    ]
+   },
+   {
+    "theta": 225,
+    "alpha seed": 1.8469461923528636,
+    "|F|": 5.3876005765929517e-11,
+    "iterations": 13,
+    "threshold": 2.66982373307628e-10,
+    "converged": true,
+    "alpha": 1.854631902929722,
+    "b": -0.00019482939540193584,
+    "psi_a(l)": 0.004770209103635934,
+    "psi_b(l)": -1.5046958271972032e-05,
+    "zl": [
+     2.385104551817967,
+     0.07723145801961732
+    ]
+   },
+   {
+    "theta": 230,
+    "alpha seed": 6.846946192352843,
+    "|F|": 6.298360648223497e-11,
+    "iterations": 16,
+    "threshold": 4.0486507970713724e-10,
+    "converged": true,
+    "alpha": 6.843432676639801,
+    "b": -0.0007489750134344797,
+    "psi_a(l)": 0.004738769559823491,
+    "psi_b(l)": -0.0002129739129935987,
+    "zl": [
+     2.3693847799117456,
+     0.2843538291310831
+    ]
+   },
+   {
+    "theta": 235,
+    "alpha seed": 11.846946192352869,
+    "|F|": 7.15478974999079e-13,
+    "iterations": 9,
+    "threshold": 3.095965837889508e-10,
+    "converged": true,
+    "alpha": 11.827618585514289,
+    "b": -0.0014256833546454379,
+    "psi_a(l)": 0.004671554195794403,
+    "psi_b(l)": -0.0006973650920705488,
+    "zl": [
+     2.3357770978972012,
+     0.4891444441700597
+    ]
+   },
+   {
+    "theta": 240,
+    "alpha seed": 16.84694619235286,
+    "|F|": 4.67600969224991e-12,
+    "iterations": 19,
+    "threshold": 1.8446969425921504e-10,
+    "converged": true,
+    "alpha": 16.804236859630496,
+    "b": -0.0024186766911851415,
+    "psi_a(l)": 0.004569243320098182,
+    "psi_b(l)": -0.0016687715252041058,
+    "zl": [
+     2.284621660049091,
+     0.6899522913855901
+    ]
+   },
+   {
+    "theta": 245,
+    "alpha seed": 21.84694619235289,
+    "|F|": 3.5603606915297473e-12,
+    "iterations": 10,
+    "threshold": 9.678641029270111e-11,
+    "converged": true,
+    "alpha": 21.762254125219727,
+    "b": -0.004345664292524195,
+    "psi_a(l)": 0.004433085636511622,
+    "psi_b(l)": -0.00384530660042135,
+    "zl": [
+     2.2165428182558107,
+     0.8848604819834782
+    ]
+   },
+   {
+    "theta": 250,
+    "alpha seed": 26.846946192352885,
+    "|F|": 2.336781579011576e-11,
+    "iterations": 40,
+    "threshold": 9.776661718347377e-11,
+    "converged": true,
+    "alpha": 26.618627169292918,
+    "b": -0.011177968150668561,
+    "psi_a(l)": 0.004267561027390752,
+    "psi_b(l)": -0.011953556912029569,
+    "zl": [
+     2.133780513695376,
+     1.0693854867813897
+    ]
+   },
+   {
+    "theta": 255,
+    "alpha seed": 31.846946192352874,
+    "|F|": 0.0009547110885709711,
+    "iterations": 80,
+    "threshold": 2.0029756534795836e-10,
+    "converged": false
+   },
+   {
+    "theta": 260,
+    "alpha seed": 36.846946192352874,
+    "|F|": 5.107099724338191e-12,
+    "iterations": 45,
+    "threshold": 2.1450305973866202e-10,
+    "converged": true,
+    "alpha": 36.944984818189006,
+    "b": 0.0052553819003573745,
+    "psi_a(l)": 0.003815617118546955,
+    "psi_b(l)": 0.007540247766982708,
+    "zl": [
+     1.9078085592734775,
+     1.4347668561384586
+    ]
+   },
+   {
+    "theta": 265,
+    "alpha seed": 41.84694619235287,
+    "|F|": 3.8217071572956945e-12,
+    "iterations": 23,
+    "threshold": 1.2686007540549395e-10,
+    "converged": true,
+    "alpha": 41.897287466718545,
+    "b": 0.0027841291691661275,
+    "psi_a(l)": 0.00355377513413313,
+    "psi_b(l)": 0.004438342322865921,
+    "zl": [
+     1.776887567066565,
+     1.5941581920910823
+    ]
+   },
+   {
+    "theta": 270,
+    "alpha seed": 46.84694619235288,
+    "|F|": 4.41086077972931e-12,
+    "iterations": 17,
+    "threshold": 6.295775809361505e-11,
+    "converged": true,
+    "alpha": 46.876085169720334,
+    "b": 0.0016411673538874144,
+    "psi_a(l)": 0.003263792959420031,
+    "psi_b(l)": 0.00285960984710693,
+    "zl": [
+     1.6318964797100155,
+     1.7424242813101325
+    ]
+   },
+   {
+    "theta": 275,
+    "alpha seed": 51.84694619235287,
+    "|F|": 2.6165628974425175e-12,
+    "iterations": 13,
+    "threshold": 1.1959799451617293e-10,
+    "converged": true,
+    "alpha": 51.86327469733902,
+    "b": 0.0009076684626582404,
+    "psi_a(l)": 0.002948622684796559,
+    "psi_b(l)": 0.0017044007115652414,
+    "zl": [
+     1.4743113423982794,
+     1.877778926650876
+    ]
+   },
+   {
+    "theta": 280,
+    "alpha seed": 56.84694619235287,
+    "|F|": 8.613596190752685e-11,
+    "iterations": 7,
+    "threshold": 4.796544384542099e-10,
+    "converged": true,
+    "alpha": 56.85417984583649,
+    "b": 0.0003324412738779189,
+    "psi_a(l)": 0.0026108588538321185,
+    "psi_b(l)": 0.0006645595501288693,
+    "zl": [
+     1.3054294269160591,
+     1.999028406962828
+    ]
+   },
+   {
+    "theta": 285,
+    "alpha seed": 61.84694619235287,
+    "|F|": 5.683383595831774e-11,
+    "iterations": 7,
+    "threshold": 2.939283094653298e-10,
+    "converged": true,
+    "alpha": 61.84717486981722,
+    "b": -0.0001940411726388061,
+    "psi_a(l)": 0.0022531345065693585,
+    "psi_b(l)": -0.00040849533365214496,
+    "zl": [
+     1.126567253284679,
+     2.1051992631096397
+    ]
+   },
+   {
+    "theta": 290,
+    "alpha seed": 66.84694619235289,
+    "|F|": 3.638742113919759e-12,
+    "iterations": 11,
+    "threshold": 5.625617250052307e-10,
+    "converged": true,
+    "alpha": 66.84099420462992,
+    "b": -0.0007486839996617626,
+    "psi_a(l)": 0.0018782336238137205,
+    "psi_b(l)": -0.0016437062235691612,
+    "zl": [
+     0.9391168119068602,
+     2.195460600616212
+    ]
+   },
+   {
+    "theta": 295,
+    "alpha seed": 71.84694619235289,
+    "|F|": 6.4594161572641646e-12,
+    "iterations": 17,
+    "threshold": 3.5890350774299437e-10,
+    "converged": true,
+    "alpha": 71.83269961346143,
+    "b": -0.001426486137543528,
+    "psi_a(l)": 0.001489222995436786,
+    "psi_b(l)": -0.003236857554600971,
+    "zl": [
+     0.744611497718393,
+     2.269112520206458
+    ]
+   },
+   {
+    "theta": 300,
+    "alpha seed": 76.84694619235289,
+    "|F|": 3.702469211206936e-12,
+    "iterations": 21,
+    "threshold": 3.315891047282043e-10,
+    "converged": true,
+    "alpha": 76.81926567496187,
+    "b": -0.0024225563435771812,
+    "psi_a(l)": 0.0010893212495877483,
+    "psi_b(l)": -0.005634114313048701,
+    "zl": [
+     0.5446606247938741,
+     2.325689690556087
+    ]
+   },
+   {
+    "theta": 305,
+    "alpha seed": 81.84694619235289,
+    "|F|": 1.2718276489798765e-11,
+    "iterations": 28,
+    "threshold": 1.1342301944402901e-10,
+    "converged": true,
+    "alpha": 81.79779404495577,
+    "b": -0.0043670463484827724,
+    "psi_a(l)": 0.0006818262017666293,
+    "psi_b(l)": -0.01032862353552009,
+    "zl": [
+     0.34091310088331467,
+     2.3651279861292354
+    ]
+   },
+   {
+    "theta": 310,
+    "alpha seed": 86.84694619235287,
+    "|F|": 0.00014751400271840925,
+    "iterations": 80,
+    "threshold": 1.2659797259528208e-10,
+    "converged": false
+   },
+   {
+    "theta": 315,
+    "alpha seed": 91.84694619235287,
+    "|F|": 0.0005583884939893709,
+    "iterations": 80,
+    "threshold": 7.036354931272272e-10,
+    "converged": false
+   },
+   {
+    "theta": 320,
+    "alpha seed": 96.84694619235285,
+    "|F|": 9.641510720466102e-12,
+    "iterations": 33,
+    "threshold": 6.842843221291049e-10,
+    "converged": true,
+    "alpha": 96.8428622094334,
+    "b": 0.005341117907813149,
+    "psi_a(l)": -0.0005682770226828553,
+    "psi_b(l)": 0.01264664507715133,
+    "zl": [
+     -0.28413851134142765,
+     2.367789907549398
+    ]
+   },
+   {
+    "theta": 325,
+    "alpha seed": 101.84694619235285,
+    "|F|": 1.6833125101168138e-12,
+    "iterations": 16,
+    "threshold": 6.690113671399326e-10,
+    "converged": true,
+    "alpha": 101.82090886106865,
+    "b": 0.002807758606798803,
+    "psi_a(l)": -0.0009775913853876347,
+    "psi_b(l)": 0.0065574500208099625,
+    "zl": [
+     -0.48879569269381734,
+     2.3354749959385854
+    ]
+   },
+   {
+    "theta": 330,
+    "alpha seed": 106.84694619235286,
+    "|F|": 2.137734842015584e-12,
+    "iterations": 13,
+    "threshold": 6.272418137946549e-10,
+    "converged": true,
+    "alpha": 106.8121014495944,
+    "b": 0.0016524105959639292,
+    "psi_a(l)": -0.0013806133137608848,
+    "psi_b(l)": 0.0037751995215608626,
+    "zl": [
+     -0.6903066568804423,
+     2.2846618938306977
+    ]
+   },
+   {
+    "theta": 335,
+    "alpha seed": 111.8469461923529,
+    "|F|": 6.8661917454430814e-12,
+    "iterations": 9,
+    "threshold": 6.534824257568811e-10,
+    "converged": true,
+    "alpha": 111.80842260374455,
+    "b": 0.0009146049281664357,
+    "psi_a(l)": -0.001773577966914469,
+    "psi_b(l)": 0.0020269344087207597,
+    "zl": [
+     -0.8867889834572344,
+     2.2161857500421287
+    ]
+   },
+   {
+    "theta": 340,
+    "alpha seed": 116.84694619235287,
+    "|F|": 5.512750597715782e-12,
+    "iterations": 9,
+    "threshold": 6.260082604017581e-11,
+    "converged": true,
+    "alpha": 116.80770109014863,
+    "b": 0.0003374453182216881,
+    "psi_a(l)": -0.0021532788898287634,
+    "psi_b(l)": 0.000718985351875272,
+    "zl": [
+     -1.0766394449143817,
+     2.130672180204697
+    ]
+   },
+   {
+    "theta": 345,
+    "alpha seed": 121.84694619235289,
+    "|F|": 3.8311698653979885e-12,
+    "iterations": 10,
+    "threshold": 2.2450738405844008e-10,
+    "converged": true,
+    "alpha": 121.80844861583465,
+    "b": -0.00018994823386691987,
+    "psi_a(l)": -0.0025166784459961862,
+    "psi_b(l)": -0.000385371792715582,
+    "zl": [
+     -1.258339222998093,
+     2.028825353467505
+    ]
+   },
+   {
+    "theta": 350,
+    "alpha seed": 126.84694619235286,
+    "|F|": 6.06490107994063e-11,
+    "iterations": 13,
+    "threshold": 2.7161214111284917e-10,
+    "converged": true,
+    "alpha": 126.80964750688449,
+    "b": -0.0007449434234513088,
+    "psi_a(l)": -0.002860916669899368,
+    "psi_b(l)": -0.0014239310684659653,
+    "zl": [
+     -1.430458334949684,
+     1.91146203005447
+    ]
+   },
+   {
+    "theta": 355,
+    "alpha seed": 131.8469461923529,
+    "|F|": 1.5879580346636414e-12,
+    "iterations": 14,
+    "threshold": 1.595752925493695e-10,
+    "converged": true,
+    "alpha": 131.8107318842475,
+    "b": -0.0014230180387998052,
+    "psi_a(l)": -0.0031833197762959333,
+    "psi_b(l)": -0.002532265993429621,
+    "zl": [
+     -1.5916598881479667,
+     1.779503790103302
+    ]
+   }
+  ]
+ },
+ "seconds scans": 253,
+ "clusters": [],
+ "seconds polish": 0,
+ "seconds": 411
+}

@@ -1,0 +1,170 @@
+{
+ "id": "B1527",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1523",
+  "B1509",
+  "B1522",
+  "B1520",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "the 758 word states to length 12 (536 once-punctured-torus bundles) near their complete hyperbolic structure rho_hyp in SL(4,R): the class index (main's B1297) of the vacua nu (x) rho and nu (x) Lambda^2 rho, every character nu, at rho_hyp and on the projective deformations whose cusp is a generalized cusp of type 0 or 1 (finite volume); computed on ten states: +-LR, +-LLRLRR, +-L3RLR2, +-L4RL3R2, +-L4RLR3LR2",
+  "reach": "class",
+  "hypotheses": [
+   "near rho_hyp (Part A and Proposition Pi are local)",
+   "rigid rel cusp with the fibre boundary a rigid slope: established on all 536 manifolds by sm:B1523 (Heusener-Porti Cor. 5.4, Def. 7.1); Part H needs neither and holds on every word state",
+   "Ballas arXiv:1805.09274 section 4 (S meets the image of the restriction in a two-dimensional submanifold), Ballas-Cooper-Leitner arXiv:1710.03132 Thm 0.6 (types 0 and 1 have finite volume), Cooper-Long-Tillmann arXiv:1511.06206 Thm 0.2 (generalized-cusp holonomies are open in the flag-group representations): cited, not re-derived",
+   "the parabolic rigidity of the complete structure (the restriction to the cusp is injective and the meridian's complex length is a local coordinate: Thurston; Weil, Garland): cited",
+   "reductive modules nu (x) rho and nu (x) Lambda^2 rho only; non-split extensions (sm:B1509's W1, W2) are not covered",
+   "Proposition Pi covers the cusps of types 0-2 (Ballas' slice); diagonalizable (type-3) cusps also occur near rho_hyp (Ballas-Danciger-Lee Thm 4.1 with Cooper-Long-Tillmann Thm 0.2), have infinite volume, and are outside the finite-volume claim (E53 instance)"
+  ]
+ },
+ "claim_one_line": "THE CUSP DECIDES, run as sealed (4f802f15; 51 minutes on four cores; sL-10 item 8): near the hyperbolic point of every word state to length 12, every finite-volume convex projective structure with a generalized cusp (types 0 and 1) has I(nu (x) rho) = I(nu (x) Lambda^2 rho) = 0 for every character nu, mirror-broken or not. Lemma C: nu(l) = 1 because the fibre boundary l = abAB is a commutator, so wherever rho(l) has no eigenvalue 1 the cusp is acyclic and I = a0 - b0 (on m004 the audit lane's R44 section 1 and sm:B1509 T1). Part H: I = 0 at rho_hyp for every nu, both modules. Part A: on a type-one path rho(l) has no eigenvalue 1 for small s != 0, the fibre boundary being a rigid slope (sm:B1523); its one-line step checked exactly after the run. As sealed P1 YES (3,740 Part H rows, route W on 1,664) and P2-P8 NO for want of points: the sealed scan found type-one points only on +LR, its solver's budget checked only from a seed on the solution (E31); outcome C as read, and no index computed is non-zero. After the run (X1, X1c, X2; disclosed, not sealed): six type-one frames 60 degrees apart on all ten states (+-LR, +-LLRLRR, +-L3RLR2, +-L4RL3R2, +-L4RLR3LR2), their lines on 30 + 60Z turned by 0, 0, 8.2555, 20.1143 and 0.9500 degrees, and I = 0 on all 1,656 index rows at the sixty points at 100 digits, with nullities 4 and 5. Proposition Pi narrowed to types 0-2 (E53): type-3 cusps also occur near rho_hyp, with infinite volume. Kill record the-cusp-decides (F-HE, class). Registered: sL-10 item 9 (the eigenvalue-one locus of the infinite-volume part). The points are exported without readings for main's L242 (e). I-26 stays UNEARNED. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the seal)": "48f6af3b",
+    "origin/main (at the seal)": "5c0951b7",
+    "origin/audit/physical-bridge-2026-09-05": "24c039c8",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/sep16-branch": "3205984b",
+    "origin/art/camper-van-bar": "b3745696",
+    "origin/main (refreshed at banking, 2026-10-03)": "bad64d34",
+    "seat/standard-model-derivation-0qt6ao (at banking)": "df3f809b",
+    "origin/main (second fetch at banking, 2026-10-03)": "7ccae5a2"
+   },
+   "terms": [
+    "type 1 cusp",
+    "type-one",
+    "type one cusp",
+    "generalized cusp",
+    "unipotent direction",
+    "Theorem 5.8",
+    "p-curve",
+    "slice coordinates",
+    "acyclic cusp",
+    "mirror-broken",
+    "infinite volume",
+    "type 2 cusp",
+    "type two",
+    "type-two",
+    "weight-3",
+    "weight 3",
+    "eigenvalue-one",
+    "eigenvalue one",
+    "Cooper-Long-Tillmann",
+    "Long-Tillmann",
+    "Deforming convex projective",
+    "item 8",
+    "polar"
+   ],
+   "hits": [
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@24c039c8: CANONICAL_CUSP.md (R44) and CANONICAL_DUALITY.md (R48), and main's B1457 readers that row them",
+     "bearing": "on m004's Ballas curve the ends are type-one generalized cusps of finite volume; R44 section 1: the peripheral torus Lambda - I is invertible for q != 1, also twisted and dual, so the torus complex is acyclic. Lemma C is that argument on every word state and every representation; credited"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1509 (T1)",
+     "bearing": "the same fact for m004 for every twist (nu trivial on the longitude, no boundary cohomology for q != 1, I = 0 by B1297); credited"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1523 (Lemma S; the rigid fibre boundary on all 536; Lemma T)",
+     "bearing": "the weight-3 zero lines of the cusp class, the rigid slope Part A needs, and item 8 itself"
+    },
+    {
+     "where": "main@bad64d34: frontier/B1461 (S44, governance gates)",
+     "bearing": "new at banking; does not bear"
+    },
+    {
+     "where": "main@7ccae5a2: frontier/B1462 (S45, the seats harvested), docs/OPEN_LEADS.md L242 (e), docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_SIX_ARCS_HARVESTED_GENESIS_V1_7.md",
+     "bearing": "new at banking: registers L242 (e), a blind second-route run of main's class index on +-LLRLRR and +-L3RLR2 after this seat's seal; not yet run, computes no class index on a projective deformation; this arc's points are exported without readings for it (export_points.py)"
+    },
+    {
+     "where": "main@7ccae5a2: docs/HARVEST_LEDGER.md row 703 and B1457's readers ('type-one'); B1453 and B1462 ('generalized cusp', 'mirror-broken', 'item 8')",
+     "bearing": "main's harvest rows of the audit lane's R44 and of this seat's own arcs; nothing new"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@24c039c8: reports/physical_bridge_2026_09_05/SOURCE_SCALAR_PROOF.md, UPSTREAM_3_DESIGN.md ('eigenvalue-one', 'eigenvalue one')",
+     "bearing": "a Laplacian's eigenspace and a G2 check; unrelated"
+    },
+    {
+     "where": "seat lanes (determined-hopper, magical-wright): PROGRESS_LOG, OPEN_LEADS ('acyclic cusp')",
+     "bearing": "copies of this branch's sm:B1368, sm:B1372 and sm:B1513 records; nothing new"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "generalized cusps type 1 without symmetry (at the seal)",
+    "type 1 once-punctured torus bundles convex projective (at the seal)",
+    "Cooper Long Tillmann Deforming convex projective manifolds generalized cusps theorem (at banking)",
+    "Ballas Cooper Leitner moduli space of marked generalized cusps (at banking)",
+    "generalized cusp type 1 deformations hyperbolic 3-manifold convex projective without symmetry once-punctured torus bundle (at banking)"
+   ],
+   "sources": [
+    {
+     "cite": "S. Ballas, Constructing convex projective 3-manifolds with generalized cusps, arXiv:1805.09274",
+     "where": "(3.1) the slice; Thm 3.2; Prop. 3.6 and Cor. 3.7; section 4 (strategy paragraph, Thms 4.1, 4.2); Thm 5.1, Remark 5.2; Lemma 5.3, Thm 5.8, Cor. 5.9, Lemmas 5.10-5.11; Introduction pp. 2-3",
+     "read": "2026-10-03",
+     "says": "S meets the image of the restriction in a two-dimensional submanifold, one dimension being conjugacy at the hyperbolic point; a generic deformation from Thm 0.2 has type-2 cusps, and type 1 is obtained there only through a symmetry"
+    },
+    {
+     "cite": "S. Ballas, D. Cooper, A. Leitner, Generalized cusps in real projective manifolds: classification, arXiv:1710.03132",
+     "where": "p. 1 (unipotent rank); Thm 0.6; Thm 0.5",
+     "read": "2026-10-03",
+     "says": "a generalized cusp has finite volume iff it contains a parabolic; for n = 3, types 0 and 1 have finite volume, types 2 and 3 do not"
+    },
+    {
+     "cite": "S. Ballas, D. Cooper, A. Leitner, The moduli space of marked generalized cusps in real projective manifolds, arXiv:2008.09553",
+     "where": "Thm 1.7 and the paragraph after it (p. 4); Thms 1.1-1.3",
+     "read": "2026-10-03",
+     "says": "three-dimensional cusps are (w, h, r) with |r| <= 3|h|, cubic Re(hz^3) + Re(rz|z|^2); the cone's interior is diagonalizable, its point standard; about cusps alone, not a manifold's deformations"
+    },
+    {
+     "cite": "D. Cooper, D. Long, S. Tillmann, Deforming convex projective manifolds, Geom. Topol. 22 (2018), arXiv:1511.06206",
+     "where": "Thm 0.2 (p. 1); p. 2",
+     "read": "2026-10-03",
+     "says": "holonomies of properly convex structures whose ends are generalized cusps are open among the representations with virtual-flag-group peripheral images; a cusp's type can change along a deformation"
+    },
+    {
+     "cite": "S. Ballas, J. Danciger, G.-S. Lee, Convex projective structures on non-hyperbolic three-manifolds, Geom. Topol. 22 (2018), arXiv:1508.04794",
+     "where": "Thm 3.2 (at the seal); section 4, Thm 4.1, p. 18 (at banking)",
+     "read": "2026-10-03",
+     "says": "rigid rel boundary makes rho_hyp a smooth point; on such M a path from rho_hyp with peripheral holonomy diagonalizable over R for t != 0: with Cooper-Long-Tillmann, type-3 cusps near rho_hyp (the correction to Pi's first sentence, E53)"
+    },
+    {
+     "cite": "M. Heusener, J. Porti, Infinitesimal projective rigidity under Dehn filling, Geom. Topol. 15 (2011), arXiv:0908.2863",
+     "where": "Def. 7.1; Lemma 5.5, Remark 5.6",
+     "read": "2026-10-03",
+     "says": "rigid slopes; restriction to two slopes injective unless they meet at pi/3"
+    },
+    {
+     "cite": "M. D. Bobb, Convex projective manifolds with a cusp of any non-diagonalizable type, arXiv:1808.02779",
+     "where": "Introduction; Thm 8.2",
+     "read": "2026-10-03",
+     "says": "every non-diagonalizable type is realised, by bending arithmetic manifolds; nothing on type 1 near rho_hyp without symmetry"
+    },
+    {
+     "cite": "C. Daly, arXiv:2411.04431 and arXiv:2408.08405",
+     "where": "the rigidity certificates",
+     "read": "2026-10-03",
+     "says": "no cusp types"
+    }
+   ]
+  },
+  "standing": "EXTENDS",
+  "why": "Lemma C is sm:B1509 T1 and R44 section 1 (m004), taken to every word state and representation; the two-dimensional S meet I is Ballas section 4. Added, as far as swept: three type-one curves through rho_hyp on every word state with no symmetry needed, 60 degrees apart on the zero lines of the cusp class (Ballas' symmetric family being one of them), the class index on them (zero, Part A), and the census of ten states. Pi's confirmation is after the run, not sealed."
+ }
+}

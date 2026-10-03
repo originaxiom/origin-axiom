@@ -1,0 +1,219 @@
+{
+ "manifold": "+LR",
+ "a": 1e-05,
+ "alpha_1 (X1's first frame)": 60.00000014901162,
+ "frames": [
+  {
+   "seed frame": 60.00000014901162,
+   "converged": true,
+   "|F|": 1.4561153822887588e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 59.99999999977221,
+   "beta": 30.000000000227796,
+   "|z_l| / R0": 0.999999942110243,
+   "X1 frame": 60.00000014901162,
+   "|alpha - X1's alpha| (deg)": 1.4923941193956125e-07,
+   "|beta - X1's beta| (deg)": 1.492394048341339e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 120.00000014901161,
+   "converged": true,
+   "|F|": 1.2004852301194095e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 119.99999999973929,
+   "beta": 150.0000000002607,
+   "|z_l| / R0": 0.9999998019499377,
+   "X1 frame": 120.0000001490116,
+   "|alpha - X1's alpha| (deg)": 1.4927231006822694e-07,
+   "|beta - X1's beta| (deg)": 1.4927232427908166e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 180.0000001490116,
+   "converged": true,
+   "|F|": 1.4857946995843482e-14,
+   "threshold": 1e-11,
+   "iterations": 4,
+   "alpha": 179.99999999888817,
+   "beta": 90.00000000111183,
+   "|z_l| / R0": 0.9999986614639808,
+   "X1 frame": 180.0000001490116,
+   "|alpha - X1's alpha| (deg)": 1.501234123679751e-07,
+   "|beta - X1's beta| (deg)": 1.5012344078968454e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 240.0000001490116,
+   "converged": true,
+   "|F|": 1.3839245795607499e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 240.00000000014654,
+   "beta": 29.999999999853458,
+   "|z_l| / R0": 1.0000000580287858,
+   "X1 frame": 239.99999985098836,
+   "|alpha - X1's alpha| (deg)": 1.4915821111571859e-07,
+   "|beta - X1's beta| (deg)": 1.4915818269400916e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 300.0000001490116,
+   "converged": true,
+   "|F|": 1.6285010008486605e-14,
+   "threshold": 1e-11,
+   "iterations": 3,
+   "alpha": 299.99999999914957,
+   "beta": 150.00000000085046,
+   "|z_l| / R0": 1.0000001982057538,
+   "X1 frame": 300.00000014901167,
+   "|alpha - X1's alpha| (deg)": 1.498620463280531e-07,
+   "|beta - X1's beta| (deg)": 1.4986210317147197e-07,
+   "same frame as X1": true
+  },
+  {
+   "seed frame": 1.4901161193847656e-07,
+   "converged": true,
+   "|F|": 1.980906650295322e-14,
+   "threshold": 1e-11,
+   "iterations": 4,
+   "alpha": 2.7438961308499195e-10,
+   "beta": 89.99999999972562,
+   "|z_l| / R0": 1.0000042069872348,
+   "X1 frame": 359.9999998509884,
+   "|alpha - X1's alpha| (deg)": 1.4928599512131768e-07,
+   "|beta - X1's beta| (deg)": 1.4928598091046297e-07,
+   "same frame as X1": true
+  }
+ ],
+ "frames converged": 6,
+ "frames X1 had": 6,
+ "agree with X1": 6,
+ "new points": [],
+ "controls (3 degrees off)": [
+  {
+   "seed frame": 57.00000014901162,
+   "converged": false,
+   "|F|": 2.139542845279743e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 57.012266355207956,
+   "beta": 32.987733644792044,
+   "|z_l| / R0": 0.9990059161859715
+  },
+  {
+   "seed frame": 63.00000014901162,
+   "converged": false,
+   "|F|": 1.846754876622026e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 62.99951888234409,
+   "beta": 27.000481117655923,
+   "|z_l| / R0": 0.9997219756686978
+  },
+  {
+   "seed frame": 117.00000014901161,
+   "converged": false,
+   "|F|": 1.905960544314385e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 117.00000991941323,
+   "beta": 152.99999008058677,
+   "|z_l| / R0": 0.9998280413570625
+  },
+  {
+   "seed frame": 123.00000014901161,
+   "converged": false,
+   "|F|": 2.1680213440683817e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 122.99995936561575,
+   "beta": 147.00004063438425,
+   "|z_l| / R0": 0.9992415084626401
+  },
+  {
+   "seed frame": 177.0000001490116,
+   "converged": false,
+   "|F|": 3.526238498346322e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 177.00240452943092,
+   "beta": 92.9975954705691,
+   "|z_l| / R0": 0.9995286783895472
+  },
+  {
+   "seed frame": 183.0000001490116,
+   "converged": false,
+   "|F|": 3.51274869917557e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 182.99971743897748,
+   "beta": 87.00028256102252,
+   "|z_l| / R0": 0.9997285550501972
+  },
+  {
+   "seed frame": 237.0000001490116,
+   "converged": false,
+   "|F|": 2.143346900450247e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 237.00050980434628,
+   "beta": 32.99949019565372,
+   "|z_l| / R0": 0.9997058998716748
+  },
+  {
+   "seed frame": 243.0000001490116,
+   "converged": false,
+   "|F|": 1.871914319154187e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 242.99975108063444,
+   "beta": 27.00024891936556,
+   "|z_l| / R0": 0.9997336164199992
+  },
+  {
+   "seed frame": 297.0000001490116,
+   "converged": false,
+   "|F|": 1.8116080226577434e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 297.0065478530588,
+   "beta": 152.99345214694117,
+   "|z_l| / R0": 0.9984878078283508
+  },
+  {
+   "seed frame": 303.0000001490116,
+   "converged": false,
+   "|F|": 2.141179038363103e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 302.99375613525063,
+   "beta": 147.00624386474937,
+   "|z_l| / R0": 0.9992104940860965
+  },
+  {
+   "seed frame": 357.0000001490116,
+   "converged": false,
+   "|F|": 3.295214036855163e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 357.0076393234763,
+   "beta": 92.99236067652367,
+   "|z_l| / R0": 0.9994128299164237
+  },
+  {
+   "seed frame": 3.000000149011612,
+   "converged": false,
+   "|F|": 3.3422614674864494e-05,
+   "threshold": 1e-11,
+   "iterations": 60,
+   "alpha": 2.9896757430608534,
+   "beta": 87.01032425693916,
+   "|z_l| / R0": 0.9994925821024473
+  }
+ ],
+ "controls converged": 0,
+ "seconds": 17
+}

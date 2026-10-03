@@ -1,0 +1,72 @@
+{
+ "+LR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLLRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLLLRLLLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLLLRLLLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "+LLLLRLRRRLRR": {
+  "frames converged": 6,
+  "frames X1 had": 6,
+  "agree with X1": 6,
+  "controls converged": 0,
+  "new points": 0
+ },
+ "-LLLLRLRRRLRR": {
+  "frames converged": 5,
+  "frames X1 had": 4,
+  "agree with X1": 4,
+  "controls converged": 3,
+  "new points": 1
+ }
+}

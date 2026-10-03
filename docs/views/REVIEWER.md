@@ -22,11 +22,11 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1274** |
-| words of findings prose | **1,070,501** |
-| test lock files referenced | **777** |
-| arcs carrying an authored verdict | **1274** (100.0 %) |
-| recorded closures | **820** (653 classified, 167 routed-only) |
+| research arcs with findings | **1275** |
+| words of findings prose | **1,076,659** |
+| test lock files referenced | **778** |
+| arcs carrying an authored verdict | **1275** (100.0 %) |
+| recorded closures | **821** (654 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 848 |
+| PROVED | 849 |
 | NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 90 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 91 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1526`** (2237 words, 1 locks)  
-GENESIS v1.6 (not sealed: every item checks a claim the record already fixes): main's v1.5 taken as the head, as main asked of both seats, with the owner's two decisions verbatim (FK1 CONFIRMED; FK12 framed as the register question); the SM seat's parallel v1.5 answered by its line -- GAP3's refinement is main's already, seven blocks carried as they were (the levels, the word states, the bar's null contract, AR6, B130's scope, the frontier, four rows), FK12's carried text fitted to the owner's framing with the experiential question kept apart under Gate 5-Q, and FK9 names P. B1297's P is shown by own code to be the fibre's elliptic involution, the one non-trivial outer class of m004 that keeps the orientation and the base (it inverts the fibre's homology, and SnapPy's symmetry group has exactly two isometries acting on the cusp as the identity); in Ballas' presentation it is the swap's class, as main's relay and this seat's B1512 and B1521 say. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.  
-`B1526_genesis_v16/FINDINGS.md`
+**PROVED — `B1527`** (6158 words, 1 locks)  
+THE CUSP DECIDES, run as sealed (4f802f15; 51 minutes on four cores; sL-10 item 8): near the hyperbolic point of every word state to length 12, every finite-volume convex projective structure with a generalized cusp (types 0 and 1) has I(nu (x) rho) = I(nu (x) Lambda^2 rho) = 0 for every character nu, mirror-broken or not. Lemma C: nu(l) = 1 because the fibre boundary l = abAB is a commutator, so wherever rho(l) has no eigenvalue 1 the cusp is acyclic and I = a0 - b0 (on m004 the audit lane's R44 section 1 and sm:B1509 T1). Part H: I = 0 at rho_hyp for every nu, both modules. Part A: on a type-one path rho(l) has no eigenvalue 1 for small s != 0, the fibre boundary being a rigid slope (sm:B1523); its one-line step checked exactly after the run. As sealed P1 YES (3,740 Part H rows, route W on 1,664) and P2-P8 NO for want of points: the sealed scan found type-one points only on +LR, its solver's budget checked only from a seed on the solution (E31); outcome C as read, and no index computed is non-zero. After the run (X1, X1c, X2; disclosed, not sealed): six type-one frames 60 degrees apart on all ten states (+-LR, +-LLRLRR, +-L3RLR2, +-L4RL3R2, +-L4RLR3LR2), their lines on 30 + 60Z turned by 0, 0, 8.2555, 20.1143 and 0.9500 degrees, and I = 0 on all 1,656 index rows at the sixty points at 100 digits, with nullities 4 and 5. Proposition Pi narrowed to types 0-2 (E53): type-3 cusps also occur near rho_hyp, with infinite volume. Kill record the-cusp-decides (F-HE, class). Registered: sL-10 item 9 (the eigenvalue-one locus of the infinite-volume part). The points are exported without readings for main's L242 (e). I-26 stays UNEARNED. 0 of 19.  
+`B1527_the_cusp_decides/FINDINGS.md`
 
 **NEGATIVE — `B1520`** (2789 words, 1 locks)  
 THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  
