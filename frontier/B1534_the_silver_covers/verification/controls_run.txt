@@ -1,0 +1,20 @@
+B1534 controls, 2026-10-03T22:55:45Z
+K0 holds: True
+K1 holds: True (35 s)
+K2 holds: True (28 samples, 70 s)
+K3 holds: True; (order, subgroups): [(4, 5), (8, 8), (8, 16)]
+K4 holds: True (93 s)
+   ('0', '1/2') E: h1(Q) 1, h2(S) 2, generic rank 0, special points 0
+   ('0', '1/2') E*: h1(Q) 2, h2(S) 0, generic rank 0, special points 0
+   ('0', '1/2') L2E: h1(Q) 2, h2(S) 2, generic rank 0, special points 0
+   ('0', '1/2') (L2E)*: h1(Q) 2, h2(S) 2, generic rank 2, special points 1
+   ('1/2', '0') E: h1(Q) 1, h2(S) 2, generic rank 0, special points 0
+   ('1/2', '0') E*: h1(Q) 2, h2(S) 0, generic rank 0, special points 0
+   ('1/2', '0') L2E: h1(Q) 2, h2(S) 2, generic rank 0, special points 0
+   ('1/2', '0') (L2E)*: h1(Q) 2, h2(S) 2, generic rank 2, special points 1
+K5 holds: True {'(s - 1)(s - i)': 2, 's^2 - 2': 2, 's^2 - 5': None, 's^2 + 1': 2, 's^2 - 7': None}
+K6 holds: True: R(2) (0, -1), direct(2) (0, -1), R(sqrt 5) (0, -1) (125 s)
+K7 holds: True {'m135 u (0, 1/2), c_int, the 3-fold cover along t': {'route C': (-1, -1), 'expected': (-1, -1)}, 'm136 u (0, 1/2), kappa -1, the common double cover (along t)': {'route C': (-1, -1), 'expected': (-1, -1)}} (168 s)
+K8 holds: True (229 s)
+K9 holds: True (242 s)
+all hold: True (242 s)
