@@ -605,3 +605,13 @@ Touched at the Review 57 anchor. **The window's headline is a closure, not an ad
 ## ⟳ VIEW REFRESH — 2026-10-02 (Review 58)
 
 Touched at the Review 58 anchor (`fd17a3bd`). **The window (B1410–B1447, 472 commits) has two halves.** Through B1431: the consolidation, the paper's passes, and gates repaired. From B1432, one line of mathematics on the Standard-Model frame: its index and couplings are one function, the slope (B1438); no flat bundle of rank n counts more than ⌊n/2⌋ on a once-punctured-torus bundle (B1440); every background is the reducible end of a periodic curve of the trace map, the slope its cusp shape there and a coupling a first-order torsion (B1444); the coupling is the coefficient of a mass term on the product of two such curves (B1445); at the boundary-parabolic points the numbers are exact, and the members of a deck orbit first differ on a rank-three branch off one member's curve (B1446, B1447). On everything computed the class index lives only at the reducible end. **0 of 19 is unchanged.** The review itself was repaired (B1448). Full review: `docs/progress/REVIEWS.md`, Review 58. **What changed for this view:** three problems are now stated on explicit objects rather than in words — what selects a point of a periodic curve (the boundary-parabolic points are finitely many and computed on one level); what turns a torsion into a mass (the eigenvalue pair behind it is computed; no rule); and whether the class index can be non-zero on an irreducible module (zero on 304 computed, unproved).
+
+## ⟳ VIEW REFRESH — 2026-10-03 (Review 59)
+
+Touched at the Review 59 anchor (`7b20d258`). **The window (B1449–B1464, 20 merges, one day) is the foundation lock and its
+consequences.** GENESIS went from the SM seat's v1.0 to v1.8 on main with the owner's two decisions in it (FK1 confirmed; FK12
+the register question); the zeros at the complete points became a theorem (B1459); the SM seat's levels census was reproduced by
+a third route and the mirror breaks exactly on the single-sheet twists (B1462); B37's and B130's early corrections were
+re-derived (B1463); the review loop was made able to fail itself (B1461) and the first thing it failed was its own seal gate
+(B1464: 41 of 46 seals without the provenance markers, frozen). **Derived parameters: 0 of 19.** The next computation, by
+the owner's word: a sourced non-split configuration at a non-complete point, graded against the bar.

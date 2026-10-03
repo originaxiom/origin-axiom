@@ -5800,4 +5800,4 @@ numbers is not known from the gate, only from each arc's text.
 - [>] R56-1: declined as stated: an open-ended harvest item cannot resolve; the harvest-debt gate ages rows on its own ratchet; the concrete remainder is R59-3 (declined at Review 59; carried from R58)
 - [>] R56-3: declined as a loop item: CLAIMS.md's rewrite is Stage 6 of THE_FOUNDATION_LOCK_PLAN and a declared debt of `doc_currency` (declined at Review 59; carried from R58)
 
-**anchor-commit: `ANCHOR_PLACEHOLDER`**
+**anchor-commit: `7b20d258`**
