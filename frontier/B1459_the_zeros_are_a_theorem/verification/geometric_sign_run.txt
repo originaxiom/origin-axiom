@@ -1,0 +1,18 @@
+-LR level 3: c = YXyxYXXYXXYXYXXYXXYXYXXYXYXXYXXYXYXXYXXYxyXY; 12 points, eps_geo = +1 on 4, -1 on 8; factor signs {1: 16, -1: 8}
++LLR level 3: c = xxyxxxyxxxyxxyxxxyxxxyxxxyxxyxxxyxxxyxxxyxxyxxxyxxxyxxyxxxyxxxyxxxyxxyxxxyxxxyxxxyxxyxxxyxxxyxx; 12 points, eps_geo = +1 on 7, -1 on 5; factor signs {1: 13, -1: 11}
++LRR level 3: c = xyxyxxyxyxyxxyxyxyxxyxyxxyxyxyxxyxyxyxxyxyxyxxyxyxxyxyxyxxyxyxyxxyxyxyxxyxyxxyxyxyxxyxyxyxxyxyx; 12 points, eps_geo = +1 on 4, -1 on 8; factor signs {1: 16, -1: 8}
+-LLRLR level 1: c = YXXXYXXXYXXYXXXYXXXY; 12 points, eps_geo = +1 on 6, -1 on 6; factor signs {1: 6, -1: 18}
+-LRLRR level 1: c = YXXYXXYXYXXYXYXXYXXY; 12 points, eps_geo = +1 on 6, -1 on 6; factor signs {1: 6, -1: 18}
+-LLLRLR level 1: c = YXXXXYXXXXYXXXYXXXXYXXXXY; 12 points, eps_geo = +1 on 6, -1 on 6; factor signs {1: 10, -1: 14}
+-LRLRRR level 1: c = YXXYXXYXYXXYXYXXYXYXXYXXY; 12 points, eps_geo = +1 on 6, -1 on 6; factor signs {1: 12, -1: 12}
++LLLRR level 2: c = xxxyxxxyxxxxyxxxyxxxxyxxxyxxxxyxxxyxxxyxxxxyxxxyxxxxyxxxyxxxxyxxxyxxxyxxxxyxxxyxxxxyxxxyxxxxyxxxyxxx; 12 points, eps_geo = +1 on 12, -1 on 0; factor signs {1: 24, -1: 0}
+-LLLRR level 2: c = YXyxxxxyxxxyxxxxyxxxyxxxxyxxxyxxxxyxxxyxxxyxxxxyxxxyxxxxyxxxyxxxxyxxxyxxxyxxxxyxxxyxxxxyxxxyxxxxyxxxyxxxxyXY; 12 points, eps_geo = +1 on 12, -1 on 0; factor signs {1: 24, -1: 0}
++LLRRR level 2: c = xxyxxyxxyxxxyxxyxxyxxxyxxyxxyxxyxxxyxxyxxyxxxyxxyxxyxxyxxxyxxyxxyxxxyxxyxxyxxyxxxyxxyxxyxxxyxxyxxyxx; 12 points, eps_geo = +1 on 12, -1 on 0; factor signs {1: 24, -1: 0}
+-LLRRR level 2: c = YXyxxxyxxyxxyxxxyxxyxxyxxxyxxyxxyxxyxxxyxxyxxyxxxyxxyxxyxxyxxxyxxyxxyxxxyxxyxxyxxyxxxyxxyxxyxxxyxxyxxyxxxyXY; 12 points, eps_geo = +1 on 12, -1 on 0; factor signs {1: 24, -1: 0}
++LLLLLR level 2: c = xxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxx; 12 points, eps_geo = +1 on 6, -1 on 6; factor signs {1: 12, -1: 12}
+-LLLLLR level 2: c = YXyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyxxxxxxyXY; 12 points, eps_geo = +1 on 6, -1 on 6; factor signs {1: 12, -1: 12}
++LRRRRR level 2: c = xyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyx; 12 points, eps_geo = +1 on 4, -1 on 8; factor signs {1: 16, -1: 8}
+-LRRRRR level 2: c = YXyxxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxxyXY; 12 points, eps_geo = +1 on 4, -1 on 8; factor signs {1: 16, -1: 8}
++LR level 4: c = xyxxyxyxxyxxyxyxxyxyxxyxxyxyxxyxxyxyxxyxyxxyxxyxyxxyxyxxyxxyxyxxyxxyxyxxyxyxxyxxyxyxxyx; 8 points, eps_geo = +1 on 4, -1 on 4; factor signs {1: 8, -1: 8}
+points 188, eps_geo +1 111, -1 77, factor signs {'+1': 239, '-1': 137}, twisted indices [0], failures 0
+VERDICT geometric-sign: PASS

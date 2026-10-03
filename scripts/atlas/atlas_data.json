@@ -9419,6 +9419,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1459": {
+   "slug": "the zeros are a theorem",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "L1",
+    "L2",
+    "L242",
+    "L3",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B145": {
    "slug": "forced chirality",
    "motifs": [

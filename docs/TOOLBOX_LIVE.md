@@ -109,6 +109,13 @@ escalation are the proof).
     `refine_degenerate.py::polish` (110 digits, the Newton step doubled along the degenerate direction) and assert
     the gap between the smallest singular value kept and the largest dropped. `exact_values.py` identifies a point
     and its torsions at 300 digits by `algdep`, accepting only polynomials short against the precision.
+  - `frontier/B1459_the_zeros_are_a_theorem/verification/geometric_sign.py` — on any level: `word_c(Phi)` the word c ∈ F
+    with c·Φ(ιw)·c⁻¹ = ι(Φw) (free-group conjugacy by cyclic reduction and rotation; the elliptic involution extended
+    to the bundle group), and from it the pullback's meridian ρ(c)T and the sign ε in ι̃*ρ ≅ ρ ⊗ ε. **The trap it was
+    written to escape (E82 instance, B1459):** `curve_engine.intertwiner` normalises tr T ≥ 0; comparing two normalised
+    intertwiners cannot return ε = −1 wherever tr T ≠ 0, so a sign read that way is a normalisation, not a measurement.
+    The geometric sign is −1 on 137 of B1451's 376 factors. Reading B1451's stored points: `mpmathify`, then polish
+    with `curve_engine.newton` at the stored κ (30 stored digits are not on the curve to the engine's 1e−30).
   - `frontier/B1447_the_branch_off_one_members_higgs_curve/verification/branch_obstruction.py` — a representation of a
     level given by matrices on x, y, t: `G` (the relators), `dG`, classes supported in a block, and the second-order
     test (is G(εu)/ε² in the image of dG); `branch_follow.py::newton` and `burnside` construct nearby exact

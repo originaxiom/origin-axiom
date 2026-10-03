@@ -1,0 +1,3 @@
+-LLRLR level 1: 12 points; C1 12, C2 12, C3 12, C4 12
+sign margins: residual to +T <= 3.368e-60, residual to -T >= 2.0
+VERDICT twisted-branch-control: PASS

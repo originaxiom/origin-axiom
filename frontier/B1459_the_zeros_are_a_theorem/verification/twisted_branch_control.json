@@ -1,0 +1,338 @@
+{
+ "state": "-LLRLR",
+ "k": 1,
+ "rows": [
+  {
+   "l": [
+    3,
+    7
+   ],
+   "eta": [
+    9,
+    9
+   ],
+   "A1": [
+    0,
+    8
+   ],
+   "cusp_invariants_V": 1,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.2044",
+    "4.779e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    3,
+    7
+   ],
+   "eta": [
+    6,
+    10
+   ],
+   "A1": [
+    0,
+    8
+   ],
+   "cusp_invariants_V": 2,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.3637",
+    "1.088e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    3,
+    7
+   ],
+   "eta": [
+    3,
+    3
+   ],
+   "A1": [
+    3,
+    11
+   ],
+   "cusp_invariants_V": 1,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.2044",
+    "3.928e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    3,
+    7
+   ],
+   "eta": [
+    6,
+    2
+   ],
+   "A1": [
+    3,
+    11
+   ],
+   "cusp_invariants_V": 2,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.4382",
+    "1.427e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    3,
+    11
+   ],
+   "eta": [
+    9,
+    9
+   ],
+   "A1": [
+    0,
+    4
+   ],
+   "cusp_invariants_V": 1,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.5344",
+    "3.073e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    3,
+    11
+   ],
+   "eta": [
+    6,
+    2
+   ],
+   "A1": [
+    0,
+    4
+   ],
+   "cusp_invariants_V": 2,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.6843",
+    "5.327e-61"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    3,
+    11
+   ],
+   "eta": [
+    3,
+    3
+   ],
+   "A1": [
+    3,
+    7
+   ],
+   "cusp_invariants_V": 1,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.5344",
+    "1.985e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    3,
+    11
+   ],
+   "eta": [
+    6,
+    10
+   ],
+   "A1": [
+    3,
+    7
+   ],
+   "cusp_invariants_V": 2,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.6287",
+    "6.93e-61"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    9,
+    1
+   ],
+   "eta": [
+    3,
+    3
+   ],
+   "A1": [
+    0,
+    8
+   ],
+   "cusp_invariants_V": 1,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.5344",
+    "9.672e-61"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    9,
+    1
+   ],
+   "eta": [
+    6,
+    10
+   ],
+   "A1": [
+    0,
+    8
+   ],
+   "cusp_invariants_V": 2,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.6287",
+    "7.062e-61"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    9,
+    1
+   ],
+   "eta": [
+    9,
+    9
+   ],
+   "A1": [
+    9,
+    5
+   ],
+   "cusp_invariants_V": 1,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.5344",
+    "1.604e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  },
+  {
+   "l": [
+    9,
+    1
+   ],
+   "eta": [
+    6,
+    2
+   ],
+   "A1": [
+    9,
+    5
+   ],
+   "cusp_invariants_V": 2,
+   "cusp_invariants_V_eps": 0,
+   "index_V_eps": 0,
+   "gap": [
+    "0.6843",
+    "1.211e-60"
+   ],
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  }
+ ],
+ "margins": {
+  "(3, 7)": {
+   "residual_plus": "1.585e-60",
+   "residual_minus": "2.0"
+  },
+  "(9, 9)": {
+   "residual_plus": "2.509e-60",
+   "residual_minus": "5.318"
+  },
+  "(6, 10)": {
+   "residual_plus": "3.261e-61",
+   "residual_minus": "2.0"
+  },
+  "(3, 3)": {
+   "residual_plus": "3.368e-60",
+   "residual_minus": "5.318"
+  },
+  "(6, 2)": {
+   "residual_plus": "1.703e-61",
+   "residual_minus": "2.0"
+  },
+  "(3, 11)": {
+   "residual_plus": "9.364e-61",
+   "residual_minus": "2.0"
+  },
+  "(9, 1)": {
+   "residual_plus": "1.065e-60",
+   "residual_minus": "2.0"
+  }
+ },
+ "points": 12,
+ "pass": true
+}

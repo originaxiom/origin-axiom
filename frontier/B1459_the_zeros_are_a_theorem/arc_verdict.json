@@ -1,0 +1,24 @@
+{
+ "id": "B1459",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1297",
+  "B1444",
+  "B1446",
+  "B1451",
+  "B1455"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI",
+  "object": "the 188 complete (doubly parabolic) points of B1451 on 16 levels of word states, and B1446's 24 on the root by the same argument (not re-run)",
+  "reach": "class",
+  "hypotheses": "a once-punctured-torus bundle (the fibre's elliptic involution extends to pi_1); SL(2) factors irreducible on the fibre (B1444 Theorem A); a fibre character; in the eps = -1 branch a unipotent meridian. Not covered: non-split modules (B1455's W1 counts -1), B1447's sixteen non-self-dual zeros, modules away from the complete points with eps = -1"
+ },
+ "claim_one_line": "THE ZEROS AT THE COMPLETE POINTS ARE A THEOREM, NOT A CENSUS. For V = rho_l (x) rho_eta (x) chi at a doubly parabolic point of a level, the fibre's elliptic involution extended to pi_1 by a word c (found and unique on all 16 levels) pulls V back to V* (x) eps with eps = +-1 a meridian sign; by B1297's three lines I(V) = -I(V (x) eps), zero when eps = +1, and when eps = -1 the cusp of V (x) eps fixes no vector so I(V (x) eps) = 0 and I(V) = 0 again. Computed on B1451's 188 points: eps_geo = +1 on 111, -1 on 77 (factors 239 : 137); on all 77 twisted points I(V (x) eps) = 0 with meridian -T; recomputed I(V) = 0 on 188/188; the audit lane's R58-6 statement given with hypotheses (L242 (c) paid). The sealed detector read eps from trace-normalised intertwiners and so could not return -1 on the population (E82 class, found after the run, repaired by the post-seal word-c instrument; P2 FAIL as sealed, TRUE geometrically); the seal's controls were written as sentences, not run; two-line loader repair disclosed. Nothing selects a state. 0 of 19."
+}

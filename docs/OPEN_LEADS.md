@@ -3315,6 +3315,19 @@ zeros the criterion does not explain. (b) The same test on the levels M₃ to M�
 seats count on covers and the symmetry group is larger. (c) The minimal statement the audit lane asked for, with its
 hypotheses. (d) The handoff's "12 up to Aut" for m202.
 
+- **(a), B1451's 188 — PAID 2026-10-03 (B1459, PROVED):** every one of the 188 is fixed by Θ_ι̃, the fibre's elliptic
+  involution extended to the bundle group by a word c (found and unique on all 16 levels), up to a meridian sign:
+  ι̃*V ≅ V* ⊗ ε. Where ε = +1 (111 points) I(V) = 0 outright; where ε = −1 (77 points) I(V) = −I(V ⊗ ε) and the cusp of
+  V ⊗ ε fixes no vector at a doubly parabolic point, so I(V ⊗ ε) = 0, computed on all 77. B1446's 24 by the same
+  argument (not re-run). **Still owed under (a): B1447's sixteen non-self-dual zeros**, which are not of the form
+  ρ_ℓ ⊗ ρ_η ⊗ χ and are not covered. The sealed sign detector could not see ε = −1 (E82 instance, ERROR_LEDGER);
+  the geometric sign is `geometric_sign.json`, per curve.
+- **(c) — PAID 2026-10-03 (B1459 §1):** the statement with its hypotheses — a once-punctured-torus bundle, SL(2) factors
+  irreducible on the fibre, a fibre character, and in the ε = −1 branch a unipotent meridian; it is a statement about
+  SL(2)-type tensor modules at the complete points, not about every irreducible module. Relayed to codex.
+- **(b), (d): open.** (b) now has an instrument: `geometric_sign.py`'s word c is computed from Φ alone and runs on any
+  level; the covers' larger symmetry groups would add further σ.
+
 ## L243 — FROM THE SEATS, NOT YET CHECKED ON MAIN (registered 2026-10-02, B1456, B1457)
 
 - **(a) The audit lane's two corrections of main's early arcs** (its act-and-register audit): B37's "never reads" rests

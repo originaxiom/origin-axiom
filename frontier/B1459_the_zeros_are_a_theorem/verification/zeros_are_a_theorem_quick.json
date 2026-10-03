@@ -1,0 +1,299 @@
+{
+ "levels": [
+  {
+   "state": "-LLRLR",
+   "k": 1,
+   "rows": [
+    {
+     "l": [
+      3,
+      7
+     ],
+     "eta": [
+      9,
+      9
+     ],
+     "A1": [
+      0,
+      8
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.5359",
+      "6.002e-31"
+     ]
+    },
+    {
+     "l": [
+      3,
+      7
+     ],
+     "eta": [
+      6,
+      10
+     ],
+     "A1": [
+      0,
+      8
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.4708",
+      "4.348e-60"
+     ]
+    },
+    {
+     "l": [
+      3,
+      7
+     ],
+     "eta": [
+      3,
+      3
+     ],
+     "A1": [
+      3,
+      11
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.5359",
+      "6.002e-31"
+     ]
+    },
+    {
+     "l": [
+      3,
+      7
+     ],
+     "eta": [
+      6,
+      2
+     ],
+     "A1": [
+      3,
+      11
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.3749",
+      "4.126e-60"
+     ]
+    },
+    {
+     "l": [
+      3,
+      11
+     ],
+     "eta": [
+      9,
+      9
+     ],
+     "A1": [
+      0,
+      4
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.4901",
+      "1.748e-30"
+     ]
+    },
+    {
+     "l": [
+      3,
+      11
+     ],
+     "eta": [
+      6,
+      2
+     ],
+     "A1": [
+      0,
+      4
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.708",
+      "1.225e-60"
+     ]
+    },
+    {
+     "l": [
+      3,
+      11
+     ],
+     "eta": [
+      3,
+      3
+     ],
+     "A1": [
+      3,
+      7
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.4901",
+      "1.748e-30"
+     ]
+    },
+    {
+     "l": [
+      3,
+      11
+     ],
+     "eta": [
+      6,
+      10
+     ],
+     "A1": [
+      3,
+      7
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.7189",
+      "1.246e-60"
+     ]
+    },
+    {
+     "l": [
+      9,
+      1
+     ],
+     "eta": [
+      3,
+      3
+     ],
+     "A1": [
+      0,
+      8
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.4901",
+      "1.748e-30"
+     ]
+    },
+    {
+     "l": [
+      9,
+      1
+     ],
+     "eta": [
+      6,
+      10
+     ],
+     "A1": [
+      0,
+      8
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.7189",
+      "1.551e-60"
+     ]
+    },
+    {
+     "l": [
+      9,
+      1
+     ],
+     "eta": [
+      9,
+      9
+     ],
+     "A1": [
+      9,
+      5
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.4901",
+      "1.748e-30"
+     ]
+    },
+    {
+     "l": [
+      9,
+      1
+     ],
+     "eta": [
+      6,
+      2
+     ],
+     "A1": [
+      9,
+      5
+     ],
+     "eps_l": 1,
+     "eps_eta": 1,
+     "recorded_index": 0,
+     "eps": 1,
+     "index": 0,
+     "gap": [
+      "0.708",
+      "2.768e-60"
+     ]
+    }
+   ]
+  }
+ ],
+ "points": 12,
+ "eps_plus": 12,
+ "eps_minus": 0,
+ "factor_signs": {
+  "+1": 24,
+  "-1": 0
+ },
+ "failures": [],
+ "controls": {
+  "W1 (B1455)": "I(W1) = -1 and I(W1*) = +1 (B1453, B1455): no symmetry fixes it; the criterion is silent, as it must be",
+  "sign flip": "with eps read as -1 at an eps = +1 point the identity I(V) = -I(V) would no longer hold, and the proof would need I(V eps) = 0 instead"
+ },
+ "theorem_holds_on_every_point": true
+}

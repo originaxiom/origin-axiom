@@ -90,6 +90,9 @@ negatives are scope-tagged in Stage 5 with the rest.
   The owner's measurer question is the standing lead L241. Remaining: L240 (propagation), L242, L243.
 - **2026-10-03, S41 (B1458).** Stage 5: the README's state section rewritten from GENESIS v1.4; the SM seat's bar adopted
   on main (every positive on a generated state is graded); the own-level law refined on main's own data.
+- **2026-10-03, S42 (B1459).** Stage 4, a negative-to-theorem conversion in the class-index frame: the 24 + 188 zeros
+  at the complete points, held as census, derived from B1297's three lines and the fibre's involution; the audit
+  lane's R58-6 answered with hypotheses; one E82 instance of the seal's own caught and repaired post-seal.
 - **Still Stage 1:** codex's two lanes and the sep16 lane (harvests that age on 2026-10-09 and 10-12), the audit
   lane's same-day genesis reconciliation (unread on main), the web-seat handoffs.
 

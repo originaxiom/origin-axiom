@@ -1,0 +1,18 @@
+-LR level 3: 12 points, eps = +1 on 12, -1 on 0, failures 0
++LLR level 3: 12 points, eps = +1 on 12, -1 on 0, failures 0
++LRR level 3: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LLRLR level 1: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LRLRR level 1: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LLLRLR level 1: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LRLRRR level 1: 12 points, eps = +1 on 12, -1 on 0, failures 0
++LLLRR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LLLRR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
++LLRRR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LLRRR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
++LLLLLR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LLLLLR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
++LRRRRR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
+-LRRRRR level 2: 12 points, eps = +1 on 12, -1 on 0, failures 0
++LR level 4: 8 points, eps = +1 on 8, -1 on 0, failures 0
+points 188, eps +1 188, eps -1 0, factor signs {'+1': 376, '-1': 0}, failures 0
+VERDICT zeros-are-a-theorem: PASS

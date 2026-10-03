@@ -10,7 +10,9 @@ for d in ("B1444_the_backgrounds_are_ends_of_periodic_curves", "B1445_the_mass_t
 import curve_engine as ce
 import mass_term as mt
 import index_num as ix
-from mpmath import mp, mpf, mpc, matrix, inverse, svd_c, nstr, exp, pi, det
+from mpmath import mp, mpf, mpc, matrix, inverse, svd_c, nstr, exp, pi, det, mpmathify
+# post-seal instrument repair (2026-10-03): B1451 stores each coordinate as the string form of an mpc,
+# "(re +/- imj)" at 30 digits; mpc() cannot parse that form, mpmathify() does, at full precision.
 mp.dps = 60
 QUICK = "--quick" in sys.argv
 RUN = HERE.parents[1] / "B1451_the_complete_points_on_other_levels" / "verification" / "run"
@@ -65,7 +67,9 @@ def main():
         def point(c):
             key = tuple(c)
             if key not in cache:
-                P = d["points"][str(key)]; p = (mpc(P["X"]), mpc(P["Y"]), mpc(P["Z"])); B = L.curve(key).B
+                P = d["points"][str(key)]; p = (mpmathify(P["X"]), mpmathify(P["Y"]), mpmathify(P["Z"])); B = L.curve(key).B
+                # same repair: the stored 30 digits are not on the curve to the engine's 1e-30; polish at the stored kappa
+                p = ce.newton(B.Phi, p, B.sig, 2 - ce.kappa(p))
                 cache[key] = (B,) + sign_of_iota(B, p)
             return cache[key]
         for c in d["couplings"]:
