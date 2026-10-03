@@ -1,0 +1,11 @@
+B1530 controls, 2026-10-03T15:04:30Z
+S (Lemma T on m135's cusp): (t0, s0) = (1, 2) and (2, 3), e ^ c_P != 0 at all 8 samples: True
+K3 (m135's eight characters at kappa = 1 against sm:B1529's exact record): all agree [(['0', '1/2'], [2, 2, 1, 1], [1, 1]), (['1/2', '0'], [2, 2, 1, 1], [1, 1])]
+K2 (R40 on m010, u = zeta_24^4): I(V), I(L2V), I(W), I(L2W) = [1, 1, 1, 1] n(L2W), n(L2W*) = (2, 1) holds: True
+K2 (R40 on m010, u = zeta_24^20): I(V), I(L2V), I(W), I(L2W) = [1, 1, 1, 1] n(L2W), n(L2W*) = (2, 1) holds: True
+K1 (B1515's member on M6, u = (1/8, 1/2)): {"u": ["1/8", "1/2"], "h1": {"V": 2, "V_eta": 2, "V (x) L": 2}, "W2": {"boundary-type": {"I(W2)": -1, "I(L2W2)": 1}, "interior": {"I(W2)": 0, "I(L2W2)": 1}}, "seconds": 37}
+   W1 at the boundary-type class: (1, -1)
+   W1 at the interior class: (0, -1)
+   K1 holds: True
+K4 (the mechanism on banked cases): {"(a) m004 trivial character": {"chi_C": ["1", "-8", "14", "-8", "1"], "Jordan at 1": [2], "holds": true}, "(b) M6 trivial character": {"x cup c = 0": true, "(I(W1), I(L2W1))": [0, 0], "holds": true}, "(c) K1's member": {"y lifts": true, "dim Lambda_A": 2, "mu in Lambda_A": false, "holds": true}, "seconds": 16}
+all controls hold: True {'S': True, 'K3': True, 'K2': True, 'K1': True, 'K4': True} (58 s)

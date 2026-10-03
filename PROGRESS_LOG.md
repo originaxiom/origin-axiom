@@ -17267,3 +17267,33 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main's S46 (B1463)**, read at `d2a95da4` in B1529's sweep, made its own GENESIS v1.8 from its v1.7, adding a log line (AR3
   and AR4 verified on main). That collides in number with this branch's v1.8 (sm:B1528), made from the same v1.7 with different
   additions. It is left to main's answer to the v1.8 relay, so that the two seats do not race on the next number (RELAY_LEDGER).
+
+## 2026-10-03 — B1530 sealed: the interior extensions (sL-10 item 10 (a))
+
+- **The question.** In sm:B1515's frame (the rank-five extensions W₁ = [[V, c·L], [0, L]] of B1509's dictionary), at the
+  hyperbolic point of every word state to length 12 and of M₂–M₆: is any member generation-shaped, I(W₁) = I(Λ²W₁) ≠ 0 (one
+  10′ + 5̄′ with the SU(5)′ anomaly cancelled)? sm:B1529's census found the twisted four's interior classes on exactly one word
+  state, m135 = −LLRR (u = (0, ½), (½, 0)); that is where the frame is not governed by B1515's Lemma 8.
+- **Decided at design time.**
+  - Lemma T: the cusp torus at the hyperbolic point is shape-blind (the Lie algebra of a parabolic ℤ² is span(N ⊗ 1, 1 ⊗ N) for
+    every cusp shape), so B1515's torus table and Lemma 8 hold on every word state.
+  - Proposition P: the non-simple κ = 1 members of the word states are exactly m135's two, both case (a), ν² = 1.
+  - Lemma A: I(W₁) = −1 at m135's interior class (x ∪ c_int = 0, because the Lefschetz pairing of two relative classes through a
+    symmetric form is alternating).
+  - Lemma B: I(Λ²W₁) = −[μ ∉ Λ_A] there, μ the restriction of the interior class's lift. The member is generation-shaped iff
+    μ ∉ Λ_A. Remark B′: μ is the second-order obstruction to deforming into SO(4, 1) along the class with the cusp held, a
+    cubic of B1513's kind on the Higgs bulk.
+  - Lemmas C and D (boundary-type classes), M (the mirror), N (at κ = −1 only case (a) can read (−1, −1)), and 5 (only κ = ±1).
+- **The seal.**
+  - Part A: m135's eight characters by route E (exact over ℚ(ζ₂₄), new) and route N (60 digits, sm:B1527's cusp_lib) at the
+    same classes, carried across frames by the conjugator.
+  - Part B: population B (κ ∈ {−1, ±i, ω, ω²}) on all 541 rows, by route T (sm:B1529's fibre_lib) and route G (Fox on the
+    bundle group, grouped by prefix class, new).
+  - Part C: Λ_A ∩ π_A at every χ = ν² (κ = 1), by rank and by the torus pairing: the quantity that decides every simple member.
+  - Predictions P1–P8 and G. P2 (m135's interior class generation-shaped) at 55%.
+- **Controls** on banked members and structure, all hold: Lemma T on m135's cusp; m135's banked rows; R40 on m010 (the positive
+  control); B1515's M₆ member (+1, −1) / (0, −1) / W₂ (−1, +1); the mechanism functions on banked cases. Dry runs on M₆'s members
+  and on M₂–M₆ reproduce sm:B1515's banked readings.
+- **Logged** (ERROR_LEDGER, E52 instance): route N's first class finder read rounding noise as an interior class at a simple
+  character, giving a false (−1, −1); caught by the dry run on banked data and fixed before the seal.
+- **Next:** run as sealed. 0 of 19.

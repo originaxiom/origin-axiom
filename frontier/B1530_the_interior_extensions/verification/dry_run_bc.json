@@ -1,0 +1,419 @@
+{
+ "manifolds": 5,
+ "errors": [],
+ "B": {
+  "route T: characters with h1 >= 1 at kappa != 1": [
+   [
+    "+LRLR",
+    true,
+    "1/5",
+    "3/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLR",
+    true,
+    "1/5",
+    "3/5",
+    "omega^2",
+    1
+   ],
+   [
+    "+LRLR",
+    true,
+    "2/5",
+    "1/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLR",
+    true,
+    "2/5",
+    "1/5",
+    "omega^2",
+    1
+   ],
+   [
+    "+LRLR",
+    true,
+    "3/5",
+    "4/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLR",
+    true,
+    "3/5",
+    "4/5",
+    "omega^2",
+    1
+   ],
+   [
+    "+LRLR",
+    true,
+    "4/5",
+    "2/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLR",
+    true,
+    "4/5",
+    "2/5",
+    "omega^2",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "1/5",
+    "3/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "1/5",
+    "3/5",
+    "omega^2",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "2/5",
+    "1/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "2/5",
+    "1/5",
+    "omega^2",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "3/5",
+    "4/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "3/5",
+    "4/5",
+    "omega^2",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "4/5",
+    "2/5",
+    "omega",
+    1
+   ],
+   [
+    "+LRLRLRLR",
+    true,
+    "4/5",
+    "2/5",
+    "omega^2",
+    1
+   ]
+  ],
+  "route G at kappa = -1, all characters": {
+   "0": 507
+  },
+  "disagreements": [],
+  "H0(F) != 0": [],
+  "route G checks": 561
+ },
+ "C": {
+  "characters": 255,
+  "meet != 0 (rank)": [],
+  "meet != 0 (pairing)": [],
+  "dims not (2, 2)": [],
+  "rank and pairing disagree": []
+ },
+ "records": [
+  {
+   "state": "+LRLRLR",
+   "read as": "+LRLRLR",
+   "level": true,
+   "D": 16,
+   "trace": 18,
+   "golden": true,
+   "B": {
+    "route T: h1 >= 1 at": [],
+    "route G at kappa = -1": {
+     "0": 16
+    },
+    "route G checks": 24,
+    "disagreements": [],
+    "H0(F) != 0 at": [],
+    "margins": {
+     "T kept": "8.69e-6",
+     "T dropped": null,
+     "G kept": "1.75e-5",
+     "G dropped": "0.0"
+    }
+   },
+   "C": {
+    "characters": 4,
+    "meet != 0 (rank)": [],
+    "meet != 0 (pairing)": [],
+    "dims not (2, 2)": [],
+    "rank and pairing disagree": [],
+    "isotropy worst": "5.13e-59",
+    "kept": "0.000345",
+    "dropped": "3.04e-59"
+   },
+   "seconds": 11
+  },
+  {
+   "state": "+LRLR",
+   "read as": "+LRLR",
+   "level": true,
+   "D": 5,
+   "trace": 7,
+   "golden": true,
+   "B": {
+    "route T: h1 >= 1 at": [
+     [
+      "1/5",
+      "3/5",
+      "omega",
+      1
+     ],
+     [
+      "1/5",
+      "3/5",
+      "omega^2",
+      1
+     ],
+     [
+      "2/5",
+      "1/5",
+      "omega",
+      1
+     ],
+     [
+      "2/5",
+      "1/5",
+      "omega^2",
+      1
+     ],
+     [
+      "3/5",
+      "4/5",
+      "omega",
+      1
+     ],
+     [
+      "3/5",
+      "4/5",
+      "omega^2",
+      1
+     ],
+     [
+      "4/5",
+      "2/5",
+      "omega",
+      1
+     ],
+     [
+      "4/5",
+      "2/5",
+      "omega^2",
+      1
+     ]
+    ],
+    "route G at kappa = -1": {
+     "0": 5
+    },
+    "route G checks": 19,
+    "disagreements": [],
+    "H0(F) != 0 at": [],
+    "margins": {
+     "T kept": "0.00217",
+     "T dropped": "7.86e-57",
+     "G kept": "0.000946",
+     "G dropped": "1.39e-58"
+    }
+   },
+   "C": {
+    "characters": 5,
+    "meet != 0 (rank)": [],
+    "meet != 0 (pairing)": [],
+    "dims not (2, 2)": [],
+    "rank and pairing disagree": [],
+    "isotropy worst": "1.28e-56",
+    "kept": "0.00651",
+    "dropped": "5.68e-57"
+   },
+   "seconds": 11
+  },
+  {
+   "state": "+LRLRLRLR",
+   "read as": "+LRLRLRLR",
+   "level": true,
+   "D": 45,
+   "trace": 47,
+   "golden": true,
+   "B": {
+    "route T: h1 >= 1 at": [
+     [
+      "1/5",
+      "3/5",
+      "omega",
+      1
+     ],
+     [
+      "1/5",
+      "3/5",
+      "omega^2",
+      1
+     ],
+     [
+      "2/5",
+      "1/5",
+      "omega",
+      1
+     ],
+     [
+      "2/5",
+      "1/5",
+      "omega^2",
+      1
+     ],
+     [
+      "3/5",
+      "4/5",
+      "omega",
+      1
+     ],
+     [
+      "3/5",
+      "4/5",
+      "omega^2",
+      1
+     ],
+     [
+      "4/5",
+      "2/5",
+      "omega",
+      1
+     ],
+     [
+      "4/5",
+      "2/5",
+      "omega^2",
+      1
+     ]
+    ],
+    "route G at kappa = -1": {
+     "0": 45
+    },
+    "route G checks": 61,
+    "disagreements": [],
+    "H0(F) != 0 at": [],
+    "margins": {
+     "T kept": "3.16e-5",
+     "T dropped": "1.95e-52",
+     "G kept": "2.07e-6",
+     "G dropped": "1.17e-55"
+    }
+   },
+   "C": {
+    "characters": 45,
+    "meet != 0 (rank)": [],
+    "meet != 0 (pairing)": [],
+    "dims not (2, 2)": [],
+    "rank and pairing disagree": [],
+    "isotropy worst": "6.14e-52",
+    "kept": "4.56e-5",
+    "dropped": "1.57e-52"
+   },
+   "seconds": 60
+  },
+  {
+   "state": "+LRLRLRLRLR",
+   "read as": "+LRLRLRLRLR",
+   "level": true,
+   "D": 121,
+   "trace": 123,
+   "golden": true,
+   "B": {
+    "route T: h1 >= 1 at": [],
+    "route G at kappa = -1": {
+     "0": 121
+    },
+    "route G checks": 129,
+    "disagreements": [],
+    "H0(F) != 0 at": [],
+    "margins": {
+     "T kept": "4.0e-7",
+     "T dropped": null,
+     "G kept": "1.19e-7",
+     "G dropped": "0.0"
+    }
+   },
+   "C": {
+    "characters": 121,
+    "meet != 0 (rank)": [],
+    "meet != 0 (pairing)": [],
+    "dims not (2, 2)": [],
+    "rank and pairing disagree": [],
+    "isotropy worst": "1.21e-50",
+    "kept": "3.87e-6",
+    "dropped": "2.58e-51"
+   },
+   "seconds": 156
+  },
+  {
+   "state": "+LRLRLRLRLRLR",
+   "read as": "+LRLRLRLRLRLR",
+   "level": true,
+   "D": 320,
+   "trace": 322,
+   "golden": true,
+   "B": {
+    "route T: h1 >= 1 at": [],
+    "route G at kappa = -1": {
+     "0": 320
+    },
+    "route G checks": 328,
+    "disagreements": [],
+    "H0(F) != 0 at": [],
+    "margins": {
+     "T kept": "4.75e-7",
+     "T dropped": null,
+     "G kept": "1.71e-9",
+     "G dropped": "0.0"
+    }
+   },
+   "C": {
+    "characters": 80,
+    "meet != 0 (rank)": [],
+    "meet != 0 (pairing)": [],
+    "dims not (2, 2)": [],
+    "rank and pairing disagree": [],
+    "isotropy worst": "7.06e-55",
+    "kept": "8.82e-8",
+    "dropped": "8.21e-56"
+   },
+   "seconds": 142
+  }
+ ]
+}

@@ -3854,3 +3854,20 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    Thm 0.6), so a count there is a count on a structure with a type-2 or type-3 end. The first case is m004, where X1
    found twelve crossings on its 5° grid. Seal before computing.
    **Sealed 2026-10-03 as sm:B1529 (the eigenvalue-one locus).** Proved at design time: for the four, Lemma K (the sandwich) gives I = 0 everywhere near ρ_hyp wherever its base condition (h¹ = h¹* = t0 = s0 = 1) holds; for Λ², Lemma F (the fibre's four-term sequence: a non-zero index needs a special twist at a root of the interior polynomial χ_C/χ_D), Lemma O (Λ²g ∈ SO(6) has no one-dimensional eigenvalue-one space) and Lemma B (Λ²'s base condition, from Menal-Ferrer–Porti on a finite cover) give I = 0 near ρ_hyp wherever the simple-root condition (SR) holds at the base points (Theorem N), for every deformation in Hom(Γ, SL(4, ℂ)). Sealed: the base census (SR and the four's base condition on all 536 word states and m004's levels M₂–M₆, every character) and the crossing reader on the ten rings. **Correction:** the loci listed above are those of ρ(ℓ); for ν ⊗ Λ²ρ the locus is ψa + ψb = 0 and ψa = ψb, and the item omitted ψa = ψb (ERROR_LEDGER, E53 instance). sm:B1515's M₆ already fails the four's base condition at 28 characters (interior classes), so P2 is a real test.
+10. **The interior classes and the coincidence loci near the hyperbolic point** (sm:B1529 §9; registered 2026-10-03 at sm:B1530's
+   seal). sm:B1529's census found the twisted four's interior classes at the hyperbolic point of exactly one word state to length
+   12, m135 = −LLRR, at u = (0, ½) and (½, 0), besides sm:B1515's 28 on M₆.
+   - (a) B1515's rank-five extensions at those classes, and the generation test on every word state: is any member at the
+     hyperbolic point generation-shaped (I(W₁) = I(Λ²W₁) ≠ 0)?
+   - (b) The coincidence loci (sm:B1529 §9): where SR or the four's base condition fails, a non-zero index near ρ_hyp needs a
+     special twist at a root of χ_K, a complex-codimension-one condition. Seal before computing.
+   **Sealed 2026-10-03 as sm:B1530 (the interior extensions), for (a).** Proved at design time:
+   - Lemma T: the cusp torus at the hyperbolic point is shape-blind, so B1515's torus table and Lemma 8 hold on every word state.
+   - Proposition P: by sm:B1529's census, the non-simple κ = 1 members of the word states are exactly m135's two, both case (a).
+   - Lemma A: I(W₁) = −1 at m135's interior class.
+   - Lemma B: I(Λ²W₁) = −[μ ∉ Λ_A] there, so the member is generation-shaped iff μ ∉ Λ_A. Remark B′: μ is the second-order
+     obstruction to deforming into SO(4, 1) along the class with the cusp held.
+   - Lemmas C, D, M and N for the other classes, the mirror and κ = −1.
+
+   Two routes at the same classes for Part A (exact over ℚ(ζ₂₄), and 60 digits); routes T and G for population B; rank and
+   pairing for the rigidity quantity at every simple member. Predictions P1–P8 and G.
