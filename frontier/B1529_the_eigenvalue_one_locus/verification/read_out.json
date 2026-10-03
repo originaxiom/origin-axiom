@@ -1,0 +1,219 @@
+{
+ "census": {
+  "P1": {
+   "holds": true,
+   "failing manifolds": [],
+   "base points": 47333
+  },
+  "P2": {
+   "holds": false,
+   "failing word states": [
+    "-LLRR"
+   ],
+   "base points": 46826
+  },
+  "P3": {
+   "holds": true,
+   "checks": {
+    "Lambda^2 base condition everywhere": true,
+    "I = 0 everywhere, both modules": true,
+    "e = am(D; 1) = 2, both modules": true,
+    "route T's hypothesis everywhere": true,
+    "no manifold failed": true,
+    "536 word states and 5 levels": true,
+    "levels reproduce sm:B1515": true
+   },
+   "errors": []
+  },
+  "G (census part)": {
+   "golden word states": 14,
+   "P1 and P2 hold on all of them": true,
+   "golden among P1 failures": [],
+   "golden among P2 failures": []
+  },
+  "recorded: the four's am(C; 1) over the word states' base points": {
+   "2": 46820,
+   "4": 6
+  }
+ },
+ "crossings": {
+  "states": {
+   "+LR": {
+    "brackets": 16,
+    "by kind": {
+     "E1": 8,
+     "E2": 0,
+     "E3": 4,
+     "E4": 4
+    },
+    "located": 16,
+    "rows T": 36,
+    "rows Fox/W": 36,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "-LR": {
+    "brackets": 16,
+    "by kind": {
+     "E1": 8,
+     "E2": 0,
+     "E3": 4,
+     "E4": 4
+    },
+    "located": 16,
+    "rows T": 180,
+    "rows Fox/W": 180,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "+LLRLRR": {
+    "brackets": 16,
+    "by kind": {
+     "E1": 8,
+     "E2": 0,
+     "E3": 4,
+     "E4": 4
+    },
+    "located": 16,
+    "rows T": 468,
+    "rows Fox/W": 180,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "-LLRLRR": {
+    "brackets": 16,
+    "by kind": {
+     "E1": 8,
+     "E2": 0,
+     "E3": 4,
+     "E4": 4
+    },
+    "located": 16,
+    "rows T": 612,
+    "rows Fox/W": 180,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "+LLLRLRR": {
+    "brackets": 40,
+    "by kind": {
+     "E1": 14,
+     "E2": 6,
+     "E3": 10,
+     "E4": 10
+    },
+    "located": 18,
+    "rows T": 684,
+    "rows Fox/W": 190,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "-LLLRLRR": {
+    "brackets": 40,
+    "by kind": {
+     "E1": 14,
+     "E2": 6,
+     "E3": 10,
+     "E4": 10
+    },
+    "located": 18,
+    "rows T": 836,
+    "rows Fox/W": 190,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "+LLLLRLLLRR": {
+    "brackets": 14,
+    "by kind": {
+     "E1": 6,
+     "E2": 2,
+     "E3": 4,
+     "E4": 2
+    },
+    "located": 14,
+    "rows T": 1260,
+    "rows Fox/W": 140,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "-LLLLRLLLRR": {
+    "brackets": 14,
+    "by kind": {
+     "E1": 6,
+     "E2": 2,
+     "E3": 4,
+     "E4": 2
+    },
+    "located": 14,
+    "rows T": 1372,
+    "rows Fox/W": 140,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "+LLLLRLRRRLRR": {
+    "brackets": 16,
+    "by kind": {
+     "E1": 8,
+     "E2": 0,
+     "E3": 4,
+     "E4": 4
+    },
+    "located": 15,
+    "rows T": 4114,
+    "rows Fox/W": 170,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   },
+   "-LLLLRLRRRLRR": {
+    "brackets": 8,
+    "by kind": {
+     "E1": 6,
+     "E2": 0,
+     "E3": 2,
+     "E4": 0
+    },
+    "located": 0,
+    "rows T": 0,
+    "rows Fox/W": 0,
+    "I != 0": 0,
+    "structure fails": [],
+    "index fails": [],
+    "mechanism fails": []
+   }
+  },
+  "P4": false,
+  "P5": true,
+  "P6": true,
+  "missing": [],
+  "brackets": 196,
+  "located": 143,
+  "G (crossing part)": true
+ },
+ "predictions": {
+  "P1": true,
+  "P2": false,
+  "P3": true,
+  "P4": false,
+  "P5": true,
+  "P6": true,
+  "G": true
+ }
+}
