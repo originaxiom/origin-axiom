@@ -1698,3 +1698,19 @@ certified by these finite tests; no full-suite/main-bank certificate.
 | `reports/physical_bridge_2026_09_05/dirichlet_admission.py` | `eb4d92ac64c3b72c70bd68d58b7946b4c317e78f8da1bc0a5fa83ca513f8fa03` |
 | `reports/physical_bridge_2026_09_05/dirichlet_admission_control.py` | `01819b51486cd346aa78641c92ca10872caa5709e5b36e8aa9981e7d4bccc677` |
 | `tests/test_physical_bridge_dirichlet_admission.py` | `ce737464b2319f19f9244fb035f2f4bbe794992a9b2d5ab733303717b2595173` |
+
+## R82 Chern-Simons critical-value scope, 2026-10-03
+
+Pre-execution seal of six science paths. BANKED_IDENTITY and PRIOR_ART
+are explicit in the design. Commit/push and server-confirm before science.
+Background-value k-blindness is retained; full-functional, contour and
+boundary-sector statements are kept separate. No full-suite/main banking.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_DESIGN.md` | `92de4084fc24a3432045214633c0d99b9c2bc620f2d36507217a772e2be28f60` |
+| `reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_PROOF.md` | `068b140d31f05d8379974139273fadf1b8ac04afb949320f1788099ef0e09720` |
+| `reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_INPUTS.json` | `46ddbe6ce321ad305b89146bbaf8f2365e7cdf8a06418102d8b16a1909904a09` |
+| `reports/physical_bridge_2026_09_05/cs_sector_scope.py` | `391344adf250a980e9a419f9b4a84d30b6c696f92658e9e0fc3939d4cb6dcbae` |
+| `reports/physical_bridge_2026_09_05/cs_sector_scope_control.py` | `1a187f50d947db6412c322e63a5e7cfbbe847f85323d28932d88a88c7dc49d83` |
+| `tests/test_physical_bridge_cs_sector_scope.py` | `5602555435853344d625c04176135ac27a34404bc8e836c4f80d4db2d7463c6d` |
