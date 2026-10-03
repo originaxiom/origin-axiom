@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1293** |
-| words of findings prose | **995,881** |
+| research arcs with findings | **1294** |
+| words of findings prose | **996,710** |
 | test lock files referenced | **758** |
-| arcs carrying an authored verdict | **1293** (100.0 %) |
+| arcs carrying an authored verdict | **1294** (100.0 %) |
 | recorded closures | **802** (635 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 865 |
+| PROVED | 866 |
 | NEGATIVE | 326 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1464`** (833 words, 0 locks)  
-THE AGED ITEMS PAID, AND THE SEAL GATES READ EVERY SEAL (Review 59; B1461's carry-age rule binding for the first time). Headline: the seal ledger has two row shapes and the seal parser read one, so 19 of 50 digests were recomputed and 41 of the 46 seals in the provenance rule's range -- August's and this seat's own of September -- carried neither BANKED IDENTITY nor PRIOR ART while seal-provenance printed ok; repaired on the ratchet (both shapes read, 46 of 46 digests match; seal-provenance reads the sealed files from B995 on and accepts the markers or, from B1454, the Seen-first and Disclosed sections; the 41 named as a frozen baseline; the ledger regenerated under seal-ledger-current). Seven items resolved (R55-2 chain gap machine-read; R55-4 the short-claim lane, B804 rowed; R55-9 two misnomers fixed and gate pretense-phrases; R55-13/14/15), four declined with reasons (R55-1, R55-7, R55-12, R56-1, R56-3). 42 gates, each with a registered failing-path test. Nothing in the derivation moved. 0 of 19.  
-`B1464_the_aged_items_paid_and_the_seal_gates_read_every_seal/FINDINGS.md`
+**PROVED — `B1465`** (829 words, 0 locks)  
+THE MIRROR-BROKEN STATES AT THEIR COMPLETE POINTS: NO COUNT FOR ANY CHARACTER, THE MERIDIAN TWIST INCLUDED (R59-1, L242 (e); sm:B1527 Part H verified by a route sharing nothing with it). On +-LLRLRR and +-L^3RLR^2 at level one, at every parabolic kappa = -2 point of every periodic curve (12, 12, 14, 20 points), V = rho (x) conj(rho) (x) chi with meridian lambda T (x) conj(T) has class index 0 for every fibre character and lambda in {1, -1, i, e^{2 pi i/3}, 0.6+0.8i, 1.3, 0.7+0.4i}: 7364 indices, all zero, ranks resolved. B1459 covers lambda = 1 as a theorem; lambda != 1, where its identity fails by lambda^2, is settled here by computation on these states. The mirror's breaking makes no count on reductive modules at the complete points; a count still needs a non-split module and a source. Nothing selects a state. 0 of 19.  
+`B1465_the_mirror_broken_states_at_their_complete_points/FINDINGS.md`
 
 **NEGATIVE — `B1455`** (2261 words, 0 locks)  
 THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric potential whose minima are not mirror-symmetric?). NEGATIVE, the registered kill, scoped to the frame F-HE on m004's harmonic family at level one: the vacuum does not select a handedness there. THREE LINES THE TEST TURNS ON: the class index is unchanged by pulling back along any symmetry of the manifold, mirrors included (L1), and changes sign under dualising (L2); so a module with V* isomorphic to sigma^* V has index zero (L3), and the count-odd symmetries are a symmetry followed by dualising. THE TEST, by two routes with no shared code (characters on 2046 words in exact rationals; intertwiners, symbolic in q): on Ballas' family the dual of the vacuum at q is the vacuum at 1/q, and inverting both generators does the same, so inversion-then-dual fixes every vacuum, for every q > 0 and every central twist. HENCE every reductive module made from rho_q has class index zero -- a proof, not a census. The counts of +-1 found by the seats sit on non-split extensions, which no count-odd symmetry fixes and which are not minima (the audit lane's R76, read). ONE SEALED PREDICTION FAILED: only four of the eight signed permutations of the generators are automorphisms and all four preserve orientation; the mirrors were found after the seal by search (152 maps) and fall in two classes -- those keeping the longitude fix every vacuum, those inverting it exchange q and 1/q -- so the eight symmetries act on the family through one bit, which is the same as dualising. TWO CORRECTIONS TO THE RULE AS WORDED: the counted configuration is itself fixed by a bare mirror and counts -1 (60 digits; an invertible intertwiner), so 'symmetric under the mirror gives zero' is false for the geometric mirror and true for symmetry-plus-dual; and half the symmetries are broken by every vacuum off the hyperbolic point without any count being broken. The audit lane's open checkbox (base isometry plus duality) is paid. The handoff's side claims recompute (the Sturmian identity at nine intercepts; no surjection of m004's group onto SL(2,5), 1440 for m202). Silent on other states, frames, sources, ends and on selection by a relation. 0 of 19.  

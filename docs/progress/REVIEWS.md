@@ -5783,7 +5783,7 @@ numbers is not known from the gate, only from each arc's text.
 
 ### Action items (Review 59)
 
-- [ ] R59-1: pay L242 (e) as a verification of sm:B1527 (its result is now banked: no reductive count near the hyperbolic point of any word state, mirror-broken or not) — main's own route on ±LLRLRR first (owner: cc; source: §2, L242 (e))
+- [x] R59-1: pay L242 (e) as a verification of sm:B1527 (its result is now banked: no reductive count near the hyperbolic point of any word state, mirror-broken or not) — main's own route on ±LLRLRR first (owner: cc; source: §2, L242 (e)) — **paid 2026-10-03 (B1465):** 7 364 indices, all zero, on the four mirror-broken states at their complete points, every fibre character and seven meridian twists; sm:B1527 Part H verified by main's own route.
 - [ ] R59-2: re-audit the 41 frozen seals' texts for the banked-identity half, arc by arc, and record the result in the baseline's comment; shrink the baseline where the text carries it under other words (owner: cc; source: §3)
 - [ ] R59-3: harvest the 36 unrowed seat items the gate names, sweeping each id over the arcs before rowing it (owner: cc; source: §8, R58-4)
 - [>] R58-4: the harvest, largely paid (B1453, B1457, B1462); what is left is R59-3 (carried from R58)

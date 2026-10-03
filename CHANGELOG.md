@@ -1,5 +1,15 @@
 # Changelog
 
+## S48 THE MIRROR-BROKEN STATES AT THEIR COMPLETE POINTS CARRY NO COUNT FOR ANY CHARACTER, THE MERIDIAN TWIST INCLUDED — sm:B1527's Part H verified by a route sharing nothing with it: on ±LLRLRR and ±L³RLR² at every parabolic point of every periodic curve, 7 364 class indices of ρ ⊗ ρ̄ ⊗ χ with seven meridian twists, all zero.
+
+**The occasion.** L242 (e), where the count question first leaves m004: the SM seat found 262 manifolds whose projective family no isometry dualises (sm:B1523), so B1455's symmetry argument cannot force the index to zero there, and asked main for a blind second route after it sealed; it sealed and banked the same day (sm:B1527: no finite-volume projective vacuum near the hyperbolic point carries a reductive count, mirror-broken or not). Main's run became a verification (Review 59, R59-1). The part B1459 does not cover is the meridian twist: its identity ι̃*V ≅ V* ⊗ ε acquires a λ² under a twist of the meridian by λ, so for λ ≠ ±1 nothing on main forced zero.
+
+**What was computed (B1465).** On the four states at level one (N = 13, 17, 18, 22), every periodic curve followed to its κ = −2 end by B1451's finder; at the parabolic points (12, 12, 14, 20) the module V = ρ ⊗ ρ̄ ⊗ χ — the projective four at the hyperbolic point is ρ ⊗ ρ̄ — with meridian λ·T ⊗ T̄, for every fibre character χ and λ in {1, −1, i, e^{2πi/3}, 0.6 + 0.8i, 1.3, 0.7 + 0.4i}. **7 364 indices, all zero**, ranks resolved at ≥ 1.3e−4 against ≤ 1e−58, no error. The design was fixed in a draft hashed before its first run.
+
+**What it means.** The mirror's breaking does not by itself make a count on the reductive modules at the complete points, for any character of H₁ — the seat's conclusion by two routes. The type-one projective curves away from the hyperbolic point are the seat's and read. The specification stands: a count needs a non-split module, an open end and a source. **The imported expectation, stated separately:** that a non-split module with a source carries a count that survives the bar — the next arc, by the owner's word ("i aprove, lets do it when right timing"). Nothing selects a state. **0 of 19.**
+
+Arc **B1465** (PROVED). L242 (e) paid; R59-1 paid. Relay to both seats. Gates 42 of 42; full suite 7028 passed, 0 failed, 68 skipped.
+
 ## S47 REVIEW 59, THE FIRST REVIEW THAT COULD FAIL ITSELF — and what it found: two seal gates had been green for two months over a provenance rule honoured by 3 of 46 seals, this seat's own September seals among the 41 that carried neither marker; repaired on the ratchet, the eleven aged items dispositioned under the new rule (seven resolved, four declined with their reasons), the chain gap adjudicated by the tools for the first time.
 
 **The occasion.** The twentieth merge since Review 58, and the first review under the governance delta switched on this morning (B1461): it fires at forty, its carried items age at three, every gate has a failing-path test, and the entry states its fresh clone, its seeded sample and its gate controls — all three lines the tools' output. Eleven items stood at their third carry or beyond.

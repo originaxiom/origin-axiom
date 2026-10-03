@@ -1,0 +1,15 @@
++LLLRLRR ell (1, 11) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (2, 4) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (3, 15) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (4, 8) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (5, 1) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (6, 12) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (7, 5) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (11, 13) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (12, 6) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (13, 17) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (14, 10) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (15, 3) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (16, 14) parabolic point, 126 rows, nonzero so far 0
++LLLRLRR ell (17, 7) parabolic point, 126 rows, nonzero so far 0
+rows 1764 nonzero 0

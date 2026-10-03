@@ -3347,6 +3347,11 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   **2026-10-03, later:** the seat sealed and banked it the same day (sm:B1527, "THE CUSP DECIDES — near the hyperbolic
   point of every word state no finite-volume projective vacuum carries a reductive count, mirror-broken or not"). Main's
   run is no longer blind at the headline level; it is a verification (Review 59, R59-1), own route first on ±LLRLRR.
+  **PAID 2026-10-03 (B1465, PROVED):** on ±LLRLRR and ±L³RLR² at the parabolic κ = −2 points of every periodic curve
+  (12, 12, 14, 20 points), V = ρ ⊗ ρ̄ ⊗ χ with a meridian twist λ has class index 0 for every fibre character and seven
+  λ (roots of unity and generic, on and off the circle): 7 364 indices, all zero. B1459 covers λ = 1 as a theorem; λ ≠ 1
+  is settled here by computation. sm:B1527's Part H holds by a route sharing nothing with it; its type-one projective
+  curves stay the seat's, read. A count needs a non-split module and a source — the next arc.
 - **Remark (2026-10-03, B1459, exploratory, not banked):** on every one of the 16 levels the geometric sign ε is a
   function of the curve's character (p, q) alone — e.g. on +LLR it is −1 exactly when q ≡ 2 mod 4, on +LRR when p ≡ 2
   mod 4, on −LLRLR when p/3 is odd. The obvious formula, the level character at c's abelianisation, is wrong (114 of 180

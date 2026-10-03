@@ -1,0 +1,3 @@
++LLRLRR ell (1, 8) parabolic point, 26 rows, nonzero so far 0
+rows 26 nonzero 0
+done

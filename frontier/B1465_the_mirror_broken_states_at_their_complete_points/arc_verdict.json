@@ -1,0 +1,23 @@
+{
+ "id": "B1465",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1459",
+  "B1451",
+  "B1446",
+  "B1462"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI (the class index of SL(2)-tensor modules)",
+  "object": "the four mirror-broken word states +-LLRLRR and +-L^3RLR^2 at the parabolic kappa = -2 points of their periodic curves, level one; V = rho (x) conj(rho) (x) chi with meridian twist lambda",
+  "reach": "class",
+  "hypotheses": "seven values of lambda (four roots of unity, three generic); every fibre character; the projective type-one curves (sm:B1527 Part A, Lemma C) and non-split modules are not tested; the instrument's positive control is B1453/B1455's W1"
+ },
+ "claim_one_line": "THE MIRROR-BROKEN STATES AT THEIR COMPLETE POINTS: NO COUNT FOR ANY CHARACTER, THE MERIDIAN TWIST INCLUDED (R59-1, L242 (e); sm:B1527 Part H verified by a route sharing nothing with it). On +-LLRLRR and +-L^3RLR^2 at level one, at every parabolic kappa = -2 point of every periodic curve (12, 12, 14, 20 points), V = rho (x) conj(rho) (x) chi with meridian lambda T (x) conj(T) has class index 0 for every fibre character and lambda in {1, -1, i, e^{2 pi i/3}, 0.6+0.8i, 1.3, 0.7+0.4i}: 7364 indices, all zero, ranks resolved. B1459 covers lambda = 1 as a theorem; lambda != 1, where its identity fails by lambda^2, is settled here by computation on these states. The mirror's breaking makes no count on reductive modules at the complete points; a count still needs a non-split module and a source. Nothing selects a state. 0 of 19."
+}
