@@ -1,5 +1,18 @@
 # Changelog
 
+## Record the fast lane on 69693e54 (B1527 banked): at the bank's baseline
+
+- **Fast lane on 69693e54** (77 minutes, in a worktree pinned at that commit): 6 671 passed, 52 skipped, 10 failed. The ten are
+  the same set as at 48f6af3b.
+- **The extra passes, from the collector.** Diffed like for like with 48f6af3b (6 763 → 6 781 ids): 18 added, none removed.
+  - B1527's 16 lock tests, one of them slow.
+  - Two schema cases (B1527's arc verdict).
+  - So 17 more pass in the fast lane.
+- **What it certifies.** B1527, on a tree nothing edited. B1528 (GENESIS v1.8, 84892ba0) was written and banked in the main
+  working tree while the lane ran in its own pinned worktree (E46 kept); it is certified next.
+- **A slip in B1528's commit message**, logged (ERROR_LEDGER): it says the arc's lock has 16 tests; it has 9, one of them slow.
+  The count was carried over from B1527's lock, not read from the file. No tracked text carries the wrong number.
+
 ## B1528 GENESIS v1.8: main's v1.7 as the head, its corrected sentence made exact (a meridian twist enters squared; P fixes Ballas' family), and sL-10 item 8 recorded (PROVED, not sealed)
 
 - **Main's ask** (its relay of 2026-10-03, B1462: "Please take v1.7 as head") answered. Main's amend.py, run on this branch's

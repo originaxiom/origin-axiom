@@ -17213,3 +17213,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **sL-10 item 8** recorded as answered (sm:B1527); its remainder is item 9.
 - **Main's remark:** sm:B1279's rotoreflections square to P (exact); their action on M₂'s ℤ/5 is main's.
 - **Next:** sL-10 item 9, sealed first. 0 of 19.
+
+## 2026-10-03 — the fast lane on 69693e54 (B1527 banked)
+
+- **Fast lane on 69693e54** (77 minutes, in a pinned worktree): 6 671 passed, 52 skipped, 10 failed. The ten are the same set as
+  at 48f6af3b.
+- **The extra passes, from the collector.** 6 763 → 6 781 ids; 18 added, none removed: B1527's 16 lock tests (one slow) and two
+  schema cases. So 17 more pass in the fast lane.
+- **What it certifies.** B1527, on a tree nothing edited (B1528 was written in the main working tree; E46 kept). B1528 is
+  certified next.
+- **Logged:** B1528's commit message gives its lock 16 tests; it has 9 (one slow).
