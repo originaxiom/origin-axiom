@@ -9569,6 +9569,34 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1466": {
+   "slug": "the two orders and the register bit",
+   "motifs": [
+    "action",
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B270",
+    "B273",
+    "B352",
+    "B370",
+    "L1",
+    "L2",
+    "L241",
+    "L3",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B146": {
    "slug": "b145 calibration",
    "motifs": [

@@ -1,0 +1,217 @@
+[
+ {
+  "label": "q0 = 17 + 12 sqrt2, mu = -1",
+  "q": "33.970562748477140586",
+  "mu": "(-1.0 + 0.0j)",
+  "h1_up(Ext(1,A))": 1,
+  "h1_down(Ext(A,1))": 1,
+  "I_split": 0,
+  "I W (1 on top of A)": {
+   "I": -1,
+   "h1": 1,
+   "h1_dual": 2,
+   "interior": 0,
+   "interior_dual": 1,
+   "gap": [
+    "0.3444",
+    "2.084e-58"
+   ]
+  },
+  "I W' (A on top of 1)": {
+   "I": 1,
+   "h1": 2,
+   "h1_dual": 1,
+   "interior": 1,
+   "interior_dual": 0,
+   "gap": [
+    "0.3608",
+    "2.843e-58"
+   ]
+  },
+  "C2 W* ~ iota*W'": {
+   "found": true,
+   "kept": "0.637",
+   "dropped": "9.399e-61",
+   "Q_min_sv": "0.02714"
+  },
+  "C2 control W* ~ W' (no iota)": {
+   "found": false,
+   "kept": "0.7173",
+   "dropped": "0.579"
+  },
+  "C3 ob(c1)": {
+   "cocycle_residual": "1.134e-59",
+   "ob_norm": "0.0",
+   "residual_mod_im_d1": "0.0",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.725",
+   "dropped": "6.27e-58"
+  },
+  "C3 ob(c2)": {
+   "cocycle_residual": "3.044e-58",
+   "ob_norm": "0.0",
+   "residual_mod_im_d1": "0.0",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.725",
+   "dropped": "6.27e-58"
+  },
+  "C3 ob(c1 + c2)": {
+   "cocycle_residual": "3.046e-58",
+   "ob_norm": "4390.1757",
+   "residual_mod_im_d1": "5.3831722e-57",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.725",
+   "dropped": "6.27e-58"
+  },
+  "C3 cross term (4,4) entry": "(0.2677512659 + 0.0j)"
+ },
+ {
+  "label": "q0' = 17 - 12 sqrt2, mu = -1",
+  "q": "0.02943725152285941438",
+  "mu": "(-1.0 + 0.0j)",
+  "h1_up(Ext(1,A))": 1,
+  "h1_down(Ext(A,1))": 1,
+  "I_split": 0,
+  "I W (1 on top of A)": {
+   "I": -1,
+   "h1": 1,
+   "h1_dual": 2,
+   "interior": 0,
+   "interior_dual": 1,
+   "gap": [
+    "0.08321",
+    "2.48e-57"
+   ]
+  },
+  "I W' (A on top of 1)": {
+   "I": 1,
+   "h1": 2,
+   "h1_dual": 1,
+   "interior": 1,
+   "interior_dual": 0,
+   "gap": [
+    "0.02827",
+    "1.022e-56"
+   ]
+  },
+  "C2 W* ~ iota*W'": {
+   "found": true,
+   "kept": "0.2069",
+   "dropped": "8.027e-60",
+   "Q_min_sv": "0.003298"
+  },
+  "C2 control W* ~ W' (no iota)": {
+   "found": false,
+   "kept": "0.3461",
+   "dropped": "0.2483"
+  },
+  "C3 ob(c1)": {
+   "cocycle_residual": "8.851e-58",
+   "ob_norm": "0.0",
+   "residual_mod_im_d1": "0.0",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.02617",
+   "dropped": "6.705e-57"
+  },
+  "C3 ob(c2)": {
+   "cocycle_residual": "1.984e-58",
+   "ob_norm": "0.0",
+   "residual_mod_im_d1": "0.0",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.02617",
+   "dropped": "6.705e-57"
+  },
+  "C3 ob(c1 + c2)": {
+   "cocycle_residual": "9.07e-58",
+   "ob_norm": "11948.899",
+   "residual_mod_im_d1": "9.0817274e-57",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.02617",
+   "dropped": "6.705e-57"
+  },
+  "C3 cross term (4,4) entry": "(0.007377828078 + 0.0j)"
+ },
+ {
+  "label": "7 + 4 sqrt3, mu = i (control: counts 0)",
+  "q": "13.928203230275509174",
+  "mu": "(0.0 + 1.0j)",
+  "h1_up(Ext(1,A))": 1,
+  "h1_down(Ext(A,1))": 1,
+  "I_split": 0,
+  "I W (1 on top of A)": {
+   "I": 0,
+   "h1": 0,
+   "h1_dual": 2,
+   "interior": 0,
+   "interior_dual": 0,
+   "gap": [
+    "0.3375",
+    "8.239e-59"
+   ]
+  },
+  "I W' (A on top of 1)": {
+   "I": 0,
+   "h1": 2,
+   "h1_dual": 0,
+   "interior": 0,
+   "interior_dual": 0,
+   "gap": [
+    "0.1495",
+    "2.341e-59"
+   ]
+  },
+  "C2 W* ~ iota*W'": {
+   "found": true,
+   "kept": "0.4709",
+   "dropped": "6.781e-61",
+   "Q_min_sv": "0.05905"
+  },
+  "C2 control W* ~ W' (no iota)": {
+   "found": false,
+   "kept": "0.8",
+   "dropped": "0.4642"
+  },
+  "C3 ob(c1)": {
+   "cocycle_residual": "7.9e-60",
+   "ob_norm": "0.0",
+   "residual_mod_im_d1": "0.0",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.6983",
+   "dropped": "5.871e-59"
+  },
+  "C3 ob(c2)": {
+   "cocycle_residual": "3.415e-59",
+   "ob_norm": "0.0",
+   "residual_mod_im_d1": "0.0",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.6983",
+   "dropped": "5.871e-59"
+  },
+  "C3 ob(c1 + c2)": {
+   "cocycle_residual": "3.505e-59",
+   "ob_norm": "277.76459",
+   "residual_mod_im_d1": "1.2114894e-58",
+   "rank_d1": 20,
+   "dim_H2": 5,
+   "kept": "0.6983",
+   "dropped": "5.871e-59"
+  },
+  "C3 cross term (4,4) entry": "(-0.2757266523 - 0.1787541572j)"
+ },
+ {
+  "label": "q = 2, mu = -1 (control: h1 = 0)",
+  "q": "2.0",
+  "mu": "(-1.0 + 0.0j)",
+  "h1_up(Ext(1,A))": 0,
+  "h1_down(Ext(A,1))": 0,
+  "I_split": 0
+ }
+]

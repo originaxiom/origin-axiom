@@ -750,7 +750,7 @@ new file. (E23 territory — the class where a convention flips silently between
 | **SE2** | orientation: of the two, the orientable one. CHOSEN |
 | **F-FC, F-CI, F-HE, F-AP, F-MC** | the frames: free cusp (the SM seat), class index (main), harmonic E₈ (the SM seat and the audit lane), G₂ apex (the SM seat), McKay cascade (main). Each is a hypothesis |
 | **FK1–FK11** | the open forks, each with what would settle it |
-| **GAP1–GAP5** | the gaps to physics: the dictionary, the ends, the source, selection and coincidence, dynamics |
+| **GAP1–GAP6** | the gaps to physics: the dictionary, the ends, the source, selection and coincidence, dynamics, and (v1.9) the flatness — every frame is flat and chirality needs curvature |
 | **scope tag** | frame, object, reach (single, class, general), hypotheses — in every verdict file and kill-graph entry from B1454 |
 
 **The letters that collide, never to be used bare.** "A5" is the torsion-free closure in the uniqueness theorem and

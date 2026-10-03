@@ -1,0 +1,24 @@
+{
+ "id": "B1466",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1453",
+  "B1455",
+  "B1297",
+  "B1459",
+  "B270"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE (the vacuum language) and F-CI (the class index)",
+  "object": "m004's Ballas family at the counted points q0 = 17 +- 12 sqrt2, mu = -1 (controls 7 + 4 sqrt3 with mu = i, and q = 2): the split module A (+) 1, its two extension lines, the mixed deformation",
+  "reach": "single",
+  "hypotheses": "C2's theorem holds wherever both Ext groups are one-dimensional and A* ~ iota^* A; the fused module's harmonicity is not examined; R76's a, c read; the mixing quartic not computed"
+ },
+ "claim_one_line": "THE COUNT IS THE ORDER, AND THE COUNT IS A BIT (sealed b3565230; the owner's directive of 2026-10-03; L241 refinement 2 paid). At q0 = 17 +- 12 sqrt2, mu = -1: I(1 on top of A) = -1, I(A on top of 1) = +1, I(A (+) 1) = 0, and W* ~ iota^* W' (not W' without iota), so the two orders have opposite counts by B1297's L1-L2 -- a theorem, not a coincidence of the point. The sealed P4 (the mixed direction obstructed, 60 percent) FAILED: the cup product's class in H^2 is zero at both points, and the follow-up C3b finds the mixed deformation as an exact flat 5-dim module, IRREDUCIBLE (commutant 1, no invariant or dual-invariant line), with class index 0 and h^1 = 0 on both sides: the two pieces fused carry no count. So the flat configurations near the split module are richer than a bit but the count is a bit: -1, +1 on the orders, 0 side by side, 0 fused -- 'both at once' cancels. A source along one line does not choose (t and -t are the same extension); a source on both lines drives into the fused, count-zero region; whether the potential's mixing quartic returns it to an axis is the next quantity, not on the record. The bar grades a source's selection UNJUDGED/FITTED, as sealed. Nothing selects a state. 0 of 19."
+}

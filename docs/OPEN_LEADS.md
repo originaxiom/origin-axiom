@@ -3313,6 +3313,14 @@ acting nature among them) as sources of *questions*, each turned into a computat
   computation owed here: an instrument that keeps the marking through the index (refinement (b) above), run on the two
   drop points.
 
+- **Refinement 5 (2026-10-03, B1466, sealed — refinement 2 paid):** at the counted point the two orders count −1 and +1
+  and are dual through the inversion (opposite by L1–L2, a theorem); the mixed direction is unobstructed and leads to an
+  irreducible module that counts 0; the direct sum counts 0. **The count is a bit** — ±1 on the orders, nothing anywhere
+  else — though the flat configurations are richer. Owner's question (iii) at this point: "both at once" cancels; the
+  count lives only where one order is taken. The source: along one line it does not choose; on both lines it drives into
+  the fused, count-zero region unless the potential's **mixing quartic** returns it to an axis — the next quantity, for
+  the harmonic machinery (the audit lane asked, in the relay of this arc).
+
 
 ## L242 — DO THE THREE LINES ACCOUNT FOR THE ZEROS ALREADY ON THE RECORD (registered 2026-10-02, B1455)
 
@@ -3428,4 +3436,6 @@ its own last paragraph names.
   for β = 1. Owed: read xB032 in full; state what ensemble and what symmetry;
 - (d) the one computation the reading asks for — "what mechanism, at what point, breaks it" — is B1466 (sealed
   2026-10-03): the source as the breaking field at the counted point, and whether the choice there is a bit.
+  **Run the same day:** the choice there is a bit for the count (±1 on the orders, 0 fused and 0 summed), not for the
+  configurations; the breaking field must lie on an axis to count. (b) done in GENESIS v1.9: GAP6, the flatness, named.
 
