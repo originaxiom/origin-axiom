@@ -17254,3 +17254,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   All three were self-caught before the seal.
 - **Next:** run as sealed. 0 of 19.
 
+## 2026-10-03 — the fast lane on f1b4587f (B1528 banked)
+
+- **Fast lane on f1b4587f** (71 minutes, in a worktree pinned at that commit): 6 681 passed, 52 skipped, 10 failed. The ten are
+  the same set as at 69693e54.
+- **The extra passes, from the collector.** Diffed like for like with 69693e54 (6 781 → 6 792 ids): 11 added, none removed.
+  - B1528's 9 lock tests, one of them slow (`test_c2_c3_live`).
+  - Two schema cases (B1528's arc verdict).
+  - So 10 more pass in the fast lane: 6 671 + 10 = 6 681.
+- **What it certifies.** B1528 (GENESIS v1.8) and the record of the 69693e54 lane, on a tree nothing edited. B1529's seal
+  (44cdb4a6) was written in the main working tree while the lane ran in its own pinned worktree (E46 kept).
+- **Main's S46 (B1463)**, read at `d2a95da4` in B1529's sweep, made its own GENESIS v1.8 from its v1.7, adding a log line (AR3
+  and AR4 verified on main). That collides in number with this branch's v1.8 (sm:B1528), made from the same v1.7 with different
+  additions. It is left to main's answer to the v1.8 relay, so that the two seats do not race on the next number (RELAY_LEDGER).
