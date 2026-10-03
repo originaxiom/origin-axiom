@@ -22,7 +22,7 @@ def test_the_table_and_the_ledger():
     led = open(os.path.join(ROOT, "docs", "HARVEST_LEDGER.md")).read()
     for r in T["rows"]:
         assert "`reports/physical_bridge_2026_09_05/%s.md` @ 7b088f50" % r["name"] in led, r["name"]
-    assert re.search(r"\| audit \| `origin/audit/physical-bridge-2026-09-05` \| `7b088f50` \|", led)
+    assert re.search(r"\| audit \| `origin/audit/physical-bridge-2026-09-05` \| `[0-9a-f]{8}` \|", led)      # the pin moves at every harvest; B1457's was 7b088f50
     assert len(os.listdir(os.path.join(A, "verification", "readers"))) == 6
 
 

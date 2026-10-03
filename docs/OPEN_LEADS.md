@@ -3414,8 +3414,13 @@ kinds — symmetry pairing things that cancel, the absence of curvature (a flat 
 uniqueness — with three remedies (a breaking mechanism and a choice; a bulk with curvature; a selection principle); a
 Hagedorn point β_c = 2 log φ; and the error pattern "a true local fact promoted to a general law".
 
-**Swept on main the same day, in the record's vocabulary.** "symmetric phase|broken phase": 0 of 1337 arcs — the
-seat's literal claim holds. "symmetry breaking|order parameter|spontaneous": 14 arcs; "interface|closings|observer
+**Swept on main the same day, in the record's vocabulary.** "symmetric phase|broken phase": 0 of 1337 arcs by
+`topic_sweep` — **which reads verdict lines and FINDINGS titles only; the sentence that followed here ("the seat's
+literal claim holds") was wrong** (corrected 2026-10-03, B1467, after the SM seat's sm:B1531 found the phrase): "symmetric
+phase" is on main in lead **L17** — "Symmetric-phase exclusion / quantized breaking: is the commuting (symmetric) locus
+empty rather than unstable?", the web seat's frame as a lead of the record's own — in B849's seal and B853's script, and
+"broken phase" in two more places; confirmed by grep. An E54 instance of main's (an absence asserted beyond the tool's
+domain), filed. "symmetry breaking|order parameter|spontaneous": 14 arcs; "interface|closings|observer
 supplies": 29. The thesis is the record's own: B128 (the structure permits but never forces symmetry breaking), **B717**
 (the object supplies four incompletenesses and the observer supplies every closing — measurement is the breaking), B849
 (the claimed breaking has no order parameter at the manifold level), B1204 (the owner's own question whether prior
@@ -3427,6 +3432,9 @@ its own last paragraph names.
 **New to main, and owed:**
 - (a) the three-kind taxonomy as a census over the kill graph: does every NEGATIVE arc sort into pairing / curvature /
   uniqueness with nothing left over? A fourth kind refutes the taxonomy; none makes it a law about the record;
+  **Done by the SM seat the same evening (sm:B1531, read, not re-derived):** the three kinds cover 14 of the chirality
+  chain's 26 negatives (symmetry 8, flatness 3, non-uniqueness 3); the other 12 are frame-arithmetic and others — **the
+  taxonomy is incomplete**; a fourth kind exists. Main's census over the whole kill graph stays owed as a check of theirs;
 - (b) the remedies mapped onto GENESIS's gaps — breaking → GAP3 (the source) and FK12 (the register); curvature → the
   flatness of every frame, to be **named as a gap** (it is not yet one); uniqueness → GAP4 and THE_BAR — a v1.9 line;
 - (c) β_c = 2 log φ: **verified on main 2026-10-03** as the topological entropy of the monodromy LR (eigenvalue φ²,

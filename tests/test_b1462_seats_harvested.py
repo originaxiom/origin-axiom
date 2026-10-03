@@ -46,4 +46,5 @@ def test_genesis_v1_7_and_the_corrections():
     add = open(os.path.join(ROOT, "frontier", "B1455_the_selection_rule_and_the_deciding_test", "ADDENDUM_2026-10-03_P_is_the_swap.md")).read()
     assert "P is the swap's class" in add
     h = open(os.path.join(ROOT, "docs", "HARVEST_LEDGER.md")).read()
-    assert "| sm | `<remote>/standard-model-derivation-0qt6ao` | `48f6af3b` |" in h and all(("| sm:B152%d |" % k) in h for k in range(1, 7))
+    import re
+    assert re.search(r"\| sm \| `<remote>/standard-model-derivation-0qt6ao` \| `[0-9a-f]{8}` \|", h) and all(("| sm:B152%d |" % k) in h for k in range(1, 7))   # the pin moves at every harvest; B1462's was 48f6af3b

@@ -93,16 +93,17 @@ SEATS = [
     # live test, not by anyone remembering them. Each is the SM seat's tree plus a few commits of its own: the
     # seal-gate fix (applied on main in its own form) and a re-audit of which arcs declare a law (lead L243 (f),
     # not applied on main). Pinned at their heads once those commits were read.
-    dict(key="smgates", label="SM seat child lane (seal gates)", branch="magical-wright-vwrmtt",
-         remotes=("origin", "codeberg"), cell=("child lane (seal gates)",)),
+    # RETIRED 2026-10-03 at the owner's word (B1467): tagged retired/magical-wright-vwrmtt at 0043be2b and deleted on both
+    # remotes; its one commit had been read on main (B1456). Kept here as a comment so the key's history can be followed.
+    # dict(key="smgates", label="SM seat child lane (seal gates)", branch="magical-wright-vwrmtt", ...),
     dict(key="smlaws", label="SM seat child lane (creates_law re-audit)", branch="determined-hopper-t1cmii",
          remotes=("origin", "codeberg"), cell=("child lane (creates_law",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
     # whether it stays is the owner's decision (relayed in S44).
-    dict(key="art", label="illustration branch (not a seat)", branch="camper-van-bar",
-         remotes=("origin", "codeberg"), cell=("illustration branch",)),
+    # RETIRED 2026-10-03 at the owner's word (B1467): tagged retired/art-camper-van-bar at b3745696 and deleted on both remotes.
+    # dict(key="art", label="illustration branch (not a seat)", branch="camper-van-bar", ...),
 ]
 
 

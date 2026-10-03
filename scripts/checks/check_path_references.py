@@ -59,6 +59,7 @@ EXEMPT_CITERS = ("PROGRESS_LOG.md",
                  "docs/HARVEST_LEDGER.md",  # 2026-09-08 (B1298, MASTERPLAN v3.1 §1a): every row cites a SEAT BRANCH path @ commit pin by design -- the ledger is the record of what lives on other branches, none of it resolves on main; the harvest_debt gate (B1307) checks these against the branches themselves
 
                  "frontier/B1456_genesis_v1_2_verified_and_the_seats_reconciled/received/",  # B1456: the same, for the received GENESIS v1.2
+                 "frontier/B1467_the_seats_evening_and_mains_absence_claim_corrected/received/",  # B1467: the SM seat's v1.8 as received
                  "frontier/B1462_the_seats_harvested_p_is_the_swap_and_the_levels/received/",  # B1462: GENESIS v1.6 and THE_BAR as received from the SM seat; they cite that branch's paths
                  "frontier/B1458_the_bar_adopted_and_the_own_level_law/received/",  # B1458: the SM seat's THE_BAR as received, and GENESIS v1.3 as it was  # B1456: the same, for the received GENESIS v1.2
                  "frontier/B1454_genesis_v1_verified_and_adopted/received/",  # B1454: hash-pinned copies of the SM seat's GENESIS v1.0 and its relay, as received; they cite paths of that seat's branch by design

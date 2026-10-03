@@ -1,0 +1,22 @@
+{
+ "id": "B1467",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1466",
+  "B1465",
+  "B1462"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's pages and ledgers (frame-independent)",
+  "object": "GENESIS v1.9 -> v1.10; L244; HARVEST_LEDGER rows 832-841; four inbound relays",
+  "reach": "general",
+  "hypotheses": "a harvest arc: the SM seat's sm:B1528 and sm:B1531 read, their findings checked by grep on main; sm:B1529/B1530/B1532 sealed, not banked; the audit lane's R81 proof not re-derived"
+ },
+ "claim_one_line": "THE SEATS' EVENING, ROWED, AND MAIN'S ABSENCE CLAIM CORRECTED. L244 had said 'symmetric phase' occurs nowhere on main (0 of 1337 arcs by topic_sweep); the SM seat's sm:B1531 found it and grep confirms: lead L17 ('Symmetric-phase exclusion / quantized breaking', the web seat's frame as a lead of the record's own), B849's seal, B853's script -- an E54 instance of main's, corrected in L244 and GENESIS v1.10 with the credit. sm:B1528's exact sentence on the meridian twist (enters squared; P fixes Ballas' family) adopted into v1.10, the version-number collision with main's v1.8 recorded. sm:B1531's census read: the reading's three kinds cover 14 of the chirality chain's 26 negatives, the taxonomy incomplete. sm:B1529/B1530/B1532 sealed and scheduled; the audit lane's R81 (a harmonic metric on a compact truncation with boundary data, non-discriminating in the datum) read as B1466's axis in the lane's words. Nothing selects a state. 0 of 19."
+}
