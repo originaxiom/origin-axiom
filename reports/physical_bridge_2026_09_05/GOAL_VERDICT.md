@@ -34,9 +34,12 @@ variations, then the same-model physical spectrum/anomalies. See
 reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION.md. Nonauthor
 analytic review/full-suite/main-bank acceptance remain pending.
 
-The full objective is unchanged and unachieved. The current interface
-reading is ACTIVE; earlier usageLimited readings are dated history.
-An active research objective is not a guarantee of scientific success.
+The full objective is unchanged and unachieved. The turn began with an
+ACTIVE interface reading; after R82 publication001651aa the latest
+reading is usageLimited. No goal was completed, paused, replaced or
+marked mathematically blocked. The research mission remains in force,
+but unattended automatic continuation is currently scheduler-limited.
+An active mission is not a guarantee of scientific success.
 Earlier dated snapshots below are preserved as history, not current grades.
 
 October3: R80 result publication6898331f is pushed/server-confirmed.

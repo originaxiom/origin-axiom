@@ -112,6 +112,10 @@ Then compute a gauge-invariant boundary or bulk observable and a physical
 fermion spectrum in that SAME model. Do not revive a numerical matching
 campaign by identifying a saddle value with a coupling.
 
-The full parameter-free Standard Model/TOE goal remains ACTIVE and
-unachieved. The act-and-register milestone and qualia hypothesis remain
-explicitly retained; no observer or experiential mechanism is derived.
+The full parameter-free Standard Model/TOE mission remains in force and
+unachieved. After publication001651aa, a fresh interface reading changed
+from the turn's ACTIVE status to usageLimited. This is a scheduler limit,
+not a replaced/completed goal or a mathematical blockage; no status-only
+tool is used to bypass it. The act-and-register milestone and qualia
+hypothesis remain explicitly retained; no observer or experiential
+mechanism is derived. This final status note changes no sealed science.
