@@ -1,0 +1,340 @@
+{
+ "D1 Part 0": {
+  "T": true,
+  "L": true
+ },
+ "subgroups": {
+  "3": {
+   "|T_n|": 16,
+   "invariant factors": [
+    4,
+    4
+   ],
+   "subgroups": 15,
+   "Toth": 15,
+   "orders": {
+    "1": 1,
+    "2": 3,
+    "4": 7,
+    "8": 3,
+    "16": 1
+   }
+  }
+ },
+ "coincidence structure differs (members)": [],
+ "censuses agree": true,
+ "census differences (first 10)": [
+  [],
+  []
+ ],
+ "P7 exceptions (first 10)": [
+  [
+   3,
+   "1/4,1/4",
+   "0,3/4",
+   "E"
+  ],
+  [
+   3,
+   "1/4,1/4",
+   "1/4,1/2",
+   "E"
+  ],
+  [
+   3,
+   "1/4,1/4",
+   "1/2,3/4",
+   "E"
+  ]
+ ],
+ "P8 exceptions (first 10)": [
+  [
+   3,
+   "1/4,1/4",
+   "0,3/4"
+  ],
+  [
+   3,
+   "1/4,1/4",
+   "1/4,1/2"
+  ],
+  [
+   3,
+   "1/4,1/4",
+   "1/2,3/4"
+  ]
+ ],
+ "predictions": {
+  "P1 route C = route T": "route_c_run.json missing",
+  "P2 no unresolved D5 disagreement": true,
+  "P3 no generation-shaped count on M2-M5": false,
+  "P4 a generation-shaped count on M6": false,
+  "P5 |N| = 3 on M6": false,
+  "P6 an order-8 two-class member generation-shaped at c_int, B = 1": false,
+  "P7 special points only at E with nu chi in NS and (L2E)* with nu^-3 chi in NS": false,
+  "P8 simple Lambda^2 terms 0 at boundary-type classes": false,
+  "P9 the degree law at every (nu, c, B)": false
+ },
+ "checks": {
+  "D6": 64,
+  "D7": 12,
+  "D5": 0
+ },
+ "check failures (first 10 each)": {
+  "D6": [
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "0,0"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "0,1/4"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "0,1/2"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "0,3/4"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,0"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,1/4"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,1/2"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,3/4"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/2,0"
+    ],
+    "kind differs from the conjugate's"
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/2,1/4"
+    ],
+    "kind differs from the conjugate's"
+   ]
+  ],
+  "D7": [
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "0,3/4"
+    ],
+    "special",
+    "lower bound",
+    -1,
+    -1,
+    1,
+    1
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "0,3/4"
+    ],
+    "special",
+    "simple range",
+    -1,
+    -1
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,1/2"
+    ],
+    "special",
+    "lower bound",
+    -1,
+    -1,
+    1,
+    1
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,1/2"
+    ],
+    "special",
+    "simple range",
+    -1,
+    -1
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/2,3/4"
+    ],
+    "special",
+    "lower bound",
+    -1,
+    -1,
+    1,
+    1
+   ],
+   [
+    "T",
+    [
+     3,
+     "1/4,1/4",
+     "1/2,3/4"
+    ],
+    "special",
+    "simple range",
+    -1,
+    -1
+   ],
+   [
+    "L",
+    [
+     3,
+     "1/4,1/4",
+     "0,3/4"
+    ],
+    "special",
+    "lower bound",
+    -1,
+    -1,
+    1,
+    1
+   ],
+   [
+    "L",
+    [
+     3,
+     "1/4,1/4",
+     "0,3/4"
+    ],
+    "special",
+    "simple range",
+    -1,
+    -1
+   ],
+   [
+    "L",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,1/2"
+    ],
+    "special",
+    "lower bound",
+    -1,
+    -1,
+    1,
+    1
+   ],
+   [
+    "L",
+    [
+     3,
+     "1/4,1/4",
+     "1/4,1/2"
+    ],
+    "special",
+    "simple range",
+    -1,
+    -1
+   ]
+  ],
+  "D5": []
+ },
+ "seconds": 0.2
+}
+{
+ "T": {
+  "N values": {
+   "1": 1
+  },
+  "|N| = 3": 0
+ },
+ "L": {
+  "N values": {
+   "1": 1
+  },
+  "|N| = 3": 0
+ }
+}
+{
+ "P1 route C = route T": "route_c_run.json missing",
+ "P2 no unresolved D5 disagreement": true,
+ "P3 no generation-shaped count on M2-M5": false,
+ "P4 a generation-shaped count on M6": false,
+ "P5 |N| = 3 on M6": false,
+ "P6 an order-8 two-class member generation-shaped at c_int, B = 1": false,
+ "P7 special points only at E with nu chi in NS and (L2E)* with nu^-3 chi in NS": false,
+ "P8 simple Lambda^2 terms 0 at boundary-type classes": false,
+ "P9 the degree law at every (nu, c, B)": false
+}
+special-class recount equals the read-out: True 1 [(('0,0', '1/2,0', '1/4,1/2', '3/4,1/2'), 1, ('1/4,1/2',))]
+checks: {'D6': 64, 'D7': 12, 'D5': 0} coincidence differs: []
+censuses agree: True
+exit 0

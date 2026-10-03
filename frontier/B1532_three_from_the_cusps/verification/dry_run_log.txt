@@ -1,0 +1,267 @@
+{
+ "D1 Part 0": {
+  "T": true,
+  "L": true
+ },
+ "subgroups": {
+  "2": {
+   "|T_n|": 5,
+   "invariant factors": [
+    1,
+    5
+   ],
+   "subgroups": 2,
+   "Toth": 2,
+   "orders": {
+    "1": 1,
+    "5": 1
+   }
+  },
+  "3": {
+   "|T_n|": 16,
+   "invariant factors": [
+    4,
+    4
+   ],
+   "subgroups": 15,
+   "Toth": 15,
+   "orders": {
+    "1": 1,
+    "2": 3,
+    "4": 7,
+    "8": 3,
+    "16": 1
+   }
+  }
+ },
+ "coincidence structure differs (members)": [],
+ "censuses agree": false,
+ "census differences (first 10)": [
+  [],
+  [
+   [
+    "[3, \"0,0\", \"c1\", [\"0,0\", \"0,1/2\", \"0,1/4\", \"0,3/4\", \"1/2,0\", \"1/2,1/2\", \"1/2,1/4\", \"1/2,3/4\", \"1/4,0\", \"1/4,1/2\", \"1/4,1/4\", \"1/4,3/4\", \"3/4,0\", \"3/4,1/2\", \"3/4,1/4\", \"3/4,3/4\"], -3]",
+    1
+   ],
+   [
+    "[3, \"0,0\", \"c1\", [\"0,0\", \"0,1/2\", \"1/2,0\", \"1/2,1/2\", \"1/4,1/4\", \"1/4,3/4\", \"3/4,1/4\", \"3/4,3/4\"], -1]",
+    1
+   ]
+  ]
+ ],
+ "P7 exceptions (first 10)": [],
+ "P8 exceptions (first 10)": [
+  [
+   2,
+   "0,0",
+   "0,0"
+  ],
+  [
+   2,
+   "1/5,4/5",
+   "0,0"
+  ],
+  [
+   2,
+   "1/5,4/5",
+   "3/5,2/5"
+  ],
+  [
+   2,
+   "2/5,3/5",
+   "0,0"
+  ],
+  [
+   2,
+   "2/5,3/5",
+   "1/5,4/5"
+  ],
+  [
+   2,
+   "2/5,3/5",
+   "2/5,3/5"
+  ],
+  [
+   2,
+   "2/5,3/5",
+   "3/5,2/5"
+  ],
+  [
+   2,
+   "3/5,2/5",
+   "0,0"
+  ],
+  [
+   2,
+   "3/5,2/5",
+   "2/5,3/5"
+  ],
+  [
+   2,
+   "3/5,2/5",
+   "3/5,2/5"
+  ]
+ ],
+ "predictions": {
+  "P1 route C = route T": "route_c_run.json missing",
+  "P2 no unresolved D5 disagreement": false,
+  "P3 no generation-shaped count on M2-M5": false,
+  "P4 a generation-shaped count on M6": false,
+  "P5 |N| = 3 on M6": false,
+  "P6 an order-8 two-class member generation-shaped at c_int, B = 1": false,
+  "P7 special points only at E with nu chi in NS and (L2E)* with nu^-3 chi in NS": true,
+  "P8 simple Lambda^2 terms 0 at boundary-type classes": false,
+  "P9 the degree law at every (nu, c, B)": false
+ },
+ "checks": {
+  "D6": 6,
+  "D7": 2,
+  "D5": 3
+ },
+ "check failures (first 10 each)": {
+  "D6": [
+   [
+    "T",
+    [
+     2,
+     "2/5,3/5",
+     "1/5,4/5"
+    ]
+   ],
+   [
+    "T",
+    [
+     2,
+     "3/5,2/5",
+     "4/5,1/5"
+    ]
+   ],
+   [
+    "L",
+    [
+     2,
+     "1/5,4/5",
+     "2/5,3/5"
+    ]
+   ],
+   [
+    "L",
+    [
+     2,
+     "4/5,1/5",
+     "3/5,2/5"
+    ]
+   ],
+   [
+    "L",
+    [
+     3,
+     "0,0",
+     "1/4,1/4"
+    ]
+   ],
+   [
+    "L",
+    [
+     3,
+     "0,0",
+     "3/4,3/4"
+    ]
+   ]
+  ],
+  "D7": [
+   [
+    "L",
+    [
+     3,
+     "0,0",
+     "1/4,1/4"
+    ],
+    "c1",
+    "lower bound",
+    -1,
+    0,
+    1,
+    1
+   ],
+   [
+    "L",
+    [
+     3,
+     "0,0",
+     "1/4,1/4"
+    ],
+    "c1",
+    "simple range",
+    -1,
+    0
+   ]
+  ],
+  "D5": [
+   [
+    [
+     2,
+     "1/5,4/5",
+     "2/5,3/5"
+    ],
+    "differ"
+   ],
+   [
+    [
+     2,
+     "2/5,3/5",
+     "1/5,4/5"
+    ],
+    "differ"
+   ],
+   [
+    [
+     3,
+     "0,0",
+     "1/4,1/4"
+    ],
+    "differ"
+   ]
+  ]
+ },
+ "seconds": 0.1
+}
+{
+ "T": {
+  "N values": {
+   "-6": 2,
+   "-4": 4,
+   "-3": 9,
+   "-2": 13,
+   "-1": 26
+  },
+  "|N| = 3": 9
+ },
+ "L": {
+  "N values": {
+   "-6": 2,
+   "-4": 4,
+   "-3": 10,
+   "-2": 13,
+   "-1": 27
+  },
+  "|N| = 3": 10
+ }
+}
+{
+ "P1 route C = route T": "route_c_run.json missing",
+ "P2 no unresolved D5 disagreement": false,
+ "P3 no generation-shaped count on M2-M5": false,
+ "P4 a generation-shaped count on M6": false,
+ "P5 |N| = 3 on M6": false,
+ "P6 an order-8 two-class member generation-shaped at c_int, B = 1": false,
+ "P7 special points only at E with nu chi in NS and (L2E)* with nu^-3 chi in NS": true,
+ "P8 simple Lambda^2 terms 0 at boundary-type classes": false,
+ "P9 the degree law at every (nu, c, B)": false
+}
+recount equals the read-out's route-T census: True 54
+checks: {'D6': 6, 'D7': 2, 'D5': 3}
+D5 first: [((2, '1/5,4/5', '2/5,3/5'), 'differ'), ((2, '2/5,3/5', '1/5,4/5'), 'differ')]
+D6: [('T', (2, '2/5,3/5', '1/5,4/5')), ('T', (2, '3/5,2/5', '4/5,1/5'))]
+D7: [('L', (3, '0,0', '1/4,1/4'), 'c1', 'lower bound', -1, 0, 1, 1), ('L', (3, '0,0', '1/4,1/4'), 'c1', 'simple range', -1, 0)]
+exit 0

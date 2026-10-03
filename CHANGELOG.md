@@ -1,5 +1,42 @@
 # Changelog
 
+## B1532 sealed: three from the cusps — sm:B1515's frame pulled back to every finite abelian cover of m004's levels (sL-7)
+
+- **The question.** In sm:B1515's frame (F-HE, the hyperbolic point), take a λ = 1 member of a level M₂–M₆. Does its pullback to
+  some finite abelian cover carry three generations, I(p*W₁) = I(Λ²p*W₁) = ±3? More generally: which generation-shaped counts
+  occur, on which covers, members and classes?
+- **Proved at design time.**
+  - Lemma S: the count on the cover cut out by a subgroup B of the characters trivial on the cusp is the sum over χ ∈ B of the
+    twisted terms T(ν, χ, c). Shapiro is read at source (Kedlaya's notes, Lemma 3.2.3), with Mackey on the cusps.
+  - Lemma Z: twists non-trivial on the cusp count 0. So every finite abelian cover counts what some B counts. sm:B1506 T2 ("a
+    pullback keeps the index") is its B = 1 case, along the level tower.
+  - Lemma D: the opposite order counts the opposite (sm:B1515 Lemma 7).
+  - Lemma J and Proposition H: at M₆'s 120 two-class members the term is constant off the interior class except at special
+    classes. Those are the rank drops of four pencils, possible only for E at νχ non-simple and for (Λ²E)* at ν⁻³χ non-simple.
+  - Corollary I: at the interior class every simple twisted term is (0, 0). At a boundary-type class a simple term lies in
+    {0, 1}².
+  - The bound, from banked h¹ only: no negative count on any cover of M₂–M₅. On M₆, 8,631 of 23,680 pairs (ν, B) leave three
+    open, the smallest at |B| = 4.
+- **Instruments.** Two independent routes read the whole population: 119,347 terms over 117 subgroups.
+  - Route T is sm:B1515's route T, unchanged (B1511's Reidemeister–Schreier presentation, B1374's index over GF(p)).
+  - Route L is sm:B1515's route L, unchanged (the mapping-torus presentation, its own elimination, its own interior class from the
+    joint system).
+  - Route C reads the cover whole, with the permutation module.
+  - Special classes are read directly; conjugate pairs through the restriction of scalars.
+  - The read-out's checks are D1–D7.
+- **Controls, all hold.**
+  - The banked identity: 507 of 507 in each route.
+  - The shared labels; Lemma Z on twists off the cusp.
+  - The subgroup counts against Tóth (arXiv:1312.1485, Theorem 4.1).
+  - Route C's h¹ against banked sums (50 readings).
+  - The class structure; the pencils' h¹ at χ = 1; Lemma D on banked rows.
+  - The conjugate-pair reader, split at a square d₀ (K9).
+  - Two dry runs of the read-out on synthetic rows.
+- **Predictions:** P1–P9 and G. P5 (|N| = 3 on some cover of M₆) is at 30%; P3 (no generation-shaped count on M₂–M₅) at 85%.
+- **Logged** (ERROR_LEDGER): a recall slip (Tóth's arXiv number, caught by reading at source), and a read-out bug caught by the
+  dry run before the seal.
+- The run waits for the cores held by sm:B1530's census and sm:B1529's pole brackets.
+
 ## B1531 banked: the symmetric phase — chat 1's reframing checked against the record (PROVED, not sealed)
 
 - **What was asked.** The owner relayed a reframing written in another conversation ("chat 1"), to be treated seriously: the

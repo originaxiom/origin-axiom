@@ -17314,3 +17314,26 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - B1530's FINDINGS draft: §5.2b now cites F01's splitting obstruction and R81's boundary admission at source.
 - B1530's census still running (351 of 536 at 17:52Z); B1529's pole brackets 59 of 80. Neither is touched (E46).
 - Registered sL-11. 0 of 19.
+
+## 2026-10-03 — B1532 sealed: three from the cusps (sL-7; the owner's "continue with the next arc")
+
+- **The question.** Does sm:B1515's frame, pulled back to a finite abelian cover of one of m004's levels M₂–M₆, carry three
+  generations? These are the fibre-direction covers, trivial on the cusp. There the twisted terms survive: Lemma Z kills the
+  level tower's twists, which is sm:B1506 T2. A three would be a three on that cover-state of X_gen. sL-5's bit is unchanged.
+- **Design.**
+  - Lemma S (Shapiro, read at source) makes the count a sum of twisted terms over a subgroup B.
+  - Lemma Z reduces every finite abelian cover to some B.
+  - Lemma J and Proposition H locate the special classes of M₆'s 120 two-class members.
+  - Corollary I: simple twisted terms are (0, 0) at the interior class, and in {0, 1}² elsewhere.
+  - The banked h¹ exclude negative counts on M₂–M₅ and leave three open on M₆ (smallest cover |B| = 4).
+- **The seal.**
+  - Routes T and L (sm:B1515's, unchanged, sharing no code) read all 119,347 terms over the 117 subgroups at every class: the
+    one-class c, the interior class, the generic class and every special class.
+  - Route C reads the cover whole on a sealed sample and on every hit.
+  - The read-out checks D1–D7.
+  - Adjudication re-reads at the second primes, and three of four readings stand.
+  - Predictions P1–P9 and G. P5 (a three on M₆) is at 30%.
+- **Controls K1–K9 all hold.** The banked identity is 507 of 507 χ = 1 terms in each route, every B1297 dimension included. The
+  read-out passed two dry runs on synthetic rows. The second found a crash in the conjugation check, fixed before the seal.
+- **Main moved** to b3565230 (B1465, B1466 sealed: the count is the order). Cited in B1532's prior art. The harvest relay waits for
+  B1530's bank.

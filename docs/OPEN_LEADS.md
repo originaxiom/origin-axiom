@@ -3501,6 +3501,15 @@ a cusp's term a multiple of m. On the resolved set every leading shell has one d
 - That is a new place a three can appear in the frame's count: a lead for this entry, with the same caveats (the level, sL-5; the
   count's reading, sL-8). `frontier/B1399_the_rank_two_higgs`.
 
+**Status (2026-10-03, B1532 sealed): three from the cusps, in sm:B1515's frame.**
+- **Where.** The fibre-direction covers of the levels M₂–M₆, which are trivial on the cusp. There Lemma Z lets the twisted terms
+  survive; the level tower's twists all vanish (sm:B1506 T2).
+- **What is read.** On every finite abelian cover, the pulled-back members of B1515's frame at every class, by two independent
+  routes.
+- **At design time.** Three is excluded on the negative side of M₂–M₅ and open on M₆, from a cover with |B| = 4. P5 (a three on
+  M₆) is at 30%.
+- A three would be a three on that cover-state; sL-5's bit is unchanged. `frontier/B1532_three_from_the_cusps`.
+
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
 **Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.

@@ -1,0 +1,21 @@
+[     0.6s] Part 0 route T: M2 read (5 members)
+[     1.9s] Part 0 route T: M3 read (16 members)
+[     6.7s] Part 0 route T: M4 read (45 members)
+[    23.8s] Part 0 route T: M5 read (121 members)
+[    85.3s] Part 0 route T: M6 read (320 members)
+[    85.3s] Part 0 route T: 507 chi = 1 terms equal sm:B1515's banked rows, 0 differ; passed = True
+[    85.5s] Part 0 route L: M2 read (5 members)
+[    85.8s] Part 0 route L: M3 read (16 members)
+[    86.7s] Part 0 route L: M4 read (45 members)
+[    90.8s] Part 0 route L: M5 read (121 members)
+[   113.7s] Part 0 route L: M6 read (320 members)
+[   113.7s] Part 0 route L: 507 chi = 1 terms equal sm:B1515's banked rows, 0 differ; passed = True
+[   113.8s] K2 holds = True
+[   123.7s] K3 holds = True
+[   125.5s] K4 holds = True [('M2', {'invariant factors': [1, 5], 'subgroups': 2, 'Toth': 2}), ('M3', {'invariant factors': [4, 4], 'subgroups': 15, 'Toth': 15}), ('M4', {'invariant factors': [3, 15], 'subgroups': 12, 'Toth': 12}), ('M5', {'invariant factors': [11, 11], 'subgroups': 14, 'Toth': 14}), ('M6', {'invariant factors': [8, 40], 'subgroups': 74, 'Toth': 74})]
+[   211.2s] K5 holds = True (50 subgroup readings)
+[   283.7s] K6 {'T M2': 0, 'T M3': 0, 'T M4': 0, 'T M5': 0, 'T M6': 120, 'L M2': 0, 'L M3': 0, 'L M4': 0, 'L M5': 0, 'L M6': 120, 'holds': True}; K7 {'T M2': {'two-class members': 0, 'prediction failures': 0}, 'T M3': {'two-class members': 0, 'prediction failures': 0}, 'T M4': {'two-class members': 0, 'prediction failures': 0}, 'T M5': {'two-class members': 0, 'prediction failures': 0}, 'T M6': {'two-class members': 120, 'prediction failures': 0}, 'L M2': {'two-class members': 0, 'prediction failures': 0}, 'L M3': {'two-class members': 0, 'prediction failures': 0}, 'L M4': {'two-class members': 0, 'prediction failures': 0}, 'L M5': {'two-class members': 0, 'prediction failures': 0}, 'L M6': {'two-class members': 120, 'prediction failures': 0}, 'holds': True}
+[   284.0s] K8 {'T': [783, 783], 'L': [1171, 1171], 'holds': True}
+[   295.1s] K9 holds = True (12 split readings)
+[   295.1s] K7 pencil shapes: {'L E m=1 k=1 rank=0 points=0': 96, 'L E m=1 k=2 rank=0 points=0': 24, 'L E* m=1 k=1 rank=1 points=0': 96, 'L E* m=2 k=1 rank=0 points=0': 24, 'L L2E m=1 k=2 rank=0 points=0': 96, 'L L2E m=2 k=2 rank=0 points=0': 24, 'L L2E* m=2 k=1 rank=1 points=0': 96, 'L L2E* m=2 k=2 rank=2 points=1': 24, 'T E m=1 k=1 rank=0 points=0': 96, 'T E m=1 k=2 rank=0 points=0': 24, 'T E* m=1 k=1 rank=1 points=0': 96, 'T E* m=2 k=1 rank=0 points=0': 24, 'T L2E m=1 k=2 rank=0 points=0': 96, 'T L2E m=2 k=2 rank=0 points=0': 24, 'T L2E* m=2 k=1 rank=1 points=0': 96, 'T L2E* m=2 k=2 rank=2 points=1': 24}
+[   295.1s] all hold = True
