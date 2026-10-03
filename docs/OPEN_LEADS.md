@@ -3854,6 +3854,12 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    its 240; nullities 4 and 5 at every point). The points are exported without readings for main's L242 (e), a blind second
    route. Π's first sentence is narrowed to types 0–2 (E53): type-3 (diagonalizable) cusps also occur near ρ_hyp (Ballas–Danciger–Lee Thm 4.1 with
    Cooper–Long–Tillmann Thm 0.2), with infinite volume. Kill graph: `the-cusp-decides` (F-HE, reach class). Next: item 9.
+   *(2026-10-03, main's B1465 at 2db4864d, read at source.)* Main verified Part H on the four mirror-broken states ±LLRLRR and
+   ±L³RLR² by a route sharing nothing with it.
+   - The route: B1451's finder on periodic curves to their parabolic κ = −2 points, the SL(2)-tensor ρ ⊗ ρ̄ ⊗ χ with meridian
+     λ·(T ⊗ T̄), main's index_num at 60 digits.
+   - 7,364 indices, all zero, for every fibre character and seven meridian twists λ.
+   - The type-one curves (Lemma C) are outside main's instruments and stay the seat's.
 9. **The eigenvalue-one locus of the infinite-volume part near the hyperbolic point** (sm:B1527 §7). Off the finite-volume
    curves the cusp is type two (or type three), and Lemma C gives I = a0 − b0 = 0 except where ρ(ℓ) has the eigenvalue 1:
    - on type two, the curves where ψa + ψb, 3ψa − ψb or 3ψb − ψa vanishes at ℓ (sm:B1527's X1 found them on all ten states);

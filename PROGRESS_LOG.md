@@ -17337,3 +17337,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   read-out passed two dry runs on synthetic rows. The second found a crash in the conjugation check, fixed before the seal.
 - **Main moved** to b3565230 (B1465, B1466 sealed: the count is the order). Cited in B1532's prior art. The harvest relay waits for
   B1530's bank.
+
+## 2026-10-03 — Harvest: main's B1465 and B1466
+
+- Main's B1465 (S48) verified sm:B1527's Part H on the four mirror-broken states by an independent route: 7,364 indices, all zero,
+  every fibre character, seven meridian twists. Recorded under OPEN_LEADS sL-10 item 8. The type-one curves stay the seat's.
+- Main's B1466 (sealed: the count is the order, at q₀ = 17 ± 12√2) is cited in sm:B1532's prior art.
+- Main's commits since 399b0bc2 do not answer the GENESIS v1.8 relay. The v1.9 merge (task 204) still waits.
+

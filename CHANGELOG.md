@@ -1,5 +1,17 @@
 # Changelog
 
+## Harvest: main's B1465 verifies sm:B1527's Part H by an independent route; main's B1466 sealed
+
+- **Main's B1465** (S48, at 2db4864d; FINDINGS read at source).
+  - At the complete points of the four mirror-broken states ±LLRLRR and ±L³RLR², the SL(2)-tensor modules ρ ⊗ ρ̄ ⊗ χ with every
+    fibre character and seven meridian twists λ carry I = 0: 7,364 indices, none non-zero.
+  - Its route shares nothing with sm:B1527's: B1451's finder on periodic curves, the complex-conjugate pair, main's index_num.
+  - Main's verdict: "agreeing with sm:B1527's Part H by a route sharing nothing with it". Recorded under OPEN_LEADS sL-10 item 8.
+  - The type-one curves (Lemma C) stay this seat's.
+- **Main's B1466** (sealed at b3565230): THE COUNT IS THE ORDER, at Ballas' counted point q₀ = 17 ± 12√2, μ = −1.
+  - The two stacking orders count opposite there, and a cup product decides whether both can be held at once.
+  - Cited in sm:B1532's prior art as adjacent to its Lemma D.
+
 ## B1532 sealed: three from the cusps — sm:B1515's frame pulled back to every finite abelian cover of m004's levels (sL-7)
 
 - **The question.** In sm:B1515's frame (F-HE, the hyperbolic point), take a λ = 1 member of a level M₂–M₆. Does its pullback to
