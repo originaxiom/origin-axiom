@@ -29,6 +29,7 @@ with the debt and cannot close while any seat item lacks a row. The `chat1` (ses
 | review | `<remote>/paper-review-verification-kaz3f5` (the outside referee's lane; **codeberg's copy is 7 commits behind origin's** as of 2026-09-18) | `21c47a51` | 2026-09-18, main's own head: this lane was in no seat list and no gate until B1426 registered it, and it already holds three referee reports | B1426 (registration only, not a harvest) |
 | smgates | `origin/magical-wright-vwrmtt` (a child lane of the SM seat: its tree plus one commit) | `0043be2b` | 2026-10-02, its head: the one commit of its own, the seal-gate fix, read in full and applied on main in main's own form (`_seal_ledger_rows`) | B1456 |
 | smlaws | `origin/determined-hopper-t1cmii` (a child lane of the SM seat: its tree plus a re-audit of which arcs declare a law) | `7cda35aa` | 2026-10-02, its head: its three commits read; the re-audit touches verdict files of main's own arcs and is **not applied on main** (lead L243 (f)) | B1456 |
+| art | `origin/art/camper-van-bar` (not a seat: a one-commit illustration branch, `art/camper-bar.svg` and `.png`, no programme content; author field not the repository's) | `b3745696` | 2026-10-03, its head: the one commit read; nothing to harvest; whether the branch stays is the owner's decision (S44) | B1461 |
 
 ## The rows
 

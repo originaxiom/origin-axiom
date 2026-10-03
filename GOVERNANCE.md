@@ -304,6 +304,21 @@ Action items are recorded in a parseable block (`### Action items (Review N)`; `
 `- [x]` resolved, `- [>]` carried) enforced by the `review-actions` gate: a non-final block
 containing unresolved `- [ ]` items fails the suite.
 
+**Amendment of 2026-10-03 (Review 58's governance delta, R58-1; the owner: "yes on all"; enforced by B1461).**
+Three defects of the loop that tooling alone could not fix, now rules with gates:
+1. **The review fires.** Past twice its period — 40 merges on main's first-parent line since the last anchor — the
+   push fails (`review-fires`) unless the owner has waived it by date in `docs/progress/REVIEW_WAIVER.md`, one line
+   per waiver with its reach in merges and its reason. The counter at 20 remains the due notice.
+2. **Carried items age.** At its third carry an action item is resolved, declined with its reason on its line, or
+   waived by the owner on its line; a `[>]` carried a third time with none of these fails the push (`carry-age`).
+   The items already past the limit when the rule was switched on are a frozen baseline, exempt at Review 58 only
+   and due at Review 59.
+3. **The required core gains three checks:** every gate has a test that makes it fail, registered in
+   `tests/GATE_CONTROLS.json` (`gate-controls`); the review runs the gates and the reproduction belt in a fresh
+   clone (`review_tools.fresh_clone`); the arcs read in full are drawn by a seed, the window's anchor
+   (`review_tools.sample_draw`). From Review 59 every review entry states the three — `fresh-clone:`,
+   `sample seed:`, `gate controls:` — or the push fails (`review-core`).
+
 ## 16. The factual-review lane for instantiated designs (amendment, 2026-07-17; owner-approved L99)
 
 An INSTANTIATED design — any sealed document whose premises name real-world facts
@@ -358,3 +373,5 @@ requirements, claims-as-units forward rule, the review loop) — all additive; n
 weakened; rationale in `PROGRESS_LOG.md` (2026-07-16, the governance amendment).
 §16 added 2026-07-17 (the factual-review lane, owner-approved L99) — additive; no rule
 weakened; rationale in `PROGRESS_LOG.md` (2026-07-17, the L99 adoption).
+§15 amended 2026-10-03 (the review fires; carried items age; three core checks — Review 58's R58-1, owner-approved
+2026-10-02, enforced by B1461) — additive; no rule weakened; rationale in `PROGRESS_LOG.md` (2026-10-03, S44).

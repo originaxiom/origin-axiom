@@ -17,7 +17,7 @@ Template sections covered (docs/progress/REVIEW_TEMPLATE.md):
   +  gates               gate_controls      every gate has a test that names it (a gate nobody tests can be inert)
   +  relays              relay_split        the open rows by direction (R55-3)
 """
-import sys, re, json, hashlib, subprocess, pathlib, random, collections
+import os, sys, re, json, hashlib, subprocess, pathlib, random, collections
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 MIRRORS = ("origin", "codeberg")          # the remotes that mirror THIS repository; any other remote is named in the report and not read
@@ -147,14 +147,51 @@ def unglossed_terms(candidates, terminology_text):
     low = terminology_text.lower()
     return [t for t in candidates if t.lower() not in low]
 
-def gate_controls(gate_names, test_texts):
-    """a gate is controlled when some test names it (quoted, as gate_<name>, or in the test file's own name); test_texts: {file: text}"""
+def gate_controls(gate_names, test_texts, registry=None):
+    """a gate is controlled when some test names it (quoted, as gate_<name>, or in the test file's own name); test_texts: {file: text}.
+    B1461: with `registry` (tests/GATE_CONTROLS.json as a dict) it also reports which gates have a REGISTERED failing-path test
+    whose function exists in test_texts -- the core check of Review 58's governance delta."""
     out = {}
     for g in gate_names:
         fn = "gate_" + g.replace("-", "_")
         files = [f for f, t in test_texts.items() if ('"%s"' % g) in t or ("'%s'" % g) in t or fn in t or g.replace("-", "_") in f]
         out[g] = files
-    return dict(uncontrolled=sorted(g for g, f in out.items() if not f), controlled=len([g for g, f in out.items() if f]))
+    res = dict(uncontrolled=sorted(g for g, f in out.items() if not f), controlled=len([g for g, f in out.items() if f]))
+    if registry is not None:
+        ok = []
+        for g in gate_names:
+            ref = registry.get(g, "")
+            f, _, fnname = ref.partition("::")
+            text = test_texts.get(f.split("/")[-1], "")
+            if fnname and re.search(r"^def %s\(" % re.escape(fnname), text, re.M): ok.append(g)
+        res["registered"] = len(ok); res["unregistered"] = sorted(g for g in gate_names if g not in ok)
+    return res
+
+
+def fresh_clone(root, head="HEAD", timeout=1800):
+    """B1461 (the core's second check): clone `root` at `head` into a temporary directory and run the gates and the
+    reproduction belt THERE -- what a reader with only the repository gets.  Returns dict(status, commit, detail)."""
+    import tempfile, subprocess, shutil
+    tmp = tempfile.mkdtemp(prefix="oa-fresh-clone-"); detail = []
+    try:
+        subprocess.run(["git", "clone", "--quiet", "--no-local", str(root), tmp], check=True, capture_output=True, text=True, timeout=timeout)
+        subprocess.run(["git", "checkout", "--quiet", head], cwd=tmp, check=True, capture_output=True, text=True, timeout=timeout)
+        commit = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=tmp, capture_output=True, text=True).stdout.strip()
+        status = "PASS"
+        g = subprocess.run([sys.executable, "scripts/gates/gates.py"], cwd=tmp, capture_output=True, text=True, timeout=timeout)
+        fails = [l.strip() for l in g.stdout.splitlines() if l.strip().startswith("FAIL")]
+        detail.append("gates %s" % ("all PASS" if g.returncode == 0 and not fails else "FAIL: " + "; ".join(fails)[:300]))
+        if g.returncode != 0 or fails: status = "FAIL"
+        belt = os.path.join(tmp, "scripts", "checks", "reproduce_belt.py")
+        if os.path.isfile(belt):
+            b = subprocess.run([sys.executable, belt], cwd=tmp, capture_output=True, text=True, timeout=timeout)
+            detail.append("belt %s" % ("ok" if b.returncode == 0 else "FAIL: " + (b.stdout + b.stderr).strip().splitlines()[-1][:200] if (b.stdout + b.stderr).strip() else "FAIL"))
+            if b.returncode != 0: status = "FAIL"
+        return dict(status=status, commit=commit, detail="; ".join(detail))
+    except Exception as ex:
+        return dict(status="FAIL", commit="?", detail=("%s: %s" % (type(ex).__name__, ex))[:300])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
 
 def relay_split(ledger_text):
     """the open rows of the relay ledger by direction (R55-3): outbound = from main (CC_TO_*), inbound = everything else"""
@@ -237,11 +274,13 @@ def gather(anchor):
     try:
         import gates as G
         tests = {p.name: p.read_text() for p in (ROOT / "tests").glob("test_*.py")}
-        R["gates"] = gate_controls(sorted(G.GATES), tests)
+        regp = ROOT / "tests/GATE_CONTROLS.json"
+        R["gates"] = gate_controls(sorted(G.GATES), tests, json.loads(regp.read_text()) if regp.exists() else None)
     except Exception as ex:
         R["gates"] = dict(error=str(ex)[:200])
     R["sample"] = sample_draw(arcs, anchor, max(5, len(arcs) // 6))
     R["relays"] = relay_split((ROOT / "docs/RELAY_LEDGER.md").read_text()) if (ROOT / "docs/RELAY_LEDGER.md").exists() else {}
+    R["fresh_clone"] = fresh_clone(ROOT) if "--fresh-clone" in sys.argv else dict(status="NOT RUN", commit=R["window"]["head"], detail="pass --fresh-clone")
     return R
 
 def render(R):
@@ -259,9 +298,12 @@ def render(R):
     e = R["errors"]; L.append("errors: new classes %s; instances %s" % (e["new_classes"] or "none", e["instances"] or "none"))
     L.append("new vocabulary (word pairs in >= 3 of the window's claims and in none before) not in TERMINOLOGY.md: %s" % (", ".join(R["terms"]["unglossed"]) or "none"))
     g = R["gates"]; L.append("gates: %s" % (g if "error" in g else "%d named by a test; not named by any: %s" % (g["controlled"], g["uncontrolled"] or "none")))
+    if "registered" in g: L.append("gate controls: %d registered failing-path tests; unregistered: %s" % (g["registered"], g["unregistered"] or "none"))
+    fc = R.get("fresh_clone") or {}
+    if fc: L.append("fresh-clone: %s @ %s (%s)" % (fc.get("status"), fc.get("commit"), fc.get("detail")))
     rl = R.get("relays") or {}
     if rl: L.append("relays open: outbound %d %s; inbound %d %s; declined %d; banked %d" % (sum(rl["outbound"].values()), rl["outbound"], sum(rl["inbound"].values()), rl["inbound"], rl["declined"], rl["banked"]))
-    L.append("to be read in full (seeded by the anchor): %s" % ", ".join(R["sample"]))
+    L.append("sample seed: %s; to be read in full (seeded by the anchor): %s" % (w["anchor"], ", ".join(R["sample"])))
     return "\n".join(L)
 
 if __name__ == "__main__":

@@ -967,3 +967,46 @@ it was supposed to create (`/tmp/sweep` already populated — E78 exactly); and 
 audit that matched `git branch -r`'s full refs against a table which deliberately records
 **leaves**, reporting three false gaps (E75 exactly, at the level of the audit). None was caught
 by a gate. All three were caught by asking *what is this check actually looking at.*
+
+## The review fires, and the owner alone may hold it — GATED (`review-fires`)
+
+**The rule.** Past twice its period — 40 merges on main's first-parent line since the last review's anchor — the
+decadal review is not a report but a block: `review-fires` fails the push unless `docs/progress/REVIEW_WAIVER.md`
+carries an owner's line `- waived <date> by the owner through <N> merges: <reason>` that still reaches. The 20-merge
+counter stays as the due notice.
+
+**Why it exists.** Review 58 ran 61 merges late against a period of 20 (Review 57 ran 44 late), and the counter
+printed "DUE" through every push in between. A report nobody must act on is not a gate (the owner, 2026-09-18;
+R58-1, approved 2026-10-02).
+
+## Carried action items age — GATED (`carry-age`)
+
+**The rule.** At its third carry an action item is resolved (`[x]`), declined with its reason on its line, or waived
+by the owner on its line. A `[>]` carried a third time with none of these fails the push. The fifteen keys already past
+the limit on 2026-10-03 (`gates.CARRY_BASELINE`) are exempt at Review 58 only and due at Review 59.
+
+**Why it exists.** Ten of Review 55's items were carried a fourth time unmoved at Review 58, one of them a sentence
+still wrong on a living page; the carry-continuity gate (R50) sees that nothing is dropped and cannot see that
+nothing moves.
+
+## Every gate has a test that makes it fail — GATED (`gate-controls`)
+
+**The rule.** `tests/GATE_CONTROLS.json` names, for every gate in `gates.GATES`, the test function that plants a bad
+input and asserts the gate returns false; the gate checks the register is complete and every named function exists.
+A new gate lands with its failing-path test and its row in the register, same PR.
+
+**Why it exists.** Review 58 counted 15 of 34 gates named by no test and twelve whose checker had never been seen to
+fail (R58-2); MB12 applies to the gates as much as to anything they police. B1461 wrote the twelve and six more, in
+`tests/test_gate_failing_paths.py`.
+
+## A review states its three core checks — GATED (`review-core`)
+
+**The rule.** From Review 59 the latest review entry carries `fresh-clone: <PASS|FAIL> @ <commit>` (gates and the
+reproduction belt run in a fresh clone, `review_tools.fresh_clone`, `--fresh-clone`), `sample seed: <anchor>` (the arcs
+read in full drawn by the anchor, not chosen) and `gate controls: <n> registered`. `review_tools.render` prints all
+three; an entry without them fails the push.
+
+**Why it exists.** Review 58's own §10: it did not run a fresh clone, its sample was six arcs of 38 chosen by hand,
+and it was written by the seat that wrote most of the window. Two of the three are now mechanical; the third is
+declared.
+

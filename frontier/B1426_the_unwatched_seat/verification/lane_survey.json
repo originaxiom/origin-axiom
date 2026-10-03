@@ -1,13 +1,49 @@
 {
- "measured_at_main_head": "77714caf",
+ "measured_at_main_head": "5c0951b7",
  "main_root": "517783f2",
  "lanes": [
   {
+   "ref": "codeberg/art/camper-van-bar",
+   "branch": "camper-van-bar",
+   "commits_total": 3498,
+   "commits_unique_vs_main": 1,
+   "merge_base": "70ca9c92",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
    "ref": "codeberg/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3084,
-   "commits_unique_vs_main": 229,
+   "commits_total": 3091,
+   "commits_unique_vs_main": 236,
    "merge_base": "8f83b5c8",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
+   "ref": "codeberg/<v>/determined-hopper-t1cmii",
+   "branch": "determined-hopper-t1cmii",
+   "commits_total": 3066,
+   "commits_unique_vs_main": 191,
+   "merge_base": "44c75c36",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
+   "ref": "codeberg/<v>/magical-wright-vwrmtt",
+   "branch": "magical-wright-vwrmtt",
+   "commits_total": 3061,
+   "commits_unique_vs_main": 186,
+   "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
    "has_a_harvest_pin": true,
@@ -53,8 +89,8 @@
   {
    "ref": "codeberg/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3059,
-   "commits_unique_vs_main": 184,
+   "commits_total": 3075,
+   "commits_unique_vs_main": 200,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -147,6 +183,18 @@
    "other_repository": true
   },
   {
+   "ref": "origin/art/camper-van-bar",
+   "branch": "camper-van-bar",
+   "commits_total": 3498,
+   "commits_unique_vs_main": 1,
+   "merge_base": "70ca9c92",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
    "ref": "origin/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
    "commits_total": 3091,
@@ -221,8 +269,8 @@
   {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3072,
-   "commits_unique_vs_main": 197,
+   "commits_total": 3078,
+   "commits_unique_vs_main": 203,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -243,9 +291,9 @@
    "other_repository": false
   }
  ],
- "lanes_with_unique_work": 15,
- "total_unique_commits_across_lanes": 1897,
- "same_repository_lanes": 14,
+ "lanes_with_unique_work": 19,
+ "total_unique_commits_across_lanes": 2305,
+ "same_repository_lanes": 18,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,
  "other_repository_lanes": [

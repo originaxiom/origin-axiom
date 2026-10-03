@@ -97,6 +97,12 @@ SEATS = [
          remotes=("origin", "codeberg"), cell=("child lane (seal gates)",)),
     dict(key="smlaws", label="SM seat child lane (creates_law re-audit)", branch="determined-hopper-t1cmii",
          remotes=("origin", "codeberg"), cell=("child lane (creates_law",)),
+    # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
+    # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
+    # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
+    # whether it stays is the owner's decision (relayed in S44).
+    dict(key="art", label="illustration branch (not a seat)", branch="camper-van-bar",
+         remotes=("origin", "codeberg"), cell=("illustration branch",)),
 ]
 
 

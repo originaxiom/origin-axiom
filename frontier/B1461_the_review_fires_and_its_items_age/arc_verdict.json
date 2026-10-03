@@ -1,0 +1,22 @@
+{
+ "id": "B1461",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1448",
+  "B1240",
+  "B844"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the repository's review machinery (frame-independent)",
+  "object": "scripts/gates/gates.py, scripts/review/review_tools.py, docs/progress/REVIEWS.md",
+  "reach": "general",
+  "hypotheses": "a process arc: Review 58's three decisions as the owner approved them on 2026-10-02; no object computation"
+ },
+ "claim_one_line": "THE REVIEW FIRES, ITS CARRIED ITEMS AGE, AND EVERY GATE HAS BEEN SEEN TO FAIL (R58-1 implemented; R58-2 paid). Four gates with failing-path tests: review-fires (40 merges unless the owner waives by date in docs/progress/REVIEW_WAIVER.md), carry-age (a third carry must be resolved, declined with a reason, or waived; the fifteen keys past the limit today are a baseline due at Review 59), gate-controls (tests/GATE_CONTROLS.json names a failing-path test for each of the 40 gates; 25 new ones written for the twelve R58-2 named and thirteen more), review-core (from Review 59 every entry states fresh-clone, sample seed and gate controls; review_tools.fresh_clone runs gates and belt in a clone -- HEAD 5c0951b7: gates all PASS, belt ok). GOVERNANCE 15 amended; R55-6's wrong status column fixed. Nothing in the derivation moved. 0 of 19."
+}

@@ -1308,6 +1308,147 @@ def gate_supersession_backlinks():
     return ok, ("ok" if ok else silent[:5])
 
 
+
+# --- B1461: Review 58's governance delta (R58-1; the owner: "yes on all", 2026-10-02) -----------------------------
+# Three things the review process could not do to itself: fire, age its carried items, and prove its own checks can
+# fail.  GOVERNANCE §15 carries the rule; these gates carry the enforcement.
+REVIEW_HARD = 2 * REVIEW_EVERY                      # past twice its period the review fires: the push fails
+REVIEW_WAIVER = "docs/progress/REVIEW_WAIVER.md"    # unless the owner has waived it by date, in that file
+
+
+def review_waiver_covers(n, text):
+    """a waiver is one line '- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>'; it covers while n < N"""
+    best = 0
+    for m in re.finditer(r"^- waived \d{4}-\d{2}-\d{2} by the owner through (\d+) merges", text or "", re.M):
+        best = max(best, int(m.group(1)))
+    return n < best
+
+
+def gate_review_fires():
+    """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 1): past twice its period (REVIEW_HARD merges on main's
+    first-parent line since the last anchor) the decadal review is not a report but a block, unless the owner has
+    waived it by date in REVIEW_WAIVER.  OA_REVIEW_MERGES overrides the count for the failing-path test."""
+    n, _due = review_status()
+    if os.environ.get("OA_REVIEW_MERGES"):
+        n = int(os.environ["OA_REVIEW_MERGES"])
+    if n is None:
+        return True, "no review anchor yet"
+    if n >= REVIEW_HARD:
+        wpath = os.path.join(ROOT, REVIEW_WAIVER)
+        if review_waiver_covers(n, _read(REVIEW_WAIVER) if os.path.isfile(wpath) else ""):
+            return True, f"{n} merges since the last review; waived by the owner ({REVIEW_WAIVER})"
+        return False, (f"{n} merges since the last review (>= {REVIEW_HARD}): the review FIRES -- run it "
+                       f"(scripts/review/review_tools.py), or the owner waives it by date in {REVIEW_WAIVER}")
+    return True, f"{n} merges since the last review (fires at {REVIEW_HARD})"
+
+
+CARRY_LIMIT = 3                 # at its third carry an item is resolved, declined with its reason, or waived by the owner
+CARRY_BASELINE_REVIEW = 58      # the items already past the limit when the rule was switched on (B1461); due at Review 59
+CARRY_BASELINE = frozenset(("R55-1", "R55-2", "R55-4", "R55-6", "R55-7", "R55-9", "R55-12", "R55-13", "R55-14", "R55-15",
+                            "R56-1", "R56-3", "R54-1", "R54-2", "R54-4"))
+
+
+def _review_tools():
+    import importlib.util
+    p = os.path.join(ROOT, "scripts", "review", "review_tools.py")
+    spec = importlib.util.spec_from_file_location("review_tools_for_gates", p); m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m); return m
+
+
+def carry_age_problems(text, limit=CARRY_LIMIT, baseline_review=CARRY_BASELINE_REVIEW, baseline=CARRY_BASELINE):
+    """the carried items of the LATEST action block that have been carried `limit` times or more and carry no
+    disposition on their line ('declined' with a reason, or 'waived by the owner').  The baseline items are exempt
+    only while the latest review is the one the rule was switched on at; at the next review they are due."""
+    loop = _review_tools().action_loop(text)
+    latest = loop["review"]
+    if latest is None:
+        return []
+    start = text.rfind("### Action items (Review %d)" % latest)
+    block = text[start:] if start >= 0 else ""
+    problems = []
+    for key, n in loop["carried"]:
+        if n < limit:
+            continue
+        line = next((l for l in block.splitlines() if l.startswith("- [>]") and re.search(r"\b%s\b" % re.escape(key), l)), "")
+        low = line.lower()
+        if "declined" in low or "waived by the owner" in low:
+            continue
+        if latest == baseline_review and key in baseline:
+            continue
+        problems.append(f"{key} carried {n} times with no disposition (resolve it, decline it with a reason, or the owner waives it)")
+    return problems
+
+
+def gate_carry_age():
+    """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 2): carried action items age.  Review 58 found ten items
+    carried a fourth time unmoved; a loop that only checks continuity cannot see that."""
+    if not os.path.isfile(os.path.join(ROOT, REVIEWS)):
+        return True, "no review register yet"
+    bad = carry_age_problems(_read(REVIEWS))
+    if bad:
+        return False, "; ".join(bad[:6])
+    return True, "ok"
+
+
+GATE_CONTROLS = "tests/GATE_CONTROLS.json"      # gate -> 'tests/<file>.py::<test function that makes it FAIL>'
+
+
+def gate_gate_controls():
+    """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 3a): every gate has a test that makes it fail, named in
+    tests/GATE_CONTROLS.json; the named function must exist.  Review 58 counted 15 of 34 gates named by no test and
+    twelve whose checker had no failing-path test at all (R58-2); a gate nobody has seen fail may be inert."""
+    p = os.path.join(ROOT, GATE_CONTROLS)
+    if not os.path.isfile(p):
+        return False, f"{GATE_CONTROLS} missing -- the register of failing-path tests is gone"
+    try:
+        reg = json.loads(_read(GATE_CONTROLS))
+    except Exception as exc:
+        return False, f"{GATE_CONTROLS} unreadable: {exc}"
+    problems = []
+    missing = sorted(g for g in GATES if g not in reg)
+    if missing:
+        problems.append("gates with no registered failing-path test: " + ", ".join(missing))
+    for g, ref in sorted(reg.items()):
+        if "::" not in ref:
+            problems.append(f"{g}: malformed reference {ref!r}"); continue
+        f, fn = ref.split("::", 1)
+        fp = os.path.join(ROOT, f)
+        if not os.path.isfile(fp):
+            problems.append(f"{g}: {f} does not exist"); continue
+        if not re.search(r"^def %s\(" % re.escape(fn), open(fp, encoding="utf-8", errors="replace").read(), re.M):
+            problems.append(f"{g}: {fn} not defined in {f}")
+    return (not problems), ("; ".join(problems)[:600] if problems else f"ok ({len(reg)} gates with a registered failing-path test)")
+
+
+REVIEW_CORE_FROM = 59                                   # binds the first review written after the rule
+REVIEW_CORE_LINES = ("fresh-clone:", "sample seed:", "gate controls:")
+
+
+def review_core_missing(text, start=REVIEW_CORE_FROM, lines=REVIEW_CORE_LINES):
+    """for the latest review entry numbered `start` or above: which of the three core lines it lacks"""
+    heads = [(int(m.group(1)), m.start()) for m in re.finditer(r"^# Review (\d+) ", text, re.M)]
+    if not heads:
+        return []
+    n, pos = max(heads)
+    if n < start:
+        return []
+    entry = text[pos:]
+    return [l for l in lines if l not in entry]
+
+
+def gate_review_core():
+    """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 3): from Review 59 every review entry states its three core
+    checks -- 'fresh-clone: PASS @ <commit>' (gates and the reproduction belt run in a fresh clone,
+    review_tools.fresh_clone), 'sample seed: <anchor>' (the arcs read in full are drawn, not chosen), and
+    'gate controls: <n> registered' (every gate has a failing-path test)."""
+    if not os.path.isfile(os.path.join(ROOT, REVIEWS)):
+        return True, "no review register yet"
+    missing = review_core_missing(_read(REVIEWS))
+    if missing:
+        return False, "the latest review entry lacks its core lines: " + ", ".join(missing)
+    return True, "ok"
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -1345,6 +1486,10 @@ GATES = {
     "law-map-provenance": gate_law_map_provenance,
     "atlas-lexicon-current": gate_atlas_lexicon_current,
     "supersession-backlinks": gate_supersession_backlinks,
+    "review-fires": gate_review_fires,
+    "carry-age": gate_carry_age,
+    "gate-controls": gate_gate_controls,
+    "review-core": gate_review_core,
 }
 
 
