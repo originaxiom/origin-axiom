@@ -1,0 +1,15 @@
+# B1534 -- sha-256 of the sealed files, recorded at the seal (before run_terms.py read any twisted term; the controls K0-K10
+# read banked members and terms, characters outside the population, structure, and which characters are members at every
+# twist). Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1534_the_silver_covers/)
+0423e1f1cc40e62185da0ade839d0aac1e98a2561990adb887dccdd1ed6ffe97  PREREGISTRATION.md
+368bdce11c92c84fcc54a86cbf66414521b3b40ab2f004e0780705ca6c2d1adf  verification/silver_lib.py
+8b412218c349288e5e4f8f38a2ca2b092ef864aeab5f86680bd319aee2c63f7e  verification/silver_n.py
+094d0c960912a04b7443c4fad87a7dcf1d62cd5f315846a59aeb2698e84c9737  verification/run_terms.py
+bed12fd2e628c58ccfbf99f84c4940a4784ec2dea8e7d68efaf574439b3b1cf4  verification/run_route_c.py
+d357a852c339800250594f284a2cd5911110de65449ecf3c917b37cc29dace6e  verification/read_out.py
+9a1ed3b61f3c089a574cfcef1c60c5387cd348d77ab2e2389f9c564ed82d9abd  verification/controls.py
+f0535c74dc60c50a2170d8dcb3e32752656c4da4c8bfdf046b7d0edc3ac4ca86  verification/controls.json
+4d8364816051aabc6b7a2a79e5aa4ddf645955e5bf0b9773443929f35dc457dc  verification/controls_run.txt
+d36d49d71a3aae266f9dfd4368abefe4c27dfd7e2ed5e86ab00b503e96b64d5b  verification/members_every_twist.py
+ce9d7fa3ac1943252ae38860588ae302acbaeb816fd591a668e965a33a269cee  verification/members_every_twist.json
+df6d65356359db99a6e2f1c4bfa1a424d6f31bf49682243e3eaf148c5d45a179  verification/members_every_twist_log.txt

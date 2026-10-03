@@ -1,5 +1,32 @@
 # Changelog
 
+## B1534 sealed: the silver covers — sm:B1515's frame on every finite abelian cover of m135 and m136 (sL-10 item 11)
+
+- **The question.** At the hyperbolic point of m135 = −LLRR and m136 = +LLRR, pull W₁(c) back to any finite regular abelian
+  cover, at any member ν, any twist and any class c. Is the count three generations, I(p*W₁) = I(Λ²p*W₁) = ∓3, in either
+  order? Which counts occur? This replaces the withdrawn one-sided bound (sm:B1530 §7) with exact readings.
+- **Proved at design time.**
+  - Lemma S: for every finite regular abelian cover, I(p*E) = Σ_{χ∈B} I(E ⊗ χ). sm:B1532's assumption ψ(P) = 1 is not needed.
+  - Lemma Z′: a term can be non-zero only for χ(t′) ∈ {κ⁻¹, κ⁴, κ⁻², κ³}. That gives eight characters at m135's members, four
+    at m136's κ = 1 members and eight at its κ = −1 members, so every count is a sum over a subgroup of a group of order ≤ 8.
+  - Lemma D: the dual order counts minus W₁ at the conjugate member.
+  - Lemma Q (the members at every twist): ν is a member exactly when κ⁵ is an eigenvalue of the fibre operator on
+    H¹(F; u ⊗ ρ). Its roots of unity are 1, and −1 at m136's u₁ and u₂ only (K10, routes T and E agreeing at all 288 points of
+    μ₂₄). So members at κ ∈ μ₁₀ reduce to κ = ±1 on the same covers, and members at other κ count (0, 0) on every finite cover.
+  - Lemma J, Proposition H′ (special classes only at χ ∈ {1, (½, ½)}), and Corollary I′: at m135's interior class every cover
+    counts in {(−1, −1), (0, −1), (−1, −2), (0, −2)}, so three is impossible there. Elsewhere the reading decides.
+- **Instruments.**
+  - Route E: sm:B1530's exact_lib, unchanged, over ℚ(ζ₂₄). It gives the pencils, the special classes (sympy decides whether a
+    quadratic splits over K) and the restriction of scalars.
+  - Route N: sm:B1530's route_n at 60 digits, with its own pencils.
+  - Route C: the permutation module on the order-4 covers.
+- **Controls K0–K10, all hold.** The banked identity (every member and χ = 1 term of sm:B1530), Lemma Z′ on 28 characters off
+  the population, the subgroup counts, the pencils at χ = 1, route C on two covers whose counts are banked, and K10.
+- **Predictions P1–P8.** P4 (no three on any abelian cover, either order) is at 85%, P2 (the (½, ½) term at c_int is (0, 0)) at
+  50%, and P6 (every generation-shaped count has ∣a∣ = 1) at 60%.
+- **Logged** (ERROR_LEDGER, an E9 instance): the draft stated the population without its twist scope. K10 and Lemma Q were
+  added before the seal.
+
 ## B1530 banked: THE INTERIOR EXTENSIONS — at the hyperbolic point, one generation in one W on the two silver squares
 
 - **Run as sealed** (`1d359734`; sL-10 item 10 (a)). The controls were re-run first and reproduced (S, K1–K4). `run_a.py` read

@@ -17369,3 +17369,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   covers count at most two" was re-derived before any relay. It is one-sided and withdrawn (ERROR_LEDGER, E9 instance). The
   covers reduce to eight characters per member, read exactly; that arc is next (sL-10 item 11), sealed before computing.
 - The runs continue: B1532 routes T and L, B1529's coverage check.
+
+## 2026-10-03 — B1534 sealed: the silver covers (task 223; sL-10 item 11)
+
+- The owner asked whether the three-generation negatives were sure. The answer's first part withdrew the one-sided bound
+  (sm:B1530). This arc reads its replacement exactly: every finite abelian cover of m135 and m136, at every member, twist and
+  class, both orders.
+- At the seal's last review the draft's population turned out to lack its twist scope. Members at κ⁵ = 1 exist at every fibre
+  character (case (b)), and the draft had not covered them. K10 reads the fibre operator's eigenvalues on both states in two
+  routes; Lemma Q reduces every member at every twist to the listed ones, or to (0, 0). Logged as an E9 instance.
+- The same question stands for sm:B1532's population on m004's levels. It is open until B1532's FINDINGS (task 226).
+- Runs in progress: B1532 route T (about 100 of 307 M₆ members left), B1529's coverage check. B1534's run starts after the
+  seal's push, its banked identity first.

@@ -3908,6 +3908,12 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    (I(W ⊗ χ), I(Λ²W ⊗ χ)) at every member and class, exactly and by a second route, and with them every abelian cover's count,
    both signs. The design-time bound of two generations is withdrawn (one-sided; ERROR_LEDGER E9 instance). Seal before
    computing.
+   **Sealed 2026-10-03 as sm:B1534 (the silver covers).** Every member, every twist, every class and every subgroup of the
+   contributing group, in routes E (exact) and N (60 digits), with route C on the order-4 covers. Proved at design time:
+   Lemma S for every finite regular abelian cover, Lemma Z′ (eight contributing characters at m135's members and m136's
+   κ = −1 members, four at m136's κ = 1 members), Lemma Q (the members at every twist reduce to κ = ±1 or count (0, 0); K10
+   in two routes), Proposition H′ and Corollary I′ (three is impossible at m135's interior class). Predictions P1–P8; P4 (no
+   three on any abelian cover, either order) at 85%.
 12. **The two orders fused at m135** (main's B1466 at m004's counted point; sm:B1530 §5.2). Is the mixed direction c₁ + c₂ at
    m135's member unobstructed, and does it lead to an irreducible flat module that counts 0, as at q₀? Seal before computing.
 13. **What holds the member, and the couplings there** (sm:B1530 §5.2b and §7). R76's bare flat action does not hold a
