@@ -3397,3 +3397,35 @@ a third route and the mirror breaks exactly on the single-sheet twists (B1462); 
 re-derived (B1463); the review loop was made able to fail itself (B1461) and the first thing it failed was its own seal gate
 (B1464: 41 of 46 seals without the provenance markers, frozen). **Derived parameters: 0 of 19.** The next computation, by
 the owner's word: a sourced non-split configuration at a non-complete point, graded against the bar.
+
+## L244 — THE SYMMETRIC-PHASE READING (registered 2026-10-03, the owner: "mark this, i'd like to treat it seriously")
+
+The web seat's reading, forwarded by the owner: the programme is a theory of the symmetric phase and the Standard Model
+a broken phase of it; every positive appeared at an interface, none in the object alone; the negatives sort into three
+kinds — symmetry pairing things that cancel, the absence of curvature (a flat bundle has ch = rk), the absence of
+uniqueness — with three remedies (a breaking mechanism and a choice; a bulk with curvature; a selection principle); a
+Hagedorn point β_c = 2 log φ; and the error pattern "a true local fact promoted to a general law".
+
+**Swept on main the same day, in the record's vocabulary.** "symmetric phase|broken phase": 0 of 1337 arcs — the
+seat's literal claim holds. "symmetry breaking|order parameter|spontaneous": 14 arcs; "interface|closings|observer
+supplies": 29. The thesis is the record's own: B128 (the structure permits but never forces symmetry breaking), **B717**
+(the object supplies four incompletenesses and the observer supplies every closing — measurement is the breaking), B849
+(the claimed breaking has no order parameter at the manifold level), B1204 (the owner's own question whether prior
+breakings supply the mechanism), B1327 (a relation to a second thing is the only door), GENESIS §7 and FK12 (the register
+question). **So the reading is confirmation from a fresh reader who reached B717 from the negatives alone — banked as
+that, not as a new reading; the seat is told so.** The seat's "a reframing I haven't seen stated there" is the pattern
+its own last paragraph names.
+
+**New to main, and owed:**
+- (a) the three-kind taxonomy as a census over the kill graph: does every NEGATIVE arc sort into pairing / curvature /
+  uniqueness with nothing left over? A fourth kind refutes the taxonomy; none makes it a law about the record;
+- (b) the remedies mapped onto GENESIS's gaps — breaking → GAP3 (the source) and FK12 (the register); curvature → the
+  flatness of every frame, to be **named as a gap** (it is not yet one); uniqueness → GAP4 and THE_BAR — a v1.9 line;
+- (c) β_c = 2 log φ: **verified on main 2026-10-03** as the topological entropy of the monodromy LR (eigenvalue φ²,
+  0.96242…) and the growth rate of the levels' torsion |T_n| = tr(LR)ⁿ − 2 (5, 16, 45, 121, 320 — B1462's table); the
+  sep16 lane's xB032 banked it as "the torsion growth rate IS the monodromy's entropy". Canonical, content-light: what
+  would make it a critical point is a symmetry acting on that ensemble and an order parameter, which B849 found missing
+  for β = 1. Owed: read xB032 in full; state what ensemble and what symmetry;
+- (d) the one computation the reading asks for — "what mechanism, at what point, breaks it" — is B1466 (sealed
+  2026-10-03): the source as the breaking field at the counted point, and whether the choice there is a bit.
+
