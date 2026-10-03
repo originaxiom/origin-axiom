@@ -1,0 +1,106 @@
+{
+ "id": "B1526",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1525",
+  "B1521",
+  "B1512",
+  "B1522",
+  "B1523",
+  "B1524",
+  "B1460",
+  "B1459",
+  "B1297",
+  "B1456",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none",
+  "object": "GENESIS: main's v1.5 (B1460, the owner's two decisions) taken as the head, the SM seat's parallel v1.5 (sm:B1525) answered by its line, and v1.6 made from them; and which class of Out(pi_1 m004) B1297's P is",
+  "reach": "general",
+  "hypotheses": [
+   "the received texts are byte-identical to their sources: main's GENESIS.md at 5c0951b7 (blob e39ed197), this branch's GENESIS.md before the arc (blob 9d6f28a4), main's relay at 5c0951b7 (blob a6b21d02)",
+   "the owner's two decisions as main's B1460 records them; this seat takes them as given and changes neither",
+   "C3 uses SnapPy's presentation, high-precision holonomy and symmetry group of m004, and Mostow-Prasad rigidity (outer automorphisms are isometries); nothing about a frame, a state or a census outcome is newly computed",
+   "GENESIS records questions and the owner's priorities; the experiential question is held under Gate 5-Q and nothing about experience is claimed"
+  ]
+ },
+ "claim_one_line": "GENESIS v1.6 (not sealed: every item checks a claim the record already fixes): main's v1.5 taken as the head, as main asked of both seats, with the owner's two decisions verbatim (FK1 CONFIRMED; FK12 framed as the register question); the SM seat's parallel v1.5 answered by its line -- GAP3's refinement is main's already, seven blocks carried as they were (the levels, the word states, the bar's null contract, AR6, B130's scope, the frontier, four rows), FK12's carried text fitted to the owner's framing with the experiential question kept apart under Gate 5-Q, and FK9 names P. B1297's P is shown by own code to be the fibre's elliptic involution, the one non-trivial outer class of m004 that keeps the orientation and the base (it inverts the fibre's homology, and SnapPy's symmetry group has exactly two isometries acting on the cusp as the identity); in Ballas' presentation it is the swap's class, as main's relay and this seat's B1512 and B1521 say. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "843d163c",
+    "origin/main": "5c0951b7",
+    "origin/audit/physical-bridge-2026-09-05": "24c039c8",
+    "origin/art/camper-van-bar": "b3745696",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/sep16-branch": "3205984b",
+    "origin/seat/standard-model-derivation-0qt6ao": "843d163c"
+   },
+   "terms": [
+    "GENESIS v1.6",
+    "Version 1.6",
+    "register question",
+    "elliptic involution",
+    "swap's class",
+    "rotational P",
+    "CONFIRMED",
+    "take v1.5 as head"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@5c0951b7:GENESIS.md (= received/GENESIS_v1_5_main.md)",
+     "bearing": "the head taken; no head has a v1.6"
+    },
+    {
+     "where": "origin/main@5c0951b7:frontier/B1460_genesis_v1_5_the_owners_two_decisions (FINDINGS, adoption/amend.py, its lock)",
+     "bearing": "the owner's two decisions and main's seven changes; its amend.py rebuilds main's v1.5 from the shared v1.4 on this bench (C1)"
+    },
+    {
+     "where": "origin/main@5c0951b7:docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_GENESIS_V1_5_FK1_CONFIRMED_FK12_THE_REGISTER.md (= received/)",
+     "bearing": "the ask (take v1.5 as head) and section 4's note that B1459's involution is B1297's rotational P, not the inversion of Ballas' meridians; checked by C3"
+    },
+    {
+     "where": "origin/main@5c0951b7:frontier/B1297_the_spectral_cover_index/FINDINGS.md section 9",
+     "bearing": "B1297's own description of P: the rotational period-2 symmetry, axis disjoint from the knot, a -> a^-1, b -> a^3 b; C3 re-derives its class"
+    },
+    {
+     "where": "origin/main@5c0951b7:frontier/B1459_the_zeros_are_a_theorem",
+     "bearing": "extends the fibre's elliptic involution to every level by a word c; cited at FK9 as main's, not re-derived here"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao:frontier/B1512 (Lemma I), B1521 (C1 and its addendum), B1525",
+     "bearing": "this seat's earlier statements that P fixes rho_q and is the swap's class; sm:B1525's v1.5 answered by its line (section 2)"
+    },
+    {
+     "where": "origin/art/camper-van-bar@b3745696",
+     "bearing": "an illustration on main's 70ca9c92; nothing of GENESIS"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "none new: C3 uses Mostow-Prasad rigidity as the record already does (sm:B1521 C1, sm:B1523)"
+   ],
+   "sources": [
+    {
+     "cite": "M. Heusener and J. Porti, Infinitesimal projective rigidity under Dehn filling, Geom. Topol. 15 (2011), arXiv:0908.2863",
+     "where": "Lemma 8.2",
+     "read": "2026-10-03",
+     "says": "as recorded for sm:B1523: the figure-eight's amphicheiral map acts by +1 on the longitude's restriction and -1 on the meridian's; cited for the symmetry group's cusp action, which C3 recomputes with SnapPy"
+    }
+   ]
+  },
+  "standing": "RE-DERIVED"
+ }
+}

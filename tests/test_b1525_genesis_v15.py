@@ -9,7 +9,10 @@ Main's v1.4 (B1458) is the head; the SM seat's v1.3 (sm:B1521) is answered by it
 - GENESIS v1.5's text: version, marks, the added sentences, the statuses, and the qualifier on B1522's criterion;
 - Gate 5-Q's three words (encoded here), vendor words and the private term: absent from GENESIS.md and the arc's text, with a
   control in each direction (the check finds the third word in the received v1.3);
-- the arc's text and ledgers: FINDINGS, verdict, ERROR_LEDGER, RELAY_LEDGER, the relay, OPEN_LEADS, B1522's note."""
+- the arc's text and ledgers: FINDINGS, verdict, ERROR_LEDGER, RELAY_LEDGER, the relay, OPEN_LEADS, B1522's note.
+Since v1.6 (sm:B1526, 2026-10-03) GENESIS.md is main's v1.5 plus marked [v1.6] changes. v1.5's text is kept byte-identical in
+B1526's arc as received (`received/GENESIS_v1_5_sm.md`), and the tests below that read v1.5 read it there; B1526's lock
+checks GENESIS.md."""
 import base64
 import hashlib
 import importlib.util
@@ -26,6 +29,7 @@ REC = ARC / "received"
 V14, V13 = REC / "GENESIS_v1_4_main.md", REC / "GENESIS_v1_3_sm.md"
 RELAY_IN = REC / "CODEX_TO_CC_AND_SM_2026-10-03_HARVEST_REPLY_AND_ADMISSION_SCOPE.md"
 RELAY_OUT = ROOT / "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_5.md"
+V15_KEPT = ROOT / "frontier" / "B1526_genesis_v16" / "received" / "GENESIS_v1_5_sm.md"
 MARK = "**[v1.5]**"
 Q5 = [base64.b64decode(t).decode() for t in ("cXVhbGlh", "YXdhcmU=", "c2Vlcw==")]
 VENDOR = [base64.b64decode(t).decode() for t in ("Y2xhdWRl", "YW50aHJvcGlj", "b3B1cw==", "c29ubmV0", "ZmFibGU=")]
@@ -69,7 +73,8 @@ def test_genesis_is_the_generator_output(tmp_path):
     r = subprocess.run([sys.executable, str(VER / "merge_genesis_v15.py"), str(V14), str(out)],
                        capture_output=True, text=True, timeout=120)
     assert r.returncode == 0, r.stderr
-    assert out.read_bytes() == (ROOT / "GENESIS.md").read_bytes()
+    assert out.read_bytes() == V15_KEPT.read_bytes()
+    assert _sha(V15_KEPT) == "3e3b3d7bcfdf2eac3155419a45fd8a32f07c1e79588f74fa4e2a16082ca1b6f3"
     assert "[v1.5] marks: 16" in r.stdout
 
 
@@ -119,7 +124,7 @@ def test_c2_the_levels_live():
 def test_c6_catches_what_it_is_for():
     """planted controls for C6's diff: an unmarked insertion, a changed word of main's and a removed line are each caught"""
     chk = _chk()
-    v14, v15 = V14.read_text(encoding="utf-8"), (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    v14, v15 = V14.read_text(encoding="utf-8"), V15_KEPT.read_text(encoding="utf-8")
     deleted, unmarked = chk.diff_report(v14, v15)
     assert deleted == chk.EXPECTED_DELETIONS and unmarked == []
     head = "## 2. The grammar: what a description is made of"
@@ -138,13 +143,13 @@ def test_c3_to_c6_live():
     chk = _chk()
     assert chk.c3()["passed"] and chk.c4()["passed"]
     c6, v15 = chk.c6()
-    assert c6["passed"] and c6["GENESIS.md is the generated v1.5"]
+    assert c6["passed"] and v15 == V15_KEPT.read_text(encoding="utf-8")
     assert chk.c5(v15)["passed"]
 
 
 # ------------------------------------------------------------------------------------------------- GENESIS v1.5
 def test_genesis_v15_text():
-    raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    raw = V15_KEPT.read_text(encoding="utf-8")
     g = _norm(raw)
     v14 = V14.read_text(encoding="utf-8")
     assert raw.startswith("# GENESIS — the foundations of origin-axiom")
@@ -178,7 +183,7 @@ def test_genesis_v15_text():
 
 
 def test_firewall_with_controls_both_ways():
-    raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    raw = V15_KEPT.read_text(encoding="utf-8")
     assert _q5(raw) == [] and _q5(V14.read_text(encoding="utf-8")) == []
     assert _q5(V13.read_text(encoding="utf-8")) == [3]          # the check can fire: the slip v1.5 removes
     assert _q5("the count " + Q5[2] + " only") == [3] and _q5("seesaw") == []

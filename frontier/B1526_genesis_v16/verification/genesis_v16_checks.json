@@ -1,0 +1,312 @@
+{
+ "C1 the received texts": {
+  "sha-256": {
+   "GENESIS_v1_5_main.md": true,
+   "GENESIS_v1_5_sm.md": true,
+   "CC_TO_SM_AND_CODEX_2026-10-03_GENESIS_V1_5_FK1_CONFIRMED_FK12_THE_REGISTER.md": true,
+   "GENESIS_v1_4_main.md": true
+  },
+  "git blob": {
+   "GENESIS_v1_5_main.md": true,
+   "GENESIS_v1_5_sm.md": true,
+   "CC_TO_SM_AND_CODEX_2026-10-03_GENESIS_V1_5_FK1_CONFIRMED_FK12_THE_REGISTER.md": true
+  },
+  "byte-identical to 5c0951b7:GENESIS.md": true,
+  "byte-identical to 5c0951b7:docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_GENESIS_V1_5_FK1_CONFIRMED_FK12_THE_REGISTER.md": true,
+  "main's v1.5 against v1.4: changed blocks": {
+   "version line": 1,
+   "marked": 5,
+   "log entry": 1
+  },
+  "main's seven changes, as its B1460 lists them": true,
+  "main's amend.py rebuilds main's v1.5 from v1.4": true,
+  "passed": true
+ },
+ "C2 sm:B1525's checks re-run": {
+  "sm:B1525's checks re-run": {
+   "C1 (sm:B1521's checks: P is the swap's class; AR3-AR6)": true,
+   "C2 (the levels, third route)": true,
+   "C3 (the word states, own word code)": true,
+   "C4 (the bar's null contract)": true
+  },
+  "passed": true
+ },
+ "C3 P is the fibre's elliptic involution": {
+  "SnapPy presentation of m004": [
+   [
+    "a",
+    "b"
+   ],
+   [
+    "aaabABBAb"
+   ]
+  ],
+  "P is an involution of the free group": true,
+  "the lift: a -> -a needed": true,
+  "rho(R) = I (genuine lift)": true,
+  "rho(P(R)) = I: P is an automorphism": true,
+  "traces of rho o P equal those of rho": true,
+  "a non-real trace among them (so not the complex conjugate)": true,
+  "traces of rho o P differ from the conjugate's": true,
+  "exponents of R in a, b": [
+   1,
+   0
+  ],
+  "P keeps the base: exponent of P(b) in b": 1,
+  "Delta from R (coefficients, lowest degree first)": [
+   -1,
+   3,
+   -1
+  ],
+  "Delta = t^2 - 3t + 1 up to a unit": true,
+  "roots of Delta are real and positive (so -1 is no power of t on F^ab)": true,
+  "P([a]) = -[a]": true,
+  "P(b) = (element of F) b": true,
+  "symmetry group: order, full, amphicheiral": [
+   8,
+   true,
+   true
+  ],
+  "cusp maps": {
+   "((-1, 0), (0, -1))": 2,
+   "((-1, 0), (0, 1))": 2,
+   "((1, 0), (0, -1))": 2,
+   "((1, 0), (0, 1))": 2
+  },
+  "isometries acting on the cusp as the identity (orientation and base kept)": 2,
+  "each of the four sign pairs twice (main's B1456)": true,
+  "Ballas' presentation": {
+   "Lemma I": {
+    "image of mN": "nM",
+    "inverts it up to conjugacy": true,
+    "keeps the base": true
+   },
+   "swap": {
+    "image of mN": "nM",
+    "inverts it up to conjugacy": true,
+    "keeps the base": true
+   },
+   "conj(nM) o swap": {
+    "image of mN": "nM",
+    "inverts it up to conjugacy": true,
+    "keeps the base": true
+   }
+  },
+  "passed": true
+ },
+ "C4 v1.6 against main's v1.5": {
+  "sha-256 of the generated v1.6": "59ef40a678a2aa7b11d37599300b6d3cacc481edb0568f30eda852ba176faf36",
+  "GENESIS.md is the generated v1.6": true,
+  "main's words deleted or re-punctuated": [
+   "1.5",
+   "sm:B1520)",
+   "DERIVED,",
+   "relation",
+   "L241",
+   "frame",
+   "levels;",
+   "root."
+  ],
+  "exactly the listed edits": true,
+  "changed blocks without a mark": [],
+  "earlier marks unchanged (bold, plain)": {
+   "[v1.1]": [
+    15,
+    15,
+    21,
+    21
+   ],
+   "[v1.2]": [
+    22,
+    22,
+    23,
+    23
+   ],
+   "[v1.3]": [
+    6,
+    6,
+    7,
+    7
+   ],
+   "[v1.4]": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "[v1.5]": [
+    0,
+    0,
+    6,
+    6
+   ]
+  },
+  "[v1.6] marks": 15,
+  "[v1.6] written only as a mark": true,
+  "sections in order": true,
+  "malformed table rows": [],
+  "v1.5 rows changed (leading cells kept, marked)": [
+   {
+    "row": "m004 and its cyclic levels Mₙ",
+    "kept leading cells": true,
+    "marked": true
+   },
+   {
+    "row": "The other word states (758 to length 12;",
+    "kept leading cells": true,
+    "marked": true
+   },
+   {
+    "row": "FK9",
+    "kept leading cells": true,
+    "marked": true
+   },
+   {
+    "row": "FK12 **[v1.2]**",
+    "kept leading cells": true,
+    "marked": true
+   }
+  ],
+  "rows new in v1.6": [
+   "**[v1.6]** \"the trace map never reads κ\"",
+   "**[v1.6]** \"no forced choice in the trace ring\": a",
+   "**[v1.6]** \"the observer is built\" at the β = 1 tr",
+   "**[v1.6]** the three lines L1–L3 of the selection "
+  ],
+  "fork statuses as in main's v1.5": true,
+  "FK1 CONFIRMED, FK12 OPEN": true,
+  "the owner's two decisions verbatim": {
+   "| FK1 | The principle's single wording (§1) | **[v1.5] CONFI": true,
+   "**[v1.5] The register** (the owner's framing, decided 2026-1": true,
+   "**Is the register that keeps the order part of the state, ca": true,
+   "What the record does not show: that the act generates the re": true,
+   "**[v1.5] Decided by the owner (2026-10-03):** the single wor": true,
+   "**The single wording (proposed by the SM seat in v1.0; [v1.5": true
+  },
+  "Q5's words found, by place in its list: v1.6, main's v1.5, the SM seat's v1.5, a planted control": [
+   [],
+   [],
+   [],
+   [
+    2
+   ]
+  ],
+  "vendor words or the private term in v1.6": [],
+  "passed": true
+ },
+ "C5 the SM seat's v1.5, answered by its line": {
+  "blocks": [
+   {
+    "line in the seat's v1.5": 3,
+    "marks": 0,
+    "begins": "1.5",
+    "fate": "replaced by v1.6's header sentence; the seat's v1.5 kept as received in sm:B1526",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 9,
+    "marks": 1,
+    "begins": "v1.5 (sm:B1525) takes main's head, v1.4, as main asked of its v1.3. Th",
+    "fate": "replaced by v1.6's header sentence; the seat's v1.5 kept as received in sm:B1526",
+    "found verbatim": false
+   },
+   {
+    "line in the seat's v1.5": 265,
+    "marks": 1,
+    "begins": "sm:B1520). **[v1.5]** On the levels M₁…M₁₂ the count-odd mirror of tho",
+    "fate": "carried as it was",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 267,
+    "marks": 1,
+    "begins": "**[v1.5]** each is rigid rel cusp, so carries a one-parameter projecti",
+    "fate": "carried as it was",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 313,
+    "marks": 1,
+    "begins": "sign.** **[v1.5]** The audit lane's results do not prove that a relati",
+    "fate": "already in main's v1.5, in main's words (its [v1.5] qualification); not carried",
+    "found verbatim": false
+   },
+   {
+    "line in the seat's v1.5": 325,
+    "marks": 1,
+    "begins": "DERIVED (**[v1.5]** PASSED since sm:B1524: a rarity screen, not a deri",
+    "fate": "carried as it was",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 343,
+    "marks": 1,
+    "begins": "**[v1.5]** What survives is the structure: a measurement as a choice o",
+    "fate": "carried as it was",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 370,
+    "marks": 2,
+    "begins": "**[v1.5]** Its null contract (sm:B1524) names the laws under which the",
+    "fate": "carried, with P named the fibre's elliptic involution (C3)",
+    "found verbatim": false
+   },
+   {
+    "line in the seat's v1.5": 373,
+    "marks": 1,
+    "begins": "L241. **[v1.5]** Carried from the SM seat's v1.3 (sm:B1521 C2–C3): B13",
+    "fate": "carried, fitted to the owner's framing: the register question; the experiential question kept apart",
+    "found verbatim": false
+   },
+   {
+    "line in the seat's v1.5": 376,
+    "marks": 1,
+    "begins": "frame's counts levels (**[v1.5]** its projective family exists on ever",
+    "fate": "carried as it was",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 384,
+    "marks": 2,
+    "begins": "root; - **[v1.5]** the class index on the projective family of a mirro",
+    "fate": "carried as it was",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 427,
+    "marks": 4,
+    "begins": "| **[v1.5]** \"the trace map never reads κ\" | B20, B37 | FK12, in B37's",
+    "fate": "carried as it was",
+    "found verbatim": true
+   },
+   {
+    "line in the seat's v1.5": 496,
+    "marks": 0,
+    "begins": "- **v1.5 · 2026-10-03 · sm:B1525.** Main's head, v1.4, taken as the he",
+    "fate": "superseded by v1.6's entry, which says what was carried, fitted and not carried",
+    "found verbatim": false
+   }
+  ],
+  "the seat's v1.5 marks accounted for": 16,
+  "every block accounted for": true,
+  "carried as it was": 7,
+  "fitted or not carried": [
+   "FK12",
+   "FK9",
+   "GAP3",
+   "header",
+   "log"
+  ],
+  "passed": true
+ },
+ "checks": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true
+ },
+ "GENESIS.md is the generated v1.6": true,
+ "seconds": 14.6
+}

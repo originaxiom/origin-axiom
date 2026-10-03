@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1273** |
-| words of findings prose | **1,068,264** |
-| test lock files referenced | **776** |
-| arcs carrying an authored verdict | **1273** (100.0 %) |
+| research arcs with findings | **1274** |
+| words of findings prose | **1,070,501** |
+| test lock files referenced | **777** |
+| arcs carrying an authored verdict | **1274** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 847 |
+| PROVED | 848 |
 | NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1525`** (3283 words, 1 locks)  
-GENESIS v1.5 (not sealed: every item checks a claim the record already fixes): main's v1.4 taken as the head, as main asked of its v1.3, and the SM seat's parallel v1.3 answered by its line -- what main had not made is carried, marked (P is the swap's class and fixes rho_q; B130's scope; what of B723 survives; the act-and-register questions kept apart, the experiential one under Gate 5-Q; four crosswalk rows), and one quotation is not carried because it took a Gate 5-Q word outside the governed rooms (a slip of sm:B1521, main's E84 class, self-caught). Added, each checked with own code first: on m004's levels the count-odd mirror breaks from M5 on, off the unit circle exactly where no golden Galois reflection fixes the twist, recounted by a third route equal to B1522's record on all 26 counts; every word state to length 12 carries a projective family, the one-bit rule holds on all, and on 262 manifolds no isometry dualises it; the bar's top grade is PASSED under its null contract; GAP3 says what the audit lane's results prove. Main's B1459 left to main. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.  
-`B1525_genesis_v15/FINDINGS.md`
+**PROVED — `B1526`** (2237 words, 1 locks)  
+GENESIS v1.6 (not sealed: every item checks a claim the record already fixes): main's v1.5 taken as the head, as main asked of both seats, with the owner's two decisions verbatim (FK1 CONFIRMED; FK12 framed as the register question); the SM seat's parallel v1.5 answered by its line -- GAP3's refinement is main's already, seven blocks carried as they were (the levels, the word states, the bar's null contract, AR6, B130's scope, the frontier, four rows), FK12's carried text fitted to the owner's framing with the experiential question kept apart under Gate 5-Q, and FK9 names P. B1297's P is shown by own code to be the fibre's elliptic involution, the one non-trivial outer class of m004 that keeps the orientation and the base (it inverts the fibre's homology, and SnapPy's symmetry group has exactly two isometries acting on the cusp as the identity); in Ballas' presentation it is the swap's class, as main's relay and this seat's B1512 and B1521 say. No status changes. creates_law false; 0 of 19; I-26 stays UNEARNED.  
+`B1526_genesis_v16/FINDINGS.md`
 
 **NEGATIVE — `B1520`** (2789 words, 1 locks)  
 THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  

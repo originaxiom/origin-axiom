@@ -1,13 +1,13 @@
 {
- "settled": 1172,
+ "settled": 1173,
  "declared_true": 95,
- "declared_false": 249,
+ "declared_false": 250,
  "absent": 828,
  "absent_pct": 71,
  "control": {
   "declared_mean": 2.96,
   "rest_mean": 1.22,
-  "ratio": 2.43,
+  "ratio": 2.42,
   "passes": true
  },
  "pool_old": [

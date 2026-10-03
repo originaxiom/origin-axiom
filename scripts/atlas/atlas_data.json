@@ -9612,6 +9612,28 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1526": {
+   "slug": "genesis v16",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B130",
+    "B599",
+    "B723",
+    "B871",
+    "S42",
+    "S43"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

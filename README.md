@@ -1,6 +1,8 @@
 # Origin Axiom
 
-> **Foundations (2026-10-02; v1.0 B1516, v1.2 B1519): [`GENESIS.md`](GENESIS.md) v1.2 is canonical, the version main and this seat both hold.** It states once, with one numbering,
+> **Foundations (2026-10-03; v1.0 B1516, v1.6 B1526): [`GENESIS.md`](GENESIS.md) v1.6 is canonical on this branch: main's v1.5 (its B1460) with this seat's marked
+> additions.** Main's v1.5 records the owner's two decisions of 2026-10-03: the principle's single wording (fork FK1) is confirmed
+> as written, and fork FK12 is framed as the register question. It states once, with one numbering,
 > the principle, the grammar, the generated state space with the figure-eight knot complement m004 as its root, the
 > frames in which results are computed, and the open forks. Where anything below disagrees with it, GENESIS holds.
 
@@ -23,7 +25,7 @@ nothing cannot complete.
 
 ## The state of the programme (as of B1516, 2026-10-02)
 
-### Foundations: `GENESIS.md` v1.2
+### Foundations: `GENESIS.md` v1.6 (the paragraphs below describe v1.2, B1519; see the banner for since)
 
 The programme starts from one principle: existence is what remains when cancelling to nothing cannot complete, and that
 remainder is a description that cannot be exhausted. Read as mathematics, a description is a word in two elementary updates of

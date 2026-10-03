@@ -3790,6 +3790,10 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    answers sm:B1521's v1.3 by its line (carried, in main's words, superseded, or not carried), and adds the levels (sm:B1522),
    the word states (sm:B1523), the bar's null contract (sm:B1524) and the audit lane's GENESIS GAP3 refinement. Each item is
    checked with own code first. sm:B1521's FK12 quotation is not carried (a Gate 5-Q word; ERROR_LEDGER, main's E84 class).
+   **[2026-10-03, sm:B1526] GENESIS v1.6.** Main made its own v1.5 in parallel (B1460: the owner's two decisions, GENESIS
+   FK1 confirmed and FK12 framed as the register question). v1.6 takes main's v1.5 as the head, with the decisions verbatim,
+   and answers sm:B1525's v1.5 by its line. FK12's carried text is fitted to the register question, with the experiential
+   question kept apart under Gate 5-Q. B1297's P is shown by own code to be the fibre's elliptic involution (C3).
 5. **The metallic fixed loci, component by component** (sm:B1521; the audit lane's AR4). Does the fixed locus of φ_m =
    Ta^m ∘ Tb^m on ℂ³ have isolated components, and if so, are their κ values related by a symmetry? A yes with no relating
    symmetry would be a discrete fork inside one unit, which B130's reading denies. The golden unit m = 1 first. Seal before

@@ -1,7 +1,7 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1172 settled arcs — 71%** —
+the field is **absent on 828 of 1173 settled arcs — 71%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
@@ -10,7 +10,7 @@ The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.96** on the corpus's own law vocabulary against
-**1.22** for the rest — **2.43×**. The criterion
+**1.22** for the rest — **2.42×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
