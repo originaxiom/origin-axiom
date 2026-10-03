@@ -1,0 +1,24 @@
+{
+ "id": "B1462",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1297",
+  "B1455",
+  "B1459",
+  "B1460",
+  "B1458"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE (m004's harmonic family and its cyclic levels); the page and the bar frame-independent",
+  "object": "pi_1(m004)'s eight symmetry classes in Ballas' presentation; the levels M_1..M_6 (T_n and its characters); GENESIS v1.6 and THE_BAR as received from the SM seat",
+  "reach": "class",
+  "hypotheses": "lambda generic off the unit circle (the on-circle counts are the seat's, read); a map dualises iff it inverts the longitude (B1455); the level census M_7..M_12, Lemma F, the 196 firing members' flags, sm:B1523 and most of sm:B1524 read, not re-derived"
+ },
+ "claim_one_line": "THE SEATS HARVESTED. (1) P IS THE SWAP: in Ballas' presentation (m = ab, n = aabA) B1297's period-2 symmetry is conj(nM) o (m <-> n), so it fixes rho_q and the family's dualising symmetry is the strong inversion -- sm:B1521 C1 re-derived in SnapPy's holonomy; one sentence of B1455's addendum and GENESIS FK12 (ii) corrected. (2) THE LEVELS: by Fox calculus over Z[Z/n] from SnapPy's presentation with the eight D4 classes found by search, the twists of M_1..M_6 fixed by no count-odd map off the unit circle number 0, 0, 0, 0, 20, 96 -- sm:B1522's table exactly -- and M_5's 20 are exactly the single-sheet twists of F_11^2, ten per golden sheet; L242 (b) paid. (3) THE BAR'S NULL CONTRACT (sm:B1524): two numbers re-derived, adopted into docs/THE_BAR.md; the top grade PASSED. (4) GENESIS v1.7 = the seat's v1.6 verified where main could and adopted with one correction. Ten SM relays rowed, pin 48f6af3b; L242 (e) registered (a blind second route on the first mirror-broken word state's family). Nothing selects a state. 0 of 19."
+}

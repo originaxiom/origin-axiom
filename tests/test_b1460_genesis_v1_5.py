@@ -24,6 +24,8 @@ def test_the_decisions_are_in_the_page_and_propagated():
     assert "- **v1.5 · 2026-10-03 · main B1460.**" in g and "**Pending the owner:**" not in g and "owner to confirm" not in g
     assert "do\n  not prove that a one-ended state can get the third *only* from a relation" in g
     r = open(os.path.join(ROOT, "README.md")).read()
-    assert "confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5)" in r and "`GENESIS.md` (v1.5)" in r and "awaits the owner" not in r
+    import re
+    assert "confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5)" in r and "awaits the owner" not in r
+    v = re.search(r"`GENESIS.md` \(v1\.(\d+)\)", r); assert v and int(v.group(1)) >= 5      # the README names the current version, 1.5 or later
     p = open(os.path.join(ROOT, "docs", "THE_FOUNDATION_LOCK_PLAN.md")).read()
     assert "S43 (B1460). FK1 and FK12 decided by the owner" in p

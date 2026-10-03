@@ -1,0 +1,812 @@
+{
+ "symmetries": [
+  {
+   "m": "m",
+   "n": "n",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "BabbaBAA",
+    "b": "aabABBAbab"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "m",
+   "n": "mnM",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aabbaBAABA",
+    "b": "abaabABBAb"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "m",
+   "n": "nmN",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "BabbaBAbaabABBAA",
+    "b": "aabbaBAABabABBAbab"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "m",
+   "n": "Mnm",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "BABabbaBAb",
+    "b": "BabABBAbabab"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "m",
+   "n": "Nmn",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "BBAbaabbaBAABabA",
+    "b": "aBAbaabABBAABabbab"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "n",
+   "n": "m",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aBAbaabABA",
+    "b": "abaBAABababA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "n",
+   "n": "mnM",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aBAbaabABabbaBAABA",
+    "b": "abaabABBAbaBAABababA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "n",
+   "n": "nmN",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "abaabABBAA",
+    "b": "aabbaBAABabA"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "n",
+   "n": "Mnm",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aBAABabbaabABBAb",
+    "b": "BabbaBAABBAbaababA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "n",
+   "n": "Nmn",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aBABAbaabABabA",
+    "b": "aBAbaBAABabababA"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "M",
+   "n": "N",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "abaBAABabA",
+    "b": "aBAbaabABABA"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "M",
+   "n": "mNM",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "ababaBAABabABA",
+    "b": "abaBAbaabABABABA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "M",
+   "n": "nMN",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "abaabABBAABabbaBAA",
+    "b": "aabABBAbaabbaBAABABA"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "M",
+   "n": "MNm",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aBAABabb",
+    "b": "BBAbaabABA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "M",
+   "n": "NMn",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "abaBAABabABBAbaabA",
+    "b": "aBAABabbaBAbaabABABA"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "N",
+   "n": "M",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aabABBAb",
+    "b": "BabbaBABAA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "N",
+   "n": "mNM",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aabbaBAABBAbaabABA",
+    "b": "abaBAABabbaabABBABAA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "N",
+   "n": "nMN",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aababABBAbaBAA",
+    "b": "aabABabbaBABABAA"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "N",
+   "n": "MNm",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aabABBAbaBAABabb",
+    "b": "BBAbaabABabbaBABAA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "N",
+   "n": "NMn",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "BBAbaabA",
+    "b": "aBAABabbaBAA"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "mnM",
+   "n": "m",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "abaBAbaabABABA",
+    "b": "ababaBAABababABA"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "mnM",
+   "n": "n",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "abaBAABabbaabABBAA",
+    "b": "aabbaBAABBAbaababABA"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "mnM",
+   "n": "nmN",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "abaBAABabbaBAbaabABabABBAA",
+    "b": "aabbaBAbaBAABabABBAbaababABA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "mNM",
+   "n": "M",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "abaabABBAA",
+    "b": "aabbaBABAABA"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "mNM",
+   "n": "N",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "abaabABBAbaBAABabA",
+    "b": "aBAbaabABabbaBABAABA"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "mNM",
+   "n": "nMN",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "abaabABabABBAbaBAABabbaBAA",
+    "b": "aabABBAbaabABabbaBAbaBABAABA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "nmN",
+   "n": "m",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aabABBAbaabbaBAABA",
+    "b": "abaabABBAABabbabaBAA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "nmN",
+   "n": "n",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aabABabbaBABAA",
+    "b": "aababABBAbabaBAA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "nmN",
+   "n": "mnM",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aabABBAbaabABabbaBAbaBAABA",
+    "b": "abaabABabABBAbaBAABabbabaBAA"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "nMN",
+   "n": "M",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aabbaBAABabABBAb",
+    "b": "BabbaBAbaabABABBAA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "nMN",
+   "n": "N",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aabbaBAABA",
+    "b": "abaabABABBAA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "nMN",
+   "n": "mNM",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aabbaBAbaBAABabABBAbaabABA",
+    "b": "abaBAABabbaBAbaabABabABABBAA"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "Mnm",
+   "n": "m",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "BBAbaabA",
+    "b": "aBAABababb"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "Mnm",
+   "n": "n",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "BBAbaabABabbaBAA",
+    "b": "aabABBAbaBAABababb"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "Mnm",
+   "n": "Nmn",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "BBAbaBAbaabABabbaBAABabA",
+    "b": "aBAbaabABBAbaBAABabABababb"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "MNm",
+   "n": "M",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "BabABBAbab",
+    "b": "BABabbaBABAb"
+   },
+   "sign_on_T2": 1
+  },
+  {
+   "m": "MNm",
+   "n": "N",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "BabbaBAABBAbaabA",
+    "b": "aBAABabbaabABBABAb"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "MNm",
+   "n": "NMn",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "BabbaBAABabABBAbaBAbaabA",
+    "b": "aBAABabABabbaBAbaabABBABAb"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "Nmn",
+   "n": "m",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aBAABabbaBAbaabABA",
+    "b": "abaBAABabABBAbabaabA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "Nmn",
+   "n": "n",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aBAABabb",
+    "b": "BBAbabaabA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "Nmn",
+   "n": "Mnm",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aBAABabABabbaBAbaabABBAb",
+    "b": "BabbaBAABabABBAbaBAbabaabA"
+   },
+   "sign_on_T2": 2
+  },
+  {
+   "m": "NMn",
+   "n": "M",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aBAbaabABBAABabb",
+    "b": "BBAbaabbaBAABABabA"
+   },
+   "sign_on_T2": 3
+  },
+  {
+   "m": "NMn",
+   "n": "N",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aBAbaBAABababA",
+    "b": "aBABAbaabABABabA"
+   },
+   "sign_on_T2": 4
+  },
+  {
+   "m": "NMn",
+   "n": "MNm",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aBAbaabABBAbaBAABabABabb",
+    "b": "BBAbaBAbaabABabbaBAABABabA"
+   },
+   "sign_on_T2": 2
+  }
+ ],
+ "levels": [
+  {
+   "n": 1,
+   "invariant_factors": [],
+   "torsion_characters": 1,
+   "unfixed_off_circle": 0,
+   "dualising_strong_inversion_lifts": 10
+  },
+  {
+   "n": 2,
+   "invariant_factors": [
+    5
+   ],
+   "torsion_characters": 5,
+   "unfixed_off_circle": 0,
+   "dualising_strong_inversion_lifts": 20
+  },
+  {
+   "n": 3,
+   "invariant_factors": [
+    4,
+    4
+   ],
+   "torsion_characters": 16,
+   "unfixed_off_circle": 0,
+   "dualising_strong_inversion_lifts": 30
+  },
+  {
+   "n": 4,
+   "invariant_factors": [
+    3,
+    15
+   ],
+   "torsion_characters": 45,
+   "unfixed_off_circle": 0,
+   "dualising_strong_inversion_lifts": 40
+  },
+  {
+   "n": 5,
+   "invariant_factors": [
+    11,
+    11
+   ],
+   "torsion_characters": 121,
+   "unfixed_off_circle": 20,
+   "dualising_strong_inversion_lifts": 50
+  },
+  {
+   "n": 6,
+   "invariant_factors": [
+    8,
+    40
+   ],
+   "torsion_characters": 320,
+   "unfixed_off_circle": 96,
+   "dualising_strong_inversion_lifts": 60
+  }
+ ],
+ "classes": [
+  {
+   "m": "M",
+   "n": "N",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "abaBAABabA",
+    "b": "aBAbaabABABA"
+   },
+   "sign_on_T2": 1,
+   "key": [
+    "preserving",
+    "-1",
+    "inverted",
+    "1"
+   ]
+  },
+  {
+   "m": "N",
+   "n": "M",
+   "eps": -1,
+   "orientation": "preserving",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aabABBAb",
+    "b": "BabbaBABAA"
+   },
+   "sign_on_T2": 4,
+   "key": [
+    "preserving",
+    "-1",
+    "inverted",
+    "4"
+   ]
+  },
+  {
+   "m": "m",
+   "n": "n",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "BabbaBAA",
+    "b": "aabABBAbab"
+   },
+   "sign_on_T2": 1,
+   "key": [
+    "preserving",
+    "1",
+    "kept",
+    "1"
+   ]
+  },
+  {
+   "m": "n",
+   "n": "m",
+   "eps": 1,
+   "orientation": "preserving",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aBAbaabABA",
+    "b": "abaBAABababA"
+   },
+   "sign_on_T2": 4,
+   "key": [
+    "preserving",
+    "1",
+    "kept",
+    "4"
+   ]
+  },
+  {
+   "m": "M",
+   "n": "nMN",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "abaabABBAABabbaBAA",
+    "b": "aabABBAbaabbaBAABABA"
+   },
+   "sign_on_T2": 2,
+   "key": [
+    "reversing",
+    "-1",
+    "kept",
+    "2"
+   ]
+  },
+  {
+   "m": "N",
+   "n": "mNM",
+   "eps": -1,
+   "orientation": "reversing",
+   "longitude": "kept",
+   "dualising": false,
+   "ab": {
+    "a": "aabbaBAABBAbaabABA",
+    "b": "abaBAABabbaabABBABAA"
+   },
+   "sign_on_T2": 3,
+   "key": [
+    "reversing",
+    "-1",
+    "kept",
+    "3"
+   ]
+  },
+  {
+   "m": "m",
+   "n": "nmN",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "BabbaBAbaabABBAA",
+    "b": "aabbaBAABabABBAbab"
+   },
+   "sign_on_T2": 2,
+   "key": [
+    "reversing",
+    "1",
+    "inverted",
+    "2"
+   ]
+  },
+  {
+   "m": "n",
+   "n": "mnM",
+   "eps": 1,
+   "orientation": "reversing",
+   "longitude": "inverted",
+   "dualising": true,
+   "ab": {
+    "a": "aBAbaabABabbaBAABA",
+    "b": "abaabABBAbaBAABababA"
+   },
+   "sign_on_T2": 3,
+   "key": [
+    "reversing",
+    "1",
+    "inverted",
+    "3"
+   ]
+  }
+ ],
+ "golden_M5": {
+  "deck_on_T5_mod_11": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "eigenvalues_mod_11": [
+   5,
+   9
+  ],
+  "unfixed": 20,
+  "unfixed_single_sheet": 20,
+  "single_sheet_total": 20,
+  "per_sheet": {
+   "5": 10,
+   "9": 10
+  }
+ },
+ "agrees_with_sm_B1522": true
+}

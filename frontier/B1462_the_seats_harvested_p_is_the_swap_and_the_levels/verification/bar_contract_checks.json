@@ -1,0 +1,17 @@
+{
+ "binomial_understates_for_n_ge_2": true,
+ "agree_at_n_1": true,
+ "sidak_example": {
+  "exact": 0.010012468356821702,
+  "sidak": 0.009999937186324206,
+  "bonferroni": 0.010025062656641603,
+  "exact_gt_gate": true,
+  "sidak_passes": true,
+  "bonferroni_passes": false
+ },
+ "m369_scan_p": {
+  "exact": 0.9871416723572094,
+  "binomial": 0.9857453279078088
+ },
+ "verdict": "PASS"
+}

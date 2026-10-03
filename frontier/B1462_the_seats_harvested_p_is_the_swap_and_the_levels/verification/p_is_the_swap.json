@@ -1,0 +1,14 @@
+{
+ "relator_in_PSL_lift": "-I",
+ "relator_after_a_to_minus_a": "+I",
+ "ballas_relator": "+I",
+ "a_is_MnmN": true,
+ "b_is_nMNmm": true,
+ "P_m_is_MnmNm": true,
+ "P_n_is_nmN": true,
+ "P_m_is_conj_nM_of_n": true,
+ "P_n_is_conj_nM_of_m": true,
+ "control_P_m_equals_m": false,
+ "control_trace_kept": true,
+ "verdict": "PASS"
+}

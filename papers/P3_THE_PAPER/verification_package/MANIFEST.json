@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-10-03T06:23:09Z",
+ "built": "2026-10-03T06:53:16Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,10 +9,10 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "5c0951b7",
+  "git_head": "bad64d34",
   "git_tree_clean": false,
   "git_head_published": true,
-  "git_commits": 3499,
+  "git_commits": 3500,
   "git_shallow": false
  },
  "claims": [
@@ -841,7 +841,8 @@
       "frontier/B1297_the_spectral_cover_index/verification/table.json"
      ],
      "locks": [
-      "tests/test_b1297_the_spectral_cover_index.py"
+      "tests/test_b1297_the_spectral_cover_index.py",
+      "tests/test_b1462_seats_harvested.py"
      ],
      "primary_locks": [
       "tests/test_b1297_the_spectral_cover_index.py"
@@ -2780,7 +2781,7 @@
   "claims": 67,
   "records": 95,
   "seals": 21,
-  "locks": 152,
+  "locks": 153,
   "records_with_a_primary_lock": 95
  }
 }

@@ -1,15 +1,7 @@
 # THE BAR — what a positive on a generated state must beat
 
-> **Adopted on main 2026-10-03 (B1458) for the class-index frame F-CI, from the SM seat's sm:B1518 (its page of the same
-> name, sha256 `c2b87d04692a78460d5228a6c682a3808191163a58671ca1959ef250114a6275`, kept as received in B1458's arc).** Main's own code confirms its one quantitative
-> claim about main's census: by manifold and by the fibre torsion's group structure, 22 (G, sign) strata each hold a
-> firing and a silent manifold, the smallest being m369 (eight backgrounds) against o9_00001 (none), both with G = ℤ/12
-> and sign − (`frontier/B1458_the_bar_adopted_and_the_own_level_law/verification/own_level_strata.py`). Its instrument
-> lives on the seat's branch and is not re-implemented here; the grades are those of `docs/WHAT_WOULD_COUNT.md` §3 with
-> UNJUDGED added. The owner may amend the bar; nothing below changes a verdict. GENESIS v1.4 §7 and FK9 point here. **Amended on main 2026-10-03 (B1462): the SM seat's sm:B1524 null contract adopted as received (sha256 `851e4754…`, kept in B1462's arc); two of its numbers re-derived on main (`bar_contract_checks.py`), the rest read. The top grade is PASSED, a rarity screen; no grade on the record changed.**
-
 **Fixed by B1518 (2026-10-02; sealed at `697217be`, run and banked the same day), OPEN_LEADS sL-9 item 1, GENESIS GAP4.** It
-is the SM seat's proposal; the owner may amend it. It does not say what makes a state physical (GENESIS FK9 stays open). It says
+is this seat's proposal; the owner may amend it. It does not say what makes a state physical (GENESIS FK9 stays open). It says
 how much a reported match on a generated state counts.
 
 **Amended by B1524 (2026-10-03): the null contract** (§ The null contract below; the audit lane's request at `24c039c8`). The
@@ -89,7 +81,7 @@ The record's positives, graded (B1518 FINDINGS §3.5):
 ## The null contract (B1524, 2026-10-03)
 
 The audit lane asked under which law the bar's p is a probability (`24c039c8`). Each answer below is checked with own code
-(the SM seat's `null_contract.py`, in sm:B1524 on its branch).
+(`frontier/B1524_the_bars_null_contract/verification/null_contract.py`).
 - **C1, the census's own law.** Within a stratum the carriers are placed uniformly at random, independently of the rule that picked
   s. Then s carries with probability K/N, and the exact p is (k + 1)/(n + 1), with k carriers among the n other units. This is the
   law the bar uses: the census is complete and finite.
@@ -111,7 +103,7 @@ The audit lane asked under which law the bar's p is a probability (`24c039c8`). 
 ## Using it
 
 An arc that reports a positive on a generated state fills in the card in its FINDINGS and gives the grade. The tools:
-- the SM seat's `null_model.py` (sm:B1518, on its branch): base rates, exact intervals, strata and conditional tests. Its `sidak`
+- `frontier/B1518_the_bar/verification/null_model.py`: base rates, exact intervals, strata and conditional tests. Its `sidak`
   function is superseded for looks by Bonferroni (B1524).
-- the SM seat's `null_contract.py` (sm:B1524, on its branch): the exact scan law and the contract's checks.
+- `frontier/B1524_the_bars_null_contract/verification/null_contract.py`: the exact scan law and the contract's checks.
 - B1518's strata table (`bar_run.json`, reading R6), for F-CI's own level.

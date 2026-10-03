@@ -9495,6 +9495,30 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1462": {
+   "slug": "the seats harvested p is the swap and the levels",
+   "motifs": [
+    "monoid",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B130",
+    "B37",
+    "B723",
+    "L242",
+    "L243",
+    "P8"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B146": {
    "slug": "b145 calibration",
    "motifs": [

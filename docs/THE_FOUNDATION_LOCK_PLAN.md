@@ -96,6 +96,8 @@ negatives are scope-tagged in Stage 5 with the rest.
 - **2026-10-03, S43 (B1460). FK1 and FK12 decided by the owner** on main's recommendation: FK1 CONFIRMED as written (the
   measurer kept out of the principle); FK12 reframed as the register question with its two found drop points and four
   sub-questions; GAP3 refined on the audit lane's qualification. GENESIS v1.5. The lock's last owner-held item is paid.
+- **2026-10-03, S45 (B1462).** Stage 0/1 harvest: the SM seat's sm:B1521–B1526 rowed, two re-derived on main; GENESIS at
+  v1.7 (the seat's v1.6 on main's v1.5, one correction); THE_BAR carries the null contract.
 - **Still Stage 1:** codex's two lanes and the sep16 lane (harvests that age on 2026-10-09 and 10-12), the audit
   lane's same-day genesis reconciliation (unread on main), the web-seat handoffs.
 

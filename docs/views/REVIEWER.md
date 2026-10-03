@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1290** |
-| words of findings prose | **993,098** |
+| research arcs with findings | **1291** |
+| words of findings prose | **994,348** |
 | test lock files referenced | **758** |
-| arcs carrying an authored verdict | **1290** (100.0 %) |
+| arcs carrying an authored verdict | **1291** (100.0 %) |
 | recorded closures | **802** (635 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 862 |
+| PROVED | 863 |
 | NEGATIVE | 326 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1461`** (714 words, 1 locks)  
-THE REVIEW FIRES, ITS CARRIED ITEMS AGE, AND EVERY GATE HAS BEEN SEEN TO FAIL (R58-1 implemented; R58-2 paid). Four gates with failing-path tests: review-fires (40 merges unless the owner waives by date in docs/progress/REVIEW_WAIVER.md), carry-age (a third carry must be resolved, declined with a reason, or waived; the fifteen keys past the limit today are a baseline due at Review 59), gate-controls (tests/GATE_CONTROLS.json names a failing-path test for each of the 40 gates; 25 new ones written for the twelve R58-2 named and thirteen more), review-core (from Review 59 every entry states fresh-clone, sample seed and gate controls; review_tools.fresh_clone runs gates and belt in a clone -- HEAD 5c0951b7: gates all PASS, belt ok). GOVERNANCE 15 amended; R55-6's wrong status column fixed. Nothing in the derivation moved. 0 of 19.  
-`B1461_the_review_fires_and_its_items_age/FINDINGS.md`
+**PROVED — `B1462`** (1250 words, 0 locks)  
+THE SEATS HARVESTED. (1) P IS THE SWAP: in Ballas' presentation (m = ab, n = aabA) B1297's period-2 symmetry is conj(nM) o (m <-> n), so it fixes rho_q and the family's dualising symmetry is the strong inversion -- sm:B1521 C1 re-derived in SnapPy's holonomy; one sentence of B1455's addendum and GENESIS FK12 (ii) corrected. (2) THE LEVELS: by Fox calculus over Z[Z/n] from SnapPy's presentation with the eight D4 classes found by search, the twists of M_1..M_6 fixed by no count-odd map off the unit circle number 0, 0, 0, 0, 20, 96 -- sm:B1522's table exactly -- and M_5's 20 are exactly the single-sheet twists of F_11^2, ten per golden sheet; L242 (b) paid. (3) THE BAR'S NULL CONTRACT (sm:B1524): two numbers re-derived, adopted into docs/THE_BAR.md; the top grade PASSED. (4) GENESIS v1.7 = the seat's v1.6 verified where main could and adopted with one correction. Ten SM relays rowed, pin 48f6af3b; L242 (e) registered (a blind second route on the first mirror-broken word state's family). Nothing selects a state. 0 of 19.  
+`B1462_the_seats_harvested_p_is_the_swap_and_the_levels/FINDINGS.md`
 
 **NEGATIVE — `B1455`** (2261 words, 0 locks)  
 THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric potential whose minima are not mirror-symmetric?). NEGATIVE, the registered kill, scoped to the frame F-HE on m004's harmonic family at level one: the vacuum does not select a handedness there. THREE LINES THE TEST TURNS ON: the class index is unchanged by pulling back along any symmetry of the manifold, mirrors included (L1), and changes sign under dualising (L2); so a module with V* isomorphic to sigma^* V has index zero (L3), and the count-odd symmetries are a symmetry followed by dualising. THE TEST, by two routes with no shared code (characters on 2046 words in exact rationals; intertwiners, symbolic in q): on Ballas' family the dual of the vacuum at q is the vacuum at 1/q, and inverting both generators does the same, so inversion-then-dual fixes every vacuum, for every q > 0 and every central twist. HENCE every reductive module made from rho_q has class index zero -- a proof, not a census. The counts of +-1 found by the seats sit on non-split extensions, which no count-odd symmetry fixes and which are not minima (the audit lane's R76, read). ONE SEALED PREDICTION FAILED: only four of the eight signed permutations of the generators are automorphisms and all four preserve orientation; the mirrors were found after the seal by search (152 maps) and fall in two classes -- those keeping the longitude fix every vacuum, those inverting it exchange q and 1/q -- so the eight symmetries act on the family through one bit, which is the same as dualising. TWO CORRECTIONS TO THE RULE AS WORDED: the counted configuration is itself fixed by a bare mirror and counts -1 (60 digits; an invertible intertwiner), so 'symmetric under the mirror gives zero' is false for the geometric mirror and true for symmetry-plus-dual; and half the symmetries are broken by every vacuum off the hyperbolic point without any count being broken. The audit lane's open checkbox (base isometry plus duality) is paid. The handoff's side claims recompute (the Sturmian identity at nine intercepts; no surjection of m004's group onto SL(2,5), 1440 for m202). Silent on other states, frames, sources, ends and on selection by a relation. 0 of 19.  

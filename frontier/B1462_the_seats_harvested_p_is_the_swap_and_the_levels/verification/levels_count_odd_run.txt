@@ -1,0 +1,17 @@
+preserving eps -1 longitude inverted dualising True  T2 +1  m->M     n->N       a->abaBAABabA   b->aBAbaabABABA
+preserving eps -1 longitude inverted dualising True  T2 -1  m->N     n->M       a->aabABBAb     b->BabbaBABAA
+preserving eps +1 longitude kept     dualising False T2 +1  m->m     n->n       a->BabbaBAA     b->aabABBAbab
+preserving eps +1 longitude kept     dualising False T2 -1  m->n     n->m       a->aBAbaabABA   b->abaBAABababA
+reversing  eps -1 longitude kept     dualising False T2 x2  m->M     n->nMN     a->abaabABBAABabbaBAA b->aabABBAbaabbaBAABABA
+reversing  eps -1 longitude kept     dualising False T2 x3  m->N     n->mNM     a->aabbaBAABBAbaabABA b->abaBAABabbaabABBABAA
+reversing  eps +1 longitude inverted dualising True  T2 x2  m->m     n->nmN     a->BabbaBAbaabABBAA b->aabbaBAABabABBAbab
+reversing  eps +1 longitude inverted dualising True  T2 x3  m->n     n->mnM     a->aBAbaabABabbaBAABA b->abaabABBAbaBAABababA
+44 symmetry words kept, 8 classes
+M_1: T_n invariants [], 1 twists, 0 unfixed off the circle (10 strong-inversion lifts tried)
+M_2: T_n invariants [5], 5 twists, 0 unfixed off the circle (20 strong-inversion lifts tried)
+M_3: T_n invariants [4, 4], 16 twists, 0 unfixed off the circle (30 strong-inversion lifts tried)
+M_4: T_n invariants [3, 15], 45 twists, 0 unfixed off the circle (40 strong-inversion lifts tried)
+M_5: T_n invariants [11, 11], 121 twists, 20 unfixed off the circle (50 strong-inversion lifts tried)
+M_6: T_n invariants [8, 40], 320 twists, 96 unfixed off the circle (60 strong-inversion lifts tried)
+M_5 golden reading: 20 unfixed, 20 of them single-sheet, 20 single-sheet twists in all, per sheet {'5': 10, '9': 10}
+VERDICT levels-count-odd: PASS
