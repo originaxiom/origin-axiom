@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1286** |
-| words of findings prose | **989,516** |
+| research arcs with findings | **1287** |
+| words of findings prose | **990,155** |
 | test lock files referenced | **756** |
-| arcs carrying an authored verdict | **1286** (100.0 %) |
+| arcs carrying an authored verdict | **1287** (100.0 %) |
 | recorded closures | **802** (635 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 858 |
+| PROVED | 859 |
 | NEGATIVE | 326 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1457`** (1792 words, 0 locks)  
-THE AUDIT LANE'S RECORDS FROM R32 TO R80 HARVESTED at 7b088f50: 116 reports and the lane's relays rowed with its own headlines first, every report read in full by a reader pass, its tests run in a pinned checkout. RE-DERIVED ON MAIN: R41's flag pairings ((0,0,0) for the central source direction, (12,8,4) and (3,2,1) for the non-central ones, all three vanishing exactly on the scalars); the q curve fixed by inversion-then-dual and its longitude traces (R47, R48, R54; B1455); the natural quotient F2 -> Z^2 that forgets order (R57); the signed power -(LR)^2 = m207 (R78; B1456). ONE TABLE OF WHAT A COUNT NEEDS, in the lane's own words and read, not re-derived: an ORDER of the pieces (the count lives on the non-split module, R75, R40); no vacuum without help (F01, R76); a SOURCE with a direction and a sign, three balances along the flag (R41, R80), which may sit in the compact core (R76), or FLUX through an end (R41); an added source model that holds the counted configuration at the price of infinitely many flat directions (R77); an end law (R68, R72). AGAINST OBJECTS: the root's vacua count zero (B1455); m010, a signed word state, carries +1 and +1 (R40) with no vacuum; m202, two-ended and not a cover of the root, carries a conditional three with prescribed sources between its ends (R19, R24); -3 on levels three and six for an induced rank-six coefficient (R69). NO REPORT DERIVES THE SOURCE OR SAYS WHICH RELATION SUPPLIES IT. Answers the owner's question of 2026-10-02: B1455 was on m004 alone, and the lane's records put the missing third in the relations. Nothing is promoted or demoted. 0 of 19.  
-`B1457_the_audit_lanes_source_records_harvested/FINDINGS.md`
+**PROVED — `B1458`** (639 words, 0 locks)  
+THE BAR ADOPTED, AND WHAT THE OWN-LEVEL LAW IS NOT. On main's own census read by manifold (536; 87 carry a generation-shaped background at their own level, every reversal pair agreeing), stratified by the fibre torsion's group G = coker(eps w - I) and the sign: 422 strata, of which 22 hold both a firing and a silent manifold, the smallest G = Z/12, sign -, holding m369 (eight backgrounds) and o9_00001 (none). So no function of G and the sign decides own-level firing -- the SM seat's sm:B1518 claim, re-derived here; its further claims (trace, symmetry order, reversal class; the torsion predicts without deciding) read, not re-derived. L229 (i) refined. THE BAR of sm:B1518 -- card, base rate in a named unit, comparable objects, selection and trials, B614's gate at 0.01; grades DERIVED, REPRODUCED, FITTED, UNJUDGED -- adopted on main for the class-index frame as docs/THE_BAR.md; GENESIS v1.4 points to it. The README's state section rewritten from GENESIS. Nothing selects a state. 0 of 19.  
+`B1458_the_bar_adopted_and_the_own_level_law/FINDINGS.md`
 
 **NEGATIVE — `B1455`** (2261 words, 0 locks)  
 THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric potential whose minima are not mirror-symmetric?). NEGATIVE, the registered kill, scoped to the frame F-HE on m004's harmonic family at level one: the vacuum does not select a handedness there. THREE LINES THE TEST TURNS ON: the class index is unchanged by pulling back along any symmetry of the manifold, mirrors included (L1), and changes sign under dualising (L2); so a module with V* isomorphic to sigma^* V has index zero (L3), and the count-odd symmetries are a symmetry followed by dualising. THE TEST, by two routes with no shared code (characters on 2046 words in exact rationals; intertwiners, symbolic in q): on Ballas' family the dual of the vacuum at q is the vacuum at 1/q, and inverting both generators does the same, so inversion-then-dual fixes every vacuum, for every q > 0 and every central twist. HENCE every reductive module made from rho_q has class index zero -- a proof, not a census. The counts of +-1 found by the seats sit on non-split extensions, which no count-odd symmetry fixes and which are not minima (the audit lane's R76, read). ONE SEALED PREDICTION FAILED: only four of the eight signed permutations of the generators are automorphisms and all four preserve orientation; the mirrors were found after the seal by search (152 maps) and fall in two classes -- those keeping the longitude fix every vacuum, those inverting it exchange q and 1/q -- so the eight symmetries act on the family through one bit, which is the same as dualising. TWO CORRECTIONS TO THE RULE AS WORDED: the counted configuration is itself fixed by a bare mirror and counts -1 (60 digits; an invertible intertwiner), so 'symmetric under the mirror gives zero' is false for the geometric mirror and true for symmetry-plus-dual; and half the symmetries are broken by every vacuum off the hyperbolic point without any count being broken. The audit lane's open checkbox (base isometry plus duality) is paid. The handoff's side claims recompute (the Sturmian identity at nine intercepts; no surjection of m004's group onto SL(2,5), 1440 for m202). Silent on other states, frames, sources, ends and on selection by a relation. 0 of 19.  

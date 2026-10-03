@@ -1,0 +1,23 @@
+{
+ "id": "B1458",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1439",
+  "B1434",
+  "B1456",
+  "B1454"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI",
+  "object": "the 536 manifolds of the word states to length twelve, at their own level",
+  "reach": "class",
+  "hypotheses": "main's census (B1439) read by manifold; the stratification by the fibre torsion's group and the sign; the bar's grades as adopted"
+ },
+ "claim_one_line": "THE BAR ADOPTED, AND WHAT THE OWN-LEVEL LAW IS NOT. On main's own census read by manifold (536; 87 carry a generation-shaped background at their own level, every reversal pair agreeing), stratified by the fibre torsion's group G = coker(eps w - I) and the sign: 422 strata, of which 22 hold both a firing and a silent manifold, the smallest G = Z/12, sign -, holding m369 (eight backgrounds) and o9_00001 (none). So no function of G and the sign decides own-level firing -- the SM seat's sm:B1518 claim, re-derived here; its further claims (trace, symmetry order, reversal class; the torsion predicts without deciding) read, not re-derived. L229 (i) refined. THE BAR of sm:B1518 -- card, base rate in a named unit, comparable objects, selection and trials, B614's gate at 0.01; grades DERIVED, REPRODUCED, FITTED, UNJUDGED -- adopted on main for the class-index frame as docs/THE_BAR.md; GENESIS v1.4 points to it. The README's state section rewritten from GENESIS. Nothing selects a state. 0 of 19."
+}

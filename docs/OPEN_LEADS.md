@@ -3235,8 +3235,9 @@ GENESIS v1.1 is on main, verified and gated. What the lock still owes (`docs/THE
 - **(a) The scope tags of the arcs before B1454**, the NEGATIVE ones first (about 400; 168 of them in B1–B500, already
   sorted by subject in `docs/EARLY_RECORD_INDEX.md`). Until then a negative read from an old arc must be given its
   frame and object by the reader.
-- **(b) The README's state section** is annotated, not rewritten against GENESIS. **(c) `docs/THE_CLAIM.md`** is
-  annotated, not brought up to B1234 and B1323, nor restated as the frame F-MC with its reach.
+- **(b) The README's state section** — **PAID 2026-10-03 (B1458):** rewritten from GENESIS v1.4; the section of 2026-08-22
+  kept beneath it as written. **(c) `docs/THE_CLAIM.md`** is annotated, not brought up to B1234 and B1323, nor
+  restated as the frame F-MC with its reach.
 - **(d) F-MC has been run on the root only.** On any other state — a level, a class member, m000 — it is not computed.
 - **(e) The forks with a computation behind them:** FK2 and FK3 (m000 in any frame; what dropping the orientation
   choice breaks, B1234's open question); FK5 (an observable that needs word order: the fibre's commutator trace is
@@ -3320,9 +3321,8 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   on a detector of a symbol's presence, which an inserted factor r − I at r = I flips with the dynamics unchanged;
   B130's empty global elimination at m = 2 cannot by itself exclude isolated components (its countermodel: x(x − 1) = 0,
   x·k = 0). **Owed:** each checked on main and, if it holds, carried into the arc as an addendum.
-- **(b) The SM seat's bar** (sm:B1518; its THE_BAR page): a null model and a grading for any positive on a generated
-  state; "no criterion in the fibre torsion and the sign decides own-level firing" on main's census. **Owed:** the
-  null model re-derived on main's census data, and the page harvested or answered.
+- **(b) The SM seat's bar** — **PAID 2026-10-03 (B1458):** adopted on main as `docs/THE_BAR.md`; its census claim re-derived
+  by manifold and group structure (22 mixed strata; m369 against o9_00001). Its instrument stays on its branch.
 - **(c) The audit lane's R79** (markings and slopes: a numeric slope held fixed while the lift changes can change
   whether flat data descend). Bears on L241 (b), an instrument that keeps the marking. **Owed:** read by main itself.
 - **(d) The boundary-table relay of 2026-09-16** (held on the lane, rowed at B1457): the three counts on the two-ended
@@ -3334,10 +3334,8 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
   gate at B1456): a re-audit of B1304–B1513 under B1214's rule — 14 laws declared, 18 decisions — that edits the
   verdict files of some of main's own arcs (B1115–B1145 among them) and the theorem registry. **Owed:** each decision
   read on main and applied or declined.
-- **(g) The SM seat's question:** does main adopt its bar for the class-index frame, or amend it? Its relay also says
-  that on main's census no function of the fibre torsion, the sign, the trace, the symmetry order or the reversal
-  class decides own-level firing — 22 strata each hold a firing and a silent manifold, the smallest pair m369 and
-  o9_00001. **Owed:** that pair checked on main, and an answer.
+- **(g) The SM seat's question** — **ANSWERED 2026-10-03 (B1458):** adopted, unamended, for the class-index frame. The pair
+  m369 / o9_00001 checked on main: both G = ℤ/12, sign −; eight backgrounds against none.
 
 ## ⟳ VIEW REFRESH — 2026-10-02 (Review 58)
 

@@ -88,6 +88,8 @@ negatives are scope-tagged in Stage 5 with the rest.
   FK12. **Stage 1's lane work is done for the two active seats:** the SM seat is read through sm:B1520 and codex's
   audit lane through R80 (B1457), which is where the record's sourced counts on objects other than the root live.
   The owner's measurer question is the standing lead L241. Remaining: L240 (propagation), L242, L243.
+- **2026-10-03, S41 (B1458).** Stage 5: the README's state section rewritten from GENESIS v1.4; the SM seat's bar adopted
+  on main (every positive on a generated state is graded); the own-level law refined on main's own data.
 - **Still Stage 1:** codex's two lanes and the sep16 lane (harvests that age on 2026-10-09 and 10-12), the audit
   lane's same-day genesis reconciliation (unread on main), the web-seat handoffs.
 

@@ -1,5 +1,9 @@
 # Origin Axiom
 
+> **State — 2026-10-03 (B1458).** The foundations are stated once, in `GENESIS.md` (v1.4), and three seats work from it; the
+> root's own vacua carry no handedness by proof, and the counts on record wait for a source that nothing yet derives. The
+> section "The state of the programme" below is current; the two older blocks that follow are kept as written.
+
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The window (B1201–B1218) is the one where **the record audited itself**. A sweep of the live surfaces found **seven banked results being asserted as open** — the A2 stratum, the hypercharge direction and the spin lift all priced *free* against arcs that had assigned them; L175 counted open on two surfaces against a PROVED closure; L57 asserting a question a NEGATIVE had answered. **≈8.5 bits of phantom freedom removed, and the discrete freedom ledger closes to exactly {C, P}** — two relational bits, neither a selection from a menu. New error class **E53 (surface non-propagation)**; new instrument `scripts/checks/open_claim_sweep.py`. Suite 5745 green.
 
 > **State — Review 50 (2026-08-27), head B1173.** The window closed the gravity thread two-seat (**B1165 GENERIC-RHYME** — the observer's archimedean closing is co-located with, not identical to, the object's gravitational sector), made the object/observer boundary **decidable** (**B1168, the mirror-parity law**: object-canonical iff mirror-even ∧ dimensionless), gave the adelic observer its **mechanism** (the orbit-escape pair, B1171), named the qualia "choice" as the mirror-odd orientation (B1169), and **rescoped the anomaly forcing as arena-generic** (B1170: "the object supplies the arena; the anomalies supply the content" — B1160 strengthened). SEAM-A stands as *walled-on-forcing / INDETERMINATE-on-sealing* (Gate 2 NEEDS-SPECIALIST). Structure forced; values disjoint (five routes); dynamics generic; the closing observer-supplied — now with the boundary drawn by a law, not a preference.
@@ -17,7 +21,43 @@ nothing cannot complete.
 
 ---
 
-## The state of the programme (as of B1134, 2026-08-22)
+## The state of the programme (as of B1458, 2026-10-03)
+
+**One page states the foundations: [`GENESIS.md`](GENESIS.md) (v1.4), shared by the three working seats.** It replaces
+the scattered statements of the axioms; the older pages keep their proofs and point to it. In its terms:
+
+- **The principle** has three faces (PF1–PF3): existence as what remains when cancelling to nothing cannot complete; the
+  remainder as an inexhaustible description; the decision to read it as mathematical structure. One wording is proposed
+  and awaits the owner (fork FK1). Its mathematical form in the record is κ = tr[a, b] ≠ 2 — a reading, not a derivation.
+- **The grammar** (GM1–GM5d): two integer records, the unit shears L and R, an aperiodic word, realised on the
+  once-punctured torus. Whether the record swap and the inverse moves are legal moves is open (FK3, FK4).
+- **The generated state space**: signed cyclic words in L and R. To length twelve there are 758 word states, which are
+  **536 manifolds** (a word and its reverse are one); each has levels (its cyclic covers) and signed powers. **The root**,
+  m004, the figure-eight knot complement, is selected from four inputs, each shown to be needed: aperiodicity, the
+  carrier, torsion-free first homology (a postulated criterion, which selects exactly m004 and the Gieseking manifold)
+  and orientation (a choice). Minimality, positivity and the order of the letters are not needed for the root.
+- **Five frames turn geometry into particle language, and every one is a hypothesis.** The McKay cascade (F-MC) is
+  main's oldest: from the root's trace field ℚ(√−3) through 2T and E₆ to the Standard Model's gauge algebra, its global
+  form and the hypercharge direction, one theorem with a counted hypothesis list (`docs/THE_CLAIM.md` §1), run on the
+  root only. The class index (F-CI) counts generation-shaped backgrounds: 87 of the 536 manifolds carry one at their
+  own level, one count per rank-two sector by the slope law, zero at every irreducible point computed. The harmonic
+  E₈ frame (F-HE), the free-cusp frame and the G₂ apex frame are the SM seat's and the audit lane's.
+- **What a count needs** (GENESIS GAP3, from the audit lane's records): an *order* of the two pieces of a non-split
+  module, an *open end*, and a *source or a flux of the right sign*. The vacua of the root's own family count zero, by
+  proof: every one is fixed by a symmetry under which the count is odd (B1455; independently sm:B1520). The counts the
+  record holds sit on non-split configurations — on m010, on the two-ended m202, on a coefficient induced from a
+  cover — and each waits for a source that no report derives.
+- **A negative blocks only where its scope reaches.** Every arc from B1454 on carries a scope tag (frame, object, reach,
+  hypotheses). The record's eight walls on the root pass through its amphichirality, which the orientation choice
+  forces (B1234): they are statements about that choice, not about the architecture.
+- **Open:** five gaps (the dictionary, the ends, the source, selection and coincidence, dynamics) and twelve forks,
+  FK12 being the owner's question whether the observer's closings belong to the genesis. A positive on any state is
+  graded against [`docs/THE_BAR.md`](docs/THE_BAR.md). **Derived Standard-Model parameters: 0 of 19.**
+
+The paragraphs below are the state as it was written on 2026-08-22, kept for the record; where they and GENESIS
+disagree, GENESIS holds.
+
+## The state as it was written at B1134 (2026-08-22)
 
 > **Foundations: `GENESIS.md` is canonical (v1.1, 2026-10-02, B1454).** The paragraph below predates it in two respects.
 > (1) The genesis's output is a **generated state space** with the figure-eight complement as its **root**, not "a single

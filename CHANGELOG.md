@@ -1,5 +1,19 @@
 # Changelog
 
+## S41 THE BAR, AND THE README AS GENESIS STATES IT: no function of the fibre torsion's group and the sign decides which states fire — 22 strata on main's census hold both kinds, the smallest m369 against o9_00001 — the SM seat's bar for any positive adopted on main, and the README's state section rewritten from the canonical page
+
+**The occasion.** The SM seat asked whether main adopts its bar — a grading for any positive on a generated state — and reported that on main's census no function of the fibre torsion and the sign decides which states fire at their own level. Both were owed an answer (lead L243). And the README's state section still read as it was written on 2026-08-22, two labelings and a reframe ago.
+
+**The own-level law, on main's own data (B1458).** The census read by manifold (536; 87 carry a generation-shaped background at their own level, every reversal pair agreeing) and stratified by the fibre torsion's group and the sign has 422 strata, **22 of which hold both a firing and a silent manifold; the smallest is ℤ/12 with sign −, holding m369 with eight backgrounds and o9_00001 with none.** The seat's numbers exactly. So no rule in those variables exists; a law, if there is one, reads the word within its trace. Lead L229 (i) is refined from "none found" to "none in these variables".
+
+**The bar.** Adopted, unamended, for the class-index frame: a card, the base rate in a named unit, the comparable objects, selection and trials, and the record's own gate at p < 0.01; grades DERIVED, REPRODUCED, FITTED and UNJUDGED. Applied as the seat applies it, the root's levels are REPRODUCED, m369 and s639 would be FITTED if presented as evidence, and the harmonic frame's counts are UNJUDGED. GENESIS v1.4 points to it.
+
+**The README.** Its state section is rewritten from GENESIS v1.4 — the principle, the grammar, the 536 manifolds and the root's four inputs, the five frames as hypotheses, what a count needs, that a negative blocks only where its scope reaches, the open gaps and forks — with the section of 2026-08-22 kept beneath it as written. Lead L240 (b) is paid.
+
+**What it means.** Nothing selects a state, and the day's grading says so in the record's own currency: every own-level positive on the record is a census member or a reproduced rate, none is derived. **The imported expectation, stated separately:** that a law reading the word within its trace exists. It is not computed. **0 of 19.**
+
+Arc **B1458** (PROVED). Leads: L229 (i) refined; L240 (b), L243 (b), (g) paid. GENESIS v1.4. Relay to the SM seat. Gates 36 of 36; full suite 6967 passed, 0 failed, 68 skipped.
+
 ## S40 WHAT A COUNT NEEDS: codex's lane harvested from R32 to R80 and the SM seat's GENESIS v1.2 verified and adopted as v1.3 — an order of the pieces, an open end, and a source or a flux of the right sign; the root's vacua count zero and the counts on record sit on other objects and wait for a source; 758 word states are 536 manifolds
 
 **The occasion.** After the deciding test landed the owner asked: *"did u check for vacua only on the math from m004 or all allowed relations? the reframe we did… what does conditional vacua from codex seat tells us about potential source in other objects"*. The answer to the first was no: B1455 is about m004's own vacuum family and says so. The second could not be answered without reading codex's lane, which main had read only through its R31. The same hours brought four new relays from that lane and four new arcs from the SM seat, a GENESIS v1.2 among them.

@@ -1,0 +1,11 @@
+  B950    PROVED    THE SM SPECIFICATION LEDGER (owner directive: we do not yet fully understand the SM as today's science understands it, in order to know what our side should provide). PRI
+  B951    PROVED    L132 SCOUTED BEFORE COMPUTING (the seal-provenance gate's design-time prior-art grep, run at literature scale). VERDICT: the cell as posed would have produced a VACUOUS c
+  B959    NEGATIVE  L133 -- OUTCOME NO-GO (simply connected form) against a criterion sealed and pushed (4c3c4775) BEFORE any cell ran, with the prior disclosed as NO-GO and FOUND named as t
+  B968    PROVED    THE SM VERDICT CRYSTALLISED (owner directive, before the programme turns to cosmology, gravity and other unexplained phenomena). docs/THE_SM_VERDICT.md supersedes every s
+  B985    PROVED    CC3-S RELATIONAL BATCH VERIFIED AND INTEGRATED (integrate-don-t-merge; nothing merged, load-bearing numbers re-derived on this bench first). CC3-S ONE FINDING, a MEASUREM
+  B986    NEGATIVE  THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAYS OPEN, the attempt failing on the INSTRUMENT not on the object. cc3's sweep surfa
+  B993    PROVED    THE CORNERSTONE VERIFIED ON THIS BENCH: THE OBJECT-SPECIFIC ATOM IS GENERIC AT ROUGHLY 1 IN 3. cc3-s cornerstone synthesis returns NOT YET -- and not for want of theorems
+  B994    PROVED    THE RULE-VARIATION TEST, NEVER ASKED BEFORE (B869 varied the STARTING GROUP, not the rule), RUN HERE -- AND THE ENDPOINT IS RULE-INDEPENDENT WHILE THE PATH IS NOT. Regist
+  B995    NEGATIVE  THE SEPARATING-AND-RARE CENSUS: SEALED OUTCOME A, AND THE INSTRUMENT VOIDED BY ITS OWN CONTROL. Prereg a356e987 sealed AND PUSHED before compute with the declared prior O
+  B997    PROVED    THE GOLDEN IS THE UNIQUE METALLIC GRAMMAR WHOSE OWN-CONDUCTOR SHADOW IS A McKAY GROUP -- proved, over an infinite family, at Tier 1, at the E8 end. P0: computes over the 
+VERDICT topic-sweep /null model|look-elsewhere|base rate|FITTED|REPRODUCED|what would count/: 114 of 1330 arcs on main match (NEGATIVE 23, OPEN 9, PROVED 82)

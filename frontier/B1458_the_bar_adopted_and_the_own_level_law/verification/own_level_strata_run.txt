@@ -1,0 +1,10 @@
+manifolds 536
+firing_manifolds 87
+pairs_agree True
+strata 422
+mixed_strata 22
+mixed_list [("((1, 12), '-')", 1, 1), ("((1, 15), '-')", 1, 1), ("((1, 20), '+')", 1, 2), ("((1, 24), '+')", 1, 2), ("((1, 24), '-')", 1, 2), ("((1, 28), '+')", 1, 1), ("((1, 28), '-')", 1, 2), ("((1, 35), '+')", 1, 1)]
+smallest_mixed {'stratum': "((1, 12), '-')", 'firing': '-LLRLR', 'silent': '-LLLLLLLLR'}
+m369 {'G': '(1, 12)', 'backgrounds': 8}
+o9_00001 {'G': '(1, 12)', 'backgrounds': 0}
+VERDICT own-level-strata: PASS

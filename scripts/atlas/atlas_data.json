@@ -9402,6 +9402,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1458": {
+   "slug": "the bar adopted and the own level law",
+   "motifs": [
+    "monoid",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B614",
+    "L229",
+    "L240"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B145": {
    "slug": "forced chirality",
    "motifs": [
