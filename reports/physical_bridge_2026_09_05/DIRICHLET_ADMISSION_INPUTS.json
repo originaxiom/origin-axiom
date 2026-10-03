@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "audit": "R81",
+  "baseline": "24c039c83b69c8382f292147f734a28c36e07728",
+  "main_head": "d2a95da484c87ceedf5f335a32bd2ea42065f910",
+  "sm_head": "f1b4587f019ea1601dcd39eb258156daee53d926",
+  "dependencies": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2",
+      "bytes": 6559
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_PROOF.md",
+      "sha256": "519f22e2efc268700e4514f19f88b278e584451adbca2e8562269ff2c331fc5e",
+      "bytes": 4665
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES.md",
+      "sha256": "1f1fd31d4a11c019f8e1c3d10e780a580b0c09e5bb3fdc73eb54e73474bcd8cd",
+      "bytes": 9778
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+      "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685",
+      "bytes": 9845
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md",
+      "sha256": "60133ab411d768ddad0f525b58743128d6ecfebcc021615760d6f8fc91ac9c2c",
+      "bytes": 7053
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "sha256": "d94b4c68d16b244ee5140687e394c101846044afbda7851dee60e4268bffe756",
+      "bytes": 7864
+    }
+  ],
+  "literature": {
+    "url": "https://arxiv.org/pdf/2109.01776v1",
+    "pdf_sha256": "85102039003f3d00250f957f36e75e3fa2804e2c5a815205371577326a279111",
+    "pdf_bytes": 348137,
+    "extracted_text_sha256": "0e577153db16971b15527652bf6706262dc26057889087e62bd657e77708a56f",
+    "pages": 29,
+    "reading": "all pages personally; proof pages12-13 visually checked",
+    "adopted": "Proposition3.3 with connected nonempty-boundary hypothesis",
+    "published_body_read": false
+  },
+  "scope": "supplied-action compact boundary admission; no new index or computed W metric"
+}
