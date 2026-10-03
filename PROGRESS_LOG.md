@@ -16659,3 +16659,30 @@ end law and full spectrum duty retained; no new census computed.
 Full SM/TOE remains unachieved. Interface tracker reported usageLimited;
 explicit owner continuation authorizes scoped work, not an unattended
 automation promise. Sender reply publication is not recipient acceptance.
+
+## 2026-10-03 — audit R81: global compact-boundary admission, not physical selection
+
+Science seal996762c8 pushed/server-confirmed before first unchanged28
+symbolic/65 separate rational controls and22 focused tests (10 new,12
+R80). All29 pages Wu--Zhang2109.01776v1 personally read; proof pp12--13
+visually checked. Proposition3.3 supplies a harmonic metric for the
+actual nonsplit rank-five W on each compact cusp truncation with smooth
+supplied positive determinant-one boundary datum. Flat and real-moment
+residuals vanish in the supplied bare action; strictly negative outward
+projector flux pays its nonsplit balance. Exact periodic-L comparator
+is genuinely globally nonsplit, unlike R80's splitable interval control.
+No numeric W metric or new cohomology computed. R41's earlier Dirichlet
+exploration and R66's incomplete nilpotent-cone positive credited.
+
+Physical boundary/scale/action selection and fermionic domain remain
+supplied/unearned. Finite-boundary existence is non-discriminating in K;
+complete finite-energy boundaryless limit and globally invariant glued
+models retain their scoped obstruction. A generated relation must carry
+both currents and exhibit any change of global invariant subbundle,
+sources or domain before a physical count is transported. No observer,
+qualia, physical chirality or full SM/TOE derived. Direct new main/SM
+relays personally read; GAP3/statistical-null replies received as reported,
+not foreign producer certification. Governance26 PASS/four historical
+failing categories, review-due297; no waiver/full-suite/main bank. Report
+DIRICHLET_ADMISSION.md with seal, source pins, raw command receipts and
+custody checker. Full objective unchanged; scheduler usageLimited.

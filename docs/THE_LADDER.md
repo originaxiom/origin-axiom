@@ -1,5 +1,21 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**October3 R81: compact-boundary admission is positive; physical selection remains open.**
+The actual R75 nonsplit rank-five coefficient admits a harmonic metric on
+any smooth compact truncation with supplied positive determinant-one
+boundary data, by Wu--Zhang Proposition3.3 (full29-page preprint personally
+read). Both residuals vanish in the supplied bare action; its negative
+outward projector flux is retained. A genuinely globally nonsplit torus
+comparator passes28 symbolic/65 separate rational checks and22 focused
+tests (10 new,12 R80) unchanged after science seal996762c8 was pushed and
+confirmed. No explicit W PDE metric, selected boundary, physical chirality,
+observer or TOE is derived. Complete finite-energy boundaryless limits
+and globally invariant glued models retain their scoped obstruction.
+Next earn the generated boundary/relation and BOTH current/profile
+variations, then the same-model physical spectrum/anomalies. See
+reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION.md. Nonauthor
+analytic review/full-suite/main-bank acceptance remain pending.
+
 **Current October2 R80: source profile direction tested, not physics completed.**
 For the supplied nonsplit flat coefficient and positive adjoint-source
 coupling, a boundaryless finite-energy zero-D completion needs sources

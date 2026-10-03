@@ -1682,3 +1682,19 @@ Same-author independent implementations; analytic review remains separate.
 | `reports/physical_bridge_2026_09_05/source_profile.py` | `6efcd44c6be0449afdda2d6f58da543d589173fc676a3baa0c7c1e6db580a7cd` |
 | `reports/physical_bridge_2026_09_05/source_profile_control.py` | `fbb927f80da08f7c87b80641f008ecf637d7c7215e5eeb1b29afad9e63859bd5` |
 | `tests/test_physical_bridge_source_profile.py` | `7731393db2ec804713081d7e71ac9d90ee17d5a0d6272f3b7805bd478a595067` |
+
+## R81 compact-boundary admission, 2026-10-03
+
+Science996762c8d7276fa6cecd045ebbce32f278217903 was pushed and confirmed
+before first execution. Six paths unchanged through28/65 controls and22
+focused tests. Credited analytic theorem/application is not independently
+certified by these finite tests; no full-suite/main-bank certificate.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_DESIGN.md` | `78b786d2b625c6fc5d7ce51bf7c5ff5d2d7f1e586785d3c6d0674b69a7feefba` |
+| `reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_PROOF.md` | `ed6f831f72a10868ca527a615910fd3cff127dd8cb5000a33779eccdcdcbba44` |
+| `reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_INPUTS.json` | `7e9d267ed48c58bf7c046b5d2121a210a91f9bde6994ac509cdfc7fc2edebc43` |
+| `reports/physical_bridge_2026_09_05/dirichlet_admission.py` | `eb4d92ac64c3b72c70bd68d58b7946b4c317e78f8da1bc0a5fa83ca513f8fa03` |
+| `reports/physical_bridge_2026_09_05/dirichlet_admission_control.py` | `01819b51486cd346aa78641c92ca10872caa5709e5b36e8aa9981e7d4bccc677` |
+| `tests/test_physical_bridge_dirichlet_admission.py` | `ce737464b2319f19f9244fb035f2f4bbe794992a9b2d5ab733303717b2595173` |

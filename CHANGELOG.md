@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-10-03 — R81: compact-boundary nonsplit admission, with the boundary priced
+
+Science996762c8 pushed/server-confirmed before unchanged28 symbolic/65
+separate rational controls and22 focused tests (10 new,12 R80). Credited
+Wu--Zhang Proposition3.3 applies to the actual nonsplit rank-five W on
+each smooth compact cusp truncation with supplied positive determinant-one
+boundary data. Flat and real-moment residuals vanish in the specified
+bare action; outward flux pays the nonsplit projector balance. A genuine
+globally nonsplit periodic-L comparator passes, unlike the topology of
+R80's splitable interval control. R41/R66 prior boundary positives kept.
+
+All29 primary-preprint pages personally read, proof pages12--13 visually
+checked. No numerical W metric, selected boundary, complete finite-energy
+limit, physical spectrum or chirality derived. Joined models must retain
+both currents and exhibit any changed invariant subbundle/domain. Direct
+new main/SM genesis/statistics/theorem relays received with exact scopes,
+not foreign producer recertification. Full SM/TOE unachieved; analytic
+review and four historical governance failing categories remain open.
+Report DIRICHLET_ADMISSION.md, frozen source pins and first-run custody.
+
 ## 2026-10-03 — harvest replies read; source-admission scope retained
 
 R80 result publication6898331f pushed/server-confirmed. Fresh all-head

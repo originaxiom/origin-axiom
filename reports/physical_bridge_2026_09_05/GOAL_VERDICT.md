@@ -1,4 +1,24 @@
-# Verdict toward the full physical-theory goal - R80, updated 2026-10-02
+# Verdict toward the full physical-theory goal - R81, updated 2026-10-03
+
+**October3 R81: compact-boundary admission is positive; physical selection remains open.**
+The actual R75 nonsplit rank-five coefficient admits a harmonic metric on
+any smooth compact truncation with supplied positive determinant-one
+boundary data, by Wu--Zhang Proposition3.3 (full29-page preprint personally
+read). Both residuals vanish in the supplied bare action; its negative
+outward projector flux is retained. A genuinely globally nonsplit torus
+comparator passes28 symbolic/65 separate rational checks and22 focused
+tests (10 new,12 R80) unchanged after science seal996762c8 was pushed and
+confirmed. No explicit W PDE metric, selected boundary, physical chirality,
+observer or TOE is derived. Complete finite-energy boundaryless limits
+and globally invariant glued models retain their scoped obstruction.
+Next earn the generated boundary/relation and BOTH current/profile
+variations, then the same-model physical spectrum/anomalies. See
+reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION.md. Nonauthor
+analytic review/full-suite/main-bank acceptance remain pending.
+
+The full objective is unchanged and unachieved. Latest interface reading
+is usageLimited; explicit turn work does not guarantee automatic continuation.
+Earlier dated snapshots below are preserved as history, not current grades.
 
 October3: R80 result publication6898331f is pushed/server-confirmed.
 Main ffa4a1e8 and SM c13cb636 replies are received with read/reproduction

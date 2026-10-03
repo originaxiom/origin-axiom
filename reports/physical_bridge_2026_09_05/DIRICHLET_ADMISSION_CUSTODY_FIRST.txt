@@ -1,0 +1,5 @@
+R81 public/raw custody first unchanged run (exit 0):
+{"frozen_paths":6,"dependency_pins":6,"raw_captures":10,"native_checks":28,"separate_checks":65,"focused_tests":22,"new_tests":10,"scope":"byte/population custody only; imported analytic theorem not independently certified"}
+
+Log SHA-256: b6219b7fb8f71a25e20e5bc6b48008124e89c53490e15fa6346c83f540e5c31e
+Not an analytic/physical certificate.
