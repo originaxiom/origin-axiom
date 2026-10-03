@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1271** |
-| words of findings prose | **1,062,766** |
-| test lock files referenced | **774** |
-| arcs carrying an authored verdict | **1271** (100.0 %) |
+| research arcs with findings | **1272** |
+| words of findings prose | **1,064,921** |
+| test lock files referenced | **775** |
+| arcs carrying an authored verdict | **1272** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 845 |
+| PROVED | 846 |
 | NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1523`** (3215 words, 0 locks)  
-THE FLEXIBLE STATES, run as sealed (c13cb636; 3 610 s; sL-10 item 6, its criterion corrected before the seal): every one of the 536 manifolds of the 758 word states to length 12 is infinitesimally projectively rigid rel cusp (both routes; kept singular values >= 2.9e-7 against dropped <= 2.4e-46), so each carries a one-parameter family of convex projective structures at its hyperbolic point (BDL, Ballas); the fibre boundary is a rigid slope on all 536, so by Lemma R (an orientation-reversing isometry acts on H^1(P; v) as a reflection, eps = -1 iff it inverts the fibre boundary XOR the fibre boundary is not rigid; the figure-eight case is Heusener-Porti Lemma 8.2, Ballas Lemma 6.2(2)) main's one-bit rule holds on every word state; the mirror-broken flexible states are exactly the 262 manifolds (482 states, 131 per sign) with no longitude-inverting isometry, the 220 chiral and the 42 swaprev-only, first +-LLRLRR at length 6; golden: exactly +-L4RL3R2 and +-L4RLR3LR2; Lemma S's 60-degree coset on all, after the run its non-rigid slopes only on the 66 reflective manifolds, all at 30 + 60Z. P1-P9 YES (expected 7.1 of 9). X1, after the seal: route F, which rebuilds each bundle as F2 semidirect Z from its word and reads it with its own modules, cocycles and ranks, read all 536 manifolds and agrees with the census on every one. Its fixed point was located from SnapPy's holonomy; on 66 of the manifolds it was also found with no SnapPy holonomy at all, with identical readings. creates_law (Lemma R, Lemma S). Registered: sL-10 item 8 (the class index on a mirror-broken family, sealed first). I-26 stays UNEARNED. 0 of 19.  
-`B1523_the_flexible_states/FINDINGS.md`
+**PROVED — `B1524`** (2155 words, 1 locks)  
+THE BAR'S NULL CONTRACT (not sealed; the audit lane's request at 24c039c8): the bar's p now has a stated law. Under the census's own law (carriers placed exchangeably in a stratum, independently of the fixed rule) the exact p is (k+1)/(n+1), and the bar's r is at least that for every k <= n <= 2000, so p = r is conservative; under an i.i.d. law its gate has size <= alpha (0.0037 at 0.01, n <= 2000). A binomial interval certifies nothing beyond the census. The scan's binomial understates p and is replaced by the hypergeometric law; Sidak over looks fails at the gate (two picks in one stratum of 399 with 2 carriers: size 0.0100125) and is replaced by Bonferroni or the exact joint law. The top grade is renamed PASSED, a rarity screen, necessary and never sufficient for WHAT_WOULD_COUNT's DERIVED, never a physical admission. No grade on the record changes: B1518's T2 YES and T3 NO and its FITTED (0.9857 -> 0.9871) stand, and no positive was ever graded DERIVED. E31 instance, caught by the audit lane. 0 of 19.  
+`B1524_the_bars_null_contract/FINDINGS.md`
 
 **NEGATIVE — `B1520`** (2789 words, 1 locks)  
 THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  

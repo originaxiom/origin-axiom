@@ -3717,6 +3717,9 @@ before it is computed.
    are one manifold, so main's 95 of 758 is 87 of 536 per manifold. Main's census splits no pair. Reversal-closed states fire far
    more often than paired ones: at lengths 7 to 12, 77 of 290 against 16 of 444. The null model must say whether it samples
    words or manifolds, and must take reversal symmetry as an input; the split is descriptive, not a finding.
+   *Amended 2026-10-03 (B1524, the null contract; the audit lane's request).* The bar's p now has a stated law: under the census's
+   own law r is conservative, the scan uses the exact (hypergeometric) law, looks are corrected by Bonferroni, and the top grade
+   is PASSED, a rarity screen and not a derivation. No grade on the record changed.
    *Banked 2026-10-02 as B1518 (PROVED; sealed at 697217be).* The bar is `docs/THE_BAR.md`. On main's census, own-level firing (87 of 536 manifolds) is not decided by the fibre torsion with the monodromy's sign. m369 and o9_00001 share ℤ/12, the sign and the trace; one carries 8 backgrounds and the other none, recomputed by an independent route. The fibre torsion predicts firing (AUC 0.86). Reversal symmetry is not established beyond it (p = 0.022 against the 0.01 gate). **Leads:**
    (a) GENESIS v1.2 points GAP4 to the bar (the next arc, with R78 and main's eighteen records); *done 2026-10-02, B1519: v1.2
        is built on main's v1.1 (which already cites the eighteen), places R78's signed powers, and registers GENESIS FK12, the

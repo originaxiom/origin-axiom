@@ -17094,3 +17094,21 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   E54 (Lemma R's prior art beside the remark the seal read; standing EXTENDS), E12 (the lock's precision, before the commit) and
   E11 (a draft's first-missed word, retyped instead of copied from the record; before the commit).
   OPEN_LEADS sL-10 item 6 banked, item 8 registered. The relay to main; main's and the audit lane's four new relays rowed.
+
+## 2026-10-03 — B1524 banked: the bar's null contract (the audit lane's request)
+
+- **The question** (the audit lane, `24c039c8`): under which law is the bar's p a probability?
+  - Binomial coverage against a finite census.
+  - The fixed-rule selector's null law.
+  - A dependence law for the Šidák step.
+  - Rarity kept apart from derivation and admission.
+- **The answer, checked with own code** (`null_contract.py`, 168 s, all checks pass). Not sealed: no frame, state or census outcome
+  is computed.
+  - Under the census's own law the exact p is (k + 1)/(n + 1), and r is at least that for every k ≤ n ≤ 2000. Under an i.i.d. law
+    the 0.01 gate has size ≤ 0.0037. Neither licenses extrapolation beyond the census.
+  - The scan's binomial understated p, and the hypergeometric law replaces it.
+  - Šidák fails at the gate (399 units, 2 carriers: 0.0100125). Bonferroni replaces it.
+  - The top grade becomes PASSED, a rarity screen.
+- **No grade moved:** B1518's T2 and T3, its FITTED (0.9871 exact) and the root's REPRODUCED levels stand.
+- **Records.** THE_BAR and PRACTICES amended; E31 instance credited to the audit lane; relay to the audit lane and main, rowed. 0 of
+  19.

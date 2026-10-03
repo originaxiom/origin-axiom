@@ -1,0 +1,128 @@
+{
+ "id": "B1524",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1518",
+  "B614",
+  "B1458"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "the bar (every frame)",
+  "object": "the null laws of docs/THE_BAR.md: its fixed-rule p = r, its scan formula, its correction over looks and its grade names",
+  "reach": "class",
+  "hypotheses": [
+   "C1, the census's own law: within a stratum the carriers are placed uniformly at random, independently of the fixed rule",
+   "C3, the i.i.d. law: the comparable units and the chosen one i.i.d. Bernoulli(q); checked for n <= 2000 and five levels",
+   "C2 is checked for every k <= n <= 2000 (exact rationals to n = 120); no general theorem is claimed beyond that range",
+   "nothing about any frame, state or census outcome is computed; no grade on the record is recomputed from data"
+  ]
+ },
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "70333665",
+    "origin/main": "77714caf",
+    "origin/audit/physical-bridge-2026-09-05": "24c039c8",
+    "origin/sep16-branch": "3205984b",
+    "origin/art/camper-van-bar": "b3745696",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao": "70333665"
+   },
+   "terms": [
+    "Bonferroni",
+    "Sidak",
+    "\u0160id\u00e1k",
+    "Clopper",
+    "exchangeab",
+    "finite population",
+    "finite-census",
+    "hypergeometric",
+    "positive orthant",
+    "positive dependence",
+    "null law",
+    "stochastic-null",
+    "permutation p-value",
+    "rarity grade"
+   ],
+   "hits": [
+    {
+     "where": "audit lane@24c039c8:reports/physical_bridge_2026_09_05/BRANCH_SYNC_2026_10_03.md and relays/CODEX_TO_CC_AND_SM_2026-10-03_HARVEST_REPLY_AND_ADMISSION_SCOPE.md",
+     "bearing": "the request this arc answers: binomial coverage against exact finite-census fractions, the selector's null law for p = r, a dependence law for Sidak, and rarity kept apart from derivation and admission"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao:frontier/B1518_the_bar (FINDINGS 2, 3.4, 3.5; verification/null_model.py)",
+     "bearing": "the bar as sealed and banked; null_model.sidak's docstring names independent looks; its grades and two sealed decisions are re-read, none changes"
+    },
+    {
+     "where": "main@77714caf:frontier/B1458_the_bar_adopted_and_the_own_level_law (received/THE_BAR_sm.md)",
+     "bearing": "main adopted the bar unamended, DERIVED included; the amendment is relayed for adoption"
+    },
+    {
+     "where": "all heads:frontier/B614_null_model/NULL_MODEL_DESIGN.md; docs/INPUT_COMPLETENESS_LEDGER.md row 7",
+     "bearing": "where the Sidak step and the 0.01 gate come from; neither states a dependence law; B614's own campaign is not re-judged"
+    },
+    {
+     "where": "all heads:docs/WHAT_WOULD_COUNT.md section 3",
+     "bearing": "DERIVED there means the theory outputs it and the framework does not fix it; the bar's top grade is renamed PASSED, necessary but not sufficient for it"
+    },
+    {
+     "where": "all heads (terms 'hypergeometric', 'positive orthant')",
+     "bearing": "absent: the record had no finite-population law for the bar and no dependence condition for its Sidak step"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Sidak 1967 rectangular confidence regions means multivariate normal distributions inequality",
+    "Berger Boos 1994 P values maximized over a confidence set for the nuisance parameter JASA",
+    "Phipson Smyth 2010 permutation p-values should never be zero (b+1)/(m+1) exact",
+    "R binom.test Clopper-Pearson documentation",
+    "Sidak correction; Bonferroni correction (dependence)"
+   ],
+   "sources": [
+    {
+     "cite": "Z. Sidak, Rectangular confidence regions for the means of multivariate normal distributions, JASA 62 (1967) 626-633",
+     "where": "Theorem 1, Corollary 1 (eq. 4), section 3",
+     "read": "2026-10-03",
+     "says": "for a normal vector with zero means and any correlations, P(|X_1| <= c_1, ..., |X_k| <= c_k) >= the product of the marginals: two-sided normal events only"
+    },
+    {
+     "cite": "B. Phipson and G. K. Smyth, Permutation P-values should never be zero, Stat. Appl. Genet. Mol. Biol. 9 (2010) Article 39 (arXiv:1603.05766)",
+     "where": "section 4",
+     "read": "2026-10-03",
+     "says": "under the null the count B is discrete uniform on 0..m, so the exact p-value is (b + 1)/(m + 1)"
+    },
+    {
+     "cite": "A. Vexler, Valid p-values and expectations of p-values revisited (arXiv:2001.05126), stating R. L. Berger and D. D. Boos, JASA 89 (1994) 1012-1016",
+     "where": "section 2, eqs. (2.2)-(2.3)",
+     "read": "2026-10-03",
+     "says": "with a nuisance parameter, the supremum of p over a 1 - beta confidence set plus beta is a valid p-value"
+    },
+    {
+     "cite": "R stats package, binom.test documentation (Clopper and Pearson, Biometrika 26 (1934) 404-413)",
+     "where": "Description; Details",
+     "read": "2026-10-03",
+     "says": "an exact test for the probability of success in a Bernoulli experiment; the Clopper-Pearson interval guarantees a confidence level of at least conf.level"
+    },
+    {
+     "cite": "Wikipedia, Sidak correction; Bonferroni correction",
+     "where": "Sidak: introduction and Usage; Bonferroni: Definition",
+     "read": "2026-10-03",
+     "says": "Sidak is exact for independent tests, conservative for positively and liberal for negatively dependent ones; Bonferroni needs no assumption about dependence"
+    }
+   ]
+  },
+  "standing": "RE-DERIVED"
+ },
+ "claim_one_line": "THE BAR'S NULL CONTRACT (not sealed; the audit lane's request at 24c039c8): the bar's p now has a stated law. Under the census's own law (carriers placed exchangeably in a stratum, independently of the fixed rule) the exact p is (k+1)/(n+1), and the bar's r is at least that for every k <= n <= 2000, so p = r is conservative; under an i.i.d. law its gate has size <= alpha (0.0037 at 0.01, n <= 2000). A binomial interval certifies nothing beyond the census. The scan's binomial understates p and is replaced by the hypergeometric law; Sidak over looks fails at the gate (two picks in one stratum of 399 with 2 carriers: size 0.0100125) and is replaced by Bonferroni or the exact joint law. The top grade is renamed PASSED, a rarity screen, necessary and never sufficient for WHAT_WOULD_COUNT's DERIVED, never a physical admission. No grade on the record changes: B1518's T2 YES and T3 NO and its FITTED (0.9857 -> 0.9871) stand, and no positive was ever graded DERIVED. E31 instance, caught by the audit lane. 0 of 19."
+}

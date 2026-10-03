@@ -66,7 +66,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
 | See the repo first, then the literature: every arc from B1517 records its sweep (each head's sha, the terms, the sources read, a standing), and novelty wording needs a standing that allows it (WORKING_RULES 2026-10-02) | **TESTED** | `tests/test_arc_verdict_schema.py` through `scripts/checks/prior_work.py`'s `validate()`; reading the hits stays MANUAL |
 | One seen-first rule with main's: from B1519 an arc's FINDINGS also carries a "Seen first" section naming the sweep and the literature, in main's form; a subject question is swept with main's topic sweep (WORKING_RULES, the two rules of 2026-10-02 made one) | **GATED** | `seen-first` |
-| The bar: a positive on a generated state is graded against its frame's base rate in a named unit, its comparable objects (the upper exact 95% limit of their rate), how the state was chosen with every look counted, and B614's gate at 0.01; grades DERIVED, REPRODUCED, FITTED, UNJUDGED (B1518) | **MANUAL** | `docs/THE_BAR.md`; the instrument `frontier/B1518_the_bar/verification/null_model.py` (planted controls TESTED in `tests/test_b1518_the_bar.py`) |
+| The bar: a positive on a generated state is graded against its frame's base rate in a named unit, its comparable objects (the upper exact 95% limit of their rate), how the state was chosen with every look counted (Bonferroni; the scan by its exact law), and B614's gate at 0.01; grades PASSED (a rarity screen, not a derivation), REPRODUCED, FITTED, UNJUDGED (B1518; null contract B1524) | **MANUAL** | `docs/THE_BAR.md`; the instrument `frontier/B1518_the_bar/verification/null_model.py` (planted controls TESTED in `tests/test_b1518_the_bar.py`) |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |
 
 ### Verification
@@ -689,9 +689,11 @@ feature somewhere is expected by chance. An arc that reports one on a generated 
 - how the state was chosen;
 - the base rate with its exact interval;
 - the comparable objects' rate (the upper exact 95% limit);
-- the scan's trials and every look, Šidák-corrected.
+- the scan's trials, by the census's exact law, and every look, Bonferroni-corrected.
 
-It then gives the grade at B614's gate (p < 0.01): DERIVED, REPRODUCED, FITTED, or UNJUDGED for a frame without a population run.
+It then gives the grade at B614's gate (p < 0.01): PASSED, REPRODUCED, FITTED, or UNJUDGED for a frame without a population run.
+PASSED is a rarity screen. It is necessary for WHAT_WOULD_COUNT's DERIVED, never sufficient, and never a physical admission. The
+laws under which the bar's p is a probability are its null contract (B1524).
 **The instance that made it a rule:** main's census (B1439) reports 87 carriers among 536 manifolds. A carrier found by scanning
 has p ≈ 1, and the root's higher levels fire like their neighbours (B1518 §3.5).
 

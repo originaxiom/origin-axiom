@@ -9569,6 +9569,19 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1524": {
+   "slug": "the bars null contract",
+   "motifs": [
+    "monoid"
+   ],
+   "refs": [
+    "B614"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B152": {
    "slug": "cs amphichirality census",
    "motifs": [

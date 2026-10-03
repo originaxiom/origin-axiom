@@ -1,5 +1,31 @@
 # Changelog
 
+## B1524 banked: THE BAR'S NULL CONTRACT — the laws under which the bar's p is a probability; r is conservative under the census's own law, the scan uses its exact law, looks are corrected by Bonferroni, and the top grade becomes PASSED (PROVED, not sealed; no grade moved)
+
+- **The audit lane's request** (`24c039c8`), answered. A p is a probability only under a stated law, and the bar had printed
+  none.
+- **The census's own law** (C1: carriers exchangeable within a stratum, independently of the rule). The exact p for a fixed-rule
+  unit is (k + 1)/(n + 1).
+  - The bar's r is at least that for every k ≤ n ≤ 2000 (C2; the certificate is ≥ 0.3679 against 0.025). So p = r stays, as a
+    conservative p.
+  - Under an i.i.d. law (C3), the 0.01 gate has size ≤ 0.0037 for n ≤ 2000.
+  - Neither law licenses extrapolation: the census is every word to a length, not a random sample.
+- **The scan:** the hypergeometric law replaces 1 − (1 − K/N)ⁿ, which understated p (C4). B1518's FITTED stands: 0.9857 →
+  0.9871.
+- **The looks:** Bonferroni replaces Šidák (C5).
+  - Two fixed-rule units of one stratum are negatively dependent. At the 0.01 gate, 399 units with 2 carriers give the
+    Šidák-corrected test size 0.0100125.
+  - B1518's T2 YES and T3 NO are unchanged: 0.0010 and 0.0217.
+- **The top grade is PASSED**, a rarity screen. It is necessary for WHAT_WOULD_COUNT's DERIVED, never sufficient, and never a
+  physical admission. No positive had been graded DERIVED.
+- **Sources, read:** Šidák 1967 (Theorem 1, Corollary 1, §3); Phipson–Smyth 2010 §4; Berger–Boos 1994 via Vexler
+  arXiv:2001.05126 (2.3); R's `binom.test` page. Standing RE-DERIVED.
+- **Records.**
+  - `docs/THE_BAR.md` amended (the contract as its own section); `docs/PRACTICES.md`; OPEN_LEADS sL-9 item 1.
+  - ERROR_LEDGER: an E31 instance, credited to the audit lane.
+  - Relay `SM_TO_CC_AND_CODEX_2026-10-03_THE_BARS_NULL_CONTRACT.md`, rowed; the audit lane's row is marked answered.
+- **Lock** `tests/test_b1524_the_bars_null_contract.py` (10 fast). 0 of 19.
+
 ## B1523 banked: THE FLEXIBLE STATES — every word state to length 12 carries a projective family at its hyperbolic point; the fibre boundary is always a rigid slope, so main's one-bit rule holds on every word state; on 262 manifolds no symmetry dualises the family (PROVED, outcome B)
 
 - **Run as sealed** (`c13cb636`; 3 610 s on four cores).

@@ -1,0 +1,165 @@
+{
+ "C1 the finite exchangeable law": {
+  "placements enumerated up to N": 14,
+  "(N, K, level) cases": 14161,
+  "max(size - level)": "0",
+  "valid at every level": true
+ },
+ "C2 THE BAR's r against the exact law": {
+  "exact (rationals), n <= 120: min P(Bin(n, (k+1)/(n+1)) <= k)": [
+   0.36940697191954663,
+   [
+    0,
+    120
+   ]
+  ],
+  "double precision, n <= 2000: same minimum": [
+   0.36797139187613637,
+   [
+    0,
+    2000
+   ]
+  ],
+  "needed": 0.025,
+  "null_model r - (k+1)/(n+1), min over every k <= n <= 600 and every 50th n to 2000": [
+   0.0,
+   [
+    1,
+    1
+   ]
+  ],
+  "r >= (k+1)/(n+1) everywhere checked": true
+ },
+ "C3 the i.i.d. law": {
+  "0.001": {
+   "max size over n <= 2000": 0.0,
+   "at (n, k*, q)": null,
+   "n with no gate at all": 2000,
+   "size <= alpha": true
+  },
+  "0.005": {
+   "max size over n <= 2000": 0.001109315732089967,
+   "at (n, k*, q)": [
+    1751,
+    3,
+    0.0016840804020100502
+   ],
+   "n with no gate at all": 735,
+   "size <= alpha": true
+  },
+  "0.01": {
+   "max size over n <= 2000": 0.003685051534013436,
+   "at (n, k*, q)": [
+    1964,
+    11,
+    0.004472914572864322
+   ],
+   "n with no gate at all": 367,
+   "size <= alpha": true
+  },
+  "0.025": {
+   "max size over n <= 2000": 0.013369626399190444,
+   "at (n, k*, q)": [
+    1987,
+    36,
+    0.014698904522613066
+   ],
+   "n with no gate at all": 145,
+   "size <= alpha": true
+  },
+  "0.05": {
+   "max size over n <= 2000": 0.03212463419273851,
+   "at (n, k*, q)": [
+    1982,
+    80,
+    0.03391991959798995
+   ],
+   "n with no gate at all": 71,
+   "size <= alpha": true
+  }
+ },
+ "C4 the scan law": {
+  "536": {
+   "max(binomial - exact) over every K, n": 1.1102230246251565e-16,
+   "binomial never larger": true
+  },
+  "758": {
+   "max(binomial - exact) over every K, n": 1.1102230246251565e-16,
+   "binomial never larger": true
+  },
+  "B1518 m369 and s639 (a scan of 24 at 87 of 536)": {
+   "binomial (banked)": 0.985745,
+   "exact": 0.987142,
+   "grade": "FITTED either way"
+  }
+ },
+ "C5 several looks": {
+  "two units of one stratum: exact counterexamples": [
+   {
+    "N": 200,
+    "K": 1,
+    "level (Sidak's 1 - (1 - K/N)^2)": 0.009975,
+    "true size": 0.01,
+    "excess": 2.5e-05,
+    "Bonferroni size at that level (reject iff 2 K/N <= level)": 0.0
+   },
+   {
+    "N": 1000,
+    "K": 5,
+    "level (Sidak's 1 - (1 - K/N)^2)": 0.009975,
+    "true size": 0.00997997997997998,
+    "excess": 4.97997997997998e-06,
+    "Bonferroni size at that level (reject iff 2 K/N <= level)": 0.0
+   },
+   {
+    "N": 40,
+    "K": 1,
+    "level (Sidak's 1 - (1 - K/N)^2)": 0.049375,
+    "true size": 0.05,
+    "excess": 0.000625,
+    "Bonferroni size at that level (reject iff 2 K/N <= level)": 0.0
+   }
+  ],
+  "alpha = 0.01, worst over stratum sizes N <= 200000: (size - alpha, (N, K))": [
+   1.2468356821702248e-05,
+   [
+    399,
+    2
+   ]
+  ],
+  "Bonferroni >= Sidak (m <= 50, p on a grid of 10001)": true,
+  "B1518's sealed tests under both corrections": {
+   "T2": {
+    "p": 0.0004997501249375312,
+    "Sidak (banked)": 0.000999,
+    "Bonferroni": 0.001,
+    "decision at 0.01": [
+     "YES",
+     "YES"
+    ]
+   },
+   "T3": {
+    "p": 0.010849457527123643,
+    "Sidak (banked)": 0.021581,
+    "Bonferroni": 0.021699,
+    "decision at 0.01": [
+     "NO",
+     "NO"
+    ]
+   }
+  },
+  "B1518's decisions unchanged": true
+ },
+ "seconds": 168.4,
+ "checks": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5 counterexample": true,
+  "C5 Bonferroni >= Sidak": true,
+  "C5 B1518 unchanged": true
+ }
+}
+ALL CHECKS PASS
+EXIT 0
