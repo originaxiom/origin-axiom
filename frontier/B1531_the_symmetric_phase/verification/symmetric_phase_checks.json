@@ -1,0 +1,601 @@
+{
+ "C1": {
+  "holds (the phrases are present)": true,
+  "counts": {
+   "origin/main": {
+    "symmetric phase": {
+     "files": 3,
+     "lines": 3,
+     "where": [
+      "docs/OPEN_LEADS.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py"
+     ]
+    },
+    "broken phase": {
+     "files": 2,
+     "lines": 2,
+     "where": [
+      "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md",
+      "speculations/S074_the_adelic_closing_doctrine.md"
+     ]
+    },
+    "asymmetric phase": {
+     "files": 0,
+     "lines": 0,
+     "where": []
+    },
+    "symmetric phase (substring, for comparison)": {
+     "files": 4,
+     "lines": 4,
+     "where": [
+      "docs/OPEN_LEADS.md",
+      "frontier/B1457_the_audit_lanes_source_records_harvested/verification/readers/batch_5.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py"
+     ]
+    }
+   },
+   "HEAD": {
+    "symmetric phase": {
+     "files": 3,
+     "lines": 3,
+     "where": [
+      "docs/OPEN_LEADS.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py"
+     ]
+    },
+    "broken phase": {
+     "files": 2,
+     "lines": 2,
+     "where": [
+      "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md",
+      "speculations/S074_the_adelic_closing_doctrine.md"
+     ]
+    },
+    "asymmetric phase": {
+     "files": 0,
+     "lines": 0,
+     "where": []
+    },
+    "symmetric phase (substring, for comparison)": {
+     "files": 3,
+     "lines": 3,
+     "where": [
+      "docs/OPEN_LEADS.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py"
+     ]
+    }
+   },
+   "origin/audit/physical-bridge-2026-09-05": {
+    "symmetric phase": {
+     "files": 3,
+     "lines": 3,
+     "where": [
+      "docs/OPEN_LEADS.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py"
+     ]
+    },
+    "broken phase": {
+     "files": 3,
+     "lines": 3,
+     "where": [
+      "docs/CAMPAIGN_STATUS.md",
+      "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md",
+      "speculations/S074_the_adelic_closing_doctrine.md"
+     ]
+    },
+    "asymmetric phase": {
+     "files": 4,
+     "lines": 4,
+     "where": [
+      "PROGRESS_LOG.md",
+      "docs/OPEN_LEADS.md",
+      "reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_DESIGN.md",
+      "reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_PROOF.md"
+     ]
+    },
+    "symmetric phase (substring, for comparison)": {
+     "files": 7,
+     "lines": 8,
+     "where": [
+      "PROGRESS_LOG.md",
+      "docs/OPEN_LEADS.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py",
+      "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md",
+      "reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_DESIGN.md",
+      "reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_PROOF.md"
+     ]
+    }
+   },
+   "origin/sep16-branch": {
+    "symmetric phase": {
+     "files": 3,
+     "lines": 3,
+     "where": [
+      "docs/OPEN_LEADS.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py"
+     ]
+    },
+    "broken phase": {
+     "files": 2,
+     "lines": 2,
+     "where": [
+      "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/harvest/second_round_cm_bost_connes.md",
+      "speculations/S074_the_adelic_closing_doctrine.md"
+     ]
+    },
+    "asymmetric phase": {
+     "files": 0,
+     "lines": 0,
+     "where": []
+    },
+    "symmetric phase (substring, for comparison)": {
+     "files": 3,
+     "lines": 3,
+     "where": [
+      "docs/OPEN_LEADS.md",
+      "frontier/B849_order_parameter/PREREGISTRATION.md",
+      "frontier/B853_two_faces_ssb/relay_verify.py"
+     ]
+    }
+   },
+   "files under papers/ (either phrase, any head read)": []
+  }
+ },
+ "C2": {
+  "records": 821,
+  "families (all)": {
+   "no-landing-site": 32,
+   "kind-mismatch": 51,
+   "genericity": 38,
+   "cited-as-sufficient": 6,
+   "value-numerology": 24,
+   "method-limit": 13,
+   "finite-truncation": 2,
+   "other": 389,
+   "zero-intertwiner": 10,
+   "absence-at-depth": 11,
+   "unrouted-unclassified": 167,
+   "registered-comparison-null": 1,
+   "sealed-one-input-comparison": 1,
+   "sealed-invert-then-match; killed by the chain's own algebra": 1,
+   "rigidity-collapse-with-mechanism": 2,
+   "group-membership-refutation": 1,
+   "stabilizer-computation": 1,
+   "category-mismatch": 2,
+   "rank-vs-reality-dichotomy": 1,
+   "cross-family-counterexample": 1,
+   "self-defeating-escape": 1,
+   "vacuity": 4,
+   "ill-posed-conjunction": 1,
+   "enumeration-exhausted": 1,
+   "self-refuted-draft": 1,
+   "powered-exclusion": 4,
+   "obstruction-at-construction": 1,
+   "exhaustive-coset computation with vacuity controls": 1,
+   "non-isolation: the fixed-dimension census {3d: 53, 1d: 42} has NO 0-dimensional fixed set, so every A1 locus meets the E6 locus along a LINE and all localized matter extends along a flat direction": 1,
+   "Poincare-duality pairing: on a closed oriented 3-manifold the cup pairing lands in the trivial charge and forces h1": 1,
+   "two step-disjoint proofs: structural": 1,
+   "identical vanishing: every anomaly channel over the derived 16 is zero -- including the global": 1,
+   "type mismatch, structural: arithmetic CS is finite-group-valued by construction": 1,
+   "value-numerology guard fired": 1,
+   "structural impossibility, NOT a scan: the 64": 1,
+   "density-before-statistics": 1,
+   "symmetry-cannot-select": 12,
+   "dimension-count": 1,
+   "trivial-torsor": 1,
+   "premise refuted by population test, with the correlation coming out at the OPPOSITE SIGN to the prediction. Three kill conditions were named in advance; test 3 was decisive. The premise failed first: m003 is not less symmetric than m004": 1,
+   "arithmetic disjointness of the ACTION, not of the pieces. Both groups are generic": 1,
+   "pre-registered expectation falsified by its own run. E-1 predicted at least three MISLABELED items; 46 items were examined with the source opened under amendment A1 and the count is ZERO -- not one over-fence. The two most load-bearing fences are honest FOR A COMPUTED REASON: L15's firewall holds because the complex volume ic": 1,
+   "both killed by paying the price the register itself set, in exact arithmetic, with two-sided controls.": 1,
+   "Killed by a THEOREM, not a survey. chi_27 on 2T's seven classes is": 1,
+   "Killed by a structural theorem that closes the entire class in one line. G2 < SO": 1,
+   "Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {": 1,
+   "Killed by exhaustion and then by theorem. All 706 464 SM lines of Y_9 re-enumerated with every component's survival in every generation recorded: 0 split lines, and D kept in all three generations on every line": 1,
+   "frame-arithmetic": 9,
+   "end-datum-input": 4,
+   "closed-sum-zero": 4,
+   "semicontinuity-bound": 1,
+   "boundary-acyclic-tower": 1,
+   "jordan-decoupling": 1,
+   "subbundle-decoupling": 1,
+   "wrong-partner-five": 1,
+   "the-cusp-decides": 1
+  },
+  "chirality chain (26)": {
+   "symmetry-cannot-select": 8,
+   "frame-arithmetic": 9,
+   "absence-at-depth": 1,
+   "end-datum-input": 3,
+   "no-landing-site": 1,
+   "closed-sum-zero": 4
+  },
+  "the chain's tally as the 2026-09-30 note states it": true
+ },
+ "C2b": {
+  "kinds": {
+   "S": "symmetry pairing or symmetry forcing (chat 1's first kind)",
+   "F": "absence of curvature: a flat or well-posed index that vanishes (chat 1's second kind)",
+   "U": "absence of uniqueness: the object does not make the choice (chat 1's third kind)",
+   "none": "none of the three"
+  },
+  "reading": {
+   "B1351": {
+    "family": "closed-sum-zero",
+    "kind": "F",
+    "why": "a local system's Euler characteristic on a closed 3-manifold is zero (Poincare duality also pairs h1(psi) with h1(psi-bar))"
+   },
+   "B1361": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "two U(1) charges force a hollow mass matrix"
+   },
+   "B1363": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "Kac's order-3 classes of E6 contain no Standard-Model commutant: the frame's arithmetic"
+   },
+   "B1365": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "the D-term sign: both E6-charged singlets carry gamma = -5/3: charge arithmetic"
+   },
+   "B1367": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "the E6 cubic gives doublets and triplets the same matrices"
+   },
+   "B1368": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "the 10 and the 5bar never share an SL(2)_beta spin: representation arithmetic"
+   },
+   "B1369": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "a cusp-fixing isometry negates every free class: the regions swap, N = 0"
+   },
+   "B1372": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "charge arithmetic at the cusp: Im t = +-L against +-3L"
+   },
+   "B1373": {
+    "family": "absence-at-depth",
+    "kind": "none",
+    "why": "absence at depth: where one eigenvalue reaches +-i the other is non-unitary"
+   },
+   "B1385": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "the global parity: an isometry negating the Higgs class"
+   },
+   "B1388": {
+    "family": "end-datum-input",
+    "kind": "U",
+    "why": "the relative index moves with the cut; the completion is not supplied"
+   },
+   "B1389": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "a parity law of the 78 makes the anomaly odd: representation arithmetic"
+   },
+   "B1390": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "Skolem-Noether: order-3 axes end at cusps: arithmetic of PGL(2, Q(sqrt -3))"
+   },
+   "B1391": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "D3-covariant textures are degenerate at the symmetric point"
+   },
+   "B1392": {
+    "family": "closed-sum-zero",
+    "kind": "F",
+    "why": "sealed ends make the problem Fredholm and its count zero"
+   },
+   "B1393": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "charge conjugation pairs q with -q"
+   },
+   "B1394": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "the Hopf trace: a symmetric source three is a regular representation"
+   },
+   "B1395": {
+    "family": "end-datum-input",
+    "kind": "U",
+    "why": "every finite-energy datum at a free cusp is charge-blind: the charge-odd datum must be put in"
+   },
+   "B1396": {
+    "family": "symmetry-cannot-select",
+    "kind": "S",
+    "why": "a Z/3-symmetric cap gives copies of the regular representation"
+   },
+   "B1397": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "curvature supplied (flux caps), chirality produced, every E6 count even; for one bulk U(1) the caps sum to zero"
+   },
+   "B1398": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "every 10-type weight of the 78 is a doublet; the anomaly matrix has rank 3"
+   },
+   "B1399": {
+    "family": "frame-arithmetic",
+    "kind": "none",
+    "why": "lattice parity: every resolved count even"
+   },
+   "B1500": {
+    "family": "end-datum-input",
+    "kind": "U",
+    "why": "the cone point needs a choice the geometry does not make"
+   },
+   "B1501": {
+    "family": "no-landing-site",
+    "kind": "none",
+    "why": "no landing site: torus-linked loci are A-type and hexagonal"
+   },
+   "B1502": {
+    "family": "closed-sum-zero",
+    "kind": "F",
+    "why": "no flux: deg L = 0 on the links"
+   },
+   "B1503": {
+    "family": "closed-sum-zero",
+    "kind": "none",
+    "why": "positive scalar curvature kills the link's Dirac index (Lichnerowicz): curvature present, not absent"
+   }
+  },
+  "tally": {
+   "F": 3,
+   "S": 8,
+   "none": 12,
+   "U": 3
+  },
+  "family x kind": {
+   "absence-at-depth -> none": 1,
+   "closed-sum-zero -> F": 3,
+   "closed-sum-zero -> none": 1,
+   "end-datum-input -> U": 3,
+   "frame-arithmetic -> none": 9,
+   "no-landing-site -> none": 1,
+   "symmetry-cannot-select -> S": 8
+  },
+  "covered by the three kinds": 14,
+  "none of the three, carrying curvature": [
+   "B1397",
+   "B1503"
+  ]
+ },
+ "C3": {
+  "+LR": {
+   "trace": 3,
+   "N_1..N_6": [
+    1,
+    5,
+    16,
+    45,
+    121,
+    320
+   ],
+   "N_n = lambda^n + lambda^-n - 2 sign^n to n = 40": true,
+   "zeta = (1 - sign z)^2/(1 - t z + z^2) exactly to order 40": true,
+   "orbits of least period 1..6 (c_m)": [
+    1,
+    2,
+    5,
+    10,
+    24,
+    50
+   ],
+   "Euler product over orbits to order 40": true,
+   "N_n(f^-1) = N_n(f) to n = 40": true,
+   "(1/n) log N_n at n = 10, 20, 40": [
+    "0.96241042829",
+    "0.962423649682",
+    "0.962423650119"
+   ],
+   "beta_c = log lambda": "0.962423650119206895"
+  },
+  "-LR": {
+   "trace": 3,
+   "N_1..N_6": [
+    5,
+    5,
+    20,
+    45,
+    125,
+    320
+   ],
+   "N_n = lambda^n + lambda^-n - 2 sign^n to n = 40": true,
+   "zeta = (1 - sign z)^2/(1 - t z + z^2) exactly to order 40": true,
+   "orbits of least period 1..6 (c_m)": [
+    5,
+    0,
+    5,
+    10,
+    24,
+    50
+   ],
+   "Euler product over orbits to order 40": true,
+   "N_n(f^-1) = N_n(f) to n = 40": true,
+   "(1/n) log N_n at n = 10, 20, 40": [
+    "0.96241042829",
+    "0.962423649682",
+    "0.962423650119"
+   ],
+   "beta_c = log lambda": "0.962423650119206895"
+  },
+  "+LLRR": {
+   "trace": 6,
+   "N_1..N_6": [
+    4,
+    32,
+    196,
+    1152,
+    6724,
+    39200
+   ],
+   "N_n = lambda^n + lambda^-n - 2 sign^n to n = 40": true,
+   "zeta = (1 - sign z)^2/(1 - t z + z^2) exactly to order 40": true,
+   "orbits of least period 1..6 (c_m)": [
+    4,
+    14,
+    64,
+    280,
+    1344,
+    6496
+   ],
+   "Euler product over orbits to order 40": true,
+   "N_n(f^-1) = N_n(f) to n = 40": true,
+   "(1/n) log N_n at n = 10, 20, 40": [
+    "1.76274716962",
+    "1.76274717404",
+    "1.76274717404"
+   ],
+   "beta_c = log lambda": "1.7627471740390860505"
+  },
+  "-LLRR": {
+   "trace": 6,
+   "N_1..N_6": [
+    8,
+    32,
+    200,
+    1152,
+    6728,
+    39200
+   ],
+   "N_n = lambda^n + lambda^-n - 2 sign^n to n = 40": true,
+   "zeta = (1 - sign z)^2/(1 - t z + z^2) exactly to order 40": true,
+   "orbits of least period 1..6 (c_m)": [
+    8,
+    12,
+    64,
+    280,
+    1344,
+    6496
+   ],
+   "Euler product over orbits to order 40": true,
+   "N_n(f^-1) = N_n(f) to n = 40": true,
+   "(1/n) log N_n at n = 10, 20, 40": [
+    "1.76274716962",
+    "1.76274717404",
+    "1.76274717404"
+   ],
+   "beta_c = log lambda": "1.7627471740390860505"
+  },
+  "2 log phi": "0.962423650119206895",
+  "2 log(1 + sqrt 2)": "1.7627471740390860505",
+  "holds": true
+ },
+ "C5": {
+  "quotes found": {
+   "main B1455 (origin/main: docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md)": {
+    "every vacuum is fixed by a symmetry under which the count is odd": true,
+    "the geometric mirror does not change the count; dualising does": true,
+    "A non-split extension: not a minimum of this action": true,
+    "Spontaneous breaking in the bulk action: **tested here, negative on this family.": true
+   },
+   "the audit lane's R76 (FLAT_VACUUM.md)": {
+    "a smooth stationary FLAT point must be harmonic": true,
+    "the potential is a t^2+c t^4, a>=0,c>0": true,
+    "the split limit, at infinite TARGET metric distance": true,
+    "Nonflat, coupled-field, source, physical-end, singular and infinite-energy models are outside this conclusion.": true
+   },
+   "the audit lane's F01 (COEFFICIENT_PARENT_PROOF.md)": {
+    "The F01 finite-energy splitting obstruction still applies to a smooth complete source-free nonsplit W.": true
+   },
+   "the audit lane's R41 (CURRENT_BALANCE.md)": {
+    "integral tr(xi_k S) = 4 integral |eta_k|^2 > 0, k=1,2,3.": true
+   },
+   "the audit lane's R81 (DIRICHLET_ADMISSION.md)": {
+    "admits a unique harmonic metric for that boundary value problem": true,
+    "It is therefore a zero-potential stationary background of the specified bare positive residual-square action": true,
+    "2 flux=-5 integral|eta|^2. Boundary data are a supplied input, not yet a physically generated law.": true
+   },
+   "the audit lane's F14 (received_r47/F14_FINDINGS.txt)": {
+    "A spontaneously asymmetric interacting phase remains logically possible despite an exact classical symmetry.": true,
+    "not inference from an allowed vertex or an arbitrary choice of one member of a paired basis.": true
+   },
+   "the audit lane's PB-CHIRAL (docs/OPEN_LEADS.md)": {
+    "PB-CHIRAL: an escape must change a stated end/source/coefficient/domain hypothesis or realize an asymmetric interacting phase with full spectrum and anomaly matching.": true
+   },
+   "the audit lane's R48 (CANONICAL_DUALITY.md)": {
+    "A chirality mechanism must change an earned hypothesis or realize an asymmetric interacting phase, with the full light spectrum and anomaly accounting.": true
+   },
+   "B849 (frontier/B849_order_parameter/FINDINGS.md, every head)": {
+    "In SSB the **system** carries the symmetry and the **state** breaks it.": true,
+    "m004's amphichirality is the \u2124/2 existing, which is exactly what SSB requires.": true
+   },
+   "OPEN_LEADS L17 (every head)": {
+    "so the symmetric phase is excluded by structure": true,
+    "the \"*empty*\" framing is **FALSE**": true
+   },
+   "xB032 (origin/sep16-branch: frontier/xB032_the_thermodynamic_side/FINDINGS.md)": {
+    "`0.9624236501` = `2 log \u03c6`": true,
+    "| RRLL | 6 | 5.82842712 | 1.76274717 | 3.663862 | 1.7627471740 |": true
+   }
+  },
+  "holds": true
+ },
+ "C6": {
+  "K = [[0, 1], [-1, 0]] conjugates f to f^-1": {
+   "+LR": true,
+   "-LR": true,
+   "+LLRR": true,
+   "-LLRR": true
+  },
+  "SnapPy": {
+   "m004": {
+    "word": "+LR",
+    "amphicheiral": true,
+    "the bundle b++LR is it": true
+   },
+   "m003": {
+    "word": "-LR",
+    "amphicheiral": true,
+    "the bundle b+-LR is it": true
+   },
+   "m136": {
+    "word": "+LLRR",
+    "amphicheiral": true,
+    "the bundle b++LLRR is it": true
+   },
+   "m135": {
+    "word": "-LLRR",
+    "amphicheiral": true,
+    "the bundle b+-LLRR is it": true
+   }
+  },
+  "holds": true
+ },
+ "C4": {
+  "readings (I(W), I(Lambda^2 W))": {
+   "the split vacuum V (+) 1": [
+    0,
+    0
+   ],
+   "W1 at the interior class": [
+    -1,
+    -1
+   ],
+   "W2 (the dual order) at the interior class": [
+    1,
+    1
+   ]
+  },
+  "holds": true
+ },
+ "seconds": 18
+}

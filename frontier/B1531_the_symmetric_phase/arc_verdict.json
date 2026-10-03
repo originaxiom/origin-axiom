@@ -1,0 +1,147 @@
+{
+ "id": "B1531",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B849",
+  "B161",
+  "B853",
+  "B942",
+  "B1392",
+  "B1393",
+  "B1397",
+  "B1503",
+  "B1530"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "title": "THE SYMMETRIC PHASE: chat 1's reframing checked against the record",
+ "claim_one_line": "Chat 1's 'symmetric phase / broken phase' reframing (philosophy/P023), checked against the record: (1) its absence claim is false -- the whole phrase 'symmetric phase' is in the same three files on every head read (OPEN_LEADS L17, B849, B853) and 'broken phase' in S074 and B796's harvest; (2) its frame is already the record's -- B849 (2026-08-02) and the audit lane's F14, R48 and PB-CHIRAL; (3) its three kinds cover 14 of the chirality chain's 26 negatives (symmetry 8, flatness 3, non-uniqueness 3), and the other 12 (nine frame-arithmetic, B1373, B1501, B1503) are of none of them, two carrying curvature; (4) its critical point is xB032's entropy, 2 log phi (2 log(1 + sqrt 2) on the silver states), the Hagedorn abscissa of a free gas of periodic orbits (zeta and Euler product exact to order 40), and the monodromy's own thermodynamics has no broken mirror phase at any beta: K = [[0,1],[-1,0]] conjugates each of +-LR, +-LLRR to its inverse and Sinai-Ruelle-Bowen uniqueness makes the equilibrium state of a mirror-symmetric Hoelder potential mirror-symmetric; (5) in the bare flat model the symmetric split configuration is the minimum (R76, F01, main's B1455), and the one non-split configuration the record holds is held by a boundary (R81); (6) on m135 the class index is an exact order parameter for the dualising Z/2 (split (0,0), W1 (-1,-1), W2 (+1,+1))",
+ "scope": {
+  "frame": "every frame (a reading of the record); F-HE for C4",
+  "object": "chat 1's reframing (philosophy/P023) against the record: the phrases on every head, the chirality chain's 26 kill-graph records, the orbit sums and Artin-Mazur zetas of +-LR and +-LLRR, the amphicheirality of m003, m004, m135, m136, the audit lane's bare-model dynamics (R76, F01, R41, R81) and m135's member u = (0, 1/2)",
+  "reach": "class",
+  "hypotheses": [
+   "the reading of the 26 records against chat 1's three kinds is the seat's judgement, written record by record as data; the families are the record's own kill_form tokens",
+   "the lemma of section 4.3 is about the monodromy's own thermodynamic formalism with Hoelder potentials (hyperbolic toral automorphisms conjugate to their inverses in SL(2, Z)); nothing about interacting orbit gases, non-Hoelder potentials or other dynamics",
+   "'Hagedorn point' names the abscissa of convergence of the orbit gas's partition function; it is not identified with a physical temperature",
+   "the dynamics of section 5 is the audit lane's (R76, F01, R41, R81) and main's B1455, quoted at source, not re-derived here",
+   "no open outcome is computed; nothing is sealed; no physical claim"
+  ]
+ },
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao": "56f46d4f",
+    "origin/main": "399b0bc2",
+    "origin/audit/physical-bridge-2026-09-05": "ddd345a8",
+    "origin/sep16-branch": "3205984b",
+    "origin/art/camper-van-bar": "b3745696",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb"
+   },
+   "terms": [
+    "symmetric phase",
+    "broken phase",
+    "asymmetric phase",
+    "asymmetric interacting",
+    "order parameter",
+    "Hagedorn",
+    "orbit sum",
+    "Artin-Mazur",
+    "equilibrium state",
+    "phase transition",
+    "pencil",
+    "topological entropy",
+    "Euler product",
+    "at the interfaces"
+   ],
+   "hits": [
+    {
+     "where": "all heads: docs/OPEN_LEADS.md L17; frontier/B161_cancellation_locus_stratification",
+     "bearing": "the record's first 'symmetric phase': the commuting locus kappa = 2, banked as non-generic and trivial where attained; its 'excluded by structure' framing corrected as false"
+    },
+    {
+     "where": "all heads: frontier/B849_order_parameter (PREREGISTRATION, FINDINGS)",
+     "bearing": "chat 1's frame stated in full (system symmetric, state breaks it; amphichirality as the Z/2 existing); no manifold-level order parameter; the zero-or-2-torsion lemma"
+    },
+    {
+     "where": "all heads: frontier/B853_two_faces_ssb; B723, B942, B957, B948",
+     "bearing": "the order parameter on the wrong face; the beta = 1 Bost-Connes/CMR SSB with chirality as its label, killed at the level of group membership (B942) and swept (B948)"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05: received_r47/F14_FINDINGS.txt, CANONICAL_DUALITY.md (R48), docs/OPEN_LEADS.md PB-CHIRAL",
+     "bearing": "the spontaneously asymmetric interacting phase as a standing duty, with its fence against an arbitrary choice of one member of a paired basis"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05: FLAT_VACUUM.md (R76), COEFFICIENT_PARENT_PROOF.md (F01), CURRENT_BALANCE.md (R41), DIRICHLET_ADMISSION.md (R81)",
+     "bearing": "the bare flat model's dynamics: the split limit is the infimum, source-free non-split W splits, and a compact boundary holds a non-split W with strictly negative flux"
+    },
+    {
+     "where": "origin/main: docs/handoffs/CHAT1_SELECTION_RULE_2026-10-02_VERDICT.md (B1455)",
+     "bearing": "the deciding test negative on m004's harmonic family; 'the geometric mirror does not change the count; dualising does'; a non-split extension is not a minimum"
+    },
+    {
+     "where": "origin/sep16-branch: frontier/xB032_the_thermodynamic_side (T1-T3)",
+     "bearing": "h_top = 2 log phi = the tower's torsion growth (T1), the RRLL row 1.7627471740 (T2), Fried needs acyclic and unitary (T3): chat 1's critical point is this number"
+    },
+    {
+     "where": "all heads: docs/THE_NEGATIVES_READ_TOGETHER_2026-09-30.md; frontier/B738_pathfinder_compiler/kill_graph.json",
+     "bearing": "the record's own families of the 26 chirality-chain negatives, against which chat 1's three kinds are read"
+    },
+    {
+     "where": "all heads (terms 'Hagedorn', 'Artin-Mazur', 'at the interfaces')",
+     "bearing": "absent: the record never read the orbit sum's abscissa as a critical point; 'orbit sum' on the heads means character-orbit sums (B1378) and 'equilibrium state' a KMS state (B726)"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "uniqueness of equilibrium states Anosov diffeomorphism Hoelder potential pressure real analytic no phase transitions Bowen",
+    "Artin-Mazur zeta function hyperbolic toral automorphism periodic points |det(A^n - I)| rational formula",
+    "Hagedorn temperature exponential growth density of states partition function diverges definition",
+    "hyperbolic toral automorphism is mixing Bernoulli no eigenvalue root of unity"
+   ],
+   "sources": [
+    {
+     "cite": "M. Baake, E. Lau, V. Paskunas, A note on the dynamical zeta function of general toral endomorphisms, Monatsh. Math. 161 (2010) 33-42, arXiv:0810.1855",
+     "where": "eqs. (1)-(3), (11); Theorem 1",
+     "read": "2026-10-03",
+     "says": "a_m = |det(1 - M^m)|; zeta = exp(sum a_m z^m/m) = prod (1 - z^m)^(-c_m) with c_m the cycle numbers; zeta = prod_k det(1 - delta z Lambda^k M)^(eps (-1)^(k+1)), delta = sgn det(1 + M), eps = delta sgn det(1 - M)"
+    },
+    {
+     "cite": "V. Climenhaga, T. Fisher, D. J. Thompson, Equilibrium states for Mane diffeomorphisms, arXiv:1703.05722",
+     "where": "section 1, p. 1 (refs [9] Bowen LNM 470, [36] Ruelle Amer. J. Math. 98 (1976), [39] Sinai)",
+     "read": "2026-10-03",
+     "says": "Sinai, Ruelle and Bowen showed that a mixing Anosov diffeomorphism has a unique equilibrium state for every Hoelder continuous potential"
+    },
+    {
+     "cite": "T. Kucherenko, A. Quas, Asymptotic behavior of the pressure function for Hoelder potentials, arXiv:2302.14839",
+     "where": "section 1, p. 1",
+     "read": "2026-10-03",
+     "says": "for mixing subshifts of finite type the pressure is real analytic on Hoelder potentials and each has one Gibbs state, the only equilibrium state; Bowen carried this to Anosov diffeomorphisms through Markov partitions"
+    },
+    {
+     "cite": "J. Springham, Ergodic properties of linked-twist maps (PhD thesis, Bristol 2008), arXiv:0812.0899",
+     "where": "section 1.1, pp. 19-20",
+     "read": "2026-10-03",
+     "says": "the cat map, and with it any hyperbolic toral automorphism, is ergodic, mixing and Bernoulli"
+    },
+    {
+     "cite": "K. Redlich, H. Satz, The Legacy of Rolf Hagedorn: Statistical Bootstrap and Ultimate Temperature, arXiv:1501.07523",
+     "where": "eq. (14), pp. 7-8",
+     "read": "2026-10-03",
+     "says": "an exponentially growing spectrum makes the partition function diverge beyond T_H; whether T_H is a limiting temperature or a transition depends on the spectrum's prefactor and, beyond the limit, on more information (QCD)"
+    }
+   ]
+  },
+  "standing": "EXTENDS",
+  "why": "the frame is the record's (B849, the audit lane's F14/R48/PB-CHIRAL), the number is xB032's, the zeta identities are Baake-Lau-Paskunas' and the uniqueness is Sinai-Ruelle-Bowen's; this arc adds the record-by-record reading of chat 1's three kinds against the chain's 26 negatives, the reading of xB032's entropy as the Hagedorn abscissa of a free orbit gas, the no-broken-mirror-phase lemma for the golden and silver monodromies (K conjugates each to its inverse), and B1530's member as an exact order parameter for the dualising Z/2"
+ }
+}

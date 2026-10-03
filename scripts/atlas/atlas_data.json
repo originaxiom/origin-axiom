@@ -9698,6 +9698,45 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1531": {
+   "slug": "the symmetric phase",
+   "motifs": [
+    "arrow",
+    "monoid",
+    "naming",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B161",
+    "B723",
+    "B726",
+    "B796",
+    "B849",
+    "B853",
+    "B942",
+    "B948",
+    "B957",
+    "L17",
+    "P023",
+    "S074"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B153": {
    "slug": "degree rank degeneration",
    "motifs": [

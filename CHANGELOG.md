@@ -1,5 +1,36 @@
 # Changelog
 
+## B1531 banked: the symmetric phase — chat 1's reframing checked against the record (PROVED, not sealed)
+
+- **What was asked.** The owner relayed a reframing written in another conversation ("chat 1"), to be treated seriously: the
+  negatives as the symmetric phase proving itself exact, the Standard Model as a broken phase, the choices at the
+  interfaces, a critical point at β_c = 2 log φ. Kept verbatim in `philosophy/P023_the_symmetric_phase.md`, the experiential
+  question with it under Gate 5-Q. Every claim it makes about the record was checked with own code (checks C1–C6, 18 s).
+- **The absence claim is false (C1).** "Symmetric phase", as a whole phrase, is in the same three files on every head read:
+  OPEN_LEADS L17 (sm:B161), sm:B849's preregistration and sm:B853. "Broken phase" is in S074 and B796's harvest. The papers
+  are clean.
+- **The frame is already the record's (C5).** sm:B849 (2026-08-02): "In SSB the **system** carries the symmetry and the
+  **state** breaks it." The audit lane's F14, R48 and PB-CHIRAL hold "an asymmetric interacting phase" as a standing duty.
+  The record's earlier critical point, B723's β = 1 Bost–Connes/CMR transition, was killed as the mirror's breaking (sm:B942).
+- **The three kinds cover 14 of the chain's 26 negatives (C2, C2b).** Symmetry 8, flatness 3, non-uniqueness 3, none 12.
+  The twelve are the nine frame-arithmetic records, B1373, B1501 and B1503. B1397 (flux caps) and B1503 (positive curvature)
+  carry curvature, and their counts are still even or zero.
+- **The critical point (C3, C6).** β_c = 2 log φ is xB032's T1 number; its silver value 2 log(1 + √2) is its T2 row. It is the
+  abscissa of a free gas of periodic orbits: the Artin–Mazur zeta (1 ∓ z)²/(1 − tz + z²) and its Euler product, exact to
+  order 40 (Baake–Lau–Paskunas), a Hagedorn point.
+  - Lemma: the quarter turn K conjugates each of ±LR and ±LLRR to its inverse, and Sinai–Ruelle–Bowen give one equilibrium
+    state per Hölder potential. So a mirror-symmetric potential's equilibrium state is mirror-symmetric.
+  - The monodromy's own thermodynamics has no broken mirror phase at any β.
+- **The dynamics (C5).** In the bare flat model the pencil is a ball in a bowl: the split configuration is the minimum (the
+  audit lane's R76 and F01, main's B1455). The one non-split configuration the record holds is held by a boundary (R81), an
+  interface as chat 1 expects. B1530's member on m135 is an exact order parameter for the dualising ℤ/2: split (0, 0), W₁
+  (−1, −1), W₂ (+1, +1).
+- **Logged** (ERROR_LEDGER): an E52 instance, C1's first form counted substrings ("asymmetric phase" as "symmetric phase"),
+  caught before any commit; an E54 instance, chat 1's absence claim.
+- **Registered:** sL-11 (the end that holds a member; an interacting orbit gas; curvature in a frame whose arithmetic allows
+  three). B1530's FINDINGS draft carries the F01/R81 citations in its §5.2b.
+- Standing EXTENDS. Lock `tests/test_b1531_the_symmetric_phase.py` (10, one slow). 0 of 19.
+
 ## B1530 sealed: the interior extensions (sL-10 item 10 (a))
 
 - **The question.** In sm:B1515's frame (the rank-five extensions W₁ = [[V, c·L], [0, L]] of B1509's dictionary), at the

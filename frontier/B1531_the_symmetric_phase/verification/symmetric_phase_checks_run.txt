@@ -1,0 +1,22 @@
+B1531 checks, 2026-10-03T18:00:41Z, at 56f46d4f (main 399b0bc2)
+C1 the absence claim (whole words): origin/main: 'symmetric phase' in 3 files, 'broken phase' in 2 files, 'asymmetric phase' in 0 files, 'symmetric phase (substring, for comparison)' in 4 files; HEAD: 'symmetric phase' in 3 files, 'broken phase' in 2 files, 'asymmetric phase' in 0 files, 'symmetric phase (substring, for comparison)' in 3 files; origin/audit/physical-bridge-2026-09-05: 'symmetric phase' in 3 files, 'broken phase' in 3 files, 'asymmetric phase' in 4 files, 'symmetric phase (substring, for comparison)' in 7 files; origin/sep16-branch: 'symmetric phase' in 3 files, 'broken phase' in 2 files, 'asymmetric phase' in 0 files, 'symmetric phase (substring, for comparison)' in 3 files; under papers/: [] -> the phrases are on the record: True
+   (C1: 10.3 s)
+C2 the kill graph: 821 records; the families over all: [('other', 389), ('unrouted-unclassified', 167), ('kind-mismatch', 51), ('genericity', 38), ('no-landing-site', 32), ('value-numerology', 24), ('method-limit', 13), ('symmetry-cannot-select', 12), ('absence-at-depth', 11), ('zero-intertwiner', 10), ('frame-arithmetic', 9), ('cited-as-sufficient', 6)]
+   the 26 chirality-chain records: {'symmetry-cannot-select': 8, 'frame-arithmetic': 9, 'absence-at-depth': 1, 'end-datum-input': 3, 'no-landing-site': 1, 'closed-sum-zero': 4}
+   (C2: 0.0 s)
+C2b chat 1's kinds over the 26 (the seat's reading): {'F': 3, 'S': 8, 'none': 12, 'U': 3}; record family x kind: absence-at-depth->none: 1, closed-sum-zero->F: 3, closed-sum-zero->none: 1, end-datum-input->U: 3, frame-arithmetic->none: 9, no-landing-site->none: 1, symmetry-cannot-select->S: 8
+    covered by the three kinds: 14 of 26; of none of them: 12, of which carrying curvature: ['B1397', 'B1503']
+   (C2b: 0.0 s)
+C3 +LR: N_1..6 = [1, 5, 16, 45, 121, 320]; trace form True; zeta closed form to order 40 True; orbits c_1..6 = [1, 2, 5, 10, 24, 50], Euler product True; mirror counts True; (1/n) log N_n -> ['0.96241042829', '0.962423649682', '0.962423650119']; beta_c = log lambda = 0.962423650119206895
+C3 -LR: N_1..6 = [5, 5, 20, 45, 125, 320]; trace form True; zeta closed form to order 40 True; orbits c_1..6 = [5, 0, 5, 10, 24, 50], Euler product True; mirror counts True; (1/n) log N_n -> ['0.96241042829', '0.962423649682', '0.962423650119']; beta_c = log lambda = 0.962423650119206895
+C3 +LLRR: N_1..6 = [4, 32, 196, 1152, 6724, 39200]; trace form True; zeta closed form to order 40 True; orbits c_1..6 = [4, 14, 64, 280, 1344, 6496], Euler product True; mirror counts True; (1/n) log N_n -> ['1.76274716962', '1.76274717404', '1.76274717404']; beta_c = log lambda = 1.7627471740390860505
+C3 -LLRR: N_1..6 = [8, 32, 200, 1152, 6728, 39200]; trace form True; zeta closed form to order 40 True; orbits c_1..6 = [8, 12, 64, 280, 1344, 6496], Euler product True; mirror counts True; (1/n) log N_n -> ['1.76274716962', '1.76274717404', '1.76274717404']; beta_c = log lambda = 1.7627471740390860505
+   2 log phi = 0.962423650119206895; 2 log(1 + sqrt 2) = 1.7627471740390860505; C3 holds: True
+   (C3: 0.0 s)
+C5 the record's dynamics quoted at source: all quotes present: True
+   (C5: 0.2 s)
+C6 K f K^-1 = f^-1 with det K = 1: {'+LR': True, '-LR': True, '+LLRR': True, '-LLRR': True}; SnapPy: m004 (+LR) amphicheiral True, m003 (-LR) amphicheiral True, m136 (+LLRR) amphicheiral True, m135 (-LLRR) amphicheiral True -> holds: True
+   (C6: 0.4 s)
+C4 m135, u = (0, 1/2), exactly: {'the split vacuum V (+) 1': [0, 0], 'W1 at the interior class': [-1, -1], 'W2 (the dual order) at the interior class': [1, 1]} -> the split vacuum reads (0, 0) and the two orders (-1, -1), (+1, +1): True
+   (C4: 6.8 s)
+done (18 s)

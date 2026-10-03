@@ -3871,3 +3871,24 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
 
    Two routes at the same classes for Part A (exact over ℚ(ζ₂₄), and 60 digits); routes T and G for population B; rank and
    pairing for the rigidity quantity at every simple member. Predictions P1–P8 and G.
+
+## sL-11 — THE SYMMETRIC PHASE (registered 2026-10-03, sm:B1531; this seat's proposal, the owner may reorder)
+
+*Banked 2026-10-03 as sm:B1531 (PROVED, not sealed: a check of chat 1's reframing, `philosophy/P023`, against the record).*
+- The frame (the system symmetric, the state breaking it) is already sm:B849's and the audit lane's PB-CHIRAL.
+- Chat 1's three kinds cover 14 of the chirality chain's 26 negatives.
+- Its critical point is xB032's entropy, read as the Hagedorn abscissa of a free gas of periodic orbits, where the
+  monodromy's own thermodynamics has no broken mirror phase.
+- In the bare flat model the split configuration is the minimum (R76, F01, main's B1455). The one non-split configuration
+  the record holds is held by a boundary (R81).
+
+1. **The end that holds a member** (sm:B1531 §8 (a); R76's constructive duty at sm:B1530's members). Does a compact cusp
+   truncation of m135 or m136 hold B1530's W₁ as the audit lane's R81 holds R75's W (Wu–Zhang Prop. 3.3)? Which boundary
+   data, and what outward projector flux, does the generation need, and does the boundary choose W₁ or W₂? This is the
+   first place where breaking at an interface becomes a computation. Seal before computing.
+2. **An interacting orbit gas** (sm:B1531 §8 (b)). The free orbit gas has no broken mirror phase (B1531 §4.3). Does the
+   object supply an interaction between periodic orbits, or a non-Hölder potential, under which β_c = h_top becomes a
+   transition? No candidate is named; this is a question to sweep before anything is designed.
+3. **Curvature in a frame whose arithmetic allows three** (sm:B1531 §8 (c)). Chat 1's four-dimensional bulk with instantons
+   is untried as such. B1397: flux caps in the E6 frames give even counts; B1503: positive curvature kills the link's index.
+   The open question is the frame, not the curvature.

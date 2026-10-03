@@ -17297,3 +17297,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Logged** (ERROR_LEDGER, E52 instance): route N's first class finder read rounding noise as an interior class at a simple
   character, giving a false (−1, −1); caught by the dry run on banked data and fixed before the seal.
 - **Next:** run as sealed. 0 of 19.
+
+
+## 2026-10-03 — B1531 banked: the symmetric phase (chat 1's reframing checked against the record)
+
+- The owner relayed chat 1's "symmetric phase / broken phase" reframing and asked for it to be treated seriously. It is kept
+  verbatim in `philosophy/P023`; its claims about the record are checked in `frontier/B1531_the_symmetric_phase/` (C1–C6, own
+  code, 18 s, all hold).
+- Found: the absence claim is false (L17, B849, B853 on every head); the frame is B849's and the audit lane's PB-CHIRAL; the
+  three kinds cover 14 of the chain's 26 negatives (the nine frame-arithmetic records among the twelve they miss); the
+  critical point is xB032's entropy, a Hagedorn point of a free orbit gas, with no broken mirror phase in the monodromy's own
+  thermodynamics (lemma from Sinai–Ruelle–Bowen uniqueness and the quarter turn K); the bare flat model's minimum is the
+  split configuration (R76, F01, B1455), and the one held non-split configuration is held by a boundary (R81).
+- Self-caught before any commit: C1's first form counted "asymmetric phase" as "symmetric phase" (ERROR_LEDGER E52
+  instance). Chat 1's absence claim logged as an E54 instance.
+- B1530's FINDINGS draft: §5.2b now cites F01's splitting obstruction and R81's boundary admission at source.
+- B1530's census still running (351 of 536 at 17:52Z); B1529's pole brackets 59 of 80. Neither is touched (E46).
+- Registered sL-11. 0 of 19.

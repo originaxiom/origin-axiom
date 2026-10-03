@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1276** |
-| words of findings prose | **1,078,325** |
-| test lock files referenced | **779** |
-| arcs carrying an authored verdict | **1276** (100.0 %) |
+| research arcs with findings | **1277** |
+| words of findings prose | **1,082,757** |
+| test lock files referenced | **780** |
+| arcs carrying an authored verdict | **1277** (100.0 %) |
 | recorded closures | **821** (654 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 850 |
+| PROVED | 851 |
 | NEGATIVE | 327 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1528`** (1666 words, 1 locks)  
-GENESIS v1.8 (not sealed: every item checks a claim the record already fixes): main's v1.7 (B1462) taken as the head, as main asked; main's amend.py, run on this branch's v1.6, gives main's v1.7 byte for byte (C1). Main's corrected FK12 (ii) sentence made exact (marked [v1.8]): the meridian sign is the SL(2) factors' own, for modules with no meridian twist, as in B1459; a meridian twist t -> lam enters squared, P*V ~ V* (x) (t -> lam^2) at m004's complete point (own code: P = (a -> A, b -> B, t -> bab t), unique to length 6, six lam), so P carries V to its dual up to a sign exactly when lam^2 = +-1; on Ballas' family P fixes rho_q, which is not self-dual for q != 1 (character gap 14.3 at q = 2), so P does not carry it to its dual (C2, C3). sL-10 item 8 recorded as answered at GENESIS FK9 and in section 8 (sm:B1527); its remainder is item 9. Main's offered remark: sm:B1279's rotoreflections have order four and square to the period-2 swap, P (C4, exact); their action on M2's Z/5 is main's, not checked. B1526's lock repointed to v1.6 kept as received. No status changes; FK1 and FK12 as the owner decided. 0 of 19.  
-`B1528_genesis_v18/FINDINGS.md`
+**PROVED — `B1531`** (4432 words, 1 locks)  
+Chat 1's 'symmetric phase / broken phase' reframing (philosophy/P023), checked against the record: (1) its absence claim is false -- the whole phrase 'symmetric phase' is in the same three files on every head read (OPEN_LEADS L17, B849, B853) and 'broken phase' in S074 and B796's harvest; (2) its frame is already the record's -- B849 (2026-08-02) and the audit lane's F14, R48 and PB-CHIRAL; (3) its three kinds cover 14 of the chirality chain's 26 negatives (symmetry 8, flatness 3, non-uniqueness 3), and the other 12 (nine frame-arithmetic, B1373, B1501, B1503) are of none of them, two carrying curvature; (4) its critical point is xB032's entropy, 2 log phi (2 log(1 + sqrt 2) on the silver states), the Hagedorn abscissa of a free gas of periodic orbits (zeta and Euler product exact to order 40), and the monodromy's own thermodynamics has no broken mirror phase at any beta: K = [[0,1],[-1,0]] conjugates each of +-LR, +-LLRR to its inverse and Sinai-Ruelle-Bowen uniqueness makes the equilibrium state of a mirror-symmetric Hoelder potential mirror-symmetric; (5) in the bare flat model the symmetric split configuration is the minimum (R76, F01, main's B1455), and the one non-split configuration the record holds is held by a boundary (R81); (6) on m135 the class index is an exact order parameter for the dualising Z/2 (split (0,0), W1 (-1,-1), W2 (+1,+1))  
+`B1531_the_symmetric_phase/FINDINGS.md`
 
 **NEGATIVE — `B1520`** (2789 words, 1 locks)  
 THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  
