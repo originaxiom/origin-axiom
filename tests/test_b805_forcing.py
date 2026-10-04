@@ -1,5 +1,8 @@
 """B805 — locks the forcing graph's structure and its honesty constraint."""
 import importlib.util
+import json
+import os
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,10 +30,24 @@ def test_graph_builds_and_separates_authored_edges_from_attachment():
     # authored edges are arc->arc pairs and are the ONLY forcing-grade ones
     assert isinstance(G["authored"], list)
     assert all(isinstance(e, tuple) and len(e) == 2 for e in G["authored"])
-    # attachment edges vastly outnumber authored ones -- if that ever inverts silently,
-    # someone has started calling citations forcings
-    attachment = sum(len(v) for v in G["faces"].values()) + sum(len(v) for v in G["facets"].values())
-    assert attachment > len(G["authored"])
+    # B805 banked with 19 authored edges against 583 attachment edges (330 arc->face, 253 facet->arc),
+    # and this lock asserted that attachment still outnumbers authored. That is a live count of records
+    # every later arc adds to, and it inverted at e41609cf (2026-10-04: 2,007 attachment, 2,023 authored)
+    # because depends_on became a routine verdict field (the SM seat's arcs declare 7-10 each), with no
+    # citation relabelled. A lock never asserts a live count of a record others add to (ERROR_LEDGER,
+    # sm:B1531's bank slip), so the separation itself is checked: the authored edges are exactly the
+    # verdicts' declared depends_on, and no attachment node is an arc.
+    m = _m()
+    declared = []
+    for d in sorted(os.listdir(os.path.join(ROOT, "frontier"))):
+        a = re.match(r"(B\d+)[a-zA-Z]?_", d)
+        vp = os.path.join(ROOT, "frontier", d, "arc_verdict.json")
+        if a and m._findings_doc(os.path.join(ROOT, "frontier", d)) and os.path.isfile(vp):
+            declared += [(a.group(1), dep) for dep in (json.load(open(vp, encoding="utf-8")).get("depends_on") or [])]
+    assert sorted(G["authored"]) == sorted(declared)
+    assert not (set(G["faces"]) | set(G["facets"])) & set(G["arcs"])
+    f = (ROOT / "frontier" / "B805_forcing_graph" / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "330 arc→face, 253 facet→arc" in f and "**19 arc→arc authored**" in f
 
 
 def test_gaps_are_reported_not_hidden():

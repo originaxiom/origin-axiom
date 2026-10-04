@@ -17524,3 +17524,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   covers first. The machine is shared with sm:B1536's two m003 runs and the fast lane on e41609cf.
 - **sm:B1537 P2.** A FINDINGS addendum names the operator and domain of each count P2's scope sentence covers (R89's note).
   The proposed text is unchanged. B1537's lock and the relay-debt gate pass.
+
+## 2026-10-04 — the fast lane on e41609cf; B805's lock re-based (task 243)
+
+- **Fast lane on e41609cf** (3 h 27 min, pinned worktree): 6 800 passed, 52 skipped, 9 failed. Eight are the standing set
+  (`test_b1035_receipts`, environmental, and the seven of the earlier baseline). f1b4587f's two gate failures pass. The ninth was
+  new, B805's lock.
+- **The collector.** 6 728 → 6 846 fast ids against f1b4587f: 118 added (sm:B1529–sm:B1537's locks and schema cases), none
+  removed. 6 681 + 118 − 1 + 2 = 6 800.
+- **B805's lock.** Its attachment-over-authored comparison inverted (2 007 against 2 023) because `depends_on` grew with the
+  record. It now checks the separation directly and pins B805's own counts (ERROR_LEDGER). `tests/test_b805_forcing.py`: 3 passed.

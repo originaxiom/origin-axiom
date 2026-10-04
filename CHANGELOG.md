@@ -1,5 +1,23 @@
 # Changelog
 
+## The fast lane on e41609cf (the tree after sm:B1537); B805's forcing-graph lock re-based
+
+- **Fast lane on e41609cf** (3 h 27 min, in a worktree pinned at that commit, on a machine shared with sm:B1536's sealed runs):
+  6,800 passed, 52 skipped, 9 failed.
+  - Eight are the standing failures: the environmental `test_b1035_receipts`, and `test_b1062_bridge`, `test_b1063_refresh`,
+    `test_b1137_regulator_probe`, `test_b511_d5`, `test_b565_realform`, `test_b616_heldout` and `test_b646_wave2`.
+  - f1b4587f's two gate failures (`test_b887_gate_audit`, `test_repo_gates`) pass.
+  - The ninth is new: B805's lock `test_graph_builds_and_separates_authored_edges_from_attachment`.
+- **The extra passes, from the collector.** Diffed like for like with f1b4587f (6,728 → 6,846 fast ids): 118 added (the locks
+  and schema cases of sm:B1529–sm:B1537), none removed. 6,681 + 118 − 1 + 2 = 6,800.
+- **B805's lock.**
+  - It asserted that the forcing graph's attachment edges outnumber its authored arc→arc edges, the verdicts' `depends_on`
+    (B805 banked 19 against 583). At e41609cf they did not: 2,007 attachment against 2,023 authored. `depends_on` became a
+    routine verdict field, and no citation was relabelled as a forcing.
+  - A lock never asserts a live count of a record others add to. The lock now checks the separation itself (the authored
+    edges are exactly the declared `depends_on`, and no face or facet node is an arc), and pins B805's own counts to its
+    FINDINGS. ERROR_LEDGER row; relayed to main with the next relay.
+
 ## B1538's banked identity holds and Part L runs; sm:B1537's P2 restated with its operators named (the audit lane's R89)
 
 - **B1538's identity** (`verification/identity.json`). Controls K0–K12, re-run on the sealed code, reproduce `controls.json`
