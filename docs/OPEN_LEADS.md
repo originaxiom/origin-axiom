@@ -4055,6 +4055,14 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
      - The ℤ/5 is coker(−A − I) for the golden monodromy A (det 5); its characters live over ℚ(ζ₅) ⊃ ℚ(φ).
      - Room is not a count. Next, sealed before any class on N₄₅ is read: the counts (I(W₁), I(Λ²W₁)) on H¹(N₄₅; ρ)
        (dimension 23). The own-character census's predictions are to be restated, because d9.2's are fixed by banked rows.
+   - **And at the Eisenstein order; banked as sm:B1540 (2026-10-04, 16:40–17:00Z).** The banked rows fix the line and the four
+     at the pulled-back characters of all thirty room covers. Summed by Lemma A over the 117 cyclic subgroups whose every power
+     they fix, seven covers of m003 get room ≥ 3, all read directly in two routes and by integer homology:
+     - N₄₅ (order 5, room 5);
+     - six covers of degree 60, the 6-fold cyclic covers of d10.13, d10.14, d10.36, d10.38 (room 3) and d10.16, d10.40
+       (room 4), along an order-6 character through the fibration. They are four covers of m003 up to conjugacy.
+     - m004 gains nothing from pulled-back characters (best room 1); its own characters are sm:B1539's.
+     - Next, sealed first: the counts at the classes on N₄₅ (sm:B1541, running) and on the degree-60 covers.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

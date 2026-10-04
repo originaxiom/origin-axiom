@@ -17635,3 +17635,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   pulled-back class's (fixed at (0, 0)) was read. Next: identity, then the run once sm:B1538's Part F′ has freed the machine.
 - B1541's banked identity holds (K1–K6 reproduced, 7 sealed hashes); the run started at 16:12Z on one worker while sm:B1538's
   Part F′ finishes on the other cores.
+
+## 2026-10-04 — B1540 banked: the room for three at the golden and the Eisenstein orders (tasks 258, 261)
+
+- While restating sm:B1539's predictions over the characters no banked row reaches, the full set of pulled-back characters
+  the banked rows fix was computed on all thirty room covers. Summed by Lemma A, it gives room ≥ 3 on seven cyclic covers of
+  m003: N₄₅ (order 5, room 5) and six of degree 60 (order 6, rooms 3, 3, 4, 3, 3, 4; four conjugacy classes).
+- Each was read directly in two routes and by integer homology; every route agrees. m004 gains nothing from pulled-back
+  characters (best room 1).
+- B1540 became the complete statement: its own library loads only sm:B1536's banked modules; its records are
+  `pulled_back_rooms.json`, `room_n45.json` and `room_60.json`; its lock checks all three, with slow reproductions.
+- The N₄₅ producers now fail closed, as the audit lane's R92 asked.
+- Next: sm:B1538's read-out when Part F′ ends; sm:B1541's read-out; then the count on the degree-60 covers, sealed first.
+  0 of 19.
+

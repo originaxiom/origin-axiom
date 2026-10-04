@@ -10069,6 +10069,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1540": {
+   "slug": "the room for three",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B302"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1541": {
    "slug": "the count on the room",
    "motifs": [

@@ -1,0 +1,301 @@
+{
+ "covers": {
+  "m003:d10.13": {
+   "degree": 60,
+   "cusps": 6,
+   "connected": true,
+   "route N (prime, n(1), n(rho), capW, capL2)": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R (prime, n(1), n(rho), capW, capL2)": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1 (free rank, torsion); b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "Lemma A from the banked rows: (n(1), n(rho)), room": [
+    [
+     3,
+     3
+    ],
+    3
+   ],
+   "the character (own coordinates mod M, M, order)": [
+    [
+     40,
+     20,
+     20,
+     20
+    ],
+    120,
+    6
+   ],
+   "every route agrees": true
+  },
+  "m003:d10.14": {
+   "degree": 60,
+   "cusps": 6,
+   "connected": true,
+   "route N (prime, n(1), n(rho), capW, capL2)": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R (prime, n(1), n(rho), capW, capL2)": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1 (free rank, torsion); b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "Lemma A from the banked rows: (n(1), n(rho)), room": [
+    [
+     3,
+     3
+    ],
+    3
+   ],
+   "the character (own coordinates mod M, M, order)": [
+    [
+     40,
+     0,
+     40,
+     20,
+     40
+    ],
+    120,
+    6
+   ],
+   "every route agrees": true
+  },
+  "m003:d10.16": {
+   "degree": 60,
+   "cusps": 4,
+   "connected": true,
+   "route N (prime, n(1), n(rho), capW, capL2)": [
+    16775281,
+    3,
+    7,
+    4,
+    7
+   ],
+   "route R (prime, n(1), n(rho), capW, capL2)": [
+    2147482801,
+    3,
+    7,
+    4,
+    7
+   ],
+   "H_1 (free rank, torsion); b1 - cusps": [
+    7,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "Lemma A from the banked rows: (n(1), n(rho)), room": [
+    [
+     3,
+     7
+    ],
+    4
+   ],
+   "the character (own coordinates mod M, M, order)": [
+    [
+     20,
+     80,
+     0,
+     100
+    ],
+    120,
+    6
+   ],
+   "every route agrees": true
+  },
+  "m003:d10.36": {
+   "degree": 60,
+   "cusps": 6,
+   "connected": true,
+   "route N (prime, n(1), n(rho), capW, capL2)": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R (prime, n(1), n(rho), capW, capL2)": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1 (free rank, torsion); b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "Lemma A from the banked rows: (n(1), n(rho)), room": [
+    [
+     3,
+     3
+    ],
+    3
+   ],
+   "the character (own coordinates mod M, M, order)": [
+    [
+     40,
+     100,
+     20,
+     40
+    ],
+    120,
+    6
+   ],
+   "every route agrees": true
+  },
+  "m003:d10.38": {
+   "degree": 60,
+   "cusps": 6,
+   "connected": true,
+   "route N (prime, n(1), n(rho), capW, capL2)": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R (prime, n(1), n(rho), capW, capL2)": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1 (free rank, torsion); b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "Lemma A from the banked rows: (n(1), n(rho)), room": [
+    [
+     3,
+     3
+    ],
+    3
+   ],
+   "the character (own coordinates mod M, M, order)": [
+    [
+     40,
+     20,
+     20,
+     100,
+     0
+    ],
+    120,
+    6
+   ],
+   "every route agrees": true
+  },
+  "m003:d10.40": {
+   "degree": 60,
+   "cusps": 4,
+   "connected": true,
+   "route N (prime, n(1), n(rho), capW, capL2)": [
+    16775281,
+    3,
+    7,
+    4,
+    7
+   ],
+   "route R (prime, n(1), n(rho), capW, capL2)": [
+    2147482801,
+    3,
+    7,
+    4,
+    7
+   ],
+   "H_1 (free rank, torsion); b1 - cusps": [
+    7,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "Lemma A from the banked rows: (n(1), n(rho)), room": [
+    [
+     3,
+     7
+    ],
+    4
+   ],
+   "the character (own coordinates mod M, M, order)": [
+    [
+     20,
+     0,
+     0,
+     20
+    ],
+    120,
+    6
+   ],
+   "every route agrees": true
+  }
+ },
+ "conjugacy classes (covers of m003 up to conjugacy)": [
+  [
+   "m003:d10.13",
+   "m003:d10.14"
+  ],
+  [
+   "m003:d10.16"
+  ],
+  [
+   "m003:d10.36",
+   "m003:d10.38"
+  ],
+  [
+   "m003:d10.40"
+  ]
+ ],
+ "rooms": {
+  "m003:d10.13": 3,
+  "m003:d10.14": 3,
+  "m003:d10.16": 4,
+  "m003:d10.36": 3,
+  "m003:d10.38": 3,
+  "m003:d10.40": 4
+ },
+ "every route agrees": true
+}

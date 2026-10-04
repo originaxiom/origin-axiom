@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1287** |
-| words of findings prose | **1,115,575** |
+| research arcs with findings | **1288** |
+| words of findings prose | **1,117,945** |
 | test lock files referenced | **787** |
-| arcs carrying an authored verdict | **1287** (100.0 %) |
+| arcs carrying an authored verdict | **1288** (100.0 %) |
 | recorded closures | **827** (660 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 856 |
+| PROVED | 857 |
 | NEGATIVE | 330 |
 | OPEN | 90 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1537`** (1277 words, 0 locks)  
-GENESIS: MAIN'S v1.10 TAKEN AS HEAD (not sealed: every check compares texts or reads a banked record). As main's B1467 relay asked, GENESIS.md on this branch is main's v1.10 byte for byte (C6), and the seat numbers no further versions. The seat's own v1.10 (sm:B1533), made on main's v1.9 in parallel with main's and numbered the same (the second version collision), is kept as received (C2). Its page changes are offered as proposals to main's v1.10: P1-P4 are its four content lines that main's v1.10 lacks (the six-gaps heading, GAP6's scope, FK9's sm:B1527 and Part H lines, the frontier's item-8 line; C3), and P5-P9 come from arcs banked since: the levels' abelian covers (sm:B1532), the class's covers with sm:B1536 sealed, the other word states (sm:B1530, sm:B1534, sm:B1535), the cap in the frames table (sm:B1535 Theorem C) and the frontier's places where both supplies can grow (Corollary C3; C5). proposed/GENESIS_v1_10_with_proposals.md is main's v1.10 with the nine marked; removing the marks gives it back (C4). B1533's lock reads the seat's v1.10 from its kept copy; B1516's citation lock exempts the proposed text as GENESIS text. No new mathematics; I-26 stays UNEARNED. 0 of 19.  
-`B1537_genesis_proposals/FINDINGS.md`
+**PROVED — `B1540`** (2370 words, 0 locks)  
+THE ROOM FOR THREE, AT THE GOLDEN AND THE EISENSTEIN ORDERS: summed by Lemma A over the pulled-back characters of sm:B1536's thirty room covers, the banked rows give room min(capW, capL2) >= 3 at the trivial character of seven cyclic covers of m003, each read directly by route N (Shapiro on m003), route R (the cover's own presentation, another prime) and integer homology: N_45 (m003's d9.2 along the order-5 character from m003's Z/5 torsion, over Q(zeta_5) which contains Q(phi)) has (n(1), n(rho)) = (4, 18), room 5, H_1 = Z^9 + (Z/2)^2 with five cusps, and the count (0, 0) at its pulled-back class; six covers of degree 60 (the 6-fold cyclic covers of m003's d10.13, d10.14, d10.36, d10.38 and d10.16, d10.40 along a pulled-back order-6 character through the fibration, over Q(sqrt(-3))) have (3, 3), room 3, and (3, 7), room 4, H_1 = Z^9 or Z^7 + Z/4 + Z/12, four covers of m003 up to conjugacy. On m004 the pulled-back characters restrict trivially (room 1). sm:B1536 found room 2 at most to degree 12. Room is not a count; N_45's classes are sm:B1541's sealed question and the degree-60 covers' are next. 0 of 19.  
+`B1540_the_room_for_three/FINDINGS.md`
 
 **NEGATIVE — `B1536`** (3388 words, 1 locks)  
 THE FINITE COVERS, run as sealed (9c28d076; the addendum beside the seal at eeb20c44; sL-10 item 16, sm:B1535's Corollary C3, second place): no connected finite cover of degree <= 12 of m004 (176) or m003 (148), and no cover in their Q8 towers (m = 1, 2, 3, 4, 6, 9, 12, 18), carries three generations of sm:B1515's frame at a pulled-back character of finite order (8,148 and 35,100 characters, Lemma Z''), at any class. Routes N (the cover read on the base by Lemmas S' and O, FLINT) and R (the cover's own Reidemeister-Schreier presentation, PARI) share no linear algebra; both read the whole population and agree on all 43,248 rows, 1,228 Part P readings and 176 Part O strata, with every identity and Theorem C cap holding. No member has both caps >= 3: the largest min(capW, capL2) is 1 on m004 and 2 on m003, reached at the trivial character of sixteen non-abelian degree-10 covers of m003 (n(1) = 1, n(rho) = 2); capL2 reaches 4 on m003's degree-9 cover d9.2 at its order-5 characters with capW = 1. No count read is generation-shaped, at the pulled-back class or at the cover's own classes. On the Q8 towers the line is Proposition Q's (n(1) = 4 at kappa = 1: m004 at m = 6, 12, 18; m003 at m = 12) but n(rho) = 0 at every m: the four is the bottleneck. Eight of ten predictions held (P4 and P6 fail: both supplies have interior classes at the trivial character on non-abelian covers, from degree 5 on m003). NEGATIVE on three for this population. 0 of 19.  

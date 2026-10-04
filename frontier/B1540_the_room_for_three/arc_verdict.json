@@ -1,0 +1,120 @@
+{
+ "id": "B1540",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1536",
+  "B1535",
+  "B1515",
+  "B1532",
+  "B1527",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "seven cyclic covers of m003 along pulled-back characters of sm:B1536's room covers, at their trivial characters and the hyperbolic point: N_45 (m003's d9.2 along the order-5 character from m003's Z/5 torsion; degree 45, five cusps) and six covers of degree 60 (m003's d10.13, d10.14, d10.16, d10.36, d10.38, d10.40 along a pulled-back character of order 6 through the fibration; four conjugacy classes); and the census of the thirty room covers' pulled-back characters fixed by the banked rows",
+  "reach": "class",
+  "hypotheses": [
+   "the census: sm:B1536's banked rows (routes R and N agreeing, no conflict) fix the line and the four at the pulled-back characters they reach on the thirty room covers; Lemma A sums them on the 117 cyclic subgroups whose every power is fixed",
+   "N_45: (n(1), n(rho)) = (4, 18), room 5 at its trivial character, by Lemma A and read directly by route N, route R and integer homology; one count fixed, (0, 0) at the class pulled back from m003 (sm:B1536's banked Part P, by Shapiro), read directly in both routes",
+   "the degree-60 covers: (3, 3), room 3 (from d10.13, d10.14, d10.36, d10.38) and (3, 7), room 4 (from d10.16, d10.40), by Lemma A and read directly by route N, route R and integer homology; four covers of m003 up to conjugacy",
+   "on m004 every pulled-back character the banked rows reach restricts trivially to d9.2, d10.3 and d10.24: room 1 there",
+   "room is not a count: the counts at the classes are sealed questions (sm:B1541 on N_45; none yet on the degree-60 covers)",
+   "not complete: cyclic subgroups with a power the banked rows do not reach, and own characters not pulled back, are not read (sm:B1539)",
+   "not a selection: which cover, class and member the genesis selects is GENESIS GAP4 and THE_BAR's question",
+   "found from banked rows while setting and restating sm:B1539's priors (pre-seal): N_45 at 15:45-15:50Z, the degree-60 covers at 16:40-16:47Z, 2026-10-04; disclosed in FINDINGS section 5"
+  ]
+ },
+ "claim_one_line": "THE ROOM FOR THREE, AT THE GOLDEN AND THE EISENSTEIN ORDERS: summed by Lemma A over the pulled-back characters of sm:B1536's thirty room covers, the banked rows give room min(capW, capL2) >= 3 at the trivial character of seven cyclic covers of m003, each read directly by route N (Shapiro on m003), route R (the cover's own presentation, another prime) and integer homology: N_45 (m003's d9.2 along the order-5 character from m003's Z/5 torsion, over Q(zeta_5) which contains Q(phi)) has (n(1), n(rho)) = (4, 18), room 5, H_1 = Z^9 + (Z/2)^2 with five cusps, and the count (0, 0) at its pulled-back class; six covers of degree 60 (the 6-fold cyclic covers of m003's d10.13, d10.14, d10.36, d10.38 and d10.16, d10.40 along a pulled-back order-6 character through the fibration, over Q(sqrt(-3))) have (3, 3), room 3, and (3, 7), room 4, H_1 = Z^9 or Z^7 + Z/4 + Z/12, four covers of m003 up to conjugacy. On m004 the pulled-back characters restrict trivially (room 1). sm:B1536 found room 2 at most to degree 12. Room is not a count; N_45's classes are sm:B1541's sealed question and the degree-60 covers' are next. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-04 16:00Z)": "6fdf6d69",
+    "main (at the sweep, 2026-10-04 16:00Z)": "37bde38e",
+    "art/camper-van-bar (at the sweep, 2026-10-04 16:00Z)": "b3745696",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-04 16:00Z)": "8b89d8fb",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-04 16:00Z)": "8522a27a",
+    "seat/determined-hopper-t1cmii (at the sweep, 2026-10-04 16:00Z)": "7cda35aa",
+    "seat/magical-wright-vwrmtt (at the sweep, 2026-10-04 16:00Z)": "0043be2b",
+    "seat/outside-bench (at the sweep, 2026-10-04 16:00Z)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-04 16:00Z)": "5d58b935",
+    "seat/physics-seat-evaluation-8dkbrl (at the sweep, 2026-10-04 16:00Z)": "659487bb",
+    "sep16-branch (at the sweep, 2026-10-04 16:00Z)": "3205984b",
+    "seat/standard-model-derivation-0qt6ao (at the second sweep, 2026-10-04 16:52Z)": "0160100b",
+    "main (at the second sweep, 2026-10-04 16:52Z)": "88ed6981",
+    "audit/physical-bridge-2026-09-05 (at the second sweep, 2026-10-04 16:52Z)": "18f7204b"
+   },
+   "terms": [
+    "N_45",
+    "degree-45",
+    "degree 45",
+    "room for three",
+    "class strata",
+    "isotypic",
+    "deck group",
+    "generation-shaped",
+    "torsion cover",
+    "Z/5 torsion",
+    "pulled-back class",
+    "Part O",
+    "degree-60",
+    "degree 60",
+    "Eisenstein order",
+    "fibre product",
+    "room four",
+    "room 4",
+    "pulled-back room",
+    "6-fold cyclic cover"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation:frontier/B1536_the_finite_covers",
+     "bearing": "the banked rows (routes R and N) at m003's d9.2 that fix N_45's supplies and its pulled-back count; the code paths read here"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1535_the_cap",
+     "bearing": "Theorem C, which turns the supplies into room"
+    },
+    {
+     "where": "seat/standard-model-derivation:docs/dossiers/golden_covers_2026-10-04 (section 7)",
+     "bearing": "the first record of N_45, the same afternoon"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1375_the_towers_generation_count/FINDINGS.md",
+     "bearing": "none: a false match of 'N_45' in a filename (run_456)"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1536_the_finite_covers (FINDINGS, PREREGISTRATION); docs/OPEN_LEADS.md sL-12; the golden covers dossier",
+     "bearing": "'degree 60' names other covers: the icosian A5 covers of degree 60 and their 2I double covers, untested"
+    },
+    {
+     "where": "main and seat/standard-model-derivation:frontier/B1378_the_m6_deck_triplet; docs/THE_CLOSING_2026-09-15.md; B1353; B1411",
+     "bearing": "'6-fold cyclic cover' names m004's six-fold tower M_6 and unrelated groups: another state and frame"
+    },
+    {
+     "where": "main:frontier/B302_multiplicity_hidden_z3; B404; B774",
+     "bearing": "none: 'fibre product' and 'Eisenstein order' in unrelated senses"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Shapiro's lemma with Mackey at the boundary for a cyclic cover of a cusped 3-manifold"
+   ],
+   "sources": [
+    {
+     "cite": "sm:B1536's Lemma S' (this repo, after sm:B1532's citation of Shapiro's lemma)",
+     "where": "frontier/B1536_the_finite_covers/PREREGISTRATION.md section 3",
+     "read": "2026-10-04",
+     "says": "Shapiro for a finite cover with the permutation module, compatibly with restriction to the cusps"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ }
+}

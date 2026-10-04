@@ -273,6 +273,12 @@ sm:B1538 banks, before any own character of order ≥ 3 is read.
 **Found while setting the next arc's priors**, by reading sm:B1536's banked rows through Lemma A (§6). Not a sealed arc's
 reading. Disclosed here in full, then to be banked as a proved arc with its lock.
 
+> **Banked as sm:B1540 (2026-10-04, 17:00Z), with more.** Run on all thirty room covers, the same reading of the banked rows
+> finds room ≥ 3 on seven cyclic covers of m003, not one. Besides N₄₅ (order 5, room 5) there are six covers of degree 60:
+> the 6-fold cyclic covers of d10.13, d10.14, d10.36, d10.38 (room 3) and d10.16, d10.40 (room 4), along an order-6
+> character through the fibration (four covers up to conjugacy). Each was read directly in two routes and by integer
+> homology. m004 gains nothing from pulled-back characters. See `frontier/B1540_the_room_for_three/FINDINGS.md`.
+
 - **The banked rows** (sm:B1536, m003's degree-9 cover d9.2, one cusp, (n(1), n(ρ)) = (0, 2); routes R and N identical).
   - At a pulled-back character ν = (u, κ), n(L) is the line at ν⁻⁴ and n((VL)*) the four at ν³ (ρ is self-dual).
   - Take χ the order-5 character with u = (1/5, 3/5) and κ = 0. This is the restriction to π₁(d9.2) of m003's ℤ/5 torsion.

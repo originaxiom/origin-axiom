@@ -1,0 +1,131 @@
+{
+ "banked: the line at chi^j, j = 0..4 (routes R, N)": [
+  [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  [
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ ],
+ "banked: the four at chi^j, j = 0..4 (routes R, N)": [
+  [
+   2,
+   4,
+   4,
+   4,
+   4
+  ],
+  [
+   2,
+   4,
+   4,
+   4,
+   4
+  ]
+ ],
+ "Lemma A: (n(1), n(rho)) of N_45": [
+  4,
+  18
+ ],
+ "Lemma A: room at the trivial character": 5,
+ "banked Part P counts at d9.2's members (u, 0), u = j u0 (routes R, N)": [
+  [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ ],
+ "Proposition P: the count at the pulled-back class, by the banked rows": [
+  0,
+  0
+ ],
+ "N_45: degree, cusps, connected": [
+  45,
+  5,
+  true
+ ],
+ "route N at the trivial character": {
+  "prime": 16775281,
+  "n(1)": 4,
+  "n(rho)": 18,
+  "capW": 5,
+  "capL2": 18
+ },
+ "route R at the trivial character": {
+  "prime": 2147482801,
+  "n(1)": 4,
+  "n(rho)": 18,
+  "capW": 5,
+  "capL2": 18,
+  "h1(rho)": 23
+ },
+ "N_45: H_1 (free rank, torsion); b1 - cusps": [
+  9,
+  [
+   2,
+   2
+  ],
+  4
+ ],
+ "the pulled-back class read directly (I(W), I(L2W), identities), routes N and R": [
+  [
+   0,
+   0,
+   true
+  ],
+  [
+   0,
+   0,
+   true
+  ]
+ ],
+ "every route agrees": true,
+ "room at the trivial character of N_45: min(capW, capL2)": 5
+}

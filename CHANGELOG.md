@@ -1,5 +1,29 @@
 # Changelog
 
+## B1540 banked: THE ROOM FOR THREE, AT THE GOLDEN AND THE EISENSTEIN ORDERS — room ≥ 3 on seven cyclic covers of m003, read directly (PROVED, not sealed)
+
+- **The census** (`frontier/B1540_the_room_for_three/verification/pulled_back_rooms.py`, banked data only).
+  - sm:B1536's banked rows fix the line (at ν⁻⁴) and the four (at ν³ and ν⁵) at the pulled-back characters of its thirty
+    room covers, restricted to each cover's own coordinates. Routes R and N agree, and no two rows conflict.
+  - Lemma A sums them over the 117 cyclic subgroups whose every power is fixed. Seven have room ≥ 3 at the trivial character.
+- **Golden order 5: N₄₅** (m003's d9.2 along the ℤ/5-torsion character). (n(1), n(ρ)) = (4, 18), room 5. The count at its
+  pulled-back class is (0, 0).
+- **Eisenstein order 6: six covers of degree 60**, the 6-fold cyclic covers of m003's degree-10 covers along a pulled-back
+  order-6 character, which factors through the fibration.
+  - d10.13, d10.14, d10.36 and d10.38 give (3, 3), room 3. d10.16 and d10.40 give (3, 7), room 4.
+  - Up to conjugacy they are four covers of m003.
+- **Read directly** (`room_n45.py`, `room_60.py`): route N (Shapiro on m003) and route R (the cover's own presentation,
+  another prime) agree with Lemma A's sums, and integer homology gives b₁ − cusps = n(1).
+  - H₁(N₄₅) = ℤ⁹ ⊕ (ℤ/2)².
+  - H₁ of the degree-60 covers is ℤ⁹ or ℤ⁷, plus ℤ/4 ⊕ ℤ/12.
+- **On m004** every pulled-back character the banked rows reach restricts trivially to its room covers: best room 1.
+- **Disclosed** (FINDINGS §5): N₄₅ came up at 15:45–15:50Z while setting sm:B1539's priors. The degree-60 covers came up at
+  16:40–16:47Z while restating them. No sealed reading was used.
+- **Fail closed** (the audit lane's R92): `room_n45.py`, `pulled_back_rooms.py`, `room_60.py` and the dossier's
+  `gc_room_three_n45.py` exit non-zero if their routes disagree.
+- Room is not a count. N₄₅'s classes are sm:B1541's sealed question (running); the degree-60 covers' classes are next.
+  0 of 19.
+
 ## B1541 sealed: THE COUNT ON THE ROOM — the frame's counts at the classes of H¹(N₄₅; ρ), on the degree-45 cover of m003 where room for three first appears
 
 - **The question.** N₄₅ has (n(1), n(ρ)) = (4, 18) and room 5 at its trivial character (the golden covers dossier's §7).

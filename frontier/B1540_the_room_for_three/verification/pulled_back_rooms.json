@@ -1,0 +1,1213 @@
+{
+ "population": 30,
+ "by member": {
+  "m004:d9.2": {
+   "degree": 9,
+   "(n(1), n(rho))": [
+    0,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    1,
+    [
+     4,
+     4
+    ]
+   ],
+   "M": 36,
+   "banked members (routes R, N)": [
+    36,
+    36
+   ],
+   "pulled-back characters reached": 12,
+   "fixed (line, four)": [
+    3,
+    12
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [],
+   "cyclic subgroups fully fixed": 1,
+   "best room": 1,
+   "room >= 3": []
+  },
+  "m004:d10.24": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 24,
+   "banked members (routes R, N)": [
+    24,
+    24
+   ],
+   "pulled-back characters reached": 12,
+   "fixed (line, four)": [
+    3,
+    12
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [],
+   "cyclic subgroups fully fixed": 1,
+   "best room": 1,
+   "room >= 3": []
+  },
+  "m004:d10.3": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 24,
+   "banked members (routes R, N)": [
+    24,
+    24
+   ],
+   "pulled-back characters reached": 12,
+   "fixed (line, four)": [
+    3,
+    12
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [],
+   "cyclic subgroups fully fixed": 1,
+   "best room": 1,
+   "room >= 3": []
+  },
+  "m003:d5.2": {
+   "degree": 5,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    3,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d5.3": {
+   "degree": 5,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    3,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d9.2": {
+   "degree": 9,
+   "(n(1), n(rho))": [
+    0,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    1,
+    [
+     10,
+     10
+    ]
+   ],
+   "M": 180,
+   "banked members (routes R, N)": [
+    180,
+    180
+   ],
+   "pulled-back characters reached": 36,
+   "fixed (line, four)": [
+    15,
+    28
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     5,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     4
+    ]
+   ],
+   "cyclic subgroups fully fixed": 2,
+   "best room": 5,
+   "room >= 3": [
+    {
+     "c": [
+      36,
+      36,
+      108
+     ],
+     "order": 5,
+     "degree": 45,
+     "(n(1), n(rho))": [
+      4,
+      18
+     ],
+     "room": 5
+    }
+   ]
+  },
+  "m003:d10.10": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    5,
+    []
+   ],
+   "M": 60,
+   "banked members (routes R, N)": [
+    60,
+    60
+   ],
+   "pulled-back characters reached": 36,
+   "fixed (line, four)": [
+    15,
+    28
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 2,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.11": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    3,
+    [
+     2
+    ]
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     10,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.12": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    3,
+    [
+     2
+    ]
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     10,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.13": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     3,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     10,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 3,
+   "room >= 3": [
+    {
+     "c": [
+      40,
+      20,
+      20,
+      20
+     ],
+     "order": 6,
+     "degree": 60,
+     "(n(1), n(rho))": [
+      3,
+      3
+     ],
+     "room": 3
+    }
+   ]
+  },
+  "m003:d10.14": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    5,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     6,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 3,
+   "room >= 3": [
+    {
+     "c": [
+      40,
+      0,
+      40,
+      20,
+      40
+     ],
+     "order": 6,
+     "degree": 60,
+     "(n(1), n(rho))": [
+      3,
+      3
+     ],
+     "room": 3
+    }
+   ]
+  },
+  "m003:d10.16": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     6,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 4,
+   "room >= 3": [
+    {
+     "c": [
+      20,
+      80,
+      0,
+      100
+     ],
+     "order": 6,
+     "degree": 60,
+     "(n(1), n(rho))": [
+      3,
+      7
+     ],
+     "room": 4
+    }
+   ]
+  },
+  "m003:d10.17": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     3,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.18": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.19": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    5,
+    []
+   ],
+   "M": 60,
+   "banked members (routes R, N)": [
+    60,
+    60
+   ],
+   "pulled-back characters reached": 36,
+   "fixed (line, four)": [
+    15,
+    28
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 2,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.2": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 36,
+   "fixed (line, four)": [
+    15,
+    28
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 2,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.21": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    3,
+    [
+     2
+    ]
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     10,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.22": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 36,
+   "fixed (line, four)": [
+    15,
+    28
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 2,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.23": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     3,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.24": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.27": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    5,
+    []
+   ],
+   "M": 60,
+   "banked members (routes R, N)": [
+    60,
+    60
+   ],
+   "pulled-back characters reached": 36,
+   "fixed (line, four)": [
+    15,
+    28
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 2,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.36": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     3,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     10,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 3,
+   "room >= 3": [
+    {
+     "c": [
+      40,
+      100,
+      20,
+      40
+     ],
+     "order": 6,
+     "degree": 60,
+     "(n(1), n(rho))": [
+      3,
+      3
+     ],
+     "room": 3
+    }
+   ]
+  },
+  "m003:d10.38": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    5,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     6,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 3,
+   "room >= 3": [
+    {
+     "c": [
+      40,
+      20,
+      20,
+      100,
+      0
+     ],
+     "order": 6,
+     "degree": 60,
+     "(n(1), n(rho))": [
+      3,
+      3
+     ],
+     "room": 3
+    }
+   ]
+  },
+  "m003:d10.39": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    3,
+    [
+     2
+    ]
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     10,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.4": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.40": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     6,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 4,
+   "room >= 3": [
+    {
+     "c": [
+      20,
+      0,
+      0,
+      20
+     ],
+     "order": 6,
+     "degree": 60,
+     "(n(1), n(rho))": [
+      3,
+      7
+     ],
+     "room": 4
+    }
+   ]
+  },
+  "m003:d10.5": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     3,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.6": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    5,
+    []
+   ],
+   "M": 60,
+   "banked members (routes R, N)": [
+    60,
+    60
+   ],
+   "pulled-back characters reached": 36,
+   "fixed (line, four)": [
+    15,
+    28
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 2,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.8": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [
+    [
+     3,
+     1
+    ]
+   ],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     1
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  },
+  "m003:d10.9": {
+   "degree": 10,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "H_1 (free rank, torsion)": [
+    4,
+    []
+   ],
+   "M": 120,
+   "banked members (routes R, N)": [
+    120,
+    120
+   ],
+   "pulled-back characters reached": 72,
+   "fixed (line, four)": [
+    30,
+    56
+   ],
+   "conflicts": [],
+   "line >= 1 at (order, n)": [],
+   "four >= 1 at (order, n)": [
+    [
+     5,
+     2
+    ]
+   ],
+   "cyclic subgroups fully fixed": 5,
+   "best room": 2,
+   "room >= 3": []
+  }
+ },
+ "conflicts": 0,
+ "members with room >= 3 on a fixed pulled-back cyclic cover": [
+  "m003:d10.13",
+  "m003:d10.14",
+  "m003:d10.16",
+  "m003:d10.36",
+  "m003:d10.38",
+  "m003:d10.40",
+  "m003:d9.2"
+ ],
+ "m004: best room on a fixed pulled-back cyclic cover": 1
+}

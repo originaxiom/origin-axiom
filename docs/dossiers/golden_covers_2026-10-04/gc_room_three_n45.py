@@ -122,10 +122,13 @@ def main():
         [direct["N"], direct["R"]]
     agree = (rep["Lemma A on N_45: (n(1), n(rho))"] == rep["route N on N_45 at the trivial character: (n(1), n(rho))"]
              == [r45["n(nu)"], r45["n(rho nu)"]] and rep["N_45: H_1 (free rank, torsion); b1 - cusps"][2] == n1
-             and direct["N"][:2] == direct["R"][:2] == banked_sum and direct["N"][2] and direct["R"][2])
+             and direct["N"][:2] == direct["R"][:2] == banked_sum and direct["N"][2] and direct["R"][2]
+             and all(line[("R", j)] == line[("N", j)] and four[("R", j)] == four[("N", j)] for j in range(5)))
     rep["all agree"] = bool(agree)
     rep["room at the trivial character of N_45 (min(capW, capL2))"] = min(r45["capW"], r45["capL2"])
     print(json.dumps(rep, indent=1))
+    if not agree:      # fail closed (the audit lane's R92): the printed record stands, and the run exits non-zero
+        raise SystemExit("gc_room_three_n45.py: the routes disagree (see 'all agree' above)")
     return rep
 
 
