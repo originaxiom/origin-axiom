@@ -1,0 +1,6 @@
+COMMAND LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/phase_component_interaction_2026_10_04/test_interaction.py
+EVENT {"chunk_id":"da7c1d","wall_time_seconds":1.001026275,"session_id":36137,"original_token_count":0}
+
+EVENT {"chunk_id":"ba8c60","wall_time_seconds":0.000016518,"exit_code":0,"original_token_count":25}
+..............                                                           [100%]
+14 passed in 9.28s
