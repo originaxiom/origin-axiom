@@ -17605,3 +17605,7 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - The append and the tables scripts are tracked in sm:B1538's `verification/` before any Part F′ reading was read; the run
   notes record it. sm:B1538's tests: 6 passed. Gates: all pass.
+
+## 2026-10-04 — the next arc's draft: abelian covers (Lemma A′) and the line as the bottleneck (task 256)
+
+- Design-time mathematics only; no own character of order ≥ 3 has been read. sm:B1538's Part F′ continues.

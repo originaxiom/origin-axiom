@@ -1,5 +1,16 @@
 # Changelog
 
+## The next arc's draft: the line is the bottleneck, and abelian covers suffice (Lemma A′, Corollary′; not sealed, not run)
+
+- `docs/dossiers/golden_covers_2026-10-04/NEXT_ARC_DRAFT_the_room_above_the_room.md`, revised before any own character of
+  order ≥ 3 was read:
+  - **Lemma A′.** An abelian cover N_A carries the sums of both supplies over all its characters. So the line and the four may
+    grow at different characters, and the largest cover of exponent m bounds every smaller one.
+  - **Corollary′.** On d5.2 or d5.3 the four already grows at four of seven order-2 characters (implied by banked rows). So one
+    own character χ ≠ 1 with n(χ) ≥ 1 gives room for three on an abelian cover of degree at most 20 · ord χ.
+  - The decisive question is the line's torsion jump locus. New predictions: P4 (abelian covers, 30%), P4c (cyclic covers,
+    20%), P7 (the line grows, 35%). Route N reads a named witness N_A when its degree is at most 240.
+
 ## sm:B1538's post-run scripts committed before the read-out
 
 - `frontier/B1538_the_puncture_characters/verification/post_partFp_append.py` (the structure check of Part F′'s rows and
