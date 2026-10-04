@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-04",
+  "sm_commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+  "input_path": "frontier/B1530_the_interior_extensions/verification/members_for_main.json",
+  "input_git_blob": "52163b46222e2a16b0c7e9fc7efb230d7c7381a5",
+  "input_copy_change": "one terminal newline added; no data changed",
+  "physical_commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+  "dirichlet_proof_path": "reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_PROOF.md",
+  "dirichlet_proof_git_blob": "9cea57c26cbcefbd8c43e29ebff8819ddf0187c2",
+  "balance_path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE.md",
+  "balance_git_blob": "0b7c1ffab4cab8aea74907b58035f3955e944801",
+  "primary_theorem": "https://arxiv.org/html/2109.01776v1",
+  "primary_scope_read": "Proposition 3.3 and proof, preceding setup and Corollary 2.1; not the full paper",
+  "statistical_prior_correction": "../selection_null_review_2026_10_04/CURRENCY_CORRECTION.md"
+}
