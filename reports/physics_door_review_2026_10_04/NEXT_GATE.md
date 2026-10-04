@@ -110,6 +110,16 @@ Conditional compact Dirichlet admission applies, with supplied metrics.
 This completes the replay and a domain-sensitivity diagnostic; none of the
 following physical-domain obligations is discharged by that comparison.
 
+The [complete boundary-complex test](../silver_boundary_complex_2026_10_04/FINDINGS.md)
+now preserves (-1,-1) in H1 of an explicit cone-shaped finite completion,
+while a reversed endpoint completion gives (0,-1). Both have total
+odd-minus-even (0,-1). All 13 focused tests pass. This retains the original
+algebraic positive while exposing its nonzero fundamental H0/H3; it is
+neither a physical-domain derivation nor a universal chirality kill.
+Next audit the actual trace spaces against the existing R59 nonlinear
+tensor maps and R61 full-parent reality/variation duties. One common
+interacting boundary law must replace independent favorable sector choices.
+
 The [full-degree and Hessian follow-up](../free_boundary_completion_2026_10_04/FINDINGS.md)
 now supplies two additional controls, not a completed physical domain:
 

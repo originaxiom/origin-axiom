@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "science_seal": "da9628c7450380cbac30cfe9fadf0a616f61af8e",
+  "parent_result": "ffff19873",
+  "scope": "Two complete finite boundary complexes on four silver coefficients, their exterior squares, literal duals and split controls",
+  "environment": {"python": "3.12.1", "sympy": "1.14.0", "locale": "C"},
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/silver_boundary_complex_2026_10_04/verify.py",
+    "pipefail": true,
+    "capture": "reports/silver_boundary_complex_2026_10_04/NATIVE_FIRST.jsonl",
+    "exit_code": 0,
+    "controls": "PASS",
+    "members": 4,
+    "terminal_status": "PASS",
+    "repair_after_seal": false,
+    "sha256": "8cc4e1d7a28b9e8c1a9da09535bbc5387cba304f6c8869863a531126c32356e5"
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -q -p no:cacheprovider --import-mode=importlib reports/silver_boundary_complex_2026_10_04/test_verify.py reports/silver_normal_response_2026_10_04/test_verify.py",
+    "pipefail": true,
+    "capture": "reports/silver_boundary_complex_2026_10_04/FOCUSED_FIRST.txt",
+    "exit_code": 0,
+    "passed": 13,
+    "new_tests": 7,
+    "retained_tests": 6,
+    "reported_seconds": 50.67,
+    "sha256": "d63015e2b657939e74630afa40ebf27aa5f0ecaeb60be043c6db973fc44f493c"
+  },
+  "seal_checks": {
+    "scientific_artifacts": 5,
+    "inputs": 6,
+    "all_passed_before_and_after": true,
+    "source_edits_during_runs": false
+  },
+  "fetch": {
+    "exit_code": 0,
+    "unchanged": true,
+    "head_inventory": "reports/silver_global_boundary_2026_10_04/EXECUTION_RECEIPT.json",
+    "main": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+    "SM": "e41609cfd6f4438c7d394bf6b0d0da5faaa0432b",
+    "physical": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469",
+    "whole_repository_absence_claim": false
+  },
+  "reading": {
+    "B1509": "Full FINDINGS and end_conditions.py personally read; no foreign producer replay",
+    "physical_R30": "Full RESOLVED_FERMION_PROOF personally read",
+    "physical_R40": "Full COEFFICIENT_PARENT report personally read, not its full companion corpus",
+    "physical_R61": "Full FERMION_END report personally read, not all its companion code",
+    "ALMP": "HTML 1307.5473v3, section 6 dual-domain passages and Proposition 7.1 with proof; not the full paper",
+    "Braun": "HTML 1812.06072v2, sections 2.3 and 2.4 with equations 2.34 through 2.49; not the full paper"
+  },
+  "navigation_failures": [
+    "already_banked warning exit 1 prevented an initial chained grep; grep was rerun separately",
+    "Guessed branch claude/physical-theory-pass-hq3x0 failed; a guessed physics-seat branch and root path did not locate the file; inventory and ls-tree resolved audit/physical-bridge-2026-09-05 and reports/physical_bridge_2026_09_05",
+    "Several large navigation displays truncated; narrowed source reads followed; no exhaustive coverage or absence inferred"
+  ],
+  "certification": {
+    "full_repository_suite": false,
+    "independent_analytic_review": false,
+    "physical_domain": false,
+    "physical_chirality": false,
+    "parameter_free_SM": false,
+    "full_theory": false,
+    "shared_bank_number": false,
+    "pushed": false,
+    "merged": false
+  },
+  "preserved_unrelated_path": "reports/parent_mirror_matching_2026_09_25/"
+}

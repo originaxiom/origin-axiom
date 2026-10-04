@@ -287,6 +287,16 @@ and charged domain, using rather than duplicating the existing conical
 Chern-Simons and fermion-reality work. All geometry and end-law input
 costs remain explicit.
 
+The [complete silver boundary complexes](../silver_boundary_complex_2026_10_04/FINDINGS.md)
+retain that distinction through all degrees with an explicit two-cell
+restriction. The cone-shaped completion preserves the H1 pair (-1,-1),
+but its total odd/even pair is (0,-1); a different endpoint completion
+changes H1. Thirteen focused tests pass on the unchanged seal. This is
+a mathematical completion, not an analytic physical domain. Keep H0/H3
+and the full-parent field dictionary when testing the same-action end law,
+including coupled sector boundary variations and nonlinear tensor maps.
+No full-goal checkbox is discharged by the finite counts alone.
+
 - [ ] A declared spacetime/dynamical interpretation and common action.
 - [ ] Consistent quantum theory and complete anomaly bookkeeping.
 - [ ] Gravitational dynamics, not merely a spin-two representation slot.
