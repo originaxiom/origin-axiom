@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October4 R87: full E8 adjoint character separates infinitely many actual
+joined relative configurations at bare V=0 and detects locally at t=1.
+The five-trace parent-type duty is closed, not physical selection.145
+exact/209 same-author modular/root predicates and12 tests pass unchanged
+after pushed pre-run seal219c9333. Report PARENT_GLUING_CHARACTER.md
+under physical_bridge reports. Smooth family kinetics/generated relation
+next; su5 and paired charged counts remain. Pre-seal SM27dd37e2 puncture
+readout reviewed with synthetic coverage-risk relay, no foreign result
+assigned. Independent review and full SM/TOE remain open.
+
 October4 R85/R86: the actual nonsplit rank-five/dual join spans Mat5
 and is conditionally admitted on the supplied compact carrier in the
 same action. Charged representative2/2 and exterior2/2 stay paired;

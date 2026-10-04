@@ -16840,3 +16840,31 @@ relay R86 OPEN asks independent review and actual generated registering
 law with both field variations. Living fronts now include R85/R86.
 Governance26 PASS/four inherited FAIL categories, not all green. Full
 parameter-free SM/TOE remains active and unachieved.
+
+## 2026-10-04 R87 full parent gluing detector and pre seal coverage review
+
+The actual E8 roots and complete A4 product roster reconstruct a genuine
+adjoint character on the same R85/R86 family. Coefficient identities,
+not sample fitting, give a degree-two polynomial in X=t^-5, nonzero
+quadratic coefficient and nonzero derivative at1 for all three characters.
+Infinitely many full-parent gauge classes remain admitted at bare V=0.
+This closes the five-trace parent-type duty, not chirality or selection.
+R40/R52 and B598/B1113 credited. R86 h1>=4/b1=1, R85 charged pairing and
+su5 retained. Smooth harmonic-family dependence and normalized kinetic
+mode remain next bounded physical duties, then generated relation/operator.
+
+Science219c933339108390cd7b2d1c4e30ed8355a58ce7 pushed/server-confirmed
+before first execution/collection.145 exact/209 separate same-author
+modular/root predicates and12 tests(6 new/6 R86) pass unchanged, no repair.
+Six science paths/five source pins/actual stdout-exit custody preserved;
+not independent analytic review, full-suite or main banking.
+
+Fresh main cb09deb04 unchanged; SM27dd37e2 adds pre-seal B1538 instruments,
+not a character result. Run/readout read fully, remaining instruments
+inventoried only. A pinned exploratory synthetic diagnostic shows a
+coverage risk: one present cover can report every cover read, and an
+n=2 candidate with empty Part-F rows returns P7/P8 true. No population
+negative assigned; sender relay requests expected-population/candidate
+coverage before certification. Canonicalv1.10/SM proposals distinct.
+Governance26 PASS/four inherited FAIL categories remain. Full SM/TOE
+objective active and unachieved; act/register and qualia hypothesis visible.

@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October4 R87: the actual relation is detectable even under full E8
+gauge redundancy. Its genuine adjoint character varies quadratically
+with X=t^-5, with nonzero derivative at t=1. Infinitely many admitted
+classes retain bare V=0; this is not a chirality or observer detector.
+145 exact/209 separate modular predicates and12 tests pass unchanged
+under pre-run seal219c9333. Report PARENT_GLUING_CHARACTER.md in the
+physical_bridge reports. Next smooth family kinetics and generated
+act/register dynamics in one model. Supplied join/metric/action prices,
+paired charged counts and su5 remain; full SM/TOE not achieved.
+
 October4 R85/R86: the actual nonsplit rank-five/dual join spans Mat5
 and is conditionally admitted on the supplied compact carrier in the
 same action. Charged representative2/2 and exterior2/2 stay paired;

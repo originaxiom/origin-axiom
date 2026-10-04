@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-04 R87 full E8 detection of the admitted relative family
+
+Actual248 root/module character closes the defining-five gauge-type gap:
+degree-two polynomial in X=t^-5 with nonzero derivative at1 for all three
+tested characters, infinitely many full-parent gauge classes at bare V=0.
+145 exact/209 separate modular/root predicates and12 focused tests pass
+unchanged after science219c9333 pushed/server-confirmed before execution.
+R40/R52 and B598/B1113 precedents retained. Charged pairing and su5 stay;
+no selected SM, chirality or smooth kinetic family claimed. Next finite
+positive kinetic mode and generated registering dynamics in same action.
+Full run/readout reading of SM27dd37e2 pre-seal puncture instruments
+finds synthetic coverage risk, reproduced and relayed without a census
+claim or foreign-branch edits. All living frontdoors updated, governance
+four inherited FAIL categories retained. Full parameter-free SM/TOE active.
+
 ## 2026-10-04 R86 relative gluing freedom and neutral modes
 
 Actual admitted R85 join has h1(End0 E)>=4 at all three characters,

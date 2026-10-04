@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R87: full-parent gauge detection earned for the actual joined
+relative family, not borrowed from the defining five. Genuine E8 adjoint
+character varies and has nonzero derivative at t=1; infinitely many
+gauge classes retain bare V=0.145 exact/209 separate modular predicates
+and12 focused tests pass under unchanged pre-run seal219c9333. Report
+reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER.md. Next smooth
+harmonic-family dependence and finite positive kinetic mode in the same
+action, then generated relation and physical operator/spectrum. Charged
+pairing and su5 unchanged. Full parameter-free SM/TOE remains unachieved.
+
 October4 R85/R86: the actual nonsplit rank-five/dual join spans Mat5
 and is conditionally admitted on the supplied compact carrier in the
 same action. Charged representative2/2 and exterior2/2 stay paired;

@@ -1,6 +1,15 @@
 # Origin Axiom
 
-> **Current physical-bridge checkpoint (2026-09-27, path-local R50).**
+> **Current physical bridge checkpoint October4.**
+> [Full E8 gluing detector](reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER.md)
+> separates infinitely many configurations of the admitted joined family
+> under full parent gauge transformations, with a local detector at t=1.
+> Bare V=0 throughout; smooth family kinetics and physical selection remain
+> open.145 exact/209 modular predicates and12 focused tests pass under
+> unchanged pre-run seal219c9333. Charged pairing and gauge su5 remain,
+> not a derived chiral SM. Earlier dated checkpoints retain their scope.
+
+> **Earlier physical-bridge checkpoint (2026-09-27, path-local R50).**
 > [Second-order neutral relaxation](reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md)
 > cancels the curvature and moment-map residuals through order two in the
 > SAME supplied action, at conditional authored-proof grade. The relaxed

@@ -4628,3 +4628,22 @@ same-theory physical action/domain join; full SM/TOE remains unachieved.
   computed actual d(q0). Sender R86 relay requests independent algebra,
   analytic and dictionary review plus generated relation; no acceptance
   assigned by sender. Full SM/TOE objective ACTIVE/unachieved.
+
+## October4 R87 parent detection and next physical kinetic duty
+
+- PB-PARENT: R86's defining-five type duty is discharged by the actual
+  E8 adjoint character, degree two in X=t^-5 and locally detecting at1.
+  Infinitely many full-parent gauge classes retain V=0. Closing scope
+  PARENT_GLUING_CHARACTER_PROOF.md; no all-t classification or chirality.
+- PB-KINETIC: prove smooth harmonic-family dependence and a finite positive
+  kinetic norm after full gauge projection for this same coordinate/action.
+  Check R51/R53 precedent, do not transfer other-family hypotheses by analogy.
+  No normalized tensor or propagating physical field is yet earned.
+- PB-GENESIS: derive the registering/joining law and common physical domain;
+  neither an arbitrary choice of t nor a fitted extra potential is derivation.
+  Keep act/register throughout; the loop detector is not proved qualia.
+- PB-COORDINATION: SM27dd37e2 pre-seal puncture instruments received, no
+  result assigned. Synthetic readout probe finds population/Part-F coverage
+  risks; sender R87 asks expected-manifest checks and unresolved status
+  for missing data, not a kill of the live puncture route. Independent
+  parent/proof/analytic review owed. Full SM/TOE active and unachieved.

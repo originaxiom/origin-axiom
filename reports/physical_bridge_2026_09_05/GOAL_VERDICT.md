@@ -1,4 +1,17 @@
-# Verdict toward the full physical-theory goal - R86, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R87, updated 2026-10-04
+
+R87 resolves the full-parent gauge-type duty: an actual E8 adjoint
+character is a nonconstant quadratic in the joined relative coordinate,
+with nonzero derivative at t=1 for all three tested characters. Infinitely
+many admitted full-parent gauge classes retain bare V=0. This is a
+supplied-model positive, not physical selection or chirality.145 exact/
+209 separate modular/root predicates and12 tests pass unchanged at
+pushed pre-run seal219c9333. PARENT_GLUING_CHARACTER.md has scope.
+Next check smooth harmonic-family dependence and finite positive kinetics
+in this same action, then derived registering dynamics and common physical
+operator domain. R86 neutral and R85 charged pairing/su5 remain. SM27dd37e2
+new pre-seal readout has a synthetic incomplete-population diagnostic;
+relay requests coverage checks, not a mathematical negative. Full goal active.
 
 R86 verifies the admitted model's neutral freedom, not a program-wide
 negative. Four right-only bending classes survive global coboundaries,

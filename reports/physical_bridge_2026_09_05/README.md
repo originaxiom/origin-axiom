@@ -1,5 +1,16 @@
 # Physical bridge audit — 2026-09-05
 
+October4 R87: a genuine E8 adjoint character detects the actual joined
+relative family, resolving R86's defining-five gauge-type gap. Infinitely
+many full-parent gauge classes at bare V=0; nonzero derivative at t=1,
+not an all-t one-to-one classifier or chirality detector.145 exact/209
+same-author modular/root predicates and12 tests pass unchanged under
+pushed pre-run seal219c9333. PARENT_GLUING_CHARACTER.md records proof,
+inputs and scope. Smooth harmonic-family kinetics and generated relation
+remain open. R85 charged pairing/su5 and R86 neutral positives retained.
+SM27dd37e2 pre-seal puncture readout reviewed; synthetic coverage risk
+relayed, no foreign mathematical result or kill assigned. Full goal ACTIVE.
+
 October4 R86: the actual admitted R85 join has h1(End0 E)>=4 at each
 tested character and b1=1. A relative family changes the mixed loop
 trace while the same bare potential stays zero. These are measurable

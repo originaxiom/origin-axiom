@@ -1,0 +1,35 @@
+{
+  "science_seal": "219c933339108390cd7b2d1c4e30ed8355a58ce7",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_DESIGN.md",
+      "bytes": 5912,
+      "sha256": "c7e471d8904d6ecf1b1f6a99d9de5e9711ca35e5dc676cbc91f27f6942f3b7a9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md",
+      "bytes": 4490,
+      "sha256": "cc963aa5777732531038806c728dddae103ed0faa69b6c12f045a3a717151c60"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_INPUTS.json",
+      "bytes": 1491,
+      "sha256": "885c60f53faaeb37ae3189b3204dba784cadf2cd6813736b2c916ca566f38842"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_gluing_character.py",
+      "bytes": 10786,
+      "sha256": "2d01c892b75acac30355aefed48af400e9e4376510c02033811d7d9c2048a0c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_gluing_character_reference.py",
+      "bytes": 9418,
+      "sha256": "f7608983681f6ba96ff2d985de0406e442615f8ca526c134c7e821b082d61ba9"
+    },
+    {
+      "path": "tests/test_physical_bridge_parent_gluing_character.py",
+      "bytes": 2247,
+      "sha256": "8c594148d50a95dfd8a42e869f0fa64e4eb6b117b04296fd3f233a4e8f664a35"
+    }
+  ]
+}

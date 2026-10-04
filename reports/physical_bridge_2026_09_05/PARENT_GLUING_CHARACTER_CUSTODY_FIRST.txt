@@ -1,0 +1,1 @@
+{"frozen_paths":6,"local_pins":5,"raw_captures":8,"native":145,"reference_modular":209,"focused":12,"scope":"R87 byte/population custody only; not independent proof, full suite, main banking or physical completion"}
