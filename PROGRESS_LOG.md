@@ -17032,3 +17032,18 @@ The possible algebraic current is not a stationary source solution;
 physical operator/domain and generated laws still owed. No other seat
 edited or B/I allocated. Failed atomic patch, guessed paths/ref and
 truncated navigation disclosed in manifest, never read as an absence.
+
+## 2026-10-04 R91 first run failure, before corrected execution
+
+Science8cac7ea4e pushed/server-confirmed; clean preflight6 files/9 pins
+passed. Native38/39 with one full248 roster failure, focused25 passes
+and one failure; reference356 passes but lacked the full-roster check.
+All processes terminal before edits; original raw logs retained unchanged.
+The A5 lowest fundamental weight was misread as conjugate in my predicted
+six sectors. Same full-roster equality retained in unchanged tests;
+native/proof correct the two bars and preserve the original as a failing
+equal-dimension control; reference adds whole-roster coverage. Design
+disclosure and separate correction record explain the post-hoc repair.
+Four old science files changed, two unchanged, one new correction note.
+Corrected bytes resealed/pushed/server-confirmed BEFORE rerun. No repair
+of tolerance, original stdout or criterion, no full-suite/physics verdict.

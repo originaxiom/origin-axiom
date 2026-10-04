@@ -90,7 +90,9 @@ def geometry():
     a15,a20=exterior(6,2),exterior(6,3)
     roster=(tensor3(adjoint(6),z3,z2)+tensor3(z6,adjoint(3),z2)+tensor3(z6,z3,adjoint(2))
             +tensor3(a20,z3,f2)+tensor3(a15,dual(f3),z2)+tensor3(dual(a15),f3,z2)
-            +tensor3(dual(f6),f3,f2)+tensor3(f6,dual(f3),f2))
+            +tensor3(f6,f3,f2)+tensor3(dual(f6),dual(f3),f2))
+    original_fundamentals=roster-tensor3(f6,f3,f2)-tensor3(dual(f6),dual(f3),f2)
+    original_fundamentals+=tensor3(dual(f6),f3,f2)+tensor3(f6,dual(f3),f2)
     wrong=roster-tensor3(a15,dual(f3),z2)-tensor3(dual(a15),f3,z2)
     wrong+=tensor3(a15,f3,z2)+tensor3(dual(a15),dual(f3),z2)
     swap=lambda i:5 if i==4 else 4 if i==5 else i
@@ -103,6 +105,7 @@ def geometry():
         'color_weak_commutant_A5':len(center)==30 and center==set(mr.values()),
         'matrix_root_bijection':len(mr)==len(set(mr.values()))==30 and set(mr.values())<=rr,
         'whole_248_branching':actual==roster and sum(actual.values())==248,
+        'original_fundamental_orientation_rejected':sum(original_fundamentals.values())==248 and original_fundamentals!=actual,
         'wrong_bars_rejected_at_equal_dimension':sum(wrong.values())==248 and wrong!=actual,
         'omitted_Cartans_rejected':Counter(labels(v,a5+a2+a1) for v in rr)!=roster,
         'both_Y_commutants':len(cy)==len(cp)==20 and {reflection(v) for v in cy}==cp,

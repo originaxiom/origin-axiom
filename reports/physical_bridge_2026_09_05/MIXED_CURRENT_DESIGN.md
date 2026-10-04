@@ -1,5 +1,12 @@
 # R91 actual mixed fields, frame transport and same-action duty
 
+Post-first-run note: full248 check FAILED at seal8cac7ea4e because
+the six/bar-six orientation was transcribed incorrectly in the prediction.
+MIXED_CURRENT_CORRECTION.md records the unchanged criterion, original
+failure and corrected reseal. This document is not still an unchanged
+first-run design; original bytes remain at that commit. No physical
+negative or current-map failure follows from the transcription error.
+
 Pre-execution October4 2026. Quantifier: the existing regular A4+A4
 embedding in supplied complex E8, plus a DECLARED constant-field
 comparator on the unit-volume flat three-torus. No selected manifold,

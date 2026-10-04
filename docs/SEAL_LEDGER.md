@@ -1940,3 +1940,20 @@ stationarity. A comparator negative does not kill other profiles/ends.
 | `reports/physical_bridge_2026_09_05/mixed_current.py` | `b6867675f14cfa03e073dd9c53816e36f31caca3b8013bbb934f26fc663c1b41` |
 | `reports/physical_bridge_2026_09_05/mixed_current_reference.py` | `5394c122c2c63ffb3fb3a636cdb1fbca61b90d1ac08aa9ea8a347740a28701c5` |
 | `tests/test_physical_bridge_mixed_current.py` | `7889d37c8d691b718f220df79652a36532954e61ecf05932e0015885424a5f47` |
+
+## Mixed current corrected orientation seal October 4 2026
+
+Original8cac7ea4e native and focused roster failures retained. Four
+science files corrected, two unchanged, one new correction note;
+same full248 criterion, original bars a rejection control. Reference
+coverage extended. Push/server confirmation again BEFORE rerun.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIXED_CURRENT_DESIGN.md` | `cc16d6cc35219b951b6272d93f49db07caa6ae0364cde10f56ae5f9202bb46ac` |
+| `reports/physical_bridge_2026_09_05/MIXED_CURRENT_PROOF.md` | `21d6b895f54abdaf78be9c552cc65c09ff5874bbf3efc85a394fc581a0f9e22f` |
+| `reports/physical_bridge_2026_09_05/MIXED_CURRENT_INPUTS.json` | `7555b98713c5052303c2f259e927250958661b8fd6b07ab0782bdd4a3d7b974e` |
+| `reports/physical_bridge_2026_09_05/mixed_current.py` | `0fb26165ddb8699ab4c1184deb197187d916dc1e03624b37ebc996c8e6d672a1` |
+| `reports/physical_bridge_2026_09_05/mixed_current_reference.py` | `b5de0f22cd583e88c0ba5f81fb0eb5e9ae936cafe9eec796fa0132261f7f4c83` |
+| `tests/test_physical_bridge_mixed_current.py` | `7889d37c8d691b718f220df79652a36532954e61ecf05932e0015885424a5f47` |
+| `reports/physical_bridge_2026_09_05/MIXED_CURRENT_CORRECTION.md` | `8b06fa6e11c0c736371eac86ef9a9d4e1a1b722a304c4eebc2d685daa42099a4` |

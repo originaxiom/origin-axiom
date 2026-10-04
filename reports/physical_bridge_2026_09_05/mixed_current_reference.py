@@ -45,6 +45,31 @@ def comm(a,b):
     return plus(times(a,b),times(b,a),-1)
 
 
+def full_branching(rr):
+    # Independent reflection-generated population; no native implementation.
+    structure=((0,0,0,0,0,0,2,-2),(0,0,0,0,0,2,-2,0),
+               (0,0,0,0,0,0,2,2),(-1,)*8,(0,0,0,2,2,0,0,0))
+    color=((2,-2,0,0,0,0,0,0),(0,2,-2,0,0,0,0,0)); weak=((0,0,0,2,-2,0,0,0),)
+    simples=structure+color+weak
+    actual=Counter(tuple(sum(x*y for x,y in zip(v,a))//4 for a in simples) for v in rr)
+    actual[(0,)*8]+=8
+    def fundamental(n):
+        return [tuple(int(i==k)-int(i==k+1) for k in range(n-1)) for i in range(n)]
+    def reps(n):
+        f=fundamental(n); opposite=lambda ww:[tuple(-v for v in w) for w in ww]
+        ex=lambda k:[tuple(sum(f[i][j] for i in indices) for j in range(n-1)) for indices in combinations(range(n),k)]
+        ad=[tuple(x-y for x,y in zip(a,b)) for i,a in enumerate(f) for j,b in enumerate(f) if i!=j]+[(0,)*(n-1)]*(n-1)
+        return {'1':[(0,)*(n-1)],'f':f,'barf':opposite(f),'ad':ad,'ex2':ex(2),'barex2':opposite(ex(2)),'ex3':ex(3)}
+    a,b,c=reps(6),reps(3),reps(2)
+    sectors=(('ad','1','1'),('1','ad','1'),('1','1','ad'),('ex3','1','f'),
+             ('ex2','barf','1'),('barex2','f','1'),('f','f','f'),('barf','barf','f'))
+    def roster(ss):
+        return Counter(x+y+z for i,j,k in ss for x,y,z in product(a[i],b[j],c[k]))
+    expected=roster(sectors)
+    wrong=roster(sectors[:-2]+(('barf','f','f'),('f','barf','f')))
+    return actual,expected,wrong
+
+
 def closure_mod(seed,p):
     basis={}; matrices=[]
     def insert(m):
@@ -85,6 +110,10 @@ def run():
     for v in sorted(rr):
         test('root_transport_'+str(v),refl(v) in rr and refl(refl(v))==v and dot(refl(v),yp)==dot(v,y))
     test('adjoint_trace_Y',sum(F(dot(v,y),2)**2 for v in rr)==1800)
+    actual,expected,wrong=full_branching(rr)
+    test('corrected_full_248_roster',actual==expected and sum(actual.values())==248)
+    test('original_fundamentals_fail',sum(wrong.values())==248 and wrong!=actual)
+    test('Cartans_required',actual[(0,)*8]==8 and Counter({w:n for w,n in actual.items() if any(w)})!=expected)
     cs=[{(0,5):1,(5,i):1} for i in range(1,4)]
     j={}
     for c in cs:

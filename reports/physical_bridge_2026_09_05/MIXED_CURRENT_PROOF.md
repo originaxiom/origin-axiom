@@ -1,7 +1,9 @@
 # R91 authored argument, not physical completion
 
-Frozen pre-execution. Supplied parent/action/frames; standard Lie theory,
-not a new general theorem or global analytic construction.
+Original argument frozen at8cac7ea4e. Post-first-run correction below:
+the six/bar-six assignments were wrong; full weight check caught them.
+Corrected version resealed before rerun, not an unchanged-first-pass claim.
+Supplied parent/action/frames; no new general theorem or global solution.
 
 ## Actual larger commutant and transport
 
@@ -16,7 +18,14 @@ su5_structure+u1. ALL A5 holonomy leaves su3+su2 without Y.
 Full adjoint branching, A5 first, in OUR orientation:
 
     (35,1,1)+(1,8,1)+(1,1,3)+(20,1,2)
-      +(15,bar3,1)+(bar15,3,1)+(bar6,3,2)+(6,bar3,2).
+      +(15,bar3,1)+(bar15,3,1)+(6,3,2)+(bar6,bar3,2).
+
+The old expression had the two sixes reversed. Weight(0,0,0,0,-1)
+is a LOWEST weight of6, not a weight ofbar6. The literal gauge root
+2(e0-e3) has this A5 weight and color3. Matching dimensions was not
+sufficient. The original expression is now a same-dimension rejection
+control; exact full-root comparison and separate full-roster reference
+are required. Failed original outputs and commit remain recoverable.
 
 Orientation conjugates corresponding factors together. Its charged
 coefficients are not an arbitrary standalone rank-six replacement in
