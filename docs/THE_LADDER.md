@@ -1,5 +1,20 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R94: the actual nonlinear parabolic trace dynamics now has a
+conditional REGULAR LOCAL generating action with its orientation
+register retained, including the nonreal monodromy-fixed pair.73 exact/
+1913 separate-reference/20 focused tests pass unchanged at pushed/
+server-confirmed pre-run a755ef0254. R28/B21/B448/B1341 correction
+already own the linear/action/Poisson/Markov dictionary; no rediscovery
+or universal observer claim. Forgetting the sign descends updates;
+ordinary form needs the sign or a retained orientation-line type.
+REGISTER_ACTION.md/PROOF.md in the physical_bridge report records
+scope, branch/DEL safeguards and the invalidated first governance run.
+Next an ACTUAL common map into the E8 action/source/operator/domain;
+no selected SM phase, chiral spectrum, quantum law or qualia derived.
+R93's admitted conditional SM gauge phase and its costs remain. Full
+parameter-free SM/TOE ACTIVE/unachieved,0 of19 unchanged.
+
 October4 R93 constructive phase earned conditionally: the actual R85
 compact rank-five/dual join and R86 primitive one-cycle carry EXISTING
 commuting SU5 Wilson fields with full connected SM gauge group, V=0

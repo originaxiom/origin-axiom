@@ -1,0 +1,82 @@
+ABSENCE SWEEP for 'alternating.{0,30}(action|Lagrang)|orientation.{0,12}(register|line).{0,40}(action|symplec)|anti.symplectic.{0,30}(lift|variational)|Markov.{0,35}generating' -- 19 heads enumerated
+  audit/fork-2026-09-20                                   8b89d8fb2  content:   5  filenames:  0
+      8b89d8fb2:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      8b89d8fb2:frontier/B774_chord_pass/stageA_scan.json
+      8b89d8fb2:reports/physical_bridge_2026_09_05/SOURCE_ACTION_NATIVE_FIRST.json
+  audit/physical-bridge-2026-09-05                        673c5e5dd  content:   5  filenames:  0
+      673c5e5dd:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      673c5e5dd:frontier/B774_chord_pass/stageA_scan.json
+      673c5e5dd:reports/physical_bridge_2026_09_05/SOURCE_ACTION_NATIVE_FIRST.json
+  main                                                    f06d34054  content:   3  filenames:  0
+      f06d34054:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      f06d34054:frontier/B774_chord_pass/stageA_scan.json
+      f06d34054:tests/test_b774_chordpass.py
+  origin/art/camper-van-bar                               b3745696c  content:   3  filenames:  0
+      b3745696c:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      b3745696c:frontier/B774_chord_pass/stageA_scan.json
+      b3745696c:tests/test_b774_chordpass.py
+  origin/audit/b775-braver-questions                      53da05f6c  content:   2  filenames:  0
+      53da05f6c:frontier/B774_chord_pass/stageA_scan.json
+      53da05f6c:tests/test_b774_chordpass.py
+  origin/audit/fork-2026-09-20                            8b89d8fb2  content:   5  filenames:  0
+      8b89d8fb2:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      8b89d8fb2:frontier/B774_chord_pass/stageA_scan.json
+      8b89d8fb2:reports/physical_bridge_2026_09_05/SOURCE_ACTION_NATIVE_FIRST.json
+  origin/audit/physical-bridge-2026-09-05                 673c5e5dd  content:   5  filenames:  0
+      673c5e5dd:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      673c5e5dd:frontier/B774_chord_pass/stageA_scan.json
+      673c5e5dd:reports/physical_bridge_2026_09_05/SOURCE_ACTION_NATIVE_FIRST.json
+  origin/claude/determined-hopper-t1cmii                  7cda35aa4  content:   3  filenames:  0
+      7cda35aa4:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      7cda35aa4:frontier/B774_chord_pass/stageA_scan.json
+      7cda35aa4:tests/test_b774_chordpass.py
+  origin/claude/magical-wright-vwrmtt                     0043be2b9  content:   3  filenames:  0
+      0043be2b9:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      0043be2b9:frontier/B774_chord_pass/stageA_scan.json
+      0043be2b9:tests/test_b774_chordpass.py
+  origin/claude/new-session-qor5up                        3851df2aa  content:   2  filenames:  0
+      3851df2aa:frontier/B774_chord_pass/stageA_scan.json
+      3851df2aa:tests/test_b774_chordpass.py
+  origin/claude/outside-bench                             13d2c5b63  content:   3  filenames:  0
+      13d2c5b63:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      13d2c5b63:frontier/B774_chord_pass/stageA_scan.json
+      13d2c5b63:tests/test_b774_chordpass.py
+  origin/claude/paper-review-verification-kaz3f5          5d58b935b  content:   3  filenames:  0
+      5d58b935b:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      5d58b935b:frontier/B774_chord_pass/stageA_scan.json
+      5d58b935b:tests/test_b774_chordpass.py
+  origin/claude/paper-verification-ufp0zn                 5dde7b3ef  content:   3  filenames:  0
+      5dde7b3ef:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      5dde7b3ef:frontier/B774_chord_pass/stageA_scan.json
+      5dde7b3ef:tests/test_b774_chordpass.py
+  origin/claude/physics-seat-evaluation-8dkbrl            659487bbd  content:   3  filenames:  0
+      659487bbd:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      659487bbd:frontier/B774_chord_pass/stageA_scan.json
+      659487bbd:tests/test_b774_chordpass.py
+  origin/claude/standard-model-derivation-0qt6ao          5869a0563  content:   3  filenames:  0
+      5869a0563:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      5869a0563:frontier/B774_chord_pass/stageA_scan.json
+      5869a0563:tests/test_b774_chordpass.py
+  origin/codex/seat-r001                                  f7a49536b  content:   3  filenames:  0
+      f7a49536b:frontier/B774_chord_pass/stageA_scan.json
+      f7a49536b:memos/YUKAWA_CUP_PRODUCTS_308.md
+      f7a49536b:tests/test_b774_chordpass.py
+  origin/main                                             88ed69819  content:   3  filenames:  0
+      88ed69819:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      88ed69819:frontier/B774_chord_pass/stageA_scan.json
+      88ed69819:tests/test_b774_chordpass.py
+  origin/paper/structure-genesis-first                    a31456d2d  content:   2  filenames:  0
+      a31456d2d:frontier/B774_chord_pass/stageA_scan.json
+      a31456d2d:tests/test_b774_chordpass.py
+  origin/sep16-branch                                     3205984b4  content:   3  filenames:  0
+      3205984b4:frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      3205984b4:frontier/B774_chord_pass/stageA_scan.json
+      3205984b4:tests/test_b774_chordpass.py
+  deleted-in-history paths matching: 0
+  working tree (untracked included): 5
+      frontier/B1212_two_replies/memos/YUKAWA_CUP_PRODUCTS_308.md
+      frontier/B774_chord_pass/stageA_scan.json
+      reports/physical_bridge_2026_09_05/SOURCE_ACTION_NATIVE_FIRST.json
+      reports/physical_bridge_2026_09_05/source_action.py
+      tests/test_b774_chordpass.py
+VERDICT: PRESENT -- on 19 head(s), working tree. 'We don't have it' may NOT be written.

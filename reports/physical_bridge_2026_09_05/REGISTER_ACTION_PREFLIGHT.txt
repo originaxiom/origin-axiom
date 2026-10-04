@@ -1,0 +1,1 @@
+{"head":"a755ef0254a585875e76dc297574b4db4278afce","server_confirmed":true,"clean_before_import":true,"science_files":6,"input_pins":15,"pdfs":2,"latest_ledger_paths":1447,"ledger_mismatches":0}

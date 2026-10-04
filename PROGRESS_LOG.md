@@ -17182,3 +17182,22 @@ credited, not rediscovered as new. Design/proof/inputs/two producers/eight
 LIVE tests frozen for pre-run commit/push/server confirmation; no science
 run claimed. Physical map into the E8 action/domain and phase selection/
 chiral spectrum remain OPEN. Full parameter-free SM/TOE active/unachieved.
+
+R94 result October4: pre-run a755ef0254 pushed/server-confirmed before
+science import/collection; unchanged clean-tree73 native/1913 separate-
+reference/20 focused tests pass, true exits0. Exact local nonlinear
+action/sign-register/typed-quotient/DEL and nonreal regular orbit checks
+retained; physical common-action/domain/selection map remains OPEN.
+REGISTER_ACTION.md/PROOF.md/RECEIPTS.json retain scopes and all raw first
+outputs. After science, result-seal added while first governance remained
+live: its26PASS/fourFAIL output and exit1 preserved but INVALIDATED for
+final-tree certification. Separate unchanged publication rerun required.
+No old science or negative overwritten, no new global B/I/H, no main
+bank/full-suite/nonauthor acceptance or parameter-free SM/TOE completion.
+
+R94 publication governance rerun after first process ended:26PASS/four
+inherited FAIL categories, true exit1; same offender paths/41 stale
+relays,89 OPEN and review due332. Tree unchanged during this run; first
+invalidated output preserved separately. Full six science files,15
+immutable pins/two source PDFs and all true run exits/digests match.
+No gate waiver, full green/full suite or independent/main-bank claim.

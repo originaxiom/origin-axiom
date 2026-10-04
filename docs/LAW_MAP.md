@@ -1388,3 +1388,20 @@ is the actual R85 compact joins and EXISTING commuting gauge fields.
 B862 already owns the conditional elementary Z6 kernel. SM cocharacter,
 phase selection, physical dictionary/light-roster lifting and generated
 register/join/action/domain remain duties, not laws silently paid here.
+
+## R94 conditional nonlinear register/action application October4
+
+Standard symplectic/variational inputs, not a novel genesis theorem or
+a physical E8 action map. Quantifier: declared L/R/P/inverse trace moves,
+regular Fricke leaves and local nonsingular parabolic generating charts.
+
+| scoped result | proof/input and live-lock boundary |
+|---|---|
+| Full moves transport determinant and preserve s*omega on the two-sheet register | REGISTER_ACTION_PROOF.md sections1-2, Goldman pairing supplied; tests/test_physical_bridge_register_action.py::test_every_primitive_move_preserves_leaf_and_transports_all_poisson_components; composition extends the primitive check, not a census completeness claim |
+| Forgetting sign descends updates but not the ordinary form; orientation-line-valued quotient retained | REGISTER_ACTION_PROOF.md section2/ACT_REGISTER prior; tests/test_physical_bridge_register_action.py::test_orientation_register_transport_and_unsafe_scalar_form_quotient; no ban on all quotients/observers |
+| Regular LOCAL nonlinear generating action on kappa=-2, correct signed first variation | REGISTER_ACTION_PROOF.md sections3-4, Marsden-West/Poincare inputs; tests/test_physical_bridge_register_action.py::test_regular_generating_form_derivatives_and_reject_wrong_sign and test_signed_first_variation_matches_momenta_not_their_sum; not global action/positive physical kinetics |
+| Nonreal monodromy-fixed pair is regular and reached by matched local branches | REGISTER_ACTION_PROOF.md section5/B448 geometric attribution; tests/test_physical_bridge_register_action.py::test_nonreal_monodromy_orbit_regular_chart_and_floquet_not_singular_origin; discreteness not newly certified, Floquet polynomial not a mass |
+
+R28 already has the linear alternating/full nonlinear multiplier actions;
+B1341 already carries its scope correction. No physical source/domain,
+selected SM phase, chirality, quantum law, qualia or full SM/TOE derived.

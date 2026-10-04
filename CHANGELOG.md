@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-04 R94 executed: nonlinear registered action retained conditionally
+
+Unchanged pre-run a755ef0254:73 exact/1913 separate-reference/20 focused
+tests pass, true exits0. Actual parabolic local generating chart and
+nonreal monodromy-fixed pair retained; no linear wrong-leaf substitute.
+R28/B21/B448 credited. Update quotient remains safe; ordinary form needs
+sign or orientation-line type. REGISTER_ACTION.md has proof/custody and
+physical-map costs. First governance INVALIDATED by concurrent addition
+of result-seal, explicitly preserved; later final-tree rerun separate.
+Not physical E8 action selection, chiral SM or full SM/TOE completion.
+
 ## 2026-10-04 R94 pre-execution: nonlinear action with the register retained
 
 REGISTER_ACTION_DESIGN.md/PROOF.md and two separate producers/LIVE tests

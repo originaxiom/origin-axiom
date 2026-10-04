@@ -4726,3 +4726,14 @@ run or physical law asserted yet. Next earn the ACTUAL common map into
 the E8 action/operator/end domain; a trace action is not a chirality or
 SM-phase selector. Supplied-model R93 positive and its physical costs
 remain; full objective active, no programme-wide negative or B allocation.
+
+R94 executed successor:73 exact/1913 separate-reference/20 focused tests
+pass unchanged at pre-run a755ef0254. Closing conditional sentence:
+"This pays one action/register compatibility duty. It does NOT transport
+F into the R93 E8 field functional, select the SM cocharacter/phase,
+generate a fermion end law/source, or derive a quantum state."
+REGISTER_ACTION_PROOF.md section6 retains this scope, standard inputs,
+orientation-line safe alternative and independent-review duty. Next earn
+the actual common physical map, then phase/source/domain selection and
+one configuration's complete spectrum/interactions. No negative about
+the larger architecture or physics-grade observer/qualia follows.

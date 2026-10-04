@@ -1,0 +1,28 @@
+already-banked: terms ['orientation', 'register', 'alternating', 'nonlinear', 'action']
+  261 corpus hits; 4 SETTLED arcs matching >= 3 of 5 terms
+  *** [ 3 terms] NEGATIVE  B1174_z2_identification
+           THE Z/2-IDENTIFICATION CELL (R50-3; the register's Q1 = B1169's S1, double-discovered by the sweep and the meditation independently). THE HYPOTHESIS AS POSED -- the four program Z/2's (B942 chirality/Gal(K/Q), B957 value
+  *** [ 3 terms] RETRACTED B1181_amphichirality_closure
+           RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 ret
+  *** [ 3 terms] PROVED    B1184_quine_synthesis
+           THE QUINE SYNTHESIS -- SELF-NAMING WITHOUT SELF-SIGNING (the S4 rung dispositioned; the observer layer's four-rung table closes). THE CORRECTION FIRST: the register carried 'QP-1 (the quine) open' -- STALE: QP-1 was RUN 
+  *** [ 3 terms] PROVED    B1239_quarter_class_is_cusp_local
+           THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census in the zero class mod 1/2 at quad-double (max 9.04e
+  *** [ 2 terms] PROVED    B1003_axiom_prices
+           THE AXIOM PRICES ARE PAID: FIVE ROBUST, TWO FRAGILE -- AND B998 IS CORRECTED. B998 found THEOREM_LEDGER citing test_b749_genesis_forks.py as the lock for C1-C4 while that file tests only F4-F7, with no F2 and no F8; that
+  *** [ 2 terms] PROVED    B1012_branch_verifications
+           TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's harvest head), AND THE HARVEST REGISTERED SO NOTHING GOES SILENT. (1) K-BLINDNESS VERIFIED WITH A SHARPENING: Guk
+  *** [ 2 terms] PROVED    B1037_theta_join
+           THE THETA-JOIN (plan Arc 4, sealed 63cd367a pre-compute): DISTINCT -- the joined-results instrument's first target resolves NEGATIVE at its first sealed test, and the declared prior (JOINED, weak) was WRONG, recorded und
+  *** [ 2 terms] PROVED    B1104_fourd_suspension
+           THE 4D SUSPENSION SELECTION TEST (L177, owner-elected, prereg-sealed): over the COMPLETE finite menu MCG(m004) = Isom = D4 (Mostow CITED; 8 elements, table-exact), C1 FAIL informatively -- no infinite-order element exist
+      [ 2 terms] OPEN      B1155_seam_a
+           SEAM-A (THE PRIZE) = INDETERMINATE, leaning MISMATCH. The seam asks whether codex's heterotic realization (its Q(zeta12)/dP6xdP6 structure) is the ARCHIMEDEAN infinite-place of the adelic object m004 (matching the arithm
+      [ 2 terms] OPEN      B1171_seam_harvest
+           THE SEAM HARVEST (batched integrate-don't-merge, the B1158 pattern; the lose-nothing sweep's urgent-reclaim #2 executed in one sitting). FIVE cross-seat results landed on main, each verified on this bench: (1) cc3 B8144 
+      [ 2 terms] OPEN      B1175_charter_close_harvest
+           THE CHARTER-CLOSE HARVEST (integrate-don't-merge; cloud + codex credited). CLOUD FILED ADDENDUM 1 (their own amendment rule) -- every charter row moved on the B1165-B1173 + R018-R022 evidence: G-IDENT re-typed per B1165 
+      [ 2 terms] OPEN      B1177_instrument_bundle
+           THE INSTRUMENT BUNDLE (R50-5; the lose-nothing register's Wave 2, instrument half). (1) L183 THE REPRODUCER SWEEP run with a two-stage heuristic: the naive scan flagged 176 arcs; adding the test-lock + root-script stages
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.

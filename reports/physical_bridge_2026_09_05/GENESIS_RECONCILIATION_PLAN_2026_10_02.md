@@ -1,5 +1,18 @@
 # Genesis checkpoint: reconcile the foundations, then return to physics
 
+Currency wrapper October4 R94 (historical plan below retained): canonical
+main GENESISv1.10 at88ed69819 personally read completely; PF1-PF3 remain
+postulates, SE2 CHOSEN, FK8/10/11/12 open. R93 admits a conditional SM
+connected phase in the supplied compact E8 model, with charged pairing
+and selection/lifting costs. R94 now supplies a regular LOCAL nonlinear
+trace action retaining the determinant register;73 exact/1913 separate-
+reference/20 tests pass at pre-run a755ef0254. R28 already owns alternating
+linear/full-map multiplier actions. These are not principle-to-field
+derivations; stage5 still needs an ACTUAL common action/operator/domain
+map and selection/chiral spectrum. Larger SM cover room positive read
+at5869a0563 retained, not admitted generations or completed count census.
+No plan-stage/canonical status silently upgraded; full goal unchanged.
+
 October 2, 2026. Owner-requested implementation plan, version 0.5.
 This is design and source reconciliation, not a new scientific arc or a
 certificate of minimal axioms. It continues the [approved mission](PHYSICS_MISSION.md):

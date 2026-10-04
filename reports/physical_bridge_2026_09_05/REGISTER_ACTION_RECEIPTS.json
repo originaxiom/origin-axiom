@@ -1,0 +1,299 @@
+{
+  "raw_directory_basename": "oa-register-action.6EzM8H",
+  "captures": {
+    "already_banked": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/checks/already_banked.py",
+        "orientation register alternating nonlinear action"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.5940010000485927,
+      "log_bytes": 3616,
+      "log_sha256": "8b59525a9bae819b466d4828264e5a50181742005973be47c129d7c83b9a4417"
+    },
+    "atlas": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/atlas/query.py",
+        "card"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.08508399990387261,
+      "log_bytes": 735,
+      "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+    },
+    "prior_sweep": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/checks/absence_sweep.py",
+        "alternating.{0,30}(action|Lagrang)|orientation.{0,12}(register|line).{0,40}(action|symplec)|anti.symplectic.{0,30}(lift|variational)|Markov.{0,35}generating",
+        "--regex"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 62.592895000008866,
+      "log_bytes": 5787,
+      "log_sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d"
+    },
+    "commit_seal": {
+      "command": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "commit",
+        "-m",
+        "Seal R94 nonlinear tracked variational action before exact execution"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.11221499997191131,
+      "log_bytes": 703,
+      "log_sha256": "29658cff937efb45bb5cb65efc38cf610ed383d5420048783cdd51033f0cfe23"
+    },
+    "push_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "push",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.5129549999255687,
+      "log_bytes": 117,
+      "log_sha256": "73aa66eb1bc47c852b3541dbcc8dc80266c3c4e67eb668a15265974472a462d3"
+    },
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8850569999776781,
+      "log_bytes": 85,
+      "log_sha256": "74b6a6384a1f4fb18f695170efeba324daedab2790abe31bbc2fb5204aea15b2"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "-rjson",
+        "-rdigest",
+        "-ropen3",
+        "-e",
+        "\nbase=\"reports/physical_bridge_2026_09_05/\"\nhead=Open3.capture3(\"git\",\"rev-parse\",\"HEAD\")[0].strip\nabort(\"unclean\") unless Open3.capture3(\"git\",\"status\",\"--porcelain\")[0].empty?\nabort(\"server mismatch\") unless File.read(\"<raw-root>/server_seal.log\").split.first==head\npre=JSON.parse(File.read(base+\"REGISTER_ACTION_PRESEAL.json\"))\npre[\"science_files\"].each{|r|b=File.binread(r[\"path\"]);abort(r[\"path\"]) unless b.bytesize==r[\"bytes\"] && Digest::SHA256.hexdigest(b)==r[\"sha256\"]}\ninputs=JSON.parse(File.read(base+\"REGISTER_ACTION_INPUTS.json\"))\ninputs[\"sources\"].each{|r|b,e,s=Open3.capture3(\"git\",\"show\",r[\"ref\"]+\":\"+r[\"path\"]);abort(r[\"path\"]) unless s.success? && b.bytesize==r[\"bytes\"] && Digest::SHA256.hexdigest(b)==r[\"sha256\"]}\ninputs[\"external_pdfs\"].each{|r|b=File.binread(File.join(\"<raw-root>\",r[\"external_basename\"]));abort(\"PDF mismatch\") unless b.bytesize==r[\"bytes\"] && Digest::SHA256.hexdigest(b)==r[\"sha256\"]}\nlast={};File.foreach(base+\"ARTIFACT_HASHES.txt\"){|l|a=l.strip.split(/\\s+/,2);last[a[1]]=a[0] if a[0] && a[0].match?(/\\A[0-9a-f]{64}\\z/) && a[1]}\nbad=last.select{|p,h|!File.file?(p) || Digest::SHA256.file(p).hexdigest!=h}\nabort(\"ledger mismatch \"+bad.keys.join(\",\")) unless bad.empty?\nputs JSON.generate(head:head,server_confirmed:true,clean_before_import:true,science_files:pre[\"science_files\"].length,input_pins:inputs[\"sources\"].length,pdfs:inputs[\"external_pdfs\"].length,latest_ledger_paths:last.length,ledger_mismatches:0)\n"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.1135850000428036,
+      "log_bytes": 195,
+      "log_sha256": "7fe73c76733b5c33648fd5fc96bbf5d38beb795ab45d70f472d348a5985a9a66"
+    },
+    "native": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/register_action.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.5913040000014007,
+      "log_bytes": 2396,
+      "log_sha256": "1af81ed098aeb5ff000f66f73d2df9d08d77eae0188a3907dd6f0ab39c8a7435"
+    },
+    "reference": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/register_action_reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.0311490000458434,
+      "log_bytes": 53920,
+      "log_sha256": "f9a6aff90ef125dbeb1faf425a959d11373c691979c1dc2293fcee7d5c3fb0e1"
+    },
+    "focused": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "-m",
+        "pytest",
+        "-p",
+        "no:cacheprovider",
+        "-q",
+        "tests/test_physical_bridge_register_action.py",
+        "tests/test_physical_bridge_act_register.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.161619000020437,
+      "log_bytes": 99,
+      "log_sha256": "b6f7b3a7886df32d00a3e366a861cae22bdc418b043e57d09ef55b5d57da2899"
+    },
+    "post_science": {
+      "command": [
+        "ruby",
+        "-rjson",
+        "-rdigest",
+        "-ropen3",
+        "-e",
+        "\nbase=\"reports/physical_bridge_2026_09_05/\";raw=\"<raw-root>\"\nhead=Open3.capture3(\"git\",\"rev-parse\",\"HEAD\")[0].strip\nabort(\"HEAD changed\") unless head==\"a755ef0254a585875e76dc297574b4db4278afce\"\nabort(\"tree changed during science\") unless Open3.capture3(\"git\",\"status\",\"--porcelain\")[0].empty?\npre=JSON.parse(File.read(base+\"REGISTER_ACTION_PRESEAL.json\"));pre[\"science_files\"].each{|r|b=File.binread(r[\"path\"]);abort(r[\"path\"]) unless b.bytesize==r[\"bytes\"] && Digest::SHA256.hexdigest(b)==r[\"sha256\"]}\nsummaries={}\n%w[native reference].each do |stem|\n receipt=JSON.parse(File.read(File.join(raw,stem+\".json\")));b=File.binread(File.join(raw,stem+\".log\"));d=JSON.parse(b)\n abort(\"invalid \"+stem) unless receipt[\"exit_code\"]==0 && receipt[\"signal\"].nil? && receipt[\"log_bytes\"]==b.bytesize && receipt[\"log_sha256\"]==Digest::SHA256.hexdigest(b) && d[\"failed\"]==[] && d[\"passed\"]==d[\"total\"] && d[\"checks\"].length==d[\"total\"] && d[\"checks\"].values.all?{|v|v==true}\n summaries[stem]=d.reject{|k,v|k==\"checks\"}\nend\n%w[native reference].each{|stem|abort(\"unearned goal\") unless summaries[stem][\"physical_goal_achieved\"]==false}\nr=JSON.parse(File.read(File.join(raw,\"focused.json\")));l=File.binread(File.join(raw,\"focused.log\"));abort(\"focused mismatch\") unless r[\"exit_code\"]==0 && r[\"signal\"].nil? && r[\"log_bytes\"]==l.bytesize && r[\"log_sha256\"]==Digest::SHA256.hexdigest(l) && l.match?(/20 passed in [0-9.]+s/)\nputs JSON.generate(head:head,unchanged_science_files:6,clean_after_science:true,summaries:summaries,focused:20,bytes_and_true_exits_match:true,non_author_acceptance:false,physical_goal_achieved:false)\n"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.32724899996537715,
+      "log_bytes": 761,
+      "log_sha256": "1854a79d5b4dc95fc1af937a85b791acfa2112a0723920a4723cf994cfce2f56"
+    },
+    "governance_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 14.477278000093065,
+      "log_bytes": 2284,
+      "log_sha256": "7982bdc4ec2423229879dceef370b28403f8439a3d8e05d1a563c651f382004c"
+    },
+    "governance_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 14.1342870000517,
+      "log_bytes": 2284,
+      "log_sha256": "9a5be1557f5b888d32c0a994460f22bc13e4a902da564cabd07930734ed6ceff"
+    }
+  },
+  "public_logs": {
+    "native": "REGISTER_ACTION_NATIVE_FIRST.json",
+    "reference": "REGISTER_ACTION_REFERENCE_FIRST.json",
+    "focused": "REGISTER_ACTION_FOCUSED_FIRST.txt",
+    "preflight": "REGISTER_ACTION_PREFLIGHT.txt",
+    "server_seal": "REGISTER_ACTION_SERVER_SEAL.txt",
+    "post_science": "REGISTER_ACTION_POST_SCIENCE.txt",
+    "governance_first": "REGISTER_ACTION_GOVERNANCE_FIRST_INVALIDATED.txt",
+    "prior_sweep": "REGISTER_ACTION_PRIOR_SWEEP.txt",
+    "already_banked": "REGISTER_ACTION_ALREADY_BANKED.txt",
+    "atlas": "REGISTER_ACTION_ATLAS.txt",
+    "governance_final": "REGISTER_ACTION_GOVERNANCE_FINAL.txt"
+  },
+  "native_summary": {
+    "failed": [
+
+    ],
+    "generated_quantum_law": false,
+    "native_is_analytic_proof": false,
+    "non_author_acceptance": false,
+    "passed": 73,
+    "physical_SM_selection_derived": false,
+    "physical_chirality_derived": false,
+    "physical_goal_achieved": false,
+    "scope": "R94 regular Fricke leaves and declared move/sign lift; local nonlinear action only",
+    "total": 73
+  },
+  "reference_summary": {
+    "analytic_proof_by_sampling": false,
+    "author_independent": false,
+    "failed": [
+
+    ],
+    "finite_word_seeds": 3,
+    "finite_words_per_seed": 156,
+    "passed": 1913,
+    "physical_goal_achieved": false,
+    "total": 1913
+  },
+  "governance_first_invalidated_by_concurrent_publication_edit": true,
+  "governance_first_invalidation_reason": "REGISTER_ACTION_SEAL.json was added after science while first governance remained live; this first output is preserved but does not certify final tree.",
+  "same_author_routes": true,
+  "independent_analytic_acceptance": false,
+  "full_suite_run": false,
+  "main_banked": false,
+  "physical_goal_achieved": false,
+  "governance_final_summary": {
+    "passes": 26,
+    "fails": 4,
+    "true_exit": 1,
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "unchanged_old_offender_paths": true,
+    "stale_relays": 41,
+    "open_relays": 89,
+    "review_due": 332,
+    "unchanged_tree_during_run": true,
+    "waived": false
+  },
+  "custody_checks": {
+    "custody_first": {
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/register_action_receipt_check.rb",
+          "<raw-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.982787000015378,
+        "log_bytes": 270,
+        "log_sha256": "b9c23787816b329a5a4adef8c74559a0f86dc4b25ce3defc82b1b508cc55fbbb"
+      },
+      "public_log": "REGISTER_ACTION_CUSTODY_FIRST.txt"
+    },
+    "custody_final": {
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/register_action_receipt_check.rb",
+          "<raw-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.9473569999681786,
+        "log_bytes": 270,
+        "log_sha256": "0e48b5db1033f92b774926c9664616f287e49b128d2e31c5988ec9bd54292698"
+      },
+      "public_log": "REGISTER_ACTION_CUSTODY_FINAL.txt"
+    }
+  }
+}

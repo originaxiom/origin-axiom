@@ -1,0 +1,8 @@
+THE RECURRENCE ATLAS -- context card
+  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}
+  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur
+  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)
+  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422
+  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
+  top meeting-point candidates: B530, B156, B521, B309, B598, B1189
+  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())

@@ -1,0 +1,41 @@
+{
+  "commit": "a755ef0254a585875e76dc297574b4db4278afce",
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_DESIGN.md",
+      "bytes": 5324,
+      "sha256": "be3f0b4e6fdf9c45e8edc6ffb057be42dd4293c87c03a51c49c69bcdd31cf08c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PROOF.md",
+      "bytes": 8557,
+      "sha256": "6f15a77b434d2b9787d9f90b01c2d7b684f468e225eb872ef4511fbe64734252"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_INPUTS.json",
+      "bytes": 5795,
+      "sha256": "6720ab9e1459ece6df7360722083869f47094746e13f3175c5cc9808d421fd9a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/register_action.py",
+      "bytes": 7483,
+      "sha256": "036b2f24002f276bd983761ff477d3513780669358451265916ee78125d9dc41"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/register_action_reference.py",
+      "bytes": 5645,
+      "sha256": "b1db3e2467c4f4a7b4ddbe9036f26cb28712d34045131b4900a7a2339a235008"
+    },
+    {
+      "path": "tests/test_physical_bridge_register_action.py",
+      "bytes": 2671,
+      "sha256": "2ba2a357ea88cd34887c1259d4ded803334055bde8e13e42d3158b7324dee81a"
+    }
+  ],
+  "server_confirmed_before_first_science_import": true,
+  "tree_read_only_during_science": true,
+  "unchanged_first_run": true,
+  "non_author_acceptance": false,
+  "analytic_proof_independently_verified": false,
+  "physical_goal_achieved": false
+}
