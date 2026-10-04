@@ -1,9 +1,10 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
-October4 path-local R85/R86/R87 research lemmas, not new B-law banking:
+October4 path-local R85/R86/R87/R88 research lemmas, not new B-law banking:
 
 | Conditional result | Exact scope and evidence |
 |---|---|
+| Local compact kinetic curve | Actual relative family has an authored fixed-bundle/Jacobi/implicit-function proof of smooth local admitted fields and 0<K0<infinity after full gauge projection, same supplied action. Numerical K0/nonlinear truncation/quantum effects not computed. reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md; tests/test_physical_bridge_compact_gluing_kinetic.py;64 exact/66 modular predicates and12 tests pass unchanged at pre-run seal125e49a9. Finite checks do not certify analytic proof; R47/R51/R53 credited. |
 | Full parent detector | Actual248 root/module character on the joined family is a nonconstant degree-two polynomial in X=t^-5, derivative nonzero at1 for all three tested characters. Infinitely many complex-E8 gauge classes retain bare V=0; no all-t classification, smooth family kinetics or chirality. reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md; tests/test_physical_bridge_parent_gluing_character.py;145 exact/209 modular/root predicates and12 tests pass unchanged after pre-run seal219c9333. R40/R52 and B598/B1113 credited. |
 | Joined admission | Actual three-character R75/dual torus join has full Mat5; compact harmonic theorem and same-action transport apply to supplied carrier/metric/parent. Representative charged2/2 and exterior2/2, gauge su5 not SM. reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md; tests/test_physical_bridge_joined_background.py. |
 | Neutral bend injection | Opposite piece algebras21, traceless peripheral centralizer4, coboundary rank24 raised to28 give h1(End0 E)>=4; trivial H1=1. Relative scaling preserves admission but changes a mixed loop trace. reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md; tests/test_physical_bridge_gluing_freedom.py;84 exact/141 modular predicates and12 focused tests pass at repaired pre-run checkpoint b07498dce. |

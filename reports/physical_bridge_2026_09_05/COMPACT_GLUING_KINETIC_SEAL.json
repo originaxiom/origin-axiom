@@ -1,0 +1,35 @@
+{
+  "science_seal": "125e49a92f93c4e321573e6cc4d696236e5a5fa0",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_DESIGN.md",
+      "bytes": 4529,
+      "sha256": "c5bffaaf052a6ed175c5a17aceb7e1331a4c350d9924abf30b6401f62b405909"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md",
+      "bytes": 8040,
+      "sha256": "7540f6d2abafd4451913f07ee4456f0d6207ec5eff7427447926a67066abcef6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_INPUTS.json",
+      "bytes": 2855,
+      "sha256": "92c0b07cea42cdf8b72469d00015960187761afb6bd4c68a56337638b69a705d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/compact_gluing_kinetic.py",
+      "bytes": 5382,
+      "sha256": "909919380d288636b8d07b879e69838aa70cf349a5d1330cdd9f978a64d97e95"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/compact_gluing_kinetic_reference.py",
+      "bytes": 5121,
+      "sha256": "72e3d8e583155de88fbb376e4bbfbefd9f4185e965834ad4b46a7bb18bff033f"
+    },
+    {
+      "path": "tests/test_physical_bridge_compact_gluing_kinetic.py",
+      "bytes": 1779,
+      "sha256": "317ebf60445820cb1c46b89d083e045b8e5d8d9f3a35a569d05431aa55efc729"
+    }
+  ]
+}

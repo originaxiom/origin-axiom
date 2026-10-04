@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+October4 R88: the actual relative coordinate has an authored LOCAL
+smooth harmonic-family and positive finite quadratic kinetic argument
+in the same supplied compact action, not just a static detector.64
+exact/66 separate modular predicates and12 tests pass unchanged under
+pre-run seal125e49a9. COMPACT_GLUING_KINETIC.md gives proof grade,
+source method limits and custody error disclosure. Numerical K0 and
+independent analytic review owed; paired charged counts/su5 remain.
+Next generated registering/joining/action law and common physical
+fermion domain. No physical observer/qualia or full SM/TOE derived.
+
 October4 R87: a genuine E8 adjoint character detects the actual joined
 relative family, resolving R86's defining-five gauge-type gap. Infinitely
 many full-parent gauge classes at bare V=0; nonzero derivative at t=1,

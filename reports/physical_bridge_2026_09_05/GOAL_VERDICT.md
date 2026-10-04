@@ -1,4 +1,16 @@
-# Verdict toward the full physical-theory goal - R87, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R88, updated 2026-10-04
+
+R88 joins the actual relative coordinate to local classical kinetics:
+an authored compact implicit-function proof gives smooth admitted fields
+and finite positive horizontal quadratic norm in the same supplied action.
+64 exact/66 modular predicates and12 tests pass unchanged at pre-run
+seal125e49a9. COMPACT_GLUING_KINETIC.md separates finite checks from
+the analytic proof, which still needs independent review. K0 is not
+numerically predicted; source-free V remains zero. This is a neutral
+model degree of freedom, not selected SM breaking or physical chirality.
+The next core construction is the generated registering/joining/action
+law and one common physical fermion domain. Metric/parent/action prices,
+R85 charged pairing and su5 persist. Full SM/TOE active and unachieved.
 
 R87 resolves the full-parent gauge-type duty: an actual E8 adjoint
 character is a nonconstant quadratic in the joined relative coordinate,

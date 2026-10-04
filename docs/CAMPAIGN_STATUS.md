@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October4 R88: actual relative coordinate's local smooth harmonic family
+and finite positive kinetic norm earned at authored conditional-proof
+grade in SAME supplied action.64 exact/66 modular predicates and12 tests
+pass unchanged at pre-run seal125e49a9. No numerical K0/PDE profile or
+independent analytic acceptance. Report COMPACT_GLUING_KINETIC.md in
+physical_bridge reports. Paired charged counts/su5 and V=0 persist.
+Next generated registering/joining/action law and common fermion domain,
+not selection of a convenient double or t. Full SM/TOE unachieved.
+
 October4 R87: full E8 adjoint character separates infinitely many actual
 joined relative configurations at bare V=0 and detects locally at t=1.
 The five-trace parent-type duty is closed, not physical selection.145

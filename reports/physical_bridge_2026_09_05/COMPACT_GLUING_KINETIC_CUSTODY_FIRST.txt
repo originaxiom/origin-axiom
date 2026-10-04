@@ -1,0 +1,1 @@
+{"frozen_paths":6,"local_pins":8,"primary_pdf_pins":1,"raw_captures":7,"native":64,"reference_modular":66,"focused":12,"scope":"R88 byte/population custody only; not independent proof, PDE machine certification, full suite, main banking or physical completion"}

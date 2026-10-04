@@ -1,5 +1,14 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R88: actual relative coordinate now has LOCAL smooth admitted
+curve and finite positive horizontal kinetic argument, authored and
+conditional on supplied compact action.64 exact/66 modular predicates
+and12 tests pass unchanged under pre-run seal125e49a9. Report/proof
+reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC.md. Independent
+analytic review/numerical K0 remain owed. Next generated relation/action
+and common physical fermion domain; su5/charged pairing/V=0 unchanged.
+Neither this conditional scalar nor the prior detector derives a TOE.
+
 October4 R87: full-parent gauge detection earned for the actual joined
 relative family, not borrowed from the defining five. Genuine E8 adjoint
 character varies and has nonzero derivative at t=1; infinitely many

@@ -4647,3 +4647,21 @@ same-theory physical action/domain join; full SM/TOE remains unachieved.
   risks; sender R87 asks expected-manifest checks and unresolved status
   for missing data, not a kill of the live puncture route. Independent
   parent/proof/analytic review owed. Full SM/TOE active and unachieved.
+
+## October4 R88 compact kinetic duty and generated law next
+
+- PB-KINETIC: R87's actual compact relative coordinate now has an authored
+  LOCAL smooth harmonic-family and positive finite quadratic norm proof.
+  Closing scope COMPACT_GLUING_KINETIC_PROOF.md; finite64/66 predicates
+  and12 tests check premises/controls, not PDE certification. Numerical
+  K0, nonlinear truncation and independent analytic review remain owed.
+- PB-GENESIS: next derive a registering/joining/action law preserving both
+  partners and their variations, with one physical fermion domain. The
+  compact double and action remain supplied, not retroactively selected.
+  Act/register essential; neither its trace nor scalar proves qualia.
+- PB-SPECTRUM: R85 paired charged counts and su5 persist. No Higgs or
+  three physical generations follows from a neutral kinetic coordinate.
+  Retain other-seat puncture route and R87 coverage warning distinctly.
+- PB-REVIEW: sender R88 asks independent fixed-bundle/Jacobi/parent/kinetic
+  review and generated-law candidate, not sender-assigned acceptance.
+  Full parameter-free SM/TOE active and unachieved.

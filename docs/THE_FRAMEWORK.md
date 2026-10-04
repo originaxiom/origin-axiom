@@ -1,5 +1,14 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October4 R88: the relation's actual coordinate has authored LOCAL
+smooth harmonic-family and finite positive kinetic analysis in the
+same supplied compact action.64 exact/66 modular predicates and12 tests
+pass unchanged after pre-run seal125e49a9; analytic acceptance not
+assigned by finite checks. COMPACT_GLUING_KINETIC.md records the
+Jacobi/implicit-function/gauge map and source theorem's unused extra
+hypothesis. Next generated act/register joining/action law and physical
+fermion domain. Charged pairing, su5 and V=0 remain; no SM/TOE complete.
+
 October4 R87: the actual relation is detectable even under full E8
 gauge redundancy. Its genuine adjoint character varies quadratically
 with X=t^-5, with nonzero derivative at t=1. Infinitely many admitted

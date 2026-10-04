@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-04 R88 compact relative family and finite positive kinetics
+
+Actual joined relative coordinate has an authored local smooth harmonic
+family and finite positive horizontal quadratic norm in the same supplied
+action.64 exact/66 separate modular predicates and12 focused tests pass
+unchanged under pre-run science125e49a9, no science repair. Complete
+trace60 Gram and literal bend quotient24->25 rechecked. R47/R51/R53
+precedents credited; Slegers main-theorem free/proper hypothesis not
+borrowed. Finite checks are not PDE certification or independent review.
+Navigation ledger US-ASCII error/UTF8 recheck sequencing disclosed.
+COMPACT_GLUING_KINETIC.md records scope, not numerical K0, SM Higgs or
+physical chirality. Source-free V=0, paired charged counts and su5 remain.
+Next generated act/register joining/action law and common fermion domain.
+Full SM/TOE active; governance inherited four FAIL categories retained.
+
 ## 2026-10-04 R87 full E8 detection of the admitted relative family
 
 Actual248 root/module character closes the defining-five gauge-type gap:
