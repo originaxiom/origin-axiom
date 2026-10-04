@@ -1,0 +1,686 @@
+[
+  {
+    "seed": 0,
+    "component": 1,
+    "t": -1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 1,
+        "n_dual": 1,
+        "relative_n": 1,
+        "relative_dual_n": 1,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 0,
+    "component": 1,
+    "t": 1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 0,
+    "component": 1,
+    "t": 2,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 0,
+    "component": 2,
+    "t": -1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 1,
+        "n_dual": 1,
+        "relative_n": 1,
+        "relative_dual_n": 1,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 0,
+    "component": 2,
+    "t": 1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 0,
+    "component": 2,
+    "t": 2,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 1,
+    "component": 1,
+    "t": -1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 1,
+        "n_dual": 1,
+        "relative_n": 1,
+        "relative_dual_n": 1,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 1,
+    "component": 1,
+    "t": 1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 1,
+    "component": 1,
+    "t": 2,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 1,
+    "component": 2,
+    "t": -1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            4,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 1,
+        "n_dual": 1,
+        "relative_n": 1,
+        "relative_dual_n": 1,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 1,
+    "component": 2,
+    "t": 1,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": true
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  },
+  {
+    "seed": 1,
+    "component": 2,
+    "t": 2,
+    "coefficients": {
+      "E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ],
+          "dual": [
+            0,
+            3,
+            3,
+            6,
+            3
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      },
+      "wedge2E": {
+        "ordinary": {
+          "I": 0,
+          "V": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ],
+          "dual": [
+            0,
+            4,
+            4,
+            8,
+            4
+          ]
+        },
+        "n": 0,
+        "n_dual": 0,
+        "relative_n": 0,
+        "relative_dual_n": 0,
+        "unitary": false
+      }
+    },
+    "selected_point_only": true,
+    "physical_chirality_derived": false
+  }
+]

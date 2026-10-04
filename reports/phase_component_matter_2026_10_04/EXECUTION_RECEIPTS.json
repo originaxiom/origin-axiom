@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-04",
+  "seal": "e315aa6e33ae5c4eec6895e4b20133ad2abba8f0",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/phase_component_matter_2026_10_04/verify_matter.py",
+    "events": [
+      {
+        "chunk_id": "75ed18",
+        "wall_time_seconds": 1.000634472,
+        "session_id": 68016,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "93f42c",
+        "wall_time_seconds": 2.765406676,
+        "exit_code": 0,
+        "original_token_count": 1584,
+        "output": "CONTROLS {\"old_component_zero_at2_recovered\": true, \"phase_input_changes_both_coefficients\": true, \"old_points\": [{\"seed\": 0, \"component\": 0, \"t\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}, {\"seed\": 1, \"component\": 0, \"t\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}]}\nPOINT {\"seed\": 0, \"component\": 1, \"t\": -1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 3, 6, 3], \"dual\": [0, 4, 3, 6, 3]}, \"n\": 1, \"n_dual\": 1, \"relative_n\": 1, \"relative_dual_n\": 1, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 0, \"component\": 1, \"t\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 0, \"component\": 1, \"t\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 0, \"component\": 2, \"t\": -1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 3, 6, 3], \"dual\": [0, 4, 3, 6, 3]}, \"n\": 1, \"n_dual\": 1, \"relative_n\": 1, \"relative_dual_n\": 1, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 0, \"component\": 2, \"t\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 0, \"component\": 2, \"t\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 1, \"component\": 1, \"t\": -1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 3, 6, 3], \"dual\": [0, 4, 3, 6, 3]}, \"n\": 1, \"n_dual\": 1, \"relative_n\": 1, \"relative_dual_n\": 1, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 1, \"component\": 1, \"t\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 1, \"component\": 1, \"t\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 1, \"component\": 2, \"t\": -1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 3, 6, 3], \"dual\": [0, 4, 3, 6, 3]}, \"n\": 1, \"n_dual\": 1, \"relative_n\": 1, \"relative_dual_n\": 1, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 1, \"component\": 2, \"t\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": true}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPOINT {\"seed\": 1, \"component\": 2, \"t\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"n\": 0, \"n_dual\": 0, \"relative_n\": 0, \"relative_dual_n\": 0, \"unitary\": false}}, \"selected_point_only\": true, \"physical_chirality_derived\": false}\nPASS: exact selected-point spectrum; all-parameter behavior remains unclassified\n"
+      }
+    ]
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/phase_component_matter_2026_10_04/test_matter.py",
+    "events": [
+      {
+        "chunk_id": "7bdd50",
+        "wall_time_seconds": 1.001523235,
+        "session_id": 96094,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "22efb8",
+        "wall_time_seconds": 0.00001377,
+        "exit_code": 0,
+        "original_token_count": 25,
+        "output": ".............                                                            [100%]\n13 passed in 9.81s\n"
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/charged_l2_bridge_2026_09_27/test_bridge.py reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py reports/common_hypercharge_gate_2026_09_27/test_common_line.py reports/common_hypercharge_gate_2026_09_27/test_common_line_locks.py reports/monomial_matter_locus_2026_09_27/test_matter_locus.py reports/monomial_matter_locus_2026_09_27/test_classification_locks.py reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py reports/monomial_gauge_centralizer_2026_09_27/test_centralizer.py reports/monomial_gauge_centralizer_2026_09_27/test_cubic.py reports/global_quotient_admission_2026_09_27/test_admission.py reports/global_quotient_admission_2026_09_27/test_serialization.py reports/global_quotient_admission_2026_09_27/test_monomial_lifts.py reports/global_quotient_admission_2026_09_27/test_components.py reports/phase_component_matter_2026_10_04/test_matter.py",
+    "events": [
+      {
+        "chunk_id": "d801a6",
+        "wall_time_seconds": 1.002301961,
+        "session_id": 50457,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "1602b5",
+        "wall_time_seconds": 0.000012142,
+        "exit_code": 0,
+        "original_token_count": 187,
+        "output": "........................................................................ [ 39%]\n........................................................................ [ 79%]\n.....................................                                    [100%]\n=============================== warnings summary ===============================\nreports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof\n  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available\n    warnings.warn('Plink failed to import tkinter, GUI will not be available')\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n181 passed, 1 warning in 52.50s\n"
+      }
+    ]
+  },
+  "final_hashes": {
+    "chunk_id": "63bba0",
+    "wall_time_seconds": 0.000015817,
+    "exit_code": 0,
+    "original_token_count": 444,
+    "output": "cc7a54fe6010327b8f18d51eb97aaa3dbcc2ada0d01689d427098df8397d9f92  reports/phase_component_matter_2026_10_04/DESIGN.md\nf2bd615047ee80dbd52ef50e43cec7c778a333865f05aaff004e2cbaee525588  reports/phase_component_matter_2026_10_04/INPUTS.json\n34e0986ba9a22da86ce7fab25be453fc842af44636170615398119ed3c5056e5  reports/phase_component_matter_2026_10_04/verify_matter.py\n0291baf1525a982be195ab1decd7fd6d97b31fc249bd6d77ecb1977c970117d0  reports/phase_component_matter_2026_10_04/test_matter.py\nf99f58b43c827cea696097c45bb027503b9208ca531608969a49f73f420b39fa  reports/global_quotient_admission_2026_09_27/COMPONENT_RESULTS.json\n867847e64f1b47054f0f6b2cf93a5f3fe11f590eed946516adb515b08153845b  reports/global_quotient_admission_2026_09_27/verify_monomial_lifts.py\n5c1814e29edc0e9fb82e4c6c3816fd38e1827d97d35b00f022a212dcc9107e95  reports/global_quotient_admission_2026_09_27/verify_admission.py\n939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9  reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\n0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4  reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\na9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0  reports/monomial_exceptional_locus_2026_09_27/INPUTS.json\nedd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f  reports/m6_parent_admission_2026_09_27/verify_parent_admission.py\n"
+  },
+  "all_fourteen_unchanged": true,
+  "failures": []
+}

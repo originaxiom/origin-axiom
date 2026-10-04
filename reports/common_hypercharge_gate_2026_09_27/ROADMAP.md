@@ -111,8 +111,14 @@ of this operator/domain question.
       compact determinant transport and harmonic admissibility before a census.
 - [x] Check all multiplicative components over the two existing permutation
       actions: all lift, but scalar lines leave an order-three component quotient.
-- [ ] Compute coupled E/exterior-square spectra in the four new explicit
-      determinant-one phase families before extending the old negative.
+- [x] Compute exact selected-point coupled E/exterior-square spectra in the
+      four new determinant-one phase families at t=-1,1,2. All four retain
+      one paired E mode at -1; the old all-t negative is NOT extended.
+- [ ] Decide the all-parameter and common-line behavior of these new families
+      if a physical candidate needs that classification.
+- [ ] Check first-order continuation of the new paired E mode along the
+      actual neutral direction, distinguishing ordinary from relative-only
+      obstructions; transfer the harmonic construction explicitly if needed.
 - [ ] For a surviving candidate, compute all five SAME-background charged
       sectors, duals, gauge/Higgs fields, physical operator domains and norms.
 - [ ] Check interactions and anomalies. An index alone does not establish
@@ -129,6 +135,12 @@ uncovered LIFTABLE phase families. Neither supplies chirality yet. All 168
 combined tests pass on unchanged seals. The
 [branch intake](../global_quotient_admission_2026_09_27/CROSS_SEAT_REFRESH_2026_10_04.md)
 retains later compact-boundary/source positives at their reading grades.
+
+The [phase matter packet](../phase_component_matter_2026_10_04/FINDINGS.md)
+now passes all 181 combined tests. It preserves the new paired fundamental
+mode without treating three tested parameters as a classification. The next
+bounded question is an interaction test on this same background, not a new
+counting grid or a declaration that chirality has been solved.
 
 ## Full-goal obligations beyond these packages
 
