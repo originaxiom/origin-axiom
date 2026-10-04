@@ -1,0 +1,121 @@
+[
+  {
+    "arc": "xB003",
+    "verdict": "PROVED",
+    "headline": "THE MONODROMY ON THE OBJECT'S OWN LEAF (seat xb, sep16-branch; DESIGN sealed POST-HOC and labelled, one criterion stated in advance unhashed). B1341 proved the half-tick anti-variational and the double tick symplectic, gave S(u,U) = u^2/2 - uU + U^2 on the leaf I = 0, and recorded",
+    "claims_about_main": [
+      "the derivative line has sat on the WRONG LEAF since arc 13, and that is why the golden 3 kept coming back",
+      "What happened is that the point was carried forward — through B21, B34 and into B1341's generating function — for something over 1,300 arcs, until B1341's own check caught the leaf mismatch and recorded it as an open gap",
+      "So the golden `t² − 3t + 1` that B13 found, and that has been quoted forward ever since, is a property of **that point on the degenerate leaf**.",
+      "So the \"golden vacuum `τ = φ`\" on which B7's Fisher–KPP front, B8's particle spectrum and B9's fusion vertex are built is an **ideal boundary point**",
+      "The record diagnosed this error class **at arc 2**, correctly and in its own words, and then instantiated it twice more in the founding cluster",
+      "B67 is one substitution away, and never took it"
+    ],
+    "asks": [],
+    "numbers": [
+      "the object's leaf kappa = -2 gives TRACE 5 and S = u^2/2 - uU + 2U^2, recursion c = 5b - a",
+      "D(monodromy) there has eigenvalue 1 transverse to the leaf and the pair (5 +- sqrt21)/2 on it with product exactly 1 - symplectic, char poly L^2 - 5L + 1",
+      "every trace of the pair has norm 3, and equals `2+ω` or `2+ω̄`",
+      "`x²(x² − 3x + 3) = 0` ⟹ `x = 0` (the node) or **`x = 2+ω, 2+ω̄`**",
+      "`LLRR` and `LLLLR` share `tr(M) = 6` and do **not** share the derivative"
+    ],
+    "cites_main_arcs": ["B1341", "B1347", "B1342", "B1248", "B21", "B1234", "B13", "B34", "B123", "B425", "B581", "B894", "B67", "B2", "B5", "B1", "B3", "B6", "B7", "B8", "B9"]
+  },
+  {
+    "arc": "xB009",
+    "verdict": "NEGATIVE",
+    "headline": "THE ODD SECTOR IS NOT THE DOOR: sqrt(-3) CANCELS THERE TOO, AND ITS WHOLE CONTENT IS ONE ALREADY-KNOWN BIT (PREREGISTRATION sealed sha256 5d8ea291... and PUSHED at ba60fac BEFORE any cell ran; SHORT by owner instruction that a negative is not a deliverable",
+    "claims_about_main": [],
+    "asks": [],
+    "numbers": [
+      "The Fox determinant is Galois-invariant at every `n` from 0 to 7 — the odd sector carries **no new field**.",
+      "the entire difference between m003 and m004 in odd `Sym^n` is the substitution **`t → −t`** and nothing else (verified `n = 1, 3, 5`)",
+      "exactly one bit, and the same bit xB007 already identified as knot-ness, `det(φ_*−I) = ±1`",
+      "The trace numbers that appear, `3, 7, 18, 47, 123, 322`, are **Lucas `L₂, L₄, …, L₁₂`**",
+      "CORRECTION 2026-09-17 — the headline over-reached; see `xB011`."
+    ],
+    "cites_main_arcs": ["B423", "B425", "B1242"]
+  },
+  {
+    "arc": "xB015",
+    "verdict": "PROVED",
+    "headline": "ADDENDUM 1 (2026-09-17): THIS ARC'S ONE FORWARD-POINTING LEAD IS CLOSED. Section 5 asked whether the family's (1/24)Z CS lattice and the framing anomaly's exp(2 pi i c/24) are the same lattice. THEY ARE NOT -- for COMPLEX Chern-Simons the ETA-INVARIANT VANISHES (Gukov hep-th/0306165 eq. 3.36;",
+    "claims_about_main": [
+      "B1186's 112-family is NOT a single commensurability class (K5).",
+      "99 of 112 are arithmetic. THIRTEEN ARE NOT",
+      "B1136's amphichirality row is wrong (K8).",
+      "The correction existed in the record and was never propagated back to B1136. A correction banner lands on B1136 with this arc.",
+      "So the ground of A2's pricing is not a derived property of the object — **it is an axiom of the framework, restated in the coupling.**",
+      "That blindness is **m004's index value 0**, one of twelve. **65 of the 112 members have `CS ≠ 0` and do see `k`.**",
+      "the record pins no normalisation for the k-coupling (xB016 P4), now registered as **L223**"
+    ],
+    "asks": [],
+    "numbers": [
+      "494 words of length 2–8, 494 matches, 0 mismatches, verified at 50 decimal digits",
+      "members with `24·CS ∈ ℤ`: 112 of 112; index `24·CS mod 12` surjective onto ℤ/12 once mirrors are counted (11 of 12 from the listing)",
+      "99 of 112 are arithmetic. THIRTEEN ARE NOT",
+      "**8 of the 14 are chiral**: m202, m208, m410, m412, s118, s119, s594, s595",
+      "**45 of 2979 = 1.51 %**"
+    ],
+    "cites_main_arcs": ["B1012", "B1015", "B1088", "B303", "B1224", "B1235", "B1136", "B1186", "B152", "B128", "B145"]
+  },
+  {
+    "arc": "xB021",
+    "verdict": "PROVED",
+    "headline": "THE SUM OF THE NEGATIVES HAS ONE SHAPE, AND IT IS COMPUTED RATHER THAN ASSERTED: THE OBJECT IS A FIXED POINT, AND A FIXED POINT CANNOT REPORT ON ITS OWN STABILISER. PREREGISTRATION sealed 42c442a2... and PUSHED at 210bb0e before verification/ existed, with a BINDING KILL CONDITION on the audit",
+    "claims_about_main": [
+      "It does **not replace B1234**, which already found the mirror upstream of eight walls; **it extends that from one stabiliser element to the whole stabiliser**",
+      "B1234's mirror is one element of that stabiliser. The join becomes a theorem-shaped statement."
+    ],
+    "asks": [
+      "The direction changes accordingly: work the FAMILY, not the sibling."
+    ],
+    "numbers": [
+      "`|⟨A5, A6, A7⟩| = 4`. The STABILISER of the object's value `CS = 0` is of order 2 and is exactly `{A6, A7}`. The ORBIT of `0` is `{0, ¼}`. Orbit–stabiliser: `4 = 2 × 2`.",
+      "**9 of 12** banked negatives are instances of \"the thing asked about is in the stabiliser.\"",
+      "1 → 2 → 12. The orbit does carry what the point does not.",
+      "Normalisation: for a cusped manifold the invariant is defined mod ½, so twelfths form a group of **six**.",
+      "(104 of 112 in twelfths, all six classes, four moved; control: 2 of 600 outside the family, 0.33 %)"
+    ],
+    "cites_main_arcs": ["B1234", "B1224", "B1186", "B1429", "B1083"]
+  },
+  {
+    "arc": "xB027",
+    "verdict": "NEGATIVE",
+    "headline": "THE GENERATION COUNT IS STABILISER-FIXED: ONE IS THE INVARIANT AND THE BACKGROUNDS ARE THE ORBIT. PREREGISTRATION sealed 21f5b2fac12bb5d2 and PUSHED at 61331ec3 before verification/ existed, with C1 a BINDING CONTROL and a BINDING KILL CONDITION on any |count| != 1.",
+    "claims_about_main": [
+      "The published driver builds `m004.covers(n, cyclic)[0]`. Pointing that at `m003` would have **silently censused the wrong manifolds**",
+      "xB027's `h¹(χ²) = 1` makes **`≤ 1` the tower's sharper fact**, and B1418's `|I| = 2` on a family member shows **2 is not slack in general**.",
+      "**The `|I| ≤ 1` bound is a property of the TOWER, not of the family.** On the wider family the index **does** exceed one."
+    ],
+    "asks": [],
+    "numbers": [
+      "the NUMBER of backgrounds differs (384 against 12 800)",
+      "`|count| {1: 384}` against `|count| {1: 12800}`. Never two. Never three.",
+      "`h¹(χ²) = 1` at every locus on every level of the sister's tower too (17 of 17, 39 of 39, 97 of 97)",
+      "Y₄ A5 image: `ℤ⊕(ℤ/7)²`, N 84, 97 loci, 1344 firing → 384 on 96 loci",
+      "C1 reproduced B1375 exactly: Y₄ N 60, 89 loci, 976 firing, 12 800 on 64 loci, signs {−1: 6400, 1: 6400}"
+    ],
+    "cites_main_arcs": ["B1374", "B1375", "B1413", "B1418", "B1377"]
+  },
+  {
+    "arc": "xB033",
+    "verdict": "PROVED",
+    "headline": "B1239's 37 AMPHICHIRAL / 37 ZERO REPRODUCED ON THE FULL CLOSED CENSUS AT 3.8e-64, WITH THE DERIVATION STRIPPED OF APS AND ETA -- THE ARC'S MAIN CLAIM WAS ALREADY BANKED, WHICH IS ITS HEADLINE",
+    "claims_about_main": [
+      "`cs(M*) = −cs(M)` is **USED-NOT-READ** in this record — xB021 (A6/A7) and xB023 (W0) rely on it and **no arc quotes a source for it.**",
+      "B1239 reached the closed statement via APS (3eta = 2cs + tau mod 2) with eta = 0, having already stripped Kawauchi and freeness. It needs neither APS nor eta either",
+      "L194 is unchanged and still open.",
+      "B1239 was right and this arc was over-strict."
+    ],
+    "asks": [],
+    "numbers": [
+      "37 amphichiral / 37 zero; max |folded cs| 3.8e-64 against B1239's reported 7.8e-16",
+      "11031 closed census manifolds, 0 errors",
+      "Amphichiral one-cusped census {zero: 106, quarter: 75, other: 0}, 0 errors",
+      "of 400 non-amphichiral (declared bounded sample) 395 at 'other', 5 at zero -- base rate 1.25%",
+      "closed cs is mod 1 so amphichirality forces {0, 1/2} and 1/4 cannot occur; cusped cs is mod 1/2 so it forces {0, 1/4}"
+    ],
+    "cites_main_arcs": ["B1239"]
+  }
+]

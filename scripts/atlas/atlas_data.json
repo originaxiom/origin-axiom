@@ -9627,6 +9627,35 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1469": {
+   "slug": "the sep16 lane and the clouds memos rowed",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B13",
+    "B146",
+    "B21",
+    "B266",
+    "B288",
+    "B34",
+    "B425",
+    "B742",
+    "L194",
+    "L244",
+    "L245",
+    "P019"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B146": {
    "slug": "b145 calibration",
    "motifs": [

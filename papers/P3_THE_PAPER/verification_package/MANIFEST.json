@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-10-03T22:52:05Z",
+ "built": "2026-10-04T02:32:35Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,10 +9,10 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "d295fc5d",
+  "git_head": "daf035b6",
   "git_tree_clean": false,
   "git_head_published": true,
-  "git_commits": 3508,
+  "git_commits": 3509,
   "git_shallow": false
  },
  "claims": [
@@ -1166,6 +1166,7 @@
       "frontier/B1418_the_family_as_the_object/verification/c2_m004.out",
       "frontier/B1418_the_family_as_the_object/verification/c2_m004z12.out",
       "frontier/B1418_the_family_as_the_object/verification/c2_modules_compact.json",
+      "frontier/B1418_the_family_as_the_object/verification/c2_partial_t12835.json",
       "frontier/B1418_the_family_as_the_object/verification/c2_summary.json",
       "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.json",
       "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.out",
@@ -1353,6 +1354,7 @@
       "frontier/B1418_the_family_as_the_object/verification/c2_m004.out",
       "frontier/B1418_the_family_as_the_object/verification/c2_m004z12.out",
       "frontier/B1418_the_family_as_the_object/verification/c2_modules_compact.json",
+      "frontier/B1418_the_family_as_the_object/verification/c2_partial_t12835.json",
       "frontier/B1418_the_family_as_the_object/verification/c2_summary.json",
       "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.json",
       "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.out",
@@ -2254,6 +2256,7 @@
       "frontier/B1418_the_family_as_the_object/verification/c2_m004.out",
       "frontier/B1418_the_family_as_the_object/verification/c2_m004z12.out",
       "frontier/B1418_the_family_as_the_object/verification/c2_modules_compact.json",
+      "frontier/B1418_the_family_as_the_object/verification/c2_partial_t12835.json",
       "frontier/B1418_the_family_as_the_object/verification/c2_summary.json",
       "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.json",
       "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.out",

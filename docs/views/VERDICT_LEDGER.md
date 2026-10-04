@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1297 of 1297 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1298 of 1298 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (869)
+## PROVED (870)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -881,6 +881,7 @@
 | `B1466` | THE COUNT IS THE ORDER, AND THE COUNT IS A BIT (sealed b3565230; the owner's directive of 2026-10-03; L241 refinement 2 paid). At q0 = 17 +- 12 sqrt2, mu = -1: I(1 on top of A) = -1, I(A on top of 1) = +1, I(A (+) 1) = 0, and W* ~ iota^* W' (not W' without iota), so the two orders have opposite counts by B1297's L1-L2 -- a theorem, not a coincidence of the point. The sealed P4 (the mixed direction obstructed, 60 percent) FAILED: the cup product's class in H^2 is zero at both points, and the follow-up C3b finds the mixed deformation as an exact flat 5-dim module, IRREDUCIBLE (commutant 1, no invariant or dual-invariant line), with class index 0 and h^1 = 0 on both sides: the two pieces fused carry no count. So the flat configurations near the split module are richer than a bit but the count is a bit: -1, +1 on the orders, 0 side by side, 0 fused -- 'both at once' cancels. A source along one line does not choose (t and -t are the same extension); a source on both lines drives into the fused, count-zero region; whether the potential's mixing quartic returns it to an axis is the next quantity, not on the record. The bar grades a source's selection UNJUDGED/FITTED, as sealed. Nothing selects a state. 0 of 19. | yes | 0 |
 | `B1467` | THE SEATS' EVENING, ROWED, AND MAIN'S ABSENCE CLAIM CORRECTED. L244 had said 'symmetric phase' occurs nowhere on main (0 of 1337 arcs by topic_sweep); the SM seat's sm:B1531 found it and grep confirms: lead L17 ('Symmetric-phase exclusion / quantized breaking', the web seat's frame as a lead of the record's own), B849's seal, B853's script -- an E54 instance of main's, corrected in L244 and GENESIS v1.10 with the credit. sm:B1528's exact sentence on the meridian twist (enters squared; P fixes Ballas' family) adopted into v1.10, the version-number collision with main's v1.8 recorded. sm:B1531's census read: the reading's three kinds cover 14 of the chirality chain's 26 negatives, the taxonomy incomplete. sm:B1529/B1530/B1532 sealed and scheduled; the audit lane's R81 (a harmonic metric on a compact truncation with boundary data, non-discriminating in the datum) read as B1466's axis in the lane's words. Nothing selects a state. 0 of 19. |  | 0 |
 | `B1468` | THE FROZEN SEALS RE-AUDITED (R59-2). Of the 41 arcs B1464 froze for lacking the provenance markers, six state both halves of the rule in other words -- B1019, B1033, B1036, B1066, B1071, B1442 -- attested with quotes verified against the sealed text in tests/SEAL_PROVENANCE_ATTESTATIONS.json, which seal-provenance now reads (a forged attestation fails); two more quote both but fall short (B1450: a source cited is not a search; B1435: an absence statement is not a sweep); the baseline shrinks to 35, every uncovered seal accounted for. Nothing selects a state. 0 of 19. | yes | 0 |
+| `B1469` | THE SEP16 LANE AND THE CLOUD'S THREE MEMOS ROWED (R59-3): xB003-xB034 read at the pin by six readers with every claim about main quoted (97 claims across 25 arcs, listed in lead L245 to verify -- the wrong leaf since arc 13, B425's cancellation as an amphichirality artefact, the orbifold below A5, thirteen non-arithmetic in the 112-family, B1224 derived, the bound a tower property, 3 325 modules run with no 3, cs(M*) = -cs(M) used-not-read, the identification rule not enforced on kills); three absorbed already (B288 -> B1419, Kawauchi stripped in B1239, beta_c -> L244); memos 234-236 rowed and memo 236's instrument note taken (already_banked.py does not read the paper). Nothing selects a state. 0 of 19. |  | 0 |
 
 ## NEGATIVE (326)
 

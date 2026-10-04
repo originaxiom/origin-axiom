@@ -1,5 +1,15 @@
 # Changelog
 
+## S52 THE SEP16 LANE AND THE CLOUD'S THREE MEMOS ROWED: the adversarial seat's thirty-one arcs read at the pin with every claim about main quoted — ninety-seven across twenty-five arcs, listed in a lead to verify, three already absorbed — and the harvest debt at zero unrowed on every seat.
+
+**The occasion.** Review 59's R59-3: 31 arcs of the sep16 lane (the opponent seat, never merged) were ageing toward the gate's 21 days, and the cloud lane's memos 234–236 were unrowed. The harvest rule is read-then-row, at the pin.
+
+**What was done (B1469).** The lane pinned in a worktree at `3205984b`; six readers extracted, for each arc, its headline verbatim, every sentence claiming main's record wrong or missing, its asks, numbers and cited arcs — no evaluation; xB029 read by main; the three memos read at headline level. HARVEST_LEDGER 842–876; pins moved. **Lead L245** lists the 97 claims by arc, each unverified on main until an arc says so. The ones that would change the record if they hold: the derivative line "on the wrong leaf since arc 13" (xB003); B425's √−3 cancellation an amphichirality artefact of m004 (xB011); an orientable orbifold 24× smaller below P019's A5 (xB012); thirteen of the 112-family not arithmetic and B1136's row wrong (xB015); B1224 upgraded to DERIVED by conjugation (xB020); the |I| ≤ 1 bound a property of the tower, not the family (xB027); B1418's 3 325 unrun modules run with no three (xB031); cs(M*) = −cs(M) used and not read (xB033); the identification rule not enforced on kills (xB005/xB008). Already absorbed: B288's lock (B1419), Kawauchi stripped in B1239, β_c (L244). One instrument note from memo 236: `already_banked.py` does not read the paper.
+
+**What it means.** For the first time today every seat's index is rowed — the loop can now spend its time on verification rather than on reading. Nothing in the derivation moved. **The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1469** (PROVED, harvest). R59-3 paid. L245 registered. Gates 42 of 42; full suite 7039 passed, 1 failed (the paper manifest, stale by a late edit of this arc's own FINDINGS; rebuilt, its test re-run green), 68 skipped.
+
 ## S51 THE FROZEN SEALS RE-AUDITED: of the forty-one seals the provenance gate had never read, six state both halves of the rule in other words — attested with their quotes, which the gate now reads and re-checks — and thirty-five stay frozen, this seat's September seals among them.
 
 **The occasion.** Review 59's R59-2: the 41 seals B1464 froze were listed, not read. A list that may only shrink needs a way to shrink that is not a shorter list.

@@ -3447,3 +3447,129 @@ its own last paragraph names.
   **Run the same day:** the choice there is a bit for the count (±1 on the orders, 0 fused and 0 summed), not for the
   configurations; the breaking field must lie on an axis to count. (b) done in GENESIS v1.9: GAP6, the flatness, named.
 
+## L245 — THE SEP16 LANE'S CLAIMS ABOUT MAIN, TO VERIFY (registered 2026-10-04, B1469; Review 59's R59-3)
+
+The sep16 seat (xb; an adversarial/review seat, never merged) made 31 arcs between 2026-09-16 and 09-29 (xB003–xB034). B1469 rowed
+them at headline level, read by readers at the pin `3205984b` with every claim about main's record quoted. Those claims are
+listed here by arc; each is **unverified on main until an arc says so**. Already absorbed elsewhere: xB028 (B288's lock →
+B1419), xB032 (β_c → L244 (c)), xB023's Kawauchi point (B1239 already strips Kawauchi: APS + η). The lane's own corrections of
+itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the lane's.
+
+- **xB003:**
+  - the derivative line has sat on the WRONG LEAF since arc 13, and that is why the golden 3 kept coming back
+  - What happened is that the point was carried forward — through B21, B34 and into B1341's generating function — for something over 1,300 arcs, until B1341's own check caught the leaf mismatch and recorded it as an open gap
+  - So the golden `t² − 3t + 1` that B13 found, and that has been quoted forward ever since, is a property of **that point on the degenerate leaf**.
+  - So the "golden vacuum `τ = φ`" on which B7's Fisher–KPP front, B8's particle spectrum and B9's fusion vertex are built is an **ideal boundary point**
+- **xB004:**
+  - B7/B8/B9's cubic vertex and its kappa/3 coefficient are artefacts of standing on dH.
+  - B7's Fisher-KPP front has no vacuum to travel to, B8's mass^2 has no analogue, B9's vertex does.
+  - THERE IS NO VACUUM AND NO SINGLE mass^2 AT THE OBJECT'S OWN POINT.
+  - NOTHING WITHDRAWN -- B6 states its own inserted reading (tau as a field rather than a coordinate on H) and B6-B9 are each correct under it.
+- **xB005:**
+  - B1231's Identification Rule is gated on promotions and nothing checked the same claim made to DISCARD evidence.
+  - Standing rule that catches it: a kill needs the same map a promotion needs.
+  - WITHDRAWN: this arc's claim to extend B727/I-17 to a fourth hat -- the fourth hat is not another presentation of the atom. B727 ITSELF IS UNTOUCHED.
+  - New error class E82, the ASSUMED-CONNECTED LINKAGE class
+- **xB006:**
+  - B146'S KILL SURVIVES; what is corrected is its JUSTIFICATION -- a scoping note, NOT a revival
+  - THE THREE ARE NOT ONE FACT AND THE CHAIN AS WRITTEN IS FALSE.
+  - B142 (the kappa equality is the S_3 cusp symmetry 'restated', not exhibited -- low leverage, since B142's decisive arm is the trace field being Q(sqrt-7) or Q(i), not Q(sqrt-3))
+  - B1096 (completeness of content and emptiness of layer 'are the same fact', a reason offered but no map)
+- **xB008:**
+  - B1231's Identification Rule is enforced on PROMOTIONS only.
+  - xB005's Q3 asserted four ℤ/3s were "all canonically linked" — hence one fact, hence not evidence — on links that connected only three of them. Nothing in this repository caught it.
+  - of the 15, TWO are genuine E82 candidates (B146, B1096; B142 no longer appears because the base-rate clause clears it)
+- **xB010:**
+  - Nothing covered the case where the sweep FINDS something. A banked result was treated as an ANSWER. It is a HYPOTHESIS.
+  - B1202 governs ABSENCE claims only, so it does not cover the case where the sweep FINDS something.
+  - B742's stated '30 RECONFIRMED' is NOT independently confirmed here: this arc's row-parser tallies only 8
+  - xB006 re-tested it today and found its kill sound but its JUSTIFICATION wrong.
+- **xB011:**
+  - B425 -- its "√−3 cancels in every determinant" is scoped: true at ρ_geo of m004, because m004 is amphichiral, and false for chiral manifolds.
+  - B425's computations are not disputed; this arc reproduced them exactly, including at odd n, which B425 never ran.
+  - The cancellation is an amphichirality artefact, not a general fact.
+- **xB012:**
+  - B1234 dropped ORIENTABILITY and landed on a NON-orientable manifold, where its own objection bites. No arc had tried dropping A5 — and that lands on an orbifold that is STILL ORIENTABLE.
+  - its 12 is over PSL(2,O_3); the MINIMAL orbifold is the PGL one, half the volume, so m004 covers it with index 24.
+  - B266's result is confirmed and SCOPED: pi_1(4_1) surjecting onto 2T is the RESTRICTION of the Bianchi group's own reduction map to an index-24 subgroup, so the spine needs no knot, no cover and no choice.
+- **xB014:**
+  - Z1 PASS — B207 is SCOPED, not disputed.
+  - B207's negative does not cover this path.
+  - B207 already said it: "golden has the smallest regulator (log φ) → the least-hierarchical / extremal point."
+- **xB015:**
+  - B1186's 112-family is NOT a single commensurability class (K5).
+  - 99 of 112 are arithmetic. THIRTEEN ARE NOT
+  - B1136's amphichirality row is wrong (K8).
+  - The correction existed in the record and was never propagated back to B1136. A correction banner lands on B1136 with this arc.
+- **xB016:**
+  - no arc in the record pins WHICH CS enters the k-coupling
+  - No quantization claim can be read off the record as it stands.
+  - B1012 is not disputed; it is SCOPED as normalisation-agnostic algebra, and pinning the normalisation is named as owed work.
+  - The gap P4 named stands — the record still pins no normalisation — but the constraint P4 derived from it does not.
+- **xB017:**
+  - B302 did not measure whether that hidden Z/3 is generic. Addendum 1's A4 does: it is not.
+  - The new result is: B302's hidden Z/3 is d = 3's alone.
+  - B734 IS RIGHT AND THE CHALLENGE IS WRONG, and the challenge's '12' is the SL index read as a PSL index -- which is E21
+  - The record should not read the spine's 24 as a symmetry of the orbifold -- it is the order of a quotient.
+- **xB018:**
+  - The record uses 'A5' for three distinct things -- the table row's 'the word must be mixed', xB012's manifold restriction, and H_1-torsion-freeness (knot-ness) -- and only the third is a Z/2.
+  - C6 adds a fact B1083 did not state: THE TWO TORSOR BITS COINCIDE ON THE MINIMAL WORD.
+  - A terminology hazard, named and not silently resolved: this arc means A5(c) throughout.
+- **xB019:**
+  - That sharpens B1234's headline ("the squaring buys orientability and costs every value") by saying which side each item falls on, and by adding A7 to the bought column
+- **xB020:**
+  - B1224 is upgraded from OBSERVED to DERIVED, with no census escapees.
+  - L194 is sharpened, not closed: the 2-torsion half is now explained; exactly the selection half remains open, with its evidence strengthened from 40 to 200.
+  - That is B1224 — which banked it as a census observation (6 of 6). Here it is a consequence of the mechanism.
+- **xB021:**
+  - It does **not replace B1234**, which already found the mirror upstream of eight walls; **it extends that from one stabiliser element to the whole stabiliser**
+  - B1234's mirror is one element of that stabiliser. The join becomes a theorem-shaped statement.
+- **xB023:**
+  - B1239 supports its torsion step by citing Kawauchi (J. Math. Soc. Japan 33 (1981) 571-589). The paper is READ here.
+  - Kawauchi's pairs (M, alpha) are CLOSED; B1239 applies the consequence to CUSPED manifolds, where it fails on 590 of 1260 cases measured here.
+  - B1239's main closed conclusion rests on APS with tau an integer, not on Kawauchi
+  - Proposition 2.2 ... retiring a conjecture the register carried since 2026-09-02.
+- **xB024:**
+  - The record says σ is "a free continuous parameter". The source says not quantized, but constrained by unitarity.
+  - L223's LITERATURE half is therefore CLOSED. What remains open in L223 is record-internal bookkeeping
+  - The same condition governs both. This is recorded as a CONVERGENCE and explicitly NOT as an identification
+  - B1239's TWO quotations are EXACT and correctly attributed: section 5A's 'If M is closed the Chern-Simons invariant is well defined modulo 1, but Snap and SnapPea still only compute modulo 1/2'
+- **xB027:**
+  - The published driver builds `m004.covers(n, cyclic)[0]`. Pointing that at `m003` would have **silently censused the wrong manifolds**
+  - xB027's `h¹(χ²) = 1` makes **`≤ 1` the tower's sharper fact**, and B1418's `|I| = 2` on a family member shows **2 is not slack in general**.
+  - **The `|I| ≤ 1` bound is a property of the TOWER, not of the family.** On the wider family the index **does** exceed one.
+- **xB028:**
+  - The load-bearing half of main's sentence survives; only its arithmeticity clause is false.
+  - THE COMMENT CONTAINS THE BUG: imaginary-quadraticity is the criterion for a CUSPED group, while a CLOSED filling needs the cocompact criterion (Maclachlan-Reid 8.3.2).
+  - its July finding that closed fillings of m004 can be arithmetic -- which never propagated to B288's lock or to main's sentence
+  - The test's NAME asserts something false
+- **xB030:**
+  - U1's 'none of which saw the other two' is FALSE. B1260 (2026-09-06, in this tree) had already written 'Δ(t) = t² − 3t + 1, roots φ² and φ⁻²'
+  - The Alexander-root/golden-locus join was B1260's, twelve days earlier.
+  - U4's 'the two programmes cannot simply be composed' is INCOMPLETE. It is true of the h¹-index route only.
+  - The programmes can be composed along B1355.
+- **xB031:**
+  - The sealed prediction for X2 held: completing the 3 325 unrun modules produced NO 3.
+- **xB032:**
+  - B803's 'Not verified here' item -- the analytic-torsion join needing the Cheeger-Muller/Fried literature step -- is now taken far enough to know the step is BLOCKED ON HYPOTHESES for the record's own modules
+  - L225's T_lambda half: the thermodynamic route to it is shut for the same reason the topological one is
+  - So the generation cap and the entropy have one root: the monodromy is pseudo-Anosov.
+- **xB033:**
+  - `cs(M*) = −cs(M)` is **USED-NOT-READ** in this record — xB021 (A6/A7) and xB023 (W0) rely on it and **no arc quotes a source for it.**
+  - B1239 reached the closed statement via APS (3eta = 2cs + tau mod 2) with eta = 0, having already stripped Kawauchi and freeness. It needs neither APS nor eta either
+  - L194 is unchanged and still open.
+  - B1239 was right and this arc was over-strict.
+- **xB034:**
+  - Main already has duplicate L160/L222/L223/L224; main's renumbering of the fork's duplicate L220 to L223 created a new collision.
+  - On merge L223 and L224 would each exist 3 times and L225 twice.
+  - Main is at E83 (hash-order-dependent verification), this branch at E82; both carry a duplicated E58. R58-1's class must be minted as E84 or higher, not E83.
+  - B288's withdrawal is banked as B1419 on main and as B1376 on the SM seat.
+
+- **(z) an instrument note from the cloud lane's memo 236:** `scripts/checks/already_banked.py` does not read the paper's
+  `main.tex`; the paper is a surface where claims live; owed: add it to the sweep's corpus.
+- **Asks of main on the lane:** xB006/xB008 (B146 and two secondaries as proposals with the computation), xB010 (the
+  re-derivation rule: a banked result found by a sweep is a hypothesis, to be re-run — cf. WORKING_RULES), xB018 (vary the
+  GL(2,ℤ) axis), xB021 (work the family, not the sibling — main's B1418 line), xB026 (run B1374's census on b±(LR)ⁿ), xB030
+  (t12835's remaining modules — run by xB031: no 3), xB034 (the lead-number scheme on merge is the owner's; this seat never
+  merges, so the collision list is moot for it; main's own L222/L223 collision was repaired at B1437).
+

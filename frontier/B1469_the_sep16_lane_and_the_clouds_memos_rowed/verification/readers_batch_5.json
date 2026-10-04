@@ -1,0 +1,110 @@
+[
+ {
+  "arc": "xB007",
+  "verdict": "PROVED",
+  "headline": "THE LEAD FAILED ITS FIRST TEST, AND FAILING IT PROVED SOMETHING BETTER: THE CHARACTER VARIETY IS STRUCTURALLY BLIND TO WHAT SEPARATES THE OBJECT FROM ITS SISTER (PREREGISTRATION sealed sha256 3c4bd90b... and PUSHED at 0e3cde6 BEFORE any cell ran). xB005 Addendum 1 flagged the node's Z/3 as the first",
+  "claims_about_main": [],
+  "asks": [],
+  "numbers": [
+   "T4 RETURNED B: THE LEAD FAILED.",
+   "21 census manifolds (tetrahedra <= 6), every volume an integer multiple of v0 (24, 48, 60, 72)",
+   "m003 = b+-LR and m004 = b++LR, THE SAME WORD AND THE SAME NODE ORDER 3",
+   "det(phi_* - I) = -1 gives Z (m004), det = 5 gives Z/5 + Z (m003)",
+   "vol(m004) = (3 sqrt3 / 2) L(chi_-3,2) HOLDS TO 28 DIGITS"
+  ],
+  "cites_main_arcs": [
+   "B680",
+   "B1136",
+   "B995"
+  ]
+ },
+ {
+  "arc": "xB013",
+  "verdict": "PROVED",
+  "headline": "CORRECTED 2026-09-17 BY THIS ARC'S OWN ADDENDUM 1 (owner-instructed re-test): THE PAIR DOES NOT HOLD, THE BIT-COUNT IS A CENSUS ARTEFACT, AND THE TWO FACES SUPPLY NO FINITE SELECTION. Two defects, both this seat's. (1) THE FACES WERE DEFINED ASYMMETRICALLY -- EISENSTEIN as a FIELD (invariant trace f",
+  "claims_about_main": [],
+  "asks": [],
+  "numbers": [
+   "CORRECTED 2026-09-17 BY THIS ARC'S OWN ADDENDUM 1: THE PAIR DOES NOT HOLD, THE BIT-COUNT IS A CENSUS ARTEFACT",
+   "L_{2n}^2 - 4 = 5 F_{2n}^2 (verified n = 1..10)",
+   "finite ratio measured at 2.25 (tets <= 5), 3.50 (<= 6), 4.17 (<= 7)",
+   "(LR)^n volumes exactly 24n*v0, verified n = 1..6",
+   "kappa = tr[a,b] = 3/2 - (sqrt3/2)i, kappa - 2 = omega^2 exactly, |kappa-2| = 1"
+  ],
+  "cites_main_arcs": [
+   "B309",
+   "B425",
+   "B518",
+   "B1010"
+  ]
+ },
+ {
+  "arc": "xB019",
+  "verdict": "PROVED",
+  "headline": "CORRECTED 2026-09-17 BY xB020: this arc's NAMED MECHANISM is wrong and is WITHDRAWN. It said 'a non-orientable manifold's holonomy lands in PGL(2,C), outside the SL(2,C) theory'. PGL(2,C) IS PSL(2,C) over an algebraically closed field, a fact THIS SAME SESSION BANKED TWO ARCS EARLIER in xB012's V2 -",
+  "claims_about_main": [
+   "That sharpens B1234's headline (\"the squaring buys orientability and costs every value\") by saying which side each item falls on, and by adding A7 to the bought column"
+  ],
+  "asks": [],
+  "numbers": [
+   "CORRECTED 2026-09-17 BY xB020: this arc's NAMED MECHANISM (PGL(2,C)) is wrong and is WITHDRAWN; the real mechanism is complex conjugation",
+   "m000's orientation cover IS m004 at volume ratio exactly 2; 48 surjections onto 2T either way",
+   "Chern-Simons and complex volume BREAK on m000 ('Manifold is not oriented'); volume, H_1, pi_1, symmetry group, 2T count survive",
+   "Seven of B1234's eight walls are statements about CS or the mirror",
+   "LR and RL are conjugate in SL(2,Z), conjugator (-5,-8,-3,-5) with det 1"
+  ],
+  "cites_main_arcs": [
+   "B1234",
+   "B1083",
+   "B979",
+   "B993",
+   "B996"
+  ]
+ },
+ {
+  "arc": "xB025",
+  "verdict": "PROVED",
+  "headline": "THE REFEREE RELAY VERIFIED AT SOURCE: THE ARITHMETIC HOLDS EXACTLY, AND TWO INFERENCES OVERREACH AND ARE ROUTED AS DEBTS. This is a RELAY VERIFICATION and NOT a sealed prediction; PREREGISTRATION.md declares in full that the checks were run as the relay was read, and no kill condition is claimed. (1",
+  "claims_about_main": [],
+  "asks": [],
+  "numbers": [
+   "12 800 on 64 loci at Y_4, 800 on 200 at Y_5, 67 200 on 576 at Y_6, 80 800 total; signature V = (0,1,1,0) against V* = (0,2,1,2)",
+   "9 600 of 67 200 backgrounds on Y_6 carry a net singlet of the generation's own sign",
+   "E_6 has 72 roots, 120 A_2 subsystems, a SINGLE Weyl orbit of size 120; control A_1 + A_2 gives two orbits of sizes [1, 3]",
+   "I-32 and I-33 routed as UNEARNED debts",
+   "78 of 78 orientation double covers of Gieseking at class zero against a 27.2 percent base rate"
+  ],
+  "cites_main_arcs": [
+   "B1413",
+   "B1415",
+   "B1374",
+   "B1375",
+   "B1366",
+   "B1231"
+  ]
+ },
+ {
+  "arc": "xB031",
+  "verdict": "NEGATIVE",
+  "headline": "B1418's 3325 UNRUN MODULES RUN WITH NO 3, AND THE SEALED GROWTH LAW REFUTED: THE INDEX PEAKS AT m = 3 AND IS ZERO BY m = 6 -- A PSI-TWIST EFFECT THAT E65 ALREADY BOUNDS (ADDENDUM 1)",
+  "claims_about_main": [
+   "The sealed prediction for X2 held: completing the 3 325 unrun modules produced NO 3."
+  ],
+  "asks": [],
+  "numbers": [
+   "6 435 modules run, NOT RUN 0 (B1418: 3 110 run, 3 325 not run); nonzero I 177 -> 432; max |I| = 2",
+   "Index peaks at m = 3: max |I| 1 at m=4, 1 at m=5, 0 at m=6, against sealed ceil(m/2) = 2, 3, 3 (REFUTED at all three values)",
+   "I^ss = 0 on every one of the 2 808 modules",
+   "r >= 1 is NECESSARY for I != 0 (2 040 zeros at r = 0, no exception), NOT SUFFICIENT",
+   "Addendum 1: 1 059 self-dual modules, every one at I = 0; all 576 nonzero modules carry psi^2 != 1"
+  ],
+  "cites_main_arcs": [
+   "B1418",
+   "B1413",
+   "B1260",
+   "B307",
+   "B1381",
+   "B1398"
+  ]
+ }
+]

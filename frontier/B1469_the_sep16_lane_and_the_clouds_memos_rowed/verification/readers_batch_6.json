@@ -1,0 +1,97 @@
+[
+  {
+    "arc": "xB008",
+    "verdict": "PROVED",
+    "headline": "THE IDENTIFICATION DISCIPLINE, EXTENDED FROM PROMOTIONS TO KILLS: A GATE THAT CATCHES THIS SEAT'S OWN ERROR (PREREGISTRATION sealed sha256 30bb937b... and PUSHED at 91c9b94 BEFORE the gate was written).",
+    "claims_about_main": [
+      "B1231's Identification Rule is enforced on PROMOTIONS only.",
+      "xB005's Q3 asserted four ℤ/3s were \"all canonically linked\" — hence one fact, hence not evidence — on links that connected only three of them. Nothing in this repository caught it.",
+      "of the 15, TWO are genuine E82 candidates (B146, B1096; B142 no longer appears because the base-rate clause clears it)"
+    ],
+    "asks": [
+      "Landing it on `main` is `cc`'s call, and the relay says so."
+    ],
+    "numbers": [
+      "G1 PASS — class C: xB005's Q3 as it originally stood must RED",
+      "G3 PASS — 33/33 → 34/34, 0 FAIL",
+      "docs/LINKAGE_BASELINE.json freezes 15 entries",
+      "10 of 30 raw hits were base-rate or look-elsewhere arguments with the rate computed",
+      "`by construction` ... drove 27 of an initial 46 candidates on its own"
+    ],
+    "cites_main_arcs": ["B727", "B742", "B772", "B806", "B1223", "B1231", "B146", "B1096", "B142", "B333", "B1276", "B1346", "B559", "B425"]
+  },
+  {
+    "arc": "xB014",
+    "verdict": "OPEN",
+    "headline": "CORRECTED 2026-09-17 BY xB015: the clause 'does not cross B1012's wall, which concerns a DIMENSIONFUL quantity while a ladder supplies a dimensionless INDEX' -- which appears twice below -- is WRONG and is WITHDRAWN.",
+    "claims_about_main": [
+      "Z1 PASS — B207 is SCOPED, not disputed.",
+      "B207's negative does not cover this path.",
+      "B207 already said it: \"golden has the smallest regulator (log φ) → the least-hierarchical / extremal point.\""
+    ],
+    "asks": [],
+    "numbers": [
+      "m004 is rank 1 of 40 for dilatation and rank 1 of 40 for volume",
+      "ratio log λ / vol = 0.47412759711555, constant along the tower (verified n = 1…5)",
+      "torsion is exactly L_n² (n odd) and 5F_n² (n even), rate → log φ² = 0.9624236501",
+      "Z4 (withdrawn): m004 ranks 38 of 40; ascending m004 is rank 3, the two above it are m206/s961, its own covers at the identical ratio",
+      "Verdict moved NEGATIVE -> OPEN"
+    ],
+    "cites_main_arcs": ["B207", "B1012", "B1088", "B1015"]
+  },
+  {
+    "arc": "xB020",
+    "verdict": "PROVED",
+    "headline": "THE MECHANISM IS COMPLEX CONJUGATION, NOT PGL -- AND THE ARC IT CORRECTS IS FROM THIS SAME SESSION.",
+    "claims_about_main": [
+      "B1224 is upgraded from OBSERVED to DERIVED, with no census escapees.",
+      "L194 is sharpened, not closed: the 2-torsion half is now explained; exactly the selection half remains open, with its evidence strengthened from 40 to 200.",
+      "That is B1224 — which banked it as a census observation (6 of 6). Here it is a consequence of the mechanism."
+    ],
+    "asks": [],
+    "numbers": [
+      "Isom(H³) = PSL(2,ℂ) ⋊ ℤ/2, where the extra factor is COMPLEX CONJUGATION",
+      "CS = −CS ⟹ 2·CS = 0 ⟹ CS ∈ {0, ¼} mod ½",
+      "OrientableCuspedCensus[:400]: 6 amphichiral manifolds, 0 escapees",
+      "200 orientation double covers tested: 200 at CS = 0, 0 at ¼, 0 other, 0 errors; P ≈ 0.64²⁰⁰ ≈ 1.7 × 10⁻³⁹",
+      "freeness of the deck involution is CITED from B605, not re-verified here"
+    ],
+    "cites_main_arcs": ["B1224", "B1234", "B1235", "B605"]
+  },
+  {
+    "arc": "xB026",
+    "verdict": "PROVED",
+    "headline": "THE GENERATION COUNT'S INPUTS MOVE UNDER A5 AT EVERY LEVEL; THE COUNT ITSELF IS NOW SHARPLY OPEN.",
+    "claims_about_main": [],
+    "asks": [
+      "The question is now sharp and bounded, which is the deliverable: run B1374's SM-frame census on b+-(LR)ⁿ."
+    ],
+    "numbers": [
+      "H₁ differs between b++(LR)ⁿ and b+-(LR)ⁿ at 6 of 6 levels; B1374's N moves at 6 of 6 levels (12→60, 60→12, 12→60, 60→84, 132→300, 120→36)",
+      "|Tor H₁| on b++(LR)ⁿ: 1, 5, 16, 45, 121, 320 · on b+-(LR)ⁿ: 5, 9, 20, 49, 125, 324; shifts [4,4,4,4,4,4]",
+      "B1374's Y₄ = t12839 at N = 60 — computed here: 60. B1375's Y₅ over ℚ(ζ₁₃₂) — computed here: N = 132",
+      "G4 did not land: index instrument is 2 generators / 1 relator over ℚ(u); every cover has a (3, 2) presentation",
+      "This arc does not read a moved locus as a moved count."
+    ],
+    "cites_main_arcs": ["B1374", "B1375", "B1297", "B1413"]
+  },
+  {
+    "arc": "xB032",
+    "verdict": "PROVED",
+    "headline": "THE TOWER'S TORSION GROWTH RATE IS THE MONODROMY'S TOPOLOGICAL ENTROPY, SO P_eff IS AN ENTROPY; THE FRIED STEP B803 NAMED IS BLOCKED ON ACYCLICITY AND UNITARITY, WHICH THE RECORD'S MODULES VIOLATE BY CONSTRUCTION",
+    "claims_about_main": [
+      "B803's 'Not verified here' item -- the analytic-torsion join needing the Cheeger-Muller/Fried literature step -- is now taken far enough to know the step is BLOCKED ON HYPOTHESES for the record's own modules",
+      "L225's T_lambda half: the thermodynamic route to it is shut for the same reason the topological one is",
+      "So the generation cap and the entropy have one root: the monodromy is pseudo-Anosov."
+    ],
+    "asks": [],
+    "numbers": [
+      "log|Tor H₁(Xₙ)| = n · h_top(monodromy) + o(1); h_top = log λ = 0.9624236501 = 2 log φ",
+      "8 of 8, at 6 distinct dilatations — the binding control (≥ 4 distinct values) is satisfied.",
+      "reducible non-split loci examined 56; satisfying ACYCLIC 0; satisfying UNITARY 0",
+      "P_eff = 84 — 84 nats, n = 88 levels of this tower",
+      "ADDENDUM 1: B1260 (2026-09-06) had made the Alexander-root/golden-locus join; B1381 (PROVED) caps rank-one h¹ at 1 on every level"
+    ],
+    "cites_main_arcs": ["B803", "B1260", "B1381", "B1418", "B1012"]
+  }
+]

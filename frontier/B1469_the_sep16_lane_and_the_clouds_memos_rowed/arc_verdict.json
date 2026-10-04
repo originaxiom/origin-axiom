@@ -1,0 +1,21 @@
+{
+ "id": "B1469",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1464",
+  "B1457"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the harvest ledger and the leads (frame-independent)",
+  "object": "the sep16 lane's xB003-xB034 at 3205984b and the cloud lane's memos 234-236 at 13d2c5b6",
+  "reach": "general",
+  "hypotheses": "a harvest arc: rowed at headline and claims level by readers at the pin, quotes kept; nothing verified on main except the three absorptions named (B1419, B1239, L244 (c))"
+ },
+ "claim_one_line": "THE SEP16 LANE AND THE CLOUD'S THREE MEMOS ROWED (R59-3): xB003-xB034 read at the pin by six readers with every claim about main quoted (97 claims across 25 arcs, listed in lead L245 to verify -- the wrong leaf since arc 13, B425's cancellation as an amphichirality artefact, the orbifold below A5, thirteen non-arithmetic in the 112-family, B1224 derived, the bound a tower property, 3 325 modules run with no 3, cs(M*) = -cs(M) used-not-read, the identification rule not enforced on kills); three absorbed already (B288 -> B1419, Kawauchi stripped in B1239, beta_c -> L244); memos 234-236 rowed and memo 236's instrument note taken (already_banked.py does not read the paper). Nothing selects a state. 0 of 19."
+}

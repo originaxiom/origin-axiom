@@ -1,0 +1,108 @@
+[
+ {
+  "arc": "xB005",
+  "verdict": "PROVED",
+  "headline": "THE NODE'S Z/3 IS 2T/Q8, REALISED DYNAMICALLY -- AND THAT IS EXACTLY WHY THE Z/3 RECURRENCE IS NOT EVIDENCE (PREREGISTRATION sealed sha256 afb4dc82... and PUSHED at 1b047ae BEFORE any cell ran; the order is checkable from this branch's history).",
+  "claims_about_main": [
+   "B1231's Identification Rule is gated on promotions and nothing checked the same claim made to DISCARD evidence.",
+   "Standing rule that catches it: a kill needs the same map a promotion needs.",
+   "WITHDRAWN: this arc's claim to extend B727/I-17 to a fourth hat -- the fourth hat is not another presentation of the atom. B727 ITSELF IS UNTOUCHED.",
+   "New error class E82, the ASSUMED-CONNECTED LINKAGE class"
+  ],
+  "asks": [],
+  "numbers": [
+   "Q1 PASS: D = [[0,0,1],[-1,0,0],[0,-1,0]] with D^3 = I, spectrum {1, omega, omega-bar}; I-31 EARNED (phi(a)=ab, phi(b)=bab sends (i,j,k) to (k,i,j), outer Z/3 of Q8)",
+   "(LR)^n tower: invariant trace field constant Q(sqrt-3) for n = 1,2,3,4 while the node order runs 3, 3, 1, 3 -- s961 = (LR)^3 has node order 1",
+   "Q4b across 77 bundles: 31 of 34 order-3 bundles are NOT Q(sqrt-3), and 1 of 4 Q(sqrt-3) bundles is NOT order 3",
+   "derivative image at the node is S_4 (order 24); even words in A_4 where 8 of 12 elements have order 3; coincidence worth log2(3/2) = 0.58 BITS",
+   "the node's Z/3 is NOT a commensurability invariant (3 on m004, 1 on its own 3-fold cover s961)"
+  ],
+  "cites_main_arcs": [
+   "B123",
+   "B266",
+   "B305",
+   "B727",
+   "B1231",
+   "B1347"
+  ]
+ },
+ {
+  "arc": "xB011",
+  "verdict": "PROVED",
+  "headline": "THE OWNER'S CATCH WAS RIGHT: B425'S 'sqrt(-3) CANCELS' IS AN AMPHICHIRALITY ARTEFACT, AND xB009 TESTED THE ONE OBJECT WHERE THE QUESTION IS DEGENERATE (PREREGISTRATION sealed sha256 642ccf4e... and PUSHED at 4b16b19 BEFORE any cell ran).",
+  "claims_about_main": [
+   "B425 -- its \"√−3 cancels in every determinant\" is scoped: true at ρ_geo of m004, because m004 is amphichiral, and false for chiral manifolds.",
+   "B425's computations are not disputed; this arc reproduced them exactly, including at odd n, which B425 never ran.",
+   "The cancellation is an amphichirality artefact, not a general fact."
+  ],
+  "asks": [],
+  "numbers": [
+   "F1 PASS: repaired instrument reproduces B425's exact values at n=0,1,2,3 up to the unit -1, including at odd n",
+   "F3: CHIRAL ==> sqrt(-3) SURVIVES, 8 of 8, no exception; the converse is false (m004 real at all n; m003 and s955 at even n only; m206, m207, s957, s960, s961 complex everywhere)",
+   "F2: 16 usable of 21 members of the Q(sqrt-3) commensurability class (5 excluded for H_1 rank 2)",
+   "F5: 6_3 amphichiral and real at every n, exactly like m004; realness tracks amphichirality and knot-ness, not a new selector (xB007's 'H_1 is the only selector' stands)",
+   "snappy's SL2C lift sends the m004 relator to -I, not +I, so Sym^odd o rho is not a representation for that lift"
+  ],
+  "cites_main_arcs": [
+   "B425",
+   "B1136"
+  ]
+ },
+ {
+  "arc": "xB017",
+  "verdict": "PROVED",
+  "headline": "ADDENDUM 3 (2026-09-17, owner: 'still negative both paths on B?'): NO -- NEITHER TORSION ORDER IS NEGATIVE, AND THIS IS THE THIRD CORRECTION TO THIS ARC. N5(b) said 'there is no deck group AT ALL'. TOO STRONG: true of the FULL index-12 cover, FALSE of the MAXIMAL REGULAR INTERMEDIATE COVER",
+  "claims_about_main": [
+   "B302 did not measure whether that hidden Z/3 is generic. Addendum 1's A4 does: it is not.",
+   "The new result is: B302's hidden Z/3 is d = 3's alone.",
+   "B734 IS RIGHT AND THE CHALLENGE IS WRONG, and the challenge's '12' is the SL index read as a PSL index -- which is E21",
+   "The record should not read the spine's 24 as a symmetry of the orbifold -- it is the order of a quotient.",
+   "a preregistration declares its CONFIGURATION AXES and which values of each it will vary; a negative is reported as scoped to the swept region, and any unvaried axis is named in the verdict.",
+   "B336's own conclusion -- that the geometric routes to sqrt(-15) are provably closed -- is UNTOUCHED."
+  ],
+  "asks": [],
+  "numbers": [
+   "N2: orders {2,3} occur in every Bianchi group and no other order occurs in any; N3: 30 of 122 imaginary quadratic fields (24.6%) reach 2T by ramified reduction, 21 (17.2%) reach 2I, 5 reach both",
+   "A4: O_d^x = {+-1} for every d except d = 1 (cusp S^2(2,2,2,2)) and d = 3 (mu_6, cusp S^2(3,3,3)); d = 3 selected by cyclotomic plus A6",
+   "1738 exact order-2 elements of PSL(2,O_3) enumerated; 590 normalise Gamma and lie outside it; zero lie inside it",
+   "|N_PGL(Gamma)/Gamma| = 2 + 2 = 4 = |Isom+(m004)|; PGL cusp torsion Z/6; the Z/2 acts on m004 and the Z/3 does not",
+   "A1: at level (4) SL index 12 but PSL index 6; at level (8) PSL index 12 -- B734 right; m003 at (2)^1 with quotient A_5 vs m004 at (2)^3"
+  ],
+  "cites_main_arcs": [
+   "B302",
+   "B731",
+   "B734",
+   "B757",
+   "B336",
+   "B486"
+  ]
+ },
+ {
+  "arc": "xB023",
+  "verdict": "PROVED",
+  "headline": "L194's SELECTION HALF: THE SELECTION AT THE OBJECT IS EXPLAINED, AND THE MECHANISM THIS ARC SEALED FOR IT IS REFUTED BY ITS OWN KILL CONDITION. PREREGISTRATION sealed 277542e74fa92bb4 and PUSHED at cbfeec0 before verification/ existed, with two binding kill conditions, ONE OF WHICH FIRED.",
+  "claims_about_main": [
+   "B1239 supports its torsion step by citing Kawauchi (J. Math. Soc. Japan 33 (1981) 571-589). The paper is READ here.",
+   "Kawauchi's pairs (M, alpha) are CLOSED; B1239 applies the consequence to CUSPED manifolds, where it fails on 590 of 1260 cases measured here.",
+   "B1239's main closed conclusion rests on APS with tau an integer, not on Kawauchi",
+   "Proposition 2.2 ... retiring a conjecture the register carried since 2026-09-02.",
+   "L194 REMAINS OPEN; what is closed is the object's own case, twice over"
+  ],
+  "asks": [],
+  "numbers": [
+   "full 203123-manifold one-cusped orientable census, 0 errors: 181 amphichiral; orientation double covers 78 at CS = 0 and 0 at 1/4; non-covers 28 at 0 and 75 at 1/4 (base rate for zero among non-covers 27.2 percent)",
+   "1260 of 1260 cusped orientation double covers at class zero; m004 = orientation double cover of Gieseking m000, m003 is not a cover",
+   "sealed square-torsion explanation REFUTED: 670 of 1260, 590 counterexamples, dropped entirely",
+   "Meyerhoff-Ouyang Prop 2.2: eta(M) differs only by one-third of an integer; Cor 2.5 gives eta(L) = 0 for an amphicheiral hyperbolic knot in S^3, so eta(m004) = 0",
+   "Addendum 2: o10_143849 is NOT a census knot; 13 amphichiral census knots, 13 of 13 at class zero (conjecture L224, post hoc Fisher p = 6.88e-4, not a theorem)"
+  ],
+  "cites_main_arcs": [
+   "B1239",
+   "B1235",
+   "B1234",
+   "B1224",
+   "B605",
+   "B152"
+  ]
+ }
+]
