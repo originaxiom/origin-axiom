@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "science_seal": "29eacadba8c3808fcd0ce5e1bbec2a3a7062504e",
+  "scope": "Authored compact Dirichlet smooth-family application to actual silver extensions plus separate exact slab and Jacobi controls",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/silver_normal_response_2026_10_04/verify.py",
+    "pipefail": true,
+    "capture": "reports/silver_normal_response_2026_10_04/NATIVE_FIRST.jsonl",
+    "exit_code": 0,
+    "status": "PASS",
+    "scientific_repairs": 0,
+    "silver_PDE_numerical_solution": false
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -q -p no:cacheprovider --import-mode=importlib reports/silver_normal_response_2026_10_04/test_verify.py reports/silver_global_boundary_2026_10_04/test_verify.py",
+    "pipefail": true,
+    "capture": "reports/silver_normal_response_2026_10_04/FOCUSED_FIRST.txt",
+    "exit_code": 0,
+    "passed": 12,
+    "new_tests": 6,
+    "retained_tests": 6,
+    "reported_seconds": 105.56,
+    "actual_silver_candidates_reconstructed": 4
+  },
+  "hash_checks": {
+    "scientific_entries": 5,
+    "input_entries": 4,
+    "status": "PASS",
+    "sources_unchanged_during_execution": true
+  },
+  "fetch": {
+    "exit_code": 0,
+    "output": "",
+    "unchanged": true,
+    "heads": "Previous full 15-head inventory remains in reports/silver_global_boundary_2026_10_04/EXECUTION_RECEIPT.json",
+    "main": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+    "SM": "e41609cfd6f4438c7d394bf6b0d0da5faaa0432b",
+    "physical": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469"
+  },
+  "foreign_source_hashes": [
+    {
+      "ref": "origin/main",
+      "path": "GENESIS.md",
+      "sha256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8",
+      "read": "Sections 1 through 3 and targeted source/register passages; not newly read whole this turn"
+    },
+    {
+      "ref": "origin/audit/physical-bridge-2026-09-05",
+      "path": "reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_PROOF.md",
+      "sha256": "ed6f831f72a10868ca527a615910fd3cff127dd8cb5000a33779eccdcdcbba44",
+      "read": "Complete"
+    },
+    {
+      "ref": "origin/audit/physical-bridge-2026-09-05",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52",
+      "read": "Complete, after science seal; R83 relay read before seal"
+    }
+  ],
+  "other_reading": {
+    "before_seal": [
+      "Full R77 SOURCE_CORE_PROOF and source-current relay",
+      "Full R83 effective-quartic relay",
+      "Own full free-boundary PROOF"
+    ],
+    "after_seal": [
+      "Full CONE_FLUX_PROOF",
+      "Full FERMION_END report"
+    ],
+    "foreign_producers_executed": false
+  },
+  "primary_source": {
+    "url": "https://arxiv.org/html/2109.01776v1",
+    "read": "Proposition 3.3 and complete proof, nearby context",
+    "full_paper_read_this_turn": false,
+    "imported_result": "Compact Dirichlet harmonic-metric existence and uniqueness",
+    "authored_extension": "Smooth-family Dirichlet implicit-function application and normal-response expansion"
+  },
+  "navigation_and_metadata": [
+    {
+      "command": "already_banked.py generated/source/boundary/current/action",
+      "exit_code": 1,
+      "meaning": "272 hits and five settled multi-term matches; warning, not failed science or absence"
+    },
+    {
+      "kind": "broad navigation",
+      "detail": "Some displays truncated; no absence inferred"
+    },
+    {
+      "kind": "missing guessed path",
+      "detail": "RELAXED_POTENTIAL_PROOF was not present; actual MIXING_SELECTION_PROOF found through relay"
+    },
+    {
+      "kind": "missing guessed path",
+      "detail": "FERMION_END_PROOF not present; actual inventory and FERMION_END report read"
+    },
+    {
+      "kind": "metadata patch",
+      "detail": "One multi-file report patch failed on a stale context line; status and inventory confirmed no partial write; corrected patch applied after focused suite"
+    }
+  ],
+  "recorded_hashes": {
+    "reports/silver_normal_response_2026_10_04/NATIVE_FIRST.jsonl": "f3ea88766fd313c65dbec86d74a7e6a6498186b11ebf3cf5d30a3cbe8ea87f59",
+    "reports/silver_normal_response_2026_10_04/FOCUSED_FIRST.txt": "d32a54ec296b0b74eaf1fdc36907faf9a9c59055ff779ff500e55fd5fef49cac",
+    "reports/silver_normal_response_2026_10_04/FINDINGS.md": "4630b32c9a6739be9a96cb10b69863f155fd1ed398aecf90c511887b04dda9c0"
+  },
+  "certification": {
+    "authored_analytic_grade": true,
+    "independent_analytic_review": false,
+    "full_repository_suite": false,
+    "physical_end_law_derived": false,
+    "physical_chirality": false,
+    "parameter_free_SM": false,
+    "full_physical_theory": false,
+    "shared_bank": false,
+    "pushed": false,
+    "merged": false
+  },
+  "unrelated_untracked_preserved": "reports/parent_mirror_matching_2026_09_25/"
+}

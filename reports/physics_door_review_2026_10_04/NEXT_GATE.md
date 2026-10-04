@@ -42,8 +42,8 @@ refreshes all 15 branch heads and preserves the pending status of R85/B1536.
 
 Start with an existing ordered nonsplit rank-five positive, not a newly
 chosen favorable count. SM B1530's m135 configuration at its recorded
-character is a concrete candidate; its exact algebraic route must first
-be replayed on its own frozen inputs. Its matching magnitude-one class
+character is a concrete candidate; its exact algebraic route has now
+been replayed on its own frozen inputs. Its matching magnitude-one class
 differences are a mechanism diagnostic, not three generations.
 
 The m135 coefficient is not R75's M6 coefficient. R81's general compact
@@ -79,9 +79,15 @@ sign imbalance or target-fit quartic may define the source law.
       equation, connection and Higgs variation, and boundary variation.
       Declare the admissible finite-energy spaces and gauge transformations.
 - [ ] Check the exact integrated flag/source balance for each order on this
-      carrier. Determine what flux the same action must provide, with its
-      sign and magnitude conventions. Satisfying one balance alone is not
-      a solution of all equations.
+      carrier in the proposed physical completion, including its end or
+      source equations. As a prerequisite, the
+      [normal-response proof](../silver_normal_response_2026_10_04/FINDINGS.md)
+      constructs a smooth fixed-boundary-metric family with strictly
+      negative outward flux off the split point, quadratic near it.
+      This is authored analytic grade, not a numerical silver PDE solution
+      or a derived end law. The actual flux coefficient is not computed.
+      This conditional balance does not discharge the physical end/source
+      equations or the magnitude that their solution must match.
 - [ ] Show that the proposed source/end fields themselves are stationary.
       Do not impose a flux as external Dirichlet data and label it generated.
 - [ ] Compare split, ordered and mixed configurations in the same domain

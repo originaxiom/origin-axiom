@@ -274,6 +274,19 @@ keeps the priority on deriving the full common action and charged domain,
 not fitting a complement to a count. No physical chirality checkbox is
 discharged by this additional cohomological result.
 
+The [normal-response packet](../silver_normal_response_2026_10_04/FINDINGS.md)
+adds an authored compact Dirichlet implicit-function argument on the same
+actual extensions. Fixed boundary metrics admit a smooth harmonic family
+through the split point; the normal flag response detects its nonzero
+interior extension and starts quadratically. Twelve focused tests pass,
+including the preceding silver reconstruction. The new explicit slab
+comparator is separate from the silver PDE. Bare residual energy stays
+zero and the dual has the same scalar flux; neither amplitude nor order
+is selected. The next duty is the full common physical boundary variation
+and charged domain, using rather than duplicating the existing conical
+Chern-Simons and fermion-reality work. All geometry and end-law input
+costs remain explicit.
+
 - [ ] A declared spacetime/dynamical interpretation and common action.
 - [ ] Consistent quantum theory and complete anomaly bookkeeping.
 - [ ] Gravitational dynamics, not merely a spin-two representation slot.
