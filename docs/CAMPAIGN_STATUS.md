@@ -3,9 +3,13 @@
 October4 post-R84: publication ea36d672 pushed/server-confirmed. Fresh
 SM9fc9a572 acknowledges the cap review and corrects its base-loop step;
 main e90b4f7e received, no main banking/census replay claimed. Next
-actual rank-five/dual admission candidate specified, NOT executed, in
-reports/physical_bridge_2026_09_05/ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md.
-Whole physical goal ACTIVE; gluing/metric/action inputs remain priced.
+actual rank-five/dual admission candidate is now executed as R85:
+reports/physical_bridge_2026_09_05/JOINED_BACKGROUND.md. All three
+character joins match and span Mat5; same supplied compact action admitted
+by a credited theorem. Representative charged counts2/2 and exterior2/2
+are paired, unbroken su5 not SM.60 exact/75 modular/12 focused pass under
+repaired seal d1e0d049; two failed instrument seals preserved. Whole physical
+goal ACTIVE; join/metric/action remain priced, analytic review owed.
 
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial

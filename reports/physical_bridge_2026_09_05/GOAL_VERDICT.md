@@ -1,10 +1,28 @@
-# Verdict toward the full physical-theory goal - R84, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R85, updated 2026-10-04
 
 Post-publication: ea36d672 pushed; fresh SM9fc9a572 acknowledges the cap
 review/base-loop correction, not main banking or our census acceptance.
-Next actual rank-five/dual admission test is priced and specified in
-ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md, not sealed/executed. Its
-success would not by itself produce net chirality. Full SM/TOE active.
+That intake's actual rank-five/dual test is now executed in R85, below.
+Its successful admission does not produce net chirality. Full SM/TOE active.
+
+**October4 R85: actual joined coefficient is globally irreducible and admitted conditionally.**
+All three R75 orbit characters match their literal dual across marked
+torus -I and span Mat5 exactly. On the supplied compact closed double,
+Wu-Zhang's theorem and the retained R76/R40 action map supply a harmonic
+bare-action background without prescribed boundary/source data. Gluing,
+metric, parent/action and dictionary are still supplied, not genesis-derived.
+Representative charged H1 counts are2/2 for E/dual and2/2 for their
+exterior squares, H0 allzero; unbroken compact gauge Lie algebra su5.
+Compact positive norms/gap are conditional, not normalized interactions,
+selected SM breaking, physical Weyl chirality or three generations.
+Repaired seal d1e0d049 was pushed/server-confirmed before unchanged60
+exact,75 separate modular checks and12 focused tests (6 new,6 R75) passed.
+Two failed instrument seals preserved; no original-unchanged certificate.
+Report: JOINED_BACKGROUND.md. The single-piece obstruction does not
+transfer to this global simple coefficient; closed mirror balance does.
+Next earn the registering relation/join or actual source/defect/end law,
+fermion domain and interactions in one model. Nonauthor analytic review,
+full-suite/main banking and full parameter-free SM/TOE remain OPEN.
 
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial

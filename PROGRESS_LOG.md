@@ -16787,3 +16787,28 @@ Mat5 word-span certificate precede compact-domain theorem use. Closed
 admission would not produce a net chiral count when H0 is balanced.
 Original Corlette paper access unresolved, no full-paper read claimed.
 Full physics goal ACTIVE/unachieved, not replaced by this bounded task.
+
+## 2026-10-04 R85 actual rank five dual join and physical admission
+
+Completed the prior turn's specified test, not another plan-only intake.
+All three actual R75 orbit characters have invertible torus matching and
+full Mat5 on the supplied closed opposite-oriented double. Both piece
+and joining relators, cocycle, determinant and singular/reducible controls
+pass. Wu-Zhang compact theorem gives harmonic metric; R76/R40 transport
+the same bare action/parent, no prescribed boundary metric/source needed.
+
+Representative01: H0 allzero, H1 rank5/dual2/2 and exterior/dual2/2;
+exact exterior piece1+1 with actual acyclic torus, separate modular double
+check. Positive compact Hodge kernels/gap and gauge su5, not a chiral SM.
+Generated join, physical Weyl/domain/interaction selection, neutral H1,
+gravity and quantum/predictive duties remain. Do not export single-piece
+projector obstruction to this globally simple joined coefficient.
+
+60 exact/75 separate modular/12 focused tests pass under repaired science
+d1e0d049 pushed/server-confirmed before run. Two earlier seals failed on
+queue indexing and determinant API; original exits/logs preserved, criteria
+unchanged, no successful original-seal certificate. Governance26 PASS/
+four inherited FAIL categories. Source/PDF/receipt custody scoped to R85;
+no full suite/main bank/independent analytic acceptance. Sender OPEN relay
+asks for generated law and review, not recipient-assigned banking. Full
+physics mission active, no B/I numbers allocated or foreign files edited.

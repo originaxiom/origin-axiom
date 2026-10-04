@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-04 R85 actual rank five dual join and physical admission
+
+Repaired science d1e0d049 pushed/server-confirmed before60 exact,
+75 separate modular and12 focused checks passed (6 new,6 retained R75).
+All three character joins match torus -I and span Mat5. Compact closed
+harmonic admission follows in the same supplied parent/action; join and
+metric not derived from genesis. Representative charged counts2/2 and
+exterior2/2 are paired, unbroken su5 not SM. Two failed instrument seals
+and logs preserved; no unchanged-original certificate or main banking.
+JOINED_BACKGROUND.md records the conditional positive, operator domain,
+physical duties and OPEN relay. Full parameter-free SM/TOE active.
+
 ## 2026-10-04 — R84 publication, recipient acknowledgment and next admission test
 
 Publication ea36d672 pushed/server-confirmed; science aee360ae unchanged.

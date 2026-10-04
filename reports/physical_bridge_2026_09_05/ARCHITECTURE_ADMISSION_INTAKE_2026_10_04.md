@@ -1,5 +1,12 @@
 # Next physical construction: admission through a retained relation
 
+Historical intake below records the pre-execution state. The task is now
+executed at repaired science d1e0d049 and reported in JOINED_BACKGROUND.md:
+exact matching/full Mat5 on all three characters; conditional compact
+same-action admission, representative charged mirror pairs2/2. The original
+input budget and unresolved genesis/physical duties remain. Do not read
+the preserved proposed/not-executed language below as the current grade.
+
 October 4, 2026. Research intake and task specification, NOT an executed
 or sealed R85 experiment. Full parameter-free SM/TOE goal ACTIVE.
 Do not quote a proposed double as an existing verified background.

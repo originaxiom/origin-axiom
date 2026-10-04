@@ -3,8 +3,17 @@
 October4 post-R84: publication ea36d672 pushed/server-confirmed. Fresh
 main e90b4f7e and SM9fc9a572 received; the cap review/base-loop correction
 acknowledged on the SM branch, not main banking. Next admission candidate
-and input prices: ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md. No new
-double experiment executed; old mirror-double positives retained.
+and input prices: ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md. Its bounded
+double test is now executed in JOINED_BACKGROUND.md; old positives retained.
+
+October4 R85: actual R75 nonsplit coefficients and their duals match
+across marked torus -I, with full Mat5 on all three characters. Compact
+closed harmonic admission in the same supplied action follows from the
+credited theorem, not a cusp theorem or selected genesis join. Representative
+charged counts2/2 and exterior2/2 are paired; compact gauge su5, not SM.
+Repaired science d1e0d049:60 exact/75 modular/12 focused checks pass;
+two original failed seals retained, analytic review/main banking owed.
+The relation can change admission without solving chirality; full goal ACTIVE.
 
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial

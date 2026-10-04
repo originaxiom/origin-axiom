@@ -1,11 +1,13 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-October4 R84 follow-through: prospective actual rank-five/dual join is
-specified in reports/physical_bridge_2026_09_05/ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md.
-Not sealed or executed; joining operation/map/metric/action are priced
-inputs, not derived selectors. Invertible peripheral matching, Mat5
-certificate, compact harmonic-metric source, same-parent operator and
-mirror accounting remain duties. B582/B1036/B1086 positives retained.
+October4 R85 follow-through: actual rank-five/dual join executed in
+reports/physical_bridge_2026_09_05/JOINED_BACKGROUND.md. All three
+characters have invertible matching/full Mat5; same supplied compact
+action admitted by theorem. Representative charged H1 and exterior H1
+are2/2, invariant terms retained. The join/metric/action are priced,
+not selectors; compact gauge su5 not SM. Next generated relation or actual
+source/defect/end law, common fermion domain and normalized interactions.
+B582/B1036/B1086 positives retained; no whole-architecture negative.
 
 **Current October 2: act/register milestone executed; full physics goal active.** The full
 parameter-free Standard Model/TOE remains the overarching mission;

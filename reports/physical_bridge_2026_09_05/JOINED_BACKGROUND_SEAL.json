@@ -1,0 +1,39 @@
+{
+  "science_seal": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469",
+  "failed_attempted_seals": [
+    "e1fa16d3be72e8147e8968429b14d5c9c095d938",
+    "8295fe981f4d939c8f5d279dcd3a6294f742d1b2"
+  ],
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_DESIGN.md",
+      "bytes": 7655,
+      "sha256": "6c8d1b8abf35383b54fe10b95bc730f12fe9e40f1b62c6510c58c25b22f46c21"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md",
+      "bytes": 7577,
+      "sha256": "e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_INPUTS.json",
+      "bytes": 1468,
+      "sha256": "608d676f93d188e716788986345df5e2f8489c7c606849ef38ddbacb6d5ede6b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/joined_background.py",
+      "bytes": 11222,
+      "sha256": "f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/joined_background_reference.py",
+      "bytes": 8832,
+      "sha256": "22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869"
+    },
+    {
+      "path": "tests/test_physical_bridge_joined_background.py",
+      "bytes": 2110,
+      "sha256": "4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420"
+    }
+  ]
+}

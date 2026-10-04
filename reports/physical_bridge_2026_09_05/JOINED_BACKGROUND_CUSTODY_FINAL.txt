@@ -1,0 +1,1 @@
+{"frozen_paths":6,"local_pins":3,"primary_pdf_pins":1,"raw_captures":15,"failed_attempted_seals":2,"native":60,"reference_modular":75,"focused":12,"scope":"R85 byte/population custody only, not analytic proof, main banking or physical completion"}

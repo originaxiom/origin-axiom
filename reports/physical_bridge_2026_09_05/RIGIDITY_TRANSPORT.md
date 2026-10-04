@@ -125,6 +125,12 @@ recipient agreement, not main banking or our reexecution of its census.
 The next same-action architectural test is specified, NOT executed, in
 ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md.
 
+Later October4 update: that intake has now executed as R85 in
+JOINED_BACKGROUND.md. Exact dual matching/full Mat5 pass on all three
+characters; compact same-action admission is conditional, charged counts
+paired2/2 and unbroken su5 not SM. Its two instrument repairs are disclosed.
+This changes no frozen R84 science or cap scope and is not main banking.
+
 Classical input and vector distinction: Kapovich1994 §5,
 https://www.math.ucdavis.edu/~kapovich/EPR/Kapovich_1994.pdf ;
 Bart--Scannell2006 §2,
