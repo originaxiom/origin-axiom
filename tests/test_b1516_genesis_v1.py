@@ -194,7 +194,9 @@ def test_v1_ids_are_cited_as_genesis_elsewhere():
     SM seat's were made in parallel and numbered the same; the regex below matched only the unsuffixed names until then.
     From sm:B1526 (2026-10-03) a relay of another seat kept verbatim in a `received/` folder, named as the relay is, is that
     seat's text, not this branch's living text, and is exempt too: main's relay of 2026-10-03, kept byte-identical in
-    sm:B1526's arc, cites FK8 in a paragraph of its own words, which this seat cannot amend."""
+    sm:B1526's arc, cites FK8 in a paragraph of its own words, which this seat cannot amend. From sm:B1537 (2026-10-04) a
+    proposed text in a `proposed/` folder (`GENESIS_v1_10_with_proposals.md`) is main's GENESIS text with this seat's
+    insertions marked, so it is GENESIS text too, exempt as GENESIS.md is."""
     skip_dirs = {".git", "node_modules", "__pycache__"}
     ledger = (ROOT / "docs" / "SEAL_LEDGER.md").read_text(encoding="utf-8")
     bad = []
@@ -203,6 +205,8 @@ def test_v1_ids_are_cited_as_genesis_elsewhere():
         if set(rel.parts) & skip_dirs or rel == Path("GENESIS.md") or rel.parts[:2] == ("frontier", ARC.name):
             continue
         if rel.parent.name == "received" and re.fullmatch(r"GENESIS_v\d+_\d+(_main|_sm)?\.md", rel.name):
+            continue
+        if rel.parent.name == "proposed" and re.fullmatch(r"GENESIS_v\d+_\d+_with_proposals\.md", rel.name):
             continue
         if rel.parent.name == "received" and re.fullmatch(r"[A-Z]+(_AND_[A-Z]+)*_TO_[A-Z_]+_\d{4}-\d\d-\d\d_[A-Z0-9_]+\.md",
                                                           rel.name):

@@ -1,0 +1,87 @@
+{
+ "id": "B1537",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1533",
+  "B1528",
+  "B1531",
+  "B1530",
+  "B1532",
+  "B1534",
+  "B1535",
+  "B1536",
+  "B1516",
+  "B1467"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "none (GENESIS); F-HE for P5-P9",
+  "object": "GENESIS: main's v1.10 (B1467) taken as the head, byte for byte, as main asked; the SM seat's v1.10 (sm:B1533), made in parallel and numbered the same, kept as received; the seat's page changes offered as proposals P1-P9 to main's v1.10 in proposed/GENESIS_v1_10_with_proposals.md",
+  "reach": "general",
+  "hypotheses": [
+   "the received texts are byte-identical to their sources: main's GENESIS.md at d295fc5d, unchanged at e90b4f7e (b3ac6129...), sm:B1533's generator output (081ad626...), main's relay at d295fc5d",
+   "P1-P4 are the seat's v1.10 text with only the version mark replaced (C3); P5-P9's facts are read from the banked records of sm:B1530, sm:B1532, sm:B1534 and sm:B1535 and from sm:B1536's seal row (C5)",
+   "each proposal is main's to adopt, amend or decline; no status change is proposed and the owner's two decisions (v1.5) stand",
+   "sm:B1536 is sealed and running; P6 names its population and no outcome"
+  ]
+ },
+ "claim_one_line": "GENESIS: MAIN'S v1.10 TAKEN AS HEAD (not sealed: every check compares texts or reads a banked record). As main's B1467 relay asked, GENESIS.md on this branch is main's v1.10 byte for byte (C6), and the seat numbers no further versions. The seat's own v1.10 (sm:B1533), made on main's v1.9 in parallel with main's and numbered the same (the second version collision), is kept as received (C2). Its page changes are offered as proposals to main's v1.10: P1-P4 are its four content lines that main's v1.10 lacks (the six-gaps heading, GAP6's scope, FK9's sm:B1527 and Part H lines, the frontier's item-8 line; C3), and P5-P9 come from arcs banked since: the levels' abelian covers (sm:B1532), the class's covers with sm:B1536 sealed, the other word states (sm:B1530, sm:B1534, sm:B1535), the cap in the frames table (sm:B1535 Theorem C) and the frontier's places where both supplies can grow (Corollary C3; C5). proposed/GENESIS_v1_10_with_proposals.md is main's v1.10 with the nine marked; removing the marks gives it back (C4). B1533's lock reads the seat's v1.10 from its kept copy; B1516's citation lock exempts the proposed text as GENESIS text. No new mathematics; I-26 stays UNEARNED. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-04 08:01Z)": "4f30aecb",
+    "main (at the sweep, 2026-10-04 08:01Z)": "f06d3405",
+    "origin/art/camper-van-bar (at the sweep, 2026-10-04 08:01Z)": "b3745696",
+    "origin/audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-04 08:01Z)": "13392a6f",
+    "origin/seat/determined-hopper-t1cmii (at the sweep, 2026-10-04 08:01Z)": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt (at the sweep, 2026-10-04 08:01Z)": "0043be2b",
+    "origin/seat/outside-bench (at the sweep, 2026-10-04 08:01Z)": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-04 08:01Z)": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl (at the sweep, 2026-10-04 08:01Z)": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-04 08:01Z)": "4f30aecb",
+    "origin/main (at the sweep, 2026-10-04 08:01Z)": "e90b4f7e",
+    "origin/sep16-branch (at the sweep, 2026-10-04 08:01Z)": "3205984b"
+   },
+   "terms": [
+    "proposal to v1.10",
+    "version collision",
+    "GENESIS v1.11",
+    "take v1.10 as head",
+    "proposals to main",
+    "with_proposals",
+    "page changes"
+   ],
+   "hits": [
+    {
+     "where": "origin/main@e90b4f7e:GENESIS.md (= received/GENESIS_v1_10_main.md)",
+     "bearing": "the head taken; last changed at d295fc5d (B1467); no head holds a v1.11"
+    },
+    {
+     "where": "origin/main@e90b4f7e:docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_EVENING_ROWED_GENESIS_V1_10.md (= received/), with main's RELAY_LEDGER, CHANGELOG, PROGRESS_LOG and CAMPAIGN_STATUS rows",
+     "bearing": "the ask: take v1.10 as head and number page changes as proposals; the version collision recorded by main"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_10.md, tests/test_b1533_genesis_v110.py (sm:B1533)",
+     "bearing": "the seat's v1.10 and its ask that main take it as head: the other side of the collision; its lock repointed to the kept copy"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1534_the_silver_covers/PREREGISTRATION.md",
+     "bearing": "records the second version collision and says this seat will answer it separately; this arc is the answer"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "none: every item is a statement about the record's texts (main's v1.10 and the seat's v1.10) or about banked arcs' records"
+   ],
+   "sources": []
+  },
+  "standing": "RE-DERIVED",
+  "why": "main's v1.10 as received is checked byte for byte against main's GENESIS.md (C1, C6); the seat's v1.10 against sm:B1533's generator (C2); P1-P4 against the seat's v1.10 text (C3); P5-P8's facts against the banked records they cite (C5); the proposed text undoes to main's v1.10 (C4)"
+ }
+}

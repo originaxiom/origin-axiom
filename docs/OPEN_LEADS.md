@@ -3822,6 +3822,12 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    class index counts +1, −1 and 0 on three flat modules of one rank on M₄ (own code, two routes), and frames with
    curvature or a singular point are on the record (sm:B1397, sm:B1502, sm:B1503). Main's L244 (a) and (c) pointed to
    sm:B1531; Part H verified on main (B1465) recorded at GENESIS FK9.
+
+   **[2026-10-04, sm:B1537] GENESIS: main's v1.10 taken as head.** As main's B1467 asked, GENESIS.md is main's v1.10
+   byte for byte, and the seat numbers no further versions. The seat's v1.10 (sm:B1533) is kept as received. Its page
+   changes are proposals P1–P9 to main's v1.10 (sm:B1537's `proposed/`): the six-gaps heading, GAP6's scope, FK9's
+   sm:B1527 and Part H lines, the item-8 line, and the frame's rows from sm:B1530, sm:B1532, sm:B1534, sm:B1535 and
+   sm:B1536's seal. They are main's to adopt, amend or decline.
 5. **The metallic fixed loci, component by component** (sm:B1521; the audit lane's AR4). Does the fixed locus of φ_m =
    Ta^m ∘ Tb^m on ℂ³ have isolated components, and if so, are their κ values related by a symmetry? A yes with no relating
    symmetry would be a discrete fork inside one unit, which B130's reading denies. The golden unit m = 1 first. Seal before

@@ -1,7 +1,7 @@
 # Origin Axiom
 
-> **Foundations (2026-10-03; v1.0 B1516, v1.10 B1533): [`GENESIS.md`](GENESIS.md) v1.10 is canonical on this branch: main's v1.9 (its B1466) with this seat's marked
-> additions.** Main's v1.5 recorded the owner's two decisions of 2026-10-03: the principle's single wording (fork FK1) is confirmed
+> **Foundations (2026-10-04; v1.0 B1516, v1.10 B1533, main's v1.10 as head B1537): [`GENESIS.md`](GENESIS.md) v1.10 is canonical on this branch: main's v1.10
+> (its B1467), byte for byte; this seat's page changes are offered to it as proposals P1–P9.** Main's v1.5 recorded the owner's two decisions of 2026-10-03: the principle's single wording (fork FK1) is confirmed
 > as written, and fork FK12 is framed as the register question. It states once, with one numbering,
 > the principle, the grammar, the generated state space with the figure-eight knot complement m004 as its root, the
 > frames in which results are computed, and the open forks. Where anything below disagrees with it, GENESIS holds.

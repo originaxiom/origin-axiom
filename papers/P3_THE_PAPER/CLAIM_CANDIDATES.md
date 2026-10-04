@@ -1,12 +1,12 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1182 settled arcs — 70%** —
+the field is **absent on 828 of 1183 settled arcs — 70%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (97) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 612 arcs.**
-The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (97) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 614 arcs.**
+The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.93** on the corpus's own law vocabulary against
@@ -286,7 +286,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1239` | PROVED | V | | THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census i… |
 | `B1281` | PROVED | V | | THE SEATS VERIFIED (2026-09-07). Fetched origin/main @ 506c591f (main's B1267, B1272-B1277, B1290-B1294), the physics seat @ 659487bb (R56-R72) and codex @ f7a49536 (R040… |
 | `B1517` | PROVED | V | | SEE THE REPO FIRST, THEN THE LITERATURE (the owner, 2026-10-02): the rule written into WORKING_RULES and PRACTICES and made data -- every arc from B1517 records prior_wor… |
-| `B1520` | NEGATIVE | V | | THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently… |
 | `B14` | PROVED | S | | F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.… |
 | `B64` | PROVED | S | | The k(alpha) sector-assignment is proven symbolically: even-/k/ char(M^k) is P-symmetric, odd-/k/ P-antisymmetric, via depth-n CH plus Dickson parity.… |
 | `B161` | PROVED | S | | The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; 'forced/empty' is retired.… |
@@ -405,6 +404,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1513` | NEGATIVE | S | | THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s9… |
 | `B1515` | PROVED | S | | THE HYPERBOLIC POINT, run as sealed (b36f6d8e; the owner's 'go' after B1514) by two routes that share no code and agree on all 3048 keys, every dimension and index, zero … |
 | `B1516` | PROVED | S | | GENESIS v1: the foundations stated once (GENESIS.md v1.0, canonical, versioned), with IDs unused anywhere else in the repository (PF, GM, SE, T-ROOT, F-xx, FK, GAP). The … |
+| `B1520` | NEGATIVE | S | | THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently… |
 | `B1525` | PROVED | S | | GENESIS v1.5 (not sealed: every item checks a claim the record already fixes): main's v1.4 taken as the head, as main asked of its v1.3, and the SM seat's parallel v1.3 a… |
 | `B1530` | PROVED | S | | THE INTERIOR EXTENSIONS, run as sealed (1d359734; sL-10 item 10 (a)): at the hyperbolic point, B1515's frame carries one generation in one W on the two silver squares. On… |
 | `B1532` | NEGATIVE | S | | THREE FROM THE CUSPS, run as sealed (97fdce6d; sL-7): no finite abelian cover of m004's levels M2-M6 carries a generation-shaped count of sm:B1515's frame at a lambda = 1… |
@@ -473,7 +473,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1395` | PROVED | S | | THE FREE CUSP IS CHARGE-BLIND AT FINITE ENERGY (the owner's question after B1393: what physical ingredient at a free cusp knows the sign of the charge?): in 7d SYM only t… |
 | `B1396` | PROVED | S | | THE CAPPED EISENSTEIN CUSP (B1395's menu: the one finite-energy charge-odd datum is a flux on a capped cusp torus; and B1394's P3, which fired). (A) The cusp's Hopf trace… |
 
-## §10 the wall — what a specialist must supply (49)
+## §10 the wall — what a specialist must supply (51)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -526,6 +526,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1364` | PROVED | S | | THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet … |
 | `B1500` | PROVED | S | | THE CONE POINT'S CHOICE (the owner's go on the sL-8 pass): completing the cusps of a member of m004's class as cone points (the one-point compactification, B1392's first … |
 | `B1509` | PROVED | S | | THE JOIN ON THE PROJECTIVE VACUUM (B1508 lead 1, on the owner's 'do as u recomend, u know the endgoal'; predictions D1-D6 committed and pushed at 3edaf1fa before the dire… |
+| `B1518` | PROVED | S | | THE BAR (OPEN_LEADS sL-9 item 1, GENESIS GAP4): a positive on a generated state is graded by a card (frame, feature, population, unit, how the state was chosen), the base… |
+| `B1524` | PROVED | S | | THE BAR'S NULL CONTRACT (not sealed; the audit lane's request at 24c039c8): the bar's p now has a stated law. Under the census's own law (carriers placed exchangeably in … |
 
 ## UNASSIGNED — needs an editorial call (127)
 

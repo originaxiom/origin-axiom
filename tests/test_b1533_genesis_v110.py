@@ -8,7 +8,10 @@ by sm:B1531's reading; Part H verified on main (B1465) is recorded at FK9. Locke
 - live: C4 (both routes on M4, a second each), C2, C5 and C6; C1, C3 and C7 when main's commits are in the clone;
 - GENESIS v1.10's text: version, marks, the added sentences, the statuses;
 - Gate 5-Q's three words (encoded here), vendor words and the private term: absent from GENESIS.md and the arc's text;
-- the ledgers, the relay, README, OPEN_LEADS and B1528's repointed lock."""
+- the ledgers, the relay, README, OPEN_LEADS and B1528's repointed lock.
+
+Since sm:B1537 (2026-10-04) GENESIS.md is main's v1.10, as main asked. The seat's v1.10 is kept byte-identical in B1537's arc
+(`received/GENESIS_v1_10_sm.md`), and the tests below that read v1.10 read it there; B1537's lock checks GENESIS.md."""
 import base64
 import hashlib
 import importlib.util
@@ -28,6 +31,7 @@ V19M, V18M, V18S = REC / "GENESIS_v1_9_main.md", REC / "GENESIS_v1_8_main.md", R
 RELAY_IN = REC / "CC_TO_SM_AND_CODEX_2026-10-03_THE_COUNT_IS_A_BIT_AND_THE_MIXING_QUARTIC.md"
 RELAY_OUT = ROOT / "SM_TO_CC_AND_CODEX_2026-10-03_GENESIS_V1_10.md"
 MARK, MARK8 = "**[v1.10]**", "**[v1.8]**"
+V110_KEPT = ROOT / "frontier" / "B1537_genesis_proposals" / "received" / "GENESIS_v1_10_sm.md"
 Q5 = [base64.b64decode(t).decode() for t in ("cXVhbGlh", "YXdhcmU=", "c2Vlcw==")]
 VENDOR = [base64.b64decode(t).decode() for t in ("Y2xhdWRl", "YW50aHJvcGlj", "b3B1cw==", "c29ubmV0", "ZmFibGU=")]
 PRIVATE = bytes([98, 114, 97, 118, 101]).decode()
@@ -67,7 +71,7 @@ def test_the_received_texts():
 
 def test_genesis_is_the_generator_output():
     gen = _load("b1533_merge_genesis_v110", VER / "merge_genesis_v110.py")
-    g = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    g = V110_KEPT.read_text(encoding="utf-8")
     assert gen.build() == g
     assert len(gen.CHANGES) == 11 and len(gen.V18_CONTENT) == 3
     back = g
@@ -101,7 +105,7 @@ def test_the_record():
     assert d["C7"]["B1466 at q0 = 17 + 12 sqrt2: I(W), I(W'), I(A (+) 1)"] == [-1, 1, 0]
     c8 = d["C8"]
     assert c8["GENESIS.md == merge_genesis_v110.build()"] is True and (c8["[v1.10] marks"], c8["[v1.8] marks"]) == (4, 4)
-    assert c8["sha-256"] == _sha(ROOT / "GENESIS.md")
+    assert c8["sha-256"] == _sha(V110_KEPT)
     pre = (VER / "genesis_v110_checks_prewrite_run.txt").read_text(encoding="utf-8")
     post = (VER / "genesis_v110_checks_run.txt").read_text(encoding="utf-8")
     assert "before GENESIS.md is written" in pre and "ALL PASS" in pre and "C8 PASS: GENESIS.md not yet written" in pre
@@ -138,7 +142,7 @@ def test_c1_c3_c7_live():
 
 # ------------------------------------------------------------------------------------------------- GENESIS v1.10
 def test_genesis_v110_text():
-    raw = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
+    raw = V110_KEPT.read_text(encoding="utf-8")
     g = _norm(raw)
     v19 = V19M.read_text(encoding="utf-8")
     assert raw.startswith("# GENESIS — the foundations of origin-axiom")
@@ -175,7 +179,7 @@ def test_genesis_v110_text():
 
 
 def test_hygiene():
-    files = [ROOT / "GENESIS.md", RELAY_OUT, ARC / "FINDINGS.md", ARC / "arc_verdict.json"] + sorted(VER.glob("*.py")) + \
+    files = [V110_KEPT, RELAY_OUT, ARC / "FINDINGS.md", ARC / "arc_verdict.json"] + sorted(VER.glob("*.py")) + \
         sorted(VER.glob("*.txt")) + sorted(VER.glob("*.json"))
     for p in files:
         t = p.read_text(encoding="utf-8", errors="ignore")
@@ -208,7 +212,7 @@ def test_verdict_findings_and_ledgers():
               "Their class indices are **+1, −1 and 0**", "Take v1.10 as head", "Row sm:B1531 against L244 (a) and (c)."):
         assert _norm(s).lower() in relay.lower(), s
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    assert "[`GENESIS.md`](GENESIS.md) v1.10 is canonical on this branch: main's v1.9 (its B1466)" in readme
+    assert "v1.10 B1533" in readme          # since sm:B1537 the foundations line names main's v1.10 as the head
     leads = _norm((ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8"))
     assert "[2026-10-03, sm:B1533] GENESIS v1.10." in leads
     lock = (ROOT / "tests" / "test_b1528_genesis_v18.py").read_text(encoding="utf-8")

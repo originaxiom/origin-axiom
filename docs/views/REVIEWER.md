@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1284** |
-| words of findings prose | **1,110,193** |
+| research arcs with findings | **1285** |
+| words of findings prose | **1,111,145** |
 | test lock files referenced | **786** |
-| arcs carrying an authored verdict | **1284** (100.0 %) |
+| arcs carrying an authored verdict | **1285** (100.0 %) |
 | recorded closures | **826** (659 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 855 |
+| PROVED | 856 |
 | NEGATIVE | 329 |
 | OPEN | 89 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1535`** (3093 words, 1 locks)  
-THE CAP, run as sealed (b410afeb; sL-10 item 14, first half; the owner's 'are u sure about the math behind your negative conclusions about three generatiosn, sure sure sure?'): at a finite-order member of sm:B1515's frame on any finite cover of a complete finite-volume hyperbolic 3-manifold, at every class and in either order, I(Lambda^2 W1) = -dim(im delta^1 meet K) lies in [-n(nu^3 rho), 0] and I(W1) >= -b0 - n(nu^4) (Theorem C, from sm:B1515's Lemmas 2 and 3, sm:B1530's torus table, Lemma E' and Garland-Raghunathan on ker nu^2), so g generations need both supplies n(nu^3 rho) >= g and b0 + n(nu^4) >= g; and the line has no interior class on a once-punctured-torus bundle with Anosov monodromy or a finite abelian cover of one at puncture-trivial characters (Lemma W). The sealed run held both: Theorem C's identities and caps at all 776 readings of Part M (130 pulled-back, 302 pure at chi0 != 1 and 344 mixed classes of m135's and m136's abelian covers of order 2, 4 and 8; route RS at two primes, route Ind exactly at the 140 mixed classes on order-2 covers, agreeing on every quantity), and Lemma W on all 541 rows (567,996 characters in route X, 41,724 in route S, n = 0 at every one). No class carries more than one generation: the only generation-shaped value is (-1, -1), at 36 readings. Corollaries: at most one generation on every abelian cover of m135 and m136 at the pulled-back members (C1), on every word state and level (C2); more needs both supplies, which only puncture characters, non-abelian covers or non-unitary characters can give (C3). Seven of nine predictions held; P5 (mixing adds no new value) and P6 (one of 102 pairs: a hashed-coefficient class was special, rank 3 against 4, confirmed after the run by sm:B1536's control K3 in two routes) failed. 0 of 19 stays 0.  
-`B1535_the_cap/FINDINGS.md`
+**PROVED — `B1537`** (952 words, 0 locks)  
+GENESIS: MAIN'S v1.10 TAKEN AS HEAD (not sealed: every check compares texts or reads a banked record). As main's B1467 relay asked, GENESIS.md on this branch is main's v1.10 byte for byte (C6), and the seat numbers no further versions. The seat's own v1.10 (sm:B1533), made on main's v1.9 in parallel with main's and numbered the same (the second version collision), is kept as received (C2). Its page changes are offered as proposals to main's v1.10: P1-P4 are its four content lines that main's v1.10 lacks (the six-gaps heading, GAP6's scope, FK9's sm:B1527 and Part H lines, the frontier's item-8 line; C3), and P5-P9 come from arcs banked since: the levels' abelian covers (sm:B1532), the class's covers with sm:B1536 sealed, the other word states (sm:B1530, sm:B1534, sm:B1535), the cap in the frames table (sm:B1535 Theorem C) and the frontier's places where both supplies can grow (Corollary C3; C5). proposed/GENESIS_v1_10_with_proposals.md is main's v1.10 with the nine marked; removing the marks gives it back (C4). B1533's lock reads the seat's v1.10 from its kept copy; B1516's citation lock exempts the proposed text as GENESIS text. No new mathematics; I-26 stays UNEARNED. 0 of 19.  
+`B1537_genesis_proposals/FINDINGS.md`
 
 **NEGATIVE — `B1534`** (3999 words, 1 locks)  
 THE SILVER COVERS, run as sealed (1f58d161; sL-10 item 11): no finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations at a pulled-back member of sm:B1515's frame at the hyperbolic point, in either order. Lemma S (Shapiro and Mackey, any finite regular abelian cover) and Lemma Z' make every count a subgroup sum of 144 twisted terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)) over at most eight characters per member; Lemma Q (K10, two routes) carries every member at every twist onto the fourteen at kappa = +-1. Routes E (exact over Q(zeta_24)) and N (60 digits) read all 144 terms and all 64 pencils and agree; the pencils give one special class per two-class member, s = -+sqrt2/30, where every term reads (0, 0); route C (the permutation module) agrees on 16 order-4 covers read whole; after the run route S (SnapPy's presentation, cusp and holonomy, with its own classes and pencils) agrees on both states. The counts are (-1,-1), (-1,-2), (0,-1), (0,-2), (0,0), (1,0), (3,0), (5,0): the only generation-shaped count is (-1, -1), the base's one generation pulled back ((+1, +1) in the dual order). A Lambda^2 term is non-zero only at the four non-simple members' two non-simple twists, so I(Lambda^2) is 0, -1 or -2 on every cover: the 5bar' side is capped at two, while the 10' side alone reaches (3, 0) and (5, 0), anomalous. Seven of eight held; P2 failed (the (1/2, 1/2) term at m135's interior class is (0, -1)). Replaces the one-sided bound withdrawn at sm:B1530. 0 of 19 stays 0.  

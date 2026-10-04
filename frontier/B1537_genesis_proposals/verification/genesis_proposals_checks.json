@@ -1,0 +1,69 @@
+{
+ "C1": {
+  "sha-256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8",
+  "equals origin/main's GENESIS.md": true,
+  "equals the pinned sha": true
+ },
+ "C2": {
+  "sha-256": "081ad626ad040a0fd0015f0da0e2cf6b0bc5d468d28bc532e5b76b61c857fee2",
+  "equals sm:B1533's generator output": true
+ },
+ "C3": {
+  "main lacks 'Six gaps'": true,
+  "main lacks GAP6's scope": true,
+  "main lacks FK9's sm:B1527 line": true,
+  "main lacks FK9's Part H line": true,
+  "main lacks the frontier's item-8 line": true,
+  "P2 is the seat's text": true,
+  "P3 is the seat's text": true,
+  "P4 is the seat's text": true,
+  "the seat's v1.10 heading": true
+ },
+ "C4": {
+  "proposals": 9,
+  "every anchor once in main's v1.10": true,
+  "undoing the proposals gives main's v1.10": true,
+  "marks": {
+   "[sm P1]": 1,
+   "[sm P2]": 1,
+   "[sm P3]": 2,
+   "[sm P4]": 1,
+   "[sm P5]": 1,
+   "[sm P6]": 1,
+   "[sm P7]": 1,
+   "[sm P8]": 1,
+   "[sm P9]": 1
+  },
+  "each mark occurs (P3 twice: its sm:B1527 and Part H lines)": true,
+  "written file reproduces": true
+ },
+ "C5": {
+  "sm:B1532 NEGATIVE": true,
+  "sm:B1532: 68,596 counts per route, none generation-shaped": true,
+  "sm:B1532 after the run: kappa^5 = 1 adds none": true,
+  "sm:B1534 NEGATIVE": true,
+  "sm:B1530 PROVED (one generation on m135 and m136)": true,
+  "sm:B1535 PROVED": true,
+  "sm:B1535: the only generation-shaped value is (-1, -1)": true,
+  "sm:B1536 sealed (its SEAL_LEDGER row)": true
+ },
+ "C6": {
+  "GENESIS.md == main's v1.10": true,
+  "GENESIS.md == the seat's v1.10 (before writing)": false,
+  "sha-256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8"
+ },
+ "C7": {
+  "files checked": 8,
+  "hits": []
+ },
+ "passed": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true,
+  "C6": true,
+  "C7": true
+ },
+ "all pass": true
+}

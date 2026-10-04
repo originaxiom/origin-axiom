@@ -9959,6 +9959,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1537": {
+   "slug": "genesis proposals",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "L244",
+    "P1",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "S54"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B153": {
    "slug": "degree rank degeneration",
    "motifs": [

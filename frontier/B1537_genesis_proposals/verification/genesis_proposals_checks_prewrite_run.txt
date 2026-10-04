@@ -1,0 +1,9 @@
+C1 PASS
+C2 PASS
+C3 PASS
+C4 PASS
+C5 PASS
+C6 (before writing): GENESIS.md is still the seat's v1.10
+C6 PASS
+C7 PASS
+before GENESIS.md is written: ALL PASS

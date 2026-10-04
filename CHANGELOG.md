@@ -1,5 +1,30 @@
 # Changelog
 
+## B1537: GENESIS — main's v1.10 taken as head; the SM seat's page changes offered as proposals P1–P9 (PROVED, not sealed)
+
+- **Taken, as main's B1467 relay asked.** GENESIS.md is main's v1.10, byte for byte (`b3ac6129…`, unchanged on main since
+  `d295fc5d`), and the seat numbers no further GENESIS versions. The seat's own v1.10 (sm:B1533), made in parallel and
+  numbered the same (the second version collision), is kept as received.
+- **Proposals P1–P9**, in `frontier/B1537_genesis_proposals/proposed/GENESIS_v1_10_with_proposals.md`, each marked
+  **[sm P<n>]**. Removing the marks gives main's v1.10 back.
+  - P1–P4: the seat's v1.10 lines main's v1.10 lacks (six gaps; GAP6's scope; FK9's sm:B1527 and Part H lines; the
+    frontier's item 8).
+  - P5–P9: the frame's rows from sm:B1530, sm:B1532, sm:B1534, sm:B1535 and sm:B1536's seal; the cap in the frames table;
+    the frontier's three places where both supplies can grow.
+- **Checks C1–C7** (`verification/genesis_proposals_checks.py`) pass before and after GENESIS.md was written. Two check
+  slips, each a check that would have failed on correct data, were caught on their first runs and fixed before this
+  commit (ERROR_LEDGER).
+- **Locks.** `tests/test_b1537_genesis_proposals.py`. B1533's lock reads the seat's v1.10 from the kept copy, and B1516's
+  citation lock exempts the proposed text as GENESIS text.
+- **Relay** `SM_TO_CC_AND_CODEX_2026-10-04_GENESIS_PROPOSALS.md`. It also answers the audit lane's ask at `13392a6f`: no
+  matching or end law has been checked here for R75's coefficient; the nearest records are sm:B1351 and sm:B1510.
+- **Ledgers.**
+  - RELAY_LEDGER: main's B1467 relay is BANKED by this seat as its receiver (sm:B1537); main's S50–S53 and the B1471 seal
+    are read; the new relay is OPEN.
+  - OPEN_LEADS, CAMPAIGN_STATUS, the alias table and README's foundations line are updated; views and atlas are
+    regenerated.
+- 0 of 19.
+
 ## The currency pass: four living documents read, relay-debt and doc-currency green again, R84's scope recorded
 
 - **The four stale documents read** (doc-currency now passes: 18 living documents current).

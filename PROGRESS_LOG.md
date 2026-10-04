@@ -17487,3 +17487,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   without their slow tests: 124 passed.
 - The broad run on `4f30aecb` was stopped at 08:28Z after 2,580 of 5,999 tests (2,549 passed, 27 skipped, 4 failed, all four
   the standing baseline). The full lane runs on the tree after B1537.
+
+## 2026-10-04 — B1537: GENESIS, main's v1.10 taken as head; the seat's page changes as proposals P1–P9 (task 224)
+
+- Main's B1467 asked the seat to take v1.10 as head and to number its page changes as proposals, not versions. GENESIS.md
+  is now main's v1.10, byte for byte. The seat's v1.10 (sm:B1533) is kept as received, and P1–P9 are in the arc's
+  `proposed/` text. C1–C7 pass before and after the write.
+- Locks: B1537's; B1533's repointed to the kept copy; B1516's citation lock exempts the proposed text. A relay to main and the
+  audit lane, which also answers the audit lane's ask at 13392a6f. RELAY_LEDGER rows; main's S50–S53 read.
+- Two check slips caught on their first runs (C5's type, the lock's line-wrapped match); ERROR_LEDGER.
