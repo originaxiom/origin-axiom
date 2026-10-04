@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "initial_seal": "acc3aa5ac",
+  "repair_seal": "89d895eb9e2b892a41accc45ea85305bc466a3d3",
+  "runs": [
+    {
+      "path": "NATIVE_FIRST.jsonl",
+      "exit_code": 1,
+      "scope": "Stopped at wrong trivial relative-H1 expectation before any candidate",
+      "sha256": "53b39dce4fdd438dd81e4b65c951329c4a38fb9ae613811bfe9b7fdb859bb1c3"
+    },
+    {
+      "path": "NATIVE_SECOND.jsonl",
+      "exit_code": 0,
+      "members": 4,
+      "status": "PASS",
+      "sha256": "dafc582013645226f5edb22325bb800ce0cd8f1a84e7305775bba229880b058b"
+    },
+    {
+      "path": "FOCUSED_FIRST.txt",
+      "exit_code": 0,
+      "passed": 7,
+      "seconds": 9.76,
+      "sha256": "6fe44be1f59aad8878c8628f62968150596601b5c83d79670a7c0f607a8db308"
+    }
+  ],
+  "runtime": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "python_flint": "0.9.0"
+  },
+  "source_changes_after_successful_start": 0,
+  "source_checks": "Four unchanged original source/data/proof/design hashes plus two repaired code/test hashes passed; original failure hash passed",
+  "input_copy": "diff confirms only addition of terminal newline to foreign JSON",
+  "independence": "Independent from B1530 implementation, informed by its findings; native and tests share this author and code",
+  "foreign_sources_unchanged_at_new_heads": true,
+  "branch_heads": [
+    {
+      "ref": "origin/HEAD",
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d"
+    },
+    {
+      "ref": "origin/art/camper-van-bar",
+      "commit": "b3745696c11624ee60b709069e743d5f8de98f2e"
+    },
+    {
+      "ref": "origin/audit/b775-braver-questions",
+      "commit": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "ref": "origin/audit/physical-bridge-2026-09-05",
+      "commit": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469"
+    },
+    {
+      "ref": "origin/claude/determined-hopper-t1cmii",
+      "commit": "7cda35aa468cdb0ab2886e379b13ff31130be460"
+    },
+    {
+      "ref": "origin/claude/magical-wright-vwrmtt",
+      "commit": "0043be2b95a51048b3a664789ede241497558e79"
+    },
+    {
+      "ref": "origin/claude/new-session-qor5up",
+      "commit": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "ref": "origin/claude/outside-bench",
+      "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954"
+    },
+    {
+      "ref": "origin/claude/paper-review-verification-kaz3f5",
+      "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd"
+    },
+    {
+      "ref": "origin/claude/paper-verification-ufp0zn",
+      "commit": "5dde7b3efe59ca2055de6b84395416d173b2e290"
+    },
+    {
+      "ref": "origin/claude/physics-seat-evaluation-8dkbrl",
+      "commit": "659487bbd93c7990c4686a8b86985b6b66efedc4"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "4f30aecbbb629a726f04a10b49a94154f8512f38"
+    },
+    {
+      "ref": "origin/codex/seat-r001",
+      "commit": "f7a49536bc45bebc1557d3d081b6b3664a7c2199"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d"
+    },
+    {
+      "ref": "origin/paper/structure-genesis-first",
+      "commit": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4"
+    },
+    {
+      "ref": "origin/sep16-branch",
+      "commit": "3205984b48d1b98a80042cdc70916878973980f5"
+    }
+  ],
+  "scope": "Four marked silver coefficients, both dual orders and split comparators; no foreign census replay, numerical PDE solve, full repo suite or physical-domain derivation",
+  "mutations": "Local report/science files and local commits only; no merge, push or shared banking-number use"
+}

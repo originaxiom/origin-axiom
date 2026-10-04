@@ -193,8 +193,11 @@ sampling grid in the now-classified families. The
 - [ ] Identify whether OA derives a core/end law and record every supplied
       spacetime, parent, metric, coupling and source datum. A conditional
       supplied model is not the full parameter-free goal.
-- [ ] Replay one candidate on its own carrier, then derive and solve the
-      same action's connection, Higgs, source and boundary variations.
+- [x] Replay the four exported silver interior candidates on their own
+      marked carriers, with actual duals and split controls. Apply compact
+      Dirichlet admission conditionally, retaining its supplied metrics.
+- [ ] Derive and solve the same action's connection, Higgs, source and
+      boundary variations. No physical boundary law is supplied by replay.
 - [ ] Admit the physical fermion domain and compute all charged sectors,
       norms, continuum threshold and normalized interactions together.
 - [ ] Check anomalies and actual state stability before claiming a physical
@@ -207,6 +210,16 @@ Flat bulk Chern character alone is not a universal boundary-index kill;
 the known whole-torus and annulus Euler obstruction remains. Justified
 nonflat, singular, nonliftable and interacting alternatives remain open,
 not already successful or ruled out by this priority.
+
+The [silver boundary comparison](../silver_boundary_admission_2026_10_04/FINDINGS.md)
+reproduces the (-1,-1) interior positive exactly, but finds (-1,+1) for
+absolute H1 and (0,-1) for relative H1, on every tested silver coefficient.
+All seven focused tests pass after one disclosed trivial-control repair.
+The physical fermion domain must be derived rather than chosen by the table.
+The [last branch update](../silver_boundary_admission_2026_10_04/LATEST_BRANCH_UPDATE.md)
+records newly published SM B1529 and still-pending B1536/R85 work at their
+actual evidence grades. R85's distinct joined-background admission test
+should not be duplicated or treated as already successful.
 
 The [later selection control](../selection_null_review_2026_10_04/FINDINGS.md)
 adds four passing exact dependence tests against an older policy. The

@@ -38,8 +38,10 @@ sign imbalance or target-fit quartic may define the source law.
 
 ## Admission and stationarity
 
-- [ ] Replay the marked coefficient, peripheral words and both dual orders.
-      Validate transformed representations before any Fox/cohomology rank.
+- [x] Replay the marked coefficient, peripheral words and both dual orders.
+      The silver packet independently verifies all four B1530 exported
+      interior coefficients, their exterior squares and split comparators.
+      Transformed representations are checked before cohomology ranks.
 - [ ] Specify a common bulk plus core/end action and derive every field
       equation, connection and Higgs variation, and boundary variation.
       Declare the admissible finite-energy spaces and gauge transformations.
@@ -61,6 +63,13 @@ solution's mathematics. A model that admits both orders without choosing
 one is still an admission result, not a derived asymmetry.
 
 ## Physical spectrum in the admitted model
+
+The [silver comparison](../silver_boundary_admission_2026_10_04/FINDINGS.md)
+now verifies that interior, absolute and relative degree-one differences
+are respectively (-1,-1), (-1,+1) and (0,-1) on these same coefficients.
+Conditional compact Dirichlet admission applies, with supplied metrics.
+This completes the replay and a domain-sensitivity diagnostic; none of the
+following physical-domain obligations is discharged by that comparison.
 
 - [ ] Derive the charged fermion operator and its domain from the same
       completion, rather than select ordinary, relative or APS cohomology

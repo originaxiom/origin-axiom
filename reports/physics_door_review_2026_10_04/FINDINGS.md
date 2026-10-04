@@ -31,6 +31,14 @@ before execution in 5cfa6bee8db1982213cccf4f62fbb99acc943cd9.
 They are same-author verification, not external specialist review.
 No shared bank identifier or foreign ledger was edited.
 
+Subsequent October 4 work: the
+[silver boundary comparison](../silver_boundary_admission_2026_10_04/FINDINGS.md)
+now independently reproduces four B1530 interior positives and quantifies
+their domain sensitivity. Its
+[final branch refresh](../silver_boundary_admission_2026_10_04/LATEST_BRANCH_UPDATE.md)
+supersedes the SM/physical tip inventory above for current planning, while
+preserving this report's original snapshot and scopes.
+
 ## Useful progress that survives
 
 | Work | What survives at its reading grade | Obligation still unpaid |
