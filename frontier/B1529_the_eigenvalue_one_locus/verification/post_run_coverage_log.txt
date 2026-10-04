@@ -42,3 +42,6 @@ pLLLLRLRRRLRR E2 215.3908 (missed): route S, alpha 215.39080581624444, off by -2
 pLLLLRLRRRLRR E4 316.4249 (failed): route F, alpha 316.4248906527414, off by -3.476525859014146e-05, 209 s
 pLLLLRLRRRLRR E2 326.8569 (missed): route S, alpha 326.8568589562903, off by -2.7299709699946106e-05, 617 s
 mLLLLRLRRRLRR E1 68.2125 (failed): route None, alpha None, off by None, 2750 s
+mLLLLRLRRRLRR E1 113.2125 (failed): route None, alpha None, off by None, 3451 s
+mLLLLRLRRRLRR E1 23.2125 (missed): route None, alpha None, off by None, 8302 s
+mLLLLRLRRRLRR E1 158.2125 (failed): route None, alpha None, off by None, 3927 s

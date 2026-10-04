@@ -11770,5 +11770,32 @@
     "off m004's levels the golden states' simple members rest on Part C's one cohomology route"
    ]
   }
+ },
+ {
+  "id": "B1534",
+  "claim_killed": "THE SILVER COVERS (sL-10 item 11; the owner's question of 2026-10-03, whether the three-generation negatives were sure): that some finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations of sm:B1515's frame at a pulled-back member at the hyperbolic point, I(p*W1) = I(Lambda^2 p*W1) = -+3, in either order. Sealed at 1f58d161 and run as sealed. By Lemma S (Shapiro and Mackey, any finite regular abelian cover) and Lemma Z' every such count is a subgroup sum of 144 twisted terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)) over at most eight characters per member; by Lemma Q (K10, two routes) every member at every twist reduces to the fourteen at kappa = +-1 or counts (0, 0). Routes E (exact over Q(zeta_24)) and N (60 digits) read every term at every class (the interior class, the generic classes and the special class s = -+sqrt2/30 that the pencils find) and agree on all 144 terms and 64 pencils; route C (the permutation module) agrees on 16 order-4 covers read whole; after the run route S (SnapPy's presentation, its own classes and pencils) agrees on both states. The counts that occur are (-1,-1), (-1,-2), (0,-1), (0,-2), (0,0), (1,0), (3,0), (5,0); the only generation-shaped one is (-1,-1), the base's one generation pulled back, and (+1,+1) in the dual order.",
+  "kill_form": "the-five-bar-side-is-capped (a Lambda^2 term is non-zero only at the four non-simple members, at their two non-simple twists, each -1 or 0; every simple twist reads Lambda^2 = 0, sm:B1530's Part C at non-square characters too; so on every abelian cover I(Lambda^2) is 0, -1 or -2 and three 5bar' never occur, while the 10' side alone reaches 3 and 5, anomalous)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "The covers' own members: characters and classes of a cover not pulled back from the base, the other Shapiro summands of H^1(M_A; p*V_eta) -- the next sealed question. Also non-abelian covers (Mackey's induced modules of dimension > 1); off the hyperbolic point; other states (sm:B1532 reads m004's levels at lambda = 1); other frames; and a frame or sector that supplies 5bar' to pair the 10bar'-only counts (3, 0) and (5, 0).",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-04 at banking time, with content: a NEGATIVE read as sealed, its population in its scope (B1207's A3, held by tests/test_negatives_read_together.py).",
+  "note": "ENTERED 2026-10-04 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1534_the_silver_covers/verification/run_terms.py (routes E and N, the sealed run), run_route_c.py (route C), read_out.py (the sealed read-out), members_every_twist.py (K10, before the seal) and post_run_s.py (route S, after the run, disclosed); locked by tests/test_b1534_the_silver_covers.py.",
+  "routed_from": "sm-branch-2026-10-04-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite regular abelian cover, every pulled-back member of sm:B1515's frame at every twist and every class, both orders",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point only",
+    "finite regular abelian covers only (non-abelian covers not read)",
+    "pulled-back members and classes only (the covers' own members are the next question)",
+    "the interior index on an unsealed cusp (B1392); B1509's dictionary for 10' and 5bar'"
+   ]
+  }
  }
 ]

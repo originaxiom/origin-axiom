@@ -1,0 +1,127 @@
+{
+ "id": "B1534",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B1530",
+  "B1532",
+  "B1515",
+  "B1529",
+  "B1509",
+  "B1527",
+  "B1516",
+  "B1511"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite regular abelian cover, at every pulled-back member of sm:B1515's frame at every twist (Lemma Q) and every class, both orders",
+  "reach": "class",
+  "hypotheses": [
+   "at the hyperbolic point only (the complete structure); the four is the SO(3,1) vector representation",
+   "the count is main's interior index I = n(E) - n(E*) (B1297) on the cover, on an unsealed cusp (B1392); no end condition chosen",
+   "B1509's dictionary: N(10') = -I(W), N(5bar') = -I(Lambda^2 W); generation-shaped means I(W) = I(Lambda^2 W) != 0",
+   "pulled-back members and classes only: the covers' own members (non-pullback characters and classes) are the next question",
+   "finite regular abelian covers only; non-abelian covers are not read",
+   "every twist kappa in C*, by Lemma Q with K10 (the fibre operator's root-of-unity eigenvalues are 1, and -1 at m136's u1, u2)"
+  ]
+ },
+ "claim_one_line": "THE SILVER COVERS, run as sealed (1f58d161; sL-10 item 11): no finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations at a pulled-back member of sm:B1515's frame at the hyperbolic point, in either order. Lemma S (Shapiro and Mackey, any finite regular abelian cover) and Lemma Z' make every count a subgroup sum of 144 twisted terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)) over at most eight characters per member; Lemma Q (K10, two routes) carries every member at every twist onto the fourteen at kappa = +-1. Routes E (exact over Q(zeta_24)) and N (60 digits) read all 144 terms and all 64 pencils and agree; the pencils give one special class per two-class member, s = -+sqrt2/30, where every term reads (0, 0); route C (the permutation module) agrees on 16 order-4 covers read whole; after the run route S (SnapPy's presentation, cusp and holonomy, with its own classes and pencils) agrees on both states. The counts are (-1,-1), (-1,-2), (0,-1), (0,-2), (0,0), (1,0), (3,0), (5,0): the only generation-shaped count is (-1, -1), the base's one generation pulled back ((+1, +1) in the dual order). A Lambda^2 term is non-zero only at the four non-simple members' two non-simple twists, so I(Lambda^2) is 0, -1 or -2 on every cover: the 5bar' side is capped at two, while the 10' side alone reaches (3, 0) and (5, 0), anomalous. Seven of eight held; P2 failed (the (1/2, 1/2) term at m135's interior class is (0, -1)). Replaces the one-sided bound withdrawn at sm:B1530. 0 of 19 stays 0.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the seal)": "762b72b0",
+    "seat/standard-model-derivation-0qt6ao (at banking)": "2729f761",
+    "origin/main (at the seal and at banking)": "d295fc5d",
+    "origin/audit/physical-bridge-2026-09-05 (at the seal and at banking)": "c7aa3a29",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/sep16-branch": "3205984b",
+    "origin/seat/magical-wright-vwrmtt (retired by main, B1467)": "0043be2b",
+    "origin/art/camper-van-bar (retired by main, B1467)": "b3745696"
+   },
+   "terms": [
+    "silver cover",
+    "covers of m135",
+    "covers of m136",
+    "cover of m135",
+    "cover of m136",
+    "abelian cover",
+    "permutation module",
+    "restriction of scalars",
+    "pulled-back member",
+    "pullback keeps",
+    "silver squares",
+    "Shapiro",
+    "silver covers",
+    "special class",
+    "anomalous count",
+    "10bar-only",
+    "three 10",
+    "sqrt2/30",
+    "bit = 1",
+    "order-4 member"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1532_three_from_the_cusps (sealed at 97fdce6d, running)",
+     "bearing": "the method (Lemmas S, Z, D, J, Proposition H, Corollary I, route C) on m004's levels; carried here to m135 and m136, with Lemma Z replaced by Z' and Lemma S freed of psi(P) = 1"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1530_the_interior_extensions",
+     "bearing": "the members, the routes E and N (imported unchanged), the common double cover, Part C; its section 7 withdrew the one-sided bound this arc replaces"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1511_the_projective_tower",
+     "bearing": "the same split on m004's projective tower: three 10' on s961 while Lambda^2 W is boundary-acyclic (no 5bar'); credited in FINDINGS section 5.2"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1529_the_eigenvalue_one_locus (fibre_lib)",
+     "bearing": "Lemma F and route T, used unchanged by K10"
+    },
+    {
+     "where": "main@d295fc5d: frontier/B1442 ('special class') and seat B1372/B1373 ('order-4 points')",
+     "bearing": "other usages; do not bear"
+    },
+    {
+     "where": "every head: frontier/B129_sl3_tower_sealed and B771 ('silver cover')",
+     "bearing": "SL(3) trace fields on the silver bundle's cyclic covers; another frame, no index"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Shapiro's lemma group cohomology induced module (read for sm:B1532)",
+    "number of subgroups of Z_m x Z_n (read for sm:B1532)"
+   ],
+   "sources": [
+    {
+     "cite": "K. S. Kedlaya, Notes on class field theory",
+     "where": "section 3.2, Definition 3.2.2 and Lemma 3.2.3",
+     "read": "2026-10-03",
+     "says": "Shapiro's lemma: the cohomology of G with coefficients induced from H is the cohomology of H (read at source for sm:B1532)"
+    },
+    {
+     "cite": "L. Toth, Subgroups of finite Abelian groups having rank two via Goursat's lemma, Tatra Mt. Math. Publ. 59 (2014) 93-103, arXiv:1312.1485",
+     "where": "Theorem 4.1, eq. (5)",
+     "read": "2026-10-03",
+     "says": "s(m, n) = sum over i | m, j | n of gcd(i, j): 8 subgroups of Z/4 x Z/2 and 5 of (Z/2)^2, as the instrument's closures find (K3)"
+    },
+    {
+     "cite": "P. Menal-Ferrer, J. Porti, Twisted cohomology for hyperbolic three manifolds, arXiv:1001.2242",
+     "where": "Theorem 0.1; Theorem 0.3",
+     "read": "2026-10-03",
+     "says": "the Higgs bulk has no interior class (Lemma 3 of sm:B1515), used in Proposition H' and Corollary I' (read for sm:B1530)"
+    }
+   ]
+  },
+  "standing": "EXTENDS",
+  "why": "sm:B1532's method (sealed, running on m004's levels) carried to the silver squares, where sm:B1530 found the members; Lemma S without psi(P) = 1, Lemma Z' and Lemma Q are new here; the readings are new as swept"
+ }
+}

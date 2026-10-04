@@ -1,0 +1,20 @@
+B1534 post-run check S, 2026-10-03T23:58:19Z
+-LLRR: SnapPy b+-LLRR = ['m135(0,0)'], generators ['a', 'b', 'c'], relators ['accBab', 'aabCBC'], cusp ['abcacB', 'abc']; the four's relator residual 5.76e-59; characters of order dividing 4: 32
+  member nu [0, 0, 0] kappa 1: h1 1, interior 0, |C| 8, subgroups 8, special classes 0; terms {'the class': [((0, 0), 7), ((1, 0), 1)]} (36 s)
+  member nu [0, 2, 2] kappa 1: h1 2, interior 1, |C| 8, subgroups 8, special classes 1; terms {'c_int': [((-1, -1), 1), ((0, -1), 1), ((0, 0), 6)], 'c_g1': [((0, -1), 2), ((0, 0), 6)], 'c_g2': [((0, -1), 2), ((0, 0), 6)], 'special 0': [((0, 0), 8)]} (185 s)
+  member nu [1, 0, 3] kappa 1: h1 1, interior 0, |C| 8, subgroups 8, special classes 0; terms {'the class': [((0, 0), 3), ((1, 0), 5)]} (222 s)
+  member nu [1, 2, 1] kappa 1: h1 1, interior 0, |C| 8, subgroups 8, special classes 0; terms {'the class': [((0, 0), 3), ((1, 0), 5)]} (259 s)
+  member nu [2, 0, 2] kappa 1: h1 1, interior 0, |C| 8, subgroups 8, special classes 0; terms {'the class': [((0, 0), 7), ((1, 0), 1)]} (296 s)
+  member nu [2, 2, 0] kappa 1: h1 2, interior 1, |C| 8, subgroups 8, special classes 1; terms {'c_int': [((-1, -1), 1), ((0, -1), 1), ((0, 0), 6)], 'c_g1': [((0, -1), 2), ((0, 0), 6)], 'c_g2': [((0, -1), 2), ((0, 0), 6)], 'special 0': [((0, 0), 8)]} (470 s)
+  member nu [3, 0, 1] kappa 1: h1 1, interior 0, |C| 8, subgroups 8, special classes 0; terms {'the class': [((0, 0), 3), ((1, 0), 5)]} (512 s)
+  member nu [3, 2, 3] kappa 1: h1 1, interior 0, |C| 8, subgroups 8, special classes 0; terms {'the class': [((0, 0), 3), ((1, 0), 5)]} (550 s)
+-LLRR: members S 8 / E 8; profiles agree True; identity checks True; Lemma Z' off C True; generation-shaped counts [(-1, -1)]; three 0
++LLRR: SnapPy b++LLRR = ['m136(0,0)'], generators ['a', 'b', 'c'], relators ['abAccB', 'aacbCB'], cusp ['ACac', 'b']; the four's relator residual 2.31e-59; characters of order dividing 4: 16
+  member nu [0, 0, 0] kappa 1: h1 1, interior 0, |C| 4, subgroups 5, special classes 0; terms {'the class': [((0, 0), 3), ((1, 0), 1)]} (22 s)
+  member nu [0, 0, 2] kappa 1: h1 1, interior 0, |C| 4, subgroups 5, special classes 0; terms {'the class': [((0, 0), 4)]} (44 s)
+  member nu [0, 2, 2] kappa -1: h1 1, interior 1, |C| 8, subgroups 16, special classes 0; terms {'the class': [((-1, -1), 1), ((0, -1), 1), ((0, 0), 6)]} (82 s)
+  member nu [2, 0, 0] kappa 1: h1 1, interior 0, |C| 4, subgroups 5, special classes 0; terms {'the class': [((0, 0), 4)]} (104 s)
+  member nu [2, 0, 2] kappa 1: h1 1, interior 0, |C| 4, subgroups 5, special classes 0; terms {'the class': [((0, 0), 3), ((1, 0), 1)]} (125 s)
+  member nu [2, 2, 0] kappa -1: h1 1, interior 1, |C| 8, subgroups 16, special classes 0; terms {'the class': [((-1, -1), 1), ((0, -1), 1), ((0, 0), 6)]} (162 s)
++LLRR: members S 6 / E 6; profiles agree True; identity checks True; Lemma Z' off C True; generation-shaped counts [(-1, -1)]; three 0
+post-run check S: all agree True (712 s)

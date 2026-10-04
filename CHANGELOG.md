@@ -1,5 +1,37 @@
 # Changelog
 
+## B1534 banked: THE SILVER COVERS — no finite abelian cover of m135 or m136 carries three generations at a pulled-back member, in either order
+
+- **Run as sealed** (`1f58d161`; sL-10 item 11).
+  - The banked identity came first: controls K0–K10 re-run unchanged, identical but the timings (committed at `2729f761`).
+  - `run_terms.py` read all 144 terms and 64 pencils in routes E (exact over ℚ(ζ₂₄)) and N (60 digits), in 840 s; the
+    routes agree on every one.
+  - `run_route_c.py` read the 16 order-4 covers whole with the permutation module (2906 s), and agrees on every one.
+  - `read_out.py`: seven of eight held (P2 fails).
+- **NEGATIVE (P4 holds, P7 holds).**
+  - The counts that occur are (−1, −1), (−1, −2), (0, −1), (0, −2), (0, 0), (1, 0), (3, 0) and (5, 0).
+  - The only generation-shaped count is (−1, −1), the base's one generation pulled back; (+1, +1) in the dual order. It
+    occurs at m135's interior class on covers that miss (½, ½), and at m136's κ = −1 members on 11 of 16 subgroups.
+  - Lemma Q (K10) makes this every member at every twist.
+- **The mechanism: the 5̄′ side is capped at two.** A Λ² term is non-zero only at the four non-simple members' two
+  non-simple twists. Every simple twist reads Λ² = 0, which is sm:B1530's Part C at non-square χ. The 10′ side alone
+  reaches (3, 0) and (5, 0) at m135's order-4 members, which is anomalous, as on m004's projective tower (sm:B1511).
+- **A special class.** The pencils find one boundary-type class per two-class member, s = ∓√2/30, where every term is
+  (0, 0). sm:B1530's four boundary-type readings had missed it.
+- **After the run (disclosed): route S.** It reads everything again on SnapPy's own presentation, cusp and holonomy, with
+  its own classes, pencils and special classes, and agrees on both states.
+- **It replaces** the one-sided bound withdrawn at sm:B1530.
+- **What it does not decide.** The covers' own members (sL-10 item 14, registered); non-abelian covers; other states.
+  sm:B1532 (m004's levels, λ = 1) is still running.
+- **Surfaces.**
+  - THEOREM_REGISTRY T-THE-SILVER-COVERS; SEAL_LEDGER verdict; ERROR_LEDGER (the FINDINGS draft's five slips, an E11
+    instance; the seal's scope slip was logged at the seal).
+  - OPEN_LEADS sL-10 item 11 banked, item 14 registered; CAMPAIGN_STATUS; the alias table; RELAY_LEDGER and the relay
+    SM_TO_CC_AND_CODEX_2026-10-04_THE_SILVER_COVERS.md.
+  - Kill graph `the-five-bar-side-is-capped` (F-HE, reach class); atlas, views, claim base.
+  - Lock: tests/test_b1534_the_silver_covers.py.
+- 0 of 19.
+
 ## B1534 sealed: the silver covers — sm:B1515's frame on every finite abelian cover of m135 and m136 (sL-10 item 11)
 
 - **The question.** At the hyperbolic point of m135 = −LLRR and m136 = +LLRR, pull W₁(c) back to any finite regular abelian

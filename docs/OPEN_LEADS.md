@@ -3914,11 +3914,25 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    κ = −1 members, four at m136's κ = 1 members), Lemma Q (the members at every twist reduce to κ = ±1 or count (0, 0); K10
    in two routes), Proposition H′ and Corollary I′ (three is impossible at m135's interior class). Predictions P1–P8; P4 (no
    three on any abelian cover, either order) at 85%.
+   **Banked 2026-10-04 as sm:B1534 (NEGATIVE, run as sealed at 1f58d161).** No finite abelian cover of m135 or m136 carries
+   three generations at a pulled-back member, in either order.
+   - The counts that occur are (−1, −1), (−1, −2), (0, −1), (0, −2), (0, 0), (1, 0), (3, 0) and (5, 0). The only
+     generation-shaped one is (−1, −1), the base's one generation pulled back.
+   - The 5̄′ side is capped at two: a Λ² term is non-zero only at the four non-simple members' two non-simple twists.
+   - The 10′ side alone reaches 3 and 5, anomalous.
+   - One special class per two-class member, s = ∓√2/30, reads (0, 0).
+   - Routes E and N agree on all 144 terms and 64 pencils, route C on 16 covers, and route S (SnapPy, after the run) on both
+     states. Seven of eight held; P2 failed.
+   - Kill graph: `the-five-bar-side-is-capped` (F-HE, reach class). Next: item 14.
 12. **The two orders fused at m135** (main's B1466 at m004's counted point; sm:B1530 §5.2). Is the mixed direction c₁ + c₂ at
    m135's member unobstructed, and does it lead to an irreducible flat module that counts 0, as at q₀? Seal before computing.
 13. **What holds the member, and the couplings there** (sm:B1530 §5.2b and §7). R76's bare flat action does not hold a
    non-split W₁; an end, a source or a coupled field would (R76's duty; R81's compact-boundary admission; main's mixing
    quartic d). The up-type coupling 10′·10′·5′_H at the member (sm:B1513's relative triple product).
+14. **The covers' own members** (sm:B1534 §7; sm:B1532 §10). By Shapiro, H¹(M_A; p*V_η) = ⊕_{χ∈B} H¹(M; V_η ⊗ χ), and the
+   pulled-back classes are the χ = 1 summand. Read B1515's frame at the other summands' classes, with every count, on the
+   smallest abelian covers of m135 and m136 (and of M₂–M₆). It is the place three could still sit in this frame on these
+   states. Seal before computing.
 
 ## sL-11 — THE SYMMETRIC PHASE (registered 2026-10-03, sm:B1531; this seat's proposal, the owner may reorder)
 

@@ -1,0 +1,213 @@
+{
+ "predictions": {
+  "P1": true,
+  "P2": false,
+  "P3": true,
+  "P4": true,
+  "P6": true,
+  "P5": true,
+  "P7": true,
+  "P8": true
+ },
+ "verdict": "NEGATIVE: no finite abelian cover of m135 or m136 carries three generations at a pulled-back member of sm:B1515's frame, in either order",
+ "three": [],
+ "generation-shaped counts by |a|": {
+  "1": 28
+ },
+ "per member": [
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "classes": [
+    "c_int",
+    "c_g1",
+    "c_g2",
+    "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))"
+   ],
+   "generation-shaped counts": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "classes": [
+    "c_int",
+    "c_g1",
+    "c_g2",
+    "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))"
+   ],
+   "generation-shaped counts": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": [
+    [
+     -1,
+     -1
+    ]
+   ]
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "classes": [
+    "the class"
+   ],
+   "generation-shaped counts": []
+  }
+ ]
+}

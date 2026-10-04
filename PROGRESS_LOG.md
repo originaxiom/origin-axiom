@@ -17381,3 +17381,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - The same question stands for sm:B1532's population on m004's levels. It is open until B1532's FINDINGS (task 226).
 - Runs in progress: B1532 route T (about 100 of 307 M₆ members left), B1529's coverage check. B1534's run starts after the
   seal's push, its banked identity first.
+
+## 2026-10-04 — B1534 banked: THE SILVER COVERS (task 223)
+
+- The run, as sealed: the banked identity at 23:39Z, the terms at 23:53Z (840 s), route C (2906 s), then the read-out.
+  NEGATIVE: no three on any abelian cover of m135 or m136, at any pulled-back member, in either order.
+- The answer to the owner's question of 2026-10-03, for the silver squares: the withdrawn bound "at most two" becomes the
+  exact readings. At most one generation, (−1, −1) or (+1, +1). The 5̄′ side is capped at two, and the 10̄′ side reaches
+  five with no 5̄′.
+- Four routes agree: E (exact) and N, sealed; C, sealed, reading the covers whole; and S, on SnapPy's presentation, after
+  the run.
+- Self-caught before the bank: five slips in the FINDINGS draft (E11 instance), each checked against terms.json and
+  corrected.
+- Next: the covers' own members (sL-10 item 14), sealed first. sm:B1532 runs on (route T about half done); its FINDINGS
+  carries the correction and the twist question (task 226).

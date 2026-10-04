@@ -9799,6 +9799,40 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1534": {
+   "slug": "the silver covers",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "z3_generation",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B129",
+    "B766",
+    "B771",
+    "K0",
+    "K10",
+    "K7",
+    "K9",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B153": {
    "slug": "degree rank degeneration",
    "motifs": [

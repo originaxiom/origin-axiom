@@ -1,0 +1,6632 @@
+{
+ "started": "2026-10-03T23:39:55Z",
+ "states": {
+  "-LLRR": {
+   "name": "m135",
+   "conjugator": {
+    "smallest singular value (rel)": "1.05e-61",
+    "next (rel)": "0.0308"
+   },
+   "members": [
+    {
+     "u": [
+      "0",
+      "0"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00149",
+          "largest dropped": "4.02e-59"
+         },
+         {
+          "smallest kept": "9.93e-5",
+          "largest dropped": "1.09e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00189",
+          "largest dropped": "2.0e-59"
+         },
+         {
+          "smallest kept": "0.000127",
+          "largest dropped": "1.39e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00132",
+          "largest dropped": "6.66e-59"
+         },
+         {
+          "smallest kept": "0.000107",
+          "largest dropped": "1.27e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000786",
+          "largest dropped": "7.47e-59"
+         },
+         {
+          "smallest kept": "0.000134",
+          "largest dropped": "1.39e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00161",
+          "largest dropped": "3.37e-59"
+         },
+         {
+          "smallest kept": "0.000497",
+          "largest dropped": "1.82e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00125",
+          "largest dropped": "8.1e-59"
+         },
+         {
+          "smallest kept": "0.000207",
+          "largest dropped": "1.23e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000786",
+          "largest dropped": "7.34e-59"
+         },
+         {
+          "smallest kept": "0.000134",
+          "largest dropped": "1.43e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00132",
+          "largest dropped": "6.69e-59"
+         },
+         {
+          "smallest kept": "0.000107",
+          "largest dropped": "1.11e-58"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         1,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "0",
+      "1/2"
+     ],
+     "kappa": "0",
+     "h1": 2,
+     "n": 1,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "c_int": [
+       "int",
+       null
+      ],
+      "c_g1": [
+       "K",
+       "(0.428571428571428571428571428571428571428571428571428571428571 + 0.0j)"
+      ],
+      "c_g2": [
+       "K",
+       "(-2.2 + 0.0j)"
+      ],
+      "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))": [
+       "K",
+       "(-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j)"
+      ]
+     },
+     "pencils": {
+      "(0, 0; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 0; 0) E*": {
+       "h1(Q)": 2,
+       "h2(S)": 0,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 0; 0) L2E": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 0; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 2,
+       "generic rank (N)": 2,
+       "special (E)": [
+        "(-0.047140452079103168293 - 2.592923032442142378e-63j)"
+       ],
+       "special (N)": [
+        "(-0.047140452079103168293 - 2.1958572442418968721e-61j)"
+       ],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) E*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) L2E": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 2,
+       "generic rank (N)": 2,
+       "special (E)": [
+        "(-0.047140452079103168293 - 2.592923032442142378e-63j)"
+       ],
+       "special (N)": [
+        "(-0.047140452079103168293 - 1.7861233626047809389e-61j)"
+       ],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      }
+     },
+     "terms": {
+      "c_int": {
+       "(0, 0; 0)": [
+        -1,
+        -1
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      },
+      "c_g1": {
+       "(0, 0; 0)": [
+        0,
+        -1
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      },
+      "c_g2": {
+       "(0, 0; 0)": [
+        0,
+        -1
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      },
+      "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "c_int": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          -1,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00337",
+          "largest dropped": "1.82e-59"
+         },
+         {
+          "smallest kept": "0.000158",
+          "largest dropped": "1.83e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00151",
+          "largest dropped": "3.2e-59"
+         },
+         {
+          "smallest kept": "0.000442",
+          "largest dropped": "8.47e-59"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00118",
+          "largest dropped": "7.79e-59"
+         },
+         {
+          "smallest kept": "0.000559",
+          "largest dropped": "1.14e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00197",
+          "largest dropped": "5.33e-59"
+         },
+         {
+          "smallest kept": "0.000648",
+          "largest dropped": "1.09e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00134",
+          "largest dropped": "7.55e-59"
+         },
+         {
+          "smallest kept": "0.000678",
+          "largest dropped": "1.16e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00297",
+          "largest dropped": "2.59e-59"
+         },
+         {
+          "smallest kept": "0.000548",
+          "largest dropped": "2.33e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00197",
+          "largest dropped": "5.27e-59"
+         },
+         {
+          "smallest kept": "0.000648",
+          "largest dropped": "1.03e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00118",
+          "largest dropped": "7.72e-59"
+         },
+         {
+          "smallest kept": "0.000559",
+          "largest dropped": "1.14e-58"
+         }
+        ]
+       }
+      },
+      "c_g1": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00375",
+          "largest dropped": "1.76e-59"
+         },
+         {
+          "smallest kept": "2.91e-5",
+          "largest dropped": "3.25e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000353",
+          "largest dropped": "6.96e-59"
+         },
+         {
+          "smallest kept": "8.19e-5",
+          "largest dropped": "1.83e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000289",
+          "largest dropped": "8.13e-59"
+         },
+         {
+          "smallest kept": "5.68e-5",
+          "largest dropped": "3.29e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000428",
+          "largest dropped": "8.25e-59"
+         },
+         {
+          "smallest kept": "6.86e-5",
+          "largest dropped": "3.35e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000919",
+          "largest dropped": "9.19e-59"
+         },
+         {
+          "smallest kept": "7.26e-5",
+          "largest dropped": "4.18e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000667",
+          "largest dropped": "2.31e-59"
+         },
+         {
+          "smallest kept": "7.97e-5",
+          "largest dropped": "6.39e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000428",
+          "largest dropped": "8.05e-59"
+         },
+         {
+          "smallest kept": "6.86e-5",
+          "largest dropped": "3.22e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000289",
+          "largest dropped": "7.92e-59"
+         },
+         {
+          "smallest kept": "5.68e-5",
+          "largest dropped": "3.65e-58"
+         }
+        ]
+       }
+      },
+      "c_g2": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00243",
+          "largest dropped": "1.64e-59"
+         },
+         {
+          "smallest kept": "1.16e-5",
+          "largest dropped": "6.92e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000187",
+          "largest dropped": "1.58e-58"
+         },
+         {
+          "smallest kept": "2.78e-5",
+          "largest dropped": "4.96e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "7.8e-5",
+          "largest dropped": "2.28e-58"
+         },
+         {
+          "smallest kept": "2.26e-5",
+          "largest dropped": "4.65e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000169",
+          "largest dropped": "1.4e-58"
+         },
+         {
+          "smallest kept": "2.45e-5",
+          "largest dropped": "3.62e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000315",
+          "largest dropped": "9.84e-59"
+         },
+         {
+          "smallest kept": "2.82e-5",
+          "largest dropped": "3.13e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000259",
+          "largest dropped": "1.13e-58"
+         },
+         {
+          "smallest kept": "6.19e-5",
+          "largest dropped": "6.61e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000169",
+          "largest dropped": "1.43e-58"
+         },
+         {
+          "smallest kept": "2.45e-5",
+          "largest dropped": "3.89e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "7.8e-5",
+          "largest dropped": "2.08e-58"
+         },
+         {
+          "smallest kept": "2.26e-5",
+          "largest dropped": "5.06e-58"
+         }
+        ]
+       }
+      },
+      "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00401",
+          "largest dropped": "1.89e-59"
+         },
+         {
+          "smallest kept": "4.21e-5",
+          "largest dropped": "2.09e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00045",
+          "largest dropped": "5.02e-59"
+         },
+         {
+          "smallest kept": "9.65e-5",
+          "largest dropped": "1.66e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000329",
+          "largest dropped": "8.72e-59"
+         },
+         {
+          "smallest kept": "6.28e-5",
+          "largest dropped": "3.26e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000489",
+          "largest dropped": "6.67e-59"
+         },
+         {
+          "smallest kept": "7.9e-5",
+          "largest dropped": "2.6e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00116",
+          "largest dropped": "9.39e-59"
+         },
+         {
+          "smallest kept": "8.31e-5",
+          "largest dropped": "3.82e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000761",
+          "largest dropped": "2.94e-59"
+         },
+         {
+          "smallest kept": "0.000427",
+          "largest dropped": "3.0e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000489",
+          "largest dropped": "6.67e-59"
+         },
+         {
+          "smallest kept": "7.9e-5",
+          "largest dropped": "2.46e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000329",
+          "largest dropped": "8.74e-59"
+         },
+         {
+          "smallest kept": "6.28e-5",
+          "largest dropped": "2.59e-58"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "c_int": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         -1,
+         -2
+        ]
+       }
+      ],
+      "c_g1": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         0,
+         -2
+        ]
+       }
+      ],
+      "c_g2": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         0,
+         -2
+        ]
+       }
+      ],
+      "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         0,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [
+      [
+       -1,
+       -1
+      ]
+     ],
+     "three": []
+    },
+    {
+     "u": [
+      "1/4",
+      "1/4"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        1,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        1,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00141",
+          "largest dropped": "3.82e-59"
+         },
+         {
+          "smallest kept": "0.000279",
+          "largest dropped": "8.17e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0011",
+          "largest dropped": "6.38e-59"
+         },
+         {
+          "smallest kept": "0.000191",
+          "largest dropped": "7.22e-59"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00118",
+          "largest dropped": "4.13e-59"
+         },
+         {
+          "smallest kept": "0.000136",
+          "largest dropped": "1.21e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000868",
+          "largest dropped": "7.57e-59"
+         },
+         {
+          "smallest kept": "0.000441",
+          "largest dropped": "7.97e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00106",
+          "largest dropped": "4.57e-59"
+         },
+         {
+          "smallest kept": "0.000221",
+          "largest dropped": "6.81e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00199",
+          "largest dropped": "3.59e-59"
+         },
+         {
+          "smallest kept": "0.000134",
+          "largest dropped": "5.4e-59"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000452",
+          "largest dropped": "9.47e-59"
+         },
+         {
+          "smallest kept": "0.000193",
+          "largest dropped": "3.88e-59"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00091",
+          "largest dropped": "2.62e-59"
+         },
+         {
+          "smallest kept": "0.000171",
+          "largest dropped": "4.82e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         5,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "1/4",
+      "3/4"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        1,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        1,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        1,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000966",
+          "largest dropped": "6.2e-59"
+         },
+         {
+          "smallest kept": "0.000275",
+          "largest dropped": "6.13e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00178",
+          "largest dropped": "3.8e-59"
+         },
+         {
+          "smallest kept": "0.000194",
+          "largest dropped": "5.1e-59"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000676",
+          "largest dropped": "1.48e-58"
+         },
+         {
+          "smallest kept": "0.000458",
+          "largest dropped": "7.01e-59"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00106",
+          "largest dropped": "5.2e-59"
+         },
+         {
+          "smallest kept": "0.000136",
+          "largest dropped": "9.0e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00182",
+          "largest dropped": "3.43e-59"
+         },
+         {
+          "smallest kept": "0.000211",
+          "largest dropped": "7.54e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00117",
+          "largest dropped": "4.45e-59"
+         },
+         {
+          "smallest kept": "0.000109",
+          "largest dropped": "7.58e-59"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000777",
+          "largest dropped": "2.84e-59"
+         },
+         {
+          "smallest kept": "0.00019",
+          "largest dropped": "7.21e-59"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00118",
+          "largest dropped": "5.58e-59"
+         },
+         {
+          "smallest kept": "0.000142",
+          "largest dropped": "6.09e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         5,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "1/2",
+      "0"
+     ],
+     "kappa": "0",
+     "h1": 2,
+     "n": 1,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "c_int": [
+       "int",
+       null
+      ],
+      "c_g1": [
+       "K",
+       "(0.428571428571428571428571428571428571428571428571428571428571 + 0.0j)"
+      ],
+      "c_g2": [
+       "K",
+       "(-2.2 + 0.0j)"
+      ],
+      "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))": [
+       "K",
+       "(0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j)"
+      ]
+     },
+     "pencils": {
+      "(0, 0; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 0; 0) E*": {
+       "h1(Q)": 2,
+       "h2(S)": 0,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 0; 0) L2E": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 0; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 2,
+       "generic rank (N)": 2,
+       "special (E)": [
+        "(0.047140452079103168293 + 2.592923032442142378e-63j)"
+       ],
+       "special (N)": [
+        "(0.047140452079103168293 + 5.7084883979940431265e-61j)"
+       ],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(0, 1/2; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 1/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/4, 3/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 0; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) E*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) L2E": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(1/2, 1/2; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 2,
+       "generic rank (E)": 2,
+       "generic rank (N)": 2,
+       "special (E)": [
+        "(0.047140452079103168293 + 2.592923032442142378e-63j)"
+       ],
+       "special (N)": [
+        "(0.047140452079103168293 + 7.4464450305469144387e-62j)"
+       ],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 1/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) E": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) E*": {
+       "h1(Q)": 1,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) L2E": {
+       "h1(Q)": 1,
+       "h2(S)": 2,
+       "generic rank (E)": 0,
+       "generic rank (N)": 0,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      },
+      "(3/4, 3/4; 0) (L2E)*": {
+       "h1(Q)": 2,
+       "h2(S)": 1,
+       "generic rank (E)": 1,
+       "generic rank (N)": 1,
+       "special (E)": [],
+       "special (N)": [],
+       "quadratic over K (E)": 0,
+       "agree": true
+      }
+     },
+     "terms": {
+      "c_int": {
+       "(0, 0; 0)": [
+        -1,
+        -1
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      },
+      "c_g1": {
+       "(0, 0; 0)": [
+        0,
+        -1
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      },
+      "c_g2": {
+       "(0, 0; 0)": [
+        0,
+        -1
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      },
+      "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "c_int": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          -1,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00256",
+          "largest dropped": "2.0e-59"
+         },
+         {
+          "smallest kept": "0.000498",
+          "largest dropped": "2.33e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00127",
+          "largest dropped": "7.93e-59"
+         },
+         {
+          "smallest kept": "0.000629",
+          "largest dropped": "1.98e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00107",
+          "largest dropped": "8.76e-59"
+         },
+         {
+          "smallest kept": "0.000579",
+          "largest dropped": "1.49e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00196",
+          "largest dropped": "5.71e-59"
+         },
+         {
+          "smallest kept": "0.000567",
+          "largest dropped": "1.47e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00153",
+          "largest dropped": "4.1e-59"
+         },
+         {
+          "smallest kept": "0.000577",
+          "largest dropped": "7.82e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00498",
+          "largest dropped": "2.06e-59"
+         },
+         {
+          "smallest kept": "0.000765",
+          "largest dropped": "1.54e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00196",
+          "largest dropped": "5.69e-59"
+         },
+         {
+          "smallest kept": "0.000567",
+          "largest dropped": "1.53e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00107",
+          "largest dropped": "8.7e-59"
+         },
+         {
+          "smallest kept": "0.000579",
+          "largest dropped": "1.53e-58"
+         }
+        ]
+       }
+      },
+      "c_g1": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00273",
+          "largest dropped": "1.79e-59"
+         },
+         {
+          "smallest kept": "5.44e-5",
+          "largest dropped": "6.21e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00102",
+          "largest dropped": "8.37e-59"
+         },
+         {
+          "smallest kept": "7.6e-5",
+          "largest dropped": "4.34e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000295",
+          "largest dropped": "8.31e-59"
+         },
+         {
+          "smallest kept": "5.82e-5",
+          "largest dropped": "4.12e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0004",
+          "largest dropped": "8.0e-59"
+         },
+         {
+          "smallest kept": "6.58e-5",
+          "largest dropped": "3.12e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000371",
+          "largest dropped": "5.48e-59"
+         },
+         {
+          "smallest kept": "9.03e-5",
+          "largest dropped": "2.3e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000821",
+          "largest dropped": "2.44e-59"
+         },
+         {
+          "smallest kept": "8.25e-5",
+          "largest dropped": "2.44e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0004",
+          "largest dropped": "7.51e-59"
+         },
+         {
+          "smallest kept": "6.58e-5",
+          "largest dropped": "2.99e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000295",
+          "largest dropped": "7.7e-59"
+         },
+         {
+          "smallest kept": "5.82e-5",
+          "largest dropped": "4.01e-58"
+         }
+        ]
+       }
+      },
+      "c_g2": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00191",
+          "largest dropped": "1.93e-59"
+         },
+         {
+          "smallest kept": "1.62e-5",
+          "largest dropped": "1.23e-57"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000202",
+          "largest dropped": "2.84e-58"
+         },
+         {
+          "smallest kept": "2.82e-5",
+          "largest dropped": "5.85e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "7.62e-5",
+          "largest dropped": "2.96e-58"
+         },
+         {
+          "smallest kept": "1.99e-5",
+          "largest dropped": "7.89e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "7.99e-5",
+          "largest dropped": "5.47e-58"
+         },
+         {
+          "smallest kept": "1.48e-5",
+          "largest dropped": "9.22e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000121",
+          "largest dropped": "6.31e-59"
+         },
+         {
+          "smallest kept": "1.85e-5",
+          "largest dropped": "1.06e-57"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000315",
+          "largest dropped": "4.39e-59"
+         },
+         {
+          "smallest kept": "2.45e-5",
+          "largest dropped": "1.29e-57"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "7.99e-5",
+          "largest dropped": "5.98e-58"
+         },
+         {
+          "smallest kept": "1.48e-5",
+          "largest dropped": "8.52e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "7.62e-5",
+          "largest dropped": "3.01e-58"
+         },
+         {
+          "smallest kept": "1.99e-5",
+          "largest dropped": "8.18e-58"
+         }
+        ]
+       }
+      },
+      "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00276",
+          "largest dropped": "1.82e-59"
+         },
+         {
+          "smallest kept": "0.000136",
+          "largest dropped": "3.47e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000909",
+          "largest dropped": "8.02e-59"
+         },
+         {
+          "smallest kept": "8.06e-5",
+          "largest dropped": "3.81e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000331",
+          "largest dropped": "8.73e-59"
+         },
+         {
+          "smallest kept": "6.31e-5",
+          "largest dropped": "2.42e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000478",
+          "largest dropped": "7.5e-59"
+         },
+         {
+          "smallest kept": "7.93e-5",
+          "largest dropped": "2.91e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000445",
+          "largest dropped": "5.4e-59"
+         },
+         {
+          "smallest kept": "0.000107",
+          "largest dropped": "1.67e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000864",
+          "largest dropped": "2.48e-59"
+         },
+         {
+          "smallest kept": "0.000121",
+          "largest dropped": "1.51e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000478",
+          "largest dropped": "7.5e-59"
+         },
+         {
+          "smallest kept": "7.93e-5",
+          "largest dropped": "3.17e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000331",
+          "largest dropped": "8.74e-59"
+         },
+         {
+          "smallest kept": "6.31e-5",
+          "largest dropped": "3.18e-58"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "c_int": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         -1,
+         -2
+        ]
+       }
+      ],
+      "c_g1": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         0,
+         -2
+        ]
+       }
+      ],
+      "c_g2": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         0,
+         -2
+        ]
+       }
+      ],
+      "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         0,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [
+      [
+       -1,
+       -1
+      ]
+     ],
+     "three": []
+    },
+    {
+     "u": [
+      "1/2",
+      "1/2"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00121",
+          "largest dropped": "7.5e-59"
+         },
+         {
+          "smallest kept": "7.28e-5",
+          "largest dropped": "1.57e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00155",
+          "largest dropped": "2.1e-59"
+         },
+         {
+          "smallest kept": "0.000453",
+          "largest dropped": "1.63e-58"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00117",
+          "largest dropped": "6.98e-59"
+         },
+         {
+          "smallest kept": "0.000108",
+          "largest dropped": "1.3e-58"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00083",
+          "largest dropped": "7.39e-59"
+         },
+         {
+          "smallest kept": "0.00013",
+          "largest dropped": "1.31e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00191",
+          "largest dropped": "2.41e-59"
+         },
+         {
+          "smallest kept": "0.000134",
+          "largest dropped": "1.43e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0015",
+          "largest dropped": "3.82e-59"
+         },
+         {
+          "smallest kept": "0.000224",
+          "largest dropped": "1.32e-58"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00083",
+          "largest dropped": "7.4e-59"
+         },
+         {
+          "smallest kept": "0.00013",
+          "largest dropped": "1.37e-58"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00117",
+          "largest dropped": "6.97e-59"
+         },
+         {
+          "smallest kept": "0.000108",
+          "largest dropped": "1.63e-58"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         1,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "3/4",
+      "1/4"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        1,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        1,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        1,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000966",
+          "largest dropped": "6.21e-59"
+         },
+         {
+          "smallest kept": "0.000275",
+          "largest dropped": "6.58e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00178",
+          "largest dropped": "3.83e-59"
+         },
+         {
+          "smallest kept": "0.000194",
+          "largest dropped": "4.61e-59"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00118",
+          "largest dropped": "5.61e-59"
+         },
+         {
+          "smallest kept": "0.000142",
+          "largest dropped": "5.56e-59"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000777",
+          "largest dropped": "2.6e-59"
+         },
+         {
+          "smallest kept": "0.00019",
+          "largest dropped": "8.73e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00182",
+          "largest dropped": "3.39e-59"
+         },
+         {
+          "smallest kept": "0.000211",
+          "largest dropped": "6.78e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00117",
+          "largest dropped": "4.5e-59"
+         },
+         {
+          "smallest kept": "0.000109",
+          "largest dropped": "7.62e-59"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00106",
+          "largest dropped": "4.9e-59"
+         },
+         {
+          "smallest kept": "0.000136",
+          "largest dropped": "7.92e-59"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000676",
+          "largest dropped": "1.47e-58"
+         },
+         {
+          "smallest kept": "0.000458",
+          "largest dropped": "7.65e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         5,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "3/4",
+      "3/4"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/4, 1/4; 0)",
+      "(1/4, 3/4; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)",
+      "(3/4, 1/4; 0)",
+      "(3/4, 3/4; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(1/4, 1/4; 0)": [
+        0,
+        0
+       ],
+       "(1/4, 3/4; 0)": [
+        1,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        1,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 1/4; 0)": [
+        1,
+        0
+       ],
+       "(3/4, 3/4; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00141",
+          "largest dropped": "3.8e-59"
+         },
+         {
+          "smallest kept": "0.000279",
+          "largest dropped": "7.1e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0011",
+          "largest dropped": "6.33e-59"
+         },
+         {
+          "smallest kept": "0.000191",
+          "largest dropped": "6.58e-59"
+         }
+        ]
+       },
+       "(1/4, 1/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00091",
+          "largest dropped": "2.64e-59"
+         },
+         {
+          "smallest kept": "0.000171",
+          "largest dropped": "4.22e-59"
+         }
+        ]
+       },
+       "(1/4, 3/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000452",
+          "largest dropped": "9.49e-59"
+         },
+         {
+          "smallest kept": "0.000193",
+          "largest dropped": "4.75e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00106",
+          "largest dropped": "4.59e-59"
+         },
+         {
+          "smallest kept": "0.000221",
+          "largest dropped": "7.84e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00199",
+          "largest dropped": "3.62e-59"
+         },
+         {
+          "smallest kept": "0.000134",
+          "largest dropped": "4.92e-59"
+         }
+        ]
+       },
+       "(3/4, 1/4; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000868",
+          "largest dropped": "7.74e-59"
+         },
+         {
+          "smallest kept": "0.000441",
+          "largest dropped": "7.34e-59"
+         }
+        ]
+       },
+       "(3/4, 3/4; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00118",
+          "largest dropped": "4.1e-59"
+         },
+         {
+          "smallest kept": "0.000136",
+          "largest dropped": "8.92e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)"
+        ],
+        "order": 4,
+        "count": [
+         3,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)",
+         "(1/4, 1/4; 0)",
+         "(1/4, 3/4; 0)",
+         "(3/4, 1/4; 0)",
+         "(3/4, 3/4; 0)"
+        ],
+        "order": 8,
+        "count": [
+         5,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    }
+   ]
+  },
+  "+LLRR": {
+   "name": "m136",
+   "conjugator": {
+    "smallest singular value (rel)": "6.02e-61",
+    "next (rel)": "0.055"
+   },
+   "members": [
+    {
+     "u": [
+      "0",
+      "0"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000866",
+          "largest dropped": "4.28e-60"
+         },
+         {
+          "smallest kept": "6.31e-5",
+          "largest dropped": "1.26e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00201",
+          "largest dropped": "3.27e-60"
+         },
+         {
+          "smallest kept": "0.000152",
+          "largest dropped": "1.45e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000894",
+          "largest dropped": "2.35e-59"
+         },
+         {
+          "smallest kept": "0.000147",
+          "largest dropped": "1.02e-58"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00756",
+          "largest dropped": "2.95e-60"
+         },
+         {
+          "smallest kept": "0.000292",
+          "largest dropped": "1.34e-58"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "0",
+      "1/2"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00649",
+          "largest dropped": "4.34e-60"
+         },
+         {
+          "smallest kept": "0.000332",
+          "largest dropped": "3.26e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00108",
+          "largest dropped": "7.76e-60"
+         },
+         {
+          "smallest kept": "0.0004",
+          "largest dropped": "3.7e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00515",
+          "largest dropped": "3.19e-60"
+         },
+         {
+          "smallest kept": "0.000576",
+          "largest dropped": "5.26e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00231",
+          "largest dropped": "4.23e-60"
+         },
+         {
+          "smallest kept": "0.000625",
+          "largest dropped": "5.01e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "0",
+      "1/2"
+     ],
+     "kappa": "1/2",
+     "h1": 1,
+     "n": 1,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 0; 1/2)",
+      "(0, 1/2; 0)",
+      "(0, 1/2; 1/2)",
+      "(1/2, 0; 0)",
+      "(1/2, 0; 1/2)",
+      "(1/2, 1/2; 0)",
+      "(1/2, 1/2; 1/2)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        -1,
+        -1
+       ],
+       "(0, 0; 1/2)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 1/2)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 1/2)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(1/2, 1/2; 1/2)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          -1,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000818",
+          "largest dropped": "1.85e-59"
+         },
+         {
+          "smallest kept": "0.000111",
+          "largest dropped": "9.41e-59"
+         }
+        ]
+       },
+       "(0, 0; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00147",
+          "largest dropped": "4.42e-60"
+         },
+         {
+          "smallest kept": "5.08e-5",
+          "largest dropped": "6.64e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000987",
+          "largest dropped": "1.85e-59"
+         },
+         {
+          "smallest kept": "0.000233",
+          "largest dropped": "4.75e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.000738",
+          "largest dropped": "1.38e-59"
+         },
+         {
+          "smallest kept": "7.71e-5",
+          "largest dropped": "7.84e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0065",
+          "largest dropped": "1.85e-59"
+         },
+         {
+          "smallest kept": "0.000147",
+          "largest dropped": "8.06e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00169",
+          "largest dropped": "2.38e-59"
+         },
+         {
+          "smallest kept": "5.62e-5",
+          "largest dropped": "8.7e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00187",
+          "largest dropped": "1.85e-59"
+         },
+         {
+          "smallest kept": "0.00011",
+          "largest dropped": "5.58e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00146",
+          "largest dropped": "3.22e-59"
+         },
+         {
+          "smallest kept": "9.0e-5",
+          "largest dropped": "1.11e-58"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(0, 1/2; 0)",
+         "(0, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(1/2, 0; 0)",
+         "(1/2, 0; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(1/2, 1/2; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 1/2)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 1/2)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 1/2)",
+         "(1/2, 0; 1/2)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(0, 1/2; 0)",
+         "(0, 1/2; 1/2)",
+         "(1/2, 0; 0)",
+         "(1/2, 0; 1/2)",
+         "(1/2, 1/2; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 8,
+        "count": [
+         -1,
+         -2
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [
+      [
+       -1,
+       -1
+      ]
+     ],
+     "three": []
+    },
+    {
+     "u": [
+      "1/2",
+      "0"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00396",
+          "largest dropped": "3.13e-60"
+         },
+         {
+          "smallest kept": "0.000699",
+          "largest dropped": "1.78e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00684",
+          "largest dropped": "5.61e-60"
+         },
+         {
+          "smallest kept": "0.00157",
+          "largest dropped": "2.01e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00201",
+          "largest dropped": "1.77e-59"
+         },
+         {
+          "smallest kept": "0.000754",
+          "largest dropped": "1.97e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00805",
+          "largest dropped": "1.59e-59"
+         },
+         {
+          "smallest kept": "0.00155",
+          "largest dropped": "1.47e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         0,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    },
+    {
+     "u": [
+      "1/2",
+      "0"
+     ],
+     "kappa": "1/2",
+     "h1": 1,
+     "n": 1,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 0; 1/2)",
+      "(0, 1/2; 0)",
+      "(0, 1/2; 1/2)",
+      "(1/2, 0; 0)",
+      "(1/2, 0; 1/2)",
+      "(1/2, 1/2; 0)",
+      "(1/2, 1/2; 1/2)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        -1,
+        -1
+       ],
+       "(0, 0; 1/2)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 1/2)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 1/2)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        0,
+        -1
+       ],
+       "(1/2, 1/2; 1/2)": [
+        0,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          -1,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00333",
+          "largest dropped": "4.85e-60"
+         },
+         {
+          "smallest kept": "0.00129",
+          "largest dropped": "2.82e-59"
+         }
+        ]
+       },
+       "(0, 0; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00521",
+          "largest dropped": "4.29e-60"
+         },
+         {
+          "smallest kept": "0.00234",
+          "largest dropped": "3.66e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0185",
+          "largest dropped": "8.63e-60"
+         },
+         {
+          "smallest kept": "0.00753",
+          "largest dropped": "3.31e-59"
+         }
+        ]
+       },
+       "(0, 1/2; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00882",
+          "largest dropped": "5.92e-60"
+         },
+         {
+          "smallest kept": "0.00305",
+          "largest dropped": "3.94e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00259",
+          "largest dropped": "7.12e-60"
+         },
+         {
+          "smallest kept": "0.00219",
+          "largest dropped": "1.9e-59"
+         }
+        ]
+       },
+       "(1/2, 0; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00284",
+          "largest dropped": "9.16e-60"
+         },
+         {
+          "smallest kept": "0.00203",
+          "largest dropped": "3.26e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          -1
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00547",
+          "largest dropped": "6.77e-60"
+         },
+         {
+          "smallest kept": "0.00271",
+          "largest dropped": "1.89e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 1/2)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0103",
+          "largest dropped": "8.11e-60"
+         },
+         {
+          "smallest kept": "0.00476",
+          "largest dropped": "2.89e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 2,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(0, 1/2; 0)",
+         "(0, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(1/2, 0; 0)",
+         "(1/2, 0; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(1/2, 1/2; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 1/2)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 1/2)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -1
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 1/2)",
+         "(1/2, 0; 1/2)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         -1,
+         -2
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 0; 1/2)",
+         "(0, 1/2; 0)",
+         "(0, 1/2; 1/2)",
+         "(1/2, 0; 0)",
+         "(1/2, 0; 1/2)",
+         "(1/2, 1/2; 0)",
+         "(1/2, 1/2; 1/2)"
+        ],
+        "order": 8,
+        "count": [
+         -1,
+         -2
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [
+      [
+       -1,
+       -1
+      ]
+     ],
+     "three": []
+    },
+    {
+     "u": [
+      "1/2",
+      "1/2"
+     ],
+     "kappa": "0",
+     "h1": 1,
+     "n": 0,
+     "contributing": [
+      "(0, 0; 0)",
+      "(0, 1/2; 0)",
+      "(1/2, 0; 0)",
+      "(1/2, 1/2; 0)"
+     ],
+     "classes": {
+      "the class": [
+       "one",
+       null
+      ]
+     },
+     "pencils": {},
+     "terms": {
+      "the class": {
+       "(0, 0; 0)": [
+        0,
+        0
+       ],
+       "(0, 1/2; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 0; 0)": [
+        0,
+        0
+       ],
+       "(1/2, 1/2; 0)": [
+        1,
+        0
+       ]
+      }
+     },
+     "route N": {
+      "the class": {
+       "(0, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.0056",
+          "largest dropped": "4.8e-60"
+         },
+         {
+          "smallest kept": "0.000257",
+          "largest dropped": "1.21e-58"
+         }
+        ]
+       },
+       "(0, 1/2; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00182",
+          "largest dropped": "4.62e-60"
+         },
+         {
+          "smallest kept": "0.000416",
+          "largest dropped": "1.18e-58"
+         }
+        ]
+       },
+       "(1/2, 0; 0)": {
+        "T": [
+         [
+          0,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00391",
+          "largest dropped": "6.06e-60"
+         },
+         {
+          "smallest kept": "0.000542",
+          "largest dropped": "6.84e-59"
+         }
+        ]
+       },
+       "(1/2, 1/2; 0)": {
+        "T": [
+         [
+          1,
+          0
+         ]
+        ],
+        "checks": true,
+        "margins": [
+         {
+          "smallest kept": "0.00234",
+          "largest dropped": "5.94e-60"
+         },
+         {
+          "smallest kept": "0.000256",
+          "largest dropped": "7.24e-59"
+         }
+        ]
+       }
+      }
+     },
+     "agree": true,
+     "counts": {
+      "the class": [
+       {
+        "H": [
+         "(0, 0; 0)"
+        ],
+        "order": 1,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 0; 0)"
+        ],
+        "order": 2,
+        "count": [
+         0,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 2,
+        "count": [
+         1,
+         0
+        ]
+       },
+       {
+        "H": [
+         "(0, 0; 0)",
+         "(0, 1/2; 0)",
+         "(1/2, 0; 0)",
+         "(1/2, 1/2; 0)"
+        ],
+        "order": 4,
+        "count": [
+         1,
+         0
+        ]
+       }
+      ]
+     },
+     "generation-shaped counts": [],
+     "three": []
+    }
+   ]
+  }
+ },
+ "seconds": 840
+}

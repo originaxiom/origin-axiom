@@ -22,11 +22,11 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1279** |
-| words of findings prose | **1,092,513** |
-| test lock files referenced | **782** |
-| arcs carrying an authored verdict | **1279** (100.0 %) |
-| recorded closures | **822** (655 classified, 167 routed-only) |
+| research arcs with findings | **1280** |
+| words of findings prose | **1,096,512** |
+| test lock files referenced | **783** |
+| arcs carrying an authored verdict | **1280** (100.0 %) |
+| recorded closures | **823** (656 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -37,7 +37,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 853 |
-| NEGATIVE | 327 |
+| NEGATIVE | 328 |
 | OPEN | 88 |
 | RETRACTED | 11 |
 
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 92 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 93 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 GENESIS v1.10 (not sealed: every item checks a claim the record already fixes): main's v1.9 (B1466) taken as the head, as main asked; main's amend.py on main's v1.8 gives main's v1.9 byte for byte, and main's v1.8 is v1.7 with a version line and one log entry (C1). The SM seat's v1.8 lines (sm:B1528), made on v1.7 in parallel with main's v1.8 and not in main's v1.9, carried as they were (C2). GAP6 scoped from the record (marked [v1.10]): its Chern-Weil row is B1420's A4, the Dirac index on a closed spin 4-manifold, rank-blind, and B1420 itself states that the non-zero values on non-split modules are flat data, counts of twisted classes (C3); B1297's class index is not a characteristic number: on M4 at nu = (1/3, 0) the non-split W1, its dual and the split V (+) L are flat of rank five, of one Chern character, h^1 = 2 each, and count +1, -1 and 0 in two routes (C4, own code); frames with curvature or a singular point are on the record (sm:B1397, sm:B1502, sm:B1503, R41/R80) with their outcomes (C5); and the chirality chain's 26 negatives read by sm:B1531 give symmetry 8, flatness 3, non-uniqueness 3 and none 12, nine of them frame arithmetic: a fourth kind (main's L244 (a); C6). At FK9 Part H verified on main (B1465: 7 364 indices, all zero; C7); at FK12 (ii) main's B1465 states the twisted identity in the same form. Section 7 counts six gaps. B1528's lock repointed to v1.8 kept as received. No status changes; FK1 and FK12 as the owner decided. 0 of 19.  
 `B1533_genesis_v110/FINDINGS.md`
 
-**NEGATIVE — `B1520`** (2789 words, 1 locks)  
-THE DECIDING TEST ON THE BRIDGE'S VACUA, run as sealed (dda82524; R1 16.6 s, R2 27.0 s; the owner's selection-rule handoff and go; main's B1455 question run independently): on m004's Ballas family at level one every vacuum mu (x) rho_q (q > 0, mu in C*) is fixed by a count-odd map, so the vacuum does not select chirality (outcome A, the registered kill, NEGATIVE). Of the sixteen maps (Out(pi_1 m004) = D4, with and without duality) eight fix every q and eight pair q with 1/q (exactly at q = 1 conjugate), two exact routes agreeing on all 32 decisions (intertwiners over Q(q); Theorem T with exact loci); the count-odd maps fixing every vacuum and every twist are D.theta and D.s.theta, both orientation-keeping (Lemma G: an E8 gauge rotation with an isometry, charge conjugation of the 4d SU(5) unbroken, under the fences). At a generic vacuum (q != 1, mu != +-1) the stabiliser is {id, s, D.theta, D.s.theta}: no orientation-reversing map survives, so the geometric mirror is broken, but a bare map keeps the count (L1) and the count-odd mirror is never broken. Follow-up at q0 = 17 +- 12 sqrt2, mu = -1: I(W1) = -1, its eight bare images -1 and eight dualised images +1 at three primes and both roots (count-flipped pairs over one vacuum, lifted equally by R76's potential). P1-P6 YES (expected 5.6 of 6). Post-run: a third route at seven rational points (224 decisions as sealed), the witness proportional to R47 F14's J^-1, the twist and the stabilisers computed. RE-DERIVED from B1512 and R47 F14; main's B1455 P1 found false. Routed in the kill graph (symmetry-cannot-select). I-26 stays UNEARNED. 0 of 19.  
-`B1520_the_deciding_test/FINDINGS.md`
+**NEGATIVE — `B1534`** (3999 words, 1 locks)  
+THE SILVER COVERS, run as sealed (1f58d161; sL-10 item 11): no finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations at a pulled-back member of sm:B1515's frame at the hyperbolic point, in either order. Lemma S (Shapiro and Mackey, any finite regular abelian cover) and Lemma Z' make every count a subgroup sum of 144 twisted terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)) over at most eight characters per member; Lemma Q (K10, two routes) carries every member at every twist onto the fourteen at kappa = +-1. Routes E (exact over Q(zeta_24)) and N (60 digits) read all 144 terms and all 64 pencils and agree; the pencils give one special class per two-class member, s = -+sqrt2/30, where every term reads (0, 0); route C (the permutation module) agrees on 16 order-4 covers read whole; after the run route S (SnapPy's presentation, cusp and holonomy, with its own classes and pencils) agrees on both states. The counts are (-1,-1), (-1,-2), (0,-1), (0,-2), (0,0), (1,0), (3,0), (5,0): the only generation-shaped count is (-1, -1), the base's one generation pulled back ((+1, +1) in the dual order). A Lambda^2 term is non-zero only at the four non-simple members' two non-simple twists, so I(Lambda^2) is 0, -1 or -2 on every cover: the 5bar' side is capped at two, while the 10' side alone reaches (3, 0) and (5, 0), anomalous. Seven of eight held; P2 failed (the (1/2, 1/2) term at m135's interior class is (0, -1)). Replaces the one-sided bound withdrawn at sm:B1530. 0 of 19 stays 0.  
+`B1534_the_silver_covers/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
