@@ -11797,5 +11797,33 @@
     "the interior index on an unsealed cusp (B1392); B1509's dictionary for 10' and 5bar'"
    ]
   }
+ },
+ {
+  "id": "B1532",
+  "claim_killed": "THREE FROM THE CUSPS (sL-7; the owner's 'continue with the next arc'): that some finite abelian cover of m004's levels M2-M6 carries three generations of sm:B1515's frame at a lambda = 1 pulled-back member at the hyperbolic point, I(p*W1) = I(Lambda^2 p*W1) = -+3, in either order. Sealed at 97fdce6d and run as sealed. By Lemma S (Shapiro and Mackey) and Lemma Z every such count is a subgroup sum of the lambda = 1 twisted terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)). Routes T and L (sharing no code) read all 119,347 terms at every class (163,507 readings each) and agree on every one; Part 0 (507 chi = 1 terms against sm:B1515's census) passed in both; route C (the permutation module) agrees in all 264 readings of covers read whole. The census (68,596 counts per route, every subgroup of every level) has no generation-shaped count at all: not three, and not one.",
+  "kill_form": "the-sides-never-meet (the W count is >= -1 everywhere, and -1 only at the interior class of M6's 120 two-class members on covers containing nu^4; there the group <nu^4> already carries two Lambda^2 terms of -1, so the Lambda^2 count is -2 or -4; every Lambda^2 count is <= 0, and 0 on M2-M5; so I(W) = I(Lambda^2 W) != 0 never occurs. sm:B1535's Theorem C states the two caps, b0 + n(nu^4) on the 10bar' side and n(nu^3 rho) on the 5bar' side)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "The covers' own members (sL-10 item 14): characters of a cover not pulled back -- the puncture characters, where n(nu^4) can be non-zero -- and the other Shapiro summands of H^1(M_A; p*V_eta), which sm:B1535 reads under Theorem C. Also: members at roots of unity with kappa^5 != 1 (not read; bounded by sm:B1535's Theorem C); non-abelian covers (Mackey's induced modules of dimension > 1, where the four's cuspidal supply grows); off the hyperbolic point; other frames.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-04 at banking time, with content: a NEGATIVE read as sealed, its population in its scope (B1207's A3, held by tests/test_negatives_read_together.py).",
+  "note": "ENTERED 2026-10-04 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1532_three_from_the_cusps/verification/run_terms.py (routes T and L, the sealed run), run_route_c.py (route C), read_out.py (the sealed read-out) and post_run_twists.py (the members at kappa^5 = 1, after the run, disclosed); locked by tests/test_b1532_three_from_the_cusps.py.",
+  "routed_from": "sm-branch-2026-10-04-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "m004's levels M2-M6 at the hyperbolic point: every finite abelian cover, every lambda = 1 pulled-back member of sm:B1515's frame and every class, both orders (the members at kappa^5 = 1 read after the run)",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point only",
+    "finite abelian covers only (non-abelian covers not read)",
+    "pulled-back members and classes only (the covers' own members are sL-10 item 14)",
+    "lambda = 1 members as sealed; kappa^5 = 1 after the run; other twists bounded by sm:B1535's Theorem C, not by this arc",
+    "the interior index on an unsealed cusp (B1392); B1509's dictionary for 10' and 5bar'"
+   ]
+  }
  }
 ]

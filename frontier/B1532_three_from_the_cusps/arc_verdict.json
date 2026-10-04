@@ -1,0 +1,123 @@
+{
+ "id": "B1532",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B1515",
+  "B1509",
+  "B1527",
+  "B1506",
+  "B1516",
+  "B1530"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "m004's levels M2-M6 at the hyperbolic point: every finite abelian cover, at every lambda = 1 pulled-back member of sm:B1515's frame and every class (the one class; the interior, generic and every special class of the two-class members), both orders",
+  "reach": "class",
+  "hypotheses": [
+   "at the hyperbolic point only (the complete structure); the four is the SO(3,1) vector representation",
+   "the count is main's interior index I = n(E) - n(E*) (B1297) on the cover, on an unsealed cusp (B1392); no end condition chosen",
+   "B1509's dictionary: N(10') = -I(W), N(5bar') = -I(Lambda^2 W); generation-shaped means I(W) = I(Lambda^2 W) != 0",
+   "lambda = 1 members as sealed; the members at kappa^5 = 1 were read after the run from the sealed terms (disclosed, section 4), and every other finite-order twist is bounded by sm:B1535's Theorem C, not by this arc",
+   "pulled-back members and classes only: the covers' own members are sL-10 item 14",
+   "finite abelian covers only; non-abelian covers are not read"
+  ]
+ },
+ "claim_one_line": "THREE FROM THE CUSPS, run as sealed (97fdce6d; sL-7): no finite abelian cover of m004's levels M2-M6 carries a generation-shaped count of sm:B1515's frame at a lambda = 1 pulled-back member, at any class, in either order -- not three and not one. Routes T and L (sharing no code) read all 119,347 terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)) at every class (163,507 readings each) and agree on every one (D5 = 0); Part 0 (507 chi = 1 terms against sm:B1515's census) passed in both; route C (the permutation module) agrees in all 264 readings of covers read whole. The census reads 68,596 counts per route over every subgroup of every level: Lambda^2 is 0 on M2-M5 and in [-28, 0] on M6; W >= -1 everywhere, and -1 only at the interior class of M6's 120 two-class members on covers containing nu^4, where the group <nu^4> already carries two Lambda^2 terms of -1, so Lambda^2 is -2 or -4 there and (-1, -1) never occurs. Five of nine predictions held (P1, P2, P3, P7, P8; P4-P6 and P9 failed). Disclosed: sm:B1535's Theorem C, committed as a blind prediction at 5c6a4225 before the read-out, holds at all 163,507 readings of each route; after the run, the members at kappa^5 = 1 read from the sealed terms on every finite abelian cover (110,956 counts per route) carry no generation-shaped count. 0 of 19 stays 0.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the seal)": "97fdce6d",
+    "seat/standard-model-derivation-0qt6ao (at banking)": "4e55f20b",
+    "origin/main (at the seal)": "b3565230",
+    "origin/main (at banking)": "98714379",
+    "origin/audit/physical-bridge-2026-09-05 (at banking)": "c7aa3a29",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/sep16-branch": "3205984b",
+    "origin/seat/magical-wright-vwrmtt (retired by main, B1467)": "0043be2b",
+    "origin/art/camper-van-bar (retired by main, B1467)": "b3745696"
+   },
+   "terms": [
+    "three from the cusps",
+    "Shapiro",
+    "trivial on the cusp",
+    "covers of M6",
+    "(LR)^6",
+    "induced background",
+    "multi-cusp",
+    "one background, one count",
+    "R69",
+    "fibre covers",
+    "pullback keeps",
+    "case (b) twist",
+    "kappa^5",
+    "shifted coset",
+    "W = -1 only",
+    "5bar' count",
+    "generation-shaped"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1515_the_hyperbolic_point",
+     "bearing": "the frame, the members of M1-M6 and routes T and L; its census is this arc's banked identity; its FINDINGS' cover sentence concerns the four's interior classes, not the frame's count"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1506_the_level (T2) and main's T-THE-LEVEL",
+     "bearing": "the level tower's twists, which move the meridian off 1; covered here by Lemma Z"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1534_the_silver_covers",
+     "bearing": "this arc's method carried to m135 and m136 (banked first); its Lemma Q argument answers the twist question of section 4"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1535_the_cap (sealed at b410afeb)",
+     "bearing": "Theorem C, the cap that explains the census; its prediction for this arc was committed blind at 5c6a4225 and holds; not used in the verdict"
+    },
+    {
+     "where": "main@98714379: docs/HARVEST_LEDGER.md row 837",
+     "bearing": "registers sm:B1532 as sealed and unbanked; nothing else"
+    },
+    {
+     "where": "main@98714379: frontier/B933_spinor_hejhal_design ('shifted coset')",
+     "bearing": "another usage; does not bear"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Shapiro's lemma group cohomology induced module",
+    "number of subgroups of Z_m x Z_n"
+   ],
+   "sources": [
+    {
+     "cite": "K. S. Kedlaya, Notes on class field theory",
+     "where": "section 3.2, Definition 3.2.2 and Lemma 3.2.3",
+     "read": "2026-10-03",
+     "says": "Shapiro's lemma: the cohomology of G with coefficients induced from H is the cohomology of H"
+    },
+    {
+     "cite": "L. Toth, Subgroups of finite Abelian groups having rank two via Goursat's lemma, Tatra Mt. Math. Publ. 59 (2014) 93-103, arXiv:1312.1485",
+     "where": "Theorem 4.1, eq. (5)",
+     "read": "2026-10-03",
+     "says": "s(m, n) = sum over i | m, j | n of gcd(i, j): 2, 15, 12, 14 and 74 subgroups on M2-M6, as the closures find"
+    },
+    {
+     "cite": "P. Menal-Ferrer, J. Porti, Twisted cohomology for hyperbolic three manifolds, arXiv:1001.2242",
+     "where": "Theorem 0.1",
+     "read": "2026-10-03",
+     "says": "the Higgs bulk has no interior class (sm:B1515's Lemma 3), used in Proposition H (read at source for sm:B1530)"
+    }
+   ]
+  },
+  "standing": "EXTENDS",
+  "why": "sm:B1515's frame and routes carried to every finite abelian cover of the levels; Lemmas S and Z, Proposition H and Corollary I are this arc's; F-HE on a cover of a level is new as swept"
+ }
+}

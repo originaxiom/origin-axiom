@@ -17410,3 +17410,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   (264 readings, all agreeing), and the read-out again at 02:46Z with route C's result. The two read-outs differ only in P1.
   All are recorded; FINDINGS next (task 221), with the twist question (task 226).
 - B1529's coverage check continues on two workers.
+
+## 2026-10-04 — B1532 banked: THREE FROM THE CUSPS (task 221)
+
+- The run as sealed, read out at 02:28Z and at 02:45Z; route C agrees in 264 of 264 readings. NEGATIVE: no finite abelian cover
+  of M₂–M₆ carries a generation-shaped count at a λ = 1 pulled-back member. Not three, and not one.
+- The census has the shape of B1535's Theorem C: W ≥ −1, Λ² ≤ 0, and where W = −1 the cover contains ν⁴ and Λ² ≤ −2. B1535's
+  prediction, committed before the read-out, held at all 163,507 readings per route.
+- The twist question (task 226) is answered after the run from the sealed terms. The members at κ⁵ = 1 add 110,956 counts per
+  route, none generation-shaped. Other roots of unity are bounded by Theorem C, whose run is pending.
+- Self-caught before the commit: four slips in the FINDINGS draft, each checked against the terms and corrected (E11 instance).
+- Runs: B1535's sealed runs (Part M since 03:27:20Z on one core; Part W on one worker); B1529's coverage check (two workers).

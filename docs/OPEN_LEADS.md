@@ -3510,6 +3510,15 @@ a cusp's term a multiple of m. On the resolved set every leading shell has one d
   M₆) is at 30%.
 - A three would be a three on that cover-state; sL-5's bit is unchanged. `frontier/B1532_three_from_the_cusps`.
 
+**Banked 2026-10-04 as sm:B1532 (NEGATIVE, run as sealed at 97fdce6d).** No finite abelian cover of M₂–M₆ carries a
+generation-shaped count at a λ = 1 pulled-back member, at any class, in either order: not three, and not one.
+- Routes T and L agree on all 119,347 terms; route C on 264 readings of covers read whole. Five of nine predictions held.
+- The census (68,596 counts per route): Λ² = 0 on M₂–M₅ and in [−28, 0] on M₆; W ≥ −1, and −1 only at the interior class
+  on covers containing ν⁴, where ⟨ν⁴⟩ already gives Λ² ≤ −2. The sides never meet.
+- After the run (disclosed): the members at κ⁵ = 1 on every finite abelian cover, from the sealed terms, carry no
+  generation-shaped count either. sm:B1535's Theorem C (sealed) states the two caps; its prediction for this arc was blind.
+- Kill graph: `the-sides-never-meet` (F-HE, reach class).
+
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
 **Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.

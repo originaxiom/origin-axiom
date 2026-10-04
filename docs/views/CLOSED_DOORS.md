@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**823 recorded closures — of which 656 are CLASSIFIED by mechanism and
+**824 recorded closures — of which 657 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -106,6 +106,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `the-cusp-decides (the character is trivial on the fibre boundary, a commutator; off the eigenvalue-one locus of rho(l) the cusp is acyclic and the index is a0 - b0 = 0; on the type-one curves psi(l) != 0 because the fibre boundary is a rigid slope)` | 1 |  |
 | `silver-not-golden (the generation-shaped members at the hyperbolic point sit on the silver squares +-L^2R^2, through an interior class of the twisted four that the golden squares do not have; the golden form of the hypothesis is refuted by counterexample, not by an absence)` | 1 |  |
 | `the-five-bar-side-is-capped (a Lambda^2 term is non-zero only at the four non-simple members, at their two non-simple twists, each -1 or 0; every simple twist reads Lambda^2 = 0, sm:B1530's Part C at non-square characters too; so on every abelian cover I(Lambda^2) is 0, -1 or -2 and three 5bar' never occur, while the 10' side alone reaches 3 and 5, anomalous)` | 1 |  |
+| `the-sides-never-meet (the W count is >= -1 everywhere, and -1 only at the interior class of M6's 120 two-class members on covers containing nu^4; there the group <nu^4> already carries two Lambda^2 terms of -1, so the Lambda^2 count is -2 or -4; every Lambda^2 count is <= 0, and 0 on M2-M5; so I(W) = I(Lambda^2 W) != 0 never occurs. sm:B1535's Theorem C states the two caps, b0 + n(nu^4) on the 10bar' side and n(nu^3 rho) on the 5bar' side)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
@@ -637,7 +638,7 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B774` |  | `other` |
 | `B791` |  | `other` |
 
-## How far each closure reaches (33 carry a scope tag)
+## How far each closure reaches (34 carry a scope tag)
 
 A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
 where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
@@ -649,7 +650,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `F-AP` |  | 3 | 3 |
 | `F-CI` | 1 |  |  |
 | `F-FC` | 2 | 6 | 8 |
-| `F-HE` | 7 | 3 |  |
+| `F-HE` | 7 | 4 |  |
 
 | arc | frame | reach | object | read with |
 |---|---|---|---|---|
@@ -685,4 +686,5 @@ without a tag (790) predate the tag; read their object from their own text.
 | `B1520` | `F-HE` | single | m004's Ballas family rho_q (q > 0) at level one, with central twists mu (x) rho_q (mu in C*) and, at the exceptional po… |  |
 | `B1527` | `F-HE` | class | the 758 word states to length 12 near their hyperbolic point: the vacua nu (x) rho and nu (x) Lambda^2 rho of the finit… |  |
 | `B1530` | `F-HE` | class | the 536 word states to length 12 and m004's levels M2-M6, at the hyperbolic point, B1515's rank-five extensions |  |
+| `B1532` | `F-HE` | class | m004's levels M2-M6 at the hyperbolic point: every finite abelian cover, every lambda = 1 pulled-back member of sm:B151… |  |
 | `B1534` | `F-HE` | class | m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite regular abelian cover, every pulled-back member of… |  |

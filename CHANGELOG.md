@@ -1,5 +1,33 @@
 # Changelog
 
+## B1532 banked: THREE FROM THE CUSPS — no finite abelian cover of m004's levels M₂–M₆ carries a generation-shaped count at a λ = 1 pulled-back member
+
+- **Run as sealed** (`97fdce6d`; sL-7).
+  - Part 0 (all 507 χ = 1 terms against sm:B1515's census) passed in both routes.
+  - Route L read all 507 members in one session of 13,060 s. Route T read in two sessions; the second was restarted
+    resume-safe at 20:34Z, passed Part 0 again, and finished at 02:25:28Z.
+  - The read-out ran at 02:28Z with P1 pending route C, as sealed, and again at 02:45Z with route C's 264 readings, all
+    agreeing. The two printouts differ only in P1 and the timing; both are kept.
+- **NEGATIVE: not three, and not one.** Routes T and L agree on all 119,347 terms (D5 = 0). The census (68,596 counts per route)
+  has no generation-shaped count.
+  - Λ² = 0 on M₂–M₅, and Λ² ∈ [−28, 0] on M₆.
+  - W ≥ −1 everywhere. It is −1 only at the interior class of M₆'s 120 two-class members, on covers containing ν⁴, where ⟨ν⁴⟩
+    already gives Λ² ≤ −2.
+- **5 of 9 predictions held** (P1, P2, P3, P7, P8; P4, P5, P6 and P9 failed). The priors summed to 5.89.
+- **Disclosed:**
+  - sm:B1535's blind prediction (committed at `5c6a4225`) holds at all 163,507 readings of each route.
+  - After the run, `post_run_twists.py` reads the members at κ⁵ = 1 on every finite abelian cover from the sealed terms: 110,956
+    counts per route, none generation-shaped, the routes agreeing. The same code reproduces the sealed census at x₁ = 0.
+- **Carried:** the seal's quoted bound on the silver squares' covers ("at most two") was withdrawn at sm:B1530's bank (E9);
+  FINDINGS says so.
+- **Surfaces:**
+  - THEOREM_REGISTRY T-THREE-FROM-THE-CUSPS; the SEAL_LEDGER verdict; ERROR_LEDGER (the FINDINGS draft's four slips, an E11
+    instance).
+  - Kill graph `the-sides-never-meet` (F-HE, reach class); OPEN_LEADS sL-7; CAMPAIGN_STATUS; the alias table.
+  - RELAY_LEDGER and the relay SM_TO_CC_AND_CODEX_2026-10-04_THREE_FROM_THE_CUSPS_AND_THE_CAP.md.
+  - Lock: tests/test_b1532_three_from_the_cusps.py, 13 tests.
+- **The terms** (22 MB each) are kept compressed (584 KB each), with their sha-256 before compression.
+
 ## B1535 sealed: the cap — the 5̄′ count at most n(ν³ ⊗ ρ), the 10̄′ count at most b0 + n(ν⁴), at every class of every finite cover (sL-10 item 14, first half)
 
 - **The question.** The owner asked whether the three-generation negatives were sure. sm:B1534 answered for the silver squares'

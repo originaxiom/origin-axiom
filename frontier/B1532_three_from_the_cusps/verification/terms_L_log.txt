@@ -1,0 +1,59 @@
+[      0.8s] Part 0 route L: M2 read (5 members)
+[      1.1s] Part 0 route L: M3 read (16 members)
+[      2.1s] Part 0 route L: M4 read (45 members)
+[      6.6s] Part 0 route L: M5 read (121 members)
+[     30.2s] Part 0 route L: M6 read (320 members)
+[     30.2s] Part 0 route L: 507 chi = 1 terms equal sm:B1515's banked rows, 0 differ; passed = True
+[     30.4s] Part A route L: 507 members to read (0 complete before this start)
+[     32.1s] M3 1/4,0: 10/507 members read
+[     34.3s] M3 3/4,1/2: 20/507 members read
+[     41.8s] M4 2/15,13/15: 30/507 members read
+[     49.6s] M4 2/5,4/15: 40/507 members read
+[     57.3s] M4 3/5,2/5: 50/507 members read
+[     65.3s] M4 4/5,13/15: 60/507 members read
+[     83.9s] M5 0,3/11: 70/507 members read
+[    118.6s] M5 1/11,2/11: 80/507 members read
+[    153.5s] M5 2/11,1/11: 90/507 members read
+[    188.0s] M5 3/11,0: 100/507 members read
+[    223.6s] M5 3/11,10/11: 110/507 members read
+[    258.6s] M5 4/11,9/11: 120/507 members read
+[    293.3s] M5 5/11,8/11: 130/507 members read
+[    327.6s] M5 6/11,7/11: 140/507 members read
+[    363.9s] M5 7/11,6/11: 150/507 members read
+[    397.8s] M5 8/11,5/11: 160/507 members read
+[    431.8s] M5 9/11,4/11: 170/507 members read
+[    466.0s] M5 10/11,3/11: 180/507 members read
+[    546.7s] M6 0,1/4: 190/507 members read
+[    862.0s] M6 1/40,3/5: 200/507 members read
+[   1261.9s] M6 1/20,33/40: 210/507 members read
+[   1726.3s] M6 1/10,1/40: 220/507 members read
+[   2065.0s] M6 1/8,1/4: 230/507 members read
+[   2514.8s] M6 3/20,3/5: 240/507 members read
+[   2962.1s] M6 7/40,33/40: 250/507 members read
+[   3147.1s] M6 9/40,1/40: 260/507 members read
+[   3567.4s] M6 1/4,1/4: 270/507 members read
+[   3914.6s] M6 11/40,3/5: 280/507 members read
+[   4483.7s] M6 3/10,33/40: 290/507 members read
+[   5001.8s] M6 7/20,1/40: 300/507 members read
+[   5315.0s] M6 3/8,1/4: 310/507 members read
+[   5699.6s] M6 2/5,3/5: 320/507 members read
+[   6106.5s] M6 17/40,33/40: 330/507 members read
+[   6518.5s] M6 19/40,1/40: 340/507 members read
+[   7018.5s] M6 1/2,1/4: 350/507 members read
+[   7574.8s] M6 21/40,3/5: 360/507 members read
+[   7881.2s] M6 11/20,33/40: 370/507 members read
+[   8285.9s] M6 3/5,1/40: 380/507 members read
+[   8523.8s] M6 5/8,1/4: 390/507 members read
+[   8910.8s] M6 13/20,3/5: 400/507 members read
+[   9329.2s] M6 27/40,33/40: 410/507 members read
+[   9755.2s] M6 29/40,1/40: 420/507 members read
+[  10149.2s] M6 3/4,1/4: 430/507 members read
+[  10539.2s] M6 31/40,3/5: 440/507 members read
+[  10775.6s] M6 4/5,33/40: 450/507 members read
+[  11162.1s] M6 17/20,1/40: 460/507 members read
+[  11627.8s] M6 7/8,1/4: 470/507 members read
+[  12001.9s] M6 9/10,3/5: 480/507 members read
+[  12425.9s] M6 37/40,33/40: 490/507 members read
+[  12794.6s] M6 39/40,1/40: 500/507 members read
+[  13060.1s] M6 39/40,9/10: 507/507 members read
+[  13060.1s] Part A route L: complete

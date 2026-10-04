@@ -1,7 +1,7 @@
 {
- "settled": 1179,
+ "settled": 1180,
  "declared_true": 96,
- "declared_false": 255,
+ "declared_false": 256,
  "absent": 828,
  "absent_pct": 70,
  "control": {
@@ -577,6 +577,7 @@
   "B1525",
   "B1527",
   "B1530",
+  "B1532",
   "B1534"
  ],
  "pool_new": [
@@ -1188,6 +1189,7 @@
   "B1525",
   "B1527",
   "B1530",
+  "B1532",
   "B1534"
  ],
  "added_by_vocabulary": [

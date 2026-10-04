@@ -9782,6 +9782,37 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1532": {
+   "slug": "three from the cusps",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B933",
+    "K1",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "S52"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 20,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1533": {
    "slug": "genesis v110",
    "motifs": [
