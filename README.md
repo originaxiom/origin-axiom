@@ -1,6 +1,15 @@
 # Origin Axiom
 
 > **Current physical bridge checkpoint October4.**
+> [Actual mixed-field current](reports/physical_bridge_2026_09_05/MIXED_CURRENT.md)
+> supplies the required noncentral current SHAPE using existing E8 fields,
+> not an admitted source solution. Full-frame/gauge/action checks retain
+> larger unbroken su5 and nonstationarity of the constant comparator.
+> Corrected pre-run sealda86db5e7:40 exact/359 separate reference checks,
+> 26 focused tests pass; original bar-orientation failure preserved.
+> Next spatial coupled equations and physical domain/spectrum, alongside
+> the generated register/join/action law. Full SM/TOE remains unachieved.
+>
 > [Character register and Wilson observables](reports/physical_bridge_2026_09_05/REGISTER_WILSON.md)
 > connects B871's group-layer contraction to standard Haar/Wilson
 > mathematics in the SUPPLIED SU5 framework.77 exact/371 separate

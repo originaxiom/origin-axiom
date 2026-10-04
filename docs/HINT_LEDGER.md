@@ -4,7 +4,7 @@
 
 | H# | hint | type | noticed | state | flags | disposition |
 |---|---|---|---|---|---|---|
-| H-PB-R91 | Can actual mixed E8 fields carry the noncentral flag current while preserving a transported color/weak/hypercharge frame? | QUESTION | 2026-10-04 | PROMOTED | supplied-parent; frame and complete-action duties | Decision to inspect in the path-local R91 OPEN_LEADS entry; not a result, new global H-number, source solution or physical identification. |
+| H-PB-R91 | Can actual mixed E8 fields carry the noncentral flag current while preserving a transported color/weak/hypercharge frame? | QUESTION | 2026-10-04 | PROMOTED | supplied-parent; frame and complete-action duties | Path-local R91 test executed after corrected seal; algebraic current shape passes, stationary solution not constructed. Full result MIXED_CURRENT.md, not a new global H-number or physical identification. |
 
 The **generative counterpart** to `../papers/VALIDATION_LEDGER.md`. It exists because the repo had a structural
 gap: the only place to record a research idea was `OPEN_LEADS.md`, which admits **decisions to run** — so a hint

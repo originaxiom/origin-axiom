@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October4 R91 adds an EXISTING mixed-field current shape in the supplied
+E8/action, no new multiplet. R41 sign projections survive, actual Weyl
+frame transport earned, full gauge su5 and nonzero homogeneous scaling
+variation priced. A current is not an admitted source/profile solution.
+40 exact/359 separate reference/26 tests pass corrected pre-run da86db5e7;
+original six-bar orientation failure retained, full criterion unchanged.
+MIXED_CURRENT.md in physical_bridge reports carries inputs and remaining
+spatial field/domain/spectrum/generation/anomaly/generated-law duties.
+Neither comparison is universal chirality kill; full SM/TOE unachieved.
+
 October4 R90: formal B871 register has a standard Haar/Wilson gauge-
 observable realization in the SUPPLIED SU5 framework.77 exact/371 separate
 modular-Fraction predicates and18 tests pass unchanged at808d3e31c.

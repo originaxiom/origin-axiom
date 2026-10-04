@@ -1,12 +1,14 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-October4 physical-bridge R91 decision-to-test (H-PB-R91): inspect the
-existing mixed E8 current, actual color/weak centralizer, transported
-hypercharge and complete homogeneous action, without adding a source.
-Design: reports/physical_bridge_2026_09_05/MIXED_CURRENT_DESIGN.md.
-This is a supplied-parent conditional test, not a new physical law or
-global lead-number allocation. A nonstationary comparator cannot close
-spatially varying, sourced, nonflat or boundary routes.
+October4 R91 decision-to-test H-PB-R91 EXECUTED after corrected seal
+da86db5e7: existing mixed E8 current shape, frame map and full gauge/
+bare-action cost tested;40 exact/359 reference/26 tests pass. Original
+roster failure preserved, no criterion weakened. This is not an unrun
+algebraic check or stationary source solution. Report MIXED_CURRENT.md
+under physical_bridge. NEXT actual spatial coupled equations, norm and
+full physical domain/spectrum, plus generated register/join/action law.
+No nonconstant/nonflat/end route is killed by a constant comparator.
+Full SM/TOE active; no global lead-number or physical-law allocation.
 
 October4 R90: the formal register's standard Haar/Wilson operational
 connection is executed, not an unrun lead or generated physical mechanism.

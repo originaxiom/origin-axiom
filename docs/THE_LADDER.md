@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R91: existing mixed fields supply the noncentral current SHAPE,
+not the integrated/stationary source solution. Actual frame reflection,
+entire gauge kernel and full bare comparator action carried together.
+Corrected sealda86db5e7 gives40 exact/359 separate reference/26 tests;
+first roster failure preserved. Full gauge su5 not SM, constant ansatz
+nonstationary, spatial/nonflat/end routes remain live. MIXED_CURRENT.md
+under physical_bridge. Next coupled fields with full physical operator,
+norm and domain, then spectrum; generated register/join/action owed.
+No19 parameter outputs or full SM/TOE. Independent acceptance owed.
+
 October4 R90: group-layer register realizes a standard gauge observable
 pairing in the existing SUPPLIED SU5 framework, not a derived source.
 77 exact/371 separate modular-Fraction predicates and18 tests pass at

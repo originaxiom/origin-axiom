@@ -1,4 +1,18 @@
-# Verdict toward the full physical-theory goal - R90, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R91, updated 2026-10-04
+
+R91 earns an actual existing-field current SHAPE and its frame/action
+cost, not a stationary physical source. A5 centralizer and full E8
+charges checked; transformed Y is Weyl transport, zero old-Y moment
+does not imply unbroken old-Y. Full fixture gauge kernel remains su5,
+not only the SM subset. Constant comparator has nonzero bare-action
+scaling variation; nonconstant/nonflat/end routes are not killed.
+40 exact/359 separate reference/26 focused tests pass at corrected
+pre-run sealda86db5e7, original full-roster bar failure preserved.
+MIXED_CURRENT.md separates current, gauge, transport and stationarity.
+Next actual spatial equations with all partners varied and positive
+norm/domain, recalculate whole fermion spectrum/interactions/anomalies.
+Generated register/join/action law remains upstream; E8/embedding/action
+and domain stay supplied inputs. Full parameter-free SM/TOE unachieved.
 
 R90 pays a necessary conditional operational connection: B871's formal
 register is the standard compact Haar pairing of Wilson characters in

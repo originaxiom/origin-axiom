@@ -1,5 +1,14 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October4 path-local R91, standard supplied-parent math, not new B law:
+actual mixed-field J has R41 flag projections12,8,4; color/weak E8
+commutant A5 and transported Y earned by root reflection. Zero moment
+does not imply unbroken old Y. Full fixture kernel su5, bare constant
+comparator V=18t^4/g7^2 not stationary nonzero. No other profile/phase
+killed.40 exact/359 separate reference/26 tests pass corrected pre-run
+da86db5e7; initial full-roster failure and extended reference coverage
+disclosed. MIXED_CURRENT.md/PROOF.md carry scope; no physical SM/TOE.
+
 October4 path-local R90, not new B-law banking: B871's formal register
 has standard compact Haar/Wilson realization in the supplied SU5 model.
 Actual E8 roster retained; chiral10+bar5 cubic moment0 but fifth

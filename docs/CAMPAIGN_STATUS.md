@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October4 R91 current-shape positive in existing mixed E8 fields, not an
+admitted vacuum. Full root/charge/frame and current/action checks at
+corrected pre-run sealda86db5e7:40 exact/359 separate reference,26
+focused tests pass. Original six/bar-six roster failure preserved;
+reference coverage extended, same tests/criterion. Full gauge kernel
+su5 and constant-fixture nonstationarity retained; not a general kill.
+MIXED_CURRENT.md under physical_bridge reports. Next coupled spatial
+equations and whole physical domain/spectrum, plus generated law.
+Full parameter-free SM/TOE ACTIVE/unachieved, no main-bank acceptance.
+
 October4 R90: formal register has standard Haar/Wilson realization in
 the SUPPLIED SU5 framework.77 exact/371 separate modular-Fraction checks
 and18 tests pass unchanged at pushed pre-run seal808d3e31c. Chiral control

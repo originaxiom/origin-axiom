@@ -17047,3 +17047,39 @@ disclosure and separate correction record explain the post-hoc repair.
 Four old science files changed, two unchanged, one new correction note.
 Corrected bytes resealed/pushed/server-confirmed BEFORE rerun. No repair
 of tolerance, original stdout or criterion, no full-suite/physics verdict.
+
+## 2026-10-04 R91 corrected mixed current execution and scope
+
+Corrected scientific checkpointda86db5e7 pushed/server-confirmed before
+seven-file/nine-input clean preflight and all reruns. Corrected native
+40/40, separate stdlib reflection/sparse/Fraction/modular359/359, focused
+26 pass (8 new LIVE,10 R90 LIVE,eight B871 artifact locks), exits0.
+Original38/39/25+onefailure and original reference356 retained, not an
+unchanged-first-pass claim. Science unchanged since corrected seal.
+Native/reference same author, not independent acceptance or full suite.
+
+Existing mixed adjoint one-forms supply J=diag(3,-1,-1,-1,0,0), all
+three R41 sign projections12,8,4, without new source fields. Actual
+color/weak A5 commutant and entire E8 weight roster earned. Old-Y moment
+cancels but gauge-breaking form216 nonzero; Y'=-(Y-6T)/5 is exact Weyl
+transport, not a selector. Full fixture gauge kernel su5 not SM alone.
+All constant-curvature/current residuals retained: V=18t^4/g7^2 has
+nonzero scaling variation. Comparator not stationary, no spatial/profile/
+nonflat/end route killed. Next complete coupled fields and physical
+norm/domain/spectrum, with generated register/join/action upstream.
+
+Reports/receipts/sender relay and current surfaces updated. No foreign
+producer, genesis, B/I ID, CLAIMS promotion or gate baseline changed.
+Full parameter-free Standard Model and TOE active and unachieved.
+
+R91 first post-result governance run exits1:26 PASS/four inherited FAIL
+categories,84 OPEN relays/41 stale, review due325. No new offender path
+or waiver. Successful public captures copied byte-faithfully; original
+failed science/test and prior navigation logs remain raw-only, unchanged.
+Custody proof is not nonauthor acceptance or a full-suite certificate.
+
+R91 final governance repeats first stdout byte-for-byte, same exit1 and
+population; true raw receipt retained and public stdout identical.
+First custody snapshot is separately typed at14 captures; final custody
+reads15 science/prior/governance captures plus that preserved snapshot.
+Science still matches corrected commit; no full-suite/main-bank claim.

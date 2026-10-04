@@ -1,0 +1,381 @@
+{
+  "raw_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-mixed-current.pp8xuQ",
+  "captures": {
+    "already_banked": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/checks/already_banked.py",
+        "SU6 mixed source flipped hypercharge"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.8273470000131056,
+      "log_bytes": 3592,
+      "log_sha256": "e39effe399fa60812cef0ce8c824b7dc504bdf519bf85d49f3dd91c77635bfee"
+    },
+    "prior_sweep": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/checks/absence_sweep.py",
+        "su.?6|a5.*a2.*a1|mixed.{0,30}current|flipped.{0,20}hypercharge|color.{0,30}weak.{0,30}centralizer|colour.{0,30}weak.{0,30}centraliser",
+        "--regex"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 123.71870099997614,
+      "log_bytes": 6161,
+      "log_sha256": "70d6e7c136fb53e82ab5f6d259ebcd7daf94f886b09666945d920b4a31faba4b"
+    },
+    "atlas": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/atlas/query.py",
+        "card"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.147884999983944,
+      "log_bytes": 735,
+      "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+    },
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.5856739999726415,
+      "log_bytes": 85,
+      "log_sha256": "520e63a2ac3a7bab5dd12d8f98b1db12a29733546be2bc31c15436d66a28e9aa"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "-e",
+        "require 'json'; require 'digest'; base='reports/physical_bridge_2026_09_05/'; commit='8cac7ea4e7abfc5cbfec59feeb3ebffa95add210'; raw='/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-mixed-current.pp8xuQ'; server=File.read(raw+'/server_seal.log').split.first; abort('Server seal mismatch') unless server==commit; abort('Tree not clean') unless IO.popen(['git','status','--porcelain'],&:read).empty?; latest={}; File.foreach(base+'ARTIFACT_HASHES.txt',encoding:'UTF-8'){|l| m=l.match(/^([a-f0-9]{64})  (.+)$/); latest[m[2]]=m[1] if m}; p=%w[MIXED_CURRENT_DESIGN.md MIXED_CURRENT_PROOF.md MIXED_CURRENT_INPUTS.json mixed_current.py mixed_current_reference.py].map{|f|base+f}+['tests/test_physical_bridge_mixed_current.py']; p.each{|f| b=File.binread(f); committed=IO.popen(['git','show',commit+':'+f],'rb',&:read); abort(f) unless b==committed && Digest::SHA256.hexdigest(b)==latest[f]}; j=JSON.parse(File.read(base+'MIXED_CURRENT_INPUTS.json',encoding:'UTF-8')); j['sources'].each{|r|abort(r['path']) unless Digest::SHA256.file(r['path']).hexdigest==r['sha256']}; puts JSON.generate(science_files:p.length,input_pins:j['sources'].length,server_commit:server,clean_tree:true,bytes_match:true)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.4820199999958277,
+      "log_bytes": 131,
+      "log_sha256": "78b8127304c6bb1b1e160f55ad49dc39d2a947d74ad488f748169f655a0bedf8"
+    },
+    "native_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/mixed_current.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.9590960000641644,
+      "log_bytes": 4269,
+      "log_sha256": "6f46d159ad15d1f2d25e75fc5652b7874a87c71c787b000c2005cd1000c10289"
+    },
+    "reference_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/mixed_current_reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.12046000000555068,
+      "log_bytes": 133,
+      "log_sha256": "df32ea9000e9ee10e701505860374e1b388135fcbc826ca5e21000adfcb2c68f"
+    },
+    "focused_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_mixed_current.py",
+        "tests/test_physical_bridge_register_wilson.py",
+        "tests/test_b871_registering.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 3.425662000081502,
+      "log_bytes": 684,
+      "log_sha256": "248c3fdaff5e84dc206d4fd3096a72ad2d6e0b1342cd02cac8cc9f6e853fc564"
+    },
+    "server_corrected": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.6672650000546128,
+      "log_bytes": 85,
+      "log_sha256": "a8ec6e46f70446bd04a48e9075b3fd67ee853a2fe521913c7d8e7e07d2621cdd"
+    },
+    "preflight_corrected": {
+      "command": [
+        "ruby",
+        "-e",
+        "require 'json'; require 'digest'; base='reports/physical_bridge_2026_09_05/'; commit='da86db5e7f9829be6cedd07e734a03f694a44e9a'; raw='/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-mixed-current.pp8xuQ'; abort('Server mismatch') unless File.read(raw+'/server_corrected.log').split.first==commit; abort('Dirty tree') unless IO.popen(['git','status','--porcelain'],&:read).empty?; latest={}; File.foreach(base+'ARTIFACT_HASHES.txt',encoding:'UTF-8'){|l| m=l.match(/^([a-f0-9]{64})  (.+)$/); latest[m[2]]=m[1] if m}; p=%w[MIXED_CURRENT_DESIGN.md MIXED_CURRENT_PROOF.md MIXED_CURRENT_INPUTS.json MIXED_CURRENT_CORRECTION.md mixed_current.py mixed_current_reference.py].map{|f|base+f}+['tests/test_physical_bridge_mixed_current.py']; p.each{|f| b=File.binread(f); committed=IO.popen(['git','show',commit+':'+f],'rb',&:read); abort(f) unless b==committed && Digest::SHA256.hexdigest(b)==latest[f]}; j=JSON.parse(File.read(base+'MIXED_CURRENT_INPUTS.json',encoding:'UTF-8')); j['sources'].each{|r|abort(r['path']) unless Digest::SHA256.file(r['path']).hexdigest==r['sha256']}; puts JSON.generate(science_files:p.length,input_pins:j['sources'].length,server_commit:commit,clean_tree:true,bytes_match:true)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.9295489999931306,
+      "log_bytes": 131,
+      "log_sha256": "82827c59c1a4c425de08708f8532617099663f75fa64c19e8edb84d0445dbcc8"
+    },
+    "native_corrected": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/mixed_current.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.8811210000421852,
+      "log_bytes": 3966,
+      "log_sha256": "8e2e3b85b82f511ec983e11f00359b9131afb9e4eb0e28b8801de4a543a917a3"
+    },
+    "reference_corrected": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/mixed_current_reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.22318600001744926,
+      "log_bytes": 133,
+      "log_sha256": "5113e27a377253aaf4e9ebe9cda4afa4955b8aa15f5fa774143d51e04facf3a9"
+    },
+    "focused_corrected": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_mixed_current.py",
+        "tests/test_physical_bridge_register_wilson.py",
+        "tests/test_b871_registering.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 6.461611000006087,
+      "log_bytes": 99,
+      "log_sha256": "75d3470676ef2d223c8e745a4b3f6d539b1c9a8483f2e7092c94ea7d2d8486d2"
+    },
+    "governance_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 17.359583000070415,
+      "log_bytes": 2284,
+      "log_sha256": "2808ec589ffeef8ceedd134ebaa233f1ae13e8df546c3315c7e75a14e2bc2f16"
+    },
+    "governance_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.084783000056632,
+      "log_bytes": 2284,
+      "log_sha256": "2808ec589ffeef8ceedd134ebaa233f1ae13e8df546c3315c7e75a14e2bc2f16"
+    }
+  },
+  "native_original_summary": {
+    "failed": [
+      "whole_248_branching"
+    ],
+    "full_goal_achieved": false,
+    "physical_chirality_derived": false,
+    "results": [
+      {
+        "Y_transported": [
+          "-2",
+          "-2",
+          "-2",
+          "-3",
+          "-3",
+          "0",
+          "0",
+          "0"
+        ],
+        "color_weak_commutant_dimension": 35,
+        "fixture_unbroken_algebra_dimension": 24,
+        "full_A5_unbroken_dimension": 11,
+        "ordinary_SM_commutant_dimension": 25,
+        "roots": 240
+      },
+      {
+        "current_diagonal": [
+          "3",
+          "-1",
+          "-1",
+          "-1",
+          "0",
+          "0"
+        ],
+        "curvature_norm": "6",
+        "flag_projections": [
+          "12",
+          "8",
+          "4"
+        ],
+        "homogeneous_potential_coefficient": "18",
+        "moment_norm": "12",
+        "ordinary_Y_breaking_norm": "216"
+      }
+    ],
+    "source_law_selected": false,
+    "stationary_mixed_background_constructed": false,
+    "total": 39
+  },
+  "native_corrected_summary": {
+    "failed": [],
+    "full_goal_achieved": false,
+    "physical_chirality_derived": false,
+    "results": [
+      {
+        "Y_transported": [
+          "-2",
+          "-2",
+          "-2",
+          "-3",
+          "-3",
+          "0",
+          "0",
+          "0"
+        ],
+        "color_weak_commutant_dimension": 35,
+        "fixture_unbroken_algebra_dimension": 24,
+        "full_A5_unbroken_dimension": 11,
+        "ordinary_SM_commutant_dimension": 25,
+        "roots": 240
+      },
+      {
+        "current_diagonal": [
+          "3",
+          "-1",
+          "-1",
+          "-1",
+          "0",
+          "0"
+        ],
+        "curvature_norm": "6",
+        "flag_projections": [
+          "12",
+          "8",
+          "4"
+        ],
+        "homogeneous_potential_coefficient": "18",
+        "moment_norm": "12",
+        "ordinary_Y_breaking_norm": "216"
+      }
+    ],
+    "source_law_selected": false,
+    "stationary_mixed_background_constructed": false,
+    "total": 40
+  },
+  "reference_original_summary": {
+    "failed": [],
+    "independent_authorship": false,
+    "native_imported": false,
+    "passed": 356,
+    "physical_completion": false,
+    "total": 356
+  },
+  "reference_corrected_summary": {
+    "failed": [],
+    "independent_authorship": false,
+    "native_imported": false,
+    "passed": 359,
+    "physical_completion": false,
+    "total": 359
+  },
+  "raw_only": [
+    "already_banked",
+    "prior_sweep",
+    "native_first",
+    "focused_first"
+  ],
+  "public_logs": {
+    "atlas": "MIXED_CURRENT_ATLAS.txt",
+    "server_seal": "MIXED_CURRENT_SERVER_FIRST.txt",
+    "preflight": "MIXED_CURRENT_PREFLIGHT_FIRST.txt",
+    "reference_first": "MIXED_CURRENT_REFERENCE_FIRST.txt",
+    "server_corrected": "MIXED_CURRENT_SERVER_CORRECTED.txt",
+    "preflight_corrected": "MIXED_CURRENT_PREFLIGHT_CORRECTED.txt",
+    "native_corrected": "MIXED_CURRENT_NATIVE_CORRECTED.txt",
+    "reference_corrected": "MIXED_CURRENT_REFERENCE_CORRECTED.txt",
+    "focused_corrected": "MIXED_CURRENT_FOCUSED_CORRECTED.txt",
+    "governance_first": "MIXED_CURRENT_GOVERNANCE_FIRST.txt",
+    "governance_final": "MIXED_CURRENT_GOVERNANCE_FINAL.txt"
+  },
+  "scope": {
+    "science_repaired_post_first_failure": true,
+    "corrected_science_unchanged": true,
+    "full_suite": false,
+    "non_author_acceptance": false,
+    "physical_goal_achieved": false
+  },
+  "custody_checks": {
+    "custody_first": {
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/mixed_current_receipt_check.rb"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6508009999524802,
+        "log_bytes": 245,
+        "log_sha256": "e4fe8e8e4bcbbc50f1495281fa3a1a41006a154daefd99ecba3f0481dbc2514d"
+      },
+      "scope": "First custody snapshot before final governance was added to the receipt population,14 captures",
+      "public_log": "MIXED_CURRENT_CUSTODY_FIRST.txt"
+    }
+  }
+}

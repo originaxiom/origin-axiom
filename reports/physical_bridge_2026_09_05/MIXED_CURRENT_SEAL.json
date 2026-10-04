@@ -1,0 +1,76 @@
+{
+  "scope": "Byte/exit custody, not physics or nonauthor acceptance",
+  "original_commit": "8cac7ea4e7abfc5cbfec59feeb3ebffa95add210",
+  "original_science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_DESIGN.md",
+      "bytes": 5304,
+      "sha256": "d1d8aa3b3a8ffb4a9087206c1c39d4f0a40b7425fbea5944e8766559337e1c68"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_PROOF.md",
+      "bytes": 4496,
+      "sha256": "86f0d69e4d86851e9f2b4819c15901621044023941fcd9e31ea9f6f83bc4d27f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_INPUTS.json",
+      "bytes": 5182,
+      "sha256": "7555b98713c5052303c2f259e927250958661b8fd6b07ab0782bdd4a3d7b974e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mixed_current.py",
+      "bytes": 9588,
+      "sha256": "b6867675f14cfa03e073dd9c53816e36f31caca3b8013bbb934f26fc663c1b41"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mixed_current_reference.py",
+      "bytes": 4959,
+      "sha256": "5394c122c2c63ffb3fb3a636cdb1fbca61b90d1ac08aa9ea8a347740a28701c5"
+    },
+    {
+      "path": "tests/test_physical_bridge_mixed_current.py",
+      "bytes": 2841,
+      "sha256": "7889d37c8d691b718f220df79652a36532954e61ecf05932e0015885424a5f47"
+    }
+  ],
+  "corrected_commit": "da86db5e7f9829be6cedd07e734a03f694a44e9a",
+  "corrected_science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_DESIGN.md",
+      "bytes": 5725,
+      "sha256": "cc16d6cc35219b951b6272d93f49db07caa6ae0364cde10f56ae5f9202bb46ac"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_PROOF.md",
+      "bytes": 5068,
+      "sha256": "21d6b895f54abdaf78be9c552cc65c09ff5874bbf3efc85a394fc581a0f9e22f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_INPUTS.json",
+      "bytes": 5182,
+      "sha256": "7555b98713c5052303c2f259e927250958661b8fd6b07ab0782bdd4a3d7b974e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mixed_current.py",
+      "bytes": 9872,
+      "sha256": "0fb26165ddb8699ab4c1184deb197187d916dc1e03624b37ebc996c8e6d672a1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mixed_current_reference.py",
+      "bytes": 6707,
+      "sha256": "b5de0f22cd583e88c0ba5f81fb0eb5e9ae936cafe9eec796fa0132261f7f4c83"
+    },
+    {
+      "path": "tests/test_physical_bridge_mixed_current.py",
+      "bytes": 2841,
+      "sha256": "7889d37c8d691b718f220df79652a36532954e61ecf05932e0015885424a5f47"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_CORRECTION.md",
+      "bytes": 2114,
+      "sha256": "8b06fa6e11c0c736371eac86ef9a9d4e1a1b722a304c4eebc2d685daa42099a4"
+    }
+  ],
+  "original_failure_preserved": true,
+  "tests_and_inputs_unchanged": true
+}

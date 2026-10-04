@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+October4 R91: [mixed current](MIXED_CURRENT.md) maps existing fields
+to the noncentral flag-current shape without an added source multiplet.
+Weyl-transported Y is a frame map, not a selector; full gauge kernel su5,
+constant comparator nonstationary in SAME bare action.40 native/359
+separate reference/26 tests pass at corrected pre-run sealda86db5e7;
+first bar-orientation failure preserved and explained, not an unchanged
+pass claim. Next coupled spatial equations and common physical domain,
+then entire spectrum/anomalies with generated register/join/action law.
+Full parameter-free SM/TOE ACTIVE/unachieved. No main-bank certificate.
+
 October4 R90: B871 formal register connected to standard compact Haar
 pairing of Wilson characters in the existing supplied SU5 framework.
 77 exact/371 separate modular-Fraction predicates and18 tests pass

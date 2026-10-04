@@ -1,5 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October4 R91 actual mixed-field current shape earned in supplied E8,
+not a physical source solution. Frame map, all gauge generators and
+complete comparator action kept together.40 exact/359 reference/26
+tests pass corrected pre-run da86db5e7; original roster failure preserved.
+MIXED_CURRENT.md under physical_bridge. Next spatial coupled equations,
+positive norm and full physical fermion domain then entire spectrum;
+generated register/join/action still owed. No general profile/end kill,
+parameter outputs, or full SM/TOE completion; independent acceptance owed.
+
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial
 cusp case. A local adjoint class can be cyclic-parabolic yet nonzero

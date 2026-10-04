@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-04 R91 existing mixed current and its frame/action cost
+
+Actual E8 mixed fields produce the required noncentral current shape,
+not a stationary physical source. Full Weyl charge transport/gauge kernel
+and same bare action kept: su5 remains, constant fixture nonstationary,
+spatial/nonflat/end routes live.40 exact/359 separate reference/26 tests
+pass corrected pre-run da86db5e7 after first bar-orientation failure at
+8cac7ea4e, preserved; reference full-roster coverage added, same criterion.
+No generated join/action/source law, physical Weyl spectrum or SM values.
+Full parameter-free SM/TOE ACTIVE/unachieved; main-bank review owed.
+
 ## 2026-10-04 R91 mixed current pre-execution checkpoint
 
 Supplied-parent existing-field current/frame/action design frozen before
