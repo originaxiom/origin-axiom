@@ -5,6 +5,16 @@ new calculation, a derived source law or a completed physical theory.
 It uses the audit to stop cross-model substitutions and redundant scans.
 The goal remains a parameter-free Standard Model and full physical theory.
 
+Latest cross-seat refresh: the
+[spin-swap audit](../spin_swap_audit_2026_10_04/FINDINGS.md) reads main's
+new L246/B1474 design and SM B1537 at cb09deb04/e41609cfd. Exact controls
+show that L246's proposed conjugate subtraction can vanish despite a
+nonzero spin contrast, while an unfixed torsion unit can create a nonzero
+raw result. Preserve the spin route with a corrected diagnostic and the
+full affine action; do not infer physical chirality or refute it from that
+scalar test. The same-action/domain priority below is unchanged. R85 and
+B1536 still have no completed outcome in that snapshot.
+
 ## Candidate and alternative
 
 Start with an existing ordered nonsplit rank-five positive, not a newly

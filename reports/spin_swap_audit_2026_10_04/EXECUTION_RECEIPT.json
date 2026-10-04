@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "initial_head": "8b89150548619492c4c12b69913021c2c6e3e33e",
+  "design_seal": "d2852f96eded7c4dcc0b3f6a8166014dc2ad57f7",
+  "repair_seal": "ad762c8e9248c0fa0df57f64ea992ccb6f941845",
+  "first_snapshot": {
+    "main": "7de10c131229efca4437bd6445ab5e95632e275f",
+    "standard_model": "4f30aecbbb629a726f04a10b49a94154f8512f38",
+    "physical": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469"
+  },
+  "last_snapshot": {
+    "main": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+    "standard_model": "e41609cfd6f4438c7d394bf6b0d0da5faaa0432b",
+    "physical": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469",
+    "sep16": "3205984b48d1b98a80042cdc70916878973980f5",
+    "live_branch_count_excluding_head_alias": 15
+  },
+  "runs": [
+    {"output": "NATIVE_FIRST.jsonl", "exit_code": 1, "passed_before_failure": "m003_fox", "failure": "literal equality of equivalent symbolic expressions"},
+    {"output": "FAILURE_DIAGNOSIS.txt", "exit_code": 0, "status": "post-failure diagnostic; exact difference zero"},
+    {"output": "NATIVE_SECOND.jsonl", "exit_code": 0, "cells": ["m003_fox", "spin_diagnostic", "affine_torsors", "branch_receipts"]},
+    {"output": "FOCUSED_FIRST.txt", "exit_code": 0, "passed": 18, "seconds": 13.67}
+  ],
+  "runtime": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12",
+  "pytest_command": "python3.12 -m pytest -q -p no:cacheprovider --import-mode=importlib reports/spin_swap_audit_2026_10_04/test_verify.py reports/interface_sewing_2026_10_04/test_sewing.py reports/silver_boundary_admission_2026_10_04/test_verify.py",
+  "repair_manifest_all_seven_unchanged": true,
+  "new_tests": 6,
+  "retained_tests": 12,
+  "affine_bijections": 1370,
+  "affine_basepoint_checks": 10852,
+  "foreign_source_hashes": "NATIVE_SECOND.jsonl branch_receipts cell",
+  "limitations": [
+    "No independent rerun of the full B1471, B1472, B1529, B1536 or R85 populations",
+    "B1474 is read at design and producer level, not executed here",
+    "B1473 checks arithmetic, coverage and quote containment, not all semantic assignments",
+    "The supplied algebraic m003 character is not independently certified as complete geometric holonomy",
+    "No physical chirality or parameter-free Standard Model established",
+    "No independent review or full-suite certificate",
+    "No remote push, merge, foreign ledger edit or B-number allocation"
+  ]
+}
