@@ -1,5 +1,19 @@
 # Changelog
 
+## B1539 (pre-seal): the room above the room -- the instruments; no own character of order >= 3 read
+
+- `frontier/B1539_the_room_above_the_room/verification/` (from the golden covers dossier's drafts, revised):
+  - `own_chars.py`: the abelianisation, Galois orbits (Lemma C), the abelian covers N_A (Lemma A′), routes R′ and P′ at two
+    different primes, so that their agreement also certifies the reductions.
+  - `population.py`: the 30 members by structure; m = 60 on degree 5 and 9, m = 6 on degree 10; a 1% sample of full orbits.
+  - `run.py`: routes R′ and P′ by chunk (resumable), then route N on the abelian covers the shared rule selects.
+  - `read_out.py`: P1–P7 from the records. A positive needs both routes, a negative needs complete records, and the witness
+    rule and route N's selection are shared with the run.
+  - `controls.py`: K1–K8, on banked data or values the banked rows fix. K6, the read-out on synthetic rows, holds at twelve
+    cases. The others run once sm:B1538's Part F′ has freed the machine.
+- A module-name collision (E12) was caught by K6 before any run: `import read_out` found sm:B1535's. Every sibling is now
+  loaded by path under a unique name.
+
 ## The next arc's draft: the line is the bottleneck, and abelian covers suffice (Lemma A′, Corollary′; not sealed, not run)
 
 - `docs/dossiers/golden_covers_2026-10-04/NEXT_ARC_DRAFT_the_room_above_the_room.md`, revised before any own character of

@@ -17609,3 +17609,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 ## 2026-10-04 — the next arc's draft: abelian covers (Lemma A′) and the line as the bottleneck (task 256)
 
 - Design-time mathematics only; no own character of order ≥ 3 has been read. sm:B1538's Part F′ continues.
+
+## 2026-10-04 — B1539 (pre-seal): the instruments, K6 holding (task 256)
+
+- Library, population, run, read-out and controls are committed to the arc's folder. K6 (twelve synthetic cases) holds; an
+  E12 module-name collision was caught by K6 and fixed. No own character of order ≥ 3 has been read. sm:B1538's Part F′
+  continues (139,296 of 501,792 readings at 15:31Z).
