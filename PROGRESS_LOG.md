@@ -17173,3 +17173,12 @@ row digest read caught17 publication surfaces whose append patch matched
 an earlier repeated ledger context; fold forward at a unique final-tail
 context, preserve all old rows. Original6/corrected7 science and15 source
 pins unchanged; no suite/independent/main-bank/goal-completion claim.
+
+R94 pre-execution October4: retain the orientation character in the full
+L/R/swap trace dynamics; conditional regular local action on the actual
+parabolic leaf and its nonreal monodromy-fixed characters. R28's existing
+linear alternating and nonlinear multiplier actions/B1341 correction
+credited, not rediscovered as new. Design/proof/inputs/two producers/eight
+LIVE tests frozen for pre-run commit/push/server confirmation; no science
+run claimed. Physical map into the E8 action/domain and phase selection/
+chiral spectrum remain OPEN. Full parameter-free SM/TOE active/unachieved.

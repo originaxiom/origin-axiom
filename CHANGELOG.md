@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-04 R94 pre-execution: nonlinear action with the register retained
+
+REGISTER_ACTION_DESIGN.md/PROOF.md and two separate producers/LIVE tests
+sealed before execution. R28/B21/B448/B1341 correction credited. Local
+orientation-tracked variational structure on the parabolic trace leaf,
+not a physical E8 action map, phase selector, chirality or TOE. No
+scientific run claimed at this checkpoint; full objective unchanged.
+
 ## 2026-10-04 R93 corrected execution: conditional admitted SM phase retained
 
 83 exact/67 separate-reference/18 tests pass under corrected pre-run

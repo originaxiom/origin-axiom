@@ -1,0 +1,127 @@
+{
+  "scope": "R94 regular Fricke leaves and tracked local variational map; no physical selection",
+  "sources": [
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "bytes": 8962,
+      "sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "reading": "complete proof, R28 section5 reused"
+    },
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "reports/physical_bridge_2026_09_05/source_action.py",
+      "bytes": 13432,
+      "sha256": "07fefdc1402a25dfdfe788e7762ff236ebfa8174cd3f2ce9c726517cbc9dbc94",
+      "reading": "complete producer read, not imported here before seal"
+    },
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md",
+      "bytes": 4253,
+      "sha256": "8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b",
+      "reading": "complete proof read; quotient criterion retained"
+    },
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+      "bytes": 8455,
+      "sha256": "a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3",
+      "reading": "complete proof read; conditional physical phase and costs retained"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "GENESIS.md",
+      "bytes": 64669,
+      "sha256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8",
+      "reading": "complete canonical v1.10 personally read; not premise reduction certified"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B448_heartbeat_adjudication/FINDINGS.md",
+      "bytes": 8817,
+      "sha256": "61f0ba0a92d7d2105fc4cd11af3b5b3f923be6140051860bd19aff6ebff22ad3",
+      "reading": "complete findings read; geometric pair attribution retained"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B21_spacetime_wp_dictionary/FINDINGS.md",
+      "bytes": 576,
+      "sha256": "0a7f0da58b93d0fd96d7bc6b6418db2f0310e0056cdf4034e838431eee8e820e",
+      "reading": "complete findings read; standard Poisson dictionary"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B1341_the_action_of_the_object/FINDINGS.md",
+      "bytes": 16251,
+      "sha256": "e58162d1735db6a29933297ca0f1f8f2cac6856555b8776ab789751878ef3c0e",
+      "reading": "complete body/addenda personally read"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B1341_the_action_of_the_object/ADDENDUM_2026-09-15_R28_SCOPE.md",
+      "bytes": 439,
+      "sha256": "8b05ca6035c4835d035610741506f7f83f04954ff8db8d3f1a4fee4248252f70",
+      "reading": "complete addendum read; correction already banked"
+    },
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1540_the_room_for_three/FINDINGS.md",
+      "bytes": 13021,
+      "sha256": "2d9006ff7524fb629e5d4b237b33a75a7f507e85a0ab4e7b3d84f2087e6b911f",
+      "reading": "complete findings read; no foreign science rerun"
+    },
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1541_the_count_on_the_room/FINDINGS.md",
+      "bytes": 3698,
+      "sha256": "24343d4083901fef38675ef8df995f413d25e8c97ef42862d126556a53a4f7af",
+      "reading": "complete findings read; no count beyond prior control or live process certified"
+    },
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "reports/physical_bridge_2026_09_05/act_register_control.py",
+      "bytes": 6184,
+      "sha256": "4fb7037d852d81df37b1fd83492fe157f301109c33a373a18ab585f0ddd296b2",
+      "reading": "Retained ACT_REGISTER live-test dependency; producer/source read, original bytes not edited"
+    },
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "reports/physical_bridge_2026_09_05/act_register_exhaustive.py",
+      "bytes": 3986,
+      "sha256": "edafdb1b05ea4b5b5d196b4f0a949e3188057c230ad6eb1f85eb4a296a837cf3",
+      "reading": "Retained ACT_REGISTER live-test dependency; producer/source read, original bytes not edited"
+    },
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "tests/test_physical_bridge_act_register.py",
+      "bytes": 3013,
+      "sha256": "7a6dd32e4c242eb2a94c3a2947f2e139371f85809dc3db9cd5f17ef9d9aa0782",
+      "reading": "Retained ACT_REGISTER live-test dependency; producer/source read, original bytes not edited"
+    },
+    {
+      "ref": "673c5e5ddbd1c9ffeb59900d74c4a69e5c497573",
+      "path": "frontier/B130_no_forced_choice/probe.py",
+      "bytes": 12498,
+      "sha256": "53c1cad0d35044c4052ef3d64d60b6bc94f714746a4ccf65f411cf0444329963",
+      "reading": "Retained ACT_REGISTER live-test dependency; producer/source read, original bytes not edited"
+    }
+  ],
+  "external_pdfs": [
+    {
+      "external_basename": "Marsden_West_2001.pdf",
+      "url": "https://www.cds.caltech.edu/~marsden/bib/2001/09-MaWe2001/MaWe2001.pdf",
+      "bytes": 955305,
+      "sha256": "f9e26f64d6350e7b868334c84c3da15084835a92e6978b98dca61a2f414c0543",
+      "reading": "selected pages370-373: variation and sections1.3.1-1.3.2; page373 rendered, not whole158-page paper"
+    },
+    {
+      "external_basename": "Goldman_2006.pdf",
+      "url": "https://math.umd.edu/~wmg/mcgdynamics.pdf",
+      "bytes": 315485,
+      "sha256": "80732c0168e6005089d53a1784abb76633350e86e4d74354544a8084afff801a",
+      "reading": "section1.1 pages4-5 complete, page5 rendered; not whole33-page paper"
+    }
+  ],
+  "raw_directory_basename": "oa-register-action.6EzM8H"
+}

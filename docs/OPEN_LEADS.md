@@ -4714,3 +4714,15 @@ same-theory physical action/domain join; full SM/TOE remains unachieved.
 - PB-REVIEW: sender R88 asks independent fixed-bundle/Jacobi/parent/kinetic
   review and generated-law candidate, not sender-assigned acceptance.
   Full parameter-free SM/TOE active and unachieved.
+
+### PB-REGISTER / PB-TRANSITIONS / PB-ACTION, October4 R94 pre-execution
+
+Decided bounded extension of R28, not duplicate action existence: retain
+the determinant register through all legal trace moves and construct a
+regular LOCAL generating action on kappa=-2, including neighborhoods of
+the nonreal monodromy-fixed pair. REGISTER_ACTION_DESIGN.md/PROOF.md in
+physical_bridge freeze the sign/branch/quotient/DEL controls. No science
+run or physical law asserted yet. Next earn the ACTUAL common map into
+the E8 action/operator/end domain; a trace action is not a chirality or
+SM-phase selector. Supplied-model R93 positive and its physical costs
+remain; full objective active, no programme-wide negative or B allocation.
