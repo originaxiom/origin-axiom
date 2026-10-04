@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-04",
+  "carrier": "marked M6 from the verified figure eight cyclic cover presentation",
+  "phase_source": "reports/global_quotient_admission_2026_09_27/COMPONENT_RESULTS.json",
+  "matter_source": "reports/phase_component_matter_2026_10_04/RESULTS.json",
+  "seeds": [0, 1],
+  "components": [1, 2],
+  "center": -1,
+  "parameter": "t = center exp(z); derivatives at z=0",
+  "charged_coefficient": "E and its actual flat dual",
+  "comparators": "new E at 1, new wedge2E at -1, old E at 1",
+  "scope": "first order in the declared neutral direction; no nearby pole mass or normalized Yukawa",
+  "analytic_grade": "conditional authored transfer and compact support duality, not machine certified global PDE"
+}

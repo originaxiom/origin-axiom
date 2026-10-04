@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-04",
+  "stage": "before seal and before scientific import",
+  "failure": {
+    "chunk_id": "e68ef0",
+    "wall_time_seconds": 0.00001478,
+    "exit_code": 9,
+    "original_token_count": 85,
+    "output": "perl: warning: Setting locale failed.\nperl: warning: Please check that your locale settings:\n\tLC_ALL = \"C.UTF-8\",\n\tLC_CTYPE = \"C.UTF-8\",\n\tLANG = \"C.UTF-8\"\n    are supported and installed on your system.\nperl: warning: Falling back to the standard locale (\"C\").\npanic: locale.c: 4486: Could not change LC_CTYPE locale to C.UTF-8, errno=9\n"
+  },
+  "correction": "Rerun checksum command with LC_ALL=C LANG=C, require exit 0 and exactly 26 valid SHA256 lines before seal. No science source or outcome changed.",
+  "incorrect_uncommitted_manifest_replaced": true
+}
