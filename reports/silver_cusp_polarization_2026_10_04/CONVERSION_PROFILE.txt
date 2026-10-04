@@ -1,0 +1,20 @@
+         770617 function calls (741953 primitive calls) in 0.873 seconds
+
+   Ordered by: cumulative time
+   List reduced from 914 to 12 due to restriction <12>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.000    0.000    0.873    0.087 /Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/silver_cusp_polarization_2026_10_04/verify.py:19(dm)
+       20    0.000    0.000    0.860    0.043 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py:506(convert_to)
+       10    0.000    0.000    0.859    0.086 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py:910(convert_to)
+       10    0.000    0.000    0.859    0.086 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py:1447(unop_dict)
+       40    0.000    0.000    0.859    0.021 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py:927(<lambda>)
+  2320/40    0.003    0.000    0.859    0.021 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py:386(convert_from)
+       40    0.000    0.000    0.859    0.021 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py:662(from_ExpressionDomain)
+       40    0.000    0.000    0.859    0.021 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/algebraicfield.py:359(from_sympy)
+    30/20    0.001    0.000    0.843    0.042 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py:411(to_number_field)
+       50    0.002    0.000    0.568    0.011 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py:624(minimal_polynomial)
+       20    0.000    0.000    0.552    0.028 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py:162(field_isomorphism)
+    80/40    0.001    0.000    0.487    0.012 /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py:531(_minpoly_compose)
+
+

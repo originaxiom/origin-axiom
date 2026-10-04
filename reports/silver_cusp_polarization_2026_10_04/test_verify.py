@@ -9,7 +9,9 @@ spec.loader.exec_module(m)
 
 
 def test_boundary_controls_include_unequal_dual_invariants():
-    assert m.comparators()['status']=='PASS'
+    result=m.comparators()
+    assert result['status']=='PASS'
+    assert result['field_conversion_comparators']==84
 
 
 def test_all_actual_members_in_both_conjugate_structures():

@@ -1,0 +1,102 @@
+{"comparators": {"log_group_difference_visible": true, "noncommuting_rejected": true, "status": "PASS", "unequal_dual_H0": [1, 2], "unequal_dual_H1": 3}}
+Traceback (most recent call last):
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/silver_cusp_polarization_2026_10_04/verify.py", line 369, in <module>
+    rows=actual_members()
+         ^^^^^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/silver_cusp_polarization_2026_10_04/verify.py", line 345, in actual_members
+    'wedge2W':analyze(wedge,state,tau,record['wedge2W'],drop=True)}
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/silver_cusp_polarization_2026_10_04/verify.py", line 274, in analyze
+    L,LD=pair_space(BE,BD,z)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/silver_cusp_polarization_2026_10_04/verify.py", line 229, in pair_space
+    assert zero(mul(mul(E.full_log(L).T,cup(E.n)),D.full_log(LD)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/silver_cusp_polarization_2026_10_04/verify.py", line 28, in mul
+    return (dm(a)*dm(b)).to_Matrix()
+            ^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/silver_cusp_polarization_2026_10_04/verify.py", line 20, in dm
+    return DomainMatrix.from_Matrix(m).convert_to(FIELD)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py", line 548, in convert_to
+    rep_K = rep.convert_to(K)
+            ^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 927, in convert_to
+    Ak = unop_dict(A, lambda e: K.convert_from(e, Kold))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 1452, in unop_dict
+    Bij = f(Aij)
+          ^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 927, in <lambda>
+    Ak = unop_dict(A, lambda e: K.convert_from(e, Kold))
+                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 396, in convert_from
+    result = _convert(element, base)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/algebraicfield.py", line 440, in from_GaussianRationalField
+    return K1.from_sympy(K0.to_sympy(a))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/algebraicfield.py", line 369, in from_sympy
+    return self(to_number_field(a, self.ext).native_coeffs())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 510, in to_number_field
+    coeffs = field_isomorphism(root, theta)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 210, in field_isomorphism
+    a = AlgebraicNumber(a)
+        ^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/numbers.py", line 2449, in __new__
+    minpoly, root = minimal_polynomial(
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 703, in minimal_polynomial
+    result = _minpoly_compose(ex, x, domain)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 583, in _minpoly_compose
+    res = _minpoly_add(x, dom, *ex.args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 371, in _minpoly_add
+    mp = _minpoly_op_algebraic_element(Add, a[0], a[1], x, dom)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 253, in _minpoly_op_algebraic_element
+    mp2 = _minpoly_compose(ex2, y, dom)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 596, in _minpoly_compose
+    mp1 = minimal_polynomial(ex1, x)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 703, in minimal_polynomial
+    result = _minpoly_compose(ex, x, domain)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 550, in _minpoly_compose
+    _, factors = factor_list(x**2 + 1, x, domain=dom)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py", line 6641, in factor_list
+    return _generic_factor_list(f, gens, args, method='factor')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py", line 6377, in _generic_factor_list
+    numer, denom = together(expr).as_numer_denom()
+                   ^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/rationaltools.py", line 85, in together
+    return _together(sympify(expr))
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/rationaltools.py", line 68, in _together
+    return gcd_terms(list(map(_together, Add.make_args(expr))), fraction=fraction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/exprtools.py", line 1072, in gcd_terms
+    cont, numer, denom = _gcd_terms(terms, isprimitive, fraction)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/exprtools.py", line 957, in _gcd_terms
+    terms[i] = term.quo(cont)
+               ^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/exprtools.py", line 872, in quo
+    return self.mul(other.inv())
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/exprtools.py", line 864, in mul
+    numer, denom = numer.normal(denom)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/exprtools.py", line 558, in normal
+    return Factors(self_factors), Factors(other_factors)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/exprtools.py", line 370, in __init__
+    factors = factors.copy()  # /!\ should be dict-like
+              ^^^^^^^^^^^^^^
+KeyboardInterrupt

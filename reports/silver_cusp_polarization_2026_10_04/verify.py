@@ -3,6 +3,7 @@ import hashlib
 import importlib.util
 import json
 from functools import lru_cache
+from itertools import product
 from math import factorial
 from pathlib import Path
 
@@ -13,11 +14,30 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 OLD = HERE.parent/'silver_boundary_admission_2026_10_04'
 FIELD = s.QQ.algebraic_field(s.sqrt(2),s.I)
+RT = s.sqrt(2)
+RT_FIELD = FIELD.from_sympy(RT)
+I_FIELD = FIELD.from_sympy(s.I)
 GEN = 'abt'
 
 
+@lru_cache(maxsize=8192)
+def field_entry(x):
+    real,imag=s.expand(x).as_real_imag()
+    real,imag=s.expand(s.radsimp(real)),s.expand(s.radsimp(imag))
+    b,d=real.coeff(RT),imag.coeff(RT)
+    a,c=s.expand(real-b*RT),s.expand(imag-d*RT)
+    assert all(z.is_Rational for z in (a,b,c,d)),('outside explicit field basis',x,a,b,c,d)
+    return (FIELD.from_sympy(a)+FIELD.from_sympy(b)*RT_FIELD
+            +FIELD.from_sympy(c)*I_FIELD+FIELD.from_sympy(d)*RT_FIELD*I_FIELD)
+
+
 def dm(m):
-    return DomainMatrix.from_Matrix(m).convert_to(FIELD)
+    dod={}
+    for i in range(m.rows):
+        row={j:field_entry(m[i,j]) for j in range(m.cols) if m[i,j]!=0}
+        if row:
+            dod[i]=row
+    return DomainMatrix.from_dod(dod,m.shape,FIELD)
 
 
 def red(m):
@@ -295,6 +315,12 @@ def analyze(rep,state,tau,expected=None,drop=False):
 
 @lru_cache(None)
 def comparators():
+    # Post-interruption performance repair: compare the explicit basis map
+    # against the unchanged generic converter before any silver calculation.
+    values=[a+b*RT+c*s.I+d*RT*s.I for a,b,c,d in product((-1,0,1),repeat=4)]
+    values.extend([1/(1+RT+s.I),s.Rational(1,7)+RT*s.I/11,1/(RT+s.I)])
+    fixture=s.Matrix([values])
+    assert dm(fixture)==DomainMatrix.from_Matrix(fixture).convert_to(FIELD)
     eye=s.eye(3)
     P,Q=eye.copy(),eye.copy()
     P[0,1]=1
@@ -322,7 +348,8 @@ def comparators():
     b=Boundary(U,V)
     assert not zero(b.fullD-b.d0)
     return {'status':'PASS','unequal_dual_H0':[1,2],'unequal_dual_H1':3,
-            'noncommuting_rejected':True,'log_group_difference_visible':True}
+            'noncommuting_rejected':True,'log_group_difference_visible':True,
+            'field_conversion_comparators':len(values)}
 
 
 @lru_cache(None)
@@ -340,6 +367,8 @@ def actual_members():
             c=s.Matrix([s.sympify(x) for x in record['peripherally_zero_cocycle']])
             W=old.extension(V,c)
             wedge={g:old.exterior(m) for g,m in W.items()}
+            print(json.dumps({'progress':'starting member','carrier':state['SnapPy'],
+                              'character':char},sort_keys=True),flush=True)
             result={'carrier':state['SnapPy'],'signed_word':label,'character':char,'tau':str(tau),
                     'W':analyze(W,state,tau,record['W']),
                     'wedge2W':analyze(wedge,state,tau,record['wedge2W'],drop=True)}
