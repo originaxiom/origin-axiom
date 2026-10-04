@@ -209,11 +209,13 @@ nonflat, singular, nonliftable and interacting alternatives remain open,
 not already successful or ruled out by this priority.
 
 The [later selection control](../selection_null_review_2026_10_04/FINDINGS.md)
-adds four passing exact dependence tests. Before using a trials-corrected
-match as evidence, supply a joint null/dependence justification; the bar's
-independent-look function is not automatically a universal calibration.
-No foreign grading is reversed, and no rare match is promoted to physical
-derivation. Check consolidated papers before claiming a mechanism absent.
+adds four passing exact dependence tests against an older policy. The
+[currency correction](../selection_null_review_2026_10_04/CURRENCY_CORRECTION.md)
+records that SM B1524 and main B1462 had already supplied the null contract,
+exact scan law and Bonferroni repair. This was a reproduction of an already
+corrected issue, not a new gap. No foreign grading is reversed. Check
+successor documents on the fetched heads as well as consolidated papers
+before claiming a mechanism or repair absent.
 
 ## Full-goal obligations beyond these packages
 

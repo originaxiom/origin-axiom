@@ -1,5 +1,11 @@
 # A match score needs a joint null model
 
+Currency correction, October 4: this packet tests the OLD bar on the
+banking branch. SM B1524 and main B1462 had already repaired the procedure
+on October 3. The current-policy-gap interpretation is withdrawn; see
+[CURRENCY_CORRECTION.md](CURRENCY_CORRECTION.md). The computations below
+remain valid as a reproduction of that already corrected issue.
+
 October 4, 2026. The selection bar has a scope gap, not a broken arithmetic
 function. Its producer explicitly says independent looks; the prose applies
 the formula across frames, levels, ends and variants without establishing

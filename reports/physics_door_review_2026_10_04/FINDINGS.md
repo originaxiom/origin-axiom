@@ -201,6 +201,11 @@ claims distinct in this documentation. No work was pushed or merged.
 
 ## Later banking and novelty supplement
 
+Currency correction: SM B1524 and main B1462 had already repaired the bar
+before this audit. The paragraph below describes an older branch and is
+not a current gap. [The correction](../selection_null_review_2026_10_04/CURRENCY_CORRECTION.md)
+credits that prior work and withdraws our broader user-facing implication.
+
 The [additional branch review](ADDITIONAL_BRANCH_REVIEW.md) reads the
 referee's dated sweep, outside-bench novelty memo and banking bar at their
 pinned source identities. It preserves their reading grades and does not

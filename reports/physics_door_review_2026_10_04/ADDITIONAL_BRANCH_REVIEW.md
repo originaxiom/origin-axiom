@@ -47,6 +47,13 @@ application needs a joint-null/dependence contract. The independently sealed
 exact counter-controls. It does not reverse any actual census verdict.
 An association score, even calibrated, would not derive the physical action.
 
+Correction after direct successor reading: that paragraph concerns the
+older banking-branch policy only. SM B1524 and main B1462 had already
+provided the null contract, exact scan law and Bonferroni repair. Our
+failure to check those successors made the issue sound current; that
+interpretation is withdrawn in the
+[currency correction](../selection_null_review_2026_10_04/CURRENCY_CORRECTION.md).
+
 The creates-law branch's latest commit inventory and selected theorem-registry
 sections show ongoing provenance and novelty regrading. The registry was
 read partially, not audited in full; a long lookup was truncated. None of
