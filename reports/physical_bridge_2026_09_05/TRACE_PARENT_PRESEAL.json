@@ -1,0 +1,43 @@
+{
+  "input_commit": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/TRACE_PARENT_DESIGN.md",
+      "bytes": 6101,
+      "sha256": "c934d664aaeac5ce215a8e1aed2bb82ce46f958ad75168ac9ab1987ce0037688"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/TRACE_PARENT_PROOF.md",
+      "bytes": 9630,
+      "sha256": "c91c467dcb7a297d424595d0ab0837f7439e91a653cd37af5e43d8297fe2a11c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/TRACE_PARENT_INPUTS.json",
+      "bytes": 6110,
+      "sha256": "0f8fac4bc07277c775764b9c42ab4cf03783ee77eeee84af705e68617df19293"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/trace_parent.py",
+      "bytes": 10657,
+      "sha256": "56cb37aa3986e0b3c66beb9560f3a3057a4ff8690100fdbaf6466c084fcc48af"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/trace_parent_reference.py",
+      "bytes": 6462,
+      "sha256": "bfbe33162d28c8a5509b2c2b4d18f593f8aa551251c3155e46aa6775965fe1e1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/trace_parent_receipt_check.rb",
+      "bytes": 3307,
+      "sha256": "9053525ccb90c3a48ad81923d8dcba8becd34b882d93017bfe8d26d0f4a8927b"
+    },
+    {
+      "path": "tests/test_physical_bridge_trace_parent.py",
+      "bytes": 2856,
+      "sha256": "a65f84bd00518606cfe90f7d147e46debf40bab348d4f40715a73ba0620c9140"
+    }
+  ],
+  "execution_claimed": false,
+  "non_author_acceptance": false,
+  "physical_goal_achieved": false
+}

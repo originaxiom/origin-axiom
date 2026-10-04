@@ -1,0 +1,126 @@
+{
+  "scope": "R95 conditional trace-sector transport and oriented hyperbolic baseline; no selection",
+  "sources": [
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "bytes": 11372,
+      "sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/parent_background.py",
+      "bytes": 17578,
+      "sha256": "91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/coefficient_parent.py",
+      "bytes": 15505,
+      "sha256": "0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/END_LAW_DESIGN.md",
+      "bytes": 9602,
+      "sha256": "60fa130f348866ba784eec3e53930cc4f9c6bb57bcb781f0007820815e4988b2",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PROOF.md",
+      "bytes": 8557,
+      "sha256": "6f15a77b434d2b9787d9f90b01c2d7b684f468e225eb872ef4511fbe64734252",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/register_action.py",
+      "bytes": 7483,
+      "sha256": "036b2f24002f276bd983761ff477d3513780669358451265916ee78125d9dc41",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+      "bytes": 8455,
+      "sha256": "a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3",
+      "reading": "Complete source read (joined proof retained prior reading); conditional framework, not physical selection"
+    },
+    {
+      "ref": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "path": "tests/test_physical_bridge_register_action.py",
+      "bytes": 2671,
+      "sha256": "2ba2a357ea88cd34887c1259d4ded803334055bde8e13e42d3158b7324dee81a",
+      "reading": "Complete retained eight LIVE tests read"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "GENESIS.md",
+      "bytes": 64669,
+      "sha256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8",
+      "reading": "Complete canonical v1.10 personally read during R94; not fresh producer verification"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B293_peripheral_clock/FINDINGS.md",
+      "bytes": 4626,
+      "sha256": "57b092baa442a11c82099609ba70201c94df70f06895c9096e118748998e4ee9",
+      "reading": "Complete findings read; asserted Goldman/NZ identification NOT imported"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+      "bytes": 5506,
+      "sha256": "040b56d7f1114e08058f65a799182eda27f110c91256f4af10d34a20a7075325",
+      "reading": "Scope banner and finite-order ansatz read; no census rerun"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B153_degree_rank_degeneration/FINDINGS.md",
+      "bytes": 9629,
+      "sha256": "cbf10be7fd6dfdb066c3da24c4eaa1ef04e2efe3e55e7826d8868c0943f252b3",
+      "reading": "Scope banner and relevant degeneration argument read; no census rerun"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B448_heartbeat_adjudication/FINDINGS.md",
+      "bytes": 8817,
+      "sha256": "61f0ba0a92d7d2105fc4cd11af3b5b3f923be6140051860bd19aff6ebff22ad3",
+      "reading": "Complete findings read during R94; geometric identity is prior, not new discreteness certificate"
+    }
+  ],
+  "external_sources": [
+    {
+      "external_basename": "Goldman_2004.pdf",
+      "url": "https://math.umd.edu/~wmg/csymp.pdf",
+      "bytes": 258454,
+      "sha256": "34f71abe4f935efc8ac82044a5304ae0711f335346e79f7966a4f004715ed883",
+      "reading": "2003 manuscript sections1.2,2.1-2.2; complete relevant pages6 and8-11; pages8/11 rendered, not full34 pages"
+    },
+    {
+      "external_basename": "Goldman_2006.pdf",
+      "url": "https://math.umd.edu/~wmg/mcgdynamics.pdf",
+      "bytes": 315485,
+      "sha256": "80732c0168e6005089d53a1784abb76633350e86e4d74354544a8084afff801a",
+      "reading": "Section1.1 pages4-5 personally read/rendered during R94; relative-boundary leaf prior retained"
+    },
+    {
+      "external_basename": "PW_0905_1968v1.html",
+      "url": "https://arxiv.org/html/0905.1968v1",
+      "bytes": 650585,
+      "sha256": "4cc86f68d4a3bc3dc11b16a8c6400bec717ddfbbf490a9acd3fb2df6ef86812b",
+      "reading": "Section2.3 complete relevant equations2.12-2.27 personally read in primary HTML; not full paper"
+    }
+  ]
+}
