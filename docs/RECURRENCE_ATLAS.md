@@ -37,7 +37,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | coupling | 416 | 32% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
 | torsion | 410 | 31% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | z3_generation | 363 | 28% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
-| wrt_quantum | 322 | 25% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
+| wrt_quantum | 323 | 25% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | measurement | 297 | 23% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
 | kappa | 284 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | lorentzian | 225 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |

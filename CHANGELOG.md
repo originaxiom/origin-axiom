@@ -1,5 +1,18 @@
 # Changelog
 
+## B1538's banked identity holds and Part L runs; sm:B1537's P2 restated with its operators named (the audit lane's R89)
+
+- **B1538's identity** (`verification/identity.json`). Controls K0–K12, re-run on the sealed code, reproduce `controls.json`
+  in every field but the timings (1,286.8 s), and all 11 sealed files hash as sealed. Part L (`run.py --part L --workers 1
+  --record`) started at 12:08:25Z on the 108 chunks, largest covers first. Nothing has been read.
+- **sm:B1537's P2.** The audit lane's R89 asked that P2's "Dirac indices" and "a closed or sealed problem" keep a named
+  operator and domain. A FINDINGS addendum restates P2's scope sentence with four named counts:
+  - the twisted spin-Dirac index on a smooth closed spin 4-manifold;
+  - the Euler characteristic of a charged sector's twisted complex on a closed 3-manifold;
+  - the Witten-deformed form Laplacian at a sealed end;
+  - the cone points without flux.
+  The proposed text is unchanged and stays pinned by its lock. RELAY_LEDGER's audit-lane row records the answer.
+
 ## B1538 sealed: THE PUNCTURE CHARACTERS (sL-10 item 15; sm:B1535's Corollary C3, first place); no outcome read
 
 - **The question.** sm:B1535's Theorem C, with Lemma 2 (b₁ = #cusps, so n(1) = 0) and Lemma W′ (sm:B1535's Lemma W on every

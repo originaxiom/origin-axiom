@@ -9966,11 +9966,13 @@
     "kappa",
     "metallic",
     "golden",
-    "z3_generation"
+    "z3_generation",
+    "wrt_quantum"
    ],
    "refs": [
     "L244",
     "P1",
+    "P2",
     "P3",
     "P4",
     "P5",

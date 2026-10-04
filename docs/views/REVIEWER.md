@@ -23,7 +23,7 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1286** |
-| words of findings prose | **1,112,242** |
+| words of findings prose | **1,112,567** |
 | test lock files referenced | **786** |
 | arcs carrying an authored verdict | **1286** (100.0 %) |
 | recorded closures | **826** (659 classified, 167 routed-only) |
@@ -68,7 +68,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1537`** (952 words, 0 locks)  
+**PROVED — `B1537`** (1277 words, 0 locks)  
 GENESIS: MAIN'S v1.10 TAKEN AS HEAD (not sealed: every check compares texts or reads a banked record). As main's B1467 relay asked, GENESIS.md on this branch is main's v1.10 byte for byte (C6), and the seat numbers no further versions. The seat's own v1.10 (sm:B1533), made on main's v1.9 in parallel with main's and numbered the same (the second version collision), is kept as received (C2). Its page changes are offered as proposals to main's v1.10: P1-P4 are its four content lines that main's v1.10 lacks (the six-gaps heading, GAP6's scope, FK9's sm:B1527 and Part H lines, the frontier's item-8 line; C3), and P5-P9 come from arcs banked since: the levels' abelian covers (sm:B1532), the class's covers with sm:B1536 sealed, the other word states (sm:B1530, sm:B1534, sm:B1535), the cap in the frames table (sm:B1535 Theorem C) and the frontier's places where both supplies can grow (Corollary C3; C5). proposed/GENESIS_v1_10_with_proposals.md is main's v1.10 with the nine marked; removing the marks gives it back (C4). B1533's lock reads the seat's v1.10 from its kept copy; B1516's citation lock exempts the proposed text as GENESIS text. No new mathematics; I-26 stays UNEARNED. 0 of 19.  
 `B1537_genesis_proposals/FINDINGS.md`
 

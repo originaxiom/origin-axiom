@@ -17516,3 +17516,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Eight pre-seal slips**, logged or disclosed; nothing was read under any of them.
 - **The pre-seal snapshots** of the instruments are 27dd37e2, 0762032d, 090ac4c0 and 2a711f33.
 - **Main's S55 relay and main @ cb09deb0 are read** (RELAY_LEDGER).
+
+## 2026-10-04 — B1538's identity holds and Part L runs; sm:B1537's P2 restated after R89 (tasks 248, 250)
+
+- **B1538.** `identity.py` re-ran K0–K12 on the sealed code: every field but the timings reproduces, and all 11 sealed files
+  hash as sealed (`verification/identity.json`, 1,286.8 s). Part L started at 12:08:25Z, one worker, 108 chunks, largest
+  covers first. The machine is shared with sm:B1536's two m003 runs and the fast lane on e41609cf.
+- **sm:B1537 P2.** A FINDINGS addendum names the operator and domain of each count P2's scope sentence covers (R89's note).
+  The proposed text is unchanged. B1537's lock and the relay-debt gate pass.

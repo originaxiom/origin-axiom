@@ -77,3 +77,25 @@ are recorded.
 - **No new mathematics.** Every fact in P5–P9 is a banked arc's.
 
 **0 of 19 stays 0.**
+
+## Addendum, 2026-10-04: P2's operators and domains named (after the audit lane's R89)
+
+The audit lane's R89 reread P2 in full. It asked that two of P2's phrases, "Dirac indices" and "a closed or sealed problem",
+keep a named operator and domain: a self-adjoint graded boundary problem need not be a closed spin-Dirac problem. The
+point is right. P2's scope sentence is restated below, with each count's operator and domain named.
+- **What changes.** This restatement replaces P2's sentence "So the sentence holds for Dirac indices and for every count on
+  a closed or sealed problem (sm:B1351, sm:B1392) or with no flux (sm:B1502)" wherever main reads P2.
+- **What does not.** The proposed text stays as offered: `merge_proposals.py` rebuilds it byte for byte, and the lock pins it.
+
+**P2's scope sentence, restated.** The flatness sentence holds for these four counts, each on its own domain:
+- the index of the spin-Dirac operator twisted by a flat bundle on a smooth closed spin 4-manifold, rk(V)·(−σ/8) (B1420's A4);
+- the net count of a charged sector of the seven-dimensional local model on a closed 3-manifold. This is the Euler
+  characteristic of the sector's twisted complex, χ(Q; L_q) = 0 (sm:B1351 (i));
+- the count of a charged sector's Witten-deformed form Laplacian (spin-0) on a cusped manifold, at an end where the Higgs class
+  does not vanish on the cusp torus (a sealed end). The problem is well-posed there, and the end adds zero (sm:B1392);
+- the anomaly-inflow count at the cone points of sm:B1501's two torus models, which carry no flux (sm:B1502).
+
+The sentence says nothing about any other self-adjoint graded boundary problem. Such a problem must name its operator, its
+domain and its boundary condition before the sentence can be applied to it. B1297's class index is one such count: it reads
+the open end, and P2's examples of it stand as stated. Nothing else in P1–P9 changes, and no count or theorem is recertified
+here.
