@@ -17633,3 +17633,5 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - Preregistration, instruments, controls (K1–K6 hold), OPEN verdict and findings stub committed before any count but the
   pulled-back class's (fixed at (0, 0)) was read. Next: identity, then the run once sm:B1538's Part F′ has freed the machine.
+- B1541's banked identity holds (K1–K6 reproduced, 7 sealed hashes); the run started at 16:12Z on one worker while sm:B1538's
+  Part F′ finishes on the other cores.

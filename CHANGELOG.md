@@ -19,6 +19,7 @@
   - PROVED if a class reads (−3, −3) in two routes at the same class.
   - NEGATIVE, scoped to the generic classes read, if none is generation-shaped.
 - No count read but the fixed one. 0 of 19.
+- The banked identity holds (`verification/identity.json`); the run started at 16:12Z.
 
 ## Room for three found, at the golden order: a degree-45 cover of m003 with (n(1), n(ρ)) = (4, 18) (the golden covers dossier's §7)
 
