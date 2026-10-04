@@ -1,5 +1,12 @@
 # Changelog
 
+## The next arc's drafts persisted (population, run, read-out; not sealed, not run)
+
+- `docs/dossiers/golden_covers_2026-10-04/gc_draft_population.py` (structure only, record `gc_draft_population_run.txt`): 30
+  covers (the 28 with n(1), n(ρ) ≥ 1 and the two degree-9 covers with n(ρ) = 2), 72,816 own characters of order dividing 12
+  (degree 5, 9) or 6 (degree 10), and 35,890 cyclic subgroups. `gc_draft_run.py` and `gc_draft_read_out.py` are the run and
+  read-out drafts, committed so that nothing is lost; nothing in them has run on an own character of order ≥ 3.
+
 ## The golden pointer kept: the room-for-three chain read further, the Bianchi bridge, and the next arc drafted (the dossier's §6; not sealed)
 
 - **Why now.** The owner, again: "make sure nothing is lost. make sure we dont abandon the golden pointer". The afternoon's

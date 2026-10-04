@@ -278,6 +278,9 @@ sm:B1538 banks, before any own character of order ≥ 3 is read.
 - `gc_own_chars_controls.py` prints `gc_own_chars_controls_run.txt` (§6 (c): the next arc's controls on banked data;
   `gc_own_chars.py` is the draft library, loading sm:B1536's route_r, route_n, population and sm:B1538's
   punct_present by path).
+- `gc_draft_population.py` prints `gc_draft_population_run.txt` (§6 (e): the next arc's population as structure — 30 covers,
+  72,816 own characters, 35,890 cyclic subgroups). `gc_draft_run.py` and `gc_draft_read_out.py` are the drafts of its run
+  and read-out; not sealed and not run.
 
 ## Seen first (the repo sweep and the literature)
 

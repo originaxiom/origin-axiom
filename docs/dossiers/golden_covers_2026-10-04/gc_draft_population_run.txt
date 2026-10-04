@@ -1,0 +1,31 @@
+m004 d9.2: degree 9, cusps 1, (n(1), n(rho)) = (0, 2); H_1 = Z^1 + [4, 4]; m = 12: 192 characters, cyclic subgroups by order {2: 7, 3: 1, 4: 28, 6: 7, 12: 28}
+m004 d10.24: degree 10, cusps 3, (n(1), n(rho)) = (1, 1); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m004 d10.3: degree 10, cusps 3, (n(1), n(rho)) = (1, 1); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d5.2: degree 5, cusps 2, (n(1), n(rho)) = (1, 1); H_1 = Z^3 + []; m = 12: 1728 characters, cyclic subgroups by order {2: 7, 3: 13, 4: 28, 6: 91, 12: 364}
+m003 d5.3: degree 5, cusps 2, (n(1), n(rho)) = (1, 1); H_1 = Z^3 + []; m = 12: 1728 characters, cyclic subgroups by order {2: 7, 3: 13, 4: 28, 6: 91, 12: 364}
+m003 d9.2: degree 9, cusps 1, (n(1), n(rho)) = (0, 2); H_1 = Z^1 + [10, 10]; m = 12: 48 characters, cyclic subgroups by order {2: 7, 3: 1, 4: 4, 6: 7, 12: 4}
+m003 d10.10: degree 10, cusps 4, (n(1), n(rho)) = (1, 2); H_1 = Z^5 + []; m = 6: 7776 characters, cyclic subgroups by order {2: 31, 3: 121, 6: 3751}
+m003 d10.11: degree 10, cusps 2, (n(1), n(rho)) = (1, 1); H_1 = Z^3 + [2]; m = 6: 432 characters, cyclic subgroups by order {2: 15, 3: 13, 6: 195}
+m003 d10.12: degree 10, cusps 2, (n(1), n(rho)) = (1, 1); H_1 = Z^3 + [2]; m = 6: 432 characters, cyclic subgroups by order {2: 15, 3: 13, 6: 195}
+m003 d10.13: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.14: degree 10, cusps 4, (n(1), n(rho)) = (1, 2); H_1 = Z^5 + []; m = 6: 7776 characters, cyclic subgroups by order {2: 31, 3: 121, 6: 3751}
+m003 d10.16: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.17: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.18: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.19: degree 10, cusps 4, (n(1), n(rho)) = (1, 2); H_1 = Z^5 + []; m = 6: 7776 characters, cyclic subgroups by order {2: 31, 3: 121, 6: 3751}
+m003 d10.2: degree 10, cusps 3, (n(1), n(rho)) = (1, 1); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.21: degree 10, cusps 2, (n(1), n(rho)) = (1, 1); H_1 = Z^3 + [2]; m = 6: 432 characters, cyclic subgroups by order {2: 15, 3: 13, 6: 195}
+m003 d10.22: degree 10, cusps 3, (n(1), n(rho)) = (1, 1); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.23: degree 10, cusps 3, (n(1), n(rho)) = (1, 1); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.24: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.27: degree 10, cusps 4, (n(1), n(rho)) = (1, 2); H_1 = Z^5 + []; m = 6: 7776 characters, cyclic subgroups by order {2: 31, 3: 121, 6: 3751}
+m003 d10.36: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.38: degree 10, cusps 4, (n(1), n(rho)) = (1, 2); H_1 = Z^5 + []; m = 6: 7776 characters, cyclic subgroups by order {2: 31, 3: 121, 6: 3751}
+m003 d10.39: degree 10, cusps 2, (n(1), n(rho)) = (1, 1); H_1 = Z^3 + [2]; m = 6: 432 characters, cyclic subgroups by order {2: 15, 3: 13, 6: 195}
+m003 d10.4: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.40: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.5: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.6: degree 10, cusps 4, (n(1), n(rho)) = (1, 2); H_1 = Z^5 + []; m = 6: 7776 characters, cyclic subgroups by order {2: 31, 3: 121, 6: 3751}
+m003 d10.8: degree 10, cusps 3, (n(1), n(rho)) = (1, 1); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+m003 d10.9: degree 10, cusps 3, (n(1), n(rho)) = (1, 2); H_1 = Z^4 + []; m = 6: 1296 characters, cyclic subgroups by order {2: 15, 3: 40, 6: 600}
+total: 72816 own characters, 35890 cyclic subgroups

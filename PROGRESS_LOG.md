@@ -17589,3 +17589,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   (literature, structure, the draft instruments and their controls, the draft seal) is now in
   `docs/dossiers/golden_covers_2026-10-04/` (§6), with sL-12 item 1 updated. sm:B1538's operational notes are in its folder.
 - sm:B1538's Part F′ continues (6,412 of 12,152 candidates at 14:48Z; it survived the session's worker restart).
+
+## 2026-10-04 — the next arc's drafts persisted (task 256)
+
+- The population (structure: 30 covers, 72,816 own characters, 35,890 cyclic subgroups), run and read-out drafts are in the
+  dossier. sm:B1538's Part F′ continues (8,657 of 12,152 at 15:00Z).
