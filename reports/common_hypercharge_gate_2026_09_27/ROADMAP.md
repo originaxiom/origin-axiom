@@ -232,6 +232,14 @@ must therefore derive both boundary-fluctuation control and the charged
 domain in one admitted model. Neither the chosen comparator boundary penalty
 nor the interior-image count is being promoted to a physical law.
 
+The [interface sewing check](../interface_sewing_2026_10_04/FINDINGS.md)
+gives a conditional positive for an already admitted smooth closed partner:
+the sum of outward response maps removes the cut-induced fixed-monodromy
+field variations. Sixteen focused tests pass (five new, eleven retained).
+It does not choose a partner or supply chirality; independently admitted
+pieces cannot be glued by matching values alone. Its exact finite comparator
+also distinguishes the relaxed residual potential from the kinetic response.
+
 The [later selection control](../selection_null_review_2026_10_04/FINDINGS.md)
 adds four passing exact dependence tests against an older policy. The
 [currency correction](../selection_null_review_2026_10_04/CURRENCY_CORRECTION.md)

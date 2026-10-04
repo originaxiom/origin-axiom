@@ -87,6 +87,15 @@ now supplies two additional controls, not a completed physical domain:
       boundary penalty demonstrates the issue on a flat comparator but is
       neither an OA derivation nor a solution for the silver background.
 
+The [smooth-sewing follow-up](../interface_sewing_2026_10_04/FINDINGS.md)
+now controls those fixed-monodromy directions conditionally for an already
+admitted smooth closed background: values AND outward covariant derivatives
+must match, and the remaining parameter kernel gives zero field variations.
+It adds no boundary penalty. It does not construct or select an OA join,
+remove genuine connection moduli, or change the balanced closed charged
+grading. Retain the same-action distinction between the boundary kinetic
+response and the relaxed residual-square potential.
+
 - [ ] Derive the charged fermion operator and its domain from the same
       completion, rather than select ordinary, relative or APS cohomology
       by which count is favorable. Establish grading, adjoint and boundary
