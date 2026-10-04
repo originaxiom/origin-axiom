@@ -221,6 +221,17 @@ records newly published SM B1529 and still-pending B1536/R85 work at their
 actual evidence grades. R85's distinct joined-background admission test
 should not be duplicated or treated as already successful.
 
+The [free-boundary completion audit](../free_boundary_completion_2026_10_04/FINDINGS.md)
+adds an authored conditional Hessian result and the complete silver form-degree
+table, with eleven passing focused tests (four new and seven retained).
+Unrestricted boundary data in the supplied bare action leave infinitely many
+nongauge zero directions; fixed Dirichlet data remove those directions.
+Uniform absolute and relative fermion gradings vanish when H0 and H3 are
+retained, while the asymmetric interior image survives. The next completion
+must therefore derive both boundary-fluctuation control and the charged
+domain in one admitted model. Neither the chosen comparator boundary penalty
+nor the interior-image count is being promoted to a physical law.
+
 The [later selection control](../selection_null_review_2026_10_04/FINDINGS.md)
 adds four passing exact dependence tests against an older policy. The
 [currency correction](../selection_null_review_2026_10_04/CURRENCY_CORRECTION.md)

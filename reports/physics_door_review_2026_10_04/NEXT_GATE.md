@@ -71,6 +71,22 @@ Conditional compact Dirichlet admission applies, with supplied metrics.
 This completes the replay and a domain-sensitivity diagnostic; none of the
 following physical-domain obligations is discharged by that comparison.
 
+The [full-degree and Hessian follow-up](../free_boundary_completion_2026_10_04/FINDINGS.md)
+now supplies two additional controls, not a completed physical domain:
+
+- [x] Retain degrees zero through three in the silver comparison. Uniform
+      absolute and relative de Rham domains give zero odd-minus-even count;
+      the asymmetric interior image remains a distinct positive.
+- [x] Test the supplied residual-square action with unrestricted smooth
+      metric boundary data. Its bare classical Hessian has infinitely many
+      nongauge zero directions under the stated compact-core hypotheses.
+      Fixed Dirichlet data remove these directions; closed joins are outside
+      this nonempty-boundary argument.
+- [ ] Derive how the same physical completion controls these boundary
+      fluctuations while admitting the intended charged domain. A chosen
+      boundary penalty demonstrates the issue on a flat comparator but is
+      neither an OA derivation nor a solution for the silver background.
+
 - [ ] Derive the charged fermion operator and its domain from the same
       completion, rather than select ordinary, relative or APS cohomology
       by which count is favorable. Establish grading, adjoint and boundary

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "seal": "145b45f9f5758f52a58a7c7f0576009865cf9a57",
+  "previous_goal_turn": "progress: exact silver replay, domain comparison, current branch update and authoritative commits",
+  "goal": "derive parameter free sm from origin axiom principles and build a full physical theory",
+  "goal_status": "active; incomplete; no blocker threshold reached",
+  "runs": [
+    {
+      "path": "NATIVE_FIRST.jsonl",
+      "exit_code": 0,
+      "status": "PASS",
+      "checks": {
+        "nonabelian": 10,
+        "Fourier_boundary": 21,
+        "degree_rows": 16
+      },
+      "sha256": "5784cbf2206fe1940e0e24d7d29de2a9485f4bfd9b705b2e07e81335544ba63d"
+    },
+    {
+      "path": "FOCUSED_FIRST.txt",
+      "exit_code": 0,
+      "new_tests": 4,
+      "retained_silver_tests": 7,
+      "passed": 11,
+      "seconds": 11.62,
+      "sha256": "a420052957696f8c0af1865e64bec49fd76be5aac260bc70e3c68db547bdcf85"
+    }
+  ],
+  "all_seven_source_and_input_hashes_unchanged": true,
+  "scientific_repairs": 0,
+  "runtime": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "scope": "Conditional free-boundary Hessian analysis; finite exact controls; all-degree table from hash-pinned exact silver data. No full physical completion or full repository suite.",
+  "additional_primary_read_after_execution": {
+    "url": "https://arxiv.org/html/1812.06072",
+    "passages": "Section 2.3 equations 2.34-2.44; section 2.4 equations 2.46-2.49; boundary discussion and Appendix C read for scope; not the full paper",
+    "effect": "Rechecked existing imported grading, no source or input change"
+  },
+  "analytical_review": "Authored proof; nonauthor specialist acceptance not obtained",
+  "changes": "Path-local files and local audit-branch commits; no shared banking numbers, merge or push"
+}

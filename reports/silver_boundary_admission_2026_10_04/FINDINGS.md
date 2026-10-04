@@ -97,6 +97,14 @@ outcome. Its own proof expects a balanced closed spectrum. Preserve both
 the potential admission advance and that limitation; do not transfer its
 carrier or count to this packet. See [the live branch update](LATEST_BRANCH_UPDATE.md).
 
+Subsequent check: the [full-degree and Hessian audit](../free_boundary_completion_2026_10_04/FINDINGS.md)
+completes degrees zero through three from these exact data. The uniform
+absolute and relative odd-minus-even gradings are zero, including the global
+fixed vectors; the interior-image asymmetry survives. The degree-one table
+above must not be read as a complete physical fermion index. That follow-up
+also identifies the unrestricted boundary fluctuation problem in the supplied
+action without withdrawing its conditional Dirichlet admission result.
+
 ## Execution and limits
 
 The first seal is acc3aa5ac. Its native run failed before any candidate at
