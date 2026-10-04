@@ -1730,3 +1730,20 @@ No actual q0 quartic, physical source law or full-suite/main banking.
 | `reports/physical_bridge_2026_09_05/mixing_selection.py` | `2722bcd9ad23cb683b6149240390a7caf8f30c6164482c0f97359f31acba9c25` |
 | `reports/physical_bridge_2026_09_05/mixing_selection_control.py` | `380139391bd6991fadba8cfaedf7a552be32abc08f1aa4157db941c40f341981` |
 | `tests/test_physical_bridge_mixing_selection.py` | `fbdd3c94249c85c5e1737d8fe43f9ff120a737f011a8d9245edf4d5c35649f54` |
+
+
+## R84 rigidity-transport review, 2026-10-04
+
+Pre-execution six-path seal. Credits B1535/B1530 and classical rigidity.
+Independent finite-kernel, local cusp and extension-index review, not a
+whole-architecture negative or a target/census/physical-spectrum rerun.
+Push and server-confirm before execution. Full mission remains active.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_DESIGN.md` | `c294909410165cb6070d65b6db68235c5c564862058b7aeb17c86b7e53cd0811` |
+| `reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_PROOF.md` | `bb3ecda980ab38f9f046694560a9a6801828be77e95c26b9d6e257ce96de80c4` |
+| `reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_INPUTS.json` | `030ca2d34958f34a89f425a05ffd5fc772efc687adc08a8fea8b2bb38060f544` |
+| `reports/physical_bridge_2026_09_05/rigidity_transport.py` | `3b1e25f911176aec2dc2e2d9a577570c102853d3942cd51d26695691a46d3ff6` |
+| `reports/physical_bridge_2026_09_05/rigidity_transport_control.py` | `6e63eac0b39f80e652b0f16140b215821602cace40fb5e27a72b771cff08de32` |
+| `tests/test_physical_bridge_rigidity_transport.py` | `9c15f1f368dfba4309eaa7f287d4a19f8f974c962980df57833fbaa4a245aab6` |

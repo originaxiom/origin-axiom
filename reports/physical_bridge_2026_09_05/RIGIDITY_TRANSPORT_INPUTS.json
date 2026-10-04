@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "audit": "R84",
+  "baseline": "4fd290fad1bc5a1144022a697e1dad7c3568bf42",
+  "main_head": "39775d66f7c48583ba9391876a646ddf9bb0b75d",
+  "sm_head": "536dfba1b779c6ab5b5f13e7964da91e3dc0e1b4",
+  "local_pins": [
+    {
+      "path": "tests/test_physical_bridge_mixing_selection.py",
+      "sha256": "fbdd3c94249c85c5e1737d8fe43f9ff120a737f011a8d9245edf4d5c35649f54",
+      "bytes": 1847
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52",
+      "bytes": 6712
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "sha256": "ab68c19f2a54659387c79d6bbdcef687a33d10d552bc26c5e015ae386ea6e6a7",
+      "bytes": 10439
+    }
+  ],
+  "foreign_pins": [
+    {
+      "path": "frontier/B1535_the_cap/PREREGISTRATION.md",
+      "sha256": "c0803c0c9c72eac9e8cfe3c0980db2b75f3aa9bce1fcea3c59c7c47b5a902104",
+      "bytes": 26893,
+      "reading": "complete"
+    },
+    {
+      "path": "frontier/B1535_the_cap/verification/cap_lib.py",
+      "sha256": "c1de1c24aeccb3dd8fb6c66a857f113e207f3311402c7f49ef1a0b99eea9a445",
+      "bytes": 8782,
+      "reading": "complete"
+    },
+    {
+      "path": "frontier/B1530_the_interior_extensions/FINDINGS.md",
+      "sha256": "c64334a9fe1cb19bef8a138b3460eb660cf60b75eccb04ee64b930bb192a9bd3",
+      "bytes": 41464,
+      "reading": "complete"
+    },
+    {
+      "path": "frontier/B1530_the_interior_extensions/PREREGISTRATION.md",
+      "sha256": "f39d185d006e0fc4095f50258f996412f8217d71a160f5d486601b574d8ac90a",
+      "bytes": 30276,
+      "reading": "Lemma T and connected proof sections, not whole preregistration"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/pdf/2604.22004v1",
+      "sha256": "98cff53011367b4a9640a0f8c475df5d026dc421824d2b749ecc1c8c22301016",
+      "pages": 31,
+      "reading": "entire extracted text including appendices/references; pages16,26 visual"
+    },
+    {
+      "url": "https://doi.org/10.4153/CJM-2006-028-1",
+      "sha256": "4b51773804c6f29407b6d8076527ee0fe2580d69bd98adff5c554d552e40c244",
+      "pages": 18,
+      "reading": "entire extracted text including references; page676 visual"
+    },
+    {
+      "url": "https://www.math.ucdavis.edu/~kapovich/EPR/Kapovich_1994.pdf",
+      "sha256": "7b1badc971eb57536f67aeaca3ab59c208d646e34eaf716d565cca4b58f820a4",
+      "pages": 14,
+      "reading": "entire extracted text including references; page349 visual"
+    }
+  ],
+  "scope": "Byte pins and declared reading scope; no census or classical-proof re-execution"
+}
