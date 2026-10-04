@@ -11854,5 +11854,33 @@
     "finite abelian covers only; non-abelian covers are sm:B1536's"
    ]
   }
+ },
+ {
+  "id": "B1529",
+  "claim_killed": "sL-10 item 9's hope: that near the hyperbolic point of a word state to length 12 or of m004's levels M2-M6, where the cusp acquires the eigenvalue one (the type-two and type-three deformations, real or complex), a reductive vacuum nu (x) rho or nu (x) Lambda^2 rho carries a non-zero class index (main's B1297). Refuted near rho_hyp by proof and census, run as sealed (44cdb4a6): Lemma F (the fibre's four-term sequence) makes a count need a special twist at a root of the interior polynomial chi_K; Theorem N with the census's simple-root condition for Lambda^2 at all 47,333 base points of 541 manifolds closes Lambda^2 for every deformation in Hom(Gamma, SL(4,C)) and every character; Lemma K (the sandwich) closes the four wherever its base condition holds, at 46,824 of the 46,826 word-state base points and at every level base point but M6's 28. At 180 of the 200 first-order crossings of the ten rings, I = 0 on every row in three routes.",
+  "kill_form": "the-interior-polynomial-decides (near rho_hyp a count needs a special twist at a root of the fibre's interior polynomial chi_K; for Lambda^2 the root at 1 is simple at every base point, so no deformation meets one; for the four the sandwich closes it wherever the base condition holds)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "The four's coincidence loci at m135 = -LLRR's two base points (u = (0, 1/2), (1/2, 0)) and M6's 28 (item 10): there I is in {-1, 0, 1} and is non-zero only where the special twist is a multiple root of chi_C and exactly one of Lemma F's two extensions splits; non-split extensions (m135's interior classes give them, as M6's did in sm:B1515); far from rho_hyp; other modules; words longer than 12 and levels above 6; the crossings of -L4RLR3LR2, not located (the theorems cover the ring).",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-04 at banking time, with content: a PROVED arc whose content includes a no-go within its scope (B833: kill records legitimately sit on PROVED arcs), its population in its scope (B1207's A3, held by tests/test_negatives_read_together.py).",
+  "note": "ENTERED 2026-10-04 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1529_the_eigenvalue_one_locus/verification/census.py (the sealed census, route T at 60 digits), crossings.py (the sealed crossing reader), read_out.py (the sealed read-out), post_run_fox.py and post_run_exact_m135.py (m135's failures in routes Fox and W and exactly over Q(zeta_8)), post_run_poles.py, post_run_coverage.py and post_run_read.py (the pole brackets and the crossings the sealed brackets miss); locked by tests/test_b1529_the_eigenvalue_one_locus.py.",
+  "routed_from": "sm-branch-2026-10-04-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "the 536 word-state manifolds to length 12 (sm:B1523) and m004's levels M2-M6 near rho_hyp in Hom(Gamma, SL(4,C)): the class index of nu (x) rho and nu (x) Lambda^2 rho, every character, every deformation (types 2 and 3, real or complex); census of 47,333 base points, crossings on ten rings",
+   "reach": "class",
+   "hypotheses": [
+    "near rho_hyp only (one neighbourhood per manifold)",
+    "reductive modules only; non-split extensions are not covered (Lemma F's hypothesis fails for them)",
+    "the four: wherever its base condition holds; not at m135's two characters or M6's 28 (item 10)",
+    "Lambda^2: SR read at every base point (P1) and Lemma B (Menal-Ferrer-Porti Theorem 0.1 on a finite cover)",
+    "words to length 12 and levels to 6"
+   ]
+  }
  }
 ]

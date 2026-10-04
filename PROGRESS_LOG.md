@@ -17459,3 +17459,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   restricts through the base loop, not a puncture circle. The corrected step keeps the lemma; recorded in sm:B1535's FINDINGS
   §7 and ERROR_LEDGER (credited).
 - R83 answers this seat's silver-state question, conditionally. Main's S54 (B1471) read, not bearing. RELAY_LEDGER rows.
+
+## 2026-10-04 — B1529 banked: THE EIGENVALUE-ONE LOCUS (tasks 202, 208, 209)
+
+- PROVED, run as sealed, 5 of 7: near ρ_hyp, Λ² carries no count on any word state to length 12 or level M₂–M₆ (Theorem N,
+  the simple-root condition at all 47,333 base points); the four carries none where its base condition holds, which fails
+  on m135 at two characters (and on M₆ at 28): item 10.
+- P4 failed on the location rate; the pole brackets are an E31 instance, and sm:B1527's X1 count is corrected. After the run
+  180 of the 200 first-order crossings are located, I = 0 at all; −L⁴RLR³LR²'s are not (the crossing system stalls there).
+- FINDINGS refreshed against main `e90b4f7e` and the audit lane `aee360ae`. Lock, verdict, kill record, registry row,
+  surfaces, relay. The B1536 runs continue (launched 06:40:05Z).
+- The file-drawer lock failed on this tree, naming sm:B1536 (sealed, no report): an E50 recurrence. Since B1514 thirteen seal
+  commits shipped no findings stub, and three banks recorded the lock's failure as expected. sm:B1536 now carries a findings
+  stub and an OPEN verdict; the sweep-table slip in its §0 (head at writing, not the head swept) is corrected there.
+  ERROR_LEDGER rows for both. A timing test during the run (times only): one Part S takes 12–17 s on m003's largest cover.

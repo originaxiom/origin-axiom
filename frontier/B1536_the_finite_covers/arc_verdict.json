@@ -1,0 +1,125 @@
+{
+ "id": "B1536",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1535",
+  "B1532",
+  "B1534",
+  "B1530",
+  "B1527",
+  "B1515",
+  "B1509",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "every connected finite cover of degree <= 12 of m004 and m003, and their Q8 towers at m = 1, 2, 3, 4, 6, 9, 12, 18 (184 and 156 covers), at every pulled-back character of finite order and every class of the cover, at the hyperbolic point",
+  "reach": "class",
+  "hypotheses": [
+   "sealed and running: no outcome has been read; this record is replaced at the bank",
+   "at the hyperbolic point only; finite-order characters pulled back from the state (Lemma Z'')",
+   "the covers' own characters, covers of larger degree, other states and non-unitary characters are not covered (the seal's section 9)"
+  ]
+ },
+ "claim_one_line": "THE FINITE COVERS, SEALED AND RUNNING (9c28d076; the addendum beside the seal at eeb20c44; sL-10 item 16, sm:B1535's Corollary C3, second place): does sm:B1515's frame carry three generations on a connected finite cover of degree <= 12 of m004 (176) or m003 (148), or on their Q8 towers (m = 1, 2, 3, 4, 6, 9, 12, 18), at any pulled-back character of finite order (8,148 and 35,100 characters, Lemma Z'') and any class of the cover (the pulled-back class at kappa^5 = 1; every cusp stratum at two classes wherever min(capW, capL2) >= 2)? Two routes sharing no linear algebra: N (the cover read on the base by Lemmas S' and O, FLINT, p < 2^24) and R (the cover's own Reidemeister-Schreier presentation, PARI, p < 2^31). Ten predictions sealed with priors summing to 7.88; NEGATIVE on three only if both routes read the whole population and P1, P2, P8 and P10 hold. The banked identity holds on the amended files; the four runs started at 06:40:05Z. No outcome has been read. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-04 03:58Z)": "7a58d815",
+    "main (at the sweep, 2026-10-04 03:58Z)": "f06d3405",
+    "origin/art/camper-van-bar (at the sweep, 2026-10-04 03:58Z)": "b3745696",
+    "origin/audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-04 03:58Z)": "c7aa3a29",
+    "origin/seat/determined-hopper-t1cmii (at the sweep, 2026-10-04 03:58Z)": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt (at the sweep, 2026-10-04 03:58Z)": "0043be2b",
+    "origin/seat/outside-bench (at the sweep, 2026-10-04 03:58Z)": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-04 03:58Z)": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl (at the sweep, 2026-10-04 03:58Z)": "659487bb",
+    "origin/seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-04 03:58Z)": "7a58d815",
+    "origin/main (at the sweep, 2026-10-04 03:58Z)": "98714379",
+    "origin/sep16-branch (at the sweep, 2026-10-04 03:58Z)": "3205984b"
+   },
+   "terms": [
+    "Q8",
+    "quaternion cover",
+    "non-abelian cover",
+    "nonabelian cover",
+    "totally geodesic",
+    "bending",
+    "cuspidal cohomology",
+    "Bart",
+    "Scannell",
+    "Kapovich",
+    "Putman",
+    "Long 1987",
+    "PH^1",
+    "virtual Betti",
+    "low-index",
+    "covers("
+   ],
+   "hits": [
+    {
+     "where": "frontier/B349 (a structural census)",
+     "bearing": "every cover of the figure-eight through index 6 by SnapPy, with H1 of each; no twisted cohomology read. Seen first: its H1 table, from which (with the mod-sqrt(-3) reduction of the holonomy) the design reasoned that the A4 four-point cover has two cusps and b1 = 2; disclosed in the seal's section 0, not a reading"
+    },
+    {
+     "where": "sm:B1532, sm:B1534, sm:B1535",
+     "bearing": "the abelian covers: no generation-shaped count on the levels' abelian covers at lambda = 1 (sm:B1532), at most one generation on the silver squares' abelian covers (sm:B1534), Theorem C and Lemma W (sm:B1535); every abelian cover of m004 is cyclic, so every non-cyclic cover in this population is non-abelian"
+    },
+    {
+     "where": "sm:B1530",
+     "bearing": "cites Kapovich and Bart-Scannell for PH^1 of the four, and states Proposition P (every kappa = 1 member of a word state is simple except m135's two)"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Putman Wieland \"Abelian quotients of subgroups of the mapping class group and higher Prym representations\" arXiv",
+    "Looijenga \"Prym representations of mapping class groups\" Geometriae Dedicata 1997 abelian cover character eigenvalue",
+    "Bart Scannell \"generalized cuspidal cohomology problem\" figure-eight knot cover nonzero cuspidal cohomology standard representation SO(4,1)",
+    "punctured torus bundle finite cover infinitesimal deformation SO(4,1) cuspidal cohomology quaternion cover virtual Betti number",
+    "figure-eight knot complement finite cover infinitesimally rigid SO(4,1) cuspidal cohomology standard representation computation",
+    "Bianchi modular forms weight 3 cuspidal cohomology Q(sqrt(-3)) congruence subgroup dimension table Finis Grunewald Tirao",
+    "Scannell \"Infinitesimal deformations of some SO(3,1) lattices\" Pacific Journal"
+   ],
+   "sources": [
+    {
+     "cite": "A. Putman and B. Wieland, Abelian quotients of subgroups of the mapping class group and higher Prym representations, J. London Math. Soc. 88 (2013) 79-96, arXiv:1106.2747",
+     "where": "Conjecture 1.2 and Appendix A (read at ar5iv)",
+     "read": "2026-10-04",
+     "says": "the higher Prym representations are conjectured to have no non-zero finite orbits for genus >= 2 (the paper notes it fails for genus 0 and 1); Appendix A: pi_1 of the once-punctured torus onto Q8 on a free basis gives a genus-3 cover with 4 punctures, V_K = Q^2 + H_Q, the mapping class group acting on H_Q through a finite group"
+    },
+    {
+     "cite": "A. Bart and K. P. Scannell, The generalized cuspidal cohomology problem, Canad. J. Math. 58 (2006) 673-690",
+     "where": "Proposition 4.1, section 4.3 (Example 1, Proposition 4.6), section 1.3, Theorem 3.1, section 5 (read in full, the publisher's PDF)",
+     "read": "2026-10-04",
+     "says": "a lattice generated by two parabolics has PH^1(R^4_1) = 0 (after Kapovich), so the figure-eight's is 0; dim PH^1 = dim H^2 - t and dim H^1 = dim ker res + t; by Long (Bull. London Math. Soc. 1987, cited through them) some finite covers admit bending deformations"
+    },
+    {
+     "cite": "K. P. Scannell, Infinitesimal deformations of some SO(3,1) lattices, Pacific J. Math. 194 (2000) 455-464",
+     "where": "the abstract (msp.org)",
+     "read": "2026-10-04",
+     "says": "bending along closed embedded totally geodesic surfaces deforms the lattice into SO(4,1); infinitesimal deformations constructed for the hyperbolic Fibonacci manifolds"
+    },
+    {
+     "cite": "M. Culler and N. Dunfield, low_index (Python package, version 1.3)",
+     "where": "the enumeration of transitive permutation representations",
+     "read": "2026-10-04",
+     "says": "enumerates the conjugacy classes of subgroups of index <= n; its counts by degree agree on two presentations of each state"
+    },
+    {
+     "cite": "K. S. Kedlaya, Notes on class field theory",
+     "where": "section 3.2, Definition 3.2.2 and Lemma 3.2.3, as sm:B1532 read and cites it",
+     "read": "2026-10-03",
+     "says": "Shapiro's lemma: the cohomology of G with coefficients induced from H is the cohomology of H; with Mackey's formula, a finite cover's cohomology with pulled-back coefficients is read on the base with a permutation module"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ }
+}

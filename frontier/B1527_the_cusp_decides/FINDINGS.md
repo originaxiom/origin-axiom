@@ -443,3 +443,12 @@ when X_γ = 0. The script checks this in sympy, and against a central difference
     `post_run_soft.py` (`post_run_soft_run.txt`), `part_a_lemma.py` (`part_a_lemma_run.txt`);
   - for main's L242 (e): `export_points.py` (`points_for_l242e.json`, `export_points_run.txt`).
 - Lock: `tests/test_b1527_the_cusp_decides.py`.
+
+## Correction (2026-10-04, from sm:B1529): X1's crossing count
+
+X1's count of eigenvalue-one crossings (§0, the P6 row, §4 and §7) counted every sign change of ψa + ψb, 3ψa − ψb or
+3ψb − ψa at ℓ between neighbouring converged frames, those through a pole of b included. With X1's own pole test (b changes
+sign between the frames without being small, ∣b∣ < 10a, at both), the genuine sign changes on the ten states are
+12, 12, 12, 12, 14, 14, 12, 12, 12 and 8: 8 to 14 per state, not 8 to 30. The 30 on each of ±L³RLR² counted 16 through a pole.
+sm:B1529 located the crossings themselves: twenty per ring at first order, 180 of the 200 found (its §4.5–§4.6). Nothing
+else here depends on the count: P6's reading, crossings on all ten states, stands. ERROR_LEDGER, an E31 instance.

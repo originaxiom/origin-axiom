@@ -1,5 +1,37 @@
 # Changelog
 
+## B1529 banked: THE EIGENVALUE-ONE LOCUS — near the hyperbolic point of every word state to length 12 and of m004's levels, Λ² carries no count for any deformation in SL(4, ℂ); the four carries none wherever its base condition holds, and that fails on one word state, m135, at two characters (PROVED; run as sealed)
+
+- **The run** (sealed at `44cdb4a6`). The census ran 12:44:16Z–13:46:23Z on four cores (541 manifolds, 47,333 base points
+  per module). The crossing reader ran 12:47:40Z–15:47:43Z. On ±L³RLR² the sealed loop body ran unchanged in
+  `post_run_poles.py`, one process per bracket (disclosed). The read-out ran once, after all ten records were written.
+- **PROVED, with a kill record.**
+  - Λ²: the simple-root condition holds at all 47,333 base points, so by Theorem N no vacuum ν ⊗ Λ²ρ carries a count near
+    ρ_hyp, for any deformation in Hom(Γ, SL(4, ℂ)) (types 2 and 3, real or complex) and any character.
+  - The four: its base condition holds at 46,824 of the 46,826 word-state base points and at every level base point but
+    M₆'s 28, and there Lemma K closes it. It fails on m135 = −LLRR at u = (0, ½) and (½, 0): one interior class for V and
+    one for V*, read in three routes and exactly over ℚ(ζ₈). Those two and M₆'s 28 are item 10.
+- **5 of 7 predictions held** (P1, P3, P5, P6, G). P2 failed on m135 alone. P4 failed on its location rate: 143 of 196
+  brackets were located. 44 of the others are sign changes through a pole of b on ±L³RLR² (an E31 instance), 8 are on
+  −L⁴RLR³LR², where the crossing system stalls, and 1 is on +L⁴RLR³LR².
+- **After the run (disclosed).** The coverage check located 37 more crossings, so 180 of the 200 first-order crossings are
+  located: all twenty on nine rings, none on −L⁴RLR³LR². P4's structure, P5 and P6 hold at all 180 (11,640 route-T and 1,640
+  Fox and W rows, I = 0). The post-run read reproduces the sealed reader's failure lists on the sealed records.
+- **Surfaces.**
+  - THEOREM_REGISTRY T-THE-EIGENVALUE-ONE-LOCUS; the SEAL_LEDGER verdict; the kill record
+    `the-interior-polynomial-decides` (F-HE, reach class).
+  - ERROR_LEDGER: the pole brackets (E31). sm:B1527's X1 count corrected in its FINDINGS: 8 to 14 genuine sign changes per
+    state, not 8 to 30.
+  - OPEN_LEADS item 9 (answered; −L⁴RLR³LR²'s crossings left to a locator at higher precision); CAMPAIGN_STATUS; the alias
+    table; the relay `SM_TO_CC_AND_CODEX_2026-10-04_THE_EIGENVALUE_ONE_LOCUS.md` and RELAY_LEDGER (with the audit lane's R82).
+  - Atlas, views, claim base; the lock `tests/test_b1529_the_eigenvalue_one_locus.py`.
+- **B1536's findings stub and OPEN verdict (an E50 recurrence).** The file-drawer lock failed on this tree naming sm:B1536,
+  sealed at `9c28d076` with no report. Since B1514 thirteen seal commits of this branch shipped no findings stub, against
+  the standing practice of 2026-09-28. At three banks (B1530, B1534, B1532) the lock's failure on sealed arcs was recorded
+  as "sealed and still running" instead of fixed. sm:B1536 now carries `FINDINGS.md` (sealed and running, no outcome) and an
+  OPEN `arc_verdict.json` with its sweep as data. Stub writing also caught a slip in §0 of the seal: its table names the
+  branch head at writing time (`536dfba1`), not the head swept (`7a58d815`); no statement changes. Both are in ERROR_LEDGER.
+
 ## The audit lane's R84 read: sm:B1535's cap reviewed, one proof step of Lemma W reworded
 
 - **R84** (`aee360ae`) re-derives sm:B1535's Theorem C steps (c1) and (c2), Lemma E′ and sm:B1530's Lemma T, and agrees with the

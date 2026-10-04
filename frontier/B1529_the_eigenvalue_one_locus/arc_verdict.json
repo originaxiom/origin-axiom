@@ -1,0 +1,130 @@
+{
+ "id": "B1529",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1527",
+  "B1523",
+  "B1515",
+  "B1509",
+  "B1510",
+  "B1511",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "the 536 word-state manifolds to length 12 (sm:B1523) and m004's levels M2-M6, near their hyperbolic point rho_hyp in Hom(Gamma, SL(4,C)): the class index (main's B1297) of the reductive vacua nu (x) rho (the four) and nu (x) Lambda^2 rho, every character nu, every deformation (types 2 and 3, real or complex); census of all 47,333 base points; crossings read on the ten states of sm:B1527's rings (+-LR, +-LLRLRR, +-L3RLR2, +-L4RL3R2, +-L4RLR3LR2)",
+  "reach": "class",
+  "hypotheses": [
+   "near rho_hyp only (Theorem N and Lemma K hold on a neighbourhood of rho_hyp, one per manifold)",
+   "reductive modules nu (x) rho and nu (x) Lambda^2 rho only; non-split extensions (sm:B1509's W1, W2; sm:B1515's members) are not covered (Lemma F's hypothesis fails for them, control C4)",
+   "the four: wherever its base condition (h1, h1*, t0, s0) = (1, 1, 1, 1) holds; it fails at m135 = -LLRR's characters (0, 1/2) and (1/2, 0) and at M6's 28 (sm:B1515), where I is in {-1, 0, 1} and can be non-zero only on the coincidence locus (item 10)",
+   "Lambda^2: Lemma B (Menal-Ferrer-Porti Theorem 0.1 on the finite cyclic cover of ker nu) and the simple-root condition read at every base point (P1)",
+   "the census reads route T at 60 digits with margins; m135's two failures re-read by routes Fox and W and exactly over Q(zeta_8)",
+   "the crossings are a check of the mechanism, not the proof: 180 of the 200 first-order crossings located (none on -L4RLR3LR2, where the 60-digit crossing system stalls)",
+   "words to length 12 and levels to 6; other modules, far from rho_hyp, and the four's coincidence loci are not covered"
+  ]
+ },
+ "claim_one_line": "THE EIGENVALUE-ONE LOCUS, run as sealed (44cdb4a6; sL-10 item 9): near the hyperbolic point of every word state to length 12 and of m004's levels M2-M6, no vacuum nu (x) Lambda^2 rho carries a non-zero class index for any deformation in Hom(Gamma, SL(4,C)) (types 2 and 3, real or complex) and any character nu (Theorem N: the simple-root condition SR, read at all 47,333 base points, makes the fibre's interior polynomial chi_K non-zero at every special twist, so Lemma F's index vanishes; Lemma O keeps e in {0, 2}); nu (x) rho carries none wherever the four's base condition holds (Lemma K, the sandwich), which is at 46,824 of the 46,826 word-state base points and on the levels at all but M6's 28. The base condition fails on one word state, m135 = -LLRR, at its two order-2 characters trivial on the cusp: one interior class each for V and V* (parabolic-preserving infinitesimal deformations into SO(4,1) on m135's double covers), read in three routes at 60 digits and exactly over Q(zeta_8). As sealed 5 of 7 predictions held: P2 (m135) and P4 (the location rate, 143 of 196 brackets; 44 of the others are sign changes through a pole of b on +-L3RLR2, an E31 instance) failed; P5 and P6 held at every located crossing. After the run 180 of the 200 first-order crossings are located, all twenty on nine rings, with I = 0 on 11,640 route-T and 1,640 Fox and W rows. Kill record the-interior-polynomial-decides (F-HE, class). Registered: item 10 (the four's coincidence loci at m135's two base points and M6's 28). I-26 stays UNEARNED. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the seal)": "f1b4587f",
+    "origin/main (at the seal)": "d2a95da4",
+    "origin/audit/physical-bridge-2026-09-05 (at the seal)": "24c039c8",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt": "0043be2b",
+    "origin/main (refreshed at banking, 2026-10-03)": "399b0bc2",
+    "origin/audit/physical-bridge-2026-09-05 (refreshed at banking, 2026-10-03)": "ddd345a8",
+    "origin/main (refreshed again at banking, 2026-10-04)": "e90b4f7e",
+    "origin/audit/physical-bridge-2026-09-05 (refreshed again at banking, 2026-10-04)": "aee360ae",
+    "seat/standard-model-derivation-0qt6ao (at banking)": "9fc9a572"
+   },
+   "terms": [
+    "interior polynomial",
+    "four-term sequence",
+    "simple root",
+    "eigenvalue-one locus",
+    "item 9",
+    "H^1(F, dF",
+    "Menal-Ferrer",
+    "Raghunathan",
+    "special twist",
+    "m135",
+    "interior class",
+    "pole of b",
+    "coincidence locus",
+    "nonsplit",
+    "compact-boundary",
+    "-LLRR",
+    "b+-LLRR",
+    "Whitehead",
+    "crossing system",
+    "first-order crossing",
+    "sign change through a pole"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1509 (T3), frontier/B1511 (Theorem B)",
+     "bearing": "the Wang sequence on the fibre with the cusp acyclic; Lemma F is the same sequence with the cusp not acyclic"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1510 (Theorem C)",
+     "bearing": "the two-sided deformation's index by semicontinuity; Lemma K is that argument at the hyperbolic point with the duality lower bound"
+    },
+    {
+     "where": "main: frontier/B1440",
+     "bearing": "|I| <= min(r, n - r) on a once-punctured-torus bundle; its onto map H1(F) -> H1(dF) is the right half of Lemma F's sequence; credited"
+    },
+    {
+     "where": "main: frontier/B1297",
+     "bearing": "the class index and its identities, used throughout"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1527 (Lemma C, Lemma E, Part H, X1's rings, routes Fox and W)",
+     "bearing": "the question (item 9), the rings the crossings are read on, and two of the three routes"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1515 section 5 (b), (d)",
+     "bearing": "M6's 28 interior-class characters of the twisted four, the census's positive control (C6)"
+    },
+    {
+     "where": "main@e90b4f7e: docs/HARVEST_LEDGER.md row 834; frontier/B1467 FINDINGS; B1466/B1467 received GENESIS copies",
+     "bearing": "main's harvest rows of this seat's arcs (sm:B1529 registered as sealed and running); nothing that computes this arc's quantities"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05@aee360ae: R82 relay, R84",
+     "bearing": "R82 notes this arc as sealed and unread; R84 reviews sm:B1535, not this arc"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "twisted cohomology hyperbolic three manifolds Menal-Ferrer Porti (at the seal)",
+    "generalized cuspidal cohomology problem Bart Scannell (at banking)",
+    "parabolic cohomology standard representation SO(4,1) Kapovich two-bridge (at banking)"
+   ],
+   "sources": [
+    {
+     "cite": "P. Menal-Ferrer and J. Porti, Twisted cohomology for hyperbolic three manifolds, Osaka J. Math. 49 (2012), arXiv:1001.2242v2",
+     "where": "sections 0-3: Theorem 0.1, Lemma 2.14, Lemma 3.5, Proposition 3.2, Corollary 3.7",
+     "read": "2026-10-03",
+     "says": "for the holomorphic V_n the restriction to the boundary is injective with half the dimension; the four, V2 (x) conj V2, is outside its scope"
+    },
+    {
+     "cite": "A. Bart and K. P. Scannell, The generalized cuspidal cohomology problem, Canad. J. Math. 58(4) (2006) 673-690",
+     "where": "section 2.1 (p. 676), section 2.2 and Proposition 4.1 (pp. 676, 679), Theorem 4.5 and Proposition 4.6 (p. 683), section 5 (p. 685)",
+     "read": "2026-10-03",
+     "says": "PH^1(Gamma, R^4_1) parameterizes parabolic-preserving infinitesimal deformations into SO(4,1); zero for two-bridge lattices (Kapovich) and for PSL(2, O_d), d = -1, -2, -3, -7, -11, -15; dim H^1 = dim ker res + dim H^0 of the boundary; no character twists and no punctured-torus bundles by name"
+    }
+   ]
+  },
+  "standing": "EXTENDS",
+  "why": "Lemmas K and F rest on sm:B1510 Theorem C, sm:B1509 T3, sm:B1511 Theorem B and main's B1440; Lemma B is Menal-Ferrer-Porti's Theorem 0.1 on a finite cover; the four's base condition is Bart-Scannell's generalized cuspidal cohomology with the standard representation, twisted by a character. Added, as far as swept: Theorem N and Lemmas O and P with their consequence for Lambda^2 near rho_hyp on 541 manifolds; the census of the four's twisted cuspidal cohomology at lambda_c on every word state to length 12 (it vanishes everywhere but at m135's two characters of order 2); m135's two classes exactly; the coincidence criterion that defines item 10."
+ }
+}

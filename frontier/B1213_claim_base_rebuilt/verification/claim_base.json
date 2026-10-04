@@ -1,13 +1,13 @@
 {
- "settled": 1181,
- "declared_true": 96,
+ "settled": 1182,
+ "declared_true": 97,
  "declared_false": 257,
  "absent": 828,
  "absent_pct": 70,
  "control": {
-  "declared_mean": 2.94,
+  "declared_mean": 2.93,
   "rest_mean": 1.22,
-  "ratio": 2.41,
+  "ratio": 2.4,
   "passes": true
  },
  "pool_old": [
@@ -576,6 +576,7 @@
   "B1523",
   "B1525",
   "B1527",
+  "B1529",
   "B1530",
   "B1532",
   "B1534",
@@ -1189,6 +1190,7 @@
   "B1523",
   "B1525",
   "B1527",
+  "B1529",
   "B1530",
   "B1532",
   "B1534",
