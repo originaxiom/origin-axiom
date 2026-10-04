@@ -208,6 +208,13 @@ the known whole-torus and annulus Euler obstruction remains. Justified
 nonflat, singular, nonliftable and interacting alternatives remain open,
 not already successful or ruled out by this priority.
 
+The [later selection control](../selection_null_review_2026_10_04/FINDINGS.md)
+adds four passing exact dependence tests. Before using a trials-corrected
+match as evidence, supply a joint null/dependence justification; the bar's
+independent-look function is not automatically a universal calibration.
+No foreign grading is reversed, and no rare match is promoted to physical
+derivation. Check consolidated papers before claiming a mechanism absent.
+
 ## Full-goal obligations beyond these packages
 
 - [ ] A declared spacetime/dynamical interpretation and common action.

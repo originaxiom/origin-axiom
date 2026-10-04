@@ -1,0 +1,70 @@
+{
+  "seal_commit": "9d3b4b2dedbbc1929ae9ee0c1fd75486a926ee97",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/selection_null_review_2026_10_04/verify_selection.py",
+    "events": [
+      {
+        "chunk_id": "6786e8",
+        "wall_time_seconds": 0.155459498,
+        "exit_code": 0,
+        "original_token_count": 184,
+        "output": "INDEPENDENT {\"marginal\": \"1/10\", \"actual_union\": \"19/100\", \"sidak\": \"19/100\"}\nDEPENDENT {\"valid_null_p_values\": true, \"marginal\": \"501/100000\", \"actual_union\": \"501/50000\", \"sidak\": \"99948999/10000000000\", \"threshold\": \"1/100\", \"decision_can_differ\": true, \"actual_foreign_grade_changed\": false}\nFINITE_SCAN {\"without_replacement\": \"2/5\", \"with_replacement\": \"9/25\", \"same_base_rate\": \"1/5\", \"physical_sampling_law_derived\": false}\nUNION_BOUND {\"pairs_checked\": 1024, \"union_bound_valid\": true}\nSUMMARY {\"probability_contract_gap_verified\": true, \"foreign_function_arithmetic_bug\": false, \"foreign_census_recomputed\": false, \"OA_physical_significance_derived\": false}\nPASS: scoped dependence controls, not a foreign verdict reversal\n"
+      }
+    ]
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/selection_null_review_2026_10_04/test_selection.py",
+    "events": [
+      {
+        "chunk_id": "fb8c3c",
+        "wall_time_seconds": 0.554102708,
+        "exit_code": 0,
+        "original_token_count": 25,
+        "output": "....                                                                     [100%]\n4 passed in 0.04s\n"
+      }
+    ]
+  },
+  "scientific_hashes_unchanged": true,
+  "local_final_hash_receipt": {
+    "chunk_id": "449795",
+    "wall_time_seconds": 0.000011249,
+    "exit_code": 0,
+    "original_token_count": 1199,
+    "output": "94f2f1c94d18d8dffa6d74131af0fe3c1253156a1018484f83f67e5314c0394c  reports/phase_common_line_2026_10_04/GOAL_CONTRACT.md\n1d47c33eaf2337789c37892d34bd595ed645a9960227767680e80b6ca4b6bc63  reports/phase_common_line_2026_10_04/DESIGN.md\n45f5149860a1100f0996e4f87b6f6bf14bf0e63d5f26671081ca9dc77c85e9e0  reports/phase_common_line_2026_10_04/PROOF.md\nda162c9124871f46c35e5b4fca9a0853434a64bf1f9dae7c8812b98b074b54d7  reports/phase_common_line_2026_10_04/INPUTS.json\nbbe77ab3c9ff9d1d22e6ec44fd1cd93271fe0f629eeb3012365864019a92ea36  reports/phase_common_line_2026_10_04/verify_phase_line.py\ne4c256e831f58a07bc8f4b7c2454cc7ceaa420bbfa84cd6a7ebe77f4786ae478  reports/phase_common_line_2026_10_04/test_phase_line.py\n4dafb670e2e0fba6bcb93b726975fe9a2db40b4b13b2764a2e2456e3c97b538b  reports/common_hypercharge_gate_2026_09_27/DESIGN.md\nc74f705d3ee3ed9c51d484fbd16b207b72dd46ac4359c6c98f0c7361b5a82e47  reports/common_hypercharge_gate_2026_09_27/PROOF.md\n3e0a90fe4a9b2d8b702c43ae860cfb572298ef1dc73b06802da4b33d33aaa849  reports/common_hypercharge_gate_2026_09_27/INPUTS.json\n6cb93f192cc49f2ef8ad6de4c810b4f76fe89f89c65895ec7b126c0bbdab0af0  reports/common_hypercharge_gate_2026_09_27/verify_common_line.py\nbeae7d17063b120ff40acbf062a382b8a55377e7dea6963f6e78bd648eedd071  reports/common_hypercharge_gate_2026_09_27/test_common_line.py\n7903204d86ca0fcb9d70c5fa308719d80dff582290b585fe6362de467a784e0f  reports/monomial_matter_locus_2026_09_27/verify_matter_locus.py\na9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0  reports/monomial_exceptional_locus_2026_09_27/INPUTS.json\n939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9  reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\n0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4  reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\ncc7a54fe6010327b8f18d51eb97aaa3dbcc2ada0d01689d427098df8397d9f92  reports/phase_component_matter_2026_10_04/DESIGN.md\nf2bd615047ee80dbd52ef50e43cec7c778a333865f05aaff004e2cbaee525588  reports/phase_component_matter_2026_10_04/INPUTS.json\n34e0986ba9a22da86ce7fab25be453fc842af44636170615398119ed3c5056e5  reports/phase_component_matter_2026_10_04/verify_matter.py\n0291baf1525a982be195ab1decd7fd6d97b31fc249bd6d77ecb1977c970117d0  reports/phase_component_matter_2026_10_04/test_matter.py\nf99f58b43c827cea696097c45bb027503b9208ca531608969a49f73f420b39fa  reports/global_quotient_admission_2026_09_27/COMPONENT_RESULTS.json\n867847e64f1b47054f0f6b2cf93a5f3fe11f590eed946516adb515b08153845b  reports/global_quotient_admission_2026_09_27/verify_monomial_lifts.py\n5c1814e29edc0e9fb82e4c6c3816fd38e1827d97d35b00f022a212dcc9107e95  reports/global_quotient_admission_2026_09_27/verify_admission.py\nedd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f  reports/m6_parent_admission_2026_09_27/verify_parent_admission.py\n5341a2d1ef51a9e0b1e2ac2a4a90bd94d9d0836c69367953ec06566e78b9c95b  reports/phase_component_matter_2026_10_04/RESULTS.json\n1629397799628717d758e6479fe67616e6280d21180b7d85cbbc99fad987c27e  reports/physics_door_review_2026_10_04/DESIGN.md\ncb185dabb7f4df693bf63ce69aa7ea98ff78ccb741c1542983cb0e20046b2ed7  reports/physics_door_review_2026_10_04/PROOF.md\nbe262c0df897425fc2b3eafac78d90036a1ff4a8a2cd4da38a0d31e3ae452eba  reports/physics_door_review_2026_10_04/INPUTS.json\n4fccde44e35e36910c136cc87a81c1476f89c238dd9838341729cb432db6783c  reports/physics_door_review_2026_10_04/verify_door.py\n1cf1b5a73740738858a0cf9fd9eae28104f6ddfb165dfd0bcb9905d703d2a80c  reports/physics_door_review_2026_10_04/test_door.py\n03a946049977b8a5a2a611a95909f8cc3c853d1db7142ddb85b5c000ff68338d  reports/selection_null_review_2026_10_04/DESIGN.md\n79b80beb8cd6d3cf30b523141d597b8b05849df213eeb11809ad629cf1ce2ca3  reports/selection_null_review_2026_10_04/PROOF.md\n8e016e71376f28416cb5f1a6a13a9b7a4930e9d148354f70a08ba584b95e553e  reports/selection_null_review_2026_10_04/INPUTS.json\nf78d113aaa61abd9a4b12c841bdcda166bd8cd278d3ccf914441a30d841dcea8  reports/selection_null_review_2026_10_04/verify_selection.py\na8121794c1411312f8859b9b6fa30d2e0c82a1d1565aa79ce583466980d2911b  reports/selection_null_review_2026_10_04/test_selection.py\n"
+  },
+  "foreign_final_hash_receipts": [
+    {
+      "commit": "0043be2b95a51048b3a664789ede241497558e79",
+      "path": "docs/THE_BAR.md",
+      "sha256": "c2b87d04692a78460d5228a6c682a3808191163a58671ca1959ef250114a6275",
+      "receipt": {
+        "chunk_id": "6c7872",
+        "wall_time_seconds": 0.000011513,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "c2b87d04692a78460d5228a6c682a3808191163a58671ca1959ef250114a6275  -\n"
+      },
+      "unchanged": true
+    },
+    {
+      "commit": "0043be2b95a51048b3a664789ede241497558e79",
+      "path": "frontier/B1518_the_bar/verification/null_model.py",
+      "sha256": "31e3630ba2285d718be9b49807f9e397defdf14af780fd3768a7414d2755c530",
+      "receipt": {
+        "chunk_id": "6e7599",
+        "wall_time_seconds": 0.000010687,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "31e3630ba2285d718be9b49807f9e397defdf14af780fd3768a7414d2755c530  -\n"
+      },
+      "unchanged": true
+    }
+  ],
+  "first_outputs_complete": true,
+  "source_repairs": false,
+  "focused_tests": 4,
+  "preceding_combined_tests": 248,
+  "new_combined_252_test_run_performed": false,
+  "foreign_grading_recomputed": false,
+  "physics_derived": false
+}

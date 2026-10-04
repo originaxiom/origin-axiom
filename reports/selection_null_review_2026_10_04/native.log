@@ -1,0 +1,6 @@
+INDEPENDENT {"marginal": "1/10", "actual_union": "19/100", "sidak": "19/100"}
+DEPENDENT {"valid_null_p_values": true, "marginal": "501/100000", "actual_union": "501/50000", "sidak": "99948999/10000000000", "threshold": "1/100", "decision_can_differ": true, "actual_foreign_grade_changed": false}
+FINITE_SCAN {"without_replacement": "2/5", "with_replacement": "9/25", "same_base_rate": "1/5", "physical_sampling_law_derived": false}
+UNION_BOUND {"pairs_checked": 1024, "union_bound_valid": true}
+SUMMARY {"probability_contract_gap_verified": true, "foreign_function_arithmetic_bug": false, "foreign_census_recomputed": false, "OA_physical_significance_derived": false}
+PASS: scoped dependence controls, not a foreign verdict reversal

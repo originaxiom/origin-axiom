@@ -198,3 +198,20 @@ with exact bounded checks, not a full new execution of every branch.
 Markdown rendering and independent analytic acceptance are unverified.
 The write-page editorial discipline kept received, reproduced and proposed
 claims distinct in this documentation. No work was pushed or merged.
+
+## Later banking and novelty supplement
+
+The [additional branch review](ADDITIONAL_BRANCH_REVIEW.md) reads the
+referee's dated sweep, outside-bench novelty memo and banking bar at their
+pinned source identities. It preserves their reading grades and does not
+recount their historical ledger numbers as current facts.
+
+The bar's producer correctly says independent looks, but its prose's
+application over all frames, levels and ends lacks a justified joint-null
+contract. A separately sealed [selection control](../selection_null_review_2026_10_04/FINDINGS.md)
+passed its native run and four focused tests on unchanged sources. Its
+exact dependent-event counterexample can cross the 0.01 threshold in the
+opposite direction from the independent formula. This is not an arithmetic
+bug in that function or a reversal of any banked grading. Base-rate controls
+remain useful; calibrated rarity and physical explanation are distinct.
+The 248-test combined receipt remains separate from these four later tests.

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-04",
+  "sources": [
+    {
+      "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "path": "papers/P3_THE_PAPER/REPO_SWEEP_REPORT_2026-10-01.md",
+      "sha256": "b0d60f438c63b07a6b9936609d073164f79ba0a1972056ea509391933c92896a",
+      "reading": "Full report text; no foreign scientific producer executed."
+    },
+    {
+      "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "path": "outside_bench/memos/THE_PAPER_ALREADY_HAD_IT.md",
+      "sha256": "ac06358c45c8b1d25e020fb810c629decea794541428272a88120702f2e48709",
+      "reading": "Full report text; no foreign scientific producer executed."
+    },
+    {
+      "commit": "0043be2b95a51048b3a664789ede241497558e79",
+      "path": "docs/THE_BAR.md",
+      "sha256": "c2b87d04692a78460d5228a6c682a3808191163a58671ca1959ef250114a6275",
+      "reading": "Full report text; no foreign scientific producer executed."
+    },
+    {
+      "commit": "7cda35aa468cdb0ab2886e379b13ff31130be460",
+      "path": "docs/THEOREM_REGISTRY.md",
+      "sha256": "d354f5d1c40881790c49c0b8822003f9fcce0fb7b925a81c180df3715abbfece",
+      "reading": "Partial first 75 lines and relevant re-audit excerpts only; long full-file lookup truncated, no whole-registry claim."
+    }
+  ],
+  "foreign_results_independently_replayed": false
+}
