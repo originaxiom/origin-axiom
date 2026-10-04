@@ -29,3 +29,20 @@ remote-tracking ref and names any lane with unique work that `harvest_debt.py` d
 
 **Mirror divergence, recorded rather than fixed here:** on `sep16-branch` origin is 16 commits ahead of codeberg;
 on the review lane, 7 ahead. These are other seats' branches and this seat does not push them.
+
+## 2026-10-04 (S57) — the branch census at the owner's word ("i aprove it all")
+
+Every remote branch was listed with its last commit, its distance from main and its harvest state (B1472's landing
+day; the table is in the S57 log entry). Decided and executed:
+
+| branch | state found | action |
+|---|---|---|
+| `audit/fork-2026-09-20` | the codex operator's **second lane — the codex app seat — a LOCAL-ONLY branch** in its clone (`<home>/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20`), 134 commits since it forked from the physical-bridge lane on 2026-09-20, never pushed, on no seat list; 18 report directories dated 2026-10-04 alone | **pushed to both remotes** at `8b89d8fb`; registered as seat `auditfork` in `harvest_debt.py` and the `## Pins` table (52 report directories as backlog); its uncommitted work (7 paths) left to the seat |
+| `<v>/determined-hopper-t1cmii` (smlaws) | the SM seat's child lane, a one-off re-audit, read on main (B1456), unapplied by decision (L243 (f)) | tagged `retired/smlaws@7cda35aa4`, deleted on both remotes |
+| `<v>/physics-seat-evaluation-8dkbrl` (fc) | idle since 2026-09-06; R01–R72 harvested | tagged `retired/fc-physics-seat@659487bbd`, deleted on both remotes |
+| `golden_gate/*` (main + 5 dependabot branches, July; `paper-hostile-review-alero0`, 2026-08-25, memos harvested) | a fetch-only remote here | **needs the owner's hand** on GitHub (or the remote dropped) |
+| `sep16-branch`, `<v>/outside-bench` | dormant, fully rowed | kept until L245 is paid / memo 236's tool item lands, then retire |
+| `<v>/paper-review-verification-kaz3f5` (the referee) | ACTIVE through 2026-10-01; **round 5 and the 2026-10-01 sweep were unrowed because `harvest_debt` maps the lane's paths to no item** (a vacuous zero of the tool's) | rowed in S57; the mapping repair owed |
+
+Both codex lanes are one operator: the terminal seat on `audit/physical-bridge-2026-09-05` (R90 today, codeberg lagging
+at R85 — its mirror, not main's) and the app seat on `audit/fork-2026-09-20` (out of quota until 2026-10-11).

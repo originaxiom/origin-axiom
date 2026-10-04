@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1303** |
-| words of findings prose | **1,005,445** |
-| test lock files referenced | **762** |
-| arcs carrying an authored verdict | **1303** (100.0 %) |
+| research arcs with findings | **1304** |
+| words of findings prose | **1,006,503** |
+| test lock files referenced | **763** |
+| arcs carrying an authored verdict | **1304** (100.0 %) |
 | recorded closures | **803** (636 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 874 |
+| PROVED | 875 |
 | NEGATIVE | 327 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1474`** (1481 words, 1 locks)  
-THE SPIN SWAP, PHASE 1a (L246; sealed cb09deb0 / 1f6cdb42): decided at matrix level, independently of the torsion, the mirror GENUINELY SWAPS the geometric spin structure on seven amphichiral non-knots of the family (m003, m207, s955, s957, s960, t12838, o10_150695: no orientation-reversing isometry fixes it) and FIXES it on six (m004 -- the knot A5 chose, B279's theorem as control -- m206, s961, t12839, o10_150696 on its shortest presentation, o10_150707); every chiral member yields no mirror; the sealed 'one eta per member' failed informatively -- the reversing isometries' sign characters form one coset eta_0 K of the orientation-preserving isometries' character group K (order 2 on s957, 4 on s960, equal to the eta-set on s961), the swap is genuine iff 1 is not in eta_0 K, and the torsion route (blind to K) agrees on all twelve decided members. Two post-seal repairs disclosed (an efficiency rewrite with the controls reproduced; a length cap on chiral members). No physics banked; L246 Phase 1a advanced, 1b next. Nothing selects a state. 0 of 19.  
-`B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/FINDINGS.md`
+**PROVED — `B1475`** (1058 words, 1 locks)  
+THE SPIN SWAP, PHASE 1b (L246; sealed 37bde38e / 1d03d430): on every one of the seven swap members NO spin structure is mirror-invariant -- amphichiral manifolds none of whose spin structures is amphichiral (m003 by hand: H^1(M; Z/2) = Z/2 forces tau* = id and eta_0 != 0; the others on every spin structure and every reversing isometry found) -- while the knot m004 keeps both (B279), t12839 both, s961 four of eight; the orientation-odd spin-dependent quantity D_s(t) = Im R_1^(s)(t) is nonzero on all seven (at t = 2: sqrt3, -4 sqrt3, sqrt3/8, 8 sqrt3, -sqrt3, 56 sqrt3, -836 sqrt3 -- every value in sqrt3.Q) and zero to 1e-47 on the controls, escaping B849's 2-torsion argument exactly because that argument needs tau.s = s; the symmetry step conj R^(s) = R^(tau.s) holds on all 432 checks after a disclosed post-seal correction of the partner formula to (eta.chi) o tau^-1; P4 (mirror-invariant spin structures off the geometric orbit on s957, s960) fails -- there are none; the index route as sealed reaches only t12839 (I = 0 at the reached points). No physics banked; Phase 1c next. Nothing selects a state. 0 of 19.  
+`B1475_the_spin_swap_phase_1b_does_the_swap_carry_a_quantity/FINDINGS.md`
 
 **NEGATIVE — `B1470`** (565 words, 0 locks)  
 THE UNRUN MODULES RUN ON MAIN (L222 (iii); L245's xB031): B1418's own driver on t12835 with its 1 800 s budget lifted runs all 6 435 modules in 4 234 s -- none NOT RUN -- with index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3, NO THREE; B1418's 3 110 banked rows agree 3 110 of 3 110 and the sep16 lane's xB031 table agrees 6 435 of 6 435 key by key; the 3 325 formerly unrun are 3 070 zero, 150 at -1, 90 at +1, 15 at -2. The one unrun computation the record kept pointing at holds no three. Nothing selects a state. 0 of 19.  

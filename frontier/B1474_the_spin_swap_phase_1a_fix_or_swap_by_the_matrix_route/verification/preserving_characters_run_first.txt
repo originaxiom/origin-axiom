@@ -10,7 +10,7 @@ t12838 K [(1, 1, 1)] etas [(1, -1, 1)] -> GENUINE SWAP | torsion odd-real False 
 t12839 K [(1, 1, 1)] etas [(1, 1, 1)] -> FIX-ABLE (eta_0 in K) | torsion odd-real True agree True
 o10_150695 K [(1, 1, 1)] etas [(-1, 1, 1)] -> GENUINE SWAP | torsion odd-real False agree True
 Traceback (most recent call last):
-  File "/Users/dri/origin-axiom/frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/verification/preserving_characters.py", line 60, in <module>
+  File "<repo>/frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/verification/preserving_characters.py", line 60, in <module>
     e0 = next(iter(etas)); coset = {tuple(a * b for a, b in zip(e0, k)) for k in K}
          ^^^^^^^^^^^^^^^^
 StopIteration

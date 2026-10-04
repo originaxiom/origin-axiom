@@ -1,12 +1,12 @@
 {
- "measured_at_main_head": "e90b4f7e",
+ "measured_at_main_head": "37bde38e2",
  "main_root": "517783f2",
  "lanes": [
   {
-   "ref": "codeberg/audit/physical-bridge-2026-09-05",
-   "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3096,
-   "commits_unique_vs_main": 241,
+   "ref": "codeberg/audit/fork-2026-09-20",
+   "branch": "fork-2026-09-20",
+   "commits_total": 3117,
+   "commits_unique_vs_main": 262,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -15,11 +15,11 @@
    "other_repository": false
   },
   {
-   "ref": "codeberg/<v>/determined-hopper-t1cmii",
-   "branch": "determined-hopper-t1cmii",
-   "commits_total": 3066,
-   "commits_unique_vs_main": 191,
-   "merge_base": "44c75c36",
+   "ref": "codeberg/audit/physical-bridge-2026-09-05",
+   "branch": "physical-bridge-2026-09-05",
+   "commits_total": 3120,
+   "commits_unique_vs_main": 265,
+   "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
    "has_a_harvest_pin": true,
@@ -51,22 +51,10 @@
    "other_repository": false
   },
   {
-   "ref": "codeberg/<v>/physics-seat-evaluation-8dkbrl",
-   "branch": "physics-seat-evaluation-8dkbrl",
-   "commits_total": 3001,
-   "commits_unique_vs_main": 165,
-   "merge_base": "a5138424",
-   "shares_main_root": true,
-   "watched_by_the_gate": true,
-   "has_a_harvest_pin": true,
-   "is_dependabot": false,
-   "other_repository": false
-  },
-  {
    "ref": "codeberg/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3105,
-   "commits_unique_vs_main": 230,
+   "commits_total": 3127,
+   "commits_unique_vs_main": 252,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -159,10 +147,10 @@
    "other_repository": true
   },
   {
-   "ref": "origin/audit/physical-bridge-2026-09-05",
-   "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3096,
-   "commits_unique_vs_main": 241,
+   "ref": "origin/audit/fork-2026-09-20",
+   "branch": "fork-2026-09-20",
+   "commits_total": 3117,
+   "commits_unique_vs_main": 262,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -171,11 +159,11 @@
    "other_repository": false
   },
   {
-   "ref": "origin/<v>/determined-hopper-t1cmii",
-   "branch": "determined-hopper-t1cmii",
-   "commits_total": 3066,
-   "commits_unique_vs_main": 191,
-   "merge_base": "44c75c36",
+   "ref": "origin/audit/physical-bridge-2026-09-05",
+   "branch": "physical-bridge-2026-09-05",
+   "commits_total": 3120,
+   "commits_unique_vs_main": 265,
+   "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
    "has_a_harvest_pin": true,
@@ -207,22 +195,10 @@
    "other_repository": false
   },
   {
-   "ref": "origin/<v>/physics-seat-evaluation-8dkbrl",
-   "branch": "physics-seat-evaluation-8dkbrl",
-   "commits_total": 3001,
-   "commits_unique_vs_main": 165,
-   "merge_base": "a5138424",
-   "shares_main_root": true,
-   "watched_by_the_gate": true,
-   "has_a_harvest_pin": true,
-   "is_dependabot": false,
-   "other_repository": false
-  },
-  {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3105,
-   "commits_unique_vs_main": 230,
+   "commits_total": 3127,
+   "commits_unique_vs_main": 252,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -243,9 +219,9 @@
    "other_repository": false
   }
  ],
- "lanes_with_unique_work": 15,
- "total_unique_commits_across_lanes": 1998,
- "same_repository_lanes": 14,
+ "lanes_with_unique_work": 13,
+ "total_unique_commits_across_lanes": 1902,
+ "same_repository_lanes": 12,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,
  "other_repository_lanes": [

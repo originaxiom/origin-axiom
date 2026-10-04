@@ -9817,6 +9817,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1475": {
+   "slug": "the spin swap phase 1b does the swap carry a quantity",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B279",
+    "B849",
+    "L246",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

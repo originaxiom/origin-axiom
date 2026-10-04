@@ -1,0 +1,10 @@
+m003 Z/5 + Z spin structures 2 | D_s0(2) = 1.73205080757 | symmetry on all s: {'symmetry_all_s': 24, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: NONE
+m207 Z/3 + Z/3 + Z spin structures 2 | D_s0(2) = -6.92820323028 | symmetry on all s: {'symmetry_all_s': 24, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: NONE
+s955 Z/20 + Z spin structures 4 | D_s0(2) = 0.216506350946 | symmetry on all s: {'symmetry_all_s': 48, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: NONE
+s957 Z/4 + Z spin structures 4 | D_s0(2) = 13.8564064606 | symmetry on all s: {'symmetry_all_s': 48, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: NONE
+s960 Z/2 + Z/10 + Z spin structures 8 | D_s0(2) = -1.73205080757 | symmetry on all s: {'symmetry_all_s': 96, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: NONE
+t12838 Z/7 + Z/7 + Z spin structures 2 | D_s0(2) = 96.9948452239 | symmetry on all s: {'symmetry_all_s': 24, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: NONE
+o10_150695 Z/5 + Z/25 + Z spin structures 2 | D_s0(2) = -1447.99447513 | symmetry on all s: {'symmetry_all_s': 24, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: NONE
+m004 Z spin structures 2 | D_s0(2) = 3.40687761729e-51 | symmetry on all s: {'symmetry_all_s': 24, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: [(1, -1), (1, 1)]
+s961 Z/4 + Z/4 + Z spin structures 8 | D_s0(2) = -1.4952849827e-50 | symmetry on all s: {'symmetry_all_s': 96, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: [(-1, -1, -1), (-1, -1, 1), (1, 1, -1), (1, 1, 1)]
+t12839 Z/3 + Z/15 + Z spin structures 2 | D_s0(2) = -3.08588429089e-47 | symmetry on all s: {'symmetry_all_s': 24, 'symmetry_fail': 0, 'D_odd_fail': 0} | mirror-invariant: [(-1, 1, 1), (1, 1, 1)]

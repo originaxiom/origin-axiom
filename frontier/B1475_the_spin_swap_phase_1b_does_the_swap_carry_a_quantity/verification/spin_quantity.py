@@ -4,8 +4,8 @@ spin-dependent quantity D_s(t) = Im R_1^{(s)}(t), and the mirror-invariant spin 
 
 Spin(M) = {rho (x) chi : chi in Hom(pi_1, +-1)}, s_0 = rho the geometric lift.  From B1474 (spin_swap.json): the reversing
 automorphisms tau (as words) with sign characters eta_tau.  For s = rho (x) chi:
-    conj(rho (x) chi) ~ (rho (x) eta_tau (x) chi o tau^-1) o tau,  so  conj R^{(chi)}(t) = R^{(eta_tau . chi o tau^-1)}(t)
-    (homeomorphism invariance; the mirror partner of chi is  tau.chi := eta_tau . (chi o tau^-1)).
+    conj(rho (x) chi) ~ (rho (x) (eta_tau . chi) o tau^-1) o tau,  so  conj R^{(chi)}(t) = R^{((eta_tau . chi) o tau^-1)}(t)
+    (homeomorphism invariance; the mirror partner of chi is  tau.chi := (eta_tau . chi) o tau^-1 -- corrected post-seal, see mirror_partner).
 Mirror-invariant spin structures of tau: chi with tau.chi = chi.  Cells C1-C3; C4 (the index) is in spin_index_1b.py."""
 import sys, json, itertools, pathlib, warnings; warnings.filterwarnings("ignore")
 HERE = pathlib.Path(__file__).resolve().parent
@@ -39,11 +39,14 @@ def pull(chi, tau):
 
 
 def mirror_partner(chi, tau, eta, chars):
-    """tau.chi = eta . (chi o tau^-1): the chi' with chi' o tau == chi, times eta"""
+    """tau.chi = (eta . chi) o tau^-1  -- post-seal correction (disclosed): the seal's formula eta . (chi o tau^-1) agrees
+    with this one exactly when tau* is trivial on the characters, and failed the symmetry check on s960 and s961 where it
+    is not.  Derivation: conj((rho (x) chi)(g)) ~ eta(g) chi(g) rho(tau g) = (rho (x) (eta chi) o tau^-1)(tau g)."""
     key = lambda c: tuple(c[g] for g in sorted(c))
-    inv = [c for c in chars if key(pull(c, tau)) == key(chi)]
+    ec = {g: eta[g] * chi[g] for g in chi}
+    inv = [c for c in chars if key(pull(c, tau)) == key(ec)]       # c with c o tau == eta.chi, i.e. c = (eta.chi) o tau^-1
     assert len(inv) == 1, ("tau* not a permutation on the characters found", len(inv))
-    c = inv[0]; return {g: eta[g] * c[g] for g in c}
+    return dict(inv[0])
 
 
 def run(nm, taus, pts=(mpf(2), mpf(3), mpf("0.6"))):

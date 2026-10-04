@@ -61,8 +61,9 @@ AUDIT_COMPANION = re.compile(r"_(DESIGN|PRIOR|CONTROL[A-Z_]*|REPAIR[A-Z_]*|DERIV
 SEATS = [
     dict(key="sm", label="SM-derivation seat", branch="standard-model-derivation-0qt6ao",
          remotes=("origin", "codeberg"), cell=("sm-derivation", "sm seat", "sm-seat")),
-    dict(key="fc", label="physics seat (fc)", branch="physics-seat-evaluation-8dkbrl",
-         remotes=("origin", "codeberg"), cell=("(fc)", "physics seat", "fc ")),
+    # RETIRED 2026-10-04 at the owner's word (S57): tagged retired/fc-physics-seat@659487bbd and deleted on both remotes;
+    # R01-R72 harvested (R72 rows 1-3 VERIFIED). Kept as a comment so the key's history can be followed.
+    # dict(key="fc", label="physics seat (fc)", branch="physics-seat-evaluation-8dkbrl", ...),
     dict(key="codex", label="codex seat", branch="seat-r001",
          remotes=("origin", "codeberg"), cell=("codex",)),
     dict(key="cc3", label="cc3 (paper seat)", branch="structure-genesis-first",
@@ -96,8 +97,14 @@ SEATS = [
     # RETIRED 2026-10-03 at the owner's word (B1467): tagged retired/magical-wright-vwrmtt at 0043be2b and deleted on both
     # remotes; its one commit had been read on main (B1456). Kept here as a comment so the key's history can be followed.
     # dict(key="smgates", label="SM seat child lane (seal gates)", branch="magical-wright-vwrmtt", ...),
-    dict(key="smlaws", label="SM seat child lane (creates_law re-audit)", branch="determined-hopper-t1cmii",
-         remotes=("origin", "codeberg"), cell=("child lane (creates_law",)),
+    # RETIRED 2026-10-04 at the owner's word (S57): tagged retired/smlaws@7cda35aa4 and deleted on both remotes; its three
+    # commits were read on main (B1456), the re-audit stays L243 (f).
+    # dict(key="smlaws", label="SM seat child lane (creates_law re-audit)", branch="determined-hopper-t1cmii", ...),
+    # ADDED 2026-10-04 (S57): the codex operator's SECOND lane, found as a local-only branch in its clone (134 commits since
+    # it forked from the physical-bridge lane on 2026-09-20, never pushed); pushed to both remotes at the owner's word.
+    # Items = its report directories under reports/ other than the physical-bridge lane's.
+    dict(key="auditfork", label="audit seat, fork lane", branch="fork-2026-09-20",
+         remotes=("origin", "codeberg"), cell=("audit-fork", "fork lane")),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
@@ -290,6 +297,11 @@ def seat_index(seat, head, main_frontier, main_docs):
                 if stem == "README" or AUDIT_COMPANION.search(stem):
                     continue
                 idx[stem] = f
+    elif k == "auditfork":
+        for d in _ls(head, "reports/"):
+            name = d.rstrip("/").split("/")[-1]
+            if d.startswith("reports/") and name != AUDIT_DIR.split("/")[-1] and "." not in name:
+                idx[name] = d
     return idx
 
 
@@ -356,6 +368,10 @@ def path_ids(seat, path, idx):
             base = AUDIT_COMPANION.sub("", stem)
             if base in idx:
                 out.add(base)
+    elif k == "auditfork":
+        m = re.match(r"reports/([A-Za-z0-9_]+)/", path)
+        if m and m.group(1) in idx:
+            out.add(m.group(1))
     return out
 
 
@@ -403,11 +419,11 @@ def row_ids(seat, row, idx):
                 out.add(rid)
     elif k == "qor5up":
         out |= {f"B{n}" for n in _nums(t, r"\bB(10[2-5]\d)\b", r"10[2-5]\d")}
-    elif k == "audit":
+    elif k in ("audit", "auditfork"):
         for rid in idx:
             if re.search(rf"\b{re.escape(rid)}\b", t):
                 out.add(rid)
-    return out & set(idx) if k in ("sm", "audit", "hostile", "braver") else out
+    return out & set(idx) if k in ("sm", "audit", "auditfork", "hostile", "braver") else out
 
 
 # ---------------------------------------------------------------- the pure reconciliation (selftested)

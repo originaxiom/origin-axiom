@@ -1,0 +1,58 @@
+[
+ {
+  "label": "q0 = 17 + 12 sqrt2",
+  "relator_residual": "6.337e-57",
+  "fused": {
+   "generated_algebra_dim": 25,
+   "gap": [
+    "27.72",
+    "none"
+   ],
+   "words": 5461
+  },
+  "split S = A (+) 1 (control, reducible)": {
+   "generated_algebra_dim": 17,
+   "gap": [
+    "71.34",
+    "1.374e-55"
+   ],
+   "words": 5461
+  },
+  "W (control, reducible non-split)": {
+   "generated_algebra_dim": 21,
+   "gap": [
+    "71.29",
+    "0.0"
+   ],
+   "words": 5461
+  }
+ },
+ {
+  "label": "q0' = 17 - 12 sqrt2",
+  "relator_residual": "1.799e-56",
+  "fused": {
+   "generated_algebra_dim": 25,
+   "gap": [
+    "14.12",
+    "none"
+   ],
+   "words": 5461
+  },
+  "split S = A (+) 1 (control, reducible)": {
+   "generated_algebra_dim": 17,
+   "gap": [
+    "71.34",
+    "7.031e-56"
+   ],
+   "words": 5461
+  },
+  "W (control, reducible non-split)": {
+   "generated_algebra_dim": 21,
+   "gap": [
+    "71.13",
+    "0.0"
+   ],
+   "words": 5461
+  }
+ }
+]

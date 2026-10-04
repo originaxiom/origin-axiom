@@ -1,0 +1,18 @@
+{
+ "id": "B1475",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1474", "B1471", "B849", "B279"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI: spin structures as SL(2,C) lifts; the mirror's affine action on Spin(M); the odd twisted Alexander function per spin structure",
+  "object": "the seven swap members and three fix controls of the 112-family at level one",
+  "reach": "class",
+  "hypotheses": "the reversing isometries are B1474's found witnesses (word length <= 7, up to six per member); numerics at 50 digits; the index cell reaches only t12839 (the fibred route's level-1 ends are elliptic or absent), so the m003 index on its geometric lift is owed"
+ },
+ "claim_one_line": "THE SPIN SWAP, PHASE 1b (L246; sealed 37bde38e / 1d03d430): on every one of the seven swap members NO spin structure is mirror-invariant -- amphichiral manifolds none of whose spin structures is amphichiral (m003 by hand: H^1(M; Z/2) = Z/2 forces tau* = id and eta_0 != 0; the others on every spin structure and every reversing isometry found) -- while the knot m004 keeps both (B279), t12839 both, s961 four of eight; the orientation-odd spin-dependent quantity D_s(t) = Im R_1^(s)(t) is nonzero on all seven (at t = 2: sqrt3, -4 sqrt3, sqrt3/8, 8 sqrt3, -sqrt3, 56 sqrt3, -836 sqrt3 -- every value in sqrt3.Q) and zero to 1e-47 on the controls, escaping B849's 2-torsion argument exactly because that argument needs tau.s = s; the symmetry step conj R^(s) = R^(tau.s) holds on all 432 checks after a disclosed post-seal correction of the partner formula to (eta.chi) o tau^-1; P4 (mirror-invariant spin structures off the geometric orbit on s957, s960) fails -- there are none; the index route as sealed reaches only t12839 (I = 0 at the reached points). No physics banked; Phase 1c next. Nothing selects a state. 0 of 19."
+}
