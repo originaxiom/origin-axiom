@@ -1,6 +1,6 @@
 {
  "id": "B1536",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1535",
@@ -22,12 +22,14 @@
   "object": "every connected finite cover of degree <= 12 of m004 and m003, and their Q8 towers at m = 1, 2, 3, 4, 6, 9, 12, 18 (184 and 156 covers), at every pulled-back character of finite order and every class of the cover, at the hyperbolic point",
   "reach": "class",
   "hypotheses": [
-   "sealed and running: no outcome has been read; this record is replaced at the bank",
-   "at the hyperbolic point only; finite-order characters pulled back from the state (Lemma Z'')",
-   "the covers' own characters, covers of larger degree, other states and non-unitary characters are not covered (the seal's section 9)"
+   "at the hyperbolic point only (the complete structure); the four is the SO(3,1) vector representation",
+   "the count is main's interior index I = n(E) - n(E*) (B1297) on the cover, on an unsealed cusp (B1392); no end condition chosen",
+   "B1509's dictionary: N(10') = -I(W1), N(5bar') = -I(Lambda^2 W1); generation-shaped means I(W1) = I(Lambda^2 W1) != 0; three is (-3, -3)",
+   "finite-order characters pulled back from the state (Lemma Z''); every class of the cover (the pulled-back class and, wherever min(capW, capL2) >= 2, every cusp stratum at two random classes)",
+   "the covers' own characters (characters of pi_1 N not pulled back), covers of larger degree, other states and non-unitary characters are not read (the seal's section 9)"
   ]
  },
- "claim_one_line": "THE FINITE COVERS, SEALED AND RUNNING (9c28d076; the addendum beside the seal at eeb20c44; sL-10 item 16, sm:B1535's Corollary C3, second place): does sm:B1515's frame carry three generations on a connected finite cover of degree <= 12 of m004 (176) or m003 (148), or on their Q8 towers (m = 1, 2, 3, 4, 6, 9, 12, 18), at any pulled-back character of finite order (8,148 and 35,100 characters, Lemma Z'') and any class of the cover (the pulled-back class at kappa^5 = 1; every cusp stratum at two classes wherever min(capW, capL2) >= 2)? Two routes sharing no linear algebra: N (the cover read on the base by Lemmas S' and O, FLINT, p < 2^24) and R (the cover's own Reidemeister-Schreier presentation, PARI, p < 2^31). Ten predictions sealed with priors summing to 7.88; NEGATIVE on three only if both routes read the whole population and P1, P2, P8 and P10 hold. The banked identity holds on the amended files; the four runs started at 06:40:05Z. No outcome has been read. 0 of 19.",
+ "claim_one_line": "THE FINITE COVERS, run as sealed (9c28d076; the addendum beside the seal at eeb20c44; sL-10 item 16, sm:B1535's Corollary C3, second place): no connected finite cover of degree <= 12 of m004 (176) or m003 (148), and no cover in their Q8 towers (m = 1, 2, 3, 4, 6, 9, 12, 18), carries three generations of sm:B1515's frame at a pulled-back character of finite order (8,148 and 35,100 characters, Lemma Z''), at any class. Routes N (the cover read on the base by Lemmas S' and O, FLINT) and R (the cover's own Reidemeister-Schreier presentation, PARI) share no linear algebra; both read the whole population and agree on all 43,248 rows, 1,228 Part P readings and 176 Part O strata, with every identity and Theorem C cap holding. No member has both caps >= 3: the largest min(capW, capL2) is 1 on m004 and 2 on m003, reached at the trivial character of sixteen non-abelian degree-10 covers of m003 (n(1) = 1, n(rho) = 2); capL2 reaches 4 on m003's degree-9 cover d9.2 at its order-5 characters with capW = 1. No count read is generation-shaped, at the pulled-back class or at the cover's own classes. On the Q8 towers the line is Proposition Q's (n(1) = 4 at kappa = 1: m004 at m = 6, 12, 18; m003 at m = 12) but n(rho) = 0 at every m: the four is the bottleneck. Eight of ten predictions held (P4 and P6 fail: both supplies have interior classes at the trivial character on non-abelian covers, from degree 5 on m003). NEGATIVE on three for this population. 0 of 19.",
  "prior_work": {
   "repo": {
    "heads": {

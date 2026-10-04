@@ -9937,13 +9937,20 @@
    "slug": "the finite covers",
    "motifs": [
     "monoid",
+    "closing",
     "figure_eight",
+    "trace_map",
+    "kappa",
     "metallic",
-    "z3_generation"
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
    ],
    "refs": [
     "B349",
-    "B837",
     "K1",
     "K2",
     "K4",
@@ -9952,10 +9959,18 @@
     "P1",
     "P10",
     "P2",
-    "P8"
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "S52",
+    "S56"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 3,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "arithmetic"
   },

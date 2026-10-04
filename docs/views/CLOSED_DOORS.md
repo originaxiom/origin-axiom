@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**826 recorded closures — of which 659 are CLASSIFIED by mechanism and
+**827 recorded closures — of which 660 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -109,6 +109,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `the-sides-never-meet (the W count is >= -1 everywhere, and -1 only at the interior class of M6's 120 two-class members on covers containing nu^4; there the group <nu^4> already carries two Lambda^2 terms of -1, so the Lambda^2 count is -2 or -4; every Lambda^2 count is <= 0, and 0 on M2-M5; so I(W) = I(Lambda^2 W) != 0 never occurs. sm:B1535's Theorem C states the two caps, b0 + n(nu^4) on the 10bar' side and n(nu^3 rho) on the 5bar' side)` | 1 |  |
 | `capped-by-the-supplies (Theorem C: g generations need n(nu^3 rho) >= g and b0 + n(nu^4) >= g at every class; on the silver squares' abelian covers at the pulled-back members n(nu^4) = 0 by Lemma W, so the 10bar' side is at most b0 <= 1 and the 5bar' side at most 2: at most one generation at every class, the cover's own mixed classes included)` | 1 |  |
 | `the-interior-polynomial-decides (near rho_hyp a count needs a special twist at a root of the fibre's interior polynomial chi_K; for Lambda^2 the root at 1 is simple at every base point, so no deformation meets one; for the four the sandwich closes it wherever the base condition holds)` | 1 |  |
+| `capped-by-the-supplies (Theorem C: three needs min(capW, capL2) >= 3; on every cover of degree <= 12 of m004 and m003 and on their Q8 towers the largest is 2; the line's interior classes at the trivial character appear only on non-abelian covers, from degree 5, and the four's from degree 5; on the Q8 towers the line has 4 classes but the four none, so the four is the bottleneck there)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
@@ -640,7 +641,7 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B774` |  | `other` |
 | `B791` |  | `other` |
 
-## How far each closure reaches (36 carry a scope tag)
+## How far each closure reaches (37 carry a scope tag)
 
 A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
 where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
@@ -652,7 +653,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `F-AP` |  | 3 | 3 |
 | `F-CI` | 1 |  |  |
 | `F-FC` | 2 | 6 | 8 |
-| `F-HE` | 7 | 6 |  |
+| `F-HE` | 7 | 7 |  |
 
 | arc | frame | reach | object | read with |
 |---|---|---|---|---|
@@ -692,3 +693,4 @@ without a tag (790) predate the tag; read their object from their own text.
 | `B1532` | `F-HE` | class | m004's levels M2-M6 at the hyperbolic point: every finite abelian cover, every lambda = 1 pulled-back member of sm:B151… |  |
 | `B1534` | `F-HE` | class | m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite regular abelian cover, every pulled-back member of… |  |
 | `B1535` | `F-HE` | class | m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite abelian cover, at every pulled-back member of sm:B1… |  |
+| `B1536` | `F-HE` | class | m004 = +LR and m003 = -LR at the hyperbolic point: every connected finite cover of degree <= 12 (176 and 148) and the Q… |  |

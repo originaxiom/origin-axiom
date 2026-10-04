@@ -11882,5 +11882,32 @@
     "words to length 12 and levels to 6"
    ]
   }
+ },
+ {
+  "id": "B1536",
+  "claim_killed": "THE FINITE COVERS (sL-10 item 16; sm:B1535's Corollary C3, second place; the owner's 'three generations is smth we are after seripuslu'): that some connected finite cover of degree <= 12 of m004 = +LR or m003 = -LR, or some cover in their Q8 towers (m = 1, 2, 3, 4, 6, 9, 12, 18), carries three generations of sm:B1515's frame at a pulled-back character of finite order at the hyperbolic point, at some class of the cover, I(W1) = I(Lambda^2 W1) = -3, in either order. Sealed at 9c28d076 (addendum eeb20c44) and run as sealed. Lemma S' (Shapiro and Mackey with the permutation module) reads every cover on the base, Lemma O its own classes, Lemma Z'' puts every count at kappa in mu_12L (8,148 and 35,100 characters). Routes N (FLINT, on the base) and R (PARI, on the cover's own Reidemeister-Schreier presentation) share no linear algebra; both read the whole population and agree on all 43,248 rows, 1,228 Part P readings and 176 Part O strata, every identity and Theorem C cap holding. No member has both caps >= 3: the largest min(capW, capL2) is 1 on m004 and 2 on m003, at the trivial character of sixteen non-abelian degree-10 covers of m003 (n(1) = 1, n(rho) = 2). No count read, at the pulled-back class or the cover's own classes, is generation-shaped of any size.",
+  "kill_form": "capped-by-the-supplies (Theorem C: three needs min(capW, capL2) >= 3; on every cover of degree <= 12 of m004 and m003 and on their Q8 towers the largest is 2; the line's interior classes at the trivial character appear only on non-abelian covers, from degree 5, and the four's from degree 5; on the Q8 towers the line has 4 classes but the four none, so the four is the bottleneck there)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Larger covers, where room is growing (1 through degree 9, 2 at degree 10 on m003): the golden states' icosian A5 covers of degree 60 and their 2I double covers (sL-12 item 2), the congruence covers of higher level, and covers carrying embedded closed totally geodesic surfaces where the four's supply grows by bending (Long through Bart-Scannell; sL-12 item 1). The covers' own characters (not pulled back), on these covers and on the degree-10 covers of m003 with room for two. The silver squares and the other word states on non-abelian covers. Off the hyperbolic point; other frames.",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-10-04 at banking time, with content: a NEGATIVE read as sealed, its population in its scope (B1207's A3, held by tests/test_negatives_read_together.py).",
+  "note": "ENTERED 2026-10-04 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1536_the_finite_covers/verification/route_n.py and route_r.py through run.py (the sealed runs, records banked as run_<route>_<state>.jsonl.gz with run_sha256.txt), read_out.py (the sealed read-out) and post_run_rooms.py (after the run, disclosed); locked by tests/test_b1536_the_finite_covers.py.",
+  "routed_from": "sm-branch-2026-10-04-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "m004 = +LR and m003 = -LR at the hyperbolic point: every connected finite cover of degree <= 12 (176 and 148) and the Q8 towers at m = 1, 2, 3, 4, 6, 9, 12, 18, at every pulled-back character of finite order (Lemma Z'') and every class (Theorem C), both orders",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point only; the four is the SO(3,1) vector representation",
+    "the count is main's interior index I = n(E) - n(E*) (B1297) on the cover, on an unsealed cusp (B1392); B1509's dictionary for 10' and 5bar'",
+    "pulled-back characters only: the covers' own characters are not read",
+    "covers of degree <= 12 and the eight Q8 levels only; larger covers (where bending surfaces live) are not read"
+   ]
+  }
  }
 ]

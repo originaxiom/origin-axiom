@@ -1,5 +1,43 @@
 # Changelog
 
+## B1536 banked: THE FINITE COVERS — no connected cover of degree ≤ 12 of m004 or m003, and no cover in their Q₈ towers, carries three generations (NEGATIVE; run as sealed)
+
+- **The run.** sL-10 item 16, run as sealed at 9c28d076, with the addendum beside it at eeb20c44.
+  - The banked identity held. The four runs started at 06:40:05Z, one worker each: route R took 4,595 s (m004) and
+    21,570 s (m003); route N took 5,825 s and 25,063 s.
+  - `read_out.py` ran once, at 13:40Z.
+- **Verdict: NEGATIVE.** Both routes read all 8,148 and 35,100 characters on 184 and 156 covers. They agree on all 43,248
+  rows, 1,228 Part P readings and 176 Part O strata, and every identity and cap holds.
+  - No member has both caps ≥ 3, and no count read is generation-shaped, at the pulled-back class or at the cover's own
+    classes.
+  - The largest min(capW, capL2) is 1 on m004 and 2 on m003. The 2 is at the trivial character of sixteen non-abelian
+    degree-10 covers (n(1) = 1, n(ρ) = 2): room for two, growing with degree.
+  - capL2 reaches 4 on m003's d9.2 (characters with u of order 5), where capW = 1.
+  - The Q₈ towers carry the line (n(1) = 4 at κ = 1: m004 at m = 6, 12, 18; m003 at m = 12) but not the four (n(ρ) = 0 at
+    every m).
+  - Eight of ten predictions held. P4 and P6 failed: both supplies have interior classes at the trivial character on
+    non-abelian covers, from degree 5.
+- **Disclosed:**
+  - the progress line's print slip (ERROR_LEDGER);
+  - a 13:24Z completion check that printed one row of `run_R_m003.jsonl`;
+  - `post_run_rooms.py`, written after the read-out.
+- **Records.** The run records are banked as `.jsonl.gz` with `run_sha256.txt` (`*.jsonl` is not tracked).
+- **Surfaces:**
+  - THEOREM_REGISTRY T-THE-FINITE-COVERS; SEAL_LEDGER verdict; ERROR_LEDGER;
+  - OPEN_LEADS (sL-10 item 16 banked, sL-12 item 1 updated); CAMPAIGN_STATUS; the alias table;
+  - the relay `SM_TO_CC_AND_CODEX_2026-10-04_THE_FINITE_COVERS.md` and its RELAY_LEDGER row;
+  - kill graph `capped-by-the-supplies` (F-HE, reach class); atlas, views, claim base.
+  - Lock: `tests/test_b1536_the_finite_covers.py`, 11 tests, all pass. It includes a live re-read, in both routes, of a
+    cover with room for two.
+- **The affected tests on the sL-12 commit** (92 files, `scripts/affected_tests.py`): 1,978 passed, 2 skipped, none failed.
+- **B1538, disclosed now.**
+  - Part L finished at 13:45:11Z (108 chunks, exit 0).
+  - Part F as sealed is infeasible: 64,422 candidates and 948,832,288 planned readings, about 458 days on one worker. Nearly
+    all of it is on the silver states; the golden states need 3,104 readings. The count is aggregate only, from the
+    candidate list and the sealed Smith-form count.
+  - Part F was stopped by exact PID at 13:54:06Z. Its partial record (one candidate header, 12,825 readings) is kept
+    unread. A scoped addendum follows before any read-out.
+
 ## sL-12 registered: the room for three and the golden covers (a dossier; nothing sealed, no outcome read)
 
 - **Why now.** The owner asked that three generations stay first, that no result be left unrecorded, and that the golden

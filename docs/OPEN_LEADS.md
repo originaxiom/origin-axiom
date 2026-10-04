@@ -3980,6 +3980,14 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    m004 and m003 and their Q₈ towers, at every pulled-back finite-order character, every class (the pulled-back class, and
    every stratum of the cover's own classes where both caps are ≥ 2), in routes N and R. Predictions P1–P10; NEGATIVE on
    three if both routes read the whole population and P1, P2, P8 and P10 hold.
+   **Banked 2026-10-04 (NEGATIVE, run as sealed; 8 of 10 predictions held):**
+   - Both routes read all 8,148 and 35,100 characters and agree everywhere.
+   - No member has both caps ≥ 3, and no count read is generation-shaped.
+   - The largest min(capW, capL2) is 1 on m004 and 2 on m003, at the trivial character of sixteen non-abelian degree-10
+     covers.
+   - The Q₈ towers have the line (n(1) = 4) but not the four (n(ρ) = 0 at κ = 1).
+   - P4 and P6 failed: both supplies have interior classes at the trivial character on non-abelian covers, from degree 5.
+   - Next: larger covers (sL-12 items 1 and 2) and the covers' own characters.
 
 ## sL-11 — THE SYMMETRIC PHASE (registered 2026-10-03, sm:B1531; this seat's proposal, the owner may reorder)
 
@@ -4022,6 +4030,9 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
    - Against it: m004 is small, and H³/PSL(2, O₃) has no closed embedded totally geodesic 2-orbifold (Jung–Reid's setting), so
      the surfaces embed only in genuinely larger covers. A census of small covers can come back negative while room exists
      higher up.
+   - sm:B1536 (banked 2026-10-04): at the trivial character the room is 1 through degree 9 and 2 at degree 10 (sixteen
+     non-abelian covers of m003, n(1) = 1 and n(ρ) = 2). It is growing with degree, as the bending picture expects, and is
+     below three to degree 12.
    - Next: read the chain at source. Then seal a census of n(1) and n(ρ) at the trivial character on the covers of m004 and m003
      beyond degree 12.
 2. **The icosian line on the golden states** (structure computed; no outcome read).

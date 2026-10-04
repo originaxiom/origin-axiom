@@ -1,0 +1,119 @@
+{
+ "routes": {
+  "N m004": {
+   "covers done": 184,
+   "rows": 8148
+  },
+  "R m004": {
+   "covers done": 184,
+   "rows": 8148
+  },
+  "N m003": {
+   "covers done": 156,
+   "rows": 35100
+  },
+  "R m003": {
+   "covers done": 156,
+   "rows": 35100
+  }
+ },
+ "agreement": {
+  "compared": {
+   "rows": 43248,
+   "Part P": 1228,
+   "Part O strata": 176
+  },
+  "disagreements": {},
+  "first disagreements": {}
+ },
+ "completeness": {
+  "N m004": {
+   "expected": 8148,
+   "read": 8148,
+   "missing": 0,
+   "unexpected": 0
+  },
+  "R m004": {
+   "expected": 8148,
+   "read": 8148,
+   "missing": 0,
+   "unexpected": 0
+  },
+  "N m003": {
+   "expected": 35100,
+   "read": 35100,
+   "missing": 0,
+   "unexpected": 0
+  },
+  "R m003": {
+   "expected": 35100,
+   "read": 35100,
+   "missing": 0,
+   "unexpected": 0
+  }
+ },
+ "complete": true,
+ "generation-shaped": [],
+ "generation-shaped at the pulled-back class (either route)": [],
+ "three": [],
+ "open strata": [],
+ "failed readings": [],
+ "failed readings (number)": 0,
+ "predictions": {
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": false,
+  "P5": true,
+  "P6": false,
+  "P7": true,
+  "P8": true,
+  "P9": true,
+  "P10": true
+ },
+ "the Q8 tower's n(1) at kappa = 1": {
+  "m004": {
+   "Q8.m18": 4,
+   "Q8.m12": 4,
+   "Q8.m9": 0,
+   "Q8.m6": 4,
+   "Q8.m4": 0,
+   "Q8.m3": 0,
+   "Q8.m2": 0,
+   "Q8.m1": 0
+  },
+  "m003": {
+   "Q8.m18": 0,
+   "Q8.m12": 4,
+   "Q8.m9": 0,
+   "Q8.m6": 0,
+   "Q8.m4": 0,
+   "Q8.m3": 0,
+   "Q8.m2": 0,
+   "Q8.m1": 0
+  }
+ },
+ "the Q8 tower's n(rho) at kappa = 1": {
+  "m004": {
+   "Q8.m18": 0,
+   "Q8.m12": 0,
+   "Q8.m9": 0,
+   "Q8.m6": 0,
+   "Q8.m4": 0,
+   "Q8.m3": 0,
+   "Q8.m2": 0,
+   "Q8.m1": 0
+  },
+  "m003": {
+   "Q8.m18": 0,
+   "Q8.m12": 0,
+   "Q8.m9": 0,
+   "Q8.m6": 0,
+   "Q8.m4": 0,
+   "Q8.m3": 0,
+   "Q8.m2": 0,
+   "Q8.m1": 0
+  }
+ },
+ "(N, nu) with both caps >= 3": 0
+}

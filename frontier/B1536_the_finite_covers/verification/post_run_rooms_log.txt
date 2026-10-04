@@ -1,0 +1,30 @@
+m004: 8148 characters, 755 members; the routes give the same membership and caps at every row: True
+  members by caps (capW, capL2): {(0, 0): 120, (0, 1): 20, (0, 2): 4, (1, 0): 408, (1, 1): 100, (1, 2): 41, (2, 0): 22, (2, 1): 4, (5, 0): 36}; the largest min(capW, capL2) is 1
+  members with min(caps) >= 2 or capL2 >= 3: 0
+  the trivial character, covers with n(1) or n(rho) > 0: 37; by degree, (n(1), n(rho)): 9: {(0, 2): 1}; 10: {(0, 1): 11, (1, 1): 2}; 11: {(0, 1): 8}; 12: {(0, 1): 12}; 48: {(4, 0): 1}; 96: {(4, 0): 1}; 144: {(4, 0): 1}
+  Part P counts (pulled-back class): {(0, -1): 3, (0, 0): 154, (1, 0): 34, (2, 0): 10, (3, 0): 7}
+  Part O readings (the cover's own classes): {}
+m003: 35100 characters, 3295 members; the routes give the same membership and caps at every row: True
+  members by caps (capW, capL2): {(0, 0): 1842, (0, 1): 144, (0, 2): 612, (1, 0): 448, (1, 1): 130, (1, 2): 27, (1, 4): 12, (2, 0): 30, (2, 1): 22, (2, 2): 16, (5, 0): 12}; the largest min(capW, capL2) is 2
+  members with min(caps) >= 2 or capL2 >= 3: 28
+    d10.10 (degree 10, 4 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.13 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.14 (degree 10, 4 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.16 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.17 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.18 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.19 (degree 10, 4 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.24 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.27 (degree 10, 4 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.36 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.38 (degree 10, 4 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.4 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.40 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.5 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.6 (degree 10, 4 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d10.9 (degree 10, 3 cusps, non-abelian): caps (2, 2) at 1 character(s), e.g. u = (0, 0), kappa = 0
+    d9.2 (degree 9, 1 cusps, non-abelian): caps (1, 4) at 12 character(s), e.g. u = (1/5, 3/5), kappa = 0
+  the trivial character, covers with n(1) or n(rho) > 0: 47; by degree, (n(1), n(rho)): 5: {(1, 1): 2}; 8: {(0, 1): 2}; 9: {(0, 2): 1}; 10: {(0, 1): 5, (1, 0): 4, (1, 1): 8, (1, 2): 16}; 11: {(0, 1): 4}; 12: {(0, 1): 4}; 96: {(4, 0): 1}
+  Part P counts (pulled-back class): {(0, -1): 7, (0, 0): 842, (1, 0): 116, (2, -2): 4, (2, 0): 44, (3, 0): 7}
+  Part O readings (the cover's own classes): {(-1, -2): 188, (0, -2): 28, (0, -1): 16, (1, -2): 48, (1, -1): 52, (1, 0): 8, (2, -2): 12}
+real	0m1.344s

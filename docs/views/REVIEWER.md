@@ -23,10 +23,10 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1286** |
-| words of findings prose | **1,112,567** |
-| test lock files referenced | **786** |
+| words of findings prose | **1,114,960** |
+| test lock files referenced | **787** |
 | arcs carrying an authored verdict | **1286** (100.0 %) |
-| recorded closures | **826** (659 classified, 167 routed-only) |
+| recorded closures | **827** (660 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -37,8 +37,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 856 |
-| NEGATIVE | 329 |
-| OPEN | 90 |
+| NEGATIVE | 330 |
+| OPEN | 89 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 96 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 97 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 GENESIS: MAIN'S v1.10 TAKEN AS HEAD (not sealed: every check compares texts or reads a banked record). As main's B1467 relay asked, GENESIS.md on this branch is main's v1.10 byte for byte (C6), and the seat numbers no further versions. The seat's own v1.10 (sm:B1533), made on main's v1.9 in parallel with main's and numbered the same (the second version collision), is kept as received (C2). Its page changes are offered as proposals to main's v1.10: P1-P4 are its four content lines that main's v1.10 lacks (the six-gaps heading, GAP6's scope, FK9's sm:B1527 and Part H lines, the frontier's item-8 line; C3), and P5-P9 come from arcs banked since: the levels' abelian covers (sm:B1532), the class's covers with sm:B1536 sealed, the other word states (sm:B1530, sm:B1534, sm:B1535), the cap in the frames table (sm:B1535 Theorem C) and the frontier's places where both supplies can grow (Corollary C3; C5). proposed/GENESIS_v1_10_with_proposals.md is main's v1.10 with the nine marked; removing the marks gives it back (C4). B1533's lock reads the seat's v1.10 from its kept copy; B1516's citation lock exempts the proposed text as GENESIS text. No new mathematics; I-26 stays UNEARNED. 0 of 19.  
 `B1537_genesis_proposals/FINDINGS.md`
 
-**NEGATIVE — `B1534`** (3999 words, 1 locks)  
-THE SILVER COVERS, run as sealed (1f58d161; sL-10 item 11): no finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations at a pulled-back member of sm:B1515's frame at the hyperbolic point, in either order. Lemma S (Shapiro and Mackey, any finite regular abelian cover) and Lemma Z' make every count a subgroup sum of 144 twisted terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)) over at most eight characters per member; Lemma Q (K10, two routes) carries every member at every twist onto the fourteen at kappa = +-1. Routes E (exact over Q(zeta_24)) and N (60 digits) read all 144 terms and all 64 pencils and agree; the pencils give one special class per two-class member, s = -+sqrt2/30, where every term reads (0, 0); route C (the permutation module) agrees on 16 order-4 covers read whole; after the run route S (SnapPy's presentation, cusp and holonomy, with its own classes and pencils) agrees on both states. The counts are (-1,-1), (-1,-2), (0,-1), (0,-2), (0,0), (1,0), (3,0), (5,0): the only generation-shaped count is (-1, -1), the base's one generation pulled back ((+1, +1) in the dual order). A Lambda^2 term is non-zero only at the four non-simple members' two non-simple twists, so I(Lambda^2) is 0, -1 or -2 on every cover: the 5bar' side is capped at two, while the 10' side alone reaches (3, 0) and (5, 0), anomalous. Seven of eight held; P2 failed (the (1/2, 1/2) term at m135's interior class is (0, -1)). Replaces the one-sided bound withdrawn at sm:B1530. 0 of 19 stays 0.  
-`B1534_the_silver_covers/FINDINGS.md`
+**NEGATIVE — `B1536`** (3388 words, 1 locks)  
+THE FINITE COVERS, run as sealed (9c28d076; the addendum beside the seal at eeb20c44; sL-10 item 16, sm:B1535's Corollary C3, second place): no connected finite cover of degree <= 12 of m004 (176) or m003 (148), and no cover in their Q8 towers (m = 1, 2, 3, 4, 6, 9, 12, 18), carries three generations of sm:B1515's frame at a pulled-back character of finite order (8,148 and 35,100 characters, Lemma Z''), at any class. Routes N (the cover read on the base by Lemmas S' and O, FLINT) and R (the cover's own Reidemeister-Schreier presentation, PARI) share no linear algebra; both read the whole population and agree on all 43,248 rows, 1,228 Part P readings and 176 Part O strata, with every identity and Theorem C cap holding. No member has both caps >= 3: the largest min(capW, capL2) is 1 on m004 and 2 on m003, reached at the trivial character of sixteen non-abelian degree-10 covers of m003 (n(1) = 1, n(rho) = 2); capL2 reaches 4 on m003's degree-9 cover d9.2 at its order-5 characters with capW = 1. No count read is generation-shaped, at the pulled-back class or at the cover's own classes. On the Q8 towers the line is Proposition Q's (n(1) = 4 at kappa = 1: m004 at m = 6, 12, 18; m003 at m = 12) but n(rho) = 0 at every m: the four is the bottleneck. Eight of ten predictions held (P4 and P6 fail: both supplies have interior classes at the trivial character on non-abelian covers, from degree 5 on m003). NEGATIVE on three for this population. 0 of 19.  
+`B1536_the_finite_covers/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

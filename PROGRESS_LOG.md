@@ -17561,3 +17561,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **B1536, disclosed now as well as in FINDINGS.** At 13:24Z a completion check printed the last 300 bytes of
   `run_R_m003.jsonl`: the done row and one character row of d1.1 (m003 itself, a non-member). Route R on m003 had finished.
   Nothing else has been read.
+
+## 2026-10-04 — B1536 banked: the finite covers (NEGATIVE); B1538's Part F found infeasible and stopped (task 239, task 251)
+
+- **B1536.** Run as sealed: routes N and R read all 8,148 and 35,100 characters of 184 and 156 covers and agree on all 43,248
+  rows. No member has both caps ≥ 3, and no count read is generation-shaped.
+  - The largest min(capW, capL2) is 2: sixteen non-abelian degree-10 covers of m003 at the trivial character.
+  - The Q₈ towers carry the line but not the four.
+  - Eight of ten predictions held (P4 and P6 failed).
+  - Lock: 11 tests pass, a live two-route re-read among them. Kill record, registry, ledgers, relay, surfaces.
+- **The sL-12 commit's affected tests:** 1,978 passed, 2 skipped, none failed.
+- **B1538 Part F.**
+  - Part L finished at 13:45:11Z. Part F started automatically and was stopped by exact PID at 13:54:06Z.
+  - As sealed it plans 948,832,288 readings over 64,422 candidates, about 458 days on one worker (aggregate count only).
+  - The partial record is kept unread. A scoped addendum comes before the read-out.

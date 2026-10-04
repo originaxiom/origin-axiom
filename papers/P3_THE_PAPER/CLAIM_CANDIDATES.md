@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1183 settled arcs — 70%** —
+the field is **absent on 828 of 1184 settled arcs — 70%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (97) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 614 arcs.**
+**POOL = declared-law (97) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 615 arcs.**
 The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -223,7 +223,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1512` | PROVED | S | | THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). … |
 | `B1535` | PROVED | S | | THE CAP, run as sealed (b410afeb; sL-10 item 14, first half; the owner's 'are u sure about the math behind your negative conclusions about three generatiosn, sure sure su… |
 
-## §6 the observer — one bit, priced (182)
+## §6 the observer — one bit, priced (183)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -409,6 +409,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1530` | PROVED | S | | THE INTERIOR EXTENSIONS, run as sealed (1d359734; sL-10 item 10 (a)): at the hyperbolic point, B1515's frame carries one generation in one W on the two silver squares. On… |
 | `B1532` | NEGATIVE | S | | THREE FROM THE CUSPS, run as sealed (97fdce6d; sL-7): no finite abelian cover of m004's levels M2-M6 carries a generation-shaped count of sm:B1515's frame at a lambda = 1… |
 | `B1534` | NEGATIVE | S | | THE SILVER COVERS, run as sealed (1f58d161; sL-10 item 11): no finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations at a pulled-back member of s… |
+| `B1536` | NEGATIVE | S | | THE FINITE COVERS, run as sealed (9c28d076; the addendum beside the seal at eeb20c44; sL-10 item 16, sm:B1535's Corollary C3, second place): no connected finite cover of … |
 
 ## §2 the object — arithmetic and geometry (58)
 
