@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R92: spin action must retain A and b, actual orbit and full
+coverage; ordinary defect products alone are not universal certification.
+45 exact/2065 separate-reference/18 tests pass unchanged at53e40eea9.
+No manifold table or physical chirality result refuted. B1475's affine
+equation credited; parent central extension and torsion-free lifts kept.
+SM larger-cover room5 positive received at reading grade, not generations
+or admission. AFFINE_SPIN.md in physical_bridge keeps next actual class/
+same-action mixed fields/operator/domain/generated-law duties. No global
+finite-cover kill or full parameter-free SM/TOE completion assigned.
+
 October4 R91: existing mixed fields supply the noncentral current SHAPE,
 not the integrated/stationary source solution. Actual frame reflection,
 entire gauge kernel and full bare comparator action carried together.

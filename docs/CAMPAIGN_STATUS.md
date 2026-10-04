@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October4 R92 exact inference/type audit executed unchanged at pre-run
+53e40eea9:45 exact/2065 separate-reference/18 focused checks pass.
+Ordinary spin-defect closure needs actual affine orbit and coverage;
+no manifold verdict is refuted. B1475 already has the correct affine
+fixed equation. Parent central extension not confused with an ordinary
+lift; torsion-free routes retained. SM degree45 room5 positive read,
+not independently reproduced or realized generations. AFFINE_SPIN.md
+under physical_bridge. Main affine-action/coverage certificate requested;
+R91 spatial fields and generated register/source/action/domain remain
+the constructive physical duty. Full parameter-free SM/TOE unachieved.
+
 October4 R91 current-shape positive in existing mixed E8 fields, not an
 admitted vacuum. Full root/charge/frame and current/action checks at
 corrected pre-run sealda86db5e7:40 exact/359 separate reference,26

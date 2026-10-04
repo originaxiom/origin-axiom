@@ -1,0 +1,512 @@
+{
+  "raw_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-affine-spin.wRY9pF",
+  "captures": {
+    "already_banked": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/checks/already_banked.py",
+        "spin affine orbit coset"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.8759089999366552,
+      "log_bytes": 3075,
+      "log_sha256": "47e784d2c93154abe64f2995f3e56eebdfa62730aea9c4e1d9647b582240b3a2"
+    },
+    "prior_sweep": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/checks/absence_sweep.py",
+        "affine.{0,30}spin|spin.{0,30}affine|sign.{0,30}coset|preserving_characters|close_k",
+        "--regex"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 86.67235899996012,
+      "log_bytes": 4835,
+      "log_sha256": "4e2de19de7b0a383a51d1df6438a09ae95de64023cd415993d00aec8c46cbd71"
+    },
+    "atlas": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/atlas/query.py",
+        "card"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.08343500003684312,
+      "log_bytes": 735,
+      "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+    },
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.9315599999390543,
+      "log_bytes": 85,
+      "log_sha256": "54adabc50fd9445762be0f77fc87526a46c12b5deac15c30e9fcd4135528ca29"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "commit=\"53e40eea91019e18bcb25dba0423d4fe709addf4\"; raw=\"/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-affine-spin.wRY9pF\"; abort(\"Server mismatch\") unless File.read(raw+\"/server_seal.log\").split.first==commit; abort(\"Tree dirty\") unless IO.popen([\"git\",\"status\",\"--porcelain\"],&:read).empty?; base=\"reports/physical_bridge_2026_09_05/\"; ledger={}; File.foreach(base+\"ARTIFACT_HASHES.txt\",encoding:\"UTF-8\"){|l|m=l.match(/^([0-9a-f]{64})  (.+)$/); ledger[m[2]]=m[1] if m}; paths=%w[AFFINE_SPIN_DESIGN.md AFFINE_SPIN_PROOF.md AFFINE_SPIN_INPUTS.json affine_spin.py affine_spin_reference.py].map{|p|base+p}+[\"tests/test_physical_bridge_affine_spin.py\"]; paths.each{|p|b=File.binread(p); sealed=IO.popen([\"git\",\"show\",commit+\":\"+p],\"rb\",&:read); abort(p) unless $?.success? && b==sealed && Digest::SHA256.hexdigest(b)==ledger[p]}; pins=JSON.parse(File.read(base+\"AFFINE_SPIN_INPUTS.json\",encoding:\"UTF-8\")); pins[\"sources\"].each{|p|b=IO.popen([\"git\",\"show\",p[\"ref\"]+\":\"+p[\"path\"]],\"rb\",&:read); abort(p[\"path\"]) unless $?.success? && b.bytesize==p[\"bytes\"] && Digest::SHA256.hexdigest(b)==p[\"sha256\"]}; pdf=File.binread(raw+\"/culler_lifting.pdf\"); lp=pins[\"literature\"][0]; abort(\"PDF pin mismatch\") unless pdf.bytesize==lp[\"bytes\"] && Digest::SHA256.hexdigest(pdf)==lp[\"sha256\"]; puts JSON.generate(science_files:paths.length,input_pins:pins[\"sources\"].length,literature_pdf:1,clean_tree:true,server_commit:commit,bytes_match:true)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.0495959999971092,
+      "log_bytes": 150,
+      "log_sha256": "e28d4839281021e94e6e28a09350fad37c8f833d177f275fd8760bd44005103b"
+    },
+    "native": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/affine_spin.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.35734599991701543,
+      "log_bytes": 4267,
+      "log_sha256": "35f09cc58c4b84a8c84422c85ed995d5fbdd8a832533455f71054d602a2b72ba"
+    },
+    "reference": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/affine_spin_reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.07825999998021871,
+      "log_bytes": 194,
+      "log_sha256": "bfeac4a7cb21158aaccfd39448894aaddfddcf98160728481f9cbff9b949f7e5"
+    },
+    "focused": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_affine_spin.py",
+        "tests/test_physical_bridge_mixed_current.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.281593000050634,
+      "log_bytes": 99,
+      "log_sha256": "bc5698c0db9fbb43997f674c8bf43393b8b4931bde26b250ecad8fdc5c0dfe19"
+    },
+    "governance_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 17.47029600001406,
+      "log_bytes": 2284,
+      "log_sha256": "2185a9a94ebc68bbf1341a254e900e9c2c7b8863775a95ba4e225bb98036d9e2"
+    },
+    "governance_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 17.469341999967583,
+      "log_bytes": 2284,
+      "log_sha256": "418d8bbe7fa902f74366c4dc61acbd7f000c36223d438ab8252708cdcad0135f"
+    }
+  },
+  "public_logs": {
+    "server_seal": "AFFINE_SPIN_SERVER.txt",
+    "preflight": "AFFINE_SPIN_PREFLIGHT.txt",
+    "native": "AFFINE_SPIN_NATIVE.txt",
+    "reference": "AFFINE_SPIN_REFERENCE.txt",
+    "focused": "AFFINE_SPIN_FOCUSED.txt",
+    "governance_first": "AFFINE_SPIN_GOVERNANCE_FIRST.txt",
+    "governance_final": "AFFINE_SPIN_GOVERNANCE_FINAL.txt"
+  },
+  "raw_only": [
+    "already_banked",
+    "prior_sweep",
+    "atlas"
+  ],
+  "native_summary": {
+    "actual_manifold_table_recomputed": false,
+    "failed": [],
+    "fixtures": {
+      "nontrivial_subgroup_orbit": {
+        "additive_span": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "group_order": 16,
+        "preserving_elements": 8,
+        "preserving_orbit": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "reversing_orbit": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "shortcut_fix": false,
+        "true_fix": false
+      },
+      "tetrahedral": {
+        "additive_span": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "group_order": 24,
+        "preserving_elements": 12,
+        "preserving_orbit": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "reversing_orbit": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "shortcut_fix": true,
+        "true_fix": false
+      },
+      "translation_fix": {
+        "additive_span": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "group_order": 8,
+        "preserving_elements": 4,
+        "preserving_orbit": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "reversing_orbit": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "shortcut_fix": true,
+        "true_fix": true
+      },
+      "translation_swap": {
+        "additive_span": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "group_order": 8,
+        "preserving_elements": 4,
+        "preserving_orbit": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "reversing_orbit": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "shortcut_fix": false,
+        "true_fix": false
+      }
+    },
+    "generated_spin_selection_derived": false,
+    "non_author_acceptance": false,
+    "physical_chirality_derived": false,
+    "physical_goal_achieved": false,
+    "total": 45
+  },
+  "reference_summary": {
+    "actual_manifold_table_recomputed": false,
+    "affine_maps": 1344,
+    "failed": 0,
+    "linear_maps": 168,
+    "non_author_acceptance": false,
+    "passed": 2065,
+    "physical_goal_achieved": false,
+    "total": 2065
+  },
+  "custody_checks": {
+    "custody_first": {
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/affine_spin_receipt_check.rb"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7348269999492913,
+        "log_bytes": 247,
+        "log_sha256": "31652c958bf79aab0007c968ff1cbb54a9d88ce7ee8ca3692c3ac3b60ba89ebe"
+      },
+      "public_log": "AFFINE_SPIN_CUSTODY_FIRST.txt"
+    }
+  },
+  "limitations": "Byte/exit custody only. Independent implementations by same author; no nonauthor acceptance, full-suite/main-bank certificate, actual manifold table recertification or physics completion. Original PDF pinned and retained externally, not republished."
+}

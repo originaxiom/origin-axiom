@@ -1,0 +1,1 @@
+{"actual_manifold_table_recomputed": false, "affine_maps": 1344, "failed": 0, "linear_maps": 168, "non_author_acceptance": false, "passed": 2065, "physical_goal_achieved": false, "total": 2065}

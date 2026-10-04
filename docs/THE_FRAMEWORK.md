@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October4 R92 adds exact affine orbit/coverage and central-extension type
+controls, not a new physical mechanism.45 exact/2065 separate-reference/
+18 tests pass unchanged at pre-run53e40eea9. Complete supplied action
+can give false FIX under defect-span closure; missing coverage can give
+false SWAP. Correct-coset comparators survive. B1475 already registers
+affine fixed sets; actual member table not refuted. Parent central spin
+extension and manifold lifts distinct. SM degree45 capacity positive
+retained at reading grade, not a three-generation spectrum. AFFINE_SPIN.md
+under physical_bridge. Full parameter-free physics and generated law owed.
+
 October4 R91 adds an EXISTING mixed-field current shape in the supplied
 E8/action, no new multiplet. R41 sign projections survive, actual Weyl
 frame transport earned, full gauge su5 and nonzero homogeneous scaling

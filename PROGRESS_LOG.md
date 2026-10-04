@@ -17083,3 +17083,44 @@ population; true raw receipt retained and public stdout identical.
 First custody snapshot is separately typed at14 captures; final custody
 reads15 science/prior/governance captures plus that preserved snapshot.
 Science still matches corrected commit; no full-suite/main-bank claim.
+
+## 2026-10-04 R92 affine spin transport and constructive larger-cover intake
+
+Unchanged scientific seal53e40eea91019e18bcb25dba0423d4fe709addf4
+committed/pushed/server-confirmed BEFORE import/collection. Six science
+files/nine immutable incoming pins/one full seven-page PDF pin verified;
+tracked tree read-only.45/45 native,2065/2065 separate same-author
+permutation-reference checks and18 focused tests pass, true exits0.
+Ten new live affine/lift tests plus eight retained R91 mathematical
+tests; not a foreign census or full-suite/nonauthor acceptance.
+
+Exact complete supplied tetrahedral action has nonadditive preserving
+orbit; replacing it with its additive span gives false FIX. Incomplete
+sample of a translation FIX group gives opposite false SWAP. Valid
+translation and nontrivial-linear/subgroup-orbit controls both retained.
+No actual manifold table, bad eta or physical chirality refuted. Main
+B1474 guard repair and B1475's prior affine equation credited; request
+actual preserving action/orbit/coverage and normalized witness export.
+
+Culler whole paper personally read/rendered/visually inspected. Explicit
+PSL order-two subgroup does not admit a homomorphic SL lift; its central
+extension and torsion-free manifold lifts remain positive architecture
+options. Order-three lift control passes. SM degree45 room5 supplies
+(4,18) received at READING grade, not independently executed or realized
+generations. Pulled-back class(0,0) not all classes. B1538 no-outcome stub
+still sealed at the input pin, no foreign process claimed live/terminal.
+
+First governance26 PASS/four inherited FAIL categories, exit1;84 OPEN
+relays/41 stale, review due327. No waiver/new offender at that run.
+Sender relay and current surfaces updated; main genesis, B/I allocation,
+CLAIMS and prior scientific criteria unchanged. Full parameter-free
+SM/TOE active/unachieved. R91 spatial mixed fields/generated register/
+source/action/common physical-domain duty remains the constructive path.
+
+R92 final governance26 PASS/four inherited FAIL categories, exit1,
+same old offender paths/41 stale/review due327; OPEN relays84 to86 are
+the new incoming and sender rows, not stale debt. Full stdout retained
+unchanged. First custody snapshot verifies9 raw captures; final10 plus
+that snapshot. Latest artifact rows folded forward after a temporary
+14-surface digest mismatch during planned documentation updates; none
+of the six immutable science files changed. No acceptance waiver.

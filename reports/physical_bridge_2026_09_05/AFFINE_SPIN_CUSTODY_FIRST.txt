@@ -1,0 +1,1 @@
+{"science_files":6,"incoming_pins":9,"literature_pdf":1,"raw_captures":9,"native":45,"reference":2065,"focused":18,"bytes_and_exits_match":true,"actual_manifold_table_recomputed":false,"non_author_acceptance":false,"physical_goal_achieved":false}

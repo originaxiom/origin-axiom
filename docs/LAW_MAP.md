@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October4 path-local R92, standard affine/extension mathematics, not
+new B-law banking: b_(g h)=b_g+A_g b_h. A complete supplied tetrahedral
+action has a nonadditive preserving orbit; replacing it by its additive
+span gives false FIX. Opposite bounded-sample false SWAP and correct
+coset controls retained. Central SL2(O3) extension is nonsplit on its
+explicit PSL order-two subgroup; C3 lift positive retained. These are
+not actual member-table/physical no-goes. AFFINE_SPIN_PROOF.md and
+tests/test_physical_bridge_affine_spin.py:45 exact/2065 separate-reference/
+18 focused tests pass at unchanged pre-run53e40eea9. Actual isometry
+action/coverage and physical fermion domain remain separate duties.
+
 October4 path-local R91, standard supplied-parent math, not new B law:
 actual mixed-field J has R41 flag projections12,8,4; color/weak E8
 commutant A5 and transported Y earned by root reflection. Zero moment

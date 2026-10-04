@@ -1,0 +1,41 @@
+{
+  "commit": "53e40eea91019e18bcb25dba0423d4fe709addf4",
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_SPIN_DESIGN.md",
+      "bytes": 5701,
+      "sha256": "3f97f397e86eab7768cbe22c82e5fc35b918a0dacfc2739095a9a404d593a03b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_SPIN_PROOF.md",
+      "bytes": 5179,
+      "sha256": "df152ffaa0393a7020912b19bfab52c36c581b128bdfcc8afd29f62e3ab1611b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_SPIN_INPUTS.json",
+      "bytes": 4590,
+      "sha256": "975499c2cd21aa630716ab6bbc9d730e5e0ec48e3e757c38e449e503d77878b5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_spin.py",
+      "bytes": 8301,
+      "sha256": "32563d67c3d90b4f91717d3709190a242cee3f16803ae407bcc0989da38aade7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_spin_reference.py",
+      "bytes": 4556,
+      "sha256": "e68ba06277c4aaadcc7612439f3f56b86d11b35f3811ab4a0d972003024d7b6a"
+    },
+    {
+      "path": "tests/test_physical_bridge_affine_spin.py",
+      "bytes": 3152,
+      "sha256": "3bb05b67fc37f9f02967aca57f68bf6e58065a4804bb7febaeb80ffbea7e4236"
+    }
+  ],
+  "server_confirmed_before_first_science_import": true,
+  "tree_read_only_during_science": true,
+  "unchanged_first_run": true,
+  "non_author_acceptance": false,
+  "actual_manifold_table_recomputed": false,
+  "physical_goal_achieved": false
+}

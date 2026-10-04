@@ -1,5 +1,15 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October4 R92 prerequisite executed unchanged at53e40eea9:45 exact/2065
+separate-reference/18 focused tests pass. Keep spin action/orbit/coverage
+through the architecture; no sign-only inference or whole-parent ordinary
+lift assumed. No actual manifold verdict is refuted. Main full affine
+coverage response and SM degree45 actual extension-class inquiry retained;
+the latter's room5 is reading grade only, not generations/admission.
+AFFINE_SPIN.md under physical_bridge. R91 coupled spatial fields/source/
+physical norm-domain-spectrum and generated register/join/action law stay
+next. This audit is not a replacement goal or full physics achievement.
+
 October4 R91 actual mixed-field current shape earned in supplied E8,
 not a physical source solution. Frame map, all gauge generators and
 complete comparator action kept together.40 exact/359 reference/26

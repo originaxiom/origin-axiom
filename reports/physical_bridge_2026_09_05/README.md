@@ -1,5 +1,16 @@
 # Physical bridge audit — 2026-09-05
 
+October4 R92: [affine spin audit](AFFINE_SPIN.md) verifies both wrong-orbit
+false FIX and incomplete-coverage false SWAP in supplied controls,
+not an actual member-table refutation. Correct coset cases and central
+spin-extension/manifold-lift distinction retained.45 exact/2065 separate-
+reference/18 focused tests pass unchanged at pushed pre-run53e40eea9.
+B1475's prior affine equation credited. SM larger degree45 room5 positive
+personally read, not rerun or realized generations. Next actual full
+action/coverage certificate and extension class/common physical-domain
+duty; R91 constructive mixed fields/generated law stay next. Full goal
+active, no independent acceptance or main-bank certificate.
+
 October4 R91: [mixed current](MIXED_CURRENT.md) maps existing fields
 to the noncentral flag-current shape without an added source multiplet.
 Weyl-transported Y is a frame map, not a selector; full gauge kernel su5,

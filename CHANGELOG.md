@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-04 R92 affine spin action and larger-cover positive intake
+
+An exact complete supplied affine group gives false FIX under the
+ordinary defect-span shortcut; incomplete coverage gives opposite false
+SWAP. Valid translation and nontrivial-linear/subgroup-orbit controls
+retained.45 exact/2065 separate-reference/18 focused checks pass unchanged
+at pushed/server-confirmed pre-run53e40eea9. No actual member table or
+physical chirality refuted. B1475's existing affine fixed equation
+credited. Parent order-two lift versus central extension priced; odd-order
+and torsion-free lift routes retained. SM degree45 room5 positive personally
+read, not rerun or generations; pulled-back class(0,0) not all classes.
+Full SM/TOE active; same-action mixed spatial fields/generated law next.
+
 ## 2026-10-04 R91 existing mixed current and its frame/action cost
 
 Actual E8 mixed fields produce the required noncentral current shape,

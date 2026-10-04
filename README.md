@@ -1,6 +1,16 @@
 # Origin Axiom
 
 > **Current physical bridge checkpoint October4.**
+> [Affine spin transport audit](reports/physical_bridge_2026_09_05/AFFINE_SPIN.md)
+> verifies that an ordinary sign-subgroup shortcut needs extra action/
+> orbit and coverage hypotheses; no actual member table is refuted.
+> Unchanged pre-run53e40eea9:45 exact/2065 separate-reference/18 tests
+> pass. Central parent spin extension and torsion-free lifts remain
+> distinct. SM's larger degree45 capacity positive is credited at reading
+> grade, not three realized generations. Existing mixed fields and the
+> generated register/source/action/common physical-domain duty stay next.
+> Full parameter-free SM/TOE remains active and unachieved.
+>
 > [Actual mixed-field current](reports/physical_bridge_2026_09_05/MIXED_CURRENT.md)
 > supplies the required noncentral current SHAPE using existing E8 fields,
 > not an admitted source solution. Full-frame/gauge/action checks retain

@@ -1,4 +1,20 @@
-# Verdict toward the full physical-theory goal - R91, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R92, updated 2026-10-04
+
+R92 verifies a prerequisite inference/type distinction, not a new
+physical mechanism. Spin transport retains A as well as b; ordinary
+defect-span closure alone can falsely say FIX even for a complete exact
+supplied group, while missing coverage can falsely say SWAP. Correct
+coset controls retained.45 exact/2065 separate-reference/18 focused tests
+pass unchanged at pre-run53e40eea9. No actual manifold table is refuted.
+B1475 already registers affine fixed sets. Arithmetic parent central
+extension is distinct from an ordinary lift; torsion-free routes live.
+SM degree45 supplies(4,18), room5 positive personally read at6fdf6d692,
+not independently executed or generations. Pulled-back class(0,0) does
+not settle the other extension classes. AFFINE_SPIN.md has all source
+grades/custody and requests actual action/coverage certificates. R91
+spatial fields/source/admission/physical fermion domain and generated
+register/join/action law remain the constructive path. Full parameter-
+free Standard Model and full TOE ACTIVE and unachieved;0 of19 unchanged.
 
 R91 earns an actual existing-field current SHAPE and its frame/action
 cost, not a stationary physical source. A5 centralizer and full E8
