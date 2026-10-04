@@ -1,0 +1,34 @@
+{
+  "baseline": "d18fae3dafec9160ffe30a2cb43e4c0412547020",
+  "field": "Q[q]/(q^6-34*q^3+1)",
+  "characters": [[0,1],[1,1],[1,0]],
+  "parameter": "s=log(t), t=1 at center, X=exp(-5*s)",
+  "reference_prime_roots": [[1031,695],[1033,162]],
+  "focused_population": {"tests/test_physical_bridge_compact_gluing_kinetic.py":6,"tests/test_physical_bridge_parent_gluing_character.py":6},
+  "local_pins": [
+    {"path":"reports/physical_bridge_2026_09_05/parent_gluing_character.py","sha256":"2d01c892b75acac30355aefed48af400e9e4376510c02033811d7d9c2048a0c9"},
+    {"path":"reports/physical_bridge_2026_09_05/parent_gluing_character_reference.py","sha256":"f7608983681f6ba96ff2d985de0406e442615f8ca526c134c7e821b082d61ba9"},
+    {"path":"reports/physical_bridge_2026_09_05/neutral_velocity.py","sha256":"e90c147afc2f8b88dd6b9b12a33b7871ed15cd53ddfe0437d074eec340c488dd"},
+    {"path":"reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md","sha256":"e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816"},
+    {"path":"reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md","sha256":"12e2a21cf23ea31c111ff36670570e69d5a51293bd596817b0a2fe122f95b932"},
+    {"path":"reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md","sha256":"cc963aa5777732531038806c728dddae103ed0faa69b6c12f045a3a717151c60"},
+    {"path":"reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md","sha256":"f5d04fc41d9c3d6010cfe51a97b67fae87e2e7c8a3f51eb9fab61a3a76efea61"},
+    {"path":"reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md","sha256":"936f3110797e8a27e9522c2d29f601e32215bf5a3c1bd1a37b34614fe1de64c9"}
+  ],
+  "paper": {
+    "title":"Equivariant harmonic maps depend real analytically on the representation",
+    "author":"Ivo Slegers",
+    "version":"version of record November 1 2021, issue 2022",
+    "url":"https://doi.org/10.1007/s00229-021-01345-z",
+    "download_url":"https://d-nb.info/1249634008/34",
+    "retained_basename":"slegers_2022.pdf",
+    "retained_source":"R51 preflight store",
+    "bytes":310790,
+    "sha256":"981eb7c7a74165be4d15f9ab7b4161fb4d2046ed473dc5135027f4ffbf8d4476",
+    "personally_read":"entire16-page text including references, theorem2.8/proposition3.3 page images inspected",
+    "used_scope":"compact elliptic implicit-function method comparison; main theorem2.8 not invoked without its free/proper hypothesis; own smooth fixed-bundle adaptation"
+  },
+  "analytic_grade":"authored conditional proof; finite tests do not certify elliptic PDE reasoning or independent review",
+  "supplied":["compact carrier/join","base metric","coefficient","E8 parent/embedding","action and g7","four-dimensional field dictionary"],
+  "not_computed":["explicit harmonic metric","numerical K0","quantum effective potential","full neutral spectrum","physical Weyl domain","gravity","observer or qualia"]
+}
