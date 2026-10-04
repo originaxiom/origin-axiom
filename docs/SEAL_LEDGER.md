@@ -77,7 +77,8 @@ hash-first status.*
 | frontier/B1451_the_complete_points_on_other_levels/PREREGISTRATION.md | e90e0ffc | 5a0ca0c4 | 1 | yes |
 | frontier/B1455_the_selection_rule_and_the_deciding_test/PREREGISTRATION.md | 5e8c0922 | 12ed66bd | 1 | yes |
 | frontier/B1459_the_zeros_are_a_theorem/PREREGISTRATION.md | 7ef62e82 | 70ca9c92 | 1 | yes |
-| frontier/B1466_the_two_orders_and_the_register_bit/PREREGISTRATION.md | dbda2860 | untracked | 0 | NO |
+| frontier/B1466_the_two_orders_and_the_register_bit/PREREGISTRATION.md | dbda2860 | b3565230 | 1 | yes |
+| frontier/B1471_the_cancellation_is_a_theorem_of_amphichirality/PREREGISTRATION.md | 0d5f3919 | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f477 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8c | 1 | yes |
@@ -337,9 +338,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c4775 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c | 1 | yes |
 
-*Totals: 326 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 327 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
