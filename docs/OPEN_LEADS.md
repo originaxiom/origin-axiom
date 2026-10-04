@@ -3489,10 +3489,10 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - B1202 governs ABSENCE claims only, so it does not cover the case where the sweep FINDS something.
   - B742's stated '30 RECONFIRMED' is NOT independently confirmed here: this arc's row-parser tallies only 8
   - xB006 re-tested it today and found its kill sound but its JUSTIFICATION wrong.
-- **xB011:**
-  - B425 -- its "√−3 cancels in every determinant" is scoped: true at ρ_geo of m004, because m004 is amphichiral, and false for chiral manifolds.
-  - B425's computations are not disputed; this arc reproduced them exactly, including at odd n, which B425 never ran.
-  - The cancellation is an amphichirality artefact, not a general fact.
+- **xB011 — VERIFIED WITH A CORRECTION on main 2026-10-04 (B1471, sealed 39775d66):**
+  - B425 -- its "√−3 cancels in every determinant" is scoped: true at ρ_geo of m004, because m004 is amphichiral, and false for chiral manifolds. **Scope note RIGHT**: real at even n on all 13 amphichiral members (a theorem: symmetry + duality, each step verified), complex on 40 of 41 chiral; B425 addendum.
+  - B425's computations are not disputed; this arc reproduced them exactly, including at odd n, which B425 never ran. **Confirmed** (main reproduces B425 to 10⁻⁵⁰).
+  - The cancellation is an amphichirality artefact, not a general fact. **Corrected**: it is a *theorem* of amphichirality, not an artefact; the lane's five "amphichiral and complex everywhere" members are REAL at n = 2, 4 — its `sym()` was an anti-homomorphism (Sym^n of the transpose), a representation only on members where inverting every generator is an automorphism of π₁ (m004, m003), so its m004 control could not catch it; its "chiral ⟹ survives 8/8" is unverified by that instrument (main: 40 of 41).
 - **xB012:**
   - B1234 dropped ORIENTABILITY and landed on a NON-orientable manifold, where its own objection bites. No arc had tried dropping A5 — and that lands on an orbifold that is STILL ORIENTABLE.
   - its 12 is over PSL(2,O_3); the MINIMAL orbifold is the PGL one, half the volume, so m004 covers it with index 24.
@@ -3539,10 +3539,10 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - L223's LITERATURE half is therefore CLOSED. What remains open in L223 is record-internal bookkeeping
   - The same condition governs both. This is recorded as a CONVERGENCE and explicitly NOT as an identification
   - B1239's TWO quotations are EXACT and correctly attributed: section 5A's 'If M is closed the Chern-Simons invariant is well defined modulo 1, but Snap and SnapPea still only compute modulo 1/2'
-- **xB027:**
-  - The published driver builds `m004.covers(n, cyclic)[0]`. Pointing that at `m003` would have **silently censused the wrong manifolds**
-  - xB027's `h¹(χ²) = 1` makes **`≤ 1` the tower's sharper fact**, and B1418's `|I| = 2` on a family member shows **2 is not slack in general**.
-  - **The `|I| ≤ 1` bound is a property of the TOWER, not of the family.** On the wider family the index **does** exceed one.
+- **xB027 — CONSISTENT with main as banked (read 2026-10-04, B1471's landing):**
+  - The published driver builds `m004.covers(n, cyclic)[0]`. Pointing that at `m003` would have **silently censused the wrong manifolds** (a note on a driver; not a claim about a banked number — unread further)
+  - xB027's `h¹(χ²) = 1` makes **`≤ 1` the tower's sharper fact**, and B1418's `|I| = 2` on a family member shows **2 is not slack in general**. **Consistent**: B1440's theorem is |I| ≤ ⌊n/2⌋ on once-punctured-torus bundles, attained at every rank 2–6 in its census; "≤ 1" was B1427's rank-two remark.
+  - **The `|I| ≤ 1` bound is a property of the TOWER, not of the family.** On the wider family the index **does** exceed one. **Consistent**: B1418's |I| = 2 at m = 3 is rank four's bound attained, not a bound exceeded; main never claimed ≤ 1 beyond rank two.
 - **xB028:**
   - The load-bearing half of main's sentence survives; only its arithmeticity clause is false.
   - THE COMMENT CONTAINS THE BUG: imaginary-quadraticity is the criterion for a CUSPED group, while a CLOSED filling needs the cocompact criterion (Maclachlan-Reid 8.3.2).

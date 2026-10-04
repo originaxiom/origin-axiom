@@ -1,0 +1,22 @@
+{
+ "id": "B1471",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B425",
+  "B1235",
+  "B1469"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI, the geometric twisted Alexander (Wada) function R_n(t) at Sym^n of the holonomy",
+  "object": "the 112-family of B1186 at level one; 54 members with H_1 of rank one run, 58 of higher rank listed and outside the instrument",
+  "reach": "class",
+  "hypotheses": "one cusp, H_1 of rank one, SnapPy's HP holonomy with the SL(2,C) lift repaired; the theorem direction general under an orientation-reversing self-isometry, with Turaev duality verified on every member run and not re-proved; the converse empirical (40 of 41), one exception o10_150709 left as a question"
+ },
+ "claim_one_line": "THE CANCELLATION IS A THEOREM OF AMPHICHIRALITY (L245's xB011, sealed 39775d66 / 0d5f3919): at even n the geometric twisted Alexander function is real up to a unit on all 13 amphichiral members of the 112-family with H_1 of rank one (the Mostow symmetry step T3 and the duality step T2 each hold member by member, 54 of 54 for duality) and complex on 40 of 41 chiral ones; the sep16 lane's five 'amphichiral and complex everywhere' members are REAL at n = 2 and 4 -- its sym() was an anti-homomorphism (Sym^n of the transpose), a representation only where inverting every generator is an automorphism of pi_1, which m004 and m003 are and every three-generator member is not, so its m004 control could not catch it; odd n is the lift's Z/2 exactly (conj R_n = R_n^{rho (x) eps}, eps = (-1)^phi on five members and a torsion character on s955, s957) and is lift-dependent; B425's sentence scoped by addendum, its values reproduced to 1e-50; xB027 consistent with B1440. Nothing selects a state. 0 of 19."
+}

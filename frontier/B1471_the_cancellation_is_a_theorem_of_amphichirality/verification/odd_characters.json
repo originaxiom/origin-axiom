@@ -1,0 +1,363 @@
+{
+ "m003": {
+  "h1": "Z/5 + Z",
+  "phi": {
+   "a": 1,
+   "b": 0
+  },
+  "sign_homs": 2,
+  "matches": {
+   "1": [
+    {
+     "eps": {
+      "a": -1,
+      "b": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ],
+   "3": [
+    {
+     "eps": {
+      "a": -1,
+      "b": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ]
+  }
+ },
+ "m207": {
+  "h1": "Z/3 + Z/3 + Z",
+  "phi": {
+   "a": 0,
+   "b": 1,
+   "c": 0
+  },
+  "sign_homs": 2,
+  "matches": {
+   "1": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ],
+   "3": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ]
+  }
+ },
+ "s955": {
+  "h1": "Z/20 + Z",
+  "phi": {
+   "a": -1,
+   "b": 1
+  },
+  "sign_homs": 4,
+  "matches": {
+   "1": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    },
+    {
+     "eps": {
+      "a": -1,
+      "b": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    }
+   ],
+   "3": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    },
+    {
+     "eps": {
+      "a": -1,
+      "b": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    }
+   ]
+  }
+ },
+ "s957": {
+  "h1": "Z/4 + Z",
+  "phi": {
+   "a": 2,
+   "b": -4,
+   "c": 1
+  },
+  "sign_homs": 4,
+  "matches": {
+   "1": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    },
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": -1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    }
+   ],
+   "3": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    },
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": -1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    }
+   ]
+  }
+ },
+ "s960": {
+  "h1": "Z/2 + Z/10 + Z",
+  "phi": {
+   "a": 0,
+   "b": 0,
+   "c": 1
+  },
+  "sign_homs": 8,
+  "matches": {
+   "1": [
+    {
+     "eps": {
+      "a": 1,
+      "b": 1,
+      "c": -1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    },
+    {
+     "eps": {
+      "a": -1,
+      "b": 1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    },
+    {
+     "eps": {
+      "a": -1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    }
+   ],
+   "3": [
+    {
+     "eps": {
+      "a": 1,
+      "b": 1,
+      "c": -1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    },
+    {
+     "eps": {
+      "a": -1,
+      "b": 1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    },
+    {
+     "eps": {
+      "a": -1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": false
+    }
+   ]
+  }
+ },
+ "t12838": {
+  "h1": "Z/7 + Z/7 + Z",
+  "phi": {
+   "a": 0,
+   "b": 1,
+   "c": 0
+  },
+  "sign_homs": 2,
+  "matches": {
+   "1": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ],
+   "3": [
+    {
+     "eps": {
+      "a": 1,
+      "b": -1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ]
+  }
+ },
+ "o10_150695": {
+  "h1": "Z/5 + Z/25 + Z",
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0
+  },
+  "sign_homs": 2,
+  "matches": {
+   "1": [
+    {
+     "eps": {
+      "a": -1,
+      "b": 1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ],
+   "3": [
+    {
+     "eps": {
+      "a": -1,
+      "b": 1,
+      "c": 1
+     },
+     "unit": [
+      0,
+      1
+     ],
+     "factors_through_phi": true
+    }
+   ]
+  }
+ }
+}

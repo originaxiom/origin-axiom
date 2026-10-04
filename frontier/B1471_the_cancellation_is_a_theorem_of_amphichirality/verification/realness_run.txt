@@ -1,0 +1,328 @@
+m003 Z/5 + Z phi_per (-2, -1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 COMPLEX  T2 holds k=[2] sign=[1]  T3 undetermined  R(2)=(1.25 + 1.73205080756888j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[3] sign=[-1]  T3 holds k=[-3] sign=[-1]  R(2)=(-0.625 - 6.05624672809267e-60j)
+   n=3  T1 COMPLEX  T2 holds k=[4] sign=[1]  T3 undetermined  R(2)=(-1.4375 - 4.33012701892219j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[5] sign=[-1]  T3 holds k=[-5] sign=[-1]  R(2)=(8.84375 - 2.65019804241156e-55j)
+m004 Z phi_per (1, 0) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[2] sign=[1]  T3 holds k=[-2] sign=[1]  R(2)=(-0.75 + 6.63048832054716e-62j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[3] sign=[-1]  T3 holds k=[-3] sign=[-1]  R(2)=(0.625 - 2.37837014615913e-59j)
+   n=3  T1 real-up-to-unit (real)  T2 holds k=[4] sign=[1]  T3 holds k=[-4] sign=[1]  R(2)=(0.5625 - 3.14230769671038e-57j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[5] sign=[-1]  T3 holds k=[-5] sign=[-1]  R(2)=(-3.21875 + 6.7408692953201e-55j)
+m202 ERROR H_1 rank 2
+m203 ERROR H_1 rank 2
+m206 Z/5 + Z phi_per (1, 0) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[2] sign=[1]  T3 holds k=[-2] sign=[1]  R(2)=(8.25 + 4.68155392626086e-61j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[3] sign=[-1]  T3 holds k=[-3] sign=[-1]  R(2)=(-5.125 + 6.6381930887954e-60j)
+   n=3  T1 real-up-to-unit (real)  T2 holds k=[4] sign=[1]  T3 holds k=[-4] sign=[1]  R(2)=(68.0625 - 1.56719551413579e-59j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[5] sign=[-1]  T3 holds k=[-5] sign=[-1]  R(2)=(224.71875 - 1.52582383502594e-54j)
+m207 Z/3 + Z/3 + Z phi_per (1, 1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 COMPLEX  T2 holds k=[2] sign=[1]  T3 undetermined  R(2)=(1.25 - 6.92820323027551j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[3] sign=[-1]  T3 holds k=[-3] sign=[-1]  R(2)=(-5.125 - 7.771093957086e-59j)
+   n=3  T1 COMPLEX  T2 holds k=[4] sign=[1]  T3 undetermined  R(2)=(-46.4375 + 17.3205080756888j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[5] sign=[-1]  T3 holds k=[-5] sign=[-1]  R(2)=(220.34375 - 5.58047509203272e-55j)
+m208 Z/10 + Z phi_per (-2, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(29.5 - 7.79422863405995j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(-282.0 - 93.5307436087194j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(7633.0 - 1621.19955588447j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(21708.0 + 99890.8341741123j)
+m410 Z/2 + Z phi_per (0, 1) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-2] sign=[1]  T3 undetermined  R(2)=(14.9282032302755 + 10.9282032302755j)
+   n=2  T1 real-up-to-unit (purely imaginary)  T2 holds k=[-3] sign=[-1]  T3 holds k=[3] sign=[1]  R(2)=(-4.89219352457009e-59 - 27.712812921102j)
+   n=3  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(-3116.24594886975 + 3071.46686405135j)
+   n=4  T1 COMPLEX  T2 holds k=[-5] sign=[-1]  T3 undetermined  R(2)=(-3840.0 - 26604.300404258j)
+m412 ERROR H_1 rank 2
+s118 Z/2 + Z phi_per (4, 6) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[8] sign=[1]  T3 undetermined  R(2)=(0.727286158418144 + 0.0307322729671636j)
+   n=2  T1 COMPLEX  T2 holds k=[12] sign=[-1]  T3 undetermined  R(2)=(-2.493896484375 + 3.03700900877922j)
+   n=3  T1 COMPLEX  T2 holds k=[16] sign=[1]  T3 undetermined  R(2)=(0.997957136758013 + 1.52778479185557j)
+   n=4  T1 COMPLEX  T2 holds k=[20] sign=[-1]  T3 undetermined  R(2)=(0.319212913513184 + 35.67058419428j)
+s119 Z/2 + Z phi_per (-2, -4) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(54.5 - 7.79422863405995j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(-342.0 + 10.3923048454133j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-983.0 - 3574.95286682216j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(-121500.0 - 157609.695285538j)
+s594 Z/2 + Z/4 + Z phi_per (0, -2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(2.19770793383704 + 0.195156647752928j)
+   n=2  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(-35.625 + 20.7846096908265j)
+   n=3  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(718.855420156968 + 432.141631547577j)
+   n=4  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(-13400.15625 + 5541.69655881662j)
+s595 Z/2 + Z/2 + Z phi_per (-2, 0) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(4.38832694529056 - 2.90741640158589j)
+   n=2  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(-55.875 - 32.4759526419164j)
+   n=3  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(-605.010080373875 - 792.631269882018j)
+   n=4  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(14349.65625 + 13564.8806590021j)
+s596 ERROR H_1 rank 2
+s955 Z/20 + Z phi_per (-4, -2) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 COMPLEX  T2 holds k=[8] sign=[1]  T3 undetermined  R(2)=(0.58203125 + 0.21650635094611j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[12] sign=[-1]  T3 holds k=[-12] sign=[-1]  R(2)=(1.970947265625 + 7.72244174505136e-58j)
+   n=3  T1 COMPLEX  T2 holds k=[16] sign=[1]  T3 undetermined  R(2)=(18.7760162353516 + 0.915077623920667j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[20] sign=[-1]  T3 holds k=[-20] sign=[-1]  R(2)=(-111.000220298767 + 5.69237882204795e-54j)
+s956 Z/2 + Z/4 + Z phi_per (0, 4) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[12] sign=[1]  T3 holds k=[-12] sign=[1]  R(2)=(0.0830078125 - 1.1856735489151e-61j)
+   n=2  T1 COMPLEX  T2 holds k=[18] sign=[-1]  T3 undetermined  R(2)=(-0.267791748046875 + 0.185531565385948j)
+   n=3  T1 real-up-to-unit (real)  T2 holds k=[24] sign=[1]  T3 holds k=[-24] sign=[1]  R(2)=(1.19364261627197 - 3.55351438263483e-56j)
+   n=4  T1 COMPLEX  T2 holds k=[30] sign=[-1]  T3 undetermined  R(2)=(-2.5266207754612 - 5.08213215082066j)
+s957 Z/4 + Z phi_per (-4, -2) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(37.25 + 13.856406460551j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[-6] sign=[-1]  T3 holds k=[6] sign=[-1]  R(2)=(1886.625 + 1.697772676382e-56j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(76906.5625 + 3748.15794757905j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[-10] sign=[-1]  T3 holds k=[10] sign=[-1]  R(2)=(-9420688.96875 - 1.30997848510607e-50j)
+s958 Z/3 + Z phi_per (-4, -1) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-2] sign=[1]  T3 undetermined  R(2)=(108.125 + 75.019450602827j)
+   n=2  T1 COMPLEX  T2 holds k=[-3] sign=[-1]  T3 undetermined  R(2)=(-514.0625 - 284.46228184932j)
+   n=3  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(-27416.05859375 - 22486.7961536118j)
+   n=4  T1 COMPLEX  T2 holds k=[-5] sign=[-1]  T3 undetermined  R(2)=(2178696.04980469 - 456376.504381103j)
+s959 ERROR H_1 rank 2
+s960 Z/2 + Z/10 + Z phi_per (0, -1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 COMPLEX  T2 holds k=[2] sign=[1]  T3 undetermined  R(2)=(1.25 - 1.73205080756888j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[3] sign=[-1]  T3 holds k=[-3] sign=[-1]  R(2)=(-26.875 - 1.92346985891675e-57j)
+   n=3  T1 COMPLEX  T2 holds k=[4] sign=[1]  T3 undetermined  R(2)=(622.5625 + 108.253175473055j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[5] sign=[-1]  T3 holds k=[-5] sign=[-1]  R(2)=(9221.28125 + 1.5054894912967e-51j)
+s961 Z/4 + Z/4 + Z phi_per (1, 0) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[6] sign=[1]  T3 holds k=[-6] sign=[1]  R(2)=(0.8125 - 1.46899100187681e-62j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[9] sign=[-1]  T3 holds k=[-9] sign=[-1]  R(2)=(-3.359375 - 2.98343249328564e-59j)
+   n=3  T1 real-up-to-unit (real)  T2 holds k=[12] sign=[1]  T3 holds k=[-12] sign=[1]  R(2)=(47.16015625 + 9.46443766679448e-56j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[15] sign=[-1]  T3 holds k=[-15] sign=[-1]  R(2)=(296.6025390625 + 6.13889426647082e-53j)
+v2873 Z/6 + Z phi_per (0, -6) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[12] sign=[1]  T3 undetermined  R(2)=(0.3876953125 - 0.108253175473055j)
+   n=2  T1 COMPLEX  T2 holds k=[18] sign=[-1]  T3 undetermined  R(2)=(0.363372802734375 - 0.552788920457621j)
+   n=3  T1 COMPLEX  T2 holds k=[24] sign=[1]  T3 undetermined  R(2)=(-0.310786247253418 - 0.991886899120512j)
+   n=4  T1 COMPLEX  T2 holds k=[30] sign=[-1]  T3 undetermined  R(2)=(5.76737728714943 + 2.89542969283746j)
+v2874 Z/2 + Z phi_per (-2, 0) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(29.5 - 35.507041555162j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(-408.0 - 540.39985196149j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-23867.0 - 63067.434005198j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(5371272.0 - 1484894.08553203j)
+v2875 Z/4 + Z phi_per (5, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[10] sign=[1]  T3 undetermined  R(2)=(0.830123587482754 - 0.621592035333643j)
+   n=2  T1 COMPLEX  T2 holds k=[15] sign=[-1]  T3 undetermined  R(2)=(2.84589640299479 + 3.1861390343658j)
+   n=3  T1 COMPLEX  T2 holds k=[20] sign=[1]  T3 undetermined  R(2)=(-3.95219461288344 + 10.7095829965684j)
+   n=4  T1 COMPLEX  T2 holds k=[25] sign=[-1]  T3 undetermined  R(2)=(-26.8434281051159 - 56.19957509496j)
+v3551 ERROR H_1 rank 2
+t06828 ERROR H_1 rank 2
+t06829 ERROR H_1 rank 2
+t11365 Z/2 + Z phi_per (4, 1) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[10] sign=[1]  T3 undetermined  R(2)=(2.39225025504475 + 0.174254477379466j)
+   n=2  T1 COMPLEX  T2 holds k=[15] sign=[-1]  T3 undetermined  R(2)=(-0.44921875 - 2.03910290538283j)
+   n=3  T1 COMPLEX  T2 holds k=[20] sign=[1]  T3 undetermined  R(2)=(-11.0460275473254 + 5.35405424463712j)
+   n=4  T1 COMPLEX  T2 holds k=[25] sign=[-1]  T3 undetermined  R(2)=(295.989569962025 + 458.003203109434j)
+t12833 Z/6 + Z phi_per (4, -2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[20] sign=[1]  T3 undetermined  R(2)=(0.109764184734399 + 0.0317138284244012j)
+   n=2  T1 COMPLEX  T2 holds k=[30] sign=[-1]  T3 undetermined  R(2)=(0.0252578258514404 + 0.0377328661567433j)
+   n=3  T1 COMPLEX  T2 holds k=[40] sign=[1]  T3 undetermined  R(2)=(0.00519862734140106 - 0.0473553375345373j)
+   n=4  T1 COMPLEX  T2 holds k=[50] sign=[-1]  T3 undetermined  R(2)=(0.510760598480374 - 0.378190614667641j)
+t12834 Z/4 + Z phi_per (0, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[20] sign=[1]  T3 holds k=[-20] sign=[1]  R(2)=(0.0400390625 + 4.80808400239918e-61j)
+   n=2  T1 COMPLEX  T2 holds k=[30] sign=[-1]  T3 undetermined  R(2)=(-0.00238037109375 - 0.000951443925056146j)
+   n=3  T1 COMPLEX  T2 holds k=[40] sign=[1]  T3 undetermined  R(2)=(0.0100417137145996 + 0.037556018994892j)
+   n=4  T1 COMPLEX  T2 holds k=[50] sign=[-1]  T3 undetermined  R(2)=(-0.157020270824432 + 0.00878165398796939j)
+t12835 Z/6 + Z phi_per (0, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(40.4855715851499 + 42.0346096908265j)
+   n=2  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(-112.5 + 142.894191624432j)
+   n=3  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(-5869.38771671957 - 33479.558448512j)
+   n=4  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(3167160.75 + 44621.9589299932j)
+t12836 ERROR H_1 rank 2
+t12837 Z/4 + Z phi_per (-4, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(626.9375 - 17.5370144266349j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(-5418.140625 + 9926.59968452818j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(717526.73828125 - 2065538.30038714j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(141732333.588867 + 270114951.757569j)
+t12838 Z/7 + Z/7 + Z phi_per (0, -1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 COMPLEX  T2 holds k=[2] sign=[1]  T3 undetermined  R(2)=(1.25 + 96.9948452238571j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[3] sign=[-1]  T3 holds k=[-3] sign=[-1]  R(2)=(-131.125 - 7.13815462119171e-54j)
+   n=3  T1 COMPLEX  T2 holds k=[4] sign=[1]  T3 undetermined  R(2)=(-9406.4375 - 242.487113059643j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[5] sign=[-1]  T3 holds k=[-5] sign=[-1]  R(2)=(393165.84375 - 2.66049330666863e-45j)
+t12839 Z/3 + Z/15 + Z phi_per (0, 1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[-2] sign=[1]  T3 holds k=[2] sign=[1]  R(2)=(393.0 - 9.76792035223382e-58j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[-3] sign=[-1]  T3 holds k=[3] sign=[-1]  R(2)=(-1049.0 - 1.59055058129383e-54j)
+   n=3  T1 real-up-to-unit (real)  T2 holds k=[-4] sign=[1]  T3 holds k=[4] sign=[1]  R(2)=(154449.0 - 1.2782666866397e-51j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[-5] sign=[-1]  T3 holds k=[5] sign=[-1]  R(2)=(12651367.0 + 6.54983359790994e-48j)
+t12840 ERROR H_1 rank 2
+t12841 ERROR H_1 rank 2
+t12842 ERROR H_1 rank 2
+t12843 ERROR H_1 rank 2
+t12844 ERROR H_1 rank 2
+t12845 ERROR H_1 rank 2
+o9_27787 Z/2 + Z/2 + Z phi_per (-2, -12) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[28] sign=[1]  T3 undetermined  R(2)=(0.0143966478575096 + 0.00254077329210988j)
+   n=2  T1 COMPLEX  T2 holds k=[42] sign=[-1]  T3 undetermined  R(2)=(-0.00219883408863097 - 0.000639244128206019j)
+   n=3  T1 COMPLEX  T2 holds k=[56] sign=[1]  T3 undetermined  R(2)=(0.000379154128622043 + 3.41789848818349e-5j)
+   n=4  T1 COMPLEX  T2 holds k=[70] sign=[-1]  T3 undetermined  R(2)=(0.000436523531460592 - 0.000630957646763748j)
+o9_40998 Z/10 + Z phi_per (-2, -6) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(101.563093076134 + 36.4867939056065j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(8866.5 - 8919.19563357593j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-423110.039075276 + 2628562.61341851j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(-581627405.25 + 345924834.815317j)
+o9_40999 ERROR H_1 rank 2
+o9_41000 Z/2 + Z phi_per (14, 16) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(128329.705505371 - 54155.2310616072j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(18073986.882854 + 123612706.231081j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(38452219369.3546 - 114128198904.02j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(437563080655709.0 + 52324417039801.1j)
+o9_41001 Z/2 + Z phi_per (2, -8) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[16] sign=[1]  T3 undetermined  R(2)=(-0.1055908203125 + 0.00359434371687877j)
+   n=2  T1 COMPLEX  T2 holds k=[24] sign=[-1]  T3 undetermined  R(2)=(0.30377197265625 + 0.0160159727384451j)
+   n=3  T1 COMPLEX  T2 holds k=[32] sign=[1]  T3 undetermined  R(2)=(0.541041672229767 - 1.45828561967984j)
+   n=4  T1 COMPLEX  T2 holds k=[40] sign=[-1]  T3 undetermined  R(2)=(22.6026935353875 + 24.5565751792245j)
+o9_41002 Z/2 + Z phi_per (2, 0) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(110.249998454671 - 6.55478519955833j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(-1779.0 + 1252.2727338723j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-518079.660885268 - 471112.442571079j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(213498018.0 - 217111044.524048j)
+o9_41003 ERROR H_1 rank 2
+o9_41004 Z/2 + Z phi_per (-2, -8) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(61.93359375 - 64.9113103430305j)
+   n=2  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(2387.48971121652 - 3265.32401722261j)
+   n=3  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(-884280.709862629 - 292052.461788373j)
+   n=4  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(106412586.438527 - 19207827.3194778j)
+o9_41005 ERROR H_1 rank 2
+o9_41006 Z/10 + Z phi_per (-2, -2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[4] sign=[1]  T3 undetermined  R(2)=(0.209269725266268 - 4.26648518929708j)
+   n=2  T1 COMPLEX  T2 holds k=[6] sign=[-1]  T3 undetermined  R(2)=(-20.1887755102041 + 34.1991664555692j)
+   n=3  T1 COMPLEX  T2 holds k=[8] sign=[1]  T3 undetermined  R(2)=(156.023464095273 + 2862.83071001734j)
+   n=4  T1 COMPLEX  T2 holds k=[10] sign=[-1]  T3 undetermined  R(2)=(330251.135489358 - 31352.711478604j)
+o9_41007 Z/2 + Z phi_per (8, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(745.514808989108 - 234.65286189888j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(-45671.232421875 - 34963.8744814025j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-1798016.58346896 + 8379993.88110973j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(329665577.073212 + 4896490628.04884j)
+o9_41008 Z/2 + Z phi_per (0, -2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[8] sign=[1]  T3 undetermined  R(2)=(1.140625 - 0.162379763209582j)
+   n=2  T1 COMPLEX  T2 holds k=[12] sign=[-1]  T3 undetermined  R(2)=(2.2734375 - 2.01621539318565j)
+   n=3  T1 COMPLEX  T2 holds k=[16] sign=[1]  T3 undetermined  R(2)=(-158.0029296875 - 19.1506633235301j)
+   n=4  T1 COMPLEX  T2 holds k=[20] sign=[-1]  T3 undetermined  R(2)=(-4243.21154785156 - 5657.73719710027j)
+o9_41009 Z/2 + Z phi_per (-2, 6) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(79.75 + 84.0044641670905j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(1504.125 - 1661.46973716045j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-705560.1875 - 482352.76722203j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(-560631586.78125 - 264885967.689349j)
+o9_44249 Z/2 + Z phi_per (-4, -7) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-6] sign=[1]  T3 undetermined  R(2)=(4153.74735529479 + 5215.80875411018j)
+   n=2  T1 COMPLEX  T2 holds k=[-9] sign=[-1]  T3 undetermined  R(2)=(25031.162109375 - 86831.9694522121j)
+   n=3  T1 COMPLEX  T2 holds k=[-12] sign=[1]  T3 undetermined  R(2)=(-10009126.3947489 - 134832593.756012j)
+   n=4  T1 COMPLEX  T2 holds k=[-15] sign=[-1]  T3 undetermined  R(2)=(337637141122.149 - 52402094255.6998j)
+o10_064767 Z/2 + Z/2 + Z phi_per (4, -2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[8] sign=[1]  T3 undetermined  R(2)=(-1.52211277033655 - 0.972449708594818j)
+   n=2  T1 COMPLEX  T2 holds k=[12] sign=[-1]  T3 undetermined  R(2)=(-17.7037353515625 - 0.821413255298473j)
+   n=3  T1 COMPLEX  T2 holds k=[16] sign=[1]  T3 undetermined  R(2)=(16.8360440396425 + 153.694138070369j)
+   n=4  T1 COMPLEX  T2 holds k=[20] sign=[-1]  T3 undetermined  R(2)=(93.3263254165649 - 1595.22864517991j)
+o10_107944 Z/2 + Z/4 + Z phi_per (4, 6) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(3952.88692414707 - 829.751822391966j)
+   n=2  T1 COMPLEX  T2 holds k=[-12] sign=[-1]  T3 undetermined  R(2)=(372143.859375 - 172241.898128116j)
+   n=3  T1 COMPLEX  T2 holds k=[-16] sign=[1]  T3 undetermined  R(2)=(51515335.0554959 + 37082673.9897001j)
+   n=4  T1 COMPLEX  T2 holds k=[-20] sign=[-1]  T3 undetermined  R(2)=(39122304771.7002 - 31598395958.0623j)
+o10_107945 Z/2 + Z/4 + Z phi_per (-4, -6) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(273.727249391914 - 165.716510603248j)
+   n=2  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(2288.78833007812 + 1864.0384917644j)
+   n=3  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(118540.361614024 - 63818.951892089j)
+   n=4  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(-21588035.2487783 + 84787680.5642717j)
+o10_107946 ERROR H_1 rank 2
+o10_107947 Z/2 + Z/4 + Z phi_per (-2, 0) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[4] sign=[1]  T3 undetermined  R(2)=(-10.7185748347003 + 7.14641228047282j)
+   n=2  T1 COMPLEX  T2 holds k=[6] sign=[-1]  T3 undetermined  R(2)=(-106.078125 + 9.98635543738931j)
+   n=3  T1 COMPLEX  T2 holds k=[8] sign=[1]  T3 undetermined  R(2)=(3051.12984599832 - 3606.26440726757j)
+   n=4  T1 COMPLEX  T2 holds k=[10] sign=[-1]  T3 undetermined  R(2)=(-193600.916015625 - 204087.553421664j)
+o10_107948 Z/10 + Z phi_per (0, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(21.9164339512366 - 4.94531233816397j)
+   n=2  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(161.25 - 209.145135013942j)
+   n=3  T1 COMPLEX  T2 holds k=[0] sign=[1]  T3 undetermined  R(2)=(46140.4182268415 - 29001.5166251215j)
+   n=4  T1 COMPLEX  T2 holds k=[0] sign=[-1]  T3 undetermined  R(2)=(-1572807.375 + 7005020.11660389j)
+o10_107949 Z/2 + Z/4 + Z phi_per (-2, -4) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(279.280401631242 + 222.592433232775j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(9730.3125 + 2302.22028278546j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-329795.281130915 + 536763.229381069j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(326217463.59375 - 309402026.434891j)
+o10_143600 Z/2 + Z phi_per (4, -9) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[14] sign=[1]  T3 undetermined  R(2)=(0.204445424346231 + 0.389509514506697j)
+   n=2  T1 COMPLEX  T2 holds k=[21] sign=[-1]  T3 undetermined  R(2)=(15.3191846609116 + 4.98634200291669j)
+   n=3  T1 COMPLEX  T2 holds k=[28] sign=[1]  T3 undetermined  R(2)=(-170.353923656931 - 69.2776526549046j)
+   n=4  T1 COMPLEX  T2 holds k=[35] sign=[-1]  T3 undetermined  R(2)=(-4392.49925797535 - 5411.83516974189j)
+o10_143601 ERROR H_1 rank 2
+o10_143602 ERROR H_1 rank 2
+o10_150683 ERROR H_1 rank 2
+o10_150684 ERROR H_1 rank 2
+o10_150685 ERROR H_1 rank 3
+o10_150686 ERROR H_1 rank 2
+o10_150687 ERROR H_1 rank 3
+o10_150688 ERROR H_1 rank 2
+o10_150689 ERROR H_1 rank 2
+o10_150690 ERROR H_1 rank 4
+o10_150691 ERROR H_1 rank 3
+o10_150692 ERROR H_1 rank 2
+o10_150693 ERROR H_1 rank 2
+o10_150694 Z/5 + Z/5 + Z phi_per (0, 5) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-2] sign=[1]  T3 undetermined  R(2)=(-17.5 + 15.2636977417007j)
+   n=2  T1 COMPLEX  T2 holds k=[-3] sign=[-1]  T3 undetermined  R(2)=(-48.4375 + 1992.53501105092j)
+   n=3  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(-2976665.71484375 - 4398084.91191421j)
+   n=4  T1 COMPLEX  T2 holds k=[-5] sign=[-1]  T3 undetermined  R(2)=(-7108520565.39355 + 4921988883.39655j)
+o10_150695 Z/5 + Z/25 + Z phi_per (0, -1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 COMPLEX  T2 holds k=[-2] sign=[1]  T3 undetermined  R(2)=(5.0 - 1447.99447512758j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[-3] sign=[-1]  T3 holds k=[3] sign=[-1]  R(2)=(5045.0 + 2.27167650080901e-53j)
+   n=3  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(-2096663.0 + 14479.9447512758j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[-5] sign=[-1]  T3 holds k=[5] sign=[-1]  R(2)=(-531553963.0 - 1.27766396631059e-43j)
+o10_150696 Z/11 + Z/11 + Z phi_per (0, -1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[2] sign=[1]  T3 holds k=[-2] sign=[1]  R(2)=(-360.75 - 5.06713295680947e-57j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[3] sign=[-1]  T3 holds k=[-3] sign=[-1]  R(2)=(-630.625 - 7.93334458145626e-54j)
+   n=3  T1 real-up-to-unit (real)  T2 holds k=[4] sign=[1]  T3 holds k=[-4] sign=[1]  R(2)=(130140.5625 - 5.79410753048439e-50j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[5] sign=[-1]  T3 holds k=[-5] sign=[-1]  R(2)=(16618930.71875 + 1.71311816134e-43j)
+o10_150697 Z/5 + Z phi_per (-1, 1) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[2] sign=[1]  T3 undetermined  R(2)=(30.8125 - 17.3205080756888j)
+   n=2  T1 COMPLEX  T2 holds k=[3] sign=[-1]  T3 undetermined  R(2)=(47.671875 + 262.189190995739j)
+   n=3  T1 COMPLEX  T2 holds k=[4] sign=[1]  T3 undetermined  R(2)=(53921.95703125 + 15714.5180909583j)
+   n=4  T1 COMPLEX  T2 holds k=[5] sign=[-1]  T3 undetermined  R(2)=(19176991.6552734 - 55901326.6006414j)
+o10_150698 Z/8 + Z phi_per (0, 2) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(111.282032302755 + 80.5922308261581j)
+   n=2  T1 COMPLEX  T2 holds k=[-6] sign=[-1]  T3 undetermined  R(2)=(-72.0 - 4572.61413198184j)
+   n=3  T1 COMPLEX  T2 holds k=[-8] sign=[1]  T3 undetermined  R(2)=(-6656364.39059383 + 9515291.64424427j)
+   n=4  T1 COMPLEX  T2 holds k=[-10] sign=[-1]  T3 undetermined  R(2)=(1682130384.0 - 4003294989.78872j)
+o10_150699 Z/16 + Z phi_per (2, -3) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-18] sign=[1]  T3 undetermined  R(2)=(30256.0 - 5043.73195164057j)
+   n=2  T1 COMPLEX  T2 holds k=[-27] sign=[-1]  T3 undetermined  R(2)=(10718400.0 + 20795694.815995j)
+   n=3  T1 COMPLEX  T2 holds k=[-36] sign=[1]  T3 undetermined  R(2)=(80677598464.0 - 133155708301.489j)
+   n=4  T1 COMPLEX  T2 holds k=[-45] sign=[-1]  T3 undetermined  R(2)=(-6.40814853162701e+15 - 724354715305824.0j)
+o10_150700 Z phi_per (-6, 11) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[30] sign=[1]  T3 undetermined  R(2)=(0.208998549729586 - 0.214995303961617j)
+   n=2  T1 COMPLEX  T2 holds k=[45] sign=[-1]  T3 undetermined  R(2)=(0.0503182678050962 + 0.0271304509509353j)
+   n=3  T1 COMPLEX  T2 holds k=[60] sign=[1]  T3 undetermined  R(2)=(0.484700303029319 + 0.0618810864539712j)
+   n=4  T1 COMPLEX  T2 holds k=[75] sign=[-1]  T3 undetermined  R(2)=(1.77294585185883 - 1.26547170839676j)
+o10_150701 Z/16 + Z phi_per (2, 5) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-2] sign=[1]  T3 undetermined  R(2)=(-9.5625 - 48.7139289628747j)
+   n=2  T1 COMPLEX  T2 holds k=[-3] sign=[-1]  T3 undetermined  R(2)=(15107.390625 + 7592.87772768007j)
+   n=3  T1 COMPLEX  T2 holds k=[-4] sign=[1]  T3 undetermined  R(2)=(2849563.01953125 - 328190.610815783j)
+   n=4  T1 COMPLEX  T2 holds k=[-5] sign=[-1]  T3 undetermined  R(2)=(1310750756.5166 - 4003115948.17712j)
+o10_150702 ERROR H_1 rank 3
+o10_150703 ERROR H_1 rank 2
+o10_150704 ERROR H_1 rank 4
+o10_150705 ERROR H_1 rank 2
+o10_150706 ERROR H_1 rank 2
+o10_150707 Z/2 + Z/2 + Z phi_per (0, 1) amphi(snappy) True amphi(iso) True signs ['-1', '1']
+   n=1  T1 real-up-to-unit (real)  T2 holds k=[-2] sign=[1]  T3 holds k=[2] sign=[1]  R(2)=(208.0 - 1.21019031130283e-57j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[-3] sign=[-1]  T3 holds k=[3] sign=[-1]  R(2)=(-384.0 + 2.1711340888899e-53j)
+   n=3  T1 real-up-to-unit (real)  T2 holds k=[-4] sign=[1]  T3 holds k=[4] sign=[1]  R(2)=(3891188.24182658 - 7.29560015973827e-48j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[-5] sign=[-1]  T3 holds k=[5] sign=[-1]  R(2)=(176652288.0 + 5.13208394476198e-42j)
+o10_150708 ERROR H_1 rank 2
+o10_150709 Z/2 + Z/2 + Z phi_per (0, -1) amphi(snappy) False amphi(iso) False signs []
+   n=1  T1 COMPLEX  T2 holds k=[-6] sign=[1]  T3 undetermined  R(2)=(763.405006737633 - 221.702503368816j)
+   n=2  T1 real-up-to-unit (real)  T2 holds k=[-9] sign=[-1]  T3 holds k=[9] sign=[-1]  R(2)=(-3072.0 - 2.22139974095706e-53j)
+   n=3  T1 COMPLEX  T2 holds k=[-12] sign=[1]  T3 undetermined  R(2)=(-18498737.9527718 + 55757440.9440453j)
+   n=4  T1 real-up-to-unit (real)  T2 holds k=[-15] sign=[-1]  T3 holds k=[15] sign=[-1]  R(2)=(5747245056.0 - 3.20660516097283e-42j)
+o10_150710 ERROR H_1 rank 2
+o10_150711 ERROR H_1 rank 2
+o10_150712 ERROR H_1 rank 3
+o10_150713 ERROR H_1 rank 2
+o10_150714 ERROR H_1 rank 2
+o10_150715 ERROR H_1 rank 2
+o10_150716 ERROR H_1 rank 2
+o10_150717 ERROR H_1 rank 3
+o10_150718 ERROR H_1 rank 3
+o10_150719 ERROR H_1 rank 2
+o10_150720 ERROR H_1 rank 3
+o10_150721 ERROR H_1 rank 3
+o10_150722 ERROR H_1 rank 3
+o10_150723 ERROR H_1 rank 2
+o10_150724 ERROR H_1 rank 2
+o10_150725 ERROR H_1 rank 3
+o10_150726 ERROR H_1 rank 2
+o10_150727 ERROR H_1 rank 4
+o10_150728 ERROR H_1 rank 3
+o10_150729 ERROR H_1 rank 5

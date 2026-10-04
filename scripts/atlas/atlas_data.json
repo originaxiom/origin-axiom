@@ -9706,6 +9706,36 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1471": {
+   "slug": "the cancellation is a theorem of amphichirality",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B152",
+    "B425",
+    "B581",
+    "B849",
+    "L245",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "V30",
+    "V31"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

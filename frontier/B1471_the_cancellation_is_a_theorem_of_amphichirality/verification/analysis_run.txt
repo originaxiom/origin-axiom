@@ -1,0 +1,71 @@
+members 112 usable 54 excluded 58
+   excluded m202 H_1 rank 2
+   excluded m203 H_1 rank 2
+   excluded m412 H_1 rank 2
+   excluded s596 H_1 rank 2
+   excluded s959 H_1 rank 2
+   excluded v3551 H_1 rank 2
+   excluded t06828 H_1 rank 2
+   excluded t06829 H_1 rank 2
+   excluded t12836 H_1 rank 2
+   excluded t12840 H_1 rank 2
+   excluded t12841 H_1 rank 2
+   excluded t12842 H_1 rank 2
+   excluded t12843 H_1 rank 2
+   excluded t12844 H_1 rank 2
+   excluded t12845 H_1 rank 2
+   excluded o9_40999 H_1 rank 2
+   excluded o9_41003 H_1 rank 2
+   excluded o9_41005 H_1 rank 2
+   excluded o10_107946 H_1 rank 2
+   excluded o10_143601 H_1 rank 2
+   excluded o10_143602 H_1 rank 2
+   excluded o10_150683 H_1 rank 2
+   excluded o10_150684 H_1 rank 2
+   excluded o10_150685 H_1 rank 3
+   excluded o10_150686 H_1 rank 2
+   excluded o10_150687 H_1 rank 3
+   excluded o10_150688 H_1 rank 2
+   excluded o10_150689 H_1 rank 2
+   excluded o10_150690 H_1 rank 4
+   excluded o10_150691 H_1 rank 3
+   excluded o10_150692 H_1 rank 2
+   excluded o10_150693 H_1 rank 2
+   excluded o10_150702 H_1 rank 3
+   excluded o10_150703 H_1 rank 2
+   excluded o10_150704 H_1 rank 4
+   excluded o10_150705 H_1 rank 2
+   excluded o10_150706 H_1 rank 2
+   excluded o10_150708 H_1 rank 2
+   excluded o10_150710 H_1 rank 2
+   excluded o10_150711 H_1 rank 2
+   excluded o10_150712 H_1 rank 3
+   excluded o10_150713 H_1 rank 2
+   excluded o10_150714 H_1 rank 2
+   excluded o10_150715 H_1 rank 2
+   excluded o10_150716 H_1 rank 2
+   excluded o10_150717 H_1 rank 3
+   excluded o10_150718 H_1 rank 3
+   excluded o10_150719 H_1 rank 2
+   excluded o10_150720 H_1 rank 3
+   excluded o10_150721 H_1 rank 3
+   excluded o10_150722 H_1 rank 3
+   excluded o10_150723 H_1 rank 2
+   excluded o10_150724 H_1 rank 2
+   excluded o10_150725 H_1 rank 3
+   excluded o10_150726 H_1 rank 2
+   excluded o10_150727 H_1 rank 4
+   excluded o10_150728 H_1 rank 3
+   excluded o10_150729 H_1 rank 5
+P1 duality at even n: holds 54 fails 0 []
+P2 amphichiral (by isometry) real-up-to-unit at even n: holds 13 fails 0 []
+chiral members: complex 40 real 1 ['o10_150709']
+column disagreements (iso, snappy, B1235): []
+the lane's five:
+   m206 {"amphi_iso": true, "amphi_snappy": true, "signs": ["-1", "1"], "duality": true, "real_even": true, "phase_even": ["real", "real"], "T3_even": ["holds k=[-3] sign=[-1]", "holds k=[-5] sign=[-1]"], "R2_even": ["(-5.125 + 6.6381930887954e-60j)", "(224.71875 - 1.52582383502594e-54j)"], "odd": [[1, "real-up-to-unit", "real"], [3, "real-up-to-unit", "real"]]}
+   m207 {"amphi_iso": true, "amphi_snappy": true, "signs": ["-1", "1"], "duality": true, "real_even": true, "phase_even": ["real", "real"], "T3_even": ["holds k=[-3] sign=[-1]", "holds k=[-5] sign=[-1]"], "R2_even": ["(-5.125 - 7.771093957086e-59j)", "(220.34375 - 5.58047509203272e-55j)"], "odd": [[1, "COMPLEX", null], [3, "COMPLEX", null]]}
+   s957 {"amphi_iso": true, "amphi_snappy": true, "signs": ["-1", "1"], "duality": true, "real_even": true, "phase_even": ["real", "real"], "T3_even": ["holds k=[6] sign=[-1]", "holds k=[10] sign=[-1]"], "R2_even": ["(1886.625 + 1.697772676382e-56j)", "(-9420688.96875 - 1.30997848510607e-50j)"], "odd": [[1, "COMPLEX", null], [3, "COMPLEX", null]]}
+   s960 {"amphi_iso": true, "amphi_snappy": true, "signs": ["-1", "1"], "duality": true, "real_even": true, "phase_even": ["real", "real"], "T3_even": ["holds k=[-3] sign=[-1]", "holds k=[-5] sign=[-1]"], "R2_even": ["(-26.875 - 1.92346985891675e-57j)", "(9221.28125 + 1.5054894912967e-51j)"], "odd": [[1, "COMPLEX", null], [3, "COMPLEX", null]]}
+   s961 {"amphi_iso": true, "amphi_snappy": true, "signs": ["-1", "1"], "duality": true, "real_even": true, "phase_even": ["real", "real"], "T3_even": ["holds k=[-9] sign=[-1]", "holds k=[-15] sign=[-1]"], "R2_even": ["(-3.359375 - 2.98343249328564e-59j)", "(296.6025390625 + 6.13889426647082e-53j)"], "odd": [[1, "real-up-to-unit", "real"], [3, "real-up-to-unit", "real"]]}
+odd-n pattern on amphichiral members: {'even real | odd cplx | signs -1,1': 7, 'even real | odd real | signs -1,1': 6}
+retriangulation controls: {"m003": {"1": {"k_sign_at_2_3": [[0.0, 1.0], [0.0, 1.0]], "agree": true, "verdict_retri": "COMPLEX"}, "2": {"k_sign_at_2_3": [[0.0, 1.0], [0.0, 1.0]], "agree": true, "verdict_retri": "real-up-to-unit"}, "3": {"k_sign_at_2_3": [[0.0, 1.0], [0.0, 1.0]], "agree": true, "verdict_retri": "COMPLEX"}, "4": {"k_sign_at_2_3": [[0.0, 1.0], [0.0, 1.0]], "agree": true, "verdict_retri": "real-up-to-unit"}}, "m004": {"1": {"k_sign_at_2_3": [[0.0, 1.0], [0.0, 1.0]], "agree": true, "verdict_retri": "real-up-to-unit"}, "2": {"k_sign_at_2_3": [[0.0, 1.0], [0.0, 1.0]], "agree": true, "verdict_retri": "real-up-t

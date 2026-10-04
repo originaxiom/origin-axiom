@@ -144,7 +144,7 @@ class Wada:
         return det(Big) / den
 
 
-def unit_match(x, y, t, kmax=12):
+def unit_match(x, y, t, kmax=80):   # post-seal repair: the sealed cap of 12 was exceeded by true units (k = 20 at n = 4 on s118)
     """is x = +- t^k y for an integer |k| <= kmax?  returns (k, sign) or None"""
     if abs(y) < TOL and abs(x) < TOL: return (0, 1)
     if abs(y) < TOL or abs(x) < TOL: return None
@@ -164,6 +164,8 @@ def tests(W, reals=(mpf(2), mpf(3), mpf("0.6"), mpf("1.7")), angles=(mpf("0.37")
         out["T1"].append(unit_match(c, v, t))                   # conj R(t) = +- R(t)  (k forced 0 at |t| != 1)
         out["T2"].append(unit_match(vi, v, t))                  # R(1/t) = +- t^k R(t)
         out["T3"].append(unit_match(c, vi, t))                  # conj R(t) = +- t^k R(1/t)
+        vm = W.value(-t); vmi = W.value(-1 / t)                  # T4 (post-seal, for P5): conj R(t) = +- t^k R(-t) or R(-1/t): the lift's sign character factors through phi
+        out.setdefault("T4", []).append((unit_match(c, vm, t) if vm is not None else None, unit_match(c, vmi, t) if vmi is not None else None))
     for th in angles:   # unit circle: conj(R(t)) vs R(1/t) = R(conj t) tests only with the coefficient structure; record values
         t = exp(mpc(0, 1) * th); v = W.value(t); vi = W.value(1 / t)
         if v is None or vi is None: continue
@@ -178,6 +180,8 @@ def tests(W, reals=(mpf(2), mpf(3), mpf("0.6"), mpf("1.7")), angles=(mpf("0.37")
     out["T1_verdict"] = "real-up-to-unit" if all(r is not None for r in out["T1"]) and out["T1"] and len({r[1] for r in out["T1"]}) == 1 else "COMPLEX"
     if out["T1_verdict"] == "real-up-to-unit": out["T1_phase"] = "real" if out["T1"][0][1] == 1 else "purely imaginary"
     out["T2_verdict"] = summary("T2"); out["T3_verdict"] = summary("T3")
+    t4 = out.get("T4", [])
+    out["T4_verdict"] = ("holds (conj R(t) = unit R(-t))" if t4 and all(r and r[0] for r in t4) else ("holds (conj R(t) = unit R(-1/t))" if t4 and all(r and r[1] for r in t4) else "FAILS"))
     return out
 
 
