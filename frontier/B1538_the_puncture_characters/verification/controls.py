@@ -38,6 +38,9 @@ proved at design time fixes; no puncture character's line or four is read here.
       orbits at m(C), by formula (the Smith form's count and Moebius inversion, minus the enumerated puncture-trivial
       characters), whose per-state totals must equal the seal's table, counted by enumeration.  The read-out certifies no
       population-wide prediction unless the records match this manifest exactly.
+  K12 Part F's fourth roots, by brute force (the audit lane's R89): on every cover with |D| <= 5, Cover.fourth_roots at a
+      fixed sample of characters of order dividing 12 (Proposition H's zeta_H always among them) equals the set of characters
+      of order dividing 48 whose fourth power it is, found by enumerating them all, and the Smith form's count.
 
     python3 -u controls.py [--record]   ->  controls.json"""
 import importlib.util
@@ -342,8 +345,9 @@ def k9():
         return hit(n, (1, 1), 2, s)
     chi = {"zeta": [1, 0], "m": 3, "s": [1, 6], "n": 2}
 
-    def head(cid, planned):
-        return {"kind": "candidate", "cover": cid, "chi": chi, "planned": planned}
+    def head(cid, planned, smith=None):
+        return {"kind": "candidate", "cover": cid, "chi": chi, "planned": planned, "fourth roots": planned // 4,
+                "fourth roots by the Smith form": planned // 4 if smith is None else smith}
 
     def reading(cid, k, caps=None):
         f = {"kind": "reading", "cover": cid, "chi": chi, "nu": {"zeta": [k, 0], "m": 12, "s": [k, 24]}, "h1 R": 0,
@@ -367,10 +371,12 @@ def k9():
         "n = 1 on m004": (ident, [cover("m004", [hit(1)])], None, None, c4, want(T, T, T, T, T, F_, T, T)),
         "n = 2, Part F pending": (ident, [cover("m135", [hit(2)])], None, None, c5, want(T, T, T, T, F_, T, N, N)),
         "n = 2, a member with both caps 2": (ident, [cover("m135", [hit(2)])],
-                                             [head("m135.x", 1), reading("m135.x", 1, (2, 2))], None, c5,
+                                             [head("m135.x", 4), reading("m135.x", 1, (2, 2))]
+                                             + [reading("m135.x", k) for k in (2, 3, 5)], None, c5,
                                              want(T, T, T, T, F_, T, F_, F_)),
         "n = 2, every planned reading, capL2 1": (ident, [cover("m135", [hit(2)])],
-                                                  [head("m135.x", 2), reading("m135.x", 1, (2, 1)), reading("m135.x", 3)],
+                                                  [head("m135.x", 4), reading("m135.x", 1, (2, 1))]
+                                                  + [reading("m135.x", k) for k in (2, 3, 5)],
                                                   None, c5, want(T, T, T, T, F_, T, T, T)),
         "route P disagrees": (ident, [cover("m003", [], pdis=1)], None, None, c3, want(T, F_, T, F_, T, T, T, T)),
         "route T disagrees": (ident, [cover("m003", [hit(1)], tdis=1)], None, None, c3, want(T, T, F_, T, T, T, T, T)),
@@ -395,6 +401,9 @@ def k9():
                                                       None, c5, want(T, T, T, T, F_, T, N, N)),
         "a candidate with no fourth root": (ident, [cover("m135", [hit(2)])], [head("m135.x", 0)], None, c5,
                                             want(T, T, T, T, F_, T, T, T)),
+        "a candidate whose fourth roots differ from the Smith form's count":
+            (ident, [cover("m135", [hit(2)])], [head("m135.x", 4, smith=2)] + [reading("m135.x", k) for k in (1, 2, 3, 5)],
+             None, c5, want(T, T, T, T, F_, T, N, N)),
         "a refuting member on an incomplete Part F": (ident, [cover("m135", [hit(2)])],
                                                       [head("m135.x", 4), reading("m135.x", 1, (2, 2))], None, c5,
                                                       want(T, T, T, T, F_, T, F_, F_)),
@@ -563,11 +572,62 @@ def k11():
             "failures": bad, "holds": not bad and len(manifest) == 80}
 
 
+# ============================================================================================ K12
+K12_SAMPLE = 400
+
+
+def k12():
+    """Part F's fourth roots, certified by brute force (the audit lane's R89 asks for a producer-level fourth-root
+    certificate).  On every cover of population A with |D| <= 5: every invariant character nu with nu^48 = 1 is enumerated
+    and grouped by nu^4 (in 48ths, nu^4 = zeta exactly when nu = zeta mod 12, coordinate by coordinate).  At every invariant
+    zeta with zeta^12 = 1 (a fixed sample of K12_SAMPLE when there are more; Proposition H's zeta_H always), the set
+    Cover.fourth_roots(zeta, 12) must equal that group, and its size the Smith form's product of per-coordinate counts.
+    Structure only: no line or four is read"""
+    from fractions import Fraction as Fr_
+    from math import gcd
+    out, bad, n_cov, n_chi = {}, [], 0, 0
+    for sw in STATES_A:
+        st = F.State(sw)
+        for lat, w in F.covers(st, 5):
+            C = F.Cover(st, lat, w)
+            n_cov += 1
+            buckets = {}
+            for nu in C.characters(48):
+                buckets.setdefault(tuple(e % 12 for e in nu), set()).add(tuple(nu))
+            chars = sorted(C.characters(12))
+            test = chars if len(chars) <= K12_SAMPLE else chars[::-(-len(chars) // K12_SAMPLE)]
+            if tuple(lat) == (2, 0, 2):                       # zeta_H, as K10 locates it, scaled to 12ths
+                ezh = tuple(6 * (0 if q8(wd)[0] == 1 else 1) for wd in C.gword)
+                if ezh not in test:
+                    test = list(test) + [ezh]
+            for ez in test:
+                n_chi += 1
+                got = set()
+                for ezp, mp in C.fourth_roots(list(ez), 12):
+                    assert 48 % mp == 0, (sw, lat, w, ez, mp)
+                    got.add(tuple(e * (48 // mp) % 48 for e in ezp))
+                want = buckets.get(tuple(e % 12 for e in ez), set())
+                c = [sum(Fr_(e % 12, 12) * C.Uinv[k][jj] for k, e in enumerate(ez)) % 1 for jj in range(C.n)]
+                count = 1
+                for ci, di in zip(c, C.snf):
+                    if di == 0:
+                        count *= 4
+                    else:
+                        D_ = abs(di)
+                        a = ci * D_
+                        count *= gcd(4, D_) if a.denominator == 1 and int(a) % gcd(4, D_) == 0 else 0
+                if got != want or len(got) != count:
+                    bad.append([NAMES[sw], list(lat), w, list(ez), len(got), len(want), count])
+    out.update({"covers": n_cov, "characters": n_chi, "failures": bad[:20], "failure count": len(bad),
+                "holds": not bad and n_cov > 0})
+    return out
+
+
 def main():
     t0 = time.time()
     out = {}
-    for name, fn in (("K9", k9), ("K10", k10), ("K11", k11), ("K7", k7), ("K0", k0), ("K8", k8), ("K6", k6), ("K4", k4),
-                     ("K1", k1)):
+    for name, fn in (("K9", k9), ("K10", k10), ("K11", k11), ("K12", k12), ("K7", k7), ("K0", k0), ("K8", k8), ("K6", k6),
+                     ("K4", k4), ("K1", k1)):
         t = time.time()
         out[name] = fn()
         out[name]["seconds"] = round(time.time() - t, 1)

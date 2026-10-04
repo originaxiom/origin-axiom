@@ -45,7 +45,8 @@ def evaluate(ident, L, Fr, say=print, hcov=None, manifest=None):
     Coverage (the audit lane's R87): the records are complete only if every manifest cover's every chunk appears exactly once,
     read, with no other cover, and each cover's puncture orbits sum to the manifest's.  A prediction that a found row can
     refute is False on that row, whatever the coverage; a population-wide one is True only on complete records, else None.
-    Part F is complete only if every candidate has its header row and exactly its planned readings, with no other."""
+    Part F is complete only if every candidate has its header row, its fourth roots counted twice alike (enumerated and by the
+    Smith form), and exactly its planned readings, with no other."""
     assert L is not None, "Part L has no records"
     seen, dup = {}, []
     for r in L:
@@ -124,13 +125,15 @@ def evaluate(ident, L, Fr, say=print, hcov=None, manifest=None):
         pred["P8"] = None
         out["Part F"] = "not yet run"
     else:
-        heads, reads, fdup = {}, {}, []
+        heads, reads, fdup, fcount = {}, {}, [], []
         for f in Fr:
             ck = (f["cover"], tuple(f["chi"]["zeta"]), f["chi"]["m"], tuple(f["chi"]["s"]))
             if f.get("kind") == "candidate":
                 if ck in heads:
                     fdup.append(["candidate", list(map(str, ck))])
                 heads[ck] = f["planned"]
+                if f.get("fourth roots") != f.get("fourth roots by the Smith form") or f["planned"] != 4 * f.get("fourth roots", -1):
+                    fcount.append(list(map(str, ck)))
             else:
                 nk = (tuple(f["nu"]["zeta"]), f["nu"]["m"], tuple(f["nu"]["s"]))
                 if nk in reads.setdefault(ck, {}):
@@ -139,7 +142,7 @@ def evaluate(ident, L, Fr, say=print, hcov=None, manifest=None):
         f_missing = sorted(str(k) for k in ckeys if k not in heads)
         f_short = sorted(str(k) for k in ckeys if k in heads and len(reads.get(k, {})) != heads[k])
         f_extra = sorted(str(k) for k in set(heads) | set(reads) if k not in ckeys)
-        f_complete = not (f_missing or f_short or f_extra or fdup)
+        f_complete = not (f_missing or f_short or f_extra or fdup or fcount)
         readings = [f for k in ckeys for f in reads.get(k, {}).values()]
         members = [f for f in readings if f.get("member")]
         two = [f for f in members if f["R"]["capL2"] >= 2 or f["P4"]["capL2"] >= 2]
@@ -149,7 +152,8 @@ def evaluate(ident, L, Fr, say=print, hcov=None, manifest=None):
                          "readings": len(readings), "members": len(members), "members with capL2 >= 2": len(two),
                          "routes agree": agree, "complete": f_complete,
                          "problems": {"missing candidates": f_missing, "short candidates": f_short,
-                                      "unexpected candidates": f_extra, "duplicates": fdup}}
+                                      "unexpected candidates": f_extra, "duplicates": fdup,
+                                      "fourth-root counts that differ from the Smith form's": fcount}}
         pred["P7"] = False if two else (True if complete and f_complete else None)
         pred["P8"] = False if both else (True if complete and f_complete else None)
     # Proposition H: the sum of n(zeta_H, s) over every root of unity s, its largest term and its odd terms, on K10's covers

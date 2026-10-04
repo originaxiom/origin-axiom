@@ -99,6 +99,22 @@ def population():
     return out
 
 
+def smith_fourth_roots(C, ez, m):
+    """the number of invariant characters zeta' with zeta'^4 = zeta, from the Smith form alone: 4 per free coordinate, and on
+    a torsion coordinate of order D, gcd(4, D) if zeta's coordinate is divisible there, else 0 (control K12 checks
+    Cover.fourth_roots against brute force and against this count)"""
+    from fractions import Fraction as Fr_
+    c = [sum(Fr_(e % m, m) * C.Uinv[k][j] for k, e in enumerate(ez)) % 1 for j in range(C.n)]
+    count = 1
+    for ci, di in zip(c, C.snf):
+        if di == 0:
+            count *= 4
+        else:
+            a = ci * abs(di)
+            count *= gcd(4, abs(di)) if a.denominator == 1 and int(a) % gcd(4, abs(di)) == 0 else 0
+    return count
+
+
 def primes(L):
     return RP.primes_1_mod(L, 1 << 30, 2)
 
@@ -237,7 +253,8 @@ def read_part_F(rec):
         j, k = h["s"]
         roots = C.fourth_roots(h["zeta"], h["m"])
         chi = {"zeta": h["zeta"], "m": h["m"], "s": h["s"], "n": h["n"]}
-        head = {"kind": "candidate", "cover": r["cover"], "chi": chi, "fourth roots": len(roots), "planned": 4 * len(roots)}
+        head = {"kind": "candidate", "cover": r["cover"], "chi": chi, "fourth roots": len(roots),
+                "fourth roots by the Smith form": smith_fourth_roots(C, h["zeta"], h["m"]), "planned": 4 * len(roots)}
         if rec:                                              # the read-out requires every planned reading (R87)
             with open(out, "a") as f:
                 f.write(json.dumps(head) + "\n")
