@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "status": "read-only intake and unexecuted task specification",
+  "pins": [
+    {
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+      "path": "frontier/B1471_the_cancellation_is_a_theorem_of_amphichirality/FINDINGS.md",
+      "bytes": 8990,
+      "sha256": "8db085d56775210ab7608e2acb1057d79ec801812f6c9d159e4640a3ec28e137"
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "frontier/B1535_the_cap/FINDINGS.md",
+      "bytes": 17685,
+      "sha256": "5339ca847b779e730ebff39342f4795cb7696ef41df32127d49fc939b8a3a17d"
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "SM_TO_CC_AND_CODEX_2026-10-04_THREE_FROM_THE_CUSPS_AND_THE_CAP.md",
+      "bytes": 7109,
+      "sha256": "71a368ac240fb1bbbb3f1ace330648af37495487e8f13f4bd16e425454b74898"
+    },
+    {
+      "commit": "457a3cb9eeb5bc9d83346f398bfe754a9a7b1718",
+      "path": "reports/phase_component_interaction_2026_10_04/PROOF.md",
+      "bytes": 9052,
+      "sha256": "c5801e86a861c80e94ec970d1b0a3bdc55878cdc582de1e323e78a83522dbd6f"
+    },
+    {
+      "commit": "457a3cb9eeb5bc9d83346f398bfe754a9a7b1718",
+      "path": "reports/phase_component_interaction_2026_10_04/BOUNDARY_PROOF.md",
+      "bytes": 6943,
+      "sha256": "dd6360092d77f72b719280190a4f70d28e54e88c444bc17d0c4ef8962cc4c20e"
+    },
+    {
+      "commit": "457a3cb9eeb5bc9d83346f398bfe754a9a7b1718",
+      "path": "reports/phase_component_interaction_2026_10_04/BOUNDARY_DESIGN.md",
+      "bytes": 1817,
+      "sha256": "65eee4a292a84101cd92632c1a9ccbacc02c0e018c2111875ee03ba96cb98340"
+    },
+    {
+      "commit": "457a3cb9eeb5bc9d83346f398bfe754a9a7b1718",
+      "path": "reports/phase_component_interaction_2026_10_04/verify_boundary_continuation.py",
+      "bytes": 7229,
+      "sha256": "ae92f0fe1d5703daf6f03bcdecaf17cba03bb4f313af7b87dbc33393d3664f10"
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/cross_branch_positives.py",
+      "bytes": 11672,
+      "sha256": "57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731"
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_PROOF.md",
+      "bytes": 7654,
+      "sha256": "ed6f831f72a10868ca527a615910fd3cff127dd8cb5000a33779eccdcdcbba44"
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md",
+      "bytes": 7053,
+      "sha256": "60133ab411d768ddad0f525b58743128d6ecfebcc021615760d6f8fc91ac9c2c"
+    }
+  ],
+  "claim_boundary": "No new computation, absence certificate or physical derivation; prospective algebra and analytic duties remain"
+}

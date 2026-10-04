@@ -1,5 +1,11 @@
 # Physical bridge audit — 2026-09-05
 
+October4 post-R84: publication ea36d672 pushed/server-confirmed. Fresh
+main e90b4f7e and SM9fc9a572 received; the cap review/base-loop correction
+acknowledged on the SM branch, not main banking. Next admission candidate
+and input prices: ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md. No new
+double experiment executed; old mirror-double positives retained.
+
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial
 cusp case. A local adjoint class can be cyclic-parabolic yet nonzero

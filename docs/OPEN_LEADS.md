@@ -1,5 +1,12 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October4 R84 follow-through: prospective actual rank-five/dual join is
+specified in reports/physical_bridge_2026_09_05/ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md.
+Not sealed or executed; joining operation/map/metric/action are priced
+inputs, not derived selectors. Invertible peripheral matching, Mat5
+certificate, compact harmonic-metric source, same-parent operator and
+mirror accounting remain duties. B582/B1036/B1086 positives retained.
+
 **Current October 2: act/register milestone executed; full physics goal active.** The full
 parameter-free Standard Model/TOE remains the overarching mission;
 the owner-approved act-and-register audit is a prerequisite milestone.

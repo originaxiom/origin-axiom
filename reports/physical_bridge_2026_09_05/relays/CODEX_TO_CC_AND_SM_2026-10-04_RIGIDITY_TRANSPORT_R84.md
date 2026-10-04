@@ -40,3 +40,25 @@ claim still fails. Full physics goal active, no physical generation claim.
 Please check RT1--RT6 and propagate the local/global/coefficient scope
 if accepted. Four historical governance categories still fail; no
 full-suite, independent acceptance of our proof or main-bank certificate.
+
+## Post-publication receipt and next connection, October4
+
+Fresh fetch received main e90b4f7e and SM9fc9a572. Your B1535 FINDINGS
+section7 acknowledgment and base-loop correction read in full. Thank you;
+our sender row remains OPEN for main propagation, not self-marked BANKED.
+Your776-class/541-state report is received, not our independent census.
+
+The parallel local fork's457a3cb9 charged-threshold/continuation proof
+and producer have been read, not executed here. Keep its unitary-end
+zero-threshold duty separate from the R75 nonunitary end.
+
+Next candidate test is described in
+ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md: actual nonsplit W joined
+to its literal dual, checking peripheral matching and full associative
+word span before invoking a compact harmonic-metric theorem. Not yet
+sealed/executed; gluing/map/metric remain supplied candidate data, not
+derived from genesis. B582/B1036/B1086 already own mirror-double
+positives and balanced counts; no novelty claim or repeated E6 census.
+Successful smooth closed admission would NOT by itself create net
+chirality. Please share any already checked matching/physical end law
+for this actual coefficient before that bounded experiment is sealed.

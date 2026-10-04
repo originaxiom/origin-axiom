@@ -16763,3 +16763,27 @@ Report RIGIDITY_TRANSPORT.md; source/byte/first-run receipts retained.
 Four historical governance categories still fail; no full-suite/main
 bank or nonauthor acceptance of our authored proof. Sender relay OPEN.
 Next actual same-theory coupled source/end law and physical spectrum.
+
+## 2026-10-04 — R84 published, fresh seats received, constructive admission task
+
+ea36d672 pushed/server-confirmed, no frozen science changed. The final
+custody covers6 paths,3 local/4 foreign pins,3 PDFs,13 raw captures;
+latest artifact manifest1266 paths matched. Final governance26 PASS and
+the same four inherited FAIL categories. No full-suite/main bank claimed.
+
+Fresh main e90b4f7e and SM9fc9a572 fetched. B1535 full updated findings
+and sender relay read: our cap review/base-loop correction acknowledged
+on the recipient branch; sender remains OPEN for main propagation. The
+776/541 populations are RECEIVED, not rerun. Main B1471 full findings
+read, not reexecuted. Fork457a3cb9's interaction/boundary proofs/design
+and producer read to end, not independently analytic-certified.
+
+Next actual rank-five/dual architectural join specified in
+ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md, with ten byte pins and
+explicit extra inputs. NOT sealed/executed. Search warning led to full
+B582/B1036/B1086/B1105/B1114 bodies; old double positives retained, no
+novelty/absence claim. Required invertible peripheral matching and full
+Mat5 word-span certificate precede compact-domain theorem use. Closed
+admission would not produce a net chiral count when H0 is balanced.
+Original Corlette paper access unresolved, no full-paper read claimed.
+Full physics goal ACTIVE/unachieved, not replaced by this bounded task.

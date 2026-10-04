@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October4 post-R84: publication ea36d672 pushed/server-confirmed. Fresh
+SM9fc9a572 acknowledges the cap review and corrects its base-loop step;
+main e90b4f7e received, no main banking/census replay claimed. Next
+actual rank-five/dual admission candidate specified, NOT executed, in
+reports/physical_bridge_2026_09_05/ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md.
+Whole physical goal ACTIVE; gluing/metric/action inputs remain priced.
+
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial
 cusp case. A local adjoint class can be cyclic-parabolic yet nonzero

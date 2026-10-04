@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-04 — R84 publication, recipient acknowledgment and next admission test
+
+Publication ea36d672 pushed/server-confirmed; science aee360ae unchanged.
+Fresh main e90b4f7e and SM9fc9a572 received. SM B1535 section7 agrees
+with the cap review and corrects its base-loop sentence, not main banking
+or our census acceptance. The parallel charged-threshold proof/producer
+read, not executed. ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md prices
+and specifies the next actual rank-five/dual join; no experiment or
+physical background claimed. Existing mirror-double positives credited.
+Full parameter-free SM/TOE ACTIVE; admission and chirality kept separate.
+
 ## 2026-10-04 — R84: independently review the cap's rigidity transport
 
 Science aee360ae pushed/server-confirmed before unchanged72 native,

@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "scope": "Post-R84 navigation and byte custody only; future architecture candidate unsealed/unexecuted",
+  "runs": {
+    "prior_first": {
+      "raw_basename": "prior_first",
+      "raw_receipt_sha256": "fc2227fc61ed36f884b708485a0abf8dce7d72594e61637fb99926537896fe38",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/checks/already_banked.py",
+          "dual gluing harmonic double"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.255028000101447,
+        "log_bytes": 2769,
+        "log_sha256": "a42d8e4d89a1b6a89a58459db3e0a0e6332b29d7617ab9bb0e28136c2aea6145"
+      },
+      "stdout_redacted": "already-banked: terms ['dual', 'gluing', 'harmonic', 'double']\n  168 corpus hits; 18 SETTLED arcs matching >= 2 of 4 terms\n  *** [ 3 terms] PROVED    B1036_mirror_double\n           THE MIRROR-DOUBLE (plan Arc 2, sealed a10ae240 pre-compute): THE DOUBLE GAINS CLASSES, NOT THE SYMMETRIC PAIRING. V2 + cross-gate: h1(dbl; 27) = 5 = 2+2+1 against the solo 3, by TWO INDEPENDENT ROUTES agreeing blockwise \n  *** [ 3 terms] PROVED    B1186_family_is_112\n           THE FAMILY-DEFINITION CELL CLOSED (harvests cc3 B8152, verify-don't-trust, with a ONE-MEMBER CORRECTION): the two criteria are STRICTLY NESTED -- (A) all-regular-ideal, |A| = 77, inside (B) shape field in Q(sqrt-3) -- an\n  *** [ 3 terms] PROVED    B1220_campaign_premise_audit\n           THE CAMPAIGN'S PREMISE AUDIT (Cells 1-3 of the publication campaign, NOT RUN AS DESIGNED because none needed to be): ALL THREE MATH CELLS WERE ALREADY ANSWERED, and in EVERY case the banked record is STRONGER than the ce\n      [ 3 terms] FINDINGS  frontier/B1036_mirror_double/FINDINGS.md\n           # B1036 — FINDINGS: the double gains classes, not the symmetric pairing \n      [ 3 terms] FINDINGS  frontier/B1086_spectrum_law/FINDINGS.md\n           # B1086 — THE SPECTRUM LAW: the corpus's 5 and 2 are one law, and no closed double is chiral in counts (L79 CLOSED at its headline) \n      [ 3 terms] FINDINGS  frontier/B1105_wall_scope/FINDINGS.md\n           # B1105 — THE WALL'S SCOPE AUDIT (#279): four quantifiers side by side — and \"one fact\" corrected to \"one conclusion\" \n      [ 3 terms] FINDINGS  frontier/B1114_lorentz_double/FINDINGS.md\n           # B1114 — LORENTZ ON THE DOUBLE: E₆ ⊇ so(3,1) ⊕ su(3), and the signature is the observer's gluing \n      [ 3 terms] FINDINGS  frontier/B1186_family_is_112/FINDINGS.md\n           # B1186 — the family-definition cell CLOSED: |𝓕| = 112 (not 111), the criteria are nested, and the cell's own lesson applied recursively to its own count \n      [ 3 terms] FINDINGS  frontier/B1220_campaign_premise_audit/FINDINGS.md\n           # B1220 — THE CAMPAIGN'S PREMISE AUDIT: all three math cells were already answered, and every answer is stronger than the cell assumed \n      [ 3 terms] FINDINGS  frontier/B131_two_seed_fork/FINDINGS.md\n           # B131 — Two-seed gluing creates an internal discrete fork: heterogeneity makes a choice (answers S032-B, V120) \n      [ 3 terms] FINDINGS  frontier/B582_chiral_play/FINDINGS.md\n           # B582 / L79-core — THE FIRST CONSTRUCTED PLAY WITH CHIRAL MATTER \n      [ 3 terms] FINDINGS  frontier/B592_mirror_listener/FINDINGS.md\n           # B592 — R3-M, THE MIRROR LISTENER: the verdict is DEAF, in the sharpened form \n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    "input_pins_first": {
+      "raw_basename": "input_pins_first",
+      "raw_receipt_sha256": "c3e8b080d600dcc45c6c402b94b523ba4da46cfcf3e359aed6043211b1f3c1c4",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "-rjson",
+          "-rdigest",
+          "-ropen3",
+          "-e",
+          "d=JSON.parse(File.read(\"reports/physical_bridge_2026_09_05/ARCHITECTURE_ADMISSION_INTAKE_INPUTS.json\",encoding:\"UTF-8\")); d.fetch(\"pins\").each { |p| b,e,s=Open3.capture3(\"git\",\"show\",p.fetch(\"commit\")+\":\"+p.fetch(\"path\")); abort e unless s.success?; abort \"Input differs\" unless b.bytesize==p.fetch(\"bytes\")&&Digest::SHA256.hexdigest(b.b)==p.fetch(\"sha256\") }; puts JSON.generate(input_pins:d.fetch(\"pins\").size,scope:\"byte custody only, not received science certification\")"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.5059430000837892,
+        "log_bytes": 82,
+        "log_sha256": "120763704f8111d5b7fee1c0bf3d6a3cdd07a06d865ca46b1474e46c9cf72d5b"
+      },
+      "stdout_redacted": "{\"input_pins\":10,\"scope\":\"byte custody only, not received science certification\"}\n"
+    },
+    "governance_intake_first": {
+      "raw_basename": "governance_intake_first",
+      "raw_receipt_sha256": "eeccddb855f9eae00ba87f927e752684075563eeb9f005a911c9fd966a7bbe04",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 16.08284199994523,
+        "log_bytes": 2189,
+        "log_sha256": "4ecfc8c0fcbd97016b42800b85eff37ee4bed70cd3b53d55dd5f4c54c6b437fc"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 74 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 43 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 305 merges since last review (DUE — run the decadal review)\n"
+    }
+  }
+}

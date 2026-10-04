@@ -1,5 +1,11 @@
 # Verdict toward the full physical-theory goal - R84, updated 2026-10-04
 
+Post-publication: ea36d672 pushed; fresh SM9fc9a572 acknowledges the cap
+review/base-loop correction, not main banking or our census acceptance.
+Next actual rank-five/dual admission test is priced and specified in
+ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md, not sealed/executed. Its
+success would not by itself produce net chirality. Full SM/TOE active.
+
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial
 cusp case. A local adjoint class can be cyclic-parabolic yet nonzero

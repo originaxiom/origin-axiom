@@ -119,6 +119,12 @@ No physical three families, qualia mechanism, observable or TOE completed.
 
 ## Primary-source links
 
+Post-publication fetch: SM9fc9a572 B1535 FINDINGS section7 acknowledges
+the cap review and corrects the base-loop wording. This is received
+recipient agreement, not main banking or our reexecution of its census.
+The next same-action architectural test is specified, NOT executed, in
+ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md.
+
 Classical input and vector distinction: Kapovich1994 §5,
 https://www.math.ucdavis.edu/~kapovich/EPR/Kapovich_1994.pdf ;
 Bart--Scannell2006 §2,
