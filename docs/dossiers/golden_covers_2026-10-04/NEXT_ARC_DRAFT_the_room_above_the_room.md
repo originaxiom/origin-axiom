@@ -69,6 +69,17 @@ n_N(E ⊗ ε̄) = n_N(E ⊗ ε).
 - *Proof.* Complex conjugation is a conjugate-linear isomorphism of the cochain complexes of E ⊗ ε and Ē ⊗ ε̄ ≅ E ⊗ ε̄,
   commuting with restriction to the cusps; complex dimensions agree. □
 
+**Lemma C (Galois).** n_N(E ⊗ ε^σ) = n_N(E ⊗ ε) for E = 1 or ρ and every σ ∈ Gal(ℚ̄/ℚ); in particular n is constant on the
+Galois orbit {ε^a : a coprime to ord ε}.
+- *Proof.* tr ρ(g) = |tr h(g)|² = N_{ℚ(√−3)/ℚ}(tr h(g)) is a rational integer, since the traces of h are integers of ℚ(√−3)
+  (`gc_structure.py`). So ρ^σ has ρ's character, and ρ is irreducible (its image is Zariski dense), so ρ^σ ≅ ρ, Γ-equivariantly.
+  Then (E ⊗ ε)^σ ≅ E ⊗ ε^σ on π₁(N), compatibly with restriction to the cusps, and Galois conjugation preserves the dimensions
+  of cohomology and of its interior part. □
+- So one representative per Galois orbit decides the orbit (Lemma B is the case σ = complex conjugation). The orbits of the
+  characters of order k are the cyclic subgroups of order k, so Lemma A's sum over ⟨ε⟩ is Σ_{d ∣ k} φ(d)·n(χ_d), χ_d a
+  generator of the order-d subgroup. Mod p, a different primitive root for ζ_m is a different prime above p; the sampled
+  full orbits (§5) check that the reduction is good.
+
 **Corollary (room for three from one joint point).** If ε has order k ≥ 3, n_N(ε) ≥ 1 and n_N(ρ ⊗ ε) ≥ 1, then
 n(1)(N_ε) ≥ n_N(1) + 2 and n(ρ)(N_ε) ≥ n_N(ρ) + 2. On a cover with n_N(1) ≥ 1 and n_N(ρ) ≥ 1, N_ε has room for three at the
 trivial character.
@@ -92,9 +103,18 @@ seven have n(ρ ⊗ ε) = 1: at order 2 only the four grows.
 ## 5. The population (to fix at the seal)
 
 - **The covers:** sm:B1536's covers of degree ≤ 12 with n(1) ≥ 1 and n(ρ) ≥ 1 at the trivial character (28: m004 d10.3,
-  d10.24; m003 d5.2, d5.3 and 24 of degree 10), and (to decide) those with n(ρ) ≥ 2.
-- **The characters:** every own character of order dividing m: m = 12 on d5.2, d5.3 (1,728 each); m = 6 on the degree-10 covers
-  (1,296 on ℤ⁴, 7,776 on ℤ⁵, 432 on ℤ³ ⊕ ℤ/2). About 72,600 in all, each read in routes R′ and P′.
+  d10.24; m003 d5.2, d5.3 and 24 of degree 10), and the two with n(ρ) ≥ 2 alone (m004 d9.2, m003 d9.2, both (0, 2)): 30.
+- **The characters** (revised 2026-10-04, after Lemma C): one representative per Galois orbit of the own characters of order
+  dividing m, read once in each of routes R′ and P′. m = 60 on the covers of degree 5 and 9 (so the orders 5, 10, 15, 20, 30
+  and 60 are read; order 5 is where m003's torsion lives, to check against sm:B1536's banked rows at the seal), m = 6 on the
+  degree-10 covers. Counted by brute force (structure only):
+  - d5.2, d5.3 (ℤ³): 216,000 characters each, in 16,128 orbits;
+  - m003 d9.2 (ℤ ⊕ (ℤ/10)²): 6,000 in 768; m004 d9.2 (ℤ ⊕ (ℤ/4)²): 960 in 144;
+  - degree 10: ℤ⁴ (16 covers) 1,296 in 656; ℤ⁵ (6 covers) 7,776 in 3,904; ℤ³ ⊕ ℤ/2 (4 covers) 432 in 224;
+  - in all 508,080 characters in 67,984 orbits, so about 136,000 readings in the two routes.
+  - Every member of a fixed crc32 sample of orbits is read as well (Lemma C's check, P2).
+- **The cost is to be timed on a free machine before the seal** (sm:B1538's cost slip, docs/ERROR_LEDGER.md): if it does not
+  fit, m shrinks at the seal, never after.
 - **The cyclic covers:** route N reads N_ε at the trivial character for every cyclic subgroup of order ≤ 3 on d5.x, every cyclic
   subgroup with room ≥ 3 by Lemma A in either route, and a fixed crc32 sample.
 
@@ -113,7 +133,7 @@ seven have n(ρ ⊗ ε) = 1: at order 2 only the four grows.
 | | prediction | prior |
 |---|---|---|
 | P1 | routes R′ and P′ agree at every own character | 95% |
-| P2 | Lemma B in both routes: n is equal at ε and ε̄ at every own character | 98% |
+| P2 | Lemma C in both routes: n is constant on every sampled full Galois orbit (Lemma B among them) | 98% |
 | P3 | route N on N_ε equals Lemma A's sums at every cyclic subgroup it reads | 95% |
 | P4 | some cyclic cover N_ε in the population has room for three at the trivial character | 45% |
 | P5 | on d5.2 or d5.3, some own character of order 3 lies on the joint jump locus (room for three at degree 15) | 15% |

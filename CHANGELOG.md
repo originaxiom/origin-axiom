@@ -1,5 +1,16 @@
 # Changelog
 
+## The next arc's draft seal revised: Lemma C (Galois), one reading per Galois orbit (not sealed, not run)
+
+- `docs/dossiers/golden_covers_2026-10-04/NEXT_ARC_DRAFT_the_room_above_the_room.md`:
+  - **Lemma C.** tr ρ = N(tr h) is a rational integer, because the traces of h are integers of ℚ(√−3). So ρ^σ ≅ ρ, and n is
+    constant on every Galois orbit of own characters. Lemma B is the case σ = complex conjugation.
+  - **The population, revised.** One reading per Galois orbit (one per cyclic subgroup); m = 60 on the covers of degree 5 and
+    9, m = 6 on degree 10. That is 508,080 characters in 67,984 orbits (a brute-force count, structure only). A crc32 sample
+    of full orbits is Lemma C's check (P2).
+  - The cost is to be timed on a free machine before the seal (sm:B1538's cost slip); if it does not fit, m shrinks at the
+    seal, never after.
+
 ## The next arc's drafts persisted (population, run, read-out; not sealed, not run)
 
 - `docs/dossiers/golden_covers_2026-10-04/gc_draft_population.py` (structure only, record `gc_draft_population_run.txt`): 30

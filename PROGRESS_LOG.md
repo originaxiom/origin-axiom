@@ -17594,3 +17594,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - The population (structure: 30 covers, 72,816 own characters, 35,890 cyclic subgroups), run and read-out drafts are in the
   dossier. sm:B1538's Part F′ continues (8,657 of 12,152 at 15:00Z).
+
+## 2026-10-04 — the next arc's draft seal revised: Lemma C, one reading per Galois orbit (task 256)
+
+- Persisted from the scratchpad while sm:B1538's Part F′ runs (its readings began at 15:14Z; 6,176 of 501,792 at 15:14:43Z,
+  about 77 a second on four workers).
+- Gates: all pass. The decadal review is due (328 merges); it follows sm:B1538's bank and the next arc's seal.
