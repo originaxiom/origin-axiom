@@ -1904,3 +1904,22 @@ not physical-domain selection, a new mechanism or whole-repo banking.
 | `reports/physical_bridge_2026_09_05/flat_domain_audit.py` | `656f6a8838c5d971cebea3d8ff7fc1c9dd13e1874473c048af6684b581fffb0b` |
 | `reports/physical_bridge_2026_09_05/flat_domain_reference.py` | `0d428417284753e2b94dca92c7b798ba74414feebf06a2529686ce24c2bef8cc` |
 | `tests/test_physical_bridge_flat_domain.py` | `15922a9a1c03dfc1c9c8fd2ebf504e2b57857a2b3016c9e433466bcddf14e130` |
+
+## Registering characters pre execution seal October 4 2026
+
+R90 necessary operational connection in the existing supplied SU5 gauge
+framework. Standard Wilson/Haar mathematics; exact characteristic-zero
+native and separate finite-field/Fraction controls. Not a generated
+source/action, modular-stage probe, physical chiral vacuum or quantum
+measure. Six scientific paths below; push and exact-server confirmation
+required before first import, collection or execution. Same-author
+reference, no nonauthor acceptance or full-suite certificate assigned.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/REGISTER_WILSON_DESIGN.md` | `09fdbe3546b2e22dcc5e08d301a83e6619ef379d76e93edd2b4039058f510b61` |
+| `reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md` | `efd23d23a2b25edd04345a0a302ea81d32dbd9555968566b04e9e825fe3342cd` |
+| `reports/physical_bridge_2026_09_05/REGISTER_WILSON_INPUTS.json` | `671da7c6373a574bbc9fec7937aa584ea0c7788d5be98dd225745fbe369842ba` |
+| `reports/physical_bridge_2026_09_05/register_wilson.py` | `1b30c889f705d0e78c6311bda7b584778f5d6ff3ecc7308ea0d590d3dfaeac69` |
+| `reports/physical_bridge_2026_09_05/register_wilson_reference.py` | `0cfdbdbc4bd9b516bcde500e14420f91441e58611c7b56a34d305b27d4134328` |
+| `tests/test_physical_bridge_register_wilson.py` | `558f66a3c11740e3587eff6d88d891c6646e4ea99d00817cb679d19d725ec09f` |

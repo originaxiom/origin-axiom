@@ -1,0 +1,25 @@
+{
+  "scope": "R90 existing-model character-register operational connection, not source generation or physical completion",
+  "base_science_head": "317afd8b9f96bd7d170ce7e015cc395fba50891d",
+  "main_head": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+  "sm_head": "090ac4c08bb58811f54ee27ddf5e39018e83ac37",
+  "raw_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-register-wilson.Y4Ih4r",
+  "prior_sweep": {"stem": "prior_sweep", "exit_code": 0, "log_bytes": 145258, "log_sha256": "706b61045e36f1661cfd25b49e4d3649d589ec4262ab252dbc10bc1929e3853a", "scope": "all cached origin heads filenames plus selected local full-text hits; not a literature or semantic absence certificate"},
+  "already_banked": {"stem": "already_banked", "exit_code": 1, "log_bytes": 3200, "log_sha256": "508062e1e3699c6e1a334f7299d769cb1bd71f89693486c7c8ce03096f28201c", "hits": 352, "settled_warnings": 5, "meaning": "navigation warning, not a failed scientific test; five verdicts personally read in this continuing turn before seal"},
+  "sources": [
+    {"path": "reports/physical_bridge_2026_09_05/parent_gluing_character.py", "sha256": "2d01c892b75acac30355aefed48af400e9e4376510c02033811d7d9c2048a0c9", "reading": "lines1-120 personally reread; only roots/simple/reps/roster/root_weights and BRANCHES extracted; later geometry not imported or reread fully"},
+    {"path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md", "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b", "reading": "full authored proof personally read through EOF; dictionary/anomaly/source limits retained"},
+    {"path": "reports/physical_bridge_2026_09_05/SOURCE_CORE.md", "sha256": "4292163311249e7c3fa9714fcfa6db4ab9b2f20ea5eda3fb46b91fc534a69cc2", "reading": "full report personally read; added-source positive and free-profile debt not rerun"},
+    {"path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION.md", "sha256": "871ac58342aee03b2fd48d91fa726a9f02a82535f4b70f97fe70695449fdca79", "reading": "full report personally read; no quartic/source recomputation"},
+    {"path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md", "sha256": "ab68c19f2a54659387c79d6bbdcef687a33d10d552bc26c5e015ae386ea6e6a7", "reading": "full mission personally reread; full goal active"},
+    {"path": "frontier/B599_selection_rule/FINDINGS.md", "ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "sha256": "3ef66c3915870fac26db2c15b2a8338c6fc56c97073985a08b65520e6f3155eb", "reading": "full findings including mixed-parity boundary and longitude correction personally read; stage computation not rerun"},
+    {"path": "frontier/B871_registering_datum/FINDINGS.md", "ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "sha256": "658770467886425a03613d02cb8932afaadfb46552a0bf0f3fda5fe04fd31a70", "reading": "full findings personally read; formal group layer retained, modular-stage refinement still open"},
+    {"path": "frontier/B1233_zai_audit/arc_verdict.json", "ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "sha256": "08715ac864b7da7d9273f56b385304776618caa40f37ca51bac04015a28e9903", "reading": "full verdict personally read; number matches and convention warnings not re-derived"},
+    {"path": "frontier/B1538_the_puncture_characters/verification/read_out.py", "ref": "090ac4c08bb58811f54ee27ddf5e39018e83ac37", "sha256": "86337ef29abb55e5beea55d0513c6cec65d0d158c47bd13c4b0ca0b122b6ca04", "reading": "full revised read-out personally read; manifest and candidate-header repair credited at reading grade only; not executed"},
+    {"path": "frontier/B1538_the_puncture_characters/verification/controls.py", "ref": "090ac4c08bb58811f54ee27ddf5e39018e83ac37", "sha256": "fad2a401c52e9422de30672616c4cad473d4a98619e11524010e6f870c4f5c93", "reading": "K11 and main personally read completely; preceding diff truncated, no whole-producer read or reproduction claimed"},
+    {"path": "frontier/B1538_the_puncture_characters/verification/run.py", "ref": "090ac4c08bb58811f54ee27ddf5e39018e83ac37", "sha256": "10934cb30b85357a9a91b3a0f30808954db9d194dcce09f1af01f6cd69c13220", "reading": "complete read_part_F and EOF read; remaining producer not fully reread or executed"}
+  ],
+  "literature": {"url": "https://math.ucr.edu/home/baez/twf_html/week15.html", "author": "John Baez", "publication_date": "1993-05-23", "access_date": "2026-10-04", "reading": "full primary-author HTML118 lines through EOF personally read; standard Wilson definition only; no new PDFs"},
+  "preparation_errors": "One read-only glob docs/METHOD* failed in zsh; no absence inferred. Initial shasum failed exit9 on unsupported inherited C.UTF-8 locale, then read-only LC_ALL=C hashing succeeded. The aggregate SM diff truncated; full read_out and complete K11/PartF passages were subsequently read separately. No science import or execution occurred before seal.",
+  "unearned": ["generated gauge choice", "probe and loop selection", "source/profile/action law", "common physical fermion domain", "quantum expectation measure", "SM generation selection", "gravity", "qualia", "independent analytic review"]
+}
