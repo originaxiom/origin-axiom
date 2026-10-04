@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "scientific_imports_or_runs_before_seal": false,
+  "execution_requires_local_seal_commit": true,
+  "branch": "audit/fork-2026-09-20",
+  "parent_commit": "457a3cb9eeb5bc9d83346f398bfe754a9a7b1718",
+  "local_sha256": {
+    "reports/physics_door_review_2026_10_04/DESIGN.md": "1629397799628717d758e6479fe67616e6280d21180b7d85cbbc99fad987c27e",
+    "reports/physics_door_review_2026_10_04/PROOF.md": "cb185dabb7f4df693bf63ce69aa7ea98ff78ccb741c1542983cb0e20046b2ed7",
+    "reports/physics_door_review_2026_10_04/INPUTS.json": "be262c0df897425fc2b3eafac78d90036a1ff4a8a2cd4da38a0d31e3ae452eba",
+    "reports/physics_door_review_2026_10_04/verify_door.py": "4fccde44e35e36910c136cc87a81c1476f89c238dd9838341729cb432db6783c",
+    "reports/physics_door_review_2026_10_04/test_door.py": "1cf1b5a73740738858a0cf9fd9eae28104f6ddfb165dfd0bcb9905d703d2a80c"
+  },
+  "foreign_pins": [
+    {
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+      "path": "GENESIS.md",
+      "sha256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8"
+    },
+    {
+      "commit": "3205984b48d1b98a80042cdc70916878973980f5",
+      "path": "frontier/xB011_the_family_odd_sector/verification/family_odd.py",
+      "sha256": "505a8f3f71ac8c82cc769a5c6f0cedb3aed0352ed47617006e3b802673183eff"
+    },
+    {
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+      "path": "frontier/B1466_the_two_orders_and_the_register_bit/verification/c3b_mixed_module.py",
+      "sha256": "4a0a29bde7fcc1aa0c541f5bc3185d175c29d73a2b657bb61ceaf7b72ecea683"
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "frontier/B1531_the_symmetric_phase/FINDINGS.md",
+      "sha256": "a68cd196f1c1444473cd9a233ebfad8cc59c811e73dfafd1d819a5f18a07073c"
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "frontier/B1535_the_cap/PREREGISTRATION.md",
+      "sha256": "c0803c0c9c72eac9e8cfe3c0980db2b75f3aa9bce1fcea3c59c7c47b5a902104"
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52"
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT.md",
+      "sha256": "4972b8a53d65c14861b4918b753743d7a324f3f1563556a2377ebe86d3a119a0"
+    }
+  ],
+  "evidence_grade": "Same-author exact controls and proof; foreign censuses not replayed"
+}
