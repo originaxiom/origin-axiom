@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "base": "5087f03491bcaa8e552f9862775eb3f65f5634c3",
+  "heads": {
+    "main": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+    "standard_model": "4f30aecbbb629a726f04a10b49a94154f8512f38",
+    "physical": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469"
+  },
+  "git_blobs": {
+    "main:GENESIS.md": "a58581f37c639812b6c534e5d7c81183feed51ca",
+    "physical:reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md": "fd5657dae2558f7ec055867e4d8ecf36cd938c50",
+    "physical:reports/physical_bridge_2026_09_05/ACT_REGISTER.md": "61c888c25bae535de65e3e9454229842bbe3c0af"
+  },
+  "local_dependency": {
+    "path": "reports/free_boundary_completion_2026_10_04/PROOF.md",
+    "sha256": "0e60bb5aab9a1fff230f3801b0d181d1085527851076ef8cdeff515604cf77a8"
+  },
+  "primary_literature": {
+    "url": "https://arxiv.org/html/math/0304250v2",
+    "author": "Yoonweon Lee",
+    "read": "Section 1 response definition and outward-sign convention; section 4 cylinder expressions and Lemma 4.3, with surrounding returned passages",
+    "not_claimed": "Full-paper reading, determinant proof adoption, or quantum effective OA model"
+  },
+  "scientific_scope": "Analytic conditional sewing of an admitted smooth closed background; exact cylinder and discrete residual comparators; no silver PDE or R85 execution",
+  "publication": "Local branch only; no shared bank numbers or foreign ledger changes"
+}
