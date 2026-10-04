@@ -17395,3 +17395,18 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   corrected.
 - Next: the covers' own members (sL-10 item 14), sealed first. sm:B1532 runs on (route T about half done); its FINDINGS
   carries the correction and the twist question (task 226).
+
+## 2026-10-04 — B1535 sealed: the cap (task 230; sL-10 item 14, first half)
+
+- The owner's question of 2026-10-03 (are the three-generation negatives sure?) asked for more than readings. B1535 gives the
+  mechanism as a theorem: the 5̄′ count is capped by the four's interior supply n(ν³ ⊗ ρ), and the 10̄′ count by b0 + n(ν⁴), at
+  every class of every finite cover, in either order. Lemma W makes the line's supply zero on the word states at
+  puncture-trivial characters, so on the silver squares' abelian covers the cap is one generation, by proof.
+- Theorem C's prediction for sm:B1532 was committed before that read-out and held at every reading in both routes.
+- The sealed run reads Part M (the covers' own mixed classes, routes Ind and RS) and Part W (Lemma W's census on 541 states,
+  routes X and S), after the banked identity.
+- Three slips caught before the seal are logged (ERROR_LEDGER).
+- sm:B1532: the sealed read-out ran at 02:29Z (P1 pending, since route C runs after the read-out), route C at 02:30Z–02:44Z
+  (264 readings, all agreeing), and the read-out again at 02:46Z with route C's result. The two read-outs differ only in P1.
+  All are recorded; FINDINGS next (task 221), with the twist question (task 226).
+- B1529's coverage check continues on two workers.

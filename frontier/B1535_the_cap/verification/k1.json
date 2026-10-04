@@ -1,0 +1,6633 @@
+{
+ "started": "2026-10-04T02:24:03Z",
+ "terms": [
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(0, 0; 0)",
+   "T": [
+    -1,
+    -1
+   ],
+   "banked": [
+    -1,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (-0.0471404520791031682933896241403232692856557291792316024392227 - 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(0, 0; 0)",
+   "T": [
+    -1,
+    -1
+   ],
+   "banked": [
+    -1,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_int",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g1",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 2
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "c_g2",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "special 0 (s = (0.0471404520791031682933896241403232692856557291792316024392227 + 2.59292303244214237797669335574171843357927173696715297212547e-63j))",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "1/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 1/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/4, 3/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 1/4; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 1,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "-LLRR",
+   "u": [
+    "3/4",
+    "3/4"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(3/4, 3/4; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    -1,
+    -1
+   ],
+   "banked": [
+    -1,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 0; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 1/2; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 0; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "0",
+    "1/2"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    -1,
+    -1
+   ],
+   "banked": [
+    -1,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 1,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 0; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(0, 1/2; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 0; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    0,
+    -1
+   ],
+   "banked": [
+    0,
+    -1
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 1,
+   "n(V)": 1,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "0"
+   ],
+   "kappa": "1/2",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 1/2)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 0,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 0
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 1,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(0, 1/2; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 0; 0)",
+   "T": [
+    0,
+    0
+   ],
+   "banked": [
+    0,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 1,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  },
+  {
+   "state": "+LLRR",
+   "u": [
+    "1/2",
+    "1/2"
+   ],
+   "kappa": "0",
+   "class": "the class",
+   "chi": "(1/2, 1/2; 0)",
+   "T": [
+    1,
+    0
+   ],
+   "banked": [
+    1,
+    0
+   ],
+   "agree": true,
+   "k": 1,
+   "b0": 0,
+   "n((VL)*)": 0,
+   "n(V)": 0,
+   "n(L)": 0,
+   "rk d1": {
+    "E": 0,
+    "E*": 0,
+    "L2": 0,
+    "L2*": 1
+   },
+   "checks": {
+    "I(S) = I(Q) = 0 for every piece": true,
+    "L2: rk d0 = rk d0* = 0": true,
+    "L2: rk d1 = 0": true,
+    "L2*: rk d0_P = 0": true,
+    "I(L2) = k - rk d1(L2*)": true,
+    "k <= rk d1(L2*) <= k + n((VL)*)": true,
+    "W: rk d0(E*) = 0 and rk d0_P(E*) = 0": true,
+    "W: rk d0_P(E) = k": true,
+    "W: rk d1(E) <= n(V)": true,
+    "W: rk d1(E*) <= k + n(L)": true,
+    "I(E) = -b0 + k + rk d1(E) - rk d1(E*)": true,
+    "cap: -n((VL)*) <= I(L2) <= 0": true,
+    "cap: I(E) >= -b0 - n(L)": true
+   },
+   "all": true
+  }
+ ],
+ "failures": [],
+ "n terms": 144,
+ "holds": true,
+ "seconds": 983
+}

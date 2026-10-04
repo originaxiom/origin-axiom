@@ -3933,6 +3933,17 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    pulled-back classes are the χ = 1 summand. Read B1515's frame at the other summands' classes, with every count, on the
    smallest abelian covers of m135 and m136 (and of M₂–M₆). It is the place three could still sit in this frame on these
    states. Seal before computing.
+   **Sealed 2026-10-04 as sm:B1535 (the cap), first half: the covers' own classes at the pulled-back members.**
+   - Theorem C caps the count at every class of every finite cover by the interior supplies: the 5̄′ count by n(ν³ ⊗ ρ), the
+     10̄′ count by b0 + n(ν⁴).
+   - Lemma W gives n(ν⁴) = 0 on every finite abelian cover of a word state at characters trivial on the fibre's puncture
+     loops. So Corollary C1 decides this half by proof: at most one generation, and a 5̄′ count of at most 2.
+   - The run tests it on Part M's mixed classes (routes Ind and RS) and on Lemma W's census (routes X and S). Predictions
+     P1–P9; PROVED if P2, P3 and P8 hold.
+15. **The puncture characters** (sm:B1535 §10; item 14's second half). On the fibre-direction covers M_D of a word state, a
+   character non-trivial on the fibre's puncture loops escapes Lemma W, and n(ν⁴) can be non-zero there. The mechanism to read
+   is the twisted monodromy on H¹(T̄ ∖ J; ζ). By Corollary C3 it is the first place a second generation can live on an abelian
+   cover in this frame, and it needs |D| ≥ 2. Seal before computing.
 
 ## sL-11 — THE SYMMETRIC PHASE (registered 2026-10-03, sm:B1531; this seat's proposal, the owner may reorder)
 

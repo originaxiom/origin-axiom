@@ -1,0 +1,84 @@
+{
+ "routes": {
+  "T": {
+   "terms": 163507,
+   "counts": {
+    "Lambda^2 cap holds": 163507,
+    "W bound holds": 163507,
+    "non-zero Lambda^2 on M6 at n(nu^-3 chi rho) = 1": 10656,
+    "non-zero Lambda^2 on M6 at n(nu^-3 chi rho) = 2": 1740
+   },
+   "Lambda^2 values by level": {
+    "M2": {
+     "0": 25
+    },
+    "M3": {
+     "0": 256
+    },
+    "M4": {
+     "0": 2025
+    },
+    "M5": {
+     "0": 14641
+    },
+    "M6": {
+     "0": 134164,
+     "-1": 12396
+    }
+   },
+   "W values": {
+    "0": 142311,
+    "1": 20116,
+    "-1": 120,
+    "2": 960
+   }
+  },
+  "L": {
+   "terms": 163507,
+   "counts": {
+    "Lambda^2 cap holds": 163507,
+    "W bound holds": 163507,
+    "non-zero Lambda^2 on M6 at n(nu^-3 chi rho) = 1": 10656,
+    "non-zero Lambda^2 on M6 at n(nu^-3 chi rho) = 2": 1740
+   },
+   "Lambda^2 values by level": {
+    "M2": {
+     "0": 25
+    },
+    "M3": {
+     "0": 256
+    },
+    "M4": {
+     "0": 2025
+    },
+    "M5": {
+     "0": 14641
+    },
+    "M6": {
+     "0": 134164,
+     "-1": 12396
+    }
+   },
+   "W values": {
+    "0": 142311,
+    "1": 20116,
+    "-1": 120,
+    "2": 960
+   }
+  }
+ },
+ "violations": [],
+ "read_out census": {
+  "T": {
+   "generation-shaped": [],
+   "N values": {},
+   "|N| = 3": []
+  },
+  "L": {
+   "generation-shaped": [],
+   "N values": {},
+   "|N| = 3": []
+  }
+ },
+ "holds": true
+}

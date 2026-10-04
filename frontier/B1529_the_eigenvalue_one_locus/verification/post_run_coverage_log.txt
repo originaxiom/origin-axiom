@@ -46,3 +46,9 @@ mLLLLRLRRRLRR E1 113.2125 (failed): route None, alpha None, off by None, 3451 s
 mLLLLRLRRRLRR E1 23.2125 (missed): route None, alpha None, off by None, 8302 s
 mLLLLRLRRRLRR E1 158.2125 (failed): route None, alpha None, off by None, 3927 s
 mLLLLRLRRRLRR E1 248.2125 (failed): route None, alpha None, off by None, 1916 s
+mLLLLRLRRRLRR E1 203.2125 (missed): route None, alpha None, off by None, 5898 s
+mLLLLRLRRRLRR E1 293.2125 (failed): route None, alpha None, off by None, 2558 s
+mLLLLRLRRRLRR E1 338.2125 (failed): route None, alpha None, off by None, 2339 s
+mLLLLRLRRRLRR E2 146.8570 (missed): route None, alpha None, off by None, 10 s
+mLLLLRLRRRLRR E2 215.3909 (missed): route None, alpha None, off by None, 7 s
+mLLLLRLRRRLRR E2 326.8570 (missed): route None, alpha None, off by None, 12 s

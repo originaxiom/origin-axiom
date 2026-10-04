@@ -1,0 +1,5 @@
+K1s {'holds': True} (239 s)
+K2 {'holds': True} (304 s)
+K3 {'holds': True} (1 s)
+K4 {} (4 s)
+ALL HOLD (547 s)

@@ -1,5 +1,38 @@
 # Changelog
 
+## B1535 sealed: the cap — the 5̄′ count at most n(ν³ ⊗ ρ), the 10̄′ count at most b0 + n(ν⁴), at every class of every finite cover (sL-10 item 14, first half)
+
+- **The question.** The owner asked whether the three-generation negatives were sure. sm:B1534 answered for the silver squares'
+  covers by reading, at their pulled-back classes, with no mechanism stated. Is the count capped at every class of every finite
+  cover, the covers' own (mixed) classes included, and by what?
+- **Proved at design time.**
+  - Lemma E′: the index of an extension from the ranks of its connecting maps.
+  - Theorem C (the cap): I(Λ²W₁) = −dim(im δ¹ ∩ K) ∈ [−n(ν³ ⊗ ρ), 0] and I(W₁) ≥ −b0 − n(ν⁴). So g generations, in either
+    order, need n(ν³ ⊗ ρ) ≥ g and b0 + n(ν⁴) ≥ g. The ingredients are sm:B1515's Lemmas 2 and T, sm:B1527's Lemma E, and
+    Garland–Raghunathan's PH¹(Γ; so(3, 1)) = 0, which gives both n(ν² ⊗ Λ²ρ) = 0 and Λ_A ∩ π_A = 0. It holds term by term on
+    the twisted terms of a cover's count.
+  - Lemma W: on a once-punctured-torus bundle with Anosov monodromy, or a finite abelian cover of one, a finite-order
+    character trivial on the fibre's puncture loops has no interior class.
+  - Corollary C1: on every finite abelian cover of m135 and m136, at every pulled-back member and every class, at most one
+    generation, and a 5̄′ count of at most 2. C2: at most one generation on every word state and level. C3: where more than one
+    could live.
+  - Lemma F, the cusps of a fibre-direction cover (for Part M's cancellation classes).
+- **Instruments.** cap_lib reads both long exact sequences and δ¹ as a matrix. Route Ind is the circulant induced module on M,
+  exact over ℚ(ζ₂₄). Route RS is the cover's own Reidemeister–Schreier presentation over GF(p) at two primes; it shares no
+  linear algebra with route Ind. Part W reads Lemma W in routes X (the census presentation, 30 digits) and S (SnapPy's
+  presentation and peripheral curves).
+- **Controls, all hold.** K1 on all 144 of sm:B1534's banked terms (983 s). K1s, K2 (16 pure-class readings against banked sums,
+  routes RS and Ind), K3 (Part W's dry run) and K4 (the covers' presentations), 547 s.
+- **Disclosed:** Theorem C's prediction for sm:B1532, committed at `5c6a4225` before that read-out, holds at all 163,507
+  readings of each route.
+- **Predictions P1–P9** (priors summing to 7.81). PROVED if P2 (Theorem C at every reading, 93%), P3 (the routes agree, 95%) and
+  P8 (Lemma W's census, 97%) hold. P5 (mixing adds no new value) is at 50%, and P9 (a generic mixed class attains the cap −2)
+  at 70%.
+- **Logged** (ERROR_LEDGER): three slips caught before the seal. The checker's draft twisted before the wedge (caught by a smoke
+  test); the prediction note's draft recalled a banked table as uniform; part_m's draft inverted Lemma F's character.
+- **sm:B1532's sealed read-out and route C are recorded** with this seal: NEGATIVE at the λ = 1 pulled-back members, 5 of 9
+  predictions held; its FINDINGS follow.
+
 ## B1534 banked: THE SILVER COVERS — no finite abelian cover of m135 or m136 carries three generations at a pulled-back member, in either order
 
 - **Run as sealed** (`1f58d161`; sL-10 item 11).
