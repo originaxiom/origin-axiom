@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1180 settled arcs — 70%** —
+the field is **absent on 828 of 1181 settled arcs — 70%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (96) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 610 arcs.**
+**POOL = declared-law (96) ∪ on-a-synthesis-surface ∪ law-vocabulary (129) = 611 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -82,7 +82,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1506` | PROVED | S | | THE LEVEL, run as sealed (58e3f28f; sL-5 at the owner's 'lets do 1 first': is a count taken on a cover or on its quotient?). One background has one count on every level: … |
 | `B1508` | PROVED | S | | THE PATH UNDER THE REFRAME (the owner, 2026-10-01: 'most of these theorems are malinformed, they assume m004 is the only object, and ignore the fact that reality uses mor… |
 
-## §5 withheld — the value wall and the rank wall (134)
+## §5 withheld — the value wall and the rank wall (135)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -220,6 +220,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1501` | PROVED | S | | THE TORUS-LINK CENSUS, run as sealed (d780b639; the owner's go; after B1500): in the simplest G2 cone singularities -- cones over the four homogeneous nearly Kaehler 6-ma… |
 | `B1503` | PROVED | S | | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma … |
 | `B1512` | PROVED | S | | THE SELF-COINCIDENT ORBITS (B1511's leads 1 and 3 at the owner's 'go'; sealed at b8ddbb66 before any polynomial of the twelve orbits was computed; run as sealed, 833 s). … |
+| `B1535` | PROVED | S | | THE CAP, run as sealed (b410afeb; sL-10 item 14, first half; the owner's 'are u sure about the math behind your negative conclusions about three generatiosn, sure sure su… |
 
 ## §6 the observer — one bit, priced (182)
 

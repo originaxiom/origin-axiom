@@ -1,0 +1,18045 @@
+{
+ "pure": [
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 1/2):the class",
+   "banked": [
+    0,
+    0,
+    1
+   ],
+   "route N": [
+    0,
+    0,
+    1
+   ],
+   "route R": [
+    0,
+    0,
+    1
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    4
+   ],
+   "route N": [
+    0,
+    0,
+    4
+   ],
+   "route R": [
+    0,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    0,
+    0,
+    2
+   ],
+   "route N": [
+    0,
+    0,
+    2
+   ],
+   "route R": [
+    0,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):c_int",
+   "banked": [
+    -1,
+    -1,
+    0
+   ],
+   "route N": [
+    -1,
+    -1,
+    0
+   ],
+   "route R": [
+    -1,
+    -1,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-1:the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(0, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    5,
+    0,
+    8
+   ],
+   "route N": [
+    5,
+    0,
+    8
+   ],
+   "route R": [
+    5,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    8
+   ],
+   "route N": [
+    1,
+    0,
+    8
+   ],
+   "route R": [
+    1,
+    0,
+    8
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 0; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    2
+   ],
+   "route N": [
+    1,
+    0,
+    2
+   ],
+   "route R": [
+    1,
+    0,
+    2
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 1/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 3/4; 0):the class",
+   "banked": [
+    1,
+    0,
+    4
+   ],
+   "route N": [
+    1,
+    0,
+    4
+   ],
+   "route R": [
+    1,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-1:the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/4, 3/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(1/2, 1/2; 0):the class",
+   "banked": [
+    3,
+    0,
+    4
+   ],
+   "route N": [
+    3,
+    0,
+    4
+   ],
+   "route R": [
+    3,
+    0,
+    4
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "class": "pure-(3/4, 1/4; 0):c_int",
+   "banked": [
+    -1,
+    -2,
+    0
+   ],
+   "route N": [
+    -1,
+    -2,
+    0
+   ],
+   "route R": [
+    -1,
+    -2,
+    0
+   ],
+   "identities": [
+    true,
+    true
+   ],
+   "ok": true
+  }
+ ],
+ "generic": [
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    4,
+    4,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    4,
+    4,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    4,
+    6,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    2,
+    4,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -2,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -2,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "0",
+    "1/2",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    4,
+    4,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    4,
+    6,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    2,
+    4,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": true,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -2,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    -1,
+    -2,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     -1,
+     -2,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     1,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    4,
+    4,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     4,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m136",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    4,
+    6,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    4,
+    6,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    2,
+    4,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "0",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    4,
+    6,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    2,
+    4,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "0",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -2,
+    4,
+    6,
+    3,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     4,
+     6,
+     3,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    0,
+    -1,
+    2,
+    3,
+    1,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    3,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    3,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "1/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    3,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "1/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    3,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     4,
+     4,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 8,
+   "banked generic": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    8,
+    10,
+    7,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     8,
+     10,
+     7,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 2,
+   "banked generic": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    1,
+    0,
+    4,
+    4,
+    2,
+    0,
+    0
+   ],
+   "route N": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     4,
+     4,
+     2,
+     0,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  },
+  {
+   "state": "m135",
+   "nu": [
+    "3/4",
+    "3/4",
+    "0"
+   ],
+   "|B|": 4,
+   "banked generic": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked, largest ranks": [
+    2,
+    -2,
+    4,
+    6,
+    3,
+    2,
+    0
+   ],
+   "route N": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "route R": [
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ],
+    [
+     2,
+     -2,
+     4,
+     6,
+     3,
+     2,
+     0
+    ]
+   ],
+   "banked draws differ": false,
+   "ok": true
+  }
+ ],
+ "primes": {
+  "route N": 16776961,
+  "route R": 2147482921
+ },
+ "pure readings": 328,
+ "generic readings": 102,
+ "banked pairs whose two generic draws differ": [
+  [
+   "m136",
+   [
+    "1/2",
+    "0",
+    "1/2"
+   ],
+   4,
+   [
+    [
+     0,
+     -1,
+     2,
+     3,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -2,
+     2,
+     4,
+     1,
+     0,
+     0
+    ]
+   ]
+  ]
+ ],
+ "holds": true,
+ "seconds": 193
+}

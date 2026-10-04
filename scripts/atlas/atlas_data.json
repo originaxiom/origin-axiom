@@ -9864,6 +9864,41 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1535": {
+   "slug": "the cap",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B370",
+    "K1",
+    "K3",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "S53"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B153": {
    "slug": "degree rank degeneration",
    "motifs": [

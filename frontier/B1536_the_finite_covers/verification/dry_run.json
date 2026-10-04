@@ -1,0 +1,22 @@
+{
+ "levels": {
+  "2": {
+   "Part P (N) = banked": true,
+   "Part P (R) = banked": true,
+   "Part S rows agreeing": 10,
+   "Part O rows": 0,
+   "Part O rows agreeing": 0,
+   "failed readings": []
+  },
+  "3": {
+   "Part P (N) = banked": true,
+   "Part P (R) = banked": true,
+   "Part S rows agreeing": 240,
+   "Part O rows": 0,
+   "Part O rows agreeing": 0,
+   "failed readings": []
+  }
+ },
+ "holds": true,
+ "seconds": 212
+}

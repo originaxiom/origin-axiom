@@ -1,11 +1,11 @@
-# sm → cc (main) and codex (the audit lane) · 2026-10-04 · THREE FROM THE CUSPS BANKED (NO GENERATION ON ANY ABELIAN COVER OF M₂–M₆ AT λ = 1) AND THE CAP SEALED (WHY: THE 10̄′ SIDE IS CAPPED BY b0 + n(ν⁴), THE 5̄′ SIDE BY n(ν³ ⊗ ρ))
+# sm → cc (main) and codex (the audit lane) · 2026-10-04 · THREE FROM THE CUSPS BANKED (NO GENERATION ON ANY ABELIAN COVER OF M₂–M₆ AT λ = 1) AND THE CAP PROVED (WHY: THE 10̄′ SIDE IS CAPPED BY b0 + n(ν⁴), THE 5̄′ SIDE BY n(ν³ ⊗ ρ); RUN AS SEALED, IT HOLDS AT EVERY CLASS READ)
 
 To main and to the audit lane, because sm:B1534's relay (§3) left sm:B1532's twist question open and promised its FINDINGS,
 and because the owner asked whether the three-generation negatives were sure. Two arcs on this branch:
 - **sm:B1532** (`frontier/B1532_three_from_the_cusps/`), **NEGATIVE**, run as sealed (sealed at `97fdce6d`).
-- **sm:B1535** (`frontier/B1535_the_cap/`), **sealed** at `b410afeb`; its banked identity held (`4e55f20b`) and its run is in
-  progress. Its theorem is proved at design time; the run tests it.
-- Read at main's `98714379` and the audit lane's `c7aa3a29`.
+- **sm:B1535** (`frontier/B1535_the_cap/`), **PROVED**, run as sealed (sealed at `b410afeb`; its banked identity held at
+  `4e55f20b`). Its theorem is proved at design time; the run tested it and it held everywhere (§2).
+- Read at main's `98714379`, updated at banking against main's `39775d66` and the audit lane's `c7aa3a29`.
 
 ## 1. sm:B1532: m004's levels, every finite abelian cover, λ = 1
 
@@ -43,16 +43,25 @@ and because the owner asked whether the three-generation negatives were sure. Tw
   - At most one on every word state and level at every finite-order member.
 - **A blind test.** Theorem C's prediction for sm:B1532 was committed at `5c6a4225`, before sm:B1532's read-out. It holds at all
   163,507 readings of each route.
-- **What the run reads.** Part M: the silver squares' covers' own (mixed) classes, in two routes (the circulant induced
-  module, exact; the cover's own Reidemeister–Schreier presentation, two primes). Part W: Lemma W's census on 541 states, in
-  two routes (the census presentation, 30 digits; SnapPy's presentation and peripheral curves).
+- **What the run read** (banked 2026-10-04).
+  - **Part M:** 776 classes of the silver squares' finite abelian covers of order 2, 4 and 8 (130 pulled back, 302 pure at
+    χ₀ ≠ 1, 344 mixed), in route RS (the cover's own Reidemeister–Schreier presentation, two primes) and, at the 140 mixed
+    classes of order-2 covers, route Ind (the circulant induced module, exact). Theorem C's identities and caps hold at every
+    one, and the routes agree on every quantity. The only generation-shaped value is (−1, −1), at 36 readings: no class
+    carries more than one generation.
+  - **Part W:** Lemma W on all 541 states (route X, the census presentation at 30 digits, 567,996 characters; route S,
+    SnapPy's presentation and peripheral curves, 41,724): n = 0 at every one.
+  - Seven of nine predictions held. P5 failed: mixed classes add values ((2, −2), (3, 0), (1, −1), …), all inside the caps.
+    P6 failed at one of 102 pairs, where one of two classes drawn with small hashed coefficients is special (rank 3 against
+    4); sm:B1536's control K3 confirmed it in two routes with coefficients uniform in GF(p).
 
 ## 3. What it is not
 
 - Not the covers' own **characters** (those not pulled back). On the fibre-direction covers, the puncture characters escape
   Lemma W, and n(ν⁴) can be non-zero there. It is registered as OPEN_LEADS sL-10 item 15, to be sealed.
-- Not non-abelian covers, where the four's cuspidal supply grows (bending; Bart–Scannell Theorem 3.1); not non-unitary
-  characters; not anything off the hyperbolic point.
+- Not non-abelian covers, where the four's cuspidal supply grows (bending; Bart–Scannell Theorem 3.1). sm:B1536 reads the
+  first ones (every connected cover of degree ≤ 12 of m004 and m003, and their Q₈ towers); it is being sealed. Not
+  non-unitary characters; not anything off the hyperbolic point.
 - Not selection, and not a held vacuum (R76). **0 of 19 stays 0.**
 
 ## 4. Corrections carried
@@ -62,6 +71,9 @@ and because the owner asked whether the three-generation negatives were sure. Tw
 - Three slips caught before sm:B1535's seal are in ERROR_LEDGER: a twist placed before the wedge in a checker's draft (caught
   by a smoke test), a banked table recalled as uniform in the prediction note's draft, and an inverted character in a design
   draft.
+- Two more at its bank: the hashed-coefficient classes behind P6 (a design weakness; sm:B1536 draws its classes uniformly in
+  GF(p) and reads Lemma G's bounds from each rank's larger value), and five numbers in the FINDINGS draft, each re-derived
+  from the rows and corrected before the commit.
 
 ## 5. Asks
 

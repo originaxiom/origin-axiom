@@ -3949,6 +3949,15 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
      loops. So Corollary C1 decides this half by proof: at most one generation, and a 5̄′ count of at most 2.
    - The run tests it on Part M's mixed classes (routes Ind and RS) and on Lemma W's census (routes X and S). Predictions
      P1–P9; PROVED if P2, P3 and P8 hold.
+   **Banked 2026-10-04 as sm:B1535 (PROVED, run as sealed at b410afeb).** Theorem C held at all 776 classes of Part M
+   (pulled back, pure and mixed, on covers of order 2, 4 and 8), and Lemma W on all 541 states.
+   - The only generation-shaped value is (−1, −1), at 36 readings: no class carries more than one generation.
+   - b0 = 1 and n(ν⁴) = 0 at every reading, so every W count is ≥ −1; the 5̄′ cap (n(ν³ ⊗ ρ) ≤ 2) is attained at 377.
+   - Seven of nine held. P5 (mixing adds no new value) failed: mixed classes read (2, −2), (3, 0), (1, −1) and others, all
+     inside the caps. P6 failed at one pair, where one of the two hashed-coefficient classes is special; sm:B1536's K3
+     confirmed it in two routes.
+   - Kill graph: `capped-by-the-supplies` (Corollary C1; F-HE, reach class). Next: item 15, and the non-abelian covers
+     (sm:B1536).
 15. **The puncture characters** (sm:B1535 §10; item 14's second half). On the fibre-direction covers M_D of a word state, a
    character non-trivial on the fibre's puncture loops escapes Lemma W, and n(ν⁴) can be non-zero there. The mechanism to read
    is the twisted monodromy on H¹(T̄ ∖ J; ζ). By Corollary C3 it is the first place a second generation can live on an abelian

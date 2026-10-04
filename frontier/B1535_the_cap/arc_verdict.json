@@ -1,0 +1,142 @@
+{
+ "id": "B1535",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1515",
+  "B1527",
+  "B1530",
+  "B1532",
+  "B1534",
+  "B1529",
+  "B1509",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "Theorem C on any finite cover of a complete finite-volume hyperbolic 3-manifold at any finite-order character and any class of sm:B1515's frame, both orders; tested at 776 classes (pulled back, pure and mixed) of the finite abelian covers of m135 = -LLRR and m136 = +LLRR at their pulled-back members, and Lemma W on sm:B1529's 541 rows (536 word states to length 12 and m004's levels M2-M6)",
+  "reach": "class",
+  "hypotheses": [
+   "at the hyperbolic point only (the complete structure); the four is the SO(3,1) vector representation",
+   "unitary (finite-order) characters: sm:B1515's Lemma 2 (unitary pieces are conjugate self-dual) is used",
+   "the count is main's interior index I = n(E) - n(E*) (B1297) on the cover, on an unsealed cusp (B1392); no end condition chosen",
+   "B1509's dictionary: N(10') = -I(W), N(5bar') = -I(Lambda^2 W); generation-shaped means I(W) = I(Lambda^2 W) != 0",
+   "Garland-Raghunathan's PH^1(Gamma; so(3,1)) = 0 for every non-uniform lattice, as stated in Monroe arXiv:2604.22004 section 6.1, applied on the finite cover ker nu^2",
+   "Lemma W: once-punctured-torus bundles with Anosov monodromy and their finite abelian covers, at characters trivial on every puncture loop of the fibre",
+   "Corollary C1 (sL-10 item 14, first half) covers the pulled-back members of m135 and m136 at every twist; the covers' own characters (item 15) and non-abelian covers are not covered"
+  ]
+ },
+ "claim_one_line": "THE CAP, run as sealed (b410afeb; sL-10 item 14, first half; the owner's 'are u sure about the math behind your negative conclusions about three generatiosn, sure sure sure?'): at a finite-order member of sm:B1515's frame on any finite cover of a complete finite-volume hyperbolic 3-manifold, at every class and in either order, I(Lambda^2 W1) = -dim(im delta^1 meet K) lies in [-n(nu^3 rho), 0] and I(W1) >= -b0 - n(nu^4) (Theorem C, from sm:B1515's Lemmas 2 and 3, sm:B1530's torus table, Lemma E' and Garland-Raghunathan on ker nu^2), so g generations need both supplies n(nu^3 rho) >= g and b0 + n(nu^4) >= g; and the line has no interior class on a once-punctured-torus bundle with Anosov monodromy or a finite abelian cover of one at puncture-trivial characters (Lemma W). The sealed run held both: Theorem C's identities and caps at all 776 readings of Part M (130 pulled-back, 302 pure at chi0 != 1 and 344 mixed classes of m135's and m136's abelian covers of order 2, 4 and 8; route RS at two primes, route Ind exactly at the 140 mixed classes on order-2 covers, agreeing on every quantity), and Lemma W on all 541 rows (567,996 characters in route X, 41,724 in route S, n = 0 at every one). No class carries more than one generation: the only generation-shaped value is (-1, -1), at 36 readings. Corollaries: at most one generation on every abelian cover of m135 and m136 at the pulled-back members (C1), on every word state and level (C2); more needs both supplies, which only puncture characters, non-abelian covers or non-unitary characters can give (C3). Seven of nine predictions held; P5 (mixing adds no new value) and P6 (one of 102 pairs: a hashed-coefficient class was special, rank 3 against 4, confirmed after the run by sm:B1536's control K3 in two routes) failed. 0 of 19 stays 0.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the seal)": "5c6a4225",
+    "seat/standard-model-derivation-0qt6ao (at banking)": "536dfba1",
+    "origin/main (at the seal)": "daf035b6",
+    "origin/main (at banking)": "39775d66",
+    "origin/audit/physical-bridge-2026-09-05": "c7aa3a29",
+    "origin/seat/determined-hopper-t1cmii": "7cda35aa",
+    "origin/seat/outside-bench": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl": "659487bb",
+    "origin/sep16-branch": "3205984b",
+    "origin/seat/magical-wright-vwrmtt (retired by main, B1467)": "0043be2b",
+    "origin/art/camper-van-bar (retired by main, B1467)": "b3745696"
+   },
+   "terms": [
+    "cuspidal cohomology",
+    "generalized cuspidal",
+    "interior supply",
+    "interior classes of the four",
+    "capped at two",
+    "Bart",
+    "Scannell",
+    "bending",
+    "totally geodesic",
+    "Proposition E",
+    "index of an extension",
+    "rigidity of complete",
+    "parabolic part",
+    "Theorem C",
+    "the cap",
+    "cuspidal supply",
+    "mixed class",
+    "Garland",
+    "Raghunathan",
+    "Lemma W",
+    "puncture-trivial",
+    "line supply",
+    "special class",
+    "hashed coefficients"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1515_the_hyperbolic_point (Lemma 8 (ii), Remark 9)",
+     "bearing": "the cap's simple-member case, I(Lambda^2 W1) = bit = [e ^ c|_P in Lambda_A]; Remark 9 cites the rigidity that Theorem C proves through Garland-Raghunathan"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1530_the_interior_extensions (Lemma B, Part C)",
+     "bearing": "m135's one-dimensional case of the cap, and a census of Lambda_A meet pi_A = 0 that step (c2) proves in general"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1532_three_from_the_cusps (Corollary I)",
+     "bearing": "termwise bounds weaker than Theorem C; the blind prediction for its census (5c6a4225) holds at all 163,507 readings"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1534_the_silver_covers",
+     "bearing": "the 5bar' side capped at two on the silver covers by reading; its 144 terms are this arc's K1 and its pulled-back classes Part M's P1"
+    },
+    {
+     "where": "seat/standard-model-derivation-0qt6ao: frontier/B1509 (Proposition E)",
+     "bearing": "a boundary range for the index, not an interior-supply bound"
+    },
+    {
+     "where": "main@39775d66: S53 (B1470) and the B1471 seal",
+     "bearing": "B1418's unrun modules of t12835 (main's own frame; no three, maximum |I| = 2) and the amphichiral cancellation of the twisted Alexander function; neither states the cap"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05: reports/physical_bridge_2026_09_05/FINITE_TWIST_PRIOR.md (R27)",
+     "bearing": "reads Menal-Ferrer-Porti in full for finite-character transfer; does not bound the frame's counts by the supplies"
+    },
+    {
+     "where": "main@39775d66: frontier/B1453_the_sm_seats_join_arcs_harvested/verification/readers/s6_B1508_B1515.md",
+     "bearing": "main's reader of sm:B1515 records Remark 9 as cited, not used; nothing more"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Garland Raghunathan parabolic cohomology non-uniform lattice so(3,1)",
+    "generalized cuspidal cohomology problem Bart Scannell",
+    "twisted cohomology hyperbolic three manifolds Menal-Ferrer Porti"
+   ],
+   "sources": [
+    {
+     "cite": "J. Monroe, Branched bending in finite-volume hyperbolic manifolds, arXiv:2604.22004 (2026)",
+     "where": "section 6.1 and Appendix A",
+     "read": "2026-10-04",
+     "says": "PH^1(Gamma, so(3,1)) = 0 for every non-cocompact lattice in SO+(3,1), due to Garland-Raghunathan (Ann. of Math. 92 (1970)); parabolic cohomology defined by c(gamma) in im(I - Ad gamma) at every parabolic gamma"
+    },
+    {
+     "cite": "A. Bart and K. P. Scannell, The generalized cuspidal cohomology problem, Canad. J. Math. 58 (2006) 673-690",
+     "where": "sections 2.1-2.2 and Theorem 3.1",
+     "read": "2026-10-04",
+     "says": "the cuspidal cohomology of the standard representation parameterizes parabolic-preserving deformations into SO(4,1); bending along closed embedded or branched totally geodesic surfaces gives non-zero classes"
+    },
+    {
+     "cite": "P. Menal-Ferrer and J. Porti, Twisted cohomology for hyperbolic three manifolds, Osaka J. Math. 49 (2012), arXiv:1001.2242",
+     "where": "abstract (Theorem 0.1 through sm:B1515's Lemma 3)",
+     "read": "2026-10-04",
+     "says": "vanishing results for the cohomology twisted by Sym^n of the holonomy"
+    }
+   ]
+  },
+  "standing": "EXTENDS",
+  "why": "sm:B1515's Lemma 8 (ii), sm:B1530's Lemma B and sm:B1534's reading extended to every class, every finite cover and both orders; the bound of the frame's count by the two supplies is new as swept; its one cited ingredient, Garland-Raghunathan, is classical"
+ }
+}

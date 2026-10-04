@@ -1,0 +1,65 @@
+{
+ "levels": [
+  2,
+  3
+ ],
+ "route R levels": [
+  2,
+  3
+ ],
+ "per level": {
+  "2": {
+   "members": 5,
+   "banked members": 5,
+   "subgroups": 2,
+   "banked subgroups": 2,
+   "subgroup order cap": null,
+   "route N histogram": {
+    "('c1', 0, 0)": 10
+   },
+   "banked histogram": {
+    "('c1', 0, 0)": 10
+   },
+   "route N = banked": true,
+   "failures": [],
+   "route R histogram": {
+    "('c1', 0, 0)": 10
+   },
+   "route R = banked": true
+  },
+  "3": {
+   "members": 16,
+   "banked members": 16,
+   "subgroups": 15,
+   "banked subgroups": 15,
+   "subgroup order cap": null,
+   "route N histogram": {
+    "('c1', 0, 0)": 40,
+    "('c1', 1, 0)": 144,
+    "('c1', 3, 0)": 44,
+    "('c1', 5, 0)": 12
+   },
+   "banked histogram": {
+    "('c1', 0, 0)": 40,
+    "('c1', 1, 0)": 144,
+    "('c1', 3, 0)": 44,
+    "('c1', 5, 0)": 12
+   },
+   "route N = banked": true,
+   "failures": [],
+   "route R histogram": {
+    "('c1', 0, 0)": 40,
+    "('c1', 1, 0)": 144,
+    "('c1', 3, 0)": 44,
+    "('c1', 5, 0)": 12
+   },
+   "route R = banked": true
+  }
+ },
+ "holds": true,
+ "primes": {
+  "route N": 16776961,
+  "route R": 2147482921
+ },
+ "seconds": 174
+}

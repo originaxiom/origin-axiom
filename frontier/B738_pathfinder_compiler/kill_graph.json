@@ -11825,5 +11825,34 @@
     "the interior index on an unsealed cusp (B1392); B1509's dictionary for 10' and 5bar'"
    ]
   }
+ },
+ {
+  "id": "B1535",
+  "claim_killed": "THE CAP, its no-go half (Corollary C1; sL-10 item 14, first half; the owner's question of 2026-10-03, whether the three-generation negatives were sure): that some class of a finite abelian cover of m135 = -LLRR or m136 = +LLRR -- pulled back, pure or mixed (the cover's own classes) -- carries more than one generation of sm:B1515's frame at a pulled-back member at the hyperbolic point, at any twist, in either order. Refuted by proof and read as sealed (b410afeb): Theorem C bounds the 5bar' count by n(nu^3 rho) and the 10bar' count by b0 + n(nu^4) at every class of every finite cover at every finite-order member; Lemma W gives n(nu^4) = 0 there (by Shapiro, n_N(nu^4) = sum over chi in B of n_M(nu^4 chi), each 0), so the 10bar' side is capped at b0 <= 1; sm:B1534's Lemma Q reduces every twist to finite order. Part M read 776 classes (130 pulled back, 302 pure at chi0 != 1, 344 mixed) of the covers of order 2, 4 and 8 in route RS at two primes and exactly in route Ind at the 140 mixed classes of order-2 covers: Theorem C holds at every one, the routes agree on every quantity, and the only generation-shaped value is (-1, -1). Part W read Lemma W on 541 states in two routes (567,996 and 41,724 characters): n = 0 at every one.",
+  "kill_form": "capped-by-the-supplies (Theorem C: g generations need n(nu^3 rho) >= g and b0 + n(nu^4) >= g at every class; on the silver squares' abelian covers at the pulled-back members n(nu^4) = 0 by Lemma W, so the 10bar' side is at most b0 <= 1 and the 5bar' side at most 2: at most one generation at every class, the cover's own mixed classes included)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Where both supplies can grow (Corollary C3): the covers' own characters on the fibre-direction covers (puncture characters, where Lemma W does not apply and n(nu^4) can be non-zero; sL-10 item 15); non-abelian covers, where the four's cuspidal cohomology grows by bending (Bart-Scannell; Long through them) and the line's can grow (sm:B1536 reads every cover of degree <= 12 of m004 and m003 and their Q8 towers); non-unitary characters on covers with several cusps; off the hyperbolic point; other frames.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-04 at banking time, with content: a PROVED arc whose content includes a no-go within its scope (B833: kill records legitimately sit on PROVED arcs), its population in its scope (B1207's A3, held by tests/test_negatives_read_together.py).",
+  "note": "ENTERED 2026-10-04 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1535_the_cap/verification/part_m.py (Part M, routes RS and Ind, the sealed run), part_w.py (Part W, routes X and S), read_out.py (the sealed read-out), control_k1.py (Theorem C on sm:B1534's 144 banked terms) and check_b1532.py (the blind prediction for sm:B1532); locked by tests/test_b1535_the_cap.py.",
+  "routed_from": "sm-branch-2026-10-04-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite abelian cover, at every pulled-back member of sm:B1515's frame at every twist (sm:B1534's Lemma Q) and every class of the cover (pulled back, pure and mixed), both orders",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point only (the complete structure); the four is the SO(3,1) vector representation",
+    "unitary (finite-order) characters; Garland-Raghunathan's PH^1(Gamma; so(3,1)) = 0 for non-uniform lattices, through Monroe arXiv:2604.22004 section 6.1",
+    "the count is main's interior index I = n(E) - n(E*) (B1297) on the cover, on an unsealed cusp (B1392); no end condition chosen",
+    "B1509's dictionary: N(10') = -I(W), N(5bar') = -I(Lambda^2 W); generation-shaped means I(W) = I(Lambda^2 W) != 0",
+    "pulled-back characters only: the covers' own characters (item 15) are not covered",
+    "finite abelian covers only; non-abelian covers are sm:B1536's"
+   ]
+  }
  }
 ]

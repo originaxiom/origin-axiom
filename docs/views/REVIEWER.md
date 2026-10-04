@@ -22,11 +22,11 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1281** |
-| words of findings prose | **1,099,929** |
-| test lock files referenced | **784** |
-| arcs carrying an authored verdict | **1281** (100.0 %) |
-| recorded closures | **824** (657 classified, 167 routed-only) |
+| research arcs with findings | **1282** |
+| words of findings prose | **1,102,707** |
+| test lock files referenced | **785** |
+| arcs carrying an authored verdict | **1282** (100.0 %) |
+| recorded closures | **825** (658 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 853 |
+| PROVED | 854 |
 | NEGATIVE | 329 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 94 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 95 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1533`** (2516 words, 1 locks)  
-GENESIS v1.10 (not sealed: every item checks a claim the record already fixes): main's v1.9 (B1466) taken as the head, as main asked; main's amend.py on main's v1.8 gives main's v1.9 byte for byte, and main's v1.8 is v1.7 with a version line and one log entry (C1). The SM seat's v1.8 lines (sm:B1528), made on v1.7 in parallel with main's v1.8 and not in main's v1.9, carried as they were (C2). GAP6 scoped from the record (marked [v1.10]): its Chern-Weil row is B1420's A4, the Dirac index on a closed spin 4-manifold, rank-blind, and B1420 itself states that the non-zero values on non-split modules are flat data, counts of twisted classes (C3); B1297's class index is not a characteristic number: on M4 at nu = (1/3, 0) the non-split W1, its dual and the split V (+) L are flat of rank five, of one Chern character, h^1 = 2 each, and count +1, -1 and 0 in two routes (C4, own code); frames with curvature or a singular point are on the record (sm:B1397, sm:B1502, sm:B1503, R41/R80) with their outcomes (C5); and the chirality chain's 26 negatives read by sm:B1531 give symmetry 8, flatness 3, non-uniqueness 3 and none 12, nine of them frame arithmetic: a fourth kind (main's L244 (a); C6). At FK9 Part H verified on main (B1465: 7 364 indices, all zero; C7); at FK12 (ii) main's B1465 states the twisted identity in the same form. Section 7 counts six gaps. B1528's lock repointed to v1.8 kept as received. No status changes; FK1 and FK12 as the owner decided. 0 of 19.  
-`B1533_genesis_v110/FINDINGS.md`
+**PROVED — `B1535`** (2778 words, 1 locks)  
+THE CAP, run as sealed (b410afeb; sL-10 item 14, first half; the owner's 'are u sure about the math behind your negative conclusions about three generatiosn, sure sure sure?'): at a finite-order member of sm:B1515's frame on any finite cover of a complete finite-volume hyperbolic 3-manifold, at every class and in either order, I(Lambda^2 W1) = -dim(im delta^1 meet K) lies in [-n(nu^3 rho), 0] and I(W1) >= -b0 - n(nu^4) (Theorem C, from sm:B1515's Lemmas 2 and 3, sm:B1530's torus table, Lemma E' and Garland-Raghunathan on ker nu^2), so g generations need both supplies n(nu^3 rho) >= g and b0 + n(nu^4) >= g; and the line has no interior class on a once-punctured-torus bundle with Anosov monodromy or a finite abelian cover of one at puncture-trivial characters (Lemma W). The sealed run held both: Theorem C's identities and caps at all 776 readings of Part M (130 pulled-back, 302 pure at chi0 != 1 and 344 mixed classes of m135's and m136's abelian covers of order 2, 4 and 8; route RS at two primes, route Ind exactly at the 140 mixed classes on order-2 covers, agreeing on every quantity), and Lemma W on all 541 rows (567,996 characters in route X, 41,724 in route S, n = 0 at every one). No class carries more than one generation: the only generation-shaped value is (-1, -1), at 36 readings. Corollaries: at most one generation on every abelian cover of m135 and m136 at the pulled-back members (C1), on every word state and level (C2); more needs both supplies, which only puncture characters, non-abelian covers or non-unitary characters can give (C3). Seven of nine predictions held; P5 (mixing adds no new value) and P6 (one of 102 pairs: a hashed-coefficient class was special, rank 3 against 4, confirmed after the run by sm:B1536's control K3 in two routes) failed. 0 of 19 stays 0.  
+`B1535_the_cap/FINDINGS.md`
 
 **NEGATIVE — `B1534`** (3999 words, 1 locks)  
 THE SILVER COVERS, run as sealed (1f58d161; sL-10 item 11): no finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations at a pulled-back member of sm:B1515's frame at the hyperbolic point, in either order. Lemma S (Shapiro and Mackey, any finite regular abelian cover) and Lemma Z' make every count a subgroup sum of 144 twisted terms (I(W1 (x) chi), I(Lambda^2 W1 (x) chi)) over at most eight characters per member; Lemma Q (K10, two routes) carries every member at every twist onto the fourteen at kappa = +-1. Routes E (exact over Q(zeta_24)) and N (60 digits) read all 144 terms and all 64 pencils and agree; the pencils give one special class per two-class member, s = -+sqrt2/30, where every term reads (0, 0); route C (the permutation module) agrees on 16 order-4 covers read whole; after the run route S (SnapPy's presentation, cusp and holonomy, with its own classes and pencils) agrees on both states. The counts are (-1,-1), (-1,-2), (0,-1), (0,-2), (0,0), (1,0), (3,0), (5,0): the only generation-shaped count is (-1, -1), the base's one generation pulled back ((+1, +1) in the dual order). A Lambda^2 term is non-zero only at the four non-simple members' two non-simple twists, so I(Lambda^2) is 0, -1 or -2 on every cover: the 5bar' side is capped at two, while the 10' side alone reaches (3, 0) and (5, 0), anomalous. Seven of eight held; P2 failed (the (1/2, 1/2) term at m135's interior class is (0, -1)). Replaces the one-sided bound withdrawn at sm:B1530. 0 of 19 stays 0.  

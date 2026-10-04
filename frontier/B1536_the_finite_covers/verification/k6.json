@@ -1,0 +1,159 @@
+{
+ "cases": {
+  "clean": {
+   "false": [],
+   "expected false": [],
+   "holds": true
+  },
+  "a supply differs": {
+   "false": [
+    "P1"
+   ],
+   "expected false": [
+    "P1"
+   ],
+   "holds": true
+  },
+  "a Part P connecting rank differs": {
+   "false": [
+    "P1"
+   ],
+   "expected false": [
+    "P1"
+   ],
+   "holds": true
+  },
+  "a Part O generic reading differs": {
+   "false": [
+    "P1"
+   ],
+   "expected false": [
+    "P1"
+   ],
+   "holds": true
+  },
+  "a failed identity in one draw": {
+   "false": [
+    "P2"
+   ],
+   "expected false": [
+    "P2"
+   ],
+   "holds": true
+  },
+  "an abelian row with n(L) = 1": {
+   "false": [
+    "P3"
+   ],
+   "expected false": [
+    "P3"
+   ],
+   "holds": true
+  },
+  "n(1) = 1 at kappa = 1 on a d-cover": {
+   "false": [
+    "P3",
+    "P4"
+   ],
+   "expected false": [
+    "P3",
+    "P4"
+   ],
+   "holds": true
+  },
+  "the tower's n(1) is 3": {
+   "false": [
+    "P5"
+   ],
+   "expected false": [
+    "P5"
+   ],
+   "holds": true
+  },
+  "the tower's n(1) is 5": {
+   "false": [
+    "P5"
+   ],
+   "expected false": [
+    "P5"
+   ],
+   "holds": true
+  },
+  "n(rho) = 1 at kappa = 1 on a d-cover": {
+   "false": [
+    "P6"
+   ],
+   "expected false": [
+    "P6"
+   ],
+   "holds": true
+  },
+  "both caps >= 3 at a member": {
+   "false": [
+    "P7"
+   ],
+   "expected false": [
+    "P7"
+   ],
+   "holds": true
+  },
+  "both caps >= 3 at a non-member": {
+   "false": [],
+   "expected false": [],
+   "holds": true
+  },
+  "(-3, -3) in route R's second draw only": {
+   "false": [
+    "P8"
+   ],
+   "expected false": [
+    "P8"
+   ],
+   "holds": true
+  },
+  "(-1, -1) at the pulled-back class in route N only": {
+   "false": [
+    "P1",
+    "P9"
+   ],
+   "expected false": [
+    "P1",
+    "P9"
+   ],
+   "holds": true
+  },
+  "an open stratum": {
+   "false": [
+    "P10"
+   ],
+   "expected false": [
+    "P10"
+   ],
+   "holds": true
+  },
+  "bounds >= 3 but k < |S| in every draw": {
+   "false": [],
+   "expected false": [],
+   "holds": true
+  },
+  "bound W reached only by the second draw's E* rank": {
+   "false": [
+    "P10"
+   ],
+   "expected false": [
+    "P10"
+   ],
+   "holds": true
+  },
+  "a missing row in route R": {
+   "false": [
+    "complete"
+   ],
+   "expected false": [
+    "complete"
+   ],
+   "holds": true
+  }
+ },
+ "holds": true
+}

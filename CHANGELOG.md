@@ -1,5 +1,30 @@
 # Changelog
 
+## B1535 banked: THE CAP — Theorem C held at every class read and Lemma W on every state read; no class carries more than one generation (PROVED)
+
+- **Run as sealed** (`b410afeb`; sL-10 item 14, first half). The banked identity held at `4e55f20b`. Part W ran from 03:27:21Z
+  for 5,149 s (recorded at `536dfba1`); Part M from 03:27:20Z for 7,949 s, complete at 05:39:57Z. The read-out ran once, at
+  05:40:36Z.
+- **PROVED** (P2, P3 and P8 hold).
+  - Theorem C's identities and caps hold at all 776 readings of Part M: 130 pulled-back, 302 pure (χ₀ ≠ 1) and 344 mixed
+    classes of m135's and m136's abelian covers of order 2, 4 and 8. Route RS at two primes and route Ind exactly (the 140
+    mixed classes of order-2 covers) agree on every quantity.
+  - Lemma W holds on all 541 states: 567,996 characters in route X, 41,724 in route S, n = 0 at every one.
+  - b0 = 1 and n(ν⁴) = 0 at every reading, so W ≥ −1; Λ² ≥ −n(ν³ ⊗ ρ) ≥ −2. The only generation-shaped value is (−1, −1), at
+    36 readings: no class carries more than one generation.
+- **7 of 9 predictions held** (P1, P2, P3, P4, P7, P8, P9). The priors summed to 7.81.
+  - P5 failed: 144 mixed readings take values no pure class takes at the same (ν, B), all inside the caps.
+  - P6 failed at one of 102 pairs: one of two classes drawn with hashed coefficients in {1, …, 97} is special (rank 3 against
+    4). After the run, sm:B1536's control K3 read every pair in two routes with coefficients uniform in GF(p): the larger rank
+    everywhere.
+- **Surfaces:**
+  - THEOREM_REGISTRY T-THE-CAP; the SEAL_LEDGER verdict; ERROR_LEDGER (the hashed-coefficient design weakness; the FINDINGS
+    draft's five slips, an E11 instance, self-caught before the commit).
+  - Kill graph `capped-by-the-supplies` (Corollary C1; F-HE, reach class); OPEN_LEADS sL-10 item 14; CAMPAIGN_STATUS; the
+    alias table; RELAY_LEDGER and the relay SM_TO_CC_AND_CODEX_2026-10-04_THREE_FROM_THE_CUSPS_AND_THE_CAP.md.
+  - Lock: tests/test_b1535_the_cap.py (the read-out reproduced from the compressed rows; one pair read live in both routes).
+- **Part M's rows** are kept compressed (`part_m.jsonl.gz`), with their sha-256 before compression.
+
 ## B1532 banked: THREE FROM THE CUSPS — no finite abelian cover of m004's levels M₂–M₆ carries a generation-shaped count at a λ = 1 pulled-back member
 
 - **Run as sealed** (`97fdce6d`; sL-7).

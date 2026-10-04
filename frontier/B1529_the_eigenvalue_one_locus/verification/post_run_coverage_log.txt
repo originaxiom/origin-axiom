@@ -53,3 +53,10 @@ mLLLLRLRRRLRR E2 146.8570 (missed): route None, alpha None, off by None, 10 s
 mLLLLRLRRRLRR E2 215.3909 (missed): route None, alpha None, off by None, 7 s
 mLLLLRLRRRLRR E2 326.8570 (missed): route None, alpha None, off by None, 12 s
 mLLLLRLRRRLRR E2 35.3909 (missed): route None, alpha None, off by None, 2926 s
+mLLLLRLRRRLRR E3 56.8570 (failed): route None, alpha None, off by None, 2651 s
+mLLLLRLRRRLRR E3 125.3909 (missed): route None, alpha None, off by None, 1456 s
+mLLLLRLRRRLRR E3 305.3909 (missed): route None, alpha None, off by None, 1074 s
+mLLLLRLRRRLRR E3 236.8570 (failed): route None, alpha None, off by None, 2180 s
+mLLLLRLRRRLRR E4 136.4251 (missed): route None, alpha None, off by None, 1691 s
+mLLLLRLRRRLRR E4 46.4251 (missed): route None, alpha None, off by None, 6129 s
+mLLLLRLRRRLRR E4 316.4251 (missed): route None, alpha None, off by None, 12 s

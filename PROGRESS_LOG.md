@@ -17421,3 +17421,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   route, none generation-shaped. Other roots of unity are bounded by Theorem C, whose run is pending.
 - Self-caught before the commit: four slips in the FINDINGS draft, each checked against the terms and corrected (E11 instance).
 - Runs: B1535's sealed runs (Part M since 03:27:20Z on one core; Part W on one worker); B1529's coverage check (two workers).
+
+## 2026-10-04 — B1535 banked: THE CAP (tasks 222, 230)
+
+- Part M finished at 05:39:57Z; the read-out ran once at 05:40:36Z. PROVED: Theorem C at all 776 classes, Lemma W on all 541
+  states, the routes agreeing everywhere. No class carries more than one generation. Seven of nine predictions held.
+- P6's failure is one special class among the hashed-coefficient classes. B1536's control K3 (two routes, coefficients uniform in
+  GF(p)) confirms it; K3's comparison was changed after this read-out to use the banked reading of largest ranks (disclosed in
+  B1536's §6).
+- Self-caught before the commit: five slips in the FINDINGS draft, each re-derived from the rows and corrected (E11 instance).
+- Runs: B1536's control on m004's level M₆ (K1, PARI); B1529's coverage check (two workers; its watcher hit the time limit and
+  was not restarted, the run continues).
