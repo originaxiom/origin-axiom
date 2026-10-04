@@ -3555,7 +3555,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - The programmes can be composed along B1355.
 - **xB031 — VERIFIED on main 2026-10-04 (B1470: 6 435 of 6 435 agree; no three):**
   - The sealed prediction for X2 held: completing the 3 325 unrun modules produced NO 3.
-- **xB032:**
+- **xB032 — CONSISTENT (read in full 2026-10-04, S56): its join log|Tor H₁(Xₙ)|/n → 2 log φ is L244 (c) on main; its scope result (Fried needs acyclic AND unitary; the record's index modules are neither — B1418's I^ss = 0 everywhere) closes B803's analytic-torsion join on hypotheses, not access: B803 addendum; L225's T_λ half shut for the same reason:**
   - B803's 'Not verified here' item -- the analytic-torsion join needing the Cheeger-Muller/Fried literature step -- is now taken far enough to know the step is BLOCKED ON HYPOTHESES for the record's own modules
   - L225's T_lambda half: the thermodynamic route to it is shut for the same reason the topological one is
   - So the generation cap and the entropy have one root: the monodromy is pseudo-Anosov.
@@ -3579,6 +3579,8 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   merges, so the collision list is moot for it; main's own L222/L223 collision was repaired at B1437).
 
 ## L246 — THE SPIN SWAP: an execution plan (owner-approved 2026-10-04; registered with S55, B1472)
+
+**Progress (every landing records it).** S56 (2026-10-04): **Phase 1a ADVANCED and PAID — B1474.** By the matrix route, independent of the torsion: GENUINE SWAP on m003, m207, s955, s957, s960, t12838, o10_150695 (all non-knots: no orientation-reversing isometry fixes the geometric spin structure); FIX on m004, m206, s961, t12839, o10_150696, o10_150707; every chiral member mirror-less; the swap is defined modulo the orientation-preserving isometries' character group K (order 2 on s957, 4 on s960; equal to the η-set on s961) and is genuine iff 1 ∉ η₀K; the two routes agree on all thirteen. **Next: Phase 1b** (the τ-odd, spin-dependent invariant on the seven; kill: it vanishes for every spin structure), then 1c and the owner's decision on A5.
 
 **The fact it starts from (B1471, a by-product of the odd-n cells).** The SL(2,ℂ) lift of the holonomy is a spin structure, and Sym^odd sees it. On the 13 amphichiral rank-one members of the 112-family the mirror FIXES the spin structure on six (m004, m206, s961, t12839, o10_150696, o10_150707: odd-n torsion real) and SWAPS it on seven (m003, m207, s955, s957, s960, t12838, o10_150695: conj R_odd = R_odd^{ρ⊗ε} exactly, ε = (−1)^φ on five, a torsion character on s955 and s957) — every SWAP member a non-knot. **The record's prior:** B279 proved the mirror fixes both spin structures of m004 and of every knot complement, and shut an earlier handoff's "SWAP → chiral matter possible" on m004; B1118/B1141 name the spin lift as the load-bearing discrete bit ("fermionicity and chirality both hang on it"); A5 (torsion-free closure) is what chose the knot (B197's tie-break; xB012/B1234: A5 buys the golden face and costs the torsion). **Thesis under test, firewalled:** the family contains members on which the object's own ℤ/2 (orientation) acts nontrivially on its fermionic bit, and the construction excluded them at A5. No physics is banked by the thesis; B279's own unbanked link (η / parity) stays unbanked until Phase 2.
 

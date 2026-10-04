@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1302 of 1302 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1303 of 1303 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (873)
+## PROVED (874)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -885,6 +885,7 @@
 | `B1471` | THE CANCELLATION IS A THEOREM OF AMPHICHIRALITY (L245's xB011, sealed 39775d66 / 0d5f3919): at even n the geometric twisted Alexander function is real up to a unit on all 13 amphichiral members of the 112-family with H_1 of rank one (the Mostow symmetry step T3 and the duality step T2 each hold member by member, 54 of 54 for duality) and complex on 40 of 41 chiral ones; the sep16 lane's five 'amphichiral and complex everywhere' members are REAL at n = 2 and 4 -- its sym() was an anti-homomorphism (Sym^n of the transpose), a representation only where inverting every generator is an automorphism of pi_1, which m004 and m003 are and every three-generator member is not, so its m004 control could not catch it; odd n is the lift's Z/2 exactly (conj R_n = R_n^{rho (x) eps}, eps = (-1)^phi on five members and a torsion character on s955, s957) and is lift-dependent; B425's sentence scoped by addendum, its values reproduced to 1e-50; xB027 consistent with B1440. Nothing selects a state. 0 of 19. | yes | 1 |
 | `B1472` | SIX OF THE LANE'S CLAIMS READ AGAINST MAIN (L245): three are false as claims about the record by dates and quotations -- B98 (2026-06-06) computed the trace-map Jacobian at the geometric fixed point, (t-1)(t^2-5t+1), so xB003's 'never visited' fails; B1224 derives its own 2-torsion theorem, so xB020's 'census observation' fails; B302/B266 are the orbifold below A5, so xB012's 'no arc' fails -- and two sharpenings are right and paid: B302 conflated PSL and PGL (covolumes 0.16916 = Vol(4_1)/12 and 0.08458 = Vol(4_1)/24, computed), B1136's amphichirality row is false by B1235's own column (6 of 14) and carried no banner; B1239's closed result needs only cs mod 1 and cs(-M) = -cs(M), the sign law sourced from its definition and SnapPy's convention checked on 300 manifolds to 1e-15; L194 holds at 200 orientation double covers; B742's 30 reconfirmed tallied directly; the lane's two rule proposals routed to Review 60. Nothing selects a state. 0 of 19. |  | 1 |
 | `B1473` | THE THREE KINDS COVER A THIRD AT MOST (L244 (a)): of the kill graph's 460 kills (343 of its 803 entries are B842 FACE-ONLY records, not kills) the web seat's pairing / flatness / non-uniqueness cover 154 by first readers (33 percent) and 84 after an adversarial second reading (18 percent); the residue is construction-level -- no-landing-site 77, premise-false 64, arithmetic-mismatch 36, instrument 31, value-miss 24 -- which none of the three remedies addresses; the taxonomy describes object-level negatives (the chirality chain, where sm:B1531 found 14 of 26) and was generalised past them. Nothing selects a state. 0 of 19. |  | 1 |
+| `B1474` | THE SPIN SWAP, PHASE 1a (L246; sealed cb09deb0 / 1f6cdb42): decided at matrix level, independently of the torsion, the mirror GENUINELY SWAPS the geometric spin structure on seven amphichiral non-knots of the family (m003, m207, s955, s957, s960, t12838, o10_150695: no orientation-reversing isometry fixes it) and FIXES it on six (m004 -- the knot A5 chose, B279's theorem as control -- m206, s961, t12839, o10_150696 on its shortest presentation, o10_150707); every chiral member yields no mirror; the sealed 'one eta per member' failed informatively -- the reversing isometries' sign characters form one coset eta_0 K of the orientation-preserving isometries' character group K (order 2 on s957, 4 on s960, equal to the eta-set on s961), the swap is genuine iff 1 is not in eta_0 K, and the torsion route (blind to K) agrees on all twelve decided members. Two post-seal repairs disclosed (an efficiency rewrite with the controls reproduced; a length cap on chiral members). No physics banked; L246 Phase 1a advanced, 1b next. Nothing selects a state. 0 of 19. | yes | 1 |
 
 ## NEGATIVE (327)
 

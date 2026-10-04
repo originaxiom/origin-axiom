@@ -1,0 +1,13 @@
+m003 K [(1, 1)] etas [(-1, 1)] -> GENUINE SWAP | torsion odd-real False agree True
+m004 K [(1, 1)] etas [(1, 1)] -> FIX-ABLE (eta_0 in K) | torsion odd-real True agree True
+m206 K [(1, 1, 1)] etas [(1, 1, 1)] -> FIX-ABLE (eta_0 in K) | torsion odd-real True agree True
+m207 K [(1, 1, 1)] etas [(1, -1, 1)] -> GENUINE SWAP | torsion odd-real False agree True
+s955 K [(1, 1)] etas [(-1, 1)] -> GENUINE SWAP | torsion odd-real False agree True
+s957 K [(1, 1, -1), (1, 1, 1)] etas [(1, -1, -1), (1, -1, 1)] -> GENUINE SWAP | torsion odd-real False agree True
+s960 K [(-1, -1, -1), (-1, 1, -1), (1, 1, 1)] etas [(-1, -1, 1), (-1, 1, 1), (1, 1, -1)] -> GENUINE SWAP | torsion odd-real False agree True
+s961 K [(-1, 1, 1), (1, -1, -1), (1, 1, 1)] etas [(-1, 1, 1), (1, -1, -1), (1, 1, 1)] -> FIX-ABLE (eta_0 in K) | torsion odd-real True agree True
+t12838 K [(1, 1, 1)] etas [(1, -1, 1)] -> GENUINE SWAP | torsion odd-real False agree True
+t12839 K [(1, 1, 1)] etas [(1, 1, 1)] -> FIX-ABLE (eta_0 in K) | torsion odd-real True agree True
+o10_150695 K [(1, 1, 1)] etas [(-1, 1, 1)] -> GENUINE SWAP | torsion odd-real False agree True
+o10_150696 K [(1, 1, 1)] no reversing tau found -> UNDETERMINED
+o10_150707 K [(1, 1, 1, 1)] etas [(1, 1, 1, 1)] -> FIX-ABLE (eta_0 in K) | torsion odd-real True agree True

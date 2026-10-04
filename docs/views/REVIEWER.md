@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1302** |
-| words of findings prose | **1,003,964** |
-| test lock files referenced | **761** |
-| arcs carrying an authored verdict | **1302** (100.0 %) |
+| research arcs with findings | **1303** |
+| words of findings prose | **1,005,445** |
+| test lock files referenced | **762** |
+| arcs carrying an authored verdict | **1303** (100.0 %) |
 | recorded closures | **803** (636 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 873 |
+| PROVED | 874 |
 | NEGATIVE | 327 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1473`** (948 words, 1 locks)  
-THE THREE KINDS COVER A THIRD AT MOST (L244 (a)): of the kill graph's 460 kills (343 of its 803 entries are B842 FACE-ONLY records, not kills) the web seat's pairing / flatness / non-uniqueness cover 154 by first readers (33 percent) and 84 after an adversarial second reading (18 percent); the residue is construction-level -- no-landing-site 77, premise-false 64, arithmetic-mismatch 36, instrument 31, value-miss 24 -- which none of the three remedies addresses; the taxonomy describes object-level negatives (the chirality chain, where sm:B1531 found 14 of 26) and was generalised past them. Nothing selects a state. 0 of 19.  
-`B1473_the_three_kinds_cover_a_third_at_most/FINDINGS.md`
+**PROVED — `B1474`** (1481 words, 1 locks)  
+THE SPIN SWAP, PHASE 1a (L246; sealed cb09deb0 / 1f6cdb42): decided at matrix level, independently of the torsion, the mirror GENUINELY SWAPS the geometric spin structure on seven amphichiral non-knots of the family (m003, m207, s955, s957, s960, t12838, o10_150695: no orientation-reversing isometry fixes it) and FIXES it on six (m004 -- the knot A5 chose, B279's theorem as control -- m206, s961, t12839, o10_150696 on its shortest presentation, o10_150707); every chiral member yields no mirror; the sealed 'one eta per member' failed informatively -- the reversing isometries' sign characters form one coset eta_0 K of the orientation-preserving isometries' character group K (order 2 on s957, 4 on s960, equal to the eta-set on s961), the swap is genuine iff 1 is not in eta_0 K, and the torsion route (blind to K) agrees on all twelve decided members. Two post-seal repairs disclosed (an efficiency rewrite with the controls reproduced; a length cap on chiral members). No physics banked; L246 Phase 1a advanced, 1b next. Nothing selects a state. 0 of 19.  
+`B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/FINDINGS.md`
 
 **NEGATIVE — `B1470`** (565 words, 0 locks)  
 THE UNRUN MODULES RUN ON MAIN (L222 (iii); L245's xB031): B1418's own driver on t12835 with its 1 800 s budget lifted runs all 6 435 modules in 4 234 s -- none NOT RUN -- with index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3, NO THREE; B1418's 3 110 banked rows agree 3 110 of 3 110 and the sep16 lane's xB031 table agrees 6 435 of 6 435 key by key; the 3 325 formerly unrun are 3 070 zero, 150 at -1, 90 at +1, 15 at -2. The one unrun computation the record kept pointing at holds no three. Nothing selects a state. 0 of 19.  

@@ -53,53 +53,70 @@ def intertwiner_pm(Xs, Ys):
 
 
 def find_tau(pk, L=5, max_solutions=40):
+    """post-seal efficiency repair (the route is unchanged): C is solved from the first TWO generators' candidate pair
+    (an 8 x 4 system), and the remaining generators are TESTED against their candidates by matrix distance, instead of
+    an SVD per full tuple.  Candidates are tried shortest-first so solutions appear early."""
     gens, rels, rho = pk["gens"], pk["rels"], pk["rho"]
     target = {g: conjm(rho[g]) for g in gens}
     ttr = {g: target[g][0, 0] + target[g][1, 1] for g in gens}
-    # candidates per generator: words whose trace is +- the target trace
-    cand = {g: [] for g in gens}
-    cache = {}
+    cand = {g: [] for g in gens}; cache = {}
     for w in words(gens, L):
         Mw = R.word_mat(w, rho); cache[w] = Mw; tr = Mw[0, 0] + Mw[1, 1]
         for g in gens:
             if abs(tr - ttr[g]) < TOL or abs(tr + ttr[g]) < TOL: cand[g].append(w)
+    g0, g1 = gens[0], gens[1] if len(gens) > 1 else gens[0]
+    rest = gens[2:]
+    def apply(sub, word):
+        out = ""
+        for ch in word:
+            w = sub[ch.lower()]; out += w if ch.islower() else w.swapcase()[::-1]
+        return out
     sols = []
-    for combo in itertools.product(*[cand[g] for g in gens]):
-        Ys = [cache[w] for w in combo]; Xs = [target[g] for g in gens]
-        r = intertwiner_pm(Xs, Ys)
-        if r is None: continue
-        C, signs = r
-        # tau must preserve the relators: rho(tau(r)) = +- I, and be an automorphism (checked on relators only here)
-        sub = {g: w for g, w in zip(gens, combo)}
-        def apply(word):
-            out = ""
-            for ch in word:
-                w = sub[ch.lower()]; out += w if ch.islower() else w.swapcase()[::-1]
-            return out
-        ok = True
-        for rel in rels:
-            Mr = R.word_mat(apply(rel), rho)
-            if min(norm(Mr - eye(2)), norm(Mr + eye(2))) > TOL: ok = False; break
-        if not ok: continue
-        eta = dict(zip(gens, signs))
-        # eta as a function on pi_1: it must be a character (consistent on relators): eta(rel) = product of signs over letters = +1
-        char_ok = all((sum(1 for ch in rel if eta[ch.lower()] == -1) % 2 == 0) for rel in rels)
-        sols.append(dict(tau={g: w for g, w in sub.items()}, eta=eta, eta_is_character=char_ok, eta_trivial=all(s == 1 for s in signs)))
-        if len(sols) >= max_solutions: break
+    for w0 in cand[g0]:
+        for w1 in (cand[g1] if len(gens) > 1 else [None]):
+            pair = intertwiner_pm([target[g0]] + ([target[g1]] if w1 else []), [cache[w0]] + ([cache[w1]] if w1 else []))
+            if pair is None: continue
+            C, signs = pair; Ci = inverse(C)
+            sub = {g0: w0}; eta = {g0: signs[0]}
+            if w1: sub[g1] = w1; eta[g1] = signs[1]
+            ok = True
+            for g in rest:                      # test: C conj rho(g) C^-1 must equal +- rho(w) for some candidate w
+                X = C * target[g] * Ci; hit = None
+                for w in cand[g]:
+                    Y = cache[w]
+                    if norm(X - Y) < TOL: hit = (w, 1); break
+                    if norm(X + Y) < TOL: hit = (w, -1); break
+                if hit is None: ok = False; break
+                sub[g] = hit[0]; eta[g] = hit[1]
+            if not ok: continue
+            relok = True
+            for rel in rels:
+                Mr = R.word_mat(apply(sub, rel), rho)
+                if min(norm(Mr - eye(2)), norm(Mr + eye(2))) > TOL: relok = False; break
+            if not relok: continue
+            char_ok = all((sum(1 for ch in rel if eta[ch.lower()] == -1) % 2 == 0) for rel in rels)
+            if not char_ok:                 # guard (the audit lane's point 2): a sign pattern that is not a character of pi_1 is not a witness
+                raise AssertionError("eta is not a character of pi_1 on %s: %s" % (list(rels), eta))
+            sols.append(dict(tau=dict(sub), eta=dict(eta), eta_is_character=char_ok, eta_trivial=all(v == 1 for v in eta.values())))
+            if len(sols) >= max_solutions: return sols
     return sols
 
 
 def classify(nm, Ls=(5, 6, 7)):
-    """search at increasing word length until a solution appears; return the member's verdict and the set of eta's"""
+    """search at increasing word length until a solution appears; return the member's verdict and the set of eta's.
+    Post-seal cap, disclosed: members with no orientation-reversing isometry by SnapPy are searched to L = 5 only
+    (exhausting L = 7 on a three-generator chiral member costs hours and can only confirm an absence SnapPy states)."""
     pk, err = R.setup(nm)
     if err: return dict(name=nm, error=err)
+    amph = bool(pk["M"].symmetry_group().is_amphicheiral())
+    if not amph: Ls = (5,)
     for L in Ls:
         sols = find_tau(pk, L=L)
         if sols: break
     etas = sorted({tuple(sorted(s["eta"].items())) for s in sols})
     verdict = None if not sols else ("FIX" if all(s["eta_trivial"] for s in sols) else ("SWAP" if all(not s["eta_trivial"] for s in sols) else "MIXED"))
-    return dict(name=nm, gens=pk["gens"], rels=pk["rels"], phi=pk["phi"], h1=pk["h1"], L=L, n_solutions=len(sols), etas=[dict(e) for e in etas],
-                verdict=verdict, solutions=sols[:6])
+    return dict(name=nm, gens=pk["gens"], rels=pk["rels"], phi=pk["phi"], h1=pk["h1"], amphichiral_snappy=amph, L=L, n_solutions=len(sols), etas=[dict(e) for e in etas],
+                verdict=verdict if sols else ("NONE-at-L%d" % L), solutions=sols[:6])
 
 
 if __name__ == "__main__":

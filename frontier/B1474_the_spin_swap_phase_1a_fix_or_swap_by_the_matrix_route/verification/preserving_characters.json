@@ -1,0 +1,516 @@
+{
+ "m003": {
+  "gens": [
+   "a",
+   "b"
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": false,
+  "verdict": "GENUINE SWAP",
+  "torsion_route_odd_real": false,
+  "agrees_with_torsion": true
+ },
+ "m004": {
+  "gens": [
+   "a",
+   "b"
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": true,
+  "verdict": "FIX-ABLE (eta_0 in K)",
+  "torsion_route_odd_real": true,
+  "agrees_with_torsion": true
+ },
+ "m206": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": true,
+  "verdict": "FIX-ABLE (eta_0 in K)",
+  "torsion_route_odd_real": true,
+  "agrees_with_torsion": true
+ },
+ "m207": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    -1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    1,
+    -1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": false,
+  "verdict": "GENUINE SWAP",
+  "torsion_route_odd_real": false,
+  "agrees_with_torsion": true
+ },
+ "s955": {
+  "gens": [
+   "a",
+   "b"
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 34,
+  "reversing_etas": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": false,
+  "verdict": "GENUINE SWAP",
+  "torsion_route_odd_real": false,
+  "agrees_with_torsion": true
+ },
+ "s957": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    1,
+    1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 2,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": false,
+  "verdict": "GENUINE SWAP",
+  "torsion_route_odd_real": false,
+  "agrees_with_torsion": true
+ },
+ "s960": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    -1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 3,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": false,
+  "verdict": "GENUINE SWAP",
+  "torsion_route_odd_real": false,
+  "agrees_with_torsion": true
+ },
+ "s961": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 3,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": true,
+  "verdict": "FIX-ABLE (eta_0 in K)",
+  "torsion_route_odd_real": true,
+  "agrees_with_torsion": true
+ },
+ "t12838": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    -1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    1,
+    -1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": false,
+  "verdict": "GENUINE SWAP",
+  "torsion_route_odd_real": false,
+  "agrees_with_torsion": true
+ },
+ "t12839": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": true,
+  "verdict": "FIX-ABLE (eta_0 in K)",
+  "torsion_route_odd_real": true,
+  "agrees_with_torsion": true
+ },
+ "o10_150695": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 54,
+  "reversing_etas": [
+   [
+    -1,
+    1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    -1,
+    1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": false,
+  "verdict": "GENUINE SWAP",
+  "torsion_route_odd_real": false,
+  "agrees_with_torsion": true
+ },
+ "o10_150696": {
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "presentation": "randomize=1 (shortest relators, total length 46); the default presentation yielded no reversing tau to L = 8",
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "verdict": "FIX-ABLE (eta_0 in K)",
+  "torsion_route_odd_real": true,
+  "agrees_with_torsion": true
+ },
+ "o10_150707": {
+  "gens": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  "K_size": 1,
+  "preserving_found": 60,
+  "reversing_etas": [
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  "coset_eta0K": [
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  "etas_subset_of_coset": true,
+  "trivial_in_coset": true,
+  "verdict": "FIX-ABLE (eta_0 in K)",
+  "torsion_route_odd_real": true,
+  "agrees_with_torsion": true
+ }
+}

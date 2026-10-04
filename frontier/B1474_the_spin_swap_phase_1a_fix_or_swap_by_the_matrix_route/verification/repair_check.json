@@ -1,0 +1,315 @@
+{
+ "m004": {
+  "name": "m004",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabABBAb"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1
+  },
+  "h1": "Z",
+  "amphichiral_snappy": true,
+  "L": 6,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": 1,
+    "b": 1
+   }
+  ],
+  "verdict": "FIX",
+  "solutions": [
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "babaBA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "baBAba"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "baBABA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "BAbaBA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "aBAb",
+     "b": "BababA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "aBAb",
+     "b": "BabABA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   }
+  ]
+ },
+ "m003": {
+  "name": "m003",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAAbabbb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0
+  },
+  "h1": "Z/5 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": -1,
+    "b": 1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "ab",
+     "b": "babA"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ab",
+     "b": "BaBAB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ab",
+     "b": "BBABa"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ba",
+     "b": "Abab"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ba",
+     "b": "aBABB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ba",
+     "b": "BABaB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "m206": {
+  "name": "m206",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCbAcb",
+   "aBBcbaC"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 0,
+   "c": 1
+  },
+  "h1": "Z/5 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   }
+  ],
+  "verdict": "FIX",
+  "solutions": [
+   {
+    "tau": {
+     "a": "b",
+     "b": "A",
+     "c": "Ca"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "aB",
+     "c": "cb"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "Ba",
+     "c": "Bcbb"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "bAB",
+     "c": "bCaB"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "BAb",
+     "c": "BCab"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "baBB",
+     "c": "bc"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,2 @@
+gens ['a', 'b', 'c'] rels [27, 24]
+L=8 solutions 0

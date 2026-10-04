@@ -9785,6 +9785,38 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1474": {
+   "slug": "the spin swap phase 1a fix or swap by the matrix route",
+   "motifs": [
+    "choice",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B197",
+    "B279",
+    "B804",
+    "B933",
+    "B940",
+    "L246",
+    "L5",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

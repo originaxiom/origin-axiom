@@ -1,0 +1,4 @@
+shortest presentation: total relator length 46 at randomize 1 ['aBcBBcBBcAccbccbcbccbcb', 'aCbbCbbCbCbbCbAccbccbcb']
+L 5 solutions 0
+L 6 solutions 8
+etas [(('a', 1), ('b', 1), ('c', 1))]

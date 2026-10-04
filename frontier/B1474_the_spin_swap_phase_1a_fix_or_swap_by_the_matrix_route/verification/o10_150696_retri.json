@@ -1,0 +1,103 @@
+{
+ "name": "o10_150696",
+ "randomize": 1,
+ "rels": [
+  "aababaabaabaCaBaBBaBBcb",
+  "aabaCbbAbAbbAbbAbAcbaab"
+ ],
+ "L": 6,
+ "n_solutions": 8,
+ "etas": [
+  {
+   "a": 1,
+   "b": 1,
+   "c": 1
+  }
+ ],
+ "solutions": [
+  {
+   "tau": {
+    "a": "ab",
+    "b": "ABA",
+    "c": "abaCaB"
+   },
+   "eta": {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   },
+   "eta_is_character": true,
+   "eta_trivial": true
+  },
+  {
+   "tau": {
+    "a": "ab",
+    "b": "BAA",
+    "c": "aCaBab"
+   },
+   "eta": {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   },
+   "eta_is_character": true,
+   "eta_trivial": true
+  },
+  {
+   "tau": {
+    "a": "ba",
+    "b": "AAB",
+    "c": "baCaBa"
+   },
+   "eta": {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   },
+   "eta_is_character": true,
+   "eta_trivial": true
+  },
+  {
+   "tau": {
+    "a": "ba",
+    "b": "ABA",
+    "c": "CaBaba"
+   },
+   "eta": {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   },
+   "eta_is_character": true,
+   "eta_trivial": true
+  },
+  {
+   "tau": {
+    "a": "cbaC",
+    "b": "cABAC",
+    "c": "aBabaC"
+   },
+   "eta": {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   },
+   "eta_is_character": true,
+   "eta_trivial": true
+  },
+  {
+   "tau": {
+    "a": "Babb",
+    "b": "BABAb",
+    "c": "BabaCa"
+   },
+   "eta": {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   },
+   "eta_is_character": true,
+   "eta_trivial": true
+  }
+ ]
+}

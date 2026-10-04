@@ -1,0 +1,18 @@
+{
+ "id": "B1474",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1471", "B279", "B1141", "B1235"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI: the SL(2,C) lift of the geometric holonomy as the spin structure; the action of the isometries on it at matrix level",
+  "object": "the 112-family at level one, its 54 rank-one members (13 amphichiral, 41 chiral)",
+  "reach": "class",
+  "hypotheses": "SnapPy's HP holonomy with the lift repaired; automorphisms found by word search to length 7 (8 on the default presentation and 6 on the shortest one for o10_150696); chiral members searched to length 5 only; the group K of orientation-preserving sign characters closed under products from the generators the search returned"
+ },
+ "claim_one_line": "THE SPIN SWAP, PHASE 1a (L246; sealed cb09deb0 / 1f6cdb42): decided at matrix level, independently of the torsion, the mirror GENUINELY SWAPS the geometric spin structure on seven amphichiral non-knots of the family (m003, m207, s955, s957, s960, t12838, o10_150695: no orientation-reversing isometry fixes it) and FIXES it on six (m004 -- the knot A5 chose, B279's theorem as control -- m206, s961, t12839, o10_150696 on its shortest presentation, o10_150707); every chiral member yields no mirror; the sealed 'one eta per member' failed informatively -- the reversing isometries' sign characters form one coset eta_0 K of the orientation-preserving isometries' character group K (order 2 on s957, 4 on s960, equal to the eta-set on s961), the swap is genuine iff 1 is not in eta_0 K, and the torsion route (blind to K) agrees on all twelve decided members. Two post-seal repairs disclosed (an efficiency rewrite with the controls reproduced; a length cap on chiral members). No physics banked; L246 Phase 1a advanced, 1b next. Nothing selects a state. 0 of 19."
+}

@@ -1,0 +1,2600 @@
+{
+ "m003": {
+  "name": "m003",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAAbabbb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0
+  },
+  "h1": "Z/5 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": -1,
+    "b": 1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "ab",
+     "b": "babA"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ab",
+     "b": "BaBAB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ab",
+     "b": "BBABa"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ba",
+     "b": "Abab"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ba",
+     "b": "aBABB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ba",
+     "b": "BABaB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "m004": {
+  "name": "m004",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabABBAb"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1
+  },
+  "h1": "Z",
+  "amphichiral_snappy": true,
+  "L": 6,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": 1,
+    "b": 1
+   }
+  ],
+  "verdict": "FIX",
+  "solutions": [
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "babaBA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "baBAba"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "baBABA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "abAB",
+     "b": "BAbaBA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "aBAb",
+     "b": "BababA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "aBAb",
+     "b": "BabABA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   }
+  ]
+ },
+ "m202": {
+  "name": "m202",
+  "error": "H_1 rank 2"
+ },
+ "m203": {
+  "name": "m203",
+  "error": "H_1 rank 2"
+ },
+ "m206": {
+  "name": "m206",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCbAcb",
+   "aBBcbaC"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 0,
+   "c": 1
+  },
+  "h1": "Z/5 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   }
+  ],
+  "verdict": "FIX",
+  "solutions": [
+   {
+    "tau": {
+     "a": "b",
+     "b": "A",
+     "c": "Ca"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "aB",
+     "c": "cb"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "Ba",
+     "c": "Bcbb"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "bAB",
+     "c": "bCaB"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "BAb",
+     "c": "BCab"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "baBB",
+     "c": "bc"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   }
+  ]
+ },
+ "m207": {
+  "name": "m207",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBaacbC",
+   "acbAccB"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1,
+   "c": 0
+  },
+  "h1": "Z/3 + Z/3 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": 1,
+    "b": -1,
+    "c": 1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "c",
+     "b": "aB",
+     "c": "A"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "c",
+     "b": "Ab",
+     "c": "Ca"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "c",
+     "b": "caBC",
+     "c": "cAC"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "c",
+     "b": "cAbC",
+     "c": "aC"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "c",
+     "b": "CaBc",
+     "c": "CAc"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "c",
+     "b": "CAbc",
+     "c": "CCac"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "m208": {
+  "name": "m208",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbabbAAAbb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0
+  },
+  "h1": "Z/10 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "m410": {
+  "name": "m410",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBCbcAbc",
+   "aBcAcb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "m412": {
+  "name": "m412",
+  "error": "H_1 rank 2"
+ },
+ "s118": {
+  "name": "s118",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBAbbbbAB"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "s119": {
+  "name": "s119",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaBABAB"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "s594": {
+  "name": "s594",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bAbcAc",
+   "accabb"
+  ],
+  "phi": {
+   "a": 0,
+   "b": -1,
+   "c": 1
+  },
+  "h1": "Z/2 + Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "s595": {
+  "name": "s595",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBcbC",
+   "acbbbABc"
+  ],
+  "phi": {
+   "a": 0,
+   "b": -1,
+   "c": 1
+  },
+  "h1": "Z/2 + Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "s596": {
+  "name": "s596",
+  "error": "H_1 rank 2"
+ },
+ "s955": {
+  "name": "s955",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbbaabbaabbbaabbbaaaaabbbaabbb"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 1
+  },
+  "h1": "Z/20 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 14,
+  "etas": [
+   {
+    "a": -1,
+    "b": 1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "aabbb",
+     "b": "a"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "abbba",
+     "b": "a"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "baabb",
+     "b": "baB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "baabb",
+     "b": "BBabb"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "bbaab",
+     "b": "Bab"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "bbaab",
+     "b": "bbaBB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "s956": {
+  "name": "s956",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaccabbbabbb",
+   "aCAbbC"
+  ],
+  "phi": {
+   "a": -2,
+   "b": 1,
+   "c": 1
+  },
+  "h1": "Z/2 + Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "s957": {
+  "name": "s957",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abccAABcAc",
+   "abaaCCaaCbc"
+  ],
+  "phi": {
+   "a": 2,
+   "b": -4,
+   "c": 1
+  },
+  "h1": "Z/4 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 33,
+  "etas": [
+   {
+    "a": 1,
+    "b": -1,
+    "c": -1
+   },
+   {
+    "a": 1,
+    "b": -1,
+    "c": 1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "aaCC",
+     "b": "b",
+     "c": "BcAA"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": -1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "aaCC",
+     "b": "cbC",
+     "c": "cACBC"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "acAc",
+     "b": "Cbc",
+     "c": "CBA"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "aCAC",
+     "b": "B",
+     "c": "aaCb"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": -1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "aCAC",
+     "b": "aCBcA",
+     "c": "ABAC"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "aCAC",
+     "b": "caBAC",
+     "c": "cab"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "s958": {
+  "name": "s958",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abcaaBBC",
+   "aacBacbbc"
+  ],
+  "phi": {
+   "a": -1,
+   "b": -3,
+   "c": 2
+  },
+  "h1": "Z/3 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "s959": {
+  "name": "s959",
+  "error": "H_1 rank 2"
+ },
+ "s960": {
+  "name": "s960",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacabbabCB",
+   "abbCAAbAbc"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 0,
+   "c": 1
+  },
+  "h1": "Z/2 + Z/10 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": -1,
+    "b": -1,
+    "c": 1
+   },
+   {
+    "a": -1,
+    "b": 1,
+    "c": 1
+   },
+   {
+    "a": 1,
+    "b": 1,
+    "c": -1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "b",
+     "b": "A",
+     "c": "BBACB"
+    },
+    "eta": {
+     "a": -1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "ab",
+     "c": "BcBAB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "ba",
+     "c": "cBABB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "bAB",
+     "c": "BACBB"
+    },
+    "eta": {
+     "a": -1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "BAb",
+     "c": "BBBAC"
+    },
+    "eta": {
+     "a": -1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "bbaB",
+     "c": "aacaB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "s961": {
+  "name": "s961",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbabCbAAc",
+   "abbCaaBaBc"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 0,
+   "c": 1
+  },
+  "h1": "Z/4 + Z/4 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": -1,
+    "b": 1,
+    "c": 1
+   },
+   {
+    "a": 1,
+    "b": -1,
+    "c": -1
+   },
+   {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   }
+  ],
+  "verdict": "MIXED",
+  "solutions": [
+   {
+    "tau": {
+     "a": "b",
+     "b": "A",
+     "c": "bbabC"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "ab",
+     "c": "cBAB"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": -1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "BAb",
+     "c": "babCb"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "Babb",
+     "c": "BcBA"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": -1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "b",
+     "b": "BBAbb",
+     "c": "abCbb"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "B",
+     "b": "a",
+     "c": "BBACb"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   }
+  ]
+ },
+ "v2873": {
+  "name": "v2873",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBAABBBabbbbaaabbbbaaabbbb"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 1
+  },
+  "h1": "Z/6 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "v2874": {
+  "name": "v2874",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abcBcAC",
+   "abaBcAAbbC"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "v2875": {
+  "name": "v2875",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBcaabbCC",
+   "abAcccBc"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 3,
+   "c": 0
+  },
+  "h1": "Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "v3551": {
+  "name": "v3551",
+  "error": "H_1 rank 2"
+ },
+ "t06828": {
+  "name": "t06828",
+  "error": "H_1 rank 2"
+ },
+ "t06829": {
+  "name": "t06829",
+  "error": "H_1 rank 2"
+ },
+ "t11365": {
+  "name": "t11365",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbCBAb",
+   "aacaccccBAbCB"
+  ],
+  "phi": {
+   "a": -2,
+   "b": 0,
+   "c": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "t12833": {
+  "name": "t12833",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCCbbbacAcb",
+   "aacAcBBcb"
+  ],
+  "phi": {
+   "a": -2,
+   "b": 1,
+   "c": 1
+  },
+  "h1": "Z/6 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "t12834": {
+  "name": "t12834",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabCabbabbAAcaaB",
+   "aaBCabbcc"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 1,
+   "c": 2
+  },
+  "h1": "Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "t12835": {
+  "name": "t12835",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBcbac",
+   "aCAbcaCAbcaaaBB"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1,
+   "c": 0
+  },
+  "h1": "Z/6 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "t12836": {
+  "name": "t12836",
+  "error": "H_1 rank 2"
+ },
+ "t12837": {
+  "name": "t12837",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbbAcBcBc",
+   "aabacacbAcB"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 3,
+   "c": 0
+  },
+  "h1": "Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "t12838": {
+  "name": "t12838",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBacaacaacbCCaC",
+   "acaacbAccAcAccB"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1,
+   "c": 0
+  },
+  "h1": "Z/7 + Z/7 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 13,
+  "etas": [
+   {
+    "a": 1,
+    "b": -1,
+    "c": 1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "ac",
+     "b": "acccB",
+     "c": "ACA"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ac",
+     "b": "ccBac",
+     "c": "CAA"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ca",
+     "b": "cccBa",
+     "c": "AAC"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ccA",
+     "b": "cccbA",
+     "c": "aCaCC"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "cAc",
+     "b": "ccbAc",
+     "c": "CaCaC"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "Acc",
+     "b": "cbAcc",
+     "c": "CCaCa"
+    },
+    "eta": {
+     "a": 1,
+     "b": -1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "t12839": {
+  "name": "t12839",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abcbbcbbcAccBcB",
+   "abcbbcAbCbCCbCC"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0
+  },
+  "h1": "Z/3 + Z/15 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 37,
+  "etas": [
+   {
+    "a": 1,
+    "b": 1,
+    "c": 1
+   }
+  ],
+  "verdict": "FIX",
+  "solutions": [
+   {
+    "tau": {
+     "a": "bA",
+     "b": "acA",
+     "c": "aCBcA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "bA",
+     "b": "bcB",
+     "c": "bCBcB"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "Ab",
+     "b": "c",
+     "c": "CBc"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "Ba",
+     "b": "CBBCB",
+     "c": "BCB"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "bcBa",
+     "b": "bcbbc",
+     "c": "bbc"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "bCBA",
+     "b": "bCB",
+     "c": "b"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   }
+  ]
+ },
+ "t12840": {
+  "name": "t12840",
+  "error": "H_1 rank 2"
+ },
+ "t12841": {
+  "name": "t12841",
+  "error": "H_1 rank 2"
+ },
+ "t12842": {
+  "name": "t12842",
+  "error": "H_1 rank 2"
+ },
+ "t12843": {
+  "name": "t12843",
+  "error": "H_1 rank 2"
+ },
+ "t12844": {
+  "name": "t12844",
+  "error": "H_1 rank 2"
+ },
+ "t12845": {
+  "name": "t12845",
+  "error": "H_1 rank 2"
+ },
+ "o9_27787": {
+  "name": "o9_27787",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabaccaBBBcc",
+   "acbbAc"
+  ],
+  "phi": {
+   "a": -3,
+   "b": -2,
+   "c": 2
+  },
+  "h1": "Z/2 + Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_40998": {
+  "name": "o9_40998",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbbaBaaaBabbbaBaaaBabbbaBabABBBAbABBBAb"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1
+  },
+  "h1": "Z/10 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_40999": {
+  "name": "o9_40999",
+  "error": "H_1 rank 2"
+ },
+ "o9_41000": {
+  "name": "o9_41000",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaCCbbC",
+   "bcAbcABccBcA"
+  ],
+  "phi": {
+   "a": 5,
+   "b": -3,
+   "c": 3
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_41001": {
+  "name": "o9_41001",
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbaaaabABBAAAABBAbaaaabbaBabb"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 3
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_41002": {
+  "name": "o9_41002",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbACacbACabb",
+   "acbcBACCbb"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 0,
+   "c": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_41003": {
+  "name": "o9_41003",
+  "error": "H_1 rank 2"
+ },
+ "o9_41004": {
+  "name": "o9_41004",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacABBBCb",
+   "aCacccbCb"
+  ],
+  "phi": {
+   "a": -1,
+   "b": -1,
+   "c": 4
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_41005": {
+  "name": "o9_41005",
+  "error": "H_1 rank 2"
+ },
+ "o9_41006": {
+  "name": "o9_41006",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbAcbcabab",
+   "acBcAccbc"
+  ],
+  "phi": {
+   "a": -2,
+   "b": 1,
+   "c": 0
+  },
+  "h1": "Z/10 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_41007": {
+  "name": "o9_41007",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbabCaBc",
+   "accBABcabCACbbabCBc"
+  ],
+  "phi": {
+   "a": 0,
+   "b": -1,
+   "c": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_41008": {
+  "name": "o9_41008",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbcabABBcb",
+   "aCbcacABac"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 0,
+   "c": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_41009": {
+  "name": "o9_41009",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abcBacbAc",
+   "aBCACbcaBCbccaBCbc"
+  ],
+  "phi": {
+   "a": 0,
+   "b": -3,
+   "c": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o9_44249": {
+  "name": "o9_44249",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBabccabaccb",
+   "accbaaabccabcccb"
+  ],
+  "phi": {
+   "a": -1,
+   "b": -4,
+   "c": 3
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_064767": {
+  "name": "o10_064767",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acccabaacBcc",
+   "acbbAC"
+  ],
+  "phi": {
+   "a": -3,
+   "b": 0,
+   "c": 2
+  },
+  "h1": "Z/2 + Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_107944": {
+  "name": "o10_107944",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaacbbbbccc",
+   "aaaCCbACCCBccc"
+  ],
+  "phi": {
+   "a": 1,
+   "b": -2,
+   "c": 1
+  },
+  "h1": "Z/2 + Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_107945": {
+  "name": "o10_107945",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bcAbbbAc",
+   "acaacacbbbbc"
+  ],
+  "phi": {
+   "a": -1,
+   "b": -2,
+   "c": 3
+  },
+  "h1": "Z/2 + Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_107946": {
+  "name": "o10_107946",
+  "error": "H_1 rank 2"
+ },
+ "o10_107947": {
+  "name": "o10_107947",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBccccAAb",
+   "aBCbbaacAB"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1,
+   "c": 0
+  },
+  "h1": "Z/2 + Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_107948": {
+  "name": "o10_107948",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbbCac",
+   "ababcbabacc"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 1,
+   "c": 0
+  },
+  "h1": "Z/10 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_107949": {
+  "name": "o10_107949",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbbbccACC",
+   "abccaabbbcaC"
+  ],
+  "phi": {
+   "a": -1,
+   "b": 0,
+   "c": 2
+  },
+  "h1": "Z/2 + Z/4 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_143600": {
+  "name": "o10_143600",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "accabbCCAABAcB",
+   "abbCCbaaccBc"
+  ],
+  "phi": {
+   "a": 1,
+   "b": -2,
+   "c": 1
+  },
+  "h1": "Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_143601": {
+  "name": "o10_143601",
+  "error": "H_1 rank 2"
+ },
+ "o10_143602": {
+  "name": "o10_143602",
+  "error": "H_1 rank 2"
+ },
+ "o10_150683": {
+  "name": "o10_150683",
+  "error": "H_1 rank 2"
+ },
+ "o10_150684": {
+  "name": "o10_150684",
+  "error": "H_1 rank 2"
+ },
+ "o10_150685": {
+  "name": "o10_150685",
+  "error": "H_1 rank 3"
+ },
+ "o10_150686": {
+  "name": "o10_150686",
+  "error": "H_1 rank 2"
+ },
+ "o10_150687": {
+  "name": "o10_150687",
+  "error": "H_1 rank 3"
+ },
+ "o10_150688": {
+  "name": "o10_150688",
+  "error": "H_1 rank 2"
+ },
+ "o10_150689": {
+  "name": "o10_150689",
+  "error": "H_1 rank 2"
+ },
+ "o10_150690": {
+  "name": "o10_150690",
+  "error": "H_1 rank 4"
+ },
+ "o10_150691": {
+  "name": "o10_150691",
+  "error": "H_1 rank 3"
+ },
+ "o10_150692": {
+  "name": "o10_150692",
+  "error": "H_1 rank 2"
+ },
+ "o10_150693": {
+  "name": "o10_150693",
+  "error": "H_1 rank 2"
+ },
+ "o10_150694": {
+  "name": "o10_150694",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "accbbbAbbccc",
+   "accaBBaaccaBBabbAbbc"
+  ],
+  "phi": {
+   "a": -1,
+   "b": -1,
+   "c": 1
+  },
+  "h1": "Z/5 + Z/5 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_150695": {
+  "name": "o10_150695",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "accbccbcbABBcBBcBcBBcBc",
+   "accbccbcbccbcbACbCbbCbb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0
+  },
+  "h1": "Z/5 + Z/25 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 8,
+  "etas": [
+   {
+    "a": -1,
+    "b": 1,
+    "c": 1
+   }
+  ],
+  "verdict": "SWAP",
+  "solutions": [
+   {
+    "tau": {
+     "a": "accBc",
+     "b": "aCA",
+     "c": "aBCA"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ccBca",
+     "b": "C",
+     "c": "BC"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "cBcac",
+     "b": "C",
+     "c": "CB"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "ACbCC",
+     "b": "BCC",
+     "c": "cb"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "Bcacc",
+     "b": "C",
+     "c": "CCBc"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   },
+   {
+    "tau": {
+     "a": "CbCCA",
+     "b": "aBCCA",
+     "c": "acbA"
+    },
+    "eta": {
+     "a": -1,
+     "b": 1,
+     "c": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": false
+   }
+  ]
+ },
+ "o10_150696": {
+  "name": "o10_150696",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCaaaBcccAcccAccAcccAccAbC",
+   "aCCaCCCaCCCbCaaCaaaCaaaB"
+  ],
+  "phi": {
+   "a": 0,
+   "b": 1,
+   "c": 0
+  },
+  "h1": "Z/11 + Z/11 + Z",
+  "amphichiral_snappy": true,
+  "L": 7,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L7",
+  "solutions": []
+ },
+ "o10_150697": {
+  "name": "o10_150697",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacbCaCBAB",
+   "abcBCAcbbabcBAcBCAcbb"
+  ],
+  "phi": {
+   "a": 0,
+   "b": -1,
+   "c": 1
+  },
+  "h1": "Z/5 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_150698": {
+  "name": "o10_150698",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acacAAcbbCBB",
+   "aaacAAAbbcbcb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0
+  },
+  "h1": "Z/8 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_150699": {
+  "name": "o10_150699",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acaBCCabb",
+   "accbAcbbbccbAcbAcbbCbb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": -1,
+   "c": 2
+  },
+  "h1": "Z/16 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_150700": {
+  "name": "o10_150700",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbCAbCAcabcabbbCAbCAc",
+   "acBCbcabAB"
+  ],
+  "phi": {
+   "a": -7,
+   "b": -1,
+   "c": 7
+  },
+  "h1": "Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_150701": {
+  "name": "o10_150701",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbccAAABAAcccb",
+   "aaaCCBCCCaabbccb"
+  ],
+  "phi": {
+   "a": 1,
+   "b": -1,
+   "c": 1
+  },
+  "h1": "Z/16 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_150702": {
+  "name": "o10_150702",
+  "error": "H_1 rank 3"
+ },
+ "o10_150703": {
+  "name": "o10_150703",
+  "error": "H_1 rank 2"
+ },
+ "o10_150704": {
+  "name": "o10_150704",
+  "error": "H_1 rank 4"
+ },
+ "o10_150705": {
+  "name": "o10_150705",
+  "error": "H_1 rank 2"
+ },
+ "o10_150706": {
+  "name": "o10_150706",
+  "error": "H_1 rank 2"
+ },
+ "o10_150707": {
+  "name": "o10_150707",
+  "gens": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "rels": [
+   "adcDAdbdCbc",
+   "bcdcDBC",
+   "aCbbAc"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0,
+   "d": 0
+  },
+  "h1": "Z/2 + Z/2 + Z",
+  "amphichiral_snappy": true,
+  "L": 5,
+  "n_solutions": 40,
+  "etas": [
+   {
+    "a": 1,
+    "b": 1,
+    "c": 1,
+    "d": 1
+   }
+  ],
+  "verdict": "FIX",
+  "solutions": [
+   {
+    "tau": {
+     "a": "a",
+     "b": "db",
+     "c": "adCDA",
+     "d": "abABD"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1,
+     "d": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "a",
+     "b": "Adba",
+     "c": "dCD",
+     "d": "bABDa"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1,
+     "d": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "A",
+     "b": "dbc",
+     "c": "dcD",
+     "d": "CD"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1,
+     "d": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "A",
+     "b": "adbcA",
+     "c": "adcDA",
+     "d": "aCDA"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1,
+     "d": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "A",
+     "b": "Adbca",
+     "c": "AdcDa",
+     "d": "ACDa"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1,
+     "d": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   },
+   {
+    "tau": {
+     "a": "bbA",
+     "b": "cdb",
+     "c": "BcbC",
+     "d": "DC"
+    },
+    "eta": {
+     "a": 1,
+     "b": 1,
+     "c": 1,
+     "d": 1
+    },
+    "eta_is_character": true,
+    "eta_trivial": true
+   }
+  ]
+ },
+ "o10_150708": {
+  "name": "o10_150708",
+  "error": "H_1 rank 2"
+ },
+ "o10_150709": {
+  "name": "o10_150709",
+  "gens": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "rels": [
+   "addcbAcB",
+   "adcbdACbcB",
+   "abcABc"
+  ],
+  "phi": {
+   "a": 1,
+   "b": 0,
+   "c": 0,
+   "d": 0
+  },
+  "h1": "Z/2 + Z/2 + Z",
+  "amphichiral_snappy": false,
+  "L": 5,
+  "n_solutions": 0,
+  "etas": [],
+  "verdict": "NONE-at-L5",
+  "solutions": []
+ },
+ "o10_150710": {
+  "name": "o10_150710",
+  "error": "H_1 rank 2"
+ },
+ "o10_150711": {
+  "name": "o10_150711",
+  "error": "H_1 rank 2"
+ },
+ "o10_150712": {
+  "name": "o10_150712",
+  "error": "H_1 rank 3"
+ },
+ "o10_150713": {
+  "name": "o10_150713",
+  "error": "H_1 rank 2"
+ },
+ "o10_150714": {
+  "name": "o10_150714",
+  "error": "H_1 rank 2"
+ },
+ "o10_150715": {
+  "name": "o10_150715",
+  "error": "H_1 rank 2"
+ },
+ "o10_150716": {
+  "name": "o10_150716",
+  "error": "H_1 rank 2"
+ },
+ "o10_150717": {
+  "name": "o10_150717",
+  "error": "H_1 rank 3"
+ },
+ "o10_150718": {
+  "name": "o10_150718",
+  "error": "H_1 rank 3"
+ },
+ "o10_150719": {
+  "name": "o10_150719",
+  "error": "H_1 rank 2"
+ },
+ "o10_150720": {
+  "name": "o10_150720",
+  "error": "H_1 rank 3"
+ },
+ "o10_150721": {
+  "name": "o10_150721",
+  "error": "H_1 rank 3"
+ },
+ "o10_150722": {
+  "name": "o10_150722",
+  "error": "H_1 rank 3"
+ },
+ "o10_150723": {
+  "name": "o10_150723",
+  "error": "H_1 rank 2"
+ },
+ "o10_150724": {
+  "name": "o10_150724",
+  "error": "H_1 rank 2"
+ },
+ "o10_150725": {
+  "name": "o10_150725",
+  "error": "H_1 rank 3"
+ },
+ "o10_150726": {
+  "name": "o10_150726",
+  "error": "H_1 rank 2"
+ },
+ "o10_150727": {
+  "name": "o10_150727",
+  "error": "H_1 rank 4"
+ },
+ "o10_150728": {
+  "name": "o10_150728",
+  "error": "H_1 rank 3"
+ },
+ "o10_150729": {
+  "name": "o10_150729",
+  "error": "H_1 rank 5"
+ }
+}

@@ -1,0 +1,558 @@
+{
+ "summary": {
+  "members": 13,
+  "genuine_swap": [
+   "m003",
+   "m207",
+   "o10_150695",
+   "s955",
+   "s957",
+   "s960",
+   "t12838"
+  ],
+  "fix": [
+   "m004",
+   "m206",
+   "o10_150696",
+   "o10_150707",
+   "s961",
+   "t12839"
+  ],
+  "undetermined": [],
+  "all_decided_agree": true,
+  "etas_all_in_cosets": true,
+  "chiral_none": 41,
+  "chiral_total": 41
+ },
+ "table": {
+  "m003": {
+   "h1": "Z/5 + Z",
+   "gens": [
+    "a",
+    "b"
+   ],
+   "K_closed": [
+    [
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     -1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     -1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "GENUINE SWAP",
+   "torsion_odd_real": false,
+   "agree": true
+  },
+  "m004": {
+   "h1": "Z",
+   "gens": [
+    "a",
+    "b"
+   ],
+   "K_closed": [
+    [
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "FIX",
+   "torsion_odd_real": true,
+   "agree": true
+  },
+  "m206": {
+   "h1": "Z/5 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "FIX",
+   "torsion_odd_real": true,
+   "agree": true
+  },
+  "m207": {
+   "h1": "Z/3 + Z/3 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "GENUINE SWAP",
+   "torsion_odd_real": false,
+   "agree": true
+  },
+  "s955": {
+   "h1": "Z/20 + Z",
+   "gens": [
+    "a",
+    "b"
+   ],
+   "K_closed": [
+    [
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     -1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     -1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "GENUINE SWAP",
+   "torsion_odd_real": false,
+   "agree": true
+  },
+  "s957": {
+   "h1": "Z/4 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 2,
+   "reversing_etas": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "GENUINE SWAP",
+   "torsion_odd_real": false,
+   "agree": true
+  },
+  "s960": {
+   "h1": "Z/2 + Z/10 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     -1,
+     -1,
+     -1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 4,
+   "reversing_etas": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     -1
+    ]
+   ],
+   "coset": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     -1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "GENUINE SWAP",
+   "torsion_odd_real": false,
+   "agree": true
+  },
+  "s961": {
+   "h1": "Z/4 + Z/4 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     -1,
+     -1,
+     -1
+    ],
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 4,
+   "reversing_etas": [
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     -1,
+     -1,
+     -1
+    ],
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "FIX",
+   "torsion_odd_real": true,
+   "agree": true
+  },
+  "t12838": {
+   "h1": "Z/7 + Z/7 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "GENUINE SWAP",
+   "torsion_odd_real": false,
+   "agree": true
+  },
+  "t12839": {
+   "h1": "Z/3 + Z/15 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "FIX",
+   "torsion_odd_real": true,
+   "agree": true
+  },
+  "o10_150695": {
+   "h1": "Z/5 + Z/25 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     -1,
+     1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     -1,
+     1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "GENUINE SWAP",
+   "torsion_odd_real": false,
+   "agree": true
+  },
+  "o10_150696": {
+   "h1": "Z/11 + Z/11 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "FIX",
+   "torsion_odd_real": true,
+   "agree": true
+  },
+  "o10_150707": {
+   "h1": "Z/2 + Z/2 + Z",
+   "gens": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "K_closed": [
+    [
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "K_order": 1,
+   "reversing_etas": [
+    [
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "coset": [
+    [
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "etas_in_coset": true,
+   "verdict": "FIX",
+   "torsion_odd_real": true,
+   "agree": true
+  }
+ }
+}
