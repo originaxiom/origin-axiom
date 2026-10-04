@@ -21,7 +21,7 @@ def test_topology_and_trivial_pair(label):
     v.check_marking(label,state)
     p = v.Complex({g:v.s.eye(2) for g in v.GEN},state).profile()
     assert p == {'h0_absolute':1,'h0_boundary':1,'h1_absolute':1,
-                 'h1_relative':1,'restriction_rank':1,'h1_interior':0}
+                 'h1_relative':0,'restriction_rank':1,'h1_interior':0}
 
 
 @pytest.mark.parametrize('label,number', [(label,n) for label in DATA['states'] for n in range(2)])

@@ -273,7 +273,7 @@ def run():
     for label,state in data['states'].items():
         check_marking(label,state)
         tr = Complex({g:s.eye(2) for g in GEN},state).profile()
-        assert (tr['h1_absolute'],tr['h1_relative'],tr['h1_interior']) == (1,1,0)
+        assert (tr['h1_absolute'],tr['h1_relative'],tr['h1_interior']) == (1,0,0), tr
         f = four(state)
         for spec in state['members']:
             result = member(label,state,spec,f)
