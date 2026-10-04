@@ -102,3 +102,18 @@ before first import/execution. Capture commands into exclusive fresh raw
 stems. During certifying runs no tracked file is edited. An admitted
 closed positive and a balanced spectrum would be reported together, with
 the exact surviving physical duties. Full SM/TOE goal remains ACTIVE.
+
+## Disclosed first-run repair, before the second execution
+
+Original seal e1fa16d3be72e8147e8968429b14d5c9c095d938 was pushed and
+server-confirmed before native_first. It exited1 in the 2x2 span fixture:
+the queue mistakenly unpacked basis[i] (a DomainMatrix) instead of
+retrieving basis[i],words[i]. No candidate outcome or serialized fixture
+population had landed. Raw1064-byte traceback sha256
+4bd83ac486498ba14a9caddbe0d6df9fc18771caa3b373a2ba045cf1d09f68ce
+and original code remain preserved, not overwritten. One-line index
+repair only; no criterion, field, character, relation, count target or
+analytic proof changed. Revised code/design and all six path digests
+are committed/pushed/server-confirmed before a separately named run.
+Any successful certificate belongs to the REPAIRED seal, never to the
+unchanged original. Same-author reference and analytic-review debts stay.

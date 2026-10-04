@@ -1765,3 +1765,20 @@ Push/server-confirm before import; full physics mission ACTIVE.
 | `reports/physical_bridge_2026_09_05/joined_background.py` | `9d55048917f2df9035988d5f50b1faa2cb38a4a41e65666b07ba8bfae106535e` |
 | `reports/physical_bridge_2026_09_05/joined_background_reference.py` | `22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869` |
 | `tests/test_physical_bridge_joined_background.py` | `4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420` |
+
+## R85 index repair reseal, 2026-10-04
+
+Original e1fa16d3 native_first exit1 before serialized results: span queue
+unpacked a matrix, not matrix plus separately stored word. Preserved raw
+traceback/hash in design; one-line repair, no changed scientific criterion.
+The original seal gets no successful-run certificate. This revised seal
+must be pushed/server-confirmed before native_repaired; then read-only.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_DESIGN.md` | `2be1cfdb6c8be12e78c4a41ed25f6c0867cca38cf4adea895e6ed0f4e7556a20` |
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md` | `e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816` |
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_INPUTS.json` | `608d676f93d188e716788986345df5e2f8489c7c606849ef38ddbacb6d5ede6b` |
+| `reports/physical_bridge_2026_09_05/joined_background.py` | `d64035c148c6d19de488ab30d07b50f49bf0610ec6fe19406bdd3177ba8a49aa` |
+| `reports/physical_bridge_2026_09_05/joined_background_reference.py` | `22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869` |
+| `tests/test_physical_bridge_joined_background.py` | `4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420` |

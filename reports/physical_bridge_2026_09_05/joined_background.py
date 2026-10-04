@@ -82,7 +82,7 @@ def span(gens):
     add(C.eye(n,k),'')
     i=0
     while i<len(basis) and len(basis)<n*n:
-        a,w=basis[i]; i+=1
+        a,w=basis[i],words[i]; i+=1
         for name,g in gens.items():
             add(a*g,w+name)
             if len(basis)==n*n:
