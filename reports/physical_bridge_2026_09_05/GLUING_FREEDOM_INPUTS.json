@@ -1,0 +1,24 @@
+{
+  "baseline": "e99f7ea620e0fc2a6dd7cf3d60977764d0155977",
+  "r85_science": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469",
+  "field": "Q[q]/(q^6-34*q^3+1)",
+  "characters": [[0,1],[1,1],[1,0]],
+  "relative_family": "C(t)=diag(t,t,t,t,t^-4), R_t=C(t)R C(t)^-1",
+  "trace_pool": "left and right independent BFS word bases, lexicographic nested basis order",
+  "direct_t_values": [1,2,3],
+  "reference_prime_roots": [[1031,695],[1033,162]],
+  "native_pin": "f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7",
+  "reference_pin": "22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869",
+  "local_pins": [
+    {"path":"reports/physical_bridge_2026_09_05/joined_background.py","sha256":"f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7"},
+    {"path":"reports/physical_bridge_2026_09_05/joined_background_reference.py","sha256":"22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869"},
+    {"path":"reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md","sha256":"e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816"},
+    {"path":"reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md","sha256":"f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685"},
+    {"path":"reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md","sha256":"082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"}
+  ],
+  "physical_grade": "same-author conditional compact admission and retained dictionary; not derived physics",
+  "sources": ["JOINED_BACKGROUND_PROOF.md", "FLAT_VACUUM_PROOF.md", "COEFFICIENT_PARENT_PROOF.md"],
+  "prior_art": ["B582", "B598 step4a/4b", "B1113", "B1122", "B1109", "B1140", "B968"],
+  "supplied": ["carrier/join", "base metric", "coefficient", "E8 parent and embedding", "action and couplings", "field dictionary"],
+  "not_computed": ["full neutral H1", "smooth harmonic metric family", "normalized kinetic metric", "quantum lifting", "selected SM phase", "genesis selection", "physical chirality", "gravity"]
+}
