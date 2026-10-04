@@ -7,7 +7,10 @@ not depend on how the characters are labelled, so the two benches' different pre
     python3 control_k1.py [--levels 2 3 4 6] [--route-r-levels 2 3] [--cap 6 4] [--record [--out k1.json]]
 
 --cap n m reads only the subgroups B of order <= m on level n (and the banked histogram restricted the same way); two-class
-members (M6) are read at the interior class and at a generic class, as sm:B1532's census reads them (not at special classes)."""
+members (M6) are read at the interior class and at a generic class, as sm:B1532's census reads them (not at special classes).
+Route R reads the one-class members only; its histogram is compared with the banked one at those members (class "c1").
+On M2 and M3 every member has one class; on M6 the first run compared it with the whole histogram (disclosed in
+PREREGISTRATION section 6; k1_m6_check.py re-reads that run's recorded histograms)."""
 import gzip
 import itertools
 import json
@@ -157,7 +160,8 @@ def main():
                "route N = banked": hN == bk, "failures": bad}
         if n in rr:
             rec["route R histogram"] = {str(k[1:]): v for k, v in sorted(hR.items())}
-            rec["route R = banked"] = hR == bk
+            # route R reads the one-class members only, so it is compared with the banked histogram at their class "c1"
+            rec["route R = banked"] = hR == Counter({k: v for k, v in bk.items() if k[1] == "c1"})
         out["per level"][str(n)] = rec
         print(n, json.dumps({k: v for k, v in rec.items() if "histogram" not in k}), f"{time.time() - t0:.0f}s", flush=True)
     out["holds"] = all(r["route N = banked"] and r.get("route R = banked", True) and not r["failures"]

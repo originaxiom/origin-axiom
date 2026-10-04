@@ -1,5 +1,33 @@
 # Changelog
 
+## B1536 sealed: THE FINITE COVERS — sm:B1515's frame on every connected cover of degree ≤ 12 of m004 and m003, and on their Q₈ towers
+
+- **The question.** sm:B1535's Corollary C3 leaves non-abelian covers as a place where both supplies, n(ν³ ⊗ ρ) and
+  b0 + n(ν⁴), can grow, so where three could live. On every connected finite cover of degree ≤ 12 of the golden state m004 and
+  its sister m003 (176 and 148 covers), and on the Q₈ tower of each (m = 1, 2, 3, 4, 6, 9, 12, 18; degree 8m), at every
+  pulled-back character of finite order: where are the supplies, and does any class carry three?
+- **Proved at design time.**
+  - Lemma S′ (Shapiro and Mackey for any finite cover): n_N(W) = n_M(W ⊗ P) with P the permutation module.
+  - Lemma O: the cover's own classes are block-monomial modules on the base.
+  - Lemma Z″: only κ ∈ μ_{12L} can count, L the lcm of the cusps' t-periods; 8,148 (m004) and 35,100 (m003) characters.
+  - Lemma G: the strata of classes by the cusps they vanish on; the generic reading bounds every class of a stratum.
+  - Proposition Q: on the Q₈ tower, n(1) at κ = 1 is the ψ^m-fixed part of the ℍ-isotypic component of H₁ of the Q₈ cover of
+    the punctured torus, and reaches 4 at some m ∈ {3, 6, 9, 12, 18} (Putman–Wieland's Appendix A gives the finite action).
+- **Instruments.** Route N reads every cover on the base (block-monomial modules, FLINT, p < 2²⁴); route R on the cover's own
+  Reidemeister–Schreier presentation (PARI, p < 2³¹). They share no linear algebra. Each reads every character of every
+  cover: Part S (the supplies), Part P (the pulled-back class at κ⁵ = 1) and Part O (every stratum, two random classes, at
+  every member with both caps ≥ 2).
+- **Controls, all hold:** K1 (sm:B1532's census with M₂ and M₃ as bases; on M₆, 11 subgroups of order ≤ 4 at all 320 members, route R at the one-class members), K2 (sm:B1534's 148 rows), K3 (sm:B1535 Part
+  M's 328 pure and 102 generic readings), K4 (the two states), K5 (cover counts and cusps against SnapPy), K6 (the read-out on
+  synthetic rows), K7 (Lemma G's strata on m135's covers), the dry run.
+- **Predictions P1–P10** (priors summing to 7.88). NEGATIVE on three if both routes read the whole population and P1, P2, P8
+  and P10 hold.
+- **Disclosed:** route R's overflow (fixed before any control was recorded) and its move to PARI; route R's coverage widened
+  before the seal; K3's comparison changed after sm:B1535's read-out; the timing tests on three of m004's tower covers (one row
+  of supplies printed: all zero, not a member); the covers K1 and the dry run share with the population (banked values; the
+  dry run recorded only agreement); K1's route R comparison on M₆, which read the whole banked histogram (corrected; the
+  recorded histograms agree).
+
 ## B1535 banked: THE CAP — Theorem C held at every class read and Lemma W on every state read; no class carries more than one generation (PROVED)
 
 - **Run as sealed** (`b410afeb`; sL-10 item 14, first half). The banked identity held at `4e55f20b`. Part W ran from 03:27:21Z

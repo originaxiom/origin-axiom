@@ -1,0 +1,18 @@
+{
+ "subgroup order cap": 4,
+ "subgroups": 11,
+ "banked subgroups": 11,
+ "members": 320,
+ "banked members": 320,
+ "route N = banked (every class)": true,
+ "route R = banked at the one-class members ('c1')": true,
+ "failures": [],
+ "readings": {
+  "route N": 4840,
+  "route R": 2200,
+  "banked": 4840,
+  "banked at 'c1'": 2200
+ },
+ "the recorded flag 'route R = banked' (whole banked histogram)": false,
+ "holds": true
+}

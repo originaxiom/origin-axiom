@@ -60,3 +60,57 @@ mLLLLRLRRRLRR E3 236.8570 (failed): route None, alpha None, off by None, 2180 s
 mLLLLRLRRRLRR E4 136.4251 (missed): route None, alpha None, off by None, 1691 s
 mLLLLRLRRRLRR E4 46.4251 (missed): route None, alpha None, off by None, 6129 s
 mLLLLRLRRRLRR E4 316.4251 (missed): route None, alpha None, off by None, 12 s
+mLLLLRLRRRLRR E4 226.4251 (missed): route None, alpha None, off by None, 4703 s
+{
+ "targets": 57,
+ "located": 37,
+ "by route": {
+  "F": 32,
+  "S": 5,
+  "null": 20
+ },
+ "by state": {
+  "+LR": {
+   "targets": 4,
+   "located": 4
+  },
+  "-LR": {
+   "targets": 4,
+   "located": 4
+  },
+  "+LLRLRR": {
+   "targets": 4,
+   "located": 4
+  },
+  "-LLRLRR": {
+   "targets": 4,
+   "located": 4
+  },
+  "+LLLRLRR": {
+   "targets": 2,
+   "located": 2
+  },
+  "-LLLRLRR": {
+   "targets": 2,
+   "located": 2
+  },
+  "+LLLLRLLLRR": {
+   "targets": 6,
+   "located": 6
+  },
+  "-LLLLRLLLRR": {
+   "targets": 6,
+   "located": 6
+  },
+  "+LLLLRLRRRLRR": {
+   "targets": 5,
+   "located": 5
+  },
+  "-LLLLRLRRRLRR": {
+   "targets": 20,
+   "located": 0
+  }
+ },
+ "seconds this invocation": 30153
+}
+COVERAGE-EXIT 0 2026-10-04T06:17:44Z

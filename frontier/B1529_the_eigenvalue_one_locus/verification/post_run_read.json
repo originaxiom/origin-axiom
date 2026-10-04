@@ -1,0 +1,752 @@
+{
+ "states": {
+  "+LR": {
+   "first-order crossings": 20,
+   "sealed brackets": 16,
+   "sealed brackets through a pole": 0,
+   "sealed located": 16,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 4,
+   "coverage located": 4,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 40,
+   "rows Fox/W": 40,
+   "unmatched": [],
+   "found": {
+    "E1 22.5000": [
+     "sealed"
+    ],
+    "E4 45.0000": [
+     "sealed"
+    ],
+    "E3 55.7354": [
+     "sealed"
+    ],
+    "E1 67.5000": [
+     "sealed"
+    ],
+    "E1 112.5000": [
+     "sealed"
+    ],
+    "E3 124.2646": [
+     "sealed"
+    ],
+    "E4 135.0000": [
+     "sealed"
+    ],
+    "E1 157.5000": [
+     "sealed"
+    ],
+    "E1 202.5000": [
+     "sealed"
+    ],
+    "E4 225.0000": [
+     "sealed"
+    ],
+    "E3 235.7354": [
+     "sealed"
+    ],
+    "E1 247.5000": [
+     "sealed"
+    ],
+    "E1 292.5000": [
+     "sealed"
+    ],
+    "E3 304.2646": [
+     "sealed"
+    ],
+    "E4 315.0000": [
+     "sealed"
+    ],
+    "E1 337.5000": [
+     "sealed"
+    ],
+    "E2 34.2646": [
+     "coverage"
+    ],
+    "E2 145.7354": [
+     "coverage"
+    ],
+    "E2 214.2646": [
+     "coverage"
+    ],
+    "E2 325.7354": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "-LR": {
+   "first-order crossings": 20,
+   "sealed brackets": 16,
+   "sealed brackets through a pole": 0,
+   "sealed located": 16,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 4,
+   "coverage located": 4,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 200,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 22.5000": [
+     "sealed"
+    ],
+    "E4 45.0000": [
+     "sealed"
+    ],
+    "E3 55.7354": [
+     "sealed"
+    ],
+    "E1 67.5000": [
+     "sealed"
+    ],
+    "E1 112.5000": [
+     "sealed"
+    ],
+    "E3 124.2646": [
+     "sealed"
+    ],
+    "E4 135.0000": [
+     "sealed"
+    ],
+    "E1 157.5000": [
+     "sealed"
+    ],
+    "E1 202.5000": [
+     "sealed"
+    ],
+    "E4 225.0000": [
+     "sealed"
+    ],
+    "E3 235.7354": [
+     "sealed"
+    ],
+    "E1 247.5000": [
+     "sealed"
+    ],
+    "E1 292.5000": [
+     "sealed"
+    ],
+    "E3 304.2646": [
+     "sealed"
+    ],
+    "E4 315.0000": [
+     "sealed"
+    ],
+    "E1 337.5000": [
+     "sealed"
+    ],
+    "E2 34.2646": [
+     "coverage"
+    ],
+    "E2 145.7354": [
+     "coverage"
+    ],
+    "E2 214.2646": [
+     "coverage"
+    ],
+    "E2 325.7354": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "+LLRLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 16,
+   "sealed brackets through a pole": 0,
+   "sealed located": 16,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 4,
+   "coverage located": 4,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 520,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 22.5000": [
+     "sealed"
+    ],
+    "E4 45.0000": [
+     "sealed"
+    ],
+    "E3 55.7354": [
+     "sealed"
+    ],
+    "E1 67.5000": [
+     "sealed"
+    ],
+    "E1 112.5000": [
+     "sealed"
+    ],
+    "E3 124.2646": [
+     "sealed"
+    ],
+    "E4 135.0000": [
+     "sealed"
+    ],
+    "E1 157.5000": [
+     "sealed"
+    ],
+    "E1 202.5000": [
+     "sealed"
+    ],
+    "E4 225.0000": [
+     "sealed"
+    ],
+    "E3 235.7354": [
+     "sealed"
+    ],
+    "E1 247.5000": [
+     "sealed"
+    ],
+    "E1 292.5000": [
+     "sealed"
+    ],
+    "E3 304.2646": [
+     "sealed"
+    ],
+    "E4 315.0000": [
+     "sealed"
+    ],
+    "E1 337.5000": [
+     "sealed"
+    ],
+    "E2 34.2646": [
+     "coverage"
+    ],
+    "E2 145.7354": [
+     "coverage"
+    ],
+    "E2 214.2646": [
+     "coverage"
+    ],
+    "E2 325.7354": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "-LLRLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 16,
+   "sealed brackets through a pole": 0,
+   "sealed located": 16,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 4,
+   "coverage located": 4,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 680,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 22.5000": [
+     "sealed"
+    ],
+    "E4 45.0000": [
+     "sealed"
+    ],
+    "E3 55.7354": [
+     "sealed"
+    ],
+    "E1 67.5000": [
+     "sealed"
+    ],
+    "E1 112.5000": [
+     "sealed"
+    ],
+    "E3 124.2646": [
+     "sealed"
+    ],
+    "E4 135.0000": [
+     "sealed"
+    ],
+    "E1 157.5000": [
+     "sealed"
+    ],
+    "E1 202.5000": [
+     "sealed"
+    ],
+    "E4 225.0000": [
+     "sealed"
+    ],
+    "E3 235.7354": [
+     "sealed"
+    ],
+    "E1 247.5000": [
+     "sealed"
+    ],
+    "E1 292.5000": [
+     "sealed"
+    ],
+    "E3 304.2646": [
+     "sealed"
+    ],
+    "E4 315.0000": [
+     "sealed"
+    ],
+    "E1 337.5000": [
+     "sealed"
+    ],
+    "E2 34.2646": [
+     "coverage"
+    ],
+    "E2 145.7354": [
+     "coverage"
+    ],
+    "E2 214.2646": [
+     "coverage"
+    ],
+    "E2 325.7354": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "+LLLRLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 40,
+   "sealed brackets through a pole": 22,
+   "sealed located": 18,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 2,
+   "coverage located": 2,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 720,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 28.6916": [
+     "sealed"
+    ],
+    "E2 44.2525": [
+     "sealed"
+    ],
+    "E4 57.3833": [
+     "sealed"
+    ],
+    "E3 65.3576": [
+     "sealed"
+    ],
+    "E1 73.6916": [
+     "sealed"
+    ],
+    "E1 118.6916": [
+     "sealed"
+    ],
+    "E3 134.2525": [
+     "sealed"
+    ],
+    "E4 147.3833": [
+     "sealed"
+    ],
+    "E1 163.6916": [
+     "sealed"
+    ],
+    "E1 208.6916": [
+     "sealed"
+    ],
+    "E2 224.2525": [
+     "sealed"
+    ],
+    "E4 237.3833": [
+     "sealed"
+    ],
+    "E3 245.3576": [
+     "sealed"
+    ],
+    "E1 253.6916": [
+     "sealed"
+    ],
+    "E1 298.6916": [
+     "sealed"
+    ],
+    "E3 314.2525": [
+     "sealed"
+    ],
+    "E4 327.3833": [
+     "sealed"
+    ],
+    "E1 343.6916": [
+     "sealed"
+    ],
+    "E2 155.3576": [
+     "coverage"
+    ],
+    "E2 335.3576": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "-LLLRLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 40,
+   "sealed brackets through a pole": 22,
+   "sealed located": 18,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 2,
+   "coverage located": 2,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 880,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 28.6916": [
+     "sealed"
+    ],
+    "E2 44.2525": [
+     "sealed"
+    ],
+    "E4 57.3833": [
+     "sealed"
+    ],
+    "E3 65.3576": [
+     "sealed"
+    ],
+    "E1 73.6916": [
+     "sealed"
+    ],
+    "E1 118.6916": [
+     "sealed"
+    ],
+    "E3 134.2525": [
+     "sealed"
+    ],
+    "E4 147.3833": [
+     "sealed"
+    ],
+    "E1 163.6916": [
+     "sealed"
+    ],
+    "E1 208.6916": [
+     "sealed"
+    ],
+    "E2 224.2525": [
+     "sealed"
+    ],
+    "E4 237.3833": [
+     "sealed"
+    ],
+    "E3 245.3576": [
+     "sealed"
+    ],
+    "E1 253.6916": [
+     "sealed"
+    ],
+    "E1 298.6916": [
+     "sealed"
+    ],
+    "E3 314.2525": [
+     "sealed"
+    ],
+    "E4 327.3833": [
+     "sealed"
+    ],
+    "E1 343.6916": [
+     "sealed"
+    ],
+    "E2 155.3576": [
+     "coverage"
+    ],
+    "E2 335.3576": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "+LLLLRLLLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 14,
+   "sealed brackets through a pole": 0,
+   "sealed located": 14,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 6,
+   "coverage located": 6,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 1800,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 37.5858": [
+     "sealed"
+    ],
+    "E2 60.1718": [
+     "sealed"
+    ],
+    "E3 78.8628": [
+     "sealed"
+    ],
+    "E4 75.1715": [
+     "sealed"
+    ],
+    "E1 82.5858": [
+     "sealed"
+    ],
+    "E1 127.5858": [
+     "sealed"
+    ],
+    "E3 150.1718": [
+     "sealed"
+    ],
+    "E1 217.5858": [
+     "sealed"
+    ],
+    "E2 240.1718": [
+     "sealed"
+    ],
+    "E3 258.8628": [
+     "sealed"
+    ],
+    "E4 255.1715": [
+     "sealed"
+    ],
+    "E1 262.5858": [
+     "sealed"
+    ],
+    "E1 307.5858": [
+     "sealed"
+    ],
+    "E3 330.1718": [
+     "sealed"
+    ],
+    "E1 172.5858": [
+     "coverage"
+    ],
+    "E1 352.5858": [
+     "coverage"
+    ],
+    "E2 168.8628": [
+     "coverage"
+    ],
+    "E2 348.8628": [
+     "coverage"
+    ],
+    "E4 165.1715": [
+     "coverage"
+    ],
+    "E4 345.1715": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "-LLLLRLLLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 14,
+   "sealed brackets through a pole": 0,
+   "sealed located": 14,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 6,
+   "coverage located": 6,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 1960,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 37.5857": [
+     "sealed"
+    ],
+    "E2 60.1718": [
+     "sealed"
+    ],
+    "E3 78.8628": [
+     "sealed"
+    ],
+    "E4 75.1715": [
+     "sealed"
+    ],
+    "E1 82.5857": [
+     "sealed"
+    ],
+    "E1 127.5857": [
+     "sealed"
+    ],
+    "E3 150.1718": [
+     "sealed"
+    ],
+    "E1 217.5857": [
+     "sealed"
+    ],
+    "E2 240.1718": [
+     "sealed"
+    ],
+    "E3 258.8628": [
+     "sealed"
+    ],
+    "E4 255.1715": [
+     "sealed"
+    ],
+    "E1 262.5857": [
+     "sealed"
+    ],
+    "E1 307.5857": [
+     "sealed"
+    ],
+    "E3 330.1718": [
+     "sealed"
+    ],
+    "E1 172.5857": [
+     "coverage"
+    ],
+    "E1 352.5857": [
+     "coverage"
+    ],
+    "E2 168.8628": [
+     "coverage"
+    ],
+    "E2 348.8628": [
+     "coverage"
+    ],
+    "E4 165.1715": [
+     "coverage"
+    ],
+    "E4 345.1715": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "+LLLLRLRRRLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 16,
+   "sealed brackets through a pole": 0,
+   "sealed located": 15,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 5,
+   "coverage located": 5,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 4840,
+   "rows Fox/W": 200,
+   "unmatched": [],
+   "found": {
+    "E1 23.2125": [
+     "sealed"
+    ],
+    "E4 46.4249": [
+     "sealed"
+    ],
+    "E3 56.8569": [
+     "sealed"
+    ],
+    "E1 68.2125": [
+     "sealed"
+    ],
+    "E1 113.2125": [
+     "sealed"
+    ],
+    "E3 125.3908": [
+     "sealed"
+    ],
+    "E4 136.4249": [
+     "sealed"
+    ],
+    "E1 158.2125": [
+     "sealed"
+    ],
+    "E1 203.2125": [
+     "sealed"
+    ],
+    "E4 226.4249": [
+     "sealed"
+    ],
+    "E3 236.8569": [
+     "sealed"
+    ],
+    "E1 248.2125": [
+     "sealed"
+    ],
+    "E1 293.2125": [
+     "sealed"
+    ],
+    "E3 305.3908": [
+     "sealed"
+    ],
+    "E1 338.2125": [
+     "sealed"
+    ],
+    "E2 35.3908": [
+     "coverage"
+    ],
+    "E2 146.8569": [
+     "coverage"
+    ],
+    "E2 215.3908": [
+     "coverage"
+    ],
+    "E2 326.8569": [
+     "coverage"
+    ],
+    "E4 316.4249": [
+     "coverage"
+    ]
+   },
+   "first-order crossings located": 20,
+   "found twice": {}
+  },
+  "-LLLLRLRRRLRR": {
+   "first-order crossings": 20,
+   "sealed brackets": 8,
+   "sealed brackets through a pole": 0,
+   "sealed located": 0,
+   "sealed located on a pole bracket": 0,
+   "coverage targets": 20,
+   "coverage located": 0,
+   "structure fails": [],
+   "index fails": [],
+   "mechanism fails": [],
+   "rows T": 0,
+   "rows Fox/W": 0,
+   "unmatched": [],
+   "found": {},
+   "first-order crossings located": 0,
+   "found twice": {}
+  }
+ },
+ "agrees with read_out on the sealed records": true,
+ "totals": {
+  "first-order crossings": 200,
+  "located": 180,
+  "rows T": 11640,
+  "rows Fox/W": 1640,
+  "structure fails": 0,
+  "index fails": 0,
+  "mechanism fails": 0,
+  "unmatched": 0,
+  "found twice": 0
+ },
+ "after the run": {
+  "P4 content (structure at every located crossing)": true,
+  "P5 content (I = 0, routes agree)": true,
+  "P6 content (mechanism)": true,
+  "G content (P5 on the golden rings)": true,
+  "located / first-order": "180 / 200"
+ }
+}

@@ -3962,6 +3962,11 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
    character non-trivial on the fibre's puncture loops escapes Lemma W, and n(ν⁴) can be non-zero there. The mechanism to read
    is the twisted monodromy on H¹(T̄ ∖ J; ζ). By Corollary C3 it is the first place a second generation can live on an abelian
    cover in this frame, and it needs |D| ≥ 2. Seal before computing.
+16. **The non-abelian covers** (sm:B1535 Corollary C3, second place). Where both supplies can grow (bending; Bart–Scannell;
+   Putman–Wieland's Q₈ cover). **Sealed 2026-10-04 as sm:B1536 (the finite covers):** every connected cover of degree ≤ 12 of
+   m004 and m003 and their Q₈ towers, at every pulled-back finite-order character, every class (the pulled-back class, and
+   every stratum of the cover's own classes where both caps are ≥ 2), in routes N and R. Predictions P1–P10; NEGATIVE on
+   three if both routes read the whole population and P1, P2, P8 and P10 hold.
 
 ## sL-11 — THE SYMMETRIC PHASE (registered 2026-10-03, sm:B1531; this seat's proposal, the owner may reorder)
 

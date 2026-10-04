@@ -17432,3 +17432,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Self-caught before the commit: five slips in the FINDINGS draft, each re-derived from the rows and corrected (E11 instance).
 - Runs: B1536's control on m004's level M₆ (K1, PARI); B1529's coverage check (two workers; its watcher hit the time limit and
   was not restarted, the run continues).
+
+## 2026-10-04 — B1536 sealed: the finite covers (tasks 231, 234, 235)
+
+- sm:B1535's Corollary C3 names non-abelian covers as the second place three could live. B1536 reads the first ones: every
+  connected cover of degree ≤ 12 of m004 and m003, and their Q₈ towers, at every pulled-back character of finite order, in two
+  routes that share no linear algebra.
+- Controls K1–K7 and the dry run hold; their disclosures are in the PREREGISTRATION's §6 (route R's overflow, the PARI switch,
+  route R's widened coverage, K3's changed comparison, the timing tests, the covers shared with K1 and the dry run, K1's
+  route R comparison on M₆).
+- B1529's coverage check finished at 06:17:44Z: 37 of its 57 targets located, none of the 20 on −L⁴RLR³LR². Its record
+  and the post-run read (`post_run_read.py`) are committed with this seal; B1529's FINDINGS takes them up at its bank.
+- Next: identity.py, then run.py in both routes on both states.
