@@ -1,0 +1,1 @@
+{"science_files":6,"input_pins":15,"raw_captures":12,"native":81,"reference":65,"focused":18,"actual_joins":3,"bytes_and_exits_match":true,"analytic_admission_independently_verified":false,"non_author_acceptance":false,"physical_goal_achieved":false}

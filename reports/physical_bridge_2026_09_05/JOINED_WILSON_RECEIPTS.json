@@ -190,6 +190,147 @@
       "elapsed_seconds": 15.823695000028238,
       "log_bytes": 2284,
       "log_sha256": "8fd16614d44488f7a6615c4fb9fb5b664e99194cdb63ee1885d7a30978d02f56"
+    },
+    "governance_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 14.254348999937065,
+      "log_bytes": 2284,
+      "log_sha256": "5dc93e79a3628967fe64c6e930eb0e550a3744f441055cc30123e288db974a4b"
+    },
+    "commit_corrected": {
+      "command": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "commit",
+        "-m",
+        "Preserve R93 original passes and reseal corrected tensor twist map"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.12330600002314895,
+      "log_bytes": 1212,
+      "log_sha256": "827358b83a94ad346fe8a46000c3bcb596ee28864f0f8f7e644f0ed306ed123a"
+    },
+    "push_corrected": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "push",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.1631389999529347,
+      "log_bytes": 117,
+      "log_sha256": "e52f7674bc2d2e13557be86cd06aa21a2238f5a16369eebf469e9ae47870039f"
+    },
+    "server_corrected": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8966240000445396,
+      "log_bytes": 85,
+      "log_sha256": "1ee708e289dd79d0c2bc3538730efb748bd5f709d60ee94384ab4f852d4f8cd2"
+    },
+    "preflight_corrected": {
+      "command": [
+        "ruby",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "commit=\"7e2e6e72e776096e951016bd5130fd91d712a7d8\"; raw=\"<raw-root>\"; abort(\"Server mismatch\") unless File.read(raw+\"/server_corrected.log\").split.first==commit; abort(\"Dirty\") unless IO.popen([\"git\",\"status\",\"--porcelain\"],&:read).empty?; base=\"reports/physical_bridge_2026_09_05/\"; ledger={}; File.foreach(base+\"ARTIFACT_HASHES.txt\",encoding:\"UTF-8\"){|l|m=l.match(/^([0-9a-f]{64})  (.+)$/); ledger[m[2]]=m[1] if m}; paths=%w[JOINED_WILSON_DESIGN.md JOINED_WILSON_PROOF.md JOINED_WILSON_INPUTS.json joined_wilson.py joined_wilson_reference.py JOINED_WILSON_CORRECTION.md].map{|p|base+p}+[\"tests/test_physical_bridge_joined_wilson.py\"]; paths.each{|p|b=File.binread(p); old=IO.popen([\"git\",\"show\",commit+\":\"+p],\"rb\",&:read); abort(p) unless $?.success? && b==old && Digest::SHA256.hexdigest(b)==ledger[p]}; pins=JSON.parse(File.read(base+\"JOINED_WILSON_INPUTS.json\",encoding:\"UTF-8\")); pins[\"sources\"].each{|p|b=IO.popen([\"git\",\"show\",p[\"ref\"]+\":\"+p[\"path\"]],\"rb\",&:read); abort(p[\"path\"]) unless $?.success? && b.bytesize==p[\"bytes\"] && Digest::SHA256.hexdigest(b)==p[\"sha256\"]}; puts JSON.generate(science_files:paths.length,input_pins:pins[\"sources\"].length,clean_tree:true,server_commit:commit,bytes_match:true)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.1173470000503585,
+      "log_bytes": 132,
+      "log_sha256": "2c3f68f4502539d5d240631c218b371f157e7b2b249d2672219db7d04b8f6e64"
+    },
+    "native_corrected": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/joined_wilson.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 9.532126000034623,
+      "log_bytes": 25102,
+      "log_sha256": "1c888d977c8d9fcffac090371ad9b7191695e586eb9383ee70049c83dea0c5e5"
+    },
+    "reference_corrected": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/joined_wilson_reference.py",
+        "<raw-root>/native_corrected.log"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.2904850000049919,
+      "log_bytes": 2267,
+      "log_sha256": "d1e2e70d6f97fa4c45d6f8e1388f11ddd2215d0e25d0fc7df56e2b4aff47cfbc"
+    },
+    "focused_corrected": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_joined_wilson.py",
+        "tests/test_physical_bridge_mixed_current.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 11.609641999937594,
+      "log_bytes": 100,
+      "log_sha256": "23411c3c13426e985f5760b4bf4e04d77a38559625e559218f6e0ee2e772c7c0"
+    },
+    "governance_corrected_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 14.579578999895602,
+      "log_bytes": 2284,
+      "log_sha256": "99e82d4f8f4cc69e7382074e08c9f2156b888b3f4134b686a8be46fc8366e555"
     }
   },
   "public_logs": {
@@ -198,7 +339,14 @@
     "native_first": "JOINED_WILSON_NATIVE_FIRST.jsonl",
     "reference_first": "JOINED_WILSON_REFERENCE_FIRST.json",
     "focused_first": "JOINED_WILSON_FOCUSED_FIRST.txt",
-    "governance_first": "JOINED_WILSON_GOVERNANCE_FIRST.txt"
+    "governance_first": "JOINED_WILSON_GOVERNANCE_FIRST.txt",
+    "server_corrected": "JOINED_WILSON_SERVER_CORRECTED.txt",
+    "preflight_corrected": "JOINED_WILSON_PREFLIGHT_CORRECTED.txt",
+    "native_corrected": "JOINED_WILSON_NATIVE_CORRECTED.jsonl",
+    "reference_corrected": "JOINED_WILSON_REFERENCE_CORRECTED.json",
+    "focused_corrected": "JOINED_WILSON_FOCUSED_CORRECTED.txt",
+    "governance_final": "JOINED_WILSON_GOVERNANCE_ORIGINAL_FINAL.txt",
+    "governance_corrected_final": "JOINED_WILSON_GOVERNANCE_CORRECTED_FINAL.txt"
   },
   "raw_only": [
     "fetch",
@@ -206,7 +354,9 @@
     "atlas",
     "prior_sweep",
     "commit_seal",
-    "push_seal"
+    "push_seal",
+    "commit_corrected",
+    "push_corrected"
   ],
   "native_summary": {
     "failed": [
@@ -244,7 +394,76 @@
     "total": 65
   },
   "receipt_command_paths_redacted": true,
-  "unchanged_first_run": true,
+  "unchanged_first_run": false,
   "non_author_acceptance": false,
-  "physical_goal_achieved": false
+  "physical_goal_achieved": false,
+  "corrected_native_summary": {
+    "failed": [
+
+    ],
+    "generated_SM_selection": false,
+    "non_author_acceptance": false,
+    "passed": 83,
+    "physical_chirality_derived": false,
+    "physical_goal_achieved": false,
+    "quantum_moduli_lifting_computed": false,
+    "scope": "actual join plus algebraic Wilson premises; authored conditional analytic admission",
+    "total": 83
+  },
+  "corrected_reference_summary": {
+    "PDE_profile_verified": false,
+    "all_actual_characters": 3,
+    "failed": [
+
+    ],
+    "non_author_acceptance": false,
+    "passed": 67,
+    "physical_goal_achieved": false,
+    "prime_roots": [
+      [
+        1031,
+        695
+      ],
+      [
+        1033,
+        162
+      ]
+    ],
+    "scope": "separate Fraction roots/modular actual witnesses, not characteristic-zero admission",
+    "total": 67
+  },
+  "original_science_runs_passed": true,
+  "post_run_analytic_sign_repair": true,
+  "custody_checks": {
+    "custody_first": {
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/joined_wilson_receipt_check.rb",
+          "<raw-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.980487999971956,
+        "log_bytes": 251,
+        "log_sha256": "aae0c7b99f3e9be8a5ecf948e9f23527db0622a0fdd0cdd51e5bd1eae0f56d41"
+      },
+      "public_log": "JOINED_WILSON_CUSTODY_ORIGINAL.txt"
+    },
+    "custody_corrected": {
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/joined_wilson_receipt_check.rb",
+          "<raw-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.2578979999525473,
+        "log_bytes": 353,
+        "log_sha256": "4eabf12abd2d07746cc3fb04b1e48f8536a88d46252724d8b237167c3db05164"
+      },
+      "public_log": "JOINED_WILSON_CUSTODY_CORRECTED.txt"
+    }
+  }
 }

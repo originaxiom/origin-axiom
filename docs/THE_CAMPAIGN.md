@@ -3,9 +3,9 @@
 October4 R93 constructive phase earned conditionally: the actual R85
 compact rank-five/dual join and R86 primitive one-cycle carry EXISTING
 commuting SU5 Wilson fields with full connected SM gauge group, V=0
-and positive finite kinetic argument in the same supplied action.81
-exact/65 separate-reference/18 tests pass unchanged at pushed/server-
-confirmed pre-run a19e6c783. JOINED_WILSON.md/PROOF.md under physical_bridge.
+and positive finite kinetic argument in the same supplied action.83
+exact/67 separate-reference/18 tests pass after the disclosed correction at pushed/server-
+confirmed pre-run 7e2e6e72e. JOINED_WILSON.md/PROOF.md under physical_bridge.
 No generated selection/chiral SM: paired charged sectors,12 complex
 adjoint one-form profiles and at least4 Wilson coordinates plus prior
 relative mode remain. Next generated common register/join/action/domain

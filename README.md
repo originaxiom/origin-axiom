@@ -4,8 +4,8 @@
 > [Admitted joined Wilson phase](reports/physical_bridge_2026_09_05/JOINED_WILSON.md)
 > advances the supplied compact construction from SU5 to connected
 > [SU3 x SU2 x U1]/Z6 at zero full bare potential, with a finite positive
-> kinetic argument.81 exact/65 separate-reference/18 tests pass unchanged
-> at pre-run a19e6c783. Conditional analytic proof, not selected SM:
+> kinetic argument.83 exact/67 separate-reference/18 tests pass after the disclosed correction
+> at pre-run 7e2e6e72e. Conditional analytic proof, not selected SM:
 > charged modes remain paired;12 complex adjoint profiles and Wilson/
 > relative moduli need physical lifting. Generate the common register/
 > join/action/domain law; no parameter-free SM/TOE completion.

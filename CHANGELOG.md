@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-04 R93 corrected execution: conditional admitted SM phase retained
+
+83 exact/67 separate-reference/18 tests pass under corrected pre-run
+7e2e6e72e pushed/server-confirmed before import. Original81/65/18
+passes and the post-run alternating-tensor target-twist sign repair
+preserved. Conditional SM gauge phase/V=0/positive finite kinetic
+argument unchanged; no selected chiral SM,12 adjoint complex profiles
+and moduli/light-roster lifting still owed. Full SM/TOE unachieved.
+
 ## 2026-10-04 R93 post-first-run proof review and corrected pre-execution seal
 
 Original81/65/18 passes retained. Alternating-tensor target twist sign

@@ -1,7 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-October4 R93 H-PB-R93 EXECUTED unchanged after pre-run a19e6c783
-pushed/server-confirmed:81 exact/65 separate-reference/18 tests pass.
+October4 R93 H-PB-R93 EXECUTED after the disclosed correction after pre-run 7e2e6e72e
+pushed/server-confirmed:83 exact/67 separate-reference/18 tests pass.
 Actual R85 compact join/R86 primitive cycle, existing Wilson fields,
 full connected SM gauge kernel and same-action V=0; positive kinetic
 argument conditional on supplied compact admission. JOINED_WILSON.md/

@@ -3,8 +3,8 @@
 October4 R93: [admitted joined Wilson phase](JOINED_WILSON.md) spends
 R85 admission and R86 b1=1 in the existing SU5 connection. Conditional
 same-action SM connected group, zero full bare potential and finite
-positive kinetic argument; not selected chiral SM.81 exact/65 separate
-reference/18 tests pass unchanged at pre-run a19e6c783. Charged pairing,
+positive kinetic argument; not selected chiral SM.83 exact/67 separate
+reference/18 tests pass after the disclosed correction at pre-run 7e2e6e72e. Charged pairing,
 12 adjoint complex profiles, at least4 Wilson coordinates and prior
 relative mode remain. Generated register/join/action/domain and physical
 spectrum/interactions next; independent analytic acceptance owed.

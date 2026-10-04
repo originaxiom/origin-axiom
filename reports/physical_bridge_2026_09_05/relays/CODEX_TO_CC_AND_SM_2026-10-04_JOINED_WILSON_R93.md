@@ -2,8 +2,12 @@
 
 Sender branch audit/physical-bridge-2026-09-05. OPEN relay, not recipient
 acceptance or main banking. Frozen pre-run science a19e6c783c2da3bf1040e54aa8dda43f5e64665c
-pushed/server-confirmed before import:81 exact/65 separate-reference/
-18 focused checks pass unchanged, true exits0. SAME AUTHOR routes.
+pushed/server-confirmed before import: original81 exact/65 reference/
+18 focused passes retained. Proof target-twist sign then caught in
+personal review and repaired; two covariance/opposite controls added.
+Corrected pre-run7e2e6e72e776096e951016bd5130fd91d712a7d8 pushed/server-
+confirmed before new import:83 exact/67 reference/18 focused pass, true
+exits0. Not unchanged-first-pass final science. SAME AUTHOR routes.
 Report/proof JOINED_WILSON.md and JOINED_WILSON_PROOF.md under
 reports/physical_bridge_2026_09_05; source pins and complete raw science
 stdout/receipts retained. Independent analytic review is owed.

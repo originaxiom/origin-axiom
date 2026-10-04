@@ -3,9 +3,9 @@
 R93 advances a genuine conditional gauge-physics subproblem: actual
 compact rank-five/dual join plus its primitive one-cycle supports an
 existing Wilson connection with full connected SM gauge kernel at V=0.
-Authored finite positive kinetic argument, no added source.81 exact/
-65 separately structured reference/18 tests pass unchanged after pre-run
-a19e6c783 was pushed/server-confirmed. JOINED_WILSON.md/PROOF.md keep
+Authored finite positive kinetic argument, no added source.83 exact/
+67 separately structured reference/18 tests pass after the disclosed correction after pre-run
+7e2e6e72e was pushed/server-confirmed. JOINED_WILSON.md/PROOF.md keep
 the full E8 map and admission hypotheses. This is a PHASE, not genesis
 selection: two-block direction/metric/action/dictionary still supplied.
 All smooth closed charged sectors remain paired;12 complex SM-adjoint

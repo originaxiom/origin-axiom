@@ -17156,3 +17156,20 @@ Original81/65/18 logs/exits and six science hashes retained; conclusion
 unchanged but original controls did not test the sign. Corrected design/
 proof/code/test/disclosure resealed before rerun. No science failure,
 acceptance waiver, new chosen phase or full SM/TOE completion.
+
+R93 corrected science executed unchanged at fresh pre-run7e2e6e72e
+pushed/server-confirmed before import/collection:83 exact/67 separate-
+reference/18 focused tests pass, all exits0, read-only tracked tree.
+Corrected target-twist covariance and inverse-sign opposite now tested;
+original81/65 passes, six original science hashes and first custody
+snapshot preserved. Seven corrected science pins plus15 immutable inputs
+verified before runs. Conditional admitted SM gauge phase and physical
+costs unchanged; no generated selector/chiral SM/full TOE acceptance.
+
+R93 final governance26 PASS/four inherited FAIL categories, true exit1,
+same old offender paths/41 stale debts;88 OPEN and review due330. Raw
+stdout and original/corrected custody snapshots retained. Global latest-
+row digest read caught17 publication surfaces whose append patch matched
+an earlier repeated ledger context; fold forward at a unique final-tail
+context, preserve all old rows. Original6/corrected7 science and15 source
+pins unchanged; no suite/independent/main-bank/goal-completion claim.

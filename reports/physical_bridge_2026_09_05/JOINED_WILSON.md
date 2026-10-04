@@ -12,12 +12,16 @@ pushed and server-confirmed before any science import/test collection.
 Original81/81 native exact premises,65/65 separately structured modular/
 Fraction checks,18 focused tests pass, true exits0. Post-run proof review
 caught an untested twist sign; correction and added covariance controls
-are being resealed before rerun, not claimed as an unchanged first pass.
+were resealed before rerun, not claimed as an unchanged first pass.
 JOINED_WILSON_CORRECTION.md preserves the original and the derivation.
 The all-character conclusion is unchanged. Ten new LIVE tests
 and eight unchanged R91 tests. Both routes SAME AUTHOR, no nonauthor
 analytic acceptance, main banking or full-suite certificate. Six frozen
-science files and15 immutable source pins pass the preflight byte check.
+original science files and15 immutable source pins passed the first
+preflight. Corrected pre-run **7e2e6e72e776096e951016bd5130fd91d712a7d8**
+has seven byte-checked science files;83/83 exact,67/67 reference and18
+focused tests pass unchanged at that CORRECTED seal. Both servers were
+confirmed before their respective import/collection/run.
 
 ## What was actually joined
 
@@ -119,6 +123,10 @@ ae50903c. Full science stdout is published unchanged; raw command local
 paths are redacted in public receipts, raw originals retained. The
 capture helper refuses overwrite. No science failure; the subsequent
 proof-sign repair is disclosed and resealed before corrected execution.
+Corrected native25102bytes/sha1c888d97, reference2267/d1e2e70d,
+focused100/23411c3c. No overwritten or failed science logs. Both versions
+and the first custody snapshot remain available; receipts mark the
+post-run analytic sign repair, not an unchanged-first-pass final claim.
 Pre-seal relative input-path patch was corrected before sealing, not
 hidden as a science rerun. JOINED_WILSON_SEAL.json/RECEIPTS.json retain
 bytes, true exits, source pins and the acceptance boundary.
@@ -128,3 +136,13 @@ attribution five paths, vacuity two tests, provenance five paths and41
 stale relay debts;86 OPEN relays, review due329. No new offender path,
 baseline amendment or waiver. Final governance/custody are separate
 captures after surface updates; no full-suite/main-bank acceptance.
+
+Corrected final governance retains26 PASS/four inherited FAIL categories,
+same offender paths and41 stale debts,88 OPEN relays and review due330.
+Full stdout2284bytes/sha99e82d4f, true exit1 retained. Original custody
+snapshot verifies12 captures; corrected snapshot20, final receipt set21,
+six original/seven corrected science and15 input pins. A global latest-
+row digest read caught17 surface mismatches during publication: an append
+patch's repeated context had matched an earlier duplicate ledger row.
+Fold forward at a uniquely checked final-tail context, without removing
+old rows or changing immutable science. No certificate/criterion waived.
