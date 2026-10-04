@@ -1,5 +1,21 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**October4 R83: an effective quartic is not yet an exact order-selection law.**
+For the written smooth polynomial with independent linear sources,
+partial_y V(x,0)=-J2 whatever finite mixing d is; zero-source axis
+preference does not imply exact axes under generic sources. Frozen and
+relaxed potentials are distinct (R49/R50 already bank this distinction).
+R81 compact admission remains positive and does not choose an order.
+No actual d(q0) or physical chirality is computed. A separate SL5
+comparator scopes the received irreducibility criterion, not its index.
+Seal a255abfd pushed/server-confirmed before unchanged33 symbolic,413
+separate rational predicates and18 focused tests (8 new,10 R81), all pass.
+Report: reports/physical_bridge_2026_09_05/MIXING_SELECTION.md. Next
+earn one coupled source/end law with all own variations and the common
+physical domain; preserve the silver algebraic positive and all scoped
+cover/phase hatches. Full parameter-free SM/TOE ACTIVE/unachieved;
+independent review and full-suite/main banking remain open.
+
 **Current October2 R80: source profile direction tested, not physics completed.**
 For the supplied nonsplit flat coefficient and positive adjoint-source
 coupling, a boundaryless finite-energy zero-D completion needs sources

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "audit": "R83",
+  "science_seal": "a255abfdb2d4657b9a3d1f3bdef5a049d0d819b0",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_DESIGN.md",
+      "sha256": "96eb1ee7b47ad2d0c9fd46d15d79a061c1abb19874437a2a812537c7cfdd3387",
+      "bytes": 5008
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52",
+      "bytes": 6712
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_INPUTS.json",
+      "sha256": "e95094e8bcb77d22be0cd84bdf9f46eff3027331d9ab725cae36149850daff64",
+      "bytes": 2716
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mixing_selection.py",
+      "sha256": "2722bcd9ad23cb683b6149240390a7caf8f30c6164482c0f97359f31acba9c25",
+      "bytes": 4695
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mixing_selection_control.py",
+      "sha256": "380139391bd6991fadba8cfaedf7a552be32abc08f1aa4157db941c40f341981",
+      "bytes": 1462
+    },
+    {
+      "path": "tests/test_physical_bridge_mixing_selection.py",
+      "sha256": "fbdd3c94249c85c5e1737d8fe43f9ff120a737f011a8d9245edf4d5c35649f54",
+      "bytes": 1847
+    }
+  ],
+  "scope": "Six R83 paths only; not full-ledger or analytic certification"
+}

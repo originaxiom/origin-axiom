@@ -1,0 +1,1 @@
+{"frozen_science_paths":6,"local_pins":7,"foreign_pins":6,"raw_captures":11,"native":33,"reference":413,"focused":18,"scope":"R83 byte/population custody only; no whole-ledger or nonauthor analytic certificate"}

@@ -1,4 +1,20 @@
-# Verdict toward the full physical-theory goal - R82, updated 2026-10-03
+# Verdict toward the full physical-theory goal - R83, updated 2026-10-04
+
+**October4 R83: an effective quartic is not yet an exact order-selection law.**
+For the written smooth polynomial with independent linear sources,
+partial_y V(x,0)=-J2 whatever finite mixing d is; zero-source axis
+preference does not imply exact axes under generic sources. Frozen and
+relaxed potentials are distinct (R49/R50 already bank this distinction).
+R81 compact admission remains positive and does not choose an order.
+No actual d(q0) or physical chirality is computed. A separate SL5
+comparator scopes the received irreducibility criterion, not its index.
+Seal a255abfd pushed/server-confirmed before unchanged33 symbolic,413
+separate rational predicates and18 focused tests (8 new,10 R81), all pass.
+Report: reports/physical_bridge_2026_09_05/MIXING_SELECTION.md. Next
+earn one coupled source/end law with all own variations and the common
+physical domain; preserve the silver algebraic positive and all scoped
+cover/phase hatches. Full parameter-free SM/TOE ACTIVE/unachieved;
+independent review and full-suite/main banking remain open.
 
 **October3 R82: CS critical-value blindness is not deletion of the field functional.**
 B1012's scalar geometric value at CS_geom=0 remains independent of k.
@@ -34,11 +50,11 @@ variations, then the same-model physical spectrum/anomalies. See
 reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION.md. Nonauthor
 analytic review/full-suite/main-bank acceptance remain pending.
 
-The full objective is unchanged and unachieved. The turn began with an
-ACTIVE interface reading; after R82 publication001651aa the latest
-reading is usageLimited. No goal was completed, paused, replaced or
-marked mathematically blocked. The research mission remains in force,
-but unattended automatic continuation is currently scheduler-limited.
+The full objective is unchanged and unachieved. The October4 continuation
+reports ACTIVE with the original objective. The October3 turn began with
+ACTIVE; after R82 publication001651aa it reported usageLimited. That is
+historical scheduler state, not a mathematical blocker. No goal was
+completed, paused, replaced or marked blocked. The mission remains in force.
 An active mission is not a guarantee of scientific success.
 Earlier dated snapshots below are preserved as history, not current grades.
 

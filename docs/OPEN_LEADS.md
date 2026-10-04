@@ -4555,3 +4555,27 @@ architecture. SOURCE_PROFILE_RECEIPTS.json preserves first outputs.
 Keep the3d complex CS theory distinct from the supplied7d parent and
 its CS superpotential. Compute spectrum and observables only after the
 same-theory physical action/domain join; full SM/TOE remains unachieved.
+
+## October4 R83 effective-potential and exact-order duties
+
+- PB-SELECTION: the finite smooth even quartic with independent linear
+  sources cannot put a generic source exactly on an axis; this inference
+  alone is closed. Closing sentence/proof: MIXING_SELECTION_PROOF.md M1
+  in the physical-bridge report. Constraints, nonlinear/dynamical sources,
+  other boundary laws and quantum phases are not closed by this check.
+- PB-ACTION: distinguish R76's frozen metric slice, fully relaxed energy
+  and quantum effective action. R49/R50 already demonstrate relaxation;
+  no numerical d(q0), common two-parameter chart or actual profile computed.
+- PB-BOUNDARY: conditional R81 compact admission applies to any supplied
+  smooth flat SL5 silver W as well; does not select W against its dual.
+  Derive one generated boundary/partner law with both full currents and
+  all field variations, then the common fermion/gauge domain.
+- PB-REVIEW: main B1466's Schur/no-fixed-vector criterion is insufficient
+  for irreducibility. Request a valid certificate and exact/interval
+  flatness; its received numerical index0 is not refuted here.
+- PB-CAP: SM536dfba1's new cap step(c2) needs primary-proof transport
+  review including trivial-nu-squared cusps. Complete direct relay read,
+  not its whole theorem/census accepted. Keep the silver algebraic
+  positive and nonabelian, non-unitary, off-hyperbolic hatches explicit.
+- PB-COORDINATION: sender R83 relay OPEN; R81/R82 independent analytic
+  reviews remain OPEN. No recipient banking, full-suite or TOE claimed.

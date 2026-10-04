@@ -16713,3 +16713,29 @@ requested in a direct sender relay. R81's actual compact-boundary
 admission stays positive; its boundary-selection cost is not erased.
 Full parameter-free SM/TOE ACTIVE and unachieved; earlier scheduler
 usageLimited notes above are dated history, not a replacement objective.
+
+## 2026-10-04 — R83 effective-quartic/order-selection reply
+
+Full parameter-free Standard Model/TOE goal read ACTIVE, unchanged and
+unachieved. All origin heads fetched; main39775d66 and SM536dfba1 new work
+received, not main merged. Main's full B1466 bodies/producers and both
+direct relays personally read; SM's complete interior/cusp-cap relays read.
+The silver generation-shaped algebraic positive and scoped cover hatches
+are retained. Foreign censuses/theorems have not been independently rerun.
+
+Science a255abfdb2d4657b9a3d1f3bdef5a049d0d819b0 pushed/server-confirmed
+BEFORE imports/runs. First unchanged33 native,413 separate predicates,
+18 focused tests (8 new,10 R81) pass. Smooth finite even mixing d cannot
+put independent generic linear sources EXACTLY on an axis; zero-source
+fixed-radius preference retained. Prior R49/R50 relaxation is credited,
+R76's different-carrier frozen slice is not a q0 effective coefficient.
+R81 admission survives but does not select an order. No actual d(q0).
+
+SL5 free-group Schur comparator qualifies an irreducibility criterion,
+not actual B1466 module/index. Ask for valid subspace/algebra-span and
+flatness certificates. Compact silver-state admission follows conditionally
+from R81's general theorem, no new numeric H/flux or physical chiral count.
+Next common coupled law with all variations and domains, plus independent
+cap step(c2) hypothesis transport. Four inherited governance failing
+categories, no full-suite/main bank or scientific premise waived.
+Report MIXING_SELECTION.md; five fresh relay rows OPEN; R81/R82 review open.

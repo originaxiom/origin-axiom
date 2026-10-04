@@ -1,5 +1,18 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October4 path-local R83: main B1466 is received at39775d66, not replayed.
+Its smooth independent-linear-source toy has transverse gradient -J2
+on the x axis regardless of finite d. The zero-source fixed-radius
+criterion does not select exact axes for a generic source. R49/R50's
+frozen-versus-relaxed distinction is prior work; R81 admission remains.
+No counted-point coefficient is computed. The exact Schur comparator
+scopes a proof criterion, not the actual module's reducibility or index.
+Authored proof M1--M4: reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md;
+tests/test_physical_bridge_mixing_selection.py,33/413 predicates and18
+focused tests pass unchanged at seal a255abfd. No B allocation, main
+law banking or independent analytic acceptance. Physical-law construction
+remains a duty, not a row asserting a derived selector.
+
 **Current October2 R80: source profile direction tested, not physics completed.**
 For the supplied nonsplit flat coefficient and positive adjoint-source
 coupling, a boundaryless finite-energy zero-D completion needs sources

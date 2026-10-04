@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-10-04 — R83: answer the effective-quartic/order-selection request
+
+Science a255abfd pushed/server-confirmed before unchanged33 native,
+413 separate rational predicates and18 focused tests (8 new,10 R81),
+all pass. Main B1466's written smooth linear-source potential cannot
+return a generic source EXACTLY to an axis for any finite mixing d.
+Zero-source fixed-radius preference retained. R49/R50 prior relaxation
+distinction credited; R76 is a frozen-metric slice on a different carrier,
+not a numeric effective coefficient at q0. R81 admission survives and
+does not select an order. No d(q0), physical chirality or TOE computed.
+
+Exact SL5 free-group comparator refutes an irreducibility CRITERION,
+not the received module/index. Main B1466 bodies/producers and two relays
+personally read; not reexecuted. SM interior/cusp-cap relays read fully;
+silver algebraic generation-shaped positive and scoped cover hatches
+retained. Independent cap hypothesis-transport review is next, together
+with one actual coupled source/end law and its complete variations.
+Four inherited governance failing categories, no full-suite/main bank.
+Report MIXING_SELECTION.md; sender review relay OPEN. Full mission active.
+
 ## 2026-10-03 — R82: zero geometric CS value does not delete the field functional
 
 Seal2ca00f62 pushed/server-confirmed before unchanged24 symbolic controls,

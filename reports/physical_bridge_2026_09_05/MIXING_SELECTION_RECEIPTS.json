@@ -1,0 +1,277 @@
+{
+  "schema": 1,
+  "audit": "R83",
+  "science_seal": "a255abfdb2d4657b9a3d1f3bdef5a049d0d819b0",
+  "runs": {
+    "all_heads": {
+      "raw_basename": "all_heads",
+      "raw_receipt_sha256": "9ab711faf1d12c8ada0e664c028f2ee37598bb733ecbfcf86f531b586629bb99",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-ropen3",
+          "-e",
+          "refs,s=Open3.capture2(\"git\",\"for-each-ref\",\"--format=%(refname)\",\"refs/remotes/origin\"); abort unless s.success?; refs.lines.map(&:strip).reject{|r|r==\"refs/remotes/origin/HEAD\"}.each{|r|o,e,v=Open3.capture3(\"git\",\"grep\",\"-Il\",\"-E\",\"mixing quartic|quartic.*relax|commutant.*irreducib\",r,\"--\",\"frontier\",\"reports\",\"docs\"); abort e unless [0,1].include?(v.exitstatus); puts \"HEAD #{r}\"; puts o}"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 47.983210000093095,
+        "log_bytes": 20661,
+        "log_sha256": "570de83fcb457d3aedff78a5416f17135ea666f860696b8caab484ffa194f217"
+      },
+      "navigation_summary": {
+        "cached_origin_refs": 15,
+        "matching_path_lines": 205,
+        "scope": "Cached-ref navigation, not semantic absence or live server census"
+      }
+    },
+    "atlas": {
+      "raw_basename": "atlas",
+      "raw_receipt_sha256": "8e7c49d0aae985f320d3b65ffee7f16a8c6a7b8f31e9631d40428729feba9bfc",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/atlas/query.py",
+          "card"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.09331999998539686,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "stdout_redacted": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    "collection_first": {
+      "raw_basename": "collection_first",
+      "raw_receipt_sha256": "512133785820c276821b0585264704fe9821ccf8df875def840747d423c77c69",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-p",
+          "no:cacheprovider",
+          "-q",
+          "--collect-only",
+          "tests/test_physical_bridge_mixing_selection.py",
+          "tests/test_physical_bridge_dirichlet_admission.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.40968000004068,
+        "log_bytes": 1674,
+        "log_sha256": "9b20a37b73ddaf5f4753010e61fd8b622ec2a03c10b1d2ea87fd253f7839e450"
+      },
+      "stdout_redacted": "tests/test_physical_bridge_mixing_selection.py::test_generic_linear_source_not_exact_axis_even_at_large_quartic\ntests/test_physical_bridge_mixing_selection.py::test_zero_source_phase_comparison_and_normalization_are_retained\ntests/test_physical_bridge_mixing_selection.py::test_relaxation_uses_full_nonorthogonal_gram_projection\ntests/test_physical_bridge_mixing_selection.py::test_obstructed_and_wrong_sign_and_sixth_order_opposite_controls\ntests/test_physical_bridge_mixing_selection.py::test_curvature_and_profile_placement_change_frozen_mixing_quartic\ntests/test_physical_bridge_mixing_selection.py::test_schur_and_no_trivial_fixed_vectors_do_not_certify_irreducible\ntests/test_physical_bridge_mixing_selection.py::test_fixed_native_population\ntests/test_physical_bridge_mixing_selection.py::test_separate_rational_population\ntests/test_physical_bridge_dirichlet_admission.py::test_native_checks\ntests/test_physical_bridge_dirichlet_admission.py::test_separate_reference\ntests/test_physical_bridge_dirichlet_admission.py::test_periodic_loop_is_genuinely_nonsplit\ntests/test_physical_bridge_dirichlet_admission.py::test_transport_sign\ntests/test_physical_bridge_dirichlet_admission.py::test_entire_flat_and_moment_matrices\ntests/test_physical_bridge_dirichlet_admission.py::test_wrong_radial_sign_is_rejected\ntests/test_physical_bridge_dirichlet_admission.py::test_actual_outward_flux_not_zero\ntests/test_physical_bridge_dirichlet_admission.py::test_positive_compact_metric\ntests/test_physical_bridge_dirichlet_admission.py::test_pole_is_not_a_complete_extension\ntests/test_physical_bridge_dirichlet_admission.py::test_opposite_split_control\n\n18 tests collected in 1.76s\n"
+    },
+    "custody_first": {
+      "raw_basename": "custody_first",
+      "raw_receipt_sha256": "5360e75d03cdd9b33e933d2152a948e90a6eda0a7404c3219e44adeeef7de065",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/mixing_selection_receipt_check.rb",
+          "<mixing-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 6.9805840000044554,
+        "log_bytes": 212,
+        "log_sha256": "8bacb987f94d84e59355e9b63574025c4167d2de46a18cea976f37899c2457d7"
+      },
+      "stdout_redacted": "{\"frozen_science_paths\":6,\"local_pins\":7,\"foreign_pins\":6,\"raw_captures\":11,\"native\":33,\"reference\":413,\"focused\":18,\"scope\":\"R83 byte/population custody only; no whole-ledger or nonauthor analytic certificate\"}\n"
+    },
+    "focus_first": {
+      "raw_basename": "focus_first",
+      "raw_receipt_sha256": "6b881469f5e21f095c6c4ead1038d871e6d2672975dd172663cef920c66910fe",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-p",
+          "no:cacheprovider",
+          "-q",
+          "tests/test_physical_bridge_mixing_selection.py",
+          "tests/test_physical_bridge_dirichlet_admission.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.429528999957256,
+        "log_bytes": 99,
+        "log_sha256": "6bc0f5c80e0e9059f5b301f975c9e179edf2d54a0337735ac25210135ba74dde"
+      },
+      "stdout_redacted": "..................                                                       [100%]\n18 passed in 2.71s\n"
+    },
+    "governance_final": {
+      "raw_basename": "governance_final",
+      "raw_receipt_sha256": "87221de008fa102ef642cdd420fa26cc8537066504e21f501aab0bd0827f12e8",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 41.15755000000354,
+        "log_bytes": 2189,
+        "log_sha256": "12ff54fd2ec8d4ea3102dc44fbb7a498c1340692c03a34b3f8f9ede50bde6864"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 73 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 43 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 302 merges since last review (DUE — run the decadal review)\n"
+    },
+    "governance_first": {
+      "raw_basename": "governance_first",
+      "raw_receipt_sha256": "da017b9dc6133477ea6c44ae6d422ba96cb4c45357f40fdd9c9efd0c14e7c3d9",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 41.10098200000357,
+        "log_bytes": 2189,
+        "log_sha256": "9778f40f01684183803b4bb62942c89a38330d44de4ed02293cff0e96ac3fa63"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 68 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 43 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 302 merges since last review (DUE — run the decadal review)\n"
+    },
+    "native_first": {
+      "raw_basename": "native_first",
+      "raw_receipt_sha256": "af1a1ff4251b1f5dc77395a08bb22e92aa93d89a414a08d5665b74df93cf4eb2",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/mixing_selection.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.1327779999701306,
+        "log_bytes": 2048,
+        "log_sha256": "4bc6ad5b6c4e0aa47cec815a3c7189406ca94fc70bd3edf84036d8633a640211"
+      },
+      "stdout_redacted": "{\n  \"all_checks_pass\": true,\n  \"groups\": {\n    \"profiles\": {\n      \"checks\": {\n        \"curvature_omission_rejected\": true,\n        \"one_axis_retains_positive_cost\": true,\n        \"same_direction_full_moment\": true,\n        \"same_direction_mixed_zero\": true,\n        \"same_direction_quartic\": true,\n        \"transverse_curvature_live\": true,\n        \"transverse_full_quartic\": true,\n        \"transverse_mixed_not_zero\": true\n      },\n      \"same_direction\": \"x**4/2 - x**2*y**2 + y**4/2\",\n      \"transverse\": \"x**4/2 + x**2*y**2 + y**4/2\"\n    },\n    \"projection\": {\n      \"beta\": [\n        \"-u/2 - v/2\",\n        \"-u/2 + v/2\"\n      ],\n      \"checks\": {\n        \"frozen_coefficient\": true,\n        \"full_gram_minimizer\": true,\n        \"obstruction_stays_positive\": true,\n        \"projector_idempotent\": true,\n        \"projector_self_adjoint\": true,\n        \"relaxed_coefficient\": true,\n        \"sixth_order_survives\": true,\n        \"unobstructed_not_frozen_zero\": true,\n        \"wrong_sign_correction_rejected\": true\n      },\n      \"relaxed\": \"w**2\"\n    },\n    \"scalar\": {\n      \"axis_gradient\": \"-J2\",\n      \"checks\": {\n        \"coordinate_ratio_invariant\": true,\n        \"finite_response_not_projection\": true,\n        \"large_d_still_not_exact_axis\": true,\n        \"transverse_hessian\": true,\n        \"x_axis_requires_transverse_source_zero\": true,\n        \"y_axis_requires_transverse_source_zero\": true,\n        \"zero_source_radius_comparison\": true,\n        \"zero_transverse_source_axis_possible\": true\n      }\n    },\n    \"schur\": {\n      \"checks\": {\n        \"commutant_scalar\": true,\n        \"determinants_one\": true,\n        \"full_proper_flag_invariant\": true,\n        \"invariant_line_not_reducing_complement\": true,\n        \"line_not_trivial_representation\": true,\n        \"no_dual_trivial_fixed_vector\": true,\n        \"no_trivial_fixed_vector\": true,\n        \"proper_line_invariant\": true\n      },\n      \"commutant_dimension\": 1,\n      \"scope\": \"SL5 free-group comparator, not figure-eight witness\"\n    }\n  },\n  \"passed\": 33,\n  \"total\": 33\n}\n"
+    },
+    "prior": {
+      "raw_basename": "prior",
+      "raw_receipt_sha256": "71bb5e0384490a0e41aaa2681dacb9ef0045f9c3c130a3b7d96d3267d4474cc0",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/checks/already_banked.py",
+          "mixing quartic source relaxation axis"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.9946239999262616,
+        "log_bytes": 3494,
+        "log_sha256": "0ff8662029db6e33b4cfd48aae89880a1d71d647c9a454297ddb3d83c1d1b93c"
+      },
+      "stdout_redacted": "already-banked: terms ['mixing', 'quartic', 'source', 'relaxation', 'axis']\n  167 corpus hits; 1 SETTLED arcs matching >= 3 of 5 terms\n      [ 4 terms] FINDINGS  frontier/B530_natural_history/FINDINGS.md\n           # B530 — The natural history of the full object. Movement I: its own grammar \n  *** [ 3 terms] PROVED    B1238_seat_harvest_40a3_bronze_octic\n           THE SEAT HARVEST, THIRD RING (codex R037-R039 @ e40d46ad; the physics-seat evaluation branch R39-R41 + the W-E absence sweep @ 1c980e69; nothing merged, every number recomputed here): (1) THE CHARACTER VARIETY IS THE SQU\n  *** [ 2 terms] PROVED    B1023_phase2_concessions\n           PHASE 2'S CONCESSIONS, V2: TWO DEFECTS FIXED, THEN TWO BLOCKERS ON THE FIX ITSELF -- CONCEDED AND PINNED OPEN, the second correction arriving from cc3 BEFORE the batch banked. ROUND 1: C1 conceded -- B1009's refusal cite\n  *** [ 2 terms] PROVED    B1026_nomination\n           THE NOMINATION CELL, DATA-BLIND, sealed 7e798db1: NOMINATED -- the chi phases vs the CP phases at exactly 2.0 priced bits (THEOREM grade; sign 1 bit + sector 1 bit; the object set reduced to {+-2pi/3} by the banked nontr\n  *** [ 2 terms] PROVED    B1237_physics_seat_r31_r38_harvest\n           THE PHYSICS-SEAT HARVEST, SECOND RING (R31-R38 + the W-D synthesis of the physics-seat evaluation branch @ d415423a; every correction recomputed here, nothing merged): (1) SILVER IS ARITHMETIC -- m136's invariant trace f\n  *** [ 2 terms] PROVED    B885_interbreaking\n           The inter-breaking dictionary on the 27 -- the same 27 graded by all three measurement frames, all pairwise tables computed obliquely. TWO STRUCTURAL LAWS, uniform across the three Galois pairs, zeros at 1e-21 to 1e-26: \n  *** [ 2 terms] NEGATIVE  B947_thinning_law\n           L130 -- IS THE THINNING LAW A LAW? OUTCOME SPECIAL against a criterion sealed and pushed BEFORE compute, with the prior disclosed as SPECIAL and LAW named as the convenient answer needing the higher bar; IT DID NOT CLEAR\n  *** [ 2 terms] PROVED    B993_cornerstone_verified\n           THE CORNERSTONE VERIFIED ON THIS BENCH: THE OBJECT-SPECIFIC ATOM IS GENERIC AT ROUGHLY 1 IN 3. cc3-s cornerstone synthesis returns NOT YET -- and not for want of theorems, but because the cornerstone has no object under \n  *** [ 1 terms] PROVED    B1000_input_count\n           THE EXTERNAL INPUTS CLOSE ON B717-S FOUR SECTORS, BUT CHARGE NEEDS TWO CLOSINGS. Prereg 7e920329 sealed AND PUSHED before compute with the declared prior OUTCOME B, specifically greater than four, i.e. this cell was EXPE\n  *** [ 1 terms] PROVED    B1001_four_digit_blindspot\n           TWO INSTRUMENT DEFECTS SURFACED BY B1000 CROSSING A BOUNDARY. B1001: scripts/atlas/atlas.py matched arc directories with the regex B\\d{1,3}, CAPPED AT THREE DIGITS, so B1000 -- the first four-digit arc -- was SILENTLY SK\n  *** [ 1 terms] PROVED    B1002_conductor_reconciled\n           B997-S OWED CHECK DISCHARGED: THE CONDUCTOR IDENTIFICATION IS RIGHT, AND CONDUCTOR NAMES TWO THINGS. B997 proved the golden is the UNIQUE metallic grammar whose own-conductor shadow group is a McKay group, conditional on\n  *** [ 1 terms] NEGATIVE  B1006_lambda2_pslq\n           THE OBJECT-S OWN SPECTRAL VALUE IS NOT LOW-DEGREE ALGEBRAIC: THE VALUE LAYER-S FIRST INFORMATIVE NULL. Prereg 107ae00f sealed AND PUSHED before compute, declared prior OUTCOME B, and the prior held. P0: computes over m00\n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    "reference_first": {
+      "raw_basename": "reference_first",
+      "raw_receipt_sha256": "e8b5e69eb80a9a391205a834587f02cd790461797d50edb981607f5b631fcb64",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/mixing_selection_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.07444100000429899,
+        "log_bytes": 239,
+        "log_sha256": "bb750715efab939bb6809c9520221cb996a5aa6add97277b0b9a9beb949ff1b9"
+      },
+      "stdout_redacted": "{\n  \"all_checks_pass\": true,\n  \"flag_predicates\": 2,\n  \"passed\": 413,\n  \"projection_predicates\": 375,\n  \"scalar_predicates\": 36,\n  \"scope\": \"separate same-author exact implementation, not independent analytic acceptance\",\n  \"total\": 413\n}\n"
+    },
+    "seal_commit": {
+      "raw_basename": "seal_commit",
+      "raw_receipt_sha256": "7ea5c3b24e28c2cf64e25acd3484ec3d2b273aa87e4c8a03d3e1cf727fca68fc",
+      "receipt": {
+        "command": [
+          "git",
+          "-c",
+          "core.hooksPath=/dev/null",
+          "commit",
+          "-m",
+          "R83 seal source-axis and effective-quartic reply before execution"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.10013899998739362,
+        "log_bytes": 619,
+        "log_sha256": "4427a54c425a116f91dd41c9f05833be6b7283dc9c892551d42ea11e0d1a1323"
+      },
+      "stdout_redacted": "[audit/physical-bridge-2026-09-05 a255abfdb] R83 seal source-axis and effective-quartic reply before execution\n 7 files changed, 452 insertions(+)\n create mode 100644 reports/physical_bridge_2026_09_05/MIXING_SELECTION_DESIGN.md\n create mode 100644 reports/physical_bridge_2026_09_05/MIXING_SELECTION_INPUTS.json\n create mode 100644 reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md\n create mode 100644 reports/physical_bridge_2026_09_05/mixing_selection.py\n create mode 100644 reports/physical_bridge_2026_09_05/mixing_selection_control.py\n create mode 100644 tests/test_physical_bridge_mixing_selection.py\n"
+    },
+    "seal_push": {
+      "raw_basename": "seal_push",
+      "raw_receipt_sha256": "23061f705e1bf564aa4759c86bfd93d3875da662a2b8d47515c010b921c1ab26",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "core.hooksPath=/dev/null",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "push",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.4133339999243617,
+        "log_bytes": 117,
+        "log_sha256": "4fc1a9148aae15f5f0ac718c49c5c64ef1bc97073e746630790e37238353836d"
+      },
+      "stdout_redacted": "To https://github.com/originaxiom/origin-axiom.git\n   c7aa3a297..a255abfdb  HEAD -> audit/physical-bridge-2026-09-05\n"
+    },
+    "seal_server": {
+      "raw_basename": "seal_server",
+      "raw_receipt_sha256": "3826629b135c282df436f70b263f7b9ec5effe256959d36bb5bb97f25e194ed8",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.8856910000322387,
+        "log_bytes": 85,
+        "log_sha256": "3ff111e4f9ffc9786e087bc725009d60844b5265620ab6223df7838466fb5c55"
+      },
+      "stdout_redacted": "a255abfdb2d4657b9a3d1f3bdef5a049d0d819b0\trefs/heads/audit/physical-bridge-2026-09-05\n"
+    }
+  },
+  "scope": "Actual first exits and raw digests; not physical or independent analytic acceptance"
+}
