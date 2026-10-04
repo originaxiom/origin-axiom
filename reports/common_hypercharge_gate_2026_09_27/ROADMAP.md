@@ -309,8 +309,8 @@ laws. The linear interior positive remains. Derive the actual allowed
 degree-zero channels and degree-two outputs from the same full-parent
 boundary variation before choosing a replacement domain.
 
-All 15 remote heads were refreshed again: main cb09deb04 and SM e41609cfd
-are unchanged; physical bridge is c0f162fdc. R85's 60 exact predicates and
+The previous refresh retained 15 remote-tracking branch refs at main
+cb09deb04, SM e41609cfd and physical c0f162fdc. R85's 60 exact predicates and
 75 modular witness checks reproduce, with its 12 primitive root controls.
 R86's newly published 84 exact predicates and 141 modular witness checks
 also reproduce byte-for-byte. The closed join has paired charged counts
@@ -320,6 +320,29 @@ useful same-model positives, not an OA-selected join, full-parent trace
 invariant, chiral spectrum or derived SM vacuum. Do not duplicate the
 source's stated next full-parent invariant test. Keep the closed join as
 a comparator rather than silently transplanting its result onto silver.
+
+The [new boundary variation packet](../silver_boundary_variation_2026_10_04/FINDINGS.md)
+preserves every actual silver pair at the necessary holomorphic boundary
+test, including m136. It distinguishes that positive from the stronger
+trace-algebra condition. Its six-channel parameter kernel is not closed
+in the nonsplit states: the E times F product has rank-one escape in all
+four cases. Thirteen local focused tests pass, including retained tensor
+controls. A smooth exact comparator also separates quartic interactions
+from flat-family integrability; neither is a physical spectrum claim.
+The next duty is the common full-parent real boundary problem, including
+neutral channels and the fermionic differential conditions.
+
+The [latest branch review](../silver_boundary_variation_2026_10_04/BRANCH_REVIEW.md)
+directly verifies eight currently live server heads, while preserving
+all fifteen locally retained refs. R87 at physical d18fae3da resolves
+the full-parent detector duty: 145 exact and 209 modular predicates
+reproduce byte-for-byte, and 12 focused tests pass. The later physical
+125e49a92 seal is a compact kinetic test, not a result adopted by this
+fork. SM0762032d9 remains pre-seal puncture work; a pinned synthetic
+check reproduces coverage risks in its negative readout while preserving
+its correctly guarded new quaternion check. Do not confuse incomplete
+records with a mathematical negative or combine the closed dynamics
+comparator and silver matter candidate without a map of physical models.
 
 - [ ] A declared spacetime/dynamical interpretation and common action.
 - [ ] Consistent quantum theory and complete anomaly bookkeeping.

@@ -5,7 +5,21 @@ new calculation, a derived source law or a completed physical theory.
 It uses the audit to stop cross-model substitutions and redundant scans.
 The goal remains a parameter-free Standard Model and full physical theory.
 
-Latest cross-seat refresh: the
+Latest update: the [boundary variation and branch packet](../silver_boundary_variation_2026_10_04/FINDINGS.md)
+preserves all four silver candidates at the necessary paired holomorphic
+boundary-form test. The partial degree-zero gauge screen is not closed
+in any nonsplit case, so it cannot serve as the full gauge algebra.
+Thirteen local focused tests pass. R87's full E8 gluing invariant now
+reproduces exactly and modularly, with 12 replay tests passing; the
+physical seat's subsequent kinetic test is sealed, not adopted here.
+The current SM puncture readout retains a reproduced completeness risk.
+A direct server inventory finds eight live heads, distinct from the
+fifteen historical/live origin refs retained locally. Full identities
+and reading grades are in the [branch review](../silver_boundary_variation_2026_10_04/BRANCH_REVIEW.md).
+The same-action/domain priority remains, now without imposing nonlinear
+flat-family integrability as an automatic requirement on every fluctuation.
+
+Earlier cross-seat refresh: the
 [spin-swap audit](../spin_swap_audit_2026_10_04/FINDINGS.md) reads main's
 new L246/B1474 design and SM B1537 at cb09deb04/e41609cfd. Exact controls
 show that L246's proposed conjugate subtraction can vanish despite a
@@ -130,9 +144,17 @@ A separately sealed argument excludes every 1/3 exterior subspace pair
 in the two m136 cases under those assumptions, but does not exclude m135.
 Seventeen focused tests pass. These are not universal physical-domain
 requirements: R61's full-parent reality and variation duties remain.
-Next derive whether the actual physical end law admits these degree-zero
-channels and degree-two outputs, then recompute its full coupled spectrum.
-One common interacting boundary law must replace favorable sector choices.
+The [later variation test](../silver_boundary_variation_2026_10_04/FINDINGS.md)
+shows that all four candidates pass paired holomorphic isotropy. The
+maximal complex parameter kernels for the six charged linear constraints
+have dimensions (1,0,1,0) in the nonsplit states, but E times F escapes
+their zero F-dual target with rank one in every case. This partial screen
+is not the full gauge algebra. Derive the full neutral/charged parent
+boundary variations, compact reality and differential domain together.
+Nonzero products can be interactions rather than exclusions of linear
+fluctuations; the smooth quartic control verifies that distinction without
+claiming physical silver admission. One common interacting boundary law
+must replace favorable sector choices.
 
 The [full-degree and Hessian follow-up](../free_boundary_completion_2026_10_04/FINDINGS.md)
 now supplies two additional controls, not a completed physical domain:
