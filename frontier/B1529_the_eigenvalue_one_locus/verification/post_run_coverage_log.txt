@@ -45,3 +45,4 @@ mLLLLRLRRRLRR E1 68.2125 (failed): route None, alpha None, off by None, 2750 s
 mLLLLRLRRRLRR E1 113.2125 (failed): route None, alpha None, off by None, 3451 s
 mLLLLRLRRRLRR E1 23.2125 (missed): route None, alpha None, off by None, 8302 s
 mLLLLRLRRRLRR E1 158.2125 (failed): route None, alpha None, off by None, 3927 s
+mLLLLRLRRRLRR E1 248.2125 (failed): route None, alpha None, off by None, 1916 s
