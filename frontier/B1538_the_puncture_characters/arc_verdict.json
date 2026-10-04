@@ -1,0 +1,134 @@
+{
+ "id": "B1538",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1535",
+  "B1536",
+  "B1534",
+  "B1532",
+  "B1530",
+  "B1529",
+  "B1527",
+  "B1515",
+  "B1509",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "every fibre-direction cover M_{D,w} with 2 <= ∣D∣ <= 12 of m004, m003, m136 and m135 (80 covers), at every finite-order character non-trivial on a puncture whose fibre part has order dividing m(C) (2,406,622 characters in 662,988 Galois orbits), every root of unity s, at the hyperbolic point",
+  "reach": "class",
+  "hypotheses": [
+   "sealed: no outcome has been read; this record is replaced at the bank",
+   "at the hyperbolic point only; unitary (finite-order) characters; fibre characters of order dividing m(C) (12 on 79 covers, 6 on one)",
+   "Proposition H's three statements are sealed predictions (P9-P11), not results: its proof is design-time, its supplies are read by the run",
+   "coverage: a negative is read only on records complete against K11's manifest and every planned Part F reading; missing or empty records leave a prediction unresolved (R87)",
+   "larger covers, other states and levels, non-abelian fibre deck groups (sm:B1536), non-unitary characters and the class readings are not covered (the seal's section 10)"
+  ]
+ },
+ "claim_one_line": "THE PUNCTURE CHARACTERS, SEALED (sL-10 item 15; sm:B1535's Corollary C3, first place): on every fibre-direction cover M_{D,w} with 2 <= ∣D∣ <= 12 of m004 (5), m003 (9), m136 (29) and m135 (37), at every character non-trivial on a puncture (fibre part of order dividing m(C); 2,406,622 characters in 662,988 Galois orbits; every root of unity s), does the line's interior supply n reach 2 (Part L, routes W exact, P mod two primes, T the transfer), and at every member over such a character is the four's supply capL2 >= 2 too (Part F, routes R and P4)? By Theorem C with Lemmas 2 and W', room for two generations on M_{D,w} needs exactly that. Proposition H (the quaternion line): on every state's (Z/2)^2 cover, at the character zeta_H that cuts out the Q8 cover, the line's supply sums to 4 over the roots of unity, is at most 2 at any s where the monodromy moves Q8, and is even where it fixes Q8; sealed as P9-P11, P9 the run's positive control. Controls K0-K12 hold on banked, literature and design-time data; a population-wide prediction is certified only on records complete against K11's manifest and every planned Part F reading, its fourth roots certified by brute force (the audit lane's R87 and R89). Eleven predictions with priors (expected 8.23; P4-P8 revised before the seal, the draft's values shown); NEGATIVE (scoped) if P1-P3, P9 and P8 hold. No outcome has been read. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-04 09:21Z)": "e41609cf",
+    "main (at the sweep, 2026-10-04 09:21Z)": "cb09deb0",
+    "origin/audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-04 09:21Z)": "d1e0d049",
+    "origin/seat/determined-hopper-t1cmii (at the sweep, 2026-10-04 09:21Z)": "7cda35aa",
+    "origin/seat/magical-wright-vwrmtt (at the sweep, 2026-10-04 09:21Z)": "0043be2b",
+    "origin/seat/outside-bench (at the sweep, 2026-10-04 09:21Z)": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-04 09:21Z)": "5d58b935",
+    "origin/seat/physics-seat-evaluation-8dkbrl (at the sweep, 2026-10-04 09:21Z)": "659487bb",
+    "origin/sep16-branch (at the sweep, 2026-10-04 09:21Z)": "3205984b",
+    "origin/art/camper-van-bar (at the sweep, 2026-10-04 09:21Z)": "b3745696"
+   },
+   "terms": [
+    "puncture character",
+    "puncture-trivial",
+    "fibre-direction",
+    "fiber-direction",
+    "line supply",
+    "origami",
+    "square-tiled",
+    "Wollmilchsau",
+    "Putman",
+    "Prym",
+    "Burau",
+    "torsion coset",
+    "polcyclofactors",
+    "cyclotomic factor",
+    "Lemma W",
+    "b1 > cusps"
+   ],
+   "hits": [
+    {
+     "where": "sm:B1532, sm:B1534, sm:B1535, sm:B1536 (this seat)",
+     "bearing": "Theorem C, Lemma W and Corollary C3 (sm:B1535) are the frame read here; sm:B1536 (sealed and running) reads every cover of degree <= 12 of m004 and m003 at pulled-back characters only, and its records are not read here"
+    },
+    {
+     "where": "frontier/B349 (a structural census)",
+     "bearing": "every cover of the figure-eight through index 6 by SnapPy, with H1; its index-4 irregular cover with H1 = Z^2 is m004's ∣D∣ = 4 cover here (two cusps, b1 = 2, Lemma 2)"
+    },
+    {
+     "where": "origin/seat/physics-seat-evaluation-8dkbrl:reports/fresh_physics_seat_2026-09-01/R57_THE_THREE_STRANDS.md",
+     "bearing": "the three half-periods E[2] minus 0, joined by the monodromy's 3-cycle, are the three-puncture orbit of m004's ∣D∣ = 4 cover here; R57 proposed a fibre-frame count, computed no twisted cohomology, and verified the Burau/Alexander fact control K7 uses (its theta link withdrawn by its R60)"
+    },
+    {
+     "where": "origin/audit/physical-bridge-2026-09-05: RIGIDITY_TRANSPORT_PROOF.md RT6 and docs/OPEN_LEADS.md PB-SUPPLY",
+     "bearing": "three needs both supplies at the same character and an attaining class; bending does not give the line supply; own puncture characters are named a scoped avenue"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Burau representation Alexander polynomial closure of braid reduced Burau determinant",
+    "figure-eight knot braid word Alexander polynomial fibration monodromy",
+    "Putman Wieland higher Prym representations genus one Q8 cover",
+    "torsion points of a subvariety of a torus Laurent theorem algorithm lacunary polynomials"
+   ],
+   "sources": [
+    {
+     "cite": "Wikipedia, Burau representation",
+     "where": "section Relation to the Alexander polynomial",
+     "read": "2026-10-04",
+     "says": "if K is the closure of f in B_n, then up to a unit Delta_K(t) = (1 - t)/(1 - t^n) det(I - f_*), f_* the reduced Burau representation (primary sources Burau 1936 and Birman 1974 cited there, not read)"
+    },
+    {
+     "cite": "Wikipedia, Figure-eight knot (mathematics)",
+     "where": "Description and Invariants",
+     "read": "2026-10-04",
+     "says": "the figure-eight is the closure of the 3-braid sigma1 sigma2^-1 sigma1 sigma2^-1, Delta(t) = -t + 3 - t^-1, and its complement fibres with monodromy (2 1; 1 1)"
+    },
+    {
+     "cite": "A. Putman and B. Wieland, J. London Math. Soc. 88 (2013) 79-96, arXiv:1106.2747",
+     "where": "Appendix A (read for sm:B1536, cited through its seal)",
+     "read": "2026-10-04",
+     "says": "on the Q8 cover of the once-punctured torus the mapping class group acts on the H part through a finite group: the genus-one failure of the higher-Prym conjecture"
+    },
+    {
+     "cite": "E. Hironaka, Alexander stratifications of character varieties, Ann. Inst. Fourier 47 (1997)",
+     "where": "Theorem 4.1.1 (read at ar5iv for the design)",
+     "read": "2026-10-04",
+     "says": "Laurent's theorem: the torsion points of a subvariety of a torus lie in finitely many torsion cosets contained in it (bears only on the seal's section 10)"
+    },
+    {
+     "cite": "L. Leroux, Computing the torsion points of a variety defined by lacunary polynomials, arXiv:0911.2594",
+     "where": "abstract and introduction",
+     "read": "2026-10-04",
+     "says": "an algorithm for the torsion points of a system of multivariate polynomial equations (bears only on the seal's section 10)"
+    },
+    {
+     "cite": "K. S. Kedlaya, Notes on class field theory",
+     "where": "section 3.2, Lemma 3.2.3, as sm:B1532 read and cites it",
+     "read": "2026-10-03",
+     "says": "Shapiro's lemma: the cohomology with coefficients induced from H is the cohomology of H (the transfer, Lemma 6)"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ }
+}

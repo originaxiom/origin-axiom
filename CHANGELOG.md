@@ -1,5 +1,58 @@
 # Changelog
 
+## B1538 sealed: THE PUNCTURE CHARACTERS (sL-10 item 15; sm:B1535's Corollary C3, first place); no outcome read
+
+- **The question.** sm:B1535's Theorem C, with Lemma 2 (b₁ = #cusps, so n(1) = 0) and Lemma W′ (sm:B1535's Lemma W on every
+  fibre-direction cover), puts room for g ≥ 2 generations on a fibre-direction cover M_{D,w} only where both hold:
+  - ν⁴ is a character non-trivial on a puncture, with n(ν⁴) ≥ g;
+  - capL2 ≥ g.
+  This arc reads both, on every such cover with 2 ≤ |D| ≤ 12 of m004, m003, m136 and m135.
+- **The population** (80 covers: 5, 9, 29, 37).
+  - The puncture characters of order dividing m(C): 2,406,622 characters in 662,988 Galois orbits.
+  - m(C) = lcm(12, the torsion's exponent), except one m135 cover read at 6.
+  - Every root of unity s is found completely, from the cyclotomic factors of the twisted monodromy's characteristic
+    polynomial.
+- **Part L, the line's supply.**
+  - Route W: Wang, exact over ℚ(ζ_m) with PARI.
+  - Route P: the cover's own Reidemeister–Schreier presentation, at two primes.
+  - Route T: the transfer; b₁ − #cusps of the cyclic cover ker χ, from integer homology.
+- **Part F, the four's supplies** at every member over a character with n ≥ 2. Route R is sm:B1536's `route_r` by path, with
+  the cover's own character on its Schreier words; route P4 is the second route.
+- **Proposition H, the quaternion line** (proved at design time; its supplies sealed as P9–P11).
+  - On every state's (ℤ/2)² cover, the order-2 character ζ_H that cuts out the Q₈ cover has the quaternions ℍ as its
+    twisted fibre homology.
+  - The monodromy acts there with finite order (a definite quaternion algebra has finitely many units), so the line's
+    supply sums to 4 over the roots of unity.
+  - It is at most 2 at any s where the monodromy moves Q₈ (always on the golden states, where it cycles i, j, k), and even
+    where it fixes Q₈ (exactly one class of each silver state).
+  - P9 is the run's positive control inside its own population.
+- **Controls K0–K12 hold** (`verification/controls.json`), on banked, literature or design-time data only.
+  - K1 at |D| = 1 on all 541 banked rows (567,996 route-P and 46,792 route-W reads); K2 at 462 puncture-trivial characters on 80 covers (1271 roots, 6,815 route-P reads); K5 at 1271 transfers; K4 on 286 covers against SnapPy.
+  - K6: Part F's routes agree with sm:B1536's pulled-back supplies at |D| = 1, with the banked members.
+  - K7: the figure-eight's 3-braid Burau identity.
+  - K9: the read-out on synthetic rows, twenty-six cases.
+  - K10: Proposition H's ten characters located by structure alone.
+  - K11: the population manifest by formula, equal to the seal's enumerated table.
+  - K12: Part F's fourth roots against brute force on the 40 covers with |D| ≤ 5.
+- **The audit lane's R87 reviewed the read-out** at the pre-seal snapshot 27dd37e2 and found two coverage holes: no expected
+  manifest, and an empty Part F that certified P7 and P8. Both were reproduced and are closed before the seal: a
+  population-wide prediction is certified only on records complete against K11's manifest and every planned Part F
+  reading. Its R89, at the snapshot 0762032d, asked further for a certificate of the fourth roots: control K12.
+- **Predictions P1–P11**, with priors expecting 8.23. P4–P8 were revised before the seal by Proposition H, the draft's values
+  shown. NEGATIVE (scoped) if P1–P3, P9 and P8 hold; PROVED (room for two, not a count) if P1–P3 and P9 hold and P8 fails.
+- **Eight pre-seal slips** (ERROR_LEDGER and the seal's §6):
+  - a design-note statement on when puncture characters exist;
+  - two E12 name collisions (sm:B1529's `fibre_lib`; sm:B1535's `read_out`/`controls` through sm:B1536's `route_r`);
+  - a read-out bug caught by K9;
+  - route W's reading of `polcyclofactors`, caught by K2's crash (no root could be lost silently);
+  - the draft's priors, which Proposition H contradicted;
+  - two verdict-format errors caught by the schema test;
+  - the read-out's coverage, found by the audit lane's R87 and R89.
+- **The FINDINGS stub and OPEN verdict ship with the seal** (the E50 rule).
+- **Main's S55 relay is read** (RELAY_LEDGER). No reading of o10_150709 here; the control lesson is adopted. Main @ cb09deb0
+  (B1474 sealed) is read.
+- 0 of 19.
+
 ## B1537: GENESIS — main's v1.10 taken as head; the SM seat's page changes offered as proposals P1–P9 (PROVED, not sealed)
 
 - **Taken, as main's B1467 relay asked.** GENESIS.md is main's v1.10, byte for byte (`b3ac6129…`, unchanged on main since

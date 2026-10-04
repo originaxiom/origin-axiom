@@ -1,0 +1,1512 @@
+{
+ "K9": {
+  "cases": {
+   "no hits": true,
+   "n = 1 on m003": true,
+   "n = 1 on m004": true,
+   "n = 2, Part F pending": true,
+   "n = 2, a member with both caps 2": true,
+   "n = 2, every planned reading, capL2 1": true,
+   "route P disagrees": true,
+   "route T disagrees": true,
+   "identity failed": true,
+   "a manifest cover missing": true,
+   "a duplicated chunk": true,
+   "an orbit count short of the manifest": true,
+   "an unexpected cover": true,
+   "no manifest": true,
+   "a refuting row on incomplete records": true,
+   "R87's probe: a candidate with an empty Part F": true,
+   "a candidate short of its planned readings": true,
+   "a candidate with no fourth root": true,
+   "a candidate whose fourth roots differ from the Smith form's count": true,
+   "a refuting member on an incomplete Part F": true,
+   "H: 2 + 1 + 1 on the golden line, another character's hit not counted": true,
+   "H fails: the sum is 3": true,
+   "H on the golden line fails: 4 at one s": true,
+   "H: the identity cover may carry 4 at one s": true,
+   "H on the identity cover fails: an odd n": true,
+   "H: a cover of K10 not read in full": true
+  },
+  "failures": [],
+  "holds": true,
+  "seconds": 0.0
+ },
+ "K10": {
+  "covers": {
+   "m004.D4.2-0-2.w0": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": true,
+    "axis permutation order": 3,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      1,
+      "k"
+     ],
+     [
+      1,
+      "i"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 12,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m003.D4.2-0-2.w0": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": true,
+    "axis permutation order": 3,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      1,
+      "k"
+     ],
+     [
+      -1,
+      "i"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 60,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m136.D4.2-0-2.w0": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      -1,
+      "i"
+     ],
+     [
+      -1,
+      "j"
+     ]
+    ],
+    "cusps": 4,
+    "m(C)": 12,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m136.D4.2-0-2.w1": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      -1,
+      "i"
+     ],
+     [
+      1,
+      "j"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 12,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m136.D4.2-0-2.w2": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      1,
+      "i"
+     ],
+     [
+      -1,
+      "j"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 12,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m136.D4.2-0-2.w3": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": true,
+    "tau on i, j": [
+     [
+      1,
+      "i"
+     ],
+     [
+      1,
+      "j"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 12,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m135.D4.2-0-2.w0": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": true,
+    "tau on i, j": [
+     [
+      1,
+      "i"
+     ],
+     [
+      1,
+      "j"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 12,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m135.D4.2-0-2.w1": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      1,
+      "i"
+     ],
+     [
+      -1,
+      "j"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 24,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m135.D4.2-0-2.w2": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      -1,
+      "i"
+     ],
+     [
+      1,
+      "j"
+     ]
+    ],
+    "cusps": 2,
+    "m(C)": 24,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   },
+   "m135.D4.2-0-2.w3": {
+    "ez": [
+     1,
+     1,
+     1,
+     0,
+     1
+    ],
+    "m": 2,
+    "golden": false,
+    "axis permutation order": 1,
+    "acts on Q8 as the identity": false,
+    "tau on i, j": [
+     [
+      -1,
+      "i"
+     ],
+     [
+      -1,
+      "j"
+     ]
+    ],
+    "cusps": 4,
+    "m(C)": 12,
+    "checks": {
+     "central": true,
+     "characteristic": true,
+     "invariant": true,
+     "every puncture": true,
+     "a Galois representative": true
+    }
+   }
+  },
+  "count": 10,
+  "golden covers": [
+   "m003.D4.2-0-2.w0",
+   "m004.D4.2-0-2.w0"
+  ],
+  "identity covers": [
+   "m135.D4.2-0-2.w0",
+   "m136.D4.2-0-2.w3"
+  ],
+  "failures": [],
+  "holds": true,
+  "seconds": 0.1
+ },
+ "K11": {
+  "manifest": {
+   "m004.D4.2-0-2.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 11,
+    "puncture orbits": 5,
+    "puncture-trivial characters in range": 1
+   },
+   "m004.D5.5-2-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 143,
+    "puncture orbits": 49,
+    "puncture-trivial characters in range": 1
+   },
+   "m004.D9.3-0-3.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 143,
+    "puncture orbits": 49,
+    "puncture-trivial characters in range": 1
+   },
+   "m004.D11.11-3-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 143,
+    "puncture orbits": 49,
+    "puncture-trivial characters in range": 1
+   },
+   "m004.D11.11-7-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 143,
+    "puncture orbits": 49,
+    "puncture-trivial characters in range": 1
+   },
+   "m003.D4.2-0-2.w0": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 295,
+    "puncture orbits": 40,
+    "puncture-trivial characters in range": 5
+   },
+   "m003.D5.5-2-1.w0": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 20,
+    "puncture orbits": 5,
+    "puncture-trivial characters in range": 5
+   },
+   "m003.D5.5-2-1.w1": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 20,
+    "puncture orbits": 5,
+    "puncture-trivial characters in range": 5
+   },
+   "m003.D5.5-2-1.w2": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 20,
+    "puncture orbits": 5,
+    "puncture-trivial characters in range": 5
+   },
+   "m003.D5.5-2-1.w3": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 20,
+    "puncture orbits": 5,
+    "puncture-trivial characters in range": 5
+   },
+   "m003.D5.5-2-1.w4": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 20735,
+    "puncture orbits": 5575,
+    "puncture-trivial characters in range": 1
+   },
+   "m003.D9.3-0-3.w0": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 17995,
+    "puncture orbits": 1598,
+    "puncture-trivial characters in range": 5
+   },
+   "m003.D11.11-3-1.w0": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 295,
+    "puncture orbits": 40,
+    "puncture-trivial characters in range": 5
+   },
+   "m003.D11.11-7-1.w0": {
+    "chunks": 1,
+    "m": 60,
+    "b": 12,
+    "puncture characters": 295,
+    "puncture orbits": 40,
+    "puncture-trivial characters in range": 5
+   },
+   "m136.D2.1-0-2.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 20,
+    "puncture orbits": 9,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D2.1-0-2.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 4,
+    "puncture orbits": 3,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D2.2-0-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 20,
+    "puncture orbits": 9,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D2.2-0-1.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 4,
+    "puncture orbits": 3,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D2.2-1-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 20,
+    "puncture orbits": 8,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D2.2-1-1.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 4,
+    "puncture orbits": 4,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.2-0-2.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 1724,
+    "puncture orbits": 500,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.2-0-2.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 92,
+    "puncture orbits": 36,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.2-0-2.w2": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 92,
+    "puncture orbits": 36,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.2-0-2.w3": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 92,
+    "puncture orbits": 44,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.4-1-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 284,
+    "puncture orbits": 97,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.4-1-1.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 92,
+    "puncture orbits": 37,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.4-3-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 284,
+    "puncture orbits": 97,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D4.4-3-1.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 92,
+    "puncture orbits": 37,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D7.7-2-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 572,
+    "puncture orbits": 196,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D7.7-3-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 572,
+    "puncture orbits": 196,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.2-0-4.w0": {
+    "chunks": 4,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 248828,
+    "puncture orbits": 64413,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.2-0-4.w1": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 380,
+    "puncture orbits": 85,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.2-0-4.w2": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 380,
+    "puncture orbits": 85,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.2-0-4.w3": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 6908,
+    "puncture orbits": 2013,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-0-2.w0": {
+    "chunks": 4,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 248828,
+    "puncture orbits": 64413,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-0-2.w1": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 380,
+    "puncture orbits": 85,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-0-2.w4": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 380,
+    "puncture orbits": 85,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-0-2.w5": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 6908,
+    "puncture orbits": 2013,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-2-2.w0": {
+    "chunks": 4,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 248828,
+    "puncture orbits": 64412,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-2-2.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 13820,
+    "puncture orbits": 3804,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-2-2.w4": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 13820,
+    "puncture orbits": 3804,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D8.4-2-2.w5": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 13820,
+    "puncture orbits": 3804,
+    "puncture-trivial characters in range": 4
+   },
+   "m136.D9.3-0-3.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 572,
+    "puncture orbits": 196,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D2.1-0-2.w0": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 8,
+    "puncture orbits": 4,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D2.1-0-2.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 44,
+    "puncture orbits": 17,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D2.2-0-1.w0": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 8,
+    "puncture orbits": 4,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D2.2-0-1.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 44,
+    "puncture orbits": 17,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D2.2-1-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 40,
+    "puncture orbits": 18,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D2.2-1-1.w1": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 8,
+    "puncture orbits": 4,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.2-0-2.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 184,
+    "puncture orbits": 66,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.2-0-2.w1": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 376,
+    "puncture orbits": 82,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.2-0-2.w2": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 376,
+    "puncture orbits": 82,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.2-0-2.w3": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 3448,
+    "puncture orbits": 1002,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.4-1-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 3452,
+    "puncture orbits": 1005,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D4.4-1-1.w1": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 24,
+    "puncture orbits": 10,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.4-1-1.w2": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 92,
+    "puncture orbits": 37,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D4.4-1-1.w3": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 24,
+    "puncture orbits": 10,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.4-3-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 92,
+    "puncture orbits": 37,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D4.4-3-1.w1": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 24,
+    "puncture orbits": 10,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D4.4-3-1.w2": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 3452,
+    "puncture orbits": 1005,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D4.4-3-1.w3": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 24,
+    "puncture orbits": 10,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D7.7-2-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 88,
+    "puncture orbits": 34,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D7.7-3-1.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 88,
+    "puncture orbits": 34,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.2-0-4.w0": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 760,
+    "puncture orbits": 164,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.2-0-4.w1": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 110584,
+    "puncture orbits": 15340,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.2-0-4.w2": {
+    "chunks": 1,
+    "m": 48,
+    "b": 12,
+    "puncture characters": 1528,
+    "puncture orbits": 180,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.2-0-4.w3": {
+    "chunks": 7,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 497660,
+    "puncture orbits": 128829,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D8.4-0-2.w0": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 760,
+    "puncture orbits": 164,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-0-2.w1": {
+    "chunks": 1,
+    "m": 48,
+    "b": 12,
+    "puncture characters": 1528,
+    "puncture orbits": 180,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-0-2.w4": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 110584,
+    "puncture orbits": 15340,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-0-2.w5": {
+    "chunks": 7,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 497660,
+    "puncture orbits": 128829,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D8.4-2-2.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 13816,
+    "puncture orbits": 3802,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-2-2.w1": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 760,
+    "puncture orbits": 162,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-2-2.w2": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 13816,
+    "puncture orbits": 3802,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-2-2.w3": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 760,
+    "puncture orbits": 162,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-2-2.w4": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 760,
+    "puncture orbits": 162,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-2-2.w5": {
+    "chunks": 8,
+    "m": 6,
+    "b": 6,
+    "puncture characters": 279932,
+    "puncture orbits": 140028,
+    "puncture-trivial characters in range": 4
+   },
+   "m135.D8.4-2-2.w6": {
+    "chunks": 1,
+    "m": 24,
+    "b": 12,
+    "puncture characters": 760,
+    "puncture orbits": 162,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D8.4-2-2.w7": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 13816,
+    "puncture orbits": 3802,
+    "puncture-trivial characters in range": 8
+   },
+   "m135.D9.3-0-3.w0": {
+    "chunks": 1,
+    "m": 12,
+    "b": 12,
+    "puncture characters": 1144,
+    "puncture orbits": 354,
+    "puncture-trivial characters in range": 8
+   }
+  },
+  "totals": {
+   "m004": [
+    5,
+    583,
+    201
+   ],
+   "m003": [
+    9,
+    39695,
+    7313
+   ],
+   "m136": [
+    29,
+    807820,
+    210524
+   ],
+   "m135": [
+    37,
+    1558524,
+    444950
+   ]
+  },
+  "chunks": 108,
+  "failures": [],
+  "holds": true,
+  "seconds": 0.1
+ },
+ "K12": {
+  "covers": 40,
+  "characters": 4039,
+  "failures": [],
+  "failure count": 0,
+  "holds": true,
+  "seconds": 105.1
+ },
+ "K7": {
+  "beta": "(sigma_1 sigma_2^-1)^2",
+  "images": {
+   "a": "abAcaBA",
+   "b": "Cac",
+   "c": "CAcabACac"
+  },
+  "det(I - Jbar) / ((1 + t + t^2)(t^2 - 3t + 1)) is +-t^k": {
+   "5": true,
+   "7": true,
+   "8": true,
+   "9": true,
+   "12": true,
+   "20": true
+  },
+  "holds": true,
+  "seconds": 0.0
+ },
+ "K0": {
+  "m004": {
+   "degrees": 12,
+   "covers": {
+    "1": 1,
+    "4": 1,
+    "5": 1,
+    "9": 1,
+    "11": 2
+   },
+   "low_index": {
+    "1": 1,
+    "4": 1,
+    "5": 1,
+    "9": 1,
+    "11": 2
+   },
+   "agree": true
+  },
+  "m003": {
+   "degrees": 12,
+   "covers": {
+    "1": 1,
+    "4": 1,
+    "5": 5,
+    "9": 1,
+    "11": 2
+   },
+   "low_index": {
+    "1": 1,
+    "4": 1,
+    "5": 5,
+    "9": 1,
+    "11": 2
+   },
+   "agree": true
+  },
+  "m136": {
+   "degrees": 8,
+   "covers": {
+    "1": 1,
+    "2": 6,
+    "4": 8,
+    "7": 2,
+    "8": 12
+   },
+   "low_index": {
+    "1": 1,
+    "2": 6,
+    "4": 8,
+    "7": 2,
+    "8": 12
+   },
+   "agree": true
+  },
+  "m135": {
+   "degrees": 8,
+   "covers": {
+    "1": 1,
+    "2": 6,
+    "4": 12,
+    "7": 2,
+    "8": 16
+   },
+   "low_index": {
+    "1": 1,
+    "2": 6,
+    "4": 12,
+    "7": 2,
+    "8": 16
+   },
+   "agree": true
+  },
+  "holds": true,
+  "seconds": 34.5
+ },
+ "K8": {
+  "checks": 319,
+  "failures": [],
+  "holds": true,
+  "seconds": 2.3
+ },
+ "K6": {
+  "m004": {
+   "characters": 12,
+   "members": [
+    {
+     "u": [
+      0.0,
+      0.0
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    }
+   ],
+   "capL2 >= 1": []
+  },
+  "m003": {
+   "characters": 60,
+   "members": [
+    {
+     "u": [
+      0.0,
+      0.0
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.2,
+      0.6
+     ],
+     "kappa": "0/12",
+     "capW": 0,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.4,
+      0.2
+     ],
+     "kappa": "0/12",
+     "capW": 0,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.6,
+      0.8
+     ],
+     "kappa": "0/12",
+     "capW": 0,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.8,
+      0.4
+     ],
+     "kappa": "0/12",
+     "capW": 0,
+     "capL2": 0
+    }
+   ],
+   "capL2 >= 1": []
+  },
+  "m136": {
+   "characters": 48,
+   "members": [
+    {
+     "u": [
+      0.0,
+      0.0
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.0,
+      0.5
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.0,
+      0.5
+     ],
+     "kappa": "6/12",
+     "capW": 1,
+     "capL2": 1
+    },
+    {
+     "u": [
+      0.5,
+      0.0
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.5,
+      0.0
+     ],
+     "kappa": "6/12",
+     "capW": 1,
+     "capL2": 1
+    },
+    {
+     "u": [
+      0.5,
+      0.5
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    }
+   ],
+   "capL2 >= 1": [
+    [
+     [
+      0.0,
+      0.5
+     ],
+     "6/12"
+    ],
+    [
+     [
+      0.5,
+      0.0
+     ],
+     "6/12"
+    ]
+   ]
+  },
+  "m135": {
+   "characters": 96,
+   "members": [
+    {
+     "u": [
+      0.0,
+      0.0
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.0,
+      0.5
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 1
+    },
+    {
+     "u": [
+      0.25,
+      0.75
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.25,
+      0.25
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.5,
+      0.5
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.5,
+      0.0
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 1
+    },
+    {
+     "u": [
+      0.75,
+      0.25
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    },
+    {
+     "u": [
+      0.75,
+      0.75
+     ],
+     "kappa": "0/12",
+     "capW": 1,
+     "capL2": 0
+    }
+   ],
+   "capL2 >= 1": [
+    [
+     [
+      0.0,
+      0.5
+     ],
+     "0/12"
+    ],
+    [
+     [
+      0.5,
+      0.0
+     ],
+     "0/12"
+    ]
+   ]
+  },
+  "failures": [],
+  "holds": true,
+  "seconds": 5.9
+ },
+ "K4": {
+  "m004": {
+   "2": {
+    "covers": 1,
+    "agree": true
+   },
+   "3": {
+    "covers": 1,
+    "agree": true
+   },
+   "4": {
+    "covers": 2,
+    "agree": true
+   },
+   "5": {
+    "covers": 4,
+    "agree": true
+   },
+   "6": {
+    "covers": 11,
+    "agree": true
+   }
+  },
+  "m003": {
+   "2": {
+    "covers": 1,
+    "agree": true
+   },
+   "3": {
+    "covers": 1,
+    "agree": true
+   },
+   "4": {
+    "covers": 2,
+    "agree": true
+   },
+   "5": {
+    "covers": 8,
+    "agree": true
+   },
+   "6": {
+    "covers": 7,
+    "agree": true
+   }
+  },
+  "m136": {
+   "2": {
+    "covers": 7,
+    "agree": true
+   },
+   "3": {
+    "covers": 4,
+    "agree": true
+   },
+   "4": {
+    "covers": 29,
+    "agree": true
+   },
+   "5": {
+    "covers": 10,
+    "agree": true
+   },
+   "6": {
+    "covers": 68,
+    "agree": true
+   }
+  },
+  "m135": {
+   "2": {
+    "covers": 7,
+    "agree": true
+   },
+   "3": {
+    "covers": 4,
+    "agree": true
+   },
+   "4": {
+    "covers": 33,
+    "agree": true
+   },
+   "5": {
+    "covers": 14,
+    "agree": true
+   },
+   "6": {
+    "covers": 72,
+    "agree": true
+   }
+  },
+  "holds": true,
+  "seconds": 0.3
+ },
+ "K1": {
+  "rows": 541,
+  "route P reads": 567996,
+  "route W reads": 46792,
+  "failures": [],
+  "holds": true,
+  "seconds": 1097.6
+ },
+ "K2": {
+  "covers": 80,
+  "zeta": 462,
+  "route W roots": 1271,
+  "route P reads": 6815,
+  "failures": [],
+  "holds": true,
+  "seconds": 5.6
+ },
+ "K3": {
+  "covers": 80,
+  "failures": [],
+  "holds": true,
+  "seconds": 5.6
+ },
+ "K5": {
+  "reads": 1271,
+  "skipped (degree)": 0,
+  "failures": [],
+  "holds": true,
+  "seconds": 5.6
+ },
+ "all hold": true,
+ "seconds": 1251.6
+}

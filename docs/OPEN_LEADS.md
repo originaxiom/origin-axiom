@@ -3968,7 +3968,13 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
 15. **The puncture characters** (sm:B1535 §10; item 14's second half). On the fibre-direction covers M_D of a word state, a
    character non-trivial on the fibre's puncture loops escapes Lemma W, and n(ν⁴) can be non-zero there. The mechanism to read
    is the twisted monodromy on H¹(T̄ ∖ J; ζ). By Corollary C3 it is the first place a second generation can live on an abelian
-   cover in this frame, and it needs |D| ≥ 2. Seal before computing.
+   cover in this frame, and it needs |D| ≥ 2. Seal before computing. **Sealed 2026-10-04 as sm:B1538 (the puncture
+   characters):** every fibre-direction cover M_{D,w} with 2 ≤ |D| ≤ 12 of m004, m003, m136 and m135 (80 covers), at every
+   puncture character of order dividing m(C) (2,406,622 in 662,988 Galois orbits) and every root of unity s. Part L reads
+   the line's supply in routes W, P and T. Part F reads the four's supplies at every member over a character with n ≥ 2,
+   in routes R and P4. Proposition H (the quaternion line) forces the line's supply on every state's (ℤ/2)² cover at the
+   character cutting out the Q₈ cover: 4 over the roots of unity, sealed as P9–P11. Predictions P1–P11; NEGATIVE (scoped)
+   if P1–P3, P9 and P8 hold.
 16. **The non-abelian covers** (sm:B1535 Corollary C3, second place). Where both supplies can grow (bending; Bart–Scannell;
    Putman–Wieland's Q₈ cover). **Sealed 2026-10-04 as sm:B1536 (the finite covers):** every connected cover of degree ≤ 12 of
    m004 and m003 and their Q₈ towers, at every pulled-back finite-order character, every class (the pulled-back class, and

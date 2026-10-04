@@ -9985,6 +9985,45 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1538": {
+   "slug": "the puncture characters",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B349",
+    "B837",
+    "K0",
+    "K1",
+    "K10",
+    "K11",
+    "K12",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7",
+    "K8",
+    "K9",
+    "P1",
+    "P11",
+    "P3",
+    "P4",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B153": {
    "slug": "degree rank degeneration",
    "motifs": [

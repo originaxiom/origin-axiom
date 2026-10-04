@@ -17496,3 +17496,23 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Locks: B1537's; B1533's repointed to the kept copy; B1516's citation lock exempts the proposed text. A relay to main and the
   audit lane, which also answers the audit lane's ask at 13392a6f. RELAY_LEDGER rows; main's S50–S53 read.
 - Two check slips caught on their first runs (C5's type, the lock's line-wrapped match); ERROR_LEDGER.
+
+## 2026-10-04 — B1538 sealed: the puncture characters (sL-10 item 15; tasks 242, 244–249)
+
+- **The question.** The line's interior supply at every character non-trivial on a puncture, on every fibre-direction cover
+  M_{D,w} (2 ≤ |D| ≤ 12) of m004, m003, m136 and m135, and the four's supplies wherever the line reaches two. By Theorem C
+  with Lemmas 2 and W′, this is where room for two generations could live on these covers.
+- **The population.** 80 covers; 2,406,622 puncture characters in 662,988 Galois orbits; every root of unity s.
+- **The routes.**
+  - For the line: W (exact), P (two primes) and T (the transfer).
+  - For the four: R (sm:B1536's `route_r` by path) and P4.
+- **Proposition H, the quaternion line.** On every state's (ℤ/2)² cover, at the character cutting out the Q₈ cover, the line's
+  supply is forced: 4 over the roots of unity, at most 2 at one s where the monodromy moves Q₈, even where it fixes it.
+  Sealed as P9–P11; P9 is the run's positive control.
+- **Controls K0–K12 hold:** K1 at |D| = 1 on all 541 banked rows (567,996 route-P and 46,792 route-W reads); K2 at 462 puncture-trivial characters on 80 covers (1271 roots, 6,815 route-P reads); K5 at 1271 transfers; K4 on 286 covers against SnapPy.
+- **The audit lane's R87 and R89** found two read-out coverage holes at the pre-seal snapshots and asked for a fourth-root
+  certificate; all of it is closed (K11's manifest; Part F's candidate headers; K12's brute force; negatives only on
+  complete records).
+- **Eight pre-seal slips**, logged or disclosed; nothing was read under any of them.
+- **The pre-seal snapshots** of the instruments are 27dd37e2, 0762032d, 090ac4c0 and 2a711f33.
+- **Main's S55 relay and main @ cb09deb0 are read** (RELAY_LEDGER).

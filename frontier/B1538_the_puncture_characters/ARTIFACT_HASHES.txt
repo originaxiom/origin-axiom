@@ -1,0 +1,14 @@
+# B1538 -- sha-256 of the sealed files, recorded at the seal (before run.py read any outcome; the controls K0-K12 read
+# banked, literature or design-time data only, and K10-K12 structure only). identity.py checks every line first.
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1538_the_puncture_characters/)
+dc351bf1a041598608d11122fc468e018f4d3f3f04b7dd138a667f6d50df1b97  PREREGISTRATION.md
+533f8211fa93e4e63b5a4d8c097dded04ecc572d885f5ee28604dab9581bab91  verification/punct_covers.py
+6e44cb64a30c6bf29f8bd39a103cc54f341323baa9adfab0025a747588e049fa  verification/punct_wang.py
+26f3153166dd90d6c21fad344e19cd663a1a9c244dc4ab859eb37e167c5c32f6  verification/punct_present.py
+550216ae1a65b6f45ae7979df0231ccc6452c9a832b43ab40096b97bd071b6aa  verification/punct_transfer.py
+f763d1642c29c75345b8ff62e13840bd406d9d351f1fdde48573631c470bea93  verification/punct_four.py
+64b51820691526a0f0e76d4003e7b5f49e7bce6a8dbe3c3dbc0af0c04d7d30da  verification/run.py
+7829e360733067bdd088ea958a4796ecc0ffac4ea893d564b9eaedda62d88c0c  verification/read_out.py
+8aa3dd75776fca24ea25c31057717ddaf99c4445c8718b0149aba31f4ce06953  verification/controls.py
+6ecc8b7bf5bdff03c6ecdb6e6dc1f7c4cef2897067d12d53ec67be283036e05d  verification/identity.py
+52b03b9a49bbaf093257a31fb4cdaab041414c3f591d877256e79279a5b9fd95  verification/controls.json
