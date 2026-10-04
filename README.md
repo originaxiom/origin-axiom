@@ -1,6 +1,16 @@
 # Origin Axiom
 
 > **Current physical bridge checkpoint October4.**
+> [Character register and Wilson observables](reports/physical_bridge_2026_09_05/REGISTER_WILSON.md)
+> connects B871's group-layer contraction to standard Haar/Wilson
+> mathematics in the SUPPLIED SU5 framework.77 exact/371 separate
+> modular-Fraction controls and18 tests pass unchanged at pre-run
+> seal808d3e31c. Anomaly-free chiral control remains detectable at odd
+> degree five; paired matter/full adjoint odd registers stay zero.
+> Detection is not source generation, quantum measure or observed SM.
+> Next existing mixed-parent fields, own variations and common domain;
+> SM090ac4c08 coverage repair credited at reading grade. Full goal active.
+>
 > [Flat coefficients and fermion domains](reports/physical_bridge_2026_09_05/FLAT_DOMAIN_AUDIT.md)
 > verifies the existing relative positive and resolved-core compensation,
 > not a new chirality mechanism or physical solution.181 exact/100

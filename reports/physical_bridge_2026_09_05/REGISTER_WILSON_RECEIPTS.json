@@ -1,0 +1,310 @@
+{
+  "raw_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-register-wilson.Y4Ih4r",
+  "captures": {
+    "prior_sweep": {
+      "command": [
+        "ruby",
+        "-e",
+        "refs=IO.popen([\"git\",\"for-each-ref\",\"--format=%(refname)\",\"refs/remotes/origin\"], &:read).lines.map(&:strip); puts \"Cached heads #{refs.length}, not a semantic absence certificate\"; pattern=\"fifth.order|fifth trace|quintic|degree.five|degree.5.*chir|chir.*degree.5|character.*anomal|wilson.*chirality|register.*source|source.*register\"; refs.each { |ref| out=IO.popen([\"git\",\"grep\",\"-i\",\"-E\",\"-l\",pattern,ref,\"--\",\"*.md\",\"*.py\",\"*.tex\"], &:read); code=$?.exitstatus; abort(\"grep failed\") unless [0,1].include?(code); puts ref; puts out }; out=IO.popen([\"rg\",\"-n\",\"-i\",\"Wilson|fifth.order|character.*anomal|register.*source\",\"reports/physical_bridge_2026_09_05\",\"frontier/B871_registering_datum\",\"tests/test_b871_registering.py\"], &:read); abort(\"rg failed\") unless [0,1].include?($?.exitstatus); puts out"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 25.465393000049517,
+      "log_bytes": 145258,
+      "log_sha256": "706b61045e36f1661cfd25b49e4d3649d589ec4262ab252dbc10bc1929e3853a"
+    },
+    "already_banked": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/checks/already_banked.py",
+        "chirality",
+        "character",
+        "anomaly",
+        "Wilson",
+        "trace"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 1.175167000037618,
+      "log_bytes": 3200,
+      "log_sha256": "508062e1e3699c6e1a334f7299d769cb1bd71f89693486c7c8ce03096f28201c"
+    },
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.9359110000077635,
+      "log_bytes": 85,
+      "log_sha256": "89b93e010424830d811a776defe0e55c7ff8f0bf2fd1665d48e8f4d6d5190393"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "-r",
+        "json",
+        "-r",
+        "digest",
+        "-e",
+        "root=\"/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-register-wilson.Y4Ih4r\"; sha=\"808d3e31ca6086c9973013dd5f4acdd67a2573a1\"; abort(\"server seal mismatch\") unless File.read(root+\"/server_seal.log\").split.first==sha; current=IO.popen([\"git\",\"rev-parse\",\"HEAD\"], &:read).strip; abort(\"head mismatch\") unless current==sha; paths=%w[REGISTER_WILSON_DESIGN.md REGISTER_WILSON_PROOF.md REGISTER_WILSON_INPUTS.json register_wilson.py register_wilson_reference.py].map { |f| \"reports/physical_bridge_2026_09_05/\"+f }+[\"tests/test_physical_bridge_register_wilson.py\"]; latest={}; File.read(\"reports/physical_bridge_2026_09_05/ARTIFACT_HASHES.txt\",encoding:\"UTF-8\").each_line { |l| m=l.match(/^([0-9a-f]{64})  (.+)$/); latest[m[2]]=m[1] if m }; paths.each { |p| raw=File.binread(p); committed=IO.popen([\"git\",\"show\",sha+\":\"+p],\"rb\", &:read); abort(\"science mismatch \"+p) unless $?.success? && raw==committed && Digest::SHA256.hexdigest(raw)==latest[p] }; inputs=JSON.parse(File.read(paths[2],encoding:\"UTF-8\")); inputs[\"sources\"].each { |s| raw=s[\"ref\"] ? IO.popen([\"git\",\"show\",s[\"ref\"]+\":\"+s[\"path\"]],\"rb\", &:read) : File.binread(s[\"path\"]); abort(\"source hash \"+s[\"path\"]) unless Digest::SHA256.hexdigest(raw)==s[\"sha256\"] }; puts JSON.generate(server_sha:sha,science_files:paths.length,source_pins:inputs[\"sources\"].length,unchanged:true,physics_certified:false)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8596890000626445,
+      "log_bytes": 136,
+      "log_sha256": "ab64efe062f92754ffdf32de02b85abf4538f12e29c2ab57d4e8ca3b9364b922"
+    },
+    "native_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/register_wilson.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.1748910000314936,
+      "log_bytes": 3966,
+      "log_sha256": "ed19b3b763c9cc4748b26237ec6e2044adf784a80de8b37548c94bf8ab5a4cf2"
+    },
+    "reference_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/register_wilson_reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.36182699992787093,
+      "log_bytes": 229,
+      "log_sha256": "3e451204da4539f37954982c7c2318e063fbade032928d5effdc0cf5e83d624e"
+    },
+    "focused_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_register_wilson.py",
+        "tests/test_b871_registering.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.0116629999829456,
+      "log_bytes": 99,
+      "log_sha256": "f077dfadcf625070e5d4267d490b4a127f40b66537e5f764430340ca80c39c01"
+    },
+    "custody_first": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/register_wilson_receipt_check.rb"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.623833000077866,
+      "log_bytes": 176,
+      "log_sha256": "33e65af70630c8991c01473c803e5c0c3c59fb75dd8dd1b875ca7dfe41bd6b57"
+    },
+    "governance_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 19.61303999996744,
+      "log_bytes": 2284,
+      "log_sha256": "2e91ebe68aa40e11424554e84e24d7778e271bf543b78dad48431219f0c2fa48"
+    },
+    "governance_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 26.33666299993638,
+      "log_bytes": 2284,
+      "log_sha256": "2e91ebe68aa40e11424554e84e24d7778e271bf543b78dad48431219f0c2fa48"
+    },
+    "custody_final": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/register_wilson_receipt_check.rb"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.009887000080198,
+      "log_bytes": 176,
+      "log_sha256": "663023ee14e0e8d2a4e907f2bd39abfe97a2639017fd1d2329eee01fccd80b1a"
+    },
+    "whitespace_repeat": {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 2,
+      "signal": null,
+      "elapsed_seconds": 0.2251410000026226,
+      "log_bytes": 1915,
+      "log_sha256": "1028a66accbed46f77f843c24215afbec4cc1f153b9ddfad00caf6bb58284539"
+    },
+    "whitespace_authored": {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check",
+        "--",
+        ".",
+        ":(exclude)reports/physical_bridge_2026_09_05/REGISTER_WILSON_ALREADY_BANKED.txt"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.08527000003959984,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "whitespace_raw_only": {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 2,
+      "signal": null,
+      "elapsed_seconds": 0.12898699997458607,
+      "log_bytes": 1827,
+      "log_sha256": "3b24352e898761ba66fa5359fea424650766893b43bd8ca931881cc32872e791"
+    },
+    "custody_postassembly": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/register_wilson_receipt_check.rb"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.7836560000432655,
+      "log_bytes": 177,
+      "log_sha256": "0d7d485b2a97d9cd8e8bf0d30aa8c711ed917e70d70494ccff3649ede482f75e"
+    }
+  },
+  "public_logs": {
+    "already_banked": "REGISTER_WILSON_ALREADY_BANKED.txt",
+    "server_seal": "REGISTER_WILSON_SERVER_SEAL.txt",
+    "preflight": "REGISTER_WILSON_PREFLIGHT.txt",
+    "native_first": "REGISTER_WILSON_NATIVE_FIRST.txt",
+    "reference_first": "REGISTER_WILSON_REFERENCE_FIRST.txt",
+    "focused_first": "REGISTER_WILSON_FOCUSED_FIRST.txt",
+    "custody_first": "REGISTER_WILSON_CUSTODY_FIRST.txt",
+    "governance_first": "REGISTER_WILSON_GOVERNANCE_FIRST.txt",
+    "governance_final": "REGISTER_WILSON_GOVERNANCE_FINAL.txt",
+    "custody_final": "REGISTER_WILSON_CUSTODY_FINAL.txt",
+    "custody_postassembly": "REGISTER_WILSON_CUSTODY_POSTASSEMBLY.txt"
+  },
+  "raw_only": [
+    "prior_sweep",
+    "whitespace_repeat",
+    "whitespace_authored",
+    "whitespace_raw_only"
+  ],
+  "raw_only_reason": "Cached-branch filename sweep and whitespace diagnostic outputs remain verbatim outside the repo; commands, exits, sizes and hashes are published. Authored-only whitespace stdout is empty. No semantic absence or full-green claim.",
+  "native_summary": {
+    "block_fifth_moment": 240,
+    "full_goal_achieved": false,
+    "haar_10_register": "1",
+    "haar_5_register": "-1",
+    "passed": 77,
+    "physical_chirality_derived": false,
+    "quantum_measure_derived": false,
+    "seventh_odd_coefficients": [
+      -4,
+      -8,
+      2,
+      -9,
+      1,
+      -10
+    ],
+    "source_generated": false,
+    "total": 77
+  },
+  "reference_summary": {
+    "characteristic_zero_certificate": false,
+    "finite_field_prime": 53,
+    "grid_points": 28561,
+    "no_constant_term_alias_bound": 12,
+    "non_author_review": false,
+    "passed": 371,
+    "physics_derived": false,
+    "torus_order": 13,
+    "total": 371
+  },
+  "focused": {
+    "passed": 18,
+    "new_live_tests": 10,
+    "retained_b871_artifact_locks": 8,
+    "full_suite": false
+  },
+  "first_failures": [],
+  "independent_nonauthor_review": false,
+  "physics_derived": false,
+  "governance_first": {
+    "pass": 26,
+    "fail_categories": 4,
+    "actual_exit": 1,
+    "attribution_paths": 5,
+    "prior_snapshot_attribution_paths": 4,
+    "new_r90_failing_paths": 0,
+    "extra_path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PRIOR_FULL.txt",
+    "relay_open": 82,
+    "stale": 41,
+    "review_due": 321,
+    "full_suite": false,
+    "waivers": false
+  },
+  "publication_errors": "ASCII-8BIT JSON-copy attempt failed; explicit UTF8 copying matches original bytes. No-change progress patch missed context; actual EOF append used. Three guessed next-source proof filenames absent; inventory used next. No science changes. Original errors in tool transcript, not fabricated raw captures.",
+  "governance_final": {
+    "pass": 26,
+    "fail_categories": 4,
+    "actual_exit": 1,
+    "attribution_paths": 5,
+    "prior_snapshot_attribution_paths": 4,
+    "new_r90_failing_paths": 0,
+    "extra_path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PRIOR_FULL.txt",
+    "relay_open": 82,
+    "stale": 41,
+    "review_due": 321,
+    "full_suite": false,
+    "waivers": false,
+    "unchanged_stdout_sha256": "2e91ebe68aa40e11424554e84e24d7778e271bf543b78dad48431219f0c2fa48"
+  },
+  "publication_whitespace": "First full staged check exit2: seven original warning-log lines have trailing whitespace, plus an authored SEAL.json blank EOF. Unchanged repeat is retained outside repo with its exact1915 bytes/hash. Only authored seal EOF is corrected; all original raw warning bytes preserved. No science change or gate-policy waiver. After metadata EOF correction, authored-only staged check exits0 with empty stdout, and full staged check exits2 only on the seven original raw-log trailing spaces."
+}

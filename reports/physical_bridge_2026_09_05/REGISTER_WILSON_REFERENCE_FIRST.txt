@@ -1,0 +1,1 @@
+{"characteristic_zero_certificate": false, "finite_field_prime": 53, "grid_points": 28561, "no_constant_term_alias_bound": 12, "non_author_review": false, "passed": 371, "physics_derived": false, "torus_order": 13, "total": 371}

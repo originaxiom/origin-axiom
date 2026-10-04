@@ -16929,3 +16929,59 @@ remaining synthetic Part F/Part L coverage risks reproduced. No real
 character read or foreign mathematical theorem killed. Sender R89
 relay OPEN. Next GENERATED registering/joining/action/end law carrying
 graph/adjoint domains, norm, gauge and anomalies. Full SM/TOE active.
+
+## 2026-10-04 R90 character register and its gauge observable realization
+
+Connected B871's formal character contraction to standard compact Haar
+pairing of Wilson characters in the existing supplied SU5 framework.
+Actual E8 roots/roster/global-form typing retained; probe, loop, gauge
+framework and quantum distribution are NOT generated. Chiral CONTROL
+10+bar5 has zero linear/cubic moment but nonzero fifth10 p2 p3-12 p5;
+an exact unitary seventh-root fixture is nonzero. Balanced matter/full
+adjoint odd registers are zero; R87/R88 even detector/kinetics survive.
+No physical Weyl assignment, chosen vacuum, modular-stage refinement or
+Standard Model follows. B599's parity-slot counting is not universal
+Taylor order; its mixed-parity boundary was already explicit and credited.
+
+Six scientific files pushed/server-confirmed at808d3e31ca6086c9973013dd5f4acdd67a2573a1
+before first import/collection/run.77 exact native predicates,371 separate
+modular-Fraction checks and18 tests pass unchanged. Ten tests are new
+live calculations; eight are retained B871 artifact locks, not a new
+cascade-producer execution. No failed/repaired science bytes, skip,
+xfail or tolerance change. Both implementations are by this author;
+independent analytic/physical review/full-suite/main banking remain open.
+
+The gauge-only fixed-R readout has no internal structure-field argument;
+its zero variation is a declared-dependence identity, not a coupled-action
+no-go. Next inspect existing mixed E8 fields as registering/source partners
+with complete own variations, norms and the same physical fermion domain,
+before adding free-profile sources. R77 source balance/free-profile cost,
+R83 source-axis scope and R89 relative-domain positive all retained.
+No observer, experience or quantum measure is derived; qualia remains
+an explicit philosophical hypothesis. Full parameter-free SM/TOE active.
+
+SM090ac4c08's complete revised read-out, K11/main and full PartF passage
+read personally; population-manifest/header repair credited at READING
+grade, not execution/coverage certification. Historical synthetic risks
+are not applied unchanged to its repaired code. Sender R90 relay OPEN.
+Raw byte/exit custody published. Ruby publication copy first failed on
+ASCII-8BIT/UTF8 encoding; explicit UTF8 copy then matches all log bytes.
+A no-change progress append patch missed its context and failed; corrected
+append uses the actual EOF. Later read-only next-source navigation guessed
+three absent filenames; no absence/science inference made, rg inventory
+used next. All errors remain in tool transcript, not fabricated raw runs.
+
+First R90 governance26 PASS/four FAIL categories, exit1; attribution
+now names five prior paths, including newly tracked R89 raw prior stdout.
+The earlier R89 prepublication snapshot had four: unchanged categories
+do not mean unchanged offender population. No R90 path flagged in this
+snapshot, no baseline/log-byte waiver. Two older vacuity findings,
+five old seal paths,41 stale relays and82 OPEN entries remain; review due321.
+
+Final governance repeats the same2284 bytes/hash and exit1. Full staged
+whitespace first exits2 on seven raw warning-log trailing spaces and an
+authored seal metadata EOF blank. Unchanged repeat retained; only authored
+EOF corrected. Authored-only check excludes one raw stdout path and
+passes; full check still exits2 on its seven original lines. No science
+or raw bytes repaired, no baseline/gate-policy waiver. Exact exits and
+hashes retained outside repo and in receipts; not an all-green claim.

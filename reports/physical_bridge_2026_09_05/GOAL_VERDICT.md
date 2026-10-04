@@ -1,4 +1,19 @@
-# Verdict toward the full physical-theory goal - R89, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R90, updated 2026-10-04
+
+R90 pays a necessary conditional operational connection: B871's formal
+register is the standard compact Haar pairing of Wilson characters in
+the existing supplied SU5 gauge framework.77 exact/371 separate modular-
+Fraction checks and18 tests pass unchanged at pushed pre-run seal808d3e31c.
+Anomaly-free chiral control is detectable despite zero cubic anomaly;
+the exact odd response starts at degree five near trivial holonomy.
+Balanced R85 matter and the full E8 adjoint remain odd-blind, without
+erasing R87/R88's even detector/kinetic positive. This is not a source,
+modular-stage refinement, physical observer or generated quantum law.
+REGISTER_WILSON.md gives scope/custody and credits SM090ac4c08 coverage
+repair at reading grade, not execution. Next inspect existing mixed E8
+fields in the SAME action as potential registering/source partners,
+with complete variations and physical fermion domain; no new arbitrary
+profile by fiat. Full parameter-free SM/TOE remains active and unachieved.
 
 R89 verifies the existing flat-coefficient domain distinction instead
 of turning the bulk-index theorem into a programme-wide chirality kill.

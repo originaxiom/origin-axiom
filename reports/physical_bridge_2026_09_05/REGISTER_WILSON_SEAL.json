@@ -1,0 +1,39 @@
+{
+  "scientific_commit": "808d3e31ca6086c9973013dd5f4acdd67a2573a1",
+  "pushed_and_exact_server_ref_confirmed_before_first_execution": true,
+  "server_evidence": "server_seal raw capture and public REGISTER_WILSON_SERVER_SEAL.txt; matching SHA checked before imports",
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_DESIGN.md",
+      "bytes": 5800,
+      "sha256": "09fdbe3546b2e22dcc5e08d301a83e6619ef379d76e93edd2b4039058f510b61"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md",
+      "bytes": 7920,
+      "sha256": "efd23d23a2b25edd04345a0a302ea81d32dbd9555968566b04e9e825fe3342cd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_INPUTS.json",
+      "bytes": 5079,
+      "sha256": "671da7c6373a574bbc9fec7937aa584ea0c7788d5be98dd225745fbe369842ba"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/register_wilson.py",
+      "bytes": 8358,
+      "sha256": "1b30c889f705d0e78c6311bda7b584778f5d6ff3ecc7308ea0d590d3dfaeac69"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/register_wilson_reference.py",
+      "bytes": 4506,
+      "sha256": "0cfdbdbc4bd9b516bcde500e14420f91441e58611c7b56a34d305b27d4134328"
+    },
+    {
+      "path": "tests/test_physical_bridge_register_wilson.py",
+      "bytes": 3838,
+      "sha256": "558f66a3c11740e3587eff6d88d891c6646e4ea99d00817cb679d19d725ec09f"
+    }
+  ],
+  "science_changed_after_first_execution": false,
+  "grade": "Exact characteristic-zero algebra with separate modular/Fraction controls by the same author; standard group theorem application, not nonauthor analytic review or derived physics."
+}

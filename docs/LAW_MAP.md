@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October4 path-local R90, not new B-law banking: B871's formal register
+has standard compact Haar/Wilson realization in the supplied SU5 model.
+Actual E8 roster retained; chiral10+bar5 cubic moment0 but fifth
+10 p2 p3-12 p5 nonzero, exact unitary fixture. B599 parity-slot rule
+compatible, no modular-stage or physical-generation derivation. Gauge-only
+fixed-R readout has no internal source argument, not a universal source
+no-go. REGISTER_WILSON_PROOF.md and tests/test_physical_bridge_register_wilson.py;
+77 exact/371 separate modular-Fraction checks and18 tests pass unchanged
+at pushed pre-run seal808d3e31c. Existing mixed-parent fields/action/domain
+next; R87/R88 detector/kinetics and R89 conditional chirality retained.
+
 October4 path-local R85/R86/R87/R88/R89 research checks, not new B-law banking:
 
 | Conditional result | Exact scope and evidence |

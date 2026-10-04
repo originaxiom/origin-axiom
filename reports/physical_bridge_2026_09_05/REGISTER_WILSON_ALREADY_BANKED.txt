@@ -1,0 +1,28 @@
+already-banked: terms ['chirality', 'character', 'anomaly', 'wilson', 'trace']
+  352 corpus hits; 5 SETTLED arcs matching >= 3 of 5 terms
+      [ 4 terms] FINDINGS  frontier/B1118_deflation/FINDINGS.md
+           # B1118 — THE DEFLATION RUN: the last hypercharge bit is P, and the one-loop coefficient is trace-field arithmetic 
+      [ 4 terms] FINDINGS  frontier/B148_kappa_fricke_metallic/FINDINGS.md
+           # B148 — κ/Fricke–Vogt pinned, the metallic monodromy as the SL(2,ℤ) MCG action, and the class-S open question (V137) 
+      [ 4 terms] FINDINGS  frontier/B467_family_residue_wall/FINDINGS.md
+           # B467 — the owner's three thoughts, computed: family / residue / wall 
+      [ 4 terms] FINDINGS  frontier/B572_eleven_clauses/FINDINGS.md
+           # B572 — the eleven-clause chain, adjudicated (the seventeenth chain, asking the right question) 
+  *** [ 3 terms] PROVED    B1118_deflation
+           THE DEFLATION RUN (DEFLATION_RUN.md harvest, 6th memo; P-bit reproduced this bench): B1102's 18 hypercharge directions = 2 orbits of 9 under S3xS3, FUSED to one by THE MIRROR (swap-ideals composed with su(3)-conjugation 
+  *** [ 3 terms] PROVED    B1182_c4prime_resolved
+           C4' RESOLVED POSITIVE (the cell the three-seat convergence specified; run on the owner's back-to-the-math GO). THE THEOREM: the sqrt(-3)-internal pair -- the frame V4 = <c,r> (chirality x reversal, B1024/B1029) and the b
+  *** [ 3 terms] PROVED    B1201_lee_verified_and_harvest
+           THE LEE VERIFICATION CORRECTS B1198, AND THE CROSS-SEAT HARVEST CLOSES CLEAN. R52-3, THE READING (full v1 text, sections 7.3-7.5 + Appendix A, 345k chars): (a) THE TANGENTIAL BASE POINT IS NOT FREE FOR OUR OBJECT -- IT I
+  *** [ 3 terms] PROVED    B1233_zai_audit
+           THE Z-AI AUDIT: 15 CLAIMS CONFIRMED ON THIS BENCH, 7 REFUTED, ONE REAL DEFECT FOUND IN OUR OWN RECORD, AND ONE HEADLINE IDENTIFICATION REFUTED BY GALOIS THEORY. Owner: 'take every letter seriously / verify never trust / 
+  *** [ 3 terms] PROVED    B1253_generation_count
+           THE GEOMETRY OF THE FOREIGN 16s IS RIGID -- AND IT IS *NOT* A GENERATION COUNT. THIS ARC'S DRAFT HEADLINE WAS 'the generation count is forced at three' AND IT IS REFUTED, by a test the record itself supplied: docs/OPEN_P
+  *** [ 2 terms] PROVED    B1008_lexicon_epoch
+           THE ATLAS IS BLIND IN AN EPOCH, AND THE BLINDNESS IS WHERE THE PROGRAMME NOW LIVES. B806's concentration statistic fell THROUGH the 0.85 floor its lock defended, and the floor was NOT bumped: B829 set the precedent that 
+  *** [ 2 terms] PROVED    B1011_mckay_tensor
+           THE HEARING DATA IS McKAY TENSOR McKAY: rho_6 = (chi x V2(2I)) + (V2(2T) x V2(2I)) EXACTLY -- sealed fc807f11, declared prior OUTCOME A, HELD AT EVERY CELL, no verdict line resting on a float. An incoming chat1 derivatio
+  *** [ 2 terms] PROVED    B1013_wall_resort
+           THE WALLS RE-SORTED: FOUR SPECIFICATIONS/BOUNDARIES, ONE REAL WALL -- the reclassification the owner diagnosed, chat1 sharpened, and cc3 independently derived on-branch within twenty-four hours, executed as the editorial
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.

@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R90: group-layer register realizes a standard gauge observable
+pairing in the existing SUPPLIED SU5 framework, not a derived source.
+77 exact/371 separate modular-Fraction predicates and18 tests pass at
+unchanged pre-run seal808d3e31c. Anomaly-free chiral character can be
+heard at odd degree five; B599 counts parity slots, not all Taylor orders.
+REGISTER_WILSON.md in physical_bridge reports preserves stage/quantum/
+physical-domain duties. Next existing mixed E8 fields in the same action,
+with both partners' variations; no arbitrary observer/source added.
+Full parameter-free SM/TOE remains active and unachieved.
+
 October4 R89: generated-join duty made more precise: graph and adjoint
 domains, operator, norm and gauge action must be transported; topology
 alone is not lossless physics. Existing relative flat-coefficient count

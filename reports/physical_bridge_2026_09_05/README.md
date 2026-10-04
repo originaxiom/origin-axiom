@@ -1,5 +1,17 @@
 # Physical bridge audit — 2026-09-05
 
+October4 R90: B871 formal register connected to standard compact Haar
+pairing of Wilson characters in the existing supplied SU5 framework.
+77 exact/371 separate modular-Fraction predicates and18 tests pass
+unchanged at pushed pre-run seal808d3e31c. Anomaly-free chiral CONTROL
+has nonzero fifth response; balanced matter/full E8 adjoint odd registers
+zero. This does not supply a source, quantum measure or observed chiral
+spectrum. B599 parity-slot scope and R87/R88 positives retained.
+REGISTER_WILSON.md gives scope/proof/custody. Next existing mixed fields
+as partners in one complete action/domain, not arbitrary new recorder.
+SM090ac4c08 read-out coverage repair credited at reading grade only.
+Full parameter-free SM/TOE active and unachieved; independent review owed.
+
 October4 R89: flat-coefficient domain comparison verified directly,
 not a new chirality mechanism. Existing relative 3/0 and resolved core
 compensation both survive; closed bulk Chern-Weil scope cannot be

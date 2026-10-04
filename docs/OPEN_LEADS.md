@@ -1,5 +1,14 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October4 R90: the formal register's standard Haar/Wilson operational
+connection is executed, not an unrun lead or generated physical mechanism.
+Report REGISTER_WILSON.md under physical_bridge. Next existing mixed E8
+fields as registering/source partners: actual structure current, BOTH
+variations, positive norms and same physical fermion domain. Do not
+invent another free-profile recorder or infer vector-likeness from cubic
+anomaly cancellation. SM090ac4c08 manifest/header repair read and credited,
+not independently executed. No chiral SM/TOE or qualia is derived.
+
 October4 R89: closed bulk flatness does not settle every sourced/end
 domain. Existing relative and resolved-core comparisons verified at
 f9a5de372; report FLAT_DOMAIN_AUDIT.md. Next generated registering

@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October4 R90: formal B871 register has a standard Haar/Wilson gauge-
+observable realization in the SUPPLIED SU5 framework.77 exact/371 separate
+modular-Fraction predicates and18 tests pass unchanged at808d3e31c.
+Representation, probe/loop and quantum distribution are not generated.
+Zero cubic anomaly is not vector-likeness; fifth odd character control
+nonzero. R85 pairing and R87/R88 even-coordinate positives retained.
+REGISTER_WILSON.md separates detector, source and experiential claims.
+Next same-action existing mixed-parent fields/current/physical domain;
+no physical observer, source generation or SM/TOE completion assigned.
+
 October4 R89: a generated architecture's physical register must retain
 the domain/adjoint/norm data its updates use. The old flat-coefficient
 relative positive and resolved-core compensation both survive direct

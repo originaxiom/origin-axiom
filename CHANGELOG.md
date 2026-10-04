@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-04 R90 character register and gauge observable connection
+
+B871's formal group-character register has a standard Haar pairing
+realization of Wilson characters in the existing supplied SU5 framework.
+77 exact/371 separate modular-Fraction predicates and18 tests pass
+unchanged at pushed pre-run seal808d3e31c. Full actual E8 roster retained;
+anomaly-free10+bar5 has nonzero odd degree-five response and exact
+unitary fixture, not a selected chiral vacuum. Paired matter and full
+adjoint have zero odd register without killing R87/R88 neutral positives.
+B599 parity slots are not universal Taylor order. Gauge-only readout
+with fixed representation has no internal source argument; mixed fields
+and actual source dynamics remain live. SM090ac4c08 coverage repair read
+and credited, not executed. REGISTER_WILSON.md gives scope/custody.
+Full parameter-free SM/TOE remains active; no main claim promotion.
+
 ## 2026-10-04 R89 flat coefficient domains and physical join requirements
 
 Direct existing m202 comparison verifies relative 3/0, complementary

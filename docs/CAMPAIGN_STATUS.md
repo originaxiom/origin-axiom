@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October4 R90: formal register has standard Haar/Wilson realization in
+the SUPPLIED SU5 framework.77 exact/371 separate modular-Fraction checks
+and18 tests pass unchanged at pushed pre-run seal808d3e31c. Chiral control
+remains detectable despite cubic anomaly cancellation; not generated
+source, quantum measure, modular-stage probe or observed SM. Existing
+mixed-parent fields/own variations/domain next. REGISTER_WILSON.md in
+physical_bridge reports. SM090ac4c08 coverage repair read, not executed.
+Full SM/TOE active and unachieved; independent analytic review owed.
+
 October4 R89: actual flat-coefficient m202 domain comparison verified;
 relative positive and resolved compensating states BOTH retained.
 181 exact/100 Fraction controls and16 tests pass unchanged at pushed
