@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-04",
+  "input_commit": "72f74753d",
+  "component_source": "reports/global_quotient_admission_2026_09_27/COMPONENT_RESULTS.json",
+  "parameters": [-1, 1, 2],
+  "classes": [1, 2],
+  "coefficients": ["E", "wedge2E"],
+  "coefficient_field": "Q(zeta3), zeta3^2+zeta3+1=0",
+  "scope": "Exact selected points of four uncovered M6 SL5 phase families; not all parameters or physical generations."
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-04",
+  "parent": "72f74753d",
+  "status": "unexecuted selected-point matter audit",
+  "hashes": {
+    "reports/phase_component_matter_2026_10_04/DESIGN.md": "cc7a54fe6010327b8f18d51eb97aaa3dbcc2ada0d01689d427098df8397d9f92",
+    "reports/phase_component_matter_2026_10_04/INPUTS.json": "f2bd615047ee80dbd52ef50e43cec7c778a333865f05aaff004e2cbaee525588",
+    "reports/phase_component_matter_2026_10_04/verify_matter.py": "34e0986ba9a22da86ce7fab25be453fc842af44636170615398119ed3c5056e5",
+    "reports/phase_component_matter_2026_10_04/test_matter.py": "0291baf1525a982be195ab1decd7fd6d97b31fc249bd6d77ecb1977c970117d0",
+    "reports/global_quotient_admission_2026_09_27/COMPONENT_RESULTS.json": "f99f58b43c827cea696097c45bb027503b9208ca531608969a49f73f420b39fa",
+    "reports/global_quotient_admission_2026_09_27/verify_monomial_lifts.py": "867847e64f1b47054f0f6b2cf93a5f3fe11f590eed946516adb515b08153845b",
+    "reports/global_quotient_admission_2026_09_27/verify_admission.py": "5c1814e29edc0e9fb82e4c6c3816fd38e1827d97d35b00f022a212dcc9107e95",
+    "reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py": "939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9",
+    "reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py": "0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4",
+    "reports/global_sl5_seed_2026_09_27/verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/monomial_exceptional_locus_2026_09_27/INPUTS.json": "a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0",
+    "reports/m6_parent_admission_2026_09_27/verify_parent_admission.py": "edd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f"
+  }
+}
