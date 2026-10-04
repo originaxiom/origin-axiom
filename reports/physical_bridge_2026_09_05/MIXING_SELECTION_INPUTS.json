@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "audit": "R83",
+  "baseline": "c7aa3a297d200f2c5bd9e9e49645faec06ed9468",
+  "main_head": "39775d66f",
+  "sm_head": "536dfba1b",
+  "dependencies": [
+    {"path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md", "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685", "bytes": 9845},
+    {"path": "reports/physical_bridge_2026_09_05/flat_vacuum.py", "sha256": "57a506ef6abbf5527c076d593712da7412514866791b065daecda4c5895ff599", "bytes": 7935},
+    {"path": "tests/test_physical_bridge_flat_vacuum.py", "sha256": "47b597ffdd5d93323416f66713ea33a3f277c5e15aeb0677453fa6098243d225", "bytes": 1172},
+    {"path": "reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_PROOF.md", "sha256": "02b0abf8b4fe16092931504feadd1a4eac665e232f34d20ba2e247eb261c80b1", "bytes": 11156},
+    {"path": "reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_PROOF.md", "sha256": "0e7504749407c45ae675123ca1c09bc1e54bcaca38da824cf2b7bccb890a99ca", "bytes": 9374},
+    {"path": "reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_PROOF.md", "sha256": "ed6f831f72a10868ca527a615910fd3cff127dd8cb5000a33779eccdcdcbba44", "bytes": 7654},
+    {"path": "tests/test_physical_bridge_dirichlet_admission.py", "sha256": "ce737464b2319f19f9244fb035f2f4bbe794992a9b2d5ab733303717b2595173", "bytes": 1966}
+  ],
+  "foreign": [
+    {"commit": "39775d66f", "path": "frontier/B1466_the_two_orders_and_the_register_bit/FINDINGS.md", "sha256": "8f69563bd5b5ec83e68c4b1f81bb60c268cdfeed9affc63888a54fc407fc76de", "bytes": 6781},
+    {"commit": "39775d66f", "path": "frontier/B1466_the_two_orders_and_the_register_bit/PREREGISTRATION.md", "sha256": "dbda286047cd8dae720822933614228b4549dd1594887d6e5d9140b0114270db", "bytes": 8957},
+    {"commit": "39775d66f", "path": "frontier/B1466_the_two_orders_and_the_register_bit/verification/two_orders.py", "sha256": "bced1aaa9cca7a61c43783ecf64bc7f9af8c0dae862f0ec7ad155b7fea5a24e8", "bytes": 8918},
+    {"commit": "39775d66f", "path": "frontier/B1466_the_two_orders_and_the_register_bit/verification/c3b_mixed_module.py", "sha256": "4a0a29bde7fcc1aa0c541f5bc3185d175c29d73a2b657bb61ceaf7b72ecea683", "bytes": 6196},
+    {"commit": "39775d66f", "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_THE_COUNT_IS_A_BIT_AND_THE_MIXING_QUARTIC.md", "sha256": "449d822d60732382b716a5691908dded99050e9173c67a0aa2fb29d70fcb4d6f", "bytes": 2542},
+    {"commit": "39775d66f", "path": "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-03_YOUR_EVENING_ROWED_GENESIS_V1_10.md", "sha256": "22df0cd9c91a00ccdf3160ecb9c59a1b51fda5f60bb1808525834369742e6c02", "bytes": 1879}
+  ],
+  "scope": "Received main data not independently executed; no actual q0 profile or quartic imported"
+}

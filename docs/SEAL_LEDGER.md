@@ -1714,3 +1714,19 @@ boundary-sector statements are kept separate. No full-suite/main banking.
 | `reports/physical_bridge_2026_09_05/cs_sector_scope.py` | `391344adf250a980e9a419f9b4a84d30b6c696f92658e9e0fc3939d4cb6dcbae` |
 | `reports/physical_bridge_2026_09_05/cs_sector_scope_control.py` | `1a187f50d947db6412c322e63a5e7cfbbe847f85323d28932d88a88c7dc49d83` |
 | `tests/test_physical_bridge_cs_sector_scope.py` | `5602555435853344d625c04176135ac27a34404bc8e836c4f80d4db2d7463c6d` |
+
+## R83 mixing/order-selection reply, 2026-10-04
+
+Pre-execution six-path seal. BANKED_IDENTITY/PRIOR_ART in the design.
+Push and server-confirm before imports/runs. Scalar-source and frozen/
+relaxed quartic distinction; received mixed-module certification scoped.
+No actual q0 quartic, physical source law or full-suite/main banking.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIXING_SELECTION_DESIGN.md` | `96eb1ee7b47ad2d0c9fd46d15d79a061c1abb19874437a2a812537c7cfdd3387` |
+| `reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md` | `b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52` |
+| `reports/physical_bridge_2026_09_05/MIXING_SELECTION_INPUTS.json` | `e95094e8bcb77d22be0cd84bdf9f46eff3027331d9ab725cae36149850daff64` |
+| `reports/physical_bridge_2026_09_05/mixing_selection.py` | `2722bcd9ad23cb683b6149240390a7caf8f30c6164482c0f97359f31acba9c25` |
+| `reports/physical_bridge_2026_09_05/mixing_selection_control.py` | `380139391bd6991fadba8cfaedf7a552be32abc08f1aa4157db941c40f341981` |
+| `tests/test_physical_bridge_mixing_selection.py` | `fbdd3c94249c85c5e1737d8fe43f9ff120a737f011a8d9245edf4d5c35649f54` |
