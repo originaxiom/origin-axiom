@@ -1782,3 +1782,21 @@ must be pushed/server-confirmed before native_repaired; then read-only.
 | `reports/physical_bridge_2026_09_05/joined_background.py` | `d64035c148c6d19de488ab30d07b50f49bf0610ec6fe19406bdd3177ba8a49aa` |
 | `reports/physical_bridge_2026_09_05/joined_background_reference.py` | `22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869` |
 | `tests/test_physical_bridge_joined_background.py` | `4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420` |
+
+## R85 field determinant API repair reseal, 2026-10-04
+
+8295fe981 native_repaired passed11 fixtures then exited1 in ring exquo
+called by DomainMatrix.det; retained original2546-byte log in design.
+Use ordinary exact field determinant elimination plus two instrument
+opposites; determinant-one criterion and candidate/proof unchanged.
+Both previous seals remain failed attempts. Push/server-confirm this seal
+before native_field_det. All six hashes below are command-derived.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_DESIGN.md` | `6c8d1b8abf35383b54fe10b95bc730f12fe9e40f1b62c6510c58c25b22f46c21` |
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md` | `e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816` |
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_INPUTS.json` | `608d676f93d188e716788986345df5e2f8489c7c606849ef38ddbacb6d5ede6b` |
+| `reports/physical_bridge_2026_09_05/joined_background.py` | `f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7` |
+| `reports/physical_bridge_2026_09_05/joined_background_reference.py` | `22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869` |
+| `tests/test_physical_bridge_joined_background.py` | `4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420` |

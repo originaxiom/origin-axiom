@@ -29,6 +29,22 @@ def rows_dm(rows,ncols,k=K):
     return C.DomainMatrix(rows,(len(rows),ncols),k)
 
 
+def determinant(mat):
+    """Field elimination: extension ring exquo is not quotient-field division."""
+    a=mat.to_list(); n=mat.shape[0]; k=mat.domain; out=k.one
+    for i in range(n):
+        j=next((j for j in range(i,n) if a[j][i]),None)
+        if j is None:
+            return k.zero
+        if j!=i:
+            a[i],a[j]=a[j],a[i]; out=-out
+        z=a[i][i]; out=out*z
+        for j in range(i+1,n):
+            t=a[j][i]/z
+            a[j]=[x-t*y for x,y in zip(a[j],a[i])]
+    return out
+
+
 def dual(gens):
     return {name:C.inv(a).transpose() for name,a in gens.items()}
 
@@ -149,7 +165,7 @@ def case(ab):
             'vz_minus_one_invertible':C.rank(vs['z']-C.eye(4,K))==4,
             'nonzero_cocycle':any(flat(coc)),
             'nontrivial_fibre_class':C.rank(vb.hstack(coc))==C.rank(vb)+1,
-            'determinant_one':all(g.det()==K.one for g in whole.values()),
+            'determinant_one':all(determinant(g)==K.one for g in whole.values()),
             'full_matrix_algebra':algebra['dimension']==25,
             'span_closed':algebra['closed']}
     witness={'left':{t:export(g) for t,g in left.items()},
@@ -205,6 +221,8 @@ def fixtures():
             'counterpair_kernel_dimension':len(ker[0])==3,
             'diagonal_positive_match':pos['s'] is not None,
             'singular_match_rejected':C.rank(singular)<3,
+            'determinant_positive_control':determinant(full['a'])==determinant(full['b'])==K.one,
+            'determinant_singular_control':determinant(singular)==K.zero,
             'full_two_algebra':span(full)['dimension']==4,
             'proper_two_algebra':span({'a':full['a']})['dimension']==2,
             'flag_commutant_one':comm==1,

@@ -117,3 +117,15 @@ analytic proof changed. Revised code/design and all six path digests
 are committed/pushed/server-confirmed before a separately named run.
 Any successful certificate belongs to the REPAIRED seal, never to the
 unchanged original. Same-author reference and analytic-review debts stay.
+
+Second attempted seal8295fe981f4d939c8f5d279dcd3a6294f742d1b2 exited1
+after11 fixture predicates passed. DomainMatrix.det invokes polynomial
+ring exact quotient in this extension type, which raised
+ExactQuotientFailed instead of performing quotient-field division. No
+candidate JSON record landed. Preserve the2546-byte original stdout,
+sha2561b66c6866ce4ce0a1e24b0bedc11bc90de52ff9f14d51dc61b39adce0bda0976.
+Replace ONLY that determinant API call with ordinary field Gaussian
+elimination and add nonsingular/singular determinant instrument controls.
+The determinant-one scientific criterion, field, candidates and analytic
+proof remain unchanged. Push/server-confirm this third seal before
+native_field_det; no successful certificate for either earlier seal.
