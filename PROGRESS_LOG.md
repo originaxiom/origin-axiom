@@ -16149,3 +16149,13 @@ Arc **B1468** (PROVED, instrument). R59-2 paid. PRACTICES amended. Gates 42 of 4
 **What it means.** For the first time today every seat's index is rowed — the loop can now spend its time on verification rather than on reading. Nothing in the derivation moved. **The imported expectation, stated separately:** none. **0 of 19.**
 
 Arc **B1469** (PROVED, harvest). R59-3 paid. L245 registered. Gates 42 of 42; full suite 7039 passed, 1 failed (the paper manifest, stale by a late edit of this arc's own FINDINGS; rebuilt, its test re-run green), 68 skipped.
+
+## 2026-10-04 — S53 THE UNRUN MODULES RUN ON MAIN: B1418's 3 325 modules of t12835, left NOT RUN on a budget in September and named by L222 as the most informative unrun computation in the record, completed with the budget lifted — no three anywhere, the maximum |I| = 2 at m = 3 as banked, the sep16 lane's table confirmed row by row.
+
+**The occasion.** L245's first entry and L222 (iii): the sep16 lane's xB031 said it had run B1418's 3 325 unrun modules and found no three. Main verifies with its own instrument before anything is banked from a lane.
+
+**What was run (B1470).** B1418's own driver, imported from its directory with nothing changed but the 1 800 s budget: t12835 over ℚ(ζ₁₂), m ≤ 3, every twist of the record's set — 6 435 modules in 4 234 s, none NOT RUN. Index multiset 0 × 6 003, −1 × 252, +1 × 156, −2 × 24; the 3 325 formerly unrun are 3 070 zero, 150 at −1, 90 at +1, 15 at −2. **No three. Max |I| = 2 at m = 3**, exactly where B1418 banked it. B1418's 3 110 rows reproduced 3 110 of 3 110; the lane's 6 435-row table agrees 6 435 of 6 435, key by key. NEGATIVE, routed in the kill graph with its scope; the same instrument on both benches, so a completeness check, not an independent route.
+
+**What it means.** The record's one named unrun computation holds no three; the bound |I| ≤ ⌊rank/2⌋ stands untouched; the family's |I| = 2 remains the record's largest characteristic-zero count and it is not a generation count. **The imported expectation, stated separately:** none. Nothing selects a state. **0 of 19.**
+
+Arc **B1470** (NEGATIVE). L222 (iii) paid; L245's xB031 verified; B1418 addendum. Gates 42 of 42; full suite 7042 passed, 0 failed, 68 skipped.

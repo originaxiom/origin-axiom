@@ -11104,5 +11104,22 @@
    "reach": "single",
    "hypotheses": "the minima of the action are the reductive points (the audit lane's R76 with Corlette's theorem as it cites it; not re-derived); modules made from rho_q by operations that commute with duals"
   }
+ },
+ {
+  "id": "B1470",
+  "claim_killed": "That the 3 325 modules of t12835 left NOT RUN by B1418 (the one-cusped index I = t0 - r1 on the reducible non-split locus over Q(zeta_12), m <= 3) hold a three.",
+  "kill_form": "Computation to completion with B1418's own driver, budget lifted: 6 435 modules, none NOT RUN; index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3; agreement 3 110/3 110 with B1418's banked rows and 6 435/6 435 with the sep16 lane's xB031.",
+  "hatch": "a different manifold of the class, a different field than Q(zeta_12), m >= 4 by an independent route (the lane's X3 says the index dies by m = 6 on this manifold), or a module not of B1418's reducible non-split form.",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-04), for tests/test_b833_negative_routing.py",
+  "note": "L222 (iii) paid. The same instrument on both benches: a completeness check, not an independent route.",
+  "faces_consulted": "B1418 (the table and the rule 'NOT RUN is never folded into zero'); the sep16 lane's xB031 (read); B1440 (the rank bound, untouched).",
+  "fact_computed": "True",
+  "scope": {
+   "frame": "F-CI (B1418's one-cusped index)",
+   "object": "t12835 over Q(zeta_12), 6 435 modules, m <= 3",
+   "reach": "single",
+   "hypotheses": "the same instrument as B1418; m = 4, 5, 6 read from the lane, not re-run"
+  }
  }
 ]

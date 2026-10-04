@@ -1,0 +1,25 @@
+{
+ "modules": 6435,
+ "not_run": 0,
+ "b1418_run": 3110,
+ "b1418_not_run": 3325,
+ "agree_with_b1418_on_run": 3110,
+ "xB031_rows": 6435,
+ "keys_overlap_xB031": 6435,
+ "agree_with_xB031": 6435,
+ "I_values": {
+  "0": 6003,
+  "-1": 252,
+  "1": 156,
+  "-2": 24
+ },
+ "completion_I": {
+  "0": 3070,
+  "-1": 150,
+  "-2": 15,
+  "1": 90
+ },
+ "max_abs_I": 2,
+ "any_three": false,
+ "verdict": "PASS"
+}

@@ -2949,6 +2949,11 @@ The U(1)′ left by the Y₃ line is the Cartan direction γ ⊥ (SM, Y, β) —
 
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: (iv), the programme-level decision whether the object of the chain is the commensurability class, is the owner's. Owner: the owner.
 
+- **(iii) — PAID 2026-10-04 (B1470, NEGATIVE):** t12835's 3 325 unrun modules run on main with B1418's own driver, the
+  budget lifted (4 234 s): 3 070 zero, 150 at −1, 90 at +1, 15 at −2 — no three; the full 6 435 agree with the sep16 lane's
+  xB031 key by key and with B1418's banked 3 110. Max |I| = 2 at m = 3; the lane's m = 4, 5, 6 (the index dies by m = 6) read.
+
+
 ## L224 — THE HARVEST GATE IS BLIND TO THE LARGER HALF OF ITS OWN DEBT — **CLOSED 2026-09-17 (B1423/S16)**
 
 **Closed the day it was registered.** `scripts/checks/harvest_debt.py` now computes a **ledger-side,
@@ -3548,7 +3553,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - The Alexander-root/golden-locus join was B1260's, twelve days earlier.
   - U4's 'the two programmes cannot simply be composed' is INCOMPLETE. It is true of the h¹-index route only.
   - The programmes can be composed along B1355.
-- **xB031:**
+- **xB031 — VERIFIED on main 2026-10-04 (B1470: 6 435 of 6 435 agree; no three):**
   - The sealed prediction for X2 held: completing the 3 325 unrun modules produced NO 3.
 - **xB032:**
   - B803's 'Not verified here' item -- the analytic-torsion join needing the Cheeger-Muller/Fried literature step -- is now taken far enough to know the step is BLOCKED ON HYPOTHESES for the record's own modules

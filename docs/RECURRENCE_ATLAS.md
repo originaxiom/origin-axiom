@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-10-04 from 1295 frontier probes.
+> Last generated: 2026-10-04 from 1296 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1295 frontier probes; status {'open': 71, 'banked': 849, 'dead': 349, 'dormant': 26}
+  corpus: 1296 frontier probes; status {'open': 71, 'banked': 849, 'dead': 350, 'dormant': 26}
   the ONE conserved first integral: kappa (recurs 291x, 22%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(726), golden(715), firewall(646), figure_eight(568), amphichiral_cp(496), metallic(478)
   recurrence is: structural-invariant 5134 mentions | conserved-integral 291 | TOOL 473
@@ -40,7 +40,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | measurement | 319 | 24% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
 | wrt_quantum | 293 | 22% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 291 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
-| lorentzian | 229 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
+| lorentzian | 230 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | choice | 193 | 14% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |
 | symplectic | 135 | 10% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | dickson_tower | 127 | 9% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
@@ -74,7 +74,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | units_scale | 116 | firewall | firewall(76), golden(69), eisenstein(62), metallic(56) |
 | gauge_dict | 67 | eisenstein | eisenstein(42), firewall(34), golden(33), amphichiral_cp(32) |
 | particle_dict | 117 | eisenstein | eisenstein(84), z3_generation(83), golden(69), firewall(64) |
-| spacetime_3p1 | 153 | eisenstein | eisenstein(91), golden(88), figure_eight(82), trace_map(75) |
+| spacetime_3p1 | 154 | eisenstein | eisenstein(91), golden(88), figure_eight(82), trace_map(75) |
 | observable | 52 | golden | golden(39), coupling(28), eisenstein(25), measurement(25) |
 | numerology | 26 | eisenstein | eisenstein(18), golden(17), firewall(16), metallic(15) |
 | bridge_construction | 11 | golden | golden(8), firewall(7), eisenstein(7), choice(6) |
@@ -126,7 +126,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 | measure | 131/221 |
 | selector | 24/39 |
 | gauge_dict | 67/108 |
-| spacetime_3p1 | 153/237 |
+| spacetime_3p1 | 154/238 |
 | numerology | 26/40 |
 | units_scale | 116/174 |
 

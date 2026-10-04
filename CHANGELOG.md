@@ -1,5 +1,15 @@
 # Changelog
 
+## S53 THE UNRUN MODULES RUN ON MAIN: B1418's 3 325 modules of t12835, left NOT RUN on a budget in September and named by L222 as the most informative unrun computation in the record, completed with the budget lifted — no three anywhere, the maximum |I| = 2 at m = 3 as banked, the sep16 lane's table confirmed row by row.
+
+**The occasion.** L245's first entry and L222 (iii): the sep16 lane's xB031 said it had run B1418's 3 325 unrun modules and found no three. Main verifies with its own instrument before anything is banked from a lane.
+
+**What was run (B1470).** B1418's own driver, imported from its directory with nothing changed but the 1 800 s budget: t12835 over ℚ(ζ₁₂), m ≤ 3, every twist of the record's set — 6 435 modules in 4 234 s, none NOT RUN. Index multiset 0 × 6 003, −1 × 252, +1 × 156, −2 × 24; the 3 325 formerly unrun are 3 070 zero, 150 at −1, 90 at +1, 15 at −2. **No three. Max |I| = 2 at m = 3**, exactly where B1418 banked it. B1418's 3 110 rows reproduced 3 110 of 3 110; the lane's 6 435-row table agrees 6 435 of 6 435, key by key. NEGATIVE, routed in the kill graph with its scope; the same instrument on both benches, so a completeness check, not an independent route.
+
+**What it means.** The record's one named unrun computation holds no three; the bound |I| ≤ ⌊rank/2⌋ stands untouched; the family's |I| = 2 remains the record's largest characteristic-zero count and it is not a generation count. **The imported expectation, stated separately:** none. Nothing selects a state. **0 of 19.**
+
+Arc **B1470** (NEGATIVE). L222 (iii) paid; L245's xB031 verified; B1418 addendum. Gates 42 of 42; full suite 7042 passed, 0 failed, 68 skipped.
+
 ## S52 THE SEP16 LANE AND THE CLOUD'S THREE MEMOS ROWED: the adversarial seat's thirty-one arcs read at the pin with every claim about main quoted — ninety-seven across twenty-five arcs, listed in a lead to verify, three already absorbed — and the harvest debt at zero unrowed on every seat.
 
 **The occasion.** Review 59's R59-3: 31 arcs of the sep16 lane (the opponent seat, never merged) were ageing toward the gate's 21 days, and the cloud lane's memos 234–236 were unrowed. The harvest rule is read-then-row, at the pin.

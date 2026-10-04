@@ -1,12 +1,12 @@
 {
- "measured_at_main_head": "daf035b6",
+ "measured_at_main_head": "98714379",
  "main_root": "517783f2",
  "lanes": [
   {
    "ref": "codeberg/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3093,
-   "commits_unique_vs_main": 238,
+   "commits_total": 3096,
+   "commits_unique_vs_main": 241,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -65,8 +65,8 @@
   {
    "ref": "codeberg/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3096,
-   "commits_unique_vs_main": 221,
+   "commits_total": 3105,
+   "commits_unique_vs_main": 230,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -161,8 +161,8 @@
   {
    "ref": "origin/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3093,
-   "commits_unique_vs_main": 238,
+   "commits_total": 3096,
+   "commits_unique_vs_main": 241,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -221,8 +221,8 @@
   {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3097,
-   "commits_unique_vs_main": 222,
+   "commits_total": 3105,
+   "commits_unique_vs_main": 230,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -244,7 +244,7 @@
   }
  ],
  "lanes_with_unique_work": 15,
- "total_unique_commits_across_lanes": 1975,
+ "total_unique_commits_across_lanes": 1998,
  "same_repository_lanes": 14,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1298** |
-| words of findings prose | **999,766** |
+| research arcs with findings | **1299** |
+| words of findings prose | **1,000,331** |
 | test lock files referenced | **758** |
-| arcs carrying an authored verdict | **1298** (100.0 %) |
-| recorded closures | **802** (635 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1299** (100.0 %) |
+| recorded closures | **803** (636 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 870 |
-| NEGATIVE | 326 |
+| NEGATIVE | 327 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 72 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 73 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE SEP16 LANE AND THE CLOUD'S THREE MEMOS ROWED (R59-3): xB003-xB034 read at the pin by six readers with every claim about main quoted (97 claims across 25 arcs, listed in lead L245 to verify -- the wrong leaf since arc 13, B425's cancellation as an amphichirality artefact, the orbifold below A5, thirteen non-arithmetic in the 112-family, B1224 derived, the bound a tower property, 3 325 modules run with no 3, cs(M*) = -cs(M) used-not-read, the identification rule not enforced on kills); three absorbed already (B288 -> B1419, Kawauchi stripped in B1239, beta_c -> L244); memos 234-236 rowed and memo 236's instrument note taken (already_banked.py does not read the paper). Nothing selects a state. 0 of 19.  
 `B1469_the_sep16_lane_and_the_clouds_memos_rowed/FINDINGS.md`
 
-**NEGATIVE — `B1455`** (2261 words, 0 locks)  
-THE SELECTION RULE, AND THE TEST THAT DECIDES IT ON THE BRIDGE'S VACUA (sealed 12ed66bd; the web seat's handoff of 2026-10-02: does the action have a mirror-symmetric potential whose minima are not mirror-symmetric?). NEGATIVE, the registered kill, scoped to the frame F-HE on m004's harmonic family at level one: the vacuum does not select a handedness there. THREE LINES THE TEST TURNS ON: the class index is unchanged by pulling back along any symmetry of the manifold, mirrors included (L1), and changes sign under dualising (L2); so a module with V* isomorphic to sigma^* V has index zero (L3), and the count-odd symmetries are a symmetry followed by dualising. THE TEST, by two routes with no shared code (characters on 2046 words in exact rationals; intertwiners, symbolic in q): on Ballas' family the dual of the vacuum at q is the vacuum at 1/q, and inverting both generators does the same, so inversion-then-dual fixes every vacuum, for every q > 0 and every central twist. HENCE every reductive module made from rho_q has class index zero -- a proof, not a census. The counts of +-1 found by the seats sit on non-split extensions, which no count-odd symmetry fixes and which are not minima (the audit lane's R76, read). ONE SEALED PREDICTION FAILED: only four of the eight signed permutations of the generators are automorphisms and all four preserve orientation; the mirrors were found after the seal by search (152 maps) and fall in two classes -- those keeping the longitude fix every vacuum, those inverting it exchange q and 1/q -- so the eight symmetries act on the family through one bit, which is the same as dualising. TWO CORRECTIONS TO THE RULE AS WORDED: the counted configuration is itself fixed by a bare mirror and counts -1 (60 digits; an invertible intertwiner), so 'symmetric under the mirror gives zero' is false for the geometric mirror and true for symmetry-plus-dual; and half the symmetries are broken by every vacuum off the hyperbolic point without any count being broken. The audit lane's open checkbox (base isometry plus duality) is paid. The handoff's side claims recompute (the Sturmian identity at nine intercepts; no surjection of m004's group onto SL(2,5), 1440 for m202). Silent on other states, frames, sources, ends and on selection by a relation. 0 of 19.  
-`B1455_the_selection_rule_and_the_deciding_test/FINDINGS.md`
+**NEGATIVE — `B1470`** (565 words, 0 locks)  
+THE UNRUN MODULES RUN ON MAIN (L222 (iii); L245's xB031): B1418's own driver on t12835 with its 1 800 s budget lifted runs all 6 435 modules in 4 234 s -- none NOT RUN -- with index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3, NO THREE; B1418's 3 110 banked rows agree 3 110 of 3 110 and the sep16 lane's xB031 table agrees 6 435 of 6 435 key by key; the 3 325 formerly unrun are 3 070 zero, 150 at -1, 90 at +1, 15 at -2. The one unrun computation the record kept pointing at holds no three. Nothing selects a state. 0 of 19.  
+`B1470_the_unrun_modules_run_on_main/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

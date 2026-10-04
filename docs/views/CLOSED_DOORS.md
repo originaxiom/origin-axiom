@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**802 recorded closures — of which 635 are CLASSIFIED by mechanism and
+**803 recorded closures — of which 636 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -85,6 +85,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed run (2f75736d) of the published formula on B1428's boundary classes, after reproducing all sixteen figure-eight entries the source publishes; a fixed reader with six features; the arithmetic set from B1419's census.` | 1 |  |
 | `Execution: each script under PYTHONHASHSEED 0-3 in a scratch checkout, output and written files compared with timings removed, three of the written files byte-identical to their tracked copies; two sites settled by reading.` | 1 |  |
 | `Proof with exact computation: the class index is invariant under pullback by any symmetry of the manifold and odd under dualising, so a module with V* isomorphic to sigma^*V has index zero; on Ballas' family (rho_q o iota)^* is conjugate to rho_q for every q > 0 (characters on 2046 words in exact rationals; an explicit intertwiner X(q) by a second route), so every reductive module made from rho_q with any central twist has index zero.` | 1 |  |
+| `Computation to completion with B1418's own driver, budget lifted: 6 435 modules, none NOT RUN; index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3; agreement 3 110/3 110 with B1418's banked rows and 6 435/6 435 with the sep16 lane's xB031.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 
