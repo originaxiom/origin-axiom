@@ -1,0 +1,10 @@
+# B1541 -- sha-256 of the sealed files, recorded at the seal (before run.py read any count but the pulled-back class's,
+# which the banked rows fix at (0, 0); the controls K1-K6 read structure, banked values and synthetic rows only).
+# identity.py checks every line first. Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1541_the_count_on_the_room/)
+6a97c7b4df34c108e6e46babf186451b91115a23b4ed13f69bce3ad1131001e6  PREREGISTRATION.md
+5e90d57224e7273d0147c879c9e4a69d703f791b2a2372f2f6def11f5083c172  verification/n45.py
+66b8ce9a1eff46648e62a6c0318456f2f1fafe53f1f185ba6cb87bdcbf98f9a2  verification/run.py
+04584b640dbb9885d25c9382f87223db46f1f49ea1d6ca9a17e954daa466d1c3  verification/read_out.py
+2f4d4dc8238c40db07bff0dc4962e64455ddea3cf79611d5aea32b62a9a5e9ad  verification/controls.py
+e0b5a2697e81c5c3589ebd969edd1360a596aca5a1d25d97db00cbe4bb294de2  verification/identity.py
+9b539fe3c28c02e4d5bb8093e5d390b94c1a4860735b43410f18ce87925261ef  verification/controls.json

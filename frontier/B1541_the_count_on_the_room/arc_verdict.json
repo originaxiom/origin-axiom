@@ -1,0 +1,95 @@
+{
+ "id": "B1541",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1536",
+  "B1535",
+  "B1515",
+  "B1532",
+  "B1527",
+  "B1516"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "N_45, the 5-fold cyclic cover of m003's degree-9 cover d9.2 along the order-5 character pulled back from m003's Z/5 torsion (degree 45, five cusps; (n(1), n(rho)) = (4, 18), room 5), at its trivial character: the classes of H^1(N_45; rho) (dimension 23) in 42 subspaces (the 32 cusp strata and the deck group's five eigenspaces with their interior parts), three generic draws each, and the class pulled back from m003",
+  "reach": "class",
+  "hypotheses": [
+   "sealed: no count has been read except the pulled-back class's, which the banked rows fix at (0, 0); this record is replaced at the bank",
+   "at the hyperbolic point and the trivial character of N_45 only",
+   "generic classes of the 42 subspaces read; the special classes inside each subspace (where the count can jump) and other subspaces are not covered",
+   "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question",
+   "other characters of N_45 and other covers with room for three are not covered (the seal's section 10)"
+  ]
+ },
+ "claim_one_line": "THE COUNT ON THE ROOM, SEALED: on N_45, the degree-45 cover of m003 (the 5-fold cyclic cover of d9.2 along the order-5 character from m003's Z/5 torsion) where room for three first appears ((n(1), n(rho)) = (4, 18), room 5, fixed by sm:B1536's banked rows and Lemma A and read directly), which counts (I(W), I(L2W)) does the frame give at the classes of H^1(N_45; rho) (dimension 23 = 3 + 4 x 5 over the deck group's eigenspaces)? Read at three generic draws in each of 42 subspaces (sm:B1536's Part O cusp strata on N_45 and the deck group's eigenspaces with their interior parts), in route N (Shapiro on m003, p_N) and route R (N_45's presentation: the same class transported at p_N, and its own classes at p_R), and at the pulled-back class (fixed at (0, 0) by the banked rows). Controls K1-K6 hold; a pre-seal int64 overflow in route R's eigenspace projection at p_R was caught by K2 and fixed. Predictions P1-P6 with priors (P4 generation-shaped 20%, P5 three 7%); PROVED if a class reads (-3, -3) in two routes at the same class; NEGATIVE (scoped to the generic classes read) if none is generation-shaped. No count read but the fixed one. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-04 16:00Z)": "6fdf6d69",
+    "main (at the sweep, 2026-10-04 16:00Z)": "37bde38e",
+    "art/camper-van-bar (at the sweep, 2026-10-04 16:00Z)": "b3745696",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-04 16:00Z)": "8b89d8fb",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-04 16:00Z)": "8522a27a",
+    "seat/determined-hopper-t1cmii (at the sweep, 2026-10-04 16:00Z)": "7cda35aa",
+    "seat/magical-wright-vwrmtt (at the sweep, 2026-10-04 16:00Z)": "0043be2b",
+    "seat/outside-bench (at the sweep, 2026-10-04 16:00Z)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-04 16:00Z)": "5d58b935",
+    "seat/physics-seat-evaluation-8dkbrl (at the sweep, 2026-10-04 16:00Z)": "659487bb",
+    "sep16-branch (at the sweep, 2026-10-04 16:00Z)": "3205984b"
+   },
+   "terms": [
+    "N_45",
+    "degree-45",
+    "degree 45",
+    "room for three",
+    "class strata",
+    "isotypic",
+    "deck group",
+    "generation-shaped",
+    "torsion cover",
+    "Z/5 torsion",
+    "pulled-back class",
+    "Part O"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation:frontier/B1536_the_finite_covers",
+     "bearing": "route N, route R, Part P and Part O, loaded by path and unchanged; the banked rows fix N_45's supplies and its pulled-back count; no class of N_45 read there"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1535_the_cap",
+     "bearing": "Theorem C, the frame's bounds: I(L2W) in [-18, 0], I(W) >= -5 on N_45"
+    },
+    {
+     "where": "seat/standard-model-derivation:docs/dossiers/golden_covers_2026-10-04 (sections 6, 7)",
+     "bearing": "Lemma A and the finding of N_45 (room 5 at the trivial character)"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1375_the_towers_generation_count/FINDINGS.md",
+     "bearing": "none: a false match of 'N_45' in a filename (run_456)"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "counts of an extension module's interior cohomology on a cyclic cover of a hyperbolic 3-manifold",
+    "Shapiro's lemma with Mackey at the boundary"
+   ],
+   "sources": [
+    {
+     "cite": "sm:B1536's Lemma S' (this repo, after sm:B1532's citation of Shapiro's lemma)",
+     "where": "frontier/B1536_the_finite_covers/PREREGISTRATION.md section 3",
+     "read": "2026-10-04",
+     "says": "Shapiro for a finite cover with the permutation module, compatibly with restriction to the cusps"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ }
+}

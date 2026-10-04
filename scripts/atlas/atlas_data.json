@@ -10069,6 +10069,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1541": {
+   "slug": "the count on the room",
+   "motifs": [
+    "monoid",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B837",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "P1",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B154": {
    "slug": "silver bundle foundation",
    "motifs": [

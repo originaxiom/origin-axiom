@@ -1,0 +1,184 @@
+{
+ "K1": {
+  "degree": 45,
+  "cusps": 5,
+  "route N (n(1), n(rho))": [
+   4,
+   18
+  ],
+  "route R (n(1), n(rho))": [
+   4,
+   18
+  ],
+  "holds": true
+ },
+ "K2": {
+  "h1 (route N p_N, route R p_N, route R p_R)": [
+   23,
+   23,
+   23
+  ],
+  "eigenspaces (route N)": [
+   3,
+   5,
+   5,
+   5,
+   5
+  ],
+  "eigenspaces (route R, p_R)": [
+   3,
+   5,
+   5,
+   5,
+   5
+  ],
+  "holds": true
+ },
+ "K3": {
+  "transported cocycles are cocycles": true,
+  "rank on H^1": 23,
+  "carries deck_N to deck_R": true,
+  "holds": true
+ },
+ "K4": {
+  "route N": [
+   0,
+   0
+  ],
+  "route R": [
+   0,
+   0
+  ],
+  "route R at p_N (transported)": [
+   0,
+   0
+  ],
+  "identities": [
+   true,
+   true,
+   true
+  ],
+  "holds": true
+ },
+ "K5": {
+  "routes": {
+   "N": {
+    "strata": 8,
+    "reproduced": true
+   },
+   "R": {
+    "strata": 8,
+    "reproduced": true
+   }
+  },
+  "holds": true
+ },
+ "K6": {
+  "cases": 8,
+  "holds": true,
+  "detail": {
+   "negative, complete": {
+    "want": {
+     "P1": true,
+     "P2": true,
+     "P3": true,
+     "P4": false,
+     "P5": false,
+     "P6": true
+    },
+    "got": {
+     "P1": true,
+     "P2": true,
+     "P3": true,
+     "P4": false,
+     "P5": false,
+     "P6": true
+    },
+    "pass": true
+   },
+   "three at a class": {
+    "want": {
+     "P1": true,
+     "P4": true,
+     "P5": true
+    },
+    "got": {
+     "P1": true,
+     "P4": true,
+     "P5": true
+    },
+    "pass": true
+   },
+   "generation-shaped, not three": {
+    "want": {
+     "P4": true,
+     "P5": false
+    },
+    "got": {
+     "P4": true,
+     "P5": false
+    },
+    "pass": true
+   },
+   "the transport disagrees": {
+    "want": {
+     "P1": false,
+     "P5": false
+    },
+    "got": {
+     "P1": false,
+     "P5": false
+    },
+    "pass": true
+   },
+   "a missing task gives None": {
+    "want": {
+     "P1": null,
+     "P4": null,
+     "P5": null
+    },
+    "got": {
+     "P1": null,
+     "P4": null,
+     "P5": null
+    },
+    "pass": true
+   },
+   "a duplicate row gives None": {
+    "want": {
+     "P1": null,
+     "P4": null
+    },
+    "got": {
+     "P1": null,
+     "P4": null
+    },
+    "pass": true
+   },
+   "the pulled-back class off (0, 0)": {
+    "want": {
+     "P6": false
+    },
+    "got": {
+     "P6": false
+    },
+    "pass": true
+   },
+   "an anomalous (k, -k) count is not generation-shaped": {
+    "want": {
+     "P4": false
+    },
+    "got": {
+     "P4": false
+    },
+    "pass": true
+   }
+  }
+ },
+ "seconds": {
+  "K1-K4": 58.4,
+  "K5": 27.8,
+  "K6": 0.0
+ },
+ "all hold": true
+}

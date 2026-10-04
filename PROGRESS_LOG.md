@@ -17628,3 +17628,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   sealed first. sm:B1538's Part F′ continues.
 - The count at N₄₅'s class pulled back from m003 is fixed by the banked rows at (0, 0) (five banked Part P counts of (0, 0)),
   and is read directly as (0, 0) in both routes. The other 22 dimensions of the class space are unread.
+
+## 2026-10-04 — B1541 sealed: the count on the room (task 259)
+
+- Preregistration, instruments, controls (K1–K6 hold), OPEN verdict and findings stub committed before any count but the
+  pulled-back class's (fixed at (0, 0)) was read. Next: identity, then the run once sm:B1538's Part F′ has freed the machine.

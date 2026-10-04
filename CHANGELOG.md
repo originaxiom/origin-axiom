@@ -1,5 +1,25 @@
 # Changelog
 
+## B1541 sealed: THE COUNT ON THE ROOM — the frame's counts at the classes of H¹(N₄₅; ρ), on the degree-45 cover of m003 where room for three first appears
+
+- **The question.** N₄₅ has (n(1), n(ρ)) = (4, 18) and room 5 at its trivial character (the golden covers dossier's §7).
+  Which counts (I(W), I(Λ²W)) does the frame give at its classes? Is any generation-shaped, and is any (−3, −3)?
+- **The classes** (dimension 23 = 3 + 4 · 5 over the deck group's eigenspaces).
+  - Three generic draws in each of 42 subspaces: sm:B1536's Part O cusp strata on N₄₅, and the deck group's five eigenspaces
+    with their interior parts.
+  - The class pulled back from m003, whose count the banked rows fix at (0, 0).
+- **Two routes.**
+  - Route N: Shapiro on m003, at p_N.
+  - Route R: N₄₅'s own presentation. It reads route N's class transported at p_N, and its own classes at p_R.
+  - 127 tasks, 380 readings.
+- **Controls K1–K6 hold**: structure, supplies (4, 18), eigenspaces (3, 5, 5, 5, 5) in both routes, the transport, the
+  pulled-back (0, 0), sm:B1536's banked Part O at d10.4 reproduced, and the read-out on synthetic rows.
+- **One pre-seal slip**, caught by K2 and recorded in ERROR_LEDGER as a recurrence of an int64 product before reduction.
+- **Predictions**: P4 (generation-shaped) 20%, P5 (three) 7%.
+  - PROVED if a class reads (−3, −3) in two routes at the same class.
+  - NEGATIVE, scoped to the generic classes read, if none is generation-shaped.
+- No count read but the fixed one. 0 of 19.
+
 ## Room for three found, at the golden order: a degree-45 cover of m003 with (n(1), n(ρ)) = (4, 18) (the golden covers dossier's §7)
 
 - **Found while setting the next arc's priors.** sm:B1536's banked rows on m003's d9.2 (routes R and N identical) put the
