@@ -177,3 +177,31 @@ The `retraction-sweep` gate stays clean: registered informally (this section), a
 | "past the object" (of m010) / "the axiom that chooses m004" / "A6 excludes the gauged role" | B1379, B1380, B1383, OPEN_LEADS sL-3, THE_SM_VERDICT (2026-09-26) | a declared selector's choice is conditional, not the alternative's absence. Use: "m010, a later generated state of the same architecture"; "m004, conditional on the orientation axiom"; "role (a) is excluded only conditionally on A6". |
 
 The `retraction-sweep` gate stays clean: registered informally (this section), as for B1376, B1379, B1382 and B1383 above.
+
+## Currency read 2026-10-04 (the SM seat's window B1373–B1399 and B1500–B1536)
+
+The window's corrections of record are rowed in `docs/ERROR_LEDGER.md` on the day each was found. The phrases below were public
+when withdrawn; each is registered informally here, as for B1376–B1384 above, with what to use instead.
+
+| phrase (as formerly used) | where, when | status; use instead |
+|---|---|---|
+| "charge-blind completions are vector-like" (unscoped, B1297's count named among them) | B1393 at `3635b364`, the arc and six surfaces (2026-09-28) | E71: proved for the rank-one Higgs twist only; main's R27 and B1418 are non-zero charge-blind indices. Narrowed on every surface the same morning. Use: "a rank-one charge-blind count vanishes". |
+| "E₇: any integer, three included, as an input" / "several caps add their counts" | B1397, with B1395's and B1396's menus (2026-09-28) | E65: one bulk U(1)'s flux degrees sum to zero over the cusps, so caps carrying one bulk flux are vector-like in total, and m004's single cusp carries none. The E₇ reading needs a source (B1397 §7). From this read THE_SM_VERDICT's E₇ sentence and B1397's fence on several caps carry the qualifier inline. |
+| "on 8 of 9" (a generic twist concentrating the homology) | B1500 (2026-09-29) | E11: 7 of the 8 members with cuspidal classes. Corrected in place at six sites, with a lock that computes the count. |
+| "TAU2 is wrong on two wraparound terms" (of the web seat's deck map) | B1378 §3 (2026-09-26) | E72: the web seat's map is conjugation by a² and is right; the substitute failed on two generators (main's B1432). §3 withdrawn. |
+| "a single background has the same count on every level" | B1506 §0 (2026-09-30) | E53: T2's rank-two hypothesis is needed; the induced background's count is −gcd(n, 3) (the audit lane's R69). Dated note on B1506; from this read the letter of 2026-09-08 carries B1508's scope inline. |
+| "there is one such relation: the cover" / "the joint region is fixed by theorem" | B1385 §4 and P022's addendum (2026-09-27) | E9: flat data also descend along Dehn fillings (the audit lane's R57). Dated notes. |
+| "the silver squares' covers count at most two" / "three is impossible there" | the design note quoted in sm:B1532's seal and drafted into sm:B1530 (2026-10-03) | E9: the bound was one-sided; withdrawn. sm:B1534 reads the covers exactly: at most one generation. |
+| "8 to 30" (eigenvalue-one crossings per state) | sm:B1527 §0, the P6 row, §4 and §7 (2026-10-03) | E31: 8 to 14 per state; 16 on each of ±L³RLR² were sign changes through a pole. B1527's FINDINGS carries the correction section (from sm:B1529) and an inline mark at each original line. |
+| "appear nowhere — 0 in the record" (of "symmetric phase" and "broken phase") | `philosophy/P023`, the owner's relayed reframing (2026-10-03) | E54: both phrases are in OPEN_LEADS L17, B849 and B853 on every head read (sm:B1531). |
+
+A sweep of the tracked corpus for these phrases (2026-10-04, at `4f30aecb`) found only mentions, scoped uses and sealed text
+apart from four places, all fixed by this read:
+- THE_SM_VERDICT's E₇ sentence now carries its qualifier inline;
+- B1397's fence "several caps add their counts" now points to its §7;
+- sm:B1527's original "8 to 30" lines now carry an inline mark pointing to their correction;
+- the B1506 note in this seat's letter of 2026-09-08 now carries B1508's scope.
+
+The mentions are retraction records, correction notes and quotations. The scoped uses carry an adjacent note (B1385 §4, B1506 §0)
+or their scope in the sentence (the Higgs twist in OPEN_LEADS and B1393). The sealed text is sm:B1534's preregistration, which
+quotes the withdrawn bound and proves its own Corollary I′. The `retraction-sweep` gate stays clean.

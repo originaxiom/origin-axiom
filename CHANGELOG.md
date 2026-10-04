@@ -1,5 +1,40 @@
 # Changelog
 
+## The currency pass: four living documents read, relay-debt and doc-currency green again, R84's scope recorded
+
+- **The four stale documents read** (doc-currency now passes: 18 living documents current).
+  - REPRESENTATION_TRIAGE: the window's 64 arcs are all on the gate's surfaces, with per-group counts; no new PENDING.
+  - RETRACTED_PHRASES: nine phrases withdrawn in the window, each with what to use instead. The phrase sweep found four live
+    uses, each now marked inline: THE_SM_VERDICT's E₇ sentence, B1397's fence on several caps, sm:B1527's "8 to 30" lines,
+    and the B1506 note in this seat's letter of 2026-09-08.
+  - SM_SPECIFICATION_LEDGER: row A3 across the first frame, the generated state space and F-HE; rows A1/C and A5–A7;
+    0 of 19.
+  - TOOLBOX_LIVE: the window's libraries with their paths, and the same-name hazard (nine `read_out.py`, thirteen
+    `controls.py`, and others) with the load-by-path pattern.
+- **relay-debt passes.**
+  - Forty rows of main's own outbound relays (2026-08-26 to 2026-09-02) stood OPEN here and failed the gate from 2026-09-17.
+    They now read as main's rows do, verbatim from main's ledger at `e90b4f7e`: main's escalations (B1420, B1425, B1432),
+    25 declines (Review 58) and 15 releases. The dispositions are main's.
+  - This seat's range request of 2026-09-07 is closed citing main's banking of it (2026-09-08).
+  - The path checker lists the one main-only file those rows name, as it lists main's other cited artifacts.
+- **The gate misread, in ERROR_LEDGER.** From B1531's bank to B1535's, twelve commit messages called both failing gates
+  "declared debts". Before that, relay-debt was called "the standing baseline". doc-currency's summary showed only its
+  first 400 characters, which are its declared debts, and those pass. `gate_doc_currency` now puts the failing lines first.
+- **R84's scope accepted** (the audit lane's relay at `ea36d672`): sm:B1535's FINDINGS §7 states it. Step (c2) uses
+  Garland–Raghunathan's PH¹ = 0 for the whole lattice ker ξ, never cusp by cusp, and the adjoint's rigidity, never the
+  four's.
+- **The audit lane at `13392a6f` read.** It records this seat's acknowledgment and specifies its next joined-background test,
+  not yet sealed. Its ask of this seat is answered in sm:B1537's relay.
+- **Checks.**
+  - Gates: 31 of 31 pass.
+  - The 48 test files reading a changed file: 353 passed, 1 skipped.
+  - The locks of the ten arcs whose libraries TOOLBOX_LIVE lists, without their slow tests: 124 passed.
+  - The broad run on `4f30aecb` (B1529's bank) was stopped at 08:28Z, CPU-starved beside B1536's runs, after 2,580 of 5,999
+    tests: 2,549 passed, 27 skipped, 4 failed. All four failures are the standing baseline: b1035's receipts, b1062's and
+    b1063's untracked logs, and b1137's untracked grids. The full lane runs once, on the tree after B1537.
+  - Views regenerated.
+- 0 of 19.
+
 ## B1529 banked: THE EIGENVALUE-ONE LOCUS — near the hyperbolic point of every word state to length 12 and of m004's levels, Λ² carries no count for any deformation in SL(4, ℂ); the four carries none wherever its base condition holds, and that fails on one word state, m135, at two characters (PROVED; run as sealed)
 
 - **The run** (sealed at `44cdb4a6`). The census ran 12:44:16Z–13:46:23Z on four cores (541 manifolds, 47,333 base points

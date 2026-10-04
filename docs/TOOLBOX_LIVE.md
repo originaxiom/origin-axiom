@@ -123,3 +123,44 @@ escalation are the proof).
   (|Hom|/N of them instead of |Hom|): Y₆'s 24.5 million modules become 204 480 — and the generation search by solving ψ_Y⁵ = u/v from
   the two 5̄-sectors over the fifth roots of the character group. `exact_check_cover.py`: the exact re-derivation on a cover's
   presentation over ℚ(ζ_N) (B1374's `exact_lib.py`, degree 40 at N = 132 in minutes).
+
+## Currency read 2026-10-04 (the SM seat's window B1376–B1536)
+
+The window's reusable libraries are listed below. The locks of the ten arcs that own them (B1374, B1510, B1511, B1513, B1514,
+B1527, B1529, B1530, B1534 and B1535) passed on this bench on 2026-10-04 without their slow tests: 124 passed. The slow tests
+re-run the arcs' censuses and were not repeated for this read. The exception is B1536, which is sealed and running: its
+libraries ran in its controls and its banked identity that day, and its lock comes at its bank.
+- **The one-cusped index of main's B1297, in the Standard-Model frame:**
+  - `frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py` over GF(p);
+  - its `exact_lib.py` over ℚ(ζ_N).
+- **The harmonic E₈ frame:**
+  - `frontier/B1510_the_two_sided_deformation/verification/deform_lib.py`: formal deformations of a block-diagonal
+    representation and main's index over F((ε));
+  - `frontier/B1511_the_projective_tower/verification/tower_lib.py`: Ballas' ρ_q on m004's cyclic covers with B1509's rank-five
+    extensions on every level;
+  - `frontier/B1513_the_triplets_higgs_sector/verification/higgs_lib.py`: Higgs-sector dimensions, own classes and relative
+    triple products;
+  - `frontier/B1514_the_decoupling_law/verification/law_lib.py`: the relative triple product as a census route.
+- **Word states and their hyperbolic point:**
+  - `frontier/B1527_the_cusp_decides/verification/family_lib.py`: the word groups and Ballas' frame;
+  - `cusp_lib.py`: the class index by Fox calculus;
+  - `wang_lib.py`: the same through the fibration, sharing no linear algebra with `cusp_lib.py`;
+  - `scan_lib.py`: a float64 scan;
+  - `frontier/B1529_the_eigenvalue_one_locus/verification/fibre_lib.py`: the fibre's four-term sequence;
+  - `frontier/B1530_the_interior_extensions/verification/exact_lib.py`: exact over ℚ(ζ₂₄), with B1297's identities asserted;
+  - `census_lib.py`: Fox calculus grouped by prefix class.
+- **Finite covers:**
+  - `frontier/B1534_the_silver_covers/verification/silver_lib.py`: twisted terms and the pencils that locate special classes;
+  - `frontier/B1535_the_cap/verification/cap_lib.py`: Theorem C's identities on any presentation with one cusp subgroup;
+  - `mixed_lib.py`: a cover's own classes by induction, exact;
+  - `rs_lib.py`: a cover read on its own Reidemeister–Schreier presentation over GF(p);
+  - `frontier/B1536_the_finite_covers/verification/cover_lib.py`: low_index covers, the Q₈ tower, the cusps with their lattices;
+  - `gf.py`: ℚ(ζ₂₄) reduced to GF(p).
+- **Same-name modules, a hazard (ERROR_LEDGER, E12 instance, 2026-10-04).** Different modules share a file name across arcs:
+  - `read_out.py` (nine arcs, B1522–B1536), `controls.py` (thirteen), `post_run_checks.py` (ten) and `census.py` (five);
+  - `route_r.py` (B1523, B1536), `route_n.py` (B1530, B1536), `exact_lib.py` (B1374, B1530), `identity.py` (B1534–B1536) and
+    `control_k1.py` (B1535, B1536).
+
+  A bare `import` returns whichever module of that name the process loaded first. Load another arc's module by its path, under a
+  name of its own: `importlib.util.spec_from_file_location("b1532_read_out", path)`, then `module_from_spec` and `exec_module`.
+  B1536's `control_k1.py` shows the pattern.

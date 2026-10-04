@@ -819,7 +819,8 @@ left it.
 > - A flux cap's chirality is linear in the charges, so its spectrum is anomaly-free exactly when the flux is orthogonal to hypercharge
 >   (E₆, E₇ and E₈ have no quartic Casimir). A cap cannot cancel the frame's anomaly; it replaces the frame's count.
 > - In every E₆ frame the net number of generations it gives is even. In the E₇ frame, a flux along E₇'s own U(1) gives any number,
->   three included, as an input. The E₈ frame gives none.
+>   three included, as an input *(per cap; scoped by the next note, B1397 §7: the caps of one bulk flux sum to zero, so the E₇
+>   reading needs a source)*. The E₈ frame gives none.
 >
 > 0 of 19 (`frontier/B1397_the_caps_generations`).
 

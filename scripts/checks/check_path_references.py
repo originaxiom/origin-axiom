@@ -68,6 +68,9 @@ EXEMPT_TARGETS = frozenset({
     # (sm:B1525) and is kept verbatim. This branch cites them and does not copy them; on main they resolve.
     "frontier/B1454_genesis_v1_verified_and_adopted/received/GENESIS_v1_0.md",
     "frontier/B1456_genesis_v1_2_verified_and_the_seats_reconciled/received/GENESIS_v1_2.md",
+    # Main's released packet of 2026-10-02 (main @ e90b4f7e), named in main's own RELAY_LEDGER rows for its outbound relays,
+    # which this branch's ledger carries verbatim from the currency pass of 2026-10-04. On main it resolves.
+    "docs/handoffs/CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md",
 })
 
 

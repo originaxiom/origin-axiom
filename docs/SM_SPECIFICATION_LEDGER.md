@@ -481,3 +481,55 @@ Rows unchanged in count: 0 of 19.
 
 *Addendum (2026-09-16, B1370):* rows A/C — the four remaining cusps' partitions are annular unless a harmonic form's leading Fourier
 coefficient vanishes (no symmetry forces it; 4, 2, 4, 2 shells deep); the residual is that coefficient. Rows unchanged in count: 0 of 19.
+
+## Currency read 2026-10-04 (head B1536) — one generation where the frames were read, and a cap on every finite cover
+
+The window is B1373–B1399 and B1500–B1536 on this branch; the B1364–B1372 addenda above close the last read. Read against the rows:
+
+- **Three generations (row A3).**
+  - *The seat's first frame* (7d E₆ super-Yang–Mills on m004's class, SL(2)_β's geometric representation, an abelian Higgs
+    field; main's B1297 index):
+    - on m004's cyclic tower the index fires on reducible non-split modules. The count in one background is at most two on every
+      level (B1377's bound, with B1381's h¹ ≤ 1 on every level) and is one where read (B1374–B1377);
+    - the open Eisenstein cusp (cube~3.24, B1386–B1387) failed its sealed cutoff test, its count moving with the cut (B1388,
+      NEGATIVE). The full spectrum is MIXED (B1389): in one cone of Higgs directions the 27's spin-0 sector gives one complete
+      anomaly-free generation per unit count;
+    - caps give no three in E₆ frames, and caps carrying one bulk flux are vector-like in total (B1397, NEGATIVE, with its §7);
+    - the frame's verdict: no completion on the record's menu gives an anomaly-free chiral spectrum with three generations (B1398,
+      NEGATIVE). The rank-two Higgs escape with 27 matter gives no g ≠ 0 on the 102 resolved members of its census (B1399,
+      NEGATIVE, run as sealed);
+    - completing the cusps as cone points leaves a choice at each cusp point, and that choice sets the net chirality whatever
+      the Higgs field (B1500). Symmetry never forces a chiral end (B1504). No known G₂ local model supplies a chiral cusp point:
+      over finite quotients of smooth compact nearly Kähler links a lone locus forces nothing (B1501–B1503), and in the known
+      cones over orbifold links no ADE locus is a cone over a torus of constant type (B1505).
+  - *The generated state space* (B1384): m004 is the distinguished minimal root of X_gen, not the whole of it, and the questions
+    are asked of every generated state: the word states to length 12, the levels and their covers.
+  - *The harmonic E₈ frame* F-HE (B1509's dictionary on rank-five extensions W of the convex-projective vacuum: N(10′) = −I(W),
+    N(5̄′) = −I(Λ²W)):
+    - near the hyperbolic point of every word state to length 12, the reductive vacua ν ⊗ ρ and ν ⊗ Λ²ρ of every finite-volume
+      convex projective structure carry no count (B1527, with a kill record), and ν ⊗ Λ²ρ carries none for any deformation in
+      SL(4, ℂ) (B1529);
+    - at the hyperbolic point the frame carries one generation in one W on the two silver squares m135 and m136, with the SU(5)′
+      anomaly cancelled: N(10′) = N(5̄′) = 1 (B1530). It is the record's first generation-shaped count in this frame;
+    - no finite abelian cover of m004's levels M₂–M₆ carries a generation-shaped count at a λ = 1 pulled-back member (B1532,
+      NEGATIVE), and no finite abelian cover of m135 or m136 carries three at a pulled-back member (B1534, NEGATIVE: at most one);
+    - the cap: on any finite cover, at a finite-order member and every class, N(5̄′) ≤ n(ν³ ⊗ ρ) and N(10′) ≤ b0 + n(ν⁴), so
+      g generations need both supplies ≥ g (B1535, Theorem C). The line's supply is zero on every once-punctured-torus bundle with
+      Anosov monodromy and on its finite abelian covers at puncture-trivial characters (Lemma W), so one generation at most there;
+    - the first population where both supplies can grow, every connected cover of degree ≤ 12 of m004 and m003 and their Q₈
+      towers, is sealed and running (B1536).
+  - **Row A3 stays 0.** Wherever the frames were read, the count reaches one generation, not three.
+- **Gauge algebra and breaking (rows A1/C).** On selection rather than counts:
+  - at level one every vacuum of m004's Ballas family is fixed by a count-odd map, so the vacuum does not select chirality
+    (B1520, NEGATIVE);
+  - on the levels the count-odd mirror breaks from M₅ on; off the unit circle a vacuum breaks it exactly when no golden Galois
+    reflection fixes its twist (B1522).
+  - Rows unchanged in count.
+- **Yukawa couplings (rows A5–A7).** In F-HE the chiral 10′ does not couple to its background's Higgs classes at tree level:
+  - the up-type relative triple product is zero on the projective triplet and on the join (B1513, NEGATIVE);
+  - case (b)'s 10̄′ has zero tree-level coupling to every Higgs class through level six (B1514).
+  - Rows unchanged in count.
+- **Values (§D5):** unchanged, **0 of 19**. A positive on a generated state is now graded by the bar (B1518) under a stated null
+  law (B1524); none has been graded.
+
+Synthesis: GENESIS.md, `docs/THE_SM_VERDICT.md`, OPEN_LEADS sL-10.

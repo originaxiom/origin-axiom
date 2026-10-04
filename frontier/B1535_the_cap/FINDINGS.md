@@ -204,6 +204,11 @@ ground. The bound of the frame's counts by the two supplies is new as swept (§ 
     that multiple restricts to zero only if it is zero. Injectivity, n(ζ) = 0 and the lemma stand.
   - Lemma W's census (P8: n = 0 at every character of all 541 rows, ζ trivial included) and Corollaries C1–C3 are unchanged.
   - Checked on this bench and logged in ERROR_LEDGER (a proof step stated too strongly), credited to R84.
+  - R84's scope, accepted and stated here as its relay asks (published at `ea36d672`). Step (c2) uses Garland–Raghunathan's
+    PH¹ = 0 for the lattice ker ξ as a whole, with parabolic cohomology defined element by element: ξ = ν² for a pulled-back
+    term, ν²χ for a cover's own term, and ν² = 1 included. A class that is a coboundary at each parabolic separately need not
+    be one on a whole cusp group, so nothing is inferred cusp by cusp. The rigidity used is the adjoint's
+    (Λ²ρ = so(3, 1) ⊗ ℂ), never the four's. The sealed text already argues this way (§3, ingredient (c)).
 
 ## Files
 

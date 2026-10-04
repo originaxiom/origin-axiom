@@ -234,7 +234,7 @@ As sealed (PREREGISTRATION §3), with two changes.
 | P3 | reflective lines at 30°, 90°, 150° ± 0.3°, and the 90° family's lattice slope exactly unipotent | 85% | NO | on the four reflective manifolds the lines lie at 30°, 90°, 150° (within 10⁻⁶ degrees at a = 10⁻⁵), and the 90° line carries an exactly unipotent lattice slope (∣X∣ ≤ 10⁻⁵⁰) |
 | P4 | Part A at every polished type-one point: no eigenvalue within 10⁻⁶ of 1, acyclic cusp, I = 0, margins | 97% | NO (points on +LR only) | at all 60 points (X2, 100 digits): I = 0 on all 1,656 rows, the cusp acyclic, a0 = b0 = 0, route W agreeing on its 240, identities and the sealed margin bar holding; min ∣eigenvalue − 1∣ = 1.04 × 10⁻⁶ |
 | P5 | b-free scan: half converge, 90% track, b changes sign across every frame | 70% | NO | b changes sign across every frame on all ten; the tracking clause is not tested (X1 pins the frame) |
-| P6 | eigenvalue-one crossings on every manifold | 75% | NO (five of ten) | crossings on all ten manifolds (8 to 30 each, X1) |
+| P6 | eigenvalue-one crossings on every manifold | 75% | NO (five of ten) | crossings on all ten manifolds (8 to 30 each, X1; corrected to 8 to 14 by X1's own pole test, see the Correction below) |
 | P7 | nullities 4 and 5 with gap > 10⁶ at every point | 85% | NO | at all 60 points (X2, 100 digits): nullities 4 and 5, gaps ≥ 2.4 × 10⁸³ and 9.1 × 10⁸⁷ |
 | P8 | the golden manifolds behave as the chiral ones (P2, P4) | 90% | NO | yes |
 
@@ -424,7 +424,8 @@ when X_γ = 0. The script checks this in sympy, and against a central difference
   3ψa − ψb or 3ψb − ψa vanishes at ℓ, and the analogous locus on the type-three cusps.
   - There the cusp is not acyclic for one twist λ, and by Lemma E the index is h¹(V*) − h¹(V) + 2(a0 − b0) + s0 − t0.
     It can jump at isolated points.
-  - X1 located these crossings on all ten states (8 to 30 per state on its 5° grid).
+  - X1 located these crossings on all ten states (8 to 30 per state on its 5° grid; corrected to 8 to 14 by X1's own pole
+    test, see the Correction below).
   - Registered as the next arc, to be sealed first (OPEN_LEADS sL-10 item 9).
 - **Non-split extensions** on the type-one curves of the mirror-broken states (sm:B1509's W₁ and W₂, where the index is ∓1).
 - **Far from ρ_hyp**, since Part A is local, and representations outside Ballas' slice other than type 3.

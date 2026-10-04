@@ -1128,7 +1128,8 @@ You asked first for sL-5: is the count taken on a cover or on its quotient? I se
 fixes can have count three. The check of that argument came back three, not six, before any seal, and the arc was redesigned and
 sealed (58e3f28f). It ran as sealed, and P1–P8 all came out YES.
 - **One background, one count.** Shapiro keeps an index going down, and a pullback keeps it going up. So a single background has the
-  same count on every level.
+  same count on every level. *(Scoped by B1508 §3, 2026-10-01, after the audit lane's R69: a T5 doublet background; an induced
+  background of rank six has count −gcd(n, 3).)*
 - **The triplet is the orbit of the root's whole deck.** τ³ changes the seed's SL(2)_β × U(1)² data only by the ℤ/2 that E₆ ⊃
   (SU(2) × SU(6))/ℤ₂ quotients out. The triplet descends to s961, m004's only connected 3-fold cover, as the deck orbit of one
   generation-shaped background D₀ with (−1)⁶. D₀ does not lift: its extension character is not a square.

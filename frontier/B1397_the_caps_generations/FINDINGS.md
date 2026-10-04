@@ -162,7 +162,8 @@ Achievable g over the scan:
 - **The frames and their charges are B1389's** (B1368's vectors). The generation count reads net 10s in complete SU(5) multiplets.
 - **The cap's physics is not derived.** Chiral zero modes on a torus carrying the charged sector's bundle are B1396's model, and B1395
   §3's Hořava–Witten reading is not used.
-- **A single flux direction per cap.** Several caps add their counts, so parity is preserved in the E₆ frames.
+- **A single flux direction per cap.** Several caps add their counts, so parity is preserved in the E₆ frames *(scoped by §7,
+  the same day: the degrees of one bulk flux sum to zero over the cusps, so caps carrying it give zero in total)*.
 - **F commutes with SL(2)_β's parabolic cusp holonomy.** A cap whose own structure breaks SL(2)_β is outside.
 - **The lattice is the frame's representations'.** With a 56 of E₇ or other matter, the lattice would be finer.
 

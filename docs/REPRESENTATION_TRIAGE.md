@@ -107,3 +107,20 @@ commit that banked it. Dispositions, all **SURFACE**:
 | **B1371** (the web seat's package verified), **B1372** (door 2, the doublet halves) | THE_CLOSING ledger rows and §6.13's addendum, THE_VERDICT §6, THE_SM_VERDICT, CHIRALITY_MAP §6t, OPEN_LEADS sL-1, hint 23, TOOLBOX_LIVE, RELAY_LEDGER (the package's row), the letter's thirtieth and thirty-first notes, the view |
 
 No new PENDING; the 13 PENDING rows above are unchanged.
+
+## Currency read 2026-10-04 (the SM seat's window B1373–B1399 and B1500–B1536)
+
+The `representation-sweep` gate is clean on this window: each of its 64 arcs is cited on at least one of the gate's own surfaces
+(OPEN_LEADS 63, THE_SM_VERDICT 44, CAMPAIGN_STATUS 29, LAW_MAP 20, HINT_LEDGER 1, OPEN_PROBLEMS 1). The table counts, per group, the
+arcs each document cites; THEOREM_REGISTRY, the kill graph, GENESIS.md and `docs/THE_KILL_TESTS_2026-09-27.md` are not the gate's
+surfaces and are listed for the reader. Counted 2026-10-04 at `4f30aecb`, before this read. Dispositions, all **SURFACE**:
+
+| arcs | cited on (arcs of the group) |
+|---|---|
+| **B1373–B1399** (27: door 2's order-4 points, the tower's count, the fillings, the genesis audits, the spin bit, the generated state space, the open Eisenstein cusp and its kill tests, the ends, the caps, the frame's verdict on three, the rank-two Higgs) | THE_SM_VERDICT 27, OPEN_LEADS 26, THEOREM_REGISTRY 19, the kill graph 19, GENESIS 14, THE_KILL_TESTS 13, LAW_MAP 10, CAMPAIGN_STATUS 4, HINT_LEDGER 1 |
+| **B1500–B1508** (9: the cone point's choice, the G₂ cone census and its local models, the apex index rule, the end's choice, the orbifold links, the level, the record reread, the path under the reframe) | OPEN_LEADS 9, THE_SM_VERDICT 9, THEOREM_REGISTRY 8, GENESIS 7, the kill graph 7, LAW_MAP 4, CAMPAIGN_STATUS 2 |
+| **B1509–B1515, B1520, B1522, B1523, B1527, B1529, B1530, B1532, B1534, B1535** (16: the harmonic E₈ frame and its counts) | OPEN_LEADS 16, the kill graph 16, THEOREM_REGISTRY 15, CAMPAIGN_STATUS 11, THE_SM_VERDICT 7, GENESIS 7, LAW_MAP 6 |
+| **B1516–B1519, B1521, B1524–B1526, B1528, B1531, B1533** (11: GENESIS v1.0–v1.10, the repo-first rule, the bar and its null contract, the symmetric phase checked) | OPEN_LEADS 11, CAMPAIGN_STATUS 11, GENESIS 11, the kill graph 2, THE_SM_VERDICT 1, THEOREM_REGISTRY 1, OPEN_PROBLEMS 1 |
+| **B1536** (sealed and running; its verdict is OPEN) | OPEN_LEADS (item 16), CAMPAIGN_STATUS; named in THEOREM_REGISTRY's and the kill graph's B1535 rows |
+
+No new PENDING; the 13 PENDING rows above are unchanged.

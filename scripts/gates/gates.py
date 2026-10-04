@@ -1072,7 +1072,11 @@ def gate_doc_currency():
                        capture_output=True, text=True)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
-        return False, out.replace("\n", " | ")[:400]
+        # the failing lines first: the declared debts print before them and pass, and a 400-character summary that began
+        # with them hid the failure for twelve commits on the SM seat's branch (ERROR_LEDGER, gate misread, 2026-10-04)
+        lines = [line.strip() for line in out.splitlines()]
+        k = next((i for i, line in enumerate(lines) if "STALE living documents" in line), 0)
+        return False, " | ".join(lines[k:] + lines[:k])[:400]
     return True, "ok"
 
 

@@ -17473,3 +17473,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   commits shipped no findings stub, and three banks recorded the lock's failure as expected. sm:B1536 now carries a findings
   stub and an OPEN verdict; the sweep-table slip in its §0 (head at writing, not the head swept) is corrected there.
   ERROR_LEDGER rows for both. A timing test during the run (times only): one Part S takes 12–17 s on m003's largest cover.
+
+## 2026-10-04 — the currency pass: four living documents read; relay-debt and doc-currency pass (tasks 236, 241)
+
+- REPRESENTATION_TRIAGE, RETRACTED_PHRASES, SM_SPECIFICATION_LEDGER and TOOLBOX_LIVE each carry a dated read of the window
+  B1373–B1536. Four live uses of withdrawn phrases are marked inline.
+- Main's forty outbound relay rows are carried verbatim from main's ledger (`e90b4f7e`), and this seat's range row cites main's
+  banking. relay-debt passes, and so does doc-currency.
+- ERROR_LEDGER: the gate misread (twelve commits of "declared debts"). doc-currency's summary now leads with its failing
+  lines.
+- R84's scope is recorded on sm:B1535 §7, and the audit lane's 13392a6f is read.
+- Gates 31 of 31. Affected test files: 353 passed, 1 skipped. The locks of the ten arcs whose libraries TOOLBOX_LIVE lists,
+  without their slow tests: 124 passed.
+- The broad run on `4f30aecb` was stopped at 08:28Z after 2,580 of 5,999 tests (2,549 passed, 27 skipped, 4 failed, all four
+  the standing baseline). The full lane runs on the tree after B1537.
