@@ -1,0 +1,91 @@
+{
+ "banked: the line at chi^j, j = 0..4 (routes R, N)": [
+  [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  [
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ ],
+ "banked: the four at chi^j, j = 0..4 (routes R, N)": [
+  [
+   2,
+   4,
+   4,
+   4,
+   4
+  ],
+  [
+   2,
+   4,
+   4,
+   4,
+   4
+  ]
+ ],
+ "Lemma A on N_45: (n(1), n(rho))": [
+  4,
+  18
+ ],
+ "Lemma A: room at the trivial character": 5,
+ "chi as an own character of d9.2 (mod 360)": [
+  288,
+  288,
+  144
+ ],
+ "order of chi": 5,
+ "route R' on d9.2 at chi^j (n(chi^j), n(rho chi^j)), j = 1..4": [
+  [
+   1,
+   4
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   1,
+   4
+  ]
+ ],
+ "N_45: degree, connected, cusps": [
+  45,
+  true,
+  5
+ ],
+ "route N on N_45 at the trivial character: (n(1), n(rho))": [
+  4,
+  18
+ ],
+ "route R' on N_45 at the trivial character": {
+  "n(nu)": 4,
+  "n(rho nu)": 18,
+  "capW": 5,
+  "capL2": 18,
+  "h1(V_eta)": 23,
+  "n(V_eta)": 18
+ },
+ "route R' prime": 2147483497,
+ "N_45: H_1 (free rank, torsion); b1 - cusps": [
+  9,
+  [
+   2,
+   2
+  ],
+  4
+ ],
+ "all agree": true,
+ "room at the trivial character of N_45 (min(capW, capL2))": 5
+}

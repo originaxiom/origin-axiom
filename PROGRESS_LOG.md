@@ -17620,3 +17620,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - K1–K8 hold (not recorded; the recorded run comes at the seal). K4's (ℤ/2)³ case was built from dependent generators and
   is fixed: 16 abelian covers, route N equal to Lemma A′'s sums in both routes.
+
+## 2026-10-04 — room for three at the golden order on a degree-45 cover of m003 (task 256)
+
+- From sm:B1536's banked rows and Lemma A, read directly in two routes and by integer homology: N₄₅ has (n(1), n(ρ)) = (4, 18)
+  and room 5 at its trivial character. Recorded in the golden covers dossier (§7) and sL-12. Next: the counts on N₄₅,
+  sealed first. sm:B1538's Part F′ continues.

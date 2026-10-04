@@ -4046,6 +4046,15 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
        order ≥ 3 on both jump loci gives room for three, at degree 15 on m003's d5.x (Lemmas A, B).
      - Draft instruments and controls hold on banked data. The banked rows already fix that at order 2 only the four grows.
      - Next: seal it (the dossier's `NEXT_ARC_DRAFT_the_room_above_the_room.md`) after sm:B1538 banks.
+   - **Room for three found, at the golden order (2026-10-04, 15:50Z; the dossier's §7).** Fixed by sm:B1536's banked rows
+     and Lemma A; read directly in two routes and by integer homology. Not a sealed arc's reading; to be banked as a proved arc.
+     - On m003's d9.2 (degree 9, (n(1), n(ρ)) = (0, 2)), the order-5 characters from m003's ℤ/5 torsion carry the line once
+       and the four four times each.
+     - So N₄₅, the 5-fold cyclic cover along them (degree 45, 5 cusps), has (n(1), n(ρ)) = (4, 18). At its trivial
+       character, room = min(capW, capL2) = min(5, 18) = 5. Theorem C does not exclude three generations there.
+     - The ℤ/5 is coker(−A − I) for the golden monodromy A (det 5); its characters live over ℚ(ζ₅) ⊃ ℚ(φ).
+     - Room is not a count. Next, sealed before any class on N₄₅ is read: the counts (I(W₁), I(Λ²W₁)) on H¹(N₄₅; ρ)
+       (dimension 23). The own-character census's predictions are to be restated, because d9.2's are fixed by banked rows.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

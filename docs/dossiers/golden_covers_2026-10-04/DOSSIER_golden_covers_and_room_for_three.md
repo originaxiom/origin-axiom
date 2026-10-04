@@ -268,7 +268,39 @@ fix (`gc_own_chars_controls.py`, record `gc_own_chars_controls_run.txt`).
 **(e) The next arc.** Draft: `NEXT_ARC_DRAFT_the_room_above_the_room.md`; instruments `gc_own_chars.py`. It is sealed after
 sm:B1538 banks, before any own character of order ≥ 3 is read.
 
+## 7. Added 2026-10-04, 15:50Z: room for three at the golden order, on a degree-45 cover of m003 (from banked rows; read directly)
+
+**Found while setting the next arc's priors**, by reading sm:B1536's banked rows through Lemma A (§6). Not a sealed arc's
+reading. Disclosed here in full, then to be banked as a proved arc with its lock.
+
+- **The banked rows** (sm:B1536, m003's degree-9 cover d9.2, one cusp, (n(1), n(ρ)) = (0, 2); routes R and N identical).
+  - At a pulled-back character ν = (u, κ), n(L) is the line at ν⁻⁴ and n((VL)*) the four at ν³ (ρ is self-dual).
+  - Take χ the order-5 character with u = (1/5, 3/5) and κ = 0. This is the restriction to π₁(d9.2) of m003's ℤ/5 torsion.
+  - At each χʲ (j = 1..4) the line is 1 and the four is 4. On the ℤ/5 torsion, ν⁻⁴ = ν, and ν³ = χʲ at ν = (2ju, 0).
+- **Lemma A** (§6: Shapiro, with Mackey at the cusps). The 5-fold cyclic cover N₄₅ of d9.2 along χ has:
+  - n(1) = 0 + 4 · 1 = 4 and n(ρ) = 2 + 4 · 4 = 18;
+  - at its trivial character capW = 1 + 4 = 5 and capL2 = 18, so room = min(capW, capL2) = 5.
+- **Read directly** (`gc_room_three_n45.py`, record `gc_room_three_n45_run.txt`): N₄₅ is connected, of degree 45, with
+  5 cusps. All agree with Lemma A's (4, 18):
+  - route N (Shapiro on m003 with the degree-45 permutation module) reads (4, 18);
+  - route R′ (N₄₅'s own presentation, another prime) reads n(1) = 4, n(ρ) = 18, capW = 5, capL2 = 18, h¹(V_η) = 23;
+  - the integer homology gives H₁(N₄₅) = ℤ⁹ ⊕ (ℤ/2)², so b₁ − cusps = 4 = n(1);
+  - route R′ on d9.2 at the four characters χʲ reproduces the banked (1, 4).
+- **What it is.** Room for three, and up to five, at the trivial character of an explicit finite cover of a golden state:
+  sm:B1535's Theorem C does not exclude g = 3 there (I(Λ²W₁) ∈ [−18, 0], I(W₁) ≥ −5).
+  - The room sits at the golden order. m003's ℤ/5 torsion is coker(−A − I) for the golden monodromy A = [[2, 1], [1, 1]]
+    (det = 5); its characters live over ℚ(ζ₅) ⊃ ℚ(√5) = ℚ(φ).
+- **What it is not.** Room is not a count. The count (I(W₁), I(Λ²W₁)) at the classes of H¹(N₄₅; ρ) (dimension 23) is the
+  next question, and it is to be sealed before any class on N₄₅ is read.
+- **What it does to the next arc's draft (§6).** On m003's d9.2 the draft's P4 is already fixed by banked rows, because order 5
+  divides m = 60. The draft's predictions are to be restated before the seal so that each asks something open: own
+  characters outside the pulled-back subgroup, and the members other than d9.2.
+- **Why sm:B1536 did not see it.** Its population stopped at degree 12, plus the Q₈ towers, and it read the room at each
+  member, not the sums over a group of characters that Lemma A adds.
+
 ## Reproduce
+
+- §7: `python3 gc_room_three_n45.py` (about 30 s; record `gc_room_three_n45_run.txt`).
 
 - `python3 docs/dossiers/golden_covers_2026-10-04/gc_icosian.py` prints `gc_icosian_run.txt` (group theory only). It
   imports sm:B1538's `punct_covers` (the states) and sm:B1530's `exact_states` (the Eisenstein holonomy) by path.

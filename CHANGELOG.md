@@ -1,5 +1,19 @@
 # Changelog
 
+## Room for three found, at the golden order: a degree-45 cover of m003 with (n(1), n(ρ)) = (4, 18) (the golden covers dossier's §7)
+
+- **Found while setting the next arc's priors.** sm:B1536's banked rows on m003's d9.2 (routes R and N identical) put the
+  line once and the four four times at each order-5 character from m003's ℤ/5 torsion. Lemma A then fixes N₄₅, the 5-fold
+  cyclic cover along them: (n(1), n(ρ)) = (4, 18), so room = min(capW, capL2) = min(5, 18) = 5 at its trivial character.
+- **Read directly** (`docs/dossiers/golden_covers_2026-10-04/gc_room_three_n45.py`, record beside it):
+  - route N, Shapiro on m003 with the degree-45 permutation module, reads (4, 18);
+  - route R′, N₄₅'s own presentation at another prime, reads (4, 18) with capW = 5 and capL2 = 18;
+  - H₁(N₄₅) = ℤ⁹ ⊕ (ℤ/2)² with 5 cusps, so b₁ − cusps = 4.
+- **At the golden order.** ℤ/5 = coker(−A − I) for the golden monodromy; the characters live over ℚ(ζ₅) ⊃ ℚ(φ).
+- **Room is not a count.** The counts on H¹(N₄₅; ρ) (dimension 23) are next, sealed first. The own-character census's
+  predictions are to be restated before its seal, because on d9.2 they are already fixed by banked rows.
+- docs/OPEN_LEADS.md sL-12 item 1 records it.
+
 ## B1539 (pre-seal): the controls' first full trial -- all hold; K4 fixed to reach the whole (ℤ/2)³; identity.py
 
 - A trial run of `controls.py` (not recorded) held at every control:
