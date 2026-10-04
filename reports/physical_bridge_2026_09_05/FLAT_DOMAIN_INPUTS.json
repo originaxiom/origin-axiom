@@ -1,0 +1,25 @@
+{
+  "scope": "R89 bounded flat-coefficient domain audit; existing mechanisms reused; no physical completion",
+  "base_science_head": "62f52092b1d65ff58277f2a8d1f9efc8ec9d75c6",
+  "main_head": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+  "sm_head": "0762032d9fc20f62dba5779c8ed15f33bd2fb868",
+  "raw_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-flat-domain.GRMPcl",
+  "prior_sweep": {"stem": "prior_full_current", "exit_code": 0, "log_bytes": 11517, "log_sha256": "70ef3a2d3f43fd7e9e6768106d41af49be02a26cf788a287e0d966c95766864a", "local_main_label_not_current": true, "remote_main_full_text_separately_swept": true},
+  "already_banked": {"query": "flat chirality boundary index", "local_hits": 267, "settled_warnings": 42, "exit_code": 1, "meaning": "settled-warning navigation, not a failed science test or absence certificate"},
+  "sources": [
+    {"path": "reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md", "sha256": "0afdf5c8f0dabc5e133790e0e52da42143a3874fd62cdf646cd748c0f28158ac", "reading": "full report personally reread; counts/source/domain/anomaly limits reused"},
+    {"path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py", "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f", "reading": "relator and definitions through cochains personally read; remainder not current full reread; not imported"},
+    {"path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md", "sha256": "089af58b8cb3d23c4ba70cb1e457ea60ddf6086cdf9faed315d4a2606e3b416d", "reading": "full proof personally reread; attachment and domain statements reused"},
+    {"path": "reports/physical_bridge_2026_09_05/resolved_fermion.py", "sha256": "c0ac7558b50d93ede2ed2542d7a78a793a9bea2e0502a1566dca1f3b71def97b", "reading": "glued, contraction, boundary_and_action and conjugacy personally read; later local-well functions not current full reread; not imported"},
+    {"path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md", "sha256": "8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b", "reading": "full proof personally reread; standard descent criterion credited"},
+    {"path": "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md", "sha256": "7540f6d2abafd4451913f07ee4456f0d6207ec5eff7427447926a67066abcef6", "reading": "full proof personally reread; compact supplied-model result retained"},
+    {"path": "GENESIS.md", "ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "sha256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8", "reading": "full canonical v1.10 personally reread in bounded chunks through EOF; not amended here"},
+    {"path": "frontier/B1259_flat_orbifolds_cannot_isolate/arc_verdict.json", "ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "sha256": "881a5df101bde15147784862bce3f999ae9e5aafefa895e0372562233b8df676", "reading": "full verdict personally read; odd-dimensional linear-isolation scope retained; no rerun"},
+    {"path": "frontier/B1327_relation_not_observer/FINDINGS.md", "ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "sha256": "8e8f382dfe779a689310f3021e61e81d915a932a9d7691117aeb9f189e5f39a9", "reading": "full findings personally read; proposed relational typing not physical closure"},
+    {"path": "docs/EARLY_RECORD_INDEX.md", "ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "sha256": "cf591333964487e542201c5453b9efd8e1ec64b7e0a7aeb17345eb2419d76276", "reading": "subject/keyword navigation only; whole 782-line index not read; no early-arc absence inferred"},
+    {"path": "frontier/B1538_the_puncture_characters/verification/read_out.py", "ref": "0762032d9fc20f62dba5779c8ed15f33bd2fb868", "sha256": "20fa46968da38fa0ed3c44cb8e4d89147fa9983af179007844225c79359edf02", "reading": "full read_out personally read; only evaluate is extracted for synthetic diagnostics; no real character result"}
+  ],
+  "external_inputs": "Standard closed spin-Dirac index and Chern-Weil formula used analytically, not machine-certified. No new PDF or literature reading claimed. Prior R19/R30 source papers retain their own reading records.",
+  "preparation_errors": "Read-only navigation used missing local topic_sweep.py (current script lives on remote main) and twice guessed ARTIFACT_HASHES.md instead of the existing reports/physical_bridge_2026_09_05/ARTIFACT_HASHES.txt. Actual paths were resolved before sealing/execution; no science test was run or repaired. Original errors remain in the tool transcript, not durable raw log files.",
+  "unearned": ["source generation", "actual geodesic arc selection", "physical end law", "common-domain join", "Lorentz matter dictionary", "anomaly completion", "parameter free action", "quantum law", "gravity", "qualia"]
+}
