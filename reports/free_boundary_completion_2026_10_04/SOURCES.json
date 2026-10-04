@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-04",
+  "previous_local_commit": "0381e8bda",
+  "silver_output_path": "reports/silver_boundary_admission_2026_10_04/NATIVE_SECOND.jsonl",
+  "silver_output_sha256": "dafc582013645226f5edb22325bb800ce0cd8f1a84e7305775bba229880b058b",
+  "grading_proof_path": "reports/charged_l2_bridge_2026_09_27/PROOF.md",
+  "grading_proof_sha256": "191f9ec7bf906033d947576de8bf206bcc8a4f6cd04f7d6ef1f7bce18e85a42c",
+  "physical_commit": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469",
+  "SM_commit": "4f30aecbbb629a726f04a10b49a94154f8512f38",
+  "main_commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+  "R83_proof_path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+  "R83_proof_git_blob": "ae6b03e8493de6513cbab65a31f7ec98b863b0cf",
+  "R60_design_path": "reports/physical_bridge_2026_09_05/END_LAW_DESIGN.md",
+  "R60_design_git_blob": "043c5f11ef372b61e868c69ddfda9a4ffb69f31a",
+  "primary_sources": [
+    {"url": "https://arxiv.org/html/0905.1968v1", "read": "Section 2.3, harmonic metric and moment potential; later commuting-Higgs restriction retained"},
+    {"url": "https://arxiv.org/html/2109.01776v1", "read": "Proposition 3.3 and proof, compact Dirichlet existence"}
+  ],
+  "literature_limit": "Primary passages read, not full papers this turn; authored Jacobi and gauge-quotient proof is not attributed to either paper",
+  "scientific_claims": "Conditional model analysis and finite exact controls; no real-world empirical premises, external analytic acceptance or full physics solution"
+}
