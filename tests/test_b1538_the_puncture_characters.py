@@ -8,7 +8,9 @@
     Proposition H's P9-P11);
   - route W reproduces the figure-eight's Burau/Alexander identity (control K7) at two roots of unity;
   - the population's structure on m004 and m003: 5 and 9 covers, b1 = #cusps (Lemma 2), the puncture-trivial subgroup of
-    order |det(M - 1)| (Lemma 3), free rank #cusps - 1.
+    order |det(M - 1)| (Lemma 3), free rank #cusps - 1;
+  - the addendum (Part F'): the driver's scope order, block shape and resumption, and the scoped verdict's cases, on
+    synthetic data only; control K13 recorded identical; the sealed aggregates' arithmetic.
 sm:B1536's route_r resets PARI's stack when imported, so nothing here imports punct_four (or controls.py, which does).
 Instruments are imported inside the tests: sm:B1527's cusp_lib sets mpmath's precision when imported."""
 import hashlib
@@ -145,3 +147,66 @@ def test_structure_m004_m003():
             assert len(pt) == det
             r = T.read(C, [0] * C.n, 0, 1)
             assert r["b1"] == r["cusps"] == len(C.cusps)
+
+
+def test_addendum_part_f_prime_logic(tmp_path, monkeypatch):
+    DR = _load("run_f_scoped", "b1538_run_f_scoped_lock")
+    RS = _load("read_out_scoped", "b1538_read_out_scoped_lock")
+    add = (ARC / "PREREGISTRATION_ADDENDUM.md").read_text()
+    assert "BANKED IDENTITY:" in add and "PRIOR ART:" in add and "12,152 candidates and 501,792 planned readings" in add
+    # the sealed aggregates add up
+    S = DR.SEALED
+    assert S["in scope"] + S["out of scope"] == S["candidates"] == 64422
+    assert S["in scope, planned readings"] + S["out of scope, planned readings"] == S["planned readings"] == 948832288
+    assert sum(v[0] for v in S["in scope, by state"].values()) == S["in scope"]
+    assert sum(v[1] for v in S["in scope, by state"].values()) == S["in scope, planned readings"]
+    assert DR.CAP == 1024 and DR.GOLDEN == ("+LR", "-LR")
+
+    # the scope's order: golden first in the record's order, then silver by planned readings (stable)
+    def cand(word, planned, tag):
+        return {"row": {"word": word, "cover": tag}, "state": "x", "key": [tag, [0], 2, [1, 2]], "planned": planned,
+                "in scope": word in DR.GOLDEN or planned <= DR.CAP}
+    cs = [cand("+LLRR", 8, "s8"), cand("+LR", 64, "g1"), cand("-LLRR", 0, "s0"), cand("-LLRR", 2048, "out"),
+          cand("-LR", 16, "g2"), cand("+LLRR", 0, "s0b")]
+    assert [c["row"]["cover"] for c in DR.scope_order(cs)] == ["g1", "g2", "s0", "s0b", "s8"]
+
+    # a block: one header for its candidate, then exactly its planned rows
+    import json as _j
+    chi = {"zeta": [1, 0], "m": 4, "s": [1, 2], "n": 2}
+
+    def block(cover, planned, rows=None):
+        head = {"kind": "candidate", "cover": cover, "chi": chi, "fourth roots": planned // 4,
+                "fourth roots by the Smith form": planned // 4, "planned": planned}
+        rd = [{"kind": "reading", "cover": cover, "chi": chi, "nu": {"zeta": [i], "m": 8, "s": [1, 8]}}
+              for i in range(planned if rows is None else rows)]
+        return "".join(_j.dumps(x) + "\n" for x in [head] + rd)
+    c1 = {"key": ["A", [1, 0], 4, [1, 2]], "planned": 4}
+    c2 = {"key": ["B", [1, 0], 4, [1, 2]], "planned": 8}
+    assert DR.block_ok(block("A", 4), c1)
+    assert not DR.block_ok(block("A", 4, rows=3), c1)
+    assert not DR.block_ok(block("B", 4), c1)
+    assert not DR.block_ok(block("A", 4).rstrip("\n"), c1)
+    # resumption keeps whole candidates only and cuts an incomplete tail (a temporary file, never the record)
+    out = tmp_path / "run_F_scoped.jsonl"
+    monkeypatch.setattr(DR, "OUT", out)
+    out.write_text(block("A", 4) + block("B", 8, rows=5))
+    assert DR.resume([c1, c2]) == 1 and out.read_text() == block("A", 4)
+    out.write_text(block("A", 4) + block("B", 8))
+    assert DR.resume([c1, c2]) == 2
+
+    # the verdict's cases (the addendum's section 4)
+    def sealed(**kw):
+        p = {"P1": True, "P2": True, "P3": True, "P9": True, "P8": None}
+        p.update(kw)
+        return {"predictions": p}
+    assert RS.verdict(sealed(P8=False), None) == "PROVED"
+    assert RS.verdict(sealed(), True) == "NEGATIVE"
+    assert RS.verdict(sealed(), None) == "OPEN"
+    assert RS.verdict(sealed(), False) == "OPEN"
+    assert RS.verdict(sealed(P2=None), True) == "OPEN"
+    assert RS.verdict(sealed(P9=False, P8=False), None) == "OPEN"
+
+    # control K13: the driver's path reproduced the sealed partial record's first lines
+    k = json.loads((V / "control_k13.json").read_text())
+    assert k["identical"] is True and k["lines compared"] == 2000
+    assert k["sha-256 of the sealed partial's first lines"] == k["sha-256 of the driver's first lines"]

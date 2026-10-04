@@ -17575,3 +17575,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - Part L finished at 13:45:11Z. Part F started automatically and was stopped by exact PID at 13:54:06Z.
   - As sealed it plans 948,832,288 readings over 64,422 candidates, about 458 days on one worker (aggregate count only).
   - The partial record is kept unread. A scoped addendum comes before the read-out.
+
+## 2026-10-04 — B1538: Part F′ sealed in an addendum beside the seal, before any Part F reading was read (task 255)
+
+- Scope, driver, scoped read-out and control K13 as in CHANGELOG. K13 holds (84 s); ten planned-0 candidates timed at
+  about 1 s each, their headers discarded.
+- Next: Part F′ on four workers, about two and a half hours. Then the append, the sealed read-out once, the scoped read-out
+  once, and the bank.

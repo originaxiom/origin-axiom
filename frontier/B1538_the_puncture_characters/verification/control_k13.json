@@ -1,0 +1,8 @@
+{
+ "control": "K13",
+ "what": "the driver's path (a one-row run_L.jsonl in a temporary directory, the sealed run.py's HERE pointed there, read_part_F(True) in a spawned process) on the sealed record's first candidate",
+ "lines compared": 2000,
+ "sha-256 of the sealed partial's first lines": "2bf113499eb40664ea2d62d978c6972f545f4b9ff9660645d7aa671ded79a72b",
+ "sha-256 of the driver's first lines": "2bf113499eb40664ea2d62d978c6972f545f4b9ff9660645d7aa671ded79a72b",
+ "identical": true
+}

@@ -1,5 +1,26 @@
 # Changelog
 
+## B1538 addendum beside the seal: Part F scoped to what can be read (Part F′), before any Part F reading was read
+
+- **Why.** As sealed, Part F plans 948,832,288 readings over 64,422 candidates, about 458 days on its one worker. It was
+  stopped at 13:54:06Z by exact PID. Its partial record, 12,825 readings of the first candidate, is kept unread.
+- **Part F′.** The sealed `read_part_F`, loaded by path and unchanged, reads 12,152 candidates and 501,792 readings, on
+  four workers:
+  - every candidate of the golden pair (m004 8, m003 42);
+  - every silver candidate with at most 1,024 planned readings (m136 4,923, m135 7,179).
+  - The other 52,270 candidates stay OPEN.
+- **The reading.** The sealed read-out runs once, unchanged, on Part L's rows and on the partial record followed by Part F′'s
+  rows. Then `read_out_scoped.py` reads P7′ and P8′ (priors 85%), by one call of the sealed `evaluate` on the in-scope
+  candidates.
+  - PROVED if P8 fails anywhere; NEGATIVE (scoped) if P8′ holds; otherwise OPEN.
+- **Control K13.** The driver's path reproduces the partial record's first 2,000 lines byte for byte.
+- **Disclosed.** The header's candidate count and the aggregates decide P4 (True) and P5 and P6 (False) before the
+  read-out. ERROR_LEDGER: a cost slip (Part F's workload was never estimated at design time).
+- **Recorded.**
+  - `PREREGISTRATION_ADDENDUM.md` (sha-256 `c33cd8062766afd7…`). The PREREGISTRATION and the ten other sealed files are
+    unchanged; `ARTIFACT_HASHES.txt` adds four hashes. SEAL_LEDGER row.
+  - The lock gains one test: the driver's and the scoped read-out's logic on synthetic data, and K13's record.
+
 ## B1536 banked: THE FINITE COVERS — no connected cover of degree ≤ 12 of m004 or m003, and no cover in their Q₈ towers, carries three generations (NEGATIVE; run as sealed)
 
 - **The run.** sL-10 item 16, run as sealed at 9c28d076, with the addendum beside it at eeb20c44.
