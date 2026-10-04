@@ -1,0 +1,12 @@
+{
+  "snapshot": "c0f162fdcb3197d2290e1357f91cc12c8507650d",
+  "source_directory": "reports/physical_bridge_2026_09_05",
+  "files": {
+    "cross_branch_positives.py": "57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731",
+    "joined_background.py": "f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7",
+    "joined_background_reference.py": "22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869",
+    "gluing_freedom.py": "501b3c87400f198035360dc760f19937a97c3d3bf6fd7801cecf325ae20f27f9",
+    "gluing_freedom_reference.py": "b66e0584e780686295e8501e9e14d5f717f62202f5797b8fcaab52432b4df80c"
+  },
+  "R85_local_capture_sha256": "a2e51029cad28bfd243852b1d9e87eeb0ade0cead1e6ca756fd45f4bfcec057c"
+}
