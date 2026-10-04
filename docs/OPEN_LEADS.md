@@ -1,5 +1,15 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October5 read-only quantum-selection intake, NOT a new executed arc:
+reports/physical_bridge_2026_09_05/QUANTUM_SELECTION_INTAKE_2026_10_05.md.
+Before a perturbative Wilson selector, earn the complete supersymmetric
+domain/cutoff map and corrected D-flat representative, with FI/anomaly
+and stabilizer hypotheses. Weinberg's Wilsonian theorem does not certify
+every chosen vacuum; R5's non-supersymmetric positive is not transported
+to R93. No generic-loop or whole-architecture negative banked. Actual
+finite source/end admission and full chiral spectrum remain first duties;
+the register/selection/action inputs stay priced. No B/I/H allocated.
+
 October4 R93 H-PB-R93 EXECUTED after the disclosed correction after pre-run 7e2e6e72e
 pushed/server-confirmed:83 exact/67 separate-reference/18 tests pass.
 Actual R85 compact join/R86 primitive cycle, existing Wilson fields,

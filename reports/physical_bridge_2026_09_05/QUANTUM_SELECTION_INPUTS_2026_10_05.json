@@ -1,0 +1,202 @@
+{
+  "capture_records": {
+    "banked": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/checks/already_banked.py",
+        "supersymmetry nonrenormalization Wilson Coleman Weinberg"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.2180100000696257,
+      "log_bytes": 3532,
+      "log_sha256": "8bbe4185981a94ba51e8c79e478fae97894a977325cec5cd774e6828fbd9fde5"
+    },
+    "prior": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/checks/absence_sweep.py",
+        "non.?renormali|supersym.{0,40}Wilson|Wilson.{0,40}supersym|9803099|Coleman.Weinberg",
+        "--regex"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 75.21649799996521,
+      "log_bytes": 2860,
+      "log_sha256": "19285503cecba1939e8f04d290d6410bfd3750b02b40fc2bc1fb2754390a05cf"
+    },
+    "custody": {
+      "command": [
+        "ruby",
+        "<raw-root>/check_intake.rb",
+        "<repo-root>",
+        "<raw-root>"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.149375000037253,
+      "log_bytes": 215,
+      "log_sha256": "450a71c5988026d156e7315baec1b7841a03374701e4d98aad0943aa76ef5c02"
+    },
+    "governance": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 16.10663699998986,
+      "log_bytes": 2384,
+      "log_sha256": "58f902299f86a5d521457ab91a93ec8624378116f4efb3aebd5bea217b090bf0"
+    }
+  },
+  "source_custody": {
+    "scope": "Read-only literature/prior intake; no new scientific execution or all-order vacuum application",
+    "sources": [
+      {
+        "path": "reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md",
+        "reading": "Complete fresh proof read; admission conditional, same-author",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 7577,
+        "sha256": "e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+        "reading": "Complete fresh corrected proof read; prior science retained, not rerun",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 8455,
+        "sha256": "a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/TRACE_PARENT_PROOF.md",
+        "reading": "Complete fresh authored argument read; R95 frozen science/custody passed",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 9630,
+        "sha256": "c91c467dcb7a297d424595d0ab0837f7439e91a653cd37af5e43d8297fe2a11c"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+        "reading": "Complete fresh proof read; nonattained-orbit control retained",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 9845,
+        "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md",
+        "reading": "Complete fresh proof read; added relaxed source model only",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 8633,
+        "sha256": "0f6b1e7b5e7322cc2ad869a4cb47d53f7eb1ecec90426061c481a709b5619eee"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md",
+        "reading": "Complete fresh proof read; parallel-source sign/periphery scope",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 7053,
+        "sha256": "60133ab411d768ddad0f525b58743128d6ecfebcc021615760d6f8fc91ac9c2c"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/EXTENSION_3.md",
+        "reading": "Complete fresh R5 design read; different non-supersymmetric action",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 6842,
+        "sha256": "311d316c26b559cd697da7c9e011db0e0c1de9bc3f7dbabbc2770f7ac90f2eaf"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/EXTENSION_3_DERIVATIVE.md",
+        "reading": "Complete fresh derivative-control design read; result not rerun",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 3038,
+        "sha256": "97d34d624f2951b913a958a4316ac61f26c0ba2f714ad51ee94255198f4aef59"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md",
+        "reading": "Section5/normalization caveat read; other sections retained prior",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 8087,
+        "sha256": "9a32acbdcd725403447f258290f8f8c15efee0e734ba0eb536fdf2e87e718723"
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+        "reading": "Complete fresh result read; declared local reality/domain scope",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 8379,
+        "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4"
+      },
+      {
+        "path": "frontier/B962_vev_scout/PRIOR_ART_VEV.md",
+        "reading": "Q2 complete and leading context read; universal-null headlines not imported",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 42910,
+        "sha256": "8e9bc678a4a5f6c9b797f29d04e8683366ac770cec09d647c826c39e6a728dad"
+      },
+      {
+        "path": "frontier/B962_vev_scout/FINDINGS.md",
+        "reading": "Complete findings/B964 retraction banner read; not producer verification",
+        "ref": "c21153d88e148a707e9ce475acdcc4d3fc4f7ee0",
+        "bytes": 7793,
+        "sha256": "dd853d3fe7327471f43fdd406ca4c30810044390a7561861a1b106c3efb87e99"
+      }
+    ],
+    "external_sources": [
+      {
+        "external_basename": "Weinberg_1998_9803099v1.pdf",
+        "url": "https://arxiv.org/pdf/hep-th/9803099",
+        "reading": "All13 pages personally read in complete extraction; PDFpages10/11 rendered and inspected",
+        "bytes": 99634,
+        "sha256": "b7eff78d7b9226e42a741cc01a9e36f0c20525fe98ac80ee837a85bfe706ae3b"
+      },
+      {
+        "external_basename": "Weinberg_1998_9803099v1.txt",
+        "url": null,
+        "reading": "Complete457-line extraction read; derivative, not another primary paper",
+        "bytes": 23999,
+        "sha256": "4a693d838a6241988e9c65b114ef0f285c6a0dc395ac0461ded7f8e3bb572ccb"
+      },
+      {
+        "external_basename": "Braun_1812_06072v2.html",
+        "url": "https://arxiv.org/html/1812.06072v2",
+        "reading": "AppendixB.1 complete; B.2 multiplet/kinetic inventoryB.17-B.23 selected; not whole-paper fresh",
+        "bytes": 1452496,
+        "sha256": "7aee400cfd9cf86c9e1381e33c26179f1a87575bedd2ffc0e02d2b16df80c3eb"
+      }
+    ]
+  },
+  "public_prior_projection": {
+    "raw_receipt": "prior",
+    "path": "QUANTUM_SELECTION_PRIOR_2026_10_05.txt",
+    "raw_byte_identical": false,
+    "normalization": "platform branch-family labels only; source SHAs, paths and counts retained"
+  },
+  "scientific_execution": false,
+  "all_orders_vacuum_theorem": false,
+  "non_author_acceptance": false,
+  "full_suite_green": false,
+  "physical_goal_achieved": false,
+  "governance": {
+    "pass_categories": 26,
+    "fail_categories": 4,
+    "exit_code": 1,
+    "new_offenders": [],
+    "scope": "Unchanged staged intake inputs before terminal receipt packaging; four inherited failure categories, not full-green certification"
+  },
+  "public_logs": {
+    "custody": "QUANTUM_SELECTION_CUSTODY_2026_10_05.txt",
+    "governance": "QUANTUM_SELECTION_GOVERNANCE_2026_10_05.txt"
+  },
+  "preparation_errors": [
+    {
+      "operation": "Publication metadata JSON serialization",
+      "error": "Ruby US-ASCII reading of non-ASCII governance output",
+      "evidence": "original failed tool output in thread; no separate raw capture claimed",
+      "scientific_effect": false,
+      "correction": "Explicit UTF-8 reads/defaults; first patch not applied"
+    }
+  ]
+}

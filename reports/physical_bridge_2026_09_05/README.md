@@ -2,6 +2,12 @@
 
 [Current R95 result and physical costs](TRACE_PARENT.md).
 
+[October5 quantum-selection literature intake](QUANTUM_SELECTION_INTAKE_2026_10_05.md)
+distinguishes protected Wilsonian F-terms from corrected D-flat admission.
+It specifies the next quantum check, not a new verified vacuum theorem;
+the constructive finite source/end/chirality duty stays first. R5's
+different non-supersymmetric loop positive and all earlier costs remain.
+
 October4 R95: a specified LOCAL relative trace-sector map now reaches
 the SAME supplied E8 superpotential. Sym4 PSL2->SL5->E8 gives trace
 factor1200, relative form2400 omega_R94 and boundary primitive4800 c L_s.

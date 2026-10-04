@@ -5,6 +5,13 @@ The owner approved this mission and its roadmap on September 30, 2026:
 This is the authoritative mission for this audit lane. It is a research
 objective, not an assertion that Origin Axiom already determines nature.
 
+Interface currency October 5: a direct tracker read reports usageLimited
+with objective "derive parameter free standard model of physics and full
+toe from origin-axiom principles" unchanged. This is an automation status,
+not a scientific completion or an alteration of this mission. This turn
+does not claim to repair that status or renew an automation allowance;
+the older ACTIVE readings below remain dated historical records.
+
 ## Goal
 
 Develop and test Origin Axiom as a candidate foundation for a unified

@@ -1,0 +1,1 @@
+{"source_pins":12,"external_artifacts":3,"captures_match":true,"declared_public_projection_matches":true,"latest_ledger_paths":1495,"ledger_mismatches":0,"scientific_execution":false,"physical_goal_achieved":false}

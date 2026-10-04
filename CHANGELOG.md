@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-05 quantum-selection literature intake; no new scientific arc
+
+After R95 publication c21153d88, Weinberg hep-th/9803099v1 personally
+read completely; Braun appendix B.1 reread. Protected Wilsonian F-terms
+are separated from corrected D-flat admission, cutoff/domain/FI duties
+and nonperturbative or SUSY-breaking selection. R5's different positive
+non-supersymmetric loop result, R56's remaining EFT duty, R76's
+nonattained orbit and R77/R80 source-profile costs remain credited.
+QUANTUM_SELECTION_INTAKE_2026_10_05.md specifies the next check; no
+quantum vacuum theorem, new loop number, chiral SM or TOE is obtained.
+The source/end constructive duty stays first; full objective unchanged.
+
 ## 2026-10-04 R95 executed: specified trace-sector action map into the same E8 parent
 
 Unchanged pushed/server-confirmed pre-run16d70bbf3:102 exact/124 separate

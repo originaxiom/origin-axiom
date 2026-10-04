@@ -1,0 +1,36 @@
+ABSENCE SWEEP for 'non.?renormali|supersym.{0,40}Wilson|Wilson.{0,40}supersym|9803099|Coleman.Weinberg' -- 19 heads enumerated
+  audit/fork-2026-09-20                                   8b89d8fb2  content:   1  filenames:  0
+      8b89d8fb2:reports/physical_bridge_2026_09_05/EXTENSION_3.md
+  audit/physical-bridge-2026-09-05                        c21153d88  content:   3  filenames:  0
+      c21153d88:reports/physical_bridge_2026_09_05/EXTENSION_3.md
+      c21153d88:reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md
+      c21153d88:reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md
+  origin/art/camper-van-bar                               b3745696c  content:   1  filenames:  0
+      b3745696c:frontier/B1457_the_audit_lanes_source_records_harvested/verification/readers/batch_1.md
+  origin/audit/b775-braver-questions                      53da05f6c  content:   4  filenames:  0
+      53da05f6c:CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md
+      53da05f6c:CC3_TO_CC_2026-08-10_PREDICTION_REGISTER.md
+      53da05f6c:frontier/B796_coupling_campaign/exotics/FINDINGS.md
+  origin/audit/fork-2026-09-20                            8b89d8fb2  content:   1  filenames:  0
+      8b89d8fb2:reports/physical_bridge_2026_09_05/EXTENSION_3.md
+  origin/audit/physical-bridge-2026-09-05                 c21153d88  content:   3  filenames:  0
+      c21153d88:reports/physical_bridge_2026_09_05/EXTENSION_3.md
+      c21153d88:reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md
+      c21153d88:reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md
+  origin/parallel-seats/determined-hopper-t1cmii                  7cda35aa4  content:   1  filenames:  0
+      7cda35aa4:frontier/B1350_the_v10_direction/verification/v10_direction_points.json
+  origin/parallel-seats/magical-wright-vwrmtt                     0043be2b9  content:   1  filenames:  0
+      0043be2b9:frontier/B1350_the_v10_direction/verification/v10_direction_points.json
+  origin/parallel-seats/standard-model-derivation-0qt6ao          5869a0563  content:   1  filenames:  0
+      5869a0563:frontier/B1350_the_v10_direction/verification/v10_direction_points.json
+  origin/codex/seat-r001                                  f7a49536b  content:   2  filenames:  0
+      f7a49536b:documents/PROGRAM_QUESTION_ANSWER_MAP.md
+      f7a49536b:documents/program-question-map/inventory/backbone.json
+  origin/main                                             88ed69819  content:   1  filenames:  0
+      88ed69819:frontier/B1457_the_audit_lanes_source_records_harvested/verification/readers/batch_1.md
+  deleted-in-history paths matching: 0
+  working tree (untracked included): 3
+      reports/physical_bridge_2026_09_05/EXTENSION_3.md
+      reports/physical_bridge_2026_09_05/LIGHT_CUBIC.md
+      reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md
+VERDICT: PRESENT -- on 11 head(s), working tree. 'We don't have it' may NOT be written.

@@ -17227,3 +17227,27 @@ viewport correction, first clipping preserved. Initial UTF-8 intake
 failure and unknown atlas key preserved, corrected receipts separate;
 no absence/novelty inference. Source/end/domain/phase selection and one
 complete physical spectrum/interactions next; full SM/TOE unachieved.
+
+## 2026-10-05: R95 publication completed; quantum-selection source intake
+
+R95 result/custody published and server-confirmed at c21153d88 on the
+existing physical-bridge branch. Seven science files/fourteen immutable
+source pins/three external sources still match; all1492 latest ledger
+paths verify. First and corrected governance outputs preserved:26 PASS/
+four inherited FAIL categories, no full-green or independent certificate.
+No original failed output, other branch or scientific byte overwritten.
+
+Personally read all13 pages of Weinberg hep-th/9803099v1, inspected
+rendered PDFpages10/11, and reread Braun appendix B.1 completely. This
+intake separates perturbative Wilsonian F-term protection from corrected
+D-flat attainment, full supermultiplet/domain/cutoff and FI/anomaly duties.
+R5's different non-supersymmetric positive, R56's complementary EFT duty,
+R76's nonattained orbit and R77/R80's source-profile costs remain visible.
+All-head presence sweep19 refs/11 matching returns PRESENT; deleted-path
+history search is not deleted-content exhaustion. No novelty claim.
+
+QUANTUM_SELECTION_INTAKE_2026_10_05.md and its pinned inputs specify the
+next hypothesis check; no new scientific producer, quantum vacuum
+theorem or loop number is executed here. Constructive finite source/end
+admission and full chiral spectrum remain first. Full SM/TOE unachieved;
+direct interface registry currently usageLimited, objective unchanged.
