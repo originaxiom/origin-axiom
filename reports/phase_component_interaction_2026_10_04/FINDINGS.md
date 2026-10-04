@@ -50,7 +50,8 @@ c72734901e074a174fe1729614c0f4b9b3ea2f6a.
 
 The first-order result does not yet calculate normalized couplings, nearby
 masses or all-parameter spectra. The next bounded question is to construct
-an explicit ordinary continuation and locate its unavoidable torus class,+rather than infer a physical interaction from a rank jump. R54/F15's
+an explicit ordinary continuation and locate its unavoidable torus class,
+rather than infer a physical interaction from a rank jump. R54/F15's
 derivative-to-vertex method is credited; its nonzero canonical-model answer
 is neither reproduced nor imported into this different hyperbolic model.
 Paired modes, the exact stationary branch and the gapless-end limitation
