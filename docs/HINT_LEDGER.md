@@ -650,3 +650,17 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       ENTER (5 is a residue characteristic, four independent ways). What remains open is
       the EXPONENT: is 12 structural (the floor dimension? the D-flip count?) or
       incidental? Registered, not designed.
+
+
+## Path-local H-PB-R95: use the actual trace map, retain the forgotten data
+
+Committed research application of existing representation/Goldman/CS
+mathematics, NOT a new global H-number or physical selection law.
+TRACE_PARENT.md/PROOF.md under physical_bridge gives explicit Sym4
+PSL2->SL5->E8 tensor and positive operator maps, with LOCAL relative
+boundary primitive4800 c L_s and24 su5 gauge zero sections. First
+unchanged102 exact/124 Fraction/16 tests at pre-run16d70bbf3. Four
+SL2 fiber-lift labels lost; no faithful global registered-architecture
+map, cusp/cone boundary identification or R93 joined map. Independent
+analytic/main-bank acceptance OPEN. Next earn physical source/end/
+domain and selection, not a new matching-label shortcut or wider kill.

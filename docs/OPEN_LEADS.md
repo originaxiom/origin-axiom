@@ -4737,3 +4737,22 @@ orientation-line safe alternative and independent-review duty. Next earn
 the actual common physical map, then phase/source/domain selection and
 one configuration's complete spectrum/interactions. No negative about
 the larger architecture or physics-grade observer/qualia follows.
+
+
+## Physical-bridge R95: common local map advances, physical law still OPEN
+
+TRACE_PARENT.md/PROOF.md under physical_bridge supplies an explicit
+LOCAL relative trace-sector map into the SAME E8 superpotential and
+actual positive geometric SU5 background/operator map.102 native/
+124 Fraction/16 focused pass unchanged at pre-run16d70bbf3. This is
+not completion of FK8: side-wall/end/fermion data, supplied embedding/
+metric/c/action, four hidden SL2 fiber lifts and global register/
+polarization issues remain. It is not a map into R93's non-self-dual
+joined coefficient or a genesis-selected SM phase.
+
+Next actual same-parent non-self-dual/source-end configuration and its
+complete boson/fermion domain, then full light spectrum/interactions,
+phase/lifting/quantum controls. A matched-partner theorem for THIS
+geometric baseline is NOT a kill of larger covers, defects or different
+admitted boundary laws. No closure or missing-result/whole-corpus
+absence claim. SE2 CHOSEN, FK8/10/11/12 OPEN; full SM/TOE unachieved.

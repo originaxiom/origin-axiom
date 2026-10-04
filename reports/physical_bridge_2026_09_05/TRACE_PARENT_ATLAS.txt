@@ -1,0 +1,10 @@
+obstacle 'bridge_construction': 10 banked probes touched it
+  golden           x8   [structural]
+  firewall         x7   [structural]
+  eisenstein       x6   [structural]
+  coupling         x5   [no]
+  trace_map        x5   [tool]
+  choice           x5   [structural]
+  figure_eight     x5   [no]
+  amphichiral_cp   x5   [structural]
+  -> historically resolved with the conserved motif: golden

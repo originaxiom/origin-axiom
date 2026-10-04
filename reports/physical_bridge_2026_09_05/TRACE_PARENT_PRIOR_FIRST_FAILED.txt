@@ -1,0 +1,4 @@
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/json/common.rb:286:in `encode': "\xE2" on US-ASCII (Encoding::InvalidByteSequenceError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/json/common.rb:286:in `generate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/json/common.rb:286:in `pretty_generate'
+	from <raw-root>/prior.rb:13:in `<main>'

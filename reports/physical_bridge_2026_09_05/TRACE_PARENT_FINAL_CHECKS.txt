@@ -1,0 +1,2 @@
+{"mode":"final","science_files":7,"source_pins":14,"external_sources":3,"science_unchanged":true,"source_bytes_match":true,"non_author_acceptance":false,"physical_goal_achieved":false}
+{"latest_ledger_paths":1491,"ledger_mismatches":0,"public_index_only_label_redaction":true,"science_pre_post_same":true,"whitespace_clean":true,"physical_goal_achieved":false}

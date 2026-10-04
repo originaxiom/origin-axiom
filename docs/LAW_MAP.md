@@ -1405,3 +1405,25 @@ regular Fricke leaves and local nonsingular parabolic generating charts.
 R28 already has the linear alternating/full nonlinear multiplier actions;
 B1341 already carries its scope correction. No physical source/domain,
 selected SM phase, chirality, quantum law, qualia or full SM/TOE derived.
+
+
+### Physical-bridge R95: specified local trace-to-parent variational sector
+
+Research checkpoint, not a new main B arc or independent analytic bank.
+All paths below are under reports/physical_bridge_2026_09_05 unless
+tests/ is written explicitly. Full goal remains unachieved.
+
+| Conditional result | Argument and LIVE safeguard |
+|---|---|
+| Even Sym4 gives a faithful GROUP map PSL2->SL5, not a lossless map of the full SL2 fiber labels | TRACE_PARENT_PROOF.md section1; tests/test_physical_bridge_trace_parent.py::test_even_symmetric_tensor_group_map_and_its_lost_lifts; four central fiber lifts forgotten, ambient-gauge identifications not classified |
+| Full E8 trace1200 tr2 and alternating cubic restrict the SAME supplied superpotential | TRACE_PARENT_PROOF.md section2; tests/test_physical_bridge_trace_parent.py::test_complete_E8_roster_and_trace_not_just_dimension and test_same_parent_trace_and_cubic_variation_coefficients; fixed regular A4 embedding/unrescaled trace/c supplied, not a level or physics-value prediction |
+| Relative fiber form2400 omega and actual boundary primitive4800 c L_s | TRACE_PARENT_PROOF.md section3; tests/test_physical_bridge_trace_parent.py::test_nonlinear_registered_relation_retained_with_actual_sign; LOCAL chart/counterterms, relative framing/side wall, not cusp/cone/fermion Green identification or global CS equality |
+| Positive source-free noncommuting hyperbolic parent with finite norm30/1800 | TRACE_PARENT_PROOF.md section4; tests/test_physical_bridge_trace_parent.py::test_actual_hyperbolic_background_all_residuals_and_positive_norm; supplied oriented finite-volume hyperbolic metric/parent/action, not ALE/G2, selection or scale |
+| Full invariant Lie algebra su5 with24 finite positive parallel gauge sections, not rank-only identification | TRACE_PARENT_PROOF.md section5; tests/test_physical_bridge_trace_parent.py::test_full_centralizer_kernels_reject_rank_five_surrogate; lattice Zariski closure/global cutoff argument authored, disconnected/global line data not classified |
+| Symmetric unitary map carries actual flat/positive-adjoint coefficient operators and matched graph closures to duals | TRACE_PARENT_PROOF.md section5; tests/test_physical_bridge_trace_parent.py::test_positive_operator_duality_includes_the_adjoint; partner spectra agree only on THIS baseline/matched domains, no numerical count or transfer onto R85/R93 non-self-dual coefficient |
+
+R39/R40/R94 and B293/B95/B153 scope retained.102 exact/124 Fraction/
+16 focused pass first unchanged after pushed pre-run16d70bbf3; same
+author, analytic acceptance/full suite/main-bank OPEN. FK8/10/11/12,
+physical source/end/domain/phase selection and complete chiral SM/TOE
+remain OPEN; no19-parameter output, gravity, quantum/Born or qualia.

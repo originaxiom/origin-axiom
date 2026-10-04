@@ -17201,3 +17201,29 @@ relays,89 OPEN and review due332. Tree unchanged during this run; first
 invalidated output preserved separately. Full six science files,15
 immutable pins/two source PDFs and all true run exits/digests match.
 No gate waiver, full green/full suite or independent/main-bank claim.
+
+
+## 2026-10-04 R95: specified registered variation enters the actual parent
+
+Conditional common-map progress, not full physics: Sym4 PSL2->regular
+structure SL5->E8 transports the LOCAL relative fiber variation with
+Tr248=1200 tr2, form2400 omega_R94 and CS boundary primitive4800 c L_s.
+Full root roster, trace/cubic and boundary factors checked; c remains
+supplied, side wall/local labels retained. Actual source-free positive
+noncommuting hyperbolic background globally descends without a bundle
+SL2 lift choice; full su5 gauge24 and finite30/1800 norm. Four SL2 fiber
+lifts forgotten, no global faithful register or ALE/G2 completion.
+Matched unitary fundamental/exterior and positive-adjoint domain maps
+retain this baseline's pairing, NOT a kill of non-self-dual joined/end
+routes or larger covers. Canonical SE2 CHOSEN, FK8/10/11/12 OPEN.
+
+Pre-run16d70bbf308542a5b058b47a75c3dbf6c7ebc71e pushed/server-confirmed
+before import/collection.102 native/124 separate Fraction/16 focused
+LIVE pass first unchanged with exits0. Seven science paths,14 immutable
+pins/two PDFs plus HTML match. Native/reference SAME author; independent
+analytic/full-suite/main-bank acceptance still owed. TRACE_PARENT.md/
+PROOF.md have exact hypotheses; field rendered completely after a
+viewport correction, first clipping preserved. Initial UTF-8 intake
+failure and unknown atlas key preserved, corrected receipts separate;
+no absence/novelty inference. Source/end/domain/phase selection and one
+complete physical spectrum/interactions next; full SM/TOE unachieved.

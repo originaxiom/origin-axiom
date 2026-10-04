@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="284" viewBox="0 0 1040 410">
+<rect width="1040" height="410" fill="#ffffff"/>
+<g font-family="Arial, sans-serif" fill="#172b3a">
+<text x="32" y="34" font-size="21">R95: actual Higgs fields in an orthonormal hyperbolic frame</text>
+<text x="32" y="60" font-size="14">Coordinate fields carry 1/z; the physical orthonormal components shown here are constant.</text>
+<text x="32" y="90" font-size="17">Psi_x = (E+F)/2</text>
+<rect x="32" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="62.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="93" y="105" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="123.5" y="131" text-anchor="middle" font-size="12">1</text>
+<rect x="154" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="184.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="215" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="245.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="276" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="306.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="32" y="149" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="62.5" y="175" text-anchor="middle" font-size="12">1</text>
+<rect x="93" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="123.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="154" y="149" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="184.5" y="175" text-anchor="middle" font-size="10">sqrt(6)/2</text>
+<rect x="215" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="245.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="276" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="306.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="32" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="62.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="93" y="193" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="123.5" y="219" text-anchor="middle" font-size="10">sqrt(6)/2</text>
+<rect x="154" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="184.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="215" y="193" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="245.5" y="219" text-anchor="middle" font-size="10">sqrt(6)/2</text>
+<rect x="276" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="306.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="32" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="62.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="93" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="123.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="154" y="237" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="184.5" y="263" text-anchor="middle" font-size="10">sqrt(6)/2</text>
+<rect x="215" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="245.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="276" y="237" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="306.5" y="263" text-anchor="middle" font-size="12">1</text>
+<rect x="32" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="62.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="93" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="123.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="154" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="184.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="215" y="281" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="245.5" y="307" text-anchor="middle" font-size="12">1</text>
+<rect x="276" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="306.5" y="307" text-anchor="middle" font-size="12">0</text>
+<text x="32" y="348" font-size="15">tr(Psi_x^2) = 10</text>
+<text x="376" y="90" font-size="17">Im Psi_y = (E-F)/2</text>
+<rect x="376" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="406.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="437" y="105" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="467.5" y="131" text-anchor="middle" font-size="12">1</text>
+<rect x="498" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="528.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="559" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="589.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="620" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="650.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="376" y="149" width="61" height="44" fill="#f9ddd2" stroke="#c9d0d6"/>
+<text x="406.5" y="175" text-anchor="middle" font-size="12">-1</text>
+<rect x="437" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="467.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="498" y="149" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="528.5" y="175" text-anchor="middle" font-size="10">sqrt(6)/2</text>
+<rect x="559" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="589.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="620" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="650.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="376" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="406.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="437" y="193" width="61" height="44" fill="#f9ddd2" stroke="#c9d0d6"/>
+<text x="467.5" y="219" text-anchor="middle" font-size="10">-sqrt(6)/2</text>
+<rect x="498" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="528.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="559" y="193" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="589.5" y="219" text-anchor="middle" font-size="10">sqrt(6)/2</text>
+<rect x="620" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="650.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="376" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="406.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="437" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="467.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="498" y="237" width="61" height="44" fill="#f9ddd2" stroke="#c9d0d6"/>
+<text x="528.5" y="263" text-anchor="middle" font-size="10">-sqrt(6)/2</text>
+<rect x="559" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="589.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="620" y="237" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="650.5" y="263" text-anchor="middle" font-size="12">1</text>
+<rect x="376" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="406.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="437" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="467.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="498" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="528.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="559" y="281" width="61" height="44" fill="#f9ddd2" stroke="#c9d0d6"/>
+<text x="589.5" y="307" text-anchor="middle" font-size="12">-1</text>
+<rect x="620" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="650.5" y="307" text-anchor="middle" font-size="12">0</text>
+<text x="376" y="348" font-size="15">tr(Psi_y^2) = 10</text>
+<text x="720" y="90" font-size="17">Psi_z = H/2</text>
+<rect x="720" y="105" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="750.5" y="131" text-anchor="middle" font-size="12">2</text>
+<rect x="781" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="811.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="842" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="872.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="903" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="933.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="964" y="105" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="994.5" y="131" text-anchor="middle" font-size="12">0</text>
+<rect x="720" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="750.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="781" y="149" width="61" height="44" fill="#cfecef" stroke="#c9d0d6"/>
+<text x="811.5" y="175" text-anchor="middle" font-size="12">1</text>
+<rect x="842" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="872.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="903" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="933.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="964" y="149" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="994.5" y="175" text-anchor="middle" font-size="12">0</text>
+<rect x="720" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="750.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="781" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="811.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="842" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="872.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="903" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="933.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="964" y="193" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="994.5" y="219" text-anchor="middle" font-size="12">0</text>
+<rect x="720" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="750.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="781" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="811.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="842" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="872.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="903" y="237" width="61" height="44" fill="#f9ddd2" stroke="#c9d0d6"/>
+<text x="933.5" y="263" text-anchor="middle" font-size="12">-1</text>
+<rect x="964" y="237" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="994.5" y="263" text-anchor="middle" font-size="12">0</text>
+<rect x="720" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="750.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="781" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="811.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="842" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="872.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="903" y="281" width="61" height="44" fill="#f3f5f7" stroke="#c9d0d6"/>
+<text x="933.5" y="307" text-anchor="middle" font-size="12">0</text>
+<rect x="964" y="281" width="61" height="44" fill="#f9ddd2" stroke="#c9d0d6"/>
+<text x="994.5" y="307" text-anchor="middle" font-size="12">-2</text>
+<text x="720" y="348" font-size="15">tr(Psi_z^2) = 10</text>
+<text x="32" y="379" font-size="15">Total positive norm = 30 (defining five), or 1800 (unrescaled E8 adjoint trace).</text>
+<text x="32" y="400" font-size="12">Colors distinguish sign only. Exact entries; supplied metric/embedding; no physical scale or particle claim.</text>
+</g></svg>

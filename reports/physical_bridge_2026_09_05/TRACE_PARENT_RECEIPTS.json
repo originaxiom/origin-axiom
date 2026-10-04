@@ -1,0 +1,412 @@
+{
+  "seal_commit": "16d70bbf308542a5b058b47a75c3dbf6c7ebc71e",
+  "captures": {
+    "PRIOR_SWEEP": {
+      "command": [
+        "ruby",
+        "<raw-root>/prior.rb",
+        "<repo-root>"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 61.11483799992129,
+      "log_bytes": 488,
+      "log_sha256": "a66816655d4d095f5c65dae622cb72bbfc1ce0a6e2461c7509b50e1ad2c623c5"
+    },
+    "PRIOR_SWEEP_CORRECTED": {
+      "command": [
+        "ruby",
+        "<raw-root>/prior.rb",
+        "<repo-root>"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 64.03919000003953,
+      "log_bytes": 458633172,
+      "log_sha256": "c0613e6bfab85b605bf7f6cf3ccadf0b34bb20130223ca735d74f90a754811d7"
+    },
+    "PRIOR_SUMMARY": {
+      "command": [
+        "ruby",
+        "<raw-root>/summarize_prior.rb",
+        "<raw-root>/PRIOR_SWEEP_CORRECTED.log"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.0536810000194237,
+      "log_bytes": 5783,
+      "log_sha256": "987a75b38557b10270af02e7b7a5075124387149e779d58e186f034de8c06b36"
+    },
+    "ALREADY_BANKED": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/checks/already_banked.py",
+        "Sym4 principal Goldman Chern Simons boundary"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.4478389999130741,
+      "log_bytes": 3530,
+      "log_sha256": "d74ba2967a03fd5879b28a9237f96a64754d049793c27a4528e4f9061d2c8be2"
+    },
+    "ATLAS": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/atlas/query.py",
+        "obstacle",
+        "boundary"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.04651500005275011,
+      "log_bytes": 181,
+      "log_sha256": "2cf0921fad481a40bf770968012cbc4d1223cbeba5fa67f709258d1642db3276"
+    },
+    "ATLAS_CORRECTED": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/atlas/query.py",
+        "obstacle",
+        "bridge_construction"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.04611100000329316,
+      "log_bytes": 394,
+      "log_sha256": "7f43fcabe1f1cbff5fd6819751e42a401cfc518bdf6aa102aa5398c785da6778"
+    },
+    "seal_commit": {
+      "command": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "commit",
+        "-m",
+        "Seal R95 common trace-sector action map and spinless positive parent before exact execution"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.07466599997133017,
+      "log_bytes": 789,
+      "log_sha256": "dce5767d368edb61e2d7867eb384b73071aa306a74a3f03ce06a89313a2ac34f"
+    },
+    "seal_push": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "push",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.2927159999962896,
+      "log_bytes": 117,
+      "log_sha256": "2791821e0cf4a363def1ccf5c576d981bfd6c8cf546a12983ce27d6b7ad2234c"
+    },
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.6140449999365956,
+      "log_bytes": 85,
+      "log_sha256": "f0ba3eed47fa2b14f7c849bd9073b77438abedf27b7cba43f955d8e24726c7c2"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/trace_parent_receipt_check.rb",
+        "preflight",
+        "<raw-root>",
+        "16d70bbf308542a5b058b47a75c3dbf6c7ebc71e"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.9136319999815896,
+      "log_bytes": 189,
+      "log_sha256": "0cc055c74f704e68388b7a5b15e9f4041d018b5c86b7bcc65c8add36195ef938"
+    },
+    "native": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/trace_parent.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.815792000037618,
+      "log_bytes": 3058,
+      "log_sha256": "f79bdeb308fd0b70833fe2784a73be3fb4edf90f713b50f9777a77343b3b1941"
+    },
+    "reference": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/trace_parent_reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.6311269999714568,
+      "log_bytes": 3401,
+      "log_sha256": "1de8d18178c4d4707a21bd05e8f771ee2dbbd60fa43cffa9a7256024e5e1ed51"
+    },
+    "focused": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_trace_parent.py",
+        "tests/test_physical_bridge_register_action.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 5.032430000021122,
+      "log_bytes": 99,
+      "log_sha256": "b60b979aedec8021bdbe287b2ce7913b7c87c3988d139b7463afc416288b2b4a"
+    },
+    "post_science": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/trace_parent_receipt_check.rb",
+        "preflight",
+        "<raw-root>",
+        "16d70bbf308542a5b058b47a75c3dbf6c7ebc71e"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8841979999560863,
+      "log_bytes": 189,
+      "log_sha256": "0cc055c74f704e68388b7a5b15e9f4041d018b5c86b7bcc65c8add36195ef938"
+    },
+    "field_render": {
+      "command": [
+        "qlmanage",
+        "-t",
+        "-s",
+        "1400",
+        "-o",
+        "<raw-root>",
+        "reports/physical_bridge_2026_09_05/TRACE_PARENT_FIELD.svg"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.2402080000611022,
+      "log_bytes": 263,
+      "log_sha256": "8c2d8467be364652267334911993d12699c87f8ffbfd2f5a90c4a681d12ca82f"
+    },
+    "field_render_corrected": {
+      "command": [
+        "qlmanage",
+        "-t",
+        "-s",
+        "1400",
+        "-o",
+        "<raw-root>/render_corrected",
+        "reports/physical_bridge_2026_09_05/TRACE_PARENT_FIELD.svg"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.1930479999864474,
+      "log_bytes": 263,
+      "log_sha256": "8c2d8467be364652267334911993d12699c87f8ffbfd2f5a90c4a681d12ca82f"
+    },
+    "governance": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 12.625110000022687,
+      "log_bytes": 2483,
+      "log_sha256": "413d1a48e028d794cf50212165ac38d28d6a3b26ff2b2948739203af76058ab6"
+    },
+    "governance_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 12.698084000032395,
+      "log_bytes": 2384,
+      "log_sha256": "dc1a771165ad7ce673d8fd7fe637d446a049264b6056a49bf0691c0a9ab4605a"
+    },
+    "custody_first": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/trace_parent_receipt_check.rb",
+        "final",
+        "<raw-root>",
+        "16d70bbf308542a5b058b47a75c3dbf6c7ebc71e"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.072482999996282,
+      "log_bytes": 185,
+      "log_sha256": "a468c37b83990f2ba666bec7793367fca58c5404459689d3b278860ddadd5de8"
+    },
+    "custody_final": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/trace_parent_receipt_check.rb",
+        "final",
+        "<raw-root>",
+        "16d70bbf308542a5b058b47a75c3dbf6c7ebc71e"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.0268530000466853,
+      "log_bytes": 185,
+      "log_sha256": "a468c37b83990f2ba666bec7793367fca58c5404459689d3b278860ddadd5de8"
+    },
+    "final_checks": {
+      "command": [
+        "ruby",
+        "<raw-root>/final_check.rb",
+        "<repo-root>",
+        "<raw-root>"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.6006840000627562,
+      "log_bytes": 361,
+      "log_sha256": "06af6ef361c8836b3c929fb5647abd26eb695d62a2961b5bca6770c29d9bdd73"
+    }
+  },
+  "public_logs": {
+    "native": {
+      "path": "TRACE_PARENT_NATIVE_FIRST.json",
+      "normalized": false
+    },
+    "reference": {
+      "path": "TRACE_PARENT_REFERENCE_FIRST.json",
+      "normalized": false
+    },
+    "focused": {
+      "path": "TRACE_PARENT_FOCUSED_FIRST.txt",
+      "normalized": false
+    },
+    "server_seal": {
+      "path": "TRACE_PARENT_SERVER_SEAL.txt",
+      "normalized": false
+    },
+    "preflight": {
+      "path": "TRACE_PARENT_PREFLIGHT.txt",
+      "normalized": false
+    },
+    "post_science": {
+      "path": "TRACE_PARENT_POST_SCIENCE.txt",
+      "normalized": false
+    },
+    "PRIOR_SWEEP": {
+      "path": "TRACE_PARENT_PRIOR_FIRST_FAILED.txt",
+      "normalized": true
+    },
+    "ATLAS_CORRECTED": {
+      "path": "TRACE_PARENT_ATLAS.txt",
+      "normalized": false
+    },
+    "governance": {
+      "path": "TRACE_PARENT_GOVERNANCE_FIRST.txt",
+      "normalized": false
+    },
+    "governance_final": {
+      "path": "TRACE_PARENT_GOVERNANCE_FINAL.txt",
+      "normalized": false
+    },
+    "custody_first": {
+      "path": "TRACE_PARENT_CUSTODY_FIRST.txt",
+      "normalized": false
+    },
+    "custody_final": {
+      "path": "TRACE_PARENT_CUSTODY_FINAL.txt",
+      "normalized": false
+    },
+    "final_checks": {
+      "path": "TRACE_PARENT_FINAL_CHECKS.txt",
+      "normalized": false
+    }
+  },
+  "non_author_acceptance": false,
+  "full_suite_green": false,
+  "physical_goal_achieved": false,
+  "science_tree_unchanged": true,
+  "prior_first_failed": true,
+  "atlas_first_unknown_not_absence": true,
+  "native_summary": {
+    "failed": [],
+    "global_faithful_register_map": false,
+    "non_author_acceptance": false,
+    "passed": 102,
+    "physical_goal_achieved": false,
+    "scope": "R95 conditional local relative trace-sector transport and oriented hyperbolic parent baseline",
+    "source_action_coefficient_derived": false,
+    "total": 102
+  },
+  "reference_summary": {
+    "failed": [],
+    "non_author_acceptance": false,
+    "passed": 124,
+    "physical_goal_achieved": false,
+    "scope": "R95 bounded Fraction tensor/root/kernel controls; same author",
+    "total": 124
+  },
+  "public_projections": {
+    "PRIOR_SUMMARY": {
+      "path": "TRACE_PARENT_PRIOR_SUMMARY.txt",
+      "original_raw_receipt": "PRIOR_SUMMARY",
+      "raw_byte_identical": false,
+      "normalization": "platform branch-family labels only; source SHAs, paths and counts unchanged"
+    }
+  },
+  "governance_first_public_navigation_labels_rejected": true,
+  "governance_final": {
+    "pass_categories": 26,
+    "fail_categories": 4,
+    "exit_code": 1,
+    "new_R95_offenders": [],
+    "inherited_attribution_offenders": 6,
+    "inherited_vacuous_tests": 2,
+    "inherited_provenance_offenders": 5,
+    "stale_relays": 41,
+    "open_relays": 90,
+    "review_due": 334,
+    "scope": "unchanged staged publication inputs after public index correction, before final receipt packaging; NOT full green"
+  }
+}

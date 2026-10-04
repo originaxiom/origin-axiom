@@ -1,5 +1,16 @@
 # Origin Axiom
 
+> October4 R95: [explicit trace-to-parent map](reports/physical_bridge_2026_09_05/TRACE_PARENT.md)
+> conditionally transports the LOCAL registered variation into the same
+> supplied E8 superpotential, with full trace/boundary normalization and
+> an actual source-free positive geometric SU5 background.102 exact/
+> 124 separate Fraction/16 LIVE tests pass at pushed pre-run16d70bbf3.
+> The map forgets four SL2 fiber lifts; no globally faithful register,
+> selected physical carrier/SM, chiral spectrum or ALE/G2 is claimed.
+> Side-wall/end/fermion law and physical selection still owed; matched
+> pairing on this baseline is NOT a kill of non-self-dual joined routes.
+> Full parameter-free SM/TOE ACTIVE/unachieved. Historical R94 follows.
+
 > October4 R94: the actual nonlinear parabolic trace dynamics now has a
 > conditional REGULAR LOCAL generating action with its orientation
 > register retained, including the nonreal monodromy-fixed pair.73 exact/

@@ -1,0 +1,177 @@
+{
+  "scope": "Bounded presence navigation summary; line counts are search output, NOT mathematical census, completeness or novelty",
+  "heads": [
+    {
+      "ref": "refs/remotes/origin/HEAD",
+      "matched_lines": 652,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/art/camper-van-bar",
+      "matched_lines": 651,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "b3745696c11624ee60b709069e743d5f8de98f2e",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/audit/b775-braver-questions",
+      "matched_lines": 449,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/audit/fork-2026-09-20",
+      "matched_lines": 586,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/audit/physical-bridge-2026-09-05",
+      "matched_lines": 611,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py",
+        "reports/physical_bridge_2026_09_05/coefficient_parent.py"
+      ],
+      "sha": "1ab5c78ca43a71394a80b3f4a01c6b477c4e49d4",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/determined-hopper-t1cmii",
+      "matched_lines": 564,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "7cda35aa468cdb0ab2886e379b13ff31130be460",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/magical-wright-vwrmtt",
+      "matched_lines": 564,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "0043be2b95a51048b3a664789ede241497558e79",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/new-session-qor5up",
+      "matched_lines": 436,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/outside-bench",
+      "matched_lines": 564,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/paper-review-verification-kaz3f5",
+      "matched_lines": 564,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/paper-verification-ufp0zn",
+      "matched_lines": 562,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "5dde7b3efe59ca2055de6b84395416d173b2e290",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/physics-seat-evaluation-8dkbrl",
+      "matched_lines": 457,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/parallel-seats/standard-model-derivation-0qt6ao",
+      "matched_lines": 638,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "5869a056398298b23f3aae62186728f271ea2060",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/seat-r001",
+      "matched_lines": 449,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "f7a49536bc45bebc1557d3d081b6b3664a7c2199",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/main",
+      "matched_lines": 652,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/paper/structure-genesis-first",
+      "matched_lines": 439,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4",
+      "grep_exit": 0
+    },
+    {
+      "ref": "refs/remotes/origin/sep16-branch",
+      "matched_lines": 564,
+      "selected_paths": [
+        "frontier/B95_degree_rank_mechanism/FINDINGS.md",
+        "frontier/B95_degree_rank_mechanism/probe.py"
+      ],
+      "sha": "3205984b48d1b98a80042cdc70916878973980f5",
+      "grep_exit": 0
+    }
+  ],
+  "public_projection": "Platform branch-family labels are redacted to parallel-seats; SHAs, paths and search counts unchanged. Original raw PRIOR_SUMMARY remains captured, not represented as byte-identical public output."
+}

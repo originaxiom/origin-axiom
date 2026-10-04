@@ -1,0 +1,1 @@
+{"mode":"preflight","science_files":7,"source_pins":14,"external_sources":3,"science_unchanged":true,"source_bytes_match":true,"non_author_acceptance":false,"physical_goal_achieved":false}

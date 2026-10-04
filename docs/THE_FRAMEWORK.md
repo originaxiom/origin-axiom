@@ -1,5 +1,25 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October4 R95: a specified LOCAL relative trace-sector map now reaches
+the SAME supplied E8 superpotential. Sym4 PSL2->SL5->E8 gives trace
+factor1200, relative form2400 omega_R94 and boundary primitive4800 c L_s.
+An actual positive source-free hyperbolic background descends without
+an SL2 lift choice and leaves exactly su5,24 finite gauge zero sections.
+102 exact/124 separate Fraction/16 focused tests pass unchanged after
+pushed/server-confirmed pre-run16d70bbf3. TRACE_PARENT.md/PROOF.md retain
+all fields, trace/cubic/metric/kernels and actual unitary adjoint pairing.
+Conditional authored analytic map, NOT a selected physical theory:
+four SL2 fiber lifts are forgotten; local labels and orientation-line
+data retained. Side-wall/end/fermion law, embedding/action coefficient
+and metric remain inputs. No faithful global-register, ALE/G2 or R93
+non-self-dual join identification; THIS matched baseline pairing is not
+a larger-architecture chirality kill. FK8/10/11/12 remain OPEN, SE2 CHOSEN;
+physical source/domain/phase selection and complete spectrum/interactions
+next. Full parameter-free SM/TOE ACTIVE/unachieved,0 of19 unchanged.
+
+Historical R94 checkpoint below; its common-map prerequisite is advanced
+only for the R95 relative sector, not the whole physical duty.
+
 October4 R94: the actual nonlinear parabolic trace dynamics now has a
 conditional REGULAR LOCAL generating action with its orientation
 register retained, including the nonreal monodromy-fixed pair.73 exact/

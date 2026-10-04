@@ -1,5 +1,16 @@
 # Genesis checkpoint: reconcile the foundations, then return to physics
 
+Currency wrapper October4 R95: the supplied Sym4 PSL2->regular SL5->E8
+map now transports a specified LOCAL relative fiber-sector variation
+from R94 into the same superpotential, with explicit boundary scale,
+positive source-free background and actual unitary operator duality.
+102 exact/124 Fraction/16 focused pass at pre-run16d70bbf3. This is NOT
+a faithful global register (four SL2 lifts forgotten), physical end/
+fermion law, R93 joined-background map, embedding/phase selection or
+principle-derived parent/metric/action. Stage5/canonical FK8/10/11/12
+remain OPEN; SE2 CHOSEN, PF1-PF3 postulated, qualia not derived. The full
+parameter-free SM/TOE goal is unchanged. Historical R94 wrapper follows.
+
 Currency wrapper October4 R94 (historical plan below retained): canonical
 main GENESISv1.10 at88ed69819 personally read completely; PF1-PF3 remain
 postulates, SE2 CHOSEN, FK8/10/11/12 open. R93 admits a conditional SM
