@@ -9,14 +9,14 @@ def test_the_seal_census_live():
     r = subprocess.run([sys.executable, os.path.join(A, "verification", "seal_census.py")], capture_output=True, text=True)
     assert r.returncode == 0 and "VERDICT seal-census: PASS" in r.stdout, r.stdout[-400:] + r.stderr[-400:]
     d = json.load(open(os.path.join(A, "verification", "seal_census.json")))
-    assert d["rows_both_shapes"] >= 46 and d["distinct_sealed_paths_with_digest"] >= 46 and d["with_neither"] == d["baseline"] == 41
+    assert d["rows_both_shapes"] >= 46 and d["distinct_sealed_paths_with_digest"] >= 46 and d["with_neither"] == 41 and d["neither_arcs_uncovered"] == [] and d["baseline"] == 35 and d["attested_arcs"] == 6   # B1468: 35 frozen arcs + 6 attested with quotes
 
 
 def test_the_new_gates_are_registered_with_failing_paths():
     reg = json.load(open(os.path.join(ROOT, "tests", "GATE_CONTROLS.json")))
     for g in ("seal-ledger-current", "pretense-phrases", "seal-provenance", "seal-digests"):
         assert g in gates.GATES and g in reg, g
-    assert len(gates.SEAL_PROVENANCE_BASELINE) == 41 and gates.PRETENSE_BASELINE == 0
+    assert len(gates.SEAL_PROVENANCE_BASELINE) + len(gates.seal_attestations()) == 41 and gates.PRETENSE_BASELINE == 0
 
 
 def test_the_dispositions_are_on_the_record():

@@ -1,5 +1,15 @@
 # Changelog
 
+## S51 THE FROZEN SEALS RE-AUDITED: of the forty-one seals the provenance gate had never read, six state both halves of the rule in other words — attested with their quotes, which the gate now reads and re-checks — and thirty-five stay frozen, this seat's September seals among them.
+
+**The occasion.** Review 59's R59-2: the 41 seals B1464 froze were listed, not read. A list that may only shrink needs a way to shrink that is not a shorter list.
+
+**What was done (B1468).** The 42 sealed files read in full by six readers under a strict brief — the banked-identity half (a reproduction or control inside the pipeline, not a citation) and the prior-art half (a search of the record or the literature, not a source cited) — with a verbatim quote required for every YES; every quote re-verified against the file on main (two discarded); the surviving "both" rows adjudicated by main against the rule. **Six arcs meet it in other words** — B1019, B1033, B1036, B1066, B1071, B1442 — and are attested with their quotes in `tests/SEAL_PROVENANCE_ATTESTATIONS.json`; `seal-provenance` reads the file and accepts an arc only while both quotes are found in its text (a forged attestation fails, under test). Two more quote both and fall short (a source cited is not a search; an absence is not a sweep). The baseline shrinks from 41 to 35; the census checks that every seal without the literal markers is frozen or attested, none uncovered.
+
+**What it means.** The rule was honoured in substance six times more than its markers showed, and not at all 35 times. Nothing in the derivation moved. **The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1468** (PROVED, instrument). R59-2 paid. PRACTICES amended. Gates 42 of 42; full suite 7038 passed, 0 failed, 68 skipped.
+
 ## S50 THE SEATS' EVENING, AND MAIN'S ABSENCE CLAIM CORRECTED: the SM seat checked the symmetric-phase reading too and found the phrase on main where main's sweep had said none — lead L17, the web seat's frame as a lead of the record's own — an E54 instance of main's, corrected with the credit; the seat's exact sentence on the meridian twist adopted as GENESIS v1.10 with a version-number collision recorded; six SM arcs and the audit lane's compact-boundary admission rowed.
 
 **The occasion.** Between S49's suite and its landing the SM seat landed five arcs and sealed three, among them sm:B1531, its own check of the web seat's reading, and the audit lane published R81, a constructive admission of the non-split coefficient on a compact truncation. Harvest before anything else.

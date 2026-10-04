@@ -1,0 +1,20 @@
+{
+ "id": "B1468",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1464"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the repository's seal gates (frame-independent)",
+  "object": "the 42 sealed files of the 41 arcs frozen by B1464",
+  "reach": "general",
+  "hypotheses": "readers' quotes re-verified against the files; the adjudication is main's against the rule's two halves; sealed text unchanged"
+ },
+ "claim_one_line": "THE FROZEN SEALS RE-AUDITED (R59-2). Of the 41 arcs B1464 froze for lacking the provenance markers, six state both halves of the rule in other words -- B1019, B1033, B1036, B1066, B1071, B1442 -- attested with quotes verified against the sealed text in tests/SEAL_PROVENANCE_ATTESTATIONS.json, which seal-provenance now reads (a forged attestation fails); two more quote both but fall short (B1450: a source cited is not a search; B1435: an absence statement is not a sweep); the baseline shrinks to 35, every uncovered seal accounted for. Nothing selects a state. 0 of 19."
+}

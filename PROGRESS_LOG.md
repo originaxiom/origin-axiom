@@ -16129,3 +16129,13 @@ Arc **B1466** (PROVED, instrument; P4 failed and followed). GENESIS v1.9. LAW_MA
 **What it means.** Two seats checked the same reading on the same evening and the one that found main's mistake was not main; the loop worked. Nothing in the derivation moved. **The imported expectation, stated separately:** none. **0 of 19.**
 
 **Two branches retired at the owner's word** ("delete branches magical-wright-vwrmtt and camper-van-bar"): each tagged at its tip (`retired/magical-wright-vwrmtt` at 0043be2b, its one commit read on main in B1456; `retired/art-camper-van-bar` at b3745696) and deleted on both remotes; the seat table, the pins and the register say so. Arc **B1467** (PROVED, harvest). GENESIS v1.10. HARVEST_LEDGER 832–841; pins sm 2eb3841f, audit ddd345a8; five relays rowed. ERROR_LEDGER E54 instance. Relay to both seats. Gates 42 of 42; full suite 7034 passed, 0 failed, 68 skipped.
+
+## 2026-10-04 — S51 THE FROZEN SEALS RE-AUDITED: of the forty-one seals the provenance gate had never read, six state both halves of the rule in other words — attested with their quotes, which the gate now reads and re-checks — and thirty-five stay frozen, this seat's September seals among them.
+
+**The occasion.** Review 59's R59-2: the 41 seals B1464 froze were listed, not read. A list that may only shrink needs a way to shrink that is not a shorter list.
+
+**What was done (B1468).** The 42 sealed files read in full by six readers under a strict brief — the banked-identity half (a reproduction or control inside the pipeline, not a citation) and the prior-art half (a search of the record or the literature, not a source cited) — with a verbatim quote required for every YES; every quote re-verified against the file on main (two discarded); the surviving "both" rows adjudicated by main against the rule. **Six arcs meet it in other words** — B1019, B1033, B1036, B1066, B1071, B1442 — and are attested with their quotes in `tests/SEAL_PROVENANCE_ATTESTATIONS.json`; `seal-provenance` reads the file and accepts an arc only while both quotes are found in its text (a forged attestation fails, under test). Two more quote both and fall short (a source cited is not a search; an absence is not a sweep). The baseline shrinks from 41 to 35; the census checks that every seal without the literal markers is frozen or attested, none uncovered.
+
+**What it means.** The rule was honoured in substance six times more than its markers showed, and not at all 35 times. Nothing in the derivation moved. **The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1468** (PROVED, instrument). R59-2 paid. PRACTICES amended. Gates 42 of 42; full suite 7038 passed, 0 failed, 68 skipped.

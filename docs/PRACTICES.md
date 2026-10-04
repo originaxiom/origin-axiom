@@ -1017,7 +1017,9 @@ disk (`seal-ledger-current`). `seal-digests` recomputes every digest the ledger 
 ledger's row shapes. `seal-provenance` reads the sealed files themselves, not the ledger: every seal from B995 on carries
 the two halves of the provenance rule — the markers `BANKED IDENTITY:` and `PRIOR ART:`, or from B1454 a "Seen first" and
 a "Disclosed" section — except the 41 named in `gates.SEAL_PROVENANCE_BASELINE`, sealed text that is listed, not repaired,
-and a list that may only shrink.
+and a list that may only shrink. A frozen seal leaves the list by **attestation**: `tests/SEAL_PROVENANCE_ATTESTATIONS.json` records, per arc, the two
+quotes from its sealed text that state the halves in other words, and the gate accepts the arc only while both quotes are found in
+the file (B1468; six attested, 35 frozen).
 
 **Why it exists.** Review 55's R55-13/14/15 (2026-09): the gate iterated ledger rows of one shape, so 31 of 50 digests were
 never recomputed and 41 of the 46 seals in the rule's range — including this seat's own of September — carried neither

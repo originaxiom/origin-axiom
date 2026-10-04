@@ -932,9 +932,19 @@ SEEN_FIRST_FROM_ARC = 1454          # from here a sealed "Seen first" section (W
 # B1464 (Review 59; R55-13): the 41 seals of B995-B1451 that carry neither the two markers nor the two sections. Sealed
 # text is not repaired; they are listed, the list may only shrink, and every seal after this fix is bound.
 SEAL_PROVENANCE_BASELINE = frozenset((
-    "B995", "B1000", "B1006", "B1011", "B1015", "B1016", "B1018", "B1019", "B1024", "B1025", "B1026", "B1027", "B1028", "B1029",
-    "B1033", "B1034", "B1036", "B1037", "B1039", "B1040", "B1041", "B1042", "B1043", "B1044", "B1062", "B1064", "B1065", "B1066",
-    "B1071", "B1102", "B1104", "B1410", "B1434", "B1435", "B1439", "B1441", "B1442", "B1444", "B1445", "B1450", "B1451"))
+    "B995", "B1000", "B1006", "B1011", "B1015", "B1016", "B1018", "B1024", "B1025", "B1026", "B1027", "B1028", "B1029",
+    "B1034", "B1037", "B1039", "B1040", "B1041", "B1042", "B1043", "B1044", "B1062", "B1064", "B1065",
+    "B1102", "B1104", "B1410", "B1434", "B1435", "B1439", "B1441", "B1444", "B1445", "B1450", "B1451"))
+# R59-2 (B1468, 2026-10-04): six of the 41 state both halves in other words -- attested with verified quotes in
+# tests/SEAL_PROVENANCE_ATTESTATIONS.json (B1019, B1033, B1036, B1066, B1071, B1442) and removed from the baseline (35 left).
+SEAL_PROVENANCE_ATTESTATIONS = "tests/SEAL_PROVENANCE_ATTESTATIONS.json"
+
+
+def seal_attestations(root=None):
+    p = os.path.join(str(root or ROOT), SEAL_PROVENANCE_ATTESTATIONS)
+    if not os.path.isfile(p): return {}
+    try: return json.load(open(p, encoding="utf-8"))
+    except Exception: return {}
 
 
 def sealed_files(root=None):
@@ -959,6 +969,8 @@ def seal_provenance_problems(root=None, baseline=SEAL_PROVENANCE_BASELINE):
         sections = arc >= SEEN_FIRST_FROM_ARC and re.search(r"(?m)^##[^\n]*Seen first", txt) and re.search(r"(?m)^##[^\n]*Disclosed", txt)
         if markers or sections: continue
         if "B%d" % arc in baseline: continue
+        att = seal_attestations(root).get("B%d" % arc)
+        if att and all(att.get(k) and att[k].strip().lower()[:40] in " ".join(txt.split()).lower() for k in ("banked_identity", "prior_art")): continue
         bad.append(rel)
     return bad
 
@@ -972,7 +984,7 @@ def gate_seal_provenance():
     bad = seal_provenance_problems()
     if bad:
         return False, "sealed without the provenance halves: " + "; ".join(bad[:5])
-    return True, "ok (every seal from B995 on carries the two halves, or is one of the %d frozen before B1464)" % len(SEAL_PROVENANCE_BASELINE)
+    return True, "ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the %d frozen before B1464)" % len(SEAL_PROVENANCE_BASELINE)
 
 
 def gate_seal_ledger_current():

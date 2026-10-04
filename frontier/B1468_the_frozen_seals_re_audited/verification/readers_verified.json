@@ -1,0 +1,296 @@
+[
+ {
+  "file": "frontier/B995_separating_and_rare/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1018_xdist_qualification/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "Aggregate counts must equal the baseline exactly and both parallel runs must agree per-test (junitxml).",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1028_freedom_ledger/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1039_v_valued_residual/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "banked-number gates (per-side h\u00b9 = 1, h\u00b2 = 1 per block; the double's 2/2/1 reproduced before any pairing is read)",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1062_bridge_cell/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "YES",
+  "B_quote": "The 3D theorem exists and is named: Hao, arXiv:2303.01395, Theorem A"
+ },
+ {
+  "file": "frontier/B1102_exact_hypercharge_solve/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1441_the_several_cusped_levels/PREREGISTRATION.md",
+  "A": "YES-UNVERIFIED",
+  "A_quote": "C1, the control, on one-cusped levels: the instrument on M\u2082 and on s961 ... 8 and 72 firing modules, the banked numbers",
+  "B": "YES",
+  "B_quote": "A sweep of main and every lane on 2026-10-01 found no such computation anywhere"
+ },
+ {
+  "file": "frontier/B1000_input_count/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "YES-UNVERIFIED",
+  "B_quote": "The sweep already surfaces the 6d type, the filling slope and P5 completeness, which map onto no incompleteness"
+ },
+ {
+  "file": "frontier/B1019_l149_silver_cascade/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "order 32 per B996's banked check \u2014 recompute + iso type",
+  "B": "YES",
+  "B_quote": "was refuted by the record before sealing, which is precisely why this cell is worth running"
+ },
+ {
+  "file": "frontier/B1029_invariant_ring/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1040_fl4_observer_battery/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1064_cusp_torus_repose/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "YES",
+  "B_quote": "B1034 proved no \"boundary partition structure\" object exists in the corpus"
+ },
+ {
+  "file": "frontier/B1104_fourd_suspension/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1442_the_two_generation_backgrounds/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "the instrument on the one-cusped s961 and M\u2084 with every character of order dividing N (64 and 675): 48 and 256 backgrounds, the banked numbers",
+  "B": "YES",
+  "B_quote": "What has been seen before the seal (disclosed) - B1441 in full: which modules have |I| = 2 on the seventeen"
+ },
+ {
+  "file": "frontier/B1006_lambda2_pslq/PREREGISTRATION.md",
+  "A": "YES-UNVERIFIED",
+  "A_quote": "Positive control \u2014 run on \u03c6 and \u221a5, which are algebraic of degree 2. The instrument must FIND them.",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1024_l153_bits/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1033_generation_adjudication/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "each will be re-run in-arc for the record",
+  "B": "YES",
+  "B_quote": "the owner-ordered sweep's finds \u2014 cited, not evaded"
+ },
+ {
+  "file": "frontier/B1041_theta_leg/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "the c-leg's banked identity passes its own rows",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1065_amendment_controls/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1410_the_point_ledger/PREREGISTRATION.md",
+  "A": "YES-UNVERIFIED",
+  "A_quote": "MUST-RECOVER (positive controls). B750's T1\u2013T8 as refusals, and as points: B287's fiber slope, B1224's CS = 0",
+  "B": "YES",
+  "B_quote": "Three efforts have swept the wrong side of the ledger; this arc builds the other side."
+ },
+ {
+  "file": "frontier/B1444_the_backgrounds_are_ends_of_periodic_curves/PREREGISTRATION.md",
+  "A": "YES-UNVERIFIED",
+  "A_quote": "The control (control_run.txt, levels +LR 2 and +LR 3 through the sealed instrument and reader): P1 40 of 40",
+  "B": "YES",
+  "B_quote": "A sweep of main and every lane on 2026-10-01 found the periodic-orbit fields of the trace map"
+ },
+ {
+  "file": "frontier/B1011_mckay_tensor/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "B856's banked tone set {0, 1/(2\u03c6), 1/2, \u03c6/2, 1} and h(5) = \u22121 recovered as special cases, exactly.",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1025_input_derivability/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "YES-UNVERIFIED",
+  "B_quote": "The derivation sweep \u2014 grep the CODE and the FINDINGS BODIES (P3 step 5; never claim lines)"
+ },
+ {
+  "file": "frontier/B1034_l154_sigma/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1042_trit_morphism/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "YES",
+  "B_quote": "V0 \u2014 prior-art (PM6's question applied to this cell itself, before compute)."
+ },
+ {
+  "file": "frontier/B1066_lane3_nomination/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "the cell re-verifies the two identities symbolically as its entry gate",
+  "B": "YES",
+  "B_quote": "the banked table already answers it (design-time read, 2026-08-13)"
+ },
+ {
+  "file": "frontier/B1434_the_architecture_census/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "Identical to B1432. Record `verification/control_m004_tower.json`.",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1445_the_mass_term_on_the_product_of_two_curves/PREREGISTRATION.md",
+  "A": "YES-UNVERIFIED",
+  "A_quote": "The control, the root's three-fold cover through the sealed instrument and reader: 48 backgrounds",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1015_anchor_declaration/DECLARATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1026_nomination/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1036_mirror_double/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "Banked-number gates on every subspace export** (h\u00b9(M; Sym\u1d50) = 1 must reproduce per block before any dbl number is read",
+  "B": "YES",
+  "B_quote": "verified by artifact: no cell-3 prereg exists on disk"
+ },
+ {
+  "file": "frontier/B1043_triple_assembly/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "It must reproduce the banked h\u00b9(dbl; 27) = 5 with the 2-seam-born/3-glued anatomy",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1071_sealed_listener/PREREGISTRATION_V1_SUPERSEDED.md",
+  "A": "YES",
+  "A_quote": "C3: the derived pair reproduces the banked instrument exactly: M_odd(g) = \u03c7(g)W(g), W(g) \u2208 SU(2), for all 2880 elements",
+  "B": "YES",
+  "B_quote": "Prior art (typed): the icosahedral orbit structure of \u2102P\u00b9 is classical (Klein)."
+ },
+ {
+  "file": "frontier/B1435_the_interaction_census/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "the web seat's correction C02, reproduced",
+  "B": "YES",
+  "B_quote": "No coupling has been computed on any generation-shaped background."
+ },
+ {
+  "file": "frontier/B1450_the_filled_index_on_the_grid/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "16 of 16 reproduced",
+  "B": "YES",
+  "B_quote": "Celoria\u2013Hodgson\u2013Rubinstein, *The 3D index and Dehn filling*, arXiv:2509.09886, read from the PDF on this bench"
+ },
+ {
+  "file": "frontier/B1016_l150_junction/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "recomputed from the banked B936/B928 artifacts, not quoted",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1027_fourth_crossing/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1037_theta_join/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1044_gamma_ledger/PREREGISTRATION.md",
+  "A": "NO",
+  "A_quote": "",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1071_sealed_listener/PREREGISTRATION_V2.md",
+  "A": "YES",
+  "A_quote": "the pipeline reproduces \u03a3\u00b7\u03a3\u2020 = 75\u00b7I (exact) and the \u03b8-grading's exact invariance (B1011 C2) inside itself",
+  "B": "YES",
+  "B_quote": "the corpus anticipation sweep of 2026-08-18 (owner-prompted): B641 is the mechanism's origin"
+ },
+ {
+  "file": "frontier/B1439_the_census_by_slope/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "the instrument on B1434's 68 levels returns B1434's record on every field",
+  "B": "NO",
+  "B_quote": ""
+ },
+ {
+  "file": "frontier/B1451_the_complete_points_on_other_levels/PREREGISTRATION.md",
+  "A": "YES",
+  "A_quote": "class index 0 at 24 of 24 doubly parabolic points. B1446 reproduced.",
+  "B": "NO",
+  "B_quote": ""
+ }
+]

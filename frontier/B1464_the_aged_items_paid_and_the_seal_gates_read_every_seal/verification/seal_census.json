@@ -8,11 +8,14 @@
  "with_markers": 3,
  "with_sections": 3,
  "with_neither": 41,
- "baseline": 41,
+ "attested_with_quotes": 7,
+ "attested_arcs": 6,
+ "baseline_files": 35,
+ "baseline": 35,
  "gates": {
   "seal-provenance": [
    true,
-   "ok (every seal from B995 on carries the two halves, or is one of the 41 frozen before B1464)"
+   "ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the 35 frozen before B1464)"
   ],
   "seal-digests": [
    true,
@@ -27,5 +30,6 @@
    "ok (0 on living pages, baseline 0)"
   ]
  },
+ "neither_arcs_uncovered": [],
  "verdict": "PASS"
 }

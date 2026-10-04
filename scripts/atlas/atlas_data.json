@@ -9607,6 +9607,7 @@
     "B717",
     "L17",
     "L244",
+    "S44",
     "S48",
     "S49"
    ],
@@ -9614,6 +9615,17 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1468": {
+   "slug": "the frozen seals re audited",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
   },
   "B146": {
    "slug": "b145 calibration",

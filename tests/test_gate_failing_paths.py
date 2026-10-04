@@ -228,6 +228,16 @@ def test_pretense_phrases_fails_on_a_claimed_external_verification_and_spares_th
     assert gates.pretense_hits(root=str(tmp_path)) == []
 
 
+def test_seal_provenance_rejects_an_attestation_whose_quote_is_not_in_the_file(tmp_path, monkeypatch):
+    a = tmp_path / "frontier" / "B99998_x"; a.mkdir(parents=True); (a / "PREREGISTRATION.md").write_text("# sealed\n\nwe reproduce the banked count first; the record was swept\n")
+    (tmp_path / "tests").mkdir()
+    import json as _json
+    (tmp_path / "tests" / "SEAL_PROVENANCE_ATTESTATIONS.json").write_text(_json.dumps({"B99998": {"banked_identity": "we reproduce the banked count first", "prior_art": "the record was swept"}}))
+    assert gates.seal_provenance_problems(root=str(tmp_path), baseline=frozenset()) == []
+    (tmp_path / "tests" / "SEAL_PROVENANCE_ATTESTATIONS.json").write_text(_json.dumps({"B99998": {"banked_identity": "a sentence that is not in the file", "prior_art": "the record was swept"}}))
+    assert gates.seal_provenance_problems(root=str(tmp_path), baseline=frozenset()) == ["frontier/B99998_x/PREREGISTRATION.md"]
+
+
 def test_the_registry_is_complete_and_every_named_test_exists():
     reg = json.load(open(os.path.join(ROOT, "tests", "GATE_CONTROLS.json")))
     missing = sorted(g for g in gates.GATES if g not in reg); assert missing == [], missing
