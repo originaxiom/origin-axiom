@@ -1,0 +1,11 @@
+{
+  "commit": "b07498dce75a74e795a52d13e65f8599be15b50d",
+  "replay_grade": "unchanged native producer reproduction, not independent implementation",
+  "files": {
+    "reports/physical_bridge_2026_09_05/joined_background.py": "f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7",
+    "reports/physical_bridge_2026_09_05/cross_branch_positives.py": "57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731"
+  },
+  "additional_function": "cross_branch_positives.root_controls",
+  "expected_native_checks": 60,
+  "physical_hypotheses_not_earned_by_replay": ["OA selects the join and metric", "OA derives the E8 action", "chiral physical spectrum", "parameter-free observables", "quantum theory", "gravity"]
+}
