@@ -1,0 +1,14 @@
+COMMAND LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/charged_l2_bridge_2026_09_27/test_bridge.py reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py reports/common_hypercharge_gate_2026_09_27/test_common_line.py reports/common_hypercharge_gate_2026_09_27/test_common_line_locks.py reports/monomial_matter_locus_2026_09_27/test_matter_locus.py reports/monomial_matter_locus_2026_09_27/test_classification_locks.py reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py reports/monomial_gauge_centralizer_2026_09_27/test_centralizer.py reports/monomial_gauge_centralizer_2026_09_27/test_cubic.py reports/global_quotient_admission_2026_09_27/test_admission.py reports/global_quotient_admission_2026_09_27/test_serialization.py reports/global_quotient_admission_2026_09_27/test_monomial_lifts.py reports/global_quotient_admission_2026_09_27/test_components.py reports/phase_component_matter_2026_10_04/test_matter.py reports/phase_component_interaction_2026_10_04/test_interaction.py reports/phase_component_interaction_2026_10_04/test_boundary_continuation.py
+EVENT {"chunk_id":"072f4b","wall_time_seconds":1.002623132,"session_id":70254,"original_token_count":0}
+
+EVENT {"chunk_id":"c841a7","wall_time_seconds":0.000024861,"exit_code":0,"original_token_count":187}
+........................................................................ [ 33%]
+........................................................................ [ 67%]
+....................................................................     [100%]
+=============================== warnings summary ===============================
+reports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof
+  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+212 passed, 1 warning in 45.19s

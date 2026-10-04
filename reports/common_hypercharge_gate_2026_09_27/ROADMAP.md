@@ -116,9 +116,20 @@ of this operator/domain question.
       one paired E mode at -1; the old all-t negative is NOT extended.
 - [ ] Decide the all-parameter and common-line behavior of these new families
       if a physical candidate needs that classification.
-- [ ] Check first-order continuation of the new paired E mode along the
-      actual neutral direction, distinguishing ordinary from relative-only
-      obstructions; transfer the harmonic construction explicitly if needed.
+- [x] Check first-order continuation of the new paired E mode along the
+      actual neutral direction. Ordinary obstruction zero, fixed-cusp rank
+      one on both charged sides; preserve this distinction.
+- [x] Explicitly transfer the harmonic construction to the new unitary
+      M6 bundle at authored conditional grade, and check its full su(5)
+      gauge Lie algebra rather than import the old enhanced centralizer.
+- [x] Exhibit the non-removable torus class in every ordinary first-order
+      continuation and check zero threshold in the ACTUAL charged operator,
+      not just the neutral sector. Give the conditional domain argument.
+- [ ] Classify the full neutral interior spectrum and its coupling directions
+      before extending the zero overlap of the one known neutral direction.
+- [ ] Audit a justified end/source/geometry completion or a controlled
+      continuum-inclusive reduction; do not replace the charged threshold
+      issue with a pole mass inferred from a cochain rank jump.
 - [ ] For a surviving candidate, compute all five SAME-background charged
       sectors, duals, gauge/Higgs fields, physical operator domains and norms.
 - [ ] Check interactions and anomalies. An index alone does not establish
@@ -137,10 +148,16 @@ combined tests pass on unchanged seals. The
 retains later compact-boundary/source positives at their reading grades.
 
 The [phase matter packet](../phase_component_matter_2026_10_04/FINDINGS.md)
-now passes all 181 combined tests. It preserves the new paired fundamental
-mode without treating three tested parameters as a classification. The next
-bounded question is an interaction test on this same background, not a new
-counting grid or a declaration that chirality has been solved.
+passes all 181 combined tests. It preserves the new paired fundamental
+mode without treating three tested parameters as a classification.
+
+The [first-order and boundary package](../phase_component_interaction_2026_10_04/FINDINGS.md)
+now passes all 212 combined tests. In the declared direction it separates
+zero bulk overlap from nonzero fixed-cusp continuation obstruction, and
+checks zero in the charged essential spectrum. The new harmonic and gauge
+positives remain. This advances a common-model operator/domain audit;
+chirality and a separated physical EFT remain open. The all-parameter,
+common-line and other-component questions are not silently closed by it.
 
 ## Full-goal obligations beyond these packages
 
