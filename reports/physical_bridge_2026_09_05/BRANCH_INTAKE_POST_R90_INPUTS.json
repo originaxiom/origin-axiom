@@ -1,0 +1,17 @@
+{
+  "scope": "Post-R90 read-only intake and static control-flow review, no foreign producer execution",
+  "published_head": "946e13115ed94543fd73dabe873d37408c0cf459",
+  "sources": [
+    {"ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "path": "frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/PREREGISTRATION.md", "sha256": "1f6cdb4277ce76eec15687c69caac46256fb94219350ce90fb755c0669f516be", "reading": "full design personally read; no member executed"},
+    {"ref": "cb09deb04a4b324840bcba21dac6729ffe35e3c6", "path": "frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/verification/spin_swap.py", "sha256": "86e60de705008642aae79e28af18409934cd2e966a869aedd09a866e5ad0c3b8", "reading": "entire producer personally read through EOF; realness dependency not newly read or imported; bounded search and character-flag use inspected statically"},
+    {"ref": "39f36b22ec905f182548bc8b89258ff923a39907", "path": "frontier/B1538_the_puncture_characters/FINDINGS.md", "sha256": "ced5cd3d24054096a5fff6c16da09d1260447e29e5cb9aa9d27ad876bf6db5c7", "reading": "full sealed no-outcome stub personally read; foreign controls/census not reproduced; no live process handle inspected"},
+    {"ref": "39f36b22ec905f182548bc8b89258ff923a39907", "path": "frontier/B1537_genesis_proposals/FINDINGS.md", "sha256": "7fa3ce351d99b93b07a39b81c36acb5aeb1c9f2939a109c63b1ea6d62e996313", "reading": "complete new P2 addendum read from diff; remaining whole updated document not freshly reread; not canonical genesis adoption"},
+    {"ref": "39f36b22ec905f182548bc8b89258ff923a39907", "path": "tests/test_b805_forcing.py", "sha256": "de6e6abd1f76fee4aeee3f237cf989f06a51c27072ff88ee92e59318d2cd673c", "reading": "complete test diff personally read, not entire updated test or producer execution; replacement lock not independently accepted"},
+    {"path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md", "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2", "reading": "full R41 argument personally reread, not current/global equation rerun"},
+    {"path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md", "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685", "reading": "full R76 argument personally reread; old source paper reading credited, no new PDF"}
+  ],
+  "navigation_limit": "An initial broad local rg printed huge JSON lines and truncated; it is navigation only, not a full reading or absence certificate. Later remote Markdown hits were bounded to300 characters for navigation. All selected instruction/source readings above were separately bounded through their declared EOF or complete diff passage.",
+  "physical_goal_achieved": false,
+  "foreign_result_recertified": false,
+  "r90_science_changed": false
+}

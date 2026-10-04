@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-04 branch intake after R90
+
+SM39f36b22 sealed no-outcome stub and P2 operator/domain response read,
+not independently executed or canonical genesis adopted. Main B1474
+full design/producer reviewed statically: first-successful-depth/40-witness
+eta set needs isometry coverage for universal P3, and character-flag/
+numerical witness guards remain. No member refuted or route killed.
+R41/R76 parent-current positives/double-count warning reread before the
+next mixed-field source task. Read grades pinned separately; R90's six
+science files stay unchanged and the full physics goal remains active.
+
 ## 2026-10-04 R90 character register and gauge observable connection
 
 B871's formal group-character register has a standard Haar pairing

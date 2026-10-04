@@ -16985,3 +16985,30 @@ EOF corrected. Authored-only check excludes one raw stdout path and
 passes; full check still exits2 on its seven original lines. No science
 or raw bytes repaired, no baseline/gate-policy waiver. Exact exits and
 hashes retained outside repo and in receipts; not an all-green claim.
+
+## 2026-10-04 post R90 branch intake and spin verdict coverage
+
+All-head fetch after pushed publication946e13115 received SM39f36b22.
+Its full B1538 SEALED/no-outcome findings, complete new P2 addendum and
+B805 test diff personally read, not executed. P2's named operator/domain
+qualification credits R89; canonical main still cb09deb04/v1.10. Foreign
+control counts/PartL start are reported, not a verified live-handle wait
+or census result. B805 metadata-lock replacement not accepted by reading.
+
+Main B1474 entire preregistration and spin_swap.py read through EOF,
+no import/run. Source control flow limits eta set to first successful
+depth and40 solutions, so universal P3 needs actual isometry coverage.
+Character-validity flag must reject/halt on false; none observed here.
+Exact finite-covolume conjugacy would earn automorphism by index1,
+so relator-only comment is not a reason for a false route kill. Numerical
+residual/lift evidence and enumeration are separate duties. Sender relay
+OPEN, no FIX/SWAP member or physical chirality refuted.
+
+R41 and R76 complete authored proofs reread: actual structure commutators
+already enter the moment current, not free independent new sources.
+Next inspect genuinely mixed fields/current with both own variations and
+common physical fermion domain; preserve alternative gauge/hypercharge
+frames until checked. Broad rg navigation initially truncated large JSON
+lines; selected source reads were separate and complete as declared.
+BRANCH_INTAKE_POST_R90_INPUTS.json pins grades; R90 science unchanged.
+Full parameter-free SM/TOE active and unachieved.
