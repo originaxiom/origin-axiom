@@ -1,0 +1,81 @@
+{
+  "scope": "R92 exact synthetic affine-action and integer central-extension audit; foreign science reading grade only",
+  "sources": [
+    {
+      "ref": "37bde38e2c6331a6a6b884620865e80e9cea7bac",
+      "path": "frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/FINDINGS.md",
+      "bytes": 8844,
+      "sha256": "e0a2563582c9d89846f4fe9419b701799fbd0d8dff384b7237a47af5fed1b451",
+      "reading": "Complete source personally read; reading grade only, no foreign producer execution"
+    },
+    {
+      "ref": "37bde38e2c6331a6a6b884620865e80e9cea7bac",
+      "path": "frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/verification/spin_swap.py",
+      "bytes": 7273,
+      "sha256": "f194e2f86c82a0637883680aa5dc187d1e2d9590fc859191f30c76430084664f",
+      "reading": "Complete source personally read; reading grade only, no foreign producer execution"
+    },
+    {
+      "ref": "37bde38e2c6331a6a6b884620865e80e9cea7bac",
+      "path": "frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/verification/preserving_characters.py",
+      "bytes": 4784,
+      "sha256": "c4056ec09dab9eae0c1e06f1469fb6d4296b64c16c7cf426e004ef42917eb406",
+      "reading": "Complete source personally read; reading grade only, no foreign producer execution"
+    },
+    {
+      "ref": "37bde38e2c6331a6a6b884620865e80e9cea7bac",
+      "path": "frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/verification/close_k.py",
+      "bytes": 2581,
+      "sha256": "843e2caee7cecea4fa72b3d0e8b79c41a980cd63de02f5538c90996b5e35dc48",
+      "reading": "Complete source personally read; reading grade only, no foreign producer execution"
+    },
+    {
+      "ref": "37bde38e2c6331a6a6b884620865e80e9cea7bac",
+      "path": "frontier/B1475_the_spin_swap_phase_1b_does_the_swap_carry_a_quantity/PREREGISTRATION.md",
+      "bytes": 6198,
+      "sha256": "1d03d4307c4ce327d66941a8434d59b9f5056285e4a85182042522d9450b9069",
+      "reading": "Complete source personally read; reading grade only, no foreign producer execution"
+    },
+    {
+      "ref": "6fdf6d692936c888d28c6dba33f0f73bab219828",
+      "path": "SM_TO_CC_AND_CODEX_2026-10-04_THE_FINITE_COVERS.md",
+      "bytes": 2904,
+      "sha256": "d41c5cc101407d27699bcd649064e3912f6bceba843f495741ae25afe6cb2049",
+      "reading": "Complete source personally read; reading grade only, no foreign producer execution"
+    },
+    {
+      "ref": "6fdf6d692936c888d28c6dba33f0f73bab219828",
+      "path": "docs/dossiers/golden_covers_2026-10-04/DOSSIER_golden_covers_and_room_for_three.md",
+      "bytes": 27984,
+      "sha256": "dc5aa3092dca049788054c7b0aa7af52a685f8f16e9bf0feb40ee230423a139e",
+      "reading": "Complete source personally read; reading grade only, no foreign producer execution"
+    },
+    {
+      "ref": "6fdf6d692936c888d28c6dba33f0f73bab219828",
+      "path": "docs/dossiers/golden_covers_2026-10-04/gc_room_three_n45.py",
+      "bytes": 7584,
+      "sha256": "d4d4804fbefca01eb7304ccaa0165c8dea9963c92f83ae99c7614af136cc40f8",
+      "reading": "Complete producer personally read; dependencies not freshly read/imported; no execution"
+    },
+    {
+      "ref": "6fdf6d692936c888d28c6dba33f0f73bab219828",
+      "path": "frontier/B1538_the_puncture_characters/FINDINGS.md",
+      "bytes": 6651,
+      "sha256": "ced5cd3d24054096a5fff6c16da09d1260447e29e5cb9aa9d27ad876bf6db5c7",
+      "reading": "Complete sealed no-outcome findings personally read; no foreign execution"
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://marc-culler.info/static/home/papers/LiftingReps.pdf",
+      "title": "Marc Culler, Lifting Representations to Covering Groups (1986)",
+      "sha256": "6747087f105e38f6a68ffa3ca46da7692b5feaad0fa2b5a796c769a370d2bd9b",
+      "bytes": 386653,
+      "reading": "All seven pages personally read in full extracted text and all seven rendered pages visually inspected; PDF not republished"
+    }
+  ],
+  "navigation_limit": "Initial combined tool output truncated B1475 preregistration; that complete file was separately reread. Wrong guessed B1475 path and branch-local prior_work.py path resolved by inventories, not interpreted as absences. The main/source blobs are immutable pins, not a current-live-process check. B1536 full producer/dependency graph not read or executed. Dossier first170 lines were personally read in prior goal turn, remaining lines through EOF read this turn. No branch or literature absence is claimed.",
+  "actual_manifold_table_recomputed": false,
+  "foreign_result_recertified": false,
+  "physical_goal_achieved": false
+}

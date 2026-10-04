@@ -4,6 +4,7 @@
 
 | H# | hint | type | noticed | state | flags | disposition |
 |---|---|---|---|---|---|---|
+| H-PB-R92 | Does ordinary multiplication of spin defects recover the true affine symmetry orbit, and is an ordinary parent SL2 lift being confused with its central extension? | QUESTION | 2026-10-04 | PROMOTED | supplied-action/type and coverage controls | Registered path-local R92 exact decision-to-test in AFFINE_SPIN_DESIGN.md before execution; not an actual manifold verdict, new global H allocation or physical chirality claim. |
 | H-PB-R91 | Can actual mixed E8 fields carry the noncentral flag current while preserving a transported color/weak/hypercharge frame? | QUESTION | 2026-10-04 | PROMOTED | supplied-parent; frame and complete-action duties | Path-local R91 test executed after corrected seal; algebraic current shape passes, stationary solution not constructed. Full result MIXED_CURRENT.md, not a new global H-number or physical identification. |
 
 The **generative counterpart** to `../papers/VALIDATION_LEDGER.md`. It exists because the repo had a structural

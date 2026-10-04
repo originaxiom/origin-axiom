@@ -1,5 +1,17 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October4 R92 decision-to-test H-PB-R92 REGISTERED, NOT EXECUTED at this
+design stage: exact supplied affine actions test spin-defect closure,
+coverage and both opposite erroneous-verdict controls; integer order-two/
+order-three parent-lift comparison. AFFINE_SPIN_DESIGN.md under physical
+bridge. B1475 already registers affine fixed sets and is credited; no
+member table is refuted, no ordinary parent lift is a central-extension
+kill. SM degree45 capacity positive is received at READING grade only,
+reported class remains(0,0), not a global finite-cover negative.
+This prerequisite does not replace R91's constructive spatial mixed
+fields/generated register and source/action/common physical-domain duty.
+Full parameter-free Standard Model and full TOE goal remains ACTIVE.
+
 October4 R91 decision-to-test H-PB-R91 EXECUTED after corrected seal
 da86db5e7: existing mixed E8 current shape, frame map and full gauge/
 bare-action cost tested;40 exact/359 reference/26 tests pass. Original

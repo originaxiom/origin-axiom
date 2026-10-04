@@ -1957,3 +1957,20 @@ coverage extended. Push/server confirmation again BEFORE rerun.
 | `reports/physical_bridge_2026_09_05/mixed_current_reference.py` | `b5de0f22cd583e88c0ba5f81fb0eb5e9ae936cafe9eec796fa0132261f7f4c83` |
 | `tests/test_physical_bridge_mixed_current.py` | `7889d37c8d691b718f220df79652a36532954e61ecf05932e0015885424a5f47` |
 | `reports/physical_bridge_2026_09_05/MIXED_CURRENT_CORRECTION.md` | `8b06fa6e11c0c736371eac86ef9a9d4e1a1b722a304c4eebc2d685daa42099a4` |
+
+## Affine spin pre execution seal October 4 2026
+
+R92 supplied affine-action and central-extension controls. Science not
+yet executed at this registration; commit/push/server-byte confirmation
+is required before import/collection. Not an actual member table,
+physical selection or main-bank/full-suite certificate. B1475's existing
+affine equation and SM degree45 reading-grade positive are retained.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/AFFINE_SPIN_DESIGN.md` | `3f97f397e86eab7768cbe22c82e5fc35b918a0dacfc2739095a9a404d593a03b` |
+| `reports/physical_bridge_2026_09_05/AFFINE_SPIN_PROOF.md` | `df152ffaa0393a7020912b19bfab52c36c581b128bdfcc8afd29f62e3ab1611b` |
+| `reports/physical_bridge_2026_09_05/AFFINE_SPIN_INPUTS.json` | `975499c2cd21aa630716ab6bbc9d730e5e0ec48e3e757c38e449e503d77878b5` |
+| `reports/physical_bridge_2026_09_05/affine_spin.py` | `32563d67c3d90b4f91717d3709190a242cee3f16803ae407bcc0989da38aade7` |
+| `reports/physical_bridge_2026_09_05/affine_spin_reference.py` | `e68ba06277c4aaadcc7612439f3f56b86d11b35f3811ab4a0d972003024d7b6a` |
+| `tests/test_physical_bridge_affine_spin.py` | `3bb05b67fc37f9f02967aca57f68bf6e58065a4804bb7febaeb80ffbea7e4236` |
