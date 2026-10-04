@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "science_seal": "19b98f5eeb10a43889728f70061db46d5163086d",
+  "structural_post_native_seal": "20259c3f3c1a5f186a3aa3d835663e3993cdfeaa",
+  "latest_branch_replay_seal": "e3e29cbd1cee36716f64acf2932df6c781c4675e",
+  "scope": "Six boundary tensor channels on four silver candidates with split controls; conditional dimension obstruction; unchanged R85 and R86 algebra replays",
+  "environment": {"python": "3.12.1", "sympy": "1.14.0", "locale": "C"},
+  "command_conventions": {
+    "prefix": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12",
+    "pipeline": "set -o pipefail; command 2>&1 | tee new_capture",
+    "isolated_snapshot": "Exact Git archive of listed foreign source paths, not an edited producer; host temporary path omitted"
+  },
+  "native": {
+    "command_suffix": "reports/silver_boundary_tensors_2026_10_04/verify.py",
+    "capture": "NATIVE_FIRST.jsonl",
+    "exit_code": 0,
+    "controls": "PASS",
+    "members": 4,
+    "terminal_status": "PASS",
+    "sha256": "81dd4422ba064aa7c6c7d3e16492b1fea8333d1e84d7e86731b366132a68f2c7"
+  },
+  "structural": {
+    "command_suffix": "reports/silver_boundary_tensors_2026_10_04/structural.py",
+    "capture": "STRUCTURAL_FIRST.jsonl",
+    "exit_code": 0,
+    "controls": "PASS",
+    "members": 4,
+    "terminal_status": "PASS",
+    "design_written_after_original_native": true,
+    "sealed_before_own_first_execution": true,
+    "sha256": "c0b61f394dc95d755d9f9fa31f73594abe6edf8ecb5e362b5c16490c6c3596e7"
+  },
+  "focused": {
+    "command_suffix": "-m pytest -q -p no:cacheprovider --import-mode=importlib reports/silver_boundary_tensors_2026_10_04/test_verify.py reports/silver_boundary_tensors_2026_10_04/test_structural.py reports/silver_boundary_complex_2026_10_04/test_verify.py",
+    "capture": "FOCUSED_FIRST.txt",
+    "exit_code": 0,
+    "passed": 17,
+    "tensor_tests": 6,
+    "structural_tests": 4,
+    "retained_tests": 7,
+    "reported_seconds": 201.01,
+    "sha256": "356e9b5e8bd0f6d008e986961b52d58d49d9d3db90747c0d27ee67b9e1cac117"
+  },
+  "cross_seat_replays": [
+    {
+      "command_suffix": "<isolated-snapshot>/reports/physical_bridge_2026_09_05/joined_background.py",
+      "source_snapshot": "b07498dce75a74e795a52d13e65f8599be15b50d",
+      "capture": "R85_NATIVE_FIRST.jsonl",
+      "exit_code": 0,
+      "passed": 60,
+      "total": 60,
+      "sha256": "a2e51029cad28bfd243852b1d9e87eeb0ade0cead1e6ca756fd45f4bfcec057c"
+    },
+    {
+      "entrypoint": "cross_branch_positives.root_controls() from pinned isolated R75 source; assert all returned checks",
+      "capture": "R75_ROOTS_FIRST.jsonl",
+      "exit_code": 0,
+      "passed": 12,
+      "total": 12,
+      "sha256": "d521b06e232c45d1c29dfa4eb9d79e75e4b48e5a2433a30532f53eb3c333f74a"
+    },
+    {
+      "command_suffix": "<isolated-snapshot>/reports/physical_bridge_2026_09_05/joined_background_reference.py reports/silver_boundary_tensors_2026_10_04/R85_NATIVE_FIRST.jsonl",
+      "capture": "R85_MODULAR_FIRST.jsonl",
+      "exit_code": 0,
+      "passed": 75,
+      "total": 75,
+      "prime_roots": [[1031, 695], [1033, 162]],
+      "sha256": "1f297e21078fd542122acf444c37d801ca2c3a57a598ef22d9325c2a7b4282c2"
+    },
+    {
+      "command_suffix": "<isolated-snapshot>/reports/physical_bridge_2026_09_05/gluing_freedom.py",
+      "source_snapshot": "c0f162fdcb3197d2290e1357f91cc12c8507650d",
+      "capture": "R86_NATIVE_FIRST.jsonl",
+      "exit_code": 0,
+      "passed": 84,
+      "total": 84,
+      "sha256": "9142d964e2def3da42b5f797a92e5473cfdad1d62454de7a623819a0e5ae1d27",
+      "byte_identical_to_published_successful_capture": true
+    },
+    {
+      "command_suffix": "<isolated-snapshot>/reports/physical_bridge_2026_09_05/gluing_freedom_reference.py reports/silver_boundary_tensors_2026_10_04/R86_NATIVE_FIRST.jsonl",
+      "capture": "R86_MODULAR_FIRST.jsonl",
+      "exit_code": 0,
+      "passed": 141,
+      "total": 141,
+      "prime_roots": [[1031, 695], [1033, 162]],
+      "sha256": "1010eba6f12fbe0d9296e260446709c66ff17276248af1b4f9407869d25bde35",
+      "byte_identical_to_published_successful_capture": true
+    }
+  ],
+  "seal_checks": {
+    "original_scientific_artifacts": 6,
+    "structural_artifacts": 4,
+    "latest_replay_artifacts": 2,
+    "original_input_rows": 7,
+    "structural_input_rows": 3,
+    "foreign_source_files": 5,
+    "all_checked_hashes_unchanged": true,
+    "source_edits_during_runs": false,
+    "science_repairs_after_execution": false
+  },
+  "fetch": {
+    "exit_code": 0,
+    "method": "Explicit all-head fetch with HTTPS transport rewrite; no checkout or merge",
+    "branch_count_excluding_HEAD_alias": 15,
+    "heads": {
+      "art/camper-van-bar": "b3745696c11624ee60b709069e743d5f8de98f2e",
+      "audit/b775-braver-questions": "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+      "audit/physical-bridge-2026-09-05": "c0f162fdcb3197d2290e1357f91cc12c8507650d",
+      "claude/determined-hopper-t1cmii": "7cda35aa468cdb0ab2886e379b13ff31130be460",
+      "claude/magical-wright-vwrmtt": "0043be2b95a51048b3a664789ede241497558e79",
+      "claude/new-session-qor5up": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+      "claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "claude/paper-verification-ufp0zn": "5dde7b3efe59ca2055de6b84395416d173b2e290",
+      "claude/physics-seat-evaluation-8dkbrl": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+      "claude/standard-model-derivation-0qt6ao": "e41609cfd6f4438c7d394bf6b0d0da5faaa0432b",
+      "codex/seat-r001": "f7a49536bc45bebc1557d3d081b6b3664a7c2199",
+      "main": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+      "paper/structure-genesis-first": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4",
+      "sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+    },
+    "older_unchanged_heads_line_by_line_reread": false,
+    "whole_repository_absence_claim": false
+  },
+  "reading": {
+    "R59": "Full parent tensor report and design; no foreign tensor producer replay",
+    "R61_R62": "Full fermion-end and cone-interaction reports, with prior full-parent dictionary scope retained",
+    "R85": "Full report, proof, native producer and R75 source; relevant primary theorem and hypotheses personally rechecked; not full receipt byte inspection",
+    "R86": "Full report, proof, design, exact producer, modular verifier and retained modular library; receipt metadata and successful terminal summaries inspected",
+    "Wu_Zhang": "HTML 2109.01776v1 Theorem 1.3, Corollary 1.1, compact Example 2.1 and stability definitions; not a new full-paper reading"
+  },
+  "navigation_notes": [
+    "A search included a nonexistent .agents directory and exited 2; no absence claim followed",
+    "Several broad displays truncated; source files were narrowed or parsed into compact records; full native captures are preserved",
+    "The first R85 archive extraction emitted a locale warning but all source hashes matched; the later extraction used the C locale"
+  ],
+  "certification": {
+    "same_foreign_implementations_replayed": true,
+    "independently_authored_modular_path_by_this_seat": false,
+    "independent_analytic_review": false,
+    "full_repository_suite": false,
+    "physical_boundary_domain": false,
+    "physical_chirality": false,
+    "parameter_free_SM": false,
+    "full_theory": false,
+    "shared_bank_number": false,
+    "pushed": false,
+    "merged": false
+  },
+  "preserved_unrelated_path": "reports/parent_mirror_matching_2026_09_25/"
+}

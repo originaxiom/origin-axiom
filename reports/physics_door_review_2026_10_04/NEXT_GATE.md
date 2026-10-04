@@ -13,7 +13,8 @@ nonzero spin contrast, while an unfixed torsion unit can create a nonzero
 raw result. Preserve the spin route with a corrected diagnostic and the
 full affine action; do not infer physical chirality or refute it from that
 scalar test. The same-action/domain priority below is unchanged. R85 and
-B1536 still have no completed outcome in that snapshot.
+B1536 had no completed outcome in that earlier snapshot; R85 has since
+been published and reproduced, as recorded below.
 
 The later [cusp boundary test](../silver_cusp_polarization_2026_10_04/FINDINGS.md)
 passes its exact native run and 13 focused/regression tests. The uniform
@@ -36,7 +37,13 @@ counter-control prevents promoting that finite jump to a no-go for full
 physical domains. Retain full boundary modes in the next calculation.
 The complement and its positive cochain metric are supplied choices, not
 the desired physical law. The [integration assessment](../silver_global_boundary_2026_10_04/INTEGRATION_ASSESSMENT.md)
-refreshes all 15 branch heads and preserves the pending status of R85/B1536.
+records that earlier 15-head snapshot. The
+[latest tensor and branch packet](../silver_boundary_tensors_2026_10_04/FINDINGS.md)
+supersedes its R85 status: R85's exact and modular algebra now reproduces,
+as does newly published R86's neutral gluing result at physical c0f162fdc.
+The closed representative remains paired; its bare action leaves relative
+freedom. B1536 has no published outcome in the previously inspected packet
+at the unchanged SM head. These grades do not certify a physical spectrum.
 
 ## Candidate and alternative
 
@@ -116,9 +123,16 @@ while a reversed endpoint completion gives (0,-1). Both have total
 odd-minus-even (0,-1). All 13 focused tests pass. This retains the original
 algebraic positive while exposing its nonzero fundamental H0/H3; it is
 neither a physical-domain derivation nor a universal chirality kill.
-Next audit the actual trace spaces against the existing R59 nonlinear
-tensor maps and R61 full-parent reality/variation duties. One common
-interacting boundary law must replace independent favorable sector choices.
+The [tensor compatibility test](../silver_boundary_tensors_2026_10_04/FINDINGS.md)
+now checks six existing R59 channels. All chosen complements fail the
+declared A0=H0, A1=L, A2=0 trace-algebra condition, including split controls.
+A separately sealed argument excludes every 1/3 exterior subspace pair
+in the two m136 cases under those assumptions, but does not exclude m135.
+Seventeen focused tests pass. These are not universal physical-domain
+requirements: R61's full-parent reality and variation duties remain.
+Next derive whether the actual physical end law admits these degree-zero
+channels and degree-two outputs, then recompute its full coupled spectrum.
+One common interacting boundary law must replace favorable sector choices.
 
 The [full-degree and Hessian follow-up](../free_boundary_completion_2026_10_04/FINDINGS.md)
 now supplies two additional controls, not a completed physical domain:

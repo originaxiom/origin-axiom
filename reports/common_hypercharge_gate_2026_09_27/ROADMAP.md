@@ -218,8 +218,9 @@ All seven focused tests pass after one disclosed trivial-control repair.
 The physical fermion domain must be derived rather than chosen by the table.
 The [last branch update](../silver_boundary_admission_2026_10_04/LATEST_BRANCH_UPDATE.md)
 records newly published SM B1529 and still-pending B1536/R85 work at their
-actual evidence grades. R85's distinct joined-background admission test
-should not be duplicated or treated as already successful.
+actual evidence grades at that earlier snapshot. R85 has subsequently
+been published and replayed; see the current tensor and branch update below.
+Its different closed model must not supply the silver candidate's spectrum.
 
 The [free-boundary completion audit](../free_boundary_completion_2026_10_04/FINDINGS.md)
 adds an authored conditional Hessian result and the complete silver form-degree
@@ -260,8 +261,9 @@ not a physical law. A post-run consequence of B1509 Proposition E identifies
 why peripheral data alone cannot distinguish these split/nonsplit exterior
 counts. This sharpens, rather than completes, the same-action/end-law task.
 The [updated branch review](../silver_cusp_polarization_2026_10_04/BRANCH_REVIEW.md)
-keeps the spin diagnostic, live cover work and pending dual join at their
-actual evidence grades. No new full-goal checkbox is discharged.
+keeps the spin diagnostic, cover work and then-pending dual join at that
+snapshot's evidence grades. The later update below records the join's
+published outcome. No new full-goal checkbox is discharged.
 
 The [global complement packet](../silver_global_boundary_2026_10_04/FINDINGS.md)
 constructs B1509's complement on those same four candidates and recovers
@@ -296,6 +298,28 @@ a mathematical completion, not an analytic physical domain. Keep H0/H3
 and the full-parent field dictionary when testing the same-action end law,
 including coupled sector boundary variations and nonlinear tensor maps.
 No full-goal checkbox is discharged by the finite counts alone.
+
+The [tensor compatibility and newest branch packet](../silver_boundary_tensors_2026_10_04/FINDINGS.md)
+now passes 17 focused tests. The chosen silver complements fail six-channel
+closure somewhere in every candidate and split control for the declared
+A0=H0, A1=L, A2=0 prescription. The exact invariant-channel argument rules
+out any 1/3 exterior-space pairing for the two m136 cases within that
+category; it explicitly does not extend to m135 or arbitrary physical end
+laws. The linear interior positive remains. Derive the actual allowed
+degree-zero channels and degree-two outputs from the same full-parent
+boundary variation before choosing a replacement domain.
+
+All 15 remote heads were refreshed again: main cb09deb04 and SM e41609cfd
+are unchanged; physical bridge is c0f162fdc. R85's 60 exact predicates and
+75 modular witness checks reproduce, with its 12 primitive root controls.
+R86's newly published 84 exact predicates and 141 modular witness checks
+also reproduce byte-for-byte. The closed join has paired charged counts
+and at least four neutral End0 classes, with a relative family left flat
+by the bare potential under the conditional admission theorem. These are
+useful same-model positives, not an OA-selected join, full-parent trace
+invariant, chiral spectrum or derived SM vacuum. Do not duplicate the
+source's stated next full-parent invariant test. Keep the closed join as
+a comparator rather than silently transplanting its result onto silver.
 
 - [ ] A declared spacetime/dynamical interpretation and common action.
 - [ ] Consistent quantum theory and complete anomaly bookkeeping.
