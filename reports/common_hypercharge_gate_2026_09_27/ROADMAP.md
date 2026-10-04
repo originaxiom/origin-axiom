@@ -263,6 +263,17 @@ The [updated branch review](../silver_cusp_polarization_2026_10_04/BRANCH_REVIEW
 keeps the spin diagnostic, live cover work and pending dual join at their
 actual evidence grades. No new full-goal checkbox is discharged.
 
+The [global complement packet](../silver_global_boundary_2026_10_04/FINDINGS.md)
+constructs B1509's complement on those same four candidates and recovers
+both individual interior dimensions, with 12 passing focused tests. Its
+exterior projector has distance one from its prescribed split projector
+at every nonzero amplitude in the fixed supplied metric. The full-projector
+counter-control passes too: this finite jump does not exclude a continuous
+physical completion. The [new integration assessment](../silver_global_boundary_2026_10_04/INTEGRATION_ASSESSMENT.md)
+keeps the priority on deriving the full common action and charged domain,
+not fitting a complement to a count. No physical chirality checkbox is
+discharged by this additional cohomological result.
+
 - [ ] A declared spacetime/dynamical interpretation and common action.
 - [ ] Consistent quantum theory and complete anomaly bookkeeping.
 - [ ] Gravitational dynamics, not merely a spin-two representation slot.

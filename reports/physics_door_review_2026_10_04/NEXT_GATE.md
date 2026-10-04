@@ -28,6 +28,16 @@ to test, not derived laws. The
 [fresh branch review](../silver_cusp_polarization_2026_10_04/BRANCH_REVIEW.md)
 records the reading grades and still-current diagnostic problems.
 
+The [global complement test](../silver_global_boundary_2026_10_04/FINDINGS.md)
+now recovers the interior pair on the actual four candidates using B1509's
+existing construction. Twelve focused tests pass on the unchanged seal.
+The exterior complement projector jumps at the split limit; a sealed
+counter-control prevents promoting that finite jump to a no-go for full
+physical domains. Retain full boundary modes in the next calculation.
+The complement and its positive cochain metric are supplied choices, not
+the desired physical law. The [integration assessment](../silver_global_boundary_2026_10_04/INTEGRATION_ASSESSMENT.md)
+refreshes all 15 branch heads and preserves the pending status of R85/B1536.
+
 ## Candidate and alternative
 
 Start with an existing ordered nonsplit rank-five positive, not a newly

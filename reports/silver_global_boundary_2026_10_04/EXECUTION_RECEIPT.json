@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-04",
+  "branch": "audit/fork-2026-09-20",
+  "science_seal": "140ed05f2120c5355158dbf7529d00e6f7322561",
+  "task_scope": "Exact global cohomological complement and latest branch integration review, not a physical-domain derivation",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "locale": "C"
+  },
+  "native": {
+    "producer": "reports/silver_global_boundary_2026_10_04/verify.py",
+    "capture": "reports/silver_global_boundary_2026_10_04/NATIVE_FIRST.jsonl",
+    "exit_code": 0,
+    "controls": "PASS",
+    "members": 4,
+    "terminal_status": "PASS",
+    "scope": "global cohomological complements, not physical domains",
+    "elapsed_seconds": null,
+    "repair_after_seal": false
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -q -p no:cacheprovider --import-mode=importlib reports/silver_global_boundary_2026_10_04/test_verify.py reports/silver_cusp_polarization_2026_10_04/test_verify.py",
+    "pipefail": true,
+    "capture": "reports/silver_global_boundary_2026_10_04/FOCUSED_FIRST.txt",
+    "exit_code": 0,
+    "passed": 12,
+    "new_tests": 6,
+    "retained_tests": 6,
+    "reported_seconds": 119.56
+  },
+  "seal_checks": {
+    "scientific_artifact_entries": 5,
+    "input_entries": 5,
+    "all_passed": true,
+    "source_edits_during_focused_suite": false
+  },
+  "fetch": {
+    "command": "git -c url.https://github.com/.insteadOf=git@github-originaxiom: fetch git@github-originaxiom:originaxiom/origin-axiom.git '+refs/heads/*:refs/remotes/origin/*'",
+    "exit_code": 0,
+    "output": "",
+    "unchanged_from_previous_snapshot": true,
+    "public_branches": 15,
+    "HEAD_aliases": 1,
+    "heads": {
+      "origin/HEAD": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+      "origin/art/camper-van-bar": "b3745696c11624ee60b709069e743d5f8de98f2e",
+      "origin/audit/b775-braver-questions": "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+      "origin/audit/physical-bridge-2026-09-05": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469",
+      "origin/claude/determined-hopper-t1cmii": "7cda35aa468cdb0ab2886e379b13ff31130be460",
+      "origin/claude/magical-wright-vwrmtt": "0043be2b95a51048b3a664789ede241497558e79",
+      "origin/claude/new-session-qor5up": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+      "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "origin/claude/paper-verification-ufp0zn": "5dde7b3efe59ca2055de6b84395416d173b2e290",
+      "origin/claude/physics-seat-evaluation-8dkbrl": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+      "origin/claude/standard-model-derivation-0qt6ao": "e41609cfd6f4438c7d394bf6b0d0da5faaa0432b",
+      "origin/codex/seat-r001": "f7a49536bc45bebc1557d3d081b6b3664a7c2199",
+      "origin/main": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+      "origin/paper/structure-genesis-first": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4",
+      "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+    }
+  },
+  "new_reading_scope": {
+    "B1530": "Targeted full sections 4 through end and earlier body passages; not a new full census replay",
+    "B1509": "Proposition E and complement consequence; surrounding scope and later lead notes",
+    "B1535": "Cap, corollaries and corrected Lemma W; not its full census execution",
+    "B1536": "Complete current FINDINGS status stub",
+    "B1537": "Complete FINDINGS",
+    "R81": "Complete DIRICHLET_ADMISSION.md; prior theorem-application custody retained",
+    "R85": "Complete current JOINED_BACKGROUND_PROOF.md and ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md; not executed",
+    "B1474": "Complete current spin_swap.py; not executed",
+    "other_branches": "Inventoried, previous review grades retained; no new whole-repository absence claim"
+  },
+  "auxiliary_failures": [
+    {
+      "check": "hash manifests with inherited C.UTF-8 locale",
+      "exit_code": 9,
+      "effect": "Perl locale panic before checks; rerun unchanged file checks with LC_ALL=C succeeded"
+    },
+    {
+      "check": "read-only process inventory",
+      "exit_code": 1,
+      "effect": "ps sandbox-denied; continued through the existing execution session, no permission bypass"
+    },
+    {
+      "check": "skill reference lookup",
+      "exit_code": 1,
+      "effect": "Initially guessed references/writing_quality.md; corrected to the SKILL.md-linked writing_quality.md and read it completely"
+    },
+    {
+      "check": "broad source displays",
+      "effect": "Some displays truncated; narrowed follow-up reads; no absence or exhaustive-reading inference"
+    }
+  ],
+  "source_read": {
+    "url": "https://arxiv.org/html/2012.03329v1",
+    "sections": "Introduction through Theorem 1.2 and Remark 1",
+    "scope": "Full Calderon continuity hypotheses, not applied to the finite cohomological projector; no full-paper reading claim"
+  },
+  "recorded_hashes": {
+    "reports/silver_global_boundary_2026_10_04/NATIVE_FIRST.jsonl": "27078b47c5951d39efbe058319cc7f46cef5063280541d0d3c79d20613ee5ee0",
+    "reports/silver_global_boundary_2026_10_04/FOCUSED_FIRST.txt": "58fb2b6a71244e22b73b5e68fc899999f6e414cd526b18d1f9b88791bfddc34f",
+    "reports/silver_global_boundary_2026_10_04/FINDINGS.md": "faa00a526e253735406c9335e450195193cc92ecab8081e3d0b4c0c748140110",
+    "reports/silver_global_boundary_2026_10_04/INTEGRATION_ASSESSMENT.md": "8292c001c19de967354ce02f1391453936135a17ab00a7177a105ad39916e373"
+  },
+  "certification": {
+    "full_repository_suite": false,
+    "foreign_censuses_rerun": false,
+    "independent_analytic_review": false,
+    "physical_chirality": false,
+    "parameter_free_SM": false,
+    "full_physical_theory": false,
+    "shared_bank_number": false,
+    "pushed": false,
+    "merged": false
+  },
+  "preserved_unrelated_path": "reports/parent_mirror_matching_2026_09_25/"
+}
