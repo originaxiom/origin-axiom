@@ -1,0 +1,709 @@
+[
+ {
+  "id": "B675",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B695",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B55",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B78",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B94",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B122",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B137",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B187",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B208",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B236",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B253",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B266",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B293",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B312",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B346",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B358",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B381",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B410",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B451",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B467",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B537",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B560",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B586",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B598",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B651",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B696",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B717",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B764",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B776",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B794",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B61",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B79",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B95",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B109",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B123",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B138",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B152",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B169",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B209",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B224",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B238",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B254",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B267",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B314",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B347",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B359",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B382",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B431",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B453",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B469",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B496",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B522",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B538",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B587",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B599",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B613",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B637",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B795",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B63",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B80",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B124",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B153",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B210",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B226",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B240",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B255",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B268",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B315",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B348",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B363",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B384",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B434",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B454",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B470",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B497",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B524",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B540",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B564",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B588",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B638",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B680",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B700",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B739",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B753",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B766",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B780",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B797",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B839",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B13",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B64",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B112",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B125",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B141",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B155",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B171",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B211",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B227",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B256",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B316",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B366",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B386",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ }
+]

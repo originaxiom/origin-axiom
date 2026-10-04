@@ -1,0 +1,464 @@
+[
+{
+"id": "B281",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "text says character variety does not single out E6; unforced"
+},
+{
+"id": "B282",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "generic to any hyperbolic knot; nothing selects the object"
+},
+{
+"id": "B284",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "generic smooth point; nothing distinguishes 2T component"
+},
+{
+"id": "B308",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "E6 fixes coupling but not texture; not forced"
+},
+{
+"id": "B322",
+"verdict": "DEMOTE",
+"kind": "OTHER:null-test-chance",
+"why": "chance-level match against data, no named non-selection"
+},
+{
+"id": "B329",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "sigma-stable embeddings force n1=n2; symmetry-forced balance"
+},
+{
+"id": "B330",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "states no forced choice exists"
+},
+{
+"id": "B331",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "conjugate to inverse forces real character and n1=n2"
+},
+{
+"id": "B333",
+"verdict": "DEMOTE",
+"kind": "OTHER:null-no-value",
+"why": "arithmetic generic but kill is carries-no-value null"
+},
+{
+"id": "B349",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "no member marked, no forced choice"
+},
+{
+"id": "B350",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "no forced choice; symmetrizable Galois orbit"
+},
+{
+"id": "B355",
+"verdict": "DEMOTE",
+"kind": "OTHER:reality-no-mechanism",
+"why": "exactly real products; no symmetry partner named"
+},
+{
+"id": "B369",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "seam readout identically null"
+},
+{
+"id": "B395",
+"verdict": "DEMOTE",
+"kind": "OTHER:premise-false",
+"why": "cell-wise sigma-law fails; mirror summation-emergent, no pairing named"
+},
+{
+"id": "B398",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "banks as numerology-class"
+},
+{
+"id": "B413",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "tower-measure flat, constant modulus for every character"
+},
+{
+"id": "B414",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "no canonical frame; privilege test fails"
+},
+{
+"id": "B422",
+"verdict": "DEMOTE",
+"kind": "OTHER:orthogonality",
+"why": "sectors orthogonal; no cancellation by partner named"
+},
+{
+"id": "B438",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "shared with 5_2 control; nothing figure-eight-unique"
+},
+{
+"id": "B441",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "forced, not object-specific; shared field"
+},
+{
+"id": "B442",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "commensurability-shared; no figure-eight-specific structure"
+},
+{
+"id": "B447",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "surrogate reproduces; no golden exceptionality"
+},
+{
+"id": "B455",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "kappa conserved along orbits; no restoring response"
+},
+{
+"id": "B457",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "catalog class-generic or whitelist-laundered"
+},
+{
+"id": "B458",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "complex volume identically zero; nothing to decompose"
+},
+{
+"id": "B461",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "sqrt(-7) appears on unrelated control; not selective"
+},
+{
+"id": "B462",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "launders through class-generic mechanism"
+},
+{
+"id": "B464",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "no relational invariant escaping class-laundering"
+},
+{
+"id": "B480",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "Dirac emergence generic; mass tunable angle"
+},
+{
+"id": "B529",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "generic degeneracy; loses to random controls"
+},
+{
+"id": "B541",
+"verdict": "DEMOTE",
+"kind": "OTHER:null-test-chance",
+"why": "matches data no better than chance; no non-selection named"
+},
+{
+"id": "B592",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "C-symmetry makes theta-odd amplitudes vanish"
+},
+{
+"id": "B600",
+"verdict": "DEMOTE",
+"kind": "OTHER:computed-zero",
+"why": "trace zero at one level; no flatness mechanism named"
+},
+{
+"id": "B660",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-go-dimensionful",
+"why": "zero trilinear plus dimensionful no-go; mixed mechanism"
+},
+{
+"id": "B671",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "two canonical scalarizations disagree; gauge, nothing selects"
+},
+{
+"id": "B674",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "trace-silent for all m; identically zero"
+},
+{
+"id": "B686",
+"verdict": "DEMOTE",
+"kind": "OTHER:tautology",
+"why": "parametrization tautology and convention-dependence"
+},
+{
+"id": "B697",
+"verdict": "DEMOTE",
+"kind": "OTHER:tautology",
+"why": "tautological Gaussian period"
+},
+{
+"id": "B713",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "non-canonical Galois torsor bit"
+},
+{
+"id": "B716",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "no canonical arrow, filling or Wick rotation"
+},
+{
+"id": "B719",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "no preferred size; filter generic, shared by controls"
+},
+{
+"id": "B735",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "generic to every cusped hyperbolic manifold"
+},
+{
+"id": "B737",
+"verdict": "DEMOTE",
+"kind": "OTHER:vacuity",
+"why": "zeta_K is the field's; vacuity plus object-deletion"
+},
+{
+"id": "B751",
+"verdict": "DEMOTE",
+"kind": "OTHER:scale-knob-null",
+"why": "scale-knob-dependent target, constructed assignment, null-consistent hits"
+},
+{
+"id": "B752",
+"verdict": "DEMOTE",
+"kind": "OTHER:base-rate-misidentified",
+"why": "base-rate hits and misidentified trace matrix"
+},
+{
+"id": "B760",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "no operation canonically signs the sector"
+},
+{
+"id": "B802",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "reversal leaves frequencies unchanged; direction unreadable"
+},
+{
+"id": "B850",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "genericity of foliation type is the kill form"
+},
+{
+"id": "B854",
+"verdict": "DEMOTE",
+"kind": "OTHER:centralizer-abelian",
+"why": "centralizer of 2T abelian; not flatness or pairing"
+},
+{
+"id": "B924",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "psi0-reality and C-centrality close both parity channels"
+},
+{
+"id": "B935",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "rank-2 overlap, det zero exactly; cascade index undefined"
+},
+{
+"id": "B971",
+"verdict": "DEMOTE",
+"kind": "OTHER:vacuity",
+"why": "criterion cannot fail; vacuous check"
+},
+{
+"id": "B996",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "E6 access generic across most metallic grammars"
+},
+{
+"id": "B1064",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "amphichirality deletes the quantized sector; CS=0"
+},
+{
+"id": "B1076",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "element-specific values; nature supplies the gauge"
+},
+{
+"id": "B1084",
+"verdict": "DEMOTE",
+"kind": "OTHER:non-isolation",
+"why": "fixed-set census shows non-isolated loci; geometry not flatness"
+},
+{
+"id": "B1086",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "Poincare duality pairing forces h1(27)=h1(27bar)"
+},
+{
+"id": "B1096",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "every anomaly channel identically zero"
+},
+{
+"id": "B1140",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "invariant content zero; no invariant direction"
+},
+{
+"id": "B1142",
+"verdict": "DEMOTE",
+"kind": "OTHER:count-mismatch",
+"why": "zeros 697x too sparse to be geodesic spectrum"
+},
+{
+"id": "B1157",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "ingredients generic to any hyperbolic 3-manifold"
+},
+{
+"id": "B1165",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "dynamical sector generic rhyme; survives swapping manifold"
+},
+{
+"id": "B1203",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "symmetry cannot select; cut zero, invariant conserved"
+},
+{
+"id": "B1205",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "cubic surface selects nothing; singular locus empty"
+},
+{
+"id": "B1209",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "torsor trivial; freedom exactly zero"
+},
+{
+"id": "B1258",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "identical for both candidates; cannot select embedding"
+},
+{
+"id": "B1267",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "both h1 vanish; rigid, no modes"
+},
+{
+"id": "B1296",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "sigma-even locus forces theta-even Cartan; parity constraint"
+},
+{
+"id": "B1297",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "Galois self-duality and period-2 inversion force zero index"
+},
+{
+"id": "B1322",
+"verdict": "DEMOTE",
+"kind": "OTHER:computed-no-mechanism",
+"why": "computed dead on benches; no pairing or flatness named"
+},
+{
+"id": "B1330",
+"verdict": "DEMOTE",
+"kind": "OTHER:computed-zero",
+"why": "four members return zero; no mechanism named"
+},
+{
+"id": "B1336",
+"verdict": "DEMOTE",
+"kind": "OTHER:borel-density",
+"why": "Zariski-density forces central centralizer; different mechanism"
+},
+{
+"id": "B1340",
+"verdict": "DEMOTE",
+"kind": "OTHER:vacuity",
+"why": "checks vacuous, cannot fail"
+},
+{
+"id": "B1347",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "stratum fixes no arrow; both outcomes occur"
+},
+{
+"id": "B1349",
+"verdict": "DEMOTE",
+"kind": "OTHER:kind-field-mismatch",
+"why": "closed by tie and field mismatch, not non-selection"
+},
+{
+"id": "B1450",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-discriminating-feature",
+"why": "six features fail to separate sets; no mechanism named"
+},
+{
+"id": "B1455",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "index odd under dualising; self-dual module has zero index"
+}
+]

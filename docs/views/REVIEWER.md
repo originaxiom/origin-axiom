@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1300** |
-| words of findings prose | **1,001,773** |
-| test lock files referenced | **759** |
-| arcs carrying an authored verdict | **1300** (100.0 %) |
+| research arcs with findings | **1302** |
+| words of findings prose | **1,003,964** |
+| test lock files referenced | **761** |
+| arcs carrying an authored verdict | **1302** (100.0 %) |
 | recorded closures | **803** (636 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 871 |
+| PROVED | 873 |
 | NEGATIVE | 327 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1471`** (1442 words, 1 locks)  
-THE CANCELLATION IS A THEOREM OF AMPHICHIRALITY (L245's xB011, sealed 39775d66 / 0d5f3919): at even n the geometric twisted Alexander function is real up to a unit on all 13 amphichiral members of the 112-family with H_1 of rank one (the Mostow symmetry step T3 and the duality step T2 each hold member by member, 54 of 54 for duality) and complex on 40 of 41 chiral ones; the sep16 lane's five 'amphichiral and complex everywhere' members are REAL at n = 2 and 4 -- its sym() was an anti-homomorphism (Sym^n of the transpose), a representation only where inverting every generator is an automorphism of pi_1, which m004 and m003 are and every three-generator member is not, so its m004 control could not catch it; odd n is the lift's Z/2 exactly (conj R_n = R_n^{rho (x) eps}, eps = (-1)^phi on five members and a torsion character on s955, s957) and is lift-dependent; B425's sentence scoped by addendum, its values reproduced to 1e-50; xB027 consistent with B1440. Nothing selects a state. 0 of 19.  
-`B1471_the_cancellation_is_a_theorem_of_amphichirality/FINDINGS.md`
+**PROVED — `B1473`** (948 words, 1 locks)  
+THE THREE KINDS COVER A THIRD AT MOST (L244 (a)): of the kill graph's 460 kills (343 of its 803 entries are B842 FACE-ONLY records, not kills) the web seat's pairing / flatness / non-uniqueness cover 154 by first readers (33 percent) and 84 after an adversarial second reading (18 percent); the residue is construction-level -- no-landing-site 77, premise-false 64, arithmetic-mismatch 36, instrument 31, value-miss 24 -- which none of the three remedies addresses; the taxonomy describes object-level negatives (the chirality chain, where sm:B1531 found 14 of 26) and was generalised past them. Nothing selects a state. 0 of 19.  
+`B1473_the_three_kinds_cover_a_third_at_most/FINDINGS.md`
 
 **NEGATIVE — `B1470`** (565 words, 0 locks)  
 THE UNRUN MODULES RUN ON MAIN (L222 (iii); L245's xB031): B1418's own driver on t12835 with its 1 800 s budget lifted runs all 6 435 modules in 4 234 s -- none NOT RUN -- with index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3, NO THREE; B1418's 3 110 banked rows agree 3 110 of 3 110 and the sep16 lane's xB031 table agrees 6 435 of 6 435 key by key; the 3 325 formerly unrun are 3 070 zero, 150 at -1, 90 at +1, 15 at -2. The one unrun computation the record kept pointing at holds no three. Nothing selects a state. 0 of 19.  

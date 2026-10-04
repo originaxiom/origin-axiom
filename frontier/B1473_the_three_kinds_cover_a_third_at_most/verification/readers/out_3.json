@@ -1,0 +1,709 @@
+[
+ {
+  "id": "B413",
+  "kind": "FLATNESS",
+  "label": "flat",
+  "quote": "The tower-measure is flat (|L(chi)|=1/4 for every character, Gauss-sum phases)",
+  "confidence": "high"
+ },
+ {
+  "id": "B414",
+  "kind": "NON-UNIQUENESS",
+  "label": "",
+  "quote": "no canonical frame exists",
+  "confidence": "medium"
+ },
+ {
+  "id": "B419",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "a hyperbolic volume with golden-field arithmetic, not an SM structure",
+  "confidence": "medium"
+ },
+ {
+  "id": "B420",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "with the bar not cleared and no SM structure",
+  "confidence": "medium"
+ },
+ {
+  "id": "B421",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "every destination is named pure mathematics and none cleared the bar",
+  "confidence": "medium"
+ },
+ {
+  "id": "B422",
+  "kind": "PAIRING",
+  "label": "mirror-orthogonality",
+  "quote": "Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal",
+  "confidence": "low"
+ },
+ {
+  "id": "B429",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no first-order deformation of the object's E₆ structure produces spinorial matter",
+  "confidence": "medium"
+ },
+ {
+  "id": "B430",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the object forces only the principal bosonic one, so the fermion door is closed",
+  "confidence": "medium"
+ },
+ {
+  "id": "B438",
+  "kind": "NON-UNIQUENESS",
+  "label": "not-object-specific",
+  "quote": "nothing about the child is figure-eight-unique",
+  "confidence": "medium"
+ },
+ {
+  "id": "B441",
+  "kind": "NON-UNIQUENESS",
+  "label": "not-object-specific",
+  "quote": "its sqrt5/sqrt-3/sqrt-15 content is forced, not object-specific",
+  "confidence": "low"
+ },
+ {
+  "id": "B442",
+  "kind": "NON-UNIQUENESS",
+  "label": "not-object-specific",
+  "quote": "adding no figure-eight-specific structure (Bin 3)",
+  "confidence": "low"
+ },
+ {
+  "id": "B447",
+  "kind": "NON-UNIQUENESS",
+  "label": "laundered-match",
+  "quote": "reproduced by a parameter-free 8-moment surrogate — no golden exceptionality",
+  "confidence": "low"
+ },
+ {
+  "id": "B455",
+  "kind": "FLATNESS",
+  "label": "no-dynamics",
+  "quote": "kappa is conserved along perturbed orbits, so no restoring response exists",
+  "confidence": "medium"
+ },
+ {
+  "id": "B457",
+  "kind": "NON-UNIQUENESS",
+  "label": "null-consistent-hits",
+  "quote": "the behavior catalog is class-generic or whitelist-laundered",
+  "confidence": "low"
+ },
+ {
+  "id": "B458",
+  "kind": "FLATNESS",
+  "label": "zero-invariant",
+  "quote": "has complex volume 0 + i*0",
+  "confidence": "medium"
+ },
+ {
+  "id": "B461",
+  "kind": "NON-UNIQUENESS",
+  "label": "not-object-specific",
+  "quote": "Q(sqrt(-7)) appears on an unrelated control",
+  "confidence": "low"
+ },
+ {
+  "id": "B462",
+  "kind": "NON-UNIQUENESS",
+  "label": "class-generic",
+  "quote": "launders through a class-generic mechanism",
+  "confidence": "low"
+ },
+ {
+  "id": "B464",
+  "kind": "NON-UNIQUENESS",
+  "label": "class-generic",
+  "quote": "no relational invariant escaping class-laundering",
+  "confidence": "low"
+ },
+ {
+  "id": "B480",
+  "kind": "NON-UNIQUENESS",
+  "label": "generic",
+  "quote": "Dirac emergence is generic, mass is a tunable alignment angle",
+  "confidence": "medium"
+ },
+ {
+  "id": "B481",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "det(T) = zeta_5 is a float artifact",
+  "confidence": "high"
+ },
+ {
+  "id": "B490",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "one structural no-go, stated as a single provable theorem",
+  "confidence": "low"
+ },
+ {
+  "id": "B498",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "Depth-3 mixed words refute both the golden monopoly and cyclotomic tameness",
+  "confidence": "high"
+ },
+ {
+  "id": "B512",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the McKay ladder to E₆ is golden-specific (silver is a 2-group)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B529",
+  "kind": "NON-UNIQUENESS",
+  "label": "generic",
+  "quote": "generic spectral degeneracy and the golden-angle coin loses to 2 of 10 random controls",
+  "confidence": "medium"
+ },
+ {
+  "id": "B541",
+  "kind": "NON-UNIQUENESS",
+  "label": "chance-match",
+  "quote": "matches SM constants no better than chance",
+  "confidence": "medium"
+ },
+ {
+  "id": "B549",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "Both time-independent cosmic ratios return null",
+  "confidence": "medium"
+ },
+ {
+  "id": "B551",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no rotation/winding mechanism can emit it",
+  "confidence": "medium"
+ },
+ {
+  "id": "B559",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "critical with log-law entanglement, not area-law",
+  "confidence": "medium"
+ },
+ {
+  "id": "B563",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "nulls at every rung (p≈0.53, zero hits)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B573",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the principal sl2 preserves no Spin(10) grading",
+  "confidence": "medium"
+ },
+ {
+  "id": "B577",
+  "kind": "OTHER",
+  "label": "recall-failure",
+  "quote": "already banked weeks earlier (B265/B352): a non-recall failure",
+  "confidence": "high"
+ },
+ {
+  "id": "B592",
+  "kind": "PAIRING",
+  "label": "C-symmetry-cancellation",
+  "quote": "C-symmetry of the state makes every closed theta-odd amplitude vanish for every gluing",
+  "confidence": "high"
+ },
+ {
+  "id": "B596",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "the θ-odd block's clock is not the naive cat-map period in any registered form",
+  "confidence": "medium"
+ },
+ {
+  "id": "B597",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "structurally exclude the free-rotation outcome C (conditionally)",
+  "confidence": "low"
+ },
+ {
+  "id": "B600",
+  "kind": "FLATNESS",
+  "label": "zero-invariant",
+  "quote": "Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4",
+  "confidence": "medium"
+ },
+ {
+  "id": "B602",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "all X1 cells fail with residual exactly −π/15",
+  "confidence": "medium"
+ },
+ {
+  "id": "B606",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "no partners in the hearing integers",
+  "confidence": "medium"
+ },
+ {
+  "id": "B611",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "Both sealed predictions failed",
+  "confidence": "medium"
+ },
+ {
+  "id": "B612",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The sealed per-level pairing biconditional FAILED",
+  "confidence": "medium"
+ },
+ {
+  "id": "B631",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "does not match PMNS at the 1% tier: 0/9 entries within 0.01",
+  "confidence": "high"
+ },
+ {
+  "id": "B633",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "the last SM residual dissolves (p = 0.078 becomes 0.145-0.62)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B639",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "admits no representation-twisted amalgam realization in any tested class",
+  "confidence": "medium"
+ },
+ {
+  "id": "B643",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no invertible global companion exists (solution dimension 1, singular)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B655",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "its anchors contradict the banked cards",
+  "confidence": "high"
+ },
+ {
+  "id": "B658",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "break on the weld double's 27 local system (solution dimension 1",
+  "confidence": "medium"
+ },
+ {
+  "id": "B660",
+  "kind": "FLATNESS",
+  "label": "zero-coupling",
+  "quote": "an exactly zero v₀-mediated trilinear",
+  "confidence": "low"
+ },
+ {
+  "id": "B671",
+  "kind": "NON-UNIQUENESS",
+  "label": "gauge-dependent",
+  "quote": "scalarization-gauge rather than object content",
+  "confidence": "medium"
+ },
+ {
+  "id": "B674",
+  "kind": "FLATNESS",
+  "label": "trace-silent",
+  "quote": "trace-silent (tr(A₁*|H¹(Symᵐ))=0 for all m)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B678",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "no growth in any of 96 cells, refuting chat1's amphichiral-suppression mechanism",
+  "confidence": "medium"
+ },
+ {
+  "id": "B686",
+  "kind": "NON-UNIQUENESS",
+  "label": "convention-dependent",
+  "quote": "Q = 2/3 is a parametrization tautology for every phase and theta0 = 2/9 is convention-dependent",
+  "confidence": "medium"
+ },
+ {
+  "id": "B697",
+  "kind": "NON-UNIQUENESS",
+  "label": "tautology-not-specific",
+  "quote": "a tautological Gaussian period carrying no object-specific content",
+  "confidence": "low"
+ },
+ {
+  "id": "B713",
+  "kind": "NON-UNIQUENESS",
+  "label": "non-canonical-bit",
+  "quote": "'which chirality' is a non-canonical Galois torsor bit",
+  "confidence": "low"
+ },
+ {
+  "id": "B716",
+  "kind": "NON-UNIQUENESS",
+  "label": "observer-supplied",
+  "quote": "Time, 4-dimensionality and Lorentzian signature are all the observer's",
+  "confidence": "high"
+ },
+ {
+  "id": "B718",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "SL(2,F_p) is McKay only at p=3,5",
+  "confidence": "low"
+ },
+ {
+  "id": "B719",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-preferred-size",
+  "quote": "Multiplicity/scale is the observer's — every cover's volume is exactly degree·base with no preferred size",
+  "confidence": "high"
+ },
+ {
+  "id": "B728",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "zeta_5 is impossible in the resummed object",
+  "confidence": "medium"
+ },
+ {
+  "id": "B729",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "every native invariant yields only the two quadratic fields",
+  "confidence": "high"
+ },
+ {
+  "id": "B735",
+  "kind": "NON-UNIQUENESS",
+  "label": "generic",
+  "quote": "generic to every cusped hyperbolic manifold",
+  "confidence": "medium"
+ },
+ {
+  "id": "B737",
+  "kind": "NON-UNIQUENESS",
+  "label": "not-object-specific",
+  "quote": "the ζ_K in the object's voice is the field's (vacuity plus object-deletion)",
+  "confidence": "low"
+ },
+ {
+  "id": "B740",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "no closed filling of m004 re-sees sqrt(-3)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B743",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "contain no SM ratio at testable precision",
+  "confidence": "high"
+ },
+ {
+  "id": "B747",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "all 78 fillings' invariant trace fields are √5-free",
+  "confidence": "high"
+ },
+ {
+  "id": "B748",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid re-sees the meeting face Q(sqrt-15)",
+  "confidence": "high"
+ },
+ {
+  "id": "B751",
+  "kind": "NON-UNIQUENESS",
+  "label": "scale-knob-dependent",
+  "quote": "the target is scale-knob-dependent, and the hits are null-consistent",
+  "confidence": "low"
+ },
+ {
+  "id": "B752",
+  "kind": "NON-UNIQUENESS",
+  "label": "base-rate",
+  "quote": "its c*phi^-n hits are base-rate by its own decision rule",
+  "confidence": "medium"
+ },
+ {
+  "id": "B754",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "17 KILL-EXTENDS, 2 FACE-IRRELEVANT and 0 FACE-OPENS",
+  "confidence": "low"
+ },
+ {
+  "id": "B756",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "dies on five exact counterexamples",
+  "confidence": "high"
+ },
+ {
+  "id": "B757",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The two Z/3's are never the same element (deck reps are torsion-free)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B760",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "canonically signs the theta-odd chord sector: the object cannot close itself",
+  "confidence": "medium"
+ },
+ {
+  "id": "B772",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "only 4 are load-bearing; the corpus is seam-independent",
+  "confidence": "low"
+ },
+ {
+  "id": "B775",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "walls the mover door (no object-native outer operation)",
+  "confidence": "low"
+ },
+ {
+  "id": "B790",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "LMFDB holds no Bianchi Laplace data, three tests are vacuous",
+  "confidence": "medium"
+ },
+ {
+  "id": "B793",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the B788 solver is bounded refinement inside a supplied window, cannot count roots",
+  "confidence": "high"
+ },
+ {
+  "id": "B802",
+  "kind": "PAIRING",
+  "label": "reversal-invariance",
+  "quote": "reversal leaves the Fibonacci letter frequencies unchanged",
+  "confidence": "low"
+ },
+ {
+  "id": "B808",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "34 of 35 are artifacts and the lone survivor is below chance expectation",
+  "confidence": "medium"
+ },
+ {
+  "id": "B811",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "a scale-free object cannot emit a scale-dependent value",
+  "confidence": "low"
+ },
+ {
+  "id": "B812",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "zero genuine paths: five blocked by M (no computed mechanism",
+  "confidence": "low"
+ },
+ {
+  "id": "B813",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "cannot fill the coefficient slot of e^{iθW(A)}",
+  "confidence": "high"
+ },
+ {
+  "id": "B814",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the component is a smooth 6-fold (15 vanishing cross-pairings, unobstructed to third order), not dimension 1",
+  "confidence": "medium"
+ },
+ {
+  "id": "B821",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B824",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "failed its sealed vacuity ceiling at 18.4% of the corpus",
+  "confidence": "medium"
+ },
+ {
+  "id": "B54",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B76",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B93",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B106",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B121",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B136",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B150",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B222",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B251",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B265",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B311",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B327",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B345",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B357",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B380",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B449",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B466",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B518",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B535",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B584",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ }
+]

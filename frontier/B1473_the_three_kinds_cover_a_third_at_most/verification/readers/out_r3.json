@@ -1,0 +1,597 @@
+[
+ {
+  "id": "B425",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the object has two torsions",
+  "confidence": "low"
+ },
+ {
+  "id": "B446",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "every channel launders to banked arithmetic",
+  "confidence": "low"
+ },
+ {
+  "id": "B485",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Closed the metallic Alexander law",
+  "confidence": "low"
+ },
+ {
+  "id": "B510",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the roles below are inverted",
+  "confidence": "high"
+ },
+ {
+  "id": "B532",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "period-3 is absent from the spectrum",
+  "confidence": "low"
+ },
+ {
+  "id": "B552",
+  "kind": "FLATNESS",
+  "label": "conserved-invariant",
+  "quote": "transported unchanged along the observer flow, and it decouples from the double clock",
+  "confidence": "low"
+ },
+ {
+  "id": "B581",
+  "kind": "PAIRING",
+  "label": "sign-pairing",
+  "quote": "sign(tau_m) = (-1)^m gives the chirality fold a scalar signature",
+  "confidence": "low"
+ },
+ {
+  "id": "B594",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "its diagonal coefficients equal minus the banked Z/7 sine-kernel closed forms",
+  "confidence": "low"
+ },
+ {
+  "id": "B608",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "The E6 Rosetta table exists only in mixed form",
+  "confidence": "low"
+ },
+ {
+  "id": "B622",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "a second negative data point for the exterior sign law",
+  "confidence": "low"
+ },
+ {
+  "id": "B646",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "one lead killed",
+  "confidence": "low"
+ },
+ {
+  "id": "B691",
+  "kind": "PAIRING",
+  "label": "self-conjugate-doublet",
+  "quote": "phi(3)=2 is prime (a minimal self-conjugate doublet)",
+  "confidence": "low"
+ },
+ {
+  "id": "B730",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "ℚ(√−7) is an external stage",
+  "confidence": "low"
+ },
+ {
+  "id": "B789",
+  "kind": "NON-UNIQUENESS",
+  "label": "rep-dependent",
+  "quote": "Q is rep-dependent",
+  "confidence": "low"
+ },
+ {
+  "id": "B803",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "any derivation routing through it is class-level not the object",
+  "confidence": "medium"
+ },
+ {
+  "id": "B48",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "extends to the whole metallic family",
+  "confidence": "low"
+ },
+ {
+  "id": "B74",
+  "kind": "PAIRING",
+  "label": "involution-identity",
+  "quote": "are literally the same involution -w0 of A_{n-1}",
+  "confidence": "low"
+ },
+ {
+  "id": "B89",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "PROVED symbolic-exact over Q(omega)",
+  "confidence": "low"
+ },
+ {
+  "id": "B104",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "localizes the SL(5) failure to eps-series gauge degeneracy (21/24)",
+  "confidence": "low"
+ },
+ {
+  "id": "B118",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "B112's assumed uniform +1 holds only for odd h",
+  "confidence": "medium"
+ },
+ {
+  "id": "B134",
+  "kind": "PAIRING",
+  "label": "amphichiral-palindrome",
+  "quote": "a metallic-block bundle is amphichiral iff its block-length sequence is a cyclic palindrome",
+  "confidence": "low"
+ },
+ {
+  "id": "B148",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "pinned exactly",
+  "confidence": "low"
+ },
+ {
+  "id": "B163",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no spectral feature encodes the figure-eight geometry at kappa=-2",
+  "confidence": "medium"
+ },
+ {
+  "id": "B179",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "with three same-named parameters fenced off",
+  "confidence": "low"
+ },
+ {
+  "id": "B205",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "was constructed and verified in-sandbox",
+  "confidence": "low"
+ },
+ {
+  "id": "B220",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "is gapless with central charge c=0.71",
+  "confidence": "low"
+ },
+ {
+  "id": "B233",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "not eight miracles",
+  "confidence": "low"
+ },
+ {
+  "id": "B249",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "making E₆+E₈ and the E₇ exclusion one arithmetic fact",
+  "confidence": "low"
+ },
+ {
+  "id": "B262",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "abelian, confirming McKay-E6 is arithmetic-only",
+  "confidence": "medium"
+ },
+ {
+  "id": "B276",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "values in ℤ[ζ₃], the trace field ℚ(√−3)",
+  "confidence": "low"
+ },
+ {
+  "id": "B290",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the filling n is not the WRT level k",
+  "confidence": "low"
+ },
+ {
+  "id": "B324",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "structure, not values",
+  "confidence": "low"
+ },
+ {
+  "id": "B377",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "reproducing all six banked level verdicts",
+  "confidence": "low"
+ },
+ {
+  "id": "B426",
+  "kind": "FLATNESS",
+  "label": "no-invariant-growth",
+  "quote": "every Galois-invariant functional of its orbit is <1 — no invariant growth",
+  "confidence": "low"
+ },
+ {
+  "id": "B463",
+  "kind": "FLATNESS",
+  "label": "zero-centralizer",
+  "quote": "The centralizer of the principal sl2 in e6 is exactly zero",
+  "confidence": "medium"
+ },
+ {
+  "id": "B533",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "The coupling is not a gauge choice",
+  "confidence": "low"
+ },
+ {
+  "id": "B556",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "UNSETTLED: the tower-as-physics-ladder reading, banked as a labelled HYPOTHESIS",
+  "confidence": "low"
+ },
+ {
+  "id": "B582",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "so its 27 is complex — chiral matter constructed",
+  "confidence": "low"
+ },
+ {
+  "id": "B595",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "E6_2's fixed theta-odd ear hears no chirality",
+  "confidence": "low"
+ },
+ {
+  "id": "B609",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "hashed before any comparison exists",
+  "confidence": "low"
+ },
+ {
+  "id": "B629",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "with NO comparison of any kind performed in this arc",
+  "confidence": "low"
+ },
+ {
+  "id": "B647",
+  "kind": "NON-UNIQUENESS",
+  "label": "not-forced",
+  "quote": "the core ratio Y[023]/Y[123] is NOT forced",
+  "confidence": "low"
+ },
+ {
+  "id": "B673",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "all three slots of 27x27 couple under a graded sign rule",
+  "confidence": "low"
+ },
+ {
+  "id": "B692",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "no prior art for the E6/bifocal/totient synthesis",
+  "confidence": "low"
+ },
+ {
+  "id": "B714",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "chirality, generations-as-permutable, and all values are negative",
+  "confidence": "low"
+ },
+ {
+  "id": "B732",
+  "kind": "PAIRING",
+  "label": "outer-automorphism",
+  "quote": "The observer's conjugation is realized as the outer automorphism of A5",
+  "confidence": "low"
+ },
+ {
+  "id": "B761",
+  "kind": "FLATNESS",
+  "label": "zero-fiber",
+  "quote": "fiber_dim(n)=0 at every rank",
+  "confidence": "medium"
+ },
+ {
+  "id": "B773",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "was a projection artifact",
+  "confidence": "medium"
+ },
+ {
+  "id": "B804",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "so its Dirac spectral type is determined but class-level",
+  "confidence": "low"
+ },
+ {
+  "id": "B49",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "is not promoted to a proven claim",
+  "confidence": "low"
+ },
+ {
+  "id": "B75",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "not a figure-eight accident",
+  "confidence": "low"
+ },
+ {
+  "id": "B92",
+  "kind": "NON-UNIQUENESS",
+  "label": "free-parameter",
+  "quote": "m is free, m=1 selected only by the systole metric",
+  "confidence": "medium"
+ },
+ {
+  "id": "B105",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "The explicit n=5 catalog stays open",
+  "confidence": "medium"
+ },
+ {
+  "id": "B149",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "making M^4=L unconditional on the genuine locus",
+  "confidence": "low"
+ },
+ {
+  "id": "B164",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "bridged to the once-punctured-torus cubic at the void fiber",
+  "confidence": "low"
+ },
+ {
+  "id": "B180",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "cusp-gluing and potential-weaving are distinct-but-analogous operations",
+  "confidence": "low"
+ },
+ {
+  "id": "B206",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "with the classical/quantum divide exactly the A5/2I spin double cover",
+  "confidence": "low"
+ },
+ {
+  "id": "B221",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "proved by three agreeing exact derivations",
+  "confidence": "low"
+ },
+ {
+  "id": "B234",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "caught one overclaim in each chat",
+  "confidence": "low"
+ },
+ {
+  "id": "B250",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the arithmetic invariants sit in the volumes",
+  "confidence": "low"
+ },
+ {
+  "id": "B264",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "with {4,8} directions deforming out of F₄",
+  "confidence": "low"
+ },
+ {
+  "id": "B277",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "a chiral 4d SM is blocked by two named inputs",
+  "confidence": "medium"
+ },
+ {
+  "id": "B291",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "selection is axis-stratified with no universally distinguished closing",
+  "confidence": "high"
+ },
+ {
+  "id": "B309",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Unified four banked faces",
+  "confidence": "low"
+ },
+ {
+  "id": "B326",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "texture, not magnitudes",
+  "confidence": "low"
+ },
+ {
+  "id": "B344",
+  "kind": "PAIRING",
+  "label": "reciprocal-pair",
+  "quote": "forced into a symplectic reciprocal pair (lambda, 1/lambda)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B356",
+  "kind": "PAIRING",
+  "label": "self-dual",
+  "quote": "forces a quaternionic self-dual 2 (det-lemma)",
+  "confidence": "low"
+ },
+ {
+  "id": "B379",
+  "kind": "PAIRING",
+  "label": "galois-conjugate-pair",
+  "quote": "the Galois-conjugate pair -(phi/6)sqrt(-3) and +(1/6phi)sqrt(-3)",
+  "confidence": "low"
+ },
+ {
+  "id": "B402",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the untwisted canonical point the unique dark address",
+  "confidence": "low"
+ },
+ {
+  "id": "B427",
+  "kind": "PAIRING",
+  "label": "galois-exchange",
+  "quote": "Exchange of the two seam slots acts by the Galois element sigma_17",
+  "confidence": "low"
+ },
+ {
+  "id": "B448",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "no sqrt5 through period 7",
+  "confidence": "low"
+ },
+ {
+  "id": "B488",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "SU(3) flavor enhancement applies only at m=1",
+  "confidence": "low"
+ },
+ {
+  "id": "B517",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the golden-3d bootstrap coupling is unique",
+  "confidence": "low"
+ },
+ {
+  "id": "B534",
+  "kind": "FLATNESS",
+  "label": "zero-locus",
+  "quote": "T(j,l)=0 ⟺ jl≡−4 except the (2,−2) survivor",
+  "confidence": "low"
+ },
+ {
+  "id": "B557",
+  "kind": "NON-UNIQUENESS",
+  "label": "choice",
+  "quote": "a CHOICE above it (B517 intertwining forces C=p(M))",
+  "confidence": "low"
+ },
+ {
+  "id": "B583",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "vacuum Dehn-filling probes can never hear chirality",
+  "confidence": "low"
+ },
+ {
+  "id": "B610",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "never conjugation-closed, and never leaves the unit circle",
+  "confidence": "low"
+ },
+ {
+  "id": "B649",
+  "kind": "NON-UNIQUENESS",
+  "label": "object-chosen",
+  "quote": "VALUE rows are object-chosen",
+  "confidence": "medium"
+ },
+ {
+  "id": "B694",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the automorphic avatar structurally cannot carry the golden",
+  "confidence": "medium"
+ },
+ {
+  "id": "B715",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the non-real adjoint trace excludes every real form",
+  "confidence": "low"
+ },
+ {
+  "id": "B733",
+  "kind": "NON-UNIQUENESS",
+  "label": "bounded-menu",
+  "quote": "The menu of observers at the congruence doors is a bounded discrete F_2-space",
+  "confidence": "low"
+ },
+ {
+  "id": "B749",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "F5 and F6 FRAGILE",
+  "confidence": "low"
+ },
+ {
+  "id": "B762",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "so the emitted word is a self-name",
+  "confidence": "low"
+ },
+ {
+  "id": "B774",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "zero overturns",
+  "confidence": "low"
+ },
+ {
+  "id": "B791",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "dissolving the claimed live defect",
+  "confidence": "low"
+ }
+]

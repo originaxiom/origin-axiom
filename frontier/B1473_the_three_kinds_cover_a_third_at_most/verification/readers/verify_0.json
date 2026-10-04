@@ -1,0 +1,618 @@
+[
+{
+"id": "B140",
+"reader_kind": "PAIRING",
+"reader_quote": "mirror has same volume, opposite CS, conjugate-isomorphic trace field",
+"claim_killed": "The B139-G hedge: 'genus \u2265 2 might be where chirality stops being a mere CS-sign' (the chirality firewall might be genus-1-specific). Killed by the standard orientation-reversal theorem (mirror has same volume, opposite CS, conjugate-isomorphic trace field \u2014 genus-independent). Also retracts (computed) the never-banked '~35 non-principal \u03c6-fixed points carry Q(\u221a\u22123)' \u2014 none exist.",
+"kill_form": "cited-as-sufficient",
+"hatch": "recompute-cited"
+},
+{
+"id": "B146",
+"reader_kind": "PAIRING",
+"reader_quote": "no selection using only orientation-independent invariants can prefer M vs its mirror",
+"claim_killed": "B145's arithmetic arm ('every imaginary-quadratic-trace-field o-p-t bundle is amphichiral / no arithmetic chiral o-p-t bundle') \u2014 REFUTED: recomputed with the correct INVARIANT trace field, RRL/RLL are chiral with invariant trace field Q(\u221a\u22127). Plus the surviving negative B1: no selection using only orientation-independent invariants can prefer M vs its mirror; every canonical criterion checked is orientation-independent, so no canonical handedness preference.",
+"kill_form": "kind-mismatch",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B161",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "\u03ba is a FREE continuum on the trace-map fixed locus",
+"claim_killed": "'Cancellation (\u03ba=2) is forced/empty/excluded' and, upstream, '\u03ba sources a value of \u039b' (S014). Killed both ways: \u03ba is a FREE continuum on the trace-map fixed locus (\u03ba-elimination ideal empty, re-derived m=2,4 \u2014 no value ever selected) and \u03ba=2 is attained (B130), so 'forced/empty' is refuted; what survives is 'the value is free; the zero is non-generic' (codim-1, measure-zero, trivial fiber).",
+"kill_form": "genericity",
+"hatch": "route-through-atom"
+},
+{
+"id": "B177",
+"reader_kind": "FLATNESS",
+"reader_quote": "no dissipation, no arrow",
+"claim_killed": "H3 of the 'is it alive?' hunt: that \u03ba>2 order is flux-sustained (metabolism \u2014 order that starves when feeding stops). Killed: the Fricke-Vogt invariant is CONSERVED across generations (drift <1e-8 \u2014 cannot starve, by the conservation law); the Sturmian gaps FREEZE at a positive constant rather than close (static structure, not flux); the trace map is invertible (T\u207b\u00b9\u2218T=id to 3e-17) and mirror-even \u2014 no dissipation, no arrow. Verdict: a conservative active-chaotic crystal/horseshoe, not a cell; metabolism/homeostasis/arrow relocate EXTERNAL.",
+"kill_form": "kind-mismatch",
+"hatch": "none-apparent"
+},
+{
+"id": "B182",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "proliferation not selection-to-unique",
+"claim_killed": "Superposition (weaving) of multiple metallic units selects a unique structure: refuted -- the gap-label module rank grows as 1+N (distinct fields), proliferation not selection-to-unique.",
+"kill_form": "finite-truncation",
+"hatch": "infinite-tower"
+},
+{
+"id": "B183",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "externally sourced (the imaginary gauge field is input)",
+"claim_killed": "Opening the metallic collective self-generates an arrow with an intrinsic scale: refuted -- a genuine non-unitary arrow appears but is thresholdless (g_c~0 from criticality), dimensionless, and externally sourced (the imaginary gauge field is input).",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel"
+},
+{
+"id": "B184",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "a growing product, not a selected Lie/gauge group",
+"claim_killed": "The interaction of multiple units forces a gauge group: refuted -- distinct-field interaction breaks the global inflation symmetry (cross-product escapes the module) and only multiplies per-unit SL(2,Z) dualities, a growing product, not a selected Lie/gauge group.",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B185",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "the fork has size >1, multiplies under composition, and is choice-dependent",
+"claim_killed": "Iterated gluing constraints select a forced-unique value: refuted -- gluing selects continuum->discrete (kappa-fork) but the fork has size >1, multiplies under composition, and is choice-dependent; literal N>=3 all-unit interaction is impossible (1-cusp pieces cap connected gluings at pairs, exact graph-theory count).",
+"kill_form": "other",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B191",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "stays discrete-and-proliferating",
+"claim_killed": "Chaining N>=3 units through connectors converges to a forced-unique selection: refuted -- the kappa-selection nests through a coupling 2-cusp connector but stays discrete-and-proliferating (fork grows with connector complexity: T:9, T^2:10, S:16, ST:32; never collapses to 1).",
+"kill_form": "other",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B219",
+"reader_kind": "FLATNESS",
+"reader_quote": "every content-1 class has period exactly 80 = lcm/content, regardless of genus signature",
+"claim_killed": "The WRT period depends on a genus/spinor-genus invariant beyond (trace, content): killed -- exhaustive at f=8 (all 542 class-reps, all four genera: every content-1 class has period exactly 80 = lcm/content, regardless of genus signature), mechanism proved (Klein-four 2-torsion of (Z/2^k)^x for k>=3), generalizes to f=16 and reproduces B204's block formula.",
+"kill_form": "other",
+"hatch": "deepen-past-plateau"
+},
+{
+"id": "B243",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "The 'metallic ladder' V(m^2+2) in Q(sqrt(m^2+4))",
+"claim_killed": "The 'metallic ladder' V(m^2+2) in Q(sqrt(m^2+4)) for the level-rank self-dual figure-eight values (golden k=3, silver k=6 pattern).",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B252",
+"reader_kind": "PAIRING",
+"reader_quote": "complex-conjugation-odd (chiral / CP-odd) invariant that could prefer 27 over 27-bar",
+"claim_killed": "The object carries an intrinsic complex-conjugation-odd (chiral / CP-odd) invariant that could prefer 27 over 27-bar (i.e. the object sources matter).",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport"
+},
+{
+"id": "B294",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "selective for the object's own structure, catalogue for SM values",
+"claim_killed": "'The seam closings SELECT a distinguished SM-valued world' -- refuted as stated: selective for the object's own structure, catalogue for SM values (E6 lost on closing, CP sign external, scale gapped, chiral datum absent, trajectory gated).",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B321",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "The CP phase pi/6 IS the core geodesic length of the (6,3) Dehn filling",
+"claim_killed": "The CP phase pi/6 IS the core geodesic length of the (6,3) Dehn filling, and Z/3 forces the rank-1 democratic Yukawa",
+"kill_form": "value-numerology",
+"hatch": "native-continuous-channel"
+},
+{
+"id": "B332",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "the 1/4 volume-suppression fits SM ratios",
+"claim_killed": "The founding letters yield particle-dictionary content: the 1/4 volume-suppression fits SM ratios, 16 = 4 + h(E6), and g = -R L^{-1} is the generation-cycling deck element",
+"kill_form": "value-numerology",
+"hatch": "recompute-cited"
+},
+{
+"id": "B334",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "137 lands non-principal",
+"claim_killed": "The seam's class-group partition yields a value prediction (137 lands non-principal)",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B343",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "The object selects a TM2 (or any) TBM-breaking direction",
+"claim_killed": "The object selects a TM2 (or any) TBM-breaking direction; killed to: the object forces exact TBM (theta_13 = 0, experimentally excluded), all deviation external",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport"
+},
+{
+"id": "B385",
+"reader_kind": "FLATNESS",
+"reader_quote": "kill 1: identical invariant profiles",
+"claim_killed": "That the bright/dark discriminator is cheap: \u03b3-group-theoretic (kill 1: identical invariant profiles) or word-grid-statistical (kill 2: identical det-class distributions on the riddle pair); plus the translation-kill criterion draft (voided by its registered 12/12 failure, built on the \u03a0_H/DFT commutation fallacy).",
+"kill_form": "absence-at-depth",
+"hatch": "deepen-past-plateau"
+},
+{
+"id": "B400",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "any linking object requires arbitrary identification choices",
+"claim_killed": "That a canonical 3\u00d73 frame (mixing-matrix-type object) links the (2,3) Mercedes triple and the golden seam line: the golden line is EXACTLY orthogonal to the Mercedes plane (both projections identically zero) via support disjointness in the shared W\u2082-label space \u2014 any linking object requires arbitrary identification choices.",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport"
+},
+{
+"id": "B405",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "equal dressability = unfalsifiable",
+"claim_killed": "The supersingular dictionary ('#E(F_p) = |2T|, |Q\u2088| means something; every program prime's point-count means something'): #E = p+1 is automatic at any supersingular prime; the controls (p = 11,13,17,19 all give 16) show equal dressability = unfalsifiable (the S5 pattern); the 2I case cannot even be stated (119 composite).",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B411",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "multi-valued on generic invertible-det cells (6 H-types share one class label)",
+"claim_killed": "The naive arithmetic dictionary: a cell's H-field-type (sqrt5/sqrt-3/sqrt-15 active) is a function of gamma'-class arithmetic invariants (chi_-3(det), chi_5(det), gcd(det,15)). Killed: multi-valued on generic invertible-det cells (6 H-types share one class label); single-valued only on boundary cells.",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel"
+},
+{
+"id": "B483",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "3,8,15 = a(a+2) = adjoint dims of SU(2),SU(3),SU(4) (forced spin-j arithmetic at any level)",
+"claim_killed": "The 3:8:15 SM overlay (h-ratios = dim SU(2), dim SU(3), 'seam 15') \u2014 ninth count-matching kill: 3,8,15 = a(a+2) = adjoint dims of SU(2),SU(3),SU(4) (forced spin-j arithmetic at any level); SU(4) is not SM, U(1) missing, and the two 15s are different objects.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B513",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "the (2,1) is generic to any F\u2082 variety",
+"claim_killed": "The filtered (3,1)-signature lead ('the object on its light cone' / support for T-SIG) \u2014 TOMBSTONED: the Hessian signature is not kappa-controlled (signature-change locus x\u00b2+y\u00b2+z\u00b2+xyz=4 cuts across kappa-shells; kappa=1 shell splits 20 Euclidean/10 Lorentzian), the (2,1) is generic to any F\u2082 variety, and the geometric Eisenstein rep is complex, off the SU(2) real locus.",
+"kill_form": "genericity",
+"hatch": "none-apparent"
+},
+{
+"id": "B516",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "so 3 is not dimension-selected",
+"claim_killed": "'Three spatial dimensions forced by a Pisot dimension cap' \u2014 DEAD: golden-field Pisot inflation exists at dims 1 (phi), 3 (beta), AND 5 (three-copy coupling scan); the x\u2192x(1+\u221ax) recursion's break at dim 7 is construction-specific, so 3 is not dimension-selected.",
+"kill_form": "other",
+"hatch": "deepen-past-plateau"
+},
+{
+"id": "B523",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "is generic to any 2-real-1-complex quartic Pisot",
+"claim_killed": "That some negative was a wrong leap; specifically that the (3,1) Lorentzian causal structure is object-specific \u2014 C3/Malament run: the four-verb monoid carries four different causal types, no single preserved cone; the proper (1,3) cone belongs to the evolution verb alone and is generic to any 2-real-1-complex quartic Pisot.",
+"kill_form": "genericity",
+"hatch": "route-through-atom"
+},
+{
+"id": "B539",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "matches relations among the SM's 19 dimensionless parameters",
+"claim_killed": "The object's frozen relation catalog (7 exact two-variable integer relations on 17 read-out components) matches relations among the SM's 19 dimensionless parameters.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B548",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "un-hideability as a discriminating special property of the object",
+"claim_killed": "Un-hideable iff self-priored/Pisot \u2014 un-hideability as a discriminating special property of the object.",
+"kill_form": "genericity",
+"hatch": "route-through-atom"
+},
+{
+"id": "B56",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "linking it to the c=1 Eisenstein structure (a holonomy bridge)",
+"claim_killed": "The figure-eight knot sits on the self-evidencing surface I=1/4, linking it to the c=1 Eisenstein structure (a holonomy bridge).",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B569",
+"reader_kind": "FLATNESS",
+"reader_quote": "zero-intertwiner",
+"claim_killed": "The 'Complete Chain' (16th chain), load-bearing links: Link 4 (compactness gap resolved by E6 level-1 CS quantization with chirality bit Z=Tr rho(A1)=-1) and Link 7 (G_SM the unique chiral theory on F4 via 27->16+10+1).",
+"kill_form": "zero-intertwiner",
+"hatch": "none-apparent"
+},
+{
+"id": "B57",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "The apparent match between the class number h(Q(sqrt-15))=2",
+"claim_killed": "The apparent match between the class number h(Q(sqrt-15))=2 and the two non-negative integer-splitting points of the m=1 antisymmetric quartic (a number-field connection for the metallic splitting counts).",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B579",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "alpha_s(M_Z)=1/(2 phi^3), sin^2 theta13 = 1/phi^8",
+"claim_killed": "The July-14 session handoff's values package: alpha_s(M_Z)=1/(2 phi^3), sin^2 theta13 = 1/phi^8, Koide <-> h(27)=2/3, phi-power mass ratios, sin^2 thetaW readings (plus the wrong T(F) char poly, two false attribution claims, and the un-audited 'founding question answered YES').",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B619",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "a group-identity bridge from the stage to A5 flavor models",
+"claim_killed": "Chat-1: 'the theta-odd clock order at the golden stages = 60 = |A5|'; and CC's sharpened candidate: 'the projective image of <rho(S),rho(T)> at kappa=5 is PSL(2,5) ~ A5 (order 60)' -- i.e. a group-identity bridge from the stage to A5 flavor models.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B632",
+"reader_kind": "FLATNESS",
+"reader_quote": "H^2(M;C)=0 + graded-commutativity force antisymmetry, zero diagonal",
+"claim_killed": "A symmetric mass-matrix-shaped (Yukawa) texture with three diagonal values exists at class level on the solo complement -- DISSOLVED-BY-OBSTRUCTION (O1: cd=2 kills scalar triples; O2: H^2(M;C)=0 + graded-commutativity force antisymmetry, zero diagonal); audit corrections also killed 'the double restores a symmetric mass matrix' (Koszul: fully alternating on ANY closed oriented 3-manifold) and the 'three generation slots' language (three INEQUIVALENT modes, not three copies).",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B664",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "'the golden is the ONLY real minimum' (refuted",
+"claim_killed": "chat1's selection claims for the golden word: 'the golden is the ONLY real minimum' (refuted -- quiet+real at n = 3 or 12 mod 15; witnesses n=12,18,27,33 with |tr_odd|=1/phi and Im=0), the 'five independent criteria' (collapse: criteria 4 and 5 are the same, criterion 2 false), and 'det(A-I) unit forces reality' (n=12 has det(A-I)=-10). The mechanism is the mod-15 phase lattice, not amphichirality.",
+"kill_form": "genericity",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B668",
+"reader_kind": "FLATNESS",
+"reader_quote": "a periodic sequence has ZERO asymptotic 1/k content",
+"claim_killed": "Cell F1/F-prime: a resurgent S2 (subleading asymptotic coefficient) is extractable from the Z-ladder -- dies against the program's own melody theorem: the ladder is exactly periodic (P = 175560, B662/G), a periodic sequence has ZERO asymptotic 1/k content, the trans-series expansion has no meaning on it.",
+"kill_form": "kind-mismatch",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B687",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "sin^2 theta12 has ~20 golden values in its band",
+"claim_killed": "Two claims triaged dead: (1) the SM mixing angles as object-addressable sealed-test targets -- base-rate too high (sin^2 theta12 has ~20 golden values in its band; 8 dead, 14 unreachable, exactly 1 live target = Koide Q); (2) 'h(27) = 2/3 = Koide Q' as evidence -- blocked: two simple rationals both equal to 2/3 is a coincidence until a derivation forces the identity, and Q = 2/3 is 120-degree-TAUTOLOGICAL (holds for any three-fold structure); numerical equality is cheap. Gate 5 stands; no LAW_MAP row.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B693",
+"reader_kind": "FLATNESS",
+"reader_quote": "a_(5) = +1, the trivial Steinberg value in Q",
+"claim_killed": "chat1's hope that the inert-5 Hecke structure of the base-changed Bianchi form carries golden (phi) or the good-prime 3^2 richness: a_(5) = +1, the trivial Steinberg value in Q, exactly computed; the faces couple but the coupling is being-arithmetic.",
+"kill_form": "absence-at-depth",
+"hatch": "infinite-tower"
+},
+{
+"id": "B699",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "filling is generic by strong approximation",
+"claim_killed": "That golden hearing is BORN in the surgery coupling of a 5-split object (Whitehead) to a 5-inert one (figure-eight); sub-claim '5-inert necessary for golden SL(2,5) capacity'. Killed: the 5-SPLIT Whitehead fills SL(2,5) too (two seats, two methods), and filling is generic by strong approximation -- capacity settles nothing.",
+"kill_form": "genericity",
+"hatch": "enumerate-landing-sites"
+},
+{
+"id": "B703",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "a post-hoc fit atop the Q=2/3 parametrization tautology",
+"claim_killed": "That theta_0 = 2/9 (Koide angle) is evidence or a framework prediction. The 0.89-sigma proximity is real (chat1's ~7-sigma refuted) but firewalled: not derived, convention-framed, a post-hoc fit atop the Q=2/3 parametrization tautology.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B705",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "base-rate-dead coincidence",
+"claim_killed": "chat1's Q5 -- that the 7983360 factorization is a structural E6 decomposition (base-rate-dead coincidence, cc2, verified on receipt) -- plus confirmation of the B702 swap-law retraction (swap != weld). The campaign's positive content (audibility law: audible iff Q(sqrt(p*)) real iff p=1 mod 4; hearing is a bundle phenomenon) is banked, not killed.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "B712",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "Non-canonicity goes TOTAL",
+"claim_killed": "That the object's own continuum (the A-polynomial deformation curve, its one continuous modulus) carries a canonical non-degenerate real anchor for a real parameter. Killed: the canonical complete-structure point has imaginary-quadratic cusp shape tau=+/-2sqrt(-3) (no real embedding); the only both-real rational points are the degenerate parabolic corner; the canonical 2-form's period is a transcendental regulator. Non-canonicity goes TOTAL (discrete B706 + continuous).",
+"kill_form": "no-landing-site",
+"hatch": "native-continuous-channel"
+},
+{
+"id": "B727",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "the three faces are canonical functions of ONE ADE label",
+"claim_killed": "The flagship structural claim that 'E6 recurs across three faces (McKay/Lie/CIZ)' is astronomical evidence the object encodes the SM. Killed as forced: the three faces are canonical functions of ONE ADE label (P(recurrence|label)=1; adjacencies literally identical); the exceptional menu reachable from an imaginary-quadratic field is {E6} ONLY (no draw, no birthday problem); the sister m003 (same field, not a knot) carries every field-level resonance; non-arithmetic knots also surject 2T. Only the atom (B266) is object-specific.",
+"kill_form": "genericity",
+"hatch": "none-apparent"
+},
+{
+"id": "W1-hardened-record",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "matches a measured SM value beyond base rate",
+"claim_killed": "SM parameter VALUES are derivable from the solo object's numbers (any banked amplitude/tone/ratio/matrix matches a measured SM value beyond base rate)",
+"kill_form": "value-numerology",
+"hatch": "native-continuous-channel"
+},
+{
+"id": "W5-B565-T3/B605",
+"reader_kind": "FLATNESS",
+"reader_quote": "nonzero chiral index",
+"claim_killed": "A single-object construction supports chiral matter (nonzero chiral index) or a reflection-type involution with a fixed geodesic surface",
+"kill_form": "zero-intertwiner",
+"hatch": "none-apparent"
+},
+{
+"id": "W8-B643/B658",
+"reader_kind": "PAIRING",
+"reader_quote": "Some orientation-reversing (mirror) symmetry of Isom(4_1)=D4 survives",
+"claim_killed": "Some orientation-reversing (mirror) symmetry of Isom(4_1)=D4 survives the coupling as a symmetry of the weld double's 27 local system",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport"
+},
+{
+"id": "W9-B644/B650",
+"reader_kind": "FLATNESS",
+"reader_quote": "A nonzero C-linear monodromy-equivariant map exists",
+"claim_killed": "A nonzero C-linear monodromy-equivariant map exists from the classical A1-module to the theta-odd hearing plane (module-linear classical->stage transport)",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport"
+},
+{
+"id": "S014 \u2014 cosmological-constant value formula",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "\u039b = \u039b_Planck\u00b7\u03c6^(\u22122N)",
+"claim_killed": "\u039b = \u039b_Planck\u00b7\u03c6^(\u22122N) (and the k\u2248137 variant) predicts the cosmological constant",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "S017 \u2014 phase-space 3+1D at SL(3)",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "SL(3) character variety has 6 real dimensions \u2192 3+1 spacetime",
+"claim_killed": "SL(3) character variety has 6 real dimensions \u2192 3+1 spacetime",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "S021 \u2014 entanglement = holographic",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "The Fibonacci critical chain's entanglement signals holography",
+"claim_killed": "The Fibonacci critical chain's entanglement signals holography",
+"kill_form": "genericity",
+"hatch": "route-through-atom"
+},
+{
+"id": "Value-kill \u2014 CS-crossover k\u22484 \u2194 n=4",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "The Chern\u2013Simons level crosses over near k\u22484, matching the rank n=4",
+"claim_killed": "The Chern\u2013Simons level crosses over near k\u22484, matching the rank n=4",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "K-E \u2014 a forced dimensionful scale or non-generic physical ratio",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "non-generic physical ratio",
+"claim_killed": "The object forces a dimensionful scale or a non-generic physical ratio (\u03b1\u207b\u00b9, m_p/m_e, sin\u00b2\u03b8_W)",
+"kill_form": "genericity",
+"hatch": "native-continuous-channel"
+},
+{
+"id": "K-G \u2014 the metallic structure HAS a forced choice (isolated \u03ba fixed points)",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "Isolated fixed points with distinct unsymmetrizable \u03ba values give the structure a forced choice",
+"claim_killed": "Isolated fixed points with distinct unsymmetrizable \u03ba values give the structure a forced choice",
+"kill_form": "other",
+"hatch": "none-apparent"
+},
+{
+"id": "K-N \u2014 |disc_CM| = \u03ba_m",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "value-numerology",
+"claim_killed": "The CM discriminant equals the commutator parameter \u03ba_m",
+"kill_form": "value-numerology",
+"hatch": "none-apparent"
+},
+{
+"id": "K-O \u2014 golden trace leak tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6 as distinguished signal",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "distinguishes it from other hyperbolic words",
+"claim_killed": "The seed's nonzero golden SU(2)\u2083 trace distinguishes it from other hyperbolic words",
+"kill_form": "genericity",
+"hatch": "none-apparent"
+},
+{
+"id": "B22",
+"reader_kind": "PAIRING",
+"reader_quote": "generic for all orientation-reversing symmetric-square lifts",
+"claim_killed": "The -1 parity eigenvalue is generic for all orientation-reversing symmetric-square lifts, killing any special parity-particle reading.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B24",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "not selected by the framework",
+"claim_killed": "The Fibonacci anyon level k=3 is not selected by the framework; the shift from discriminant 5 to k+2 is underived.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B31",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "selects no invariant surface without the extra A-sector matching rule",
+"claim_killed": "Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without the extra A-sector matching rule.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B32",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "does not select I=1/4",
+"claim_killed": "The A1-A7-plus-exchange chain does not select I=1/4; the missing ingredient is isolated as the A-sector self-similarity selector S1.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B36",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "gap-label controls fail to distinguish I=1/4",
+"claim_killed": "The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambda/h=1, and gap-label controls fail to distinguish I=1/4.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B39",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "leaves an infinite discrete family c^2=(m+2)/4",
+"claim_killed": "Tangent-lattice integrality leaves an infinite discrete family c^2=(m+2)/4; the projective quotient alone derives no canonical lattice and does not select m=3.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B41",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "c stays free, so it does not select I=1/4",
+"claim_killed": "A bounded projective census shows the B26 period-3 orbit is the simplest one-parameter family, but c stays free, so it does not select I=1/4.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B42",
+"reader_kind": "FLATNESS",
+"reader_quote": "no intrinsic stationary point at I=1/4",
+"claim_killed": "Natural variational quantities of the tangent return (eigenvalue, torsion proxy, discriminant) are monotone on I>0 with no intrinsic stationary point at I=1/4.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B46",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "higher rank is consistent with S1 but does not derive it",
+"claim_killed": "The selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian while t^2-4t+1 does not: higher rank is consistent with S1 but does not derive it.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B108",
+"reader_kind": "PAIRING",
+"reader_quote": "it only sends c to 1/c",
+"claim_killed": "The opposition involution theta=-w0 cannot predict the degree=rank scalars: it only sends c to 1/c, so the order-4 secondary c=i escapes an involution.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B129",
+"reader_kind": "FLATNESS",
+"reader_quote": "climbing ranks acquires no new field or content",
+"claim_killed": "The metallic SL(3) tower is SL(2) arithmetic in SL(3) clothing with zero fixed points escaping Q(sqrt-3), so climbing ranks acquires no new field or content.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B130",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "kappa is free on the fixed locus, so a single seed cannot force any choice",
+"claim_killed": "No trace-ring invariant is both discretely multivalued and unsymmetrizable: kappa is free on the fixed locus, so a single seed cannot force any choice.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B139",
+"reader_kind": "PAIRING",
+"reader_quote": "the mirror preserves every computed invariant except the Chern-Simons sign",
+"claim_killed": "Multiplicity cannot supply the SM's simple non-abelian factor or irreducible chirality: the mirror preserves every computed invariant except the Chern-Simons sign.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B143",
+"reader_kind": "PAIRING",
+"reader_quote": "structurally mirror-blind",
+"claim_killed": "The algebraic trace venue is structurally mirror-blind, so the chirality-of-interactions campaign cannot run there and needs orientation-sensitive topological tooling not yet installed.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B144",
+"reader_kind": "PAIRING",
+"reader_quote": "Cusp-glued composites are mirror-closed",
+"claim_killed": "Cusp-glued composites are mirror-closed (verified GL(2,Z) identity), so seed-heterogeneity cannot break R-L symmetry; the naive chirality-crack targets are vacuous.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B145",
+"reader_kind": "PAIRING",
+"reader_quote": "coincides with the self-mirror (amphichiral) family",
+"claim_killed": "Chirality cannot be forced: over the catalogued once-punctured-torus bundles the canonical/minimal locus coincides with the self-mirror (amphichiral) family.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B170",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "value-matching, fails a random-base null control",
+"claim_killed": "The Machian 'external dissolves into self-referential' leap is undecidable from within and its only testable form, value-matching, fails a random-base null control.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B181",
+"reader_kind": "FLATNESS",
+"reader_quote": "zero Lyapunov, no transition",
+"claim_killed": "The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition), so it is scale-free rather than scale-generating.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B188",
+"reader_kind": "FLATNESS",
+"reader_quote": "matches the extended chain, decays with L",
+"claim_killed": "Criticality gives no slow dissipative relaxation: the metallic Liouvillian gap matches the extended chain, decays with L, and is homogeneous in external rates.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B190",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "never converges to a forced-unique value",
+"claim_killed": "Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixed points are non-monotone, the lone unique is trivial.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B213",
+"reader_kind": "FLATNESS",
+"reader_quote": "entirely O(1) and BSD-generic: no forced small number, no hierarchy",
+"claim_killed": "The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-generic: no forced small number, no hierarchy.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B230",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "is a central-charge coincidence with a different coset",
+"claim_killed": "The ferromagnetic 'silver SUSY' (Z\u2086 parafermion, c=5/4) is a central-charge coincidence with a different coset, not supersymmetry; golden+AFM stays uniquely SUSY.",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+},
+{
+"id": "B244",
+"reader_kind": "NON-UNIQUENESS",
+"reader_quote": "does not resolve the three SL(3,\u2102) character-variety components",
+"claim_killed": "SU(3)\u2082 at level 2 is a single number that does not resolve the three SL(3,\u2102) character-variety components; resolution is only asymptotic (k\u2192\u221e).",
+"kill_form": "unrouted-unclassified",
+"hatch": null
+}
+]

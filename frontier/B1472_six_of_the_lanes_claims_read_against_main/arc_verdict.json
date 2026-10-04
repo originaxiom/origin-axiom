@@ -1,0 +1,26 @@
+{
+ "id": "B1472",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1469",
+  "B1471",
+  "B98",
+  "B1224",
+  "B302",
+  "B1239",
+  "B742"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record (lead L245): the sep16 lane's claims about main read against the files, with three computations (SnapPy's Chern-Simons convention; L194's orientation double covers; Humbert's Bianchi covolumes)",
+  "object": "six lane arcs (xB003, xB010, xB012, xB020, xB033, xB005/xB008) and the main arcs they name (B13, B98, B1224, B302, B266, B1239, B742, B146, B1096, B1136)",
+  "reach": "general",
+  "hypotheses": "readings cite file and line; the sign laws are stated from their definitions, not verified from a page; the cells are single computations"
+ },
+ "claim_one_line": "SIX OF THE LANE'S CLAIMS READ AGAINST MAIN (L245): three are false as claims about the record by dates and quotations -- B98 (2026-06-06) computed the trace-map Jacobian at the geometric fixed point, (t-1)(t^2-5t+1), so xB003's 'never visited' fails; B1224 derives its own 2-torsion theorem, so xB020's 'census observation' fails; B302/B266 are the orbifold below A5, so xB012's 'no arc' fails -- and two sharpenings are right and paid: B302 conflated PSL and PGL (covolumes 0.16916 = Vol(4_1)/12 and 0.08458 = Vol(4_1)/24, computed), B1136's amphichirality row is false by B1235's own column (6 of 14) and carried no banner; B1239's closed result needs only cs mod 1 and cs(-M) = -cs(M), the sign law sourced from its definition and SnapPy's convention checked on 300 manifolds to 1e-15; L194 holds at 200 orientation double covers; B742's 30 reconfirmed tallied directly; the lane's two rule proposals routed to Review 60. Nothing selects a state. 0 of 19."
+}

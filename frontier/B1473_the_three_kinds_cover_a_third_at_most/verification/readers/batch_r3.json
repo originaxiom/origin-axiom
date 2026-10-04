@@ -1,0 +1,597 @@
+[
+{
+"id": "B425",
+"claim_killed": "(from the arc's verdict line) The geometric holonomy torsion is rational/Eisenstein (adjoint -3), a different object from B423's golden dynamical zeta (-5) \u2014 the object has two torsions.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B446",
+"claim_killed": "(from the arc's verdict line) Derived and out-of-sample verified the fixed-cofactor tower moment law N*Var = S5(m)*C3 (golden 3/8, silver 5/8); every channel launders to banked arithmetic.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B485",
+"claim_killed": "(from the arc's verdict line) Closed the metallic Alexander law Delta_m(a) = a^2 - (m^2+2)a + 1 for m=1..5 (the monodromy char poly), with genus 3 anchored at m=1.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B510",
+"claim_killed": "(from the arc's verdict line) CORRECTED 2026-09-02 (B1238): the branch double cover IS the character variety (40a3); 40a1 is its \u03c3-quotient \u2014 the roles below are inverted. ORIGINAL CLAIM AS ASSERTED: 40a3 is the Jacobian of 40a1's branch double cover (2-isogenous, not a quadratic twist), discharging the square-time flag as a theorem.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B532",
+"claim_killed": "(from the arc's verdict line) The interaction grammar reduces to a four-word irreducible kernel anchored at the self-containing sigma(a)=abAAB; period-3 is absent from the spectrum.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B552",
+"claim_killed": "(from the arc's verdict line) coker(I\u2212M) \u2245 \u2124/11 with primitive left generator \u03c7=(1,3,6,7) is conserved by \u03c3 and transported unchanged along the observer flow, and it decouples from the double clock.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B581",
+"claim_killed": "(from the arc's verdict line) Computed the six twisted Alexander torsions at the E6 exponents; sign(tau_m) = (-1)^m gives the chirality fold a scalar signature across six invariants.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B594",
+"claim_killed": "(from the arc's verdict line) The E6 level-2 hearing law is state-independent and its diagonal coefficients equal minus the banked Z/7 sine-kernel closed forms.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B608",
+"claim_killed": "(from the arc's verdict line) The E6 Rosetta table exists only in mixed form: 9 of the 12 odd-block pair-combos weld roots from different G_SM classes, with the weight-16 tips the unique class-pure (1,1,2) anchors.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B622",
+"claim_killed": "(from the arc's verdict line) The silver RRLL bundle m136's exterior adjoint Reidemeister torsion is exactly -16 = 2-(phi^6+phi^-6), a second negative data point for the exterior sign law, with the fig-8 and silver adjoint tangent fields swapping (sqrt21 vs sqrt5).",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B646",
+"claim_killed": "(from the arc's verdict line) Three cc2 packets verified and banked \u2014 11/11 seals rehashed, reruns reproduced, the corrected generic-silence law Z(\u03ba)=(1\u2212(\u03ba|5))/2 adopted, one lead killed.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B691",
+"claim_killed": "(from the arc's verdict line) The object generates being and not hearing because phi(3)=2 is prime (a minimal self-conjugate doublet), while the hearing's hierarchy needs 5's composite totient.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B730",
+"claim_killed": "(from the arc's verdict line) The object's forced quadratic faces close at exactly three \u2014 \u211a(\u221a\u22123), \u211a(\u221a5), \u211a(\u221a\u221215) \u2014 a Klein four-group; \u211a(\u221a\u22127) is an external stage.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B789",
+"claim_killed": "(from the arc's verdict line) An explicit intertwiner Q = S_iota * S_sd^{-1} conjugates transpose-with-reversal back to the Riley Sym^2 representation, which descends to pi_1(4_1); Q is rep-dependent.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B803",
+"claim_killed": "(from the arc's verdict line) Verified in snappy that m003 and m004 share the trace field \u211a(\u221a\u22123) and are commensurable, so any derivation routing through it is class-level not the object'specific; the DKY integer-puncture mechanism is confirmed at 60 dps.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B48",
+"claim_killed": "(from the arc's verdict line) The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backed integer fixed-line splitting.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B74",
+"claim_killed": "(from the arc's verdict line) The W_N charge-conjugation grading of spin-s currents and the Dickson P-grading of char(M^k) are literally the same involution -w0 of A_{n-1}.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B89",
+"claim_killed": "(from the arc's verdict line) SL(4) M^4 = L (retro-authored at R50-4): PROVED symbolic-exact over Q(omega) on the principal figure-eight Dehn-filling component A = diag(1,1,omega,omega^2), upgrading V54/B73 from ~1e-31 numerics to theorem -- the SL(4) analogue of B71's exact SL(3) M^3 = L. [Verdict retro-authored 2026-08-27 (B1176, R50-4): the arc predates the arc_verdict discipline; the claim is drawn from its own FINDINGS.md, which remains the primary record.]",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B104",
+"claim_killed": "(from the arc's verdict line) The Dehn-twist composition proves the explicit SL(4) catalog for metallic and non-metallic monodromies, and localizes the SL(5) failure to eps-series gauge degeneracy (21/24).",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B118",
+"claim_killed": "(from the arc's verdict line) The theta=-w0 fixed-root sign is (-1)^(h+1), proved symbolically and verified for n<=12; B112's assumed uniform +1 holds only for odd h.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B134",
+"claim_killed": "(from the arc's verdict line) The chirality recursion is proved: a metallic-block bundle is amphichiral iff its block-length sequence is a cyclic palindrome, a corollary of Goodman-Heard-Hodgson 2008.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B148",
+"claim_killed": "(from the arc's verdict line) kappa = 4*I_FV + 2 pinned exactly, and the metallic monodromies are genuinely the SL(2,Z) mapping-class action on the character variety.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B163",
+"claim_killed": "(from the arc's verdict line) The kappa<2 spectrum is control-bracketed as a totally disconnected Cantor set, and no spectral feature encodes the figure-eight geometry at kappa=-2.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B179",
+"claim_killed": "(from the arc's verdict line) Every geometric/arithmetic number of a metallic seed is an exact function of the single root lambda_m, with three same-named parameters fenced off.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B205",
+"claim_killed": "(from the arc's verdict line) The generic-q skein quantum trace map for the metallic family was constructed and verified in-sandbox (central element, quantum Dehn twists, q-Chebyshev structure).",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B220",
+"claim_killed": "(from the arc's verdict line) Corrected exact diagonalization shows the antiferromagnetic golden (Fibonacci-anyon) chain is gapless with central charge c=0.71, reproducing tricritical Ising c=7/10 in-sandbox.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B233",
+"claim_killed": "(from the arc's verdict line) The ubiquity of '5' is one causal cascade through the field \u211a(\u221a5) plus one genuine coincidence (smallest metallic discriminant = largest McKay prime), not eight miracles.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B249",
+"claim_killed": "(from the arc's verdict line) Niven's theorem forces the orbifold trace fields to be clean quadratics only at the hyperbolic and spherical ends, making E\u2086+E\u2088 and the E\u2087 exclusion one arithmetic fact.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B262",
+"claim_killed": "(from the arc's verdict line) Reconstructed T[4\u2081] from its own triangulation: U(1) gauge, 2 chirals, monopole superpotential \u2014 abelian, confirming McKay-E6 is arithmetic-only.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B276",
+"claim_killed": "(from the arc's verdict line) The figure-eight colored-Jones degenerates at q=\u03b6\u2083,\u03b6\u2086 with periods 3,6 and values in \u2124[\u03b6\u2083], the trace field \u211a(\u221a\u22123) whose ramified prime 3 yields 2T=McKay-E\u2086.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B290",
+"claim_killed": "(from the arc's verdict line) The (1,n) core geodesic obeys the Neumann\u2013Zagier ladder \u2113_\u2102=2\u03c0i/n+(\u03c0/\u221a3)/n\u00b2+O(1/n\u00b3) with coefficient predicted by the cusp shape; separately, the filling n is not the WRT level k.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B324",
+"claim_killed": "(from the arc's verdict line) Verified exactly in Z[omega] that commensurator-conjugate generations give a Z/3-circulant trace matrix with Eisenstein coefficient omega and degenerate light eigenvalues - structure, not values.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B377",
+"claim_killed": "(from the arc's verdict line) The existence law is derived from exact local censuses (sector = line tensor doublet; doublets only at odd prime powers), reproducing all six banked level verdicts.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B426",
+"claim_killed": "(from the arc's verdict line) The seam-envelope ratio has the exact cubic closed form (3\u03b1\u00b2+4\u03b1\u22121)/10, and every Galois-invariant functional of its orbit is <1 \u2014 no invariant growth.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B463",
+"claim_killed": "(from the arc's verdict line) The centralizer of the principal sl2 in e6 is exactly zero, so the banked E6 route's 4d commutant is finite \u2014 no continuous gauge symmetry.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B533",
+"claim_killed": "(from the arc's verdict line) The coupling is not a gauge choice: 34 observation points fall into exactly 5 depth-stable Perron types, each an integer combination of the letter frequencies.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B556",
+"claim_killed": "(from the arc's verdict line) ESTABLISHED exactly: T(M)=[[M,M],[M^2,M]] sends the golden Fibonacci matrix to the sigma_4 incidence matrix verbatim, and the field doubles at every verified rung (norm-sign + determinant telescope). UNSETTLED: the tower-as-physics-ladder reading, banked as a labelled HYPOTHESIS.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B582",
+"claim_killed": "(from the arc's verdict line) The \u03b8-odd-twisted mirror-double has E\u2086 representations with Zariski closure full E\u2086(\u2102), so its 27 is complex \u2014 chiral matter constructed.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B595",
+"claim_killed": "(from the arc's verdict line) Consolidated the seven-row dictionary and confirmed two blind predictions: det(I - B_odd) = phi^2 at kappa = 5, and E6_2's fixed theta-odd ear hears no chirality.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B609",
+"claim_killed": "(from the arc's verdict line) The Phase-2 sealed value table is banked: exact Killing-class mixing fractions, hearing amplitudes and finite-order kappa spectra, hashed before any comparison exists.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B629",
+"claim_killed": "(from the arc's verdict line) The interaction-layer value bank: values sealed by hash, with NO comparison of any kind performed in this arc.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B647",
+"claim_killed": "(from the arc's verdict line) Cell 1: imposing Y\u2218\u03c3* = conj(Y) over \u211a(\u221a\u22123) cuts B638's 10 real undetermined dimensions to a constrained space of real dimension 6; the core ratio Y[023]/Y[123] is NOT forced (the cell's own line 14: residual ONE \u211d-linear condition) \u2014 the spectator law holds iff arg Y[134] = \u03c0/6. [2026-09-02 B1241: claim corrected \u2014 it previously said the constraint \"forces the ratio Y[023] = 24\u03b6\u2086\u00b7Y[123]\", which the cell itself records as not forced.]",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B673",
+"claim_killed": "(from the arc's verdict line) L106 closes: the generation sum rule is two-seat verified (provisional lifted) and all three slots of 27x27 couple under a graded sign rule.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B692",
+"claim_killed": "(from the arc's verdict line) Independent search finds every level-15 piece published (curve 15a8, Bianchi forms, Koide-circles) but no prior art for the E6/bifocal/totient synthesis.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B714",
+"claim_killed": "(from the arc's verdict line) The verified physics spine: the object authors a vector-like E6 skeleton with generation count 3, while chirality, generations-as-permutable, and all values are negative.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B732",
+"claim_killed": "(from the arc's verdict line) The observer's conjugation is realized as the outer automorphism of A5 (the F4-Frobenius) at the sister m003's level-(2) congruence quotient.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B761",
+"claim_killed": "(from the arc's verdict line) fiber_dim(n)=0 at every rank: each deformation direction is visible from the cusp torus, so the object has no private states.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B773",
+"claim_killed": "(from the arc's verdict line) The banked level-45 'pair-sector identically zero' wall was a projection artifact: the isolated theta-odd readout is 1/4, reproduced three independent ways.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B804",
+"claim_killed": "(from the arc's verdict line) m004's induced cusp spin structure is the bounding one for every spin structure (Arf = 0 by bordism), so its Dirac spectral type is determined but class-level, and leading-order Dirac counts for m003/m004 agree by identity.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B49",
+"claim_killed": "(from the arc's verdict line) PC12's proof architecture is explicit and partly machine-checked, but is not promoted to a proven claim.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B75",
+"claim_killed": "(from the arc's verdict line) degree=rank is a two-parameter (m,n) phenomenon: M^3=L holds on the m=3 metallic bundle as well as the figure-eight, not a figure-eight accident.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B92",
+"claim_killed": "(from the arc's verdict line) Metallic means are exactly the period-1 continued-fraction (det=-1) hyperbolic classes; m is free, m=1 selected only by the systole metric.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B105",
+"claim_killed": "(from the arc's verdict line) The explicit n=5 catalog stays open: the resolved 21 factors are universally catalog-consistent but three remain unresolved and two prior inferences were withdrawn.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B149",
+"claim_killed": "(from the arc's verdict line) B89's posited family is the complete irreducible component for spectrum {1,1,w,w2}, making M^4=L unconditional on the genuine locus.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B164",
+"claim_killed": "(from the arc's verdict line) The (0,4) Jimbo-Fricke cubic is built explicitly, its Painleve-VI/MCG dynamics exhibited via the three Vieta involutions, and bridged to the once-punctured-torus cubic at the void fiber.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B180",
+"claim_killed": "(from the arc's verdict line) Kappa is literally one conserved quantity on both the character-variety and spectral faces, while cusp-gluing and potential-weaving are distinct-but-analogous operations.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B206",
+"claim_killed": "(from the arc's verdict line) The golden monodromy's mod-5 congruence shadow is SL(2,F5)=2I=McKay-E8, with the classical/quantum divide exactly the A5/2I spin double cover.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B221",
+"claim_killed": "(from the arc's verdict line) The golden chain's emergent c=7/10 CFT is exactly the first N=1 superconformal minimal model M(4,5), proved by three agreeing exact derivations.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B234",
+"claim_killed": "(from the arc's verdict line) Recomputation of the two handoffs verified the trace-1 congruence law disc=1\u22124det (excluding E\u2087's \u211a(\u221a2)) and caught one overclaim in each chat.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B250",
+"claim_killed": "(from the arc's verdict line) Computed the complex-volume profile of the E6-hyperbolic/E8-spherical ends: Vol=6\u039b(\u03c0/3), CS=0 vs \u03c0\u00b2/5, CS\u2208(1/5)\u2124 \u2014 the arithmetic invariants sit in the volumes.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B264",
+"claim_killed": "(from the arc's verdict line) Exact Fox-calculus computation gives dim H\u00b9(\u03c0\u2081(4\u2081),Ad \u03c1_prin)=6=rank(E6), graded by the E6 exponents, with {4,8} directions deforming out of F\u2084.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B277",
+"claim_killed": "(from the arc's verdict line) The figure-eight has a canonical class-S lift \u2014 fiber \u03a3_{1,1} giving 4d N=2* SU(2) with monodromy \u03c6=RL as an S-duality element \u2014 and a chiral 4d SM is blocked by two named inputs.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B291",
+"claim_killed": "(from the arc's verdict line) A stable min-volume closing m004(\u00b15,1) (vol 0.98137) exists and is non-arithmetic and not the fiber closing, so selection is axis-stratified with no universally distinguished closing.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B309",
+"claim_killed": "(from the arc's verdict line) Unified four banked faces (existence, geometry, matter, quantum) as one commutator trace kappa=tr[a,b] not equal 2, with kappa-2=omega^2 and E6 uniqueness verified.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B326",
+"claim_killed": "(from the arc's verdict line) Verified the generation Z/3-breaking is finite congruence torsion: H_1 of the 3-fold cover is Z + (Z/4)^2 with irreducible Phi_3 deck action - texture, not magnitudes.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B344",
+"claim_killed": "(from the arc's verdict line) The deviation space is forced into a symplectic reciprocal pair (lambda, 1/lambda) plus the unpaired central kappa-axis, which is exactly the external scale door.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B356",
+"claim_killed": "(from the arc's verdict line) Every SL(2,\u2102)-factoring route forces a quaternionic self-dual 2 (det-lemma), and complex 27-dim assemblies with an invariant cubic exist only for A\u2084 and 2T \u2014 the chirality window is exactly the Eisenstein \u03c9.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B379",
+"claim_killed": "(from the arc's verdict line) The pair kernel reduces to eigenframe geometry (13/13 cells) and closes to one number, the Galois-conjugate pair -(phi/6)sqrt(-3) and +(1/6phi)sqrt(-3).",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B402",
+"claim_killed": "(from the arc's verdict line) The single-object reality wall has two mechanisms split by seed (m=1 cell-wise local, m=2 aggregate-only), and seam intensity obeys f(gcd(address,15)) with the untwisted canonical point the unique dark address.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B427",
+"claim_killed": "(from the arc's verdict line) Exchange of the two seam slots acts by the Galois element sigma_17, which fixes sqrt(-15); the projector-trace corollary is corrected to symmetrized/antisymmetrized sectors.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B448",
+"claim_killed": "(from the arc's verdict line) The exact T_1 periodic-orbit field tower on the cusp locus kappa=-2 (the Markov surface) gives Q(sqrt-3) at period 2 and Q(sqrt-7) at period 4, with a silver control confirming the object'specific labels and no sqrt5 through period 7.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B488",
+"claim_killed": "(from the arc's verdict line) The metallic family's DGG data obeys two clean laws, gauge U(1)^(2m-1) and H1 = (Z/m)^2 + Z for m=1..8; SU(3) flavor enhancement applies only at m=1.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B517",
+"claim_killed": "(from the arc's verdict line) Within Fibonacci-intertwining couplings the golden-3d bootstrap coupling is unique, (C,D)=(F,F^2), and that canonical coupling is Pisot only for the golden mean.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B534",
+"claim_killed": "(from the arc's verdict line) Dark-hyperbola theorem proved for all odd primes: T(j,l)=0 \u27fa jl\u2261\u22124 except the (2,\u22122) survivor, magnitude spectrum exactly {0,1,\u221ap}.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B557",
+"claim_killed": "(from the arc's verdict line) ESTABLISHED exactly: the escalator's coupling rule (C,D)=(M,M^2) is FORCED at rung 1 and a CHOICE above it (B517 intertwining forces C=p(M)), plus the explicit 8-letter carrier sigma_8, both locked. UNSETTLED: the E0 lit-gate never ran, so no novelty claim is available; the saturation cells and the firewalled physics-ladder cell were never executed.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B583",
+"claim_killed": "(from the arc's verdict line) The meeting stays complex-chiral with no real form, vacuum Dehn-filling probes can never hear chirality, and the corrected interference obeys a quadrature theorem.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B610",
+"claim_killed": "(from the arc's verdict line) Three universality splits computed: the R^2L bundle's odd trace is complex and zeta-6 phased, never conjugation-closed, and never leaves the unit circle.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B649",
+"claim_killed": "(from the arc's verdict line) The silver m136 holonomy is exact over L=Q(s,i), and its 27-double reproduces the fig-8's FORM rows (3/5/1 dimensions, J^2=+1 real structure, zero law, sigma*-law, imaginary-quadratic field of definition); VALUE rows are object-chosen.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B694",
+"claim_killed": "(from the arc's verdict line) Both routes give a_(5) = +1, and rational base change forces every Bianchi Hecke eigenvalue into Q, so the automorphic avatar structurally cannot carry the golden.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B715",
+"claim_killed": "(from the arc's verdict line) The object's native gauge system is complex Chern-Simons of E6(C): the non-real adjoint trace excludes every real form, and the Z/11 is a UV-arithmetic non-descending charge.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B733",
+"claim_killed": "(from the arc's verdict line) The menu of observers at the congruence doors is a bounded discrete F_2-space (V4 of dim 2, up to 3; the full diagonal 2-rank saturating at 3, depth-independent), and at door 2 the single bit couples being and hearing.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B749",
+"claim_killed": "(from the arc's verdict line) The genesis axiom chain is priced by computation: F2/F3/F4/F7 ROBUST, F5 and F6 FRAGILE (the det \u22121 sibling is the Gieseking; closure keeps only the hearing face), and F8 geometry-necessary \u2014 geometry buys \u211a(\u221a\u22123).",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B762",
+"claim_killed": "(from the arc's verdict line) m004 is the unique 1-cusped census manifold with its spectral dataset (volume plus cusp shape), so the emitted word is a self-name.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B774",
+"claim_killed": "(from the arc's verdict line) Of 174 banked negatives, 129 are structurally immune and all 12 load-bearing chord-blind walls harden at theta-odd level \u2014 zero overturns.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+},
+{
+"id": "B791",
+"claim_killed": "(from the arc's verdict line) Independently verified the B788 Maass bank and corrected the Weyl completeness criterion to dim(V_i) x W(T) per sector, dissolving the claimed live defect.",
+"kill_form": "other",
+"hatch": null,
+"scope": null
+}
+]

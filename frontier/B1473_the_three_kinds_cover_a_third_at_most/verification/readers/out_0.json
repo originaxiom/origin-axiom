@@ -1,0 +1,709 @@
+[
+ {
+  "id": "B101",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "does NOT climb",
+  "confidence": "high"
+ },
+ {
+  "id": "B107",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "category error — tower/torsion are linearized monodromy on moduli-space tangent",
+  "confidence": "high"
+ },
+ {
+  "id": "B111",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "s_n ∈ {±1} (order ≤2) cannot equal the order-4 secondary c=i",
+  "confidence": "high"
+ },
+ {
+  "id": "B120",
+  "kind": "OTHER",
+  "label": "no-extra-structure",
+  "quote": "distinct integer matrices with equal (trace,det) yield identical towers",
+  "confidence": "low"
+ },
+ {
+  "id": "B128",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "center ≠ gauge group",
+  "confidence": "high"
+ },
+ {
+  "id": "B132",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "the field content is quantum-group arithmetic",
+  "confidence": "medium"
+ },
+ {
+  "id": "B140",
+  "kind": "PAIRING",
+  "label": "orientation-reversal",
+  "quote": "mirror has same volume, opposite CS, conjugate-isomorphic trace field",
+  "confidence": "low"
+ },
+ {
+  "id": "B146",
+  "kind": "PAIRING",
+  "label": "mirror-indifference",
+  "quote": "no selection using only orientation-independent invariants can prefer M vs its mirror",
+  "confidence": "medium"
+ },
+ {
+  "id": "B154",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "off-principal data gives k=4 at BOTH n=3 and n=4",
+  "confidence": "low"
+ },
+ {
+  "id": "B157",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "REFUTED by computed bronze (m=3) counterexamples",
+  "confidence": "medium"
+ },
+ {
+  "id": "B161",
+  "kind": "NON-UNIQUENESS",
+  "label": "free-continuum",
+  "quote": "κ is a FREE continuum on the trace-map fixed locus",
+  "confidence": "high"
+ },
+ {
+  "id": "B165",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "marked NEEDS-SPECIALIST",
+  "confidence": "high"
+ },
+ {
+  "id": "B166",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "SL(n≥3) is not the transfer group of ANY self-adjoint operator",
+  "confidence": "high"
+ },
+ {
+  "id": "B172",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "sharp label certification is method-limited",
+  "confidence": "high"
+ },
+ {
+  "id": "B177",
+  "kind": "FLATNESS",
+  "label": "no-dynamics",
+  "quote": "no dissipation, no arrow",
+  "confidence": "low"
+ },
+ {
+  "id": "B182",
+  "kind": "NON-UNIQUENESS",
+  "label": "proliferation",
+  "quote": "proliferation not selection-to-unique",
+  "confidence": "high"
+ },
+ {
+  "id": "B183",
+  "kind": "NON-UNIQUENESS",
+  "label": "external-scale",
+  "quote": "externally sourced (the imaginary gauge field is input)",
+  "confidence": "low"
+ },
+ {
+  "id": "B184",
+  "kind": "NON-UNIQUENESS",
+  "label": "proliferating-product",
+  "quote": "a growing product, not a selected Lie/gauge group",
+  "confidence": "medium"
+ },
+ {
+  "id": "B185",
+  "kind": "NON-UNIQUENESS",
+  "label": "fork-size>1",
+  "quote": "the fork has size >1, multiplies under composition, and is choice-dependent",
+  "confidence": "high"
+ },
+ {
+  "id": "B186",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the rigorous off-axis uniform-hyperbolicity PROOF is unreachable in-sandbox",
+  "confidence": "high"
+ },
+ {
+  "id": "B191",
+  "kind": "NON-UNIQUENESS",
+  "label": "proliferating-fork",
+  "quote": "stays discrete-and-proliferating",
+  "confidence": "high"
+ },
+ {
+  "id": "B192",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "an artifact of three cherry-picked energies plus a dense-Gaussian rigged control",
+  "confidence": "high"
+ },
+ {
+  "id": "B193",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "all four (chirality, field) combinations occur",
+  "confidence": "high"
+ },
+ {
+  "id": "B197",
+  "kind": "OTHER",
+  "label": "not-independent",
+  "quote": "the volume filter is unique only GIVEN torsion-free",
+  "confidence": "medium"
+ },
+ {
+  "id": "B198",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the exact symbolic k at SL(5) is unreachable",
+  "confidence": "medium"
+ },
+ {
+  "id": "B199",
+  "kind": "OTHER",
+  "label": "no-closed-form",
+  "quote": "killed by PROVEN collisions",
+  "confidence": "medium"
+ },
+ {
+  "id": "B200",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "t_eff=2t^2/U is strong-coupling only",
+  "confidence": "high"
+ },
+ {
+  "id": "B214",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "vacuous (identical |Z| for the same monodromy is the definition of a topological invariant)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B216",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "from a proxy invariant (scalar-depth tested against +/-I only)",
+  "confidence": "high"
+ },
+ {
+  "id": "B219",
+  "kind": "FLATNESS",
+  "label": "invariant-constant",
+  "quote": "every content-1 class has period exactly 80 = lcm/content, regardless of genus signature",
+  "confidence": "low"
+ },
+ {
+  "id": "B225",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "the '2 = octahedral parent' half",
+  "confidence": "low"
+ },
+ {
+  "id": "B237",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "Silver bundle pi_1 carries a binary octahedral (2O) quotient",
+  "confidence": "medium"
+ },
+ {
+  "id": "B239",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "reachability of Q(sqrt(-7)) by any unimodular element (below the disc=-4 floor)",
+  "confidence": "high"
+ },
+ {
+  "id": "B243",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "The 'metallic ladder' V(m^2+2) in Q(sqrt(m^2+4))",
+  "confidence": "low"
+ },
+ {
+  "id": "B247",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "'geometric holonomy lives in SU(2)' refuted",
+  "confidence": "medium"
+ },
+ {
+  "id": "B252",
+  "kind": "PAIRING",
+  "label": "conjugation-odd",
+  "quote": "complex-conjugation-odd (chiral / CP-odd) invariant that could prefer 27 over 27-bar",
+  "confidence": "low"
+ },
+ {
+  "id": "B272",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "'REDUCED -- no math obstruction left' for the E6 bridge",
+  "confidence": "low"
+ },
+ {
+  "id": "B279",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "'tau could SWAP the two spin structures of 4_1'",
+  "confidence": "low"
+ },
+ {
+  "id": "B285",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "physical CP-violating (Jarlskog-type) phase sourcing baryon asymmetry",
+  "confidence": "medium"
+ },
+ {
+  "id": "B294",
+  "kind": "NON-UNIQUENESS",
+  "label": "catalogue",
+  "quote": "selective for the object's own structure, catalogue for SM values",
+  "confidence": "medium"
+ },
+ {
+  "id": "B295",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "the V(tau) potential is the wrong object",
+  "confidence": "medium"
+ },
+ {
+  "id": "B296",
+  "kind": "OTHER",
+  "label": "not-a-kill",
+  "quote": "red-team found none (0 refutations)",
+  "confidence": "high"
+ },
+ {
+  "id": "B299",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "phi acts FREELY on the 27 (9 orbits of 3, zero fixed weights)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B305",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "A2 is impossible (needs a height-12 root; E6 tops at 11)",
+  "confidence": "high"
+ },
+ {
+  "id": "B307",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "C3 fields are totally real, hyperbolic invariant trace fields always have a complex place",
+  "confidence": "high"
+ },
+ {
+  "id": "B310",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "equal pi*i/3 deformation spacing tied to the cusp shape",
+  "confidence": "low"
+ },
+ {
+  "id": "B313",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "the figure-eight is forced as a theorem",
+  "confidence": "low"
+ },
+ {
+  "id": "B320",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "observer=seam is proven mathematics",
+  "confidence": "low"
+ },
+ {
+  "id": "B321",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "The CP phase pi/6 IS the core geodesic length of the (6,3) Dehn filling",
+  "confidence": "low"
+ },
+ {
+  "id": "B325",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the E6 cubic cannot split them and the CRUX relocates to Level 4",
+  "confidence": "low"
+ },
+ {
+  "id": "B332",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "the 1/4 volume-suppression fits SM ratios",
+  "confidence": "low"
+ },
+ {
+  "id": "B334",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "137 lands non-principal",
+  "confidence": "low"
+ },
+ {
+  "id": "B335",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "The mass hierarchy is in the object",
+  "confidence": "low"
+ },
+ {
+  "id": "B343",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "The object selects a TM2 (or any) TBM-breaking direction",
+  "confidence": "low"
+ },
+ {
+  "id": "B360",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "Seam brightness follows seed parity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B361",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "bright iff the pair contains a seed elliptic at both primes",
+  "confidence": "medium"
+ },
+ {
+  "id": "B364",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "T-stability forces the theta lift as THE geometric lift",
+  "confidence": "low"
+ },
+ {
+  "id": "B365",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "triangular family S-closed on its own 15-dim span, square not",
+  "confidence": "medium"
+ },
+ {
+  "id": "B367",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "uniform local-symbol product formula at declared complexity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B372",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the sqrt(-15) content does not persist at level 45",
+  "confidence": "medium"
+ },
+ {
+  "id": "B373",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "gapless-trending reading feeding the tower-limit door PD2.2",
+  "confidence": "medium"
+ },
+ {
+  "id": "B374",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "no invariant sector at the first mixed m=15",
+  "confidence": "medium"
+ },
+ {
+  "id": "B385",
+  "kind": "FLATNESS",
+  "label": "identical-profiles",
+  "quote": "kill 1: identical invariant profiles",
+  "confidence": "low"
+ },
+ {
+  "id": "B389",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "dihedral mechanism M1/M2: inversion law t(−a,−b)=t(a,b)",
+  "confidence": "low"
+ },
+ {
+  "id": "B392",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "T-spectrum no-match, completing the earlier S-level no-match",
+  "confidence": "medium"
+ },
+ {
+  "id": "B394",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "actual support a≡31 mod 45, twelve cells",
+  "confidence": "medium"
+ },
+ {
+  "id": "B397",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "both killed exhaustively",
+  "confidence": "medium"
+ },
+ {
+  "id": "B399",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "the tower is a RESOLUTION generator, not a scale generator",
+  "confidence": "medium"
+ },
+ {
+  "id": "B400",
+  "kind": "NON-UNIQUENESS",
+  "label": "arbitrary-identification",
+  "quote": "any linking object requires arbitrary identification choices",
+  "confidence": "low"
+ },
+ {
+  "id": "B401",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "killed by 7 (inert) sitting in the bright (3,4) Gram spectrum",
+  "confidence": "medium"
+ },
+ {
+  "id": "B403",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "vacuous on denominators",
+  "confidence": "medium"
+ },
+ {
+  "id": "B405",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "equal dressability = unfalsifiable",
+  "confidence": "medium"
+ },
+ {
+  "id": "B406",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "FORCED BY TORSION",
+  "confidence": "medium"
+ },
+ {
+  "id": "B407",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "(2,4) has both exclusives (no nesting either way), (1,3) nests in REVERSE",
+  "confidence": "high"
+ },
+ {
+  "id": "B409",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "holds on only 4/6 pairs",
+  "confidence": "high"
+ },
+ {
+  "id": "B411",
+  "kind": "NON-UNIQUENESS",
+  "label": "multi-valued",
+  "quote": "multi-valued on generic invertible-det cells (6 H-types share one class label)",
+  "confidence": "low"
+ },
+ {
+  "id": "B412",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "the tower is a mass-conserving refining MEASURE",
+  "confidence": "medium"
+ },
+ {
+  "id": "B418",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "none realizes the mirror cell-wise",
+  "confidence": "medium"
+ },
+ {
+  "id": "B428",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no theta=-1 object at level 1 or 2",
+  "confidence": "high"
+ },
+ {
+  "id": "B433",
+  "kind": "OTHER",
+  "label": "method-limit",
+  "quote": "scale enters only via external embedding (R/CY)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B435",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "H1 = Z/p for EVERY knot at slope p (trefoil control)",
+  "confidence": "high"
+ },
+ {
+  "id": "B437",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "trefoil(5,1) gives the SAME field Q(sqrt5)",
+  "confidence": "high"
+ },
+ {
+  "id": "B440",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "4_1 and 5_2 children both have exactly 4 irreducible vacua in the identical -283 field",
+  "confidence": "high"
+ },
+ {
+  "id": "B443",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "figure-eight-unique features: none found at any floor",
+  "confidence": "high"
+ },
+ {
+  "id": "B444",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "separation inherited from SL(2) arithmeticity (not created at SL(3))",
+  "confidence": "high"
+ },
+ {
+  "id": "B445",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "H1 = 6 = rank(E6) is universal (Menal-Ferrer-Porti)",
+  "confidence": "high"
+ },
+ {
+  "id": "B459",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "the weakest possible structural match",
+  "confidence": "medium"
+ },
+ {
+  "id": "B465",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "needs an irreducible 8; none exists",
+  "confidence": "high"
+ },
+ {
+  "id": "B468",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "a float tier-misclassification with the dark total itself wrong",
+  "confidence": "medium"
+ },
+ {
+  "id": "B472",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "kappa_q(1,1) = -1 != kappa_classical = -2",
+  "confidence": "medium"
+ },
+ {
+  "id": "B474",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the seventh float-kill",
+  "confidence": "high"
+ },
+ {
+  "id": "B476",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "5x13=65≠49 (does not factor)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B477",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "refuted as universal by s776's count (3 fertile classes, not a power of 2)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B482",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "a different number/clock",
+  "confidence": "low"
+ },
+ {
+  "id": "B483",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "3,8,15 = a(a+2) = adjoint dims of SU(2),SU(3),SU(4) (forced spin-j arithmetic at any level)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B484",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the braid image is DENSE in SU(dim), the antithesis of a closed proper gauge subgroup",
+  "confidence": "medium"
+ },
+ {
+  "id": "B486",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the figure-eight cusp modulus is 2√−3 (disc −48), rectangular, NOT the hexagonal point",
+  "confidence": "high"
+ },
+ {
+  "id": "B487",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "the SU(3) is a GLOBAL FLAVOR symmetry of a 3d N=2 U(1) gauge theory",
+  "confidence": "high"
+ },
+ {
+  "id": "B489",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no gauge enhancement anywhere",
+  "confidence": "high"
+ },
+ {
+  "id": "B491",
+  "kind": "OTHER",
+  "label": "not-novel",
+  "quote": "COROLLARY of Cantat 2009",
+  "confidence": "high"
+ },
+ {
+  "id": "B492",
+  "kind": "OTHER",
+  "label": "genericity",
+  "quote": "classical RCFT modular data: the same banked golden phi dressed as boundary entropy",
+  "confidence": "medium"
+ }
+]

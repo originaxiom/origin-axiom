@@ -1,0 +1,709 @@
+[
+ {
+  "id": "B500",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "35/150 (23%) UNCHECKED",
+  "confidence": "medium"
+ },
+ {
+  "id": "B513",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "the (2,1) is generic to any F₂ variety",
+  "confidence": "low"
+ },
+ {
+  "id": "B515",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "KILLED BY COUNTEREXAMPLE",
+  "confidence": "high"
+ },
+ {
+  "id": "B516",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "so 3 is not dimension-selected",
+  "confidence": "medium"
+ },
+ {
+  "id": "B52",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The naive three-channel Fibonacci tight-binding model supplies the PC12 physics bridge",
+  "confidence": "low"
+ },
+ {
+  "id": "B520",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "Exploration-seat handoff claims",
+  "confidence": "low"
+ },
+ {
+  "id": "B521",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "Some peripheral invariant forces a choice the object doesn't make",
+  "confidence": "low"
+ },
+ {
+  "id": "B523",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "is generic to any 2-real-1-complex quartic Pisot",
+  "confidence": "medium"
+ },
+ {
+  "id": "B525",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "3 of 9 CRACKED (B519-NOCROSS retracted, C3-CONE certificate bug, CHILD-NOTSHORT downgraded)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B526",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the isotropy-Stein no-go, via non-normal transient growth",
+  "confidence": "medium"
+ },
+ {
+  "id": "B536",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "NOT REPRODUCED — natural lift gives period 20, convention-dependent",
+  "confidence": "low"
+ },
+ {
+  "id": "B539",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "matches relations among the SM's 19 dimensionless parameters",
+  "confidence": "low"
+ },
+ {
+  "id": "B545",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "7 inert in Q(sqrt(3))",
+  "confidence": "medium"
+ },
+ {
+  "id": "B548",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "un-hideability as a discriminating special property of the object",
+  "confidence": "medium"
+ },
+ {
+  "id": "B550",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "Promotion-Sign Conjecture",
+  "confidence": "medium"
+ },
+ {
+  "id": "B553",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "killed as KNOWN — KKT 1983/Casdagli/Roberts",
+  "confidence": "low"
+ },
+ {
+  "id": "B554",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "REFUTED (181,678/299,999 = 61% mismatches",
+  "confidence": "medium"
+ },
+ {
+  "id": "B558",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "0/17 dictionary values at 1%, 0 dictionary-relation matches",
+  "confidence": "low"
+ },
+ {
+  "id": "B56",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "linking it to the c=1 Eisenstein structure (a holonomy bridge)",
+  "confidence": "low"
+ },
+ {
+  "id": "B561",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The figure-eight's Eisenstein Z/3 selects SU(3)^2 (A2xA2~) inside F4",
+  "confidence": "low"
+ },
+ {
+  "id": "B567",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "SM-like level structure",
+  "confidence": "low"
+ },
+ {
+  "id": "B569",
+  "kind": "FLATNESS",
+  "label": "zero-intertwiner",
+  "quote": "zero-intertwiner",
+  "confidence": "low"
+ },
+ {
+  "id": "B57",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "The apparent match between the class number h(Q(sqrt-15))=2",
+  "confidence": "low"
+ },
+ {
+  "id": "B572",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "'sigma distinguishes 27 from 27bar'",
+  "confidence": "low"
+ },
+ {
+  "id": "B574",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "escapes the fifth (vector-like) wall",
+  "confidence": "low"
+ },
+ {
+  "id": "B579",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "alpha_s(M_Z)=1/(2 phi^3), sin^2 theta13 = 1/phi^8",
+  "confidence": "medium"
+ },
+ {
+  "id": "B58",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the cotangent cleanly yields a_d",
+  "confidence": "low"
+ },
+ {
+  "id": "B585",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "failed hold-out at kappa=17,18",
+  "confidence": "medium"
+ },
+ {
+  "id": "B59",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "PC12's Open Prediction for the SL(4) fixed-line Jacobian",
+  "confidence": "low"
+ },
+ {
+  "id": "B60",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "cond(Dx) ~ 1e11 conditioning barrier",
+  "confidence": "high"
+ },
+ {
+  "id": "B604",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "which theta-odd pair goes to the V8 block and which to V16",
+  "confidence": "low"
+ },
+ {
+  "id": "B605",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the amphichiral involution tau is a reflection with Fix(tau) a totally geodesic surface",
+  "confidence": "medium"
+ },
+ {
+  "id": "B619",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "a group-identity bridge from the stage to A5 flavor models",
+  "confidence": "low"
+ },
+ {
+  "id": "B62",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "tr and det scatter across seeds",
+  "confidence": "medium"
+ },
+ {
+  "id": "B624",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "trace(B_odd) is the SAME twelve-term Gauss assembly up to a fixed framing phase",
+  "confidence": "medium"
+ },
+ {
+  "id": "B626",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "J-as-function-of-t killed outright by the exact counterexample RRLL vs RRRRL",
+  "confidence": "high"
+ },
+ {
+  "id": "B632",
+  "kind": "FLATNESS",
+  "label": "vanishing-class",
+  "quote": "H^2(M;C)=0 + graded-commutativity force antisymmetry, zero diagonal",
+  "confidence": "low"
+ },
+ {
+  "id": "B654",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "predicts Q(zeta8) for silver; observed Q(i)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B656",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "a universal cocycle factor, not an area count",
+  "confidence": "medium"
+ },
+ {
+  "id": "B657",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the holonomy-invariant line v0 is NOT the GUT singlet",
+  "confidence": "medium"
+ },
+ {
+  "id": "B66",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the |k|=3 multiplicity at SL(6) is exactly 2, same as SL(5)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B664",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "'the golden is the ONLY real minimum' (refuted",
+  "confidence": "medium"
+ },
+ {
+  "id": "B668",
+  "kind": "FLATNESS",
+  "label": "trivial-period",
+  "quote": "a periodic sequence has ZERO asymptotic 1/k content",
+  "confidence": "medium"
+ },
+ {
+  "id": "B669",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "boundedness is certificate-structural, not amphichirality",
+  "confidence": "low"
+ },
+ {
+  "id": "B672",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "unique quadratic subfield Q(sqrt5) REAL",
+  "confidence": "medium"
+ },
+ {
+  "id": "B677",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "genuinely Q(zeta5)-irrational leading coefficient vs the INTEGER targets",
+  "confidence": "low"
+ },
+ {
+  "id": "B681",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "killed by the exact decomposition v5(den c_n) = n + v5(n!)",
+  "confidence": "low"
+ },
+ {
+  "id": "B685",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the streams require growing 5-adic denominators",
+  "confidence": "high"
+ },
+ {
+  "id": "B687",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "sin^2 theta12 has ~20 golden values in its band",
+  "confidence": "medium"
+ },
+ {
+  "id": "B693",
+  "kind": "FLATNESS",
+  "label": "trivial-value",
+  "quote": "a_(5) = +1, the trivial Steinberg value in Q",
+  "confidence": "low"
+ },
+ {
+  "id": "B698",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The meeting is a product, not a fusion",
+  "confidence": "medium"
+ },
+ {
+  "id": "B699",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "filling is generic by strong approximation",
+  "confidence": "medium"
+ },
+ {
+  "id": "B703",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "a post-hoc fit atop the Q=2/3 parametrization tautology",
+  "confidence": "medium"
+ },
+ {
+  "id": "B705",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "base-rate-dead coincidence",
+  "confidence": "medium"
+ },
+ {
+  "id": "B706",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "discrete orientation bits vs ~19-26 continuous real parameters",
+  "confidence": "medium"
+ },
+ {
+  "id": "B709",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "T4 permitted-not-forced",
+  "confidence": "low"
+ },
+ {
+  "id": "B710",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "fig-8 saddle actions real (Im=0, AT the conjugation fixed point",
+  "confidence": "low"
+ },
+ {
+  "id": "B711",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "distinct commuting involutions acting ORTHOGONALLY",
+  "confidence": "medium"
+ },
+ {
+  "id": "B712",
+  "kind": "NON-UNIQUENESS",
+  "label": "non-canonical",
+  "quote": "Non-canonicity goes TOTAL",
+  "confidence": "low"
+ },
+ {
+  "id": "B720",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "NO-MATCH: needs higher-dim bulk",
+  "confidence": "medium"
+ },
+ {
+  "id": "B721",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "Killed as rung-mismatch",
+  "confidence": "medium"
+ },
+ {
+  "id": "B724",
+  "kind": "OTHER",
+  "label": "mixed",
+  "quote": "re-adjudicated with every discriminating fact RECOMPUTED",
+  "confidence": "low"
+ },
+ {
+  "id": "B726",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "neither lives in a bare quadratic face (Q(sqrt5) is totally real, no phase)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B727",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "the three faces are canonical functions of ONE ADE label",
+  "confidence": "medium"
+ },
+ {
+  "id": "B731",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "B731 concluded NON-congruence (congruence closure index 6 < geometric 12)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B734",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "abelian GL(1) type mismatch vs the non-abelian Bianchi tower",
+  "confidence": "medium"
+ },
+ {
+  "id": "B736",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "all 24 graded (d)=nothing-forced",
+  "confidence": "low"
+ },
+ {
+  "id": "B77",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "A<->D unification conjecture (I-series)",
+  "confidence": "low"
+ },
+ {
+  "id": "B84",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "I1: the SL(5) tower barrier is a fixable gauge/basis artifact",
+  "confidence": "medium"
+ },
+ {
+  "id": "B87",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "m=2 (genus 1, j=1728, CM by Z[i]) is a genus MINIMUM",
+  "confidence": "medium"
+ },
+ {
+  "id": "B90",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "L1a is a TAUTOLOGY (holds for arbitrary (A,t)",
+  "confidence": "medium"
+ },
+ {
+  "id": "W1-hardened-record",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "matches a measured SM value beyond base rate",
+  "confidence": "low"
+ },
+ {
+  "id": "W2-typing-wall-1prime",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "A Yukawa-type (symmetric) family tensor for identical generations exists",
+  "confidence": "low"
+ },
+ {
+  "id": "W3-B632",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "A symmetric mass-matrix-shaped object (a scalar-valued symmetric texture on H^1) exists",
+  "confidence": "low"
+ },
+ {
+  "id": "W4-B604/B607/B608",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "a pair-to-block assignment exists",
+  "confidence": "low"
+ },
+ {
+  "id": "W5-B565-T3/B605",
+  "kind": "FLATNESS",
+  "label": "zero-index",
+  "quote": "nonzero chiral index",
+  "confidence": "medium"
+ },
+ {
+  "id": "W6-B307",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "some hyperbolic knot has a cyclic-cubic (C3) trace field",
+  "confidence": "medium"
+ },
+ {
+  "id": "W7-rebase",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The naive Z/3 triality acts on H^1(D;27)",
+  "confidence": "low"
+ },
+ {
+  "id": "W8-B643/B658",
+  "kind": "PAIRING",
+  "label": "mirror",
+  "quote": "Some orientation-reversing (mirror) symmetry of Isom(4_1)=D4 survives",
+  "confidence": "low"
+ },
+ {
+  "id": "W9-B644/B650",
+  "kind": "FLATNESS",
+  "label": "zero-intertwiner",
+  "quote": "A nonzero C-linear monodromy-equivariant map exists",
+  "confidence": "low"
+ },
+ {
+  "id": "W10-B660/B666",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "The framework can output any dimensionful quantity AS A VALUE",
+  "confidence": "medium"
+ },
+ {
+  "id": "W11-B706",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "SM flavor ratios are low-height algebraic over the audible field Q(sqrt5)",
+  "confidence": "low"
+ },
+ {
+  "id": "S014 — cosmological-constant value formula",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "Λ = Λ_Planck·φ^(−2N)",
+  "confidence": "low"
+ },
+ {
+  "id": "S015 — tower eigenvalues = masses / operator dimensions",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "The SL(n) tower eigenvalues are a physical mass/operator-dimension spectrum",
+  "confidence": "low"
+ },
+ {
+  "id": "S016 — Goldman metric (1,1) Lorentzian",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The Goldman/Weil–Petersson form on the character variety is Lorentzian (1,1)",
+  "confidence": "low"
+ },
+ {
+  "id": "S017 — phase-space 3+1D at SL(3)",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "SL(3) character variety has 6 real dimensions → 3+1 spacetime",
+  "confidence": "low"
+ },
+ {
+  "id": "S018 — the spacetime tower up the ranks",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Lorentzian signature climbs the principal-SL(2) ladder to give 3+1 at higher rank",
+  "confidence": "low"
+ },
+ {
+  "id": "S019 — Fisher metric on CS level k",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "An information-geometry (Fisher-metric) reading of the Chern–Simons level",
+  "confidence": "low"
+ },
+ {
+  "id": "S021 — entanglement = holographic",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "The Fibonacci critical chain's entanglement signals holography",
+  "confidence": "low"
+ },
+ {
+  "id": "Meta-kill — one collision causes all walls",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "A single repeated −1 is the common root cause",
+  "confidence": "low"
+ },
+ {
+  "id": "Math-kill — θ → c (opposition involution predicts degree=rank scalar)",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "θ=−w₀ predicts all four per-eigenvector Dehn-filling scalars c",
+  "confidence": "low"
+ },
+ {
+  "id": "Math-kill — s_n = c (tower sign predicts degree=rank scalar)",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The tower sign s_n∈{±1} equals the degree=rank secondary scalar c=i",
+  "confidence": "low"
+ },
+ {
+  "id": "Value-kill — CS-crossover k≈4 ↔ n=4",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "The Chern–Simons level crosses over near k≈4, matching the rank n=4",
+  "confidence": "low"
+ },
+ {
+  "id": "Standard-theory-kills — quantum/knot probing triage (Chat-2)",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "Five quantum-tower/knot observations read as framework-specific bridges",
+  "confidence": "low"
+ },
+ {
+  "id": "K-A/K-B — det=−1 breaks chirality / selects SM chiral structure",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "det=−1 breaks chirality and selects the Standard-Model chiral structure",
+  "confidence": "low"
+ },
+ {
+  "id": "K-C — figure-eight quantized = physical Fibonacci order",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "The quantized figure-eight is the physical Fibonacci topological order",
+  "confidence": "low"
+ },
+ {
+  "id": "K-D — physical (unitary) topological order from the metallic family",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "Some metallic member furnishes physical (unitary, chiral) topological order",
+  "confidence": "low"
+ },
+ {
+  "id": "K-E — a forced dimensionful scale or non-generic physical ratio",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "non-generic physical ratio",
+  "confidence": "low"
+ },
+ {
+  "id": "K-F — single torsion ℤ/n → SU(n) center → gauge-group bridge",
+  "kind": "OTHER",
+  "label": "kind-mismatch",
+  "quote": "H₁ torsion tracks chirality and its ℤ/n is an SU(n) center selecting a gauge group",
+  "confidence": "low"
+ },
+ {
+  "id": "K-G — the metallic structure HAS a forced choice (isolated κ fixed points)",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "Isolated fixed points with distinct unsymmetrizable κ values give the structure a forced choice",
+  "confidence": "low"
+ },
+ {
+  "id": "K-H — chirality shifts the eigenvalue arithmetic",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "chirality causes the eigenvalue field content",
+  "confidence": "low"
+ }
+]

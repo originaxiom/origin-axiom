@@ -1,0 +1,709 @@
+[
+{
+"id": "B101",
+"claim_killed": "The 'tower of spacetimes up the ranks' / '3+1D at SL(3) via phase-space dimension': Lorentzian signature climbing the SL(n) rank ladder. Killed: the principal sl(2) invariant form lands in split real forms Sp(k+1,R)/SO(p,p\u00b11); Lorentzian (one timelike) occurs at exactly k=2 (SO(2,1)) and does NOT climb; Sp(4,R)/SO(3,2) appear but their symmetric spaces are higher-rank, not rank-1 spacetimes.",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B107",
+"claim_killed": "The metallic/SL(n) tower eigenvalues as a spectrum of new physics (masses / operator anomalous dimensions; torsion=masses). Killed twice over: (B) every Fibonacci tower eigenvalue is \u00b1\u03c6^k \u2014 one geometric scale log \u03c6, re-presented moduli-space monodromy, not a fluctuation spectrum; (C) category error \u2014 tower/torsion are linearized monodromy on moduli-space tangent, masses are the fluctuation Hessian, which monodromy does not determine.",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B111",
+"claim_killed": "The s_n\u2194c bridge: the tower's sign character s_n carrying the peripheral scalar c. Killed: s_n \u2208 {\u00b11} (order \u22642) cannot equal the order-4 secondary c=i \u2014 the same parity/order obstruction that killed \u03b8\u2192c (B108). Secondary tested-negative: the k=ord\u22121 exponent formula fails the all-four hinge.",
+"kill_form": "kind-mismatch",
+"hatch": "nonlinear-transport",
+"scope": null
+},
+{
+"id": "B120",
+"claim_killed": "That the trivial-point tower carries structure beyond (n; trace, det) \u2014 independent data that could seed anything more (values, spacetime). Killed: distinct integer matrices with equal (trace,det) yield identical towers (verified n=3,4,5; 8/15/24 roots match), forced by the Sym-decomposition; the tower is one object fixed by two inputs and nothing else enters.",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B128",
+"claim_killed": "The 'single torsion Z/n \u2192 SU(n) center \u2192 gauge group' bridge. Killed by two independent computed reasons: (1) empirical \u2014 torsion tracks periodicity/symmetry-order, not chirality (achiral doubles single-torsion, achiral periodic triples doubled, chiral (1,2,3) single Z/157); (2) interpretive \u2014 center \u2260 gauge group (T[M] is rank-1 abelian; Z/n is a one-form symmetry, not SU(n); the S029/S030 fence).",
+"kill_form": "kind-mismatch",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B132",
+"claim_killed": "S7/S5 (withdrawn by B133 control): 'chirality determines the SU(2)_k eigenvalue field (achiral\u2192Q(\u221a\u22123), chiral\u2192Q(\u03b6\u2081\u2082)) and chiral fragility drives the Z_k vanishing / selects the symmetric vacuum'. Killed: achiral words alone span all three fields (RRLL\u2192Q(\u03b6\u2081\u2082), RRRLLL\u2192Q(\u221a\u22123), RLRLRL\u2192Q) and achiral words also vanish at k=4 \u2014 the field content is quantum-group arithmetic (word spin-content mod 4, the T-twist), generic to words, not chirality or the manifold.",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B140",
+"claim_killed": "The B139-G hedge: 'genus \u2265 2 might be where chirality stops being a mere CS-sign' (the chirality firewall might be genus-1-specific). Killed by the standard orientation-reversal theorem (mirror has same volume, opposite CS, conjugate-isomorphic trace field \u2014 genus-independent). Also retracts (computed) the never-banked '~35 non-principal \u03c6-fixed points carry Q(\u221a\u22123)' \u2014 none exist.",
+"kill_form": "cited-as-sufficient",
+"hatch": "recompute-cited",
+"scope": null
+},
+{
+"id": "B146",
+"claim_killed": "B145's arithmetic arm ('every imaginary-quadratic-trace-field o-p-t bundle is amphichiral / no arithmetic chiral o-p-t bundle') \u2014 REFUTED: recomputed with the correct INVARIANT trace field, RRL/RLL are chiral with invariant trace field Q(\u221a\u22127). Plus the surviving negative B1: no selection using only orientation-independent invariants can prefer M vs its mirror; every canonical criterion checked is orientation-independent, so no canonical handedness preference.",
+"kill_form": "kind-mismatch",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B154",
+"claim_killed": "The rank-based reading of the degree=rank exponent ('k=n is fundamental') and the closed form k=4\u2212m(o\u22123). Killed: off-principal data gives k=4 at BOTH n=3 and n=4 (order-determined, rank-independent \u2014 'degree=rank' is a principal-spectrum coincidence via B95), and the closed form was later REFUTED by bronze m=3 counterexamples (B157 correction banner in-file) as an artifact of having only m\u2208{1,2}.",
+"kill_form": "value-numerology",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B157",
+"claim_killed": "The empirical closed form k=4\u2212m(o\u22123) for the metallic degree=rank exponent \u2014 REFUTED by computed bronze (m=3) counterexamples ((3,4)\u21923 vs predicted 1; (3,6)\u21921 vs predicted \u22125); any \u22643-parameter affine/modular law is an overfit of the sparse grid. Survives: order-determined, rank-independent; exact figure-eight cells; SL(4) {1,1,i,\u2212i} corner provably empty (ideal membership over Q(i)).",
+"kill_form": "value-numerology",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B161",
+"claim_killed": "'Cancellation (\u03ba=2) is forced/empty/excluded' and, upstream, '\u03ba sources a value of \u039b' (S014). Killed both ways: \u03ba is a FREE continuum on the trace-map fixed locus (\u03ba-elimination ideal empty, re-derived m=2,4 \u2014 no value ever selected) and \u03ba=2 is attained (B130), so 'forced/empty' is refuted; what survives is 'the value is free; the zero is non-generic' (codim-1, measure-zero, trivial fiber).",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B165",
+"claim_killed": "The in-sandbox provability of the off-axis (\u03ba<2) Cantor theorem: reduced to ONE open hypothesis (uniform hyperbolicity of the complexified trace map on its non-escaping set) and marked NEEDS-SPECIALIST \u2014 Hermitian-\u03ba>2 methods (Damanik\u2013Gorodetski) do not carry (non-normal transfer matrices, no off-axis ground truth). Two candidate diagnostics recorded as FAILED (\u03b5-component-count flat on known-Cantor control; Jacobian 'domination' ratio escape-contaminated).",
+"kill_form": "method-limit",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B166",
+"claim_killed": "That the higher-rank metallic system is a quantum (self-adjoint) operator inheriting SL(2)'s Cantor spectrum. Killed structurally: SL(n\u22653) \u2260 Sp \u2014 a self-adjoint 1D operator's transfer matrices preserve the Wronskian symplectic form, so SL(n\u22653) is not the transfer group of ANY self-adjoint operator (exact, n=3,5 verified); the SL(2)\u2194Fibonacci-Hamiltonian link is an n=2 coincidence (Sp(2)=SL(2)). Plus a recorded negative: no clean Cantor thinning in the naive SL(3,R) cocycle (explicitly undecided: artifact vs real).",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B172",
+"claim_killed": "The probe's own first-draft claim of 'clean IDS-convergence to the (3,\u22123) label' \u2014 self-refuted (residual plateaus at ~2e-4, fixed reference drifts past N~1e5); sharp label certification is method-limited \u2192 NEEDS-SPECIALIST. Also: genuine small-label (sum \u22643) combination gaps essentially absent across the three seed pairs. What survives: a real interaction-born combination gap exists (IDS not any low-order single-frequency label, N=4000-128000).",
+"kill_form": "method-limit",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B177",
+"claim_killed": "H3 of the 'is it alive?' hunt: that \u03ba>2 order is flux-sustained (metabolism \u2014 order that starves when feeding stops). Killed: the Fricke-Vogt invariant is CONSERVED across generations (drift <1e-8 \u2014 cannot starve, by the conservation law); the Sturmian gaps FREEZE at a positive constant rather than close (static structure, not flux); the trace map is invertible (T\u207b\u00b9\u2218T=id to 3e-17) and mirror-even \u2014 no dissipation, no arrow. Verdict: a conservative active-chaotic crystal/horseshoe, not a cell; metabolism/homeostasis/arrow relocate EXTERNAL.",
+"kill_form": "kind-mismatch",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B182",
+"claim_killed": "Superposition (weaving) of multiple metallic units selects a unique structure: refuted -- the gap-label module rank grows as 1+N (distinct fields), proliferation not selection-to-unique.",
+"kill_form": "finite-truncation",
+"hatch": "infinite-tower",
+"scope": null
+},
+{
+"id": "B183",
+"claim_killed": "Opening the metallic collective self-generates an arrow with an intrinsic scale: refuted -- a genuine non-unitary arrow appears but is thresholdless (g_c~0 from criticality), dimensionless, and externally sourced (the imaginary gauge field is input).",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B184",
+"claim_killed": "The interaction of multiple units forces a gauge group: refuted -- distinct-field interaction breaks the global inflation symmetry (cross-product escapes the module) and only multiplies per-unit SL(2,Z) dualities, a growing product, not a selected Lie/gauge group.",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B185",
+"claim_killed": "Iterated gluing constraints select a forced-unique value: refuted -- gluing selects continuum->discrete (kappa-fork) but the fork has size >1, multiplies under composition, and is choice-dependent; literal N>=3 all-unit interaction is impossible (1-cusp pieces cap connected gluings at pairs, exact graph-theory count).",
+"kill_form": "other",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B186",
+"claim_killed": "Not a physics-kill: a positive certification (kappa<2 off-axis Cantor hypothesis supported by 3 independent diagnostics, escape-rate validated on Damanik-Gorodetski ground truth). The negative component: two local diagnostics fail (recorded), and the rigorous off-axis uniform-hyperbolicity PROOF is unreachable in-sandbox (non-Hermitian DG, no ground truth).",
+"kill_form": "method-limit",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B191",
+"claim_killed": "Chaining N>=3 units through connectors converges to a forced-unique selection: refuted -- the kappa-selection nests through a coupling 2-cusp connector but stays discrete-and-proliferating (fork grows with connector complexity: T:9, T^2:10, S:16, ST:32; never collapses to 1).",
+"kill_form": "other",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B192",
+"claim_killed": "The metallic SL(n) Lyapunov-spectrum parity law (symmetric iff n even, realizing V29, 163x metallic-special): REFUTED -- an artifact of three cherry-picked energies plus a dense-Gaussian rigged control; on a fair energy grid the defect grows monotonically with n and a same-companion random potential matches metallic ~1x.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B193",
+"claim_killed": "Chirality determines the SU(2)_k eigenvalue field: refuted -- all four (chirality, field) combinations occur (independence, computed cross-table); and classical trace-field fusion: refuted -- Q(sqrt-3) and Q(i) intersect in Q exactly; the fusion to Q(zeta12) is a quantum (SU(2)_k) phenomenon only.",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B197",
+"claim_killed": "Chat2's headline that the figure-eight selection is independently overdetermined: deflated -- the volume filter is unique only GIVEN torsion-free (the same condition the trace-3 sieve uses, not an independent axis), and shortest-word/min-trace are correlated; trace-3 sieve remains the only proof.",
+"kill_form": "other",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B198",
+"claim_killed": "Two negatives inside a wall-breach positive: (a) the candidate closed forms k=7-o / k=4-m(o-3) / gcd(m,o) REFUTED by the o=8 grid (geometric o=4 and o=8 both give k=3); (b) the exact symbolic k at SL(5) is unreachable -- the 25-variable Groebner/primary-decomposition wall (named precisely; Sage stalls at SL(4)/16 vars).",
+"kill_form": "method-limit",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B199",
+"claim_killed": "A closed-form metallic exponent law k(o,m) exists: killed by PROVEN collisions (o=4/o=8 both k=3 kills every f(o) and gcd-rule; A^2=A^3 spectral identity with k=2 vs k=1 kills every A^m-spectral law; o=4 column (3,2,3) kills every affine fit) -- only the sign s=(-1)^(n-1) survives, and the clean exponent is a codim-2 rigid sublocus (~1% at SL5), correcting B198's component-wide scope.",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B200",
+"claim_killed": "Chat1's R1 'kappa1=kappa2=3 at U=t, doublon = single-particle replica, interaction-level golden-ratio analogue': REFUTED -- t_eff=2t^2/U is strong-coupling only (at U=t it predicts a pair MORE mobile than a single particle; true 2-body ED RMS 3.77 vs 0.19 at U=20), and the claimed RMS=0 verification was circular (same chain rescaled by construction). R3 (Poisson->GOE) not banked; numbers did not reproduce.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B214",
+"claim_killed": "Two deflations inside a positive (period law + conductor-split): (a) 'content from interaction / Penrose' read of identical |Z| across three trace-15 words -- vacuous (identical |Z| for the same monodromy is the definition of a topological invariant); (b) the relayed 'all three words are conjugate, so it is just Jeffrey' -- refuted exactly (M0 is NOT conjugate to M1~M2 yet shares |Z|: Funar's phenomenon, |Z|-equality != conjugacy).",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B216",
+"claim_killed": "An elementary f>=8 period law exists: WRONGLY killed -- B216 proclaimed the f>=8 split genus-theoretic/NEEDS-SPECIALIST from a proxy invariant (scalar-depth tested against +/-I only), missing that sqrt(1) mod 8 = {1,3,5,7}; the 'obstruction' class was \u22615I (mod 8), true content 8. OVERTURNED by B219: the law is elementary, P=lcm(t-2,t+2)/content.",
+"kill_form": "cited-as-sufficient",
+"hatch": "recompute-cited",
+"scope": null
+},
+{
+"id": "B219",
+"claim_killed": "The WRT period depends on a genus/spinor-genus invariant beyond (trace, content): killed -- exhaustive at f=8 (all 542 class-reps, all four genera: every content-1 class has period exactly 80 = lcm/content, regardless of genus signature), mechanism proved (Klein-four 2-torsion of (Z/2^k)^x for k>=3), generalizes to f=16 and reproduces B204's block formula.",
+"kill_form": "other",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B225",
+"claim_killed": "Conductor 40 = (octahedral parent 2) x (golden filling 5): the '2 = octahedral parent' half (the '5 = golden filling' half HOLDS, exact).",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B237",
+"claim_killed": "Silver bundle pi_1 carries a binary octahedral (2O) quotient; plus chat-1's supporting claim 'all metallic bundles carry 2T and 2I'.",
+"kill_form": "zero-intertwiner",
+"hatch": "infinite-tower",
+"scope": null
+},
+{
+"id": "B239",
+"claim_killed": "The fragile 'trace-1, disc=1-4det' framing; reachability of Q(sqrt(-7)) by any unimodular element (below the disc=-4 floor); E7's Q(sqrt 2) at odd trace (parity-excluded).",
+"kill_form": "no-landing-site",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B243",
+"claim_killed": "The 'metallic ladder' V(m^2+2) in Q(sqrt(m^2+4)) for the level-rank self-dual figure-eight values (golden k=3, silver k=6 pattern).",
+"kill_form": "value-numerology",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B247",
+"claim_killed": "V1: E6 -> SM gauge group via the figure-eight's holonomy in SU(2)_long (centralizer = SU(3)xSU(2)xU(1)^2 refuted -> SU(6); and 'geometric holonomy lives in SU(2)' refuted).",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B252",
+"claim_killed": "The object carries an intrinsic complex-conjugation-odd (chiral / CP-odd) invariant that could prefer 27 over 27-bar (i.e. the object sources matter).",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport",
+"scope": null
+},
+{
+"id": "B272",
+"claim_killed": "B268's 'REDUCED -- no math obstruction left' for the E6 bridge (i.e. that input-E6 = output-E6 is forced); plus B265 'E6-irreducible connections EXIST' and B267 'five independent invariants imply one E6' as framed.",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B279",
+"claim_killed": "'tau could SWAP the two spin structures of 4_1' (chat-2's chiral branch: swap -> chiral matter possible).",
+"kill_form": "zero-intertwiner",
+"hatch": "recompute-cited",
+"scope": null
+},
+{
+"id": "B285",
+"claim_killed": "The pi/6 meridian-commutator phase is a physical CP-violating (Jarlskog-type) phase sourcing baryon asymmetry 'within ~1 order'.",
+"kill_form": "kind-mismatch",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B294",
+"claim_killed": "'The seam closings SELECT a distinguished SM-valued world' -- refuted as stated: selective for the object's own structure, catalogue for SM values (E6 lost on closing, CP sign external, scale gapped, chiral datum absent, trajectory gated).",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B295",
+"claim_killed": "Three at once: 'Curie forbids the sign' (P011's argument -- refuted, SSB loophole); 'an SSB double-well is available' (the V(tau) potential is the wrong object); 'tau is gauged so the sign is pure gauge' (stop-gated, eta link unverified).",
+"kill_form": "kind-mismatch",
+"hatch": "nonlinear-transport",
+"scope": null
+},
+{
+"id": "B296",
+"claim_killed": "That the seam arc (B287-B295) contained a refutable overclaim, firewall leak, or wrong promotion -- red-team found none (0 refutations); and that the classical math was novel (attributed: Thurston, Garoufalidis-Jeon, Goldman/NZ).",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B299",
+"claim_killed": "'H-label = phi-eigenvalue on the 27': that the (theta,phi) Z3xZ3 forces the colored-vs-electroweak (doublet-triplet) split -- phi acts FREELY on the 27 (9 orbits of 3, zero fixed weights), so no per-weight eigenvalue exists; which SU(3) is color is an external triality-breaking choice.",
+"kill_form": "no-landing-site",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B305",
+"claim_killed": "Chat-1's cascade 'E6 -> SU(3)^3 -> SU(3) color at the saddle u = i pi/3' -- the saddle survivors are A1xA1xA1 = SU(2)^3, and A2 is impossible (needs a height-12 root; E6 tops at 11). Second refutation after B304.",
+"kill_form": "no-landing-site",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B307",
+"claim_killed": "'Three symmetric generations from a single knot's cyclic-cubic (C3) trace field' -- theorem: C3 fields are totally real, hyperbolic invariant trace fields always have a complex place; the two are disjoint, so NO hyperbolic knot has a C3 trace field.",
+"kill_form": "kind-mismatch",
+"hatch": "infinite-tower",
+"scope": null
+},
+{
+"id": "B310",
+"claim_killed": "The E6 breaking cascade is realized object-specifically on the figure-eight character variety with equal pi*i/3 deformation spacing tied to the cusp shape",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B313",
+"claim_killed": "The SM chiral fermions ARE the Fibonacci anyons (27 -> 7 under the (G2)_1 bridge), and the figure-eight is forced as a theorem",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B320",
+"claim_killed": "The mod-7 -> Fano -> G2 -> color-SU(3) chain selects color object-specifically; the firewall Z/2 and generation Z/3 fuse into one problem; observer=seam is proven mathematics",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B321",
+"claim_killed": "The CP phase pi/6 IS the core geodesic length of the (6,3) Dehn filling, and Z/3 forces the rank-1 democratic Yukawa",
+"kill_form": "value-numerology",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B325",
+"claim_killed": "The two light generation eigenvalues are Z/3-protected, so the E6 cubic cannot split them and the CRUX relocates to Level 4",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B332",
+"claim_killed": "The founding letters yield particle-dictionary content: the 1/4 volume-suppression fits SM ratios, 16 = 4 + h(E6), and g = -R L^{-1} is the generation-cycling deck element",
+"kill_form": "value-numerology",
+"hatch": "recompute-cited",
+"scope": null
+},
+{
+"id": "B334",
+"claim_killed": "The seam's class-group partition yields a value prediction (137 lands non-principal)",
+"kill_form": "value-numerology",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B335",
+"claim_killed": "The mass hierarchy is in the object (the three generations carry a magnitude ordering)",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B343",
+"claim_killed": "The object selects a TM2 (or any) TBM-breaking direction; killed to: the object forces exact TBM (theta_13 = 0, experimentally excluded), all deviation external",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport",
+"scope": null
+},
+{
+"id": "B360",
+"claim_killed": "Seam brightness follows seed parity: bright iff the pair contains the even seed (prereg), or the opposite-parity variant",
+"kill_form": "absence-at-depth",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B361",
+"claim_killed": "The seam local law: bright iff the pair contains a seed elliptic at both primes (doubly-elliptic law, 8 pairs, zero counterexamples)",
+"kill_form": "absence-at-depth",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B364",
+"claim_killed": "T-stability forces the theta lift as THE geometric lift (the seam-bearing class is selected at the T-level)",
+"kill_form": "genericity",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B365",
+"claim_killed": "Polarization selection happens at the S-closure level (triangular family S-closed on its own 15-dim span, square not -- prereg)",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B367",
+"claim_killed": "The seam value map s(m1,m2) is a function of CRT-local data at level 15 (uniform local-symbol product formula at declared complexity); plus the B361 local law",
+"kill_form": "method-limit",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B372",
+"claim_killed": "The seam is a level-15 accident (prereg null: the sqrt(-15) content does not persist at level 45)",
+"kill_form": "other",
+"hatch": "infinite-tower",
+"scope": null
+},
+{
+"id": "B373",
+"claim_killed": "The pinned-exponent law: the level-45 minimal sector's eigenvalue exponent is pinned at \u00b16 with phase 9\u03c0/N \u2192 0 along the 3-tower (gapless-trending reading feeding the tower-limit door PD2.2).",
+"kill_form": "absence-at-depth",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B374",
+"claim_killed": "Three serial tower laws: the pinned-exponent law (killed at N=135), the pentagon-pair phase law {36\u00b0,108\u00b0} (killed at N=75: phase 90\u00b0, trace 0), and the sector-EXISTENCE law itself (killed at N=225: no invariant sector at the first mixed m=15).",
+"kill_form": "absence-at-depth",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B385",
+"claim_killed": "That the bright/dark discriminator is cheap: \u03b3-group-theoretic (kill 1: identical invariant profiles) or word-grid-statistical (kill 2: identical det-class distributions on the riddle pair); plus the translation-kill criterion draft (voided by its registered 12/12 failure, built on the \u03a0_H/DFT commutation fallacy).",
+"kill_form": "absence-at-depth",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B389",
+"claim_killed": "That the banked mirror law t(a,\u2212b)=\u03c4\u2083(t(a,b)) is a shadow of group inversion (dihedral mechanism M1/M2: inversion law t(\u2212a,\u2212b)=t(a,b) and the a-flip reduction).",
+"kill_form": "other",
+"hatch": "nonlinear-transport",
+"scope": null
+},
+{
+"id": "B392",
+"claim_killed": "Three wall probes: the tricritical-Ising identification of the sector (T-spectrum no-match, completing the earlier S-level no-match \u2014 dead at both modular levels); the \u03b8-grading\u2194seam exponent alignment (E\u2086\u2216F\u2084 lines {4,8} vs seam {6,14}/{2,10} \u2014 structural analogs only); and the support-residue prediction a\u22611 mod 15 (support walks a twisted congruence instead).",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B394",
+"claim_killed": "The naive CRT support-walk rule for the singles tower (both registered candidates for the level-405 support \u2014 59 and 86 mod 135 \u2014 killed: actual support a\u226131 mod 45, twelve cells).",
+"kill_form": "absence-at-depth",
+"hatch": "infinite-tower",
+"scope": null
+},
+{
+"id": "B397",
+"claim_killed": "Two local-mechanism readings: (a) the (2,3) stabilizer as pointwise \u03c3\u2081\u2089-fixing or a power-relabel intertwiner (both killed exhaustively \u2014 the stabilization is aggregate/window-level only); (b) the \u03c3_\u221a5 trace-conjugacy as an inter-model law (killed: the u\u2085-flipped model's slot combination is identically zero; conjugacy is intra-model, resolved-by-correction).",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B399",
+"claim_killed": "That the singles tower generates a SCALE: both 1215-rung candidates (CAND-FIX 12 cells / CAND-DEG 36 cells) killed (actual: 24 cells, 45-residue frozen), and W-A closes with 'the tower is a RESOLUTION generator, not a scale generator' \u2014 monotone contraction, every value in [\u22121/12, 1/4], total frozen at 1 while support Galois-splits.",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B400",
+"claim_killed": "That a canonical 3\u00d73 frame (mixing-matrix-type object) links the (2,3) Mercedes triple and the golden seam line: the golden line is EXACTLY orthogonal to the Mercedes plane (both projections identically zero) via support disjointness in the shared W\u2082-label space \u2014 any linking object requires arbitrary identification choices.",
+"kill_form": "zero-intertwiner",
+"hatch": "nonlinear-transport",
+"scope": null
+},
+{
+"id": "B401",
+"claim_killed": "The registered class-sorting bet 'seam-channel primes are non-principal-or-ramified in \u211a(\u221a\u221215)' \u2014 killed by 7 (inert) sitting in the bright (3,4) Gram spectrum.",
+"kill_form": "other",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B403",
+"claim_killed": "The prime-filter theorem (class-field filter on primes entering seam/\u03c3-odd quantities): V1 \u2014 vacuous on denominators (DFT forces {2,3,5}-smoothness for reasons having nothing to do with class field theory; the prediction can never fire); V2 \u2014 refuted on numerators (inert primes 49=7\u00b2, 13, 7 already banked in seam-channel numerators).",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B405",
+"claim_killed": "The supersingular dictionary ('#E(F_p) = |2T|, |Q\u2088| means something; every program prime's point-count means something'): #E = p+1 is automatic at any supersingular prime; the controls (p = 11,13,17,19 all give 16) show equal dressability = unfalsifiable (the S5 pattern); the 2I case cannot even be stated (119 composite).",
+"kill_form": "value-numerology",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B406",
+"claim_killed": "The 'modular correspondence = quantization map' lead between 15a1 and 40a1: the a_p \u2261 mod-4 congruence at every good prime < 200 is FORCED BY TORSION (\u2124/8 on 15a1, full 2-torsion on 40a1 \u21d2 both a_p \u2261 p+1 to the relevant modulus); mod 8 nothing survives \u2014 the two curves share only conductor-arithmetic trivia.",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B407",
+"claim_killed": "The universal support-nesting law supp(\u221a\u22123) \u2286 supp(\u221a\u221215): verified at (1,2) (28+16+0 exactly as claimed) but killed as a law \u2014 (2,4) has both exclusives (no nesting either way), (1,3) nests in REVERSE; plus the \u03c6-identity extension to 23 flagged as an overclaim (23 neither Lucas nor Fibonacci).",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B409",
+"claim_killed": "B407's alignment promoted to a universal count-conservation transport theorem ('table anatomy = product stratification'): holds on only 4/6 pairs; fails at the high-multiplicity bright pairs (1,2) and (2,4), where DFT+\u03a0_H maps products to cells NON-INJECTIVELY (merging/cancellation) so stratum counts are not conserved.",
+"kill_form": "other",
+"hatch": "nonlinear-transport",
+"scope": null
+},
+{
+"id": "B411",
+"claim_killed": "The naive arithmetic dictionary: a cell's H-field-type (sqrt5/sqrt-3/sqrt-15 active) is a function of gamma'-class arithmetic invariants (chi_-3(det), chi_5(det), gcd(det,15)). Killed: multi-valued on generic invertible-det cells (6 H-types share one class label); single-valued only on boundary cells.",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B412",
+"claim_killed": "The single-seed tower is a value hierarchy / runs a scale. Killed and reframed: the tower is a mass-conserving refining MEASURE (Iwasawa-type p-adic distribution on lim Z/3^k x Z/5) \u2014 mass 1 at every level, cyclotomic-orbit splits, trace-zero innovations.",
+"kill_form": "kind-mismatch",
+"hatch": "infinite-tower",
+"scope": null
+},
+{
+"id": "B418",
+"claim_killed": "B411's upstairs hypothesis: the emergent symmetries (mirror t(a,-b)) become cell-local upstairs in Q(zeta60), realized by a Galois element on the raw pre-Pi_H table. Killed: all 16 elements of (Z/60)* tested, none realizes the mirror cell-wise; emergence is INTRINSIC.",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B428",
+"claim_killed": "Fermionic content upstairs: (Wall 1) the E6 level-1 27 carries fermions \u2014 killed, no theta=-1 object at level 1 or 2 (Z/3 Eisenstein anyons only); (Wall 2) the principal sl2 bridge gives spinorial matter \u2014 killed, all blocks odd-dimensional/bosonic (27 = [17,9,1]); addendum: 'three folds = three generations' \u2014 killed, F4->G2 is not an involution.",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B433",
+"claim_killed": "The 3d-3d route yields physics in-sandbox: internal units/scale and the E6 assembly T[4_1,E6]. The SL(2) calibration itself SUCCEEDED (Coulomb branch = character variety, exact, two independent routes); the death is that scale enters only via external embedding (R/CY) and the E6 assembly is the priced L50 specialist gate.",
+"kill_form": "method-limit",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B435",
+"claim_killed": "The founding inheritance reading: H1(child)=Z/5 is a parent birthmark (golden-prime inheritance). Killed by correction #562: H1 = Z/p for EVERY knot at slope p (trefoil control) \u2014 numerator-forced, not inheritance. The exact counts (26 = 25+1 abelian E6 vacua) stand.",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B437",
+"claim_killed": "The golden return as inheritance: the child's abelian floor speaks the parent's golden language (Tr tau in Q(sqrt5) = parent memory). Killed: trefoil(5,1) gives the SAME field Q(sqrt5) \u2014 the field is a theorem about the integer 5 (Q(sqrt5)=Q(zeta5)+), numerator-forced. Also the 'Lucas-square law is family-generic' overclaim corrected (value is knot-specific but commensurability-class-shared, B438).",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B440",
+"claim_killed": "A figure-eight-unique feature in the child's SL(2,C) vacuum spectrum (and the interim 'golden inversion' reading, retracted as a chart/parametrization artifact). Killed: 4_1 and 5_2 children both have exactly 4 irreducible vacua in the identical -283 field; count differences elsewhere track A-polynomial degree (genericity); the golden Q(sqrt5) characters are universal numerator-forced abelian reducibles present for all four fillings.",
+"kill_form": "genericity",
+"hatch": "route-through-atom",
+"scope": null
+},
+{
+"id": "B443",
+"claim_killed": "The Child Program hypothesis: 'the Standard Model is what the object PRODUCES, not what it contains.' Falsified at every computable floor (C0-C5): every floor forced/unsought/controlled but exact-SM fails everywhere; the forced child (Meyerhoff 4_1(5,1)) inherits the parent's commensurability class and nothing finer; figure-eight-unique features: none found at any floor.",
+"kill_form": "genericity",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B444",
+"claim_killed": "The SL(3) elimination field as a figure-eight fingerprint feeding a path-to-physics / 3-generations dictionary (Chat-1's framing). The fields DO differ (4_1 = Q(sqrt-3), Q(sqrt-7); 5_2 needs Q(sqrt5) + cubic/quartic/sextic) but three independently fatal reasons kill the reading: separation inherited from SL(2) arithmeticity (not created at SL(3)); 5_2 not commensurable so 'unique' cannot be licensed (generic expectation); Q(sqrt-7) is known (Falbel 2008) and already banked (B316/B147 chirality field).",
+"kill_form": "genericity",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B445",
+"claim_killed": "The L50 'Computation B' dichotomy: nonzero E6-beyond-SL(3) H1 content at the principal point implies a figure-eight fingerprint. Killed: H1 = 6 = rank(E6) is universal (Menal-Ferrer-Porti), identical block-by-block for the 5_2 control including the 2 theta-odd E6-only directions; nonzero is generic. Computation A (trinification, 'up to 26 components') killed separately: no computation performed, counts the wrong object (single-Levi-factor reps are E6-reducible), knot-independent.",
+"kill_form": "genericity",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B459",
+"claim_killed": "The Klein-four selection rule as a C x P gauge dictionary: 'group-law closure is a miracle you cannot accidentally reproduce' (killed: the 5-of-16 patterns are exactly the subfield lattice of Q(sqrt5,sqrt-3); equivariance reproduces the group table automatically; Z/2 x Z/2 is the automorphism group of every biquadratic field \u2014 the weakest possible structural match) and '17:6:1 <-> CKM:PMNS:strong-CP' (HELD value-matching per the frozen B452 rule).",
+"kill_form": "genericity",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B465",
+"claim_killed": "The 8x4x3 two-generator monodromy as gauge structure: the SU(4)->SU(3) adjoint-branching reading (needs an irreducible 8; none exists \u2014 the 'octet' is 4+4, two eigenspaces with different eigenvalues, an artifact of grouping by primitivity), '4 = 3bar+1' (ill-posed, no canonical second observable in the commutant), '15 = SU(4) adjoint' (HELD; 15 is the Hilbert-space dimension at the seam level), and 'period 3 in l' (wrong; true structure is period 6 via central A2^6 with reflection l <-> 5-l).",
+"kill_form": "no-landing-site",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B468",
+"claim_killed": "The Z/3-color physics chain: 'the color SEES the darkness' (killed: exact tier x color cross-table gives dark = (24,24,22), maximally uniform; Chat-1's 34/9/10 was a float tier-misclassification with the dark total itself wrong, 53 vs 70), hence the downstream 'two quantum numbers = gauge structure' / A4 / neutrino-mixing reading loses its empirical base (A4->tribimaximal also experimentally dead, theta13 != 0); plus the confinement rule (killed: 1798/4000 counterexamples). The det 'contradiction' resolved as construction identity (both seats right about different operators).",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B472",
+"claim_killed": "That the quantum stage at the generators is the quantization of the classical criticality (killed: kappa_q(1,1) = -1 != kappa_classical = -2; quantum closure relocates to CRT-central addresses, [W1^2,W2^3] = I exactly via Q8 mod 3 and SL(2,5) mod 5), plus seat-1's computed values (tr = 1, 'cost of quantization = 3', Par-faces = 0 \u2014 all refuted; the faces are zeta60^8 and zeta60^4, ratio zeta15).",
+"kill_form": "other",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B474",
+"claim_killed": "Seat-1's Priority-1 claim 'zero dark points at quantum closure' (58 closure points, 0 dark) \u2014 the seventh float-kill; exact F_p x Q(zeta60) recount gives 84 closure points with 54 dark AT closure (direction inverted).",
+"kill_form": "method-limit",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B476",
+"claim_killed": "Seat-1's 'critical interaction algebra = SM gauge algebra' (dim span 36 = 4x9 = gl(2)\u2297gl(3) \u2283 su(3)+su(2)+u(1)) \u2014 ninth float-kill; exact SVD ranks are 49, 5, 13, and 5x13=65\u226049 (does not factor).",
+"kill_form": "genericity",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B477",
+"claim_killed": "The candidate universal linear sterility law (sterile obstruction class = fertile class with one Z/2 sign-flip, a coset in H^2(M,\u2202M;Z/2)) \u2014 refuted as universal by s776's count (3 fertile classes, not a power of 2).",
+"kill_form": "other",
+"hatch": "deepen-past-plateau",
+"scope": null
+},
+{
+"id": "B482",
+"claim_killed": "Seat-2's B1 claim that the banked lambda_chain is wrong from digit 7 \u2014 flagged as a DISCREPANCY, not applied: seat-2's 2.1775... targets their lambda_spine normalization; the repo's banked value is 1.57705744122666946, a different number/clock.",
+"kill_form": "kind-mismatch",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B483",
+"claim_killed": "The 3:8:15 SM overlay (h-ratios = dim SU(2), dim SU(3), 'seam 15') \u2014 ninth count-matching kill: 3,8,15 = a(a+2) = adjoint dims of SU(2),SU(3),SU(4) (forced spin-j arithmetic at any level); SU(4) is not SM, U(1) missing, and the two 15s are different objects.",
+"kill_form": "value-numerology",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B484",
+"claim_killed": "Seat-1's 'SM gauge group = braiding statistics of 4 and 5 Fibonacci anyons' (10th SM kill) \u2014 Freedman-Larsen-Wang density means the braid image is DENSE in SU(dim), the antithesis of a closed proper gauge subgroup; the theorem invoked as support structurally forbids the frame.",
+"kill_form": "genericity",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B486",
+"claim_killed": "Seat-1's 'hexagonal cusp \u2192 three-fold degenerate length spectrum \u2192 three generations' (11th kill) \u2014 the figure-eight cusp modulus is 2\u221a\u22123 (disc \u221248), rectangular, NOT the hexagonal point e^{2\u03c0i/3} (disc \u22123); shortest-vector multiplicity 2, not 6; the three claimed curves have lengths 1.00/3.46/3.61.",
+"kill_form": "kind-mismatch",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B487",
+"claim_killed": "Seat-1's 'T[S\u00b3\\4\u2081] has the SM gauge group SU(3)xSU(2)xU(1)' from Gang-Yonekura 2018 (13th kill) \u2014 the SU(3) is a GLOBAL FLAVOR symmetry of a 3d N=2 U(1) gauge theory; SU(2)xU(1) is its own unenhanced subgroup (one symmetry, not three factors); matter is two U(1) chirals, not SM fermions.",
+"kill_form": "kind-mismatch",
+"hatch": "native-continuous-channel",
+"scope": null
+},
+{
+"id": "B489",
+"claim_killed": "The SM reading of the self-interaction (cyclic fiber cover) tower: no gauge enhancement anywhere \u2014 DGG is abelian U(1)^{2n\u22121} at every level n=1..8 (the handoff's own falsification test resolves NEGATIVE); covers are not twist knots so Gang-Yonekura does not apply; 4c 'm206(3,1)=5\u2082' refuted on a wrong volume (2.569 closed vs 2.828 cusped); \u00a73 'tower generates the program's numbers' is numerology except 5=det(4\u2081)=disc Q(\u221a5).",
+"kill_form": "no-landing-site",
+"hatch": "enumerate-landing-sites",
+"scope": null
+},
+{
+"id": "B491",
+"claim_killed": "Novelty of two of three candidate results: R1 held-breath torsion law downgraded APPEARS-NOVEL \u2192 COROLLARY of Cantat 2009 (B494 duel + verify_cantat.py: the fixed-curve\u2192quartic\u2192field pipeline transfers with one elementary Chebyshev supplement); R3 cover-tower torsion = textbook Fox's formula, CLASSICAL.",
+"kill_form": "other",
+"hatch": "none-apparent",
+"scope": null
+},
+{
+"id": "B492",
+"claim_killed": "The Verlinde/Affleck-Ludwig boundary-entropy lens as a source of new object-specific or SM-relevant structure \u2014 the boundary g-factor ratio g_tau/g_1 = phi and D = \u221a(2+phi) are classical RCFT modular data: the same banked golden phi dressed as boundary entropy; no new ingredient.",
+"kill_form": "genericity",
+"hatch": "none-apparent",
+"scope": null
+}
+]

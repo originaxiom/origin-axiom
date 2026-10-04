@@ -1,0 +1,464 @@
+[
+{
+"id": "B140",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "mirror-pairing theorem named as the kill"
+},
+{
+"id": "B146",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "orientation-independent invariants cannot prefer M over mirror"
+},
+{
+"id": "B161",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "kappa free continuum, nothing selects"
+},
+{
+"id": "B177",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "conserved, invertible, no dissipation or arrow"
+},
+{
+"id": "B182",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "proliferation, not selection to unique"
+},
+{
+"id": "B183",
+"verdict": "DEMOTE",
+"kind": "OTHER:premise-false-external-source",
+"why": "text names premise false external source, not the assigned kind"
+},
+{
+"id": "B184",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "growing product, not a selected group"
+},
+{
+"id": "B185",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "fork size>1, choice-dependent"
+},
+{
+"id": "B191",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "fork never collapses to one"
+},
+{
+"id": "B219",
+"verdict": "DEMOTE",
+"kind": "OTHER:premise-false",
+"why": "text names premise false, not the assigned kind"
+},
+{
+"id": "B243",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B252",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-mechanism",
+"why": "text names no mechanism, not the assigned kind"
+},
+{
+"id": "B294",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "catalogue for SM values, nothing selects"
+},
+{
+"id": "B321",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B332",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology-fit",
+"why": "text names numerology fit, not the assigned kind"
+},
+{
+"id": "B334",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B343",
+"verdict": "DEMOTE",
+"kind": "OTHER:value-vs-data-miss",
+"why": "text names value vs data miss, not the assigned kind"
+},
+{
+"id": "B385",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-mechanism",
+"why": "text names no mechanism, not the assigned kind"
+},
+{
+"id": "B400",
+"verdict": "DEMOTE",
+"kind": "OTHER:orthogonality",
+"why": "text names orthogonality, not the assigned kind"
+},
+{
+"id": "B405",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology-unfalsifiable",
+"why": "text names numerology unfalsifiable, not the assigned kind"
+},
+{
+"id": "B411",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "multi-valued: several types share one class label"
+},
+{
+"id": "B483",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology-count-match",
+"why": "text names numerology count match, not the assigned kind"
+},
+{
+"id": "B513",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "B516",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "3 is not dimension-selected"
+},
+{
+"id": "B523",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "B539",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B548",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "B56",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B569",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-mechanism",
+"why": "text names no mechanism, not the assigned kind"
+},
+{
+"id": "B57",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B579",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B619",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B632",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "H^2=0 forces zero diagonal; vanishing class"
+},
+{
+"id": "B664",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "other real minima exist; golden not unique"
+},
+{
+"id": "B668",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "periodic sequence has zero asymptotic content"
+},
+{
+"id": "B687",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology-base-rate",
+"why": "text names numerology base rate, not the assigned kind"
+},
+{
+"id": "B693",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "a_5 is the trivial Steinberg value"
+},
+{
+"id": "B699",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "B703",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology-fit",
+"why": "text names numerology fit, not the assigned kind"
+},
+{
+"id": "B705",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "B712",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-landing-site",
+"why": "text names no landing site, not the assigned kind"
+},
+{
+"id": "B727",
+"verdict": "DEMOTE",
+"kind": "OTHER:forced-by-classification",
+"why": "text names forced by classification, not the assigned kind"
+},
+{
+"id": "W1-hardened-record",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "W5-B565-T3/B605",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-mechanism",
+"why": "text names no mechanism, not the assigned kind"
+},
+{
+"id": "W8-B643/B658",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-mechanism",
+"why": "text names no mechanism, not the assigned kind"
+},
+{
+"id": "W9-B644/B650",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-mechanism",
+"why": "text names no mechanism, not the assigned kind"
+},
+{
+"id": "S014 — cosmological-constant value formula",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "S017 — phase-space 3+1D at SL(3)",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "S021 — entanglement = holographic",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "Value-kill — CS-crossover k≈4 ↔ n=4",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "K-E — a forced dimensionful scale or non-generic physical ratio",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "K-G — the metallic structure HAS a forced choice (isolated κ fixed points)",
+"verdict": "DEMOTE",
+"kind": "OTHER:no-mechanism",
+"why": "text names no mechanism, not the assigned kind"
+},
+{
+"id": "K-N — |disc_CM| = κ_m",
+"verdict": "DEMOTE",
+"kind": "OTHER:numerology",
+"why": "text names numerology, not the assigned kind"
+},
+{
+"id": "K-O — golden trace leak tr ρ_{SU(2)₃}(A) = −1/φ as distinguished signal",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "B22",
+"verdict": "DEMOTE",
+"kind": "OTHER:genericity",
+"why": "text names genericity, not the assigned kind"
+},
+{
+"id": "B24",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "level k=3 not selected by the framework"
+},
+{
+"id": "B31",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "selects no invariant surface"
+},
+{
+"id": "B32",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "chain does not select I=1/4"
+},
+{
+"id": "B36",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "controls fail to distinguish I=1/4"
+},
+{
+"id": "B39",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "infinite family, does not select m=3"
+},
+{
+"id": "B41",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "c stays free, selects nothing"
+},
+{
+"id": "B42",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "monotone, no stationary point"
+},
+{
+"id": "B46",
+"verdict": "DEMOTE",
+"kind": "OTHER:underived",
+"why": "text names underived, not the assigned kind"
+},
+{
+"id": "B108",
+"verdict": "DEMOTE",
+"kind": "OTHER:involution-insufficient",
+"why": "text names involution insufficient, not the assigned kind"
+},
+{
+"id": "B129",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "no new field or content with rank"
+},
+{
+"id": "B130",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "kappa free, single seed forces no choice"
+},
+{
+"id": "B139",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "mirror preserves all invariants but CS sign"
+},
+{
+"id": "B143",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "trace venue structurally mirror-blind"
+},
+{
+"id": "B144",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "composites mirror-closed"
+},
+{
+"id": "B145",
+"verdict": "CONFIRM",
+"kind": "PAIRING",
+"why": "minimal locus coincides with self-mirror family"
+},
+{
+"id": "B170",
+"verdict": "DEMOTE",
+"kind": "OTHER:value-match-null-fail",
+"why": "text names value match null fail, not the assigned kind"
+},
+{
+"id": "B181",
+"verdict": "CONFIRM",
+"kind": "FLATNESS",
+"why": "zero Lyapunov, no transition, scale-free"
+},
+{
+"id": "B188",
+"verdict": "DEMOTE",
+"kind": "OTHER:gapless-criticality",
+"why": "text names gapless criticality, not the assigned kind"
+},
+{
+"id": "B190",
+"verdict": "CONFIRM",
+"kind": "NON-UNIQUENESS",
+"why": "never converges to forced-unique value"
+},
+{
+"id": "B213",
+"verdict": "DEMOTE",
+"kind": "OTHER:generic-O(1)",
+"why": "text names generic O(1), not the assigned kind"
+},
+{
+"id": "B230",
+"verdict": "DEMOTE",
+"kind": "OTHER:coincidence",
+"why": "text names coincidence, not the assigned kind"
+},
+{
+"id": "B244",
+"verdict": "DEMOTE",
+"kind": "OTHER:insufficient-resolution",
+"why": "text names insufficient resolution, not the assigned kind"
+}
+]

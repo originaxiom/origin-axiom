@@ -1,0 +1,4256 @@
+{
+ "entries": 460,
+ "read": 460,
+ "verified": 460,
+ "discarded": [],
+ "by_kind": {
+  "OTHER": 306,
+  "PAIRING": 24,
+  "NON-UNIQUENESS": 98,
+  "FLATNESS": 32
+ },
+ "other_labels": [
+  [
+   "no-landing-site",
+   77
+  ],
+  [
+   "premise-false",
+   64
+  ],
+  [
+   "arithmetic-mismatch",
+   36
+  ],
+  [
+   "instrument",
+   31
+  ],
+  [
+   "value-miss",
+   24
+  ],
+  [
+   "kind-mismatch",
+   20
+  ],
+  [
+   "scope",
+   19
+  ],
+  [
+   "genericity",
+   15
+  ],
+  [
+   "unstated",
+   9
+  ],
+  [
+   "power",
+   2
+  ],
+  [
+   "no-extra-structure",
+   1
+  ],
+  [
+   "not-independent",
+   1
+  ],
+  [
+   "no-closed-form",
+   1
+  ],
+  [
+   "not-a-kill",
+   1
+  ],
+  [
+   "method-limit",
+   1
+  ],
+  [
+   "not-novel",
+   1
+  ],
+  [
+   "mixed",
+   1
+  ],
+  [
+   "recall-failure",
+   1
+  ],
+  [
+   "absence-at-depth",
+   1
+  ]
+ ],
+ "confidence": {
+  "OTHER high": 73,
+  "OTHER low": 82,
+  "OTHER medium": 151,
+  "PAIRING low": 12,
+  "PAIRING medium": 4,
+  "NON-UNIQUENESS high": 14,
+  "FLATNESS low": 17,
+  "NON-UNIQUENESS low": 41,
+  "NON-UNIQUENESS medium": 43,
+  "FLATNESS medium": 11,
+  "PAIRING high": 8,
+  "FLATNESS high": 4
+ },
+ "members": {
+  "PAIRING": [
+   "B1064",
+   "B108",
+   "B1086",
+   "B1296",
+   "B1297",
+   "B1322",
+   "B139",
+   "B140",
+   "B143",
+   "B144",
+   "B145",
+   "B1455",
+   "B146",
+   "B22",
+   "B252",
+   "B329",
+   "B331",
+   "B355",
+   "B395",
+   "B422",
+   "B592",
+   "B802",
+   "B924",
+   "W8-B643/B658"
+  ],
+  "FLATNESS": [
+   "B1084",
+   "B1096",
+   "B1140",
+   "B1209",
+   "B1267",
+   "B129",
+   "B1330",
+   "B1336",
+   "B1340",
+   "B177",
+   "B181",
+   "B188",
+   "B213",
+   "B219",
+   "B369",
+   "B385",
+   "B413",
+   "B42",
+   "B455",
+   "B458",
+   "B569",
+   "B600",
+   "B632",
+   "B660",
+   "B668",
+   "B674",
+   "B693",
+   "B854",
+   "B935",
+   "B971",
+   "W5-B565-T3/B605",
+   "W9-B644/B650"
+  ],
+  "NON-UNIQUENESS": [
+   "B1076",
+   "B1142",
+   "B1157",
+   "B1165",
+   "B1203",
+   "B1205",
+   "B1258",
+   "B130",
+   "B1347",
+   "B1349",
+   "B1450",
+   "B161",
+   "B170",
+   "B182",
+   "B183",
+   "B184",
+   "B185",
+   "B190",
+   "B191",
+   "B230",
+   "B24",
+   "B243",
+   "B244",
+   "B281",
+   "B282",
+   "B284",
+   "B294",
+   "B308",
+   "B31",
+   "B32",
+   "B321",
+   "B322",
+   "B330",
+   "B332",
+   "B333",
+   "B334",
+   "B343",
+   "B349",
+   "B350",
+   "B36",
+   "B39",
+   "B398",
+   "B400",
+   "B405",
+   "B41",
+   "B411",
+   "B414",
+   "B438",
+   "B441",
+   "B442",
+   "B447",
+   "B457",
+   "B46",
+   "B461",
+   "B462",
+   "B464",
+   "B480",
+   "B483",
+   "B513",
+   "B516",
+   "B523",
+   "B529",
+   "B539",
+   "B541",
+   "B548",
+   "B56",
+   "B57",
+   "B579",
+   "B619",
+   "B664",
+   "B671",
+   "B686",
+   "B687",
+   "B697",
+   "B699",
+   "B703",
+   "B705",
+   "B712",
+   "B713",
+   "B716",
+   "B719",
+   "B727",
+   "B735",
+   "B737",
+   "B751",
+   "B752",
+   "B760",
+   "B850",
+   "B996",
+   "K-E \u2014 a forced dimensionful scale or non-generic physical ratio",
+   "K-G \u2014 the metallic structure HAS a forced choice (isolated \u03ba fixed points)",
+   "K-N \u2014 |disc_CM| = \u03ba_m",
+   "K-O \u2014 golden trace leak tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6 as distinguished signal",
+   "S014 \u2014 cosmological-constant value formula",
+   "S017 \u2014 phase-space 3+1D at SL(3)",
+   "S021 \u2014 entanglement = holographic",
+   "Value-kill \u2014 CS-crossover k\u22484 \u2194 n=4",
+   "W1-hardened-record"
+  ],
+  "OTHER": [
+   "B1005",
+   "B1006",
+   "B1007",
+   "B101",
+   "B1027",
+   "B1062-V2-axis",
+   "B1063",
+   "B1066",
+   "B107",
+   "B1075",
+   "B1094",
+   "B110",
+   "B1108",
+   "B111",
+   "B1137",
+   "B114",
+   "B1151",
+   "B116",
+   "B1174",
+   "B119",
+   "B120",
+   "B1222",
+   "B1223",
+   "B1242",
+   "B1244",
+   "B1259",
+   "B126",
+   "B1262",
+   "B127",
+   "B128",
+   "B1291",
+   "B1295",
+   "B132",
+   "B1335",
+   "B1338",
+   "B135",
+   "B1407",
+   "B1408",
+   "B1442",
+   "B1452",
+   "B1470",
+   "B15",
+   "B151",
+   "B154",
+   "B157",
+   "B165",
+   "B166",
+   "B167",
+   "B168",
+   "B17",
+   "B172",
+   "B186",
+   "B189",
+   "B192",
+   "B193",
+   "B197",
+   "B198",
+   "B199",
+   "B2",
+   "B20",
+   "B200",
+   "B202",
+   "B207",
+   "B214",
+   "B216",
+   "B217",
+   "B223",
+   "B225",
+   "B231",
+   "B235",
+   "B237",
+   "B239",
+   "B241",
+   "B246",
+   "B247",
+   "B258-silver-inference",
+   "B26",
+   "B269",
+   "B272",
+   "B279",
+   "B280",
+   "B283",
+   "B285",
+   "B288",
+   "B292",
+   "B295",
+   "B296",
+   "B298",
+   "B299",
+   "B300",
+   "B305",
+   "B307",
+   "B310",
+   "B313",
+   "B320",
+   "B325",
+   "B335",
+   "B336",
+   "B339",
+   "B342",
+   "B360",
+   "B361",
+   "B364",
+   "B365",
+   "B367",
+   "B37",
+   "B372",
+   "B373",
+   "B374",
+   "B387",
+   "B388",
+   "B389",
+   "B392",
+   "B394",
+   "B397",
+   "B399",
+   "B40",
+   "B401",
+   "B403",
+   "B406",
+   "B407",
+   "B408",
+   "B409",
+   "B412",
+   "B418",
+   "B419",
+   "B420",
+   "B421",
+   "B428",
+   "B429",
+   "B430",
+   "B433",
+   "B435",
+   "B437",
+   "B440",
+   "B443",
+   "B444",
+   "B445",
+   "B459",
+   "B465",
+   "B468",
+   "B47",
+   "B472",
+   "B474",
+   "B476",
+   "B477",
+   "B481",
+   "B482",
+   "B484",
+   "B486",
+   "B487",
+   "B489",
+   "B490",
+   "B491",
+   "B492",
+   "B498",
+   "B5",
+   "B500",
+   "B512",
+   "B515",
+   "B52",
+   "B520",
+   "B521",
+   "B525",
+   "B526",
+   "B536",
+   "B545",
+   "B549",
+   "B550",
+   "B551",
+   "B553",
+   "B554",
+   "B558",
+   "B559",
+   "B561",
+   "B563",
+   "B567",
+   "B572",
+   "B573",
+   "B574",
+   "B577",
+   "B58",
+   "B585",
+   "B59",
+   "B596",
+   "B597",
+   "B60",
+   "B602",
+   "B604",
+   "B605",
+   "B606",
+   "B611",
+   "B612",
+   "B62",
+   "B624",
+   "B626",
+   "B631",
+   "B633",
+   "B639",
+   "B643",
+   "B654",
+   "B655",
+   "B656",
+   "B657",
+   "B658",
+   "B66",
+   "B669",
+   "B672",
+   "B677",
+   "B678",
+   "B681",
+   "B685",
+   "B698",
+   "B706",
+   "B709",
+   "B710",
+   "B711",
+   "B718",
+   "B720",
+   "B721",
+   "B724",
+   "B726",
+   "B728",
+   "B729",
+   "B731",
+   "B734",
+   "B736",
+   "B740",
+   "B743",
+   "B747",
+   "B748",
+   "B754",
+   "B756",
+   "B757",
+   "B77",
+   "B772",
+   "B775",
+   "B790",
+   "B793",
+   "B8",
+   "B808",
+   "B81",
+   "B811",
+   "B812",
+   "B813",
+   "B814",
+   "B82",
+   "B821",
+   "B824",
+   "B838",
+   "B84",
+   "B840",
+   "B849",
+   "B85",
+   "B87",
+   "B899",
+   "B9",
+   "B90",
+   "B915",
+   "B925",
+   "B942",
+   "B945",
+   "B947",
+   "B957",
+   "B959",
+   "B96",
+   "B960",
+   "B97",
+   "B979",
+   "B98",
+   "B986",
+   "B99",
+   "B995",
+   "K-A/K-B \u2014 det=\u22121 breaks chirality / selects SM chiral structure",
+   "K-C \u2014 figure-eight quantized = physical Fibonacci order",
+   "K-D \u2014 physical (unitary) topological order from the metallic family",
+   "K-F \u2014 single torsion \u2124/n \u2192 SU(n) center \u2192 gauge-group bridge",
+   "K-H \u2014 chirality shifts the eigenvalue arithmetic",
+   "K-I \u2014 Borromean rings (s776) show SU(3) gauge enhancement",
+   "K-J \u2014 \u03c6\u00b2 = degenerate-block monodromy multiplier",
+   "K-K \u2014 gap-labeling rank = composition period",
+   "K-L \u2014 rank = SL(n) tower depth",
+   "K-M \u2014 measurable gap-labeling-rank prediction",
+   "Math-kill \u2014 s_n = c (tower sign predicts degree=rank scalar)",
+   "Math-kill \u2014 \u03b8 \u2192 c (opposition involution predicts degree=rank scalar)",
+   "Meta-kill \u2014 one collision causes all walls",
+   "P13 \u2014 generations via commensurator-triality-on-27",
+   "P20 \u2014 the causal-set poset reading",
+   "P21 \u2014 the framework search",
+   "P22 \u2014 the Klein-four \u2192 SO(9) route",
+   "R1 \u2014 the B85 Sym(W)\u2192trace-ring functor wall (B565, earned)",
+   "R5 \u2014 the L38 Higgs-scale do-or-die (B565, earned)",
+   "S014-null-clause correction (B565 exhumation)",
+   "S015 \u2014 tower eigenvalues = masses / operator dimensions",
+   "S016 \u2014 Goldman metric (1,1) Lorentzian",
+   "S018 \u2014 the spacetime tower up the ranks",
+   "S019 \u2014 Fisher metric on CS level k",
+   "S032-A \u2014 the literal universal no-escape form (probation P1)",
+   "Standard-theory-kills \u2014 quantum/knot probing triage (Chat-2)",
+   "W10-B660/B666",
+   "W11-B706",
+   "W2-typing-wall-1prime",
+   "W3-B632",
+   "W4-B604/B607/B608",
+   "W6-B307",
+   "W7-rebase"
+  ]
+ },
+ "rows": {
+  "B101": {
+   "id": "B101",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "does NOT climb",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B107": {
+   "id": "B107",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "category error \u2014 tower/torsion are linearized monodromy on moduli-space tangent",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B111": {
+   "id": "B111",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "s_n \u2208 {\u00b11} (order \u22642) cannot equal the order-4 secondary c=i",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B120": {
+   "id": "B120",
+   "kind": "OTHER",
+   "label": "no-extra-structure",
+   "quote": "distinct integer matrices with equal (trace,det) yield identical towers",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B128": {
+   "id": "B128",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "center \u2260 gauge group",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B132": {
+   "id": "B132",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "the field content is quantum-group arithmetic",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B140": {
+   "id": "B140",
+   "kind": "PAIRING",
+   "label": "orientation-reversal",
+   "quote": "mirror has same volume, opposite CS, conjugate-isomorphic trace field",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B146": {
+   "id": "B146",
+   "kind": "PAIRING",
+   "label": "mirror-indifference",
+   "quote": "no selection using only orientation-independent invariants can prefer M vs its mirror",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B154": {
+   "id": "B154",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "off-principal data gives k=4 at BOTH n=3 and n=4",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B157": {
+   "id": "B157",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "REFUTED by computed bronze (m=3) counterexamples",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B161": {
+   "id": "B161",
+   "kind": "NON-UNIQUENESS",
+   "label": "free-continuum",
+   "quote": "\u03ba is a FREE continuum on the trace-map fixed locus",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B165": {
+   "id": "B165",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "marked NEEDS-SPECIALIST",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B166": {
+   "id": "B166",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "SL(n\u22653) is not the transfer group of ANY self-adjoint operator",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B172": {
+   "id": "B172",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "sharp label certification is method-limited",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B177": {
+   "id": "B177",
+   "kind": "FLATNESS",
+   "label": "no-dynamics",
+   "quote": "no dissipation, no arrow",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B182": {
+   "id": "B182",
+   "kind": "NON-UNIQUENESS",
+   "label": "proliferation",
+   "quote": "proliferation not selection-to-unique",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B183": {
+   "id": "B183",
+   "kind": "NON-UNIQUENESS",
+   "label": "external-scale",
+   "quote": "externally sourced (the imaginary gauge field is input)",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B184": {
+   "id": "B184",
+   "kind": "NON-UNIQUENESS",
+   "label": "proliferating-product",
+   "quote": "a growing product, not a selected Lie/gauge group",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B185": {
+   "id": "B185",
+   "kind": "NON-UNIQUENESS",
+   "label": "fork-size>1",
+   "quote": "the fork has size >1, multiplies under composition, and is choice-dependent",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B186": {
+   "id": "B186",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "the rigorous off-axis uniform-hyperbolicity PROOF is unreachable in-sandbox",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B191": {
+   "id": "B191",
+   "kind": "NON-UNIQUENESS",
+   "label": "proliferating-fork",
+   "quote": "stays discrete-and-proliferating",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B192": {
+   "id": "B192",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "an artifact of three cherry-picked energies plus a dense-Gaussian rigged control",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B193": {
+   "id": "B193",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "all four (chirality, field) combinations occur",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B197": {
+   "id": "B197",
+   "kind": "OTHER",
+   "label": "not-independent",
+   "quote": "the volume filter is unique only GIVEN torsion-free",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B198": {
+   "id": "B198",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "the exact symbolic k at SL(5) is unreachable",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B199": {
+   "id": "B199",
+   "kind": "OTHER",
+   "label": "no-closed-form",
+   "quote": "killed by PROVEN collisions",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B200": {
+   "id": "B200",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "t_eff=2t^2/U is strong-coupling only",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B214": {
+   "id": "B214",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "vacuous (identical |Z| for the same monodromy is the definition of a topological invariant)",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B216": {
+   "id": "B216",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "from a proxy invariant (scalar-depth tested against +/-I only)",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B219": {
+   "id": "B219",
+   "kind": "FLATNESS",
+   "label": "invariant-constant",
+   "quote": "every content-1 class has period exactly 80 = lcm/content, regardless of genus signature",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B225": {
+   "id": "B225",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "the '2 = octahedral parent' half",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B237": {
+   "id": "B237",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "Silver bundle pi_1 carries a binary octahedral (2O) quotient",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B239": {
+   "id": "B239",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "reachability of Q(sqrt(-7)) by any unimodular element (below the disc=-4 floor)",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B243": {
+   "id": "B243",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "The 'metallic ladder' V(m^2+2) in Q(sqrt(m^2+4))",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B247": {
+   "id": "B247",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "'geometric holonomy lives in SU(2)' refuted",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B252": {
+   "id": "B252",
+   "kind": "PAIRING",
+   "label": "conjugation-odd",
+   "quote": "complex-conjugation-odd (chiral / CP-odd) invariant that could prefer 27 over 27-bar",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B272": {
+   "id": "B272",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "'REDUCED -- no math obstruction left' for the E6 bridge",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B279": {
+   "id": "B279",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "'tau could SWAP the two spin structures of 4_1'",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B285": {
+   "id": "B285",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "physical CP-violating (Jarlskog-type) phase sourcing baryon asymmetry",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B294": {
+   "id": "B294",
+   "kind": "NON-UNIQUENESS",
+   "label": "catalogue",
+   "quote": "selective for the object's own structure, catalogue for SM values",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B295": {
+   "id": "B295",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "the V(tau) potential is the wrong object",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B296": {
+   "id": "B296",
+   "kind": "OTHER",
+   "label": "not-a-kill",
+   "quote": "red-team found none (0 refutations)",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B299": {
+   "id": "B299",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "phi acts FREELY on the 27 (9 orbits of 3, zero fixed weights)",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B305": {
+   "id": "B305",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "A2 is impossible (needs a height-12 root; E6 tops at 11)",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B307": {
+   "id": "B307",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "C3 fields are totally real, hyperbolic invariant trace fields always have a complex place",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B310": {
+   "id": "B310",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "equal pi*i/3 deformation spacing tied to the cusp shape",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B313": {
+   "id": "B313",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "the figure-eight is forced as a theorem",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B320": {
+   "id": "B320",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "observer=seam is proven mathematics",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B321": {
+   "id": "B321",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "The CP phase pi/6 IS the core geodesic length of the (6,3) Dehn filling",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B325": {
+   "id": "B325",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "the E6 cubic cannot split them and the CRUX relocates to Level 4",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B332": {
+   "id": "B332",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "the 1/4 volume-suppression fits SM ratios",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B334": {
+   "id": "B334",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "137 lands non-principal",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B335": {
+   "id": "B335",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "The mass hierarchy is in the object",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B343": {
+   "id": "B343",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "The object selects a TM2 (or any) TBM-breaking direction",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B360": {
+   "id": "B360",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "Seam brightness follows seed parity",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B361": {
+   "id": "B361",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "bright iff the pair contains a seed elliptic at both primes",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B364": {
+   "id": "B364",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "T-stability forces the theta lift as THE geometric lift",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B365": {
+   "id": "B365",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "triangular family S-closed on its own 15-dim span, square not",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B367": {
+   "id": "B367",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "uniform local-symbol product formula at declared complexity",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B372": {
+   "id": "B372",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "the sqrt(-15) content does not persist at level 45",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B373": {
+   "id": "B373",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "gapless-trending reading feeding the tower-limit door PD2.2",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B374": {
+   "id": "B374",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "no invariant sector at the first mixed m=15",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B385": {
+   "id": "B385",
+   "kind": "FLATNESS",
+   "label": "identical-profiles",
+   "quote": "kill 1: identical invariant profiles",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B389": {
+   "id": "B389",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "dihedral mechanism M1/M2: inversion law t(\u2212a,\u2212b)=t(a,b)",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B392": {
+   "id": "B392",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "T-spectrum no-match, completing the earlier S-level no-match",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B394": {
+   "id": "B394",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "actual support a\u226131 mod 45, twelve cells",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B397": {
+   "id": "B397",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "both killed exhaustively",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B399": {
+   "id": "B399",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "the tower is a RESOLUTION generator, not a scale generator",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B400": {
+   "id": "B400",
+   "kind": "NON-UNIQUENESS",
+   "label": "arbitrary-identification",
+   "quote": "any linking object requires arbitrary identification choices",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B401": {
+   "id": "B401",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "killed by 7 (inert) sitting in the bright (3,4) Gram spectrum",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B403": {
+   "id": "B403",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "vacuous on denominators",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B405": {
+   "id": "B405",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "equal dressability = unfalsifiable",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B406": {
+   "id": "B406",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "FORCED BY TORSION",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B407": {
+   "id": "B407",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "(2,4) has both exclusives (no nesting either way), (1,3) nests in REVERSE",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B409": {
+   "id": "B409",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "holds on only 4/6 pairs",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B411": {
+   "id": "B411",
+   "kind": "NON-UNIQUENESS",
+   "label": "multi-valued",
+   "quote": "multi-valued on generic invertible-det cells (6 H-types share one class label)",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B412": {
+   "id": "B412",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "the tower is a mass-conserving refining MEASURE",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B418": {
+   "id": "B418",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "none realizes the mirror cell-wise",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B428": {
+   "id": "B428",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no theta=-1 object at level 1 or 2",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B433": {
+   "id": "B433",
+   "kind": "OTHER",
+   "label": "method-limit",
+   "quote": "scale enters only via external embedding (R/CY)",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B435": {
+   "id": "B435",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "H1 = Z/p for EVERY knot at slope p (trefoil control)",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B437": {
+   "id": "B437",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "trefoil(5,1) gives the SAME field Q(sqrt5)",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B440": {
+   "id": "B440",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "4_1 and 5_2 children both have exactly 4 irreducible vacua in the identical -283 field",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B443": {
+   "id": "B443",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "figure-eight-unique features: none found at any floor",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B444": {
+   "id": "B444",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "separation inherited from SL(2) arithmeticity (not created at SL(3))",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B445": {
+   "id": "B445",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "H1 = 6 = rank(E6) is universal (Menal-Ferrer-Porti)",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B459": {
+   "id": "B459",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "the weakest possible structural match",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B465": {
+   "id": "B465",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "needs an irreducible 8; none exists",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B468": {
+   "id": "B468",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "a float tier-misclassification with the dark total itself wrong",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B472": {
+   "id": "B472",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "kappa_q(1,1) = -1 != kappa_classical = -2",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B474": {
+   "id": "B474",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "the seventh float-kill",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B476": {
+   "id": "B476",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "5x13=65\u226049 (does not factor)",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B477": {
+   "id": "B477",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "refuted as universal by s776's count (3 fertile classes, not a power of 2)",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B482": {
+   "id": "B482",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "a different number/clock",
+   "confidence": "low",
+   "source": "out_0.json"
+  },
+  "B483": {
+   "id": "B483",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "3,8,15 = a(a+2) = adjoint dims of SU(2),SU(3),SU(4) (forced spin-j arithmetic at any level)",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B484": {
+   "id": "B484",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "the braid image is DENSE in SU(dim), the antithesis of a closed proper gauge subgroup",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B486": {
+   "id": "B486",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the figure-eight cusp modulus is 2\u221a\u22123 (disc \u221248), rectangular, NOT the hexagonal point",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B487": {
+   "id": "B487",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "the SU(3) is a GLOBAL FLAVOR symmetry of a 3d N=2 U(1) gauge theory",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B489": {
+   "id": "B489",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no gauge enhancement anywhere",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B491": {
+   "id": "B491",
+   "kind": "OTHER",
+   "label": "not-novel",
+   "quote": "COROLLARY of Cantat 2009",
+   "confidence": "high",
+   "source": "out_0.json"
+  },
+  "B492": {
+   "id": "B492",
+   "kind": "OTHER",
+   "label": "genericity",
+   "quote": "classical RCFT modular data: the same banked golden phi dressed as boundary entropy",
+   "confidence": "medium",
+   "source": "out_0.json"
+  },
+  "B500": {
+   "id": "B500",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "35/150 (23%) UNCHECKED",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B513": {
+   "id": "B513",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "the (2,1) is generic to any F\u2082 variety",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B515": {
+   "id": "B515",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "KILLED BY COUNTEREXAMPLE",
+   "confidence": "high",
+   "source": "out_1.json"
+  },
+  "B516": {
+   "id": "B516",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "so 3 is not dimension-selected",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B52": {
+   "id": "B52",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "The naive three-channel Fibonacci tight-binding model supplies the PC12 physics bridge",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B520": {
+   "id": "B520",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "Exploration-seat handoff claims",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B521": {
+   "id": "B521",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "Some peripheral invariant forces a choice the object doesn't make",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B523": {
+   "id": "B523",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "is generic to any 2-real-1-complex quartic Pisot",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B525": {
+   "id": "B525",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "3 of 9 CRACKED (B519-NOCROSS retracted, C3-CONE certificate bug, CHILD-NOTSHORT downgraded)",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B526": {
+   "id": "B526",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "the isotropy-Stein no-go, via non-normal transient growth",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B536": {
+   "id": "B536",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "NOT REPRODUCED \u2014 natural lift gives period 20, convention-dependent",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B539": {
+   "id": "B539",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "matches relations among the SM's 19 dimensionless parameters",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B545": {
+   "id": "B545",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "7 inert in Q(sqrt(3))",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B548": {
+   "id": "B548",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "un-hideability as a discriminating special property of the object",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B550": {
+   "id": "B550",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "Promotion-Sign Conjecture",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B553": {
+   "id": "B553",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "killed as KNOWN \u2014 KKT 1983/Casdagli/Roberts",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B554": {
+   "id": "B554",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "REFUTED (181,678/299,999 = 61% mismatches",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B558": {
+   "id": "B558",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "0/17 dictionary values at 1%, 0 dictionary-relation matches",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B56": {
+   "id": "B56",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "linking it to the c=1 Eisenstein structure (a holonomy bridge)",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B561": {
+   "id": "B561",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "The figure-eight's Eisenstein Z/3 selects SU(3)^2 (A2xA2~) inside F4",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B567": {
+   "id": "B567",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "SM-like level structure",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B569": {
+   "id": "B569",
+   "kind": "FLATNESS",
+   "label": "zero-intertwiner",
+   "quote": "zero-intertwiner",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B57": {
+   "id": "B57",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "The apparent match between the class number h(Q(sqrt-15))=2",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B572": {
+   "id": "B572",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "'sigma distinguishes 27 from 27bar'",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B574": {
+   "id": "B574",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "escapes the fifth (vector-like) wall",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B579": {
+   "id": "B579",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "alpha_s(M_Z)=1/(2 phi^3), sin^2 theta13 = 1/phi^8",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B58": {
+   "id": "B58",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "the cotangent cleanly yields a_d",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B585": {
+   "id": "B585",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "failed hold-out at kappa=17,18",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B59": {
+   "id": "B59",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "PC12's Open Prediction for the SL(4) fixed-line Jacobian",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B60": {
+   "id": "B60",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "cond(Dx) ~ 1e11 conditioning barrier",
+   "confidence": "high",
+   "source": "out_1.json"
+  },
+  "B604": {
+   "id": "B604",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "which theta-odd pair goes to the V8 block and which to V16",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B605": {
+   "id": "B605",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "the amphichiral involution tau is a reflection with Fix(tau) a totally geodesic surface",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B619": {
+   "id": "B619",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "a group-identity bridge from the stage to A5 flavor models",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B62": {
+   "id": "B62",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "tr and det scatter across seeds",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B624": {
+   "id": "B624",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "trace(B_odd) is the SAME twelve-term Gauss assembly up to a fixed framing phase",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B626": {
+   "id": "B626",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "J-as-function-of-t killed outright by the exact counterexample RRLL vs RRRRL",
+   "confidence": "high",
+   "source": "out_1.json"
+  },
+  "B632": {
+   "id": "B632",
+   "kind": "FLATNESS",
+   "label": "vanishing-class",
+   "quote": "H^2(M;C)=0 + graded-commutativity force antisymmetry, zero diagonal",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B654": {
+   "id": "B654",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "predicts Q(zeta8) for silver; observed Q(i)",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B656": {
+   "id": "B656",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "a universal cocycle factor, not an area count",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B657": {
+   "id": "B657",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "the holonomy-invariant line v0 is NOT the GUT singlet",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B66": {
+   "id": "B66",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "the |k|=3 multiplicity at SL(6) is exactly 2, same as SL(5)",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B664": {
+   "id": "B664",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "'the golden is the ONLY real minimum' (refuted",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B668": {
+   "id": "B668",
+   "kind": "FLATNESS",
+   "label": "trivial-period",
+   "quote": "a periodic sequence has ZERO asymptotic 1/k content",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B669": {
+   "id": "B669",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "boundedness is certificate-structural, not amphichirality",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B672": {
+   "id": "B672",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "unique quadratic subfield Q(sqrt5) REAL",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B677": {
+   "id": "B677",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "genuinely Q(zeta5)-irrational leading coefficient vs the INTEGER targets",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B681": {
+   "id": "B681",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "killed by the exact decomposition v5(den c_n) = n + v5(n!)",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B685": {
+   "id": "B685",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the streams require growing 5-adic denominators",
+   "confidence": "high",
+   "source": "out_1.json"
+  },
+  "B687": {
+   "id": "B687",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "sin^2 theta12 has ~20 golden values in its band",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B693": {
+   "id": "B693",
+   "kind": "FLATNESS",
+   "label": "trivial-value",
+   "quote": "a_(5) = +1, the trivial Steinberg value in Q",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B698": {
+   "id": "B698",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "The meeting is a product, not a fusion",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B699": {
+   "id": "B699",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "filling is generic by strong approximation",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B703": {
+   "id": "B703",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "a post-hoc fit atop the Q=2/3 parametrization tautology",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B705": {
+   "id": "B705",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "base-rate-dead coincidence",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B706": {
+   "id": "B706",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "discrete orientation bits vs ~19-26 continuous real parameters",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B709": {
+   "id": "B709",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "T4 permitted-not-forced",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B710": {
+   "id": "B710",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "fig-8 saddle actions real (Im=0, AT the conjugation fixed point",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B711": {
+   "id": "B711",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "distinct commuting involutions acting ORTHOGONALLY",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B712": {
+   "id": "B712",
+   "kind": "NON-UNIQUENESS",
+   "label": "non-canonical",
+   "quote": "Non-canonicity goes TOTAL",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B720": {
+   "id": "B720",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "NO-MATCH: needs higher-dim bulk",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B721": {
+   "id": "B721",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "Killed as rung-mismatch",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B724": {
+   "id": "B724",
+   "kind": "OTHER",
+   "label": "mixed",
+   "quote": "re-adjudicated with every discriminating fact RECOMPUTED",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B726": {
+   "id": "B726",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "neither lives in a bare quadratic face (Q(sqrt5) is totally real, no phase)",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B727": {
+   "id": "B727",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "the three faces are canonical functions of ONE ADE label",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B731": {
+   "id": "B731",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "B731 concluded NON-congruence (congruence closure index 6 < geometric 12)",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B734": {
+   "id": "B734",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "abelian GL(1) type mismatch vs the non-abelian Bianchi tower",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B736": {
+   "id": "B736",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "all 24 graded (d)=nothing-forced",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B77": {
+   "id": "B77",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "A<->D unification conjecture (I-series)",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "B84": {
+   "id": "B84",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "I1: the SL(5) tower barrier is a fixable gauge/basis artifact",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B87": {
+   "id": "B87",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "m=2 (genus 1, j=1728, CM by Z[i]) is a genus MINIMUM",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "B90": {
+   "id": "B90",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "L1a is a TAUTOLOGY (holds for arbitrary (A,t)",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "W1-hardened-record": {
+   "id": "W1-hardened-record",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "matches a measured SM value beyond base rate",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "W2-typing-wall-1prime": {
+   "id": "W2-typing-wall-1prime",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "A Yukawa-type (symmetric) family tensor for identical generations exists",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "W3-B632": {
+   "id": "W3-B632",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "A symmetric mass-matrix-shaped object (a scalar-valued symmetric texture on H^1) exists",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "W4-B604/B607/B608": {
+   "id": "W4-B604/B607/B608",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "a pair-to-block assignment exists",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "W5-B565-T3/B605": {
+   "id": "W5-B565-T3/B605",
+   "kind": "FLATNESS",
+   "label": "zero-index",
+   "quote": "nonzero chiral index",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "W6-B307": {
+   "id": "W6-B307",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "some hyperbolic knot has a cyclic-cubic (C3) trace field",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "W7-rebase": {
+   "id": "W7-rebase",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "The naive Z/3 triality acts on H^1(D;27)",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "W8-B643/B658": {
+   "id": "W8-B643/B658",
+   "kind": "PAIRING",
+   "label": "mirror",
+   "quote": "Some orientation-reversing (mirror) symmetry of Isom(4_1)=D4 survives",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "W9-B644/B650": {
+   "id": "W9-B644/B650",
+   "kind": "FLATNESS",
+   "label": "zero-intertwiner",
+   "quote": "A nonzero C-linear monodromy-equivariant map exists",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "W10-B660/B666": {
+   "id": "W10-B660/B666",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "The framework can output any dimensionful quantity AS A VALUE",
+   "confidence": "medium",
+   "source": "out_1.json"
+  },
+  "W11-B706": {
+   "id": "W11-B706",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "SM flavor ratios are low-height algebraic over the audible field Q(sqrt5)",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "S014 \u2014 cosmological-constant value formula": {
+   "id": "S014 \u2014 cosmological-constant value formula",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "\u039b = \u039b_Planck\u00b7\u03c6^(\u22122N)",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "S015 \u2014 tower eigenvalues = masses / operator dimensions": {
+   "id": "S015 \u2014 tower eigenvalues = masses / operator dimensions",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "The SL(n) tower eigenvalues are a physical mass/operator-dimension spectrum",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "S016 \u2014 Goldman metric (1,1) Lorentzian": {
+   "id": "S016 \u2014 Goldman metric (1,1) Lorentzian",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "The Goldman/Weil\u2013Petersson form on the character variety is Lorentzian (1,1)",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "S017 \u2014 phase-space 3+1D at SL(3)": {
+   "id": "S017 \u2014 phase-space 3+1D at SL(3)",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "SL(3) character variety has 6 real dimensions \u2192 3+1 spacetime",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "S018 \u2014 the spacetime tower up the ranks": {
+   "id": "S018 \u2014 the spacetime tower up the ranks",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "Lorentzian signature climbs the principal-SL(2) ladder to give 3+1 at higher rank",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "S019 \u2014 Fisher metric on CS level k": {
+   "id": "S019 \u2014 Fisher metric on CS level k",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "An information-geometry (Fisher-metric) reading of the Chern\u2013Simons level",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "S021 \u2014 entanglement = holographic": {
+   "id": "S021 \u2014 entanglement = holographic",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "The Fibonacci critical chain's entanglement signals holography",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "Meta-kill \u2014 one collision causes all walls": {
+   "id": "Meta-kill \u2014 one collision causes all walls",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "A single repeated \u22121 is the common root cause",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "Math-kill \u2014 \u03b8 \u2192 c (opposition involution predicts degree=rank scalar)": {
+   "id": "Math-kill \u2014 \u03b8 \u2192 c (opposition involution predicts degree=rank scalar)",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "\u03b8=\u2212w\u2080 predicts all four per-eigenvector Dehn-filling scalars c",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "Math-kill \u2014 s_n = c (tower sign predicts degree=rank scalar)": {
+   "id": "Math-kill \u2014 s_n = c (tower sign predicts degree=rank scalar)",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "The tower sign s_n\u2208{\u00b11} equals the degree=rank secondary scalar c=i",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "Value-kill \u2014 CS-crossover k\u22484 \u2194 n=4": {
+   "id": "Value-kill \u2014 CS-crossover k\u22484 \u2194 n=4",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "The Chern\u2013Simons level crosses over near k\u22484, matching the rank n=4",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "Standard-theory-kills \u2014 quantum/knot probing triage (Chat-2)": {
+   "id": "Standard-theory-kills \u2014 quantum/knot probing triage (Chat-2)",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "Five quantum-tower/knot observations read as framework-specific bridges",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-A/K-B \u2014 det=\u22121 breaks chirality / selects SM chiral structure": {
+   "id": "K-A/K-B \u2014 det=\u22121 breaks chirality / selects SM chiral structure",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "det=\u22121 breaks chirality and selects the Standard-Model chiral structure",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-C \u2014 figure-eight quantized = physical Fibonacci order": {
+   "id": "K-C \u2014 figure-eight quantized = physical Fibonacci order",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "The quantized figure-eight is the physical Fibonacci topological order",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-D \u2014 physical (unitary) topological order from the metallic family": {
+   "id": "K-D \u2014 physical (unitary) topological order from the metallic family",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "Some metallic member furnishes physical (unitary, chiral) topological order",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-E \u2014 a forced dimensionful scale or non-generic physical ratio": {
+   "id": "K-E \u2014 a forced dimensionful scale or non-generic physical ratio",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "non-generic physical ratio",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-F \u2014 single torsion \u2124/n \u2192 SU(n) center \u2192 gauge-group bridge": {
+   "id": "K-F \u2014 single torsion \u2124/n \u2192 SU(n) center \u2192 gauge-group bridge",
+   "kind": "OTHER",
+   "label": "kind-mismatch",
+   "quote": "H\u2081 torsion tracks chirality and its \u2124/n is an SU(n) center selecting a gauge group",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-G \u2014 the metallic structure HAS a forced choice (isolated \u03ba fixed points)": {
+   "id": "K-G \u2014 the metallic structure HAS a forced choice (isolated \u03ba fixed points)",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "Isolated fixed points with distinct unsymmetrizable \u03ba values give the structure a forced choice",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-H \u2014 chirality shifts the eigenvalue arithmetic": {
+   "id": "K-H \u2014 chirality shifts the eigenvalue arithmetic",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "chirality causes the eigenvalue field content",
+   "confidence": "low",
+   "source": "out_1.json"
+  },
+  "K-I \u2014 Borromean rings (s776) show SU(3) gauge enhancement": {
+   "id": "K-I \u2014 Borromean rings (s776) show SU(3) gauge enhancement",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "S\u2083-invariant SL(2,\u2102) character variety of dim 2 = rank SU(3)",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "K-J \u2014 \u03c6\u00b2 = degenerate-block monodromy multiplier": {
+   "id": "K-J \u2014 \u03c6\u00b2 = degenerate-block monodromy multiplier",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "monodromy multiplier equals the seed's \u03c6\u00b2",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "K-K \u2014 gap-labeling rank = composition period": {
+   "id": "K-K \u2014 gap-labeling rank = composition period",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "The gap-labeling spectral rank equals the composition period k",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "K-L \u2014 rank = SL(n) tower depth": {
+   "id": "K-L \u2014 rank = SL(n) tower depth",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "The spectral rank climbs with the SL(n) tower depth",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "K-M \u2014 measurable gap-labeling-rank prediction": {
+   "id": "K-M \u2014 measurable gap-labeling-rank prediction",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "A measurable gap-labeling-rank prediction built on K-K/K-L",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "K-N \u2014 |disc_CM| = \u03ba_m": {
+   "id": "K-N \u2014 |disc_CM| = \u03ba_m",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "value-numerology",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "K-O \u2014 golden trace leak tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6 as distinguished signal": {
+   "id": "K-O \u2014 golden trace leak tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6 as distinguished signal",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "distinguishes it from other hyperbolic words",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "S032-A \u2014 the literal universal no-escape form (probation P1)": {
+   "id": "S032-A \u2014 the literal universal no-escape form (probation P1)",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "NO invariant escapes the trace ring's discretely-multivalued-and-unsymmetric behavior",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "P13 \u2014 generations via commensurator-triality-on-27": {
+   "id": "P13 \u2014 generations via commensurator-triality-on-27",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "triality on the 27 gives three symmetric generations",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "P20 \u2014 the causal-set poset reading": {
+   "id": "P20 \u2014 the causal-set poset reading",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "manifoldlike causal set",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "P21 \u2014 the framework search": {
+   "id": "P21 \u2014 the framework search",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "hosts the object's full signature set",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "P22 \u2014 the Klein-four \u2192 SO(9) route": {
+   "id": "P22 \u2014 the Klein-four \u2192 SO(9) route",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "selects SO(9)=B\u2084 inside F\u2084",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "R1 \u2014 the B85 Sym(W)\u2192trace-ring functor wall (B565, earned)": {
+   "id": "R1 \u2014 the B85 Sym(W)\u2192trace-ring functor wall (B565, earned)",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "reaches the multiplicity-2 char(M\u00b2) sector before n=5",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "R5 \u2014 the L38 Higgs-scale do-or-die (B565, earned)": {
+   "id": "R5 \u2014 the L38 Higgs-scale do-or-die (B565, earned)",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "An intrinsic (Higgs-like) scale exists on the Hitchin/Higgs side of the object",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "S014-null-clause correction (B565 exhumation)": {
+   "id": "S014-null-clause correction (B565 exhumation)",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "cited-as-sufficient",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B8": {
+   "id": "B8",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "sqrt(5/(4 log phi)), not phi",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B9": {
+   "id": "B9",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no fusion-to-scattering map exists",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B15": {
+   "id": "B15",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "rejected under the Fricke-Vogt normalization",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B17": {
+   "id": "B17",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "not a new uniqueness theorem under the existing selection filters",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B20": {
+   "id": "B20",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "never reads its invariant, failing the operational self-model criterion",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B22": {
+   "id": "B22",
+   "kind": "PAIRING",
+   "label": "orientation-reversing",
+   "quote": "generic for all orientation-reversing symmetric-square lifts",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B24": {
+   "id": "B24",
+   "kind": "NON-UNIQUENESS",
+   "label": "not-selected",
+   "quote": "not selected by the framework",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B26": {
+   "id": "B26",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the literal T^6 quadratic is t^2-27t+1",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B31": {
+   "id": "B31",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "selects no invariant surface without the extra A-sector matching rule",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B32": {
+   "id": "B32",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "does not select I=1/4",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B36": {
+   "id": "B36",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "gap-label controls fail to distinguish I=1/4",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B37": {
+   "id": "B37",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "fails the self-model criterion",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B39": {
+   "id": "B39",
+   "kind": "NON-UNIQUENESS",
+   "label": "family",
+   "quote": "leaves an infinite discrete family c^2=(m+2)/4",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B40": {
+   "id": "B40",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "conditional on a newly named, underived assumption T1",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B41": {
+   "id": "B41",
+   "kind": "NON-UNIQUENESS",
+   "label": "free-parameter",
+   "quote": "c stays free, so it does not select I=1/4",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B42": {
+   "id": "B42",
+   "kind": "FLATNESS",
+   "label": "no-gradient",
+   "quote": "no intrinsic stationary point at I=1/4",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B46": {
+   "id": "B46",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "higher rank is consistent with S1 but does not derive it",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B47": {
+   "id": "B47",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "lambda/h=1 is conditional, not derived",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B81": {
+   "id": "B81",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "char(DT_0) scatters across seeds",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B82": {
+   "id": "B82",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "every attempted bridge",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B85": {
+   "id": "B85",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "a root-system fact that functoriality cannot dissolve",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B96": {
+   "id": "B96",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "closing the Lorentzian-emergence reading",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B97": {
+   "id": "B97",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "present by construction, not emergent or derived spacetime",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B98": {
+   "id": "B98",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "the tower is a trivial-rep phenomenon",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B99": {
+   "id": "B99",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "not the Dickson tower, confirming the two fixed points carry different invariants",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B108": {
+   "id": "B108",
+   "kind": "PAIRING",
+   "label": "involution",
+   "quote": "it only sends c to 1/c",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B110": {
+   "id": "B110",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "The off-locus irreducible sector is empty",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B114": {
+   "id": "B114",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "is about k^(n-1), not k",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B116": {
+   "id": "B116",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "equals the tower only through n=5 and diverges at n=6",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B119": {
+   "id": "B119",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "the principal degree=rank object is absent for n>=5",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B126": {
+   "id": "B126",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no 3-manifold supplies the 2d-boundary data",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B127": {
+   "id": "B127",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "Chirality, topology and arithmetic each kill the physics-bridge claims",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B129": {
+   "id": "B129",
+   "kind": "FLATNESS",
+   "label": "no-new-content",
+   "quote": "climbing ranks acquires no new field or content",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B130": {
+   "id": "B130",
+   "kind": "NON-UNIQUENESS",
+   "label": "free-parameter",
+   "quote": "kappa is free on the fixed locus, so a single seed cannot force any choice",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B135": {
+   "id": "B135",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "only m=1 has lambda<2",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B139": {
+   "id": "B139",
+   "kind": "PAIRING",
+   "label": "mirror",
+   "quote": "the mirror preserves every computed invariant except the Chern-Simons sign",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B143": {
+   "id": "B143",
+   "kind": "PAIRING",
+   "label": "mirror",
+   "quote": "structurally mirror-blind",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B144": {
+   "id": "B144",
+   "kind": "PAIRING",
+   "label": "mirror",
+   "quote": "Cusp-glued composites are mirror-closed",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B145": {
+   "id": "B145",
+   "kind": "PAIRING",
+   "label": "amphichiral",
+   "quote": "coincides with the self-mirror (amphichiral) family",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B151": {
+   "id": "B151",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no kappa- or volume-type invariant can source a physical scale",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B167": {
+   "id": "B167",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "cannot source an internal scale",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B168": {
+   "id": "B168",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "every emergent rate is dimensionless, so the ensemble yields no scale",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B170": {
+   "id": "B170",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "value-matching, fails a random-base null control",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B181": {
+   "id": "B181",
+   "kind": "FLATNESS",
+   "label": "no-dynamics",
+   "quote": "zero Lyapunov, no transition",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B188": {
+   "id": "B188",
+   "kind": "FLATNESS",
+   "label": "no-relaxation",
+   "quote": "matches the extended chain, decays with L",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B189": {
+   "id": "B189",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "a graded-DAG truncation artifact, reproduced by a random null",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B190": {
+   "id": "B190",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "never converges to a forced-unique value",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B202": {
+   "id": "B202",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "non-generic in the metallic family",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B207": {
+   "id": "B207",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "No GUT-style McKay breaking chain exists",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B213": {
+   "id": "B213",
+   "kind": "FLATNESS",
+   "label": "no-hierarchy",
+   "quote": "entirely O(1) and BSD-generic: no forced small number, no hierarchy",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B217": {
+   "id": "B217",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "it governs the cusped volume, while the closed-bundle period stays algebraic",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B223": {
+   "id": "B223",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no conserved fermion parity and hence no exact lattice supercharge",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B230": {
+   "id": "B230",
+   "kind": "NON-UNIQUENESS",
+   "label": "coincidence",
+   "quote": "is a central-charge coincidence with a different coset",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B231": {
+   "id": "B231",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the metallic mean equals the spin-\u00bd quantum dimension iff m=1",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B235": {
+   "id": "B235",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "\u211a(\u221a\u22127) never appears",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B241": {
+   "id": "B241",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "different type (flavor vs gauge) and specificity",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B244": {
+   "id": "B244",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "does not resolve the three SL(3,\u2102) character-variety components",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B246": {
+   "id": "B246",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "grows at the complement volume 2.0299, group-independently, not at the SL(3) geometric 8.1195",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B269": {
+   "id": "B269",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no SU(2) enhancement",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B280": {
+   "id": "B280",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "branches as 2+2 (two distinct doublets), not triplet+singlet",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B281": {
+   "id": "B281",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "does not distinguish E\u2086",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B282": {
+   "id": "B282",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "generic to any hyperbolic knot",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B283": {
+   "id": "B283",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "the prime-absence claim is falsified",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B284": {
+   "id": "B284",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "a generic smooth point",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B288": {
+   "id": "B288",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "an open-object property destroyed by closing",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B292": {
+   "id": "B292",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "none supplies the N=2\u2192N=1 chiral datum",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B298": {
+   "id": "B298",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "gives multiplicities 1 or 2 across seven independent routes, never 3",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B300": {
+   "id": "B300",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "the degree-3 carrier absent",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B308": {
+   "id": "B308",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "E6 fixes the coupling but not the texture",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B322": {
+   "id": "B322",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "match 12 SM parameters at chance level",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B329": {
+   "id": "B329",
+   "kind": "PAIRING",
+   "label": "conjugation",
+   "quote": "gives n1=n2",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B330": {
+   "id": "B330",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "no forced choice exists",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B331": {
+   "id": "B331",
+   "kind": "PAIRING",
+   "label": "conjugate-to-inverse",
+   "quote": "elliptic and conjugate to its inverse, forcing chi_27(g) real and n1=n2",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B333": {
+   "id": "B333",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "the seam's arithmetic is generic and carries no value",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B336": {
+   "id": "B336",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "\u221a\u221215 is unreachable",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B339": {
+   "id": "B339",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the hoped-for sqrt(-3) signature is absent",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B342": {
+   "id": "B342",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "is disfavoured by data relative to TM1",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B349": {
+   "id": "B349",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "no member is marked and no forced choice exists",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B350": {
+   "id": "B350",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "The cyclic-cover abelian torsion class carries no forced choice",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B355": {
+   "id": "B355",
+   "kind": "PAIRING",
+   "label": "real-cancellation",
+   "quote": "all 605 gauge-invariant triple products are exactly real",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B369": {
+   "id": "B369",
+   "kind": "FLATNESS",
+   "label": "null-readout",
+   "quote": "seam readout identically null in all six words",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B387": {
+   "id": "B387",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "the seam/value-sector coincidence is exclusive to level 15",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B388": {
+   "id": "B388",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "No transport law of the registered forms exists",
+   "confidence": "medium",
+   "source": "out_2.json"
+  },
+  "B395": {
+   "id": "B395",
+   "kind": "PAIRING",
+   "label": "mirror",
+   "quote": "the mirror is summation-emergent with no cell-local Galois origin",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B398": {
+   "id": "B398",
+   "kind": "NON-UNIQUENESS",
+   "label": "numerology",
+   "quote": "banks as numerology-class",
+   "confidence": "high",
+   "source": "out_2.json"
+  },
+  "B408": {
+   "id": "B408",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "closing the object's last internal scale-lever candidate",
+   "confidence": "low",
+   "source": "out_2.json"
+  },
+  "B413": {
+   "id": "B413",
+   "kind": "FLATNESS",
+   "label": "flat",
+   "quote": "The tower-measure is flat (|L(chi)|=1/4 for every character, Gauss-sum phases)",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B414": {
+   "id": "B414",
+   "kind": "NON-UNIQUENESS",
+   "label": "",
+   "quote": "no canonical frame exists",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B419": {
+   "id": "B419",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "a hyperbolic volume with golden-field arithmetic, not an SM structure",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B420": {
+   "id": "B420",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "with the bar not cleared and no SM structure",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B421": {
+   "id": "B421",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "every destination is named pure mathematics and none cleared the bar",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B422": {
+   "id": "B422",
+   "kind": "PAIRING",
+   "label": "mirror-orthogonality",
+   "quote": "Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B429": {
+   "id": "B429",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no first-order deformation of the object's E\u2086 structure produces spinorial matter",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B430": {
+   "id": "B430",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "the object forces only the principal bosonic one, so the fermion door is closed",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B438": {
+   "id": "B438",
+   "kind": "NON-UNIQUENESS",
+   "label": "not-object-specific",
+   "quote": "nothing about the child is figure-eight-unique",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B441": {
+   "id": "B441",
+   "kind": "NON-UNIQUENESS",
+   "label": "not-object-specific",
+   "quote": "its sqrt5/sqrt-3/sqrt-15 content is forced, not object-specific",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B442": {
+   "id": "B442",
+   "kind": "NON-UNIQUENESS",
+   "label": "not-object-specific",
+   "quote": "adding no figure-eight-specific structure (Bin 3)",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B447": {
+   "id": "B447",
+   "kind": "NON-UNIQUENESS",
+   "label": "laundered-match",
+   "quote": "reproduced by a parameter-free 8-moment surrogate \u2014 no golden exceptionality",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B455": {
+   "id": "B455",
+   "kind": "FLATNESS",
+   "label": "no-dynamics",
+   "quote": "kappa is conserved along perturbed orbits, so no restoring response exists",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B457": {
+   "id": "B457",
+   "kind": "NON-UNIQUENESS",
+   "label": "null-consistent-hits",
+   "quote": "the behavior catalog is class-generic or whitelist-laundered",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B458": {
+   "id": "B458",
+   "kind": "FLATNESS",
+   "label": "zero-invariant",
+   "quote": "has complex volume 0 + i*0",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B461": {
+   "id": "B461",
+   "kind": "NON-UNIQUENESS",
+   "label": "not-object-specific",
+   "quote": "Q(sqrt(-7)) appears on an unrelated control",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B462": {
+   "id": "B462",
+   "kind": "NON-UNIQUENESS",
+   "label": "class-generic",
+   "quote": "launders through a class-generic mechanism",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B464": {
+   "id": "B464",
+   "kind": "NON-UNIQUENESS",
+   "label": "class-generic",
+   "quote": "no relational invariant escaping class-laundering",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B480": {
+   "id": "B480",
+   "kind": "NON-UNIQUENESS",
+   "label": "generic",
+   "quote": "Dirac emergence is generic, mass is a tunable alignment angle",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B481": {
+   "id": "B481",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "det(T) = zeta_5 is a float artifact",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B490": {
+   "id": "B490",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "one structural no-go, stated as a single provable theorem",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B498": {
+   "id": "B498",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "Depth-3 mixed words refute both the golden monopoly and cyclotomic tameness",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B512": {
+   "id": "B512",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the McKay ladder to E\u2086 is golden-specific (silver is a 2-group)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B529": {
+   "id": "B529",
+   "kind": "NON-UNIQUENESS",
+   "label": "generic",
+   "quote": "generic spectral degeneracy and the golden-angle coin loses to 2 of 10 random controls",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B541": {
+   "id": "B541",
+   "kind": "NON-UNIQUENESS",
+   "label": "chance-match",
+   "quote": "matches SM constants no better than chance",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B549": {
+   "id": "B549",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "Both time-independent cosmic ratios return null",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B551": {
+   "id": "B551",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no rotation/winding mechanism can emit it",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B559": {
+   "id": "B559",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "critical with log-law entanglement, not area-law",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B563": {
+   "id": "B563",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "nulls at every rung (p\u22480.53, zero hits)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B573": {
+   "id": "B573",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "the principal sl2 preserves no Spin(10) grading",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B577": {
+   "id": "B577",
+   "kind": "OTHER",
+   "label": "recall-failure",
+   "quote": "already banked weeks earlier (B265/B352): a non-recall failure",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B592": {
+   "id": "B592",
+   "kind": "PAIRING",
+   "label": "C-symmetry-cancellation",
+   "quote": "C-symmetry of the state makes every closed theta-odd amplitude vanish for every gluing",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B596": {
+   "id": "B596",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "the \u03b8-odd block's clock is not the naive cat-map period in any registered form",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B597": {
+   "id": "B597",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "structurally exclude the free-rotation outcome C (conditionally)",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B600": {
+   "id": "B600",
+   "kind": "FLATNESS",
+   "label": "zero-invariant",
+   "quote": "Z\u2084 = Tr \u03c1\u2084(A\u2081) = 0 and Tr(\u0398\u03c1\u2084) = 0 at E\u2086 level 4",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B602": {
+   "id": "B602",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "all X1 cells fail with residual exactly \u2212\u03c0/15",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B606": {
+   "id": "B606",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "no partners in the hearing integers",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B611": {
+   "id": "B611",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "Both sealed predictions failed",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B612": {
+   "id": "B612",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "The sealed per-level pairing biconditional FAILED",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B631": {
+   "id": "B631",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "does not match PMNS at the 1% tier: 0/9 entries within 0.01",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B633": {
+   "id": "B633",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "the last SM residual dissolves (p = 0.078 becomes 0.145-0.62)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B639": {
+   "id": "B639",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "admits no representation-twisted amalgam realization in any tested class",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B643": {
+   "id": "B643",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no invertible global companion exists (solution dimension 1, singular)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B655": {
+   "id": "B655",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "its anchors contradict the banked cards",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B658": {
+   "id": "B658",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "break on the weld double's 27 local system (solution dimension 1",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B660": {
+   "id": "B660",
+   "kind": "FLATNESS",
+   "label": "zero-coupling",
+   "quote": "an exactly zero v\u2080-mediated trilinear",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B671": {
+   "id": "B671",
+   "kind": "NON-UNIQUENESS",
+   "label": "gauge-dependent",
+   "quote": "scalarization-gauge rather than object content",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B674": {
+   "id": "B674",
+   "kind": "FLATNESS",
+   "label": "trace-silent",
+   "quote": "trace-silent (tr(A\u2081*|H\u00b9(Sym\u1d50))=0 for all m)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B678": {
+   "id": "B678",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "no growth in any of 96 cells, refuting chat1's amphichiral-suppression mechanism",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B686": {
+   "id": "B686",
+   "kind": "NON-UNIQUENESS",
+   "label": "convention-dependent",
+   "quote": "Q = 2/3 is a parametrization tautology for every phase and theta0 = 2/9 is convention-dependent",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B697": {
+   "id": "B697",
+   "kind": "NON-UNIQUENESS",
+   "label": "tautology-not-specific",
+   "quote": "a tautological Gaussian period carrying no object-specific content",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B713": {
+   "id": "B713",
+   "kind": "NON-UNIQUENESS",
+   "label": "non-canonical-bit",
+   "quote": "'which chirality' is a non-canonical Galois torsor bit",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B716": {
+   "id": "B716",
+   "kind": "NON-UNIQUENESS",
+   "label": "observer-supplied",
+   "quote": "Time, 4-dimensionality and Lorentzian signature are all the observer's",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B718": {
+   "id": "B718",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "SL(2,F_p) is McKay only at p=3,5",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B719": {
+   "id": "B719",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-preferred-size",
+   "quote": "Multiplicity/scale is the observer's \u2014 every cover's volume is exactly degree\u00b7base with no preferred size",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B728": {
+   "id": "B728",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "zeta_5 is impossible in the resummed object",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B729": {
+   "id": "B729",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "every native invariant yields only the two quadratic fields",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B735": {
+   "id": "B735",
+   "kind": "NON-UNIQUENESS",
+   "label": "generic",
+   "quote": "generic to every cusped hyperbolic manifold",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B737": {
+   "id": "B737",
+   "kind": "NON-UNIQUENESS",
+   "label": "not-object-specific",
+   "quote": "the \u03b6_K in the object's voice is the field's (vacuity plus object-deletion)",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B740": {
+   "id": "B740",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "no closed filling of m004 re-sees sqrt(-3)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B743": {
+   "id": "B743",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "contain no SM ratio at testable precision",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B747": {
+   "id": "B747",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "all 78 fillings' invariant trace fields are \u221a5-free",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B748": {
+   "id": "B748",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid re-sees the meeting face Q(sqrt-15)",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B751": {
+   "id": "B751",
+   "kind": "NON-UNIQUENESS",
+   "label": "scale-knob-dependent",
+   "quote": "the target is scale-knob-dependent, and the hits are null-consistent",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B752": {
+   "id": "B752",
+   "kind": "NON-UNIQUENESS",
+   "label": "base-rate",
+   "quote": "its c*phi^-n hits are base-rate by its own decision rule",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B754": {
+   "id": "B754",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "17 KILL-EXTENDS, 2 FACE-IRRELEVANT and 0 FACE-OPENS",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B756": {
+   "id": "B756",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "dies on five exact counterexamples",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B757": {
+   "id": "B757",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "The two Z/3's are never the same element (deck reps are torsion-free)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B760": {
+   "id": "B760",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "canonically signs the theta-odd chord sector: the object cannot close itself",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B772": {
+   "id": "B772",
+   "kind": "OTHER",
+   "label": "unstated",
+   "quote": "only 4 are load-bearing; the corpus is seam-independent",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B775": {
+   "id": "B775",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "walls the mover door (no object-native outer operation)",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B790": {
+   "id": "B790",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "LMFDB holds no Bianchi Laplace data, three tests are vacuous",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B793": {
+   "id": "B793",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "the B788 solver is bounded refinement inside a supplied window, cannot count roots",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B802": {
+   "id": "B802",
+   "kind": "PAIRING",
+   "label": "reversal-invariance",
+   "quote": "reversal leaves the Fibonacci letter frequencies unchanged",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B808": {
+   "id": "B808",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "34 of 35 are artifacts and the lone survivor is below chance expectation",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B811": {
+   "id": "B811",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "a scale-free object cannot emit a scale-dependent value",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B812": {
+   "id": "B812",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "zero genuine paths: five blocked by M (no computed mechanism",
+   "confidence": "low",
+   "source": "out_3.json"
+  },
+  "B813": {
+   "id": "B813",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "cannot fill the coefficient slot of e^{i\u03b8W(A)}",
+   "confidence": "high",
+   "source": "out_3.json"
+  },
+  "B814": {
+   "id": "B814",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "the component is a smooth 6-fold (15 vanishing cross-pairings, unobstructed to third order), not dimension 1",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B821": {
+   "id": "B821",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "failed its sealed vacuity ceiling (46.2% of the corpus vs \u226425%)",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B824": {
+   "id": "B824",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "failed its sealed vacuity ceiling at 18.4% of the corpus",
+   "confidence": "medium",
+   "source": "out_3.json"
+  },
+  "B849": {
+   "id": "B849",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "has an order parameter at the manifold level",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B850": {
+   "id": "B850",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "is object-specific to m004",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B854": {
+   "id": "B854",
+   "kind": "FLATNESS",
+   "label": "zero-intertwiner",
+   "quote": "zero-intertwiner",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B899": {
+   "id": "B899",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "registered-comparison-null",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B915": {
+   "id": "B915",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "matches the measured low-energy couplings through a pure SM desert",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B925": {
+   "id": "B925",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "killed by the chain's own algebra",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B924": {
+   "id": "B924",
+   "kind": "PAIRING",
+   "label": "rigidity-collapse",
+   "quote": "rigidity-collapse-with-mechanism",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B935": {
+   "id": "B935",
+   "kind": "FLATNESS",
+   "label": "collapse-by-similarity",
+   "quote": "rigidity-collapse-with-mechanism",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B942": {
+   "id": "B942",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "group-membership-refutation",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B945": {
+   "id": "B945",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "stabilizer-computation",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B957": {
+   "id": "B957",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "category-mismatch",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B959": {
+   "id": "B959",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "rank-vs-reality-dichotomy",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B947": {
+   "id": "B947",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "cross-family-counterexample",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B960": {
+   "id": "B960",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "self-defeating-escape",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B979": {
+   "id": "B979",
+   "kind": "OTHER",
+   "label": "scope",
+   "quote": "kind-mismatch",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B971": {
+   "id": "B971",
+   "kind": "FLATNESS",
+   "label": "vacuity",
+   "quote": "vacuity",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B986": {
+   "id": "B986",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "vacuity",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B995": {
+   "id": "B995",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "ill-posed-conjunction (rarity implies separation)",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B996": {
+   "id": "B996",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "genericity",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1005": {
+   "id": "B1005",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "enumeration-exhausted",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1006": {
+   "id": "B1006",
+   "kind": "OTHER",
+   "label": "absence-at-depth",
+   "quote": "absence-at-depth",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1007": {
+   "id": "B1007",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "self-refuted-draft (instrument already existed)",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1027": {
+   "id": "B1027",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "powered-exclusion (sealed crossing; both sectors powered)",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1063": {
+   "id": "B1063",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "powered-exclusion (the sealed refresh windows, executed once)",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1064": {
+   "id": "B1064",
+   "kind": "PAIRING",
+   "label": "amphichirality-deletes",
+   "quote": "the object's amphichirality deletes the quantized sector of its own boundary action",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1066": {
+   "id": "B1066",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "powered-exclusion",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1075": {
+   "id": "B1075",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "powered-exclusion",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1076": {
+   "id": "B1076",
+   "kind": "NON-UNIQUENESS",
+   "label": "element-specific",
+   "quote": "every value-bearing quantity element-specific",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1084": {
+   "id": "B1084",
+   "kind": "FLATNESS",
+   "label": "non-isolation",
+   "quote": "has NO 0-dimensional fixed set",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1086": {
+   "id": "B1086",
+   "kind": "PAIRING",
+   "label": "Poincare-duality",
+   "quote": "forces h1(D;27) = h1(D;27bar) in every cell",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1094": {
+   "id": "B1094",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "every row rank 6",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1096": {
+   "id": "B1096",
+   "kind": "FLATNESS",
+   "label": "identical-vanishing",
+   "quote": "every anomaly channel over the derived 16 is zero",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1108": {
+   "id": "B1108",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "type mismatch, structural",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1137": {
+   "id": "B1137",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "0 of 18 SM targets involve a regulator across 216 cells",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1140": {
+   "id": "B1140",
+   "kind": "FLATNESS",
+   "label": "invariant-content-zero",
+   "quote": "INVARIANT CONTENT ZERO",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1142": {
+   "id": "B1142",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "GENERIC (Montgomery pair-correlation / Katz-Sarnak",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1151": {
+   "id": "B1151",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "genericity",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1157": {
+   "id": "B1157",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "genericity",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1165": {
+   "id": "B1165",
+   "kind": "NON-UNIQUENESS",
+   "label": "genericity",
+   "quote": "genericity",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1174": {
+   "id": "B1174",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "category-mismatch",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B838": {
+   "id": "B838",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "vacuity",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B840": {
+   "id": "B840",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "vacuity",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1203": {
+   "id": "B1203",
+   "kind": "NON-UNIQUENESS",
+   "label": "symmetry-cannot-select",
+   "quote": "symmetry-cannot-select",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1205": {
+   "id": "B1205",
+   "kind": "NON-UNIQUENESS",
+   "label": "dimension-count",
+   "quote": "dimension-count",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1209": {
+   "id": "B1209",
+   "kind": "FLATNESS",
+   "label": "trivial-torsor",
+   "quote": "trivial-torsor",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1222": {
+   "id": "B1222",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "premise refuted by population test",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1223": {
+   "id": "B1223",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "arithmetic disjointness of the ACTION, not of the pieces.",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B2": {
+   "id": "B2",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "kind-mismatch",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B5": {
+   "id": "B5",
+   "kind": "OTHER",
+   "label": "value-miss",
+   "quote": "kind-mismatch",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B258-silver-inference": {
+   "id": "B258-silver-inference",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "cited-as-sufficient",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1062-V2-axis": {
+   "id": "B1062-V2-axis",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "cited-as-sufficient",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1244": {
+   "id": "B1244",
+   "kind": "OTHER",
+   "label": "premise-false",
+   "quote": "pre-registered expectation falsified by its own run",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1242": {
+   "id": "B1242",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the discriminant forms are UNEQUAL on every invariant",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1258": {
+   "id": "B1258",
+   "kind": "NON-UNIQUENESS",
+   "label": "cannot-select",
+   "quote": "IDENTICAL for both candidates",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1259": {
+   "id": "B1259",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "EVERY element of SO(2k+1) has eigenvalue +1",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1262": {
+   "id": "B1262",
+   "kind": "OTHER",
+   "label": "arithmetic-mismatch",
+   "quote": "the GENUS GROUP HAS ORDER 2, against Gal's order 4",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1267": {
+   "id": "B1267",
+   "kind": "FLATNESS",
+   "label": "rigid-zero-index",
+   "quote": "BOTH h1 VANISH: W1 and W2 are RIGID",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1291": {
+   "id": "B1291",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "The GEOMETRY forbids it",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1295": {
+   "id": "B1295",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "Exhaustive scan.",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1296": {
+   "id": "B1296",
+   "kind": "PAIRING",
+   "label": "sigma-parity",
+   "quote": "a Morse-Bott zero locus and a vortex locus along Fix(sigma) are sigma-EVEN",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1297": {
+   "id": "B1297",
+   "kind": "PAIRING",
+   "label": "self-duality",
+   "quote": "T-GALOIS-SELF-DUALITY",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1322": {
+   "id": "B1322",
+   "kind": "PAIRING",
+   "label": "symmetry-paired",
+   "quote": "h^1(M; 27) != h^1(M; 27bar)",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1330": {
+   "id": "B1330",
+   "kind": "FLATNESS",
+   "label": "zero-index",
+   "quote": "every one of the four returns index ZERO",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1335": {
+   "id": "B1335",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "The falsifier does not fire",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1336": {
+   "id": "B1336",
+   "kind": "FLATNESS",
+   "label": "abelian-or-nothing",
+   "quote": "ABELIAN OR NOTHING, by Borel density",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1338": {
+   "id": "B1338",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "The instrument is itself blind, demonstrated by its own miss",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1340": {
+   "id": "B1340",
+   "kind": "FLATNESS",
+   "label": "vacuity",
+   "quote": "All three vacuous, two by theorem and one by identity.",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1347": {
+   "id": "B1347",
+   "kind": "NON-UNIQUENESS",
+   "label": "no-selection",
+   "quote": "A basin, not a direction.",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1349": {
+   "id": "B1349",
+   "kind": "NON-UNIQUENESS",
+   "label": "residual-freedom",
+   "quote": "The residual freedom is 48",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1407": {
+   "id": "B1407",
+   "kind": "OTHER",
+   "label": "power",
+   "quote": "branch B is dead on power",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1408": {
+   "id": "B1408",
+   "kind": "OTHER",
+   "label": "power",
+   "quote": "the value channel needs ~1e-2 to 1e-3 relative precision",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1442": {
+   "id": "B1442",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "no background has its five charged sectors at class index two",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1450": {
+   "id": "B1450",
+   "kind": "NON-UNIQUENESS",
+   "label": "non-separating",
+   "quote": "none of six stated features takes disjoint values on the two sets",
+   "confidence": "low",
+   "source": "out_7.json"
+  },
+  "B1452": {
+   "id": "B1452",
+   "kind": "OTHER",
+   "label": "instrument",
+   "quote": "Under four hash seeds fourteen scripts print the same thing",
+   "confidence": "medium",
+   "source": "out_7.json"
+  },
+  "B1455": {
+   "id": "B1455",
+   "kind": "PAIRING",
+   "label": "dual-odd-index",
+   "quote": "odd under dualising, so a module with V* isomorphic to sigma^*V has index zero",
+   "confidence": "high",
+   "source": "out_7.json"
+  },
+  "B1470": {
+   "id": "B1470",
+   "kind": "OTHER",
+   "label": "no-landing-site",
+   "quote": "Computation to completion with B1418's own driver",
+   "confidence": "low",
+   "source": "out_7.json"
+  }
+ }
+}

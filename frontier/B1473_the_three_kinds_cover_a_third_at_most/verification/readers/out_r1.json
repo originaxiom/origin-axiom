@@ -1,0 +1,604 @@
+[
+ {
+  "id": "B268",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "wall #1 dissolved, wall #2 reduced to a single physics conjecture",
+  "confidence": "medium"
+ },
+ {
+  "id": "B315",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "pseudoreality FS(56)=-1 the shared root among three independent obstructions",
+  "confidence": "low"
+ },
+ {
+  "id": "B348",
+  "kind": "PAIRING",
+  "label": "galois-amphichiral-pairing",
+  "quote": "Galois orbit {β,−β} summing to zero",
+  "confidence": "high"
+ },
+ {
+  "id": "B363",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "all 225 one-sided twists and the one-slot theta lift are dark",
+  "confidence": "low"
+ },
+ {
+  "id": "B384",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "the triangular (S,T) slot block gives a sector NO-MATCH",
+  "confidence": "medium"
+ },
+ {
+  "id": "B434",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the Meyerhoff manifold with new arithmetic (disc -283)",
+  "confidence": "low"
+ },
+ {
+  "id": "B454",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the word channel can never leave ℚ(√−3)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B470",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "level-2 trace fields escalate per rung and escape level-1 laundering",
+  "confidence": "low"
+ },
+ {
+  "id": "B497",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "End(F₂) on the character variety splits into four strata",
+  "confidence": "low"
+ },
+ {
+  "id": "B524",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "F4-by-phi is word-hyperbolic but not a 3-manifold group",
+  "confidence": "medium"
+ },
+ {
+  "id": "B540",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "correcting B535's window-length-limited census",
+  "confidence": "medium"
+ },
+ {
+  "id": "B564",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The SL(3) phi-fixed locus contains no irreducible representation",
+  "confidence": "medium"
+ },
+ {
+  "id": "B588",
+  "kind": "PAIRING",
+  "label": "even-odd-sector-exchange",
+  "quote": "identical sqrt5 Gauss data is even on one stage and odd on the other",
+  "confidence": "medium"
+ },
+ {
+  "id": "B638",
+  "kind": "PAIRING",
+  "label": "antilinear-involution",
+  "quote": "The deck swap is an antilinear involution with Eisenstein-unit spectrum",
+  "confidence": "medium"
+ },
+ {
+  "id": "B680",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Verified exactly that Vol(4_1) = (3sqrt3/2) L(chi_-3, 2)",
+  "confidence": "low"
+ },
+ {
+  "id": "B700",
+  "kind": "NON-UNIQUENESS",
+  "label": "torsor-no-canonical-choice",
+  "quote": "the canonical torsor-iso is provably obstructed",
+  "confidence": "medium"
+ },
+ {
+  "id": "B739",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "carrying no level characters",
+  "confidence": "medium"
+ },
+ {
+  "id": "B753",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "refuting the disputed 108°/'different quantity' claim",
+  "confidence": "medium"
+ },
+ {
+  "id": "B766",
+  "kind": "NON-UNIQUENESS",
+  "label": "free-choice-torsor",
+  "quote": "time's arrow and the basepoint bit are one choice",
+  "confidence": "medium"
+ },
+ {
+  "id": "B780",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the signatures were hardcoded literals, not computed booleans",
+  "confidence": "high"
+ },
+ {
+  "id": "B797",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "the sealed SM comparison returns zero gated hits",
+  "confidence": "high"
+ },
+ {
+  "id": "B839",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the non-3 denominator is an EXPANSION ARTIFACT",
+  "confidence": "high"
+ },
+ {
+  "id": "B13",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "contains the A-sector as an exact rank-2 lattice-conjugate block",
+  "confidence": "low"
+ },
+ {
+  "id": "B64",
+  "kind": "PAIRING",
+  "label": "parity-sector",
+  "quote": "even-|k| char(M^k) is P-symmetric, odd-|k| P-antisymmetric",
+  "confidence": "medium"
+ },
+ {
+  "id": "B112",
+  "kind": "PAIRING",
+  "label": "involution-reversal",
+  "quote": "The opposition involution acts on height-h A(n-1) root spaces as a reversal",
+  "confidence": "medium"
+ },
+ {
+  "id": "B125",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "arithmeticity selects m=1 (Q(sqrt-3)) and m=2 (Q(i)) and kills m>=3",
+  "confidence": "high"
+ },
+ {
+  "id": "B141",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "The phi-fixed principal tower is reducible for all n>=3 by Q8 finiteness",
+  "confidence": "medium"
+ },
+ {
+  "id": "B155",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "An explicit SL(4,Z) matrix realizes figure-eight monodromy times an order-6 phase",
+  "confidence": "low"
+ },
+ {
+  "id": "B171",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "leaving the rank-3 combination gap unsettled",
+  "confidence": "low"
+ },
+ {
+  "id": "B211",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "not 40a1 (its σ-quotient); the point counts are isogeny-invariant and stand",
+  "confidence": "medium"
+ },
+ {
+  "id": "B227",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "has an explicit Seifert dual",
+  "confidence": "low"
+ },
+ {
+  "id": "B256",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "remaining the one group with no geometric realization",
+  "confidence": "medium"
+ },
+ {
+  "id": "B316",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "disc -7 is below the unimodular floor",
+  "confidence": "medium"
+ },
+ {
+  "id": "B366",
+  "kind": "NON-UNIQUENESS",
+  "label": "selection-resolved",
+  "quote": "the lift is not a choice",
+  "confidence": "low"
+ },
+ {
+  "id": "B386",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "factorizes exactly as C3 times C5 on all 240 cells",
+  "confidence": "low"
+ },
+ {
+  "id": "B415",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "the registered SM-emergence bar was not cleared",
+  "confidence": "high"
+ },
+ {
+  "id": "B436",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the '-283 equals figure-eight fingerprint' reading is corrected to a class property",
+  "confidence": "high"
+ },
+ {
+  "id": "B471",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the unique metallic pair whose commutator is parabolic and closes the cusp",
+  "confidence": "low"
+ },
+ {
+  "id": "B527",
+  "kind": "NON-UNIQUENESS",
+  "label": "family-not-point",
+  "quote": "Stein evolution selects no metric",
+  "confidence": "high"
+ },
+ {
+  "id": "B589",
+  "kind": "PAIRING",
+  "label": "theta-odd-pairs",
+  "quote": "The three E₆₂ θ-odd pair amplitudes",
+  "confidence": "low"
+ },
+ {
+  "id": "B601",
+  "kind": "PAIRING",
+  "label": "odd-trace-law",
+  "quote": "trace(B_odd)(kappa) = [5|kappa]/phi - [4|kappa] holds exactly",
+  "confidence": "low"
+ },
+ {
+  "id": "B683",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the inert-5 monofocal reading fails",
+  "confidence": "high"
+ },
+ {
+  "id": "B702",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The arc's law 'metallic hearing iff real-quadratic swap field' is retracted as a swap/weld conflation",
+  "confidence": "high"
+ },
+ {
+  "id": "B722",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "with no free continuous parameter",
+  "confidence": "medium"
+ },
+ {
+  "id": "B781",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "m004 is uniquely selected over its V4-sharing sister m003",
+  "confidence": "low"
+ },
+ {
+  "id": "B14",
+  "kind": "PAIRING",
+  "label": "orientation-reversal",
+  "quote": "L_aR_b has an orientation-reversing integer square root iff a=b",
+  "confidence": "medium"
+ },
+ {
+  "id": "B65",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "factors directly into the seven Dickson factors",
+  "confidence": "low"
+ },
+ {
+  "id": "B113",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "confines degree=rank to the height-1/top-power interface",
+  "confidence": "low"
+ },
+ {
+  "id": "B142",
+  "kind": "FLATNESS",
+  "label": "reducible-by-finiteness",
+  "quote": "proves the principal phi-fixed stratum reducible without any search",
+  "confidence": "low"
+ },
+ {
+  "id": "B156",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Six Omega strict-full theorems were independently re-derived",
+  "confidence": "low"
+ },
+ {
+  "id": "B173",
+  "kind": "NON-UNIQUENESS",
+  "label": "rank-not-point",
+  "quote": "The woven two-seed gap-label group is rank 3",
+  "confidence": "low"
+ },
+ {
+  "id": "B196",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Delta = -(ln lambda_m/pi)^2, exact",
+  "confidence": "low"
+ },
+ {
+  "id": "B212",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "correcting the assumed silver framing",
+  "confidence": "medium"
+ },
+ {
+  "id": "B228",
+  "kind": "NON-UNIQUENESS",
+  "label": "uniqueness-positive",
+  "quote": "forcing golden as the only SUSY metallic chain",
+  "confidence": "low"
+ },
+ {
+  "id": "B242",
+  "kind": "PAIRING",
+  "label": "level-rank-conjugation",
+  "quote": "Level-rank duality acts as complex conjugation at κ=5",
+  "confidence": "high"
+ },
+ {
+  "id": "B257",
+  "kind": "FLATNESS",
+  "label": "vanishing-complex-volume",
+  "quote": "vanishing complex volume",
+  "confidence": "medium"
+ },
+ {
+  "id": "B270",
+  "kind": "FLATNESS",
+  "label": "vanishing-obstruction",
+  "quote": "the quadratic cup-product obstruction vanishes in the SL(2)/exponent-1 block",
+  "confidence": "medium"
+ },
+ {
+  "id": "B301",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-unique-selection",
+  "quote": "not a unique SO(10)",
+  "confidence": "high"
+ },
+ {
+  "id": "B317",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "outside the algebraic Lisovyy-Tykhyy list of finite orbits",
+  "confidence": "medium"
+ },
+ {
+  "id": "B368",
+  "kind": "OTHER",
+  "label": "no-new-values",
+  "quote": "cyclic covers create no new seam values",
+  "confidence": "medium"
+ },
+ {
+  "id": "B416",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no SM structure, and the structure is generic",
+  "confidence": "high"
+ },
+ {
+  "id": "B479",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "with no non-elliptic components; field labels corrected",
+  "confidence": "low"
+ },
+ {
+  "id": "B528",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the 'U(N-1) nonabelian generic gauge' reading is a structure-group conflation",
+  "confidence": "high"
+ },
+ {
+  "id": "B543",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "100-2500x off the golden lattice",
+  "confidence": "high"
+ },
+ {
+  "id": "B575",
+  "kind": "FLATNESS",
+  "label": "vanishing-obstruction",
+  "quote": "The quadratic obstruction Q(u)=[u∪u] vanishes identically in all six E₆ directions",
+  "confidence": "medium"
+ },
+ {
+  "id": "B590",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "R1's SEALED verdict was VACUOUS",
+  "confidence": "high"
+ },
+ {
+  "id": "B617",
+  "kind": "PAIRING",
+  "label": "sign-parity",
+  "quote": "sign det'(I - Sym^2m A) = (-1)^m",
+  "confidence": "low"
+ },
+ {
+  "id": "B640",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "the tone law's scope is corrected to det=1",
+  "confidence": "high"
+ },
+ {
+  "id": "B661",
+  "kind": "OTHER",
+  "label": "no-new-object",
+  "quote": "no new object",
+  "confidence": "medium"
+ },
+ {
+  "id": "B684",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "the generation sum rule is derived as a theorem of the cubic shadow",
+  "confidence": "low"
+ },
+ {
+  "id": "B723",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "measurement is identified as the β=1 KMS symmetry breaking",
+  "confidence": "low"
+ },
+ {
+  "id": "B782",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-equivariant-section",
+  "quote": "it admits no equivariant section",
+  "confidence": "high"
+ },
+ {
+  "id": "B67",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "reproduced exactly from the metallic SL(2,C) trace map's fixed locus",
+  "confidence": "low"
+ },
+ {
+  "id": "B83",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "L=(-1)^{n-1}M^n on the principal component",
+  "confidence": "low"
+ },
+ {
+  "id": "B158",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Omega is the ABELIANIZED SPECTRAL IMAGE of the metallic trace-map tower",
+  "confidence": "low"
+ },
+ {
+  "id": "B174",
+  "kind": "NON-UNIQUENESS",
+  "label": "continuum-vs-discrete",
+  "quote": "gives a continuum only on the curve-aligned locus",
+  "confidence": "medium"
+ },
+ {
+  "id": "B201",
+  "kind": "NON-UNIQUENESS",
+  "label": "components-not-point",
+  "quote": "has exactly four dimension-2 components",
+  "confidence": "low"
+ },
+ {
+  "id": "B229",
+  "kind": "NON-UNIQUENESS",
+  "label": "two-realizations",
+  "quote": "two distinct 3d-3d bulk realizations",
+  "confidence": "medium"
+ },
+ {
+  "id": "B258",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "coinciding only at m=1",
+  "confidence": "high"
+ },
+ {
+  "id": "B271",
+  "kind": "PAIRING",
+  "label": "amphichiral-locus",
+  "quote": "Identified the amphicheiral τ-breaking (chirality) locus with the E6-irreducibility locus",
+  "confidence": "low"
+ },
+ {
+  "id": "B286",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "Dehn filling the open complement supplies a forced 10-element exceptional set",
+  "confidence": "low"
+ },
+ {
+  "id": "B302",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "lives in the commensurator PGL(2,O₋₃) as a hidden symmetry",
+  "confidence": "low"
+ },
+ {
+  "id": "B318",
+  "kind": "PAIRING",
+  "label": "amphichiral-involution",
+  "quote": "the Eisenstein Z/2 is the geometric amphichiral involution (complex conjugation)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B337",
+  "kind": "OTHER",
+  "label": "structure-xor-ordering",
+  "quote": "the shared arithmetic forcing E6 also forces a degenerate spectrum",
+  "confidence": "medium"
+ },
+ {
+  "id": "B351",
+  "kind": "PAIRING",
+  "label": "sign-pairing",
+  "quote": "fixed 𝔣₄=52 acting on exponent lines by (−1)^{m+1}",
+  "confidence": "low"
+ },
+ {
+  "id": "B439",
+  "kind": "NON-UNIQUENESS",
+  "label": "multiple-vacua",
+  "quote": "gives 4 irreducible vacua in the -283 trace field",
+  "confidence": "low"
+ }
+]

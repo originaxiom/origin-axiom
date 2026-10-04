@@ -3460,7 +3460,7 @@ listed here by arc; each is **unverified on main until an arc says so**. Already
 B1419), xB032 (β_c → L244 (c)), xB023's Kawauchi point (B1239 already strips Kawauchi: APS + η). The lane's own corrections of
 itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the lane's.
 
-- **xB003:**
+- **xB003 — PARTLY, read on main 2026-10-04:** the leaf reading is right — B13's `(1,1,1)` in half-traces is κ = +2 (full traces (2,2,2)), the trivial fixed line, and its golden `(t+1)(t²−3t+1)` is the derivative there, not at the object's point. **But "the object's point was never visited until now" and "the two lines never met" are FALSE on main:** B98 (2026-06-06, eight days after B13) computed the trace-map Jacobian at the geometric fixed point — `char(DT₁²)|_geom = (t−1)(t²−5t+1)` — and named it the adjoint-torsion / twisted-Alexander object (Daly cited); B520 (2026-07-10) has log((5+√21)/2); B1436 (2026-10-01) the Birkhoff coefficient at the same fixed characters ((3 ± √−3)/2 = 2 + ω). The dynamical and arithmetic lines met at arc 98. The generating function on κ = −2 (`S = u²/2 − uU + 2U²`, `c = 5b − a`) is the lane's and is the linear term B1436 goes beyond; not re-derived (B1436 covers it). B13's own header ("Logged observation, not a claim") stands; no addendum needed beyond the one B1341 already carries.
   - the derivative line has sat on the WRONG LEAF since arc 13, and that is why the golden 3 kept coming back
   - What happened is that the point was carried forward — through B21, B34 and into B1341's generating function — for something over 1,300 arcs, until B1341's own check caught the leaf mismatch and recorded it as an open gap
   - So the golden `t² − 3t + 1` that B13 found, and that has been quoted forward ever since, is a property of **that point on the degenerate leaf**.
@@ -3484,7 +3484,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - B1231's Identification Rule is enforced on PROMOTIONS only.
   - xB005's Q3 asserted four ℤ/3s were "all canonically linked" — hence one fact, hence not evidence — on links that connected only three of them. Nothing in this repository caught it.
   - of the 15, TWO are genuine E82 candidates (B146, B1096; B142 no longer appears because the base-rate clause clears it)
-- **xB010:**
+- **xB010 — CONSISTENT (the statistic verified; the rule is a proposal):** B742's "30 RECONFIRMED · 2 REVIVED" tallied directly on main 2026-10-04: 30 rows `| **RECONFIRMED** |`, 2 rows `| **REVIVED** |`, 32 directories under `recompute/` — the lane's row-parser (8) missed formats, as it declared. The lane's re-derivation rule ("a banked result the planned work leans on is a hypothesis: re-derive, then declare") extends main's compute-not-cite (E3/E4) and B1202; adopting it as a gate is the owner's call (Review 60 item).
   - Nothing covered the case where the sweep FINDS something. A banked result was treated as an ANSWER. It is a HYPOTHESIS.
   - B1202 governs ABSENCE claims only, so it does not cover the case where the sweep FINDS something.
   - B742's stated '30 RECONFIRMED' is NOT independently confirmed here: this arc's row-parser tallies only 8
@@ -3493,7 +3493,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - B425 -- its "√−3 cancels in every determinant" is scoped: true at ρ_geo of m004, because m004 is amphichiral, and false for chiral manifolds. **Scope note RIGHT**: real at even n on all 13 amphichiral members (a theorem: symmetry + duality, each step verified), complex on 40 of 41 chiral; B425 addendum.
   - B425's computations are not disputed; this arc reproduced them exactly, including at odd n, which B425 never ran. **Confirmed** (main reproduces B425 to 10⁻⁵⁰).
   - The cancellation is an amphichirality artefact, not a general fact. **Corrected**: it is a *theorem* of amphichirality, not an artefact; the lane's five "amphichiral and complex everywhere" members are REAL at n = 2, 4 — its `sym()` was an anti-homomorphism (Sym^n of the transpose), a representation only on members where inverting every generator is an automorphism of π₁ (m004, m003), so its m004 control could not catch it; its "chiral ⟹ survives 8/8" is unverified by that instrument (main: 40 of 41).
-- **xB012:**
+- **xB012 — PARTLY:** "no arc had tried dropping A5" is FALSE on main — B302 (the order-3 symmetry lives in the commensurator, the figure-eight an index-12 cover of the Bianchi orbifold) and B266 (reduction mod 𝔭 = (√−3): figure-eight group ↠ SL(2,𝔽₃)) are that object. **Its sharpening is RIGHT:** B302 line 25 writes "index-12 cover (Riley) of the minimal orbifold ℍ³/PGL(2,O₋₃)" — Riley's 12 is the index in PSL(2,O₋₃) (B302's own line 49), and the minimal cusped orientable orbifold is the PGL quotient (Meyerhoff), index 24. **Cell:** covolumes by Humbert (|d|^{3/2} ζ_K(2)/(4π²) = 0.16915 for PSL; half for PGL = 0.08458) against Vol(4₁)/12 and /24 with SnapPy; B302 addendum. B266's step 3 is the restriction xB012 describes — CONSISTENT. The orbifold's torsion {2,3} and "the bill" (what is lost below A5) are the lane's reading, consistent with B1234 and B302; not re-derived.
   - B1234 dropped ORIENTABILITY and landed on a NON-orientable manifold, where its own objection bites. No arc had tried dropping A5 — and that lands on an orbifold that is STILL ORIENTABLE.
   - its 12 is over PSL(2,O_3); the MINIMAL orbifold is the PGL one, half the volume, so m004 covers it with index 24.
   - B266's result is confirmed and SCOPED: pi_1(4_1) surjecting onto 2T is the RESTRICTION of the Bianchi group's own reduction map to an index-24 subgroup, so the spine needs no knot, no cover and no choice.
@@ -3501,7 +3501,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - Z1 PASS — B207 is SCOPED, not disputed.
   - B207's negative does not cover this path.
   - B207 already said it: "golden has the smallest regulator (log φ) → the least-hierarchical / extremal point."
-- **xB015:**
+- **xB015 — ALREADY ON MAIN (read 2026-10-04):** its thirteen non-arithmetic members (v2875, t06828, t06829, t11365, o9_41000, o9_41003, o9_41004, o9_41005, o9_41006, o9_41008, o10_143600, o10_143601, o10_143602) are B1453's thirteen name for name (B1186's addendum of 2026-10-02: the family is the shape-field family, 99 of 112 in the class); "B1136's amphichirality row is wrong" is B1235 (38 of 112; the orientation-blind mirror call) — and B1471 confirms the corrected column on all 112 by isometries. Its "all 13 non-arithmetic members still have 24·CS ∈ ℤ" is the lane's observation, unverified here. **Its last point is RIGHT and was uncorrected on main:** B1136's row "amphichirality ✓ — ALL thirteen others" is false by B1235's own column (6 of its 14 amphichiral: m003, m004, m203, m206, m207, s596) and no banner had reached B1136 — **B1136 addendum lands with S55.**
   - B1186's 112-family is NOT a single commensurability class (K5).
   - 99 of 112 are arithmetic. THIRTEEN ARE NOT
   - B1136's amphichirality row is wrong (K8).
@@ -3522,7 +3522,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - A terminology hazard, named and not silently resolved: this arc means A5(c) throughout.
 - **xB019:**
   - That sharpens B1234's headline ("the squaring buys orientability and costs every value") by saying which side each item falls on, and by adding A7 to the bought column
-- **xB020:**
+- **xB020 — PARTLY, read on main 2026-10-04:** "B1224 banked it as a census observation; here it is derived" is FALSE on main — B1224's own text derives it ("amphichirality gives CS ≡ −CS, so 2·CS ≡ 0 — CS is 2-torsion … the theorem — amphichirality ⟹ CS = −CS ⟹ 2·CS = 0 ⟹ CS ∈ {0, ¼}", FINDINGS lines 31–33, 88). The lane's addition is the mechanism's name (Isom(H³) = PSL(2,ℂ) ⋊ ℤ/2, the ℤ/2 complex conjugation; CS odd because Vol + i·CS is conjugated) — standard, consistent with main — and L194's slice at 200 orientation double covers all at zero (main's B1235 had 40): **re-run on main in the batch arc** (cell).
   - B1224 is upgraded from OBSERVED to DERIVED, with no census escapees.
   - L194 is sharpened, not closed: the 2-torsion half is now explained; exactly the selection half remains open, with its evidence strengthened from 40 to 200.
   - That is B1224 — which banked it as a census observation (6 of 6). Here it is a consequence of the mechanism.
@@ -3559,7 +3559,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   - B803's 'Not verified here' item -- the analytic-torsion join needing the Cheeger-Muller/Fried literature step -- is now taken far enough to know the step is BLOCKED ON HYPOTHESES for the record's own modules
   - L225's T_lambda half: the thermodynamic route to it is shut for the same reason the topological one is
   - So the generation cap and the entropy have one root: the monodromy is pseudo-Anosov.
-- **xB033:**
+- **xB033 — CONSISTENT, with one simplification taken:** its own headline says it re-found B1239's closed result (37 of 37; HP precision tightens 7.8e−16 → 3.8e−64; its predicate was over-strict, B1239's right). Its claim about main: B1239 reached "cs ∈ {0, ½} mod 1 for closed amphichiral" through APS with η = 0, where only two inputs are needed — cs well defined mod 1 for closed (CGHN §5A, read by the lane) and cs(M̄) = −cs(M) — and the sign law is used-not-read on both benches. **Batch arc cell:** read the sign law at source (cs(M) = (1/8π²)∫_M CS(ω): an integral of a 3-form over an oriented manifold, odd under orientation reversal by definition — Chern–Simons 1974 / Meyerhoff's definition for hyperbolic M; η(−M) = −η(M): the odd signature operator changes sign with the orientation, APS I), check SnapPy's convention obeys it (chern_simons on M and the reversed copy, closed and cusped samples), and add a B1239 addendum: the APS route stands, the shorter route is recorded, the sign law sourced.
   - `cs(M*) = −cs(M)` is **USED-NOT-READ** in this record — xB021 (A6/A7) and xB023 (W0) rely on it and **no arc quotes a source for it.**
   - B1239 reached the closed statement via APS (3eta = 2cs + tau mod 2) with eta = 0, having already stripped Kawauchi and freeness. It needs neither APS nor eta either
   - L194 is unchanged and still open.
@@ -3578,3 +3578,16 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
   (t12835's remaining modules — run by xB031: no 3), xB034 (the lead-number scheme on merge is the owner's; this seat never
   merges, so the collision list is moot for it; main's own L222/L223 collision was repaired at B1437).
 
+## L246 — THE SPIN SWAP: an execution plan (owner-approved 2026-10-04; registered with S55, B1472)
+
+**The fact it starts from (B1471, a by-product of the odd-n cells).** The SL(2,ℂ) lift of the holonomy is a spin structure, and Sym^odd sees it. On the 13 amphichiral rank-one members of the 112-family the mirror FIXES the spin structure on six (m004, m206, s961, t12839, o10_150696, o10_150707: odd-n torsion real) and SWAPS it on seven (m003, m207, s955, s957, s960, t12838, o10_150695: conj R_odd = R_odd^{ρ⊗ε} exactly, ε = (−1)^φ on five, a torsion character on s955 and s957) — every SWAP member a non-knot. **The record's prior:** B279 proved the mirror fixes both spin structures of m004 and of every knot complement, and shut an earlier handoff's "SWAP → chiral matter possible" on m004; B1118/B1141 name the spin lift as the load-bearing discrete bit ("fermionicity and chirality both hang on it"); A5 (torsion-free closure) is what chose the knot (B197's tie-break; xB012/B1234: A5 buys the golden face and costs the torsion). **Thesis under test, firewalled:** the family contains members on which the object's own ℤ/2 (orientation) acts nontrivially on its fermionic bit, and the construction excluded them at A5. No physics is banked by the thesis; B279's own unbanked link (η / parity) stays unbanked until Phase 2.
+
+**Phase 1 — the swap as a fact (three sealed arcs).**
+- **1a** — the matrix-level route independent of the torsion: τ = f_* on π₁ by word search, C·conj ρ(g)·C⁻¹ = η(g)·ρ(τ g); η trivial = FIX, nontrivial = SWAP; all reversing isometries, not one. Controls run pre-seal and disclosed: m004 FIX (word length 7; B279), m003 SWAP with η = (−1)^φ (length 5). Seal: 7 swap / 6 fix; every knot fixes; η constant across a member's reversing isometries. *Kill:* the two routes disagree anywhere.
+- **1b** — the orientation-odd, spin-dependent invariant on SWAP members: R_s on the unit circle per spin structure s, its τ-odd part R_s − conj R_{τs}; is it continuous-valued (B849's "every orientation-odd invariant is 2-torsion" assumed a τ-invariant spin structure)? *Kill:* the odd part vanishes for every s on every SWAP member.
+- **1c** — the theorem and A5's role: τ swaps ⟺ (statement to be proved from 1a's data); knot ⟹ fix (B279) ⟹ A5 ⟹ fix; into GENESIS as what A5 buys and costs. **Owner decision at this gate:** whether to open the family with A5 relaxed as a frame.
+
+**Phase 2 — B279's unbanked link.** The one-loop phase / sign-refined torsion per spin structure on m003 (the record's B598/B800 machinery; Dimofte–Garoufalidis). *Kill:* spin-independent.
+**Phase 3 — the continuous carrier on chiral members.** Im of the even-n torsion on the 40 chiral members against the one-loop phase; o10_150709 resolved (hidden symmetry or a genuine exception).
+
+**Anti-drift rules.** One arc open at a time, sealed, with its closing computation and kill named; no value matches (THE_BAR grades any as fitted); every landing re-reads this lead and records *advanced / unchanged / abandoned-with-reason*; a step not advanced in two landings is re-planned; seats asked not waited on (SM seat: 1b's question; codex: the mixing quartic); **stop condition:** Phase 1 kills → L246 closes NEGATIVE with its scope and the queue returns to L245 and the quartic. Standing lanes in the gaps: L245's remainder, R58-5, Review 60 at 40 merges.

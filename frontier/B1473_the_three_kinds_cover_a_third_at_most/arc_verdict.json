@@ -1,0 +1,23 @@
+{
+ "id": "B1473",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1466",
+  "B1467",
+  "B738",
+  "B842"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record: a reading census of the kill graph's 460 kills against the web seat's three-kind taxonomy (L244)",
+  "object": "the kill graph (803 entries; 343 FACE-ONLY records excluded; 413 arc kills + 47 wall records)",
+  "reach": "general",
+  "hypotheses": "a reading of kill text by eight first readers and two adversarial second readers, every quote verified verbatim; not a reading of the arcs"
+ },
+ "claim_one_line": "THE THREE KINDS COVER A THIRD AT MOST (L244 (a)): of the kill graph's 460 kills (343 of its 803 entries are B842 FACE-ONLY records, not kills) the web seat's pairing / flatness / non-uniqueness cover 154 by first readers (33 percent) and 84 after an adversarial second reading (18 percent); the residue is construction-level -- no-landing-site 77, premise-false 64, arithmetic-mismatch 36, instrument 31, value-miss 24 -- which none of the three remedies addresses; the taxonomy describes object-level negatives (the chirality chain, where sm:B1531 found 14 of 26) and was generalised past them. Nothing selects a state. 0 of 19."
+}

@@ -1,0 +1,674 @@
+[
+ {
+  "id": "B344",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B356",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B379",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B402",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B427",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B448",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B488",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B517",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B534",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B557",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B583",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B610",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B649",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B694",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B715",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B733",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B749",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B762",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B774",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B791",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "",
+  "confidence": "high"
+ },
+ {
+  "id": "B849",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "has an order parameter at the manifold level",
+  "confidence": "low"
+ },
+ {
+  "id": "B850",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "is object-specific to m004",
+  "confidence": "medium"
+ },
+ {
+  "id": "B854",
+  "kind": "FLATNESS",
+  "label": "zero-intertwiner",
+  "quote": "zero-intertwiner",
+  "confidence": "low"
+ },
+ {
+  "id": "B899",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "registered-comparison-null",
+  "confidence": "medium"
+ },
+ {
+  "id": "B915",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "matches the measured low-energy couplings through a pure SM desert",
+  "confidence": "medium"
+ },
+ {
+  "id": "B925",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "killed by the chain's own algebra",
+  "confidence": "medium"
+ },
+ {
+  "id": "B924",
+  "kind": "PAIRING",
+  "label": "rigidity-collapse",
+  "quote": "rigidity-collapse-with-mechanism",
+  "confidence": "low"
+ },
+ {
+  "id": "B935",
+  "kind": "FLATNESS",
+  "label": "collapse-by-similarity",
+  "quote": "rigidity-collapse-with-mechanism",
+  "confidence": "low"
+ },
+ {
+  "id": "B942",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "group-membership-refutation",
+  "confidence": "medium"
+ },
+ {
+  "id": "B945",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "stabilizer-computation",
+  "confidence": "medium"
+ },
+ {
+  "id": "B957",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "category-mismatch",
+  "confidence": "medium"
+ },
+ {
+  "id": "B959",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "rank-vs-reality-dichotomy",
+  "confidence": "medium"
+ },
+ {
+  "id": "B947",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "cross-family-counterexample",
+  "confidence": "medium"
+ },
+ {
+  "id": "B960",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "self-defeating-escape",
+  "confidence": "medium"
+ },
+ {
+  "id": "B979",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "kind-mismatch",
+  "confidence": "low"
+ },
+ {
+  "id": "B971",
+  "kind": "FLATNESS",
+  "label": "vacuity",
+  "quote": "vacuity",
+  "confidence": "low"
+ },
+ {
+  "id": "B986",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "vacuity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B995",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "ill-posed-conjunction (rarity implies separation)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B996",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "genericity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1005",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "enumeration-exhausted",
+  "confidence": "low"
+ },
+ {
+  "id": "B1006",
+  "kind": "OTHER",
+  "label": "absence-at-depth",
+  "quote": "absence-at-depth",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1007",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "self-refuted-draft (instrument already existed)",
+  "confidence": "high"
+ },
+ {
+  "id": "B1027",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "powered-exclusion (sealed crossing; both sectors powered)",
+  "confidence": "high"
+ },
+ {
+  "id": "B1063",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "powered-exclusion (the sealed refresh windows, executed once)",
+  "confidence": "high"
+ },
+ {
+  "id": "B1064",
+  "kind": "PAIRING",
+  "label": "amphichirality-deletes",
+  "quote": "the object's amphichirality deletes the quantized sector of its own boundary action",
+  "confidence": "low"
+ },
+ {
+  "id": "B1066",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "powered-exclusion",
+  "confidence": "high"
+ },
+ {
+  "id": "B1075",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "powered-exclusion",
+  "confidence": "high"
+ },
+ {
+  "id": "B1076",
+  "kind": "NON-UNIQUENESS",
+  "label": "element-specific",
+  "quote": "every value-bearing quantity element-specific",
+  "confidence": "low"
+ },
+ {
+  "id": "B1084",
+  "kind": "FLATNESS",
+  "label": "non-isolation",
+  "quote": "has NO 0-dimensional fixed set",
+  "confidence": "low"
+ },
+ {
+  "id": "B1086",
+  "kind": "PAIRING",
+  "label": "Poincare-duality",
+  "quote": "forces h1(D;27) = h1(D;27bar) in every cell",
+  "confidence": "high"
+ },
+ {
+  "id": "B1094",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "every row rank 6",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1096",
+  "kind": "FLATNESS",
+  "label": "identical-vanishing",
+  "quote": "every anomaly channel over the derived 16 is zero",
+  "confidence": "high"
+ },
+ {
+  "id": "B1108",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "type mismatch, structural",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1137",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "0 of 18 SM targets involve a regulator across 216 cells",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1140",
+  "kind": "FLATNESS",
+  "label": "invariant-content-zero",
+  "quote": "INVARIANT CONTENT ZERO",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1142",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "GENERIC (Montgomery pair-correlation / Katz-Sarnak",
+  "confidence": "low"
+ },
+ {
+  "id": "B1151",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "genericity",
+  "confidence": "low"
+ },
+ {
+  "id": "B1157",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "genericity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1165",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "genericity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1174",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "category-mismatch",
+  "confidence": "medium"
+ },
+ {
+  "id": "B838",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "vacuity",
+  "confidence": "low"
+ },
+ {
+  "id": "B840",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "vacuity",
+  "confidence": "high"
+ },
+ {
+  "id": "B1203",
+  "kind": "NON-UNIQUENESS",
+  "label": "symmetry-cannot-select",
+  "quote": "symmetry-cannot-select",
+  "confidence": "high"
+ },
+ {
+  "id": "B1205",
+  "kind": "NON-UNIQUENESS",
+  "label": "dimension-count",
+  "quote": "dimension-count",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1209",
+  "kind": "FLATNESS",
+  "label": "trivial-torsor",
+  "quote": "trivial-torsor",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1222",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "premise refuted by population test",
+  "confidence": "high"
+ },
+ {
+  "id": "B1223",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "arithmetic disjointness of the ACTION, not of the pieces.",
+  "confidence": "medium"
+ },
+ {
+  "id": "B2",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "kind-mismatch",
+  "confidence": "high"
+ },
+ {
+  "id": "B5",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "kind-mismatch",
+  "confidence": "high"
+ },
+ {
+  "id": "B258-silver-inference",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "cited-as-sufficient",
+  "confidence": "high"
+ },
+ {
+  "id": "B1062-V2-axis",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "cited-as-sufficient",
+  "confidence": "high"
+ },
+ {
+  "id": "B1244",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "pre-registered expectation falsified by its own run",
+  "confidence": "high"
+ },
+ {
+  "id": "B1242",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the discriminant forms are UNEQUAL on every invariant",
+  "confidence": "high"
+ },
+ {
+  "id": "B1258",
+  "kind": "NON-UNIQUENESS",
+  "label": "cannot-select",
+  "quote": "IDENTICAL for both candidates",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1259",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "EVERY element of SO(2k+1) has eigenvalue +1",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1262",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the GENUS GROUP HAS ORDER 2, against Gal's order 4",
+  "confidence": "high"
+ },
+ {
+  "id": "B1267",
+  "kind": "FLATNESS",
+  "label": "rigid-zero-index",
+  "quote": "BOTH h1 VANISH: W1 and W2 are RIGID",
+  "confidence": "high"
+ },
+ {
+  "id": "B1291",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The GEOMETRY forbids it",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1295",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "Exhaustive scan.",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1296",
+  "kind": "PAIRING",
+  "label": "sigma-parity",
+  "quote": "a Morse-Bott zero locus and a vortex locus along Fix(sigma) are sigma-EVEN",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1297",
+  "kind": "PAIRING",
+  "label": "self-duality",
+  "quote": "T-GALOIS-SELF-DUALITY",
+  "confidence": "high"
+ },
+ {
+  "id": "B1322",
+  "kind": "PAIRING",
+  "label": "symmetry-paired",
+  "quote": "h^1(M; 27) != h^1(M; 27bar)",
+  "confidence": "low"
+ },
+ {
+  "id": "B1330",
+  "kind": "FLATNESS",
+  "label": "zero-index",
+  "quote": "every one of the four returns index ZERO",
+  "confidence": "low"
+ },
+ {
+  "id": "B1335",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The falsifier does not fire",
+  "confidence": "low"
+ },
+ {
+  "id": "B1336",
+  "kind": "FLATNESS",
+  "label": "abelian-or-nothing",
+  "quote": "ABELIAN OR NOTHING, by Borel density",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1338",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "The instrument is itself blind, demonstrated by its own miss",
+  "confidence": "high"
+ },
+ {
+  "id": "B1340",
+  "kind": "FLATNESS",
+  "label": "vacuity",
+  "quote": "All three vacuous, two by theorem and one by identity.",
+  "confidence": "low"
+ },
+ {
+  "id": "B1347",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "A basin, not a direction.",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1349",
+  "kind": "NON-UNIQUENESS",
+  "label": "residual-freedom",
+  "quote": "The residual freedom is 48",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1407",
+  "kind": "OTHER",
+  "label": "power",
+  "quote": "branch B is dead on power",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1408",
+  "kind": "OTHER",
+  "label": "power",
+  "quote": "the value channel needs ~1e-2 to 1e-3 relative precision",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1442",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no background has its five charged sectors at class index two",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1450",
+  "kind": "NON-UNIQUENESS",
+  "label": "non-separating",
+  "quote": "none of six stated features takes disjoint values on the two sets",
+  "confidence": "low"
+ },
+ {
+  "id": "B1452",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "Under four hash seeds fourteen scripts print the same thing",
+  "confidence": "medium"
+ },
+ {
+  "id": "B1455",
+  "kind": "PAIRING",
+  "label": "dual-odd-index",
+  "quote": "odd under dualising, so a module with V* isomorphic to sigma^*V has index zero",
+  "confidence": "high"
+ },
+ {
+  "id": "B1470",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "Computation to completion with B1418's own driver",
+  "confidence": "low"
+ }
+]

@@ -1,0 +1,604 @@
+[
+ {
+  "id": "B54",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "Exchange commutation [J(m,c),P]=0 holds with c symbolic",
+  "confidence": "medium"
+ },
+ {
+  "id": "B76",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "order-2k torsion on both sides",
+  "confidence": "low"
+ },
+ {
+  "id": "B93",
+  "kind": "PAIRING",
+  "label": "parity-sector",
+  "quote": "parity (contragredient m->-m) is distinct from the Galois involution",
+  "confidence": "low"
+ },
+ {
+  "id": "B106",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "degree=rank holds eigenvector-by-eigenvector",
+  "confidence": "medium"
+ },
+ {
+  "id": "B121",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "inequivalent to Kostant's principal sl(2) for all n>=3 via the odd-Sym parity obstruction",
+  "confidence": "low"
+ },
+ {
+  "id": "B136",
+  "kind": "PAIRING",
+  "label": "amphichiral-criterion",
+  "quote": "fixed by reverse-order-plus-component-swap up to cyclic rotation",
+  "confidence": "medium"
+ },
+ {
+  "id": "B150",
+  "kind": "OTHER",
+  "label": "rhyme-only",
+  "quote": "tau-modularity and magnitude are only rhymes",
+  "confidence": "medium"
+ },
+ {
+  "id": "B222",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "confirming the golden chain's emergent N=1 supersymmetry",
+  "confidence": "high"
+ },
+ {
+  "id": "B251",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "so the E6↔E8 geometric transition is golden-specific",
+  "confidence": "medium"
+ },
+ {
+  "id": "B265",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "establishing E6-irreducible flat connections on the figure-eight",
+  "confidence": "high"
+ },
+ {
+  "id": "B311",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "N=2 is reducible and N>=4 off-curve, so the chain is not realized",
+  "confidence": "medium"
+ },
+ {
+  "id": "B327",
+  "kind": "PAIRING",
+  "label": "self-duality",
+  "quote": "n1=n2 in the 27|2T branching is forced by self-duality",
+  "confidence": "medium"
+ },
+ {
+  "id": "B345",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "force an anti-diagonal charge-conservation texture",
+  "confidence": "medium"
+ },
+ {
+  "id": "B357",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "one universal tau = the cusp shape governs every block",
+  "confidence": "high"
+ },
+ {
+  "id": "B380",
+  "kind": "PAIRING",
+  "label": "galois-symmetry",
+  "quote": "the mirror is derived as conjugation",
+  "confidence": "low"
+ },
+ {
+  "id": "B449",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The disc×disc seam formula is category-confused",
+  "confidence": "high"
+ },
+ {
+  "id": "B466",
+  "kind": "PAIRING",
+  "label": "deck-exchange",
+  "quote": "Under sigma the SL(3) Dehn-filling components exchange",
+  "confidence": "medium"
+ },
+ {
+  "id": "B518",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "kappa is a substrate-independent scale-free universality class",
+  "confidence": "high"
+ },
+ {
+  "id": "B535",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "determines the substitution uniquely up to conjugacy",
+  "confidence": "high"
+ },
+ {
+  "id": "B584",
+  "kind": "PAIRING",
+  "label": "theta-odd-cancel",
+  "quote": "the theta-even block cancels exactly",
+  "confidence": "high"
+ },
+ {
+  "id": "B675",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the SU(4)_1 half is REFUTED",
+  "confidence": "high"
+ },
+ {
+  "id": "B695",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the claimed emergent chirality is falsified as generic even-rank behaviour",
+  "confidence": "medium"
+ },
+ {
+  "id": "B55",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The c=1 fixed-line sector structure is settled for all m",
+  "confidence": "high"
+ },
+ {
+  "id": "B78",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "a method-limit: every converged SL(5) bundle rep is reducible",
+  "confidence": "high"
+ },
+ {
+  "id": "B94",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "every sign/parity sector is det=-1-specific",
+  "confidence": "medium"
+ },
+ {
+  "id": "B122",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "a genuine GL(2)-module identity",
+  "confidence": "high"
+ },
+ {
+  "id": "B137",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "zero irreducible off-sublocus fixed points escape Q(i)",
+  "confidence": "medium"
+ },
+ {
+  "id": "B187",
+  "kind": "FLATNESS",
+  "label": "thresholdless",
+  "quote": "stays thresholdless at all interaction strengths",
+  "confidence": "low"
+ },
+ {
+  "id": "B208",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the field radicand squarefree(m^2+4) always divides P(m), proved",
+  "confidence": "high"
+ },
+ {
+  "id": "B236",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "literally the same coset",
+  "confidence": "high"
+ },
+ {
+  "id": "B253",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "E6 is the only chirality-capable (complex-fundamental) end",
+  "confidence": "medium"
+ },
+ {
+  "id": "B266",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The trace field's unique ramified prime canonically selects E6",
+  "confidence": "high"
+ },
+ {
+  "id": "B293",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no trajectory k(t) is derived",
+  "confidence": "high"
+ },
+ {
+  "id": "B312",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the level itself is generic",
+  "confidence": "medium"
+ },
+ {
+  "id": "B346",
+  "kind": "PAIRING",
+  "label": "conjugation-grading",
+  "quote": "symplectic conjugation lambda->1/lambda is exactly its Z/3 charge conjugation",
+  "confidence": "medium"
+ },
+ {
+  "id": "B358",
+  "kind": "FLATNESS",
+  "label": "vanishes-in-lift",
+  "quote": "vanishes identically in the canonical lift",
+  "confidence": "low"
+ },
+ {
+  "id": "B381",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the seam is nonzero exactly when the quantization carries the half-characteristic twist",
+  "confidence": "medium"
+ },
+ {
+  "id": "B410",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "bright iff some X₃·X₅ carries √−15",
+  "confidence": "high"
+ },
+ {
+  "id": "B451",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the banked 0.51 was shown to be an early-window artifact",
+  "confidence": "medium"
+ },
+ {
+  "id": "B467",
+  "kind": "PAIRING",
+  "label": "orientation-bit",
+  "quote": "the only odd permutation is the orientation-reversing half-monodromy",
+  "confidence": "low"
+ },
+ {
+  "id": "B537",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "(1,1,5) is proved to be a phantom",
+  "confidence": "high"
+ },
+ {
+  "id": "B560",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "Chat-3's campaign cells verified and re-derived",
+  "confidence": "high"
+ },
+ {
+  "id": "B586",
+  "kind": "PAIRING",
+  "label": "antiphase-hearing",
+  "quote": "4_1's invertibility makes the solo antiphase identically zero",
+  "confidence": "medium"
+ },
+ {
+  "id": "B598",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The Kashaev baseline is computed",
+  "confidence": "high"
+ },
+ {
+  "id": "B651",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "proving the E6 Z-ladder periodic",
+  "confidence": "high"
+ },
+ {
+  "id": "B696",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The Eisenstein anatomy campaign is closed",
+  "confidence": "high"
+ },
+ {
+  "id": "B717",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the observer supplies every closing",
+  "confidence": "medium"
+ },
+ {
+  "id": "B764",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "C19's sqrt|disc K| form breaks at 5_2",
+  "confidence": "high"
+ },
+ {
+  "id": "B776",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the symmetrized product is pure-3 through order 50",
+  "confidence": "high"
+ },
+ {
+  "id": "B794",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "refuting the narrower norm-split claim",
+  "confidence": "high"
+ },
+ {
+  "id": "B61",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "was a rank-23 forward-word coordinate defect",
+  "confidence": "high"
+ },
+ {
+  "id": "B79",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "with no cell contradicting it",
+  "confidence": "high"
+ },
+ {
+  "id": "B95",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "degenerates to a reducible dihedral rep at n=5, and is impossible at n>=6",
+  "confidence": "medium"
+ },
+ {
+  "id": "B109",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "a (2,1) saddle of kappa",
+  "confidence": "high"
+ },
+ {
+  "id": "B123",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "offered as a third independent m=1 selection criterion",
+  "confidence": "high"
+ },
+ {
+  "id": "B138",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the converse stays open",
+  "confidence": "high"
+ },
+ {
+  "id": "B152",
+  "kind": "PAIRING",
+  "label": "amphichiral-torsion",
+  "quote": "amphichiral implies 2-torsion Chern-Simons",
+  "confidence": "medium"
+ },
+ {
+  "id": "B169",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "correcting B164's orbit-norm proxy",
+  "confidence": "medium"
+ },
+ {
+  "id": "B209",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "with the four spinorial 2I irreps completing E8 absent",
+  "confidence": "medium"
+ },
+ {
+  "id": "B224",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "Golden is the unique metallic mean whose anyon chain is superconformal",
+  "confidence": "high"
+ },
+ {
+  "id": "B238",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "but only for the figure-eight",
+  "confidence": "medium"
+ },
+ {
+  "id": "B254",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "Verified the arithmetic spine",
+  "confidence": "high"
+ },
+ {
+  "id": "B267",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "are the same Lie object",
+  "confidence": "high"
+ },
+ {
+  "id": "B314",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-forced-choice",
+  "quote": "hence symmetrizable, not forced",
+  "confidence": "medium"
+ },
+ {
+  "id": "B347",
+  "kind": "PAIRING",
+  "label": "hyperelliptic-grading",
+  "quote": "the hyperelliptic involution grades the six lines by (-1)^{m+1}",
+  "confidence": "low"
+ },
+ {
+  "id": "B359",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the theta-lift seam form is pair-specific and parity-selective",
+  "confidence": "low"
+ },
+ {
+  "id": "B382",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "decomposing 1/12 as generic 1/16 plus 5-ramified 1/48",
+  "confidence": "high"
+ },
+ {
+  "id": "B431",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "two value-level readings corrected as artifacts",
+  "confidence": "medium"
+ },
+ {
+  "id": "B453",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the child is IDENTICAL, not merely sharing invariants",
+  "confidence": "high"
+ },
+ {
+  "id": "B469",
+  "kind": "PAIRING",
+  "label": "double-cover",
+  "quote": "every metallic bundle double-covers a non-orientable bundle",
+  "confidence": "low"
+ },
+ {
+  "id": "B496",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "verified, with degree growth 2",
+  "confidence": "high"
+ },
+ {
+  "id": "B522",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "reducing the tower conjecture to a static multiplicity-splitting problem located at n=5",
+  "confidence": "high"
+ },
+ {
+  "id": "B538",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "while the SM structural checklist scores 0/3",
+  "confidence": "medium"
+ },
+ {
+  "id": "B587",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The tone mechanism is solved",
+  "confidence": "high"
+ },
+ {
+  "id": "B599",
+  "kind": "PAIRING",
+  "label": "theta-parity-vanishing",
+  "quote": "vanishes unless the number of θ-odd factors is even",
+  "confidence": "high"
+ },
+ {
+  "id": "B613",
+  "kind": "PAIRING",
+  "label": "conjugation-closed",
+  "quote": "the odd hearing spectrum is conjugation-closed at every level",
+  "confidence": "high"
+ },
+ {
+  "id": "B637",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "All seven registered h0/h1 dimension predictions",
+  "confidence": "high"
+ },
+ {
+  "id": "B795",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "reproduced by an independently written collocation solver",
+  "confidence": "high"
+ },
+ {
+  "id": "B63",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "factors over Z[m] into Dickson factors",
+  "confidence": "high"
+ },
+ {
+  "id": "B80",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The SL(4) metallic tower is established from first principles",
+  "confidence": "high"
+ },
+ {
+  "id": "B124",
+  "kind": "PAIRING",
+  "label": "reciprocal-pairing",
+  "quote": "Reciprocal (lambda,1/lambda) eigenvalue pairing is a generic symplectic fact",
+  "confidence": "medium"
+ },
+ {
+  "id": "B153",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "degree=rank is rank-stratified",
+  "confidence": "medium"
+ },
+ {
+  "id": "B210",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "Golden carries both exceptional McKay groups",
+  "confidence": "high"
+ },
+ {
+  "id": "B226",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "separated by the hyperbolic/non-hyperbolic divide",
+  "confidence": "medium"
+ },
+ {
+  "id": "B240",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "pure integers {1,−2,−2,1}",
+  "confidence": "high"
+ },
+ {
+  "id": "B255",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "is the unique regular simplex",
+  "confidence": "high"
+ }
+]

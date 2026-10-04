@@ -9736,6 +9736,55 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1472": {
+   "slug": "six of the lanes claims read against main",
+   "motifs": [
+    "action",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B13",
+    "B146",
+    "B266",
+    "B302",
+    "B520",
+    "B618",
+    "B622",
+    "B742",
+    "B98",
+    "L194",
+    "L245"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1473": {
+   "slug": "the three kinds cover a third at most",
+   "motifs": [
+    "naming",
+    "coupling",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B738",
+    "B842",
+    "L244"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

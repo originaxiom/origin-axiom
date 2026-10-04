@@ -1,0 +1,604 @@
+[
+ {
+  "id": "B504",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "tr(t)^2 = 2 exactly",
+  "confidence": "high"
+ },
+ {
+  "id": "B544",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the carrier holds only the Q(phi) shadow, not the degree-4 layer",
+  "confidence": "low"
+ },
+ {
+  "id": "B576",
+  "kind": "PAIRING",
+  "label": "theta-even-vectorlike",
+  "quote": "theta-even deformations stay F4-stable and vector-like",
+  "confidence": "low"
+ },
+ {
+  "id": "B591",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the golden 5-tone's conductor is literally the torsion of the chord's carrier",
+  "confidence": "high"
+ },
+ {
+  "id": "B603",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "all single-generator L1 contractions are weight-forced",
+  "confidence": "high"
+ },
+ {
+  "id": "B618",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The registered third-object prediction passes",
+  "confidence": "high"
+ },
+ {
+  "id": "B663",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the heart is an invertible Jordan unit",
+  "confidence": "high"
+ },
+ {
+  "id": "B704",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The per-stage torsors assemble into one F2-vector space",
+  "confidence": "high"
+ },
+ {
+  "id": "B769",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "T1's fixedness under the closing group is forced because <c,theta,gamma_5> = (Z/2)^3 is abelian",
+  "confidence": "medium"
+ },
+ {
+  "id": "B800",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "the claim stays uncomputed",
+  "confidence": "high"
+ },
+ {
+  "id": "B16",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "forced by (LX)^2=A but not by axioms A1-A6",
+  "confidence": "low"
+ },
+ {
+  "id": "B69",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "extends the figure-eight A-polynomial",
+  "confidence": "high"
+ },
+ {
+  "id": "B100",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "agree with the repo's SL(3) figure-eight character variety",
+  "confidence": "high"
+ },
+ {
+  "id": "B115",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "both remain unsettled, blocked by the missing SL(4) classification",
+  "confidence": "high"
+ },
+ {
+  "id": "B159",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "all 474 classes reciprocal",
+  "confidence": "high"
+ },
+ {
+  "id": "B175",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The woven collective spectrum is two-number predictable",
+  "confidence": "high"
+ },
+ {
+  "id": "B215",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "is verified exact for conductors f in {2,3,4}",
+  "confidence": "high"
+ },
+ {
+  "id": "B245",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "extends the SU(2)_k = SU(k)_2 conjugation result beyond the fundamental",
+  "confidence": "high"
+ },
+ {
+  "id": "B259",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "wall #5's '122 orders' withdrawn per B980",
+  "confidence": "high"
+ },
+ {
+  "id": "B273",
+  "kind": "FLATNESS",
+  "label": "obstruction-vanishes",
+  "quote": "The full quadratic cup product H¹×H¹→H²(e₆) at ρ_prin is identically zero",
+  "confidence": "medium"
+ },
+ {
+  "id": "B287",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "unique torus-bundle closing among the ten exceptional fillings",
+  "confidence": "high"
+ },
+ {
+  "id": "B303",
+  "kind": "PAIRING",
+  "label": "amphichiral-CS-zero",
+  "quote": "CS=0 amphichiral, definite sign per closing",
+  "confidence": "low"
+ },
+ {
+  "id": "B319",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "Resolved the woven-vs-single conflict as a false dichotomy",
+  "confidence": "medium"
+ },
+ {
+  "id": "B338",
+  "kind": "NON-UNIQUENESS",
+  "label": "external-input",
+  "quote": "the filling slope is external input",
+  "confidence": "low"
+ },
+ {
+  "id": "B352",
+  "kind": "FLATNESS",
+  "label": "obstruction-vanishes",
+  "quote": "the second-order cup-product obstruction [z u z] vanishes in all six E6 exponent directions",
+  "confidence": "low"
+ },
+ {
+  "id": "B370",
+  "kind": "FLATNESS",
+  "label": "obstruction-vanishes",
+  "quote": "All six E6 tangent directions at the geometric representation are unobstructed to third order",
+  "confidence": "low"
+ },
+ {
+  "id": "B390",
+  "kind": "PAIRING",
+  "label": "rank-2-pairing",
+  "quote": "dark pairs attributed by an exact rank-2 pairing",
+  "confidence": "low"
+ },
+ {
+  "id": "B460",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "per-vacuum Chern-Simons values computed by a two-gate-validated Kirk-Klassen integral",
+  "confidence": "high"
+ },
+ {
+  "id": "B507",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "the measurement verb is NOT marginal there",
+  "confidence": "low"
+ },
+ {
+  "id": "B530",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "its pure discrete spectrum is certified",
+  "confidence": "high"
+ },
+ {
+  "id": "B547",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "obstructed by an inert prime rather than elliptic rigidity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B620",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the object's field has exactly one door",
+  "confidence": "high"
+ },
+ {
+  "id": "B644",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "all gates pass",
+  "confidence": "high"
+ },
+ {
+  "id": "B665",
+  "kind": "NON-UNIQUENESS",
+  "label": "trace-not-determining",
+  "quote": "trace does not determine hearing (RLRL versus R^5L at equal trace)",
+  "confidence": "low"
+ },
+ {
+  "id": "B689",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "exists only at level 15 = 3*5",
+  "confidence": "high"
+ },
+ {
+  "id": "B707",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "three bridge tests named, none run",
+  "confidence": "high"
+ },
+ {
+  "id": "B786",
+  "kind": "FLATNESS",
+  "label": "trace-trivial",
+  "quote": "trace-trivial at every rank",
+  "confidence": "low"
+ },
+ {
+  "id": "B830",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "the Markov quiver is mutation-finite but not finite-type",
+  "confidence": "high"
+ },
+ {
+  "id": "B25",
+  "kind": "OTHER",
+  "label": "not-derived",
+  "quote": "the coupling stays MOTIVATED, not derived",
+  "confidence": "low"
+ },
+ {
+  "id": "B70",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "closure bounded at bidegree (3,3)",
+  "confidence": "high"
+ },
+ {
+  "id": "B86",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "no new theorem and the external literature check ungated",
+  "confidence": "medium"
+ },
+ {
+  "id": "B102",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "excluded from the Hitchin component by ellipticity, not complexity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B160",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "kappa=-2 gives the parabolic figure-eight cusp",
+  "confidence": "high"
+ },
+ {
+  "id": "B176",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "but the ordering below it breaks",
+  "confidence": "low"
+ },
+ {
+  "id": "B203",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "explaining B202's missing tidy relation",
+  "confidence": "high"
+ },
+ {
+  "id": "B260",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "zero theorems block object→physics, but no bridge is built",
+  "confidence": "low"
+ },
+ {
+  "id": "B274",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "making the {4,8} E6-irreducible flat connections exist unconditionally",
+  "confidence": "high"
+ },
+ {
+  "id": "B304",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "refuted Chat-1's saddle-SU(3) claim",
+  "confidence": "medium"
+ },
+ {
+  "id": "B353",
+  "kind": "PAIRING",
+  "label": "involution-identity",
+  "quote": "The hyperelliptic involution induces exactly the E6 diagram involution theta",
+  "confidence": "low"
+ },
+ {
+  "id": "B371",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "exactly Weil-invariant, dihedrally irreducible, helicity-paired",
+  "confidence": "medium"
+ },
+ {
+  "id": "B391",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "both registered predictions (243, 625) hit",
+  "confidence": "high"
+ },
+ {
+  "id": "B423",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "figure-eight-specific arithmetic, not SM structure",
+  "confidence": "medium"
+ },
+ {
+  "id": "B509",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "The square-time curve has rank 0 (proved) and is 40a3",
+  "confidence": "high"
+ },
+ {
+  "id": "B531",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "closed forms remain open",
+  "confidence": "low"
+ },
+ {
+  "id": "B593",
+  "kind": "PAIRING",
+  "label": "first-order-cancels",
+  "quote": "with no first-order term",
+  "confidence": "low"
+ },
+ {
+  "id": "B607",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no subsystem/coset grading exists anywhere else",
+  "confidence": "medium"
+ },
+ {
+  "id": "B621",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "zero exceptions for kappa = 4..27",
+  "confidence": "high"
+ },
+ {
+  "id": "B645",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "holds exactly on all six 024-silent doubles",
+  "confidence": "high"
+ },
+ {
+  "id": "B670",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "every metallic representation lives in one F4-form and h0=1 is canonical",
+  "confidence": "high"
+ },
+ {
+  "id": "B690",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "the hearing (5-adic) one does not at all",
+  "confidence": "low"
+ },
+ {
+  "id": "B708",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "audibility is non-linking with the infinite prime",
+  "confidence": "high"
+ },
+ {
+  "id": "B746",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "GAPPED at the voice floor, not confirmed and not refuted",
+  "confidence": "medium"
+ },
+ {
+  "id": "B759",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "couple at SL(3)=Sym^2 but not at SL(2)",
+  "confidence": "low"
+ },
+ {
+  "id": "B787",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "all six doors MISS",
+  "confidence": "medium"
+ },
+ {
+  "id": "B27",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "retains the A quadratic sector",
+  "confidence": "high"
+ },
+ {
+  "id": "B71",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "exactly the SL(3) figure-eight character variety",
+  "confidence": "high"
+ },
+ {
+  "id": "B88",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "finds exactly two components over the spectra searched",
+  "confidence": "high"
+ },
+ {
+  "id": "B103",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "a class function (all n)",
+  "confidence": "high"
+ },
+ {
+  "id": "B117",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the 'promotion' is really a Sym-1 absence",
+  "confidence": "low"
+ },
+ {
+  "id": "B131",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "collapsing the free kappa into a discrete internal fork",
+  "confidence": "medium"
+ },
+ {
+  "id": "B147",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "so arithmetic chiral bundles exist",
+  "confidence": "high"
+ },
+ {
+  "id": "B162",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "kappa=2 is the unique fiber with positive-measure spectrum",
+  "confidence": "high"
+ },
+ {
+  "id": "B178",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "confirmed contamination-robustly",
+  "confidence": "high"
+ },
+ {
+  "id": "B204",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "A closed-form WRT level-period law holds for ALL once-punctured-torus bundles",
+  "confidence": "high"
+ },
+ {
+  "id": "B218",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "all m>=2 exceed the index-4 wall",
+  "confidence": "medium"
+ },
+ {
+  "id": "B232",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "REDUCED to one unproved plethysm statement",
+  "confidence": "medium"
+ },
+ {
+  "id": "B248",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "realized as the hyperbolic (ℚ(√−3), 2T) and spherical (ℚ(√5), 2I) ends",
+  "confidence": "high"
+ },
+ {
+  "id": "B261",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "One AJ recursion carries both ends",
+  "confidence": "high"
+ },
+ {
+  "id": "B275",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "Exhibited an explicit numerical E6 flat connection on the figure-eight",
+  "confidence": "high"
+ },
+ {
+  "id": "B289",
+  "kind": "PAIRING",
+  "label": "sign-pairing",
+  "quote": "CS(p,-q) = -CS(p,q) is robust",
+  "confidence": "medium"
+ },
+ {
+  "id": "B306",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "Established the forced E6 principal-grading cascade N=1..6",
+  "confidence": "high"
+ },
+ {
+  "id": "B323",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the omega-circulant Yukawa is tautological and unmatched",
+  "confidence": "low"
+ },
+ {
+  "id": "B340",
+  "kind": "PAIRING",
+  "label": "amphichiral-cusp",
+  "quote": "extremal at pi/6 at the amphichiral cusp",
+  "confidence": "low"
+ },
+ {
+  "id": "B354",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the strong-channel kill (only trivial and quaternion points are shared)",
+  "confidence": "low"
+ },
+ {
+  "id": "B376",
+  "kind": "OTHER",
+  "label": "positive-result",
+  "quote": "identifying the tower as the quantized golden cat map",
+  "confidence": "high"
+ },
+ {
+  "id": "B393",
+  "kind": "PAIRING",
+  "label": "pairs-annihilate",
+  "quote": "Dark pairs annihilate termwise rather than by cancellation",
+  "confidence": "medium"
+ }
+]

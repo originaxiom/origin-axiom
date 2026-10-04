@@ -1,0 +1,709 @@
+[
+ {
+  "id": "K-I — Borromean rings (s776) show SU(3) gauge enhancement",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "S₃-invariant SL(2,ℂ) character variety of dim 2 = rank SU(3)",
+  "confidence": "low"
+ },
+ {
+  "id": "K-J — φ² = degenerate-block monodromy multiplier",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "monodromy multiplier equals the seed's φ²",
+  "confidence": "medium"
+ },
+ {
+  "id": "K-K — gap-labeling rank = composition period",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The gap-labeling spectral rank equals the composition period k",
+  "confidence": "medium"
+ },
+ {
+  "id": "K-L — rank = SL(n) tower depth",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "The spectral rank climbs with the SL(n) tower depth",
+  "confidence": "medium"
+ },
+ {
+  "id": "K-M — measurable gap-labeling-rank prediction",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "A measurable gap-labeling-rank prediction built on K-K/K-L",
+  "confidence": "low"
+ },
+ {
+  "id": "K-N — |disc_CM| = κ_m",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "value-numerology",
+  "confidence": "low"
+ },
+ {
+  "id": "K-O — golden trace leak tr ρ_{SU(2)₃}(A) = −1/φ as distinguished signal",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "distinguishes it from other hyperbolic words",
+  "confidence": "medium"
+ },
+ {
+  "id": "S032-A — the literal universal no-escape form (probation P1)",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "NO invariant escapes the trace ring's discretely-multivalued-and-unsymmetric behavior",
+  "confidence": "low"
+ },
+ {
+  "id": "P13 — generations via commensurator-triality-on-27",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "triality on the 27 gives three symmetric generations",
+  "confidence": "low"
+ },
+ {
+  "id": "P20 — the causal-set poset reading",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "manifoldlike causal set",
+  "confidence": "high"
+ },
+ {
+  "id": "P21 — the framework search",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "hosts the object's full signature set",
+  "confidence": "high"
+ },
+ {
+  "id": "P22 — the Klein-four → SO(9) route",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "selects SO(9)=B₄ inside F₄",
+  "confidence": "low"
+ },
+ {
+  "id": "R1 — the B85 Sym(W)→trace-ring functor wall (B565, earned)",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "reaches the multiplicity-2 char(M²) sector before n=5",
+  "confidence": "low"
+ },
+ {
+  "id": "R5 — the L38 Higgs-scale do-or-die (B565, earned)",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "An intrinsic (Higgs-like) scale exists on the Hitchin/Higgs side of the object",
+  "confidence": "medium"
+ },
+ {
+  "id": "S014-null-clause correction (B565 exhumation)",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "cited-as-sufficient",
+  "confidence": "medium"
+ },
+ {
+  "id": "B8",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "sqrt(5/(4 log phi)), not phi",
+  "confidence": "high"
+ },
+ {
+  "id": "B9",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no fusion-to-scattering map exists",
+  "confidence": "high"
+ },
+ {
+  "id": "B15",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "rejected under the Fricke-Vogt normalization",
+  "confidence": "medium"
+ },
+ {
+  "id": "B17",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "not a new uniqueness theorem under the existing selection filters",
+  "confidence": "low"
+ },
+ {
+  "id": "B20",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "never reads its invariant, failing the operational self-model criterion",
+  "confidence": "medium"
+ },
+ {
+  "id": "B22",
+  "kind": "PAIRING",
+  "label": "orientation-reversing",
+  "quote": "generic for all orientation-reversing symmetric-square lifts",
+  "confidence": "low"
+ },
+ {
+  "id": "B24",
+  "kind": "NON-UNIQUENESS",
+  "label": "not-selected",
+  "quote": "not selected by the framework",
+  "confidence": "medium"
+ },
+ {
+  "id": "B26",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the literal T^6 quadratic is t^2-27t+1",
+  "confidence": "medium"
+ },
+ {
+  "id": "B31",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "selects no invariant surface without the extra A-sector matching rule",
+  "confidence": "high"
+ },
+ {
+  "id": "B32",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "does not select I=1/4",
+  "confidence": "medium"
+ },
+ {
+  "id": "B36",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "gap-label controls fail to distinguish I=1/4",
+  "confidence": "medium"
+ },
+ {
+  "id": "B37",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "fails the self-model criterion",
+  "confidence": "medium"
+ },
+ {
+  "id": "B39",
+  "kind": "NON-UNIQUENESS",
+  "label": "family",
+  "quote": "leaves an infinite discrete family c^2=(m+2)/4",
+  "confidence": "high"
+ },
+ {
+  "id": "B40",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "conditional on a newly named, underived assumption T1",
+  "confidence": "medium"
+ },
+ {
+  "id": "B41",
+  "kind": "NON-UNIQUENESS",
+  "label": "free-parameter",
+  "quote": "c stays free, so it does not select I=1/4",
+  "confidence": "high"
+ },
+ {
+  "id": "B42",
+  "kind": "FLATNESS",
+  "label": "no-gradient",
+  "quote": "no intrinsic stationary point at I=1/4",
+  "confidence": "medium"
+ },
+ {
+  "id": "B46",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "higher rank is consistent with S1 but does not derive it",
+  "confidence": "low"
+ },
+ {
+  "id": "B47",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "lambda/h=1 is conditional, not derived",
+  "confidence": "low"
+ },
+ {
+  "id": "B81",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "char(DT_0) scatters across seeds",
+  "confidence": "medium"
+ },
+ {
+  "id": "B82",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "every attempted bridge",
+  "confidence": "medium"
+ },
+ {
+  "id": "B85",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "a root-system fact that functoriality cannot dissolve",
+  "confidence": "low"
+ },
+ {
+  "id": "B96",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "closing the Lorentzian-emergence reading",
+  "confidence": "medium"
+ },
+ {
+  "id": "B97",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "present by construction, not emergent or derived spacetime",
+  "confidence": "low"
+ },
+ {
+  "id": "B98",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "the tower is a trivial-rep phenomenon",
+  "confidence": "high"
+ },
+ {
+  "id": "B99",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "not the Dickson tower, confirming the two fixed points carry different invariants",
+  "confidence": "medium"
+ },
+ {
+  "id": "B108",
+  "kind": "PAIRING",
+  "label": "involution",
+  "quote": "it only sends c to 1/c",
+  "confidence": "low"
+ },
+ {
+  "id": "B110",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "The off-locus irreducible sector is empty",
+  "confidence": "medium"
+ },
+ {
+  "id": "B114",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "is about k^(n-1), not k",
+  "confidence": "high"
+ },
+ {
+  "id": "B116",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "equals the tower only through n=5 and diverges at n=6",
+  "confidence": "medium"
+ },
+ {
+  "id": "B119",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the principal degree=rank object is absent for n>=5",
+  "confidence": "medium"
+ },
+ {
+  "id": "B126",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no 3-manifold supplies the 2d-boundary data",
+  "confidence": "high"
+ },
+ {
+  "id": "B127",
+  "kind": "OTHER",
+  "label": "unstated",
+  "quote": "Chirality, topology and arithmetic each kill the physics-bridge claims",
+  "confidence": "low"
+ },
+ {
+  "id": "B129",
+  "kind": "FLATNESS",
+  "label": "no-new-content",
+  "quote": "climbing ranks acquires no new field or content",
+  "confidence": "low"
+ },
+ {
+  "id": "B130",
+  "kind": "NON-UNIQUENESS",
+  "label": "free-parameter",
+  "quote": "kappa is free on the fixed locus, so a single seed cannot force any choice",
+  "confidence": "high"
+ },
+ {
+  "id": "B135",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "only m=1 has lambda<2",
+  "confidence": "medium"
+ },
+ {
+  "id": "B139",
+  "kind": "PAIRING",
+  "label": "mirror",
+  "quote": "the mirror preserves every computed invariant except the Chern-Simons sign",
+  "confidence": "high"
+ },
+ {
+  "id": "B143",
+  "kind": "PAIRING",
+  "label": "mirror",
+  "quote": "structurally mirror-blind",
+  "confidence": "medium"
+ },
+ {
+  "id": "B144",
+  "kind": "PAIRING",
+  "label": "mirror",
+  "quote": "Cusp-glued composites are mirror-closed",
+  "confidence": "high"
+ },
+ {
+  "id": "B145",
+  "kind": "PAIRING",
+  "label": "amphichiral",
+  "quote": "coincides with the self-mirror (amphichiral) family",
+  "confidence": "high"
+ },
+ {
+  "id": "B151",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no kappa- or volume-type invariant can source a physical scale",
+  "confidence": "medium"
+ },
+ {
+  "id": "B167",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "cannot source an internal scale",
+  "confidence": "medium"
+ },
+ {
+  "id": "B168",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "every emergent rate is dimensionless, so the ensemble yields no scale",
+  "confidence": "medium"
+ },
+ {
+  "id": "B170",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "value-matching, fails a random-base null control",
+  "confidence": "medium"
+ },
+ {
+  "id": "B181",
+  "kind": "FLATNESS",
+  "label": "no-dynamics",
+  "quote": "zero Lyapunov, no transition",
+  "confidence": "medium"
+ },
+ {
+  "id": "B188",
+  "kind": "FLATNESS",
+  "label": "no-relaxation",
+  "quote": "matches the extended chain, decays with L",
+  "confidence": "low"
+ },
+ {
+  "id": "B189",
+  "kind": "OTHER",
+  "label": "instrument",
+  "quote": "a graded-DAG truncation artifact, reproduced by a random null",
+  "confidence": "medium"
+ },
+ {
+  "id": "B190",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "never converges to a forced-unique value",
+  "confidence": "high"
+ },
+ {
+  "id": "B202",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "non-generic in the metallic family",
+  "confidence": "low"
+ },
+ {
+  "id": "B207",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "No GUT-style McKay breaking chain exists",
+  "confidence": "medium"
+ },
+ {
+  "id": "B213",
+  "kind": "FLATNESS",
+  "label": "no-hierarchy",
+  "quote": "entirely O(1) and BSD-generic: no forced small number, no hierarchy",
+  "confidence": "low"
+ },
+ {
+  "id": "B217",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "it governs the cusped volume, while the closed-bundle period stays algebraic",
+  "confidence": "medium"
+ },
+ {
+  "id": "B223",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no conserved fermion parity and hence no exact lattice supercharge",
+  "confidence": "medium"
+ },
+ {
+  "id": "B230",
+  "kind": "NON-UNIQUENESS",
+  "label": "coincidence",
+  "quote": "is a central-charge coincidence with a different coset",
+  "confidence": "medium"
+ },
+ {
+  "id": "B231",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the metallic mean equals the spin-½ quantum dimension iff m=1",
+  "confidence": "medium"
+ },
+ {
+  "id": "B235",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "ℚ(√−7) never appears",
+  "confidence": "high"
+ },
+ {
+  "id": "B241",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "different type (flavor vs gauge) and specificity",
+  "confidence": "medium"
+ },
+ {
+  "id": "B244",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "does not resolve the three SL(3,ℂ) character-variety components",
+  "confidence": "low"
+ },
+ {
+  "id": "B246",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "grows at the complement volume 2.0299, group-independently, not at the SL(3) geometric 8.1195",
+  "confidence": "medium"
+ },
+ {
+  "id": "B269",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "no SU(2) enhancement",
+  "confidence": "medium"
+ },
+ {
+  "id": "B280",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "branches as 2+2 (two distinct doublets), not triplet+singlet",
+  "confidence": "medium"
+ },
+ {
+  "id": "B281",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "does not distinguish E₆",
+  "confidence": "medium"
+ },
+ {
+  "id": "B282",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "generic to any hyperbolic knot",
+  "confidence": "medium"
+ },
+ {
+  "id": "B283",
+  "kind": "OTHER",
+  "label": "premise-false",
+  "quote": "the prime-absence claim is falsified",
+  "confidence": "low"
+ },
+ {
+  "id": "B284",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "a generic smooth point",
+  "confidence": "medium"
+ },
+ {
+  "id": "B288",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "an open-object property destroyed by closing",
+  "confidence": "medium"
+ },
+ {
+  "id": "B292",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "none supplies the N=2→N=1 chiral datum",
+  "confidence": "medium"
+ },
+ {
+  "id": "B298",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "gives multiplicities 1 or 2 across seven independent routes, never 3",
+  "confidence": "high"
+ },
+ {
+  "id": "B300",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "the degree-3 carrier absent",
+  "confidence": "low"
+ },
+ {
+  "id": "B308",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "E6 fixes the coupling but not the texture",
+  "confidence": "medium"
+ },
+ {
+  "id": "B322",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "match 12 SM parameters at chance level",
+  "confidence": "high"
+ },
+ {
+  "id": "B329",
+  "kind": "PAIRING",
+  "label": "conjugation",
+  "quote": "gives n1=n2",
+  "confidence": "medium"
+ },
+ {
+  "id": "B330",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "no forced choice exists",
+  "confidence": "medium"
+ },
+ {
+  "id": "B331",
+  "kind": "PAIRING",
+  "label": "conjugate-to-inverse",
+  "quote": "elliptic and conjugate to its inverse, forcing chi_27(g) real and n1=n2",
+  "confidence": "high"
+ },
+ {
+  "id": "B333",
+  "kind": "NON-UNIQUENESS",
+  "label": "genericity",
+  "quote": "the seam's arithmetic is generic and carries no value",
+  "confidence": "low"
+ },
+ {
+  "id": "B336",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "√−15 is unreachable",
+  "confidence": "high"
+ },
+ {
+  "id": "B339",
+  "kind": "OTHER",
+  "label": "arithmetic-mismatch",
+  "quote": "the hoped-for sqrt(-3) signature is absent",
+  "confidence": "medium"
+ },
+ {
+  "id": "B342",
+  "kind": "OTHER",
+  "label": "value-miss",
+  "quote": "is disfavoured by data relative to TM1",
+  "confidence": "high"
+ },
+ {
+  "id": "B349",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "no member is marked and no forced choice exists",
+  "confidence": "low"
+ },
+ {
+  "id": "B350",
+  "kind": "NON-UNIQUENESS",
+  "label": "no-selection",
+  "quote": "The cyclic-cover abelian torsion class carries no forced choice",
+  "confidence": "low"
+ },
+ {
+  "id": "B355",
+  "kind": "PAIRING",
+  "label": "real-cancellation",
+  "quote": "all 605 gauge-invariant triple products are exactly real",
+  "confidence": "low"
+ },
+ {
+  "id": "B369",
+  "kind": "FLATNESS",
+  "label": "null-readout",
+  "quote": "seam readout identically null in all six words",
+  "confidence": "high"
+ },
+ {
+  "id": "B387",
+  "kind": "OTHER",
+  "label": "scope",
+  "quote": "the seam/value-sector coincidence is exclusive to level 15",
+  "confidence": "medium"
+ },
+ {
+  "id": "B388",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "No transport law of the registered forms exists",
+  "confidence": "medium"
+ },
+ {
+  "id": "B395",
+  "kind": "PAIRING",
+  "label": "mirror",
+  "quote": "the mirror is summation-emergent with no cell-local Galois origin",
+  "confidence": "low"
+ },
+ {
+  "id": "B398",
+  "kind": "NON-UNIQUENESS",
+  "label": "numerology",
+  "quote": "banks as numerology-class",
+  "confidence": "high"
+ },
+ {
+  "id": "B408",
+  "kind": "OTHER",
+  "label": "no-landing-site",
+  "quote": "closing the object's last internal scale-lever candidate",
+  "confidence": "low"
+ }
+]
