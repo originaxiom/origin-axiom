@@ -158,6 +158,7 @@ def action_controls():
     bad=s.kronecker_product(-i*s.diag(1,-1,0,0,0),identity)
     q=s.symbols('q',nonzero=True); h=s.diag(*(q**v for v in Y))
     norm=s.trace(y*y)
+    r=s.diag(2,3); t=s.Matrix([[0,1],[-1,0]]); chi=s.Rational(1,6)
     return {'checks':{'commuting_Wilson_curvature_additivity':all(a==s.zeros(25) for a in cross),
                       'commuting_Wilson_moment_additivity':added_moment==s.zeros(25),
                       'unitary_addition':all(a.conjugate().T==-a for a in line),
@@ -167,7 +168,9 @@ def action_controls():
                       'period_tangent_nonzero':norm==30 and exponent('z')==1,
                       'odd_skew_matrix_singular':s.det(s.Matrix(5,5,lambda j,k:(j+1)*(k+2) if j<k else -(k+1)*(j+2) if k<j else 0))==0,
                       'even_skew_opposite_can_invert':s.Matrix([[0,1],[-1,0]]).det()==1,
-                      'rank1_twist_can_have_invariant_control':(s.Matrix([[1]])-s.eye(1)).nullspace()!=[]},
+                      'rank1_twist_can_have_invariant_control':(s.Matrix([[1]])-s.eye(1)).nullspace()!=[],
+                      'twisted_tensor_target_covariance':chi*r*t*r.T==t and (chi*r)*t==t*r.inv().T,
+                      'inverse_twist_target_rejected':(r/chi)*t!=t*r.inv().T},
             'no_PDE_profile_computed':True}
 
 

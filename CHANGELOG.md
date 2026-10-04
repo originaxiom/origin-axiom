@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-10-04 R93 post-first-run proof review and corrected pre-execution seal
+
+Original81/65/18 passes retained. Alternating-tensor target twist sign
+caught in personal proof review, repaired with explicit covariance and
+inverse-sign rejection controls before rerun. Conclusion unchanged;
+JOINED_WILSON_CORRECTION.md, no hidden unchanged-first-pass claim.
+Corrected science committed/pushed/server-sealed before new imports.
+
+## 2026-10-04 R93 admitted SM gauge phase in the supplied compact join
+
+Existing commuting Wilson connection on R85's actual admitted join
+gives connected [SU3 x SU2 x U1]/Z6, zero full bare potential and finite
+positive kinetic argument, conditional and not selected by genesis.
+All three joins/full248 carried;81 exact/65 separate-reference/18 tests
+pass unchanged at pushed/server-confirmed pre-run a19e6c783. Charged
+pairing,12 complex adjoint profiles, at least4 Wilson coordinates and
+relative mode retained. Report JOINED_WILSON.md; generated law and
+physical chirality/interactions/selection remain. Full SM/TOE unachieved;
+no nonauthor analytic/full-suite/main-bank acceptance. OPEN sender relay.
+
 ## 2026-10-04 R93 admitted joined Wilson phase pre-execution checkpoint
 
 Design/proof, actual-join/root producer, separate modular reference and

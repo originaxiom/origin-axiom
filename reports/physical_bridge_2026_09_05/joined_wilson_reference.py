@@ -99,6 +99,10 @@ def root_checks():
     kernel=[(t,a,b) for t in range(6) for a in range(3) for b in range(2)
             if (-F(2*t,6)+F(a,3)).denominator==1 and (F(3*t,6)+F(b,2)).denominator==1]
     checks['exact_Z6_kernel']=kernel==[(t,t%3,t%2) for t in range(6)]
+    # Independent scalar equations for T_12=1,T_21=-1 and rho=diag(2,3).
+    chi=F(1,6)
+    checks['twisted_tensor_target_covariance']=chi*2*3==1 and chi*2==F(1,3) and chi*3==F(1,2)
+    checks['inverse_twist_target_rejected']=2/chi!=F(1,3) and 3/chi!=F(1,2)
     return checks
 
 

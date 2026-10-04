@@ -17133,3 +17133,26 @@ source or a selected SM direction. Original source bytes pinned before
 first import; commit/push/server confirmation required. Pre-seal input
 patch's relative-path landing was corrected to the explicit repository
 path before execution; no science import or lost input occurred.
+
+October4 R93 EXECUTED unchanged after pre-run a19e6c783 committed,
+pushed/server-confirmed:81 exact actual-join/whole248/action predicates,
+65 separate Fraction/modular predicates and18 focused tests pass, true
+exits0. All3 actual R85 joins span Mat5; primitive integral character
+and b1=1 recomputed. Conditional admitted existing Wilson connection
+gives full connected [SU3 x SU2 x U1]/Z6 at same bare V=0, finite positive
+kinetic argument. No new source or selected SM. Paired closed charged
+sectors,12 complex adjoint one-form profiles, at least4 Wilson and prior
+relative coordinates retained; generated common law/light-roster lifting
+and physical chirality/interactions remain. Report/proof/input pins and
+OPEN sender relay under physical_bridge; B862/B1079 prior credited.
+First governance26 PASS/four inherited FAIL categories, exit1;86 open,
+41 stale, review due329, no new offending path/waiver. Independent
+analytic review/full-suite/main banking owed. Full SM/TOE unachieved.
+
+R93 post-first-run proof review catches an untested inverse-twist target
+in the alternating-tensor argument. Correct target E tensor chi^w and
+two-sided covariance controls added in both routes and LIVE test.
+Original81/65/18 logs/exits and six science hashes retained; conclusion
+unchanged but original controls did not test the sign. Corrected design/
+proof/code/test/disclosure resealed before rerun. No science failure,
+acceptance waiver, new chosen phase or full SM/TOE completion.

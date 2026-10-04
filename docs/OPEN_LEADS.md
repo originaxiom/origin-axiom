@@ -1,12 +1,15 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-October4 R93 decision-to-test H-PB-R93: spend R85 admitted compact
-rank-five/dual join and R86 primitive b1=1 in EXISTING commuting SU5
-Wilson connection. Test full E8 kernel/action/positive kinetic premises,
-closed-domain paired charged and adjoint-profile costs; no new source
-or selected SM direction assumed. JOINED_WILSON_DESIGN.md/PROOF.md
-under physical_bridge, exact and separate modular producer plus LIVE
-tests require pre-run commit/push/server seal. Full SM/TOE unachieved.
+October4 R93 H-PB-R93 EXECUTED unchanged after pre-run a19e6c783
+pushed/server-confirmed:81 exact/65 separate-reference/18 tests pass.
+Actual R85 compact join/R86 primitive cycle, existing Wilson fields,
+full connected SM gauge kernel and same-action V=0; positive kinetic
+argument conditional on supplied compact admission. JOINED_WILSON.md/
+PROOF.md retain paired charged/12 complex adjoint-profile and moduli
+costs. PB-SELECT/PB-ACTION/PB-DOMAIN/PB-PHYSICS: generated common
+register/join/action/domain, phase/light-roster lifting and physical
+chiral generations/interactions remain. OPEN sender relay, independent
+analytic acceptance owed; no lead closed or full SM/TOE completion.
 
 October4 R92 decision-to-test H-PB-R92 EXECUTED unchanged at pre-run
 53e40eea9:45 exact/2065 separate-reference/18 focused tests pass. The

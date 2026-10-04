@@ -1,5 +1,18 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October4 R93 constructive phase earned conditionally: the actual R85
+compact rank-five/dual join and R86 primitive one-cycle carry EXISTING
+commuting SU5 Wilson fields with full connected SM gauge group, V=0
+and positive finite kinetic argument in the same supplied action.81
+exact/65 separate-reference/18 tests pass unchanged at pushed/server-
+confirmed pre-run a19e6c783. JOINED_WILSON.md/PROOF.md under physical_bridge.
+No generated selection/chiral SM: paired charged sectors,12 complex
+adjoint one-form profiles and at least4 Wilson coordinates plus prior
+relative mode remain. Next generated common register/join/action/domain
+and physical phase/light-roster lifting, all spectrum/interactions on
+one configuration. Independent analytic/main-bank acceptance owed;
+full parameter-free SM/TOE ACTIVE/unachieved,0 of19 unchanged.
+
 October4 R92 prerequisite executed unchanged at53e40eea9:45 exact/2065
 separate-reference/18 focused tests pass. Keep spin action/orbit/coverage
 through the architecture; no sign-only inference or whole-parent ordinary

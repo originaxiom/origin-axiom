@@ -61,7 +61,11 @@ chi^w is still irreducible: multiplying each group matrix by a nonzero
 scalar preserves precisely its invariant subspaces. Its dual is also
 irreducible, so neither has a parallel vector. End0(E) has no invariant.
 An invariant exterior2(E) tensor chi^w would define a nonzero alternating
-intertwiner from E* to E tensor chi^-w. Both are irreducible rank-five,
+intertwiner from E* to E tensor chi^w: invariance is
+chi^w rho T rho^T=T, hence (chi^w rho)T=T rho^-T. The original pre-run
+argument wrote the inverse twist here; that sign is repaired after the
+first run, with an explicit covariance/opposite control added and resealed.
+Both possible scalar twists are irreducible rank-five,
 so its kernel/image force invertibility; a skew five-by-five matrix has
 determinant0 in characteristic zero. Contradiction. The dual case is
 identical. This does not assert exterior irreducibility or unchanged H1.

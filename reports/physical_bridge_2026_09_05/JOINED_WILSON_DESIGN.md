@@ -40,6 +40,11 @@ holonomy restores SU5; order7 keeps two blocks; generic five distinct
 eigenvalues keep U1^4, not SM; omit Cartans/wrong bars/trace fail; bad
 seam character fails; nonclosed omega and noncommuting field fail;
 rank-one/odd alternating controls retain the irreducibility hypothesis.
+Post-first-run proof review found the inverse twist in the displayed
+intertwiner target. JOINED_WILSON_CORRECTION.md records its repair; the
+all-character conclusion is unchanged, but explicit tensor covariance
+and inverse-twist rejection are added to BOTH routes before rerunning.
+Original81/65/18 passes are preserved, not evidence of the missed sign.
 No empirical target, fitted constant, measured mass or value comparison.
 
 ## Exact conventions and physical prices

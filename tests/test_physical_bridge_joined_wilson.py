@@ -50,6 +50,9 @@ def test_existing_commuting_field_residuals_and_wrong_field_opposites():
 
 
 def test_odd_alternating_invariant_argument_keeps_its_rank_hypothesis():
+    r=s.diag(2,3); t=s.Matrix([[0,1],[-1,0]]); chi=s.Rational(1,6)
+    assert chi*r*t*r.T==t and (chi*r)*t==t*r.inv().T
+    assert (r/chi)*t!=t*r.inv().T
     assert s.Matrix([[0,1],[-1,0]]).det()==1
     skew=s.zeros(5)
     for i in range(5):

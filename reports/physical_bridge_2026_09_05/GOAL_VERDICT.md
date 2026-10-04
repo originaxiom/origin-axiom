@@ -1,4 +1,20 @@
-# Verdict toward the full physical-theory goal - R92, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R93, updated 2026-10-04
+
+R93 advances a genuine conditional gauge-physics subproblem: actual
+compact rank-five/dual join plus its primitive one-cycle supports an
+existing Wilson connection with full connected SM gauge kernel at V=0.
+Authored finite positive kinetic argument, no added source.81 exact/
+65 separately structured reference/18 tests pass unchanged after pre-run
+a19e6c783 was pushed/server-confirmed. JOINED_WILSON.md/PROOF.md keep
+the full E8 map and admission hypotheses. This is a PHASE, not genesis
+selection: two-block direction/metric/action/dictionary still supplied.
+All smooth closed charged sectors remain paired;12 complex SM-adjoint
+profiles, at least4 Wilson coordinates and prior relative structure
+mode remain. No normalized values, chirality or lifting mechanism.
+Generate the common registering/joining/action/domain law and a chiral
+physical configuration with the complete spectrum/interactions on it.
+Full parameter-free Standard Model and full TOE ACTIVE/unachieved;
+0 of19 remains, independent analytic/main-bank acceptance not assigned.
 
 R92 verifies a prerequisite inference/type distinction, not a new
 physical mechanism. Spin transport retains A as well as b; ordinary

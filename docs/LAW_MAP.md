@@ -1,5 +1,18 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October4 R93 constructive phase earned conditionally: the actual R85
+compact rank-five/dual join and R86 primitive one-cycle carry EXISTING
+commuting SU5 Wilson fields with full connected SM gauge group, V=0
+and positive finite kinetic argument in the same supplied action.81
+exact/65 separate-reference/18 tests pass unchanged at pushed/server-
+confirmed pre-run a19e6c783. JOINED_WILSON.md/PROOF.md under physical_bridge.
+No generated selection/chiral SM: paired charged sectors,12 complex
+adjoint one-form profiles and at least4 Wilson coordinates plus prior
+relative mode remain. Next generated common register/join/action/domain
+and physical phase/light-roster lifting, all spectrum/interactions on
+one configuration. Independent analytic/main-bank acceptance owed;
+full parameter-free SM/TOE ACTIVE/unachieved,0 of19 unchanged.
+
 October4 path-local R92, standard affine/extension mathematics, not
 new B-law banking: b_(g h)=b_g+A_g b_h. A complete supplied tetrahedral
 action has a nonadditive preserving orbit; replacing it by its additive
@@ -1358,3 +1371,20 @@ C4 is a PHYSICAL DUTY, not another banked law row: a specified measure,
 contour, boundary law and normalization remain needed;3d CS and7d CS
 superpotential are different models. R60 supplies prior field variation,
 not a computed Z. See CS_SECTOR_SCOPE_PROOF.md C4 and PB-CS-DOMAIN.
+
+## R93 conditional joined Wilson application October4
+
+These are applied standard mathematics in a supplied model, not new
+genesis laws or nonauthor analytic/main-bank acceptance. Source scope
+is the actual R85 compact joins and EXISTING commuting gauge fields.
+
+| scoped result | proof/input and live lock boundary |
+|---|---|
+| Primitive k(z)=1,k(c)=-1 and b1=1 on all literal joins | JOINED_WILSON_PROOF.md section1; joined_wilson.py character and actual three R85 cases; tests/test_physical_bridge_joined_wilson.py::test_primitive_character_on_the_actual_join_not_a_seam_spurion |
+| Conditional full connected SM phase at SAME bare V=0, no new source | JOINED_WILSON_PROOF.md sections1-2; compact R85 admission and harmonic omega are analytic inputs; complete248/root and commuting-residual algebra locks in tests/test_physical_bridge_joined_wilson.py::test_existing_commuting_field_residuals_and_wrong_field_opposites; finite locks do not certify a PDE profile |
+| Positive finite Wilson kinetic coordinate, four Cartan moduli retained | JOINED_WILSON_PROOF.md section3; compact Hodge/period/gauge argument authored; unrescaled coefficient1800 is live checked by tests/test_physical_bridge_joined_wilson.py::test_all_248_trace_includes_mixed_sectors, not a numeric metric norm or physical coupling |
+| Every scalar-twisted charged coefficient remains paired on THIS smooth closed domain;12 complex adjoint profiles persist | JOINED_WILSON_PROOF.md sections2/4, simple rank-five/odd-skew and closed duality/Hodge hypotheses; finite odd/even and character controls in tests/test_physical_bridge_joined_wilson.py::test_odd_alternating_invariant_argument_keeps_its_rank_hypothesis, not a general physical chirality kill |
+
+B862 already owns the conditional elementary Z6 kernel. SM cocharacter,
+phase selection, physical dictionary/light-roster lifting and generated
+register/join/action/domain remain duties, not laws silently paid here.

@@ -1,0 +1,250 @@
+{
+  "raw_directory_basename": "oa-joined-wilson.cFx6lh",
+  "captures": {
+    "fetch": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "fetch",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "+refs/heads/*:refs/remotes/origin/*"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.3422499999869615,
+      "log_bytes": 100,
+      "log_sha256": "0f453d4b4f9b89e626af291ee4e9726bd8cdf1090a8caad45ff5167efa7fd4ca"
+    },
+    "already_banked": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/checks/already_banked.py",
+        "Wilson harmonic joined SM SU5"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.834484999999404,
+      "log_bytes": 3570,
+      "log_sha256": "e640499af2c1407c89d9f14ce34967dfa7e0514cf52b922691463a743bcd7e54"
+    },
+    "atlas": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/atlas/query.py",
+        "card"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.1282639999408275,
+      "log_bytes": 735,
+      "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+    },
+    "prior_sweep": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/checks/absence_sweep.py",
+        "Wilson.{0,30}(harmonic|flat|SU.?5)|S\\(U.?3.{0,15}U.?2\\)|joined.{0,30}(Wilson|SM)|holonomy.{0,30}breaking",
+        "--regex"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 100.27812799997628,
+      "log_bytes": 4298,
+      "log_sha256": "28442639f00308e1b38dfa302416bf36e337809bf076fcd2d9d086575e3d2ab8"
+    },
+    "commit_seal": {
+      "command": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "commit",
+        "-m",
+        "Seal R93 admitted joined Wilson phase before exact execution"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.11780699994415045,
+      "log_bytes": 599,
+      "log_sha256": "d9b2431b5c806ff77949ac9a4bba633a1cebc2032a0bef0cf58fbcb8d53c3f97"
+    },
+    "push_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "push",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.8120600000256673,
+      "log_bytes": 117,
+      "log_sha256": "667791005dc00cc032d57daee39b29bc7f40bf2c25e227656061c625daad8999"
+    },
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.9027960000094026,
+      "log_bytes": 85,
+      "log_sha256": "a85b130c304d72b21af9e7616b64e883368abff4815fd680bb5f686193d6e1a9"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "commit=\"a19e6c783c2da3bf1040e54aa8dda43f5e64665c\"; raw=\"<raw-root>\"; abort(\"Server mismatch\") unless File.read(raw+\"/server_seal.log\").split.first==commit; abort(\"Dirty\") unless IO.popen([\"git\",\"status\",\"--porcelain\"],&:read).empty?; base=\"reports/physical_bridge_2026_09_05/\"; ledger={}; File.foreach(base+\"ARTIFACT_HASHES.txt\",encoding:\"UTF-8\"){|l|m=l.match(/^([0-9a-f]{64})  (.+)$/); ledger[m[2]]=m[1] if m}; paths=%w[JOINED_WILSON_DESIGN.md JOINED_WILSON_PROOF.md JOINED_WILSON_INPUTS.json joined_wilson.py joined_wilson_reference.py].map{|p|base+p}+[\"tests/test_physical_bridge_joined_wilson.py\"]; paths.each{|p|b=File.binread(p); old=IO.popen([\"git\",\"show\",commit+\":\"+p],\"rb\",&:read); abort(p) unless $?.success? && b==old && Digest::SHA256.hexdigest(b)==ledger[p]}; pins=JSON.parse(File.read(base+\"JOINED_WILSON_INPUTS.json\",encoding:\"UTF-8\")); pins[\"sources\"].each{|p|b=IO.popen([\"git\",\"show\",p[\"ref\"]+\":\"+p[\"path\"]],\"rb\",&:read); abort(p[\"path\"]) unless $?.success? && b.bytesize==p[\"bytes\"] && Digest::SHA256.hexdigest(b)==p[\"sha256\"]}; puts JSON.generate(science_files:paths.length,input_pins:pins[\"sources\"].length,clean_tree:true,server_commit:commit,bytes_match:true)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.089395000017248,
+      "log_bytes": 132,
+      "log_sha256": "f525f5bbbc14f1ea59e5f7c414f2b79b1008725109da2231db44d8da60efbb34"
+    },
+    "native_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/joined_wilson.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 8.889208999928087,
+      "log_bytes": 25021,
+      "log_sha256": "b7fd07962ec6c02078cfee6784a3925cd732e841186653b3d02d38ffd12bf00a"
+    },
+    "reference_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "reports/physical_bridge_2026_09_05/joined_wilson_reference.py",
+        "<raw-root>/native_first.log"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.29392700002063066,
+      "log_bytes": 2186,
+      "log_sha256": "b3c32c8d874f31913eceefc3acff01ff2e5cb08e951a6bc4257e947dfb846fe2"
+    },
+    "focused_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_joined_wilson.py",
+        "tests/test_physical_bridge_mixed_current.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 11.019387000007555,
+      "log_bytes": 100,
+      "log_sha256": "ae50903cc411690423440a00846eb1175f8ad6b761dc4004b57f050ca2326042"
+    },
+    "governance_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.823695000028238,
+      "log_bytes": 2284,
+      "log_sha256": "8fd16614d44488f7a6615c4fb9fb5b664e99194cdb63ee1885d7a30978d02f56"
+    }
+  },
+  "public_logs": {
+    "server_seal": "JOINED_WILSON_SERVER_FIRST.txt",
+    "preflight": "JOINED_WILSON_PREFLIGHT_FIRST.txt",
+    "native_first": "JOINED_WILSON_NATIVE_FIRST.jsonl",
+    "reference_first": "JOINED_WILSON_REFERENCE_FIRST.json",
+    "focused_first": "JOINED_WILSON_FOCUSED_FIRST.txt",
+    "governance_first": "JOINED_WILSON_GOVERNANCE_FIRST.txt"
+  },
+  "raw_only": [
+    "fetch",
+    "already_banked",
+    "atlas",
+    "prior_sweep",
+    "commit_seal",
+    "push_seal"
+  ],
+  "native_summary": {
+    "failed": [
+
+    ],
+    "generated_SM_selection": false,
+    "non_author_acceptance": false,
+    "passed": 81,
+    "physical_chirality_derived": false,
+    "physical_goal_achieved": false,
+    "quantum_moduli_lifting_computed": false,
+    "scope": "actual join plus algebraic Wilson premises; authored conditional analytic admission",
+    "total": 81
+  },
+  "reference_summary": {
+    "PDE_profile_verified": false,
+    "all_actual_characters": 3,
+    "failed": [
+
+    ],
+    "non_author_acceptance": false,
+    "passed": 65,
+    "physical_goal_achieved": false,
+    "prime_roots": [
+      [
+        1031,
+        695
+      ],
+      [
+        1033,
+        162
+      ]
+    ],
+    "scope": "separate Fraction roots/modular actual witnesses, not characteristic-zero admission",
+    "total": 65
+  },
+  "receipt_command_paths_redacted": true,
+  "unchanged_first_run": true,
+  "non_author_acceptance": false,
+  "physical_goal_achieved": false
+}

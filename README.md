@@ -1,6 +1,15 @@
 # Origin Axiom
 
 > **Current physical bridge checkpoint October4.**
+> [Admitted joined Wilson phase](reports/physical_bridge_2026_09_05/JOINED_WILSON.md)
+> advances the supplied compact construction from SU5 to connected
+> [SU3 x SU2 x U1]/Z6 at zero full bare potential, with a finite positive
+> kinetic argument.81 exact/65 separate-reference/18 tests pass unchanged
+> at pre-run a19e6c783. Conditional analytic proof, not selected SM:
+> charged modes remain paired;12 complex adjoint profiles and Wilson/
+> relative moduli need physical lifting. Generate the common register/
+> join/action/domain law; no parameter-free SM/TOE completion.
+>
 > [Affine spin transport audit](reports/physical_bridge_2026_09_05/AFFINE_SPIN.md)
 > verifies that an ordinary sign-subgroup shortcut needs extra action/
 > orbit and coverage hypotheses; no actual member table is refuted.

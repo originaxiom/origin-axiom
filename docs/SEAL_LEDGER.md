@@ -1990,3 +1990,20 @@ or physical goal completion. B862 prior Z6 and B1079 choice costs credited.
 | `reports/physical_bridge_2026_09_05/joined_wilson.py` | `41c52a446b2b62c2a96660d3627874f2de0cb4742b294e4259ee70662ab8bae7` |
 | `reports/physical_bridge_2026_09_05/joined_wilson_reference.py` | `4a3947526d88b00b4bc647c244a12a802358e523fbb0676aeb82c424f4bc7113` |
 | `tests/test_physical_bridge_joined_wilson.py` | `52b1cf546d780a54c94ec9da041f2326ade948386dfbc72670346c5b028611fc` |
+
+## Joined Wilson corrected pre execution seal October 4 2026
+
+R93 original81/65/18 passes retained; post-run proof target-twist sign
+repaired and covariance/opposite controls extended before new execution.
+JOINED_WILSON_CORRECTION.md, not unchanged-first-pass/new physics claim.
+Corrected imports/collection require commit/push/server byte confirmation.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/JOINED_WILSON_DESIGN.md` | `d4ccf458ee88856da443073069c474acdf6e5420b94b25edb36c6df66103ca3f` |
+| `reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md` | `a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3` |
+| `reports/physical_bridge_2026_09_05/JOINED_WILSON_INPUTS.json` | `0a0ff2cc69d060b6a6da4f9a573b61fb56d2eb85ff82a3282e1b80fb2199c775` |
+| `reports/physical_bridge_2026_09_05/joined_wilson.py` | `b9da4a5d036d65df938ef21a768f67affd9fdb0799a0d40705f482d20f697505` |
+| `reports/physical_bridge_2026_09_05/joined_wilson_reference.py` | `0dbc8842b1999fe4567906762eac1ef3d1f0a8f42ab747e67c5f47a48fd344c4` |
+| `reports/physical_bridge_2026_09_05/JOINED_WILSON_CORRECTION.md` | `f1e6025b2f741b4ccab4602f193e57badd45d378ab2c89daac83171b344d8780` |
+| `tests/test_physical_bridge_joined_wilson.py` | `6c7a486ff53c0215011ef9f974b0d527ab1a00bb45022ad518706854174b8c58` |
