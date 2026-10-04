@@ -1,0 +1,8 @@
+{"cell": "m003_fox", "changed_formula_detected": true, "checks": "PASS", "lifts": [{"lift_a_sign": 1, "raw_to_normalized_unit": {"power": 1, "sign": 1}}, {"lift_a_sign": -1, "raw_to_normalized_unit": {"power": 1, "sign": 1}}], "normalized_torsion": "(t**2*v**3 + t**2*v - 2*t*v**4 - 2*t*v**2 - 2*t + v**3 + v)/(t*v*(v**2 + 1))", "population": "DFJ m003 rational representation family", "twist_substitution_exact": true, "u": "v/(v^2+1)"}
+Traceback (most recent call last):
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/spin_swap_audit_2026_10_04/verify.py", line 223, in <module>
+    print(json.dumps({'cell':name,**fn()},sort_keys=True),flush=True)
+                                    ^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/spin_swap_audit_2026_10_04/verify.py", line 96, in diagnostic_checks
+    assert c == 2*s.I*s.sqrt(3)
+AssertionError

@@ -92,7 +92,7 @@ def circle_conjugate(f):
 @lru_cache(None)
 def diagnostic_checks():
     u0 = (1+s.I*s.sqrt(3))/2
-    c = s.simplify(2*(u0**2-1)/u0)
+    c = s.expand_complex(2*(u0**2-1)/u0).expand()
     assert c == 2*s.I*s.sqrt(3)
     Tp, Tm = t+c+1/t, t-c+1/t
     assert s.simplify(Tm-coefficient_conjugate(Tp)) == 0
