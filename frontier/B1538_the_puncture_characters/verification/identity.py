@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """B1538 banked identity (PREREGISTRATION section 8), checked before run.py reads anything:
-  - controls.py (K0-K9, loaded by its path: sm:B1535's directory, which sm:B1536's route_r puts first on sys.path, has its own
+  - controls.py (K0-K10, loaded by its path: sm:B1535's directory, which sm:B1536's route_r puts first on sys.path, has its own
     controls.py) reproduces controls.json in every field but the timings;
   - every sealed file's sha-256 equals ARTIFACT_HASHES.txt.
 A single difference stops the run, and nothing is read.

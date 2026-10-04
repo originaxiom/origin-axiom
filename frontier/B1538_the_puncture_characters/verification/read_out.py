@@ -3,10 +3,11 @@
 
     python3 read_out.py [--record]    ->  read_out.json, read_out_log.txt
 
-Inputs: identity.json (the banked identity, re-run before the run), run_L.jsonl (Part L) and, if present, run_F.jsonl (Part F).
+Inputs: identity.json (the banked identity, re-run before the run), run_L.jsonl (Part L), if present run_F.jsonl (Part F), and
+controls.json's K10 (Proposition H's character zeta_H on each cover with D = Z^2 / 2Z^2, located by structure alone).
 Every prediction is decided here from the records; nothing is judged by hand.
 
-  P1  the identity held: controls K0-K8 all hold, and every sealed file hashes as sealed.
+  P1  the identity held: controls K0-K10 all hold, and every sealed file hashes as sealed.
   P2  route P agrees with route W at every root read (two primes) and at every mu_12 check.
   P3  route T agrees with the sum of n over the powers at every hit it reads, and reads at least one hit if any exists.
   P4  some puncture character of population A has n >= 1.
@@ -15,7 +16,11 @@ Every prediction is decided here from the records; nothing is judged by hand.
   P7  Part F: at every candidate (a puncture chi = nu^4 with n(chi) >= 2), no member nu has capL2 >= 2.  Vacuous if Part L has
       no candidate.
   P8  the verdict: no finite-order member nu on a cover of population A, with nu^4 among the characters read, has
-      min(capW, capL2) >= 2 (Theorem C: no count of two or more generations there)."""
+      min(capW, capL2) >= 2 (Theorem C: no count of two or more generations there).
+  P9  Proposition H: on every cover of K10, the sum over the roots of unity s of n(zeta_H, s) is 4.
+  P10 Proposition H: on every cover of K10 where tau acts on Q_8 non-trivially, n(zeta_H, s) <= 2 at every s.
+  P11 Proposition H: on every cover of K10 where tau acts on Q_8 as the identity, n(zeta_H, s) is even at every s.
+  Each of P9-P11 is None unless every cover it reads was read in full."""
 import json
 import sys
 from pathlib import Path
@@ -30,8 +35,9 @@ def load_rows(name):
     return [json.loads(line) for line in p.read_text().splitlines() if line.strip()]
 
 
-def evaluate(ident, L, Fr, say=print):
-    """the predictions from the records (pure: read_out_selftest.py calls it on synthetic rows)"""
+def evaluate(ident, L, Fr, say=print, hcov=None):
+    """the predictions from the records (pure: control K9 calls it on synthetic rows).  hcov: K10's covers, {cover id: {"ez",
+    "m", "golden", ...}}, or None"""
     assert L is not None, "Part L has no records"
     chunks = {}
     for r in L:
@@ -84,6 +90,29 @@ def evaluate(ident, L, Fr, say=print):
         pred["P7"] = not two
         pred["P8"] = not [f for f in members for k in ("R", "P4")
                           if min(f[k]["capW"], f[k]["capL2"]) >= 2]
+    # Proposition H: the sum of n(zeta_H, s) over every root of unity s, and its largest term, on each cover of K10
+    if hcov is None:
+        pred["P9"] = None
+        pred["P10"] = None
+        pred["P11"] = None
+        out["Proposition H"] = "K10's covers not given"
+    else:
+        sums, tops, odds, unread = {}, {}, {}, []
+        for cid, hc in sorted(hcov.items()):
+            if cid not in complete:
+                unread.append(cid)
+                continue
+            at = [h for h in hits if h["cover"] == cid and list(h["zeta"]) == list(hc["ez"]) and h["m"] == hc["m"]]
+            sums[cid] = sum(h["n"] for h in at)
+            tops[cid] = max([h["n"] for h in at], default=0)
+            odds[cid] = [h["n"] for h in at if h["n"] % 2]
+        out["Proposition H"] = {"covers": len(hcov), "sum of n": sums, "largest n": tops, "odd n": odds,
+                                "not read in full": unread}
+        moved = [c for c, hc in hcov.items() if not hc["acts on Q8 as the identity"]]
+        fixed = [c for c, hc in hcov.items() if hc["acts on Q8 as the identity"]]
+        pred["P9"] = None if unread or not hcov else all(v == 4 for v in sums.values())
+        pred["P10"] = None if not moved or any(c in unread for c in moved) else all(tops[c] <= 2 for c in moved)
+        pred["P11"] = None if not fixed or any(c in unread for c in fixed) else all(not odds[c] for c in fixed)
     out["predictions"] = pred
     for k in sorted(pred):
         say(f"{k}: {pred[k]}")
@@ -99,7 +128,8 @@ def main():
         print(s)
 
     ident = json.loads((HERE / "identity.json").read_text())
-    out = evaluate(ident, load_rows("run_L.jsonl"), load_rows("run_F.jsonl"), say)
+    hcov = json.loads((HERE / "controls.json").read_text())["K10"]["covers"]
+    out = evaluate(ident, load_rows("run_L.jsonl"), load_rows("run_F.jsonl"), say, hcov)
     out["log"] = log
     if "--record" in sys.argv:
         (HERE / "read_out.json").write_text(json.dumps(out, indent=1) + "\n")
