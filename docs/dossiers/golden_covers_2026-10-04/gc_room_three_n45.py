@@ -9,8 +9,12 @@ Lemma A, and read directly in two routes.  Nothing here is a sealed arc's readin
      n(1) = 0 + 4 x 1 = 4 and n(rho) = 2 + 4 x 4 = 18, so min(capW, capL2) = min(1 + 4, 18) = 5 at its trivial character.
   3. Read directly: route N (sm:B1536's route_n, Shapiro on m003 with the degree-45 permutation module), route R' (route_r on
      N_45's own Reidemeister-Schreier presentation, another prime), and N_45's integer homology (b1 - cusps = n(1)).
+  4. One count, fixed by the banked rows: at the class pulled back from m003, Shapiro splits the frame's W on N_45 into
+     W x chi^k on d9.2 (k = 0..4), and on the 5-torsion W at nu = chi^k is chi^k x W at the trivial character.  So the count is
+     the sum of sm:B1536's banked Part P counts at d9.2's members (u, 0): five times (0, 0).  Read directly in both routes
+     with sm:B1536's own Part P code path (route_n.reading, route_r.reading).
 
-    python3 gc_room_three_n45.py      (about 30 s)"""
+    python3 gc_room_three_n45.py      (about a minute)"""
 import gzip
 import importlib.util
 import json
@@ -86,8 +90,39 @@ def main():
     ab45 = O.Ab(cov45)
     rep["N_45: H_1 (free rank, torsion); b1 - cusps"] = [len(ab45.free), [d for _, d in ab45.torsion],
                                                          len(ab45.free) - len(O.CL.cusps(G, pe))]
+    # 4. the count at the class pulled back from m003: the banked Part P counts at d9.2's members (u, 0), and a direct reading
+    rows = {}
+    for route in ("R", "N"):
+        for line_ in gzip.open(O.B1536V / f"run_{route}_m003.jsonl.gz", "rt"):
+            r = json.loads(line_)
+            if not r.get("done") and r["cover"] == "d9.2" and r["kappa"] == "0":
+                rows[(route, tuple(r["u"]))] = r["P"]["count"]
+    rep["banked Part P counts at d9.2's members (u, 0), routes R and N"] = sorted([list(k) + [v] for k, v in rows.items()])
+    banked_sum = [sum(rows[("R", (str(u[0]), str(u[1])))][i] for u in us) for i in (0, 1)]
+    rep["the count on N_45 at the pulled-back class, by the banked rows"] = banked_sum
+    N, R, CL = O.RN, O.R, O.CL
+    d = len(pe["a"])
+    cus, L, Nr, _ = PO.POP.characters(st, pe)
+    direct = {}
+    for route in ("N", "R"):
+        pp = O.GF.primes_1_mod(Nr, N.P_BOUND if route == "N" else 1 << 31, 1)[0]
+        Bb = N.Base(st, O.GF.GF(pp, Nr))
+        chi = Bb.character((Fr(0), Fr(0)), Fr(0))
+        if route == "N":
+            pa1 = N.perm_arrays(G, {"a": [0], "b": [0], "t": [0]})
+            z = N.base_classes(Bb, N.tensor(Bb, N.small_four(Bb, chi, 5), pa1))["c1"]
+            cz = {g: z[gi * 4:(gi + 1) * 4] for gi, g in enumerate(Bb.gens)}
+            r = N.reading(Bb, N.perm_arrays(G, pe), chi, {g: [cz[g]] * d for g in Bb.gens})
+        else:
+            Veta = {g: Bb.rho[g] * pow(int(chi[g]), 5, pp) % pp for g in Bb.gens}
+            c0 = R.base_cocycle(G, Veta, pp)
+            r = R.reading(cov45, Bb.rho, chi, R.cocycle_on_words(G, Veta, c0, cov45.sword, pp), pp)
+        direct[route] = [r["I(W)"], r["I(L2W)"], r["all"]]
+    rep["the count on N_45 at the pulled-back class, read directly (I(W), I(L2W), identities hold), routes N and R"] = \
+        [direct["N"], direct["R"]]
     agree = (rep["Lemma A on N_45: (n(1), n(rho))"] == rep["route N on N_45 at the trivial character: (n(1), n(rho))"]
-             == [r45["n(nu)"], r45["n(rho nu)"]] and rep["N_45: H_1 (free rank, torsion); b1 - cusps"][2] == n1)
+             == [r45["n(nu)"], r45["n(rho nu)"]] and rep["N_45: H_1 (free rank, torsion); b1 - cusps"][2] == n1
+             and direct["N"][:2] == direct["R"][:2] == banked_sum and direct["N"][2] and direct["R"][2])
     rep["all agree"] = bool(agree)
     rep["room at the trivial character of N_45 (min(capW, capL2))"] = min(r45["capW"], r45["capL2"])
     print(json.dumps(rep, indent=1))

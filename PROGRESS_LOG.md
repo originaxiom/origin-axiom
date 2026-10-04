@@ -17626,3 +17626,5 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - From sm:B1536's banked rows and Lemma A, read directly in two routes and by integer homology: N₄₅ has (n(1), n(ρ)) = (4, 18)
   and room 5 at its trivial character. Recorded in the golden covers dossier (§7) and sL-12. Next: the counts on N₄₅,
   sealed first. sm:B1538's Part F′ continues.
+- The count at N₄₅'s class pulled back from m003 is fixed by the banked rows at (0, 0) (five banked Part P counts of (0, 0)),
+  and is read directly as (0, 0) in both routes. The other 22 dimensions of the class space are unread.

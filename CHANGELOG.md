@@ -12,6 +12,8 @@
 - **At the golden order.** ℤ/5 = coker(−A − I) for the golden monodromy; the characters live over ℚ(ζ₅) ⊃ ℚ(φ).
 - **Room is not a count.** The counts on H¹(N₄₅; ρ) (dimension 23) are next, sealed first. The own-character census's
   predictions are to be restated before its seal, because on d9.2 they are already fixed by banked rows.
+- **One count is already fixed: (0, 0)** at the class pulled back from m003 (five banked Part P counts of (0, 0) on d9.2, by
+  Shapiro). Read directly in both routes as (0, 0). The other classes are unread.
 - docs/OPEN_LEADS.md sL-12 item 1 records it.
 
 ## B1539 (pre-seal): the controls' first full trial -- all hold; K4 fixed to reach the whole (ℤ/2)³; identity.py

@@ -290,8 +290,12 @@ reading. Disclosed here in full, then to be banked as a proved arc with its lock
   sm:B1535's Theorem C does not exclude g = 3 there (I(Λ²W₁) ∈ [−18, 0], I(W₁) ≥ −5).
   - The room sits at the golden order. m003's ℤ/5 torsion is coker(−A − I) for the golden monodromy A = [[2, 1], [1, 1]]
     (det = 5); its characters live over ℚ(ζ₅) ⊃ ℚ(√5) = ℚ(φ).
-- **What it is not.** Room is not a count. The count (I(W₁), I(Λ²W₁)) at the classes of H¹(N₄₅; ρ) (dimension 23) is the
-  next question, and it is to be sealed before any class on N₄₅ is read.
+- **One count is already fixed, and it is (0, 0).** At the class pulled back from m003, Shapiro splits the frame's W on N₄₅
+  into W ⊗ χᵏ on d9.2. On the 5-torsion, W at ν = χᵏ equals χᵏ ⊗ W at the trivial character. So the count is the sum of
+  sm:B1536's banked Part P counts at d9.2's five members (u, 0), which are all (0, 0). Read directly in both routes with
+  sm:B1536's own Part P code path, it is (0, 0), with every identity holding (`gc_room_three_n45.py`, part 4).
+- **What it is not.** Room is not a count. The counts at the other classes of H¹(N₄₅; ρ) (dimension 23; by Lemma A it is
+  3 + 4 · 5 over the characters χʲ) are the next question, sealed before any of them is read.
 - **What it does to the next arc's draft (§6).** On m003's d9.2 the draft's P4 is already fixed by banked rows, because order 5
   divides m = 60. The draft's predictions are to be restated before the seal so that each asks something open: own
   characters outside the pulled-back subgroup, and the members other than d9.2.
