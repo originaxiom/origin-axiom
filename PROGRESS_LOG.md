@@ -17615,3 +17615,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Library, population, run, read-out and controls are committed to the arc's folder. K6 (twelve synthetic cases) holds; an
   E12 module-name collision was caught by K6 and fixed. No own character of order ≥ 3 has been read. sm:B1538's Part F′
   continues (139,296 of 501,792 readings at 15:31Z).
+
+## 2026-10-04 — B1539 (pre-seal): every control holds on a trial run; K4 fixed (task 256)
+
+- K1–K8 hold (not recorded; the recorded run comes at the seal). K4's (ℤ/2)³ case was built from dependent generators and
+  is fixed: 16 abelian covers, route N equal to Lemma A′'s sums in both routes.

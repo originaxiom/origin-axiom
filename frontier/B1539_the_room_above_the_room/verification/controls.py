@@ -176,7 +176,7 @@ def k2_k4(rep):
         order2 = [c for c in rd if any(c)]
         groups = [list(g) for g in combinations(order2, 2) if len(RO.subgroup(list(g), m)) == 4]
         seen = set()
-        for g in groups + [order2[:3]]:
+        for g in groups + [order2]:                    # the seven (Z/2)^2 and the whole (Z/2)^3
             H = frozenset(RO.subgroup(g, m))
             if H in seen:
                 continue

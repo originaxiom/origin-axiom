@@ -1,5 +1,17 @@
 # Changelog
 
+## B1539 (pre-seal): the controls' first full trial -- all hold; K4 fixed to reach the whole (ℤ/2)³; identity.py
+
+- A trial run of `controls.py` (not recorded) held at every control:
+  - K1, 36 pulled-back readings; K2, the 14 order-2 own characters in the run's configuration; K3, the routes agree;
+  - K5, the 30 members' orbit counts by formula; K6, twelve synthetic cases; K7, both routes at the trivial character of all
+    30 members;
+  - K8, Lemma C on all 4,870 of sm:B1536's banked Galois orbits (none varies) and 12 conjugate readings.
+- K4 had tested 14 covers, not 16. The intended (ℤ/2)³ case was built from three dependent characters and collapsed to a
+  (ℤ/2)² already counted. Fixed. All 16 now agree: route N on N_A equals Lemma A′'s sums in both routes. On the whole (ℤ/2)³
+  of d5.2 (degree 40), (n(1), n(ρ)) = (1, 5). This value is fixed by banked rows; the four grows and the line does not.
+- `identity.py`: the controls reproduced in every field but the timings, and every sealed file's hash, before the run.
+
 ## B1539 (pre-seal): the room above the room -- the instruments; no own character of order >= 3 read
 
 - `frontier/B1539_the_room_above_the_room/verification/` (from the golden covers dossier's drafts, revised):
