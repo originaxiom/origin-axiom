@@ -23,7 +23,7 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1282** |
-| words of findings prose | **1,102,707** |
+| words of findings prose | **1,102,917** |
 | test lock files referenced | **785** |
 | arcs carrying an authored verdict | **1282** (100.0 %) |
 | recorded closures | **825** (658 classified, 167 routed-only) |
@@ -68,7 +68,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1535`** (2778 words, 1 locks)  
+**PROVED — `B1535`** (2988 words, 1 locks)  
 THE CAP, run as sealed (b410afeb; sL-10 item 14, first half; the owner's 'are u sure about the math behind your negative conclusions about three generatiosn, sure sure sure?'): at a finite-order member of sm:B1515's frame on any finite cover of a complete finite-volume hyperbolic 3-manifold, at every class and in either order, I(Lambda^2 W1) = -dim(im delta^1 meet K) lies in [-n(nu^3 rho), 0] and I(W1) >= -b0 - n(nu^4) (Theorem C, from sm:B1515's Lemmas 2 and 3, sm:B1530's torus table, Lemma E' and Garland-Raghunathan on ker nu^2), so g generations need both supplies n(nu^3 rho) >= g and b0 + n(nu^4) >= g; and the line has no interior class on a once-punctured-torus bundle with Anosov monodromy or a finite abelian cover of one at puncture-trivial characters (Lemma W). The sealed run held both: Theorem C's identities and caps at all 776 readings of Part M (130 pulled-back, 302 pure at chi0 != 1 and 344 mixed classes of m135's and m136's abelian covers of order 2, 4 and 8; route RS at two primes, route Ind exactly at the 140 mixed classes on order-2 covers, agreeing on every quantity), and Lemma W on all 541 rows (567,996 characters in route X, 41,724 in route S, n = 0 at every one). No class carries more than one generation: the only generation-shaped value is (-1, -1), at 36 readings. Corollaries: at most one generation on every abelian cover of m135 and m136 at the pulled-back members (C1), on every word state and level (C2); more needs both supplies, which only puncture characters, non-abelian covers or non-unitary characters can give (C3). Seven of nine predictions held; P5 (mixing adds no new value) and P6 (one of 102 pairs: a hashed-coefficient class was special, rank 3 against 4, confirmed after the run by sm:B1536's control K3 in two routes) failed. 0 of 19 stays 0.  
 `B1535_the_cap/FINDINGS.md`
 

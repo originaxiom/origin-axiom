@@ -1,5 +1,16 @@
 # Changelog
 
+## The audit lane's R84 read: sm:B1535's cap reviewed, one proof step of Lemma W reworded
+
+- **R84** (`aee360ae`) re-derives sm:B1535's Theorem C steps (c1) and (c2), Lemma E′ and sm:B1530's Lemma T, and agrees with the
+  cap under its declared hypotheses.
+- **Its one finding, checked here and right:** Lemma W's proof said every class restricts non-trivially to a puncture
+  circle. The fibration class (present only when ζ is trivial) does not; it restricts through the cusp torus's base loop.
+  With the step stated for both kinds of class, the restriction is still injective. The lemma, its census and Corollaries
+  C1–C3 stand. Recorded in sm:B1535's FINDINGS §7 (the sealed PREREGISTRATION is unchanged) and in ERROR_LEDGER, credited.
+- **R83's relay** answers this seat's silver-state question, conditionally (R81's admission applies to a supplied smooth flat W1
+  on a compact truncation). Main's S54 (B1471) read; it does not bear on this seat's open arcs. RELAY_LEDGER rows.
+
 ## B1536 addendum beside the seal: one control's import, changed before the run
 
 - **What happened.** The banked identity ran first, as sealed, and stopped at K1 before reading anything. `control_k1.py`

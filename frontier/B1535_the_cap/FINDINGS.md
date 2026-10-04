@@ -193,6 +193,17 @@ ground. The bound of the frame's counts by the two supplies is new as swept (§ 
 - **At banking:** P6's special class (§4) is a design weakness, not an error of computation: classes meant to be generic
   were drawn with small coefficients. Logged in ERROR_LEDGER. sm:B1536 draws its classes with coefficients uniform in GF(p)
   and reads Lemma G's bounds from each rank's larger value over two draws.
+- **After banking (2026-10-04): the audit lane's R84** (`aee360ae`), an independent review of Theorem C's steps (c1) and (c2),
+  Lemma E′ and sm:B1530's Lemma T, re-derives them and agrees with the cap under its declared hypotheses. It finds one step of
+  Lemma W's proof stated too strongly (PREREGISTRATION §3): "every such class restricts non-trivially to a puncture circle".
+  - The fibration class is present only when ζ is trivial. It vanishes on the puncture circles, which lie in the fibre, and
+    restricts non-trivially to each cusp torus through the loop over the base circle.
+  - The step should read: a class with non-zero image in H¹(F_D; ζ) restricts non-trivially to a puncture circle, and the
+    fibration class to the base loop of a cusp torus.
+  - Then a class that restricts to zero on ∂N has zero image in H¹(F_D; ζ), so it is a multiple of the fibration class, and
+    that multiple restricts to zero only if it is zero. Injectivity, n(ζ) = 0 and the lemma stand.
+  - Lemma W's census (P8: n = 0 at every character of all 541 rows, ζ trivial included) and Corollaries C1–C3 are unchanged.
+  - Checked on this bench and logged in ERROR_LEDGER (a proof step stated too strongly), credited to R84.
 
 ## Files
 

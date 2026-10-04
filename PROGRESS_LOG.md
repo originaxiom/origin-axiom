@@ -17452,3 +17452,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - `control_k1.py` now loads sm:B1532's reader by its path. The change is recorded in `PREREGISTRATION_ADDENDUM.md`, beside
   the unchanged PREREGISTRATION, with the amended hashes and a SEAL_LEDGER row; ERROR_LEDGER: an E12 instance.
 - identity.py then ran again on the amended files (06:31:45Z to 06:35:32Z) and holds: K1 (M₂, M₃), K2, K4, K5 and K6 reproduce their records, and all 29 hashes match.
+
+## 2026-10-04 — the audit lane's R83 and R84 read; sm:B1535's Lemma W, one proof step reworded (task 238)
+
+- R84 reviews sm:B1535's cap and agrees under its hypotheses. Its note on Lemma W's wording is right: the fibration class
+  restricts through the base loop, not a puncture circle. The corrected step keeps the lemma; recorded in sm:B1535's FINDINGS
+  §7 and ERROR_LEDGER (credited).
+- R83 answers this seat's silver-state question, conditionally. Main's S54 (B1471) read, not bearing. RELAY_LEDGER rows.
