@@ -1833,3 +1833,20 @@ before native_field_det. All six hashes below are command-derived.
 | `reports/physical_bridge_2026_09_05/joined_background.py` | `f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7` |
 | `reports/physical_bridge_2026_09_05/joined_background_reference.py` | `22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869` |
 | `tests/test_physical_bridge_joined_background.py` | `4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420` |
+
+## Relative gluing repaired seal latest path rows October 4 2026
+
+Metadata correction before native_repaired: the previous repair block
+was inserted before its original block. Latest-row checks must see the
+repaired hashes last. This append changes no science path from50ac037b3.
+Both failed original capture and diagnostic remain preserved. Push and
+server-confirm this checkpoint before execution, not a late reseal.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/GLUING_FREEDOM_DESIGN.md` | `a6afe675ef26ddbc6b734a16d1c499726a92464def903f02f76760e19dd6165e` |
+| `reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md` | `12e2a21cf23ea31c111ff36670570e69d5a51293bd596817b0a2fe122f95b932` |
+| `reports/physical_bridge_2026_09_05/GLUING_FREEDOM_INPUTS.json` | `b2eff3b9e33c5d952711174b80331d0f0bed984fae1f87d1d97770bbcd64e02e` |
+| `reports/physical_bridge_2026_09_05/gluing_freedom.py` | `501b3c87400f198035360dc760f19937a97c3d3bf6fd7801cecf325ae20f27f9` |
+| `reports/physical_bridge_2026_09_05/gluing_freedom_reference.py` | `b66e0584e780686295e8501e9e14d5f717f62202f5797b8fcaab52432b4df80c` |
+| `tests/test_physical_bridge_gluing_freedom.py` | `4a236ff5905269806cdc507675798654164ca424cf302d526d59b516cbd68335` |
