@@ -251,6 +251,18 @@ before claiming a mechanism or repair absent.
 
 ## Full-goal obligations beyond these packages
 
+The [silver cusp test](../silver_cusp_polarization_2026_10_04/FINDINGS.md)
+completes another bounded domain screen: a uniform pure holomorphic rule
+gives (-1,0) on all four actual silver coefficients, while reproducing the
+interior (-1,-1). Thirteen focused/regression tests pass. An arbitrary
+codimension-one change restores the exterior difference, but is explicitly
+not a physical law. A post-run consequence of B1509 Proposition E identifies
+why peripheral data alone cannot distinguish these split/nonsplit exterior
+counts. This sharpens, rather than completes, the same-action/end-law task.
+The [updated branch review](../silver_cusp_polarization_2026_10_04/BRANCH_REVIEW.md)
+keeps the spin diagnostic, live cover work and pending dual join at their
+actual evidence grades. No new full-goal checkbox is discharged.
+
 - [ ] A declared spacetime/dynamical interpretation and common action.
 - [ ] Consistent quantum theory and complete anomaly bookkeeping.
 - [ ] Gravitational dynamics, not merely a spin-two representation slot.

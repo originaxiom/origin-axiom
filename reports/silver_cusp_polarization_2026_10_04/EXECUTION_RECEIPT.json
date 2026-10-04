@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-04",
+  "final_fetch_observed_utc": "2026-10-04 08:59:49 UTC",
+  "branch": "audit/fork-2026-09-20",
+  "initial_seal": "ec523543a4137fb4ed71aedcaeaf83445c4cb179",
+  "repair_seal": "b6daa183b98d4ac8a8bc668b5976eacc5189f1ff",
+  "execution": {
+    "native_first": {"exit_code": 130, "reason": "Intentional interrupt after profiling generic number-field conversion; no full member receipt"},
+    "native_second": {"exit_code": 0, "members": 4, "result": "PASS"},
+    "focused_tests": {"exit_code": 0, "passed": 13, "seconds": 44.92, "new_tests": 6, "silver_regression_tests": 7},
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/silver_cusp_polarization_2026_10_04/verify.py",
+    "pytest": "python3.12 -m pytest -q -p no:cacheprovider --import-mode=importlib reports/silver_cusp_polarization_2026_10_04/test_verify.py reports/silver_boundary_admission_2026_10_04/test_verify.py",
+    "log_pipeline": "set -o pipefail; stdout and stderr captured together with tee into fresh named files",
+    "full_repository_suite": "not run"
+  },
+  "scope": {
+    "count": "Degree-one preimage dimensions under a fixed paired cohomological end prescription",
+    "interior_difference_preserved": [-1, -1],
+    "pure_form_difference": [-1, 0],
+    "geometric_label_certification": "not independently supplied by this packet",
+    "physical_fermion_domain": "not derived",
+    "peripheral_insensitivity_consequence": "Post-run authored algebraic consequence of B1509 Proposition E, not a new population run",
+    "specialist_review": "not obtained",
+    "shared_bank_certification": "not claimed",
+    "push": "none",
+    "foreign_edits": "none"
+  },
+  "branch_heads": {
+    "art/camper-van-bar": "b3745696c11624ee60b709069e743d5f8de98f2e",
+    "audit/b775-braver-questions": "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+    "audit/physical-bridge-2026-09-05": "d1e0d0494b18cbcc1c4f16df8a93dfad2218b469",
+    "claude/determined-hopper-t1cmii": "7cda35aa468cdb0ab2886e379b13ff31130be460",
+    "claude/magical-wright-vwrmtt": "0043be2b95a51048b3a664789ede241497558e79",
+    "claude/new-session-qor5up": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+    "claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "claude/paper-verification-ufp0zn": "5dde7b3efe59ca2055de6b84395416d173b2e290",
+    "claude/physics-seat-evaluation-8dkbrl": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+    "claude/standard-model-derivation-0qt6ao": "e41609cfd6f4438c7d394bf6b0d0da5faaa0432b",
+    "codex/seat-r001": "f7a49536bc45bebc1557d3d081b6b3664a7c2199",
+    "main": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+    "paper/structure-genesis-first": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4",
+    "sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  },
+  "currency": "Two successful all-head fetches this turn; no head changed; origin/HEAD aliases main",
+  "reading_grade": "Current B1474 design/producer, B1537 findings, B1536 stub, R85 design/proof and October 1 referee sweep personally read; B1530 findings read with exact own input replay; B1535 selected mechanism/scope read; older branch tips inventoried, not wholly reread",
+  "navigation_disclosures": "Oversized initial source output was truncated and relevant bodies reread in bounded sections. Two guessed source paths failed before exact paths were read. One combined documentation patch failed context validation with no changes and was reapplied against the observed text. None is scientific evidence.",
+  "goal_status": "active and unachieved"
+}

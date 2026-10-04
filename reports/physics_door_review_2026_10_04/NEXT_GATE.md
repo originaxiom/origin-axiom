@@ -15,6 +15,19 @@ full affine action; do not infer physical chirality or refute it from that
 scalar test. The same-action/domain priority below is unchanged. R85 and
 B1536 still have no completed outcome in that snapshot.
 
+The later [cusp boundary test](../silver_cusp_polarization_2026_10_04/FINDINGS.md)
+passes its exact native run and 13 focused/regression tests. The uniform
+pure-form rule yields (-1,0), not the interior (-1,-1), on all four silver
+candidates in both conjugate cusp structures. The interior positive survives.
+A post-run consequence of B1509 Proposition E gives a first screen: a paired
+cohomological rule based only on the identical peripheral data cannot
+distinguish the split and nonsplit exterior-square counts here. A physical
+completion must identify what additional data or analytic structure earns
+that distinction. A global response or additional end fields are possibilities
+to test, not derived laws. The
+[fresh branch review](../silver_cusp_polarization_2026_10_04/BRANCH_REVIEW.md)
+records the reading grades and still-current diagnostic problems.
+
 ## Candidate and alternative
 
 Start with an existing ordered nonsplit rank-five positive, not a newly
