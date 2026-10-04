@@ -1,5 +1,16 @@
 # Changelog
 
+## B1536 addendum beside the seal: one control's import, changed before the run
+
+- **What happened.** The banked identity ran first, as sealed, and stopped at K1 before reading anything. `control_k1.py`
+  imported sm:B1532's census reader by the bare name `read_out`. `identity.py` had already imported B1536's own
+  `read_out.py`, so Python handed K1 the wrong module. The launcher did not start the run.
+- **The change.** `control_k1.py` loads sm:B1532's `read_out.py` by its path, under its own module name. The same file is
+  read and the same histogram computed.
+- **Recorded beside the seal.** `PREREGISTRATION_ADDENDUM.md` (sha-256 `6f40e363f9bcfb54…`). The PREREGISTRATION is unchanged.
+  `ARTIFACT_HASHES.txt` has the amended hashes and keeps the sealed one as a comment. ERROR_LEDGER: an E12 instance.
+- **identity.py then ran again on the amended files (06:31:45Z to 06:35:32Z) and holds: K1 (M₂, M₃), K2, K4, K5 and K6 reproduce their records, and all 29 hashes match.**
+
 ## B1536 sealed: THE FINITE COVERS — sm:B1515's frame on every connected cover of degree ≤ 12 of m004 and m003, and on their Q₈ towers
 
 - **The question.** sm:B1535's Corollary C3 leaves non-abelian covers as a place where both supplies, n(ν³ ⊗ ρ) and

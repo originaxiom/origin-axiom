@@ -1,6 +1,9 @@
 # B1536 -- sha-256 of the sealed files, recorded at the seal (before run.py read any outcome; the controls K1-K7 and the
 # dry run read banked or literature data only, and the timing tests are disclosed in section 6).
 # Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1536_the_finite_covers/)
+# Amended 2026-10-04, before run.py read anything (PREREGISTRATION_ADDENDUM.md): control_k1.py loads sm:B1532's
+# read_out.py by its path. Its sealed sha-256 was b210b2923453eeeba39197ba2b0ec44262359fe5a21ae407658cec9ad2062ca5.
+# The PREREGISTRATION is unchanged.
 eb1a17947bfab6c7ade94fda5046246fdc0e657bcd42e3cd6ba220a349f96d0d  PREREGISTRATION.md
 e07d243273216854be00d9db82404f3e341ad23adcb43811941cee5f306dfe4c  verification/cover_lib.py
 107b5f08c1afd26efd06f2b5e000860ed71a9e9afe019a230d2d967a1e94b35e  verification/gf.py
@@ -11,7 +14,7 @@ a32517959ca12617771787bdf6ca5d6c1f70d1d2145440dad394e6706f60f30c  verification/r
 2f892b8e18c6784f5b957fd5bb979c705864eb276a8b1afd9c41b94a4b5a1a7d  verification/read_out.py
 1f2295ea1363e58ae69449af5fbfd74ab742ca58a149236de1d0927761bb8e64  verification/read_out_selftest.py
 b869e7dd78fd29d8b5a0d2d4d732e826b4470a66dd0971e6eca84df0ef65bea0  verification/identity.py
-b210b2923453eeeba39197ba2b0ec44262359fe5a21ae407658cec9ad2062ca5  verification/control_k1.py
+26f85ece89f7bf292c1ce58bf3d871c6cb0906cf3344219bc1dccf456bbaffc1  verification/control_k1.py
 d87de3fbfcb35a0ef740a7b1d58d7203663173abc30523d8dd377f9277a2e06c  verification/control_k2.py
 28e7e47644c61a3e5eb99c7df8b88f03ee14c30ab296b13837f86851447b8a44  verification/control_k3.py
 6e770958406d7000ddbf169ac747052722447a6dc53616ce80d0630fd42ba414  verification/control_k4.py
@@ -29,3 +32,4 @@ de5e642a06f8dfbe3d88ef5cfd916175b136d18a2547f69162ada39df1d470c0  verification/k
 456b64f19b92fa3d557203f68ca4d95732242be554932bba257fe62fab1b44dc  verification/k6.json
 6dd7f52b3292a0c5e9b0f0daa09c35a7003c0d81458022a9e1eccc81756aa6be  verification/k7.json
 ee45ae666bba4678163e23955510df9360635d9dc6faaaa52546b9db7193391f  verification/dry_run.json
+6f40e363f9bcfb540c597414283c42f47d3572e2c95d22c5b5264e7addc2ffab  PREREGISTRATION_ADDENDUM.md

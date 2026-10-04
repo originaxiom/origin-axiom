@@ -34,11 +34,24 @@ import route_r as R  # noqa: E402
 B1532V = ROOT / "frontier" / "B1532_three_from_the_cusps" / "verification"
 
 
+def _b1532_read_out():
+    """sm:B1532's read_out.py, loaded by its path under its own module name. This arc has a read_out.py too: in a process
+    that has already imported it (identity.py does, through read_out_selftest.py), a bare 'import read_out' returns this
+    arc's module from the cache, and K1 failed there (PREREGISTRATION_ADDENDUM.md)."""
+    import importlib.util
+    name = "b1532_read_out"
+    if name not in sys.modules:
+        spec = importlib.util.spec_from_file_location(name, B1532V / "read_out.py")
+        mod = importlib.util.module_from_spec(spec)
+        sys.modules[name] = mod
+        spec.loader.exec_module(mod)
+    return sys.modules[name]
+
+
 def banked_hist(levels, tmp, cap=None):
     """sm:B1532's census histogram (route T's terms), keys (n, class, W, L2); with cap, only the subgroups of order <= cap[n]
     and only the classes c1, int and gen (the special classes are not read by this control)"""
-    sys.path.insert(0, str(B1532V))
-    import read_out as RO
+    RO = _b1532_read_out()
     path = tmp / "terms_T.jsonl"
     if not path.exists():
         with gzip.open(B1532V / "terms_T.jsonl.gz", "rb") as src, open(path, "wb") as dst:

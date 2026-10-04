@@ -17444,3 +17444,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - B1529's coverage check finished at 06:17:44Z: 37 of its 57 targets located, none of the 20 on −L⁴RLR³LR². Its record
   and the post-run read (`post_run_read.py`) are committed with this seal; B1529's FINDINGS takes them up at its bank.
 - Next: identity.py, then run.py in both routes on both states.
+
+## 2026-10-04 — B1536: the banked identity caught a harness collision; addendum beside the seal (task 237)
+
+- The identity ran at 06:28Z and stopped at K1 with an error: a bare `import read_out` returned B1536's own cached module,
+  not sm:B1532's. Nothing was read and the run did not start, as §8 requires.
+- `control_k1.py` now loads sm:B1532's reader by its path. The change is recorded in `PREREGISTRATION_ADDENDUM.md`, beside
+  the unchanged PREREGISTRATION, with the amended hashes and a SEAL_LEDGER row; ERROR_LEDGER: an E12 instance.
+- identity.py then ran again on the amended files (06:31:45Z to 06:35:32Z) and holds: K1 (M₂, M₃), K2, K4, K5 and K6 reproduce their records, and all 29 hashes match.
