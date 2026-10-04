@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-04",
+  "input_commit": "0879af92f62e3897ae9b4c5d41715fbfaf0d2f8c",
+  "seeds": [0, 1],
+  "components": [1, 2],
+  "parameter_domain": "all nonzero complex t",
+  "generic_control": 2,
+  "maximum_K_factor_degree": 12,
+  "coefficient_field": "K=Q(zeta3), zeta3^2+zeta3+1=0",
+  "common_line_source": "reports/common_hypercharge_gate_2026_09_27/INPUTS.json",
+  "component_source": "reports/global_quotient_admission_2026_09_27/COMPONENT_RESULTS.json",
+  "required_coefficient": "u = E L^-4; Q = E L screens nontrivial meridian lines",
+  "scope": "four phase families and one honest common flat line; necessary net-three linear condition, not all backgrounds or physical TOE"
+}

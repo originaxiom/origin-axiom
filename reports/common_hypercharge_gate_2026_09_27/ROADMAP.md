@@ -5,13 +5,20 @@ TOE exists in the framework or can be completed on a schedule.
 
 ## Objective and completion standard
 
-Find a single coherent predictive physical realization of the generated
-architecture, or identify the precise additional inputs and conflicts.
+Derive a parameter-free Standard Model from Origin Axiom principles and
+build a full physical theory, as explicitly updated by the owner on
+2026-10-04. Identify additional inputs and conflicts as research findings;
+that diagnosis alone is not an alternative completion of this objective.
 Do not require a uniquely selected vacuum before doing physics; do require
 consequences not independently retuned to match each desired result.
 An exact algebraic index, supplied effective action, or classical solution
 alone is not the full goal. The original 22 opportunities remain research
 opportunities, not 22 established breakthroughs.
+
+The [goal contract](../phase_common_line_2026_10_04/GOAL_CONTRACT.md) records
+the necessary completion obligations and the currently supplied physical
+inputs. A candidate spectrum at a freely chosen parameter is not a
+parameter-free derivation. No completion claim is made by this roadmap.
 
 ## Verified prerequisites in this fork
 
