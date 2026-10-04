@@ -1850,3 +1850,22 @@ server-confirm this checkpoint before execution, not a late reseal.
 | `reports/physical_bridge_2026_09_05/gluing_freedom.py` | `501b3c87400f198035360dc760f19937a97c3d3bf6fd7801cecf325ae20f27f9` |
 | `reports/physical_bridge_2026_09_05/gluing_freedom_reference.py` | `b66e0584e780686295e8501e9e14d5f717f62202f5797b8fcaab52432b4df80c` |
 | `tests/test_physical_bridge_gluing_freedom.py` | `4a236ff5905269806cdc507675798654164ca424cf302d526d59b516cbd68335` |
+
+
+## Parent gluing character pre execution seal October 4 2026
+
+R87 actual R85 mixed loop, full supplied E8 adjoint character, all three
+characters over K. Recompute whole root roster and exact polynomial;
+not empirical physics, genesis selection or a gauge-equivalence classifier.
+Six command-derived hashes below. Push and exact-server confirmation
+required before first import, collection or execution. Reference same
+author; source/analytic/physical obligations retained in design/proof.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_DESIGN.md` | `c7e471d8904d6ecf1b1f6a99d9de5e9711ca35e5dc676cbc91f27f6942f3b7a9` |
+| `reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md` | `cc963aa5777732531038806c728dddae103ed0faa69b6c12f045a3a717151c60` |
+| `reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_INPUTS.json` | `885c60f53faaeb37ae3189b3204dba784cadf2cd6813736b2c916ca566f38842` |
+| `reports/physical_bridge_2026_09_05/parent_gluing_character.py` | `2d01c892b75acac30355aefed48af400e9e4376510c02033811d7d9c2048a0c9` |
+| `reports/physical_bridge_2026_09_05/parent_gluing_character_reference.py` | `f7608983681f6ba96ff2d985de0406e442615f8ca526c134c7e821b082d61ba9` |
+| `tests/test_physical_bridge_parent_gluing_character.py` | `8c594148d50a95dfd8a42e869f0fa64e4eb6b117b04296fd3f233a4e8f664a35` |

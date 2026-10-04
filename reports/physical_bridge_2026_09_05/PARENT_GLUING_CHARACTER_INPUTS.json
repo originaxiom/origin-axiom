@@ -1,0 +1,20 @@
+{
+  "baseline": "c0f162fdcb3197d2290e1357f91cc12c8507650d",
+  "field": "Q[q]/(q^6-34*q^3+1)",
+  "characters": [[0,1],[1,1],[1,0]],
+  "loop": "xa, left x times bent right x",
+  "parameter": "X=t^-5",
+  "t_values": ["1","2","3","1/2"],
+  "reference_prime_roots": [[1031,695],[1033,162]],
+  "torus_fixture": ["2","3","5","7","1/210"],
+  "local_pins": [
+    {"path":"reports/physical_bridge_2026_09_05/gluing_freedom.py","sha256":"501b3c87400f198035360dc760f19937a97c3d3bf6fd7801cecf325ae20f27f9"},
+    {"path":"reports/physical_bridge_2026_09_05/joined_background_reference.py","sha256":"22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869"},
+    {"path":"reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md","sha256":"082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"},
+    {"path":"reports/physical_bridge_2026_09_05/coefficient_parent.py","sha256":"0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe"},
+    {"path":"reports/physical_bridge_2026_09_05/neutral_continuity.py","sha256":"649a98ef1032a2986276f949a32af8047e5caa3ed115eca757f91e8750c1ac81"}
+  ],
+  "prior_art": ["R40 complete parent", "R52 full parent detector", "B598", "B1113"],
+  "supplied": ["carrier/join", "coefficient", "base metric", "parent/embedding", "bare action/couplings", "physical field dictionary"],
+  "not_derived": ["genesis joining/selection law", "physical Weyl chirality", "normalized interactions", "quantum dynamics", "gravity", "observer or qualia"]
+}
