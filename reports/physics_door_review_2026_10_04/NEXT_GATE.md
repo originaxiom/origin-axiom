@@ -5,7 +5,19 @@ new calculation, a derived source law or a completed physical theory.
 It uses the audit to stop cross-model substitutions and redundant scans.
 The goal remains a parameter-free Standard Model and full physical theory.
 
-Latest update: the [boundary variation and branch packet](../silver_boundary_variation_2026_10_04/FINDINGS.md)
+Latest update: the [cyclic boundary completion](../silver_cyclic_boundary_2026_10_04/FINDINGS.md)
+checks neutral structure cohomology and a bracket-closed graded boundary
+construction with k equal to constant gauge sl5. All four candidates and
+split controls pass; ten focused/regression tests pass. Its charged
+completion gives (0,-1), not the interior (-1,-1). Algebraic closure is
+possible, but this choice does not solve the matched spectrum or derive
+a physical boundary domain. The [branch update](../silver_cyclic_boundary_2026_10_04/BRANCH_REVIEW.md)
+verifies the SM coverage repair at 090ac4c08; raw prediction flags still
+require route agreement and valid root identities. R88 is now published
+and read at report/proof grade, not replayed here; R89's domain audit is
+sealed. These supersede the older statuses below, not their receipts.
+
+Earlier update: the [boundary variation and branch packet](../silver_boundary_variation_2026_10_04/FINDINGS.md)
 preserves all four silver candidates at the necessary paired holomorphic
 boundary-form test. The partial degree-zero gauge screen is not closed
 in any nonsplit case, so it cannot serve as the full gauge algebra.
@@ -154,7 +166,11 @@ boundary variations, compact reality and differential domain together.
 Nonzero products can be interactions rather than exclusions of linear
 fluctuations; the smooth quartic control verifies that distinction without
 claiming physical silver admission. One common interacting boundary law
-must replace favorable sector choices.
+must replace favorable sector choices. The cyclic completion above is a
+concrete cohomological alternative with nonzero brackets, not yet that
+physical law. Its next duty is a smooth real lift with the actual gauge
+quotient, fermion adjoint domains and full action variation, retaining
+the spectrum cost instead of projecting it away.
 
 The [full-degree and Hessian follow-up](../free_boundary_completion_2026_10_04/FINDINGS.md)
 now supplies two additional controls, not a completed physical domain:

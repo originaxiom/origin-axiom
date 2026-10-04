@@ -22,6 +22,14 @@ parameter-free derivation. No completion claim is made by this roadmap.
 
 ## Verified prerequisites in this fork
 
+Latest [boundary and branch update](../silver_cyclic_boundary_2026_10_04/FINDINGS.md):
+the full-parent graded cohomology admits a declared bracket-closed boundary
+choice on all four silver candidates, with ten tests passing, but its
+charged counts are (0,-1), not the matched interior pair. A smooth physical
+domain and generated end/source law remain the next construction. The SM
+coverage repair is verified; the physical seat's new compact kinetic
+result is read at authored analytic grade, not independently replayed here.
+
 - [x] Refresh other branches, separate inherited reports from replayed results.
 - [x] Distinguish the generated architecture from one obligatory carrier.
 - [x] Distinguish geometric deck action from a holonomy matrix cube.
