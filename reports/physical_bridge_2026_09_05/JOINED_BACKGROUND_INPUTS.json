@@ -1,0 +1,17 @@
+{
+  "baseline": "13392a6fbec1aa1e0c704caf2744de7002c81bfc",
+  "field": "Q[q]/(q^6-34*q^3+1)",
+  "characters": [[0,1],[1,1],[1,0]],
+  "count_representative": [0,1],
+  "join": "opposite oriented compact cores; marked torus -I",
+  "local_pins": [
+    {"path":"reports/physical_bridge_2026_09_05/cross_branch_positives.py","bytes":11672,"sha256":"57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731"},
+    {"path":"reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md","bytes":9845,"sha256":"f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685"},
+    {"path":"reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md","bytes":7852,"sha256":"082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"}
+  ],
+  "paper": {"url":"https://arxiv.org/pdf/2109.01776v1","local_path":"/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-source-admission.BkJPlL/wu_zhang_2109.01776v1.pdf","bytes":348137,"sha256":"85102039003f3d00250f957f36e75e3fa2804e2c5a815205371577326a279111"},
+  "reference_primes": [1009,1013,1019,1031,1033,1039,1049,1051,1061,1063],
+  "reference_grade": "same author; separate modular witness verifier, not a second exact K proof",
+  "physical_inputs": ["carrier/join","smooth base metric","coefficient","E8/action/couplings","regular A4 map","charged field dictionary"],
+  "uncomputed": ["neutral H1","normalized profiles/interactions","selected vacuum","chiral physical SM","gravity","quantum theory","genesis selection"]
+}

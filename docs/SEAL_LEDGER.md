@@ -1747,3 +1747,21 @@ Push and server-confirm before execution. Full mission remains active.
 | `reports/physical_bridge_2026_09_05/rigidity_transport.py` | `3b1e25f911176aec2dc2e2d9a577570c102853d3942cd51d26695691a46d3ff6` |
 | `reports/physical_bridge_2026_09_05/rigidity_transport_control.py` | `6e63eac0b39f80e652b0f16140b215821602cace40fb5e27a72b771cff08de32` |
 | `tests/test_physical_bridge_rigidity_transport.py` | `9c15f1f368dfba4309eaa7f287d4a19f8f974c962980df57833fbaa4a245aab6` |
+
+## R85 actual rank-five/dual compact join, 2026-10-04
+
+Pre-execution six-path seal. Prior art B582/B1036/B1086 and R75/R76/R81
+retained; no originality/empirical/whole-architecture negative claim.
+Exact three-character matching/Mat5 and representative charged counts;
+separate same-author modular witness verification. External theorem and
+authored analytic application, not nonauthor physical certification.
+Push/server-confirm before import; full physics mission ACTIVE.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_DESIGN.md` | `a44c7daa79148c6a1357baec362494ea3e37233306ae6d64e9915585807543be` |
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md` | `e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816` |
+| `reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_INPUTS.json` | `608d676f93d188e716788986345df5e2f8489c7c606849ef38ddbacb6d5ede6b` |
+| `reports/physical_bridge_2026_09_05/joined_background.py` | `9d55048917f2df9035988d5f50b1faa2cb38a4a41e65666b07ba8bfae106535e` |
+| `reports/physical_bridge_2026_09_05/joined_background_reference.py` | `22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869` |
+| `tests/test_physical_bridge_joined_background.py` | `4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420` |
