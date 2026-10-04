@@ -4608,3 +4608,23 @@ same-theory physical action/domain join; full SM/TOE remains unachieved.
 - PB-REVIEW: new sender relay R84 OPEN.72/20 local predicates and14
   focused tests pass; these are not a full suite, classical-proof
   reproof, independent acceptance of our proof or a TOE certificate.
+
+## October4 R86 neutral freedom and next physical duties
+
+- PB-NEUTRAL: the specific R85 join now has verified h1(End0 E)>=4 and
+  b1=1. Closing scope: GLUING_FREEDOM_PROOF.md, peripheral bend injection
+  on the actual supplied join; not a full neutral census or observed
+  particle count. Complete same-model roster and normalized kinetics owed.
+- PB-RELATION: C(t) changes a mixed trace but retains bare V=0, so admission
+  alone does not choose this relative coordinate. Derive how genesis's
+  act/register relation generates a join and governs its relative data;
+  do not turn mathematical allowance into physical coexistence or qualia.
+  Multiple vacua are not a no-go for parameter-free theories.
+- PB-PHYSICS: retain R85 charged2/2 and exterior2/2, su5 not SM. Earn the
+  common Weyl/operator/domain and actual interaction law; no arbitrary
+  adjoint VEV or fitted quartic substitutes for derived selection.
+- PB-COORDINATION: mainv1.10 canonical/SM B1537 edits proposed. Main B1474
+  is a sealed parallel spin test, not an executed result. R83 has not
+  computed actual d(q0). Sender R86 relay requests independent algebra,
+  analytic and dictionary review plus generated relation; no acceptance
+  assigned by sender. Full SM/TOE objective ACTIVE/unachieved.

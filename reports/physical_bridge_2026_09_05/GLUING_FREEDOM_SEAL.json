@@ -1,0 +1,37 @@
+{
+  "science_seal": "b07498dce75a74e795a52d13e65f8599be15b50d",
+  "scientific_repair": "50ac037b31b88e91b93e14afa8de56cd652040e9",
+  "failed_original_seal": "320c92fc074dc5f5cf3bd2f22c4b10bc0f93e7bc",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLUING_FREEDOM_DESIGN.md",
+      "bytes": 6948,
+      "sha256": "a6afe675ef26ddbc6b734a16d1c499726a92464def903f02f76760e19dd6165e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md",
+      "bytes": 5865,
+      "sha256": "12e2a21cf23ea31c111ff36670570e69d5a51293bd596817b0a2fe122f95b932"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLUING_FREEDOM_INPUTS.json",
+      "bytes": 2018,
+      "sha256": "b2eff3b9e33c5d952711174b80331d0f0bed984fae1f87d1d97770bbcd64e02e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/gluing_freedom.py",
+      "bytes": 9226,
+      "sha256": "501b3c87400f198035360dc760f19937a97c3d3bf6fd7801cecf325ae20f27f9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/gluing_freedom_reference.py",
+      "bytes": 7482,
+      "sha256": "b66e0584e780686295e8501e9e14d5f717f62202f5797b8fcaab52432b4df80c"
+    },
+    {
+      "path": "tests/test_physical_bridge_gluing_freedom.py",
+      "bytes": 1906,
+      "sha256": "4a236ff5905269806cdc507675798654164ca424cf302d526d59b516cbd68335"
+    }
+  ]
+}

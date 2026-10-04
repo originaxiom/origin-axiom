@@ -16812,3 +16812,31 @@ four inherited FAIL categories. Source/PDF/receipt custody scoped to R85;
 no full suite/main bank/independent analytic acceptance. Sender OPEN relay
 asks for generated law and review, not recipient-assigned banking. Full
 physics mission active, no B/I numbers allocated or foreign files edited.
+
+## 2026-10-04 R86 actual neutral modes and measurable relative gluing
+
+The admitted R85 join has opposite full21-dimensional piece parabolics,
+peripheral centralizer5/traceless4 and four neutral bending classes
+independent of global coboundaries (ranks24 to28) at all three characters.
+Actual trivial H1=1. C(t)=diag(tI4,t^-4) changes only the right piece;
+full Mat5 and same-action compact admission persist for every nonzero t.
+The actual mixed loop xa has nonconstant exact trace constant+c*t^-5,
+c nonzero. Both bare residuals stay zero; measurable freedom is not
+physical selection. Charged R85 pairing/su5 remain, not a chiral SM.
+
+84 exact/141 modular predicates and12 focused tests pass under repaired
+science checkpoint b07498dce pushed/server-confirmed before revised
+execution. Original320c92fc0 failed76/84 from field-zero comparisons and
+rank-two/rank-one control mismatch; diagnosis and original logs preserved.
+No scientific criterion changed; latest-row metadata corrected pre-run.
+B598/B1113 predecessors credited. Six scientific paths/receipts, source
+pins and primary PDF custody checked; same-author modular reference and
+authored analytic proof, not nonauthor/full-suite/main banking.
+
+Fresh main cb09deb04/SM e41609cf received; canonical genesisv1.10 and
+proposed B1537 changes kept distinct, B1474 only sealed. Source/quartic
+request not silently answered by an uncomputed numeric d(q0). Sender
+relay R86 OPEN asks independent review and actual generated registering
+law with both field variations. Living fronts now include R85/R86.
+Governance26 PASS/four inherited FAIL categories, not all green. Full
+parameter-free SM/TOE remains active and unachieved.

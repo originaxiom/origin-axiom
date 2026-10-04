@@ -1,9 +1,18 @@
-# Verdict toward the full physical-theory goal - R85, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R86, updated 2026-10-04
 
-Post-publication: ea36d672 pushed; fresh SM9fc9a572 acknowledges the cap
-review/base-loop correction, not main banking or our census acceptance.
-That intake's actual rank-five/dual test is now executed in R85, below.
-Its successful admission does not produce net chirality. Full SM/TOE active.
+R86 verifies the admitted model's neutral freedom, not a program-wide
+negative. Four right-only bending classes survive global coboundaries,
+and H1(trivial)=1. An explicit relative family stays admitted at V=0 while
+its mixed loop trace varies. Admission and a readable coordinate do not
+select a physical vacuum. Multiple vacua are allowed in parameter-free
+theories. Generated dynamics and the physical dictionary must account
+for these degrees of freedom before claiming predictions.84 exact/
+141 separate modular predicates and12 tests pass at repaired pre-run
+checkpoint b07498dce; original failure preserved. GLUING_FREEDOM.md has
+scope/proof. Main cb09deb04/SM e41609cf received, not foreign results
+recertified; canonical genesisv1.10 and proposed amendments are distinct.
+Full parameter-free SM/TOE remains active, unachieved and not replaced
+by this bounded mathematical milestone.
 
 **October4 R85: actual joined coefficient is globally irreducible and admitted conditionally.**
 All three R75 orbit characters match their literal dual across marked

@@ -1,10 +1,21 @@
 # Physical bridge audit — 2026-09-05
 
-October4 post-R84: publication ea36d672 pushed/server-confirmed. Fresh
-main e90b4f7e and SM9fc9a572 received; the cap review/base-loop correction
-acknowledged on the SM branch, not main banking. Next admission candidate
-and input prices: ARCHITECTURE_ADMISSION_INTAKE_2026_10_04.md. Its bounded
-double test is now executed in JOINED_BACKGROUND.md; old positives retained.
+October4 R86: the actual admitted R85 join has h1(End0 E)>=4 at each
+tested character and b1=1. A relative family changes the mixed loop
+trace while the same bare potential stays zero. These are measurable
+model degrees of freedom, not a selected SM vacuum or observer.
+84 exact/141 modular/12 focused checks pass at pre-run repaired
+checkpoint b07498dce; failed original and diagnosis retained. Report:
+GLUING_FREEDOM.md. B598/B1113 predecessors credited, no originality claim.
+Join/metric/action/dictionary remain supplied. Admission is not selection;
+multiple vacua do not rule out parameter freedom. Full SM/TOE ACTIVE.
+
+Fresh main cb09deb04 and SM e41609cf received. Main genesisv1.10 is
+canonical; SM's B1537 amendments are proposals. B1474 is a sealed spin
+plan, not a result. No foreign census/analytic certificate assigned on
+receipt. Independent review, generated relation and common physical
+fermion/operator/interaction law remain duties. The earlier admission
+intake is executed in JOINED_BACKGROUND.md; old positives retained.
 
 October4 R85: actual R75 nonsplit coefficients and their duals match
 across marked torus -I, with full Mat5 on all three characters. Compact

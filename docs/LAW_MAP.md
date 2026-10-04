@@ -1,5 +1,17 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October4 path-local R85/R86 research lemmas, not new B-law banking:
+
+| Conditional result | Exact scope and evidence |
+|---|---|
+| Joined admission | Actual three-character R75/dual torus join has full Mat5; compact harmonic theorem and same-action transport apply to supplied carrier/metric/parent. Representative charged2/2 and exterior2/2, gauge su5 not SM. reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md; tests/test_physical_bridge_joined_background.py. |
+| Neutral bend injection | Opposite piece algebras21, traceless peripheral centralizer4, coboundary rank24 raised to28 give h1(End0 E)>=4; trivial H1=1. Relative scaling preserves admission but changes a mixed loop trace. reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md; tests/test_physical_bridge_gluing_freedom.py;84 exact/141 modular predicates and12 focused tests pass at repaired pre-run checkpoint b07498dce. |
+
+B598/B1113 predecessors credited. These are supplied-model positives,
+not generated laws, physical-particle identifications or selected SM
+vacua. Multiple vacua are not a parameter-free no-go; independent
+analytic/full-suite/main-bank acceptance is owed. Full SM/TOE active.
+
 October4 path-local R84: B1535(c1,c2)'s finite-character ADJOINT
 rigidity transport reviewed, not rediscovered. Nonzero local cyclic-
 parabolic torus classes retained; their GLOBAL extension is excluded

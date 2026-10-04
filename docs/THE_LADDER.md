@@ -1,5 +1,20 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R85/R86: the actual nonsplit rank-five/dual join spans Mat5
+and is conditionally admitted on the supplied compact carrier in the
+same action. Charged representative2/2 and exterior2/2 stay paired;
+gauge su5, not SM. Neutral h1(End0 E)>=4 and b1=1 are now verified.
+Relative gluing changes a loop trace while bare V=0. This is measurable
+freedom, not a generated selector or physical observer. Multiple vacua
+are not a parameter-free no-go. Report/proof and input prices:
+reports/physical_bridge_2026_09_05/GLUING_FREEDOM.md and JOINED_BACKGROUND.md.
+84 exact/141 same-author modular predicates and12 tests pass after
+repaired pre-run checkpoint b07498dce; failed original retained.
+Independent analytic/full-suite/main-bank acceptance is owed. Next earn
+the registering/joining law and common physical field/operator dynamics.
+Canonical main genesisv1.10 received; SM B1537 changes are proposals.
+Full parameter-free SM/TOE is active and unachieved.
+
 **October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
 B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial
 cusp case. A local adjoint class can be cyclic-parabolic yet nonzero

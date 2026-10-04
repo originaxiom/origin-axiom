@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-04 R86 relative gluing freedom and neutral modes
+
+Actual admitted R85 join has h1(End0 E)>=4 at all three characters,
+b1=1, and a gauge-inequivalent relative family with changing mixed loop
+trace and unchanged bare V=0.84 exact/141 separate modular predicates
+and12 focused tests (6 new,6 R85) pass after repaired checkpoint b07498dce
+was pushed/server-confirmed before execution. Original failed instrument
+run and diagnosis preserved; no criterion change or full-suite claim.
+GLUING_FREEDOM.md records the measurable conditional positive and input
+prices, not a selected SM phase. B598/B1113 prior work credited. Main
+canonical genesisv1.10 and SM proposals retained distinctly. Independent
+review, generated relation and physical operator/interaction duty remain;
+full parameter-free SM/TOE active. Ladder/framework/law fronts include
+R85 admission and R86 neutral freedom, avoiding buried positives.
+
 ## 2026-10-04 R85 actual rank five dual join and physical admission
 
 Repaired science d1e0d049 pushed/server-confirmed before60 exact,
