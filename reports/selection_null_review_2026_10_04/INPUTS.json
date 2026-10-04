@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-04",
+  "foreign_commit": "0043be2b95a51048b3a664789ede241497558e79",
+  "foreign_paths": ["docs/THE_BAR.md", "frontier/B1518_the_bar/verification/null_model.py"],
+  "foreign_read_scope": "Full THE_BAR; relevant producer documentation, sidak definition and self-test excerpts, not full producer audit",
+  "independent_digit_population": 10,
+  "dependent_population": 100000,
+  "dependent_event_size": 501,
+  "threshold": "1/100",
+  "without_replacement_population": 5,
+  "without_replacement_hits": 1,
+  "without_replacement_draws": 2,
+  "exhaustive_union_space_size": 5,
+  "primary_documentation": [
+    "https://www.graphpad.com/guides/prism/latest/statistics/stat_the_method_of_bonferroni.htm",
+    "https://stat.ethz.ch/CRAN/web/packages/DiscreteFWER/refman/DiscreteFWER.html"
+  ],
+  "particular_foreign_verdict_recomputed": false,
+  "physical_null_model_derived": false
+}

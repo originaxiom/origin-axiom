@@ -1,0 +1,25 @@
+{
+  "pre_execution": true,
+  "date": "2026-10-04",
+  "parent": "5cfa6bee8db1982213cccf4f62fbb99acc943cd9",
+  "local_science_sha256": {
+    "reports/selection_null_review_2026_10_04/DESIGN.md": "03a946049977b8a5a2a611a95909f8cc3c853d1db7142ddb85b5c000ff68338d",
+    "reports/selection_null_review_2026_10_04/PROOF.md": "79b80beb8cd6d3cf30b523141d597b8b05849df213eeb11809ad629cf1ce2ca3",
+    "reports/selection_null_review_2026_10_04/INPUTS.json": "8e016e71376f28416cb5f1a6a13a9b7a4930e9d148354f70a08ba584b95e553e",
+    "reports/selection_null_review_2026_10_04/verify_selection.py": "f78d113aaa61abd9a4b12c841bdcda166bd8cd278d3ccf914441a30d841dcea8",
+    "reports/selection_null_review_2026_10_04/test_selection.py": "a8121794c1411312f8859b9b6fa30d2e0c82a1d1565aa79ce583466980d2911b"
+  },
+  "foreign_source_pins": [
+    {
+      "commit": "0043be2b95a51048b3a664789ede241497558e79",
+      "path": "docs/THE_BAR.md",
+      "sha256": "c2b87d04692a78460d5228a6c682a3808191163a58671ca1959ef250114a6275"
+    },
+    {
+      "commit": "0043be2b95a51048b3a664789ede241497558e79",
+      "path": "frontier/B1518_the_bar/verification/null_model.py",
+      "sha256": "31e3630ba2285d718be9b49807f9e397defdf14af780fd3768a7414d2755c530"
+    }
+  ],
+  "independent_review": false
+}

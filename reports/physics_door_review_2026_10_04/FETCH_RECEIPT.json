@@ -1,0 +1,56 @@
+{
+  "fetch": {
+    "chunk_id": "00d485",
+    "wall_time_seconds": 0.667553257,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "branch_inventory": {
+    "chunk_id": "a95623",
+    "wall_time_seconds": 0.000012324,
+    "exit_code": 0,
+    "original_token_count": 294,
+    "output": "origin/HEAD e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d\norigin/art/camper-van-bar b3745696c11624ee60b709069e743d5f8de98f2e\norigin/audit/b775-braver-questions 53da05f6c545edf62ba7ff6d7d001aa1c2642320\norigin/audit/physical-bridge-2026-09-05 ea36d6725d238950bcdafa6dcd7113de06a92ad7\norigin/claude/determined-hopper-t1cmii 7cda35aa468cdb0ab2886e379b13ff31130be460\norigin/claude/magical-wright-vwrmtt 0043be2b95a51048b3a664789ede241497558e79\norigin/claude/new-session-qor5up 3851df2aa683b67ba3f5c4976f4371c3bd22716e\norigin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954\norigin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd\norigin/claude/paper-verification-ufp0zn 5dde7b3efe59ca2055de6b84395416d173b2e290\norigin/claude/physics-seat-evaluation-8dkbrl 659487bbd93c7990c4686a8b86985b6b66efedc4\norigin/claude/standard-model-derivation-0qt6ao 9fc9a572f39c61ef44cfeb30acf59ea675af2274\norigin/codex/seat-r001 f7a49536bc45bebc1557d3d081b6b3664a7c2199\norigin/main e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d\norigin/paper/structure-genesis-first a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4\norigin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5\n"
+  },
+  "checkout_changed": false,
+  "foreign_ledger_changed": false,
+  "push_performed": false,
+  "source_pins": [
+    {
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+      "path": "GENESIS.md",
+      "sha256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8"
+    },
+    {
+      "commit": "3205984b48d1b98a80042cdc70916878973980f5",
+      "path": "frontier/xB011_the_family_odd_sector/verification/family_odd.py",
+      "sha256": "505a8f3f71ac8c82cc769a5c6f0cedb3aed0352ed47617006e3b802673183eff"
+    },
+    {
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+      "path": "frontier/B1466_the_two_orders_and_the_register_bit/verification/c3b_mixed_module.py",
+      "sha256": "4a0a29bde7fcc1aa0c541f5bc3185d175c29d73a2b657bb61ceaf7b72ecea683"
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "frontier/B1531_the_symmetric_phase/FINDINGS.md",
+      "sha256": "a68cd196f1c1444473cd9a233ebfad8cc59c811e73dfafd1d819a5f18a07073c"
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "frontier/B1535_the_cap/PREREGISTRATION.md",
+      "sha256": "c0803c0c9c72eac9e8cfe3c0980db2b75f3aa9bce1fcea3c59c7c47b5a902104"
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52"
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT.md",
+      "sha256": "4972b8a53d65c14861b4918b753743d7a324f3f1563556a2377ebe86d3a119a0"
+    }
+  ]
+}

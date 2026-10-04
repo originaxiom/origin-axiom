@@ -1,0 +1,374 @@
+{
+  "local_branch": "audit/fork-2026-09-20",
+  "execution_seals_preceded_imports": true,
+  "scientific_source_repairs_after_first_run": false,
+  "scientific_source_hashes_unchanged": true,
+  "local_source_hash_receipt": {
+    "chunk_id": "f0465c",
+    "wall_time_seconds": 0.000013538,
+    "exit_code": 0,
+    "original_token_count": 1048,
+    "output": "94f2f1c94d18d8dffa6d74131af0fe3c1253156a1018484f83f67e5314c0394c  reports/phase_common_line_2026_10_04/GOAL_CONTRACT.md\n1d47c33eaf2337789c37892d34bd595ed645a9960227767680e80b6ca4b6bc63  reports/phase_common_line_2026_10_04/DESIGN.md\n45f5149860a1100f0996e4f87b6f6bf14bf0e63d5f26671081ca9dc77c85e9e0  reports/phase_common_line_2026_10_04/PROOF.md\nda162c9124871f46c35e5b4fca9a0853434a64bf1f9dae7c8812b98b074b54d7  reports/phase_common_line_2026_10_04/INPUTS.json\nbbe77ab3c9ff9d1d22e6ec44fd1cd93271fe0f629eeb3012365864019a92ea36  reports/phase_common_line_2026_10_04/verify_phase_line.py\ne4c256e831f58a07bc8f4b7c2454cc7ceaa420bbfa84cd6a7ebe77f4786ae478  reports/phase_common_line_2026_10_04/test_phase_line.py\n4dafb670e2e0fba6bcb93b726975fe9a2db40b4b13b2764a2e2456e3c97b538b  reports/common_hypercharge_gate_2026_09_27/DESIGN.md\nc74f705d3ee3ed9c51d484fbd16b207b72dd46ac4359c6c98f0c7361b5a82e47  reports/common_hypercharge_gate_2026_09_27/PROOF.md\n3e0a90fe4a9b2d8b702c43ae860cfb572298ef1dc73b06802da4b33d33aaa849  reports/common_hypercharge_gate_2026_09_27/INPUTS.json\n6cb93f192cc49f2ef8ad6de4c810b4f76fe89f89c65895ec7b126c0bbdab0af0  reports/common_hypercharge_gate_2026_09_27/verify_common_line.py\nbeae7d17063b120ff40acbf062a382b8a55377e7dea6963f6e78bd648eedd071  reports/common_hypercharge_gate_2026_09_27/test_common_line.py\n7903204d86ca0fcb9d70c5fa308719d80dff582290b585fe6362de467a784e0f  reports/monomial_matter_locus_2026_09_27/verify_matter_locus.py\na9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0  reports/monomial_exceptional_locus_2026_09_27/INPUTS.json\n939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9  reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\n0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4  reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\ncc7a54fe6010327b8f18d51eb97aaa3dbcc2ada0d01689d427098df8397d9f92  reports/phase_component_matter_2026_10_04/DESIGN.md\nf2bd615047ee80dbd52ef50e43cec7c778a333865f05aaff004e2cbaee525588  reports/phase_component_matter_2026_10_04/INPUTS.json\n34e0986ba9a22da86ce7fab25be453fc842af44636170615398119ed3c5056e5  reports/phase_component_matter_2026_10_04/verify_matter.py\n0291baf1525a982be195ab1decd7fd6d97b31fc249bd6d77ecb1977c970117d0  reports/phase_component_matter_2026_10_04/test_matter.py\nf99f58b43c827cea696097c45bb027503b9208ca531608969a49f73f420b39fa  reports/global_quotient_admission_2026_09_27/COMPONENT_RESULTS.json\n867847e64f1b47054f0f6b2cf93a5f3fe11f590eed946516adb515b08153845b  reports/global_quotient_admission_2026_09_27/verify_monomial_lifts.py\n5c1814e29edc0e9fb82e4c6c3816fd38e1827d97d35b00f022a212dcc9107e95  reports/global_quotient_admission_2026_09_27/verify_admission.py\nedd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f  reports/m6_parent_admission_2026_09_27/verify_parent_admission.py\n5341a2d1ef51a9e0b1e2ac2a4a90bd94d9d0836c69367953ec06566e78b9c95b  reports/phase_component_matter_2026_10_04/RESULTS.json\n1629397799628717d758e6479fe67616e6280d21180b7d85cbbc99fad987c27e  reports/physics_door_review_2026_10_04/DESIGN.md\ncb185dabb7f4df693bf63ce69aa7ea98ff78ccb741c1542983cb0e20046b2ed7  reports/physics_door_review_2026_10_04/PROOF.md\nbe262c0df897425fc2b3eafac78d90036a1ff4a8a2cd4da38a0d31e3ae452eba  reports/physics_door_review_2026_10_04/INPUTS.json\n4fccde44e35e36910c136cc87a81c1476f89c238dd9838341729cb432db6783c  reports/physics_door_review_2026_10_04/verify_door.py\n1cf1b5a73740738858a0cf9fd9eae28104f6ddfb165dfd0bcb9905d703d2a80c  reports/physics_door_review_2026_10_04/test_door.py\n"
+  },
+  "foreign_source_hash_receipts": [
+    {
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+      "path": "GENESIS.md",
+      "sha256": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8",
+      "receipt": {
+        "chunk_id": "4778a4",
+        "wall_time_seconds": 0.000020665,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "b3ac6129e6e63ed409c38a7f6fa603767da2194916ffb89463bb15ed3a45b6a8  -\n"
+      },
+      "unchanged": true
+    },
+    {
+      "commit": "3205984b48d1b98a80042cdc70916878973980f5",
+      "path": "frontier/xB011_the_family_odd_sector/verification/family_odd.py",
+      "sha256": "505a8f3f71ac8c82cc769a5c6f0cedb3aed0352ed47617006e3b802673183eff",
+      "receipt": {
+        "chunk_id": "df8e3e",
+        "wall_time_seconds": 0.000013402,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "505a8f3f71ac8c82cc769a5c6f0cedb3aed0352ed47617006e3b802673183eff  -\n"
+      },
+      "unchanged": true
+    },
+    {
+      "commit": "e90b4f7e8b5bc9332f05357fd0ed5b87d3a3ad4d",
+      "path": "frontier/B1466_the_two_orders_and_the_register_bit/verification/c3b_mixed_module.py",
+      "sha256": "4a0a29bde7fcc1aa0c541f5bc3185d175c29d73a2b657bb61ceaf7b72ecea683",
+      "receipt": {
+        "chunk_id": "aae3d5",
+        "wall_time_seconds": 0.000013801,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "4a0a29bde7fcc1aa0c541f5bc3185d175c29d73a2b657bb61ceaf7b72ecea683  -\n"
+      },
+      "unchanged": true
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "frontier/B1531_the_symmetric_phase/FINDINGS.md",
+      "sha256": "a68cd196f1c1444473cd9a233ebfad8cc59c811e73dfafd1d819a5f18a07073c",
+      "receipt": {
+        "chunk_id": "5f83b3",
+        "wall_time_seconds": 0.000013252,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "a68cd196f1c1444473cd9a233ebfad8cc59c811e73dfafd1d819a5f18a07073c  -\n"
+      },
+      "unchanged": true
+    },
+    {
+      "commit": "9fc9a572f39c61ef44cfeb30acf59ea675af2274",
+      "path": "frontier/B1535_the_cap/PREREGISTRATION.md",
+      "sha256": "c0803c0c9c72eac9e8cfe3c0980db2b75f3aa9bce1fcea3c59c7c47b5a902104",
+      "receipt": {
+        "chunk_id": "3ad063",
+        "wall_time_seconds": 0.000015789,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "c0803c0c9c72eac9e8cfe3c0980db2b75f3aa9bce1fcea3c59c7c47b5a902104  -\n"
+      },
+      "unchanged": true
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52",
+      "receipt": {
+        "chunk_id": "3be143",
+        "wall_time_seconds": 0.000015726,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52  -\n"
+      },
+      "unchanged": true
+    },
+    {
+      "commit": "ea36d6725d238950bcdafa6dcd7113de06a92ad7",
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT.md",
+      "sha256": "4972b8a53d65c14861b4918b753743d7a324f3f1563556a2377ebe86d3a119a0",
+      "receipt": {
+        "chunk_id": "7f3f14",
+        "wall_time_seconds": 0.000012685,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "4972b8a53d65c14861b4918b753743d7a324f3f1563556a2377ebe86d3a119a0  -\n"
+      },
+      "unchanged": true
+    }
+  ],
+  "independent_specialist_review": false,
+  "parameter_free_SM_derived": false,
+  "full_physical_theory_derived": false,
+  "pushed": false,
+  "seal_commit": "457a3cb9eeb5bc9d83346f398bfe754a9a7b1718",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/phase_common_line_2026_10_04/verify_phase_line.py",
+    "reason": null,
+    "terminal_exit": 0,
+    "tool_events": [
+      {
+        "chunk_id": "ac2bd6",
+        "wall_time_seconds": 1.000676961,
+        "session_id": 27029,
+        "original_token_count": 0,
+        "output_characters": 0,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "ddddc1",
+        "wall_time_seconds": 5.001996032,
+        "session_id": 27029,
+        "original_token_count": 176,
+        "output_characters": 704,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "ea93e1",
+        "wall_time_seconds": 5.001642235,
+        "session_id": 27029,
+        "original_token_count": 5834,
+        "output_characters": 23336,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "2da0f9",
+        "wall_time_seconds": 5.000682414,
+        "session_id": 27029,
+        "original_token_count": 2560,
+        "output_characters": 10238,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "ab38f3",
+        "wall_time_seconds": 5.001143637,
+        "session_id": 27029,
+        "original_token_count": 3782,
+        "output_characters": 15128,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "8350d5",
+        "wall_time_seconds": 5.001772149,
+        "session_id": 27029,
+        "original_token_count": 679,
+        "output_characters": 2715,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "8ca5e6",
+        "wall_time_seconds": 5.001358591,
+        "session_id": 27029,
+        "original_token_count": 4623,
+        "output_characters": 18491,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "d5e0e2",
+        "wall_time_seconds": 5.000712163,
+        "session_id": 27029,
+        "original_token_count": 2350,
+        "output_characters": 9400,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "dea628",
+        "wall_time_seconds": 5.001259371,
+        "session_id": 27029,
+        "original_token_count": 4708,
+        "output_characters": 18832,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "1840f1",
+        "wall_time_seconds": 5.00121271,
+        "session_id": 27029,
+        "original_token_count": 4939,
+        "output_characters": 19754,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "9fce0f",
+        "wall_time_seconds": 5.000803162,
+        "session_id": 27029,
+        "original_token_count": 2695,
+        "output_characters": 10779,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "1154f7",
+        "wall_time_seconds": 0.000014346,
+        "exit_code": 0,
+        "original_token_count": 8104,
+        "output_characters": 32413,
+        "output_truncated": false
+      }
+    ]
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/phase_common_line_2026_10_04/test_phase_line.py",
+    "reason": null,
+    "terminal_exit": 0,
+    "tool_events": [
+      {
+        "chunk_id": "62cc24",
+        "wall_time_seconds": 1.001724176,
+        "session_id": 47074,
+        "original_token_count": 0,
+        "output_characters": 0,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "4ae541",
+        "wall_time_seconds": 5.001554304,
+        "session_id": 47074,
+        "original_token_count": 2,
+        "output_characters": 6,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "545197",
+        "wall_time_seconds": 5.002684089,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 2,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "5e1e59",
+        "wall_time_seconds": 5.001408154,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 1,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "b7137c",
+        "wall_time_seconds": 5.002890994,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 2,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "6422d6",
+        "wall_time_seconds": 5.001856199,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 3,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "9e5d93",
+        "wall_time_seconds": 5.00202975,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 1,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "59761e",
+        "wall_time_seconds": 5.001936137,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 1,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "d714cb",
+        "wall_time_seconds": 5.000869047,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 2,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "2e6dd4",
+        "wall_time_seconds": 5.001030109,
+        "session_id": 47074,
+        "original_token_count": 1,
+        "output_characters": 1,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "c54f94",
+        "wall_time_seconds": 0.000013502,
+        "exit_code": 0,
+        "original_token_count": 23,
+        "output_characters": 92,
+        "output_truncated": false
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/charged_l2_bridge_2026_09_27/test_bridge.py reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py reports/common_hypercharge_gate_2026_09_27/test_common_line.py reports/common_hypercharge_gate_2026_09_27/test_common_line_locks.py reports/monomial_matter_locus_2026_09_27/test_matter_locus.py reports/monomial_matter_locus_2026_09_27/test_classification_locks.py reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py reports/monomial_gauge_centralizer_2026_09_27/test_centralizer.py reports/monomial_gauge_centralizer_2026_09_27/test_cubic.py reports/global_quotient_admission_2026_09_27/test_admission.py reports/global_quotient_admission_2026_09_27/test_serialization.py reports/global_quotient_admission_2026_09_27/test_monomial_lifts.py reports/global_quotient_admission_2026_09_27/test_components.py reports/phase_component_matter_2026_10_04/test_matter.py reports/phase_component_interaction_2026_10_04/test_interaction.py reports/phase_component_interaction_2026_10_04/test_boundary_continuation.py reports/phase_common_line_2026_10_04/test_phase_line.py reports/physics_door_review_2026_10_04/test_door.py",
+    "reason": null,
+    "terminal_exit": 0,
+    "tool_events": [
+      {
+        "chunk_id": "3996f5",
+        "wall_time_seconds": 1.002035356,
+        "session_id": 83456,
+        "original_token_count": 0,
+        "output_characters": 0,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "f1635a",
+        "wall_time_seconds": 5.003868067,
+        "session_id": 83456,
+        "original_token_count": 63,
+        "output_characters": 250,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "89c7e3",
+        "wall_time_seconds": 5.001724124,
+        "session_id": 83456,
+        "original_token_count": 1,
+        "output_characters": 2,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "0746a6",
+        "wall_time_seconds": 5.002093624,
+        "session_id": 83456,
+        "original_token_count": 1,
+        "output_characters": 2,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "99d70f",
+        "wall_time_seconds": 5.00276794,
+        "session_id": 83456,
+        "original_token_count": 1,
+        "output_characters": 3,
+        "output_truncated": false
+      },
+      {
+        "chunk_id": "4212b2",
+        "wall_time_seconds": 0.00001595,
+        "exit_code": 0,
+        "original_token_count": 145,
+        "output_characters": 579,
+        "output_truncated": false
+      }
+    ]
+  },
+  "log_and_result_sha256": {
+    "reports/phase_common_line_2026_10_04/native.log": "560f7d2a0f2c79ac9caf0933c680120b441efca08d537e855699cf564053e529",
+    "reports/phase_common_line_2026_10_04/focused.log": "dfaead80987b6f96c9f82055e25ebab756152cd4143b19661aa2bcc9084d0af7",
+    "reports/phase_common_line_2026_10_04/RESULTS.json": "3f65f18694d22f7630e844c909bdf010ac7115e21f0eb31b6b3b04380c258705",
+    "reports/physics_door_review_2026_10_04/combined.log": "285f2eed697a7c755d989125e0e035756c796086e9a4fe53c4ed864ca93cb16d"
+  },
+  "focused_tests": 22,
+  "combined_tests": 248,
+  "combined_warning": "Plink tkinter GUI unavailable, unrelated to the symbolic science checks.",
+  "native_capture_truncated": false
+}

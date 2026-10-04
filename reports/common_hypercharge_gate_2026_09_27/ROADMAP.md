@@ -1,6 +1,6 @@
-# Working roadmap after the common-line gate
+# Working roadmap toward one physical model
 
-2026-09-27. This is an operational research plan, not a promise that a
+Established September 27, updated October 4, 2026. This is an operational research plan, not a promise that a
 TOE exists in the framework or can be completed on a schedule.
 
 ## Objective and completion standard
@@ -121,8 +121,10 @@ of this operator/domain question.
 - [x] Compute exact selected-point coupled E/exterior-square spectra in the
       four new determinant-one phase families at t=-1,1,2. All four retain
       one paired E mode at -1; the old all-t negative is NOT extended.
-- [ ] Decide the all-parameter and common-line behavior of these new families
-      if a physical candidate needs that classification.
+- [x] Decide the all-parameter and common-line behavior of these new families.
+      The necessary Q/u net-three target fails throughout; paired modes at
+      the three roots of t cubed = minus one survive for the trivial reduced
+      character. This is not a classification of all backgrounds.
 - [x] Check first-order continuation of the new paired E mode along the
       actual neutral direction. Ordinary obstruction zero, fixed-cusp rank
       one on both charged sides; preserve this distinction.
@@ -163,8 +165,48 @@ now passes all 212 combined tests. In the declared direction it separates
 zero bulk overlap from nonzero fixed-cusp continuation obstruction, and
 checks zero in the charged essential spectrum. The new harmonic and gauge
 positives remain. This advances a common-model operator/domain audit;
-chirality and a separated physical EFT remain open. The all-parameter,
-common-line and other-component questions are not silently closed by it.
+chirality and a separated physical EFT remain open. Its three-point tests
+did not silently close the all-parameter or common-line questions; the
+separate result below now does so for these four phase families only.
+
+The [phase common-line packet](../phase_common_line_2026_10_04/FINDINGS.md)
+now covers every nonzero complex parameter and honest common line with
+exact root-field controls. All 22 focused and 248 combined tests pass on
+unchanged seals. The necessary linear target fails; paired fundamental
+positives remain. Other representations and physical completions are not
+included in this negative.
+
+## Highest priority after the branch review
+
+The [cross-branch audit](../physics_door_review_2026_10_04/FINDINGS.md)
+refreshes all public branch heads, checks four specific reasoning defects
+and preserves the ordered nonsplit and compact-boundary positives at
+their evidence grades. It does not independently rerun foreign censuses
+or solve their PDEs. The full goal stays active, without a guarantee of
+attainability from the presently stated principles.
+
+Our inference is that the next high-value test is a common-action core
+or end completion of one existing ordered nonsplit candidate, not another
+sampling grid in the now-classified families. The
+[next gate](../physics_door_review_2026_10_04/NEXT_GATE.md) fixes its duties:
+
+- [ ] Identify whether OA derives a core/end law and record every supplied
+      spacetime, parent, metric, coupling and source datum. A conditional
+      supplied model is not the full parameter-free goal.
+- [ ] Replay one candidate on its own carrier, then derive and solve the
+      same action's connection, Higgs, source and boundary variations.
+- [ ] Admit the physical fermion domain and compute all charged sectors,
+      norms, continuum threshold and normalized interactions together.
+- [ ] Check anomalies and actual state stability before claiming a physical
+      chiral spectrum or a selector. Preserve every valid conditional positive
+      if a later derivation obligation fails.
+
+An arbitrary Dirichlet metric, a hand-picked five-source partition or a
+frozen quartic from a different carrier cannot discharge these duties.
+Flat bulk Chern character alone is not a universal boundary-index kill;
+the known whole-torus and annulus Euler obstruction remains. Justified
+nonflat, singular, nonliftable and interacting alternatives remain open,
+not already successful or ruled out by this priority.
 
 ## Full-goal obligations beyond these packages
 
