@@ -135,9 +135,9 @@ def case(ab):
             'left_parabolic_dimension21':ls['dimension']==21,'right_parabolic_dimension21':rs['dimension']==21,
             'piece_scalar_commutants':commutant(left).shape[1]==commutant(right).shape[1]==1,
             'peripheral_centralizer5':kc.shape[1]==5,'traceless_peripheral_centralizer4':kt.shape[1]==4,
-            'exported_zs_traceless':all(trace(z)==0 for z in zs),
+            'exported_zs_traceless':all(trace(z)==K.zero for z in zs),
             'bend_tangent_relators':all(C.same(tangent_word(w,gs,c)[1],C.zero(5,5,K)) for c in coc for w in N.DOUBLE_RELS),
-            'bend_tangents_traceless':all(trace(z)==0 for c in coc for z in c.values()),
+            'bend_tangents_traceless':all(trace(z)==K.zero for c in coc for z in c.values()),
             'bend_columns_independent4':rq==4,'coboundary_rank24':rb==24,'quotient_adds_four':joined==rb+4==28,
             'scalar_bend_has_zero_tangent':all(C.same(z,C.zero(5,5,K)) for z in scalar_coc),
             'scale_determinant_one':N.determinant(scale(2))==K.one,
@@ -169,7 +169,7 @@ def fixtures():
     h=N.rows_dm([[K.one,K.zero],[K.zero,-K.one]],2)
     r=d*b*C.inv(d); scalar=K.convert(2)*i
     seam=N.rows_dm([[K.convert(2),K.zero],[K.zero,K.convert(3)]],2)
-    bad=unit(2,0,1); gc={'x':i}
+    bad=unit(2,0,1); gc={'x':C.eye(1,K)}
     circle=N.h1(gc,('',)); point=N.h1(gc,('x',))
     checks={'upper_parabolic_positive':N.span({'a':a,'d':d})['dimension']==3,
             'lower_parabolic_positive':N.span({'b':b,'d':d})['dimension']==3,
@@ -179,7 +179,7 @@ def fixtures():
             'scalar_conjugation_trace_unchanged':C.same(scalar*b*C.inv(scalar),b),
             'scalar_tangent_zero':C.same(i-b*i*C.inv(b),C.zero(2,2,K)),
             'noncentral_seam_tangent_rejected':not C.same(seam*bad,bad*seam),
-            'traceless_diagonal_seam_tangent_positive':C.same(seam*h,h*seam) and trace(h)==0,
+            'traceless_diagonal_seam_tangent_positive':C.same(seam*h,h*seam) and trace(h)==K.zero,
             'singular_rank_rejected':C.rank(unit(2,0,0))==1,
             'circle_trivial_h1_positive':circle['h1']==1,'point_trivial_h1_opposite':point['h1']==0,
             'retained_commutant_one_opposite':N.fixtures()['checks']['flag_algebra_not_full']}

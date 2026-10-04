@@ -1766,6 +1766,23 @@ Push/server-confirm before import; full physics mission ACTIVE.
 | `reports/physical_bridge_2026_09_05/joined_background_reference.py` | `22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869` |
 | `tests/test_physical_bridge_joined_background.py` | `4c58a22285f85de7c83843ee425971025c45dc27ec640b7b79043d86a89ff420` |
 
+## Relative gluing scalar and fixture repair reseal October 4 2026
+
+Original320c92fc0 failed76/84 predicates; full log and diagnostic retained
+in the design. Only field-zero comparisons and rank-one circle fixture
+are repaired. No candidate or scientific criterion changed. Command-derived
+hashes; push/server-confirm before native_repaired. Original failed seal
+remains a failed attempt, never a successful certificate.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/GLUING_FREEDOM_DESIGN.md` | `a6afe675ef26ddbc6b734a16d1c499726a92464def903f02f76760e19dd6165e` |
+| `reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md` | `12e2a21cf23ea31c111ff36670570e69d5a51293bd596817b0a2fe122f95b932` |
+| `reports/physical_bridge_2026_09_05/GLUING_FREEDOM_INPUTS.json` | `b2eff3b9e33c5d952711174b80331d0f0bed984fae1f87d1d97770bbcd64e02e` |
+| `reports/physical_bridge_2026_09_05/gluing_freedom.py` | `501b3c87400f198035360dc760f19937a97c3d3bf6fd7801cecf325ae20f27f9` |
+| `reports/physical_bridge_2026_09_05/gluing_freedom_reference.py` | `b66e0584e780686295e8501e9e14d5f717f62202f5797b8fcaab52432b4df80c` |
+| `tests/test_physical_bridge_gluing_freedom.py` | `4a236ff5905269806cdc507675798654164ca424cf302d526d59b516cbd68335` |
+
 ## Relative gluing freedom pre execution seal October 4 2026
 
 R86 specific R85 coefficient and supplied compact join; no architecture

@@ -101,3 +101,19 @@ failures; reseal any repairs before a newly named run. During certifying
 runs the tracked tree is read-only. Focused tests retain R85 regressions.
 No full-suite or nonauthor analytic acceptance is claimed. Input prices,
 charged pairing, su5 gauge landing and unsolved physics duties stay visible.
+
+## Disclosed instrument repair before the second run
+
+Original pushed/server-confirmed seal320c92fc074dc5f5cf3bd2f22c4b10bc0f93e7bc
+native_first exited1, with76/84 predicates true. Preserve its38176-byte
+capture sha256f93bc49e715670a960b8b8f42d071c913275cfa2716a4f43fc8c77949c231e95.
+An unchanged-tree diagnostic verifies two defects: an extension-field zero
+does not compare equal to Python integer zero; three trace criteria used
+that invalid comparison. The circle fixture used a rank-two trivial
+coefficient but compared against rank-one H1. Correct only these scalar
+comparisons and that fixture's rank. Candidate matrices, dimensions,
+trace criterion, relators, theorem application and outcome targets are
+unchanged. The diagnostic183-byte capture sha256
+c91fb9406f5fbaa852b34141849b5a21c52f0b34dd019d0575392a7052008f10
+and failed original remain preserved. No successful certificate attaches
+to the original seal. Reseal/push/server-confirm before native_repaired.
