@@ -1,0 +1,124 @@
+{
+  "scope": "R91 supplied E8 parent mixed-field current/frame/action check, no physical background derived",
+  "base_head": "fee06ac7e63bfb4ba7af4d53fb9e99875aa815f6",
+  "main_head": "cb09deb04a4b324840bcba21dac6729ffe35e3c6",
+  "sm_head": "39f36b22ec905f182548bc8b89258ff923a39907",
+  "raw_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-mixed-current.pp8xuQ",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "sha256": "335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+      "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS_DESIGN.md",
+      "sha256": "ceac4498c65663eceada2bacfead9826bf3492f6d8b885ec0084dabd843ca92d",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_tensors.py",
+      "sha256": "6bc0c5a1a6f39090308e24804ef19b7937155fcb02c9af3d2190387768f6f891",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_FIELD_INTAKE_2026_10_02.md",
+      "sha256": "a404610a4a169f46bf925ad077251f047e8ec0269c12623e61a08405cbba7bfe",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "frontier/B1138_structural_completion/FINDINGS.md",
+      "sha256": "69487b376c722b1ca4d798bc24dc750cfae69bb33ef814e345bf1d433191dc57",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "frontier/B1236_a1_landing_exact/FINDINGS.md",
+      "sha256": "827b12383edb1daa33032864ec783b30322ba0edcb097666e7e5e3989f82f4dc",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    },
+    {
+      "path": "frontier/B1238_seat_harvest_40a3_bronze_octic/verification/r038_verify.py",
+      "sha256": "d6796803b3a4ee2b1fab53526083a63d53c5f2d3b6063b5fa876b6635a019f28",
+      "reading": "Full source personally read in this continuing turn; no old producer rerun"
+    }
+  ],
+  "prior_captures": [
+    {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/checks/already_banked.py",
+        "SU6 mixed source flipped hypercharge"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.8273470000131056,
+      "log_bytes": 3592,
+      "log_sha256": "e39effe399fa60812cef0ce8c824b7dc504bdf519bf85d49f3dd91c77635bfee",
+      "stem": "already_banked"
+    },
+    {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/checks/absence_sweep.py",
+        "su.?6|a5.*a2.*a1|mixed.{0,30}current|flipped.{0,20}hypercharge|color.{0,30}weak.{0,30}centralizer|colour.{0,30}weak.{0,30}centraliser",
+        "--regex"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 123.71870099997614,
+      "log_bytes": 6161,
+      "log_sha256": "70d6e7c136fb53e82ab5f6d259ebcd7daf94f886b09666945d920b4a31faba4b",
+      "stem": "prior_sweep"
+    },
+    {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/atlas/query.py",
+        "card"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.147884999983944,
+      "log_bytes": 735,
+      "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e",
+      "stem": "atlas"
+    }
+  ],
+  "literature": {
+    "url": "https://arxiv.org/html/hep-th/0310058v3",
+    "reading": "Section1.3 complete, equations1.1--1.2, not full paper; no physical assumptions adopted",
+    "access_date": "2026-10-04"
+  },
+  "preparation_errors": [
+    "Failed multi-file patch on incorrect OPEN_LEADS heading: atomic, no changes; corrected after reading real heading",
+    "Guessed docs/WORKING_RULES and PARENT_TENSORS_PROOF absent: source paths resolved, no absence inferred",
+    "Guessed origin/audit/fork ref absent: actual local audit/fork ref enumerated and used",
+    "Aggregate early navigation truncated: navigation only; selected full sources read separately"
+  ],
+  "input_costs": [
+    "E8",
+    "parent",
+    "regular_embedding",
+    "color_weak_frame",
+    "hypercharge_generator",
+    "bare_action",
+    "internal_metric",
+    "operator_domain"
+  ],
+  "full_goal_achieved": false
+}

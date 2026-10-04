@@ -1,5 +1,13 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October4 physical-bridge R91 decision-to-test (H-PB-R91): inspect the
+existing mixed E8 current, actual color/weak centralizer, transported
+hypercharge and complete homogeneous action, without adding a source.
+Design: reports/physical_bridge_2026_09_05/MIXED_CURRENT_DESIGN.md.
+This is a supplied-parent conditional test, not a new physical law or
+global lead-number allocation. A nonstationary comparator cannot close
+spatially varying, sourced, nonflat or boundary routes.
+
 October4 R90: the formal register's standard Haar/Wilson operational
 connection is executed, not an unrun lead or generated physical mechanism.
 Report REGISTER_WILSON.md under physical_bridge. Next existing mixed E8

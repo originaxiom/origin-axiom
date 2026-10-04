@@ -17012,3 +17012,23 @@ frames until checked. Broad rg navigation initially truncated large JSON
 lines; selected source reads were separate and complete as declared.
 BRANCH_INTAKE_POST_R90_INPUTS.json pins grades; R90 science unchanged.
 Full parameter-free SM/TOE active and unachieved.
+
+## 2026-10-04 R91 mixed-field science sealed before execution
+
+Previous status-only goal turn was no progress; revalidated checkout and
+published seven-file intake as fee06ac7e, server confirmed. Governance
+26 PASS/four FAIL categories remain: five attribution paths, two vacuous
+tests, five seal provenance paths,41 stale relays;83 open, review due322.
+This is research preservation, not a full-suite/main-bank certificate.
+
+Fetched all heads, registered H-PB-R91/path-local decision, personally
+read named prior proofs/producers and Becker section1.3 to its end.
+Presence sweep18 heads PRESENT,170 already-banked hits/one threshold
+warning B1138 read; no novelty/absence claimed. New supplied E8 mixed
+current/frame/action design, proof, two producers, tests and input
+manifest frozen and hashed BEFORE import, collection or execution.
+No results at this checkpoint. Push/server confirmation precedes runs.
+The possible algebraic current is not a stationary source solution;
+physical operator/domain and generated laws still owed. No other seat
+edited or B/I allocated. Failed atomic patch, guessed paths/ref and
+truncated navigation disclosed in manifest, never read as an absence.

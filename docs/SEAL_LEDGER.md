@@ -1923,3 +1923,20 @@ reference, no nonauthor acceptance or full-suite certificate assigned.
 | `reports/physical_bridge_2026_09_05/register_wilson.py` | `1b30c889f705d0e78c6311bda7b584778f5d6ff3ecc7308ea0d590d3dfaeac69` |
 | `reports/physical_bridge_2026_09_05/register_wilson_reference.py` | `0cfdbdbc4bd9b516bcde500e14420f91441e58611c7b56a34d305b27d4134328` |
 | `tests/test_physical_bridge_register_wilson.py` | `558f66a3c11740e3587eff6d88d891c6646e4ea99d00817cb679d19d725ec09f` |
+
+## Existing mixed current pre execution seal October 4 2026
+
+R91 supplied-parent exact root/matrix test, not physical source selection.
+All six science files below committed/pushed/server-confirmed BEFORE
+execution or collection; same-author reference, no main-bank certificate.
+Tests separate full current, gauge preservation, frame transport and
+stationarity. A comparator negative does not kill other profiles/ends.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIXED_CURRENT_DESIGN.md` | `d1d8aa3b3a8ffb4a9087206c1c39d4f0a40b7425fbea5944e8766559337e1c68` |
+| `reports/physical_bridge_2026_09_05/MIXED_CURRENT_PROOF.md` | `86f0d69e4d86851e9f2b4819c15901621044023941fcd9e31ea9f6f83bc4d27f` |
+| `reports/physical_bridge_2026_09_05/MIXED_CURRENT_INPUTS.json` | `7555b98713c5052303c2f259e927250958661b8fd6b07ab0782bdd4a3d7b974e` |
+| `reports/physical_bridge_2026_09_05/mixed_current.py` | `b6867675f14cfa03e073dd9c53816e36f31caca3b8013bbb934f26fc663c1b41` |
+| `reports/physical_bridge_2026_09_05/mixed_current_reference.py` | `5394c122c2c63ffb3fb3a636cdb1fbca61b90d1ac08aa9ea8a347740a28701c5` |
+| `tests/test_physical_bridge_mixed_current.py` | `7889d37c8d691b718f220df79652a36532954e61ecf05932e0015885424a5f47` |

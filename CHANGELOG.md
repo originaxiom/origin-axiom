@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-04 R91 mixed current pre-execution checkpoint
+
+Supplied-parent existing-field current/frame/action design frozen before
+execution; no result read or physical source admitted. Actual E8 root
+map, full gauge commutant, transported hypercharge, all current terms
+and stationarity tested separately. No new source multiplet or B/I ID.
+Full parameter-free Standard Model/TOE remains active and unachieved.
+
 ## 2026-10-04 branch intake after R90
 
 SM39f36b22 sealed no-outcome stub and P2 operator/domain response read,
