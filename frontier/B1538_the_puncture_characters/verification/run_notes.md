@@ -33,3 +33,9 @@ recorded here beyond the aggregates the addendum states.
     run only slowed.
   - The worker process of the session restarted at about 14:48Z. Part F′, detached with `setsid nohup`, kept running (6,412
     candidates done at 14:48:36Z); only the session's watcher was restarted.
+  - The zero-reading headers finished at about 15:14Z (11,420 of 12,152 candidates); the readings followed at about 77 a
+    second on four workers (5,920 of 501,792 at 15:14:43Z).
+- **The post-run scripts, committed before the read-out.** `post_partFp_append.py` (the structure check and the append, with
+  the sha-256 of `run_F.jsonl` before and after) and `post_run_tables.py` (descriptive tables for FINDINGS, run after both
+  read-outs) were written during Part F′ and committed while it ran, before any Part F′ reading was read. The order after
+  Part F′ exits 0: the append, the sealed `read_out.py --record` once, `read_out_scoped.py --record` once, then the tables.

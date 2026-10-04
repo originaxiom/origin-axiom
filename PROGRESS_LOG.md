@@ -17600,3 +17600,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Persisted from the scratchpad while sm:B1538's Part F′ runs (its readings began at 15:14Z; 6,176 of 501,792 at 15:14:43Z,
   about 77 a second on four workers).
 - Gates: all pass. The decadal review is due (328 merges); it follows sm:B1538's bank and the next arc's seal.
+
+## 2026-10-04 — sm:B1538's post-run scripts committed before the read-out (task 255)
+
+- The append and the tables scripts are tracked in sm:B1538's `verification/` before any Part F′ reading was read; the run
+  notes record it. sm:B1538's tests: 6 passed. Gates: all pass.

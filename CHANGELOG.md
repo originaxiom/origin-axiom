@@ -1,5 +1,12 @@
 # Changelog
 
+## sm:B1538's post-run scripts committed before the read-out
+
+- `frontier/B1538_the_puncture_characters/verification/post_partFp_append.py` (the structure check of Part F′'s rows and
+  the append to `run_F.jsonl`, with the sha-256 before and after) and `post_run_tables.py` (descriptive tables for FINDINGS,
+  run after both read-outs). Both were written during Part F′ and are committed while it runs, before any Part F′ reading
+  was read; `run_notes.md` records the order after Part F′ exits.
+
 ## The next arc's draft seal revised: Lemma C (Galois), one reading per Galois orbit (not sealed, not run)
 
 - `docs/dossiers/golden_covers_2026-10-04/NEXT_ARC_DRAFT_the_room_above_the_room.md`:
