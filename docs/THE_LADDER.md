@@ -1,5 +1,20 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**October4 R84: finite-twist adjoint rigidity reviewed, vector-cover route retained.**
+B1535(c1,c2)'s finite-kernel transport survives the nu-squared-trivial
+cusp case. A local adjoint class can be cyclic-parabolic yet nonzero
+on the torus; GLOBAL lattice rigidity, not local vanishing, is needed.
+Rank4 vector classes are not killed. Native72/separate20 predicates and
+14 focused tests (6 new,8 R83) pass unchanged after seal aee360ae was
+pushed/server-confirmed. Report: reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT.md.
+Three in this frame needs both vector and line supplies at one character,
+then a class attaining compatible indices; bending alone is not enough.
+Silver algebraic positive/R81 compact admission retained, not physical
+selection. Next common coupled source/end law and fermion domain.
+Classical theorem is an external input; no census replay, full suite,
+main banking or physical generation. Full SM/TOE ACTIVE/unachieved.
+
+
 **October4 R83: an effective quartic is not yet an exact order-selection law.**
 For the written smooth polynomial with independent linear sources,
 partial_y V(x,0)=-J2 whatever finite mixing d is; zero-source axis

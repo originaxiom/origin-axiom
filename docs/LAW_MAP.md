@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October4 path-local R84: B1535(c1,c2)'s finite-character ADJOINT
+rigidity transport reviewed, not rediscovered. Nonzero local cyclic-
+parabolic torus classes retained; their GLOBAL extension is excluded
+under complete finite-volume lattice hypotheses. Rank4 vector classes
+not excluded. Authored RT1--RT6 proof and exact local checks:
+reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_PROOF.md ;
+tests/test_physical_bridge_rigidity_transport.py.72/20 predicates and
+14 focused tests pass unchanged after pushed seal aee360ae. Classical
+theorem input, no census/physical-generation/full-suite certification.
+No new B/law row; full physical source/end/dynamics duty remains.
+
 October4 path-local R83: main B1466 is received at39775d66, not replayed.
 Its smooth independent-linear-source toy has transverse gradient -J2
 on the x axis regardless of finite d. The zero-source fixed-radius

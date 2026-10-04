@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-04 — R84: independently review the cap's rigidity transport
+
+Science aee360ae pushed/server-confirmed before unchanged72 native,
+20 separate rational predicates and14 focused tests (6 new,8 R83), all
+pass. B1535 finite-character adjoint transport reviewed, including
+nu-squared-trivial cusps; local cyclic-parabolic cohomology can remain
+nonzero, so GLOBAL rigidity is necessary. Rank4 vector-cover classes
+not killed; both vector and line supplies required for three in one
+frame/member, plus saturation. B1530 silver positive and R81 retained.
+Three original papers personally read; classical1970 proof not read,
+its theorem explicit external input. No foreign census replay or
+physical generation. Report RIGIDITY_TRANSPORT.md; recipient relay OPEN.
+Same-theory coupled law, physical domain and order-selection remain
+next. Full SM/TOE active; historical gates/full-suite/main banking owed.
+
 ## 2026-10-04 — R83: answer the effective-quartic/order-selection request
 
 Science a255abfd pushed/server-confirmed before unchanged33 native,

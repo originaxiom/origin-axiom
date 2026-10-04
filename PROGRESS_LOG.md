@@ -16739,3 +16739,27 @@ Next common coupled law with all variations and domains, plus independent
 cap step(c2) hypothesis transport. Four inherited governance failing
 categories, no full-suite/main bank or scientific premise waived.
 Report MIXING_SELECTION.md; five fresh relay rows OPEN; R81/R82 review open.
+
+## 2026-10-04 — audit lane R84: finite-character rigidity transport reviewed
+
+Full parameter-free SM/TOE ACTIVE/unachieved, not replaced by the cap
+audit. Fresh all-head fetch unchanged; main39775d66 and SM536dfba1.
+B1535 full prereg/cap_lib and B1530 full findings personally read;
+three primary papers read completely as text, critical pages visual.
+Classical1970 proof not obtained/read; cited rigidity is an external
+input, independently supported by Kapovich/Bart--Scannell originals.
+
+Science aee360ae49fa98fec13eda8b33f51d766585773d pushed/server-confirmed
+BEFORE unchanged72 native/20 separate rational predicates and14 focused
+tests (6 new,8 R83), all pass. Independently derived cusp table/wedge
+injection and finite-kernel argument verify B1535(c1,c2) within scope.
+A nonzero torus class can be cyclic-parabolic: GLOBAL rigidity needed.
+Rank4 vector classes are not killed. Three in the frame needs BOTH
+vector and line supply at one character AND compatible saturation.
+Silver algebraic positive/R81 admission retained; no census replay,
+chosen physical domain/order, normalized observable or generation.
+
+Report RIGIDITY_TRANSPORT.md; source/byte/first-run receipts retained.
+Four historical governance categories still fail; no full-suite/main
+bank or nonauthor acceptance of our authored proof. Sender relay OPEN.
+Next actual same-theory coupled source/end law and physical spectrum.

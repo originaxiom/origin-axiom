@@ -4579,3 +4579,23 @@ same-theory physical action/domain join; full SM/TOE remains unachieved.
   positive and nonabelian, non-unitary, off-hyperbolic hatches explicit.
 - PB-COORDINATION: sender R83 relay OPEN; R81/R82 independent analytic
   reviews remain OPEN. No recipient banking, full-suite or TOE claimed.
+
+## October4 R84 cap review and constructive duties
+
+- PB-CAP: B1535(c1,c2) finite-order adjoint transport reviewed; RT1--RT5
+  in RIGIDITY_TRANSPORT_PROOF.md give the closing scope. Local cyclic-
+  parabolic torus classes can be nonzero; GLOBAL lattice rigidity
+  excludes extension. Keep rank4 vector classes distinct and live.
+  Foreign census/corollary populations are received, not rerun here.
+- PB-SUPPLY: to seek three in F-HE, require BOTH vector and line supplies
+  at the SAME character plus an extension class attaining compatible
+  indices. A vector bending theorem alone does not discharge either
+  remaining requirement. Own puncture characters/nonabelian covers,
+  nonunitary and off-hyperbolic candidates remain scoped avenues.
+- PB-BOUNDARY / PB-SELECTION: R81 compact admission positive, not a
+  generated law or order choice. Next construct and test ONE coupled
+  source/end relation with all own variations, retaining both currents;
+  derive its physical fermion domain before a physical-generation claim.
+- PB-REVIEW: new sender relay R84 OPEN.72/20 local predicates and14
+  focused tests pass; these are not a full suite, classical-proof
+  reproof, independent acceptance of our proof or a TOE certificate.

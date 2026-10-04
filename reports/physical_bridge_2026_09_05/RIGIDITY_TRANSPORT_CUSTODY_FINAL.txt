@@ -1,0 +1,8 @@
+R84 custody_final: actual exit 0; 215 stdout bytes.
+Raw receipt SHA256: e16871e25056673280c36373b96d605f0216b4ca4eb55c101b08e2fc00015497
+Raw stdout SHA256: ce20d98d93b5de8c29c2569f20830fe935b429212a63bb4d3498d1578ebc9034
+Scope: byte/population custody or governance only, not analytic proof or physical certification.
+Custody-first predates addition of PDF-byte checks; custody-final covers three PDFs and 13 public raw captures.
+Custody-final is not included in its own receipt input (no recursive self-certificate).
+
+{"frozen_paths":6,"local_baseline_pins":3,"foreign_pins":4,"raw_captures":13,"native":72,"reference":20,"focused":14,"scope":"R84 byte/population custody only, not whole-ledger, analytic or physical certification"}

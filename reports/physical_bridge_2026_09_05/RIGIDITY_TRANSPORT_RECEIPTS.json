@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "audit": "R84",
+  "science_seal": "aee360ae49fa98fec13eda8b33f51d766585773d",
+  "runs": {
+    "prior_first": {
+      "raw_basename": "prior_first",
+      "raw_receipt_sha256": "52c41d8b7eb5773b8a5d74e2fa37122506a37baca6728049524734eae4f537de",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/checks/already_banked.py",
+          "cuspidal cohomology parabolic rigidity"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.5017200000584126,
+        "log_bytes": 3581,
+        "log_sha256": "7711e2743929f09f49ee9cf2bf54cd0bb423dbb61ad045c9d6cc79dd2a0dd776"
+      },
+      "stdout_redacted": "already-banked: terms ['cuspidal', 'cohomology', 'parabolic', 'rigidity']\n  30 corpus hits; 1 SETTLED arcs matching >= 2 of 4 terms\n  *** [ 2 terms] PROVED    B1068_descent_inventory\n           THE DESCENT INVENTORY (the field-masterplan W2, loop-until-dry, two adversarial lenses per verdict, 12 disputes bench-adjudicated, zero reversals): 31 canonical structures of Q(sqrt-3) tested through the McKay chain 2T -\n  *** [ 1 terms] PROVED    B1069_hearing_biography\n           THE HEARING BIOGRAPHY: Q(sqrt5) built exhaustively as a number field on new ground (the field-masterplan W3 cell, 9 agents 0 errors, exact throughout, two adversarial lenses + bench re-verification): the splitting census\n  *** [ 1 terms] PROVED    B1078_gauge_selection\n           THE GAUGE-SELECTION OBSERVATION (the nature-supplies-the-gauge successor's first computation; adversarial verifier HOLDS at the typed grade on fully independent PARI re-derivation): among the three genuine-hierarchy cobo\n  *** [ 1 terms] PROVED    B1089_matter_card\n           THE MATTER CARD (L174 C3, assembly of banked pieces under the 3d-theory header): the 27-local-system cohomology IS the theory's matter content -- solo h1 = 3 (B662), welded 5, theta-odd 2 (B1086's spectrum law = the mult\n  *** [ 1 terms] PROVED    B1092_purity_selector\n           THE PURITY SELECTOR (L168, own-code exact re-derivation): on so(10)'s 16 built from verified CAR bilinears (closure 990/990, rank 5 self-centralizing, D5 roots exact, PARITY CONTROL constant -- the single-chiral-half che\n      [ 1 terms] OPEN      B1099_route_a_counter\n           ROUTE A'S COUNTER (W2, MATCH-typed scoped reading): LITERATURE-FLOOR with two upgrades -- (1) ONE STRATUM DECIDED FREE: Krutelevich Cor 16 (transitivity at determinant n iff n squarefree) + our determinant 5 squarefree =\n  *** [ 1 terms] NEGATIVE  B1108_c5_archimedean\n           C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero arch\n  *** [ 1 terms] PROVED    B1111_w5_scoping\n           THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census -- the bank as positive control): three computed l\n  *** [ 1 terms] PROVED    B1153_peripheral_and_superposition\n           THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS: cloud memos 54-55 (origin/outside-bench 0c7f8b5a) verified by REPRODUCTION -- both self-contained certs re-run on this bench's pyenv exit rc=0 (every claim a preregiste\n  *** [ 1 terms] PROVED    B1154_seam_y\n           SEAM-Y RESOLVED = MISMATCH (the sealed grammar's second outcome: two independent walls, both confirming structure-not-values). The seam asked whether codex's exact up-type-Yukawa=0 is the SAME fact as our period-value di\n  *** [ 1 terms] NEGATIVE  B1157_dynamics_null\n           WF-2 (the dynamics; the masterplan's 2nd workflow, 8 agents), sealed DECIDABLE-RESULT, banked as a productive NEGATIVE. THE FIREWALL VERDICT: the object supplies NO parameter-free dynamical law at the archimedean infinit\n      [ 1 terms] OPEN      B1161_frontier_sweep\n           THE FRONTIER SWEEP (compute-all-we-can, owner-directed before the review; WF 7 agents, 6 cells each typed, load-bearing ones own-verified reproduce.sh -> REPRODUCES). HEADLINE UNIFICATION: the bypass door IS SEAM-A. The \n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    "atlas_first": {
+      "raw_basename": "atlas_first",
+      "raw_receipt_sha256": "34dee529be8f1a57b2c26a38828469f282a3f24b1b497ff5d428cff9cba6a7d5",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/atlas/query.py",
+          "card"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.08319200004916638,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "stdout_redacted": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    "heads_first": {
+      "raw_basename": "heads_first",
+      "raw_receipt_sha256": "5eb1d1db91471149fdb9edfddce5ad7227263934a33083aa869c7fb63efe4fcf",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "-rjson",
+          "-ropen3",
+          "-e",
+          "refs=Open3.capture2(\"git\",\"for-each-ref\",\"--format=%(refname)\",\"refs/remotes/origin\")[0].lines.map(&:strip); refs.each { |r| out,st=Open3.capture2(\"git\",\"grep\",\"-n\",\"-i\",\"-E\",\"cuspidal cohomology|generalized cuspidal|parabolic part|Garland.Raghunathan|interior supply\",r,\"--\",\"docs\",\"frontier\",\"reports\"); abort(\"search failed\") unless [0,1].include?(st.exitstatus); puts JSON.generate(ref:r,exit:st.exitstatus,lines:out.lines.length); puts out }; puts JSON.generate(cached_refs:refs.length,scope:\"navigation, not all live server heads or deleted history\")"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 71.36669299995992,
+        "log_bytes": 53313,
+        "log_sha256": "2529833c3c1f5acec9a27ce7aab54a14574d1ca39f5476bbec05eb21d5439f35"
+      }
+    },
+    "seal_commit": {
+      "raw_basename": "seal_commit",
+      "raw_receipt_sha256": "5e34c4583c3033c5ec3ddad0d88cf9ef11bedebb9f4812264b4feb8b40e1a3d3",
+      "receipt": {
+        "command": [
+          "git",
+          "-c",
+          "core.hooksPath=/dev/null",
+          "commit",
+          "-m",
+          "audit: seal finite-character rigidity transport review R84"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.08425099996384233,
+        "log_bytes": 624,
+        "log_sha256": "a16662604379cc24c51591cae49027bd8964e6a747bced0cc82e665b568cccc0"
+      },
+      "stdout_redacted": "[audit/physical-bridge-2026-09-05 aee360ae4] audit: seal finite-character rigidity transport review R84\n 7 files changed, 529 insertions(+)\n create mode 100644 reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_DESIGN.md\n create mode 100644 reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_INPUTS.json\n create mode 100644 reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_PROOF.md\n create mode 100644 reports/physical_bridge_2026_09_05/rigidity_transport.py\n create mode 100644 reports/physical_bridge_2026_09_05/rigidity_transport_control.py\n create mode 100644 tests/test_physical_bridge_rigidity_transport.py\n"
+    },
+    "seal_push": {
+      "raw_basename": "seal_push",
+      "raw_receipt_sha256": "7a91a1d8bf8b04e20f6e74e34563ddc857cb19aa320166145c7b4c000adb26ce",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "-c",
+          "core.hooksPath=/dev/null",
+          "push",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.993231000029482,
+        "log_bytes": 117,
+        "log_sha256": "13ddc2fce4be7e1d6a7be78f065d1c45dde965be38045fa586607027b99bc9a3"
+      },
+      "stdout_redacted": "To https://github.com/originaxiom/origin-axiom.git\n   4fd290fad..aee360ae4  HEAD -> audit/physical-bridge-2026-09-05\n"
+    },
+    "seal_server": {
+      "raw_basename": "seal_server",
+      "raw_receipt_sha256": "1ae622f3cfb6ff95df18f50257c8aa4a4b1a018803a09d9041adccffd3dbdc30",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.8898790000239387,
+        "log_bytes": 85,
+        "log_sha256": "e3a54a1111543eeacc9c7fb404b5f6abc96e13b904886bd3e34ac1963314485f"
+      },
+      "stdout_redacted": "aee360ae49fa98fec13eda8b33f51d766585773d\trefs/heads/audit/physical-bridge-2026-09-05\n"
+    },
+    "native_first": {
+      "raw_basename": "native_first",
+      "raw_receipt_sha256": "8f6c0173a35b517f2ecac61b2f5836575a500c80074e5ec7bb6dbb87cc516228",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/rigidity_transport.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.6477560000494123,
+        "log_bytes": 1649,
+        "log_sha256": "e77f2326ba5d074ccfdf6fd1100635a9a8fb7a1b70ce5fd6ca6dd06ce80fa1c7"
+      },
+      "stdout_redacted": "{\"all\": true, \"checks\": {\"L2W:0:0\": true, \"L2W:0:1\": true, \"L2W:1:-1\": true, \"L2W:1:0\": true, \"L2W:1:1\": true, \"L2W:2:3\": true, \"LES-signs\": true, \"W:0:0\": true, \"W:0:1\": true, \"W:1:-1\": true, \"W:1:0\": true, \"W:1:1\": true, \"W:2:3\": true, \"adjoint-torus\": true, \"cyclic:-1:-1\": true, \"cyclic:-1:-2\": true, \"cyclic:-1:0\": true, \"cyclic:-1:1\": true, \"cyclic:-1:2\": true, \"cyclic:-2:-1\": true, \"cyclic:-2:-2\": true, \"cyclic:-2:0\": true, \"cyclic:-2:1\": true, \"cyclic:-2:2\": true, \"cyclic:0:-1\": true, \"cyclic:0:-2\": true, \"cyclic:0:1\": true, \"cyclic:0:2\": true, \"cyclic:1:-1\": true, \"cyclic:1:-2\": true, \"cyclic:1:0\": true, \"cyclic:1:1\": true, \"cyclic:1:2\": true, \"cyclic:2:-1\": true, \"cyclic:2:-2\": true, \"cyclic:2:0\": true, \"cyclic:2:1\": true, \"cyclic:2:2\": true, \"fixed-image:1\": true, \"fixed-image:1 + I\": true, \"fixed-image:2 + 3*I\": true, \"fixed-image:I\": true, \"local-positive-is-cocycle\": true, \"local-positive-not-common-boundary\": true, \"nonreal-shape:1 + I\": true, \"nonreal-shape:2 + 3*I\": true, \"nonreal-shape:I\": true, \"nu-minus-one-square-not-acyclic\": true, \"power:1 + I:-1\": true, \"power:1 + I:-I\": true, \"power:1 + I:1\": true, \"power:1 + I:I\": true, \"power:1:-1\": true, \"power:1:-I\": true, \"power:1:1\": true, \"power:1:I\": true, \"power:2 + 3*I:-1\": true, \"power:2 + 3*I:-I\": true, \"power:2 + 3*I:1\": true, \"power:2 + 3*I:I\": true, \"power:I:-1\": true, \"power:I:-I\": true, \"power:I:1\": true, \"power:I:I\": true, \"real-shape-opposite\": true, \"wedge-class:0:1\": true, \"wedge-class:1:-1\": true, \"wedge-class:1:0\": true, \"wedge-class:1:1\": true, \"wedge-class:2:3\": true, \"wedge-cusp-dimensions\": true, \"wedge-map-injective\": true}, \"total\": 72}\n"
+    },
+    "reference_first": {
+      "raw_basename": "reference_first",
+      "raw_receipt_sha256": "e68b278697e687a037978ed22058b8420cb4349b144b49f164c9ba8dbc2f0f29",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/rigidity_transport_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.12033099995460361,
+        "log_bytes": 383,
+        "log_sha256": "bd2c36eac5530ce533cf4b504470e367059c48237bfdd86481ea0e2a1c375904"
+      },
+      "stdout_redacted": "{\"all\": true, \"checks\": {\"L2W:0:0\": true, \"L2W:0:1\": true, \"L2W:1:-1\": true, \"L2W:1:0\": true, \"L2W:1:1\": true, \"L2W:2:3\": true, \"W:0:0\": true, \"W:0:1\": true, \"W:1:-1\": true, \"W:1:0\": true, \"W:1:1\": true, \"W:2:3\": true, \"adjoint:-1:2\": true, \"adjoint:1:2\": true, \"adjoint:1:3\": true, \"adjoint:2:5\": true, \"pi:-1:2\": true, \"pi:1:2\": true, \"pi:1:3\": true, \"pi:2:5\": true}, \"total\": 20}\n"
+    },
+    "focus_first": {
+      "raw_basename": "focus_first",
+      "raw_receipt_sha256": "375b45c18a0bdfb7075936e283f2bab3972fa01fe14eb2b3f1721f8d5ea3ee09",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-p",
+          "no:cacheprovider",
+          "-q",
+          "tests/test_physical_bridge_rigidity_transport.py",
+          "tests/test_physical_bridge_mixing_selection.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.0930690000532195,
+        "log_bytes": 99,
+        "log_sha256": "df0142c742e45512807213a1a9c157e6a39ac30e3a316ebdf76552b8767ca96a"
+      },
+      "stdout_redacted": "..............                                                           [100%]\n14 passed in 2.56s\n"
+    },
+    "collect_first": {
+      "raw_basename": "collect_first",
+      "raw_receipt_sha256": "d37a61899d2594fb295d9ad7fcb4bee99d953f7d4fbd154d9481d8985f84bb09",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-p",
+          "no:cacheprovider",
+          "--collect-only",
+          "-q",
+          "tests/test_physical_bridge_rigidity_transport.py",
+          "tests/test_physical_bridge_mixing_selection.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.6392050000140443,
+        "log_bytes": 1364,
+        "log_sha256": "f99c9e7671dbea798bc85e1999105d292a0db4823b52a29ef23387380a9a7d23"
+      },
+      "stdout_redacted": "tests/test_physical_bridge_rigidity_transport.py::test_adjoint_is_derived_by_conjugation\ntests/test_physical_bridge_rigidity_transport.py::test_local_positive_is_not_deleted\ntests/test_physical_bridge_rigidity_transport.py::test_nu_squared_case_keeps_cusp\ntests/test_physical_bridge_rigidity_transport.py::test_split_and_nonsplit_are_distinguished\ntests/test_physical_bridge_rigidity_transport.py::test_all_native_controls\ntests/test_physical_bridge_rigidity_transport.py::test_separate_rational_controls\ntests/test_physical_bridge_mixing_selection.py::test_generic_linear_source_not_exact_axis_even_at_large_quartic\ntests/test_physical_bridge_mixing_selection.py::test_zero_source_phase_comparison_and_normalization_are_retained\ntests/test_physical_bridge_mixing_selection.py::test_relaxation_uses_full_nonorthogonal_gram_projection\ntests/test_physical_bridge_mixing_selection.py::test_obstructed_and_wrong_sign_and_sixth_order_opposite_controls\ntests/test_physical_bridge_mixing_selection.py::test_curvature_and_profile_placement_change_frozen_mixing_quartic\ntests/test_physical_bridge_mixing_selection.py::test_schur_and_no_trivial_fixed_vectors_do_not_certify_irreducible\ntests/test_physical_bridge_mixing_selection.py::test_fixed_native_population\ntests/test_physical_bridge_mixing_selection.py::test_separate_rational_population\n\n14 tests collected in 1.14s\n"
+    },
+    "custody_first": {
+      "raw_basename": "custody_first",
+      "raw_receipt_sha256": "3652108a09917ebb6ede35fea7de9aa61c2bfe6c934972fca5aca47896e2e147",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/rigidity_transport_receipt_check.rb",
+          "<rigidity-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.789323000004515,
+        "log_bytes": 215,
+        "log_sha256": "427d83df4025eaa8ca2efd852e0519786e1562ff7938d357e7e86f6767d6f822"
+      },
+      "stdout_redacted": "{\"frozen_paths\":6,\"local_baseline_pins\":3,\"foreign_pins\":4,\"raw_captures\":11,\"native\":72,\"reference\":20,\"focused\":14,\"scope\":\"R84 byte/population custody only, not whole-ledger, analytic or physical certification\"}\n"
+    },
+    "governance_final": {
+      "raw_basename": "governance_final",
+      "raw_receipt_sha256": "6f31dc24987726636f9bf353ed85afc4906d6703f86d2dd6dfacd67bfbd821ca",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 33.903551000053994,
+        "log_bytes": 2189,
+        "log_sha256": "6f47b63d5a3d8b32a467cc65c8217964f30f676dc2c0159ce7726e3a63153d28"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 74 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 43 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 304 merges since last review (DUE — run the decadal review)\n"
+    },
+    "governance_first": {
+      "raw_basename": "governance_first",
+      "raw_receipt_sha256": "71fa90f22996fedf9a0dc10ec876b9a7a38c3c9011c2249f6cd72fafbd3541ff",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 17.14839500002563,
+        "log_bytes": 2189,
+        "log_sha256": "efcda4db515883aeec1fdb32026772e2d2743cc22a54ef71f2e57eed7881cb5b"
+      },
+      "stdout_redacted": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json (6 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 73 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 43 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 39 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 304 merges since last review (DUE — run the decadal review)\n"
+    }
+  }
+}

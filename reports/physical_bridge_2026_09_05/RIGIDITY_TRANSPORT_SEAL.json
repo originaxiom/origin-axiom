@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "audit": "R84",
+  "science_seal": "aee360ae49fa98fec13eda8b33f51d766585773d",
+  "paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_DESIGN.md",
+      "sha256": "c294909410165cb6070d65b6db68235c5c564862058b7aeb17c86b7e53cd0811",
+      "bytes": 4145
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_PROOF.md",
+      "sha256": "bb3ecda980ab38f9f046694560a9a6801828be77e95c26b9d6e257ce96de80c4",
+      "bytes": 7237
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_INPUTS.json",
+      "sha256": "030ca2d34958f34a89f425a05ffd5fc772efc687adc08a8fea8b2bb38060f544",
+      "bytes": 2620
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/rigidity_transport.py",
+      "sha256": "3b1e25f911176aec2dc2e2d9a577570c102853d3942cd51d26695691a46d3ff6",
+      "bytes": 4117
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/rigidity_transport_control.py",
+      "sha256": "6e63eac0b39f80e652b0f16140b215821602cace40fb5e27a72b771cff08de32",
+      "bytes": 2635
+    },
+    {
+      "path": "tests/test_physical_bridge_rigidity_transport.py",
+      "sha256": "9c15f1f368dfba4309eaa7f287d4a19f8f974c962980df57833fbaa4a245aab6",
+      "bytes": 1531
+    }
+  ],
+  "scope": "Six-path pre-execution custody; not whole-repository or physical certification"
+}
