@@ -16900,3 +16900,32 @@ or broad absence claim. Next GENERATED registering/joining/action law
 with both partners' variations and common physical fermion domain.
 Sender relay R88 OPEN; independent analytic/full-suite/main banking owed.
 Governance26 PASS/four inherited FAIL categories. Full SM/TOE active.
+
+## 2026-10-04 R89 flat coefficients and the full fermion domain
+
+Rechecked the actual m202 flat coefficient complex, instead of turning
+closed bulk Chern-Weil rank-blindness into a programme-wide chirality
+kill. Existing relative source 3/0, complementary dual boundary 0/3,
+detached compensating core 3/3 and invertibly attached core 0/0 all
+survive exact verification. Three arcs remain SUPPLIED; no physical
+generation, PDE profile, anomaly completion or domain selection is
+derived. The relative and resolved problems are not lossless graded
+re-descriptions of each other. Whole-form Green transmission is needed;
+tangential matching alone has a nonzero normal-jump control.
+
+Six science paths were pushed/server-confirmed at f9a5de3726cd42edaf16a181e17d3a085ddc0390
+before import/collection/execution.181 native exact predicates,100
+separately coded Fraction controls and16 focused tests(10 new/6 R88)
+pass unchanged without scientific repair. Same-author verification,
+not independent analytic acceptance/full-suite/main-bank certification.
+FLAT_DOMAIN_AUDIT.md gives proof, custody and source-reading limits.
+
+SM's prior P2 narrowing was already noted in R86 and is explicitly
+credited, not treated as a new warning. Full direct B1537 relay/findings
+and complete P2 passage reread after execution and pinned in separate
+intake, no frozen-input rewrite or silent canonical genesis adoption.
+Newer SM0762032d read-out's named-K10 missing-cover improvement fires;
+remaining synthetic Part F/Part L coverage risks reproduced. No real
+character read or foreign mathematical theorem killed. Sender R89
+relay OPEN. Next GENERATED registering/joining/action/end law carrying
+graph/adjoint domains, norm, gauge and anomalies. Full SM/TOE active.

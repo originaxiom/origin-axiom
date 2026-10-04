@@ -1,0 +1,162 @@
+{
+  "raw_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6/oa-flat-domain.GRMPcl",
+  "captures": {
+    "governance_final": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 18.806714999955148,
+      "log_bytes": 2189,
+      "log_sha256": "dee4c884e306fa05235d7b07f1ee226576b7ab4a717c3bd7f74183611ac92842"
+    },
+    "prior_full_current": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-c",
+        "import subprocess; ns={\"__name__\":\"remote_topic_sweep\", \"__file__\":\"/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/scripts/checks/topic_sweep.py\"}; src=subprocess.check_output([\"git\",\"show\",\"cb09deb04a4b324840bcba21dac6729ffe35e3c6:scripts/checks/topic_sweep.py\"],text=True); exec(compile(src,ns[\"__file__\"],\"exec\"),ns); rx=\"Chern.Weil|flat.*index|chirality.*curvature|domain.*chirality|register.*action\"; rows=ns[\"arcs\"](); hits=ns[\"sweep\"](rx,rows,full=True); print(\"LOCAL OLDER CHECKOUT:\",len(hits),\"of\",len(rows),\"arcs\"); print(\"\\n\".join(h[\"dir\"]+\" \"+str(h[\"verdict\"]) for h in hits)); refs=ns[\"sweep_refs\"](rx); print(\"REMOTE LANES\", {k:len(v) for k,v in refs.items()}); p=subprocess.run([\"git\",\"grep\",\"-I\",\"-l\",\"-i\",\"-E\",rx,\"cb09deb04a4b324840bcba21dac6729ffe35e3c6\",\"--\",\"frontier\",\"docs/EARLY_RECORD_INDEX.md\"],text=True,capture_output=True); print(\"CURRENT MAIN FULL TEXT FILE HITS\",len(p.stdout.splitlines()),\"git-grep exit\",p.returncode); print(p.stdout); raise SystemExit(0 if p.returncode in (0,1) else p.returncode)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 63.18582000001334,
+      "log_bytes": 11517,
+      "log_sha256": "70ef3a2d3f43fd7e9e6768106d41af49be02a26cf788a287e0d966c95766864a"
+    },
+    "custody_first": {
+      "command": [
+        "ruby",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "ref=\"f9a5de3726cd42edaf16a181e17d3a085ddc0390\"; paths=%w[FLAT_DOMAIN_DESIGN.md FLAT_DOMAIN_PROOF.md FLAT_DOMAIN_INPUTS.json flat_domain_audit.py flat_domain_reference.py].map { |n| \"reports/physical_bridge_2026_09_05/\"+n }+[\"tests/test_physical_bridge_flat_domain.py\"]; latest={}; File.read(\"reports/physical_bridge_2026_09_05/ARTIFACT_HASHES.txt\",encoding:\"UTF-8\").each_line { |l| m=l.match(/^([0-9a-f]{64})  (.+)$/); latest[m[2]]=m[1] if m }; paths.each { |p| raw=IO.popen([\"git\",\"show\",ref+\":\"+p],\"rb\", &:read); abort(\"git show failed\") unless $?.success?; sha=Digest::SHA256.file(p).hexdigest; abort(\"science mismatch \"+p) unless sha==Digest::SHA256.hexdigest(raw) && sha==latest[p] }; rec=JSON.parse(File.read(paths[2],encoding:\"UTF-8\")); rec[\"sources\"].each { |v| raw=v[\"ref\"] ? IO.popen([\"git\",\"show\",v[\"ref\"]+\":\"+v[\"path\"]],\"rb\", &:read) : File.binread(v[\"path\"]); abort(\"source command failed\") if v[\"ref\"] && !$?.success?; abort(\"source mismatch \"+v[\"path\"]) unless Digest::SHA256.hexdigest(raw)==v[\"sha256\"] }; puts JSON.generate(science_files:paths.length,source_pins:rec[\"sources\"].length,committed_and_ledger_identical:true)"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.5643830000190064,
+      "log_bytes": 75,
+      "log_sha256": "b674777b3b651ff9a5cf9303987ce89ace0ce76badf53cd20f4667b7fb5e9b47"
+    },
+    "native_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "reports.physical_bridge_2026_09_05.flat_domain_audit"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.2710479999659583,
+      "log_bytes": 14171,
+      "log_sha256": "24e682a11b1b7ac2b5e0278e6f9324cacc1d97e7414e37c002f5825b22bd7e13"
+    },
+    "reference_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "reports.physical_bridge_2026_09_05.flat_domain_reference"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.12281099997926503,
+      "log_bytes": 1339,
+      "log_sha256": "7db50610bbc7afbf5b774c4a912a30e188d57c7aee3a14a8619b2a5e0977bd7d"
+    },
+    "focused_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "pytest",
+        "tests/test_physical_bridge_flat_domain.py",
+        "tests/test_physical_bridge_compact_gluing_kinetic.py",
+        "-q",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 23.43705199996475,
+      "log_bytes": 100,
+      "log_sha256": "6d296f0c41155055f727e30434105fadc0ed0748151e1dd6c056cc3ead6ee96d"
+    }
+  },
+  "native_summary": {
+    "checks": 181,
+    "green": {
+      "annihilator": "8",
+      "full_match_zero": "True",
+      "normal_jump_pairing": "1",
+      "rank": "8"
+    },
+    "passed": 181,
+    "physics_derived": false,
+    "source_domain_generated": false,
+    "synthetic_foreign_diagnostic": {
+      "empty_F_P8": true,
+      "empty_F_readings": 0,
+      "incomplete_P5": true,
+      "incomplete_P6": true,
+      "incomplete_every_cover": false,
+      "missing_named_cover_P10": null,
+      "missing_named_cover_P9": null
+    }
+  },
+  "reference_summary": {
+    "passed": 100,
+    "checks": 100,
+    "physics_derived": false
+  },
+  "focused": {
+    "passed": 16,
+    "new": 10,
+    "retained_R88": 6
+  },
+  "scientific_first_failures": [],
+  "same_author_reference": true,
+  "real_foreign_character_readings": false,
+  "whole_repo_certificate": false,
+  "publication_whitespace": {
+    "original_first_tool_exit": 2,
+    "repeat_capture": {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 2,
+      "signal": null,
+      "elapsed_seconds": 0.08286399999633431,
+      "log_bytes": 90,
+      "log_sha256": "8184c70d667487afac018f2b576b914f938cfa0b58bcff4c343320c10adfab71"
+    },
+    "raw_log_preserved": true,
+    "public_repeat_log": "FLAT_DOMAIN_WHITESPACE_REPEAT.txt",
+    "authored_check_exit": 0,
+    "excluded_raw_path_only": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PRIOR_FULL.txt"
+  },
+  "public_logs": {
+    "governance_final": "FLAT_DOMAIN_GOVERNANCE_FINAL.txt",
+    "prior_full_current": "FLAT_DOMAIN_PRIOR_FULL.txt",
+    "custody_first": "FLAT_DOMAIN_CUSTODY_FIRST.txt",
+    "native_first": "FLAT_DOMAIN_NATIVE_FIRST.txt",
+    "reference_first": "FLAT_DOMAIN_REFERENCE_FIRST.txt",
+    "focused_first": "FLAT_DOMAIN_FOCUSED_FIRST.txt"
+  }
+}

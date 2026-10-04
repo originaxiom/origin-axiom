@@ -1,4 +1,17 @@
-# Verdict toward the full physical-theory goal - R88, updated 2026-10-04
+# Verdict toward the full physical-theory goal - R89, updated 2026-10-04
+
+R89 verifies the existing flat-coefficient domain distinction instead
+of turning the bulk-index theorem into a programme-wide chirality kill.
+Actual m202 relative 3/0, complementary 0/3 and compensating resolved
+core states survive exact checks.181 native/100 Fraction controls and16
+tests pass unchanged at pushed pre-run seal f9a5de372. SM's prior P2
+scope proposal credited; canonical genesis not amended on its behalf.
+A lossless physical join must carry full graph/adjoint domain, operator,
+norm and gauge action, not just topology. Same index is necessary,
+not sufficient. FLAT_DOMAIN_AUDIT.md records scope and the remaining
+synthetic coverage risk in the newer SM read-out. This earns no source
+or physical fermion law; generated register/join/action/end data remain
+the next core duty. Full parameter-free SM/TOE active and unachieved.
 
 R88 joins the actual relative coordinate to local classical kinetics:
 an authored compact implicit-function proof gives smooth admitted fields

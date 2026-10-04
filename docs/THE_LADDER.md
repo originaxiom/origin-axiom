@@ -1,5 +1,13 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October4 R89: generated-join duty made more precise: graph and adjoint
+domains, operator, norm and gauge action must be transported; topology
+alone is not lossless physics. Existing relative flat-coefficient count
+and resolved-core compensation both verified.181 exact/100 Fraction
+controls and16 tests pass at pre-run seal f9a5de372. Report/proof under
+physical_bridge FLAT_DOMAIN_AUDIT.md/FLAT_DOMAIN_PROOF.md. SM's prior
+P2 credited. No source/end law or chiral Standard Model derived.
+
 October4 R88: actual relative coordinate now has LOCAL smooth admitted
 curve and finite positive horizontal kinetic argument, authored and
 conditional on supplied compact action.64 exact/66 modular predicates

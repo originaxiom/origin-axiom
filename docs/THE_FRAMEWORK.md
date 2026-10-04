@@ -1,5 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October4 R89: a generated architecture's physical register must retain
+the domain/adjoint/norm data its updates use. The old flat-coefficient
+relative positive and resolved-core compensation both survive direct
+verification; closed bulk Chern-Weil scope is not a universal chirality
+kill.181 exact/100 Fraction/16 focused checks pass at pre-run f9a5de372.
+FLAT_DOMAIN_AUDIT.md credits SM's prior P2 and keeps the physical law
+unearned. No canonical-genesis amendment or SM/TOE completion assigned.
+
 October4 R88: the relation's actual coordinate has authored LOCAL
 smooth harmonic-family and finite positive kinetic analysis in the
 same supplied compact action.64 exact/66 modular predicates and12 tests

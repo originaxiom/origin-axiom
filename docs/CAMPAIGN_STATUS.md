@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October4 R89: actual flat-coefficient m202 domain comparison verified;
+relative positive and resolved compensating states BOTH retained.
+181 exact/100 Fraction controls and16 tests pass unchanged at pushed
+pre-run seal f9a5de372. FLAT_DOMAIN_AUDIT.md narrows the closed bulk
+index claim and gives necessary physical domain/adjoint/norm transport.
+SM's prior P2 warning credited; no new physical mechanism or adoption.
+Generated registering/joining/action/end law next, full SM/TOE active.
+
 October4 R88: actual relative coordinate's local smooth harmonic family
 and finite positive kinetic norm earned at authored conditional-proof
 grade in SAME supplied action.64 exact/66 modular predicates and12 tests

@@ -1887,3 +1887,20 @@ collection or execution. Same-author reference, all input prices retained.
 | `reports/physical_bridge_2026_09_05/compact_gluing_kinetic.py` | `909919380d288636b8d07b879e69838aa70cf349a5d1330cdd9f978a64d97e95` |
 | `reports/physical_bridge_2026_09_05/compact_gluing_kinetic_reference.py` | `72e3d8e583155de88fbb376e4bbfbefd9f4185e965834ad4b46a7bb18bff033f` |
 | `tests/test_physical_bridge_compact_gluing_kinetic.py` | `317ebf60445820cb1c46b89d083e045b8e5d8d9f3a35a569d05431aa55efc729` |
+
+## October 4 2026 flat coefficient domain scope audit
+
+R89 scientific checkpoint f9a5de3726cd42edaf16a181e17d3a085ddc0390
+pushed and exact server ref confirmed before first import/collection/
+execution. Six files unchanged;181 exact/100 Fraction controls and16
+focused tests pass. Existing R19/R30 mechanisms and SM's P2 credited;
+not physical-domain selection, a new mechanism or whole-repo banking.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/FLAT_DOMAIN_DESIGN.md` | `4c72ee828a3222290be29c57d37b1d03b62f5045b33cce45364ea764c1085881` |
+| `reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PROOF.md` | `60513727e87fae8dc10d05bb5ffb9823a8e6c874e709652348a6a9c8c512091a` |
+| `reports/physical_bridge_2026_09_05/FLAT_DOMAIN_INPUTS.json` | `f0abab356a6b7a2b7cfebf7fb54e16e883db4dd84113e688a699855aabe5cf09` |
+| `reports/physical_bridge_2026_09_05/flat_domain_audit.py` | `656f6a8838c5d971cebea3d8ff7fc1c9dd13e1874473c048af6684b581fffb0b` |
+| `reports/physical_bridge_2026_09_05/flat_domain_reference.py` | `0d428417284753e2b94dca92c7b798ba74414feebf06a2529686ce24c2bef8cc` |
+| `tests/test_physical_bridge_flat_domain.py` | `15922a9a1c03dfc1c9c8fd2ebf504e2b57857a2b3016c9e433466bcddf14e130` |

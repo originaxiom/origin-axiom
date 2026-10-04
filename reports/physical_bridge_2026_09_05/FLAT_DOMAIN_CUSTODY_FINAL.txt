@@ -1,0 +1,1 @@
+{"science_files":6,"source_pins":14,"raw_captures":6,"native":181,"reference":100,"focused":16,"bytes_and_exits_match":true,"mathematical_review":false,"physics_derived":false}

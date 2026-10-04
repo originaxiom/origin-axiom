@@ -1,6 +1,14 @@
 # Origin Axiom
 
 > **Current physical bridge checkpoint October4.**
+> [Flat coefficients and fermion domains](reports/physical_bridge_2026_09_05/FLAT_DOMAIN_AUDIT.md)
+> verifies the existing relative positive and resolved-core compensation,
+> not a new chirality mechanism or physical solution.181 exact/100
+> Fraction controls and16 focused tests pass under pre-run seal f9a5de372.
+> Closed bulk-index scope is not a programme-wide flatness kill. Generated
+> registering/joining/action/end law remains next; full SM/TOE unachieved.
+> SM's prior P2 warning credited; canonical genesis not changed here.
+>
 > [Compact relative family kinetics](reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC.md)
 > supplies an authored local smooth-family and positive finite kinetic
 > argument in the same supplied action.64 exact/66 modular predicates

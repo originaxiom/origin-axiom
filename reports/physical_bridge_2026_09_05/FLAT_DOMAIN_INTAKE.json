@@ -1,0 +1,11 @@
+{
+  "timing": "Post-seal intake after all three scientific/focused first runs completed; no frozen science bytes changed",
+  "ref": "0762032d9fc20f62dba5779c8ed15f33bd2fb868",
+  "sources": [
+    {"path": "SM_TO_CC_AND_CODEX_2026-10-04_GENESIS_PROPOSALS.md", "sha256": "673869cbdb13afb6cd886c2911d54025c414ebc981c82d80f6f44bdd86657812", "reading": "full direct relay personally reread"},
+    {"path": "frontier/B1537_genesis_proposals/FINDINGS.md", "sha256": "0629cf15d8e21787bd9b5a67c626596b9c1ffed75b086f9d03fb9dbc6b75e8b4", "reading": "full findings personally reread; seven reported checks received, not rerun"},
+    {"path": "frontier/B1537_genesis_proposals/proposed/GENESIS_v1_10_with_proposals.md", "sha256": "fae1efe060f6f1e5bccbd9c60e8c2908a756e70168154fba50add2b02ecb5ed4", "reading": "P2 passage personally read in full; whole proposed page not current full reread"}
+  ],
+  "credit": "SM's P2 had already proposed narrowing GAP6. This was also noted in this lane's R86 intake. R89 is a direct verification and domain-transport clarification, not the first discovery of the warning or a new chirality mechanism.",
+  "status": "Main's canonical v1.10 still lacks the proposed P2 text at the pinned main head. Adoption belongs to main. No recipient acceptance or foreign mathematical reproduction assigned."
+}

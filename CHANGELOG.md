@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-04 R89 flat coefficient domains and physical join requirements
+
+Direct existing m202 comparison verifies relative 3/0, complementary
+0/3 and resolved even-core compensation.181 exact/100 Fraction controls
+and16 tests pass unchanged at pushed pre-run seal f9a5de372. SM's prior
+P2 narrowing credited; no new mechanism or canonical genesis adoption.
+FLAT_DOMAIN_AUDIT.md separates closed bulk Chern-Weil scope from
+boundary/singular operators. Lossless physical transport must carry
+domain, adjoint, norm and gauge action; equal indices are not sufficient.
+Newer SM read-out's K10 coverage improvement and remaining synthetic
+Part F/Part L coverage risks verified, not a character census or kill.
+Generated register/join/action/end law still owed; full SM/TOE active.
+
 ## 2026-10-04 R88 compact relative family and finite positive kinetics
 
 Actual joined relative coordinate has an authored local smooth harmonic

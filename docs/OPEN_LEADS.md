@@ -1,5 +1,12 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October4 R89: closed bulk flatness does not settle every sourced/end
+domain. Existing relative and resolved-core comparisons verified at
+f9a5de372; report FLAT_DOMAIN_AUDIT.md. Next generated registering
+relation/join/action/end law with graph/adjoint domain, norm, gauge and
+anomaly transport. No convenient boundary selection rescues physics
+by itself. SM's P2 credited, no whole-architecture kill or new source.
+
 October4 R85 follow-through: actual rank-five/dual join executed in
 reports/physical_bridge_2026_09_05/JOINED_BACKGROUND.md. All three
 characters have invertible matching/full Mat5; same supplied compact

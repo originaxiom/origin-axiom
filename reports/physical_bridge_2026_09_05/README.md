@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+October4 R89: flat-coefficient domain comparison verified directly,
+not a new chirality mechanism. Existing relative 3/0 and resolved core
+compensation both survive; closed bulk Chern-Weil scope cannot be
+promoted to every domain.181 exact/100 Fraction controls and16 focused
+tests pass unchanged under pushed pre-run seal f9a5de372. SM's prior
+P2 warning credited, not silently adopted. FLAT_DOMAIN_AUDIT.md gives
+scope, required domain/adjoint/norm transport and synthetic read-out
+coverage diagnostic. Generated register/join/action/end law still next;
+no full SM/TOE completion or new physical vacuum is claimed.
+
 October4 R88: the actual relative coordinate has an authored LOCAL
 smooth harmonic-family and positive finite quadratic kinetic argument
 in the same supplied compact action, not just a static detector.64

@@ -1,0 +1,39 @@
+{
+  "scientific_commit": "f9a5de3726cd42edaf16a181e17d3a085ddc0390",
+  "pushed_and_exact_server_ref_confirmed_before_first_execution": true,
+  "server_evidence": "Original successful push and matching ls-remote output remain in the tool transcript; no original raw capture is fabricated.",
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_DESIGN.md",
+      "bytes": 4506,
+      "sha256": "4c72ee828a3222290be29c57d37b1d03b62f5045b33cce45364ea764c1085881"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PROOF.md",
+      "bytes": 6612,
+      "sha256": "60513727e87fae8dc10d05bb5ffb9823a8e6c874e709652348a6a9c8c512091a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_INPUTS.json",
+      "bytes": 4708,
+      "sha256": "f0abab356a6b7a2b7cfebf7fb54e16e883db4dd84113e688a699855aabe5cf09"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/flat_domain_audit.py",
+      "bytes": 8334,
+      "sha256": "656f6a8838c5d971cebea3d8ff7fc1c9dd13e1874473c048af6684b581fffb0b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/flat_domain_reference.py",
+      "bytes": 2551,
+      "sha256": "0d428417284753e2b94dca92c7b798ba74414feebf06a2529686ce24c2bef8cc"
+    },
+    {
+      "path": "tests/test_physical_bridge_flat_domain.py",
+      "bytes": 3194,
+      "sha256": "15922a9a1c03dfc1c9c8fd2ebf504e2b57857a2b3016c9e433466bcddf14e130"
+    }
+  ],
+  "grade": "Bounded exact algebra and authored analytic explanation; not an independent physical-domain or whole-repository certificate.",
+  "science_changed_after_first_execution": false
+}

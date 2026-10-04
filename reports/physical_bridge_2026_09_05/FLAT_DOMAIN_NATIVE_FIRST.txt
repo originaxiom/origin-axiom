@@ -1,0 +1,184 @@
+{"name": "source reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md", "pass": true}
+{"name": "source reports/physical_bridge_2026_09_05/holonomy_spectrum.py", "pass": true}
+{"name": "source reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md", "pass": true}
+{"name": "source reports/physical_bridge_2026_09_05/resolved_fermion.py", "pass": true}
+{"name": "source reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md", "pass": true}
+{"name": "source reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md", "pass": true}
+{"name": "source GENESIS.md", "pass": true}
+{"name": "source frontier/B1259_flat_orbifolds_cannot_isolate/arc_verdict.json", "pass": true}
+{"name": "source frontier/B1327_relation_not_observer/FINDINGS.md", "pass": true}
+{"name": "source docs/EARLY_RECORD_INDEX.md", "pass": true}
+{"name": "source frontier/B1538_the_puncture_characters/verification/read_out.py", "pass": true}
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{"name": "native m202 presentation", "pass": true}
+{"name": "flat rank-one relator image", "pass": true}
+{"name": "fresh Fox row equals recorded polynomial", "pass": true}
+{"name": "Fox nilpotence", "pass": true}
+{"name": "missing-term mutant detected", "pass": true}
+{"name": "trivial k=0 relative LES", "pass": true}
+{"name": "trivial k=0 flat relative index", "pass": true}
+{"name": "trivial k=0 complement reverses index", "pass": true}
+{"name": "trivial k=0 coefficient conjugation alone", "pass": true}
+{"name": "trivial k=0 attachment 0", "pass": true}
+{"name": "trivial k=0 attachment 1", "pass": true}
+{"name": "trivial k=1 relative LES", "pass": true}
+{"name": "trivial k=1 flat relative index", "pass": true}
+{"name": "trivial k=1 complement reverses index", "pass": true}
+{"name": "trivial k=1 coefficient conjugation alone", "pass": true}
+{"name": "trivial k=1 attachment 0", "pass": true}
+{"name": "trivial k=1 attachment 1", "pass": true}
+{"name": "trivial k=2 relative LES", "pass": true}
+{"name": "trivial k=2 flat relative index", "pass": true}
+{"name": "trivial k=2 complement reverses index", "pass": true}
+{"name": "trivial k=2 coefficient conjugation alone", "pass": true}
+{"name": "trivial k=2 attachment 0", "pass": true}
+{"name": "trivial k=2 attachment 1", "pass": true}
+{"name": "trivial k=3 relative LES", "pass": true}
+{"name": "trivial k=3 flat relative index", "pass": true}
+{"name": "trivial k=3 complement reverses index", "pass": true}
+{"name": "trivial k=3 coefficient conjugation alone", "pass": true}
+{"name": "trivial k=3 attachment 0", "pass": true}
+{"name": "trivial k=3 attachment 1", "pass": true}
+{"name": "trivial k=4 relative LES", "pass": true}
+{"name": "trivial k=4 flat relative index", "pass": true}
+{"name": "trivial k=4 complement reverses index", "pass": true}
+{"name": "trivial k=4 coefficient conjugation alone", "pass": true}
+{"name": "trivial k=4 attachment 0", "pass": true}
+{"name": "trivial k=4 attachment 1", "pass": true}
+{"name": "trivial Hodge nullities", "pass": true}
+{"name": "a sign k=0 relative LES", "pass": true}
+{"name": "a sign k=0 flat relative index", "pass": true}
+{"name": "a sign k=0 complement reverses index", "pass": true}
+{"name": "a sign k=0 coefficient conjugation alone", "pass": true}
+{"name": "a sign k=0 attachment 0", "pass": true}
+{"name": "a sign k=0 attachment 1", "pass": true}
+{"name": "a sign k=1 relative LES", "pass": true}
+{"name": "a sign k=1 flat relative index", "pass": true}
+{"name": "a sign k=1 complement reverses index", "pass": true}
+{"name": "a sign k=1 coefficient conjugation alone", "pass": true}
+{"name": "a sign k=1 attachment 0", "pass": true}
+{"name": "a sign k=1 attachment 1", "pass": true}
+{"name": "a sign k=2 relative LES", "pass": true}
+{"name": "a sign k=2 flat relative index", "pass": true}
+{"name": "a sign k=2 complement reverses index", "pass": true}
+{"name": "a sign k=2 coefficient conjugation alone", "pass": true}
+{"name": "a sign k=2 attachment 0", "pass": true}
+{"name": "a sign k=2 attachment 1", "pass": true}
+{"name": "a sign k=3 relative LES", "pass": true}
+{"name": "a sign k=3 flat relative index", "pass": true}
+{"name": "a sign k=3 complement reverses index", "pass": true}
+{"name": "a sign k=3 coefficient conjugation alone", "pass": true}
+{"name": "a sign k=3 attachment 0", "pass": true}
+{"name": "a sign k=3 attachment 1", "pass": true}
+{"name": "a sign k=4 relative LES", "pass": true}
+{"name": "a sign k=4 flat relative index", "pass": true}
+{"name": "a sign k=4 complement reverses index", "pass": true}
+{"name": "a sign k=4 coefficient conjugation alone", "pass": true}
+{"name": "a sign k=4 attachment 0", "pass": true}
+{"name": "a sign k=4 attachment 1", "pass": true}
+{"name": "a sign Hodge nullities", "pass": true}
+{"name": "b sign k=0 relative LES", "pass": true}
+{"name": "b sign k=0 flat relative index", "pass": true}
+{"name": "b sign k=0 complement reverses index", "pass": true}
+{"name": "b sign k=0 coefficient conjugation alone", "pass": true}
+{"name": "b sign k=0 attachment 0", "pass": true}
+{"name": "b sign k=0 attachment 1", "pass": true}
+{"name": "b sign k=1 relative LES", "pass": true}
+{"name": "b sign k=1 flat relative index", "pass": true}
+{"name": "b sign k=1 complement reverses index", "pass": true}
+{"name": "b sign k=1 coefficient conjugation alone", "pass": true}
+{"name": "b sign k=1 attachment 0", "pass": true}
+{"name": "b sign k=1 attachment 1", "pass": true}
+{"name": "b sign k=2 relative LES", "pass": true}
+{"name": "b sign k=2 flat relative index", "pass": true}
+{"name": "b sign k=2 complement reverses index", "pass": true}
+{"name": "b sign k=2 coefficient conjugation alone", "pass": true}
+{"name": "b sign k=2 attachment 0", "pass": true}
+{"name": "b sign k=2 attachment 1", "pass": true}
+{"name": "b sign k=3 relative LES", "pass": true}
+{"name": "b sign k=3 flat relative index", "pass": true}
+{"name": "b sign k=3 complement reverses index", "pass": true}
+{"name": "b sign k=3 coefficient conjugation alone", "pass": true}
+{"name": "b sign k=3 attachment 0", "pass": true}
+{"name": "b sign k=3 attachment 1", "pass": true}
+{"name": "b sign k=4 relative LES", "pass": true}
+{"name": "b sign k=4 flat relative index", "pass": true}
+{"name": "b sign k=4 complement reverses index", "pass": true}
+{"name": "b sign k=4 coefficient conjugation alone", "pass": true}
+{"name": "b sign k=4 attachment 0", "pass": true}
+{"name": "b sign k=4 attachment 1", "pass": true}
+{"name": "b sign Hodge nullities", "pass": true}
+{"name": "both signs k=0 relative LES", "pass": true}
+{"name": "both signs k=0 flat relative index", "pass": true}
+{"name": "both signs k=0 complement reverses index", "pass": true}
+{"name": "both signs k=0 coefficient conjugation alone", "pass": true}
+{"name": "both signs k=0 attachment 0", "pass": true}
+{"name": "both signs k=0 attachment 1", "pass": true}
+{"name": "both signs k=1 relative LES", "pass": true}
+{"name": "both signs k=1 flat relative index", "pass": true}
+{"name": "both signs k=1 complement reverses index", "pass": true}
+{"name": "both signs k=1 coefficient conjugation alone", "pass": true}
+{"name": "both signs k=1 attachment 0", "pass": true}
+{"name": "both signs k=1 attachment 1", "pass": true}
+{"name": "both signs k=2 relative LES", "pass": true}
+{"name": "both signs k=2 flat relative index", "pass": true}
+{"name": "both signs k=2 complement reverses index", "pass": true}
+{"name": "both signs k=2 coefficient conjugation alone", "pass": true}
+{"name": "both signs k=2 attachment 0", "pass": true}
+{"name": "both signs k=2 attachment 1", "pass": true}
+{"name": "both signs k=3 relative LES", "pass": true}
+{"name": "both signs k=3 flat relative index", "pass": true}
+{"name": "both signs k=3 complement reverses index", "pass": true}
+{"name": "both signs k=3 coefficient conjugation alone", "pass": true}
+{"name": "both signs k=3 attachment 0", "pass": true}
+{"name": "both signs k=3 attachment 1", "pass": true}
+{"name": "both signs k=4 relative LES", "pass": true}
+{"name": "both signs k=4 flat relative index", "pass": true}
+{"name": "both signs k=4 complement reverses index", "pass": true}
+{"name": "both signs k=4 coefficient conjugation alone", "pass": true}
+{"name": "both signs k=4 attachment 0", "pass": true}
+{"name": "both signs k=4 attachment 1", "pass": true}
+{"name": "both signs Hodge nullities", "pass": true}
+{"name": "exception k=0 relative LES", "pass": true}
+{"name": "exception k=0 flat relative index", "pass": true}
+{"name": "exception k=0 complement reverses index", "pass": true}
+{"name": "exception k=0 coefficient conjugation alone", "pass": true}
+{"name": "exception k=0 attachment 0", "pass": true}
+{"name": "exception k=0 attachment 1", "pass": true}
+{"name": "exception k=1 relative LES", "pass": true}
+{"name": "exception k=1 flat relative index", "pass": true}
+{"name": "exception k=1 complement reverses index", "pass": true}
+{"name": "exception k=1 coefficient conjugation alone", "pass": true}
+{"name": "exception k=1 attachment 0", "pass": true}
+{"name": "exception k=1 attachment 1", "pass": true}
+{"name": "exception k=2 relative LES", "pass": true}
+{"name": "exception k=2 flat relative index", "pass": true}
+{"name": "exception k=2 complement reverses index", "pass": true}
+{"name": "exception k=2 coefficient conjugation alone", "pass": true}
+{"name": "exception k=2 attachment 0", "pass": true}
+{"name": "exception k=2 attachment 1", "pass": true}
+{"name": "exception k=3 relative LES", "pass": true}
+{"name": "exception k=3 flat relative index", "pass": true}
+{"name": "exception k=3 complement reverses index", "pass": true}
+{"name": "exception k=3 coefficient conjugation alone", "pass": true}
+{"name": "exception k=3 attachment 0", "pass": true}
+{"name": "exception k=3 attachment 1", "pass": true}
+{"name": "exception k=4 relative LES", "pass": true}
+{"name": "exception k=4 flat relative index", "pass": true}
+{"name": "exception k=4 complement reverses index", "pass": true}
+{"name": "exception k=4 coefficient conjugation alone", "pass": true}
+{"name": "exception k=4 attachment 0", "pass": true}
+{"name": "exception k=4 attachment 1", "pass": true}
+{"name": "exception Hodge nullities", "pass": true}
+{"name": "singular attachment rank 0", "pass": true}
+{"name": "singular attachment rank 1", "pass": true}
+{"name": "singular attachment rank 2", "pass": true}
+{"name": "singular attachment rank 3", "pass": true}
+{"name": "relative-to-resolved cannot be lossless graded equivalence", "pass": true}
+{"name": "whole-form Green cancellation", "pass": true}
+{"name": "tangent-only transmission mutant detected", "pass": true}
+{"name": "synthetic missing K10 cover is unresolved", "pass": true}
+{"name": "synthetic empty Part F still returns P8 true", "pass": true}
+{"name": "synthetic incomplete L still returns negative predicates", "pass": true}
+{"checks": 181, "green": {"annihilator": "8", "full_match_zero": "True", "normal_jump_pairing": "1", "rank": "8"}, "passed": 181, "physics_derived": false, "rows": [{"base": [1, 2, 1, 0], "character": "trivial", "complement": [0, 1, 2, 1], "k": 0, "relative": [1, 2, 1, 0]}, {"base": [1, 2, 1, 0], "character": "trivial", "complement": [0, 1, 2, 0], "k": 1, "relative": [0, 2, 1, 0]}, {"base": [1, 2, 1, 0], "character": "trivial", "complement": [0, 1, 3, 0], "k": 2, "relative": [0, 3, 1, 0]}, {"base": [1, 2, 1, 0], "character": "trivial", "complement": [0, 1, 4, 0], "k": 3, "relative": [0, 4, 1, 0]}, {"base": [1, 2, 1, 0], "character": "trivial", "complement": [0, 1, 5, 0], "k": 4, "relative": [0, 5, 1, 0]}, {"base": [0, 0, 0, 0], "character": "a sign", "complement": [0, 0, 0, 0], "k": 0, "relative": [0, 0, 0, 0]}, {"base": [0, 0, 0, 0], "character": "a sign", "complement": [0, 0, 1, 0], "k": 1, "relative": [0, 1, 0, 0]}, {"base": [0, 0, 0, 0], "character": "a sign", "complement": [0, 0, 2, 0], "k": 2, "relative": [0, 2, 0, 0]}, {"base": [0, 0, 0, 0], "character": "a sign", "complement": [0, 0, 3, 0], "k": 3, "relative": [0, 3, 0, 0]}, {"base": [0, 0, 0, 0], "character": "a sign", "complement": [0, 0, 4, 0], "k": 4, "relative": [0, 4, 0, 0]}, {"base": [0, 0, 0, 0], "character": "b sign", "complement": [0, 0, 0, 0], "k": 0, "relative": [0, 0, 0, 0]}, {"base": [0, 0, 0, 0], "character": "b sign", "complement": [0, 0, 1, 0], "k": 1, "relative": [0, 1, 0, 0]}, {"base": [0, 0, 0, 0], "character": "b sign", "complement": [0, 0, 2, 0], "k": 2, "relative": [0, 2, 0, 0]}, {"base": [0, 0, 0, 0], "character": "b sign", "complement": [0, 0, 3, 0], "k": 3, "relative": [0, 3, 0, 0]}, {"base": [0, 0, 0, 0], "character": "b sign", "complement": [0, 0, 4, 0], "k": 4, "relative": [0, 4, 0, 0]}, {"base": [0, 0, 0, 0], "character": "both signs", "complement": [0, 0, 0, 0], "k": 0, "relative": [0, 0, 0, 0]}, {"base": [0, 0, 0, 0], "character": "both signs", "complement": [0, 0, 1, 0], "k": 1, "relative": [0, 1, 0, 0]}, {"base": [0, 0, 0, 0], "character": "both signs", "complement": [0, 0, 2, 0], "k": 2, "relative": [0, 2, 0, 0]}, {"base": [0, 0, 0, 0], "character": "both signs", "complement": [0, 0, 3, 0], "k": 3, "relative": [0, 3, 0, 0]}, {"base": [0, 0, 0, 0], "character": "both signs", "complement": [0, 0, 4, 0], "k": 4, "relative": [0, 4, 0, 0]}, {"base": [0, 1, 1, 0], "character": "exception", "complement": [0, 1, 1, 0], "k": 0, "relative": [0, 1, 1, 0]}, {"base": [0, 1, 1, 0], "character": "exception", "complement": [0, 1, 2, 0], "k": 1, "relative": [0, 2, 1, 0]}, {"base": [0, 1, 1, 0], "character": "exception", "complement": [0, 1, 3, 0], "k": 2, "relative": [0, 3, 1, 0]}, {"base": [0, 1, 1, 0], "character": "exception", "complement": [0, 1, 4, 0], "k": 3, "relative": [0, 4, 1, 0]}, {"base": [0, 1, 1, 0], "character": "exception", "complement": [0, 1, 5, 0], "k": 4, "relative": [0, 5, 1, 0]}], "source_domain_generated": false, "synthetic_foreign_diagnostic": {"empty_F_P8": true, "empty_F_readings": 0, "incomplete_P5": true, "incomplete_P6": true, "incomplete_every_cover": false, "missing_named_cover_P10": null, "missing_named_cover_P9": null}}
