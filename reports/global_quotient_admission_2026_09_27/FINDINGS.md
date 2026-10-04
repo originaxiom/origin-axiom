@@ -5,6 +5,38 @@ Uses: regular E8 parent, marked M6 topology, common-line gate. Exact finite
 algebra plus the authored group/duality argument in PROOF.md; not shared
 banking, independent analytic review or an empirical physics claim.
 
+**October 4 follow-through:** the complete phase lattice and component
+quotient were replayed from unchanged seals and preserved in
+ADDENDUM_RECEIPTS_2026_10_04.json. For each of the two permutation actions,
+EVERY monomial multiplier choice is liftable, even with peripheral data
+free. This is certified by explicit small integer relator combinations.
+It does not undo the different nonliftable diagonal examples above.
+
+At the fixed marked peripheral matrices, each multiplicative solution
+group has 192 components (Z8 x Z24). The connected old E(t) family plus
+allowed diagonal gauge fills the identity component, but the 320 scalar
+characters reach only 64 of the components. The residual quotient is
+order three. The two other classes have explicit determinant-one
+cube-root phase representatives, recorded for both seeds in
+COMPONENT_RESULTS.json. They extend the old real exponent cocycle to
+four additional SL5 families on M6. They have not yet been classified
+under arbitrary conjugation/base automorphisms or tested for chirality.
+The earlier common-line theorem remains valid on its original two families;
+it cannot be silently extended to these additional components.
+
+Original lattice seal: 89635b3137807a6ac64c8e6edfcffcf7a69ed4fa.
+Component seal: 490d77c47e7dbd04c954929d6690d2c82fa64205.
+October 4 unchanged native replays exit 0; 24 focused tests pass in 4.15s;
+168 combined tests pass in 38.44s. All eighteen hashes unchanged.
+The September 27 pending regression session could not be recovered, so
+its final exit is not asserted. The replay supplies the current certificate.
+All first admission export failures remain preserved.
+
+The next calculation is the actual E/exterior-square cohomology on these
+new families, retaining actual duals and global H0 corrections. This is
+a finite-coverage repair in the declared representation slice, not a count
+of three generations from the number of components.
+
 ## What changed
 
 Requiring an honest SL5 structure representation E AND an honest common

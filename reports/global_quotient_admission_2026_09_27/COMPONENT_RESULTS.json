@@ -1,0 +1,154 @@
+[
+  {
+    "seed": 0,
+    "component_factors": [
+      8,
+      24
+    ],
+    "total_components": 192,
+    "scalar_character_count": 320,
+    "scalar_component_image": 64,
+    "residual_component_count": 3,
+    "slice_gauge_rank": 2,
+    "connected_family_plus_gauge_rank": 3,
+    "identity_component_dimension": 3,
+    "order_three_witnesses": [
+      {
+        "modulus": 3,
+        "generator_output_phases": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "component_label": [
+          0,
+          8
+        ],
+        "all_three_cosets_cover": true,
+        "determinant_one_all_generators": true
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "component_factors": [
+      8,
+      24
+    ],
+    "total_components": 192,
+    "scalar_character_count": 320,
+    "scalar_component_image": 64,
+    "residual_component_count": 3,
+    "slice_gauge_rank": 2,
+    "connected_family_plus_gauge_rank": 3,
+    "identity_component_dimension": 3,
+    "order_three_witnesses": [
+      {
+        "modulus": 3,
+        "generator_output_phases": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "component_label": [
+          0,
+          8
+        ],
+        "all_three_cosets_cover": true,
+        "determinant_one_all_generators": true
+      }
+    ]
+  }
+]

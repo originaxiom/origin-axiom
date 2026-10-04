@@ -106,9 +106,13 @@ of this operator/domain question.
 - [x] Use a common-model contract to choose the next genuinely distinct
       mechanism: another relative component, a justified source/end law,
       nonflat completion, or a specified interacting mirror-gapping phase.
-- [ ] First audit the combined global quotient and determinant-root
+- [x] First audit the combined global quotient and determinant-root
       obstruction on the actual marked topology; check parent weights,
       compact determinant transport and harmonic admissibility before a census.
+- [x] Check all multiplicative components over the two existing permutation
+      actions: all lift, but scalar lines leave an order-three component quotient.
+- [ ] Compute coupled E/exterior-square spectra in the four new explicit
+      determinant-one phase families before extending the old negative.
 - [ ] For a surviving candidate, compute all five SAME-background charged
       sectors, duals, gauge/Higgs fields, physical operator domains and norms.
 - [ ] Check interactions and anomalies. An index alone does not establish
@@ -118,6 +122,13 @@ Nonliftable quotient sectors and extra color/weak transport remain outside
 today's theorem, not already successful alternatives. They deserve an input
 and feasibility audit before another large census. No new source fields or
 vacuum-selection rule are silently introduced by this roadmap.
+
+**October 4:** the [quotient/component audit](../global_quotient_admission_2026_09_27/FINDINGS.md)
+constructs allowed nonliftable unitary examples and separately exposes
+uncovered LIFTABLE phase families. Neither supplies chirality yet. All 168
+combined tests pass on unchanged seals. The
+[branch intake](../global_quotient_admission_2026_09_27/CROSS_SEAT_REFRESH_2026_10_04.md)
+retains later compact-boundary/source positives at their reading grades.
 
 ## Full-goal obligations beyond these packages
 
