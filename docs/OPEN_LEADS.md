@@ -4035,6 +4035,17 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
      below three to degree 12.
    - Next: read the chain at source. Then seal a census of n(1) and n(ρ) at the trivial character on the covers of m004 and m003
      beyond degree 12.
+   - **Read further and designed (2026-10-04 afternoon; the dossier's §6).** Not sealed; no own character of order ≥ 3 read.
+     - The surfaces are explicit: Reid 1991 through Jaipong (arXiv:1008.1296). Γ_D = Stab_{Γ₈}(C_D) is cocompact for
+       D ≡ 2 mod 3.
+     - Independence: Johnson–Millson through Monroe's Theorem 1.3. r disjoint closed totally geodesic surfaces give
+       n(ρ) ≥ r.
+     - Both golden groups lie in PSL(2, O₃) with index 12 (integral traces of ℚ(√−3)). So their congruence covers are
+       explicit, with Bianchi cusp forms as lower bounds: weight 2 for n(1), weight 3 for n(ρ).
+     - The sharpest next question is the cyclic covers N_ε of the 28 room covers (n(1), n(ρ) ≥ 1). One own character of
+       order ≥ 3 on both jump loci gives room for three, at degree 15 on m003's d5.x (Lemmas A, B).
+     - Draft instruments and controls hold on banked data. The banked rows already fix that at order 2 only the four grows.
+     - Next: seal it (the dossier's `NEXT_ARC_DRAFT_the_room_above_the_room.md`) after sm:B1538 banks.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

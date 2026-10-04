@@ -17582,3 +17582,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   about 1 s each, their headers discarded.
 - Next: Part F′ on four workers, about two and a half hours. Then the append, the sealed read-out once, the scoped read-out
   once, and the bank.
+
+## 2026-10-04 — the golden pointer persisted: dossier §6 (chain, Bianchi bridge, the next arc drafted); sm:B1538's run notes (task 253, task 256)
+
+- On the owner's "make sure nothing is lost. make sure we dont abandon the golden pointer": the scratchpad's afternoon work
+  (literature, structure, the draft instruments and their controls, the draft seal) is now in
+  `docs/dossiers/golden_covers_2026-10-04/` (§6), with sL-12 item 1 updated. sm:B1538's operational notes are in its folder.
+- sm:B1538's Part F′ continues (6,412 of 12,152 candidates at 14:48Z; it survived the session's worker restart).

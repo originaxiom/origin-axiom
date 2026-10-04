@@ -1,5 +1,27 @@
 # Changelog
 
+## The golden pointer kept: the room-for-three chain read further, the Bianchi bridge, and the next arc drafted (the dossier's §6; not sealed)
+
+- **Why now.** The owner, again: "make sure nothing is lost. make sure we dont abandon the golden pointer". The afternoon's
+  work existed only in the scratchpad, so it is committed while sm:B1538's Part F′ runs.
+- **The chain (sL-12 item 1), read further.**
+  - The surfaces are explicit: Reid 1991, through Jaipong arXiv:1008.1296 (Γ_D cocompact for D ≡ 2 mod 3).
+  - Independence: Johnson–Millson, through Monroe's Theorem 1.3 (r disjoint closed surfaces give n(ρ) ≥ r).
+  - n(1) ≥ 2 stays OPEN as a written proof.
+- **The Bianchi bridge** (`gc_structure.py`). Every trace of m004 and m003 is an integer of ℚ(√−3), so both lie in
+  PSL(2, O₃) with index 12. Congruence covers are explicit, and Bianchi cusp forms bound n(1) (weight 2) and n(ρ) (weight
+  3). LMFDB lists no weight-2 form over ℚ(√−3) below level norm 73.
+- **The next arc, drafted.** The cyclic covers of the 28 room covers: one own character of order ≥ 3 on both jump loci gives
+  room for three (Lemmas A, B; degree 15 on m003's d5.x).
+  - Draft library `gc_own_chars.py`, with routes R′ (route_r), P′ (punct_present) and N (sm:B1536's, on N_ε).
+  - Controls `gc_own_chars_controls.py` all hold: K1 36, K2 14, K3 52 readings, on banked data or values the banked rows fix.
+  - The banked rows already fix that at order 2 only the four grows.
+  - Draft seal: `NEXT_ARC_DRAFT_the_room_above_the_room.md`.
+- **A check of sm:B1536's negative.** Its (k, −k) counts are anomalous (cubic anomaly −2k), not generations. The dictionary
+  was re-derived: N(10′) and N(5̄′) carry the same sign in every convention.
+- **sm:B1538's run notes** (`verification/run_notes.md`, with `partF_cost.py`). These are its operational record, including
+  a docstring slip in the sealed `identity.py` ("K0-K10"; it checks K0–K12). No outcome is in them.
+
 ## B1538 addendum beside the seal: Part F scoped to what can be read (Part F′), before any Part F reading was read
 
 - **Why.** As sealed, Part F plans 948,832,288 readings over 64,422 candidates, about 458 days on its one worker. It was

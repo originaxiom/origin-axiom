@@ -1,0 +1,21 @@
+d5.2: H_1 = Z^3 + []; prime 2147482921
+  e = (0, 0, 1): N_e = d10.4; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (0, 1, 0): N_e = d10.13; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (0, 1, 1): N_e = d10.11; (n(1), n(rho)) route N (1, 1), banked (1, 1), route R' sums (1, 1); n_N(e) = 0, n_N(rho e) = 0
+  e = (1, 0, 0): N_e = d10.9; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (1, 0, 1): N_e = d10.14; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (1, 1, 0): N_e = d10.12; (n(1), n(rho)) route N (1, 1), banked (1, 1), route R' sums (1, 1); n_N(e) = 0, n_N(rho e) = 0
+  e = (1, 1, 1): N_e = d10.2; (n(1), n(rho)) route N (1, 1), banked (1, 1), route R' sums (1, 1); n_N(e) = 0, n_N(rho e) = 0
+d5.3: H_1 = Z^3 + []; prime 2147482921
+  e = (0, 0, 1): N_e = d10.39; (n(1), n(rho)) route N (1, 1), banked (1, 1), route R' sums (1, 1); n_N(e) = 0, n_N(rho e) = 0
+  e = (0, 1, 0): N_e = d10.18; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (0, 1, 1): N_e = d10.36; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (1, 0, 0): N_e = d10.24; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (1, 0, 1): N_e = d10.22; (n(1), n(rho)) route N (1, 1), banked (1, 1), route R' sums (1, 1); n_N(e) = 0, n_N(rho e) = 0
+  e = (1, 1, 0): N_e = d10.38; (n(1), n(rho)) route N (1, 2), banked (1, 2), route R' sums (1, 2); n_N(e) = 0, n_N(rho e) = 1
+  e = (1, 1, 1): N_e = d10.21; (n(1), n(rho)) route N (1, 1), banked (1, 1), route R' sums (1, 1); n_N(e) = 0, n_N(rho e) = 0
+d10.4: H_1 = Z^4 + []; prime 2147482921
+K1 (36 pulled-back characters): True
+K2 (14 order-2 own characters): True
+K3 (52 readings): True
+ALL HOLD: True

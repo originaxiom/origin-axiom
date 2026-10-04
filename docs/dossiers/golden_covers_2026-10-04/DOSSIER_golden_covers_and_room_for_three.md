@@ -192,12 +192,92 @@ Three strands, all golden:
    Fibonacci construction is read (§4 (c)).
 4. Then decide whether "room for three on some finite cover" is a theorem of the record, with a written proof and a lock.
 
+## 6. Added 2026-10-04 afternoon: the chain read further, the Bianchi bridge, and the next arc (designed, not sealed)
+
+Written while sm:B1538's Part F′ runs. Nothing here reads a twisted cohomology group at a new character: it is literature,
+structure (`gc_structure.py`, record `gc_structure_run.txt`), or controls on banked data and on values the banked rows already
+fix (`gc_own_chars_controls.py`, record `gc_own_chars_controls_run.txt`).
+
+**(a) The chain of §3, read further.**
+- **Item 1 (the surfaces exist).** Reid, Proc. Edinburgh Math. Soc. 34 (1991) 77–88, as stated and cited by Jaipong,
+  "Totally geodesic surfaces with arbitrarily many compressions", arXiv:1008.1296 (read 2026-10-04): the figure-eight
+  complement contains infinitely many commensurability classes of closed immersed totally geodesic surfaces.
+  - Jaipong makes them explicit. Γ₈ = ⟨(1 1; 0 1), (1 0; −ω 1)⟩ has index 12 in PSL(2, O₃).
+  - Γ_D = Stab_{Γ₈}(C_D), for C_D a circle about 0 indexed by D ∈ ℤ⁺, has finite co-area. For D ≡ 2 mod 3 it is cocompact,
+    and S_D = P_D/Γ_D is a closed (acylindrical) totally geodesic surface in m004.
+  - Reid's paper and Maclachlan–Reid ch. 9 themselves are not yet read.
+- **Item 3 (independence).** Monroe, arXiv:2604.22004, Theorem 1.3, citing Johnson–Millson (1987):
+  > "Suppose a manifold M = Γ∖ℍⁿ contains r disjoint embedded two-sided connected totally geodesic hypersurfaces
+  > M₁, M₂, …, M_r. Then we have that the dimension of deformations into G is at least r."
+  - For closed surfaces in a cusped manifold the bending cocycles miss the cusps, so they are interior classes of the four:
+    n(ρ) ≥ r. Monroe identifies PH¹ with the cuspidal part (Kapovich).
+  - His Corollary 1.5.1 uses the implication contrapositively: the Borromean rings have H¹ = 3 and PH¹ = 0, so they contain
+    no closed embedded totally geodesic surface.
+  - Branched bending along cusped faces (his Theorem 1.1; Bart–Scannell for n = 3) gives non-cuspidal classes only.
+- **Item 4 (n(1) ≥ 2)** stays OPEN as a written proof. (c) below gives a computable route.
+
+**(b) The Bianchi bridge** (`gc_structure.py`, Part 1).
+- Every trace of m004 (23 minimal polynomials) and m003 (21) over the words of length ≤ 4 is an algebraic integer of ℚ(√−3).
+  The discriminants are −3 times squares.
+- So both groups have trace field = invariant trace field = ℚ(√−3) with integral traces, and are derived from M₂(ℚ(√−3))
+  (Maclachlan–Reid ch. 8). ℚ(√−3) has class number 1, so each lies in PSL(2, O₃) up to conjugacy, of index 12
+  (vol PSL(2, O₃)∖ℍ³ = 0.16916 = 2.02988/12).
+- **Consequence.** For an ideal 𝔫 of O₃, Γ ∩ Γ₀(𝔫) gives an explicit cover of either golden state, and interior classes
+  pull back injectively:
+  - n(1) ≥ dim H¹_cusp(Γ₀(𝔫); ℂ), the weight-2 Bianchi cusp forms;
+  - n(ρ) ≥ dim H¹_cusp(Γ₀(𝔫); E₁,₁), the weight-3 ones, since ρ = h ⊗ h̄ = E₁,₁.
+- **What the tables say.** LMFDB (read 2026-10-04) lists no weight-2 Bianchi newform over ℚ(√−3) of level norm below 73
+  (73.1-a, 73.2-a, then 75.1-a). Rahm's dimension tables, which would give weight 3, are offline (HTTP 404).
+- Whether sm:B1536's small covers, with interior classes from degree 5, are congruence covers is not decided here.
+
+**(c) The cyclic covers of the room covers: the next arc's question.**
+- **Lemma A.** For an own character ε of order k of a cover N, the cyclic cover N_ε has, for E = 1 or ρ,
+  n_{N_ε}(E) = Σ_{j mod k} n_N(E ⊗ εʲ).
+  - Proof: Shapiro and Mackey, with ℂ[μ_k] in place of sm:B1536's permutation module. The interior parts split.
+- **Lemma B.** For E real (the line, the four), n_N(E ⊗ ε̄) = n_N(E ⊗ ε).
+  - Proof: complex conjugation is an isomorphism of cochain complexes that commutes with restriction to the cusps.
+- **Corollary.** One own character of order ≥ 3 with n_N(ε) ≥ 1 and n_N(ρ ⊗ ε) ≥ 1 adds at least 2 to both supplies. On
+  m003's d5.2 or d5.3, which have (n(1), n(ρ)) = (1, 1), it gives room for three on a cover of degree 15.
+- **H₁ of the 28 covers** of degree ≤ 12 with n(1) ≥ 1 and n(ρ) ≥ 1 (`gc_structure.py`, Part 2; b₁ = #cusps + n(1) on
+  all 28):
+  - d5.2, d5.3: ℤ³;
+  - m004's d10.3, d10.24: ℤ⁴;
+  - m003's degree-10 covers: ℤ⁴, ℤ⁵ or ℤ³ ⊕ ℤ/2.
+- **Controls** (`gc_own_chars_controls.py`), all holding:
+  - **K1:** route R′ (route_r on the cover's own modules) reproduces sm:B1536's banked supplies at 36 pulled-back
+    characters. The abelianisation recovers each one.
+  - **K2:** the 14 order-2 own characters of d5.2 and d5.3. Each double cover N_ε is identified with a banked degree-10
+    cover, and three readings agree: route N on N_ε, the banked row, and route R′'s sums.
+  - **K3:** route P′ (sm:B1538's punct_present on a shim of the cover; python-flint) agrees with route R′ at 52 readings.
+- **What the banked rows already fix.**
+  - On d5.2 and d5.3, every order-2 own character has n(ε) = 0.
+  - Four of seven on each have n(ρ ⊗ ε) = 1. Their double covers are d10.4, d10.13, d10.9, d10.14 and d10.18, d10.36,
+    d10.24, d10.38: eight of the sixteen room-two covers.
+  - So at order 2 only the four grows. Room for three needs the line to grow at an own character of order ≥ 3 where the four
+    grows too. **Not read: any own character of order ≥ 3.** It is sealed first.
+
+**(d) A check of sm:B1536's banked negative (it holds).**
+- Its class counts include (1, −1) ×52 and (2, −2) ×12 + 4. With one sign flipped those would be generations, so the
+  dictionary was re-derived.
+- E₈ ⊃ SU(5) × SU(5)′ gives 248 ⊃ (10, 5) + (5̄, 10) + (10̄, 5̄) + (5, 10̄), as in sm:B1509 §1. N(10′) and N(5̄′) carry
+  the same sign in every convention, so a generation needs I(W₁) = I(Λ²W₁) (sm:B1509: "that holds in both conventions").
+- The SU(5) cubic anomaly confirms it: (−3, −3) cancels (3 − 3 = 0), while (2, −2) gives −2 − 2 = −4. So (k, −k) is
+  anomalous, not k generations.
+- sm:B1535's Theorem C (i) also forces I(Λ²W₁) ≤ 0 at every class.
+
+**(e) The next arc.** Draft: `NEXT_ARC_DRAFT_the_room_above_the_room.md`; instruments `gc_own_chars.py`. It is sealed after
+sm:B1538 banks, before any own character of order ≥ 3 is read.
+
 ## Reproduce
 
 - `python3 docs/dossiers/golden_covers_2026-10-04/gc_icosian.py` prints `gc_icosian_run.txt` (group theory only). It
   imports sm:B1538's `punct_covers` (the states) and sm:B1530's `exact_states` (the Eisenstein holonomy) by path.
 - `gc_binary_polyhedral.py` prints `gc_binary_polyhedral_run.txt` (group theory only; the states by path).
 - `gc_fibonacci.py` prints `gc_fibonacci_run.txt` (SnapPy; a published theorem and a banked control).
+- `gc_structure.py` prints `gc_structure_run.txt` (§6 (b), (c): traces and H₁; structure only).
+- `gc_own_chars_controls.py` prints `gc_own_chars_controls_run.txt` (§6 (c): the next arc's controls on banked data;
+  `gc_own_chars.py` is the draft library, loading sm:B1536's route_r, route_n, population and sm:B1538's
+  punct_present by path).
 
 ## Seen first (the repo sweep and the literature)
 

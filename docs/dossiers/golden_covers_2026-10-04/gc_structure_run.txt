@@ -1,0 +1,32 @@
+Part 1: the traces (words of length <= 4)
+  m004: 23 minimal polynomials; all monic over Z: True; quadratic discriminants [-3072, -1728, -768, -675, -192, -108, -75, -48, -27, -12, -3]: all -3 x a square: True
+  m003: 21 minimal polynomials; all monic over Z: True; quadratic discriminants [-147, -75, -48, -27, -3]: all -3 x a square: True
+Part 2: H_1 of the covers with n(1) >= 1 and n(rho) >= 1 at the trivial character (sm:B1536, banked)
+  m004 d10.24: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m004 d10.3: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d5.2: H_1 = Z^3; cusps 2, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d5.3: H_1 = Z^3; cusps 2, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.10: H_1 = Z^5; cusps 4, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.11: H_1 = Z^3 + Z/2; cusps 2, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.12: H_1 = Z^3 + Z/2; cusps 2, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.13: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.14: H_1 = Z^5; cusps 4, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.16: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.17: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.18: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.19: H_1 = Z^5; cusps 4, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.2: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.21: H_1 = Z^3 + Z/2; cusps 2, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.22: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.23: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.24: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.27: H_1 = Z^5; cusps 4, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.36: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.38: H_1 = Z^5; cusps 4, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.39: H_1 = Z^3 + Z/2; cusps 2, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.4: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.40: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.5: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.6: H_1 = Z^5; cusps 4, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
+  m003 d10.8: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 1; b1 = cusps + n(1): True
+  m003 d10.9: H_1 = Z^4; cusps 3, n(1) 1, n(rho) 2; b1 = cusps + n(1): True
