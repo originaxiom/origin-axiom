@@ -17124,3 +17124,12 @@ unchanged. First custody snapshot verifies9 raw captures; final10 plus
 that snapshot. Latest artifact rows folded forward after a temporary
 14-surface digest mismatch during planned documentation updates; none
 of the six immutable science files changed. No acceptance waiver.
+
+October4 R93 preregistered actual compact joined Wilson phase, outcome
+pending: JOINED_WILSON_DESIGN.md/PROOF.md, native whole-E8/actual-join
+and separate modular producers plus LIVE tests. Full physics objective
+ACTIVE/unachieved; existing commuting field and same action, not a new
+source or a selected SM direction. Original source bytes pinned before
+first import; commit/push/server confirmation required. Pre-seal input
+patch's relative-path landing was corrected to the explicit repository
+path before execution; no science import or lost input occurred.

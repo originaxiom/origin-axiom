@@ -4,6 +4,7 @@
 
 | H# | hint | type | noticed | state | flags | disposition |
 |---|---|---|---|---|---|---|
+| H-PB-R93 | Can the actual admitted rank-five/dual join's primitive one-cycle support an SM connected gauge phase in the same action, with full-parent kernel and kinetic/domain costs retained? | QUESTION | 2026-10-04 | PROMOTED | supplied compact join/action/cocharacter; no selection or chirality assumed | JOINED_WILSON_DESIGN.md/PROOF.md under physical_bridge. Decision to run exact actual-join, whole-E8, two-sided Wilson and separate modular controls; pre-run seal required. Not a new global H-number. |
 | H-PB-R92 | Does ordinary multiplication of spin defects recover the true affine symmetry orbit, and is an ordinary parent SL2 lift being confused with its central extension? | QUESTION | 2026-10-04 | PROMOTED | supplied-action/type and coverage controls | Executed path-local R92 unchanged at53e40eea9;45 exact/2065 separate-reference/18 tests pass. Universal shortcut refuted under affine hypotheses alone; actual member table not refuted. AFFINE_SPIN.md/PROOF.md; full action/coverage and physical central-extension/domain duties remain. |
 | H-PB-R91 | Can actual mixed E8 fields carry the noncentral flag current while preserving a transported color/weak/hypercharge frame? | QUESTION | 2026-10-04 | PROMOTED | supplied-parent; frame and complete-action duties | Path-local R91 test executed after corrected seal; algebraic current shape passes, stationary solution not constructed. Full result MIXED_CURRENT.md, not a new global H-number or physical identification. |
 

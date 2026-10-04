@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-04 R93 admitted joined Wilson phase pre-execution checkpoint
+
+Design/proof, actual-join/root producer, separate modular reference and
+LIVE tests sealed before imports. Spend R85 admission/R86 b1=1 without
+new fields; full E8, source-free stationarity, connected gauge group,
+kinetic/domain/chirality and selection costs retained. Outcome pending;
+not main-bank/full-suite acceptance or full parameter-free SM/TOE.
+
 ## 2026-10-04 R92 affine spin action and larger-cover positive intake
 
 An exact complete supplied affine group gives false FIX under the

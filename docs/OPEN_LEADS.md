@@ -1,5 +1,13 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October4 R93 decision-to-test H-PB-R93: spend R85 admitted compact
+rank-five/dual join and R86 primitive b1=1 in EXISTING commuting SU5
+Wilson connection. Test full E8 kernel/action/positive kinetic premises,
+closed-domain paired charged and adjoint-profile costs; no new source
+or selected SM direction assumed. JOINED_WILSON_DESIGN.md/PROOF.md
+under physical_bridge, exact and separate modular producer plus LIVE
+tests require pre-run commit/push/server seal. Full SM/TOE unachieved.
+
 October4 R92 decision-to-test H-PB-R92 EXECUTED unchanged at pre-run
 53e40eea9:45 exact/2065 separate-reference/18 focused tests pass. The
 closing sentence is only: ordinary sign-span/coset closure does not

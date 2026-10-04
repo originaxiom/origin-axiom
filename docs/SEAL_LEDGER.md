@@ -1974,3 +1974,19 @@ affine equation and SM degree45 reading-grade positive are retained.
 | `reports/physical_bridge_2026_09_05/affine_spin.py` | `32563d67c3d90b4f91717d3709190a242cee3f16803ae407bcc0989da38aade7` |
 | `reports/physical_bridge_2026_09_05/affine_spin_reference.py` | `e68ba06277c4aaadcc7612439f3f56b86d11b35f3811ab4a0d972003024d7b6a` |
 | `tests/test_physical_bridge_affine_spin.py` | `3bb05b67fc37f9f02967aca57f68bf6e58065a4804bb7febaeb80ffbea7e4236` |
+
+## Joined Wilson pre execution seal October 4 2026
+
+R93 actual compact join and existing gauge connection. No science run
+yet; commit/push/server-byte confirmation required before import or test
+collection. Same-author/conditional research checkpoint, not main banking
+or physical goal completion. B862 prior Z6 and B1079 choice costs credited.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/JOINED_WILSON_DESIGN.md` | `d4003f8f135c8127241739278ee563e5627983afaeded39efa4315415aef7c73` |
+| `reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md` | `85a965a2e98f7d0e699044ecb8ef4c64a682575ebde1f3299d87345432fba711` |
+| `reports/physical_bridge_2026_09_05/JOINED_WILSON_INPUTS.json` | `0a0ff2cc69d060b6a6da4f9a573b61fb56d2eb85ff82a3282e1b80fb2199c775` |
+| `reports/physical_bridge_2026_09_05/joined_wilson.py` | `41c52a446b2b62c2a96660d3627874f2de0cb4742b294e4259ee70662ab8bae7` |
+| `reports/physical_bridge_2026_09_05/joined_wilson_reference.py` | `4a3947526d88b00b4bc647c244a12a802358e523fbb0676aeb82c424f4bc7113` |
+| `tests/test_physical_bridge_joined_wilson.py` | `52b1cf546d780a54c94ec9da041f2326ade948386dfbc72670346c5b028611fc` |

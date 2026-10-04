@@ -1,0 +1,128 @@
+{
+  "scope": "R93 actual supplied joins and existing gauge Wilson fields, not generated physical selection",
+  "sources": [
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/joined_background.py",
+      "bytes": 11222,
+      "sha256": "f1d6bfb9e998a3306ddb41757c9356f4e99757a93ebbfc474e84be9d49bee4c7",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/joined_background_reference.py",
+      "bytes": 8832,
+      "sha256": "22e41effc4acf899172e4bd95c196c11542ebd58580d14ea9e20dbce49eae869",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/cross_branch_positives.py",
+      "bytes": 11672,
+      "sha256": "57d52d0268cc8562522560029727026d5d0cc80e88bd0f464aee704858911731",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/gluing_freedom.py",
+      "bytes": 9226,
+      "sha256": "501b3c87400f198035360dc760f19937a97c3d3bf6fd7801cecf325ae20f27f9",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md",
+      "bytes": 7577,
+      "sha256": "e071e28279f7d9653df8ea8a236133eb29647fd1e5e82bab74bf5b7c3ddfa816",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md",
+      "bytes": 5865,
+      "sha256": "12e2a21cf23ea31c111ff36670570e69d5a51293bd596817b0a2fe122f95b932",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md",
+      "bytes": 8040,
+      "sha256": "7540f6d2abafd4451913f07ee4456f0d6207ec5eff7427447926a67066abcef6",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md",
+      "bytes": 4490,
+      "sha256": "cc963aa5777732531038806c728dddae103ed0faa69b6c12f045a3a717151c60",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/mixed_current.py",
+      "bytes": 9872,
+      "sha256": "0fb26165ddb8699ab4c1184deb197187d916dc1e03624b37ebc996c8e6d672a1",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_PROOF.md",
+      "bytes": 5068,
+      "sha256": "21d6b895f54abdaf78be9c552cc65c09ff5874bbf3efc85a394fc581a0f9e22f",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+      "bytes": 9845,
+      "sha256": "f36b9b432767a54db62e19135f34bb7968f7e3c39c5914719bef208d54da5685",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "frontier/B862_global_form/FINDINGS.md",
+      "bytes": 2498,
+      "sha256": "f17a369a935e4948bcd805c3ea725d84771b923ec3371cb15144c5559f93a943",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "18f7204b75e039c8d1765a0241dfd8c84252db3f",
+      "path": "frontier/B1079_wilson_menu/FINDINGS.md",
+      "bytes": 3984,
+      "sha256": "92963b5d3336bb84aa1f4130c2ff693bc332795e0b240f63f677fa11b16acb16",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "docs/handoffs/CC_TO_CODEX_AND_SM_2026-10-04_R83_ANSWERED_THE_FORK_PUSHED_AND_PHASE_1B.md",
+      "bytes": 2527,
+      "sha256": "a6910a1bb08cda3811a747dbeb89b5870606779355997e57f2cfcecea74bb312",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B1475_the_spin_swap_phase_1b_does_the_swap_carry_a_quantity/FINDINGS.md",
+      "bytes": 6634,
+      "sha256": "9d3bfabde55c9a295adc5d75ba653ceafa219b3e41f177e9905ff7945a968eb4",
+      "reading": "Complete source personally read; original local inputs conditionally retained, incoming main evidence reading grade only"
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/1812.06072v2",
+      "reading": "Section2.3 read in full, selected action/BPS sections read; not a fresh whole-paper reading or G2 completion certificate"
+    }
+  ],
+  "prior_search": {
+    "heads": 19,
+    "absence_sweep": "PRESENT, path-only deleted-history coverage",
+    "already_banked_terms": "Wilson harmonic joined SM SU5",
+    "already_banked_hits": 22,
+    "settled_multi_term_matches": 0,
+    "atlas_epoch": 1161,
+    "novelty_claim": false
+  },
+  "actual_manifold_spin_table_recomputed": false,
+  "foreign_result_recertified": false,
+  "physical_goal_achieved": false
+}
