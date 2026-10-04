@@ -1,5 +1,35 @@
 # Changelog
 
+## sL-12 registered: the room for three and the golden covers (a dossier; nothing sealed, no outcome read)
+
+- **Why now.** The owner asked that three generations stay first, that no result be left unrecorded, and that the golden
+  pointer not be dropped. The leads found while sm:B1538 and sm:B1536 run sealed are now in the repo:
+  `docs/dossiers/golden_covers_2026-10-04/` (the dossier, three scripts and their records) and sL-12 in `docs/OPEN_LEADS.md`.
+- **What is computed** (group theory, a few seconds; `gc_icosian.py` and, by a second route, `gc_binary_polyhedral.py`).
+  - Of the 76 kernels F₂ → 2I (Hall's count, reproduced), each golden state's monodromy fixes 2 and the silver states' none.
+    The silver states fix four binary octahedral kernels instead.
+  - The twelve golden fibre-direction A₅ covers of degree 60: their cusp patterns, ζ = −1 on every puncture loop, and the
+    outer automorphism τ induces on 2I. They are not m004's level-2 congruence covers (the joint image has order 300).
+- **A correction before commit.** The draft said only the golden monodromy fixes icosian kernels at level 1. Over every
+  word state of length 2 to 6, 28 of 50 do (and 14 fix a 2O kernel, 20 a 2T kernel). The icosian line is common, not a golden
+  selection. The draft's sentence now carries its scope: sm:B1538's four states.
+- **Scannell, read at source and checked.**
+  - His Theorem 4.3 gives dim H¹(F_m; ℝ^{3,1}) = 2 on every Fibonacci manifold with m ≥ 4. These are the record's closings
+    Yₙ, and the classes come without totally geodesic surfaces.
+  - Own code (`gc_fibonacci.py`, SnapPy at 212 bits) gives 2 at m = 4–8.
+  - The control on banked data: the cusped levels M₁–M₆ give 1, the cusp's half, as sm:B1515 found.
+- **What is argued, not sealed.**
+  - The icosian line: 8 root-of-unity eigenvalues in ± pairs, with n(ζ, s) at most 4 at one s.
+  - Room for three at the trivial character (n(1) ≥ 2 and n(ρ) ≥ 3) by a published bending chain. Three of its links are
+    OPEN.
+- **What counts against it, kept beside it.**
+  - Over the icosian line, membership needs interior classes of the four: ν(∂) is a primitive 8th root of unity on every
+    cusp, so the boundary supplies nothing.
+  - m004 is small, so bending surfaces need genuinely larger covers.
+  - On the closings Yₙ, b₁ = 0 and B1303's criterion allow at most one class of the line per character. So capW ≤ 1, and
+    the closings host at most one generation if Theorem C is read there (not established).
+- 0 of 19 stays 0.
+
 ## The fast lane on e41609cf (the tree after sm:B1537); B805's forcing-graph lock re-based
 
 - **Fast lane on e41609cf** (3 h 27 min, in a worktree pinned at that commit, on a machine shared with sm:B1536's sealed runs):

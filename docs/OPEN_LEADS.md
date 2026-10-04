@@ -4001,3 +4001,55 @@ orientation-reversing map fixes it), but it keeps the count. Scope: frame F-HE, 
 3. **Curvature in a frame whose arithmetic allows three** (sm:B1531 §8 (c)). The reframing's four-dimensional bulk with instantons
    is untried as such. B1397: flux caps in the E6 frames give even counts; B1503: positive curvature kills the link's index.
    The open question is the frame, not the curvature.
+
+## sL-12 — THE ROOM FOR THREE AND THE GOLDEN COVERS (registered 2026-10-04; this seat's proposal, the owner may reorder)
+
+*Registered 2026-10-04 on the owner's direction: three generations first, nothing left unrecorded, and the golden pointer kept.
+Not sealed, and no outcome of the record is read. The only cohomology computed checks a published theorem (Scannell's) and a
+banked control (sm:B1515's). The structure, the literature read and the negatives found on the way are in
+`dossiers/golden_covers_2026-10-04/DOSSIER_golden_covers_and_room_for_three.md`. `gc_icosian.py`, `gc_binary_polyhedral.py`
+and `gc_fibonacci.py` in the same folder reproduce every number.*
+
+1. **Room for three by bending.** In sm:B1515's frame with sm:B1535's Theorem C, at the trivial character of a finite cover N,
+   room for three holds exactly when n(1) ≥ 2 and n(ρ) ≥ 3.
+   - A published chain would give such an N over m004: arithmetic, so closed immersed totally geodesic surfaces
+     (Maclachlan–Reid); Long 1987, embedded non-separating lifts in finite covers (verified as cited by DeBlois, AGT 2006);
+     bending, so classes of the four (Scannell, PJM 2000; Bart–Scannell; Monroe).
+   - OPEN: the surfaces at source, the independence of the bent classes, and n(1) ≥ 2 from two non-homologous surfaces.
+   - If the chain holds, Theorem C cannot exclude three on every finite cover. Every negative stays scoped to its population,
+     and the questions become the class count and which cover is selected (GENESIS GAP4 and THE_BAR: room without a selector
+     is a landscape, not a prediction).
+   - Against it: m004 is small, and H³/PSL(2, O₃) has no closed embedded totally geodesic 2-orbifold (Jung–Reid's setting), so
+     the surfaces embed only in genuinely larger covers. A census of small covers can come back negative while room exists
+     higher up.
+   - Next: read the chain at source. Then seal a census of n(1) and n(ρ) at the trivial character on the covers of m004 and m003
+     beyond degree 12.
+2. **The icosian line on the golden states** (structure computed; no outcome read).
+   - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
+     four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix
+     an icosian kernel at level 1 (`gc_binary_polyhedral.py`, which also corrects the dossier's first draft).
+   - That gives twelve fibre-direction A₅ covers of degree 60, three per fixed kernel. On each, ζ = −1 on every puncture loop
+     and the induced automorphism of 2I is outer.
+   - Argument, not sealed: the icosian component is totally definite and has multiplicity one, so 8 eigenvalues are roots of
+     unity in ± pairs. n(ζ, s) reaches 4 at one s only where τ² acts as ±1 there (possible on the eleven-cusp covers), and is
+     at most 2 elsewhere.
+   - These are not m004's level-2 congruence covers (the joint image has order 300).
+   - Against it: over this line, membership needs interior classes of the four at ν⁵, because ν(∂) is a primitive 8th root of
+     unity on every cusp, so the boundary supplies nothing.
+   - Next: seal a read of n(1), n(ρ) and the line on the twelve covers and their 2I double covers.
+3. **The golden pointer** (kept first-class; three strands).
+   - (a) Item 2.
+   - (b) Q₈ ⋊ ℤ/3 = 2T on the golden (ℤ/2)² covers (sm:B1538's control K10). 2T is also the E₆ stabiliser of B1084, B1353 and
+     B1357; that is a coincidence of groups, not a mechanism. sm:B1536 reads n(ρ) on the Q₈ tower.
+   - (c) The Fibonacci manifolds F_m, which are the record's closings Yₙ (B1273, B1303). Scannell, read at source and
+     verified here at m = 4–8 (`gc_fibonacci.py`): exactly two classes of the four at the trivial character, with no totally
+     geodesic surface. The cusped levels M₁–M₆ give only the cusp's class, as sm:B1515 banked.
+   - Against (c): F_m has b₁ = 0, and B1303 gives h¹(Yₙ; ψ) ≤ 1 at every character, so capW ≤ 1 on every closing. Read on a
+     closed manifold, which is not established, the closings host at most one generation. The strand locates the four; it is
+     not a host.
+   - Open, to be sealed: n(ψ ⊗ ρ) on Yₙ at the non-trivial characters ψ of H₁(Yₙ). On M₁–M₆ these characters are
+     sm:B1515's population A (the characters at λ = 1). sm:B1515 read them on the cusped levels at their own holonomy, where
+     M₆ gave n = 2 at its four order-5 characters.
+   - Next: the four's classes where the line can exceed one per character, the Q₈/2T and icosian covers of the golden states.
+
+0 of 19 stays 0.

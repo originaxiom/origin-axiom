@@ -1,0 +1,10 @@
+L_{2m} - 2 for m = 1..8 (Fox's formula for the m-fold branched cover; the torsion orders of M_1..M_6 that sm:B1515's population A enumerated are its first six): [1, 5, 16, 45, 121, 320, 841, 2205]
+control: the cusped levels at their own holonomy (sm:B1515: no interior class of the four at the trivial character through level 6, so 1 = the cusp's half):
+  M_1: 1, M_2: 1, M_3: 1, M_4: 1, M_5: 1, M_6: 1
+the closings F_m at their own holonomy (Scannell, Theorem 4.3: 2):
+  F_4: H_1 Z/3 + Z/15 (order L_8 - 2), vol 2.02988321282: dim H^1(F_4; R^(3,1)) = 2; other fillings (p, 1) with the same |H_1|, by dimension: {0: 10}
+  F_5: H_1 Z/11 + Z/11 (order L_10 - 2), vol 4.6860342738: dim H^1(F_5; R^(3,1)) = 2; other fillings (p, 1) with the same |H_1|, by dimension: {0: 14}
+  F_6: H_1 Z/8 + Z/40 (order L_12 - 2), vol 7.32772475342: dim H^1(F_6; R^(3,1)) = 2; other fillings (p, 1) with the same |H_1|, by dimension: {0: 16}
+  F_7: H_1 Z/29 + Z/29 (order L_14 - 2), vol 9.88228257351: dim H^1(F_7; R^(3,1)) = 2; other fillings (p, 1) with the same |H_1|, by dimension: {0: 18}
+  F_8: H_1 Z/21 + Z/105 (order L_16 - 2), vol 12.3509062092: dim H^1(F_8; R^(3,1)) = 2; other fillings (p, 1) with the same |H_1|, by dimension: {0: 20}
+reference volumes: 4_1 2.02988321282, Borromean rings 7.32772475342, 8_18 12.3509062092

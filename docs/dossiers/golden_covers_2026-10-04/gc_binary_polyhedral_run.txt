@@ -1,0 +1,88 @@
+Part 1: the four states of sm:B1538's population
+Q8 (order 8): generating pairs 24, kernels F2 -> Q8: 1, |Aut| = 24
+  m004 = +LR: fixed 1; cycle lengths {1: 1}
+    fixed kernel: [a,b] has order 2; the induced automorphism is outer; order 3, order 3 modulo inner
+  m003 = -LR: fixed 1; cycle lengths {1: 1}
+    fixed kernel: [a,b] has order 2; the induced automorphism is outer; order 3, order 3 modulo inner
+  m136 = +LLRR: fixed 1; cycle lengths {1: 1}
+    fixed kernel: [a,b] has order 2; the induced automorphism is inner; order 2, order 1 modulo inner
+  m135 = -LLRR: fixed 1; cycle lengths {1: 1}
+    fixed kernel: [a,b] has order 2; the induced automorphism is inner; order 1, order 1 modulo inner
+2T (order 24): generating pairs 384, kernels F2 -> 2T: 16, |Aut| = 24
+  m004 = +LR: fixed 0; cycle lengths {2: 2, 6: 2}
+  m003 = -LR: fixed 0; cycle lengths {2: 2, 6: 2}
+  m136 = +LLRR: fixed 0; cycle lengths {4: 4}
+  m135 = -LLRR: fixed 0; cycle lengths {4: 4}
+2O (order 48): generating pairs 864, kernels F2 -> 2O: 18, |Aut| = 48
+  m004 = +LR: fixed 0; cycle lengths {9: 2}
+  m003 = -LR: fixed 0; cycle lengths {9: 2}
+  m136 = +LLRR: fixed 4; cycle lengths {1: 4, 2: 4, 3: 2}
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 6, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 6, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 6, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 6, order 2 modulo inner
+  m135 = -LLRR: fixed 4; cycle lengths {1: 4, 2: 4, 3: 2}
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 2, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 2, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 4, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 4, order 2 modulo inner
+2I (order 120): generating pairs 9120, kernels F2 -> 2I: 76, |Aut| = 120
+  m004 = +LR: fixed 2; cycle lengths {1: 2, 3: 2, 5: 2, 7: 1, 15: 2, 21: 1}
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 6, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 6, order 2 modulo inner
+  m003 = -LR: fixed 2; cycle lengths {1: 2, 3: 2, 5: 2, 7: 1, 15: 2, 21: 1}
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 4, order 2 modulo inner
+    fixed kernel: [a,b] has order 6; the induced automorphism is outer; order 6, order 2 modulo inner
+  m136 = +LLRR: fixed 0; cycle lengths {4: 8, 6: 4, 10: 2}
+  m135 = -LLRR: fixed 0; cycle lengths {4: 8, 6: 4, 10: 2}
+Part 2: kernels fixed at level 1 on every word state of length 2 to 6 (2T, 2O, 2I; Q8's kernel is characteristic)
+  +LR      trace   3: 2T 0, 2O 0, 2I 2
+  -LR      trace   3: 2T 0, 2O 0, 2I 2
+  +LLR     trace   4: 2T 0, 2O 0, 2I 0
+  -LLR     trace   4: 2T 0, 2O 0, 2I 0
+  +LRR     trace   4: 2T 0, 2O 0, 2I 0
+  -LRR     trace   4: 2T 0, 2O 0, 2I 0
+  +LLLR    trace   5: 2T 1, 2O 0, 2I 0
+  -LLLR    trace   5: 2T 1, 2O 0, 2I 0
+  +LLRR    trace   6: 2T 0, 2O 4, 2I 0
+  -LLRR    trace   6: 2T 0, 2O 4, 2I 0
+  +LRLR    trace   7: 2T 4, 2O 0, 2I 2
+  -LRLR    trace   7: 2T 4, 2O 0, 2I 2
+  +LRRR    trace   5: 2T 1, 2O 0, 2I 0
+  -LRRR    trace   5: 2T 1, 2O 0, 2I 0
+  +LLLLR   trace   6: 2T 0, 2O 0, 2I 2
+  -LLLLR   trace   6: 2T 0, 2O 0, 2I 2
+  +LLLRR   trace   8: 2T 0, 2O 0, 2I 0
+  -LLLRR   trace   8: 2T 0, 2O 0, 2I 0
+  +LLRLR   trace  10: 2T 2, 2O 2, 2I 2
+  -LLRLR   trace  10: 2T 2, 2O 2, 2I 2
+  +LLRRR   trace   8: 2T 0, 2O 0, 2I 0
+  -LLRRR   trace   8: 2T 0, 2O 0, 2I 0
+  +LRLRR   trace  10: 2T 2, 2O 2, 2I 2
+  -LRLRR   trace  10: 2T 2, 2O 2, 2I 2
+  +LRRRR   trace   6: 2T 0, 2O 0, 2I 2
+  -LRRRR   trace   6: 2T 0, 2O 0, 2I 2
+  +LLLLLR  trace   7: 2T 1, 2O 0, 2I 1
+  -LLLLLR  trace   7: 2T 1, 2O 0, 2I 1
+  +LLLLRR  trace  10: 2T 0, 2O 2, 2I 0
+  -LLLLRR  trace  10: 2T 0, 2O 2, 2I 0
+  +LLLRLR  trace  13: 2T 1, 2O 0, 2I 5
+  -LLLRLR  trace  13: 2T 1, 2O 0, 2I 5
+  +LLLRRR  trace  11: 2T 4, 2O 0, 2I 1
+  -LLLRRR  trace  11: 2T 4, 2O 0, 2I 1
+  +LLRLLR  trace  14: 2T 0, 2O 2, 2I 0
+  -LLRLLR  trace  14: 2T 0, 2O 2, 2I 0
+  +LLRLRR  trace  15: 2T 0, 2O 0, 2I 2
+  -LLRLRR  trace  15: 2T 0, 2O 0, 2I 2
+  +LLRRLR  trace  15: 2T 0, 2O 0, 2I 2
+  -LLRRLR  trace  15: 2T 0, 2O 0, 2I 2
+  +LLRRRR  trace  10: 2T 0, 2O 2, 2I 0
+  -LLRRRR  trace  10: 2T 0, 2O 2, 2I 0
+  +LRLRLR  trace  18: 2T 0, 2O 0, 2I 8
+  -LRLRLR  trace  18: 2T 0, 2O 0, 2I 8
+  +LRLRRR  trace  13: 2T 1, 2O 0, 2I 5
+  -LRLRRR  trace  13: 2T 1, 2O 0, 2I 5
+  +LRRLRR  trace  14: 2T 0, 2O 2, 2I 0
+  -LRRLRR  trace  14: 2T 0, 2O 2, 2I 0
+  +LRRRRR  trace   7: 2T 1, 2O 0, 2I 1
+  -LRRRRR  trace   7: 2T 1, 2O 0, 2I 1

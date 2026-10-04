@@ -17534,3 +17534,30 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   removed. 6 681 + 118 − 1 + 2 = 6 800.
 - **B805's lock.** Its attachment-over-authored comparison inverted (2 007 against 2 023) because `depends_on` grew with the
   record. It now checks the separation directly and pins B805's own counts (ERROR_LEDGER). `tests/test_b805_forcing.py`: 3 passed.
+
+## 2026-10-04 — sL-12 registered: the room for three and the golden covers (task 254)
+
+- **Saved to the repo** on the owner's direction:
+  - `docs/dossiers/golden_covers_2026-10-04/`: the dossier, `gc_icosian.py`, `gc_binary_polyhedral.py`, `gc_fibonacci.py`
+    and their records;
+  - sL-12 in `docs/OPEN_LEADS.md`, with three items: room for three by bending, the icosian line on the golden states, and
+    the golden pointer.
+  - Nothing is sealed and no outcome of the record is read.
+- **Computed.**
+  - 76 kernels F₂ → 2I. The golden monodromy fixes 2 per state, the silver none (they fix four 2O kernels instead).
+  - Twelve degree-60 A₅ covers, three per fixed kernel. ζ = −1 on every puncture loop, and τ is outer on 2I.
+  - They are not the level-2 congruence covers (joint image of order 300).
+- **Corrected before commit.** The icosian kernels are not a golden selection: 28 of the 50 word states of length 2 to 6
+  fix one at level 1.
+- **Checked.** Scannell's Theorem 4.3 (dim H¹(F_m; ℝ^{3,1}) = 2 on the Fibonacci manifolds, which are the record's
+  closings Yₙ) holds at m = 4–8. The cusped levels M₁–M₆ give the cusp's 1, as sm:B1515 banked.
+- **Against, recorded beside it.**
+  - Over the icosian line, membership needs interior classes of the four.
+  - m004's bending surfaces need genuinely larger covers.
+  - On the closings, capW ≤ 1 (b₁ = 0, and B1303 allows one class of the line per character).
+- **B1538 Part L, disclosed now as well as in FINDINGS.** The one-worker run (12:08:25Z) was stopped at a chunk boundary at
+  12:27:50Z, with seven chunks written and the last line parsed. It was relaunched at 12:28:00Z with two workers ("101 chunks
+  to read (7 done)"; `run.py` resumes by cover and chunk). The read-out's coverage check covers it. Nothing has been read.
+- **B1536, disclosed now as well as in FINDINGS.** At 13:24Z a completion check printed the last 300 bytes of
+  `run_R_m003.jsonl`: the done row and one character row of d1.1 (m003 itself, a non-member). Route R on m003 had finished.
+  Nothing else has been read.

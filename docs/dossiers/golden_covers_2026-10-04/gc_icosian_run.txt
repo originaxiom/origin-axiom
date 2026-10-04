@@ -1,0 +1,31 @@
+generating pairs of SL(2,5): 9120; kernels F2 -> 2I: 76 (orbit sizes [120]); kernels F2 -> A5: 19, lifts each [4]
+
++LR: 2I-kernels fixed 2; cycle type [1, 1, 3, 3, 5, 5, 7, 15, 15, 21]
+  kernel 0: [a,b] has order 6 in SL(2,5); phi acts by conjugation with det 2 (outer)
+    cover: cusp orbit sizes [12, 12, 12, 12, 12]; tau on 2I: det 2 (outer), order 4
+    cover: cusp orbit sizes [3, 3, 18, 18, 18]; tau on 2I: det 2 (outer), order 6
+    cover: cusp orbit sizes [3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6]; tau on 2I: det 2 (outer), order 2
+    with the holonomy mod 2: <(a mod 2, a), (b mod 2, b)> has order 300 (a different kernel)
+  kernel 1: [a,b] has order 6 in SL(2,5); phi acts by conjugation with det 2 (outer)
+    cover: cusp orbit sizes [12, 12, 12, 12, 12]; tau on 2I: det 2 (outer), order 4
+    cover: cusp orbit sizes [3, 3, 18, 18, 18]; tau on 2I: det 2 (outer), order 6
+    cover: cusp orbit sizes [3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6]; tau on 2I: det 2 (outer), order 2
+    with the holonomy mod 2: <(a mod 2, a), (b mod 2, b)> has order 300 (a different kernel)
+  mod-2 image (PGL(2,4)): fibre <a,b> order 5; whole group <a,b,t> order 10
+
+-LR: 2I-kernels fixed 2; cycle type [1, 1, 3, 3, 5, 5, 7, 15, 15, 21]
+  kernel 0: [a,b] has order 6 in SL(2,5); phi acts by conjugation with det 3 (outer)
+    cover: cusp orbit sizes [3, 3, 18, 18, 18]; tau on 2I: det 3 (outer), order 6
+    cover: cusp orbit sizes [12, 12, 12, 12, 12]; tau on 2I: det 3 (outer), order 4
+    cover: cusp orbit sizes [3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6]; tau on 2I: det 3 (outer), order 2
+    with the holonomy mod 2: <(a mod 2, a), (b mod 2, b)> has order 300 (a different kernel)
+  kernel 1: [a,b] has order 6 in SL(2,5); phi acts by conjugation with det 2 (outer)
+    cover: cusp orbit sizes [12, 12, 12, 12, 12]; tau on 2I: det 2 (outer), order 4
+    cover: cusp orbit sizes [3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6]; tau on 2I: det 2 (outer), order 2
+    cover: cusp orbit sizes [3, 3, 18, 18, 18]; tau on 2I: det 2 (outer), order 6
+    with the holonomy mod 2: <(a mod 2, a), (b mod 2, b)> has order 300 (a different kernel)
+  mod-2 image (PGL(2,4)): fibre <a,b> order 5; whole group <a,b,t> order 5
+
++LLRR: 2I-kernels fixed 0; cycle type [4, 4, 4, 4, 4, 4, 4, 4, 6, 6, 6, 6, 10, 10]
+
+-LLRR: 2I-kernels fixed 0; cycle type [4, 4, 4, 4, 4, 4, 4, 4, 6, 6, 6, 6, 10, 10]
