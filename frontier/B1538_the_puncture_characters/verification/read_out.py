@@ -4,8 +4,11 @@
     python3 read_out.py [--record]    ->  read_out.json, read_out_log.txt
 
 Inputs: identity.json (the banked identity, re-run before the run), run_L.jsonl (Part L), if present run_F.jsonl (Part F), and
-controls.json's K10 (Proposition H's character zeta_H on each cover with D = Z^2 / 2Z^2, located by structure alone).
-Every prediction is decided here from the records; nothing is judged by hand.
+controls.json's K10 (Proposition H's character zeta_H on each cover with D = Z^2 / 2Z^2, located by structure alone) and K11
+(the population manifest: every cover, its chunks and its puncture orbits).
+Every prediction is decided here from the records; nothing is judged by hand.  A population-wide prediction is True only on
+complete records (every manifest chunk exactly once, the orbit counts matching; Part F with every planned reading), False on
+any refuting row, and None otherwise: missing, duplicate or incomplete records never certify a negative (R87).
 
   P1  the identity held: controls K0-K10 all hold, and every sealed file hashes as sealed.
   P2  route P agrees with route W at every root read (two primes) and at every mu_12 check.
@@ -35,62 +38,121 @@ def load_rows(name):
     return [json.loads(line) for line in p.read_text().splitlines() if line.strip()]
 
 
-def evaluate(ident, L, Fr, say=print, hcov=None):
-    """the predictions from the records (pure: control K9 calls it on synthetic rows).  hcov: K10's covers, {cover id: {"ez",
-    "m", "golden", ...}}, or None"""
+def evaluate(ident, L, Fr, say=print, hcov=None, manifest=None):
+    """the predictions from the records (pure: control K9 calls it on synthetic rows).
+    hcov: K10's covers, {cover id: {"ez", "m", "acts on Q8 as the identity", ...}}, or None.
+    manifest: K11's population, {cover id: {"chunks", "puncture orbits", ...}}, or None.
+    Coverage (the audit lane's R87): the records are complete only if every manifest cover's every chunk appears exactly once,
+    read, with no other cover, and each cover's puncture orbits sum to the manifest's.  A prediction that a found row can
+    refute is False on that row, whatever the coverage; a population-wide one is True only on complete records, else None.
+    Part F is complete only if every candidate has its header row and exactly its planned readings, with no other."""
     assert L is not None, "Part L has no records"
-    chunks = {}
+    seen, dup = {}, []
     for r in L:
-        chunks.setdefault(r["cover"], {"want": r["chunks"], "have": set(), "read": True})
-        chunks[r["cover"]]["have"].add(r["chunk"])
-        chunks[r["cover"]]["read"] &= r["read"]
-    complete = {c for c, v in chunks.items() if v["read"] and v["have"] == set(range(v["want"]))}
-    out = {"covers": len(chunks), "covers read in full": len(complete),
-           "covers incomplete": sorted(set(chunks) - complete)}
-    hits = [dict(h, cover=r["cover"], state=r["state"]) for r in L if r["read"] for h in r["hits"]]
-    out["puncture orbits read"] = sum(r.get("puncture orbits", 0) for r in L)
-    out["puncture characters read"] = sum(r.get("puncture characters", 0) for r in L)
+        key = (r["cover"], r["chunk"])
+        if key in seen:
+            dup.append(list(key))
+        seen[key] = r
+    by_cover = {}
+    for (c, _), r in seen.items():
+        by_cover.setdefault(c, []).append(r)
+    duplicated = {c for c, _ in dup}
+    problems = {"duplicate rows": dup, "unexpected covers": [], "chunk mismatch": {}, "not read": [],
+                "orbit count mismatch": {}}
+    covered = set()
+    if manifest is None:
+        for c, rows in by_cover.items():
+            want = rows[0]["chunks"]
+            if (c not in duplicated and all(r["read"] for r in rows) and all(r["chunks"] == want for r in rows)
+                    and {r["chunk"] for r in rows} == set(range(want))):
+                covered.add(c)
+    else:
+        problems["unexpected covers"] = sorted(set(by_cover) - set(manifest))
+        for c, exp in sorted(manifest.items()):
+            rows = by_cover.get(c, [])
+            have = {r["chunk"] for r in rows}
+            if have != set(range(exp["chunks"])) or any(r["chunks"] != exp["chunks"] for r in rows):
+                problems["chunk mismatch"][c] = {"want": exp["chunks"], "have": sorted(have)}
+            elif not all(r["read"] for r in rows):
+                problems["not read"].append(c)
+            elif sum(r.get("puncture orbits", 0) for r in rows) != exp["puncture orbits"]:
+                problems["orbit count mismatch"][c] = [sum(r.get("puncture orbits", 0) for r in rows),
+                                                       exp["puncture orbits"]]
+            elif c not in duplicated:
+                covered.add(c)
+    complete = (manifest is not None and not dup and not problems["unexpected covers"]
+                and covered == set(manifest))
+    out = {"covers in the records": len(by_cover), "covers read in full": len(covered),
+           "covers expected": None if manifest is None else len(manifest),
+           "coverage problems": {k: v for k, v in problems.items() if v}, "every cover read": complete}
+    hits = [dict(h, cover=r["cover"], state=r["state"]) for r in seen.values() if r["read"] for h in r["hits"]]
+    out["puncture orbits read"] = sum(r.get("puncture orbits", 0) for r in seen.values())
+    out["puncture characters read"] = sum(r.get("puncture characters", 0) for r in seen.values())
     out["hits (n >= 1), Galois orbits"] = len(hits)
     out["n distribution"] = {}
     for h in hits:
         out["n distribution"][str(h["n"])] = out["n distribution"].get(str(h["n"]), 0) + 1
-    p_dis = sum(len(r["route P"]["disagree"]) for r in L if r["read"])
-    p_reads = sum(r["route P"]["reads"] for r in L if r["read"])
-    t_dis = sum(len(r["route T"]["disagree"]) for r in L if r["read"])
-    t_reads = sum(r["route T"]["reads"] for r in L if r["read"])
+    rd = [r for r in seen.values() if r["read"]]
+    p_dis = sum(len(r["route P"]["disagree"]) for r in rd)
+    p_reads = sum(r["route P"]["reads"] for r in rd)
+    t_dis = sum(len(r["route T"]["disagree"]) for r in rd)
+    t_reads = sum(r["route T"]["reads"] for r in rd)
     out["route P"] = {"reads": p_reads, "disagree": p_dis}
-    out["route T"] = {"reads": t_reads, "disagree": t_dis,
-                      "skipped": sum(r["route T"]["skipped"] for r in L if r["read"])}
+    out["route T"] = {"reads": t_reads, "disagree": t_dis, "skipped": sum(r["route T"]["skipped"] for r in rd)}
+
+    def whole(found_false, fallback=True):
+        """False on a refuting row; else the fallback on complete records; else None"""
+        return False if found_false else (fallback if complete else None)
     pred = {}
     pred["P1"] = bool(ident.get("identity holds"))
-    pred["P2"] = p_dis == 0 and p_reads > 0
-    pred["P3"] = t_dis == 0 and (t_reads > 0 or not hits)
-    pred["P4"] = len(hits) > 0
+    pred["P2"] = whole(p_dis > 0, p_reads > 0)
+    pred["P3"] = whole(t_dis > 0, t_reads > 0 or not hits)
+    pred["P4"] = True if hits else (False if complete else None)
     maxn = max([h["n"] for h in hits], default=0)
     out["max n"] = maxn
-    pred["P5"] = maxn <= 1
-    pred["P6"] = not any(h["state"] == "m004" for h in hits)
-    out["every cover read"] = len(complete) == len(chunks)
+    pred["P5"] = whole(maxn >= 2)
+    pred["P6"] = whole(any(h["state"] == "m004" for h in hits))
     cands = [h for h in hits if h["n"] >= 2]
     out["candidates (n >= 2)"] = len(cands)
+    ckeys = {(h["cover"], tuple(h["zeta"]), h["m"], tuple(h["s"])) for h in cands}
     if not cands:
-        pred["P7"] = True
-        out["P7"] = "vacuous: no candidate"
-        pred["P8"] = True
+        pred["P7"] = whole(False)
+        pred["P8"] = whole(False)
+        out["Part F"] = "no candidate"
     elif Fr is None:
         pred["P7"] = None
         pred["P8"] = None
-        out["P7"] = "Part F not yet run"
+        out["Part F"] = "not yet run"
     else:
-        members = [f for f in Fr if f.get("member")]
+        heads, reads, fdup = {}, {}, []
+        for f in Fr:
+            ck = (f["cover"], tuple(f["chi"]["zeta"]), f["chi"]["m"], tuple(f["chi"]["s"]))
+            if f.get("kind") == "candidate":
+                if ck in heads:
+                    fdup.append(["candidate", list(map(str, ck))])
+                heads[ck] = f["planned"]
+            else:
+                nk = (tuple(f["nu"]["zeta"]), f["nu"]["m"], tuple(f["nu"]["s"]))
+                if nk in reads.setdefault(ck, {}):
+                    fdup.append(["reading", list(map(str, ck))])
+                reads[ck][nk] = f
+        f_missing = sorted(str(k) for k in ckeys if k not in heads)
+        f_short = sorted(str(k) for k in ckeys if k in heads and len(reads.get(k, {})) != heads[k])
+        f_extra = sorted(str(k) for k in set(heads) | set(reads) if k not in ckeys)
+        f_complete = not (f_missing or f_short or f_extra or fdup)
+        readings = [f for k in ckeys for f in reads.get(k, {}).values()]
+        members = [f for f in readings if f.get("member")]
         two = [f for f in members if f["R"]["capL2"] >= 2 or f["P4"]["capL2"] >= 2]
-        agree = all(f["h1 R"] == f["h1 P4"] for f in Fr) and all(f["R"] == f["P4"] for f in members)
-        out["Part F"] = {"readings": len(Fr), "members": len(members), "members with capL2 >= 2": len(two),
-                         "routes agree": agree}
-        pred["P7"] = not two
-        pred["P8"] = not [f for f in members for k in ("R", "P4")
-                          if min(f[k]["capW"], f[k]["capL2"]) >= 2]
-    # Proposition H: the sum of n(zeta_H, s) over every root of unity s, and its largest term, on each cover of K10
+        both = [f for f in members for k in ("R", "P4") if min(f[k]["capW"], f[k]["capL2"]) >= 2]
+        agree = all(f["h1 R"] == f["h1 P4"] for f in readings) and all(f["R"] == f["P4"] for f in members)
+        out["Part F"] = {"candidates": len(ckeys), "planned readings": sum(heads.get(k, 0) for k in ckeys),
+                         "readings": len(readings), "members": len(members), "members with capL2 >= 2": len(two),
+                         "routes agree": agree, "complete": f_complete,
+                         "problems": {"missing candidates": f_missing, "short candidates": f_short,
+                                      "unexpected candidates": f_extra, "duplicates": fdup}}
+        pred["P7"] = False if two else (True if complete and f_complete else None)
+        pred["P8"] = False if both else (True if complete and f_complete else None)
+    # Proposition H: the sum of n(zeta_H, s) over every root of unity s, its largest term and its odd terms, on K10's covers
     if hcov is None:
         pred["P9"] = None
         pred["P10"] = None
@@ -99,7 +161,7 @@ def evaluate(ident, L, Fr, say=print, hcov=None):
     else:
         sums, tops, odds, unread = {}, {}, {}, []
         for cid, hc in sorted(hcov.items()):
-            if cid not in complete:
+            if cid not in covered:
                 unread.append(cid)
                 continue
             at = [h for h in hits if h["cover"] == cid and list(h["zeta"]) == list(hc["ez"]) and h["m"] == hc["m"]]
@@ -114,7 +176,7 @@ def evaluate(ident, L, Fr, say=print, hcov=None):
         pred["P10"] = None if not moved or any(c in unread for c in moved) else all(tops[c] <= 2 for c in moved)
         pred["P11"] = None if not fixed or any(c in unread for c in fixed) else all(not odds[c] for c in fixed)
     out["predictions"] = pred
-    for k in sorted(pred):
+    for k in sorted(pred, key=lambda x: int(x[1:])):
         say(f"{k}: {pred[k]}")
     say(json.dumps({k: v for k, v in out.items() if k != "predictions"}))
     return out
@@ -128,8 +190,9 @@ def main():
         print(s)
 
     ident = json.loads((HERE / "identity.json").read_text())
-    hcov = json.loads((HERE / "controls.json").read_text())["K10"]["covers"]
-    out = evaluate(ident, load_rows("run_L.jsonl"), load_rows("run_F.jsonl"), say, hcov)
+    ctl = json.loads((HERE / "controls.json").read_text())
+    out = evaluate(ident, load_rows("run_L.jsonl"), load_rows("run_F.jsonl"), say, ctl["K10"]["covers"],
+                   ctl["K11"]["manifest"])
     out["log"] = log
     if "--record" in sys.argv:
         (HERE / "read_out.json").write_text(json.dumps(out, indent=1) + "\n")

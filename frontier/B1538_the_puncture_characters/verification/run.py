@@ -19,7 +19,9 @@ Only the puncture characters are read (the puncture-trivial ones are Lemma W''s,
     n(chi^j), each read by route P.
 PART F.  At every candidate chi = (zeta, s) of Part L with n(chi) >= 2, at every finite-order nu with nu^4 = chi:
   - nu = (zeta', s'), with zeta' an invariant character with zeta'^4 = zeta and s'^4 = s;
-  - routes R and P4 (punct_four) read membership h^1(nu^5 rho), capW and capL2.
+  - routes R and P4 (punct_four) read membership h^1(nu^5 rho), capW and capL2;
+  - each candidate first writes a header row with its planned readings (4 per fourth root zeta'), so that the read-out can
+    require every one of them (the audit lane's R87).
 Every reading records; nothing is asserted on outcomes."""
 import json
 import sys
@@ -233,7 +235,13 @@ def read_part_F(rec):
         cov = FO.R.PCover(st.G, C.perms)
         Pr = RP.Presentation(C)
         j, k = h["s"]
-        for ezp, mp in C.fourth_roots(h["zeta"], h["m"]):
+        roots = C.fourth_roots(h["zeta"], h["m"])
+        chi = {"zeta": h["zeta"], "m": h["m"], "s": h["s"], "n": h["n"]}
+        head = {"kind": "candidate", "cover": r["cover"], "chi": chi, "fourth roots": len(roots), "planned": 4 * len(roots)}
+        if rec:                                              # the read-out requires every planned reading (R87)
+            with open(out, "a") as f:
+                f.write(json.dumps(head) + "\n")
+        for ezp, mp in roots:
             for t in range(4):                               # s' = z_(4k)^(j + k t), s'^4 = z_k^j
                 L = lcm(lcm(mp, 4 * k), 24)
                 ezL = [e * (L // mp) % L for e in ezp]
@@ -242,7 +250,7 @@ def read_part_F(rec):
                 rho_p = FO.four_mod_p(rho, p, L)
                 hR = FO.membership_r(C, rho_p, ezL, es, L, p, cov)
                 hP = FO.membership_p4(C, rho_p, ezL, es, L, p, Pr)
-                row = {"cover": r["cover"], "chi": {"zeta": h["zeta"], "m": h["m"], "s": h["s"], "n": h["n"]},
+                row = {"kind": "reading", "cover": r["cover"], "chi": chi,
                        "nu": {"zeta": list(ezp), "m": mp, "s": [j + k * t, 4 * k]}, "prime": p,
                        "h1 R": hR, "h1 P4": hP, "member": hR >= 1 or hP >= 1}
                 if row["member"]:

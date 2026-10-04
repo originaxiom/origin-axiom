@@ -27,12 +27,17 @@ proved at design time fixes; no puncture character's line or four is read here.
       W's Jbar at x_i -> t gives det(I - Jbar) = +-t^k (1 + t + t^2)(t^2 - 3t + 1), checked exactly at t = zeta_m for
       m = 5, 7, 8, 9, 12, 20.
   K8  the Galois-orbit enumeration: the orbit sizes sum to the number of invariant characters != 1 with zeta^m = 1.
-  K9  the read-out's logic (read_out.evaluate) on synthetic rows, one case per branch, with the predictions fixed by hand.
+  K9  the read-out's logic (read_out.evaluate) on synthetic rows, one case per branch, with the predictions fixed by hand,
+      including the audit lane's R87 coverage cases (a missing, duplicated, short or unexpected record; an empty Part F).
   K10 Proposition H's characters, by structure alone (no line or four is read): on every cover of population A with
       D = Z^2 / 2Z^2, zeta_H(y) = the sign of y's image in the centre of Q_8 under a -> i, b -> j; the same from a -> j,
       b -> k; invariant; -1 at every puncture; one of the run's own Galois representatives.  Recorded for the read-out
       (P9-P11), with the order of the monodromy's permutation of the axes i, j, k (3 on the golden states m004 and m003) and
       whether tau acts on Q_8 as the identity (never on a golden state; on exactly one class wbar of each silver state).
+  K11 the population manifest (the audit lane's R87): every cover's chunks and its puncture characters and their Galois
+      orbits at m(C), by formula (the Smith form's count and Moebius inversion, minus the enumerated puncture-trivial
+      characters), whose per-state totals must equal the seal's table, counted by enumeration.  The read-out certifies no
+      population-wide prediction unless the records match this manifest exactly.
 
     python3 -u controls.py [--record]   ->  controls.json"""
 import importlib.util
@@ -315,25 +320,39 @@ def k8():
 # ============================================================================================ K9
 def k9():
     """the read-out's logic on synthetic rows: each case's predictions are fixed by hand here, before any run.  read_out is
-    loaded by its path: sm:B1536's route_r puts sm:B1535's directory, which has its own read_out.py, first on sys.path"""
+    loaded by its path: sm:B1536's route_r puts sm:B1535's directory, which has its own read_out.py, first on sys.path.
+    The coverage cases are the audit lane's R87: missing, duplicate, extra or short records never certify a negative"""
     spec = importlib.util.spec_from_file_location("b1538_read_out", HERE / "read_out.py")
     RO = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(RO)
 
-    def cover(state, hits, pdis=0, tdis=0, treads=None, cid=None, chunks=1):
-        return {"cover": cid or state + ".x", "chunk": 0, "chunks": chunks, "state": state, "read": True,
-                "puncture orbits": 10, "puncture characters": 30,
+    def cover(state, hits, pdis=0, tdis=0, treads=None, cid=None, chunks=1, chunk=0, orbits=10):
+        return {"cover": cid or state + ".x", "chunk": chunk, "chunks": chunks, "state": state, "read": True,
+                "puncture orbits": orbits, "puncture characters": 30,
                 "hits": hits, "route P": {"reads": 20, "disagree": [0] * pdis},
                 "route T": {"reads": len(hits) if treads is None else treads, "skipped": 0, "disagree": [0] * tdis}}
+
+    def man(*cids, chunks=1, orbits=10):
+        return {c: {"chunks": chunks, "puncture orbits": orbits} for c in cids}
 
     def hit(n, zeta=(1, 0), m=3, s=(1, 6)):
         return {"n": n, "zeta": list(zeta), "m": m, "s": list(s), "h1": n, "trivial cusps": 0}
 
     def qh(n, s):                                          # a hit at the synthetic zeta_H = (1, 1), m = 2
         return hit(n, (1, 1), 2, s)
+    chi = {"zeta": [1, 0], "m": 3, "s": [1, 6], "n": 2}
+
+    def head(cid, planned):
+        return {"kind": "candidate", "cover": cid, "chi": chi, "planned": planned}
+
+    def reading(cid, k, caps=None):
+        f = {"kind": "reading", "cover": cid, "chi": chi, "nu": {"zeta": [k, 0], "m": 12, "s": [k, 24]}, "h1 R": 0,
+             "h1 P4": 0, "member": False}
+        if caps:
+            f.update({"member": True, "h1 R": 1, "h1 P4": 1, "R": dict(zip(("capW", "capL2"), caps)),
+                      "P4": dict(zip(("capW", "capL2"), caps))})
+        return f
     ident = {"identity holds": True}
-    member2 = {"member": True, "h1 R": 1, "h1 P4": 1, "R": {"capW": 2, "capL2": 2}, "P4": {"capW": 2, "capL2": 2}}
-    member1 = {"member": True, "h1 R": 1, "h1 P4": 1, "R": {"capW": 2, "capL2": 1}, "P4": {"capW": 2, "capL2": 1}}
     gold = {"m004.q": {"ez": [1, 1], "m": 2, "golden": True, "acts on Q8 as the identity": False}}
     both = dict(gold, **{"m135.q": {"ez": [1, 1], "m": 2, "golden": False, "acts on Q8 as the identity": True}})
     T, F_, N = True, False, None
@@ -341,37 +360,66 @@ def k9():
     def want(p1, p2, p3, p4, p5, p6, p7, p8, p9=N, p10=N, p11=N):
         return {"P1": p1, "P2": p2, "P3": p3, "P4": p4, "P5": p5, "P6": p6, "P7": p7, "P8": p8, "P9": p9, "P10": p10,
                 "P11": p11}
+    c3, c4, c5 = man("m003.x"), man("m004.x"), man("m135.x")
     cases = {
-        "no hits": (ident, [cover("m003", [])], None, None, want(T, T, T, F_, T, T, T, T)),
-        "n = 1 on m003": (ident, [cover("m003", [hit(1)])], None, None, want(T, T, T, T, T, T, T, T)),
-        "n = 1 on m004": (ident, [cover("m004", [hit(1)])], None, None, want(T, T, T, T, T, F_, T, T)),
-        "n = 2, Part F pending": (ident, [cover("m135", [hit(2)])], None, None, want(T, T, T, T, F_, T, N, N)),
-        "n = 2, a member with both caps 2": (ident, [cover("m135", [hit(2)])], [member2], None,
+        "no hits": (ident, [cover("m003", [])], None, None, c3, want(T, T, T, F_, T, T, T, T)),
+        "n = 1 on m003": (ident, [cover("m003", [hit(1)])], None, None, c3, want(T, T, T, T, T, T, T, T)),
+        "n = 1 on m004": (ident, [cover("m004", [hit(1)])], None, None, c4, want(T, T, T, T, T, F_, T, T)),
+        "n = 2, Part F pending": (ident, [cover("m135", [hit(2)])], None, None, c5, want(T, T, T, T, F_, T, N, N)),
+        "n = 2, a member with both caps 2": (ident, [cover("m135", [hit(2)])],
+                                             [head("m135.x", 1), reading("m135.x", 1, (2, 2))], None, c5,
                                              want(T, T, T, T, F_, T, F_, F_)),
-        "n = 2, members with capL2 1": (ident, [cover("m135", [hit(2)])], [member1], None, want(T, T, T, T, F_, T, T, T)),
-        "route P disagrees": (ident, [cover("m003", [], pdis=1)], None, None, want(T, F_, T, F_, T, T, T, T)),
-        "route T disagrees": (ident, [cover("m003", [hit(1)], tdis=1)], None, None, want(T, T, F_, T, T, T, T, T)),
-        "identity failed": ({"identity holds": False}, [cover("m003", [])], None, None, want(F_, T, T, F_, T, T, T, T)),
+        "n = 2, every planned reading, capL2 1": (ident, [cover("m135", [hit(2)])],
+                                                  [head("m135.x", 2), reading("m135.x", 1, (2, 1)), reading("m135.x", 3)],
+                                                  None, c5, want(T, T, T, T, F_, T, T, T)),
+        "route P disagrees": (ident, [cover("m003", [], pdis=1)], None, None, c3, want(T, F_, T, F_, T, T, T, T)),
+        "route T disagrees": (ident, [cover("m003", [hit(1)], tdis=1)], None, None, c3, want(T, T, F_, T, T, T, T, T)),
+        "identity failed": ({"identity holds": False}, [cover("m003", [])], None, None, c3,
+                            want(F_, T, T, F_, T, T, T, T)),
+        # coverage (R87): incomplete records never certify a negative
+        "a manifest cover missing": (ident, [cover("m003", [])], None, None, man("m003.x", "m135.x"),
+                                     want(T, N, N, N, N, N, N, N)),
+        "a duplicated chunk": (ident, [cover("m003", []), cover("m003", [])], None, None, c3,
+                               want(T, N, N, N, N, N, N, N)),
+        "an orbit count short of the manifest": (ident, [cover("m003", [], orbits=9)], None, None, c3,
+                                                 want(T, N, N, N, N, N, N, N)),
+        "an unexpected cover": (ident, [cover("m003", []), cover("m136", [])], None, None, c3,
+                                want(T, N, N, N, N, N, N, N)),
+        "no manifest": (ident, [cover("m003", [])], None, None, None, want(T, N, N, N, N, N, N, N)),
+        "a refuting row on incomplete records": (ident, [cover("m004", [hit(2)])], None, None, man("m004.x", "m135.x"),
+                                                 want(T, N, N, T, F_, F_, N, N)),
+        "R87's probe: a candidate with an empty Part F": (ident, [cover("m135", [hit(2)])], [], None, c5,
+                                                          want(T, T, T, T, F_, T, N, N)),
+        "a candidate short of its planned readings": (ident, [cover("m135", [hit(2)])],
+                                                      [head("m135.x", 4)] + [reading("m135.x", k) for k in (1, 2, 3)],
+                                                      None, c5, want(T, T, T, T, F_, T, N, N)),
+        "a candidate with no fourth root": (ident, [cover("m135", [hit(2)])], [head("m135.x", 0)], None, c5,
+                                            want(T, T, T, T, F_, T, T, T)),
+        "a refuting member on an incomplete Part F": (ident, [cover("m135", [hit(2)])],
+                                                      [head("m135.x", 4), reading("m135.x", 1, (2, 2))], None, c5,
+                                                      want(T, T, T, T, F_, T, F_, F_)),
+        # Proposition H
         "H: 2 + 1 + 1 on the golden line, another character's hit not counted":
             (ident, [cover("m004", [qh(2, (1, 6)), qh(1, (1, 3)), qh(1, (2, 3)), hit(1, (0, 1), 2)], cid="m004.q")],
-             None, gold, want(T, T, T, T, F_, F_, N, N, T, T)),
+             None, gold, man("m004.q"), want(T, T, T, T, F_, F_, N, N, T, T)),
         "H fails: the sum is 3": (ident, [cover("m004", [qh(2, (1, 6)), qh(1, (1, 3))], cid="m004.q")], None, gold,
-                                  want(T, T, T, T, F_, F_, N, N, F_, T)),
+                                  man("m004.q"), want(T, T, T, T, F_, F_, N, N, F_, T)),
         "H on the golden line fails: 4 at one s": (ident, [cover("m004", [qh(4, (1, 6))], cid="m004.q")], None, gold,
-                                                   want(T, T, T, T, F_, F_, N, N, T, F_)),
+                                                   man("m004.q"), want(T, T, T, T, F_, F_, N, N, T, F_)),
         "H: the identity cover may carry 4 at one s":
             (ident, [cover("m004", [qh(2, (1, 6)), qh(2, (5, 6))], cid="m004.q"),
-                     cover("m135", [qh(4, (0, 1))], cid="m135.q")], None, both, want(T, T, T, T, F_, F_, N, N, T, T, T)),
+                     cover("m135", [qh(4, (0, 1))], cid="m135.q")], None, both, man("m004.q", "m135.q"),
+             want(T, T, T, T, F_, F_, N, N, T, T, T)),
         "H on the identity cover fails: an odd n":
             (ident, [cover("m004", [qh(2, (1, 6)), qh(2, (5, 6))], cid="m004.q"),
                      cover("m135", [qh(2, (0, 1)), qh(1, (1, 4)), qh(1, (3, 4))], cid="m135.q")], None, both,
-             want(T, T, T, T, F_, F_, N, N, T, T, F_)),
+             man("m004.q", "m135.q"), want(T, T, T, T, F_, F_, N, N, T, T, F_)),
         "H: a cover of K10 not read in full": (ident, [cover("m004", [qh(2, (1, 6))], cid="m004.q", chunks=2)], None, gold,
-                                               want(T, T, T, T, F_, F_, N, N, N, N)),
+                                               man("m004.q", chunks=2), want(T, N, N, T, F_, F_, N, N, N, N)),
     }
     res, bad = {}, []
-    for name, (idn, L, Fr, hcov, w) in cases.items():
-        got = RO.evaluate(idn, L, Fr, say=lambda s: None, hcov=hcov)["predictions"]
+    for name, (idn, L, Fr, hcov, mf, w) in cases.items():
+        got = RO.evaluate(idn, L, Fr, say=lambda s: None, hcov=hcov, manifest=mf)["predictions"]
         res[name] = got == w
         if got != w:
             bad.append([name, got, w])
@@ -462,10 +510,64 @@ def k10():
     return out
 
 
+# ============================================================================================ K11
+SEAL_TABLE = {"m004": (5, 583, 201), "m003": (9, 39695, 7313), "m136": (29, 807820, 210524), "m135": (37, 1558524, 444950)}
+
+
+def k11():
+    """the population manifest the read-out requires (the audit lane's R87): for every cover of population A, the chunks run.py
+    writes and its puncture characters and their Galois orbits at m(C), by formula, not by the run's enumeration:
+      - all invariant characters with zeta^m = 1: count_characters(m), the Smith form's product; their Galois orbits
+        (zeta != 1): orbit_count(C, m), by Moebius inversion (run.py's own functions);
+      - minus the puncture-trivial characters with zeta^m = 1 (Lemma 3's finite group, enumerated) and their Galois orbits.
+    The per-state totals must equal the seal's population table (section 5), which was counted by enumeration."""
+    from fractions import Fraction as Fr_
+    from math import gcd
+    spec = importlib.util.spec_from_file_location("b1538_run_k11", HERE / "run.py")
+    RUN = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(RUN)
+    manifest, totals, bad = {}, {}, []
+    for sw, lat, w, cid in RUN.population():
+        C = F.Cover(F.State(sw), lat, w)
+        m, b = RUN.modulus(C)
+        if m is None:
+            bad.append([cid, "above the budget"])
+            continue
+        size = RUN.orbit_count(C, m)
+        nch = max(1, -(-size // RUN.CHUNK))
+        pt, mpt = C.puncture_trivial()
+        units = [a for a in range(1, m) if gcd(a, m) == 1]
+        chars, seen, orbits = 0, set(), 0
+        for ez in pt:
+            u = [Fr_(e % mpt, mpt) for e in ez]
+            if any((x * m).denominator != 1 for x in u):
+                continue                                   # order not dividing m: not in the population's range
+            chars += 1
+            ezm = tuple(int(x * m) % m for x in u)
+            if not any(ezm) or ezm in seen:
+                continue
+            orb = {tuple(a * e % m for e in ezm) for a in units}
+            seen |= orb
+            orbits += 1
+        rec = {"chunks": nch, "m": m, "b": b, "puncture characters": C.count_characters(m) - chars,
+               "puncture orbits": size - orbits, "puncture-trivial characters in range": chars}
+        manifest[cid] = rec
+        tot = totals.setdefault(NAMES[sw], [0, 0, 0])
+        tot[0] += 1
+        tot[1] += rec["puncture characters"]
+        tot[2] += rec["puncture orbits"]
+    for name, want in SEAL_TABLE.items():
+        if tuple(totals.get(name, ())) != want:
+            bad.append([name, "the totals differ from the seal's table", totals.get(name), want])
+    return {"manifest": manifest, "totals": totals, "chunks": sum(v["chunks"] for v in manifest.values()),
+            "failures": bad, "holds": not bad and len(manifest) == 80}
+
+
 def main():
     t0 = time.time()
     out = {}
-    for name, fn in (("K9", k9), ("K10", k10), ("K7", k7), ("K0", k0), ("K8", k8), ("K6", k6), ("K4", k4), ("K1", k1)):
+    for name, fn in (("K9", k9), ("K10", k10), ("K11", k11), ("K7", k7), ("K0", k0), ("K8", k8), ("K6", k6), ("K4", k4),
+                     ("K1", k1)):
         t = time.time()
         out[name] = fn()
         out[name]["seconds"] = round(time.time() - t, 1)
