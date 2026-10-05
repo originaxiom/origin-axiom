@@ -1427,3 +1427,19 @@ R39/R40/R94 and B293/B95/B153 scope retained.102 exact/124 Fraction/
 author, analytic acceptance/full suite/main-bank OPEN. FK8/10/11/12,
 physical source/end/domain/phase selection and complete chiral SM/TOE
 remain OPEN; no19-parameter output, gravity, quantum/Born or qualia.
+
+### Physical-bridge apex scope: declared-input research checkpoint October5
+
+No shared B identifier or independently accepted main-bank theorem. Evidence
+under reports/physical_bridge_2026_09_05/apex_scope_2026_10_05; full mission
+unfinished. Exact computations support the stated scope, not an OA vacuum.
+
+| Scoped result | Argument and LIVE safeguard |
+|---|---|
+| Shared E6 cubic gives ranks 2r and 3r with r the concatenated generation-block rank | B1367 reproduced with scoped all-n factorization in PROOF.md section1; tests/test_physical_bridge_apex_scope.py::test_actual_cubic_mass_Hessians and test_exact_exceptional_rank_and_rejection; only N/nu VEV/shared blocks, not all global localized interactions |
+| An orbit sum of whole SU5 transports can have rank3 and distinguish triplet/Higgs mass selection | B955 primary-paper control, not an OA result; PROOF.md section3; tests/test_physical_bridge_apex_scope.py::test_lifted_operator_selection_and_nonremovable_sum; supplied Z4/W/fields/lifts, not a full E6 apex model, anomaly proof, OA derivation or phenomenology |
+| Full-matter central repair preserves root breaking and all1152 tested backgrounds retain a deck trace obstruction | B1364/B1365 audited and retained on repaired lifts; FINDINGS.md items3-4; tests/test_physical_bridge_apex_scope.py::test_actual_compact_order_four_lifts_and_exterior_weights and test_full_deck_census_matches_separate_representation; fixed four torus classes/Q8/order4 population, ordinary E6-linear deck lifts only |
+
+38 native/47 separate-reference/eight LIVE pass after resealed repair;
+first failure retained. Same author, independent review/full suite/main
+promotion unfinished. Negative does not transport to the full architecture.

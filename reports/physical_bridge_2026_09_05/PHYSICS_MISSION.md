@@ -14,6 +14,14 @@ the older ACTIVE readings below remain dated historical records.
 
 ## Goal
 
+October5 execution currency: the owner approved the common-model plan and
+explicitly instructed implementation. Apex scope packet completed at its
+declared research grade; silver candidate intake pinned. See
+EXECUTION_ROADMAP_2026_10_05.md. A direct interface read at this turn's
+start reported paused with the original objective unchanged; no exposed
+status-only tool was used to claim a resume or completion. The explicit
+implementation request authorizes this work; the full mission is unfinished.
+
 Develop and test Origin Axiom as a candidate foundation for a unified
 physical theory. Starting from explicit, scrutinized principles,
 establish its admissible structures and their physical interpretation;

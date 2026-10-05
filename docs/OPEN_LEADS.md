@@ -4766,3 +4766,28 @@ phase/lifting/quantum controls. A matched-partner theorem for THIS
 geometric baseline is NOT a kill of larger covers, defects or different
 admitted boundary laws. No closure or missing-result/whole-corpus
 absence claim. SE2 CHOSEN, FK8/10/11/12 OPEN; full SM/TOE unachieved.
+
+## Common-model campaign October5: apex scope and carried physical duties
+
+Local packet apex_scope_2026_10_05/FINDINGS.md under physical_bridge:
+38 exact/47 reference/eight LIVE pass, complete1152 repaired-deck rows.
+"There is no compatible ordinary deck lift in the fixed Y3 population,
+so no purported OA coupling selection is computed by attaching Witten's
+mechanism to it." This closes only that tested attachment, not all apexes
+or all generated carriers. Shared cubic rank remains; global sums need
+their actual symmetry/transport tensors. No shared lead ID allocated.
+
+- Alternative admitted carrier/background/lift with actual localized
+  Higgs/triplet/Yukawa/baryon operators and anomaly accounting: carried.
+- Common silver boundary response/action and charged fermion domain:
+  carried; COMMON_MODEL_CANDIDATE_2026_10_05.md pins the first m135 member
+  and keeps absolute/relative/interior counts and normal flux distinct.
+- Exceptional larger-cover classes with characteristic-zero certificates:
+  carried; B1541 remains the owning seat's generic-sample packet.
+- Pin square/inner-action verification, then spin on that same physical
+  operator: carried; no torsion-to-spectrum identification earned.
+- Whole-architecture act/register and lift retention, plus the philosophical
+  qualia question: carried, not mathematical or physical identification.
+
+No full-spectrum, selected phase, normalized physical parameters, gravity,
+observer/qualia mechanism or full SM/TOE completion follows from this packet.

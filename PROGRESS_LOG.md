@@ -17273,3 +17273,22 @@ declared normalized failure log preserved. Correct the test copy and
 align native torus labels with B1365's verified-equivalent lattice basis;
 CORRECTION.md records both. Corrected import/collection requires a fresh
 pushed/server-confirmed seal. No unchanged-first-pass or physics claim.
+
+## 2026-10-05 apex scope executed; fixed silver candidate intake
+
+Corrected science unchanged after5806892bb pushed/server-confirmed:
+38 native/47 separate-reference/eight LIVE tests pass, true exits0.
+Complete1152-key full-matter relator/deck census matches both routes.
+Two B1365 torus representatives require a Z3 lift correction; adjoint
+breaking survives and every repaired background still breaks the deck.
+Shared E6 cubic pincer retained; supplied lifted-transport sum splits
+doublets/triplets but is not an admitted OA construction or E6 counterexample.
+Original failed control and first37/47 outputs remain custodied.
+
+FINDINGS/RECEIPTS, law-map scope rows and sender-owned relay preserve the
+results and carried duties.26 PASS/four inherited governance FAIL categories;
+no full suite, independent acceptance or main-bank certification. Fixed
+silver candidate intake keeps its absolute/relative/interior counts separate
+and records that normal flux is not the physical potential derivative.
+No silver scientific replay or new boundary law performed in that intake.
+Act/register/qualia hypothesis retained; full parameter-free SM/TOE unachieved.

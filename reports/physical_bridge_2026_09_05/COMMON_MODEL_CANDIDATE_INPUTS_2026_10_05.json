@@ -1,0 +1,43 @@
+{
+  "scope": "Read-only frozen candidate intake; no new scientific replay",
+  "sources": [
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/members.json",
+      "bytes": 2863,
+      "sha256": "668048a8933a44b0690067552a420a3323b13abdb386be2553591a4a82b30e20"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/verify.py",
+      "bytes": 10711,
+      "sha256": "d57611727e5585fca9a3938966bf7ba1ffa64b3a98b5eeaad5fdb0c3ec44a497"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/PROOF.md",
+      "bytes": 5314,
+      "sha256": "6e00718b4fcde40259555861b598ed0b59e72c2d604cc9f41117dff823dbba59"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/NATIVE_SECOND.jsonl",
+      "bytes": 6947,
+      "sha256": "dafc582013645226f5edb22325bb800ce0cd8f1a84e7305775bba229880b058b"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_normal_response_2026_10_04/PROOF.md",
+      "bytes": 8334,
+      "sha256": "54fd1b181b5456b14974a5c2b31caaa0d2a9816bc9f7cc8164a20507617a59d1"
+    },
+    {
+      "ref": "a3aaad899a1feb2718aea4086d057af70e45f877",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    }
+  ],
+  "non_author_acceptance": false,
+  "physical_goal_achieved": false
+}

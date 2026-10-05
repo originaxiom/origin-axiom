@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+[October5 common-model execution roadmap](EXECUTION_ROADMAP_2026_10_05.md)
+and [completed apex scope audit](apex_scope_2026_10_05/FINDINGS.md).
+38 exact/47 separate-reference/eight LIVE pass after preserved/resealed
+repair. Shared E6 cubic result remains; transport sums need actual global
+symmetry. Full repaired Y3 population retains its deck obstruction.
+[Fixed silver candidate and boundary-law duty](COMMON_MODEL_CANDIDATE_2026_10_05.md)
+keeps cohomology realizations and action/normal-flux meanings separate.
+This is the current execution direction, not a complete chiral SM/TOE.
+
 [Current R95 result and physical costs](TRACE_PARENT.md).
 
 [October5 quantum-selection literature intake](QUANTUM_SELECTION_INTAKE_2026_10_05.md)

@@ -1,0 +1,1 @@
+{"mode":"final","science_files":8,"source_pins":9,"science_unchanged":true,"source_bytes_match":true,"non_author_acceptance":false,"physical_goal_achieved":false}

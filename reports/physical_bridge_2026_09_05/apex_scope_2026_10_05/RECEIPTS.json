@@ -1,0 +1,249 @@
+{
+  "first_seal": "3610c481269b168514e1b1acac5c73250a0bfc92",
+  "corrected_seal": "5806892bb3459014b33e68ca96991d6759209ee6",
+  "captures": {
+    "first": {
+      "focused": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_apex_scope.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 2.6679049999220297,
+        "log_bytes": 1500,
+        "log_sha256": "ddda500cc2627e1b4a8bc599d28fe04bf01c938e0b7d07e5e901bd59dac4317c"
+      },
+      "governance_preseal": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 14.61006700003054,
+        "log_bytes": 2384,
+        "log_sha256": "00343e6f8f1fdb7ebad2c5108143c48a01ae2c45c385f889a0fd36a2f078ba37"
+      },
+      "native": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/probe.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.5645600000862032,
+        "log_bytes": 467185,
+        "log_sha256": "85f8f4ab0bfa5f4bc62af809806c1632a0f30d7ff5900d3c9580d14649010bb7"
+      },
+      "preflight": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/custody.rb",
+          "preflight",
+          "<raw-root>",
+          "3610c481269b168514e1b1acac5c73250a0bfc92"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7008379999315366,
+        "log_bytes": 167,
+        "log_sha256": "0ce55b312c0e8d2bb3fc9bbc130e9d9d2ef32f8ea874195e4a84839aa10fd17e"
+      },
+      "reference": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/reference.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.866552000050433,
+        "log_bytes": 465473,
+        "log_sha256": "9b4a81105305d96ccfaf2fa50c9db35ec0f2e0f43fe59392508a1f06c23c113c"
+      },
+      "server_seal": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.9806090000784025,
+        "log_bytes": 85,
+        "log_sha256": "12b0cd90404b1a5437e01f440dbf82ba41b6af4d87e2bb70f41ce62577b5b657"
+      }
+    },
+    "corrected": {
+      "final_custody": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/custody.rb",
+          "final",
+          "<raw-root>",
+          "5806892bb3459014b33e68ca96991d6759209ee6"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7820770000107586,
+        "log_bytes": 163,
+        "log_sha256": "5a5bb645aa32f3f4111dcc55b15de121b35b2e719c42c5beb1f198f5ceee5360"
+      },
+      "focused": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_apex_scope.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.4753629999468103,
+        "log_bytes": 98,
+        "log_sha256": "a758b90531b0e254fdd48f6511dbcfb48499dd6abbef79b98723132d98a9a606"
+      },
+      "governance": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.006516000023112,
+        "log_bytes": 2384,
+        "log_sha256": "76031ec758c94280da3b0e477485a553b9700428604b83e0ec5e02bbaaa82299"
+      },
+      "native": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/probe.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.9571070000529289,
+        "log_bytes": 467220,
+        "log_sha256": "a05909ab6188acb6e541229cc85a1bf6cf5a63387058d221675f131e6f768b38"
+      },
+      "preflight": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/custody.rb",
+          "preflight",
+          "<raw-root>",
+          "5806892bb3459014b33e68ca96991d6759209ee6"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7377430000342429,
+        "log_bytes": 167,
+        "log_sha256": "63f7d9564c6169640f8d325169dc7434d9bed9d28eeddf2824aa9ca190e1b5ea"
+      },
+      "reference": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/reference.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.9288729999680072,
+        "log_bytes": 465473,
+        "log_sha256": "9b4a81105305d96ccfaf2fa50c9db35ec0f2e0f43fe59392508a1f06c23c113c"
+      },
+      "server_seal": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.8907499999040738,
+        "log_bytes": 85,
+        "log_sha256": "b89c78a9d95fedeb4b07886f7efe002cdbaf1ae06fe774574e59c1dfa06f56b4"
+      },
+      "governance_publication": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 12.889433999895118,
+        "log_bytes": 2466,
+        "log_sha256": "f071435ab758c4f578224bbf716974b4b9744c471f43eef7ad0791fb6b253530"
+      },
+      "governance_publication_corrected": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.037843000027351,
+        "log_bytes": 2384,
+        "log_sha256": "76031ec758c94280da3b0e477485a553b9700428604b83e0ec5e02bbaaa82299"
+      }
+    }
+  },
+  "first_focused_public_projection": "Replace only private Python environment path; retained whitespace is intentional raw output",
+  "native_checks": 38,
+  "reference_checks": 47,
+  "focused_tests": 8,
+  "rows": 1152,
+  "non_author_acceptance": false,
+  "full_suite_green": false,
+  "physical_goal_achieved": false,
+  "publication_gate_status": {
+    "pass": 26,
+    "fail": 4,
+    "inherited_failures": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "first_metadata_failure_preserved": "GOVERNANCE_PUBLICATION_FIRST.txt"
+  }
+}

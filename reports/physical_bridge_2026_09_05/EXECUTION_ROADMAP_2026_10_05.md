@@ -6,12 +6,16 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
 
 1. Apex scope: reproduce the cubic identity, test actual compact lifts of
    the existing Y3 backgrounds, and examine path-dependent mass selection.
-   First packet: apex_scope_2026_10_05/DESIGN.md. No result asserted yet.
+   Completed at research-checkpoint grade: apex_scope_2026_10_05/FINDINGS.md.
+   Cubic identity retained; supplied transport hatch; full repaired deck
+   population obstructed. Not independent main banking or an OA rescue.
 2. Common-action completion: use the first frozen m135/-LLRR silver
    cocycle, u=(0,1/2), kappa=1. Derive the boundary response and bosonic /
    fermionic variational domains in the same specified E8 parent. Controls:
    split coefficient, contragredient/order reversal, existing smooth join.
    Added sources, fields or laws must be separately priced and sealed.
+   COMMON_MODEL_CANDIDATE_2026_10_05.md pins the literal cocycle, different
+   cohomology realizations and the existing bare-action/normal-flux gap.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-05 apex scope verified and silver candidate fixed
+
+38 exact/47 separate-reference/eight LIVE pass under corrected pushed seal.
+Complete1152 deck witnesses after central-lift repair; cubic identity
+retained, supplied transport sum invalidates a general basis-removal
+inference without rescuing the tested Y3 backgrounds. First failure kept.
+Next silver candidate pinned without conflating its three cohomology rows
+or normal flux with the physical potential. No complete chiral SM/TOE.
+
 ## 2026-10-05 apex correction before rerun
 
 First scientific outputs pass; focused rejection control fails on an
