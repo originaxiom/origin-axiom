@@ -1,5 +1,14 @@
 # Origin Axiom
 
+> October5 [fixed silver operator gate](reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/FINDINGS.md):
+> literal m135 cocycle and full pair profiles reproduced by two exact
+> arithmetic routes.22 native/18 separate-reference/8 LIVE pass after a
+> disclosed expression-normalization repair. Interior asymmetry retained;
+> simple compact Hodge domains pair when endpoint degrees are included.
+> Hodge Robin and positive gauge boundary forms are not interchangeable.
+> Next the same parent's full interacting boundary/fermion law, not a
+> whole-architecture kill or a physical-generation claim. Full goal ACTIVE.
+
 > October4 R95: [explicit trace-to-parent map](reports/physical_bridge_2026_09_05/TRACE_PARENT.md)
 > conditionally transports the LOCAL registered variation into the same
 > supplied E8 superpotential, with full trace/boundary normalization and

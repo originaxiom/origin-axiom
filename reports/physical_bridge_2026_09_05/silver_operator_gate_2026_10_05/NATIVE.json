@@ -1,0 +1,323 @@
+{
+  "V": {
+    "h0_absolute": 0,
+    "h0_boundary": 1,
+    "h1_absolute": 2,
+    "h1_interior": 1,
+    "h1_relative": 2,
+    "h2_absolute": 2,
+    "restriction_rank": 1
+  },
+  "boundary_control": {
+    "boundary_pairing": "-2*k*sinh(2*k*L)",
+    "gauge_energy": "2*k*sinh(2*k*L)",
+    "ordinary_Neumann": false,
+    "positive_for_real_nonzero_k_and_positive_L": true,
+    "silver_geometric_solution": false,
+    "twisted_energy": 0
+  },
+  "checks": {
+    "Robin_flux_identity": true,
+    "W_determinant_one": true,
+    "absolute_relative_current": true,
+    "bad_cocycle_rejected": true,
+    "bad_relation_rejected": true,
+    "coboundary_gauge_invariance": true,
+    "cocycle_closed": true,
+    "cocycle_nonexact": true,
+    "cocycle_peripheral_zero": true,
+    "combined_reality_domain_exchange": true,
+    "combined_reality_square": true,
+    "degree_parity": true,
+    "dual_flux_even": true,
+    "field_dual": true,
+    "free_word_marking": true,
+    "literal_dual_invariant_line": true,
+    "peripheral_block_split": true,
+    "principal_current_nondegenerate": true,
+    "split_pairing": true,
+    "trace_half_dimension": true,
+    "uniform_absolute_not_reality": true,
+    "wrong_field_dual_rejected": true
+  },
+  "cocycle_strings": [
+    "1",
+    "-5*sqrt(2)",
+    "-1 + 3*sqrt(2)/2",
+    "2 - sqrt(2)/2",
+    "3 + 6*sqrt(2)",
+    "5*sqrt(2)",
+    "1 + 11*sqrt(2)/2",
+    "-2 + 3*sqrt(2)/2",
+    "2",
+    "0",
+    "0",
+    "0"
+  ],
+  "failed": [],
+  "non_author_acceptance": false,
+  "passed": 22,
+  "physical_goal_achieved": false,
+  "profiles": {
+    "W": {
+      "E": {
+        "absolute_betti": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "absolute_odd_even": [
+          2,
+          2
+        ],
+        "h0_absolute": 0,
+        "h0_boundary": 2,
+        "h1_absolute": 2,
+        "h1_interior": 0,
+        "h1_relative": 2,
+        "h2_absolute": 2,
+        "relative_betti": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "relative_odd_even": [
+          3,
+          3
+        ],
+        "restriction_rank": 2
+      },
+      "difference": {
+        "h1_absolute": -1,
+        "h1_interior": -1,
+        "h1_relative": 0
+      },
+      "dual": {
+        "absolute_betti": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "absolute_odd_even": [
+          3,
+          3
+        ],
+        "h0_absolute": 1,
+        "h0_boundary": 2,
+        "h1_absolute": 3,
+        "h1_interior": 1,
+        "h1_relative": 2,
+        "h2_absolute": 2,
+        "relative_betti": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "relative_odd_even": [
+          2,
+          2
+        ],
+        "restriction_rank": 2
+      }
+    },
+    "splitW": {
+      "E": {
+        "absolute_betti": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "absolute_odd_even": [
+          3,
+          3
+        ],
+        "h0_absolute": 1,
+        "h0_boundary": 2,
+        "h1_absolute": 3,
+        "h1_interior": 1,
+        "h1_relative": 2,
+        "h2_absolute": 2,
+        "relative_betti": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "relative_odd_even": [
+          3,
+          3
+        ],
+        "restriction_rank": 2
+      },
+      "difference": {
+        "h1_absolute": 0,
+        "h1_interior": 0,
+        "h1_relative": 0
+      },
+      "dual": {
+        "absolute_betti": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "absolute_odd_even": [
+          3,
+          3
+        ],
+        "h0_absolute": 1,
+        "h0_boundary": 2,
+        "h1_absolute": 3,
+        "h1_interior": 1,
+        "h1_relative": 2,
+        "h2_absolute": 2,
+        "relative_betti": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "relative_odd_even": [
+          3,
+          3
+        ],
+        "restriction_rank": 2
+      }
+    },
+    "split_wedge2W": {
+      "E": {
+        "absolute_betti": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "absolute_odd_even": [
+          4,
+          4
+        ],
+        "h0_absolute": 0,
+        "h0_boundary": 3,
+        "h1_absolute": 4,
+        "h1_interior": 1,
+        "h1_relative": 4,
+        "h2_absolute": 4,
+        "relative_betti": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "relative_odd_even": [
+          4,
+          4
+        ],
+        "restriction_rank": 3
+      },
+      "difference": {
+        "h1_absolute": 0,
+        "h1_interior": 0,
+        "h1_relative": 0
+      },
+      "dual": {
+        "absolute_betti": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "absolute_odd_even": [
+          4,
+          4
+        ],
+        "h0_absolute": 0,
+        "h0_boundary": 3,
+        "h1_absolute": 4,
+        "h1_interior": 1,
+        "h1_relative": 4,
+        "h2_absolute": 4,
+        "relative_betti": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "relative_odd_even": [
+          4,
+          4
+        ],
+        "restriction_rank": 3
+      }
+    },
+    "wedge2W": {
+      "E": {
+        "absolute_betti": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "absolute_odd_even": [
+          4,
+          4
+        ],
+        "h0_absolute": 0,
+        "h0_boundary": 3,
+        "h1_absolute": 4,
+        "h1_interior": 0,
+        "h1_relative": 3,
+        "h2_absolute": 4,
+        "relative_betti": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "relative_odd_even": [
+          3,
+          3
+        ],
+        "restriction_rank": 4
+      },
+      "difference": {
+        "h1_absolute": 1,
+        "h1_interior": -1,
+        "h1_relative": -1
+      },
+      "dual": {
+        "absolute_betti": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "absolute_odd_even": [
+          3,
+          3
+        ],
+        "h0_absolute": 0,
+        "h0_boundary": 3,
+        "h1_absolute": 3,
+        "h1_interior": 1,
+        "h1_relative": 4,
+        "h2_absolute": 3,
+        "relative_betti": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "relative_odd_even": [
+          4,
+          4
+        ],
+        "restriction_rank": 2
+      }
+    }
+  }
+}

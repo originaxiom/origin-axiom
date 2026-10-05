@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-05 fixed silver coefficient and compact operator gate verified
+
+22 native/18 separate direct-field/eight LIVE pass after resealed expression
+normalization; all first failures retained. Literal m135 candidate and every
+received dual/split profile match. Interior(-1,-1) preserved. Full compact
+Hodge controls pair with endpoint degrees retained; Hodge/gauge boundary
+forms are distinct. This does not exclude other physical domains or derive
+an interacting chiral sector. Latest full-goal tracker ACTIVE, unchanged.
+
 ## 2026-10-05 silver symbolic-control correction before rerun
 
 First reference18 PASS retained; native/focused assertion failure archived

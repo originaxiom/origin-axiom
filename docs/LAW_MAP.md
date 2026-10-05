@@ -1443,3 +1443,19 @@ unfinished. Exact computations support the stated scope, not an OA vacuum.
 38 native/47 separate-reference/eight LIVE pass after resealed repair;
 first failure retained. Same author, independent review/full suite/main
 promotion unfinished. Negative does not transport to the full architecture.
+
+### Physical-bridge fixed silver operator gate: research checkpoint October5
+
+No shared identifier or independent main-bank theorem. Evidence under
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05.
+The supplied compact-core/action/domain assumptions travel with the claims.
+
+| Scoped result | Argument and LIVE safeguard |
+|---|---|
+| Literal m135 silver cocycle and all four dual/split profiles reproduce over Q(sqrt2) | B1530 member and fork8b89d8fb readings credited; FINDINGS.md section1; tests/test_physical_bridge_silver_operator_gate.py::test_literal_marking_and_actual_cocycle and test_full_counts_keep_all_three_frames; interior differences preserved, not physical generations |
+| Full-degree absolute and relative Hodge kernels pair on this nonsplit candidate | B1530 candidate, R30 general Euler argument credited; PROOF.md sections1-2; tests/test_physical_bridge_silver_operator_gate.py::test_actual_endpoint_modes_complete_the_graded_kernels; includes relative W H3=1, not a no-go for all physical domains |
+| Twisted scalar and positive gauge quadratic forms differ by the boundary Higgs pairing | B1509 parent context and R40 dictionary credited; PROOF.md section3; tests/test_physical_bridge_silver_operator_gate.py::test_scalar_boundary_flux_cannot_be_dropped; harmonic metric and compact smooth core assumed, slab is a comparator not silver geometry |
+
+22 native/18 separate-reference/eight LIVE pass after resealed normalization;
+first failed runs retained. Actual full interacting boundary law, independent
+acceptance and full-suite/main-bank certification remain duties.

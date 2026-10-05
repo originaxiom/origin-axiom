@@ -4791,3 +4791,25 @@ their actual symmetry/transport tensors. No shared lead ID allocated.
 
 No full-spectrum, selected phase, normalized physical parameters, gravity,
 observer/qualia mechanism or full SM/TOE completion follows from this packet.
+
+## Fixed silver operator gate October5: candidate retained, domain duty precise
+
+silver_operator_gate_2026_10_05/FINDINGS.md under physical_bridge verifies
+the literal m135 coefficient, cocycle and received pair tables.22 native/
+18 reference/eight LIVE pass at research grade. Its closing scope is:
+"A scoped paired regulator is not a programme-wide negative; the interior
+positive has not been discarded." No whole-architecture lead is closed.
+
+- Preserve interior(-1,-1) and compact harmonic metric admission; derive
+  a physical trace/domain law rather than select a favorable H1 row.
+- Lift the finite cyclic boundary positive to smooth full-parent data;
+  retain normal conditions, endpoint states, real gauge freedom,
+  combined reality, auxiliary derivative terms and nonlinear brackets.
+- Price any source/boundary multiplet/functional explicitly in the same
+  action. Normal flag flux is not the bare potential derivative.
+- Keep positive gauge kinetics distinct from twisted scalar Robin data;
+  dual H0 is not automatically an unbroken charged gauge generator.
+- After that same-domain spectrum, evaluate the complete parent anomalies,
+  interactions and norms; larger-cover and spin support cannot substitute.
+
+No new shared lead number, exhaustive end-law exclusion or physical SM claim.

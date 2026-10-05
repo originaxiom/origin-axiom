@@ -4,6 +4,14 @@ October5. Read-only intake for campaign stage2, not a new PDE result or
 fresh reproduction of the fork. Source bytes pinned in the adjacent INPUTS
 file. Apex packet is complete at its declared research grade; physics is not.
 
+October5 follow-up: silver_operator_gate_2026_10_05/FINDINGS.md now
+reproduces this literal member/cocycle and EVERY received table entry by
+two separate exact arithmetic routes.22/18/eight LIVE pass after the
+disclosed normalization repair. The historical intake qualifiers below
+refer to this intake packet, not a current absence of reproduction.
+Full Betti/Green/gauge-boundary controls are recorded there; no physical
+boundary law or generation claim follows from the reproduced counts.
+
 ## Literal candidate, no post-outcome substitution
 
 Fork8b89d8fb first m135/-LLRR member, u=(0,1/2), kappa=1,

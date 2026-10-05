@@ -1,0 +1,136 @@
+{
+  "seal_commit": "f5a7ae1ef0d9bf795a6355dcbb646e21231eb2ea",
+  "first_seal_commit": "404e1c89c79d2d9940e581929eae5db2f8c691d9",
+  "science_checks": {
+    "native": 22,
+    "reference": 18,
+    "focused": 8
+  },
+  "scientific_files": 9,
+  "immutable_source_pins": 11,
+  "runs": {
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.9351179999066517,
+      "log_bytes": 85,
+      "log_sha256": "9e2e0a0e3da8ad8fa1ee1730b6a85d2f12ad009ae80f4a296c1267a91e7c1c0e"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb",
+        "preflight",
+        "/tmp/oa-silver-operator-corrected-20261005.GsFPyn",
+        "f5a7ae1ef0d9bf795a6355dcbb646e21231eb2ea"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.7999729999573901,
+      "log_bytes": 197,
+      "log_sha256": "c556aa5058ae6185f1943d2aa4845512aad860ffdcb844995d1098cb82190f9c"
+    },
+    "native": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.552131999982521,
+      "log_bytes": 6278,
+      "log_sha256": "296c15141b95646aab12429a3020fbfbd2a2b087960d14a0e1dd1c39674d1311"
+    },
+    "reference": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 13.376175999990664,
+      "log_bytes": 6324,
+      "log_sha256": "d3afe4591eebd180f135596e65fe5d82cce028b2e9af320d6d9d6e13fd5f1756"
+    },
+    "focused": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_operator_gate.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 17.51947499997914,
+      "log_bytes": 99,
+      "log_sha256": "c292c8e884dbb33dda46e6f682affb621dbe4851963faa90b1f25a51ce0d595c"
+    },
+    "custody": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb",
+        "final",
+        "/tmp/oa-silver-operator-corrected-20261005.GsFPyn",
+        "f5a7ae1ef0d9bf795a6355dcbb646e21231eb2ea"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8910120000364259,
+      "log_bytes": 193,
+      "log_sha256": "529d25ed2ce62c7c061b0d1cebf557a1e6b0146c4bfb4d61f5abcfc92e963741"
+    },
+    "governance_execution": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 13.467777999932878,
+      "log_bytes": 2384,
+      "log_sha256": "ee98a0969ef4f94a3641b8f0cfbaf02a55ccaf6c4339b8ff35397f400325ee01"
+    },
+    "governance_publication": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 14.244990999926813,
+      "log_bytes": 2384,
+      "log_sha256": "ee98a0969ef4f94a3641b8f0cfbaf02a55ccaf6c4339b8ff35397f400325ee01"
+    }
+  },
+  "complete_profiles_match": true,
+  "physical_goal_achieved": false,
+  "non_author_acceptance": false,
+  "full_suite_certified": false,
+  "main_bank_certified": false,
+  "governance_execution_and_publication_byte_identical": true
+}

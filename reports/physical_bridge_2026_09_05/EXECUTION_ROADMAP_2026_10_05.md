@@ -16,6 +16,13 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    Added sources, fields or laws must be separately priced and sealed.
    COMMON_MODEL_CANDIDATE_2026_10_05.md pins the literal cocycle, different
    cohomology realizations and the existing bare-action/normal-flux gap.
+   Stage2A completed at research grade: silver_operator_gate_2026_10_05/
+   FINDINGS.md verifies the literal coefficient and all pair profiles,
+   full-degree compact Hodge controls and the Hodge/gauge boundary distinction.
+   Interior(-1,-1) preserved; compact absolute/relative graded pairing is
+   not an architecture kill. Stage2B remains: smooth full-parent boundary
+   trace law and normal conditions, including interaction/reality/gauge/
+   supersymmetry compatibility and complete finite spectrum.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

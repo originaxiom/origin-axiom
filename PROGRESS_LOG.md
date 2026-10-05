@@ -17310,3 +17310,24 @@ exponential-versus-sinh simplification assertion; focused1 failed/3 passed/
 Normalize both comparisons to exponentials, without changing the identity,
 coefficient, cocycle, scope or reference. Nine scientific files resealed
 before rerun; no physical negative inferred from the instrument failure.
+
+## 2026-10-05 fixed silver candidate reproduced; boundary/operator joint sharpened
+
+Corrected pre-run f5a7ae1ef pushed/server-confirmed.22 native/18 reference/
+8 LIVE tests pass; custody9 scientific paths/11 source pins confirms
+literal incoming member/cocycle and full tables, not only headline counts.
+Interior differences(-1,-1) retained; split controls zero. Full absolute/
+relative Betti tuples include endpoints and give paired graded Hodge
+kernels. Relative W H3=1 is kept, not silently subtracted. No transport
+of this scoped control to all generated carriers or physical domains.
+
+The authored scalar boundary identity and exact slab controls distinguish
+Hodge Robin from positive gauge natural data. The dual H0 invariant line
+does not supply a reducing charged gauge zero mode of that positive form.
+Compact harmonic admission remains credited; no silver metric solve or
+full boundary law added. Next smooth full-parent trace and normal laws,
+same-action real/superfield/bracket compatibility and complete spectrum.
+README/mission/roadmap/candidate, law map, open duties and sender-owned
+relay updated. Latest direct tracker ACTIVE with original full objective.
+Four inherited governance FAIL categories remain; no full-suite/main-bank
+certificate, independent acceptance, physical SM or TOE completion.
