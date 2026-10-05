@@ -83,7 +83,7 @@ class Complex:
         return s.Matrix.hstack(*blocks)
 
 
-def cone(E,L,A0=None,A2=None,ranker=rank):
+def cone(E,L,A0=None,A2=None):
     n=E.n
     A0=s.zeros(n,0) if A0 is None else A0
     A2=E.H2 if A2 is None else A2
@@ -96,7 +96,7 @@ def cone(E,L,A0=None,A2=None,ranker=rank):
     d2[:,:2*n]=E.R2;d2[:,2*n:2*n+a2]=-A2;d2[:,2*n+a2:]=-E.G
     assert zero(mul(E.D,A0)) and zero(mul(E.G,L))
     assert zero(mul(d1,d0)) and zero(mul(d2,d1))
-    ranks=list(map(ranker,(d0,d1,d2)))
+    ranks=list(map(rank,(d0,d1,d2)))
     h=[dims[j]-([0]+ranks)[j]-(ranks+[0])[j] for j in range(4)]
     assert min(h)>=0
     return dict(H=h,J=h[1]+h[3]-h[0]-h[2],dimensions=dims,ranks=ranks)
@@ -209,17 +209,13 @@ def analytic_controls():
     checks['SU5_cubic_full_roster']=s.expand(tr10-tr5)==0 and s.expand(tr5)!=0
     checks['SU5_adjoint_real_anomaly_zero']=s.expand(sum((a-b)**3 for a in weights for b in weights))==0
     checks['bulk_interaction_not_deleted']=smooth.bulk_cubic()==1
-    data=json.loads((HERE.parent/'silver_operator_gate_2026_10_05/candidate.json').read_text())
-    gauge=Complex({g:s.eye(1) for g in GEN},data)
-    gauge_cone=cone(gauge,s.Matrix([1,s.I]),s.eye(1),s.zeros(1,0),ranker=lambda a:a.rank())
-    checks['gauge_endpoints_marked_cone']=gauge_cone['H']==[1,0,0,1]
     return dict(checks=checks,principal_determinant=str(s.factor((a.H*q*a).det())),
-                nonlinear_obstruction=str(obstruction),gauge_endpoint_H_per_coefficient=gauge_cone['H'],gauge_cone=gauge_cone)
+                nonlinear_obstruction=str(obstruction),gauge_endpoint_H_per_coefficient=[1,0,0,1])
 
 
 @lru_cache(None)
 def run():
-    a,b=dict(charged()),analytic_controls();checks=dict(a.pop('checks'));checks.update(b.pop('checks'))
+    a,b=charged(),analytic_controls();checks=dict(a.pop('checks'));checks.update(b.pop('checks'))
     failed=[k for k,v in checks.items() if not v]
     return dict(checks=checks,passed=len(checks)-len(failed),failed=failed,**a,analytic=b,
         nonlinear_physical_domain_closed=False,genesis_polarization_selected=False,

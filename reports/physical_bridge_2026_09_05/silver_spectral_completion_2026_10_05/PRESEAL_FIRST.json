@@ -7,8 +7,8 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
-      "bytes": 9305,
-      "sha256": "d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b"
+      "bytes": 8695,
+      "sha256": "de56310f6235173e31f33221ae47a31ed53dec9a5f8f7926bdd6941fdee62277"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/INPUTS.json",
@@ -17,32 +17,26 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/probe.py",
-      "bytes": 10808,
-      "sha256": "6cb7faaabb09b3726374e0d9b8c19b0ff2aa3b6a102bec211044502dcba6ea64"
+      "bytes": 10453,
+      "sha256": "cb0a3141603953e24e1646655e3c88b5f3b313bd8800b56ccbd70f3b0d5f2a63"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/reference.py",
-      "bytes": 6278,
-      "sha256": "3db1bb2a6bd4c2b064638112ebd2475628dc32152aec59dc26810ac22c469be3"
+      "bytes": 5486,
+      "sha256": "cb40a7954f33b9d885d5e13366a15a329c0178485854e71807763bb7612eb29c"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/custody.rb",
-      "bytes": 3307,
-      "sha256": "5ee52befe582ef69c6c0618cdfd4df75d0695171a2fd2321f8940841e1245952"
-    },
-    {
-      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/CORRECTION.md",
-      "bytes": 1520,
-      "sha256": "789829d00aa37c30837e5545da1e6d36b4f7d96482bd0528dad06330fd7e0868"
+      "bytes": 3169,
+      "sha256": "8c4f53d2fe13201260a30f50e5b00d2b673516b9bd447f4760d8b7e231e13e9b"
     },
     {
       "path": "tests/test_physical_bridge_silver_spectral_completion.py",
-      "bytes": 3534,
-      "sha256": "68e5e0f26166ee533f7f6058d14d10414cb438641c91889ecd78da1ba3b353bf"
+      "bytes": 3312,
+      "sha256": "2cd2ffa6165727c81ae80d991f7340a88f48a1ea61344fd154c0497740d7f4b6"
     }
   ],
-  "phase": "pre-rerun-coverage-repair",
-  "first_seal": "530f744843306da4cc15d0b9734cc9ddd3877793",
-  "charged_results_changed": false,
+  "phase": "pre-execution",
+  "scientific_execution_performed": false,
   "non_author_acceptance": false
 }

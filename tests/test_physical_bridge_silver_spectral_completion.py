@@ -77,6 +77,12 @@ def test_rref_field_not_rational_nullspace(native):
     assert native.zero(native.mul(m,k)) and k.cols==2
 
 
+def test_gauge_endpoints_from_actual_marked_cone(native):
+    out=native.analytic_controls()['gauge_cone']
+    assert out['H']==[1,0,0,1] and out['J']==0
+    assert out['dimensions']==[2,5,4,1] and out['ranks']==[1,4,0]
+
+
 def test_live_results_and_nonclaims(native):
     out=native.run();assert out['passed']==len(out['checks']) and out['failed']==[]
     for k in ('nonlinear_physical_domain_closed','genesis_polarization_selected',

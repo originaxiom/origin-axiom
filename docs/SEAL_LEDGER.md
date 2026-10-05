@@ -2114,3 +2114,20 @@ Same-author reference and authored proof are not nonauthor acceptance.
 | `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/reference.py` | `cb40a7954f33b9d885d5e13366a15a329c0178485854e71807763bb7612eb29c` |
 | `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/custody.rb` | `8c4f53d2fe13201260a30f50e5b00d2b673516b9bd447f4760d8b7e231e13e9b` |
 | `tests/test_physical_bridge_silver_spectral_completion.py` | `2cd2ffa6165727c81ae80d991f7340a88f48a1ea61344fd154c0497740d7f4b6` |
+
+## Spectral silver verifier coverage repair pre-rerun seal October5
+
+First successful runs preserved; charged spectra and hypotheses unchanged.
+Gauge endpoints now replayed; weak reference labels repaired/removed.
+Eight repaired scientific paths, nonauthor acceptance pending.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/DESIGN.md` | `7beebc7c746befe9d67958cbd512603c1df17efb4fdb572cb45e6e77930d468f` |
+| `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md` | `d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b` |
+| `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/INPUTS.json` | `62cd87336a003c57287e61f4b4a177e56810eb7776ab716c78a91d2af53d93b5` |
+| `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/probe.py` | `6cb7faaabb09b3726374e0d9b8c19b0ff2aa3b6a102bec211044502dcba6ea64` |
+| `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/reference.py` | `3db1bb2a6bd4c2b064638112ebd2475628dc32152aec59dc26810ac22c469be3` |
+| `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/custody.rb` | `5ee52befe582ef69c6c0618cdfd4df75d0695171a2fd2321f8940841e1245952` |
+| `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/CORRECTION.md` | `789829d00aa37c30837e5545da1e6d36b4f7d96482bd0528dad06330fd7e0868` |
+| `tests/test_physical_bridge_silver_spectral_completion.py` | `68e5e0f26166ee533f7f6058d14d10414cb438641c91889ecd78da1ba3b353bf` |

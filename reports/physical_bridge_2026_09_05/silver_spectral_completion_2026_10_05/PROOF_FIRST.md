@@ -70,18 +70,9 @@ Let Omega_A(X) consist of smooth forms with tangential restriction in
 Ainf. Take its graph closure degree by degree for d_D. Since d maps
 the smooth domain to itself and d^2=0, graph approximation gives a closed
 Hilbert complex (d u is approximated by d u_j, with d(d u_j)=0).
-Its adjoint Green boundary condition is normal trace in Ainf^perp,H.
-For a closed Hilbert complex, d+d^* is selfadjoint: the orthogonal
-decomposition into harmonic, closure of exact and closure of coexact
-spaces reduces it to blocks [[0,T^*],[T,0]] for closed operators T;
-the resolvent is expressed with (1+T^*T)^-1 and (1+TT^*)^-1.
-The smooth full-trace operator of section2 is a restriction of this
-Hilbert operator, by the Green identity and graph closure. Its essential
-selfadjointness (Theorem3.11) implies their closures agree, since a
-selfadjoint operator has no proper selfadjoint extension. Thus the
-Hilbert harmonics really are the elliptic realization's smooth zero
-modes; compact resolvent gives finite kernel and closed ranges. This
-avoids assuming smooth regularity for the separate d graph domain.
+Its adjoint Green boundary condition is precisely normal trace in
+Ainf^perp,H. The combined elliptic Hodge realization above regularizes
+its harmonics and has finite-dimensional kernel and closed ranges.
 
 Collar extension makes restriction Omega(X)->Omega(Sigma) surjective.
 The short exact sequence of complexes
