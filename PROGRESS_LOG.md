@@ -17263,3 +17263,13 @@ No scientific import, collection or run yet. No shared identifier allocated;
 other branches unchanged. Push/server confirmation required before science.
 Prior is cubic identity/deck obstruction, not a promised physical rescue.
 Full chiral common-action completion and full SM/TOE remain unachieved.
+
+## 2026-10-05 apex first run preserved; correction resealed
+
+3610c4812 pushed/server-confirmed before execution. Native37 checks and
+the separate reference pass; first focused suite one immutable-matrix
+assignment failure/seven passes. First full scientific outputs and a
+declared normalized failure log preserved. Correct the test copy and
+align native torus labels with B1365's verified-equivalent lattice basis;
+CORRECTION.md records both. Corrected import/collection requires a fresh
+pushed/server-confirmed seal. No unchanged-first-pass or physics claim.

@@ -15,7 +15,7 @@ def test_exact_exceptional_rank_and_rejection():
     md,mt = probe.generation_blocks(g,gn)
     assert md.rank()==4 and mt.rank()==6
     # A component-dependent term is outside the shared-block hypothesis.
-    changed = mt.copy(); changed[6,6]=1
+    changed = s.MutableDenseMatrix(mt); changed[6,6]=1
     assert changed.rank()==7 and changed.rank()!=3*(md.rank()//2)
 
 

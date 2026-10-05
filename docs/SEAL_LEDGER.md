@@ -2024,3 +2024,20 @@ test collection. Same-author, not main bank or full physics completion.
 | `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/reference.py` | `d105da368357e7dd04c70cd24b5d3b342348141d0c3e5e03051400928ea2d9f7` |
 | `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/custody.rb` | `b8fcd4806f7355a39358dab94a7198d53f32ab20f72357c6c26fa0f42f78810b` |
 | `tests/test_physical_bridge_apex_scope.py` | `6a6def47c93c144f88c046fe06853a54261e5e194ae2e2ee49e663eb2c5ef861` |
+
+## Apex scope corrected pre execution seal October 5 2026
+
+First3610c4812 scientific outputs and failed LIVE control retained.
+Mutable-copy control repair; equivalent banked torus basis made explicit.
+CORRECTION.md gives exact scope. Push/server-confirm before any rerun.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/DESIGN.md` | `cb5cc85b97fb2795f414bc0373ea88755db5bfec153dc8bd121415c9ece77c67` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/PROOF.md` | `1d8ced98b1dc82bb4f23bfffbdc1fd1df12ee711bcbd5dbcd3ffba79a243899a` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/INPUTS.json` | `88719d8a3c158738fdb29f715dad59974887f5790135058ac6e3e2d20df7a4bc` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/probe.py` | `8e6323025cb090bc4c45cdca3e666d3095894d8535940f279ec21874c7ff606a` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/reference.py` | `d105da368357e7dd04c70cd24b5d3b342348141d0c3e5e03051400928ea2d9f7` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/custody.rb` | `b8fcd4806f7355a39358dab94a7198d53f32ab20f72357c6c26fa0f42f78810b` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/CORRECTION.md` | `4b59ca007e2f5dcd109fe16039f4d39b45a9ed31f48ecb8d050b7bac22627cfb` |
+| `tests/test_physical_bridge_apex_scope.py` | `778844c2a01a7364fad5a0c44359e53ed8bcc315c2fcfb6923560d9bb8911491` |

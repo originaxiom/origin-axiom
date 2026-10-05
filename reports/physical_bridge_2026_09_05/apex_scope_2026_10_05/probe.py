@@ -71,7 +71,12 @@ def torus():
     den = s.ilcm(*[x.denominator for p in pairs for x in p])
     h = hermite_normal_form(s.Matrix([[int(a*den) for a, _ in pairs],
                                      [int(b*den) for _, b in pairs]]))
-    lattice = h.T/den
+    computed_lattice = h.T/den
+    # Use the input producer's basis so its (m,n) labels remain comparable.
+    lattice = s.Matrix([[s.Rational(1,6),1],[0,5]])
+    transition = lattice*computed_lattice.inv()
+    if abs(transition.det()) != 1 or any(x.q != 1 for x in transition):
+        raise ValueError('banked and computed torus lattices differ')
     dual = lattice.inv()
     sm = {r for r in roots if r[5] == 0 and sum(r[:5]) == 0 and
           ((r[3] == r[4] == 0) or (r[0] == r[1] == r[2] == 0))}
@@ -220,6 +225,7 @@ def run():
     ck('torus/integral_pairings', all(dot(w,r).denominator == 1 for w in weights for r in roots))
     ck('torus/four_SM_classes', len(torus()) == 4)
     ck('torus/distinct_SU6_lifts', len({r['six'] for r in torus()}) == 4)
+    ck('torus/banked_adjoint_keys', {tuple(r['adjoint_key']) for r in torus()} == {(1,0),(1,2),(3,0),(3,2)})
     ck('group/24_Q8_lines', len(lines()) == 24)
     half = (F(1,2),)*4
     normalizer = Q8 + [qm(q, h) for q in Q8 for h in (half, qm(half, half))]

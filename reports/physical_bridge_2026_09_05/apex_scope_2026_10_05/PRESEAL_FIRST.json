@@ -1,11 +1,10 @@
 {
   "input_commit": "a3aaad899a1feb2718aea4086d057af70e45f877",
-  "previous_seal": "3610c481269b168514e1b1acac5c73250a0bfc92",
   "science_files": [
     {
       "path": "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/DESIGN.md",
-      "bytes": 5824,
-      "sha256": "cb5cc85b97fb2795f414bc0373ea88755db5bfec153dc8bd121415c9ece77c67"
+      "bytes": 5283,
+      "sha256": "e44a4abd27bda10b2205eea323070a6111acdcdfcc51a5a0623dcff9ab70e084"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/PROOF.md",
@@ -19,8 +18,8 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/probe.py",
-      "bytes": 10885,
-      "sha256": "8e6323025cb090bc4c45cdca3e666d3095894d8535940f279ec21874c7ff606a"
+      "bytes": 10449,
+      "sha256": "f868b823f31ca6fb7e2b6fac5349dea411f6bb96b25386c15778c5723093a9b7"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/reference.py",
@@ -33,14 +32,9 @@
       "sha256": "b8fcd4806f7355a39358dab94a7198d53f32ab20f72357c6c26fa0f42f78810b"
     },
     {
-      "path": "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/CORRECTION.md",
-      "bytes": 1592,
-      "sha256": "4b59ca007e2f5dcd109fe16039f4d39b45a9ed31f48ecb8d050b7bac22627cfb"
-    },
-    {
       "path": "tests/test_physical_bridge_apex_scope.py",
-      "bytes": 2852,
-      "sha256": "778844c2a01a7364fad5a0c44359e53ed8bcc315c2fcfb6923560d9bb8911491"
+      "bytes": 2837,
+      "sha256": "6a6def47c93c144f88c046fe06853a54261e5e194ae2e2ee49e663eb2c5ef861"
     }
   ],
   "execution_claimed": false,

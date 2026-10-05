@@ -89,3 +89,13 @@ that deck as Witten's unbroken symmetry. Do not compute purported OA
 allowed couplings in an invalid lift. Preserve the comparator and advance
 to common-action silver boundary completion. An apex rescue would require
 an admitted alternative lift/carrier plus actual global interactions.
+
+## Corrected pre-execution envelope
+
+First seal3610c4812 and outputs retained: one LIVE control failed on
+immutable-matrix assignment; both scientific producers passed. Use a
+mutable copy in that control and verify the banked torus-basis transition
+before reporting B1365 coordinates. CORRECTION.md records the change.
+The reference and mathematical scope are unchanged. Reseal and push all
+current scientific bytes before the corrected runs; never overwrite first
+logs. Corrected custody uses a new raw directory with the same stem names.

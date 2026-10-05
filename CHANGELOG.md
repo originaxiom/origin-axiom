@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-05 apex correction before rerun
+
+First scientific outputs pass; focused rejection control fails on an
+immutable matrix. Failure preserved, mutable-copy repair and explicit
+banked-basis label alignment resealed before rerun. No result overwritten.
+
 ## 2026-10-05 common-model campaign; apex scope pre-execution seal
 
 Approved campaign recorded with the same full physics mission. First

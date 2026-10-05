@@ -1,0 +1,30 @@
+.F......                                                                 [100%]
+=================================== FAILURES ===================================
+__________________ test_exact_exceptional_rank_and_rejection ___________________
+
+    def test_exact_exceptional_rank_and_rejection():
+        g,gn = s.diag(1,0,0),s.diag(0,1,0)
+        md,mt = probe.generation_blocks(g,gn)
+        assert md.rank()==4 and mt.rank()==6
+        # A component-dependent term is outside the shared-block hypothesis.
+>       changed = mt.copy(); changed[6,6]=1
+                             ^^^^^^^^^^^^
+
+tests/test_physical_bridge_apex_scope.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Matrix([
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0...0, 0],
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
+args = ((6, 6), 1)
+
+    def __setitem__(self, *args):
+>       raise TypeError("Cannot set values of {}".format(self.__class__))
+E       TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
+
+<python3.12-env>/lib/python3.12/site-packages/sympy/matrices/immutable.py:69: TypeError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_apex_scope.py::test_exact_exceptional_rank_and_rejection
+1 failed, 7 passed in 2.00s
