@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-05 silver symbolic-control correction before rerun
+
+First reference18 PASS retained; native/focused assertion failure archived
+with true exits. Exponential/sinh expression comparison normalized before
+resealing; no coefficient, cocycle, mathematical identity or scope change.
+
 ## 2026-10-05 fixed silver operator gate pre-execution seal
 
 Stage2A of the common-model campaign: literal cocycle replay by rational

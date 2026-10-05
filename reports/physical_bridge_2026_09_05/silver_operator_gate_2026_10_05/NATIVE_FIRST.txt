@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py", line 259, in <module>
+    print(json.dumps(run(),sort_keys=True,indent=2))
+                     ^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py", line 249, in run
+    control = boundary_control()
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py", line 188, in boundary_control
+    assert s.simplify(energy-2*k*s.sinh(2*k*L)) == 0
+AssertionError

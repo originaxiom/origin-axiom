@@ -2,8 +2,8 @@
   "science_files": [
     {
       "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/DESIGN.md",
-      "bytes": 5028,
-      "sha256": "5f80eacf623614bac35937021d5b7aafa35ca5831af81a634cdab95029b478bc"
+      "bytes": 4706,
+      "sha256": "b3be1d1e9f29c83de7c547ab97e62e7479940f0440cb2ce2d061dfd4a0a8951f"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/PROOF.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
-      "bytes": 10325,
-      "sha256": "908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553"
+      "bytes": 10308,
+      "sha256": "da10b1903ab00fa75c65842a6fc2d5eb0cbf1dc7427af60bc2b8fcc02c389297"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
@@ -36,14 +36,9 @@
       "sha256": "8655d9ae8826af029cd04c823b2827167d0cc114f3b76be5aceb5773905c2fe8"
     },
     {
-      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/CORRECTION.md",
-      "bytes": 1400,
-      "sha256": "7edcfbd63145ac45ed5f52073a12dff5fbb65c57372e057b5bef526c7788d583"
-    },
-    {
       "path": "tests/test_physical_bridge_silver_operator_gate.py",
-      "bytes": 5054,
-      "sha256": "c348f3f79b5d32f2bd37680c9fc82e416b57461e04772445cb7a7ec978a13741"
+      "bytes": 5037,
+      "sha256": "1247ba4cd44d1b56678bb799543fe8593f6008fc0a2369501b3be655eb711bbc"
     }
   ],
   "source_pin_count": 11,

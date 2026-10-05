@@ -1,0 +1,145 @@
+.EEE..FE                                                                 [100%]
+==================================== ERRORS ====================================
+___________ ERROR at setup of test_full_counts_keep_all_three_frames ___________
+
+native = <module 'silver_gate_probe' from '/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py'>
+
+    @pytest.fixture(scope='module')
+    def reading(native):
+>       return native.run()
+               ^^^^^^^^^^^^
+
+tests/test_physical_bridge_silver_operator_gate.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:249: in run
+    control = boundary_control()
+              ^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def boundary_control():
+        k,L = s.symbols('k L',real=True,nonzero=True)
+        r = s.symbols('r',real=True)
+        u = s.exp(-k*r)
+        energy = s.integrate(s.diff(u,r)**2+k**2*u**2,(r,-L,L))
+        flux = k*(u.subs(r,L)**2-u.subs(r,-L)**2)
+        assert s.simplify(energy+flux) == 0
+        assert s.diff(u,r)+k*u == 0
+>       assert s.simplify(energy-2*k*s.sinh(2*k*L)) == 0
+E       AssertionError
+
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:188: AssertionError
+___ ERROR at setup of test_actual_endpoint_modes_complete_the_graded_kernels ___
+
+native = <module 'silver_gate_probe' from '/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py'>
+
+    @pytest.fixture(scope='module')
+    def reading(native):
+>       return native.run()
+               ^^^^^^^^^^^^
+
+tests/test_physical_bridge_silver_operator_gate.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:249: in run
+    control = boundary_control()
+              ^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def boundary_control():
+        k,L = s.symbols('k L',real=True,nonzero=True)
+        r = s.symbols('r',real=True)
+        u = s.exp(-k*r)
+        energy = s.integrate(s.diff(u,r)**2+k**2*u**2,(r,-L,L))
+        flux = k*(u.subs(r,L)**2-u.subs(r,-L)**2)
+        assert s.simplify(energy+flux) == 0
+        assert s.diff(u,r)+k*u == 0
+>       assert s.simplify(energy-2*k*s.sinh(2*k*L)) == 0
+E       AssertionError
+
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:188: AssertionError
+_____________ ERROR at setup of test_split_and_coboundary_controls _____________
+
+native = <module 'silver_gate_probe' from '/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py'>
+
+    @pytest.fixture(scope='module')
+    def reading(native):
+>       return native.run()
+               ^^^^^^^^^^^^
+
+tests/test_physical_bridge_silver_operator_gate.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:249: in run
+    control = boundary_control()
+              ^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def boundary_control():
+        k,L = s.symbols('k L',real=True,nonzero=True)
+        r = s.symbols('r',real=True)
+        u = s.exp(-k*r)
+        energy = s.integrate(s.diff(u,r)**2+k**2*u**2,(r,-L,L))
+        flux = k*(u.subs(r,L)**2-u.subs(r,-L)**2)
+        assert s.simplify(energy+flux) == 0
+        assert s.diff(u,r)+k*u == 0
+>       assert s.simplify(energy-2*k*s.sinh(2*k*L)) == 0
+E       AssertionError
+
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:188: AssertionError
+____ ERROR at setup of test_direct_field_reference_and_full_semantic_tables ____
+
+native = <module 'silver_gate_probe' from '/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py'>
+
+    @pytest.fixture(scope='module')
+    def reading(native):
+>       return native.run()
+               ^^^^^^^^^^^^
+
+tests/test_physical_bridge_silver_operator_gate.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:249: in run
+    control = boundary_control()
+              ^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def boundary_control():
+        k,L = s.symbols('k L',real=True,nonzero=True)
+        r = s.symbols('r',real=True)
+        u = s.exp(-k*r)
+        energy = s.integrate(s.diff(u,r)**2+k**2*u**2,(r,-L,L))
+        flux = k*(u.subs(r,L)**2-u.subs(r,-L)**2)
+        assert s.simplify(energy+flux) == 0
+        assert s.diff(u,r)+k*u == 0
+>       assert s.simplify(energy-2*k*s.sinh(2*k*L)) == 0
+E       AssertionError
+
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:188: AssertionError
+=================================== FAILURES ===================================
+_________________ test_scalar_boundary_flux_cannot_be_dropped __________________
+
+native = <module 'silver_gate_probe' from '/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py'>
+
+    def test_scalar_boundary_flux_cannot_be_dropped(native):
+>       assert native.boundary_control()['twisted_energy']==0
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_silver_operator_gate.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def boundary_control():
+        k,L = s.symbols('k L',real=True,nonzero=True)
+        r = s.symbols('r',real=True)
+        u = s.exp(-k*r)
+        energy = s.integrate(s.diff(u,r)**2+k**2*u**2,(r,-L,L))
+        flux = k*(u.subs(r,L)**2-u.subs(r,-L)**2)
+        assert s.simplify(energy+flux) == 0
+        assert s.diff(u,r)+k*u == 0
+>       assert s.simplify(energy-2*k*s.sinh(2*k*L)) == 0
+E       AssertionError
+
+reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py:188: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_silver_operator_gate.py::test_scalar_boundary_flux_cannot_be_dropped
+ERROR tests/test_physical_bridge_silver_operator_gate.py::test_full_counts_keep_all_three_frames
+ERROR tests/test_physical_bridge_silver_operator_gate.py::test_actual_endpoint_modes_complete_the_graded_kernels
+ERROR tests/test_physical_bridge_silver_operator_gate.py::test_split_and_coboundary_controls
+ERROR tests/test_physical_bridge_silver_operator_gate.py::test_direct_field_reference_and_full_semantic_tables
+1 failed, 3 passed, 4 errors in 4.37s

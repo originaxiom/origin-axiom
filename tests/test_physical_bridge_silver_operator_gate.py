@@ -109,7 +109,7 @@ def test_scalar_boundary_flux_cannot_be_dropped(native):
     energy = s.integrate(s.diff(u,r)**2+k**2*u**2,(r,-L,L))
     flux = k*(u.subs(r,L)**2-u.subs(r,-L)**2)
     assert s.simplify(energy+flux)==0
-    assert s.simplify(energy-flux-4*k*s.sinh(2*k*L))==0
+    assert s.simplify((energy-flux-4*k*s.sinh(2*k*L)).rewrite(s.exp))==0
     assert energy.subs({k:1,L:1})>0
     assert s.diff(u,r).subs({r:L,k:1})!=0
     assert s.diff(u,r)+k*u==0

@@ -185,7 +185,7 @@ def boundary_control():
     flux = k*(u.subs(r,L)**2-u.subs(r,-L)**2)
     assert s.simplify(energy+flux) == 0
     assert s.diff(u,r)+k*u == 0
-    assert s.simplify(energy-2*k*s.sinh(2*k*L)) == 0
+    assert s.simplify((energy-2*k*s.sinh(2*k*L)).rewrite(s.exp)) == 0
     return {'gauge_energy':'2*k*sinh(2*k*L)',
             'boundary_pairing':'-2*k*sinh(2*k*L)',
             'twisted_energy':0,'ordinary_Neumann':False,

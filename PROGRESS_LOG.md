@@ -17301,3 +17301,12 @@ will compare full marked-pair tables, including endpoint degrees, and test
 the distinction between Hodge Robin and positive gauge boundary forms.
 No new run or physical spectrum at this seal; independent acceptance and
 full supersymmetric interacting boundary construction remain duties.
+
+## 2026-10-05 silver first run retained; symbolic control resealed
+
+Reference18 PASS and complete cohomology output. Native stopped at an
+exponential-versus-sinh simplification assertion; focused1 failed/3 passed/
+4 setup errors at the same assertion. Raw receipts/logs archived unchanged.
+Normalize both comparisons to exponentials, without changing the identity,
+coefficient, cocycle, scope or reference. Nine scientific files resealed
+before rerun; no physical negative inferred from the instrument failure.

@@ -2060,3 +2060,22 @@ not independent acceptance or main banking. Eleven source pins.
 | `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py` | `1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16` |
 | `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb` | `8655d9ae8826af029cd04c823b2827167d0cc114f3b76be5aceb5773905c2fe8` |
 | `tests/test_physical_bridge_silver_operator_gate.py` | `1247ba4cd44d1b56678bb799543fe8593f6008fc0a2369501b3be655eb711bbc` |
+
+## Fixed silver operator gate corrected pre execution seal October 5 2026
+
+First404e1c89c retained, expression-normalization repair only. Original
+reference18 PASS and native/focused failures preserved in raw archives
+and RECEIPTS_FIRST. No mathematical or coefficient substitution. Push
+and server-confirm these nine science paths before any new execution.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/DESIGN.md` | `5f80eacf623614bac35937021d5b7aafa35ca5831af81a634cdab95029b478bc` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/PROOF.md` | `e285aad75e8e1bfb4d2dbab7ffb98cc5412fcc9d83fd2b8f5e057bc68c930e0f` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json` | `6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/INPUTS.json` | `54ff619af13c20d73f7fd810136ca1624395083d344f92ac0b7140c9a2671d1c` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py` | `908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py` | `1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb` | `8655d9ae8826af029cd04c823b2827167d0cc114f3b76be5aceb5773905c2fe8` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/CORRECTION.md` | `7edcfbd63145ac45ed5f52073a12dff5fbb65c57372e057b5bef526c7788d583` |
+| `tests/test_physical_bridge_silver_operator_gate.py` | `c348f3f79b5d32f2bd37680c9fc82e416b57461e04772445cb7a7ec978a13741` |

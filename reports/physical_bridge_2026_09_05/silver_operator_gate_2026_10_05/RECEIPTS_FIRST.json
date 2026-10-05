@@ -1,0 +1,84 @@
+{
+  "seal_commit": "404e1c89c79d2d9940e581929eae5db2f8c691d9",
+  "runs": {
+    "server_seal": {
+      "command": [
+        "env",
+        "GIT_CONFIG_GLOBAL=/dev/null",
+        "git",
+        "-c",
+        "credential.helper=",
+        "-c",
+        "credential.helper=!gh auth git-credential",
+        "ls-remote",
+        "https://github.com/originaxiom/origin-axiom.git",
+        "refs/heads/audit/physical-bridge-2026-09-05"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.9374949999619275,
+      "log_bytes": 85,
+      "log_sha256": "35485f74a6c4d4cfae8426efd8cf0ba3268f60b3ecee4ae3b4b5d8294677fcb3"
+    },
+    "preflight": {
+      "command": [
+        "ruby",
+        "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb",
+        "preflight",
+        "/tmp/oa-silver-operator-20261005.zJYnf0",
+        "404e1c89c79d2d9940e581929eae5db2f8c691d9"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8683550000423566,
+      "log_bytes": 197,
+      "log_sha256": "5a30825957903b46f5e9505cc899050ea72d5d5d7960205f154ba2b1961f3145"
+    },
+    "native": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 3.1308639999479055,
+      "log_bytes": 735,
+      "log_sha256": "d8881ec134e183f574b9bff026f0e989dfd69100ad7bb303e52af1a0e247ee22"
+    },
+    "reference": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 13.205643000081182,
+      "log_bytes": 6324,
+      "log_sha256": "d3afe4591eebd180f135596e65fe5d82cce028b2e9af320d6d9d6e13fd5f1756"
+    },
+    "focused": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_operator_gate.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 5.062944000004791,
+      "log_bytes": 7001,
+      "log_sha256": "c07b201f04b7ca6990c804fbd4101151838f775a5b12196297560b368b150227"
+    }
+  },
+  "physical_goal_achieved": false,
+  "non_author_acceptance": false
+}

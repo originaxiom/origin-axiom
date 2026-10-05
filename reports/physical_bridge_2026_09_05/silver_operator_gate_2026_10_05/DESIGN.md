@@ -80,3 +80,10 @@ normal derivatives), derive the same action's boundary terms and test
 Green, real gauge, superfield derivative and bracket compatibility together.
 Finite-dimensional cyclic cohomology closure remains a supporting positive,
 not that analytic law. Selection of K/amplitude/end law remains visible.
+
+## Corrected execution envelope
+
+First404e1c89c raw outputs retained: reference18 PASS, native symbolic
+comparison failure, focused1 failed/3 passed/4 setup errors at the same
+assertion. CORRECTION.md normalizes exponential/sinh comparisons without
+changing their content. Reseal/push before rerun; no science overclaim.
