@@ -17292,3 +17292,12 @@ silver candidate intake keeps its absolute/relative/interior counts separate
 and records that normal flux is not the physical potential derivative.
 No silver scientific replay or new boundary law performed in that intake.
 Act/register/qualia hypothesis retained; full parameter-free SM/TOE unachieved.
+
+## 2026-10-05 fixed silver operator gate sealed before execution
+
+Stage2A science files freeze the literal m135/-LLRR member and received
+cocycle, not a favorable substitute. Two separate exact arithmetic routes
+will compare full marked-pair tables, including endpoint degrees, and test
+the distinction between Hodge Robin and positive gauge boundary forms.
+No new run or physical spectrum at this seal; independent acceptance and
+full supersymmetric interacting boundary construction remain duties.

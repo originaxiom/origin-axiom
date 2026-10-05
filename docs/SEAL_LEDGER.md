@@ -2041,3 +2041,22 @@ CORRECTION.md gives exact scope. Push/server-confirm before any rerun.
 | `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/custody.rb` | `b8fcd4806f7355a39358dab94a7198d53f32ab20f72357c6c26fa0f42f78810b` |
 | `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/CORRECTION.md` | `4b59ca007e2f5dcd109fe16039f4d39b45a9ed31f48ecb8d050b7bac22627cfb` |
 | `tests/test_physical_bridge_apex_scope.py` | `778844c2a01a7364fad5a0c44359e53ed8bcc315c2fcfb6923560d9bb8911491` |
+
+## Fixed silver operator gate pre execution seal October 5 2026
+
+Stage2A research checkpoint. Reproduce the pinned m135 cocycle and full
+pair profiles, then distinguish compact Hodge domains from positive gauge
+kinetics with the boundary pairing retained. No new spectrum admitted.
+Push/server-confirm required before imports or tests. Same-author checks,
+not independent acceptance or main banking. Eleven source pins.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/DESIGN.md` | `b3be1d1e9f29c83de7c547ab97e62e7479940f0440cb2ce2d061dfd4a0a8951f` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/PROOF.md` | `e285aad75e8e1bfb4d2dbab7ffb98cc5412fcc9d83fd2b8f5e057bc68c930e0f` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json` | `6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/INPUTS.json` | `54ff619af13c20d73f7fd810136ca1624395083d344f92ac0b7140c9a2671d1c` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py` | `da10b1903ab00fa75c65842a6fc2d5eb0cbf1dc7427af60bc2b8fcc02c389297` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py` | `1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16` |
+| `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb` | `8655d9ae8826af029cd04c823b2827167d0cc114f3b76be5aceb5773905c2fe8` |
+| `tests/test_physical_bridge_silver_operator_gate.py` | `1247ba4cd44d1b56678bb799543fe8593f6008fc0a2369501b3be655eb711bbc` |

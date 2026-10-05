@@ -1,0 +1,48 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/DESIGN.md",
+      "bytes": 4706,
+      "sha256": "b3be1d1e9f29c83de7c547ab97e62e7479940f0440cb2ce2d061dfd4a0a8951f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/PROOF.md",
+      "bytes": 7115,
+      "sha256": "e285aad75e8e1bfb4d2dbab7ffb98cc5412fcc9d83fd2b8f5e057bc68c930e0f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/INPUTS.json",
+      "bytes": 3336,
+      "sha256": "54ff619af13c20d73f7fd810136ca1624395083d344f92ac0b7140c9a2671d1c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
+      "bytes": 10308,
+      "sha256": "da10b1903ab00fa75c65842a6fc2d5eb0cbf1dc7427af60bc2b8fcc02c389297"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
+      "bytes": 11472,
+      "sha256": "1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb",
+      "bytes": 3683,
+      "sha256": "8655d9ae8826af029cd04c823b2827167d0cc114f3b76be5aceb5773905c2fe8"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_operator_gate.py",
+      "bytes": 5037,
+      "sha256": "1247ba4cd44d1b56678bb799543fe8593f6008fc0a2369501b3be655eb711bbc"
+    }
+  ],
+  "source_pin_count": 11,
+  "scope": "fixed compact coefficient and operator identities; not a physical spectrum",
+  "physical_goal_achieved": false,
+  "non_author_acceptance": false
+}

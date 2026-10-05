@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-05 fixed silver operator gate pre-execution seal
+
+Stage2A of the common-model campaign: literal cocycle replay by rational
+restriction and separate direct quadratic-field elimination; complete
+compact Hodge Betti tables and scalar Robin/gauge boundary distinction.
+Scientific bytes frozen before execution, no outcome or physical spectrum
+claimed. Compact metric positive and interior asymmetry remain assets.
+
 ## 2026-10-05 apex scope verified and silver candidate fixed
 
 38 exact/47 separate-reference/eight LIVE pass under corrected pushed seal.

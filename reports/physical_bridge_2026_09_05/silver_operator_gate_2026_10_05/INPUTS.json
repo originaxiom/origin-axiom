@@ -1,0 +1,87 @@
+{
+  "head_pins": {
+    "own": "917e8110ec101ee3616095354cab88951ef877fe",
+    "main": "88ed6981996771fc3610e348e475ed77299fc93a",
+    "sm": "5869a056398298b23f3aae62186728f271ea2060",
+    "fork": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0"
+  },
+  "sources": [
+    {
+      "label": "fork_members",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/members.json",
+      "bytes": 2863,
+      "sha256": "668048a8933a44b0690067552a420a3323b13abdb386be2553591a4a82b30e20"
+    },
+    {
+      "label": "fork_producer",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/verify.py",
+      "bytes": 10711,
+      "sha256": "d57611727e5585fca9a3938966bf7ba1ffa64b3a98b5eeaad5fdb0c3ec44a497"
+    },
+    {
+      "label": "fork_proof",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/PROOF.md",
+      "bytes": 5314,
+      "sha256": "6e00718b4fcde40259555861b598ed0b59e72c2d604cc9f41117dff823dbba59"
+    },
+    {
+      "label": "fork_readings",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/NATIVE_SECOND.jsonl",
+      "bytes": 6947,
+      "sha256": "dafc582013645226f5edb22325bb800ce0cd8f1a84e7305775bba229880b058b"
+    },
+    {
+      "label": "normal_response",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_normal_response_2026_10_04/PROOF.md",
+      "bytes": 8334,
+      "sha256": "54fd1b181b5456b14974a5c2b31caaa0d2a9816bc9f7cc8164a20507617a59d1"
+    },
+    {
+      "label": "cyclic_completion",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_cyclic_boundary_2026_10_04/PROOF.md",
+      "bytes": 3613,
+      "sha256": "18cc6415d845eff4174853beda4ae00adfd3f2cb9ef010a6fc8fd934a8084c81"
+    },
+    {
+      "label": "holomorphic_variation",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_variation_2026_10_04/PROOF.md",
+      "bytes": 5007,
+      "sha256": "06d28f55738e5595217993e94ef498b7f4516c82bc3e0786b9d48beac5ba4016"
+    },
+    {
+      "label": "R30",
+      "ref": "917e8110ec101ee3616095354cab88951ef877fe",
+      "path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md",
+      "bytes": 12557,
+      "sha256": "089af58b8cb3d23c4ba70cb1e457ea60ddf6086cdf9faed315d4a2606e3b416d"
+    },
+    {
+      "label": "R40",
+      "ref": "917e8110ec101ee3616095354cab88951ef877fe",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "label": "R61",
+      "ref": "917e8110ec101ee3616095354cab88951ef877fe",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "bytes": 8379,
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4"
+    },
+    {
+      "label": "candidate_intake",
+      "ref": "917e8110ec101ee3616095354cab88951ef877fe",
+      "path": "reports/physical_bridge_2026_09_05/COMMON_MODEL_CANDIDATE_2026_10_05.md",
+      "bytes": 3878,
+      "sha256": "f50e0311f398678d4751efd176e0785f9ef5f56464472f7f4913425663157f63"
+    }
+  ]
+}
