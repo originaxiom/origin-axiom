@@ -1,0 +1,94 @@
+{
+  "head_pins": {
+    "own": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+    "main": "88ed6981996771fc3610e348e475ed77299fc93a",
+    "sm": "5869a056398298b23f3aae62186728f271ea2060",
+    "fork": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0"
+  },
+  "sources": [
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
+      "bytes": 10325,
+      "sha256": "908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553"
+    },
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
+      "bytes": 11472,
+      "sha256": "1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16"
+    },
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/probe.py",
+      "bytes": 5720,
+      "sha256": "9f21e6d6068a65bff9ff7789ea2a29fd300edfb96e08a36ed55de8257d0a41f4"
+    },
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md",
+      "bytes": 8587,
+      "sha256": "b1fc46adf8f9e6c397635badd425b8dbed359e792233180840564e2948a22890"
+    },
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "bytes": 8379,
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4"
+    },
+    {
+      "ref": "dbbfa76a2646a44f5beefd1dbc7ae4fa83f79187",
+      "path": "reports/physical_bridge_2026_09_05/capture_checked_run.rb",
+      "bytes": 1224,
+      "sha256": "54973dda238951ff15249cc54068f3ab6919049f73c947fb3d12cdbf67b6c602"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_complex_2026_10_04/verify.py",
+      "bytes": 8186,
+      "sha256": "ab683c86c90062392d0c9778b37f41ec0c3dcd352d95a896c952fdff98b28691"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_complex_2026_10_04/PROOF.md",
+      "bytes": 5793,
+      "sha256": "0b159898f5a32c3227968ceeef9f1a7c97e56b5d9675e94033cf06ed4148eee6"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_cyclic_boundary_2026_10_04/PROOF.md",
+      "bytes": 3613,
+      "sha256": "18cc6415d845eff4174853beda4ae00adfd3f2cb9ef010a6fc8fd934a8084c81"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_global_boundary_2026_10_04/verify.py",
+      "bytes": 9305,
+      "sha256": "72bf4272f9f1d4861f663777b0dd73703a829c639daf9ed8abcb20ed11a54674"
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/1307.3021v1",
+      "read_scope": "sections3.2-3.6 personally"
+    },
+    {
+      "url": "https://www.numdam.org/item/TSG_1991__S9__115_0.pdf",
+      "read_scope": "Lesch 1991 report full; not the joint journal paper",
+      "sha256": "cac1750241d915bc2b58b3ec0cce170cb206b1f97d0abcd0cd7fe050b8098be6"
+    }
+  ],
+  "non_author_review": "pending"
+}
