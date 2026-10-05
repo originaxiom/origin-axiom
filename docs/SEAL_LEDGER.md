@@ -2007,3 +2007,20 @@ Corrected imports/collection require commit/push/server byte confirmation.
 | `reports/physical_bridge_2026_09_05/joined_wilson_reference.py` | `0dbc8842b1999fe4567906762eac1ef3d1f0a8f42ab747e67c5f47a48fd344c4` |
 | `reports/physical_bridge_2026_09_05/JOINED_WILSON_CORRECTION.md` | `f1e6025b2f741b4ccab4602f193e57badd45d378ab2c89daac83171b344d8780` |
 | `tests/test_physical_bridge_joined_wilson.py` | `6c7a486ff53c0215011ef9f974b0d527ab1a00bb45022ad518706854174b8c58` |
+
+## Apex scope pre execution seal October 5 2026
+
+Path-local packet, no reserved bank identifier. Cubic rank and full-27
+Y3 deck audit, with supplied Z4 selection comparator. No scientific run
+yet; commit/push/server-byte confirmation required before imports or
+test collection. Same-author, not main bank or full physics completion.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/DESIGN.md` | `e44a4abd27bda10b2205eea323070a6111acdcdfcc51a5a0623dcff9ab70e084` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/PROOF.md` | `1d8ced98b1dc82bb4f23bfffbdc1fd1df12ee711bcbd5dbcd3ffba79a243899a` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/INPUTS.json` | `88719d8a3c158738fdb29f715dad59974887f5790135058ac6e3e2d20df7a4bc` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/probe.py` | `f868b823f31ca6fb7e2b6fac5349dea411f6bb96b25386c15778c5723093a9b7` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/reference.py` | `d105da368357e7dd04c70cd24b5d3b342348141d0c3e5e03051400928ea2d9f7` |
+| `reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/custody.rb` | `b8fcd4806f7355a39358dab94a7198d53f32ab20f72357c6c26fa0f42f78810b` |
+| `tests/test_physical_bridge_apex_scope.py` | `6a6def47c93c144f88c046fe06853a54261e5e194ae2e2ee49e663eb2c5ef861` |

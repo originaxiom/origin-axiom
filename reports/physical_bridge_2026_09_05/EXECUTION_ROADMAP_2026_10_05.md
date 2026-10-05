@@ -1,0 +1,37 @@
+# Common-model physics campaign: execution record
+
+Owner-approved October 5, 2026. This implements the approved plan; it does
+not replace the parameter-free Standard Model/TOE mission. Work stays on
+audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
+
+1. Apex scope: reproduce the cubic identity, test actual compact lifts of
+   the existing Y3 backgrounds, and examine path-dependent mass selection.
+   First packet: apex_scope_2026_10_05/DESIGN.md. No result asserted yet.
+2. Common-action completion: use the first frozen m135/-LLRR silver
+   cocycle, u=(0,1/2), kappa=1. Derive the boundary response and bosonic /
+   fermionic variational domains in the same specified E8 parent. Controls:
+   split coefficient, contragredient/order reversal, existing smooth join.
+   Added sources, fields or laws must be separately priced and sealed.
+3. Cover support: read B1541's published outcome before rerunning it; test
+   exact connecting-map rank-change loci on the degree-45 carrier first.
+   Generic samples cannot exclude exceptional characteristic-zero classes.
+4. Spin support: audit the semilinear square relative to its actual inner
+   automorphism before assigning Pin signs. Connect any spin distinction
+   to the same physical operator, not merely to torsion diagnostics.
+5. Foundations: retain act/register, lifts and order through the maps;
+   classify every arrow as derived, supplied or unresolved. Qualia remains
+   a registered philosophical hypothesis, not an identified observable.
+
+Checkpoint acceptance: one stationary positive interacting chiral sector,
+complete spectrum and anomaly accounting, all on the same action/domain.
+A scoped obstruction or precise missing law is publishable research but
+does not achieve that milestone or the overarching mission. Three physical
+families, selection, normalized parameters, quantum theory and gravity
+remain separate duties. No candidate substitution after seeing outcomes.
+
+Each scientific packet is sealed, committed, pushed and server-confirmed
+before execution; failures and repairs are preserved. Same-author reference
+implementations are not nonauthor review. Research checkpoints are not main
+banking; inherited governance failures and incomplete full-suite certification
+stay visible. Refresh incoming branches at packet boundaries and publish
+sender-owned relays. Never silently edit another seat's scientific bytes.

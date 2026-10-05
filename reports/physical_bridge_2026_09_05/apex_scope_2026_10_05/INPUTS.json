@@ -1,0 +1,66 @@
+{
+  "scope": "Frozen apex rank and deck controls; mathematical formulae, no empirical premise",
+  "sources": [
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1364_the_level_mismatch_resolved/FINDINGS.md",
+      "bytes": 10883,
+      "sha256": "fed24e6c3667fcf931e0ae0f0d8603143e84f364f4d6e0a2f1ac745363b4fd0f"
+    },
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1364_the_level_mismatch_resolved/verification/sm_lines_on_y3.py",
+      "bytes": 10128,
+      "sha256": "c81bc22044965df61bcc8df9d53ad4ccbffaa692648e24bececf9d63a1b9da64"
+    },
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1365_the_bulk_of_the_line/FINDINGS.md",
+      "bytes": 20000,
+      "sha256": "b53cd0a66ef0a330bff40b60d5dd565cbb1ed9934c642359200d0596ef23dea2"
+    },
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1365_the_bulk_of_the_line/verification/bulk_of_the_line.py",
+      "bytes": 25106,
+      "sha256": "b7b21cdaaa0a4254531e1427d52081e604d28ad1909a458b3df8bea622eb090e"
+    },
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1367_the_doublet_triplet_pincer/FINDINGS.md",
+      "bytes": 9321,
+      "sha256": "16ab7e3988a8b7344e1b183f46fd6cf497d3d124b42a2c6ff03ef5926918a06f"
+    },
+    {
+      "ref": "5869a056398298b23f3aae62186728f271ea2060",
+      "path": "frontier/B1367_the_doublet_triplet_pincer/verification/pincer.py",
+      "bytes": 7686,
+      "sha256": "e969b33085f993bcd9db0163049aaf4e254d5aed00e7a582584552df9869f7a4"
+    },
+    {
+      "ref": "88ed6981996771fc3610e348e475ed77299fc93a",
+      "path": "frontier/B1453_the_sm_seats_join_arcs_harvested/verification/readers/s1_B1367_B1373_and_two_documents.md",
+      "bytes": 29568,
+      "sha256": "fbb9197cdd16131221d2ecf1682765eabe5a9efa6bc85885f2fe79b237a73cd5"
+    },
+    {
+      "ref": "a3aaad899a1feb2718aea4086d057af70e45f877",
+      "path": "frontier/B955_l133_scout/PRIOR_ART_RANK_REDUCTION.md",
+      "bytes": 45886,
+      "sha256": "709db00bd7f963012319aa61a35dd72a880f1ee25a8df93eabd5988cd56057d9"
+    },
+    {
+      "ref": "a3aaad899a1feb2718aea4086d057af70e45f877",
+      "path": "reports/physical_bridge_2026_09_05/mass_match.py",
+      "bytes": 8963,
+      "sha256": "d5a7325a0802222245c53192f651debe31e9868c807e3298eaa03b5451e24976"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://arxiv.org/html/hep-ph/0201018v2",
+    "access_date": "2026-10-05",
+    "scope": "Discrete-charge, fixed-circle, and transport sections personally read; no fresh full-paper claim"
+  },
+  "non_author_acceptance": false,
+  "physical_goal_achieved": false
+}

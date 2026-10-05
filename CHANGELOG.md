@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-05 common-model campaign; apex scope pre-execution seal
+
+Approved campaign recorded with the same full physics mission. First
+packet seals exact cubic rank/actual matter-lift deck checks and a supplied
+Z4 selection comparator. Prior results credited; no new scientific result,
+OA apex rescue, chiral spectrum or full TOE claimed before execution.
+
 ## 2026-10-05 quantum-selection literature intake; no new scientific arc
 
 After R95 publication c21153d88, Weinberg hep-th/9803099v1 personally
