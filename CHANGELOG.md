@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-05 smooth full-trace kinetic boundary positive verified
+
+46 symbolic/132 separate Gaussian-bitmask/10 LIVE and18 regression PASS
+unchanged at pushed/server-confirmed pre-run f43415ec8. Complex line passes
+full-trace current/reality/universal principal ellipticity; supergauge
+moves auxiliary response to V without erasing Z. Conditional kinetic law,
+not the fork polarization or a chiral model. Global index/capacity and
+coupled boson/superfield law remain open. Four inherited governance debts;
+no full-suite/main-bank certificate.
+
 ## 2026-10-05 smooth silver boundary joint pre-execution seal
 
 Stage2B: freeze a full-parent smooth complex-line trace test, universal

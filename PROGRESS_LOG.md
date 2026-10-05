@@ -17340,3 +17340,29 @@ real covectors in the authored principal proof, finite exact bit-mask
 reference controls kept separate. Personally read Luedeling1102.0285v1
 in full before closing the compensation loophole. No scientific run yet,
 global silver kernel or fully interacting boson/superfield law claimed.
+
+## 2026-10-05 smooth full-trace kinetic positive; physical joint retained
+
+Pre-run f43415ec898ff1252d2d296cfec00cc414d175c5 pushed/server-confirmed
+before scientific execution.46 symbolic/132 independent-implementation
+same-author reference/10 LIVE and18 two-packet regression PASS unchanged.
+Custody confirms seven science paths/eight immutable source pins. No
+instrument repair or favorable replacement. Full8-form complex-line law
+passes current, combined reality and all-nonzero-real-covector ellipticity;
+both helicities pass. Global kernel/index NOT computed or called physical.
+
+Supergauge loophole tested after personally reading Luedeling1102.0285v1
+in FULL. Canceling Phi's auxiliary derivative moves it to V, while Z stays
+unchanged. Strict WZ/covariant projectors mismatch; gauge-class/boundary-
+field completions remain OPEN. Affine holomorphic term retained and its
+supplied reference subtraction priced. No full D-term or normal boson law.
+
+Fork finite cohomology/interior asymmetry and compact metric positive
+preserved, not spliced into this new local law. Next index/deformation
+capacity, faithful analytic cohomology lift and coupled same-action law,
+then full spectrum/interactions/anomalies. README, mission/roadmap,
+candidate, campaign/framework/ladder, LAW_MAP/OPEN_LEADS and sender-owned
+relay updated. No live relay acknowledgment or foreign branch edit claimed.
+Governance26 PASS/four inherited FAIL rows unchanged from previous packet;
+review-due advisory count changes. No full-suite/independent/main-bank
+certificate or full SM/TOE completion. Scientific goal remains active.

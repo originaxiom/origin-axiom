@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October5 smooth-boundary research: supplied compact silver/E8 background
+has a conditional full8-form current/reality/elliptic kinetic domain using
+a complex Hodge eigenline. Both helicities pass, no selected handedness
+or global spectrum. Compensation preserves the covariant response; boson/
+normal/superfield law and index still owed. Fork cohomology positives are
+not transplanted.46 symbolic/132 separate-reference/10 LIVE and18 regression
+PASS. Report under reports/physical_bridge_2026_09_05/
+silver_smooth_boundary_gate_2026_10_05/FINDINGS.md. Same-author research,
+not independent main banking or an interacting chiral theory.
+
 October4 R95: a specified LOCAL relative trace-sector map now reaches
 the SAME supplied E8 superpotential. Sym4 PSL2->SL5->E8 gives trace
 factor1200, relative form2400 omega_R94 and boundary primitive4800 c L_s.

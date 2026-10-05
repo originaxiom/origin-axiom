@@ -1,0 +1,199 @@
+{
+  "seal_commit": "f43415ec898ff1252d2d296cfec00cc414d175c5",
+  "raw_directory": "/tmp/oa-silver-smooth-20261005.W9fvgu/",
+  "runs": [
+    {
+      "stem": "server_seal",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.9119519999949262,
+        "log_bytes": 85,
+        "log_sha256": "4f4e805d9d9007e20ebb88b602f9d29fd84aae9ce88905d45c1a2c750da25ee8"
+      }
+    },
+    {
+      "stem": "preflight",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/custody.rb",
+          "preflight",
+          "/tmp/oa-silver-smooth-20261005.W9fvgu",
+          "f43415ec898ff1252d2d296cfec00cc414d175c5"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6666410000761971,
+        "log_bytes": 139,
+        "log_sha256": "8a3e013002bca5c9b8d275cc8473e770a9d455206eb67e1954e0af338c778704"
+      }
+    },
+    {
+      "stem": "native",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/probe.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.0691579999402165,
+        "log_bytes": 2740,
+        "log_sha256": "b63e022fdead8c13cb8fa3633e72d27c16dc163607ec46dae80dd9bb26ab3483"
+      }
+    },
+    {
+      "stem": "reference",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/reference.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.23887500003911555,
+        "log_bytes": 4137,
+        "log_sha256": "a263bfd1d4e6eda9d4a977f603f27897b0982aab624dc70184bf08e238bc17a3"
+      }
+    },
+    {
+      "stem": "focused",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_silver_smooth_boundary_gate.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.6245450000278652,
+        "log_bytes": 99,
+        "log_sha256": "fcfe733faf1da1fe65e6a0c33cf730878d590b4fe34624794624942df115692a"
+      }
+    },
+    {
+      "stem": "regression",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_silver_operator_gate.py",
+          "tests/test_physical_bridge_silver_smooth_boundary_gate.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 17.916280000004917,
+        "log_bytes": 100,
+        "log_sha256": "bd635dc59c4a8bba838109be18282f484da703e852e744b8900521927498128e"
+      }
+    },
+    {
+      "stem": "custody",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/custody.rb",
+          "final",
+          "/tmp/oa-silver-smooth-20261005.W9fvgu",
+          "f43415ec898ff1252d2d296cfec00cc414d175c5"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6738739999709651,
+        "log_bytes": 135,
+        "log_sha256": "014bc56adf101f7d60b2925d2cabaa1079ad30fa71ea00ff8016a1cbccc82e30"
+      }
+    },
+    {
+      "stem": "governance_execution",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.29440999997314,
+        "log_bytes": 2384,
+        "log_sha256": "9ac118f11f9516b481b551634af5c86fece8ea9cbc64c5873584f6b9e3beaa9c"
+      }
+    },
+    {
+      "stem": "governance_publication",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 12.929334999993443,
+        "log_bytes": 2384,
+        "log_sha256": "9ac118f11f9516b481b551634af5c86fece8ea9cbc64c5873584f6b9e3beaa9c"
+      }
+    },
+    {
+      "stem": "custody_publication",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/custody.rb",
+          "final",
+          "/tmp/oa-silver-smooth-20261005.W9fvgu",
+          "f43415ec898ff1252d2d296cfec00cc414d175c5"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6775379999307916,
+        "log_bytes": 135,
+        "log_sha256": "014bc56adf101f7d60b2925d2cabaa1079ad30fa71ea00ff8016a1cbccc82e30"
+      }
+    }
+  ],
+  "counts": {
+    "native": 46,
+    "reference": 132,
+    "reference_symbol_cases": 96,
+    "focused": 10,
+    "regression": 18
+  },
+  "physical_kernel_computed": false,
+  "full_superfield_domain_closed": false,
+  "full_suite_pass": false,
+  "non_author_acceptance": false,
+  "physical_goal_achieved": false,
+  "governance_publication_identical_to_execution": true
+}

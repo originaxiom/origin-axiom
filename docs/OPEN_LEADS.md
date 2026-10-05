@@ -4813,3 +4813,27 @@ positive has not been discarded." No whole-architecture lead is closed.
   interactions and norms; larger-cover and spin support cannot substitute.
 
 No new shared lead number, exhaustive end-law exclusion or physical SM claim.
+
+## Smooth silver full-trace gate October5: kinetic positive, physical joint open
+
+silver_smooth_boundary_gate_2026_10_05/FINDINGS.md under physical_bridge
+verifies a conditional smooth full-trace current/reality/elliptic law,
+both helicities and both reducing parent patterns.46 symbolic/132 separate
+reference/10 LIVE and18 regression PASS. No whole-architecture lead closed.
+
+- Global graded index and deformation capacity FIRST, before assigning a
+  chiral interpretation. Ellipticity alone is not a nonzero charged index.
+- Faithful analytic completion of the fork's finite cohomology polarization:
+  still open. Its counts cannot be transplanted to the new LOCAL line law.
+- Coupled gauge-class-compatible boson law, normal equations and D-term
+  variation: open. Supergauge compensation moves data into V, not to zero;
+  strict projector mismatch does not exclude broader gauge-class laws.
+- Price a boundary functional/multiplet/source if needed; the reference
+  transgression is supplied, not generated dynamics or quantized action.
+- Same-domain full charged/neutral spectrum, norms, interactions and
+  anomaly/inflow: required. Preserve supporting spin/exceptional-cover
+  positives and act/register/lift duties without reading them as particles.
+
+Closing scope: conditional smooth kinetic domain only, no interacting
+chiral model or universal supersymmetry/architecture exclusion. The full
+parameter-free physical mission remains active and unfinished.

@@ -1459,3 +1459,21 @@ The supplied compact-core/action/domain assumptions travel with the claims.
 22 native/18 separate-reference/eight LIVE pass after resealed normalization;
 first failed runs retained. Actual full interacting boundary law, independent
 acceptance and full-suite/main-bank certification remain duties.
+
+### Physical-bridge smooth full-trace gate: research checkpoint October5
+
+No shared bank or independent acceptance. Evidence under
+reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05.
+Supplied smooth compact core, reducing parent, metric and helicity choices
+travel with these results; no global spectrum or cohomology lift claimed.
+
+| Scoped result | Argument and LIVE safeguard |
+|---|---|
+| Complex common-line full trace passes current, combined reality and every-real-covector principal ellipticity | B1509 parent context, R40 and R61 prior map credited; PROOF.md sections1-2; tests/test_physical_bridge_silver_smooth_boundary_gate.py::test_universal_symbol_polynomial_not_finite_sampling and test_combined_reality_and_parity_are_preserved; smooth kinetic law only, no chosen handedness or chiral index |
+| Supergauge cancellation transfers the auxiliary derivative to V while covariant Z retains it | B1509 supplied theory context, R61 derivative prior and Luedeling1102.0285v1 credited; PROOF.md section4; tests/test_physical_bridge_silver_smooth_boundary_gate.py::test_compensation_moves_data_to_vector_not_to_zero; strict WZ and covariant projector mismatch, not a no-go for gauge-class laws |
+| Holomorphic affine reference term needs an explicitly supplied subtraction even on common-line fluctuations | B1509 action context, R60/R70 prior variation credited; PROOF.md section3; tests/test_physical_bridge_silver_smooth_boundary_gate.py::test_affine_reference_term_and_common_line; D-term, full gauge and supersymmetric completion not claimed |
+
+46 symbolic/132 separate-reference/10 LIVE and18 regression PASS unchanged
+after pre-run f43415ec8 pushed/server-confirmed. Nonauthor review, global
+index and coupled boson/normal/superfield completion remain duties. Fork
+finite cohomology/interior positives are retained, not assigned to this law.

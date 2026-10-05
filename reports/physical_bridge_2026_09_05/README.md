@@ -1,5 +1,13 @@
 # Physical bridge audit — 2026-09-05
 
+[October5 smooth full-trace gate](silver_smooth_boundary_gate_2026_10_05/FINDINGS.md):
+46 symbolic/132 separate-reference/10 LIVE and18 two-packet regression PASS
+unchanged at pushed/server-confirmed f43415ec8. Conditional elliptic/current/
+reality kinetic domain, no global kernel or physical chiral spectrum yet.
+Supergauge transfers the auxiliary derivative to V while preserving Z;
+gauge-class completions remain open. Fork cohomology retained separately.
+Next global index/capacity and coupled boson/normal/D-term boundary law.
+
 [October5 common-model execution roadmap](EXECUTION_ROADMAP_2026_10_05.md)
 and [completed apex scope audit](apex_scope_2026_10_05/FINDINGS.md).
 38 exact/47 separate-reference/eight LIVE pass after preserved/resealed

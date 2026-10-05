@@ -1,5 +1,13 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October5 smooth-boundary refinement: full-trace complex-line kinetic data
+pass current/combined reality/principal ellipticity on the supplied compact
+silver parent. Physical chirality still requires global index/capacity,
+faithful cohomology completion, gauge-class boson/normal/D-term law and
+full spectrum/anomalies. Strict projector mismatch is not a no-go for all
+completions/carriers. Report under reports/physical_bridge_2026_09_05/
+silver_smooth_boundary_gate_2026_10_05/FINDINGS.md. No physical rung promoted.
+
 October4 R95: a specified LOCAL relative trace-sector map now reaches
 the SAME supplied E8 superpotential. Sym4 PSL2->SL5->E8 gives trace
 factor1200, relative form2400 omega_R94 and boundary primitive4800 c L_s.

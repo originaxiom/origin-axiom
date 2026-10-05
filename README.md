@@ -1,5 +1,14 @@
 # Origin Axiom
 
+> October5 [smooth full-trace boundary gate](reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/FINDINGS.md):
+> a supplied complex-line boundary law passes current, combined reality
+> and all-real-momentum principal ellipticity for the full fermion trace.
+> 46 symbolic/132 separate-reference/10 LIVE and18 regression PASS unchanged
+> after pushed pre-run seal. Compensation transfers auxiliary data to V,
+> not to zero. Global index and coupled boson/superfield boundary law remain
+> open; fork cohomology positives retained separately. Conditional kinetic
+> progress, not an interacting chiral model or an architecture negative.
+
 > October5 [fixed silver operator gate](reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/FINDINGS.md):
 > literal m135 cocycle and full pair profiles reproduced by two exact
 > arithmetic routes.22 native/18 separate-reference/8 LIVE pass after a

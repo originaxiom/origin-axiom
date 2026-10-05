@@ -23,6 +23,12 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    not an architecture kill. Stage2B remains: smooth full-parent boundary
    trace law and normal conditions, including interaction/reality/gauge/
    supersymmetry compatibility and complete finite spectrum.
+   Stage2B PARTIAL research positive: silver_smooth_boundary_gate_2026_10_05/
+   FINDINGS.md verifies a smooth full-trace current/reality/elliptic kinetic
+   law and explicit supergauge compensation. Its local line is NOT the
+   finite cohomology polarization. Next global index/deformation capacity,
+   coupled gauge-class boson law and normal/D-term equations; then full
+   spectrum/anomalies. Extra boundary fields remain separately priced.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

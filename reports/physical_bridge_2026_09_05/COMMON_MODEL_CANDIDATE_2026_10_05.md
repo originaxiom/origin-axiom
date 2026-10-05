@@ -1,5 +1,10 @@
 # Fixed silver candidate and the next same-action obligation
 
+October5 continuation: silver_smooth_boundary_gate_2026_10_05/FINDINGS.md
+adds a conditional smooth full-trace kinetic domain, not a new coefficient
+or a realization of its favorable cohomology rows. Global index and coupled
+gauge-class/boson boundary completion remain open.
+
 October5. Read-only intake for campaign stage2, not a new PDE result or
 fresh reproduction of the fork. Source bytes pinned in the adjacent INPUTS
 file. Apex packet is complete at its declared research grade; physics is not.

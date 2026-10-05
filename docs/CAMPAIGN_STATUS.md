@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+LATEST October5 path-local smooth-boundary research: complete8-form trace
+on supplied compact silver/E8 background admits a complex-line current/
+combined-reality/elliptic kinetic law.46 symbolic/132 separate-reference/
+10 LIVE and18 regression PASS unchanged after pushed pre-run f43415ec8.
+Global index and coupled boson/superfield/normal law remain open. Strict
+projector compensation transfers data to V, not to zero; gauge-class laws
+not excluded. Fork cohomology retained separately. Report under
+reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/
+FINDINGS.md. Not new shared banking, independent acceptance or physical SM.
+
 October4 R95: a specified LOCAL relative trace-sector map now reaches
 the SAME supplied E8 superpotential. Sym4 PSL2->SL5->E8 gives trace
 factor1200, relative form2400 omega_R94 and boundary primitive4800 c L_s.

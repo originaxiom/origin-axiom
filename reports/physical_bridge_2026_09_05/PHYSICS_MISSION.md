@@ -14,6 +14,12 @@ this reading. Scientific completion is still unproved.
 
 ## Goal
 
+Further October5 Stage2B progress: silver_smooth_boundary_gate_2026_10_05/
+FINDINGS.md earns a conditional full-trace kinetic boundary law with exact
+symbol/current/reality and compensation controls. Global index, faithful
+finite cohomology completion and coupled boson/superfield law remain
+unfinished. No charged generations or full-goal completion claimed.
+
 October5 execution currency: the owner approved the common-model plan and
 explicitly instructed implementation. Apex scope packet completed at its
 declared research grade; fixed silver coefficient and compact operator gate
