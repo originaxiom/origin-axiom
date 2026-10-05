@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-05 smooth silver boundary joint pre-execution seal
+
+Stage2B: freeze a full-parent smooth complex-line trace test, universal
+real-covector symbol proof and explicit supergauge/vector compensation.
+Retain the fork's cohomology positive without claiming this local law
+realizes its counts. No science run or full physical boundary law yet.
+
 ## 2026-10-05 fixed silver coefficient and compact operator gate verified
 
 22 native/18 separate direct-field/eight LIVE pass after resealed expression

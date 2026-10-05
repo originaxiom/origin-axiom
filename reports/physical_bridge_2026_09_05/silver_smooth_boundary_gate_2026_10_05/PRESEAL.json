@@ -1,0 +1,44 @@
+{
+  "pre_execution": true,
+  "population": "one fixed smooth silver background; both helicities and both reducing coefficient patterns; every nonzero real tangential covector in authored symbolic proof",
+  "source_pins": 8,
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/DESIGN.md",
+      "bytes": 6099,
+      "sha256": "8ff777034505c48edc0dd891028e86818bd580cb1531ba4a938fe95752f68aba"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md",
+      "bytes": 8587,
+      "sha256": "b1fc46adf8f9e6c397635badd425b8dbed359e792233180840564e2948a22890"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/INPUTS.json",
+      "bytes": 3118,
+      "sha256": "3ba6a5de8fa24536daa7126529a472c2cf4aea4c65c88447ea964c45f3308194"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/probe.py",
+      "bytes": 5720,
+      "sha256": "9f21e6d6068a65bff9ff7789ea2a29fd300edfb96e08a36ed55de8257d0a41f4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/reference.py",
+      "bytes": 5382,
+      "sha256": "ee6f6d8fab751baf18cb8544a023662ab66ded43e26f0c008afbc60698b598a6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/custody.rb",
+      "bytes": 2532,
+      "sha256": "53b0e821420ee64f6e92256f3b5611060df2bc0f7448fbaa2b766e92a02011da"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_smooth_boundary_gate.py",
+      "bytes": 3797,
+      "sha256": "cfc1daa42f5c092d5951c257163983d9396039f2246da79d513067aa5969714e"
+    }
+  ],
+  "physical_goal_achieved": false,
+  "non_author_acceptance": false
+}

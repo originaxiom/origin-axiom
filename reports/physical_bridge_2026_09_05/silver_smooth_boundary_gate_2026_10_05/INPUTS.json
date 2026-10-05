@@ -1,0 +1,85 @@
+{
+  "head_pins": {
+    "own": "d17c98b7623e8fef5826a1b3f5ffcca7ffc72dc6",
+    "main": "88ed6981996771fc3610e348e475ed77299fc93a",
+    "sm": "5869a056398298b23f3aae62186728f271ea2060",
+    "fork": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0"
+  },
+  "sources": [
+    {
+      "label": "candidate",
+      "ref": "d17c98b7623e8fef5826a1b3f5ffcca7ffc72dc6",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "label": "operator_gate",
+      "ref": "d17c98b7623e8fef5826a1b3f5ffcca7ffc72dc6",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/PROOF.md",
+      "bytes": 7115,
+      "sha256": "e285aad75e8e1bfb4d2dbab7ffb98cc5412fcc9d83fd2b8f5e057bc68c930e0f"
+    },
+    {
+      "label": "R40",
+      "ref": "d17c98b7623e8fef5826a1b3f5ffcca7ffc72dc6",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "label": "R61",
+      "ref": "d17c98b7623e8fef5826a1b3f5ffcca7ffc72dc6",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "bytes": 8379,
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4"
+    },
+    {
+      "label": "cyclic",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_cyclic_boundary_2026_10_04/PROOF.md",
+      "bytes": 3613,
+      "sha256": "18cc6415d845eff4174853beda4ae00adfd3f2cb9ef010a6fc8fd934a8084c81"
+    },
+    {
+      "label": "free_boundary",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/free_boundary_completion_2026_10_04/PROOF.md",
+      "bytes": 8930,
+      "sha256": "0e60bb5aab9a1fff230f3801b0d181d1085527851076ef8cdeff515604cf77a8"
+    },
+    {
+      "label": "variation",
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_variation_2026_10_04/PROOF.md",
+      "bytes": 5007,
+      "sha256": "06d28f55738e5595217993e94ef498b7f4516c82bc3e0786b9d48beac5ba4016"
+    },
+    {
+      "label": "capture",
+      "ref": "d17c98b7623e8fef5826a1b3f5ffcca7ffc72dc6",
+      "path": "reports/physical_bridge_2026_09_05/capture_checked_run.rb",
+      "bytes": 1224,
+      "sha256": "54973dda238951ff15249cc54068f3ab6919049f73c947fb3d12cdbf67b6c602"
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/1102.0285v1",
+      "read_scope": "full paper including appendices, personally"
+    },
+    {
+      "url": "https://arxiv.org/html/1307.3021v1",
+      "read_scope": "Green/adapted symbols and sections3.2-3.5, personally"
+    },
+    {
+      "url": "https://arxiv.org/html/1812.06072v2",
+      "read_scope": "prior twisted dictionary and B.7, personally"
+    },
+    {
+      "url": "https://arxiv.org/html/1201.0290v3",
+      "read_scope": "section3.7 only, personally"
+    }
+  ],
+  "non_author_review": "pending; same-author reference is not independent acceptance"
+}

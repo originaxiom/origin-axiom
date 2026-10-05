@@ -2079,3 +2079,22 @@ and server-confirm these nine science paths before any new execution.
 | `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/custody.rb` | `8655d9ae8826af029cd04c823b2827167d0cc114f3b76be5aceb5773905c2fe8` |
 | `reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/CORRECTION.md` | `7edcfbd63145ac45ed5f52073a12dff5fbb65c57372e057b5bef526c7788d583` |
 | `tests/test_physical_bridge_silver_operator_gate.py` | `c348f3f79b5d32f2bd37680c9fc82e416b57461e04772445cb7a7ec978a13741` |
+
+
+## Smooth silver boundary gate pre execution seal October 5 2026
+
+Stage2B research checkpoint: full smooth trace/current/reality/principal
+symbol and explicit supergauge compensation. Both helicities, both reducing
+patterns, no global kernel count or complete interacting domain claimed.
+Seven science files/eight immutable source pins. Push/server-confirm before
+scientific execution. Same-author reference is not nonauthor acceptance.
+
+| Scientific path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/DESIGN.md` | `8ff777034505c48edc0dd891028e86818bd580cb1531ba4a938fe95752f68aba` |
+| `reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md` | `b1fc46adf8f9e6c397635badd425b8dbed359e792233180840564e2948a22890` |
+| `reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/INPUTS.json` | `3ba6a5de8fa24536daa7126529a472c2cf4aea4c65c88447ea964c45f3308194` |
+| `reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/probe.py` | `9f21e6d6068a65bff9ff7789ea2a29fd300edfb96e08a36ed55de8257d0a41f4` |
+| `reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/reference.py` | `ee6f6d8fab751baf18cb8544a023662ab66ded43e26f0c008afbc60698b598a6` |
+| `reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/custody.rb` | `53b0e821420ee64f6e92256f3b5611060df2bc0f7448fbaa2b766e92a02011da` |
+| `tests/test_physical_bridge_silver_smooth_boundary_gate.py` | `cfc1daa42f5c092d5951c257163983d9396039f2246da79d513067aa5969714e` |
