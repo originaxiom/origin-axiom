@@ -73,11 +73,11 @@ a second instrument):
 | P3 | some minimal common cover has the three | 45% | **FAIL** |
 | P4 | chirality, three and door together on a minimal common cover | 25% | **FAIL** (the three is absent) |
 | P5 | the minimal common cover is not a regular cover of m004 | 60% | **PASS**: \|Sym\| = 12 < 24, so no deck group of order 24 |
-| P6 | common covers found for s959 (≤ 24) and o10_150726 (≤ 20) | 60% | **split.** o10_150726: degree 20 (see §4 for the sealed instrument's own result). s959: degree **36**, beyond its bound, so P6 as sealed FAILS for s959. |
+| P6 | common covers found for s959 (≤ 24) and o10_150726 (≤ 20) | 60% | **split.** o10_150726: degree 20, minimal, confirmed by the sealed instrument (§4). s959: degree **36**, beyond its bound, so P6 as sealed FAILS for s959. |
 
 ## 4. The sealed cross-check on o10_150726
 
-*(Filled in from `common_cover_o10_sealed.out` when the run ended; see the line below.)*
+The sealed instrument, run to o10_150726's bound, finds **no common cover at degree 5, 10 or 15** over m004. At **degree 20** it finds one cover (listed twice under two conjugate subgroups): 6 cusps, H₁ = ℤ/4 ⊕ ℤ⁶, |Sym| = 16, chiral, no three, irregular over both m004 and the target, and not factoring through a level. **Its isometry signature is identical to the exact instrument's cover** (`common_cover_o10_sealed.out`, `exact/exact_results.json`). So the two instruments agree where both reach. On o10_150726 the degree-20 cover is the minimal common cover over all conjugates, and P6 passes for o10_150726.
 
 ## 5. Reading (the sealed rule)
 

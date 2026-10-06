@@ -1,0 +1,42 @@
+[
+ {
+  "cusps": 6,
+  "H1": "Z/4 + Z + Z + Z + Z + Z + Z",
+  "vol": 40.59766425638621,
+  "sym": 16,
+  "chiral": true,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 7,
+  "door": null,
+  "deg_over_base": 20,
+  "deg_over_target": 4,
+  "type_over_base": "irregular",
+  "type_over_target": "irregular",
+  "signature": "OvvLLzvvMPLwPAwPvMMwQQQALQQkhfkqoporqquvxzCBEGCCBHHEEKDGFJIGMLNNMMLNLeeuuapptahqauaaxuaqexehaldeadtqdmxeqpupex",
+  "factors_through_level": []
+ },
+ {
+  "cusps": 6,
+  "H1": "Z/4 + Z + Z + Z + Z + Z + Z",
+  "vol": 40.59766425638621,
+  "sym": 16,
+  "chiral": true,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 7,
+  "door": null,
+  "deg_over_base": 20,
+  "deg_over_target": 4,
+  "type_over_base": "irregular",
+  "type_over_target": "irregular",
+  "signature": "OvvLLzvvMPLwPAwPvMMwQQQALQQkhfkqoporqquvxzCBEGCCBHHEEKDGFJIGMLNNMMLNLeeuuapptahqauaaxuaqexehaldeadtqdmxeqpupex",
+  "factors_through_level": []
+ }
+]

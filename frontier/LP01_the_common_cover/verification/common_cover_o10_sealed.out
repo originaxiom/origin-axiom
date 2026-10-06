@@ -1,3 +1,6 @@
   o10_150726: degree 5 over m004, 1 over target: 4 x 1 covers, 0 common (0 s)
   o10_150726: degree 10 over m004, 2 over target: 38 x 15 covers, 0 common (0 s)
   o10_150726: degree 15 over m004, 3 over target: 228 x 16 covers, 0 common (2 s)
+  o10_150726: degree 20 over m004, 4 over target: 1445 x 153 covers, 2 common (944 s)
+    {"cusps": 6, "H1": "Z/4 + Z + Z + Z + Z + Z + Z", "vol": 40.59766425638621, "sym": 16, "chiral": true, "three": false, "det_values": [0, 4], "gens": 7, "door": null, "deg_over_base": 20, "deg_over_target": 4, "type_over_base": "irregular", "type_over_target": "irregular", "signature": "OvvLLzvvMPLwPAwPvMMwQQQALQQkhfkqoporqquvxzCBEGCCBHHEEKDGFJIGMLNNMMLNLeeuuapptahqauaaxuaqexehaldeadtqdmxeqpupex", "factors_through_level": []}
+    {"cusps": 6, "H1": "Z/4 + Z + Z + Z + Z + Z + Z", "vol": 40.59766425638621, "sym": 16, "chiral": true, "three": false, "det_values": [0, 4], "gens": 7, "door": null, "deg_over_base": 20, "deg_over_target": 4, "type_over_base": "irregular", "type_over_target": "irregular", "signature": "OvvLLzvvMPLwPAwPvMMwQQQALQQkhfkqoporqquvxzCBEGCCBHHEEKDGFJIGMLNNMMLNLeeuuapptahqauaaxuaqexehaldeadtqdmxeqpupex", "factors_through_level": []}
