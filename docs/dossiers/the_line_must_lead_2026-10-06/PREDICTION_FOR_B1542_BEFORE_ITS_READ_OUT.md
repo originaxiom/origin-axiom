@@ -25,3 +25,33 @@ and sm:B1536's 3,160), with no violation.
 - no class read on any of the four covers counts (−3, −3) (P5 False);
 - if any count is generation-shaped, it is (−1, −1), and on d10.13's or d10.36's cover;
 - on d10.16's and d10.40's covers, I(W) ≥ 3 at every generic class whose cup map has rank 7.
+
+## Amendment, also before the read-out (2026-10-06, about 15:26Z; the run at task 484 of 556, no row read)
+
+The reasoning above used the global maximal rank, min(h¹(N; ℂ), n(ρ)). On these cyclic covers the deck group grades the cup map.
+By Shapiro, H¹(N; ℂ) = ⊕_m H¹(d10.x; ψ^m) and H¹(N; ρ) = ⊕_j H¹(d10.x; ψ^j ⊗ ρ), and the cup product and the interior part of
+H²(N; ρ) respect (j, m) ↦ j + m. So a class in the ψ^j eigenspace has
+rk δ¹_W ≤ B_j = Σ_m min(h¹(d10.x; ψ^m), n(ψ^{j+m} ⊗ ρ)).
+
+The per-power supplies are sm:B1536's banked rows (sm:B1540's construction). The h¹'s follow by half lives from the cusps'
+t-periods. The four's h¹ per eigenspace agrees with sm:B1542's control K2 on all four covers. The record is sm:B1543's
+graded census (verification/graded_census.json in its folder).
+
+| cover | h¹(ψ^m), m = 0..5 | n(ψ^j ⊗ ρ) | the four's eigenspaces (K2) | B_j on them |
+|---|---|---|---|---|
+| d10.13, d10.36 | 4, 0, 1, 3, 1, 0 | 2, 0, 0, 1, 0, 0 | ψ⁰ (5), ψ³ (4) | 3, 3 |
+| d10.16, d10.40 | 4, 1, 0, 1, 0, 1 | 2, 0, 2, 1, 2, 0 | ψ⁰ (5), ψ² (2), ψ³ (2), ψ⁴ (2) | 3, 3, 4, 3 |
+
+On d10.16's and d10.40's covers, the eigenspace classes (Part B) reach rank 3 or 4 at most. Corollary C′ then bounds them by
+I(W) ≥ −1 on ψ⁰, ψ² and ψ⁴, and by I(W) ≥ 0 on ψ³, not by 3.
+
+**The amended prediction:**
+- No class read counts (−3, −3). This is unchanged: every graded bound on a non-empty eigenspace is at least 3, and (−3, −3)
+  needs rank ≤ 1.
+- A generation-shaped count, if any, is (−1, −1). It can be on any subspace of d10.13's or d10.36's cover, or on the ψ⁰, ψ² or
+  ψ⁴ eigenspace (or its interior part) of d10.16's or d10.40's cover.
+- On d10.16's and d10.40's covers, I(W) ≥ 3 at every class of rank 7. Generic classes of the cusp strata mix the eigenspaces and
+  can reach rank 7.
+
+The first registration's "on d10.13's or d10.36's cover" is withdrawn as too narrow. Its reason assumed that every class could
+reach the global bound.
