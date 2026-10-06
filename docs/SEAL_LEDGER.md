@@ -87,7 +87,7 @@ hash-first status.*
 | frontier/B1479_the_bit_is_the_sign_of_the_word_state/PREREGISTRATION.md | ba56ca22 | 646cc2b7d | 1 | yes |
 | frontier/B1480_the_index_against_the_sign/PREREGISTRATION.md | 4700f7bb | 20c22735c | 1 | yes |
 | frontier/B1481_the_hand_is_a_phase/PREREGISTRATION.md | 1c39c831 | 00f2306d4 | 1 | yes |
-| frontier/B1483_the_end_of_the_frame_space/PREREGISTRATION.md | f2b21a8a | untracked | 0 | yes |
+| frontier/B1483_the_end_of_the_frame_space/PREREGISTRATION.md | f2b21a8a | 4ec814fbc | 1 | yes |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -350,6 +350,7 @@ hash-first status.*
 *Totals: 336 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
