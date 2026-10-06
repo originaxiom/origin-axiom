@@ -1,5 +1,29 @@
 # Changelog
 
+## B1544 sealed: THE FLOOR AT THE CUP KERNEL — Lemma F (I(W) ≥ k − m − 1) proved; where three can live, and the run that decides the cup map's kernel on N₄₅ and the four degree-60 covers
+
+- **Proved at design time** (the seal's §3).
+  - **Lemma F.** At the trivial character on a finite cover with m cusps, every class has I(W) ≥ k − m − 1, where k is the
+    number of cusps on which the class is non-zero. So sm:B1543's floor holds at every class non-zero on every cusp, and three
+    needs a class vanishing on two cusps.
+  - **Corollary F′.** With Theorem C (ii), three needs a + rk δ¹_W ≤ n(1) − 2 and k ≤ m − 2.
+  - **Lemma G″.** The generic classes of the strata K0(S) of the cup map's kernel, over its closed supports, decide the least
+    I(W) on all of K0.
+  - **Proposition D.** On the four degree-60 covers, three can live only in K0: at three supports of four cusps on d10.13's and
+    d10.36's covers, and nowhere on d10.16's and d10.40's.
+- **The run** (sealed, not run): three generic classes of K0(S) per closed support, in route F and route R. That is 30
+  subspaces, 90 tasks and 180 readings. Controls K1–K6 hold. Load-bearing inputs LB1–LB7.
+- **Predictions.** P4, the floor on K0, has prior 70%; P6, three, 4%.
+  - PROVED if a stratum reads I(W) < −1 in two routes.
+  - NEGATIVE if the floor holds on all of K0. With Proposition D, the four degree-60 covers then carry no three at the trivial
+    character.
+- **Disclosed.**
+  - The first design (generic classes of K0 and its eigen-parts) was replaced before the seal, when Lemma F showed it could not
+    break the floor (ERROR_LEDGER, a design slip).
+  - An E12 module-shadowing slip was caught by its first control trial (ERROR_LEDGER).
+  - Before the seal, counts were read only at banked classes.
+- Surfaces: SEAL_LEDGER row, PROGRESS_LOG; atlas and views regenerated. 0 of 19.
+
 ## B1542 banked: THE COUNT AT THE EISENSTEIN ORDER — no generic class of the four degree-60 covers with room 3 and 4 is generation-shaped; the room-3 covers carry I(Λ²W) = −3 everywhere and I(W) ≥ −1 (NEGATIVE, scoped; run as sealed), confirmed by an independent route
 
 - **The run.** The banked identity held (582a555f). The run started at 12:46Z on four workers. The container's memory limit

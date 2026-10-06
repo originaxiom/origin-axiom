@@ -1,0 +1,1659 @@
+{
+ "prime (route F)": 67108201,
+ "K1": {
+  "N45": {
+   "route F": {
+    "h1(rho)": 23,
+    "n(rho)": 18,
+    "h1(C)": 9,
+    "n(1)": 4,
+    "dim K0": 5,
+    "K0 meets the interior in": 0,
+    "K0 by eigenspace": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "cusp labels": [
+     0,
+     1,
+     2,
+     4,
+     5
+    ],
+    "tau on the cusps": {
+     "0": 1,
+     "1": 4,
+     "2": 5,
+     "4": 2,
+     "5": 0
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [
+       0,
+       1,
+       2
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       1,
+       4
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       1,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       2,
+       4
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       2,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       4,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       1,
+       2,
+       4
+      ],
+      1
+     ],
+     [
+      [
+       1,
+       2,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       1,
+       4,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       2,
+       4,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       4
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       4,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       2,
+       4,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       1,
+       2,
+       4,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       4,
+       5
+      ],
+      5
+     ]
+    ]
+   },
+   "route R": {
+    "h1(rho)": 23,
+    "n(rho)": 18,
+    "h1(C)": 9,
+    "n(1)": 4,
+    "dim K0": 5,
+    "K0 meets the interior in": 0,
+    "K0 by eigenspace": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "cusp labels": [
+     0,
+     1,
+     2,
+     4,
+     5
+    ],
+    "tau on the cusps": {
+     "0": 1,
+     "1": 4,
+     "2": 5,
+     "4": 2,
+     "5": 0
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [
+       0,
+       1,
+       2
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       1,
+       4
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       1,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       2,
+       4
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       2,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       4,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       1,
+       2,
+       4
+      ],
+      1
+     ],
+     [
+      [
+       1,
+       2,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       1,
+       4,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       2,
+       4,
+       5
+      ],
+      1
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       4
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       4,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       2,
+       4,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       1,
+       2,
+       4,
+       5
+      ],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       4,
+       5
+      ],
+      5
+     ]
+    ]
+   },
+   "prime (route R)": 2147482801,
+   "holds": true
+  },
+  "d10.13": {
+   "route F": {
+    "h1(rho)": 9,
+    "n(rho)": 3,
+    "h1(C)": 9,
+    "n(1)": 3,
+    "dim K0": 6,
+    "K0 meets the interior in": 3,
+    "K0 by eigenspace": [
+     4,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     3,
+     5,
+     7,
+     13
+    ],
+    "tau on the cusps": {
+     "0": 1,
+     "1": 0,
+     "3": 13,
+     "5": 7,
+     "7": 5,
+     "13": 3
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       3,
+       5
+      ],
+      4
+     ],
+     [
+      [
+       0,
+       1,
+       7,
+       13
+      ],
+      4
+     ],
+     [
+      [
+       3,
+       5,
+       7,
+       13
+      ],
+      5
+     ],
+     [
+      [
+       0,
+       1,
+       3,
+       5,
+       7,
+       13
+      ],
+      6
+     ]
+    ]
+   },
+   "route R": {
+    "h1(rho)": 9,
+    "n(rho)": 3,
+    "h1(C)": 9,
+    "n(1)": 3,
+    "dim K0": 6,
+    "K0 meets the interior in": 3,
+    "K0 by eigenspace": [
+     4,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     3,
+     5,
+     7,
+     13
+    ],
+    "tau on the cusps": {
+     "0": 1,
+     "1": 0,
+     "3": 13,
+     "5": 7,
+     "7": 5,
+     "13": 3
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       3,
+       5
+      ],
+      4
+     ],
+     [
+      [
+       0,
+       1,
+       7,
+       13
+      ],
+      4
+     ],
+     [
+      [
+       3,
+       5,
+       7,
+       13
+      ],
+      5
+     ],
+     [
+      [
+       0,
+       1,
+       3,
+       5,
+       7,
+       13
+      ],
+      6
+     ]
+    ]
+   },
+   "prime (route R)": 2147482801,
+   "holds": true
+  },
+  "d10.16": {
+   "route F": {
+    "h1(rho)": 11,
+    "n(rho)": 7,
+    "h1(C)": 7,
+    "n(1)": 3,
+    "dim K0": 3,
+    "K0 meets the interior in": 2,
+    "K0 by eigenspace": [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     2,
+     4
+    ],
+    "tau on the cusps": {
+     "0": 0,
+     "1": 1,
+     "2": 4,
+     "4": 2
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      2
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       4
+      ],
+      3
+     ]
+    ]
+   },
+   "route R": {
+    "h1(rho)": 11,
+    "n(rho)": 7,
+    "h1(C)": 7,
+    "n(1)": 3,
+    "dim K0": 3,
+    "K0 meets the interior in": 2,
+    "K0 by eigenspace": [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     2,
+     4
+    ],
+    "tau on the cusps": {
+     "0": 0,
+     "1": 1,
+     "2": 4,
+     "4": 2
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      2
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       4
+      ],
+      3
+     ]
+    ]
+   },
+   "prime (route R)": 2147482801,
+   "holds": true
+  },
+  "d10.36": {
+   "route F": {
+    "h1(rho)": 9,
+    "n(rho)": 3,
+    "h1(C)": 9,
+    "n(1)": 3,
+    "dim K0": 6,
+    "K0 meets the interior in": 3,
+    "K0 by eigenspace": [
+     4,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     2,
+     3,
+     7,
+     8
+    ],
+    "tau on the cusps": {
+     "0": 2,
+     "1": 8,
+     "2": 0,
+     "3": 7,
+     "7": 3,
+     "8": 1
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       7
+      ],
+      4
+     ],
+     [
+      [
+       0,
+       2,
+       3,
+       8
+      ],
+      4
+     ],
+     [
+      [
+       1,
+       3,
+       7,
+       8
+      ],
+      5
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       3,
+       7,
+       8
+      ],
+      6
+     ]
+    ]
+   },
+   "route R": {
+    "h1(rho)": 9,
+    "n(rho)": 3,
+    "h1(C)": 9,
+    "n(1)": 3,
+    "dim K0": 6,
+    "K0 meets the interior in": 3,
+    "K0 by eigenspace": [
+     4,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     2,
+     3,
+     7,
+     8
+    ],
+    "tau on the cusps": {
+     "0": 2,
+     "1": 8,
+     "2": 0,
+     "3": 7,
+     "7": 3,
+     "8": 1
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      3
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       7
+      ],
+      4
+     ],
+     [
+      [
+       0,
+       2,
+       3,
+       8
+      ],
+      4
+     ],
+     [
+      [
+       1,
+       3,
+       7,
+       8
+      ],
+      5
+     ],
+     [
+      [
+       0,
+       1,
+       2,
+       3,
+       7,
+       8
+      ],
+      6
+     ]
+    ]
+   },
+   "prime (route R)": 2147482801,
+   "holds": true
+  },
+  "d10.40": {
+   "route F": {
+    "h1(rho)": 11,
+    "n(rho)": 7,
+    "h1(C)": 7,
+    "n(1)": 3,
+    "dim K0": 3,
+    "K0 meets the interior in": 2,
+    "K0 by eigenspace": [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     3,
+     6
+    ],
+    "tau on the cusps": {
+     "0": 0,
+     "1": 3,
+     "3": 1,
+     "6": 6
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      2
+     ],
+     [
+      [
+       0,
+       1,
+       3,
+       6
+      ],
+      3
+     ]
+    ]
+   },
+   "route R": {
+    "h1(rho)": 11,
+    "n(rho)": 7,
+    "h1(C)": 7,
+    "n(1)": 3,
+    "dim K0": 3,
+    "K0 meets the interior in": 2,
+    "K0 by eigenspace": [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cusp labels": [
+     0,
+     1,
+     3,
+     6
+    ],
+    "tau on the cusps": {
+     "0": 0,
+     "1": 3,
+     "3": 1,
+     "6": 6
+    },
+    "closed supports of K0 [S, dim K0(S)]": [
+     [
+      [],
+      2
+     ],
+     [
+      [
+       0,
+       1,
+       3,
+       6
+      ],
+      3
+     ]
+    ]
+   },
+   "prime (route R)": 2147482801,
+   "holds": true
+  },
+  "holds": true
+ },
+ "K2": {
+  "N45": {
+   "readings (route, class, cochain rank, LES rank)": [
+    [
+     "F",
+     "generic",
+     9,
+     9
+    ],
+    [
+     "F",
+     "generic",
+     9,
+     9
+    ],
+    [
+     "F",
+     "generic",
+     9,
+     9
+    ],
+    [
+     "F",
+     "K0",
+     0,
+     0
+    ],
+    [
+     "R",
+     "generic",
+     9,
+     9
+    ],
+    [
+     "R",
+     "generic",
+     9,
+     9
+    ],
+    [
+     "R",
+     "generic",
+     9,
+     9
+    ],
+    [
+     "R",
+     "K0",
+     0,
+     0
+    ]
+   ],
+   "holds": true
+  },
+  "d10.13": {
+   "readings (route, class, cochain rank, LES rank)": [
+    [
+     "F",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "F",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "F",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "F",
+     "K0",
+     0,
+     0
+    ],
+    [
+     "R",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "R",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "R",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "R",
+     "K0",
+     0,
+     0
+    ]
+   ],
+   "holds": true
+  },
+  "d10.16": {
+   "readings (route, class, cochain rank, LES rank)": [
+    [
+     "F",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "F",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "F",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "F",
+     "K0",
+     0,
+     0
+    ],
+    [
+     "R",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "R",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "R",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "R",
+     "K0",
+     0,
+     0
+    ]
+   ],
+   "holds": true
+  },
+  "d10.36": {
+   "readings (route, class, cochain rank, LES rank)": [
+    [
+     "F",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "F",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "F",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "F",
+     "K0",
+     0,
+     0
+    ],
+    [
+     "R",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "R",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "R",
+     "generic",
+     2,
+     2
+    ],
+    [
+     "R",
+     "K0",
+     0,
+     0
+    ]
+   ],
+   "holds": true
+  },
+  "d10.40": {
+   "readings (route, class, cochain rank, LES rank)": [
+    [
+     "F",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "F",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "F",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "F",
+     "K0",
+     0,
+     0
+    ],
+    [
+     "R",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "R",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "R",
+     "generic",
+     5,
+     5
+    ],
+    [
+     "R",
+     "K0",
+     0,
+     0
+    ]
+   ],
+   "holds": true
+  },
+  "holds": true
+ },
+ "K3": {
+  "N45": {
+   "interior count (route F, route R)": [
+    [
+     4,
+     -10
+    ],
+    [
+     4,
+     -10
+    ]
+   ],
+   "banked": [
+    4,
+    -10
+   ],
+   "holds": true
+  },
+  "d10.13": {
+   "interior count (route F, route R)": [
+    [
+     -1,
+     -3
+    ],
+    [
+     -1,
+     -3
+    ]
+   ],
+   "banked": [
+    -1,
+    -3
+   ],
+   "holds": true
+  },
+  "d10.16": {
+   "interior count (route F, route R)": [
+    [
+     0,
+     -5
+    ],
+    [
+     0,
+     -5
+    ]
+   ],
+   "banked": [
+    0,
+    -5
+   ],
+   "holds": true
+  },
+  "d10.36": {
+   "interior count (route F, route R)": [
+    [
+     -1,
+     -3
+    ],
+    [
+     -1,
+     -3
+    ]
+   ],
+   "banked": [
+    -1,
+    -3
+   ],
+   "holds": true
+  },
+  "d10.40": {
+   "interior count (route F, route R)": [
+    [
+     0,
+     -5
+    ],
+    [
+     0,
+     -5
+    ]
+   ],
+   "banked": [
+    0,
+    -5
+   ],
+   "holds": true
+  },
+  "holds": true
+ },
+ "K4": {
+  "cases": 10,
+  "holds": true,
+  "each": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ "K5": {
+  "N45": {
+   "cusps (orbit sizes)": [
+    9,
+    9,
+    9,
+    9,
+    9
+   ],
+   "holds": true
+  },
+  "d10.13": {
+   "cusps (orbit sizes)": [
+    6,
+    6,
+    6,
+    6,
+    18,
+    18
+   ],
+   "holds": true
+  },
+  "d10.16": {
+   "cusps (orbit sizes)": [
+    12,
+    12,
+    18,
+    18
+   ],
+   "holds": true
+  },
+  "d10.36": {
+   "cusps (orbit sizes)": [
+    6,
+    6,
+    6,
+    6,
+    18,
+    18
+   ],
+   "holds": true
+  },
+  "d10.40": {
+   "cusps (orbit sizes)": [
+    12,
+    12,
+    18,
+    18
+   ],
+   "holds": true
+  },
+  "holds": true
+ },
+ "K6": {
+  "N45": {
+   "F": {
+    "interior": {
+     "count": [
+      4,
+      -10
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 5,
+      "h0(dN;W*)": 10,
+      "h0(dN;W)": 10,
+      "r1(W)": 5,
+      "h1(dN;W)": 20
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      5,
+      -5
+     ],
+     "support": [
+      0,
+      1,
+      2,
+      4,
+      5
+     ],
+     "lemma F": {
+      "m": 5,
+      "h0(dN;W*)": 10,
+      "h0(dN;W)": 5,
+      "r1(W)": 4,
+      "h1(dN;W)": 15
+     },
+     "holds": true
+    }
+   },
+   "R": {
+    "interior": {
+     "count": [
+      4,
+      -10
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 5,
+      "h0(dN;W*)": 10,
+      "h0(dN;W)": 10,
+      "r1(W)": 5,
+      "h1(dN;W)": 20
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      5,
+      -5
+     ],
+     "support": [
+      0,
+      1,
+      2,
+      4,
+      5
+     ],
+     "lemma F": {
+      "m": 5,
+      "h0(dN;W*)": 10,
+      "h0(dN;W)": 5,
+      "r1(W)": 4,
+      "h1(dN;W)": 15
+     },
+     "holds": true
+    }
+   },
+   "holds": true
+  },
+  "d10.13": {
+   "F": {
+    "interior": {
+     "count": [
+      -1,
+      -3
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 12,
+      "r1(W)": 12,
+      "h1(dN;W)": 24
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      2,
+      -3
+     ],
+     "support": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      13
+     ],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 6,
+      "r1(W)": 9,
+      "h1(dN;W)": 18
+     },
+     "holds": true
+    }
+   },
+   "R": {
+    "interior": {
+     "count": [
+      -1,
+      -3
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 12,
+      "r1(W)": 12,
+      "h1(dN;W)": 24
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      2,
+      -3
+     ],
+     "support": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      13
+     ],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 6,
+      "r1(W)": 9,
+      "h1(dN;W)": 18
+     },
+     "holds": true
+    }
+   },
+   "holds": true
+  },
+  "d10.16": {
+   "F": {
+    "interior": {
+     "count": [
+      0,
+      -5
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 8,
+      "r1(W)": 7,
+      "h1(dN;W)": 16
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      3,
+      -4
+     ],
+     "support": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 4,
+      "r1(W)": 4,
+      "h1(dN;W)": 12
+     },
+     "holds": true
+    }
+   },
+   "R": {
+    "interior": {
+     "count": [
+      0,
+      -5
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 8,
+      "r1(W)": 7,
+      "h1(dN;W)": 16
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      3,
+      -4
+     ],
+     "support": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 4,
+      "r1(W)": 4,
+      "h1(dN;W)": 12
+     },
+     "holds": true
+    }
+   },
+   "holds": true
+  },
+  "d10.36": {
+   "F": {
+    "interior": {
+     "count": [
+      -1,
+      -3
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 12,
+      "r1(W)": 12,
+      "h1(dN;W)": 24
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      2,
+      -3
+     ],
+     "support": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8
+     ],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 6,
+      "r1(W)": 9,
+      "h1(dN;W)": 18
+     },
+     "holds": true
+    }
+   },
+   "R": {
+    "interior": {
+     "count": [
+      -1,
+      -3
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 12,
+      "r1(W)": 12,
+      "h1(dN;W)": 24
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      2,
+      -3
+     ],
+     "support": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8
+     ],
+     "lemma F": {
+      "m": 6,
+      "h0(dN;W*)": 12,
+      "h0(dN;W)": 6,
+      "r1(W)": 9,
+      "h1(dN;W)": 18
+     },
+     "holds": true
+    }
+   },
+   "holds": true
+  },
+  "d10.40": {
+   "F": {
+    "interior": {
+     "count": [
+      0,
+      -5
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 8,
+      "r1(W)": 7,
+      "h1(dN;W)": 16
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      3,
+      -4
+     ],
+     "support": [
+      0,
+      1,
+      3,
+      6
+     ],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 4,
+      "r1(W)": 4,
+      "h1(dN;W)": 12
+     },
+     "holds": true
+    }
+   },
+   "R": {
+    "interior": {
+     "count": [
+      0,
+      -5
+     ],
+     "support": [],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 8,
+      "r1(W)": 7,
+      "h1(dN;W)": 16
+     },
+     "holds": true
+    },
+    "generic": {
+     "count": [
+      3,
+      -4
+     ],
+     "support": [
+      0,
+      1,
+      3,
+      6
+     ],
+     "lemma F": {
+      "m": 4,
+      "h0(dN;W*)": 8,
+      "h0(dN;W)": 4,
+      "r1(W)": 4,
+      "h1(dN;W)": 12
+     },
+     "holds": true
+    }
+   },
+   "holds": true
+  },
+  "holds": true
+ },
+ "all hold": true,
+ "seconds": 381.4
+}

@@ -17782,3 +17782,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **main read to 03635498** (S60 f7d15807: the web seat's branch harvested, B1478, GENESIS v1.12; B1479 sealed). Its relay
   of the day to the audit lane and this seat (B1477's results) asks this seat for one table: the type of each cusp under each
   lifted mirror on N₄₅ and the four degree-60 covers. Queued (RELAY_LEDGER). 0 of 19.
+
+## 2026-10-06 — B1544 sealed: the floor at the cup kernel
+
+- **Lemma F, proved before the seal:** I(W) ≥ k − m − 1 at the trivial character. The floor holds wherever the class is non-zero
+  on every cusp, and three needs a class vanishing on two cusps.
+- **With Theorem C (ii):** on the four degree-60 covers three can live only in the cup map's kernel K0, at three supports of
+  four cusps on the room-3 covers and nowhere on the room-4 covers.
+- **The run** reads every closed support of K0 on N₄₅ and the four covers in two routes. That decides the least I(W) on K0 and,
+  with it, three on the room-3 covers at the trivial character.
+- **The first design** would have read only classes where Lemma F already fixes the floor. It was replaced before the seal
+  (disclosed).

@@ -10165,6 +10165,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1544": {
+   "slug": "the floor at the cup kernel",
+   "motifs": [
+    "monoid",
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [
+    "K0",
+    "K1",
+    "K6",
+    "P1",
+    "P4",
+    "P6"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B154": {
    "slug": "silver bundle foundation",
    "motifs": [

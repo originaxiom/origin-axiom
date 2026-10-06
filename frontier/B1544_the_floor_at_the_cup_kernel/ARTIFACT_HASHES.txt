@@ -1,0 +1,10 @@
+# B1544 -- sha-256 of the sealed files, recorded at the seal (before run.py read any count at a non-interior class of K0; the
+# controls K1-K6 read structure, banked counts at banked classes and synthetic rows only). identity.py checks every line first.
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1544_the_floor_at_the_cup_kernel/)
+5c13671fb4b6428047a60be961929b3200e085bc9e2e0ddd075ba2dfdb5172ca  PREREGISTRATION.md
+07c755b302f24e730287d2744f6acc8f8651bba9389faed770c3cf5847646955  verification/floor_lib.py
+cf0d1ff257698e5abc08359563fc281f09efeaba51d64b7ec9f3ad81c5e629d7  verification/run.py
+dcae4cf73eeec49ad625ce7153b652cdc7b4952bdff5444d49efee39cefd238b  verification/read_out.py
+3f9c3f9acdc4505e02442820292bab023707ae5fda65731cba2eca2a0134f101  verification/controls.py
+ab8fd4b5c9f8e305b23a373567e4f56012425c52654bd2b23c638b8948635b27  verification/identity.py
+bfd7f3ab3cd2929ccee1042215ae98f885078c01cf2e2172a94584ac814e3a18  verification/controls.json

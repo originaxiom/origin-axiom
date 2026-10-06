@@ -1,0 +1,172 @@
+{
+ "id": "B1544",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1543",
+  "B1542",
+  "B1541",
+  "B1536",
+  "B1535",
+  "B1515",
+  "B1527"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "N_45 (sm:B1541) and the four degree-60 covers of m003 (sm:B1542), at the trivial character: the cup map's kernel K0 = {c in H^1(N; rho) : c u H^1(N; C) = 0}, read stratum by stratum -- for every closed support S of K0, three generic classes of K0(S) in each of two routes (30 subspaces, 90 tasks, 180 readings); Lemma F (I(W) >= k - m - 1) and Proposition D proved at design time",
+  "reach": "class",
+  "hypotheses": [
+   "sealed: no count at a non-interior class of K0 has been read; this record is replaced at the bank",
+   "at the hyperbolic point and the trivial character of each cover only; Lemma F is proved there",
+   "the least I(W) on K0 is decided by the generic classes of its strata (Lemma G''), each read with three draws per route at two primes (Lemma G); special classes inside a stratum can only read a larger I(W)",
+   "N_45's classes outside K0 with rk delta1_W in {1, 2} and small support, other characters, other covers and the floor outside K0 are not covered (the seal's section 10)",
+   "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question"
+  ]
+ },
+ "claim_one_line": "THE FLOOR AT THE CUP KERNEL, SEALED. Lemma F (proved at design time): at the trivial character on a finite cover with m cusps, every class c of H^1(N; rho) has I(W) >= k - m - 1, k the number of cusps where c is non-zero; so sm:B1543's floor I(W) >= -1 holds wherever c is non-zero on every cusp, and three, I(W) = -3, needs c to vanish on two cusps. With Theorem C (ii) (Corollary F'), three needs a + rk delta1_W <= n(1) - 2 and k <= m - 2; on the four degree-60 covers (n(1) = 3) it can live only in the cup map's kernel K0, at the strata K0(S) of three closed supports of size four on d10.13's and d10.36's covers and nowhere on d10.16's and d10.40's (Proposition D, from the structure and banked counts). The run reads the generic class of K0(S) for every closed support S on N_45 and the four covers -- which decides the least I(W) on all of K0 (Lemma G'') -- in route F and route R: 30 subspaces, 90 tasks, 180 readings. Controls K1-K6 hold. Predictions P1-P6 (P4 the floor on K0 70%, P6 three 4%); PROVED if a stratum reads I(W) < -1 in two routes; NEGATIVE if the floor holds on all of K0, and then the four degree-60 covers carry no three at the trivial character. No count at a non-interior class of K0 read. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-06)": "9bb4adf7",
+    "main (at the sweep, 2026-10-06)": "03635498",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-06)": "8b89d8fb",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-06)": "c161981d",
+    "the new web seat's branch (at the sweep, 2026-10-06)": "2579ca01",
+    "seat/outside-bench (at the sweep, 2026-10-06)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-06)": "5d58b935",
+    "sep16-branch (at the sweep, 2026-10-06)": "3205984b"
+   },
+   "terms": [
+    "cup kernel",
+    "kernel of the cup",
+    "the floor",
+    "dual term",
+    "Massey",
+    "secondary invariant",
+    "triple product",
+    "Milnor invariant",
+    "delta1_W(c) = 0",
+    "c u y = 0",
+    "I(W) >= -b0",
+    "cup map vanishes"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation:frontier/B1543_the_line_must_lead",
+     "bearing": "the floor as an observation (6,756 banked readings), its form r1(W) <= h0(dN; W*), and the remark that an excess of r1(W) needs a secondary, Massey-type invariant at the cusps; proves nothing about the floor"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1542_the_count_at_the_eisenstein_order and frontier/B1541_the_count_on_the_room",
+     "bearing": "the banked counts on these covers; the room-3 covers' interior classes lie in K0 and read (-1, -3)"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1535_the_cap",
+     "bearing": "Theorem C (ii), used by Corollary F'"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B738_pathfinder_compiler/kill_graph.json",
+     "bearing": "sm:B1542's kill entry names sm:B1538's room-three members, where n(nu (x) rho) = 0 and the cup map vanishes at every class, as a next place"
+    },
+    {
+     "where": "frontier/B370_massey_depth2 and B265, B273, B274, B353, B575-B579 (all heads)",
+     "bearing": "none: Massey products as deformation obstructions of representations"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1510, B1513, B1514, B1530",
+     "bearing": "none for the count: relative triple products of cohomology classes as couplings; no class of K0 read"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "half lives half dies Lagrangian boundary cohomology three-manifold",
+    "twisted cohomology of hyperbolic three-manifolds cusp torus",
+    "Massey products three-manifolds cup product kernel"
+   ],
+   "sources": [
+    {
+     "cite": "A. Putman, Half lives, half dies and the signatures of boundaries (note)",
+     "where": "the theorem and its proof",
+     "read": "2026-10-06",
+     "says": "the restriction images of H^1(N; E) and H^1(N; E*) in H^1(dN) are mutual annihilators"
+    },
+    {
+     "cite": "P. Menal-Ferrer and J. Porti, Twisted cohomology for hyperbolic three manifolds, arXiv:1001.2242",
+     "where": "sections 0 and 3.1",
+     "read": "2026-10-06",
+     "says": "for the holomorphic representations V_n the cusp-torus cohomology is h0 = h2 = 1, h1 = 2 per cusp and H^1(M; V_n) injects into the boundary; the four V_2 (x) conj(V_2) is not treated and has interior classes"
+    },
+    {
+     "cite": "S. Garoufalidis and J. Levine, Tree-level invariants of three-manifolds, Massey products and the Johnson homomorphism (2003)",
+     "where": "sections 1.1 and 2.2",
+     "read": "2026-10-06",
+     "says": "Massey products on H^1 of 3-manifolds are the invariants beyond cup products; the one the floor rests on at K0 is of that kind, twisted and with a boundary"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "Theorem C (ii) and route R's identities (I(E) = h0(E) - h0(E*) + h0(dN; E*) - r1(E); I(W) = -b0 + k + rk d1(E) - rk d1(E*))",
+   "source": "sm:B1535 (reviewed by the audit lane's R84), sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1544_the_floor_at_the_cup_kernel/verification/read_out.py",
+   "how": "at the read-out, and every verdict but OPEN requires it: P3: sm:B1536's checks, Theorem C's caps and the identities at every route R reading, computed from that reading's own ranks"
+  },
+  {
+   "id": "LB2",
+   "input": "Lemma F (I(W) >= k - m - 1) and its torus facts: h0(dN; W*) = 2m, h1(dN; W) = 4m - k, r1(W) <= 3m - k",
+   "source": "the seal's section 3 (proved here)",
+   "status": "VERIFIED",
+   "check": "frontier/B1544_the_floor_at_the_cup_kernel/verification/controls.py",
+   "how": "K6: the ingredients and I(W) = -1 + h0(dN; W*) - r1(W) at a generic class of H^1 and at a generic interior class, in both routes on all five covers (h0 of W* read from route F's own cusp transports and from sm:B1536's Coh); and at the read-out, P3: the same at every reading of the run, in both routes"
+  },
+  {
+   "id": "LB3",
+   "input": "K0, its strata K0(S) and the closed supports, and tau's action on the cusps",
+   "source": "the seal's sections 2 and 5 (computed)",
+   "status": "VERIFIED",
+   "check": "frontier/B1544_the_floor_at_the_cup_kernel/verification/controls.py",
+   "how": "K1: computed in route F (p_F) and route R (p_R) on all five covers, equal to each other and to the sealed run.STRUCTURE; at the read-out P2: every reading's class has rk delta1_W = 0 and support exactly S"
+  },
+  {
+   "id": "LB4",
+   "input": "the banked counts Proposition D uses: the generic interior class of d10.13's and d10.36's covers (-1, -3) with rk delta1_W* = 0; of d10.16's and d10.40's (0, -5) with rk delta1_W = 3, rk delta1_W* = 2; their K0 ∩ interior (-1, -3) with rk delta1_W* = 0",
+   "source": "sm:B1542's record (run.jsonl.gz)",
+   "status": "VERIFIED",
+   "check": "frontier/B1544_the_floor_at_the_cup_kernel/verification/controls.py",
+   "how": "K3: the generic interior class re-read in both routes; the run's S = ∅ subspaces re-read K0 ∩ interior in both routes (P1 at the read-out)"
+  },
+  {
+   "id": "LB5",
+   "input": "Lemma G'': the generic classes of the strata K0(S) decide the least I(W) on K0",
+   "source": "the seal's section 3",
+   "status": "VERIFIED",
+   "check": "frontier/B1544_the_floor_at_the_cup_kernel/verification/read_out.py",
+   "how": "at the read-out: P1 (three draws per route, two routes at two primes, one count per subspace and per tau-orbit) and P2 (each class's support is exactly S)"
+  },
+  {
+   "id": "LB6",
+   "input": "the two routes' cusps are the same cusps (labels by the least point of the orbit)",
+   "source": "the covers' permutation data (sm:B1541, sm:B1542)",
+   "status": "VERIFIED",
+   "check": "frontier/B1544_the_floor_at_the_cup_kernel/verification/controls.py",
+   "how": "K5: the orbits of the base cusp group coincide as point sets in both routes, and the deck permutations are equal"
+  },
+  {
+   "id": "LB7",
+   "input": "the code paths are the banked ones (sm:B1541's route_f, sm:B1536's route_r through sm:B1542's ncyc)",
+   "source": "sm:B1541, sm:B1542, sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1544_the_floor_at_the_cup_kernel/verification/controls.py",
+   "how": "K3 and K6: banked counts (interior and full stratum) reproduced in both routes on all five covers"
+  }
+ ]
+}
