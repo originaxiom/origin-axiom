@@ -1,0 +1,1285 @@
+{
+ "route F": {
+  "presentation": "<a, t | ttATAAATA>, b = tATA",
+  "cusp words": [
+   "atATAtaT",
+   "atATAt"
+  ],
+  "cusps": 5
+ },
+ "primes": {
+  "67108201": {
+   "checks": {
+    "R is 1": true,
+    "b is its word": true,
+    "the cusp words commute": true,
+    "l unipotent, not 1": true,
+    "t' unipotent, not 1": true
+   },
+   "h1(rho)": 23,
+   "n(rho)": 18,
+   "n(1)": 4,
+   "eigenspaces": [
+    3,
+    5,
+    5,
+    5,
+    5
+   ],
+   "interior parts": [
+    2,
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  "67108081": {
+   "checks": {
+    "R is 1": true,
+    "b is its word": true,
+    "the cusp words commute": true,
+    "l unipotent, not 1": true,
+    "t' unipotent, not 1": true
+   },
+   "h1(rho)": 23,
+   "n(rho)": 18,
+   "n(1)": 4,
+   "eigenspaces": [
+    3,
+    5,
+    5,
+    5,
+    5
+   ],
+   "interior parts": [
+    2,
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  "67107241": {
+   "checks": {
+    "R is 1": true,
+    "b is its word": true,
+    "the cusp words commute": true,
+    "l unipotent, not 1": true,
+    "t' unipotent, not 1": true
+   },
+   "h1(rho)": 23,
+   "n(rho)": 18,
+   "n(1)": 4,
+   "eigenspaces": [
+    3,
+    5,
+    5,
+    5,
+    5
+   ],
+   "interior parts": [
+    2,
+    4,
+    4,
+    4,
+    4
+   ]
+  }
+ },
+ "readings": [
+  {
+   "prime": 67108201,
+   "subspace": "A S=",
+   "draw": 0,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=",
+   "draw": 1,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0",
+   "draw": 0,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0",
+   "draw": 1,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0,1,2",
+   "draw": 0,
+   "count": [
+    5,
+    -7
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 11,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -7
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0,1,2",
+   "draw": 1,
+   "count": [
+    5,
+    -7
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 11,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -7
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0,1,2,3",
+   "draw": 0,
+   "count": [
+    5,
+    -6
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 12,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -6
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0,1,2,3",
+   "draw": 1,
+   "count": [
+    5,
+    -6
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 12,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -6
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0,1,2,3,4",
+   "draw": 0,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "A S=0,1,2,3,4",
+   "draw": 1,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=0",
+   "draw": 0,
+   "count": [
+    0,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 18,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     0,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=0",
+   "draw": 1,
+   "count": [
+    0,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 18,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     0,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=0 interior",
+   "draw": 0,
+   "count": [
+    -1,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 18,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     -1,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=0 interior",
+   "draw": 1,
+   "count": [
+    -1,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 18,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     -1,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=1",
+   "draw": 0,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 19,
+    "W*": 14,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=1",
+   "draw": 1,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 19,
+    "W*": 14,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=1 interior",
+   "draw": 0,
+   "count": [
+    3,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 14,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     3,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108201,
+   "subspace": "B j=1 interior",
+   "draw": 1,
+   "count": [
+    3,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 14,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     3,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=",
+   "draw": 0,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=",
+   "draw": 1,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0",
+   "draw": 0,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0",
+   "draw": 1,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0,1,2",
+   "draw": 0,
+   "count": [
+    5,
+    -7
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 11,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -7
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0,1,2",
+   "draw": 1,
+   "count": [
+    5,
+    -7
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 11,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -7
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0,1,2,3",
+   "draw": 0,
+   "count": [
+    5,
+    -6
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 12,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -6
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0,1,2,3",
+   "draw": 1,
+   "count": [
+    5,
+    -6
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 12,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -6
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0,1,2,3,4",
+   "draw": 0,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "A S=0,1,2,3,4",
+   "draw": 1,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=0",
+   "draw": 0,
+   "count": [
+    0,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 18,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     0,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=0",
+   "draw": 1,
+   "count": [
+    0,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 18,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     0,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=0 interior",
+   "draw": 0,
+   "count": [
+    -1,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 18,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     -1,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=0 interior",
+   "draw": 1,
+   "count": [
+    -1,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 18,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     -1,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=1",
+   "draw": 0,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 19,
+    "W*": 14,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=1",
+   "draw": 1,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 19,
+    "W*": 14,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=1 interior",
+   "draw": 0,
+   "count": [
+    3,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 14,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     3,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67108081,
+   "subspace": "B j=1 interior",
+   "draw": 1,
+   "count": [
+    3,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 14,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     3,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=",
+   "draw": 0,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=",
+   "draw": 1,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0",
+   "draw": 0,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0",
+   "draw": 1,
+   "count": [
+    4,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 13,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     4,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0,1,2",
+   "draw": 0,
+   "count": [
+    5,
+    -7
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 11,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -7
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0,1,2",
+   "draw": 1,
+   "count": [
+    5,
+    -7
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 11,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -7
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0,1,2,3",
+   "draw": 0,
+   "count": [
+    5,
+    -6
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 12,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -6
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0,1,2,3",
+   "draw": 1,
+   "count": [
+    5,
+    -6
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 12,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -6
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0,1,2,3,4",
+   "draw": 0,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "A S=0,1,2,3,4",
+   "draw": 1,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 13,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=0",
+   "draw": 0,
+   "count": [
+    0,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 18,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     0,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=0",
+   "draw": 1,
+   "count": [
+    0,
+    -5
+   ],
+   "n": {
+    "W": 18,
+    "W*": 18,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     0,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=0 interior",
+   "draw": 0,
+   "count": [
+    -1,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 18,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     -1,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=0 interior",
+   "draw": 1,
+   "count": [
+    -1,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 18,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     -1,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=1",
+   "draw": 0,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 19,
+    "W*": 14,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=1",
+   "draw": 1,
+   "count": [
+    5,
+    -5
+   ],
+   "n": {
+    "W": 19,
+    "W*": 14,
+    "L2": 13,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     5,
+     -5
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=1 interior",
+   "draw": 0,
+   "count": [
+    3,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 14,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     3,
+     -10
+    ]
+   ],
+   "agrees": true
+  },
+  {
+   "prime": 67107241,
+   "subspace": "B j=1 interior",
+   "draw": 1,
+   "count": [
+    3,
+    -10
+   ],
+   "n": {
+    "W": 17,
+    "W*": 14,
+    "L2": 8,
+    "L2*": 18
+   },
+   "the run's count": [
+    [
+     3,
+     -10
+    ]
+   ],
+   "agrees": true
+  }
+ ],
+ "disagreements": [],
+ "structure agrees": true,
+ "positive control: non-zero counts returned exactly": 54,
+ "agrees": true,
+ "seconds": 187.4
+}
