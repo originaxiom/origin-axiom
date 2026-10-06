@@ -1,0 +1,20 @@
+golden+ 1 [20011, 20021, 20023] [] firing 0 bg 0 differ 0
+golden+ 2 [20011, 20021, 20051] [5] firing 8 bg 0 differ 0
+golden- 1 [20011, 20021, 20051] [5] firing 8 bg 0 differ 0
+golden- 2 [20011, 20021, 20051] [5] firing 8 bg 0 differ 0
+silver+ 1 [20011, 20021, 20023] [2, 2] firing 0 bg 0 differ 0
+silver+ 2 [20089, 20113, 20129] [4, 8] firing 216 bg 0 differ 0
+silver+ 3 [20021, 20063, 20147] [14, 14] firing 2400 bg 0 differ 0
+silver- 1 [20021, 20029, 20089] [2, 4] firing 24 bg 0 differ 0
+silver- 2 [20089, 20113, 20129] [4, 8] firing 216 bg 0 differ 0
+bronze+ 1 [20011, 20023, 20029] [3, 3] firing 16 bg 0 differ 0
+bronze+ 2 [20047, 20359, 20593] [3, 39] firing 1000 bg 0 differ 0
+bronze- 1 [20021, 20047, 20177] [13] firing 24 bg 0 differ 0
+bronze- 2 [20047, 20359, 20593] [3, 39] firing 1000 bg 0 differ 0
+LLR 1 [20011, 20021, 20023] [2] firing 0 bg 0 differ 0
+LLR 2 [20011, 20023, 20029] [2, 6] firing 32 bg 0 differ 0
+LLLR 1 [20011, 20023, 20029] [3] firing 0 bg 0 differ 0
+LLLR 2 [20161, 20287, 20707] [21] firing 84 bg 0 differ 0
+ILLLR 1 [20021, 20063, 20147] [7] firing 12 bg 0 differ 0
+ILLLR 2 [20161, 20287, 20707] [21] firing 84 bg 0 differ 0
+ILLR 3 [20071, 20089, 20107] [3, 18] firing 448 bg 0 differ 0

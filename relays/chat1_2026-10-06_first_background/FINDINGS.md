@@ -58,3 +58,16 @@ postulate; this test only shows what it would select on each root.
 **Fence.** Frame F-CI; objects 26 once-punctured-torus bundle roots and their levels ≤ 3 (≤ 5 golden); reach *class*
 (the sample). No generation count on a vacuum, no value, no physics. Errors: R was fitted to golden — the first seal
 existed to catch exactly that, and did.
+
+## Verification pass (owner's "are you sure", same evening)
+
+- **Every zero cell a "first level" rests on**, 20 cells (all six metallic roots below their first level, silver+ L3,
+  LLR/LLLR/ILLLR L1–2, ILLR L3), rerun with the plain instrument (long presentation, no orbit cache) at primes from
+  20000 up, disjoint from the original set: **20/20 zero backgrounds, identical firing counts, 0 disagreements**
+  (`recheck_zeros.py` → `recheck_zeros_run.txt`, `recheck_zeros.json`).
+- **The three existence claims from the fast instrument** (silver+ L4, bronze± L3): six backgrounds per cell drawn at
+  random, characters translated to the long presentation, every sector module rebuilt with B1432's own module /
+  cocycle / index and no cache, at primes from 40000 up: **18/18 reproduce their sector counts exactly**, h¹ = 1 throughout
+  (`confirm_existence.py` → `confirm_*.txt`).
+- What this does not cover: the exact background *totals* (320, 1584, 720) rest on the fast instrument at one prime set
+  (two for bronze+, agreeing); the first-level table needs only existence and absence, both now checked twice.
