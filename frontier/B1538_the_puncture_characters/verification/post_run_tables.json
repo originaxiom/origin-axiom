@@ -1,0 +1,431 @@
+{
+ "Part L": {
+  "m004": {
+   "covers": 5,
+   "puncture orbits": 201,
+   "puncture characters": 583,
+   "hits (Galois orbits) by n": {
+    "1": 326,
+    "2": 8
+   },
+   "candidates (n >= 2)": 8,
+   "largest n": 2,
+   "by |D| (n: count)": {
+    "4": {
+     "1": 2,
+     "2": 2
+    },
+    "5": {
+     "1": 60
+    },
+    "9": {
+     "1": 144,
+     "2": 6
+    },
+    "11": {
+     "1": 120
+    }
+   }
+  },
+  "m003": {
+   "covers": 9,
+   "puncture orbits": 7313,
+   "puncture characters": 39695,
+   "hits (Galois orbits) by n": {
+    "1": 5968,
+    "2": 42
+   },
+   "candidates (n >= 2)": 42,
+   "largest n": 2,
+   "by |D| (n: count)": {
+    "4": {
+     "1": 12
+    },
+    "5": {
+     "1": 4850
+    },
+    "9": {
+     "1": 1052,
+     "2": 42
+    },
+    "11": {
+     "1": 54
+    }
+   }
+  },
+  "m136": {
+   "covers": 29,
+   "puncture orbits": 210524,
+   "puncture characters": 807820,
+   "hits (Galois orbits) by n": {
+    "1": 112772,
+    "2": 12348,
+    "3": 360,
+    "4": 14,
+    "5": 2
+   },
+   "candidates (n >= 2)": 12724,
+   "largest n": 5,
+   "by |D| (n: count)": {
+    "2": {
+     "1": 24,
+     "2": 3
+    },
+    "4": {
+     "1": 796,
+     "2": 98,
+     "4": 1
+    },
+    "7": {
+     "1": 268,
+     "2": 4
+    },
+    "8": {
+     "1": 111264,
+     "2": 12212,
+     "3": 358,
+     "4": 13,
+     "5": 2
+    },
+    "9": {
+     "1": 420,
+     "2": 31,
+     "3": 2
+    }
+   }
+  },
+  "m135": {
+   "covers": 37,
+   "puncture orbits": 444950,
+   "puncture characters": 1558524,
+   "hits (Galois orbits) by n": {
+    "1": 300204,
+    "2": 51221,
+    "3": 336,
+    "4": 91
+   },
+   "candidates (n >= 2)": 51648,
+   "largest n": 4,
+   "by |D| (n: count)": {
+    "2": {
+     "1": 52
+    },
+    "4": {
+     "1": 4356,
+     "2": 194
+    },
+    "7": {
+     "1": 48,
+     "2": 4
+    },
+    "8": {
+     "1": 295296,
+     "2": 50970,
+     "3": 336,
+     "4": 91
+    },
+    "9": {
+     "1": 452,
+     "2": 53
+    }
+   }
+  }
+ },
+ "Proposition H": {
+  "m003.D4.2-0-2.w0": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      1,
+      12
+     ],
+     1
+    ],
+    [
+     [
+      5,
+      12
+     ],
+     1
+    ],
+    [
+     [
+      7,
+      12
+     ],
+     1
+    ],
+    [
+     [
+      11,
+      12
+     ],
+     1
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m004.D4.2-0-2.w0": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      1,
+      6
+     ],
+     2
+    ],
+    [
+     [
+      5,
+      6
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m135.D4.2-0-2.w0": {
+   "acts on Q8 as the identity": true,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      1,
+      4
+     ],
+     2
+    ],
+    [
+     [
+      3,
+      4
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m135.D4.2-0-2.w1": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      0,
+      1
+     ],
+     2
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m135.D4.2-0-2.w2": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      0,
+      1
+     ],
+     2
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m135.D4.2-0-2.w3": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      0,
+      1
+     ],
+     2
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m136.D4.2-0-2.w0": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      1,
+      4
+     ],
+     2
+    ],
+    [
+     [
+      3,
+      4
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m136.D4.2-0-2.w1": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      1,
+      4
+     ],
+     2
+    ],
+    [
+     [
+      3,
+      4
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m136.D4.2-0-2.w2": {
+   "acts on Q8 as the identity": false,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      1,
+      4
+     ],
+     2
+    ],
+    [
+     [
+      3,
+      4
+     ],
+     2
+    ]
+   ],
+   "sum of n": 4
+  },
+  "m136.D4.2-0-2.w3": {
+   "acts on Q8 as the identity": true,
+   "hits at zeta_H (s, n)": [
+    [
+     [
+      0,
+      1
+     ],
+     4
+    ]
+   ],
+   "sum of n": 4
+  }
+ },
+ "Part F (the partial record and Part F')": {
+  "m003": {
+   "candidates": 42,
+   "readings": 2688,
+   "members": 106,
+   "caps R": {
+    "(2, 0)": 106
+   },
+   "caps P4": {
+    "(2, 0)": 106
+   },
+   "members with capL2 >= 2": 0,
+   "largest min(capW, capL2)": 0,
+   "routes agree": true
+  },
+  "m004": {
+   "candidates": 8,
+   "readings": 416,
+   "members": 0,
+   "caps R": {},
+   "caps P4": {},
+   "members with capL2 >= 2": 0,
+   "largest min(capW, capL2)": 0,
+   "routes agree": true
+  },
+  "m135": {
+   "candidates": 7180,
+   "readings": 234009,
+   "members": 1216,
+   "caps R": {
+    "(2, 0)": 128,
+    "(3, 0)": 128,
+    "(3, 1)": 640,
+    "(3, 2)": 256,
+    "(3, 4)": 64
+   },
+   "caps P4": {
+    "(2, 0)": 128,
+    "(3, 0)": 128,
+    "(3, 1)": 640,
+    "(3, 2)": 256,
+    "(3, 4)": 64
+   },
+   "members with capL2 >= 2": 320,
+   "largest min(capW, capL2)": 3,
+   "routes agree": true
+  },
+  "m136": {
+   "candidates": 4923,
+   "readings": 277504,
+   "members": 9024,
+   "caps R": {
+    "(2, 0)": 512,
+    "(2, 1)": 680,
+    "(2, 2)": 728,
+    "(2, 3)": 128,
+    "(2, 4)": 192,
+    "(2, 5)": 64,
+    "(2, 6)": 64,
+    "(3, 0)": 64,
+    "(3, 1)": 2496,
+    "(3, 2)": 2304,
+    "(3, 3)": 304,
+    "(3, 4)": 928,
+    "(3, 5)": 160,
+    "(3, 6)": 400
+   },
+   "caps P4": {
+    "(2, 0)": 512,
+    "(2, 1)": 680,
+    "(2, 2)": 728,
+    "(2, 3)": 128,
+    "(2, 4)": 192,
+    "(2, 5)": 64,
+    "(2, 6)": 64,
+    "(3, 0)": 64,
+    "(3, 1)": 2496,
+    "(3, 2)": 2304,
+    "(3, 3)": 304,
+    "(3, 4)": 928,
+    "(3, 5)": 160,
+    "(3, 6)": 400
+   },
+   "members with capL2 >= 2": 5272,
+   "largest min(capW, capL2)": 3,
+   "routes agree": true
+  }
+ }
+}
