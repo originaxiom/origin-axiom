@@ -1,0 +1,118 @@
+[
+ {
+  "nu": {
+   "a": 1,
+   "b": -1,
+   "t": -1
+  },
+  "J_c1_vs_c2_proportional": "0.0",
+  "cusp_words_commute": "3.93e-48",
+  "obstruction c1 alone": {
+   "first_order_residual": "1.18e-46",
+   "norm_Q": "0.0",
+   "rank_L": 43,
+   "residual": "0.0",
+   "unobstructed": true
+  },
+  "obstruction c2 alone": {
+   "first_order_residual": "140.0",
+   "norm_Q": "0.0",
+   "rank_L": 43,
+   "residual": "0.0",
+   "unobstructed": true
+  },
+  "obstruction c1 + c2": {
+   "first_order_residual": "140.0",
+   "norm_Q": "5538.76",
+   "rank_L": 43,
+   "residual": "7.15",
+   "unobstructed": false
+  },
+  "fusions": [],
+  "reference split": {
+   "I": 0,
+   "I_L2": 0,
+   "commutant_dim": 2,
+   "invariants": [
+    1,
+    1
+   ]
+  },
+  "reference W1": {
+   "I": -1,
+   "I_L2": -1,
+   "commutant_dim": 1,
+   "invariants": [
+    0,
+    1
+   ]
+  },
+  "reference W2": {
+   "I": 1,
+   "I_L2": 1,
+   "commutant_dim": 1,
+   "invariants": [
+    1,
+    0
+   ]
+  }
+ },
+ {
+  "nu": {
+   "a": -1,
+   "b": 1,
+   "t": -1
+  },
+  "J_c1_vs_c2_proportional": "0.0",
+  "cusp_words_commute": "3.93e-48",
+  "obstruction c1 alone": {
+   "first_order_residual": "1.84e-46",
+   "norm_Q": "0.0",
+   "rank_L": 43,
+   "residual": "0.0",
+   "unobstructed": true
+  },
+  "obstruction c2 alone": {
+   "first_order_residual": "480.0",
+   "norm_Q": "0.0",
+   "rank_L": 43,
+   "residual": "0.0",
+   "unobstructed": true
+  },
+  "obstruction c1 + c2": {
+   "first_order_residual": "480.0",
+   "norm_Q": "11972.9",
+   "rank_L": 43,
+   "residual": "9.76",
+   "unobstructed": false
+  },
+  "fusions": [],
+  "reference split": {
+   "I": 0,
+   "I_L2": 0,
+   "commutant_dim": 2,
+   "invariants": [
+    1,
+    1
+   ]
+  },
+  "reference W1": {
+   "I": -1,
+   "I_L2": -1,
+   "commutant_dim": 1,
+   "invariants": [
+    0,
+    1
+   ]
+  },
+  "reference W2": {
+   "I": 1,
+   "I_L2": 1,
+   "commutant_dim": 1,
+   "invariants": [
+    1,
+    0
+   ]
+  }
+ }
+]

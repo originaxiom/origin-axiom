@@ -16,7 +16,7 @@ import second_route as SR, fused as F
 import c2_reducible_index as CI
 from mpmath import mp, mpf, mpc, matrix, eye, zeros, inverse, nstr, norm
 mp.dps = 50; F.mp.mp.dps = 50
-EPS = (mpf("0.1"), mpf("0.02"))
+EPS = (mpf("0.1"), mpf("0.02"), mpf("0.005"))     # 0.005 added after the sealed run: at eps = 0.1 the seed on m136 did not converge in 40 steps
 
 
 def cxmat(P): return matrix([[SR.cx(x) for x in r] for r in P])
@@ -43,7 +43,11 @@ def run_member(Sd, nu):
             for j in range(4): M[i, j] = A[i, j]
         M[4, 4] = 1; S[g] = M
         P = zeros(5, 5); Q = zeros(5, 5)
-        for i in range(4): P[i, 4] = z1[k * n + i]; Q[4, i] = z2[k * n + i]
+        # the lower-left block is a ROW cocycle d with d(gh) = d(g) V(h) + d(h); from the column cocycle z2 of V* it is
+        # d = -(V^T z2)^T  (W2 = [[V, 0], [d, 1]] is the dual of [[V*, z2], [0, 1]]).  CORRECTED AFTER THE SEALED RUN: the sealed
+        # code used d = z2^T, which is not a cocycle; the first-order residual check in `obstruction` caught it (140, not 0).
+        d = (A.T * matrix(z2[k * n:(k + 1) * n]))
+        for i in range(4): P[i, 4] = z1[k * n + i]; Q[4, i] = -d[i]
         N1[g] = P; N2[g] = Q
     # the Lorentz form J carries c1 to a multiple of c2 (V = V* through J): a check on the two interior classes
     J = matrix([[0, mpf(1) / 2, 0, 0], [mpf(1) / 2, 0, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1]])
@@ -64,9 +68,12 @@ def run_member(Sd, nu):
         for eps in EPS:
             X = {g: (eye(5) + eps * u_mixed[g] + eps ** 2 * ob_mixed["w"][g]) * S[g] for g in gens}
             X, hist = F.gauss_newton(gens, rels, X)
+            if not hist[-1] < mpf(10) ** -40:        # a recorded outcome, not an abort (after the sealed run the guard in F.index aborted here)
+                rec = dict(eps=nstr(eps, 3), newton_residuals=[nstr(h, 3) for h in hist], converged=False)
+                out["fusions"].append(rec); print(json.dumps(dict(nu=nu, **rec)), flush=True); continue
             cd, gap = F.commutant_dim(gens, X); inv = F.invariants(gens, X)
             idx = F.index(gens, rels, cusp, X); L2 = {g: ext2_num(X[g]) for g in gens}; idx2 = F.index(gens, rels, cusp, L2)
-            rec = dict(eps=nstr(eps, 3), newton_residuals=[nstr(h, 3) for h in hist], converged=bool(hist[-1] < mpf(10) ** -40),
+            rec = dict(eps=nstr(eps, 3), newton_residuals=[nstr(h, 3) for h in hist], converged=True,
                        distance_from_S=nstr(max(norm(X[g] - S[g]) for g in gens), 6), commutant_dim=cd, commutant_gap=nstr(gap, 4) if gap else None,
                        invariant_line=inv[0], dual_invariant_line=inv[1],
                        traces=dict((w, nstr(sum(F.word(w, X)[i, i] for i in range(5)), 12)) for w in ("a", "b", "t", "ab", "abt")),

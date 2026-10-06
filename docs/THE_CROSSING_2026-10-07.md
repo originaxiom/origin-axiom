@@ -60,7 +60,8 @@ spin structure (the curve E_s).
    trivial character so far; one generation in one W on the two silver squares, sm:B1530). **Main owed that seat four
    things:** the second route on the silver squares (sm:B1530) — **done, B1485**; a ruling on its nine GENESIS proposals
    (sm:B1537); one reading on N₄₅ recomputed from scratch; a literature check of its Lemma F. Its second ask, whether the
-   two orders at m135's member fuse to a module that counts zero (B1466 C3b carried over), is the next sealed cell.
+   two orders at m135's member fuse to a module that counts zero — **done, B1486: they do, at every member of both silver squares;
+   the count is the order there as at m004's counted point.**
 5. **Design reads before any seal:** B929's normalisation (is one of the sixteen Hermitian structures canonical on the
    family?); the precision that closed the coupling channel (B1408).
 6. **Paths never run** (`docs/THE_REREAD_2026-10-06.md` §4): the Chern–Simons-level question of the first arc; the

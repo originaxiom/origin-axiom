@@ -1,0 +1,13 @@
+{"obstruction c1 alone": {"first_order_residual": "2.36e-47", "norm_Q": "0.0", "rank_L": 45, "residual": "0.0", "unobstructed": true}, "obstruction c2 alone": {"first_order_residual": "6.88e-47", "norm_Q": "0.0", "rank_L": 45, "residual": "0.0", "unobstructed": true}, "obstruction c1 + c2": {"first_order_residual": "7.28e-47", "norm_Q": "253673.0", "rank_L": 45, "residual": "2.46e-45", "unobstructed": true}}
+Traceback (most recent call last):
+  File "<repo>/frontier/B1486_the_two_orders_at_the_silver_members/verification/fused_cell.py", line 90, in <module>
+    res = [run_member(Sd, nu) for nu in Sd["members"]]
+           ^^^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1486_the_two_orders_at_the_silver_members/verification/fused_cell.py", line 72, in run_member
+    idx = F.index(gens, rels, cusp, X); L2 = {g: ext2_num(X[g]) for g in gens}; idx2 = F.index(gens, rels, cusp, L2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1486_the_two_orders_at_the_silver_members/verification/fused.py", line 170, in index
+    assert relator_residual(gens, rels, X) < mp.mpf(10) ** -25, "not a representation"   # added after the sealed run: the twin now refuses a non-representation
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: not a representation
+DONE

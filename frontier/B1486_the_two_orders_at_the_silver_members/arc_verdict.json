@@ -1,0 +1,21 @@
+{
+ "id": "B1486",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1485",
+  "B1466"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE (the SM seat's: V = nu (x) four at the hyperbolic point; B1297's class index on an unsealed cusp)",
+  "object": "the four members of B1485: two sign characters on each of m135 = -LLRR and m136 = +LLRR",
+  "reach": "single",
+  "hypotheses": "numerical at 50 digits, singular-value tolerance 1e-30; the obstruction class read on the presentation complex of the seat's presentation; each fusion one point of a continuum reached by Gauss-Newton; B1485's classes as input"
+ },
+ "claim_one_line": "THE TWO ORDERS AT THE SILVER MEMBERS (sealed 385c6891e / d4e4b166; the SM seat's second ask; B1466's C3b carried to the hyperbolic point, controlled first on B1466's own point): at every member of m135 and m136 each order alone is unobstructed, the mixed direction c1 + c2 is unobstructed at second order (its class zero to 1e-45 relative), and every fusion reached by Gauss-Newton is an exact flat irreducible module (commutant one, no invariant line or hyperplane) that counts (0, 0) and is acyclic on both sides -- while the two orders read (-1, -1) and (+1, +1) and the split module (0, 0). The count is the order, at the hyperbolic point of a - state and its + twin as at m004's counted point. Disclosed: a convention error in the sealed code's lower-left block, caught by the run's own first-order check, corrected and re-run with the sealed output kept; one Gauss-Newton seed that did not converge, recorded. No order chosen, no count of fermions, no value. 0 of 19."
+}

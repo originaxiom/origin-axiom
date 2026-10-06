@@ -162,6 +162,11 @@ def counts(gens, rels, cusp, X):
     return dict(a0=a0, a1=a1, t0=n - rBT, r1=r1, n=a1 - r1)
 
 
+def relator_residual(gens, rels, X):
+    n = X[gens[0]].rows; return max(abs(word(r, X)[i, j] - (1 if i == j else 0)) for r in rels for i in range(n) for j in range(n))
+
+
 def index(gens, rels, cusp, X):
+    assert relator_residual(gens, rels, X) < mp.mpf(10) ** -25, "not a representation"   # added after the sealed run: the twin now refuses a non-representation
     A = counts(gens, rels, cusp, X); B = counts(gens, rels, cusp, {g: inv(X[g]).T for g in gens})
     return dict(I=A["n"] - B["n"], E=A, Edual=B)

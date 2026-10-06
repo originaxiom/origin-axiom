@@ -10142,6 +10142,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1486": {
+   "slug": "the two orders at the silver members",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "L241"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [
