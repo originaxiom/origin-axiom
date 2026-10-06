@@ -186,3 +186,20 @@ at both top-level surfaces. Nothing in B82 tested the E₆/27 route, so nothing 
 **The lesson, filed:** a verdict that closes a *chapter* must name the routes it closes. An unscoped closure is
 unfalsifiable by later work — it cannot be superseded, only ignored, which is what happened.
 
+## Currency read 2026-10-07 (window B1423–B1483; written when the corpus head reached B1483)
+
+Banked-then-corrected statements of the window, each with its correcting locus. Statements that were sealed as
+predictions and failed (B1477's first form of the shear law; "a survivor exists ⟺ CS = 0"; B1480's and B1481's failed
+predictions) are not here: they were never asserted as results.
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| "the mirror genuinely swaps the geometric spin structure iff 1 ∉ η₀K", K the span of the preserving isometries' sign characters found by a bounded search — stated as a law | B1474 §3 | WITHDRAWN AS A LAW — isometries act on spin structures affinely, a span is not an orbit and a bounded search is not coverage (the audit lane's R92). The seven SWAP verdicts stand on other routes: no real odd torsion (B1476 §2b) and Theorem A (B1477) | B1474 addendum 2026-10-07 |
+| "s961: 4 of 8" (and o10_150707: 4 of 8) mirror-invariant spin structures, read as counts | B1475; B1476 C1 | SHARPENED — lower bounds from exhibited witnesses; all 8 (resp. 4) are torsion-real; the exact numbers are not on the record | B1475 addendum 2026-10-07 |
+| "Cusped manifolds whose reversing isometry fixes no cusp: ¼ is excluded" (the swap corollary) | B1239 §3 | FALSE AS STATED — the proof fills cusps in swapped pairs; a mirror can fix no cusp and still move some in an odd cycle (o10_150729: a 2-cycle and a 3-cycle, CS = ¼). True when there is no odd cusp-orbit | B1239 addendum 2026-10-06; B1477 (the orbit form) |
+| GAP6: "a flat bundle has ch = rk: no index built on it can tell 27 from 27̄ … a statement about curvature … that no flat frame carries", without hypotheses | GENESIS v1.9 (B1466) | NARROWED to its closed-bulk, characteristic-class hypotheses (v1.11, B1476; the audit lane's R89 and the web seat); v1.11's own "cannot reach continuous values" then CORRECTED to "continuous moduli" — a rigid flat point fixes numbers (v1.12, B1478; the web seat's A2) | GENESIS v1.11, v1.12 |
+| GM5b: inverse moves are "needed for the signed states" | GENESIS v1.0–v1.13 | CORRECTED — they suffice and are not needed; one central move, −I, is, and positivity (GM5d) is what excludes it | B1482; GENESIS v1.14 |
+| "'symmetric phase' occurs nowhere on main (0 of 1337 arcs)" | lead L244, 2026-10-03 | CORRECTED — lead L17, B849's seal and B853's script carry it; an absence read off a tool beyond its domain (found by the SM seat's sm:B1531) | B1467; GENESIS v1.10 |
+| "the trace map never reads κ", resting on B37's self-model test | B37 | UNSUPPORTED BY ITS TEST — the predicate cannot fire on any map written in x, y, z (the audit lane's AR3); whether the map reads κ is fork FK12's, open | B1463 |
+| "empty k-elimination ⇒ κ free ⇒ no choice" (the inference) | B130 | INFERENCE INVALID, CONCLUSION KEPT on its domain by a valid argument (the audit lane's AR4) | B1463 |
+| one sentence of B1455's addendum and GENESIS FK12 (ii) on which symmetry dualises Ballas' family | B1455 addendum; GENESIS FK12 (ii) as it stood before v1.7 | CORRECTED — P is the swap and fixes the family; the dualising symmetry is the strong inversion (sm:B1521 C1, re-derived) | B1462; GENESIS v1.7 |
