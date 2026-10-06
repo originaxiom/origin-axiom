@@ -1,0 +1,138 @@
+{
+ "C0 m010 banked identity": true,
+ "-LLRR (m135)": {
+  "relators scalar in PGL": true,
+  "cusp words commute": true,
+  "four: relators are the identity": true,
+  "four: preserves the Lorentz form": true,
+  "four: entries real": true,
+  "|det| of a, b, t": {
+   "a": [
+    "0",
+    "1/10",
+    "0",
+    "-1/10"
+   ],
+   "b": [
+    "0",
+    "1/10",
+    "0",
+    "-1/10"
+   ],
+   "t": [
+    "1/10",
+    "0",
+    "0",
+    "0"
+   ]
+  },
+  "every sign character is a character": true,
+  "members as given": [
+   {
+    "a": 1,
+    "b": -1,
+    "t": -1
+   },
+   {
+    "a": -1,
+    "b": 1,
+    "t": -1
+   }
+  ],
+  "members' values on the cusp words": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ]
+ },
+ "+LLRR (m136)": {
+  "relators scalar in PGL": true,
+  "cusp words commute": true,
+  "four: relators are the identity": true,
+  "four: preserves the Lorentz form": true,
+  "four: entries real": true,
+  "|det| of a, b, t": {
+   "a": [
+    "0",
+    "1/10",
+    "0",
+    "-1/10"
+   ],
+   "b": [
+    "0",
+    "1/10",
+    "0",
+    "-1/10"
+   ],
+   "t": [
+    "1",
+    "0",
+    "0",
+    "0"
+   ]
+  },
+  "every sign character is a character": true,
+  "members as given": [
+   {
+    "a": 1,
+    "b": -1,
+    "t": -1
+   },
+   {
+    "a": -1,
+    "b": 1,
+    "t": -1
+   }
+  ],
+  "members' values on the cusp words": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    -1
+   ]
+  ]
+ },
+ "C1 twin on m010": {
+  "instrument": {
+   "I": 1,
+   "V": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "Vdual": [
+    0,
+    2,
+    1,
+    2
+   ]
+  },
+  "twin": {
+   "I": 1,
+   "V": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "Vdual": [
+    0,
+    2,
+    1,
+    2
+   ]
+  },
+  "agree": true
+ },
+ "C2 exterior square multiplicative; nullspace exact": true,
+ "all controls pass": true
+}
