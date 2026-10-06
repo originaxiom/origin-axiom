@@ -10010,6 +10010,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1481": {
+   "slug": "the hand is a phase",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B279",
+    "L246",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [

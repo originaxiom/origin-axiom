@@ -1,5 +1,17 @@
 # Changelog
 
+## S63 THE HAND IS A PHASE (B1481; L246 Phase 2, first cell): on every amphichiral − word state to length 12 each spin structure carries a non-trivial phase of its odd torsion and its mirror partner the opposite one, on every + state at least two carry none — choosing a spin structure there is choosing a hand — and the quantisation seen on m003 is that member's, not the sign's.
+
+**The occasion.** B1480 showed the class index does not follow the sign of the word, and why: it has no spinors in it. The record's one spin-dependent, orientation-odd quantity is the odd twisted Alexander function of the lift (B1475). Sealed (`00f2306d4`, sha256 1c39c831) after running the two controls only.
+
+**B1481.** R₁^{(s)}(t) is defined up to a real unit, so its phase modulo π, θ_s(t), is an invariant of a manifold with a spin structure; a mirror negates it; a mirror-invariant spin structure has phase 0 or π/2. On the 68 amphichiral word states to length 12 (304 spin structures, no errors): **P1 — on all 34 − states no spin structure has a trivial phase (0 of 152). P2 — on all 34 the spin structures pair off with opposite phases, none self-paired. P3 — on all 34 + states at least two spin structures have a trivial phase** (two of two on 20, four of eight on 13, eight of eight on one) and the others pair off. **P4 — that the hand is quantised at t = 1 — FAILS: only m003's ±π/3 lie on the π/24 lattice, 2 of 152**; the quantisation is that member's, not the sign's, as the kill foresaw. Three instruments now agree on all 34 words: the cusp's lattice with Theorem A, the Chern–Simons class, the torsion's phase.
+
+**What it means (stated, not banked as physics).** On the − states of the generated state space, choosing a spin structure is choosing a hand, and the mirror exchanges the two choices: parity there is a map between two configurations, not a symmetry of one. No sign is selected; no count is derived; a phase is not yet an observable. Unpredicted and not claimed: the phases at t = 1 appear to carry each member's number field (sixth-turns on m003, quarter-turns on the silver word).
+
+**The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1481** (PROVED for three of four sealed predictions, the fourth failed and reported; creates T-HAND-IS-A-PHASE, a census law). Gates 43 of 43; full suite 7089 passed, 2 failed (the new arc's live control depended on the order of imports in the shared test process — now run in a fresh interpreter; and a one-commit session branch appeared on origin during the run and was outside the gate — registered as watched, pinned at its head, unverified and unintegrated), both re-run green with their neighbours, 68 skipped.
+
 ## S62 THE INDEX AGAINST THE SIGN, AND TWO FORKS RULED BY THE PRINCIPLE (B1480; GENESIS v1.13; the crossing plan's first item): at own level the count does not follow the bit — the class index fires on both signs alike — and the cell it points to is the index under the mirror's swap of spin structures; the family is ruled to be the word states, and FK4 now asks whether the principle generates the sign.
 
 **The occasion.** The crossing plan's first item, sealed (`20c22735c`, sha256 4700f7bb) before its tabulation ran: B1479 found the fermionic bit to be the sign of a word state; does the record's chirality count live where the bit is? And the owner, on two forks main had listed as the owner's: "it's not up to me, it should be up to math, to the principle of emergence".

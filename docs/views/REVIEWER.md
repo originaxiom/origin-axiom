@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1309** |
-| words of findings prose | **1,013,575** |
+| research arcs with findings | **1310** |
+| words of findings prose | **1,014,421** |
 | test lock files referenced | **764** |
-| arcs carrying an authored verdict | **1309** (100.0 %) |
+| arcs carrying an authored verdict | **1310** (100.0 %) |
 | recorded closures | **804** (637 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 879 |
+| PROVED | 880 |
 | NEGATIVE | 328 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1479`** (1124 words, 0 locks)  
-THE BIT IS THE SIGN OF THE WORD STATE (L246; sealed 646cc2b7d / ba56ca22). On all 379 primitive words to length 12 the two signs of a word have the same volume and cusp shapes differing by exactly half a longitude (P2, 379 of 379) -- the monodromy -A is A with the fibre's elliptic involution. On all 34 amphichiral words (26 of them at lengths 10 and 12, unopened before the seal) both signs are amphichiral, the + state's mirror is rectangular and its Chern-Simons class 0, the - state's mirror is rhombic and its class 1/4 (P1, 34 of 34), and the longitude's trace is -2 on every lift of every - state (P3, 34 of 34), so by B1477's Theorem A no spin structure of any amphichiral - state is fixed by any mirror. In the genesis' terms: the sign -- which GENESIS carries as an extension of the grammar (FK4 open, FK6 chosen) -- is the bit B1474-B1477 located; the place where a hand can be registered on a fermion without a continuous choice is the part of the state space the genesis does not yet generate. A census law with a named mechanism, the half-shift not proved; nothing selects a hand. With it: the web seat's four relays since its pin re-run and rowed (the non-orientable index and the firing descent identical to its logs, the listening log identical up to the printing of the class 0), and its observation that every orientable tick sits at CS = 0 explained by the same law. 0 of 19.  
-`B1479_the_bit_is_the_sign_of_the_word_state/FINDINGS.md`
+**PROVED — `B1481`** (846 words, 0 locks)  
+THE HAND IS A PHASE (L246 Phase 2, first cell; sealed 00f2306d4 / 1c39c831). The odd twisted Alexander function of a lift is defined up to a real unit, so its phase modulo pi, theta_s(t), is an invariant of a manifold with a spin structure, negated by a mirror. On all 34 amphichiral - word states to length 12 no spin structure has theta in {0, pi/2} (P1, 0 of 152) and the spin structures of each state pair off with opposite phases, none self-paired (P2, 34 of 34); on all 34 + states at least two spin structures have a trivial phase and the others pair off (P3, 34 of 34). P4 -- that the hand is quantised at t = 1 -- FAILS: only m003's phases (+-pi/3) lie on the pi/24 lattice, 2 of 152; the quantisation is that member's, not the sign's. So on the - states of the generated state space choosing a spin structure is choosing a hand and the mirror exchanges the two choices; three instruments agree on all 34 words (the cusp's lattice with Theorem A, the Chern-Simons class, the torsion's phase). No sign is selected, no count derived, and a phase is not yet a physical observable. Unpredicted and not claimed: the phases at t = 1 appear to carry each member's number field (sixth-turns on m003, quarter-turns on the silver word). 0 of 19.  
+`B1481_the_hand_is_a_phase/FINDINGS.md`
 
 **NEGATIVE — `B1480`** (998 words, 0 locks)  
 THE INDEX AGAINST THE SIGN (the crossing plan's first item; sealed 20c22735c / 4700f7bb). NEGATIVE for one hypothesis and no wider: at own level, on the word states to length 12 in the Standard-Model frame, the class index's firing is NOT carried by one sign of the word -- 375 of 379 + states and 379 of 379 - states carry a firing module, 49 and 46 a generation-shaped background; on the 34 amphichiral words both signs fire (32 and 34), with generation-shaped backgrounds on eight + states and one - state (unpredicted, recorded, not believed). Sealed predictions: Q1 (the signs differ by a factor 1.5) FAILS, Q2 (some amphichiral - state fires) HOLDS, Q3 (one sign only) FAILS. So the bit of B1479 is not a switch for the count on the family's own levels; the cell it points to, not banked: on a - state a mirror moves the spin structure by a sign character, and B1459's theorem reverses the index under such a twist -- if the two coincide the mirror exchanges spin structures of opposite count. With it, two forks ruled by the principle at the owner's word that such forks are the mathematics' to settle: GENESIS v1.13 -- FK13 RULED (the family is the generated state space, the word states), FK4 restated with its stake (the sign needs an inverse letter, -I = (L R^-1 L)^2, and is the fermionic bit: does the principle generate the sign?); and the listening-log method adopted with a sweep first and a base rate. 0 of 19.  

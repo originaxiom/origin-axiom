@@ -1,0 +1,24 @@
+{
+ "id": "B1481",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1479",
+  "B1480",
+  "B1477",
+  "B1475",
+  "B1471"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI: the phase modulo pi of the odd twisted Alexander function of an SL(2,C) lift (a spin structure)",
+  "object": "the 68 amphichiral word states to length 12 (34 words, both signs; X_gen), 304 spin structures",
+  "reach": "class",
+  "hypotheses": "H_1 of rank one on all 68; numerics (HP holonomy, phases to 1e-8); t = 2, 3, 0.6 and t = 1 where defined; a census statement, conjectural beyond length 12; no physical observable derived"
+ },
+ "claim_one_line": "THE HAND IS A PHASE (L246 Phase 2, first cell; sealed 00f2306d4 / 1c39c831). The odd twisted Alexander function of a lift is defined up to a real unit, so its phase modulo pi, theta_s(t), is an invariant of a manifold with a spin structure, negated by a mirror. On all 34 amphichiral - word states to length 12 no spin structure has theta in {0, pi/2} (P1, 0 of 152) and the spin structures of each state pair off with opposite phases, none self-paired (P2, 34 of 34); on all 34 + states at least two spin structures have a trivial phase and the others pair off (P3, 34 of 34). P4 -- that the hand is quantised at t = 1 -- FAILS: only m003's phases (+-pi/3) lie on the pi/24 lattice, 2 of 152; the quantisation is that member's, not the sign's. So on the - states of the generated state space choosing a spin structure is choosing a hand and the mirror exchanges the two choices; three instruments agree on all 34 words (the cusp's lattice with Theorem A, the Chern-Simons class, the torsion's phase). No sign is selected, no count derived, and a phase is not yet a physical observable. Unpredicted and not claimed: the phases at t = 1 appear to carry each member's number field (sixth-turns on m003, quarter-turns on the silver word). 0 of 19."
+}

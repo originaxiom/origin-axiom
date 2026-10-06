@@ -109,6 +109,12 @@ SEATS = [
     # relays are committed on the sender's branch at send time. Items = its relay files relays/CHAT1_TO_CC_*.md.
     dict(key="chat1", label="web seat (chat1)", branch="web-seat",   # the ref is <remote>/chat1/web-seat; branches resolve by last segment
          remotes=("origin",), cell=("web seat", "chat1")),
+    # ADDED 2026-10-07 (S63): a one-commit session branch that appeared on origin during S63's suite, forked from main at
+    # 036354988 -- "B1035's three receipts pinned beside its lock: it reads no ref, so any clone verifies them" (the
+    # repository's author field). Not a seat with a mandate known to main; registered so that it is watched, pinned at
+    # its head so it carries no items; whether its commit is integrated is for a verification arc or the owner's word.
+    dict(key="hypatia", label="session lane (B1035's receipts pinned; one commit)", branch="kind-hypatia-uk0vv9",
+         remotes=("origin",), cell=("session lane", "hypatia")),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
