@@ -19,6 +19,7 @@ on this page is a value.**
 | **the hand** | on every − state each spin structure carries a phase of its odd torsion that its mirror partner negates | census law to length 12; the invariance and the mirror rule proved | B1481 |
 | the hand at the boundary | the frame space of a spin structure ends, at a cusp, in a bundle of elliptic curves E_s = ℂ/ker σ_s; on a − state the two classes of spin structures give complex-conjugate curves, non-isomorphic on 32 of 34 | lemma proved; census | B1483 |
 | **the sign in the grammar** | the − states need exactly one move beyond L and R — negating both records — and no inverse letter; nothing the act does produces them; positivity, which the genesis marks as chosen, is what excludes them | proved (elementary) | B1482, GENESIS v1.14 |
+| one generation (the SM seat's frame F-HE) | at the hyperbolic point of the two silver squares m135 = −LLRR and m136 = +LLRR, at two sign characters each, the rank-five extension at the interior class reads (−1, −1) — one 10′ and one 5̄′ in one W; the only generation-shaped reading at a hyperbolic point on any lane, now read by two seats (not blind on main's side) | the seat's grade; main's second route agrees on every count | sm:B1530, B1485 |
 | beyond one cusp | o10_150729 (five cusps, CS ¼) has no mirror-invariant spin structure; on the SM seat's cover N₄₅ Theorem A excludes every mirror for 8 of 128 spin structures and some for all | computed | B1483 |
 
 **In one sentence:** on the − states of the family the principle generates, choosing a spin structure is choosing a
@@ -56,9 +57,10 @@ spin structure (the curve E_s).
 3. **The principle and the move (FK4).** A reason for or against "negating the records" as a legal move. PF1's verb,
    cancelling, is a reading, not a derivation.
 4. **Three generations** stay on the SM seat's lane (its counts on covers of m003, a − state, read no three at the
-   trivial character so far; one generation in one W on the two silver squares, sm:B1530). **Main owes that seat four
-   things, none done:** a ruling on its nine GENESIS proposals (sm:B1537), the blind second route it offered on the
-   silver squares (sm:B1530), one reading on N₄₅ recomputed from scratch, and a literature check of its Lemma F.
+   trivial character so far; one generation in one W on the two silver squares, sm:B1530). **Main owed that seat four
+   things:** the second route on the silver squares (sm:B1530) — **done, B1485**; a ruling on its nine GENESIS proposals
+   (sm:B1537); one reading on N₄₅ recomputed from scratch; a literature check of its Lemma F. Its second ask, whether the
+   two orders at m135's member fuse to a module that counts zero (B1466 C3b carried over), is the next sealed cell.
 5. **Design reads before any seal:** B929's normalisation (is one of the sixteen Hermitian structures canonical on the
    family?); the precision that closed the coupling channel (B1408).
 6. **Paths never run** (`docs/THE_REREAD_2026-10-06.md` §4): the Chern–Simons-level question of the first arc; the

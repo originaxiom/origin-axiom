@@ -10123,6 +10123,25 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1485": {
+   "slug": "the silver members by a second route",
+   "motifs": [
+    "metallic",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B622",
+    "B649"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [

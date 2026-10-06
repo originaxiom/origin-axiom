@@ -1,0 +1,250 @@
+[
+ {
+  "nu": {
+   "a": 1,
+   "b": 1,
+   "t": 1
+  },
+  "member": false,
+  "cusp": [
+   1,
+   1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 0,
+  "boundary_classes": 1
+ },
+ {
+  "nu": {
+   "a": 1,
+   "b": 1,
+   "t": -1
+  },
+  "member": false,
+  "cusp": [
+   1,
+   -1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 0,
+   "t0": 0,
+   "r1": 0,
+   "n": 0
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 0,
+   "t0": 0,
+   "r1": 0,
+   "n": 0
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 0,
+  "boundary_classes": 0
+ },
+ {
+  "nu": {
+   "a": 1,
+   "b": -1,
+   "t": 1
+  },
+  "member": false,
+  "cusp": [
+   1,
+   1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 0,
+  "boundary_classes": 1
+ },
+ {
+  "nu": {
+   "a": 1,
+   "b": -1,
+   "t": -1
+  },
+  "member": true,
+  "cusp": [
+   1,
+   -1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 0,
+   "r1": 0,
+   "n": 1
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 0,
+   "r1": 0,
+   "n": 1
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 1,
+  "boundary_classes": 0
+ },
+ {
+  "nu": {
+   "a": -1,
+   "b": 1,
+   "t": 1
+  },
+  "member": false,
+  "cusp": [
+   1,
+   1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 0,
+  "boundary_classes": 1
+ },
+ {
+  "nu": {
+   "a": -1,
+   "b": 1,
+   "t": -1
+  },
+  "member": true,
+  "cusp": [
+   1,
+   -1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 0,
+   "r1": 0,
+   "n": 1
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 0,
+   "r1": 0,
+   "n": 1
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 1,
+  "boundary_classes": 0
+ },
+ {
+  "nu": {
+   "a": -1,
+   "b": -1,
+   "t": 1
+  },
+  "member": false,
+  "cusp": [
+   1,
+   1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 1,
+   "t0": 1,
+   "r1": 1,
+   "n": 0
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 0,
+  "boundary_classes": 1
+ },
+ {
+  "nu": {
+   "a": -1,
+   "b": -1,
+   "t": -1
+  },
+  "member": false,
+  "cusp": [
+   1,
+   -1
+  ],
+  "V": {
+   "a0": 0,
+   "a1": 0,
+   "t0": 0,
+   "r1": 0,
+   "n": 0
+  },
+  "Vdual": {
+   "a0": 0,
+   "a1": 0,
+   "t0": 0,
+   "r1": 0,
+   "n": 0
+  },
+  "I_V": 0,
+  "identity_ok": true,
+  "twin_agrees": true,
+  "interior_classes": 0,
+  "boundary_classes": 0
+ }
+]

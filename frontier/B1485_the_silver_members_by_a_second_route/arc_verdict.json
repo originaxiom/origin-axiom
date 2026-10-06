@@ -1,0 +1,22 @@
+{
+ "id": "B1485",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1418",
+  "B1297",
+  "B1483"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE (the SM seat's: V = nu (x) four, W1 = [[V, c], [0, 1]], B1297's class index on an unsealed cusp)",
+  "object": "m135 = -LLRR and m136 = +LLRR, their eight sign characters each (the seat's members_for_main.json)",
+  "reach": "single",
+  "hypotheses": "the seat's presentations are pi_1(m135) and pi_1(m136) (its statement; relators, cusp words and the four checked here); K = Q(zeta_8) with sqrt 2 positive at the standard embedding; the twin at 50 digits, tolerance 1e-30; not blind (the seat's readings had been read)"
+ },
+ "claim_one_line": "THE SILVER MEMBERS BY A SECOND ROUTE (sealed bbd511521 / 2c1986b4; the SM seat's ask of 2026-10-03): the seat's sm:B1530 reading -- one generation in one W at the hyperbolic point of the silver squares -- read again by main's banked class-index instrument (B1418, exact over Q(zeta_8)) with a floating-point twin and code sharing nothing with the seat's but the input file. All five sealed predictions hold: on each of m135 and m136 exactly the seat's two sign characters carry an interior class; at it the rank-five extension reads (I(W1), I(Lambda^2 W1)) = (-1, -1) on all four members; m135's boundary-type classes read (0, -1); instrument and twin agree on all 26 readings and the index identity holds in each. VERIFIED as a second route by independent code, NOT blind (main had read the seat's readings; disclosed). Not a count of fermions: one generation, an index on an unsealed cusp, mirror-even, not a vacuum -- the seat's fences repeated. 0 of 19."
+}

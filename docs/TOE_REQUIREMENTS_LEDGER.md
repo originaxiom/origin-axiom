@@ -89,3 +89,40 @@ two of the six B1321 found over 61 911).
 **So m004 fails requirement 1's count while carrying the value nine manifolds in ten carry.** This addendum
 adds the frame; **it changes no verdict and strikes nothing.** Certificate:
 `outside_bench/certificates/require_and_test_cell3.py`. Gate 5 untouched; nothing promotes to `CLAIMS.md`.
+
+## Currency note — 2026-10-07, through B1484 (the object is the family; where rows 2 and 3 stand; one wall re-scoped)
+
+**No row's grade improves to "derived", and row 3 stays 0 of 19.** What changed is the scope of three sentences on
+this page and the state of two rows.
+
+- **§B, "this object specifically", describes one member.** m004 with its three faces is the *root*. Since GENESIS
+  v1.11 (B1476) and v1.13 (B1480) the object is the family of word states the grammar generates, and a statement
+  computed on m004 is m004's (gate `member-scope`). Rows of §C that say "the object counts 2" are about the root and
+  its fixed loci.
+- **Row 2, chirality — a seat is located on the family; nothing is counted.** On every amphichiral − word state to
+  length 12 no spin structure survives any mirror (Theorem A, proved, B1477; the census of B1479); each spin structure
+  carries a phase of its odd torsion that its mirror partner negates (B1481); and at the cusp the two classes of spin
+  structures put complex-conjugate elliptic curves, isomorphic only when the cusp lattice is hexagonal or square
+  (B1483 and its addendum). The record's class index has no spinors in it and does not follow that bit (B1480).
+  **Which hand, a net chiral spectrum, anomaly cancellation doing work: not derived.** The − states are what
+  positivity, a rule the genesis marks as chosen, removes (B1482).
+- **§D's first wall is re-scoped.** "The object is too symmetric for a mirror-odd invariant to survive" (B1227) is a
+  theorem about invariants of an amphichiral manifold *alone*. It stands, on m004 and on every amphichiral member. It
+  does not apply to an invariant of a manifold *with a spin structure* when no mirror fixes that spin structure — and
+  that is exactly the − states: there θ_s is mirror-odd and non-zero on all 152 spin structures read (B1481). The wall
+  is passed by a structure the record already carried (the SL(2,ℂ) lift), on members m004 is not one of.
+- **Row 3, values — one crossing diagnosed, none made.** If the couplings meet, (1/α₂ − 1/α₃)/(1/α₁ − 1/α₂) is 0.7172
+  measured, 0.5275 for the empty desert that B915 assumed, 5/7 with the Higgs doublets light and the colour triplets
+  heavy, and ½ for any complete multiplets, the closing of rows 1 and 7 included; no flat abelian line splits the
+  triplet from the doublet on any state (B1484). 5/7 is the classical supersymmetric result — reproduced, not
+  predicted. What the record would have to add is a derivation of the split.
+- **Row 1, three generations** stays on the SM seat's lane, in its frame F-HE: one generation in one W on the two
+  silver squares (sm:B1530; a second route by main's instrument: B1485), room for three on seven cyclic covers of m003
+  (sm:B1540), no three read (sm:B1532–B1545). In that frame a three needs at least 3 − b0 cusps on which the character is
+  trivial and the class vanishes (sm:B1545, the seat's proof, followed on the page on main and not re-derived).
+- **Rows 2 and 3 wait on one object** (lead L250): a frame in which matter is counted by an index rather than kept by
+  invariance. Row 7's P9 is weakened twice: its closing cannot hold the observed chirality (B1340) and gives the ratio
+  ½ (B1484).
+
+Order of work: `docs/THE_CROSSING_2026-10-07.md`. Per-requirement detail: `docs/SM_SPECIFICATION_LEDGER.md`, note of
+2026-10-07.
