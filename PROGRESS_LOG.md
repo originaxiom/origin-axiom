@@ -17820,3 +17820,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - The run reads the generic class of each family (Z1, Z2 and ten Z1 + K0(S)) and the ten eigen-lines, in two routes.
 - sm:B1538's regeneration: Part L regenerated (108 rows); the sealed partial Part F record came out byte for byte; Part F′ is
   running on three workers.
+
+## 2026-10-06 — B1546 banked: the low-rank classes of N₄₅ (NEGATIVE, run as sealed)
+
+- Every class of N₄₅ where three could still live at the trivial character was read, family by family, in two routes. None
+  goes below I(W) = −1, so the golden cover carries no three there, at any class.
+- Proposition L: those classes are a symmetric 4 × 4 matrix's rank locus (squares and sums of two squares).
+- Lemma M's Massey term reads 0 everywhere, and the floor holds on all of them.
+- Next: sm:B1538's Part F′ (running), then its bank against the 2026-10-04 read-out's recorded aggregates; then the members of
+  N₄₅ and other covers.

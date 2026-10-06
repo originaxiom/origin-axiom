@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**831 recorded closures — of which 664 are CLASSIFIED by mechanism and
+**832 recorded closures — of which 665 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -114,6 +114,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `the-ten-side-stays-at-the-floor (I(W) = -b0 + rk delta1_W - D with D = rk d1(W*) - k; at the room-3 covers' interior classes rk delta1_W = 0 and D = 0, so I(W) = -1 while I(L2W) = -3; D <= rk delta1_W at every reading, i.e. I(W) >= -b0, sm:B1543's floor, observed at all 6,756 banked readings and not proved)` | 1 |  |
 | `the-floor-holds-on-the-cup-kernel (Lemma F: I(W) >= k - m - 1 at every class, k the cusps where the class is non-zero, so a deficit below -1 needs vanishing cusps; on K0, where the cup map gives nothing, the boundary image r1(W) stays 1 to 6 below Lemma F's ceiling 3m - k, so the secondary invariant at the cusps never exceeds dim(<c_T> ∩ Lambda(rho)) and I(W) >= -1)` | 1 |  |
 | `too-few-trivial-cusps (three needs 3 - b0 cusps where the character is trivial and the class vanishes; on these covers a member over a puncture character is trivial on at most two)` | 1 |  |
+| `the-low-rank-classes-sit-on-the-floor (Lemma M: at an interior class of the low-rank space, I(W) = -1 - mu with mu the rank of a Massey-type boundary term; mu = 0 at every class read, so the cup map's own rank r is matched by the dual rank s and I(W) = -1, two short of three; the square-plus-stratum classes read s = 3 against the 6 three would need)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
@@ -645,7 +646,7 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B774` |  | `other` |
 | `B791` |  | `other` |
 
-## How far each closure reaches (41 carry a scope tag)
+## How far each closure reaches (42 carry a scope tag)
 
 A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
 where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
@@ -657,7 +658,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `F-AP` |  | 3 | 3 |
 | `F-CI` | 1 |  |  |
 | `F-FC` | 2 | 6 | 8 |
-| `F-HE` | 7 | 11 |  |
+| `F-HE` | 7 | 12 |  |
 
 | arc | frame | reach | object | read with |
 |---|---|---|---|---|
@@ -702,3 +703,4 @@ without a tag (790) predate the tag; read their object from their own text.
 | `B1542` | `F-HE` | class | the four degree-60 covers of m003 with room 3 and 4 at their trivial characters: the generic classes of every cusp stra… |  |
 | `B1544` | `F-HE` | class | N_45 and the four degree-60 covers of m003 at the trivial character: the cup map's kernel K0, every closed support's st… |  |
 | `B1545` | `F-HE` | class | sm:B1538's four room-3 covers of the silver pair, every member and class |  |
+| `B1546` | `F-HE` | class | N_45 at the trivial character, every class of cup rank one or two (with sm:B1544, every class) |  |

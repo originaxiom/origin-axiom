@@ -23,10 +23,10 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1293** |
-| words of findings prose | **1,131,500** |
-| test lock files referenced | **792** |
+| words of findings prose | **1,132,989** |
+| test lock files referenced | **793** |
 | arcs carrying an authored verdict | **1293** (100.0 %) |
-| recorded closures | **831** (664 classified, 167 routed-only) |
+| recorded closures | **832** (665 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -37,8 +37,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 859 |
-| NEGATIVE | 333 |
-| OPEN | 90 |
+| NEGATIVE | 334 |
+| OPEN | 89 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 101 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 102 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class c of sm:B1515's frame has I(W1) >= k - m_A - b0, m_A the cusps where nu is trivial, k those where c is non-zero, b0 = [nu^4 = 1]; from the identity I = -b0 + h0(dN; W1*) - r1(W1), h0(T; W1*) = 2, 1, 0 on cusps where nu, nu^4, neither is trivial, and r1(W1) <= 3m_A + m_B - k. So three, in either order, needs 3 - b0 cusps where nu is trivial and the class vanishes, and a member non-trivial on every cusp counts at most one generation. Corollary G: on sm:B1538's four room-3 covers of the silver pair (four cusps of two punctures each), a character whose fourth power is a puncture character is trivial on at most two cusps (the punctures' values are constant on cusps and multiply to 1), so no member there carries three, at any class, in either order. The ingredients checked by own code at every member reading on sm:B1538's covers with three or more cusps (route R), and the puncture structure at every character of order dividing 24 on the four covers. 0 of 19.  
 `B1545_the_floor_at_every_member/FINDINGS.md`
 
-**NEGATIVE — `B1544`** (2309 words, 1 locks)  
-THE FLOOR AT THE CUP KERNEL (NEGATIVE, run as sealed; read out once 2026-10-06 18:30:59Z). Lemma F, proved at design time: at the trivial character on a finite cover with m cusps, every class c of H^1(N; rho) has I(W) >= k - m - 1, k the number of cusps where c is non-zero; so sm:B1543's floor I(W) >= -1 is a theorem wherever c is non-zero on every cusp, and I(W) = -g needs c to vanish on g - 1 cusps. With Theorem C (ii) (Corollary F'), three needs a + rk delta1_W <= n(1) - 2 and k <= m - 2; on the four degree-60 covers that leaves three only in the cup map's kernel K0 (Proposition D). The run read the generic class of K0(S) for every closed support S on N_45 and the four covers, in two routes: P1-P4 True, P5-P6 False (4 of 6, 3.68 expected). The floor holds on all of K0 on the five covers (least I(W): 0 on N_45, -1 on the degree-60 covers, at the interior). N_45's K0 reads (0, 0) at every stratum; d10.13's and d10.36's covers (-1, -3) at the interior and (0, -3) at the three supports where three could live and at the full support; d10.16's and d10.40's (-1, -3) and (1, -1). So the four degree-60 covers carry no three at the trivial character, at any class. After the seal (not used): all four mirror classes of m003 lift to N_45, each lift rhombic at the one cusp it fixes; none lifts to the degree-60 covers. 0 of 19.  
-`B1544_the_floor_at_the_cup_kernel/FINDINGS.md`
+**NEGATIVE — `B1546`** (2263 words, 1 locks)  
+THE LOW-RANK CLASSES (NEGATIVE, run as sealed; read out once 2026-10-06 21:05:27Z). On N_45 at the trivial character three (I(W) = -3) could live only at classes of cup rank one or two (Corollary F' with sm:B1544). Proposition L (proved at design time, exact mod p in two routes at two primes): the interior classes of cup rank <= 2 are the classes c of a 10-dimensional space Kc0 in the deck grading whose symmetric 4 x 4 matrix S(c) has rank <= 2, S a linear isomorphism onto the symmetric matrices with rk delta1_W(c) = rk S(c); the classes of cup rank one are the squares S(c) = l l^T, and the ten eigen-lines are S's unit matrices. So every class of N_45 that could read three lies in twelve families (the squares, their sums, and a square plus K0(S) for each three-cusp set S), each decided by its generic class (Lemma G'''). Read in two routes, 132 readings, all agreeing: the squares (-1, -9), their sums (-1, -10), every square-plus-K0(S) family (0, -7), the eigen-lines (-1, -9) and (-1, -8). No class of N_45 reads I(W) = -3 at the trivial character: the golden cover carries no three in this frame there. Lemma M: at an interior class of Kc0, I(W) = -1 - mu with mu >= 0 a Massey-type boundary rank; the run reads mu = 0 everywhere, so I(W) = -1 exactly at every interior class of cup rank one or two (Corollary L''). 6 of 8 predictions, against 5.13 expected. 0 of 19.  
+`B1546_the_low_rank_classes/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

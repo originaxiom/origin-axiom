@@ -1,4 +1,4 @@
-"""B1546 -- THE LOW-RANK CLASSES: the seal's lock (sealed; no count at a class of cup rank one or two read).
+"""B1546 -- THE LOW-RANK CLASSES: the lock (banked NEGATIVE, run as sealed; read out once 2026-10-06 21:05:27Z).
 
   - seal integrity: every file of ARTIFACT_HASHES.txt hashes as sealed, and SEAL_LEDGER carries the preregistration's digest;
   - the controls K1-K7 recorded in controls.json all hold: the structure in both routes is the sealed one (Proposition L's
@@ -6,7 +6,10 @@
     strata of K0), and the banked counts are reproduced;
   - the read-out's logic on synthetic rows (read_out.py and run.py import nothing heavy at import);
   - the sealed population: 22 subspaces, 66 tasks, 132 readings;
-  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed.
+  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed;
+  - the banked read-out, re-derived in memory from the gzipped record (its sha-256s checked): NEGATIVE, every family's generic
+    class at I(W) >= -1, the Massey rank 0 at every interior subspace;
+  - the verdict and its records (THEOREM_REGISTRY, the kill graph, FINDINGS).
 Nothing here writes a tracked file."""
 import hashlib
 import importlib.util
@@ -90,7 +93,44 @@ def test_the_load_bearing_record():
     assert [e["id"] for e in v["load_bearing"]] == [f"LB{i}" for i in range(1, 8)]
 
 
-def test_the_verdict_is_open_until_the_bank():
+def test_the_banked_read_out():
+    import gzip
+    raw = gzip.decompress((V / "run.jsonl.gz").read_bytes())
+    sha = dict(reversed(line.split()) for line in (V / "run_sha256.txt").read_text().splitlines() if line.strip())
+    assert hashlib.sha256(raw).hexdigest() == sha["run.jsonl"]
+    assert hashlib.sha256((V / "run.jsonl.gz").read_bytes()).hexdigest() == sha["run.jsonl.gz"]
+    rows = [json.loads(x) for x in raw.decode().splitlines() if x.strip()]
+    assert len(rows) == 132
+    RO = _load("b1546_read_out_bank", V / "read_out.py")
+    run = _load("b1546_run_bank", V / "run.py")
+    res = RO.evaluate(rows, run.tasks(), run.SUBSPACES, run.TAU, say=lambda s: None)
+    res["verdict"] = RO.verdict(res)
+    rec = json.loads((V / "read_out.json").read_text())
+    assert res["predictions"] == rec["predictions"] == {"P1": True, "P2": True, "P3": True, "P4": True, "P5": True,
+                                                        "P6": False, "P7": False, "P8": True}
+    assert res["verdict"] == rec["verdict"] == "NEGATIVE" and res["complete"] is True
+    fams = res["the generic families' counts (read alike in both routes)"]
+    assert fams["Z1"] == [-1, -9] and fams["Z2"] == [-1, -10]
+    assert all(c == [0, -7] for s, c in fams.items() if s.startswith("X:")) and len(fams) == 12
+    assert res["the least I(W) over the generic families"] == -1
+    assert set(res["the Massey rank mu = -1 - I(W) at the interior subspaces"].values()) == {0}
+    counts = res["the counts by subspace (route F; route R)"]
+    for x in ("u1", "u2", "u3", "u4", "w1", "w2", "w3", "w4"):
+        assert counts[x] == {"F": [[-1, -9]], "R": [[-1, -9]]}
+    assert counts["va"] == counts["vb"] == {"F": [[-1, -8]], "R": [[-1, -8]]}
+    for r in rows:
+        x = r["reading"]
+        if r["route"] == "R" and not x["support"]:
+            assert x["rk d1"]["E"] == x["rk d1"]["E*"] == x["rk delta1_W"]          # s = r: Lemma M's mu = 0
+
+
+def test_the_verdict_and_its_records():
     v = json.loads((ARC / "arc_verdict.json").read_text())
-    assert v["id"] == "B1546" and v["verdict"] == "OPEN"
-    assert "FINDINGS.md" in {p.name for p in ARC.iterdir()}
+    assert v["id"] == "B1546" and v["verdict"] == "NEGATIVE" and v["creates_law"] is True and v["instrument"] is False
+    reg = (ROOT / "docs" / "THEOREM_REGISTRY.md").read_text()
+    assert "| T-THE-LOW-RANK-CLASSES |" in reg and "| T-THE-MASSEY-TERM |" in reg and "| B1546 |" in reg
+    kills = json.loads((ROOT / "frontier" / "B738_pathfinder_compiler" / "kill_graph.json").read_text())
+    k = [x for x in kills if x.get("id") == "B1546"]
+    assert len(k) == 1 and k[0]["kill_form"].startswith("the-low-rank-classes-sit-on-the-floor") and k[0]["fact_computed"] is True
+    f = (ARC / "FINDINGS.md").read_text()
+    assert "cc (the SM-derivation seat), 2026-10-06." in f and "## Seen first" in f and "0 of 19" in f

@@ -12012,5 +12012,30 @@
     "the room census (room 3 only on these four covers within sm:B1538's Part F' scope) is sm:B1538's read-out of 2026-10-04, records being regenerated"
    ]
   }
+ },
+ {
+  "id": "B1546",
+  "claim_killed": "THE LOW-RANK CLASSES (after sm:B1544 section 10): that a class of sm:B1541's N_45 of cup rank one or two -- the last place three could live there at the trivial character after Corollary F' and sm:B1544's read-out of the cup map's kernel -- reads three, I(W) = -3. Proposition L (exact mod p in two routes) maps those classes: the interior classes of cup rank <= 2 are the classes c of a 10-dimensional Kc0 whose symmetric 4 x 4 matrix S(c) has rank <= 2, so they form the squares S(c) = l l^T and their sums, and with the K0 translates every candidate lies in twelve families decided by their generic classes. Sealed at cc48131a and run as sealed; the record committed unread; read out once. Both routes agree at all 132 readings: the squares (-1, -9), their sums (-1, -10), every square plus a three-cusp stratum of K0 (0, -7), the ten eigen-lines (-1, -9) and (-1, -8). No class of N_45 reads I(W) = -3 at the trivial character.",
+  "kill_form": "the-low-rank-classes-sit-on-the-floor (Lemma M: at an interior class of the low-rank space, I(W) = -1 - mu with mu the rank of a Massey-type boundary term; mu = 0 at every class read, so the cup map's own rank r is matched by the dual rank s and I(W) = -1, two short of three; the square-plus-stratum classes read s = 3 against the 6 three would need)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Other characters nu of N_45 (sm:B1545: three at a member needs 3 - b0 cusps where nu is trivial); interior classes of cup rank exactly 3 on N_45, the only place I(W) = -2 is not excluded there; other covers, where the low-rank loci may be larger or the line leads by two (sm:B1543); sm:B1538's puncture-character members, its records being regenerated.",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-06 at banking time, with content: a NEGATIVE read as sealed, its population complete for its question by Proposition L.",
+  "note": "ENTERED 2026-10-06 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: frontier/B1546_the_low_rank_classes/verification/prop_l.py (Proposition L, both routes), run.py (the sealed run, record run.jsonl.gz with run_sha256.txt) and read_out.py (the sealed read-out, once).",
+  "routed_from": "sm-branch-2026-10-06-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "N_45 at the trivial character, every class of cup rank one or two (with sm:B1544, every class)",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point and the trivial character of N_45",
+    "each family's least I(W) read at its generic class (Lemma G'''), three draws per route at two primes"
+   ]
+  }
  }
 ]

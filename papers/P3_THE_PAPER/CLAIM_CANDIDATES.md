@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1190 settled arcs — 70%** —
+the field is **absent on 828 of 1191 settled arcs — 70%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (117) ∪ on-a-synthesis-surface ∪ law-vocabulary (128) = 618 arcs.**
+**POOL = declared-law (118) ∪ on-a-synthesis-surface ∪ law-vocabulary (128) = 619 arcs.**
 The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.77** on the corpus's own law vocabulary against
-**1.2** for the rest — **2.3×**. The criterion
+**2.75** on the corpus's own law vocabulary against
+**1.2** for the rest — **2.29×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -532,7 +532,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1518` | PROVED | S | | THE BAR (OPEN_LEADS sL-9 item 1, GENESIS GAP4): a positive on a generated state is graded by a card (frame, feature, population, unit, how the state was chosen), the base… |
 | `B1524` | PROVED | S | | THE BAR'S NULL CONTRACT (not sealed; the audit lane's request at 24c039c8): the bar's p now has a stated law. Under the census's own law (carriers placed exchangeably in … |
 
-## UNASSIGNED — needs an editorial call (128)
+## UNASSIGNED — needs an editorial call (129)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -542,6 +542,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B996` | NEGATIVE | L | | THE GRAMMAR-LEVEL CONTROL: ACCESS TO THE McKAY GROUP IS GENERIC ACROSS THE METALLIC FAMILY. P0: a census of GRAMMARS (metallic words R^m L^m and their mod-N shadows in SL… |
 | `B1111` | PROVED | L | | THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census … |
 | `B1304` | PROVED | L | | THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is … |
+| `B1546` | NEGATIVE | L | | THE LOW-RANK CLASSES (NEGATIVE, run as sealed; read out once 2026-10-06 21:05:27Z). On N_45 at the trivial character three (I(W) = -3) could live only at classes of cup r… |
 | `B875` | PROVED | V | | The solo seat's TRIALITY-TILING THEOREM verified on this seat's fully independent build, three legs in one reproducer: (1) skeleton at 30 digits -- kernels (46,46,46) at … |
 | `B48` | PROVED | S | | The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backe… |
 | `B71` | PROVED | S | | Fix(T1^2) on the eight SL(3) fiber traces is exactly the SL(3) figure-eight character variety: three components, each of dimension 2.… |

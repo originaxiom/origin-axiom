@@ -4116,6 +4116,14 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
        above is closed there.
      - The ingredients were checked by own code at member readings on sm:B1538's covers with three or more cusps (route R).
        The room census Corollary G closes waits on sm:B1538's regenerated records.
+   - **The low-rank classes: sm:B1546 banked (2026-10-06), NEGATIVE as sealed, with Proposition L.**
+     - **Proposition L:** on N₄₅ the interior classes of cup rank at most two are the classes c of a ten-dimensional space
+       whose symmetric 4 × 4 matrix S(c) has rank at most two, with rk δ¹_W(c) = rk S(c). The classes of cup rank one are the
+       squares S(c) = ℓℓᵀ.
+     - **Read at every family where three could live** (the squares, their sums, a square plus a three-cusp stratum of K0),
+       in two routes: nothing below I(W) = −1. The Massey term μ of Lemma M is 0 everywhere read.
+     - **So N₄₅ carries no three at the trivial character, at any class.** The open item for N₄₅ above is closed there.
+     - Open on N₄₅: interior classes of cup rank exactly 3 (the only place I(W) = −2 is not excluded); its other characters.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

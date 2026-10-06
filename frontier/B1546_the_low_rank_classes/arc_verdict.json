@@ -1,6 +1,6 @@
 {
  "id": "B1546",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1544",
@@ -14,21 +14,22 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
  "identifications": [],
  "scope": {
   "frame": "F-HE",
-  "object": "N_45 (sm:B1541) at the trivial character: every class of H^1(N; rho) of cup rank one or two -- the last place three can live there after sm:B1544 (Corollary F') -- mapped by Proposition L (the interior classes of cup rank <= 2 are the classes c of the 10-dimensional Kc0 with S(c) symmetric of rank <= 2) and read at the generic classes of the families Z1 (squares), Z2 (rank <= 2) and Z1 + K0(S) for the ten three-cusp sets S, plus the ten eigen-lines of Kc0, in two routes (22 subspaces, 66 tasks, 132 readings)",
+  "object": "N_45 (sm:B1541) at the trivial character: every class of H^1(N; rho) of cup rank one or two, the last place three could live there after sm:B1544 (Corollary F'). Proposition L maps them: the interior classes of cup rank <= 2 are the classes c of the 10-dimensional Kc0 whose symmetric 4 x 4 matrix S(c) has rank <= 2 (rk delta1_W = rk S). Read at the generic classes of the twelve families -- Z1 (squares), Z2 (rank <= 2), and Z1 + K0(S) for the ten three-cusp sets S -- which decide each family's least I(W) (Lemma G'''), and at the ten eigen-lines, three draws per route in route F and route R (22 subspaces, 132 readings)",
   "reach": "class",
   "hypotheses": [
-   "sealed: no count at a class of cup rank one or two has been read; this record is replaced at the bank",
+   "run as sealed (cc48131a) and read out once on 2026-10-06 at 21:05:27Z on complete records (66 of 66 tasks, 132 readings); the banked identity held before the run",
    "at the hyperbolic point and the trivial character of N_45 only",
-   "the least I(W) on each family is decided by its generic class (Lemma G'''), each read with three draws per route at two primes; special classes of a family can only read a larger I(W)",
-   "the Lambda^2 count at special classes of a family whose generic class reads I(W) = -3 is not covered (the seal's section 10)",
+   "each family's least I(W) is read at its generic class (Lemma G'''), three draws per route at two primes; special classes of a family read no smaller I(W)",
+   "N_45 carries no class with I(W) = -3 at the trivial character by Proposition L, Corollary F', sm:B1544's banked read-out of the cup map's kernel and this read-out together",
+   "interior classes of cup rank exactly 3 (where I(W) = -2 is not excluded), other characters and other covers are not covered (FINDINGS sections 4 and 5)",
    "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question"
   ]
  },
- "claim_one_line": "THE LOW-RANK CLASSES, SEALED. On N_45 at the trivial character, three (I(W) = -3) can live only at classes of cup rank one or two (Corollary F' with sm:B1544). Proposition L (proved at design time, exact mod p in two routes): the interior classes of cup rank <= 2 are the classes c of a 10-dimensional space Kc0 in the deck grading whose symmetric 4 x 4 matrix S(c) has rank <= 2, S a linear isomorphism of Kc0 onto the symmetric matrices with rk delta1_W(c) = rk S(c); so the classes of cup rank one are the squares S(c) = l l^T. So every class reading I(W) = -3 lies in Z1 (the squares), Z2 (rank <= 2) or one of ten families Z1 + K0(S); generic classes decide each (Lemma G'''). Lemma M: at an interior class of Kc0, I(W) = -1 - mu with mu >= 0 a Massey-type boundary rank; three there needs mu = 2. The run reads three generic classes of each family and the ten eigen-lines in route F and route R: 22 subspaces, 66 tasks, 132 readings. Controls K1-K7 hold. Predictions P1-P8 (P5 the floor 40%, P7 three 5%); PROVED if a subspace reads (-3, -3) in two routes; NEGATIVE if every family's generic class reads I(W) >= -2, and then N_45 carries no three at the trivial character. No count at a class of cup rank one or two read. 0 of 19.",
+ "claim_one_line": "THE LOW-RANK CLASSES (NEGATIVE, run as sealed; read out once 2026-10-06 21:05:27Z). On N_45 at the trivial character three (I(W) = -3) could live only at classes of cup rank one or two (Corollary F' with sm:B1544). Proposition L (proved at design time, exact mod p in two routes at two primes): the interior classes of cup rank <= 2 are the classes c of a 10-dimensional space Kc0 in the deck grading whose symmetric 4 x 4 matrix S(c) has rank <= 2, S a linear isomorphism onto the symmetric matrices with rk delta1_W(c) = rk S(c); the classes of cup rank one are the squares S(c) = l l^T, and the ten eigen-lines are S's unit matrices. So every class of N_45 that could read three lies in twelve families (the squares, their sums, and a square plus K0(S) for each three-cusp set S), each decided by its generic class (Lemma G'''). Read in two routes, 132 readings, all agreeing: the squares (-1, -9), their sums (-1, -10), every square-plus-K0(S) family (0, -7), the eigen-lines (-1, -9) and (-1, -8). No class of N_45 reads I(W) = -3 at the trivial character: the golden cover carries no three in this frame there. Lemma M: at an interior class of Kc0, I(W) = -1 - mu with mu >= 0 a Massey-type boundary rank; the run reads mu = 0 everywhere, so I(W) = -1 exactly at every interior class of cup rank one or two (Corollary L''). 6 of 8 predictions, against 5.13 expected. 0 of 19.",
  "prior_work": {
   "repo": {
    "heads": {

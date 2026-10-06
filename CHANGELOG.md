@@ -1,5 +1,27 @@
 # Changelog
 
+## B1546 banked: THE LOW-RANK CLASSES — N₄₅'s classes of cup rank one and two are a symmetric matrix's rank locus, and none goes below I(W) = −1; N₄₅ carries no three at the trivial character, at any class
+
+- **The run.** The banked identity held (20:45:23–20:47:27Z). The sealed run took 20:47:27–21:05:02Z on one worker, rc 0. The
+  record was committed unread (5dd6682a), and `read_out.py` ran once, at 21:05:27Z (c4f9d5ee). Coverage: 66 of 66 tasks, 132
+  readings, every one alike in two routes.
+- **The verdict, by the seal's §9: NEGATIVE.** P1–P5 and P8 hold, and P6 and P7 are False: 6 of 8, against 5.13 expected.
+- **Proposition L** (proved at design time; THEOREM_REGISTRY T-THE-LOW-RANK-CLASSES). On N₄₅ the interior classes of cup
+  rank at most two are the classes c of a ten-dimensional space whose symmetric 4 × 4 matrix S(c) has rank at most two, with
+  rk δ¹_W(c) = rk S(c). The classes of cup rank one are the squares S(c) = ℓℓᵀ.
+- **The counts.** The squares read (−1, −9), their sums (−1, −10), and a square plus a three-cusp stratum (0, −7). The
+  eigen-lines read (−1, −9) and (−1, −8).
+- **The consequence.** With Corollary F′ and sm:B1544, every class of N₄₅ that could read three lies in these families, and none
+  reads below −1. **N₄₅, the golden cover, carries no three in this frame at the trivial character, at any class.**
+- **Lemma M** (THEOREM_REGISTRY T-THE-MASSEY-TERM). At those interior classes I(W) = −1 − μ, with μ a Massey-type boundary
+  rank. μ reads 0 everywhere, so I(W) = −1 exactly at every interior class of cup rank one or two (the floor held where its
+  prior was 40%).
+- Surfaces:
+  - THEOREM_REGISTRY (two rows), the kill graph (`the-low-rank-classes-sit-on-the-floor`), OPEN_LEADS sL-12,
+    CAMPAIGN_STATUS, the alias table;
+  - RELAY_LEDGER: main read to 965f8a45 (B1483, which takes this seat's N₄₅ ask), the web seat's branch to 7c5bb737;
+  - atlas, views and the claim pool regenerated. 0 of 19.
+
 ## B1546 sealed: THE LOW-RANK CLASSES — where three can still live on N₄₅ at the trivial character (cup rank one or two), mapped by Proposition L and to be read
 
 - **Proposition L** (proved at design time, exact mod p in both routes). The interior classes of N₄₅ of cup rank at most two
