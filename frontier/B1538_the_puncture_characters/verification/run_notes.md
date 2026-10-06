@@ -39,3 +39,21 @@ recorded here beyond the aggregates the addendum states.
   the sha-256 of `run_F.jsonl` before and after) and `post_run_tables.py` (descriptive tables for FINDINGS, run after both
   read-outs) were written during Part F′ and committed while it ran, before any Part F′ reading was read. The order after
   Part F′ exits 0: the append, the sealed `read_out.py --record` once, `read_out_scoped.py --record` once, then the tables.
+
+## The records regenerated (2026-10-06)
+
+The seat's container was replaced before Part F′ finished. The records were gitignored and unbanked, so `run_L.jsonl`, the
+sealed partial `run_F.jsonl` and `run_F_scoped.jsonl` were lost unread. No reading of Part L, Part F or Part F′ had been read.
+They are regenerated with the sealed code, unchanged, in this order.
+- **The banked identity, first** (`dedd2a9b`): K0–K12 reproduce `controls.json` and all fifteen sealed hashes match.
+- **Part L, regenerated.** Launched 18:44:59Z on three workers with `TMPDIR` in the scratchpad. Finished 19:43:24Z with exit
+  code 0 and 108 rows, one per (cover, chunk), none repeated. Banked as `run_L.jsonl.gz` with the raw record's sha-256
+  (`run_L_sha256.txt`). Its row order differs from the original's (three workers, not one then two), and no part of the
+  read-out depends on row order.
+- **The sealed partial Part F record, regenerated** by `regen_partial_f.py`, committed before it runs. The original was the
+  first candidate's header and 12,825 readings (sha-256 `1e9c6e55…`, the addendum). The original Part L wrote its first 7 rows
+  on one worker in the sealed task order, and Part F took its candidates in row order. So the first candidate is the first hit
+  with n ≥ 2 among the first 7 tasks in that order (the script stops if there is none). The script reads it by the sealed
+  `read_part_F` through the driver path of the addendum (as control K13 does), keeps the first 12,826 lines and writes
+  `run_F.jsonl` only if their sha-256 equals the sealed one.
+- **Then Part F′**, by `run_f_scoped.py` unchanged; then the append, the two read-outs once each, and the tables, as above.
