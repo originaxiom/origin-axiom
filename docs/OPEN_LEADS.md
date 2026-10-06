@@ -4089,6 +4089,12 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
      - **The floor (observed, not proved).** I(W) ≥ −b0 at all 6,756 banked readings that carry the count, including 2,828 where
        Theorem C (ii) allows less. If it is a theorem, the frame's W count is at most one generation at every class, and (a)–(d)
        cannot reach three in this frame. Proving it or breaking it comes first.
+   - **The count at the Eisenstein order: sm:B1542 banked (2026-10-06), NEGATIVE scoped.** On the four degree-60 covers no
+     generic class of a cusp stratum or a deck eigenspace is generation-shaped. On the room-3 covers I(Λ²W) = −3 at every such
+     class (the 5̄′ side has its three), while I(W) ≥ −1: the 10̄′ side stays at the floor. Route F agrees at 192 of 192
+     readings.
+     - Open: special classes (D > rk δ¹_W would break the floor); the conjugate deck structures (d10.14's and d10.38's); the
+       covers' own characters, including the golden lift, which needs the floor to fail at a member with b0 = 0.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

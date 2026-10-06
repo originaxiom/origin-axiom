@@ -1,5 +1,27 @@
 # Changelog
 
+## B1542 banked: THE COUNT AT THE EISENSTEIN ORDER — no generic class of the four degree-60 covers with room 3 and 4 is generation-shaped; the room-3 covers carry I(Λ²W) = −3 everywhere and I(W) ≥ −1 (NEGATIVE, scoped; run as sealed), confirmed by an independent route
+
+- **The run.** The banked identity held (582a555f). The run started at 12:46Z on four workers. The container's memory limit
+  killed two workers; their two tasks were lost with no row, and run.py's own resume read them with the sealed seeds. The record
+  was committed unread (22fdcb2e), and `read_out.py` ran once, at 16:01:27Z (d006130d): 556 of 556 tasks, 1,664 readings.
+- **The verdict, by the seal's §9: NEGATIVE, scoped.** P1, P2, P3 and P6 hold; P4 and P5 are False; 4 of 6 against 4.14 expected.
+- **The counts.**
+  - d10.13's and d10.36's covers ((3, 3), room 3): I(Λ²W) = −3 at every stratum and eigenspace class, the bottom of Theorem C
+    (i)'s range. I(W) is −1 at the interior and most strata with few free cusps, and 0, 1 or 2 elsewhere.
+  - d10.16's and d10.40's covers ((3, 7), room 4): (0, −5) to (3, −4) on the strata; (±1, −3) and (±1, −2) on the eigenspaces.
+  - The class pulled back from m003: (1, 0) on all four.
+- **Why** (FINDINGS §4). I(W) = −b0 + rk δ¹_W − D, with D the dual term. At the room-3 covers' interior classes the cup map is
+  zero (Corollary C′ allows −4), but D is zero too, so I(W) = −1. At every reading D ≤ rk δ¹_W: sm:B1543's floor.
+- **Route F, the independent audit.** Separate code on a second presentation at three other primes returns the run's count at all
+  192 of its readings, all non-zero, and K2's structure at every prime.
+- **The prediction registered before the read-out held:** no (−3, −3).
+- Disclosed: the OOM kills and the resume; the correction ERROR_LEDGER owed (the seal's reason for dropping the conjugate-pieces
+  sentence was wrong; the sentence was true).
+- Surfaces: SEAL_LEDGER verdict row, the kill graph (with its hatch: a class breaking the floor, the conjugate deck structures,
+  the golden lift), OPEN_LEADS sL-12, CAMPAIGN_STATUS, the alias table, PROGRESS_LOG; atlas, views and the claim pool
+  regenerated. 0 of 19.
+
 ## The `creates_law` re-audit merged (seat/determined-hopper-t1cmii at 7cda35aa): the fourteen corrections reviewed and kept
 
 - **Merged** at the owner's request. The branch was built on this branch's dda82524; it carries the re-audit of B1304–B1513

@@ -11935,5 +11935,31 @@
     "other characters of N_45 and other covers not covered"
    ]
   }
+ },
+ {
+  "id": "B1542",
+  "claim_killed": "THE COUNT AT THE EISENSTEIN ORDER (sL-12 item 1, after sm:B1541): that on one of the four degree-60 covers of m003 with room for three (the 6-fold cyclic covers of d10.13, d10.16, d10.36 and d10.40 along m003's order-6 fibre-direction character; (n(1), n(rho)) = (3, 3) or (3, 7), room 3 or 4), a generic class of H^1(N; rho) in a cusp stratum or a deck eigenspace, or the class pulled back from m003, carries a generation-shaped count of sm:B1515's frame at the trivial character. Sealed at d4a65495 and run as sealed (two tasks lost to the container's memory limit read by run.py's own resume with the sealed seeds; the record committed unread). Route N and route R agree at every class, one count per subspace, every identity holding. No class read is generation-shaped: on the room-3 covers I(L2W) = -3 at every stratum and eigenspace class while I(W) is -1 to 2; on the room-4 covers (0, -5) to (3, -4) and (+-1, -3), (+-1, -2); the pulled-back class (1, 0). Route F, an independent audit (separate code, a second presentation, three other primes), returns the run's count at all 192 of its readings.",
+  "kill_form": "the-ten-side-stays-at-the-floor (I(W) = -b0 + rk delta1_W - D with D = rk d1(W*) - k; at the room-3 covers' interior classes rk delta1_W = 0 and D = 0, so I(W) = -1 while I(L2W) = -3; D <= rk delta1_W at every reading, i.e. I(W) >= -b0, sm:B1543's floor, observed at all 6,756 banked readings and not proved)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Special classes where D exceeds rk delta1_W by two (a class breaking sm:B1543's floor), if any exists; the conjugate deck structures of the same covers (d10.14's and d10.38's eigenspaces are other subspaces of the same H^1); the covers' other characters, with the golden lift (a class reading (1, -3) here and (-1, 0) at the four golden members of a 5-fold cover would count (-3, -3) there, but needs I(W) < -b0 at a member with b0 = 0); covers where the line leads (sm:B1543). Off the hyperbolic point; other frames.",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-10-06 at banking time, with content: a NEGATIVE read as sealed, its population in its scope (B1207's A3, held by tests/test_negatives_read_together.py).",
+  "note": "ENTERED 2026-10-06 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1542_the_count_at_the_eisenstein_order/verification/ncyc.py through run.py (the sealed run, record run.jsonl.gz with run_sha256.txt), read_out.py (the sealed read-out, once) and export_f.py through audit_f.py (the independent audit, with sm:B1541's route_f.py); locked by tests/test_b1542_the_count_at_the_eisenstein_order.py.",
+  "routed_from": "sm-branch-2026-10-06-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "the four degree-60 covers of m003 with room 3 and 4 at their trivial characters: the generic classes of every cusp stratum and every non-zero deck eigenspace with its interior part, and the class pulled back from m003",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point and the trivial character of each cover only",
+    "generic classes of the subspaces read; special classes and other subspaces not covered",
+    "other characters of these covers and other covers not covered"
+   ]
+  }
  }
 ]

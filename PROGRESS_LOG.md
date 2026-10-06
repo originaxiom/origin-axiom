@@ -17756,3 +17756,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - The merged converse gate caught this branch's own recurrence (B1530, B1532, B1534, B1535, B1536, banked after the re-audit's
   date): four set true with dated notes, B1536 kept false with its review; T-GOLDEN-CHOICE's two unescaped pipes escaped.
   Gates pass. The claim pool declares 115 laws. The fast lane runs on the merge commit.
+
+## 2026-10-06 — B1542 banked: the count at the Eisenstein order (NEGATIVE, scoped), with an independent audit
+
+- Read out once (16:01:27Z): no generic class of the four degree-60 covers is generation-shaped. On the room-3 covers
+  I(Λ²W) = −3 at every stratum and eigenspace class while I(W) stays at −1 or above; the pulled-back class reads (1, 0).
+- Route F agrees at 192 of 192 readings before the bank. The run lost two tasks to the container's memory limit; the sealed
+  resume read them (disclosed).
+- What it points at: the 10̄′ side. At every banked reading of the frame I(W) ≥ −b0 (sm:B1543's floor). Next: prove or break
+  the floor.

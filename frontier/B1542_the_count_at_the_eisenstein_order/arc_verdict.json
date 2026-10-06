@@ -1,6 +1,6 @@
 {
  "id": "B1542",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1541",
@@ -22,14 +22,15 @@
   "object": "the four degree-60 covers of m003 with room 3 and 4 (sm:B1540): the 6-fold cyclic covers of m003's degree-10 covers d10.13, d10.16, d10.36 and d10.40 along the order-6 character psi = ((0, 0), 1/6) of m003 (the fibre direction), one from each conjugacy class; at the trivial character, the classes of H^1(N; rho) (dimension 9 or 11) in every cusp stratum and every non-zero eigenspace of the deck group with its interior part, three generic draws each, and the class pulled back from m003",
   "reach": "class",
   "hypotheses": [
-   "sealed: no count on a degree-60 cover has been read; this record is replaced at the bank",
+   "run as sealed (d4a65495) and read out once on 2026-10-06 at 16:01:27Z on complete records (556 of 556 tasks); two tasks lost to the container's memory limit were read by run.py's own resume with the sealed seeds (FINDINGS section 1)",
    "at the hyperbolic point and the trivial character of each cover only",
+   "the counts are re-derived by route F (separate code, a second presentation, three other primes) at 192 readings in every kind of subspace read, before the bank",
    "generic classes of the subspaces read; the special classes inside each subspace (where the count can jump) and other subspaces are not covered",
    "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question",
    "other characters of these covers, other covers with room for three, and the golden order (sm:B1541's N_45) are not covered (the seal's section 10)"
   ]
  },
- "claim_one_line": "THE COUNT AT THE EISENSTEIN ORDER, SEALED: on the four degree-60 covers of m003 with room 3 and 4 (sm:B1540; the 6-fold cyclic covers of d10.13, d10.16, d10.36 and d10.40 along m003's order-6 fibre-direction character, one per conjugacy class; (n(1), n(rho)) = (3, 3) or (3, 7) at the trivial character), which counts (I(W), I(L2W)) does the frame give at the classes of H^1(N; rho) (dimension 9 = 5 + 4 or 11 = 5 + 2 + 2 + 2 over the deck group's eigenspaces)? Read at three generic draws in every cusp stratum and every non-zero eigenspace with its interior part, in route N (Shapiro on m003, p_N) and route R (the cover's presentation: the same class transported at p_N, and its own classes at p_R), and at the class pulled back from m003: 556 tasks, 1,664 readings. Controls K1-K7 hold, K7 identifying the state's group with the census manifold m003 (the owner's rule of 2026-10-06, first application: seven load-bearing inputs, each re-derived by own code). Predictions P1-P6 with priors (P4 generation-shaped 25%, P5 three 8%); PROVED if a class reads (-3, -3) in two routes at the same class; NEGATIVE (scoped to the generic classes read) if none is generation-shaped. No count read. 0 of 19.",
+ "claim_one_line": "THE COUNT AT THE EISENSTEIN ORDER: on the four degree-60 covers of m003 with room 3 and 4 (the 6-fold cyclic covers of d10.13, d10.16, d10.36 and d10.40 along m003's order-6 fibre-direction character; (n(1), n(rho)) = (3, 3) or (3, 7)), no generic class of any cusp stratum or deck eigenspace read at the trivial character carries a generation-shaped count of sm:B1515's frame (NEGATIVE, scoped, run as sealed; read out once 2026-10-06 16:01Z). P1, P2, P3, P6 hold; P4 and P5 False (4 of 6, 4.14 expected). On the room-3 covers I(L2W) = -3 at every stratum and eigenspace class, the bottom of Theorem C (i)'s range, while I(W) is -1 on the interior and most strata with few free cusps and 0 to 2 elsewhere; on the room-4 covers (0, -5) to (3, -4) on the strata and (+-1, -3), (+-1, -2) on the eigenspaces; the pulled-back class reads (1, 0) on all four. The record's connecting ranks: at the room-3 covers' interior classes the cup map delta1_W is zero (C' allows -4) and the dual term is zero too, so I(W) = -1; I(W) >= -b0 at every reading (sm:B1543's floor, observed). Route F, the independent audit, returns the run's count at all 192 of its readings, all non-zero. The prediction registered before the read-out (no (-3, -3)) held. 0 of 19.",
  "prior_work": {
   "repo": {
    "heads": {
@@ -155,6 +156,14 @@
    "status": "VERIFIED",
    "check": "frontier/B1542_the_count_at_the_eisenstein_order/verification/controls.py",
    "how": "K4: the generalized library rebuilds sm:B1541's N_45 and reproduces its banked K2 and K4 values; K5: sm:B1536's banked Part O readings at d10.4 reproduced in both routes with its own seeds"
+  },
+  {
+   "id": "LB8",
+   "input": "the counts themselves (the verdict rests on them): the run's routes N and R share the sealed library's code paths",
+   "source": "this arc's run (routes N and R)",
+   "status": "VERIFIED",
+   "check": "frontier/B1542_the_count_at_the_eisenstein_order/verification/audit_f.py",
+   "how": "route F (sm:B1541's route_f.py: numpy and the standard library only, no Shapiro map, a second presentation <a, t | ttATAAATA> on the lifted 2-complex) reads each cover's structure as K2 at three other primes and the counts in 7 or 9 subspaces per cover (a stratum, the interior, all cusps, zeta^0 and zeta^3 with their interior parts, zeta^2 on the room-4 covers), two draws per prime: 192 of 192 equal to the run's, all non-zero"
   }
  ]
 }

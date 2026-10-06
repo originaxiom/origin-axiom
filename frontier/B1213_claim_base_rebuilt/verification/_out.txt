@@ -1,4 +1,4 @@
-settled arcs: 1187   declared true: 115   declared false: 244   ABSENT: 828 (70%)
+settled arcs: 1188   declared true: 115   declared false: 245   ABSENT: 828 (70%)
 control: declared-law mean 2.81 vs rest 1.20 = 2.33x
 control PASSES -- the criterion discriminates, so it is not noise
 

@@ -1,12 +1,15 @@
-"""B1542 -- THE COUNT AT THE EISENSTEIN ORDER: the seal's lock (sealed; no count read).
+"""B1542 -- THE COUNT AT THE EISENSTEIN ORDER: the lock (banked NEGATIVE, scoped; run as sealed, read out once on 2026-10-06).
 
   - seal integrity: every file of ARTIFACT_HASHES.txt hashes as sealed, and SEAL_LEDGER carries the preregistration's digest;
   - the controls K1-K7 recorded in controls.json all hold, with K1's supplies ((3, 3) or (3, 7)), K2's dimensions in both
     routes, K3's transport, K4's N_45 values and K7's identification of the state's group with m003;
-  - the read-out's logic on synthetic rows (read_out.evaluate is pure: nothing here imports ncyc, controls or run, which load
-    sm:B1536's route_r and reset PARI's stack);
+  - the read-out's logic on synthetic rows (read_out.evaluate is pure: nothing here imports ncyc or controls, which load
+    sm:B1536's route_r and reset PARI's stack; run.py is loaded only for its task list, which loads nothing heavy);
   - the sealed population: 556 tasks, 1,664 readings;
-  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed.
+  - the record is the run (run.jsonl.gz against run_sha256.txt, every task with exactly its readings) and the read-out
+    reproduces from it, as banked: P1, P2, P3, P6 True, P4, P5 False, verdict NEGATIVE, the counts by subspace;
+  - route F, the independent audit: its record agrees with the run at all 192 readings and with K2 at every prime;
+  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed, LB1-LB8.
 Nothing here writes a tracked file."""
 import hashlib
 import importlib.util
@@ -112,10 +115,78 @@ def test_the_load_bearing_record():
     lb = _load("b1542_load_bearing_lock", ROOT / "scripts" / "checks" / "load_bearing.py")
     v = json.loads((ARC / "arc_verdict.json").read_text())
     assert lb.validate(v["load_bearing"], v["scope"]) == []
-    assert [e["id"] for e in v["load_bearing"]] == [f"LB{i}" for i in range(1, 8)]
+    assert [e["id"] for e in v["load_bearing"]] == [f"LB{i}" for i in range(1, 9)]
 
 
-def test_the_verdict_is_open_until_the_bank():
+def _run():
+    return _load("b1542_run_tasks_lock", V / "run.py")
+
+
+PRED = {"P1": True, "P2": True, "P3": True, "P4": False, "P5": False, "P6": True}
+
+
+def test_the_record_is_the_run():
+    import gzip
+    from collections import Counter
+    sha = dict(reversed(line.split()) for line in (V / "run_sha256.txt").read_text().splitlines() if line.strip())
+    raw = gzip.open(V / "run.jsonl.gz", "rb").read()
+    assert hashlib.sha256((V / "run.jsonl.gz").read_bytes()).hexdigest() == sha["run.jsonl.gz"]
+    assert hashlib.sha256(raw).hexdigest() == sha["run.jsonl"]
+    rows = [json.loads(x) for x in raw.decode().splitlines() if x.strip()]
+    assert len(rows) == 1664
+    per = Counter((r["cover"], r["part"], r["subspace"], r["draw"]) for r in rows)
+    sealed = _run().tasks()
+    assert len(sealed) == 556 and set(per) == set(sealed)
+    assert all(per[t] == (2 if t[1] == "C" else 3) for t in sealed)
+
+
+def test_the_read_out_as_banked():
+    ro = json.loads((V / "read_out.json").read_text())
+    assert ro["predictions"] == PRED and ro["verdict"] == "NEGATIVE" and ro["complete"] is True
+    assert ro["tasks"] == ro["tasks read in full"] == 556
+    assert ro["generation-shaped classes"] == [] and ro["three-generation classes"] == []
+    assert ro["the pulled-back class"] == {cid: {"N": [1, 0], "R": [1, 0]} for cid in SIX + FOUR}
+    by = ro["the counts by subspace (route N; route R's own)"]
+    for cid in SIX:
+        assert by[f"{cid} A S="] == [[-1, -3]] and by[f"{cid} A S=0,1,2,3,4,5"] == [[2, -3]]
+        assert by[f"{cid} B j=0"] == [[1, -3]] and by[f"{cid} B j=3"] == [[2, -3]]
+        assert by[f"{cid} B j=0 interior"] == by[f"{cid} B j=3 interior"] == [[-1, -3]]
+        assert all(v[0][1] == -3 for k, v in by.items() if k.startswith(cid + " "))
+    for cid in FOUR:
+        assert by[f"{cid} A S="] == [[0, -5]] and by[f"{cid} A S=0,1,2,3"] == [[3, -4]]
+        assert by[f"{cid} B j=0"] == [[1, -3]] and by[f"{cid} B j=3 interior"] == [[-1, -2]]
+        assert by[f"{cid} B j=2"] == by[f"{cid} B j=4"] == by[f"{cid} B j=3"] == [[1, -2]]
+    assert all(len(v) == 1 and not (v[0][0] == v[0][1] != 0) for v in by.values())
+
+
+def test_the_read_out_reproduces_from_the_record():
+    import gzip
+    RO = _load("b1542_read_out_reproduce", V / "read_out.py")
+    rows = [json.loads(x) for x in gzip.open(V / "run.jsonl.gz", "rt").read().splitlines() if x.strip()]
+    res = RO.evaluate(rows, _run().tasks(), say=lambda s: None)
+    assert res["predictions"] == PRED and RO.verdict(res["predictions"]) == "NEGATIVE"
+    ro = json.loads((V / "read_out.json").read_text())
+    assert res["the counts by subspace (route N; route R's own)"] == ro["the counts by subspace (route N; route R's own)"]
+
+
+def test_the_audit_agrees():
+    a = json.loads((V / "audit_f.json").read_text())
+    assert a["agrees"] is True and a["structure agrees"] is True and a["disagreements"] == []
+    assert len(a["readings"]) == 192 and all(r["agrees"] for r in a["readings"])
+    assert a["positive control: non-zero counts returned exactly"] == 192
+    assert set(a["covers"]) == set(SIX + FOUR)
+    for c in a["covers"].values():
+        assert len(c["primes"]) == 3 and all(int(p) % 120 == 1 for p in c["primes"])
+        assert all(st["as K2"] is True for st in c["primes"].values())
+    src = (V / "audit_f.py").read_text()
+    for banned in ("cypari", "flint", "route_r", "route_n", "ncyc"):
+        assert f"import {banned}" not in src, banned
+
+
+def test_the_verdict_as_banked():
     v = json.loads((ARC / "arc_verdict.json").read_text())
-    assert v["id"] == "B1542" and v["verdict"] == "OPEN"
-    assert "FINDINGS.md" in {p.name for p in ARC.iterdir()}
+    assert v["id"] == "B1542" and v["verdict"] == "NEGATIVE"
+    f = (ARC / "FINDINGS.md").read_text()
+    assert "## Seen first" in f and "192 readings" in f and "4.14" in f
+    term = bytes([98, 114, 97, 118, 101]).decode()  # the owner's private term, kept out of the source text
+    assert term not in f.lower() and term not in v["claim_one_line"].lower()

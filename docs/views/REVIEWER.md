@@ -23,10 +23,10 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1290** |
-| words of findings prose | **1,124,986** |
-| test lock files referenced | **789** |
+| words of findings prose | **1,126,415** |
+| test lock files referenced | **790** |
 | arcs carrying an authored verdict | **1290** (100.0 %) |
-| recorded closures | **828** (661 classified, 167 routed-only) |
+| recorded closures | **829** (662 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -37,8 +37,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 858 |
-| NEGATIVE | 331 |
-| OPEN | 90 |
+| NEGATIVE | 332 |
+| OPEN | 89 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 98 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 99 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE LINE MUST LEAD: in sm:B1515's frame, sm:B1535's Theorem C (ii) gives exactly I(W1) >= rk delta1_W - b0 - n(nu^4), delta1_W: H^1(N; L) -> H^2(N; V) the cup map y -> c u y (Corollary C'), so a count (-g, -g) needs rk delta1_W <= b0 + n(nu^4) - g; since rk delta1_W <= min(h^1(N; L), n(nu (x) rho)), three at a class of maximal rank needs n(nu^3 (x) rho) >= 3 and n(nu (x) rho) <= b0 + n(nu^4) - 3, at the trivial character 3 <= n(rho) <= n(1) - 2 (Corollary C''). On a cyclic cover the deck group grades the cup map, so an eigenspace's classes have the graded bound B_j = sum_m min(h^1(c^m), n(c^(j+m) rho)). C' holds at every banked reading that carries the rank (sm:B1541's 380, sm:B1536's 3,160, sm:B1542's 1,664 after its read-out). On N_45 the cup map is injective (rank 9) at every generic stratum class, so I(W) >= 4 there; its eigenspaces' generic classes reach only 8 and 4 against a graded bound of 9, so whether generic classes reach the bound is read, not assumed. None of the 117 cyclic covers the banked rows fix meets 3 <= n(rho) <= n(1) - 2 (n(1) <= 4), all read again directly in two routes and by integer homology; of their 585 deck eigenspaces the graded criterion holds only at 16 empty ones. Observed, not proved: I(W) >= -b0 at all 6,756 banked readings that carry the count, including 2,828 where Theorem C (ii) would allow less (equivalently, the boundary image of H^1(N; W) never exceeds W*'s boundary invariants); if it is a theorem, the frame's W count is at most one generation at every class. Three can live at classes of low cup rank, on covers where the line leads (puncture characters), at members with n(nu (x) rho) = 0 and a cusp where nu is trivial, or by the golden lift. 0 of 19.  
 `B1543_the_line_must_lead/FINDINGS.md`
 
-**NEGATIVE — `B1541`** (2472 words, 1 locks)  
-THE COUNT ON THE ROOM: on N_45, the degree-45 cover of m003 where room for three first appears ((n(1), n(rho)) = (4, 18), room 5), no generic class of the 42 subspaces read carries a generation-shaped count of the frame (NEGATIVE, scoped, run as sealed; read out once 2026-10-06 12:42Z after the run was repeated from the start, its first record lost unread with the seat's container). P1, P2, P3, P6 hold (the transport agrees at every class; one count per subspace across draws, routes and primes; every identity; the pulled-back class (0, 0)); P4 and P5 False. The generic counts: cusp strata (4, -10) for at most two free cusps, (5, -7), (5, -6), (5, -5) for three, four, five; the deck group's eigenspaces zeta^0 (0, -5), interior (-1, -10), zeta^1..4 (5, -5), interiors (3, -10). Route F, the independent audit (separate code, a second presentation, three other primes), returns the run's count at all 54 of its readings, all non-zero. n(L2W*) = n(rho) = 18 at every class read. 4 of 6 predictions held (4.12 expected). 0 of 19.  
-`B1541_the_count_on_the_room/FINDINGS.md`
+**NEGATIVE — `B1542`** (2198 words, 1 locks)  
+THE COUNT AT THE EISENSTEIN ORDER: on the four degree-60 covers of m003 with room 3 and 4 (the 6-fold cyclic covers of d10.13, d10.16, d10.36 and d10.40 along m003's order-6 fibre-direction character; (n(1), n(rho)) = (3, 3) or (3, 7)), no generic class of any cusp stratum or deck eigenspace read at the trivial character carries a generation-shaped count of sm:B1515's frame (NEGATIVE, scoped, run as sealed; read out once 2026-10-06 16:01Z). P1, P2, P3, P6 hold; P4 and P5 False (4 of 6, 4.14 expected). On the room-3 covers I(L2W) = -3 at every stratum and eigenspace class, the bottom of Theorem C (i)'s range, while I(W) is -1 on the interior and most strata with few free cusps and 0 to 2 elsewhere; on the room-4 covers (0, -5) to (3, -4) on the strata and (+-1, -3), (+-1, -2) on the eigenspaces; the pulled-back class reads (1, 0) on all four. The record's connecting ranks: at the room-3 covers' interior classes the cup map delta1_W is zero (C' allows -4) and the dual term is zero too, so I(W) = -1; I(W) >= -b0 at every reading (sm:B1543's floor, observed). Route F, the independent audit, returns the run's count at all 192 of its readings, all non-zero. The prediction registered before the read-out (no (-3, -3)) held. 0 of 19.  
+`B1542_the_count_at_the_eisenstein_order/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
