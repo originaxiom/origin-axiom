@@ -17765,3 +17765,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   resume read them (disclosed).
 - What it points at: the 10̄′ side. At every banked reading of the frame I(W) ≥ −b0 (sm:B1543's floor). Next: prove or break
   the floor.
+
+## 2026-10-06 — the fast lane on the merge (9ff457d6), and main read to 03635498
+
+- **The owner's item 4.** The fast lane (`-m "not slow"`, a separate worktree at the merge commit 9ff457d6, 56 minutes):
+  6 857 passed, 53 skipped, 8 failed.
+- **The five updated locks pass:** `test_findings_verdict_and_hygiene` of B1509, B1510, B1511, B1512 and B1513.
+- **The eight failures fail the same way on the merge's first parent** (e453deb4, the tree before the merge; each re-run
+  there, 2026-10-06 17:30Z). None reads a file the merge changed.
+  - B1137's aggregate test: its result grids are gitignored, a fresh-clone artefact, as the owner said.
+  - B1062's block logs, B1063's window log and B646's archive: fresh-clone artefacts of the same kind (gitignored logs).
+  - B511's d3 lock, B565's lift convention and B616's lock: numerical locks fixed on main after this branch forked, cited
+    and not ported, as in every lane since 2026-09-26.
+  - B1035's receipts: environmental. The lock reads B775's audit branch, which is no longer on the remote.
+- The relay-debt gate's test and B887's lock, failures in the lanes of late September, are not among them.
+- **main read to 03635498** (S60 f7d15807: the web seat's branch harvested, B1478, GENESIS v1.12; B1479 sealed). Its relay
+  of the day to the audit lane and this seat (B1477's results) asks this seat for one table: the type of each cusp under each
+  lifted mirror on N₄₅ and the four degree-60 covers. Queued (RELAY_LEDGER). 0 of 19.
