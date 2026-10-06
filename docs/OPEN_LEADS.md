@@ -4095,6 +4095,18 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
      readings.
      - Open: special classes (D > rk δ¹_W would break the floor); the conjugate deck structures (d10.14's and d10.38's); the
        covers' own characters, including the golden lift, which needs the floor to fail at a member with b0 = 0.
+   - **The floor at the cup kernel: sm:B1544 banked (2026-10-06), NEGATIVE as sealed, with Lemma F proved.**
+     - **Lemma F:** at the trivial character, I(W) ≥ k − m − 1 at every class (m cusps, k of them where the class is non-zero).
+       So the floor is a theorem wherever the class is non-zero on every cusp, and three needs a class vanishing on two cusps.
+       With Theorem C (ii): a + rk δ¹_W ≤ n(1) − 2 and k ≤ m − 2 (Corollary F′).
+     - **Read on every stratum of the cup map's kernel K0** (which decides K0, Lemma G″), in two routes. The floor holds on all
+       of K0 on N₄₅ and the four degree-60 covers. N₄₅'s K0 reads (0, 0) throughout; the room-3 covers' three supports where
+       three could live read (0, −3).
+     - **So the four degree-60 covers carry no three at the trivial character, at any class** (with Proposition D). Item (c)
+       above is closed on them.
+     - Open: N₄₅'s classes outside K0 with rk δ¹_W ∈ {1, 2} and support on at most three cusps; members other than the trivial
+       character (Lemma F's argument splits the cusps by whether ν is trivial there: three at a member needs such cusps); and
+       sm:B1538's room-three members, once its records are regenerated.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

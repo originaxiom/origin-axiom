@@ -1,4 +1,4 @@
-"""B1544 -- THE FLOOR AT THE CUP KERNEL: the seal's lock (sealed; no count at a non-interior class of K0 read).
+"""B1544 -- THE FLOOR AT THE CUP KERNEL: the lock (banked NEGATIVE as sealed; Lemma F proved at design time).
 
   - seal integrity: every file of ARTIFACT_HASHES.txt hashes as sealed, and SEAL_LEDGER carries the preregistration's digest;
   - the controls K1-K6 recorded in controls.json all hold: the structure in both routes equals the sealed run.STRUCTURE (the
@@ -6,7 +6,9 @@
     ingredients at a generic and an interior class;
   - the read-out's logic on synthetic rows (read_out.py and run.py import nothing heavy: neither loads floor_lib at import);
   - the sealed population: 30 subspaces, 90 tasks, 180 readings;
-  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed.
+  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed;
+  - the banked read-out: the record hashes as banked, read_out.evaluate re-derives the predictions and counts from it in
+    memory, and the verdict, registry row and kill entry are in place.
 Nothing here writes a tracked file."""
 import hashlib
 import importlib.util
@@ -95,7 +97,45 @@ def test_the_load_bearing_record():
     assert [e["id"] for e in v["load_bearing"]] == [f"LB{i}" for i in range(1, 8)]
 
 
-def test_the_verdict_is_open_until_the_bank():
+def test_the_banked_read_out():
+    import gzip
+    raw = gzip.decompress((V / "run.jsonl.gz").read_bytes())
+    sha = dict(reversed(line.split()) for line in (V / "run_sha256.txt").read_text().splitlines() if line.strip())
+    assert hashlib.sha256(raw).hexdigest() == sha["run.jsonl"]
+    assert hashlib.sha256((V / "run.jsonl.gz").read_bytes()).hexdigest() == sha["run.jsonl.gz"]
+    rows = [json.loads(x) for x in raw.decode().splitlines() if x.strip()]
+    assert len(rows) == 180
+    RO = _load("b1544_read_out_bank", V / "read_out.py")
+    run = _load("b1544_run_bank", V / "run.py")
+    taus = {cid: {int(a): int(b) for a, b in st["tau"].items()} for cid, st in run.STRUCTURE.items()}
+    res = RO.evaluate(rows, run.tasks(), taus, say=lambda s: None)
+    rec = json.loads((V / "read_out.json").read_text())
+    assert res["predictions"] == rec["predictions"] == {"P1": True, "P2": True, "P3": True, "P4": True, "P5": False,
+                                                        "P6": False}
+    assert RO.verdict(res["predictions"]) == rec["verdict"] == "NEGATIVE" and res["complete"] is True
+    counts = res["the counts by subspace (route F; route R)"]
+    for key, c in counts.items():
+        cid, sub = key.split(" ", 1)
+        S = RO.parse_s(sub)
+        if cid == "N45":
+            want = [0, 0]
+        elif not S:
+            want = [-1, -3]
+        else:
+            want = [0, -3] if cid in ("d10.13", "d10.36") else [1, -1]
+        assert c == {"F": [want], "R": [want]}, (key, c)
+    least = res["the least I(W) on K0, by cover [I(W), subspace] (subspaces read alike in both routes)"]
+    assert {cid: v[0] for cid, v in least.items()} == {"N45": 0, "d10.13": -1, "d10.16": -1, "d10.36": -1, "d10.40": -1}
+    assert all(r["a class with I(W) = -3"] is False and r["complete"] for r in res["the room-3 covers"].values())
+
+
+def test_the_verdict_and_its_records():
     v = json.loads((ARC / "arc_verdict.json").read_text())
-    assert v["id"] == "B1544" and v["verdict"] == "OPEN"
-    assert "FINDINGS.md" in {p.name for p in ARC.iterdir()}
+    assert v["id"] == "B1544" and v["verdict"] == "NEGATIVE" and v["creates_law"] is True and v["instrument"] is False
+    reg = (ROOT / "docs" / "THEOREM_REGISTRY.md").read_text()
+    assert "| T-THE-VANISHING-CUSPS |" in reg and "| B1544 |" in reg
+    kills = json.loads((ROOT / "frontier" / "B738_pathfinder_compiler" / "kill_graph.json").read_text())
+    k = [x for x in kills if x.get("id") == "B1544"]
+    assert len(k) == 1 and k[0]["kill_form"].startswith("the-floor-holds-on-the-cup-kernel") and k[0]["fact_computed"] is True
+    f = (ARC / "FINDINGS.md").read_text()
+    assert "cc (the SM-derivation seat), 2026-10-06." in f and "## Seen first" in f and "0 of 19" in f

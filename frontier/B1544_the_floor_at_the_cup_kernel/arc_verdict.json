@@ -1,6 +1,6 @@
 {
  "id": "B1544",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1543",
@@ -14,21 +14,22 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
  "identifications": [],
  "scope": {
   "frame": "F-HE",
-  "object": "N_45 (sm:B1541) and the four degree-60 covers of m003 (sm:B1542), at the trivial character: the cup map's kernel K0 = {c in H^1(N; rho) : c u H^1(N; C) = 0}, read stratum by stratum -- for every closed support S of K0, three generic classes of K0(S) in each of two routes (30 subspaces, 90 tasks, 180 readings); Lemma F (I(W) >= k - m - 1) and Proposition D proved at design time",
+  "object": "N_45 (sm:B1541) and the four degree-60 covers of m003 (sm:B1542) at the trivial character: the cup map's kernel K0 = {c in H^1(N; rho) : c u H^1(N; C) = 0}, read stratum by stratum (the generic class of K0(S) for every closed support S, three draws per route in route F and route R: 30 subspaces, 180 readings), which decides the least I(W) on all of K0 (Lemma G''); and Lemma F, I(W) >= k - m - 1 at every class of H^1(N; rho) on any finite cover at the trivial character",
   "reach": "class",
   "hypotheses": [
-   "sealed: no count at a non-interior class of K0 has been read; this record is replaced at the bank",
-   "at the hyperbolic point and the trivial character of each cover only; Lemma F is proved there",
-   "the least I(W) on K0 is decided by the generic classes of its strata (Lemma G''), each read with three draws per route at two primes (Lemma G); special classes inside a stratum can only read a larger I(W)",
-   "N_45's classes outside K0 with rk delta1_W in {1, 2} and small support, other characters, other covers and the floor outside K0 are not covered (the seal's section 10)",
+   "run as sealed (78acd895) and read out once on 2026-10-06 at 18:30:59Z on complete records (90 of 90 tasks, 180 readings); the banked identity held before the run",
+   "at the hyperbolic point and the trivial character of each cover only; Lemma F is proved there, for every finite cover of a complete finite-volume hyperbolic 3-manifold",
+   "the least I(W) on K0 is read at the generic classes of its strata (Lemma G''), each with three draws per route at two primes (Lemma G); special classes of a stratum read no smaller I(W)",
+   "the four degree-60 covers carry no class with I(W) = -3 at the trivial character by Proposition D and the read-out together; Proposition D uses sm:B1542's banked interior counts, re-read here",
+   "N_45's classes outside K0 with rk delta1_W in {1, 2} and support on at most three cusps, other characters, other covers and the floor outside K0 are not covered (FINDINGS section 5)",
    "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question"
   ]
  },
- "claim_one_line": "THE FLOOR AT THE CUP KERNEL, SEALED. Lemma F (proved at design time): at the trivial character on a finite cover with m cusps, every class c of H^1(N; rho) has I(W) >= k - m - 1, k the number of cusps where c is non-zero; so sm:B1543's floor I(W) >= -1 holds wherever c is non-zero on every cusp, and three, I(W) = -3, needs c to vanish on two cusps. With Theorem C (ii) (Corollary F'), three needs a + rk delta1_W <= n(1) - 2 and k <= m - 2; on the four degree-60 covers (n(1) = 3) it can live only in the cup map's kernel K0, at the strata K0(S) of three closed supports of size four on d10.13's and d10.36's covers and nowhere on d10.16's and d10.40's (Proposition D, from the structure and banked counts). The run reads the generic class of K0(S) for every closed support S on N_45 and the four covers -- which decides the least I(W) on all of K0 (Lemma G'') -- in route F and route R: 30 subspaces, 90 tasks, 180 readings. Controls K1-K6 hold. Predictions P1-P6 (P4 the floor on K0 70%, P6 three 4%); PROVED if a stratum reads I(W) < -1 in two routes; NEGATIVE if the floor holds on all of K0, and then the four degree-60 covers carry no three at the trivial character. No count at a non-interior class of K0 read. 0 of 19.",
+ "claim_one_line": "THE FLOOR AT THE CUP KERNEL (NEGATIVE, run as sealed; read out once 2026-10-06 18:30:59Z). Lemma F, proved at design time: at the trivial character on a finite cover with m cusps, every class c of H^1(N; rho) has I(W) >= k - m - 1, k the number of cusps where c is non-zero; so sm:B1543's floor I(W) >= -1 is a theorem wherever c is non-zero on every cusp, and I(W) = -g needs c to vanish on g - 1 cusps. With Theorem C (ii) (Corollary F'), three needs a + rk delta1_W <= n(1) - 2 and k <= m - 2; on the four degree-60 covers that leaves three only in the cup map's kernel K0 (Proposition D). The run read the generic class of K0(S) for every closed support S on N_45 and the four covers, in two routes: P1-P4 True, P5-P6 False (4 of 6, 3.68 expected). The floor holds on all of K0 on the five covers (least I(W): 0 on N_45, -1 on the degree-60 covers, at the interior). N_45's K0 reads (0, 0) at every stratum; d10.13's and d10.36's covers (-1, -3) at the interior and (0, -3) at the three supports where three could live and at the full support; d10.16's and d10.40's (-1, -3) and (1, -1). So the four degree-60 covers carry no three at the trivial character, at any class. After the seal (not used): all four mirror classes of m003 lift to N_45, each lift rhombic at the one cusp it fixes; none lifts to the degree-60 covers. 0 of 19.",
  "prior_work": {
   "repo": {
    "heads": {

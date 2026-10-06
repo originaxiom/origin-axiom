@@ -1,5 +1,29 @@
 # Changelog
 
+## B1544 banked: THE FLOOR AT THE CUP KERNEL — Lemma F proved; the floor holds on the whole cup kernel of N₄₅ and the four degree-60 covers, which carry no three at the trivial character at any class
+
+- **The run.** The banked identity held (18:08:00–18:14:09Z). The sealed run took 18:14:09–18:30:41Z on two workers, rc 0. The
+  record was committed unread (48e50abb), and `read_out.py` ran once, at 18:30:59Z (96517766). Coverage: 90 of 90 tasks, 180
+  readings.
+- **The verdict, by the seal's §9: NEGATIVE.** P1–P4 hold and P5–P6 are False: 4 of 6, against 3.68 expected.
+- **Lemma F** (proved at design time; THEOREM_REGISTRY T-THE-VANISHING-CUSPS). At the trivial character, I(W) ≥ k − m − 1 at
+  every class.
+  - So the floor is a theorem wherever the class is non-zero on every cusp.
+  - Three needs a class vanishing on two cusps.
+  - With Theorem C (ii), a + rk δ¹_W ≤ n(1) − 2 (Corollary F′).
+- **The counts**, on every stratum of the cup map's kernel K0 and alike in both routes:
+  - N₄₅: (0, 0) everywhere;
+  - the room-3 covers: (−1, −3) at the interior, and (0, −3) at the three supports where three could live and at the full
+    support;
+  - the room-4 covers: (−1, −3) and (1, −1).
+  The floor holds on all of K0. With Proposition D, **the four degree-60 covers carry no three at the trivial character, at any
+  class.**
+- **After the seal** (main's question). Every mirror of m003 lifts to N₄₅, five lifts per class, each rhombic at the one cusp it
+  fixes. None lifts to the degree-60 covers.
+- Surfaces: SEAL_LEDGER verdict row, the kill graph (`the-floor-holds-on-the-cup-kernel`, with its hatch: N₄₅ outside K0,
+  other members, sm:B1538), THEOREM_REGISTRY, OPEN_LEADS sL-12, CAMPAIGN_STATUS, the alias table, PROGRESS_LOG; atlas, views
+  and the claim pool regenerated. 0 of 19.
+
 ## B1544 sealed: THE FLOOR AT THE CUP KERNEL — Lemma F (I(W) ≥ k − m − 1) proved; where three can live, and the run that decides the cup map's kernel on N₄₅ and the four degree-60 covers
 
 - **Proved at design time** (the seal's §3).

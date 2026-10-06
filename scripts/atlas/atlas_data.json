@@ -10169,21 +10169,30 @@
    "slug": "the floor at the cup kernel",
    "motifs": [
     "monoid",
+    "closing",
     "coupling",
-    "z3_generation"
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
    ],
    "refs": [
     "K0",
     "K1",
     "K6",
     "P1",
+    "P2",
+    "P3",
     "P4",
+    "P5",
     "P6"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 3,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "arithmetic"
   },
   "B154": {
    "slug": "silver bundle foundation",

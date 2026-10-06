@@ -17793,3 +17793,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   with it, three on the room-3 covers at the trivial character.
 - **The first design** would have read only classes where Lemma F already fixes the floor. It was replaced before the seal
   (disclosed).
+
+## 2026-10-06 — B1544 banked: the floor at the cup kernel (NEGATIVE as sealed; Lemma F proved)
+
+- Read out once (18:30:59Z), on complete records: the floor holds on the whole cup map kernel of N₄₅ and the four degree-60
+  covers. N₄₅'s kernel reads (0, 0) at every stratum. The room-3 covers' three supports where three could live read (0, −3).
+- With Lemma F and Proposition D, the four degree-60 covers carry no three at the trivial character, at any class.
+- After the seal: every mirror of m003 lifts to N₄₅ (rhombic at its fixed cusp); none lifts to the degree-60 covers.
+- Next: the members other than the trivial character (Lemma F's argument at a member), N₄₅'s classes of cup rank 1 or 2, and
+  sm:B1538's regeneration.

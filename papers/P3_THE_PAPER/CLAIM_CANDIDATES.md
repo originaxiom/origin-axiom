@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1188 settled arcs — 70%** —
+the field is **absent on 828 of 1189 settled arcs — 70%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (115) ∪ on-a-synthesis-surface ∪ law-vocabulary (128) = 616 arcs.**
-The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (116) ∪ on-a-synthesis-surface ∪ law-vocabulary (128) = 617 arcs.**
+The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.81** on the corpus's own law vocabulary against
-**1.2** for the rest — **2.33×**. The criterion
+**2.79** on the corpus's own law vocabulary against
+**1.2** for the rest — **2.32×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -223,7 +223,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1501` | PROVED | S | | THE TORUS-LINK CENSUS, run as sealed (d780b639; the owner's go; after B1500): in the simplest G2 cone singularities -- cones over the four homogeneous nearly Kaehler 6-ma… |
 | `B1503` | PROVED | S | | THE APEX INDEX RULE (after B1502 section 5; the owner's go): at a G2 cone point over a finite quotient of a compact nearly Kaehler manifold, for every automorphism gamma … |
 
-## §6 the observer — one bit, priced (183)
+## §6 the observer — one bit, priced (184)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -278,6 +278,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1530` | PROVED | L | | THE INTERIOR EXTENSIONS, run as sealed (1d359734; sL-10 item 10 (a)): at the hyperbolic point, B1515's frame carries one generation in one W on the two silver squares. On… |
 | `B1532` | NEGATIVE | L | | THREE FROM THE CUSPS, run as sealed (97fdce6d; sL-7): no finite abelian cover of m004's levels M2-M6 carries a generation-shaped count of sm:B1515's frame at a lambda = 1… |
 | `B1534` | NEGATIVE | L | | THE SILVER COVERS, run as sealed (1f58d161; sL-10 item 11): no finite abelian cover of m135 = -LLRR or m136 = +LLRR carries three generations at a pulled-back member of s… |
+| `B1544` | NEGATIVE | L | | THE FLOOR AT THE CUP KERNEL (NEGATIVE, run as sealed; read out once 2026-10-06 18:30:59Z). Lemma F, proved at design time: at the trivial character on a finite cover with… |
 | `B156` | PROVED | V | | Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L… |
 | `B986` | NEGATIVE | V | | THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAYS OPEN, the attempt failing on the INSTRUMENT not on the object. cc3's sweep surfa… |
 | `B1023` | PROVED | V | | PHASE 2'S CONCESSIONS, V2: TWO DEFECTS FIXED, THEN TWO BLOCKERS ON THE FIX ITSELF -- CONCEDED AND PINNED OPEN, the second correction arriving from cc3 BEFORE the batch ba… |
@@ -541,7 +542,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1111` | PROVED | L | | THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census … |
 | `B1304` | PROVED | L | | THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is … |
 | `B875` | PROVED | V | | The solo seat's TRIALITY-TILING THEOREM verified on this seat's fully independent build, three legs in one reproducer: (1) skeleton at 30 digits -- kernels (46,46,46) at … |
-| `B1543` | PROVED | V | | THE LINE MUST LEAD: in sm:B1515's frame, sm:B1535's Theorem C (ii) gives exactly I(W1) >= rk delta1_W - b0 - n(nu^4), delta1_W: H^1(N; L) -> H^2(N; V) the cup map y -> c … |
 | `B48` | PROVED | S | | The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backe… |
 | `B71` | PROVED | S | | Fix(T1^2) on the eight SL(3) fiber traces is exactly the SL(3) figure-eight character variety: three components, each of dimension 2.… |
 | `B102` | PROVED | S | | Every irreducible SL(3) figure-eight character is Case I or trB=trB-inverse=1; W1/W2 are excluded from the Hitchin component by ellipticity, not complexity.… |
@@ -662,6 +662,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1361` | NEGATIVE | S | | THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1), an equilateral triangle), the only invariant E6 cubic amon… |
 | `B1363` | NEGATIVE | S | | THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu^3>>; the crystallographic five-term sequence with coinvaria… |
 | `B1377` | PROVED | S | | THE TOWER'S COUNT IS AT MOST TWO IN ONE BACKGROUND, AND IS ONE: a firing doublet sector V = rho_chi (x) psi is an extension of two rank-one modules, so a_1(V) <= a_1(chi … |
+| `B1543` | PROVED | S | | THE LINE MUST LEAD: in sm:B1515's frame, sm:B1535's Theorem C (ii) gives exactly I(W1) >= rk delta1_W - b0 - n(nu^4), delta1_W: H^1(N; L) -> H^2(N; V) the cup map y -> c … |
 
 ## The exhibit that forced the rebuild
 
