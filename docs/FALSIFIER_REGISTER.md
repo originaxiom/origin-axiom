@@ -63,3 +63,18 @@ E₈ theory's two U(1)s. P9 shows that ON A VACUUM a scale regime CAN be named �
 mediation scenario — without violating the weight ledger's theorem (B811/B1012: no dimensionful prediction from the object):
 the scale enters through the measured Δm_K, ε_K and v, not from the object. That is the correct reading of the tension recorded
 above: the object emits relations and finite labels; the vacuum plus a measurement emits a regime.
+
+## 2026-10-07 — a currency note on P7–P9 (B1478, B1484): the two extra bosons named apart, and the closing against the couplings; no new row
+
+- **Two different U(1)s.** GENESIS v1.12 (B1478) names them apart: **U1-η**, the η direction on the flat closing Y₃,
+  family-universal; and **U1-Z′₉**, P9's boson on the ninth closing. Text that says "the Z′" means the second. P7 and P8
+  are about the cascade's two extra abelian directions before any closing and keep their grades.
+- **P9's closing against a second measured number, conditionally.** Its light content beyond the Standard Model is one
+  Higgs pair and one colour-triplet pair (sm:B1283, verified in B1303) — a complete multiplet. If the three couplings
+  meet at one scale, complete multiplets leave (1/α₂ − 1/α₃)/(1/α₁ − 1/α₂) at ½, against 0.7172 measured (B1484): a miss
+  as large as the desert's, at any scale. Conditions: the identification of the closing with the vacuum; one-loop
+  running; a single meeting scale; the light content as banked. This is not a new falsifier — it is a second reason,
+  beside the cube −750 of the family part (B1340), that the closing as it stands is not the vacuum.
+- **What would be a falsifier and is not yet one:** a derived split of the triplet from the doublet would turn
+  "0.7143 against 0.7172" from the classical supersymmetric result into a prediction of this programme. None is derived
+  (lead L250).

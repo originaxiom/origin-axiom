@@ -347,3 +347,22 @@ alone and treating them as blocker negatives of the whole program"**.
 the version in its header has a log entry) and `tests/test_arc_verdict_schema.py` (the scope tag, with its failing
 paths). **Not enforced, and owed:** the scope tags of the arcs before B1454, the NEGATIVE ones first (lead L240).
 
+## Rule (2026-10-06, the owner's instruction, relayed by the SM seat — adopted): VERIFY LOAD-BEARING MATHEMATICS, EVEN IF PUBLISHED
+
+**The owner, as the SM seat quotes it in its relay of 2026-10-06 and in its own WORKING_RULES** (main did not hear it
+directly; it read it on that seat's branch): "we should verify all load bearing math even if a published paper,
+because we cant bet our whole project against some possible errors bugs or mistakes".
+
+1. **A citation alone supports nothing a verdict rests on.** Every input a claim rests on — a theorem from a paper or
+   from an earlier arc, a table, a census value, a library's output — is either re-derived or computed on this bench on
+   the instances used, or named in the arc's scope as a hypothesis, and the claim is then graded conditional on it.
+2. **Every preregistration and FINDINGS says which cited results a claim rests on and which it does not.** A cited
+   result may stand unverified only where no claim rests on it, and the page says so.
+3. **Prefer the design in which the cited fact is computed per member.** (B1477 computes the longitude's trace sign on
+   every lift instead of citing a lemma; B1484 derives the running coefficients from the field content; B1483's
+   certificate was validated on o10_150729 before it was believed.)
+4. **A reader's report on the literature is a pointer, not an input**, until the sources are read on the bench
+   (lead L250, cell (d)).
+
+**Enforced by:** nothing yet on main — it is MANUAL. The SM seat records each load-bearing input in its verdict files
+(`load_bearing`, validated by a checker on its branch); main has not adopted that field, and whether to is open.

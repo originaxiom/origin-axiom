@@ -1,0 +1,23 @@
+{
+ "id": "B1484",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B915",
+  "B1303",
+  "B1340",
+  "B1482"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (one-loop running by field content; the weights of the 27 of E6)",
+  "object": "the Standard Model's and the supersymmetric spectra named; the 27 of E6 under Y, chi, psi",
+  "reach": "general",
+  "hypotheses": "one loop; a single unification scale; matter kept or removed by invariance under flat abelian lines in the torus commuting with SU(3) x SU(2); measured inputs quoted as data"
+ },
+ "claim_one_line": "ONE OBJECT GATES BOTH NEAREST APPROACHES (the crossing plan's second option, pre-checked; landed so the computation is not lost). Three arithmetic statements with the coefficients derived from the field content: S1 if the couplings meet, (1/a2 - 1/a3)/(1/a1 - 1/a2) = B = (b2 - b3)/(b1 - b2) -- measured 0.7172; the Standard Model desert of B915 115/218 = 0.5275; supersymmetric with Higgs doublets light and colour triplets heavy 5/7 = 0.7143 (alpha_s 0.1168); supersymmetric with a complete light 5 + 5bar or with three complete 27s 1/2; S2 complete multiplets never change B; S3 in the 27 of E6 the colour triplet's weights under Y, chi, psi are -2 times the quark doublet's, so a flat abelian line that keeps Q keeps D -- sm:B1300's identity is a fact of the 27, not of one closing. Reading: B915's miss was the desert's; the record's closing (one light Higgs pair and one light triplet pair) gives 1/2; no flat abelian line splits the triplet on any state; so the weak-mixing-angle crossing needs matter counted by an index rather than kept by invariance -- the same frame of the right parity the chirality count needs (L250). The 0.7143 is the classical supersymmetric result, reproduced and not predicted. 0 of 19."
+}

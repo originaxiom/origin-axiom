@@ -1,0 +1,80 @@
+{
+ "measured": {
+  "B": 0.7171829375633899,
+  "inv_alpha": [
+   59.0192406,
+   29.584599,
+   8.474576271186441
+  ]
+ },
+ "spectra": {
+  "the Standard Model, a desert (B915)": {
+   "b": [
+    "41/10",
+    "-19/6",
+    "-7"
+   ],
+   "B": "115/218",
+   "B_float": 0.5275229357798165,
+   "alpha_s_implied": 0.07113817295970053
+  },
+  "supersymmetric; Higgs doublets light, colour triplets heavy": {
+   "b": [
+    "33/5",
+    "1",
+    "-3"
+   ],
+   "B": "5/7",
+   "B_float": 0.7142857142857143,
+   "alpha_s_implied": 0.11682440882468222
+  },
+  "supersymmetric; one light Higgs pair AND one light colour-triplet pair (one complete 5 + 5bar)": {
+   "b": [
+    "7",
+    "1",
+    "-2"
+   ],
+   "B": "1/2",
+   "B_float": 0.5,
+   "alpha_s_implied": 0.06726180720826223
+  },
+  "supersymmetric; three complete 27s light": {
+   "b": [
+    "9",
+    "3",
+    "0"
+   ],
+   "B": "1/2",
+   "B_float": 0.5,
+   "alpha_s_implied": 0.06726180720826223
+  },
+  "supersymmetric gauge sector plus complete multiplets only": {
+   "b": [
+    "7",
+    "1",
+    "-2"
+   ],
+   "B": "1/2",
+   "B_float": 0.5,
+   "alpha_s_implied": 0.06726180720826223
+  }
+ },
+ "complete_multiplets": {
+  "five": [
+   "1/2",
+   "1/2",
+   "1/2"
+  ],
+  "ten": [
+   "3/2",
+   "3/2",
+   "3/2"
+  ],
+  "equal": true
+ },
+ "weights": {
+  "w_D_is_minus_two_w_Q": true,
+  "H_u_and_D_differ_only_in_Y": true,
+  "w_Dbar_is_two_w_Q": false
+ }
+}

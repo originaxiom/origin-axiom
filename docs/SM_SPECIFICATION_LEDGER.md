@@ -517,3 +517,50 @@ what the rows' negatives may be quoted as excluding.
 
 **What this does not supply.** Any of the nineteen parameters; three generations; the sign of chirality; a mechanism
 from the spin swap to a physical count (L246 Phase 2; B1477 is sealed on what decides the swap).
+
+## Currency note — 2026-10-07, through B1484 (where a hand can be registered, the one move that excludes it, and the one object that gates the two nearest approaches)
+
+**No row of §A4 changes and no parameter is derived — 0 of 19.** Between B1477 and B1484 the record learned where two
+of the Standard Model's requirements sit and what each is waiting for. Every census statement below names its set:
+"the word states" are the once-punctured-torus bundles ±w, w a primitive cyclic word in L and R, to length 12 (the
+family, by GENESIS v1.13's ruling of FK13). None of it is a statement about one member, and none of it is a value.
+
+| requirement | what the record now has | grade | what it does not have | arc |
+|---|---|---|---|---|
+| **chirality — where a hand can sit** | **Theorem A:** an isometry that preserves a cusp and fixes a spin structure preserves the peripheral sign character; a mirror acting rhombically on a cusp fixes no spin structure whose fixed class has trace −2. **Theorem B:** an odd number of rotation-π geodesics at some length forbids every mirror-invariant spin structure | proved (Theorem A attacked by the SM seat on 2026-10-06 and found to hold) | — | B1477 |
+| | **the shear law:** CS ≡ ¼ · #{odd cusp-orbits on which the mirror is rhombic} (mod ½) | census law — 1,205 amphichiral cusped manifolds, no exception (the first sealed sentence was killed by o10_150729; the orbit form was sealed again and tested on a fresh range) | a proof | B1477 |
+| | **the bit is the sign of the word state:** +w and −w share a volume and differ by half a longitude at the cusp (379 of 379 words); on the 34 amphichiral words + is rectangular at CS 0 and − is rhombic at ¼ with longitude trace −2 on every lift, so no spin structure of a − state survives any mirror | census law to length 12 | a proof of the half-shift | B1479 |
+| | **the hand is a phase:** θ_s(t) = arg R₁^{(s)}(t) mod π is an invariant of a manifold with a spin structure and a mirror negates it (proved); on all 34 − states no spin structure has θ ∈ {0, π/2} (0 of 152) and they pair off with opposite phases; on all 34 + states at least two have a trivial phase | invariance proved; census law | **which hand; any count; an observable** — the quantisation ±π/3 at t = 1 is m003's alone (the sealed P4 failed, 2 of 152) | B1481 |
+| | **the hand at the boundary:** the frame space Γ_s\SL(2,ℂ) of a spin structure ends, at a cusp, in a bundle whose fibre is the elliptic curve E_s = ℂ/ker σ_s; on a − state the two classes of spin structures put complex-conjugate curves there, not isomorphic on 32 of 34; the two exceptions, −LR and −LLRR, are exactly the states whose cusp lattice is hexagonal or square (a post-seal lemma: the two end data are isomorphic iff the lattice has an automorphism of order > 2) | lemma proved; census | an index that takes its boundary term from E_s | B1483 |
+| **chirality — the index on the record** | the class index has no spinors in it and does not follow the bit at own level: a firing module on 375 of 379 + states and 379 of 379 − states; a generation-shaped background on 49 and on 46 | NEGATIVE for that one hypothesis, on those 758 states, in frame F-CI | the index under the mirror's swap of spin structures | B1480 |
+| **chirality — the grammar** | the − states need exactly one move beyond L and R — the central −I, negating both records — and no inverse letter; no word in L, R and the swap gives one, and no act squared does (tr X² ≥ −2); **positivity (GENESIS GM5d, marked CHOSEN) is what excludes them** | proved (elementary); GENESIS v1.14 | a reason for or against the move (fork FK4) | B1482 |
+| **weak mixing angle** | if the three couplings meet, (1/α₂ − 1/α₃)/(1/α₁ − 1/α₂) = (b₂ − b₃)/(b₁ − b₂): **measured 0.7172**; the desert of B915, 115/218 = 0.5275; Higgs doublets light and colour triplets heavy, 5/7 = 0.7143; any set of complete multiplets — the record's closing among them, one light Higgs pair and one light triplet pair (sm:B1283, B1303) — ½. In the 27 of E₆ the colour triplet's weights under Y, χ, ψ are −2 times the quark doublet's, so **no flat abelian line that keeps the quark doublet removes the triplet, on any state** | proved (arithmetic; the coefficients derived from the field content). 0.7143 is the classical supersymmetric result — **reproduced, not predicted** | a derivation of the split | B1484 |
+| **three generations** (the SM seat's lane, its frame F-HE at the hyperbolic point) | one generation in one W on the two silver squares m135 and m136 (sm:B1530). Room for three on seven cyclic covers of m003 — N₄₅ and six of degree 60 (sm:B1540). No three: on the classes read on N₄₅ (sm:B1541, **reproduced on main 380 of 380 rows**); on the four degree-60 covers at the trivial character (generic classes, sm:B1542; every class, sm:B1544); on any cover of degree ≤ 12 of m004 or m003 (sm:B1536); on any finite abelian cover of m004's levels M₂–M₆ at a λ = 1 pulled-back member (sm:B1532) or of the silver pair at a pulled-back member (sm:B1534); on the silver pair's four room-3 covers (sm:B1545, pending sm:B1538's regenerated records). What a three would need: the caps (sm:B1535), "the line must lead" (sm:B1543) and the floors I(W) ≥ k − m − 1 and I(W₁) ≥ k − m_A − b0 (sm:B1544, sm:B1545) | the seat's own grades, each scoped to the covers and classes named; one reproduced on main (receipts in `docs/handoffs/cc_2026-10-06_sm_b1541_reproduction/`), the rest read at headline and verdict level (HARVEST_LEDGER rows 834–837, 886–898) | three; on N₄₅ the classes outside the cup kernel of cup rank 1 or 2 are unread | sm:B1530–B1545 |
+
+**Beyond one cusp (B1483).** o10_150729 — m003's five-cusped cyclic cover of degree 5, at CS ¼, the manifold that
+killed the first sealed sentence of the shear law — has no mirror-invariant spin structure: Theorem A excludes between
+48 and 88 of its 120 mirrors for each of its 32 spin structures and all of them for none, and the signed spectrum
+settles the rest (all 32 asymmetric; the certificate validated on that manifold first). One member, not a law. On the
+SM seat's cover N₄₅ (five cusps, 90 tetrahedra, H₁ = ℤ/34 ⊕ ℤ/34 ⊕ ℤ⁵, 180 mirrors each fixing one cusp rhombically)
+Theorem A excludes every mirror for 8 of the 128 spin structures, 108 mirrors for 80 and 36 for 40; **the other 120 are
+undecided** (SnapPy's Dirichlet construction fails there, so no signed spectrum).
+
+**One object gates both nearest approaches (lead L250).** The chirality count needs a bulk of dimension ≡ 2 (mod 4)
+with a bundle that is not flat (GENESIS GAP6, v1.12); the weak-mixing-angle crossing needs the colour triplet split
+from the Higgs doublet, which no flat abelian line does. Both ask for matter *counted by an index* rather than *kept
+by invariance*. The candidate is the six-dimensional frame space of a spin structure; B1483 shows it is not blind to
+the bit at its boundary. No index on it is constructed.
+
+**The extra abelian bosons (a caveat for §D1 and for P9 of `docs/FALSIFIER_REGISTER.md`).** GENESIS v1.12 names two
+different ones apart: **U1-η** on the flat closing Y₃ (family-universal) and **U1-Z′₉** on the ninth closing (E₆ part
+(5ψ − 3χ)/2 plus the family part (−10, 5, 5)). The second cannot be held together with the observed chirality as it
+stands — the cube of its family part is −750 (B1340; recomputed in B1478) — and its closing's light content gives the
+unification ratio ½ (B1484). The record neither predicts nor excludes a new force: `docs/THE_FIFTH_FORCE_QUESTION_2026-10-06.md`.
+
+**Scope repairs landed in this window** (rowed in `docs/RETRACTIONS.md`): B1474's coset rule is withdrawn as a law and
+B1475's witness counts are lower bounds (the audit lane's R92); "a mirror-invariant spin structure exists ⟺ CS ≡ 0" is
+killed (v3103; m082(1,3)); GENESIS GM5b over-stated what the signed states need (v1.14).
+
+**What this does not supply.** Any of the nineteen parameters; three generations; which hand; a count from the hand;
+the split; an index in a frame of the right parity. The order of work is `docs/THE_CROSSING_2026-10-07.md`; the
+re-read of the record that led to it is `docs/THE_REREAD_2026-10-06.md`.

@@ -10069,6 +10069,60 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1483": {
+   "slug": "the end of the frame space",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "five_web"
+   ],
+   "refs": [
+    "L250"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1484": {
+   "slug": "one object gates both nearest approaches",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B298",
+    "B299",
+    "B655",
+    "B884",
+    "B897",
+    "B915",
+    "B925",
+    "B927",
+    "B952",
+    "B987",
+    "L250",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [

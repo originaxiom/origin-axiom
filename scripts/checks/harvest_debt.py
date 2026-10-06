@@ -115,6 +115,12 @@ SEATS = [
     # its head so it carries no items; whether its commit is integrated is for a verification arc or the owner's word.
     dict(key="hypatia", label="session lane (B1035's receipts pinned; one commit)", branch="kind-hypatia-uk0vv9",
          remotes=("origin",), cell=("session lane", "hypatia")),
+    # ADDED 2026-10-07 (S65): a branch that appeared on origin during S65's suite, forked from main at 201bd35b6 -- by its
+    # own words "Seat LP (the listening thread)", own numbering LP01.., "a seat id for main to harvest", no B-number.
+    # One commit: LP01's sealed preregistration (THE COMMON COVER) and its controls.  Registered as a seat so that its
+    # items are aged like any other; items = its arc directories frontier/LPnn_*.
+    dict(key="lp", label="listening thread (LP)", branch="project-thread-hctlox",
+         remotes=("origin",), cell=("listening thread", "LP seat")),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
@@ -317,6 +323,11 @@ def seat_index(seat, head, main_frontier, main_docs):
             name = f.rstrip("/").split("/")[-1]
             if re.fullmatch(r"CHAT1_TO_CC_[A-Za-z0-9_\-]+\.md", name):
                 idx[name[:-3]] = f
+    elif k == "lp":
+        for d in _ls(head, "frontier/"):
+            m = re.match(r"frontier/(LP\d{2})_", d)
+            if m:
+                idx[m.group(1)] = d
     return idx
 
 
@@ -391,6 +402,10 @@ def path_ids(seat, path, idx):
         m = re.match(r"relays/(CHAT1_TO_CC_[A-Za-z0-9_\-]+)\.md$", path)
         if m and m.group(1) in idx:
             out.add(m.group(1))
+    elif k == "lp":
+        m = re.match(r"frontier/(LP\d{2})_", path)
+        if m and m.group(1) in idx:
+            out.add(m.group(1))
     return out
 
 
@@ -438,11 +453,11 @@ def row_ids(seat, row, idx):
                 out.add(rid)
     elif k == "qor5up":
         out |= {f"B{n}" for n in _nums(t, r"\bB(10[2-5]\d)\b", r"10[2-5]\d")}
-    elif k in ("audit", "auditfork", "chat1"):
+    elif k in ("audit", "auditfork", "chat1", "lp"):
         for rid in idx:
             if re.search(rf"\b{re.escape(rid)}\b", t):
                 out.add(rid)
-    return out & set(idx) if k in ("sm", "audit", "auditfork", "chat1", "hostile", "braver") else out
+    return out & set(idx) if k in ("sm", "audit", "auditfork", "chat1", "lp", "hostile", "braver") else out
 
 
 # ---------------------------------------------------------------- the pure reconciliation (selftested)

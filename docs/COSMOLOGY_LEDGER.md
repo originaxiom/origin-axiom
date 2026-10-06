@@ -393,3 +393,16 @@ is explicitly marked in its own source as **CITED standard (Slansky 1981), not i
 recomputed** — the N1/N2 roster in row 4 inherits that same caveat.
 
 *Landed at B1196 from the GC-28 draft (the existence audit's blind-region close); every row sourced to banked arcs; update rule: every bank touching a row updates it, same PR.*
+
+## Currency note — 2026-10-07 (through B1484; no row above changes)
+
+- **Matter over antimatter.** Still "the stage, not the play": no rate, no temperature, no asymmetry number. What is
+  new is where a hand can be registered on a fermion without a continuous choice — the − word states of the family: no
+  spin structure there survives a mirror (Theorem A, B1477; B1479), each carries a phase its mirror partner negates
+  (B1481), and the cusp carries a pair of complex-conjugate elliptic curves (B1483). **Which hand is still the ℤ/2
+  nothing selects**, and those states are what positivity, a rule the genesis marks as chosen, removes (B1482).
+- **A long-range or dark-sector force.** The record neither predicts nor excludes one; its ingredients (two extra
+  abelian directions; one scaling that may be a field or a unit, B1166, lead L249) fix no mass, coupling or range:
+  `docs/THE_FIFTH_FORCE_QUESTION_2026-10-06.md`.
+- **Scope.** The dark-energy and singlet-stability negatives cited in the rows above were computed in the flat frame
+  and on m004; under GENESIS v1.11–v1.12 they bound that frame and that member, not the family.

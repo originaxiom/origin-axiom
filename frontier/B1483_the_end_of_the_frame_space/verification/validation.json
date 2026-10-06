@@ -1,0 +1,10 @@
+{
+ "o10_150729": {
+  "geodesics": 15,
+  "worst_trace_miss": 1.8e-14,
+  "sign_free_multiset_symmetric": true,
+  "first_asymmetric_length": 2.6339,
+  "spin_structures": 32
+ },
+ "n45_spectrum": "NOT COMPUTED: SnapPy's Dirichlet construction failed at 90 tetrahedra (as the seal anticipated)"
+}

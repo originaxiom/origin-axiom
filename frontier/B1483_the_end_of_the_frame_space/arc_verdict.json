@@ -1,0 +1,24 @@
+{
+ "id": "B1483",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1477",
+  "B1479",
+  "B1481",
+  "B1482",
+  "B1478"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI: the complex geometry of the frame space Gamma_s \\\\ SL(2,C) at a cusp, and Theorem A on manifolds with several cusps",
+  "object": "the 68 amphichiral word states to length 12 (X_gen); N_45 = m003's five-cusped cyclic cover of degree 45; o10_150729 = its five-cusped cyclic cover of degree 5",
+  "reach": "general",
+  "hypotheses": "the lemma general; the census statements on the 68 states; the two covers single; numerics (HP holonomy, j by mpmath, traces to 1e-6); N_45's signed spectrum not computed (Dirichlet construction failed)"
+ },
+ "claim_one_line": "THE END OF THE FRAME SPACE (lead L250, cells a and c; the SM seat's ask; sealed 4ec814fbc / f2b21a8a). LEMMA (proved): at a cusp the frame space of a spin structure s is a principal bundle whose fibre is the elliptic curve C / ker(sigma_s), sigma_s the peripheral sign character -- the cusp's own curve when sigma_s is trivial there, a curve two-isogenous to it otherwise; so a spin structure is visible in the complex geometry of the frame space's end. On the 68 amphichiral word states to length 12: every + state has only real end curves and every - state exactly two classes of spin structures with complex-conjugate curves (R1, 34 of 34 each); the two curves are not isomorphic (j not real) on 32 of the 34 - states (R2), the exceptions being the golden and silver words, where the curve has complex multiplication. On the SM seat's cover N_45 (five cusps, 90 tetrahedra): 180 mirrors, each fixing one cusp rhombically; Theorem A excludes every mirror for 8 of its 128 spin structures, 108 for 80 and 36 for 40 (R3 fails as expected; the rest undecided, the signed spectrum not computable there); the shear law's orbit form holds (R5). On o10_150729 (five cusps, CS 1/4), where Theorem A alone excludes at most 88 of 120 mirrors, no spin structure is mirror-invariant: none fixed by 40 mirror automorphisms found and all 32 signed spectra asymmetric, the certificate validated there (R4) -- one member, not a law. No hand's sign, no count, no value. 0 of 19."
+}

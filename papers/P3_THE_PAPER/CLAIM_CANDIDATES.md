@@ -549,6 +549,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1479` | PROVED | L | | THE BIT IS THE SIGN OF THE WORD STATE. The two signs of a word share a volume and differ by half a longitude at the cusp; on an amphichiral word the + state is rectangular… |
 | `B1481` | PROVED | L | | THE HAND IS A PHASE. The odd torsion of a spin structure has a phase modulo pi that a mirror negates; on every amphichiral - word state to length 12 it is never trivial and… |
 | `B1482` | PROVED | L | | THE SIGN IS ONE MOVE. Words in L, R and the swap never give a - state; no - state is a square in GL(2,Z); the central move -I gives every state its twin without an inverse… |
+| `B1483` | PROVED | L | | THE END OF THE FRAME SPACE: at a cusp the frame space of a spin structure s is a principal bundle with fibre the elliptic curve C / ker(sigma_s); on a - state … |
 
 ## The exhibit that forced the rebuild
 

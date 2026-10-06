@@ -1,0 +1,16 @@
+{
+ "states": 68,
+ "minus": 34,
+ "plus": 34,
+ "cusp_lattice_hexagonal_or_square": {
+  "b+-LR": "hexagonal",
+  "b+-LLRR": "square"
+ },
+ "minus_states_with_real_end_curves": [
+  "b+-LLRR",
+  "b+-LR"
+ ],
+ "plus_states_with_real_end_curves": 34,
+ "every_cusp_modulus_real": true,
+ "the_two_sets_agree": true
+}

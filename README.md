@@ -1,5 +1,12 @@
 # Origin Axiom
 
+> **State — 2026-10-07 (B1484).** `GENESIS.md` is at v1.14. On the family the principle generates, a seat for a fermion's hand is
+> located — the **−** word states, where no spin structure survives a mirror — and those states are exactly what one
+> rule the genesis marks as *chosen* (positivity) removes. The two nearest approaches to physics, the chirality count and
+> the weak mixing angle, wait on one missing object: a frame in which matter is counted by an index. **Derived
+> Standard-Model parameters: 0 of 19.** The block "Since 2026-10-03" in the section below is current; the banners that
+> follow are kept as written.
+
 > **State — 2026-10-03 (B1467).** The foundations are stated once, in `GENESIS.md` (v1.10), and three seats work from it; the
 > root's own vacua carry no handedness by proof, and the counts on record wait for a source that nothing yet derives. The
 > section "The state of the programme" below is current; the two older blocks that follow are kept as written.
@@ -54,6 +61,35 @@ the scattered statements of the axioms; the older pages keep their proofs and po
   FK12 being the owner's register question — the word keeps the order of its letters, the manifold and the vacuum
   forget it; is the register part of the state, carried by the act, or an input from outside? A positive on any state is
   graded against [`docs/THE_BAR.md`](docs/THE_BAR.md). **Derived Standard-Model parameters: 0 of 19.**
+
+**Since 2026-10-03 (B1468–B1484; GENESIS v1.11–v1.14).**
+
+- **The object is the family, not one member** (the owner's rule, binding since 2026-10-04: GENESIS v1.11, gate
+  `member-scope`). Of the 460 kills on record, 98 are about m004 alone and 39 say "the object" for an m004 result
+  (B1476). The family is the word states (v1.13). The record was re-read from its first commit to find where the way
+  toward physics was lost: by one habit — a member's negative written about the object — not on one date
+  ([`docs/THE_REREAD_2026-10-06.md`](docs/THE_REREAD_2026-10-06.md)).
+- **Where a hand can sit.** *Theorem A* (B1477, proved): an isometry that preserves a cusp and fixes a spin structure
+  preserves the cusp's sign character, so a mirror acting rhombically on a cusp fixes no spin structure whose fixed
+  class has trace −2. On the 34 amphichiral words to length twelve the + state is rectangular at Chern–Simons class 0
+  and the − state rhombic at ¼ with no spin structure surviving any mirror (B1479); each spin structure of a − state
+  carries a phase its mirror partner negates (B1481); and at the cusp the two classes of spin structures put
+  complex-conjugate elliptic curves (B1483). **Which hand, and any count of fermions, are not derived.**
+- **The sign in the grammar** (B1482, GENESIS v1.14). The − states need exactly one move beyond L and R — negating
+  both records — and no inverse letter; nothing the act does produces them; positivity (GM5d, marked chosen) is what
+  excludes them. Fork FK4 is now one question: is negating the records a legal move?
+- **One object gates both nearest approaches** (B1484, lead L250). If the couplings meet, a ratio of their
+  differences is fixed by the light spectrum: 0.717 measured, 0.528 for an empty desert (the 16σ miss of B915), 0.714
+  with the Higgs doublets light and their colour-triplet partners heavy — the classical supersymmetric result,
+  reproduced and not predicted — and 0.500 for any complete multiplets. No flat abelian line splits the triplet from
+  the doublet on any state. The chirality count and this crossing both need matter *counted by an index* rather than
+  *kept by invariance*: a frame of dimension ≡ 2 (mod 4) with a bundle that is not flat. The candidate is the
+  six-dimensional frame space of a spin structure; no index on it is constructed.
+- **Three generations** stay on the SM seat's lane: room for three exists on seven cyclic covers of m003, and no three
+  is read on the classes computed so far. The order of work is
+  [`docs/THE_CROSSING_2026-10-07.md`](docs/THE_CROSSING_2026-10-07.md); the per-requirement state is
+  [`docs/SM_SPECIFICATION_LEDGER.md`](docs/SM_SPECIFICATION_LEDGER.md) (currency note of 2026-10-07).
+  **Derived Standard-Model parameters: 0 of 19.**
 
 The paragraphs below are the state as it was written on 2026-08-22, kept for the record; where they and GENESIS
 disagree, GENESIS holds.

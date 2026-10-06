@@ -1,0 +1,11022 @@
+[
+{
+"part": "A",
+"subspace": "S=",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.1
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.1
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.1
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.2
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.2
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.2
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.7
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.7
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 33.7
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.1
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.1
+},
+{
+"part": "A",
+"subspace": "S=",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.1
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=0",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.5
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.5
+},
+{
+"part": "A",
+"subspace": "S=1",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.5
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.0
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.0
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.0
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.5
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.5
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.5
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 50.6
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 50.6
+},
+{
+"part": "A",
+"subspace": "S=2",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 50.6
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 38.6
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 38.6
+},
+{
+"part": "A",
+"subspace": "S=3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 38.6
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 37.0
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.4
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.4
+},
+{
+"part": "A",
+"subspace": "S=4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.4
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=0,1",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.8
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.8
+},
+{
+"part": "A",
+"subspace": "S=0,2",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.8
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.4
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.4
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.4
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=0,3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.1
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.1
+},
+{
+"part": "A",
+"subspace": "S=0,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.1
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.7
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.7
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.7
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=1,2",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.3
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.1
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.1
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.1
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.0
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.0
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.0
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=1,3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.6
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.6
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.6
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.7
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.7
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.7
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.4
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.4
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.4
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=1,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.5
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.5
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 31.5
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.4
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.4
+},
+{
+"part": "A",
+"subspace": "S=2,3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.4
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.3
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.8
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.8
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.8
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=2,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.9
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.6
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.6
+},
+{
+"part": "A",
+"subspace": "S=3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+4,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 30.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 42.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 42.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 42.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 43.9
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 43.9
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 43.9
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,2",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.8
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.8
+},
+{
+"part": "A",
+"subspace": "S=0,1,3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.8
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.4
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.9
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.9
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.9
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.9
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.9
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.9
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.7
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.7
+},
+{
+"part": "A",
+"subspace": "S=0,2,3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.7
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.8
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.8
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.8
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.0
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.0
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 48.0
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 47.6
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 47.6
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 47.6
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.2
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.2
+},
+{
+"part": "A",
+"subspace": "S=0,2,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 49.2
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.2
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.2
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 44.2
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 43.7
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 43.7
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 43.7
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.0
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.0
+},
+{
+"part": "A",
+"subspace": "S=0,3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.0
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.3
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.3
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 46.3
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=1,2,3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 31.2
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 30.5
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 31.5
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 31.5
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 31.5
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=1,2,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.8
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.8
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.8
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=1,3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.9
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.5
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.5
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 29.5
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=2,3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-7
+],
+"k": 3,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 6,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 7,
+"all": true,
+"failed": []
+},
+"seconds": 32.9
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 32.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 32.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 32.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 32.2
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.8
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.8
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.8
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.4
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.0
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.0
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.0
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.5
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.5
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 44.5
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.0
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.0
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.0
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.1
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.1
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 42.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 43.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 43.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 43.3
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 45.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 45.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 45.1
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.8
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.8
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.8
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 30.0
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 30.0
+},
+{
+"part": "A",
+"subspace": "S=0,2,3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 30.0
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.3
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.3
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.3
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 30.1
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 30.1
+},
+{
+"part": "A",
+"subspace": "S=1,2,3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-6
+],
+"k": 4,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 6,
+"all": true,
+"failed": []
+},
+"seconds": 30.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.1
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.6
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.2
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.2
+},
+{
+"part": "A",
+"subspace": "S=0,1,2,3,4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 9,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.2
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.0
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.0
+},
+{
+"part": "B",
+"subspace": "j=0",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+0,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 8,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 4,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.0
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.3
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.3
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.3
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.4
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.4
+},
+{
+"part": "B",
+"subspace": "j=1",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 29.4
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.0
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.0
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.0
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 30.2
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=2",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.6
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.6
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.6
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.6
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.6
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.6
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=3",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 28.5
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 44.3
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 44.3
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 44.3
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 46.7
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 46.7
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 46.7
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 50.6
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 50.6
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 50.6
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 51.3
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 51.3
+},
+{
+"part": "B",
+"subspace": "j=4",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+5,
+-5
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 7,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 3,
+"bound L2": 5,
+"all": true,
+"failed": []
+},
+"seconds": 51.3
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 48.4
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 48.4
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 48.4
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 47.7
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 47.7
+},
+{
+"part": "B",
+"subspace": "j=0 interior",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+-1,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 4,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 47.7
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.8
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.8
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.8
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.7
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.7
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.7
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.2
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.2
+},
+{
+"part": "B",
+"subspace": "j=1 interior",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.2
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.6
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.6
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.6
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 47.7
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 47.7
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 47.7
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.1
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.1
+},
+{
+"part": "B",
+"subspace": "j=2 interior",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 49.1
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 48.5
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 48.5
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 48.5
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 43.3
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 43.3
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 43.3
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 51.0
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 51.0
+},
+{
+"part": "B",
+"subspace": "j=3 interior",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 51.0
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.3
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 0,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.3
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 45.3
+},
+{
+"part": "C",
+"subspace": "pulled back",
+"draw": 0,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+0,
+0
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 0,
+"E*": 4,
+"L2": 0,
+"L2*": 5
+},
+"bound W": 0,
+"bound L2": 0,
+"all": true,
+"failed": []
+},
+"seconds": 23.8
+},
+{
+"part": "C",
+"subspace": "pulled back",
+"draw": 0,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+0,
+0
+],
+"k": 5,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 0,
+"E*": 4,
+"L2": 0,
+"L2*": 5
+},
+"bound W": 0,
+"bound L2": 0,
+"all": true,
+"failed": []
+},
+"seconds": 23.8
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 1,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.5
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 1,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.5
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 1,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.5
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 2,
+"route": "N",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.6
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 2,
+"route": "R at p_N (the same class)",
+"prime": 16775281,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.6
+},
+{
+"part": "B",
+"subspace": "j=4 interior",
+"draw": 2,
+"route": "R",
+"prime": 2147482801,
+"reading": {
+"count": [
+3,
+-10
+],
+"k": 0,
+"b0": 1,
+"n(L)": 4,
+"n((VL)*)": 18,
+"n(V)": 18,
+"rk d1": {
+"E": 8,
+"E*": 4,
+"L2": 0,
+"L2*": 10
+},
+"bound W": 5,
+"bound L2": 10,
+"all": true,
+"failed": []
+},
+"seconds": 34.6
+}
+]

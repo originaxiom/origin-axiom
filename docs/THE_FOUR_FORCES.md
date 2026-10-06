@@ -81,3 +81,19 @@ took the geometry (**Lorentz, compact colour, the graviton**).
 *Governing fences: the firewall (`PRACTICES.md`), Gate 5, and `docs/IDENTIFICATION_LEDGER.md` — where
 **I-23** (Y ↔ electromagnetic charge) and **I-10/I-11** (the internal A₁ ↔ 4d Lorentz spin, i.e. the
 **fork**) are the unearned rows standing behind the EM and gravity entries.*
+
+## Currency note — 2026-10-07 (through B1484; no row above changes)
+
+- **Strong and weak, together.** If the three couplings meet, (1/α₂ − 1/α₃)/(1/α₁ − 1/α₂) is fixed by the light spectrum
+  alone: measured 0.7172; the desert of B915 0.5275; Higgs doublets light and colour triplets heavy 0.7143; complete
+  multiplets — the record's closing included — ½ (B1484). So the 16σ miss of B915 was the desert's, not the boundary
+  value's, and what the record lacks is a *derivation of the split* between the Higgs doublet and its colour-triplet
+  partner. No flat abelian line supplies it on any state: in the 27 the triplet's weights are −2 times the quark
+  doublet's. **0.7143 is the classical supersymmetric result — reproduced, not predicted; α_s is not derived.**
+- **Electromagnetic and beyond.** The two extra abelian directions are named apart on vacua (GENESIS v1.12): U1-η on the
+  flat closing and U1-Z′₉ on the ninth; the second is incompatible with the observed chirality as it stands (B1340).
+  Whether the record says anything about a fifth force: `docs/THE_FIFTH_FORCE_QUESTION_2026-10-06.md` — it neither
+  predicts nor excludes one.
+- **What would let the forces meet matter.** Chirality's seat is now located on the family (the − word states: B1477,
+  B1479, B1481, B1483); a count there and the split above both wait on one object, a frame in which matter is counted
+  by an index rather than kept by invariance (lead L250). **Gravity:** nothing new in this window.

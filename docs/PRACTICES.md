@@ -1060,3 +1060,27 @@ beside the object of interest — the first log ran silver and bronze beside gol
 everything the golden act does is shared. **Why it is adopted:** measured, not preferred — on its first day it surfaced
 the walk m004, m206, s961, t12839, o10_150696, which led to the sign law (B1479). **What it is not:** a licence to
 interpret; a log reports, and anything it suggests is sealed as a prediction before it is tested.
+
+## Load-bearing mathematics is verified on the bench, published or not — MANUAL (adopted 2026-10-07, S65; the owner's rule of 2026-10-06, by way of the SM seat)
+
+The rule is in `WORKING_RULES.md` ("VERIFY LOAD-BEARING MATHEMATICS, EVEN IF PUBLISHED"). In practice: a
+preregistration and a FINDINGS page say which cited results a claim rests on; each of those is computed on the
+instances used or named as a hypothesis of the scope; a reader's report on the literature is a pointer until the
+sources are read here. First applications on main: B1477 (the longitude's trace sign computed on every lift), B1483
+(the certificate validated on the manifold before it was believed), B1484 (the running coefficients derived from the
+field content). Enforcement: MANUAL — the SM seat validates a `load_bearing` field in its verdict files; main has not
+adopted the field.
+
+## A computation is archived at the landing that reports it — MANUAL (adopted 2026-10-07, S65; the owner: "lose no important computation")
+
+**What happened.** On 2026-10-06 main reproduced sm:B1541 row for row and told the SM seat so in a tracked relay; the
+380 rows themselves stayed in a session's scratch folder. The same day an unsealed check of B1477's residue at a longer
+cutoff was run inline and survived only as one sentence in a plan. Neither was lost, by luck: both were found and
+archived at S65 (`docs/handoffs/cc_2026-10-06_sm_b1541_reproduction/`; B1477's addendum of 2026-10-07 with
+`residue_cutoff.py`).
+
+**The practice.** A number that appears in a tracked page, a relay or a ledger row has its script and its output in
+the tree at the same landing — under the arc it belongs to, or beside the relay that reports it — labelled with its
+grade (sealed, post-seal, unsealed). An exploratory check that is worth one sentence is worth a script that
+reproduces it. Before a landing, list the session's scratch folder and ask of each recent file whether a tracked
+sentence rests on it.

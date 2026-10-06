@@ -1,0 +1,11 @@
+residue at the sealed cutoff 3.0 (zero class, certified none, no odd rotation-pi count): 8
+  ['m078(5,1)', 'o10_085947', 'o10_149515', 't10425', 'v1222(-5,1)', 'v1695(-5,1)', 'v3103', 'v3283(-3,1)']
+  m078(5,1)        closed  CS zero   geodesics   157  rotation-pi   1  odd at lengths [3.138144]
+  o10_085947       cusped  CS zero   geodesics   164  rotation-pi   0  odd at lengths []
+  o10_149515       cusped  CS zero   geodesics   145  rotation-pi   1  odd at lengths [3.271677]
+  t10425           cusped  CS zero   geodesics   144  rotation-pi   0  odd at lengths []
+  v1222(-5,1)      closed  CS zero   geodesics   143  rotation-pi   0  odd at lengths []
+  v1695(-5,1)      closed  CS zero   geodesics   167  rotation-pi   1  odd at lengths [3.78818]
+  v3103            cusped  CS zero   geodesics   123  rotation-pi   7  odd at lengths [3.416401]
+  v3283(-3,1)      closed  CS zero   geodesics   171  rotation-pi   1  odd at lengths [3.497925]
+explained by Theorem B at cutoff 3.8: 5 of 8  |  still unexplained: ['o10_085947', 't10425', 'v1222(-5,1)']  |  errors: 0

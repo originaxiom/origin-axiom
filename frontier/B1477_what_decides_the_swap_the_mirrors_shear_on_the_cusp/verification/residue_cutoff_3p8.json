@@ -1,0 +1,84 @@
+{
+ "m078(5,1)": {
+  "name": "m078(5,1)",
+  "cutoff": 3.8,
+  "geodesics": 157,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   3.138144
+  ],
+  "kind": "closed",
+  "cs_class": "zero"
+ },
+ "o10_085947": {
+  "name": "o10_085947",
+  "cutoff": 3.8,
+  "geodesics": 164,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero"
+ },
+ "o10_149515": {
+  "name": "o10_149515",
+  "cutoff": 3.8,
+  "geodesics": 145,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   3.271677
+  ],
+  "kind": "cusped",
+  "cs_class": "zero"
+ },
+ "t10425": {
+  "name": "t10425",
+  "cutoff": 3.8,
+  "geodesics": 144,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero"
+ },
+ "v1222(-5,1)": {
+  "name": "v1222(-5,1)",
+  "cutoff": 3.8,
+  "geodesics": 143,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero"
+ },
+ "v1695(-5,1)": {
+  "name": "v1695(-5,1)",
+  "cutoff": 3.8,
+  "geodesics": 167,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   3.78818
+  ],
+  "kind": "closed",
+  "cs_class": "zero"
+ },
+ "v3103": {
+  "name": "v3103",
+  "cutoff": 3.8,
+  "geodesics": 123,
+  "rotation_pi": 7,
+  "odd_lengths": [
+   3.416401
+  ],
+  "kind": "cusped",
+  "cs_class": "zero"
+ },
+ "v3283(-3,1)": {
+  "name": "v3283(-3,1)",
+  "cutoff": 3.8,
+  "geodesics": 171,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   3.497925
+  ],
+  "kind": "closed",
+  "cs_class": "zero"
+ }
+}

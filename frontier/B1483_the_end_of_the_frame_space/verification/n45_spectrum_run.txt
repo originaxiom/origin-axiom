@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom/frontier/B1483_the_end_of_the_frame_space/verification/n45_spectrum.py", line 16, in <module>
+    spec = N.length_spectrum(cutoff, include_words=True, grouped=False); print("geodesics to %.2f: %d (%.0f s)" % (cutoff, len(spec), time.time() - t0), flush=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "cython/core/manifold.pyx", line 1496, in SnapPy.Manifold.length_spectrum
+  File "cython/core/manifold.pyx", line 383, in SnapPy.Manifold.dirichlet_domain
+  File "cython/core/dirichlet.pyx", line 166, in SnapPy.CDirichletDomain.__cinit__
+RuntimeError: The Dirichlet construction failed.

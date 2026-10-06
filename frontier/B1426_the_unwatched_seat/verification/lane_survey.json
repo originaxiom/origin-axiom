@@ -1,5 +1,5 @@
 {
- "measured_at_main_head": "6cad58ac9",
+ "measured_at_main_head": "965f8a459",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -197,8 +197,8 @@
   {
    "ref": "origin/chat1/web-seat",
    "branch": "web-seat",
-   "commits_total": 3535,
-   "commits_unique_vs_main": 11,
+   "commits_total": 3537,
+   "commits_unique_vs_main": 13,
    "merge_base": "16bef4d4",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -243,10 +243,22 @@
    "other_repository": false
   },
   {
+   "ref": "origin/<v>/project-thread-hctlox",
+   "branch": "project-thread-hctlox",
+   "commits_total": 3536,
+   "commits_unique_vs_main": 1,
+   "merge_base": "201bd35b",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3162,
-   "commits_unique_vs_main": 287,
+   "commits_total": 3170,
+   "commits_unique_vs_main": 295,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -267,9 +279,9 @@
    "other_repository": false
   }
  ],
- "lanes_with_unique_work": 17,
- "total_unique_commits_across_lanes": 2045,
- "same_repository_lanes": 16,
+ "lanes_with_unique_work": 18,
+ "total_unique_commits_across_lanes": 2056,
+ "same_repository_lanes": 17,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,
  "other_repository_lanes": [
