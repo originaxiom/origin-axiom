@@ -1,5 +1,15 @@
 # Fixed silver candidate and the next same-action obligation
 
+October5 Stage2C: silver_spectral_completion_2026_10_05/FINDINGS.md now
+reproduces full charged cones and35 polarization dimensions, and supplies
+an authored conditional spectral/Hodge realization. Candidate/marking/
+cocycle unchanged. Anomaly-free nonzero indices are supplied-domain
+positives, not selected physical families; natural complement is anomalous
+under the declared Weyl dictionary. Fixed linear law fails nonlinear gauge
+closure. Next nonlinear response and full coupled multiplet boundary law.
+
+Previous kinetic intake below predates this spectral completion:
+
 October5 continuation: silver_smooth_boundary_gate_2026_10_05/FINDINGS.md
 adds a conditional smooth full-trace kinetic domain, not a new coefficient
 or a realization of its favorable cohomology rows. Global index and coupled

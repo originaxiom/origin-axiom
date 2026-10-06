@@ -29,6 +29,17 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    finite cohomology polarization. Next global index/deformation capacity,
    coupled gauge-class boson law and normal/D-term equations; then full
    spectrum/anomalies. Extra boundary fields remain separately priced.
+   Stage2C conditional analytic research: silver_spectral_completion_2026_10_05/
+   FINDINGS.md lifts finite cones with a smooth spectral exact block.
+   Uniform local law has index0; all35 spectral polarization dimensions
+   include five anomaly-free pairs with common indices-2..2. No family
+   selected, no architecture exclusion.49 native/100 reference/11 LIVE
+   and29 regression pass after preserved verifier-coverage repair.
+   NEXT test a nonlinear covariant/adapted boundary response at the SAME
+   coefficient, then actual boson/normal/D-term/superfield variations,
+   quantum anomaly and physical zero modes/interactions. Fixed linear
+   gauge counterexample is not a no-go for curved completions. Supporting
+   covers/spin remain; do not substitute favorable counts for this joint.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

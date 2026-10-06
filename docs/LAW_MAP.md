@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October5 path-local spectral completion: conditional research sublemmas,
+not new shared B-law banking. Fork finite cone/cup, B1509 smooth-completion
+context and R40/R61 parent/reality duties retained.
+
+| Conditional result | Exact scope and evidence |
+|---|---|
+| Uniform local index0 | Fixed coefficient-independent complex-line smooth trace law on supplied topologically trivial determinant-one bundles; fixed-domain homotopy, NOT flat-holonomy triviality or an architecture kill. Authored PROOF.md in reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05; principal prerequisites LIVE-tested, nonauthor analytic review pending. B1509 and preceding smooth gate credited. |
+| Spectral exact-block lift | Ainf0 contains nonharmonic scalar primitives, Ainf1 exact1 plus paired harmonic polarization, Ainf2 harmonic annihilator. Conditional selfadjoint elliptic Hodge realization of full finite cone, all dual/endpoint degrees retained. Same PROOF.md; tests/test_physical_bridge_silver_spectral_completion.py;49 native/100 separate reference/11 LIVE and29 regression pass after disclosed verifier repair. Fork8b89d8fb and R40/R61 credited; not a nonlinear physical theory. |
+| Complete finite anomaly dimension menu | Literal silver charged W/F, both duals and split/nonsplit controls; ALL35 integer pairs, prescribed flags only. JW=ellW-2, JF=ellF-3; exactly five conditional anomaly-free common indices-2..2. Natural complement gives(0,-1); same dimensions yield same split index. Boundary choice not generated physics; no larger-cover/family exclusion. FINDINGS.md/NATIVE.json/REFERENCE.json in same spectral packet, fork and R40 roster credited. |
+| Differential positive with nonlinear duty | Exact auxiliary derivative admitted by Ainf1, but fixed linear law rejects d[sin x E12,d sin y E23]=cos x cos y dx wedge dy E13. Scope only that law; curved/covariant/adapted completions and priced boundary sectors remain. Bulk cubic retained, R61 duty not fully discharged. Same spectral PROOF.md and LIVE tests; no SUSY or whole-architecture no-go. |
+
 October4 R93 constructive phase earned conditionally: the actual R85
 compact rank-five/dual join and R86 primitive one-cycle carry EXISTING
 commuting SU5 Wilson fields with full connected SM gauge group, V=0

@@ -1,0 +1,1 @@
+{"mode":"preflight","source_pins":12,"science_files":8,"bytes_unchanged":true,"charged_spectra_compared":false,"neutral_multiplicities_independently_reproduced":false,"physical_goal_achieved":false,"non_author_acceptance":false}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 15.757905000005849,
+  "log_bytes": 2384,
+  "log_sha256": "8585016c86e25fb9d6cd2de8044a4a103c4fdbdda93848a1ca5fd1ac1014f44d"
+}

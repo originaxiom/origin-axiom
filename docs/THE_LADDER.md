@@ -1,5 +1,19 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October5 spectral-completion refinement: linear cohomology-to-operator
+joint is advanced conditionally by an authored exact-block/Hodge proof
+and full cone replay.49 exact/100 separate reference/11 LIVE and29
+regression pass after verifier-coverage repair. Supplied anomaly-free
+nonzero indices exist in the35 dimension menu; not selected physical
+families. NEXT nonlinear covariant boundary response and coupled boson/
+normal/D-term/superfield domain, full physical spectrum/interactions and
+generated selection. Fixed linear gauge failure scopes that law only;
+no cover/architecture kill. Independent analytic acceptance still owed.
+Report under physical_bridge/silver_spectral_completion_2026_10_05/
+FINDINGS.md. No completed physical rung or full SM/TOE promotion.
+
+Previous kinetic checkpoint before the spectral advancement:
+
 October5 smooth-boundary refinement: full-trace complex-line kinetic data
 pass current/combined reality/principal ellipticity on the supplied compact
 silver parent. Physical chirality still requires global index/capacity,

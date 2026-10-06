@@ -1,5 +1,18 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October5 spectral-completion research: conditional elliptic Hodge lift
+of the fork's complete silver charged cones, full35-dimension anomaly
+menu and admitted linear auxiliary derivative.49 exact/100 reference/
+11 LIVE and29 regression pass after disclosed coverage repair. Nonzero
+anomaly-free indices supplied by boundary choice; neither generated
+selection nor physical families. Uniform LOCAL law index0 does not kill
+spectral/defect domains or architecture. Fixed spectral law needs nonlinear
+gauge/boson/normal/superfield completion. Report under physical_bridge/
+silver_spectral_completion_2026_10_05/FINDINGS.md; fork/R40/R61 credited.
+Authored analytic positive, not independent main-bank or physical SM/TOE.
+
+Previous kinetic checkpoint before this index/completion advancement:
+
 October5 smooth-boundary research: supplied compact silver/E8 background
 has a conditional full8-form current/reality/elliptic kinetic domain using
 a complex Hodge eigenline. Both helicities pass, no selected handedness

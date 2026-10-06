@@ -1,5 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+LATEST October5 spectral completion research: supplied smooth exact-block
+lift has conditional selfadjoint elliptic Hodge realization of full finite
+charged cones.49 native/100 separate-reference/11 LIVE and29 regression
+PASS after disclosed verifier-coverage repair, unchanged charged results.
+35 dimension pairs include anomaly-free nonzero indices, NOT selected
+physical generations. Natural complement's conditional anomaly retained;
+split same-dimension controls identify boundary choice. Fixed linear
+domain fails nonlinear gauge closure. Next nonlinear boundary response,
+full boson/normal/D-term/supersymmetry and physical spectrum/selection.
+Report reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/
+FINDINGS.md. Same-author analytic research, independent review owed.
+
+Previous checkpoint before index/completion advancement:
+
 LATEST October5 path-local smooth-boundary research: complete8-form trace
 on supplied compact silver/E8 background admits a complex-line current/
 combined-reality/elliptic kinetic law.46 symbolic/132 separate-reference/

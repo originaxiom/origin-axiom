@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-05 spectral silver cone/operator bridge and anomaly menu
+
+49 exact/100 separate-reference/11 LIVE and29 regression PASS after
+disclosed verifier-coverage repair at pushed/server-confirmed pre-run
+088d2aeba. First successful runs retained; charged/census/neutral outputs
+unchanged. Conditional smooth elliptic Hodge lift of full finite cones,
+35 dimension pairs with five anomaly-free common indices-2..2. Uniform
+local law index0 scoped; fixed spectral law needs nonlinear gauge/boson/
+normal/superfield completion and generated selection. Not physical
+families, quantum anomaly certificate, main bank or full SM/TOE.
+
 ## 2026-10-05 smooth full-trace kinetic boundary positive verified
 
 46 symbolic/132 separate Gaussian-bitmask/10 LIVE and18 regression PASS

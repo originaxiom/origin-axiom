@@ -1,0 +1,1 @@
+{"charged_spectra_unchanged":true,"census_unchanged":true,"neutral_native_unchanged":true,"four_governance_failure_rows_unchanged":true,"non_author_acceptance":false}

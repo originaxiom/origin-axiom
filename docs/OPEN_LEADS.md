@@ -1,5 +1,31 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October5 spectral silver completion research EXECUTED after disclosed
+verifier repair:49 native/100 separate reference/11 LIVE and29 regression
+PASS at pushed/server-confirmed pre-run088d2aeba. Full charged cones,
+35-dimensional menu and gauge endpoints replayed; conditional authored
+elliptic/Hodge lift. reports/physical_bridge_2026_09_05/
+silver_spectral_completion_2026_10_05/FINDINGS.md records actual scope.
+No lead closed as physical chirality or no-go for covers/architecture.
+
+Carry forward, path-local duties (no shared H/I allocation):
+- PB-NONLINEAR: covariant/curved boundary response retaining the linear
+  chiral index; test actual gauge/cohomological-vector-field tangency and
+  boundary variation, not just finite harmonic cyclic closure.
+- PB-MULTIPLET: SAME bosonic/fermionic/normal/D-term/superfield domains,
+  stationary background, positive kinetics, full spectrum/interactions.
+- PB-ANOMALY: full quantum gauge consistency/inflow/boundary modes;
+  conditional light SU5 cubic cancellation is necessary, not sufficient.
+- PB-SELECT: derive the supplied carrier, parent, spectral polarization,
+  metric/end response and phase from retained genesis/register data.
+- PB-REVIEW: nonauthor analytic acceptance and full-suite/main-bank duty;
+  first weak verifier labels and repaired coverage are explicitly retained.
+
+Larger-cover exceptional classes, characteristic-zero certificates and
+spin on the SAME operator remain supporting investigations; no three-
+family exclusion follows from this fixed rank-five boundary menu. No
+qualia identification or unrelated old lead closure assigned.
+
 October5 read-only quantum-selection intake, NOT a new executed arc:
 reports/physical_bridge_2026_09_05/QUANTUM_SELECTION_INTAKE_2026_10_05.md.
 Before a perturbative Wilson selector, earn the complete supersymmetric

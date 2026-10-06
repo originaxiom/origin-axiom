@@ -1,5 +1,16 @@
 # Physical bridge audit — 2026-09-05
 
+[October5 spectral exact-block completion](silver_spectral_completion_2026_10_05/FINDINGS.md):
+49 native/100 separate-reference/11 LIVE and29 regression PASS after
+disclosed verifier repair, charged spectra unchanged. Conditional elliptic
+Hodge lift of finite cones, not a numerical PDE solve or interacting SM.
+35 dimension pairs contain anomaly-free nonzero indices; boundary choice
+remains supplied and fixed linear law fails the nonlinear gauge control.
+Next covariant nonlinear response, full boson/normal/D-term/superfield
+domain, physical spectrum and generated selection. Fork/R40/R61 credited.
+
+Previous kinetic checkpoint, before the index/completion packet above:
+
 [October5 smooth full-trace gate](silver_smooth_boundary_gate_2026_10_05/FINDINGS.md):
 46 symbolic/132 separate-reference/10 LIVE and18 two-packet regression PASS
 unchanged at pushed/server-confirmed f43415ec8. Conditional elliptic/current/
