@@ -1,0 +1,56 @@
+{
+ "m206": [
+  {
+   "cusps": 1,
+   "H1": "Z/5 + Z",
+   "vol": 4.059766425638614,
+   "sym": 16,
+   "chiral": false,
+   "three": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "gens": 3,
+   "door": 48,
+   "deg_over_base": 2,
+   "deg_over_target": 1,
+   "type_over_base": "cyclic",
+   "type_over_target": "cyclic",
+   "signature": "eLMkbcdddhxqdu",
+   "factors_through_level": [
+    [
+     "m206",
+     1
+    ]
+   ]
+  }
+ ],
+ "m003": [
+  {
+   "cusps": 1,
+   "H1": "Z/5 + Z",
+   "vol": 4.059766425638614,
+   "sym": 16,
+   "chiral": false,
+   "three": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "gens": 3,
+   "door": 48,
+   "deg_over_base": 2,
+   "deg_over_target": 2,
+   "type_over_base": "cyclic",
+   "type_over_target": "cyclic",
+   "signature": "eLMkbcdddhxqdu",
+   "factors_through_level": [
+    [
+     "m206",
+     1
+    ]
+   ]
+  }
+ ]
+}

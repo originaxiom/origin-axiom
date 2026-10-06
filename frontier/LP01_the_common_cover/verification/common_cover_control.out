@@ -1,0 +1,8 @@
+target m206 {"cusps": 1, "H1": "Z/5 + Z", "vol": 4.059766425638614, "sym": 16, "chiral": false, "three": false, "det_values": [0, 4], "gens": 3, "door": 48}
+  m206: degree 2 over m004, 1 over target: 1 x 1 covers, 1 common (0 s)
+    {"cusps": 1, "H1": "Z/5 + Z", "vol": 4.059766425638614, "sym": 16, "chiral": false, "three": false, "det_values": [0, 4], "gens": 3, "door": 48, "deg_over_base": 2, "deg_over_target": 1, "type_over_base": "cyclic", "type_over_target": "cyclic", "signature": "eLMkbcdddhxqdu", "factors_through_level": [["m206", 1]]}
+target m003 {"cusps": 1, "H1": "Z/5 + Z", "vol": 2.029883212819308, "sym": 8, "chiral": false, "three": false, "det_values": [0, 4], "gens": 2, "door": 48}
+  m003: degree 1 over m004, 1 over target: 1 x 1 covers, 0 common (0 s)
+  m003: degree 2 over m004, 2 over target: 1 x 1 covers, 1 common (0 s)
+    {"cusps": 1, "H1": "Z/5 + Z", "vol": 4.059766425638614, "sym": 16, "chiral": false, "three": false, "det_values": [0, 4], "gens": 3, "door": 48, "deg_over_base": 2, "deg_over_target": 2, "type_over_base": "cyclic", "type_over_target": "cyclic", "signature": "eLMkbcdddhxqdu", "factors_through_level": [["m206", 1]]}
+base m004 {"cusps": 1, "H1": "Z", "vol": 2.029883212819307, "sym": 8, "chiral": false, "three": false, "det_values": [0, 4], "gens": 2, "door": 48}
