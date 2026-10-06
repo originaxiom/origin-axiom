@@ -55,3 +55,10 @@ I(W) ≥ −1 on ψ⁰, ψ² and ψ⁴, and by I(W) ≥ 0 on ψ³, not by 3.
 
 The first registration's "on d10.13's or d10.36's cover" is withdrawn as too narrow. Its reason assumed that every class could
 reach the global bound.
+
+## A caveat on both, also before the read-out (2026-10-06, about 15:33Z; the run at task 513 of 556, no row read)
+
+Both registrations assume that a subspace's generic classes reach the cup map's maximal rank (global, or graded on an
+eigenspace). sm:B1541's record already shows that they need not. N₄₅'s graded bound is 9 on every eigenspace, but its generic
+eigenspace classes reach only 8 (on ζ¹–ζ⁴) and 4 (on ζ⁰). If sm:B1542's generic classes in some subspace fall to rank ≤ 1,
+Corollary C′ does not exclude (−3, −3) there. The prediction stands as registered; this is the assumption it rests on.
