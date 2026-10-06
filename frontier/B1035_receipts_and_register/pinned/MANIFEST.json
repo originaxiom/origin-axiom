@@ -1,0 +1,34 @@
+{
+ "what": "the three receipts B1035 verifies, pinned byte-exact; the lock reads these copies and no ref",
+ "source": "B775's audit branch, retired 2026-09-15 under 'tag, then delete'; its bytes are kept by the archive tag",
+ "tag": "archive/braver-questions@53da05f6",
+ "commit": "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+ "pinned": "2026-10-06, from the archive tag fetched from origin (git cat-file blob <commit>:<path>). Each copy hashes to its original blob id; each file has exactly one commit in the tag's history (added_in), so the branch carried these bytes unchanged from 2026-08-10; the two digests B1035 banked on 2026-08-12 (theta, Phase A) are the pins' own",
+ "verify": "git hash-object <file> must print blob; with the tag fetched, git rev-parse <tag>:<path> must print it too",
+ "files": [
+  {
+   "path": "CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md",
+   "bytes": 5940,
+   "blob": "634a0c703f14dcc04e7132905b2998469e726af6",
+   "sha256": "7ea68d34a68e0d922d5e58b6df83b653995c6d312b4138863a667ffac70e2e4b",
+   "added_in": "7eb2e7a8844925960dc89b193dfc64406c7d01ce",
+   "added_date": "2026-08-10"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md",
+   "bytes": 8878,
+   "blob": "174a703f08da1cd1481cece8489becd6aefda03d",
+   "sha256": "f0f336ce6828a2beea91e4ea31ee7e5dd35c227abb76e98c63ed96214c0977d8",
+   "added_in": "4ff7fc234f36845ee9db3ed50b9bf7048640fd8a",
+   "added_date": "2026-08-10"
+  },
+  {
+   "path": "CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md",
+   "bytes": 6460,
+   "blob": "cc67f0985d0d9c05349d282bd9858456f56e8f3a",
+   "sha256": "4f558d3a3b832a2e836d9b5987a86642021e622102530bcdc92617e3f79c6542",
+   "added_in": "7eb2e7a8844925960dc89b193dfc64406c7d01ce",
+   "added_date": "2026-08-10"
+  }
+ ]
+}

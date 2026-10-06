@@ -41,3 +41,34 @@ The lane's honest position after this arc: the framework's physics-facing testab
 rests on **P3 and P6** (sharp, mechanical-on-discovery, untested) plus P2's non-unique
 confirmation — and the programme's strength (no scales, by theorem) is exactly what
 starves P7/P8. Anyone reading the register learns both facts in one table.
+
+## ADDENDUM 2026-10-06 — the receipts pinned beside the lock: it no longer reads a ref
+
+**The failure was environmental, not a change in any arc.** `b1035_verify.py` read the three receipts
+with `git show <ref>:<path>` from B775's audit branch. That branch was retired on 2026-09-15 under *tag,
+then delete*, and B1425 added the archive tag as a fallback. A full `git clone` fetches that tag. A
+shallow or single-branch clone does not, because the tag points off every branch, so neither ref
+resolves. The lock was the tenth failure beside the nine-failure baseline in sm:B1513's fast lane
+(2026-10-01), on a branch whose verifier predates the fallback. With the fallback in place it still
+failed in a cloud container whose clone is 50 commits deep with no tags ("none of … resolves").
+
+**The blobs were recovered and pinned.** The archive tag `archive/braver-questions@53da05f6` is still on
+the remote, and its commit `53da05f6` holds the three files. Each was added once on the branch and never
+changed. They are committed byte-exact under `pinned/`, and each copy hashes to the blob id it had there:
+
+| receipt | git blob | sha256 | bytes | added on the branch |
+|---|---|---|---|---|
+| `CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md` | `634a0c70…` | `7ea68d34…` | 5 940 | `7eb2e7a8`, 2026-08-10 |
+| `CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md` | `174a703f…` | `f0f336ce…` | 8 878 | `4ff7fc23`, 2026-08-10 |
+| `CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md` | `cc67f098…` | `4f558d3a…` | 6 460 | `7eb2e7a8`, 2026-08-10 |
+
+The two digests this arc banked on 2026-08-12 are the first two pins' own. The full ids, and how to
+re-check them, are in `frontier/B1035_receipts_and_register/pinned/MANIFEST.json`. The receipts name the
+branch in their own text, and the pins keep that text: they are evidence, and their hashes fix every byte.
+
+**What the lock checks now.** The verifier reads only the pins. It refuses any pin that is not its
+recorded blob (git id and sha256) before a content check runs, and V1–V3 are unchanged. That adds one
+hold: Phase B, which no digest covered before, is now pinned by id. Where a clone still reaches the branch
+or its tag, the lock also confirms that each pin is the blob at that ref; where it cannot, that one test
+skips and says why. A changed byte or a missing pin fails the lock, and `tests/test_b1035_receipts.py`
+carries the control. The ref names stay in the verifier as provenance.

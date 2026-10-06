@@ -9,6 +9,7 @@ hashes. This arc re-verifies everything from this bench and integrates:
   V3  the register brought to main (docs/FALSIFIER_REGISTER.md) with the recount adopted
       and the not-falsifiable-and-why section (ask-1, ask-2 executed)."""
 import hashlib
+import json
 import subprocess
 from pathlib import Path
 
@@ -16,25 +17,71 @@ ROOT = Path(__file__).resolve().parents[2]
 # The seat was RETIRED on 2026-09-15 under the rule "tag, then delete": the branch is gone from both
 # remotes and its bytes live in the archive tag. This lock read the branch by name and had been failing
 # ever since, silently, because the landing ritual runs the gates and not the full suite (B1425 S7).
-# Resolve the branch if it still exists, else the tag -- a retirement must not break a receipt.
+# PINNED 2026-10-06: B1425 S7 made the tag a fallback, but a shallow or single-branch clone never fetches
+# this tag (it points off every branch), and the lock without it failed sm:B1513's fast lane on 2026-10-01.
+# The three receipts are now committed byte-exact under pinned/ and read from there only, each held to the
+# git blob id it had on B775's audit branch (pinned/MANIFEST.json). The refs below are provenance: where
+# the bytes came from, and what v0_provenance compares the pins against when a clone still reaches one.
 BR_CANDIDATES = ("origin/audit/b775-braver-questions", "archive/braver-questions@53da05f6")
 H_A = "f0f336ce6828a2beea91e4ea31ee7e5dd35c227abb76e98c63ed96214c0977d8"
 H_TH = "7ea68d34a68e0d922d5e58b6df83b653995c6d312b4138863a667ffac70e2e4b"
+PIN_DIR = Path(__file__).resolve().parent / "pinned"
 
 
-def _source():
-    for ref in BR_CANDIDATES:
-        if subprocess.run(["git", "rev-parse", "--verify", "--quiet", ref],
-                          capture_output=True, cwd=ROOT).returncode == 0:
-            return ref
-    raise AssertionError("none of %s resolves: the retired seat's bytes are unreachable" % (BR_CANDIDATES,))
+def _blob_id(b):
+    """git's object id for these bytes as a blob -- what `git hash-object` prints."""
+    return hashlib.sha1(b"blob %d\0" % len(b) + b).hexdigest()
+
+
+def _pins():
+    m = json.loads((PIN_DIR / "MANIFEST.json").read_text("utf-8"))
+    return {f["path"]: f for f in m["files"]}
+
+
+def _intact(b, pin):
+    return _blob_id(b) == pin["blob"] and hashlib.sha256(b).hexdigest() == pin["sha256"]
 
 
 def _show(path):
+    """The receipt's bytes from its pinned copy, refused unless they are the blob the branch carried."""
+    pin = _pins().get(path)
+    assert pin is not None, f"{path} is read by this lock but not pinned in MANIFEST.json"
+    p = PIN_DIR / path
+    assert p.is_file(), f"the pinned receipt {path} is missing from {PIN_DIR}"
+    b = p.read_bytes()
+    assert _intact(b, pin), f"pinned {path} is not blob {pin['blob'][:8]}: changed since pinning"
+    return b
+
+
+def _source():
+    """The first provenance ref this clone resolves, or None (a shallow or tagless clone resolves neither)."""
+    for ref in BR_CANDIDATES:
+        if subprocess.run(["git", "rev-parse", "--verify", "--quiet", ref + "^{commit}"],
+                          capture_output=True, cwd=ROOT).returncode == 0:
+            return ref
+    return None
+
+
+def v0_pinned_receipts():
+    out = {}
+    for path, pin in _pins().items():
+        p = PIN_DIR / path
+        out[f"{path}: blob {pin['blob'][:8]}, sha256 {pin['sha256'][:8]}"] = \
+            p.is_file() and _intact(p.read_bytes(), pin)
+    return out
+
+
+def v0_provenance():
+    """Each pin against the blob at the ref, where the clone still has one; None where it has neither."""
     ref = _source()
-    r = subprocess.run(["git", "show", f"{ref}:{path}"], capture_output=True, cwd=ROOT)
-    assert r.returncode == 0, f"cannot read {path} from {ref}"
-    return r.stdout
+    if ref is None:
+        return None
+    out = {}
+    for path, pin in _pins().items():
+        r = subprocess.run(["git", "rev-parse", "--verify", "--quiet", f"{ref}:{path}"],
+                           capture_output=True, text=True, cwd=ROOT)
+        out[f"{path} is blob {pin['blob'][:8]} at the ref"] = r.returncode == 0 and r.stdout.strip() == pin["blob"]
+    return out
 
 
 def v1_theta_receipt():
@@ -84,9 +131,15 @@ def v3_main_register():
 
 
 if __name__ == "__main__":
-    for name, fn in (("V1 theta receipt", v1_theta_receipt),
+    for name, fn in (("V0 the pinned receipts", v0_pinned_receipts),
+                     ("V1 theta receipt", v1_theta_receipt),
                      ("V2 falsifier register", v2_falsifier_register),
                      ("V3 the main register", v3_main_register)):
         print(f"{name}:")
         for k, v in fn().items():
             print(f"   {k}: {v}")
+    prov = v0_provenance()
+    print("V0 provenance:" if prov is not None else
+          "V0 provenance: SKIPPED -- no ref in BR_CANDIDATES resolves in this clone; the pins are held to their blob ids")
+    for k, v in (prov or {}).items():
+        print(f"   {k}: {v}")
