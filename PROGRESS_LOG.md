@@ -16267,3 +16267,17 @@ Arc **B1478** (PROVED; a reading and adoption arc; no law). Gates 43 of 43; full
 **What it means.** For chirality: the bit has a name in the grammar. For generations: nothing. **The imported expectation, stated separately:** none. **0 of 19.**
 
 Arc **B1479** (PROVED on its sealed range; creates T-SIGN-IS-THE-BIT, a census law). Gates 43 of 43; full suite 7084 passed, 0 failed, 68 skipped.
+
+## 2026-10-07 — S62 THE INDEX AGAINST THE SIGN, AND TWO FORKS RULED BY THE PRINCIPLE (B1480; GENESIS v1.13; the crossing plan's first item): at own level the count does not follow the bit — the class index fires on both signs alike — and the cell it points to is the index under the mirror's swap of spin structures; the family is ruled to be the word states, and FK4 now asks whether the principle generates the sign.
+
+**The occasion.** The crossing plan's first item, sealed (`20c22735c`, sha256 4700f7bb) before its tabulation ran: B1479 found the fermionic bit to be the sign of a word state; does the record's chirality count live where the bit is? And the owner, on two forks main had listed as the owner's: "it's not up to me, it should be up to math, to the principle of emergence".
+
+**B1480 — the result, a scoped negative.** On the 758 own-level word states to length 12 (B1438/B1439's banked census joined to B1479's table; no index recomputed): 375 of 379 + states and 379 of 379 − states carry a firing module; 49 and 46 carry a generation-shaped background. On the 34 amphichiral words both signs fire (32 and 34). Sealed predictions: Q1 (the signs differ by a factor 1.5) fails, Q2 (some amphichiral − state fires) holds, Q3 (one sign only) fails. **At own level, in this frame, the count is not carried by one sign.** Unpredicted and not believed yet: among amphichiral words, generation-shaped backgrounds sit on the + state eight times and on the − state once. The negative is the sentence above and nothing wider — not levels, not other frames.
+
+**The cell it points to (not banked).** On a − state a mirror carries a spin structure to the other one; B1459 proved that twisting a frame module by a meridian sign character reverses its index. If the mirror's character is such a sign, the two mirror-related spin structures carry opposite counts: a hand the mirror exchanges rather than preserves. One computable cell; the next seal.
+
+**Two rulings (GENESIS v1.13; PRACTICES).** FK13 — the family is the generated state space, the word states: what the principle produces; the commensurability class and the 112 are named lists. FK4 — restated with its stake: the sign is the monodromy with the fibre's elliptic involution, −I = (L·R⁻¹·L)², which needs an inverse letter, and it is the fermionic bit; the fork now asks whether the principle generates the sign. The listening-log method is adopted on its measured first day, with a record sweep first and a base rate.
+
+**What it means.** For chirality: the bit and the count are separate at own level, and the question that joins them is now one cell. For generations: nothing. **The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1480** (NEGATIVE, scoped to one hypothesis; no law). Gates 43 of 43; full suite 7087 passed, 1 failed (the new NEGATIVE arc was not yet routed into the kill graph — its scoped entry added; that test and the 1,414 tests that read the kill graph re-run green), 68 skipped.

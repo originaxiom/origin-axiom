@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**803 recorded closures — of which 636 are CLASSIFIED by mechanism and
+**804 recorded closures — of which 637 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -86,6 +86,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Execution: each script under PYTHONHASHSEED 0-3 in a scratch checkout, output and written files compared with timings removed, three of the written files byte-identical to their tracked copies; two sites settled by reading.` | 1 |  |
 | `Proof with exact computation: the class index is invariant under pullback by any symmetry of the manifold and odd under dualising, so a module with V* isomorphic to sigma^*V has index zero; on Ballas' family (rho_q o iota)^* is conjugate to rho_q for every q > 0 (characters on 2046 words in exact rationals; an explicit intertwiner X(q) by a second route), so every reductive module made from rho_q with any central twist has index zero.` | 1 |  |
 | `Computation to completion with B1418's own driver, budget lifted: 6 435 modules, none NOT RUN; index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3; agreement 3 110/3 110 with B1418's banked rows and 6 435/6 435 with the sep16 lane's xB031.` | 1 |  |
+| `Tabulation of two banked results (B1438/B1439's own-level census joined to B1479's table), sealed first: 375 of 379 + states and 379 of 379 - states carry a firing module; 49 and 46 a generation-shaped background; on the 34 amphichiral words 32 and 34 fire. Sealed Q1 and Q3 fail, Q2 holds.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

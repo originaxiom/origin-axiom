@@ -1049,3 +1049,14 @@ B1407, B429, B713, B760, B959, B960 — scope addenda owed in B1477), which may 
 ones, and 39 kills that say "the object" for an m004 result; every wall the programme hit and was discouraged by (B849's
 2-torsion, B713's "chirality is not in the amphichiral object", the value doors) was a member's wall, and the family
 carries what the member cannot (B1418's indices; B1474/B1475's spin swap on seven siblings).
+
+## The listening log — a sealed report-everything run, with a base rate (adopted 2026-10-07, B1480; the web seat's method)
+
+**The practice.** Instead of asking an object one question, run the principle's act step by step and record every native
+invariant at every step, with the analysis fixed and sealed before the first step is computed. **Two conditions, both
+from the method's own first day:** (1) the record is swept first, in its own vocabulary — the first log "largely
+re-found the July breath campaigns" (B469, B470, B479, B596, B701, B732) because it was not; (2) a base rate is logged
+beside the object of interest — the first log ran silver and bronze beside golden, and that is what showed that almost
+everything the golden act does is shared. **Why it is adopted:** measured, not preferred — on its first day it surfaced
+the walk m004, m206, s961, t12839, o10_150696, which led to the sign law (B1479). **What it is not:** a licence to
+interpret; a log reports, and anything it suggests is sealed as a prediction before it is tested.

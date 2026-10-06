@@ -11121,5 +11121,22 @@
    "reach": "single",
    "hypotheses": "the same instrument as B1418; m = 4, 5, 6 read from the lane, not re-run"
   }
+ },
+ {
+  "id": "B1480",
+  "claim_killed": "That at own level, on the primitive word states to length 12 in the Standard-Model frame, the class index's firing is carried by one sign of the word (the sign B1479 found to be the fermionic bit).",
+  "kill_form": "Tabulation of two banked results (B1438/B1439's own-level census joined to B1479's table), sealed first: 375 of 379 + states and 379 of 379 - states carry a firing module; 49 and 46 a generation-shaped background; on the 34 amphichiral words 32 and 34 fire. Sealed Q1 and Q3 fail, Q2 holds.",
+  "hatch": "levels above the first (m004's first backgrounds are at level 3); another frame; and above all the index under the mirror's swap of spin structures on a - state (B1459 reverses the index under a meridian sign twist) -- the next sealed cell; the unpredicted asymmetry among amphichiral words (generation-shaped backgrounds on eight + states and one - state) on a longer range.",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-07), for tests/test_b833_negative_routing.py",
+  "note": "The crossing plan's first item. A negative about one hypothesis at one level in one frame; it says nothing about the family beyond the 758 own-level states read.",
+  "faces_consulted": "B1479 (the sign law); B1438, B1439 (the census, used as banked); B1458 (the own-level law is not a function of torsion and sign alone); B1459 (the index under a meridian sign).",
+  "fact_computed": "True",
+  "scope": {
+   "frame": "F-CI (the class index of the Standard-Model frame's sector modules)",
+   "object": "the 758 own-level word states to length 12 of B1438/B1439 (X_gen)",
+   "reach": "class",
+   "hypotheses": "own level only; one frame; banked census, no index recomputed"
+  }
  }
 ]

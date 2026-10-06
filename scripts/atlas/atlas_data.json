@@ -9983,6 +9983,33 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1480": {
+   "slug": "the index against the sign",
+   "motifs": [
+    "measurement",
+    "figure_eight",
+    "trace_map",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B107",
+    "B587",
+    "B600",
+    "B732",
+    "B734",
+    "B794",
+    "B904",
+    "B929",
+    "B931",
+    "B96"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [
