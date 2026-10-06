@@ -17661,3 +17661,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - B1542 sealed: the counts on the four degree-60 covers of m003 with room 3 and 4. It has controls K1–K7 and the load-bearing
   inputs LB1–LB7. No count is read yet.
 - Next: sm:B1541's read-out, once; B1542's identity and run; sm:B1538's records regenerated against their sha-256s, then banked.
+
+## 2026-10-06 — B1541 banked: the count on the room (NEGATIVE, scoped), with an independent audit
+
+- The read-out ran once (12:42:48Z): no generic class of N₄₅'s 42 subspaces is generation-shaped; P1–P3 and P6 hold.
+- Route F, separate code on a second presentation at three other primes, agrees at 54 of 54 readings before the bank (NO
+  NEGATIVE FROM A BUG). The seal had not named that route: ERROR_LEDGER, rule slip.
+- The golden lift stated: on a 5-fold cyclic cover the frame's pulled-back counts are sums over five members below.
+- B1542 (the degree-60 covers) runs. Next: its read-out and audit; sm:B1538's records regenerated; the counts at sm:B1538's
+  room-three members.

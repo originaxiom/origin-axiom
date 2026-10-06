@@ -10094,27 +10094,24 @@
    "slug": "the count on the room",
    "motifs": [
     "monoid",
+    "closing",
+    "metallic",
     "golden",
     "z3_generation",
-    "torsion",
-    "wrt_quantum"
+    "torsion"
    ],
    "refs": [
-    "B837",
     "K1",
-    "K2",
-    "K3",
-    "K4",
-    "K5",
     "K6",
     "P1",
+    "P2",
     "P3",
     "P4",
     "P5",
     "P6"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 2,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },

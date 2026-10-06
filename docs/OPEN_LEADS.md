@@ -4063,6 +4063,16 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
        (room 4), along an order-6 character through the fibration. They are four covers of m003 up to conjugacy.
      - m004 gains nothing from pulled-back characters (best room 1); its own characters are sm:B1539's.
      - Next, sealed first: the counts at the classes on N₄₅ (sm:B1541, running) and on the degree-60 covers.
+   - **The count on N₄₅: sm:B1541 banked (2026-10-06), NEGATIVE scoped.** At N₄₅'s trivial character no generic class of the
+     42 subspaces read (the 32 cusp strata, the deck group's five eigenspaces and their interior parts) has a generation-shaped
+     count. The generic counts run from (4, −10) to (5, −5) on the strata, with (0, −5), (−1, −10), (5, −5) and (3, −10) on the
+     eigenspaces. Route F, an independent audit (separate code, a second presentation, three other primes), agrees at 54 of 54
+     readings. n(Λ²W*) = n(ρ) = 18 at every class read, so (−3, −3) would need n(Λ²W) = 15; the classes read reach 13.
+     - Open on N₄₅: the special classes of each subspace, and N₄₅'s other characters.
+     - The golden lift (sm:B1541 §5.2): the frame is closed under twisting by μ exactly when μ⁵ = 1, so on a 5-fold cyclic
+       cover a pulled-back class counts as the sum of its five members below. Banked rows fix that sum for the pulled-back
+       class on every banked cover; 210 cosets, none generation-shaped (read while designing, to be banked by its arc).
+     - Next: the degree-60 covers (sm:B1542, sealed and running); then sm:B1538's room-three members of the silver pair.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

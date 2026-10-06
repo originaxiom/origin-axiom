@@ -16,6 +16,10 @@ view can quietly imply completeness it does not have.
 | kill records resolving to an arc | **780** | 827 | 94 % |
 | kill records with no arc directory | **47** | 827 | 6 % |
 
+## Negatives absent from `kill_graph`
+
+Found among the authored arcs: `B1541`.
+
 ### Measured (B801), not merely flagged
 
 A seeded random sample of **60** of the **557** arcs with findings and no kill record found **12** negatives (p = 0.20, 95 % CI 0.10–0.30).

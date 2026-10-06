@@ -1,6 +1,6 @@
 {
  "id": "B1541",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1536",
@@ -20,14 +20,13 @@
   "object": "N_45, the 5-fold cyclic cover of m003's degree-9 cover d9.2 along the order-5 character pulled back from m003's Z/5 torsion (degree 45, five cusps; (n(1), n(rho)) = (4, 18), room 5), at its trivial character: the classes of H^1(N_45; rho) (dimension 23) in 42 subspaces (the 32 cusp strata and the deck group's five eigenspaces with their interior parts), three generic draws each, and the class pulled back from m003",
   "reach": "class",
   "hypotheses": [
-   "sealed: no count has been read except the pulled-back class's, which the banked rows fix at (0, 0); this record is replaced at the bank",
    "at the hyperbolic point and the trivial character of N_45 only",
-   "generic classes of the 42 subspaces read; the special classes inside each subspace (where the count can jump) and other subspaces are not covered",
+   "generic classes of the 42 subspaces read (the 32 cusp strata, the deck group's five eigenspaces and their interior parts); the special classes inside each subspace (where the count can jump) and other subspaces are not covered",
    "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question",
-   "other characters of N_45 and other covers with room for three are not covered (the seal's section 10)"
+   "other characters of N_45 and other covers with room for three are not covered"
   ]
  },
- "claim_one_line": "THE COUNT ON THE ROOM, SEALED: on N_45, the degree-45 cover of m003 (the 5-fold cyclic cover of d9.2 along the order-5 character from m003's Z/5 torsion) where room for three first appears ((n(1), n(rho)) = (4, 18), room 5, fixed by sm:B1536's banked rows and Lemma A and read directly), which counts (I(W), I(L2W)) does the frame give at the classes of H^1(N_45; rho) (dimension 23 = 3 + 4 x 5 over the deck group's eigenspaces)? Read at three generic draws in each of 42 subspaces (sm:B1536's Part O cusp strata on N_45 and the deck group's eigenspaces with their interior parts), in route N (Shapiro on m003, p_N) and route R (N_45's presentation: the same class transported at p_N, and its own classes at p_R), and at the pulled-back class (fixed at (0, 0) by the banked rows). Controls K1-K6 hold; a pre-seal int64 overflow in route R's eigenspace projection at p_R was caught by K2 and fixed. Predictions P1-P6 with priors (P4 generation-shaped 20%, P5 three 7%); PROVED if a class reads (-3, -3) in two routes at the same class; NEGATIVE (scoped to the generic classes read) if none is generation-shaped. No count read but the fixed one. 0 of 19.",
+ "claim_one_line": "THE COUNT ON THE ROOM: on N_45, the degree-45 cover of m003 where room for three first appears ((n(1), n(rho)) = (4, 18), room 5), no generic class of the 42 subspaces read carries a generation-shaped count of the frame (NEGATIVE, scoped, run as sealed; read out once 2026-10-06 12:42Z after the run was repeated from the start, its first record lost unread with the seat's container). P1, P2, P3, P6 hold (the transport agrees at every class; one count per subspace across draws, routes and primes; every identity; the pulled-back class (0, 0)); P4 and P5 False. The generic counts: cusp strata (4, -10) for at most two free cusps, (5, -7), (5, -6), (5, -5) for three, four, five; the deck group's eigenspaces zeta^0 (0, -5), interior (-1, -10), zeta^1..4 (5, -5), interiors (3, -10). Route F, the independent audit (separate code, a second presentation, three other primes), returns the run's count at all 54 of its readings, all non-zero. n(L2W*) = n(rho) = 18 at every class read. 4 of 6 predictions held (4.12 expected). 0 of 19.",
  "prior_work": {
   "repo": {
    "heads": {
@@ -91,5 +90,71 @@
    ]
   },
   "standing": "EXTENDS"
- }
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "N_45 is the cover with room 5 (sm:B1540's room_n45.json; the golden covers dossier's section 7)",
+   "source": "sm:B1540",
+   "status": "VERIFIED",
+   "check": "frontier/B1541_the_count_on_the_room/verification/controls.py",
+   "how": "K1: degree 45, five cusps, tau of order 5 commuting with Gamma, (n(1), n(rho)) = (4, 18) in route N and route R; route F (audit_f.py) reads n(rho) = 18 and n(1) = 4 again at three primes"
+  },
+  {
+   "id": "LB2",
+   "input": "Shapiro's lemma with Mackey at the cusps (route N reads H^1(N_45; rho) as H^1(m003; rho (x) C[X]))",
+   "source": "sm:B1536's Lemma S', sm:B1532",
+   "status": "VERIFIED",
+   "check": "frontier/B1541_the_count_on_the_room/verification/audit_f.py",
+   "how": "P1 at every class (route R at p_N on N_45's own presentation); and route F, which uses no Shapiro map, reads the same counts on N_45's own complex in nine subspaces at three primes"
+  },
+  {
+   "id": "LB3",
+   "input": "Lemma A's split of H^1 over the deck group",
+   "source": "the seal's section 3",
+   "status": "VERIFIED",
+   "check": "frontier/B1541_the_count_on_the_room/verification/audit_f.py",
+   "how": "K2 in routes N and R; route F reads the eigenspaces (3, 5, 5, 5, 5) with its own deck action at three primes"
+  },
+  {
+   "id": "LB4",
+   "input": "the frame's identities and Theorem C's bounds",
+   "source": "sm:B1535, sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1541_the_count_on_the_room/verification/read_out.py",
+   "how": "P3: every reading's identities and caps, from its own ranks"
+  },
+  {
+   "id": "LB5",
+   "input": "Lemma G: one generic count per subspace",
+   "source": "the seal's section 3",
+   "status": "VERIFIED",
+   "check": "frontier/B1541_the_count_on_the_room/verification/read_out.py",
+   "how": "P2: three draws per subspace in route N at p_N and route R at p_R give one count; route F's two draws at each of three other primes agree"
+  },
+  {
+   "id": "LB6",
+   "input": "the state's group is the census manifold m003's",
+   "source": "sm:B1527, SnapPy's census",
+   "status": "VERIFIED",
+   "check": "frontier/B1542_the_count_at_the_eisenstein_order/verification/controls.py",
+   "how": "sm:B1542's K7 (same state, same cover_lib.state): subgroup counts to index 7 against SnapPy's m003, m004 as the control that can fail; b+-LR isometric to m003"
+  },
+  {
+   "id": "LB7",
+   "input": "the four is a representation of the state's group with unipotent cusps, as built from the exact holonomy (its action on Hermitian forms)",
+   "source": "sm:B1530's exact_states, sm:B1515",
+   "status": "VERIFIED",
+   "check": "frontier/B1541_the_count_on_the_room/verification/route_f.py",
+   "how": "route F rebuilds the four mod p from the exact holonomy entries with its own code and checks it on the two-generator presentation's relator, on b's word, and as unipotent on the commuting cusp words"
+  },
+  {
+   "id": "LB8",
+   "input": "the exact holonomy is the hyperbolic one (not another parabolic representation)",
+   "source": "sm:B1527's family_lib.hyperbolic_sl2, read exactly by sm:B1530's exact_states",
+   "status": "VERIFIED",
+   "check": "frontier/B1527_the_cusp_decides/verification/family_lib.py",
+   "how": "the representation is the monodromy's fixed point whose cusp shape matches SnapPy's for b+-LR (m003) to 1e-9, found at 60 digits; sm:B1530's eisenstein_sl2 reads each entry exactly within 1e-50 (frontier/B1530_the_interior_extensions/verification/exact_states.py), and cover_lib.state checks the relators and parabolic cusps exactly"
+  }
+ ]
 }

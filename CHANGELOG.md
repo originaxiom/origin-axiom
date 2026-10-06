@@ -1,5 +1,34 @@
 # Changelog
 
+## B1541 banked: THE COUNT ON THE ROOM — on N₄₅ no generic class of the 42 subspaces read is generation-shaped (NEGATIVE, scoped; run as sealed), confirmed by an independent route
+
+- **The run.** The banked identity held again in the new container. The sealed run was repeated from the start (its first
+  record was lost unread with the old container), and its record was committed unread. `read_out.py` ran once, at 12:42:48Z.
+- **The verdict, by the seal's §9: NEGATIVE, scoped.** P1, P2, P3 and P6 hold, and P4 and P5 are False; 4 of 6 against 4.12
+  expected.
+  - Route R reads route N's transported class with the same count at every class.
+  - Each subspace gives one count.
+  - Every identity holds.
+  - The pulled-back class reads (0, 0).
+  - No class read is generation-shaped.
+- **The counts.**
+  - Cusp strata: (4, −10) with at most two free cusps, (5, −7) with three, (5, −6) with four, (5, −5) with all five.
+  - The deck group's eigenspaces: ζ⁰ (0, −5), its interior (−1, −10); ζ¹ to ζ⁴ (5, −5), their interiors (3, −10).
+  - n(Λ²W*) = n(ρ) = 18 at every class read, so (−3, −3) would need n(Λ²W) = 15; the classes read reach 13.
+- **Route F, the independent audit** that NO NEGATIVE FROM A BUG requires before the bank.
+  - Separate code: numpy and the standard library only.
+  - A second presentation: b eliminated by Tietze, read on the lifted 2-complex with no Schreier rewriting.
+  - Three other primes.
+  - It returns the run's count at all 54 of its readings, every one non-zero, and N₄₅'s structure at every prime.
+- **The golden lift** (FINDINGS §5.2). The frame is closed under twisting by μ exactly when μ⁵ = 1. So on a 5-fold cyclic cover,
+  a pulled-back class counts as the sum of its five members below.
+- **Disclosed**:
+  - the first run lost unread;
+  - the seal did not name its independent route (ERROR_LEDGER, rule slip);
+  - the banked rows' golden-lift sums for the pulled-back class (210 cosets, none generation-shaped), read while designing the
+    next arcs.
+- Open on N₄₅: special classes, and other characters. 0 of 19.
+
 ## B1542 sealed: THE COUNT AT THE EISENSTEIN ORDER — the frame's counts at the classes of H¹(N; ρ) on the four degree-60 covers of m003 with room 3 and 4; and the owner's rule of 2026-10-06 adopted
 
 - **The rule** (WORKING_RULES, 2026-10-06): load-bearing mathematics is re-derived by own code, even when published. The owner:

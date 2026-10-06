@@ -23,8 +23,8 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1289** |
-| words of findings prose | **1,118,714** |
-| test lock files referenced | **787** |
+| words of findings prose | **1,120,504** |
+| test lock files referenced | **788** |
 | arcs carrying an authored verdict | **1289** (100.0 %) |
 | recorded closures | **827** (660 classified, 167 routed-only) |
 
@@ -37,8 +37,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 857 |
-| NEGATIVE | 330 |
-| OPEN | 91 |
+| NEGATIVE | 331 |
+| OPEN | 90 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE ROOM FOR THREE, AT THE GOLDEN AND THE EISENSTEIN ORDERS: summed by Lemma A over the pulled-back characters of sm:B1536's thirty room covers, the banked rows give room min(capW, capL2) >= 3 at the trivial character of seven cyclic covers of m003, each read directly by route N (Shapiro on m003), route R (the cover's own presentation, another prime) and integer homology: N_45 (m003's d9.2 along the order-5 character from m003's Z/5 torsion, over Q(zeta_5) which contains Q(phi)) has (n(1), n(rho)) = (4, 18), room 5, H_1 = Z^9 + (Z/2)^2 with five cusps, and the count (0, 0) at its pulled-back class; six covers of degree 60 (the 6-fold cyclic covers of m003's d10.13, d10.14, d10.36, d10.38 and d10.16, d10.40 along a pulled-back order-6 character through the fibration, over Q(sqrt(-3))) have (3, 3), room 3, and (3, 7), room 4, H_1 = Z^9 or Z^7 + Z/4 + Z/12, four covers of m003 up to conjugacy. On m004 the pulled-back characters restrict trivially (room 1). sm:B1536 found room 2 at most to degree 12. Room is not a count; N_45's classes are sm:B1541's sealed question and the degree-60 covers' are next. 0 of 19.  
 `B1540_the_room_for_three/FINDINGS.md`
 
-**NEGATIVE — `B1536`** (3388 words, 1 locks)  
-THE FINITE COVERS, run as sealed (9c28d076; the addendum beside the seal at eeb20c44; sL-10 item 16, sm:B1535's Corollary C3, second place): no connected finite cover of degree <= 12 of m004 (176) or m003 (148), and no cover in their Q8 towers (m = 1, 2, 3, 4, 6, 9, 12, 18), carries three generations of sm:B1515's frame at a pulled-back character of finite order (8,148 and 35,100 characters, Lemma Z''), at any class. Routes N (the cover read on the base by Lemmas S' and O, FLINT) and R (the cover's own Reidemeister-Schreier presentation, PARI) share no linear algebra; both read the whole population and agree on all 43,248 rows, 1,228 Part P readings and 176 Part O strata, with every identity and Theorem C cap holding. No member has both caps >= 3: the largest min(capW, capL2) is 1 on m004 and 2 on m003, reached at the trivial character of sixteen non-abelian degree-10 covers of m003 (n(1) = 1, n(rho) = 2); capL2 reaches 4 on m003's degree-9 cover d9.2 at its order-5 characters with capW = 1. No count read is generation-shaped, at the pulled-back class or at the cover's own classes. On the Q8 towers the line is Proposition Q's (n(1) = 4 at kappa = 1: m004 at m = 6, 12, 18; m003 at m = 12) but n(rho) = 0 at every m: the four is the bottleneck. Eight of ten predictions held (P4 and P6 fail: both supplies have interior classes at the trivial character on non-abelian covers, from degree 5 on m003). NEGATIVE on three for this population. 0 of 19.  
-`B1536_the_finite_covers/FINDINGS.md`
+**NEGATIVE — `B1541`** (2405 words, 1 locks)  
+THE COUNT ON THE ROOM: on N_45, the degree-45 cover of m003 where room for three first appears ((n(1), n(rho)) = (4, 18), room 5), no generic class of the 42 subspaces read carries a generation-shaped count of the frame (NEGATIVE, scoped, run as sealed; read out once 2026-10-06 12:42Z after the run was repeated from the start, its first record lost unread with the seat's container). P1, P2, P3, P6 hold (the transport agrees at every class; one count per subspace across draws, routes and primes; every identity; the pulled-back class (0, 0)); P4 and P5 False. The generic counts: cusp strata (4, -10) for at most two free cusps, (5, -7), (5, -6), (5, -5) for three, four, five; the deck group's eigenspaces zeta^0 (0, -5), interior (-1, -10), zeta^1..4 (5, -5), interiors (3, -10). Route F, the independent audit (separate code, a second presentation, three other primes), returns the run's count at all 54 of its readings, all non-zero. n(L2W*) = n(rho) = 18 at every class read. 4 of 6 predictions held (4.12 expected). 0 of 19.  
+`B1541_the_count_on_the_room/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
