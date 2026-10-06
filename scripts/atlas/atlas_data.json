@@ -10213,6 +10213,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1546": {
+   "slug": "the low rank classes",
+   "motifs": [
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "K0",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7",
+    "L0",
+    "L3",
+    "P1",
+    "P4",
+    "P5",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B154": {
    "slug": "silver bundle foundation",
    "motifs": [

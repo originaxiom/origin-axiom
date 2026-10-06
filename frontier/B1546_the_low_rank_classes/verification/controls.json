@@ -1,0 +1,988 @@
+{
+ "prime (route F)": 67108201,
+ "prime (route R)": 2147482801,
+ "K1": {
+  "F": {
+   "structure": {
+    "Proposition L holds": true,
+    "dim V_j^int": [
+     2,
+     4,
+     4,
+     4,
+     4
+    ],
+    "dim (K_-j)^int": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dim Kc0": 10,
+    "Kc0 meets K0 in": 0,
+    "image on Kc0": 4,
+    "eigen-lines (classes, cup rank)": {
+     "u1": [
+      1,
+      1
+     ],
+     "w1": [
+      1,
+      2
+     ],
+     "u2": [
+      1,
+      1
+     ],
+     "w2": [
+      1,
+      2
+     ],
+     "u3": [
+      1,
+      1
+     ],
+     "w3": [
+      1,
+      2
+     ],
+     "u4": [
+      1,
+      1
+     ],
+     "w4": [
+      1,
+      2
+     ],
+     "va": [
+      1,
+      2
+     ],
+     "vb": [
+      1,
+      2
+     ]
+    },
+    "entries of F filled by each eigen-line": {
+     "va": [
+      [
+       1,
+       1
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "vb": [
+      [
+       2,
+       2
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     "u1": [
+      [
+       3,
+       2
+      ]
+     ],
+     "w1": [
+      [
+       2,
+       1
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     "u2": [
+      [
+       1,
+       4
+      ]
+     ],
+     "w2": [
+      [
+       3,
+       1
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     "u3": [
+      [
+       4,
+       1
+      ]
+     ],
+     "w3": [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     "u4": [
+      [
+       2,
+       3
+      ]
+     ],
+     "w4": [
+      [
+       1,
+       2
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    "K0(S) for the ten three-cusp sets (classes, support = S)": [
+     1,
+     true
+    ],
+    "Lemma M's input: the cup rank on the line's interior classes (n(1), at v_a, v_b, u_j, w_j and a generic class of V_0^int)": {
+     "n(1)": 4,
+     "u1": 1,
+     "w1": 2,
+     "u2": 1,
+     "w2": 2,
+     "u3": 1,
+     "w3": 2,
+     "u4": 1,
+     "w4": 2,
+     "va": 2,
+     "vb": 2,
+     "generic V_0^int": 4
+    },
+    "cusp labels": [
+     0,
+     1,
+     2,
+     4,
+     5
+    ],
+    "tau on the cusps": {
+     "0": 1,
+     "1": 4,
+     "2": 5,
+     "4": 2,
+     "5": 0
+    }
+   },
+   "Proposition L (the checks)": {
+    "dim V_j^int": [
+     2,
+     4,
+     4,
+     4,
+     4
+    ],
+    "L0: dim H2_t": [
+     2,
+     4,
+     4,
+     4,
+     4
+    ],
+    "L0: the sum is direct": true,
+    "L1a: pencil rank 2 at every y; kernels in K_-j": {
+     "j=1,m=1": [
+      true,
+      true
+     ],
+     "j=1,m=2": [
+      true,
+      true
+     ],
+     "j=1,m=3": [
+      true,
+      true
+     ],
+     "j=2,m=1": [
+      true,
+      true
+     ],
+     "j=2,m=2": [
+      true,
+      true
+     ],
+     "j=2,m=4": [
+      true,
+      true
+     ],
+     "j=3,m=1": [
+      true,
+      true
+     ],
+     "j=3,m=3": [
+      true,
+      true
+     ],
+     "j=3,m=4": [
+      true,
+      true
+     ],
+     "j=4,m=2": [
+      true,
+      true
+     ],
+     "j=4,m=3": [
+      true,
+      true
+     ],
+     "j=4,m=4": [
+      true,
+      true
+     ]
+    },
+    "L1b: V_0^int's blocks have rank <= 1 (0 on E_0)": true,
+    "dim (K_-j)^int": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "L2: dim of the image on Kc": 4,
+    "L2: image meets H2_t in": {
+     "0": 0,
+     "1": 1,
+     "2": 1,
+     "3": 1,
+     "4": 1
+    },
+    "L2: on Kc0 each slot lies along one f_m and the E_0 column vanishes": true,
+    "L2: H vanishes on Kc0": true,
+    "L2: gamma_j^3 in the ideal of H's 3 x 3 minors": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "L3: u_j fills (3j, 2j); w_j, v_a, v_b fill a pair (t, m), (5-m, 5-t); the lines fill all 16 entries": [
+     true,
+     true,
+     true
+    ],
+    "L3: the pair ratios are a coboundary (persymmetric after scaling)": true,
+    "L3: supports": {
+     "va": [
+      [
+       1,
+       1
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "vb": [
+      [
+       2,
+       2
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     "u1": [
+      [
+       3,
+       2
+      ]
+     ],
+     "w1": [
+      [
+       2,
+       1
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     "u2": [
+      [
+       1,
+       4
+      ]
+     ],
+     "w2": [
+      [
+       3,
+       1
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     "u3": [
+      [
+       4,
+       1
+      ]
+     ],
+     "w3": [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     "u4": [
+      [
+       2,
+       3
+      ]
+     ],
+     "w4": [
+      [
+       1,
+       2
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   }
+  },
+  "R": {
+   "structure": {
+    "Proposition L holds": true,
+    "dim V_j^int": [
+     2,
+     4,
+     4,
+     4,
+     4
+    ],
+    "dim (K_-j)^int": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dim Kc0": 10,
+    "Kc0 meets K0 in": 0,
+    "image on Kc0": 4,
+    "eigen-lines (classes, cup rank)": {
+     "u1": [
+      1,
+      1
+     ],
+     "w1": [
+      1,
+      2
+     ],
+     "u2": [
+      1,
+      1
+     ],
+     "w2": [
+      1,
+      2
+     ],
+     "u3": [
+      1,
+      1
+     ],
+     "w3": [
+      1,
+      2
+     ],
+     "u4": [
+      1,
+      1
+     ],
+     "w4": [
+      1,
+      2
+     ],
+     "va": [
+      1,
+      2
+     ],
+     "vb": [
+      1,
+      2
+     ]
+    },
+    "entries of F filled by each eigen-line": {
+     "va": [
+      [
+       1,
+       1
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "vb": [
+      [
+       2,
+       2
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     "u1": [
+      [
+       3,
+       2
+      ]
+     ],
+     "w1": [
+      [
+       2,
+       1
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     "u2": [
+      [
+       1,
+       4
+      ]
+     ],
+     "w2": [
+      [
+       3,
+       1
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     "u3": [
+      [
+       4,
+       1
+      ]
+     ],
+     "w3": [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     "u4": [
+      [
+       2,
+       3
+      ]
+     ],
+     "w4": [
+      [
+       1,
+       2
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    "K0(S) for the ten three-cusp sets (classes, support = S)": [
+     1,
+     true
+    ],
+    "Lemma M's input: the cup rank on the line's interior classes (n(1), at v_a, v_b, u_j, w_j and a generic class of V_0^int)": {
+     "n(1)": 4,
+     "u1": 1,
+     "w1": 2,
+     "u2": 1,
+     "w2": 2,
+     "u3": 1,
+     "w3": 2,
+     "u4": 1,
+     "w4": 2,
+     "va": 2,
+     "vb": 2,
+     "generic V_0^int": 4
+    },
+    "cusp labels": [
+     0,
+     1,
+     2,
+     4,
+     5
+    ],
+    "tau on the cusps": {
+     "0": 1,
+     "1": 4,
+     "2": 5,
+     "4": 2,
+     "5": 0
+    }
+   },
+   "Proposition L (the checks)": {
+    "dim V_j^int": [
+     2,
+     4,
+     4,
+     4,
+     4
+    ],
+    "L0: dim H2_t": [
+     2,
+     4,
+     4,
+     4,
+     4
+    ],
+    "L0: the sum is direct": true,
+    "L1a: pencil rank 2 at every y; kernels in K_-j": {
+     "j=1,m=1": [
+      true,
+      true
+     ],
+     "j=1,m=2": [
+      true,
+      true
+     ],
+     "j=1,m=3": [
+      true,
+      true
+     ],
+     "j=2,m=1": [
+      true,
+      true
+     ],
+     "j=2,m=2": [
+      true,
+      true
+     ],
+     "j=2,m=4": [
+      true,
+      true
+     ],
+     "j=3,m=1": [
+      true,
+      true
+     ],
+     "j=3,m=3": [
+      true,
+      true
+     ],
+     "j=3,m=4": [
+      true,
+      true
+     ],
+     "j=4,m=2": [
+      true,
+      true
+     ],
+     "j=4,m=3": [
+      true,
+      true
+     ],
+     "j=4,m=4": [
+      true,
+      true
+     ]
+    },
+    "L1b: V_0^int's blocks have rank <= 1 (0 on E_0)": true,
+    "dim (K_-j)^int": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "L2: dim of the image on Kc": 4,
+    "L2: image meets H2_t in": {
+     "0": 0,
+     "1": 1,
+     "2": 1,
+     "3": 1,
+     "4": 1
+    },
+    "L2: on Kc0 each slot lies along one f_m and the E_0 column vanishes": true,
+    "L2: H vanishes on Kc0": true,
+    "L2: gamma_j^3 in the ideal of H's 3 x 3 minors": [
+     true,
+     true,
+     true,
+     true
+    ],
+    "L3: u_j fills (3j, 2j); w_j, v_a, v_b fill a pair (t, m), (5-m, 5-t); the lines fill all 16 entries": [
+     true,
+     true,
+     true
+    ],
+    "L3: the pair ratios are a coboundary (persymmetric after scaling)": true,
+    "L3: supports": {
+     "va": [
+      [
+       1,
+       1
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "vb": [
+      [
+       2,
+       2
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     "u1": [
+      [
+       3,
+       2
+      ]
+     ],
+     "w1": [
+      [
+       2,
+       1
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     "u2": [
+      [
+       1,
+       4
+      ]
+     ],
+     "w2": [
+      [
+       3,
+       1
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     "u3": [
+      [
+       4,
+       1
+      ]
+     ],
+     "w3": [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     "u4": [
+      [
+       2,
+       3
+      ]
+     ],
+     "w4": [
+      [
+       1,
+       2
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   }
+  },
+  "holds": true
+ },
+ "K2": {
+  "readings (subspace, cochain rank, LES rank)": {
+   "F": [
+    [
+     "Z1",
+     1,
+     1
+    ],
+    [
+     "Z2",
+     2,
+     2
+    ],
+    [
+     "X:S=0,1,2",
+     1,
+     1
+    ],
+    [
+     "u1",
+     1,
+     1
+    ],
+    [
+     "w1",
+     2,
+     2
+    ],
+    [
+     "va",
+     2,
+     2
+    ]
+   ],
+   "R": [
+    [
+     "Z1",
+     1,
+     1
+    ],
+    [
+     "Z2",
+     2,
+     2
+    ],
+    [
+     "X:S=0,1,2",
+     1,
+     1
+    ],
+    [
+     "u1",
+     1,
+     1
+    ],
+    [
+     "w1",
+     2,
+     2
+    ],
+    [
+     "va",
+     2,
+     2
+    ]
+   ]
+  },
+  "holds": true
+ },
+ "K7": {
+  "F": {
+   "squares (cup rank, support)": [
+    [
+     1,
+     []
+    ],
+    [
+     1,
+     []
+    ],
+    [
+     1,
+     []
+    ]
+   ],
+   "a sum of two (cup rank)": 2,
+   "a square plus K0(S=0,1,2) (cup rank, support)": [
+    1,
+    [
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "R": {
+   "squares (cup rank, support)": [
+    [
+     1,
+     []
+    ],
+    [
+     1,
+     []
+    ],
+    [
+     1,
+     []
+    ]
+   ],
+   "a sum of two (cup rank)": 2,
+   "a square plus K0(S=0,1,2) (cup rank, support)": [
+    1,
+    [
+     0,
+     1,
+     2
+    ]
+   ]
+  },
+  "holds": true
+ },
+ "K3": {
+  "F": {
+   "interior": [
+    4,
+    -10
+   ],
+   "zeta^0 interior": [
+    -1,
+    -10
+   ],
+   "zeta^1 interior": [
+    3,
+    -10
+   ],
+   "K0(S=0,1,2)": [
+    0,
+    0
+   ]
+  },
+  "R": {
+   "interior": [
+    4,
+    -10
+   ],
+   "zeta^0 interior": [
+    -1,
+    -10
+   ],
+   "zeta^1 interior": [
+    3,
+    -10
+   ],
+   "K0(S=0,1,2)": [
+    0,
+    0
+   ]
+  },
+  "banked": {
+   "interior": [
+    4,
+    -10
+   ],
+   "zeta^0 interior": [
+    -1,
+    -10
+   ],
+   "zeta^1 interior": [
+    3,
+    -10
+   ],
+   "K0(S=0,1,2)": [
+    0,
+    0
+   ]
+  },
+  "holds": true
+ },
+ "K6": {
+  "F": {
+   "count": [
+    5,
+    -5
+   ],
+   "support": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "lemma F": {
+    "m": 5,
+    "h0(dN;W*)": 10,
+    "h0(dN;W)": 5,
+    "r1(W)": 4,
+    "h1(dN;W)": 15
+   },
+   "holds": true
+  },
+  "R": {
+   "count": [
+    5,
+    -5
+   ],
+   "support": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "lemma F": {
+    "m": 5,
+    "h0(dN;W*)": 10,
+    "h0(dN;W)": 5,
+    "r1(W)": 4,
+    "h1(dN;W)": 15
+   },
+   "holds": true
+  },
+  "holds": true
+ },
+ "K4": {
+  "cases": 13,
+  "holds": true,
+  "each": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ "K5": {
+  "cusps (orbit sizes)": [
+   9,
+   9,
+   9,
+   9,
+   9
+  ],
+  "holds": true
+ },
+ "all hold": true,
+ "seconds": 129.9
+}

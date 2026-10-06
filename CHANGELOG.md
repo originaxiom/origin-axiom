@@ -1,5 +1,20 @@
 # Changelog
 
+## B1546 sealed: THE LOW-RANK CLASSES — where three can still live on N₄₅ at the trivial character (cup rank one or two), mapped by Proposition L and to be read
+
+- **Proposition L** (proved at design time, exact mod p in both routes). The interior classes of N₄₅ of cup rank at most two
+  are, in the deck grading, the classes c of a ten-dimensional space Kc0 whose symmetric 4 × 4 matrix S(c) has rank at most
+  two. S is a linear isomorphism onto the symmetric matrices, and rk δ¹_W(c) = rk S(c).
+  - The classes of cup rank one are the squares S(c) = ℓℓᵀ, a 4-dimensional family. Those of rank at most two form a
+    7-dimensional one.
+  - The ten eigen-lines found first are its unit matrices.
+- **Where three can live.** With Corollary F′ and sm:B1544, every class reading I(W) = −3 lies in Z1 (the squares), Z2 (rank at
+  most two) or one of ten families Z1 + K0(S). A family's generic class has its least I(W) (Lemma G‴).
+- **Lemma M.** At an interior class of Kc0, I(W) = −1 − μ, with μ ≥ 0 a Massey-type boundary rank. Three there needs μ = 2.
+- **The run (not started)**: three classes per subspace per route, route F and route R; 22 subspaces, 66 tasks, 132 readings.
+  Controls K1–K7 hold. P5 (the floor) 40%, P7 (three) 5%. NEGATIVE would mean N₄₅ carries no three at the trivial character.
+- No count at a class of cup rank one or two read. 0 of 19.
+
 ## B1545 banked: THE FLOOR AT EVERY MEMBER — I(W₁) ≥ k − m_A − b0 at every finite-order member; sm:B1538's four room-3 covers of the silver pair carry no three
 
 - **Lemma F at members** (proved; THEOREM_REGISTRY T-THE-VANISHING-CUSPS-AT-EVERY-MEMBER). At a finite-order member ν on any

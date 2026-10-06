@@ -17812,3 +17812,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Checked by own code at 288 member readings on 32 covers, and at every character of order dividing 24 on the four covers.
 - sm:B1538's Part L regeneration is running (three workers, from 18:44:59Z). Its records will settle the room census
   Corollary G cites.
+
+## 2026-10-06 — B1546 sealed: the low-rank classes of N₄₅
+
+- Proposition L maps every class of N₄₅ where three can still live at the trivial character. The interior classes of cup rank
+  at most two are a symmetric 4 × 4 matrix's rank locus on a ten-dimensional space: squares (rank one) and their sums.
+- The run reads the generic class of each family (Z1, Z2 and ten Z1 + K0(S)) and the ten eigen-lines, in two routes.
+- sm:B1538's regeneration: Part L regenerated (108 rows); the sealed partial Part F record came out byte for byte; Part F′ is
+  running on three workers.

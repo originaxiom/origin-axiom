@@ -1,0 +1,11 @@
+# B1546 -- sha-256 of the sealed files, recorded at the seal (before run.py read any count at a class of cup rank one or two;
+# the controls K1-K7 read structure and banked counts only). identity.py checks every line first.
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1546_the_low_rank_classes/)
+5ca0e2a62eb9e9d64cd4773b93aa081badd016d281ec814379342969c8ed59f8  PREREGISTRATION.md
+0f08390126e0104a194f9ac10d2d9c62350ee77c6e3c2a4affcf13a5d6de99d2  verification/lowrank_lib.py
+a11f49532d62b43b783ddfc483963554ae52af59aca67eeb22fb6c238f9bf5b9  verification/prop_l.py
+27b07bdb073d91f89a6095d8068597ec8a569bee5d6a50f88c61c4af35b4e65a  verification/run.py
+b4471c347c63d1c2d44f729c901fa9a62154d4aca879e3679f6650723cd5236c  verification/read_out.py
+ca8daf63d34107e5a66c355b772353e2dc627d6235601f3def25ced2f1fcdb32  verification/controls.py
+bab141becab09a8449952ede63cffbb3bf6631950620a003070e9f4e63361b8c  verification/identity.py
+ee7c261698b8a0872a14d2613189776f4e089e47d899b887ef761b0d4fc3365c  verification/controls.json
