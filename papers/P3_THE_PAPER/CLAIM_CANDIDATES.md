@@ -544,6 +544,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1440` | PROVED | L | | THE RANK BOUND. On a once-punctured-torus bundle, any finite-dimensional module V of the fundamental group with no invariants and no coinvariants on the fibre group has c… |
 | `B1444` | PROVED | L | | THE BACKGROUNDS ARE THE REDUCIBLE ENDS OF THE TRACE MAP'S PERIODIC CURVES. A background of the Standard-Model frame carries a reducible non-split rank-two representation … |
 | `B1445` | PROVED | L | | THE MASS TERM ON THE PRODUCT OF TWO CURVES. The Higgs sectors of the frame are singlets of SL(2)_beta, so the SL(2) of a Higgs character eta commutes with it, and the ten… |
+| `B1476` | PROVED | L | | AT CS = 1/4 NO SPIN STRUCTURE SURVIVES THE MIRROR. On every amphichiral cusped manifold tested at Chern-Simons class 1/4 (the family's seven and six outside it) no spin str… |
 
 ## The exhibit that forced the rebuild
 

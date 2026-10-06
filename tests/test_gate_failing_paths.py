@@ -257,3 +257,20 @@ def test_the_short_claim_lane_admits_a_depended_on_arc(monkeypatch):
     monkeypatch.setattr(rsw, "ROOT", str(d))
     ids = sorted(i for i, _, _ in rsw.substantial_arcs())
     assert ids == ["B7", "B9"], ids            # the long claim and the depended-on short one; the in-degree-1 short one stays out
+
+
+def test_member_scope_fails_on_a_new_negative_that_says_the_object_and_spares_a_named_member(tmp_path, monkeypatch):
+    import json as _json
+    mapping = {
+        "frontier/B99996_x/arc_verdict.json": _json.dumps({"id": "B99996", "verdict": "NEGATIVE", "claim_one_line": "the object cannot carry a third generation"}),
+        "frontier/B99997_y/arc_verdict.json": _json.dumps({"id": "B99997", "verdict": "NEGATIVE", "claim_one_line": "m004 cannot carry a third generation; the family is not tested"}),
+        "frontier/B99998_z/arc_verdict.json": _json.dumps({"id": "B99998", "verdict": "PROVED", "claim_one_line": "the object cannot be anything but itself"}),
+    }
+    monkeypatch.setattr(gates.glob, "glob", lambda pat: [os.path.join(gates.ROOT, k) for k in mapping])
+    hits = gates.member_scope_hits(reader=lambda rel: mapping[rel.replace(os.sep, "/")])
+    assert hits == [("B99996", "the object cannot")]
+    monkeypatch.setattr(gates, "MEMBER_SCOPE_BASELINE", 0)
+    ok, msg = gates.gate_member_scope(reader=lambda rel: mapping[rel.replace(os.sep, "/")]); assert not ok and "B99996" in msg
+    monkeypatch.setattr(gates, "MEMBER_SCOPE_BASELINE", 1)
+    ok, _ = gates.gate_member_scope(reader=lambda rel: mapping[rel.replace(os.sep, "/")]); assert ok
+

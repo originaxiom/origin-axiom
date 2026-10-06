@@ -1,0 +1,59 @@
+<pyenv>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+==============================================================================
+(1) B1380: which surfaces with fundamental group F2 can realise sigma or sigma^2?
+==============================================================================
+   compact surfaces with pi_1 = F2: ['S(g=0,b=3)', 'S(g=1,b=1)', 'N(k=1,b=2)', 'N(k=2,b=1)']
+   sigma: trace 1, det -1, discriminant 5  -> eigenvalues irrational reals -0.618034, +1.618034
+      no power 1..60 fixes any of the test classes up to sign: True
+   sigma^2: trace 3, det 1, discriminant 5  -> eigenvalues irrational reals +0.381966, +2.618034
+      no power 1..60 fixes any of the test classes up to sign: True
+   S(g=0,b=3)   boundary classes [(1, 0), (0, 1), (-1, -1)]  -> CANNOT: sigma does not permute the boundary classes, sigma^2 does not permute the boundary classes
+   S(g=1,b=1)   boundary classes [(0, 0)]  -> CAN be realised (boundary class is 0 in H1)
+   N(k=1,b=2)   boundary classes [(0, 1), (2, 1)]  -> CANNOT: sigma does not permute the boundary classes, sigma^2 does not permute the boundary classes
+   N(k=2,b=1)   boundary classes [(2, 2)]  -> CANNOT: sigma does not permute the boundary classes, sigma^2 does not permute the boundary classes
+   The table is in one basis and only illustrates.  The proof is basis-free: a homeomorphism permutes the
+   b boundary circles, so its b!-th power fixes every boundary class up to sign; a NONZERO such class would
+   make +-1 an eigenvalue of M^(b!), and M's eigenvalues are phi and -1/phi (sigma) or their squares, never
+   roots of unity.  So every boundary class must vanish in H1, which happens only on S(1,1).
+   => only the once-punctured torus remains; on it sigma and sigma^2 are realised (Nielsen: Out(F2) = GL(2,Z)
+      is the extended mapping class group of S(1,1)).  B1380's claim holds.
+
+==============================================================================
+(2) B1379 / B1504 T1: LR versus RL
+==============================================================================
+   LR = ((1, 1), (1, 2)), RL = ((2, 1), (1, 1)), L^-1 (LR) L = ((2, 1), (1, 1))  (det L = +1)
+   conjugate by an orientation-preserving element: True
+   SnapPy: b++LR ~ m004: True,  b++RL ~ m004: True,  b++LR ~ b++RL: True
+   isometries b++LR -> b++RL: 8, orientation-preserving: 4  (B1504 states 8 and 4)
+   => the order bit does not change the oriented manifold: based data, as B1379 says.
+
+==============================================================================
+(3) sep16 I-31: the monodromy at the quaternion node is the OUTER Z/3 of Q8
+==============================================================================
+   phi(a) = ab -> (0, 0, 0, 1) (= k),  phi(b) = bab -> (0, 1, 0, 0) (= i)
+   (i, j, k) -> ((0, 0, 0, 1), (0, 1, 0, 0), (0, 0, 1, 0)) = (k, i, j);  a homomorphism on all 64 products: True
+   order 3;  inner: False  -> an OUTER automorphism of order 3, as I-31 states
+   trace map F(x,y,z) = (z, yz-x, z(yz-x)-y): max relative error on 200 random SL(2,C) pairs 1.5e-15
+   D = dF at the node = [[0, 0, 1], [-1, 0, 0], [0, -1, 0]]  (the row's matrix);  D^3 = I: True,  D != I: True
+   => I-31's mathematics holds as stated.  It is a mathematical identity (both sides are the object's own
+      structure), so EARNED here does not reduce any input of a physical reading.
+
+==============================================================================
+(4) SM lane B1382: m004's two spin structures are the pullbacks of the Gieseking manifold's Pin+ and Pin-
+==============================================================================
+   relator abABaBAbaB on (A, B): True;  on (-A, -B): True;  on (A, -B): False
+   W conj(A) W^-1 = A (beat(a) = a): True
+   W conj(B) W^-1 = rho(b^-1 a b a^-1 b) (beat(b)): True
+   W conj(W) = +A: True
+   intertwiner equations: exact rank 3 of 4 unknowns -> solution space dimension 1 (B1382 S2: rank 3, one-dimensional)
+   cusp traces of B1141's lift: tr(a) = 2, tr(bABaaBAb) = -2;  the longitude commutes with a: True
+   the table below is the sign law applied to the computed W conj(W) = +A, not a separate computation:
+   lift a -> +A: extends into G+ (Pin+): True,  into G- (Pin-): False
+   lift a -> -A: extends into G+ (Pin+): False,  into G- (Pin-): True
+   SnapPy: m000 orientable False, H1 Z;  m004 H1 Z;  orientation cover of m000 is m004: True
+   chi(m000) = 0 and H1 = Z free => H2 = 0 => H^2(m000; Z/2) = 0 => w2 = w1^2 = 0: both Pin types exist,
+   two structures each; the cover map on H1 is x2 (the fibre's monodromy is sigma, the cover's sigma^2),
+   so H^1(m000; Z/2) pulls back to 0 and each Pin type gives exactly ONE spin structure on m004 -- and by
+   the sign law above the two types give DIFFERENT ones.  B1382's theorem holds.  Consequence for main:
+   the spin lift is not assigned by the object; it is traded for the parent's Pin type (one bit, not zero).

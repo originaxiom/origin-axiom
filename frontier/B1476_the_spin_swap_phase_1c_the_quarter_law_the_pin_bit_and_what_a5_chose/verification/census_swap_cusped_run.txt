@@ -1,0 +1,16 @@
+m135 cusped CS quarter -> GENUINE SWAP
+m136 cusped CS zero -> GENUINE SWAP
+s463 cusped CS quarter -> GENUINE SWAP
+s464 cusped CS zero -> FIX
+s725 cusped CS quarter -> GENUINE SWAP
+s726 cusped CS zero -> FIX
+s880 cusped CS zero -> GENUINE SWAP
+s881 cusped CS quarter -> GENUINE SWAP
+s882 cusped CS zero -> FIX
+s883 cusped CS zero -> GENUINE SWAP
+s891 cusped CS quarter -> GENUINE SWAP
+s892 cusped CS zero -> FIX
+s911 cusped CS quarter -> GENUINE SWAP
+s912 cusped CS zero -> UNDETERMINED (no mirror word to L=7)
+s948 cusped CS zero -> UNDETERMINED (no mirror word to L=7)
+P7/P8 law swap <=> quarter on 13 decided members: False | exceptions: [('m136', 'zero', 'GENUINE SWAP'), ('s880', 'zero', 'GENUINE SWAP'), ('s883', 'zero', 'GENUINE SWAP')]

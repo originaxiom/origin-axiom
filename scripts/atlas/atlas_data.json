@@ -9842,6 +9842,38 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1476": {
+   "slug": "the spin swap phase 1c the quarter law the pin bit and what a5 chose",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B279",
+    "L194",
+    "L246",
+    "L247",
+    "L248",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

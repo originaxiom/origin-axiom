@@ -1,0 +1,1213 @@
+[
+ {
+  "id": "B111",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B132",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B154",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B157",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B161",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B182",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B183",
+  "premise": "CURVED",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B184",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B185",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "literal N>=3 all-unit interaction is impossible"
+ },
+ {
+  "id": "B191",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B225",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B243",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B272",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B294",
+  "premise": "MIXED",
+  "target": "UNCLEAR",
+  "overreach": "YES",
+  "quote": "selective for the object's own structure, catalogue for SM values"
+ },
+ {
+  "id": "B307",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B310",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B313",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B320",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B321",
+  "premise": "MIXED",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B332",
+  "premise": "MIXED",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B334",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B343",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "all deviation external"
+ },
+ {
+  "id": "B400",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "any linking object requires arbitrary identification choices"
+ },
+ {
+  "id": "B405",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B406",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B411",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B435",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B437",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B440",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B443",
+  "premise": "FLAT",
+  "target": "UNCLEAR",
+  "overreach": "YES",
+  "quote": "exact-SM fails everywhere"
+ },
+ {
+  "id": "B444",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B445",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B459",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B476",
+  "premise": "MIXED",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B482",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B483",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B486",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B492",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B513",
+  "premise": "MIXED",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B516",
+  "premise": "UNCLEAR",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B523",
+  "premise": "MIXED",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B539",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B545",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B548",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B558",
+  "premise": "MIXED",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "hence untunable"
+ },
+ {
+  "id": "B56",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B57",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B579",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B585",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B59",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B619",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B654",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B664",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B672",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B677",
+  "premise": "FLAT",
+  "target": "UNCLEAR",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B685",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "Terminal no-go: the object generates its BEING structure (3) but NOT its HEARING"
+ },
+ {
+  "id": "B687",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B699",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B703",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B705",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B712",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "Non-canonicity goes TOTAL (discrete B706 + continuous)"
+ },
+ {
+  "id": "B726",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B727",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "W1-hardened-record",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "any banked amplitude/tone/ratio/matrix matches a measured SM value beyond base rate"
+ },
+ {
+  "id": "W6-B307",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "S014 \u2014 cosmological-constant value formula",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "S017 \u2014 phase-space 3+1D at SL(3)",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "S021 \u2014 entanglement = holographic",
+  "premise": "CURVED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "Math-kill \u2014 \u03b8 \u2192 c (opposition involution predicts degree=rank scalar)",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "Value-kill \u2014 CS-crossover k\u22484 \u2194 n=4",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "K-E \u2014 a forced dimensionful scale or non-generic physical ratio",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "forces a dimensionful scale or a non-generic physical ratio (\u03b1\u207b\u00b9, m_p/m_e, sin\u00b2\u03b8_W)"
+ },
+ {
+  "id": "K-G \u2014 the metallic structure HAS a forced choice (isolated \u03ba fixed points)",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "K-J \u2014 \u03c6\u00b2 = degenerate-block monodromy multiplier",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "K-N \u2014 |disc_CM| = \u03ba_m",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "K-O \u2014 golden trace leak tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6 as distinguished signal",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B8",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B15",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B24",
+  "premise": "MIXED",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B26",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B31",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B32",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B36",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B39",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B41",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B46",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B114",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": ""
+ },
+ {
+  "id": "B130",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "a single seed cannot force any choice"
+ },
+ {
+  "id": "B170",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "fails a random-base null control"
+ },
+ {
+  "id": "B190",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "Iterated trace-ring gluing never converges to a forced-unique value"
+ },
+ {
+  "id": "B230",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "is a central-charge coincidence with a different coset"
+ },
+ {
+  "id": "B231",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "confer no special chain structure for m\u22652"
+ },
+ {
+  "id": "B235",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "\u211a(\u221a\u22127) never appears"
+ },
+ {
+  "id": "B244",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "does not resolve the three SL(3,\u2102) character-variety components"
+ },
+ {
+  "id": "B246",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "There is no symmetric SL(3) volume conjecture"
+ },
+ {
+  "id": "B280",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": "2T spin-3/2 branches as 2+2"
+ },
+ {
+  "id": "B281",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "does not distinguish E\u2086 at either the dim H\u00b9=rank"
+ },
+ {
+  "id": "B282",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "Almost everything in the E\u2086 programme is generic to any hyperbolic knot"
+ },
+ {
+  "id": "B284",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "is a generic smooth point (dim H\u00b9=1) on the canonical component"
+ },
+ {
+  "id": "B298",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "The figure-eight cannot force three generations"
+ },
+ {
+  "id": "B308",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "is not forced by the object"
+ },
+ {
+  "id": "B322",
+  "premise": "MIXED",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "so the invariants encode no SM values"
+ },
+ {
+  "id": "B330",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "no forced choice exists"
+ },
+ {
+  "id": "B333",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "the seam's arithmetic is generic and carries no value"
+ },
+ {
+  "id": "B339",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the hoped-for sqrt(-3) signature is absent"
+ },
+ {
+  "id": "B342",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "is disfavoured by data relative to TM1"
+ },
+ {
+  "id": "B349",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "no member is marked and no forced choice exists"
+ },
+ {
+  "id": "B350",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "The cyclic-cover abelian torsion class carries no forced choice"
+ },
+ {
+  "id": "B398",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "banks as numerology-class"
+ },
+ {
+  "id": "B414",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "no canonical frame exists"
+ },
+ {
+  "id": "B438",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "nothing about the child is figure-eight-unique"
+ },
+ {
+  "id": "B441",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "so its sqrt5/sqrt-3/sqrt-15 content is forced, not object-specific"
+ },
+ {
+  "id": "B442",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "adding no figure-eight-specific structure"
+ },
+ {
+  "id": "B447",
+  "premise": "CURVED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "no golden exceptionality"
+ },
+ {
+  "id": "B457",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the behavior catalog is class-generic or whitelist-laundered"
+ },
+ {
+  "id": "B461",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "No Brunnian-specific manifold invariant emerged for the Borromean rings"
+ },
+ {
+  "id": "B462",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "Every exact structure in the figure-eight double launders"
+ },
+ {
+  "id": "B464",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "no relational invariant escaping class-laundering in any computed cell"
+ },
+ {
+  "id": "B480",
+  "premise": "CURVED",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "the object's arithmetic-chaotic dynamics is the wrong type"
+ },
+ {
+  "id": "B512",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the McKay ladder to E\u2086 is golden-specific"
+ },
+ {
+  "id": "B529",
+  "premise": "CURVED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "The QCA covariance gate fails"
+ },
+ {
+  "id": "B541",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "matches SM constants no better than chance"
+ },
+ {
+  "id": "B549",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "Both time-independent cosmic ratios return null"
+ },
+ {
+  "id": "B563",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "nulls at every rung"
+ },
+ {
+  "id": "B596",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "not the naive cat-map period in any registered form"
+ },
+ {
+  "id": "B602",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "the naive value bridge does not exist"
+ },
+ {
+  "id": "B606",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "no torsion-power normalization can close the value gauge"
+ },
+ {
+  "id": "B631",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "does not match PMNS at the 1% tier"
+ },
+ {
+  "id": "B633",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "every SM-facing comparison is null"
+ },
+ {
+  "id": "B671",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "the mass-matrix reading dies"
+ },
+ {
+  "id": "B686",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "Q = 2/3 is a parametrization tautology for every phase"
+ },
+ {
+  "id": "B697",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "a tautological Gaussian period carrying no object-specific content"
+ },
+ {
+  "id": "B713",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "Chirality is not in the amphichiral object"
+ },
+ {
+  "id": "B716",
+  "premise": "UNCLEAR",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "Time, 4-dimensionality and Lorentzian signature are all the observer's"
+ },
+ {
+  "id": "B718",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the child is arithmetically generic"
+ },
+ {
+  "id": "B719",
+  "premise": "MIXED",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "Multiplicity/scale is the observer's"
+ },
+ {
+  "id": "B728",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "zeta_5 is impossible in the resummed object"
+ },
+ {
+  "id": "B729",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "every native invariant yields only the two quadratic fields"
+ },
+ {
+  "id": "B735",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "generic to every cusped hyperbolic manifold"
+ },
+ {
+  "id": "B737",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the \u03b6_K in the object's voice is the field's"
+ },
+ {
+  "id": "B740",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "no closed filling of m004 re-sees sqrt(-3)"
+ },
+ {
+  "id": "B743",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "contain no SM ratio at testable precision"
+ },
+ {
+  "id": "B747",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "No child re-sees the hearing field"
+ },
+ {
+  "id": "B748",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid"
+ },
+ {
+  "id": "B751",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "the target is scale-knob-dependent"
+ },
+ {
+  "id": "B752",
+  "premise": "UNCLEAR",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "base-rate by its own decision rule"
+ },
+ {
+  "id": "B760",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "YES",
+  "quote": "the object cannot close itself"
+ },
+ {
+  "id": "B850",
+  "premise": "CURVED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the foliation carries an INFINITE transverse measure"
+ },
+ {
+  "id": "B899",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "Only the four REGISTERED log-log comparisons were run"
+ },
+ {
+  "id": "B915",
+  "premise": "CURVED",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "a pure SM desert"
+ },
+ {
+  "id": "B957",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the surviving half of B723 that B942 demoted to UNEARNED"
+ },
+ {
+  "id": "B996",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "|SL(2,Z/3)| = 24 = |2T| makes N=3 the ONLY modulus"
+ },
+ {
+  "id": "B1027",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "excludes both predictions at 11.4 and 38.0 sigma"
+ },
+ {
+  "id": "B1063",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "all four sealed variants MISS both targets"
+ },
+ {
+  "id": "B1066",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "4.7 sigma off on sin^2th12 under NuFIT 6.1"
+ },
+ {
+  "id": "B1075",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "MISS at power under NuFIT 6.1"
+ },
+ {
+  "id": "B1076",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "every value-bearing quantity element-specific"
+ },
+ {
+  "id": "B1137",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "YES",
+  "quote": "The value door closes from its LAST route (regulators)"
+ },
+ {
+  "id": "B1142",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "YES",
+  "quote": "NO SM value"
+ },
+ {
+  "id": "B1157",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "STRUCTURAL RHYME (firewall upheld)"
+ },
+ {
+  "id": "B1165",
+  "premise": "MIXED",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the closing is CO-LOCATED with the gravitational sector"
+ },
+ {
+  "id": "B1174",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "REFUTED by exact field actions"
+ },
+ {
+  "id": "B1203",
+  "premise": "FLAT",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "cuts MENU-1 by EXACTLY ZERO"
+ },
+ {
+  "id": "B1205",
+  "premise": "UNCLEAR",
+  "target": "UNCLEAR",
+  "overreach": "NO",
+  "quote": "the COUNTING kills the route"
+ },
+ {
+  "id": "B1223",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the S3 acts on the faces TRIVIALLY"
+ },
+ {
+  "id": "B5",
+  "premise": "CURVED",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "~10^120 times the observed value"
+ },
+ {
+  "id": "B258-silver-inference",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "Silver is arithmetic"
+ },
+ {
+  "id": "B1062-V2-axis",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "silver is arithmetic (invariant trace field Q(i))"
+ },
+ {
+  "id": "B1242",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "containment holds and identity does not"
+ },
+ {
+  "id": "B1258",
+  "premise": "FLAT",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": "Killed by a THEOREM, not a survey."
+ },
+ {
+  "id": "B1262",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "the GENUS GROUP HAS ORDER 2"
+ },
+ {
+  "id": "B1347",
+  "premise": "CURVED",
+  "target": "DISCRETE",
+  "overreach": "NO",
+  "quote": "the stratum fixes no arrow"
+ },
+ {
+  "id": "B1349",
+  "premise": "UNCLEAR",
+  "target": "CONTINUOUS",
+  "overreach": "NO",
+  "quote": "dead on the object's own word"
+ },
+ {
+  "id": "B1450",
+  "premise": "FLAT",
+  "target": "NON-PHYSICAL",
+  "overreach": "NO",
+  "quote": "none of six stated features takes disjoint values"
+ }
+]

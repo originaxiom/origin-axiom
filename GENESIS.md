@@ -1,6 +1,6 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.10 · 2026-10-03 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.11 · 2026-10-04 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
@@ -334,9 +334,19 @@ physics; any Standard-Model parameter (**0 of 19**).
   own gravitational action with no free dimensionless constant (B1088), an action that exists exactly at the
   monodromy (B1341), a native gauge system (B715) — and no intrinsic time (B721). The gap is the narrower one: none
   of it has been turned into a potential, a breaking or a running that fixes a value.
-- **[v1.9] GAP6, the flatness.** Every frame on this page is a frame of flat bundles, and a flat bundle has ch = rk: no
-  index built on it can tell 27 from 27̄ (Chern–Weil; the record's Chern–Weil row). The chirality of the Standard Model is a
-  statement about curvature — instantons, a bulk — that no flat frame carries. Named as a gap on the web seat's reading of
+- **[v1.9, narrowed v1.11] GAP6, the flatness.** Every frame on this page is a frame of flat bundles, and a flat bundle has
+  ch = rk: no characteristic-class index on a CLOSED bulk can tell 27 from 27̄ over it (Chern–Weil; the record's Chern–Weil
+  row). **[v1.11]** That is the whole of what flatness forbids. With the object as boundary — this page's setting — the
+  index carries the boundary's spectral term (Atiyah–Patodi–Singer's η), a flat-structure quantity; the record's class
+  index I = n(V) − n(V*) (B1297) is a flat-bundle quantity that fires at ±1, ±2 on the family (B1418); and the mirror's
+  action on the spin structure — a flat datum — is genuine on seven amphichiral members and absent on the knot (B1474,
+  B1475). So the flat frame reaches DISCRETE data (counts, bits, signs) through the boundary and cannot reach CONTINUOUS
+  values (a mass, a coupling): the record's value-negatives are theorems about flat moduli and bound the frame, not
+  physics (lead L247; the census of 173 value-kills, 107 on flat premises). Narrowed on two readings of the same day from
+  opposite sides — the audit lane's R89 ("narrow GAP6 to its smooth closed bulk spin-Dirac hypotheses") and the web seat's
+  handoff ("the wall is a flat-sector theorem") — against main's own v1.9 sentence, which had dropped the hypotheses.
+  What remains of the gap: the continuous values; and the step from the boundary's η to a physical count (B279's
+  unbanked link, L246 Phase 2). Named as a gap on the web seat's reading of
   2026-10-03 (lead L244), which sorts the record's negatives into three kinds — symmetry pairing things that cancel, the
   absence of curvature, the absence of uniqueness — with three remedies: a breaking (GAP3, FK12), curvature (this gap), a
   selection principle (GAP4, THE_BAR). The remedy for this one is a frame with curvature; none is on the record.
@@ -556,3 +566,12 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
     is the commuting locus empty rather than unstable), B849's seal, B853's script — found by the SM seat's sm:B1531 and
     confirmed by grep; main's tool reads verdict lines and titles and had been cited beyond its domain. The reading's
     three kinds cover 14 of the chirality chain's 26 negatives (sm:B1531, read): the taxonomy is incomplete.
+- **v1.11 · 2026-10-04 · main B1476.** One narrowing, one location, one rule.
+  - GAP6 narrowed to its hypotheses (closed bulk, characteristic classes); the flat frame reaches discrete data through the
+    boundary (B1297/B1418's index; B1474/B1475's spin swap) and not continuous values (L247's census). Credit R89 and the web seat.
+  - FK12's bit located on the family: the SL(2,ℂ) lift (the spin structure) is the bit; on seven amphichiral members of the
+    112-family no spin structure is mirror-invariant and on the knot both are (B1474, B1475); B1476 asks whether the class is
+    read off CS = ¼ and whether it is the parent's Pin type (sm:B1382) seen from the other side.
+  - **The owner's rule (2026-10-04): "existence emerges from the family as object; we shouldn't tie ourselves to m004."**
+    A5 (SE2's torsion-free tie-break) selects a member; the page's object is the family (B1418), and this page's statements
+    about m004 are statements about one member unless they say otherwise.

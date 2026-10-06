@@ -66,10 +66,22 @@ if __name__ == "__main__":
     for nm in ("m206", "o10_150707"):
         c1[nm] = SQ.run(nm, sw[nm]["solutions"][:6]); print("C1", nm, "spin", c1[nm]["n_spin"], "mirror-invariant", c1[nm]["mirror_invariant_any_tau"], flush=True)
     # o10_150696 on its shortest presentation: SQ.run uses R.setup(nm) default; build with randomize=1 via a thin wrapper
-    pk, _ = R.setup("o10_150696", randomize=1)
-    _setup = R.setup
-    R.setup = lambda nm, randomize=0: _setup(nm, randomize=1) if nm == "o10_150696" else _setup(nm, randomize)
-    c1["o10_150696"] = SQ.run("o10_150696", retri["solutions"][:6]); print("C1 o10_150696 (randomize=1) spin", c1["o10_150696"]["n_spin"], "mirror-invariant", c1["o10_150696"]["mirror_invariant_any_tau"], flush=True)
+    # randomize() is not deterministic and the stored presentation could not be re-found: take the shortest presentation
+    # among forty retriangulations and re-find its reversing automorphisms afresh (B1474's search), then run the table on it
+    _setup = R.setup; best = None
+    for k in range(1, 41):
+        pk_try, err = _setup("o10_150696", randomize=k)
+        if err: continue
+        tot = sum(len(r) for r in pk_try["rels"])
+        if best is None or tot < best[0]: best = (tot, pk_try)
+    found = best[1]; print("C1 o10_150696: shortest presentation total relator length", best[0], flush=True)
+    sols696 = []
+    for L in (5, 6, 7):
+        sols696 = SS.find_tau(found, L=L, max_solutions=20)
+        if sols696: break
+    print("C1 o10_150696: reversing automorphisms found", len(sols696), "at L", L, "etas", sorted({tuple(sorted(s["eta"].items())) for s in sols696}), flush=True)
+    R.setup = lambda nm, randomize=0: (found, None) if nm == "o10_150696" else _setup(nm, randomize)
+    c1["o10_150696"] = SQ.run("o10_150696", sols696[:6]) if sols696 else dict(name="o10_150696", error="no reversing automorphism found to L=7 on the shortest presentation"); print("C1 o10_150696 (randomize=1) spin", c1["o10_150696"]["n_spin"], "mirror-invariant", c1["o10_150696"]["mirror_invariant_any_tau"], flush=True)
     R.setup = _setup
     out["C1"] = c1
     # C2

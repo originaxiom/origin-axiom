@@ -1,0 +1,80 @@
+C1 m206 spin 2 mirror-invariant [(1, 1, -1), (1, 1, 1)]
+C1 o10_150707 spin 8 mirror-invariant [(-1, -1, 1, 1), (-1, 1, 1, 1), (1, -1, 1, 1), (1, 1, 1, 1)]
+C1 o10_150696: shortest presentation total relator length 46
+C1 o10_150696: reversing automorphisms found 6 at L 5 etas [(('a', 1), ('b', 1), ('c', 1))]
+C1 o10_150696 (randomize=1) spin 2 mirror-invariant [(-1, 1, 1), (1, 1, 1)]
+C2 m003 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'SWAP', 'amphichiral': True}
+C2 m004 {'cs': '0', 'cls': 'zero', 'dist': 0.0, 'verdict': 'FIX', 'amphichiral': True}
+C2 m206 {'cs': '-1.924204326712775734683', 'cls': 'zero', 'dist': 0.0, 'verdict': 'FIX', 'amphichiral': True}
+C2 m207 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'SWAP', 'amphichiral': True}
+C2 m208 {'cs': '-2.934411598236982995391', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 m410 {'cs': '-0.125000000000000000000', 'cls': 'other', 'dist': 0.125, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 s118 {'cs': '0.0833333333333333333333', 'cls': 'other', 'dist': 0.08333333333333333, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 s119 {'cs': '-0.083333333333333333333', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 s594 {'cs': '0.1250000000000000000000', 'cls': 'other', 'dist': 0.125, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 s595 {'cs': '6.5422947108234374979231', 'cls': 'zero', 'dist': 6.542294710823438e-65, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 s955 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'SWAP', 'amphichiral': True}
+C2 s956 {'cs': '2.3090451920553308816199', 'cls': 'zero', 'dist': 2.309045192055331e-65, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 s957 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'SWAP', 'amphichiral': True}
+C2 s958 {'cs': '-0.083333333333333333333', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 s960 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'SWAP', 'amphichiral': True}
+C2 s961 {'cs': '-1.924204326712775734683', 'cls': 'zero', 'dist': 0.0, 'verdict': 'MIXED', 'amphichiral': True}
+C2 v2873 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 v2874 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 v2875 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 t11365 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 t12833 {'cs': '-2.693886057397886028556', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 t12834 {'cs': '0.0833333333333333333333', 'cls': 'other', 'dist': 0.08333333333333333, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 t12835 {'cs': '7.6968173068511029387331', 'cls': 'zero', 'dist': 7.696817306851103e-66, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 t12837 {'cs': '-0.083333333333333333333', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 t12838 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'SWAP', 'amphichiral': True}
+C2 t12839 {'cs': '-3.848408653425551469366', 'cls': 'zero', 'dist': 0.0, 'verdict': 'FIX', 'amphichiral': True}
+C2 o9_27787 {'cs': '0.2083333333333333333333', 'cls': 'other', 'dist': 0.041666666666666685, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_40998 {'cs': '0', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41000 {'cs': '-0.166666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41001 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41002 {'cs': '8.4664990375362132326064', 'cls': 'zero', 'dist': 8.466499037536214e-65, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41004 {'cs': '-8.225973496697116265771', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41006 {'cs': '-5.075088911704946000227', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41007 {'cs': '4.3775648432715647964044', 'cls': 'zero', 'dist': 4.377564843271565e-65, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41008 {'cs': '-0.166666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_41009 {'cs': '-0.166666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o9_44249 {'cs': '-0.041666666666666666666', 'cls': 'other', 'dist': 0.041666666666666685, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_064767 {'cs': '0.2083333333333333333333', 'cls': 'other', 'dist': 0.041666666666666685, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_107944 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_107945 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_107947 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_107948 {'cs': '2.3090451920553308816199', 'cls': 'zero', 'dist': 2.309045192055331e-65, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_107949 {'cs': '-0.166666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_143600 {'cs': '-0.208333333333333333333', 'cls': 'other', 'dist': 0.041666666666666685, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_150694 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_150695 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'SWAP', 'amphichiral': True}
+C2 o10_150696 {'cs': '-3.848408653425551469366', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L7', 'amphichiral': True}
+C2 o10_150697 {'cs': '-2.309045192055330881619', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_150698 {'cs': '0.1666666666666666666666', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_150699 {'cs': '-3.848408653425551469366', 'cls': 'zero', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_150700 {'cs': '-0.083333333333333333333', 'cls': 'other', 'dist': 0.08333333333333331, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_150701 {'cs': '6.9271355761659926448597', 'cls': 'zero', 'dist': 6.927135576165993e-65, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 o10_150707 {'cs': '-2.309045192055330881619', 'cls': 'zero', 'dist': 0.0, 'verdict': 'FIX', 'amphichiral': True}
+C2 o10_150709 {'cs': '0.2500000000000000000000', 'cls': 'quarter', 'dist': 0.0, 'verdict': 'NONE-at-L5', 'amphichiral': False}
+C2 LAW swap <=> quarter: True
+C2b {'family_on_lattice': 112, 'family_total': 112, 'family_denominators': {4: 29, 1: 25, 12: 10, 2: 22, 8: 3, 3: 7, 6: 11, 24: 5}, 'outside_on_lattice': 0, 'outside_total': 40, 'outside_nonzero_on_lattice': 0} | atom True True
+C3 {'m003': [], 'm004': ['m000']}
+C4 m004 (1, 1) {'a': 1, 'b': 1} (1.0 - 1.73205080757j) Pin+
+C4 m004 (1, 1) {'a': 1, 'b': 1} (4.0 - 1.73205080757j) Pin+
+C4 m004 (1, 1) {'a': 1, 'b': 1} (2.5 + 0.866025403784j) Pin+
+C4 m004 (1, 1) {'a': 1, 'b': 1} (1.5 - 0.866025403784j) Pin+
+C4 m004 (1, 1) {'a': 1, 'b': 1} (3.23387555337e-51 + 5.33910212718e-51j) Pin+
+C4 m004 (1, 1) {'a': 1, 'b': 1} (-0.5 - 0.866025403784j) Pin-
+C4 m004 (1, -1) {'a': 1, 'b': 1} (1.0 - 1.73205080757j) Pin+
+C4 m004 (1, -1) {'a': 1, 'b': 1} (4.0 - 1.73205080757j) Pin+
+C4 m004 (1, -1) {'a': 1, 'b': 1} (2.5 + 0.866025403784j) Pin+
+C4 m004 (1, -1) {'a': 1, 'b': 1} (1.5 - 0.866025403784j) Pin+
+C4 m004 (1, -1) {'a': 1, 'b': 1} (3.23387555337e-51 + 5.33910212718e-51j) Pin+
+C4 m004 (1, -1) {'a': 1, 'b': 1} (-0.5 - 0.866025403784j) Pin-
+C4 m003 (1, 1) {'a': -1, 'b': 1} n/a (eta nontrivial: the mirror moves this lift)
+C4 m003 (1, 1) {'a': -1, 'b': 1} n/a (eta nontrivial: the mirror moves this lift)
+C4 m003 (1, 1) {'a': -1, 'b': 1} n/a (eta nontrivial: the mirror moves this lift)
+C4 m003 (-1, 1) {'a': -1, 'b': 1} n/a (eta nontrivial: the mirror moves this lift)
+C4 m003 (-1, 1) {'a': -1, 'b': 1} n/a (eta nontrivial: the mirror moves this lift)
+C4 m003 (-1, 1) {'a': -1, 'b': 1} n/a (eta nontrivial: the mirror moves this lift)

@@ -1,0 +1,6 @@
+C1 m206 spin 2 mirror-invariant [(1, 1, -1), (1, 1, 1)]
+C1 o10_150707 spin 8 mirror-invariant [(-1, -1, 1, 1), (-1, 1, 1, 1), (1, -1, 1, 1), (1, 1, 1, 1)]
+Traceback (most recent call last):
+  File "<repo>/frontier/B1476_the_spin_swap_phase_1c_the_quarter_law_the_pin_bit_and_what_a5_chose/verification/phase_1c.py", line 74, in <module>
+    assert found is not None, "o10_150696: the stored presentation was not re-found in 200 retriangulations"
+AssertionError: o10_150696: the stored presentation was not re-found in 200 retriangulations

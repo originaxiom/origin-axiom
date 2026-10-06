@@ -1037,3 +1037,15 @@ frozen baseline of zero. "Independently verified" is this project's cross-seat l
 found nothing mechanical enforcing the phrase list; by Review 59 two live misnomers remained (TERMINOLOGY, STRATEGIC_SYNTHESIS),
 fixed in B1464, and the gate holds the count at zero.
 
+## A negative about one member says the member's name — GATED (`member-scope`)
+
+**The rule (the owner's, stated since the first day and recorded in GENESIS v1.11, 2026-10-04).** The object is the family;
+A5 selected a member. A NEGATIVE arc whose computation is on m004 alone writes "m004" (or "the knot member"), never "the
+object cannot / impossible on the object / nothing in the object". The gate counts NEGATIVE verdict lines that say "the
+object cannot" (and kin) without naming the family or a member and holds them to a frozen baseline of eight (B1157, B1338,
+B1407, B429, B713, B760, B959, B960 — scope addenda owed in B1477), which may only shrink; a new one fails the push.
+
+**Why it exists.** B1476's landing counted, by a reading of all 460 kills, 98 m004-only negatives against 30 family-level
+ones, and 39 kills that say "the object" for an m004 result; every wall the programme hit and was discouraged by (B849's
+2-torsion, B713's "chirality is not in the amphichiral object", the value doors) was a member's wall, and the family
+carries what the member cannot (B1418's indices; B1474/B1475's spin swap on seven siblings).

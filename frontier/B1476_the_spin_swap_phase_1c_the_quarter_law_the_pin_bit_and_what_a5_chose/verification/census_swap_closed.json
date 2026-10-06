@@ -1,0 +1,558 @@
+{
+ "m034(-4,1)": {
+  "name": "m034(-4,1)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 40,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m082(1,3)": {
+  "name": "m082(1,3)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m078(5,1)": {
+  "name": "m078(5,1)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 26,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m168(2,3)": {
+  "name": "m168(2,3)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 32,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m100(2,3)": {
+  "name": "m100(2,3)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 40,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m188(2,3)": {
+  "name": "m188(2,3)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 20,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m115(5,2)": {
+  "name": "m115(5,2)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m121(-4,3)": {
+  "name": "m121(-4,3)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 30,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s942(-2,1)": {
+  "name": "s942(-2,1)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1,
+    1
+   ],
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m336(-1,3)": {
+  "name": "m336(-1,3)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 18,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m303(-1,3)": {
+  "name": "m303(-1,3)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 28,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s960(-1,2)": {
+  "name": "s960(-1,2)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    -1,
+    1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s235(-3,4)": {
+  "name": "s235(-3,4)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m290(-3,4)": {
+  "name": "m290(-3,4)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 28,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s287(3,4)": {
+  "name": "s287(3,4)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 24,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m346(2,3)": {
+  "name": "m346(2,3)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s912(0,1)": {
+  "name": "s912(0,1)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m401(-2,3)": {
+  "name": "m401(-2,3)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m358(1,3)": {
+  "name": "m358(1,3)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 28,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v2678(2,1)": {
+  "name": "v2678(2,1)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 40,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s500(4,1)": {
+  "name": "s500(4,1)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 20,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s668(4,1)": {
+  "name": "s668(4,1)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 28,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v2817(-3,1)": {
+  "name": "v2817(-3,1)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 12,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "s533(1,4)": {
+  "name": "s533(1,4)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 28,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "m402(2,3)": {
+  "name": "m402(2,3)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v2585(1,2)": {
+  "name": "v2585(1,2)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v1461(1,3)": {
+  "name": "v1461(1,3)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v1222(-5,1)": {
+  "name": "v1222(-5,1)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 32,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v1251(4,3)": {
+  "name": "v1251(4,3)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v1695(-5,1)": {
+  "name": "v1695(-5,1)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 28,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v1860(2,3)": {
+  "name": "v1860(2,3)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v1847(-4,3)": {
+  "name": "v1847(-4,3)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 34,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v1845(-5,2)": {
+  "name": "v1845(-5,2)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v3178(-3,1)": {
+  "name": "v3178(-3,1)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 31,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v3066(-1,2)": {
+  "name": "v3066(-1,2)",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 24,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v3283(-3,1)": {
+  "name": "v3283(-3,1)",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 16,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "closed"
+ },
+ "v3439(3,2)": {
+  "name": "v3439(3,2)",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "closed"
+ }
+}

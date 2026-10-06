@@ -1,0 +1,25 @@
+{
+ "id": "B1476",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1474",
+  "B1475",
+  "B1239",
+  "B1224",
+  "B279",
+  "B1471"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI: the mirror's action on spin structures (SL(2,C) lifts) against the Chern-Simons class and the 1/24 lattice; Pin types by C conj(C) = eps rho(w)",
+  "object": "the 13 amphichiral rank-one members of the 112-family (the law), all 112 (the lattice), 15 cusped and 37 closed amphichiral census manifolds outside the family (the law's reach)",
+  "reach": "class",
+  "hypotheses": "the non-existence claims (no mirror-invariant spin structure at CS = 1/4) rest on the odd torsion's non-realness on every spin structure (n = 1, 3; t = 2, 3, 0.6; H_1 of rank one) and need no enumeration of isometries; the existence claims (FIX) rest on exhibited witnesses from B1474's matrix route (word length <= 7) and are lower bounds; SnapPy HP; outside the family the sealed cells read the geometric lift only; the one-way law general as far as tested (13 of 13) and conjectural beyond; undetermined members (2 cusped, 12 closed) reported, not folded"
+ },
+ "claim_one_line": "THE SPIN SWAP, PHASE 1c (L246; sealed 88ed6981 / aedf139f): AT CS = 1/4 NO SPIN STRUCTURE SURVIVES THE MIRROR on every amphichiral manifold tested -- the family's seven and six outside it, 13 of 13 -- certified without enumerating isometries (an invariant spin structure would make its odd torsion real; none of the thirteen has one that is; the audit lane's R92 answered); at CS = 0 every rank-one member read has at least two torsion-real spin structures (12 of 12) and the family's six zero members have exhibited invariant ones, while outside the family the GEOMETRIC LIFT is swapped at zero on m136, s880, s883 and 14 of 25 closed manifolds -- the geometric lift's fate is not a function of CS, and whether some spin structure always survives at zero was not tested and is the next sealed arc; the whole family's phase is on the 1/24 lattice (112 of 112, denominators 1..24, none of 40 outside; the dilogarithm atom verified: Re R(e^{i pi/3}) = pi^2/12, Im R = Vol(4_1)/2 -- the web seat's law, L248); the three classes by the mirror's action on Spin(M): all (m004, m206, t12839, o10_150696), some (s961, o10_150707), none (the seven); the knot member's spin lift is the parent's Pin type by a second route (C conj(C) = +rho(w) with the two lifts opposite; the referee's exact script re-run) -- sm:B1382 verified on main; a genuine swap forces every reversing isometry to have fixed points; under the owner's rule the family is the object and A5 selected a member in the 'all' class by B279's theorem, the excluded sister the smallest 'none'; GENESIS v1.11: GAP6 narrowed to its closed-bulk hypotheses (R89, the web seat), FK12's bit located, the rule recorded. One bit, no count. 0 of 19."
+}

@@ -1,0 +1,551 @@
+{
+ "m003": {
+  "source": "B1475",
+  "cs": "quarter",
+  "n_spin": 2,
+  "torsion_real": 0,
+  "s0_real": false,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "m207": {
+  "source": "B1475",
+  "cs": "quarter",
+  "n_spin": 2,
+  "torsion_real": 0,
+  "s0_real": false,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "s955": {
+  "source": "B1475",
+  "cs": "quarter",
+  "n_spin": 4,
+  "torsion_real": 0,
+  "s0_real": false,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "s957": {
+  "source": "B1475",
+  "cs": "quarter",
+  "n_spin": 4,
+  "torsion_real": 0,
+  "s0_real": false,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "s960": {
+  "source": "B1475",
+  "cs": "quarter",
+  "n_spin": 8,
+  "torsion_real": 0,
+  "s0_real": false,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     -1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     -1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "t12838": {
+  "source": "B1475",
+  "cs": "quarter",
+  "n_spin": 2,
+  "torsion_real": 0,
+  "s0_real": false,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "o10_150695": {
+  "source": "B1475",
+  "cs": "quarter",
+  "n_spin": 2,
+  "torsion_real": 0,
+  "s0_real": false,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "m004": {
+  "source": "B1475",
+  "cs": "zero",
+  "n_spin": 2,
+  "torsion_real": 2,
+  "s0_real": true,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1
+    ],
+    "real": true,
+    "n_values": 6
+   }
+  ]
+ },
+ "s961": {
+  "source": "B1475",
+  "cs": "zero",
+  "n_spin": 8,
+  "torsion_real": 8,
+  "s0_real": true,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     1,
+     -1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     -1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     -1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     -1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     -1,
+     -1
+    ],
+    "real": true,
+    "n_values": 6
+   }
+  ]
+ },
+ "t12839": {
+  "source": "B1475",
+  "cs": "zero",
+  "n_spin": 2,
+  "torsion_real": 2,
+  "s0_real": true,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   }
+  ]
+ },
+ "m206": {
+  "source": "B1476/C1",
+  "cs": "zero",
+  "n_spin": 2,
+  "torsion_real": 2,
+  "s0_real": true,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     1,
+     -1
+    ],
+    "real": true,
+    "n_values": 6
+   }
+  ]
+ },
+ "o10_150707": {
+  "source": "B1476/C1",
+  "cs": "zero",
+  "n_spin": 8,
+  "torsion_real": 4,
+  "s0_real": true,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     1,
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     1,
+     -1,
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     -1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     -1,
+     1,
+     -1
+    ],
+    "real": false,
+    "n_values": 6
+   }
+  ]
+ },
+ "o10_150696": {
+  "source": "B1476/C1",
+  "cs": "zero",
+  "n_spin": 2,
+  "torsion_real": 2,
+  "s0_real": true,
+  "rows": [
+   {
+    "chi": [
+     1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   },
+   {
+    "chi": [
+     -1,
+     1,
+     1
+    ],
+    "real": true,
+    "n_values": 6
+   }
+  ]
+ }
+}

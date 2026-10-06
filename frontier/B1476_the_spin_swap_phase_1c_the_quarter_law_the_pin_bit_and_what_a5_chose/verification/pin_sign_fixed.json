@@ -1,0 +1,311 @@
+{
+ "m004": [
+  {
+   "tau": {
+    "a": "abAB",
+    "b": "babaBA"
+   },
+   "tau2": {
+    "a": "abABbabaBAbaBAabABAB",
+    "b": "babaBAabABbabaBAabABabABABbaBA"
+   },
+   "w": "ba",
+   "eps_geometric": 1,
+   "tau2_is_conj_by_w": true,
+   "lifts": [
+    {
+     "chi": [
+      1,
+      1
+     ],
+     "eps_chi": 1
+    },
+    {
+     "chi": [
+      1,
+      -1
+     ],
+     "eps_chi": -1
+    }
+   ],
+   "pin": {
+    "(1, 1)": "Pin+",
+    "(1, -1)": "Pin-"
+   }
+  },
+  {
+   "tau": {
+    "a": "abAB",
+    "b": "baBAba"
+   },
+   "tau2": {
+    "a": "abABbaBAbabaBAABabAB",
+    "b": "baBAbaabABABabABbaBAbaBAbaabAB"
+   },
+   "w": "baBAb",
+   "eps_geometric": 1,
+   "tau2_is_conj_by_w": true,
+   "lifts": [
+    {
+     "chi": [
+      1,
+      1
+     ],
+     "eps_chi": 1
+    },
+    {
+     "chi": [
+      1,
+      -1
+     ],
+     "eps_chi": -1
+    }
+   ],
+   "pin": {
+    "(1, 1)": "Pin+",
+    "(1, -1)": "Pin-"
+   }
+  },
+  {
+   "tau": {
+    "a": "abAB",
+    "b": "baBABA"
+   },
+   "tau2": {
+    "a": "abABbaBABAbaBAababAB",
+    "b": "baBABAabABababABbaBAababABbaBA"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(2.5 + 0.8660254038j)"
+  },
+  {
+   "tau": {
+    "a": "abAB",
+    "b": "BAbaBA"
+   },
+   "tau2": {
+    "a": "abABBAbaBAbaBAabABab",
+    "b": "abABabbaBABAbaBAabABabABabbaBA"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(1.5 - 0.8660254038j)"
+  },
+  {
+   "tau": {
+    "a": "aBAb",
+    "b": "BababA"
+   },
+   "tau2": {
+    "a": "aBAbaBABAbBabABababA",
+    "b": "aBABAbaBAbBababAaBAbBababABabA"
+   },
+   "w": "aBAbaBA",
+   "eps_geometric": 1,
+   "tau2_is_conj_by_w": true,
+   "lifts": [
+    {
+     "chi": [
+      1,
+      1
+     ],
+     "eps_chi": 1
+    },
+    {
+     "chi": [
+      1,
+      -1
+     ],
+     "eps_chi": -1
+    }
+   ],
+   "pin": {
+    "(1, 1)": "Pin+",
+    "(1, -1)": "Pin-"
+   }
+  },
+  {
+   "tau": {
+    "a": "aBAb",
+    "b": "BabABA"
+   },
+   "tau2": {
+    "a": "aBAbabaBAbBabABabABA",
+    "b": "abaBAbaBAbBabABABabAabaBAbBabA"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(-0.5 - 0.8660254038j)"
+  }
+ ],
+ "m206": [
+  {
+   "tau": {
+    "a": "b",
+    "b": "A",
+    "c": "Ca"
+   },
+   "tau2": {
+    "a": "A",
+    "b": "B",
+    "c": "Acb"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(-6.442041935e-52 - 1.736011603e-51j)"
+  },
+  {
+   "tau": {
+    "a": "b",
+    "b": "aB",
+    "c": "cb"
+   },
+   "tau2": {
+    "a": "aB",
+    "b": "bbA",
+    "c": "cbaB"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(1.5 - 0.8660254038j)"
+  },
+  {
+   "tau": {
+    "a": "b",
+    "b": "Ba",
+    "c": "Bcbb"
+   },
+   "tau2": {
+    "a": "Ba",
+    "b": "Abb",
+    "c": "AbBcbbBaBa"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(0.5 + 0.8660254038j)"
+  },
+  {
+   "tau": {
+    "a": "b",
+    "b": "bAB",
+    "c": "bCaB"
+   },
+   "tau2": {
+    "a": "bAB",
+    "b": "bABBbaB",
+    "c": "bABbAcBbbaB"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(1.0 + 1.267872173e-51j)"
+  },
+  {
+   "tau": {
+    "a": "b",
+    "b": "BAb",
+    "c": "BCab"
+   },
+   "tau2": {
+    "a": "BAb",
+    "b": "BabBBAb",
+    "c": "BabBAcbbBAb"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(1.0 - 1.979818173e-51j)"
+  },
+  {
+   "tau": {
+    "a": "b",
+    "b": "baBB",
+    "c": "bc"
+   },
+   "tau2": {
+    "a": "baBB",
+    "b": "baBBbbbABbbAB",
+    "c": "baBBbc"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(2.0 - 1.732050808j)"
+  }
+ ],
+ "t12839": [
+  {
+   "tau": {
+    "a": "bA",
+    "b": "acA",
+    "c": "aCBcA"
+   },
+   "tau2": {
+    "a": "acAaB",
+    "b": "bAaCBcAaB",
+    "c": "bAaCbcAaCAaCBcAaB"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(-1.0 + 1.732050808j)"
+  },
+  {
+   "tau": {
+    "a": "bA",
+    "b": "bcB",
+    "c": "bCBcB"
+   },
+   "tau2": {
+    "a": "bcBaB",
+    "b": "bcBbCBcBbCB",
+    "c": "bcBbCbcBbCBbCBcBbCB"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(-1.5 + 0.8660254038j)"
+  },
+  {
+   "tau": {
+    "a": "Ab",
+    "b": "c",
+    "c": "CBc"
+   },
+   "tau2": {
+    "a": "Bac",
+    "b": "CBc",
+    "c": "CbcCCBc"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(1.0 - 1.249985336e-50j)"
+  },
+  {
+   "tau": {
+    "a": "Ba",
+    "b": "CBBCB",
+    "c": "BCB"
+   },
+   "tau2": {
+    "a": "bcbbcBa",
+    "b": "bcbbcbbcbcbbcbcbbcbbc",
+    "c": "bcbbcbcbbcbbc"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(2.0 - 1.732050808j)"
+  },
+  {
+   "tau": {
+    "a": "bcBa",
+    "b": "bcbbc",
+    "c": "bbc"
+   },
+   "tau2": {
+    "a": "bcbbcbbcCBBCBbcBa",
+    "b": "bcbbcbbcbcbbcbcbbcbbc",
+    "c": "bcbbcbcbbcbbc"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(2.0 - 1.732050808j)"
+  },
+  {
+   "tau": {
+    "a": "bCBA",
+    "b": "bCB",
+    "c": "b"
+   },
+   "tau2": {
+    "a": "bCBBbcBabcB",
+    "b": "bCBBbcB",
+    "c": "bCB"
+   },
+   "result": "C conj(C) matched no +-rho(w) to length 7",
+   "CC00": "(1.0 + 4.399418614e-50j)"
+  }
+ ]
+}

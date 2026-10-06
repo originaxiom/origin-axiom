@@ -1,0 +1,38 @@
+m034(-4,1) closed CS zero -> FIX
+m082(1,3) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+m078(5,1) closed CS zero -> GENUINE SWAP
+m168(2,3) closed CS zero -> GENUINE SWAP
+m100(2,3) closed CS zero -> FIX
+m188(2,3) closed CS zero -> GENUINE SWAP
+m115(5,2) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+m121(-4,3) closed CS zero -> FIX
+s942(-2,1) closed CS zero -> GENUINE SWAP
+m336(-1,3) closed CS zero -> GENUINE SWAP
+m303(-1,3) closed CS zero -> GENUINE SWAP
+s960(-1,2) closed CS zero -> GENUINE SWAP
+s235(-3,4) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+m290(-3,4) closed CS zero -> GENUINE SWAP
+s287(3,4) closed CS zero -> GENUINE SWAP
+m346(2,3) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+s912(0,1) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+m401(-2,3) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+m358(1,3) closed CS zero -> GENUINE SWAP
+v2678(2,1) closed CS zero -> FIX
+s500(4,1) closed CS zero -> FIX
+s668(4,1) closed CS zero -> FIX
+v2817(-3,1) closed CS zero -> FIX
+s533(1,4) closed CS zero -> FIX
+m402(2,3) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+v2585(1,2) closed CS zero -> GENUINE SWAP
+v1461(1,3) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+v1222(-5,1) closed CS zero -> GENUINE SWAP
+v1251(4,3) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+v1695(-5,1) closed CS zero -> GENUINE SWAP
+v1860(2,3) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+v1847(-4,3) closed CS zero -> FIX
+v1845(-5,2) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+v3178(-3,1) closed CS zero -> FIX
+v3066(-1,2) closed CS zero -> FIX
+v3283(-3,1) closed CS zero -> GENUINE SWAP
+v3439(3,2) closed CS zero -> UNDETERMINED (no mirror word to L=7)
+P7/P8 law swap <=> quarter on 25 decided members: False | exceptions: [('m078(5,1)', 'zero', 'GENUINE SWAP'), ('m168(2,3)', 'zero', 'GENUINE SWAP'), ('m188(2,3)', 'zero', 'GENUINE SWAP'), ('s942(-2,1)', 'zero', 'GENUINE SWAP'), ('m336(-1,3)', 'zero', 'GENUINE SWAP'), ('m303(-1,3)', 'zero', 'GENUINE SWAP'), ('s960(-1,2)', 'zero', 'GENUINE SWAP'), ('m290(-3,4)', 'zero', 'GENUINE SWAP'), ('s287(3,4)', 'zero', 'GENUINE SWAP'), ('m358(1,3)', 'zero', 'GENUINE SWAP'), ('v2585(1,2)', 'zero', 'GENUINE SWAP'), ('v1222(-5,1)', 'zero', 'GENUINE SWAP'), ('v1695(-5,1)', 'zero', 'GENUINE SWAP'), ('v3283(-3,1)', 'zero', 'GENUINE SWAP')]

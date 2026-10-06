@@ -24,6 +24,6 @@ for M in snappy.OrientableClosedCensus:
         if not M.symmetry_group().is_amphicheiral(): continue
         c = closed_cs(M)
     except Exception: continue
-    out["closed"].append(dict(name=M.name(), h1=str(M.homology()), cs=c, cls=cls(c, 1.0)))
+    out["closed"].append(dict(name=str(M), parent=M.name(), h1=str(M.homology()), cs=c, cls=cls(c, 1.0)))   # str(M) carries the filling; .name() is the cusped parent (post-seal repair)
 print("closed amphichiral:", len(out["closed"]), {k: sum(1 for r in out["closed"] if r["cls"] == k) for k in ("zero", "quarter", "other")}, flush=True)
 json.dump(out, open("census_lists.json", "w"), indent=1)

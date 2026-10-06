@@ -1,0 +1,12 @@
+C1 m206 spin 2 mirror-invariant [(1, 1, -1), (1, 1, 1)]
+C1 o10_150707 spin 8 mirror-invariant [(-1, -1, 1, 1), (-1, 1, 1, 1), (1, -1, 1, 1), (1, 1, 1, 1)]
+Traceback (most recent call last):
+  File "<repo>/frontier/B1476_the_spin_swap_phase_1c_the_quarter_law_the_pin_bit_and_what_a5_chose/verification/phase_1c.py", line 72, in <module>
+    c1["o10_150696"] = SQ.run("o10_150696", retri["solutions"][:6]); print("C1 o10_150696 (randomize=1) spin", c1["o10_150696"]["n_spin"], "mirror-invariant", c1["o10_150696"]["mirror_invariant_any_tau"], flush=True)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1475_the_spin_swap_phase_1b_does_the_swap_carry_a_quantity/verification/spin_quantity.py", line 72, in run
+    part = mirror_partner(chi, tau, eta, chars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/frontier/B1475_the_spin_swap_phase_1b_does_the_swap_carry_a_quantity/verification/spin_quantity.py", line 48, in mirror_partner
+    assert len(inv) == 1, ("tau* not a permutation on the characters found", len(inv))
+AssertionError: ('tau* not a permutation on the characters found', 0)

@@ -1,0 +1,2914 @@
+{
+ "rows": [
+  {
+   "id": "B101",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "principal sl(2) invariant form lands in split real forms"
+  },
+  {
+   "id": "B107",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "tower/torsion are linearized monodromy on moduli-space tangent"
+  },
+  {
+   "id": "B111",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "cannot equal the order-4 secondary c=i"
+  },
+  {
+   "id": "B120",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "distinct integer matrices with equal (trace,det) yield identical towers"
+  },
+  {
+   "id": "B128",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "torsion tracks periodicity/symmetry-order, not chirality"
+  },
+  {
+   "id": "B132",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "generic to words, not chirality or the manifold"
+  },
+  {
+   "id": "B140",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Killed by the standard orientation-reversal theorem"
+  },
+  {
+   "id": "B146",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "no selection using only orientation-independent invariants can prefer M vs its mirror"
+  },
+  {
+   "id": "B154",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "off-principal data gives k=4 at BOTH n=3 and n=4"
+  },
+  {
+   "id": "B157",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "affine/modular law is an overfit of the sparse grid"
+  },
+  {
+   "id": "B161",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "FREE continuum on the trace-map fixed locus"
+  },
+  {
+   "id": "B165",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "uniform hyperbolicity of the complexified trace map on its non-escaping set"
+  },
+  {
+   "id": "B166",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "a self-adjoint 1D operator's transfer matrices preserve the Wronskian symplectic form"
+  },
+  {
+   "id": "B172",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "sharp label certification is method-limited"
+  },
+  {
+   "id": "B177",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "a conservative active-chaotic crystal/horseshoe, not a cell"
+  },
+  {
+   "id": "B182",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the gap-label module rank grows as 1+N (distinct fields)"
+  },
+  {
+   "id": "B183",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "externally sourced (the imaginary gauge field is input)"
+  },
+  {
+   "id": "B184",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "only multiplies per-unit SL(2,Z) dualities, a growing product"
+  },
+  {
+   "id": "B185",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "1-cusp pieces cap connected gluings at pairs, exact graph-theory count"
+  },
+  {
+   "id": "B186",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "rigorous off-axis uniform-hyperbolicity PROOF is unreachable in-sandbox"
+  },
+  {
+   "id": "B191",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "stays discrete-and-proliferating"
+  },
+  {
+   "id": "B192",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "an artifact of three cherry-picked energies plus a dense-Gaussian rigged control"
+  },
+  {
+   "id": "B193",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "all four (chirality, field) combinations occur"
+  },
+  {
+   "id": "B197",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "figure-eight selection is independently overdetermined"
+  },
+  {
+   "id": "B198",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the 25-variable Groebner/primary-decomposition wall"
+  },
+  {
+   "id": "B199",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "A closed-form metallic exponent law k(o,m) exists"
+  },
+  {
+   "id": "B200",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "t_eff=2t^2/U is strong-coupling only"
+  },
+  {
+   "id": "B214",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "identical |Z| for the same monodromy is the definition of a topological invariant"
+  },
+  {
+   "id": "B216",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the law is elementary, P=lcm(t-2,t+2)/content"
+  },
+  {
+   "id": "B219",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "every content-1 class has period exactly 80 = lcm/content"
+  },
+  {
+   "id": "B225",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the '5 = golden filling' half HOLDS, exact"
+  },
+  {
+   "id": "B237",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "all metallic bundles carry 2T and 2I"
+  },
+  {
+   "id": "B239",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "reachability of Q(sqrt(-7)) by any unimodular element"
+  },
+  {
+   "id": "B243",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "for the level-rank self-dual figure-eight values"
+  },
+  {
+   "id": "B247",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "E6 -> SM gauge group via the figure-eight's holonomy in SU(2)_long"
+  },
+  {
+   "id": "B252",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "The object carries an intrinsic complex-conjugation-odd"
+  },
+  {
+   "id": "B272",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "input-E6 = output-E6 is forced"
+  },
+  {
+   "id": "B279",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "'tau could SWAP the two spin structures of 4_1'"
+  },
+  {
+   "id": "B285",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "meridian-commutator phase is a physical CP-violating"
+  },
+  {
+   "id": "B294",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "selective for the object's own structure, catalogue for SM values"
+  },
+  {
+   "id": "B295",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "'Curie forbids the sign' (P011's argument -- refuted, SSB loophole)"
+  },
+  {
+   "id": "B296",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "red-team found none (0 refutations)"
+  },
+  {
+   "id": "B299",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "phi acts FREELY on the 27"
+  },
+  {
+   "id": "B305",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "A2 is impossible (needs a height-12 root; E6 tops at 11)"
+  },
+  {
+   "id": "B307",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "C3 fields are totally real, hyperbolic invariant trace fields always have a complex place"
+  },
+  {
+   "id": "B310",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "realized object-specifically on the figure-eight character variety"
+  },
+  {
+   "id": "B313",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the figure-eight is forced as a theorem"
+  },
+  {
+   "id": "B320",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The mod-7 -> Fano -> G2 -> color-SU(3) chain selects color"
+  },
+  {
+   "id": "B321",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "core geodesic length of the (6,3) Dehn filling"
+  },
+  {
+   "id": "B325",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the E6 cubic cannot split them"
+  },
+  {
+   "id": "B332",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "g = -R L^{-1} is the generation-cycling deck element"
+  },
+  {
+   "id": "B334",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The seam's class-group partition yields a value prediction"
+  },
+  {
+   "id": "B335",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "The mass hierarchy is in the object"
+  },
+  {
+   "id": "B343",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "The object selects a TM2 (or any) TBM-breaking direction"
+  },
+  {
+   "id": "B360",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Seam brightness follows seed parity"
+  },
+  {
+   "id": "B361",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "doubly-elliptic law, 8 pairs, zero counterexamples"
+  },
+  {
+   "id": "B364",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "T-stability forces the theta lift as THE geometric lift"
+  },
+  {
+   "id": "B365",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Polarization selection happens at the S-closure level"
+  },
+  {
+   "id": "B367",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "uniform local-symbol product formula at declared complexity"
+  },
+  {
+   "id": "B372",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The seam is a level-15 accident"
+  },
+  {
+   "id": "B373",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the level-45 minimal sector's eigenvalue exponent is pinned"
+  },
+  {
+   "id": "B374",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "no invariant sector at the first mixed m=15"
+  },
+  {
+   "id": "B385",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "That the bright/dark discriminator is cheap"
+  },
+  {
+   "id": "B389",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "dihedral mechanism M1/M2"
+  },
+  {
+   "id": "B392",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the tricritical-Ising identification of the sector"
+  },
+  {
+   "id": "B394",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The naive CRT support-walk rule for the singles tower"
+  },
+  {
+   "id": "B397",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the stabilization is aggregate/window-level only"
+  },
+  {
+   "id": "B399",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the tower is a RESOLUTION generator, not a scale generator"
+  },
+  {
+   "id": "B400",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the golden line is EXACTLY orthogonal to the Mercedes plane"
+  },
+  {
+   "id": "B401",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "killed by 7 (inert) sitting in the bright (3,4) Gram spectrum"
+  },
+  {
+   "id": "B403",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "DFT forces {2,3,5}-smoothness for reasons having nothing to do with class field theory"
+  },
+  {
+   "id": "B405",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "#E = p+1 is automatic at any supersingular prime"
+  },
+  {
+   "id": "B406",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "FORCED BY TORSION"
+  },
+  {
+   "id": "B407",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "(1,3) nests in REVERSE"
+  },
+  {
+   "id": "B409",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "holds on only 4/6 pairs"
+  },
+  {
+   "id": "B411",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "multi-valued on generic invertible-det cells"
+  },
+  {
+   "id": "B412",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the tower is a mass-conserving refining MEASURE"
+  },
+  {
+   "id": "B418",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "all 16 elements of (Z/60)* tested, none realizes the mirror cell-wise"
+  },
+  {
+   "id": "B428",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "all blocks odd-dimensional/bosonic (27 = [17,9,1])"
+  },
+  {
+   "id": "B433",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the E6 assembly T[4_1,E6]"
+  },
+  {
+   "id": "B435",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "H1 = Z/p for EVERY knot at slope p (trefoil control)"
+  },
+  {
+   "id": "B437",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the field is a theorem about the integer 5"
+  },
+  {
+   "id": "B440",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "4_1 and 5_2 children both have exactly 4 irreducible vacua"
+  },
+  {
+   "id": "B443",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the forced child (Meyerhoff 4_1(5,1)) inherits the parent's commensurability class"
+  },
+  {
+   "id": "B444",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "SL(3) elimination field as a figure-eight fingerprint"
+  },
+  {
+   "id": "B445",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "H1 = 6 = rank(E6) is universal (Menal-Ferrer-Porti)"
+  },
+  {
+   "id": "B459",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Z/2 x Z/2 is the automorphism group of every biquadratic field"
+  },
+  {
+   "id": "B465",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The 8x4x3 two-generator monodromy as gauge structure"
+  },
+  {
+   "id": "B468",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "exact tier x color cross-table gives dark = (24,24,22)"
+  },
+  {
+   "id": "B472",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "quantum closure relocates to CRT-central addresses"
+  },
+  {
+   "id": "B474",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "exact F_p x Q(zeta60) recount gives 84 closure points"
+  },
+  {
+   "id": "B476",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "exact SVD ranks are 49, 5, 13"
+  },
+  {
+   "id": "B477",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "refuted as universal by s776's count (3 fertile classes, not a power of 2)"
+  },
+  {
+   "id": "B482",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the repo's banked value is 1.57705744122666946, a different number/clock"
+  },
+  {
+   "id": "B483",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "forced spin-j arithmetic at any level"
+  },
+  {
+   "id": "B484",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Freedman-Larsen-Wang density means the braid image is DENSE in SU(dim)"
+  },
+  {
+   "id": "B486",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the figure-eight cusp modulus is 2"
+  },
+  {
+   "id": "B487",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the SU(3) is a GLOBAL FLAVOR symmetry of a 3d N=2 U(1) gauge theory"
+  },
+  {
+   "id": "B489",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "covers are not twist knots so Gang-Yonekura does not apply"
+  },
+  {
+   "id": "B491",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "R3 cover-tower torsion = textbook Fox's formula, CLASSICAL"
+  },
+  {
+   "id": "B492",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "classical RCFT modular data"
+  },
+  {
+   "id": "B500",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "COMPLETE at depth 4 (all 36 three-verb words solved exact"
+  },
+  {
+   "id": "B513",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the (2,1) is generic to any F"
+  },
+  {
+   "id": "B515",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the unique unimodular quartic Pisot golden inflation"
+  },
+  {
+   "id": "B516",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "golden-field Pisot inflation exists at dims 1 (phi), 3 (beta), AND 5"
+  },
+  {
+   "id": "B52",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "The naive three-channel Fibonacci tight-binding model"
+  },
+  {
+   "id": "B520",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the bootstrap self-double ceiling means dim 3 is the maximum"
+  },
+  {
+   "id": "B521",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "Some peripheral invariant forces a choice the object doesn't make"
+  },
+  {
+   "id": "B523",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "generic to any 2-real-1-complex quartic Pisot"
+  },
+  {
+   "id": "B525",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object produces physics"
+  },
+  {
+   "id": "B526",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the isotropy-Stein no-go, via non-normal transient growth"
+  },
+  {
+   "id": "B536",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "every state tested has 0/225 dark points"
+  },
+  {
+   "id": "B539",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "The object's frozen relation catalog (7 exact two-variable integer relations"
+  },
+  {
+   "id": "B545",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "via the inert-prime obstruction"
+  },
+  {
+   "id": "B548",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Un-hideable iff self-priored/Pisot"
+  },
+  {
+   "id": "B550",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "degree=rank height-1 promotion has sign (-1)^n"
+  },
+  {
+   "id": "B553",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "killed as KNOWN \u2014 KKT 1983/Casdagli/Roberts"
+  },
+  {
+   "id": "B554",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "matter is one bit remembering its next moment"
+  },
+  {
+   "id": "B558",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "SM numbers live in the architecture at some algebraic level"
+  },
+  {
+   "id": "B56",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "The figure-eight knot sits on the self-evidencing surface I=1/4"
+  },
+  {
+   "id": "B561",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "The figure-eight's Eisenstein Z/3 selects SU(3)^2"
+  },
+  {
+   "id": "B567",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Hamiltonian reading H=-i log rho(A1) on C^15"
+  },
+  {
+   "id": "B569",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "chirality bit Z=Tr rho(A1)=-1"
+  },
+  {
+   "id": "B57",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "m=1 antisymmetric quartic"
+  },
+  {
+   "id": "B572",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "27|_principal = V3+V7+V17"
+  },
+  {
+   "id": "B574",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the minimal nilpotent of E6 has centralizer D5=Spin(10)"
+  },
+  {
+   "id": "B579",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "alpha_s(M_Z)=1/(2 phi^3), sin^2 theta13 = 1/phi^8"
+  },
+  {
+   "id": "B58",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "cotangent dim = 3n^2-10n+11"
+  },
+  {
+   "id": "B585",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "silver 8|kappa, bronze 13|kappa, RRL 12|kappa all refuted"
+  },
+  {
+   "id": "B59",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "SL(4) fixed-line Jacobian: parity block degree 1"
+  },
+  {
+   "id": "B60",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "SL(5) does not resolve at double precision"
+  },
+  {
+   "id": "B604",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "which theta-odd pair goes to the V8 block"
+  },
+  {
+   "id": "B605",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the amphichiral involution tau is a reflection with Fix(tau)"
+  },
+  {
+   "id": "B619",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "theta-odd clock order at the golden stages = 60"
+  },
+  {
+   "id": "B62",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "spectral invariants are gauge-dependent"
+  },
+  {
+   "id": "B624",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "SAME twelve-term Gauss assembly up to a fixed framing phase"
+  },
+  {
+   "id": "B626",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "RRLL vs RRRRL (same t=6, different J)"
+  },
+  {
+   "id": "B632",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "fully alternating on ANY closed oriented 3-manifold"
+  },
+  {
+   "id": "B654",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "predicts Q(zeta8) for silver; observed Q(i)"
+  },
+  {
+   "id": "B656",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "fig-8 area 2, silver area 4, factor stays 2"
+  },
+  {
+   "id": "B657",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the holonomy-invariant line v0 is NOT the GUT singlet"
+  },
+  {
+   "id": "B66",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "multiplicity at SL(6) is exactly 2, same as SL(5)"
+  },
+  {
+   "id": "B664",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the golden is the ONLY real minimum"
+  },
+  {
+   "id": "B668",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the ladder is exactly periodic (P = 175560"
+  },
+  {
+   "id": "B669",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "every metallic-trace ladder has finite exact q-support"
+  },
+  {
+   "id": "B672",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "A4 weight lattice's commutant is Q(zeta5)"
+  },
+  {
+   "id": "B677",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Tube(Fib) is semisimple (dim 7"
+  },
+  {
+   "id": "B681",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "v5(den c_n) = n + v5(n!)"
+  },
+  {
+   "id": "B685",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object generates its BEING structure (3) but NOT its HEARING structure"
+  },
+  {
+   "id": "B687",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "numerical equality is cheap"
+  },
+  {
+   "id": "B693",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "inert-5 Hecke structure of the base-changed Bianchi form"
+  },
+  {
+   "id": "B698",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "L(E,s) factors into independent local factors by Flath's tensor-product theorem"
+  },
+  {
+   "id": "B699",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "5-SPLIT Whitehead fills SL(2,5) too"
+  },
+  {
+   "id": "B703",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "post-hoc fit atop the Q=2/3 parametrization tautology"
+  },
+  {
+   "id": "B705",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "7983360 factorization is a structural E6 decomposition"
+  },
+  {
+   "id": "B706",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "discrete orientation bits vs ~19-26 continuous real parameters"
+  },
+  {
+   "id": "B709",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "36 positive roots shared by E6, B6, C6"
+  },
+  {
+   "id": "B710",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "fig-8 saddle actions real (Im=0"
+  },
+  {
+   "id": "B711",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Galois swaps rho_geom and its conjugate as a free 2-orbit"
+  },
+  {
+   "id": "B712",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "canonical complete-structure point has imaginary-quadratic cusp shape tau=+/-2sqrt(-3)"
+  },
+  {
+   "id": "B720",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "cosmic Galois is mixed-Tate over Z[i], Gaussian"
+  },
+  {
+   "id": "B721",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the object's own Anosov clock is tracial type II_1"
+  },
+  {
+   "id": "B724",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Sturmian zero entropy; amphichiral cat map, no arrow"
+  },
+  {
+   "id": "B726",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "bare two quadratic faces Q(sqrt-3) + Q(sqrt5) close the Born-content gap"
+  },
+  {
+   "id": "B727",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "the sister m003 (same field, not a knot) carries every field-level resonance"
+  },
+  {
+   "id": "B731",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "declared the object-level-observer door NO-GO"
+  },
+  {
+   "id": "B734",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object-level observer cannot be the abelian CMR/ray-class refinement"
+  },
+  {
+   "id": "B736",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "m004's own single-level non-abelian Bianchi congruence observer"
+  },
+  {
+   "id": "B77",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "roots of char(M^n), unifying the peripheral identity"
+  },
+  {
+   "id": "B84",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "SL(5) tower barrier is a fixable gauge/basis artifact"
+  },
+  {
+   "id": "B87",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "m=2 (genus 1, j=1728, CM by Z[i]) is a genus MINIMUM"
+  },
+  {
+   "id": "B90",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "L1a is a TAUTOLOGY (holds for arbitrary (A,t)"
+  },
+  {
+   "id": "W1-hardened-record",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "derivable from the solo object's numbers"
+  },
+  {
+   "id": "W2-typing-wall-1prime",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "at the classical-cohomology level (solo or double)"
+  },
+  {
+   "id": "W3-B632",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "exists at class level on the solo complement"
+  },
+  {
+   "id": "W4-B604/B607/B608",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "theta-odd principal blocks align with G_SM sectors"
+  },
+  {
+   "id": "W5-B565-T3/B605",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "A single-object construction supports chiral matter"
+  },
+  {
+   "id": "W6-B307",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "some hyperbolic knot has a cyclic-cubic (C3) trace field"
+  },
+  {
+   "id": "W7-rebase",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "naive Z/3 triality acts on H^1(D;27)"
+  },
+  {
+   "id": "W8-B643/B658",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "orientation-reversing (mirror) symmetry of Isom(4_1)=D4"
+  },
+  {
+   "id": "W9-B644/B650",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "monodromy-equivariant map exists from the classical A1-module"
+  },
+  {
+   "id": "W10-B660/B666",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "any dimensionful quantity AS A VALUE"
+  },
+  {
+   "id": "W11-B706",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "SM flavor ratios are low-height algebraic over the audible field"
+  },
+  {
+   "id": "S014 \u2014 cosmological-constant value formula",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "predicts the cosmological constant"
+  },
+  {
+   "id": "S015 \u2014 tower eigenvalues = masses / operator dimensions",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "SL(n) tower eigenvalues are a physical mass/operator-dimension spectrum"
+  },
+  {
+   "id": "S016 \u2014 Goldman metric (1,1) Lorentzian",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Goldman/Weil\u2013Petersson form on the character variety is Lorentzian"
+  },
+  {
+   "id": "S017 \u2014 phase-space 3+1D at SL(3)",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "SL(3) character variety has 6 real dimensions"
+  },
+  {
+   "id": "S018 \u2014 the spacetime tower up the ranks",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Lorentzian signature climbs the principal-SL(2) ladder"
+  },
+  {
+   "id": "S019 \u2014 Fisher metric on CS level k",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "information-geometry (Fisher-metric) reading of the Chern\u2013Simons level"
+  },
+  {
+   "id": "S021 \u2014 entanglement = holographic",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Fibonacci critical chain's entanglement signals holography"
+  },
+  {
+   "id": "Meta-kill \u2014 one collision causes all walls",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "common root cause of the tower / degree=rank / eps-series walls"
+  },
+  {
+   "id": "Math-kill \u2014 \u03b8 \u2192 c (opposition involution predicts degree=rank scalar)",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "predicts all four per-eigenvector Dehn-filling scalars c"
+  },
+  {
+   "id": "Math-kill \u2014 s_n = c (tower sign predicts degree=rank scalar)",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "tower sign s_n equals the degree=rank secondary scalar"
+  },
+  {
+   "id": "Value-kill \u2014 CS-crossover k\u22484 \u2194 n=4",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Chern\u2013Simons level crosses over near k\u22484"
+  },
+  {
+   "id": "Standard-theory-kills \u2014 quantum/knot probing triage (Chat-2)",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Kashaev\u2192volume; z\u2080/k=4 phase; three regimes"
+  },
+  {
+   "id": "K-A/K-B \u2014 det=\u22121 breaks chirality / selects SM chiral structure",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "det=\u22121 breaks chirality and selects the Standard-Model chiral structure"
+  },
+  {
+   "id": "K-C \u2014 figure-eight quantized = physical Fibonacci order",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "The quantized figure-eight is the physical Fibonacci topological order"
+  },
+  {
+   "id": "K-D \u2014 physical (unitary) topological order from the metallic family",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "Some metallic member furnishes physical (unitary, chiral) topological order"
+  },
+  {
+   "id": "K-E \u2014 a forced dimensionful scale or non-generic physical ratio",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "forces a dimensionful scale or a non-generic physical ratio"
+  },
+  {
+   "id": "K-F \u2014 single torsion \u2124/n \u2192 SU(n) center \u2192 gauge-group bridge",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "H\u2081 torsion tracks chirality and its \u2124/n is an SU(n) center"
+  },
+  {
+   "id": "K-G \u2014 the metallic structure HAS a forced choice (isolated \u03ba fixed points)",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "Isolated fixed points with distinct unsymmetrizable \u03ba values"
+  },
+  {
+   "id": "K-H \u2014 chirality shifts the eigenvalue arithmetic",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "Achiral \u2192 \u211a(\u221a\u22123), chiral/cross-seed \u2192 \u211a(\u03b6\u2081\u2082)"
+  },
+  {
+   "id": "K-I \u2014 Borromean rings (s776) show SU(3) gauge enhancement",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "s776's S\u2083-invariant SL(2,\u2102) character variety of dim 2"
+  },
+  {
+   "id": "K-J \u2014 \u03c6\u00b2 = degenerate-block monodromy multiplier",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "torus block's monodromy multiplier equals the seed's \u03c6\u00b2"
+  },
+  {
+   "id": "K-K \u2014 gap-labeling rank = composition period",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "gap-labeling spectral rank equals the composition period k"
+  },
+  {
+   "id": "K-L \u2014 rank = SL(n) tower depth",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "spectral rank climbs with the SL(n) tower depth"
+  },
+  {
+   "id": "K-M \u2014 measurable gap-labeling-rank prediction",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "measurable gap-labeling-rank prediction built on K-K/K-L"
+  },
+  {
+   "id": "K-N \u2014 |disc_CM| = \u03ba_m",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "CM discriminant equals the commutator parameter \u03ba_m"
+  },
+  {
+   "id": "K-O \u2014 golden trace leak tr \u03c1_{SU(2)\u2083}(A) = \u22121/\u03c6 as distinguished signal",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "distinguishes it from other hyperbolic words"
+  },
+  {
+   "id": "S032-A \u2014 the literal universal no-escape form (probation P1)",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "NO invariant escapes the trace ring's discretely-multivalued-and-unsymmetric behavior"
+  },
+  {
+   "id": "P13 \u2014 generations via commensurator-triality-on-27",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "E\u2086\u2192SU(3)\u00b3 triality on the 27 gives three symmetric generations"
+  },
+  {
+   "id": "P20 \u2014 the causal-set poset reading",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "strict-full class DAG (B159) is a manifoldlike causal set"
+  },
+  {
+   "id": "P21 \u2014 the framework search",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Some external SM/GR framework (heterotic, LQG, asymptotic safety, causal sets, NCG)"
+  },
+  {
+   "id": "P22 \u2014 the Klein-four \u2192 SO(9) route",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "selects SO(9)=B\u2084 inside F\u2084 \u2192 Pati\u2013Salam \u2192 SM"
+  },
+  {
+   "id": "R1 \u2014 the B85 Sym(W)\u2192trace-ring functor wall (B565, earned)",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Sym(W)\u2192trace-ring functor reaches the multiplicity-2 char(M\u00b2) sector"
+  },
+  {
+   "id": "R5 \u2014 the L38 Higgs-scale do-or-die (B565, earned)",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "intrinsic (Higgs-like) scale exists on the Hitchin/Higgs side of the object"
+  },
+  {
+   "id": "S014-null-clause correction (B565 exhumation)",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "~60% of random constants match as well"
+  },
+  {
+   "id": "B8",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "m/g equal sqrt(5/(4 log phi)), not phi"
+  },
+  {
+   "id": "B9",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Fibonacci fusion and the cubic vertex only share the polynomial"
+  },
+  {
+   "id": "B15",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "rejected under the Fricke-Vogt normalization"
+  },
+  {
+   "id": "B17",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Same-record repetition is parabolic"
+  },
+  {
+   "id": "B20",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "The trace map has invariant-memory and feedback but never reads its invariant"
+  },
+  {
+   "id": "B22",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "generic for all orientation-reversing symmetric-square lifts"
+  },
+  {
+   "id": "B24",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Fibonacci anyon level k=3 is not selected by the framework"
+  },
+  {
+   "id": "B26",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "literal T^6 quadratic is t^2-27t+1"
+  },
+  {
+   "id": "B31",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Projective period-3 return holds for every c"
+  },
+  {
+   "id": "B32",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "chain does not select I=1/4"
+  },
+  {
+   "id": "B36",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "only reuses the B26 selector"
+  },
+  {
+   "id": "B37",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "fails the self-model criterion, quarantining awareness-adjacent readings"
+  },
+  {
+   "id": "B39",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "infinite discrete family c^2=(m+2)/4"
+  },
+  {
+   "id": "B40",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "not derived from the A1-A7 core"
+  },
+  {
+   "id": "B41",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "B26 period-3 orbit is the simplest one-parameter family"
+  },
+  {
+   "id": "B42",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Natural variational quantities of the tangent return"
+  },
+  {
+   "id": "B46",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian"
+  },
+  {
+   "id": "B47",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "lambda/h=1 is conditional, not derived"
+  },
+  {
+   "id": "B81",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "CRT/F_p first-principles route is blocked at SL(5)"
+  },
+  {
+   "id": "B82",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "every attempted bridge"
+  },
+  {
+   "id": "B85",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "a root-system fact that functoriality cannot dissolve"
+  },
+  {
+   "id": "B96",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Neumann-Zagier volume Hessian at the complete structure"
+  },
+  {
+   "id": "B97",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "only the sl(2,R) Killing form on the Teichmuller component"
+  },
+  {
+   "id": "B98",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "geometric representation, which instead carries the adjoint torsion"
+  },
+  {
+   "id": "B99",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "geometric rep's Jacobian is torsion-type"
+  },
+  {
+   "id": "B108",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "The opposition involution theta=-w0 cannot predict"
+  },
+  {
+   "id": "B110",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "empty for the figure-eight at SL(3)"
+  },
+  {
+   "id": "B114",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The exponent k is not a covering degree"
+  },
+  {
+   "id": "B116",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "diverges at n=6"
+  },
+  {
+   "id": "B119",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "k=n is not forced by M^k centrality"
+  },
+  {
+   "id": "B126",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "no 3-manifold supplies the 2d-boundary data"
+  },
+  {
+   "id": "B127",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the surviving content is the object's proper name"
+  },
+  {
+   "id": "B129",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "The metallic SL(3) tower is SL(2) arithmetic"
+  },
+  {
+   "id": "B130",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "No trace-ring invariant is both discretely multivalued and unsymmetrizable"
+  },
+  {
+   "id": "B135",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "There is no metallic family of Lee-Yang realizations"
+  },
+  {
+   "id": "B139",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Multiplicity cannot supply the SM's simple non-abelian factor"
+  },
+  {
+   "id": "B143",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "The algebraic trace venue is structurally mirror-blind"
+  },
+  {
+   "id": "B144",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Cusp-glued composites are mirror-closed"
+  },
+  {
+   "id": "B145",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "over the catalogued once-punctured-torus bundles"
+  },
+  {
+   "id": "B151",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "primary sources place all dimensionful content in hbar/k"
+  },
+  {
+   "id": "B167",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "A conserved dimensionless first integral cannot source an internal scale"
+  },
+  {
+   "id": "B168",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "every emergent rate is dimensionless"
+  },
+  {
+   "id": "B170",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "undecidable from within"
+  },
+  {
+   "id": "B181",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "the metallic chain is permanently critical"
+  },
+  {
+   "id": "B188",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "the metallic Liouvillian gap matches the extended chain"
+  },
+  {
+   "id": "B189",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "truncation artifact, reproduced by a random null"
+  },
+  {
+   "id": "B190",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Iterated trace-ring gluing never converges"
+  },
+  {
+   "id": "B202",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "non-generic in the metallic family"
+  },
+  {
+   "id": "B207",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "No GUT-style McKay breaking chain exists across the metallic family"
+  },
+  {
+   "id": "B213",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "special geometry of the figure-eight character variety"
+  },
+  {
+   "id": "B217",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The Borromean parent gives no geometric origin"
+  },
+  {
+   "id": "B223",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "The golden chain has no conserved fermion parity"
+  },
+  {
+   "id": "B230",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "a central-charge coincidence with a different coset"
+  },
+  {
+   "id": "B231",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "metallic levels k=m\u00b2+2 confer no special chain structure for m\u22652"
+  },
+  {
+   "id": "B235",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "The trace-field ladder closes at"
+  },
+  {
+   "id": "B241",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "twist-universal vs figure-eight-specific"
+  },
+  {
+   "id": "B244",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "does not resolve the three SL(3,\u2102) character-variety components"
+  },
+  {
+   "id": "B246",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "grows at the complement volume 2.0299"
+  },
+  {
+   "id": "B269",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "T[4\u2081]'s single-cusp flavor symmetry"
+  },
+  {
+   "id": "B280",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "2T spin-3/2 branches as 2+2"
+  },
+  {
+   "id": "B281",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "The figure-eight's character variety does not distinguish E\u2086"
+  },
+  {
+   "id": "B282",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "generic to any hyperbolic knot"
+  },
+  {
+   "id": "B283",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "WRT period law is generic to all torus bundles"
+  },
+  {
+   "id": "B284",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "2T representation of the figure-eight is a generic smooth point"
+  },
+  {
+   "id": "B288",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "No closed hyperbolic Dehn filling of the figure-eight"
+  },
+  {
+   "id": "B292",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "the metallic tower and filling family are 3-manifold sequences"
+  },
+  {
+   "id": "B298",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "The figure-eight cannot force three generations"
+  },
+  {
+   "id": "B300",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "eight external inputs compress to two walls"
+  },
+  {
+   "id": "B308",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "not forced by the object"
+  },
+  {
+   "id": "B322",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the figure-eight's 6241 filling-invariant ratios"
+  },
+  {
+   "id": "B329",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "27 restricted to 2T for both natural embeddings gives n1=n2"
+  },
+  {
+   "id": "B330",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Across five invariant classes every trace-map-invariant discrete invariant"
+  },
+  {
+   "id": "B331",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "closing the proposed SL(2,C)/holomorphic escape for the object's own lift"
+  },
+  {
+   "id": "B333",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the seam's arithmetic is generic and carries no value"
+  },
+  {
+   "id": "B336",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "fillings are generically non-arithmetic"
+  },
+  {
+   "id": "B339",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The CS Dehn-filling flow's sub-leading coefficient is rational"
+  },
+  {
+   "id": "B342",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "The object's Z/3 is the (standard) trimaximal symmetry"
+  },
+  {
+   "id": "B349",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "Across all covers of the figure-eight through index 6"
+  },
+  {
+   "id": "B350",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The cyclic-cover abelian torsion class carries no forced choice"
+  },
+  {
+   "id": "B355",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "all 605 gauge-invariant triple products are exactly real"
+  },
+  {
+   "id": "B369",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "extending the single-object wall off the seed family"
+  },
+  {
+   "id": "B387",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the value sector is Par-dark at levels 45 and 135"
+  },
+  {
+   "id": "B388",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "No transport law of the registered forms exists for the m=2 singles"
+  },
+  {
+   "id": "B395",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "The cell-wise sigma-law fails on 140/240 cells"
+  },
+  {
+   "id": "B398",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the PMNS formula ensemble banks as numerology-class"
+  },
+  {
+   "id": "B408",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "closing the object's last internal scale-lever candidate"
+  },
+  {
+   "id": "B413",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "so the object generates no scale through its measure"
+  },
+  {
+   "id": "B414",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object's core multiplicity is Z/2"
+  },
+  {
+   "id": "B419",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "is a hyperbolic volume with golden-field arithmetic"
+  },
+  {
+   "id": "B420",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "genus-character L-factorization of the Hilbert class field"
+  },
+  {
+   "id": "B421",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object self-generates no Standard Model structure"
+  },
+  {
+   "id": "B422",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the content wall holds under both of the object's symmetries"
+  },
+  {
+   "id": "B429",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "no first-order deformation of the object's E\u2086 structure produces spinorial matter"
+  },
+  {
+   "id": "B430",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object forces only the principal bosonic one"
+  },
+  {
+   "id": "B438",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "4\u2081 and 5\u2082 share both the \u2212283 exit field"
+  },
+  {
+   "id": "B441",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "The child 4_1(5,1)'s WRT field is exactly Q(zeta_r)"
+  },
+  {
+   "id": "B442",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "The child's composite E6 data is a function of the -283 vacua"
+  },
+  {
+   "id": "B447",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "Every m-scan flag dissolved or laundered"
+  },
+  {
+   "id": "B455",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "kappa is conserved along perturbed orbits"
+  },
+  {
+   "id": "B457",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the behavior catalog is class-generic or whitelist-laundered"
+  },
+  {
+   "id": "B458",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "Every non-geometric SL(3) component of the figure-eight"
+  },
+  {
+   "id": "B461",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "No Brunnian-specific manifold invariant emerged for the Borromean rings"
+  },
+  {
+   "id": "B462",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "Every exact structure in the figure-eight double launders"
+  },
+  {
+   "id": "B464",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "no relational invariant escaping class-laundering in any computed cell"
+  },
+  {
+   "id": "B480",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Dirac emergence is generic, mass is a tunable alignment angle"
+  },
+  {
+   "id": "B481",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "determinants of the critical-point Weil operators land in the 12th roots of unity"
+  },
+  {
+   "id": "B490",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "one structural no-go, stated as a single provable theorem"
+  },
+  {
+   "id": "B498",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "refute both the golden monopoly and cyclotomic tameness"
+  },
+  {
+   "id": "B512",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "the McKay ladder to E\u2086 is golden-specific (silver is a 2-group)"
+  },
+  {
+   "id": "B529",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "i\u03c3_y's exactness is generic spectral degeneracy"
+  },
+  {
+   "id": "B541",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the 17-component dictionary matches SM constants no better than chance"
+  },
+  {
+   "id": "B549",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "through the frozen Z[tau] machinery against magnitude-matched controls"
+  },
+  {
+   "id": "B551",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "nor Sturmian (complexity \u22483n)"
+  },
+  {
+   "id": "B559",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the figure-eight is a finite-action gravity instanton"
+  },
+  {
+   "id": "B563",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "a plastic-seed control ladder landing closer than the object"
+  },
+  {
+   "id": "B573",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the principal sl2 preserves no Spin(10) grading"
+  },
+  {
+   "id": "B577",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "a non-recall failure, not new discovery"
+  },
+  {
+   "id": "B592",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "C-symmetry of the state makes every closed theta-odd amplitude vanish"
+  },
+  {
+   "id": "B596",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "not the naive cat-map period in any registered form"
+  },
+  {
+   "id": "B597",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Distinct theta-odd widths and theta-even torsions structurally exclude"
+  },
+  {
+   "id": "B600",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "reproduced in an independent pipeline and certified exactly"
+  },
+  {
+   "id": "B602",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the naive value bridge does not exist"
+  },
+  {
+   "id": "B606",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "no torsion-power normalization can close the value gauge"
+  },
+  {
+   "id": "B611",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensional edge"
+  },
+  {
+   "id": "B612",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "only the level-uniform quantified form survives on the seven objects"
+  },
+  {
+   "id": "B631",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "does not match PMNS at the 1% tier"
+  },
+  {
+   "id": "B633",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "every SM-facing comparison is null"
+  },
+  {
+   "id": "B639",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "admits no representation-twisted amalgam realization in any tested class"
+  },
+  {
+   "id": "B643",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "not a symmetry of the weld double"
+  },
+  {
+   "id": "B655",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "incoming beta-coefficient claim dies by refutation"
+  },
+  {
+   "id": "B658",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "break on the weld double's 27 local system"
+  },
+  {
+   "id": "B660",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "closing the last class-level mass-shape route"
+  },
+  {
+   "id": "B671",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "scalarization-gauge rather than object content"
+  },
+  {
+   "id": "B674",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the \u0393(5) twisted tower is trace-silent"
+  },
+  {
+   "id": "B678",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "full 8x12 ladder census shows no growth in any of 96 cells"
+  },
+  {
+   "id": "B686",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Q = 2/3 is a parametrization tautology for every phase"
+  },
+  {
+   "id": "B697",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "tautological Gaussian period carrying no object-specific content"
+  },
+  {
+   "id": "B713",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "Chirality is not in the amphichiral object"
+  },
+  {
+   "id": "B716",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "no canonical arrow, no canonical 4d filling, no canonical Wick rotation"
+  },
+  {
+   "id": "B718",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "Beyond H1=Z/p the child is arithmetically generic"
+  },
+  {
+   "id": "B719",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "every cover's volume is exactly degree\u00b7base"
+  },
+  {
+   "id": "B728",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "zeta_5 is impossible in the resummed object"
+  },
+  {
+   "id": "B729",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "every native invariant yields only the two quadratic fields"
+  },
+  {
+   "id": "B735",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "generic to every cusped hyperbolic manifold"
+  },
+  {
+   "id": "B737",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the \u03b6_K in the object's voice is the field's"
+  },
+  {
+   "id": "B740",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "all 78 hyperbolic fillings ... no closed filling of m004"
+  },
+  {
+   "id": "B743",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object's whole real algebraic tower and canonical analytic values"
+  },
+  {
+   "id": "B747",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "all 78 fillings' invariant trace fields are \u221a5-free"
+  },
+  {
+   "id": "B748",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid"
+  },
+  {
+   "id": "B751",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "identification is NOT EARNED: the per-letter assignment is constructed"
+  },
+  {
+   "id": "B752",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "qualia handoff dissolves on recompute"
+  },
+  {
+   "id": "B754",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "Re-adjudicating 19 banked negatives against the frozen spectral surface"
+  },
+  {
+   "id": "B756",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "general '5-inert and fibered implies golden' reading dies"
+  },
+  {
+   "id": "B757",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "deck reps are torsion-free"
+  },
+  {
+   "id": "B760",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object cannot close itself"
+  },
+  {
+   "id": "B772",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Audit of 14 banked negatives: only 4 are load-bearing"
+  },
+  {
+   "id": "B775",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "no object-native outer operation"
+  },
+  {
+   "id": "B790",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "LMFDB holds no Bianchi Laplace data"
+  },
+  {
+   "id": "B793",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the B788 solver is bounded refinement inside a supplied window"
+  },
+  {
+   "id": "B802",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "reversal leaves the Fibonacci letter frequencies unchanged"
+  },
+  {
+   "id": "B808",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "margin-preserving permutation null (10,000 draws)"
+  },
+  {
+   "id": "B811",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "a scale-free object cannot emit a scale-dependent value"
+  },
+  {
+   "id": "B812",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "five blocked by M, three by class-level C, one by scale S"
+  },
+  {
+   "id": "B813",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "a fixed PSL(2,C) geometric invariant cannot fill the coefficient slot"
+  },
+  {
+   "id": "B814",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "no well-posed statement at the principal E6 point of 4_1"
+  },
+  {
+   "id": "B821",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "proposed self-audit motif failed its sealed vacuity ceiling"
+  },
+  {
+   "id": "B824",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "character-variety motif failed its sealed vacuity ceiling"
+  },
+  {
+   "id": "B849",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "Cl(O_4) = Z/2 is a genuine object-specific symmetry (m003 sits at O_K"
+  },
+  {
+   "id": "B850",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "standard ratio-set reduction ... genericity does not follow"
+  },
+  {
+   "id": "B854",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "centralizer of the object's finite holonomy image 2T"
+  },
+  {
+   "id": "B899",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "sourced by mu's root geometry -- nearest root spacing or |mu'|"
+  },
+  {
+   "id": "B915",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object's gauge boundary (E6 unification with the banked sin2thetaW = 3/8)"
+  },
+  {
+   "id": "B925",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object's compact D-chain (A2 in D3 in D4 in D5 in E6"
+  },
+  {
+   "id": "B924",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "THIS face pair's stage; other face pairs ... escape the mechanism's hypotheses"
+  },
+  {
+   "id": "B935",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "composing the object's forced maps"
+  },
+  {
+   "id": "B942",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "c generates Gal(K/Q) ... K has zero real places"
+  },
+  {
+   "id": "B945",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "m004 and the ENTIRE metallic locus R^m L^m sit in the full-Klein minority"
+  },
+  {
+   "id": "B957",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the group is Z/2 over a QUADRATIC field (Q(sqrt5), Q(sqrt-7))"
+  },
+  {
+   "id": "B959",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object could reach chiral matter at the Standard Model's rank (4)"
+  },
+  {
+   "id": "B947",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "a LAW of the object's value layer"
+  },
+  {
+   "id": "B960",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the adjoint form HAS NO 27"
+  },
+  {
+   "id": "B979",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "LR and RL are CONJUGATE"
+  },
+  {
+   "id": "B971",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "on COMPLETE 27s the anomaly check cannot fail"
+  },
+  {
+   "id": "B986",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "any test of the form 'does h have a root of TYPE X' is saturated"
+  },
+  {
+   "id": "B995",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "'separating from the relatives AND rare in the population' is a well-posed test"
+  },
+  {
+   "id": "B996",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Access to E6 is GENERIC across two-thirds of the grammars"
+  },
+  {
+   "id": "B1005",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "falsifier fires FOR THE ENUMERATED SPACE, NOT IN PRINCIPLE"
+  },
+  {
+   "id": "B1006",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object's own second Maass spectral parameter r"
+  },
+  {
+   "id": "B1007",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "programme lacked an arbitrary-precision Maass solver"
+  },
+  {
+   "id": "B1027",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "coupling channel's chi phases {+-2pi/3} are the CP phases"
+  },
+  {
+   "id": "B1063",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "NuFIT refresh could rescue the fourth crossing's +-120 deg CP predictions"
+  },
+  {
+   "id": "B1064",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the object's amphichirality deletes the quantized sector of its own boundary action"
+  },
+  {
+   "id": "B1066",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the object's coupling menus meet measured mixing data"
+  },
+  {
+   "id": "B1075",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "tone magnitudes at the derived listener meet the PMNS moduli"
+  },
+  {
+   "id": "B1076",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "coset-invariant, value-bearing, mass-ratio-shaped residue exists in the pair channel"
+  },
+  {
+   "id": "B1084",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "flat G2 cone (C^2 x R^3)/G-hat"
+  },
+  {
+   "id": "B1086",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "on a closed oriented 3-manifold the cup pairing lands in the trivial charge"
+  },
+  {
+   "id": "B1094",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "rank reduction of the E6 gauge symmetry via ABELIAN holonomy on the object"
+  },
+  {
+   "id": "B1096",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "every anomaly channel over the derived 16 is zero"
+  },
+  {
+   "id": "B1108",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "arithmetic CS is finite-group-valued by construction"
+  },
+  {
+   "id": "B1137",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "object's higher regulators (zeta_K(n)/L(n,chi-3) at Q(sqrt-3)"
+  },
+  {
+   "id": "B1140",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the 64 decomposes ... as EXACTLY (spin-2,0;1)+(0,spin-2;1)+(1,1;3)+(1,1;3bar)"
+  },
+  {
+   "id": "B1142",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "cusp/scattering zeros of the complete Dedekind zeta Lambda_K of Q(sqrt-3)"
+  },
+  {
+   "id": "B1151",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "zeta_K is a product L-function, the union of two independent GUE spectra"
+  },
+  {
+   "id": "B1157",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "GENERIC to any finite-volume hyperbolic 3-manifold"
+  },
+  {
+   "id": "B1165",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "GENERIC-RHYME (SL(2,C) holonomy + Vol only, survives swapping m004"
+  },
+  {
+   "id": "B1174",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "REFUTED by exact field actions: c ... TRIVIAL on Q(sqrt5)"
+  },
+  {
+   "id": "B838",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "K023-K025 are SYNTHESES, not topics"
+  },
+  {
+   "id": "B840",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "polish_mp built 9 complex trace equations (18 real) for 22 real unknowns"
+  },
+  {
+   "id": "B1203",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "c-EQUIVARIANCE AS A FILTER ... cuts MENU-1 by EXACTLY ZERO"
+  },
+  {
+   "id": "B1205",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "one polynomial equation cuts exactly one dimension"
+  },
+  {
+   "id": "B1209",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "for m004 |a_1| = 1 at ALL FOUR ideal points"
+  },
+  {
+   "id": "B1222",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Census of the first 400 one-cusped orientable manifolds"
+  },
+  {
+   "id": "B1223",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "K = Q[x]/(x^3-12x-5), disc 6237, totally real"
+  },
+  {
+   "id": "B2",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the figure-eight A-polynomial curve"
+  },
+  {
+   "id": "B5",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "Lambda = 2 pi^2 / Vol(4_1)"
+  },
+  {
+   "id": "B258-silver-inference",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "decided by the INVARIANT trace field Q(tr Gamma^(2)), which is Q(i) for m136"
+  },
+  {
+   "id": "B1062-V2-axis",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "silver is arithmetic (invariant trace field Q(i))"
+  },
+  {
+   "id": "B1244",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Gate 5 -- the dimensional firewall -- had accumulated over-fenced items"
+  },
+  {
+   "id": "B1242",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "SU(4)_1 IS the silver's stage; E6(C) Chern-Simons IS 3d Euclidean quantum gravity"
+  },
+  {
+   "id": "B1258",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the object's own 2T can select WHICH sl2 embedding"
+  },
+  {
+   "id": "B1259",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "EVERY element of SO(2k+1) has eigenvalue +1"
+  },
+  {
+   "id": "B1262",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "the GENUS GROUP HAS ORDER 2, against Gal's order 4"
+  },
+  {
+   "id": "B1267",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "not net chirality on m004 for every local system"
+  },
+  {
+   "id": "B1291",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the generation count 3 could arise from the fixed-point structure of m004's cusp"
+  },
+  {
+   "id": "B1295",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "every conjugacy class of subgroup of pi_1(m004) of index 2..10"
+  },
+  {
+   "id": "B1296",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "theta-EQUIVARIANT abelian Higgs ... charge locus is the strong inversion's fixed arcs"
+  },
+  {
+   "id": "B1297",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the Z/3 descent of m004 (the cyclic tower)"
+  },
+  {
+   "id": "B1322",
+   "member_scope": "M004",
+   "says_object": "YES",
+   "quote": "the cusped object's E6 holonomy carries a net count of 27s"
+  },
+  {
+   "id": "B1330",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "Intersecting the 112-member Q(sqrt-3) family"
+  },
+  {
+   "id": "B1335",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "scanning one-cusped census manifolds ... on the chiral one-cusped m010"
+  },
+  {
+   "id": "B1336",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "discrete and faithful, hence a lattice in PSL2(C), hence ZARISKI-DENSE"
+  },
+  {
+   "id": "B1338",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "The instrument is itself blind, demonstrated by its own miss"
+  },
+  {
+   "id": "B1340",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "E6 is anomaly-safe (T-ANOMALY-REALIZED), so a full 27 cannot fail"
+  },
+  {
+   "id": "B1347",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "Strata 2, 2' and 3 each produce BOTH outcomes"
+  },
+  {
+   "id": "B1349",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "the GOLDEN WORD m=1 -- B997's unique McKay-shadow grammar, the object's own"
+  },
+  {
+   "id": "B1407",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "The row's own spec says one shot with ZERO anchors consumed"
+  },
+  {
+   "id": "B1408",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "the odd sector carries exactly one number"
+  },
+  {
+   "id": "B1442",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "On the seventeen carriers no background has its five charged sectors"
+  },
+  {
+   "id": "B1450",
+   "member_scope": "M004",
+   "says_object": "NO",
+   "quote": "six arithmetic fillings of m004 from the other seventy-two"
+  },
+  {
+   "id": "B1452",
+   "member_scope": "GENERAL",
+   "says_object": "NO",
+   "quote": "24 unsorted order-sensitive sites in 16 banked verification scripts"
+  },
+  {
+   "id": "B1455",
+   "member_scope": "UNCLEAR",
+   "says_object": "NO",
+   "quote": "on Ballas' family (rho_q o iota)^* is conjugate to rho_q for every q > 0"
+  },
+  {
+   "id": "B1470",
+   "member_scope": "FAMILY",
+   "says_object": "NO",
+   "quote": "the 3 325 modules of t12835 left NOT RUN by B1418"
+  }
+ ],
+ "summary": {
+  "n": 460,
+  "by_scope": {
+   "GENERAL": 232,
+   "M004": 98,
+   "UNCLEAR": 100,
+   "FAMILY": 30
+  },
+  "says_object_yes": [
+   "B252",
+   "B335",
+   "B343",
+   "B443",
+   "B521",
+   "B525",
+   "B539",
+   "B685",
+   "B712",
+   "B731",
+   "B734",
+   "W1-hardened-record",
+   "B308",
+   "B331",
+   "B342",
+   "B408",
+   "B413",
+   "B414",
+   "B421",
+   "B422",
+   "B429",
+   "B430",
+   "B559",
+   "B671",
+   "B713",
+   "B728",
+   "B737",
+   "B743",
+   "B760",
+   "B854",
+   "B915",
+   "B925",
+   "B945",
+   "B959",
+   "B947",
+   "B1006",
+   "B1094",
+   "B1258",
+   "B1322"
+  ],
+  "m004_scoped": [
+   "B197",
+   "B225",
+   "B247",
+   "B252",
+   "B279",
+   "B294",
+   "B310",
+   "B313",
+   "B321",
+   "B335",
+   "B343",
+   "B433",
+   "B443",
+   "B444",
+   "B486",
+   "B487",
+   "B489",
+   "B500",
+   "B521",
+   "B525",
+   "B539",
+   "B56",
+   "B561",
+   "B685",
+   "B710",
+   "B712",
+   "B731",
+   "B734",
+   "B736",
+   "W1-hardened-record",
+   "W8-B643/B658",
+   "K-C \u2014 figure-eight quantized = physical Fibonacci order",
+   "B110",
+   "B213",
+   "B241",
+   "B269",
+   "B281",
+   "B284",
+   "B288",
+   "B298",
+   "B308",
+   "B322",
+   "B331",
+   "B342",
+   "B349",
+   "B408",
+   "B413",
+   "B414",
+   "B421",
+   "B422",
+   "B429",
+   "B430",
+   "B438",
+   "B441",
+   "B442",
+   "B458",
+   "B462",
+   "B559",
+   "B643",
+   "B658",
+   "B671",
+   "B674",
+   "B713",
+   "B718",
+   "B728",
+   "B729",
+   "B737",
+   "B740",
+   "B743",
+   "B747",
+   "B748",
+   "B757",
+   "B760",
+   "B814",
+   "B849",
+   "B854",
+   "B915",
+   "B925",
+   "B945",
+   "B959",
+   "B947",
+   "B1006",
+   "B1064",
+   "B1084",
+   "B1094",
+   "B1209",
+   "B1223",
+   "B2",
+   "B5",
+   "B1258",
+   "B1267",
+   "B1291",
+   "B1295",
+   "B1296",
+   "B1297",
+   "B1322",
+   "B1349",
+   "B1450"
+  ]
+ }
+}

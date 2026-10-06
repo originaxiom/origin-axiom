@@ -1,0 +1,265 @@
+{
+ "m135": {
+  "name": "m135",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "quarter",
+  "kind": "cusped"
+ },
+ "m136": {
+  "name": "m136",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s463": {
+  "name": "s463",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1,
+    1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "quarter",
+  "kind": "cusped"
+ },
+ "s464": {
+  "name": "s464",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 40,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s725": {
+  "name": "s725",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 24,
+  "etas_in_coset": true,
+  "cs_class": "quarter",
+  "kind": "cusped"
+ },
+ "s726": {
+  "name": "s726",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 40,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s880": {
+  "name": "s880",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s881": {
+  "name": "s881",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 16,
+  "etas_in_coset": true,
+  "cs_class": "quarter",
+  "kind": "cusped"
+ },
+ "s882": {
+  "name": "s882",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 40,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s883": {
+  "name": "s883",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s891": {
+  "name": "s891",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "n": 12,
+  "etas_in_coset": true,
+  "cs_class": "quarter",
+  "kind": "cusped"
+ },
+ "s892": {
+  "name": "s892",
+  "verdict": "FIX",
+  "etas": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "K": null,
+  "n": 16,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s911": {
+  "name": "s911",
+  "verdict": "GENUINE SWAP",
+  "etas": [
+   [
+    -1,
+    -1
+   ]
+  ],
+  "K": [
+   [
+    1,
+    1
+   ]
+  ],
+  "n": 40,
+  "etas_in_coset": true,
+  "cs_class": "quarter",
+  "kind": "cusped"
+ },
+ "s912": {
+  "name": "s912",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "cusped"
+ },
+ "s948": {
+  "name": "s948",
+  "verdict": "UNDETERMINED (no mirror word to L=7)",
+  "L": 7,
+  "cs_class": "zero",
+  "kind": "cusped"
+ }
+}

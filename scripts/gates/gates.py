@@ -1554,6 +1554,39 @@ def gate_pretense_phrases():
         return False, "%d pretense phrase(s) on living pages (baseline %d): " % (n, PRETENSE_BASELINE) + "; ".join("%s: %s x%d" % h for h in hits[:5])
     return True, "ok (%d on living pages, baseline %d%s)" % (n, PRETENSE_BASELINE, "; lower the baseline" if n < PRETENSE_BASELINE else "")
 
+# --- gate: a negative about one member may not call it "the object" (the owner's rule, 2026-10-04) ------------------
+MEMBER_SCOPE_BASELINE = 8      # frozen 2026-10-04 (B1476's landing): B1157, B1338, B1407, B429, B713, B760, B959, B960 -- may only shrink
+_MS_WIDE = re.compile(r"\b(family|commensurability class|every member|112|siblings?|all members|members of|the thirteen|m003|t12835|t12839|s958|v2873)\b", re.I)
+_MS_OBJ = re.compile(r"(the object (cannot|can not|does not|has no|carries no|makes no|supplies no|never|is not|has none)|impossible on the object|not in the (amphichiral )?object|the object'?s own (impossib|cannot|lacks)|nothing in the object|no [a-z\- ]{0,40} (in|on|of) the object)", re.I)
+
+
+def member_scope_hits(reader=None):
+    """NEGATIVE verdict lines that say 'the object cannot' (or kin) without naming the family or a member: (arc id, phrase)."""
+    reader = reader or (lambda rel: _read(rel))
+    out = []
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        try:
+            d = json.loads(reader(os.path.relpath(p, ROOT)))
+        except Exception:
+            continue
+        if d.get("verdict") != "NEGATIVE":
+            continue
+        claim = str(d.get("claim_one_line", ""))
+        m = _MS_OBJ.search(claim)
+        if m and not _MS_WIDE.search(claim):
+            out.append((d.get("id", os.path.basename(os.path.dirname(p))), m.group(0)[:50]))
+    return out
+
+
+def gate_member_scope(reader=None):
+    """The owner's rule (2026-10-04, GENESIS v1.11): the object is the family; a negative computed on one member says the
+    member's name, not "the object". Held to a frozen baseline of old verdict lines that may only shrink; a new NEGATIVE
+    arc that writes 'the object cannot' without naming the family fails."""
+    hits = member_scope_hits(reader)
+    if len(hits) > MEMBER_SCOPE_BASELINE:
+        return False, "%d NEGATIVE verdict lines say 'the object' for one member's result (baseline %d): " % (len(hits), MEMBER_SCOPE_BASELINE) + "; ".join("%s: %s" % h for h in hits[-5:])
+    return True, "ok (%d on the record, baseline %d%s)" % (len(hits), MEMBER_SCOPE_BASELINE, "; lower the baseline" if len(hits) < MEMBER_SCOPE_BASELINE else "")
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -1597,6 +1630,7 @@ GATES = {
     "review-core": gate_review_core,
     "seal-ledger-current": gate_seal_ledger_current,
     "pretense-phrases": gate_pretense_phrases,
+    "member-scope": gate_member_scope,
 }
 
 

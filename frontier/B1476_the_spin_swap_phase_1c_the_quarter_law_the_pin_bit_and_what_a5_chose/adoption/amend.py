@@ -24,7 +24,7 @@ CHANGES = [
   "  B1475). So the flat frame reaches DISCRETE data (counts, bits, signs) through the boundary and cannot reach CONTINUOUS\n"
   "  values (a mass, a coupling): the record's value-negatives are theorems about flat moduli and bound the frame, not\n"
   "  physics (lead L247; the census of 173 value-kills, 107 on flat premises). Narrowed on two readings of the same day from\n"
-  "  opposite sides — the audit lane's R89 (\"narrow GAP6 to its smooth closed bulk spin-Dirac hypotheses\") and chat1's\n"
+  "  opposite sides — the audit lane's R89 (\"narrow GAP6 to its smooth closed bulk spin-Dirac hypotheses\") and the web seat's\n"
   "  handoff (\"the wall is a flat-sector theorem\") — against main's own v1.9 sentence, which had dropped the hypotheses.\n"
   "  What remains of the gap: the continuous values; and the step from the boundary's η to a physical count (B279's\n"
   "  unbanked link, L246 Phase 2)."),
@@ -32,7 +32,7 @@ CHANGES = [
   "    three kinds cover 14 of the chirality chain's 26 negatives (sm:B1531, read): the taxonomy is incomplete.\n"
   "- **v1.11 · 2026-10-04 · main B1476.** One narrowing, one location, one rule.\n"
   "  - GAP6 narrowed to its hypotheses (closed bulk, characteristic classes); the flat frame reaches discrete data through the\n"
-  "    boundary (B1297/B1418's index; B1474/B1475's spin swap) and not continuous values (L247's census). Credit R89 and chat1.\n"
+  "    boundary (B1297/B1418's index; B1474/B1475's spin swap) and not continuous values (L247's census). Credit R89 and the web seat.\n"
   "  - FK12's bit located on the family: the SL(2,ℂ) lift (the spin structure) is the bit; on seven amphichiral members of the\n"
   "    112-family no spin structure is mirror-invariant and on the knot both are (B1474, B1475); B1476 asks whether the class is\n"
   "    read off CS = ¼ and whether it is the parent's Pin type (sm:B1382) seen from the other side.\n"

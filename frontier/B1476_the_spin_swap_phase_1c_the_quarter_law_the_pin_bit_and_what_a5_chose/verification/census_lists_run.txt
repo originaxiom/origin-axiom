@@ -1,0 +1,2 @@
+cusped amphichiral: 25 {'zero': 14, 'quarter': 11, 'other': 0} outside family: 15
+closed amphichiral: 37 {'zero': 37, 'quarter': 0, 'other': 0}
