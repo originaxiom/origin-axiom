@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1293** |
-| words of findings prose | **1,132,989** |
+| research arcs with findings | **1294** |
+| words of findings prose | **1,133,760** |
 | test lock files referenced | **793** |
-| arcs carrying an authored verdict | **1293** (100.0 %) |
+| arcs carrying an authored verdict | **1294** (100.0 %) |
 | recorded closures | **832** (665 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -38,7 +38,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 |---|---|
 | PROVED | 859 |
 | NEGATIVE | 334 |
-| OPEN | 89 |
+| OPEN | 90 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -72,7 +72,7 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class c of sm:B1515's frame has I(W1) >= k - m_A - b0, m_A the cusps where nu is trivial, k those where c is non-zero, b0 = [nu^4 = 1]; from the identity I = -b0 + h0(dN; W1*) - r1(W1), h0(T; W1*) = 2, 1, 0 on cusps where nu, nu^4, neither is trivial, and r1(W1) <= 3m_A + m_B - k. So three, in either order, needs 3 - b0 cusps where nu is trivial and the class vanishes, and a member non-trivial on every cusp counts at most one generation. Corollary G: on sm:B1538's four room-3 covers of the silver pair (four cusps of two punctures each), a character whose fourth power is a puncture character is trivial on at most two cusps (the punctures' values are constant on cusps and multiply to 1), so no member there carries three, at any class, in either order. The ingredients checked by own code at every member reading on sm:B1538's covers with three or more cusps (route R), and the puncture structure at every character of order dividing 24 on the four covers. 0 of 19.  
 `B1545_the_floor_at_every_member/FINDINGS.md`
 
-**NEGATIVE — `B1546`** (2263 words, 1 locks)  
+**NEGATIVE — `B1546`** (2272 words, 1 locks)  
 THE LOW-RANK CLASSES (NEGATIVE, run as sealed; read out once 2026-10-06 21:05:27Z). On N_45 at the trivial character three (I(W) = -3) could live only at classes of cup rank one or two (Corollary F' with sm:B1544). Proposition L (proved at design time, exact mod p in two routes at two primes): the interior classes of cup rank <= 2 are the classes c of a 10-dimensional space Kc0 in the deck grading whose symmetric 4 x 4 matrix S(c) has rank <= 2, S a linear isomorphism onto the symmetric matrices with rk delta1_W(c) = rk S(c); the classes of cup rank one are the squares S(c) = l l^T, and the ten eigen-lines are S's unit matrices. So every class of N_45 that could read three lies in twelve families (the squares, their sums, and a square plus K0(S) for each three-cusp set S), each decided by its generic class (Lemma G'''). Read in two routes, 132 readings, all agreeing: the squares (-1, -9), their sums (-1, -10), every square-plus-K0(S) family (0, -7), the eigen-lines (-1, -9) and (-1, -8). No class of N_45 reads I(W) = -3 at the trivial character: the golden cover carries no three in this frame there. Lemma M: at an interior class of Kc0, I(W) = -1 - mu with mu >= 0 a Massey-type boundary rank; the run reads mu = 0 everywhere, so I(W) = -1 exactly at every interior class of cup rank one or two (Corollary L''). 6 of 8 predictions, against 5.13 expected. 0 of 19.  
 `B1546_the_low_rank_classes/FINDINGS.md`
 

@@ -1,0 +1,10 @@
+# B1547 -- sha-256 of the sealed files, recorded at the seal (before run.py read any count at a member; the controls K1-K8
+# read structure and the trivial character's banked count only). identity.py checks every line first.
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1547_the_room_three_members/)
+6512a4ba9d1e95ab44210f0ec3b94e94f5100e1668fcd90824fe587441395759  PREREGISTRATION.md
+829ed39099286e727c02cf8309b8ca059a338d8b2ef08a4977da869e9a98c904  verification/member_lib.py
+50c1f42dbdbb9444200f6e167ac17525956f11c3051fe2c44734e07c7218d6a9  verification/run.py
+1e71245c691e86c989afdc7b52ce5506430524c4ae82a9daa888b3e3573c23d0  verification/read_out.py
+06324be9c0de61cde33ecada13af8ad365bcd458a66641678363e6a9e0734c4b  verification/controls.py
+142d68d425efcd6ab0afbdcda8897ae08be8823ec6d84e845fb1edd08b4acc11  verification/identity.py
+0932c06c029e1947f292bda66cc4fdc4269761701ba79a0c0b98a8ebbf508883  verification/controls.json

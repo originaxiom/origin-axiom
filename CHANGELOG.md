@@ -1,5 +1,25 @@
 # Changelog
 
+## B1547 sealed: THE ROOM-THREE MEMBERS — on N₄₅, the characters of order 8 trivial on every cusp whose fourth power has room three: where three can live there, mapped into strata and to be read
+
+- **The members.** Of the fifteen order-2 characters of N₄₅ that are fourth powers of cusp-trivial characters, five have room
+  three (n = 3), one τ-orbit. Over each lie 1024 characters of order 8 trivial on every cusp: b0 = 0, room exactly three, and
+  all five cusps trivial, so they pass Theorem C and sm:B1545's cusp condition with nothing to spare.
+- **Corollary 1** (proved at design time). At such a member a class reading I(W₁) = −3 lies in the cup map's kernel K0^ν and
+  vanishes on at least three of the five cusps (Theorem C (ii) with sm:B1545's Lemma F′): it lies in a stratum X_U, |U| ≤ 2,
+  with support U. A generic class of each stratum has the least counts there (Lemma G).
+  - **Corrected before the seal.** The first plan read only K0^ν's interior part, carrying sm:B1546's "a ≥ 1 off the
+    interior" over to the members. That holds only at the trivial character. The census found 260 strata off the interior,
+    at 68 members, and they are read.
+- **The census** (structure only, route R): 424 distinct strata at 220 members, 164 interior, 132 on one cusp and 128 on two;
+  every Galois class alike.
+- **The run (not started)**: both routes at all 1024 members (2048 tasks), the members named alike by their values on 46
+  common loops; 1,272 readings per route, plus 1,920 load-bearing checks in route R. Controls K1–K8 hold. P6 (the floor) 80%,
+  P8 (three) 7%, P10 (a generation-shaped stratum) 25%.
+- RELAY_LEDGER: main read to 385c6891 (B1483 answers this seat's N₄₅ ask; B1485 re-read this seat's silver members, VERIFIED,
+  not blind; B1486 sealed), the web seat's branch to d40c1ab6.
+- No count at a member read. 0 of 19.
+
 ## B1546 banked: THE LOW-RANK CLASSES — N₄₅'s classes of cup rank one and two are a symmetric matrix's rank locus, and none goes below I(W) = −1; N₄₅ carries no three at the trivial character, at any class
 
 - **The run.** The banked identity held (20:45:23–20:47:27Z). The sealed run took 20:47:27–21:05:02Z on one worker, rc 0. The

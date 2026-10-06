@@ -1,0 +1,892 @@
+{
+ "K1": {
+  "R": {
+   "loops": 46,
+   "loops (sha-256)": "a23e206443844b470bcdda19d690292d1d8bf6e475370ec674dde2c823b40ed1",
+   "n of the fifteen": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "room-3 keys": [
+    "0010111100001001001110001101000010010100100001",
+    "0011111000001111001010000010011111011010110011",
+    "0011111100101111001000000001011001011100100101",
+    "1001100100100111001010111101010010000010100100",
+    "1011011100001110000110110011010110010000010011"
+   ],
+   "chi0": "0010111100001001001110001101000010010100100001",
+   "members": 1024,
+   "member keys in order (sha-256)": "4311973b074784d63f67bcef7b902904af301fe304e8d5067200aafb3879de3d",
+   "Galois classes by size": {
+    "4": 256
+   }
+  },
+  "F": {
+   "loops": 46,
+   "loops (sha-256)": "a23e206443844b470bcdda19d690292d1d8bf6e475370ec674dde2c823b40ed1",
+   "n of the fifteen": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "room-3 keys": [
+    "0010111100001001001110001101000010010100100001",
+    "0011111000001111001010000010011111011010110011",
+    "0011111100101111001000000001011001011100100101",
+    "1001100100100111001010111101010010000010100100",
+    "1011011100001110000110110011010110010000010011"
+   ],
+   "chi0": "0010111100001001001110001101000010010100100001",
+   "members": 1024,
+   "member keys in order (sha-256)": "4311973b074784d63f67bcef7b902904af301fe304e8d5067200aafb3879de3d",
+   "Galois classes by size": {
+    "4": 256
+   }
+  },
+  "holds": true,
+  "seconds": 24.0
+ },
+ "K2": {
+  "R": {
+   "members": 1024,
+   "cusps": 5,
+   "not trivial on a cusp": 0,
+   "nu^4 not chi0": 0,
+   "not of order 8": 0
+  },
+  "F": {
+   "members": 1024,
+   "cusps": 5,
+   "not trivial on a cusp": 0,
+   "nu^4 not chi0": 0,
+   "not of order 8": 0
+  },
+  "holds": true,
+  "seconds": 0.1
+ },
+ "K4": {
+  "powers of zeta_24 in the holonomy": [
+   0,
+   4
+  ],
+  "|det| (coefficients of zeta_24^i)": {
+   "a": [
+    "1/7",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "b": [
+    "1/7",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ],
+   "t": [
+    "1/7",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+   ]
+  },
+  "|det| rational": true,
+  "j with j = k mod 8, j = +-1 mod 12": {
+   "1": [
+    1
+   ],
+   "3": [
+    11
+   ],
+   "5": [
+    13
+   ],
+   "7": [
+    23
+   ]
+  },
+  "holds": true,
+  "seconds": 0.0
+ },
+ "K5": {
+  "R": {
+   "structure": {
+    "h1(nu^5 rho)": 23,
+    "n(nu^5 rho)": 18,
+    "h1(L)": 9,
+    "n(L)": 4,
+    "dim K0": 5,
+    "dim K0 interior": 0
+   },
+   "a generic interior class's count": [
+    4,
+    -10
+   ]
+  },
+  "F": {
+   "structure": {
+    "h1(nu^5 rho)": 23,
+    "n(nu^5 rho)": 18,
+    "h1(L)": 9,
+    "n(L)": 4,
+    "dim K0": 5,
+    "dim K0 interior": 0
+   },
+   "a generic interior class's count": [
+    4,
+    -10
+   ]
+  },
+  "holds": true,
+  "seconds": 15.4
+ },
+ "K7": {
+  "cases": 21,
+  "failed": [],
+  "holds": true,
+  "seconds": 0.1
+ },
+ "the sample members": {
+  "members": [
+   148,
+   183,
+   208,
+   243,
+   0,
+   3,
+   4,
+   7
+  ],
+  "seconds": 511.1
+ },
+ "K3": {
+  "R": {
+   "tau's order on the free lattice": 5,
+   "room-3 characters": 5,
+   "tau maps them to themselves": true,
+   "one orbit": true
+  },
+  "F": {
+   "tau's order on the free lattice": 5,
+   "room-3 characters": 5,
+   "tau maps them to themselves": true,
+   "one orbit": true
+  },
+  "tau*nu at the sample members (route R)": [
+   {
+    "member": 148,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   },
+   {
+    "member": 183,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   },
+   {
+    "member": 208,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   },
+   {
+    "member": 243,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   },
+   {
+    "member": 0,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   },
+   {
+    "member": 3,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   },
+   {
+    "member": 4,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   },
+   {
+    "member": 7,
+    "tau*nu a cusp-trivial character": true,
+    "over a room-3 character": true,
+    "over chi0": false,
+    "the same structure": true,
+    "the same stratum dimensions (as multisets)": true
+   }
+  ],
+  "holds": true,
+  "seconds": 49.3
+ },
+ "K6": {
+  "members": [
+   {
+    "member": 148,
+    "R": {
+     "key": "0414771502645047005170005143600674054542720225",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0414771502645047005170005143600674054542720225",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   },
+   {
+    "member": 183,
+    "R": {
+     "key": "0434553706247045007350007341200254074746560667",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0434553706247045007350007341200254074746560667",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   },
+   {
+    "member": 208,
+    "R": {
+     "key": "0454335102641043001530001547600634014142320221",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0454335102641043001530001547600634014142320221",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   },
+   {
+    "member": 243,
+    "R": {
+     "key": "0474117306243041003710003745200214034346160663",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0474117306243041003710003745200214034346160663",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 2,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 2,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 1
+     },
+     "distinct": [
+      "",
+      "2"
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   },
+   {
+    "member": 0,
+    "R": {
+     "key": "0010771102205007005130001107600230450102720265",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "4,5": 1
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0010771102205007005130001107600230450102720265",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "4,5": 1
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   },
+   {
+    "member": 3,
+    "R": {
+     "key": "0010771306401007001150001121600450010322340441",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 4,
+      "dim K0 interior": 3
+     },
+     "strata": {
+      "": 3,
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "4": 3,
+      "5": 3,
+      "0,1": 3,
+      "0,2": 3,
+      "0,4": 3,
+      "0,5": 3,
+      "1,2": 3,
+      "1,4": 3,
+      "1,5": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "4,5": 3
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0010771306401007001150001121600450010322340441",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 4,
+      "dim K0 interior": 3
+     },
+     "strata": {
+      "": 3,
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "4": 3,
+      "5": 3,
+      "0,1": 3,
+      "0,2": 3,
+      "0,4": 3,
+      "0,5": 3,
+      "1,2": 3,
+      "1,4": 3,
+      "1,5": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "4,5": 3
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   },
+   {
+    "member": 4,
+    "R": {
+     "key": "0010771502605007005170001143600670450542760625",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "4,5": 1
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0010771502605007005170001143600670450542760625",
+     "structure": {
+      "h1(nu^5 rho)": 8,
+      "n(nu^5 rho)": 3,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 3,
+      "dim K0 interior": 1
+     },
+     "strata": {
+      "": 1,
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "1,2": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "4,5": 1
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   },
+   {
+    "member": 7,
+    "R": {
+     "key": "0010771706001007001110001165600010010762300001",
+     "structure": {
+      "h1(nu^5 rho)": 15,
+      "n(nu^5 rho)": 10,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 2,
+      "dim K0 interior": 2
+     },
+     "strata": {
+      "": 2,
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "4": 2,
+      "5": 2,
+      "0,1": 2,
+      "0,2": 2,
+      "0,4": 2,
+      "0,5": 2,
+      "1,2": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 2
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "F": {
+     "key": "0010771706001007001110001165600010010762300001",
+     "structure": {
+      "h1(nu^5 rho)": 15,
+      "n(nu^5 rho)": 10,
+      "h1(L)": 8,
+      "n(L)": 3,
+      "dim K0": 2,
+      "dim K0 interior": 2
+     },
+     "strata": {
+      "": 2,
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "4": 2,
+      "5": 2,
+      "0,1": 2,
+      "0,2": 2,
+      "0,4": 2,
+      "0,5": 2,
+      "1,2": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "4,5": 2
+     },
+     "distinct": [
+      ""
+     ],
+     "X_{} is K0's interior part": true,
+     "generic supports are U": true
+    },
+    "routes agree": true
+   }
+  ],
+  "holds": true,
+  "seconds": 48.3
+ },
+ "K8": {
+  "the four's classes at nu = 1": {
+   "columns": 23,
+   "the same": true
+  },
+  "the line's classes at nu = 1": {
+   "columns": 9,
+   "the same": true
+  },
+  "classes vanishing on cusps 0 and 2 at nu = 1": {
+   "columns": 19,
+   "the same": true
+  },
+  "member 148's classes": {
+   "columns": 8,
+   "the same": true
+  },
+  "holds": true,
+  "seconds": 16.0
+ },
+ "all hold": true,
+ "seconds": 664.3
+}

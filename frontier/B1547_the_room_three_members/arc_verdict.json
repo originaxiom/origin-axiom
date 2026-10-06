@@ -1,0 +1,175 @@
+{
+ "id": "B1547",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1546",
+  "B1545",
+  "B1544",
+  "B1541",
+  "B1536",
+  "B1535",
+  "B1515",
+  "B1527"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "N_45 (sm:B1541) at the room-three members: the 1024 characters nu of order 8, trivial on every cusp, with nu^4 = chi0, the room-three order-2 character with the least key (the five room-three characters are one tau-orbit); at each member every distinct stratum X_U = K0^nu ∩ {c vanishes off U}, |U| <= 2 -- where three can live there (Corollary 1: Theorem C (ii) with sm:B1545's Lemma F') -- read at its generic class, three draws, in two routes at every member (2048 tasks), plus route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member",
+  "reach": "class",
+  "hypotheses": [
+   "sealed: no count at a member has been read; this record is replaced at the bank",
+   "at the hyperbolic point of N_45 and the 1024 members over chi0; the other four room-three characters through the deck symmetry tau (K3), the other order through nu-bar = nu^7",
+   "the least I(W1) and the largest Lambda^2 rank on the classes of support U are a generic class's (Lemma G), each read with three draws per route at two primes",
+   "the Lambda^2 count at special classes of a stratum whose generic class reads I(W1) = -3 with I(Lambda^2 W1) < -3 is not covered (the seal's section 10)",
+   "members not trivial on every cusp, members with nu^4 = 1, and members whose fourth power has order three or more are not read",
+   "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question"
+  ]
+ },
+ "claim_one_line": "THE ROOM-THREE MEMBERS, SEALED. On N_45, the golden cover, at the 1024 characters nu of order 8 trivial on every cusp with nu^4 = chi0, the room-three order-2 character with the least key (the five room-three characters are one tau-orbit): by Theorem C (ii) with sm:B1545's Lemma F', a class reading I(W1) = -3 lies in the cup map's kernel K0^nu and vanishes on at least three of the five cusps (Corollary 1), so it lies in a stratum X_U = K0^nu ∩ {c vanishes off U}, |U| <= 2, with support exactly U; a generic class of each distinct stratum has the least I(W1) and the least I(Lambda^2 W1) there (Lemma G). The structure census (route R, no count): 424 distinct strata at 220 members (164 interior, 132 on one cusp, 128 on two). The run reads three generic classes of every distinct stratum in route F and route R at every member (2048 tasks, 1,272 readings per route) and route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member. Controls K1-K8 hold. Predictions P1-P10 (P6 the floor 80%, P8 three 7%); PROVED if a stratum reads (-3, -3) in two routes; NEGATIVE if none reads I(W1) = -3 with I(Lambda^2 W1) <= -3, and then no class at any such member over the five carries three, in either order. No count at a member read. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-06)": "95e687c0",
+    "main (at the sweep, 2026-10-06)": "385c6891",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-06)": "8b89d8fb",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-06)": "c161981d",
+    "the new web seat's branch (at the sweep, 2026-10-06)": "d40c1ab6",
+    "seat/outside-bench (at the sweep, 2026-10-06)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-06)": "5d58b935",
+    "seat/kind-hypatia-uk0vv9 (at the sweep, 2026-10-06)": "6a537f89",
+    "seat/project-thread-hctlox (at the sweep, 2026-10-06)": "3a802c0d",
+    "sep16-branch (at the sweep, 2026-10-06)": "3205984b"
+   },
+   "terms": [
+    "golden member",
+    "cusp-trivial",
+    "trivial on every cusp",
+    "order-8 character",
+    "room 3",
+    "room-3",
+    "fourth root",
+    "jump loci",
+    "resonance variet",
+    "characteristic variet",
+    "common loops",
+    "Galois class"
+   ],
+   "hits": [
+    {
+     "where": "every head: 'golden member'",
+     "bearing": "two other objects: the metallic family's m = 1 member (B447, B662, papers/metallic_one_object) and, in this seat's sm:B1543 and sm:B1545, an order-5 character of N_45's base along which N_45 is the golden lift; so this arc's members are called the room-three members"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1535_the_cap to frontier/B1546_the_low_rank_classes",
+     "bearing": "this seat's Theorem C and its room, the puncture characters and their fourth roots (sm:B1538), Lemma F' at members (sm:B1545), and N_45 at the trivial character (sm:B1544, sm:B1546); none reads a character of N_45 other than the trivial one"
+    },
+    {
+     "where": "seat/standard-model-derivation:docs/OPEN_LEADS.md and CHANGELOG.md ('jump loci', 2026-10-04)",
+     "bearing": "the cyclic covers of the room covers, a different population"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1301, B1303, B1511, B1512, B1515, B1522 ('order-8 character')",
+     "bearing": "order-8 characters of the tower's states (M_6, Y_6), other manifolds"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "twisted cohomology jump loci finite order characters hyperbolic 3-manifold cusp cup product",
+    "cohomology of extensions of local systems characters of finite order cyclic cover figure-eight knot twisted Alexander Lorentzian representation"
+   ],
+   "sources": [
+    {
+     "cite": "A. Dimca, S. Papadima, A. I. Suciu, Topology and geometry of cohomology jump loci, Duke Math. J. 148 (2009), arXiv:0902.1250",
+     "where": "abstract",
+     "read": "2026-10-06",
+     "says": "relative characteristic and resonance varieties for twisted cohomology with coefficients of arbitrary rank; for 1-formal groups the tangent cone at 1 of the characteristic variety is the resonance variety (cup products); the members here are torsion points of such a relative jump locus, and K0^nu is a cup-product kernel; neither variety is computed here"
+    },
+    {
+     "cite": "P. Menal-Ferrer and J. Porti, Twisted cohomology for hyperbolic three manifolds, Osaka J. Math. 49 (2012), arXiv:1001.2242",
+     "where": "abstract (and section 3, read for sm:B1544)",
+     "read": "2026-10-06",
+     "says": "vanishing theorems for cohomology twisted by symmetric powers of the holonomy; the four V_2 (x) conj(V_2) and the characters nu are not treated"
+    },
+    {
+     "cite": "T. Nosaka, Twisted cohomology pairings of knots III; triple cup products, arXiv:1808.08532 (2018)",
+     "where": "abstract",
+     "read": "2026-10-06",
+     "says": "the trilinear form (c, z, x) -> integral of c u z u x, the form behind the rank s here"
+    }
+   ]
+  },
+  "standing": "NEW-AS-SWEPT"
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "Theorem C (ii): route R's identities (I(W1) = -b0 + k + rk d1(E) - rk d1(E*), I(Lambda^2 W1) = k - rk d1(L2*)) and the cap s <= k + n(L)",
+   "source": "sm:B1535 (reviewed by the audit lane's R84), sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/read_out.py",
+   "how": "at the read-out, and every verdict but OPEN requires it: P4, route R's identities and caps (`all`) at every reading from that reading's own ranks; P9, the same at a generic class of K0^nu and of H^1 at every member"
+  },
+  {
+   "id": "LB2",
+   "input": "Lemma F' at members (I(W1) >= k - m_A - b0; here k - 5)",
+   "source": "sm:B1545 section 1 (banked; its ingredients checked at 288 member readings there)",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/read_out.py",
+   "how": "P4: I(W1) >= k - 5 at every reading of a stratum; P9: the same at a generic class of K0^nu and of H^1 (any support) at every member, in route R"
+  },
+  {
+   "id": "LB3",
+   "input": "Lemma G (a generic class of X_U has the least I(W1) and the largest Lambda^2 rank on the classes of support U) and the draws",
+   "source": "the seal's section 3.3 (proved here)",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/read_out.py",
+   "how": "three draws per distinct stratum in each route, two routes at two primes; P5 records whether the draws agree and have support exactly U"
+  },
+  {
+   "id": "LB4",
+   "input": "the members are the population of section 3.1 (cusp-trivial, nu^4 = chi0, the same 1024 characters in both routes)",
+   "source": "the seal's sections 2 and 3.1",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/controls.py",
+   "how": "K1: the population in each route on its own (loops, the n of the fifteen, the room-three keys, chi0, the 1024 keys in order); K2: every member trivial on every cusp with nu^4 = chi0, in both routes; at the read-out P2 member by member"
+  },
+  {
+   "id": "LB5",
+   "input": "the strata machinery (K0^nu, the vanishing spaces, X_U, the distinct strata, the supports)",
+   "source": "the seal's section 2 (member_lib)",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/controls.py",
+   "how": "K6 at eight sample members in both routes (four with strata off the interior); at the read-out P4 (nesting, X_{} as K0's interior part, the distinct strata as their dimensions say) and P2 at every member"
+  },
+  {
+   "id": "LB6",
+   "input": "the deck symmetry tau carries the members over chi0 to the members over the other four room-three characters, with the same counts",
+   "source": "the seal's section 3.4",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/controls.py",
+   "how": "K3: tau of order 5 on the lattice and the five room-three characters one orbit in both routes; tau*nu at eight sample members a member over another room-three character with nu's structure and strata"
+  },
+  {
+   "id": "LB7",
+   "input": "Lemma Gamma (Galois-conjugate members read alike in characteristic 0)",
+   "source": "the seal's section 3.4 (proved here)",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/controls.py",
+   "how": "K4: the holonomy's field (only zeta_24^0 and zeta_24^4), |det| rational, the automorphisms sigma_j; at the read-out P3 at every Galois class in both routes. The verdict does not rest on it: both routes read all 1024 members"
+  },
+  {
+   "id": "LB8",
+   "input": "the code paths are the banked ones (sm:B1541's route_f, sm:B1536's route_r through sm:B1544's floor_lib)",
+   "source": "sm:B1541, sm:B1544, sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1547_the_room_three_members/verification/controls.py",
+   "how": "K5: the trivial character's structure and banked count (4, -10) reproduced in both routes; K8: route F's class_basis picks the one-at-a-time columns"
+  }
+ ]
+}

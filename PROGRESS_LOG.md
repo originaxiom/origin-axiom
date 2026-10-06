@@ -17829,3 +17829,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Lemma M's Massey term reads 0 everywhere, and the floor holds on all of them.
 - Next: sm:B1538's Part F′ (running), then its bank against the 2026-10-04 read-out's recorded aggregates; then the members of
   N₄₅ and other covers.
+
+## 2026-10-06 — B1547 sealed: the room-three members of N₄₅
+
+- After sm:B1546 (no three on N₄₅ at the trivial character), the next characters with room for three: order 8, trivial on
+  every cusp, fourth power one of the five room-three characters.
+- Corollary 1 places three at such a member in K0^ν's strata on at most two cusps. The first plan read only the interior part;
+  it was corrected before the seal, and the 260 strata off the interior are read too.
+- The run reads 424 strata at 220 members in two routes, three draws each, with route R's checks at every member.
+- sm:B1538's regeneration: Part F′ near its end.

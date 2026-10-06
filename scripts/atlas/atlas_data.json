@@ -10246,6 +10246,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1547": {
+   "slug": "the room three members",
+   "motifs": [
+    "monoid",
+    "figure_eight",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "K0",
+    "K1",
+    "K8",
+    "P10",
+    "P6",
+    "P8"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B154": {
    "slug": "silver bundle foundation",
    "motifs": [
