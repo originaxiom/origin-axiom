@@ -1,0 +1,48 @@
+{
+ "first candidate (task, cover, hit)": [
+  1,
+  "m135.D8.4-2-2.w5",
+  {
+   "zeta": [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    2,
+    4
+   ],
+   "m": 6,
+   "orbit": 2,
+   "s": [
+    1,
+    3
+   ],
+   "h1": 2,
+   "trivial cusps": 0,
+   "n": 2,
+   "puncture values": [
+    0,
+    0,
+    4,
+    2,
+    0,
+    3,
+    2,
+    1
+   ],
+   "transfer": {
+    "degree": 48,
+    "b1 - cusps": 4,
+    "sum n": 4
+   }
+  }
+ ],
+ "lines kept": 12826,
+ "sha-256": "1e9c6e5550f2bb46453375cce8761e87ad6307a19d0ce25f1bb80f74602bcec7",
+ "the sealed partial record's sha-256": "1e9c6e5550f2bb46453375cce8761e87ad6307a19d0ce25f1bb80f74602bcec7",
+ "equal": true,
+ "seconds": 484.9
+}

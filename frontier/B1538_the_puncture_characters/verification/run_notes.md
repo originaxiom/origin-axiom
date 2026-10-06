@@ -57,3 +57,11 @@ They are regenerated with the sealed code, unchanged, in this order.
   `read_part_F` through the driver path of the addendum (as control K13 does), keeps the first 12,826 lines and writes
   `run_F.jsonl` only if their sha-256 equals the sealed one.
 - **Then Part F′**, by `run_f_scoped.py` unchanged; then the append, the two read-outs once each, and the tables, as above.
+- **The partial record matched.** `regen_partial_f.py` ran 19:48:57–19:57Z (485 s): the first 12,826 lines have sha-256
+  `1e9c6e55…`, equal to the sealed one, so `run_F.jsonl` is written. `regen_partial_f.json` records the check. It also names
+  the first candidate (its cover and its one hit with n ≥ 2), which is needed to find the record. That is a Part L reading
+  of one candidate. It was written to the file and not read. It does not touch any choice still open: the scope of Part F′ is
+  fixed by structure. The equality is also a check of the regenerated Part L: the first candidate's hit and every one of its
+  12,825 readings came out byte for byte as before.
+- **`run_f_scoped.py --dry`** (20:05Z): the hash check passes and the scope's aggregates equal the addendum's (12,152 candidates
+  in scope, 501,792 planned readings).
