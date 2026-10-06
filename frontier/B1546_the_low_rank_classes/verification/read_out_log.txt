@@ -1,0 +1,10 @@
+P1: True
+P2: True
+P3: True
+P4: True
+P5: True
+P6: False
+P7: False
+P8: True
+verdict: NEGATIVE
+{"tasks": 66, "tasks read in full": 66, "coverage problems": {}, "complete": true, "the generic families' counts (read alike in both routes)": {"X:S=0,1,2": [0, -7], "X:S=0,1,4": [0, -7], "X:S=0,1,5": [0, -7], "X:S=0,2,4": [0, -7], "X:S=0,2,5": [0, -7], "X:S=0,4,5": [0, -7], "X:S=1,2,4": [0, -7], "X:S=1,2,5": [0, -7], "X:S=1,4,5": [0, -7], "X:S=2,4,5": [0, -7], "Z1": [-1, -9], "Z2": [-1, -10]}, "the least I(W) over the generic families": -1, "the Massey rank mu = -1 - I(W) at the interior subspaces": {"Z1": 0, "Z2": 0, "u1": 0, "u2": 0, "u3": 0, "u4": 0, "va": 0, "vb": 0, "w1": 0, "w2": 0, "w3": 0, "w4": 0}, "interior readings above -1 (Lemma M)": [], "readings below the floor": [], "eigen-lines below their family (Lemma G''')": [], "generation-shaped subspaces": [], "three-generation subspaces": [], "predictions": {"P1": true, "P2": true, "P3": true, "P4": true, "P5": true, "P6": false, "P7": false, "P8": true}, "verdict": "NEGATIVE"}
