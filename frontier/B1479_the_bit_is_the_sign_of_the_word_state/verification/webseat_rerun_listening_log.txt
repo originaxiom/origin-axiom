@@ -1,0 +1,56 @@
+golden: clocks {2: 3, 3: 8, 5: 20, 7: 16, 11: 10, 13: 28}
+silver: clocks {2: 2, 3: 8, 5: 12, 7: 6, 11: 24, 13: 28}
+bronze: clocks {2: 3, 3: 2, 5: 12, 7: 16, 11: 8, 13: 52}
+
+act     k det or           name                   H1  r2 r3 r5 r7 r11 r13  sym  amph       CS  door
+golden  1  -1  N      m000(0,0)                    Z          0 0 0 0 0 0    2  None     None    48
+golden  2   1  Y      m004(0,0)                    Z          0 0 0 0 0 0    8  True      0.5    48
+golden  3  -1  N      m025(0,0)        Z/2 + Z/2 + Z          2 0 0 0 0 0    6  None     None     0
+golden  4   1  Y      m206(0,0)              Z/5 + Z          0 0 1 0 0 0   16  True      0.5    48
+golden  5  -1  N      m407(0,0)             Z/11 + Z          0 0 0 0 1 0   10  None     None    48
+golden  6   1  Y      s961(0,0)        Z/4 + Z/4 + Z          2 0 0 0 0 0   24  True      0.0     0
+golden  7  -1  N      y886(0,0)             Z/29 + Z          0 0 0 0 0 0   14  None     None    48
+golden  8   1  Y    t12839(0,0)       Z/3 + Z/15 + Z          0 2 1 0 0 0   32  True      0.5   240
+golden  9  -1  N ntet09_00004(0       Z/2 + Z/38 + Z          2 0 0 0 0 0   18  None     None     0
+golden 10   1  Y o10_150696(0,0      Z/11 + Z/11 + Z          0 0 0 0 2 0   40  True      0.5    48
+silver  1  -1  N      m001(0,0)              Z/2 + Z          1 0 0 0 0 0    2  None     None     0
+silver  2   1  Y      m136(0,0)        Z/2 + Z/2 + Z          2 0 0 0 0 0    8  True      0.5     0
+silver  3  -1  N      x185(0,0)             Z/14 + Z          1 0 0 1 0 0    6  None     None     0
+silver  4   1  Y    t12050(0,0)        Z/4 + Z/8 + Z          2 0 0 0 0 0   16  True      0.5     0
+silver  5  -1  N              ?             Z/82 + Z          1 0 0 0 0 0   10  None     None     0
+silver  6   1  Y              ?      Z/14 + Z/14 + Z          2 0 0 2 0 0   24  True      0.0     0
+silver  7  -1  N              ?            Z/478 + Z          1 0 0 0 0 0   14  None     None     0
+silver  8   1  Y              ?      Z/24 + Z/48 + Z          2 2 0 0 0 0   32  True      0.0   768
+silver  9  -1  N              ?           Z/2786 + Z          1 0 0 1 0 0   18  None     None     0
+silver 10   1  Y              ?      Z/82 + Z/82 + Z          2 0 0 0 0 0   40  True      0.5     0
+bronze  1  -1  N      m005(0,0)              Z/3 + Z          0 1 0 0 0 0    2  None     None    96
+bronze  2   1  Y      s464(0,0)        Z/3 + Z/3 + Z          0 2 0 0 0 0    8  True      0.0   240
+bronze  3  -1  N              ?       Z/2 + Z/18 + Z          2 1 0 0 0 0    6  None     None   192
+bronze  4   1  Y              ?       Z/3 + Z/39 + Z          0 2 0 0 0 1   16  True      0.0   240
+bronze  5  -1  N              ?            Z/393 + Z          0 1 0 0 0 0   10  None     None    96
+bronze  6   1  Y              ?      Z/36 + Z/36 + Z          2 2 0 0 0 0   24  True      0.5   768
+bronze  7  -1  N              ?           Z/4287 + Z          0 1 0 0 0 0   14  None     None    96
+bronze  8   1  Y              ?     Z/33 + Z/429 + Z          0 2 0 0 2 1   32  True      0.5   240
+bronze  9  -1  N              ?    Z/2 + Z/23382 + Z          2 1 0 0 0 0   18  None     None   192
+bronze 10   1  Y              ?    Z/393 + Z/393 + Z          0 2 0 0 0 0   40  True      0.5   240
+
+A2
+  E1 orientability alternates: True   E4 volume ratio 1: True   E2 p-rank = ker dim: True   E3 k=2 mod 4 amphichiral: True
+  golden: full p-layers (p-rank 2) at ticks {2: [3, 6, 9], 3: [8], 5: [], 7: [], 11: [10], 13: []}
+          half p-layers (p-rank 1) at ticks {2: [], 3: [], 5: [4, 8], 7: [], 11: [5], 13: []}
+          k=0 mod 4 amphichiral: [(4, True), (8, True)]
+          CS on orientable ticks: [(2, 0.5), (4, 0.5), (6, 0.0), (8, 0.5), (10, 0.5)]
+          2T door by tick: [(1, 48), (2, 48), (3, 0), (4, 48), (5, 48), (6, 0), (7, 48), (8, 240), (9, 0), (10, 48)]
+          |Sym| by tick: [(1, 2), (2, 8), (3, 6), (4, 16), (5, 10), (6, 24), (7, 14), (8, 32), (9, 18), (10, 40)]
+  silver: full p-layers (p-rank 2) at ticks {2: [2, 4, 6, 8, 10], 3: [8], 5: [], 7: [6], 11: [], 13: []}
+          half p-layers (p-rank 1) at ticks {2: [1, 3, 5, 7, 9], 3: [], 5: [], 7: [3, 9], 11: [], 13: []}
+          k=0 mod 4 amphichiral: [(4, True), (8, True)]
+          CS on orientable ticks: [(2, 0.5), (4, 0.5), (6, 0.0), (8, 0.0), (10, 0.5)]
+          2T door by tick: [(1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 768), (9, 0), (10, 0)]
+          |Sym| by tick: [(1, 2), (2, 8), (3, 6), (4, 16), (5, 10), (6, 24), (7, 14), (8, 32), (9, 18), (10, 40)]
+  bronze: full p-layers (p-rank 2) at ticks {2: [3, 6, 9], 3: [2, 4, 6, 8, 10], 5: [], 7: [], 11: [8], 13: []}
+          half p-layers (p-rank 1) at ticks {2: [], 3: [1, 3, 5, 7, 9], 5: [], 7: [], 11: [], 13: [4, 8]}
+          k=0 mod 4 amphichiral: [(4, True), (8, True)]
+          CS on orientable ticks: [(2, 0.0), (4, 0.0), (6, 0.5), (8, 0.5), (10, 0.5)]
+          2T door by tick: [(1, 96), (2, 240), (3, 192), (4, 240), (5, 96), (6, 768), (7, 96), (8, 240), (9, 192), (10, 240)]
+          |Sym| by tick: [(1, 2), (2, 8), (3, 6), (4, 16), (5, 10), (6, 24), (7, 14), (8, 32), (9, 18), (10, 40)]

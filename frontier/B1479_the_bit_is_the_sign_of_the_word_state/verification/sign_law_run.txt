@@ -1,0 +1,2 @@
+words: 379 states: 758
+{"nmax": 12, "words": 379, "states": 758, "hyperbolic": 758, "errors": [], "pairs": 379, "P2_exceptions": [], "amphichiral_words": 34, "amphichiral_by_length": [[2, 1], [4, 1], [6, 2], [8, 4], [10, 9], [12, 17]], "P1_exceptions": [], "P3_exceptions": [], "volume_mismatch": []}

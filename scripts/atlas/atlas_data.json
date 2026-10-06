@@ -9925,6 +9925,33 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1479": {
+   "slug": "the bit is the sign of the word state",
+   "motifs": [
+    "closing",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B469",
+    "B470",
+    "B479",
+    "B596",
+    "B701",
+    "B732",
+    "L246",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

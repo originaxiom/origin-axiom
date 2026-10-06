@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1307** |
-| words of findings prose | **1,011,453** |
+| research arcs with findings | **1308** |
+| words of findings prose | **1,012,577** |
 | test lock files referenced | **764** |
-| arcs carrying an authored verdict | **1307** (100.0 %) |
+| arcs carrying an authored verdict | **1308** (100.0 %) |
 | recorded closures | **803** (636 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 878 |
+| PROVED | 879 |
 | NEGATIVE | 327 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1478`** (1099 words, 0 locks)  
-THE WEB SEAT'S BRANCH HARVESTED AND FIVE GENESIS AMENDMENTS RULED (the owner's word of 2026-10-06). The seat's branch chat1/web-seat registered and pinned at 5cd5edf67; its three relays rowed; its six scripts re-run on main's bench with every stated outcome reproduced (three seal hashes verify): on the 2T door of m004 and its parent m000 there are 48 / 48 / 48 surjections, half of m004's extend to m000 and half are blocked by a central sign and none by the outer automorphism (the seat's own prediction killed, 0 of 24), that sign is the spin bit, the deck acts as complex conjugation prime by prime and is invisible at the ramified prime 3, and in sm:B1382's presentation the two halves are the two Pin types. GENESIS v1.12: A1 ADOPTED (a smooth closed bulk tells V from its conjugate only in dimension 2 mod 4; re-derived and enumerated), A2 ADOPTED (continuous moduli, not continuous values: rigid flat invariants are fixed numbers of a member and none is a Standard-Model parameter), A3 ADOPTED as a naming rule (the family names its set; census reproduced: 74 primitive word states to length 8, 16 amphichiral) with its last clause -- which set the owner's rule means -- NOT ruled by main and entered as fork FK13, A4 ADOPTED (two extra abelian factors named apart: U1-eta on Y_3, family-universal, and U1-Z'_9 = (5 psi - 3 chi)/2 plus a family part, family-non-universal; charges and anomaly sums recomputed; both root-only, neither with a mass, coupling or range), A5 ADOPTED (dark-matter stability and Dirac against Majorana listed as root-only or uncomputed); B1477's location of the bit recorded in GAP6. No new mathematics of main's. 0 of 19.  
-`B1478_the_web_seats_branch_harvested_and_five_genesis_amendments_ruled/FINDINGS.md`
+**PROVED — `B1479`** (1124 words, 0 locks)  
+THE BIT IS THE SIGN OF THE WORD STATE (L246; sealed 646cc2b7d / ba56ca22). On all 379 primitive words to length 12 the two signs of a word have the same volume and cusp shapes differing by exactly half a longitude (P2, 379 of 379) -- the monodromy -A is A with the fibre's elliptic involution. On all 34 amphichiral words (26 of them at lengths 10 and 12, unopened before the seal) both signs are amphichiral, the + state's mirror is rectangular and its Chern-Simons class 0, the - state's mirror is rhombic and its class 1/4 (P1, 34 of 34), and the longitude's trace is -2 on every lift of every - state (P3, 34 of 34), so by B1477's Theorem A no spin structure of any amphichiral - state is fixed by any mirror. In the genesis' terms: the sign -- which GENESIS carries as an extension of the grammar (FK4 open, FK6 chosen) -- is the bit B1474-B1477 located; the place where a hand can be registered on a fermion without a continuous choice is the part of the state space the genesis does not yet generate. A census law with a named mechanism, the half-shift not proved; nothing selects a hand. With it: the web seat's four relays since its pin re-run and rowed (the non-orientable index and the firing descent identical to its logs, the listening log identical up to the printing of the class 0), and its observation that every orientable tick sits at CS = 0 explained by the same law. 0 of 19.  
+`B1479_the_bit_is_the_sign_of_the_word_state/FINDINGS.md`
 
 **NEGATIVE — `B1470`** (565 words, 0 locks)  
 THE UNRUN MODULES RUN ON MAIN (L222 (iii); L245's xB031): B1418's own driver on t12835 with its 1 800 s budget lifted runs all 6 435 modules in 4 234 s -- none NOT RUN -- with index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3, NO THREE; B1418's 3 110 banked rows agree 3 110 of 3 110 and the sep16 lane's xB031 table agrees 6 435 of 6 435 key by key; the 3 325 formerly unrun are 3 070 zero, 150 at -1, 90 at +1, 15 at -2. The one unrun computation the record kept pointing at holds no three. Nothing selects a state. 0 of 19.  

@@ -1,0 +1,25 @@
+{
+ "id": "B1479",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1477",
+  "B1476",
+  "B1475",
+  "B1474",
+  "B1478",
+  "B1459"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI: the mirror's action on spin structures, the cusp lattice, the Chern-Simons class, read against the sign of a word state",
+  "object": "the 379 primitive cyclic words in L, R to length 12 with both signs (758 word states of GENESIS section 3, X_gen); 34 amphichiral words",
+  "reach": "class",
+  "hypotheses": "SnapPy's bundles b++w and b+-w; B1477's instruments; numerics except the integer cusp maps and trace signs; the half-shift measured, not proved; conjectural beyond length 12"
+ },
+ "claim_one_line": "THE BIT IS THE SIGN OF THE WORD STATE (L246; sealed 646cc2b7d / ba56ca22). On all 379 primitive words to length 12 the two signs of a word have the same volume and cusp shapes differing by exactly half a longitude (P2, 379 of 379) -- the monodromy -A is A with the fibre's elliptic involution. On all 34 amphichiral words (26 of them at lengths 10 and 12, unopened before the seal) both signs are amphichiral, the + state's mirror is rectangular and its Chern-Simons class 0, the - state's mirror is rhombic and its class 1/4 (P1, 34 of 34), and the longitude's trace is -2 on every lift of every - state (P3, 34 of 34), so by B1477's Theorem A no spin structure of any amphichiral - state is fixed by any mirror. In the genesis' terms: the sign -- which GENESIS carries as an extension of the grammar (FK4 open, FK6 chosen) -- is the bit B1474-B1477 located; the place where a hand can be registered on a fermion without a continuous choice is the part of the state space the genesis does not yet generate. A census law with a named mechanism, the half-shift not proved; nothing selects a hand. With it: the web seat's four relays since its pin re-run and rowed (the non-orientable index and the firing descent identical to its logs, the listening log identical up to the printing of the class 0), and its observation that every orientable tick sits at CS = 0 explained by the same law. 0 of 19."
+}

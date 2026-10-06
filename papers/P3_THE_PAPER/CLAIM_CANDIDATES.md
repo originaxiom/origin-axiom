@@ -546,6 +546,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1445` | PROVED | L | | THE MASS TERM ON THE PRODUCT OF TWO CURVES. The Higgs sectors of the frame are singlets of SL(2)_beta, so the SL(2) of a Higgs character eta commutes with it, and the ten… |
 | `B1476` | PROVED | L | | AT CS = 1/4 NO SPIN STRUCTURE SURVIVES THE MIRROR. On every amphichiral cusped manifold tested at Chern-Simons class 1/4 (the family's seven and six outside it) no spin str… |
 | `B1477` | PROVED | L | | A MIRROR THAT SHEARS THE CUSP FIXES NO SPIN STRUCTURE (Theorem A). An isometry preserving a cusp and fixing a spin structure preserves the peripheral sign character; a rhom… |
+| `B1479` | PROVED | L | | THE BIT IS THE SIGN OF THE WORD STATE. The two signs of a word share a volume and differ by half a longitude at the cusp; on an amphichiral word the + state is rectangular… |
 
 ## The exhibit that forced the rebuild
 

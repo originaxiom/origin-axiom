@@ -1,0 +1,27 @@
+
+p = 13: Schreier gens ['s0a', 's0c', 's1a', 's1b', 's1c']; peripheral-trivial characters 16; loci 16 (h1 {1: 16}); non-square loci 12
+  C1 [alpha-sub] firing 72 of 256; on non-square loci 72; per locus [(6, 12)]; index values {-1: 36, 1: 36}
+  C1 [beta-sub] firing 72 of 256; on non-square loci 72; per locus [(6, 12)]; index values {1: 36, -1: 36}
+  D1 sigma-fixed characters 4, orders [1, 2, 2, 2]; all order<=2 characters 4
+  D2 [alpha-sub] sigma-fixed firing modules 0; sigma*V found among firing 72/72; same index as partner 72/72
+  D3 [alpha-sub] I(m025; Ind V) = I(s961; V): 72/72
+  D2 [beta-sub] sigma-fixed firing modules 0; sigma*V found among firing 72/72; same index as partner 72/72
+  D3 [beta-sub] I(m025; Ind V) = I(s961; V): 72/72
+
+p = 29: Schreier gens ['s0a', 's0c', 's1a', 's1b', 's1c']; peripheral-trivial characters 16; loci 16 (h1 {1: 16}); non-square loci 12
+  C1 [alpha-sub] firing 72 of 256; on non-square loci 72; per locus [(6, 12)]; index values {-1: 36, 1: 36}
+  C1 [beta-sub] firing 72 of 256; on non-square loci 72; per locus [(6, 12)]; index values {1: 36, -1: 36}
+  D1 sigma-fixed characters 4, orders [1, 2, 2, 2]; all order<=2 characters 4
+  D2 [alpha-sub] sigma-fixed firing modules 0; sigma*V found among firing 72/72; same index as partner 72/72
+  D3 [alpha-sub] I(m025; Ind V) = I(s961; V): 72/72
+  D2 [beta-sub] sigma-fixed firing modules 0; sigma*V found among firing 72/72; same index as partner 72/72
+  D3 [beta-sub] I(m025; Ind V) = I(s961; V): 72/72
+
+p = 37: Schreier gens ['s0a', 's0c', 's1a', 's1b', 's1c']; peripheral-trivial characters 16; loci 16 (h1 {1: 16}); non-square loci 12
+  C1 [alpha-sub] firing 72 of 256; on non-square loci 72; per locus [(6, 12)]; index values {-1: 36, 1: 36}
+  C1 [beta-sub] firing 72 of 256; on non-square loci 72; per locus [(6, 12)]; index values {1: 36, -1: 36}
+  D1 sigma-fixed characters 4, orders [1, 2, 2, 2]; all order<=2 characters 4
+  D2 [alpha-sub] sigma-fixed firing modules 0; sigma*V found among firing 72/72; same index as partner 72/72
+  D3 [alpha-sub] I(m025; Ind V) = I(s961; V): 72/72
+  D2 [beta-sub] sigma-fixed firing modules 0; sigma*V found among firing 72/72; same index as partner 72/72
+  D3 [beta-sub] I(m025; Ind V) = I(s961; V): 72/72
