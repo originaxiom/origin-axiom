@@ -13,7 +13,15 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": false,
+  "why": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: Theorem A: on every cyclic cover of m004 a determinant-one rank-five extension of L = nu^-4 by nu (x) rho_q counts -r1 when L = 1 and 1 - r1 when L is non-trivial on the fibre and trivial on the cusp, and Lambda^2 W counts 0 (no 5bar' on any level), with Theorems B-E: general propositions over every level proved at the seal, extending B1509 by the new case (b); Theorem F's last sentence was withdrawn the same day, and B1512 resolved the 32 pairs",
+  "registry_row": "T-PROJECTIVE-TOWER",
+  "lock": "tests/test_b1511_the_projective_tower.py"
+ },
  "identifications": [],
  "claim_one_line": "THE PROJECTIVE TOWER (B1509's lead 4 at the owner's 'aproved. next!'; sealed at 49baea7d before any twisted polynomial of a non-trivial character was computed): B1509's rank-five extension on the audit lane's harmonic family, carried to m004's cyclic covers M1-M6 and twisted by their fibre torsion, read by level and by deck orbit in B1506's frame. On s961 the deck orbit of T3's three order-2 characters is a projective triplet: at q^3 = 17 +- 12 sqrt2 with lam3 = -1 its twisted fibre monodromy has a Jordan block and each of the three backgrounds counts I(W1) = -1, I(W2) = +1 with B1509's data (0,1,1,1) (exact over Q(i)[q]/(q^6 - 34 q^3 + 1) and at 10 prime-root pairs), three 10' on s961 and on M6 (Shapiro), gcd(n,3) by level; its polynomial is exactly B1509's Q at q^3. The order-4 orbits are exceptional (q^2 - 11 q + 1, a sextic) but simple: 0. On M4 the opposite sign: case (b) (line non-trivial on the fibre, trivial on the cusp) fires on both 3-torsion orbits at q = phi^{+-4}, lam = 1, every member I(W1) = +1, four 10bar' per orbit. B1509's W1 pulls back to -1 on every level (orbit of size one). Lambda^2 W counts 0 on every level: no 5bar' anywhere in the tower. Predictions: P1-P6 and P8 YES, P7 NO (102 gcd pairs UNRESOLVED by the sealed rule; post-run 70 share only q^2 + q + 1; the 32 self-coincident pairs on M5 and M6 have real polynomials and are the next arc). Theorem F's last sentence (generic real roots only on M4) withdrawn: every twisted polynomial is real (P_nu = P_nu^-1, post-run). Three distinct vacua, each anomalous, at an unselected q. I-26 stays UNEARNED. 0 of 19."
 }

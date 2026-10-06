@@ -16,6 +16,7 @@
  "superseded_by": null,
  "authored_by": "cc",
  "creates_law": false,
+ "creates_law_reviewed": {"date": "2026-10-06", "arc": "the SM seat's merge of the creates_law re-audit (B1214's rule; the theorem-registry gate's converse)", "was": "false (declared at banking; the arc is named in a THEOREM_REGISTRY row's bank cell)", "decision": "false", "class": "SEALED CENSUS -- every connected cover of degree <= 12 of m004 (176) and m003 (148) and the Q8 towers at m = 1, 2, 3, 4, 6, 9, 12, 18: a finite population read whole", "basis": "read in full (FINDINGS, verdict and registry row) against B1214's rule: the result is a census of a finite population of covers and tower levels, read in two routes; its lemmas are standard theorems applied in the frame (S': Shapiro and Mackey with the permutation module; Q: Gaschutz and Skolem-Noether on the Q8 tower) or reductions for the reading (O, Z'', G), which B1242's precedent does not count as laws of the object"},
  "identifications": [],
  "scope": {
   "frame": "F-HE",

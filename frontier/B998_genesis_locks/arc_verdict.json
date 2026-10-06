@@ -12,5 +12,13 @@
   "supersedes": null,
   "superseded_by": null,
   "authored_by": "cc banking seat (2026-08-09), verifying cc3 genesis-stratum audit",
-  "creates_law": false
+  "creates_law": false,
+  "creates_law_reviewed": {
+    "date": "2026-10-02",
+    "arc": "the SM seat's creates_law re-audit of the registry residue (B1214's rule)",
+    "was": "false (declared at banking; the arc is named in a THEOREM_REGISTRY row's bank cell)",
+    "decision": "false",
+    "class": "AUDIT -- a governance finding on lock coverage (a cited test that does not exist); the registry row is B749's, B998 named for the lock repair",
+    "basis": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: the arc verifies mechanically that the theorem ledger's cited lock tests forks F4-F7, not F3, and that F2 and F8 had no lock; it corrects the ledger and deliberately adds no gate. T-GENESIS-PRICE's bank cell reads 'B749 (+B998/B1003 lock repair)': the genesis-chain prices are B749's computations (B749 declares the law; B1003 wrote the locks), and B998's part is the audit that found the gap. An audit is not a law under the rule."
+  }
 }

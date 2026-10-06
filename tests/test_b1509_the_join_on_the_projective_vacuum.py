@@ -142,11 +142,13 @@ def test_the_fibre_check_and_the_control_reproduce():
 
 
 def test_findings_verdict_and_hygiene():
-    """the verdict is PROVED, creates no law, keeps 0 of 19; the findings carry the theorems, the table, the disclosures and the
-    reading; the predictions file is unchanged since its commit"""
+    """the verdict is PROVED, declares its law (corrected 2026-10-02), keeps 0 of 19; the findings carry the theorems, the
+    table, the disclosures and the reading; the predictions file is unchanged since its commit"""
     import hashlib
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
-    assert v["id"] == "B1509" and v["verdict"] == "PROVED" and v["creates_law"] is False and v["instrument"] is False
+    assert v["id"] == "B1509" and v["verdict"] == "PROVED" and v["creates_law"] is True and v["instrument"] is False
+    cl = v["creates_law_corrected"]
+    assert (cl["date"], cl["was"], cl["registry_row"]) == ("2026-10-02", False, "T-PROJECTIVE-JOIN")
     assert "0 of 19" in v["claim_one_line"] and "I-26 stays UNEARNED" in v["claim_one_line"]
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     for needle in ("**T1 (the matter is boundary-acyclic).**", "**T2 (the extension's index).**", "**T3 (when e ∪ c vanishes).**",

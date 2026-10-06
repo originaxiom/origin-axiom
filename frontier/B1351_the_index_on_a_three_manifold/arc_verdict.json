@@ -7,6 +7,14 @@
  "superseded_by": null,
  "authored_by": "cc",
  "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": "false (declared at banking; the arc wrote or reached a registry or law-map row)",
+  "decision": "false",
+  "class": "COROLLARY OF CITED AND BANKED RESULTS -- 'vector-like everywhere' assembled from Pantev-Wijnholt's index formula and B1268's bound (the arc's own status line)",
+  "basis": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: the closed half is the vanishing of chi for local systems on closed odd-dimensional manifolds with Poincare duality (BCHS 2.4's vanishing, stated for the record's objects); the cusped half restates B1268's bound in the seven-dimensional frame, and B1413 (R23) scoped it to whole-torus and annular conventions; section 2(iii) places the record's computations. The arc wrote no registry or law-map row of its own: its id reaches them only through B1393's T-CHARGE-FLIP and B1508's LAW_MAP row"
+ },
  "identifications": [],
  "claim_one_line": "THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0 and every Wilson-line vacuum is vector-like exactly (h^1(Y_n; psi) = h^1(Y_n; psi-bar) for every character, Poincare duality; checked at every character of every level <= 9, 9 321 characters, two primes) -- I-26 counts vector-like pairs. On the cusped object N = -chi(d+M; L) per weight, and a weight whose cusp holonomy is non-trivial has vanishing torus cohomology, hence no boundary condition and N = 0; only a cusp-fixed weight can carry a disc-type d+ -- B1268's bound -h^0(dM; V) <= N <= h^0(dM; V*) in the 7d frame. Along iota-odd directions the region-swap theorem gives 0; along the iota-even V10 direction the generic point has no cusp-fixed weight (B1350) and N = 0. The single remaining escape on the object: the fixed-vector locus along V10 (B1352). 0 of 19; vector-like everywhere, now by theorem."
 }

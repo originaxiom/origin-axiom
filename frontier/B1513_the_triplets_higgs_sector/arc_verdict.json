@@ -12,7 +12,15 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
+ "creates_law_corrected": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": false,
+  "why": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: the sealed coupling census is a decision on two populations (NEGATIVE), but the arc also proves T-HIGGS-BULK-ACYCLIC: for every q > 0 with q != 1, every unitary twist and every cyclic cover, Lambda^2 rho_q has no cohomology (the exact fibre polynomial, its reduction to f(u) - (w^2 - w) with f increasing on [-2, 2], then Wang and Shapiro) -- a general proposition proved here, on which B1514's decoupling law rests",
+  "registry_row": "T-HIGGS-BULK-ACYCLIC",
+  "lock": "tests/test_b1513_the_triplets_higgs_sector.py"
+ },
  "identifications": [],
  "claim_one_line": "THE TRIPLET'S HIGGS SECTOR, run as sealed (5e995321; 35.6 s; B1511 lead 6, main's B1443 question in B1509's harmonic frame): each member of B1511's projective triplet (s961, nu_k = (0,2), (2,2), (2,0), lam3 = -1, q^6 - 34 q^3 + 1 = 0) and B1509's join (m004, q^2 - 34 q + 1 = 0, mu = -1) carries exactly one 5'_H and one 5bar'_H, both its own (h1(L2 W) = h1(L2 W*) = 1, the 5'_H onto c, the 5bar'_H = c*), but its chiral 10' does not couple to them: the up-type relative triple product Y_k = <h u a u a> is zero exactly for every member of both populations (and at all 16 prime-root pairs), and post-run the symmetric form B(a, a') = Y(h, a, a') vanishes on the whole of H^1(W*), so no 10' end condition gives a coupling; the mu-type pairing <h u e u hbar> is zero too. No invariant form joins two members (one form iff i = j = k). P1 YES (stronger), P2 YES, P3 YES, P4 NO, P5 YES. The banked identity first (the arc's triple product equals B1510's exact kappa_l_hat at all six points with one sign, on levels 1-3: the first chain-level check of B1510's Theorem B). The zero is not an artefact: at B1510's +-i points the same instrument gives Y(h, a, e f0) = -lam_h kappa != 0 and <h u e u hbar> = lam_h kappa, exactly. Post-run theorem T-HIGGS-BULK-ACYCLIC: P_L(q, s) = s^6 - 12 s^5 + 48 s^4 - (w^2 - w + 72) s^3 + 48 s^2 - 12 s + 1 (w = q + 1/q), so for every q > 0, q != 1, every unitary twist and every cyclic cover Lambda^2 rho_q has no cohomology (H^0 of the fibre zero for every q > 0). Post-run (d): the c*-lift's longitude boundary class equals kappa_l_hat (Stokes), so the interior 10' exists exactly where kappa = 0, where the coupling also vanishes. Read against the audit lane's R75 (an independent re-verification of B1511's triplet). Routed in the kill graph (jordan-decoupling). I-26 stays UNEARNED. 0 of 19."
 }

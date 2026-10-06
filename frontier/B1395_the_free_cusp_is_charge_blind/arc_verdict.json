@@ -13,6 +13,14 @@
  "superseded_by": null,
  "authored_by": "cc",
  "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-10-02",
+  "arc": "the SM seat's creates_law re-audit of B1304-B1513 (B1214's rule)",
+  "was": "false (declared at banking; the arc wrote or reached a registry or law-map row)",
+  "decision": "false",
+  "class": "ANOTHER SEAT'S RESULTS RESTATED IN THE FRAME + STANDARD FACTS",
+  "basis": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: the two divergences at the heart of the elimination (a sealed Higgs class's log-divergent norm, the infinite energy of a flux through a cusp torus) are the audit lane's R28 and canonical-cusp results, which the arc states for the seat's frame (its prior-art section); what it adds is (d), chi(T^2) = 0 with Riemann-Roch on the torus (standard), and the menu built on them, which B1397 section 7 corrected the same day (E65)"
+ },
  "identifications": [],
  "claim_one_line": "THE FREE CUSP IS CHARGE-BLIND AT FINITE ENERGY (the owner's question after B1393: what physical ingredient at a free cusp knows the sign of the charge?): in 7d SYM only the Higgs field (q phi) and gauge flux (q F) tell q from -q; flat unitary Wilson lines cannot (charge -q is the complex conjugate of charge q). (a) A Higgs class alive on a cusp torus has L^2 norm A(a^2 + b^2) log(H/h0), divergent: sealed classes are fixed boundary data, and the dynamical (normalizable) Higgs vevs are cuspidal, free at every cusp; (b) a free cusp's modes are L^2 (one computed: 2.84e-6); (c) a gauge flux through a hyperbolic cusp torus has energy A phi^2 (H^2 - h0^2)/2, divergent, whatever sources it; (d) a condition uniform over the torus adds -chi(T^2) = 0 (orbifold and charge-conjugating walls included), and the only charge-odd integers a torus end can carry are chi of a sign partition and the degree of a line bundle (Riemann-Roch: index = degree). Hence every finite-energy normalizable datum at a free cusp is charge-blind except the decaying Higgs tail, which is not a physical count (B1388, B1392, B1393): a completion giving normalizable chiral matter must cap the cusp and carry a flux on its torus, or bring non-normalizable sources (the lane's R28). The charge-odd integer is an input of the completion, not an output of the dynamics. Named for sealed tests, not chosen: the flux-capped Eisenstein cusp (B1396); a Horava-Witten E8 wall as the cap's M-theory reading (speculative). Prior art: the lane's R28 and its canonical-cusp non-normalizability, in its setting. 0 of 19."
 }

@@ -213,10 +213,12 @@ def test_the_kill_graph_entry():
 
 
 def test_findings_verdict_and_hygiene():
-    """the verdict is NEGATIVE, creates no law, keeps 0 of 19; the findings carry the answer, the predictions, the control, the
-    theorem and the leads; the owner's private term is absent"""
+    """the verdict is NEGATIVE, declares its law (corrected 2026-10-02), keeps 0 of 19; the findings carry the answer, the
+    predictions, the control, the theorem and the leads; the owner's private term is absent"""
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
-    assert v["id"] == "B1513" and v["verdict"] == "NEGATIVE" and v["creates_law"] is False
+    assert v["id"] == "B1513" and v["verdict"] == "NEGATIVE" and v["creates_law"] is True
+    cl = v["creates_law_corrected"]
+    assert (cl["date"], cl["was"], cl["registry_row"]) == ("2026-10-02", False, "T-HIGGS-BULK-ACYCLIC")
     assert "0 of 19" in v["claim_one_line"] and "I-26 stays UNEARNED" in v["claim_one_line"]
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     for needle in ("**The answer (the sealed run).**", "**The coupling is zero.**",

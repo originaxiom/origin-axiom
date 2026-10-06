@@ -1,13 +1,13 @@
 {
  "settled": 1187,
- "declared_true": 97,
- "declared_false": 262,
+ "declared_true": 115,
+ "declared_false": 244,
  "absent": 828,
  "absent_pct": 70,
  "control": {
-  "declared_mean": 2.93,
-  "rest_mean": 1.22,
-  "ratio": 2.4,
+  "declared_mean": 2.81,
+  "rest_mean": 1.2,
+  "ratio": 2.33,
   "passes": true
  },
  "pool_old": [
@@ -1368,7 +1368,6 @@
    "B1239",
    "B1245",
    "B1281",
-   "B1304",
    "B1350",
    "B1353",
    "B1357",
@@ -1378,7 +1377,6 @@
    "B1371",
    "B1507",
    "B1508",
-   "B1513",
    "B1517",
    "B1520",
    "B1543"

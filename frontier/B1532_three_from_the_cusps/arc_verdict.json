@@ -13,7 +13,8 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
+ "creates_law_corrected": {"date": "2026-10-06", "arc": "the SM seat's merge of the creates_law re-audit (B1214's rule; the theorem-registry gate's converse)", "was": false, "why": "read in full (FINDINGS, verdict and registry row) against B1214's rule: a no-go over an infinite family -- no finite abelian cover of m004's levels M2-M6, of any degree, carries a generation-shaped count at a lambda = 1 pulled-back member at any class -- proved here by Lemmas S (Shapiro and Mackey), Z (a twist non-trivial on the cusp counts 0), H and I, which reduce every cover to 119,347 twisted terms, read whole in two routes sharing no code; the sealed census is the proof's finite step, not the result's scope", "registry_row": "T-THREE-FROM-THE-CUSPS", "lock": "tests/test_b1532_three_from_the_cusps.py"},
  "identifications": [],
  "scope": {
   "frame": "F-HE",

@@ -15,7 +15,8 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
+ "creates_law_corrected": {"date": "2026-10-06", "arc": "the SM seat's merge of the creates_law re-audit (B1214's rule; the theorem-registry gate's converse)", "was": false, "why": "read in full (FINDINGS, verdict and registry row) against B1214's rule: besides the sealed reading on m135 and m136, the arc proves for every word state at the hyperbolic point, case (a) (nu^2 = 1, L = 1, an interior class c_int), that x u c_int = 0 so I(W1(c_int)) = -1 (A), that I(L2 W1(c_int)) = -[mu not in Lambda_A] (B), the boundary-type counts (C, D), W2 = -W1 (M), that only case (a) can read (-1, -1) at kappa = -1 (N), and that the cusp torus is shape-blind so Lemma 8 holds on every word state (T): general propositions proved here, the row's statement", "registry_row": "T-THE-INTERIOR-EXTENSIONS", "lock": "tests/test_b1530_the_interior_extensions.py"},
  "identifications": [],
  "scope": {
   "frame": "F-HE",

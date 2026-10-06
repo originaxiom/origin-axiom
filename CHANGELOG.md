@@ -1,5 +1,128 @@
 # Changelog
 
+## The `creates_law` re-audit merged (seat/determined-hopper-t1cmii at 7cda35aa): the fourteen corrections reviewed and kept
+
+- **Merged** at the owner's request. The branch was built on this branch's dda82524; it carries the re-audit of B1304–B1513
+  under B1214's rule (14 arcs set true with dated `creates_law_corrected` notes, 18 kept false with `creates_law_reviewed`
+  notes), the residue (12 older registered arcs kept false, with notes), the converse check in `gate_theorem_registry`, and
+  four escaped pipes in THEOREM_REGISTRY. The conflicts were in the three logs only, resolved append-only around this branch's
+  head: the branch's two CHANGELOG entries sit just below this one, its two PROGRESS_LOG entries (2026-10-02) are appended, and
+  its two ERROR_LEDGER rows close the table. The generated claim pool was rebuilt (declared laws 97 → 111).
+- **The fourteen corrections, reviewed against B1214's rule** (each arc's claim, its registry row and the note): B1304, B1380,
+  B1385, B1389, B1390, B1397, B1398, B1505, B1506 and B1509–B1513 each prove a general proposition here (a theorem over every
+  level or character, a uniqueness over a family, an exact characterization over every Higgs direction, or a no-go over a
+  frame's completions). None is a census, a verification or a sealed decision on a cell. All fourteen are kept; none is reversed.
+  - Two are close to the line and kept with their notes' own scope. B1390's theorem is likely classical for Bianchi groups, and
+    its registry row carries that. B1389 was sealed, but its outcome is a characterization over a continuous family, as B1214
+    counted B393's and B886's.
+- **The five locks of B1509–B1513** now assert `creates_law` true and the corrected note: date 2026-10-02, was false, and
+  registry rows T-PROJECTIVE-JOIN, T-TWO-SIDED-ZERO, T-PROJECTIVE-TOWER, T-BALLAS-SYMMETRIES and T-HIGGS-BULK-ACYCLIC.
+- **THEOREM_REGISTRY:** the four blank lines inside the last table, after T-MIRROR-ODD-VANISHES, are deleted, so the rows after
+  them render as one table again. No row's text changes.
+- **The converse gate, merged, caught this branch's own recurrence.** Five arcs banked here after the re-audit's date (on a branch
+  that did not yet carry its gate) are named in registry rows and declared false with no decision: B1530, B1532, B1534, B1535
+  and B1536. Each was read in full against B1214's rule:
+  - true, each with a dated `creates_law_corrected` note naming its row and lock:
+    - B1530 (T-THE-INTERIOR-EXTENSIONS): its Lemmas A–T on every word state;
+    - B1532 (T-THREE-FROM-THE-CUSPS) and B1534 (T-THE-SILVER-COVERS): no-gos over every finite abelian cover, proved by
+      reduction lemmas with the sealed census as the proof's finite step;
+    - B1535 (T-THE-CAP): Theorem C.
+  - false, with a `creates_law_reviewed` note: B1536 (T-THE-FINITE-COVERS), a sealed census of a finite population whose lemmas
+    are standard theorems applied.
+  T-GOLDEN-CHOICE's statement had two unescaped pipes (|λ|), which shifted its bank cell; they are escaped. The claim pool now
+  declares 115 laws. The error class is the re-audit's (its ERROR_LEDGER row); the recurrence is recorded here, and the gate
+  now holds it.
+
+## The `creates_law` residue: twelve registered arcs decided, and the theorem-registry gate reads both directions
+
+- **The finding.** After the B1304–B1513 pass, every THEOREM_REGISTRY bank cell was checked against the verdicts. Twelve arcs
+  named there declared `creates_law: false` with no dated decision: B731, B998, B1115, B1134, B1135, B1136, B1137, B1141, B1142,
+  B1143, B1145 and B1387. B1214 decided 116 candidates and the B1304–B1513 pass 32 named arcs; neither list held these, and no
+  gate reads that direction.
+- **Four malformed rows.** The check first named a thirteenth arc, B1168, which owns no row. T-NO-CANONICAL-SELECTOR's statement
+  contains an unescaped pipe (`Stab_Aut(D)|_T`), which shifts every later cell, so the cell read as the bank was part of the
+  statement. T-G2-CONE, T-COUNT-THE-IMAGE and T-EPS-IS-KAPPA-MOD-SQUARES had the same defect. The four pipes are now escaped,
+  and no text changes.
+- **Decided** under B1214's rule, each arc read in full (FINDINGS, verdict, registry and law-map rows). All twelve keep false,
+  each with a dated `creates_law_reviewed` note giving its class and basis:
+  - another seat's memo, re-derived here: B1134, B1135, B1141, B1142, B1143, B1145. B1214 gave the same class to B1138 and
+    B1140, the same seat's memos banked the same way;
+  - a synthesis of banked results: B1115;
+  - a census: B1136;
+  - a sealed, bounded scan: B1137;
+  - a computed cell on one member: B1387;
+  - a retracted headline, named in the bank cell as the arc B734 corrects: B731;
+  - an audit, named in B749's row for a lock repair: B998.
+- **The gate.** `gate_theorem_registry` now checks the converse too. An arc named in a registry row's bank cell that declares
+  false must carry a dated `creates_law_reviewed` or `creates_law_corrected` note. A row whose bank cell does not open with an
+  arc id fails, because an unescaped pipe has shifted its cells. Arcs with the field absent (optional before B1103) are not
+  read. On the previous commit's tree the check names the twelve arcs and the four rows; on this tree it passes. BANKING_PROTOCOL
+  item 2 states the rule.
+- **Left for the owner.**
+  - The registry's last table has four stray blank lines after T-MIRROR-ODD-VANISHES. GitHub ends a table at a blank line, so
+    the 57 rows after them render as plain text. The gate reads past them.
+  - The hygiene tests of B1509–B1513's locks still assert `creates_law is False` and still fail.
+- **Checks.**
+  - The P3 claim pool regenerates unchanged with B1213's `reproduce.sh` (REPRODUCES), as no flag changed. Its first run stopped
+    on a broken pipe in the script's own `| head -3` under `pipefail`; the re-run reproduced.
+  - Gates: 30 PASS and the standing `relay-debt` failure. `theorem-registry` passes with the converse.
+  - `tests/test_arc_verdict_schema.py`, `tests/test_b1210_spine_sweep.py`, `tests/test_b1213_claim_base.py` and
+    `tests/test_b1214_creates_law_reaudit.py`: 1 291 passed.
+  - The locks of the touched arcs and rows, the `creates_law` locks (B1211, B1240, B1241), the tests that read the gates and the
+    scanning locks: 207 passed, 6 skipped, 1 failed. The failure is B1137's aggregate test. It reads grid files that `*.jsonl`
+    in `.gitignore` keeps out of the repository, fails the same way on a clean checkout of the previous commit, and is listed in
+    `docs/EXTERNAL_VERIFICATION_2026-09-06.md` §7 among the fresh-clone artefacts.
+- **ERROR_LEDGER:** one row, the residue and the gate.
+
+## The `creates_law` re-audit of B1304–B1513: fourteen laws declared, eighteen decisions recorded
+
+- **The finding.** From B1304 to B1513 this seat declared `creates_law: false` on every arc. B1270–B1303 before it and B1514
+  after it declared true where they registered laws. Thirty-two of the false arcs wrote or reached a THEOREM_REGISTRY or LAW_MAP
+  row. The theorem-registry gate checks only that a declared law has a row, and B1210's claim-pool lock reads only declared laws,
+  so neither could see the gap.
+- **The rule** is B1214's, unchanged:
+  - LAW: a new general proposition proved here (a law, theorem, no-go, exact characterization or uniqueness over a family);
+  - NOT LAW: a verification, harvest, audit, census, sealed-cell decision, ledger-write, status report or correction, even with
+    theorem vocabulary.
+
+  B1242's review is followed as precedent: a standard formula applied to the object is not a law of the object. All 32 arcs were
+  read in full (FINDINGS, verdict, registry and law-map rows), so the calls carry no read asymmetry.
+- **Fourteen now declare true**, each with a dated `creates_law_corrected` note naming its registry row and lock:
+  - B1304: the positive half of the tower's law (its addendum);
+  - B1380: the carrier theorem, A5 ⟹ A5b. Its registry row T-CARRIER-PUNCTURE is new, since the arc had written only a dated note
+    into B1003's LAW_MAP row;
+  - B1385: the Eisenstein cusp lemma and the global parity;
+  - B1389: the full spectrum, characterized over every Higgs direction;
+  - B1390: the Eisenstein axes;
+  - B1397: the parity of a cap's generations;
+  - B1398: the frame's verdict on three;
+  - B1505: no torus locus on the known orbifold links;
+  - B1506: the loci lemma on every level, and the level law for any orbit size;
+  - B1509: Proposition E and Corollary C;
+  - B1510: Theorem C, a two-sided deformation counts zero;
+  - B1511: the tower's two shapes, with no 5̄′ on any level;
+  - B1512: m004's symmetries on Ballas' family;
+  - B1513: T-HIGGS-BULK-ACYCLIC.
+- **Eighteen keep false**, each with a dated `creates_law_reviewed` note giving its class and basis:
+  - censuses and sealed decisions on cells: B1388, B1394, B1399, B1501;
+  - a standard theorem applied in the frame: B1386, B1391, B1393, B1396, B1500, B1502, B1503, B1504;
+  - corollaries of cited or banked results: B1351, B1383;
+  - another seat's results restated: B1395;
+  - a no-go whose decisive steps are cited in kind: B1392;
+  - rereads with corrections: B1507, B1508.
+
+  B1351 wrote no row of its own. Its id reaches the registry and the law map through B1393's and B1508's rows.
+- **The P3 claim pool regenerated** with B1213's `reproduce.sh` (REPRODUCES). Declared laws go from 93 to 107, and the 14 move
+  from tier S to tier L. B1515–B1517, banked since the last regeneration, join the pool. None leaves: 599 arcs become 602.
+- **Checks.**
+  - Run on B1519's tree (`27220af6`). Gates: 30 PASS and the standing `relay-debt` failure, the same as that tree's own run.
+  - `tests/test_arc_verdict_schema.py`, `tests/test_b1210_spine_sweep.py`, `tests/test_b1213_claim_base.py` and
+    `tests/test_b1214_creates_law_reaudit.py`: 1 291 passed.
+  - The hygiene tests of B1509–B1513's locks assert `creates_law is False`. They pass at the base and fail now. Updating
+    them waits on the owner.
+  - The locks of B1211, B1240, B1241 and B1514–B1519 pass.
+- **ERROR_LEDGER:** one row, the declaration slip and its rule.
+
 ## B1543 banked: THE LINE MUST LEAD — generic classes carry three only where the line leads the four (PROVED, not sealed)
 
 - **Corollary C′** (from sm:B1535's Theorem C (ii), exactly): I(W₁) ≥ rk δ¹_W − b0 − n(ν⁴), with δ¹_W the cup map y ↦ c ∪ y on

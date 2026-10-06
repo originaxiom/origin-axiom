@@ -187,10 +187,12 @@ def test_the_controls_reproduce():
 
 
 def test_findings_verdict_and_hygiene():
-    """the verdict is PROVED, creates no law, keeps 0 of 19; the findings carry the triplet, case (b), the correction and the leads;
-    the owner's private term is absent"""
+    """the verdict is PROVED, declares its law (corrected 2026-10-02), keeps 0 of 19; the findings carry the triplet, case (b),
+    the correction and the leads; the owner's private term is absent"""
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
-    assert v["id"] == "B1511" and v["verdict"] == "PROVED" and v["creates_law"] is False and v["instrument"] is False
+    assert v["id"] == "B1511" and v["verdict"] == "PROVED" and v["creates_law"] is True and v["instrument"] is False
+    cl = v["creates_law_corrected"]
+    assert (cl["date"], cl["was"], cl["registry_row"]) == ("2026-10-02", False, "T-PROJECTIVE-TOWER")
     assert "0 of 19" in v["claim_one_line"] and "I-26 stays UNEARNED" in v["claim_one_line"]
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     for needle in ("**The mechanism is exact:**", "P_{O₂}(q, s) = Q(q³, s)", "| P2 | O₂ fires: a projective triplet on s961 (~40%) | **YES**",

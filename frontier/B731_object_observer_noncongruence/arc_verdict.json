@@ -7,5 +7,13 @@
   "supersedes": null,
   "superseded_by": null,
   "authored_by": "W2-wave2-calibrated",
-  "creates_law": false
+  "creates_law": false,
+  "creates_law_reviewed": {
+    "date": "2026-10-02",
+    "arc": "the SM seat's creates_law re-audit of the registry residue (B1214's rule)",
+    "was": "false (declared at banking; the arc is named in a THEOREM_REGISTRY row's bank cell)",
+    "decision": "false",
+    "class": "RETRACTED -- the arc's own headline (m004 non-congruence) is withdrawn; the registry row is B734's correction of it",
+    "basis": "read in full (FINDINGS, verdict, registry and law-map rows) against B1214's rule: the verdict is RETRACTED and the FINDINGS open with the withdrawal: the 2-adic index jumps to the geometric 12 at level (8), so m004 is congruence (B734, error E22). T-CONGRUENCE's bank cell reads 'B734 (correcting B731)', so B731 is named as the corrected arc; the row's result is B734's, which declares it. What survives here (the level-2 and level-4 index computations, the SL/PSL centre lesson) is computation and method, not a law."
+  }
 }

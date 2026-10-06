@@ -15,7 +15,8 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
+ "creates_law_corrected": {"date": "2026-10-06", "arc": "the SM seat's merge of the creates_law re-audit (B1214's rule; the theorem-registry gate's converse)", "was": false, "why": "read in full (FINDINGS, verdict and registry row) against B1214's rule: a no-go over an infinite family -- no finite abelian cover of m135 or m136 carries three generations at a pulled-back member, in either order, and the 5bar' side is capped at two -- proved here by Lemmas S, Z', Q, H' and I', which reduce every cover and every twist to 144 terms read whole in two routes; the sealed census is the proof's finite step", "registry_row": "T-THE-SILVER-COVERS", "lock": "tests/test_b1534_the_silver_covers.py"},
  "identifications": [],
  "scope": {
   "frame": "F-HE",

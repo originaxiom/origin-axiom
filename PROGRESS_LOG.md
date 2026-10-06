@@ -17694,3 +17694,65 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   frame hosts at most one generation at every class.
 - Next: prove or break the floor; the line-leads census on sm:B1538's puncture characters once its records are regenerated;
   the golden characters of the degree-60 covers.
+
+## 2026-10-02 — the `creates_law` re-audit of B1304–B1513 (B1214's rule)
+
+- **Occasion.** Every arc from B1304 to B1513 declared `creates_law: false`, and 32 of them wrote or reached a THEOREM_REGISTRY or
+  LAW_MAP row. B1270–B1303 and B1514 declare true. B1214 re-audited this error class on 2026-08-29, and its rule is applied here
+  unchanged.
+- **Read.** All 32 arcs were read in full: FINDINGS (with addenda), `arc_verdict.json`, and the registry and law-map rows. B1242's
+  review was taken as precedent: a standard formula applied to the object is not a law of the object.
+- **Decided.**
+  - 14 now declare true, each with a dated `creates_law_corrected` note naming its row and lock: B1304, B1380, B1385, B1389,
+    B1390, B1397, B1398, B1505, B1506, B1509, B1510, B1511, B1512 and B1513.
+  - B1380 had no registry row, so T-CARRIER-PUNCTURE was added after T-TOWER-LAW-POSITIVE-HALF. It has five cells.
+  - 18 keep false, each with a dated `creates_law_reviewed` note giving its class and basis: B1351, B1383, B1386, B1388, B1391,
+    B1392, B1393, B1394, B1395, B1396, B1399, B1500, B1501, B1502, B1503, B1504, B1507 and B1508.
+- **The claim pool.** B1213's `reproduce.sh` REPRODUCES. Declared laws go from 93 to 107. The 14 move from tier S to tier L, and
+  B1515–B1517, banked since the last regeneration, join. 599 arcs become 602, and none leaves.
+- **Checks.**
+  - Run on B1519's tree (`27220af6`). Gates: 30 PASS and the standing `relay-debt` failure, the same as that tree's own run.
+  - The four tests named for this pass (verdict schema, B1210, B1213, B1214): 1 291 passed.
+  - The hygiene tests of B1509–B1513's locks assert `creates_law is False`. They pass at the base and fail now. Updating
+    them waits on the owner.
+  - The locks of B1211, B1240, B1241 and B1514–B1519 pass.
+- ERROR_LEDGER: one row (the declaration slip). I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-02 — the `creates_law` residue: twelve registered arcs decided; the theorem-registry gate reads both directions
+
+- **Occasion.** After the B1304–B1513 pass, every THEOREM_REGISTRY bank cell was checked against the verdicts. Twelve arcs named
+  there declared `creates_law: false` with no dated decision, outside both B1214's 116 candidates and this seat's 32: B731, B998,
+  B1115, B1134, B1135, B1136, B1137, B1141, B1142, B1143, B1145 and B1387.
+- **A false lead first.** The check also named B1168, which owns no row. Four registry rows (T-G2-CONE, T-NO-CANONICAL-SELECTOR,
+  T-COUNT-THE-IMAGE, T-EPS-IS-KAPPA-MOD-SQUARES) had an unescaped pipe in the statement, which shifts every later cell. The pipes
+  are escaped.
+- **Decided.** All twelve were read in full under B1214's rule, and all keep false, each with a dated `creates_law_reviewed` note:
+  - another seat's memo re-derived here: B1134, B1135, B1141, B1142, B1143, B1145 (B1214's class for B1138 and B1140);
+  - a synthesis (B1115), a census (B1136), a sealed bounded scan (B1137) and a computed cell on one member (B1387);
+  - a retracted headline named as the arc B734 corrects (B731), and an audit named for a lock repair (B998).
+- **The gate.** `gate_theorem_registry` reads both directions. An arc named in a bank cell that declares false carries a dated
+  decision, and a row whose bank cell does not open with an arc id fails. On the previous commit's tree it names the twelve arcs
+  and the four rows. BANKING_PROTOCOL item 2 states the rule.
+- **Left for the owner.** Four stray blank lines in the registry's last table make its last 57 rows render as plain text, and
+  the B1509–B1513 hygiene tests still assert the old flag.
+- **Checks.**
+  - The claim pool regenerates unchanged: REPRODUCES on the re-run, after the first run stopped on a broken pipe in the script's
+    own `| head -3`.
+  - Gates: 30 PASS and the standing `relay-debt` failure.
+  - The four tests: 1 291 passed.
+  - The touched locks, the `creates_law` locks, the gate-reading tests and the scanning locks: 207 passed, 6 skipped, 1 failed.
+    The failure is B1137's aggregate test, a fresh-clone artefact (its grids are gitignored), which fails the same way on the
+    previous commit.
+- ERROR_LEDGER: one row (the residue and the gate). I-26 stays UNEARNED. 0 of 19.
+
+## 2026-10-06 — the `creates_law` re-audit merged; the fourteen corrections reviewed and kept
+
+- seat/determined-hopper-t1cmii (7cda35aa, built on dda82524) merged at the owner's request. Conflicts in the three logs only,
+  resolved append-only: the branch's two entries of 2026-10-02 are appended above this one. The claim pool rebuilt (declared
+  laws 97 → 111).
+- The fourteen corrections reviewed against B1214's rule: all kept (each proves a general proposition here). None reversed.
+- The five locks of B1509–B1513 updated in the merge commit (creates_law true, the corrected note's date, was and registry row);
+  THEOREM_REGISTRY's four stray blank lines deleted.
+- The merged converse gate caught this branch's own recurrence (B1530, B1532, B1534, B1535, B1536, banked after the re-audit's
+  date): four set true with dated notes, B1536 kept false with its review; T-GOLDEN-CHOICE's two unescaped pipes escaped.
+  Gates pass. The claim pool declares 115 laws. The fast lane runs on the merge commit.
