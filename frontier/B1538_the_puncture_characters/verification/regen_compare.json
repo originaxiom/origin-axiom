@@ -1,0 +1,116 @@
+{
+ "recorded (the relay of 2026-10-06, section 3)": {
+  "verdict (the seal's section 9, from the sealed read-out's predictions)": "PROVED",
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P8": false,
+  "P9": true,
+  "predictions held (the sealed read-out, of 11)": 7,
+  "scoped: P7'": false,
+  "scoped: P8'": false,
+  "verdict (the scoped read-out)": "PROVED",
+  "Part L: Galois orbits with n >= 1": 483692,
+  "Part L: candidates (n >= 2)": 64422,
+  "route P: reads": 3376190,
+  "route P: disagreements": 0,
+  "route T: reads": 483692,
+  "route T: disagreements": 0,
+  "Part F': candidates in scope (read_out_scoped.json)": 12152,
+  "Part F': candidates (its rows)": 12152,
+  "Part F': members (read_out_scoped.json)": 10346,
+  "Part F': members (its rows)": 10346,
+  "Part F': members on m003": 106,
+  "Part F': members on m004": 0,
+  "Part F': members on m135": 1216,
+  "Part F': members on m136": 9024,
+  "Part F': the rooms of the members on m003": [
+   0
+  ],
+  "Part F': members with room 3": 1856,
+  "Part F': the covers of the members with room 3": [
+   "m135.D8.2-0-4.w1",
+   "m135.D8.4-0-2.w4",
+   "m136.D8.2-0-4.w3",
+   "m136.D8.4-0-2.w5"
+  ],
+  "Part F': the candidates' zeta orders at room 3, on m135's covers": [
+   2
+  ],
+  "Part F': the candidates' zeta orders at room 3, on m136's covers": [
+   4,
+   6,
+   12
+  ],
+  "Proposition H: covers": 10,
+  "Proposition H: covers with sum 4": 10
+ },
+ "regenerated": {
+  "verdict (the seal's section 9, from the sealed read-out's predictions)": "PROVED",
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P8": false,
+  "P9": true,
+  "predictions held (the sealed read-out, of 11)": 7,
+  "scoped: P7'": false,
+  "scoped: P8'": false,
+  "verdict (the scoped read-out)": "PROVED",
+  "Part L: Galois orbits with n >= 1": 483692,
+  "Part L: candidates (n >= 2)": 64422,
+  "route P: reads": 3376190,
+  "route P: disagreements": 0,
+  "route T: reads": 483692,
+  "route T: disagreements": 0,
+  "Part F': candidates in scope (read_out_scoped.json)": 12152,
+  "Part F': members (read_out_scoped.json)": 10346,
+  "Part F': candidates (its rows)": 12152,
+  "Part F': members (its rows)": 10346,
+  "Part F': members on m003": 106,
+  "Part F': members on m004": 0,
+  "Part F': members on m135": 1216,
+  "Part F': members on m136": 9024,
+  "Part F': the rooms of the members on m003": [
+   0
+  ],
+  "Part F': members with room 3": 1856,
+  "Part F': the covers of the members with room 3": [
+   "m135.D8.2-0-4.w1",
+   "m135.D8.4-0-2.w4",
+   "m136.D8.2-0-4.w3",
+   "m136.D8.4-0-2.w5"
+  ],
+  "Part F': the candidates' zeta orders at room 3, on m135's covers": [
+   2
+  ],
+  "Part F': the candidates' zeta orders at room 3, on m136's covers": [
+   4,
+   6,
+   12
+  ],
+  "Proposition H: covers": 10,
+  "Proposition H: covers with sum 4": 10
+ },
+ "differences": {},
+ "every recorded number reproduced": true,
+ "descriptive (not recorded numbers)": {
+  "Part F': rooms of the members (route R)": {
+   "0": 938,
+   "1": 3816,
+   "2": 3736,
+   "3": 1856
+  },
+  "Part F': zeta orders at room 3, by state": {
+   "m135": [
+    2
+   ],
+   "m136": [
+    4,
+    6,
+    12
+   ]
+  },
+  "Part F': members whose route P4 caps differ from route R's": 0,
+  "routes agree (in scope; read_out_scoped.json)": true
+ }
+}
