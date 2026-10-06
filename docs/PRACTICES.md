@@ -78,6 +78,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | A **complete** suite run is required before claiming green — a killed run is a *different, weaker* check | **MANUAL** | see §Judgement |
 | Superseded review blocks carry no open action items | **GATED** | `review-actions` |
 | Gates **fail closed** — a gate whose subject is missing must FAIL, never go quiet | **GATED** | verified by deletion in a fresh clone; see §Restart resistance |
+| Every load-bearing input, published or not, is re-derived by own code or carried as a hypothesis (from B1542) | **TESTED** | `tests/test_arc_verdict_schema.py` via `scripts/checks/load_bearing.py`; adequacy MANUAL — see §Load-bearing mathematics |
 
 ### Cadence
 
@@ -680,6 +681,23 @@ Before an arc is designed, and before any sentence says a result is new, first, 
 terms and the heads: a reviewer can rerun the sweep. **The instance that made it a rule:** GENESIS v1.0 counted 758 states and
 called each a bundle, while B945 and Goodman–Heard–Hodgson (2008) already held the identity that merges reversed words. There
 are 536 manifolds (B1517).
+
+## Load-bearing mathematics is re-derived by own code, even when published — TESTED (the record) + MANUAL (the adequacy)
+
+(2026-10-06, the owner: *"we should verify all load bearing math even if a published paper, because we cant bet our whole
+project against some possible errors bugs or mistakes"*; WORKING_RULES, the rule of that date; first applied in B1542.)
+
+An input is load-bearing when a verdict, a count, a cap, an identification or a headline changes if the input is false: a theorem
+or lemma (from a paper, a textbook or another arc), a table or census value, or a library's output. Each one is either re-derived
+by the arc's own code on the instances the verdict uses, by a route that does not assume it, or named in the scope tag's
+hypotheses so that the verdict reads as conditional on it. A citation alone supports nothing.
+
+**The record:** `load_bearing` in `arc_verdict.json` from B1542 on, one entry per input: VERIFIED with the own check's repo path
+and what it computes, or CONDITIONAL with why. The schema test checks the form, that each check exists, and that each
+CONDITIONAL input appears in `scope.hypotheses`.
+
+**What no test can check:** whether the list is complete and whether each check really avoids assuming what it checks. That is why
+each entry says how the check works: a reviewer can read it against the input.
 
 ## The bar for a positive on a generated state — MANUAL
 

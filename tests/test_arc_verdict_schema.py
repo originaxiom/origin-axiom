@@ -12,6 +12,9 @@ Every frontier/*/arc_verdict.json must:
   - carry a prior_work record (the repo leg with each swept head's sha, the literature leg, and a standing) from
     B1517 on (WORKING_RULES 2026-10-02, SEE THE REPO FIRST, THEN THE LITERATURE; the form is checked by
     scripts/checks/prior_work.py's validate()), and word any novelty only as far as that standing allows;
+  - carry a load_bearing record (each load-bearing input, VERIFIED by a named own check that exists, or CONDITIONAL and named
+    in scope.hypotheses) from B1542 on (WORKING_RULES 2026-10-06, LOAD-BEARING MATHEMATICS IS RE-DERIVED BY OWN CODE, EVEN
+    WHEN PUBLISHED; the form is checked by scripts/checks/load_bearing.py's validate());
   - have an id matching its directory prefix.
 """
 import importlib.util
@@ -44,6 +47,13 @@ PRIOR_WORK_REQUIRED_FROM = 1517
 _spec = importlib.util.spec_from_file_location("prior_work", ROOT / "scripts" / "checks" / "prior_work.py")
 prior_work = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(prior_work)
+# B1542 (the owner, 2026-10-06: "we should verify all load bearing math even if a published paper, because we cant bet our
+# whole project against some possible errors bugs or mistakes"): every load-bearing input is re-derived by own code on the
+# instances used, or carried as a hypothesis of the verdict. The form and the check's existence are checked here.
+LOAD_BEARING_REQUIRED_FROM = 1542
+_spec_lb = importlib.util.spec_from_file_location("load_bearing", ROOT / "scripts" / "checks" / "load_bearing.py")
+load_bearing = importlib.util.module_from_spec(_spec_lb)
+_spec_lb.loader.exec_module(load_bearing)
 # Novelty wording in a FINDINGS body (quotations and block quotes excluded) needs a standing that allows it.
 NOVELTY = re.compile(r"\b(novel|for the first time|not in the literature|no prior (?:work|art)|nobody has|"
                      r"not previously known|previously unknown|new result|the first to)\b", re.I)
@@ -98,6 +108,11 @@ def test_schema(path):
         assert not problems, (
             f"{path.parent.name}: arcs from B{PRIOR_WORK_REQUIRED_FROM} on record the repo leg and the literature "
             f"leg (WORKING_RULES 2026-10-02): {problems}")
+    if "load_bearing" in d or num >= LOAD_BEARING_REQUIRED_FROM:
+        problems = load_bearing.validate(d.get("load_bearing"), d.get("scope"))
+        assert not problems, (
+            f"{path.parent.name}: arcs from B{LOAD_BEARING_REQUIRED_FROM} on record their load-bearing inputs, each "
+            f"re-derived by own code or carried as a hypothesis (WORKING_RULES 2026-10-06): {problems}")
 
 
 def _unquoted(text):
@@ -122,6 +137,17 @@ def test_novelty_wording_rests_on_the_sweep(path):
         pw = json.load(open(path, encoding="utf-8")).get("prior_work") or {}
         assert pw.get("standing") in ("NEW-AS-SWEPT", "EXTENDS") and (pw.get("literature") or {}).get("queries"), (
             f"{path.parent.name}: FINDINGS says {hits} but the recorded standing is {pw.get('standing')!r}")
+
+
+def test_load_bearing_check_can_fail():
+    """The load-bearing record's validator is live in both directions on planted records."""
+    good = [{"id": "LB1", "input": "x", "source": "y", "status": "VERIFIED", "check": "scripts/checks/load_bearing.py",
+             "how": "z"},
+            {"id": "LB2", "input": "x", "source": "y", "status": "CONDITIONAL", "why": "w"}]
+    assert load_bearing.validate(good, {"hypotheses": ["conditional on LB2"]}) == []
+    assert load_bearing.validate(good, {"hypotheses": []}), "an unnamed CONDITIONAL input passed"
+    assert load_bearing.validate([dict(good[0], check="no/such/file.py")]), "a missing check passed"
+    assert load_bearing.validate([]), "an empty record passed"
 
 
 def test_novelty_check_can_fail():

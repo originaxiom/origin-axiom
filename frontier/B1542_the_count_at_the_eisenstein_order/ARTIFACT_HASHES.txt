@@ -1,0 +1,10 @@
+# B1542 -- sha-256 of the sealed files, recorded at the seal (before run.py read any count; the controls K1-K7 read structure,
+# banked values, synthetic rows and the census identification only). identity.py checks every line first.
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1542_the_count_at_the_eisenstein_order/)
+7f952b13f1c61622dc43666de55d09ef8689a13e648942bd5879acfa95c64128  PREREGISTRATION.md
+3004dec09da863d07b8043c81ac351b572d421f074ee8e9fccecac6cc8bb4622  verification/ncyc.py
+89552627d670e4d1a8bb5514627eae20b3f34299239e15df36aac09b963772bf  verification/run.py
+609924080144c46bd48e0163aa4e609e6c98465bf4e7d12873cdade5b7a3adcd  verification/read_out.py
+6aa87b69e37dfd0e568d25ff3775029857023caa1ddceabe425c732db8130c23  verification/controls.py
+61a8ac91b67e1d7bcc586db81d8e317bb29540a4332a96970dbb0b6a3af04986  verification/identity.py
+a9e8ab0da4010256fff06e846b2a71bafb31d6062023227cc12830a24c515d06  verification/controls.json

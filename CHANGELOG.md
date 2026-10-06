@@ -1,5 +1,42 @@
 # Changelog
 
+## B1542 sealed: THE COUNT AT THE EISENSTEIN ORDER — the frame's counts at the classes of H¹(N; ρ) on the four degree-60 covers of m003 with room 3 and 4; and the owner's rule of 2026-10-06 adopted
+
+- **The rule** (WORKING_RULES, 2026-10-06): load-bearing mathematics is re-derived by own code, even when published. The owner:
+  "we should verify all load bearing math even if a published paper, because we cant bet our whole project against some possible
+  errors bugs or mistakes".
+  - Each load-bearing input (a theorem from a paper or an arc, a table, a census value, a library's output) is re-derived by own
+    code on the instances used, or named in the scope's hypotheses.
+  - From B1542, `arc_verdict.json` records them under `load_bearing`. `scripts/checks/load_bearing.py` validates the form and
+    the checks' existence; `tests/test_arc_verdict_schema.py` enforces it, and a selftest plants each failure.
+  - Registered in `docs/PRACTICES.md` (TESTED for the record, MANUAL for the adequacy).
+- **The covers.** The 6-fold cyclic covers of m003's d10.13, d10.16, d10.36 and d10.40 along m003's order-6 fibre-direction
+  character, one from each conjugacy class sm:B1540 found. Their supplies:
+  - (n(1), n(ρ)) = (3, 3) and room 3 on d10.13's and d10.36's covers, with h¹ = 9 = 5 + 4 over the deck group's eigenvalues;
+  - (3, 7) and room 4 on d10.16's and d10.40's, with h¹ = 11 = 5 + 2 + 2 + 2.
+- **The classes.** Three generic draws in every cusp stratum and every non-zero eigenspace with its interior part, plus the
+  class pulled back from m003. Route N reads each class; route R reads it again at p_N and draws its own at p_R. 556 tasks,
+  1,664 readings.
+- **Controls K1–K7 hold**:
+  - each cover is the one sm:B1540 read (canonical forms), with its supplies in both routes;
+  - the class spaces in both routes, and the transport between them;
+  - the generalized library rebuilds sm:B1541's N₄₅, and sm:B1536's Part O code path is reproduced;
+  - the read-out on synthetic rows;
+  - K7, new: the state's group is the census manifold m003's, by subgroup counts to index 7, with m004 as the control that can
+    fail.
+- **The load-bearing inputs**, LB1–LB7, each re-derived by own code. This is the rule's first application.
+- **Predictions**: P4 (generation-shaped) 25%, P5 (three) 8%.
+  - PROVED if a class reads (−3, −3) in two routes at the same class.
+  - NEGATIVE, scoped to the generic classes read, if none is generation-shaped.
+  - Either way, route F re-derives counts before the bank: separate code, a second presentation, three primes, a positive
+    control.
+- **Disclosed**:
+  - the first instruments were lost uncommitted with the container and rewritten (ERROR_LEDGER, the loss);
+  - three draft sentences wider than their support were caught before the seal (ERROR_LEDGER).
+- **sm:B1541**: its banked identity held again in the new container, and its sealed run was repeated from the start (127 tasks,
+  12:11–12:31Z). Its record is committed unread, and its read-out follows this seal.
+- No count read. 0 of 19.
+
 ## B1540 banked: THE ROOM FOR THREE, AT THE GOLDEN AND THE EISENSTEIN ORDERS — room ≥ 3 on seven cyclic covers of m003, read directly (PROVED, not sealed)
 
 - **The census** (`frontier/B1540_the_room_for_three/verification/pulled_back_rooms.py`, banked data only).

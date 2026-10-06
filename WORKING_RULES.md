@@ -478,3 +478,47 @@ line, and `docs/EARLY_RECORD_INDEX.md` for B1–B500. Its record is a FINDINGS s
 **Why the topic sweep is in the procedure.** B1519's first draft described the record's observer line from four July arcs and
 missed the August line (C18's price, the parity law, naming without signing), though 107 of the 109 arcs main's tool returns were
 on this branch. The term sweep had been run on the concept's words; the topic sweep reads every verdict line.
+
+
+## Rule (2026-10-06, the owner's instruction — adopted): LOAD-BEARING MATHEMATICS IS RE-DERIVED BY OWN CODE, EVEN WHEN PUBLISHED
+
+The owner, verbatim: **"we should verify all load bearing math even if a published paper, because we cant bet our whole project
+against some possible errors bugs or mistakes"**.
+
+**What is load-bearing.** An input is load-bearing when a verdict, a count, a cap, an identification or a headline changes if the
+input is false. That covers:
+- a theorem or lemma, from a paper, a textbook or another arc (this seat's own included);
+- a table or census value;
+- a library's output (SnapPy, PARI, FLINT and the like).
+
+**The rule.**
+1. **Re-derive it on the instances used.** Own code re-derives each load-bearing input on every instance the verdict uses, by a
+   route that does not assume it: a second presentation, a direct enumeration, exact arithmetic, or several primes. A general
+   theorem whose instances cannot all be checked is checked wherever the arc uses it, and at a positive control where its
+   conclusion is known by other means.
+2. **Or carry it as a hypothesis.** An input that is not re-derived is named in the scope tag's hypotheses, and the verdict is
+   read as conditional on it. A citation alone supports nothing, however good the source.
+3. **Record it as data.** From B1542 on, every `arc_verdict.json` carries `load_bearing`. Each entry gives the input, its
+   source and its status: VERIFIED, with the repo path of the own check and what it computes, or CONDITIONAL, with why.
+   `tests/test_arc_verdict_schema.py` checks the form, that each check exists, and that each CONDITIONAL input is named in the
+   hypotheses, through `scripts/checks/load_bearing.py`'s `validate()`. Whether a check is adequate stays with the seat and its
+   reviewers.
+4. **When own code and the source disagree,** the verdict is withheld and both are re-read. The disagreement goes to
+   ERROR_LEDGER; if the source is wrong, the error is stated precisely and the source is still credited.
+
+**How it composes with the standing rules.**
+- It extends NO NEGATIVE FROM A BUG (2026-10-01) in two ways: from zeros to every load-bearing input, positive or negative, and
+  from the seat's instruments to the sources they rest on.
+- E4's audit rule ("compute the discriminating fact in-sandbox") becomes standing for cited facts.
+- SEE THE REPO FIRST, THEN THE LITERATURE records a standing for the arc's main result. This rule asks for RE-DERIVED, or an
+  explicit hypothesis, for each input the result rests on.
+
+**First application, the same day (B1542's preregistration).** B1542 reads the counts on four degree-60 covers of m003. It lists
+its load-bearing inputs, and its controls re-derive each one:
+- the covers are the ones sm:B1540 read: canonical forms and supplies, in two routes;
+- the state's group is the census manifold m003: an isometry check, plus subgroup counts by an independent enumerator;
+- Shapiro's lemma: route N, by Shapiro on m003, reads every class again in route R, on the cover's own presentation, at the same
+  prime;
+- Lemma A's eigenspace split: in two routes, with two independent deck actions;
+- the count's identities and Theorem C: checked at every reading;
+- one generic count per subspace: across draws, routes and primes.

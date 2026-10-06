@@ -17649,3 +17649,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Next: sm:B1538's read-out when Part F′ ends; sm:B1541's read-out; then the count on the degree-60 covers, sealed first.
   0 of 19.
 
+
+## 2026-10-06 — the container replaced; the owner's rule adopted; sm:B1541's run repeated; B1542 sealed
+
+- Found on resuming: the seat's container had been replaced. Everything pushed was safe (5869a056); uncommitted work was lost
+  (ERROR_LEDGER, the loss): sm:B1538's bank, sm:B1541's first run record (unread), B1542's pre-seal instruments, a relay draft.
+- The owner's instruction adopted as a rule: load-bearing mathematics is re-derived by own code, even when published
+  (WORKING_RULES, PRACTICES, `scripts/checks/load_bearing.py`, the schema test from B1542).
+- sm:B1541: the banked identity held again (12:11Z); the sealed run repeated from the start, 12:11–12:31Z, rc 0. The record was
+  committed unread before the read-out (0e126a17).
+- B1542 sealed: the counts on the four degree-60 covers of m003 with room 3 and 4. It has controls K1–K7 and the load-bearing
+  inputs LB1–LB7. No count is read yet.
+- Next: sm:B1541's read-out, once; B1542's identity and run; sm:B1538's records regenerated against their sha-256s, then banked.
