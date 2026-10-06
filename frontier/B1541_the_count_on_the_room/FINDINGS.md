@@ -155,8 +155,11 @@ shows that on N₄₅'s generic classes it is not realized either.
 The frame's W at a member ν is [[ν ⊗ ρ, c·ν⁻⁴], [0, ν⁻⁴]] (sm:B1536 §2). Twisting the trivial character's W_c by a character μ
 gives the frame's W at the member μ exactly when μ⁵ = 1. So on a 5-fold cyclic cover along a character of order 5, a class
 pulled back from below has the count Σ_j count(ν₀ μʲ) of the five members below: Shapiro with Mackey at the cusps, as in the
-seal's Proposition P. This is the **golden lift**. It is why the pulled-back class reads (0, 0) here: d9.2's five members
-read (0, 0). By the same argument, the ζ⁰ eigenspace's generic counts are the sums of d9.2's generic counts at its five
+seal's Proposition P. This is the **golden lift**. The identity under it is this seat's, used twice before: sm:B1534's Lemma Q (members at
+κ ∈ μ₁₀ are listed members twisted by ε of order 5) and sm:B1532's post-run check (W₁(ν₀ε) = W₁(ν₀) ⊗ ε, on the abelian
+covers of m004's levels). This arc states it for any 5-fold cyclic cover along a member (credit noted 2026-10-06, after a
+sweep of this seat's relays found it). It is
+why the pulled-back class reads (0, 0) here: d9.2's five members read (0, 0). By the same argument, the ζ⁰ eigenspace's generic counts are the sums of d9.2's generic counts at its five
 members; that sum is not read here. At any other order the twisted pieces leave the frame (sm:B1542's seal, §3).
 
 ### 5.3 Where three could still be

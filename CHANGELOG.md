@@ -21,7 +21,8 @@
   - Three other primes.
   - It returns the run's count at all 54 of its readings, every one non-zero, and N₄₅'s structure at every prime.
 - **The golden lift** (FINDINGS §5.2). The frame is closed under twisting by μ exactly when μ⁵ = 1. So on a 5-fold cyclic cover,
-  a pulled-back class counts as the sum of its five members below.
+  a pulled-back class counts as the sum of its five members below. The identity is the one sm:B1534's Lemma Q and sm:B1532's
+  post-run check used; the credit was added the same hour (ERROR_LEDGER).
 - **Disclosed**:
   - the first run lost unread;
   - the seal did not name its independent route (ERROR_LEDGER, rule slip);
