@@ -1,0 +1,65 @@
+{
+ "cusp words commute on S": "3.06e-57",
+ "obstruction": {
+  "first_order_residual": "3.25e-58",
+  "norm_Q": "4390.18",
+  "rank_L": 20,
+  "residual": "1.77e-57"
+ },
+ "newton_residuals": [
+  "0.211",
+  "0.00807",
+  "8.23e-8",
+  "1.51e-15",
+  "6.4e-34",
+  "4.18e-57"
+ ],
+ "distance_from_S": "0.129312",
+ "commutant_dim": 1,
+ "commutant_gap": "2.139e+58",
+ "invariant_line, dual_invariant_line": [
+  0,
+  0
+ ],
+ "traces": {
+  "m": "(-2.99510867429 + 0.0j)",
+  "n": "(-2.99510867429 + 0.0j)",
+  "mn": "(40.9494423336 + 0.0j)",
+  "mN": "(3.99815162725 + 0.0j)"
+ },
+ "I_mixed": {
+  "I": 0,
+  "E": {
+   "a0": 0,
+   "a1": 0,
+   "t0": 0,
+   "r1": 0,
+   "n": 0
+  },
+  "Edual": {
+   "a0": 0,
+   "a1": 0,
+   "t0": 0,
+   "r1": 0,
+   "n": 0
+  }
+ },
+ "I_split": {
+  "I": 0,
+  "E": {
+   "a0": 1,
+   "a1": 2,
+   "t0": 1,
+   "r1": 1,
+   "n": 1
+  },
+  "Edual": {
+   "a0": 1,
+   "a1": 2,
+   "t0": 1,
+   "r1": 1,
+   "n": 1
+  }
+ },
+ "control_pass": true
+}

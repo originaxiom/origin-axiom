@@ -1,0 +1,82 @@
+{
+ "c alone (3 generators, 2 relators)": {
+  "first_order_residual": "2.15e-47",
+  "rank_L": 45,
+  "residual": "0.0"
+ },
+ "W: numeric vs exact": {
+  "numeric": {
+   "I": 0,
+   "E": {
+    "a0": 0,
+    "a1": 1,
+    "t0": 1,
+    "r1": 1,
+    "n": 0
+   },
+   "Edual": {
+    "a0": 1,
+    "a1": 2,
+    "t0": 2,
+    "r1": 2,
+    "n": 0
+   }
+  },
+  "exact": {
+   "I": 0,
+   "E": {
+    "a0": 0,
+    "a1": 1,
+    "t0": 1,
+    "r1": 1,
+    "n": 0
+   },
+   "Edual": {
+    "a0": 1,
+    "a1": 2,
+    "t0": 2,
+    "r1": 2,
+    "n": 0
+   }
+  },
+  "agree": true
+ },
+ "L2W: numeric vs exact": {
+  "numeric": {
+   "I": 0,
+   "E": {
+    "a0": 0,
+    "a1": 3,
+    "t0": 2,
+    "r1": 3,
+    "n": 0
+   },
+   "Edual": {
+    "a0": 0,
+    "a1": 2,
+    "t0": 3,
+    "r1": 2,
+    "n": 0
+   }
+  },
+  "exact": {
+   "I": 0,
+   "E": {
+    "a0": 0,
+    "a1": 3,
+    "t0": 2,
+    "r1": 3,
+    "n": 0
+   },
+   "Edual": {
+    "a0": 0,
+    "a1": 2,
+    "t0": 3,
+    "r1": 2,
+    "n": 0
+   }
+  },
+  "agree": true
+ },
+ "control_pass": true
+}
