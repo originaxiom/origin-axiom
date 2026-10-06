@@ -107,7 +107,7 @@ I(W) ≥ −2 (in fact ≥ −1). **NEGATIVE.**
 - **The squares plus a cusp stratum.** There k = 3, r = 1 and s = 3, so I(W) = 0. Theorem C's form gives a − e = 0. Three
   would have needed s = 6.
 - **The Λ² side.** Route R's connecting rank for Λ²W is 0 at every class read, and its dual's is 8 to 10.
-  - At every reading, I(Λ²W) = k minus the dual rank.
+  - I(Λ²W) is k minus the dual rank. Both facts are sm:B1536's identities, which route R checks at every reading.
   - Three needs I(Λ²W) = −3, and the low-rank classes sit at −7 to −10.
 - **The deck group and the mirror.** The ten X:S read one count, so the two τ-orbits of three-cusp sets agree, as the lifted
   mirror predicts. Galois-conjugate lines read alike.
