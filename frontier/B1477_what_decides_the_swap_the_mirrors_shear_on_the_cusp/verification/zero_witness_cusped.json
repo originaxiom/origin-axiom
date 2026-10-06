@@ -1,0 +1,427 @@
+{
+ "m136": {
+  "name": "m136",
+  "h1": "Z/2 + Z/2 + Z",
+  "n_spin": 8,
+  "L": 5,
+  "n_tau": 40,
+  "partner_failures": 0,
+  "invariant": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "exists": true,
+  "geometric_lift_fixed": false,
+  "spectrum_geodesics": 35,
+  "spectrum_n_spin": 8,
+  "spectrum_symmetric": 4,
+  "spectrum_rows": [
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    false,
+    24,
+    0.88137358701954
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    false,
+    24,
+    0.88137358701954
+   ],
+   [
+    false,
+    24,
+    0.88137358701954
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    false,
+    24,
+    0.88137358701954
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "EXISTS",
+  "kind": "cusped"
+ },
+ "s464": {
+  "name": "s464",
+  "h1": "Z/3 + Z/3 + Z",
+  "n_spin": 2,
+  "L": 5,
+  "n_tau": 40,
+  "partner_failures": 0,
+  "invariant": [
+   [
+    1,
+    -1,
+    1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "exists": true,
+  "geometric_lift_fixed": true,
+  "spectrum_geodesics": 34,
+  "spectrum_n_spin": 2,
+  "spectrum_symmetric": 2,
+  "spectrum_rows": [
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "EXISTS",
+  "kind": "cusped"
+ },
+ "s726": {
+  "name": "s726",
+  "h1": "Z",
+  "n_spin": 2,
+  "L": 6,
+  "n_tau": 40,
+  "partner_failures": 0,
+  "invariant": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "exists": true,
+  "geometric_lift_fixed": true,
+  "spectrum_geodesics": 44,
+  "spectrum_n_spin": 2,
+  "spectrum_symmetric": 2,
+  "spectrum_rows": [
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "EXISTS",
+  "kind": "cusped"
+ },
+ "s880": {
+  "name": "s880",
+  "h1": "Z/2 + Z + Z",
+  "n_spin": 8,
+  "L": 5,
+  "n_tau": 40,
+  "partner_failures": 0,
+  "invariant": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    1
+   ],
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "exists": true,
+  "geometric_lift_fixed": false,
+  "spectrum_geodesics": 34,
+  "spectrum_n_spin": 8,
+  "spectrum_symmetric": 4,
+  "spectrum_rows": [
+   [
+    false,
+    48,
+    0.4990507375018808
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    false,
+    48,
+    0.4990507375018808
+   ],
+   [
+    false,
+    48,
+    0.4990507375018808
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    false,
+    48,
+    0.4990507375018808
+   ]
+  ],
+  "verdict": "EXISTS",
+  "kind": "cusped"
+ },
+ "s882": {
+  "name": "s882",
+  "h1": "Z/3 + Z",
+  "n_spin": 2,
+  "L": 5,
+  "n_tau": 40,
+  "partner_failures": 0,
+  "invariant": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "exists": true,
+  "geometric_lift_fixed": true,
+  "spectrum_geodesics": 39,
+  "spectrum_n_spin": 2,
+  "spectrum_symmetric": 2,
+  "spectrum_rows": [
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "EXISTS",
+  "kind": "cusped"
+ },
+ "s883": {
+  "name": "s883",
+  "h1": "Z + Z",
+  "n_spin": 4,
+  "L": 5,
+  "n_tau": 40,
+  "partner_failures": 0,
+  "invariant": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ]
+  ],
+  "exists": true,
+  "geometric_lift_fixed": false,
+  "spectrum_geodesics": 32,
+  "spectrum_n_spin": 4,
+  "spectrum_symmetric": 2,
+  "spectrum_rows": [
+   [
+    false,
+    32,
+    1.179966023924562
+   ],
+   [
+    false,
+    32,
+    1.179966023924562
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "EXISTS",
+  "kind": "cusped"
+ },
+ "s892": {
+  "name": "s892",
+  "h1": "Z/13 + Z",
+  "n_spin": 2,
+  "L": 5,
+  "n_tau": 16,
+  "partner_failures": 0,
+  "invariant": [
+   [
+    1,
+    1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "exists": true,
+  "geometric_lift_fixed": true,
+  "spectrum_geodesics": 40,
+  "spectrum_n_spin": 2,
+  "spectrum_symmetric": 2,
+  "spectrum_rows": [
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "EXISTS",
+  "kind": "cusped"
+ },
+ "s912": {
+  "name": "s912",
+  "h1": "Z",
+  "n_spin": 2,
+  "L": 7,
+  "n_tau": 0,
+  "partner_failures": 0,
+  "invariant": [],
+  "exists": false,
+  "geometric_lift_fixed": false,
+  "spectrum_geodesics": 50,
+  "spectrum_n_spin": 2,
+  "spectrum_symmetric": 2,
+  "spectrum_rows": [
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "UNDECIDED",
+  "kind": "cusped"
+ },
+ "s948": {
+  "name": "s948",
+  "h1": "Z + Z",
+  "n_spin": 4,
+  "L": 7,
+  "n_tau": 0,
+  "partner_failures": 0,
+  "invariant": [],
+  "exists": false,
+  "geometric_lift_fixed": false,
+  "spectrum_geodesics": 34,
+  "spectrum_n_spin": 4,
+  "spectrum_symmetric": 4,
+  "spectrum_rows": [
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ],
+   [
+    true,
+    0,
+    null
+   ]
+  ],
+  "verdict": "UNDECIDED",
+  "kind": "cusped"
+ }
+}

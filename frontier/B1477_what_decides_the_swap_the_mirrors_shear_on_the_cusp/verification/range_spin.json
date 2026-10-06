@@ -1,0 +1,7076 @@
+[
+{
+"name": "m004",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "m003",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "m206",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "m136",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+false,
+true,
+false,
+true,
+true,
+false,
+true,
+false
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "m135",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "m207",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "s463",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/13 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "s464",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "s725",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/17 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "s881",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/15 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "s882",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "s726",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "s891",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/17 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "s892",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/13 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "s912",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "s911",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/13 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "s957",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/4 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "s955",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/20 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "s960",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/10 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "s961",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 8,
+"torsion_rows": [
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 8,
+"spectrum_n_spin": 8
+},
+{
+"name": "v3102",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/3 + Z/6 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 20,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "v3103",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 24,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "t05927",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/25 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "t05928",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t03910",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+false,
+false,
+false,
+false,
+true,
+true
+],
+"spectrum_geodesics": 22,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t03911",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/10 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "t07733",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/37 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "t09252",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/29 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "t08107",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/20 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "t07734",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t09253",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/25 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t08108",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+false,
+true,
+true,
+false,
+true,
+false,
+false,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t10425",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/10 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 24,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "t10805",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 19,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12034",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+false,
+false,
+false,
+false,
+true,
+true
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t10426",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/26 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 20,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "t12043",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+false,
+false,
+true,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 22,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12050",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z/8 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+false,
+true,
+false,
+true,
+true,
+false,
+true,
+false
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12063",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion": "H_1 rank 2",
+"spectrum_geodesics": 9,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "t12051",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/6 + Z/6 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12062",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion": "H_1 rank 2",
+"spectrum_geodesics": 19,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "t12045",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z/2 + Z",
+"n_spin": 16,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 8,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+true,
+true,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 16
+},
+{
+"name": "t12071",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12545",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+true,
+true,
+false,
+false,
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "t12546",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12547",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/20 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12587",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12548",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/6 + Z/6 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+false,
+false,
+true,
+true,
+false,
+false,
+true,
+true
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12639",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/8 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 19,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "t12640",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+false,
+false,
+true,
+true,
+false,
+false
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12641",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/10 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 19,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "t12766",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/7 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12648",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/37 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12649",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/41 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12771",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12819",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/9 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o9_35326",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 22,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12838",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/7 + Z/7 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "t12839",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/15 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o9_36482",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o9_35327",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/41 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o9_37643",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 21,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o9_40736",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/13 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o9_40737",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/29 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_029742",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/29 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o9_43569",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+false,
+false,
+true
+],
+"spectrum_geodesics": 13,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_029743",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_044750",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/41 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_044749",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_050362",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+false,
+true,
+false,
+false,
+true,
+false,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_050363",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/26 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_053616",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_053617",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/61 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_055804",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/73 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_055803",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_054392",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/65 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_054391",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_060328",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+false,
+false,
+true,
+true,
+true,
+true,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_071471",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/3 + Z/15 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 20,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_060852",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/109 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_060329",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/52 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_060851",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_071472",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/41 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 20,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_085504",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/25 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_085947",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/34 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_085946",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/50 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_094742",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/53 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_087705",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/40 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 9,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_094305",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/51 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_094743",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/17 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_113687",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+false,
+false,
+true
+],
+"spectrum_geodesics": 19,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_100243",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/29 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_100242",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/65 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_117640",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_117641",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/65 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 9,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_120075",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/4 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_120394",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/65 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_120076",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/8 + Z/8 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 8,
+"torsion_rows": [
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 8,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_120077",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/34 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 8,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_120078",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/68 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_120395",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/61 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_121902",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_125815",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_124310",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_121903",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/87 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_128091",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/8 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_128172",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/34 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+true,
+true,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_128090",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/26 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_128092",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/6 + Z/6 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+false,
+false,
+true,
+true,
+false,
+false,
+true,
+true
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_128534",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/3 + Z/15 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_128535",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/29 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_132113",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion": "H_1 rank 2",
+"spectrum_geodesics": 13,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_128173",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/6 + Z/12 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_132112",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion": "H_1 rank 2",
+"spectrum_geodesics": 13,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_132307",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 13,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_134228",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/6 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 25,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_134229",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 21,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_135944",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/53 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_135945",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/37 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_136007",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/8 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 18,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_136013",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 19,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_137895",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/9 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_138650",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/29 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_138649",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_138760",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+false,
+true,
+false,
+true,
+false,
+true,
+false
+],
+"spectrum_geodesics": 7,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_138762",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/12 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_138761",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/20 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_140661",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_138844",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/8 + Z",
+"n_spin": 4,
+"signs": [
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+false,
+true,
+true,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_140953",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/11 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_139132",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+false,
+true,
+false,
+false,
+true,
+false,
+true
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_142150",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 8,
+"torsion_rows": [
+true,
+true,
+true,
+true,
+true,
+true,
+true,
+true
+],
+"spectrum_geodesics": 7,
+"spectrum_symmetric": 8,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_140085",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/4 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+false,
+false,
+false,
+false,
+true,
+true
+],
+"spectrum_geodesics": 6,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_142152",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/12 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_141596",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_142151",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/26 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_142539",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/6 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+false,
+false,
+true,
+false,
+true,
+true,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_143182",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/85 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_142870",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/12 + Z",
+"n_spin": 4,
+"signs": [
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+false,
+false,
+true,
+true
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_143183",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/9 + Z/9 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_142752",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 6,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_143229",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_143319",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 13,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_143320",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_143848",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/17 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 26,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_143230",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/25 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_143849",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_145015",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_145300",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 21,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_145054",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion": "H_1 rank 2",
+"spectrum_geodesics": 11,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_146251",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/6 + Z",
+"n_spin": 4,
+"signs": [
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+false,
+true,
+false,
+true
+],
+"spectrum_geodesics": 15,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_146131",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/10 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_146393",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/5 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_146394",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_146417",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/89 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_146418",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/85 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 10,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_146653",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/26 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_146943",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 13,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_146654",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/10 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_148196",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/26 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 24,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_147437",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/11 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_148826",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/6 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+false,
+false,
+false,
+false,
+true,
+true
+],
+"spectrum_geodesics": 22,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_148178",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/13 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_148961",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/12 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+true,
+false,
+false,
+false,
+false,
+true,
+true
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_148447",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/10 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+false,
+false,
+true
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_149483",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/14 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+false,
+false,
+true
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_149200",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+false,
+true,
+true,
+false,
+true,
+false,
+false,
+true
+],
+"spectrum_geodesics": 25,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_149515",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z/6 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_149516",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/34 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 4,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false
+],
+"spectrum_geodesics": 8,
+"spectrum_symmetric": 0,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_149550",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/101 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_149551",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/97 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_150404",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 17,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_150081",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/2 + Z/52 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 8,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_150554",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/4 + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": false,
+"n_L_plus": 2,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+false,
+false,
+true
+],
+"spectrum_geodesics": 16,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_150688",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/3 + Z + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion": "H_1 rank 2",
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_150082",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/50 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+false,
+true,
+false,
+true,
+false,
+true,
+false
+],
+"spectrum_geodesics": 12,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_150652",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/15 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"spectrum_geodesics": 14,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 2
+},
+{
+"name": "o10_150707",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/2 + Z/2 + Z",
+"n_spin": 8,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 4,
+"torsion_rows": [
+true,
+false,
+true,
+false,
+true,
+false,
+true,
+false
+],
+"spectrum_geodesics": 11,
+"spectrum_symmetric": 4,
+"spectrum_n_spin": 8
+},
+{
+"name": "o10_150716",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z + Z",
+"n_spin": 4,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion": "H_1 rank 2",
+"spectrum_geodesics": 13,
+"spectrum_symmetric": 2,
+"spectrum_n_spin": 4
+},
+{
+"name": "o10_150695",
+"rhombic": true,
+"k_parity_exact": 1,
+"k_parity_geometric": 1,
+"cs_class": "quarter",
+"h1": "Z/5 + Z/25 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+-2.0
+],
+[
+-2.0,
+2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 2,
+"torsion_real": 0,
+"torsion_rows": [
+false,
+false
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+},
+{
+"name": "o10_150696",
+"rhombic": false,
+"k_parity_exact": 0,
+"k_parity_geometric": 0,
+"cs_class": "zero",
+"h1": "Z/11 + Z/11 + Z",
+"n_spin": 2,
+"signs": [
+[
+-2.0,
+2.0
+],
+[
+-2.0,
+-2.0
+]
+],
+"all_L_minus": true,
+"n_L_plus": 0,
+"theoremA_certifies": 0,
+"torsion_real": 2,
+"torsion_rows": [
+true,
+true
+],
+"error_spectrum": "RuntimeError('The Dirichlet construction failed.')"
+}
+]

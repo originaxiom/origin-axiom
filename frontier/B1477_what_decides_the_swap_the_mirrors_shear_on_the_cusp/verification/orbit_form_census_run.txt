@@ -1,0 +1,286 @@
+range: 283 todo: 283
+m003           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+... 0 of 283
+m004           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+m135           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+m136           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+m203           cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+m206           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+m207           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s463           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s464           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+s596           cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+s725           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s726           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+s880           cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+s881           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s882           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+s883           cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+s891           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s892           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+s911           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s912           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+s948           cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+s955           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s957           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s960           cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+s961           cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+v3102          cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+v3103          cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t03910         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t03911         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t05927         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t05928         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t06829         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+t07527         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+t07733         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t07734         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t08107         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t08108         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t08558         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+t08914         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+t09133         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+t09252         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t09253         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t09407         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+t09610         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+t09812         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+t10425         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t10426         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t10805         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12034         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12039         cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 3)]  LAW True
+t12043         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12044         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+t12045         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12046         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((1, 1), 2), ((2,), 0)]  LAW True
+t12047         cusps 4 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1, 1, 1), 2), ((1, 1, 2), 0), ((1, 1, 2), 2), ((2, 2), 0)]  LAW True
+t12049         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+t12050         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12051         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12052         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+t12053         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2)]  LAW True
+t12054         cusps 2 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1), 1)]  LAW True
+t12060         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+t12062         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12063         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12065         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+t12066         cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 1), ((1, 2), 1)]  LAW True
+t12067         cusps 3 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: True  patterns [((1, 1, 1), 0), ((1, 2), 0), ((3,), 0)]  LAW True
+t12071         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12545         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12546         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12547         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12548         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12587         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12639         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12640         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12641         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12648         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12649         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12766         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12771         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12819         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12838         cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+t12839         cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+t12840         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+t12841         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+t12842         cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o9_35326       cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o9_35327       cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o9_35879       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o9_36482       cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o9_36483       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o9_37341       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o9_37643       cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o9_39412       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o9_40444       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o9_40736       cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o9_40737       cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o9_41934       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o9_43569       cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o9_44008       cusps 2 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1), 1)]  LAW True
+o9_44009       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2)]  LAW True
+o9_44010       cusps 3 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1, 1), 2), ((1, 2), 0)]  LAW True
+o9_44012       cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 3), ((1, 2), 1)]  LAW True
+o9_44156       cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_029742     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_029743     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_044749     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_044750     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_048254     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_050361     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_050362     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_050363     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_053616     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_053617     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_054391     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_054392     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_055803     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_055804     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_056334     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_057187     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_060095     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_060328     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_060329     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_060623     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_060851     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_060852     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_061070     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_061490     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_062106     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_062405     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_063046     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_063103     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_063331     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_063416     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_064662     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_064900     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_071471     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_071472     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_085504     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_085946     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_085947     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_087705     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_094305     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_094742     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_094743     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_100242     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_100243     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_113687     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_117640     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_117641     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_120075     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_120076     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_120077     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_120078     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_120394     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_120395     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_121902     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_121903     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_124310     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_125815     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_127318     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_128090     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_128091     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_128092     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_128172     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_128173     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_128534     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_128535     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_132112     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_132113     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_132114     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_132115     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_132116     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_132120     cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 3)]  LAW True
+o10_132123     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_132307     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_133572     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_134228     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_134229     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_135944     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_135945     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_136007     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_136013     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_137895     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_138649     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_138650     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_138760     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_138761     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_138762     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_138844     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_139132     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_140085     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_140219     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_140224     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_140231     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_140661     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_140953     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_141596     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_142143     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_142150     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_142151     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_142152     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_142539     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_142752     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_142870     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_143182     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_143183     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_143229     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_143230     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_143319     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_143320     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_143601     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_143602     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 2), ((2,), 0)]  LAW True
+o10_143848     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_143849     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_145015     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_145053     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_145054     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_145055     cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 3)]  LAW True
+o10_145056     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_145057     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_145058     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_145300     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_146131     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_146251     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_146393     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_146394     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_146417     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_146418     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_146653     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_146654     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_146943     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_147437     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_148155     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_148178     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_148195     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_148196     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_148447     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_148826     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_148961     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_149200     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_149483     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_149515     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_149516     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_149550     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_149551     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_149759     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_149760     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_149761     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_149900     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_149901     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_149903     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_149904     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_150081     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_150082     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150096     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_150097     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_150404     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150554     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150578     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_150579     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_150580     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((2,), 0)]  LAW True
+o10_150652     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150684     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_150685     cusps 3 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 2), 0)]  LAW True
+o10_150688     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150693     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_150695     cusps 1 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1,), 1)]  LAW True
+o10_150696     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150704     cusps 4 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1, 1, 1), 4), ((2, 2), 0)]  LAW True
+o10_150706     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0), ((2,), 0)]  LAW True
+o10_150707     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150708     cusps 2 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1), 1)]  LAW True
+o10_150710     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_150716     cusps 1 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1,), 0)]  LAW True
+o10_150717     cusps 3 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1, 1), 0), ((1, 2), 0)]  LAW True
+o10_150718     cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 1), ((1, 2), 1)]  LAW True
+o10_150722     cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 1)]  LAW True
+o10_150723     cusps 2 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1), 0)]  LAW True
+o10_150725     cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 3), ((1, 2), 1)]  LAW True
+o10_150727     cusps 4 CS zero     orbit parity 0     (sealed form 0    ) odd orbits>1: False patterns [((1, 1, 1, 1), 2), ((1, 1, 2), 0)]  LAW True
+o10_150728     cusps 3 CS quarter  orbit parity 1     (sealed form 1    ) odd orbits>1: False patterns [((1, 1, 1), 1), ((1, 2), 1)]  LAW True
+o10_150729     cusps 5 CS quarter  orbit parity 1     (sealed form MIXED) odd orbits>1: True  patterns [((1, 1, 1, 2), 3), ((1, 4), 1), ((2, 3), 1)]  LAW True
+DONE

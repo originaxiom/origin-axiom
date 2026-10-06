@@ -1,0 +1,18 @@
+{
+ "id": "B1477",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": ["B1476", "B1475", "B1474", "B1239", "B1471"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI: the mirror's action on spin structures (SL(2,C) lifts), on the cusp lattice, and the Chern-Simons class",
+  "object": "the installed orientable cusped census (212,641 manifolds; 283 amphichiral, 181 one-cusped) and the multi-component link exteriors of HTLinkExteriors (120,574; 922 amphichiral); B1476's zero-class lists (9 cusped, 37 closed)",
+  "reach": "general",
+  "hypotheses": "Theorems A and B are proved for the record's definition of a mirror fixing a spin structure (C conj(rho_s) C^-1 = rho_s o tau); the shear law is a census law on the manifolds read and conjectural beyond; SnapPy's isometry lists taken as complete; numerics (HP holonomy, traces to 1e-6, torsion to 1e-9) except the integer cusp maps; 1,037 link exteriors and 17 spectra unread"
+ },
+ "claim_one_line": "WHAT DECIDES THE SWAP (L246; first seal 673e52be5 / 31acad53, second seal 1e11c51ce / ea209e9d). THEOREM A (proved): an isometry preserving a cusp and fixing a spin structure preserves the peripheral sign character tr rho_s / 2; a mirror acts on an invariant cusp torus by a rectangular or a rhombic involution, and a rhombic mirror fixes no spin structure whose fixed peripheral class has trace -2. On all 75 one-cusped amphichiral census manifolds at CS = 1/4 the mirror is rhombic and the longitude's trace is -2 on every lift (P2, 75 of 75), so no spin structure survives any mirror there -- 292 of 292, by proof. THE SHEAR LAW, graded lower: its sealed form (CS = 1/4 x #rhombic invariant cusps, for every reversing isometry) was KILLED on one manifold, o10_150729, where a mirror moves three cusps in a cycle (the registered kill; 282 of 283); its one-cusped form holds on 181 of 181; its orbit form (odd cusp-orbits on which f^l is rhombic), written after the kill and sealed a second time, holds on the census's 283 of 283 and on 922 of 922 amphichiral multi-component link exteriors not opened before, nine of which break the sealed sentence -- a census law on 1,205 manifolds, conjectural beyond; B1239's swap corollary shares the hidden hypothesis and is corrected by addendum; L194's cusp-local conjecture is contained in the law. EXISTENCE AT ZERO: 'a mirror-invariant spin structure exists <=> CS = 0' is KILLED -- seven zero-class one-cusped members (v3103 first) and 15 of 37 closed amphichiral manifolds (m082(1,3) first) have none, certified by non-real torsion or an asymmetric spin-signed trace spectrum (P4 and P6 fail; P3 and P5 hold). THEOREM B (post-seal, proved): an odd number of rotation-pi geodesics at some length forbids every mirror-invariant spin structure -- 39 of 39 odd-count manifolds are certified none, no violation on 110 others; it explains 11 of the 15 closed cases and leaves a named residue. The family has seven rhombic members and six rectangular; A5 selected a rectangular one. One bit, no count, no value. 0 of 19."
+}

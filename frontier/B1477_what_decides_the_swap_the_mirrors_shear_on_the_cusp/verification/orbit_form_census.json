@@ -1,0 +1,6432 @@
+{
+"summary": {
+"range": 283,
+"exceptions": [],
+"odd_orbit_longer_than_one": [
+"t12067",
+"o10_150729"
+],
+"sealed_form_mixed": [
+"o10_150729"
+]
+},
+"rows": [
+{
+"name": "m003",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "m004",
+"cusps": 1,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "m135",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "m136",
+"cusps": 1,
+"cs": 5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "m203",
+"cusps": 2,
+"cs": 2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "m206",
+"cusps": 1,
+"cs": 4.274586216555893e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "m207",
+"cusps": 1,
+"cs": 0.2500000000000005,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s463",
+"cusps": 1,
+"cs": 0.24999999999999983,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s464",
+"cusps": 1,
+"cs": 1.0124019986579746e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "s596",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "s725",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s726",
+"cusps": 1,
+"cs": -1.3498693315439662e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "s880",
+"cusps": 2,
+"cs": -2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "s881",
+"cusps": 1,
+"cs": 0.24999999999999986,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s882",
+"cusps": 1,
+"cs": -4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "s883",
+"cusps": 2,
+"cs": 2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "s891",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s892",
+"cusps": 1,
+"cs": -2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "s911",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s912",
+"cusps": 1,
+"cs": -3.3746733288599154e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "s948",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "s955",
+"cusps": 1,
+"cs": 0.25000000000000067,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s957",
+"cusps": 1,
+"cs": 0.24999999999999986,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s960",
+"cusps": 1,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 12,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "s961",
+"cusps": 1,
+"cs": 9.899041764655752e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 12,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "v3102",
+"cusps": 1,
+"cs": 0.2500000000000003,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "v3103",
+"cusps": 1,
+"cs": -1.1248911096199718e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t03910",
+"cusps": 1,
+"cs": 3.59965155078391e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t03911",
+"cusps": 1,
+"cs": 0.24999999999999983,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t05927",
+"cusps": 1,
+"cs": 0.24999999999999958,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t05928",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t06829",
+"cusps": 2,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t07527",
+"cusps": 2,
+"cs": 2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t07733",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t07734",
+"cusps": 1,
+"cs": 6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t08107",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t08108",
+"cusps": 1,
+"cs": -2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t08558",
+"cusps": 2,
+"cs": 3.3746733288599154e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t08914",
+"cusps": 2,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t09133",
+"cusps": 2,
+"cs": -2.2497822192399436e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t09252",
+"cusps": 1,
+"cs": 0.25000000000000033,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t09253",
+"cusps": 1,
+"cs": 2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t09407",
+"cusps": 2,
+"cs": -2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t09610",
+"cusps": 2,
+"cs": 1.1248911096199718e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t09812",
+"cusps": 2,
+"cs": 4.499564438479887e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t10425",
+"cusps": 1,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t10426",
+"cusps": 1,
+"cs": 0.2500000000000002,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t10805",
+"cusps": 1,
+"cs": -1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12034",
+"cusps": 1,
+"cs": 7.874237767339803e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12039",
+"cusps": 3,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+3
+]
+]
+},
+{
+"name": "t12043",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12044",
+"cusps": 2,
+"cs": 2.0248039973159492e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t12045",
+"cusps": 1,
+"cs": 2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12046",
+"cusps": 2,
+"cs": 5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 16,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t12047",
+"cusps": 4,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 32,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1,
+1
+],
+2
+],
+[
+[
+1,
+1,
+2
+],
+0
+],
+[
+[
+1,
+1,
+2
+],
+2
+],
+[
+[
+2,
+2
+],
+0
+],
+[
+[
+4
+],
+0
+]
+]
+},
+{
+"name": "t12049",
+"cusps": 2,
+"cs": -6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "t12050",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12051",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12052",
+"cusps": 2,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "t12053",
+"cusps": 2,
+"cs": 6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+]
+]
+},
+{
+"name": "t12054",
+"cusps": 2,
+"cs": 0.2500000000000003,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+1
+]
+]
+},
+{
+"name": "t12060",
+"cusps": 2,
+"cs": 4.724542660403882e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t12062",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12063",
+"cusps": 1,
+"cs": -1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12065",
+"cusps": 2,
+"cs": -8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t12066",
+"cusps": 3,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+1
+],
+[
+[
+1,
+2
+],
+1
+]
+]
+},
+{
+"name": "t12067",
+"cusps": 3,
+"cs": 1.4623584425059633e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 24,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": true,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+0
+],
+[
+[
+1,
+2
+],
+0
+],
+[
+[
+3
+],
+0
+]
+]
+},
+{
+"name": "t12071",
+"cusps": 1,
+"cs": -1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12545",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12546",
+"cusps": 1,
+"cs": 0.24999999999999983,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12547",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12548",
+"cusps": 1,
+"cs": 4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12587",
+"cusps": 1,
+"cs": -3.3746733288599154e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12639",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12640",
+"cusps": 1,
+"cs": 3.3746733288599154e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12641",
+"cusps": 1,
+"cs": 0.25000000000000006,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12648",
+"cusps": 1,
+"cs": 7.874237767339803e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12649",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12766",
+"cusps": 1,
+"cs": 6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12771",
+"cusps": 1,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12819",
+"cusps": 1,
+"cs": -1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12838",
+"cusps": 1,
+"cs": 0.24999999999999986,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 16,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "t12839",
+"cusps": 1,
+"cs": -3.824629772707904e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 16,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "t12840",
+"cusps": 2,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "t12841",
+"cusps": 2,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "t12842",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_35326",
+"cusps": 1,
+"cs": 4.949520882327876e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o9_35327",
+"cusps": 1,
+"cs": 0.2500000000000002,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o9_35879",
+"cusps": 2,
+"cs": -6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_36482",
+"cusps": 1,
+"cs": 0.25000000000000017,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o9_36483",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_37341",
+"cusps": 2,
+"cs": -3.3746733288599154e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_37643",
+"cusps": 1,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o9_39412",
+"cusps": 2,
+"cs": 1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_40444",
+"cusps": 2,
+"cs": 1.4623584425059633e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_40736",
+"cusps": 1,
+"cs": 2.1372931082779464e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o9_40737",
+"cusps": 1,
+"cs": 0.25000000000000017,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o9_41934",
+"cusps": 2,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_43569",
+"cusps": 1,
+"cs": 2.6997386630879323e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o9_44008",
+"cusps": 2,
+"cs": 0.2500000000000006,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+1
+]
+]
+},
+{
+"name": "o9_44009",
+"cusps": 2,
+"cs": 1.4623584425059633e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+]
+]
+},
+{
+"name": "o9_44010",
+"cusps": 3,
+"cs": 2.1372931082779464e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+2
+],
+[
+[
+1,
+2
+],
+0
+]
+]
+},
+{
+"name": "o9_44012",
+"cusps": 3,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+3
+],
+[
+[
+1,
+2
+],
+1
+]
+]
+},
+{
+"name": "o9_44156",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_029742",
+"cusps": 1,
+"cs": 0.25000000000000094,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_029743",
+"cusps": 1,
+"cs": 4.38707532751789e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_044749",
+"cusps": 1,
+"cs": 5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_044750",
+"cusps": 1,
+"cs": 0.24999999999999986,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_048254",
+"cusps": 2,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_050361",
+"cusps": 2,
+"cs": -6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_050362",
+"cusps": 1,
+"cs": -2.1372931082779464e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_050363",
+"cusps": 1,
+"cs": 0.24999999999999942,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_053616",
+"cusps": 1,
+"cs": 5.062009993289874e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_053617",
+"cusps": 1,
+"cs": 0.25000000000000033,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_054391",
+"cusps": 1,
+"cs": -2.1372931082779464e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_054392",
+"cusps": 1,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_055803",
+"cusps": 1,
+"cs": -4.837031771365879e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_055804",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_056334",
+"cusps": 2,
+"cs": -1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_057187",
+"cusps": 2,
+"cs": 1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_060095",
+"cusps": 2,
+"cs": -1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_060328",
+"cusps": 1,
+"cs": 7.761748656377806e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_060329",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_060623",
+"cusps": 2,
+"cs": -2.1372931082779464e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_060851",
+"cusps": 1,
+"cs": 1.4623584425059633e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_060852",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_061070",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_061490",
+"cusps": 2,
+"cs": 5.062009993289874e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_062106",
+"cusps": 2,
+"cs": 1.079895465235173e-15,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_062405",
+"cusps": 2,
+"cs": 2.0248039973159492e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_063046",
+"cusps": 2,
+"cs": -2.6997386630879323e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_063103",
+"cusps": 2,
+"cs": -7.19930310156782e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_063331",
+"cusps": 2,
+"cs": 5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_063416",
+"cusps": 2,
+"cs": 4.724542660403882e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_064662",
+"cusps": 2,
+"cs": 7.19930310156782e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_064900",
+"cusps": 2,
+"cs": -2.474760441163938e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_071471",
+"cusps": 1,
+"cs": 0.24999999999999964,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_071472",
+"cusps": 1,
+"cs": 3.037205995973924e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_085504",
+"cusps": 1,
+"cs": 0.25000000000000006,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_085946",
+"cusps": 1,
+"cs": 0.2500000000000003,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_085947",
+"cusps": 1,
+"cs": -2.1372931082779464e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_087705",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_094305",
+"cusps": 1,
+"cs": 0.24999999999999994,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_094742",
+"cusps": 1,
+"cs": 0.2500000000000009,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_094743",
+"cusps": 1,
+"cs": -5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_100242",
+"cusps": 1,
+"cs": 0.25000000000000006,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_100243",
+"cusps": 1,
+"cs": -5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_113687",
+"cusps": 1,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_117640",
+"cusps": 1,
+"cs": 1.237380220581969e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_117641",
+"cusps": 1,
+"cs": 0.24999999999999964,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_120075",
+"cusps": 1,
+"cs": 0.24999999999999983,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_120076",
+"cusps": 1,
+"cs": -1.3498693315439662e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_120077",
+"cusps": 1,
+"cs": 0.25000000000000006,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_120078",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_120394",
+"cusps": 1,
+"cs": 0.25000000000000017,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_120395",
+"cusps": 1,
+"cs": -7.874237767339803e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_121902",
+"cusps": 1,
+"cs": 3.9371188836699013e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_121903",
+"cusps": 1,
+"cs": 0.24999999999999983,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_124310",
+"cusps": 1,
+"cs": 6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_125815",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_127318",
+"cusps": 2,
+"cs": -1.912314886353952e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_128090",
+"cusps": 1,
+"cs": 0.25000000000000006,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_128091",
+"cusps": 1,
+"cs": 0.24999999999999956,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_128092",
+"cusps": 1,
+"cs": -6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_128172",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_128173",
+"cusps": 1,
+"cs": 0.2500000000000002,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_128534",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_128535",
+"cusps": 1,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_132112",
+"cusps": 1,
+"cs": -2.6997386630879323e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_132113",
+"cusps": 1,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_132114",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_132115",
+"cusps": 2,
+"cs": 1.237380220581969e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_132116",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_132120",
+"cusps": 3,
+"cs": 0.25000000000000017,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+3
+]
+]
+},
+{
+"name": "o10_132123",
+"cusps": 2,
+"cs": 1.5748475534679605e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_132307",
+"cusps": 1,
+"cs": -3.4871624398219126e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_133572",
+"cusps": 2,
+"cs": -2.0248039973159492e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_134228",
+"cusps": 1,
+"cs": -5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_134229",
+"cusps": 1,
+"cs": 0.25000000000000017,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_135944",
+"cusps": 1,
+"cs": 0.2500000000000002,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_135945",
+"cusps": 1,
+"cs": -5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_136007",
+"cusps": 1,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_136013",
+"cusps": 1,
+"cs": 3.824629772707904e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_137895",
+"cusps": 1,
+"cs": 2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_138649",
+"cusps": 1,
+"cs": 1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_138650",
+"cusps": 1,
+"cs": 0.24999999999999994,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_138760",
+"cusps": 1,
+"cs": 6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_138761",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_138762",
+"cusps": 1,
+"cs": 0.24999999999999986,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_138844",
+"cusps": 1,
+"cs": -6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_139132",
+"cusps": 1,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_140085",
+"cusps": 1,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_140219",
+"cusps": 2,
+"cs": 6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_140224",
+"cusps": 2,
+"cs": 6.749346657719831e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_140231",
+"cusps": 2,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_140661",
+"cusps": 1,
+"cs": 4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_140953",
+"cusps": 1,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_141596",
+"cusps": 1,
+"cs": -2.6997386630879323e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_142143",
+"cusps": 2,
+"cs": -2.0248039973159492e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_142150",
+"cusps": 1,
+"cs": -2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_142151",
+"cusps": 1,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_142152",
+"cusps": 1,
+"cs": 0.24999999999999994,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_142539",
+"cusps": 1,
+"cs": 2.474760441163938e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_142752",
+"cusps": 1,
+"cs": 4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_142870",
+"cusps": 1,
+"cs": -1.5748475534679605e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_143182",
+"cusps": 1,
+"cs": 0.2500000000000003,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_143183",
+"cusps": 1,
+"cs": -2.0248039973159492e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_143229",
+"cusps": 1,
+"cs": -1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_143230",
+"cusps": 1,
+"cs": 0.25000000000000017,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_143319",
+"cusps": 1,
+"cs": -4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_143320",
+"cusps": 1,
+"cs": -2.474760441163938e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_143601",
+"cusps": 2,
+"cs": -8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_143602",
+"cusps": 2,
+"cs": 3.824629772707904e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 6,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+2
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_143848",
+"cusps": 1,
+"cs": -1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_143849",
+"cusps": 1,
+"cs": 0.24999999999999983,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_145015",
+"cusps": 1,
+"cs": 3.3746733288599154e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_145053",
+"cusps": 2,
+"cs": 5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_145054",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_145055",
+"cusps": 3,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+3
+]
+]
+},
+{
+"name": "o10_145056",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_145057",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_145058",
+"cusps": 2,
+"cs": -2.474760441163938e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_145300",
+"cusps": 1,
+"cs": 5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_146131",
+"cusps": 1,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_146251",
+"cusps": 1,
+"cs": 4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_146393",
+"cusps": 1,
+"cs": 0.25000000000000006,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_146394",
+"cusps": 1,
+"cs": -3.3746733288599154e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_146417",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_146418",
+"cusps": 1,
+"cs": 1.1248911096199718e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_146653",
+"cusps": 1,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_146654",
+"cusps": 1,
+"cs": -3.262184217897918e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_146943",
+"cusps": 1,
+"cs": -2.474760441163938e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_147437",
+"cusps": 1,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_148155",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_148178",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_148195",
+"cusps": 2,
+"cs": -1.237380220581969e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_148196",
+"cusps": 1,
+"cs": -8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_148447",
+"cusps": 1,
+"cs": 3.59965155078391e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_148826",
+"cusps": 1,
+"cs": -8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_148961",
+"cusps": 1,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_149200",
+"cusps": 1,
+"cs": -5.17449910425187e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_149483",
+"cusps": 1,
+"cs": 2.6997386630879323e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_149515",
+"cusps": 1,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_149516",
+"cusps": 1,
+"cs": 0.2500000000000002,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_149550",
+"cusps": 1,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_149551",
+"cusps": 1,
+"cs": 2.0248039973159492e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_149759",
+"cusps": 2,
+"cs": 1.1248911096199718e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_149760",
+"cusps": 2,
+"cs": 3.59965155078391e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_149761",
+"cusps": 2,
+"cs": -5.624455548099859e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_149900",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_149901",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_149903",
+"cusps": 2,
+"cs": 2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_149904",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150081",
+"cusps": 1,
+"cs": 0.24999999999999992,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_150082",
+"cusps": 1,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150096",
+"cusps": 2,
+"cs": 0.0,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150097",
+"cusps": 2,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150404",
+"cusps": 1,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150554",
+"cusps": 1,
+"cs": 3.59965155078391e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150578",
+"cusps": 2,
+"cs": -4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150579",
+"cusps": 2,
+"cs": 1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150580",
+"cusps": 2,
+"cs": -2.2497822192399436e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150652",
+"cusps": 1,
+"cs": 8.999128876959774e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150684",
+"cusps": 2,
+"cs": 6.299390213871842e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150685",
+"cusps": 3,
+"cs": 2.6997386630879323e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150688",
+"cusps": 1,
+"cs": -2.7222364852803317e-15,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150693",
+"cusps": 2,
+"cs": 8.661661544073783e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150695",
+"cusps": 1,
+"cs": 0.24999999999999978,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 20,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_150696",
+"cusps": 1,
+"cs": -1.4623584425059633e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 20,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150704",
+"cusps": 4,
+"cs": -4.499564438479887e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 24,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1,
+1
+],
+4
+],
+[
+[
+2,
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150706",
+"cusps": 2,
+"cs": 2.6997386630879323e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+],
+[
+[
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150707",
+"cusps": 1,
+"cs": -1.7435812199109563e-15,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150708",
+"cusps": 2,
+"cs": 0.24999999999999792,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_150710",
+"cusps": 2,
+"cs": -1.799825775391955e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150716",
+"cusps": 1,
+"cs": 1.1698867540047707e-15,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 1,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150717",
+"cusps": 3,
+"cs": 3.937118883669901e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+0
+],
+[
+[
+1,
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150718",
+"cusps": 3,
+"cs": 0.2500000000000001,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+1
+],
+[
+[
+1,
+2
+],
+1
+]
+]
+},
+{
+"name": "o10_150722",
+"cusps": 3,
+"cs": 0.24999999999999956,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+1
+]
+]
+},
+{
+"name": "o10_150723",
+"cusps": 2,
+"cs": 7.19930310156782e-16,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 2,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1
+],
+0
+]
+]
+},
+{
+"name": "o10_150725",
+"cusps": 3,
+"cs": 0.25,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 6,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+3
+],
+[
+[
+1,
+2
+],
+1
+]
+]
+},
+{
+"name": "o10_150727",
+"cusps": 4,
+"cs": 7.874237767339803e-17,
+"cs_class": "zero",
+"amphichiral": true,
+"n_reversing": 4,
+"orbit_parity": 0,
+"sealed_parity": 0,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1,
+1
+],
+2
+],
+[
+[
+1,
+1,
+2
+],
+0
+]
+]
+},
+{
+"name": "o10_150728",
+"cusps": 3,
+"cs": 0.24999999999999983,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 8,
+"orbit_parity": 1,
+"sealed_parity": 1,
+"odd_orbits_longer_than_one": false,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1
+],
+1
+],
+[
+[
+1,
+2
+],
+1
+]
+]
+},
+{
+"name": "o10_150729",
+"cusps": 5,
+"cs": 0.25000000000000017,
+"cs_class": "quarter",
+"amphichiral": true,
+"n_reversing": 120,
+"orbit_parity": 1,
+"sealed_parity": "MIXED",
+"odd_orbits_longer_than_one": true,
+"invalid": 0,
+"conventions_disagree": 0,
+"patterns": [
+[
+[
+1,
+1,
+1,
+2
+],
+3
+],
+[
+[
+1,
+4
+],
+1
+],
+[
+[
+2,
+3
+],
+1
+]
+]
+}
+]
+}

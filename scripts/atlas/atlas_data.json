@@ -9874,6 +9874,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1477": {
+   "slug": "what decides the swap the mirrors shear on the cusp",
+   "motifs": [
+    "closing",
+    "choice",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "L194",
+    "L246",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

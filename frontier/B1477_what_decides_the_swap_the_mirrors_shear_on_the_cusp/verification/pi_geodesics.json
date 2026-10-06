@@ -1,0 +1,1976 @@
+{
+ "m003": {
+  "name": "m003",
+  "geodesics": 35,
+  "rotation_pi": 3,
+  "odd_lengths": [
+   2.633916
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "m004": {
+  "name": "m004",
+  "geodesics": 37,
+  "rotation_pi": 6,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "m034(-4,1)": {
+  "name": "m034(-4,1)",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "m078(5,1)": {
+  "name": "m078(5,1)",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "m082(1,3)": {
+  "name": "m082(1,3)",
+  "geodesics": 43,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.961014
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "m100(2,3)": {
+  "name": "m100(2,3)",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "m115(5,2)": {
+  "name": "m115(5,2)",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "m121(-4,3)": {
+  "name": "m121(-4,3)",
+  "geodesics": 46,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "m135": {
+  "name": "m135",
+  "geodesics": 45,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   1.762747
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "m136": {
+  "name": "m136",
+  "geodesics": 35,
+  "rotation_pi": 4,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "m168(2,3)": {
+  "name": "m168(2,3)",
+  "geodesics": 43,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   1.551649
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "m188(2,3)": {
+  "name": "m188(2,3)",
+  "geodesics": 45,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.063437
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "m206": {
+  "name": "m206",
+  "geodesics": 32,
+  "rotation_pi": 4,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "m207": {
+  "name": "m207",
+  "geodesics": 44,
+  "rotation_pi": 4,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "m290(-3,4)": {
+  "name": "m290(-3,4)",
+  "geodesics": 49,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.681544
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "m303(-1,3)": {
+  "name": "m303(-1,3)",
+  "geodesics": 46,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "m336(-1,3)": {
+  "name": "m336(-1,3)",
+  "geodesics": 44,
+  "rotation_pi": 2,
+  "odd_lengths": [
+   1.316958,
+   2.292432
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "m346(2,3)": {
+  "name": "m346(2,3)",
+  "geodesics": 52,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "m358(1,3)": {
+  "name": "m358(1,3)",
+  "geodesics": 48,
+  "rotation_pi": 2,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "m401(-2,3)": {
+  "name": "m401(-2,3)",
+  "geodesics": 44,
+  "rotation_pi": 2,
+  "odd_lengths": [
+   0.962424,
+   2.887271
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "m402(2,3)": {
+  "name": "m402(2,3)",
+  "geodesics": 56,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_029742": {
+  "name": "o10_029742",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_029743": {
+  "name": "o10_029743",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_044749": {
+  "name": "o10_044749",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_044750": {
+  "name": "o10_044750",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_050362": {
+  "name": "o10_050362",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_050363": {
+  "name": "o10_050363",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_053616": {
+  "name": "o10_053616",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_053617": {
+  "name": "o10_053617",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_054391": {
+  "name": "o10_054391",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_054392": {
+  "name": "o10_054392",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_055803": {
+  "name": "o10_055803",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_055804": {
+  "name": "o10_055804",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_060328": {
+  "name": "o10_060328",
+  "geodesics": 30,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_060329": {
+  "name": "o10_060329",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_060851": {
+  "name": "o10_060851",
+  "geodesics": 26,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_060852": {
+  "name": "o10_060852",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_071471": {
+  "name": "o10_071471",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_071472": {
+  "name": "o10_071472",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_085504": {
+  "name": "o10_085504",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_085946": {
+  "name": "o10_085946",
+  "geodesics": 30,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_085947": {
+  "name": "o10_085947",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "o10_087705": {
+  "name": "o10_087705",
+  "geodesics": 37,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.014072
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_094305": {
+  "name": "o10_094305",
+  "geodesics": 25,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.569893
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_094742": {
+  "name": "o10_094742",
+  "geodesics": 30,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_094743": {
+  "name": "o10_094743",
+  "geodesics": 30,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_100242": {
+  "name": "o10_100242",
+  "geodesics": 32,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_100243": {
+  "name": "o10_100243",
+  "geodesics": 32,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_113687": {
+  "name": "o10_113687",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_117640": {
+  "name": "o10_117640",
+  "geodesics": 49,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_117641": {
+  "name": "o10_117641",
+  "geodesics": 31,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.087478
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_120075": {
+  "name": "o10_120075",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_120076": {
+  "name": "o10_120076",
+  "geodesics": 39,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_120077": {
+  "name": "o10_120077",
+  "geodesics": 27,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.972548
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_120078": {
+  "name": "o10_120078",
+  "geodesics": 23,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.972548
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_120394": {
+  "name": "o10_120394",
+  "geodesics": 32,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_120395": {
+  "name": "o10_120395",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_121902": {
+  "name": "o10_121902",
+  "geodesics": 33,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_121903": {
+  "name": "o10_121903",
+  "geodesics": 19,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.747666
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_124310": {
+  "name": "o10_124310",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_125815": {
+  "name": "o10_125815",
+  "geodesics": 45,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_128090": {
+  "name": "o10_128090",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_128091": {
+  "name": "o10_128091",
+  "geodesics": 29,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.557338
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_128092": {
+  "name": "o10_128092",
+  "geodesics": 43,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_128172": {
+  "name": "o10_128172",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_128173": {
+  "name": "o10_128173",
+  "geodesics": 30,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_128534": {
+  "name": "o10_128534",
+  "geodesics": 30,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_128535": {
+  "name": "o10_128535",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_132307": {
+  "name": "o10_132307",
+  "geodesics": 41,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_134228": {
+  "name": "o10_134228",
+  "geodesics": 37,
+  "rotation_pi": 7,
+  "odd_lengths": [
+   1.209655
+  ],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "o10_134229": {
+  "name": "o10_134229",
+  "geodesics": 37,
+  "rotation_pi": 10,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_135944": {
+  "name": "o10_135944",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_135945": {
+  "name": "o10_135945",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_136007": {
+  "name": "o10_136007",
+  "geodesics": 46,
+  "rotation_pi": 6,
+  "odd_lengths": [
+   0.886282,
+   1.045372,
+   1.785887,
+   2.12994
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_136013": {
+  "name": "o10_136013",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_137895": {
+  "name": "o10_137895",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_138649": {
+  "name": "o10_138649",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_138650": {
+  "name": "o10_138650",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_138760": {
+  "name": "o10_138760",
+  "geodesics": 45,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_138761": {
+  "name": "o10_138761",
+  "geodesics": 33,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.277756
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_138762": {
+  "name": "o10_138762",
+  "geodesics": 35,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.277756
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_138844": {
+  "name": "o10_138844",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_139132": {
+  "name": "o10_139132",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_140085": {
+  "name": "o10_140085",
+  "geodesics": 39,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_140661": {
+  "name": "o10_140661",
+  "geodesics": 28,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_140953": {
+  "name": "o10_140953",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_141596": {
+  "name": "o10_141596",
+  "geodesics": 37,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_142150": {
+  "name": "o10_142150",
+  "geodesics": 43,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_142151": {
+  "name": "o10_142151",
+  "geodesics": 31,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.386201
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_142152": {
+  "name": "o10_142152",
+  "geodesics": 29,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.386201
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_142539": {
+  "name": "o10_142539",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_142752": {
+  "name": "o10_142752",
+  "geodesics": 37,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_142870": {
+  "name": "o10_142870",
+  "geodesics": 43,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_143182": {
+  "name": "o10_143182",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_143183": {
+  "name": "o10_143183",
+  "geodesics": 28,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_143229": {
+  "name": "o10_143229",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_143230": {
+  "name": "o10_143230",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_143319": {
+  "name": "o10_143319",
+  "geodesics": 37,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_143320": {
+  "name": "o10_143320",
+  "geodesics": 33,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_143848": {
+  "name": "o10_143848",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_143849": {
+  "name": "o10_143849",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_145015": {
+  "name": "o10_145015",
+  "geodesics": 46,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_145300": {
+  "name": "o10_145300",
+  "geodesics": 41,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_146131": {
+  "name": "o10_146131",
+  "geodesics": 37,
+  "rotation_pi": 4,
+  "odd_lengths": [
+   0.948867,
+   1.155002,
+   1.444615,
+   2.646006
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_146251": {
+  "name": "o10_146251",
+  "geodesics": 31,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_146393": {
+  "name": "o10_146393",
+  "geodesics": 32,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_146394": {
+  "name": "o10_146394",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_146417": {
+  "name": "o10_146417",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_146418": {
+  "name": "o10_146418",
+  "geodesics": 26,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_146653": {
+  "name": "o10_146653",
+  "geodesics": 35,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.979144
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_146654": {
+  "name": "o10_146654",
+  "geodesics": 39,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.979144
+  ],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "o10_146943": {
+  "name": "o10_146943",
+  "geodesics": 33,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_147437": {
+  "name": "o10_147437",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_148178": {
+  "name": "o10_148178",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_148196": {
+  "name": "o10_148196",
+  "geodesics": 37,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.702341
+  ],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "o10_148447": {
+  "name": "o10_148447",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_148826": {
+  "name": "o10_148826",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_148961": {
+  "name": "o10_148961",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_149200": {
+  "name": "o10_149200",
+  "geodesics": 35,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_149483": {
+  "name": "o10_149483",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_149515": {
+  "name": "o10_149515",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "o10_149516": {
+  "name": "o10_149516",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_149550": {
+  "name": "o10_149550",
+  "geodesics": 24,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_149551": {
+  "name": "o10_149551",
+  "geodesics": 24,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_150081": {
+  "name": "o10_150081",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_150082": {
+  "name": "o10_150082",
+  "geodesics": 26,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_150404": {
+  "name": "o10_150404",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_150554": {
+  "name": "o10_150554",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_150652": {
+  "name": "o10_150652",
+  "geodesics": 39,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_150695": {
+  "name": "o10_150695",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o10_150696": {
+  "name": "o10_150696",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o10_150707": {
+  "name": "o10_150707",
+  "geodesics": 37,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o9_35326": {
+  "name": "o9_35326",
+  "geodesics": 30,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o9_35327": {
+  "name": "o9_35327",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o9_36482": {
+  "name": "o9_36482",
+  "geodesics": 39,
+  "rotation_pi": 4,
+  "odd_lengths": [
+   0.712314,
+   1.681253,
+   2.110345,
+   2.386318
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o9_37643": {
+  "name": "o9_37643",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o9_40736": {
+  "name": "o9_40736",
+  "geodesics": 48,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "o9_40737": {
+  "name": "o9_40737",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "o9_43569": {
+  "name": "o9_43569",
+  "geodesics": 45,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "s235(-3,4)": {
+  "name": "s235(-3,4)",
+  "geodesics": 57,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   1.769136
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "s287(3,4)": {
+  "name": "s287(3,4)",
+  "geodesics": 45,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.255937
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "s463": {
+  "name": "s463",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s464": {
+  "name": "s464",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s500(4,1)": {
+  "name": "s500(4,1)",
+  "geodesics": 48,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s533(1,4)": {
+  "name": "s533(1,4)",
+  "geodesics": 58,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s668(4,1)": {
+  "name": "s668(4,1)",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s725": {
+  "name": "s725",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s726": {
+  "name": "s726",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s880": {
+  "name": "s880",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s881": {
+  "name": "s881",
+  "geodesics": 43,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   1.465715
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s882": {
+  "name": "s882",
+  "geodesics": 39,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s883": {
+  "name": "s883",
+  "geodesics": 32,
+  "rotation_pi": 4,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s891": {
+  "name": "s891",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s892": {
+  "name": "s892",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "s911": {
+  "name": "s911",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s912": {
+  "name": "s912",
+  "geodesics": 50,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "s912(0,1)": {
+  "name": "s912(0,1)",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "s942(-2,1)": {
+  "name": "s942(-2,1)",
+  "geodesics": 44,
+  "rotation_pi": 2,
+  "odd_lengths": [
+   1.316958,
+   2.292432
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "s948": {
+  "name": "s948",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "s955": {
+  "name": "s955",
+  "geodesics": 55,
+  "rotation_pi": 7,
+  "odd_lengths": [
+   2.633916
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s957": {
+  "name": "s957",
+  "geodesics": 43,
+  "rotation_pi": 9,
+  "odd_lengths": [
+   2.633916
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s960": {
+  "name": "s960",
+  "geodesics": 49,
+  "rotation_pi": 9,
+  "odd_lengths": [
+   2.633916
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "s960(-1,2)": {
+  "name": "s960(-1,2)",
+  "geodesics": 50,
+  "rotation_pi": 4,
+  "odd_lengths": [
+   1.316958,
+   2.292432
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "s961": {
+  "name": "s961",
+  "geodesics": 45,
+  "rotation_pi": 18,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t03910": {
+  "name": "t03910",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t03911": {
+  "name": "t03911",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t05927": {
+  "name": "t05927",
+  "geodesics": 46,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t05928": {
+  "name": "t05928",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t07733": {
+  "name": "t07733",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t07734": {
+  "name": "t07734",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t08107": {
+  "name": "t08107",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t08108": {
+  "name": "t08108",
+  "geodesics": 42,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t09252": {
+  "name": "t09252",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t09253": {
+  "name": "t09253",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t10425": {
+  "name": "t10425",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "t10426": {
+  "name": "t10426",
+  "geodesics": 34,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t10805": {
+  "name": "t10805",
+  "geodesics": 32,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12034": {
+  "name": "t12034",
+  "geodesics": 51,
+  "rotation_pi": 6,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12043": {
+  "name": "t12043",
+  "geodesics": 42,
+  "rotation_pi": 2,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12045": {
+  "name": "t12045",
+  "geodesics": 34,
+  "rotation_pi": 2,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12050": {
+  "name": "t12050",
+  "geodesics": 48,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12051": {
+  "name": "t12051",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t12071": {
+  "name": "t12071",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12545": {
+  "name": "t12545",
+  "error": "RuntimeError('The Dirichlet construction failed.')",
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12546": {
+  "name": "t12546",
+  "geodesics": 33,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.933745
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t12547": {
+  "name": "t12547",
+  "geodesics": 35,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.933745
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t12548": {
+  "name": "t12548",
+  "geodesics": 43,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12587": {
+  "name": "t12587",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12639": {
+  "name": "t12639",
+  "geodesics": 37,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.014072
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t12640": {
+  "name": "t12640",
+  "geodesics": 41,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12641": {
+  "name": "t12641",
+  "geodesics": 29,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.014072
+  ],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t12648": {
+  "name": "t12648",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12649": {
+  "name": "t12649",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t12766": {
+  "name": "t12766",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12771": {
+  "name": "t12771",
+  "geodesics": 41,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12819": {
+  "name": "t12819",
+  "geodesics": 36,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "t12838": {
+  "name": "t12838",
+  "geodesics": 40,
+  "rotation_pi": 8,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "t12839": {
+  "name": "t12839",
+  "geodesics": 40,
+  "rotation_pi": 8,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "v1222(-5,1)": {
+  "name": "v1222(-5,1)",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "v1251(4,3)": {
+  "name": "v1251(4,3)",
+  "geodesics": 56,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "v1461(1,3)": {
+  "name": "v1461(1,3)",
+  "geodesics": 50,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "v1695(-5,1)": {
+  "name": "v1695(-5,1)",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "v1845(-5,2)": {
+  "name": "v1845(-5,2)",
+  "geodesics": 50,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "v1847(-4,3)": {
+  "name": "v1847(-4,3)",
+  "geodesics": 54,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "v1860(2,3)": {
+  "name": "v1860(2,3)",
+  "geodesics": 50,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "candidates"
+ },
+ "v2585(1,2)": {
+  "name": "v2585(1,2)",
+  "geodesics": 45,
+  "rotation_pi": 1,
+  "odd_lengths": [
+   2.130863
+  ],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "v2678(2,1)": {
+  "name": "v2678(2,1)",
+  "geodesics": 50,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "v2817(-3,1)": {
+  "name": "v2817(-3,1)",
+  "geodesics": 44,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "v3066(-1,2)": {
+  "name": "v3066(-1,2)",
+  "geodesics": 40,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "v3102": {
+  "name": "v3102",
+  "geodesics": 32,
+  "rotation_pi": 6,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "quarter",
+  "status": "NONE"
+ },
+ "v3103": {
+  "name": "v3103",
+  "geodesics": 28,
+  "rotation_pi": 2,
+  "odd_lengths": [],
+  "kind": "cusped",
+  "cs_class": "zero",
+  "status": "NONE"
+ },
+ "v3178(-3,1)": {
+  "name": "v3178(-3,1)",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "EXISTS"
+ },
+ "v3283(-3,1)": {
+  "name": "v3283(-3,1)",
+  "geodesics": 38,
+  "rotation_pi": 0,
+  "odd_lengths": [],
+  "kind": "closed",
+  "cs_class": "zero",
+  "status": "NONE"
+ }
+}

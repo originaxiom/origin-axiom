@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1305** |
-| words of findings prose | **1,008,591** |
+| research arcs with findings | **1306** |
+| words of findings prose | **1,010,354** |
 | test lock files referenced | **764** |
-| arcs carrying an authored verdict | **1305** (100.0 %) |
+| arcs carrying an authored verdict | **1306** (100.0 %) |
 | recorded closures | **803** (636 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 876 |
+| PROVED | 877 |
 | NEGATIVE | 327 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1476`** (2088 words, 1 locks)  
-THE SPIN SWAP, PHASE 1c (L246; sealed 88ed6981 / aedf139f): AT CS = 1/4 NO SPIN STRUCTURE SURVIVES THE MIRROR on every amphichiral manifold tested -- the family's seven and six outside it, 13 of 13 -- certified without enumerating isometries (an invariant spin structure would make its odd torsion real; none of the thirteen has one that is; the audit lane's R92 answered); at CS = 0 every rank-one member read has at least two torsion-real spin structures (12 of 12) and the family's six zero members have exhibited invariant ones, while outside the family the GEOMETRIC LIFT is swapped at zero on m136, s880, s883 and 14 of 25 closed manifolds -- the geometric lift's fate is not a function of CS, and whether some spin structure always survives at zero was not tested and is the next sealed arc; the whole family's phase is on the 1/24 lattice (112 of 112, denominators 1..24, none of 40 outside; the dilogarithm atom verified: Re R(e^{i pi/3}) = pi^2/12, Im R = Vol(4_1)/2 -- the web seat's law, L248); the three classes by the mirror's action on Spin(M): all (m004, m206, t12839, o10_150696), some (s961, o10_150707), none (the seven); the knot member's spin lift is the parent's Pin type by a second route (C conj(C) = +rho(w) with the two lifts opposite; the referee's exact script re-run) -- sm:B1382 verified on main; a genuine swap forces every reversing isometry to have fixed points; under the owner's rule the family is the object and A5 selected a member in the 'all' class by B279's theorem, the excluded sister the smallest 'none'; GENESIS v1.11: GAP6 narrowed to its closed-bulk hypotheses (R89, the web seat), FK12's bit located, the rule recorded. One bit, no count. 0 of 19.  
-`B1476_the_spin_swap_phase_1c_the_quarter_law_the_pin_bit_and_what_a5_chose/FINDINGS.md`
+**PROVED — `B1477`** (1763 words, 0 locks)  
+WHAT DECIDES THE SWAP (L246; first seal 673e52be5 / 31acad53, second seal 1e11c51ce / ea209e9d). THEOREM A (proved): an isometry preserving a cusp and fixing a spin structure preserves the peripheral sign character tr rho_s / 2; a mirror acts on an invariant cusp torus by a rectangular or a rhombic involution, and a rhombic mirror fixes no spin structure whose fixed peripheral class has trace -2. On all 75 one-cusped amphichiral census manifolds at CS = 1/4 the mirror is rhombic and the longitude's trace is -2 on every lift (P2, 75 of 75), so no spin structure survives any mirror there -- 292 of 292, by proof. THE SHEAR LAW, graded lower: its sealed form (CS = 1/4 x #rhombic invariant cusps, for every reversing isometry) was KILLED on one manifold, o10_150729, where a mirror moves three cusps in a cycle (the registered kill; 282 of 283); its one-cusped form holds on 181 of 181; its orbit form (odd cusp-orbits on which f^l is rhombic), written after the kill and sealed a second time, holds on the census's 283 of 283 and on 922 of 922 amphichiral multi-component link exteriors not opened before, nine of which break the sealed sentence -- a census law on 1,205 manifolds, conjectural beyond; B1239's swap corollary shares the hidden hypothesis and is corrected by addendum; L194's cusp-local conjecture is contained in the law. EXISTENCE AT ZERO: 'a mirror-invariant spin structure exists <=> CS = 0' is KILLED -- seven zero-class one-cusped members (v3103 first) and 15 of 37 closed amphichiral manifolds (m082(1,3) first) have none, certified by non-real torsion or an asymmetric spin-signed trace spectrum (P4 and P6 fail; P3 and P5 hold). THEOREM B (post-seal, proved): an odd number of rotation-pi geodesics at some length forbids every mirror-invariant spin structure -- 39 of 39 odd-count manifolds are certified none, no violation on 110 others; it explains 11 of the 15 closed cases and leaves a named residue. The family has seven rhombic members and six rectangular; A5 selected a rectangular one. One bit, no count, no value. 0 of 19.  
+`B1477_what_decides_the_swap_the_mirrors_shear_on_the_cusp/FINDINGS.md`
 
 **NEGATIVE — `B1470`** (565 words, 0 locks)  
 THE UNRUN MODULES RUN ON MAIN (L222 (iii); L245's xB031): B1418's own driver on t12835 with its 1 800 s budget lifted runs all 6 435 modules in 4 234 s -- none NOT RUN -- with index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3, NO THREE; B1418's 3 110 banked rows agree 3 110 of 3 110 and the sep16 lane's xB031 table agrees 6 435 of 6 435 key by key; the 3 325 formerly unrun are 3 070 zero, 150 at -1, 90 at +1, 15 at -2. The one unrun computation the record kept pointing at holds no three. Nothing selects a state. 0 of 19.  

@@ -1,0 +1,10 @@
+m136                   cusped  spin 8  tau 40 (L=5)  invariant 4  spectrum-symmetric 4 of 8  -> EXISTS
+s464                   cusped  spin 2  tau 40 (L=5)  invariant 2  spectrum-symmetric 2 of 2  -> EXISTS
+s726                   cusped  spin 2  tau 40 (L=6)  invariant 2  spectrum-symmetric 2 of 2  -> EXISTS
+s880                   cusped  spin 8  tau 40 (L=5)  invariant 4  spectrum-symmetric 4 of 8  -> EXISTS
+s882                   cusped  spin 2  tau 40 (L=5)  invariant 2  spectrum-symmetric 2 of 2  -> EXISTS
+s883                   cusped  spin 4  tau 40 (L=5)  invariant 2  spectrum-symmetric 2 of 4  -> EXISTS
+s892                   cusped  spin 2  tau 16 (L=5)  invariant 2  spectrum-symmetric 2 of 2  -> EXISTS
+s912                   cusped  spin 2  tau 0 (L=7)  invariant 0  spectrum-symmetric 2 of 2  -> UNDECIDED
+s948                   cusped  spin 4  tau 0 (L=7)  invariant 0  spectrum-symmetric 4 of 4  -> UNDECIDED
+DONE
