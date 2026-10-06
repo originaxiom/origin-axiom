@@ -22,11 +22,11 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1291** |
-| words of findings prose | **1,128,724** |
-| test lock files referenced | **791** |
-| arcs carrying an authored verdict | **1291** (100.0 %) |
-| recorded closures | **830** (663 classified, 167 routed-only) |
+| research arcs with findings | **1292** |
+| words of findings prose | **1,130,726** |
+| test lock files referenced | **792** |
+| arcs carrying an authored verdict | **1292** (100.0 %) |
+| recorded closures | **831** (664 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 858 |
+| PROVED | 859 |
 | NEGATIVE | 333 |
 | OPEN | 89 |
 | RETRACTED | 11 |
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 100 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 101 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1543`** (3907 words, 1 locks)  
-THE LINE MUST LEAD: in sm:B1515's frame, sm:B1535's Theorem C (ii) gives exactly I(W1) >= rk delta1_W - b0 - n(nu^4), delta1_W: H^1(N; L) -> H^2(N; V) the cup map y -> c u y (Corollary C'), so a count (-g, -g) needs rk delta1_W <= b0 + n(nu^4) - g; since rk delta1_W <= min(h^1(N; L), n(nu (x) rho)), three at a class of maximal rank needs n(nu^3 (x) rho) >= 3 and n(nu (x) rho) <= b0 + n(nu^4) - 3, at the trivial character 3 <= n(rho) <= n(1) - 2 (Corollary C''). On a cyclic cover the deck group grades the cup map, so an eigenspace's classes have the graded bound B_j = sum_m min(h^1(c^m), n(c^(j+m) rho)). C' holds at every banked reading that carries the rank (sm:B1541's 380, sm:B1536's 3,160, sm:B1542's 1,664 after its read-out). On N_45 the cup map is injective (rank 9) at every generic stratum class, so I(W) >= 4 there; its eigenspaces' generic classes reach only 8 and 4 against a graded bound of 9, so whether generic classes reach the bound is read, not assumed. None of the 117 cyclic covers the banked rows fix meets 3 <= n(rho) <= n(1) - 2 (n(1) <= 4), all read again directly in two routes and by integer homology; of their 585 deck eigenspaces the graded criterion holds only at 16 empty ones. Observed, not proved: I(W) >= -b0 at all 6,756 banked readings that carry the count, including 2,828 where Theorem C (ii) would allow less (equivalently, the boundary image of H^1(N; W) never exceeds W*'s boundary invariants); if it is a theorem, the frame's W count is at most one generation at every class. Three can live at classes of low cup rank, on covers where the line leads (puncture characters), at members with n(nu (x) rho) = 0 and a cusp where nu is trivial, or by the golden lift. 0 of 19.  
-`B1543_the_line_must_lead/FINDINGS.md`
+**PROVED — `B1545`** (2002 words, 1 locks)  
+THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class c of sm:B1515's frame has I(W1) >= k - m_A - b0, m_A the cusps where nu is trivial, k those where c is non-zero, b0 = [nu^4 = 1]; from the identity I = -b0 + h0(dN; W1*) - r1(W1), h0(T; W1*) = 2, 1, 0 on cusps where nu, nu^4, neither is trivial, and r1(W1) <= 3m_A + m_B - k. So three, in either order, needs 3 - b0 cusps where nu is trivial and the class vanishes, and a member non-trivial on every cusp counts at most one generation. Corollary G: on sm:B1538's four room-3 covers of the silver pair (four cusps of two punctures each), a character whose fourth power is a puncture character is trivial on at most two cusps (the punctures' values are constant on cusps and multiply to 1), so no member there carries three, at any class, in either order. The ingredients checked by own code at every member reading on sm:B1538's covers with three or more cusps (route R), and the puncture structure at every character of order dividing 24 on the four covers. 0 of 19.  
+`B1545_the_floor_at_every_member/FINDINGS.md`
 
 **NEGATIVE — `B1544`** (2309 words, 1 locks)  
 THE FLOOR AT THE CUP KERNEL (NEGATIVE, run as sealed; read out once 2026-10-06 18:30:59Z). Lemma F, proved at design time: at the trivial character on a finite cover with m cusps, every class c of H^1(N; rho) has I(W) >= k - m - 1, k the number of cusps where c is non-zero; so sm:B1543's floor I(W) >= -1 is a theorem wherever c is non-zero on every cusp, and I(W) = -g needs c to vanish on g - 1 cusps. With Theorem C (ii) (Corollary F'), three needs a + rk delta1_W <= n(1) - 2 and k <= m - 2; on the four degree-60 covers that leaves three only in the cup map's kernel K0 (Proposition D). The run read the generic class of K0(S) for every closed support S on N_45 and the four covers, in two routes: P1-P4 True, P5-P6 False (4 of 6, 3.68 expected). The floor holds on all of K0 on the five covers (least I(W): 0 on N_45, -1 on the degree-60 covers, at the interior). N_45's K0 reads (0, 0) at every stratum; d10.13's and d10.36's covers (-1, -3) at the interior and (0, -3) at the three supports where three could live and at the full support; d10.16's and d10.40's (-1, -3) and (1, -1). So the four degree-60 covers carry no three at the trivial character, at any class. After the seal (not used): all four mirror classes of m003 lift to N_45, each lift rhombic at the one cusp it fixes; none lifts to the degree-60 covers. 0 of 19.  

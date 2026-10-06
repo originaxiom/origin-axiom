@@ -1,0 +1,34 @@
+{
+ "m135.D8.2-0-4.w1": {
+  "characters (zeta^24 = 1)": 110592,
+  "with zeta^4 a puncture character": 110080,
+  "zeta(l_x) constant on pi-orbits": true,
+  "product over the punctures = 1": true,
+  "most cusps whose punctures zeta kills, when zeta^4 is a puncture character": 2,
+  "cusps": 4
+ },
+ "m135.D8.4-0-2.w4": {
+  "characters (zeta^24 = 1)": 110592,
+  "with zeta^4 a puncture character": 110080,
+  "zeta(l_x) constant on pi-orbits": true,
+  "product over the punctures = 1": true,
+  "most cusps whose punctures zeta kills, when zeta^4 is a puncture character": 2,
+  "cusps": 4
+ },
+ "m136.D8.2-0-4.w3": {
+  "characters (zeta^24 = 1)": 55296,
+  "with zeta^4 a puncture character": 54784,
+  "zeta(l_x) constant on pi-orbits": true,
+  "product over the punctures = 1": true,
+  "most cusps whose punctures zeta kills, when zeta^4 is a puncture character": 2,
+  "cusps": 4
+ },
+ "m136.D8.4-0-2.w5": {
+  "characters (zeta^24 = 1)": 55296,
+  "with zeta^4 a puncture character": 54784,
+  "zeta(l_x) constant on pi-orbits": true,
+  "product over the punctures = 1": true,
+  "most cusps whose punctures zeta kills, when zeta^4 is a puncture character": 2,
+  "cusps": 4
+ }
+}

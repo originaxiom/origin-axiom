@@ -1,5 +1,25 @@
 # Changelog
 
+## B1545 banked: THE FLOOR AT EVERY MEMBER — I(W₁) ≥ k − m_A − b0 at every finite-order member; sm:B1538's four room-3 covers of the silver pair carry no three
+
+- **Lemma F at members** (proved; THEOREM_REGISTRY T-THE-VANISHING-CUSPS-AT-EVERY-MEMBER). At a finite-order member ν on any
+  finite cover, every class has I(W₁) ≥ k − m_A − b0, with m_A the cusps where ν is trivial.
+  - The proof follows sm:B1544's, with the cusps split three ways: h⁰(T; W₁*) = 2, 1 or 0 as ν, only ν⁴, or neither is
+    trivial on T.
+  - Three, in either order, needs 3 − b0 cusps where ν is trivial and the class vanishes.
+- **Corollary G.** sm:B1538's four room-3 covers each have four cusps, every cusp a pair of punctures. The punctures'
+  character values are constant on cusps and multiply to 1. So a member over a puncture character is trivial on at most two
+  cusps, and **no member there carries three, at any class, in either order.**
+- **Checks by own code.**
+  - `members_check.py`: 288 member readings on 32 covers of sm:B1538's population in route R. Every one gives h⁰(∂N; W₁*) and
+    h¹(∂N; W₁) exactly as the proof says, and satisfies the bound.
+  - `orbit_census.py`: every character of order dividing 24 on the four covers (331,776).
+  - Corollary G's room census is sm:B1538's read-out of 2026-10-04 (CONDITIONAL until its records are regenerated, which is
+    under way).
+- Surfaces: THEOREM_REGISTRY, the kill graph (`too-few-trivial-cusps` for Corollary G), OPEN_LEADS sL-12, CAMPAIGN_STATUS,
+  the alias table, PROGRESS_LOG, RELAY_LEDGER (main read to 201bd35b; the web seat's branch to 3b9e4e65; two seat branches
+  seen for the first time); atlas, views and the claim pool regenerated. 0 of 19.
+
 ## B1544 banked: THE FLOOR AT THE CUP KERNEL — Lemma F proved; the floor holds on the whole cup kernel of N₄₅ and the four degree-60 covers, which carry no three at the trivial character at any class
 
 - **The run.** The banked identity held (18:08:00–18:14:09Z). The sealed run took 18:14:09–18:30:41Z on two workers, rc 0. The

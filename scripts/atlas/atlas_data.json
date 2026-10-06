@@ -10194,6 +10194,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1545": {
+   "slug": "the floor at every member",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "symplectic"
+   ],
+   "refs": [
+    "K6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B154": {
    "slug": "silver bundle foundation",
    "motifs": [

@@ -4107,6 +4107,15 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
      - Open: N₄₅'s classes outside K0 with rk δ¹_W ∈ {1, 2} and support on at most three cusps; members other than the trivial
        character (Lemma F's argument splits the cusps by whether ν is trivial there: three at a member needs such cusps); and
        sm:B1538's room-three members, once its records are regenerated.
+   - **The floor at every member: sm:B1545 banked (2026-10-06), PROVED.**
+     - I(W₁) ≥ k − m_A − b0 at every finite-order member, with m_A the cusps where ν is trivial. Three, in either order, needs
+       3 − b0 cusps where ν is trivial and the class vanishes. A member non-trivial on every cusp counts at most one
+       generation.
+     - **Corollary G:** sm:B1538's four room-3 covers of the silver pair have four cusps of two punctures each. A member over a
+       puncture character is trivial on at most two of them, so none carries three, at any class, in either order. Item (b)
+       above is closed there.
+     - The ingredients were checked by own code at member readings on sm:B1538's covers with three or more cusps (route R).
+       The room census Corollary G closes waits on sm:B1538's regenerated records.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

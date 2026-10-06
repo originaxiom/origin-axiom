@@ -11987,5 +11987,30 @@
     "N_45's classes outside K0, other characters and other covers are not covered"
    ]
   }
+ },
+ {
+  "id": "B1545",
+  "claim_killed": "THE FLOOR AT EVERY MEMBER, Corollary G: that a member of sm:B1515's frame on one of sm:B1538's four room-3 covers of the silver pair (m135's D8.2-0-4.w1 and D8.4-0-2.w4, m136's D8.2-0-4.w3 and D8.4-0-2.w5; sm:B1538's read-out of 2026-10-04 found room 3 only there) carries three generations at some class, in either order. Lemma F at members (I(W1) >= k - m_A - b0, proved and checked by own code at every member reading on sm:B1538's covers with three or more cusps) needs 3 - b0 cusps where the member is trivial; there b0 = 0 and a member whose fourth power is a puncture character is trivial on at most two of the four cusps (the punctures' values are constant on cusps and multiply to 1, enumerated at every character of order dividing 24), and the other members have n(nu^4) = 0 (sm:B1538's Lemma W').",
+  "kill_form": "too-few-trivial-cusps (three needs 3 - b0 cusps where the character is trivial and the class vanishes; on these covers a member over a puncture character is trivial on at most two)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Covers where a member is trivial on three or more cusps (larger fibre-direction covers, or covers with longer monodromy orbits of punctures); sm:B1538's room census itself, to be re-derived from its regenerated records; the floor at classes vanishing on cusps where the member is trivial, which Lemma F leaves open.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-06 at banking time, with content: a corollary of a proved lemma, with its census.",
+  "note": "ENTERED 2026-10-06 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: frontier/B1545_the_floor_at_every_member/verification/members_check.py and orbit_census.py.",
+  "routed_from": "sm-branch-2026-10-06-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "sm:B1538's four room-3 covers of the silver pair, every member and class",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point; members of finite order",
+    "the room census (room 3 only on these four covers within sm:B1538's Part F' scope) is sm:B1538's read-out of 2026-10-04, records being regenerated"
+   ]
+  }
  }
 ]

@@ -1,0 +1,158 @@
+{
+ "id": "B1545",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1544",
+  "B1543",
+  "B1538",
+  "B1536",
+  "B1535",
+  "B1527",
+  "B1515"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "every finite-order member nu of sm:B1515's frame on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class (Lemma F at members: I(W1) >= k - m_A - b0); and sm:B1538's four room-3 covers of the silver pair, m135's D8.2-0-4.w1 and D8.4-0-2.w4 and m136's D8.2-0-4.w3 and D8.4-0-2.w5, every member and class (Corollary G)",
+  "reach": "class",
+  "hypotheses": [
+   "at the hyperbolic point; nu of finite order; the four rho as in sm:B1536",
+   "Corollary G's members whose fourth power is not a puncture character use sm:B1538's Lemma W' (n(nu^4) = 0 there), checked by sm:B1538's control K2",
+   "that the four covers are the only room-3 covers of sm:B1538's Part F' scope is its read-out of 2026-10-04, whose records are being regenerated (LB6, CONDITIONAL); Corollary G's statement about the four covers does not use it",
+   "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question"
+  ]
+ },
+ "claim_one_line": "THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class c of sm:B1515's frame has I(W1) >= k - m_A - b0, m_A the cusps where nu is trivial, k those where c is non-zero, b0 = [nu^4 = 1]; from the identity I = -b0 + h0(dN; W1*) - r1(W1), h0(T; W1*) = 2, 1, 0 on cusps where nu, nu^4, neither is trivial, and r1(W1) <= 3m_A + m_B - k. So three, in either order, needs 3 - b0 cusps where nu is trivial and the class vanishes, and a member non-trivial on every cusp counts at most one generation. Corollary G: on sm:B1538's four room-3 covers of the silver pair (four cusps of two punctures each), a character whose fourth power is a puncture character is trivial on at most two cusps (the punctures' values are constant on cusps and multiply to 1), so no member there carries three, at any class, in either order. The ingredients checked by own code at every member reading on sm:B1538's covers with three or more cusps (route R), and the puncture structure at every character of order dividing 24 on the four covers. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-06)": "79419dd5",
+    "main (at the sweep, 2026-10-06)": "201bd35b",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-06)": "8b89d8fb",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-06)": "c161981d",
+    "the new web seat's branch (at the sweep, 2026-10-06)": "3b9e4e65",
+    "seat/kind-hypatia-uk0vv9 (at the sweep, 2026-10-06)": "6a537f89",
+    "seat/outside-bench (at the sweep, 2026-10-06)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-06)": "5d58b935",
+    "seat/project-thread-hctlox (at the sweep, 2026-10-06)": "3a802c0d",
+    "sep16-branch (at the sweep, 2026-10-06)": "3205984b"
+   },
+   "terms": [
+    "every member",
+    "trivial cusps",
+    "cusps where nu is trivial",
+    "puncture character",
+    "Lemma F",
+    "vanishing cusps",
+    "k - m - 1",
+    "room-three members",
+    "D8.2-0-4",
+    "D8.4-0-2",
+    "trivial on the cusp",
+    "the floor at"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation:frontier/B1544_the_floor_at_the_cup_kernel",
+     "bearing": "Lemma F at the trivial character, which this arc extends to every member"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1538_the_puncture_characters",
+     "bearing": "the covers, their characters and trivial_cusps, Lemma W', and the room census of its read-out of 2026-10-04 (records being regenerated)"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1543_the_line_must_lead",
+     "bearing": "its section 5 item 3 saw I(W) = -b0 at members non-trivial on every cusp where the cup map vanishes; now at every class"
+    },
+    {
+     "where": "main:frontier/B1333_the_index_on_several_cusps",
+     "bearing": "none: an index on several boundary tori for main's own frame (the class index of a vacuum); its trivial cusps are that frame's"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "half lives half dies twisted coefficients torus boundary",
+    "cusp cohomology of SL(2,C) representations hyperbolic three-manifolds",
+    "index of an extension interior cohomology boundary bound"
+   ],
+   "sources": [
+    {
+     "cite": "A. Putman, Half lives, half dies and the signatures of boundaries (note)",
+     "where": "the theorem",
+     "read": "2026-10-06",
+     "says": "the restriction images of H^1(N; E) and H^1(N; E*) are mutual annihilators"
+    },
+    {
+     "cite": "P. Menal-Ferrer and J. Porti, Twisted cohomology for hyperbolic three manifolds, arXiv:1001.2242",
+     "where": "sections 0 and 3.1",
+     "read": "2026-10-06",
+     "says": "cusp-torus cohomology of the holomorphic V_n; the four V_2 (x) conj(V_2) is not treated"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "the identity I(E) = h0(N; E) - h0(N; E*) + h0(dN; E*) - r1(E) (sm:B1527's Lemma E in route R's form)",
+   "source": "sm:B1527, sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1545_the_floor_at_every_member/verification/members_check.py",
+   "how": "at every member reading, I(W1) = n(W1) - n(W1*) equals a0(W1) - a0(W1*) + t0(W1*) - r1(W1) from route R's own ranks"
+  },
+  {
+   "id": "LB2",
+   "input": "the cusp-torus facts: h0(T; W1*) = 2, 1, 0 on the cusps where nu, only nu^4, neither is trivial; h1(T; W1) = 4, 3, 2, 0",
+   "source": "the proof's step (2), and sm:B1544's Lemma F step (2) on the cusps where nu is trivial",
+   "status": "VERIFIED",
+   "check": "frontier/B1545_the_floor_at_every_member/verification/members_check.py",
+   "how": "at every member reading, h0(dN; W1*) = 2|A| + |B| and h1(dN; W1) = the sum of 4, 3, 2, 0 over the cusps, exactly, with the partition read from the character on both peripheral generators of each cusp"
+  },
+  {
+   "id": "LB3",
+   "input": "half lives for the line, r1(L) = |A| + |B|, and the bound r1(W1) <= 3|A| + |B| - k",
+   "source": "Putman; the proof's step (3)",
+   "status": "VERIFIED",
+   "check": "frontier/B1545_the_floor_at_every_member/verification/members_check.py",
+   "how": "at every member reading, r1(W1) <= 3|A| + |B| - k and I(W1) >= k - |A| - b0, in route R"
+  },
+  {
+   "id": "LB4",
+   "input": "sm:B1538's Lemma W': at a character trivial on every puncture, the line has no interior class",
+   "source": "sm:B1538's seal (section 3)",
+   "status": "VERIFIED",
+   "check": "frontier/B1538_the_puncture_characters/verification/controls.py",
+   "how": "sm:B1538's K2: Lemma W' at every puncture-trivial character of its population, in both routes (controls.json; reproduced by its banked identity of 2026-10-06)"
+  },
+  {
+   "id": "LB5",
+   "input": "on the four room-3 covers the punctures' character values are constant on cusps and multiply to 1, so a character whose fourth power is a puncture character kills the punctures of at most two cusps",
+   "source": "the corollary's proof (section 3)",
+   "status": "VERIFIED",
+   "check": "frontier/B1545_the_floor_at_every_member/verification/orbit_census.py",
+   "how": "every invariant character of order dividing 24 on the four covers (331,776 in all) enumerated"
+  },
+  {
+   "id": "LB6",
+   "input": "the four covers are the only room-3 covers of sm:B1538's Part F' scope",
+   "source": "sm:B1538's read-out of 2026-10-04 (recorded in this seat's relay of 2026-10-06, section 3)",
+   "status": "CONDITIONAL",
+   "why": "its records were lost with the seat's container and are being regenerated by the sealed code; Corollary G's statement about the four covers does not use it"
+  },
+  {
+   "id": "LB7",
+   "input": "Theorem C (iii): three needs b0 + n(nu^4) >= 3 and n(nu^3 (x) rho) >= 3",
+   "source": "sm:B1535",
+   "status": "VERIFIED",
+   "check": "frontier/B1535_the_cap/verification/read_out.py",
+   "how": "sm:B1535's sealed read-out checks Theorem C's identities and both caps at all 776 of its readings in every route, and sm:B1536's route R carries the same checks at every reading of its 43,248 rows"
+  }
+ ]
+}

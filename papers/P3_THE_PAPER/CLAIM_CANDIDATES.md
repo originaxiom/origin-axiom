@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1189 settled arcs — 70%** —
+the field is **absent on 828 of 1190 settled arcs — 70%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (116) ∪ on-a-synthesis-surface ∪ law-vocabulary (128) = 617 arcs.**
+**POOL = declared-law (117) ∪ on-a-synthesis-surface ∪ law-vocabulary (128) = 618 arcs.**
 The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.79** on the corpus's own law vocabulary against
-**1.2** for the rest — **2.32×**. The criterion
+**2.77** on the corpus's own law vocabulary against
+**1.2** for the rest — **2.3×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -82,7 +82,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1366` | PROVED | S | | THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs for… |
 | `B1508` | PROVED | S | | THE PATH UNDER THE REFRAME (the owner, 2026-10-01: 'most of these theorems are malinformed, they assume m004 is the only object, and ignore the fact that reality uses mor… |
 
-## §5 withheld — the value wall and the rank wall (136)
+## §5 withheld — the value wall and the rank wall (137)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -111,6 +111,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1527` | PROVED | L | | THE CUSP DECIDES, run as sealed (4f802f15; 51 minutes on four cores; sL-10 item 8): near the hyperbolic point of every word state to length 12, every finite-volume convex… |
 | `B1529` | PROVED | L | | THE EIGENVALUE-ONE LOCUS, run as sealed (44cdb4a6; sL-10 item 9): near the hyperbolic point of every word state to length 12 and of m004's levels M2-M6, no vacuum nu (x) … |
 | `B1535` | PROVED | L | | THE CAP, run as sealed (b410afeb; sL-10 item 14, first half; the owner's 'are u sure about the math behind your negative conclusions about three generatiosn, sure sure su… |
+| `B1545` | PROVED | L | | THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, eve… |
 | `B185` | NEGATIVE | V | | Cusp-gluing selects continuum to discrete but never to a forced-unique value, and 1-cusp metallic units cap all-unit interaction at pairs.… |
 | `B190` | NEGATIVE | V | | Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixed points are non-monotone, the lone unique is trivial.… |
 | `B879` | PROVED | V | | The cc3 selection-cochain harvest (packet sha256 e59df18a, 38 files, preserved verbatim; cc3's own reconciliation addendum CHECKED AND CONFIRMED accurate): six claims ver… |

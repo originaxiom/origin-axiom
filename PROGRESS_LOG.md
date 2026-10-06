@@ -17802,3 +17802,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - After the seal: every mirror of m003 lifts to N₄₅ (rhombic at its fixed cusp); none lifts to the degree-60 covers.
 - Next: the members other than the trivial character (Lemma F's argument at a member), N₄₅'s classes of cup rank 1 or 2, and
   sm:B1538's regeneration.
+
+## 2026-10-06 — B1545 banked: the floor at every member (PROVED, not sealed)
+
+- Lemma F extends from the trivial character to every finite-order member: I(W₁) ≥ k − m_A − b0. Three needs 3 − b0 cusps
+  where the member is trivial and the class vanishes.
+- Corollary G: sm:B1538's four room-3 covers of the silver pair carry no three at any member. The silver pair's puncture
+  characters were the last named three-lead there.
+- Checked by own code at 288 member readings on 32 covers, and at every character of order dividing 24 on the four covers.
+- sm:B1538's Part L regeneration is running (three workers, from 18:44:59Z). Its records will settle the room census
+  Corollary G cites.
