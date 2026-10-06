@@ -3641,3 +3641,35 @@ which set the owner's rule "the family is the object" names — the owner's; **(
 field or a unit (the seat's correction of its own "B1166 verified a dilaton"): if a field it is a long-range scalar and
 is bounded by equivalence-principle and solar-system tests; to be read from the gravity charter before anything is
 tested. Each cell sealed first. ★★
+
+## L250 — THE FRAME OF THE RIGHT PARITY: ONE MISSING OBJECT GATES BOTH NEAREST APPROACHES (registered 2026-10-07, after B1482; source: main's reading of sm:B1300 against GAP6, with the web seat's A1)
+
+**The observation.** Two of the record's closest approaches to physics are blocked by the same thing. (i) *The chirality
+count:* on a smooth closed bulk a bundle is told from its conjugate only in dimension ≡ 2 (mod 4) (GENESIS v1.12, GAP6;
+the web seat's A1), and every frame on the record is flat. (ii) *The weak mixing angle:* B915 died of an empty desert
+(unification ratio 0.528 against 0.717 measured); a supersymmetric spectrum with the Higgs doublets light and the colour
+triplets heavy gives 0.714, but sm:B1300's identity w_D = −2·w_Q is an E₆ weight identity — Q = (1/6, −1, 1) and
+D = (−1/3, 2, −2) under Y, χ, ψ (checked) — so **no flat abelian line that keeps the quark doublet removes the triplet,
+on any state**; with matter kept by invariance the ratio is 0.500. Both need matter *counted by an index* rather than
+*kept by invariance*: a bulk of dimension ≡ 2 (mod 4) with a bundle that is not flat.
+
+**The candidate, and what is known about it without computing anything new.** The six-dimensional frame bundle
+X = Γ\PSL(2,ℂ) of a hyperbolic 3-manifold M (named in GENESIS §8, unbuilt). For closed M it is a compact complex
+threefold with trivial holomorphic tangent bundle, diffeomorphic to M × SO(3). A spin structure on M is a lift
+Γ → SL(2,ℂ), that is a double cover X̃_s = Γ_s\SL(2,ℂ). An orientation-reversing isometry of M acts on X
+antiholomorphically (complex conjugation on PSL(2,ℂ)), and conjugation reverses the odd Chern characters, so in
+dimension six it reverses the index.
+
+**The link to B1479–B1482, stated as a hypothesis to be tested and not banked.** On a + state a mirror fixes a spin
+structure s, so X̃_s carries an antiholomorphic symmetry and a bundle is paired with its conjugate on the same space. On
+a − state no mirror fixes any s (B1479 with B1477's Theorem A): the antiholomorphic map goes from X̃_s to a *different*
+X̃_{s′}. Nothing then pairs a bundle with its conjugate on X̃_s, and a net index is not forbidden. That would be the step
+from the hand (B1481: a phase the mirror negates) to a count.
+
+**Cells, each to be sealed first.** (a) The record's own states are cusped: what replaces the closed frame bundle — the
+boundary is where the bit is decided (B1477). (b) Which bundles on X̃_s are admissible, and does the object supply one
+that is not flat? (Topologically nothing obstructs c₃ ≠ 0 on M × SO(3); the question is holomorphic.) (c) On the
+smallest − state, m003, and on m004: the first computable invariant of X̃_s that differs between the two spin structures
+of m003 and not between m004's. (d) The literature on bundles over Γ\SL(2,ℂ) read on the bench before any of it is
+used (the owner's rule of 2026-10-06). **Kill for the hypothesis:** an antiholomorphic symmetry of X̃_s on a − state, or
+a proof that every admissible bundle there is flat. ★★★
