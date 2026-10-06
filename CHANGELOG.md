@@ -1,5 +1,35 @@
 # Changelog
 
+## B1543 banked: THE LINE MUST LEAD — generic classes carry three only where the line leads the four (PROVED, not sealed)
+
+- **Corollary C′** (from sm:B1535's Theorem C (ii), exactly): I(W₁) ≥ rk δ¹_W − b0 − n(ν⁴), with δ¹_W the cup map y ↦ c ∪ y on
+  the line's classes. A count (−g, −g) needs rk δ¹_W ≤ b0 + n(ν⁴) − g. It holds at all 5,204 banked readings that carry the rank
+  (sm:B1541's 380, sm:B1536's 3,160, sm:B1542's 1,664 after its read-out).
+- **Corollary C″.** rk δ¹_W ≤ min(h¹(N; L), n(ν ⊗ ρ)). So at a class of maximal rank, three needs n(ν³ ⊗ ρ) ≥ 3 and
+  n(ν ⊗ ρ) ≤ b0 + n(ν⁴) − 3. At the trivial character that is 3 ≤ n(ρ) ≤ n(1) − 2: the line must lead the four by two.
+- **Why N₄₅'s generic classes fail.** The cup map is injective there (rank 9 = h¹(N₄₅; ℂ)), so I(W) ≥ 4. It drops only on the
+  classes that come from below, which are the only subspaces with I(W) ≤ 0.
+- **The census.** None of the 117 cyclic covers the banked rows fix meets the criterion: n(1) ≤ 4 and n(1) − n(ρ) ≤ 2. All 117
+  were also read directly, without Lemma A (route N with the cover's own permutation module, route R on its own presentation,
+  and integer homology), and agree.
+- **The deck grading.** On a cyclic cover the deck group grades the cup map, so an eigenspace's classes have a smaller graded
+  bound B_j. Of the 585 eigenspaces of the 117 covers, the graded criterion holds at 16, all empty: on these covers three needs a
+  class below its graded maximal rank.
+- **Where three can live.**
+  - At special classes, below maximal rank (global or graded).
+  - On covers where the line leads, such as cyclic covers along puncture characters with large line supply.
+  - At members with n(ν ⊗ ρ) = 0 and a cusp where ν is trivial.
+  - By the golden lift.
+- **The floor, observed and not proved.** I(W) ≥ −b0 at all 6,756 banked readings that carry the count, including 2,828 where
+  Theorem C (ii) would allow less. Equivalently, the boundary image of H¹(N; W) never exceeds W*'s boundary invariants. If
+  it is a theorem, the frame's W count is at most one generation at every class; deciding it is the next question.
+- **A prediction for sm:B1542** was registered before its read-out (646a4fc4), amended (18b0ac5e) and its assumption stated
+  (c766e9bd), all before the read-out. It held: no (−3, −3).
+- **Seen first.** The repo sweep was run twice, the second time after a fetch. Two sources were read in full text:
+  - Putman's half-lives-half-dies note, Theorem 0.4;
+  - Menal-Ferrer and Porti, Theorem 0.1.
+- ERROR_LEDGER: one row, for a shell slip in the draft (an unquoted heredoc ran its backticked text; no tracked file touched).
+
 ## The audit lane's APEX_SCOPE corrections, re-derived and banked as scope notes (sm:B1367, sm:B1365)
 
 - **sm:B1367** (the doublet–triplet pincer). The cubic's rank identity stands. Its exclusion of every apex design assumed

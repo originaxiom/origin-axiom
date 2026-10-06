@@ -1,0 +1,169 @@
+{
+ "id": "B1543",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1535",
+  "B1536",
+  "B1541",
+  "B1540",
+  "B1515",
+  "B1534",
+  "B1532"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "sm:B1515's frame at a finite-order member nu of a finite cover N of m003 or m004 (the corollaries); sm:B1541's 380 and sm:B1536's 3,160 banked readings (the check); the 117 cyclic covers of sm:B1536's thirty room covers whose every power the banked rows fix (the census), at their trivial characters",
+  "reach": "general",
+  "hypotheses": [
+   "Corollary C' holds at every class; Corollary C'' only at classes where the cup map delta1_W has its maximal rank min(h^1(N; L), n(nu (x) rho)); special classes (below maximal rank) escape C'' but not C'",
+   "a corollary bounds counts, it does not read them: no count is read here, and the generic classes of covers outside the census are not covered",
+   "the census reads the 117 covers' supplies at their trivial characters only; other members of those covers, and covers whose powers the banked rows do not fix, are not covered",
+   "not a selection: which cover, class and member the genesis selects is GENESIS GAP4 and THE_BAR's question",
+   "the floor I(W) >= -b0 is an observation on the banked readings, not a theorem; nothing in the verdict rests on it"
+  ]
+ },
+ "claim_one_line": "THE LINE MUST LEAD: in sm:B1515's frame, sm:B1535's Theorem C (ii) gives exactly I(W1) >= rk delta1_W - b0 - n(nu^4), delta1_W: H^1(N; L) -> H^2(N; V) the cup map y -> c u y (Corollary C'), so a count (-g, -g) needs rk delta1_W <= b0 + n(nu^4) - g; since rk delta1_W <= min(h^1(N; L), n(nu (x) rho)), three at a class of maximal rank needs n(nu^3 (x) rho) >= 3 and n(nu (x) rho) <= b0 + n(nu^4) - 3, at the trivial character 3 <= n(rho) <= n(1) - 2 (Corollary C''). On a cyclic cover the deck group grades the cup map, so an eigenspace's classes have the graded bound B_j = sum_m min(h^1(c^m), n(c^(j+m) rho)). C' holds at every banked reading that carries the rank (sm:B1541's 380, sm:B1536's 3,160, sm:B1542's 1,664 after its read-out). On N_45 the cup map is injective (rank 9) at every generic stratum class, so I(W) >= 4 there; its eigenspaces' generic classes reach only 8 and 4 against a graded bound of 9, so whether generic classes reach the bound is read, not assumed. None of the 117 cyclic covers the banked rows fix meets 3 <= n(rho) <= n(1) - 2 (n(1) <= 4), all read again directly in two routes and by integer homology; of their 585 deck eigenspaces the graded criterion holds only at 16 empty ones. Observed, not proved: I(W) >= -b0 at all 6,756 banked readings that carry the count, including 2,828 where Theorem C (ii) would allow less (equivalently, the boundary image of H^1(N; W) never exceeds W*'s boundary invariants); if it is a theorem, the frame's W count is at most one generation at every class. Three can live at classes of low cup rank, on covers where the line leads (puncture characters), at members with n(nu (x) rho) = 0 and a cusp where nu is trivial, or by the golden lift. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the second sweep, 2026-10-06 15:00Z)": "646a4fc4",
+    "main (at the second sweep, 2026-10-06 15:00Z)": "88ed6981",
+    "origin/audit/fork-2026-09-20 (at the second sweep, 2026-10-06 15:00Z)": "8b89d8fb",
+    "origin/audit/physical-bridge-2026-09-05 (at the second sweep, 2026-10-06 15:00Z)": "c161981d",
+    "origin/<label>/web-seat (a new web seat's branch, first seen at this sweep) (at the second sweep, 2026-10-06 15:00Z)": "2579ca01",
+    "origin/seat/outside-bench (at the second sweep, 2026-10-06 15:00Z)": "13d2c5b6",
+    "origin/seat/paper-review-verification-kaz3f5 (at the second sweep, 2026-10-06 15:00Z)": "5d58b935",
+    "origin/seat/standard-model-derivation-0qt6ao (at the second sweep, 2026-10-06 15:00Z)": "646a4fc4",
+    "origin/main (at the second sweep, 2026-10-06 15:00Z)": "0b4b4786",
+    "origin/sep16-branch (at the second sweep, 2026-10-06 15:00Z)": "3205984b",
+    "seat/standard-model-derivation-0qt6ao (at the first sweep, 2026-10-06 13:55Z)": "dedd2a9b",
+    "main (at the first sweep, 2026-10-06 13:55Z)": "88ed6981"
+   },
+   "terms": [
+    "Corollary C'",
+    "rk d1(E)",
+    "cup map",
+    "connecting map",
+    "maximal rank",
+    "line must lead",
+    "the line leads",
+    "injective cup",
+    "delta1_W",
+    "rk delta",
+    "interior supply",
+    "n(nu x rho)"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation:frontier/B1535_the_cap",
+     "bearing": "Theorem C, whose (ii) is the corollary's premise and whose proof places im delta1_W in K_V; the cap b0 + n(nu^4) is C' at rank 0"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1536_the_finite_covers (route_r.py, route_n.py)",
+     "bearing": "the instruments that record rk d1(E) = rk delta1_W and the identity I(E) = -b0 + k + rk d1(E) - rk d1(E*) with rk d1(E*) <= k + n(L), from which C' also follows; their banked readings are the check's data"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1541_the_count_on_the_room",
+     "bearing": "N_45's 380 readings, the cup ranks by subspace; its kill-graph entry (written 2026-10-06) cites this arc, and is the only other place 'the line leads' and 'delta1_W' appear"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1540_the_room_for_three",
+     "bearing": "the census's construction (pulled_back_rooms.py, room_lib.py) loaded by path, and the Smith forms b1 - cusps = n(1) on N_45 and the degree-60 covers"
+    },
+    {
+     "where": "audit/physical-bridge-2026-09-05:reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/DESIGN.md",
+     "bearing": "names cup maps and a cup annihilator on the cusp torus of its fixed silver member, a local boundary construction; no rank bound for delta1_W"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1509_the_join_on_the_projective_vacuum",
+     "bearing": "none: 'Corollary C' there names another corollary"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "\"half lives, half dies\" lemma 3-manifold boundary image of H^1 half dimension",
+    "Menal-Ferrer Porti twisted cohomology cusped hyperbolic 3-manifolds symmetric powers vanishing restriction to boundary"
+   ],
+   "sources": [
+    {
+     "cite": "A. Putman, Half lives, half dies and the signatures of boundaries (note, dated 1 November 2022)",
+     "where": "Theorem 0.4 with Corollary 0.3",
+     "read": "2026-10-06",
+     "says": "for a compact oriented (2n+1)-manifold with boundary and a field of characteristic not 2, the kernel of H_n(boundary) -> H_n(M) is a Lagrangian, so half-dimensional; for n = 1 and torus cusps the restriction H^1(M) -> H^1(boundary) has rank #cusps"
+    },
+    {
+     "cite": "P. Menal-Ferrer and J. Porti, Twisted cohomology for hyperbolic three manifolds, Osaka J. Math. 49(3) (2012), arXiv:1001.2242v2",
+     "where": "Theorem 0.1",
+     "read": "2026-10-06",
+     "says": "for the holomorphic irreducible V_n, n >= 2, composed with a lift of the holonomy, H^1(M; E_rho_n) injects into H^1(boundary; E_rho_n) with half its dimension (no interior classes); holomorphic representations only, not V_2 (x) conj(V_2)"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "Corollary C' itself, I(W) >= rk delta1_W - b0 - n(L), as a consequence of sm:B1535's Theorem C (ii) (equivalently of route_r's identity I(E) = -b0 + k + rk d1(E) - rk d1(E*) with rk d1(E*) <= k + n(L))",
+   "source": "sm:B1535, sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1543_the_line_must_lead/verification/corollary_check.py",
+   "how": "check_readings(): at every one of the 3,540 banked readings that carry the rank (sm:B1541's 380 in three routes, sm:B1536's Parts P and O in both routes, 3,160), the count I(W) = n(W) - n(W*), computed from the two modules' own cohomology, against rk d1(E) - b0 - n(L) from the long exact sequence's pieces: 0 violations"
+  },
+  {
+   "id": "LB2",
+   "input": "im delta1_W lies in K_V, so rk delta1_W <= n(nu (x) rho) (Corollary C'')",
+   "source": "sm:B1535's proof of Theorem C",
+   "status": "VERIFIED",
+   "check": "frontier/B1543_the_line_must_lead/verification/corollary_check.py",
+   "how": "check_readings(): rk d1(E) <= n(V) at all 3,540 readings, 0 violations"
+  },
+  {
+   "id": "LB3",
+   "input": "Theorem C (i): -n(nu^3 (x) rho) <= I(L2W) <= 0",
+   "source": "sm:B1535",
+   "status": "VERIFIED",
+   "check": "frontier/B1543_the_line_must_lead/verification/corollary_check.py",
+   "how": "check_readings(): at all 3,540 readings, 0 violations"
+  },
+  {
+   "id": "LB4",
+   "input": "Lemma A: on the cyclic cover N_c, n(1) and n(rho) at the trivial character are the sums over the powers of c of the base cover's supplies (the census)",
+   "source": "the golden covers dossier (2026-10-04), sm:B1540; Shapiro's lemma with Mackey at the cusps",
+   "status": "VERIFIED",
+   "check": "frontier/B1543_the_line_must_lead/verification/corollary_check.py",
+   "how": "census_direct() (--direct, record census_direct.json): every one of the 117 census covers built and read at its trivial character without Lemma A -- route N with the cover's own permutation module, route R on the cover's own presentation at another prime, and H_1 by PARI's Smith form -- against Lemma A's sums"
+  },
+  {
+   "id": "LB5",
+   "input": "half lives, half dies at the trivial character: p(1) = #cusps, so h^1(N; C) = n(1) + #cusps (used for N_45's injective cup map, section 3, and the remark I(W) >= #cusps - 1)",
+   "source": "A. Putman's note, Theorem 0.4 (read 2026-10-06)",
+   "status": "VERIFIED",
+   "check": "frontier/B1540_the_room_for_three/verification/room_n45.py",
+   "how": "H_1(N_45) = Z^9 + (Z/2)^2 by PARI's Smith form with five cusps, against n(1) = 4 in routes N and R (and route F, sm:B1541's audit_f.py, at three primes): 9 - 5 = 4; the census's direct readings (LB4) check b1 - cusps = n(1) on all 117 covers"
+  },
+  {
+   "id": "LB6",
+   "input": "the deck grading: Shapiro's isomorphism respects cup products, so a class in the c^j eigenspace has rk delta1_W <= B_j = sum_m min(h^1(N; c^m), n(c^(j+m) rho))",
+   "source": "Shapiro's lemma with Mackey at the cusps (sm:B1536's Lemma S'); this arc's section 1",
+   "status": "VERIFIED",
+   "check": "frontier/B1543_the_line_must_lead/verification/corollary_check.py",
+   "how": "check_b1542() (--b1542, record b1542_check.json): at all 216 eigenspace readings of sm:B1542's record rk delta1_W <= B_j for its cover, and at all 1,664 readings rk delta1_W <= the global bound; on sm:B1541's record the eigenspace ranks 4 and 8 lie below the graded bound 9"
+  },
+  {
+   "id": "LB7",
+   "input": "half lives per power: h^1(N; c^m) = n(c^m) + #{cusps where c^m is trivial}, and the four's h^1(N; c^j rho) = n(c^j rho) + #{cusps where c^j is trivial}",
+   "source": "B1538's Lemma 5 (half lives for unitary characters); A. Putman's note, Theorem 0.4",
+   "status": "VERIFIED",
+   "check": "frontier/B1543_the_line_must_lead/verification/corollary_check.py",
+   "how": "graded_census(): the four's h^1 per eigenspace equals the direct readings of sm:B1542's K2 on its four covers ((5, 0, 0, 4, 0, 0), (5, 0, 2, 2, 2, 0)) and of sm:B1541's K2 on N_45 ((3, 5, 5, 5, 5)), each in two routes; the line's h^1 summed over the powers equals b1(N_c) by the Smith form on all 117 covers (census_direct.json)"
+  }
+ ]
+}

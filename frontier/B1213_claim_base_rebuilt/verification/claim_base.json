@@ -1,7 +1,7 @@
 {
- "settled": 1186,
+ "settled": 1187,
  "declared_true": 97,
- "declared_false": 261,
+ "declared_false": 262,
  "absent": 828,
  "absent_pct": 70,
  "control": {
@@ -1201,7 +1201,8 @@
   "B1532",
   "B1534",
   "B1535",
-  "B1536"
+  "B1536",
+  "B1543"
  ],
  "added_by_vocabulary": [
   "B156",
@@ -1244,7 +1245,8 @@
   "B1239",
   "B1245",
   "B1281",
-  "B1517"
+  "B1517",
+  "B1543"
  ],
  "vocabulary_split": {
   "absent": [
@@ -1378,7 +1380,8 @@
    "B1508",
    "B1513",
    "B1517",
-   "B1520"
+   "B1520",
+   "B1543"
   ]
  }
 }

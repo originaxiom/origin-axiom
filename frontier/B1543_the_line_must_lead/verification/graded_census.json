@@ -1,0 +1,6490 @@
+{
+ "covers": 117,
+ "eigenspaces": 585,
+ "meeting the graded criterion": [
+  [
+   "m003",
+   "d10.13",
+   6,
+   [
+    1,
+    2,
+    4,
+    5
+   ]
+  ],
+  [
+   "m003",
+   "d10.14",
+   6,
+   [
+    1,
+    2,
+    4,
+    5
+   ]
+  ],
+  [
+   "m003",
+   "d10.36",
+   6,
+   [
+    1,
+    2,
+    4,
+    5
+   ]
+  ],
+  [
+   "m003",
+   "d10.38",
+   6,
+   [
+    1,
+    2,
+    4,
+    5
+   ]
+  ]
+ ],
+ "meeting it and non-empty": [],
+ "rows": [
+  {
+   "state": "m004",
+   "cover": "d9.2",
+   "order": 3,
+   "(n(1), n(rho))": [
+    0,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m004",
+   "cover": "d10.24",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m004",
+   "cover": "d10.3",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     1,
+     2,
+     1,
+     2,
+     1,
+     2,
+     1,
+     2,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     1,
+     2,
+     1,
+     2,
+     1,
+     2,
+     1,
+     2,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d9.2",
+   "order": 5,
+   "(n(1), n(rho))": [
+    4,
+    18
+   ],
+   "orders of c on the cusps of N": [
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     0,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     4,
+     4,
+     4,
+     4
+    ],
+    [
+     3,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    9,
+    9,
+    9,
+    9,
+    9
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d9.2",
+   "order": 3,
+   "(n(1), n(rho))": [
+    0,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.10",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     6,
+     6,
+     6,
+     6
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.10",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     2,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     2,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    11
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    3
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     3,
+     1,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0,
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    1,
+    1,
+    3,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 3,
+   "(n(1), n(rho))": [
+    3,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     1,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    2,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1
+    ],
+    [
+     6,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    3
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     6,
+     6,
+     6,
+     6
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    11
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    2,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     2,
+     4,
+     2,
+     4,
+     2,
+     4,
+     2,
+     4,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     1,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     6,
+     2,
+     6,
+     2,
+     6,
+     3,
+     6,
+     2,
+     6,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    6,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     5,
+     1,
+     0,
+     2,
+     0,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0,
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    1,
+    1,
+    3,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    11
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    2,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     1,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     2,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    11,
+    6,
+    11,
+    6,
+    11,
+    6,
+    11,
+    6,
+    11,
+    6
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    7
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    6,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     4,
+     1,
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     1,
+     2,
+     0
+    ],
+    [
+     5,
+     0,
+     2,
+     2,
+     2,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    3,
+    3,
+    4,
+    3,
+    3
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     2,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    2,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     0,
+     2,
+     1,
+     2,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1,
+    2,
+    1,
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     2,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.19",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     6,
+     6,
+     6,
+     6
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.19",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.2",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.2",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     2,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.22",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.22",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    6,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     1,
+     1,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 3,
+   "(n(1), n(rho))": [
+    3,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     1,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     1,
+     4,
+     1,
+     4,
+     1,
+     4,
+     1,
+     4,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    6,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.27",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     6,
+     6,
+     6,
+     6
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.27",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    11
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    3
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 3,
+   "(n(1), n(rho))": [
+    3,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     1,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     3,
+     1,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0,
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    1,
+    1,
+    3,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1
+    ],
+    [
+     6,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    3
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     6,
+     6,
+     6,
+     6
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    11
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     2,
+     4,
+     2,
+     4,
+     2,
+     4,
+     2,
+     4,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     1,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     6,
+     2,
+     6,
+     2,
+     6,
+     3,
+     6,
+     2,
+     6,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3,
+    3,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     5,
+     1,
+     0,
+     2,
+     0,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0,
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    1,
+    1,
+    3,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     2,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     2,
+     2,
+     2,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    11
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     1,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     2,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    11,
+    6,
+    11,
+    6,
+    11,
+    6,
+    11,
+    6,
+    11,
+    6
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    7
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     4,
+     1,
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     1,
+     2,
+     0
+    ],
+    [
+     5,
+     0,
+     2,
+     2,
+     2,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    3,
+    3,
+    4,
+    3,
+    3
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     2,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    3
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    3,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    6,
+    3,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     0,
+     2,
+     1,
+     2,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1,
+    2,
+    1,
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    6
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     2,
+     2
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    2,
+    2
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    2,
+    1,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.6",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     6,
+     6,
+     6,
+     6
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.6",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     6,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     1,
+     4,
+     1,
+     4,
+     1,
+     4,
+     1,
+     4,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 6,
+   "(n(1), n(rho))": [
+    3,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    6,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     1,
+     1,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    5
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     4,
+     4,
+     4,
+     4
+    ]
+   ],
+   "graded bounds B_j": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 3,
+   "(n(1), n(rho))": [
+    3,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     1,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    1
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    1,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 10,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1,
+     3,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1,
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5,
+    10,
+    5
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 6,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    6,
+    6
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 5,
+   "(n(1), n(rho))": [
+    1,
+    10
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    1,
+    1
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   ],
+   "graded bounds B_j": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 3,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    3,
+    3,
+    3
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     5,
+     0,
+     0
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    0,
+    0
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 2,
+   "(n(1), n(rho))": [
+    1,
+    2
+   ],
+   "orders of c on the cusps of N": [
+    1,
+    2,
+    2
+   ],
+   "line: n, h^1 by power": [
+    [
+     1,
+     0
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "four: n, h^1 by power": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "graded bounds B_j": [
+    2,
+    1
+   ],
+   "eigenspaces meeting the graded criterion": [],
+   "of them non-empty": []
+  }
+ ]
+}

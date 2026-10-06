@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1289** |
-| words of findings prose | **1,121,079** |
-| test lock files referenced | **788** |
-| arcs carrying an authored verdict | **1289** (100.0 %) |
+| research arcs with findings | **1290** |
+| words of findings prose | **1,124,986** |
+| test lock files referenced | **789** |
+| arcs carrying an authored verdict | **1290** (100.0 %) |
 | recorded closures | **828** (661 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -36,7 +36,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 857 |
+| PROVED | 858 |
 | NEGATIVE | 331 |
 | OPEN | 90 |
 | RETRACTED | 11 |
@@ -68,9 +68,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1540`** (2370 words, 0 locks)  
-THE ROOM FOR THREE, AT THE GOLDEN AND THE EISENSTEIN ORDERS: summed by Lemma A over the pulled-back characters of sm:B1536's thirty room covers, the banked rows give room min(capW, capL2) >= 3 at the trivial character of seven cyclic covers of m003, each read directly by route N (Shapiro on m003), route R (the cover's own presentation, another prime) and integer homology: N_45 (m003's d9.2 along the order-5 character from m003's Z/5 torsion, over Q(zeta_5) which contains Q(phi)) has (n(1), n(rho)) = (4, 18), room 5, H_1 = Z^9 + (Z/2)^2 with five cusps, and the count (0, 0) at its pulled-back class; six covers of degree 60 (the 6-fold cyclic covers of m003's d10.13, d10.14, d10.36, d10.38 and d10.16, d10.40 along a pulled-back order-6 character through the fibration, over Q(sqrt(-3))) have (3, 3), room 3, and (3, 7), room 4, H_1 = Z^9 or Z^7 + Z/4 + Z/12, four covers of m003 up to conjugacy. On m004 the pulled-back characters restrict trivially (room 1). sm:B1536 found room 2 at most to degree 12. Room is not a count; N_45's classes are sm:B1541's sealed question and the degree-60 covers' are next. 0 of 19.  
-`B1540_the_room_for_three/FINDINGS.md`
+**PROVED — `B1543`** (3907 words, 1 locks)  
+THE LINE MUST LEAD: in sm:B1515's frame, sm:B1535's Theorem C (ii) gives exactly I(W1) >= rk delta1_W - b0 - n(nu^4), delta1_W: H^1(N; L) -> H^2(N; V) the cup map y -> c u y (Corollary C'), so a count (-g, -g) needs rk delta1_W <= b0 + n(nu^4) - g; since rk delta1_W <= min(h^1(N; L), n(nu (x) rho)), three at a class of maximal rank needs n(nu^3 (x) rho) >= 3 and n(nu (x) rho) <= b0 + n(nu^4) - 3, at the trivial character 3 <= n(rho) <= n(1) - 2 (Corollary C''). On a cyclic cover the deck group grades the cup map, so an eigenspace's classes have the graded bound B_j = sum_m min(h^1(c^m), n(c^(j+m) rho)). C' holds at every banked reading that carries the rank (sm:B1541's 380, sm:B1536's 3,160, sm:B1542's 1,664 after its read-out). On N_45 the cup map is injective (rank 9) at every generic stratum class, so I(W) >= 4 there; its eigenspaces' generic classes reach only 8 and 4 against a graded bound of 9, so whether generic classes reach the bound is read, not assumed. None of the 117 cyclic covers the banked rows fix meets 3 <= n(rho) <= n(1) - 2 (n(1) <= 4), all read again directly in two routes and by integer homology; of their 585 deck eigenspaces the graded criterion holds only at 16 empty ones. Observed, not proved: I(W) >= -b0 at all 6,756 banked readings that carry the count, including 2,828 where Theorem C (ii) would allow less (equivalently, the boundary image of H^1(N; W) never exceeds W*'s boundary invariants); if it is a theorem, the frame's W count is at most one generation at every class. Three can live at classes of low cup rank, on covers where the line leads (puncture characters), at members with n(nu (x) rho) = 0 and a cusp where nu is trivial, or by the golden lift. 0 of 19.  
+`B1543_the_line_must_lead/FINDINGS.md`
 
 **NEGATIVE — `B1541`** (2472 words, 1 locks)  
 THE COUNT ON THE ROOM: on N_45, the degree-45 cover of m003 where room for three first appears ((n(1), n(rho)) = (4, 18), room 5), no generic class of the 42 subspaces read carries a generation-shaped count of the frame (NEGATIVE, scoped, run as sealed; read out once 2026-10-06 12:42Z after the run was repeated from the start, its first record lost unread with the seat's container). P1, P2, P3, P6 hold (the transport agrees at every class; one count per subspace across draws, routes and primes; every identity; the pulled-back class (0, 0)); P4 and P5 False. The generic counts: cusp strata (4, -10) for at most two free cusps, (5, -7), (5, -6), (5, -5) for three, four, five; the deck group's eigenspaces zeta^0 (0, -5), interior (-1, -10), zeta^1..4 (5, -5), interiors (3, -10). Route F, the independent audit (separate code, a second presentation, three other primes), returns the run's count at all 54 of its readings, all non-zero. n(L2W*) = n(rho) = 18 at every class read. 4 of 6 predictions held (4.12 expected). 0 of 19.  

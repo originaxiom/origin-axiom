@@ -4073,6 +4073,22 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
        cover a pulled-back class counts as the sum of its five members below. Banked rows fix that sum for the pulled-back
        class on every banked cover; 210 cosets, none generation-shaped (read while designing, to be banked by its arc).
      - Next: the degree-60 covers (sm:B1542, sealed and running); then sm:B1538's room-three members of the silver pair.
+   - **Where generic classes can carry three: sm:B1543 banked (2026-10-06), PROVED.**
+     - From Theorem C (ii): I(W₁) ≥ rk δ¹_W − b0 − n(ν⁴), δ¹_W the cup map on the line's classes (Corollary C′).
+     - At a class of maximal cup rank, three needs n(ν³ ⊗ ρ) ≥ 3 and n(ν ⊗ ρ) ≤ b0 + n(ν⁴) − 3. At the trivial character
+       that is 3 ≤ n(ρ) ≤ n(1) − 2: the line must lead the four by two.
+     - N₄₅'s generic classes have an injective cup map (I(W) ≥ 4). None of the 117 cyclic covers the banked rows fix has the
+       line leading; room for three is necessary, not sufficient.
+     - The deck grading gives an eigenspace's classes their own graded bound. Of the 585 eigenspaces of those covers, the
+       graded criterion holds only at 16, all empty.
+     - Open, in order:
+       - (a) the line-leads census on sm:B1538's puncture characters: n(χʲ ⊗ ρ) beside n(χʲ), and Lemma A's sums on N_χ;
+       - (b) the members with n(ν ⊗ ρ) = 0 and a cusp where ν is trivial;
+       - (c) special classes below maximal rank;
+       - (d) the golden lift of sm:B1542's covers.
+     - **The floor (observed, not proved).** I(W) ≥ −b0 at all 6,756 banked readings that carry the count, including 2,828 where
+       Theorem C (ii) allows less. If it is a theorem, the frame's W count is at most one generation at every class, and (a)–(d)
+       cannot reach three in this frame. Proving it or breaking it comes first.
 2. **The icosian line on the golden states** (structure computed; no outcome read).
    - Of the 76 kernels F₂ → 2I, each golden state's monodromy fixes 2, and the silver states' none (the silver states fix
      four binary octahedral kernels instead). This is not a golden selection: 28 of the 50 word states of length 2 to 6 fix

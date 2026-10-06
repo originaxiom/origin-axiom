@@ -1,0 +1,3842 @@
+{
+ "covers": 117,
+ "all agree": true,
+ "meeting 3 <= n(rho) <= n(1) - 2 (route N and route R)": [],
+ "rows": [
+  {
+   "state": "m004",
+   "cover": "d9.2",
+   "order": 3,
+   "degree": 27,
+   "cusps": 1,
+   "Lemma A (n(1), n(rho))": [
+    0,
+    2
+   ],
+   "route N": [
+    16773481,
+    0,
+    2,
+    1,
+    2
+   ],
+   "route R": [
+    2147482801,
+    0,
+    2,
+    1,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    1,
+    [
+     4,
+     4,
+     76,
+     76
+    ],
+    0
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m004",
+   "cover": "d10.24",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m004",
+   "cover": "d10.3",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 10,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 6,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 5,
+   "degree": 25,
+   "cusps": 10,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    11,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 3,
+   "degree": 15,
+   "cusps": 2,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    3,
+    [
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.2",
+   "order": 2,
+   "degree": 10,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16776961,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482921,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 10,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 6,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 5,
+   "degree": 25,
+   "cusps": 10,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    11,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 3,
+   "degree": 15,
+   "cusps": 2,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    3,
+    [
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d5.3",
+   "order": 2,
+   "degree": 10,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16776961,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482921,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d9.2",
+   "order": 5,
+   "degree": 45,
+   "cusps": 5,
+   "Lemma A (n(1), n(rho))": [
+    4,
+    18
+   ],
+   "route N": [
+    16775281,
+    4,
+    18,
+    5,
+    18
+   ],
+   "route R": [
+    2147482801,
+    4,
+    18,
+    5,
+    18
+   ],
+   "H_1; b1 - cusps": [
+    9,
+    [
+     2,
+     2
+    ],
+    4
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d9.2",
+   "order": 3,
+   "degree": 27,
+   "cusps": 1,
+   "Lemma A (n(1), n(rho))": [
+    0,
+    2
+   ],
+   "route N": [
+    16773481,
+    0,
+    2,
+    1,
+    2
+   ],
+   "route R": [
+    2147482801,
+    0,
+    2,
+    1,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    1,
+    [
+     2,
+     2,
+     170,
+     170
+    ],
+    0
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.10",
+   "order": 5,
+   "degree": 50,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.10",
+   "order": 3,
+   "degree": 30,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     4,
+     12
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 5,
+   "degree": 50,
+   "cusps": 10,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    11,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.11",
+   "order": 3,
+   "degree": 30,
+   "cusps": 2,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    3,
+    [
+     2,
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 5,
+   "degree": 50,
+   "cusps": 10,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    11,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 3,
+   "degree": 30,
+   "cusps": 2,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    3,
+    [
+     2,
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.12",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 10,
+   "degree": 100,
+   "cusps": 30,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    11
+   ],
+   "route N": [
+    16776961,
+    1,
+    11,
+    2,
+    11
+   ],
+   "route R": [
+    2147482921,
+    1,
+    11,
+    2,
+    11
+   ],
+   "H_1; b1 - cusps": [
+    31,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16776961,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482921,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 2,
+   "degree": 20,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    3
+   ],
+   "route N": [
+    16776961,
+    1,
+    3,
+    2,
+    3
+   ],
+   "route R": [
+    2147482921,
+    1,
+    3,
+    2,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 6,
+   "degree": 60,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    3
+   ],
+   "route N": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.13",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    2
+   ],
+   "route N": [
+    16775281,
+    3,
+    2,
+    4,
+    2
+   ],
+   "route R": [
+    2147482801,
+    3,
+    2,
+    4,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    6,
+    [
+     3
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 2,
+   "degree": 20,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    3
+   ],
+   "route N": [
+    16776961,
+    1,
+    3,
+    2,
+    3
+   ],
+   "route R": [
+    2147482921,
+    1,
+    3,
+    2,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 5,
+   "degree": 50,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 10,
+   "degree": 100,
+   "cusps": 30,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    11
+   ],
+   "route N": [
+    16776961,
+    1,
+    11,
+    2,
+    11
+   ],
+   "route R": [
+    2147482921,
+    1,
+    11,
+    2,
+    11
+   ],
+   "H_1; b1 - cusps": [
+    31,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 6,
+   "degree": 60,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    3
+   ],
+   "route N": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.14",
+   "order": 3,
+   "degree": 30,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    11
+   ],
+   "route N": [
+    16776961,
+    1,
+    11,
+    2,
+    11
+   ],
+   "route R": [
+    2147482921,
+    1,
+    11,
+    2,
+    11
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    7
+   ],
+   "route N": [
+    16775281,
+    3,
+    7,
+    4,
+    7
+   ],
+   "route R": [
+    2147482801,
+    3,
+    7,
+    4,
+    7
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16775281,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482801,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.16",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    3
+   ],
+   "route N": [
+    16776961,
+    1,
+    3,
+    2,
+    3
+   ],
+   "route R": [
+    2147482921,
+    1,
+    3,
+    2,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16775281,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482801,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16775281,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482801,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.17",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.18",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.19",
+   "order": 5,
+   "degree": 50,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.19",
+   "order": 3,
+   "degree": 30,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     4,
+     12
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.2",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.2",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 5,
+   "degree": 50,
+   "cusps": 10,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    11,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 3,
+   "degree": 30,
+   "cusps": 2,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    3,
+    [
+     2,
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.21",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.22",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.22",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    1
+   ],
+   "route N": [
+    16775281,
+    3,
+    1,
+    4,
+    1
+   ],
+   "route R": [
+    2147482801,
+    3,
+    1,
+    4,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [
+     2,
+     4,
+     4
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    1
+   ],
+   "route N": [
+    16775281,
+    3,
+    1,
+    4,
+    1
+   ],
+   "route R": [
+    2147482801,
+    3,
+    1,
+    4,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    6,
+    [],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16776961,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482921,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.23",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.24",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.27",
+   "order": 5,
+   "degree": 50,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.27",
+   "order": 3,
+   "degree": 30,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     4,
+     12
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 10,
+   "degree": 100,
+   "cusps": 30,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    11
+   ],
+   "route N": [
+    16776961,
+    1,
+    11,
+    2,
+    11
+   ],
+   "route R": [
+    2147482921,
+    1,
+    11,
+    2,
+    11
+   ],
+   "H_1; b1 - cusps": [
+    31,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16776961,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482921,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 2,
+   "degree": 20,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    3
+   ],
+   "route N": [
+    16776961,
+    1,
+    3,
+    2,
+    3
+   ],
+   "route R": [
+    2147482921,
+    1,
+    3,
+    2,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    2
+   ],
+   "route N": [
+    16775281,
+    3,
+    2,
+    4,
+    2
+   ],
+   "route R": [
+    2147482801,
+    3,
+    2,
+    4,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    6,
+    [
+     3
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.36",
+   "order": 6,
+   "degree": 60,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    3
+   ],
+   "route N": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 2,
+   "degree": 20,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    3
+   ],
+   "route N": [
+    16776961,
+    1,
+    3,
+    2,
+    3
+   ],
+   "route R": [
+    2147482921,
+    1,
+    3,
+    2,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 5,
+   "degree": 50,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 10,
+   "degree": 100,
+   "cusps": 30,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    11
+   ],
+   "route N": [
+    16776961,
+    1,
+    11,
+    2,
+    11
+   ],
+   "route R": [
+    2147482921,
+    1,
+    11,
+    2,
+    11
+   ],
+   "H_1; b1 - cusps": [
+    31,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 6,
+   "degree": 60,
+   "cusps": 6,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    3
+   ],
+   "route N": [
+    16775281,
+    3,
+    3,
+    4,
+    3
+   ],
+   "route R": [
+    2147482801,
+    3,
+    3,
+    4,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    9,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.38",
+   "order": 3,
+   "degree": 30,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 5,
+   "degree": 50,
+   "cusps": 10,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    11,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 3,
+   "degree": 30,
+   "cusps": 2,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16775281,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482801,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    3,
+    [
+     2,
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.39",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.4",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    11
+   ],
+   "route N": [
+    16776961,
+    1,
+    11,
+    2,
+    11
+   ],
+   "route R": [
+    2147482921,
+    1,
+    11,
+    2,
+    11
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    7
+   ],
+   "route N": [
+    16775281,
+    3,
+    7,
+    4,
+    7
+   ],
+   "route R": [
+    2147482801,
+    3,
+    7,
+    4,
+    7
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [
+     4,
+     12
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16775281,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482801,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     2,
+     2,
+     2,
+     6
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.40",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    3
+   ],
+   "route N": [
+    16776961,
+    1,
+    3,
+    2,
+    3
+   ],
+   "route R": [
+    2147482921,
+    1,
+    3,
+    2,
+    3
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16775281,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482801,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    6
+   ],
+   "route N": [
+    16775281,
+    1,
+    6,
+    2,
+    6
+   ],
+   "route R": [
+    2147482801,
+    1,
+    6,
+    2,
+    6
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.5",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.6",
+   "order": 5,
+   "degree": 50,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.6",
+   "order": 3,
+   "degree": 30,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     4,
+     12
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    1
+   ],
+   "route N": [
+    16775281,
+    3,
+    1,
+    4,
+    1
+   ],
+   "route R": [
+    2147482801,
+    3,
+    1,
+    4,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    7,
+    [
+     2,
+     4,
+     4
+    ],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    5
+   ],
+   "route N": [
+    16776961,
+    1,
+    5,
+    2,
+    5
+   ],
+   "route R": [
+    2147482921,
+    1,
+    5,
+    2,
+    5
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    3,
+    1
+   ],
+   "route N": [
+    16775281,
+    3,
+    1,
+    4,
+    1
+   ],
+   "route R": [
+    2147482801,
+    3,
+    1,
+    4,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    6,
+    [],
+    3
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.8",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    1
+   ],
+   "route N": [
+    16776961,
+    1,
+    1,
+    2,
+    1
+   ],
+   "route R": [
+    2147482921,
+    1,
+    1,
+    2,
+    1
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     2
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 10,
+   "degree": 100,
+   "cusps": 20,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    21,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 6,
+   "degree": 60,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [
+     8,
+     8,
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 5,
+   "degree": 50,
+   "cusps": 15,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    10
+   ],
+   "route N": [
+    16776961,
+    1,
+    10,
+    2,
+    10
+   ],
+   "route R": [
+    2147482921,
+    1,
+    10,
+    2,
+    10
+   ],
+   "H_1; b1 - cusps": [
+    16,
+    [],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 3,
+   "degree": 30,
+   "cusps": 3,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16775281,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482801,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    4,
+    [
+     8,
+     24
+    ],
+    1
+   ],
+   "agrees": true
+  },
+  {
+   "state": "m003",
+   "cover": "d10.9",
+   "order": 2,
+   "degree": 20,
+   "cusps": 4,
+   "Lemma A (n(1), n(rho))": [
+    1,
+    2
+   ],
+   "route N": [
+    16776961,
+    1,
+    2,
+    2,
+    2
+   ],
+   "route R": [
+    2147482921,
+    1,
+    2,
+    2,
+    2
+   ],
+   "H_1; b1 - cusps": [
+    5,
+    [],
+    1
+   ],
+   "agrees": true
+  }
+ ],
+ "seconds": 446.1
+}

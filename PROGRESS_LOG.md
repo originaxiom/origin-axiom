@@ -17676,3 +17676,21 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Both corrections checked with own code: Witten's ℤ₄ transport mechanism splits doublets from triplets (so sm:B1367's
   exclusion holds for couplings on whole 27s), and two of sm:B1365's torus points have order 12 on the 27 (its deck test is
   unaffected). Headline rescoped with the old text archived; ledgers and companions updated.
+
+## 2026-10-06 — B1543 banked: the line must lead (PROVED, not sealed)
+
+- Corollary C′ from sm:B1535's Theorem C (ii): I(W) ≥ rk δ¹_W − b0 − n(ν⁴). It holds at all 3,540 banked readings with the rank.
+  At maximal cup rank (C″), three needs n(ν ⊗ ρ) ≤ b0 + n(ν⁴) − 3, at the trivial character 3 ≤ n(ρ) ≤ n(1) − 2.
+- N₄₅'s generic classes have an injective cup map, so I(W) ≥ 4: the structural reason behind sm:B1541's NEGATIVE.
+- The census: none of the 117 cyclic covers the banked rows fix has the line leading. All 117 were read again directly, without
+  Lemma A, in two routes and by integer homology, and agree.
+- The deck grading: an eigenspace's classes have their own graded bound on the cup rank. Of 585 eigenspaces, the graded
+  criterion holds only at 16 empty ones. The prediction for sm:B1542 was amended for it before the read-out (18b0ac5e).
+- Literature read in full text (Putman's note; Menal-Ferrer and Porti). The repo sweep was re-run over every head after an
+  accidental fetch (a shell slip, ERROR_LEDGER).
+- sm:B1542 read out (NEGATIVE, audit running); its record checked here: C′ at all 1,664 readings, the deck grading at all 216
+  eigenspace readings.
+- The floor, observed and not proved: I(W) ≥ −b0 at all 6,756 banked readings that carry the count. If it is a theorem, this
+  frame hosts at most one generation at every class.
+- Next: prove or break the floor; the line-leads census on sm:B1538's puncture characters once its records are regenerated;
+  the golden characters of the degree-60 covers.

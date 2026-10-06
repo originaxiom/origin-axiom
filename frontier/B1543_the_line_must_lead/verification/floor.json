@@ -1,0 +1,34 @@
+{
+ "by record": {
+  "sm:B1535 Part M": {
+   "readings": 1552,
+   "I(W) = -b0": 288,
+   "I(W) < -b0": 0,
+   "with n(nu^4) >= 1": 0,
+   "lowest I(W) + b0": 0
+  },
+  "sm:B1536 Parts P and O": {
+   "readings": 3160,
+   "I(W) = -b0": 1728,
+   "I(W) < -b0": 0,
+   "with n(nu^4) >= 1": 784,
+   "lowest I(W) + b0": 0
+  },
+  "sm:B1541": {
+   "readings": 380,
+   "I(W) = -b0": 9,
+   "I(W) < -b0": 0,
+   "with n(nu^4) >= 1": 380,
+   "lowest I(W) + b0": 0
+  },
+  "sm:B1542": {
+   "readings": 1664,
+   "I(W) = -b0": 666,
+   "I(W) < -b0": 0,
+   "with n(nu^4) >= 1": 1664,
+   "lowest I(W) + b0": 0
+  }
+ },
+ "readings": 6756,
+ "below the floor": 0
+}

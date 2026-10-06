@@ -10146,6 +10146,28 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1543": {
+   "slug": "the line must lead",
+   "motifs": [
+    "monoid",
+    "closing",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "golden",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "K1",
+    "K2"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 25,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B154": {
    "slug": "silver bundle foundation",
    "motifs": [
