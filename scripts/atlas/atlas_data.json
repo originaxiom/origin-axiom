@@ -10033,6 +10033,42 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1482": {
+   "slug": "the sign is the cancelling move",
+   "motifs": [
+    "kappa",
+    "golden"
+   ],
+   "refs": [
+    "B101",
+    "B105",
+    "B127",
+    "B161",
+    "B269",
+    "B288",
+    "B309",
+    "B347",
+    "B351",
+    "B353",
+    "B392",
+    "B49",
+    "B561",
+    "B647",
+    "B740",
+    "B930",
+    "B935",
+    "B990",
+    "P008",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [

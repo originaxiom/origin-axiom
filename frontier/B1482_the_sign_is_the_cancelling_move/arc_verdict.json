@@ -1,0 +1,23 @@
+{
+ "id": "B1482",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1479",
+  "B1481",
+  "B1480",
+  "B1454"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the grammar of GENESIS sections 2-3)",
+  "object": "the moves L, R, P, -I in GL(2,Z) and the positive words in L, R",
+  "reach": "general",
+  "hypotheses": "the definitions only; the link to handedness rests on B1479 and B1481 (census laws to length 12); the reading of PF1 is not part of the verdict"
+ },
+ "claim_one_line": "THE SIGN IS THE CANCELLING MOVE (the crossing plan's option 1: does the principle generate the sign?). Four statements, proved and enumerated: S1 words in L, R and the swap P have non-negative entries and never give a - state; S2 no - state is a square in GL(2,Z) (tr X^2 >= -2, tr(-w) <= -3), so an act squared -- act plus register, the orientation double cover -- is always a + state; S3 the single central move -I, which negates both records, gives every state its sign-twin with no inverse letter; S4 -I does not bring inverse letters with it (L^-1 is not +- a positive word). So GENESIS' GM5b was over-stated (inverse letters suffice for the signed states and are not needed), and what excludes the sign is positivity (GM5d, CHOSEN): the - states, on which every spin structure carries a hand (B1479, B1481), are exactly what a chosen restriction removes. FK4 becomes one question -- is negating the records a legal move? GENESIS v1.14. A reading, labelled and outside the verdict: PF1's own verb, cancelling, is that move, and a - state is a description with one failed attempt to cancel it. 0 of 19."
+}

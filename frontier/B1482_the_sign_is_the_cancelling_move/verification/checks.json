@@ -1,0 +1,28 @@
+{
+ "S1": {
+  "words_to_length": 10,
+  "distinct_matrices": 3070,
+  "all_entries_nonnegative": true,
+  "equal_to_minus_identity": 0
+ },
+ "positive_hyperbolic_matrices_to_length_12": 8166,
+ "min_trace": 3,
+ "S2": {
+  "min_trace_of_a_square_in_GL2Z_entries_to_12": -2,
+  "max_trace_of_minus_a_word": -3,
+  "squares_with_trace_below_minus_2": 0
+ },
+ "S3": {
+  "minus_identity_commutes_with_L_R_P": true,
+  "minus_identity_squared_is_identity": true,
+  "twins_are_new": true
+ },
+ "S4": {
+  "L_inverse_has_one_sign": false,
+  "every_pm_positive_word_has_one_sign": true,
+  "the_record_s_two_words_for_minus_identity": {
+   "(L R^-1 L)^2": true,
+   "(L^2 R^-1)^2": true
+  }
+ }
+}

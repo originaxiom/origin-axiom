@@ -16293,3 +16293,17 @@ Arc **B1480** (NEGATIVE, scoped to one hypothesis; no law). Gates 43 of 43; full
 **The imported expectation, stated separately:** none. **0 of 19.**
 
 Arc **B1481** (PROVED for three of four sealed predictions, the fourth failed and reported; creates T-HAND-IS-A-PHASE, a census law). Gates 43 of 43; full suite 7089 passed, 2 failed (the new arc's live control depended on the order of imports in the shared test process — now run in a fresh interpreter; and a one-commit session branch appeared on origin during the run and was outside the gate — registered as watched, pinned at its head, unverified and unintegrated), both re-run green with their neighbours, 68 skipped.
+
+## 2026-10-07 — S64 THE SIGN IS THE CANCELLING MOVE (B1482; GENESIS v1.14; the crossing plan's option 1): the handed states need one move beyond L and R — negating both records — and no inverse letter; nothing the act does can produce them; positivity, which the genesis marks as chosen, is exactly what excludes them.
+
+**The occasion.** The owner asked for the options; main recommended starting with the one that goes to the principle: *does the principle generate the sign?* — the sign B1479 found to be the fermionic bit and B1481 found to carry a hand on every spin structure.
+
+**B1482 — four statements, proved and enumerated.** S1: words in L, R and the swap P have non-negative entries, so they never give −I or a − state (3,070 matrices to length 10). S2: no − state is a square — in GL(2,ℤ) tr X² ≥ −2 while a − state has trace ≤ −3 — so an act squared, "act plus register", the orientation double cover, is always a + state. S3: the single central move −I, which negates both records, gives every state its sign-twin with no inverse letter. S4: −I does not bring inverse letters with it (L⁻¹ is not ± a positive word).
+
+**What it corrects on the foundations page (GENESIS v1.14).** GM5b said inverse moves were "needed for the signed states"; they suffice and are not needed — one central move is, independent of the inverse-letter fork. GM5d, positivity, marked CHOSEN, is what excludes −I: under it the grammar generates the + states and the non-orientable ones, and **the − states — the ones on which every spin structure is handed — are exactly what a chosen restriction removes.** FK4 becomes one question: is negating the records a legal move?
+
+**A reading, labelled and outside the verdict.** PF1's own verb is cancelling; on a pair of records cancelling is negation, the move −I; a − state is then a description with one failed attempt to cancel it. It would be supported if the handed side carries what the other lacks on the line to physics, undercut if it proves empty.
+
+**What it means.** For chirality: the seat of the hand is one move away from the generated states, and the rule keeping it out is a choice the record never derived. For generations: nothing computed. **The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1482** (PROVED; four elementary statements; creates T-SIGN-IS-ONE-MOVE). Gates 43 of 43; full suite 7094 passed, 0 failed, 68 skipped.
