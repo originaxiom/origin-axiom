@@ -6,7 +6,11 @@ the same index triple.  We therefore compute `index` once per (deck orbit, prime
 everywhere else.  Validated against full-census cells before use (validate()).
 """
 import sys, json
+import os
 import first_background as F
+if os.environ.get('SHORT') == '1':
+    import short_cover
+    F.bundle_cover = short_cover.short_cover          # same group, short relators (validated)
 CC = F.CC
 _index = CC.index
 _module = CC.module
