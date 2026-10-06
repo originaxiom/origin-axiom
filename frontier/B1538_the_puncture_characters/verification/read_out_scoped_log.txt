@@ -1,0 +1,4 @@
+P7': False
+P8': False
+verdict: PROVED
+{"scope": {"candidates": 64422, "planned readings": 948832288, "in scope": 12152, "in scope, planned readings": 501792, "in scope, by state": {"m004": [8, 416], "m003": [42, 2688], "m136": [4923, 277504], "m135": [7179, 221184]}, "out of scope": 52270, "out of scope, planned readings": 948330496}, "out-of-scope hits removed from Part L's rows (that call only)": 52270, "in-scope Part F rows": 513944, "Part F (in scope)": {"candidates": 12152, "planned readings": 501792, "readings": 501792, "members": 10346, "members with capL2 >= 2": 5592, "routes agree": true, "complete": true, "problems": {"missing candidates": [], "short candidates": [], "unexpected candidates": [], "duplicates": [], "fourth-root counts that differ from the Smith form's": []}}, "Part L read in full (the call's coverage)": true, "routes agree (in scope)": true, "the sealed read-out": {"P7": false, "P8": false, "P1": true, "P2": true, "P3": true, "P9": true}}
