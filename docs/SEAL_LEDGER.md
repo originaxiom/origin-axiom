@@ -2148,3 +2148,20 @@ pending; exact science/exit custody and inherited governance debt retained.
 | `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/reference.py` | `9391baf521d112e17545bb3def90cf6ba730e2f9cb02a2c50a0a1130bc080e12` |
 | `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/custody.rb` | `19e2799ab8bf8ab48e5888a31d8500d87f87144bf0a47def6c72f7f37251becf` |
 | `tests/test_physical_bridge_silver_nonlinear_boundary.py` | `492e79a94e03f9b30b995aad994fd9985ea1f61b7b1efb35132ecfb2cffa5b86` |
+
+## October6 fixed silver cyclic-transfer research seal
+
+Full boundary coefficient cyclic SDR and strict retained gauge higher-tree
+hypotheses, conditional authored FORMAL argument, not physical stationarity
+or selected SM/TOE. Seal before any import/test collection. Nonauthor and
+full-suite/main-bank acceptance pending; auxiliary metric explicitly priced.
+
+| File | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/DESIGN.md` | `b1ad4309c64737ca83eee7f9363f9a5911d4032f6c3decbf72a35bf3af43f61f` |
+| `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md` | `4ecca881878431c4177ab13ed7b74bf8514a5ed050defc8c59232b47008c35a6` |
+| `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/INPUTS.json` | `d4870015a4c74251361db5040e26f7e1676395d34f88d3661dd99e5635f805f2` |
+| `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/probe.py` | `8ae953a9741135436544ebdc4db96c66893b3220bdc3d8667c347a948082ba42` |
+| `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/reference.py` | `9fad6aeddb15d52f62ee1ba88313edceaa3126201abc13552d4084a964f759d9` |
+| `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/custody.rb` | `8cbc2f9adff9dc69052cc44bd1cd6d740833d1f35a76ef6718e9975b5ebc9fff` |
+| `tests/test_physical_bridge_silver_cyclic_transfer.py` | `a4c741d0a19439eff049e6d83e3db3a00275411e75a9f6d3a30cd399a0423f24` |

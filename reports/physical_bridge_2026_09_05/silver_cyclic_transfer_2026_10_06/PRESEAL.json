@@ -1,0 +1,39 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/DESIGN.md",
+      "bytes": 5186,
+      "sha256": "b1ad4309c64737ca83eee7f9363f9a5911d4032f6c3decbf72a35bf3af43f61f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md",
+      "bytes": 10819,
+      "sha256": "4ecca881878431c4177ab13ed7b74bf8514a5ed050defc8c59232b47008c35a6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/INPUTS.json",
+      "bytes": 3500,
+      "sha256": "d4870015a4c74251361db5040e26f7e1676395d34f88d3661dd99e5635f805f2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/probe.py",
+      "bytes": 12355,
+      "sha256": "8ae953a9741135436544ebdc4db96c66893b3220bdc3d8667c347a948082ba42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/reference.py",
+      "bytes": 12265,
+      "sha256": "9fad6aeddb15d52f62ee1ba88313edceaa3126201abc13552d4084a964f759d9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/custody.rb",
+      "bytes": 2566,
+      "sha256": "8cbc2f9adff9dc69052cc44bd1cd6d740833d1f35a76ef6718e9975b5ebc9fff"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_cyclic_transfer.py",
+      "bytes": 3973,
+      "sha256": "a4c741d0a19439eff049e6d83e3db3a00275411e75a9f6d3a30cd399a0423f24"
+    }
+  ]
+}
