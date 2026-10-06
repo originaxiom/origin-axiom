@@ -82,3 +82,6 @@ table), B1268 (E₆ from the object), B1276 (the 27 and its one coupling). Dynki
 the trinification decomposition 27 = (3, 3̄, 1) ⊕ (3̄, 1, 3) ⊕ (1, 3, 3̄) for the reading of the three singlets as a 3̄ of SU(3)_R.
 
 *(Currency 2026-09-16, B1367: the sign theorem's exclusions are now subsumed by the pincer: point-localised 27s cannot split doublets from triplets at all, so every apex design is excluded regardless of 27̄s; the theorem of this arc remains the reason a 27̄ sector is the only way to break U(1)′, which chiral bulk matter on the cusped object would have to supply as well (L216). `frontier/B1367_the_doublet_triplet_pincer`.)*
+
+
+*Scope (2026-10-06, B1367's dated note):* B1367's exclusion holds for couplings that act on whole 27s (one E₆ element per 27). A coupling that sums transports acting differently on a 27's components splits doublets from triplets (Witten's mechanism, re-derived 2026-10-06; the audit lane's APEX_SCOPE), so it is not an apex-wide kill. On the fixed Y₃ population the audit lane found no ordinary E₆-linear lift of the deck, so the mechanism cannot be attached there by one.

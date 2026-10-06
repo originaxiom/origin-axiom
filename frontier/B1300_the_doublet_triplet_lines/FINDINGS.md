@@ -182,3 +182,6 @@ stop at SU(5) × U(1) or SU(3)³-like groups. The triplet's protection again, no
 `frontier/B1365_the_bulk_of_the_line` §3.)*
 
 *(Currency 2026-09-16, B1367: the theorem's other side — for point-localised 27s no line acts on the matter at all, and the E₆ cubic then ties the doublet and triplet blocks by one generation matrix: light Higgs = light D in every vacuum, so every apex design is excluded; the splitting a line can give (B1302) requires bulk matter, hence chiral bulk matter for a chiral closing (L216). `frontier/B1367_the_doublet_triplet_pincer`.)*
+
+
+*Scope (2026-10-06, B1367's dated note):* B1367's exclusion holds for couplings that act on whole 27s (one E₆ element per 27). A coupling that sums transports acting differently on a 27's components splits doublets from triplets (Witten's mechanism, re-derived 2026-10-06; the audit lane's APEX_SCOPE), so it is not an apex-wide kill. On the fixed Y₃ population the audit lane found no ordinary E₆-linear lift of the deck, so the mechanism cannot be attached there by one.

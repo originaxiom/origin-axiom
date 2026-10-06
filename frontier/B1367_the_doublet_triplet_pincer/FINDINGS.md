@@ -1,6 +1,17 @@
-# B1367 — THE DOUBLET–TRIPLET PINCER: with E₆-symmetric couplings among any number of 27s, the up-type Higgs doublets and the exotic colour triplets are paired by the same generation matrix — N pairs H_u with H_d exactly as it pairs D with D̄, ν^c pairs L with H_u exactly as it pairs D with d^c — so every vacuum with a light Higgs doublet has a light exotic triplet, whose diquark and leptoquark couplings then give proton decay; the only splitters are E₆-breaking couplings acting on the matter, which point-localised fields never see: every apex design of the object is excluded, and the one door left is chiral bulk matter on the cusped object
+# B1367 — THE DOUBLET–TRIPLET PINCER: with E₆-symmetric couplings acting on whole 27s, the up-type Higgs doublets and the exotic colour triplets are paired by the same generation matrix — N pairs H_u with H_d exactly as it pairs D with D̄, ν^c pairs L with H_u exactly as it pairs D with d^c — so every such vacuum with a light Higgs doublet has a light exotic triplet, whose diquark and leptoquark couplings then give proton decay; apex designs whose couplings act on whole 27s are excluded. Couplings that sum transports acting differently on a 27's components (Witten's mechanism) are not covered (scope corrected 2026-10-06; the replaced headline is in `docs/archive/SUPERSEDED_2026-10-06_B1367_SCOPE.md`)
 
 **Date:** 2026-09-16 · **Seat:** cc (the SM-derivation branch) · **Status:** NEGATIVE (the apex route, by theorem) + PROVED (the E₆ cubic's pairings and the rank identity: exact structure constants; 9 300 configurations over three, four and six copies of the 27, fifteen coupling patterns each including the deck's hollow one, and every VEV support at three copies) · **Price: unchanged** · **Numbering:** B1367 (closes L215's design; registers L216).
+
+> **Scope corrected (2026-10-06; the audit lane's APEX_SCOPE, its commit 917e8110, checked here with own code).** The cubic's
+> rank identity and the pairings stand. The step from them to "every apex design is excluded" assumed caveat 1: couplings act on
+> whole 27s, up to scalar holonomy factors. Point-localised 27s can see E₆-breaking through couplings that sum transports along
+> paths between apexes, since a transport is an E₆ element that acts on a 27's components differently. A ℤ₄ element of SU(5),
+> diag(1, 1, 1, −1, −1), averages an E₆-symmetric mass into a rank-three map on the colour triplet and zero on the doublet:
+> Witten's doublet–triplet splitting (B955), re-derived 2026-10-06. So the exclusion holds for couplings on whole 27s, not for
+> every apex design. The audit lane also found that on the fixed Y₃ population no ordinary E₆-linear lift of the deck exists,
+> so this mechanism cannot be attached there by one: a scoped obstruction, not an apex-wide kill. ERROR_LEDGER records the
+> overreach.
+
 
 ## 0. Seen from above
 

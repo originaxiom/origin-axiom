@@ -6863,7 +6863,8 @@
     "eisenstein",
     "z3_generation",
     "amphichiral_cp",
-    "torsion"
+    "torsion",
+    "wrt_quantum"
    ],
    "refs": [
     "K2",
@@ -7514,11 +7515,12 @@
     "wrt_quantum"
    ],
    "refs": [
+    "B955",
     "L215",
     "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 12,
+   "obstacle_conf": 13,
    "status": "banked",
    "domain": "topology"
   },
@@ -10095,6 +10097,8 @@
    "motifs": [
     "monoid",
     "closing",
+    "figure_eight",
+    "kappa",
     "metallic",
     "golden",
     "z3_generation",

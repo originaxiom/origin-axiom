@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**827 recorded closures — of which 660 are CLASSIFIED by mechanism and
+**828 recorded closures — of which 661 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -70,7 +70,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `symmetry-cannot-select (the two C-field U(1)s born with the apexes give the three 27s the charges (1,-2), (1,1), (-2,1), so 27_1 27_2 27_3 is the only invariant cubic: every tree-level mass matrix is hollow, and a hollow complex symmetric 3x3 matrix obeys sigma_1 = sigma_2 + sigma_3 identically, which the measured masses refute)` | 1 |  |
 | `frame-arithmetic (H_1 of the descent S^3(4_1; 2pi/3) is Z/3, and Kac's six order-3 inner classes of E6 -- fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contain no Standard-Model commutant, nor do the eleven order-4 classes)` | 1 |  |
 | `frame-arithmetic (the D-term sign theorem: the only E6-charged Standard-Model singlets of the 27, N and nu^c, both carry gamma = -5/3, so no tree-level VEV breaks U(1)_eta, the Majorana mass is forbidden, and B1276's one coupling ties the neutrino Yukawa to the up-quark one)` | 1 |  |
-| `symmetry-cannot-select (the E6 cubic in trinification form gives the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) the same generation matrices, so light up-type doublets equal light exotic triplets in every vacuum where only N and nu^c take VEVs; only E6-breaking couplings acting on the matter split them, and point-localised 27s never see those)` | 1 |  |
+| `symmetry-cannot-select (the E6 cubic in trinification form gives the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) the same generation matrices, so light up-type doublets equal light exotic triplets in every vacuum where only N and nu^c take VEVs; only E6-breaking couplings acting on the matter split them, and point-localised 27s never see those) [scope corrected 2026-10-06: point-localised 27s can see E6-breaking through couplings that sum transports acting differently on a 27's components (Witten's mechanism, re-derived); the kill holds for couplings on whole 27s; the audit lane's APEX_SCOPE]` | 1 |  |
 | `frame-arithmetic (on m004 the Standard-Model-reaching flat E6 connections put SL(2)_beta spins on the sectors, and the 10 and the 5bar of SU(5) never share a spin -- in the 27 the 10 is spin 0 and the 5bar spin 1/2, in the 78 the reverse -- while spin-0 sectors are cusp-fixed only when trivial and the geometric longitude (trace -2) fixes no spin-1/2 vector: no chiral generation from bulk matter with the Standard Model unbroken)` | 1 |  |
 | `symmetry-cannot-select (the region-swap parity: on 79 of the 83 free cusps of B1186's family an isometry fixing the cusp negates every free class, so the two regions swap and N = 0 -- after a rank closure: 77 of 112 members have no free cusp, and a spin-0 sector cusp-fixed on a cusp of full peripheral rank has a finite-order character, no Higgs field and no index)` | 1 |  |
 | `frame-arithmetic (charge arithmetic at the cusp: with a non-unitary peripheral eigenvalue the 10 of the 78 forces Im t = +-L and the 5bar of the 27 forces Im t = +-3L, never both (0 of 32 sign patterns); with a unitary one only theta in Z/4 solves, with opposite chirality for the two halves; parabolic and central cusp holonomy make every doublet sector vector-like)` | 1 |  |
@@ -110,6 +110,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `capped-by-the-supplies (Theorem C: g generations need n(nu^3 rho) >= g and b0 + n(nu^4) >= g at every class; on the silver squares' abelian covers at the pulled-back members n(nu^4) = 0 by Lemma W, so the 10bar' side is at most b0 <= 1 and the 5bar' side at most 2: at most one generation at every class, the cover's own mixed classes included)` | 1 |  |
 | `the-interior-polynomial-decides (near rho_hyp a count needs a special twist at a root of the fibre's interior polynomial chi_K; for Lambda^2 the root at 1 is simple at every base point, so no deformation meets one; for the four the sandwich closes it wherever the base condition holds)` | 1 |  |
 | `capped-by-the-supplies (Theorem C: three needs min(capW, capL2) >= 3; on every cover of degree <= 12 of m004 and m003 and on their Q8 towers the largest is 2; the line's interior classes at the trivial character appear only on non-abelian covers, from degree 5, and the four's from degree 5; on the Q8 towers the line has 4 classes but the four none, so the four is the bottleneck there)` | 1 |  |
+| `the-cup-map-is-injective (rk delta1_W = 9 = h^1(N_45; C) at every generic stratum class, so I(W) >= rk delta1_W - b0 - n(1) = 4 (Corollary C', from sm:B1535's Theorem C (ii); to be banked as sm:B1543); the deck group's eigenspaces drop the rank to 8 and 4 and the pulled-back class to 0, and only there is I(W) <= 0; I(Lambda^2 W) = k - 10 for every class but the pulled-back one)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
@@ -641,7 +642,7 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B774` |  | `other` |
 | `B791` |  | `other` |
 
-## How far each closure reaches (37 carry a scope tag)
+## How far each closure reaches (38 carry a scope tag)
 
 A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
 where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
@@ -653,7 +654,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `F-AP` |  | 3 | 3 |
 | `F-CI` | 1 |  |  |
 | `F-FC` | 2 | 6 | 8 |
-| `F-HE` | 7 | 7 |  |
+| `F-HE` | 7 | 8 |  |
 
 | arc | frame | reach | object | read with |
 |---|---|---|---|---|
@@ -694,3 +695,4 @@ without a tag (790) predate the tag; read their object from their own text.
 | `B1534` | `F-HE` | class | m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite regular abelian cover, every pulled-back member of… |  |
 | `B1535` | `F-HE` | class | m135 = -LLRR and m136 = +LLRR at the hyperbolic point: every finite abelian cover, at every pulled-back member of sm:B1… |  |
 | `B1536` | `F-HE` | class | m004 = +LR and m003 = -LR at the hyperbolic point: every connected finite cover of degree <= 12 (176 and 148) and the Q… |  |
+| `B1541` | `F-HE` | class | N_45 at its trivial character: the generic classes of 42 subspaces of H^1(N_45; rho) and the class pulled back from m003 |  |

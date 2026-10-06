@@ -465,6 +465,8 @@ SU(2)_β doublet with equal U(1)′ charge. Rows A1/C/E and the neutrino rows: t
 and triplet mass blocks share their generation matrix; 9 300 configurations, zero exceptions), so every apex design is excluded through
 proton decay; the rows' owner becomes chiral bulk matter on the cusped object (L216). Rows unchanged in count: 0 of 19.
 
+*Scope (2026-10-06, B1367's dated note):* B1367's exclusion holds for couplings that act on whole 27s (one E₆ element per 27). A coupling that sums transports acting differently on a 27's components splits doublets from triplets (Witten's mechanism, re-derived 2026-10-06; the audit lane's APEX_SCOPE), so it is not an apex-wide kill. On the fixed Y₃ population the audit lane found no ordinary E₆-linear lift of the deck, so the mechanism cannot be attached there by one.
+
 *Addendum (2026-09-16, B1368):* rows A/C — the last door closed in the seat's frame: with the Standard Model unbroken on m004 itself,
 spin-0 sectors carry no chiral index and the 10 and the 5̄ never share a spin, so no flat connection gives a chiral generation from bulk
 matter; for the geometric representation Calegari's trace −2 closes the spin-½ sectors as well. The E₆ route from the object has no

@@ -1,5 +1,19 @@
 # Changelog
 
+## The audit lane's APEX_SCOPE corrections, re-derived and banked as scope notes (sm:B1367, sm:B1365)
+
+- **sm:B1367** (the doublet–triplet pincer). The cubic's rank identity stands. Its exclusion of every apex design assumed
+  couplings act on whole 27s. A coupling that sums transports splits doublets from triplets: a ℤ₄ element diag(1, 1, 1, −1, −1)
+  of SU(5) averages an E₆-symmetric mass into a rank-three triplet map with massless doublets (Witten's mechanism, re-derived
+  with own code). The headline and claim line are rescoped in place, with the replaced text archived verbatim. The kill graph,
+  the spec ledger and three companion FINDINGS carry the scope. The audit lane's scoped obstruction on Y₃ (no ordinary deck
+  lift) is credited.
+- **sm:B1365.** (1, 2) and (3, 2) have order 12 on the 27 (g⁴ = ζ₃), checked by B1365's own construction. Its 27-level deck test
+  used (1, 0), so 288 of 288 stands.
+- ERROR_LEDGER: two rows. RELAY_LEDGER: the relay BANKED as these notes.
+- **sm:B1541 routed into the kill graph** (B836's form, with content), after the routing lock caught its absence: its bank had
+  missed the step.
+
 ## B1541 banked: THE COUNT ON THE ROOM — on N₄₅ no generic class of the 42 subspaces read is generation-shaped (NEGATIVE, scoped; run as sealed), confirmed by an independent route
 
 - **The run.** The banked identity held again in the new container. The sealed run was repeated from the start (its first

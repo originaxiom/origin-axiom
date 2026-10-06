@@ -88,3 +88,6 @@ and §5's neutrino statement are the same wall seen from two sides: the three-ap
 and by neutrino masses, each through ⟨N⟩. `docs/OPEN_LEADS.md` L215 corollary; `frontier/B1365_the_bulk_of_the_line`.)*
 
 *(Currency 2026-09-16, B1367: §2 is a theorem — with E₆-symmetric couplings among any number of 27s the doublet and triplet mass blocks share their generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c, one invariant each), so light Higgs doublets = light exotic triplets in every vacuum (9 300 configurations, zero exceptions) and §3's bound cannot be met by point-localised matter: every apex design is excluded; the splitting needs a line on bulk matter (B1302), i.e. chiral bulk matter, L216. `frontier/B1367_the_doublet_triplet_pincer`.)*
+
+
+*Scope (2026-10-06, B1367's dated note):* B1367's exclusion holds for couplings that act on whole 27s (one E₆ element per 27). A coupling that sums transports acting differently on a 27's components splits doublets from triplets (Witten's mechanism, re-derived 2026-10-06; the audit lane's APEX_SCOPE), so it is not an apex-wide kill. On the fixed Y₃ population the audit lane found no ordinary E₆-linear lift of the deck, so the mechanism cannot be attached there by one.

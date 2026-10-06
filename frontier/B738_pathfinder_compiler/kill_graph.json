@@ -10936,7 +10936,7 @@
  {
   "id": "B1367",
   "claim_killed": "THE DOUBLET-TRIPLET PINCER: in trinification form the E6 cubic det L + det Q + det Q^c + Tr(Q L Q^c) pairs N with (H_u, H_d) and with (D, Dbar), and nu^c with (L, H_u) and with (D, d^c), each pair with equal magnitude (one invariant each); with n copies of the 27 and any symmetric coupling tensor the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) are G x S_D and G x S_T with the same generation matrices, so light up-Higgs doublets = light exotic triplets in every vacuum where only N and nu^c take VEVs -- checked in 9 300 configurations (n = 3, 4, 6; fifteen coupling patterns including the deck's hollow one; every VEV support at n = 3): zero violations, and every vacuum with a light Higgs has at least one light D. A light D carries the cubic's diquark and leptoquark couplings (B1276 par. 3) and proton decay needs it above 1e15 GeV. Only E6-breaking couplings acting on the matter can split the blocks; point-localised 27s never see them (full 27s; holonomy factors act as one E6 element per 27; the U(1)^2-breaking sector is E6-neutral), so every apex design of the object is excluded, with or without 27-bars and whatever the line. Bulk matter can be split by a line (B1302) but is vector-like on closed closings (B1351): the one door is chiral bulk matter on the cusped object through its ends -- L216. 0 of 19.",
-  "kill_form": "symmetry-cannot-select (the E6 cubic in trinification form gives the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) the same generation matrices, so light up-type doublets equal light exotic triplets in every vacuum where only N and nu^c take VEVs; only E6-breaking couplings acting on the matter split them, and point-localised 27s never see those)",
+  "kill_form": "symmetry-cannot-select (the E6 cubic in trinification form gives the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) the same generation matrices, so light up-type doublets equal light exotic triplets in every vacuum where only N and nu^c take VEVs; only E6-breaking couplings acting on the matter split them, and point-localised 27s never see those) [scope corrected 2026-10-06: point-localised 27s can see E6-breaking through couplings that sum transports acting differently on a 27's components (Witten's mechanism, re-derived); the kill holds for couplings on whole 27s; the audit lane's APEX_SCOPE]",
   "faces_consulted": [
    "being"
   ],
@@ -11907,6 +11907,32 @@
     "the count is main's interior index I = n(E) - n(E*) (B1297) on the cover, on an unsealed cusp (B1392); B1509's dictionary for 10' and 5bar'",
     "pulled-back characters only: the covers' own characters are not read",
     "covers of degree <= 12 and the eight Q8 levels only; larger covers (where bending surfaces live) are not read"
+   ]
+  }
+ },
+ {
+  "id": "B1541",
+  "claim_killed": "THE COUNT ON THE ROOM (sL-12 item 1; the owner's 'three generations is smth we are after seripuslu'): that on N_45, the 5-fold cyclic cover of m003's degree-9 cover d9.2 along the order-5 character from m003's Z/5 torsion (degree 45, five cusps, (n(1), n(rho)) = (4, 18), room 5), a generic class of H^1(N_45; rho) in one of 42 subspaces (the 32 cusp strata, the deck group's five eigenspaces and their interior parts) carries a generation-shaped count of sm:B1515's frame at the trivial character. Sealed at 6815599a and run as sealed (repeated from the start after the seat's container was replaced; the record committed unread). Route N (Shapiro on m003) and route R (N_45's own presentation, the same class transported at p_N and its own classes at p_R) agree at every class, one count per subspace across draws, routes and primes, every identity holding. No class read is generation-shaped: the counts are (4, -10) to (5, -5) on the strata, (0, -5), (-1, -10), (5, -5), (3, -10) on the eigenspaces, (0, 0) at the pulled-back class. Route F, an independent audit (separate code, a second presentation, three other primes), returns the run's count at all 54 of its readings.",
+  "kill_form": "the-cup-map-is-injective (rk delta1_W = 9 = h^1(N_45; C) at every generic stratum class, so I(W) >= rk delta1_W - b0 - n(1) = 4 (Corollary C', from sm:B1535's Theorem C (ii); to be banked as sm:B1543); the deck group's eigenspaces drop the rank to 8 and 4 and the pulled-back class to 0, and only there is I(W) <= 0; I(Lambda^2 W) = k - 10 for every class but the pulled-back one)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Special classes of each subspace, where the cup map drops rank (the classes from below: the pulled-back class and d9.2's); N_45's other characters; covers where the line leads the four (3 <= n(rho) <= n(1) - 2, the maximal-rank criterion to be banked as sm:B1543), such as cyclic covers along puncture characters with large line supply; and members where n(nu (x) rho) = 0, where the cup map vanishes (sm:B1538's room-three members of order 6 or 12 on the silver pair). Off the hyperbolic point; other frames.",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-10-06 at banking time, with content: a NEGATIVE read as sealed, its population in its scope (B1207's A3, held by tests/test_negatives_read_together.py).",
+  "note": "ENTERED 2026-10-06 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: the discriminating computations are frontier/B1541_the_count_on_the_room/verification/n45.py through run.py (the sealed run, record run.jsonl.gz with run_sha256.txt), read_out.py (the sealed read-out, once) and route_f.py through audit_f.py (the independent audit); locked by tests/test_b1541_the_count_on_the_room.py. The entry was added the same day as the bank, after the routing lock (tests/test_b833_negative_routing.py) caught its absence.",
+  "routed_from": "sm-branch-2026-10-06-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "N_45 at its trivial character: the generic classes of 42 subspaces of H^1(N_45; rho) and the class pulled back from m003",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point and the trivial character of N_45 only",
+    "generic classes of the 42 subspaces read; special classes and other subspaces not covered",
+    "other characters of N_45 and other covers not covered"
    ]
   }
  }

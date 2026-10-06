@@ -17670,3 +17670,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - The golden lift stated: on a 5-fold cyclic cover the frame's pulled-back counts are sums over five members below.
 - B1542 (the degree-60 covers) runs. Next: its read-out and audit; sm:B1538's records regenerated; the counts at sm:B1538's
   room-three members.
+
+## 2026-10-06 — the audit lane's APEX_SCOPE re-derived: sm:B1367 rescoped, sm:B1365's custody detail noted
+
+- Both corrections checked with own code: Witten's ℤ₄ transport mechanism splits doublets from triplets (so sm:B1367's
+  exclusion holds for couplings on whole 27s), and two of sm:B1365's torus points have order 12 on the 27 (its deck test is
+  unaffected). Headline rescoped with the old text archived; ledgers and companions updated.

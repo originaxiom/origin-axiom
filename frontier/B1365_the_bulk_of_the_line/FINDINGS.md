@@ -2,6 +2,13 @@
 
 **Date:** 2026-09-15 · **Seat:** cc (the SM-derivation branch) · **Status:** NEGATIVE (the pure three-27 design's neutrino sector, by a sign theorem on the D-term) + PROVED (the 27's charge table on the E₆ weights, the 4-torsion census of exp(u(1)²), H¹(Y₃; 78_ρ) by Fox calculus on F(2,6) with the alphabet as control, the 27-character deck test, the three explicit deformation families) · **Price: unchanged** · **Numbering:** B1365 (B1364's registered follow-ups 1 and 2 answered; L215 registered).
 
+> **A custody detail (2026-10-06; the audit lane's APEX_SCOPE, its commit 917e8110, checked here with own code).** Of the four
+> Standard-Model-reaching order-4 points of the torus, (1, 2) and (3, 2) act on the 27 with g⁴ = ζ₃ (order 12 there; order 4 on the
+> roots): as 27-level representatives they need the central factor ζ₃². (1, 0) and (3, 0) have order 4 on the 27. The deck test
+> (E) reads the 27-character at (1, 0) (`minimal[0]`), so its 288 of 288 stands; the other results are on the roots or the
+> adjoint and are unchanged. Re-derived 2026-10-06 by evaluating 4 v·w on the 27's weights with this arc's own construction.
+
+
 ## 0. Seen from above
 
 B1364 found the flat E₆ connection on Y₃ that leaves exactly the Standard Model and one U(1)′. This arc asks what that line leaves
