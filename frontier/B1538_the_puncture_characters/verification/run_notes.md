@@ -65,3 +65,15 @@ They are regenerated with the sealed code, unchanged, in this order.
   12,825 readings came out byte for byte as before.
 - **`run_f_scoped.py --dry`** (20:05Z): the hash check passes and the scope's aggregates equal the addendum's (12,152 candidates
   in scope, 501,792 planned readings).
+- **Part F′, regenerated.** Launched 20:05:37Z by `run_f_scoped.py --workers 3 --record`, unchanged, with `TMPDIR` in the
+  scratchpad.
+  - The seat's container restarted at about 21:56Z and the run stopped with it. Its log's last line (21:56:20Z) reads 11,675 of
+    12,152 candidates and 68,128 of 501,792 readings.
+  - Relaunched 21:57:39Z with the same command. The driver's own resume keeps every whole block of the sealed shape, in the
+    scope's order, and cuts an incomplete tail. It found 11,675 candidates done and cut nothing (its log has no "cutting"
+    line). Each block is written whole and synced before the next, so a stop can leave at most one incomplete tail.
+  - The sealed read-out's coverage check requires every candidate's header and exactly its planned readings, so a lost or
+    doubled block would show there.
+- **The comparison, committed before the regenerated records are read.** `regen_compare.py` compares the two read-outs'
+  outputs, and Part F′'s own rows, with every number this seat's relay of 2026-10-06 (its §3) recorded from the original
+  read-out. A single difference withholds the bank and goes to ERROR_LEDGER first. It was tested on synthetic records only.
