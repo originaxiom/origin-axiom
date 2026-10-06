@@ -1,0 +1,5 @@
+golden+ 1 [] firing 0 bg 0 lifted 0 orbits {} differ 0 0.0 s
+golden+ 2 [5] firing 8 bg 0 lifted 0 orbits {} differ 0 0.0 s
+golden+ 3 [4, 4] firing 72 bg 48 lifted 0 orbits {'3': 48} differ 0 0.4 s
+golden+ 4 [3, 15] firing 488 bg 256 lifted 256 orbits {'4': 256} differ 0 4.4 s
+golden+ 5 [11, 11] firing 2200 bg 400 lifted 400 orbits {'5': 400} differ 0 61.8 s
