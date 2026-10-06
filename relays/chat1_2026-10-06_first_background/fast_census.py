@@ -64,6 +64,6 @@ def validate():
 if __name__ == '__main__':
     if sys.argv[1] == 'validate': validate()
     else:
-        name, n = sys.argv[2], int(sys.argv[3])
-        r = run(name, n); print(json.dumps(r), flush=True)
-        json.dump(r, open(f'heavy_{name}_{n}.json', 'w'), indent=1)
+        name, n = sys.argv[2], int(sys.argv[3]); ps = int(sys.argv[4]) if len(sys.argv) > 4 else 5000
+        r = run(name, n, ps); print(json.dumps(r), flush=True)
+        json.dump(r, open(f'heavy_{name}_{n}' + (f'_p{ps}' if ps != 5000 else '') + '.json', 'w'), indent=1)

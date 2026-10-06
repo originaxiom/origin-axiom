@@ -1,0 +1,50 @@
+{
+ "n": 3,
+ "N": 36,
+ "primes": [
+  5077,
+  5113,
+  5437
+ ],
+ "characters": 1296,
+ "loci": 1296,
+ "loci_nonsquare": 972,
+ "candidates": 1679616,
+ "firing": 29608,
+ "firing_on_nonsquare_loci": 20376,
+ "differing_at_other_primes": 960,
+ "generation_backgrounds": 1584,
+ "lifted": 288,
+ "not_lifted": 1296,
+ "signs": {
+  "1": 792,
+  "-1": 792
+ },
+ "abs_counts": {
+  "1": 1584
+ },
+ "nuc": {
+  "same_sign_as_generation": 1296,
+  "zero": 288,
+  "opposite_sign": 0
+ },
+ "index_deck_invariant": true,
+ "background_orbits_closed": true,
+ "backgrounds_by_orbit_size": {
+  "3": 1584
+ },
+ "firing_modules_by_orbit_size": {
+  "3": 29592,
+  "1": 16
+ },
+ "seconds": 1567.4,
+ "root": "LLLRRR",
+ "torsion": [
+  36,
+  36
+ ],
+ "orbit_cache": {
+  "hits": 1159146,
+  "computed": 579686
+ }
+}

@@ -6,5 +6,6 @@ the commutator letter for letter), which also gives the deck directly.
 - My candidate rule "first background at the act's mod-2 clock" is killed by silver−; "no background below level 3" is
   killed by 12 roots (backgrounds at L1 in orbits of 1, at L2 in orbits of 2).
 - Level 3 is the first background on m004, m003, LLR, LLLR, ILLLR and silver−: the short words. Long words fire earlier.
-- Heavy cells (bronze± L3, silver+ L4) running; to be appended.
+- Heavy cells done: bronze± first background at L3 (1584 / 720, orbits of 3); silver+ at L4 (320, orbits of 4). R0 killed
+  by silver+. bronze+ L3 met a bad prime (960 disagreements at 5077-set); disjoint prime set agrees, backgrounds unchanged.
 - Side result for B1432's table: m003's levels L1–5 (s960 at L3: 96 backgrounds in orbits of 3, none lifted).
