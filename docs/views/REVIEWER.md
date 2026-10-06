@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1315** |
-| words of findings prose | **1,019,994** |
+| research arcs with findings | **1316** |
+| words of findings prose | **1,020,349** |
 | test lock files referenced | **764** |
-| arcs carrying an authored verdict | **1315** (100.0 %) |
+| arcs carrying an authored verdict | **1316** (100.0 %) |
 | recorded closures | **804** (637 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 885 |
+| PROVED | 886 |
 | NEGATIVE | 328 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1486`** (1033 words, 0 locks)  
-THE TWO ORDERS AT THE SILVER MEMBERS (sealed 385c6891e / d4e4b166; the SM seat's second ask; B1466's C3b carried to the hyperbolic point, controlled first on B1466's own point): at every member of m135 and m136 each order alone is unobstructed, the mixed direction c1 + c2 is unobstructed at second order (its class zero to 1e-45 relative), and every fusion reached by Gauss-Newton is an exact flat irreducible module (commutant one, no invariant line or hyperplane) that counts (0, 0) and is acyclic on both sides -- while the two orders read (-1, -1) and (+1, +1) and the split module (0, 0). The count is the order, at the hyperbolic point of a - state and its + twin as at m004's counted point. Disclosed: a convention error in the sealed code's lower-left block, caught by the run's own first-order check, corrected and re-run with the sealed output kept; one Gauss-Newton seed that did not converge, recorded. No order chosen, no count of fermions, no value. 0 of 19.  
-`B1486_the_two_orders_at_the_silver_members/FINDINGS.md`
+**PROVED — `B1488`** (355 words, 0 locks)  
+REVIEW 60: THE FIRST REVIEW THAT FIRED, AND WHAT THE WINDOW COUNTS. Forty merges since Review 59; the review fired and blocked the push of B1487's seal until written. The loop closed (R59-1..3 paid; R58-4, R58-5 carried a second time with remainders named; five declined-and-carried items closed finally); two new lanes registered in the window, one the owner's new seat LP; the headline: four times the record's instruments caught the reviewer (a seal landing that broke a lock, a machine path in a committed log, a sealed cocycle with the wrong transposition caught by its own first-order check, lanes appearing mid-suite) and the one that mattered -- a seat's positive built on for four days before a second route -- is now the gate seat-positive-verified (B1487). The lanes' movement during the review rowed: sm:B1538 banked, sm:B1546 NEGATIVE (no three on N_45 at the trivial character at any class), sm:B1547 sealed, LP01 run (common covers of m004 with the two-cusped members where three appears exist, chiral, without the three). Seven action items. No promotion to the chain. 0 of 19.  
+`B1488_review_60_the_first_review_that_fired/FINDINGS.md`
 
 **NEGATIVE — `B1480`** (998 words, 0 locks)  
 THE INDEX AGAINST THE SIGN (the crossing plan's first item; sealed 20c22735c / 4700f7bb). NEGATIVE for one hypothesis and no wider: at own level, on the word states to length 12 in the Standard-Model frame, the class index's firing is NOT carried by one sign of the word -- 375 of 379 + states and 379 of 379 - states carry a firing module, 49 and 46 a generation-shaped background; on the 34 amphichiral words both signs fire (32 and 34), with generation-shaped backgrounds on eight + states and one - state (unpredicted, recorded, not believed). Sealed predictions: Q1 (the signs differ by a factor 1.5) FAILS, Q2 (some amphichiral - state fires) HOLDS, Q3 (one sign only) FAILS. So the bit of B1479 is not a switch for the count on the family's own levels; the cell it points to, not banked: on a - state a mirror moves the spin structure by a sign character, and B1459's theorem reverses the index under such a twist -- if the two coincide the mirror exchanges spin structures of opposite count. With it, two forks ruled by the principle at the owner's word that such forks are the mathematics' to settle: GENESIS v1.13 -- FK13 RULED (the family is the generated state space, the word states), FK4 restated with its stake (the sign needs an inverse letter, -I = (L R^-1 L)^2, and is the fermionic bit: does the principle generate the sign?); and the listening-log method adopted with a sweep first and a base rate. 0 of 19.  

@@ -189,3 +189,13 @@ and was not run.
 |---|---|---|
 | "whose timeout was tuned to an idle machine" (of `test_b1355_geometry_is_exact`) | the lock is not load-sensitive; it solved for the commutant with a **set** as the list of unknowns, so sympy's normalisation moved with the hash seed (E83) | pre-fix: passes on seeds 4 and 7 of 0–7, fails reproducibly on the other six. Post-fix: passes on all eight. The timeout is kept because it is harmless, not because it was the cause |
 | "failed once under the load of a 146-file run" | the same defect read as load, because the run that failed and the run that passed differed in seed, not in load | the failing set is reproducible per seed and independent of what else is running |
+
+## 2026-10-07 (S65–S67, B1474–B1487) — the spin-swap window's withdrawn sentences
+
+| retracted phrase | why | the current statement |
+|---|---|---|
+| the swap is genuine exactly when 1 lies outside the coset η₀K — read as a law (B1474 §3) | the isometries act on the spin structures affinely (the audit lane's R92); a span of found characters is not the orbit, and a bounded search is not coverage | a description of the witnesses found; the certificate is the odd torsion's reality (B1476) and Theorem A (B1477) |
+| a mirror-invariant spin structure exists if and only if the Chern–Simons class is zero (B1477's sealed P4) | killed on v3103 among cusped manifolds and on m082(1,3) among closed ones | at CS = ¼ none survives (the shear law); at 0 some zero-class members have none either; three remain unexplained to length 3.8 (B1477's addendum) |
+| the signed states need the inverse moves (GENESIS GM5b through v1.13) | one central move, −I, suffices and brings no inverse letter (B1482) | positivity is what excludes the − states; FK4 asks whether negating the records is a legal move |
+| swap the four for an odd module of the lift to make the count depend on the spin structure (main, in conversation, 2026-10-07) | every odd symmetric power of every lift is acyclic on the word states (the fibre boundary has trace −2 on every lift), and the class index is mirror-even for every module | count and hand live in complementary sectors; the hand enters a count only as the choice of order (B1486, B1487, GENESIS v1.15) |
+| no centralizer construction reaches chiral matter at rank four — read of the family rather than of the root (THE_SM_VERDICT §2.1) | B959 rests on H₁ = ℤ, a knot-complement fact: m004's | scoped on the page to the root (S65) |

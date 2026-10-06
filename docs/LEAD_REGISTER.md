@@ -256,3 +256,15 @@ a third route and the mirror breaks exactly on the single-sheet twists (B1462); 
 re-derived (B1463); the review loop was made able to fail itself (B1461) and the first thing it failed was its own seal gate
 (B1464: 41 of 46 seals without the provenance markers, frozen). **Derived parameters: 0 of 19.** The next computation, by
 the owner's word: a sourced non-split configuration at a non-complete point, graded against the bar.
+
+## ⟳ VIEW REFRESH — 2026-10-07 (Review 60)
+
+Touched at the Review 60 anchor (`aab434644`). **The window (B1465–B1487, 40 merges, four days) is the crossing's.** The
+record was re-read from its first commit at the owner's word (`docs/THE_REREAD_2026-10-06.md`); the spin swap was decided —
+Theorem A, the shear law, the sign of a word state as the fermionic bit, the hand as a phase, the end curve (B1477–B1483) —
+and the sign located in the grammar as the one move positivity excludes (B1482, GENESIS v1.14); one missing object was found
+to gate both nearest approaches (B1484, L250); the SM seat's one generation on the silver squares was read by a second route
+and its two orders fused into a module that counts zero (B1485, B1486); and the generation lane was audited at the owner's
+word: what it counts is ends (`docs/THE_GENERATION_LANE_AUDITED_2026-10-07.md`, B1487, GENESIS v1.15, FK14). The owner hired
+a new seat (LP) for a fresh approach; its first cell found common covers of m004 with the two-cusped members where three
+appears, chiral and without the three. **Derived parameters: 0 of 19.** The order of work is `docs/THE_CROSSING_2026-10-07.md`.

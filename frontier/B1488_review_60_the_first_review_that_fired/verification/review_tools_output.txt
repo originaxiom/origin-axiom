@@ -1,0 +1,27 @@
+window 7b20d258..aab434644: 40 commits (40 on the first-parent line), 22 arcs with a verdict (B1465 … B1486)
+remotes: mirrors ['origin', 'codeberg']; missing mirrors none; other remotes not read: ['golden_gate']
+loop: Review 59 block -- open none; carried 8 (oldest: [('R55-1', 5), ('R55-7', 5), ('R54-1', 4), ('R55-12', 4)]); open items left in superseded blocks: none
+branches: 9 unmerged leaves; unregistered: none; on one remote only: ['project-thread-hctlox']; remotes out of step: ['standard-model-derivation-0qt6ao', 'web-seat']
+   fork-2026-09-20                          +262  tip 2026-10-04  registered
+   kind-hypatia-uk0vv9                      +1  tip 2026-10-06  registered
+   outside-bench                            +14  tip 2026-09-18  registered
+   paper-review-verification-kaz3f5         +22  tip 2026-10-01  registered
+   physical-bridge-2026-09-05               +290  tip 2026-10-06  registered
+   project-thread-hctlox                    +3  tip 2026-10-06  registered
+   sep16-branch                             +98  tip 2026-09-29  registered
+   standard-model-derivation-0qt6ao         +307  tip 2026-10-06  registered
+   web-seat                                 +14  tip 2026-10-06  registered
+seals: 3 in the window; with defects: 2
+   B1485_the_silver_members_by_a_second_route           3/3 hashes, sealed before results
+   B1486_the_two_orders_at_the_silver_members           4/6 hashes, sealed before results  DEFECTS: changed: verification/fused.py, verification/fused_cell.py
+   B1487_the_ends                                       4/4 hashes, no verdict yet  DEFECTS: seal not on every remote
+provenance: 10641 added lines scanned, 0 hits, 0 in public-facing files
+advancement: LAW_MAP +10 rows, THEOREM_REGISTRY +8 rows
+errors: new classes none; instances {'E54': 1, 'E82': 1}
+new vocabulary (word pairs in >= 3 of the window's claims and in none before) not in TERMINOLOGY.md: spin swap, swap phase, crossing plan's
+gates: 40 named by a test; not named by any: ['path-refs', 'representation-sweep', 'test-vacuity']
+gate controls: 43 registered failing-path tests; unregistered: none
+fresh-clone: FAIL @ aab43464 (gates FAIL: FAIL  review-fires: 40 merges since the last review (>= 40): the review FIRES -- run it (scripts/review/review_tools.py), or the owner waives it by date in docs/progress/REVIEW_WAIVER.md; belt ok)
+relays open: outbound 43 {'CLOUD_CODEX': 3, 'ALL_SEATS': 3, 'CODEX': 17, 'SM': 8, 'CODEX_AND_SM': 3, 'SM_AND_CODEX': 9}; inbound 23 {'CC3': 3, 'README': 1, 'HANDOFF': 3, 'LINEAGE': 1, 'RETURN': 1, 'CODEX': 6, 'SM': 7, 'CHAT1': 1}; declined 38; banked 456
+chain gap (the review adjudicates the top; promotions are pinned in docs/CHAIN_COVERAGE.json): 774 of the record's arcs on a surface and not in the chain; top: B1098 (8), B959 (7), B1100 (7), B952 (7), B1086 (6), B1000 (6), B1070 (6), B743 (6)
+sample seed: 7b20d258; to be read in full (seeded by the anchor): B1467, B1469, B1474, B1478, B1479

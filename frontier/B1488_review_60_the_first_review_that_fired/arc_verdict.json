@@ -1,0 +1,21 @@
+{
+ "id": "B1488",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1464",
+  "B1487"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the review loop)",
+  "object": "the record's review loop, gates and lanes in the window B1465-B1487",
+  "reach": "general",
+  "hypotheses": "the tools' counts taken as given; the lanes' newest arcs read at headline level"
+ },
+ "claim_one_line": "REVIEW 60: THE FIRST REVIEW THAT FIRED, AND WHAT THE WINDOW COUNTS. Forty merges since Review 59; the review fired and blocked the push of B1487's seal until written. The loop closed (R59-1..3 paid; R58-4, R58-5 carried a second time with remainders named; five declined-and-carried items closed finally); two new lanes registered in the window, one the owner's new seat LP; the headline: four times the record's instruments caught the reviewer (a seal landing that broke a lock, a machine path in a committed log, a sealed cocycle with the wrong transposition caught by its own first-order check, lanes appearing mid-suite) and the one that mattered -- a seat's positive built on for four days before a second route -- is now the gate seat-positive-verified (B1487). The lanes' movement during the review rowed: sm:B1538 banked, sm:B1546 NEGATIVE (no three on N_45 at the trivial character at any class), sm:B1547 sealed, LP01 run (common covers of m004 with the two-cusped members where three appears exist, chiral, without the three). Seven action items. No promotion to the chain. 0 of 19."
+}

@@ -758,3 +758,21 @@ the geometric carrier in P019. "A6" is minimality in the uniqueness theorem and 
 walls trace to A6" is P019's, the uniqueness theorem's A3, GENESIS SE2. "C1–C6" are links of the words route in the
 theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P019 A6", "ledger C5", or the GENESIS ID.
 
+## Added at Review 60 (2026-10-07) — the terms minted in the B1465–B1487 window
+
+- **the spin swap** — on an amphichiral manifold, the action of a mirror (an orientation-reversing isometry) on the
+  set of spin structures, read through the SL(2,ℂ) lifts of the holonomy: a spin structure is *fixed* if some mirror
+  carries its lift to its own conjugate, *swapped* if none does. At Chern–Simons class ¼ no spin structure survives the
+  mirror (B1474–B1477). Not the "swap" of the genesis (the record swap P).
+- **the swap phase, the hand** — θ_s(t) = arg R₁^{(s)}(t) ∈ ℝ/πℤ, the phase of the odd twisted Alexander function of
+  a lift s (defined up to a real unit); a mirror negates it. On the − word states no spin structure has a trivial
+  phase and mirror partners carry opposite ones: *the hand* of the state at s (B1481). A phase, not yet an observable.
+- **the sign of a word state** — the ε of (ε, w): + or −, the composition of the monodromy with −I. On the
+  amphichiral words + is rectangular at class 0 and − rhombic at ¼ (B1479). The *fermionic bit* of the spin-swap arcs.
+- **the end curve** — at a cusp, the elliptic curve E_s = ℂ/ker σ_s that the frame space of a spin structure s ends in
+  (B1483): the cusp's own curve where the sign character σ_s is trivial, a curve two-isogenous to it otherwise.
+- **a count of ends** — the reading of the class index on a manifold with cusps forced by the identity
+  I = h⁰(E) − h⁰(E*) + h⁰(∂; E*) − r¹(E): the count is boundary data but for two terms, and in the harmonic E₈ frame a
+  generation is a cusp on which the character is trivial and the class dies (B1487, GENESIS GAP2, FK14).
+- **the crossing plan** — `docs/THE_CROSSING_2026-10-07.md`: what is in hand, what blocks, the order of work, the kills
+  named in advance; written after the re-read of the record (`docs/THE_REREAD_2026-10-06.md`).

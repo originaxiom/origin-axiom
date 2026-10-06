@@ -5801,3 +5801,134 @@ numbers is not known from the gate, only from each arc's text.
 - [>] R56-3: declined as a loop item: CLAIMS.md's rewrite is Stage 6 of THE_FOUNDATION_LOCK_PLAN and a declared debt of `doc_currency` (declined at Review 59; carried from R58)
 
 **anchor-commit: `7b20d258`**
+
+
+# Review 60 (2026-10-07) — the first review that fired, and what the window counts
+
+Forty merges since Review 59 against a period of twenty — the review fired and blocked the push of B1487's seal, as
+B1461's rule says it should; this block is written under that block. A window of 40 first-parent commits
+(`7b20d258..aab434644`) and 22 arcs with a verdict, B1465–B1486, plus the B1487 seal. The window is the crossing's:
+the re-read of the record, the spin swap decided (Theorem A, the sign law, the hand, the end curve), the sign located in
+the grammar, one object found to gate both nearest approaches, the SM seat's one generation read by a second route and
+its two orders fused, and the generation lane audited at the owner's word. All three core lines below are the tools'
+output (`scripts/review/review_tools.py --fresh-clone`), not written by hand.
+
+**fresh-clone: PASS @ fa6195c1** (gates all PASS; belt ok; run against the review's own commit, since the clone needs the new anchor to pass `review-fires`) · **sample seed: 7b20d258**; to be read in full: B1467, B1469, B1474, B1478, B1479 ·
+**gate controls: 43 registered** failing-path tests; unregistered: none.
+
+## 1. The loop (Review 59's block, closed or carried; the aged items dispositioned)
+
+Review 59's three own items are paid: R59-1 (B1465), R59-2 (B1468), R59-3 (B1469). Of the carried: **R58-4** (the
+harvest) is at its third carry and is resolved into R60-2, its remainder named; **R58-5** (the literature checks for the
+four theorems of 2026-09) is at its third carry and is resolved into R60-5 — nothing in the window touched them, and
+the owner's rule of 2026-10-06 (verify load-bearing mathematics even if published) raises their price. **The five
+declined-and-carried items are closed here, finally, with their reasons kept on the line** — R55-1, R55-7, R55-12,
+R56-1, R56-3 were declined at Review 59 and carried only because the convention had no closing mark for a declined
+item; they are marked closed below so the carry-age gate stops counting them. Nothing is carried a fourth time without
+a disposition.
+
+## 2. The branch inventory (B763 rule)
+
+Nine unmerged leaves, all registered. **Two new since Review 59, both found by the suite's lane survey, both
+registered inside the landing that found them:** `<v>/kind-hypatia-uk0vv9` (one commit: B1035's three receipts pinned
+beside its lock; author field the repository's; not integrated, S63) and `<v>/project-thread-hctlox` — **the owner's
+new seat, hired 2026-10-07 "for fresh approach"**, by its own words "Seat LP (the listening thread)", own numbering,
+"a seat id for main to harvest … claims no B-number". It sealed LP01 THE COMMON COVER before its run and has since run
+it (§8). The SM-derivation lane moved 307 commits in the window and is read to `33b14d53` here (sm:B1533–B1547). The
+web seat's branch, opened 2026-10-06 at the owner's word, is read to `7c5bb737` (its first-background relay) and has
+one further commit. **Codeberg is behind origin on three seat lanes** (SM-derivation, web-seat, and LP, which is on
+origin only); the pre-push hook refuses every push while this review is unwritten, so the mirrors are made in this
+review's landing, after the block, and reported in R60-1.
+
+## 3. Protocol integrity — the headline
+
+**Four times in this window the record's own instruments caught the reviewer, and twice they caught him late.**
+(i) B1483's seal commit also landed nine owed RETRACTIONS rows; a seal landing runs the gates and not the suite, and a
+lock pins the paper's count of that index — main carried a red lock for a day until S65's suite found it (29 → 38;
+the paper, its generator and the lock repaired). Rule registered: a seal commit carries nothing but the seal
+(PRACTICES, S65). (ii) A run log committed at S65 held a traceback with a machine path; the lock that forbids it reads
+files only once tracked, so S66's suite caught it. (iii) B1486's sealed code built one cocycle with the wrong
+transposition; the sealed run's own first-order check read 140 where it should read 0, so the sealed numbers for that
+cell were not even cocycles — corrected, the sealed output kept, both states re-run, the correction disclosed on the
+page; the seal tool flags the two changed files above, and this is their reason. (iv) Three lanes appeared on origin
+mid-suite in the window (hypatia, LP, and the SM seat's own movement) and the lane survey failed the suite until each
+was registered — the gate working as designed. **And the one that mattered:** the only generation-shaped reading at a
+hyperbolic point on any lane (sm:B1530) was read by one seat for four days while three further arcs on that lane
+built on it; the second route came only when the owner asked for an audit. B1487 lands the rule and the gate
+(`seat-positive-verified`): a main arc that builds on a seat's result declares `rests_on_seat` and needs a VERIFIED
+harvest row.
+
+## 4. Provenance spot-sweep
+
+10 641 added lines scanned, 0 hits, 0 in public-facing files. The three new tracked pages of the window (THE_REREAD,
+THE_CROSSING, THE_FIFTH_FORCE_QUESTION, THE_GENERATION_LANE_AUDITED) quote the record's own earlier sentences — 18 of
+them re-verified at their commits in THE_REREAD — and none claims an outside verification.
+
+## 5. Advancement, errors, vocabulary
+
+LAW_MAP +10 rows (T-QUARTER-FORCES-SWAP, T-PERIPHERAL-SIGN, T-QUARTER-IS-RHOMBIC, T-ROTATION-PI, T-SIGN-IS-THE-BIT,
+T-HAND-IS-A-PHASE, T-SIGN-IS-ONE-MOVE, T-END-CURVE and the two scoped statements B1480, B1484), THEOREM_REGISTRY +8.
+Error instances filed: E54 ×1 (the absence claim of L244, found by the SM seat), E82 ×1 (the sealed sign detector of
+B1459, B1463). No new classes. **New vocabulary not in TERMINOLOGY: "spin swap", "swap phase", "the crossing plan"** —
+entered at this review (TERMINOLOGY, "Added at Review 60"), with "the hand", "the end curve" and "a count of ends".
+Gates not named by any test: `path-refs`, `representation-sweep`, `test-vacuity` (unchanged since Review 58; R60-4).
+
+## 6. The chain gap, adjudicated
+
+774 of the record's arcs are on a synthesis surface and not in the chain; the top by surface degree: B1098 (8), B959
+(7), B1100 (7), B952 (7), B1086 (6), B1000 (6), B1070 (6), B743 (6). **No promotion this review**, for Review 59's
+reason — these are the closing campaign's and the value channel's results — with one change of standing: B959's
+sentence in THE_SM_VERDICT §2.1 ("no centralizer construction on this object") is now scoped on the page to m004
+(S65), so if it is ever promoted it enters as a statement about the root.
+
+## 7. The sample, read
+
+Five arcs drawn by the anchor, all this seat's own in this window. Checked on each: the verdict file carries the scope
+tag (all five; reach general, general, class, single, class), the lock exists and ran in the window's suites
+(`test_b1467_seats_evening`, `test_b1469_sep16_rowed`, `test_b1474_spin_swap_1a`, `test_b1478_web_seat_harvest`,
+`test_b1479_the_bit_is_the_sign`), the "Seen first" section is present on all five. **Four of the five have no
+"Disclosed" section** — B1467, B1469 (harvest arcs), B1474 (sealed; its disclosure lives in its preregistration and its
+R92 addendum of 2026-10-07) and B1478 (a ruling arc). The rule of B1454 asks it of preregistrations, and the two sealed
+arcs of the five carry it there; the convention for FINDINGS is uneven and is left as it is, named here. B1474's coset
+rule was withdrawn as a law in this window by addendum (R92), and B1475's counts read as lower bounds — the two
+corrections the sample's own arcs needed were already on the record.
+
+## 8. Harvest and relays
+
+Harvest in the window: the SM seat's 13 arcs sm:B1533–B1545 (rows 886–898) and nine relays, the web seat's branch
+(rows 879–885, 899), the LP seat (row 900), the hypatia lane. **During this review the lanes moved again and are rowed
+here:** sm:B1538 banked (room for two: P7′, P8′ false on the regenerated records), **sm:B1546 NEGATIVE** (N₄₅'s classes
+of cup rank one and two are a symmetric matrix's rank locus, Proposition L, every one at I(W) ≥ −1: no three on N₄₅ at
+the trivial character at any class), sm:B1547 sealed (the room-three members: order-8 characters trivial on every cusp),
+and **LP01 run**: m004 and m202 share a cover of degree 24, s959 one of degree 36, o10_150726 one of degree 20 — the
+figure-eight group being a congruence subgroup of level 4 in PSL(2, ℤ[ω]) — each chiral and none with the three:
+"chirality reaches the tower above the root; the count of three does not." All at headline level; none re-run here.
+Remaining debt: the audit lane's 35 and the audit fork's 52 unrowed items (R58-4's remainder → R60-2), none aged past
+21 days. Relays: 43 outbound open, 23 inbound open, 456 banked, 38 declined.
+
+## 9. What this review cannot say
+
+It did not re-read the merged commits line by line; it ran the suite ten times in the window on landing trees and
+once in a fresh clone. Its sample is five of twenty-two, all by the reviewer. It took the harvest gate's counts as
+given and read the lanes' newest arcs at headline level only. It cannot say whether the SM seat has read main's audit
+of its lane, nor whether the owner has chosen between the options put to him (pause the cover search and re-aim at
+the ends; the rules of counting with one gate) — main acted on its own recommendation, reversibly.
+
+### Action items (Review 60)
+
+- [ ] R60-1: mirror the three seat lanes to codeberg (SM-derivation at `33b14d53`, web-seat at `d40c1ab6`, LP at `8b6df98f`) once the push is unblocked by this review, and record the heads in the next landing (owner: cc; source: §2)
+- [ ] R60-2: row the audit lane's 35 and the audit fork's 52 unrowed items at headline and verdict level in one harvest arc, newest first (owner: cc; source: §8; the remainder of R58-4 after R59-3)
+- [ ] R60-3: verify LP01 on this bench — the congruence claim for the figure-eight group and one of the three common covers (degree 20 over m004, 4 over o10_150726) with B1418's instrument — and rule what its "chirality reaches the tower, three does not" means for FK14 (owner: cc; source: §8)
+- [ ] R60-4: name the three gates no test names (`path-refs`, `representation-sweep`, `test-vacuity`) in a test each, or record why a failing-path test cannot be written (owner: cc; source: §5; carried from Review 58's gate audit)
+- [ ] R60-5: pay what main owes the SM seat — one N₄₅ reading from scratch (ζ⁰ eigenspace, interior part, generic class, (−1, −10)), the literature on Lemma F — and R58-5's four literature checks under the owner's rule of 2026-10-06 (owner: cc; source: §1, §3)
+- [ ] R60-6: rule the SM seat's nine GENESIS proposals P1–P9 against v1.15, P6 and P7 against FK13/FK14 (owner: cc; source: §3)
+- [ ] R60-7: repair the import-order fragility of B1476's and B1477's torsion modules (each replaces the shared `realness.setup` at import; live tests run in fresh interpreters meanwhile) and disclose it on both arcs (owner: cc; source: S63)
+- [x] R58-4: resolved into R60-2 at its third carry — the harvest's concrete remainder (the audit lane's 35 and the audit fork's 52 unrowed items; R59-3 paid the rest) is now a named item with an owner (carried from R59)
+- [x] R58-5: resolved into R60-5 at its third carry — the four literature checks (T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE, T-MASS-TERM) are named there under the owner's rule of 2026-10-06 (carried from R59)
+- [x] R55-1 (ex-R54-1): closed as declined (Review 59's reason stands: the two screens are not owed; B1247 and the triage register)
+- [x] R55-7: closed as declined (Review 59's reason stands: the correction rule is enforced by four gates)
+- [x] R55-12: closed as declined (Review 59's reason stands: a promotion needs a card and a grade; UNJUDGED until carded)
+- [x] R56-1: closed as declined (Review 59's reason stands: the harvest-debt gate ages rows on its own ratchet; the concrete remainder is R60-2)
+- [x] R56-3: closed as declined (Review 59's reason stands: CLAIMS.md's rewrite is Stage 6 of THE_FOUNDATION_LOCK_PLAN and a declared debt of `doc_currency`)
+
+**anchor-commit: `aab434644`**

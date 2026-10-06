@@ -10164,6 +10164,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1488": {
+   "slug": "review 60 the first review that fired",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [
