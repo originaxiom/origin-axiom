@@ -77,3 +77,8 @@ They are regenerated with the sealed code, unchanged, in this order.
 - **The comparison, committed before the regenerated records are read.** `regen_compare.py` compares the two read-outs'
   outputs, and Part F′'s own rows, with every number this seat's relay of 2026-10-06 (its §3) recorded from the original
   read-out. A single difference withholds the bank and goes to ERROR_LEDGER first. It was tested on synthetic records only.
+- **Part F′ finished** at 23:25:54Z with rc 0: 12,152 candidates and 501,792 readings, every block of the sealed shape.
+- **The append** (`post_partFp_append.py`, 23:35:35Z): `run_F.jsonl` was the sealed partial record (sha-256 `1e9c6e55…`),
+  Part F′'s record had 12,152 headers and 501,792 readings, and after the append `run_F.jsonl` has 526,770 lines, sha-256
+  `d9bc774d…` (`run_F_append.json`). It is banked as `run_F.jsonl.gz` with both sha-256s (`run_F_sha256.txt`). Nothing was
+  read before this record was committed.

@@ -1,0 +1,9 @@
+{
+ "run_F.jsonl before (the sealed partial record)": "1e9c6e5550f2bb46453375cce8761e87ad6307a19d0ce25f1bb80f74602bcec7",
+ "lines before": 12826,
+ "run_F_scoped.jsonl (Part F')": "a697fad1707207717648fc2c5ce478e7df65567a28ee6fbb735a6b42e52a06b2",
+ "Part F' candidates": 12152,
+ "Part F' readings": 501792,
+ "run_F.jsonl after (the partial record, then Part F')": "d9bc774df28e3bc1263f1fb256944bc2051479ead123a10208de51525ed831f6",
+ "lines after": 526770
+}
