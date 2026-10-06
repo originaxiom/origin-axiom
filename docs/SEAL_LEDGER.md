@@ -2131,3 +2131,20 @@ Eight repaired scientific paths, nonauthor acceptance pending.
 | `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/custody.rb` | `5ee52befe582ef69c6c0618cdfd4df75d0695171a2fd2321f8940841e1245952` |
 | `reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/CORRECTION.md` | `789829d00aa37c30837e5545da1e6d36b4f7d96482bd0528dad06330fd7e0868` |
 | `tests/test_physical_bridge_silver_spectral_completion.py` | `68e5e0f26166ee533f7f6058d14d10414cb438641c91889ecd78da1ba3b353bf` |
+
+## October6 silver nonlinear first-correction research seal
+
+Holomorphic BFV cubic correction and compact controls, not all-order
+charged/multiplet completion or full physical banking. Candidate unchanged.
+These files are sealed before first import/test collection. Analytic review
+pending; exact science/exit custody and inherited governance debt retained.
+
+| File | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/DESIGN.md` | `f394d2eced7e34a3d1a4a91ad7b882cdd3b8d8ece51c0d1135badcabe2267786` |
+| `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/PROOF.md` | `32947d8cc8688e82462746112cbee011ae275ea326861a6fde57646750cc1d7c` |
+| `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/INPUTS.json` | `637b6c18d16ba0ccdebd36d777bdc651a902e8f81d0fafe82c37ffd32d8b2a86` |
+| `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/probe.py` | `c2b478a2500c577631143b3cf0fe7e08546f09b52e38ee8cd6cca8cc3517b376` |
+| `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/reference.py` | `9391baf521d112e17545bb3def90cf6ba730e2f9cb02a2c50a0a1130bc080e12` |
+| `reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/custody.rb` | `19e2799ab8bf8ab48e5888a31d8500d87f87144bf0a47def6c72f7f37251becf` |
+| `tests/test_physical_bridge_silver_nonlinear_boundary.py` | `492e79a94e03f9b30b995aad994fd9985ea1f61b7b1efb35132ecfb2cffa5b86` |

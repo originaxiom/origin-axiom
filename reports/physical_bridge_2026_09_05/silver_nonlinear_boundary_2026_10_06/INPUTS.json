@@ -1,0 +1,62 @@
+{
+  "sources": [
+    {
+      "ref": "826bda45f43cef91fbee21a1965c378b6c39aede",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "ref": "826bda45f43cef91fbee21a1965c378b6c39aede",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
+      "bytes": 9305,
+      "sha256": "d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b"
+    },
+    {
+      "ref": "826bda45f43cef91fbee21a1965c378b6c39aede",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/NATIVE.json",
+      "bytes": 11004,
+      "sha256": "b296155a050af5bfbf6387aa41a3ca00f4914987cec871e96b5e1a9ee8733641"
+    },
+    {
+      "ref": "826bda45f43cef91fbee21a1965c378b6c39aede",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "ref": "826bda45f43cef91fbee21a1965c378b6c39aede",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "bytes": 8379,
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4"
+    },
+    {
+      "ref": "826bda45f43cef91fbee21a1965c378b6c39aede",
+      "path": "reports/physical_bridge_2026_09_05/capture_checked_run.rb",
+      "bytes": 1224,
+      "sha256": "54973dda238951ff15249cc54068f3ab6919049f73c947fb3d12cdbf67b6c602"
+    },
+    {
+      "ref": "826bda45f43cef91fbee21a1965c378b6c39aede",
+      "path": "reports/physical_bridge_2026_09_05/COMMON_MODEL_CANDIDATE_2026_10_05.md",
+      "bytes": 5223,
+      "sha256": "c8ae013890b690896d3f14a383a0f0fb69a3c7f43eeac74f26d7b419a40d945d"
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_cyclic_boundary_2026_10_04/PROOF.md",
+      "bytes": 3613,
+      "sha256": "18cc6415d845eff4174853beda4ae00adfd3f2cb9ef010a6fc8fd934a8084c81"
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/1201.0290v3",
+      "access_date": "2026-10-06",
+      "read_scope": "sections3.7 and7.2 personally, not full paper"
+    }
+  ],
+  "non_author_review": "pending",
+  "full_suite_certified": false,
+  "silver_nonlinear_E8_generator_numerically_computed": false
+}

@@ -1,0 +1,39 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/DESIGN.md",
+      "bytes": 5067,
+      "sha256": "f394d2eced7e34a3d1a4a91ad7b882cdd3b8d8ece51c0d1135badcabe2267786"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/PROOF.md",
+      "bytes": 7204,
+      "sha256": "32947d8cc8688e82462746112cbee011ae275ea326861a6fde57646750cc1d7c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/INPUTS.json",
+      "bytes": 2412,
+      "sha256": "637b6c18d16ba0ccdebd36d777bdc651a902e8f81d0fafe82c37ffd32d8b2a86"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/probe.py",
+      "bytes": 6644,
+      "sha256": "c2b478a2500c577631143b3cf0fe7e08546f09b52e38ee8cd6cca8cc3517b376"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/reference.py",
+      "bytes": 8897,
+      "sha256": "9391baf521d112e17545bb3def90cf6ba730e2f9cb02a2c50a0a1130bc080e12"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/custody.rb",
+      "bytes": 2332,
+      "sha256": "19e2799ab8bf8ab48e5888a31d8500d87f87144bf0a47def6c72f7f37251becf"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_nonlinear_boundary.py",
+      "bytes": 3608,
+      "sha256": "492e79a94e03f9b30b995aad994fd9985ea1f61b7b1efb35132ecfb2cffa5b86"
+    }
+  ]
+}
