@@ -1,5 +1,13 @@
 # Approved physics mission and execution criteria
 
+October6 prerequisite advances at research grade: first nonlinear boundary
+correction preserves the supplied chiral linear tangent;22 exact/22 separate
+reference/11 LIVE and22 new/spectral regression PASS. Report
+silver_nonlinear_boundary_2026_10_06/FINDINGS.md. No stationary full physical
+model, parameter-free selection or mission obligation is marked complete.
+Higher transferred consistency, actual coupled real multiplets/normal laws,
+interactions and generated boundary response remain the next physics duty.
+
 The owner approved this mission and its roadmap on September 30, 2026:
 "i aprove all your recomendations. lets lock this goal and execute it properly".
 This is the authoritative mission for this audit lane. It is a research

@@ -1,5 +1,12 @@
 # Origin Axiom
 
+> October6 [first nonlinear boundary correction](reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md):
+> a conditional formal cubic generator curves the supplied spectral
+> tangent, removing its first normal gauge escape without changing the
+> linear chiral counts.22 native/22 separate reference/11 LIVE and22
+> regression PASS. Higher charged completion, physical multiplets and
+> principle-based selection remain; no interacting SM/TOE claimed.
+
 > October5 [spectral boundary completion](reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/FINDINGS.md):
 > conditional elliptic lift of the fork's finite charged cones;49 exact/
 > 100 separate-reference/11 LIVE and29 regression PASS after disclosed

@@ -1,5 +1,13 @@
 # Fixed silver candidate and the next same-action obligation
 
+October6 first nonlinear correction: the preceding spectral tangent has
+an authored formal cubic BFV generator cancelling its first normal escape,
+without altering coefficient, cusp, polarized dimensions or linear counts.
+22 native/22 reference/11 LIVE and22 regression PASS. The boundary response
+and exact primitive/counterterm are explicit costs, not a silently stationary
+bare action. silver_nonlinear_boundary_2026_10_06/FINDINGS.md. Higher charged
+completion, actual real/SUSY/normal laws and generated selection remain.
+
 October5 Stage2C: silver_spectral_completion_2026_10_05/FINDINGS.md now
 reproduces full charged cones and35 polarization dimensions, and supplies
 an authored conditional spectral/Hodge realization. Candidate/marking/

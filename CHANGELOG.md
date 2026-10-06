@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-06 first nonlinear correction at the fixed silver tangent
+
+22 exact/22 separate reference/11 LIVE and22 new/spectral regression PASS
+at pre-execution pushed/server-confirmed d88493ecc. Conditional formal
+cubic BFV generator removes quadratic normal escape while preserving
+the supplied linear chiral counts. Nonzero harmonic obstruction control,
+old fixed-space escape and boundary primitive/counterterm cost retained.
+No all-order charged/SUSY completion, stationary physical action or selected
+family claimed. Report reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md.
+Higher consistency/relative cyclic contraction and full coupled physical
+multiplets remain next; full parameter-free SM/TOE ACTIVE/unachieved.
+
 ## 2026-10-05 spectral silver cone/operator bridge and anomaly menu
 
 49 exact/100 separate-reference/11 LIVE and29 regression PASS after

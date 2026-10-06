@@ -1,5 +1,24 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October6 first nonlinear boundary correction EXECUTED at research grade:
+reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md.
+22 native/22 separate reference/11 LIVE and22 regression PASS; authored
+formal cubic correction preserves the spectral linear tangent. Register:
+
+- PB-NONLINEAR advanced through quadratic normal-Q order ONLY. Test
+  higher transferred obstructions and a relative cyclic k-equivariant
+  contraction at the same literal coefficient; do not assume all-order
+  smooth/charged completion or kill curved laws from fixed-space escape.
+- PB-MULTIPLET / PB-ACTION remain: actual primitive/counterterm/sign,
+  real conjugate and full boson/normal/D-term/superfield/source equations,
+  convergence, stationarity and positive norms on one background/domain.
+- PB-SELECT / PB-ANOMALY / PB-REVIEW carried forward unchanged: generated
+  carrier/action/metric/polarization, physical spectrum/interactions/quantum
+  anomaly and independent analytic/full-suite acceptance. All35 dimension
+  choices survive this first correction; not a selected physical family.
+- Supporting exceptional cover and spin investigations remain; no three-
+  generation architecture exclusion. Qualia is a separate hypothesis.
+
 October5 spectral silver completion research EXECUTED after disclosed
 verifier repair:49 native/100 separate reference/11 LIVE and29 regression
 PASS at pushed/server-confirmed pre-run088d2aeba. Full charged cones,

@@ -40,6 +40,15 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    quantum anomaly and physical zero modes/interactions. Fixed linear
    gauge counterexample is not a no-go for curved completions. Supporting
    covers/spin remain; do not substitute favorable counts for this joint.
+   Stage2D first nonlinear correction EXECUTED at research grade:
+   silver_nonlinear_boundary_2026_10_06/FINDINGS.md. Conditional FORMAL
+   cubic Hamiltonian removes quadratic normal escape without changing
+   the chiral linear tangent.22 native/22 reference/11 LIVE and22
+   new/spectral regression PASS. Actual boundary primitive/counterterm
+   remains priced; not all-order charged closure or physical stationarity.
+   NEXT higher transferred/relative cyclic k-equivariant contraction
+   test, convergence and the SAME full physical multiplet/normal/source
+   equations. Keep the original coefficient and all supplied choices visible.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

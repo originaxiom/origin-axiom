@@ -1,0 +1,156 @@
+{
+  "seal_commit": "d88493ecc822507f3ca3398f5f0184e7dab06898",
+  "runs": [
+    {
+      "stem": "custody",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/custody.rb",
+          "final",
+          "/tmp/oa-silver-nonlinear-20261006.NmBXRP",
+          "d88493ecc822507f3ca3398f5f0184e7dab06898"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7392029999755323,
+        "log_bytes": 144,
+        "log_sha256": "860c559b0365ddb30fc5e03dc3afc3f3642e2767d1f9e358ce9b15ae487eb661"
+      }
+    },
+    {
+      "stem": "focused",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_silver_nonlinear_boundary.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.7453410000307485,
+        "log_bytes": 99,
+        "log_sha256": "1d926ad2a53d742011999958b77ef042f93e226ce569d80fc2ecb134f90f9b54"
+      }
+    },
+    {
+      "stem": "governance_execution",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.953167000086978,
+        "log_bytes": 2384,
+        "log_sha256": "4930d8e6cd1f33ec1debc991a88675f50206a5c189e46054267093e06a2544a8"
+      }
+    },
+    {
+      "stem": "native",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/probe.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.339274000027217,
+        "log_bytes": 1267,
+        "log_sha256": "6e9d6bef302287d50456f8b0482d4431d3789c02f1b5629899417077b5959361"
+      }
+    },
+    {
+      "stem": "preflight",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/custody.rb",
+          "preflight",
+          "/tmp/oa-silver-nonlinear-20261006.NmBXRP",
+          "d88493ecc822507f3ca3398f5f0184e7dab06898"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6761649999534711,
+        "log_bytes": 149,
+        "log_sha256": "f958d81894c83f0d1cd24e4805c8bb5ef2ce4bf5f3c6fe2bf77bda4b83730c02"
+      }
+    },
+    {
+      "stem": "reference",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/reference.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.07668800000101328,
+        "log_bytes": 1140,
+        "log_sha256": "edc60583b0a6944210db1acf03e99798ca22ccca98ce94181b2a44637446206f"
+      }
+    },
+    {
+      "stem": "regression",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_silver_nonlinear_boundary.py",
+          "tests/test_physical_bridge_silver_spectral_completion.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 293.48503099998925,
+        "log_bytes": 111,
+        "log_sha256": "dc1d36fbee81f4079107002a10037bc8bf4b39d92bf061290005c295f214b9d5"
+      }
+    },
+    {
+      "stem": "server_seal",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=",
+          "-c",
+          "credential.helper=!gh auth git-credential",
+          "ls-remote",
+          "--heads",
+          "https://github.com/originaxiom/origin-axiom.git",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6128439999883994,
+        "log_bytes": 85,
+        "log_sha256": "6012feb1fb6a223eec387bf38823fe151eb12c24650326ce5ae520c443195fd8"
+      }
+    }
+  ],
+  "full_suite_certified": false,
+  "non_author_acceptance": false,
+  "physical_goal_achieved": false
+}

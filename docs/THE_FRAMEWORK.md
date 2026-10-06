@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October6 first nonlinear correction research: a conditional FORMAL cubic
+BFV generator removes quadratic normal escape of the supplied spectral
+tangent without changing its linear cone/index data.22 native/22 separate
+reference predicates,11 LIVE and22 new/spectral regression tests PASS at
+pushed/server-confirmed pre-run d88493ecc. Original fixed-linear escape
+and genuine harmonic-obstruction control retained. A curved boundary
+requires a priced primitive/counterterm; no bare physical stationarity,
+all-order charged completion or selected physical family is claimed.
+Report: reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md.
+Next higher transferred obstructions/relative cyclic contraction, then
+convergence and full physical multiplet/source/normal/interaction laws.
+Parameter-free SM/TOE ACTIVE/unachieved; nonauthor/full-suite/main-bank
+acceptance owed. Larger-cover/spin positives remain supporting.
+
 October5 spectral-completion research: conditional elliptic Hodge lift
 of the fork's complete silver charged cones, full35-dimension anomaly
 menu and admitted linear auxiliary derivative.49 exact/100 reference/

@@ -1,5 +1,14 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October6 path-local first nonlinear boundary correction, conditional
+research sublemmas, not shared B-law/main banking. Fork cyclic lemma,
+the preceding spectral tangent and R40/R61 duties credited.
+
+| Conditional result | Exact scope and evidence |
+|---|---|
+| Harmonic cubic vanishes and the acyclic restriction is removable | For the supplied k-stable cup L, Ah=(k,L,ann(k)), the integrated harmonic BFV cubic is zero. Scalar/exact1 pairs give delta h+h delta=N and F3=-sum h(s_r)/r. Formal quadratic Lagrangian correction, not an all-order physical theorem. reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/PROOF.md; tests/test_physical_bridge_silver_nonlinear_boundary.py;22 native/22 separate reference/11 LIVE and22 regression PASS. |
+| A curved boundary preserves linear counts but its primitive is a cost | Cubic generator has identity tangent, retaining previous linear cone data. Exact graph lambda=dF is not zero; signed primitive/counterterm and complete physical multiplets remain required. Same PROOF/tests; genuine harmonic obstruction and wrong-sign controls retained. No generated selection, full charged completion or whole-architecture exclusion. |
+
 October5 path-local spectral completion: conditional research sublemmas,
 not new shared B-law banking. Fork finite cone/cup, B1509 smooth-completion
 context and R40/R61 parent/reality duties retained.

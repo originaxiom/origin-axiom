@@ -1,5 +1,12 @@
 # Physical bridge audit — 2026-09-05
 
+[October6 first nonlinear correction](silver_nonlinear_boundary_2026_10_06/FINDINGS.md):
+22 native/22 separate reference/11 LIVE and22 regression PASS. Conditional
+formal cubic response curves the spectral tangent while preserving its
+linear counts. Counterterm cost retained; higher charged/multiplet/physical
+completion and generated selection remain. The October5 fixed-linear
+counterexample below is true of that law, not of every curved completion.
+
 [October5 spectral exact-block completion](silver_spectral_completion_2026_10_05/FINDINGS.md):
 49 native/100 separate-reference/11 LIVE and29 regression PASS after
 disclosed verifier repair, charged spectra unchanged. Conditional elliptic

@@ -17403,3 +17403,30 @@ LAW_MAP/OPEN_LEADS and sender-owned relay updated. No foreign branch
 edit or live acknowledgment.26 governance PASS/four historical failure
 rows unchanged from preceding publication; no full-suite/main-bank
 certificate. Original parameter-free SM/TOE goal remains active.
+
+## October6 first nonlinear correction, same silver coefficient
+
+Science preseal d88493ecc822507f3ca3398f5f0184e7dab06898 committed,
+pushed and server-confirmed before imports/collection; eight source pins
+and seven science files match at final custody.22 native/22 separate
+Fraction Fourier/exterior reference predicates,11 LIVE and22 combined
+new/spectral regression tests PASS. No producer repair or candidate change.
+
+Conditional formal cubic BFV response removes first quadratic normal-Q
+escape of the spectral tangent; same linear charged spectra retained.
+Fork finite cyclic lemma credited, not rediscovered. All170 bounded
+monomials checked; actual compact SU5 three-mode CS cubic is nonzero
+and contracted; quadratic/cubic gauge-orbit curvature cancels. Genuine
+harmonic obstruction, old fixed-linear escape and sign controls retained.
+Not all-order charged completion, physical fermion/BV identification,
+stationary bare action, selected family or full SM/TOE completion.
+
+Exact boundary primitive/counterterm is a priced response duty. Next
+higher transfer/relative cyclic equivariant contraction, convergence,
+coupled real boson/normal/D-term/superfields, full physical interactions
+and quantum anomalies, with carrier/action/metric/polarization selection
+and act/register/lift/order data retained. Cover/spin positives remain.
+Nonauthor analytic/full-suite/main-bank acceptance owed; inherited four
+governance categories remain, no waiver. Sender relay published on own
+branch; no live delivery/acknowledgment claimed. Report
+reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md.
