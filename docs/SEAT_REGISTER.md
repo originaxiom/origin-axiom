@@ -46,3 +46,13 @@ day; the table is in the S57 log entry). Decided and executed:
 
 Both codex lanes are one operator: the terminal seat on `audit/physical-bridge-2026-09-05` (R90 today, codeberg lagging
 at R85 — its mirror, not main's) and the app seat on `audit/fork-2026-09-20` (out of quota until 2026-10-11).
+
+## 2026-10-06 (B1478) — the web seat has a branch
+
+At the owner's word the web seat (chat1) commits its relays on its own branch from this date: `origin/chat1/web-seat`
+(forked from main at `16bef4d43`; head `5cd5edf67` when read). Conventions it keeps: relays `relays/CHAT1_TO_CC_<date>_<topic>.md`,
+material beside them, no arc numbers, nothing written to main or to any ledger, every computed result sealed first with
+its hash in the folder. On main: seat `chat1` in `scripts/checks/harvest_debt.py`, a pin row and rows 879–881 in
+`docs/HARVEST_LEDGER.md`, three rows in `docs/RELAY_LEDGER.md`. The branch is on origin only; mirroring it is the seat's
+or the owner's, not main's. Earlier handoffs of this seat reached main through the owner and stay where they were
+archived (`docs/handoffs/chat1_*`).

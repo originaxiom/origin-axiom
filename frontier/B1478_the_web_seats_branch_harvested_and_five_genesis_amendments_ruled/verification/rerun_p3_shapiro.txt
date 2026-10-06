@@ -1,0 +1,4 @@
+(dim H1(m000;V), dim H1(m000;V(x)w), dim H1(m004;V|)) over all 48 surjections: {(0, 0, 0): 48}
+P3 Shapiro: PASS
+control, trivial V=F3^2: m000 2, m000(x)w 0, m004 2   expected 2, 0, 2 (H1 = Z each): PASS
+control, unipotent V: m000 1, m000(x)w 0, m004 1   Shapiro c = a + b: PASS  (non-vacuous: True)

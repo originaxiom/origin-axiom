@@ -1,0 +1,501 @@
+{
+ "A1": {
+  "2": [
+   1
+  ],
+  "4": [],
+  "6": [
+   1,
+   3
+  ],
+  "8": [],
+  "10": [
+   1,
+   3,
+   5
+  ],
+  "12": []
+ },
+ "A4": {
+  "charges": {
+   "Q,u^c,e^c (10 of SU(5) in 16)": 4,
+   "d^c,L (5bar in 16)": -2,
+   "nu^c (1 in 16)": 10,
+   "5 in 10": -8,
+   "5bar in 10": -2,
+   "N (singlet)": 10
+  },
+  "dimension": 27,
+  "sum_q": 0,
+  "sum_q3": 0,
+  "family_part": [
+   -10,
+   5,
+   5
+  ],
+  "family_sum": 0,
+  "family_cube_sum": -750
+ },
+ "A3": {
+  "realisations": 74,
+  "rational": 18,
+  "irrational": 56,
+  "denominators": {
+   "2": 3,
+   "4": 8,
+   "48": 2,
+   "1": 5
+  },
+  "amphichiral": 16,
+  "amphichiral_classes": [
+   0.0,
+   0.25
+  ],
+  "rows": [
+   {
+    "state": "b++LR",
+    "cs_mod_half": 0.5,
+    "denominator": 2,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   },
+   {
+    "state": "b++LLR",
+    "cs_mod_half": 0.479166667,
+    "denominator": 48,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLR",
+    "cs_mod_half": 0.229166667,
+    "denominator": 48,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLR",
+    "cs_mod_half": 0.463106867,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLR",
+    "cs_mod_half": 0.213106867,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLRR",
+    "cs_mod_half": 0.5,
+    "denominator": 2,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LLRR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   },
+   {
+    "state": "b++LLLLR",
+    "cs_mod_half": 0.450936958,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLR",
+    "cs_mod_half": 0.200936958,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRR",
+    "cs_mod_half": 0.480150229,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRR",
+    "cs_mod_half": 0.230150229,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLRLR",
+    "cs_mod_half": 0.478381294,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLRLR",
+    "cs_mod_half": 0.228381294,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLLR",
+    "cs_mod_half": 0.441534289,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLLR",
+    "cs_mod_half": 0.191534289,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLRR",
+    "cs_mod_half": 0.464234316,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLRR",
+    "cs_mod_half": 0.214234316,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRLR",
+    "cs_mod_half": 0.460318807,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRLR",
+    "cs_mod_half": 0.210318807,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRRR",
+    "cs_mod_half": 0.0,
+    "denominator": 1,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LLLRRR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   },
+   {
+    "state": "b++LLRLRR",
+    "cs_mod_half": 0.0,
+    "denominator": 1,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LLRLRR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   },
+   {
+    "state": "b++LLLLLLR",
+    "cs_mod_half": 0.434103485,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLLLR",
+    "cs_mod_half": 0.184103485,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLLRR",
+    "cs_mod_half": 0.451902169,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLLRR",
+    "cs_mod_half": 0.201902169,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLRLR",
+    "cs_mod_half": 0.446121466,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLRLR",
+    "cs_mod_half": 0.196121466,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLRRR",
+    "cs_mod_half": 0.48287642,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLRRR",
+    "cs_mod_half": 0.23287642,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRLLR",
+    "cs_mod_half": 0.44174829,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRLLR",
+    "cs_mod_half": 0.19174829,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRLRR",
+    "cs_mod_half": 0.480395682,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRLRR",
+    "cs_mod_half": 0.230395682,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRRLR",
+    "cs_mod_half": 0.480395682,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRRLR",
+    "cs_mod_half": 0.230395682,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLRLLRR",
+    "cs_mod_half": 0.478586862,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLRLLRR",
+    "cs_mod_half": 0.228586862,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLRLRLR",
+    "cs_mod_half": 0.478246625,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLRLRLR",
+    "cs_mod_half": 0.228246625,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLLLLR",
+    "cs_mod_half": 0.428107529,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLLLLR",
+    "cs_mod_half": 0.178107529,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLLLRR",
+    "cs_mod_half": 0.442298858,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLLLRR",
+    "cs_mod_half": 0.192298858,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLLRLR",
+    "cs_mod_half": 0.435078321,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLLRLR",
+    "cs_mod_half": 0.185078321,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLLRRR",
+    "cs_mod_half": 0.469284317,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLLRRR",
+    "cs_mod_half": 0.219284317,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLRLLR",
+    "cs_mod_half": 0.428637988,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLRLLR",
+    "cs_mod_half": 0.178637988,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLRLRR",
+    "cs_mod_half": 0.464555149,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLRLRR",
+    "cs_mod_half": 0.214555149,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLRRLR",
+    "cs_mod_half": 0.464555149,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLLRRLR",
+    "cs_mod_half": 0.214555149,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLLRRRR",
+    "cs_mod_half": 0.5,
+    "denominator": 2,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LLLLRRRR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   },
+   {
+    "state": "b++LLLRLLRR",
+    "cs_mod_half": 0.459983478,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRLLRR",
+    "cs_mod_half": 0.209983478,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRLRLR",
+    "cs_mod_half": 0.45978554,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRLRLR",
+    "cs_mod_half": 0.20978554,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRLRRR",
+    "cs_mod_half": 0.0,
+    "denominator": 1,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LLLRLRRR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   },
+   {
+    "state": "b++LLLRRLLR",
+    "cs_mod_half": 0.459983478,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRRLLR",
+    "cs_mod_half": 0.209983478,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLLRRLRR",
+    "cs_mod_half": 0.001215879,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLLRRLRR",
+    "cs_mod_half": 0.251215879,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLRLLRLR",
+    "cs_mod_half": 0.457414425,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b+-LLRLLRLR",
+    "cs_mod_half": 0.207414425,
+    "denominator": null,
+    "amphichiral": false
+   },
+   {
+    "state": "b++LLRLRLRR",
+    "cs_mod_half": 0.0,
+    "denominator": 1,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LLRLRLRR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   },
+   {
+    "state": "b++LLRLRRLR",
+    "cs_mod_half": 0.0,
+    "denominator": 1,
+    "amphichiral": true
+   },
+   {
+    "state": "b+-LLRLRRLR",
+    "cs_mod_half": 0.25,
+    "denominator": 4,
+    "amphichiral": true
+   }
+  ]
+ }
+}

@@ -1,6 +1,6 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.12 · 2026-10-06 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.11 · 2026-10-04 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
@@ -285,13 +285,7 @@ Every banked result carries a scope tag with four parts:
 - **hypotheses**: what else the result needs (an end condition, a level range, q ≠ 1, and so on).
 
 **[v1.2]** A count over states names its unit, word states or manifolds: a word and its reverse are two states and one manifold
-(§3). **[v1.12] "The family" names its set (the web seat's A3, adopted as a naming rule).** At least five sets have been
-called "the family" on the record and in the seats' reports: the word states X_gen (§3); m004's commensurability class;
-B1186's 112; the regular-tetrahedral class; the amphichiral members of B1474–B1477. A statement true on one is false on
-another — measured: on X_gen's primitive word states to length 8 (74 hyperbolic realisations) the Chern–Simons class is
-rational on 18 and irrational on 56, and 16 are amphichiral with class 0 or ¼ (reproduced on main, B1478), whereas the
-1/24 lattice of B1476 is a fact of B1186's 112. From v1.12 a scope tag's `object` names the set, and the bare phrase is
-not used in a verdict line. Which set the owner's rule of 2026-10-04 means is fork FK13 (§8); main does not rule on it. An arc also records what it swept before it claims anything, in the repo and in the literature (§0).
+(§3). An arc also records what it swept before it claims anything, in the repo and in the literature (§0).
 
 The tag lives in an arc's verdict file (field `scope`) and in each kill-graph entry (field `scope`). **On main**, from
 B1454 on, `tests/test_arc_verdict_schema.py` requires it of every new arc and of every new kill-graph entry. **On the
@@ -347,22 +341,12 @@ physics; any Standard-Model parameter (**0 of 19**).
   index I = n(V) − n(V*) (B1297) is a flat-bundle quantity that fires at ±1, ±2 on the family (B1418); and the mirror's
   action on the spin structure — a flat datum — is genuine on seven amphichiral members and absent on the knot (B1474,
   B1475). So the flat frame reaches DISCRETE data (counts, bits, signs) through the boundary and cannot reach CONTINUOUS
-  MODULI (a mass, a coupling that the construction leaves free): the record's value-negatives are theorems about flat
-  moduli and bound the frame, not physics (lead L247; the census of 173 value-kills, 107 on flat premises). **[v1.12]**
-  The v1.11 wording said "continuous values" and over-reached the other way (the web seat's A2): a rigid flat point is
-  not a modulus and fixes continuous numbers exactly — on m004 the volume (3√3/2)·L(2,χ₋₃) and the Kashaev
-  expansion (B598, B722; the dilogarithm atom verified in B1476). Those are numbers of a member, fixed; none is a
-  Standard-Model parameter, and the count of §7 does not move. Narrowed on two readings of the same day from
+  values (a mass, a coupling): the record's value-negatives are theorems about flat moduli and bound the frame, not
+  physics (lead L247; the census of 173 value-kills, 107 on flat premises). Narrowed on two readings of the same day from
   opposite sides — the audit lane's R89 ("narrow GAP6 to its smooth closed bulk spin-Dirac hypotheses") and the web seat's
   handoff ("the wall is a flat-sector theorem") — against main's own v1.9 sentence, which had dropped the hypotheses.
-  What remains of the gap: the continuous moduli; and the step from the boundary's η to a physical count (B279's
-  unbanked link, L246 Phase 2). **[v1.12] "A frame with curvature" is necessary, not sufficient (the web seat's A1,
-  derived):** on a smooth closed bulk of dimension n the Dirac index ∫Â·ch(V) takes ch_k only with n − 2k ≡ 0 (mod 4),
-  and ch_k(V̄) = (−1)^k ch_k(V); so ind(V) ≠ ind(V̄) is possible only for n ≡ 2 (mod 4). A four-dimensional bulk, curved
-  or not, cannot tell 27 from 27̄; a six-dimensional one can. No frame of the right parity is on the record (§8).
-  **[v1.12] Where the bit is decided (B1477):** a mirror that acts on an invariant cusp torus by a rhombic involution
-  fixes no spin structure whose longitude has trace −2 (Theorem A, proved); every one-cusped amphichiral census
-  manifold at Chern–Simons class ¼ is of that kind (75 of 75). The bit is a parity of the boundary torus' lattice. Named as a gap on the web seat's reading of
+  What remains of the gap: the continuous values; and the step from the boundary's η to a physical count (B279's
+  unbanked link, L246 Phase 2). Named as a gap on the web seat's reading of
   2026-10-03 (lead L244), which sorts the record's negatives into three kinds — symmetry pairing things that cancel, the
   absence of curvature, the absence of uniqueness — with three remedies: a breaking (GAP3, FK12), curvature (this gap), a
   selection principle (GAP4, THE_BAR). The remedy for this one is a frame with curvature; none is on the record.
@@ -404,7 +388,6 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
 | FK10 | The end law | OPEN | an end condition derived from physics (sL-8) |
 | FK11 | The dictionary (I-26) | UNEARNED | a frame derived from M-theory or from the principle, with its scope proved |
 | FK12 **[v1.2]** | **[v1.5] The register** (the owner's framing, decided 2026-10-03). The genesis generates a word. The word keeps the order of its letters (ab against ba); the manifold forgets it — a word and its reverse are one manifold (B1456) — and the vacuum forgets it again — a direct sum has no order (B1438, B1455). **Is the register that keeps the order part of the state, carried by the act, or an input from outside?** Four sub-questions, each with a computation: (i) at which step is it dropped — word→manifold and module→vacuum are the two found; the fibre's involution reverses the order with a sign (B1297, B1459); (ii) is the choice binary or richer — the record holds two bits (the mirror c; particle against antiparticle) and one order; (iii) both outcomes at once or at different relations — the slope law gives one term per order, and side by side they sum to zero (L241); (iv) "if it can happen it will" — plenitude, a hypothesis to test, not a premise. What the record does not show: that the act generates the register rather than receives it. The earlier form of the question: are the observer's closings part of the genesis, or inputs beyond it? (THEOREM_LEDGER C18 makes them inputs; the SM seat's wording of 2026-10-02: does the act emerge with its observer, the tracker of ab against ba?) | OPEN | for each closing, a partner that supplies it as a relation (main B1327, OPEN) or a proof that none can. Within the object the sign is settled: the object cannot sign itself (B760, NEGATIVE; B1183, B1184, PROVED), and no rule built only from its own invariants selects it canonically (B1225; its self-name is mirror-even, B1184); the trace map conserves κ = tr[a, b] and never reads it (B20, B37). A symmetric law can still land in a state it does not fix (FK9, main's B1455). The owner's framing decides whether the genesis generates the partner with the act. **[v1.3]** Three things the record adds, and one qualification. (i) There are two signs, not one: "which way" — the mirror bit c of the observer line — and "which of a pair is the particle" — the linear exchange of a module with its dual, under which a count is odd and c is absent (B868, B871; B1455). (ii) In the class-index frame a count is the *order* of the two pieces of a non-split module: the slope law gives it as one term for each order and says when the order counts (main B1438), the fibre's period-2 involution P carries a module to its dual up to a meridian sign — it reverses the order by itself, and followed by dualising it fixes the module (B1297; **[v1.7]** main's B1459, on every complete point of 16 levels: ι̃*V ≅ V* ⊗ ε, so I(V) = −I(V ⊗ ε) and the index is zero; the earlier wording "followed by dualising reverses the order" was main's and is withdrawn) — and a vacuum in the harmonic sense is a direct sum, which has no order. **[v1.9]** At the counted point itself (main B1466, sealed): the two orders count −1 and +1 and are each other's dual seen through the inversion, so their counts are opposite by L1–L2; the mixed direction is unobstructed and leads to an irreducible module — the two pieces fused — that counts 0, as the direct sum does. The flat configurations near the split point are richer than a bit; **the count is a bit**: ±1 on the two orders, 0 side by side, 0 fused — "both at once" cancels. A source along one line does not choose (t and −t are the same extension); a source on both lines drives into the fused, count-zero region unless the potential's mixing quartic returns it to an axis — a quantity on no report. **[v1.10]** Exact, from the SM seat's sm:B1528 (its own code at m004's complete point): for modules with no meridian twist the sign is the SL(2) factors' own, as in B1459; a meridian twist t ↦ λ enters squared, P*V ≅ V* ⊗ (t ↦ λ²), so P carries V to its dual up to a sign exactly when λ² = ±1 — main's B1465 computed the twisted indices zero on four states regardless. On Ballas' family P fixes ρ_q, which is not self-dual for q ≠ 1. (iii) The audit lane's act-and-register audit gives a test for where a register is lost: a reduction keeps it exactly when both the updates and the declared outputs descend, and all future outputs define the coarsest record that suffices (its ACT_REGISTER; read on main, not re-derived). The qualification, the audit lane's: B37's "never reads" rests on a detector of a symbol's presence, which an inserted factor r − I at r = I flips without changing the dynamics; its reads-and-branches criterion is not tested by that detector. Main carries the question as the standing lead L241. **[v1.6]** Carried from the SM seat's v1.3 (sm:B1521 C2–C3): B130 shows that κ takes a continuum of values on the fixed locus, but its reading that a unit is internally fork-free rests on an elimination that cannot exclude isolated components (the audit lane's AR4), so the componentwise question is open. For the register question, the record's registering datum at the group layer is B599's pairing datum, whose evaluation A = mult_ρ − mult_ρ̄ is odd under the θ swap (B871). Kept apart from the register question, as the SM seat's v1.3 kept it apart from the owner's act-and-register priority of 2026-10-02 (the audit lane's P_ACT_AND_REGISTER_2026_10_02 (a page of the audit lane's branch, not on main)): the experiential question, an explicit hypothesis held under Gate 5-Q (`philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md`), never a consequence of the register question and never a claim |
-| FK13 **[v1.12]** | Which set "the family as object" names (the owner's rule of 2026-10-04) | OPEN — the owner's | the owner's word: X_gen (§3's word states, the web seat's reading), m004's commensurability class, or B1186's 112 (the set main's B1474–B1477 computed on). Until then every statement names its set (§6) |
 
 **Computed nowhere yet** (the frontier, not a list of failures):
 - the harmonic frame's counts on any state outside m004's levels (**[v1.6]** its projective family exists on every word
@@ -419,24 +402,7 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
 - **[v1.6]** the class index on the projective family of a mirror-broken word state, first ±LLRLRR and ±L³RLR² (the SM
   seat's sL-10 item 8);
 - **[v1.6]** the fixed loci of the metallic trace maps component by component (B130's question with isolated components
-  allowed; the audit lane's AR4);
-- **[v1.12]** a frame of the right parity for GAP6 (§7): a bulk of dimension ≡ 2 (mod 4) with a bundle that is not flat.
-  One candidate is named and unbuilt — the six-dimensional frame bundle Γ\PSL(2,ℂ) of a closed filling (the web seat's A1);
-- **[v1.12]** F-MC's two extra abelian factors, on any state other than the root. They are two objects and are named
-  apart (the web seat's A4, verified on main's record): **U1-η**, left by the flat closing Y₃ — the η direction of the
-  rank-five E₆ breaking, family-universal, both E₆-charged singlets of the 27 carrying the same charge so that no field
-  of the 27 or the 78 gives ν^c a Majorana mass (the paper); and **U1-Z′₉**, left by the ninth closing's tree-level
-  vacuum — (5ψ − 3χ)/2 with a family part (−10, 5, 5), family-non-universal, the VEV'd generation's singlets neutral
-  (sm:B1283, B1303). Charges 4, −2, 10, −8, −2, 10 on one 27 with Σq = Σq³ = 0 (recomputed, B1478) — a check that
-  cannot fail on full 27s (B1340). What can fail is the cube of the family part, and it does: Σf³ = −750 for (−10, 5, 5).
-  **On a chiral spectrum U1-Z′₉ is not gaugeable as it stands** (B1340; FALSIFIER P9: the programme cannot hold both the
-  observed chirality and this Z′ — the web seat's A4 did not carry this, main's ruling adds it). Neither factor has a
-  mass, a coupling or a range on the record — B1303 gives a regime and a fork, not a value — and neither is a statement
-  about any state but the root;
-- **[v1.12]** dark-matter stability on any state other than the root (the cloud seat's memo 122 is NEGATIVE for the
-  root's forced gauge 2-torsion only; the web seat's A5);
-- **[v1.12]** Dirac against Majorana: decided by the discrete symmetry left when the extra abelian factor is broken,
-  which no arc computes (A5).
+  allowed; the audit lane's AR4).
 
 ---
 
@@ -609,13 +575,3 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
   - **The owner's rule (2026-10-04): "existence emerges from the family as object; we shouldn't tie ourselves to m004."**
     A5 (SE2's torsion-free tie-break) selects a member; the page's object is the family (B1418), and this page's statements
     about m004 are statements about one member unless they say otherwise.
-- **v1.12 · 2026-10-06 · main B1478.** The web seat's five proposed amendments, each verified on main and ruled; one fork.
-  - A1 ADOPTED: a curved bulk tells 27 from 27̄ only in dimension ≡ 2 (mod 4) (GAP6); the six-dimensional frame bundle
-    entered as an unbuilt candidate, not a claim.
-  - A2 ADOPTED: GAP6's "continuous values" becomes "continuous moduli"; rigid flat invariants are fixed numbers of a member.
-  - A3 ADOPTED as a naming rule (§6): "the family" names its set. Its last clause — that the owner's rule means X_gen —
-    is NOT ruled by main: fork FK13, the owner's.
-  - A4 ADOPTED: the two extra abelian factors named apart, U1-η (Y₃) and U1-Z′₉ (the ninth closing), both root-only.
-  - A5 ADOPTED: dark-matter stability and Dirac-against-Majorana listed as computed on the root only / nowhere.
-  - B1477 recorded in GAP6: the bit is decided at the cusp (Theorem A; the ¼ class is the rhombic class on the census).
-  - The web seat has its own branch from this date (`chat1/web-seat`); its relays are rowed and its pin set in B1478.

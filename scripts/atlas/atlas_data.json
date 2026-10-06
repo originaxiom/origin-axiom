@@ -9899,6 +9899,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1478": {
+   "slug": "the web seats branch harvested and five genesis amendments ruled",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B469",
+    "B598",
+    "B605",
+    "B722",
+    "B868",
+    "P1",
+    "P9"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B147": {
    "slug": "arithmetic chiral bundle",
    "motifs": [

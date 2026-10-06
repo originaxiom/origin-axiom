@@ -1,0 +1,24 @@
+{
+ "id": "B1478",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1476",
+  "B1477",
+  "B1303",
+  "B1234",
+  "B1454"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-MC entrance (the 2T door) for the relays; none (the page GENESIS) for the amendments",
+  "object": "m004, m000 and m004's levels M1-M4; the 74 primitive word states to length 8; one 27 of E6",
+  "reach": "single",
+  "hypotheses": "the web seat's scripts re-run unchanged in a worktree pinned at 5cd5edf67 (SnapPy presentations, 2T = SL(2,F3), Riley's representation); the amendments verified against main's record and by checks.py; FK13 left to the owner"
+ },
+ "claim_one_line": "THE WEB SEAT'S BRANCH HARVESTED AND FIVE GENESIS AMENDMENTS RULED (the owner's word of 2026-10-06). The seat's branch chat1/web-seat registered and pinned at 5cd5edf67; its three relays rowed; its six scripts re-run on main's bench with every stated outcome reproduced (three seal hashes verify): on the 2T door of m004 and its parent m000 there are 48 / 48 / 48 surjections, half of m004's extend to m000 and half are blocked by a central sign and none by the outer automorphism (the seat's own prediction killed, 0 of 24), that sign is the spin bit, the deck acts as complex conjugation prime by prime and is invisible at the ramified prime 3, and in sm:B1382's presentation the two halves are the two Pin types. GENESIS v1.12: A1 ADOPTED (a smooth closed bulk tells V from its conjugate only in dimension 2 mod 4; re-derived and enumerated), A2 ADOPTED (continuous moduli, not continuous values: rigid flat invariants are fixed numbers of a member and none is a Standard-Model parameter), A3 ADOPTED as a naming rule (the family names its set; census reproduced: 74 primitive word states to length 8, 16 amphichiral) with its last clause -- which set the owner's rule means -- NOT ruled by main and entered as fork FK13, A4 ADOPTED (two extra abelian factors named apart: U1-eta on Y_3, family-universal, and U1-Z'_9 = (5 psi - 3 chi)/2 plus a family part, family-non-universal; charges and anomaly sums recomputed; both root-only, neither with a mass, coupling or range), A5 ADOPTED (dark-matter stability and Dirac against Majorana listed as root-only or uncomputed); B1477's location of the bit recorded in GAP6. No new mathematics of main's. 0 of 19."
+}

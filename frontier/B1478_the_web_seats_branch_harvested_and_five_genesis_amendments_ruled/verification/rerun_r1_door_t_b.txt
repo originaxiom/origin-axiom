@@ -1,0 +1,15 @@
+m000: gens ['a', 'b'], relator aabbAB, exponent sums {'a': 1, 'b': 1}, w = {'a': 1, 'b': 1}, t = b
+H = ker w: Schreier generators ['s0a', 's1a', 's1b'] (trivial ['s0b']), 2 relators
+
+(a) surjections onto 2T: m000 48   ker w (RS) 48   m004 (SnapPy presentation) 48
+(b) distinct restrictions of m000's 48: 24   (predicted 24)
+    every fibre is {rho, rho(x)w}: True
+
+(c) of ker w's 48 surjections:
+    extend to m000 (deck inner-conjugate AND A^2 = psi(t^2)) : 24   (predicted 24)
+    deck inner-conjugate but sign-obstructed (A^2 = -psi(t^2)): 24
+    deck = psi twisted by the OUTER automorphism (omega<->omegabar): 0
+    neither                                                    : 0
+
+[exploratory] Z/2 characters of H = ker w: 1  (H1(m004)=Z predicts exactly 1)
+    psi -> psi(x)chi moves a rep to the OTHER half in 48 of 48 cases

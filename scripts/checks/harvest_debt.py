@@ -105,6 +105,10 @@ SEATS = [
     # Items = its report directories under reports/ other than the physical-bridge lane's.
     dict(key="auditfork", label="audit seat, fork lane", branch="fork-2026-09-20",
          remotes=("origin", "codeberg"), cell=("audit-fork", "fork lane")),
+    # ADDED 2026-10-06 (B1478): the web seat (chat1) has its own branch from this date, at the owner's word, so that its
+    # relays are committed on the sender's branch at send time. Items = its relay files relays/CHAT1_TO_CC_*.md.
+    dict(key="chat1", label="web seat (chat1)", branch="web-seat",   # the ref is <remote>/chat1/web-seat; branches resolve by last segment
+         remotes=("origin",), cell=("web seat", "chat1")),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
@@ -302,6 +306,11 @@ def seat_index(seat, head, main_frontier, main_docs):
             name = d.rstrip("/").split("/")[-1]
             if d.startswith("reports/") and name != AUDIT_DIR.split("/")[-1] and "." not in name:
                 idx[name] = d
+    elif k == "chat1":
+        for f in _ls(head, "relays/"):
+            name = f.rstrip("/").split("/")[-1]
+            if re.fullmatch(r"CHAT1_TO_CC_[A-Za-z0-9_\-]+\.md", name):
+                idx[name[:-3]] = f
     return idx
 
 
@@ -372,6 +381,10 @@ def path_ids(seat, path, idx):
         m = re.match(r"reports/([A-Za-z0-9_]+)/", path)
         if m and m.group(1) in idx:
             out.add(m.group(1))
+    elif k == "chat1":
+        m = re.match(r"relays/(CHAT1_TO_CC_[A-Za-z0-9_\-]+)\.md$", path)
+        if m and m.group(1) in idx:
+            out.add(m.group(1))
     return out
 
 
@@ -419,11 +432,11 @@ def row_ids(seat, row, idx):
                 out.add(rid)
     elif k == "qor5up":
         out |= {f"B{n}" for n in _nums(t, r"\bB(10[2-5]\d)\b", r"10[2-5]\d")}
-    elif k in ("audit", "auditfork"):
+    elif k in ("audit", "auditfork", "chat1"):
         for rid in idx:
             if re.search(rf"\b{re.escape(rid)}\b", t):
                 out.add(rid)
-    return out & set(idx) if k in ("sm", "audit", "auditfork", "hostile", "braver") else out
+    return out & set(idx) if k in ("sm", "audit", "auditfork", "chat1", "hostile", "braver") else out
 
 
 # ---------------------------------------------------------------- the pure reconciliation (selftested)

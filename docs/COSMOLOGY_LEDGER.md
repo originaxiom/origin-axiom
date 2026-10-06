@@ -51,7 +51,7 @@ literally the same theorem doing the same work in the cosmology domain).
 | 1 | **The initial condition** | **PARTIAL** — see below | the object supplies the axiom chain + the founding non-cancellation fact + a proof there was no beginning; it does not and (by three independently STALLED mechanism attempts) apparently cannot supply a literal creation *event* |
 | 2 | **Inflation-or-alternative** | **MISSING** — see below | first probe named below; zero SM-facing arc exists |
 | 3 | **The expansion history** | **PARTIAL, mostly IMPOSSIBLE-BY-THEOREM for values** | the object supplies a dimensionless generative *arrow*, not a rate; the scale-torsor theorem forbids any dimensionful H(z) permanently |
-| 4 | **Dark matter** | **MISSING, with one computed negative already on the books** | first probe named below (N1/N2 stability) |
+| 4 | **Dark matter** | **MISSING, with one computed negative already on the books** | first probe named below (N1/N2 stability) — **run since on the cloud seat's lane (memo 122, HARVEST_LEDGER row 371, SCHEDULED, not verified on main): NO — the root's forced gauge 2-torsion supplies no stabiliser; scoped to the root (GENESIS v1.12 §8)** |
 | 5 | **Dark energy / Λ** | **HAVE (own units) / IMPOSSIBLE-BY-THEOREM (measured value)** | fully typed already (B1194/EX-2); reproduced here for the ledger's completeness |
 | 6 | **Baryogenesis** | **HAVE (structural stage) / MISSING (rate)** | the Sakharov gate is exhibited; no rate, temperature, or asymmetry number exists or is claimed to |
 | 7 | **The CMB's place** | **MISSING, with two computed negatives already on the books** | first probe named below |
