@@ -82,6 +82,7 @@ hash-first status.*
 | frontier/B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route/PREREGISTRATION.md | 1f6cdb42 | cb09deb04 | 1 | yes |
 | frontier/B1475_the_spin_swap_phase_1b_does_the_swap_carry_a_quantity/PREREGISTRATION.md | 1d03d430 | 37bde38e2 | 1 | yes |
 | frontier/B1476_the_spin_swap_phase_1c_the_quarter_law_the_pin_bit_and_what_a5_chose/PREREGISTRATION.md | aedf139f | 88ed69819 | 1 | yes |
+| frontier/B1477_what_decides_the_swap_the_mirrors_shear_on_the_cusp/PREREGISTRATION.md | 31acad53 | untracked | 0 | yes |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -341,9 +342,11 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 330 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 331 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
+
 
 
 

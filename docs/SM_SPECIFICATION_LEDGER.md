@@ -478,3 +478,42 @@ type. The Higgs sectors are singlets of SL(2)_β.
 **What this does not supply.** A rule from torsion to mass; anything distinguishing the three members of an orbit
 (lead L237); the values at levels other than the root's three-fold cover; the gauge couplings, the mixing angles,
 θ_QCD or the Higgs parameters. The numbers above do not resemble the observed masses.
+
+## Currency note — 2026-10-06, through B1476 (the count is a bit, the measurer question, and the spin swap)
+
+What the window B1447–B1476 adds to the specification, read from the records. Nothing in it is a value of §A4; the
+count there is unchanged, **0 of 19**. Every negative below is written with its member, under the owner's rule that the
+object is the family and a fact about m004 is m004's.
+
+**The count (§A2's chirality, one generation's worth).** On m004's harmonic family at level one the vacuum does not
+choose a hand: the selection-rule test returned the registered kill, scoped to that frame and that member (**B1455**).
+The zeros of the class index at the complete points are a theorem, not a census — the fibre's elliptic involution
+carries each frame module to its dual up to a meridian sign (**B1459**, with B1451 and B1465 for the mirror-broken
+states). At the counted point of m004's Ballas family the two stacking orders count −1 and +1 and are each other's
+dual through the inversion; side by side or fused they count 0 — **the count is a bit** (**B1466**). GENESIS carries
+it as the register question (FK12; v1.5, **B1460**).
+
+**Three generations (§A2's multiplicity).** Not supplied. On the family member t12835 every one of 6 435 modules was
+run: the largest |I| is 2, no three (**B1470**, NEGATIVE, scoped to that member and that driver). The SM seat's count
+on the degree-45 cover of m003 read no generation-shaped count (sm:B1541, reproduced on main's bench row for row on
+2026-10-06, not yet harvested); its room for three on covers of m003 (sm:B1540) and its next sealed cells are that
+lane's, unharvested here.
+
+**The fermionic bit (§A2: "all as left-handed Weyl fermions" presupposes a spin structure).** The SL(2,ℂ) lift of the
+holonomy is a spin structure, and the mirror's action on it is a computable discrete invariant of each amphichiral
+member: fixed on m004 and five other members of the family, moved on seven (m003 the smallest), where no spin
+structure at all survives any mirror (**B1474**, **B1475**); the seven are exactly the members at Chern–Simons class ¼,
+and at ¼ the same holds on six manifolds outside the family (**B1476**; certified by the odd torsion, no enumeration of
+isometries). m004's two lifts are the parent's two Pin types (sm:B1382 verified, **B1476**). The amphichiral members'
+even-n torsion is real by a theorem (**B1471**). What this supplies to the specification: the place where an
+orientation — a hand — can be registered on a fermion without any continuous choice. What it does not supply: the
+sign of the hand, which remains the ℤ/2 nothing selects; a four-dimensional chiral count; any multiplicity.
+
+**The wall (§A4, §D5).** The record's "no value" negatives were read by census: of 173 value-kills, 107 rest on flat
+premises, and twelve continuous-value kills are stated beyond the flat sector they were proved in; of 460 kills, 98
+are about m004 alone and 39 say "the object" for an m004 result (**B1476**, leads L247 and L248; **B1473** for the
+three-kind reading). GENESIS v1.11 narrows GAP6 to its closed-bulk hypotheses. This changes no row of §A4; it changes
+what the rows' negatives may be quoted as excluding.
+
+**What this does not supply.** Any of the nineteen parameters; three generations; the sign of chirality; a mechanism
+from the spin swap to a physical count (L246 Phase 2; B1477 is sealed on what decides the swap).
