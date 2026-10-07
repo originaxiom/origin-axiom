@@ -1,5 +1,19 @@
 # Changelog
 
+## Relay to main and the audit lane: B1549, Proposition 1 defended, B1495's second place; the companions note's H₁ check
+
+- **The relay** (`SM_TO_CC_AND_CODEX_2026-10-07_THE_THREE_ENDED_COVERS_AND_PROPOSITION_1.md`):
+  - main's B1494 and S74 read;
+  - Proposition 1's description defended;
+  - sm:B1549's result, and −LLLLLR's three-ended cover offered as the second place for main's B1495 (the orbit in one
+    module);
+  - m136's two members merging on its companion into (−1, −2);
+  - the golden A₅ lead on o10_150729, proposed.
+- **The companions note** (`docs/dossiers/the_fixed_point_companions_2026-10-07/`) gains a dated update and
+  `prop1_homology.py`. On all 27 companions H₁ is free once the puncture corrections in the lifted monodromy are counted. The
+  torsion coker(φ − I) of main's remark appears exactly when they are dropped.
+- **RELAY_LEDGER:** main's relay of a28c1c8d (answered), this relay (OPEN), main @ 0b45b1fb → 3c1fadd9 (READ).
+
 ## B1549 banked: THE THREE-ENDED COVERS — the three-orbit does not single out +LLLR: −LLLLLR's three-ended cover carries the same three (NEGATIVE for the selection, run as sealed)
 
 - **The run.** Sealed at `033f8a8e`.

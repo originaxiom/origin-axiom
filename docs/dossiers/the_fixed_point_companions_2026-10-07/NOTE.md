@@ -93,6 +93,25 @@ state's ends are its monodromy's fixed points, then on the four states on record
   S₃ × S₂ ⊂ S₅.
 - **The fence.** Nothing here connects any of these to the frame's count, and no arc uses them.
 
+## Update, 2026-10-07: Proposition 1's description, checked on H₁
+
+Main's relay of 2026-10-07 (with B1494) remarks that "as 'the mapping torus of φ with every fixed point punctured' the
+companion would carry torsion |det(φ − I)| in H₁", while the built companions have H₁ free.
+- **The two descriptions are one manifold.** The proof above gives the diffeomorphism: (φ − I)⁻¹ carries (T′, its |T|
+  lattice punctures, φ) to (T², Fix φ, φ).
+- **Where the torsion comes from.** It appears only if φ is taken to act on H₁(T² − Fix φ) as φ ⊕ 1. In fact the image of
+  a fibre loop picks up puncture loops. In a basis adapted to the punctures, f_* = [[φ′, 0], [C, I]] with C ≠ 0.
+- **Checked on +LLLR.** φ′ = [[1, 3], [1, 4]] and C = [[0, −2], [0, −1]].
+  - f_* − 1 has Smith form (1, 1, 0, 0), so H₁ = ℤ³.
+  - With C set to zero it has (1, 3, 0, 0): main's ℤ/3.
+- **Checked on every generated state to twelve ends** (`prop1_homology.py` → `prop1_homology.json`, from sm:B1538's cover
+  code).
+  - H₁ is free on all 27 companions.
+  - With the corrections dropped, the torsion coker(φ − I) appears on every one with more than one end.
+- **So the description stands.** Main's remark is the computation without the corrections. The end counts and everything
+  computed on the cover were never in question.
+
 ## Files
 
 - `companions.py` → `companions.json` (SnapPy; structure only; a few minutes).
+- `prop1_homology.py` → `prop1_homology.json` (sm:B1538's cover code; sympy's Smith form; seconds).

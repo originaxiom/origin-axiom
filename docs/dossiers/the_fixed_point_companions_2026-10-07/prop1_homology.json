@@ -1,0 +1,307 @@
+{
+ "rows": [
+  {
+   "state": "+LR",
+   "ends": 1,
+   "fibre H1 rank": 2,
+   "upper-right block zero": true,
+   "corrections nonzero": false,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": []
+  },
+  {
+   "state": "-LR",
+   "ends": 5,
+   "fibre H1 rank": 6,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    5
+   ]
+  },
+  {
+   "state": "+LLR",
+   "ends": 2,
+   "fibre H1 rank": 3,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    2
+   ]
+  },
+  {
+   "state": "-LLR",
+   "ends": 6,
+   "fibre H1 rank": 7,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    6
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "ends": 3,
+   "fibre H1 rank": 4,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    3
+   ]
+  },
+  {
+   "state": "-LLLR",
+   "ends": 7,
+   "fibre H1 rank": 8,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    7
+   ]
+  },
+  {
+   "state": "+LLRR",
+   "ends": 4,
+   "fibre H1 rank": 5,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    2,
+    2
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "ends": 8,
+   "fibre H1 rank": 9,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    2,
+    4
+   ]
+  },
+  {
+   "state": "+LLLLR",
+   "ends": 4,
+   "fibre H1 rank": 5,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    4
+   ]
+  },
+  {
+   "state": "-LLLLR",
+   "ends": 8,
+   "fibre H1 rank": 9,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    8
+   ]
+  },
+  {
+   "state": "+LLLRR",
+   "ends": 6,
+   "fibre H1 rank": 7,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    6
+   ]
+  },
+  {
+   "state": "-LLLRR",
+   "ends": 10,
+   "fibre H1 rank": 11,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    10
+   ]
+  },
+  {
+   "state": "+LLRLR",
+   "ends": 8,
+   "fibre H1 rank": 9,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    8
+   ]
+  },
+  {
+   "state": "-LLRLR",
+   "ends": 12,
+   "fibre H1 rank": 13,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    12
+   ]
+  },
+  {
+   "state": "+LLLLLR",
+   "ends": 5,
+   "fibre H1 rank": 6,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    5
+   ]
+  },
+  {
+   "state": "-LLLLLR",
+   "ends": 9,
+   "fibre H1 rank": 10,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    9
+   ]
+  },
+  {
+   "state": "+LLLLRR",
+   "ends": 8,
+   "fibre H1 rank": 9,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    2,
+    4
+   ]
+  },
+  {
+   "state": "-LLLLRR",
+   "ends": 12,
+   "fibre H1 rank": 13,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    2,
+    6
+   ]
+  },
+  {
+   "state": "+LLLRLR",
+   "ends": 11,
+   "fibre H1 rank": 12,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    11
+   ]
+  },
+  {
+   "state": "+LLLRRR",
+   "ends": 9,
+   "fibre H1 rank": 10,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    3,
+    3
+   ]
+  },
+  {
+   "state": "+LLLLLLR",
+   "ends": 6,
+   "fibre H1 rank": 7,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    6
+   ]
+  },
+  {
+   "state": "-LLLLLLR",
+   "ends": 10,
+   "fibre H1 rank": 11,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    10
+   ]
+  },
+  {
+   "state": "+LLLLLRR",
+   "ends": 10,
+   "fibre H1 rank": 11,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    10
+   ]
+  },
+  {
+   "state": "+LLLLRRR",
+   "ends": 12,
+   "fibre H1 rank": 13,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    12
+   ]
+  },
+  {
+   "state": "+LLLLLLLR",
+   "ends": 7,
+   "fibre H1 rank": 8,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    7
+   ]
+  },
+  {
+   "state": "-LLLLLLLR",
+   "ends": 11,
+   "fibre H1 rank": 12,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    11
+   ]
+  },
+  {
+   "state": "+LLLLLLRR",
+   "ends": 12,
+   "fibre H1 rank": 13,
+   "upper-right block zero": true,
+   "corrections nonzero": true,
+   "torsion of coker(f_* - 1)": [],
+   "torsion with the corrections dropped": [
+    2,
+    6
+   ]
+  }
+ ],
+ "H1 free on every companion": true,
+ "torsion appears when the corrections are dropped (ends > 1)": true
+}

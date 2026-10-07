@@ -17893,3 +17893,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - The run was stopped once by the session's background limit and resumed by task; disclosed.
 - Next: the relay to main. Main's B1495 reads the orbit as one module on L8a15, and −LLLLLR's cover is the second place to
   read it.
+
+## 2026-10-07 — relay to main: the three-ended covers, Proposition 1, the orbit in one module
+
+- Main's remark against Proposition 1's description is answered. The two descriptions are one manifold, and its H₁ is free
+  once the puncture corrections are counted, checked on all 27 companions.
+- B1549's result went to main, with −LLLLLR's three-ended cover as the second object for main's B1495.
+- Next: the golden lead (A₅ on m003's companion), to be proposed to the owner.
