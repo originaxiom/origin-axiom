@@ -1,0 +1,98 @@
+{
+ "n": 288,
+ "floor_fails": 0,
+ "ceiling_fails": 0,
+ "ceiling_attained": 16,
+ "identity_fails": 0,
+ "abs_form_fails": 18,
+ "abs_form_fail_cases": [
+  {
+   "cover": "m135.D4.2-0-2.w3",
+   "m_A": 0,
+   "m_B": 4,
+   "b0": 1,
+   "k": 0,
+   "I_W1": 2,
+   "readings": 2,
+   "ceiling": 3,
+   "abs_form_bound": 1
+  },
+  {
+   "cover": "m135.D8.2-0-4.w3",
+   "m_A": 2,
+   "m_B": 4,
+   "b0": 1,
+   "k": 2,
+   "I_W1": 4,
+   "readings": 2,
+   "ceiling": 7,
+   "abs_form_bound": 3
+  },
+  {
+   "cover": "m136.D8.2-0-4.w0",
+   "m_A": 2,
+   "m_B": 4,
+   "b0": 1,
+   "k": 2,
+   "I_W1": 5,
+   "readings": 2,
+   "ceiling": 7,
+   "abs_form_bound": 3
+  },
+  {
+   "cover": "m136.D8.2-0-4.w3",
+   "m_A": 0,
+   "m_B": 2,
+   "b0": 0,
+   "k": 0,
+   "I_W1": 1,
+   "readings": 2,
+   "ceiling": 2,
+   "abs_form_bound": 0
+  },
+  {
+   "cover": "m136.D8.2-0-4.w3",
+   "m_A": 1,
+   "m_B": 1,
+   "b0": 0,
+   "k": 1,
+   "I_W1": 2,
+   "readings": 8,
+   "ceiling": 3,
+   "abs_form_bound": 1
+  },
+  {
+   "cover": "m136.D8.4-0-2.w0",
+   "m_A": 2,
+   "m_B": 4,
+   "b0": 1,
+   "k": 2,
+   "I_W1": 5,
+   "readings": 2,
+   "ceiling": 7,
+   "abs_form_bound": 3
+  }
+ ],
+ "all_cusps_C": {
+  "readings": 16,
+  "I_values": [
+   0
+  ]
+ },
+ "gap_histogram": {
+  "0": 16,
+  "1": 16,
+  "2": 26,
+  "3": 92,
+  "4": 44,
+  "5": 44,
+  "6": 24,
+  "7": 8,
+  "8": 4,
+  "9": 10,
+  "11": 2,
+  "13": 2
+ },
+ "source": "members_check.json (this arc's banked record, route R)",
+ "statement": "k - m_A - b0 <= I(W1) <= 2 m_A + m_B - b0 at every finite-order member and class; |I(W1)| <= m_A + b0 is not a consequence of the floor"
+}

@@ -70,6 +70,18 @@ of either order.
 - **The floor I(W₁) ≥ −b0** holds wherever c is non-zero on every cusp of A. It is open only on classes that vanish on some
   cusp where ν is trivial. sm:B1544 read every such class of the cup kernel at the trivial character on five covers, and the
   floor held there.
+- **Update, 2026-10-07: the ceiling.** Step (1)'s identity with r¹(W₁) ≥ 0 also bounds the count from above, so
+  k − m_A − b0 ≤ I(W₁) ≤ 2m_A + m_B − b0, with m_B = |B|.
+  - The ceiling is attained exactly when no class of W₁ restricts non-trivially to the boundary.
+  - At a member where neither ν nor ν⁴ is trivial on any cusp, I(W₁) = −b0 = 0 at every class.
+  - The two-sided form |I(W₁)| ≤ m_A + b0 does not follow from the floor. In the other order the floor bounds I(W₂)
+    through W₂* = W₁(ν̄, c′), not I(W₁). The record refutes it.
+  - This arc's 288 readings (`verification/two_sided_check.py` → `two_sided_check.json`) show:
+    - floor and ceiling hold at every reading, and the ceiling is attained at 16;
+    - all 16 readings with no cusp in A or B read 0;
+    - |I(W₁)| ≤ m_A + b0 fails at 18 readings on five covers. The largest is I(W₁) = 5 at m_A = 2, m_B = 4, b0 = 1 on m136's
+      D8.2-0-4.w0 and D8.4-0-2.w0.
+  - For generations nothing changes: g in either order needs m_A ≥ g − b0 + k.
 
 ## 3. Corollary G: sm:B1538's four room-3 covers
 
@@ -158,4 +170,5 @@ of either order.
 
 - `verification/members_check.py` → `verification/members_check.json` (288 readings, all holding).
 - `verification/orbit_census.py` → `verification/orbit_census.json`.
+- `verification/two_sided_check.py` → `verification/two_sided_check.json` (the ceiling, 2026-10-07; reads the record above).
 - Lock: `tests/test_b1545_the_floor_at_every_member.py`.

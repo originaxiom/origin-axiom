@@ -5,7 +5,9 @@
     every kind present;
   - Corollary G's census: on the four room-3 covers the puncture values are constant on cusps and multiply to 1, and a character
     whose fourth power is a puncture character kills the punctures of at most two of the four cusps;
-  - the verdict, the registry row and the kill entry.
+  - the verdict, the registry row and the kill entry;
+  - the ceiling (update of 2026-10-07): k - |A| - b0 <= I(W1) <= 2|A| + |B| - b0 at every reading, and the two-sided form
+    |I(W1)| <= |A| + b0 refuted by the record, as two_sided_check.json says.
 Nothing here writes a tracked file."""
 import json
 from pathlib import Path
@@ -52,3 +54,23 @@ def test_the_verdict_and_its_records():
     assert [x["kill_form"].split(" ")[0] for x in kills if x.get("id") == "B1545"] == ["too-few-trivial-cusps"]
     f = (ARC / "FINDINGS.md").read_text()
     assert "cc (the SM-derivation seat), 2026-10-06." in f and "## Seen first" in f and "0 of 19" in f
+
+
+def test_the_ceiling_and_the_refuted_two_sided_form():
+    rows = json.loads((V / "members_check.json").read_text())["rows"]
+    rec = json.loads((V / "two_sided_check.json").read_text())
+    attained = abs_fails = 0
+    for r in rows:
+        A, B, k, b0, I = len(r["A"]), len(r["B"]), r["k"], r["b0"], r["I(W)"]
+        assert k - A - b0 <= I <= 2 * A + B - b0
+        assert I == -b0 + r["h0(dN;W*)"] - r["r1(W)"]
+        if A == 0 and B == 0:
+            assert I == 0
+        attained += I == 2 * A + B - b0
+        abs_fails += abs(I) > A + b0
+    assert rec["n"] == len(rows) and rec["floor_fails"] == rec["ceiling_fails"] == rec["identity_fails"] == 0
+    assert rec["ceiling_attained"] == attained > 0
+    assert rec["abs_form_fails"] == abs_fails == sum(c["readings"] for c in rec["abs_form_fail_cases"]) > 0
+    assert max(c["I_W1"] - c["abs_form_bound"] for c in rec["abs_form_fail_cases"]) == 2
+    f = (ARC / "FINDINGS.md").read_text()
+    assert "Update, 2026-10-07: the ceiling." in f and "2m_A + m_B − b0" in f
