@@ -41,21 +41,36 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   is the quaternion point a ↦ i, b ↦ j. Every thread shares it, and each has its own geometry besides.
 - **W3, on every thread.** Every thread of odd trace receives from the common point the same binary tetrahedral group
   2T = SL(2, F₃), with A₄ below it. m000, m003 and m004 are among those threads.
-- **W4, the triplet.** The shared fibre carries one line for each non-zero parity. Every odd-trace thread acts on these
-  lines as one irreducible triplet of A₄, and even-trace threads split it.
-- **W6, what the lines carry.**
-  - Whatever one line carries, the other two carry the same (Theorem G).
-  - On +LR each line carries one generation of each type.
-  - Of the odd-trace threads to length 6 read so far (eleven of twelve), no other carries any.
-  - On +LR's third level that is main's orbifold standard, with the cover forced.
-- **READING (GENESIS FK14).** The three generations are this triplet.
-- **READING, the mixing.** The weave's S₄ with the golden thread's 3-cycle and the swap gives TM1 mixing, the one pattern
-  of its kind the data still allow. The swap is main's Breath pulse.
+- **W4, the triplet.** The shared fibre carries one axis for each non-zero parity. Every odd-trace thread acts on these
+  axes as one irreducible triplet of A₄, and even-trace threads split it. The weave's group on it is T_d, which is S₄,
+  and O_h with the swap. All its characters are real, so the weave's group carries no hand.
+- **Theorem S and the trichotomy, along the wave.**
+  - At its own tick, no state has its three parities both separate and carried into one another.
+  - At every third tick, every odd-trace thread has them so, and the deck carries them.
+- **W6, what the parities carry.**
+  - Whatever one parity carries, the other two carry the same (Theorem G). This holds for every odd-trace thread.
+  - A thread result, sm:B1550 on +LR's forced cover: each parity carries one generation of each type.
+  - The census by rule: of the odd-trace threads to length 6 read so far (eleven of twelve), no other carries any on
+    its forced cover. Other covers of other threads carry content (sm:B1549, sm:B1530).
+  - On +LR's third level that is main's orbifold standard, with the cover forced. Summed, the three sectors are one module
+    of +LR pulled back.
+- **READING (main's GENESIS FK14; GENESIS FK7).**
+  - The three generations are this triplet at every third tick, carried by the shift of one tick.
+  - Whether they are three or one seen three times is the deck kept or gauged. That is one bit for the whole weave.
+- **READING, the mixing (group theory only).** The weave's S₄ with the golden thread's 3-cycle and the swap fixes the TM1
+  column.
+  - No comparison with data is made.
+  - Main reads the swap as the Breath's pulse; GENESIS FK3 (B1083) types it as the C-type bit.
 - **OPEN.**
+  - The deck kept (GENESIS FK7).
   - The chirality: the extension's order decides generation against anti-generation.
   - One module of index three, the smooth standard.
   - Masses.
-  - Which moves are in the weave: GENESIS GM5b, the sign, and GM5c, the swap.
+  - Which moves are in the weave:
+    - the swap (GENESIS GM5c), which doubles the triplet's group;
+    - the sign, which is GENESIS GM5b on this branch and on main a move of its own that positivity excludes. It changes
+      nothing on the triplet but adds the − threads.
+- **The laws valid across the threads:** `docs/THE_WEAVES_LAWS.md`.
 - **The synthesis against the physics:** `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 
 ## Where the rule is kept

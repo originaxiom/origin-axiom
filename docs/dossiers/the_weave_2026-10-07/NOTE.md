@@ -14,12 +14,19 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - **The shared fibre** is the two records, F₂ = ⟨a, b⟩, with puncture loop [a, b] (GENESIS GM1, GM4).
 - **The moves.**
   - L and R are GENESIS GM2.
-  - The sign −I is GM5b, and the swap P is GM5c; both are OPEN in GENESIS.
-  - The weave below uses all four. Where L and R alone give a different answer, both answers are stated.
-- **The threads** are every hyperbolic word in the moves, with either sign.
-  - To length 8 there are 2,554, and 1,308 of them have odd trace.
-  - m000 (LP, the Gieseking manifold), m003 (−LR), m004 (+LR) and +LLLR are among them.
-  - None is derived from another.
+  - The swap P is GENESIS GM5c, OPEN.
+  - The sign −I is filed under GM5b in this branch's GENESIS (v1.10). Main's GENESIS v1.14 (B1482) makes it a move of its
+    own, which positivity (GM5d, CHOSEN) excludes. Either way the − threads are an extension of the grammar.
+  - The weave below uses all four. Where L and R alone give a different answer, both answers are stated. The triplet's
+    structure (W1–W4) needs neither the sign nor P: the sign acts on it as a fibre translation, and P only doubles its
+    group (`the_weaves_laws.py`).
+- **The words and the threads.**
+  - The words are every hyperbolic word in the moves, with either sign, up to rotation. To length 8 there are 2,554, and
+    1,308 of them have odd trace.
+  - They are words, not threads: LPLP and LR are one matrix (m004), and powers such as LRLR are counted. W1–W3 are
+    statements about each word's matrix mod 2, so they hold word by word.
+  - The threads are GENESIS's states (758 to length 12), with the orientation-reversing bundles if P is legal. m000 (LP,
+    the Gieseking manifold), m003 (−LR), m004 (+LR) and +LLLR are among them. None is derived from another.
 
 ## W1. The three (`moves_and_parities.py`)
 
@@ -32,7 +39,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - **So the three belongs to no single move.** It appears as three parities permuted with none distinguished only when
   moves act together.
 - **Which threads cycle the three.** A thread cycles them exactly when its trace is odd (sm:B1550's parity lemma). That is
-  1,308 of the 2,554 threads, m000, m003 and m004 among them.
+  1,308 of the 2,554 words, and 326 of GENESIS's 758 states to length 12, m000, m003 and m004 among them.
+- **Along the wave (the trichotomy, `the_weaves_laws.py`).** At tick n a thread acts on the parities as (φ mod 2)ⁿ. An
+  odd-trace thread has one orbit at ticks 1, 2, 4 and 5, and fixes all three at ticks 3 and 6. Of the 758 states, 268 act
+  as an involution (a line and a pair) and 164 fix all three at every tick.
 - **GENESIS's SE1** (∣2 − tr φ∣ = 1, so tr φ is 1 or 3) admits only odd-trace threads.
 
 ## W2. The common point (`the_common_point.py`, part 1)
@@ -50,8 +60,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   - an orientation-reversing thread such as m000: its geometric point is fixed by the map followed by complex
     conjugation. The map itself fixes only the origin.
 - **So the threads' geometries differ, and the one structure they all share is the quaternion point.**
-  - A single shear already fixes only the origin on the Markov surface.
-  - A single shear is not a thread.
+  - A single shear already fixes only the origin on the Markov surface, so the point's uniqueness is not the joint
+    action's. That every thread shares it is.
 - **On record.**
   - Main's B141 has the quaternion point as the unique irreducible fixed point of the metallic map.
   - Main's B148 places it on the Markov surface.
@@ -74,16 +84,21 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 
 ## W4. The triplet (part 3)
 
-- **The shared fibre carries a three-dimensional space with one line for each non-zero parity.**
+- **The shared fibre carries a three-dimensional space with one axis for each non-zero parity.**
   - The space is the parity-twisted cohomology ⊕_χ H¹(F₂; χ), summed over the three non-trivial parity characters.
-  - Each line is one-dimensional, because the punctured torus has Euler characteristic −1.
+  - Each axis is one-dimensional, because the punctured torus has Euler characteristic −1.
 - **The moves and the fibre's own inner automorphisms act on it by signed permutations.**
   - The group they generate has order 48 and acts irreducibly: Σ tr² / ∣G∣ = 1.
-  - L, R and the fibre alone generate a group of order 24, also irreducible.
+  - L, R and the fibre alone generate a group of order 24, also irreducible. It is T_d, which is S₄: L and R act as
+    reflections, and −1 is not in it (`the_weaves_laws.py`).
+  - The sign acts as the fibre translation by ab and adds nothing. The swap P doubles the group to O_h.
+  - Every element is conjugate to its inverse, so all the characters are real: the weave's group carries no hand.
 - **Every odd-trace thread acts on it as an irreducible triplet.**
-  - The group of the thread's monodromy and the fibre is A₄, of order 12, for m004, m003 and +LLLR.
+  - The group of the thread's monodromy and the fibre is A₄, of order 12, for m004, m003 and +LLLR. A₄ has a complex pair
+    of characters, but which is which is a marking: conjugating by L (LR → RL, one manifold) carries the monodromy into
+    the class of its inverse.
   - For the orientation-reversing m000 it is A₄ × ℤ/2, of order 24.
-- **Even-trace threads split it.** +LLRR splits it into three lines, and +LLR into 1 + 2.
+- **Even-trace threads split it.** +LLRR splits it into three axes, and +LLR into 1 + 2.
 - **It matches the quaternion axes thread by thread, not on the weave as a whole.**
   - On m004, m003 and +LLLR it is the same representation as the axes i, j, k under the common point, with equal traces on
     all 12 elements.
@@ -98,16 +113,16 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   - Looijenga's Prym representations, Geom. Dedicata 64 (1997), study the mapping class group on such twisted cohomology.
   - Goldman, Geom. Topol. 7 (2003), studies the modular group on the one-holed torus's characters.
 
-## W6. What each line carries (`the_lines_census.py`, `the_lines.py`, `the_lines_content.py`)
+## W6. What each parity carries (`the_lines_census.py`, `the_lines.py`, `the_lines_content.py`)
 
-**Theorem G, the lines carry alike (PROVED).**
+**Theorem G, the parities carry alike (PROVED).**
 - **Setting.** On an odd-trace thread M, N is its forced A₄ cover (W3) and M₃ = N/V₄ its third level.
-- **A member's line** is the non-zero parity of the edge the member lives on, or of the one translation t_p that fixes it.
-- **For an orbit of the deck group A₄ in which every member has a line:**
-  - every member of a V₄ orbit has the same line;
-  - the weave's 3-cycle carries line p to line φ(p);
-  - a third of the orbit sits on each line;
-  - on M₃ the orbit gives one sector per line, Ind from N of the member, cycled by the weave, each carrying the member's
+- **A member's parity** is the non-zero parity of the edge the member lives on, or of the one translation t_p that fixes it.
+- **For an orbit of the deck group A₄ in which every member has a parity:**
+  - every member of a V₄ orbit has the same parity;
+  - the weave's 3-cycle carries parity p to parity φ(p);
+  - a third of the orbit sits on each parity;
+  - on M₃ the orbit gives one sector per parity, Ind from N of the member, cycled by the weave, each carrying the member's
     count.
 - *Proof.*
   - V₄ is abelian, so a translation keeps a member fixed by t_p fixed by t_p.
@@ -116,7 +131,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   - Shapiro's lemma carries the count to M₃. □
 - **Scope.**
   - The proof uses only W3, so it holds on every odd-trace thread.
-  - An orbit fixed by all of V₄ (size 3) sits on no single line.
+  - An orbit fixed by all of V₄ (size 3) sits on no single parity.
   - The theorem does not say that any thread has members.
 
 **The census (design-time structure, no count; the rule named before the run).**
@@ -154,29 +169,35 @@ table is completed when they finish.**
 - **±LR are the only arithmetic odd-trace primitive threads** (Bowditch–Maclachlan–Reid, as reported by
   Goodman–Heard–Hodgson). Members fall exactly there: a pattern on twelve threads, not a theorem.
 
-**What each line carries** (`the_lines_content.py`: the census, the lines and sm:B1550's banked counts joined; no count
-computed).
-- **+LR: every line carries six sectors on the third level,** each reading (−1, −1).
+**What each parity carries** (`the_lines_content.py`: the census, the parities and sm:B1550's banked counts joined; no count
+computed). **This is a thread result:** the frame reads one thread's own holonomy, and the content found is +LR's.
+- **+LR: every parity carries six sectors on the third level,** each reading (−1, −1).
   - That is one generation of each of six types: two sign types, edge-labelled, and four order-4 types, fixed by t_p.
   - Up to the other order (complex conjugation) and the spin twist the six are three classes.
-  - The two orbits fixed by all of V₄ read (1, 0), on no single line.
-- **−LR: every line carries one sector reading (0, −3).** It is not a generation.
+  - The two orbits fixed by all of V₄ read (1, 0), on no single parity.
+- **−LR: every parity carries one sector reading (0, −3).** It is not a generation.
 - **Every other thread read: nothing.**
 - **In main's two standards (S79), +LR's three is the orbifold standard.** Per type it is three sectors of index one,
   distinguished by the parity characters and cycled by an order-3 symmetry.
-  - The cover is forced, not chosen by a character.
-  - Three is never selected.
+  - The cover is forced by the parities, not chosen by a character, and three is never selected. Main still counts a
+    three on a cover's own characters as a selection until its FK14 is ruled. This seat's answer, that the cover is
+    forced, is not in GENESIS.
+  - Summed, the three sectors are the pullback of one module on +LR itself (B1384, B1390; sL-7). That is one generation
+    at tick 1 and three at tick 3 (the gcd law). Which is physical is GENESIS FK7, the deck kept or gauged: B1506's one
+    bit, now shown to be the same bit on every odd-trace thread (`docs/THE_WEAVES_LAWS.md`, Theorem S).
 - **Graded by THE BAR**, "only +LR carries" is a positive on one state, with p ≈ 0.29 on twelve threads. It is not
   claimed as a selection.
 
-**The mixing (READING; `the_mixing.py`).**
-- **The weave's group on the triplet is O_h,** with rotations S₄.
+**The mixing (READING, group theory only; `the_mixing.py`).**
+- **The weave's group on the triplet is O_h** with P, and T_d (which is S₄) without it.
 - **With the golden thread's 3-cycle as one sector's residual symmetry:**
-  - the swap P (or L·a, R·b, LPL) as the other's gives TM1, the one pattern of its kind the data still allow (JUNO 2025);
-  - the sign or a fibre translation gives TM2 (disfavoured);
-  - a single shear gives θ₁₃ = 0 (excluded);
-  - Klein groups give tri-bimaximal mixing (excluded) or democratic mixing (excluded).
+  - the swap P, or L·a, R·b or LPL, as the other's fixes the TM1 column (L·a and R·b need no P);
+  - the sign or a fibre translation fixes the TM2 column;
+  - a single shear gives θ₁₃ = 0;
+  - Klein groups give tri-bimaximal or democratic mixing.
 - **Mod 2 the golden thread is ST,** the rotation fixing τ = ω, and the swap is S, fixing τ = i.
+- **No comparison with data is made here.** The fences are in `docs/THREE_GENERATIONS_AND_THE_WEAVE.md` §3. Which sector
+  keeps which subgroup is not forced.
 
 ## What the weave gives, and what it does not
 
@@ -185,22 +206,23 @@ computed).
 | W1 | PROVED | three non-zero parities, permuted with none distinguished only when moves act together |
 | W2 | PROVED | one structure all threads share: the quaternion point |
 | W3 | PROVED | on every odd-trace thread, the same A₄ and the same 2T from it |
-| W4 | PROVED | one irreducible triplet, the same on every odd-trace thread; even-trace threads split it |
-| W5 | READING (GENESIS FK14) | the three generations are this triplet: three, alike, carried into one another by the weave |
-| W6 | PROVED; COMPUTED | Theorem G: whatever one line carries, all three carry; on +LR each line carries one generation of each type, and no other odd-trace thread to length 6 read so far carries any (eleven of twelve at order 4) |
-| W6′ | OPEN | the chirality (the extension's order decides generation against anti-generation) and one module of index three (the smooth standard) |
-| W6″ | READING | the weave's S₄ with the golden 3-cycle and the swap gives TM1 mixing |
-| W7 | OPEN | which moves are in the weave (GENESIS GM5b, GM5c): the triplet's group has order 24 with L and R, 48 with all four |
+| W4 | PROVED | one irreducible triplet, the same on every odd-trace thread; even-trace threads split it; the weave's group on it is real (T_d ≅ S₄; O_h with P) |
+| S | PROVED | Theorem S (`docs/THE_WEAVES_LAWS.md`): no state has its three parities separate and carried into one another at its own tick; every odd-trace thread has them so at every third tick |
+| W5 | READING (main's GENESIS FK14; GENESIS FK7) | the three generations are this triplet at every third tick: three, alike, carried into one another by the deck, which is the shift by one tick |
+| W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 read so far carries any on its forced cover (eleven of twelve at order 4) |
+| W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
+| W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
+| W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
 
 - **In the owner's terms (READING).**
-  - The three generations are on no object. They are the three parities of the shared records, and the weave makes them
-    one triplet.
-  - A thread with odd trace carries the whole triplet; every thread GENESIS's SE1 admits is such a thread. A thread with
-    even trace breaks it.
-  - The triplet does not depend on which thread is chosen.
+  - The three is the shared records', not any thread's: every thread acts on the same three parities.
+  - One odd-trace thread already cycles them as an irreducible triplet; every thread GENESIS's SE1 admits is such a
+    thread. A thread with even trace breaks it.
+  - What the weave adds is that it is one triplet for all threads; a group on it that no thread has, S₄, which is real;
+    and Theorem S: three alike and separate need the third tick.
 - **What W6 settles, and what it does not.**
   - The frame that reads a generation (sm:B1515's F-HE) is built on one thread's own holonomy, so the content is read
-    thread by thread.
+    thread by thread, and it is a thread result.
   - The weave decides how it is shared, by Theorem G, and the census reads it on every thread by rule.
   - The synthesis against the physics is `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 
@@ -212,5 +234,10 @@ computed).
 - `the_lines_census.py`: W6's census, one JSON line per thread. Its record is `the_lines_census.json`, with the order-3
   pass in `the_lines_census_order3.json`.
 - `the_lines.py` → `the_lines.json`: Theorem G checked on every member orbit.
-- `the_lines_content.py` → `the_lines_content.json`: what each line carries.
+- `the_lines_content.py` → `the_lines_content.json`: what each parity carries.
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
+- `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
+  Theorem S, for `docs/THE_WEAVES_LAWS.md`.
+- `the_parity_sectors.py`: R2 of the laws, in Theorem S's sense. Every state to length 6, at its resolving tick, the
+  characters whose fibre restriction is a parity, with the structure of ν ⊗ ρ. The rule and the control (sm:B1530 on the
+  silver pair) are named in the script before the run. The census is running.

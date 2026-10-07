@@ -37,7 +37,7 @@ COMPUTED, READING, OPEN and BLIND. 0 of 19.
   - The smooth standard is one rank-five bundle of index three.
   - The orbifold standard is three sectors of index one under an order-3 symmetry, distinguished by characters. Their 5̄'s
     are summed per sector.
-  - Which one the genesis means is GENESIS's FK14.
+  - Which one the genesis means is main's GENESIS FK14 (on main from v1.15).
 
 **The checklist** (this seat's pass, §D).
 
@@ -53,68 +53,73 @@ COMPUTED, READING, OPEN and BLIND. 0 of 19.
 
 | item | the weave | status |
 |---|---|---|
-| **S3: three** | the two records' non-zero parities, 2² − 1. No single move treats them alike; any two moves make them one undistinguished three (W1). The fourth parity, zero, is the puncture and is not a line. | DERIVED from GENESIS GM1–GM2 (PROVED, W1) |
-| **S5: the flavour group and the triplet** | A₄ on every odd-trace thread (W3), from the one structure all threads share, the quaternion point (W2). It acts irreducibly on the three lines, the parity-twisted cohomology of the shared fibre (W4). The moves add the transpositions, and the group on the lines is O_h; its rotations are S₄. W1's three parities by themselves are a permutation set (1 ⊕ 2); the irreducible triplet needs the fibre's sign flips, and those are W4's. | PROVED |
-| **S1: replication (the three alike)** | Theorem G: whatever matter one line carries, the other two carry the same, carried around by the weave's 3-cycle | PROVED (structure) |
-| **content: a generation on each line** | on +LR every line carries six sectors on the third level, each reading (−1, −1): one generation of each of six types (three classes up to the other order and the spin twist). The census of every odd-trace thread to length 6 finds generations on no other thread so far: eleven of twelve read at order 4, eight at order 3, the rest running. | COMPUTED (sm:B1550's sealed two-route counts; the census is design-time structure) |
-| **the standard met** | the orbifold standard on +LR's third level: per type, three sectors of index one, distinguished by the parity characters and cycled by the 3-cycle. The cover is forced (W3), not chosen by a character, and three is never selected. | READING of the dictionary (GENESIS FK14) |
+| **S3: three** | the two records' non-zero parities, 2² − 1. No single move treats them alike; any two moves make them one undistinguished three (W1). The fourth parity, zero, is the puncture and carries no axis. | DERIVED from GENESIS GM1–GM2 (PROVED, W1) |
+| **S5: the flavour group and the triplet** | A₄ on every odd-trace thread (W3), from the one structure all threads share, the quaternion point (W2). It acts irreducibly on the three parity axes, the parity-twisted cohomology of the shared fibre (W4). The moves add the transpositions: L, R and the fibre act on the axes as T_d, which is S₄ (L and R are reflections), the sign adds nothing, and the swap doubles it to O_h. All its characters are real (`docs/THE_WEAVES_LAWS.md`). W1's three parities by themselves are a permutation set (1 ⊕ 2); the irreducible triplet needs the fibre's sign flips, and those are W4's. | PROVED |
+| **S1: replication (the three alike)** | Theorem G: whatever matter one parity carries, the other two carry the same, carried around by the weave's 3-cycle | PROVED (structure) |
+| **alike and separate** | Theorem S: at its own tick no state has its three parities both separate and carried into one another (isometries act on them through a group of order at most 2); at every third tick every odd-trace thread has them so, carried by the deck, the shift of one tick | PROVED (WEAVE + WAVE; `docs/THE_WEAVES_LAWS.md`) |
+| **content: a generation on each parity** | on the weave's forced A₄ cover: on +LR every parity carries six sectors on the third level, each reading (−1, −1), one generation of each of six types (three classes up to the other order and the spin twist); the census of every odd-trace thread to length 6 on that cover finds generations on no other thread (eleven of twelve read at order 4, all twelve at order 3). **On other covers the record finds them on other threads:** sm:B1549's three-ended covers of +LLLR (L8a15) and −LLLLLR carry exactly three each, with ℤ/2 × A₄ triplets also on the even-trace −LLR and +LLLLLLR; m135 and m136 carry one per member (sm:B1530, main:B1485); main's frame finds deck orbits of three on ten of twelve three-fold levels (main:B1434). So the content is cover- and frame-dependent; what is +LR's alone is that its cover is the weave's forced one. | COMPUTED: a thread result (sm:B1550's sealed two-route counts on +LR); the census is design-time structure |
+| **the standard met** | the orbifold standard on +LR's third level: per type, three sectors of index one, distinguished by the parity characters and cycled by the 3-cycle. The cover is forced (W3), not chosen by a character, and three is never selected. Summed, the three sectors are the pullback of one module on +LR itself: one generation at tick 1, three at tick 3. Reading them as three is the deck kept, GENESIS FK7 (B1506's one bit, the same on every odd-trace thread by Theorem S) | READING of the dictionary (main's GENESIS FK14; GENESIS FK7) |
 | **the smooth standard** | not met at orders 4 and 3 on any thread's forced cover. Its fibre has genus one, so it has no room (main's T-ROOM-NEEDS-GENUS); no member is fixed by A₄. Only the spin cover, of genus 3, has room, and there m004's members are all pulled back. | OPEN (excluded at these orders) |
-| **S2: chirality** | the frame's index per line. Which way the extension runs decides generation against anti-generation (main's "the count is the order", B1466, B1486, B1499), and the weave does not fix it | OPEN (GENESIS GAP3) |
-| **S4: anomalies per generation** | each line's sector reads I(W₁) = I(Λ²W₁): as many 5̄′ as 10′, the SU(5)-anomaly-free shape, line by line | COMPUTED on +LR |
+| **S2: chirality** | the frame's index per parity. Which way the extension runs decides generation against anti-generation (main's "the count is the order", B1466, B1486, B1499), and the weave does not fix it. The record puts the hand in the sign of the word state (main:B1479–B1483, "the hand is a phase"), which the positive grammar never produces (main:B1482) and to which the parities are blind (−I fixes all three). The weave's group on the triplet is real, and a thread's A₄ has a complex pair whose order is a marking (LR against RL): the three and the hand are separate ingredients | OPEN (GENESIS GAP3; FK4) |
+| **S4: anomalies per generation** | each parity's sector reads I(W₁) = I(Λ²W₁): as many 5̄′ as 10′, the SU(5)-anomaly-free shape, parity by parity | COMPUTED on +LR |
 | **S6 and mixing** | see §3 | READING |
-| **masses and hierarchy** | an exact triplet is degenerate (Schur); values need dynamics | BLIND |
+| **masses and hierarchy** | an exact triplet is degenerate (Schur); values need dynamics. A constraint the record proves: generations told apart by characters give a hollow texture, σ₁ ≤ σ₂ + σ₃, unless the Higgs carries the trivial character, and the data refute the hollow texture (m_t/(m_c + m_u) ≈ 136; sm:B1273, sm:B1361). So the parity sectors need a parity-neutral Higgs | BLIND (one constraint) |
 
-## 3. Mixing: the weave's own subgroups against the data (READING; `the_mixing.py`)
+## 3. Mixing: the weave's group, with no comparison to data (READING; `the_mixing.py`)
 
-- **The rule** (Lam 2008, arXiv:0804.2622; Altarelli and Feruglio, arXiv:1002.0211). A sector that keeps a subgroup has its
-  mass matrix diagonal in that subgroup's eigenbasis. Two sectors then mix by the overlap.
-- **One sector: the golden thread's 3-cycle on the triplet.** Its eigenvalues are distinct, so the mixing is fixed. Every
-  odd-trace thread gives a conjugate ℤ₃, and the patterns depend only on the pair up to conjugation.
-- **The other sector keeps an involution of the weave, or a Klein group of them:**
+**The group theory.**
+- The rule (Lam 2008, arXiv:0804.2622): a sector that keeps a subgroup has its mass matrix diagonal in that subgroup's
+  eigenbasis, and two sectors mix by the overlap.
+- With the golden thread's 3-cycle on the triplet as one sector's subgroup (its eigenvalues are distinct), the other
+  sector's involution fixes one column:
+  - the swap P (and LPL, RPR, L·a, R·b): the tri-bimaximal first column (2/3, 1/6, 1/6), the pattern called TM1;
+  - the sign or a fibre translation: the second column (1/3, 1/3, 1/3), TM2;
+  - a single shear L or R: the third column (0, 1/2, 1/2).
+- Klein groups give the tri-bimaximal matrix or the democratic one.
+- The weave's group on the triplet contains S₄, the smallest group that gives tri-bimaximal mixing for all couplings
+  (Lam).
+- Mod 2 the golden thread LR is ST, the rotation fixing τ = ω, and the swap P is S, fixing τ = i: the modular-flavour
+  fixed points.
 
-| the other sector keeps | the mixing it gives | against the data |
-|---|---|---|
-| **the swap P** (or LPL, RPR, L·a, R·b) | **TM1**: the tri-bimaximal first column (2/3, 1/6, 1/6) is kept | **viable**: sin²θ₁₂ = 0.318 at the measured θ₁₃; +1.0σ against JUNO, +1.4σ against NuFIT 6.1 |
-| the sign −I, or a fibre translation | TM2: the second column (1/3, 1/3, 1/3) is kept | disfavoured: +3.7σ against JUNO (Ding, Li, Lu and Petcov, arXiv:2512.03809: 3.6σ) |
-| a single shear, L or R | θ₁₃ = 0 | excluded (θ₁₃ is about 40σ from zero) |
-| a Klein group: a single move with a translation | tri-bimaximal | excluded since 2012 |
-| the fibre's translations (V₄) | every entry 1/3 | excluded |
+**Why no comparison with data is made here.** The record fences it:
+- **Already done on m004.** B342 and B343 already took the object's ℤ/3 to TM2 and to the tri-bimaximal matrix. B343:
+  "the ℤ/3 cycles all three → selects none". TM1 needs one involution chosen, and nothing here chooses the swap.
+- **The covenant is spent.** The value-contact covenant is spent (B1066: "the licensed value-contact surface is
+  EXHAUSTED"). A mixing object needs identifications (B400). The PMNS formula ensemble banked as numerology-class (B398).
+- **Not admissible.** The kind table admits sin²θᵢⱼ only against |h|²-type partners (`docs/KIND_TABLE.md`). Comparisons
+  reopen only through the owner, L91's functor and the full checklist (`docs/LAW_MAP.md`).
+- **A competing registered value.** The record's one registered forward item for this angle is a hint, sin²θ₁₂ =
+  1/(2φ) = 0.30902 (H-TUROK; `docs/HINT_LEDGER.md`). TM1 would give 0.318 at the measured θ₁₃.
+- **The swap's typing.** The record types the swap as the mirror (B1385 T2), as charge conjugation (sm:B1279), and as an
+  anti-symplectic half-step (main:B1341). An orientation-reversing map may act as a generalized CP rather than as a
+  unitary flavour symmetry, and that typing is not settled. Some older arcs also name the swap C and use P for reversal
+  (B1083).
 
-- **The weave's group on the triplet contains S₄,** the smallest group giving tri-bimaximal mixing for all couplings
-  (Lam). The weave puts every one of these patterns within reach.
-- **The swap is the one elementary move whose residual gives the pattern the data still allow.**
-- **Mod 2 the golden thread LR is ST,** the order-3 rotation that fixes τ = ω, and the swap P is S, which fixes τ = i.
-  These are the modular-flavour fixed points: the threads play τ = ω and the swap plays τ = i. That answers the
-  literature's question of what plays τ for a framework built from Anosov words (§5, question 8).
-- **The swap is the move main pairs with the Breath pulse** (det −1; main's wave programme). So the reading is that lepton
-  mixing is the mismatch between the golden act and the breath.
-- **What makes it a reading.** Which sector keeps which subgroup is not forced. The row assignment and the CP phases are
-  not fixed either.
-- **What would test it.** TM1 predicts sin²θ₁₂ = (1 − 3s₁₃²)/(3(1 − s₁₃²)), and cos δ tied to θ₂₃: δ ≈ 262° at
-  sin²θ₂₃ = 0.470. JUNO's six-year precision of about 0.5% on sin²θ₁₂ decides it if the central value holds.
+So this section records which patterns the weave's group contains, and nothing more.
 
 ## 4. The derivation, step by step
 
 | step | status | what |
 |---|---|---|
-| 0 | DERIVED (GENESIS) | PF1–PF3 → two records, the shears L, R (GM2); the sign and the swap OPEN (GM5b, GM5c) |
+| 0 | DERIVED (GENESIS) | PF1–PF3 → two records, the shears L, R (GM2); the swap OPEN (GM5c); the sign OPEN (GM5b on this branch; on main a move of its own that positivity, GM5d, excludes) |
 | 1 | PROVED (W1) | three non-zero parities; one undistinguished three only when moves act together |
 | 2 | PROVED (W2) | the one structure every move fixes: the quaternion point |
 | 3 | PROVED (W3) | from it, the same A₄ (and 2T) on every odd-trace thread; GENESIS's SE1 admits only such threads |
-| 4 | PROVED (W4) | one irreducible triplet on the shared fibre, the same on every odd-trace thread; the weave's group O_h ⊃ S₄ |
-| 5 | PROVED (Theorem G) | whatever one line carries, all three carry |
-| 6 | COMPUTED | on +LR each line carries one generation of each type; on no other odd-trace thread to length 6 read so far (eleven of twelve at order 4) |
-| 7 | READING (GENESIS FK14) | the three generations are the three lines: the orbifold standard, with the cover forced |
-| 8 | READING | the weave's S₄ with the golden 3-cycle and the swap gives TM1 mixing |
-| 9 | OPEN | chirality (the order); the smooth standard (room); masses; the six types; GENESIS GM5b and GM5c for the weave |
+| 4 | PROVED (W4) | one irreducible triplet on the shared fibre, the same on every odd-trace thread; the weave's group T_d ≅ S₄ (O_h with the swap), all characters real |
+| 5 | PROVED (Theorem G) | whatever one parity carries, all three carry |
+| 5′ | PROVED (Theorem S) | three alike and separate never at a state's own tick; at every third tick of every odd-trace thread |
+| 6 | COMPUTED (THREAD) | on +LR each parity carries one generation of each type; on no other odd-trace thread to length 6 read so far (eleven of twelve at order 4), on the forced cover |
+| 7 | READING (main's GENESIS FK14; GENESIS FK7) | the three generations are the three parity sectors at every third tick: the orbifold standard, with the cover forced and the deck kept |
+| 8 | READING (group theory only) | the weave's group contains S₄; with the golden 3-cycle the swap fixes the TM1 column; no comparison with data (§3) |
+| 9 | OPEN | the deck kept (GENESIS FK7); chirality (the order); the smooth standard (room); masses; the six types; the sign and the swap for the weave (GENESIS GM5b, GM5c) |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
-- **Steps 1–5 are laws over every odd-trace thread,** not positives on a state.
+- **Steps 1–5′ are laws over every odd-trace thread,** not positives on a state.
 - **Step 6 is a positive on one state.** With twelve threads, if none of the eleven others carries, its p is about 0.29.
   It is not a selection the bar would credit. The census of the whole GENESIS population would be needed for that.
 - **So "the weave picks m004" is not claimed.**
 - **What is claimed:** the three, its alikeness and its flavour group are the weave's, and on the one thread the census
-  finds carrying content, every line carries a generation.
+  finds carrying content, every parity carries a generation.
 
 ## 5. Sources (this seat's literature pass, 2026-10-07; read in full by the seat)
 
