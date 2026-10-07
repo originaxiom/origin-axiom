@@ -10310,6 +10310,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1493": {
+   "slug": "the room on the companions",
+   "motifs": [
+    "monoid",
+    "golden",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B149": {
    "slug": "sl4 ideal completeness",
    "motifs": [

@@ -1,0 +1,10 @@
+[0, 0, 2] b0 1 room 0 second 1 m_A 0 int 1 oth 0 [('interior 0', 0, -1, 0, True)]
+[0, 2, 0] b0 1 room 0 second 0 m_A 1 int 0 oth 1 [('other 0', 1, 0, 0, True)]
+[0, 2, 2] b0 1 room 0 second 0 m_A 0 int 0 oth 0 []
+[0, 2, 4] b0 1 room 0 second 0 m_A 0 int 0 oth 0 []
+[2, 0, 0] b0 1 room 0 second 0 m_A 0 int 0 oth 0 []
+[2, 0, 4] b0 1 room 0 second 0 m_A 0 int 0 oth 0 []
+[2, 0, 6] b0 1 room 0 second 0 m_A 0 int 0 oth 0 []
+[2, 2, 2] b0 1 room 0 second 0 m_A 0 int 0 oth 0 []
+[2, 2, 4] b0 1 room 0 second 0 m_A 0 int 0 oth 0 []
+READ order4 n = 9 min I(W1) = -1

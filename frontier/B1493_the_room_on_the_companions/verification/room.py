@@ -26,8 +26,14 @@ class Room(MC.Site):
         """n(chi) = interior classes of the line: h^1 minus the rank of the restriction to the cusps (stacked block)"""
         E = self.line(chi); c = self.counts(E); return dict(h1=c["a1"], n=c["n"], t0=c["t0"])
 
-    def two(self, nu, power=3):    # nu^power (x) rho
-        return {g: (nu[g] ** power) * self.rho[g] for g in self.gens}
+    def two(self, nu, power=3):
+        """nu^power (x) rho, with rho = the FOUR (the seat's rho_1: Ballas' rho_q at q = 1, signature (3, 1)) -- Theorem C's second
+        supply n(nu^3 (x) rho) is the interior-class count of the four twisted by nu^3.  (Corrected after the sealed run, 2026-10-07:
+        the sealed code used the SL(2, C) lift here, a different module; the m136 control had shown it -- 0 at members reading
+        (-1, -1), which the theorem's bound I(Lambda^2 W1) >= -n(nu^3 (x) rho) forbids -- and it was read only after C3.  The
+        sealed outputs are kept in sealed_run/.)"""
+        four = self.four({g: 1 for g in self.gens})
+        return {g: (nu[g] ** power) * four[g] for g in self.gens}
 
     def extension_by_line(self, V, L, c):
         """W1 = [[V, z], [0, L]], z(g) = c(g) L(g); c a cocycle of V (x) L* (column vector per generator)"""

@@ -1,0 +1,3 @@
+(0, 0, 1) b0 0 room 0 second 1 m_A 0 int 1 oth 0 [('interior 0', 0, 0, 0, True)]
+(0, 0, 3) b0 0 room 0 second 1 m_A 0 int 1 oth 0 [('interior 0', 0, 0, 0, True)]
+READ 0,0,1;0,0,3 n = 2 min I(W1) = 0

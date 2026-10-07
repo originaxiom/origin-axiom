@@ -1,0 +1,873 @@
+{
+ "name": "o10_150729",
+ "rows": [
+  {
+   "chi": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "m_A": 5,
+   "h1": 5,
+   "n": 0,
+   "t0": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    true,
+    true,
+    false
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    true,
+    true
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    true,
+    false,
+    true
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    true,
+    true,
+    false,
+    false
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    true,
+    false,
+    true,
+    false
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    true,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    true,
+    false,
+    false,
+    true
+   ],
+   "m_A": 2,
+   "h1": 2,
+   "n": 0,
+   "t0": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "n_trivial": 0,
+ "max_room": 0,
+ "rooms": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ]
+}

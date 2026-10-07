@@ -1,0 +1,177 @@
+{
+ "name": "L8a15",
+ "rows": [
+  {
+   "chi": [
+    1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    true,
+    true,
+    true
+   ],
+   "m_A": 3,
+   "h1": 3,
+   "n": 0,
+   "t0": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "chi": [
+    1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    true,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "chi": [
+    1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    true,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "h1": 0,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "chi": [
+    -1,
+    -1,
+    -1
+   ],
+   "trivial_on_cusp": [
+    false,
+    false,
+    true
+   ],
+   "m_A": 1,
+   "h1": 1,
+   "n": 0,
+   "t0": [
+    0,
+    0,
+    1
+   ]
+  }
+ ],
+ "n_trivial": 0,
+ "max_room": 0,
+ "rooms": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ]
+}

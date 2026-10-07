@@ -3,3 +3,6 @@ a5c9629a999afcfe3ecd07e15e9eb584fe9804f610826c892c36065ad255a273  verification/r
 91f25c21a348987236853fc8b1f46bd89fb369ca83a4a8d1b2165bfa5eb137fa  verification/orbits_L8a15.json
 568774f0c0a4cfe92707d2f95e171da250281ef46b142bd83a932be419928847  verification/control_m136.json
 2351cf3ef63c613eaaee030563f02be96dcbc3b02789936550d320c99894fde7  verification/room_m140_4_1.json
+# corrected after the sealed run (2026-10-07; FINDINGS §4): the second supply's module (nu^3 x four, not nu^3 x the SL(2) lift); the sealed files are at the seal commit 5ef37c794 and the sealed outputs in verification/sealed_run/
+ebcf9aab48d0c890d4b4eec38a14f2cc700598c13411f036ea748e7be15de5ba  verification/room.py
+6b4b1182b458ce7942bf852e8b709e6c5980620eb0e0c927e706f8f89605b889  verification/control_m136.json

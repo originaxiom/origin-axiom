@@ -11138,5 +11138,30 @@
    "reach": "class",
    "hypotheses": "own level only; one frame; banked census, no index recomputed"
   }
+ },
+ {
+  "id": "B1493",
+  "claim_killed": "That a character of order dividing eight on a fixed-point companion of a word state (L8a15, three ends; o10_150729, five ends) carries three generations, or two, in the SM seat's harmonic frame. The line L = nu^-4 has no room on either companion (n(chi) = 0 at every sign character), so Theorem C's cap b0 + n(nu^4) is 0 at order eight and 1 at order four or two; read directly on L8a15 every member counts exactly -b0.",
+  "kill_form": "Sealed census (5ef37c794) of the line's interior classes at every sign character of both companions by the multi-cusp instrument of B1492 (controlled on m136 and on a closed manifold with room 1), the second supply n(nu^3 x four) at one representative per D6 x Galois orbit of the 448 order-8 characters of L8a15 with a 24-member equivariance control, the full reading at the nine order-4 orbits, and Theorem C (sm:B1535) for the bound.",
+  "hatch": "characters of order 3, 5, 6, 12 and higher on the companions (H1 = Z^3 and Z^5 have them); non-unitary characters; a direct reading of o10_150729 at orders four and eight (bounded by the theorem here, not read); the eight-ended companion of m135 and the four-ended one of m136; covers of the companions chosen by a character, where the line can have room (the seat's N45 has room 3)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-07), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the count at a member on every state-born object read is b0 + n(nu^4) with n(nu^4) = 0 -- the generation is the trivial line. What the record has that reaches two is a line with room on a cover chosen by a character (N45). So the search for three is a search for a line with room three on an object the genesis determines; FK14's second half.",
+  "faces_consulted": [
+   "B1492",
+   "B1491",
+   "B1487",
+   "B1485",
+   "B1291",
+   "sm:B1535",
+   "sm:B1547"
+  ],
+  "fact_computed": "n(chi) = 0 for all 8 sign characters of L8a15 and all 32 of o10_150729; n(nu^3 x four) in {0, 1} over the 29 order-8 orbits of L8a15 (1 at (1, 1, zeta_8)); the order-4 member (1, 1, i) reads (-1, 0); the order-8 members (1, 1, zeta_8), (1, 1, zeta_8^3) read (0, 0)",
+  "scope": {
+   "frame": "F-HE (the SM seat's: V = nu (x) four, the line L = nu^-4 forced by det W1 = 1, W1 = [[V, c], [0, L]] at c in H^1(V (x) L*); Theorem C = sm:B1535's, its rho = the four)",
+   "object": "L8a15 (+LLLR's three-ended companion) and o10_150729 (m003's five-ended companion); the characters of order dividing 8 (all 512 of L8a15 by the orbit table; the 32 sign characters of o10_150729 for the line)",
+   "reach": "single",
+   "hypotheses": "Theorem C as the seat proved it (sm:B1535; the audit lane's R84) for the bound on o10_150729 at orders four and eight and on L8a15 beyond the orbits read directly; numerical ranks (40 digits, 1e-24); one representative per D6 x Galois orbit at order eight with a 24-member equivariance control; the sealed instrument's second supply corrected after the run (the module), disclosed"
+  }
  }
 ]
