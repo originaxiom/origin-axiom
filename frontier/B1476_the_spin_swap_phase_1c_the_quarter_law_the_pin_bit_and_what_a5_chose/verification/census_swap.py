@@ -3,7 +3,7 @@
 (cusped, first 3000) and on the closed amphichiral census (37), against their CS class.  Verdict per member:
 GENUINE SWAP iff no reversing witness has trivial eta modulo the orientation-preserving character group K (the K cell of
 B1474 when the eta-set is not a singleton).  Usage: census_swap.py census_lists.json out.json [cusped|closed|all]"""
-import sys, json, pathlib, warnings; warnings.filterwarnings("ignore")
+import sys, json, pathlib, warnings, contextlib; warnings.filterwarnings("ignore")
 HERE = pathlib.Path(__file__).resolve().parent
 FRONTIER = next((p for p in HERE.parents if p.name == "frontier"), pathlib.Path.cwd() / "frontier")
 for d in ("B1471_the_cancellation_is_a_theorem_of_amphichirality", "B1474_the_spin_swap_phase_1a_fix_or_swap_by_the_matrix_route"):
@@ -35,17 +35,29 @@ def setup_any(name, randomize=0):
     return dict(M=M, G=G, gens=gens, rels=rels, rho=rho, phi=None, phi_per=None, h1=str(M.homology())), None
 
 
-R.setup = setup_any            # the matrix route needs rho and the relators only
+@contextlib.contextmanager
+def matrix_route():
+    """spin_swap.classify calls realness.setup, which refuses H_1 of rank != 1; the matrix route needs rho and the relators
+    only, so setup_any stands in for the duration of one verdict and realness.setup is restored after.  (R60-7, 2026-10-07:
+    until then this was a module-level replacement, R.setup = setup_any at import, which every later importer of realness in
+    the same interpreter inherited; the verdicts are unchanged.)"""
+    saved = R.setup; R.setup = setup_any
+    try: yield
+    finally: R.setup = saved
 
 
 def verdict(nm):
+    with matrix_route(): return _verdict(nm)
+
+
+def _verdict(nm):
     r = SS.classify(nm, Ls=(5, 6, 7))
     if "error" in r:                                   # H_1 rank != 1: realness.setup refuses; the matrix route needs only rho and the relators
         return dict(name=nm, error=r["error"])
     if r["n_solutions"] == 0: return dict(name=nm, verdict="UNDETERMINED (no mirror word to L=%s)" % r["L"], L=r["L"])
     etas = {tuple(e[g] for g in r["gens"]) for e in r["etas"]}
     if all(all(v == 1 for v in e) for e in etas): return dict(name=nm, verdict="FIX", etas=sorted(etas), K=None, n=r["n_solutions"])
-    pk, _ = R.setup(nm); K, nK = PC.find_preserving(pk, L=5)
+    pk, _ = setup_any(nm); K, nK = PC.find_preserving(pk, L=5)
     one = tuple([1] * len(r["gens"])); e0 = next(iter(etas))
     # close K
     Kc = set(K) | {one}

@@ -109,3 +109,10 @@ spectra failed in SnapPy's Dirichlet construction and are unread. Numerical, not
 MIXED; P1 has one. I have therefore not graded the law PROVED in any form, and I have kept the token PROVED for Theorem A,
 which that rule's own NEGATIVE branch says stands. If an auditor reads the rule as binding the token, the token is
 NEGATIVE for the sealed sentence and nothing else on this page changes.
+
+**Addendum, 2026-10-07 (R60-7, landed with S72).** Disclosed and repaired: `census_swap.py` (B1476) replaced the shared
+`realness.setup` by its `setup_any` at *import*, so every module that imported `realness` afterwards in the same
+interpreter saw the rank-free setup — B1477's `cusp_shear.py` worked around it by saving `R.setup` before the import,
+and the live tests ran in fresh interpreters meanwhile. The replacement is now scoped to one verdict (a context manager
+in `census_swap.verdict`, `realness.setup` restored after); the import has no side effect, the verdicts are unchanged,
+both arcs' tests pass.

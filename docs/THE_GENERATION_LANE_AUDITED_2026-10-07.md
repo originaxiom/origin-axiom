@@ -98,3 +98,11 @@ derived (GENESIS GAP1/GAP3); it is the only coupling available.
 
 Credit: the SM seat for Lemma F and F′, which make (a) exact; the web seat for the register question that first said
 the count is at an end; the audit lane for R92's affine action, which made (d)'s certificate honest.
+
+**Addendum, 2026-10-07 (S72, B1492).** The first several-ended objects the grammar reaches — the SM seat's fixed-point
+companions L8a15 (three ends) and o10_150729 (five) — read under seal in the seat's frame at every sign character: every
+interior class counts one, as on the one-cusped members; on L8a15 no character trivial on any end has a member at all.
+The ends raise the floor's room (to three on the five-ended companion) and the value stays one. The audit's first
+blind spot ("what the frame counts is ends") is therefore bounded on its own terms: ends are what the *floor* counts;
+the value at sign characters does not follow them. What moves the value on the record is the order of the character
+(the seat's B1547: −2 at order-8 members of N₄₅, no generation shape), which is where the next sealed read goes.

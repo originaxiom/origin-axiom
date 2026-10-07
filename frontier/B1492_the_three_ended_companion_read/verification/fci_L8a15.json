@@ -1,0 +1,199 @@
+{
+ "name": "L8a15",
+ "cusps": 3,
+ "H1": "Z + Z + Z",
+ "volume": 8.967360848788456,
+ "cusp_shapes": [
+  "0.6416170881 + 2.3646765515*I",
+  "0.6416170881 + 2.3646765515*I",
+  "0.6416170881 + 2.3646765515*I"
+ ],
+ "isometries": [
+  {
+   "cusp_images": [
+    1,
+    2,
+    0
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 3,
+   "fixed_cusps": [],
+   "det_values": []
+  },
+  {
+   "cusp_images": [
+    2,
+    1,
+    0
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 2,
+   "fixed_cusps": [
+    1
+   ],
+   "det_values": [
+    4
+   ]
+  },
+  {
+   "cusp_images": [
+    1,
+    0,
+    2
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 2,
+   "fixed_cusps": [
+    2
+   ],
+   "det_values": [
+    4
+   ]
+  },
+  {
+   "cusp_images": [
+    0,
+    1,
+    2
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 1,
+   "fixed_cusps": [
+    0,
+    1,
+    2
+   ],
+   "det_values": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "cusp_images": [
+    0,
+    2,
+    1
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 2,
+   "fixed_cusps": [
+    0
+   ],
+   "det_values": [
+    0
+   ]
+  },
+  {
+   "cusp_images": [
+    2,
+    0,
+    1
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 3,
+   "fixed_cusps": [],
+   "det_values": []
+  },
+  {
+   "cusp_images": [
+    2,
+    1,
+    0
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 2,
+   "fixed_cusps": [
+    1
+   ],
+   "det_values": [
+    0
+   ]
+  },
+  {
+   "cusp_images": [
+    1,
+    2,
+    0
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 3,
+   "fixed_cusps": [],
+   "det_values": []
+  },
+  {
+   "cusp_images": [
+    2,
+    0,
+    1
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 3,
+   "fixed_cusps": [],
+   "det_values": []
+  },
+  {
+   "cusp_images": [
+    0,
+    2,
+    1
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 2,
+   "fixed_cusps": [
+    0
+   ],
+   "det_values": [
+    4
+   ]
+  },
+  {
+   "cusp_images": [
+    1,
+    0,
+    2
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 2,
+   "fixed_cusps": [
+    2
+   ],
+   "det_values": [
+    0
+   ]
+  },
+  {
+   "cusp_images": [
+    0,
+    1,
+    2
+   ],
+   "orientation": "preserving",
+   "end_permutation_order": 1,
+   "fixed_cusps": [
+    0,
+    1,
+    2
+   ],
+   "det_values": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "summary": {
+  "total": 12,
+  "orientation_reversing": 0,
+  "chiral": true,
+  "distinct_end_permutations": 6,
+  "acts_on_ends_as_S3": true,
+  "order3_on_ends": 4,
+  "order3_fix_no_cusp": true,
+  "cusp_fixing_det_values": {
+   "4": 6,
+   "0": 6
+  },
+  "three": false
+ }
+}

@@ -67,6 +67,7 @@ def test_path_refs_fails_on_a_dangling_backticked_path(tmp_path, monkeypatch):
     _git_repo_with(tmp_path, "docs/a.md")                                   # the checker reads git's index, not the disk
     monkeypatch.setattr(cpr, "ROOT", str(tmp_path))
     total, bad = cpr.scan(); assert bad and any("does_not_exist" in t for _, t in bad)
+    assert gates.GATES["path-refs"] is gates.gate_path_refs                      # R60-4: the test names the gate it controls
 
 
 def test_test_vacuity_fails_on_a_test_with_no_assert(tmp_path, monkeypatch):
@@ -75,6 +76,7 @@ def test_test_vacuity_fails_on_a_test_with_no_assert(tmp_path, monkeypatch):
     _git_repo_with(tmp_path, "tests/test_planted.py")
     monkeypatch.setattr(ctv, "ROOT", str(tmp_path))
     total, no_assert, tautology, both = ctv.scan(); assert no_assert, (total, no_assert)
+    assert gates.GATES["test-vacuity"] is gates.gate_test_vacuity                 # R60-4
 
 
 def test_views_generated_fails_when_a_generator_is_missing(tmp_path, monkeypatch):
@@ -122,6 +124,7 @@ def test_representation_sweep_fails_on_a_substantial_arc_cited_nowhere(monkeypat
     monkeypatch.setattr(rsw, "_surfaces_text", lambda: ""); monkeypatch.setattr(rsw, "_triaged", lambda: set())
     assert rsw.sweep() == [("B99992", "PROVED", 900)]
     monkeypatch.setattr(rsw, "_triaged", lambda: {"B99992"}); assert rsw.sweep() == []
+    assert gates.GATES["representation-sweep"] is gates.gate_representation_sweep   # R60-4
 
 
 def test_seen_first_fails_on_an_arc_without_the_section(tmp_path):

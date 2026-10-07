@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1320** |
-| words of findings prose | **1,024,494** |
-| test lock files referenced | **765** |
-| arcs carrying an authored verdict | **1320** (100.0 %) |
+| research arcs with findings | **1321** |
+| words of findings prose | **1,026,715** |
+| test lock files referenced | **766** |
+| arcs carrying an authored verdict | **1321** (100.0 %) |
 | recorded closures | **804** (637 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 890 |
+| PROVED | 891 |
 | NEGATIVE | 328 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1491`** (693 words, 0 locks)  
-THE CORRECTION AND THE COMPANIONS (GENESIS v1.17). (1) B1487's T3 corrected on the SM seat's relay: the floor is one-sided -- the opposite order's dual is W1 again -- and the seat's records refute |I(W1)| <= m_A + b0 (18 readings above it); the ceiling I(W1) <= 2 m_A + m_B - b0 is the seat's; the generation-side conclusions stand (at most m_A + b0 - k generations; 1 + b0 on a one-cusped state; three needs 3 - b0 special cusps). Addendum, markers, registry and LAW_MAP reworded, a RETRACTIONS row. (2) The seat's fixed-point companions registered at FK14 as the first candidate answer to what adds an end: the maximal abelian cover to which the cusp lifts is the monodromy's mapping torus with every fixed point punctured, |2 - tr phi| ends; verified on main: o10_150729 is S^3 - L10n113 (m003's five-ended companion) and +LLLR (trace 5) has a three-ended companion, the link complement L8a15, chiral, |Sym| = 12 -- the first three-ended object of that kind on the record; whether a companion is a generated state is FK14 itself, not ruled. 0 of 19.  
-`B1491_the_correction_and_the_companions/FINDINGS.md`
+**PROVED — `B1492`** (2049 words, 1 locks)  
+THE THREE-ENDED COMPANION READ (sealed 872c082ec / 52dcd6db): the harmonic frame and the F-CI measures read under seal on L8a15 (+LLLR's three-ended companion) and on m003's five-ended companion o10_150729, with the cusp decomposition of every count. All five sealed predictions hold. On L8a15 at the trivial character h^1 = 3 -- one boundary-type class per end, no interior class, every reading (0, 0); three sign characters carry a member, each where the character is trivial on NO end (m_A = 0, the class dead on all three ends), reading (-1, -1) -- one generation, the b0 one; the three characters trivial on exactly one end (one per end) carry no interior class; no character trivial on any end has a member; the largest count is one. On o10_150729 at the trivial character h^1 = 5, no interior class, (0, 0) at every reading; at the characters trivial on one or two ends the interior class is there and the reading is (-1, -1) where the floor allowed two or three. Census sentence: on every object main has read -- one end (m135, m136), three (L8a15), five (o10_150729) -- every interior class at a sign character counts exactly one; the ends raise the floor's room and the value does not follow. In F-CI on L8a15: 12 isometries, chiral, S_3 on the ends, the order-3 ones fixing no cusp, cusp counts {0, 4}, cusps neither hexagonal nor rectangular -- no three. GENESIS v1.18 (FK14, GAP2). Not ruled: characters of order four and eight, and non-unitary ones, on the companions. 0 of 19.  
+`B1492_the_three_ended_companion_read/FINDINGS.md`
 
 **NEGATIVE — `B1480`** (998 words, 0 locks)  
 THE INDEX AGAINST THE SIGN (the crossing plan's first item; sealed 20c22735c / 4700f7bb). NEGATIVE for one hypothesis and no wider: at own level, on the word states to length 12 in the Standard-Model frame, the class index's firing is NOT carried by one sign of the word -- 375 of 379 + states and 379 of 379 - states carry a firing module, 49 and 46 a generation-shaped background; on the 34 amphichiral words both signs fire (32 and 34), with generation-shaped backgrounds on eight + states and one - state (unpredicted, recorded, not believed). Sealed predictions: Q1 (the signs differ by a factor 1.5) FAILS, Q2 (some amphichiral - state fires) HOLDS, Q3 (one sign only) FAILS. So the bit of B1479 is not a switch for the count on the family's own levels; the cell it points to, not banked: on a - state a mirror moves the spin structure by a sign character, and B1459's theorem reverses the index under such a twist -- if the two coincide the mirror exchanges spin structures of opposite count. With it, two forks ruled by the principle at the owner's word that such forks are the mathematics' to settle: GENESIS v1.13 -- FK13 RULED (the family is the generated state space, the word states), FK4 restated with its stake (the sign needs an inverse letter, -I = (L R^-1 L)^2, and is the fermionic bit: does the principle generate the sign?); and the listening-log method adopted with a sweep first and a base rate. 0 of 19.  

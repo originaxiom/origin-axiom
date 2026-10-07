@@ -1,0 +1,3960 @@
+{
+ "name": "o10_150729",
+ "gens": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e"
+ ],
+ "rels": [
+  "acBeAbEC",
+  "bdBD",
+  "acdADC",
+  "ceCE"
+ ],
+ "cusps": 5,
+ "rows": [
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "m_A": 5,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 5,
+    "t0": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "t0_sum": 5,
+    "r1": 5,
+    "n": 0
+   },
+   "interior": 0,
+   "other": 5,
+   "readings": [
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "k": 5,
+     "I_W1": 0,
+     "I_L2W1": 0,
+     "W1": {
+      "a0": 0,
+      "a1": 9,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 9,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 6,
+      "t0": [
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "t0_sum": 10,
+      "r1": 6,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 9
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "k": 5,
+     "I_W1": 0,
+     "I_L2W1": 0,
+     "W1": {
+      "a0": 0,
+      "a1": 9,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 9,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 6,
+      "t0": [
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "t0_sum": 10,
+      "r1": 6,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 9
+    },
+    {
+     "cls": "other 2",
+     "dead_on_cusps": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "k": 5,
+     "I_W1": 0,
+     "I_L2W1": 0,
+     "W1": {
+      "a0": 0,
+      "a1": 9,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 9,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 6,
+      "t0": [
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "t0_sum": 10,
+      "r1": 6,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 9
+    },
+    {
+     "cls": "other 3",
+     "dead_on_cusps": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "k": 5,
+     "I_W1": 0,
+     "I_L2W1": 0,
+     "W1": {
+      "a0": 0,
+      "a1": 9,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 9,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 6,
+      "t0": [
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "t0_sum": 10,
+      "r1": 6,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 9
+    },
+    {
+     "cls": "other 4",
+     "dead_on_cusps": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "k": 5,
+     "I_W1": 0,
+     "I_L2W1": 0,
+     "W1": {
+      "a0": 0,
+      "a1": 9,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 9,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 6,
+      "t0": [
+       2,
+       2,
+       2,
+       2,
+       2
+      ],
+      "t0_sum": 10,
+      "r1": 6,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 9
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    true,
+    true,
+    false
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       1,
+       1,
+       2,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      false,
+      false,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      true,
+      true,
+      false,
+      false,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": 1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       2,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       2,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      false,
+      true,
+      true,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      false,
+      false,
+      true,
+      true,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": 1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      false
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": -1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    true,
+    true
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      false,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      false,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": -1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      false,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": -1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      false,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": 1,
+    "c": -1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    true,
+    false,
+    true
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      false,
+      true,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      true,
+      true,
+      false,
+      true,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": 1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    true,
+    true,
+    false,
+    false
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       1,
+       2,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      false,
+      false,
+      true,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      true,
+      false,
+      false,
+      true,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": 1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      false,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": 1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": 1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 0,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 0,
+    "r1": 0,
+    "n": 0
+   },
+   "interior": 0,
+   "other": 0,
+   "readings": []
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": -1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": -1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 0,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 0,
+    "r1": 0,
+    "n": 0
+   },
+   "interior": 0,
+   "other": 0,
+   "readings": []
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": -1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       2,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      true,
+      false,
+      true,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      false,
+      true,
+      false,
+      true,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": 1,
+    "b": -1,
+    "c": -1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      false,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       2,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    true,
+    false,
+    true,
+    false
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       1,
+       2,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      false,
+      true,
+      false,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      true,
+      false,
+      true,
+      false,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      false,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": 1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": 1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 0,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 0,
+    "r1": 0,
+    "n": 0
+   },
+   "interior": 0,
+   "other": 0,
+   "readings": []
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": -1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      false,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": -1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    true,
+    false,
+    false,
+    true,
+    false
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     1,
+     0,
+     0,
+     1,
+     0
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       2,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      true,
+      true,
+      false,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      false,
+      true,
+      true,
+      false,
+      true
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       2,
+       1
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": -1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 0,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 0,
+    "r1": 0,
+    "n": 0
+   },
+   "interior": 0,
+   "other": 0,
+   "readings": []
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": 1,
+    "c": -1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": 1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": 1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      true,
+      true,
+      true,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      false,
+      true,
+      true,
+      true,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": 1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    true,
+    false,
+    false,
+    true
+   ],
+   "m_A": 2,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 3,
+    "t0": [
+     0,
+     1,
+     0,
+     0,
+     1
+    ],
+    "t0_sum": 2,
+    "r1": 2,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 2,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 8,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 1
+     },
+     "floor": -3,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      false,
+      true,
+      true,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    },
+    {
+     "cls": "other 1",
+     "dead_on_cusps": [
+      true,
+      false,
+      true,
+      true,
+      false
+     ],
+     "k": 2,
+     "I_W1": 1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       2,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 7,
+      "r1": 7,
+      "n": 0
+     },
+     "floor": -1,
+     "ceiling": 3
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": 1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      false,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": -1,
+    "d": 1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 0,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 0,
+    "r1": 0,
+    "n": 0
+   },
+   "interior": 0,
+   "other": 0,
+   "readings": []
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": -1,
+    "d": 1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      false
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": -1,
+    "d": -1,
+    "e": 1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "m_A": 1,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 2,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "t0_sum": 1,
+    "r1": 1,
+    "n": 1
+   },
+   "interior": 1,
+   "other": 1,
+   "readings": [
+    {
+     "cls": "interior 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "k": 0,
+     "I_W1": -1,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 0
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -2,
+     "ceiling": 1
+    },
+    {
+     "cls": "other 0",
+     "dead_on_cusps": [
+      true,
+      true,
+      true,
+      true,
+      false
+     ],
+     "k": 1,
+     "I_W1": 0,
+     "I_L2W1": -1,
+     "W1": {
+      "a0": 0,
+      "a1": 6,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "t0_sum": 5,
+      "r1": 5,
+      "n": 1
+     },
+     "W1dual": {
+      "a0": 1,
+      "a1": 7,
+      "t0": [
+       1,
+       1,
+       1,
+       1,
+       2
+      ],
+      "t0_sum": 6,
+      "r1": 6,
+      "n": 1
+     },
+     "floor": -1,
+     "ceiling": 1
+    }
+   ]
+  },
+  {
+   "nu": {
+    "a": -1,
+    "b": -1,
+    "c": -1,
+    "d": -1,
+    "e": -1
+   },
+   "cusp_trivial": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "m_A": 0,
+   "b0": 1,
+   "V": {
+    "a0": 0,
+    "a1": 0,
+    "t0": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "t0_sum": 0,
+    "r1": 0,
+    "n": 0
+   },
+   "interior": 0,
+   "other": 0,
+   "readings": []
+  }
+ ]
+}

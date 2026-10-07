@@ -128,3 +128,10 @@ member; P7/P8 wrong as sealed; **and an over-reading of mine, caught before land
 `census_swap.py` → `census_swap_cusped.json`, `census_swap_closed.json`, runs; `pin_sign_fixed.py` → `pin_sign_fixed.json`;
 `r14_axiom_checks_referee.py` (the review lane's, pinned 5d58b935) → `r14_rerun.txt`; `adoption/amend.py` → GENESIS v1.11.
 Lock `tests/test_b1476_spin_swap_1c.py`. Cross-refs L246, L247, L248, B1474, B1475, B1239, B1224, B279, sm:B1382, chat1.
+
+**Addendum, 2026-10-07 (R60-7, landed with S72).** Disclosed and repaired: `census_swap.py` (B1476) replaced the shared
+`realness.setup` by its `setup_any` at *import*, so every module that imported `realness` afterwards in the same
+interpreter saw the rank-free setup — B1477's `cusp_shear.py` worked around it by saving `R.setup` before the import,
+and the live tests ran in fresh interpreters meanwhile. The replacement is now scoped to one verdict (a context manager
+in `census_swap.verdict`, `realness.setup` restored after); the import has no side effect, the verdicts are unchanged,
+both arcs' tests pass.

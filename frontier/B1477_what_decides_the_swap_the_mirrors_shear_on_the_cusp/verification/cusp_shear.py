@@ -14,8 +14,8 @@ for d in ("B1471_the_cancellation_is_a_theorem_of_amphichirality", "B1474_the_sp
           "B1475_the_spin_swap_phase_1b_does_the_swap_carry_a_quantity", "B1476_the_spin_swap_phase_1c_the_quarter_law_the_pin_bit_and_what_a5_chose"):
     sys.path.insert(0, str(FR / d / "verification"))
 import realness as R, spin_quantity as SQ
-setup_rank1 = R.setup         # realness.setup (phi, H_1 of rank one) -- saved before census_swap replaces R.setup by setup_any
-import census_swap as CS      # setup_any: the lift repaired, any H_1 rank
+setup_rank1 = R.setup         # realness.setup (phi, H_1 of rank one); since R60-7 census_swap no longer replaces it at import
+import census_swap as CS      # setup_any: the lift repaired, any H_1 rank (used explicitly below)
 
 
 def dual(a, b):
