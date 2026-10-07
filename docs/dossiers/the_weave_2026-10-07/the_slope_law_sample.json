@@ -1,0 +1,17 @@
+{
+ "state": "+LLRLRR",
+ "tick": 3,
+ "|G|": 3328,
+ "slope primes": [
+  20593,
+  21841,
+  24337
+ ],
+ "engine prime": 20593,
+ "sampled": 300,
+ "agree": 300,
+ "firing by the law": 60,
+ "firing by the engine": 60,
+ "seconds": 523.7,
+ "all agree": true
+}

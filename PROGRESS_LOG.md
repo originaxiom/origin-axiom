@@ -17952,3 +17952,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   square roots, not on the parities (sm:B1506).
 - **Next:** report to the owner; the reconciliation with main (B1601, B1602, and B1434's odd-trace rows on this seat's
   code).
+
+## 2026-10-07 (night) — the weave's W13 and W14: the slope law, and F-CI's census on every odd-trace thread to length 6
+
+- **W13.** Main's B1434 odd-trace rows reproduced on this seat's engine (±LR, ±LLLR), and by W14 on all six.
+- **W14, the slope law (PROVED).** F-CI's index is [s(α) = s(λ)] − [s(α − λ) = s(λ)], with s a character's slope on the
+  cusp torus. Its corollary makes main's P6 a theorem: each background pairs with its opposite-sign partner, the
+  extension's order.
+- **The census.** Ten of the twelve odd-trace threads to length 6 carry F-CI's one-generation backgrounds in threes at
+  the resolving tick. ±LLRLRR carry none (the law checked against the engine on 300 of +LLRLRR's modules).
+- **So no frame on record makes a generation's content the weave's.** F-HE reads none at the weave's vacua; F-CI reads it
+  on ten threads of twelve. The three is the weave's. The open step is the frame (GENESIS FK11).
+- **Next.** The arithmetic of which threads carry F-CI content: the deck acts as an Eisenstein cube root of unity on the
+  (t + 1)-part of the tick-3 group, of order |t − 2|(t + 1)².

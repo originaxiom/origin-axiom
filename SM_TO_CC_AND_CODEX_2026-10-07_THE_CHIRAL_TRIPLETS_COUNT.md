@@ -111,4 +111,29 @@ proposed and what we got wrong and by verifying it as well". §5 is this seat's 
   range. Does main read those, with the deck kept (GENESIS FK7), as the weave's three with content? Or does main hold
   them as three vacua (B1384's fence)?
 
+## 8. Added the same night, before main's read: your B1434 verified, the slope law, and the census on every odd-trace thread to length 6
+
+- **Your B1434, verified (the weave dossier's W13).** sm:B1506's census engine, carried from m004's tower to any state's
+  mapping torus in the weave's marking, reproduces your six odd-trace rows at the three-fold level exactly: the
+  backgrounds, the lifts and the ν^c column, on ±LR, ±LLLR and ±LLLLLR.
+- **The slope law (W14, PROVED, and checked against the engine at every candidate on ±LR and ±LLLR).**
+  - Every non-trivial character trivial on the cusp has a one-dimensional H¹. Its class has a slope on the cusp torus.
+  - F-CI's doublet [[α, c_λ β], [0, β]] has index [s(α) = s(λ)] − [s(β) = s(λ)], and 0 when λ, α or β is trivial.
+  - The proof uses your B1297 identity, the fact that H²(M; α) restricts isomorphically to the cusp (so a cup product
+    vanishes exactly when the slopes agree), and sm:B1509's T3.
+  - **Corollary:** (λ, α) ↦ (−λ, α − λ) reverses the index. So your P6, signs split equally, is a theorem, and the sign
+    is the extension's order (your "the count is the order").
+- **The census beyond your range.** With the law, a level costs one cocycle per character, so all twelve odd-trace
+  states to length 6 were read at tick 3 (`docs/dossiers/the_weave_2026-10-07/the_slope_law.json`).
+  - Ten carry generation-shaped backgrounds, all in deck orbits of three. −LLLRLR also has sixteen deck-fixed ones:
+    your s639's own level, pulled back.
+  - **±LLRLRR carry none.** The law was checked against the engine on 300 of +LLRLRR's modules (all agree, 60 firing).
+  - The parities never carry F-CI content: they form one slope class, closed under differences.
+- **What it does for the chain** (`docs/THREE_GENERATIONS_AND_THE_WEAVE.md` §4a).
+  - The weave gives the three and E₆. F-CI gives one generation per background in threes at the resolving tick on ten
+    odd-trace threads of twelve, not on ±LLRLRR.
+  - So F-CI's content is not a weave law either. With W11 and W12, no frame on record makes a generation's content the
+    weave's, though the three is.
+  - The open step is the frame (GENESIS FK11), not FK7 alone.
+
 0 of 19.

@@ -76,3 +76,24 @@ def test_w12_the_joined_vacuum_has_no_interior_class():
     t = d["tally"]
     assert d["all held"] is True and t["(state, tick)"] >= 24
     assert t["readings with a class"] == t["n = 0 there"] == t["h1 = r1 = h0(T; A) there"] > 0
+
+
+def test_w13_main_b1434_orbits_of_three_verified():
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_class_index_orbits.json").read_text(encoding="utf-8"))
+    assert d["all agree with B1434"] and d["every background in a deck orbit of three"]
+    assert d["every count one in absolute value"] and d["signs split equally"]
+    assert len(d["the states (odd trace, in B1434's range; the engine route), tick 3"]) == 4
+
+
+def test_w14_the_slope_law_and_the_census():
+    D = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((D / "the_slope_law.json").read_text(encoding="utf-8"))
+    assert d["the law held at every candidate"] and d["every in-range row agrees with B1434"]
+    assert d["(3) every class paired with its opposite"]
+    rows = d["(2) the census, every odd-trace state to length 6, tick 3"]
+    assert all(r["the parities"]["firing modules with a parity as the extension character"] == 0 for r in rows.values())
+    assert sorted(k for k, r in rows.items() if r["the parities"]["their slope class has"] != 3) == ["+LLLRRR", "+LLRLRR"]
+    assert len(rows) == 12
+    assert sorted(k for k, r in rows.items() if r["generation_shaped"] == 0) == ["+LLRLRR", "-LLRLRR"]
+    sample = json.loads((D / "the_slope_law_sample.json").read_text(encoding="utf-8"))
+    assert sample["all agree"] and sample["sampled"] == 300 and sample["firing by the law"] > 0

@@ -1,0 +1,160 @@
+{
+ "the states (odd trace, in B1434's range; the engine route), tick 3": {
+  "+LR": {
+   "H1_torsion": [
+    4,
+    4
+   ],
+   "N": 12,
+   "primes": [
+    409,
+    421,
+    433
+   ],
+   "hom": 192,
+   "loci": 16,
+   "t1_exceptions": 0,
+   "candidates": 256,
+   "firing": 72,
+   "rechecked": 72,
+   "differing": 0,
+   "deck_invariant_index": true,
+   "generation_shaped": 48,
+   "generation_shaped_lifted": 0,
+   "background_orbit_sizes": {
+    "3": 48
+   },
+   "background_signs": {
+    "-1": 24,
+    "1": 24
+   },
+   "background_max_abs": 1,
+   "nu^c with the generation's sign": 48,
+   "B1434": [
+    48,
+    0,
+    48
+   ],
+   "agrees with B1434": true,
+   "seconds": 1.5
+  },
+  "-LR": {
+   "H1_torsion": [
+    2,
+    10
+   ],
+   "N": 60,
+   "primes": [
+    421,
+    541,
+    601
+   ],
+   "hom": 1200,
+   "loci": 20,
+   "t1_exceptions": 0,
+   "candidates": 400,
+   "firing": 128,
+   "rechecked": 128,
+   "differing": 0,
+   "deck_invariant_index": true,
+   "generation_shaped": 96,
+   "generation_shaped_lifted": 0,
+   "background_orbit_sizes": {
+    "3": 96
+   },
+   "background_signs": {
+    "-1": 48,
+    "1": 48
+   },
+   "background_max_abs": 1,
+   "nu^c with the generation's sign": 0,
+   "B1434": [
+    96,
+    0,
+    0
+   ],
+   "agrees with B1434": true,
+   "seconds": 2.6
+  },
+  "+LLLR": {
+   "H1_torsion": [
+    6,
+    18
+   ],
+   "N": 36,
+   "primes": [
+    433,
+    541,
+    577
+   ],
+   "hom": 3888,
+   "loci": 108,
+   "t1_exceptions": 0,
+   "candidates": 11664,
+   "firing": 1572,
+   "rechecked": 1572,
+   "differing": 0,
+   "deck_invariant_index": true,
+   "generation_shaped": 72,
+   "generation_shaped_lifted": 0,
+   "background_orbit_sizes": {
+    "3": 72
+   },
+   "background_signs": {
+    "1": 36,
+    "-1": 36
+   },
+   "background_max_abs": 1,
+   "nu^c with the generation's sign": 24,
+   "B1434": [
+    72,
+    0,
+    24
+   ],
+   "agrees with B1434": true,
+   "seconds": 145.3
+  },
+  "-LLLR": {
+   "H1_torsion": [
+    4,
+    28
+   ],
+   "N": 84,
+   "primes": [
+    421,
+    673,
+    757
+   ],
+   "hom": 9408,
+   "loci": 112,
+   "t1_exceptions": 0,
+   "candidates": 12544,
+   "firing": 1416,
+   "rechecked": 1416,
+   "differing": 0,
+   "deck_invariant_index": true,
+   "generation_shaped": 48,
+   "generation_shaped_lifted": 0,
+   "background_orbit_sizes": {
+    "3": 48
+   },
+   "background_signs": {
+    "-1": 24,
+    "1": 24
+   },
+   "background_max_abs": 1,
+   "nu^c with the generation's sign": 48,
+   "B1434": [
+    48,
+    0,
+    48
+   ],
+   "agrees with B1434": true,
+   "seconds": 112.3
+  }
+ },
+ "all agree with B1434": true,
+ "every background in a deck orbit of three": true,
+ "every count one in absolute value": true,
+ "signs split equally": true
+}

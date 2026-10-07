@@ -90,6 +90,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | main's sign (B1482) | the − states need exactly the central −I, which "words in L, R and P never give"; positivity (GENESIS GM5d, CHOSEN) is what excludes it | main's GENESIS v1.14 | WEAVE |
 | main's Proposition 1 | every word state has a canonical cover with abs(2 − tr φ) ends; three ends exactly on L³R | main's GENESIS v1.23 | WEAVE |
 | main's room laws | T-COMPANION-NO-ROOM; T-ROOM-NEEDS-GENUS: room is zero at fibre genus one, so it needs a non-abelian cover of degree ≥ 3 | main's GENESIS v1.23 | WEAVE + WAVE |
+| **the slope law (new)** | for characters trivial on the cusp, each non-trivial one has a one-dimensional H¹ whose class has a slope on the cusp torus (its value on u⁻¹t over its value on [a, b], never zero). F-CI's doublet [[α, c_λ β], [0, β]] has index [s(α) = s(λ)] − [s(α − λ) = s(λ)], and 0 when λ, α or α − λ is trivial. Corollary: (λ, α) ↦ (−λ, α − λ) reverses the index, so main's B1434 P6 (signs split equally) is a theorem, and the sign is the extension's order | the weave dossier's W14 (proof: main's B1297 identity, H²(M; α) restricting isomorphically to the cusp, sm:B1509's T3; checked against sm:B1506's engine at every module on ±LR and ±LLLR, and on a sample of +LLRLRR's) | WEAVE + WAVE |
 | **the joined vacuum is empty (new)** | λ ⊗ ρ_hyp ⊗ ρ_Q, a thread's holonomy tensored with the common point, has no interior class: by Shapiro it is a summand of ρ_hyp on a finite cover, where restriction to the boundary is injective (Menal-Ferrer and Porti, 2012). So F-HE reads nothing there, though its puncture fixes a vector | the weave dossier's W12 (proof; checked at 50 digits on the 24 states to length 6) | WEAVE + WAVE |
 | **the spin vacuum's zero (new; after sm:B1552)** | at the weave's spin vacuum (any sum of twists λ ρ_Q of the common point) I(W₁) = 0 for every non-zero class: the puncture acts by −1, so A has no cusp cohomology, and the stable letter is κ times an element of a finite group, so it is semisimple. sm:B1509's T2 and T3 then give r₁ = 0. So F-HE's frame reads no generation and no anti-generation there | the weave dossier's W11 (proof, with sm:B1552's 864 sealed readings and a census of 758 states) | WEAVE + WAVE |
 
@@ -101,7 +102,13 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 - **The amphichiral − states.** To length 12, the − state is the one on which no spin structure survives the mirror
   (main's GENESIS v1.13).
 - **The founding field.** ℚ(√−3) occurs only on ±(LR)ᵏ, among 154 states to length 8 (B1385 T3).
-- **Orbits of three.** Ten of the twelve three-fold levels to length 6 carry orbits of three (main's B1434).
+- **Orbits of three.** Ten of the twelve three-fold levels to length 6 carry orbits of three (main's B1434). Its six
+  odd-trace rows (±LR, ±LLLR, ±LLLLLR) are verified on this seat's code (the weave dossier's W13 and W14).
+- **F-CI at the resolving tick, every odd-trace thread to length 6 (W14, by the slope law).**
+  - Ten of the twelve carry generation-shaped backgrounds, all in deck orbits of three. −LLLRLR also has sixteen
+    deck-fixed ones: its own level's (main's s639), pulled back.
+  - **±LLRLRR carry none.** So F-CI's content at the resolving tick is not a weave law.
+  - The parities never carry F-CI content: they form one slope class, closed under differences.
 - **The three-ended covers.** Ten states (sm:B1549).
 - **The forced A₄ cover.** The twelve odd-trace states to length 6 (W6). Members are only on ±LR, and generations only on
   +LR. The census is complete at orders 4 and 3.
@@ -260,9 +267,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
        one sign twin of every odd-trace word (W10);
      - that in F-HE's frame the spin vacuum carries no generation, on any thread at any tick (W11).
    - **Open:**
-     - content: not at the weave's vacua in F-HE's frame (W11, W12), so in F-HE it is a thread's. Open: another frame or
-       dictionary (GENESIS FK11). Main's F-CI finds deck orbits of three at tick 3 on every odd-trace thread in its
-       range (B1434), which with the deck kept (GENESIS FK7) is the record's closest weave-level three with content;
+     - content: not at the weave's vacua in F-HE's frame (W11, W12), so in F-HE it is a thread's. In F-CI it is ten
+       threads' of twelve at the resolving tick, not ±LLRLRR's (W14). So no frame on record makes it the weave's. Open:
+       another frame or dictionary (GENESIS FK11);
      - the deck kept (GENESIS FK7);
      - the hand (GENESIS FK4 and FK12; main's sign);
      - the masses;
@@ -323,7 +330,7 @@ Each line gives the cheapest test across the weave (other threads) and along the
   the session record.
 - **The new laws.** `docs/dossiers/the_weave_2026-10-07/the_weaves_laws.py` → `the_weaves_laws.json`; the spin vacuum's
   zero, `the_spin_zero.py` → `the_spin_zero.json` (W11); the joined vacuum, `the_joined_vacuum.py` →
-  `the_joined_vacuum.json` (W12).
+  `the_joined_vacuum.json` (W12); the slope law and F-CI's census, `the_slope_law.py` → `the_slope_law.json` (W14).
 - **The dossier.** `docs/dossiers/the_weave_2026-10-07/NOTE.md`.
 - **The synthesis.** `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - **The rule.** `docs/THE_WEAVE.md`.

@@ -1,0 +1,470 @@
+{
+ "(1) the slope law against sm:B1506's engine": [
+  {
+   "state": "+LR",
+   "candidates": 256,
+   "mismatches": 0,
+   "seconds": 1.4
+  },
+  {
+   "state": "-LR",
+   "candidates": 400,
+   "mismatches": 0,
+   "seconds": 1.8
+  },
+  {
+   "state": "+LLLR",
+   "candidates": 11664,
+   "mismatches": 0,
+   "seconds": 148.1
+  },
+  {
+   "state": "-LLLR",
+   "candidates": 12544,
+   "mismatches": 0,
+   "seconds": 109.8
+  }
+ ],
+ "(2) the census, every odd-trace state to length 6, tick 3": {
+  "+LR": {
+   "state": "+LR",
+   "tick": 3,
+   "|G|": 16,
+   "torsion": [
+    4,
+    4
+   ],
+   "N": 12,
+   "primes": [
+    20029,
+    20089,
+    20101
+   ],
+   "distinct slopes": 3,
+   "firing": 72,
+   "generation_shaped": 48,
+   "lifted": 0,
+   "nu^c with the generation's sign": 48,
+   "orbit sizes": {
+    "3": 48
+   },
+   "signs": {
+    "-1": 24,
+    "1": 24
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 0.1,
+   "B1434": [
+    48,
+    0,
+    48
+   ],
+   "agrees with B1434": true
+  },
+  "-LR": {
+   "state": "-LR",
+   "tick": 3,
+   "|G|": 20,
+   "torsion": [
+    2,
+    10
+   ],
+   "N": 60,
+   "primes": [
+    20101,
+    20161,
+    20341
+   ],
+   "distinct slopes": 5,
+   "firing": 128,
+   "generation_shaped": 96,
+   "lifted": 0,
+   "nu^c with the generation's sign": 0,
+   "orbit sizes": {
+    "3": 96
+   },
+   "signs": {
+    "-1": 48,
+    "1": 48
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 0.1,
+   "B1434": [
+    96,
+    0,
+    0
+   ],
+   "agrees with B1434": true
+  },
+  "+LLLR": {
+   "state": "+LLLR",
+   "tick": 3,
+   "|G|": 108,
+   "torsion": [
+    6,
+    18
+   ],
+   "N": 36,
+   "primes": [
+    20089,
+    20161,
+    20233
+   ],
+   "distinct slopes": 13,
+   "firing": 1572,
+   "generation_shaped": 72,
+   "lifted": 0,
+   "nu^c with the generation's sign": 24,
+   "orbit sizes": {
+    "3": 72
+   },
+   "signs": {
+    "-1": 36,
+    "1": 36
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 1.2,
+   "B1434": [
+    72,
+    0,
+    24
+   ],
+   "agrees with B1434": true
+  },
+  "-LLLR": {
+   "state": "-LLLR",
+   "tick": 3,
+   "|G|": 112,
+   "torsion": [
+    4,
+    28
+   ],
+   "N": 84,
+   "primes": [
+    20161,
+    20749,
+    21001
+   ],
+   "distinct slopes": 18,
+   "firing": 1416,
+   "generation_shaped": 48,
+   "lifted": 0,
+   "nu^c with the generation's sign": 48,
+   "orbit sizes": {
+    "3": 48
+   },
+   "signs": {
+    "-1": 24,
+    "1": 24
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 1.0,
+   "B1434": [
+    48,
+    0,
+    48
+   ],
+   "agrees with B1434": true
+  },
+  "+LLLLLR": {
+   "state": "+LLLLLR",
+   "tick": 3,
+   "|G|": 320,
+   "torsion": [
+    8,
+    40
+   ],
+   "N": 120,
+   "primes": [
+    20161,
+    20521,
+    20641
+   ],
+   "distinct slopes": 35,
+   "firing": 5912,
+   "generation_shaped": 720,
+   "lifted": 240,
+   "nu^c with the generation's sign": 48,
+   "orbit sizes": {
+    "3": 720
+   },
+   "signs": {
+    "-1": 360,
+    "1": 360
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 14.0,
+   "B1434": [
+    720,
+    240,
+    48
+   ],
+   "agrees with B1434": true
+  },
+  "-LLLLLR": {
+   "state": "-LLLLLR",
+   "tick": 3,
+   "|G|": 324,
+   "torsion": [
+    6,
+    54
+   ],
+   "N": 108,
+   "primes": [
+    20089,
+    20521,
+    21061
+   ],
+   "distinct slopes": 41,
+   "firing": 5052,
+   "generation_shaped": 360,
+   "lifted": 0,
+   "nu^c with the generation's sign": 96,
+   "orbit sizes": {
+    "3": 360
+   },
+   "signs": {
+    "-1": 180,
+    "1": 180
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 5.3,
+   "B1434": [
+    360,
+    0,
+    96
+   ],
+   "agrees with B1434": true
+  },
+  "+LLLRLR": {
+   "state": "+LLLRLR",
+   "tick": 3,
+   "|G|": 2156,
+   "torsion": [
+    14,
+    154
+   ],
+   "N": 924,
+   "primes": [
+    25873,
+    29569,
+    30493
+   ],
+   "distinct slopes": 217,
+   "firing": 42488,
+   "generation_shaped": 144,
+   "lifted": 72,
+   "nu^c with the generation's sign": 0,
+   "orbit sizes": {
+    "3": 144
+   },
+   "signs": {
+    "-1": 72,
+    "1": 72
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 276.4
+  },
+  "-LLLRLR": {
+   "state": "-LLLRLR",
+   "tick": 3,
+   "|G|": 2160,
+   "torsion": [
+    12,
+    180
+   ],
+   "N": 180,
+   "primes": [
+    20161,
+    20341,
+    20521
+   ],
+   "distinct slopes": 198,
+   "firing": 45156,
+   "generation_shaped": 2776,
+   "lifted": 1216,
+   "nu^c with the generation's sign": 1744,
+   "orbit sizes": {
+    "1": 16,
+    "3": 2760
+   },
+   "signs": {
+    "-1": 1388,
+    "1": 1388
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 228.6
+  },
+  "+LLLRRR": {
+   "state": "+LLLRRR",
+   "tick": 3,
+   "|G|": 1296,
+   "torsion": [
+    36,
+    36
+   ],
+   "N": 36,
+   "primes": [
+    20089,
+    20161,
+    20233
+   ],
+   "distinct slopes": 115,
+   "firing": 29176,
+   "generation_shaped": 1584,
+   "lifted": 288,
+   "nu^c with the generation's sign": 1296,
+   "orbit sizes": {
+    "3": 1584
+   },
+   "signs": {
+    "-1": 792,
+    "1": 792
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 67,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 105.0
+  },
+  "-LLLRRR": {
+   "state": "-LLLRRR",
+   "tick": 3,
+   "|G|": 1300,
+   "torsion": [
+    10,
+    130
+   ],
+   "N": 780,
+   "primes": [
+    21061,
+    21841,
+    22621
+   ],
+   "distinct slopes": 139,
+   "firing": 25152,
+   "generation_shaped": 720,
+   "lifted": 408,
+   "nu^c with the generation's sign": 0,
+   "orbit sizes": {
+    "3": 720
+   },
+   "signs": {
+    "-1": 360,
+    "1": 360
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 100.8
+  },
+  "+LLRLRR": {
+   "state": "+LLRLRR",
+   "tick": 3,
+   "|G|": 3328,
+   "torsion": [
+    16,
+    208
+   ],
+   "N": 624,
+   "primes": [
+    20593,
+    21841,
+    24337
+   ],
+   "distinct slopes": 553,
+   "firing": 32352,
+   "generation_shaped": 0,
+   "lifted": 0,
+   "nu^c with the generation's sign": 0,
+   "orbit sizes": {},
+   "signs": {},
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 15,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 477.2
+  },
+  "-LLRLRR": {
+   "state": "-LLRLRR",
+   "tick": 3,
+   "|G|": 3332,
+   "torsion": [
+    14,
+    238
+   ],
+   "N": 1428,
+   "primes": [
+    29989,
+    34273,
+    38557
+   ],
+   "distinct slopes": 555,
+   "firing": 33176,
+   "generation_shaped": 0,
+   "lifted": 0,
+   "nu^c with the generation's sign": 0,
+   "orbit sizes": {},
+   "signs": {},
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 322.8
+  }
+ },
+ "the law held at every candidate": true,
+ "every state carries generation-shaped backgrounds": false,
+ "every in-range row agrees with B1434": true,
+ "(3) every class paired with its opposite": true,
+ "(4) the parities: one slope class of exactly three, and no firing module on a parity": false
+}

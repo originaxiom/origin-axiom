@@ -1,5 +1,31 @@
 # Changelog
 
+## The weave's W13 and W14: main's B1434 verified, the slope law for F-CI's index, and F-CI's census on every odd-trace thread to length 6 — ten carry one-generation backgrounds in threes at the resolving tick, ±LLRLRR carry none
+
+- **W13 (VERIFIED).** sm:B1506's census engine, carried from m004's tower to any state's mapping torus, reproduces
+  main's B1434 at the three-fold level on ±LR and ±LLLR row by row. W14 reproduces all six of its odd-trace rows.
+- **W14, the slope law (PROVED).**
+  - Each non-trivial character trivial on the cusp has a one-dimensional H¹ whose class has a slope on the cusp torus.
+  - F-CI's doublet index is [s(α) = s(λ)] − [s(α − λ) = s(λ)], and 0 when λ, α or α − λ is trivial.
+  - The proof uses main's B1297 identity, the isomorphism of H²(M; α) with the cusp's H², and sm:B1509's T3.
+  - Checked against the engine at every module on ±LR and ±LLLR, and on 300 sampled modules of +LLRLRR.
+  - **Corollary:** each background pairs with one of opposite sign (the extension's order). So main's P6 is a theorem.
+- **W14, the census.** The law makes a level cost one cocycle per character, so all twelve odd-trace states to length 6
+  were read at tick 3.
+  - Ten carry generation-shaped backgrounds, all in deck orbits of three. −LLLRLR also has sixteen deck-fixed ones,
+    main's s639 own-level backgrounds pulled back.
+  - **±LLRLRR carry none.**
+  - The parities never carry F-CI content: they form one slope class, closed under differences.
+- **What it means.**
+  - In F-CI, too, a generation's content is not a weave law: ten threads' of twelve.
+  - With W11 and W12 (F-HE), no frame on record makes the content the weave's; the three is. The open step is the frame
+    (GENESIS FK11).
+  - The slope classes are unions of the orbits of the deck and χ ↦ −χ. The tick-3 group has order |t − 2|(t + 1)², with
+    the deck acting as an Eisenstein cube root of unity on its (t + 1)-part. So which threads carry content is a question
+    about the arithmetic of the trace (a READING, and the route to a theorem).
+- **Also.** The joined-vacuum and W13 records; the relay's §8; the synthesis §4a and the laws page updated; a
+  relay-ledger row for main's B1603 seal.
+
 ## The weave's W12: the joined vacuum has no interior class, so in F-HE a generation's content is a thread's; the hatch named in THE CHIRAL TRIPLET'S COUNT withdrawn
 
 - **The module.** λ ⊗ ρ_hyp ⊗ ρ_Q: a thread's holonomy tensored with the weave's common point. The relay of the same

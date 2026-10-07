@@ -128,6 +128,41 @@ So this section records which patterns the weave's group contains, and nothing m
 - **What is claimed:** the three, its alikeness and its flavour group are the weave's, and on the one thread the census
   finds carrying content, every parity carries a generation.
 
+### 4a. The chain through the gauge frame (F-MC) and the class-index frame (F-CI)
+
+Steps 9 and 9′ close F-HE at the weave's vacua. This is the record's other chain to three generations with the three
+taken from the weave. Every link is named with its status.
+
+| link | status | what |
+|---|---|---|
+| a | PROVED (W3); main's B1601 (cited) | every odd-trace thread maps onto 2T through the common point, and that map is its own geometry mod a prime of norm three |
+| b | THEOREM, with its hypotheses counted (F-MC; `docs/THE_CLAIM.md` §1) | McKay sends 2T to E₆, and the cascade ends at the Standard Model's gauge algebra. So the E₆ of main's E₆/27 frame, which F-CI uses, is handed over by the weave on every odd-trace thread, not by the root alone |
+| c | COMPUTED, every odd-trace state to length 6 (W14, by the slope law, PROVED); main's B1434 rows VERIFIED (W13, W14) | at the weave's resolving tick, F-CI's generation-shaped backgrounds come in deck orbits of three on ten of the twelve odd-trace threads to length 6 (−LLLRLR also has sixteen deck-fixed ones, its own level's). Each counts one generation in all five charged sectors. **±LLRLRR carry none.** The parities themselves never carry any |
+| d | OPEN (GENESIS FK7; B1384's fence) | an orbit's three backgrounds are three vacua. Reading them as three generations needs the deck kept, and the three realised together. GENESIS lists "All legal states are physically realised together" as NOT DERIVED, and the weave rule, read as a principle, speaks of threads, not of a thread's vacua |
+| e | PROVED (the slope law's corollary); OPEN beyond length 6 | the hand: every background pairs with one of opposite sign, the extension's order (main's P6, now a theorem), so a vacuum's choice fixes it. The census beyond length 6 is open |
+| f | UNEARNED (GENESIS FK11, I-26) | that F-CI's index counts physical generations |
+
+**What the chain gives, and what it does not.**
+- **Gives:**
+  - the three, from the weave (W1, the trichotomy, Theorem S);
+  - the gauge type, from the weave (links a and b);
+  - one generation per background, in deck orbits of three at the weave's resolving tick, on every odd-trace thread in
+    range (link c).
+- **Does not give:**
+  - that an orbit's three vacua are three generations of one world (link d);
+  - completeness beyond range, and the hand (link e);
+  - the dictionary (link f).
+- **Link c fails as a weave law.** With ±LLRLRR empty, F-CI's content at the resolving tick is most threads', not
+  every thread's. By the owner's rule the chain therefore does not give the weave's answer, even with links d and f
+  ruled.
+- **What the record now shows.** The three is the weave's on every thread. In neither frame on record is a generation's
+  content the weave's:
+  - F-HE reads none at the weave's own vacua (W11, W12);
+  - F-CI reads it on most odd-trace threads at the resolving tick, but not on all (W14).
+- **The open step is the frame (GENESIS FK11).** The slope law shows what decides F-CI's count: one slope per character,
+  and through the deck's Eisenstein action, the arithmetic of the trace. A frame whose count is the weave's would have to
+  see the three on every thread.
+
 ## 5. Sources (this seat's literature pass, 2026-10-07; read in full by the seat)
 
 **Data.**

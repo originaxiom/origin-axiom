@@ -470,6 +470,103 @@ So F-HE, which extends by an interior class, reads nothing there.
   kept (GENESIS FK7), an orbit's deck-invariant sum counts three. That is the record's closest approach to three alike
   generations from the weave, and it needs F-CI's dictionary (UNEARNED) and FK7.
 
+## W13. Main's F-CI orbits of three, read with this seat's code (`the_class_index_orbits.py`)
+
+**What is read.** Main's B1434 carries the E₆/27 frame (F-CI) to every signed state to length six. At the three-fold
+level it finds generation-shaped backgrounds in deck orbits of three. Its six odd-trace rows in range are ±LR, ±LLLR and
+±LLLLLR.
+
+**The engine.**
+- It is sm:B1506's census, built on sm:B1374's index library, carried from m004's tower to any state's mapping torus in
+  the weave's marking: ⟨a, b, t ∣ t x t⁻¹ = φⁿ(x)⟩, with peripheral pair (u⁻¹t, [a, b]) and deck x ↦ φ(x).
+- The rest is unchanged: the loci, every candidate module, the index at three primes, the generation-shaped backgrounds,
+  their lifts and deck orbits.
+
+**The result (VERIFIED).** On the engine route the four rows ±LR and ±LLLR agree with B1434 exactly: the backgrounds, those that lift, and those with ν^c of the generation's sign. Every background sits in a deck orbit of three, every count is one in absolute value, the signs split equally, and no firing module differs at another prime. W14's slope-law route reads all six rows, ±LLLLLR included, and agrees with every one.
+
+| state | backgrounds | lift | with ν^c | + : − | seconds |
+|---|---|---|---|---|---|
+| +LR | 48 | 0 | 48 | 24 : 24 | 1.5 |
+| -LR | 96 | 0 | 0 | 48 : 48 | 2.6 |
+| +LLLR | 72 | 0 | 24 | 36 : 36 | 145.3 |
+| -LLLR | 48 | 0 | 48 | 24 : 24 | 112.3 |
+
+
+**What it means for the weave.**
+- At the weave's resolving tick, on every odd-trace thread in range, F-CI's generation-shaped backgrounds come in threes
+  cycled by the deck, and each counts one generation in all five charged sectors.
+- The three is the trichotomy's 3-cycle at tick 3. The content per background is F-CI's.
+- This is link c of the chain in the synthesis (`docs/THREE_GENERATIONS_AND_THE_WEAVE.md` §4a).
+
+**Not shown.**
+- **The six longer odd-trace threads** (±LLLRLR, ±LLLRRR, ±LLRLRR; tick-3 torsion 1 296 to 3 332). On this engine they
+  would cost about a day each: the square of the torsion times the relator's length. W14's slope law reaches them in
+  minutes.
+- **That an orbit's three vacua are three generations of one world** (GENESIS FK7; B1384's fence).
+- **F-CI's dictionary** (GENESIS FK11).
+
+## W14. The slope law for F-CI's index, and F-CI's census on every odd-trace thread to length 6 (`the_slope_law.py`)
+
+**The slope law (PROVED; checked against sm:B1506's engine at every candidate module on ±LR and ±LLLR).**
+- **Slopes.** Each non-trivial character χ trivial on the cusp has a one-dimensional H¹. Its class takes a non-zero value
+  on the fibre's boundary [a, b]. Its slope s(χ) is its value on u⁻¹t divided by its value on [a, b].
+- **The index.** F-CI's doublet [[α, c_λ β], [0, β]] (β = α − λ) has class index
+  [s(α) = s(λ)] − [s(β) = s(λ)], and 0 when λ, α or β is trivial.
+- **The proof.**
+  - main's B1297 identity;
+  - restriction of H²(M; α) to the cusp is an isomorphism, so a cup product of two classes vanishes exactly when their
+    slopes agree;
+  - sm:B1509's T3 for the degenerate cases.
+- **Corollary: the signs.** (λ, α) ↦ (−λ, α − λ) reverses the index. So every background pairs with one of opposite
+  sign, and main's B1434 P6 (signs split equally on every level) is a theorem.
+  - The pair differ in the order of the extension: which character is the sub and which the quotient. That is main's
+    "the count is the order" (B1466, B1486, B1499), here exact in F-CI.
+
+**The census (COMPUTED; all twelve odd-trace states of GENESIS to length 6, at tick 3).**
+
+| state | order of G | slopes | backgrounds | lift | deck orbits | + : − | B1434 |
+|---|---|---|---|---|---|---|---|
+| +LR | 16 | 3 | 48 | 0 | 48 in orbits of 3 | 24 : 24 | yes |
+| −LR | 20 | 5 | 96 | 0 | 96 in orbits of 3 | 48 : 48 | yes |
+| +LLLR | 108 | 13 | 72 | 0 | 72 in orbits of 3 | 36 : 36 | yes |
+| −LLLR | 112 | 18 | 48 | 0 | 48 in orbits of 3 | 24 : 24 | yes |
+| +LLLLLR | 320 | 35 | 720 | 240 | 720 in orbits of 3 | 360 : 360 | yes |
+| −LLLLLR | 324 | 41 | 360 | 0 | 360 in orbits of 3 | 180 : 180 | yes |
+| +LLLRLR | 2156 | 217 | 144 | 72 | 144 in orbits of 3 | 72 : 72 | — |
+| −LLLRLR | 2160 | 198 | 2776 | 1216 | 16 in orbits of 1, 2760 in orbits of 3 | 1388 : 1388 | — |
+| +LLLRRR | 1296 | 115 | 1584 | 288 | 1584 in orbits of 3 | 792 : 792 | — |
+| −LLLRRR | 1300 | 139 | 720 | 408 | 720 in orbits of 3 | 360 : 360 | — |
+| +LLRLRR | 3328 | 553 | 0 | 0 | none | — | — |
+| −LLRLRR | 3332 | 555 | 0 | 0 | none | — | — |
+
+The law against the engine: +LR: 256 modules, 0 mismatches; −LR: 400 modules, 0 mismatches; +LLLR: 11664 modules, 0 mismatches; −LLLR: 12544 modules, 0 mismatches.
+
+**What it means.**
+- **The law makes the census cheap.** A level costs one cocycle per character. Main's range limit (torsion 330) is gone.
+- **F-CI's content at the weave's resolving tick is common but not universal.**
+  - Ten of the twelve odd-trace threads to length 6 carry generation-shaped backgrounds.
+  - All of them sit in deck orbits of three, except −LLLRLR's sixteen deck-fixed ones. Those are main's own-level
+    backgrounds of s639 (B1434's P3), pulled back.
+  - **±LLRLRR carry none:** both signs of one word, the two longest traces (±15). +LLRLRR's tick-3 group has 3 328
+    characters in 553 slope classes, and −LLRLRR's has 3 332. The slope law was checked against the engine on a sample
+    of +LLRLRR's modules (all 300 agree, 60 firing; `the_slope_law_sample.json`).
+- **So in F-CI, too, a generation's content is not a weave law.** The three is the weave's; the content is ten
+  threads' of twelve, not every thread's. By the owner's rule this is not the weave's answer.
+- **The parities never serve as an extension character that fires,** on all twelve (check (4)). On ten their slope class
+  is exactly the three, which is closed under differences, and that proves it. On +LLLRRR and +LLRLRR the class is
+  larger (67 and 15), and the zero is observed. The content sits on characters of higher order, in threes cycled by the
+  same deck.
+- **What decides content (READING, with a route to a theorem).**
+  - The slope classes are unions of orbits of the deck together with χ ↦ −χ (checked on the six in-range threads). On
+    ±LR they are exactly those orbits; elsewhere further coincidences merge orbits.
+  - The tick-3 group has order |t − 2|·(t + 1)², with t the trace. On its (t + 1)-part the deck acts as an Eisenstein
+    cube root of unity.
+  - So when the classes are the orbits, the five sectors' conditions become kernels of small Eisenstein integers on
+    ℤ[ω]/(t + 1). Whether a thread carries content is then a question about the arithmetic of its trace.
+  - +LLRLRR (t + 1 = 16; 553 slope classes against 559 orbits, and −LLRLRR likewise near its 561) is nearly the case
+    where the forced orbits alone decide, and they give nothing. +LLLRRR, with 115 classes against 219 orbits, carries
+    1 584.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -487,6 +584,8 @@ So F-HE, which extends by an interior class, reads nothing there.
 | W10 | COMPUTED (WEAVE) | V, the three parity-twisted spin doublets: under L and R a group of order 96 with V = T ⊕ T̄, two complex-conjugate triplets (a chiral three); the swap exchanges them (order 192). On exactly one sign twin of every odd-trace word, one vacuum character at tick 3 carries T alone (m003, not m004, of the root's pair) |
 | W11 | NEGATIVE (sm:B1552, sealed); PROVED (WEAVE + WAVE) | F-HE's count at the weave's spin vacuum: (0, 0) at all 864 sealed readings, and zero at every class on every thread at every tick (sm:B1509's T2 and T3: no cusp cohomology, a semisimple stable letter). The spin vacuum carries the three but no content in this frame |
 | W12 | PROVED (WEAVE + WAVE); COMPUTED | the joined vacuum λ ⊗ ρ_hyp ⊗ ρ_Q has no interior class on any state at any tick (Menal-Ferrer–Porti through Shapiro): F-HE reads nothing there. In F-HE a generation's content is a thread's (the balanced four's cuspidal classes on covers) |
+| W13 | VERIFIED (main's B1434: four odd-trace rows on the engine route, all six through W14) | F-CI's generation-shaped backgrounds at the resolving tick come in deck orbits of three, each counting one, on ±LR, ±LLLR and ±LLLLLR; this seat's code agrees with B1434 row by row |
+| W14 | PROVED (the slope law); COMPUTED (the census) | F-CI's index is [s(α) = s(λ)] − [s(α − λ) = s(λ)] (slopes on the cusp torus), and its signs pair (the extension's order). At the resolving tick, ten of the twelve odd-trace threads to length 6 carry one-generation backgrounds in deck orbits of three; ±LLRLRR carry none. So F-CI's content is not a weave law; the three is |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -517,6 +616,9 @@ So F-HE, which extends by an interior class, reads nothing there.
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
 - `draft_chiral_counts/DESIGN_FOR_REVIEW.md`: the design sent to main. It was sealed as sm:B1552 on the owner's ruling,
   ahead of main's review (W11).
+- `the_slope_law.py` → `the_slope_law.json`: W14, the slope law against the engine and F-CI's census on every odd-trace
+  state to length 6; `the_slope_law_sample.py` → `the_slope_law_sample.json`: the law on 300 of +LLRLRR's modules.
+- `the_class_index_orbits.py` → `the_class_index_orbits.json`: W13, main's B1434 odd-trace rows on this seat's engine.
 - `the_joined_vacuum.py` → `the_joined_vacuum.json`: W12, the joined vacuum's structure on the 24 states to length 6
   (50 digits).
 - `the_spin_zero.py` → `the_spin_zero.json`: W11. sm:B1509's T2 checked on sm:B1552's record, and T3's hypothesis on
