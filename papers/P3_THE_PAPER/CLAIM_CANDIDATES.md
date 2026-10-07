@@ -552,6 +552,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1483` | PROVED | L | | THE END OF THE FRAME SPACE: at a cusp the frame space of a spin structure s is a principal bundle with fibre the elliptic curve C / ker(sigma_s); on a - state … |
 | `B1487` | PROVED | L | | THE ENDS: the class index is mirror-even for every module; the odd modules of the lift are acyclic on every word state; no state of the generated family carries three … |
 | `B1494` | PROVED | L | | NO ROOM ON ANY COMPANION: every fixed-point companion of a word state has b1 = |T| = ends, so the trivial line has no interior class (T-COMPANION-NO-ROOM; hypothesis verified on 758 states, 265 companions built); m135's companion has room 2 at eight sign characters trivial on no end, where the floor gives zero; the two supplies of a count are separated on the family and meet on N45 … |
+| `B1497` | PROVED | L | | ROOM NEEDS GENUS: the room of the trivial line on any cover of a word state is bounded by the lifted act's invariant homology of the closed fibre (zero at genus one), so it needs a non-abelian cover of the register; m004 has none to degree eight, m003 one at degree five (o10_150691), where every count is still one … |
 
 ## The exhibit that forced the rebuild
 

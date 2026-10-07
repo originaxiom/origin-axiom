@@ -1,0 +1,25 @@
+1 base 1 fibre deg 1 punct 1 genus 1 cusps 1 H1 Z/3 + Z room 0
+2 base 2 fibre deg 1 punct 1 genus 1 cusps 1 H1 Z/21 + Z room 0
+3 base 3 fibre deg 1 punct 1 genus 1 cusps 1 H1 Z/6 + Z/18 + Z room 0
+3 base 1 fibre deg 3 punct 3 genus 1 cusps 1 H1 Z/3 + Z/3 + Z room 0
+3 base 1 fibre deg 3 punct 3 genus 1 cusps 3 H1 Z + Z + Z room 0
+3 base 1 fibre deg 3 punct 3 genus 1 cusps 1 H1 Z/3 + Z/3 + Z room 0
+4 base 4 fibre deg 1 punct 1 genus 1 cusps 1 H1 Z/5 + Z/105 + Z room 0
+4 base 1 fibre deg 4 punct 2 genus 2 cusps 2 H1 Z/3 + Z + Z room 0
+4 base 1 fibre deg 4 punct 4 genus 1 cusps 2 H1 Z/3 + Z + Z room 0
+5 base 5 fibre deg 1 punct 1 genus 1 cusps 1 H1 Z/29 + Z/87 + Z room 0
+5 base 1 fibre deg 5 punct 5 genus 1 cusps 2 H1 Z/3 + Z + Z room 0
+5 base 1 fibre deg 5 punct 5 genus 1 cusps 2 H1 Z/3 + Z + Z room 0
+6 base 1 fibre deg 6 punct 2 genus 3 cusps 2 H1 Z/9 + Z + Z room 0
+6 base 1 fibre deg 6 punct 2 genus 3 cusps 2 H1 Z/9 + Z + Z room 0
+6 base 6 fibre deg 1 punct 1 genus 1 cusps 1 H1 Z/24 + Z/504 + Z room 0
+6 base 3 fibre deg 2 punct 2 genus 1 cusps 2 H1 Z/3 + Z/18 + Z + Z room 0
+6 base 3 fibre deg 2 punct 2 genus 1 cusps 1 H1 Z/2 + Z/6 + Z/18 + Z room 0
+6 base 1 fibre deg 6 punct 4 genus 2 cusps 3 H1 Z + Z + Z room 0
+6 base 1 fibre deg 6 punct 4 genus 2 cusps 4 H1 Z + Z + Z + Z room 0
+6 base 2 fibre deg 3 punct 3 genus 1 cusps 1 H1 Z/3 + Z/21 + Z room 0
+6 base 2 fibre deg 3 punct 3 genus 1 cusps 3 H1 Z/7 + Z + Z + Z room 0
+6 base 2 fibre deg 3 punct 3 genus 1 cusps 1 H1 Z/3 + Z/21 + Z room 0
+covers: 22 room>0: [] genus>=2: 5
+room > 0 ==> genus >= 2: True ; genus >= 2 ==> room > 0: False
+DONE

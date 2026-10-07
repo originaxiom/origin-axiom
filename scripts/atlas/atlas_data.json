@@ -10367,11 +10367,36 @@
     "z3_generation"
    ],
    "refs": [
-    "B486"
+    "B280",
+    "B298",
+    "B486",
+    "B956"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1497": {
+   "slug": "room needs genus",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B287",
+    "B298",
+    "B350",
+    "B486",
+    "B995"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B149": {
