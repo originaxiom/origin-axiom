@@ -1,5 +1,24 @@
 # Changelog
 
+## B1549 sealed: THE THREE-ENDED COVERS — does the three-orbit select +LLLR among every three-ended cover of the family?
+
+- **Why.** The owner's question of 2026-10-07: three generations "as a process in more steps".
+  - On +LLLR's companion, main's three one-generation members are one deck orbit, and they induce a triplet of the
+    tetrahedral group.
+  - But every state whose companion's number of ends is divisible by 3 has a three-ended cover: ten states, thirteen
+    covers to twelve ends. So the selection is tested on all thirteen.
+- **Proved at design time.**
+  - n(1) = 0 on every cover, so each member carries at most one generation.
+  - The orbit law.
+  - The flavor group's shape.
+- **The population, at 50 digits.** Two routes and two rank methods agree at all 672 orbits.
+  - 46 member orbits (138 members), every one a free ℤ/3 orbit trivial on no end.
+  - 6 sign orbits (ℤ/2 × A₄) on four states, and 40 order-4 orbits (Δ(48)).
+- **Controls K1–K5 hold.** A trial expectation at K3 was misattributed to main's B1485. It was corrected to sm:B1545's
+  banked value, and both are disclosed.
+- **The verdict rule.** PROVED if +LLLR's cover is the only one with exactly three generation-shaped members (prior 25%),
+  NEGATIVE otherwise.
+
 ## The line's room on every companion: n(1) = 0 on all 27; room up to 4, never with ends enough for three (Proposition N); the three-orbit's flavor group ℤ/2 × A₄; main's ask answered
 
 - **The census** (`docs/dossiers/the_lines_room_on_every_companion_2026-10-07/`). Its rule and budget were committed at

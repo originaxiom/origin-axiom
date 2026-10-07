@@ -17875,3 +17875,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Main's ask answered: m136's companion has room 0. m135's has room 2 at eight characters, against main's sealed B1494 R2.
 - Main's three members on +LLLR's companion induce one triplet of the tetrahedral group A₄ (with ℤ/2) on +LLLR itself.
 - Next: sm:B1549, the counts at every member and their orbits, sealed before any count.
+
+## 2026-10-07 — B1549 sealed: the three-ended covers
+
+- Every state with 3 dividing its companion's ends has a three-ended cover: thirteen covers to twelve ends.
+- On them, 46 member orbits sit in free ℤ/3 orbits: six sign orbits inducing ℤ/2 × A₄ triplets, forty order-4 orbits
+  inducing Δ(48).
+- The seal asks whether +LLLR's is the only cover with exactly three generation-shaped members. Counts are read only after
+  the seal.

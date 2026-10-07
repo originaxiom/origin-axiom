@@ -1,0 +1,732 @@
+{
+ "K1": {
+  "orbits re-read": 72,
+  "member orbits among them": 46,
+  "disagreements": [],
+  "holds": true
+ },
+ "K2": [
+  {
+   "state": "+LLLR",
+   "lattice": [
+    1,
+    0,
+    3
+   ],
+   "wbar": 0,
+   "character": [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "B1492: a sign member of L8a15",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.06135893374009455,
+      0.0
+     ],
+     [
+      0.0002677164173067726,
+      2.3616893132155893e-50
+     ],
+     [
+      0.0005753689456461551,
+      9.741422401820813e-53
+     ],
+     [
+      0.00045200870486732954,
+      6.336553306489718e-50
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 2.8
+  },
+  {
+   "state": "+LLLR",
+   "lattice": [
+    1,
+    0,
+    3
+   ],
+   "wbar": 0,
+   "character": [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "B1492: a sign member of L8a15",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.0787695227003001,
+      5.080155016313825e-52
+     ],
+     [
+      0.0006765789127665923,
+      2.474921905807658e-50
+     ],
+     [
+      0.10531577713923312,
+      4.1202602175458215e-52
+     ],
+     [
+      0.018924840758347557,
+      8.079189585689606e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 6.4
+  },
+  {
+   "state": "+LLLR",
+   "lattice": [
+    1,
+    0,
+    3
+   ],
+   "wbar": 0,
+   "character": [
+    0,
+    3,
+    0,
+    1,
+    0
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    0
+   ],
+   "source": "B1493: the order-4 member (1, 1, i)",
+   "got": [
+    -1,
+    0
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.06550333927545733,
+      2.7739775279347983e-53
+     ],
+     [
+      0.00016529416517880587,
+      1.0100465050787352e-50
+     ],
+     [
+      0.0008656233305397411,
+      9.741422401820813e-53
+     ],
+     [
+      0.0008656233305397411,
+      1.0578994254271984e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 2.9
+  },
+  {
+   "state": "+LLLR",
+   "lattice": [
+    1,
+    0,
+    3
+   ],
+   "wbar": 0,
+   "character": [
+    0,
+    3,
+    0,
+    1,
+    0
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    0
+   ],
+   "source": "B1493: the order-4 member (1, 1, i)",
+   "got": [
+    -1,
+    0
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.09937105924787612,
+      1.7961060307571808e-52
+     ],
+     [
+      0.0003166379560914496,
+      9.474021328803071e-51
+     ],
+     [
+      0.09946793453393073,
+      2.5751626359661384e-53
+     ],
+     [
+      0.03248563381901878,
+      9.010226399098924e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 7.8
+  },
+  {
+   "state": "-LR",
+   "lattice": [
+    5,
+    2,
+    1
+   ],
+   "wbar": 4,
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "B1492: o10_150729, a member trivial on 1 end(s)",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 2,
+    "r1": 1,
+    "n": 1,
+    "gaps": [
+     [
+      0.16163755427388748,
+      1.6103286486874806e-52
+     ],
+     [
+      0.0012742330904721203,
+      2.138600099100038e-50
+     ],
+     [
+      0.0021518547498781157,
+      6.575508648807212e-52
+     ],
+     [
+      0.0021186466996880103,
+      9.182506903479105e-50
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 14.1
+  },
+  {
+   "state": "-LR",
+   "lattice": [
+    5,
+    2,
+    1
+   ],
+   "wbar": 4,
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "B1492: o10_150729, a member trivial on 1 end(s)",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 2,
+    "r1": 1,
+    "n": 1,
+    "gaps": [
+     [
+      0.26033235717245284,
+      0.0
+     ],
+     [
+      0.004790965172834759,
+      2.782513710877909e-50
+     ],
+     [
+      0.134957497411842,
+      1.3308013073629248e-51
+     ],
+     [
+      0.050742382868740776,
+      1.7160294386221846e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 41.1
+  },
+  {
+   "state": "-LR",
+   "lattice": [
+    5,
+    2,
+    1
+   ],
+   "wbar": 4,
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "B1492: o10_150729, a member trivial on 2 end(s)",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 3,
+    "r1": 2,
+    "n": 1,
+    "gaps": [
+     [
+      0.15540513263317696,
+      1.6103286486874806e-52
+     ],
+     [
+      0.0021328187165504304,
+      1.1575243617846696e-49
+     ],
+     [
+      0.0022420705644279997,
+      1.657296567607532e-51
+     ],
+     [
+      0.00030097159776634416,
+      4.664139100801579e-50
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 12.8
+  },
+  {
+   "state": "-LR",
+   "lattice": [
+    5,
+    2,
+    1
+   ],
+   "wbar": 4,
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "B1492: o10_150729, a member trivial on 2 end(s)",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 3,
+    "r1": 2,
+    "n": 1,
+    "gaps": [
+     [
+      0.26033235717245284,
+      9.117729782049894e-52
+     ],
+     [
+      0.0035399495985279626,
+      3.1139730243994156e-50
+     ],
+     [
+      0.134957497411842,
+      1.3308013073629248e-51
+     ],
+     [
+      0.021807066852870486,
+      1.5961949798207322e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 40.7
+  }
+ ],
+ "K3": [
+  {
+   "state": "+LLRR",
+   "lattice": [
+    2,
+    0,
+    2
+   ],
+   "wbar": 0,
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    null
+   ],
+   "source": "sm:B1545 banked I(W1) = -1 on m136's companion at the fibre sign (the Lambda^2 component is not banked there: main's B1485 (-1, -1) is on m136 itself, one end)",
+   "got": [
+    -1,
+    -2
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 2,
+    "r1": 0,
+    "n": 2,
+    "gaps": [
+     [
+      0.2122204530296233,
+      4.444630561009016e-52
+     ],
+     [
+      0.000644227221655993,
+      1.4870052048249973e-49
+     ],
+     [
+      0.0021621580658728622,
+      5.55578820126127e-53
+     ],
+     [
+      0.00041490646424869357,
+      1.5240667718054603e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 10.9
+  },
+  {
+   "state": "+LLRR",
+   "lattice": [
+    2,
+    0,
+    2
+   ],
+   "wbar": 0,
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    null
+   ],
+   "source": "sm:B1545 banked I(W1) = -1 on m136's companion at the fibre sign (the Lambda^2 component is not banked there: main's B1485 (-1, -1) is on m136 itself, one end)",
+   "got": [
+    -1,
+    -2
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 2,
+    "r1": 0,
+    "n": 2,
+    "gaps": [
+     [
+      0.2533760372645231,
+      7.520919252670526e-52
+     ],
+     [
+      0.0015230513303020748,
+      4.150792301482227e-51
+     ],
+     [
+      0.3871454149851301,
+      0.0
+     ],
+     [
+      0.3871454149851301,
+      1.901080458702925e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 22.2
+  }
+ ],
+ "K4": {
+  "cases": {
+   "all good, +LLLR alone: PROVED": true,
+   "draws disagree: P5 false, OPEN": true,
+   "a second cover with three: NEGATIVE": true,
+   "a missing task: incomplete, OPEN": true,
+   "a duplicated task: incomplete, OPEN": true,
+   "routes disagree on structure: P2 false, OPEN": true,
+   "below the cap: P4 false, OPEN": true,
+   "a control failed: P1 false, OPEN": true,
+   "a murky gap: P4 false, OPEN": true
+  },
+  "holds": true
+ },
+ "K5": {
+  "covers": [
+   {
+    "state": "-LLR",
+    "lattice": [
+     3,
+     1,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLRLR",
+    "lattice": [
+     3,
+     0,
+     1
+    ],
+    "wbar": 1,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLLLLR",
+    "lattice": [
+     3,
+     1,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLLLRR",
+    "lattice": [
+     3,
+     2,
+     1
+    ],
+    "wbar": 2,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     3,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     3,
+     1,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     3,
+     2,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLLLLR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLLRRR",
+    "lattice": [
+     3,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLLLLRR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   }
+  ],
+  "holds": true
+ },
+ "all hold": true,
+ "seconds": 358.4
+}

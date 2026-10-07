@@ -1,0 +1,16 @@
+# B1549 -- sha-256 of the sealed files, recorded at the seal (before run.py read any count at a member; the controls K1-K5
+# read structure and the counts the record banks: main's B1492 and B1493, sm:B1545). identity.py checks every line first.
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1549_the_three_ended_covers/)
+8ba1daba9808461254255a1cd87dfe3053ec640da3d8aaabc94bc63f01b8c52b  PREREGISTRATION.md
+1287dfdbf3eb336ea4f5560aae006c5e656752cae312dcd8d29675aeba51127c  verification/three_lib.py
+342d2973298faf2c2eaeb5e8a43bd91672bb64594df1fa4a638babafc505efb5  verification/census.py
+c85799cf8b49e0700f062ec8c97ee8d6c805173dc370d8bb038d48249fc27abd  verification/census_0.jsonl.gz
+f1d9f1e2c9b6bf9b739fe32892620c6790a2cadcaa46157dfbfbf4d0ae7fac16  verification/census_1.jsonl.gz
+c3a47c029706eef3639d91caa7749fc18caf52ac0774d9823fd088c67a6bbc80  verification/census_sha256.txt
+ff4ce2651d3784b4ee52d6da4c9e8b82618698c0549bba0c99d18bc59c0615ad  verification/population.json
+b2b81baeafe477c409c61a2736b11493cbd941b66d6555b44c701d9c35ef2b16  verification/run.py
+9590c9f39893c5fca245b7826cce3c2b0dc9368fd7896a63a11a5d07fb24f37f  verification/read_out.py
+8d8043bbb5eef16ccd7515e2615745ece337a8693940d0524442d4fa50b14f4a  verification/controls.py
+96f15bd501103907097514230ab86429e4ad92ac2a2e520d7450a18d6ee2837d  verification/controls.json
+6300b2d37c764aa27a75287fd4b75deb29478120931db84fc4bfa70cf81d66b5  verification/controls_trial.json
+9de9994aeeadc569cba0dad0f8bb7205ae73c540c91f05afb8c1e5784c044079  verification/identity.py
