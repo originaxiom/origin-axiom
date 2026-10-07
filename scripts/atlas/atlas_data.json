@@ -10333,6 +10333,35 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1550": {
+   "slug": "the three parities",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B298",
+    "B326",
+    "K1",
+    "K3",
+    "K5",
+    "K6",
+    "P1",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B155": {
    "slug": "golden phase bridge",
    "motifs": [
